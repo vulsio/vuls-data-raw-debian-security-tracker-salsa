@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "pdns-recursor"
+  ],
+  "Build-Conflicts": [
+    "libboost-context-dev [mips mipsel]"
+  ],
+  "Build-Depends": [
+    "architecture-is-64-bit, debhelper-compat (= 13), libboost-context-dev [amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x], libboost-dev, libboost-filesystem-dev, libboost-program-options-dev, libboost-system-dev, libboost-test-dev, libboost-thread-dev, libcap-dev, libcurl4-openssl-dev, libfstrm-dev, libluajit-5.1-dev (>= 2.1.0~beta3+dfsg-5.3) [amd64 arm64] | libluajit-5.1-dev [amd64] | liblua5.3-dev, libprotobuf-dev, libsnmp-dev, libsodium-dev, libssl-dev, libsystemd-dev, pkgconf, protobuf-compiler, ragel, systemd"
+  ],
+  "Checksums-Sha256": [
+    "0acfae23ef044f30a26e840273e545f5f43663c9ec603c161676e9de189465d0 2871 pdns-recursor_4.9.1-4.dsc 0a1edc13e8f2bd661f39e316387d941e22de6a03b8a7a2fc662fdf8b942ea2be 1566613 pdns-recursor_4.9.1.orig.tar.bz2 76d85e2be34b161d1cb4aea340d2dca0e45c6d36060e6d8e52bf83ef86813d8b 488 pdns-recursor_4.9.1.orig.tar.bz2.asc 63256b5eb7a1e9f7325198e7d11b39de21e8c2877eafeecec30821c8a782e79c 23856 pdns-recursor_4.9.1-4.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pdns-recursor"
+  ],
+  "Files": [
+    "ca6b1d104bf9faa9f25a65708501a29e 2871 pdns-recursor_4.9.1-4.dsc d167a7df53e485835a07ad23a82f72bd 1566613 pdns-recursor_4.9.1.orig.tar.bz2 f2ef45e0dee85eca7bf79130bc465e7d 488 pdns-recursor_4.9.1.orig.tar.bz2.asc a5c224a5b74957223de60e9ea142dd5d 23856 pdns-recursor_4.9.1-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.powerdns.com/"
+  ],
+  "Maintainer": [
+    "pdns-recursor packagers <pdns-recursor@packages.debian.org>"
+  ],
+  "Package": [
+    "pdns-recursor"
+  ],
+  "Package-List": [
+    "pdns-recursor deb net optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "net"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dnsutils"
+  ],
+  "Uploaders": [
+    "Chris Hofstaedtler <zeha@debian.org>, Marc Haber <mh+debian-packages@zugschlus.de>"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/pdns-recursor"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/pdns-recursor.git"
+  ],
+  "Version": [
+    "4.9.1-4"
+  ]
+}

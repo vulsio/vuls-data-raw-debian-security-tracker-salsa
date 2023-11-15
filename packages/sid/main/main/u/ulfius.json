@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libulfius2.7, libulfius-dev, uwsc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libmicrohttpd-dev, libcurl4-gnutls-dev, libgnutls28-dev, libjansson-dev, liborcania-dev, libyder-dev, cmake, pkg-config, check, gnutls-bin, doxygen, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "ebec03b740c790e3639ca5fa5ce5a987c5e00cfaa5da1ea5bb82184b1d719f57 2390 ulfius_2.7.14-1.dsc b102cf591ea6526831d72367388bd48dd3ffa3e610513b633ca6cb245dfc07b2 452224 ulfius_2.7.14.orig.tar.gz 2cd046bca40e0777e78b636d1553165596f173e0235b8a3df05f958f4a4b12fd 8436 ulfius_2.7.14-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/u/ulfius"
+  ],
+  "Files": [
+    "553cb313d31061e60b96118a53eec9bf 2390 ulfius_2.7.14-1.dsc 33a45827539bb27e1c5878b61f82694b 452224 ulfius_2.7.14.orig.tar.gz addb6154e99229c156f258dfa6ce7204 8436 ulfius_2.7.14-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/babelouest/ulfius"
+  ],
+  "Maintainer": [
+    "Debian IoT Maintainers <debian-iot-maintainers@lists.alioth.debian.org>"
+  ],
+  "Package": [
+    "ulfius"
+  ],
+  "Package-List": [
+    "libulfius-dev deb libdevel optional arch=any libulfius2.7 deb libs optional arch=any uwsc deb devel optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "check, gcc, gnutls-bin, libc-dev, liborcania-dev, libsubunit-dev, libyder-dev, pkg-config, zlib1g-dev"
+  ],
+  "Uploaders": [
+    "Thorsten Alteholz <debian@alteholz.de> , Nicolas Mora <babelouest@debian.org>"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-iot-team/oauth2/ulfius.git"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-iot-team/oauth2/ulfius.git"
+  ],
+  "Version": [
+    "2.7.14-1"
+  ]
+}

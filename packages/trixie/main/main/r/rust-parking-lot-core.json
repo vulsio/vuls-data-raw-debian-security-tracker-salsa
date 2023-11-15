@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-parking-lot-core-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cfg-if-1+default-dev <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.95-~~) <!nocheck>, librust-smallvec-1+default-dev (>= 1.6.1-~~) <!nocheck>"
+  ],
+  "Checksums-Sha256": [
+    "f8274bc5950d9163cfc5c34ad40025595eb7d9e4befd5150b2c09ecfcb22efe5 2081 rust-parking-lot-core_0.9.6-1.dsc ba1ef8814b5c993410bb3adfad7a5ed269563e4a2f90c41f5d85be7fb47133bf 32414 rust-parking-lot-core_0.9.6.orig.tar.gz 865f75219a63a950defa9c975c2e6d686acfab7edb232f5c2082187d6766350e 3948 rust-parking-lot-core_0.9.6-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-parking-lot-core"
+  ],
+  "Files": [
+    "862afa86833c883a9570531bb4990077 2081 rust-parking-lot-core_0.9.6-1.dsc 692225fe695f709455fe615fb63a6ba9 32414 rust-parking-lot-core_0.9.6.orig.tar.gz 371e93fc8fa46422dd261cd819420ea1 3948 rust-parking-lot-core_0.9.6-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+  ],
+  "Package": [
+    "rust-parking-lot-core"
+  ],
+  "Package-List": [
+    "librust-parking-lot-core-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "Sylvestre Ledru <sylvestre@debian.org>, Wolfgang Silbermayr <wolfgang@silbermayr.at>"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/parking-lot-core"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/parking-lot-core]"
+  ],
+  "Version": [
+    "0.9.6-1"
+  ]
+}

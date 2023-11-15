@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-anyhow-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>"
+  ],
+  "Checksums-Sha256": [
+    "0c6f04fd946144e8a4bb2a7bfd6255bb753bfaafda4da1051b36d448fa549810 2343 rust-anyhow_1.0.72-1.dsc 3b13c32d80ecc7ab747b80c3784bce54ee8a7a0cc4fbda9bf4cda2cf6fe90854 43837 rust-anyhow_1.0.72.orig.tar.gz 120953976d970d6b4066a00fc6ac2ab159e74aac71ac5b4c72c65cba7c777a59 3176 rust-anyhow_1.0.72-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-anyhow"
+  ],
+  "Files": [
+    "68f469f3746e0358183a517c69217c9a 2343 rust-anyhow_1.0.72-1.dsc b889f8d54e2eab956d0bd28715c34a2c 43837 rust-anyhow_1.0.72.orig.tar.gz 824d3da6978551d8afa7c4129dc2d810 3176 rust-anyhow_1.0.72-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+  ],
+  "Package": [
+    "rust-anyhow"
+  ],
+  "Package-List": [
+    "librust-anyhow-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-futures-0.3-dev, librust-rustversion-1+default-dev, librust-syn-2+default-dev, librust-syn-2+full-dev, librust-thiserror-1+default-dev, librust-trybuild-1+default-dev, librust-trybuild-1+diff-dev"
+  ],
+  "Uploaders": [
+    "Wolfgang Silbermayr <wolfgang@silbermayr.at>"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/anyhow"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/anyhow]"
+  ],
+  "Version": [
+    "1.0.72-1"
+  ]
+}

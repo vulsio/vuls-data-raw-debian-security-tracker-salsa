@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-virtualenv, virtualenv"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, unzip <!nocheck>, zip <!nocheck>"
+  ],
+  "Build-Depends-Indep": [
+    "python3-distlib (>= 0.3.1) <!nocheck>, python3-distutils <!nocheck>, python3-filelock <!nocheck>, python3-importlib-metadata (>= 3.6) <!nocheck>, python3-pip-whl <!nocheck>, python3-platformdirs <!nocheck>, python3-hatchling (>= 1.11.1), python3-hatch-vcs (>= 0.3), python3-setuptools-whl <!nocheck>, python3-wheel-whl <!nocheck>"
+  ],
+  "Checksums-Sha256": [
+    "9ecac5a086498444a9e1c9662e87da027eaf3354b0a37c97426406391c25b072 2140 python-virtualenv_20.24.1+ds-1.dsc 3eca7f528b6d954adc903eea9d9be7be1f32a17301e3f23021fd7cce37c5e0bb 3325544 python-virtualenv_20.24.1+ds.orig.tar.xz fa7207f80328fc60ffc91a349d7daccbf4959d1c4b37aa7c639d654e17f3b144 14960 python-virtualenv_20.24.1+ds-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-virtualenv"
+  ],
+  "Files": [
+    "35eb450405e9f377c73ebe8ad0b9165d 2140 python-virtualenv_20.24.1+ds-1.dsc ef7f0587132d54e6cedb6287e37435c1 3325544 python-virtualenv_20.24.1+ds.orig.tar.xz ea89f0f0c3479f2c512611e2c65ed20c 14960 python-virtualenv_20.24.1+ds-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://virtualenv.pypa.io/"
+  ],
+  "Maintainer": [
+    "Debian Python Team <team+python@tracker.debian.org>"
+  ],
+  "Package": [
+    "python-virtualenv"
+  ],
+  "Package-List": [
+    "python3-virtualenv deb python optional arch=all virtualenv deb oldlibs optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "python"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "pypy3, python3-all, python3-filelock, python3-six, shunit2"
+  ],
+  "Uploaders": [
+    "Carl Chenet <chaica@ohmytux.com>, Stefano Rivera <stefanor@debian.org>, Scott Kitterman <scott@kitterman.com>,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-virtualenv"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-virtualenv.git"
+  ],
+  "Version": [
+    "20.24.1+ds-1"
+  ]
+}

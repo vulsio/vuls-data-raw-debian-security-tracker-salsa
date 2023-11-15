@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-trycmd-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-glob-0.3+default-dev <!nocheck>, librust-humantime-2+default-dev <!nocheck>, librust-humantime-serde-1+default-dev <!nocheck>, librust-rayon-1+default-dev (>= 1.5.1-~~) <!nocheck>, librust-serde-1+default-dev <!nocheck>, librust-serde-1+derive-dev <!nocheck>, librust-shlex-1+default-dev (>= 1.1.0-~~) <!nocheck>, librust-snapbox-0.4+cmd-dev (>= 0.4.12-~~) <!nocheck>, librust-snapbox-0.4+color-auto-dev (>= 0.4.12-~~) <!nocheck>, librust-snapbox-0.4+diff-dev (>= 0.4.12-~~) <!nocheck>, librust-snapbox-0.4+path-dev (>= 0.4.12-~~) <!nocheck>, librust-toml-edit-0.19+default-dev <!nocheck>, librust-toml-edit-0.19+serde-dev <!nocheck>"
+  ],
+  "Checksums-Sha256": [
+    "d1fd018293004e1ae02d7a68d7044c96aff155693d3bc5b7aa79c39823adc2a2 2494 rust-trycmd_0.14.17-1.dsc bc6a42f89ccf3c6ee115608a68e256c172734d525a4ac36d4a17a6d4a8108149 33271 rust-trycmd_0.14.17.orig.tar.gz 15ca79dde5389de04b080c510118d145253b8c56db66465f443f74d224305ddb 3200 rust-trycmd_0.14.17-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-trycmd"
+  ],
+  "Files": [
+    "cad6dfcc9a98ece954239768bb0717d7 2494 rust-trycmd_0.14.17-1.dsc 5ed191a570b9d05be04c0dae6c294208 33271 rust-trycmd_0.14.17.orig.tar.gz 3552b65c0bb50daa1d36b2131a910901 3200 rust-trycmd_0.14.17-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/assert-rs/trycmd"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+  ],
+  "Package": [
+    "rust-trycmd"
+  ],
+  "Package-List": [
+    "librust-trycmd-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "Peter Michael Green <plugwash@debian.org>, Jelmer Vernooĳ <jelmer@debian.org>"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/trycmd"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/trycmd]"
+  ],
+  "Version": [
+    "0.14.17-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "autopkgtest"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), fakeroot, procps, pycodestyle | pep8, pyflakes3, python3 (>= 3.3), python3-debian, python3-docutils, python3-mock"
+  ],
+  "Checksums-Sha256": [
+    "a53b55fd6683277d7d0b3086887ad75d54c003911c6a80bc07a62188de98997f 2051 autopkgtest_5.31.dsc fcb70ccd261a6a0adcf4e51873e199865e445c1c994d2f8a8a05241a58e25d60 214616 autopkgtest_5.31.tar.xz"
+  ],
+  "Dgit": [
+    "a7419dec01fc3bf0aba73547c447c3b2818f1966 debian archive/debian/5.31 https://git.dgit.debian.org/autopkgtest"
+  ],
+  "Directory": [
+    "pool/main/a/autopkgtest"
+  ],
+  "Files": [
+    "b8e13e022d51dfd0083edf68a1c5fedd 2051 autopkgtest_5.31.dsc af674aed1114aacf17eca4660e62b1e0 214616 autopkgtest_5.31.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Maintainer": [
+    "Debian CI team <team+ci@tracker.debian.org>"
+  ],
+  "Package": [
+    "autopkgtest"
+  ],
+  "Package-List": [
+    "autopkgtest deb devel optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "devel"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "adduser, autodep8, build-essential, buildah, ca-certificates, catatonit, debhelper, debootstrap, devscripts, distro-info, dnsmasq, dnsmasq-base, docker.io, dumb-init, fakeroot, golang-github-containernetworking-plugin-dnsname, iptables, libpam-cgfs, lxc, lxc-templates, lxcfs, lxd, mmdebstrap, podman, python3-distro-info, rsync, sbuild, schroot, slirp4netns, tini, uidmap, util-linux"
+  ],
+  "Uploaders": [
+    "Ian Jackson <ijackson@chiark.greenend.org.uk>, Martin Pitt <mpitt@debian.org>, Antonio Terceiro <terceiro@debian.org>, Paul Gevers <elbrus@debian.org>, Simon McVittie <smcv@debian.org>"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ci-team/autopkgtest"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ci-team/autopkgtest.git"
+  ],
+  "Version": [
+    "5.31"
+  ]
+}
