@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "icinga2, icinga2-common, icinga2-bin, icinga2-doc, icinga2-classicui, icinga2-ido-mysql, icinga2-ido-pgsql, icinga2-dbg, libicinga2, icinga2-studio, vim-icinga2"
-  ],
-  "Build-Depends": [
-    "bash-completion, bison, cmake (>= 2.8.7), cmake (>= 3.2.2) | pkg-config, debhelper (>= 9), dh-systemd (>= 1.5), flex, g++ (>= 1.96), libboost-dev, libboost-program-options-dev, libboost-regex-dev, libboost-system-dev, libboost-test-dev, libboost-thread-dev, default-libmysqlclient-dev, libpq-dev, libssl-dev, libyajl-dev, libedit-dev, libwxgtk3.0-dev, make (>= 3.81), po-debconf"
-  ],
-  "Checksums-Sha1": [
-    "8d0708f8a12d465b948149a63f2eb2b32ce2e4fd 2955 icinga2_2.6.0-2+deb9u2.dsc 11a9c29221d865fd2b3de69f4103c2e190d68141 2353930 icinga2_2.6.0.orig.tar.gz c74031b7434d3878bf6ce8384c6d741107d6b6ed 35656 icinga2_2.6.0-2+deb9u2.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "5acdde8cab30c06e3237601e13a86fa7d3c146a0c3d8dd79239bbeaac3c32f63 2955 icinga2_2.6.0-2+deb9u2.dsc b04627d7508dda4bb7b75b74501586d34b5d3d8752291c56682ba1137af03270 2353930 icinga2_2.6.0.orig.tar.gz 4ddbf7fa3fcdf56cd9b907ae14d30c55d8209b9f79a409fcae8d25ef2d6771d4 35656 icinga2_2.6.0-2+deb9u2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/i/icinga2"
-  ],
-  "Files": [
-    "f4d7e03339f300a49a4444fa0ae08503 2955 icinga2_2.6.0-2+deb9u2.dsc be7a897088f910069972b0250181ed27 2353930 icinga2_2.6.0.orig.tar.gz 8c27d7ec4a33b5997e3c72fa8f7038a6 35656 icinga2_2.6.0-2+deb9u2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.icinga.org"
-  ],
-  "Maintainer": [
-    "Debian Nagios Maintainer Group <pkg-nagios-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "icinga2"
-  ],
-  "Package-List": [
-    "icinga2 deb admin extra arch=any icinga2-bin deb admin extra arch=any icinga2-classicui deb admin extra arch=all icinga2-common deb admin extra arch=all icinga2-dbg deb debug extra arch=any icinga2-doc deb doc extra arch=all icinga2-ido-mysql deb admin extra arch=any icinga2-ido-pgsql deb admin extra arch=any icinga2-studio deb admin extra arch=any libicinga2 deb libs extra arch=any vim-icinga2 deb admin extra arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Markus Frosch <lazyfrosch@debian.org>, Jan Wagner <waja@cyconet.org>, Alexander Wirt <formorer@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-nagios/pkg-icinga2.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-nagios/pkg-icinga2.git"
-  ],
-  "Version": [
-    "2.6.0-2+deb9u2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"icinga2, icinga2-common, icinga2-bin, icinga2-doc, icinga2-classicui, icinga2-ido-mysql, icinga2-ido-pgsql, icinga2-dbg, libicinga2, icinga2-studio, vim-icinga2"
+	],
+	"Build-Depends": [
+		"bash-completion, bison, cmake (>= 2.8.7), cmake (>= 3.2.2) | pkg-config, debhelper (>= 9), dh-systemd (>= 1.5), flex, g++ (>= 1.96), libboost-dev, libboost-program-options-dev, libboost-regex-dev, libboost-system-dev, libboost-test-dev, libboost-thread-dev, default-libmysqlclient-dev, libpq-dev, libssl-dev, libyajl-dev, libedit-dev, libwxgtk3.0-dev, make (>= 3.81), po-debconf"
+	],
+	"Checksums-Sha1": [
+		"8d0708f8a12d465b948149a63f2eb2b32ce2e4fd 2955 icinga2_2.6.0-2+deb9u2.dsc 11a9c29221d865fd2b3de69f4103c2e190d68141 2353930 icinga2_2.6.0.orig.tar.gz c74031b7434d3878bf6ce8384c6d741107d6b6ed 35656 icinga2_2.6.0-2+deb9u2.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"5acdde8cab30c06e3237601e13a86fa7d3c146a0c3d8dd79239bbeaac3c32f63 2955 icinga2_2.6.0-2+deb9u2.dsc b04627d7508dda4bb7b75b74501586d34b5d3d8752291c56682ba1137af03270 2353930 icinga2_2.6.0.orig.tar.gz 4ddbf7fa3fcdf56cd9b907ae14d30c55d8209b9f79a409fcae8d25ef2d6771d4 35656 icinga2_2.6.0-2+deb9u2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/i/icinga2"
+	],
+	"Files": [
+		"f4d7e03339f300a49a4444fa0ae08503 2955 icinga2_2.6.0-2+deb9u2.dsc be7a897088f910069972b0250181ed27 2353930 icinga2_2.6.0.orig.tar.gz 8c27d7ec4a33b5997e3c72fa8f7038a6 35656 icinga2_2.6.0-2+deb9u2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.icinga.org"
+	],
+	"Maintainer": [
+		"Debian Nagios Maintainer Group <pkg-nagios-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"icinga2"
+	],
+	"Package-List": [
+		"icinga2 deb admin extra arch=any icinga2-bin deb admin extra arch=any icinga2-classicui deb admin extra arch=all icinga2-common deb admin extra arch=all icinga2-dbg deb debug extra arch=any icinga2-doc deb doc extra arch=all icinga2-ido-mysql deb admin extra arch=any icinga2-ido-pgsql deb admin extra arch=any icinga2-studio deb admin extra arch=any libicinga2 deb libs extra arch=any vim-icinga2 deb admin extra arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Markus Frosch <lazyfrosch@debian.org>, Jan Wagner <waja@cyconet.org>, Alexander Wirt <formorer@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-nagios/pkg-icinga2.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-nagios/pkg-icinga2.git"
+	],
+	"Version": [
+		"2.6.0-2+deb9u2"
+	]
 }

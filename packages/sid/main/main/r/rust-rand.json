@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-rand-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2-dev (>= 0.2.22-~~) <!nocheck>, librust-rand-chacha-0.3+std-dev <!nocheck>, librust-rand-chacha-0.3-dev <!nocheck>, librust-rand-core-0.6+alloc-dev <!nocheck>, librust-rand-core-0.6+default-dev <!nocheck>, librust-rand-core-0.6+getrandom-dev <!nocheck>, librust-rand-core-0.6+std-dev <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "ad11db8770e27a3736b2919aa48326f4442f48f0de20d44e5a191c23cfc3f997 2531 rust-rand_0.8.5-1.dsc 34af8d1a0e25924bc5b7c43c079c942339d8f0a8b57c39049bef581b46327404 87113 rust-rand_0.8.5.orig.tar.gz 917c9dcc6e235a0e6720b7a272bb3a52d899bded69e67f62a594f53945f85225 4724 rust-rand_0.8.5-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-rand"
-  ],
-  "Files": [
-    "4fe898f80f45e2f141db3228df74de79 2531 rust-rand_0.8.5-1.dsc ee7a5f842c39bc47c474196e83b0df5f 87113 rust-rand_0.8.5.orig.tar.gz 2e1f0005643a014d057fb3913da4931a 4724 rust-rand_0.8.5-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://rust-random.github.io/book"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-rand"
-  ],
-  "Package-List": [
-    "librust-rand-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-bincode-1+default-dev, librust-rand-pcg-0.3+default-dev"
-  ],
-  "Uploaders": [
-    "Wolfgang Silbermayr <wolfgang@silbermayr.at>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/rand"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/rand]"
-  ],
-  "Version": [
-    "0.8.5-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-rand-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2-dev (>= 0.2.22-~~) <!nocheck>, librust-rand-chacha-0.3+std-dev <!nocheck>, librust-rand-chacha-0.3-dev <!nocheck>, librust-rand-core-0.6+alloc-dev <!nocheck>, librust-rand-core-0.6+default-dev <!nocheck>, librust-rand-core-0.6+getrandom-dev <!nocheck>, librust-rand-core-0.6+std-dev <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"ad11db8770e27a3736b2919aa48326f4442f48f0de20d44e5a191c23cfc3f997 2531 rust-rand_0.8.5-1.dsc 34af8d1a0e25924bc5b7c43c079c942339d8f0a8b57c39049bef581b46327404 87113 rust-rand_0.8.5.orig.tar.gz 917c9dcc6e235a0e6720b7a272bb3a52d899bded69e67f62a594f53945f85225 4724 rust-rand_0.8.5-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-rand"
+	],
+	"Files": [
+		"4fe898f80f45e2f141db3228df74de79 2531 rust-rand_0.8.5-1.dsc ee7a5f842c39bc47c474196e83b0df5f 87113 rust-rand_0.8.5.orig.tar.gz 2e1f0005643a014d057fb3913da4931a 4724 rust-rand_0.8.5-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://rust-random.github.io/book"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-rand"
+	],
+	"Package-List": [
+		"librust-rand-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-bincode-1+default-dev, librust-rand-pcg-0.3+default-dev"
+	],
+	"Uploaders": [
+		"Wolfgang Silbermayr <wolfgang@silbermayr.at>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/rand"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/rand]"
+	],
+	"Version": [
+		"0.8.5-1"
+	]
 }

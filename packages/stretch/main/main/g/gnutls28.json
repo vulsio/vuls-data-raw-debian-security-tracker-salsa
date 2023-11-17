@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libgnutls28-dev, libgnutls30, gnutls-bin, gnutls-doc, libgnutlsxx28, libgnutls-openssl27, libgnutls-dane0"
-  ],
-  "Build-Conflicts": [
-    "libgnutls-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9.20150628), nettle-dev (>= 3.1), zlib1g-dev, libtasn1-6-dev (>= 4.9), autotools-dev, datefudge <!nocheck>, dpkg-dev (>= 1.17.14), libp11-kit-dev (>= 0.23.1), pkg-config, chrpath, libidn11-dev (>= 1.31), autogen (>= 1:5.16-0), bison, dh-autoreconf, libcmocka-dev <!nocheck>, libgmp-dev (>= 2:6), libopts25-dev, automake (>= 1:1.12.2), libunbound-dev (>= 1.5.10-1), net-tools [!kfreebsd-i386 !kfreebsd-amd64] <!nocheck>, freebsd-net-tools [kfreebsd-i386 kfreebsd-amd64] <!nocheck>, libssl-dev <!nocheck>, openssl <!nocheck>, softhsm2 <!nocheck>"
-  ],
-  "Build-Depends-Indep": [
-    "gtk-doc-tools, texinfo (>= 4.8)"
-  ],
-  "Checksums-Sha256": [
-    "2645e4bf3186f864048d876cd944ef0eb15222f648994b4028497aa03a98328e 3286 gnutls28_3.5.8-5+deb9u5.dsc 0e97f243ae72b70307d684b84c7fe679385aa7a7a0e37e5be810193dcc17d4ff 7264448 gnutls28_3.5.8.orig.tar.xz 417da9db564a841128edb2dc2c98465a5749541f7d71492cb7c4905a0bfeac82 287 gnutls28_3.5.8.orig.tar.xz.asc 3b26b1c9eb7010e05a3293dd61db8788d5c7e2c206062e427cdcf14ccf29dc71 116684 gnutls28_3.5.8-5+deb9u5.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/g/gnutls28"
-  ],
-  "Files": [
-    "b38a636f6a57b6c775a7a9dd76037218 3286 gnutls28_3.5.8-5+deb9u5.dsc 113e892e51acdb11b81804cd355adfee 7264448 gnutls28_3.5.8.orig.tar.xz 02647c990bd24fd3fa55b9be17d684d2 287 gnutls28_3.5.8.orig.tar.xz.asc 80bf9d64cfd99df77156fc74dd6f92ca 116684 gnutls28_3.5.8-5+deb9u5.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.gnutls.org/"
-  ],
-  "Maintainer": [
-    "Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "gnutls28"
-  ],
-  "Package-List": [
-    "gnutls-bin deb net optional arch=any gnutls-doc deb doc optional arch=all libgnutls-dane0 deb libs extra arch=any libgnutls-openssl27 deb libs standard arch=any libgnutls28-dev deb libdevel optional arch=any libgnutls30 deb libs standard arch=any libgnutlsxx28 deb libs extra arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "libs"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Andreas Metzler <ametzler@debian.org>, Eric Dorland <eric@debian.org>, James Westby <jw+debian@jameswestby.net>, Simon Josefsson <simon@josefsson.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-gnutls/gnutls.git/"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-gnutls/gnutls.git"
-  ],
-  "Version": [
-    "3.5.8-5+deb9u5"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libgnutls28-dev, libgnutls30, gnutls-bin, gnutls-doc, libgnutlsxx28, libgnutls-openssl27, libgnutls-dane0"
+	],
+	"Build-Conflicts": [
+		"libgnutls-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9.20150628), nettle-dev (>= 3.1), zlib1g-dev, libtasn1-6-dev (>= 4.9), autotools-dev, datefudge <!nocheck>, dpkg-dev (>= 1.17.14), libp11-kit-dev (>= 0.23.1), pkg-config, chrpath, libidn11-dev (>= 1.31), autogen (>= 1:5.16-0), bison, dh-autoreconf, libcmocka-dev <!nocheck>, libgmp-dev (>= 2:6), libopts25-dev, automake (>= 1:1.12.2), libunbound-dev (>= 1.5.10-1), net-tools [!kfreebsd-i386 !kfreebsd-amd64] <!nocheck>, freebsd-net-tools [kfreebsd-i386 kfreebsd-amd64] <!nocheck>, libssl-dev <!nocheck>, openssl <!nocheck>, softhsm2 <!nocheck>"
+	],
+	"Build-Depends-Indep": [
+		"gtk-doc-tools, texinfo (>= 4.8)"
+	],
+	"Checksums-Sha256": [
+		"2645e4bf3186f864048d876cd944ef0eb15222f648994b4028497aa03a98328e 3286 gnutls28_3.5.8-5+deb9u5.dsc 0e97f243ae72b70307d684b84c7fe679385aa7a7a0e37e5be810193dcc17d4ff 7264448 gnutls28_3.5.8.orig.tar.xz 417da9db564a841128edb2dc2c98465a5749541f7d71492cb7c4905a0bfeac82 287 gnutls28_3.5.8.orig.tar.xz.asc 3b26b1c9eb7010e05a3293dd61db8788d5c7e2c206062e427cdcf14ccf29dc71 116684 gnutls28_3.5.8-5+deb9u5.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/gnutls28"
+	],
+	"Files": [
+		"b38a636f6a57b6c775a7a9dd76037218 3286 gnutls28_3.5.8-5+deb9u5.dsc 113e892e51acdb11b81804cd355adfee 7264448 gnutls28_3.5.8.orig.tar.xz 02647c990bd24fd3fa55b9be17d684d2 287 gnutls28_3.5.8.orig.tar.xz.asc 80bf9d64cfd99df77156fc74dd6f92ca 116684 gnutls28_3.5.8-5+deb9u5.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.gnutls.org/"
+	],
+	"Maintainer": [
+		"Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"gnutls28"
+	],
+	"Package-List": [
+		"gnutls-bin deb net optional arch=any gnutls-doc deb doc optional arch=all libgnutls-dane0 deb libs extra arch=any libgnutls-openssl27 deb libs standard arch=any libgnutls28-dev deb libdevel optional arch=any libgnutls30 deb libs standard arch=any libgnutlsxx28 deb libs extra arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"libs"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Andreas Metzler <ametzler@debian.org>, Eric Dorland <eric@debian.org>, James Westby <jw+debian@jameswestby.net>, Simon Josefsson <simon@josefsson.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-gnutls/gnutls.git/"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-gnutls/gnutls.git"
+	],
+	"Version": [
+		"3.5.8-5+deb9u5"
+	]
 }

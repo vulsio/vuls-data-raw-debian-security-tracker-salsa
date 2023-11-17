@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "libav-tools, ffmpeg, ffmpeg-dbg, libav-dbg, libav-extra-dbg, ffmpeg-doc, libav-doc, libavutil51, libavcodec53, libavdevice53, libavformat53, libavfilter2, libpostproc52, libswscale2, libavutil-dev, libavcodec-dev, libavdevice-dev, libavformat-dev, libavfilter-dev, libpostproc-dev, libswscale-dev, libavutil-extra-51, libavcodec-extra-53, libavdevice-extra-53, libavfilter-extra-2, libpostproc-extra-52, libavformat-extra-53, libswscale-extra-2"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 7), frei0r-plugins-dev, libasound2-dev [linux-any], libbz2-dev, libcdio-cdda-dev, libcdio-dev, libcdio-paranoia-dev, libdc1394-22-dev [linux-any], libdirac-dev, libfreetype6-dev, libgnutls-dev, libgsm1-dev, libimlib2-dev, libjack-dev, libmp3lame-dev, libopencore-amrnb-dev, libopencore-amrwb-dev, libopenjpeg-dev, libpulse-dev, libraw1394-dev [linux-any], librtmp-dev (>= 2.2e-4), libschroedinger-dev, libsdl1.2-dev, libspeex-dev, libtheora-dev (>> 0.0.0.alpha4), libtiff4-dev | libtiff-dev, libva-dev [!hurd-any], libvdpau-dev, libvo-aacenc-dev, libvo-amrwbenc-dev, libvorbis-dev, libvpx-dev, libx11-dev, libx264-dev (>= 2:0.118), libxext-dev, libxfixes-dev, libxvidcore-dev, libxvmc-dev, texi2html, yasm [any-amd64 any-i386], zlib1g-dev"
-  ],
-  "Build-Depends-Indep": [
-    "doxygen"
-  ],
-  "Checksums-Sha1": [
-    "099193bdff70eefb367e39f3d96a74f15b505310 2968 libav_0.8.6-1~bpo60+1.dsc c143f55d4a2897a56309214956e66578dd675659 5289362 libav_0.8.6.orig.tar.gz f5b578833155c20ab5ac6f6a2c04ab5f84c4b12f 42541 libav_0.8.6-1~bpo60+1.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "a5065af72e3d0365c3c02a33f185aa108f9a553bc16ae726efdbdf7c810c978c 2968 libav_0.8.6-1~bpo60+1.dsc b03e23f3c34331ce955c2ac4e90994d1b7b0f1b7f52e9c651daf94a99671dd67 5289362 libav_0.8.6.orig.tar.gz 3c4a759eb856b0f07f9487cb65ed97f2b23a76642be1f1bfee6d6d618bbea3f4 42541 libav_0.8.6-1~bpo60+1.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/liba/libav"
-  ],
-  "Dm-Upload-Allowed": [
-    "yes"
-  ],
-  "Files": [
-    "b3b071156829da40b8b4c2800654eea8 2968 libav_0.8.6-1~bpo60+1.dsc 7154a4cf9cc6ac3b6950b1355e0b0644 5289362 libav_0.8.6.orig.tar.gz 2cb5565654080ae7044fa113508d4015 42541 libav_0.8.6-1~bpo60+1.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://libav.org/"
-  ],
-  "Maintainer": [
-    "Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "libav"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "libs"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Sam Hocevar (Debian packages) <sam+deb@zoy.org>, Loïc Minier <lool@debian.org>, Reinhard Tartler <siretart@tauware.de>, Fabian Greffrath <fabian+debian@greffrath.com>, Andres Mejia <amejia@debian.org>, Jonas Smedegaard <dr@jones.dk>"
-  ],
-  "Vcs-Browser": [
-    "http://git.debian.org/?p=pkg-multimedia/libav.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/git/pkg-multimedia/libav.git"
-  ],
-  "Version": [
-    "6:0.8.6-1~bpo60+1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"libav-tools, ffmpeg, ffmpeg-dbg, libav-dbg, libav-extra-dbg, ffmpeg-doc, libav-doc, libavutil51, libavcodec53, libavdevice53, libavformat53, libavfilter2, libpostproc52, libswscale2, libavutil-dev, libavcodec-dev, libavdevice-dev, libavformat-dev, libavfilter-dev, libpostproc-dev, libswscale-dev, libavutil-extra-51, libavcodec-extra-53, libavdevice-extra-53, libavfilter-extra-2, libpostproc-extra-52, libavformat-extra-53, libswscale-extra-2"
+	],
+	"Build-Depends": [
+		"debhelper (>= 7), frei0r-plugins-dev, libasound2-dev [linux-any], libbz2-dev, libcdio-cdda-dev, libcdio-dev, libcdio-paranoia-dev, libdc1394-22-dev [linux-any], libdirac-dev, libfreetype6-dev, libgnutls-dev, libgsm1-dev, libimlib2-dev, libjack-dev, libmp3lame-dev, libopencore-amrnb-dev, libopencore-amrwb-dev, libopenjpeg-dev, libpulse-dev, libraw1394-dev [linux-any], librtmp-dev (>= 2.2e-4), libschroedinger-dev, libsdl1.2-dev, libspeex-dev, libtheora-dev (>> 0.0.0.alpha4), libtiff4-dev | libtiff-dev, libva-dev [!hurd-any], libvdpau-dev, libvo-aacenc-dev, libvo-amrwbenc-dev, libvorbis-dev, libvpx-dev, libx11-dev, libx264-dev (>= 2:0.118), libxext-dev, libxfixes-dev, libxvidcore-dev, libxvmc-dev, texi2html, yasm [any-amd64 any-i386], zlib1g-dev"
+	],
+	"Build-Depends-Indep": [
+		"doxygen"
+	],
+	"Checksums-Sha1": [
+		"099193bdff70eefb367e39f3d96a74f15b505310 2968 libav_0.8.6-1~bpo60+1.dsc c143f55d4a2897a56309214956e66578dd675659 5289362 libav_0.8.6.orig.tar.gz f5b578833155c20ab5ac6f6a2c04ab5f84c4b12f 42541 libav_0.8.6-1~bpo60+1.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"a5065af72e3d0365c3c02a33f185aa108f9a553bc16ae726efdbdf7c810c978c 2968 libav_0.8.6-1~bpo60+1.dsc b03e23f3c34331ce955c2ac4e90994d1b7b0f1b7f52e9c651daf94a99671dd67 5289362 libav_0.8.6.orig.tar.gz 3c4a759eb856b0f07f9487cb65ed97f2b23a76642be1f1bfee6d6d618bbea3f4 42541 libav_0.8.6-1~bpo60+1.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/liba/libav"
+	],
+	"Dm-Upload-Allowed": [
+		"yes"
+	],
+	"Files": [
+		"b3b071156829da40b8b4c2800654eea8 2968 libav_0.8.6-1~bpo60+1.dsc 7154a4cf9cc6ac3b6950b1355e0b0644 5289362 libav_0.8.6.orig.tar.gz 2cb5565654080ae7044fa113508d4015 42541 libav_0.8.6-1~bpo60+1.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://libav.org/"
+	],
+	"Maintainer": [
+		"Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"libav"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"libs"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Sam Hocevar (Debian packages) <sam+deb@zoy.org>, Loïc Minier <lool@debian.org>, Reinhard Tartler <siretart@tauware.de>, Fabian Greffrath <fabian+debian@greffrath.com>, Andres Mejia <amejia@debian.org>, Jonas Smedegaard <dr@jones.dk>"
+	],
+	"Vcs-Browser": [
+		"http://git.debian.org/?p=pkg-multimedia/libav.git;a=summary"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/git/pkg-multimedia/libav.git"
+	],
+	"Version": [
+		"6:0.8.6-1~bpo60+1"
+	]
 }

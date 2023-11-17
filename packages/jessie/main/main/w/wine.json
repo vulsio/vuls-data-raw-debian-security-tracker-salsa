@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any-amd64 any-i386 any-powerpc"
-  ],
-  "Binary": [
-    "wine, wine-binfmt, wine32, wine64, wine32-dev-tools, wine32-tools, wine64-dev-tools, wine64-tools, libwine-dev, libwine-dbg, libwine, wine-bin, wine64-bin, libwine-alsa, libwine-bin, libwine-capi, libwine-cms, libwine-gl, libwine-gphoto2, libwine-ldap, libwine-openal, libwine-oss, libwine-print, libwine-sane"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), libxi-dev, libxt-dev, libxmu-dev, libx11-dev, libxext-dev, libxrandr-dev, libxcursor-dev, libxrender-dev, libxkbfile-dev, libxxf86vm-dev, libxxf86dga-dev, libxinerama-dev, libgl1-mesa-dev, libglu1-mesa-dev, libxcomposite-dev, lzma, flex, bison, oss4-dev, sharutils, dctrl-tools, freeglut3-dev, dh-autoreconf, libpng-dev, libssl-dev, libxml2-dev, libgsm1-dev, libjpeg-dev, liblcms2-dev, libldap2-dev, libxslt1-dev, unixodbc-dev, libcups2-dev, libgnutls28-dev, libopenal-dev, libmpg123-dev, libdbus-1-dev, autotools-dev, libasound2-dev, libncurses5-dev, libfreetype6-dev (>= 2.5.1), libfontconfig1-dev, freebsd-glue [kfreebsd-any], prelink [linux-any], libosmesa6-dev, libgstreamer-plugins-base0.10-dev"
-  ],
-  "Checksums-Sha1": [
-    "58b5620630dbcd1eddbe66ca3e7bb793d4712cbf 4951 wine_1.6.2-20.dsc 574b9ccedbf213622b7ee55f715764673fc27692 21252985 wine_1.6.2.orig.tar.bz2 6ee494cc86566d6ddfde65a4f95b9738af44363e 59992 wine_1.6.2-20.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "a18a010db1596f61964ce209a76e6216ccf7e17c1f675ced621356125dc2bdd9 4951 wine_1.6.2-20.dsc f0ab9eede5a0ccacbf6e50682649f9377b9199e49cf55641f1787cf72405acbe 21252985 wine_1.6.2.orig.tar.bz2 2056e6485459eb80e181fec0e28ae9c5a9b0836378a8562aeac2796559803b3b 59992 wine_1.6.2-20.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/w/wine"
-  ],
-  "Files": [
-    "4efe9b59d25f323faae4b4828af36b80 4951 wine_1.6.2-20.dsc 0f6c56f86befe38e219090915f81f48a 21252985 wine_1.6.2.orig.tar.bz2 b31bfc817fdebee515062641769598f5 59992 wine_1.6.2-20.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.winehq.org/"
-  ],
-  "Maintainer": [
-    "Debian Wine Party <pkg-wine-party@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "wine"
-  ],
-  "Package-List": [
-    "libwine deb libs optional arch=amd64,any-i386,any-powerpc libwine-alsa deb oldlibs extra arch=any-i386,any-powerpc libwine-bin deb oldlibs extra arch=any-i386,any-powerpc libwine-capi deb oldlibs extra arch=i386,powerpc libwine-cms deb oldlibs extra arch=any-i386,any-powerpc libwine-dbg deb debug extra arch=any-i386,any-powerpc libwine-dev deb libdevel optional arch=amd64,any-i386,any-powerpc libwine-gl deb oldlibs extra arch=any-i386,any-powerpc libwine-gphoto2 deb oldlibs extra arch=any-i386,any-powerpc libwine-ldap deb oldlibs extra arch=any-i386,any-powerpc libwine-openal deb oldlibs extra arch=any-i386,any-powerpc libwine-oss deb oldlibs extra arch=any-i386,any-powerpc libwine-print deb oldlibs extra arch=any-i386,any-powerpc libwine-sane deb oldlibs extra arch=any-i386,any-powerpc wine deb otherosfs optional arch=any-amd64,any-i386,any-powerpc wine-bin deb oldlibs extra arch=any-i386,any-powerpc wine-binfmt deb otherosfs optional arch=any-amd64,any-i386,any-powerpc wine32 deb otherosfs optional arch=any-i386,any-powerpc wine32-dev-tools deb oldlibs extra arch=any-i386,any-powerpc wine32-tools deb libdevel optional arch=any-i386,any-powerpc wine64 deb otherosfs optional arch=any-amd64 wine64-bin deb oldlibs extra arch=any-amd64 wine64-dev-tools deb oldlibs extra arch=amd64 wine64-tools deb libdevel optional arch=amd64"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "otherosfs"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Michael Gilbert <mgilbert@debian.org>, Stephen Kitt <skitt@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-wine/wine.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-wine/wine.git"
-  ],
-  "Version": [
-    "1.6.2-20"
-  ]
+	"Architecture": [
+		"any-amd64 any-i386 any-powerpc"
+	],
+	"Binary": [
+		"wine, wine-binfmt, wine32, wine64, wine32-dev-tools, wine32-tools, wine64-dev-tools, wine64-tools, libwine-dev, libwine-dbg, libwine, wine-bin, wine64-bin, libwine-alsa, libwine-bin, libwine-capi, libwine-cms, libwine-gl, libwine-gphoto2, libwine-ldap, libwine-openal, libwine-oss, libwine-print, libwine-sane"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), libxi-dev, libxt-dev, libxmu-dev, libx11-dev, libxext-dev, libxrandr-dev, libxcursor-dev, libxrender-dev, libxkbfile-dev, libxxf86vm-dev, libxxf86dga-dev, libxinerama-dev, libgl1-mesa-dev, libglu1-mesa-dev, libxcomposite-dev, lzma, flex, bison, oss4-dev, sharutils, dctrl-tools, freeglut3-dev, dh-autoreconf, libpng-dev, libssl-dev, libxml2-dev, libgsm1-dev, libjpeg-dev, liblcms2-dev, libldap2-dev, libxslt1-dev, unixodbc-dev, libcups2-dev, libgnutls28-dev, libopenal-dev, libmpg123-dev, libdbus-1-dev, autotools-dev, libasound2-dev, libncurses5-dev, libfreetype6-dev (>= 2.5.1), libfontconfig1-dev, freebsd-glue [kfreebsd-any], prelink [linux-any], libosmesa6-dev, libgstreamer-plugins-base0.10-dev"
+	],
+	"Checksums-Sha1": [
+		"58b5620630dbcd1eddbe66ca3e7bb793d4712cbf 4951 wine_1.6.2-20.dsc 574b9ccedbf213622b7ee55f715764673fc27692 21252985 wine_1.6.2.orig.tar.bz2 6ee494cc86566d6ddfde65a4f95b9738af44363e 59992 wine_1.6.2-20.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"a18a010db1596f61964ce209a76e6216ccf7e17c1f675ced621356125dc2bdd9 4951 wine_1.6.2-20.dsc f0ab9eede5a0ccacbf6e50682649f9377b9199e49cf55641f1787cf72405acbe 21252985 wine_1.6.2.orig.tar.bz2 2056e6485459eb80e181fec0e28ae9c5a9b0836378a8562aeac2796559803b3b 59992 wine_1.6.2-20.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/w/wine"
+	],
+	"Files": [
+		"4efe9b59d25f323faae4b4828af36b80 4951 wine_1.6.2-20.dsc 0f6c56f86befe38e219090915f81f48a 21252985 wine_1.6.2.orig.tar.bz2 b31bfc817fdebee515062641769598f5 59992 wine_1.6.2-20.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.winehq.org/"
+	],
+	"Maintainer": [
+		"Debian Wine Party <pkg-wine-party@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"wine"
+	],
+	"Package-List": [
+		"libwine deb libs optional arch=amd64,any-i386,any-powerpc libwine-alsa deb oldlibs extra arch=any-i386,any-powerpc libwine-bin deb oldlibs extra arch=any-i386,any-powerpc libwine-capi deb oldlibs extra arch=i386,powerpc libwine-cms deb oldlibs extra arch=any-i386,any-powerpc libwine-dbg deb debug extra arch=any-i386,any-powerpc libwine-dev deb libdevel optional arch=amd64,any-i386,any-powerpc libwine-gl deb oldlibs extra arch=any-i386,any-powerpc libwine-gphoto2 deb oldlibs extra arch=any-i386,any-powerpc libwine-ldap deb oldlibs extra arch=any-i386,any-powerpc libwine-openal deb oldlibs extra arch=any-i386,any-powerpc libwine-oss deb oldlibs extra arch=any-i386,any-powerpc libwine-print deb oldlibs extra arch=any-i386,any-powerpc libwine-sane deb oldlibs extra arch=any-i386,any-powerpc wine deb otherosfs optional arch=any-amd64,any-i386,any-powerpc wine-bin deb oldlibs extra arch=any-i386,any-powerpc wine-binfmt deb otherosfs optional arch=any-amd64,any-i386,any-powerpc wine32 deb otherosfs optional arch=any-i386,any-powerpc wine32-dev-tools deb oldlibs extra arch=any-i386,any-powerpc wine32-tools deb libdevel optional arch=any-i386,any-powerpc wine64 deb otherosfs optional arch=any-amd64 wine64-bin deb oldlibs extra arch=any-amd64 wine64-dev-tools deb oldlibs extra arch=amd64 wine64-tools deb libdevel optional arch=amd64"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"otherosfs"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Michael Gilbert <mgilbert@debian.org>, Stephen Kitt <skitt@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-wine/wine.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-wine/wine.git"
+	],
+	"Version": [
+		"1.6.2-20"
+	]
 }

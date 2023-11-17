@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "kfreebsd-any linux-any all"
-  ],
-  "Binary": [
-    "bird, bird-doc, bird-bgp"
-  ],
-  "Build-Depends": [
-    "autotools-dev, bison, debhelper (>= 9~), dh-systemd (>= 1.3) [linux-any] | base-files (<< 7.2ubuntu5~) [linux-any], docbook-xsl, dpkg-dev (>= 1.16.1.1~), flex, libncurses5-dev, libreadline-dev | libreadline6-dev | libreadline5-dev, linuxdoc-tools-latex, m4, opensp, quilt, texlive-latex-extra, xsltproc"
-  ],
-  "Checksums-Sha1": [
-    "91aa7df849f12325d477b0ed1a480947c263b672 2389 bird_1.6.3-2+deb9u1.dsc a6714488c4466778abeaba14ca9441066283676e 1337198 bird_1.6.3.orig.tar.gz 9102ede228449d3d2fbac1ac65bda64647d12dd6 16900 bird_1.6.3-2+deb9u1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "260d4cfabdd675a1aa5ee3dbdd40b79e21c8ca8576bcdb6910f1e69ec5a77d4a 2389 bird_1.6.3-2+deb9u1.dsc 39c51cf57c3ba8b5978b2a657ffa2f647ec7f3ae643e91cf42ee5cb070cf7e7c 1337198 bird_1.6.3.orig.tar.gz 207850d86ba952e4cce50a467ba6e11346eb3da98fc94eb722d6e55ae0bf521f 16900 bird_1.6.3-2+deb9u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/b/bird"
-  ],
-  "Files": [
-    "cfaacbdf031c8002267a975daef3d55b 2389 bird_1.6.3-2+deb9u1.dsc 63dd93a7a23c274fc5b7f2e37664bfb7 1337198 bird_1.6.3.orig.tar.gz a1a28e1353a17d461cf9366f570944f1 16900 bird_1.6.3-2+deb9u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://bird.network.cz/"
-  ],
-  "Maintainer": [
-    "Ondřej Surý <ondrej@debian.org>"
-  ],
-  "Package": [
-    "bird"
-  ],
-  "Package-List": [
-    "bird deb net extra arch=kfreebsd-any,linux-any bird-bgp deb oldlibs extra arch=all bird-doc deb doc optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/users/ondrej/bird.git/"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/users/ondrej/bird.git"
-  ],
-  "Version": [
-    "1.6.3-2+deb9u1"
-  ]
+	"Architecture": [
+		"kfreebsd-any linux-any all"
+	],
+	"Binary": [
+		"bird, bird-doc, bird-bgp"
+	],
+	"Build-Depends": [
+		"autotools-dev, bison, debhelper (>= 9~), dh-systemd (>= 1.3) [linux-any] | base-files (<< 7.2ubuntu5~) [linux-any], docbook-xsl, dpkg-dev (>= 1.16.1.1~), flex, libncurses5-dev, libreadline-dev | libreadline6-dev | libreadline5-dev, linuxdoc-tools-latex, m4, opensp, quilt, texlive-latex-extra, xsltproc"
+	],
+	"Checksums-Sha1": [
+		"91aa7df849f12325d477b0ed1a480947c263b672 2389 bird_1.6.3-2+deb9u1.dsc a6714488c4466778abeaba14ca9441066283676e 1337198 bird_1.6.3.orig.tar.gz 9102ede228449d3d2fbac1ac65bda64647d12dd6 16900 bird_1.6.3-2+deb9u1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"260d4cfabdd675a1aa5ee3dbdd40b79e21c8ca8576bcdb6910f1e69ec5a77d4a 2389 bird_1.6.3-2+deb9u1.dsc 39c51cf57c3ba8b5978b2a657ffa2f647ec7f3ae643e91cf42ee5cb070cf7e7c 1337198 bird_1.6.3.orig.tar.gz 207850d86ba952e4cce50a467ba6e11346eb3da98fc94eb722d6e55ae0bf521f 16900 bird_1.6.3-2+deb9u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/b/bird"
+	],
+	"Files": [
+		"cfaacbdf031c8002267a975daef3d55b 2389 bird_1.6.3-2+deb9u1.dsc 63dd93a7a23c274fc5b7f2e37664bfb7 1337198 bird_1.6.3.orig.tar.gz a1a28e1353a17d461cf9366f570944f1 16900 bird_1.6.3-2+deb9u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://bird.network.cz/"
+	],
+	"Maintainer": [
+		"Ondřej Surý <ondrej@debian.org>"
+	],
+	"Package": [
+		"bird"
+	],
+	"Package-List": [
+		"bird deb net extra arch=kfreebsd-any,linux-any bird-bgp deb oldlibs extra arch=all bird-doc deb doc optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/users/ondrej/bird.git/"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/users/ondrej/bird.git"
+	],
+	"Version": [
+		"1.6.3-2+deb9u1"
+	]
 }

@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "python3.5, python3.5-venv, libpython3.5-stdlib, python3.5-minimal, libpython3.5-minimal, libpython3.5, python3.5-examples, python3.5-dev, libpython3.5-dev, libpython3.5-testsuite, idle-python3.5, python3.5-doc, python3.5-dbg, libpython3.5-dbg"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dpkg-dev (>= 1.17.11), quilt, autoconf, lsb-release, sharutils, libreadline-dev, libncursesw5-dev (>= 5.3), zlib1g-dev, libbz2-dev, liblzma-dev, libgdbm-dev, libdb-dev, tk-dev, blt-dev (>= 2.4z), libssl-dev, libexpat1-dev, libmpdec-dev (>= 2.4), libbluetooth-dev [!hurd-i386 !kfreebsd-i386 !kfreebsd-amd64], locales [!armel !avr32 !hppa !ia64 !mipsel], libsqlite3-dev, libffi-dev (>= 3.0.5) [!or1k !avr32], libgpm2 [!hurd-i386 !kfreebsd-i386 !kfreebsd-amd64], mime-support, netbase, bzip2, time, python3:any, net-tools, xvfb, xauth"
-  ],
-  "Build-Depends-Indep": [
-    "python3-sphinx"
-  ],
-  "Checksums-Sha1": [
-    "319c8e55f70ad77d6534d149d0b1d1940e2edf25 3383 python3.5_3.5.3-1+deb9u5.dsc 127121fdca11e735b3686e300d66f73aba663e93 15213396 python3.5_3.5.3.orig.tar.xz 23a5106f47ac5dd1ce762279ccbd88c1dc0f0421 257608 python3.5_3.5.3-1+deb9u5.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "c701944d1065c458c60229b71fe41c602f49c43fc1ab5c30bf9dbdce64daca2c 3383 python3.5_3.5.3-1+deb9u5.dsc eefe2ad6575855423ab630f5b51a8ef6e5556f774584c06beab4926f930ddbb0 15213396 python3.5_3.5.3.orig.tar.xz 6c94c0367519694f4f5a86d144ea34072704e00fe07061ebabbf5ad79a62b7c4 257608 python3.5_3.5.3-1+deb9u5.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/p/python3.5"
-  ],
-  "Files": [
-    "e5c97394d3ae865e59bd8ff4f3ad735a 3383 python3.5_3.5.3-1+deb9u5.dsc 57d1f8bfbabf4f2500273fb0706e6f21 15213396 python3.5_3.5.3.orig.tar.xz 9d799bdd5f40712e8748f7ad60b1b9af 257608 python3.5_3.5.3-1+deb9u5.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Matthias Klose <doko@debian.org>"
-  ],
-  "Package": [
-    "python3.5"
-  ],
-  "Package-List": [
-    "idle-python3.5 deb python optional arch=all libpython3.5 deb libs optional arch=any libpython3.5-dbg deb debug extra arch=any libpython3.5-dev deb libdevel optional arch=any libpython3.5-minimal deb python optional arch=any libpython3.5-stdlib deb python optional arch=any libpython3.5-testsuite deb libdevel optional arch=all python3.5 deb python optional arch=any python3.5-dbg deb debug extra arch=any python3.5-dev deb python optional arch=any python3.5-doc deb doc optional arch=all python3.5-examples deb python optional arch=all python3.5-minimal deb python optional arch=any python3.5-venv deb python optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential, gdb, locales, python3-gdbm, python3-gdbm-dbg"
-  ],
-  "Vcs-Browser": [
-    "https://code.launchpad.net/~doko/python/pkg3.5-debian"
-  ],
-  "Vcs-Bzr": [
-    "http://bazaar.launchpad.net/~doko/python/pkg3.5-debian"
-  ],
-  "Version": [
-    "3.5.3-1+deb9u5"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"python3.5, python3.5-venv, libpython3.5-stdlib, python3.5-minimal, libpython3.5-minimal, libpython3.5, python3.5-examples, python3.5-dev, libpython3.5-dev, libpython3.5-testsuite, idle-python3.5, python3.5-doc, python3.5-dbg, libpython3.5-dbg"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dpkg-dev (>= 1.17.11), quilt, autoconf, lsb-release, sharutils, libreadline-dev, libncursesw5-dev (>= 5.3), zlib1g-dev, libbz2-dev, liblzma-dev, libgdbm-dev, libdb-dev, tk-dev, blt-dev (>= 2.4z), libssl-dev, libexpat1-dev, libmpdec-dev (>= 2.4), libbluetooth-dev [!hurd-i386 !kfreebsd-i386 !kfreebsd-amd64], locales [!armel !avr32 !hppa !ia64 !mipsel], libsqlite3-dev, libffi-dev (>= 3.0.5) [!or1k !avr32], libgpm2 [!hurd-i386 !kfreebsd-i386 !kfreebsd-amd64], mime-support, netbase, bzip2, time, python3:any, net-tools, xvfb, xauth"
+	],
+	"Build-Depends-Indep": [
+		"python3-sphinx"
+	],
+	"Checksums-Sha1": [
+		"319c8e55f70ad77d6534d149d0b1d1940e2edf25 3383 python3.5_3.5.3-1+deb9u5.dsc 127121fdca11e735b3686e300d66f73aba663e93 15213396 python3.5_3.5.3.orig.tar.xz 23a5106f47ac5dd1ce762279ccbd88c1dc0f0421 257608 python3.5_3.5.3-1+deb9u5.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"c701944d1065c458c60229b71fe41c602f49c43fc1ab5c30bf9dbdce64daca2c 3383 python3.5_3.5.3-1+deb9u5.dsc eefe2ad6575855423ab630f5b51a8ef6e5556f774584c06beab4926f930ddbb0 15213396 python3.5_3.5.3.orig.tar.xz 6c94c0367519694f4f5a86d144ea34072704e00fe07061ebabbf5ad79a62b7c4 257608 python3.5_3.5.3-1+deb9u5.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/p/python3.5"
+	],
+	"Files": [
+		"e5c97394d3ae865e59bd8ff4f3ad735a 3383 python3.5_3.5.3-1+deb9u5.dsc 57d1f8bfbabf4f2500273fb0706e6f21 15213396 python3.5_3.5.3.orig.tar.xz 9d799bdd5f40712e8748f7ad60b1b9af 257608 python3.5_3.5.3-1+deb9u5.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Matthias Klose <doko@debian.org>"
+	],
+	"Package": [
+		"python3.5"
+	],
+	"Package-List": [
+		"idle-python3.5 deb python optional arch=all libpython3.5 deb libs optional arch=any libpython3.5-dbg deb debug extra arch=any libpython3.5-dev deb libdevel optional arch=any libpython3.5-minimal deb python optional arch=any libpython3.5-stdlib deb python optional arch=any libpython3.5-testsuite deb libdevel optional arch=all python3.5 deb python optional arch=any python3.5-dbg deb debug extra arch=any python3.5-dev deb python optional arch=any python3.5-doc deb doc optional arch=all python3.5-examples deb python optional arch=all python3.5-minimal deb python optional arch=any python3.5-venv deb python optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, gdb, locales, python3-gdbm, python3-gdbm-dbg"
+	],
+	"Vcs-Browser": [
+		"https://code.launchpad.net/~doko/python/pkg3.5-debian"
+	],
+	"Vcs-Bzr": [
+		"http://bazaar.launchpad.net/~doko/python/pkg3.5-debian"
+	],
+	"Version": [
+		"3.5.3-1+deb9u5"
+	]
 }

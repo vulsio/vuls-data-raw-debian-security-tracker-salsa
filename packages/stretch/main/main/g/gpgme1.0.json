@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libgpgme-dev, libgpgme11, python3-gpg, python-gpg, libqgpgme7, libgpgmepp6, libgpgmepp-dev, libgpgmepp-doc"
-  ],
-  "Build-Depends": [
-    "automake (>= 1.14), debhelper (>= 10~), dh-autoreconf, dh-exec, dh-python, gnupg-agent, gnupg2 | gnupg (>= 2), gpgsm, libassuan-dev (>> 2.0.2), libgpg-error-dev (>> 1.17), pkg-config, python-all-dev, python3-all-dev, qtbase5-dev, scdaemon, swig, texinfo"
-  ],
-  "Build-Depends-Indep": [
-    "doxygen, graphviz"
-  ],
-  "Checksums-Sha256": [
-    "ec740e684979103b756add05354d69b5a056eb43f49c76eba36d250778bac3d7 2684 gpgme1.0_1.8.0-3.dsc 596097257c2ce22e747741f8ff3d7e24f6e26231fa198a41b2a072e62d1e5d33 1298407 gpgme1.0_1.8.0.orig.tar.bz2 c57f0250a834793b6e8ffd7c220d99ebf219b9ac32c6c160ce2445497faa7e25 15840 gpgme1.0_1.8.0-3.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/g/gpgme1.0"
-  ],
-  "Files": [
-    "b824fe7dbe7652a4548afe8f8bbe68bd 2684 gpgme1.0_1.8.0-3.dsc 722a4153904b9b5dc15485a22d29263b 1298407 gpgme1.0_1.8.0.orig.tar.bz2 ba960ce4a36e45fdc515ef597e7f5cf1 15840 gpgme1.0_1.8.0-3.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.gnupg.org/related_software/gpgme/"
-  ],
-  "Maintainer": [
-    "Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "gpgme1.0"
-  ],
-  "Package-List": [
-    "libgpgme-dev deb libdevel extra arch=any libgpgme11 deb libs optional arch=any libgpgmepp-dev deb libdevel extra arch=any libgpgmepp-doc deb doc extra arch=all libgpgmepp6 deb libs optional arch=any libqgpgme7 deb libs optional arch=any python-gpg deb python optional arch=any python3-gpg deb python optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "libs"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Jose Carlos Garcia Sogo <jsogo@debian.org>, Daniel Kahn Gillmor <dkg@fifthhorseman.net>,"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/git/pkg-gnupg/gpgme.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-gnupg/gpgme.git"
-  ],
-  "Version": [
-    "1.8.0-3"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libgpgme-dev, libgpgme11, python3-gpg, python-gpg, libqgpgme7, libgpgmepp6, libgpgmepp-dev, libgpgmepp-doc"
+	],
+	"Build-Depends": [
+		"automake (>= 1.14), debhelper (>= 10~), dh-autoreconf, dh-exec, dh-python, gnupg-agent, gnupg2 | gnupg (>= 2), gpgsm, libassuan-dev (>> 2.0.2), libgpg-error-dev (>> 1.17), pkg-config, python-all-dev, python3-all-dev, qtbase5-dev, scdaemon, swig, texinfo"
+	],
+	"Build-Depends-Indep": [
+		"doxygen, graphviz"
+	],
+	"Checksums-Sha256": [
+		"ec740e684979103b756add05354d69b5a056eb43f49c76eba36d250778bac3d7 2684 gpgme1.0_1.8.0-3.dsc 596097257c2ce22e747741f8ff3d7e24f6e26231fa198a41b2a072e62d1e5d33 1298407 gpgme1.0_1.8.0.orig.tar.bz2 c57f0250a834793b6e8ffd7c220d99ebf219b9ac32c6c160ce2445497faa7e25 15840 gpgme1.0_1.8.0-3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/gpgme1.0"
+	],
+	"Files": [
+		"b824fe7dbe7652a4548afe8f8bbe68bd 2684 gpgme1.0_1.8.0-3.dsc 722a4153904b9b5dc15485a22d29263b 1298407 gpgme1.0_1.8.0.orig.tar.bz2 ba960ce4a36e45fdc515ef597e7f5cf1 15840 gpgme1.0_1.8.0-3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.gnupg.org/related_software/gpgme/"
+	],
+	"Maintainer": [
+		"Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"gpgme1.0"
+	],
+	"Package-List": [
+		"libgpgme-dev deb libdevel extra arch=any libgpgme11 deb libs optional arch=any libgpgmepp-dev deb libdevel extra arch=any libgpgmepp-doc deb doc extra arch=all libgpgmepp6 deb libs optional arch=any libqgpgme7 deb libs optional arch=any python-gpg deb python optional arch=any python3-gpg deb python optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"libs"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Jose Carlos Garcia Sogo <jsogo@debian.org>, Daniel Kahn Gillmor <dkg@fifthhorseman.net>,"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/git/pkg-gnupg/gpgme.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-gnupg/gpgme.git"
+	],
+	"Version": [
+		"1.8.0-3"
+	]
 }

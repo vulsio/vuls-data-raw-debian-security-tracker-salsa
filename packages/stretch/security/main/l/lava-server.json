@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "lava-server, lava, lava-dev, lava-server-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 8.0.0), dh-python, node-uglify, libjs-excanvas, libjs-jquery-cookie, libjs-jquery, libjs-jquery-watermark, libjs-jquery-flot (>= 0.8.2), libjs-jquery-ui, python | python-all | python-dev | python-all-dev, python-sphinx (>= 1.4), python-sphinx-bootstrap-theme, po-debconf, python-mocker, python-setuptools (>= 3), python-yaml"
-  ],
-  "Checksums-Sha1": [
-    "f96ab7c71d06d51bf378001814c8c8a20c44da01 2731 lava-server_2016.12-3.dsc 07e4b284fe8b95d61cefff39da516a7b3020ab39 12185744 lava-server_2016.12.orig.tar.gz 24ac3f5208bb6a6d26d24f13ef20c3700ab66c55 44224 lava-server_2016.12-3.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "99fcd4449628e4169a027ef3bfe1878a932eeb9cbaac71a6dbb8505cc5b58ead 2731 lava-server_2016.12-3.dsc 67ae435f7eff405e51fcfe5efe4cdd5b5315540b1facb26167cf75ab5fcb63a7 12185744 lava-server_2016.12.orig.tar.gz 66ffe8bcdc1071e199054e6966180b6b68617d29c00200b8689fd16ed9170796 44224 lava-server_2016.12-3.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/l/lava-server"
-  ],
-  "Files": [
-    "919f83f32564cc2ab54c8412651842a7 2731 lava-server_2016.12-3.dsc 4cfeb4277d1de3c7b4fc75b906452f43 12185744 lava-server_2016.12.orig.tar.gz ad329d18a0ffdec85ea48049d5ab66bb 44224 lava-server_2016.12-3.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.linaro.org/projects/test-validation/"
-  ],
-  "Maintainer": [
-    "Debian LAVA team <pkg-linaro-lava-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "lava-server"
-  ],
-  "Package-List": [
-    "lava deb metapackages optional arch=all lava-dev deb devel optional arch=all lava-server deb net optional arch=all lava-server-doc deb doc optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "django-testscenarios, git, nfs-kernel-server, python-tz, qemu-system-x86, tftpd-hpa, u-boot-tools"
-  ],
-  "Uploaders": [
-    "Antonio Terceiro <terceiro@debian.org>, Neil Williams <codehelp@debian.org>, Fathi Boudra <fabo@debian.org>, Jordi Mallach <jordi@debian.org>, Senthil Kumaran S (stylesen) <stylesen@gmail.com>"
-  ],
-  "Vcs-Browser": [
-    "https://github.com/Linaro/pkg-lava-server"
-  ],
-  "Vcs-Git": [
-    "https://github.com/Linaro/pkg-lava-server.git"
-  ],
-  "Version": [
-    "2016.12-3"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"lava-server, lava, lava-dev, lava-server-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 8.0.0), dh-python, node-uglify, libjs-excanvas, libjs-jquery-cookie, libjs-jquery, libjs-jquery-watermark, libjs-jquery-flot (>= 0.8.2), libjs-jquery-ui, python | python-all | python-dev | python-all-dev, python-sphinx (>= 1.4), python-sphinx-bootstrap-theme, po-debconf, python-mocker, python-setuptools (>= 3), python-yaml"
+	],
+	"Checksums-Sha1": [
+		"f96ab7c71d06d51bf378001814c8c8a20c44da01 2731 lava-server_2016.12-3.dsc 07e4b284fe8b95d61cefff39da516a7b3020ab39 12185744 lava-server_2016.12.orig.tar.gz 24ac3f5208bb6a6d26d24f13ef20c3700ab66c55 44224 lava-server_2016.12-3.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"99fcd4449628e4169a027ef3bfe1878a932eeb9cbaac71a6dbb8505cc5b58ead 2731 lava-server_2016.12-3.dsc 67ae435f7eff405e51fcfe5efe4cdd5b5315540b1facb26167cf75ab5fcb63a7 12185744 lava-server_2016.12.orig.tar.gz 66ffe8bcdc1071e199054e6966180b6b68617d29c00200b8689fd16ed9170796 44224 lava-server_2016.12-3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/l/lava-server"
+	],
+	"Files": [
+		"919f83f32564cc2ab54c8412651842a7 2731 lava-server_2016.12-3.dsc 4cfeb4277d1de3c7b4fc75b906452f43 12185744 lava-server_2016.12.orig.tar.gz ad329d18a0ffdec85ea48049d5ab66bb 44224 lava-server_2016.12-3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.linaro.org/projects/test-validation/"
+	],
+	"Maintainer": [
+		"Debian LAVA team <pkg-linaro-lava-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"lava-server"
+	],
+	"Package-List": [
+		"lava deb metapackages optional arch=all lava-dev deb devel optional arch=all lava-server deb net optional arch=all lava-server-doc deb doc optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"django-testscenarios, git, nfs-kernel-server, python-tz, qemu-system-x86, tftpd-hpa, u-boot-tools"
+	],
+	"Uploaders": [
+		"Antonio Terceiro <terceiro@debian.org>, Neil Williams <codehelp@debian.org>, Fathi Boudra <fabo@debian.org>, Jordi Mallach <jordi@debian.org>, Senthil Kumaran S (stylesen) <stylesen@gmail.com>"
+	],
+	"Vcs-Browser": [
+		"https://github.com/Linaro/pkg-lava-server"
+	],
+	"Vcs-Git": [
+		"https://github.com/Linaro/pkg-lava-server.git"
+	],
+	"Version": [
+		"2016.12-3"
+	]
 }

@@ -1,31 +1,31 @@
 {
-  "header": {
-    "line": "CVE-2010-XXXX [elfsign uses cryptographically weak md5 hashes]",
-    "name": "TEMP-0555668-4795AD",
-    "description": "[elfsign uses cryptographically weak md5 hashes]"
-  },
-  "annotations": [
-    {
-      "line": "\t- elfsign <removed> (low; bug #555668)",
-      "type": "package",
-      "package": "elfsign",
-      "kind": "removed",
-      "flags": [
-        {
-          "severity": "low"
-        },
-        {
-          "bug": 555668
-        }
-      ]
-    },
-    {
-      "line": "\t[lenny] - elfsign <no-dsa> (a stronger hashing algorithm would completely change functionality of the package)",
-      "type": "package",
-      "release": "lenny",
-      "package": "elfsign",
-      "kind": "no-dsa",
-      "description": "a stronger hashing algorithm would completely change functionality of the package"
-    }
-  ]
+	"header": {
+		"line": "CVE-2010-XXXX [elfsign uses cryptographically weak md5 hashes]",
+		"name": "TEMP-0555668-4795AD",
+		"description": "[elfsign uses cryptographically weak md5 hashes]"
+	},
+	"annotations": [
+		{
+			"line": "\t- elfsign <removed> (low; bug #555668)",
+			"type": "package",
+			"package": "elfsign",
+			"kind": "removed",
+			"flags": [
+				{
+					"severity": "low"
+				},
+				{
+					"bug": 555668
+				}
+			]
+		},
+		{
+			"line": "\t[lenny] - elfsign <no-dsa> (a stronger hashing algorithm would completely change functionality of the package)",
+			"type": "package",
+			"release": "lenny",
+			"package": "elfsign",
+			"kind": "no-dsa",
+			"description": "a stronger hashing algorithm would completely change functionality of the package"
+		}
+	]
 }

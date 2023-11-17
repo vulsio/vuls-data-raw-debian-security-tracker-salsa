@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-troveclient, python3-troveclient"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-python, openstack-pkg-tools, python-all, python-pbr (>= 1.6), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.6), python3-setuptools"
-  ],
-  "Build-Depends-Indep": [
-    "python-babel (>= 2.3.4), python-coverage, python-crypto, python-hacking, python-httplib2, python-keystoneauth1 (>= 2.10.0), python-mistralclient (>= 1:2.0.0), python-mock (>= 2.0), python-oslo.i18n (>= 2.1.0), python-oslo.utils (>= 3.16.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.10.0), python-prettytable, python-requests (>= 2.10.0), python-requests-mock (>= 1.0), python-simplejson, python-six (>= 1.9.0), python-swiftclient (>= 1:2.2.0), python-testscenarios, python-testtools (>= 1.4.0), python3-babel (>= 2.3.4), python3-crypto, python3-httplib2, python3-keystoneauth1 (>= 2.10.0), python3-mistralclient (>= 1:2.0.0), python3-mock (>= 2.0), python3-oslo.i18n (>= 2.1.0), python3-oslo.utils (>= 3.16.0), python3-oslotest (>= 1:1.10.0), python3-prettytable, python3-requests (>= 2.10.0), python3-requests-mock (>= 1.0), python3-simplejson, python3-six (>= 1.9.0), python3-swiftclient (>= 1:2.2.0), python3-testscenarios, python3-testtools (>= 1.4.0), subunit (>= 1.1.0), testrepository"
-  ],
-  "Checksums-Sha256": [
-    "86996f138e476ee25141f0e582d96643bc59525965c68a885a597d3bf7be96b7 3381 python-troveclient_2.5.0-2.dsc dafecb4b9203ac00e729da5946f012a545498444ac4b6b637622f06fdfba05f5 104392 python-troveclient_2.5.0.orig.tar.xz 62dc9a7099159e326b622f323276db3cba649271645783a3d2ff364a91ef25ad 4160 python-troveclient_2.5.0-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/python-troveclient"
-  ],
-  "Files": [
-    "bdb70001889a5402a1eeba5d7d75cb09 3381 python-troveclient_2.5.0-2.dsc 16ebca3aef0ee3dd88182871cdfb2418 104392 python-troveclient_2.5.0.orig.tar.xz 129011c771d21fca4332806236aada64 4160 python-troveclient_2.5.0-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.openstack.org"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "python-troveclient"
-  ],
-  "Package-List": [
-    "python-troveclient deb python extra arch=all python3-troveclient deb python extra arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>, Corey Bryant <corey.bryant@canonical.com>, David Della Vecchia <ddv@canonical.com>,"
-  ],
-  "Vcs-Browser": [
-    "https://git.openstack.org/cgit/openstack/deb-python-troveclient?h=debian%2Fnewton"
-  ],
-  "Vcs-Git": [
-    "https://git.openstack.org/openstack/deb-python-troveclient -b debian/newton"
-  ],
-  "Version": [
-    "1:2.5.0-2"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-troveclient, python3-troveclient"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-python, openstack-pkg-tools, python-all, python-pbr (>= 1.6), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.6), python3-setuptools"
+	],
+	"Build-Depends-Indep": [
+		"python-babel (>= 2.3.4), python-coverage, python-crypto, python-hacking, python-httplib2, python-keystoneauth1 (>= 2.10.0), python-mistralclient (>= 1:2.0.0), python-mock (>= 2.0), python-oslo.i18n (>= 2.1.0), python-oslo.utils (>= 3.16.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.10.0), python-prettytable, python-requests (>= 2.10.0), python-requests-mock (>= 1.0), python-simplejson, python-six (>= 1.9.0), python-swiftclient (>= 1:2.2.0), python-testscenarios, python-testtools (>= 1.4.0), python3-babel (>= 2.3.4), python3-crypto, python3-httplib2, python3-keystoneauth1 (>= 2.10.0), python3-mistralclient (>= 1:2.0.0), python3-mock (>= 2.0), python3-oslo.i18n (>= 2.1.0), python3-oslo.utils (>= 3.16.0), python3-oslotest (>= 1:1.10.0), python3-prettytable, python3-requests (>= 2.10.0), python3-requests-mock (>= 1.0), python3-simplejson, python3-six (>= 1.9.0), python3-swiftclient (>= 1:2.2.0), python3-testscenarios, python3-testtools (>= 1.4.0), subunit (>= 1.1.0), testrepository"
+	],
+	"Checksums-Sha256": [
+		"86996f138e476ee25141f0e582d96643bc59525965c68a885a597d3bf7be96b7 3381 python-troveclient_2.5.0-2.dsc dafecb4b9203ac00e729da5946f012a545498444ac4b6b637622f06fdfba05f5 104392 python-troveclient_2.5.0.orig.tar.xz 62dc9a7099159e326b622f323276db3cba649271645783a3d2ff364a91ef25ad 4160 python-troveclient_2.5.0-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-troveclient"
+	],
+	"Files": [
+		"bdb70001889a5402a1eeba5d7d75cb09 3381 python-troveclient_2.5.0-2.dsc 16ebca3aef0ee3dd88182871cdfb2418 104392 python-troveclient_2.5.0.orig.tar.xz 129011c771d21fca4332806236aada64 4160 python-troveclient_2.5.0-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.openstack.org"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"python-troveclient"
+	],
+	"Package-List": [
+		"python-troveclient deb python extra arch=all python3-troveclient deb python extra arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>, Corey Bryant <corey.bryant@canonical.com>, David Della Vecchia <ddv@canonical.com>,"
+	],
+	"Vcs-Browser": [
+		"https://git.openstack.org/cgit/openstack/deb-python-troveclient?h=debian%2Fnewton"
+	],
+	"Vcs-Git": [
+		"https://git.openstack.org/openstack/deb-python-troveclient -b debian/newton"
+	],
+	"Version": [
+		"1:2.5.0-2"
+	]
 }

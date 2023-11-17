@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libgdcm2.4, libgdcm-tools, libgdcm2-dev, libgdcm2.4-dbg, libgdcm-cil, php5-gdcm, libgdcm-java, python-gdcm, libvtkgdcm2.4, libvtkgdcm2-dev, libvtkgdcm-cil, php5-vtkgdcm, libvtkgdcm-java, python-vtkgdcm, libvtkgdcm-tools, gdcm-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), python-all-dev, libvtk-java, pvrg-jpeg, uuid-dev, libz-dev, libexpat-dev, doxygen, swig (>= 2.0.7), cmake (>= 2.8.9), libvtk5-dev, libcharls-dev, javahelper, libopenjpeg-dev, default-jdk, php5-dev, php5-cli, libxml2-dev, libjson-c-dev, libpoppler-private-dev, libssl-dev, python-vtk, gccxml, libsocket++-dev, libpapyrus3-dev, libactiviz.net-cil [amd64 armel i386 kfreebsd-amd64 kfreebsd-i386 powerpc ppc64 s390x], mummy [amd64 armel i386 kfreebsd-amd64 kfreebsd-i386 powerpc ppc64 s390x], cli-common-dev (>= 0.8~) [amd64 armel i386 kfreebsd-amd64 kfreebsd-i386 powerpc ppc64 s390x], mono-devel (>= 2.10.5) [amd64 armel i386 kfreebsd-amd64 kfreebsd-i386 powerpc ppc64 s390x]"
-  ],
-  "Build-Depends-Indep": [
-    "vtk-doc, doxygen-latex, ghostscript, graphviz"
-  ],
-  "Checksums-Sha1": [
-    "ac71380968e90f2a71612b6d99ee356ba042af9e 3723 gdcm_2.4.4-3+deb8u1.dsc 4b77a857cf8432da72140a5e7d20f78c091ee019 4397720 gdcm_2.4.4.orig.tar.bz2 0d996c5f33b316e67711bb4b4305787204ed5bf0 18928 gdcm_2.4.4-3+deb8u1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "fc13b7053ea751238646622cbb50d8f800d700554dcb8f6cdb6385cc1e30abfe 3723 gdcm_2.4.4-3+deb8u1.dsc c5cd2f43a16180f5a9ecd5211bf214971b0620e9d9e027c2e11a89c4ce7d5b1f 4397720 gdcm_2.4.4.orig.tar.bz2 714a668ebf806895fa5b31858c26699bbb9d2e06c8a85f38560b65e89b34ed10 18928 gdcm_2.4.4-3+deb8u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/g/gdcm"
-  ],
-  "Files": [
-    "a3e429356695fe07af81669948dc9faf 3723 gdcm_2.4.4-3+deb8u1.dsc c1fd2a9595236a03d114370e9c42ef48 4397720 gdcm_2.4.4.orig.tar.bz2 d092b5300cfddf2edbb6ad61126c49d6 18928 gdcm_2.4.4-3+deb8u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://gdcm.sourceforge.net/"
-  ],
-  "Maintainer": [
-    "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "gdcm"
-  ],
-  "Package-List": [
-    "gdcm-doc deb doc optional arch=all libgdcm-cil deb cli-mono optional arch=amd64,armel,i386,kfreebsd-amd64,kfreebsd-i386,powerpc,ppc64,s390x libgdcm-java deb java optional arch=any libgdcm-tools deb utils optional arch=any libgdcm2-dev deb libdevel optional arch=any libgdcm2.4 deb libs optional arch=any libgdcm2.4-dbg deb debug extra arch=any libvtkgdcm-cil deb cli-mono optional arch=amd64,armel,i386,kfreebsd-amd64,kfreebsd-i386,powerpc,ppc64,s390x libvtkgdcm-java deb java optional arch=any libvtkgdcm-tools deb utils optional arch=any libvtkgdcm2-dev deb libdevel optional arch=any libvtkgdcm2.4 deb libs optional arch=any php5-gdcm deb php optional arch=any php5-vtkgdcm deb php optional arch=any python-gdcm deb python optional arch=any python-vtkgdcm deb python optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "libs"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Uploaders": [
-    "Mathieu Malaterre <malat@debian.org>, Andreas Tille <tille@debian.org>, Steve M. Robbins <smr@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/viewvc/debian-med/trunk/packages/gdcm/trunk/"
-  ],
-  "Vcs-Svn": [
-    "svn://anonscm.debian.org/debian-med/trunk/packages/gdcm/trunk/"
-  ],
-  "Version": [
-    "2.4.4-3+deb8u1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libgdcm2.4, libgdcm-tools, libgdcm2-dev, libgdcm2.4-dbg, libgdcm-cil, php5-gdcm, libgdcm-java, python-gdcm, libvtkgdcm2.4, libvtkgdcm2-dev, libvtkgdcm-cil, php5-vtkgdcm, libvtkgdcm-java, python-vtkgdcm, libvtkgdcm-tools, gdcm-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), python-all-dev, libvtk-java, pvrg-jpeg, uuid-dev, libz-dev, libexpat-dev, doxygen, swig (>= 2.0.7), cmake (>= 2.8.9), libvtk5-dev, libcharls-dev, javahelper, libopenjpeg-dev, default-jdk, php5-dev, php5-cli, libxml2-dev, libjson-c-dev, libpoppler-private-dev, libssl-dev, python-vtk, gccxml, libsocket++-dev, libpapyrus3-dev, libactiviz.net-cil [amd64 armel i386 kfreebsd-amd64 kfreebsd-i386 powerpc ppc64 s390x], mummy [amd64 armel i386 kfreebsd-amd64 kfreebsd-i386 powerpc ppc64 s390x], cli-common-dev (>= 0.8~) [amd64 armel i386 kfreebsd-amd64 kfreebsd-i386 powerpc ppc64 s390x], mono-devel (>= 2.10.5) [amd64 armel i386 kfreebsd-amd64 kfreebsd-i386 powerpc ppc64 s390x]"
+	],
+	"Build-Depends-Indep": [
+		"vtk-doc, doxygen-latex, ghostscript, graphviz"
+	],
+	"Checksums-Sha1": [
+		"ac71380968e90f2a71612b6d99ee356ba042af9e 3723 gdcm_2.4.4-3+deb8u1.dsc 4b77a857cf8432da72140a5e7d20f78c091ee019 4397720 gdcm_2.4.4.orig.tar.bz2 0d996c5f33b316e67711bb4b4305787204ed5bf0 18928 gdcm_2.4.4-3+deb8u1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"fc13b7053ea751238646622cbb50d8f800d700554dcb8f6cdb6385cc1e30abfe 3723 gdcm_2.4.4-3+deb8u1.dsc c5cd2f43a16180f5a9ecd5211bf214971b0620e9d9e027c2e11a89c4ce7d5b1f 4397720 gdcm_2.4.4.orig.tar.bz2 714a668ebf806895fa5b31858c26699bbb9d2e06c8a85f38560b65e89b34ed10 18928 gdcm_2.4.4-3+deb8u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/gdcm"
+	],
+	"Files": [
+		"a3e429356695fe07af81669948dc9faf 3723 gdcm_2.4.4-3+deb8u1.dsc c1fd2a9595236a03d114370e9c42ef48 4397720 gdcm_2.4.4.orig.tar.bz2 d092b5300cfddf2edbb6ad61126c49d6 18928 gdcm_2.4.4-3+deb8u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://gdcm.sourceforge.net/"
+	],
+	"Maintainer": [
+		"Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"gdcm"
+	],
+	"Package-List": [
+		"gdcm-doc deb doc optional arch=all libgdcm-cil deb cli-mono optional arch=amd64,armel,i386,kfreebsd-amd64,kfreebsd-i386,powerpc,ppc64,s390x libgdcm-java deb java optional arch=any libgdcm-tools deb utils optional arch=any libgdcm2-dev deb libdevel optional arch=any libgdcm2.4 deb libs optional arch=any libgdcm2.4-dbg deb debug extra arch=any libvtkgdcm-cil deb cli-mono optional arch=amd64,armel,i386,kfreebsd-amd64,kfreebsd-i386,powerpc,ppc64,s390x libvtkgdcm-java deb java optional arch=any libvtkgdcm-tools deb utils optional arch=any libvtkgdcm2-dev deb libdevel optional arch=any libvtkgdcm2.4 deb libs optional arch=any php5-gdcm deb php optional arch=any php5-vtkgdcm deb php optional arch=any python-gdcm deb python optional arch=any python-vtkgdcm deb python optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"libs"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Uploaders": [
+		"Mathieu Malaterre <malat@debian.org>, Andreas Tille <tille@debian.org>, Steve M. Robbins <smr@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/viewvc/debian-med/trunk/packages/gdcm/trunk/"
+	],
+	"Vcs-Svn": [
+		"svn://anonscm.debian.org/debian-med/trunk/packages/gdcm/trunk/"
+	],
+	"Version": [
+		"2.4.4-3+deb8u1"
+	]
 }

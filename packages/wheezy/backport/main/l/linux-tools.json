@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "linux-any"
-  ],
-  "Binary": [
-    "linux-kbuild-3.16, linux-tools-3.16, libusbip-dev, usbip, hyperv-daemons"
-  ],
-  "Build-Depends": [
-    "debhelper (>> 7), python, asciidoc, bison, flex, libaudit-dev, libdw-dev, libelf-dev, libiberty-dev | binutils-dev (<< 2.23.91.20131123-1), libnewt-dev, libnuma-dev [amd64 arm64 i386 powerpc ppc64 ppc64el], libperl-dev, libunwind7-dev [amd64 i386], python-dev, xmlto, autoconf, automake, libtool, libglib2.0-dev, libudev-dev, libwrap0-dev"
-  ],
-  "Checksums-Sha1": [
-    "27d36b2a6231080ecb9b85c26c22ff052ac12772 2700 linux-tools_3.16.7-ckt20-1~bpo70+2.dsc 531528246b86b2d3ed5d264894a17aedd55740e1 7831524 linux-tools_3.16.7-ckt20.orig.tar.xz 703fdeaa6aa20a1fc08c40eca578ea41cc976d4c 35308 linux-tools_3.16.7-ckt20-1~bpo70+2.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "4cbaa60e8deefbe8082b6a08ddf78d0143132d78281a31f79844876f14f131e6 2700 linux-tools_3.16.7-ckt20-1~bpo70+2.dsc e35a1926d2ce5c7e46ab7cc9b4f2aaa4ac2c93b96a4dd1fd5040dc54092d193a 7831524 linux-tools_3.16.7-ckt20.orig.tar.xz 8363b9cbf595928b931beed6cd09afd1200dff337e468eaf22a444d768e0cc6f 35308 linux-tools_3.16.7-ckt20-1~bpo70+2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/l/linux-tools"
-  ],
-  "Files": [
-    "940f41f6c5adf7bdf3d51cae4af9ebf2 2700 linux-tools_3.16.7-ckt20-1~bpo70+2.dsc e0133adb2f8fd6e4eee81ef9355d686a 7831524 linux-tools_3.16.7-ckt20.orig.tar.xz 5572b48ac9865cc650812db74371bd28 35308 linux-tools_3.16.7-ckt20-1~bpo70+2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian Kernel Team <debian-kernel@lists.debian.org>"
-  ],
-  "Package": [
-    "linux-tools"
-  ],
-  "Package-List": [
-    "hyperv-daemons deb admin optional arch=amd64,i386 libusbip-dev deb libdevel optional arch=linux-any linux-kbuild-3.16 deb kernel optional arch=linux-any linux-tools-3.16 deb devel optional arch=alpha,amd64,arm64,armel,armhf,hppa,i386,powerpc,ppc64,ppc64el,s390,s390x,sh4,sparc,sparc64 usbip deb admin optional arch=linux-any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.4"
-  ],
-  "Uploaders": [
-    "Bastian Blank <waldi@debian.org>, Ben Hutchings <ben@decadent.org.uk>, Jonathan Nieder <jrnieder@gmail.com>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/kernel/linux-tools.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/kernel/linux-tools.git"
-  ],
-  "Version": [
-    "3.16.7-ckt20-1~bpo70+2"
-  ]
+	"Architecture": [
+		"linux-any"
+	],
+	"Binary": [
+		"linux-kbuild-3.16, linux-tools-3.16, libusbip-dev, usbip, hyperv-daemons"
+	],
+	"Build-Depends": [
+		"debhelper (>> 7), python, asciidoc, bison, flex, libaudit-dev, libdw-dev, libelf-dev, libiberty-dev | binutils-dev (<< 2.23.91.20131123-1), libnewt-dev, libnuma-dev [amd64 arm64 i386 powerpc ppc64 ppc64el], libperl-dev, libunwind7-dev [amd64 i386], python-dev, xmlto, autoconf, automake, libtool, libglib2.0-dev, libudev-dev, libwrap0-dev"
+	],
+	"Checksums-Sha1": [
+		"27d36b2a6231080ecb9b85c26c22ff052ac12772 2700 linux-tools_3.16.7-ckt20-1~bpo70+2.dsc 531528246b86b2d3ed5d264894a17aedd55740e1 7831524 linux-tools_3.16.7-ckt20.orig.tar.xz 703fdeaa6aa20a1fc08c40eca578ea41cc976d4c 35308 linux-tools_3.16.7-ckt20-1~bpo70+2.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"4cbaa60e8deefbe8082b6a08ddf78d0143132d78281a31f79844876f14f131e6 2700 linux-tools_3.16.7-ckt20-1~bpo70+2.dsc e35a1926d2ce5c7e46ab7cc9b4f2aaa4ac2c93b96a4dd1fd5040dc54092d193a 7831524 linux-tools_3.16.7-ckt20.orig.tar.xz 8363b9cbf595928b931beed6cd09afd1200dff337e468eaf22a444d768e0cc6f 35308 linux-tools_3.16.7-ckt20-1~bpo70+2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/l/linux-tools"
+	],
+	"Files": [
+		"940f41f6c5adf7bdf3d51cae4af9ebf2 2700 linux-tools_3.16.7-ckt20-1~bpo70+2.dsc e0133adb2f8fd6e4eee81ef9355d686a 7831524 linux-tools_3.16.7-ckt20.orig.tar.xz 5572b48ac9865cc650812db74371bd28 35308 linux-tools_3.16.7-ckt20-1~bpo70+2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Kernel Team <debian-kernel@lists.debian.org>"
+	],
+	"Package": [
+		"linux-tools"
+	],
+	"Package-List": [
+		"hyperv-daemons deb admin optional arch=amd64,i386 libusbip-dev deb libdevel optional arch=linux-any linux-kbuild-3.16 deb kernel optional arch=linux-any linux-tools-3.16 deb devel optional arch=alpha,amd64,arm64,armel,armhf,hppa,i386,powerpc,ppc64,ppc64el,s390,s390x,sh4,sparc,sparc64 usbip deb admin optional arch=linux-any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.4"
+	],
+	"Uploaders": [
+		"Bastian Blank <waldi@debian.org>, Ben Hutchings <ben@decadent.org.uk>, Jonathan Nieder <jrnieder@gmail.com>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/kernel/linux-tools.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/kernel/linux-tools.git"
+	],
+	"Version": [
+		"3.16.7-ckt20-1~bpo70+2"
+	]
 }

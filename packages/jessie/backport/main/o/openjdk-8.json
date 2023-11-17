@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "alpha amd64 armel armhf arm64 i386 ia64 mips mipsel mips64 mips64el powerpc powerpcspe ppc64 ppc64el m68k sh4 sparc sparc64 s390x x32 kfreebsd-i386 kfreebsd-amd64 all"
-  ],
-  "Binary": [
-    "openjdk-8-jdk-headless, openjdk-8-jre-headless, openjdk-8-jdk, openjdk-8-jre, openjdk-8-demo, openjdk-8-source, openjdk-8-doc, openjdk-8-dbg, openjdk-8-jre-zero"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), quilt, m4, lsb-release, zip, unzip, sharutils, gawk, cpio, pkg-config, procps, wdiff, tzdata, fastjar (>= 2:0.96-0ubuntu2), autoconf (>= 2.69), automake, autotools-dev, ant, ant-optional, g++-4.9, openjdk-8-jdk | openjdk-7-jdk, libxtst-dev, libxi-dev, libxt-dev, libxaw7-dev, libxrender-dev, libcups2-dev, libasound2-dev, liblcms2-dev, libfreetype6-dev (>= 2.2.1), libxinerama-dev, libkrb5-dev, xsltproc, libpcsclite-dev, libgtk-3-dev, libffi-dev, zlib1g-dev, libattr1-dev, libpng-dev, libjpeg-dev, libgif-dev, libpulse-dev (>= 0.9.12) [!alpha], systemtap-sdt-dev [!sh4], libnss3-dev (>= 2:3.17.1), mauve, jtreg, xvfb, xauth, xfonts-base, libgl1-mesa-dri [!x32], twm | metacity, twm | dbus-x11, x11-xkb-utils, time"
-  ],
-  "Checksums-Sha1": [
-    "aa0c5e35bd7f7cad7d739765d7ffe7b91c1a8d14 4399 openjdk-8_8u171-b11-1~bpo8+1.dsc 9e686e83e5686ec8a127998f6f2fa6f30b46ed2c 70323856 openjdk-8_8u171-b11.orig.tar.xz de852a0355b0dd5b51c819315a1f8d969b83ce8a 251672 openjdk-8_8u171-b11-1~bpo8+1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "80f51586eeafac9c04136f6f644eec156fab03760907aa2eca1ce0e951c35577 4399 openjdk-8_8u171-b11-1~bpo8+1.dsc bf948503de9ea2f39fb9f5c24755a1437616d4412b06f2e18963842a016ec79d 70323856 openjdk-8_8u171-b11.orig.tar.xz dc2ac2ef58abe515f153deefcdc8509266be80becdba91717858adb7ccd63b45 251672 openjdk-8_8u171-b11-1~bpo8+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/o/openjdk-8"
-  ],
-  "Files": [
-    "ef78da0251f6749b46a2ac3f7d3fb0fc 4399 openjdk-8_8u171-b11-1~bpo8+1.dsc 5a83d1a8005d09c144c9fcb6bbf6998b 70323856 openjdk-8_8u171-b11.orig.tar.xz ae26c52c5681acb0fcafec605bd16920 251672 openjdk-8_8u171-b11-1~bpo8+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://openjdk.java.net/"
-  ],
-  "Maintainer": [
-    "OpenJDK Team <openjdk@lists.launchpad.net>"
-  ],
-  "Package": [
-    "openjdk-8"
-  ],
-  "Package-List": [
-    "openjdk-8-dbg deb debug optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,sh4,sparc,sparc64,s390x,x32,kfreebsd-i386,kfreebsd-amd64 openjdk-8-demo deb java optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,sh4,sparc,sparc64,s390x,x32,kfreebsd-i386,kfreebsd-amd64 openjdk-8-doc deb doc optional arch=all openjdk-8-jdk deb java optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,sh4,sparc,sparc64,s390x,x32,kfreebsd-i386,kfreebsd-amd64 openjdk-8-jdk-headless deb java optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,sh4,sparc,sparc64,s390x,x32,kfreebsd-i386,kfreebsd-amd64 openjdk-8-jre deb java optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,sh4,sparc,sparc64,s390x,x32,kfreebsd-i386,kfreebsd-amd64 openjdk-8-jre-headless deb java optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,sh4,sparc,sparc64,s390x,x32,kfreebsd-i386,kfreebsd-amd64 openjdk-8-jre-zero deb java optional arch=amd64,i386,arm64,ppc64,ppc64el,sparc64,armhf,kfreebsd-amd64,kfreebsd-i386 openjdk-8-source deb java optional arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.1.4"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Matthias Klose <doko@ubuntu.com>"
-  ],
-  "Vcs-Browser": [
-    "https://code.launchpad.net/~openjdk/openjdk/openjdk8"
-  ],
-  "Vcs-Bzr": [
-    "http://bazaar.launchpad.net/~openjdk/openjdk/openjdk8"
-  ],
-  "Version": [
-    "8u171-b11-1~bpo8+1"
-  ]
+	"Architecture": [
+		"alpha amd64 armel armhf arm64 i386 ia64 mips mipsel mips64 mips64el powerpc powerpcspe ppc64 ppc64el m68k sh4 sparc sparc64 s390x x32 kfreebsd-i386 kfreebsd-amd64 all"
+	],
+	"Binary": [
+		"openjdk-8-jdk-headless, openjdk-8-jre-headless, openjdk-8-jdk, openjdk-8-jre, openjdk-8-demo, openjdk-8-source, openjdk-8-doc, openjdk-8-dbg, openjdk-8-jre-zero"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), quilt, m4, lsb-release, zip, unzip, sharutils, gawk, cpio, pkg-config, procps, wdiff, tzdata, fastjar (>= 2:0.96-0ubuntu2), autoconf (>= 2.69), automake, autotools-dev, ant, ant-optional, g++-4.9, openjdk-8-jdk | openjdk-7-jdk, libxtst-dev, libxi-dev, libxt-dev, libxaw7-dev, libxrender-dev, libcups2-dev, libasound2-dev, liblcms2-dev, libfreetype6-dev (>= 2.2.1), libxinerama-dev, libkrb5-dev, xsltproc, libpcsclite-dev, libgtk-3-dev, libffi-dev, zlib1g-dev, libattr1-dev, libpng-dev, libjpeg-dev, libgif-dev, libpulse-dev (>= 0.9.12) [!alpha], systemtap-sdt-dev [!sh4], libnss3-dev (>= 2:3.17.1), mauve, jtreg, xvfb, xauth, xfonts-base, libgl1-mesa-dri [!x32], twm | metacity, twm | dbus-x11, x11-xkb-utils, time"
+	],
+	"Checksums-Sha1": [
+		"aa0c5e35bd7f7cad7d739765d7ffe7b91c1a8d14 4399 openjdk-8_8u171-b11-1~bpo8+1.dsc 9e686e83e5686ec8a127998f6f2fa6f30b46ed2c 70323856 openjdk-8_8u171-b11.orig.tar.xz de852a0355b0dd5b51c819315a1f8d969b83ce8a 251672 openjdk-8_8u171-b11-1~bpo8+1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"80f51586eeafac9c04136f6f644eec156fab03760907aa2eca1ce0e951c35577 4399 openjdk-8_8u171-b11-1~bpo8+1.dsc bf948503de9ea2f39fb9f5c24755a1437616d4412b06f2e18963842a016ec79d 70323856 openjdk-8_8u171-b11.orig.tar.xz dc2ac2ef58abe515f153deefcdc8509266be80becdba91717858adb7ccd63b45 251672 openjdk-8_8u171-b11-1~bpo8+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/o/openjdk-8"
+	],
+	"Files": [
+		"ef78da0251f6749b46a2ac3f7d3fb0fc 4399 openjdk-8_8u171-b11-1~bpo8+1.dsc 5a83d1a8005d09c144c9fcb6bbf6998b 70323856 openjdk-8_8u171-b11.orig.tar.xz ae26c52c5681acb0fcafec605bd16920 251672 openjdk-8_8u171-b11-1~bpo8+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://openjdk.java.net/"
+	],
+	"Maintainer": [
+		"OpenJDK Team <openjdk@lists.launchpad.net>"
+	],
+	"Package": [
+		"openjdk-8"
+	],
+	"Package-List": [
+		"openjdk-8-dbg deb debug optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,sh4,sparc,sparc64,s390x,x32,kfreebsd-i386,kfreebsd-amd64 openjdk-8-demo deb java optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,sh4,sparc,sparc64,s390x,x32,kfreebsd-i386,kfreebsd-amd64 openjdk-8-doc deb doc optional arch=all openjdk-8-jdk deb java optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,sh4,sparc,sparc64,s390x,x32,kfreebsd-i386,kfreebsd-amd64 openjdk-8-jdk-headless deb java optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,sh4,sparc,sparc64,s390x,x32,kfreebsd-i386,kfreebsd-amd64 openjdk-8-jre deb java optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,sh4,sparc,sparc64,s390x,x32,kfreebsd-i386,kfreebsd-amd64 openjdk-8-jre-headless deb java optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,sh4,sparc,sparc64,s390x,x32,kfreebsd-i386,kfreebsd-amd64 openjdk-8-jre-zero deb java optional arch=amd64,i386,arm64,ppc64,ppc64el,sparc64,armhf,kfreebsd-amd64,kfreebsd-i386 openjdk-8-source deb java optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.1.4"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Matthias Klose <doko@ubuntu.com>"
+	],
+	"Vcs-Browser": [
+		"https://code.launchpad.net/~openjdk/openjdk/openjdk8"
+	],
+	"Vcs-Bzr": [
+		"http://bazaar.launchpad.net/~openjdk/openjdk/openjdk8"
+	],
+	"Version": [
+		"8u171-b11-1~bpo8+1"
+	]
 }

@@ -1,47 +1,47 @@
 {
-  "header": {
-    "line": "CVE-2015-XXXX [val_dane_check: usage DANE-TA(2) may bypass cert validation entirely]",
-    "name": "TEMP-0797470-1AE9BA",
-    "description": "[val_dane_check: usage DANE-TA(2) may bypass cert validation entirely]"
-  },
-  "annotations": [
-    {
-      "line": "\t[experimental] - dnsval 2.1-1",
-      "type": "package",
-      "release": "experimental",
-      "package": "dnsval",
-      "kind": "fixed",
-      "version": "2.1-1"
-    },
-    {
-      "line": "\t- dnsval 2.0-2 (bug #797470)",
-      "type": "package",
-      "package": "dnsval",
-      "kind": "fixed",
-      "version": "2.0-2",
-      "flags": [
-        {
-          "bug": 797470
-        }
-      ]
-    },
-    {
-      "line": "\t[jessie] - dnsval <no-dsa> (Should possibly be removed in a stable-proposed-update from Jessie)",
-      "type": "package",
-      "release": "jessie",
-      "package": "dnsval",
-      "kind": "no-dsa",
-      "description": "Should possibly be removed in a stable-proposed-update from Jessie"
-    },
-    {
-      "line": "\tNOTE: Removal in jessie would need as well update to irssi and kamailio",
-      "type": "NOTE",
-      "description": "Removal in jessie would need as well update to irssi and kamailio"
-    },
-    {
-      "line": "\tNOTE: dnsval/2.0-2 only disables/let val_dane_check fail on usage 2 because not implemented correctly",
-      "type": "NOTE",
-      "description": "dnsval/2.0-2 only disables/let val_dane_check fail on usage 2 because not implemented correctly"
-    }
-  ]
+	"header": {
+		"line": "CVE-2015-XXXX [val_dane_check: usage DANE-TA(2) may bypass cert validation entirely]",
+		"name": "TEMP-0797470-1AE9BA",
+		"description": "[val_dane_check: usage DANE-TA(2) may bypass cert validation entirely]"
+	},
+	"annotations": [
+		{
+			"line": "\t[experimental] - dnsval 2.1-1",
+			"type": "package",
+			"release": "experimental",
+			"package": "dnsval",
+			"kind": "fixed",
+			"version": "2.1-1"
+		},
+		{
+			"line": "\t- dnsval 2.0-2 (bug #797470)",
+			"type": "package",
+			"package": "dnsval",
+			"kind": "fixed",
+			"version": "2.0-2",
+			"flags": [
+				{
+					"bug": 797470
+				}
+			]
+		},
+		{
+			"line": "\t[jessie] - dnsval <no-dsa> (Should possibly be removed in a stable-proposed-update from Jessie)",
+			"type": "package",
+			"release": "jessie",
+			"package": "dnsval",
+			"kind": "no-dsa",
+			"description": "Should possibly be removed in a stable-proposed-update from Jessie"
+		},
+		{
+			"line": "\tNOTE: Removal in jessie would need as well update to irssi and kamailio",
+			"type": "NOTE",
+			"description": "Removal in jessie would need as well update to irssi and kamailio"
+		},
+		{
+			"line": "\tNOTE: dnsval/2.0-2 only disables/let val_dane_check fail on usage 2 because not implemented correctly",
+			"type": "NOTE",
+			"description": "dnsval/2.0-2 only disables/let val_dane_check fail on usage 2 because not implemented correctly"
+		}
+	]
 }

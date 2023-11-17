@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "sudo, sudo-ldap, libnss-sudo"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-installnss, libpam0g-dev, libldap2-dev, libsasl2-dev, libselinux1-dev [linux-any], autoconf, bison, flex, libaudit-dev [linux-any], zlib1g-dev"
-  ],
-  "Checksums-Sha256": [
-    "a57547da6269182757d7e157f7425e363bfa4593e7107676846ac805930f01b9 2605 sudo_1.9.13p3-1+deb12u1.dsc 92334a12bb93e0c056b09f53e255ccb7d6f67c6350e2813cd9593ceeca78560b 5100355 sudo_1.9.13p3.orig.tar.gz f0220d3d78c06b50213d3363c14f0eee65ebdbce49f7870a22b651374f23bd92 833 sudo_1.9.13p3.orig.tar.gz.asc 76679bcde8046c1de3985a4ce43ee1863943caa1bb4dc63ff63cf23103b0f3f5 42036 sudo_1.9.13p3-1+deb12u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/s/sudo"
-  ],
-  "Files": [
-    "d76882d1cca09edca4146aadecd6d11a 2605 sudo_1.9.13p3-1+deb12u1.dsc be560d914b60376dab3449c99b9f19ef 5100355 sudo_1.9.13p3.orig.tar.gz 58aef40ebcf0f054ff3c029ff4a3ee1c 833 sudo_1.9.13p3.orig.tar.gz.asc bad038d2bfc86fffaed0d58e821f60eb 42036 sudo_1.9.13p3-1+deb12u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.sudo.ws/"
-  ],
-  "Maintainer": [
-    "Sudo Maintainers <sudo@packages.debian.org>"
-  ],
-  "Package": [
-    "sudo"
-  ],
-  "Package-List": [
-    "libnss-sudo deb admin optional arch=all sudo deb admin optional arch=any sudo-ldap deb admin optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "admin"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "adduser, cron, ldap-utils, slapd, sssd-common, sssd-ldap"
-  ],
-  "Uploaders": [
-    "Marc Haber <mh+debian-packages@zugschlus.de>, Hanno Wagner <wagner@debian.org>, Hilko Bengen <bengen@debian.org>, Bastian Blank <waldi@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/sudo-team/sudo"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/sudo-team/sudo.git"
-  ],
-  "Version": [
-    "1.9.13p3-1+deb12u1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"sudo, sudo-ldap, libnss-sudo"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-sequence-installnss, libpam0g-dev, libldap2-dev, libsasl2-dev, libselinux1-dev [linux-any], autoconf, bison, flex, libaudit-dev [linux-any], zlib1g-dev"
+	],
+	"Checksums-Sha256": [
+		"a57547da6269182757d7e157f7425e363bfa4593e7107676846ac805930f01b9 2605 sudo_1.9.13p3-1+deb12u1.dsc 92334a12bb93e0c056b09f53e255ccb7d6f67c6350e2813cd9593ceeca78560b 5100355 sudo_1.9.13p3.orig.tar.gz f0220d3d78c06b50213d3363c14f0eee65ebdbce49f7870a22b651374f23bd92 833 sudo_1.9.13p3.orig.tar.gz.asc 76679bcde8046c1de3985a4ce43ee1863943caa1bb4dc63ff63cf23103b0f3f5 42036 sudo_1.9.13p3-1+deb12u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/s/sudo"
+	],
+	"Files": [
+		"d76882d1cca09edca4146aadecd6d11a 2605 sudo_1.9.13p3-1+deb12u1.dsc be560d914b60376dab3449c99b9f19ef 5100355 sudo_1.9.13p3.orig.tar.gz 58aef40ebcf0f054ff3c029ff4a3ee1c 833 sudo_1.9.13p3.orig.tar.gz.asc bad038d2bfc86fffaed0d58e821f60eb 42036 sudo_1.9.13p3-1+deb12u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.sudo.ws/"
+	],
+	"Maintainer": [
+		"Sudo Maintainers <sudo@packages.debian.org>"
+	],
+	"Package": [
+		"sudo"
+	],
+	"Package-List": [
+		"libnss-sudo deb admin optional arch=all sudo deb admin optional arch=any sudo-ldap deb admin optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"admin"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"adduser, cron, ldap-utils, slapd, sssd-common, sssd-ldap"
+	],
+	"Uploaders": [
+		"Marc Haber <mh+debian-packages@zugschlus.de>, Hanno Wagner <wagner@debian.org>, Hilko Bengen <bengen@debian.org>, Bastian Blank <waldi@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/sudo-team/sudo"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/sudo-team/sudo.git"
+	],
+	"Version": [
+		"1.9.13p3-1+deb12u1"
+	]
 }

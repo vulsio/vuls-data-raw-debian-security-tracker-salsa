@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "education-tasks, education-menus, education-thin-client-server, education-astronomy, education-chemistry, education-common, education-desktop-gnome, education-desktop-kde, education-desktop-lxde, education-desktop-mate, education-desktop-other, education-desktop-xfce, education-development, education-electronics, education-geography, education-graphics, education-lang-da, education-lang-da-desktop, education-lang-da-desktop-kde, education-lang-de, education-lang-de-desktop, education-lang-de-desktop-kde, education-lang-es, education-lang-es-desktop, education-lang-es-desktop-kde, education-lang-fr, education-lang-fr-desktop, education-lang-fr-desktop-kde, education-lang-he, education-lang-he-desktop, education-lang-he-desktop-kde, education-lang-it, education-lang-it-desktop, education-lang-it-desktop-kde, education-lang-ja, education-lang-ja-desktop, education-lang-ja-desktop-kde, education-lang-no, education-lang-no-desktop, education-lang-no-desktop-kde, education-lang-se, education-lang-zh-tw, education-lang-zh-tw-desktop, education-lang-zh-tw-desktop-kde, education-language, education-laptop, education-logic-games, education-ltsp-server, education-main-server, education-mathematics, education-misc, education-music, education-networked, education-networked-common, education-physics, education-roaming-workstation, education-services, education-standalone, education-thin-client, education-workstation"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), blends-dev (>= 0.6.94)"
-  ],
-  "Checksums-Sha256": [
-    "89137d4cafa91c07d02ae657c5909f5e7af8cd3e1c4bc7ec6c99dc3da351c360 6783 debian-edu_1.924.dsc ff069af85861fb5dd50c0f4e69c3ba547da6f11fb08866894c7bf2fe302cf838 116948 debian-edu_1.924.tar.xz"
-  ],
-  "Comment": [
-    "This is a specific package which reorganizes the menu. It doesn't make sense to put in tasks."
-  ],
-  "Directory": [
-    "pool/main/d/debian-edu"
-  ],
-  "Files": [
-    "ccf74eadb6466dd3e33998fadc8d4270 6783 debian-edu_1.924.dsc 3690bc59a36594c60776f71852273eec 116948 debian-edu_1.924.tar.xz"
-  ],
-  "Format": [
-    "3.0 (native)"
-  ],
-  "Homepage": [
-    "http://www.skolelinux.org"
-  ],
-  "Maintainer": [
-    "Debian Edu Developers <debian-edu@lists.debian.org>"
-  ],
-  "Package": [
-    "debian-edu"
-  ],
-  "Package-List": [
-    "education-astronomy deb metapackages extra arch=any education-chemistry deb metapackages extra arch=any education-common deb metapackages extra arch=any education-desktop-gnome deb metapackages extra arch=any education-desktop-kde deb metapackages extra arch=any education-desktop-lxde deb metapackages extra arch=any education-desktop-mate deb metapackages extra arch=any education-desktop-other deb metapackages extra arch=any education-desktop-xfce deb metapackages extra arch=any education-development deb metapackages extra arch=any education-electronics deb metapackages extra arch=any education-geography deb metapackages extra arch=any education-graphics deb metapackages extra arch=any education-lang-da deb metapackages extra arch=any education-lang-da-desktop deb metapackages extra arch=any education-lang-da-desktop-kde deb metapackages extra arch=any education-lang-de deb metapackages extra arch=any education-lang-de-desktop deb metapackages extra arch=any education-lang-de-desktop-kde deb metapackages extra arch=any education-lang-es deb metapackages extra arch=any education-lang-es-desktop deb metapackages extra arch=any education-lang-es-desktop-kde deb metapackages extra arch=any education-lang-fr deb metapackages extra arch=any education-lang-fr-desktop deb metapackages extra arch=any education-lang-fr-desktop-kde deb metapackages extra arch=any education-lang-he deb metapackages extra arch=any education-lang-he-desktop deb metapackages extra arch=any education-lang-he-desktop-kde deb metapackages extra arch=any education-lang-it deb metapackages extra arch=any education-lang-it-desktop deb metapackages extra arch=any education-lang-it-desktop-kde deb metapackages extra arch=any education-lang-ja deb metapackages extra arch=any education-lang-ja-desktop deb metapackages extra arch=any education-lang-ja-desktop-kde deb metapackages extra arch=any education-lang-no deb metapackages extra arch=any education-lang-no-desktop deb metapackages extra arch=any education-lang-no-desktop-kde deb metapackages extra arch=any education-lang-se deb metapackages extra arch=any education-lang-zh-tw deb metapackages extra arch=any education-lang-zh-tw-desktop deb metapackages extra arch=any education-lang-zh-tw-desktop-kde deb metapackages extra arch=any education-language deb metapackages extra arch=any education-laptop deb metapackages extra arch=any education-logic-games deb metapackages extra arch=any education-ltsp-server deb metapackages extra arch=any education-main-server deb metapackages extra arch=any education-mathematics deb metapackages extra arch=any education-menus deb misc extra arch=any education-misc deb metapackages extra arch=any education-music deb metapackages extra arch=any education-networked deb metapackages extra arch=any education-networked-common deb metapackages extra arch=any education-physics deb metapackages extra arch=any education-roaming-workstation deb metapackages extra arch=any education-services deb metapackages extra arch=any education-standalone deb metapackages extra arch=any education-tasks deb misc extra arch=all education-thin-client deb metapackages extra arch=amd64,i386,powerpc education-thin-client-server deb oldlibs extra arch=all education-workstation deb metapackages extra arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "metapackages"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "debian-edu-install, debootstrap"
-  ],
-  "Uploaders": [
-    "Petter Reinholdtsen <pere@debian.org>, Holger Levsen <holger@debian.org>, Andreas Tille <tille@debian.org>, José L. Redrejo Rodríguez <jredrejo@debian.org>, Andrew Lee (李健秋) <ajqlee@debian.org>, Mike Gabriel <sunweaver@debian.org>, Wolfgang Schweer <wschweer@arcor.de>,"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/git/debian-edu/debian-edu.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/debian-edu/debian-edu.git"
-  ],
-  "Version": [
-    "1.924"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"education-tasks, education-menus, education-thin-client-server, education-astronomy, education-chemistry, education-common, education-desktop-gnome, education-desktop-kde, education-desktop-lxde, education-desktop-mate, education-desktop-other, education-desktop-xfce, education-development, education-electronics, education-geography, education-graphics, education-lang-da, education-lang-da-desktop, education-lang-da-desktop-kde, education-lang-de, education-lang-de-desktop, education-lang-de-desktop-kde, education-lang-es, education-lang-es-desktop, education-lang-es-desktop-kde, education-lang-fr, education-lang-fr-desktop, education-lang-fr-desktop-kde, education-lang-he, education-lang-he-desktop, education-lang-he-desktop-kde, education-lang-it, education-lang-it-desktop, education-lang-it-desktop-kde, education-lang-ja, education-lang-ja-desktop, education-lang-ja-desktop-kde, education-lang-no, education-lang-no-desktop, education-lang-no-desktop-kde, education-lang-se, education-lang-zh-tw, education-lang-zh-tw-desktop, education-lang-zh-tw-desktop-kde, education-language, education-laptop, education-logic-games, education-ltsp-server, education-main-server, education-mathematics, education-misc, education-music, education-networked, education-networked-common, education-physics, education-roaming-workstation, education-services, education-standalone, education-thin-client, education-workstation"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), blends-dev (>= 0.6.94)"
+	],
+	"Checksums-Sha256": [
+		"89137d4cafa91c07d02ae657c5909f5e7af8cd3e1c4bc7ec6c99dc3da351c360 6783 debian-edu_1.924.dsc ff069af85861fb5dd50c0f4e69c3ba547da6f11fb08866894c7bf2fe302cf838 116948 debian-edu_1.924.tar.xz"
+	],
+	"Comment": [
+		"This is a specific package which reorganizes the menu. It doesn't make sense to put in tasks."
+	],
+	"Directory": [
+		"pool/main/d/debian-edu"
+	],
+	"Files": [
+		"ccf74eadb6466dd3e33998fadc8d4270 6783 debian-edu_1.924.dsc 3690bc59a36594c60776f71852273eec 116948 debian-edu_1.924.tar.xz"
+	],
+	"Format": [
+		"3.0 (native)"
+	],
+	"Homepage": [
+		"http://www.skolelinux.org"
+	],
+	"Maintainer": [
+		"Debian Edu Developers <debian-edu@lists.debian.org>"
+	],
+	"Package": [
+		"debian-edu"
+	],
+	"Package-List": [
+		"education-astronomy deb metapackages extra arch=any education-chemistry deb metapackages extra arch=any education-common deb metapackages extra arch=any education-desktop-gnome deb metapackages extra arch=any education-desktop-kde deb metapackages extra arch=any education-desktop-lxde deb metapackages extra arch=any education-desktop-mate deb metapackages extra arch=any education-desktop-other deb metapackages extra arch=any education-desktop-xfce deb metapackages extra arch=any education-development deb metapackages extra arch=any education-electronics deb metapackages extra arch=any education-geography deb metapackages extra arch=any education-graphics deb metapackages extra arch=any education-lang-da deb metapackages extra arch=any education-lang-da-desktop deb metapackages extra arch=any education-lang-da-desktop-kde deb metapackages extra arch=any education-lang-de deb metapackages extra arch=any education-lang-de-desktop deb metapackages extra arch=any education-lang-de-desktop-kde deb metapackages extra arch=any education-lang-es deb metapackages extra arch=any education-lang-es-desktop deb metapackages extra arch=any education-lang-es-desktop-kde deb metapackages extra arch=any education-lang-fr deb metapackages extra arch=any education-lang-fr-desktop deb metapackages extra arch=any education-lang-fr-desktop-kde deb metapackages extra arch=any education-lang-he deb metapackages extra arch=any education-lang-he-desktop deb metapackages extra arch=any education-lang-he-desktop-kde deb metapackages extra arch=any education-lang-it deb metapackages extra arch=any education-lang-it-desktop deb metapackages extra arch=any education-lang-it-desktop-kde deb metapackages extra arch=any education-lang-ja deb metapackages extra arch=any education-lang-ja-desktop deb metapackages extra arch=any education-lang-ja-desktop-kde deb metapackages extra arch=any education-lang-no deb metapackages extra arch=any education-lang-no-desktop deb metapackages extra arch=any education-lang-no-desktop-kde deb metapackages extra arch=any education-lang-se deb metapackages extra arch=any education-lang-zh-tw deb metapackages extra arch=any education-lang-zh-tw-desktop deb metapackages extra arch=any education-lang-zh-tw-desktop-kde deb metapackages extra arch=any education-language deb metapackages extra arch=any education-laptop deb metapackages extra arch=any education-logic-games deb metapackages extra arch=any education-ltsp-server deb metapackages extra arch=any education-main-server deb metapackages extra arch=any education-mathematics deb metapackages extra arch=any education-menus deb misc extra arch=any education-misc deb metapackages extra arch=any education-music deb metapackages extra arch=any education-networked deb metapackages extra arch=any education-networked-common deb metapackages extra arch=any education-physics deb metapackages extra arch=any education-roaming-workstation deb metapackages extra arch=any education-services deb metapackages extra arch=any education-standalone deb metapackages extra arch=any education-tasks deb misc extra arch=all education-thin-client deb metapackages extra arch=amd64,i386,powerpc education-thin-client-server deb oldlibs extra arch=all education-workstation deb metapackages extra arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"metapackages"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"debian-edu-install, debootstrap"
+	],
+	"Uploaders": [
+		"Petter Reinholdtsen <pere@debian.org>, Holger Levsen <holger@debian.org>, Andreas Tille <tille@debian.org>, José L. Redrejo Rodríguez <jredrejo@debian.org>, Andrew Lee (李健秋) <ajqlee@debian.org>, Mike Gabriel <sunweaver@debian.org>, Wolfgang Schweer <wschweer@arcor.de>,"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/git/debian-edu/debian-edu.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/debian-edu/debian-edu.git"
+	],
+	"Version": [
+		"1.924"
+	]
 }

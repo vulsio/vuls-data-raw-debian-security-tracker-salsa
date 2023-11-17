@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libgpgme-dev, libgpgme11, python3-gpg, python-gpg, libqgpgme7, libgpgmepp6, libgpgmepp-dev, libgpgmepp-doc"
-  ],
-  "Build-Depends": [
-    "automake (>= 1.14), debhelper (>= 11~), dh-exec, dh-python, gnupg-agent, gnupg2 | gnupg (>= 2), gpgsm, libassuan-dev (>= 2.4.2), libgpg-error-dev (>= 1.24), pkg-config, python-all-dev, python3-all-dev, qtbase5-dev, scdaemon, swig, texinfo"
-  ],
-  "Build-Depends-Indep": [
-    "doxygen, graphviz"
-  ],
-  "Checksums-Sha256": [
-    "ea5958065152b991f2bf7b0655067c3fa83c0fad5d25d1436b78ea6c8a1be336 2662 gpgme1.0_1.12.0-6~bpo9+1.dsc b4dc951c3743a60e2e120a77892e9e864fb936b2e58e7c77e8581f4d050e8cd8 1658803 gpgme1.0_1.12.0.orig.tar.bz2 01673ec3015429f686e7255649bc63527bf794dcb34614a1e9543f62d4ad2b98 22184 gpgme1.0_1.12.0-6~bpo9+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/g/gpgme1.0"
-  ],
-  "Files": [
-    "2cf2b8242ecfe565648adaa384f7925e 2662 gpgme1.0_1.12.0-6~bpo9+1.dsc 902fca3a94907efe4e929b2ade545a7c 1658803 gpgme1.0_1.12.0.orig.tar.bz2 338645cd715d784ac9647ec45448aa35 22184 gpgme1.0_1.12.0-6~bpo9+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.gnupg.org/related_software/gpgme/"
-  ],
-  "Maintainer": [
-    "Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "gpgme1.0"
-  ],
-  "Package-List": [
-    "libgpgme-dev deb libdevel optional arch=any libgpgme11 deb libs optional arch=any libgpgmepp-dev deb libdevel optional arch=any libgpgmepp-doc deb doc optional arch=all libgpgmepp6 deb libs optional arch=any libqgpgme7 deb libs optional arch=any python-gpg deb python optional arch=any python3-gpg deb python optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.2.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Daniel Kahn Gillmor <dkg@fifthhorseman.net>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian/gpgme"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian/gpgme.git"
-  ],
-  "Version": [
-    "1.12.0-6~bpo9+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libgpgme-dev, libgpgme11, python3-gpg, python-gpg, libqgpgme7, libgpgmepp6, libgpgmepp-dev, libgpgmepp-doc"
+	],
+	"Build-Depends": [
+		"automake (>= 1.14), debhelper (>= 11~), dh-exec, dh-python, gnupg-agent, gnupg2 | gnupg (>= 2), gpgsm, libassuan-dev (>= 2.4.2), libgpg-error-dev (>= 1.24), pkg-config, python-all-dev, python3-all-dev, qtbase5-dev, scdaemon, swig, texinfo"
+	],
+	"Build-Depends-Indep": [
+		"doxygen, graphviz"
+	],
+	"Checksums-Sha256": [
+		"ea5958065152b991f2bf7b0655067c3fa83c0fad5d25d1436b78ea6c8a1be336 2662 gpgme1.0_1.12.0-6~bpo9+1.dsc b4dc951c3743a60e2e120a77892e9e864fb936b2e58e7c77e8581f4d050e8cd8 1658803 gpgme1.0_1.12.0.orig.tar.bz2 01673ec3015429f686e7255649bc63527bf794dcb34614a1e9543f62d4ad2b98 22184 gpgme1.0_1.12.0-6~bpo9+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/gpgme1.0"
+	],
+	"Files": [
+		"2cf2b8242ecfe565648adaa384f7925e 2662 gpgme1.0_1.12.0-6~bpo9+1.dsc 902fca3a94907efe4e929b2ade545a7c 1658803 gpgme1.0_1.12.0.orig.tar.bz2 338645cd715d784ac9647ec45448aa35 22184 gpgme1.0_1.12.0-6~bpo9+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.gnupg.org/related_software/gpgme/"
+	],
+	"Maintainer": [
+		"Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"gpgme1.0"
+	],
+	"Package-List": [
+		"libgpgme-dev deb libdevel optional arch=any libgpgme11 deb libs optional arch=any libgpgmepp-dev deb libdevel optional arch=any libgpgmepp-doc deb doc optional arch=all libgpgmepp6 deb libs optional arch=any libqgpgme7 deb libs optional arch=any python-gpg deb python optional arch=any python3-gpg deb python optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.2.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Daniel Kahn Gillmor <dkg@fifthhorseman.net>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/gpgme"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/gpgme.git"
+	],
+	"Version": [
+		"1.12.0-6~bpo9+1"
+	]
 }

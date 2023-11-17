@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "puppet, puppet-master, puppetmaster, puppet-master-passenger, puppetmaster-passenger, puppet-common"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9~), dh-systemd, facter, rake, hiera"
-  ],
-  "Checksums-Sha256": [
-    "13925c5d2f4093e8e5ae1c5e672bcf50306bedff6a13b392287cb4ccbbbd382a 2524 puppet_4.8.2-5.dsc a8b0c0175acc3dd0303c54d4d1999df8d63119dadf2490d953168de7c1b589da 2865098 puppet_4.8.2.orig.tar.gz 02916abb3e20c698279b837f32ca880a75c1d5d656c695854e9f34f318bf59c6 37756 puppet_4.8.2-5.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/puppet"
-  ],
-  "Files": [
-    "d1bb290d0116442a22444ef514d339ee 2524 puppet_4.8.2-5.dsc 3cf567f29937f6ec7ce9c6a6f82eaba6 2865098 puppet_4.8.2.orig.tar.gz c3717d442e18964f93d1270e39de7ec8 37756 puppet_4.8.2-5.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/puppetlabs/puppet"
-  ],
-  "Maintainer": [
-    "Puppet Package Maintainers <pkg-puppet-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "puppet"
-  ],
-  "Package-List": [
-    "puppet deb admin optional arch=all puppet-common deb oldlibs extra arch=all puppet-master deb admin optional arch=all puppet-master-passenger deb admin optional arch=all puppetmaster deb oldlibs extra arch=all puppetmaster-passenger deb oldlibs extra arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "admin"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "curl, ruby-serverspec, systemd-sysv, sysvinit-core"
-  ],
-  "Uploaders": [
-    "Micah Anderson <micah@debian.org>, Andrew Pollock <apollock@debian.org>, Nigel Kersten <nigel@explanatorygap.net>, Stig Sandbeck Mathisen <ssm@debian.org>, Apollon Oikonomopoulos <apoikos@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-puppet/puppet.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-puppet/puppet.git"
-  ],
-  "Version": [
-    "4.8.2-5"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"puppet, puppet-master, puppetmaster, puppet-master-passenger, puppetmaster-passenger, puppet-common"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9~), dh-systemd, facter, rake, hiera"
+	],
+	"Checksums-Sha256": [
+		"13925c5d2f4093e8e5ae1c5e672bcf50306bedff6a13b392287cb4ccbbbd382a 2524 puppet_4.8.2-5.dsc a8b0c0175acc3dd0303c54d4d1999df8d63119dadf2490d953168de7c1b589da 2865098 puppet_4.8.2.orig.tar.gz 02916abb3e20c698279b837f32ca880a75c1d5d656c695854e9f34f318bf59c6 37756 puppet_4.8.2-5.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/puppet"
+	],
+	"Files": [
+		"d1bb290d0116442a22444ef514d339ee 2524 puppet_4.8.2-5.dsc 3cf567f29937f6ec7ce9c6a6f82eaba6 2865098 puppet_4.8.2.orig.tar.gz c3717d442e18964f93d1270e39de7ec8 37756 puppet_4.8.2-5.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/puppetlabs/puppet"
+	],
+	"Maintainer": [
+		"Puppet Package Maintainers <pkg-puppet-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"puppet"
+	],
+	"Package-List": [
+		"puppet deb admin optional arch=all puppet-common deb oldlibs extra arch=all puppet-master deb admin optional arch=all puppet-master-passenger deb admin optional arch=all puppetmaster deb oldlibs extra arch=all puppetmaster-passenger deb oldlibs extra arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"admin"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"curl, ruby-serverspec, systemd-sysv, sysvinit-core"
+	],
+	"Uploaders": [
+		"Micah Anderson <micah@debian.org>, Andrew Pollock <apollock@debian.org>, Nigel Kersten <nigel@explanatorygap.net>, Stig Sandbeck Mathisen <ssm@debian.org>, Apollon Oikonomopoulos <apoikos@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-puppet/puppet.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-puppet/puppet.git"
+	],
+	"Version": [
+		"4.8.2-5"
+	]
 }

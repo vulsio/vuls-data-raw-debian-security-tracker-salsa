@@ -1,53 +1,53 @@
 {
-  "Architecture": [
-    "kfreebsd-any linux-any all"
-  ],
-  "Binary": [
-    "freeipmi, freeipmi-bmc-watchdog, freeipmi-common, freeipmi-ipmidetect, freeipmi-ipmiseld, freeipmi-tools, libfreeipmi-dev, libfreeipmi17, libipmiconsole-dev, libipmiconsole2, libipmidetect-dev, libipmidetect0, libipmimonitoring-dev, libipmimonitoring6"
-  ],
-  "Build-Depends": [
-    "chrpath, debhelper-compat (= 13), dh-exec, libgcrypt20-dev, libsystemd-dev [linux-any], pkg-config, systemd [linux-any], texinfo"
-  ],
-  "Checksums-Sha256": [
-    "28f42bc7b9a38f0de60369a1f69709a2cf6baf71634879b45d6e8045880c5e35 3149 freeipmi_1.6.9-2~bpo11+1.dsc f25e1c35f3d0f1b5a99cc31ecc2353ca83ed46a15163842fba870127dc9c8206 3429566 freeipmi_1.6.9.orig.tar.gz 95c493abd916d82e892ed55101522c540069c4adaa25c4cb0ad596de8c7d8d96 29424 freeipmi_1.6.9-2~bpo11+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/f/freeipmi"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.gnu.org/software/freeipmi/"
-  ],
-  "Maintainer": [
-    "Fabio Fantoni <fantonifabio@tiscali.it>"
-  ],
-  "Package": [
-    "freeipmi"
-  ],
-  "Package-List": [
-    "freeipmi deb admin optional arch=all freeipmi-bmc-watchdog deb admin optional arch=kfreebsd-any,linux-any freeipmi-common deb admin optional arch=all freeipmi-ipmidetect deb admin optional arch=kfreebsd-any,linux-any freeipmi-ipmiseld deb admin optional arch=kfreebsd-any,linux-any freeipmi-tools deb admin optional arch=kfreebsd-any,linux-any libfreeipmi-dev deb libdevel optional arch=kfreebsd-any,linux-any libfreeipmi17 deb libs optional arch=kfreebsd-any,linux-any libipmiconsole-dev deb libdevel optional arch=kfreebsd-any,linux-any libipmiconsole2 deb libs optional arch=kfreebsd-any,linux-any libipmidetect-dev deb libdevel optional arch=kfreebsd-any,linux-any libipmidetect0 deb libs optional arch=kfreebsd-any,linux-any libipmimonitoring-dev deb libdevel optional arch=kfreebsd-any,linux-any libipmimonitoring6 deb libs optional arch=kfreebsd-any,linux-any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.5.1"
-  ],
-  "Uploaders": [
-    "Bernd Zeimetz <bzed@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian/freeipmi"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian/freeipmi.git -b bullseye-backports"
-  ],
-  "Version": [
-    "1.6.9-2~bpo11+1"
-  ]
+	"Architecture": [
+		"kfreebsd-any linux-any all"
+	],
+	"Binary": [
+		"freeipmi, freeipmi-bmc-watchdog, freeipmi-common, freeipmi-ipmidetect, freeipmi-ipmiseld, freeipmi-tools, libfreeipmi-dev, libfreeipmi17, libipmiconsole-dev, libipmiconsole2, libipmidetect-dev, libipmidetect0, libipmimonitoring-dev, libipmimonitoring6"
+	],
+	"Build-Depends": [
+		"chrpath, debhelper-compat (= 13), dh-exec, libgcrypt20-dev, libsystemd-dev [linux-any], pkg-config, systemd [linux-any], texinfo"
+	],
+	"Checksums-Sha256": [
+		"28f42bc7b9a38f0de60369a1f69709a2cf6baf71634879b45d6e8045880c5e35 3149 freeipmi_1.6.9-2~bpo11+1.dsc f25e1c35f3d0f1b5a99cc31ecc2353ca83ed46a15163842fba870127dc9c8206 3429566 freeipmi_1.6.9.orig.tar.gz 95c493abd916d82e892ed55101522c540069c4adaa25c4cb0ad596de8c7d8d96 29424 freeipmi_1.6.9-2~bpo11+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/f/freeipmi"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.gnu.org/software/freeipmi/"
+	],
+	"Maintainer": [
+		"Fabio Fantoni <fantonifabio@tiscali.it>"
+	],
+	"Package": [
+		"freeipmi"
+	],
+	"Package-List": [
+		"freeipmi deb admin optional arch=all freeipmi-bmc-watchdog deb admin optional arch=kfreebsd-any,linux-any freeipmi-common deb admin optional arch=all freeipmi-ipmidetect deb admin optional arch=kfreebsd-any,linux-any freeipmi-ipmiseld deb admin optional arch=kfreebsd-any,linux-any freeipmi-tools deb admin optional arch=kfreebsd-any,linux-any libfreeipmi-dev deb libdevel optional arch=kfreebsd-any,linux-any libfreeipmi17 deb libs optional arch=kfreebsd-any,linux-any libipmiconsole-dev deb libdevel optional arch=kfreebsd-any,linux-any libipmiconsole2 deb libs optional arch=kfreebsd-any,linux-any libipmidetect-dev deb libdevel optional arch=kfreebsd-any,linux-any libipmidetect0 deb libs optional arch=kfreebsd-any,linux-any libipmimonitoring-dev deb libdevel optional arch=kfreebsd-any,linux-any libipmimonitoring6 deb libs optional arch=kfreebsd-any,linux-any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.1"
+	],
+	"Uploaders": [
+		"Bernd Zeimetz <bzed@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/freeipmi"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/freeipmi.git -b bullseye-backports"
+	],
+	"Version": [
+		"1.6.9-2~bpo11+1"
+	]
 }

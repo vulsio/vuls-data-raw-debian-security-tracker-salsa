@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "parted, parted-udeb, libparted2, libparted-fs-resize0, libparted2-udeb, libparted-fs-resize0-udeb, libparted-i18n, libparted-dev, libparted0-dev, parted-doc"
-  ],
-  "Build-Depends": [
-    "dpkg-dev (>= 1.15.7~), debhelper (>= 9~), dh-exec, libncurses-dev | libncurses5-dev, libreadline-dev | libreadline6-dev, libdevmapper-dev (>= 2:1.02.39) [linux-any], uuid-dev, gettext, texinfo (>= 4.2), debianutils (>= 1.13.1), libblkid-dev, pkg-config, check, dh-autoreconf, autoconf (>= 2.63), automake (>= 1:1.11.6), autopoint, gperf"
-  ],
-  "Checksums-Sha256": [
-    "2b6efb9e4f84711927d2ea4a7628d5dce4d91a2c592d43b2516fae970bad2a51 2906 parted_3.2-17.dsc 858b589c22297cacdf437f3baff6f04b333087521ab274f7ab677cb8c6bb78e4 1655244 parted_3.2.orig.tar.xz 44f6396ea3192cd657d4598c59c434c3136161bb08da3e8959df232176ad8655 80708 parted_3.2-17.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/parted"
-  ],
-  "Files": [
-    "8c3c5fbf95e07dcfcdd70a8c84f1593b 2906 parted_3.2-17.dsc 0247b6a7b314f8edeb618159fa95f9cb 1655244 parted_3.2.orig.tar.xz 4629e0d27a8474ef96de9a2fa26a35b8 80708 parted_3.2-17.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.gnu.org/software/parted"
-  ],
-  "Maintainer": [
-    "Parted Maintainer Team <parted-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "parted"
-  ],
-  "Package-List": [
-    "libparted-dev deb libdevel optional arch=any libparted-fs-resize0 deb libs optional arch=any libparted-fs-resize0-udeb udeb debian-installer extra arch=any libparted-i18n deb localization optional arch=all libparted0-dev deb oldlibs extra arch=all libparted2 deb libs optional arch=any libparted2-udeb udeb debian-installer extra arch=any parted deb admin optional arch=any parted-doc deb doc optional arch=all parted-udeb udeb debian-installer extra arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "admin"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Bastian Blank <waldi@debian.org>, Colin Watson <cjwatson@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/parted/debian/parted.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/parted/debian/parted.git"
-  ],
-  "Version": [
-    "3.2-17"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"parted, parted-udeb, libparted2, libparted-fs-resize0, libparted2-udeb, libparted-fs-resize0-udeb, libparted-i18n, libparted-dev, libparted0-dev, parted-doc"
+	],
+	"Build-Depends": [
+		"dpkg-dev (>= 1.15.7~), debhelper (>= 9~), dh-exec, libncurses-dev | libncurses5-dev, libreadline-dev | libreadline6-dev, libdevmapper-dev (>= 2:1.02.39) [linux-any], uuid-dev, gettext, texinfo (>= 4.2), debianutils (>= 1.13.1), libblkid-dev, pkg-config, check, dh-autoreconf, autoconf (>= 2.63), automake (>= 1:1.11.6), autopoint, gperf"
+	],
+	"Checksums-Sha256": [
+		"2b6efb9e4f84711927d2ea4a7628d5dce4d91a2c592d43b2516fae970bad2a51 2906 parted_3.2-17.dsc 858b589c22297cacdf437f3baff6f04b333087521ab274f7ab677cb8c6bb78e4 1655244 parted_3.2.orig.tar.xz 44f6396ea3192cd657d4598c59c434c3136161bb08da3e8959df232176ad8655 80708 parted_3.2-17.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/parted"
+	],
+	"Files": [
+		"8c3c5fbf95e07dcfcdd70a8c84f1593b 2906 parted_3.2-17.dsc 0247b6a7b314f8edeb618159fa95f9cb 1655244 parted_3.2.orig.tar.xz 4629e0d27a8474ef96de9a2fa26a35b8 80708 parted_3.2-17.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.gnu.org/software/parted"
+	],
+	"Maintainer": [
+		"Parted Maintainer Team <parted-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"parted"
+	],
+	"Package-List": [
+		"libparted-dev deb libdevel optional arch=any libparted-fs-resize0 deb libs optional arch=any libparted-fs-resize0-udeb udeb debian-installer extra arch=any libparted-i18n deb localization optional arch=all libparted0-dev deb oldlibs extra arch=all libparted2 deb libs optional arch=any libparted2-udeb udeb debian-installer extra arch=any parted deb admin optional arch=any parted-doc deb doc optional arch=all parted-udeb udeb debian-installer extra arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"admin"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Bastian Blank <waldi@debian.org>, Colin Watson <cjwatson@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/parted/debian/parted.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/parted/debian/parted.git"
+	],
+	"Version": [
+		"3.2-17"
+	]
 }

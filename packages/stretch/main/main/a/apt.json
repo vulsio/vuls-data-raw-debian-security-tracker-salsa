@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "apt, libapt-pkg5.0, libapt-inst2.0, apt-doc, libapt-pkg-dev, libapt-pkg-doc, apt-utils, apt-transport-https"
-  ],
-  "Build-Depends": [
-    "cmake (>= 3.4), debhelper (>= 9.20160709~), dh-systemd, docbook-xml, docbook-xsl, dpkg-dev (>= 1.17.14), gettext (>= 0.12), libbz2-dev, libcurl4-gnutls-dev (>= 7.19.4~), libdb-dev, googletest <!nocheck> | libgtest-dev <!nocheck>, liblz4-dev (>= 0.0~r126), liblzma-dev, pkg-config, po4a (>= 0.34-2), xsltproc, zlib1g-dev"
-  ],
-  "Build-Depends-Indep": [
-    "doxygen, graphviz, w3m"
-  ],
-  "Checksums-Sha256": [
-    "4b05e85f29d5f9809e33b237612bffefc8afd9df30da18a6c34ac6ce58b60596 2553 apt_1.4.10.dsc eaa314e8ebc9e62fedf316d196d1a99d894fd715e6385ed18afd41cc2cd5b127 2080560 apt_1.4.10.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/a/apt"
-  ],
-  "Files": [
-    "1adc0b386ae0e79cb381a908194491b1 2553 apt_1.4.10.dsc 751dba169a465c67bcf9b2d5fca3f3ab 2080560 apt_1.4.10.tar.xz"
-  ],
-  "Format": [
-    "3.0 (native)"
-  ],
-  "Maintainer": [
-    "APT Development Team <deity@lists.debian.org>"
-  ],
-  "Package": [
-    "apt"
-  ],
-  "Package-List": [
-    "apt deb admin important arch=any apt-doc deb doc optional arch=all apt-transport-https deb admin optional arch=any apt-utils deb admin important arch=any libapt-inst2.0 deb libs important arch=any libapt-pkg-dev deb libdevel optional arch=any libapt-pkg-doc deb doc optional arch=all libapt-pkg5.0 deb libs important arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "admin"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "db-util, fakeroot, gnupg, gnupg1, gnupg2, gpgv, gpgv1, gpgv2, libfile-fcntllock-perl, lsof, python3-apt, stunnel4, wget"
-  ],
-  "Uploaders": [
-    "Michael Vogt <mvo@debian.org>, Julian Andres Klode <jak@debian.org>, David Kalnischkies <donkult@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/git/apt/apt.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/apt/apt.git"
-  ],
-  "Version": [
-    "1.4.10"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"apt, libapt-pkg5.0, libapt-inst2.0, apt-doc, libapt-pkg-dev, libapt-pkg-doc, apt-utils, apt-transport-https"
+	],
+	"Build-Depends": [
+		"cmake (>= 3.4), debhelper (>= 9.20160709~), dh-systemd, docbook-xml, docbook-xsl, dpkg-dev (>= 1.17.14), gettext (>= 0.12), libbz2-dev, libcurl4-gnutls-dev (>= 7.19.4~), libdb-dev, googletest <!nocheck> | libgtest-dev <!nocheck>, liblz4-dev (>= 0.0~r126), liblzma-dev, pkg-config, po4a (>= 0.34-2), xsltproc, zlib1g-dev"
+	],
+	"Build-Depends-Indep": [
+		"doxygen, graphviz, w3m"
+	],
+	"Checksums-Sha256": [
+		"4b05e85f29d5f9809e33b237612bffefc8afd9df30da18a6c34ac6ce58b60596 2553 apt_1.4.10.dsc eaa314e8ebc9e62fedf316d196d1a99d894fd715e6385ed18afd41cc2cd5b127 2080560 apt_1.4.10.tar.xz"
+	],
+	"Directory": [
+		"pool/main/a/apt"
+	],
+	"Files": [
+		"1adc0b386ae0e79cb381a908194491b1 2553 apt_1.4.10.dsc 751dba169a465c67bcf9b2d5fca3f3ab 2080560 apt_1.4.10.tar.xz"
+	],
+	"Format": [
+		"3.0 (native)"
+	],
+	"Maintainer": [
+		"APT Development Team <deity@lists.debian.org>"
+	],
+	"Package": [
+		"apt"
+	],
+	"Package-List": [
+		"apt deb admin important arch=any apt-doc deb doc optional arch=all apt-transport-https deb admin optional arch=any apt-utils deb admin important arch=any libapt-inst2.0 deb libs important arch=any libapt-pkg-dev deb libdevel optional arch=any libapt-pkg-doc deb doc optional arch=all libapt-pkg5.0 deb libs important arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"admin"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"db-util, fakeroot, gnupg, gnupg1, gnupg2, gpgv, gpgv1, gpgv2, libfile-fcntllock-perl, lsof, python3-apt, stunnel4, wget"
+	],
+	"Uploaders": [
+		"Michael Vogt <mvo@debian.org>, Julian Andres Klode <jak@debian.org>, David Kalnischkies <donkult@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/git/apt/apt.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/apt/apt.git"
+	],
+	"Version": [
+		"1.4.10"
+	]
 }

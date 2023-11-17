@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "cantor, cantor-dev, cantor-backend-kalgebra, cantor-backend-maxima, cantor-backend-octave, libcantor-pythonbackend, cantor-backend-python2, cantor-backend-python3, cantor-backend-qalculate, cantor-backend-r, cantor-backend-sage, cantor-backend-lua, cantor-backend-python"
-  ],
-  "Build-Depends": [
-    "cmake (>= 2.8.12~), debhelper (>= 9), extra-cmake-modules (>= 5.15.0~), kdoctools-dev (>= 5.15~), kio-dev (>= 5.15~), libanalitza-dev (>> 4:15.08), libglib2.0-dev, libkf5archive-dev (>= 5.15~), libkf5completion-dev (>= 5.15~), libkf5config-dev (>= 5.15~), libkf5coreaddons-dev (>= 5.15~), libkf5crash-dev (>= 5.15~), libkf5doctools-dev (>= 5.15~), libkf5i18n-dev (>= 5.15~), libkf5iconthemes-dev (>= 5.15~), libkf5kdelibs4support-dev, libkf5kio-dev (>= 5.15~), libkf5newstuff-dev (>= 5.15~), libkf5parts-dev (>= 5.15~), libkf5pty-dev (>= 5.15~), libkf5texteditor-dev (>= 5.15~), libkf5textwidgets-dev (>= 5.15~), libkf5xmlgui-dev (>= 5.15~), liblapack3, libluajit-5.1-dev [i386 amd64], libqalculate-dev, libqt5svg5-dev (>= 5.4), libqt5xmlpatterns5-dev (>= 5.4), libspectre-dev, pkg-config, pkg-kde-tools (>> 0.15.15), python-dev (>= 2.7~), python3-dev, qtbase5-dev (>= 5.4), r-base-core"
-  ],
-  "Checksums-Sha256": [
-    "24c75fce9118fcdbb9311182009f1bada236d34757d1f31573f69c6ebfac5729 3779 cantor_16.08.3-1.dsc c702f5f94b68bc18414c3f193b93f431cb2063da9ce41c089478b77337695a44 361368 cantor_16.08.3.orig.tar.xz 6012d7b15530c5138ccf43e02025ccf98b5e607f882f79b953757f8bab9d52eb 11104 cantor_16.08.3-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/c/cantor"
-  ],
-  "Files": [
-    "4329e3270b5cc60bba2033b78eddf4aa 3779 cantor_16.08.3-1.dsc cc2d4d9df4a7e27555441bf5ca074318 361368 cantor_16.08.3.orig.tar.xz cf2b1a860b5721cabc9a70ab8fda3948 11104 cantor_16.08.3-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://edu.kde.org/"
-  ],
-  "Maintainer": [
-    "Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>"
-  ],
-  "Package": [
-    "cantor"
-  ],
-  "Package-List": [
-    "cantor deb math optional arch=any cantor-backend-kalgebra deb math optional arch=any cantor-backend-lua deb math optional arch=amd64,i386 cantor-backend-maxima deb math optional arch=any cantor-backend-octave deb math optional arch=any cantor-backend-python deb oldlibs extra arch=all cantor-backend-python2 deb math optional arch=any cantor-backend-python3 deb math optional arch=any cantor-backend-qalculate deb math optional arch=any cantor-backend-r deb math optional arch=any cantor-backend-sage deb math optional arch=any cantor-dev deb libdevel optional arch=any libcantor-pythonbackend deb math optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "math"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential, dbus-x11, gnuplot, libgl1-mesa-dri, python-numpy, xauth, xvfb"
-  ],
-  "Uploaders": [
-    "Sune Vuorela <sune@debian.org>, Maximiliano Curia <maxy@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/git/pkg-kde/applications/cantor.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-kde/applications/cantor.git"
-  ],
-  "Version": [
-    "4:16.08.3-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"cantor, cantor-dev, cantor-backend-kalgebra, cantor-backend-maxima, cantor-backend-octave, libcantor-pythonbackend, cantor-backend-python2, cantor-backend-python3, cantor-backend-qalculate, cantor-backend-r, cantor-backend-sage, cantor-backend-lua, cantor-backend-python"
+	],
+	"Build-Depends": [
+		"cmake (>= 2.8.12~), debhelper (>= 9), extra-cmake-modules (>= 5.15.0~), kdoctools-dev (>= 5.15~), kio-dev (>= 5.15~), libanalitza-dev (>> 4:15.08), libglib2.0-dev, libkf5archive-dev (>= 5.15~), libkf5completion-dev (>= 5.15~), libkf5config-dev (>= 5.15~), libkf5coreaddons-dev (>= 5.15~), libkf5crash-dev (>= 5.15~), libkf5doctools-dev (>= 5.15~), libkf5i18n-dev (>= 5.15~), libkf5iconthemes-dev (>= 5.15~), libkf5kdelibs4support-dev, libkf5kio-dev (>= 5.15~), libkf5newstuff-dev (>= 5.15~), libkf5parts-dev (>= 5.15~), libkf5pty-dev (>= 5.15~), libkf5texteditor-dev (>= 5.15~), libkf5textwidgets-dev (>= 5.15~), libkf5xmlgui-dev (>= 5.15~), liblapack3, libluajit-5.1-dev [i386 amd64], libqalculate-dev, libqt5svg5-dev (>= 5.4), libqt5xmlpatterns5-dev (>= 5.4), libspectre-dev, pkg-config, pkg-kde-tools (>> 0.15.15), python-dev (>= 2.7~), python3-dev, qtbase5-dev (>= 5.4), r-base-core"
+	],
+	"Checksums-Sha256": [
+		"24c75fce9118fcdbb9311182009f1bada236d34757d1f31573f69c6ebfac5729 3779 cantor_16.08.3-1.dsc c702f5f94b68bc18414c3f193b93f431cb2063da9ce41c089478b77337695a44 361368 cantor_16.08.3.orig.tar.xz 6012d7b15530c5138ccf43e02025ccf98b5e607f882f79b953757f8bab9d52eb 11104 cantor_16.08.3-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/c/cantor"
+	],
+	"Files": [
+		"4329e3270b5cc60bba2033b78eddf4aa 3779 cantor_16.08.3-1.dsc cc2d4d9df4a7e27555441bf5ca074318 361368 cantor_16.08.3.orig.tar.xz cf2b1a860b5721cabc9a70ab8fda3948 11104 cantor_16.08.3-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://edu.kde.org/"
+	],
+	"Maintainer": [
+		"Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>"
+	],
+	"Package": [
+		"cantor"
+	],
+	"Package-List": [
+		"cantor deb math optional arch=any cantor-backend-kalgebra deb math optional arch=any cantor-backend-lua deb math optional arch=amd64,i386 cantor-backend-maxima deb math optional arch=any cantor-backend-octave deb math optional arch=any cantor-backend-python deb oldlibs extra arch=all cantor-backend-python2 deb math optional arch=any cantor-backend-python3 deb math optional arch=any cantor-backend-qalculate deb math optional arch=any cantor-backend-r deb math optional arch=any cantor-backend-sage deb math optional arch=any cantor-dev deb libdevel optional arch=any libcantor-pythonbackend deb math optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"math"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, dbus-x11, gnuplot, libgl1-mesa-dri, python-numpy, xauth, xvfb"
+	],
+	"Uploaders": [
+		"Sune Vuorela <sune@debian.org>, Maximiliano Curia <maxy@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/git/pkg-kde/applications/cantor.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-kde/applications/cantor.git"
+	],
+	"Version": [
+		"4:16.08.3-1"
+	]
 }

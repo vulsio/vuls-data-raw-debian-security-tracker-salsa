@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "python-pysam, python3-pysam, python-pysam-tests"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-python, libhts-dev (>= 1.3.2), zlib1g-dev, python-all-dev, python-setuptools, cython (>= 0.23), python3-all-dev, python3-setuptools, cython3 (>= 0.23), tabix, samtools (>= 1.3.1), bcftools (>= 1.3.1), python-nose, python3-nose"
-  ],
-  "Checksums-Sha256": [
-    "097f33a018325fc1b9d81a3ecbf2b120c078ab95f87fcd11345b88a21ae751d9 2642 python-pysam_0.10.0+ds-2.dsc 5cd7f963e6e19f342d765959b01e946dd3296434216b724136bab8f54e7c58da 2304323 python-pysam_0.10.0+ds.orig.tar.gz ca5372a3d358284eba4f67afe5d4035ef694e0a363d3993d7341a684a0a73667 8500 python-pysam_0.10.0+ds-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/python-pysam"
-  ],
-  "Files": [
-    "c6a8f70f60ec5e6bd15299f60ca72392 2642 python-pysam_0.10.0+ds-2.dsc d854ddc4063df2fabbec5f0c51ff292b 2304323 python-pysam_0.10.0+ds.orig.tar.gz af7c4c08ceb49287be68f35d77030ab8 8500 python-pysam_0.10.0+ds-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://pysam.readthedocs.org/en/latest"
-  ],
-  "Maintainer": [
-    "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "python-pysam"
-  ],
-  "Package-List": [
-    "python-pysam deb python optional arch=any python-pysam-tests deb python optional arch=all python3-pysam deb python optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "bcftools, build-essential, cython, cython3, libhts-dev, python-dev, python-nose, python3-dev, python3-nose, samtools, tabix, zlib1g-dev"
-  ],
-  "Uploaders": [
-    "Charles Plessy <plessy@debian.org>, Andreas Tille <tille@debian.org>, Afif Elghraoui <afif@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/debian-med/python-pysam.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/debian-med/python-pysam.git"
-  ],
-  "Version": [
-    "0.10.0+ds-2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"python-pysam, python3-pysam, python-pysam-tests"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-python, libhts-dev (>= 1.3.2), zlib1g-dev, python-all-dev, python-setuptools, cython (>= 0.23), python3-all-dev, python3-setuptools, cython3 (>= 0.23), tabix, samtools (>= 1.3.1), bcftools (>= 1.3.1), python-nose, python3-nose"
+	],
+	"Checksums-Sha256": [
+		"097f33a018325fc1b9d81a3ecbf2b120c078ab95f87fcd11345b88a21ae751d9 2642 python-pysam_0.10.0+ds-2.dsc 5cd7f963e6e19f342d765959b01e946dd3296434216b724136bab8f54e7c58da 2304323 python-pysam_0.10.0+ds.orig.tar.gz ca5372a3d358284eba4f67afe5d4035ef694e0a363d3993d7341a684a0a73667 8500 python-pysam_0.10.0+ds-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-pysam"
+	],
+	"Files": [
+		"c6a8f70f60ec5e6bd15299f60ca72392 2642 python-pysam_0.10.0+ds-2.dsc d854ddc4063df2fabbec5f0c51ff292b 2304323 python-pysam_0.10.0+ds.orig.tar.gz af7c4c08ceb49287be68f35d77030ab8 8500 python-pysam_0.10.0+ds-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://pysam.readthedocs.org/en/latest"
+	],
+	"Maintainer": [
+		"Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"python-pysam"
+	],
+	"Package-List": [
+		"python-pysam deb python optional arch=any python-pysam-tests deb python optional arch=all python3-pysam deb python optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"bcftools, build-essential, cython, cython3, libhts-dev, python-dev, python-nose, python3-dev, python3-nose, samtools, tabix, zlib1g-dev"
+	],
+	"Uploaders": [
+		"Charles Plessy <plessy@debian.org>, Andreas Tille <tille@debian.org>, Afif Elghraoui <afif@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/debian-med/python-pysam.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/debian-med/python-pysam.git"
+	],
+	"Version": [
+		"0.10.0+ds-2"
+	]
 }

@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "gir1.2-panelapplet-4.0, gnome-panel, gnome-panel-data, gnome-panel-dbg, gnome-session-fallback, gnome-session-flashback, libpanel-applet-4-0, libpanel-applet-4-dev, libpanel-applet-4-doc"
-  ],
-  "Build-Depends": [
-    "cdbs (>= 0.4.41), debhelper (>= 9), dh-autoreconf, evolution-data-server-dev (>= 3.5.3), gnome-pkg-tools (>= 0.14), gobject-introspection (>= 1.41.4-1~), gtk-doc-tools (>= 1.0), intltool (>= 0.40.0), libcairo2-dev (>= 1.10.0), libdconf-dev (>= 0.13.4), libecal1.2-dev (>= 3.5.3), libedataserver1.2-dev (>= 3.5.3), libgconf2-dev (>= 2.6.1), libgdk-pixbuf2.0-dev (>= 2.25.2), libgirepository1.0-dev (>= 0.10.7-1~), libglib2.0-dev (>= 2.31.14), libgnome-desktop-3-dev (>= 2.91.0), libgnome-menu-3-dev (>= 3.7.90), libgtk-3-dev (>= 3.3.8), libgweather-3-dev (>= 3.10.1), libice-dev, libpango1.0-dev (>= 1.15.4), libpolkit-gobject-1-dev, librsvg2-dev, libsm-dev, libtelepathy-glib-dev (>= 0.14.0), libwnck-3-dev (>= 3.4.6), libx11-dev, libxau-dev, libxrandr-dev (>= 2:1.2.0), libxt-dev, network-manager-dev (>= 0.6) [linux-any], pkg-config (>= 0.9.0), python, yelp-tools"
-  ],
-  "Checksums-Sha1": [
-    "12008a4c7d1ce3c4d451de19da0eec48cbf90ffa 3490 gnome-panel_3.8.1-7.dsc 7dd11de46a5cc261280f5cb8080287df9031c7f1 2354420 gnome-panel_3.8.1.orig.tar.xz c4e48ae1685d11e7674fe160ca2f61927a464297 36460 gnome-panel_3.8.1-7.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "e7a1ea51baf21297097d363fbf5e6fda1ed7d737b6b24ab29b21383db9422c25 3490 gnome-panel_3.8.1-7.dsc 2c84d8541787d39514bd6d9605b2bd5ecea38a5534cb874ce1ff54bd59ecb97f 2354420 gnome-panel_3.8.1.orig.tar.xz 41de63435810eb2c063a952f1b4a23589cc47514328fefc0f4987223a4a53665 36460 gnome-panel_3.8.1-7.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/g/gnome-panel"
-  ],
-  "Files": [
-    "e8741eabe981eff1b017eb0532cb27e8 3490 gnome-panel_3.8.1-7.dsc 46ec59e3803d99e5ae1357bf2cbd3f0b 2354420 gnome-panel_3.8.1.orig.tar.xz ae4dfdadaba17f85a0309539924095ef 36460 gnome-panel_3.8.1-7.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://wiki.gnome.org/Projects/GnomePanel"
-  ],
-  "Maintainer": [
-    "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "gnome-panel"
-  ],
-  "Package-List": [
-    "gir1.2-panelapplet-4.0 deb introspection optional arch=any gnome-panel deb gnome optional arch=any gnome-panel-data deb gnome optional arch=all gnome-panel-dbg deb debug extra arch=any gnome-session-fallback deb oldlibs extra arch=all gnome-session-flashback deb gnome optional arch=all libpanel-applet-4-0 deb libs optional arch=any libpanel-applet-4-dev deb libdevel optional arch=any libpanel-applet-4-doc deb doc optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "gnome"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Uploaders": [
-    "Andreas Henriksson <andreas@fatal.se>, Dmitry Shachnev <mitya57@debian.org>, Emilio Pozuelo Monfort <pochu@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/gnome-panel"
-  ],
-  "Vcs-Svn": [
-    "svn://anonscm.debian.org/pkg-gnome/desktop/unstable/gnome-panel"
-  ],
-  "Version": [
-    "3.8.1-7"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"gir1.2-panelapplet-4.0, gnome-panel, gnome-panel-data, gnome-panel-dbg, gnome-session-fallback, gnome-session-flashback, libpanel-applet-4-0, libpanel-applet-4-dev, libpanel-applet-4-doc"
+	],
+	"Build-Depends": [
+		"cdbs (>= 0.4.41), debhelper (>= 9), dh-autoreconf, evolution-data-server-dev (>= 3.5.3), gnome-pkg-tools (>= 0.14), gobject-introspection (>= 1.41.4-1~), gtk-doc-tools (>= 1.0), intltool (>= 0.40.0), libcairo2-dev (>= 1.10.0), libdconf-dev (>= 0.13.4), libecal1.2-dev (>= 3.5.3), libedataserver1.2-dev (>= 3.5.3), libgconf2-dev (>= 2.6.1), libgdk-pixbuf2.0-dev (>= 2.25.2), libgirepository1.0-dev (>= 0.10.7-1~), libglib2.0-dev (>= 2.31.14), libgnome-desktop-3-dev (>= 2.91.0), libgnome-menu-3-dev (>= 3.7.90), libgtk-3-dev (>= 3.3.8), libgweather-3-dev (>= 3.10.1), libice-dev, libpango1.0-dev (>= 1.15.4), libpolkit-gobject-1-dev, librsvg2-dev, libsm-dev, libtelepathy-glib-dev (>= 0.14.0), libwnck-3-dev (>= 3.4.6), libx11-dev, libxau-dev, libxrandr-dev (>= 2:1.2.0), libxt-dev, network-manager-dev (>= 0.6) [linux-any], pkg-config (>= 0.9.0), python, yelp-tools"
+	],
+	"Checksums-Sha1": [
+		"12008a4c7d1ce3c4d451de19da0eec48cbf90ffa 3490 gnome-panel_3.8.1-7.dsc 7dd11de46a5cc261280f5cb8080287df9031c7f1 2354420 gnome-panel_3.8.1.orig.tar.xz c4e48ae1685d11e7674fe160ca2f61927a464297 36460 gnome-panel_3.8.1-7.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"e7a1ea51baf21297097d363fbf5e6fda1ed7d737b6b24ab29b21383db9422c25 3490 gnome-panel_3.8.1-7.dsc 2c84d8541787d39514bd6d9605b2bd5ecea38a5534cb874ce1ff54bd59ecb97f 2354420 gnome-panel_3.8.1.orig.tar.xz 41de63435810eb2c063a952f1b4a23589cc47514328fefc0f4987223a4a53665 36460 gnome-panel_3.8.1-7.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/gnome-panel"
+	],
+	"Files": [
+		"e8741eabe981eff1b017eb0532cb27e8 3490 gnome-panel_3.8.1-7.dsc 46ec59e3803d99e5ae1357bf2cbd3f0b 2354420 gnome-panel_3.8.1.orig.tar.xz ae4dfdadaba17f85a0309539924095ef 36460 gnome-panel_3.8.1-7.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://wiki.gnome.org/Projects/GnomePanel"
+	],
+	"Maintainer": [
+		"Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"gnome-panel"
+	],
+	"Package-List": [
+		"gir1.2-panelapplet-4.0 deb introspection optional arch=any gnome-panel deb gnome optional arch=any gnome-panel-data deb gnome optional arch=all gnome-panel-dbg deb debug extra arch=any gnome-session-fallback deb oldlibs extra arch=all gnome-session-flashback deb gnome optional arch=all libpanel-applet-4-0 deb libs optional arch=any libpanel-applet-4-dev deb libdevel optional arch=any libpanel-applet-4-doc deb doc optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"gnome"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Uploaders": [
+		"Andreas Henriksson <andreas@fatal.se>, Dmitry Shachnev <mitya57@debian.org>, Emilio Pozuelo Monfort <pochu@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/gnome-panel"
+	],
+	"Vcs-Svn": [
+		"svn://anonscm.debian.org/pkg-gnome/desktop/unstable/gnome-panel"
+	],
+	"Version": [
+		"3.8.1-7"
+	]
 }

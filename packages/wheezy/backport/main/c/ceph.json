@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "linux-any all"
-  ],
-  "Binary": [
-    "ceph, ceph-dbg, ceph-common, ceph-common-dbg, ceph-mds, ceph-mds-dbg, ceph-fuse, ceph-fuse-dbg, rbd-fuse, rbd-fuse-dbg, ceph-fs-common, ceph-fs-common-dbg, ceph-resource-agents, librados2, librados2-dbg, librados-dev, librbd1, librbd1-dbg, librbd-dev, libcephfs1, libcephfs1-dbg, libcephfs-dev, radosgw, radosgw-dbg, rest-bench, rest-bench-dbg, ceph-test, ceph-test-dbg, python-ceph, libcephfs-java, libcephfs-jni, libcephfs-jni-dbg"
-  ],
-  "Build-Conflicts": [
-    "libcrypto++-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9~), default-jdk, dh-autoreconf, dpkg-dev (>= 1.16.1~), javahelper, junit4, libaio-dev, libatomic-ops-dev, libblkid-dev, libboost-dev, libboost-program-options-dev, libboost-system-dev, libboost-thread-dev, libcurl4-gnutls-dev, libedit-dev, libexpat1-dev, libfcgi-dev, libfuse-dev, libgoogle-perftools-dev [i386 amd64], libkeyutils-dev, libleveldb-dev, libnss3-dev, libs3-dev, libsnappy-dev, libtool, libxml2-dev, pkg-config, python-all (>= 2.6.6-3~), python-nose, uuid-dev, uuid-runtime, xfslibs-dev, yasm [amd64]"
-  ],
-  "Checksums-Sha1": [
-    "6587403e7b157dfde8e0f1542a9f4a902a69f996 3921 ceph_0.80.7-1~bpo70+1.dsc 3db33986291c8fc8fb572099ec2915690d88512b 4036009 ceph_0.80.7.orig.tar.bz2 4b05be4b0aa5a5a54dfcec1a37449b447f1849e1 52695 ceph_0.80.7-1~bpo70+1.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "aaec5111b55c30015f4e6abce87a02a648d199734ca6b10400b1c9691261f2c5 3921 ceph_0.80.7-1~bpo70+1.dsc d895a285d0b89c3fb3922874a925d809c3c00b296cc639d108a500942888f2a4 4036009 ceph_0.80.7.orig.tar.bz2 28736aeca844fa42d8a3ae2e72a97fc0e5276ddc1d835c33bcc133e7422ebb49 52695 ceph_0.80.7-1~bpo70+1.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/c/ceph"
-  ],
-  "Files": [
-    "05e78a8166412c9858208eeafdc68ef0 3921 ceph_0.80.7-1~bpo70+1.dsc dc7e46b5804fd5fdb8796416b914c4be 4036009 ceph_0.80.7.orig.tar.bz2 9479e360440cbc79d99e685cdda27a03 52695 ceph_0.80.7-1~bpo70+1.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://ceph.com/"
-  ],
-  "Maintainer": [
-    "Ceph Maintainers <ceph-maintainers@lists.ceph.com>"
-  ],
-  "Package": [
-    "ceph"
-  ],
-  "Package-List": [
-    "ceph deb admin optional ceph-common deb admin optional ceph-common-dbg deb debug extra ceph-dbg deb debug extra ceph-fs-common deb admin optional ceph-fs-common-dbg deb debug extra ceph-fuse deb admin optional ceph-fuse-dbg deb debug extra ceph-mds deb admin optional ceph-mds-dbg deb debug extra ceph-resource-agents deb admin extra ceph-test deb admin optional ceph-test-dbg deb debug extra libcephfs-dev deb libdevel optional libcephfs-java deb java optional libcephfs-jni deb libs optional libcephfs-jni-dbg deb debug extra libcephfs1 deb libs optional libcephfs1-dbg deb debug extra librados-dev deb libdevel optional librados2 deb libs optional librados2-dbg deb debug extra librbd-dev deb libdevel optional librbd1 deb libs optional librbd1-dbg deb debug extra python-ceph deb python optional radosgw deb admin optional radosgw-dbg deb debug extra rbd-fuse deb admin optional rbd-fuse-dbg deb debug extra rest-bench deb admin optional rest-bench-dbg deb debug extra"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Laszlo Boszormenyi (GCS) <gcs@debian.org>, James Page <jamespage@debian.org>, Dmitry Smirnov <onlyjob@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-ceph/ceph.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-ceph/ceph.git"
-  ],
-  "Version": [
-    "0.80.7-1~bpo70+1"
-  ]
+	"Architecture": [
+		"linux-any all"
+	],
+	"Binary": [
+		"ceph, ceph-dbg, ceph-common, ceph-common-dbg, ceph-mds, ceph-mds-dbg, ceph-fuse, ceph-fuse-dbg, rbd-fuse, rbd-fuse-dbg, ceph-fs-common, ceph-fs-common-dbg, ceph-resource-agents, librados2, librados2-dbg, librados-dev, librbd1, librbd1-dbg, librbd-dev, libcephfs1, libcephfs1-dbg, libcephfs-dev, radosgw, radosgw-dbg, rest-bench, rest-bench-dbg, ceph-test, ceph-test-dbg, python-ceph, libcephfs-java, libcephfs-jni, libcephfs-jni-dbg"
+	],
+	"Build-Conflicts": [
+		"libcrypto++-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9~), default-jdk, dh-autoreconf, dpkg-dev (>= 1.16.1~), javahelper, junit4, libaio-dev, libatomic-ops-dev, libblkid-dev, libboost-dev, libboost-program-options-dev, libboost-system-dev, libboost-thread-dev, libcurl4-gnutls-dev, libedit-dev, libexpat1-dev, libfcgi-dev, libfuse-dev, libgoogle-perftools-dev [i386 amd64], libkeyutils-dev, libleveldb-dev, libnss3-dev, libs3-dev, libsnappy-dev, libtool, libxml2-dev, pkg-config, python-all (>= 2.6.6-3~), python-nose, uuid-dev, uuid-runtime, xfslibs-dev, yasm [amd64]"
+	],
+	"Checksums-Sha1": [
+		"6587403e7b157dfde8e0f1542a9f4a902a69f996 3921 ceph_0.80.7-1~bpo70+1.dsc 3db33986291c8fc8fb572099ec2915690d88512b 4036009 ceph_0.80.7.orig.tar.bz2 4b05be4b0aa5a5a54dfcec1a37449b447f1849e1 52695 ceph_0.80.7-1~bpo70+1.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"aaec5111b55c30015f4e6abce87a02a648d199734ca6b10400b1c9691261f2c5 3921 ceph_0.80.7-1~bpo70+1.dsc d895a285d0b89c3fb3922874a925d809c3c00b296cc639d108a500942888f2a4 4036009 ceph_0.80.7.orig.tar.bz2 28736aeca844fa42d8a3ae2e72a97fc0e5276ddc1d835c33bcc133e7422ebb49 52695 ceph_0.80.7-1~bpo70+1.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/c/ceph"
+	],
+	"Files": [
+		"05e78a8166412c9858208eeafdc68ef0 3921 ceph_0.80.7-1~bpo70+1.dsc dc7e46b5804fd5fdb8796416b914c4be 4036009 ceph_0.80.7.orig.tar.bz2 9479e360440cbc79d99e685cdda27a03 52695 ceph_0.80.7-1~bpo70+1.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://ceph.com/"
+	],
+	"Maintainer": [
+		"Ceph Maintainers <ceph-maintainers@lists.ceph.com>"
+	],
+	"Package": [
+		"ceph"
+	],
+	"Package-List": [
+		"ceph deb admin optional ceph-common deb admin optional ceph-common-dbg deb debug extra ceph-dbg deb debug extra ceph-fs-common deb admin optional ceph-fs-common-dbg deb debug extra ceph-fuse deb admin optional ceph-fuse-dbg deb debug extra ceph-mds deb admin optional ceph-mds-dbg deb debug extra ceph-resource-agents deb admin extra ceph-test deb admin optional ceph-test-dbg deb debug extra libcephfs-dev deb libdevel optional libcephfs-java deb java optional libcephfs-jni deb libs optional libcephfs-jni-dbg deb debug extra libcephfs1 deb libs optional libcephfs1-dbg deb debug extra librados-dev deb libdevel optional librados2 deb libs optional librados2-dbg deb debug extra librbd-dev deb libdevel optional librbd1 deb libs optional librbd1-dbg deb debug extra python-ceph deb python optional radosgw deb admin optional radosgw-dbg deb debug extra rbd-fuse deb admin optional rbd-fuse-dbg deb debug extra rest-bench deb admin optional rest-bench-dbg deb debug extra"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Laszlo Boszormenyi (GCS) <gcs@debian.org>, James Page <jamespage@debian.org>, Dmitry Smirnov <onlyjob@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-ceph/ceph.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-ceph/ceph.git"
+	],
+	"Version": [
+		"0.80.7-1~bpo70+1"
+	]
 }

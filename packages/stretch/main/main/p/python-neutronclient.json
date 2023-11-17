@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-neutronclient, python3-neutronclient"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-python, openstack-pkg-tools, python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.8), python3-setuptools"
-  ],
-  "Build-Depends-Indep": [
-    "python-babel (>= 2.3.4), python-cliff (>= 1.15.0), python-coverage, python-debtcollector (>= 1.2.0), python-fixtures (>= 3.0.0), python-hacking, python-keystoneauth1 (>= 2.10.0), python-iso8601 (>= 0.1.11), python-mock (>= 2.0), python-mox3, python-netaddr (>= 0.7.12), python-openstackclient (>= 2.1.0), python-osc-lib (>= 1.0.2), python-oslo.i18n (>= 2.1.0), python-oslo.serialization (>= 1.10.0), python-oslo.utils (>= 3.16.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.10.0), python-os-client-config (>= 1.13.1), python-requests (>= 2.10.0), python-requests-mock (>= 1.0), python-simplejson, python-six (>= 1.9.0), python-tempest (>= 1:12.1.0), python-testscenarios, python-testtools (>= 1.4.0), python3-babel (>= 2.3.4), python3-cliff (>= 1.15.0), python3-coverage, python3-debtcollector (>= 1.2.0), python3-fixtures (>= 3.0.0), python3-keystoneauth1 (>= 2.10.0), python3-iso8601 (>= 0.1.11), python3-mock (>= 2.0), python3-mox3, python3-netaddr (>= 0.7.12), python3-openstackclient (>= 2.1.0), python3-osc-lib (>= 1.0.2), python3-oslo.i18n (>= 2.1.0), python3-oslo.serialization (>= 1.10.0), python3-oslo.utils (>= 3.16.0), python3-os-client-config (>= 1.13.1), python3-oslotest (>= 1:1.10.0), python3-requests (>= 2.10.0), python3-requests-mock (>= 1.0), python3-simplejson, python3-six (>= 1.9.0), python3-subunit, python3-tempest (>= 1:12.1.0), python3-testscenarios, python3-testtools (>= 1.4.0), subunit, testrepository"
-  ],
-  "Checksums-Sha256": [
-    "64666c8989312794f8c832fcb75e2cb5615e9a81ce6755fbb3a2f15b97819c64 3785 python-neutronclient_6.0.0-2.dsc 289317cea2f27d0f41a0abb20885db4bb786942e8b374a7225b161b073098166 145640 python-neutronclient_6.0.0.orig.tar.xz a77540602eea6a7766c2982a08d77a89f3b6c2ac91fcaa992bfe14ae4c1557cc 4696 python-neutronclient_6.0.0-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/python-neutronclient"
-  ],
-  "Files": [
-    "f1705bb868b33a50ee28b4f98628244c 3785 python-neutronclient_6.0.0-2.dsc 828b4181e6ca252923e8d98b8e3cc865 145640 python-neutronclient_6.0.0.orig.tar.xz b1f49ea6750fa9b4963489ff5c6297e3 4696 python-neutronclient_6.0.0-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://launchpad.net/python-neutronclient"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "python-neutronclient"
-  ],
-  "Package-List": [
-    "python-neutronclient deb python optional arch=all python3-neutronclient deb python optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://git.openstack.org/cgit/openstack/deb-python-neutronclient?h=debian%2Fnewton"
-  ],
-  "Vcs-Git": [
-    "https://git.openstack.org/openstack/deb-python-neutronclient -b debian/newton"
-  ],
-  "Version": [
-    "1:6.0.0-2"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-neutronclient, python3-neutronclient"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-python, openstack-pkg-tools, python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.8), python3-setuptools"
+	],
+	"Build-Depends-Indep": [
+		"python-babel (>= 2.3.4), python-cliff (>= 1.15.0), python-coverage, python-debtcollector (>= 1.2.0), python-fixtures (>= 3.0.0), python-hacking, python-keystoneauth1 (>= 2.10.0), python-iso8601 (>= 0.1.11), python-mock (>= 2.0), python-mox3, python-netaddr (>= 0.7.12), python-openstackclient (>= 2.1.0), python-osc-lib (>= 1.0.2), python-oslo.i18n (>= 2.1.0), python-oslo.serialization (>= 1.10.0), python-oslo.utils (>= 3.16.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.10.0), python-os-client-config (>= 1.13.1), python-requests (>= 2.10.0), python-requests-mock (>= 1.0), python-simplejson, python-six (>= 1.9.0), python-tempest (>= 1:12.1.0), python-testscenarios, python-testtools (>= 1.4.0), python3-babel (>= 2.3.4), python3-cliff (>= 1.15.0), python3-coverage, python3-debtcollector (>= 1.2.0), python3-fixtures (>= 3.0.0), python3-keystoneauth1 (>= 2.10.0), python3-iso8601 (>= 0.1.11), python3-mock (>= 2.0), python3-mox3, python3-netaddr (>= 0.7.12), python3-openstackclient (>= 2.1.0), python3-osc-lib (>= 1.0.2), python3-oslo.i18n (>= 2.1.0), python3-oslo.serialization (>= 1.10.0), python3-oslo.utils (>= 3.16.0), python3-os-client-config (>= 1.13.1), python3-oslotest (>= 1:1.10.0), python3-requests (>= 2.10.0), python3-requests-mock (>= 1.0), python3-simplejson, python3-six (>= 1.9.0), python3-subunit, python3-tempest (>= 1:12.1.0), python3-testscenarios, python3-testtools (>= 1.4.0), subunit, testrepository"
+	],
+	"Checksums-Sha256": [
+		"64666c8989312794f8c832fcb75e2cb5615e9a81ce6755fbb3a2f15b97819c64 3785 python-neutronclient_6.0.0-2.dsc 289317cea2f27d0f41a0abb20885db4bb786942e8b374a7225b161b073098166 145640 python-neutronclient_6.0.0.orig.tar.xz a77540602eea6a7766c2982a08d77a89f3b6c2ac91fcaa992bfe14ae4c1557cc 4696 python-neutronclient_6.0.0-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-neutronclient"
+	],
+	"Files": [
+		"f1705bb868b33a50ee28b4f98628244c 3785 python-neutronclient_6.0.0-2.dsc 828b4181e6ca252923e8d98b8e3cc865 145640 python-neutronclient_6.0.0.orig.tar.xz b1f49ea6750fa9b4963489ff5c6297e3 4696 python-neutronclient_6.0.0-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://launchpad.net/python-neutronclient"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"python-neutronclient"
+	],
+	"Package-List": [
+		"python-neutronclient deb python optional arch=all python3-neutronclient deb python optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://git.openstack.org/cgit/openstack/deb-python-neutronclient?h=debian%2Fnewton"
+	],
+	"Vcs-Git": [
+		"https://git.openstack.org/openstack/deb-python-neutronclient -b debian/newton"
+	],
+	"Version": [
+		"1:6.0.0-2"
+	]
 }

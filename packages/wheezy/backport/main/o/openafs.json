@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "alpha amd64 arm armel armhf i386 ia64 powerpc powerpcspe ppc64 s390 s390x sparc lpia all"
-  ],
-  "Binary": [
-    "openafs-client, openafs-fuse, openafs-kpasswd, openafs-fileserver, openafs-dbserver, openafs-doc, openafs-krb5, libkopenafs1, libafsauthent1, libafsrpc1, libopenafs-dev, openafs-modules-source, openafs-modules-dkms, libpam-openafs-kaserver, openafs-dbg"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), autoconf, automake, bison, comerr-dev, cpio, flex, hardening-wrapper, libfuse-dev, libkrb5-dev, libncurses5-dev, libpam0g-dev, libxml2-utils, perl, pkg-config"
-  ],
-  "Build-Depends-Indep": [
-    "dblatex, dkms (>= 2.1.1.1), docbook-xsl, doxygen, xsltproc"
-  ],
-  "Checksums-Sha1": [
-    "00d86d7c0a0a7acd8653f2ebe694c4fca2d104f5 2985 openafs_1.6.9-2+deb8u4~bpo70+1.dsc 8c9395f89ce04bbb047480c385b5635828d7bbd6 6631136 openafs_1.6.9.orig.tar.xz 7d86d1b707e3aa1cfc3883091fdb50b6c6bbe1fe 141828 openafs_1.6.9-2+deb8u4~bpo70+1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "f08fc10e6db3f88af042bf09f2e00bac438eee7a385947f9aceb6b6b2ba91610 2985 openafs_1.6.9-2+deb8u4~bpo70+1.dsc 509371a18cf6dee932cf0f58e871e6d4ddf50a05b41eaa635d990a200da39c0e 6631136 openafs_1.6.9.orig.tar.xz 8a07f57b913282a9603af445a1c0b1695c3b29b1be25dfd59d929954fa3080a0 141828 openafs_1.6.9-2+deb8u4~bpo70+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/o/openafs"
-  ],
-  "Files": [
-    "19b46ecf25cd850a78e665d10b18e23a 2985 openafs_1.6.9-2+deb8u4~bpo70+1.dsc f55466b65486ef52fd22c1c0884acea3 6631136 openafs_1.6.9.orig.tar.xz 0e5898b8dcd4a2c3ff1eb686df253a7a 141828 openafs_1.6.9-2+deb8u4~bpo70+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.openafs.org/"
-  ],
-  "Maintainer": [
-    "Benjamin Kaduk <kaduk@mit.edu>"
-  ],
-  "Package": [
-    "openafs"
-  ],
-  "Package-List": [
-    "libafsauthent1 deb libs optional libafsrpc1 deb libs optional libkopenafs1 deb libs optional libopenafs-dev deb libdevel extra libpam-openafs-kaserver deb admin extra openafs-client deb net optional openafs-dbg deb debug extra openafs-dbserver deb net optional openafs-doc deb doc optional openafs-fileserver deb net optional openafs-fuse deb net extra openafs-kpasswd deb net extra openafs-krb5 deb net optional openafs-modules-dkms deb kernel extra openafs-modules-source deb kernel extra"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Uploaders": [
-    "Russ Allbery <rra@debian.org>, Sam Hartman <hartmans@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-k5-afs/openafs.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-k5-afs/openafs.git"
-  ],
-  "Version": [
-    "1.6.9-2+deb8u4~bpo70+1"
-  ]
+	"Architecture": [
+		"alpha amd64 arm armel armhf i386 ia64 powerpc powerpcspe ppc64 s390 s390x sparc lpia all"
+	],
+	"Binary": [
+		"openafs-client, openafs-fuse, openafs-kpasswd, openafs-fileserver, openafs-dbserver, openafs-doc, openafs-krb5, libkopenafs1, libafsauthent1, libafsrpc1, libopenafs-dev, openafs-modules-source, openafs-modules-dkms, libpam-openafs-kaserver, openafs-dbg"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), autoconf, automake, bison, comerr-dev, cpio, flex, hardening-wrapper, libfuse-dev, libkrb5-dev, libncurses5-dev, libpam0g-dev, libxml2-utils, perl, pkg-config"
+	],
+	"Build-Depends-Indep": [
+		"dblatex, dkms (>= 2.1.1.1), docbook-xsl, doxygen, xsltproc"
+	],
+	"Checksums-Sha1": [
+		"00d86d7c0a0a7acd8653f2ebe694c4fca2d104f5 2985 openafs_1.6.9-2+deb8u4~bpo70+1.dsc 8c9395f89ce04bbb047480c385b5635828d7bbd6 6631136 openafs_1.6.9.orig.tar.xz 7d86d1b707e3aa1cfc3883091fdb50b6c6bbe1fe 141828 openafs_1.6.9-2+deb8u4~bpo70+1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"f08fc10e6db3f88af042bf09f2e00bac438eee7a385947f9aceb6b6b2ba91610 2985 openafs_1.6.9-2+deb8u4~bpo70+1.dsc 509371a18cf6dee932cf0f58e871e6d4ddf50a05b41eaa635d990a200da39c0e 6631136 openafs_1.6.9.orig.tar.xz 8a07f57b913282a9603af445a1c0b1695c3b29b1be25dfd59d929954fa3080a0 141828 openafs_1.6.9-2+deb8u4~bpo70+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/o/openafs"
+	],
+	"Files": [
+		"19b46ecf25cd850a78e665d10b18e23a 2985 openafs_1.6.9-2+deb8u4~bpo70+1.dsc f55466b65486ef52fd22c1c0884acea3 6631136 openafs_1.6.9.orig.tar.xz 0e5898b8dcd4a2c3ff1eb686df253a7a 141828 openafs_1.6.9-2+deb8u4~bpo70+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.openafs.org/"
+	],
+	"Maintainer": [
+		"Benjamin Kaduk <kaduk@mit.edu>"
+	],
+	"Package": [
+		"openafs"
+	],
+	"Package-List": [
+		"libafsauthent1 deb libs optional libafsrpc1 deb libs optional libkopenafs1 deb libs optional libopenafs-dev deb libdevel extra libpam-openafs-kaserver deb admin extra openafs-client deb net optional openafs-dbg deb debug extra openafs-dbserver deb net optional openafs-doc deb doc optional openafs-fileserver deb net optional openafs-fuse deb net extra openafs-kpasswd deb net extra openafs-krb5 deb net optional openafs-modules-dkms deb kernel extra openafs-modules-source deb kernel extra"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Uploaders": [
+		"Russ Allbery <rra@debian.org>, Sam Hartman <hartmans@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-k5-afs/openafs.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-k5-afs/openafs.git"
+	],
+	"Version": [
+		"1.6.9-2+deb8u4~bpo70+1"
+	]
 }

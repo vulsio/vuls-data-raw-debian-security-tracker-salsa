@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-async-std-resolver-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-async-std-1+default-dev (>= 1.6-~~) <!nocheck>, librust-async-std-1+unstable-dev (>= 1.6-~~) <!nocheck>, librust-async-trait-0.1+default-dev (>= 0.1.43-~~) <!nocheck>, librust-futures-io-0.3+std-dev (>= 0.3.5-~~) <!nocheck>, librust-futures-util-0.3+std-dev (>= 0.3.5-~~) <!nocheck>, librust-pin-utils-0.1+default-dev <!nocheck>, librust-socket2-0.4+default-dev (>= 0.4.2-~~) <!nocheck>, librust-trust-dns-resolver-0.22+system-config-dev <!nocheck>, librust-trust-dns-resolver-0.22-dev <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "7d7011ba6de68285cef7fadb220ff0d45eea692bae59e21ee47ba3b12036a2a5 2912 rust-async-std-resolver_0.22.0-1.dsc 6ba50e24d9ee0a8950d3d03fc6d0dd10aa14b5de3b101949b4e160f7fee7c723 12057 rust-async-std-resolver_0.22.0.orig.tar.gz 137071626e850dfff7f9030b7484f42c1ecc8798659f5d884470a7c95efa8095 3032 rust-async-std-resolver_0.22.0-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-async-std-resolver"
-  ],
-  "Files": [
-    "b68996cbbb7090a22c94bceec1f436fc 2912 rust-async-std-resolver_0.22.0-1.dsc 0d3d0c6fbf63930351b8cbb12a023168 12057 rust-async-std-resolver_0.22.0.orig.tar.gz 85cb8e1a05978c8fcd392833628b1006 3032 rust-async-std-resolver_0.22.0-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.trust-dns.org/index.html"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-async-std-resolver"
-  ],
-  "Package-List": [
-    "librust-async-std-resolver-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-async-std-1+attributes-dev, librust-async-std-1+default-dev, librust-trust-dns-resolver-0.22+testing-dev"
-  ],
-  "Uploaders": [
-    "Matthias Geiger <matthias.geiger1024@tutanota.de>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/async-std-resolver"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/async-std-resolver]"
-  ],
-  "Version": [
-    "0.22.0-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-async-std-resolver-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-async-std-1+default-dev (>= 1.6-~~) <!nocheck>, librust-async-std-1+unstable-dev (>= 1.6-~~) <!nocheck>, librust-async-trait-0.1+default-dev (>= 0.1.43-~~) <!nocheck>, librust-futures-io-0.3+std-dev (>= 0.3.5-~~) <!nocheck>, librust-futures-util-0.3+std-dev (>= 0.3.5-~~) <!nocheck>, librust-pin-utils-0.1+default-dev <!nocheck>, librust-socket2-0.4+default-dev (>= 0.4.2-~~) <!nocheck>, librust-trust-dns-resolver-0.22+system-config-dev <!nocheck>, librust-trust-dns-resolver-0.22-dev <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"7d7011ba6de68285cef7fadb220ff0d45eea692bae59e21ee47ba3b12036a2a5 2912 rust-async-std-resolver_0.22.0-1.dsc 6ba50e24d9ee0a8950d3d03fc6d0dd10aa14b5de3b101949b4e160f7fee7c723 12057 rust-async-std-resolver_0.22.0.orig.tar.gz 137071626e850dfff7f9030b7484f42c1ecc8798659f5d884470a7c95efa8095 3032 rust-async-std-resolver_0.22.0-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-async-std-resolver"
+	],
+	"Files": [
+		"b68996cbbb7090a22c94bceec1f436fc 2912 rust-async-std-resolver_0.22.0-1.dsc 0d3d0c6fbf63930351b8cbb12a023168 12057 rust-async-std-resolver_0.22.0.orig.tar.gz 85cb8e1a05978c8fcd392833628b1006 3032 rust-async-std-resolver_0.22.0-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.trust-dns.org/index.html"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-async-std-resolver"
+	],
+	"Package-List": [
+		"librust-async-std-resolver-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-async-std-1+attributes-dev, librust-async-std-1+default-dev, librust-trust-dns-resolver-0.22+testing-dev"
+	],
+	"Uploaders": [
+		"Matthias Geiger <matthias.geiger1024@tutanota.de>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/async-std-resolver"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/async-std-resolver]"
+	],
+	"Version": [
+		"0.22.0-1"
+	]
 }

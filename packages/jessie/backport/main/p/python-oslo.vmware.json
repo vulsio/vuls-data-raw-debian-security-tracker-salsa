@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-oslo.vmware, python3-oslo.vmware, python-oslo.vmware-doc, python-oslo-vmware, python-oslo-vmware-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-python, openstack-pkg-tools, python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.8), python3-setuptools"
-  ],
-  "Build-Depends-Indep": [
-    "python-coverage, python-eventlet (>= 0.18.4), python-fixtures (>= 1.3.1), python-hacking, python-httplib2, python-mock (>= 1.3), python-mox3, python-netaddr, python-oslo.concurrency (>= 3.5.0), python-oslo.i18n (>= 2.1.0), python-oslo.utils (>= 3.5.0), python-oslosphinx (>= 2.5.0), python-requests (>= 2.8.1), python-six (>= 1.9.0), python-stevedore (>= 1.5.0), python-suds, python-testscenarios, python-testtools (>= 1.4.0), python-urllib3, python-yaml, python3-subunit, python3-eventlet (>= 0.18.4), python3-fixtures (>= 1.3.1), python3-httplib2, python3-mock (>= 1.3), python3-mox3, python3-netaddr, python3-oslo.concurrency (>= 3.5.0), python3-oslo.i18n (>= 2.1.0), python3-oslo.utils (>= 3.5.0), python3-requests (>= 2.8.1), python3-six (>= 1.9.0), python3-stevedore (>= 1.5.0), python3-suds, python3-testscenarios, python3-testtools (>= 1.4.0), python3-urllib3, python3-yaml, subunit, testrepository"
-  ],
-  "Checksums-Sha1": [
-    "aef73ac3890e743338d9e3558847f3710f833a96 3476 python-oslo.vmware_2.5.0-2~bpo8+1.dsc 3114bea082b5bc947915b99541cbc6de442205b3 62316 python-oslo.vmware_2.5.0.orig.tar.xz 3a6c79fdc6c9e03911e355f0db70b16b54ffc920 4128 python-oslo.vmware_2.5.0-2~bpo8+1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "eba66269bd99bb36338f72ae8d6abff32feae5c0469c053c0efc675a63f14cb2 3476 python-oslo.vmware_2.5.0-2~bpo8+1.dsc e27dbfca6bbdd8bfea73c2a02e6ae1fc6899749d6ded9ac391bd7abbf45740b9 62316 python-oslo.vmware_2.5.0.orig.tar.xz 757a7e963fc3aeb918b78baaa4334810bab9496feefdd0eecaf9b969c92dc584 4128 python-oslo.vmware_2.5.0-2~bpo8+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/python-oslo.vmware"
-  ],
-  "Files": [
-    "41055daee6c895c11bd12aba3dc345f5 3476 python-oslo.vmware_2.5.0-2~bpo8+1.dsc c4d8cd9d89c5113ecc6225958174878c 62316 python-oslo.vmware_2.5.0.orig.tar.xz 7e63f12fc74a6c8b1196732bd241101c 4128 python-oslo.vmware_2.5.0-2~bpo8+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/openstack/oslo.vmware"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "python-oslo.vmware"
-  ],
-  "Package-List": [
-    "python-oslo-vmware deb oldlibs extra arch=all python-oslo-vmware-doc deb oldlibs extra arch=all python-oslo.vmware deb python optional arch=all python-oslo.vmware-doc deb doc optional arch=all python3-oslo.vmware deb python optional arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.7"
-  ],
-  "Uploaders": [
-    "Julien Danjou <acid@debian.org>, Thomas Goirand <zigo@debian.org>, Mehdi Abaakouk <sileht@sileht.net>,"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/gitweb/?p=openstack/python-oslo.vmware.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/openstack/python-oslo.vmware.git"
-  ],
-  "Version": [
-    "2.5.0-2~bpo8+1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-oslo.vmware, python3-oslo.vmware, python-oslo.vmware-doc, python-oslo-vmware, python-oslo-vmware-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-python, openstack-pkg-tools, python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.8), python3-setuptools"
+	],
+	"Build-Depends-Indep": [
+		"python-coverage, python-eventlet (>= 0.18.4), python-fixtures (>= 1.3.1), python-hacking, python-httplib2, python-mock (>= 1.3), python-mox3, python-netaddr, python-oslo.concurrency (>= 3.5.0), python-oslo.i18n (>= 2.1.0), python-oslo.utils (>= 3.5.0), python-oslosphinx (>= 2.5.0), python-requests (>= 2.8.1), python-six (>= 1.9.0), python-stevedore (>= 1.5.0), python-suds, python-testscenarios, python-testtools (>= 1.4.0), python-urllib3, python-yaml, python3-subunit, python3-eventlet (>= 0.18.4), python3-fixtures (>= 1.3.1), python3-httplib2, python3-mock (>= 1.3), python3-mox3, python3-netaddr, python3-oslo.concurrency (>= 3.5.0), python3-oslo.i18n (>= 2.1.0), python3-oslo.utils (>= 3.5.0), python3-requests (>= 2.8.1), python3-six (>= 1.9.0), python3-stevedore (>= 1.5.0), python3-suds, python3-testscenarios, python3-testtools (>= 1.4.0), python3-urllib3, python3-yaml, subunit, testrepository"
+	],
+	"Checksums-Sha1": [
+		"aef73ac3890e743338d9e3558847f3710f833a96 3476 python-oslo.vmware_2.5.0-2~bpo8+1.dsc 3114bea082b5bc947915b99541cbc6de442205b3 62316 python-oslo.vmware_2.5.0.orig.tar.xz 3a6c79fdc6c9e03911e355f0db70b16b54ffc920 4128 python-oslo.vmware_2.5.0-2~bpo8+1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"eba66269bd99bb36338f72ae8d6abff32feae5c0469c053c0efc675a63f14cb2 3476 python-oslo.vmware_2.5.0-2~bpo8+1.dsc e27dbfca6bbdd8bfea73c2a02e6ae1fc6899749d6ded9ac391bd7abbf45740b9 62316 python-oslo.vmware_2.5.0.orig.tar.xz 757a7e963fc3aeb918b78baaa4334810bab9496feefdd0eecaf9b969c92dc584 4128 python-oslo.vmware_2.5.0-2~bpo8+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-oslo.vmware"
+	],
+	"Files": [
+		"41055daee6c895c11bd12aba3dc345f5 3476 python-oslo.vmware_2.5.0-2~bpo8+1.dsc c4d8cd9d89c5113ecc6225958174878c 62316 python-oslo.vmware_2.5.0.orig.tar.xz 7e63f12fc74a6c8b1196732bd241101c 4128 python-oslo.vmware_2.5.0-2~bpo8+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/openstack/oslo.vmware"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"python-oslo.vmware"
+	],
+	"Package-List": [
+		"python-oslo-vmware deb oldlibs extra arch=all python-oslo-vmware-doc deb oldlibs extra arch=all python-oslo.vmware deb python optional arch=all python-oslo.vmware-doc deb doc optional arch=all python3-oslo.vmware deb python optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.7"
+	],
+	"Uploaders": [
+		"Julien Danjou <acid@debian.org>, Thomas Goirand <zigo@debian.org>, Mehdi Abaakouk <sileht@sileht.net>,"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/gitweb/?p=openstack/python-oslo.vmware.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/openstack/python-oslo.vmware.git"
+	],
+	"Version": [
+		"2.5.0-2~bpo8+1"
+	]
 }

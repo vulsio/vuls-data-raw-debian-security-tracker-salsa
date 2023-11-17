@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "erlang-base, erlang-base-hipe, erlang-asn1, erlang-common-test, erlang-corba, erlang-crypto, erlang-debugger, erlang-dialyzer, erlang-diameter, erlang-doc, erlang-edoc, erlang-eldap, erlang-erl-docgen, erlang-et, erlang-eunit, erlang-gs, erlang-ic, erlang-ic-java, erlang-inets, erlang-manpages, erlang-megaco, erlang-mnesia, erlang-observer, erlang-odbc, erlang-os-mon, erlang-parsetools, erlang-percept, erlang-public-key, erlang-reltool, erlang-runtime-tools, erlang-snmp, erlang-ssh, erlang-ssl, erlang-syntax-tools, erlang-test-server, erlang-tools, erlang-typer, erlang-webtool, erlang-wx, erlang-xmerl, erlang-dev, erlang-dbg, erlang-src, erlang-examples, erlang-jinterface, erlang-mode, erlang-nox, erlang-x11, erlang"
-  ],
-  "Build-Conflicts": [
-    "autoconf2.13, libwxgtk2.4-dev, libwxgtk2.6-dev, libwxgtk2.8-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 8.0.0), autoconf (>= 2.50), openssl, libssl-dev, m4, libncurses5-dev, autotools-dev, unixodbc-dev, bison, flex, ed, libwxgtk3.0-dev, dctrl-tools, xsltproc, libgl1-mesa-dev | libgl-dev, libglu1-mesa-dev | libglu-dev, libsctp-dev [linux-any], libsystemd-dev [linux-any], dh-systemd"
-  ],
-  "Build-Depends-Indep": [
-    "fop, default-jdk | sun-java6-jdk"
-  ],
-  "Checksums-Sha1": [
-    "d5b244e5677c684e0d36108841d9f423546df17b 5499 erlang_17.3-dfsg-4+deb8u2.dsc 0bf1d40767046e57fc8bef0372f43576758e99d7 26122088 erlang_17.3-dfsg.orig.tar.xz f96cdc65e31e69d406f7f95f5d1211ace61fdcd5 73564 erlang_17.3-dfsg-4+deb8u2.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "5d34bde78c6c22429a7bca8f4545c8749751dbaa528b47059f6982afade8e1cf 5499 erlang_17.3-dfsg-4+deb8u2.dsc 5d8a627c7435c7fd6bd00cde8d292ee93e5fb4ebf1560ba17f4d7ad38f1b2f6a 26122088 erlang_17.3-dfsg.orig.tar.xz c73436fe2927e4c29c4d105af521c9109c2cd1584dd2987d8c326c6e6cbf866e 73564 erlang_17.3-dfsg-4+deb8u2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/e/erlang"
-  ],
-  "Files": [
-    "15ad941282e6c46764b9592e60cf9fdd 5499 erlang_17.3-dfsg-4+deb8u2.dsc c4809ccbfdbeb01ea6f6111f48dcb67b 26122088 erlang_17.3-dfsg.orig.tar.xz 52923b4448069a4bc21e8a762d8be318 73564 erlang_17.3-dfsg-4+deb8u2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.erlang.org/"
-  ],
-  "Maintainer": [
-    "Debian Erlang Packagers <pkg-erlang-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "erlang"
-  ],
-  "Package-List": [
-    "erlang deb interpreters optional arch=all erlang-asn1 deb interpreters optional arch=any erlang-base deb interpreters optional arch=any erlang-base-hipe deb interpreters extra arch=amd64,i386,powerpc,sparc,solaris-i386 erlang-common-test deb interpreters optional arch=any erlang-corba deb interpreters optional arch=any erlang-crypto deb interpreters optional arch=any erlang-dbg deb debug extra arch=any erlang-debugger deb interpreters optional arch=any erlang-dev deb interpreters optional arch=any erlang-dialyzer deb interpreters optional arch=any erlang-diameter deb interpreters optional arch=any erlang-doc deb doc optional arch=all erlang-edoc deb interpreters optional arch=any erlang-eldap deb interpreters optional arch=any erlang-erl-docgen deb interpreters optional arch=any erlang-et deb interpreters optional arch=any erlang-eunit deb interpreters optional arch=any erlang-examples deb interpreters optional arch=all erlang-gs deb interpreters optional arch=any erlang-ic deb interpreters optional arch=any erlang-ic-java deb interpreters optional arch=all erlang-inets deb interpreters optional arch=any erlang-jinterface deb interpreters optional arch=all erlang-manpages deb doc optional arch=all erlang-megaco deb interpreters optional arch=any erlang-mnesia deb interpreters optional arch=any erlang-mode deb interpreters optional arch=all erlang-nox deb interpreters optional arch=all erlang-observer deb interpreters optional arch=any erlang-odbc deb interpreters optional arch=any erlang-os-mon deb interpreters optional arch=any erlang-parsetools deb interpreters optional arch=any erlang-percept deb interpreters optional arch=any erlang-public-key deb interpreters optional arch=any erlang-reltool deb interpreters optional arch=any erlang-runtime-tools deb interpreters optional arch=any erlang-snmp deb interpreters optional arch=any erlang-src deb interpreters optional arch=all erlang-ssh deb interpreters optional arch=any erlang-ssl deb interpreters optional arch=any erlang-syntax-tools deb interpreters optional arch=any erlang-test-server deb interpreters optional arch=any erlang-tools deb interpreters optional arch=any erlang-typer deb interpreters optional arch=any erlang-webtool deb interpreters optional arch=any erlang-wx deb interpreters optional arch=any erlang-x11 deb interpreters optional arch=all erlang-xmerl deb interpreters optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "interpreters"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Sergei Golovan <sgolovan@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/viewvc/pkg-erlang/erlang/trunk/"
-  ],
-  "Vcs-Svn": [
-    "svn://anonscm.debian.org/pkg-erlang/erlang/trunk/"
-  ],
-  "Version": [
-    "1:17.3-dfsg-4+deb8u2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"erlang-base, erlang-base-hipe, erlang-asn1, erlang-common-test, erlang-corba, erlang-crypto, erlang-debugger, erlang-dialyzer, erlang-diameter, erlang-doc, erlang-edoc, erlang-eldap, erlang-erl-docgen, erlang-et, erlang-eunit, erlang-gs, erlang-ic, erlang-ic-java, erlang-inets, erlang-manpages, erlang-megaco, erlang-mnesia, erlang-observer, erlang-odbc, erlang-os-mon, erlang-parsetools, erlang-percept, erlang-public-key, erlang-reltool, erlang-runtime-tools, erlang-snmp, erlang-ssh, erlang-ssl, erlang-syntax-tools, erlang-test-server, erlang-tools, erlang-typer, erlang-webtool, erlang-wx, erlang-xmerl, erlang-dev, erlang-dbg, erlang-src, erlang-examples, erlang-jinterface, erlang-mode, erlang-nox, erlang-x11, erlang"
+	],
+	"Build-Conflicts": [
+		"autoconf2.13, libwxgtk2.4-dev, libwxgtk2.6-dev, libwxgtk2.8-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 8.0.0), autoconf (>= 2.50), openssl, libssl-dev, m4, libncurses5-dev, autotools-dev, unixodbc-dev, bison, flex, ed, libwxgtk3.0-dev, dctrl-tools, xsltproc, libgl1-mesa-dev | libgl-dev, libglu1-mesa-dev | libglu-dev, libsctp-dev [linux-any], libsystemd-dev [linux-any], dh-systemd"
+	],
+	"Build-Depends-Indep": [
+		"fop, default-jdk | sun-java6-jdk"
+	],
+	"Checksums-Sha1": [
+		"d5b244e5677c684e0d36108841d9f423546df17b 5499 erlang_17.3-dfsg-4+deb8u2.dsc 0bf1d40767046e57fc8bef0372f43576758e99d7 26122088 erlang_17.3-dfsg.orig.tar.xz f96cdc65e31e69d406f7f95f5d1211ace61fdcd5 73564 erlang_17.3-dfsg-4+deb8u2.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"5d34bde78c6c22429a7bca8f4545c8749751dbaa528b47059f6982afade8e1cf 5499 erlang_17.3-dfsg-4+deb8u2.dsc 5d8a627c7435c7fd6bd00cde8d292ee93e5fb4ebf1560ba17f4d7ad38f1b2f6a 26122088 erlang_17.3-dfsg.orig.tar.xz c73436fe2927e4c29c4d105af521c9109c2cd1584dd2987d8c326c6e6cbf866e 73564 erlang_17.3-dfsg-4+deb8u2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/e/erlang"
+	],
+	"Files": [
+		"15ad941282e6c46764b9592e60cf9fdd 5499 erlang_17.3-dfsg-4+deb8u2.dsc c4809ccbfdbeb01ea6f6111f48dcb67b 26122088 erlang_17.3-dfsg.orig.tar.xz 52923b4448069a4bc21e8a762d8be318 73564 erlang_17.3-dfsg-4+deb8u2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.erlang.org/"
+	],
+	"Maintainer": [
+		"Debian Erlang Packagers <pkg-erlang-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"erlang"
+	],
+	"Package-List": [
+		"erlang deb interpreters optional arch=all erlang-asn1 deb interpreters optional arch=any erlang-base deb interpreters optional arch=any erlang-base-hipe deb interpreters extra arch=amd64,i386,powerpc,sparc,solaris-i386 erlang-common-test deb interpreters optional arch=any erlang-corba deb interpreters optional arch=any erlang-crypto deb interpreters optional arch=any erlang-dbg deb debug extra arch=any erlang-debugger deb interpreters optional arch=any erlang-dev deb interpreters optional arch=any erlang-dialyzer deb interpreters optional arch=any erlang-diameter deb interpreters optional arch=any erlang-doc deb doc optional arch=all erlang-edoc deb interpreters optional arch=any erlang-eldap deb interpreters optional arch=any erlang-erl-docgen deb interpreters optional arch=any erlang-et deb interpreters optional arch=any erlang-eunit deb interpreters optional arch=any erlang-examples deb interpreters optional arch=all erlang-gs deb interpreters optional arch=any erlang-ic deb interpreters optional arch=any erlang-ic-java deb interpreters optional arch=all erlang-inets deb interpreters optional arch=any erlang-jinterface deb interpreters optional arch=all erlang-manpages deb doc optional arch=all erlang-megaco deb interpreters optional arch=any erlang-mnesia deb interpreters optional arch=any erlang-mode deb interpreters optional arch=all erlang-nox deb interpreters optional arch=all erlang-observer deb interpreters optional arch=any erlang-odbc deb interpreters optional arch=any erlang-os-mon deb interpreters optional arch=any erlang-parsetools deb interpreters optional arch=any erlang-percept deb interpreters optional arch=any erlang-public-key deb interpreters optional arch=any erlang-reltool deb interpreters optional arch=any erlang-runtime-tools deb interpreters optional arch=any erlang-snmp deb interpreters optional arch=any erlang-src deb interpreters optional arch=all erlang-ssh deb interpreters optional arch=any erlang-ssl deb interpreters optional arch=any erlang-syntax-tools deb interpreters optional arch=any erlang-test-server deb interpreters optional arch=any erlang-tools deb interpreters optional arch=any erlang-typer deb interpreters optional arch=any erlang-webtool deb interpreters optional arch=any erlang-wx deb interpreters optional arch=any erlang-x11 deb interpreters optional arch=all erlang-xmerl deb interpreters optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"interpreters"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Sergei Golovan <sgolovan@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/viewvc/pkg-erlang/erlang/trunk/"
+	],
+	"Vcs-Svn": [
+		"svn://anonscm.debian.org/pkg-erlang/erlang/trunk/"
+	],
+	"Version": [
+		"1:17.3-dfsg-4+deb8u2"
+	]
 }

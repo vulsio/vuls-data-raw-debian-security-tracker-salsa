@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libghc-yaml-dev, libghc-yaml-prof, libghc-yaml-doc"
-  ],
-  "Build-Depends": [
-    "cdbs, debhelper (>= 9), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-aeson-dev (>= 0.7), libghc-aeson-prof, libghc-aeson-qq-dev [!mips !mipsel !mips64el], libghc-attoparsec-dev (>= 0.11.3.0), libghc-attoparsec-prof, libghc-base-compat-dev [!mips !mipsel !mips64el], libghc-conduit-dev (<< 1.3), libghc-conduit-dev (>= 1.1.0), libghc-conduit-prof, libghc-enclosed-exceptions-dev, libghc-enclosed-exceptions-prof, libghc-hspec-dev (>= 1.3) [!mips !mipsel !mips64el], libghc-hspec-expectations-dev [!mips !mipsel !mips64el], libghc-hunit-dev [!mips !mipsel !mips64el], libghc-mockery-dev [!mips !mipsel !mips64el], libghc-resourcet-dev (<< 1.2), libghc-resourcet-dev (>= 0.3), libghc-resourcet-prof, libghc-scientific-dev, libghc-scientific-prof, libghc-semigroups-dev, libghc-semigroups-prof, libghc-temporary-dev [!mips !mipsel !mips64el], libghc-text-dev, libghc-text-prof, libghc-unordered-containers-dev, libghc-unordered-containers-prof, libghc-vector-dev, libghc-vector-prof, libyaml-dev, pkg-config"
-  ],
-  "Build-Depends-Indep": [
-    "ghc-doc, libghc-aeson-doc, libghc-attoparsec-doc, libghc-conduit-doc, libghc-enclosed-exceptions-doc, libghc-resourcet-doc, libghc-scientific-doc, libghc-semigroups-doc, libghc-text-doc, libghc-unordered-containers-doc, libghc-vector-doc"
-  ],
-  "Checksums-Sha256": [
-    "debbee9e82c32874b64be6e564a4101154d7a6d49a571554b00186962e28c86c 3517 haskell-yaml_0.8.20-2.dsc d5cda5b2849afb9f0d7572759c3e006798d7efaeeb0bf0d3825f12832a0a3b11 80264 haskell-yaml_0.8.20.orig.tar.gz e702ab9faab6e65a042b7bf22ad59fe85b02d643c3e09ca1a74b611dce62e637 4596 haskell-yaml_0.8.20-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/h/haskell-yaml"
-  ],
-  "Files": [
-    "58586eb26f5ffe63912a42b8f865457e 3517 haskell-yaml_0.8.20-2.dsc 5dda9ddab700eda5037fc3a59c7bd69c 80264 haskell-yaml_0.8.20.orig.tar.gz a97fe7b6325e254198fceebc68eaffe7 4596 haskell-yaml_0.8.20-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://github.com/snoyberg/yaml/"
-  ],
-  "Maintainer": [
-    "Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "haskell-yaml"
-  ],
-  "Package-List": [
-    "libghc-yaml-dev deb haskell extra arch=any libghc-yaml-doc deb doc extra arch=all libghc-yaml-prof deb haskell extra arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "haskell"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Clint Adams <clint@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-haskell/DHG_packages.git/tree/p/haskell-yaml"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-haskell/DHG_packages.git"
-  ],
-  "Version": [
-    "0.8.20-2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libghc-yaml-dev, libghc-yaml-prof, libghc-yaml-doc"
+	],
+	"Build-Depends": [
+		"cdbs, debhelper (>= 9), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-aeson-dev (>= 0.7), libghc-aeson-prof, libghc-aeson-qq-dev [!mips !mipsel !mips64el], libghc-attoparsec-dev (>= 0.11.3.0), libghc-attoparsec-prof, libghc-base-compat-dev [!mips !mipsel !mips64el], libghc-conduit-dev (<< 1.3), libghc-conduit-dev (>= 1.1.0), libghc-conduit-prof, libghc-enclosed-exceptions-dev, libghc-enclosed-exceptions-prof, libghc-hspec-dev (>= 1.3) [!mips !mipsel !mips64el], libghc-hspec-expectations-dev [!mips !mipsel !mips64el], libghc-hunit-dev [!mips !mipsel !mips64el], libghc-mockery-dev [!mips !mipsel !mips64el], libghc-resourcet-dev (<< 1.2), libghc-resourcet-dev (>= 0.3), libghc-resourcet-prof, libghc-scientific-dev, libghc-scientific-prof, libghc-semigroups-dev, libghc-semigroups-prof, libghc-temporary-dev [!mips !mipsel !mips64el], libghc-text-dev, libghc-text-prof, libghc-unordered-containers-dev, libghc-unordered-containers-prof, libghc-vector-dev, libghc-vector-prof, libyaml-dev, pkg-config"
+	],
+	"Build-Depends-Indep": [
+		"ghc-doc, libghc-aeson-doc, libghc-attoparsec-doc, libghc-conduit-doc, libghc-enclosed-exceptions-doc, libghc-resourcet-doc, libghc-scientific-doc, libghc-semigroups-doc, libghc-text-doc, libghc-unordered-containers-doc, libghc-vector-doc"
+	],
+	"Checksums-Sha256": [
+		"debbee9e82c32874b64be6e564a4101154d7a6d49a571554b00186962e28c86c 3517 haskell-yaml_0.8.20-2.dsc d5cda5b2849afb9f0d7572759c3e006798d7efaeeb0bf0d3825f12832a0a3b11 80264 haskell-yaml_0.8.20.orig.tar.gz e702ab9faab6e65a042b7bf22ad59fe85b02d643c3e09ca1a74b611dce62e637 4596 haskell-yaml_0.8.20-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/h/haskell-yaml"
+	],
+	"Files": [
+		"58586eb26f5ffe63912a42b8f865457e 3517 haskell-yaml_0.8.20-2.dsc 5dda9ddab700eda5037fc3a59c7bd69c 80264 haskell-yaml_0.8.20.orig.tar.gz a97fe7b6325e254198fceebc68eaffe7 4596 haskell-yaml_0.8.20-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://github.com/snoyberg/yaml/"
+	],
+	"Maintainer": [
+		"Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"haskell-yaml"
+	],
+	"Package-List": [
+		"libghc-yaml-dev deb haskell extra arch=any libghc-yaml-doc deb doc extra arch=all libghc-yaml-prof deb haskell extra arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"haskell"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Clint Adams <clint@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-haskell/DHG_packages.git/tree/p/haskell-yaml"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-haskell/DHG_packages.git"
+	],
+	"Version": [
+		"0.8.20-2"
+	]
 }

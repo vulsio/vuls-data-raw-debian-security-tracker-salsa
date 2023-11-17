@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-sqlx-mysql-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-atoi-2+default-dev <!nocheck>, librust-base64-0.21+std-dev <!nocheck>, librust-bitflags-2+serde-dev <!nocheck>, librust-byteorder-1+std-dev (>= 1.4.3-~~) <!nocheck>, librust-bytes-1+default-dev (>= 1.1.0-~~) <!nocheck>, librust-crc-3+default-dev <!nocheck>, librust-digest-0.10+std-dev <!nocheck>, librust-dotenvy-0.15+default-dev (>= 0.15.5-~~) <!nocheck>, librust-either-1+default-dev (>= 1.6.1-~~) <!nocheck>, librust-futures-channel-0.3+alloc-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-channel-0.3+sink-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-channel-0.3+std-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-core-0.3-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-io-0.3+default-dev (>= 0.3.24-~~) <!nocheck>, librust-futures-util-0.3+alloc-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-util-0.3+io-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-util-0.3+sink-dev (>= 0.3.19-~~) <!nocheck>, librust-generic-array-0.14-dev (>= 0.14.4-~~) <!nocheck>, librust-hex-0.4+default-dev (>= 0.4.3-~~) <!nocheck>, librust-hkdf-0.12+default-dev <!nocheck>, librust-hmac-0.12-dev <!nocheck>, librust-itoa-1+default-dev (>= 1.0.1-~~) <!nocheck>, librust-log-0.4+default-dev (>= 0.4.17-~~) <!nocheck>, librust-md-5-0.10-dev <!nocheck>, librust-memchr-2-dev (>= 2.4.1-~~) <!nocheck>, librust-once-cell-1+default-dev (>= 1.9.0-~~) <!nocheck>, librust-percent-encoding-2+default-dev (>= 2.1.0-~~) <!nocheck>, librust-rand-0.8+std-dev (>= 0.8.4-~~) <!nocheck>, librust-rand-0.8+std-rng-dev (>= 0.8.4-~~) <!nocheck>, librust-rsa-0.9+default-dev <!nocheck>, librust-sha1-0.10-dev (>= 0.10.1-~~) <!nocheck>, librust-sha2-0.10-dev <!nocheck>, librust-smallvec-1+default-dev (>= 1.7.0-~~) <!nocheck>, librust-sqlx-core-0.7.1+default-dev <!nocheck>, librust-stringprep-0.1+default-dev (>= 0.1.2-~~) <!nocheck>, librust-thiserror-1+default-dev (>= 1.0.35-~~) <!nocheck>, librust-tracing-0.1+default-dev (>= 0.1.37-~~) <!nocheck>, librust-tracing-0.1+log-dev (>= 0.1.37-~~) <!nocheck>, librust-whoami-1-dev (>= 1.2.1-~~) <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "e0b9985dbe6ca0a6678f4de48b826a19bd03ae0c3eb0bc00864202c9ebccec6d 4194 rust-sqlx-mysql_0.7.1-2.dsc 8ca69bf415b93b60b80dc8fda3cb4ef52b2336614d8da2de5456cc942a110482 51081 rust-sqlx-mysql_0.7.1.orig.tar.gz 183c69cd92ca27aa9db5944eb2a14fa4e4d995966f06646a2da991dacc0d4b33 3864 rust-sqlx-mysql_0.7.1-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-sqlx-mysql"
-  ],
-  "Files": [
-    "211d800f929bb7d0d0a34f5a9599c55a 4194 rust-sqlx-mysql_0.7.1-2.dsc 2884a8d8dc925bbab64120ac53699516 51081 rust-sqlx-mysql_0.7.1.orig.tar.gz 5cfddd4fa634bd3523efb4fb49cf4b69 3864 rust-sqlx-mysql_0.7.1-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-sqlx-mysql"
-  ],
-  "Package-List": [
-    "librust-sqlx-mysql-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo"
-  ],
-  "Uploaders": [
-    "Jelmer Vernooĳ <jelmer@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/sqlx-mysql"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/sqlx-mysql]"
-  ],
-  "Version": [
-    "0.7.1-2"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-sqlx-mysql-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-atoi-2+default-dev <!nocheck>, librust-base64-0.21+std-dev <!nocheck>, librust-bitflags-2+serde-dev <!nocheck>, librust-byteorder-1+std-dev (>= 1.4.3-~~) <!nocheck>, librust-bytes-1+default-dev (>= 1.1.0-~~) <!nocheck>, librust-crc-3+default-dev <!nocheck>, librust-digest-0.10+std-dev <!nocheck>, librust-dotenvy-0.15+default-dev (>= 0.15.5-~~) <!nocheck>, librust-either-1+default-dev (>= 1.6.1-~~) <!nocheck>, librust-futures-channel-0.3+alloc-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-channel-0.3+sink-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-channel-0.3+std-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-core-0.3-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-io-0.3+default-dev (>= 0.3.24-~~) <!nocheck>, librust-futures-util-0.3+alloc-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-util-0.3+io-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-util-0.3+sink-dev (>= 0.3.19-~~) <!nocheck>, librust-generic-array-0.14-dev (>= 0.14.4-~~) <!nocheck>, librust-hex-0.4+default-dev (>= 0.4.3-~~) <!nocheck>, librust-hkdf-0.12+default-dev <!nocheck>, librust-hmac-0.12-dev <!nocheck>, librust-itoa-1+default-dev (>= 1.0.1-~~) <!nocheck>, librust-log-0.4+default-dev (>= 0.4.17-~~) <!nocheck>, librust-md-5-0.10-dev <!nocheck>, librust-memchr-2-dev (>= 2.4.1-~~) <!nocheck>, librust-once-cell-1+default-dev (>= 1.9.0-~~) <!nocheck>, librust-percent-encoding-2+default-dev (>= 2.1.0-~~) <!nocheck>, librust-rand-0.8+std-dev (>= 0.8.4-~~) <!nocheck>, librust-rand-0.8+std-rng-dev (>= 0.8.4-~~) <!nocheck>, librust-rsa-0.9+default-dev <!nocheck>, librust-sha1-0.10-dev (>= 0.10.1-~~) <!nocheck>, librust-sha2-0.10-dev <!nocheck>, librust-smallvec-1+default-dev (>= 1.7.0-~~) <!nocheck>, librust-sqlx-core-0.7.1+default-dev <!nocheck>, librust-stringprep-0.1+default-dev (>= 0.1.2-~~) <!nocheck>, librust-thiserror-1+default-dev (>= 1.0.35-~~) <!nocheck>, librust-tracing-0.1+default-dev (>= 0.1.37-~~) <!nocheck>, librust-tracing-0.1+log-dev (>= 0.1.37-~~) <!nocheck>, librust-whoami-1-dev (>= 1.2.1-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"e0b9985dbe6ca0a6678f4de48b826a19bd03ae0c3eb0bc00864202c9ebccec6d 4194 rust-sqlx-mysql_0.7.1-2.dsc 8ca69bf415b93b60b80dc8fda3cb4ef52b2336614d8da2de5456cc942a110482 51081 rust-sqlx-mysql_0.7.1.orig.tar.gz 183c69cd92ca27aa9db5944eb2a14fa4e4d995966f06646a2da991dacc0d4b33 3864 rust-sqlx-mysql_0.7.1-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-sqlx-mysql"
+	],
+	"Files": [
+		"211d800f929bb7d0d0a34f5a9599c55a 4194 rust-sqlx-mysql_0.7.1-2.dsc 2884a8d8dc925bbab64120ac53699516 51081 rust-sqlx-mysql_0.7.1.orig.tar.gz 5cfddd4fa634bd3523efb4fb49cf4b69 3864 rust-sqlx-mysql_0.7.1-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-sqlx-mysql"
+	],
+	"Package-List": [
+		"librust-sqlx-mysql-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo"
+	],
+	"Uploaders": [
+		"Jelmer Vernooĳ <jelmer@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/sqlx-mysql"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/sqlx-mysql]"
+	],
+	"Version": [
+		"0.7.1-2"
+	]
 }

@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-indicatif-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-console-0.15+ansi-parsing-dev <!nocheck>, librust-console-0.15+unicode-width-dev <!nocheck>, librust-instant-0.1+default-dev <!nocheck>, librust-number-prefix-0.4+default-dev <!nocheck>, librust-portable-atomic-1+default-dev <!nocheck>, librust-unicode-width-0.1+default-dev <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "5d70d7b4f6b672e3472883ef17562ed6850e661b120752d9e85873e6d0a2f6b4 2781 rust-indicatif_0.17.7-1.dsc fb28741c9db9a713d93deb3bb9515c20788cef5815265bee4980e87bde7e0f25 63108 rust-indicatif_0.17.7.orig.tar.gz 43d1210bae49ff4755af52bdd63bc2831bc4b758bf16b9b4753a49055c336689 3356 rust-indicatif_0.17.7-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-indicatif"
-  ],
-  "Files": [
-    "0856cbd2c4dac6718b0b057d0726862d 2781 rust-indicatif_0.17.7-1.dsc 40315149642864d7f0228d8da46d016b 63108 rust-indicatif_0.17.7.orig.tar.gz ed0018ca65fa6a888df33ee8d7a58e25 3356 rust-indicatif_0.17.7-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-indicatif"
-  ],
-  "Package-List": [
-    "librust-indicatif-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-clap-4+color-dev, librust-clap-4+default-dev, librust-clap-4+derive-dev, librust-futures-0.3+default-dev, librust-once-cell-1+default-dev, librust-pretty-assertions-1+default-dev, librust-rand-0.8+default-dev, librust-tokio-1+default-dev, librust-tokio-1+fs-dev, librust-tokio-1+rt-dev, librust-tokio-1+time-dev"
-  ],
-  "Uploaders": [
-    "Sylvestre Ledru <sylvestre@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/indicatif"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/indicatif]"
-  ],
-  "Version": [
-    "0.17.7-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-indicatif-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-console-0.15+ansi-parsing-dev <!nocheck>, librust-console-0.15+unicode-width-dev <!nocheck>, librust-instant-0.1+default-dev <!nocheck>, librust-number-prefix-0.4+default-dev <!nocheck>, librust-portable-atomic-1+default-dev <!nocheck>, librust-unicode-width-0.1+default-dev <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"5d70d7b4f6b672e3472883ef17562ed6850e661b120752d9e85873e6d0a2f6b4 2781 rust-indicatif_0.17.7-1.dsc fb28741c9db9a713d93deb3bb9515c20788cef5815265bee4980e87bde7e0f25 63108 rust-indicatif_0.17.7.orig.tar.gz 43d1210bae49ff4755af52bdd63bc2831bc4b758bf16b9b4753a49055c336689 3356 rust-indicatif_0.17.7-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-indicatif"
+	],
+	"Files": [
+		"0856cbd2c4dac6718b0b057d0726862d 2781 rust-indicatif_0.17.7-1.dsc 40315149642864d7f0228d8da46d016b 63108 rust-indicatif_0.17.7.orig.tar.gz ed0018ca65fa6a888df33ee8d7a58e25 3356 rust-indicatif_0.17.7-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-indicatif"
+	],
+	"Package-List": [
+		"librust-indicatif-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-clap-4+color-dev, librust-clap-4+default-dev, librust-clap-4+derive-dev, librust-futures-0.3+default-dev, librust-once-cell-1+default-dev, librust-pretty-assertions-1+default-dev, librust-rand-0.8+default-dev, librust-tokio-1+default-dev, librust-tokio-1+fs-dev, librust-tokio-1+rt-dev, librust-tokio-1+time-dev"
+	],
+	"Uploaders": [
+		"Sylvestre Ledru <sylvestre@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/indicatif"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/indicatif]"
+	],
+	"Version": [
+		"0.17.7-1"
+	]
 }

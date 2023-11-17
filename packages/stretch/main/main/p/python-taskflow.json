@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-taskflow, python3-taskflow, python-taskflow-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-python, openstack-pkg-tools (>= 52~), python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.8), python3-setuptools"
-  ],
-  "Build-Depends-Indep": [
-    "alembic (>= 0.8.4), git, python-alembic (>= 0.8.4), python-automaton (>= 0.5.0), python-cachetools (>= 1.0.0), python-concurrent.futures (>= 3.0), python-contextlib2, python-coverage, python-debtcollector (>= 1.2.0), python-enum34, python-eventlet (>= 0.18.4), python-fasteners (>= 0.7), python-futurist (>= 0.11.0), python-hacking, python-jsonschema, python-kazoo (>= 2.2), python-kombu (>= 3.0.25), python-mock (>= 2.0), python-monotonic (>= 0.6), python-networkx (>= 1.10), python-netifaces, python-oslo.serialization (>= 2.0.0), python-oslo.utils (>= 3.15.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:2.3.0), python-psycopg2, python-pydotplus, python-pymysql (>= 0.6.2), python-redis, python-retrying (>= 1.2.3), python-six (>= 1.9.0), python-sqlalchemy (>= 1.0.10), python-sqlalchemy-utils, python-stevedore (>= 1.10.0), python-testscenarios, python-testtools (>= 1.4.0), python-zake, python3-alembic (>= 0.8.4), python3-automaton, python3-cachetools, python3-contextlib2, python3-coverage, python3-debtcollector (>= 1.2.0), python3-eventlet (>= 0.18.4), python3-fasteners (>= 0.7), python3-futurist (>= 0.11.0), python3-jsonschema, python3-kazoo (>= 2.2), python3-kombu (>= 3.0.25), python3-mock (>= 2.0), python3-monotonic (>= 0.6), python3-networkx (>= 1.10), python3-netifaces, python3-oslo.serialization (>= 2.0.0), python3-oslo.utils (>= 3.15.0), python3-oslotest (>= 1:2.5.0), python3-psycopg2, python3-pydotplus, python3-pymysql (>= 0.6.2), python3-redis, python3-retrying (>= 1.2.3), python3-six (>= 1.9.0), python3-sqlalchemy (>= 1.0.10), python3-sqlalchemy-utils, python3-stevedore (>= 1.10.0), python3-subunit, python3-testscenarios, python3-testtools (>= 1.4.0), python3-zake, subunit, testrepository"
-  ],
-  "Checksums-Sha256": [
-    "27f734145de9b8585bf743063303e9a9106037ed459f8e5ef546f52425f9edaf 4312 python-taskflow_2.3.0-2.dsc 1b018b319d8803f2eb434c6ba7b3951f7d9eb3340ff208c76dcd9f5f308b2f05 927548 python-taskflow_2.3.0.orig.tar.xz 1768f5c12abd7949f3a4a10a9ecc91efe6dd212b8163fc42a7249566ca251f02 4552 python-taskflow_2.3.0-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/python-taskflow"
-  ],
-  "Files": [
-    "b70fb4338af5e837f5c1d6f8b144548e 4312 python-taskflow_2.3.0-2.dsc ab5d00acb511445ce246971a6082e1f1 927548 python-taskflow_2.3.0.orig.tar.xz 5765074a60b274d2f901a68912fdda87 4552 python-taskflow_2.3.0-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/openstack/taskflow"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "python-taskflow"
-  ],
-  "Package-List": [
-    "python-taskflow deb python optional arch=all python-taskflow-doc deb doc optional arch=all python3-taskflow deb python optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "python-all, python-jsonschema, python-kazoo, python-kombu, python-mock, python-oslo-serialization, python-oslo-utils, python-oslotest, python-redis, python-sqlalchemy, python-sqlalchemy-utils, python-testtools, python-zake, testrepository"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://git.openstack.org/cgit/openstack/deb-python-taskflow?h=debian%2Fnewton"
-  ],
-  "Vcs-Git": [
-    "https://git.openstack.org/openstack/deb-python-taskflow -b debian/newton"
-  ],
-  "Version": [
-    "2.3.0-2"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-taskflow, python3-taskflow, python-taskflow-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-python, openstack-pkg-tools (>= 52~), python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.8), python3-setuptools"
+	],
+	"Build-Depends-Indep": [
+		"alembic (>= 0.8.4), git, python-alembic (>= 0.8.4), python-automaton (>= 0.5.0), python-cachetools (>= 1.0.0), python-concurrent.futures (>= 3.0), python-contextlib2, python-coverage, python-debtcollector (>= 1.2.0), python-enum34, python-eventlet (>= 0.18.4), python-fasteners (>= 0.7), python-futurist (>= 0.11.0), python-hacking, python-jsonschema, python-kazoo (>= 2.2), python-kombu (>= 3.0.25), python-mock (>= 2.0), python-monotonic (>= 0.6), python-networkx (>= 1.10), python-netifaces, python-oslo.serialization (>= 2.0.0), python-oslo.utils (>= 3.15.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:2.3.0), python-psycopg2, python-pydotplus, python-pymysql (>= 0.6.2), python-redis, python-retrying (>= 1.2.3), python-six (>= 1.9.0), python-sqlalchemy (>= 1.0.10), python-sqlalchemy-utils, python-stevedore (>= 1.10.0), python-testscenarios, python-testtools (>= 1.4.0), python-zake, python3-alembic (>= 0.8.4), python3-automaton, python3-cachetools, python3-contextlib2, python3-coverage, python3-debtcollector (>= 1.2.0), python3-eventlet (>= 0.18.4), python3-fasteners (>= 0.7), python3-futurist (>= 0.11.0), python3-jsonschema, python3-kazoo (>= 2.2), python3-kombu (>= 3.0.25), python3-mock (>= 2.0), python3-monotonic (>= 0.6), python3-networkx (>= 1.10), python3-netifaces, python3-oslo.serialization (>= 2.0.0), python3-oslo.utils (>= 3.15.0), python3-oslotest (>= 1:2.5.0), python3-psycopg2, python3-pydotplus, python3-pymysql (>= 0.6.2), python3-redis, python3-retrying (>= 1.2.3), python3-six (>= 1.9.0), python3-sqlalchemy (>= 1.0.10), python3-sqlalchemy-utils, python3-stevedore (>= 1.10.0), python3-subunit, python3-testscenarios, python3-testtools (>= 1.4.0), python3-zake, subunit, testrepository"
+	],
+	"Checksums-Sha256": [
+		"27f734145de9b8585bf743063303e9a9106037ed459f8e5ef546f52425f9edaf 4312 python-taskflow_2.3.0-2.dsc 1b018b319d8803f2eb434c6ba7b3951f7d9eb3340ff208c76dcd9f5f308b2f05 927548 python-taskflow_2.3.0.orig.tar.xz 1768f5c12abd7949f3a4a10a9ecc91efe6dd212b8163fc42a7249566ca251f02 4552 python-taskflow_2.3.0-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-taskflow"
+	],
+	"Files": [
+		"b70fb4338af5e837f5c1d6f8b144548e 4312 python-taskflow_2.3.0-2.dsc ab5d00acb511445ce246971a6082e1f1 927548 python-taskflow_2.3.0.orig.tar.xz 5765074a60b274d2f901a68912fdda87 4552 python-taskflow_2.3.0-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/openstack/taskflow"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"python-taskflow"
+	],
+	"Package-List": [
+		"python-taskflow deb python optional arch=all python-taskflow-doc deb doc optional arch=all python3-taskflow deb python optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"python-all, python-jsonschema, python-kazoo, python-kombu, python-mock, python-oslo-serialization, python-oslo-utils, python-oslotest, python-redis, python-sqlalchemy, python-sqlalchemy-utils, python-testtools, python-zake, testrepository"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://git.openstack.org/cgit/openstack/deb-python-taskflow?h=debian%2Fnewton"
+	],
+	"Vcs-Git": [
+		"https://git.openstack.org/openstack/deb-python-taskflow -b debian/newton"
+	],
+	"Version": [
+		"2.3.0-2"
+	]
 }

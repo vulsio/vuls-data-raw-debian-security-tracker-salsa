@@ -1,47 +1,47 @@
 {
-  "header": {
-    "line": "CVE-2009-XXXX [libio-socket-ssl-perl: partial hostname matching vulnerability]",
-    "name": "TEMP-0535946-7636B8",
-    "description": "[libio-socket-ssl-perl: partial hostname matching vulnerability]"
-  },
-  "annotations": [
-    {
-      "line": "\t- libio-socket-ssl-perl 1.26-1 (low; bug #535946)",
-      "type": "package",
-      "package": "libio-socket-ssl-perl",
-      "kind": "fixed",
-      "version": "1.26-1",
-      "flags": [
-        {
-          "severity": "low"
-        },
-        {
-          "bug": 535946
-        }
-      ]
-    },
-    {
-      "line": "\t[lenny] - libio-socket-ssl-perl 1.16-1+lenny1",
-      "type": "package",
-      "release": "lenny",
-      "package": "libio-socket-ssl-perl",
-      "kind": "fixed",
-      "version": "1.16-1+lenny1"
-    },
-    {
-      "line": "\tNOTE: hostname validition is not implemented until 1.14, so etch",
-      "type": "NOTE",
-      "description": "hostname validition is not implemented until 1.14, so etch"
-    },
-    {
-      "line": "\tNOTE: is in a way is not affected, but in another sense, it is",
-      "type": "NOTE",
-      "description": "is in a way is not affected, but in another sense, it is"
-    },
-    {
-      "line": "\tNOTE: completely affected since no validation done at all",
-      "type": "NOTE",
-      "description": "completely affected since no validation done at all"
-    }
-  ]
+	"header": {
+		"line": "CVE-2009-XXXX [libio-socket-ssl-perl: partial hostname matching vulnerability]",
+		"name": "TEMP-0535946-7636B8",
+		"description": "[libio-socket-ssl-perl: partial hostname matching vulnerability]"
+	},
+	"annotations": [
+		{
+			"line": "\t- libio-socket-ssl-perl 1.26-1 (low; bug #535946)",
+			"type": "package",
+			"package": "libio-socket-ssl-perl",
+			"kind": "fixed",
+			"version": "1.26-1",
+			"flags": [
+				{
+					"severity": "low"
+				},
+				{
+					"bug": 535946
+				}
+			]
+		},
+		{
+			"line": "\t[lenny] - libio-socket-ssl-perl 1.16-1+lenny1",
+			"type": "package",
+			"release": "lenny",
+			"package": "libio-socket-ssl-perl",
+			"kind": "fixed",
+			"version": "1.16-1+lenny1"
+		},
+		{
+			"line": "\tNOTE: hostname validition is not implemented until 1.14, so etch",
+			"type": "NOTE",
+			"description": "hostname validition is not implemented until 1.14, so etch"
+		},
+		{
+			"line": "\tNOTE: is in a way is not affected, but in another sense, it is",
+			"type": "NOTE",
+			"description": "is in a way is not affected, but in another sense, it is"
+		},
+		{
+			"line": "\tNOTE: completely affected since no validation done at all",
+			"type": "NOTE",
+			"description": "completely affected since no validation done at all"
+		}
+	]
 }

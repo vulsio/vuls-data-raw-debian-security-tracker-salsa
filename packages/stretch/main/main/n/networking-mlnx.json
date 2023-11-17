@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-networking-mlnx, networking-mlnx-common, neutron-mlnx-agent, networking-mlnx-eswitchd"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-python, dh-systemd, openstack-pkg-tools (>= 52~), po-debconf, python-all, python-pbr (>= 0.11), python-sphinx"
-  ],
-  "Build-Depends-Indep": [
-    "python-babel, python-cliff (>= 1.15.0), python-coverage, python-ddt (>= 1.0.1), python-ethtool, python-fixtures (>= 1.3.1), python-hacking, python-lxml, python-mock (>= 1.3), python-neutron (>= 2:9.0.0~rc1), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.5.1), python-os-testr (>= 0.4.1), python-psycopg2, python-pymysql, python-requests-mock (>= 0.7.0), python-tempest-lib (>= 0.13.0), python-testresources, python-testscenarios, python-testtools (>= 1.4.0), python-webtest (>= 2.0), python-zmq, subunit (>= 0.0.18), testrepository (>= 0.0.18)"
-  ],
-  "Checksums-Sha256": [
-    "9317347b8754aa2df3cf181aae78789ce6092cc029c3cab180746ab9c3ea9056 2996 networking-mlnx_9.0.0~b1-1.dsc a4f5eab596f0d828cd6e6f3f84dae403f7dbe7e3f969f7fe726faf201d82c3fa 59156 networking-mlnx_9.0.0~b1.orig.tar.xz bc65f33e5a442d8dea3b540c25480e39cc9a7415951591cdc0f1d76b31333e9e 4172 networking-mlnx_9.0.0~b1-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/n/networking-mlnx"
-  ],
-  "Files": [
-    "fe85f90febce8f5e7351ce3760d36971 2996 networking-mlnx_9.0.0~b1-1.dsc dcd0290f53ab3ec49a8e5b26977b48ed 59156 networking-mlnx_9.0.0~b1.orig.tar.xz cd1f381b6555e583d4e978b405dba5d5 4172 networking-mlnx_9.0.0~b1-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/openstack/networking-mlnx"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "networking-mlnx"
-  ],
-  "Package-List": [
-    "networking-mlnx-common deb net optional arch=all networking-mlnx-eswitchd deb net optional arch=all neutron-mlnx-agent deb python optional arch=all python-networking-mlnx deb python optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>, Lenny Verkhovsky <lennyb@mellanox.com>,"
-  ],
-  "Vcs-Browser": [
-    "https://git.openstack.org/cgit/openstack/deb-networking-mlnx?h=debian%2Fnewton"
-  ],
-  "Vcs-Git": [
-    "https://git.openstack.org/openstack/deb-networking-mlnx -b debian/newton"
-  ],
-  "Version": [
-    "1:9.0.0~b1-1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-networking-mlnx, networking-mlnx-common, neutron-mlnx-agent, networking-mlnx-eswitchd"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-python, dh-systemd, openstack-pkg-tools (>= 52~), po-debconf, python-all, python-pbr (>= 0.11), python-sphinx"
+	],
+	"Build-Depends-Indep": [
+		"python-babel, python-cliff (>= 1.15.0), python-coverage, python-ddt (>= 1.0.1), python-ethtool, python-fixtures (>= 1.3.1), python-hacking, python-lxml, python-mock (>= 1.3), python-neutron (>= 2:9.0.0~rc1), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.5.1), python-os-testr (>= 0.4.1), python-psycopg2, python-pymysql, python-requests-mock (>= 0.7.0), python-tempest-lib (>= 0.13.0), python-testresources, python-testscenarios, python-testtools (>= 1.4.0), python-webtest (>= 2.0), python-zmq, subunit (>= 0.0.18), testrepository (>= 0.0.18)"
+	],
+	"Checksums-Sha256": [
+		"9317347b8754aa2df3cf181aae78789ce6092cc029c3cab180746ab9c3ea9056 2996 networking-mlnx_9.0.0~b1-1.dsc a4f5eab596f0d828cd6e6f3f84dae403f7dbe7e3f969f7fe726faf201d82c3fa 59156 networking-mlnx_9.0.0~b1.orig.tar.xz bc65f33e5a442d8dea3b540c25480e39cc9a7415951591cdc0f1d76b31333e9e 4172 networking-mlnx_9.0.0~b1-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/n/networking-mlnx"
+	],
+	"Files": [
+		"fe85f90febce8f5e7351ce3760d36971 2996 networking-mlnx_9.0.0~b1-1.dsc dcd0290f53ab3ec49a8e5b26977b48ed 59156 networking-mlnx_9.0.0~b1.orig.tar.xz cd1f381b6555e583d4e978b405dba5d5 4172 networking-mlnx_9.0.0~b1-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/openstack/networking-mlnx"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"networking-mlnx"
+	],
+	"Package-List": [
+		"networking-mlnx-common deb net optional arch=all networking-mlnx-eswitchd deb net optional arch=all neutron-mlnx-agent deb python optional arch=all python-networking-mlnx deb python optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>, Lenny Verkhovsky <lennyb@mellanox.com>,"
+	],
+	"Vcs-Browser": [
+		"https://git.openstack.org/cgit/openstack/deb-networking-mlnx?h=debian%2Fnewton"
+	],
+	"Vcs-Git": [
+		"https://git.openstack.org/openstack/deb-networking-mlnx -b debian/newton"
+	],
+	"Version": [
+		"1:9.0.0~b1-1"
+	]
 }

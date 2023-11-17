@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "clang-5.0, clang-tools-5.0, clang-format-5.0, clang-tidy-5.0, clang-5.0-doc, libclang1-5.0, libclang1-5.0-dbg, libclang-5.0-dev, libclang-common-5.0-dev, libfuzzer-5.0-dev, python-clang-5.0, clang-5.0-examples, libllvm5.0, libllvm5.0-dbg, llvm-5.0, llvm-5.0-runtime, llvm-5.0-dev, llvm-5.0-tools, llvm-5.0-doc, llvm-5.0-examples, lld-5.0, liblld-5.0, liblld-5.0-dev, lldb-5.0, liblldb-5.0, liblldb-5.0-dbg, python-lldb-5.0, liblldb-5.0-dev"
-  ],
-  "Build-Conflicts": [
-    "libllvm-3.8-ocaml-dev, libllvm-3.9-ocaml-dev, ocaml, oprofile"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9.0), flex, bison, dejagnu, tcl, expect, cmake, perl, libtool, chrpath, texinfo, sharutils, libffi-dev (>= 3.0.9), lsb-release, patchutils, diffstat, xz-utils, python-dev, libedit-dev, libncurses5-dev, swig, python-six, python-sphinx, binutils-dev, libjsoncpp-dev, pkg-config, lcov, procps, help2man, zlib1g-dev, g++-multilib [amd64 i386 kfreebsd-amd64 mips mips64 mips64el mipsel powerpc ppc64 s390 s390x sparc sparc64 x32]"
-  ],
-  "Checksums-Sha256": [
-    "008cd9ad71b6f1f1e526254832af8b321b2d927141e89dcbcd0d2c8d85eb3f64 6900 llvm-toolchain-5.0_5.0.1-2~bpo9+1.dsc bde17323540cd2e8356027e3acefbee7d7029b34d06bffc515d3f232aa38ad2e 681730 llvm-toolchain-5.0_5.0.1.orig-clang-tools-extra.tar.bz2 c2320b1af6bdf48bd6945a939954866bdd63d2515cefb15ebebfe8f27e8eeace 12706706 llvm-toolchain-5.0_5.0.1.orig-clang.tar.bz2 48d3bd54f3b262727ac5642acf950443e7da5f8f061132bb46d9405dca131bcd 1986938 llvm-toolchain-5.0_5.0.1.orig-compiler-rt.tar.bz2 7f8dfaeaa3a8c36395ad4ae2381db59f5dadd222aa2c2fe7712167ccad0724b8 715216 llvm-toolchain-5.0_5.0.1.orig-lld.tar.bz2 a072286674d31ae2f6792d69c91e8861d2da4d90a4ca538781d751e0a9c42eff 11144317 llvm-toolchain-5.0_5.0.1.orig-lldb.tar.bz2 886e1f7da9249704f31ee4e5c01afc6eecfe87d1119c73813b7b5b60629a8ed8 3076752 llvm-toolchain-5.0_5.0.1.orig-polly.tar.bz2 07ac23993311f4e7c637379722338030f0f927bb7fc243551165469f3f9ff0fc 27821274 llvm-toolchain-5.0_5.0.1.orig.tar.bz2 4b5ca7822c81a16f85c1cdbd85fe1ab8a29fec0ebcf70eb6b11f910fbc6ba95c 67692 llvm-toolchain-5.0_5.0.1-2~bpo9+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/l/llvm-toolchain-5.0"
-  ],
-  "Files": [
-    "312f2d802dc4a001e0504ee0e4d99555 6900 llvm-toolchain-5.0_5.0.1-2~bpo9+1.dsc b0bc8d3d3d5e59d23f6c1e9d6a0528cf 681730 llvm-toolchain-5.0_5.0.1.orig-clang-tools-extra.tar.bz2 31dea31b8a33452533be43fde08e022d 12706706 llvm-toolchain-5.0_5.0.1.orig-clang.tar.bz2 43fb3bb5fded38579b5262918627a632 1986938 llvm-toolchain-5.0_5.0.1.orig-compiler-rt.tar.bz2 ef0cb1b0c27d67a2a0424f83cd058a68 715216 llvm-toolchain-5.0_5.0.1.orig-lld.tar.bz2 2b38aa1c49039408342cf8dbd8369c59 11144317 llvm-toolchain-5.0_5.0.1.orig-lldb.tar.bz2 94cb2bb554c9b93b195a5ab542ae22d9 3076752 llvm-toolchain-5.0_5.0.1.orig-polly.tar.bz2 81c54d61d1ef193586ac50620bf970f5 27821274 llvm-toolchain-5.0_5.0.1.orig.tar.bz2 9d85a50e390356e1af0b2d57d7a3f83e 67692 llvm-toolchain-5.0_5.0.1-2~bpo9+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.llvm.org/"
-  ],
-  "Maintainer": [
-    "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "llvm-toolchain-5.0"
-  ],
-  "Package-List": [
-    "clang-5.0 deb devel optional arch=any clang-5.0-doc deb doc optional arch=all clang-5.0-examples deb doc optional arch=any clang-format-5.0 deb devel optional arch=any clang-tidy-5.0 deb devel optional arch=any clang-tools-5.0 deb devel optional arch=any libclang-5.0-dev deb libdevel optional arch=any libclang-common-5.0-dev deb libdevel optional arch=any libclang1-5.0 deb libs optional arch=any libclang1-5.0-dbg deb debug optional arch=any libfuzzer-5.0-dev deb libdevel optional arch=linux-any liblld-5.0 deb libs optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,alpha,hppa,m68k,powerpcspe,ppc64,sh4,sparc64,x32,mips,mipsel liblld-5.0-dev deb libdevel optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,alpha,hppa,m68k,powerpcspe,ppc64,sh4,sparc64,x32,mips,mipsel liblldb-5.0 deb libs optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,alpha,hppa,m68k,powerpcspe,sh4,x32,mips,mipsel,arm64 liblldb-5.0-dbg deb debug optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,hppa,m68k,powerpcspe,sh4,x32,mips,mipsel,arm64 liblldb-5.0-dev deb libdevel optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,alpha,hppa,m68k,powerpcspe,sh4,x32,mips,mipsel,arm64 libllvm5.0 deb libs optional arch=any libllvm5.0-dbg deb debug optional arch=any lld-5.0 deb devel optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,alpha,hppa,m68k,powerpcspe,ppc64,sh4,sparc64,x32,mips,mipsel lldb-5.0 deb devel optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,alpha,hppa,m68k,powerpcspe,sh4,x32,mips,mipsel,arm64 llvm-5.0 deb devel optional arch=any llvm-5.0-dev deb devel optional arch=any llvm-5.0-doc deb doc optional arch=all llvm-5.0-examples deb doc optional arch=all llvm-5.0-runtime deb devel optional arch=any llvm-5.0-tools deb devel optional arch=any python-clang-5.0 deb python optional arch=any python-lldb-5.0 deb python optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,hppa,m68k,powerpcspe,sh4,x32,mips,mipsel,arm64"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.1.0"
-  ],
-  "Uploaders": [
-    "Sylvestre Ledru <sylvestre@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://svn.debian.org/viewsvn/pkg-llvm/llvm-toolchain/branches/5.0/"
-  ],
-  "Vcs-Svn": [
-    "svn://anonscm.debian.org/svn/pkg-llvm/llvm-toolchain/branches/5.0/"
-  ],
-  "Version": [
-    "1:5.0.1-2~bpo9+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"clang-5.0, clang-tools-5.0, clang-format-5.0, clang-tidy-5.0, clang-5.0-doc, libclang1-5.0, libclang1-5.0-dbg, libclang-5.0-dev, libclang-common-5.0-dev, libfuzzer-5.0-dev, python-clang-5.0, clang-5.0-examples, libllvm5.0, libllvm5.0-dbg, llvm-5.0, llvm-5.0-runtime, llvm-5.0-dev, llvm-5.0-tools, llvm-5.0-doc, llvm-5.0-examples, lld-5.0, liblld-5.0, liblld-5.0-dev, lldb-5.0, liblldb-5.0, liblldb-5.0-dbg, python-lldb-5.0, liblldb-5.0-dev"
+	],
+	"Build-Conflicts": [
+		"libllvm-3.8-ocaml-dev, libllvm-3.9-ocaml-dev, ocaml, oprofile"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9.0), flex, bison, dejagnu, tcl, expect, cmake, perl, libtool, chrpath, texinfo, sharutils, libffi-dev (>= 3.0.9), lsb-release, patchutils, diffstat, xz-utils, python-dev, libedit-dev, libncurses5-dev, swig, python-six, python-sphinx, binutils-dev, libjsoncpp-dev, pkg-config, lcov, procps, help2man, zlib1g-dev, g++-multilib [amd64 i386 kfreebsd-amd64 mips mips64 mips64el mipsel powerpc ppc64 s390 s390x sparc sparc64 x32]"
+	],
+	"Checksums-Sha256": [
+		"008cd9ad71b6f1f1e526254832af8b321b2d927141e89dcbcd0d2c8d85eb3f64 6900 llvm-toolchain-5.0_5.0.1-2~bpo9+1.dsc bde17323540cd2e8356027e3acefbee7d7029b34d06bffc515d3f232aa38ad2e 681730 llvm-toolchain-5.0_5.0.1.orig-clang-tools-extra.tar.bz2 c2320b1af6bdf48bd6945a939954866bdd63d2515cefb15ebebfe8f27e8eeace 12706706 llvm-toolchain-5.0_5.0.1.orig-clang.tar.bz2 48d3bd54f3b262727ac5642acf950443e7da5f8f061132bb46d9405dca131bcd 1986938 llvm-toolchain-5.0_5.0.1.orig-compiler-rt.tar.bz2 7f8dfaeaa3a8c36395ad4ae2381db59f5dadd222aa2c2fe7712167ccad0724b8 715216 llvm-toolchain-5.0_5.0.1.orig-lld.tar.bz2 a072286674d31ae2f6792d69c91e8861d2da4d90a4ca538781d751e0a9c42eff 11144317 llvm-toolchain-5.0_5.0.1.orig-lldb.tar.bz2 886e1f7da9249704f31ee4e5c01afc6eecfe87d1119c73813b7b5b60629a8ed8 3076752 llvm-toolchain-5.0_5.0.1.orig-polly.tar.bz2 07ac23993311f4e7c637379722338030f0f927bb7fc243551165469f3f9ff0fc 27821274 llvm-toolchain-5.0_5.0.1.orig.tar.bz2 4b5ca7822c81a16f85c1cdbd85fe1ab8a29fec0ebcf70eb6b11f910fbc6ba95c 67692 llvm-toolchain-5.0_5.0.1-2~bpo9+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/l/llvm-toolchain-5.0"
+	],
+	"Files": [
+		"312f2d802dc4a001e0504ee0e4d99555 6900 llvm-toolchain-5.0_5.0.1-2~bpo9+1.dsc b0bc8d3d3d5e59d23f6c1e9d6a0528cf 681730 llvm-toolchain-5.0_5.0.1.orig-clang-tools-extra.tar.bz2 31dea31b8a33452533be43fde08e022d 12706706 llvm-toolchain-5.0_5.0.1.orig-clang.tar.bz2 43fb3bb5fded38579b5262918627a632 1986938 llvm-toolchain-5.0_5.0.1.orig-compiler-rt.tar.bz2 ef0cb1b0c27d67a2a0424f83cd058a68 715216 llvm-toolchain-5.0_5.0.1.orig-lld.tar.bz2 2b38aa1c49039408342cf8dbd8369c59 11144317 llvm-toolchain-5.0_5.0.1.orig-lldb.tar.bz2 94cb2bb554c9b93b195a5ab542ae22d9 3076752 llvm-toolchain-5.0_5.0.1.orig-polly.tar.bz2 81c54d61d1ef193586ac50620bf970f5 27821274 llvm-toolchain-5.0_5.0.1.orig.tar.bz2 9d85a50e390356e1af0b2d57d7a3f83e 67692 llvm-toolchain-5.0_5.0.1-2~bpo9+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.llvm.org/"
+	],
+	"Maintainer": [
+		"LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"llvm-toolchain-5.0"
+	],
+	"Package-List": [
+		"clang-5.0 deb devel optional arch=any clang-5.0-doc deb doc optional arch=all clang-5.0-examples deb doc optional arch=any clang-format-5.0 deb devel optional arch=any clang-tidy-5.0 deb devel optional arch=any clang-tools-5.0 deb devel optional arch=any libclang-5.0-dev deb libdevel optional arch=any libclang-common-5.0-dev deb libdevel optional arch=any libclang1-5.0 deb libs optional arch=any libclang1-5.0-dbg deb debug optional arch=any libfuzzer-5.0-dev deb libdevel optional arch=linux-any liblld-5.0 deb libs optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,alpha,hppa,m68k,powerpcspe,ppc64,sh4,sparc64,x32,mips,mipsel liblld-5.0-dev deb libdevel optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,alpha,hppa,m68k,powerpcspe,ppc64,sh4,sparc64,x32,mips,mipsel liblldb-5.0 deb libs optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,alpha,hppa,m68k,powerpcspe,sh4,x32,mips,mipsel,arm64 liblldb-5.0-dbg deb debug optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,hppa,m68k,powerpcspe,sh4,x32,mips,mipsel,arm64 liblldb-5.0-dev deb libdevel optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,alpha,hppa,m68k,powerpcspe,sh4,x32,mips,mipsel,arm64 libllvm5.0 deb libs optional arch=any libllvm5.0-dbg deb debug optional arch=any lld-5.0 deb devel optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,alpha,hppa,m68k,powerpcspe,ppc64,sh4,sparc64,x32,mips,mipsel lldb-5.0 deb devel optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,alpha,hppa,m68k,powerpcspe,sh4,x32,mips,mipsel,arm64 llvm-5.0 deb devel optional arch=any llvm-5.0-dev deb devel optional arch=any llvm-5.0-doc deb doc optional arch=all llvm-5.0-examples deb doc optional arch=all llvm-5.0-runtime deb devel optional arch=any llvm-5.0-tools deb devel optional arch=any python-clang-5.0 deb python optional arch=any python-lldb-5.0 deb python optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,hppa,m68k,powerpcspe,sh4,x32,mips,mipsel,arm64"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.1.0"
+	],
+	"Uploaders": [
+		"Sylvestre Ledru <sylvestre@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://svn.debian.org/viewsvn/pkg-llvm/llvm-toolchain/branches/5.0/"
+	],
+	"Vcs-Svn": [
+		"svn://anonscm.debian.org/svn/pkg-llvm/llvm-toolchain/branches/5.0/"
+	],
+	"Version": [
+		"1:5.0.1-2~bpo9+1"
+	]
 }

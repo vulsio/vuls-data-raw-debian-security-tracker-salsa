@@ -1,53 +1,53 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libgpod-nogtk-dev, libgpod4-nogtk, libgpod-dev, libgpod4, libgpod-common, libgpod-doc, python-gpod, libgpod-cil, libgpod-cil-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-autoreconf, dh-python, autotools-dev, intltool, pkg-config, libglib2.0-dev (>= 2.16), libgdk-pixbuf2.0-dev, libxml2-dev, libsgutils2-dev, libsqlite3-dev, libplist-dev, libusb-1.0-0-dev, libimobiledevice-dev, zlib1g-dev, swig, python-all-dev (>= 2.6.6-3~), python-mutagen, python-gobject-dev, chrpath, gtk-doc-tools, docbook-xml, xsltproc, cli-common-dev (>= 0.5.7) [amd64 armel armhf arm64 i386 mipsel kfreebsd-amd64 kfreebsd-i386 ppc64 ppc64el s390x], mono-devel (>= 2.4.3) [amd64 armel armhf arm64 i386 mipsel kfreebsd-amd64 kfreebsd-i386 ppc64 ppc64el s390x], libgtk2.0-cil-dev (>= 2.12) [amd64 armel armhf arm64 i386 mipsel kfreebsd-amd64 kfreebsd-i386 ppc64 ppc64el s390x], libglib2.0-cil-dev (>= 2.12) [amd64 armel armhf arm64 i386 mipsel kfreebsd-amd64 kfreebsd-i386 ppc64 ppc64el s390x]"
-  ],
-  "Checksums-Sha256": [
-    "deb4125ffbe7bcddd8808b36fa2a5b15f8cb5f5c4cb8d41be4e20429fbb8a09f 3288 libgpod_0.8.3-8.2+deb9u1.dsc 638a7959d04e95f1e62abad02bd33702e4e8dfef98485ac7d9d50395c37e955d 801903 libgpod_0.8.3.orig.tar.bz2 019f5c0a084eac4f91b90e4b98cee17b6a6e8da6c27225e57493bec93da3847d 16500 libgpod_0.8.3-8.2+deb9u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/libg/libgpod"
-  ],
-  "Files": [
-    "c99af9b01cbec6d0f0668ab323ed20f5 3288 libgpod_0.8.3-8.2+deb9u1.dsc f8a0b7a34e768e33a708e8dd172bd6f8 801903 libgpod_0.8.3.orig.tar.bz2 e20e55986c12c930e840d7997c8a4886 16500 libgpod_0.8.3-8.2+deb9u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.gtkpod.org/wiki/Libgpod"
-  ],
-  "Maintainer": [
-    "Debian QA Group <packages@qa.debian.org>"
-  ],
-  "Package": [
-    "libgpod"
-  ],
-  "Package-List": [
-    "libgpod-cil deb cli-mono optional arch=amd64,armel,armhf,arm64,i386,mipsel,kfreebsd-amd64,kfreebsd-i386,ppc64,ppc64el,s390x libgpod-cil-dev deb cli-mono optional arch=amd64,armel,armhf,arm64,i386,mipsel,kfreebsd-amd64,kfreebsd-i386,ppc64,ppc64el,s390x libgpod-common deb libs optional arch=any libgpod-dev deb libdevel optional arch=any libgpod-doc deb doc optional arch=all libgpod-nogtk-dev deb oldlibs extra arch=any libgpod4 deb libs optional arch=any libgpod4-nogtk deb oldlibs extra arch=any python-gpod deb python optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "libs"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian/libgpod"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian/libgpod.git"
-  ],
-  "Version": [
-    "0.8.3-8.2+deb9u1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libgpod-nogtk-dev, libgpod4-nogtk, libgpod-dev, libgpod4, libgpod-common, libgpod-doc, python-gpod, libgpod-cil, libgpod-cil-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-autoreconf, dh-python, autotools-dev, intltool, pkg-config, libglib2.0-dev (>= 2.16), libgdk-pixbuf2.0-dev, libxml2-dev, libsgutils2-dev, libsqlite3-dev, libplist-dev, libusb-1.0-0-dev, libimobiledevice-dev, zlib1g-dev, swig, python-all-dev (>= 2.6.6-3~), python-mutagen, python-gobject-dev, chrpath, gtk-doc-tools, docbook-xml, xsltproc, cli-common-dev (>= 0.5.7) [amd64 armel armhf arm64 i386 mipsel kfreebsd-amd64 kfreebsd-i386 ppc64 ppc64el s390x], mono-devel (>= 2.4.3) [amd64 armel armhf arm64 i386 mipsel kfreebsd-amd64 kfreebsd-i386 ppc64 ppc64el s390x], libgtk2.0-cil-dev (>= 2.12) [amd64 armel armhf arm64 i386 mipsel kfreebsd-amd64 kfreebsd-i386 ppc64 ppc64el s390x], libglib2.0-cil-dev (>= 2.12) [amd64 armel armhf arm64 i386 mipsel kfreebsd-amd64 kfreebsd-i386 ppc64 ppc64el s390x]"
+	],
+	"Checksums-Sha256": [
+		"deb4125ffbe7bcddd8808b36fa2a5b15f8cb5f5c4cb8d41be4e20429fbb8a09f 3288 libgpod_0.8.3-8.2+deb9u1.dsc 638a7959d04e95f1e62abad02bd33702e4e8dfef98485ac7d9d50395c37e955d 801903 libgpod_0.8.3.orig.tar.bz2 019f5c0a084eac4f91b90e4b98cee17b6a6e8da6c27225e57493bec93da3847d 16500 libgpod_0.8.3-8.2+deb9u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/libg/libgpod"
+	],
+	"Files": [
+		"c99af9b01cbec6d0f0668ab323ed20f5 3288 libgpod_0.8.3-8.2+deb9u1.dsc f8a0b7a34e768e33a708e8dd172bd6f8 801903 libgpod_0.8.3.orig.tar.bz2 e20e55986c12c930e840d7997c8a4886 16500 libgpod_0.8.3-8.2+deb9u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.gtkpod.org/wiki/Libgpod"
+	],
+	"Maintainer": [
+		"Debian QA Group <packages@qa.debian.org>"
+	],
+	"Package": [
+		"libgpod"
+	],
+	"Package-List": [
+		"libgpod-cil deb cli-mono optional arch=amd64,armel,armhf,arm64,i386,mipsel,kfreebsd-amd64,kfreebsd-i386,ppc64,ppc64el,s390x libgpod-cil-dev deb cli-mono optional arch=amd64,armel,armhf,arm64,i386,mipsel,kfreebsd-amd64,kfreebsd-i386,ppc64,ppc64el,s390x libgpod-common deb libs optional arch=any libgpod-dev deb libdevel optional arch=any libgpod-doc deb doc optional arch=all libgpod-nogtk-dev deb oldlibs extra arch=any libgpod4 deb libs optional arch=any libgpod4-nogtk deb oldlibs extra arch=any python-gpod deb python optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"libs"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/libgpod"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/libgpod.git"
+	],
+	"Version": [
+		"0.8.3-8.2+deb9u1"
+	]
 }

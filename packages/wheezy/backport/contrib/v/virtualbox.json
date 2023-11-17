@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "amd64 i386 all"
-  ],
-  "Binary": [
-    "virtualbox-qt, virtualbox, virtualbox-dbg, virtualbox-dkms, virtualbox-source, virtualbox-guest-dkms, virtualbox-guest-source, virtualbox-guest-x11, virtualbox-guest-utils"
-  ],
-  "Build-Depends": [
-    "bzip2, debhelper (>= 9), default-jdk, dh-python, dkms (>= 2.1.1.1), docbook-xml, docbook-xsl, dpkg-dev (>= 1.15.6~), g++-multilib, genisoimage, gsoap (>= 2.8.16), iasl, imagemagick, kbuild (>= 1:0.1.9998svn2695), libasound2-dev, libcap-dev, libcurl4-gnutls-dev, libdevmapper-dev, libdrm-dev, libgl1-mesa-dev, libglu1-mesa-dev, libidl-dev, libpam0g-dev, libpixman-1-dev, libpng-dev, libpulse-dev, libqt4-dev (>= 4.4.0), libqt4-network (>= 4.4.0), libqt4-opengl-dev (>= 4.4.0), libsdl1.2-dev, libssl-dev, libvncserver-dev, libvpx-dev, libx11-dev, libxcomposite-dev, libxcursor-dev, libxdamage-dev, libxext-dev, libxi-dev, libxinerama-dev, libxml2-dev, libxmu-dev, libxrandr-dev, libxrender-dev, libxslt1-dev, libxt-dev, lsb-release, lynx-cur, makeself, module-assistant, python-dev (>= 2.6.6-3~), texlive-fonts-extra, texlive-fonts-recommended, texlive-latex-extra, texlive-latex-recommended, uuid-dev, x11proto-gl-dev, x11proto-xf86dri-dev, xserver-xorg-dev, xsltproc, yasm (>= 0.7.0), zlib1g-dev"
-  ],
-  "Checksums-Sha1": [
-    "0b04e7346cdde289f2debdb4df4d11387eaec59e 3616 virtualbox_4.3.36-dfsg-1+deb8u1~bpo70+1.dsc b458c3c7ce0f1e9081dbcde9e39325653962a449 47713148 virtualbox_4.3.36-dfsg.orig.tar.xz cecbc88935ad60d1f59933a94d2b6e8c45babfd3 75364 virtualbox_4.3.36-dfsg-1+deb8u1~bpo70+1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "f6dbc0491c49ebf3744eea0d2b9001c0d6bf33850b3c81e4aefe3d692df487a3 3616 virtualbox_4.3.36-dfsg-1+deb8u1~bpo70+1.dsc 09e7159d4e406ec9f0834e680bb4f3651519a5bbf535c8cc83fb635c2fd96f39 47713148 virtualbox_4.3.36-dfsg.orig.tar.xz 55ec1e1358e1d382255b0e23bb865e532b20730f775a998ec10614c34cdb86f4 75364 virtualbox_4.3.36-dfsg-1+deb8u1~bpo70+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/contrib/v/virtualbox"
-  ],
-  "Files": [
-    "b3923980bde96a276a180257ef66321a 3616 virtualbox_4.3.36-dfsg-1+deb8u1~bpo70+1.dsc 1423337a5a9970dda72e60fcaa0f8d05 47713148 virtualbox_4.3.36-dfsg.orig.tar.xz af4c32d71defb399e5019150d7d84396 75364 virtualbox_4.3.36-dfsg-1+deb8u1~bpo70+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.virtualbox.org/"
-  ],
-  "Maintainer": [
-    "Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "virtualbox"
-  ],
-  "Package-List": [
-    "virtualbox deb contrib/misc optional virtualbox-dbg deb contrib/debug extra virtualbox-dkms deb contrib/kernel optional virtualbox-guest-dkms deb contrib/kernel optional virtualbox-guest-source deb contrib/kernel optional virtualbox-guest-utils deb contrib/misc optional virtualbox-guest-x11 deb contrib/x11 optional virtualbox-qt deb contrib/misc optional virtualbox-source deb contrib/kernel optional"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "contrib/misc"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Ritesh Raj Sarraf <rrs@debian.org>, Gianfranco Costamagna <locutusofborg@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-virtualbox/virtualbox.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-virtualbox/virtualbox.git"
-  ],
-  "Version": [
-    "4.3.36-dfsg-1+deb8u1~bpo70+1"
-  ]
+	"Architecture": [
+		"amd64 i386 all"
+	],
+	"Binary": [
+		"virtualbox-qt, virtualbox, virtualbox-dbg, virtualbox-dkms, virtualbox-source, virtualbox-guest-dkms, virtualbox-guest-source, virtualbox-guest-x11, virtualbox-guest-utils"
+	],
+	"Build-Depends": [
+		"bzip2, debhelper (>= 9), default-jdk, dh-python, dkms (>= 2.1.1.1), docbook-xml, docbook-xsl, dpkg-dev (>= 1.15.6~), g++-multilib, genisoimage, gsoap (>= 2.8.16), iasl, imagemagick, kbuild (>= 1:0.1.9998svn2695), libasound2-dev, libcap-dev, libcurl4-gnutls-dev, libdevmapper-dev, libdrm-dev, libgl1-mesa-dev, libglu1-mesa-dev, libidl-dev, libpam0g-dev, libpixman-1-dev, libpng-dev, libpulse-dev, libqt4-dev (>= 4.4.0), libqt4-network (>= 4.4.0), libqt4-opengl-dev (>= 4.4.0), libsdl1.2-dev, libssl-dev, libvncserver-dev, libvpx-dev, libx11-dev, libxcomposite-dev, libxcursor-dev, libxdamage-dev, libxext-dev, libxi-dev, libxinerama-dev, libxml2-dev, libxmu-dev, libxrandr-dev, libxrender-dev, libxslt1-dev, libxt-dev, lsb-release, lynx-cur, makeself, module-assistant, python-dev (>= 2.6.6-3~), texlive-fonts-extra, texlive-fonts-recommended, texlive-latex-extra, texlive-latex-recommended, uuid-dev, x11proto-gl-dev, x11proto-xf86dri-dev, xserver-xorg-dev, xsltproc, yasm (>= 0.7.0), zlib1g-dev"
+	],
+	"Checksums-Sha1": [
+		"0b04e7346cdde289f2debdb4df4d11387eaec59e 3616 virtualbox_4.3.36-dfsg-1+deb8u1~bpo70+1.dsc b458c3c7ce0f1e9081dbcde9e39325653962a449 47713148 virtualbox_4.3.36-dfsg.orig.tar.xz cecbc88935ad60d1f59933a94d2b6e8c45babfd3 75364 virtualbox_4.3.36-dfsg-1+deb8u1~bpo70+1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"f6dbc0491c49ebf3744eea0d2b9001c0d6bf33850b3c81e4aefe3d692df487a3 3616 virtualbox_4.3.36-dfsg-1+deb8u1~bpo70+1.dsc 09e7159d4e406ec9f0834e680bb4f3651519a5bbf535c8cc83fb635c2fd96f39 47713148 virtualbox_4.3.36-dfsg.orig.tar.xz 55ec1e1358e1d382255b0e23bb865e532b20730f775a998ec10614c34cdb86f4 75364 virtualbox_4.3.36-dfsg-1+deb8u1~bpo70+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/contrib/v/virtualbox"
+	],
+	"Files": [
+		"b3923980bde96a276a180257ef66321a 3616 virtualbox_4.3.36-dfsg-1+deb8u1~bpo70+1.dsc 1423337a5a9970dda72e60fcaa0f8d05 47713148 virtualbox_4.3.36-dfsg.orig.tar.xz af4c32d71defb399e5019150d7d84396 75364 virtualbox_4.3.36-dfsg-1+deb8u1~bpo70+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.virtualbox.org/"
+	],
+	"Maintainer": [
+		"Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"virtualbox"
+	],
+	"Package-List": [
+		"virtualbox deb contrib/misc optional virtualbox-dbg deb contrib/debug extra virtualbox-dkms deb contrib/kernel optional virtualbox-guest-dkms deb contrib/kernel optional virtualbox-guest-source deb contrib/kernel optional virtualbox-guest-utils deb contrib/misc optional virtualbox-guest-x11 deb contrib/x11 optional virtualbox-qt deb contrib/misc optional virtualbox-source deb contrib/kernel optional"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"contrib/misc"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Ritesh Raj Sarraf <rrs@debian.org>, Gianfranco Costamagna <locutusofborg@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-virtualbox/virtualbox.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-virtualbox/virtualbox.git"
+	],
+	"Version": [
+		"4.3.36-dfsg-1+deb8u1~bpo70+1"
+	]
 }

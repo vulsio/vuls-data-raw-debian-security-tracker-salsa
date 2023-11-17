@@ -1,42 +1,42 @@
 {
-  "header": {
-    "line": "CVE-2011-XXXX [X launcher doesn't drop group privileges]",
-    "name": "TEMP-0000000-269968",
-    "description": "[X launcher doesn't drop group privileges]"
-  },
-  "annotations": [
-    {
-      "line": "\t- xorg 1:7.6+10 (low)",
-      "type": "package",
-      "package": "xorg",
-      "kind": "fixed",
-      "version": "1:7.6+10",
-      "flags": [
-        {
-          "severity": "low"
-        }
-      ]
-    },
-    {
-      "line": "\t[squeeze] - xorg 1:7.5+8+squeeze1",
-      "type": "package",
-      "release": "squeeze",
-      "package": "xorg",
-      "kind": "fixed",
-      "version": "1:7.5+8+squeeze1"
-    },
-    {
-      "line": "\t[lenny] - xorg <no-dsa> (potential privilege handling weakness, no known attack vector)",
-      "type": "package",
-      "release": "lenny",
-      "package": "xorg",
-      "kind": "no-dsa",
-      "description": "potential privilege handling weakness, no known attack vector"
-    },
-    {
-      "line": "\tNOTE: http://anonscm.debian.org/gitweb/?p=pkg-xorg/debian/xorg.git;a=commitdiff;h=e81b3943be75ca6674867fc7756905490e979522",
-      "type": "NOTE",
-      "description": "http://anonscm.debian.org/gitweb/?p=pkg-xorg/debian/xorg.git;a=commitdiff;h=e81b3943be75ca6674867fc7756905490e979522"
-    }
-  ]
+	"header": {
+		"line": "CVE-2011-XXXX [X launcher doesn't drop group privileges]",
+		"name": "TEMP-0000000-269968",
+		"description": "[X launcher doesn't drop group privileges]"
+	},
+	"annotations": [
+		{
+			"line": "\t- xorg 1:7.6+10 (low)",
+			"type": "package",
+			"package": "xorg",
+			"kind": "fixed",
+			"version": "1:7.6+10",
+			"flags": [
+				{
+					"severity": "low"
+				}
+			]
+		},
+		{
+			"line": "\t[squeeze] - xorg 1:7.5+8+squeeze1",
+			"type": "package",
+			"release": "squeeze",
+			"package": "xorg",
+			"kind": "fixed",
+			"version": "1:7.5+8+squeeze1"
+		},
+		{
+			"line": "\t[lenny] - xorg <no-dsa> (potential privilege handling weakness, no known attack vector)",
+			"type": "package",
+			"release": "lenny",
+			"package": "xorg",
+			"kind": "no-dsa",
+			"description": "potential privilege handling weakness, no known attack vector"
+		},
+		{
+			"line": "\tNOTE: http://anonscm.debian.org/gitweb/?p=pkg-xorg/debian/xorg.git;a=commitdiff;h=e81b3943be75ca6674867fc7756905490e979522",
+			"type": "NOTE",
+			"description": "http://anonscm.debian.org/gitweb/?p=pkg-xorg/debian/xorg.git;a=commitdiff;h=e81b3943be75ca6674867fc7756905490e979522"
+		}
+	]
 }

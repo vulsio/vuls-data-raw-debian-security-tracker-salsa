@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "fpc-3.0.0, fpc-source-3.0.0, fp-compiler-3.0.0, fp-ide-3.0.0, fp-utils-3.0.0, fp-docs-3.0.0, fp-units-rtl-3.0.0, fp-units-base-3.0.0, fp-units-fcl-3.0.0, fp-units-fv-3.0.0, fp-units-gtk2-3.0.0, fp-units-db-3.0.0, fp-units-gfx-3.0.0, fp-units-net-3.0.0, fp-units-math-3.0.0, fp-units-misc-3.0.0, fp-units-multimedia-3.0.0, fp-units-i386-3.0.0, fpc, fpc-source, fp-compiler, fp-ide, fp-utils, fp-docs, fp-units-rtl, fp-units-base, fp-units-fcl, fp-units-fv, fp-units-gtk2, fp-units-db, fp-units-gfx, fp-units-net, fp-units-math, fp-units-misc, fp-units-multimedia, fp-units-i386"
-  ],
-  "Build-Depends": [
-    "binutils, debhelper (>= 10~), dh-exec (>= 0.22), fp-compiler, fp-units-base, fp-units-fcl, fp-utils, ghostscript, libncurses-dev, mawk | awk, po-debconf, txt2man"
-  ],
-  "Build-Depends-Indep": [
-    "hevea, rdfind, symlinks"
-  ],
-  "Checksums-Sha1": [
-    "2ae6567184b0d5a192b5ada3e0b151c1d31f594c 4042 fpc_3.0.0+dfsg-11+deb9u1~bpo8+1.dsc 052d881c819b2d5105e65f08dc1d06c8e1d8e335 38491095 fpc_3.0.0+dfsg.orig.tar.gz 95fd97d2638c859ee5540dcaf70ab71d8a4a619a 252220 fpc_3.0.0+dfsg-11+deb9u1~bpo8+1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "2771dcb9398862da2a8d91d54b96bcf5f2b6bbd11a569a44db765cfe06832c57 4042 fpc_3.0.0+dfsg-11+deb9u1~bpo8+1.dsc 2d7fca8dd7f0556f2ca7303f6f3867c2558085e14d240230d3bfcf3b6c9fbee6 38491095 fpc_3.0.0+dfsg.orig.tar.gz 68e57af00b9a1600066d6299185d331f8a0424c44a55cc0d5d2df15aa6f04e39 252220 fpc_3.0.0+dfsg-11+deb9u1~bpo8+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/f/fpc"
-  ],
-  "Files": [
-    "ca65355dc8b2a74209182a4329b90730 4042 fpc_3.0.0+dfsg-11+deb9u1~bpo8+1.dsc e8fb69a01c7cb7d4a607881c8eb2a4cc 38491095 fpc_3.0.0+dfsg.orig.tar.gz e3f5a88cda7033e80ca1e9768436103c 252220 fpc_3.0.0+dfsg-11+deb9u1~bpo8+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.freepascal.org/"
-  ],
-  "Maintainer": [
-    "Pascal Packaging Team <pkg-pascal-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "fpc"
-  ],
-  "Package-List": [
-    "fp-compiler deb devel optional arch=any fp-compiler-3.0.0 deb devel optional arch=any fp-docs deb doc optional arch=all fp-docs-3.0.0 deb doc optional arch=all fp-ide deb devel optional arch=any fp-ide-3.0.0 deb devel optional arch=any fp-units-base deb devel optional arch=any fp-units-base-3.0.0 deb devel optional arch=any fp-units-db deb devel optional arch=any fp-units-db-3.0.0 deb devel optional arch=any fp-units-fcl deb devel optional arch=any fp-units-fcl-3.0.0 deb devel optional arch=any fp-units-fv deb devel optional arch=any fp-units-fv-3.0.0 deb devel optional arch=any fp-units-gfx deb devel optional arch=any fp-units-gfx-3.0.0 deb devel optional arch=any fp-units-gtk2 deb devel optional arch=any fp-units-gtk2-3.0.0 deb devel optional arch=any fp-units-i386 deb devel optional arch=i386 fp-units-i386-3.0.0 deb devel optional arch=i386 fp-units-math deb devel optional arch=any fp-units-math-3.0.0 deb devel optional arch=any fp-units-misc deb devel optional arch=any fp-units-misc-3.0.0 deb devel optional arch=any fp-units-multimedia deb devel optional arch=any fp-units-multimedia-3.0.0 deb devel optional arch=any fp-units-net deb devel optional arch=any fp-units-net-3.0.0 deb devel optional arch=any fp-units-rtl deb devel optional arch=any fp-units-rtl-3.0.0 deb devel optional arch=any fp-utils deb devel optional arch=any fp-utils-3.0.0 deb devel optional arch=any fpc deb devel optional arch=all fpc-3.0.0 deb devel optional arch=all fpc-source deb devel optional arch=all fpc-source-3.0.0 deb devel optional arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Abou Al Montacir <abou.almontacir@sfr.fr>, Paul Gevers <elbrus@debian.org>, Peter Michael Green <plugwash@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-pascal/fpc.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-pascal/fpc.git"
-  ],
-  "Version": [
-    "3.0.0+dfsg-11+deb9u1~bpo8+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"fpc-3.0.0, fpc-source-3.0.0, fp-compiler-3.0.0, fp-ide-3.0.0, fp-utils-3.0.0, fp-docs-3.0.0, fp-units-rtl-3.0.0, fp-units-base-3.0.0, fp-units-fcl-3.0.0, fp-units-fv-3.0.0, fp-units-gtk2-3.0.0, fp-units-db-3.0.0, fp-units-gfx-3.0.0, fp-units-net-3.0.0, fp-units-math-3.0.0, fp-units-misc-3.0.0, fp-units-multimedia-3.0.0, fp-units-i386-3.0.0, fpc, fpc-source, fp-compiler, fp-ide, fp-utils, fp-docs, fp-units-rtl, fp-units-base, fp-units-fcl, fp-units-fv, fp-units-gtk2, fp-units-db, fp-units-gfx, fp-units-net, fp-units-math, fp-units-misc, fp-units-multimedia, fp-units-i386"
+	],
+	"Build-Depends": [
+		"binutils, debhelper (>= 10~), dh-exec (>= 0.22), fp-compiler, fp-units-base, fp-units-fcl, fp-utils, ghostscript, libncurses-dev, mawk | awk, po-debconf, txt2man"
+	],
+	"Build-Depends-Indep": [
+		"hevea, rdfind, symlinks"
+	],
+	"Checksums-Sha1": [
+		"2ae6567184b0d5a192b5ada3e0b151c1d31f594c 4042 fpc_3.0.0+dfsg-11+deb9u1~bpo8+1.dsc 052d881c819b2d5105e65f08dc1d06c8e1d8e335 38491095 fpc_3.0.0+dfsg.orig.tar.gz 95fd97d2638c859ee5540dcaf70ab71d8a4a619a 252220 fpc_3.0.0+dfsg-11+deb9u1~bpo8+1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"2771dcb9398862da2a8d91d54b96bcf5f2b6bbd11a569a44db765cfe06832c57 4042 fpc_3.0.0+dfsg-11+deb9u1~bpo8+1.dsc 2d7fca8dd7f0556f2ca7303f6f3867c2558085e14d240230d3bfcf3b6c9fbee6 38491095 fpc_3.0.0+dfsg.orig.tar.gz 68e57af00b9a1600066d6299185d331f8a0424c44a55cc0d5d2df15aa6f04e39 252220 fpc_3.0.0+dfsg-11+deb9u1~bpo8+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/f/fpc"
+	],
+	"Files": [
+		"ca65355dc8b2a74209182a4329b90730 4042 fpc_3.0.0+dfsg-11+deb9u1~bpo8+1.dsc e8fb69a01c7cb7d4a607881c8eb2a4cc 38491095 fpc_3.0.0+dfsg.orig.tar.gz e3f5a88cda7033e80ca1e9768436103c 252220 fpc_3.0.0+dfsg-11+deb9u1~bpo8+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.freepascal.org/"
+	],
+	"Maintainer": [
+		"Pascal Packaging Team <pkg-pascal-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"fpc"
+	],
+	"Package-List": [
+		"fp-compiler deb devel optional arch=any fp-compiler-3.0.0 deb devel optional arch=any fp-docs deb doc optional arch=all fp-docs-3.0.0 deb doc optional arch=all fp-ide deb devel optional arch=any fp-ide-3.0.0 deb devel optional arch=any fp-units-base deb devel optional arch=any fp-units-base-3.0.0 deb devel optional arch=any fp-units-db deb devel optional arch=any fp-units-db-3.0.0 deb devel optional arch=any fp-units-fcl deb devel optional arch=any fp-units-fcl-3.0.0 deb devel optional arch=any fp-units-fv deb devel optional arch=any fp-units-fv-3.0.0 deb devel optional arch=any fp-units-gfx deb devel optional arch=any fp-units-gfx-3.0.0 deb devel optional arch=any fp-units-gtk2 deb devel optional arch=any fp-units-gtk2-3.0.0 deb devel optional arch=any fp-units-i386 deb devel optional arch=i386 fp-units-i386-3.0.0 deb devel optional arch=i386 fp-units-math deb devel optional arch=any fp-units-math-3.0.0 deb devel optional arch=any fp-units-misc deb devel optional arch=any fp-units-misc-3.0.0 deb devel optional arch=any fp-units-multimedia deb devel optional arch=any fp-units-multimedia-3.0.0 deb devel optional arch=any fp-units-net deb devel optional arch=any fp-units-net-3.0.0 deb devel optional arch=any fp-units-rtl deb devel optional arch=any fp-units-rtl-3.0.0 deb devel optional arch=any fp-utils deb devel optional arch=any fp-utils-3.0.0 deb devel optional arch=any fpc deb devel optional arch=all fpc-3.0.0 deb devel optional arch=all fpc-source deb devel optional arch=all fpc-source-3.0.0 deb devel optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Abou Al Montacir <abou.almontacir@sfr.fr>, Paul Gevers <elbrus@debian.org>, Peter Michael Green <plugwash@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-pascal/fpc.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-pascal/fpc.git"
+	],
+	"Version": [
+		"3.0.0+dfsg-11+deb9u1~bpo8+1"
+	]
 }

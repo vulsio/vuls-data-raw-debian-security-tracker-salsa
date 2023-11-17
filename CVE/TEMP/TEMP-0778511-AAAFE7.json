@@ -1,66 +1,66 @@
 {
-  "header": {
-    "line": "CVE-2014-XXXX [more to CVE-2014-6585]",
-    "name": "TEMP-0778511-AAAFE7",
-    "description": "[more to CVE-2014-6585]"
-  },
-  "annotations": [
-    {
-      "line": "\t[experimental] - icu 55.1-1",
-      "type": "package",
-      "release": "experimental",
-      "package": "icu",
-      "kind": "fixed",
-      "version": "55.1-1"
-    },
-    {
-      "line": "\t- icu 52.1-10 (low; bug #778511)",
-      "type": "package",
-      "package": "icu",
-      "kind": "fixed",
-      "version": "52.1-10",
-      "flags": [
-        {
-          "severity": "low"
-        },
-        {
-          "bug": 778511
-        }
-      ]
-    },
-    {
-      "line": "\t[jessie] - icu 52.1-8+deb8u2",
-      "type": "package",
-      "release": "jessie",
-      "package": "icu",
-      "kind": "fixed",
-      "version": "52.1-8+deb8u2"
-    },
-    {
-      "line": "\t[wheezy] - icu 4.8.1.1-12+deb7u3",
-      "type": "package",
-      "release": "wheezy",
-      "package": "icu",
-      "kind": "fixed",
-      "version": "4.8.1.1-12+deb7u3"
-    },
-    {
-      "line": "\t[squeeze] - icu <not-affected> (All relevant changes already applied)",
-      "type": "package",
-      "release": "squeeze",
-      "package": "icu",
-      "kind": "not-affected",
-      "description": "All relevant changes already applied"
-    },
-    {
-      "line": "\tNOTE: Patch: http://bugs.icu-project.org/trac/changeset/37086",
-      "type": "NOTE",
-      "description": "Patch: http://bugs.icu-project.org/trac/changeset/37086"
-    },
-    {
-      "line": "\tNOTE: icu_4.4.1-8+squeeze3 already has the full patch except for the changes in source/layout/ContextualSubstSubtables.cpp which are commented out anyway... and the remaining if test is probably only meaningful when the backtrackClassArray call is uncommented.",
-      "type": "NOTE",
-      "description": "icu_4.4.1-8+squeeze3 already has the full patch except for the changes in source/layout/ContextualSubstSubtables.cpp which are commented out anyway... and the remaining if test is probably only meaningful when the backtrackClassArray call is uncommented."
-    }
-  ]
+	"header": {
+		"line": "CVE-2014-XXXX [more to CVE-2014-6585]",
+		"name": "TEMP-0778511-AAAFE7",
+		"description": "[more to CVE-2014-6585]"
+	},
+	"annotations": [
+		{
+			"line": "\t[experimental] - icu 55.1-1",
+			"type": "package",
+			"release": "experimental",
+			"package": "icu",
+			"kind": "fixed",
+			"version": "55.1-1"
+		},
+		{
+			"line": "\t- icu 52.1-10 (low; bug #778511)",
+			"type": "package",
+			"package": "icu",
+			"kind": "fixed",
+			"version": "52.1-10",
+			"flags": [
+				{
+					"severity": "low"
+				},
+				{
+					"bug": 778511
+				}
+			]
+		},
+		{
+			"line": "\t[jessie] - icu 52.1-8+deb8u2",
+			"type": "package",
+			"release": "jessie",
+			"package": "icu",
+			"kind": "fixed",
+			"version": "52.1-8+deb8u2"
+		},
+		{
+			"line": "\t[wheezy] - icu 4.8.1.1-12+deb7u3",
+			"type": "package",
+			"release": "wheezy",
+			"package": "icu",
+			"kind": "fixed",
+			"version": "4.8.1.1-12+deb7u3"
+		},
+		{
+			"line": "\t[squeeze] - icu <not-affected> (All relevant changes already applied)",
+			"type": "package",
+			"release": "squeeze",
+			"package": "icu",
+			"kind": "not-affected",
+			"description": "All relevant changes already applied"
+		},
+		{
+			"line": "\tNOTE: Patch: http://bugs.icu-project.org/trac/changeset/37086",
+			"type": "NOTE",
+			"description": "Patch: http://bugs.icu-project.org/trac/changeset/37086"
+		},
+		{
+			"line": "\tNOTE: icu_4.4.1-8+squeeze3 already has the full patch except for the changes in source/layout/ContextualSubstSubtables.cpp which are commented out anyway... and the remaining if test is probably only meaningful when the backtrackClassArray call is uncommented.",
+			"type": "NOTE",
+			"description": "icu_4.4.1-8+squeeze3 already has the full patch except for the changes in source/layout/ContextualSubstSubtables.cpp which are commented out anyway... and the remaining if test is probably only meaningful when the backtrackClassArray call is uncommented."
+		}
+	]
 }

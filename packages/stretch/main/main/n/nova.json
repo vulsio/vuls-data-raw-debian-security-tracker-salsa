@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-nova, nova-common, nova-compute, nova-compute-lxc, nova-compute-qemu, nova-compute-kvm, nova-compute-ironic, nova-conductor, nova-cert, nova-scheduler, nova-volume, nova-api, nova-network, nova-console, nova-consoleauth, nova-doc, nova-cells, nova-consoleproxy, nova-placement-api"
-  ],
-  "Build-Conflicts": [
-    "python-cjson"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 10), dh-python, dh-systemd, openstack-pkg-tools (>= 54~), po-debconf, python-all, python-pbr (>= 1.8), python-setuptools (>= 16.0), python-sphinx"
-  ],
-  "Build-Depends-Indep": [
-    "bandit (>= 0.13.2), bpython, euca2ools, genisoimage, git, ipython, libvirt-daemon-system, openssh-client, procps, python-babel (>= 2.3.4), python-barbicanclient (>= 4.0.0), python-boto, python-castellan (>= 0.4.0), python-cinderclient (>= 1:1.6.0), python-coverage, python-cryptography (>= 1.0), python-decorator, python-eventlet (>= 0.18.4), python-fixtures (>= 3.0.0), python-gabbi (>= 1.24.0), python-glanceclient (>= 1:2.3.0), python-greenlet, python-hacking (>= 0.10.0), python-ironicclient (>= 1.6.0), python-iso8601 (>= 0.1.11), python-jinja2 (>= 2.8), python-jsonschema, python-keystoneauth1 (>= 2.10.0), python-keystonemiddleware (>= 4.0.0), python-lxml, python-memcache, python-microversion-parse (>= 0.1.2), python-migrate (>= 0.9.6), python-mock (>= 2.0), python-mox3, python-mysqldb, python-netaddr (>= 0.7.13), python-netifaces (>= 0.10.4), python-neutronclient (>= 1:5.1.0), python-novaclient (>= 2:2.9.0), python-openstackdocstheme (>= 1.5.0), python-os-api-ref, python-os-brick (>= 1.6.1), python-os-testr (>= 0.7.0), python-os-vif (>= 1.1.0), python-oslo.cache (>= 1.5.0), python-oslo.concurrency (>= 3.8.0), python-oslo.config (>= 1:3.14.0), python-oslo.context (>= 2.9.0), python-oslo.db (>= 4.10.0), python-oslo.i18n (>= 2.1.0), python-oslo.log (>= 2.0.0), python-oslo.messaging (>= 5.2.0), python-oslo.middleware (>= 3.0.0), python-oslo.policy (>= 1.9.0), python-oslo.privsep (>= 1.9.0), python-oslo.reports (>= 1.0.0), python-oslo.rootwrap (>= 5.0.0), python-oslo.serialization (>= 2.0.0), python-oslo.service (>= 1.10.0), python-oslo.utils (>= 3.16.0), python-oslo.versionedobjects (>= 1.13.0), python-oslo.vmware (>= 2.11.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.10.0), python-os-win (>= 0.2.3), python-paramiko (>= 2.0), python-paste, python-pastedeploy, python-pep8, python-pil, python-prettytable, python-psutil, python-psycopg2 (>= 2.5), python-pymysql, python-requests (>= 2.10.0), python-requests-mock (>= 1.0.0), python-rfc3986 (>= 0.2.2), python-routes, python-six (>= 1.9.0), python-sphinxcontrib.seqdiag, python-sqlalchemy (>= 1.0.10), python-stevedore (>= 1.16.0), python-tempest-lib (>= 0.14.0), python-testresources, python-testtools (>= 1.4.0), python-webob, python-wsgi-intercept (>= 0.6.1), sqlite3, subunit, testrepository, websockify (>= 0.8.0)"
-  ],
-  "Checksums-Sha256": [
-    "da60dacc8827a492611ef61993e7af2ad340a92a65a37d3f609eded4c67c7a70 5468 nova_14.0.0-4+deb9u1.dsc 1d15af8329cc26a39c7971b689b4ab81b834763276689089eca80ccaa55de598 3696640 nova_14.0.0.orig.tar.xz 5b766990de3b13916359bd1b27f07235df525789254c9300afe64ec4c3133337 76312 nova_14.0.0-4+deb9u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/n/nova"
-  ],
-  "Files": [
-    "c9d9523e5bbb3499aba22f856e86279a 5468 nova_14.0.0-4+deb9u1.dsc 31f86e20fe161c0fd6b2ce61bf11bee4 3696640 nova_14.0.0.orig.tar.xz ae9cbb39124aaf042a714b9a22f3897c 76312 nova_14.0.0-4+deb9u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.openstack.org/software/openstack-compute/"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "nova"
-  ],
-  "Package-List": [
-    "nova-api deb net extra arch=all nova-cells deb net extra arch=all nova-cert deb net extra arch=all nova-common deb net extra arch=all nova-compute deb net extra arch=all nova-compute-ironic deb net extra arch=all nova-compute-kvm deb net extra arch=all nova-compute-lxc deb net extra arch=all nova-compute-qemu deb net extra arch=all nova-conductor deb net extra arch=all nova-console deb net extra arch=all nova-consoleauth deb net extra arch=all nova-consoleproxy deb net extra arch=all nova-doc deb doc extra arch=all nova-network deb net extra arch=all nova-placement-api deb net extra arch=all nova-scheduler deb net extra arch=all nova-volume deb oldlibs extra arch=all python-nova deb python extra arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>, gustavo panizzo <gfa@zumbi.com.ar>,"
-  ],
-  "Vcs-Browser": [
-    "https://git.openstack.org/cgit/openstack/deb-nova?h=debian%2Fnewton"
-  ],
-  "Vcs-Git": [
-    "https://git.openstack.org/openstack/deb-nova -b debian/newton"
-  ],
-  "Version": [
-    "2:14.0.0-4+deb9u1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-nova, nova-common, nova-compute, nova-compute-lxc, nova-compute-qemu, nova-compute-kvm, nova-compute-ironic, nova-conductor, nova-cert, nova-scheduler, nova-volume, nova-api, nova-network, nova-console, nova-consoleauth, nova-doc, nova-cells, nova-consoleproxy, nova-placement-api"
+	],
+	"Build-Conflicts": [
+		"python-cjson"
+	],
+	"Build-Depends": [
+		"debhelper (>= 10), dh-python, dh-systemd, openstack-pkg-tools (>= 54~), po-debconf, python-all, python-pbr (>= 1.8), python-setuptools (>= 16.0), python-sphinx"
+	],
+	"Build-Depends-Indep": [
+		"bandit (>= 0.13.2), bpython, euca2ools, genisoimage, git, ipython, libvirt-daemon-system, openssh-client, procps, python-babel (>= 2.3.4), python-barbicanclient (>= 4.0.0), python-boto, python-castellan (>= 0.4.0), python-cinderclient (>= 1:1.6.0), python-coverage, python-cryptography (>= 1.0), python-decorator, python-eventlet (>= 0.18.4), python-fixtures (>= 3.0.0), python-gabbi (>= 1.24.0), python-glanceclient (>= 1:2.3.0), python-greenlet, python-hacking (>= 0.10.0), python-ironicclient (>= 1.6.0), python-iso8601 (>= 0.1.11), python-jinja2 (>= 2.8), python-jsonschema, python-keystoneauth1 (>= 2.10.0), python-keystonemiddleware (>= 4.0.0), python-lxml, python-memcache, python-microversion-parse (>= 0.1.2), python-migrate (>= 0.9.6), python-mock (>= 2.0), python-mox3, python-mysqldb, python-netaddr (>= 0.7.13), python-netifaces (>= 0.10.4), python-neutronclient (>= 1:5.1.0), python-novaclient (>= 2:2.9.0), python-openstackdocstheme (>= 1.5.0), python-os-api-ref, python-os-brick (>= 1.6.1), python-os-testr (>= 0.7.0), python-os-vif (>= 1.1.0), python-oslo.cache (>= 1.5.0), python-oslo.concurrency (>= 3.8.0), python-oslo.config (>= 1:3.14.0), python-oslo.context (>= 2.9.0), python-oslo.db (>= 4.10.0), python-oslo.i18n (>= 2.1.0), python-oslo.log (>= 2.0.0), python-oslo.messaging (>= 5.2.0), python-oslo.middleware (>= 3.0.0), python-oslo.policy (>= 1.9.0), python-oslo.privsep (>= 1.9.0), python-oslo.reports (>= 1.0.0), python-oslo.rootwrap (>= 5.0.0), python-oslo.serialization (>= 2.0.0), python-oslo.service (>= 1.10.0), python-oslo.utils (>= 3.16.0), python-oslo.versionedobjects (>= 1.13.0), python-oslo.vmware (>= 2.11.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.10.0), python-os-win (>= 0.2.3), python-paramiko (>= 2.0), python-paste, python-pastedeploy, python-pep8, python-pil, python-prettytable, python-psutil, python-psycopg2 (>= 2.5), python-pymysql, python-requests (>= 2.10.0), python-requests-mock (>= 1.0.0), python-rfc3986 (>= 0.2.2), python-routes, python-six (>= 1.9.0), python-sphinxcontrib.seqdiag, python-sqlalchemy (>= 1.0.10), python-stevedore (>= 1.16.0), python-tempest-lib (>= 0.14.0), python-testresources, python-testtools (>= 1.4.0), python-webob, python-wsgi-intercept (>= 0.6.1), sqlite3, subunit, testrepository, websockify (>= 0.8.0)"
+	],
+	"Checksums-Sha256": [
+		"da60dacc8827a492611ef61993e7af2ad340a92a65a37d3f609eded4c67c7a70 5468 nova_14.0.0-4+deb9u1.dsc 1d15af8329cc26a39c7971b689b4ab81b834763276689089eca80ccaa55de598 3696640 nova_14.0.0.orig.tar.xz 5b766990de3b13916359bd1b27f07235df525789254c9300afe64ec4c3133337 76312 nova_14.0.0-4+deb9u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/n/nova"
+	],
+	"Files": [
+		"c9d9523e5bbb3499aba22f856e86279a 5468 nova_14.0.0-4+deb9u1.dsc 31f86e20fe161c0fd6b2ce61bf11bee4 3696640 nova_14.0.0.orig.tar.xz ae9cbb39124aaf042a714b9a22f3897c 76312 nova_14.0.0-4+deb9u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.openstack.org/software/openstack-compute/"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"nova"
+	],
+	"Package-List": [
+		"nova-api deb net extra arch=all nova-cells deb net extra arch=all nova-cert deb net extra arch=all nova-common deb net extra arch=all nova-compute deb net extra arch=all nova-compute-ironic deb net extra arch=all nova-compute-kvm deb net extra arch=all nova-compute-lxc deb net extra arch=all nova-compute-qemu deb net extra arch=all nova-conductor deb net extra arch=all nova-console deb net extra arch=all nova-consoleauth deb net extra arch=all nova-consoleproxy deb net extra arch=all nova-doc deb doc extra arch=all nova-network deb net extra arch=all nova-placement-api deb net extra arch=all nova-scheduler deb net extra arch=all nova-volume deb oldlibs extra arch=all python-nova deb python extra arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>, gustavo panizzo <gfa@zumbi.com.ar>,"
+	],
+	"Vcs-Browser": [
+		"https://git.openstack.org/cgit/openstack/deb-nova?h=debian%2Fnewton"
+	],
+	"Vcs-Git": [
+		"https://git.openstack.org/openstack/deb-nova -b debian/newton"
+	],
+	"Version": [
+		"2:14.0.0-4+deb9u1"
+	]
 }

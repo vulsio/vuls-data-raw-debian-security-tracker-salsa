@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "cpp, g++, g++-multilib, gobjc, gobjc-multilib, gobjc++, gobjc++-multilib, gfortran, gfortran-multilib, gccgo, gccgo-multilib, libgcj-common, libgcj-bc, gcj-jdk, gcj-jre-headless, gcj-jre, gcc, gcc-multilib, gdc, gdc-v1, gcc-spu, g++-spu, gfortran-spu"
-  ],
-  "Build-Depends": [
-    "m4, debhelper (>= 5), dpkg-dev (>= 1.16.0~ubuntu4), gcj-4.7-base (>= 4.7.0~) [!arm !m68k], gcc-4.6-base (>= 4.6.1~) [!m68k], gcc-4.7-base [amd64 i386], lsb-release"
-  ],
-  "Build-Depends-Indep": [
-    "ca-certificates, gcj-jdk, python (>= 2.6.6)"
-  ],
-  "Checksums-Sha1": [
-    "a7b391629bfd3820207d62cdfead72045f732ce4 2108 gcc-defaults_1.120.dsc 1f6574b5dee7b57848ebbc3eca2d710f9b43d807 60672 gcc-defaults_1.120.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "b88838da8b882cb8b5857110063a9d410edd5d349318a9d1c1583671515ee6f1 2108 gcc-defaults_1.120.dsc 499d4e061ca09e61e508f52357c3401fa44c727b489a86a893bf5c4f09bb9686 60672 gcc-defaults_1.120.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/g/gcc-defaults"
-  ],
-  "Files": [
-    "6636c72060a7c1a3253911afaf37cdaf 2108 gcc-defaults_1.120.dsc ae16d4d90bd525affe288614a92253f0 60672 gcc-defaults_1.120.tar.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Maintainer": [
-    "Debian GCC Maintainers <debian-gcc@lists.debian.org>"
-  ],
-  "Package": [
-    "gcc-defaults"
-  ],
-  "Package-List": [
-    "cpp deb interpreters optional g++ deb devel optional g++-multilib deb devel optional g++-spu deb devel optional gcc deb devel optional gcc-multilib deb devel optional gcc-spu deb devel optional gccgo deb devel optional gccgo-multilib deb devel optional gcj-jdk deb java optional gcj-jre deb java optional gcj-jre-headless deb java optional gdc deb devel optional gdc-v1 deb devel optional gfortran deb devel optional gfortran-multilib deb devel optional gfortran-spu deb devel optional gobjc deb devel optional gobjc++ deb devel optional gobjc++-multilib deb devel optional gobjc-multilib deb devel optional libgcj-bc deb java optional libgcj-common deb java optional"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Python-Version": [
-    "all"
-  ],
-  "Section": [
-    "devel"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Matthias Klose <doko@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://svn.debian.org/viewsvn/gcccvs/branches/sid/gcc-defaults"
-  ],
-  "Vcs-Svn": [
-    "svn+ssh://svn.debian.org/svn/gcccvs/branches/sid/gcc-defaults"
-  ],
-  "Version": [
-    "1.120"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"cpp, g++, g++-multilib, gobjc, gobjc-multilib, gobjc++, gobjc++-multilib, gfortran, gfortran-multilib, gccgo, gccgo-multilib, libgcj-common, libgcj-bc, gcj-jdk, gcj-jre-headless, gcj-jre, gcc, gcc-multilib, gdc, gdc-v1, gcc-spu, g++-spu, gfortran-spu"
+	],
+	"Build-Depends": [
+		"m4, debhelper (>= 5), dpkg-dev (>= 1.16.0~ubuntu4), gcj-4.7-base (>= 4.7.0~) [!arm !m68k], gcc-4.6-base (>= 4.6.1~) [!m68k], gcc-4.7-base [amd64 i386], lsb-release"
+	],
+	"Build-Depends-Indep": [
+		"ca-certificates, gcj-jdk, python (>= 2.6.6)"
+	],
+	"Checksums-Sha1": [
+		"a7b391629bfd3820207d62cdfead72045f732ce4 2108 gcc-defaults_1.120.dsc 1f6574b5dee7b57848ebbc3eca2d710f9b43d807 60672 gcc-defaults_1.120.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"b88838da8b882cb8b5857110063a9d410edd5d349318a9d1c1583671515ee6f1 2108 gcc-defaults_1.120.dsc 499d4e061ca09e61e508f52357c3401fa44c727b489a86a893bf5c4f09bb9686 60672 gcc-defaults_1.120.tar.gz"
+	],
+	"Directory": [
+		"pool/main/g/gcc-defaults"
+	],
+	"Files": [
+		"6636c72060a7c1a3253911afaf37cdaf 2108 gcc-defaults_1.120.dsc ae16d4d90bd525affe288614a92253f0 60672 gcc-defaults_1.120.tar.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Maintainer": [
+		"Debian GCC Maintainers <debian-gcc@lists.debian.org>"
+	],
+	"Package": [
+		"gcc-defaults"
+	],
+	"Package-List": [
+		"cpp deb interpreters optional g++ deb devel optional g++-multilib deb devel optional g++-spu deb devel optional gcc deb devel optional gcc-multilib deb devel optional gcc-spu deb devel optional gccgo deb devel optional gccgo-multilib deb devel optional gcj-jdk deb java optional gcj-jre deb java optional gcj-jre-headless deb java optional gdc deb devel optional gdc-v1 deb devel optional gfortran deb devel optional gfortran-multilib deb devel optional gfortran-spu deb devel optional gobjc deb devel optional gobjc++ deb devel optional gobjc++-multilib deb devel optional gobjc-multilib deb devel optional libgcj-bc deb java optional libgcj-common deb java optional"
+	],
+	"Priority": [
+		"source"
+	],
+	"Python-Version": [
+		"all"
+	],
+	"Section": [
+		"devel"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Matthias Klose <doko@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://svn.debian.org/viewsvn/gcccvs/branches/sid/gcc-defaults"
+	],
+	"Vcs-Svn": [
+		"svn+ssh://svn.debian.org/svn/gcccvs/branches/sid/gcc-defaults"
+	],
+	"Version": [
+		"1.120"
+	]
 }

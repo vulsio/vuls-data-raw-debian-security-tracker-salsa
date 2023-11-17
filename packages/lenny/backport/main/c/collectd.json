@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "collectd-core, collectd, collectd-utils, collectd-dbg, collectd-dev, libcollectdclient-dev, libcollectdclient0"
-  ],
-  "Build-Conflicts": [
-    "iptables-dev, libpthread-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 5), dpkg-dev (>= 1.14.10), po-debconf, dpatch, bison, flex, autotools-dev, libltdl3-dev, pkg-config, iproute-dev [!alpha !amd64 !hppa !ia64 !ppc64 !mips !mipsel !kfreebsd-i386 !kfreebsd-amd64], libcurl4-gnutls-dev (>= 7.18.2-5) | libcurl4-gnutls-dev (<= 7.18.2-1) | libcurl3-gnutls-dev, libdbi0-dev, libesmtp-dev, libgcrypt11-dev, libglib2.0-dev, libhal-dev, libmysqlclient-dev, libnotify-dev, libopenipmi-dev, liboping-dev (>= 0.3.3), libpcap0.8-dev | libpcap-dev, libperl-dev, libpq-dev, librrd-dev, libsensors-dev [!kfreebsd-i386 !kfreebsd-amd64], libsnmp-dev | libsnmp9-dev, libupsclient1-dev, libvirt-dev (>= 0.4.0-6) [!kfreebsd-i386 !kfreebsd-amd64], libxml2-dev, linux-libc-dev (>= 2.6.25-4) [!kfreebsd-i386 !kfreebsd-amd64] | linux-libc-dev (<< 2.6.25-1) [!kfreebsd-i386 !kfreebsd-amd64], openjdk-6-jdk [!hppa !kfreebsd-i386 !kfreebsd-amd64], python-dev"
-  ],
-  "Checksums-Sha1": [
-    "10c56ec57c4931c5b25dc64c25873d719d9aa8b9 2120 collectd_4.9.1-2~bpo50+2.dsc 667fd21dcc05ff286bbd91fcad2ef9a89b8241c8 1687106 collectd_4.9.1.orig.tar.gz 6b1ca4187e65bee4340af6bcad886ee2e4ca0d13 58519 collectd_4.9.1-2~bpo50+2.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "2076f46eb9de5138438b7ac5e03b7f9837f283b609e11cfd16877a8340c4ee7c 2120 collectd_4.9.1-2~bpo50+2.dsc 7c746795b5b796dfd591c662b35b394e505ec4e6ccabaeebec4ab473743561bc 1687106 collectd_4.9.1.orig.tar.gz 240457f16d0798935936cc31f0840b7d087a9a7a013bcff287bd5621a260898d 58519 collectd_4.9.1-2~bpo50+2.diff.gz"
-  ],
-  "Directory": [
-    "pool/main/c/collectd"
-  ],
-  "Files": [
-    "c7ea24aa3889f97496e5c24fd24bbcaa 2120 collectd_4.9.1-2~bpo50+2.dsc 31a63d8e3a796dee247024f70426ed1c 1687106 collectd_4.9.1.orig.tar.gz ab9bd0bcfaed324f656da82d8b93697b 58519 collectd_4.9.1-2~bpo50+2.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Homepage": [
-    "http://collectd.org/"
-  ],
-  "Maintainer": [
-    "Sebastian Harl <tokkee@debian.org>"
-  ],
-  "Package": [
-    "collectd"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "utils"
-  ],
-  "Standards-Version": [
-    "3.8.3"
-  ],
-  "Vcs-Browser": [
-    "http://git.tokkee.org/?p=pkg-collectd.git"
-  ],
-  "Vcs-Git": [
-    "git://git.tokkee.org/pkg-collectd.git"
-  ],
-  "Version": [
-    "4.9.1-2~bpo50+2"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"collectd-core, collectd, collectd-utils, collectd-dbg, collectd-dev, libcollectdclient-dev, libcollectdclient0"
+	],
+	"Build-Conflicts": [
+		"iptables-dev, libpthread-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 5), dpkg-dev (>= 1.14.10), po-debconf, dpatch, bison, flex, autotools-dev, libltdl3-dev, pkg-config, iproute-dev [!alpha !amd64 !hppa !ia64 !ppc64 !mips !mipsel !kfreebsd-i386 !kfreebsd-amd64], libcurl4-gnutls-dev (>= 7.18.2-5) | libcurl4-gnutls-dev (<= 7.18.2-1) | libcurl3-gnutls-dev, libdbi0-dev, libesmtp-dev, libgcrypt11-dev, libglib2.0-dev, libhal-dev, libmysqlclient-dev, libnotify-dev, libopenipmi-dev, liboping-dev (>= 0.3.3), libpcap0.8-dev | libpcap-dev, libperl-dev, libpq-dev, librrd-dev, libsensors-dev [!kfreebsd-i386 !kfreebsd-amd64], libsnmp-dev | libsnmp9-dev, libupsclient1-dev, libvirt-dev (>= 0.4.0-6) [!kfreebsd-i386 !kfreebsd-amd64], libxml2-dev, linux-libc-dev (>= 2.6.25-4) [!kfreebsd-i386 !kfreebsd-amd64] | linux-libc-dev (<< 2.6.25-1) [!kfreebsd-i386 !kfreebsd-amd64], openjdk-6-jdk [!hppa !kfreebsd-i386 !kfreebsd-amd64], python-dev"
+	],
+	"Checksums-Sha1": [
+		"10c56ec57c4931c5b25dc64c25873d719d9aa8b9 2120 collectd_4.9.1-2~bpo50+2.dsc 667fd21dcc05ff286bbd91fcad2ef9a89b8241c8 1687106 collectd_4.9.1.orig.tar.gz 6b1ca4187e65bee4340af6bcad886ee2e4ca0d13 58519 collectd_4.9.1-2~bpo50+2.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"2076f46eb9de5138438b7ac5e03b7f9837f283b609e11cfd16877a8340c4ee7c 2120 collectd_4.9.1-2~bpo50+2.dsc 7c746795b5b796dfd591c662b35b394e505ec4e6ccabaeebec4ab473743561bc 1687106 collectd_4.9.1.orig.tar.gz 240457f16d0798935936cc31f0840b7d087a9a7a013bcff287bd5621a260898d 58519 collectd_4.9.1-2~bpo50+2.diff.gz"
+	],
+	"Directory": [
+		"pool/main/c/collectd"
+	],
+	"Files": [
+		"c7ea24aa3889f97496e5c24fd24bbcaa 2120 collectd_4.9.1-2~bpo50+2.dsc 31a63d8e3a796dee247024f70426ed1c 1687106 collectd_4.9.1.orig.tar.gz ab9bd0bcfaed324f656da82d8b93697b 58519 collectd_4.9.1-2~bpo50+2.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Homepage": [
+		"http://collectd.org/"
+	],
+	"Maintainer": [
+		"Sebastian Harl <tokkee@debian.org>"
+	],
+	"Package": [
+		"collectd"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"utils"
+	],
+	"Standards-Version": [
+		"3.8.3"
+	],
+	"Vcs-Browser": [
+		"http://git.tokkee.org/?p=pkg-collectd.git"
+	],
+	"Vcs-Git": [
+		"git://git.tokkee.org/pkg-collectd.git"
+	],
+	"Version": [
+		"4.9.1-2~bpo50+2"
+	]
 }

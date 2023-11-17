@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "php5, php5-common, libapache2-mod-php5, libapache2-mod-php5filter, php5-cgi, php5-cli, php5-dev, php5-dbg, php-pear, php5-curl, php5-enchant, php5-gd, php5-gmp, php5-imap, php5-interbase, php5-intl, php5-ldap, php5-mcrypt, php5-mysql, php5-odbc, php5-pgsql, php5-pspell, php5-recode, php5-snmp, php5-sqlite, php5-sybase, php5-tidy, php5-xmlrpc, php5-xsl"
-  ],
-  "Build-Conflicts": [
-    "bind-dev"
-  ],
-  "Build-Depends": [
-    "apache2-prefork-dev, autoconf (>= 2.63), automake (>= 1.11) | automake1.11, bison, chrpath, debhelper (>= 5), firebird2.1-dev [amd64 armel armhf i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc] | firebird2.0-dev [i386 amd64 powerpc sparc], flex, freetds-dev, hardening-wrapper, libapr1-dev (>= 1.2.7-8), libbz2-dev, libc-client-dev, libcurl4-openssl-dev | libcurl-dev, libdb-dev (>= 4.7) | libdb4.8-dev | libdb4.6-dev, libenchant-dev, libevent-dev (>= 1.4.11), libexpat1-dev (>= 1.95.2-2.1), libfreetype6-dev, libgcrypt11-dev, libgd2-xpm-dev, libglib2.0-dev, libgmp3-dev, libicu-dev, libjpeg-dev | libjpeg62-dev, libkrb5-dev, libldap2-dev, libmcrypt-dev, libmhash-dev (>= 0.8.8), libmysqlclient-dev | libmysqlclient15-dev, libonig-dev, libpam0g-dev, libpcre3-dev (>= 6.6), libpng12-dev, libpq-dev, libpspell-dev, libqdbm-dev, librecode-dev, libsasl2-dev, libsnmp-dev, libsqlite0-dev, libsqlite3-dev, libssl-dev, libt1-dev, libtidy-dev, libtool (>= 2.2), libwrap0-dev, libxmltok1-dev, libxml2-dev, libxslt1-dev (>= 1.0.18), locales-all, mysql-server, netbase, netcat-traditional, quilt, re2c, unixodbc-dev, zlib1g-dev, tzdata"
-  ],
-  "Checksums-Sha1": [
-    "d86115bcdd01a6a5240b80afec474310bdc0aecc 2798 php5_5.3.3-7+squeeze19.dsc 82d7cdf8431815ff2c1569c1110f4ad8203d8e21 13921529 php5_5.3.3.orig.tar.gz f7a7b179a726ec2435c43654cc9056e38ef3491e 266590 php5_5.3.3-7+squeeze19.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "1c8e60b5d8c53be55cc51349ad840437379ff1b1c5904eab8bb687be90e81314 2798 php5_5.3.3-7+squeeze19.dsc a8bf9ce535fa4c3f7acd00ed92ca50be49e9710876649ef26369b0326985833c 13921529 php5_5.3.3.orig.tar.gz 2b6a0d76e8a01c8b62e08e03464f86ba50242a5d057e2da9bbd0c2d4089ddda2 266590 php5_5.3.3-7+squeeze19.diff.gz"
-  ],
-  "Directory": [
-    "pool/updates/main/p/php5"
-  ],
-  "Files": [
-    "f1277b0caa7d07ff7a0ba618f8454226 2798 php5_5.3.3-7+squeeze19.dsc 5adf1a537895c2ec933fddd48e78d8a2 13921529 php5_5.3.3.orig.tar.gz 72223471bd4657c13ade48b1f7190a7e 266590 php5_5.3.3-7+squeeze19.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Homepage": [
-    "http://www.php.net/"
-  ],
-  "Maintainer": [
-    "Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "php5"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "web"
-  ],
-  "Standards-Version": [
-    "3.9.1"
-  ],
-  "Uploaders": [
-    "Ondřej Surý <ondrej@debian.org>,    Sean Finney <seanius@debian.org>,    Thijs Kinkhorst <thijs@debian.org>,    Raphael Geissert <geissert@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://git.debian.org/?p=pkg-php/php.git"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/pkg-php/php.git"
-  ],
-  "Version": [
-    "5.3.3-7+squeeze19"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"php5, php5-common, libapache2-mod-php5, libapache2-mod-php5filter, php5-cgi, php5-cli, php5-dev, php5-dbg, php-pear, php5-curl, php5-enchant, php5-gd, php5-gmp, php5-imap, php5-interbase, php5-intl, php5-ldap, php5-mcrypt, php5-mysql, php5-odbc, php5-pgsql, php5-pspell, php5-recode, php5-snmp, php5-sqlite, php5-sybase, php5-tidy, php5-xmlrpc, php5-xsl"
+	],
+	"Build-Conflicts": [
+		"bind-dev"
+	],
+	"Build-Depends": [
+		"apache2-prefork-dev, autoconf (>= 2.63), automake (>= 1.11) | automake1.11, bison, chrpath, debhelper (>= 5), firebird2.1-dev [amd64 armel armhf i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc] | firebird2.0-dev [i386 amd64 powerpc sparc], flex, freetds-dev, hardening-wrapper, libapr1-dev (>= 1.2.7-8), libbz2-dev, libc-client-dev, libcurl4-openssl-dev | libcurl-dev, libdb-dev (>= 4.7) | libdb4.8-dev | libdb4.6-dev, libenchant-dev, libevent-dev (>= 1.4.11), libexpat1-dev (>= 1.95.2-2.1), libfreetype6-dev, libgcrypt11-dev, libgd2-xpm-dev, libglib2.0-dev, libgmp3-dev, libicu-dev, libjpeg-dev | libjpeg62-dev, libkrb5-dev, libldap2-dev, libmcrypt-dev, libmhash-dev (>= 0.8.8), libmysqlclient-dev | libmysqlclient15-dev, libonig-dev, libpam0g-dev, libpcre3-dev (>= 6.6), libpng12-dev, libpq-dev, libpspell-dev, libqdbm-dev, librecode-dev, libsasl2-dev, libsnmp-dev, libsqlite0-dev, libsqlite3-dev, libssl-dev, libt1-dev, libtidy-dev, libtool (>= 2.2), libwrap0-dev, libxmltok1-dev, libxml2-dev, libxslt1-dev (>= 1.0.18), locales-all, mysql-server, netbase, netcat-traditional, quilt, re2c, unixodbc-dev, zlib1g-dev, tzdata"
+	],
+	"Checksums-Sha1": [
+		"d86115bcdd01a6a5240b80afec474310bdc0aecc 2798 php5_5.3.3-7+squeeze19.dsc 82d7cdf8431815ff2c1569c1110f4ad8203d8e21 13921529 php5_5.3.3.orig.tar.gz f7a7b179a726ec2435c43654cc9056e38ef3491e 266590 php5_5.3.3-7+squeeze19.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"1c8e60b5d8c53be55cc51349ad840437379ff1b1c5904eab8bb687be90e81314 2798 php5_5.3.3-7+squeeze19.dsc a8bf9ce535fa4c3f7acd00ed92ca50be49e9710876649ef26369b0326985833c 13921529 php5_5.3.3.orig.tar.gz 2b6a0d76e8a01c8b62e08e03464f86ba50242a5d057e2da9bbd0c2d4089ddda2 266590 php5_5.3.3-7+squeeze19.diff.gz"
+	],
+	"Directory": [
+		"pool/updates/main/p/php5"
+	],
+	"Files": [
+		"f1277b0caa7d07ff7a0ba618f8454226 2798 php5_5.3.3-7+squeeze19.dsc 5adf1a537895c2ec933fddd48e78d8a2 13921529 php5_5.3.3.orig.tar.gz 72223471bd4657c13ade48b1f7190a7e 266590 php5_5.3.3-7+squeeze19.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Homepage": [
+		"http://www.php.net/"
+	],
+	"Maintainer": [
+		"Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"php5"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"web"
+	],
+	"Standards-Version": [
+		"3.9.1"
+	],
+	"Uploaders": [
+		"Ondřej Surý <ondrej@debian.org>,    Sean Finney <seanius@debian.org>,    Thijs Kinkhorst <thijs@debian.org>,    Raphael Geissert <geissert@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://git.debian.org/?p=pkg-php/php.git"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/pkg-php/php.git"
+	],
+	"Version": [
+		"5.3.3-7+squeeze19"
+	]
 }

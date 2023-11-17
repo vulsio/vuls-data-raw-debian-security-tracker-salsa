@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-trybuild-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-basic-toml-0.1+default-dev <!nocheck>, librust-glob-0.3+default-dev <!nocheck>, librust-once-cell-1+default-dev (>= 1.9-~~) <!nocheck>, librust-serde-1+default-dev (>= 1.0.166-~~) <!nocheck>, librust-serde-derive-1+default-dev (>= 1.0.166-~~) <!nocheck>, librust-serde-json-1+default-dev (>= 1.0.99-~~) <!nocheck>, librust-termcolor-1+default-dev (>= 1.0.4-~~) <!nocheck>, librust-dissimilar-dev"
-  ],
-  "Checksums-Sha256": [
-    "400623be3a89e336a21c7e2d6b1791cbb741185c4dd6e30d8a4b2cc20422df9e 2596 rust-trybuild_1.0.85-1.dsc 196a58260a906cedb9bf6d8034b6379d0c11f552416960452f267402ceeddff1 40616 rust-trybuild_1.0.85.orig.tar.gz f4eadb4bc081781d534132a6c9e8b69642a08e86a0b90621bdd09c9b5e95be3a 3184 rust-trybuild_1.0.85-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-trybuild"
-  ],
-  "Files": [
-    "95124ee318c03818d882b39bd5eceff9 2596 rust-trybuild_1.0.85-1.dsc d8e7edf5f5358be04782f44e449f6491 40616 rust-trybuild_1.0.85.orig.tar.gz 8077cc70d38a1114eaff5d05dbd7dfc3 3184 rust-trybuild_1.0.85-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-trybuild"
-  ],
-  "Package-List": [
-    "librust-trybuild-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-automod-1+default-dev"
-  ],
-  "Uploaders": [
-    "Wolfgang Silbermayr <wolfgang@silbermayr.at>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/trybuild"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/trybuild]"
-  ],
-  "Version": [
-    "1.0.85-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-trybuild-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-basic-toml-0.1+default-dev <!nocheck>, librust-glob-0.3+default-dev <!nocheck>, librust-once-cell-1+default-dev (>= 1.9-~~) <!nocheck>, librust-serde-1+default-dev (>= 1.0.166-~~) <!nocheck>, librust-serde-derive-1+default-dev (>= 1.0.166-~~) <!nocheck>, librust-serde-json-1+default-dev (>= 1.0.99-~~) <!nocheck>, librust-termcolor-1+default-dev (>= 1.0.4-~~) <!nocheck>, librust-dissimilar-dev"
+	],
+	"Checksums-Sha256": [
+		"400623be3a89e336a21c7e2d6b1791cbb741185c4dd6e30d8a4b2cc20422df9e 2596 rust-trybuild_1.0.85-1.dsc 196a58260a906cedb9bf6d8034b6379d0c11f552416960452f267402ceeddff1 40616 rust-trybuild_1.0.85.orig.tar.gz f4eadb4bc081781d534132a6c9e8b69642a08e86a0b90621bdd09c9b5e95be3a 3184 rust-trybuild_1.0.85-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-trybuild"
+	],
+	"Files": [
+		"95124ee318c03818d882b39bd5eceff9 2596 rust-trybuild_1.0.85-1.dsc d8e7edf5f5358be04782f44e449f6491 40616 rust-trybuild_1.0.85.orig.tar.gz 8077cc70d38a1114eaff5d05dbd7dfc3 3184 rust-trybuild_1.0.85-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-trybuild"
+	],
+	"Package-List": [
+		"librust-trybuild-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-automod-1+default-dev"
+	],
+	"Uploaders": [
+		"Wolfgang Silbermayr <wolfgang@silbermayr.at>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/trybuild"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/trybuild]"
+	],
+	"Version": [
+		"1.0.85-1"
+	]
 }

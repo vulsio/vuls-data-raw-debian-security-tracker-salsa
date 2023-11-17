@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "gitlab-workhorse"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 11), dh-golang, golang-any (>= 2:1.10~), golang-github-dgrijalva-jwt-go-v3-dev, golang-toml-dev, golang-github-beorn7-perks-dev, golang-github-davecgh-go-spew-dev, golang-github-garyburd-redigo-dev, golang-goprotobuf-dev, golang-websocket-dev, golang-protobuf-extensions-dev, golang-github-mitchellh-copystructure-dev, golang-github-mitchellh-reflectwalk-dev, golang-github-pmezard-go-difflib-dev, golang-prometheus-client-dev, golang-github-prometheus-client-golang-dev, golang-github-prometheus-client-model-dev, golang-github-prometheus-common-dev, golang-procfs-dev, golang-github-stretchr-testify-dev, golang-logrus-dev (>= 1.0~), golang-golang-x-crypto-dev, golang-golang-x-net-dev, golang-golang-x-sys-dev (>= 0.0~git20180510.7dfd129~), golang-google-genproto-dev"
-  ],
-  "Checksums-Sha256": [
-    "643f448e8d85afc65d5b82989393fd77e85963b5fe5e50747a70fe9545c14108 3042 gitlab-workhorse_7.4.0+debian-2~bpo9+1.dsc d7e494d6f7a02825386ba4194bee74e0b272753121d1b576155a663c3b1a9ee9 987589 gitlab-workhorse_7.4.0+debian.orig.tar.gz e17231e4b7cfb16dfe63d521a69bdf75638207922f66e508c0d90c1450f0722b 4232 gitlab-workhorse_7.4.0+debian-2~bpo9+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/g/gitlab-workhorse"
-  ],
-  "Files": [
-    "4b0d2c6c09fd53ebe35f031ee37fee46 3042 gitlab-workhorse_7.4.0+debian-2~bpo9+1.dsc 989bab7807a474e02bd22f00a9e136aa 987589 gitlab-workhorse_7.4.0+debian.orig.tar.gz fa786e04900427b363e86eec75431661 4232 gitlab-workhorse_7.4.0+debian-2~bpo9+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Go-Import-Path": [
-    "gitlab.com/gitlab-org/gitlab-workhorse"
-  ],
-  "Homepage": [
-    "https://gitlab.com/gitlab-org/gitlab-workhorse/"
-  ],
-  "Maintainer": [
-    "Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "gitlab-workhorse"
-  ],
-  "Package-List": [
-    "gitlab-workhorse deb httpd optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.2.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "psmisc"
-  ],
-  "Uploaders": [
-    "Pirate Praveen <praveen@debian.org>, Manas Kashyap <manaskashyaptech@gmail.com>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/go-team/packages/gitlab-workhorse"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/go-team/packages/gitlab-workhorse.git"
-  ],
-  "Version": [
-    "7.4.0+debian-2~bpo9+1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"gitlab-workhorse"
+	],
+	"Build-Depends": [
+		"debhelper (>= 11), dh-golang, golang-any (>= 2:1.10~), golang-github-dgrijalva-jwt-go-v3-dev, golang-toml-dev, golang-github-beorn7-perks-dev, golang-github-davecgh-go-spew-dev, golang-github-garyburd-redigo-dev, golang-goprotobuf-dev, golang-websocket-dev, golang-protobuf-extensions-dev, golang-github-mitchellh-copystructure-dev, golang-github-mitchellh-reflectwalk-dev, golang-github-pmezard-go-difflib-dev, golang-prometheus-client-dev, golang-github-prometheus-client-golang-dev, golang-github-prometheus-client-model-dev, golang-github-prometheus-common-dev, golang-procfs-dev, golang-github-stretchr-testify-dev, golang-logrus-dev (>= 1.0~), golang-golang-x-crypto-dev, golang-golang-x-net-dev, golang-golang-x-sys-dev (>= 0.0~git20180510.7dfd129~), golang-google-genproto-dev"
+	],
+	"Checksums-Sha256": [
+		"643f448e8d85afc65d5b82989393fd77e85963b5fe5e50747a70fe9545c14108 3042 gitlab-workhorse_7.4.0+debian-2~bpo9+1.dsc d7e494d6f7a02825386ba4194bee74e0b272753121d1b576155a663c3b1a9ee9 987589 gitlab-workhorse_7.4.0+debian.orig.tar.gz e17231e4b7cfb16dfe63d521a69bdf75638207922f66e508c0d90c1450f0722b 4232 gitlab-workhorse_7.4.0+debian-2~bpo9+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/gitlab-workhorse"
+	],
+	"Files": [
+		"4b0d2c6c09fd53ebe35f031ee37fee46 3042 gitlab-workhorse_7.4.0+debian-2~bpo9+1.dsc 989bab7807a474e02bd22f00a9e136aa 987589 gitlab-workhorse_7.4.0+debian.orig.tar.gz fa786e04900427b363e86eec75431661 4232 gitlab-workhorse_7.4.0+debian-2~bpo9+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Go-Import-Path": [
+		"gitlab.com/gitlab-org/gitlab-workhorse"
+	],
+	"Homepage": [
+		"https://gitlab.com/gitlab-org/gitlab-workhorse/"
+	],
+	"Maintainer": [
+		"Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"gitlab-workhorse"
+	],
+	"Package-List": [
+		"gitlab-workhorse deb httpd optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.2.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"psmisc"
+	],
+	"Uploaders": [
+		"Pirate Praveen <praveen@debian.org>, Manas Kashyap <manaskashyaptech@gmail.com>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/go-team/packages/gitlab-workhorse"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/go-team/packages/gitlab-workhorse.git"
+	],
+	"Version": [
+		"7.4.0+debian-2~bpo9+1"
+	]
 }

@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-openstackclient, python3-openstackclient, python-openstackclient-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-python, openstack-pkg-tools, python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.8), python3-setuptools"
-  ],
-  "Build-Depends-Indep": [
-    "python-babel, python-barbicanclient (>= 3.3.0), python-cinderclient (>= 1:1.3.1), python-cliff (>= 1.15.0), python-congressclient (>= 1.0.0), python-coverage, python-crypto, python-designateclient (>= 1.5.0), python-fixtures (>= 1.3.1), python-glanceclient (>= 1:2.0.0), python-hacking (>= 0.10.0), python-heatclient (>= 0.6.0), python-ironicclient (>= 1.1.0), python-keyring, python-keystoneauth1 (>= 2.1.0), python-keystoneclient (>= 1:1.6.0), python-mistralclient (>= 1.0.0), python-mock (>= 1.3), python-neutronclient (>= 1:2.6.0), python-novaclient (>= 2:2.30.0), python-openstacksdk (>= 0.8.1), python-os-client-config (>= 1.13.1), python-os-testr (>= 0.4.2), python-oslo.config (>= 1:3.7.0), python-oslo.i18n (>= 2.1.0), python-oslo.serialization (>= 1.2.0), python-oslo.utils (>= 3.5.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1.10.0), python-osprofiler (>= 1.1.0), python-requests (>= 2.8.1), python-requests-mock (>= 0.7.0), python-saharaclient (>= 0.13.0), python-six (>= 1.9.0), python-stevedore (>= 1.5.0), python-tempest-lib (>= 0.14.0), python-testtools (>= 1.4.0), python-zaqarclient (>= 0.3.0), python3-babel, python3-cinderclient (>= 1:1.3.1), python3-cliff (>= 1.15.0), python3-coverage, python3-crypto, python3-fixtures (>= 1.3.1), python3-glanceclient (>= 1:2.0.0), python3-ironicclient (>= 1.1.0), python3-keyring, python3-keystoneauth1 (>= 2.1.0), python3-keystoneclient (>= 1:1.6.0), python3-mistralclient (>= 1.0.0), python3-mock (>= 1.3), python3-neutronclient (>= 1:2.6.0), python3-novaclient (>= 2:2.30.0), python3-openstacksdk (>= 0.8.1), python3-os-client-config (>= 1.13.1), python3-os-testr (>= 0.4.2), python3-oslo.config (>= 1:3.7.0), python3-oslo.i18n (>= 2.1.0), python3-oslo.serialization (>= 1.2.0), python3-oslo.utils (>= 3.5.0), python3-oslotest (>= 1.10.0), python3-osprofiler (>= 1.1.0), python3-requests (>= 2.8.1), python3-requests-mock (>= 0.7.0), python3-saharaclient (>= 0.13.0), python3-six (>= 1.9.0), python3-stevedore (>= 1.5.0), python3-subunit, python3-tempest-lib (>= 0.14.0), python3-testtools (>= 1.4.0), subunit, testrepository"
-  ],
-  "Checksums-Sha1": [
-    "76334aec084bcbd27b03945299a971ed80ab866f 4557 python-openstackclient_2.3.0-2~bpo8+1.dsc f48c14912e7f4dad08e9e494c26d26eefe81ac2c 223528 python-openstackclient_2.3.0.orig.tar.xz 7e874ed8139269cb497f137114a86ff18ec88efb 46052 python-openstackclient_2.3.0-2~bpo8+1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "9d340bf3b1ea7a9b901c7c58ede08d42e4d0c4c10d089e9c54cff08d21a76c29 4557 python-openstackclient_2.3.0-2~bpo8+1.dsc 7cb2c03a0fe69933eb067ff29b82c5524231f12e3df55d68d871c5e4806ea8cc 223528 python-openstackclient_2.3.0.orig.tar.xz df50d8346a2bb551456a873f66947d81ec576327598a8f85bdf5de460a0dff6d 46052 python-openstackclient_2.3.0-2~bpo8+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/python-openstackclient"
-  ],
-  "Files": [
-    "f5b4e16afa30b7d514dad92481b42378 4557 python-openstackclient_2.3.0-2~bpo8+1.dsc d47a21f9a51b547761cb8674e0199976 223528 python-openstackclient_2.3.0.orig.tar.xz 45f8acd5408545ba791ea34cbec4c274 46052 python-openstackclient_2.3.0-2~bpo8+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://wiki.openstack.org/OpenStackClient"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "python-openstackclient"
-  ],
-  "Package-List": [
-    "python-openstackclient deb python optional arch=all python-openstackclient-doc deb doc optional arch=all python3-openstackclient deb python optional arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.7"
-  ],
-  "Uploaders": [
-    "gustavo panizzo <gfa@zumbi.com.ar>, Thomas Goirand <zigo@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/gitweb/?p=openstack/python-openstackclient.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/openstack/python-openstackclient.git"
-  ],
-  "Version": [
-    "2.3.0-2~bpo8+1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-openstackclient, python3-openstackclient, python-openstackclient-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-python, openstack-pkg-tools, python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.8), python3-setuptools"
+	],
+	"Build-Depends-Indep": [
+		"python-babel, python-barbicanclient (>= 3.3.0), python-cinderclient (>= 1:1.3.1), python-cliff (>= 1.15.0), python-congressclient (>= 1.0.0), python-coverage, python-crypto, python-designateclient (>= 1.5.0), python-fixtures (>= 1.3.1), python-glanceclient (>= 1:2.0.0), python-hacking (>= 0.10.0), python-heatclient (>= 0.6.0), python-ironicclient (>= 1.1.0), python-keyring, python-keystoneauth1 (>= 2.1.0), python-keystoneclient (>= 1:1.6.0), python-mistralclient (>= 1.0.0), python-mock (>= 1.3), python-neutronclient (>= 1:2.6.0), python-novaclient (>= 2:2.30.0), python-openstacksdk (>= 0.8.1), python-os-client-config (>= 1.13.1), python-os-testr (>= 0.4.2), python-oslo.config (>= 1:3.7.0), python-oslo.i18n (>= 2.1.0), python-oslo.serialization (>= 1.2.0), python-oslo.utils (>= 3.5.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1.10.0), python-osprofiler (>= 1.1.0), python-requests (>= 2.8.1), python-requests-mock (>= 0.7.0), python-saharaclient (>= 0.13.0), python-six (>= 1.9.0), python-stevedore (>= 1.5.0), python-tempest-lib (>= 0.14.0), python-testtools (>= 1.4.0), python-zaqarclient (>= 0.3.0), python3-babel, python3-cinderclient (>= 1:1.3.1), python3-cliff (>= 1.15.0), python3-coverage, python3-crypto, python3-fixtures (>= 1.3.1), python3-glanceclient (>= 1:2.0.0), python3-ironicclient (>= 1.1.0), python3-keyring, python3-keystoneauth1 (>= 2.1.0), python3-keystoneclient (>= 1:1.6.0), python3-mistralclient (>= 1.0.0), python3-mock (>= 1.3), python3-neutronclient (>= 1:2.6.0), python3-novaclient (>= 2:2.30.0), python3-openstacksdk (>= 0.8.1), python3-os-client-config (>= 1.13.1), python3-os-testr (>= 0.4.2), python3-oslo.config (>= 1:3.7.0), python3-oslo.i18n (>= 2.1.0), python3-oslo.serialization (>= 1.2.0), python3-oslo.utils (>= 3.5.0), python3-oslotest (>= 1.10.0), python3-osprofiler (>= 1.1.0), python3-requests (>= 2.8.1), python3-requests-mock (>= 0.7.0), python3-saharaclient (>= 0.13.0), python3-six (>= 1.9.0), python3-stevedore (>= 1.5.0), python3-subunit, python3-tempest-lib (>= 0.14.0), python3-testtools (>= 1.4.0), subunit, testrepository"
+	],
+	"Checksums-Sha1": [
+		"76334aec084bcbd27b03945299a971ed80ab866f 4557 python-openstackclient_2.3.0-2~bpo8+1.dsc f48c14912e7f4dad08e9e494c26d26eefe81ac2c 223528 python-openstackclient_2.3.0.orig.tar.xz 7e874ed8139269cb497f137114a86ff18ec88efb 46052 python-openstackclient_2.3.0-2~bpo8+1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"9d340bf3b1ea7a9b901c7c58ede08d42e4d0c4c10d089e9c54cff08d21a76c29 4557 python-openstackclient_2.3.0-2~bpo8+1.dsc 7cb2c03a0fe69933eb067ff29b82c5524231f12e3df55d68d871c5e4806ea8cc 223528 python-openstackclient_2.3.0.orig.tar.xz df50d8346a2bb551456a873f66947d81ec576327598a8f85bdf5de460a0dff6d 46052 python-openstackclient_2.3.0-2~bpo8+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-openstackclient"
+	],
+	"Files": [
+		"f5b4e16afa30b7d514dad92481b42378 4557 python-openstackclient_2.3.0-2~bpo8+1.dsc d47a21f9a51b547761cb8674e0199976 223528 python-openstackclient_2.3.0.orig.tar.xz 45f8acd5408545ba791ea34cbec4c274 46052 python-openstackclient_2.3.0-2~bpo8+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://wiki.openstack.org/OpenStackClient"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"python-openstackclient"
+	],
+	"Package-List": [
+		"python-openstackclient deb python optional arch=all python-openstackclient-doc deb doc optional arch=all python3-openstackclient deb python optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.7"
+	],
+	"Uploaders": [
+		"gustavo panizzo <gfa@zumbi.com.ar>, Thomas Goirand <zigo@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/gitweb/?p=openstack/python-openstackclient.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/openstack/python-openstackclient.git"
+	],
+	"Version": [
+		"2.3.0-2~bpo8+1"
+	]
 }

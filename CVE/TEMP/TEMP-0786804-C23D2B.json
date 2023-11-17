@@ -1,47 +1,47 @@
 {
-  "header": {
-    "line": "CVE-2015-XXXX [hwclock(8) SUID privilege escalation]",
-    "name": "TEMP-0786804-C23D2B",
-    "description": "[hwclock(8) SUID privilege escalation]"
-  },
-  "annotations": [
-    {
-      "line": "\t[experimental] - util-linux 2.27~rc1-1",
-      "type": "package",
-      "release": "experimental",
-      "package": "util-linux",
-      "kind": "fixed",
-      "version": "2.27~rc1-1"
-    },
-    {
-      "line": "\t- util-linux 2.27-1 (unimportant; bug #786804)",
-      "type": "package",
-      "package": "util-linux",
-      "kind": "fixed",
-      "version": "2.27-1",
-      "flags": [
-        {
-          "severity": "unimportant"
-        },
-        {
-          "bug": 786804
-        }
-      ]
-    },
-    {
-      "line": "\tNOTE: hwclock is not installed suid in Debian",
-      "type": "NOTE",
-      "description": "hwclock is not installed suid in Debian"
-    },
-    {
-      "line": "\tNOTE: https://github.com/karelzak/util-linux/commit/687cc5d58942b24a9f4013c68876d8cbea907ab1",
-      "type": "NOTE",
-      "description": "https://github.com/karelzak/util-linux/commit/687cc5d58942b24a9f4013c68876d8cbea907ab1"
-    },
-    {
-      "line": "\tNOTE: CVE Request: https://www.openwall.com/lists/oss-security/2015/05/26/10",
-      "type": "NOTE",
-      "description": "CVE Request: https://www.openwall.com/lists/oss-security/2015/05/26/10"
-    }
-  ]
+	"header": {
+		"line": "CVE-2015-XXXX [hwclock(8) SUID privilege escalation]",
+		"name": "TEMP-0786804-C23D2B",
+		"description": "[hwclock(8) SUID privilege escalation]"
+	},
+	"annotations": [
+		{
+			"line": "\t[experimental] - util-linux 2.27~rc1-1",
+			"type": "package",
+			"release": "experimental",
+			"package": "util-linux",
+			"kind": "fixed",
+			"version": "2.27~rc1-1"
+		},
+		{
+			"line": "\t- util-linux 2.27-1 (unimportant; bug #786804)",
+			"type": "package",
+			"package": "util-linux",
+			"kind": "fixed",
+			"version": "2.27-1",
+			"flags": [
+				{
+					"severity": "unimportant"
+				},
+				{
+					"bug": 786804
+				}
+			]
+		},
+		{
+			"line": "\tNOTE: hwclock is not installed suid in Debian",
+			"type": "NOTE",
+			"description": "hwclock is not installed suid in Debian"
+		},
+		{
+			"line": "\tNOTE: https://github.com/karelzak/util-linux/commit/687cc5d58942b24a9f4013c68876d8cbea907ab1",
+			"type": "NOTE",
+			"description": "https://github.com/karelzak/util-linux/commit/687cc5d58942b24a9f4013c68876d8cbea907ab1"
+		},
+		{
+			"line": "\tNOTE: CVE Request: https://www.openwall.com/lists/oss-security/2015/05/26/10",
+			"type": "NOTE",
+			"description": "CVE Request: https://www.openwall.com/lists/oss-security/2015/05/26/10"
+		}
+	]
 }

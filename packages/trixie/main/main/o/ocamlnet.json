@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libocamlnet-ocaml-dev, libocamlnet-ocaml, libocamlnet-ocaml-bin, libocamlnet-ssl-ocaml-dev, libocamlnet-ssl-ocaml, libnethttpd-ocaml-dev, libapache2-mod-netcgi-apache, libocamlnet-ocaml-doc"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), dh-ocaml, dh-apache2, ocaml, camlp4, ocaml-findlib, libfindlib-ocaml-dev, libzip-ocaml-dev, pkg-config, libgnutls28-dev, apache2-dev"
-  ],
-  "Checksums-Sha256": [
-    "1b45d0270afc31032dd8e9beb3005833b7e16701d479995fc985c6fadc561d6f 2417 ocamlnet_4.1.9-4.dsc f98ed19979848f1949b1b001e30ac132b254d0f4a705150c6dcf9094bbec9cee 4628747 ocamlnet_4.1.9.orig.tar.gz 9e9c77be50933a6725a707e387294dbf1bf380429c949180ab2f232c637268a9 16568 ocamlnet_4.1.9-4.debian.tar.xz"
-  ],
-  "Dgit": [
-    "e4325020686c18c9c1f03e3cc9976b0083c9b1b8 debian archive/debian/4.1.9-4 https://git.dgit.debian.org/ocamlnet"
-  ],
-  "Directory": [
-    "pool/main/o/ocamlnet"
-  ],
-  "Files": [
-    "a41068d18630315b57c335be290138ea 2417 ocamlnet_4.1.9-4.dsc 3812d76b325903412bb27e5a656df689 4628747 ocamlnet_4.1.9.orig.tar.gz c652601aa428e4270f735449f027e1d3 16568 ocamlnet_4.1.9-4.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://projects.camlcity.org/projects/ocamlnet.html"
-  ],
-  "Maintainer": [
-    "Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>"
-  ],
-  "Package": [
-    "ocamlnet"
-  ],
-  "Package-List": [
-    "libapache2-mod-netcgi-apache deb httpd optional arch=any libnethttpd-ocaml-dev deb ocaml optional arch=any libocamlnet-ocaml deb ocaml optional arch=any libocamlnet-ocaml-bin deb ocaml optional arch=any libocamlnet-ocaml-dev deb ocaml optional arch=any libocamlnet-ocaml-doc deb doc optional arch=all libocamlnet-ssl-ocaml deb ocaml optional arch=any libocamlnet-ssl-ocaml-dev deb ocaml optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "devel"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Uploaders": [
-    "Stéphane Glondu <glondu@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/ocaml-team/ocamlnet"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/ocaml-team/ocamlnet.git"
-  ],
-  "Version": [
-    "4.1.9-4"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libocamlnet-ocaml-dev, libocamlnet-ocaml, libocamlnet-ocaml-bin, libocamlnet-ssl-ocaml-dev, libocamlnet-ssl-ocaml, libnethttpd-ocaml-dev, libapache2-mod-netcgi-apache, libocamlnet-ocaml-doc"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-ocaml, dh-apache2, ocaml, camlp4, ocaml-findlib, libfindlib-ocaml-dev, libzip-ocaml-dev, pkg-config, libgnutls28-dev, apache2-dev"
+	],
+	"Checksums-Sha256": [
+		"1b45d0270afc31032dd8e9beb3005833b7e16701d479995fc985c6fadc561d6f 2417 ocamlnet_4.1.9-4.dsc f98ed19979848f1949b1b001e30ac132b254d0f4a705150c6dcf9094bbec9cee 4628747 ocamlnet_4.1.9.orig.tar.gz 9e9c77be50933a6725a707e387294dbf1bf380429c949180ab2f232c637268a9 16568 ocamlnet_4.1.9-4.debian.tar.xz"
+	],
+	"Dgit": [
+		"e4325020686c18c9c1f03e3cc9976b0083c9b1b8 debian archive/debian/4.1.9-4 https://git.dgit.debian.org/ocamlnet"
+	],
+	"Directory": [
+		"pool/main/o/ocamlnet"
+	],
+	"Files": [
+		"a41068d18630315b57c335be290138ea 2417 ocamlnet_4.1.9-4.dsc 3812d76b325903412bb27e5a656df689 4628747 ocamlnet_4.1.9.orig.tar.gz c652601aa428e4270f735449f027e1d3 16568 ocamlnet_4.1.9-4.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://projects.camlcity.org/projects/ocamlnet.html"
+	],
+	"Maintainer": [
+		"Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>"
+	],
+	"Package": [
+		"ocamlnet"
+	],
+	"Package-List": [
+		"libapache2-mod-netcgi-apache deb httpd optional arch=any libnethttpd-ocaml-dev deb ocaml optional arch=any libocamlnet-ocaml deb ocaml optional arch=any libocamlnet-ocaml-bin deb ocaml optional arch=any libocamlnet-ocaml-dev deb ocaml optional arch=any libocamlnet-ocaml-doc deb doc optional arch=all libocamlnet-ssl-ocaml deb ocaml optional arch=any libocamlnet-ssl-ocaml-dev deb ocaml optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"devel"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Uploaders": [
+		"Stéphane Glondu <glondu@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/ocaml-team/ocamlnet"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/ocaml-team/ocamlnet.git"
+	],
+	"Version": [
+		"4.1.9-4"
+	]
 }

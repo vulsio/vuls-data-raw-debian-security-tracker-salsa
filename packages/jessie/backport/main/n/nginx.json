@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "nginx, nginx-doc, nginx-common, nginx-full, nginx-light, nginx-extras, libnginx-mod-http-geoip, libnginx-mod-http-image-filter, libnginx-mod-http-xslt-filter, libnginx-mod-mail, libnginx-mod-stream, libnginx-mod-http-perl, libnginx-mod-http-auth-pam, libnginx-mod-http-lua, libnginx-mod-http-ndk, libnginx-mod-nchan, libnginx-mod-http-echo, libnginx-mod-http-upstream-fair, libnginx-mod-http-headers-more-filter, libnginx-mod-http-cache-purge, libnginx-mod-http-fancyindex, libnginx-mod-http-uploadprogress, libnginx-mod-http-subs-filter, libnginx-mod-http-dav-ext"
-  ],
-  "Build-Depends": [
-    "autotools-dev, debhelper (>= 9), po-debconf, dh-systemd (>= 1.5), dpkg-dev (>= 1.15.5), libexpat-dev, libgd-dev, libgeoip-dev, libhiredis-dev, liblua5.1-0-dev [!i386 !amd64 !kfreebsd-i386 !armel !armhf !powerpc !powerpcspe !mips !mipsel], libluajit-5.1-dev [i386 amd64 kfreebsd-i386 armel armhf powerpc powerpcspe mips mipsel], libmhash-dev, libpam0g-dev, libpcre3-dev, libperl-dev, libssl-dev (>= 1.0.2), libxslt1-dev, quilt, zlib1g-dev"
-  ],
-  "Checksums-Sha1": [
-    "8421ba943a631abef317aba0bb5bcd5ec88b447d 4236 nginx_1.10.3-1+deb9u1~bpo8+2.dsc 95cf32c3e33efc53ac81338a5779fbaa425f02e2 911509 nginx_1.10.3.orig.tar.gz 4a166f97b2dfae480459102dbed37ac2f6dfe21e 848888 nginx_1.10.3-1+deb9u1~bpo8+2.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "8411714bcbea36447a5deae20d0e45f7a7eae7c73e09dab9cb3414bb17990c8f 4236 nginx_1.10.3-1+deb9u1~bpo8+2.dsc 75020f1364cac459cb733c4e1caed2d00376e40ea05588fb8793076a4c69dd90 911509 nginx_1.10.3.orig.tar.gz 267602dd358fa32de34da15bfc32e058e9406dd1444ec9fb6a75618d198cdd11 848888 nginx_1.10.3-1+deb9u1~bpo8+2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/n/nginx"
-  ],
-  "Files": [
-    "aecb87817a98213d5ec9d5cbcbd7978d 4236 nginx_1.10.3-1+deb9u1~bpo8+2.dsc 204a20cb4f0b0c9db746c630d89ff4ea 911509 nginx_1.10.3.orig.tar.gz abf5ea595c99896448a9f3f57a7bb158 848888 nginx_1.10.3-1+deb9u1~bpo8+2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://nginx.net"
-  ],
-  "Maintainer": [
-    "Debian Nginx Maintainers <pkg-nginx-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "nginx"
-  ],
-  "Package-List": [
-    "libnginx-mod-http-auth-pam deb httpd optional arch=any libnginx-mod-http-cache-purge deb httpd optional arch=any libnginx-mod-http-dav-ext deb httpd optional arch=any libnginx-mod-http-echo deb httpd optional arch=any libnginx-mod-http-fancyindex deb httpd optional arch=any libnginx-mod-http-geoip deb httpd optional arch=any libnginx-mod-http-headers-more-filter deb httpd optional arch=any libnginx-mod-http-image-filter deb httpd optional arch=any libnginx-mod-http-lua deb httpd optional arch=any libnginx-mod-http-ndk deb httpd optional arch=any libnginx-mod-http-perl deb httpd optional arch=any libnginx-mod-http-subs-filter deb httpd optional arch=any libnginx-mod-http-uploadprogress deb httpd optional arch=any libnginx-mod-http-upstream-fair deb httpd optional arch=any libnginx-mod-http-xslt-filter deb httpd optional arch=any libnginx-mod-mail deb httpd optional arch=any libnginx-mod-nchan deb httpd optional arch=any libnginx-mod-stream deb httpd optional arch=any nginx deb httpd optional arch=all nginx-common deb httpd optional arch=all nginx-doc deb doc optional arch=all nginx-extras deb httpd extra arch=any nginx-full deb httpd optional arch=any nginx-light deb httpd extra arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8.0"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Kartik Mistry <kartik@debian.org>, Michael Lustfield <michael@lustfield.net>, Christos Trochalakis <ctrochalakis@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-nginx/nginx.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/cgit/pkg-nginx/nginx.git"
-  ],
-  "Version": [
-    "1.10.3-1+deb9u1~bpo8+2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"nginx, nginx-doc, nginx-common, nginx-full, nginx-light, nginx-extras, libnginx-mod-http-geoip, libnginx-mod-http-image-filter, libnginx-mod-http-xslt-filter, libnginx-mod-mail, libnginx-mod-stream, libnginx-mod-http-perl, libnginx-mod-http-auth-pam, libnginx-mod-http-lua, libnginx-mod-http-ndk, libnginx-mod-nchan, libnginx-mod-http-echo, libnginx-mod-http-upstream-fair, libnginx-mod-http-headers-more-filter, libnginx-mod-http-cache-purge, libnginx-mod-http-fancyindex, libnginx-mod-http-uploadprogress, libnginx-mod-http-subs-filter, libnginx-mod-http-dav-ext"
+	],
+	"Build-Depends": [
+		"autotools-dev, debhelper (>= 9), po-debconf, dh-systemd (>= 1.5), dpkg-dev (>= 1.15.5), libexpat-dev, libgd-dev, libgeoip-dev, libhiredis-dev, liblua5.1-0-dev [!i386 !amd64 !kfreebsd-i386 !armel !armhf !powerpc !powerpcspe !mips !mipsel], libluajit-5.1-dev [i386 amd64 kfreebsd-i386 armel armhf powerpc powerpcspe mips mipsel], libmhash-dev, libpam0g-dev, libpcre3-dev, libperl-dev, libssl-dev (>= 1.0.2), libxslt1-dev, quilt, zlib1g-dev"
+	],
+	"Checksums-Sha1": [
+		"8421ba943a631abef317aba0bb5bcd5ec88b447d 4236 nginx_1.10.3-1+deb9u1~bpo8+2.dsc 95cf32c3e33efc53ac81338a5779fbaa425f02e2 911509 nginx_1.10.3.orig.tar.gz 4a166f97b2dfae480459102dbed37ac2f6dfe21e 848888 nginx_1.10.3-1+deb9u1~bpo8+2.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"8411714bcbea36447a5deae20d0e45f7a7eae7c73e09dab9cb3414bb17990c8f 4236 nginx_1.10.3-1+deb9u1~bpo8+2.dsc 75020f1364cac459cb733c4e1caed2d00376e40ea05588fb8793076a4c69dd90 911509 nginx_1.10.3.orig.tar.gz 267602dd358fa32de34da15bfc32e058e9406dd1444ec9fb6a75618d198cdd11 848888 nginx_1.10.3-1+deb9u1~bpo8+2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/n/nginx"
+	],
+	"Files": [
+		"aecb87817a98213d5ec9d5cbcbd7978d 4236 nginx_1.10.3-1+deb9u1~bpo8+2.dsc 204a20cb4f0b0c9db746c630d89ff4ea 911509 nginx_1.10.3.orig.tar.gz abf5ea595c99896448a9f3f57a7bb158 848888 nginx_1.10.3-1+deb9u1~bpo8+2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://nginx.net"
+	],
+	"Maintainer": [
+		"Debian Nginx Maintainers <pkg-nginx-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"nginx"
+	],
+	"Package-List": [
+		"libnginx-mod-http-auth-pam deb httpd optional arch=any libnginx-mod-http-cache-purge deb httpd optional arch=any libnginx-mod-http-dav-ext deb httpd optional arch=any libnginx-mod-http-echo deb httpd optional arch=any libnginx-mod-http-fancyindex deb httpd optional arch=any libnginx-mod-http-geoip deb httpd optional arch=any libnginx-mod-http-headers-more-filter deb httpd optional arch=any libnginx-mod-http-image-filter deb httpd optional arch=any libnginx-mod-http-lua deb httpd optional arch=any libnginx-mod-http-ndk deb httpd optional arch=any libnginx-mod-http-perl deb httpd optional arch=any libnginx-mod-http-subs-filter deb httpd optional arch=any libnginx-mod-http-uploadprogress deb httpd optional arch=any libnginx-mod-http-upstream-fair deb httpd optional arch=any libnginx-mod-http-xslt-filter deb httpd optional arch=any libnginx-mod-mail deb httpd optional arch=any libnginx-mod-nchan deb httpd optional arch=any libnginx-mod-stream deb httpd optional arch=any nginx deb httpd optional arch=all nginx-common deb httpd optional arch=all nginx-doc deb doc optional arch=all nginx-extras deb httpd extra arch=any nginx-full deb httpd optional arch=any nginx-light deb httpd extra arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Kartik Mistry <kartik@debian.org>, Michael Lustfield <michael@lustfield.net>, Christos Trochalakis <ctrochalakis@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-nginx/nginx.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/cgit/pkg-nginx/nginx.git"
+	],
+	"Version": [
+		"1.10.3-1+deb9u1~bpo8+2"
+	]
 }

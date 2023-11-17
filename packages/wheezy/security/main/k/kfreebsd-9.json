@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "kfreebsd-source-9.0, kfreebsd-headers-9.0-2, kfreebsd-image-9.0-2-686-smp, kfreebsd-image-9-686-smp, kfreebsd-headers-9.0-2-686-smp, kfreebsd-headers-9-686-smp, kfreebsd-image-9.0-2-amd64, kfreebsd-image-9-amd64, kfreebsd-headers-9.0-2-amd64, kfreebsd-headers-9-amd64, kernel-image-9.0-2-amd64-di, nic-modules-9.0-2-amd64-di, nic-wireless-modules-9.0-2-amd64-di, nic-shared-modules-9.0-2-amd64-di, serial-modules-9.0-2-amd64-di, ppp-modules-9.0-2-amd64-di, cdrom-modules-9.0-2-amd64-di, scsi-core-modules-9.0-2-amd64-di, scsi-modules-9.0-2-amd64-di, scsi-extra-modules-9.0-2-amd64-di, plip-modules-9.0-2-amd64-di, floppy-modules-9.0-2-amd64-di, loop-modules-9.0-2-amd64-di, ipv6-modules-9.0-2-amd64-di, nls-core-modules-9.0-2-amd64-di, ext2-modules-9.0-2-amd64-di, isofs-modules-9.0-2-amd64-di, ntfs-modules-9.0-2-amd64-di, reiserfs-modules-9.0-2-amd64-di, xfs-modules-9.0-2-amd64-di, fat-modules-9.0-2-amd64-di, zfs-modules-9.0-2-amd64-di, nfs-modules-9.0-2-amd64-di, nullfs-modules-9.0-2-amd64-di, md-modules-9.0-2-amd64-di, parport-modules-9.0-2-amd64-di, sata-modules-9.0-2-amd64-di, acpi-modules-9.0-2-amd64-di, i2c-modules-9.0-2-amd64-di, crypto-modules-9.0-2-amd64-di, crypto-dm-modules-9.0-2-amd64-di, mmc-core-modules-9.0-2-amd64-di, mmc-modules-9.0-2-amd64-di, sound-modules-9.0-2-amd64-di, zlib-modules-9.0-2-amd64-di, kfreebsd-image-9.0-2-486, kfreebsd-image-9-486, kfreebsd-headers-9.0-2-486, kfreebsd-headers-9-486, kfreebsd-image-9.0-2-686, kfreebsd-image-9-686, kfreebsd-headers-9.0-2-686, kfreebsd-headers-9-686, kfreebsd-image-9.0-2-xen, kfreebsd-image-9-xen, kfreebsd-headers-9.0-2-xen, kfreebsd-headers-9-xen, kernel-image-9.0-2-486-di, nic-modules-9.0-2-486-di, nic-wireless-modules-9.0-2-486-di, nic-shared-modules-9.0-2-486-di, serial-modules-9.0-2-486-di, ppp-modules-9.0-2-486-di, cdrom-modules-9.0-2-486-di, scsi-core-modules-9.0-2-486-di, scsi-modules-9.0-2-486-di, scsi-extra-modules-9.0-2-486-di, plip-modules-9.0-2-486-di, floppy-modules-9.0-2-486-di, loop-modules-9.0-2-486-di, ipv6-modules-9.0-2-486-di, nls-core-modules-9.0-2-486-di, ext2-modules-9.0-2-486-di, isofs-modules-9.0-2-486-di, ntfs-modules-9.0-2-486-di, reiserfs-modules-9.0-2-486-di, xfs-modules-9.0-2-486-di, fat-modules-9.0-2-486-di, zfs-modules-9.0-2-486-di, nfs-modules-9.0-2-486-di, nullfs-modules-9.0-2-486-di, md-modules-9.0-2-486-di, parport-modules-9.0-2-486-di, sata-modules-9.0-2-486-di, acpi-modules-9.0-2-486-di, i2c-modules-9.0-2-486-di, crypto-modules-9.0-2-486-di, crypto-dm-modules-9.0-2-486-di, mmc-core-modules-9.0-2-486-di, mmc-modules-9.0-2-486-di, sound-modules-9.0-2-486-di, zlib-modules-9.0-2-486-di, kfreebsd-image-9.0-2-malta, kfreebsd-image-9-malta, kfreebsd-headers-9.0-2-malta, kfreebsd-headers-9-malta"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 5.0.0), bzip2, sharutils, flex-old | flex, freebsd-buildutils (>= 9), gcc-4.6, libdb-dev, libbsd-dev (>= 0.3.0), pkg-config, libsbuf-dev, libsbuf-dev (>= 8.2-2) | kfreebsd-kernel-headers (<< 0.56), kernel-wedge (>= 2.79) [kfreebsd-any]"
-  ],
-  "Checksums-Sha1": [
-    "13c308adb969ee6a19b43ee78175e441292e1661 10195 kfreebsd-9_9.0-10+deb70.10.dsc 4c27e211e318120f36972695c6866a6fb28ef50d 32919484 kfreebsd-9_9.0.orig.tar.gz 7b87dd93099103d4e04652e331107953916e0720 98356 kfreebsd-9_9.0-10+deb70.10.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "01ebaff3a7a82e2ffc93a56067cd155dc79274e5c2350f878aaa783d1f155800 10195 kfreebsd-9_9.0-10+deb70.10.dsc 0af503103f128ce3745ed196a183460ba9ebafcfb63012f6571d47371619845c 32919484 kfreebsd-9_9.0.orig.tar.gz e3b6c8e1019ebd126cbc213f8705349a2df1b130f6581d5e64f3b056c78a18e0 98356 kfreebsd-9_9.0-10+deb70.10.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/updates/main/k/kfreebsd-9"
-  ],
-  "Files": [
-    "626296fd2ac5493eb0451d04ed350cbc 10195 kfreebsd-9_9.0-10+deb70.10.dsc 1389b5ec59a3f1f1eeb1ca65132eaacd 32919484 kfreebsd-9_9.0.orig.tar.gz 64896dc077985ec0c204084e2db2bc13 98356 kfreebsd-9_9.0-10+deb70.10.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "GNU/kFreeBSD Maintainers <debian-bsd@lists.debian.org>"
-  ],
-  "Package": [
-    "kfreebsd-9"
-  ],
-  "Package-List": [
-    "acpi-modules-9.0-2-486-di udeb debian-installer extra acpi-modules-9.0-2-amd64-di udeb debian-installer extra cdrom-modules-9.0-2-486-di udeb debian-installer optional cdrom-modules-9.0-2-amd64-di udeb debian-installer optional crypto-dm-modules-9.0-2-486-di udeb debian-installer extra crypto-dm-modules-9.0-2-amd64-di udeb debian-installer extra crypto-modules-9.0-2-486-di udeb debian-installer extra crypto-modules-9.0-2-amd64-di udeb debian-installer extra ext2-modules-9.0-2-486-di udeb debian-installer standard ext2-modules-9.0-2-amd64-di udeb debian-installer standard fat-modules-9.0-2-486-di udeb debian-installer extra fat-modules-9.0-2-amd64-di udeb debian-installer extra floppy-modules-9.0-2-486-di udeb debian-installer standard floppy-modules-9.0-2-amd64-di udeb debian-installer standard i2c-modules-9.0-2-486-di udeb debian-installer extra i2c-modules-9.0-2-amd64-di udeb debian-installer extra ipv6-modules-9.0-2-486-di udeb debian-installer extra ipv6-modules-9.0-2-amd64-di udeb debian-installer extra isofs-modules-9.0-2-486-di udeb debian-installer standard isofs-modules-9.0-2-amd64-di udeb debian-installer standard kernel-image-9.0-2-486-di udeb debian-installer extra kernel-image-9.0-2-amd64-di udeb debian-installer extra kfreebsd-headers-9-486 deb kernel optional kfreebsd-headers-9-686 deb kernel optional kfreebsd-headers-9-686-smp deb kernel optional kfreebsd-headers-9-amd64 deb kernel optional kfreebsd-headers-9-malta deb kernel optional kfreebsd-headers-9-xen deb kernel optional kfreebsd-headers-9.0-2 deb kernel optional kfreebsd-headers-9.0-2-486 deb kernel optional kfreebsd-headers-9.0-2-686 deb kernel optional kfreebsd-headers-9.0-2-686-smp deb kernel optional kfreebsd-headers-9.0-2-amd64 deb kernel optional kfreebsd-headers-9.0-2-malta deb kernel optional kfreebsd-headers-9.0-2-xen deb kernel optional kfreebsd-image-9-486 deb kernel optional kfreebsd-image-9-686 deb kernel optional kfreebsd-image-9-686-smp deb kernel optional kfreebsd-image-9-amd64 deb kernel optional kfreebsd-image-9-malta deb kernel optional kfreebsd-image-9-xen deb kernel optional kfreebsd-image-9.0-2-486 deb kernel optional kfreebsd-image-9.0-2-686 deb kernel optional kfreebsd-image-9.0-2-686-smp deb kernel optional kfreebsd-image-9.0-2-amd64 deb kernel optional kfreebsd-image-9.0-2-malta deb kernel optional kfreebsd-image-9.0-2-xen deb kernel optional kfreebsd-source-9.0 deb kernel optional loop-modules-9.0-2-486-di udeb debian-installer standard loop-modules-9.0-2-amd64-di udeb debian-installer standard md-modules-9.0-2-486-di udeb debian-installer extra md-modules-9.0-2-amd64-di udeb debian-installer extra mmc-core-modules-9.0-2-486-di udeb debian-installer extra mmc-core-modules-9.0-2-amd64-di udeb debian-installer extra mmc-modules-9.0-2-486-di udeb debian-installer extra mmc-modules-9.0-2-amd64-di udeb debian-installer extra nfs-modules-9.0-2-486-di udeb debian-installer extra nfs-modules-9.0-2-amd64-di udeb debian-installer extra nic-modules-9.0-2-486-di udeb debian-installer standard nic-modules-9.0-2-amd64-di udeb debian-installer standard nic-shared-modules-9.0-2-486-di udeb debian-installer standard nic-shared-modules-9.0-2-amd64-di udeb debian-installer standard nic-wireless-modules-9.0-2-486-di udeb debian-installer standard nic-wireless-modules-9.0-2-amd64-di udeb debian-installer standard nls-core-modules-9.0-2-486-di udeb debian-installer extra nls-core-modules-9.0-2-amd64-di udeb debian-installer extra ntfs-modules-9.0-2-486-di udeb debian-installer extra ntfs-modules-9.0-2-amd64-di udeb debian-installer extra nullfs-modules-9.0-2-486-di udeb debian-installer standard nullfs-modules-9.0-2-amd64-di udeb debian-installer standard parport-modules-9.0-2-486-di udeb debian-installer extra parport-modules-9.0-2-amd64-di udeb debian-installer extra plip-modules-9.0-2-486-di udeb debian-installer optional plip-modules-9.0-2-amd64-di udeb debian-installer optional ppp-modules-9.0-2-486-di udeb debian-installer optional ppp-modules-9.0-2-amd64-di udeb debian-installer optional reiserfs-modules-9.0-2-486-di udeb debian-installer extra reiserfs-modules-9.0-2-amd64-di udeb debian-installer extra sata-modules-9.0-2-486-di udeb debian-installer standard sata-modules-9.0-2-amd64-di udeb debian-installer standard scsi-core-modules-9.0-2-486-di udeb debian-installer standard scsi-core-modules-9.0-2-amd64-di udeb debian-installer standard scsi-extra-modules-9.0-2-486-di udeb debian-installer standard scsi-extra-modules-9.0-2-amd64-di udeb debian-installer standard scsi-modules-9.0-2-486-di udeb debian-installer standard scsi-modules-9.0-2-amd64-di udeb debian-installer standard serial-modules-9.0-2-486-di udeb debian-installer optional serial-modules-9.0-2-amd64-di udeb debian-installer optional sound-modules-9.0-2-486-di udeb debian-installer extra sound-modules-9.0-2-amd64-di udeb debian-installer extra xfs-modules-9.0-2-486-di udeb debian-installer standard xfs-modules-9.0-2-amd64-di udeb debian-installer standard zfs-modules-9.0-2-486-di udeb debian-installer extra zfs-modules-9.0-2-amd64-di udeb debian-installer extra zlib-modules-9.0-2-486-di udeb debian-installer extra zlib-modules-9.0-2-amd64-di udeb debian-installer extra"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "kernel"
-  ],
-  "Standards-Version": [
-    "3.9.2"
-  ],
-  "Uploaders": [
-    "Aurelien Jarno <aurel32@debian.org>, Guillem Jover <guillem@debian.org>, Robert Millan <rmh@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://svn.debian.org/wsvn/glibc-bsd/trunk/kfreebsd-9/"
-  ],
-  "Vcs-Svn": [
-    "svn://svn.debian.org/glibc-bsd/trunk/kfreebsd-9/"
-  ],
-  "Version": [
-    "9.0-10+deb70.10"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"kfreebsd-source-9.0, kfreebsd-headers-9.0-2, kfreebsd-image-9.0-2-686-smp, kfreebsd-image-9-686-smp, kfreebsd-headers-9.0-2-686-smp, kfreebsd-headers-9-686-smp, kfreebsd-image-9.0-2-amd64, kfreebsd-image-9-amd64, kfreebsd-headers-9.0-2-amd64, kfreebsd-headers-9-amd64, kernel-image-9.0-2-amd64-di, nic-modules-9.0-2-amd64-di, nic-wireless-modules-9.0-2-amd64-di, nic-shared-modules-9.0-2-amd64-di, serial-modules-9.0-2-amd64-di, ppp-modules-9.0-2-amd64-di, cdrom-modules-9.0-2-amd64-di, scsi-core-modules-9.0-2-amd64-di, scsi-modules-9.0-2-amd64-di, scsi-extra-modules-9.0-2-amd64-di, plip-modules-9.0-2-amd64-di, floppy-modules-9.0-2-amd64-di, loop-modules-9.0-2-amd64-di, ipv6-modules-9.0-2-amd64-di, nls-core-modules-9.0-2-amd64-di, ext2-modules-9.0-2-amd64-di, isofs-modules-9.0-2-amd64-di, ntfs-modules-9.0-2-amd64-di, reiserfs-modules-9.0-2-amd64-di, xfs-modules-9.0-2-amd64-di, fat-modules-9.0-2-amd64-di, zfs-modules-9.0-2-amd64-di, nfs-modules-9.0-2-amd64-di, nullfs-modules-9.0-2-amd64-di, md-modules-9.0-2-amd64-di, parport-modules-9.0-2-amd64-di, sata-modules-9.0-2-amd64-di, acpi-modules-9.0-2-amd64-di, i2c-modules-9.0-2-amd64-di, crypto-modules-9.0-2-amd64-di, crypto-dm-modules-9.0-2-amd64-di, mmc-core-modules-9.0-2-amd64-di, mmc-modules-9.0-2-amd64-di, sound-modules-9.0-2-amd64-di, zlib-modules-9.0-2-amd64-di, kfreebsd-image-9.0-2-486, kfreebsd-image-9-486, kfreebsd-headers-9.0-2-486, kfreebsd-headers-9-486, kfreebsd-image-9.0-2-686, kfreebsd-image-9-686, kfreebsd-headers-9.0-2-686, kfreebsd-headers-9-686, kfreebsd-image-9.0-2-xen, kfreebsd-image-9-xen, kfreebsd-headers-9.0-2-xen, kfreebsd-headers-9-xen, kernel-image-9.0-2-486-di, nic-modules-9.0-2-486-di, nic-wireless-modules-9.0-2-486-di, nic-shared-modules-9.0-2-486-di, serial-modules-9.0-2-486-di, ppp-modules-9.0-2-486-di, cdrom-modules-9.0-2-486-di, scsi-core-modules-9.0-2-486-di, scsi-modules-9.0-2-486-di, scsi-extra-modules-9.0-2-486-di, plip-modules-9.0-2-486-di, floppy-modules-9.0-2-486-di, loop-modules-9.0-2-486-di, ipv6-modules-9.0-2-486-di, nls-core-modules-9.0-2-486-di, ext2-modules-9.0-2-486-di, isofs-modules-9.0-2-486-di, ntfs-modules-9.0-2-486-di, reiserfs-modules-9.0-2-486-di, xfs-modules-9.0-2-486-di, fat-modules-9.0-2-486-di, zfs-modules-9.0-2-486-di, nfs-modules-9.0-2-486-di, nullfs-modules-9.0-2-486-di, md-modules-9.0-2-486-di, parport-modules-9.0-2-486-di, sata-modules-9.0-2-486-di, acpi-modules-9.0-2-486-di, i2c-modules-9.0-2-486-di, crypto-modules-9.0-2-486-di, crypto-dm-modules-9.0-2-486-di, mmc-core-modules-9.0-2-486-di, mmc-modules-9.0-2-486-di, sound-modules-9.0-2-486-di, zlib-modules-9.0-2-486-di, kfreebsd-image-9.0-2-malta, kfreebsd-image-9-malta, kfreebsd-headers-9.0-2-malta, kfreebsd-headers-9-malta"
+	],
+	"Build-Depends": [
+		"debhelper (>= 5.0.0), bzip2, sharutils, flex-old | flex, freebsd-buildutils (>= 9), gcc-4.6, libdb-dev, libbsd-dev (>= 0.3.0), pkg-config, libsbuf-dev, libsbuf-dev (>= 8.2-2) | kfreebsd-kernel-headers (<< 0.56), kernel-wedge (>= 2.79) [kfreebsd-any]"
+	],
+	"Checksums-Sha1": [
+		"13c308adb969ee6a19b43ee78175e441292e1661 10195 kfreebsd-9_9.0-10+deb70.10.dsc 4c27e211e318120f36972695c6866a6fb28ef50d 32919484 kfreebsd-9_9.0.orig.tar.gz 7b87dd93099103d4e04652e331107953916e0720 98356 kfreebsd-9_9.0-10+deb70.10.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"01ebaff3a7a82e2ffc93a56067cd155dc79274e5c2350f878aaa783d1f155800 10195 kfreebsd-9_9.0-10+deb70.10.dsc 0af503103f128ce3745ed196a183460ba9ebafcfb63012f6571d47371619845c 32919484 kfreebsd-9_9.0.orig.tar.gz e3b6c8e1019ebd126cbc213f8705349a2df1b130f6581d5e64f3b056c78a18e0 98356 kfreebsd-9_9.0-10+deb70.10.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/updates/main/k/kfreebsd-9"
+	],
+	"Files": [
+		"626296fd2ac5493eb0451d04ed350cbc 10195 kfreebsd-9_9.0-10+deb70.10.dsc 1389b5ec59a3f1f1eeb1ca65132eaacd 32919484 kfreebsd-9_9.0.orig.tar.gz 64896dc077985ec0c204084e2db2bc13 98356 kfreebsd-9_9.0-10+deb70.10.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"GNU/kFreeBSD Maintainers <debian-bsd@lists.debian.org>"
+	],
+	"Package": [
+		"kfreebsd-9"
+	],
+	"Package-List": [
+		"acpi-modules-9.0-2-486-di udeb debian-installer extra acpi-modules-9.0-2-amd64-di udeb debian-installer extra cdrom-modules-9.0-2-486-di udeb debian-installer optional cdrom-modules-9.0-2-amd64-di udeb debian-installer optional crypto-dm-modules-9.0-2-486-di udeb debian-installer extra crypto-dm-modules-9.0-2-amd64-di udeb debian-installer extra crypto-modules-9.0-2-486-di udeb debian-installer extra crypto-modules-9.0-2-amd64-di udeb debian-installer extra ext2-modules-9.0-2-486-di udeb debian-installer standard ext2-modules-9.0-2-amd64-di udeb debian-installer standard fat-modules-9.0-2-486-di udeb debian-installer extra fat-modules-9.0-2-amd64-di udeb debian-installer extra floppy-modules-9.0-2-486-di udeb debian-installer standard floppy-modules-9.0-2-amd64-di udeb debian-installer standard i2c-modules-9.0-2-486-di udeb debian-installer extra i2c-modules-9.0-2-amd64-di udeb debian-installer extra ipv6-modules-9.0-2-486-di udeb debian-installer extra ipv6-modules-9.0-2-amd64-di udeb debian-installer extra isofs-modules-9.0-2-486-di udeb debian-installer standard isofs-modules-9.0-2-amd64-di udeb debian-installer standard kernel-image-9.0-2-486-di udeb debian-installer extra kernel-image-9.0-2-amd64-di udeb debian-installer extra kfreebsd-headers-9-486 deb kernel optional kfreebsd-headers-9-686 deb kernel optional kfreebsd-headers-9-686-smp deb kernel optional kfreebsd-headers-9-amd64 deb kernel optional kfreebsd-headers-9-malta deb kernel optional kfreebsd-headers-9-xen deb kernel optional kfreebsd-headers-9.0-2 deb kernel optional kfreebsd-headers-9.0-2-486 deb kernel optional kfreebsd-headers-9.0-2-686 deb kernel optional kfreebsd-headers-9.0-2-686-smp deb kernel optional kfreebsd-headers-9.0-2-amd64 deb kernel optional kfreebsd-headers-9.0-2-malta deb kernel optional kfreebsd-headers-9.0-2-xen deb kernel optional kfreebsd-image-9-486 deb kernel optional kfreebsd-image-9-686 deb kernel optional kfreebsd-image-9-686-smp deb kernel optional kfreebsd-image-9-amd64 deb kernel optional kfreebsd-image-9-malta deb kernel optional kfreebsd-image-9-xen deb kernel optional kfreebsd-image-9.0-2-486 deb kernel optional kfreebsd-image-9.0-2-686 deb kernel optional kfreebsd-image-9.0-2-686-smp deb kernel optional kfreebsd-image-9.0-2-amd64 deb kernel optional kfreebsd-image-9.0-2-malta deb kernel optional kfreebsd-image-9.0-2-xen deb kernel optional kfreebsd-source-9.0 deb kernel optional loop-modules-9.0-2-486-di udeb debian-installer standard loop-modules-9.0-2-amd64-di udeb debian-installer standard md-modules-9.0-2-486-di udeb debian-installer extra md-modules-9.0-2-amd64-di udeb debian-installer extra mmc-core-modules-9.0-2-486-di udeb debian-installer extra mmc-core-modules-9.0-2-amd64-di udeb debian-installer extra mmc-modules-9.0-2-486-di udeb debian-installer extra mmc-modules-9.0-2-amd64-di udeb debian-installer extra nfs-modules-9.0-2-486-di udeb debian-installer extra nfs-modules-9.0-2-amd64-di udeb debian-installer extra nic-modules-9.0-2-486-di udeb debian-installer standard nic-modules-9.0-2-amd64-di udeb debian-installer standard nic-shared-modules-9.0-2-486-di udeb debian-installer standard nic-shared-modules-9.0-2-amd64-di udeb debian-installer standard nic-wireless-modules-9.0-2-486-di udeb debian-installer standard nic-wireless-modules-9.0-2-amd64-di udeb debian-installer standard nls-core-modules-9.0-2-486-di udeb debian-installer extra nls-core-modules-9.0-2-amd64-di udeb debian-installer extra ntfs-modules-9.0-2-486-di udeb debian-installer extra ntfs-modules-9.0-2-amd64-di udeb debian-installer extra nullfs-modules-9.0-2-486-di udeb debian-installer standard nullfs-modules-9.0-2-amd64-di udeb debian-installer standard parport-modules-9.0-2-486-di udeb debian-installer extra parport-modules-9.0-2-amd64-di udeb debian-installer extra plip-modules-9.0-2-486-di udeb debian-installer optional plip-modules-9.0-2-amd64-di udeb debian-installer optional ppp-modules-9.0-2-486-di udeb debian-installer optional ppp-modules-9.0-2-amd64-di udeb debian-installer optional reiserfs-modules-9.0-2-486-di udeb debian-installer extra reiserfs-modules-9.0-2-amd64-di udeb debian-installer extra sata-modules-9.0-2-486-di udeb debian-installer standard sata-modules-9.0-2-amd64-di udeb debian-installer standard scsi-core-modules-9.0-2-486-di udeb debian-installer standard scsi-core-modules-9.0-2-amd64-di udeb debian-installer standard scsi-extra-modules-9.0-2-486-di udeb debian-installer standard scsi-extra-modules-9.0-2-amd64-di udeb debian-installer standard scsi-modules-9.0-2-486-di udeb debian-installer standard scsi-modules-9.0-2-amd64-di udeb debian-installer standard serial-modules-9.0-2-486-di udeb debian-installer optional serial-modules-9.0-2-amd64-di udeb debian-installer optional sound-modules-9.0-2-486-di udeb debian-installer extra sound-modules-9.0-2-amd64-di udeb debian-installer extra xfs-modules-9.0-2-486-di udeb debian-installer standard xfs-modules-9.0-2-amd64-di udeb debian-installer standard zfs-modules-9.0-2-486-di udeb debian-installer extra zfs-modules-9.0-2-amd64-di udeb debian-installer extra zlib-modules-9.0-2-486-di udeb debian-installer extra zlib-modules-9.0-2-amd64-di udeb debian-installer extra"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"kernel"
+	],
+	"Standards-Version": [
+		"3.9.2"
+	],
+	"Uploaders": [
+		"Aurelien Jarno <aurel32@debian.org>, Guillem Jover <guillem@debian.org>, Robert Millan <rmh@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://svn.debian.org/wsvn/glibc-bsd/trunk/kfreebsd-9/"
+	],
+	"Vcs-Svn": [
+		"svn://svn.debian.org/glibc-bsd/trunk/kfreebsd-9/"
+	],
+	"Version": [
+		"9.0-10+deb70.10"
+	]
 }

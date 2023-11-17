@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-osprofiler, python3-osprofiler, python-osprofiler-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-python, openstack-pkg-tools, python-all, python-pbr, python-setuptools, python-sphinx, python3-all, python3-pbr, python3-setuptools"
-  ],
-  "Build-Depends-Indep": [
-    "python-ceilometerclient (>= 2.2.1), python-hacking (>= 0.8.0), python-mock (>= 1.3), python-oslo.config (>= 1:3.2.0), python-oslo.messaging (>= 5.2.0), python-oslo.utils (>= 3.4.0), python-oslosphinx (>= 2.5.0), python-pymongo (>= 3.0.2), python-six (>= 1.9.0), python-subunit (>= 0.0.18), python-testtools (>= 1.4.0), python-webob (>= 1.2.3), python3-ceilometerclient (>= 2.2.1), python3-docutils, python3-mock (>= 1.3), python3-oslo.config (>= 1:3.2.0), python3-oslo.messaging (>= 5.2.0), python3-oslo.utils (>= 3.4.0), python3-pymongo (>= 3.0.2), python3-six (>= 1.9.0), python3-subunit (>= 0.0.18), python3-testtools (>= 1.4.0), python3-webob (>= 1.2.3), subunit (>= 0.0.18), testrepository (>= 0.0.18)"
-  ],
-  "Checksums-Sha256": [
-    "1e7166fd3d7d530c5e0e5b120d4cace357838846625781ccfb8b7df2e25da2b5 3057 python-osprofiler_1.4.0-2.dsc dffaeb0a0043768c867edbe718d68259e5bbf692de40dcbf938046573ec268e5 48040 python-osprofiler_1.4.0.orig.tar.xz 431b088793fc2ee8ca123f8f88c380d03a4d808b9e8d30f15b5cc63f81aa888b 4440 python-osprofiler_1.4.0-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/python-osprofiler"
-  ],
-  "Files": [
-    "7ecb595d209d0c031a5e9638ef28c227 3057 python-osprofiler_1.4.0-2.dsc 9d534193e0f9649cffb1dc97b001a642 48040 python-osprofiler_1.4.0.orig.tar.xz fd1e0a351864e147de20aa4f0edaa223 4440 python-osprofiler_1.4.0-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/stackforge/osprofiler"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "python-osprofiler"
-  ],
-  "Package-List": [
-    "python-osprofiler deb python optional arch=all python-osprofiler-doc deb doc optional arch=all python3-osprofiler deb python optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://git.openstack.org/cgit/openstack/deb-python-osprofiler?h=debian%2Fnewton"
-  ],
-  "Vcs-Git": [
-    "https://git.openstack.org/openstack/deb-python-osprofiler -b debian/newton"
-  ],
-  "Version": [
-    "1.4.0-2"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-osprofiler, python3-osprofiler, python-osprofiler-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-python, openstack-pkg-tools, python-all, python-pbr, python-setuptools, python-sphinx, python3-all, python3-pbr, python3-setuptools"
+	],
+	"Build-Depends-Indep": [
+		"python-ceilometerclient (>= 2.2.1), python-hacking (>= 0.8.0), python-mock (>= 1.3), python-oslo.config (>= 1:3.2.0), python-oslo.messaging (>= 5.2.0), python-oslo.utils (>= 3.4.0), python-oslosphinx (>= 2.5.0), python-pymongo (>= 3.0.2), python-six (>= 1.9.0), python-subunit (>= 0.0.18), python-testtools (>= 1.4.0), python-webob (>= 1.2.3), python3-ceilometerclient (>= 2.2.1), python3-docutils, python3-mock (>= 1.3), python3-oslo.config (>= 1:3.2.0), python3-oslo.messaging (>= 5.2.0), python3-oslo.utils (>= 3.4.0), python3-pymongo (>= 3.0.2), python3-six (>= 1.9.0), python3-subunit (>= 0.0.18), python3-testtools (>= 1.4.0), python3-webob (>= 1.2.3), subunit (>= 0.0.18), testrepository (>= 0.0.18)"
+	],
+	"Checksums-Sha256": [
+		"1e7166fd3d7d530c5e0e5b120d4cace357838846625781ccfb8b7df2e25da2b5 3057 python-osprofiler_1.4.0-2.dsc dffaeb0a0043768c867edbe718d68259e5bbf692de40dcbf938046573ec268e5 48040 python-osprofiler_1.4.0.orig.tar.xz 431b088793fc2ee8ca123f8f88c380d03a4d808b9e8d30f15b5cc63f81aa888b 4440 python-osprofiler_1.4.0-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-osprofiler"
+	],
+	"Files": [
+		"7ecb595d209d0c031a5e9638ef28c227 3057 python-osprofiler_1.4.0-2.dsc 9d534193e0f9649cffb1dc97b001a642 48040 python-osprofiler_1.4.0.orig.tar.xz fd1e0a351864e147de20aa4f0edaa223 4440 python-osprofiler_1.4.0-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/stackforge/osprofiler"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"python-osprofiler"
+	],
+	"Package-List": [
+		"python-osprofiler deb python optional arch=all python-osprofiler-doc deb doc optional arch=all python3-osprofiler deb python optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://git.openstack.org/cgit/openstack/deb-python-osprofiler?h=debian%2Fnewton"
+	],
+	"Vcs-Git": [
+		"https://git.openstack.org/openstack/deb-python-osprofiler -b debian/newton"
+	],
+	"Version": [
+		"1.4.0-2"
+	]
 }

@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "evolution, libevolution, evolution-common, evolution-dev, evolution-plugins, evolution-plugins-experimental"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 10), dpkg-dev (>= 1.16.1), libchamplain-gtk-0.12-dev, libglib2.0-dev (>= 2.46.0), libgtk-3-dev (>= 3.10.0), libgail-3-dev (>= 3.0.2), libgdk-pixbuf2.0-dev (>= 2.24.0), libcamel1.2-dev (>= 3.22.6), libebook1.2-dev (>= 3.22.6), libecal1.2-dev (>= 3.22.6), libedataserver1.2-dev (>= 3.22.6), libedataserverui1.2-dev (>= 3.22.6), libebackend1.2-dev (>= 3.22.6), evolution-data-server-dev (>= 3.22.6), evolution-data-server-dev (<< 3.23), libwebkit2gtk-4.0-dev (>= 2.13.90), libgcr-3-dev (>= 3.4), libgtkspell3-3-dev, libgeocode-glib-dev (>= 3.10), libgnome-desktop-3-dev (>= 3.8.0), libsoup2.4-dev (>= 2.42), libxml2-dev (>= 2.7.3), libenchant-dev (>= 1.1.7), shared-mime-info (>= 0.22), libnotify-dev (>= 0.7), libgweather-3-dev (>= 3.10.0), libcanberra-gtk3-dev (>= 0.25), intltool (>= 0.40.0), libtool (>= 2.2), pkg-config (>= 0.16.0), gtk-doc-tools (>= 1.14), libcairo2-dev (>= 1.10), libatk1.0-dev, x11proto-core-dev, libldap2-dev, libnspr4-dev, libnss3-dev, psmisc, libytnef0-dev, libical-dev (>= 2.0.0), libpst-dev (>= 0.6.54), libsm-dev, libice-dev, yelp-tools, gnome-pkg-tools, gnome-common, gsettings-desktop-schemas-dev (>= 2.91.92), libclutter-gtk-1.0-dev (>= 0.90), highlight, libcryptui-dev, libgnome-autoar-0-dev (>= 0.1.1), libgnome-autoar-gtk-0-dev (>= 0.1.1)"
-  ],
-  "Checksums-Sha256": [
-    "a17e7ec9067a2d5b534ef00b8616383b9b9e11b9281ea29c3c0798f73a3ac34f 3758 evolution_3.22.6-1+deb9u2.dsc 9f4be4a1d5ee4d5eb9b132cf751ba3afc833025aa6dc7baa1f9483489d8a943e 12288232 evolution_3.22.6.orig.tar.xz 4f1e8bce9cfa828b6314d4f3a3d0c5261ad91465766511e0efc6c612c66fec61 37840 evolution_3.22.6-1+deb9u2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/e/evolution"
-  ],
-  "Files": [
-    "0eb7533b2201a6e321905b8599716f35 3758 evolution_3.22.6-1+deb9u2.dsc 0b839838df678bc6e50b41059856fadb 12288232 evolution_3.22.6.orig.tar.xz f97c2f7a5b4d02046671f6f197312a8c 37840 evolution_3.22.6-1+deb9u2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://wiki.gnome.org/Apps/Evolution"
-  ],
-  "Maintainer": [
-    "Debian Evolution Maintainers <pkg-evolution-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "evolution"
-  ],
-  "Package-List": [
-    "evolution deb gnome optional arch=any evolution-common deb gnome optional arch=all evolution-dev deb devel optional arch=any evolution-plugins deb gnome optional arch=any evolution-plugins-experimental deb gnome optional arch=any libevolution deb libs optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "gnome"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Jordi Mallach <jordi@debian.org>, Josselin Mouette <joss@debian.org>, Laurent Bigonville <bigon@debian.org>, Andreas Henriksson <andreas@fatal.se>, Michael Biebl <biebl@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/viewvc/pkg-evolution/unstable/evolution"
-  ],
-  "Vcs-Svn": [
-    "svn://anonscm.debian.org/pkg-evolution/unstable/evolution"
-  ],
-  "Version": [
-    "3.22.6-1+deb9u2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"evolution, libevolution, evolution-common, evolution-dev, evolution-plugins, evolution-plugins-experimental"
+	],
+	"Build-Depends": [
+		"debhelper (>= 10), dpkg-dev (>= 1.16.1), libchamplain-gtk-0.12-dev, libglib2.0-dev (>= 2.46.0), libgtk-3-dev (>= 3.10.0), libgail-3-dev (>= 3.0.2), libgdk-pixbuf2.0-dev (>= 2.24.0), libcamel1.2-dev (>= 3.22.6), libebook1.2-dev (>= 3.22.6), libecal1.2-dev (>= 3.22.6), libedataserver1.2-dev (>= 3.22.6), libedataserverui1.2-dev (>= 3.22.6), libebackend1.2-dev (>= 3.22.6), evolution-data-server-dev (>= 3.22.6), evolution-data-server-dev (<< 3.23), libwebkit2gtk-4.0-dev (>= 2.13.90), libgcr-3-dev (>= 3.4), libgtkspell3-3-dev, libgeocode-glib-dev (>= 3.10), libgnome-desktop-3-dev (>= 3.8.0), libsoup2.4-dev (>= 2.42), libxml2-dev (>= 2.7.3), libenchant-dev (>= 1.1.7), shared-mime-info (>= 0.22), libnotify-dev (>= 0.7), libgweather-3-dev (>= 3.10.0), libcanberra-gtk3-dev (>= 0.25), intltool (>= 0.40.0), libtool (>= 2.2), pkg-config (>= 0.16.0), gtk-doc-tools (>= 1.14), libcairo2-dev (>= 1.10), libatk1.0-dev, x11proto-core-dev, libldap2-dev, libnspr4-dev, libnss3-dev, psmisc, libytnef0-dev, libical-dev (>= 2.0.0), libpst-dev (>= 0.6.54), libsm-dev, libice-dev, yelp-tools, gnome-pkg-tools, gnome-common, gsettings-desktop-schemas-dev (>= 2.91.92), libclutter-gtk-1.0-dev (>= 0.90), highlight, libcryptui-dev, libgnome-autoar-0-dev (>= 0.1.1), libgnome-autoar-gtk-0-dev (>= 0.1.1)"
+	],
+	"Checksums-Sha256": [
+		"a17e7ec9067a2d5b534ef00b8616383b9b9e11b9281ea29c3c0798f73a3ac34f 3758 evolution_3.22.6-1+deb9u2.dsc 9f4be4a1d5ee4d5eb9b132cf751ba3afc833025aa6dc7baa1f9483489d8a943e 12288232 evolution_3.22.6.orig.tar.xz 4f1e8bce9cfa828b6314d4f3a3d0c5261ad91465766511e0efc6c612c66fec61 37840 evolution_3.22.6-1+deb9u2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/e/evolution"
+	],
+	"Files": [
+		"0eb7533b2201a6e321905b8599716f35 3758 evolution_3.22.6-1+deb9u2.dsc 0b839838df678bc6e50b41059856fadb 12288232 evolution_3.22.6.orig.tar.xz f97c2f7a5b4d02046671f6f197312a8c 37840 evolution_3.22.6-1+deb9u2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://wiki.gnome.org/Apps/Evolution"
+	],
+	"Maintainer": [
+		"Debian Evolution Maintainers <pkg-evolution-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"evolution"
+	],
+	"Package-List": [
+		"evolution deb gnome optional arch=any evolution-common deb gnome optional arch=all evolution-dev deb devel optional arch=any evolution-plugins deb gnome optional arch=any evolution-plugins-experimental deb gnome optional arch=any libevolution deb libs optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"gnome"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Jordi Mallach <jordi@debian.org>, Josselin Mouette <joss@debian.org>, Laurent Bigonville <bigon@debian.org>, Andreas Henriksson <andreas@fatal.se>, Michael Biebl <biebl@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/viewvc/pkg-evolution/unstable/evolution"
+	],
+	"Vcs-Svn": [
+		"svn://anonscm.debian.org/pkg-evolution/unstable/evolution"
+	],
+	"Version": [
+		"3.22.6-1+deb9u2"
+	]
 }

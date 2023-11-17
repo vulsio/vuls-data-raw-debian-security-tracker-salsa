@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "gnat-4.9-base, gnat-4.9, gnat-4.9-sjlj, libgnat-4.9, libgnat-4.9-dbg, libgnatvsn4.9-dev, libgnatvsn4.9, libgnatvsn4.9-dbg, libgnatprj4.9-dev, libgnatprj4.9, libgnatprj4.9-dbg"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 5.0.62), dpkg-dev (>= 1.17.11), g++-multilib [amd64 i386 kfreebsd-amd64 mips mips64 mips64el mipsel mipsn32 mipsn32el powerpc ppc64 s390 s390x sparc sparc64 x32], libc6.1-dev (>= 2.13-5) [alpha ia64] | libc0.3-dev (>= 2.13-5) [hurd-i386] | libc0.1-dev (>= 2.13-5) [kfreebsd-i386 kfreebsd-amd64] | libc6-dev (>= 2.13-5), libc6-dev (>= 2.13-31) [armel armhf], libc6-dev-amd64 [i386 x32], libc6-dev-sparc64 [sparc], libc6-dev-sparc [sparc64], libc6-dev-s390 [s390x], libc6-dev-s390x [s390], libc6-dev-i386 [amd64 x32], libc6-dev-powerpc [ppc64], libc6-dev-ppc64 [powerpc], libc0.1-dev-i386 [kfreebsd-amd64], lib32gcc1 [amd64 ppc64 kfreebsd-amd64 mipsn32 mipsn32el mips64 mips64el s390x sparc64 x32], libn32gcc1 [mips mipsel mips64 mips64el], lib64gcc1 [i386 mips mipsel mipsn32 mipsn32el powerpc sparc s390 x32], libc6-dev-mips64 [mips mipsel mipsn32 mipsn32el], libc6-dev-mipsn32 [mips mipsel mips64 mips64el], libc6-dev-mips32 [mipsn32 mipsn32el mips64 mips64el], libc6-dev-x32 [amd64 i386], libx32gcc1 [amd64 i386], libc6.1-dbg [alpha ia64] | libc0.3-dbg [hurd-i386] | libc0.1-dbg [kfreebsd-i386 kfreebsd-amd64] | libc6-dbg, kfreebsd-kernel-headers (>= 0.84) [kfreebsd-any], m4, libtool, autoconf2.64, libunwind7-dev (>= 0.98.5-6) [ia64], libatomic-ops-dev [ia64], autogen, gawk, lzma, xz-utils, patchutils, zlib1g-dev, systemtap-sdt-dev [linux-any kfreebsd-any hurd-any], binutils (>= 2.23.52) | binutils-multiarch (>= 2.23.52), binutils-hppa64 (>= 2.23.52) [hppa], gperf (>= 3.0.1), bison (>= 1:2.3), flex, gettext, gdb, texinfo (>= 4.3), locales, sharutils, procps, gnat (>= 4.1) | gnat-4.9 | gnat-4.6 (>= 4.6.4-2), gcc-4.9-source (>= 4.9.2), gcc-4.9-source (<< 4.9.3), libcloog-isl-dev (>= 0.18), libmpc-dev (>= 1.0), libmpfr-dev (>= 3.0.0-9~), libgmp-dev (>= 2:5.0.1~), dejagnu [!m68k], realpath (>= 1.9.12), chrpath, lsb-release, quilt"
-  ],
-  "Checksums-Sha1": [
-    "48b031343456445190559b26d65a352ec8f04d48 4036 gnat-4.9_4.9.2-1.dsc 735825612cdd5426c1bbbd9ca6e49c168b16c195 800758 gnat-4.9_4.9.2-1.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "b2d62018bc61b0095550bed5b5da6a86d4027311619247f8dc1cda60e0156360 4036 gnat-4.9_4.9.2-1.dsc e7e78b9a4fa66ecd37562053d879d0e0fed684f83796e1697d7102432ab5dde4 800758 gnat-4.9_4.9.2-1.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/g/gnat-4.9"
-  ],
-  "Files": [
-    "071aa7caf4df3b104d961577cbdc46c7 4036 gnat-4.9_4.9.2-1.dsc 80fae563bb740ead026ef43f12d40fb4 800758 gnat-4.9_4.9.2-1.tar.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Homepage": [
-    "http://gcc.gnu.org/"
-  ],
-  "Maintainer": [
-    "Debian GCC Maintainers <debian-gcc@lists.debian.org>"
-  ],
-  "Package": [
-    "gnat-4.9"
-  ],
-  "Package-List": [
-    "gnat-4.9 deb devel optional arch=any gnat-4.9-base deb libs optional arch=any gnat-4.9-sjlj deb devel extra arch=any libgnat-4.9 deb libs optional arch=any libgnat-4.9-dbg deb debug extra arch=any libgnatprj4.9 deb libs optional arch=any libgnatprj4.9-dbg deb debug extra arch=any libgnatprj4.9-dev deb libdevel extra arch=any libgnatvsn4.9 deb libs optional arch=any libgnatvsn4.9-dbg deb debug extra arch=any libgnatvsn4.9-dev deb libdevel extra arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Ludovic Brenta <lbrenta@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://svn.debian.org/viewsvn/gcccvs/branches/sid/gcc-4.9/"
-  ],
-  "Vcs-Svn": [
-    "svn://anonscm.debian.org/gcccvs/branches/sid/gcc-4.9"
-  ],
-  "Version": [
-    "4.9.2-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"gnat-4.9-base, gnat-4.9, gnat-4.9-sjlj, libgnat-4.9, libgnat-4.9-dbg, libgnatvsn4.9-dev, libgnatvsn4.9, libgnatvsn4.9-dbg, libgnatprj4.9-dev, libgnatprj4.9, libgnatprj4.9-dbg"
+	],
+	"Build-Depends": [
+		"debhelper (>= 5.0.62), dpkg-dev (>= 1.17.11), g++-multilib [amd64 i386 kfreebsd-amd64 mips mips64 mips64el mipsel mipsn32 mipsn32el powerpc ppc64 s390 s390x sparc sparc64 x32], libc6.1-dev (>= 2.13-5) [alpha ia64] | libc0.3-dev (>= 2.13-5) [hurd-i386] | libc0.1-dev (>= 2.13-5) [kfreebsd-i386 kfreebsd-amd64] | libc6-dev (>= 2.13-5), libc6-dev (>= 2.13-31) [armel armhf], libc6-dev-amd64 [i386 x32], libc6-dev-sparc64 [sparc], libc6-dev-sparc [sparc64], libc6-dev-s390 [s390x], libc6-dev-s390x [s390], libc6-dev-i386 [amd64 x32], libc6-dev-powerpc [ppc64], libc6-dev-ppc64 [powerpc], libc0.1-dev-i386 [kfreebsd-amd64], lib32gcc1 [amd64 ppc64 kfreebsd-amd64 mipsn32 mipsn32el mips64 mips64el s390x sparc64 x32], libn32gcc1 [mips mipsel mips64 mips64el], lib64gcc1 [i386 mips mipsel mipsn32 mipsn32el powerpc sparc s390 x32], libc6-dev-mips64 [mips mipsel mipsn32 mipsn32el], libc6-dev-mipsn32 [mips mipsel mips64 mips64el], libc6-dev-mips32 [mipsn32 mipsn32el mips64 mips64el], libc6-dev-x32 [amd64 i386], libx32gcc1 [amd64 i386], libc6.1-dbg [alpha ia64] | libc0.3-dbg [hurd-i386] | libc0.1-dbg [kfreebsd-i386 kfreebsd-amd64] | libc6-dbg, kfreebsd-kernel-headers (>= 0.84) [kfreebsd-any], m4, libtool, autoconf2.64, libunwind7-dev (>= 0.98.5-6) [ia64], libatomic-ops-dev [ia64], autogen, gawk, lzma, xz-utils, patchutils, zlib1g-dev, systemtap-sdt-dev [linux-any kfreebsd-any hurd-any], binutils (>= 2.23.52) | binutils-multiarch (>= 2.23.52), binutils-hppa64 (>= 2.23.52) [hppa], gperf (>= 3.0.1), bison (>= 1:2.3), flex, gettext, gdb, texinfo (>= 4.3), locales, sharutils, procps, gnat (>= 4.1) | gnat-4.9 | gnat-4.6 (>= 4.6.4-2), gcc-4.9-source (>= 4.9.2), gcc-4.9-source (<< 4.9.3), libcloog-isl-dev (>= 0.18), libmpc-dev (>= 1.0), libmpfr-dev (>= 3.0.0-9~), libgmp-dev (>= 2:5.0.1~), dejagnu [!m68k], realpath (>= 1.9.12), chrpath, lsb-release, quilt"
+	],
+	"Checksums-Sha1": [
+		"48b031343456445190559b26d65a352ec8f04d48 4036 gnat-4.9_4.9.2-1.dsc 735825612cdd5426c1bbbd9ca6e49c168b16c195 800758 gnat-4.9_4.9.2-1.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"b2d62018bc61b0095550bed5b5da6a86d4027311619247f8dc1cda60e0156360 4036 gnat-4.9_4.9.2-1.dsc e7e78b9a4fa66ecd37562053d879d0e0fed684f83796e1697d7102432ab5dde4 800758 gnat-4.9_4.9.2-1.tar.gz"
+	],
+	"Directory": [
+		"pool/main/g/gnat-4.9"
+	],
+	"Files": [
+		"071aa7caf4df3b104d961577cbdc46c7 4036 gnat-4.9_4.9.2-1.dsc 80fae563bb740ead026ef43f12d40fb4 800758 gnat-4.9_4.9.2-1.tar.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Homepage": [
+		"http://gcc.gnu.org/"
+	],
+	"Maintainer": [
+		"Debian GCC Maintainers <debian-gcc@lists.debian.org>"
+	],
+	"Package": [
+		"gnat-4.9"
+	],
+	"Package-List": [
+		"gnat-4.9 deb devel optional arch=any gnat-4.9-base deb libs optional arch=any gnat-4.9-sjlj deb devel extra arch=any libgnat-4.9 deb libs optional arch=any libgnat-4.9-dbg deb debug extra arch=any libgnatprj4.9 deb libs optional arch=any libgnatprj4.9-dbg deb debug extra arch=any libgnatprj4.9-dev deb libdevel extra arch=any libgnatvsn4.9 deb libs optional arch=any libgnatvsn4.9-dbg deb debug extra arch=any libgnatvsn4.9-dev deb libdevel extra arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Ludovic Brenta <lbrenta@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://svn.debian.org/viewsvn/gcccvs/branches/sid/gcc-4.9/"
+	],
+	"Vcs-Svn": [
+		"svn://anonscm.debian.org/gcccvs/branches/sid/gcc-4.9"
+	],
+	"Version": [
+		"4.9.2-1"
+	]
 }

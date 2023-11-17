@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "gyoto, gyoto-bin, libgyoto6, gyoto-dbg, libgyoto6-dev, yorick-gyoto, python-gyoto, python3-gyoto, gyoto-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9~), yorick-dev, yorick-yutils, libxerces-c-dev, libcfitsio-dev, libudunits2-dev, automake, libboost-dev (>= 1.53.1), libboost-mpi-dev, dh-autoreconf, mpi-default-dev, dh-python, python-all-dev (>= 2.6.6-3~), python-setuptools, python3-all-dev, python3-setuptools, swig3.0, python-numpy, python3-numpy, doxygen, dh-exec (>= 0.3), pkg-config, liblorene-dev, lorene-codes-src, gfortran"
-  ],
-  "Build-Depends-Indep": [
-    "doxygen-latex, texlive-bibtex-extra, texlive-latex-base, texlive-lang-french, tipa"
-  ],
-  "Checksums-Sha256": [
-    "dee1f06aebb1bcb089966def5e856285d0d71f153611761a69a99e3a9186db51 3090 gyoto_1.2.0-2.dsc 1e82889a9f72edf0cfb26b5663f2357bd0956098b38b34c2c58252f97673da3e 1893393 gyoto_1.2.0.orig.tar.gz 4bcf452107d11c1284ffbc0755626f78135ec00095d5659fcff8a7e36545532f 11512 gyoto_1.2.0-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/g/gyoto"
-  ],
-  "Files": [
-    "c1744bc3250fa24e8f434e27c63ca3bc 3090 gyoto_1.2.0-2.dsc ca037fd31bef21ab29e508bb7b1ae5e4 1893393 gyoto_1.2.0.orig.tar.gz 3500b64ee6add00acf7104e3ebbc16b3 11512 gyoto_1.2.0-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://gyoto.obspm.fr"
-  ],
-  "Maintainer": [
-    "Debian Astronomy Maintainers <debian-astro-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "gyoto"
-  ],
-  "Package-List": [
-    "gyoto deb science extra arch=all gyoto-bin deb science extra arch=any gyoto-dbg deb debug extra arch=any gyoto-doc deb doc extra arch=all libgyoto6 deb science extra arch=any libgyoto6-dev deb libdevel extra arch=any python-gyoto deb python extra arch=any python3-gyoto deb python extra arch=any yorick-gyoto deb science extra arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "science"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential, gfortran, liblorene-dev, lorene-codes-src, openmpi-bin, python-all, python-matplotlib, python-mpi4py, python-numpy, python3-all, python3-matplotlib, python3-mpi4py, python3-numpy"
-  ],
-  "Uploaders": [
-    "Thibaut Paumard <thibaut@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/gitweb/?p=debian-astro/packages/gyoto.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/debian-astro/packages/gyoto.git"
-  ],
-  "Version": [
-    "1.2.0-2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"gyoto, gyoto-bin, libgyoto6, gyoto-dbg, libgyoto6-dev, yorick-gyoto, python-gyoto, python3-gyoto, gyoto-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9~), yorick-dev, yorick-yutils, libxerces-c-dev, libcfitsio-dev, libudunits2-dev, automake, libboost-dev (>= 1.53.1), libboost-mpi-dev, dh-autoreconf, mpi-default-dev, dh-python, python-all-dev (>= 2.6.6-3~), python-setuptools, python3-all-dev, python3-setuptools, swig3.0, python-numpy, python3-numpy, doxygen, dh-exec (>= 0.3), pkg-config, liblorene-dev, lorene-codes-src, gfortran"
+	],
+	"Build-Depends-Indep": [
+		"doxygen-latex, texlive-bibtex-extra, texlive-latex-base, texlive-lang-french, tipa"
+	],
+	"Checksums-Sha256": [
+		"dee1f06aebb1bcb089966def5e856285d0d71f153611761a69a99e3a9186db51 3090 gyoto_1.2.0-2.dsc 1e82889a9f72edf0cfb26b5663f2357bd0956098b38b34c2c58252f97673da3e 1893393 gyoto_1.2.0.orig.tar.gz 4bcf452107d11c1284ffbc0755626f78135ec00095d5659fcff8a7e36545532f 11512 gyoto_1.2.0-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/gyoto"
+	],
+	"Files": [
+		"c1744bc3250fa24e8f434e27c63ca3bc 3090 gyoto_1.2.0-2.dsc ca037fd31bef21ab29e508bb7b1ae5e4 1893393 gyoto_1.2.0.orig.tar.gz 3500b64ee6add00acf7104e3ebbc16b3 11512 gyoto_1.2.0-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://gyoto.obspm.fr"
+	],
+	"Maintainer": [
+		"Debian Astronomy Maintainers <debian-astro-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"gyoto"
+	],
+	"Package-List": [
+		"gyoto deb science extra arch=all gyoto-bin deb science extra arch=any gyoto-dbg deb debug extra arch=any gyoto-doc deb doc extra arch=all libgyoto6 deb science extra arch=any libgyoto6-dev deb libdevel extra arch=any python-gyoto deb python extra arch=any python3-gyoto deb python extra arch=any yorick-gyoto deb science extra arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"science"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, gfortran, liblorene-dev, lorene-codes-src, openmpi-bin, python-all, python-matplotlib, python-mpi4py, python-numpy, python3-all, python3-matplotlib, python3-mpi4py, python3-numpy"
+	],
+	"Uploaders": [
+		"Thibaut Paumard <thibaut@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/gitweb/?p=debian-astro/packages/gyoto.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/debian-astro/packages/gyoto.git"
+	],
+	"Version": [
+		"1.2.0-2"
+	]
 }

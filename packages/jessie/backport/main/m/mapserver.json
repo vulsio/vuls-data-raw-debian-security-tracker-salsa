@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libmapserver2, libmapserver-dbg, libmapserver-dev, cgi-mapserver, mapserver-bin, mapserver-doc, php5-mapscript, libmapscript-perl, python-mapscript, ruby-mapscript, libmapscript-java"
-  ],
-  "Build-Conflicts": [
-    "libcurl3-openssl-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-python, dpkg-dev (>= 1.16.1.1), cmake (>= 2.8.12.1-1.2), chrpath, default-jdk, ant, libcairo2-dev, libcurl4-gnutls-dev | libcurl-ssl-dev, libfcgi-dev, libfreetype6-dev (>= 2.0.9), libfribidi-dev, libgdal-dev (>= 1.10.1-0~), libgeos-dev (>= 3.3.1-1~), libgif-dev, libharfbuzz-dev, libjpeg-dev, libperl-dev, libpng-dev, libpq-dev, libproj-dev, librsvg2-dev, libxml2-dev, libxslt1-dev, zlib1g-dev (>= 1.1.4), php5-dev, pkg-config, pkg-kde-tools, python-all (>= 2.6.6-3~), python-all-dev (>= 2.6.6-3~), ruby, ruby-all-dev, gem2deb, swig, docbook2x, docbook-xsl, docbook-xml, xsltproc"
-  ],
-  "Checksums-Sha1": [
-    "d8660e35195dff1fc78ee207e5db12b9361301ce 3307 mapserver_7.0.4-1~bpo8+1.dsc 8fb13c27da5902e6d9ad50f3eba550bd90750607 2624614 mapserver_7.0.4.orig.tar.gz e13ab46eca6e85ffc1eaf1c3289937b75afc9cdf 46044 mapserver_7.0.4-1~bpo8+1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "a264a126beb4f92216222ce6a9790e4d882832bcb0152d9bc9d11bee057645a5 3307 mapserver_7.0.4-1~bpo8+1.dsc c91d40da5cc242b20ca7e29c41bd9eb23097b98a77908b1d708e9708f6f6cf69 2624614 mapserver_7.0.4.orig.tar.gz 24baa4943d9ad433990bad0536ab7699a5f6092d9786bde066bae9d5b8feab29 46044 mapserver_7.0.4-1~bpo8+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/m/mapserver"
-  ],
-  "Files": [
-    "bcb6de28feb45ed6076821394f39f7a2 3307 mapserver_7.0.4-1~bpo8+1.dsc 90a2dd2b888722586049da32ecef46d7 2624614 mapserver_7.0.4.orig.tar.gz 53d14b81aed700ec622560b1c305333b 46044 mapserver_7.0.4-1~bpo8+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.mapserver.org"
-  ],
-  "Maintainer": [
-    "Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "mapserver"
-  ],
-  "Package-List": [
-    "cgi-mapserver deb web optional arch=any libmapscript-java deb java optional arch=any libmapscript-perl deb perl optional arch=any libmapserver-dbg deb debug extra arch=any libmapserver-dev deb libdevel optional arch=any libmapserver2 deb libs optional arch=any mapserver-bin deb misc optional arch=any mapserver-doc deb doc optional arch=all php5-mapscript deb php optional arch=any python-mapscript deb python optional arch=any ruby-mapscript deb ruby optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Ruby-Versions": [
-    "all"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Francesco Paolo Lovergine <frankie@debian.org>, Alan Boudreault <aboudreault@mapgears.com>, Bas Couwenberg <sebastic@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-grass/mapserver.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-grass/mapserver.git -b jessie-backports"
-  ],
-  "Version": [
-    "7.0.4-1~bpo8+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libmapserver2, libmapserver-dbg, libmapserver-dev, cgi-mapserver, mapserver-bin, mapserver-doc, php5-mapscript, libmapscript-perl, python-mapscript, ruby-mapscript, libmapscript-java"
+	],
+	"Build-Conflicts": [
+		"libcurl3-openssl-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-python, dpkg-dev (>= 1.16.1.1), cmake (>= 2.8.12.1-1.2), chrpath, default-jdk, ant, libcairo2-dev, libcurl4-gnutls-dev | libcurl-ssl-dev, libfcgi-dev, libfreetype6-dev (>= 2.0.9), libfribidi-dev, libgdal-dev (>= 1.10.1-0~), libgeos-dev (>= 3.3.1-1~), libgif-dev, libharfbuzz-dev, libjpeg-dev, libperl-dev, libpng-dev, libpq-dev, libproj-dev, librsvg2-dev, libxml2-dev, libxslt1-dev, zlib1g-dev (>= 1.1.4), php5-dev, pkg-config, pkg-kde-tools, python-all (>= 2.6.6-3~), python-all-dev (>= 2.6.6-3~), ruby, ruby-all-dev, gem2deb, swig, docbook2x, docbook-xsl, docbook-xml, xsltproc"
+	],
+	"Checksums-Sha1": [
+		"d8660e35195dff1fc78ee207e5db12b9361301ce 3307 mapserver_7.0.4-1~bpo8+1.dsc 8fb13c27da5902e6d9ad50f3eba550bd90750607 2624614 mapserver_7.0.4.orig.tar.gz e13ab46eca6e85ffc1eaf1c3289937b75afc9cdf 46044 mapserver_7.0.4-1~bpo8+1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"a264a126beb4f92216222ce6a9790e4d882832bcb0152d9bc9d11bee057645a5 3307 mapserver_7.0.4-1~bpo8+1.dsc c91d40da5cc242b20ca7e29c41bd9eb23097b98a77908b1d708e9708f6f6cf69 2624614 mapserver_7.0.4.orig.tar.gz 24baa4943d9ad433990bad0536ab7699a5f6092d9786bde066bae9d5b8feab29 46044 mapserver_7.0.4-1~bpo8+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/m/mapserver"
+	],
+	"Files": [
+		"bcb6de28feb45ed6076821394f39f7a2 3307 mapserver_7.0.4-1~bpo8+1.dsc 90a2dd2b888722586049da32ecef46d7 2624614 mapserver_7.0.4.orig.tar.gz 53d14b81aed700ec622560b1c305333b 46044 mapserver_7.0.4-1~bpo8+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.mapserver.org"
+	],
+	"Maintainer": [
+		"Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"mapserver"
+	],
+	"Package-List": [
+		"cgi-mapserver deb web optional arch=any libmapscript-java deb java optional arch=any libmapscript-perl deb perl optional arch=any libmapserver-dbg deb debug extra arch=any libmapserver-dev deb libdevel optional arch=any libmapserver2 deb libs optional arch=any mapserver-bin deb misc optional arch=any mapserver-doc deb doc optional arch=all php5-mapscript deb php optional arch=any python-mapscript deb python optional arch=any ruby-mapscript deb ruby optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Ruby-Versions": [
+		"all"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Francesco Paolo Lovergine <frankie@debian.org>, Alan Boudreault <aboudreault@mapgears.com>, Bas Couwenberg <sebastic@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-grass/mapserver.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-grass/mapserver.git -b jessie-backports"
+	],
+	"Version": [
+		"7.0.4-1~bpo8+1"
+	]
 }

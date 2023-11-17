@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "linux-any all"
-  ],
-  "Binary": [
-    "guestfsd, libguestfs-dev, libguestfs0, libguestfs-gfs2, libguestfs-hfsplus, libguestfs-jfs, libguestfs-nilfs, libguestfs-reiserfs, libguestfs-rescue, libguestfs-rsync, libguestfs-xfs, libguestfs-zfs, libguestfs-tools, libguestfs0-dbg, python-guestfs, python3-guestfs, libguestfs-perl, libguestfs-ocaml, libguestfs-ocaml-dev, erlang-guestfs, libguestfs-java, ruby-guestfs, libguestfs-gobject-1.0-0, libguestfs-gobject-dev, gir1.2-guestfs-1.0, lua-guestfs, golang-guestfs-dev, php-guestfs"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-autoreconf, po-debconf, bash-completion, supermin (>= 5), libreadline-dev, libaugeas-dev (>= 1.0.0), libselinux1-dev, libhivex-dev, libvirt-dev, liblzma-dev, libmagic-dev, libncurses5-dev, libncursesw5-dev, libpcre3-dev, libxml2-dev, libconfig-dev, libc-dev-bin, systemtap-sdt-dev, libcap-dev, libacl1-dev, libyajl-dev, libsystemd-dev | libsystemd-journal-dev, sleuthkit, libtsk-dev, automake, autoconf, libtool, gperf, libxml2-utils, qemu-system-arm [armel armhf arm64], qemu-system-mips [mips mipsel mips64 mips64el], qemu-system-misc [s390x], qemu-system-ppc [powerpc ppc64 ppc64el], qemu-system-sparc [sparc], qemu-system-x86 [i386 amd64], sgabios [i386 amd64], qemu-utils, genisoimage, pkg-config, erlang-dev, dh-lua, dh-ocaml, ocaml-nox, ocaml-findlib, libpcre-ocaml-dev, libgettext-ocaml-dev, python (>= 2.6.6-3~), python-all-dev (>= 2.6.6-3~), python3-all-dev, dh-python, default-jdk, gem2deb, rake, libjs-jquery, libmodule-build-perl, libtest-pod-coverage-perl, libextutils-command-perl, libintl-perl, libtest-pod-perl, libstring-shellquote-perl, libsys-virt-perl, libwin-hivex-perl, libfuse-dev, fuse, libglib2.0-dev, gjs, gobject-introspection, libgirepository1.0-dev, gtk-doc-tools, libgtk2.0-dev, db-util, netpbm, icoutils, po4a, curl, flex, bison, golang-go [i386 amd64 armel armhf arm64 ppc64el], dh-php, php-all-dev | php5-dev, linux-image-marvell [armel] | linux-image-versatile [armel], linux-image-armmp [armhf], linux-image-arm64 [arm64], linux-image-4kc-malta [mips mipsel] | linux-image-5kc-malta [mips mipsel mips64 mips64el], linux-image-s390x [s390x], linux-image-powerpc64 [powerpc ppc64], linux-image-powerpc64le [ppc64el], linux-image-sparc64 [sparc], linux-image-amd64 [amd64], linux-image-586 [i386] | linux-image-486 [i386] | linux-image-686-pae [i386], acl, attr, binutils, bsdmainutils, btrfs-tools, bzip2, cpio, cryptsetup, busybox, dosfstools, extlinux [i386 amd64], file, gawk, gdisk, gfs2-utils, grub2 [i386 amd64 powerpc ppc64el sparc], hfsplus, iproute2 | iproute, iputils-arping, iputils-ping, iputils-tracepath, isc-dhcp-client, jfsutils, kmod | module-init-tools, ldmtool, less, lsof, lsscsi, lvm2, lzop, mdadm, mtools, nilfs-tools, ntfs-3g, openssh-client, parted, procps, psmisc, reiserfsprogs, rsync, scrub, strace, syslinux [i386 amd64], udev, vim-tiny, xfsprogs, xz-utils, zerofree, zfs-fuse [i386 amd64 armel powerpc sparc]"
-  ],
-  "Checksums-Sha256": [
-    "c37c6e19088c5e6d34b88c85bd7f8707a6a9a02c0a2346fce020ddda5ee58382 6227 libguestfs_1.34.6-2.dsc da0c2ceebb97bd79f51ec0fff81d2f17d21e1e3da4f37f17a1799edab534b6ad 21657349 libguestfs_1.34.6.orig.tar.gz 900debe3023896815e4f7a968fb5eca41b14666b257cdb6ffdfdbd424be233b6 30868 libguestfs_1.34.6-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/libg/libguestfs"
-  ],
-  "Files": [
-    "15e9039c3f3dc94297e7c41132171d38 6227 libguestfs_1.34.6-2.dsc f21d06e002f7302b9306ff8bae1606ae 21657349 libguestfs_1.34.6.orig.tar.gz 65f5e1c281ffaa40c944a432ab6579c1 30868 libguestfs_1.34.6-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://libguestfs.org"
-  ],
-  "Maintainer": [
-    "Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "libguestfs"
-  ],
-  "Package-List": [
-    "erlang-guestfs deb interpreters extra arch=linux-any gir1.2-guestfs-1.0 deb introspection extra arch=linux-any golang-guestfs-dev deb devel extra arch=all guestfsd deb libs extra arch=linux-any libguestfs-dev deb libdevel extra arch=linux-any libguestfs-gfs2 deb libs extra arch=linux-any libguestfs-gobject-1.0-0 deb libs extra arch=linux-any libguestfs-gobject-dev deb libdevel extra arch=linux-any libguestfs-hfsplus deb libs extra arch=linux-any libguestfs-java deb java extra arch=linux-any libguestfs-jfs deb libs extra arch=linux-any libguestfs-nilfs deb libs extra arch=linux-any libguestfs-ocaml deb ocaml extra arch=linux-any libguestfs-ocaml-dev deb ocaml extra arch=linux-any libguestfs-perl deb perl extra arch=linux-any libguestfs-reiserfs deb libs extra arch=linux-any libguestfs-rescue deb libs extra arch=linux-any libguestfs-rsync deb libs extra arch=linux-any libguestfs-tools deb admin extra arch=linux-any libguestfs-xfs deb libs extra arch=linux-any libguestfs-zfs deb libs extra arch=i386,amd64,powerpc,sparc libguestfs0 deb libs extra arch=linux-any libguestfs0-dbg deb debug extra arch=linux-any lua-guestfs deb libs extra arch=linux-any php-guestfs deb php extra arch=linux-any python-guestfs deb python extra arch=linux-any python3-guestfs deb python extra arch=linux-any ruby-guestfs deb ruby extra arch=linux-any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Ruby-Versions": [
-    "all"
-  ],
-  "Section": [
-    "libs"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Richard Jones <rjones@redhat.com>, Guido Günther <agx@sigxcpu.org>, Hilko Bengen <bengen@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/?p=pkg-libvirt/libguestfs.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-libvirt/libguestfs.git"
-  ],
-  "Version": [
-    "1:1.34.6-2"
-  ]
+	"Architecture": [
+		"linux-any all"
+	],
+	"Binary": [
+		"guestfsd, libguestfs-dev, libguestfs0, libguestfs-gfs2, libguestfs-hfsplus, libguestfs-jfs, libguestfs-nilfs, libguestfs-reiserfs, libguestfs-rescue, libguestfs-rsync, libguestfs-xfs, libguestfs-zfs, libguestfs-tools, libguestfs0-dbg, python-guestfs, python3-guestfs, libguestfs-perl, libguestfs-ocaml, libguestfs-ocaml-dev, erlang-guestfs, libguestfs-java, ruby-guestfs, libguestfs-gobject-1.0-0, libguestfs-gobject-dev, gir1.2-guestfs-1.0, lua-guestfs, golang-guestfs-dev, php-guestfs"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-autoreconf, po-debconf, bash-completion, supermin (>= 5), libreadline-dev, libaugeas-dev (>= 1.0.0), libselinux1-dev, libhivex-dev, libvirt-dev, liblzma-dev, libmagic-dev, libncurses5-dev, libncursesw5-dev, libpcre3-dev, libxml2-dev, libconfig-dev, libc-dev-bin, systemtap-sdt-dev, libcap-dev, libacl1-dev, libyajl-dev, libsystemd-dev | libsystemd-journal-dev, sleuthkit, libtsk-dev, automake, autoconf, libtool, gperf, libxml2-utils, qemu-system-arm [armel armhf arm64], qemu-system-mips [mips mipsel mips64 mips64el], qemu-system-misc [s390x], qemu-system-ppc [powerpc ppc64 ppc64el], qemu-system-sparc [sparc], qemu-system-x86 [i386 amd64], sgabios [i386 amd64], qemu-utils, genisoimage, pkg-config, erlang-dev, dh-lua, dh-ocaml, ocaml-nox, ocaml-findlib, libpcre-ocaml-dev, libgettext-ocaml-dev, python (>= 2.6.6-3~), python-all-dev (>= 2.6.6-3~), python3-all-dev, dh-python, default-jdk, gem2deb, rake, libjs-jquery, libmodule-build-perl, libtest-pod-coverage-perl, libextutils-command-perl, libintl-perl, libtest-pod-perl, libstring-shellquote-perl, libsys-virt-perl, libwin-hivex-perl, libfuse-dev, fuse, libglib2.0-dev, gjs, gobject-introspection, libgirepository1.0-dev, gtk-doc-tools, libgtk2.0-dev, db-util, netpbm, icoutils, po4a, curl, flex, bison, golang-go [i386 amd64 armel armhf arm64 ppc64el], dh-php, php-all-dev | php5-dev, linux-image-marvell [armel] | linux-image-versatile [armel], linux-image-armmp [armhf], linux-image-arm64 [arm64], linux-image-4kc-malta [mips mipsel] | linux-image-5kc-malta [mips mipsel mips64 mips64el], linux-image-s390x [s390x], linux-image-powerpc64 [powerpc ppc64], linux-image-powerpc64le [ppc64el], linux-image-sparc64 [sparc], linux-image-amd64 [amd64], linux-image-586 [i386] | linux-image-486 [i386] | linux-image-686-pae [i386], acl, attr, binutils, bsdmainutils, btrfs-tools, bzip2, cpio, cryptsetup, busybox, dosfstools, extlinux [i386 amd64], file, gawk, gdisk, gfs2-utils, grub2 [i386 amd64 powerpc ppc64el sparc], hfsplus, iproute2 | iproute, iputils-arping, iputils-ping, iputils-tracepath, isc-dhcp-client, jfsutils, kmod | module-init-tools, ldmtool, less, lsof, lsscsi, lvm2, lzop, mdadm, mtools, nilfs-tools, ntfs-3g, openssh-client, parted, procps, psmisc, reiserfsprogs, rsync, scrub, strace, syslinux [i386 amd64], udev, vim-tiny, xfsprogs, xz-utils, zerofree, zfs-fuse [i386 amd64 armel powerpc sparc]"
+	],
+	"Checksums-Sha256": [
+		"c37c6e19088c5e6d34b88c85bd7f8707a6a9a02c0a2346fce020ddda5ee58382 6227 libguestfs_1.34.6-2.dsc da0c2ceebb97bd79f51ec0fff81d2f17d21e1e3da4f37f17a1799edab534b6ad 21657349 libguestfs_1.34.6.orig.tar.gz 900debe3023896815e4f7a968fb5eca41b14666b257cdb6ffdfdbd424be233b6 30868 libguestfs_1.34.6-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/libg/libguestfs"
+	],
+	"Files": [
+		"15e9039c3f3dc94297e7c41132171d38 6227 libguestfs_1.34.6-2.dsc f21d06e002f7302b9306ff8bae1606ae 21657349 libguestfs_1.34.6.orig.tar.gz 65f5e1c281ffaa40c944a432ab6579c1 30868 libguestfs_1.34.6-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://libguestfs.org"
+	],
+	"Maintainer": [
+		"Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"libguestfs"
+	],
+	"Package-List": [
+		"erlang-guestfs deb interpreters extra arch=linux-any gir1.2-guestfs-1.0 deb introspection extra arch=linux-any golang-guestfs-dev deb devel extra arch=all guestfsd deb libs extra arch=linux-any libguestfs-dev deb libdevel extra arch=linux-any libguestfs-gfs2 deb libs extra arch=linux-any libguestfs-gobject-1.0-0 deb libs extra arch=linux-any libguestfs-gobject-dev deb libdevel extra arch=linux-any libguestfs-hfsplus deb libs extra arch=linux-any libguestfs-java deb java extra arch=linux-any libguestfs-jfs deb libs extra arch=linux-any libguestfs-nilfs deb libs extra arch=linux-any libguestfs-ocaml deb ocaml extra arch=linux-any libguestfs-ocaml-dev deb ocaml extra arch=linux-any libguestfs-perl deb perl extra arch=linux-any libguestfs-reiserfs deb libs extra arch=linux-any libguestfs-rescue deb libs extra arch=linux-any libguestfs-rsync deb libs extra arch=linux-any libguestfs-tools deb admin extra arch=linux-any libguestfs-xfs deb libs extra arch=linux-any libguestfs-zfs deb libs extra arch=i386,amd64,powerpc,sparc libguestfs0 deb libs extra arch=linux-any libguestfs0-dbg deb debug extra arch=linux-any lua-guestfs deb libs extra arch=linux-any php-guestfs deb php extra arch=linux-any python-guestfs deb python extra arch=linux-any python3-guestfs deb python extra arch=linux-any ruby-guestfs deb ruby extra arch=linux-any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Ruby-Versions": [
+		"all"
+	],
+	"Section": [
+		"libs"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Richard Jones <rjones@redhat.com>, Guido Günther <agx@sigxcpu.org>, Hilko Bengen <bengen@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/?p=pkg-libvirt/libguestfs.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-libvirt/libguestfs.git"
+	],
+	"Version": [
+		"1:1.34.6-2"
+	]
 }

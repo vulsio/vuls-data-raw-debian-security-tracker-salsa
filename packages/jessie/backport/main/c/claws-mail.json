@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "claws-mail, claws-mail-dbg, libclaws-mail-dev, claws-mail-plugins, claws-mail-spamassassin, claws-mail-pgpmime, claws-mail-pgpinline, claws-mail-smime-plugin, claws-mail-bogofilter, claws-mail-i18n, claws-mail-doc, claws-mail-tools, claws-mail-extra-plugins, claws-mail-acpi-notifier, claws-mail-address-keeper, claws-mail-archiver-plugin, claws-mail-attach-remover, claws-mail-attach-warner, claws-mail-bsfilter-plugin, claws-mail-clamd-plugin, claws-mail-fancy-plugin, claws-mail-feeds-reader, claws-mail-fetchinfo-plugin, claws-mail-gdata-plugin, claws-mail-libravatar, claws-mail-newmail-plugin, claws-mail-mailmbox-plugin, claws-mail-managesieve, claws-mail-multi-notifier, claws-mail-tnef-parser, claws-mail-perl-filter, claws-mail-pdf-viewer, claws-mail-python-plugin, claws-mail-spam-report, claws-mail-vcalendar-plugin"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), libcompfaceg1-dev, libsm-dev, libglib2.0-dev, libgtk2.0-dev, libgnutls28-dev, libpisock-dev, libldap2-dev, network-manager-dev [linux-any], flex | flex-old, bison, gettext, libltdl3-dev, autotools-dev, libtool, libenchant-dev, libreadline6-dev, libetpan-dev (>= 1.5), libdbus-glib-1-dev (>= 0.74), xsltproc, docbook-xsl, docbook-xml, libsaxon-java, docbook-utils, libarchive-dev, libwebkitgtk-dev, libgdata-dev (>= 0.17.5), libnotify-dev, libindicate-dev, libcanberra-gtk-dev, libpoppler-glib-dev (>= 0.4.2), libperl-dev (>= 5.8.0), perl (>= 5.8.0), libgpgme11-dev (>= 1.1.1), python-gtk2-dev (>= 2.10.3), libcurl4-gnutls-dev, libexpat-dev, libkrb5-dev"
-  ],
-  "Checksums-Sha1": [
-    "459f59d60d519182dafaf523ef15bfa0880d376a 4766 claws-mail_3.14.1-1~bpo8+1.dsc 9705b0c28c48ee705ae128a570dba6c465a345eb 5812444 claws-mail_3.14.1.orig.tar.xz 500f054e307a2420ff138862a21c9f4ef4d45539 44676 claws-mail_3.14.1-1~bpo8+1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "bb8d49e740c7c712f2a5e7ad9e954ecc120202830f2a7f57c8a5278720e14681 4766 claws-mail_3.14.1-1~bpo8+1.dsc b79a1dc04f0b3d1f693e84d7fa7282f140fb5280179281445a8b954ce423c335 5812444 claws-mail_3.14.1.orig.tar.xz 915a5341a8f648431d5ff9cb87747d3f3ee947dcb5359acc379cdcd986397af9 44676 claws-mail_3.14.1-1~bpo8+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/c/claws-mail"
-  ],
-  "Files": [
-    "71b53c3a2b9fefdbf97f4c3ecd44cca0 4766 claws-mail_3.14.1-1~bpo8+1.dsc c49a729fd9d7db08f89eadde12c76014 5812444 claws-mail_3.14.1.orig.tar.xz 28fcbd609bcab3ea94693e4f69ba206b 44676 claws-mail_3.14.1-1~bpo8+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.claws-mail.org"
-  ],
-  "Maintainer": [
-    "Ricardo Mones <mones@debian.org>"
-  ],
-  "Package": [
-    "claws-mail"
-  ],
-  "Package-List": [
-    "claws-mail deb mail optional arch=any claws-mail-acpi-notifier deb mail optional arch=any claws-mail-address-keeper deb mail optional arch=any claws-mail-archiver-plugin deb mail optional arch=any claws-mail-attach-remover deb mail optional arch=any claws-mail-attach-warner deb mail optional arch=any claws-mail-bogofilter deb mail optional arch=any claws-mail-bsfilter-plugin deb mail optional arch=any claws-mail-clamd-plugin deb mail optional arch=any claws-mail-dbg deb debug extra arch=any claws-mail-doc deb doc optional arch=all claws-mail-extra-plugins deb metapackages optional arch=all claws-mail-fancy-plugin deb mail optional arch=any claws-mail-feeds-reader deb mail optional arch=any claws-mail-fetchinfo-plugin deb mail optional arch=any claws-mail-gdata-plugin deb mail optional arch=any claws-mail-i18n deb localization optional arch=all claws-mail-libravatar deb mail optional arch=any claws-mail-mailmbox-plugin deb mail optional arch=any claws-mail-managesieve deb mail optional arch=any claws-mail-multi-notifier deb mail optional arch=any claws-mail-newmail-plugin deb mail optional arch=any claws-mail-pdf-viewer deb mail optional arch=any claws-mail-perl-filter deb mail optional arch=any claws-mail-pgpinline deb mail optional arch=any claws-mail-pgpmime deb mail optional arch=any claws-mail-plugins deb metapackages optional arch=all claws-mail-python-plugin deb mail optional arch=any claws-mail-smime-plugin deb mail optional arch=any claws-mail-spam-report deb mail optional arch=any claws-mail-spamassassin deb mail optional arch=any claws-mail-tnef-parser deb mail optional arch=any claws-mail-tools deb mail optional arch=all claws-mail-vcalendar-plugin deb mail optional arch=any libclaws-mail-dev deb devel optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/users/mones/claws-mail.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/users/mones/claws-mail.git"
-  ],
-  "Version": [
-    "3.14.1-1~bpo8+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"claws-mail, claws-mail-dbg, libclaws-mail-dev, claws-mail-plugins, claws-mail-spamassassin, claws-mail-pgpmime, claws-mail-pgpinline, claws-mail-smime-plugin, claws-mail-bogofilter, claws-mail-i18n, claws-mail-doc, claws-mail-tools, claws-mail-extra-plugins, claws-mail-acpi-notifier, claws-mail-address-keeper, claws-mail-archiver-plugin, claws-mail-attach-remover, claws-mail-attach-warner, claws-mail-bsfilter-plugin, claws-mail-clamd-plugin, claws-mail-fancy-plugin, claws-mail-feeds-reader, claws-mail-fetchinfo-plugin, claws-mail-gdata-plugin, claws-mail-libravatar, claws-mail-newmail-plugin, claws-mail-mailmbox-plugin, claws-mail-managesieve, claws-mail-multi-notifier, claws-mail-tnef-parser, claws-mail-perl-filter, claws-mail-pdf-viewer, claws-mail-python-plugin, claws-mail-spam-report, claws-mail-vcalendar-plugin"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), libcompfaceg1-dev, libsm-dev, libglib2.0-dev, libgtk2.0-dev, libgnutls28-dev, libpisock-dev, libldap2-dev, network-manager-dev [linux-any], flex | flex-old, bison, gettext, libltdl3-dev, autotools-dev, libtool, libenchant-dev, libreadline6-dev, libetpan-dev (>= 1.5), libdbus-glib-1-dev (>= 0.74), xsltproc, docbook-xsl, docbook-xml, libsaxon-java, docbook-utils, libarchive-dev, libwebkitgtk-dev, libgdata-dev (>= 0.17.5), libnotify-dev, libindicate-dev, libcanberra-gtk-dev, libpoppler-glib-dev (>= 0.4.2), libperl-dev (>= 5.8.0), perl (>= 5.8.0), libgpgme11-dev (>= 1.1.1), python-gtk2-dev (>= 2.10.3), libcurl4-gnutls-dev, libexpat-dev, libkrb5-dev"
+	],
+	"Checksums-Sha1": [
+		"459f59d60d519182dafaf523ef15bfa0880d376a 4766 claws-mail_3.14.1-1~bpo8+1.dsc 9705b0c28c48ee705ae128a570dba6c465a345eb 5812444 claws-mail_3.14.1.orig.tar.xz 500f054e307a2420ff138862a21c9f4ef4d45539 44676 claws-mail_3.14.1-1~bpo8+1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"bb8d49e740c7c712f2a5e7ad9e954ecc120202830f2a7f57c8a5278720e14681 4766 claws-mail_3.14.1-1~bpo8+1.dsc b79a1dc04f0b3d1f693e84d7fa7282f140fb5280179281445a8b954ce423c335 5812444 claws-mail_3.14.1.orig.tar.xz 915a5341a8f648431d5ff9cb87747d3f3ee947dcb5359acc379cdcd986397af9 44676 claws-mail_3.14.1-1~bpo8+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/c/claws-mail"
+	],
+	"Files": [
+		"71b53c3a2b9fefdbf97f4c3ecd44cca0 4766 claws-mail_3.14.1-1~bpo8+1.dsc c49a729fd9d7db08f89eadde12c76014 5812444 claws-mail_3.14.1.orig.tar.xz 28fcbd609bcab3ea94693e4f69ba206b 44676 claws-mail_3.14.1-1~bpo8+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.claws-mail.org"
+	],
+	"Maintainer": [
+		"Ricardo Mones <mones@debian.org>"
+	],
+	"Package": [
+		"claws-mail"
+	],
+	"Package-List": [
+		"claws-mail deb mail optional arch=any claws-mail-acpi-notifier deb mail optional arch=any claws-mail-address-keeper deb mail optional arch=any claws-mail-archiver-plugin deb mail optional arch=any claws-mail-attach-remover deb mail optional arch=any claws-mail-attach-warner deb mail optional arch=any claws-mail-bogofilter deb mail optional arch=any claws-mail-bsfilter-plugin deb mail optional arch=any claws-mail-clamd-plugin deb mail optional arch=any claws-mail-dbg deb debug extra arch=any claws-mail-doc deb doc optional arch=all claws-mail-extra-plugins deb metapackages optional arch=all claws-mail-fancy-plugin deb mail optional arch=any claws-mail-feeds-reader deb mail optional arch=any claws-mail-fetchinfo-plugin deb mail optional arch=any claws-mail-gdata-plugin deb mail optional arch=any claws-mail-i18n deb localization optional arch=all claws-mail-libravatar deb mail optional arch=any claws-mail-mailmbox-plugin deb mail optional arch=any claws-mail-managesieve deb mail optional arch=any claws-mail-multi-notifier deb mail optional arch=any claws-mail-newmail-plugin deb mail optional arch=any claws-mail-pdf-viewer deb mail optional arch=any claws-mail-perl-filter deb mail optional arch=any claws-mail-pgpinline deb mail optional arch=any claws-mail-pgpmime deb mail optional arch=any claws-mail-plugins deb metapackages optional arch=all claws-mail-python-plugin deb mail optional arch=any claws-mail-smime-plugin deb mail optional arch=any claws-mail-spam-report deb mail optional arch=any claws-mail-spamassassin deb mail optional arch=any claws-mail-tnef-parser deb mail optional arch=any claws-mail-tools deb mail optional arch=all claws-mail-vcalendar-plugin deb mail optional arch=any libclaws-mail-dev deb devel optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/users/mones/claws-mail.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/users/mones/claws-mail.git"
+	],
+	"Version": [
+		"3.14.1-1~bpo8+1"
+	]
 }

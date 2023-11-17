@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-rustix-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-bitflags-2+std-dev (>= 2.4.0-~~) <!nocheck>, librust-bitflags-2-dev (>= 2.4.0-~~) <!nocheck>, librust-errno-0.3+std-dev (>= 0.3.1-~~) <!nocheck>, librust-errno-0.3-dev (>= 0.3.1-~~) <!nocheck>, librust-libc-0.2+extra-traits-dev (>= 0.2.148-~~) <!nocheck>, librust-libc-0.2+std-dev (>= 0.2.148-~~) <!nocheck>, librust-linux-raw-sys-0.4+elf-dev (>= 0.4.8-~~) <!nocheck>, librust-linux-raw-sys-0.4+errno-dev (>= 0.4.8-~~) <!nocheck>, librust-linux-raw-sys-0.4+general-dev (>= 0.4.8-~~) <!nocheck>, librust-linux-raw-sys-0.4+ioctl-dev (>= 0.4.8-~~) <!nocheck>, librust-linux-raw-sys-0.4+no-std-dev (>= 0.4.8-~~) <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "dbbdf1b6f0e135749e9ed4e7d133f478b7a44886ca339c8acdb237deaebf5212 3029 rust-rustix_0.38.21-1.dsc 2b426b0506e5d50a7d8dafcf2e81471400deb602392c7dd110815afb4eaf02a3 358962 rust-rustix_0.38.21.orig.tar.gz 9cc2b71d206504c4c2637bd1769089ff999297cc6d8a37cf48f0adb523531b36 6104 rust-rustix_0.38.21-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-rustix"
-  ],
-  "Files": [
-    "8b4592d27a57a735ffa9af4dbc5c3a3b 3029 rust-rustix_0.38.21-1.dsc 3bd91868192fbb6c457c856a1a430a3d 358962 rust-rustix_0.38.21.orig.tar.gz 827405dc99e3d42e63692221334ff94e 6104 rust-rustix_0.38.21-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-rustix"
-  ],
-  "Package-List": [
-    "librust-rustix-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-criterion-0.5+default-dev, librust-errno-0.3-dev, librust-flate2-1+default-dev, librust-libc-0.2+default-dev, librust-memoffset-0.6+default-dev, librust-serial-test-2+default-dev, librust-static-assertions-1+default-dev, librust-tempfile-3+default-dev"
-  ],
-  "Uploaders": [
-    "John Goerzen <jgoerzen@complete.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/rustix"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/rustix]"
-  ],
-  "Version": [
-    "0.38.21-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-rustix-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-bitflags-2+std-dev (>= 2.4.0-~~) <!nocheck>, librust-bitflags-2-dev (>= 2.4.0-~~) <!nocheck>, librust-errno-0.3+std-dev (>= 0.3.1-~~) <!nocheck>, librust-errno-0.3-dev (>= 0.3.1-~~) <!nocheck>, librust-libc-0.2+extra-traits-dev (>= 0.2.148-~~) <!nocheck>, librust-libc-0.2+std-dev (>= 0.2.148-~~) <!nocheck>, librust-linux-raw-sys-0.4+elf-dev (>= 0.4.8-~~) <!nocheck>, librust-linux-raw-sys-0.4+errno-dev (>= 0.4.8-~~) <!nocheck>, librust-linux-raw-sys-0.4+general-dev (>= 0.4.8-~~) <!nocheck>, librust-linux-raw-sys-0.4+ioctl-dev (>= 0.4.8-~~) <!nocheck>, librust-linux-raw-sys-0.4+no-std-dev (>= 0.4.8-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"dbbdf1b6f0e135749e9ed4e7d133f478b7a44886ca339c8acdb237deaebf5212 3029 rust-rustix_0.38.21-1.dsc 2b426b0506e5d50a7d8dafcf2e81471400deb602392c7dd110815afb4eaf02a3 358962 rust-rustix_0.38.21.orig.tar.gz 9cc2b71d206504c4c2637bd1769089ff999297cc6d8a37cf48f0adb523531b36 6104 rust-rustix_0.38.21-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-rustix"
+	],
+	"Files": [
+		"8b4592d27a57a735ffa9af4dbc5c3a3b 3029 rust-rustix_0.38.21-1.dsc 3bd91868192fbb6c457c856a1a430a3d 358962 rust-rustix_0.38.21.orig.tar.gz 827405dc99e3d42e63692221334ff94e 6104 rust-rustix_0.38.21-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-rustix"
+	],
+	"Package-List": [
+		"librust-rustix-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-criterion-0.5+default-dev, librust-errno-0.3-dev, librust-flate2-1+default-dev, librust-libc-0.2+default-dev, librust-memoffset-0.6+default-dev, librust-serial-test-2+default-dev, librust-static-assertions-1+default-dev, librust-tempfile-3+default-dev"
+	],
+	"Uploaders": [
+		"John Goerzen <jgoerzen@complete.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/rustix"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/rustix]"
+	],
+	"Version": [
+		"0.38.21-1"
+	]
 }

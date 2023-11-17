@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-plotters-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-chrono-0.4+default-dev (>= 0.4.20-~~) <!nocheck>, librust-font-kit-0.11+default-dev <!nocheck>, librust-image-0.24-dev (>= 0.24.3-~~) <!nocheck>, librust-lazy-static-1+default-dev (>= 1.4.0-~~) <!nocheck>, librust-num-traits-0.2+default-dev (>= 0.2.14-~~) <!nocheck>, librust-pathfinder-geometry-0.5+default-dev (>= 0.5.1-~~) <!nocheck>, librust-plotters-backend-0.3+default-dev <!nocheck>, librust-plotters-bitmap-0.3-dev <!nocheck>, librust-plotters-svg-0.3+default-dev <!nocheck>, librust-ttf-parser-0.15+default-dev <!nocheck>, librust-wasm-bindgen-0.2+default-dev (>= 0.2.62-~~) <!nocheck>, librust-web-sys-0.3+default-dev (>= 0.3.51-~~) <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "b90d3e2e77357a2812294e8c9be51f50cbc39719681f57745e7eae844615c9dc 3181 rust-plotters_0.3.4-3.dsc 2538b639e642295546c50fcd545198c9d64ee2a38620a628724a3b266d5fbf97 143219 rust-plotters_0.3.4.orig.tar.gz 2b3d5828bb3b716f57d52fa64dca8de74f8337b8e2c64ae86d0c82fcdf20b07e 4688 rust-plotters_0.3.4-3.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-plotters"
-  ],
-  "Files": [
-    "16de7674d74347d5ead8bb68be601a89 3181 rust-plotters_0.3.4-3.dsc f3571b343bacab551cc039dc3d93f3a5 143219 rust-plotters_0.3.4.orig.tar.gz 70d7657edc52324fb24d965d8265e466 4688 rust-plotters_0.3.4-3.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://plotters-rs.github.io/"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-plotters"
-  ],
-  "Package-List": [
-    "librust-plotters-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.5.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-criterion-0.4+default-dev, librust-itertools-0.10+default-dev, librust-rand-0.8+default-dev, librust-rand-distr-0.4+default-dev, librust-rand-xorshift-0.3+default-dev, librust-rayon-1+default-dev, librust-serde-1+default-dev, librust-serde-derive-1+default-dev, librust-serde-json-1+default-dev"
-  ],
-  "Uploaders": [
-    "Jelmer Vernooĳ <jelmer@debian.org>, Blair Noctis <n@sail.ng>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/plotters"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/plotters]"
-  ],
-  "Version": [
-    "0.3.4-3"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-plotters-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-chrono-0.4+default-dev (>= 0.4.20-~~) <!nocheck>, librust-font-kit-0.11+default-dev <!nocheck>, librust-image-0.24-dev (>= 0.24.3-~~) <!nocheck>, librust-lazy-static-1+default-dev (>= 1.4.0-~~) <!nocheck>, librust-num-traits-0.2+default-dev (>= 0.2.14-~~) <!nocheck>, librust-pathfinder-geometry-0.5+default-dev (>= 0.5.1-~~) <!nocheck>, librust-plotters-backend-0.3+default-dev <!nocheck>, librust-plotters-bitmap-0.3-dev <!nocheck>, librust-plotters-svg-0.3+default-dev <!nocheck>, librust-ttf-parser-0.15+default-dev <!nocheck>, librust-wasm-bindgen-0.2+default-dev (>= 0.2.62-~~) <!nocheck>, librust-web-sys-0.3+default-dev (>= 0.3.51-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"b90d3e2e77357a2812294e8c9be51f50cbc39719681f57745e7eae844615c9dc 3181 rust-plotters_0.3.4-3.dsc 2538b639e642295546c50fcd545198c9d64ee2a38620a628724a3b266d5fbf97 143219 rust-plotters_0.3.4.orig.tar.gz 2b3d5828bb3b716f57d52fa64dca8de74f8337b8e2c64ae86d0c82fcdf20b07e 4688 rust-plotters_0.3.4-3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-plotters"
+	],
+	"Files": [
+		"16de7674d74347d5ead8bb68be601a89 3181 rust-plotters_0.3.4-3.dsc f3571b343bacab551cc039dc3d93f3a5 143219 rust-plotters_0.3.4.orig.tar.gz 70d7657edc52324fb24d965d8265e466 4688 rust-plotters_0.3.4-3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://plotters-rs.github.io/"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-plotters"
+	],
+	"Package-List": [
+		"librust-plotters-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-criterion-0.4+default-dev, librust-itertools-0.10+default-dev, librust-rand-0.8+default-dev, librust-rand-distr-0.4+default-dev, librust-rand-xorshift-0.3+default-dev, librust-rayon-1+default-dev, librust-serde-1+default-dev, librust-serde-derive-1+default-dev, librust-serde-json-1+default-dev"
+	],
+	"Uploaders": [
+		"Jelmer Vernooĳ <jelmer@debian.org>, Blair Noctis <n@sail.ng>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/plotters"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/plotters]"
+	],
+	"Version": [
+		"0.3.4-3"
+	]
 }

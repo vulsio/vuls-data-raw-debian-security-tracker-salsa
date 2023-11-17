@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-oslo.concurrency, python3-oslo.concurrency, python-oslo.concurrency-doc, python-oslo-concurrency, python-oslo-concurrency-doc, python3-oslo-concurrency"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-python, openstack-pkg-tools, python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.8), python3-setuptools"
-  ],
-  "Build-Depends-Indep": [
-    "python-babel, python-concurrent.futures, python-coverage, python-eventlet (>= 0.18.2), python-enum34, python-fasteners, python-fixtures (>= 1.3.1), python-greenlet, python-hacking, python-iso8601, python-oslo.config (>= 1:3.7.0), python-oslo.i18n (>= 2.1.0), python-oslo.utils (>= 3.5.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1.5.1), python-posix-ipc, python-retrying, python-six (>= 1.9.0), python3-babel, python3-eventlet (>= 0.18.2), python3-fasteners, python3-fixtures (>= 1.3.1), python3-greenlet, python3-iso8601, python3-oslo.config (>= 1:3.7.0), python3-oslo.i18n (>= 2.1.0), python3-oslo.utils (>= 3.5.0), python3-oslotest (>= 1.5.1), python3-posix-ipc, python3-retrying, python3-six (>= 1.9.0), subunit, testrepository"
-  ],
-  "Checksums-Sha1": [
-    "c38129a6ae3757cf5723c5b5820ff46b1449b1e2 3417 python-oslo.concurrency_3.7.1-1~bpo8+1.dsc df3b8e04fd0fd3aa5f26221092e01a3e71fa6cc0 29908 python-oslo.concurrency_3.7.1.orig.tar.xz d9a9ba1d7a3cf7e00440a68f1d47e97388a07b08 5588 python-oslo.concurrency_3.7.1-1~bpo8+1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "f50393611bd197c0507bbb31dd2085b8137cf1e5dd5c85c476f39d41c0defcf6 3417 python-oslo.concurrency_3.7.1-1~bpo8+1.dsc 3774a3a4b3f855a94ea922b4c5008d6cd1114039e9d3b19c8d07b3aeb821576d 29908 python-oslo.concurrency_3.7.1.orig.tar.xz a8e267ebe46661043c59428ed3bf9042afd54e7353a472b72675ca4b58aec963 5588 python-oslo.concurrency_3.7.1-1~bpo8+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/python-oslo.concurrency"
-  ],
-  "Files": [
-    "f7cf2807e8f4fbeeaa1c5275432cb2ae 3417 python-oslo.concurrency_3.7.1-1~bpo8+1.dsc 15091be1441706f93c6c0cf4557f4295 29908 python-oslo.concurrency_3.7.1.orig.tar.xz ea2a26247642b3da388f52ca878b8419 5588 python-oslo.concurrency_3.7.1-1~bpo8+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/openstack/oslo.concurrency"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "python-oslo.concurrency"
-  ],
-  "Package-List": [
-    "python-oslo-concurrency deb oldlibs extra arch=all python-oslo-concurrency-doc deb oldlibs extra arch=all python-oslo.concurrency deb python optional arch=all python-oslo.concurrency-doc deb doc optional arch=all python3-oslo-concurrency deb oldlibs extra arch=all python3-oslo.concurrency deb python optional arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/openstack/python-oslo.concurrency.git/"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/openstack/python-oslo.concurrency.git"
-  ],
-  "Version": [
-    "3.7.1-1~bpo8+1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-oslo.concurrency, python3-oslo.concurrency, python-oslo.concurrency-doc, python-oslo-concurrency, python-oslo-concurrency-doc, python3-oslo-concurrency"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-python, openstack-pkg-tools, python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.8), python3-setuptools"
+	],
+	"Build-Depends-Indep": [
+		"python-babel, python-concurrent.futures, python-coverage, python-eventlet (>= 0.18.2), python-enum34, python-fasteners, python-fixtures (>= 1.3.1), python-greenlet, python-hacking, python-iso8601, python-oslo.config (>= 1:3.7.0), python-oslo.i18n (>= 2.1.0), python-oslo.utils (>= 3.5.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1.5.1), python-posix-ipc, python-retrying, python-six (>= 1.9.0), python3-babel, python3-eventlet (>= 0.18.2), python3-fasteners, python3-fixtures (>= 1.3.1), python3-greenlet, python3-iso8601, python3-oslo.config (>= 1:3.7.0), python3-oslo.i18n (>= 2.1.0), python3-oslo.utils (>= 3.5.0), python3-oslotest (>= 1.5.1), python3-posix-ipc, python3-retrying, python3-six (>= 1.9.0), subunit, testrepository"
+	],
+	"Checksums-Sha1": [
+		"c38129a6ae3757cf5723c5b5820ff46b1449b1e2 3417 python-oslo.concurrency_3.7.1-1~bpo8+1.dsc df3b8e04fd0fd3aa5f26221092e01a3e71fa6cc0 29908 python-oslo.concurrency_3.7.1.orig.tar.xz d9a9ba1d7a3cf7e00440a68f1d47e97388a07b08 5588 python-oslo.concurrency_3.7.1-1~bpo8+1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"f50393611bd197c0507bbb31dd2085b8137cf1e5dd5c85c476f39d41c0defcf6 3417 python-oslo.concurrency_3.7.1-1~bpo8+1.dsc 3774a3a4b3f855a94ea922b4c5008d6cd1114039e9d3b19c8d07b3aeb821576d 29908 python-oslo.concurrency_3.7.1.orig.tar.xz a8e267ebe46661043c59428ed3bf9042afd54e7353a472b72675ca4b58aec963 5588 python-oslo.concurrency_3.7.1-1~bpo8+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-oslo.concurrency"
+	],
+	"Files": [
+		"f7cf2807e8f4fbeeaa1c5275432cb2ae 3417 python-oslo.concurrency_3.7.1-1~bpo8+1.dsc 15091be1441706f93c6c0cf4557f4295 29908 python-oslo.concurrency_3.7.1.orig.tar.xz ea2a26247642b3da388f52ca878b8419 5588 python-oslo.concurrency_3.7.1-1~bpo8+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/openstack/oslo.concurrency"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"python-oslo.concurrency"
+	],
+	"Package-List": [
+		"python-oslo-concurrency deb oldlibs extra arch=all python-oslo-concurrency-doc deb oldlibs extra arch=all python-oslo.concurrency deb python optional arch=all python-oslo.concurrency-doc deb doc optional arch=all python3-oslo-concurrency deb oldlibs extra arch=all python3-oslo.concurrency deb python optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/openstack/python-oslo.concurrency.git/"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/openstack/python-oslo.concurrency.git"
+	],
+	"Version": [
+		"3.7.1-1~bpo8+1"
+	]
 }

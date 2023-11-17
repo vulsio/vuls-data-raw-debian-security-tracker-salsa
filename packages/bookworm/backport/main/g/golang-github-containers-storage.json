@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "golang-github-containers-storage-dev, containers-storage"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 11), dh-golang, ffjson, go-md2man, golang-github-burntsushi-toml-dev, golang-github-containerd-stargz-snapshotter-dev (>= 0.8.0-3), golang-github-cyphar-filepath-securejoin-dev, golang-github-containerd-btrfs-dev (>= 1.0.0), golang-github-datadog-zstd-dev, golang-github-docker-go-units-dev, golang-github-google-go-intervals-dev, golang-github-gotestyourself-gotest.tools-dev, golang-github-hashicorp-go-multierror-dev, golang-github-json-iterator-go-dev, golang-github-klauspost-pgzip-dev, golang-github-mattn-go-shellwords-dev, golang-github-moby-sys-dev, golang-github-opencontainers-go-digest-dev, golang-github-opencontainers-runc-dev, golang-github-opencontainers-selinux-dev (>= 1.5.0), golang-github-opencontainers-specs-dev, golang-github-pkg-errors-dev, golang-github-pquerna-ffjson-dev, golang-github-sirupsen-logrus-dev, golang-github-stretchr-testify-dev, golang-github-ulikunitz-xz-dev, golang-github-vbatts-tar-split-dev, golang-go (>> 2:1.14~~), golang-go-patricia-dev, golang-go-zfs-dev, golang-gocapability-dev, golang-golang-x-net-dev, golang-golang-x-sys-dev (>> 0.0~git20201223), libbtrfs-dev, libdevmapper-dev"
-  ],
-  "Checksums-Sha256": [
-    "80fa9eb90c4d0336ed0db959788e2cb1aebec2ab9b8dacd30cebbff7dc5424b6 2991 golang-github-containers-storage_1.48.1+ds1-2~bpo12+1.dsc 145d0103d3cf9c55bce17f06bfbf825e3c1fa03111d485b85f93510faf1683ea 441956 golang-github-containers-storage_1.48.1+ds1.orig.tar.xz b66aa0e6cc76c6dedf1b10e6956807e1dc97f16b5585406b9e4b2b6dad2ea828 6972 golang-github-containers-storage_1.48.1+ds1-2~bpo12+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/g/golang-github-containers-storage"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Go-Import-Path": [
-    "github.com/containers/storage"
-  ],
-  "Homepage": [
-    "https://github.com/containers/storage"
-  ],
-  "Maintainer": [
-    "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>"
-  ],
-  "Package": [
-    "golang-github-containers-storage"
-  ],
-  "Package-List": [
-    "containers-storage deb devel optional arch=any golang-github-containers-storage-dev deb devel optional arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.5.0"
-  ],
-  "Testsuite": [
-    "autopkgtest-pkg-go"
-  ],
-  "Uploaders": [
-    "Reinhard Tartler <siretart@tauware.de>, Dmitry Smirnov <onlyjob@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/go-team/packages/golang-github-containers-storage"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/go-team/packages/golang-github-containers-storage.git"
-  ],
-  "Version": [
-    "1.48.1+ds1-2~bpo12+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"golang-github-containers-storage-dev, containers-storage"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 11), dh-golang, ffjson, go-md2man, golang-github-burntsushi-toml-dev, golang-github-containerd-stargz-snapshotter-dev (>= 0.8.0-3), golang-github-cyphar-filepath-securejoin-dev, golang-github-containerd-btrfs-dev (>= 1.0.0), golang-github-datadog-zstd-dev, golang-github-docker-go-units-dev, golang-github-google-go-intervals-dev, golang-github-gotestyourself-gotest.tools-dev, golang-github-hashicorp-go-multierror-dev, golang-github-json-iterator-go-dev, golang-github-klauspost-pgzip-dev, golang-github-mattn-go-shellwords-dev, golang-github-moby-sys-dev, golang-github-opencontainers-go-digest-dev, golang-github-opencontainers-runc-dev, golang-github-opencontainers-selinux-dev (>= 1.5.0), golang-github-opencontainers-specs-dev, golang-github-pkg-errors-dev, golang-github-pquerna-ffjson-dev, golang-github-sirupsen-logrus-dev, golang-github-stretchr-testify-dev, golang-github-ulikunitz-xz-dev, golang-github-vbatts-tar-split-dev, golang-go (>> 2:1.14~~), golang-go-patricia-dev, golang-go-zfs-dev, golang-gocapability-dev, golang-golang-x-net-dev, golang-golang-x-sys-dev (>> 0.0~git20201223), libbtrfs-dev, libdevmapper-dev"
+	],
+	"Checksums-Sha256": [
+		"80fa9eb90c4d0336ed0db959788e2cb1aebec2ab9b8dacd30cebbff7dc5424b6 2991 golang-github-containers-storage_1.48.1+ds1-2~bpo12+1.dsc 145d0103d3cf9c55bce17f06bfbf825e3c1fa03111d485b85f93510faf1683ea 441956 golang-github-containers-storage_1.48.1+ds1.orig.tar.xz b66aa0e6cc76c6dedf1b10e6956807e1dc97f16b5585406b9e4b2b6dad2ea828 6972 golang-github-containers-storage_1.48.1+ds1-2~bpo12+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/golang-github-containers-storage"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Go-Import-Path": [
+		"github.com/containers/storage"
+	],
+	"Homepage": [
+		"https://github.com/containers/storage"
+	],
+	"Maintainer": [
+		"Debian Go Packaging Team <team+pkg-go@tracker.debian.org>"
+	],
+	"Package": [
+		"golang-github-containers-storage"
+	],
+	"Package-List": [
+		"containers-storage deb devel optional arch=any golang-github-containers-storage-dev deb devel optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.0"
+	],
+	"Testsuite": [
+		"autopkgtest-pkg-go"
+	],
+	"Uploaders": [
+		"Reinhard Tartler <siretart@tauware.de>, Dmitry Smirnov <onlyjob@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/go-team/packages/golang-github-containers-storage"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/go-team/packages/golang-github-containers-storage.git"
+	],
+	"Version": [
+		"1.48.1+ds1-2~bpo12+1"
+	]
 }

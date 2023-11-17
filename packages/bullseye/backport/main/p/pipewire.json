@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "linux-any all"
-  ],
-  "Binary": [
-    "libpipewire-0.3-0, libpipewire-0.3-common, libpipewire-0.3-dev, libpipewire-0.3-modules, libpipewire-0.3-modules-x11, libspa-0.2-dev, libspa-0.2-modules, pipewire-doc, pipewire, pipewire-bin, pipewire-pulse, pipewire-alsa, pipewire-jack, pipewire-v4l2, pipewire-tests, gstreamer1.0-pipewire, libspa-0.2-bluetooth, libspa-0.2-jack, pipewire-audio-client-libraries, pipewire-audio"
-  ],
-  "Build-Conflicts": [
-    "libfdk-aac-dev"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), doxygen <!nodoc>, graphviz <!nodoc>, libasound2-dev, libavahi-client-dev, libbluetooth-dev, libdbus-1-dev, libfreeaptx-dev, libglib2.0-dev, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libjack-jackd2-dev, libcanberra-dev, libldacbt-abr-dev [!s390x !hppa !m68k !powerpc !ppc64 !sparc64], libldacbt-enc-dev [!s390x !hppa !m68k !powerpc !ppc64 !sparc64], liblilv-dev, libncurses-dev, libopus-dev, libpulse-dev, libreadline-dev, libsbc-dev, libsdl2-dev, libsndfile1-dev, libssl-dev, libsystemd-dev [linux-any], libudev-dev [linux-any], libusb-1.0-0-dev, libv4l-dev, libwebrtc-audio-processing-dev, meson (>= 0.59.0), modemmanager-dev, pkg-config, python3-docutils, systemd [linux-any]"
-  ],
-  "Checksums-Sha256": [
-    "f4471beb8cb5a16f3ee7750dae8e108163aa6f068c6eb96fa7ce6e668d48c33f 4212 pipewire_0.3.65-2~bpo11+1.dsc c78c95cdff2774418f0a9468e94a1b2800761d322f13104df6501e1a0dc92558 1522095 pipewire_0.3.65.orig.tar.bz2 4fcf075d6fe973ac2c3daa04c2c1f0f7573f5deae07238c7cb41909cd27976ff 24764 pipewire_0.3.65-2~bpo11+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/pipewire"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://pipewire.org/"
-  ],
-  "Maintainer": [
-    "Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "pipewire"
-  ],
-  "Package-List": [
-    "gstreamer1.0-pipewire deb libs optional arch=linux-any libpipewire-0.3-0 deb libs optional arch=linux-any libpipewire-0.3-common deb libs optional arch=all libpipewire-0.3-dev deb libdevel optional arch=linux-any libpipewire-0.3-modules deb libs optional arch=linux-any libpipewire-0.3-modules-x11 deb libs optional arch=linux-any libspa-0.2-bluetooth deb libs optional arch=linux-any libspa-0.2-dev deb libdevel optional arch=linux-any libspa-0.2-jack deb libs optional arch=linux-any libspa-0.2-modules deb libs optional arch=linux-any pipewire deb video optional arch=linux-any pipewire-alsa deb sound optional arch=linux-any pipewire-audio deb sound optional arch=all pipewire-audio-client-libraries deb oldlibs optional arch=all pipewire-bin deb video optional arch=linux-any pipewire-doc deb doc optional arch=all profile=!nodoc pipewire-jack deb sound optional arch=linux-any pipewire-pulse deb sound optional arch=linux-any pipewire-tests deb misc optional arch=linux-any pipewire-v4l2 deb video optional arch=linux-any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential, gnome-desktop-testing, gstreamer1.0-tools, pkg-config"
-  ],
-  "Uploaders": [
-    "Jeremy Bicha <jbicha@debian.org>, Dylan Aïssi <daissi@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/utopia-team/pipewire"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/utopia-team/pipewire.git"
-  ],
-  "Version": [
-    "0.3.65-2~bpo11+1"
-  ]
+	"Architecture": [
+		"linux-any all"
+	],
+	"Binary": [
+		"libpipewire-0.3-0, libpipewire-0.3-common, libpipewire-0.3-dev, libpipewire-0.3-modules, libpipewire-0.3-modules-x11, libspa-0.2-dev, libspa-0.2-modules, pipewire-doc, pipewire, pipewire-bin, pipewire-pulse, pipewire-alsa, pipewire-jack, pipewire-v4l2, pipewire-tests, gstreamer1.0-pipewire, libspa-0.2-bluetooth, libspa-0.2-jack, pipewire-audio-client-libraries, pipewire-audio"
+	],
+	"Build-Conflicts": [
+		"libfdk-aac-dev"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), doxygen <!nodoc>, graphviz <!nodoc>, libasound2-dev, libavahi-client-dev, libbluetooth-dev, libdbus-1-dev, libfreeaptx-dev, libglib2.0-dev, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libjack-jackd2-dev, libcanberra-dev, libldacbt-abr-dev [!s390x !hppa !m68k !powerpc !ppc64 !sparc64], libldacbt-enc-dev [!s390x !hppa !m68k !powerpc !ppc64 !sparc64], liblilv-dev, libncurses-dev, libopus-dev, libpulse-dev, libreadline-dev, libsbc-dev, libsdl2-dev, libsndfile1-dev, libssl-dev, libsystemd-dev [linux-any], libudev-dev [linux-any], libusb-1.0-0-dev, libv4l-dev, libwebrtc-audio-processing-dev, meson (>= 0.59.0), modemmanager-dev, pkg-config, python3-docutils, systemd [linux-any]"
+	],
+	"Checksums-Sha256": [
+		"f4471beb8cb5a16f3ee7750dae8e108163aa6f068c6eb96fa7ce6e668d48c33f 4212 pipewire_0.3.65-2~bpo11+1.dsc c78c95cdff2774418f0a9468e94a1b2800761d322f13104df6501e1a0dc92558 1522095 pipewire_0.3.65.orig.tar.bz2 4fcf075d6fe973ac2c3daa04c2c1f0f7573f5deae07238c7cb41909cd27976ff 24764 pipewire_0.3.65-2~bpo11+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/pipewire"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://pipewire.org/"
+	],
+	"Maintainer": [
+		"Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"pipewire"
+	],
+	"Package-List": [
+		"gstreamer1.0-pipewire deb libs optional arch=linux-any libpipewire-0.3-0 deb libs optional arch=linux-any libpipewire-0.3-common deb libs optional arch=all libpipewire-0.3-dev deb libdevel optional arch=linux-any libpipewire-0.3-modules deb libs optional arch=linux-any libpipewire-0.3-modules-x11 deb libs optional arch=linux-any libspa-0.2-bluetooth deb libs optional arch=linux-any libspa-0.2-dev deb libdevel optional arch=linux-any libspa-0.2-jack deb libs optional arch=linux-any libspa-0.2-modules deb libs optional arch=linux-any pipewire deb video optional arch=linux-any pipewire-alsa deb sound optional arch=linux-any pipewire-audio deb sound optional arch=all pipewire-audio-client-libraries deb oldlibs optional arch=all pipewire-bin deb video optional arch=linux-any pipewire-doc deb doc optional arch=all profile=!nodoc pipewire-jack deb sound optional arch=linux-any pipewire-pulse deb sound optional arch=linux-any pipewire-tests deb misc optional arch=linux-any pipewire-v4l2 deb video optional arch=linux-any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, gnome-desktop-testing, gstreamer1.0-tools, pkg-config"
+	],
+	"Uploaders": [
+		"Jeremy Bicha <jbicha@debian.org>, Dylan Aïssi <daissi@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/utopia-team/pipewire"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/utopia-team/pipewire.git"
+	],
+	"Version": [
+		"0.3.65-2~bpo11+1"
+	]
 }

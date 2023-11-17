@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "php5, php5-common, libapache2-mod-php5, libapache2-mod-php5filter, php5-cgi, php5-cli, php5-fpm, libphp5-embed, php5-dev, php5-dbg, php-pear, php5-curl, php5-enchant, php5-gd, php5-gmp, php5-imap, php5-interbase, php5-intl, php5-ldap, php5-mcrypt, php5-mysql, php5-mysqlnd, php5-odbc, php5-pgsql, php5-pspell, php5-recode, php5-snmp, php5-sqlite, php5-sybase, php5-tidy, php5-xmlrpc, php5-xsl"
-  ],
-  "Build-Conflicts": [
-    "bind-dev"
-  ],
-  "Build-Depends": [
-    "apache2-prefork-dev, autoconf (>= 2.63), automake (>= 1.11) | automake1.11, bison, chrpath, debhelper (>= 5), firebird-dev [!hurd-any !m68k !hppa !ppc64] | firebird2.5-dev [!hurd-any !m68k !hppa !ppc64] | firebird2.1-dev [!hurd-any !m68k !hppa !ppc64], flex, freetds-dev, hardening-wrapper, libapr1-dev (>= 1.2.7-8), libbz2-dev, libc-client-dev, libcurl4-openssl-dev | libcurl-dev, libdb-dev, libenchant-dev, libevent-dev (>= 1.4.11), libexpat1-dev (>= 1.95.2-2.1), libfreetype6-dev, libgcrypt11-dev, libgd2-xpm-dev, libglib2.0-dev, libgmp3-dev, libicu-dev, libjpeg-dev | libjpeg62-dev, libkrb5-dev, libldap2-dev, libmagic-dev, libmcrypt-dev, libmhash-dev (>= 0.8.8), libmysqlclient-dev | libmysqlclient15-dev, libonig-dev, libpam0g-dev, libpcre3-dev (>= 6.6), libpng-dev | libpng12-dev, libpq-dev, libpspell-dev, libqdbm-dev, librecode-dev, libsasl2-dev, libsnmp-dev, libsqlite3-dev, libssl-dev, libtidy-dev, libtool (>= 2.2), libwrap0-dev, libxmltok1-dev, libxml2-dev, libxslt1-dev (>= 1.0.18), locales-all | language-pack-de, mysql-server, netbase, netcat-traditional, quilt, re2c, unixodbc-dev, zlib1g-dev, tzdata"
-  ],
-  "Checksums-Sha1": [
-    "34c7cfe9967d724f17b9ce1f8091441aa3e5eecc 4595 php5_5.4.45-0+deb7u14.dsc 06ece3f8b53d6f4209d414a95f288771ff8f9247 15879453 php5_5.4.45.orig.tar.gz 98d1795d5dd17b345aa4838926d18d5a3c45284d 338294 php5_5.4.45-0+deb7u14.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "66bce0fb996ae406da97a1e269a4178b32c7c7594f69f7cb8c90f14ca660a61f 4595 php5_5.4.45-0+deb7u14.dsc 25bc4723955f4e352935258002af14a14a9810b491a19400d76fcdfa9d04b28f 15879453 php5_5.4.45.orig.tar.gz 294f05bf265af629594dbf4ac81254fea1dbd379b92b4d3f216bbb80f540a832 338294 php5_5.4.45-0+deb7u14.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/updates/main/p/php5"
-  ],
-  "Files": [
-    "413d5a00218385d40f55ad51d9c62a6f 4595 php5_5.4.45-0+deb7u14.dsc ba580e774ed1ab256f22d1fa69a59311 15879453 php5_5.4.45.orig.tar.gz 90b12699fe3a94c755d386bb94616fac 338294 php5_5.4.45-0+deb7u14.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.php.net/"
-  ],
-  "Maintainer": [
-    "Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "php5"
-  ],
-  "Package-List": [
-    "libapache2-mod-php5 deb httpd optional libapache2-mod-php5filter deb httpd extra libphp5-embed deb php optional php-pear deb php optional php5 deb php optional php5-cgi deb php optional php5-cli deb php optional php5-common deb php optional php5-curl deb php optional php5-dbg deb debug extra php5-dev deb php optional php5-enchant deb php optional php5-fpm deb php optional php5-gd deb php optional php5-gmp deb php optional php5-imap deb php optional php5-interbase deb php optional php5-intl deb php optional php5-ldap deb php optional php5-mcrypt deb php optional php5-mysql deb php optional php5-mysqlnd deb php extra php5-odbc deb php optional php5-pgsql deb php optional php5-pspell deb php optional php5-recode deb php optional php5-snmp deb php optional php5-sqlite deb php optional php5-sybase deb php optional php5-tidy deb php optional php5-xmlrpc deb php optional php5-xsl deb php optional"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "web"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Ondřej Surý <ondrej@debian.org>, Sean Finney <seanius@debian.org>, Thijs Kinkhorst <thijs@debian.org>, Lior Kaplan <kaplan@debian.org>, William Dauchy <wdauchy@gmail.com>"
-  ],
-  "Vcs-Browser": [
-    "http://git.debian.org/?p=pkg-php/php.git"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/pkg-php/php.git"
-  ],
-  "Version": [
-    "5.4.45-0+deb7u14"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"php5, php5-common, libapache2-mod-php5, libapache2-mod-php5filter, php5-cgi, php5-cli, php5-fpm, libphp5-embed, php5-dev, php5-dbg, php-pear, php5-curl, php5-enchant, php5-gd, php5-gmp, php5-imap, php5-interbase, php5-intl, php5-ldap, php5-mcrypt, php5-mysql, php5-mysqlnd, php5-odbc, php5-pgsql, php5-pspell, php5-recode, php5-snmp, php5-sqlite, php5-sybase, php5-tidy, php5-xmlrpc, php5-xsl"
+	],
+	"Build-Conflicts": [
+		"bind-dev"
+	],
+	"Build-Depends": [
+		"apache2-prefork-dev, autoconf (>= 2.63), automake (>= 1.11) | automake1.11, bison, chrpath, debhelper (>= 5), firebird-dev [!hurd-any !m68k !hppa !ppc64] | firebird2.5-dev [!hurd-any !m68k !hppa !ppc64] | firebird2.1-dev [!hurd-any !m68k !hppa !ppc64], flex, freetds-dev, hardening-wrapper, libapr1-dev (>= 1.2.7-8), libbz2-dev, libc-client-dev, libcurl4-openssl-dev | libcurl-dev, libdb-dev, libenchant-dev, libevent-dev (>= 1.4.11), libexpat1-dev (>= 1.95.2-2.1), libfreetype6-dev, libgcrypt11-dev, libgd2-xpm-dev, libglib2.0-dev, libgmp3-dev, libicu-dev, libjpeg-dev | libjpeg62-dev, libkrb5-dev, libldap2-dev, libmagic-dev, libmcrypt-dev, libmhash-dev (>= 0.8.8), libmysqlclient-dev | libmysqlclient15-dev, libonig-dev, libpam0g-dev, libpcre3-dev (>= 6.6), libpng-dev | libpng12-dev, libpq-dev, libpspell-dev, libqdbm-dev, librecode-dev, libsasl2-dev, libsnmp-dev, libsqlite3-dev, libssl-dev, libtidy-dev, libtool (>= 2.2), libwrap0-dev, libxmltok1-dev, libxml2-dev, libxslt1-dev (>= 1.0.18), locales-all | language-pack-de, mysql-server, netbase, netcat-traditional, quilt, re2c, unixodbc-dev, zlib1g-dev, tzdata"
+	],
+	"Checksums-Sha1": [
+		"34c7cfe9967d724f17b9ce1f8091441aa3e5eecc 4595 php5_5.4.45-0+deb7u14.dsc 06ece3f8b53d6f4209d414a95f288771ff8f9247 15879453 php5_5.4.45.orig.tar.gz 98d1795d5dd17b345aa4838926d18d5a3c45284d 338294 php5_5.4.45-0+deb7u14.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"66bce0fb996ae406da97a1e269a4178b32c7c7594f69f7cb8c90f14ca660a61f 4595 php5_5.4.45-0+deb7u14.dsc 25bc4723955f4e352935258002af14a14a9810b491a19400d76fcdfa9d04b28f 15879453 php5_5.4.45.orig.tar.gz 294f05bf265af629594dbf4ac81254fea1dbd379b92b4d3f216bbb80f540a832 338294 php5_5.4.45-0+deb7u14.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/updates/main/p/php5"
+	],
+	"Files": [
+		"413d5a00218385d40f55ad51d9c62a6f 4595 php5_5.4.45-0+deb7u14.dsc ba580e774ed1ab256f22d1fa69a59311 15879453 php5_5.4.45.orig.tar.gz 90b12699fe3a94c755d386bb94616fac 338294 php5_5.4.45-0+deb7u14.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.php.net/"
+	],
+	"Maintainer": [
+		"Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"php5"
+	],
+	"Package-List": [
+		"libapache2-mod-php5 deb httpd optional libapache2-mod-php5filter deb httpd extra libphp5-embed deb php optional php-pear deb php optional php5 deb php optional php5-cgi deb php optional php5-cli deb php optional php5-common deb php optional php5-curl deb php optional php5-dbg deb debug extra php5-dev deb php optional php5-enchant deb php optional php5-fpm deb php optional php5-gd deb php optional php5-gmp deb php optional php5-imap deb php optional php5-interbase deb php optional php5-intl deb php optional php5-ldap deb php optional php5-mcrypt deb php optional php5-mysql deb php optional php5-mysqlnd deb php extra php5-odbc deb php optional php5-pgsql deb php optional php5-pspell deb php optional php5-recode deb php optional php5-snmp deb php optional php5-sqlite deb php optional php5-sybase deb php optional php5-tidy deb php optional php5-xmlrpc deb php optional php5-xsl deb php optional"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"web"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Ondřej Surý <ondrej@debian.org>, Sean Finney <seanius@debian.org>, Thijs Kinkhorst <thijs@debian.org>, Lior Kaplan <kaplan@debian.org>, William Dauchy <wdauchy@gmail.com>"
+	],
+	"Vcs-Browser": [
+		"http://git.debian.org/?p=pkg-php/php.git"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/pkg-php/php.git"
+	],
+	"Version": [
+		"5.4.45-0+deb7u14"
+	]
 }

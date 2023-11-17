@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libav-tools, libav-dbg, libav-doc, libavutil54, libavcodec56, libavdevice55, libavformat56, libavfilter5, libswscale3, libavutil-dev, libavcodec-dev, libavdevice-dev, libavformat-dev, libavfilter-dev, libswscale-dev, libavresample-dev, libavresample2, libavcodec-extra-56, libavcodec-extra"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), frei0r-plugins-dev, libasound2-dev [linux-any], libbz2-dev, libcdio-cdda-dev, libcdio-dev, libcdio-paranoia-dev, libdc1394-22-dev [linux-any], libfreetype6-dev (>= 2.5.1), libgnutls28-dev, libgsm1-dev, libjack-dev, libmp3lame-dev, libopencore-amrnb-dev, libopencore-amrwb-dev, libopencv-dev, libopenjpeg-dev, libopus-dev (>= 1.0.1), libpulse-dev, libraw1394-dev [linux-any], librtmp-dev (>= 2.2e-4), libschroedinger-dev, libsdl1.2-dev, libspeex-dev, libtheora-dev (>> 0.0.0.alpha4), libtiff-dev, libva-dev [!hurd-any], libvdpau-dev, libvo-aacenc-dev, libvo-amrwbenc-dev, libvorbis-dev, libvpx-dev, libx11-dev, libx264-dev, libxext-dev, libxfixes-dev, libxvidcore-dev, libxvmc-dev, texi2html, yasm [any-amd64 any-i386], zlib1g-dev"
-  ],
-  "Build-Depends-Indep": [
-    "doxygen"
-  ],
-  "Checksums-Sha1": [
-    "7207e4fbdb5812917277a7f67fca0317d23e954c 3649 libav_11.12-1~deb8u9.dsc 61d5dcab5fde349834af193a572b12a5fd6a4d42 4865624 libav_11.12.orig.tar.xz 1f74a0077616e0b236774abbf847af657a167e05 78604 libav_11.12-1~deb8u9.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "69dce05ce589a4eaa207987a9a78b80bbf3e53e3f2a019c8c064ebdaf9a6e571 3649 libav_11.12-1~deb8u9.dsc 572b029aae64f1239e7dad272e6b9b94d8b16060c6f9a5a7a43da164f8f78abd 4865624 libav_11.12.orig.tar.xz c6e7a52df45330a90e1fb5dcbb5fd4002562dcd8e00857f763a06906dcf9596d 78604 libav_11.12-1~deb8u9.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/liba/libav"
-  ],
-  "Files": [
-    "9599765dac065fd2c2c51321dfc531fa 3649 libav_11.12-1~deb8u9.dsc 7b21d9c63f0a14c55fdc9980643a0fd3 4865624 libav_11.12.orig.tar.xz 9c1fe12c8f13ccfca5461fa28acac922 78604 libav_11.12-1~deb8u9.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://libav.org/"
-  ],
-  "Maintainer": [
-    "Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "libav"
-  ],
-  "Package-List": [
-    "libav-dbg deb debug extra arch=any libav-doc deb doc optional arch=all libav-tools deb video optional arch=any libavcodec-dev deb libdevel optional arch=any libavcodec-extra deb metapackages extra arch=all libavcodec-extra-56 deb libs optional arch=any libavcodec56 deb libs optional arch=any libavdevice-dev deb libdevel optional arch=any libavdevice55 deb libs optional arch=any libavfilter-dev deb libdevel optional arch=any libavfilter5 deb libs optional arch=any libavformat-dev deb libdevel optional arch=any libavformat56 deb libs optional arch=any libavresample-dev deb libdevel optional arch=any libavresample2 deb libs optional arch=any libavutil-dev deb libdevel optional arch=any libavutil54 deb libs optional arch=any libswscale-dev deb libdevel optional arch=any libswscale3 deb libs optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "libs"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Uploaders": [
-    "Sam Hocevar (Debian packages) <sam+deb@zoy.org>, Loïc Minier <lool@debian.org>, Reinhard Tartler <siretart@tauware.de>, Fabian Greffrath <fabian+debian@greffrath.com>, Jonas Smedegaard <dr@jones.dk>, Sebastian Ramacher <sramacher@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-multimedia/libav.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-multimedia/libav.git"
-  ],
-  "Version": [
-    "6:11.12-1~deb8u9"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libav-tools, libav-dbg, libav-doc, libavutil54, libavcodec56, libavdevice55, libavformat56, libavfilter5, libswscale3, libavutil-dev, libavcodec-dev, libavdevice-dev, libavformat-dev, libavfilter-dev, libswscale-dev, libavresample-dev, libavresample2, libavcodec-extra-56, libavcodec-extra"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), frei0r-plugins-dev, libasound2-dev [linux-any], libbz2-dev, libcdio-cdda-dev, libcdio-dev, libcdio-paranoia-dev, libdc1394-22-dev [linux-any], libfreetype6-dev (>= 2.5.1), libgnutls28-dev, libgsm1-dev, libjack-dev, libmp3lame-dev, libopencore-amrnb-dev, libopencore-amrwb-dev, libopencv-dev, libopenjpeg-dev, libopus-dev (>= 1.0.1), libpulse-dev, libraw1394-dev [linux-any], librtmp-dev (>= 2.2e-4), libschroedinger-dev, libsdl1.2-dev, libspeex-dev, libtheora-dev (>> 0.0.0.alpha4), libtiff-dev, libva-dev [!hurd-any], libvdpau-dev, libvo-aacenc-dev, libvo-amrwbenc-dev, libvorbis-dev, libvpx-dev, libx11-dev, libx264-dev, libxext-dev, libxfixes-dev, libxvidcore-dev, libxvmc-dev, texi2html, yasm [any-amd64 any-i386], zlib1g-dev"
+	],
+	"Build-Depends-Indep": [
+		"doxygen"
+	],
+	"Checksums-Sha1": [
+		"7207e4fbdb5812917277a7f67fca0317d23e954c 3649 libav_11.12-1~deb8u9.dsc 61d5dcab5fde349834af193a572b12a5fd6a4d42 4865624 libav_11.12.orig.tar.xz 1f74a0077616e0b236774abbf847af657a167e05 78604 libav_11.12-1~deb8u9.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"69dce05ce589a4eaa207987a9a78b80bbf3e53e3f2a019c8c064ebdaf9a6e571 3649 libav_11.12-1~deb8u9.dsc 572b029aae64f1239e7dad272e6b9b94d8b16060c6f9a5a7a43da164f8f78abd 4865624 libav_11.12.orig.tar.xz c6e7a52df45330a90e1fb5dcbb5fd4002562dcd8e00857f763a06906dcf9596d 78604 libav_11.12-1~deb8u9.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/liba/libav"
+	],
+	"Files": [
+		"9599765dac065fd2c2c51321dfc531fa 3649 libav_11.12-1~deb8u9.dsc 7b21d9c63f0a14c55fdc9980643a0fd3 4865624 libav_11.12.orig.tar.xz 9c1fe12c8f13ccfca5461fa28acac922 78604 libav_11.12-1~deb8u9.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://libav.org/"
+	],
+	"Maintainer": [
+		"Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"libav"
+	],
+	"Package-List": [
+		"libav-dbg deb debug extra arch=any libav-doc deb doc optional arch=all libav-tools deb video optional arch=any libavcodec-dev deb libdevel optional arch=any libavcodec-extra deb metapackages extra arch=all libavcodec-extra-56 deb libs optional arch=any libavcodec56 deb libs optional arch=any libavdevice-dev deb libdevel optional arch=any libavdevice55 deb libs optional arch=any libavfilter-dev deb libdevel optional arch=any libavfilter5 deb libs optional arch=any libavformat-dev deb libdevel optional arch=any libavformat56 deb libs optional arch=any libavresample-dev deb libdevel optional arch=any libavresample2 deb libs optional arch=any libavutil-dev deb libdevel optional arch=any libavutil54 deb libs optional arch=any libswscale-dev deb libdevel optional arch=any libswscale3 deb libs optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"libs"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Uploaders": [
+		"Sam Hocevar (Debian packages) <sam+deb@zoy.org>, Loïc Minier <lool@debian.org>, Reinhard Tartler <siretart@tauware.de>, Fabian Greffrath <fabian+debian@greffrath.com>, Jonas Smedegaard <dr@jones.dk>, Sebastian Ramacher <sramacher@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-multimedia/libav.git;a=summary"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-multimedia/libav.git"
+	],
+	"Version": [
+		"6:11.12-1~deb8u9"
+	]
 }

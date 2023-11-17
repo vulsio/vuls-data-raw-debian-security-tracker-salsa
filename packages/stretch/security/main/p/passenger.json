@@ -1,68 +1,68 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "passenger, libapache2-mod-passenger, passenger-doc, ruby-passenger, ruby-passenger-doc"
-  ],
-  "Build-Depends": [
-    "apache2 (>= 2.4), apache2-dev (>= 2.4), asciidoc (>= 8.2), debhelper (>= 9~), dh-autoreconf, doxygen, gem2deb, graphviz, libapr1-dev, libcurl4-openssl-dev, libuv1-dev, rake, ruby-mizuho, source-highlight, zlib1g-dev"
-  ],
-  "Checksums-Sha1": [
-    "4f4863eaa709a99e637a7d0c4ca79d9e813579d9 2756 passenger_5.0.30-1+deb9u1.dsc 2b966cb070fe667d02d17fda58a37fee34f3300c 5588130 passenger_5.0.30.orig.tar.gz ce76c486a78f2feef2f9d4d77565e6d50a641fb1 17596 passenger_5.0.30-1+deb9u1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "284b6afb45cc3031707cbb9d6822fc50d4143550b35426bc662fe38a2c235913 2756 passenger_5.0.30-1+deb9u1.dsc f367e0c1d808d7356c3749222194a72ea03efe61a3bf1b682bd05d47f087b4e3 5588130 passenger_5.0.30.orig.tar.gz 5390c495a44bcaaf375ccc1d39b7c88aa27ed314b6b1aa0c4ef1295803aaa9be 17596 passenger_5.0.30-1+deb9u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/p/passenger"
-  ],
-  "Files": [
-    "95c1fd6d274790b06f61206417681b65 2756 passenger_5.0.30-1+deb9u1.dsc 7ed9ebc8996368176789d92c1805fd1e 5588130 passenger_5.0.30.orig.tar.gz d5233a964a592e8648b563d491506ca5 17596 passenger_5.0.30-1+deb9u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.phusionpassenger.com/"
-  ],
-  "Maintainer": [
-    "Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "passenger"
-  ],
-  "Package-List": [
-    "libapache2-mod-passenger deb httpd optional arch=any passenger deb ruby optional arch=any passenger-doc deb doc optional arch=all ruby-passenger deb oldlibs optional arch=all ruby-passenger-doc deb oldlibs optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Ruby-Versions": [
-    "all"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.7"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "apache2, nodejs, python, python3, wget"
-  ],
-  "Uploaders": [
-    "Micah Anderson <micah@debian.org>, Felix Geyer <fgeyer@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-ruby-extras/passenger.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-ruby-extras/passenger.git"
-  ],
-  "Version": [
-    "5.0.30-1+deb9u1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"passenger, libapache2-mod-passenger, passenger-doc, ruby-passenger, ruby-passenger-doc"
+	],
+	"Build-Depends": [
+		"apache2 (>= 2.4), apache2-dev (>= 2.4), asciidoc (>= 8.2), debhelper (>= 9~), dh-autoreconf, doxygen, gem2deb, graphviz, libapr1-dev, libcurl4-openssl-dev, libuv1-dev, rake, ruby-mizuho, source-highlight, zlib1g-dev"
+	],
+	"Checksums-Sha1": [
+		"4f4863eaa709a99e637a7d0c4ca79d9e813579d9 2756 passenger_5.0.30-1+deb9u1.dsc 2b966cb070fe667d02d17fda58a37fee34f3300c 5588130 passenger_5.0.30.orig.tar.gz ce76c486a78f2feef2f9d4d77565e6d50a641fb1 17596 passenger_5.0.30-1+deb9u1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"284b6afb45cc3031707cbb9d6822fc50d4143550b35426bc662fe38a2c235913 2756 passenger_5.0.30-1+deb9u1.dsc f367e0c1d808d7356c3749222194a72ea03efe61a3bf1b682bd05d47f087b4e3 5588130 passenger_5.0.30.orig.tar.gz 5390c495a44bcaaf375ccc1d39b7c88aa27ed314b6b1aa0c4ef1295803aaa9be 17596 passenger_5.0.30-1+deb9u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/p/passenger"
+	],
+	"Files": [
+		"95c1fd6d274790b06f61206417681b65 2756 passenger_5.0.30-1+deb9u1.dsc 7ed9ebc8996368176789d92c1805fd1e 5588130 passenger_5.0.30.orig.tar.gz d5233a964a592e8648b563d491506ca5 17596 passenger_5.0.30-1+deb9u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.phusionpassenger.com/"
+	],
+	"Maintainer": [
+		"Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"passenger"
+	],
+	"Package-List": [
+		"libapache2-mod-passenger deb httpd optional arch=any passenger deb ruby optional arch=any passenger-doc deb doc optional arch=all ruby-passenger deb oldlibs optional arch=all ruby-passenger-doc deb oldlibs optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Ruby-Versions": [
+		"all"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.7"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"apache2, nodejs, python, python3, wget"
+	],
+	"Uploaders": [
+		"Micah Anderson <micah@debian.org>, Felix Geyer <fgeyer@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-ruby-extras/passenger.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-ruby-extras/passenger.git"
+	],
+	"Version": [
+		"5.0.30-1+deb9u1"
+	]
 }

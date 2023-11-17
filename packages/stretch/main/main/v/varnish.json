@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "varnish, varnish-doc, libvarnishapi1, libvarnishapi-dev"
-  ],
-  "Build-Depends": [
-    "automake, autotools-dev, debhelper (>= 10), dh-autoreconf, dh-systemd, graphviz, libedit-dev, libjemalloc-dev, libncurses-dev, libpcre3-dev, libtool, pkg-config, python-docutils, xsltproc"
-  ],
-  "Checksums-Sha256": [
-    "7d9a2f1ebec6f19cdc0da50f4f68701d1c2109fcda79840873d96235d9d1ddf0 2659 varnish_5.0.0-7+deb9u2.dsc 5101ad72b29d288a07e2e5ded4c2abe850b70ff000c13ceb1764625e83823f4a 2472963 varnish_5.0.0.orig.tar.gz 7b2ad33ebeac8ea9f3f6c8912fb7cee292f4374975580664ab99fae818ba033e 22192 varnish_5.0.0-7+deb9u2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/v/varnish"
-  ],
-  "Files": [
-    "3dc34a8bab5eea4567ffc749cb443ac6 2659 varnish_5.0.0-7+deb9u2.dsc 6c76ff181d21be595a18ae969a692ae7 2472963 varnish_5.0.0.orig.tar.gz 97177467036e311277a88d3e0537e729 22192 varnish_5.0.0-7+deb9u2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.varnish-cache.org/"
-  ],
-  "Maintainer": [
-    "Varnish Package Maintainers <pkg-varnish-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "varnish"
-  ],
-  "Package-List": [
-    "libvarnishapi-dev deb libdevel optional arch=any libvarnishapi1 deb libs optional arch=any varnish deb web optional arch=any varnish-doc deb doc optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "web"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "ruby-serverspec"
-  ],
-  "Uploaders": [
-    "Jan Wagner <waja@cyconet.org>, Lars Bahner <bahner@debian.org>, Stig Sandbeck Mathisen <ssm@debian.org>, Tollef Fog Heen <tfheen@debian.org>, Emanuele Rocca <ema@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-varnish/pkg-varnish.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-varnish/pkg-varnish.git"
-  ],
-  "Version": [
-    "5.0.0-7+deb9u2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"varnish, varnish-doc, libvarnishapi1, libvarnishapi-dev"
+	],
+	"Build-Depends": [
+		"automake, autotools-dev, debhelper (>= 10), dh-autoreconf, dh-systemd, graphviz, libedit-dev, libjemalloc-dev, libncurses-dev, libpcre3-dev, libtool, pkg-config, python-docutils, xsltproc"
+	],
+	"Checksums-Sha256": [
+		"7d9a2f1ebec6f19cdc0da50f4f68701d1c2109fcda79840873d96235d9d1ddf0 2659 varnish_5.0.0-7+deb9u2.dsc 5101ad72b29d288a07e2e5ded4c2abe850b70ff000c13ceb1764625e83823f4a 2472963 varnish_5.0.0.orig.tar.gz 7b2ad33ebeac8ea9f3f6c8912fb7cee292f4374975580664ab99fae818ba033e 22192 varnish_5.0.0-7+deb9u2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/v/varnish"
+	],
+	"Files": [
+		"3dc34a8bab5eea4567ffc749cb443ac6 2659 varnish_5.0.0-7+deb9u2.dsc 6c76ff181d21be595a18ae969a692ae7 2472963 varnish_5.0.0.orig.tar.gz 97177467036e311277a88d3e0537e729 22192 varnish_5.0.0-7+deb9u2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.varnish-cache.org/"
+	],
+	"Maintainer": [
+		"Varnish Package Maintainers <pkg-varnish-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"varnish"
+	],
+	"Package-List": [
+		"libvarnishapi-dev deb libdevel optional arch=any libvarnishapi1 deb libs optional arch=any varnish deb web optional arch=any varnish-doc deb doc optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"web"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"ruby-serverspec"
+	],
+	"Uploaders": [
+		"Jan Wagner <waja@cyconet.org>, Lars Bahner <bahner@debian.org>, Stig Sandbeck Mathisen <ssm@debian.org>, Tollef Fog Heen <tfheen@debian.org>, Emanuele Rocca <ema@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-varnish/pkg-varnish.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-varnish/pkg-varnish.git"
+	],
+	"Version": [
+		"5.0.0-7+deb9u2"
+	]
 }

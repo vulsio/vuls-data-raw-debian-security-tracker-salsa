@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "alpha amd64 armel hppa i386 ia64 mips mipsel powerpc kfreebsd-i386 kfreebsd-amd64 m68k hurd-i386 s390 sparc all"
-  ],
-  "Binary": [
-    "clisp, clisp-dev, clisp-doc, clisp-module-berkeley-db, clisp-module-pcre, clisp-module-bindings-glibc, clisp-module-postgresql, clisp-module-clx, clisp-module-rawsock, clisp-module-dbus, clisp-module-wildcard, clisp-module-gdbm, clisp-module-zlib"
-  ],
-  "Build-Conflicts": [
-    "libreadline6-dev, libsigsegv-dev (<= 2.8)"
-  ],
-  "Build-Depends": [
-    "debhelper (>> 7), gettext, bison, libncurses5-dev, groff, libx11-dev, libxext-dev, libxpm-dev, libsigsegv-dev (>= 2.8), libreadline-gplv2-dev, dh-lisp (>= 0.7.1), libdb-dev, libffcall1-dev, libgdbm-dev, libpq-dev [!armel !hppa !ia64 !m68k !s390 !mipsel !powerpc], libpcre3-dev, libdbus-1-dev [!armel !hppa !ia64 !m68k !s390 !mipsel !powerpc], zlib1g-dev [!armel !hppa !ia64 !m68k !s390 !mipsel !powerpc]"
-  ],
-  "Checksums-Sha1": [
-    "4890f987280c6f3b88203c61708a58c857b8e383 2548 clisp_2.49-8.1.dsc 610417bf62c7435f34232ca949552762e561daee 9788926 clisp_2.49.orig.tar.gz 35253c13958e58e1d80d4790fec21712556ee891 25613 clisp_2.49-8.1.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "7526e650d14f25e7b0a39c000ea2193621cc72c1ae2a0127fd751c31ad1c063c 2548 clisp_2.49-8.1.dsc 4a08b272e03855bfddc8498d86b928def59760bb36804de3f917215ab7b90a90 9788926 clisp_2.49.orig.tar.gz b06faf070434ce9e9b9bab18818ff79836565dacb4381bac0ebb7c8a49c6b2d4 25613 clisp_2.49-8.1.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/c/clisp"
-  ],
-  "Files": [
-    "a1cd1be2cc91d1201ecd44df8647036f 2548 clisp_2.49-8.1.dsc f57951d59ac068faf44767fa5fa5122c 9788926 clisp_2.49.orig.tar.gz 44b3eb836686829cc8602c420aeb6fc4 25613 clisp_2.49-8.1.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.clisp.org/"
-  ],
-  "Maintainer": [
-    "Debian Common Lisp Team <pkg-common-lisp-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "clisp"
-  ],
-  "Package-List": [
-    "clisp deb lisp optional clisp-dev deb lisp optional clisp-doc deb doc optional clisp-module-berkeley-db deb lisp optional clisp-module-bindings-glibc deb lisp optional clisp-module-clx deb lisp optional clisp-module-dbus deb lisp optional clisp-module-gdbm deb lisp optional clisp-module-pcre deb lisp optional clisp-module-postgresql deb lisp optional clisp-module-rawsock deb lisp optional clisp-module-wildcard deb lisp optional clisp-module-zlib deb lisp optional"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "lisp"
-  ],
-  "Standards-Version": [
-    "3.9.1.0"
-  ],
-  "Uploaders": [
-    "Peter Van Eynde <pvaneynd@debian.org>, Christoph Egger <christoph@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://git.debian.org/?p=pkg-common-lisp/clisp.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "http://git.debian.org/git/pkg-common-lisp/clisp.git"
-  ],
-  "Version": [
-    "1:2.49-8.1"
-  ]
+	"Architecture": [
+		"alpha amd64 armel hppa i386 ia64 mips mipsel powerpc kfreebsd-i386 kfreebsd-amd64 m68k hurd-i386 s390 sparc all"
+	],
+	"Binary": [
+		"clisp, clisp-dev, clisp-doc, clisp-module-berkeley-db, clisp-module-pcre, clisp-module-bindings-glibc, clisp-module-postgresql, clisp-module-clx, clisp-module-rawsock, clisp-module-dbus, clisp-module-wildcard, clisp-module-gdbm, clisp-module-zlib"
+	],
+	"Build-Conflicts": [
+		"libreadline6-dev, libsigsegv-dev (<= 2.8)"
+	],
+	"Build-Depends": [
+		"debhelper (>> 7), gettext, bison, libncurses5-dev, groff, libx11-dev, libxext-dev, libxpm-dev, libsigsegv-dev (>= 2.8), libreadline-gplv2-dev, dh-lisp (>= 0.7.1), libdb-dev, libffcall1-dev, libgdbm-dev, libpq-dev [!armel !hppa !ia64 !m68k !s390 !mipsel !powerpc], libpcre3-dev, libdbus-1-dev [!armel !hppa !ia64 !m68k !s390 !mipsel !powerpc], zlib1g-dev [!armel !hppa !ia64 !m68k !s390 !mipsel !powerpc]"
+	],
+	"Checksums-Sha1": [
+		"4890f987280c6f3b88203c61708a58c857b8e383 2548 clisp_2.49-8.1.dsc 610417bf62c7435f34232ca949552762e561daee 9788926 clisp_2.49.orig.tar.gz 35253c13958e58e1d80d4790fec21712556ee891 25613 clisp_2.49-8.1.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"7526e650d14f25e7b0a39c000ea2193621cc72c1ae2a0127fd751c31ad1c063c 2548 clisp_2.49-8.1.dsc 4a08b272e03855bfddc8498d86b928def59760bb36804de3f917215ab7b90a90 9788926 clisp_2.49.orig.tar.gz b06faf070434ce9e9b9bab18818ff79836565dacb4381bac0ebb7c8a49c6b2d4 25613 clisp_2.49-8.1.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/c/clisp"
+	],
+	"Files": [
+		"a1cd1be2cc91d1201ecd44df8647036f 2548 clisp_2.49-8.1.dsc f57951d59ac068faf44767fa5fa5122c 9788926 clisp_2.49.orig.tar.gz 44b3eb836686829cc8602c420aeb6fc4 25613 clisp_2.49-8.1.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.clisp.org/"
+	],
+	"Maintainer": [
+		"Debian Common Lisp Team <pkg-common-lisp-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"clisp"
+	],
+	"Package-List": [
+		"clisp deb lisp optional clisp-dev deb lisp optional clisp-doc deb doc optional clisp-module-berkeley-db deb lisp optional clisp-module-bindings-glibc deb lisp optional clisp-module-clx deb lisp optional clisp-module-dbus deb lisp optional clisp-module-gdbm deb lisp optional clisp-module-pcre deb lisp optional clisp-module-postgresql deb lisp optional clisp-module-rawsock deb lisp optional clisp-module-wildcard deb lisp optional clisp-module-zlib deb lisp optional"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"lisp"
+	],
+	"Standards-Version": [
+		"3.9.1.0"
+	],
+	"Uploaders": [
+		"Peter Van Eynde <pvaneynd@debian.org>, Christoph Egger <christoph@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://git.debian.org/?p=pkg-common-lisp/clisp.git;a=summary"
+	],
+	"Vcs-Git": [
+		"http://git.debian.org/git/pkg-common-lisp/clisp.git"
+	],
+	"Version": [
+		"1:2.49-8.1"
+	]
 }

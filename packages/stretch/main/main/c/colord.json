@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libcolord-dev, libcolord2, colord, colord-sensor-argyll, colord-data, gir1.2-colord-1.0, libcolorhug-dev, libcolorhug2, gir1.2-colorhug-1.0"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), autotools-dev, intltool, libglib2.0-dev, liblcms2-dev, libudev-dev [linux-any], libsqlite3-dev, docbook-utils, libusb-1.0-0-dev [linux-any], libgusb-dev (>= 0.1.5) [linux-any], libpolkit-gobject-1-dev (>= 0.103), libsane-dev [linux-any], libdbus-1-dev, valac (>= 0.20), gobject-introspection, libgirepository1.0-dev, dh-autoreconf, gtk-doc-tools, autopoint, libsystemd-dev [linux-any], systemd [linux-any], bash-completion, dh-systemd (>= 1.4)"
-  ],
-  "Build-Depends-Indep": [
-    "argyll [linux-any]"
-  ],
-  "Checksums-Sha256": [
-    "fa10c1ab6cff57871be9bd4a6b1cc2577477a6297d3092286deb20bf2c7a9031 2960 colord_1.3.3-2.dsc d1848e797106a036b0d6ebed99a789a6ae07d60f1d9cc59be5b257efe7ec31a4 1240104 colord_1.3.3.orig.tar.xz 41b902be527e153484d8412a0df729c358c49c9ac2c7e9281849d2473e0dd403 26800 colord_1.3.3-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/c/colord"
-  ],
-  "Files": [
-    "465c5e4932d5e13e5f2f9450aec0b0a4 2960 colord_1.3.3-2.dsc 63ad39539845040141e8deffde11cf85 1240104 colord_1.3.3.orig.tar.xz e6025e04b36f8438813923f8e6977e86 26800 colord_1.3.3-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.freedesktop.org/software/colord/"
-  ],
-  "Maintainer": [
-    "Christopher James Halse Rogers <raof@ubuntu.com>"
-  ],
-  "Package": [
-    "colord"
-  ],
-  "Package-List": [
-    "colord deb graphics optional arch=any colord-data deb graphics optional arch=all colord-sensor-argyll deb graphics optional arch=linux-any gir1.2-colord-1.0 deb introspection optional arch=any gir1.2-colorhug-1.0 deb introspection optional arch=linux-any libcolord-dev deb libdevel optional arch=any libcolord2 deb libs optional arch=any libcolorhug-dev deb libdevel optional arch=linux-any libcolorhug2 deb libs optional arch=linux-any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "graphics"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential, libtool-bin, valgrind"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=collab-maint/colord.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/collab-maint/colord.git"
-  ],
-  "Version": [
-    "1.3.3-2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libcolord-dev, libcolord2, colord, colord-sensor-argyll, colord-data, gir1.2-colord-1.0, libcolorhug-dev, libcolorhug2, gir1.2-colorhug-1.0"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), autotools-dev, intltool, libglib2.0-dev, liblcms2-dev, libudev-dev [linux-any], libsqlite3-dev, docbook-utils, libusb-1.0-0-dev [linux-any], libgusb-dev (>= 0.1.5) [linux-any], libpolkit-gobject-1-dev (>= 0.103), libsane-dev [linux-any], libdbus-1-dev, valac (>= 0.20), gobject-introspection, libgirepository1.0-dev, dh-autoreconf, gtk-doc-tools, autopoint, libsystemd-dev [linux-any], systemd [linux-any], bash-completion, dh-systemd (>= 1.4)"
+	],
+	"Build-Depends-Indep": [
+		"argyll [linux-any]"
+	],
+	"Checksums-Sha256": [
+		"fa10c1ab6cff57871be9bd4a6b1cc2577477a6297d3092286deb20bf2c7a9031 2960 colord_1.3.3-2.dsc d1848e797106a036b0d6ebed99a789a6ae07d60f1d9cc59be5b257efe7ec31a4 1240104 colord_1.3.3.orig.tar.xz 41b902be527e153484d8412a0df729c358c49c9ac2c7e9281849d2473e0dd403 26800 colord_1.3.3-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/c/colord"
+	],
+	"Files": [
+		"465c5e4932d5e13e5f2f9450aec0b0a4 2960 colord_1.3.3-2.dsc 63ad39539845040141e8deffde11cf85 1240104 colord_1.3.3.orig.tar.xz e6025e04b36f8438813923f8e6977e86 26800 colord_1.3.3-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.freedesktop.org/software/colord/"
+	],
+	"Maintainer": [
+		"Christopher James Halse Rogers <raof@ubuntu.com>"
+	],
+	"Package": [
+		"colord"
+	],
+	"Package-List": [
+		"colord deb graphics optional arch=any colord-data deb graphics optional arch=all colord-sensor-argyll deb graphics optional arch=linux-any gir1.2-colord-1.0 deb introspection optional arch=any gir1.2-colorhug-1.0 deb introspection optional arch=linux-any libcolord-dev deb libdevel optional arch=any libcolord2 deb libs optional arch=any libcolorhug-dev deb libdevel optional arch=linux-any libcolorhug2 deb libs optional arch=linux-any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"graphics"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, libtool-bin, valgrind"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=collab-maint/colord.git;a=summary"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/collab-maint/colord.git"
+	],
+	"Version": [
+		"1.3.3-2"
+	]
 }

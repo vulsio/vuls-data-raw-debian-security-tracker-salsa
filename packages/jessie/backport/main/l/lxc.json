@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "linux-any"
-  ],
-  "Binary": [
-    "lxc, lxc-dev, lxc-tests, liblxc1, python3-lxc, lua-lxc"
-  ],
-  "Build-Depends": [
-    "autotools-dev, bash-completion, debhelper (>= 9.20160114), dh-apparmor, dh-autoreconf, dh-python, dh-systemd, docbook2x, doxygen, graphviz, libapparmor-dev, libcap-dev, libgnutls28-dev, liblua5.2-dev, libseccomp-dev [!alpha !hppa !m68k !sh4 !sparc64], libselinux-dev, linux-libc-dev, pkg-config, python3-dev"
-  ],
-  "Checksums-Sha1": [
-    "a8075d67b5bc772d7516eedde0353b6283beaaf6 2647 lxc_2.0.7-2~bpo8+1.dsc 340d7a594cdbb8f9bab89a3f0109fd06aaeacb42 1307351 lxc_2.0.7.orig.tar.gz 3f1260e894b68b82cc82889939ba4969551a4277 84696 lxc_2.0.7-2~bpo8+1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "c1a3efb3d002e830a679c1d231136f156de72db7cd7c9c0962c1fc2c216d3a57 2647 lxc_2.0.7-2~bpo8+1.dsc 1c09c075f06ec029f86fa6370c7d379494ff4c66a129eda17af7b7b41e055f5d 1307351 lxc_2.0.7.orig.tar.gz cad6183761d1be9c5ff1f90fd667a2675dca32e62300300b7a75085f43874c03 84696 lxc_2.0.7-2~bpo8+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/l/lxc"
-  ],
-  "Files": [
-    "5acce007511730fdbd099b6697076781 2647 lxc_2.0.7-2~bpo8+1.dsc b3d98ba1d1f6fda38801f4c0c2321137 1307351 lxc_2.0.7.orig.tar.gz 2689384545bcda39b43acfd689aca58d 84696 lxc_2.0.7-2~bpo8+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://linuxcontainers.org/"
-  ],
-  "Maintainer": [
-    "pkg-lxc <pkg-lxc-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "lxc"
-  ],
-  "Package-List": [
-    "liblxc1 deb libs optional arch=linux-any lua-lxc deb interpreters optional arch=linux-any lxc deb admin optional arch=linux-any lxc-dev deb libdevel optional arch=linux-any lxc-tests deb admin optional arch=linux-any python3-lxc deb python optional arch=linux-any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "busybox-static, debootstrap, dirmngr, dnsmasq-base, file, gnupg, iptables, lsb-release, rsync, uidmap, xz-utils"
-  ],
-  "Uploaders": [
-    "Antonio Terceiro <terceiro@debian.org>, Evgeni Golov <evgeni@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-lxc/lxc.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-lxc/lxc.git"
-  ],
-  "Version": [
-    "1:2.0.7-2~bpo8+1"
-  ]
+	"Architecture": [
+		"linux-any"
+	],
+	"Binary": [
+		"lxc, lxc-dev, lxc-tests, liblxc1, python3-lxc, lua-lxc"
+	],
+	"Build-Depends": [
+		"autotools-dev, bash-completion, debhelper (>= 9.20160114), dh-apparmor, dh-autoreconf, dh-python, dh-systemd, docbook2x, doxygen, graphviz, libapparmor-dev, libcap-dev, libgnutls28-dev, liblua5.2-dev, libseccomp-dev [!alpha !hppa !m68k !sh4 !sparc64], libselinux-dev, linux-libc-dev, pkg-config, python3-dev"
+	],
+	"Checksums-Sha1": [
+		"a8075d67b5bc772d7516eedde0353b6283beaaf6 2647 lxc_2.0.7-2~bpo8+1.dsc 340d7a594cdbb8f9bab89a3f0109fd06aaeacb42 1307351 lxc_2.0.7.orig.tar.gz 3f1260e894b68b82cc82889939ba4969551a4277 84696 lxc_2.0.7-2~bpo8+1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"c1a3efb3d002e830a679c1d231136f156de72db7cd7c9c0962c1fc2c216d3a57 2647 lxc_2.0.7-2~bpo8+1.dsc 1c09c075f06ec029f86fa6370c7d379494ff4c66a129eda17af7b7b41e055f5d 1307351 lxc_2.0.7.orig.tar.gz cad6183761d1be9c5ff1f90fd667a2675dca32e62300300b7a75085f43874c03 84696 lxc_2.0.7-2~bpo8+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/l/lxc"
+	],
+	"Files": [
+		"5acce007511730fdbd099b6697076781 2647 lxc_2.0.7-2~bpo8+1.dsc b3d98ba1d1f6fda38801f4c0c2321137 1307351 lxc_2.0.7.orig.tar.gz 2689384545bcda39b43acfd689aca58d 84696 lxc_2.0.7-2~bpo8+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://linuxcontainers.org/"
+	],
+	"Maintainer": [
+		"pkg-lxc <pkg-lxc-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"lxc"
+	],
+	"Package-List": [
+		"liblxc1 deb libs optional arch=linux-any lua-lxc deb interpreters optional arch=linux-any lxc deb admin optional arch=linux-any lxc-dev deb libdevel optional arch=linux-any lxc-tests deb admin optional arch=linux-any python3-lxc deb python optional arch=linux-any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"busybox-static, debootstrap, dirmngr, dnsmasq-base, file, gnupg, iptables, lsb-release, rsync, uidmap, xz-utils"
+	],
+	"Uploaders": [
+		"Antonio Terceiro <terceiro@debian.org>, Evgeni Golov <evgeni@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-lxc/lxc.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-lxc/lxc.git"
+	],
+	"Version": [
+		"1:2.0.7-2~bpo8+1"
+	]
 }

@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "heimdal-docs, heimdal-kdc, heimdal-multidev, heimdal-dev, heimdal-clients, heimdal-kcm, heimdal-servers, heimdal-dbg, libheimbase1-heimdal, libasn1-8-heimdal, libkrb5-26-heimdal, libhdb9-heimdal, libkadm5srv8-heimdal, libkadm5clnt7-heimdal, libgssapi3-heimdal, libkafs0-heimdal, libroken18-heimdal, libotp0-heimdal, libsl0-heimdal, libkdc2-heimdal, libhx509-5-heimdal, libheimntlm0-heimdal, libwind0-heimdal, libhcrypto4-heimdal"
-  ],
-  "Build-Depends": [
-    "bison, comerr-dev (>= 1.41.11), debhelper (>= 9), dh-autoreconf, flex, libcap-ng-dev [linux-any], libdb-dev, libedit-dev, libhesiod-dev, libjson-perl, libldap2-dev, libncurses5-dev, libperl4-corelibs-perl, libsqlite3-dev, libx11-dev, libxau-dev, libxt-dev, netbase, pkg-config, python, ss-dev, texinfo, unzip, x11proto-core-dev"
-  ],
-  "Checksums-Sha1": [
-    "fbb747c51827d7e1ca51c1d516d88eff428d96aa 3706 heimdal_7.1.0+dfsg-13+deb9u3.dsc 8d808fa1eeb26c6263cc3b0b4c13bcf4c84ed268 8959650 heimdal_7.1.0+dfsg.orig.tar.gz 9f016941fb5d19fc7c18d2ddae9a9eb234f6eab9 266352 heimdal_7.1.0+dfsg-13+deb9u3.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "b759c2ab9c6672ca2af37d025c7df2a3cf6d2347ccd272f85b7d28d0c83e60f3 3706 heimdal_7.1.0+dfsg-13+deb9u3.dsc 47a1439910d05ea884ad254646e7c48a9400a2c30f087ed8e8e0854697a480f9 8959650 heimdal_7.1.0+dfsg.orig.tar.gz 72d53ed4cba2d482609dfb49749d80c463dfaf3401236b2e448ab2dbefa0a82a 266352 heimdal_7.1.0+dfsg-13+deb9u3.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/h/heimdal"
-  ],
-  "Files": [
-    "d4674c8ae492869ab3be7f61cac7876b 3706 heimdal_7.1.0+dfsg-13+deb9u3.dsc 8a0ef9f85770b7a35072f0f32ec671ea 8959650 heimdal_7.1.0+dfsg.orig.tar.gz 404230f3598d0a85082e088815f80969 266352 heimdal_7.1.0+dfsg-13+deb9u3.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.h5l.org/"
-  ],
-  "Maintainer": [
-    "Brian May <bam@debian.org>"
-  ],
-  "Package": [
-    "heimdal"
-  ],
-  "Package-List": [
-    "heimdal-clients deb net extra arch=any heimdal-dbg deb debug extra arch=any heimdal-dev deb devel extra arch=any heimdal-docs deb doc extra arch=all heimdal-kcm deb net extra arch=any heimdal-kdc deb net extra arch=any heimdal-multidev deb devel extra arch=any heimdal-servers deb net extra arch=any libasn1-8-heimdal deb libs optional arch=any libgssapi3-heimdal deb libs optional arch=any libhcrypto4-heimdal deb libs optional arch=any libhdb9-heimdal deb libs optional arch=any libheimbase1-heimdal deb libs optional arch=any libheimntlm0-heimdal deb libs optional arch=any libhx509-5-heimdal deb libs optional arch=any libkadm5clnt7-heimdal deb libs optional arch=any libkadm5srv8-heimdal deb libs optional arch=any libkafs0-heimdal deb libs extra arch=any libkdc2-heimdal deb libs extra arch=any libkrb5-26-heimdal deb libs optional arch=any libotp0-heimdal deb libs extra arch=any libroken18-heimdal deb libs optional arch=any libsl0-heimdal deb libs extra arch=any libwind0-heimdal deb libs optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Jelmer Vernooĳ <jelmer@debian.org>, Dominik George <nik@naturalnet.de>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/collab-maint/heimdal.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/collab-maint/heimdal/"
-  ],
-  "Version": [
-    "7.1.0+dfsg-13+deb9u3"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"heimdal-docs, heimdal-kdc, heimdal-multidev, heimdal-dev, heimdal-clients, heimdal-kcm, heimdal-servers, heimdal-dbg, libheimbase1-heimdal, libasn1-8-heimdal, libkrb5-26-heimdal, libhdb9-heimdal, libkadm5srv8-heimdal, libkadm5clnt7-heimdal, libgssapi3-heimdal, libkafs0-heimdal, libroken18-heimdal, libotp0-heimdal, libsl0-heimdal, libkdc2-heimdal, libhx509-5-heimdal, libheimntlm0-heimdal, libwind0-heimdal, libhcrypto4-heimdal"
+	],
+	"Build-Depends": [
+		"bison, comerr-dev (>= 1.41.11), debhelper (>= 9), dh-autoreconf, flex, libcap-ng-dev [linux-any], libdb-dev, libedit-dev, libhesiod-dev, libjson-perl, libldap2-dev, libncurses5-dev, libperl4-corelibs-perl, libsqlite3-dev, libx11-dev, libxau-dev, libxt-dev, netbase, pkg-config, python, ss-dev, texinfo, unzip, x11proto-core-dev"
+	],
+	"Checksums-Sha1": [
+		"fbb747c51827d7e1ca51c1d516d88eff428d96aa 3706 heimdal_7.1.0+dfsg-13+deb9u3.dsc 8d808fa1eeb26c6263cc3b0b4c13bcf4c84ed268 8959650 heimdal_7.1.0+dfsg.orig.tar.gz 9f016941fb5d19fc7c18d2ddae9a9eb234f6eab9 266352 heimdal_7.1.0+dfsg-13+deb9u3.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"b759c2ab9c6672ca2af37d025c7df2a3cf6d2347ccd272f85b7d28d0c83e60f3 3706 heimdal_7.1.0+dfsg-13+deb9u3.dsc 47a1439910d05ea884ad254646e7c48a9400a2c30f087ed8e8e0854697a480f9 8959650 heimdal_7.1.0+dfsg.orig.tar.gz 72d53ed4cba2d482609dfb49749d80c463dfaf3401236b2e448ab2dbefa0a82a 266352 heimdal_7.1.0+dfsg-13+deb9u3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/h/heimdal"
+	],
+	"Files": [
+		"d4674c8ae492869ab3be7f61cac7876b 3706 heimdal_7.1.0+dfsg-13+deb9u3.dsc 8a0ef9f85770b7a35072f0f32ec671ea 8959650 heimdal_7.1.0+dfsg.orig.tar.gz 404230f3598d0a85082e088815f80969 266352 heimdal_7.1.0+dfsg-13+deb9u3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.h5l.org/"
+	],
+	"Maintainer": [
+		"Brian May <bam@debian.org>"
+	],
+	"Package": [
+		"heimdal"
+	],
+	"Package-List": [
+		"heimdal-clients deb net extra arch=any heimdal-dbg deb debug extra arch=any heimdal-dev deb devel extra arch=any heimdal-docs deb doc extra arch=all heimdal-kcm deb net extra arch=any heimdal-kdc deb net extra arch=any heimdal-multidev deb devel extra arch=any heimdal-servers deb net extra arch=any libasn1-8-heimdal deb libs optional arch=any libgssapi3-heimdal deb libs optional arch=any libhcrypto4-heimdal deb libs optional arch=any libhdb9-heimdal deb libs optional arch=any libheimbase1-heimdal deb libs optional arch=any libheimntlm0-heimdal deb libs optional arch=any libhx509-5-heimdal deb libs optional arch=any libkadm5clnt7-heimdal deb libs optional arch=any libkadm5srv8-heimdal deb libs optional arch=any libkafs0-heimdal deb libs extra arch=any libkdc2-heimdal deb libs extra arch=any libkrb5-26-heimdal deb libs optional arch=any libotp0-heimdal deb libs extra arch=any libroken18-heimdal deb libs optional arch=any libsl0-heimdal deb libs extra arch=any libwind0-heimdal deb libs optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Jelmer Vernooĳ <jelmer@debian.org>, Dominik George <nik@naturalnet.de>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/collab-maint/heimdal.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/collab-maint/heimdal/"
+	],
+	"Version": [
+		"7.1.0+dfsg-13+deb9u3"
+	]
 }

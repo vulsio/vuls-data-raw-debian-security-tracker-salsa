@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "linux-any all"
-  ],
-  "Binary": [
-    "elogind, libelogind0, libelogind-dev, libelogind-dev-doc, libpam-elogind"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 12), dh-exec (>= 0.3), pkg-config, docbook-xsl, meson, gperf (>= 3.1), gtk-doc-tools, python3-jinja2, python3-lxml, libcap-dev, libudev-dev, libseccomp-dev (>= 2.3.1) [amd64 arm64 armel armhf i386 mips mipsel mips64 mips64el x32 powerpc ppc64 ppc64el s390x], libpam0g-dev (>= 1.1.2), libacl1-dev, libselinux1-dev, libglib2.0-dev <!nocheck>, dbus (>= 1.9.14) <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "300de703187bc19d82bca7a6dcad1813d9893597344730b023357ee84f61b55c 2653 elogind_252.9-1debian2.dsc 7af8caa8225a406e77fb99c9f33dba5e1f0a94f0e1277c9d91dcfc016f116d85 1922777 elogind_252.9.orig.tar.gz f7b425a8d9eeff60a91c3a4506fdb15258b7d00d3f8003e4d9163d8dce58b749 14376 elogind_252.9-1debian2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/e/elogind"
-  ],
-  "Files": [
-    "5262d4ddedeccad68f8cbb732968aea4 2653 elogind_252.9-1debian2.dsc 2be2c43298e2fc41c5bee33dde605f01 1922777 elogind_252.9.orig.tar.gz 3e4b8b340dc431c043b653b82ce68500 14376 elogind_252.9-1debian2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/elogind/elogind"
-  ],
-  "Maintainer": [
-    "Debian Ecosystem Init Diversity Team <debian-init-diversity@chiark.greenend.org.uk>"
-  ],
-  "Package": [
-    "elogind"
-  ],
-  "Package-List": [
-    "elogind deb admin optional arch=linux-any libelogind-dev deb libdevel optional arch=linux-any libelogind-dev-doc deb doc optional arch=all libelogind0 deb libs optional arch=linux-any libpam-elogind deb admin optional arch=linux-any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Uploaders": [
-    "Mark Hindley <mark@hindley.org.uk>, Ian Jackson <ijackson@chiark.greenend.org.uk>"
-  ],
-  "Vcs-Browser": [
-    "https://git.devuan.org/devuan/elogind/src/branch/debian"
-  ],
-  "Vcs-Git": [
-    "https://git.devuan.org/devuan/elogind.git -b debian"
-  ],
-  "Version": [
-    "252.9-1debian2"
-  ]
+	"Architecture": [
+		"linux-any all"
+	],
+	"Binary": [
+		"elogind, libelogind0, libelogind-dev, libelogind-dev-doc, libpam-elogind"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 12), dh-exec (>= 0.3), pkg-config, docbook-xsl, meson, gperf (>= 3.1), gtk-doc-tools, python3-jinja2, python3-lxml, libcap-dev, libudev-dev, libseccomp-dev (>= 2.3.1) [amd64 arm64 armel armhf i386 mips mipsel mips64 mips64el x32 powerpc ppc64 ppc64el s390x], libpam0g-dev (>= 1.1.2), libacl1-dev, libselinux1-dev, libglib2.0-dev <!nocheck>, dbus (>= 1.9.14) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"300de703187bc19d82bca7a6dcad1813d9893597344730b023357ee84f61b55c 2653 elogind_252.9-1debian2.dsc 7af8caa8225a406e77fb99c9f33dba5e1f0a94f0e1277c9d91dcfc016f116d85 1922777 elogind_252.9.orig.tar.gz f7b425a8d9eeff60a91c3a4506fdb15258b7d00d3f8003e4d9163d8dce58b749 14376 elogind_252.9-1debian2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/e/elogind"
+	],
+	"Files": [
+		"5262d4ddedeccad68f8cbb732968aea4 2653 elogind_252.9-1debian2.dsc 2be2c43298e2fc41c5bee33dde605f01 1922777 elogind_252.9.orig.tar.gz 3e4b8b340dc431c043b653b82ce68500 14376 elogind_252.9-1debian2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/elogind/elogind"
+	],
+	"Maintainer": [
+		"Debian Ecosystem Init Diversity Team <debian-init-diversity@chiark.greenend.org.uk>"
+	],
+	"Package": [
+		"elogind"
+	],
+	"Package-List": [
+		"elogind deb admin optional arch=linux-any libelogind-dev deb libdevel optional arch=linux-any libelogind-dev-doc deb doc optional arch=all libelogind0 deb libs optional arch=linux-any libpam-elogind deb admin optional arch=linux-any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Uploaders": [
+		"Mark Hindley <mark@hindley.org.uk>, Ian Jackson <ijackson@chiark.greenend.org.uk>"
+	],
+	"Vcs-Browser": [
+		"https://git.devuan.org/devuan/elogind/src/branch/debian"
+	],
+	"Vcs-Git": [
+		"https://git.devuan.org/devuan/elogind.git -b debian"
+	],
+	"Version": [
+		"252.9-1debian2"
+	]
 }

@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "picard-tools, libpicard-java, libpicard-java-doc"
-  ],
-  "Build-Depends": [
-    "default-jdk, debhelper-compat (= 13), javahelper, gradle-debian-helper, maven-repo-helper, libguava-java, libcommons-collections4-java, libcommons-io-java, libcommons-lang-java, libcommons-lang3-java, libcommons-math3-java, libbarclay-java, libgkl-java, libgkl-jni [amd64], libgatk-native-bindings-java, libhtsjdk-java (>= 3.0.2+dfsg), libjoptsimple-java, testng, r-base-core, default-jdk-doc, libhtsjdk-java-doc, libjs-jquery"
-  ],
-  "Checksums-Sha256": [
-    "2479ac54677d6d18d7355becf44af39e32d345fc2080672d52a8f90eedcf51fa 2737 picard-tools_3.0.0+dfsg-1.dsc c861fb6d98e3cd31bafbf36aa9870469c0404785835e3350c41d043dbae5c467 20290532 picard-tools_3.0.0+dfsg.orig.tar.xz f8af44eb913cf03efb39937b857560ddea2fdcf76b4c19523c8086256fe950a0 22520 picard-tools_3.0.0+dfsg-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/picard-tools"
-  ],
-  "Files": [
-    "bec891ac7d513c1e156cb0de03b02964 2737 picard-tools_3.0.0+dfsg-1.dsc 7ee4c278c0d0f35e563dd9aa7da6c649 20290532 picard-tools_3.0.0+dfsg.orig.tar.xz ab00e51562e05b87eed376d4c259856b 22520 picard-tools_3.0.0+dfsg-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://broadinstitute.github.io/picard/"
-  ],
-  "Maintainer": [
-    "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "picard-tools"
-  ],
-  "Package-List": [
-    "libpicard-java deb java optional arch=all libpicard-java-doc deb doc optional arch=all picard-tools deb science optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "science"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Charles Plessy <plessy@debian.org>, Olivier Sallou <osallou@debian.org>, Vincent Danjean <vdanjean@debian.org>, Andreas Tille <tille@debian.org>, Steffen Moeller <moeller@debian.org>, Pierre Gruet <pgt@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/med-team/picard-tools"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/med-team/picard-tools.git"
-  ],
-  "Version": [
-    "3.0.0+dfsg-1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"picard-tools, libpicard-java, libpicard-java-doc"
+	],
+	"Build-Depends": [
+		"default-jdk, debhelper-compat (= 13), javahelper, gradle-debian-helper, maven-repo-helper, libguava-java, libcommons-collections4-java, libcommons-io-java, libcommons-lang-java, libcommons-lang3-java, libcommons-math3-java, libbarclay-java, libgkl-java, libgkl-jni [amd64], libgatk-native-bindings-java, libhtsjdk-java (>= 3.0.2+dfsg), libjoptsimple-java, testng, r-base-core, default-jdk-doc, libhtsjdk-java-doc, libjs-jquery"
+	],
+	"Checksums-Sha256": [
+		"2479ac54677d6d18d7355becf44af39e32d345fc2080672d52a8f90eedcf51fa 2737 picard-tools_3.0.0+dfsg-1.dsc c861fb6d98e3cd31bafbf36aa9870469c0404785835e3350c41d043dbae5c467 20290532 picard-tools_3.0.0+dfsg.orig.tar.xz f8af44eb913cf03efb39937b857560ddea2fdcf76b4c19523c8086256fe950a0 22520 picard-tools_3.0.0+dfsg-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/picard-tools"
+	],
+	"Files": [
+		"bec891ac7d513c1e156cb0de03b02964 2737 picard-tools_3.0.0+dfsg-1.dsc 7ee4c278c0d0f35e563dd9aa7da6c649 20290532 picard-tools_3.0.0+dfsg.orig.tar.xz ab00e51562e05b87eed376d4c259856b 22520 picard-tools_3.0.0+dfsg-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://broadinstitute.github.io/picard/"
+	],
+	"Maintainer": [
+		"Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"picard-tools"
+	],
+	"Package-List": [
+		"libpicard-java deb java optional arch=all libpicard-java-doc deb doc optional arch=all picard-tools deb science optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"science"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Charles Plessy <plessy@debian.org>, Olivier Sallou <osallou@debian.org>, Vincent Danjean <vdanjean@debian.org>, Andreas Tille <tille@debian.org>, Steffen Moeller <moeller@debian.org>, Pierre Gruet <pgt@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/med-team/picard-tools"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/med-team/picard-tools.git"
+	],
+	"Version": [
+		"3.0.0+dfsg-1"
+	]
 }

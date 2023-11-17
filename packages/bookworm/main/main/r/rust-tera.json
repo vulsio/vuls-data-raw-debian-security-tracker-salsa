@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-tera-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-chrono-0.4+clock-dev (>= 0.4.20-~~) <!nocheck>, librust-chrono-0.4+std-dev (>= 0.4.20-~~) <!nocheck>, librust-chrono-tz-0.6+default-dev <!nocheck>, librust-globwalk-0.8+default-dev (>= 0.8.1-~~) <!nocheck>, librust-humansize-1+default-dev <!nocheck>, librust-lazy-static-1+default-dev <!nocheck>, librust-percent-encoding-2+default-dev (>= 2.1-~~) <!nocheck>, librust-pest-2+default-dev (>= 2.3.0-~~) <!nocheck>, librust-pest-derive-2+default-dev (>= 2.3.0-~~) <!nocheck>, librust-rand-0.8+default-dev <!nocheck>, librust-regex-1+default-dev <!nocheck>, librust-serde-1+default-dev <!nocheck>, librust-serde-json-1+default-dev (>= 1.0.11-~~) <!nocheck>, librust-slug-0.1+default-dev (>= 0.1.1-~~) <!nocheck>, librust-unic-segment-0.9+default-dev <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "ed1fbcbff79fa1921b2a733b595186b6695561be4f3e62132d7bb99ca09b319a 3021 rust-tera_1.17.1-1.dsc 3df578c295f9ec044ff1c829daf31bb7581d5b3c2a7a3d87419afe1f2531438c 98201 rust-tera_1.17.1.orig.tar.gz f2e31ced85c7a75c0b7618590616839ec3e028e4ac8c6869529ec3dbb31b10f6 4240 rust-tera_1.17.1-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-tera"
-  ],
-  "Files": [
-    "958bbd2ac18a7b2e01d628aea6069ddf 3021 rust-tera_1.17.1-1.dsc 5417b16c33ff8cfb90c47cd5e59f286f 98201 rust-tera_1.17.1.orig.tar.gz b3ed4a74b2ef41cd3801983b6654dc7b 4240 rust-tera_1.17.1-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://tera.netlify.com/"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-tera"
-  ],
-  "Package-List": [
-    "librust-tera-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-pretty-assertions-1+default-dev, librust-serde-derive-1+default-dev, librust-tempfile-3+default-dev"
-  ],
-  "Uploaders": [
-    "Sylvestre Ledru <sylvestre@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/tera"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/tera]"
-  ],
-  "Version": [
-    "1.17.1-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-tera-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-chrono-0.4+clock-dev (>= 0.4.20-~~) <!nocheck>, librust-chrono-0.4+std-dev (>= 0.4.20-~~) <!nocheck>, librust-chrono-tz-0.6+default-dev <!nocheck>, librust-globwalk-0.8+default-dev (>= 0.8.1-~~) <!nocheck>, librust-humansize-1+default-dev <!nocheck>, librust-lazy-static-1+default-dev <!nocheck>, librust-percent-encoding-2+default-dev (>= 2.1-~~) <!nocheck>, librust-pest-2+default-dev (>= 2.3.0-~~) <!nocheck>, librust-pest-derive-2+default-dev (>= 2.3.0-~~) <!nocheck>, librust-rand-0.8+default-dev <!nocheck>, librust-regex-1+default-dev <!nocheck>, librust-serde-1+default-dev <!nocheck>, librust-serde-json-1+default-dev (>= 1.0.11-~~) <!nocheck>, librust-slug-0.1+default-dev (>= 0.1.1-~~) <!nocheck>, librust-unic-segment-0.9+default-dev <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"ed1fbcbff79fa1921b2a733b595186b6695561be4f3e62132d7bb99ca09b319a 3021 rust-tera_1.17.1-1.dsc 3df578c295f9ec044ff1c829daf31bb7581d5b3c2a7a3d87419afe1f2531438c 98201 rust-tera_1.17.1.orig.tar.gz f2e31ced85c7a75c0b7618590616839ec3e028e4ac8c6869529ec3dbb31b10f6 4240 rust-tera_1.17.1-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-tera"
+	],
+	"Files": [
+		"958bbd2ac18a7b2e01d628aea6069ddf 3021 rust-tera_1.17.1-1.dsc 5417b16c33ff8cfb90c47cd5e59f286f 98201 rust-tera_1.17.1.orig.tar.gz b3ed4a74b2ef41cd3801983b6654dc7b 4240 rust-tera_1.17.1-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://tera.netlify.com/"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-tera"
+	],
+	"Package-List": [
+		"librust-tera-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-pretty-assertions-1+default-dev, librust-serde-derive-1+default-dev, librust-tempfile-3+default-dev"
+	],
+	"Uploaders": [
+		"Sylvestre Ledru <sylvestre@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/tera"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/tera]"
+	],
+	"Version": [
+		"1.17.1-1"
+	]
 }

@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "nut, nut-server, nut-client, nut-cgi, nut-snmp, nut-xml, nut-powerman-pdu, nut-doc, libupsclient1, libupsclient1-dev, python-nut, nut-monitor, libups-nut-perl"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 8), cdbs (>= 0.4.90~), libgd2-xpm-dev | libgd2-noxpm-dev, libsnmp-dev | libsnmp9-dev, libusb-dev (>= 0.1.8), libneon27-gnutls-dev | libneon27-dev, libpowerman0-dev (>= 2.3.3), libwrap0-dev (>= 7.6), python (>= 2.6.6-3~)"
-  ],
-  "Build-Depends-Indep": [
-    "asciidoc (>= 8.6.3), docbook-xsl, dblatex (>= 0.2.5), libxml2-utils"
-  ],
-  "Checksums-Sha1": [
-    "524f91dbc5fc257ed4615a4fceed655473af5a51 2724 nut_2.6.4-2.3+deb7u1.dsc 55b7c5eafe60de64107374c90ee2079aa3350a94 1992488 nut_2.6.4.orig.tar.gz 6044c63f835cb6198f055234b1ba042d4a4da694 41471 nut_2.6.4-2.3+deb7u1.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "41d6a9e4396ba3088625eef48f6a760f101ab0d27b6cfe59ffae7194eb588301 2724 nut_2.6.4-2.3+deb7u1.dsc 4a8455ca7ba2e18b57a39206acc5a496e855d845828e970822bd84afd1178fe5 1992488 nut_2.6.4.orig.tar.gz b53880d029e15773e11bfbcfc465987e6d74d12bbc045ce9265fd3824f179f2e 41471 nut_2.6.4-2.3+deb7u1.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/n/nut"
-  ],
-  "Files": [
-    "3991fa929d48d07cbd96014c59917ad9 2724 nut_2.6.4-2.3+deb7u1.dsc 78d672fbbcd90683e49c667665a95f87 1992488 nut_2.6.4.orig.tar.gz 5e2c9e131650d74aa3c7418c774055b1 41471 nut_2.6.4-2.3+deb7u1.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.networkupstools.org/"
-  ],
-  "Maintainer": [
-    "Arnaud Quette <aquette@debian.org>"
-  ],
-  "Package": [
-    "nut"
-  ],
-  "Package-List": [
-    "libups-nut-perl deb perl optional libupsclient1 deb admin optional libupsclient1-dev deb libdevel optional nut deb metapackages optional nut-cgi deb admin optional nut-client deb admin optional nut-doc deb doc optional nut-monitor deb admin optional nut-powerman-pdu deb admin extra nut-server deb admin optional nut-snmp deb admin optional nut-xml deb admin optional python-nut deb python optional"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "metapackages"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Laurent Bigonville <bigon@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://git.debian.org/?p=collab-maint/nut.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/git/collab-maint/nut.git"
-  ],
-  "Version": [
-    "2.6.4-2.3+deb7u1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"nut, nut-server, nut-client, nut-cgi, nut-snmp, nut-xml, nut-powerman-pdu, nut-doc, libupsclient1, libupsclient1-dev, python-nut, nut-monitor, libups-nut-perl"
+	],
+	"Build-Depends": [
+		"debhelper (>= 8), cdbs (>= 0.4.90~), libgd2-xpm-dev | libgd2-noxpm-dev, libsnmp-dev | libsnmp9-dev, libusb-dev (>= 0.1.8), libneon27-gnutls-dev | libneon27-dev, libpowerman0-dev (>= 2.3.3), libwrap0-dev (>= 7.6), python (>= 2.6.6-3~)"
+	],
+	"Build-Depends-Indep": [
+		"asciidoc (>= 8.6.3), docbook-xsl, dblatex (>= 0.2.5), libxml2-utils"
+	],
+	"Checksums-Sha1": [
+		"524f91dbc5fc257ed4615a4fceed655473af5a51 2724 nut_2.6.4-2.3+deb7u1.dsc 55b7c5eafe60de64107374c90ee2079aa3350a94 1992488 nut_2.6.4.orig.tar.gz 6044c63f835cb6198f055234b1ba042d4a4da694 41471 nut_2.6.4-2.3+deb7u1.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"41d6a9e4396ba3088625eef48f6a760f101ab0d27b6cfe59ffae7194eb588301 2724 nut_2.6.4-2.3+deb7u1.dsc 4a8455ca7ba2e18b57a39206acc5a496e855d845828e970822bd84afd1178fe5 1992488 nut_2.6.4.orig.tar.gz b53880d029e15773e11bfbcfc465987e6d74d12bbc045ce9265fd3824f179f2e 41471 nut_2.6.4-2.3+deb7u1.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/n/nut"
+	],
+	"Files": [
+		"3991fa929d48d07cbd96014c59917ad9 2724 nut_2.6.4-2.3+deb7u1.dsc 78d672fbbcd90683e49c667665a95f87 1992488 nut_2.6.4.orig.tar.gz 5e2c9e131650d74aa3c7418c774055b1 41471 nut_2.6.4-2.3+deb7u1.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.networkupstools.org/"
+	],
+	"Maintainer": [
+		"Arnaud Quette <aquette@debian.org>"
+	],
+	"Package": [
+		"nut"
+	],
+	"Package-List": [
+		"libups-nut-perl deb perl optional libupsclient1 deb admin optional libupsclient1-dev deb libdevel optional nut deb metapackages optional nut-cgi deb admin optional nut-client deb admin optional nut-doc deb doc optional nut-monitor deb admin optional nut-powerman-pdu deb admin extra nut-server deb admin optional nut-snmp deb admin optional nut-xml deb admin optional python-nut deb python optional"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"metapackages"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Laurent Bigonville <bigon@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://git.debian.org/?p=collab-maint/nut.git;a=summary"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/git/collab-maint/nut.git"
+	],
+	"Version": [
+		"2.6.4-2.3+deb7u1"
+	]
 }

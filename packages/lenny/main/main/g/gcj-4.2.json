@@ -1,50 +1,50 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "gcj-4.2-base, gcj-4.2, gij-4.2, libgcj8-1, libgcj8-jar, libgcj8-1-awt, gappletviewer-4.2, libgcj8-dev, libgcj8-dbg, libgcj8-src"
-  ],
-  "Build-Depends": [
-    "dpkg-dev (>= 1.14.15), debhelper (>= 5.0.62), gcc-multilib [amd64 i386 powerpc ppc64 s390 sparc kfreebsd-amd64], libc6.1-dev (>= 2.5) [alpha ia64] | libc0.3-dev (>= 2.5) [hurd-i386] | libc0.1-dev (>= 2.5) [kfreebsd-i386 kfreebsd-amd64] | libc6-dev (>= 2.5), libc6-dev-amd64 [i386], libc6-dev-sparc64 [sparc], libc6-dev-s390x [s390], libc6-dev-i386 [amd64], libc6-dev-powerpc [ppc64], libc6-dev-ppc64 [powerpc], libc0.1-dev-i386 [kfreebsd-amd64], lib32gcc1 [amd64 ppc64 kfreebsd-amd64], lib64gcc1 [i386 powerpc sparc s390], libunwind7-dev (>= 0.98.5-6) [ia64], libatomic-ops-dev [ia64], m4, autoconf, autoconf2.13, automake1.9, libtool, autogen, gawk, expect-tcl8.3 [hppa], dejagnu [!hurd-i386], lzma, binutils (>= 2.17cvs20070426) | binutils-multiarch (>= 2.17cvs20070426), binutils-hppa64 (>= 2.17cvs20070426) [hppa], gperf (>= 3.0.1), bison (>= 1:2.3), flex, gettext, texinfo (>= 4.3), locales [!hurd-i386 !m68k], procps [!hurd-i386], sharutils, libz-dev, fastjar, libmagic-dev, libecj-java (>= 3.3.0-2), zip, libasound2-dev [!hurd-i386 !kfreebsd-i386 !kfreebsd-amd64], libxtst-dev, libxt-dev, libgtk2.0-dev (>= 2.4.4-2), libart-2.0-dev, libcairo2-dev, libgconf2-dev, iceape-dev [!hurd-i386], g++-4.2 [armel], gcc-4.2-source (>= 4.2.4), gcc-4.2-source (<< 4.2.5), realpath (>= 1.9.12), chrpath, lsb-release, make (>= 3.81)"
-  ],
-  "Build-Depends-Indep": [
-    "gjdoc"
-  ],
-  "Checksums-Sha1": [
-    "04c2c1d39d050436125c973e7fa0e9c31984dc24 2456 gcj-4.2_4.2.4-4.dsc 8b7de2442d3cd5582f2c50cead9bbd3ebd3f332f 126 gcj-4.2_4.2.4.orig.tar.gz defdb81982c9a75764fd644220ebcf6de702dca5 528554 gcj-4.2_4.2.4-4.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "4cdee49c0288f2dbb7e2bb29a3f29f92d9d8c11e0d1e09b77e92c282ddd1a84e 2456 gcj-4.2_4.2.4-4.dsc 0ad1d9c7a4d9423a394e2e051d8b03388cda7b337dd60e22c00b98cbf759b09f 126 gcj-4.2_4.2.4.orig.tar.gz 74842d2144909bc4fff2afc06c8782e504cbaffe98d84084ae3720c08c830172 528554 gcj-4.2_4.2.4-4.diff.gz"
-  ],
-  "Directory": [
-    "pool/main/g/gcj-4.2"
-  ],
-  "Files": [
-    "cab8cea923f8b52a36f95e5bcb103a10 2456 gcj-4.2_4.2.4-4.dsc bda1d7025006da2eb4b24d00f44e2a52 126 gcj-4.2_4.2.4.orig.tar.gz ff2d0e15a85b8ed5f2f4e727c2465c79 528554 gcj-4.2_4.2.4-4.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Maintainer": [
-    "Debian GCC Maintainers <debian-gcc@lists.debian.org>"
-  ],
-  "Package": [
-    "gcj-4.2"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "devel"
-  ],
-  "Standards-Version": [
-    "3.7.3"
-  ],
-  "Uploaders": [
-    "Matthias Klose <doko@debian.org>"
-  ],
-  "Version": [
-    "4.2.4-4"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"gcj-4.2-base, gcj-4.2, gij-4.2, libgcj8-1, libgcj8-jar, libgcj8-1-awt, gappletviewer-4.2, libgcj8-dev, libgcj8-dbg, libgcj8-src"
+	],
+	"Build-Depends": [
+		"dpkg-dev (>= 1.14.15), debhelper (>= 5.0.62), gcc-multilib [amd64 i386 powerpc ppc64 s390 sparc kfreebsd-amd64], libc6.1-dev (>= 2.5) [alpha ia64] | libc0.3-dev (>= 2.5) [hurd-i386] | libc0.1-dev (>= 2.5) [kfreebsd-i386 kfreebsd-amd64] | libc6-dev (>= 2.5), libc6-dev-amd64 [i386], libc6-dev-sparc64 [sparc], libc6-dev-s390x [s390], libc6-dev-i386 [amd64], libc6-dev-powerpc [ppc64], libc6-dev-ppc64 [powerpc], libc0.1-dev-i386 [kfreebsd-amd64], lib32gcc1 [amd64 ppc64 kfreebsd-amd64], lib64gcc1 [i386 powerpc sparc s390], libunwind7-dev (>= 0.98.5-6) [ia64], libatomic-ops-dev [ia64], m4, autoconf, autoconf2.13, automake1.9, libtool, autogen, gawk, expect-tcl8.3 [hppa], dejagnu [!hurd-i386], lzma, binutils (>= 2.17cvs20070426) | binutils-multiarch (>= 2.17cvs20070426), binutils-hppa64 (>= 2.17cvs20070426) [hppa], gperf (>= 3.0.1), bison (>= 1:2.3), flex, gettext, texinfo (>= 4.3), locales [!hurd-i386 !m68k], procps [!hurd-i386], sharutils, libz-dev, fastjar, libmagic-dev, libecj-java (>= 3.3.0-2), zip, libasound2-dev [!hurd-i386 !kfreebsd-i386 !kfreebsd-amd64], libxtst-dev, libxt-dev, libgtk2.0-dev (>= 2.4.4-2), libart-2.0-dev, libcairo2-dev, libgconf2-dev, iceape-dev [!hurd-i386], g++-4.2 [armel], gcc-4.2-source (>= 4.2.4), gcc-4.2-source (<< 4.2.5), realpath (>= 1.9.12), chrpath, lsb-release, make (>= 3.81)"
+	],
+	"Build-Depends-Indep": [
+		"gjdoc"
+	],
+	"Checksums-Sha1": [
+		"04c2c1d39d050436125c973e7fa0e9c31984dc24 2456 gcj-4.2_4.2.4-4.dsc 8b7de2442d3cd5582f2c50cead9bbd3ebd3f332f 126 gcj-4.2_4.2.4.orig.tar.gz defdb81982c9a75764fd644220ebcf6de702dca5 528554 gcj-4.2_4.2.4-4.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"4cdee49c0288f2dbb7e2bb29a3f29f92d9d8c11e0d1e09b77e92c282ddd1a84e 2456 gcj-4.2_4.2.4-4.dsc 0ad1d9c7a4d9423a394e2e051d8b03388cda7b337dd60e22c00b98cbf759b09f 126 gcj-4.2_4.2.4.orig.tar.gz 74842d2144909bc4fff2afc06c8782e504cbaffe98d84084ae3720c08c830172 528554 gcj-4.2_4.2.4-4.diff.gz"
+	],
+	"Directory": [
+		"pool/main/g/gcj-4.2"
+	],
+	"Files": [
+		"cab8cea923f8b52a36f95e5bcb103a10 2456 gcj-4.2_4.2.4-4.dsc bda1d7025006da2eb4b24d00f44e2a52 126 gcj-4.2_4.2.4.orig.tar.gz ff2d0e15a85b8ed5f2f4e727c2465c79 528554 gcj-4.2_4.2.4-4.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Maintainer": [
+		"Debian GCC Maintainers <debian-gcc@lists.debian.org>"
+	],
+	"Package": [
+		"gcj-4.2"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"devel"
+	],
+	"Standards-Version": [
+		"3.7.3"
+	],
+	"Uploaders": [
+		"Matthias Klose <doko@debian.org>"
+	],
+	"Version": [
+		"4.2.4-4"
+	]
 }

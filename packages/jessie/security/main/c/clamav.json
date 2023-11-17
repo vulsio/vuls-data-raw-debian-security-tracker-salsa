@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "clamav-base, clamav-docs, clamav-dbg, clamav, libclamav-dev, libclamav9, clamav-daemon, clamdscan, clamav-testfiles, clamav-freshclam, clamav-milter"
-  ],
-  "Build-Depends": [
-    "automake, bc, check, debhelper (>= 8.9.7), dh-autoreconf, dh-systemd, dh-apparmor, dh-strip-nondeterminism, electric-fence, libbz2-dev, libcurl4-openssl-dev, libjson-c-dev | libjson0-dev, libltdl-dev, libmilter-dev, libmspack-dev, libncurses-dev, libpcre3-dev, libssl-dev, libsystemd-dev [linux-any], libtommath-dev, libxml2-dev, llvm-dev [i386 amd64 kfreebsd-amd64 kfreebsd-i386], perl:native, pkg-config, po-debconf, python:native, zlib1g-dev"
-  ],
-  "Checksums-Sha1": [
-    "7a221602c78695cd3eb114aee28e0c5b8af0c664 3169 clamav_0.101.5+dfsg-0+deb8u2.dsc 10872ee4c3a53d7a951c7e1d347f5d405cd08df3 4985328 clamav_0.101.5+dfsg.orig.tar.xz 0cb60cf96e79051f899eb76506b806aecbd6ab1f 221540 clamav_0.101.5+dfsg-0+deb8u2.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "8dff055b92848fdc026a6e7cc55d56d7586f34387c55fca36561a6ab5c70aadd 3169 clamav_0.101.5+dfsg-0+deb8u2.dsc 7c62b8367308db9ed14bb7b1d2dca23c6197cd7d7c04ae495641e268f51f3ef4 4985328 clamav_0.101.5+dfsg.orig.tar.xz 10ae281e053f4e01e021831ccfcc52622590486d83903bf8f13651482aeb9f17 221540 clamav_0.101.5+dfsg-0+deb8u2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/c/clamav"
-  ],
-  "Files": [
-    "3050f3ee7aab7e2a338ae93bc6016d81 3169 clamav_0.101.5+dfsg-0+deb8u2.dsc 5e91e8a8758d0226e33b9ec05778f0e3 4985328 clamav_0.101.5+dfsg.orig.tar.xz e6539e05176a3ddfe0ad4ea64798c54c 221540 clamav_0.101.5+dfsg-0+deb8u2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.clamav.net/"
-  ],
-  "Maintainer": [
-    "ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "clamav"
-  ],
-  "Package-List": [
-    "clamav deb utils optional arch=any clamav-base deb utils optional arch=all clamav-daemon deb utils optional arch=any clamav-dbg deb debug extra arch=any clamav-docs deb doc optional arch=all clamav-freshclam deb utils optional arch=any clamav-milter deb utils extra arch=any clamav-testfiles deb utils optional arch=all clamdscan deb utils optional arch=any libclamav-dev deb libdevel optional arch=any libclamav9 deb libs optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "utils"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Michael Meskes <meskes@debian.org>, Michael Tautschnig <mt@debian.org>, Scott Kitterman <scott@kitterman.com>, Sebastian Andrzej Siewior <sebastian@breakpoint.cc>, Andreas Cadhalpun <Andreas.Cadhalpun@googlemail.com>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/clamav-team/clamav"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/clamav-team/clamav.git"
-  ],
-  "Version": [
-    "0.101.5+dfsg-0+deb8u2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"clamav-base, clamav-docs, clamav-dbg, clamav, libclamav-dev, libclamav9, clamav-daemon, clamdscan, clamav-testfiles, clamav-freshclam, clamav-milter"
+	],
+	"Build-Depends": [
+		"automake, bc, check, debhelper (>= 8.9.7), dh-autoreconf, dh-systemd, dh-apparmor, dh-strip-nondeterminism, electric-fence, libbz2-dev, libcurl4-openssl-dev, libjson-c-dev | libjson0-dev, libltdl-dev, libmilter-dev, libmspack-dev, libncurses-dev, libpcre3-dev, libssl-dev, libsystemd-dev [linux-any], libtommath-dev, libxml2-dev, llvm-dev [i386 amd64 kfreebsd-amd64 kfreebsd-i386], perl:native, pkg-config, po-debconf, python:native, zlib1g-dev"
+	],
+	"Checksums-Sha1": [
+		"7a221602c78695cd3eb114aee28e0c5b8af0c664 3169 clamav_0.101.5+dfsg-0+deb8u2.dsc 10872ee4c3a53d7a951c7e1d347f5d405cd08df3 4985328 clamav_0.101.5+dfsg.orig.tar.xz 0cb60cf96e79051f899eb76506b806aecbd6ab1f 221540 clamav_0.101.5+dfsg-0+deb8u2.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"8dff055b92848fdc026a6e7cc55d56d7586f34387c55fca36561a6ab5c70aadd 3169 clamav_0.101.5+dfsg-0+deb8u2.dsc 7c62b8367308db9ed14bb7b1d2dca23c6197cd7d7c04ae495641e268f51f3ef4 4985328 clamav_0.101.5+dfsg.orig.tar.xz 10ae281e053f4e01e021831ccfcc52622590486d83903bf8f13651482aeb9f17 221540 clamav_0.101.5+dfsg-0+deb8u2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/c/clamav"
+	],
+	"Files": [
+		"3050f3ee7aab7e2a338ae93bc6016d81 3169 clamav_0.101.5+dfsg-0+deb8u2.dsc 5e91e8a8758d0226e33b9ec05778f0e3 4985328 clamav_0.101.5+dfsg.orig.tar.xz e6539e05176a3ddfe0ad4ea64798c54c 221540 clamav_0.101.5+dfsg-0+deb8u2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.clamav.net/"
+	],
+	"Maintainer": [
+		"ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"clamav"
+	],
+	"Package-List": [
+		"clamav deb utils optional arch=any clamav-base deb utils optional arch=all clamav-daemon deb utils optional arch=any clamav-dbg deb debug extra arch=any clamav-docs deb doc optional arch=all clamav-freshclam deb utils optional arch=any clamav-milter deb utils extra arch=any clamav-testfiles deb utils optional arch=all clamdscan deb utils optional arch=any libclamav-dev deb libdevel optional arch=any libclamav9 deb libs optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"utils"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Michael Meskes <meskes@debian.org>, Michael Tautschnig <mt@debian.org>, Scott Kitterman <scott@kitterman.com>, Sebastian Andrzej Siewior <sebastian@breakpoint.cc>, Andreas Cadhalpun <Andreas.Cadhalpun@googlemail.com>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/clamav-team/clamav"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/clamav-team/clamav.git"
+	],
+	"Version": [
+		"0.101.5+dfsg-0+deb8u2"
+	]
 }

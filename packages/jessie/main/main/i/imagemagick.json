@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "imagemagick-common, imagemagick-doc, libmagickcore-6-headers, libmagickwand-6-headers, libmagick++-6-headers, imagemagick, libimage-magick-perl, libmagickcore-6-arch-config, imagemagick-6.q16, libmagickcore-6.q16-2, libmagickcore-6.q16-2-extra, libmagickcore-6.q16-dev, libmagickwand-6.q16-2, libmagickwand-6.q16-dev, libmagick++-6.q16-5, libmagick++-6.q16-dev, imagemagick-dbg, libimage-magick-q16-perl, perlmagick, libmagickcore-dev, libmagickwand-dev, libmagick++-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9~), pkg-config, libltdl-dev, dh-autoreconf, chrpath, libfftw3-dev, liblcms2-dev, liblqr-1-0-dev, libfreetype6-dev, libfontconfig1-dev, zlib1g-dev, liblzma-dev, libbz2-dev, libx11-dev, libxext-dev, libxt-dev, ghostscript, libdjvulibre-dev, libexif-dev, libjasper-dev, libjpeg-dev, libopenexr-dev, libperl-dev, libpng-dev, libtiff-dev, libwmf-dev, libpango1.0-dev, librsvg2-bin, librsvg2-dev, libxml2-dev, pkg-kde-tools, dpkg-dev (>= 1.17.6)"
-  ],
-  "Build-Depends-Indep": [
-    "debhelper (>= 9~), doxygen, doxygen-latex, graphviz, libxml2-utils, xsltproc"
-  ],
-  "Checksums-Sha1": [
-    "468888952a648e60c22ed2071c8b263b43a2ef17 3883 imagemagick_6.8.9.9-5+deb8u12.dsc 84abbeab6d142267fe6eedfbbfaec11d43075c48 7891624 imagemagick_6.8.9.9.orig.tar.xz b9a73542db8e8a52f9d444d40b08bbf05180fdf5 297216 imagemagick_6.8.9.9-5+deb8u12.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "38f76f398784f7540a20b8bc44c84fa1fb47391518d4a7f192575f4a1dc7f852 3883 imagemagick_6.8.9.9-5+deb8u12.dsc a4cccc70179ff2c67550e063cdcb2e62907338ef3e68b45bb1c41931e515b3eb 7891624 imagemagick_6.8.9.9.orig.tar.xz 4373d71c5c3b45f598bbec094bd00320070144113a26a458abed09ae40aa7ce8 297216 imagemagick_6.8.9.9-5+deb8u12.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/i/imagemagick"
-  ],
-  "Files": [
-    "3ce7edf902d784cd189dac2febce00a8 3883 imagemagick_6.8.9.9-5+deb8u12.dsc 9ac3d9153ef78482d750cb03e3456e28 7891624 imagemagick_6.8.9.9.orig.tar.xz ba653e742f8c94fff61d9c7b23061e84 297216 imagemagick_6.8.9.9-5+deb8u12.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.imagemagick.org/"
-  ],
-  "Maintainer": [
-    "ImageMagick Packaging Team <pkg-gmagick-im-team@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "imagemagick"
-  ],
-  "Package-List": [
-    "imagemagick deb graphics optional arch=any imagemagick-6.q16 deb graphics optional arch=any imagemagick-common deb graphics optional arch=all imagemagick-dbg deb debug extra arch=any imagemagick-doc deb doc optional arch=all libimage-magick-perl deb perl optional arch=all libimage-magick-q16-perl deb perl optional arch=any libmagick++-6-headers deb libdevel optional arch=all libmagick++-6.q16-5 deb libs optional arch=any libmagick++-6.q16-dev deb libdevel optional arch=any libmagick++-dev deb oldlibs extra arch=all libmagickcore-6-arch-config deb libdevel optional arch=any libmagickcore-6-headers deb libdevel optional arch=all libmagickcore-6.q16-2 deb libs optional arch=any libmagickcore-6.q16-2-extra deb libs optional arch=any libmagickcore-6.q16-dev deb libdevel optional arch=any libmagickcore-dev deb oldlibs extra arch=all libmagickwand-6-headers deb libdevel optional arch=all libmagickwand-6.q16-2 deb libs optional arch=any libmagickwand-6.q16-dev deb libdevel optional arch=any libmagickwand-dev deb oldlibs extra arch=all perlmagick deb oldlibs extra arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "graphics"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Luciano Bello <luciano@debian.org>, Daniel Kobras <kobras@debian.org>, Nelson A. de Oliveira <naoliv@debian.org>, Bastien Roucariès <rouca@debian.org>, Vincent Fourmond <fourmond@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=collab-maint/imagemagick.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/collab-maint/imagemagick.git"
-  ],
-  "Version": [
-    "8:6.8.9.9-5+deb8u12"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"imagemagick-common, imagemagick-doc, libmagickcore-6-headers, libmagickwand-6-headers, libmagick++-6-headers, imagemagick, libimage-magick-perl, libmagickcore-6-arch-config, imagemagick-6.q16, libmagickcore-6.q16-2, libmagickcore-6.q16-2-extra, libmagickcore-6.q16-dev, libmagickwand-6.q16-2, libmagickwand-6.q16-dev, libmagick++-6.q16-5, libmagick++-6.q16-dev, imagemagick-dbg, libimage-magick-q16-perl, perlmagick, libmagickcore-dev, libmagickwand-dev, libmagick++-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9~), pkg-config, libltdl-dev, dh-autoreconf, chrpath, libfftw3-dev, liblcms2-dev, liblqr-1-0-dev, libfreetype6-dev, libfontconfig1-dev, zlib1g-dev, liblzma-dev, libbz2-dev, libx11-dev, libxext-dev, libxt-dev, ghostscript, libdjvulibre-dev, libexif-dev, libjasper-dev, libjpeg-dev, libopenexr-dev, libperl-dev, libpng-dev, libtiff-dev, libwmf-dev, libpango1.0-dev, librsvg2-bin, librsvg2-dev, libxml2-dev, pkg-kde-tools, dpkg-dev (>= 1.17.6)"
+	],
+	"Build-Depends-Indep": [
+		"debhelper (>= 9~), doxygen, doxygen-latex, graphviz, libxml2-utils, xsltproc"
+	],
+	"Checksums-Sha1": [
+		"468888952a648e60c22ed2071c8b263b43a2ef17 3883 imagemagick_6.8.9.9-5+deb8u12.dsc 84abbeab6d142267fe6eedfbbfaec11d43075c48 7891624 imagemagick_6.8.9.9.orig.tar.xz b9a73542db8e8a52f9d444d40b08bbf05180fdf5 297216 imagemagick_6.8.9.9-5+deb8u12.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"38f76f398784f7540a20b8bc44c84fa1fb47391518d4a7f192575f4a1dc7f852 3883 imagemagick_6.8.9.9-5+deb8u12.dsc a4cccc70179ff2c67550e063cdcb2e62907338ef3e68b45bb1c41931e515b3eb 7891624 imagemagick_6.8.9.9.orig.tar.xz 4373d71c5c3b45f598bbec094bd00320070144113a26a458abed09ae40aa7ce8 297216 imagemagick_6.8.9.9-5+deb8u12.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/i/imagemagick"
+	],
+	"Files": [
+		"3ce7edf902d784cd189dac2febce00a8 3883 imagemagick_6.8.9.9-5+deb8u12.dsc 9ac3d9153ef78482d750cb03e3456e28 7891624 imagemagick_6.8.9.9.orig.tar.xz ba653e742f8c94fff61d9c7b23061e84 297216 imagemagick_6.8.9.9-5+deb8u12.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.imagemagick.org/"
+	],
+	"Maintainer": [
+		"ImageMagick Packaging Team <pkg-gmagick-im-team@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"imagemagick"
+	],
+	"Package-List": [
+		"imagemagick deb graphics optional arch=any imagemagick-6.q16 deb graphics optional arch=any imagemagick-common deb graphics optional arch=all imagemagick-dbg deb debug extra arch=any imagemagick-doc deb doc optional arch=all libimage-magick-perl deb perl optional arch=all libimage-magick-q16-perl deb perl optional arch=any libmagick++-6-headers deb libdevel optional arch=all libmagick++-6.q16-5 deb libs optional arch=any libmagick++-6.q16-dev deb libdevel optional arch=any libmagick++-dev deb oldlibs extra arch=all libmagickcore-6-arch-config deb libdevel optional arch=any libmagickcore-6-headers deb libdevel optional arch=all libmagickcore-6.q16-2 deb libs optional arch=any libmagickcore-6.q16-2-extra deb libs optional arch=any libmagickcore-6.q16-dev deb libdevel optional arch=any libmagickcore-dev deb oldlibs extra arch=all libmagickwand-6-headers deb libdevel optional arch=all libmagickwand-6.q16-2 deb libs optional arch=any libmagickwand-6.q16-dev deb libdevel optional arch=any libmagickwand-dev deb oldlibs extra arch=all perlmagick deb oldlibs extra arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"graphics"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Luciano Bello <luciano@debian.org>, Daniel Kobras <kobras@debian.org>, Nelson A. de Oliveira <naoliv@debian.org>, Bastien Roucariès <rouca@debian.org>, Vincent Fourmond <fourmond@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=collab-maint/imagemagick.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/collab-maint/imagemagick.git"
+	],
+	"Version": [
+		"8:6.8.9.9-5+deb8u12"
+	]
 }

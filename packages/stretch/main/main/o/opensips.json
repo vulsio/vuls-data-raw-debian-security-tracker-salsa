@@ -1,47 +1,47 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "opensips, opensips-dbg, opensips-mysql-module, opensips-postgres-module, opensips-sqlite-module, opensips-jabber-module, opensips-cpl-module, opensips-radius-modules, opensips-unixodbc-module, opensips-presence-modules, opensips-xmlrpc-module, opensips-perl-modules, opensips-snmpstats-module, opensips-xmpp-module, opensips-carrierroute-module, opensips-berkeley-module, opensips-berkeley-bin, opensips-ldap-modules, opensips-geoip-module, opensips-regex-module, opensips-identity-module, opensips-b2bua-module, opensips-dbhttp-module, opensips-dialplan-module, opensips-memcached-module, opensips-json-module, opensips-console, opensips-redis-module, opensips-rabbitmq-module, opensips-lua-module, opensips-http-modules, opensips-compression-module, opensips-emergency-module, opensips-tlsmgm-module, opensips-tls-module, opensips-wss-module, opensips-sctp-module, opensips-restclient-module"
-  ],
-  "Build-Depends": [
-    "bison, debhelper (>= 9), default-libmysqlclient-dev, dh-systemd (>= 1.5), dpkg-dev (>= 1.16.1.1), flex, libconfuse-dev, libcurl4-gnutls-dev, libdb-dev (>= 4.6.19), libexpat1-dev, libgeoip-dev (>= 1.4.4), libhiredis-dev, libjson-c-dev, libldap2-dev, liblua5.1-0-dev, libmemcached-dev, libmicrohttpd-dev, libncurses5-dev, libpcre3-dev, libperl-dev, libpq-dev, librabbitmq-dev, libradcli-dev, libsctp-dev [linux-any], libsnmp-dev, libsqlite3-dev, libssl-dev, libxml2-dev, pkg-config, python, unixodbc-dev, xsltproc, zlib1g-dev"
-  ],
-  "Checksums-Sha256": [
-    "9530bb3cf3c6846ea938c23228771e79dde402cca9dd8dc9009b3bcaa0c361cc 4935 opensips_2.2.2-3.dsc 0a03523c791a0bd8115670af17457cfc572b4d98a34eea62868ee6ceaa43b71d 5049314 opensips_2.2.2.orig.tar.gz 8de75b040846b2d73305de7e78d31b4ba33f3f55bde1b6c6d92c24be94424adb 34180 opensips_2.2.2-3.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/o/opensips"
-  ],
-  "Files": [
-    "97878999828ad1a3da4c788d093871e3 4935 opensips_2.2.2-3.dsc 3fa4837c30688630782ccbdc23ebd9d6 5049314 opensips_2.2.2.orig.tar.gz 81d12a1f1a78224ff5010651a49ab9b9 34180 opensips_2.2.2-3.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.opensips.org/"
-  ],
-  "Maintainer": [
-    "Răzvan Crainea <razvan@opensips.org>"
-  ],
-  "Package": [
-    "opensips"
-  ],
-  "Package-List": [
-    "opensips deb net optional arch=any opensips-b2bua-module deb net optional arch=any opensips-berkeley-bin deb net optional arch=any opensips-berkeley-module deb net optional arch=any opensips-carrierroute-module deb net optional arch=any opensips-compression-module deb net optional arch=any opensips-console deb net optional arch=any opensips-cpl-module deb net optional arch=any opensips-dbg deb debug extra arch=any opensips-dbhttp-module deb net optional arch=any opensips-dialplan-module deb net optional arch=any opensips-emergency-module deb net optional arch=any opensips-geoip-module deb net optional arch=any opensips-http-modules deb net optional arch=any opensips-identity-module deb net optional arch=any opensips-jabber-module deb net optional arch=any opensips-json-module deb net optional arch=any opensips-ldap-modules deb net optional arch=any opensips-lua-module deb net optional arch=any opensips-memcached-module deb net optional arch=any opensips-mysql-module deb net optional arch=any opensips-perl-modules deb net optional arch=any opensips-postgres-module deb net optional arch=any opensips-presence-modules deb net optional arch=any opensips-rabbitmq-module deb net optional arch=any opensips-radius-modules deb net optional arch=any opensips-redis-module deb net optional arch=any opensips-regex-module deb net optional arch=any opensips-restclient-module deb net optional arch=any opensips-sctp-module deb net optional arch=linux-any opensips-snmpstats-module deb net optional arch=any opensips-sqlite-module deb net optional arch=any opensips-tls-module deb net optional arch=any opensips-tlsmgm-module deb net optional arch=any opensips-unixodbc-module deb net optional arch=any opensips-wss-module deb net optional arch=any opensips-xmlrpc-module deb net optional arch=any opensips-xmpp-module deb net optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Version": [
-    "2.2.2-3"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"opensips, opensips-dbg, opensips-mysql-module, opensips-postgres-module, opensips-sqlite-module, opensips-jabber-module, opensips-cpl-module, opensips-radius-modules, opensips-unixodbc-module, opensips-presence-modules, opensips-xmlrpc-module, opensips-perl-modules, opensips-snmpstats-module, opensips-xmpp-module, opensips-carrierroute-module, opensips-berkeley-module, opensips-berkeley-bin, opensips-ldap-modules, opensips-geoip-module, opensips-regex-module, opensips-identity-module, opensips-b2bua-module, opensips-dbhttp-module, opensips-dialplan-module, opensips-memcached-module, opensips-json-module, opensips-console, opensips-redis-module, opensips-rabbitmq-module, opensips-lua-module, opensips-http-modules, opensips-compression-module, opensips-emergency-module, opensips-tlsmgm-module, opensips-tls-module, opensips-wss-module, opensips-sctp-module, opensips-restclient-module"
+	],
+	"Build-Depends": [
+		"bison, debhelper (>= 9), default-libmysqlclient-dev, dh-systemd (>= 1.5), dpkg-dev (>= 1.16.1.1), flex, libconfuse-dev, libcurl4-gnutls-dev, libdb-dev (>= 4.6.19), libexpat1-dev, libgeoip-dev (>= 1.4.4), libhiredis-dev, libjson-c-dev, libldap2-dev, liblua5.1-0-dev, libmemcached-dev, libmicrohttpd-dev, libncurses5-dev, libpcre3-dev, libperl-dev, libpq-dev, librabbitmq-dev, libradcli-dev, libsctp-dev [linux-any], libsnmp-dev, libsqlite3-dev, libssl-dev, libxml2-dev, pkg-config, python, unixodbc-dev, xsltproc, zlib1g-dev"
+	],
+	"Checksums-Sha256": [
+		"9530bb3cf3c6846ea938c23228771e79dde402cca9dd8dc9009b3bcaa0c361cc 4935 opensips_2.2.2-3.dsc 0a03523c791a0bd8115670af17457cfc572b4d98a34eea62868ee6ceaa43b71d 5049314 opensips_2.2.2.orig.tar.gz 8de75b040846b2d73305de7e78d31b4ba33f3f55bde1b6c6d92c24be94424adb 34180 opensips_2.2.2-3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/o/opensips"
+	],
+	"Files": [
+		"97878999828ad1a3da4c788d093871e3 4935 opensips_2.2.2-3.dsc 3fa4837c30688630782ccbdc23ebd9d6 5049314 opensips_2.2.2.orig.tar.gz 81d12a1f1a78224ff5010651a49ab9b9 34180 opensips_2.2.2-3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.opensips.org/"
+	],
+	"Maintainer": [
+		"Răzvan Crainea <razvan@opensips.org>"
+	],
+	"Package": [
+		"opensips"
+	],
+	"Package-List": [
+		"opensips deb net optional arch=any opensips-b2bua-module deb net optional arch=any opensips-berkeley-bin deb net optional arch=any opensips-berkeley-module deb net optional arch=any opensips-carrierroute-module deb net optional arch=any opensips-compression-module deb net optional arch=any opensips-console deb net optional arch=any opensips-cpl-module deb net optional arch=any opensips-dbg deb debug extra arch=any opensips-dbhttp-module deb net optional arch=any opensips-dialplan-module deb net optional arch=any opensips-emergency-module deb net optional arch=any opensips-geoip-module deb net optional arch=any opensips-http-modules deb net optional arch=any opensips-identity-module deb net optional arch=any opensips-jabber-module deb net optional arch=any opensips-json-module deb net optional arch=any opensips-ldap-modules deb net optional arch=any opensips-lua-module deb net optional arch=any opensips-memcached-module deb net optional arch=any opensips-mysql-module deb net optional arch=any opensips-perl-modules deb net optional arch=any opensips-postgres-module deb net optional arch=any opensips-presence-modules deb net optional arch=any opensips-rabbitmq-module deb net optional arch=any opensips-radius-modules deb net optional arch=any opensips-redis-module deb net optional arch=any opensips-regex-module deb net optional arch=any opensips-restclient-module deb net optional arch=any opensips-sctp-module deb net optional arch=linux-any opensips-snmpstats-module deb net optional arch=any opensips-sqlite-module deb net optional arch=any opensips-tls-module deb net optional arch=any opensips-tlsmgm-module deb net optional arch=any opensips-unixodbc-module deb net optional arch=any opensips-wss-module deb net optional arch=any opensips-xmlrpc-module deb net optional arch=any opensips-xmpp-module deb net optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Version": [
+		"2.2.2-3"
+	]
 }

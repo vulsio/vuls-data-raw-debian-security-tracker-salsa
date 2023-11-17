@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-futures-executor-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-futures-core-0.3+std-dev (>= 0.3.28-~~) <!nocheck>, librust-futures-core-0.3-dev (>= 0.3.28-~~) <!nocheck>, librust-futures-task-0.3+std-dev (>= 0.3.28-~~) <!nocheck>, librust-futures-task-0.3-dev (>= 0.3.28-~~) <!nocheck>, librust-futures-util-0.3+std-dev (>= 0.3.28-~~) <!nocheck>, librust-futures-util-0.3-dev (>= 0.3.28-~~) <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "a89688d3a0901c391fce34109f4bd5706be49bfa48555faa3a11141edd2ac97a 2641 rust-futures-executor_0.3.28-1.dsc ccecee823288125bd88b4d7f565c9e58e41858e47ab72e8ea2d64e93624386e0 17743 rust-futures-executor_0.3.28.orig.tar.gz 279e2061fa9502a607838bbdc95a323d59b2cdc04c5eacc73a9a1c9e17f51592 3240 rust-futures-executor_0.3.28-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-futures-executor"
-  ],
-  "Files": [
-    "fee5bcc60f192facf5a3be3cb48b0705 2641 rust-futures-executor_0.3.28-1.dsc 2399b8b3b39b993d8e44d2fc1628663c 17743 rust-futures-executor_0.3.28.orig.tar.gz 174b5d8257d0e144092d8defd4c9115b 3240 rust-futures-executor_0.3.28-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://rust-lang.github.io/futures-rs"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-futures-executor"
-  ],
-  "Package-List": [
-    "librust-futures-executor-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo"
-  ],
-  "Uploaders": [
-    "Henry-Nicolas Tourneur <debian@nilux.be>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/futures-executor"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/futures-executor]"
-  ],
-  "Version": [
-    "0.3.28-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-futures-executor-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-futures-core-0.3+std-dev (>= 0.3.28-~~) <!nocheck>, librust-futures-core-0.3-dev (>= 0.3.28-~~) <!nocheck>, librust-futures-task-0.3+std-dev (>= 0.3.28-~~) <!nocheck>, librust-futures-task-0.3-dev (>= 0.3.28-~~) <!nocheck>, librust-futures-util-0.3+std-dev (>= 0.3.28-~~) <!nocheck>, librust-futures-util-0.3-dev (>= 0.3.28-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"a89688d3a0901c391fce34109f4bd5706be49bfa48555faa3a11141edd2ac97a 2641 rust-futures-executor_0.3.28-1.dsc ccecee823288125bd88b4d7f565c9e58e41858e47ab72e8ea2d64e93624386e0 17743 rust-futures-executor_0.3.28.orig.tar.gz 279e2061fa9502a607838bbdc95a323d59b2cdc04c5eacc73a9a1c9e17f51592 3240 rust-futures-executor_0.3.28-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-futures-executor"
+	],
+	"Files": [
+		"fee5bcc60f192facf5a3be3cb48b0705 2641 rust-futures-executor_0.3.28-1.dsc 2399b8b3b39b993d8e44d2fc1628663c 17743 rust-futures-executor_0.3.28.orig.tar.gz 174b5d8257d0e144092d8defd4c9115b 3240 rust-futures-executor_0.3.28-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://rust-lang.github.io/futures-rs"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-futures-executor"
+	],
+	"Package-List": [
+		"librust-futures-executor-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo"
+	],
+	"Uploaders": [
+		"Henry-Nicolas Tourneur <debian@nilux.be>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/futures-executor"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/futures-executor]"
+	],
+	"Version": [
+		"0.3.28-1"
+	]
 }

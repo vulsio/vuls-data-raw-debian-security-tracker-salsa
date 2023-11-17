@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "gsequencer, gsequencer-doc, gsequencer-data, libags6, libags-audio6, libags-gui6, libags-dev, libags-audio-dev, libags-gui-dev, gir1.2-ags-6.0, gir1.2-agsaudio-6.0, gir1.2-agsgui-6.0, libags-doc, libags-audio-doc, libags-gui-doc"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-gir, docbook-xml, docbook-xsl, dssi-dev, fop, gettext, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gtk-doc-tools, ladspa-sdk, libasound2-dev [linux-any], libcairo2-dev, libcunit1-dev, libfftw3-dev, libgirepository1.0-dev, libgstreamer1.0-dev, libgstreamer-plugins-base1.0-dev, libgtk-4-dev, libinstpatch-dev, libjack-jackd2-dev | libjack-dev, liboss4-salsa-dev [!linux-any], libpoppler-glib-dev, libpulse-dev, libsamplerate-dev, libsndfile1-dev, libsoup-3.0-dev, libx11-dev, libxml2-dev, libjson-glib-dev, lv2-dev, oss4-dev [kfreebsd-any], pkg-config, uuid-dev, xauth, xsltproc, xvfb"
-  ],
-  "Checksums-Sha256": [
-    "f4e7a765af290f1b9c512fbe0ab2c237d6fb92a110a5b7f51a6801a137ba4198 3896 gsequencer_6.1.3-1.dsc df0829b8bc716d7d514bb30dc67919690bc7dbe23fafab1cb4795855764e5875 11258641 gsequencer_6.1.3.orig.tar.gz ba29c34ac9d2c9e0fdfc32c3aff59eaea69dd1c7e51afa866e59c7b838472c1f 659 gsequencer_6.1.3.orig.tar.gz.asc 65c2acf0f708ac3213d360d88938d40871bf2d418deb00383bd569b12a2a032f 47512 gsequencer_6.1.3-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/g/gsequencer"
-  ],
-  "Files": [
-    "ac97d99e2dfaa35797f684464b97ae85 3896 gsequencer_6.1.3-1.dsc 6653f08daabf6081549a4db173da929c 11258641 gsequencer_6.1.3.orig.tar.gz dc7730f3e49e0bb2c3cfbb76df115a0a 659 gsequencer_6.1.3.orig.tar.gz.asc a69a5d68cf6c5876f30ae1fb292054e7 47512 gsequencer_6.1.3-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://nongnu.org/gsequencer"
-  ],
-  "Maintainer": [
-    "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>"
-  ],
-  "Package": [
-    "gsequencer"
-  ],
-  "Package-List": [
-    "gir1.2-ags-6.0 deb introspection optional arch=any gir1.2-agsaudio-6.0 deb introspection optional arch=any gir1.2-agsgui-6.0 deb introspection optional arch=any gsequencer deb sound optional arch=any gsequencer-data deb sound optional arch=all gsequencer-doc deb doc optional arch=all libags-audio-dev deb libdevel optional arch=any libags-audio-doc deb doc optional arch=all libags-audio6 deb libs optional arch=any libags-dev deb libdevel optional arch=any libags-doc deb doc optional arch=all libags-gui-dev deb libdevel optional arch=any libags-gui-doc deb doc optional arch=all libags-gui6 deb libs optional arch=any libags6 deb libs optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "@builddeps@, calf-plugins, cmt, dpkg-dev, fakeroot, fluid-soundfont-gm, hydrogen-drumkits, invada-studio-plugins-lv2, libxtst-dev, parallel, pulseaudio, swh-lv2"
-  ],
-  "Uploaders": [
-    "Joël Krähemann <jkraehemann@gmail.com>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/multimedia-team/gsequencer"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/multimedia-team/gsequencer.git"
-  ],
-  "Version": [
-    "6.1.3-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"gsequencer, gsequencer-doc, gsequencer-data, libags6, libags-audio6, libags-gui6, libags-dev, libags-audio-dev, libags-gui-dev, gir1.2-ags-6.0, gir1.2-agsaudio-6.0, gir1.2-agsgui-6.0, libags-doc, libags-audio-doc, libags-gui-doc"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-sequence-gir, docbook-xml, docbook-xsl, dssi-dev, fop, gettext, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gtk-doc-tools, ladspa-sdk, libasound2-dev [linux-any], libcairo2-dev, libcunit1-dev, libfftw3-dev, libgirepository1.0-dev, libgstreamer1.0-dev, libgstreamer-plugins-base1.0-dev, libgtk-4-dev, libinstpatch-dev, libjack-jackd2-dev | libjack-dev, liboss4-salsa-dev [!linux-any], libpoppler-glib-dev, libpulse-dev, libsamplerate-dev, libsndfile1-dev, libsoup-3.0-dev, libx11-dev, libxml2-dev, libjson-glib-dev, lv2-dev, oss4-dev [kfreebsd-any], pkg-config, uuid-dev, xauth, xsltproc, xvfb"
+	],
+	"Checksums-Sha256": [
+		"f4e7a765af290f1b9c512fbe0ab2c237d6fb92a110a5b7f51a6801a137ba4198 3896 gsequencer_6.1.3-1.dsc df0829b8bc716d7d514bb30dc67919690bc7dbe23fafab1cb4795855764e5875 11258641 gsequencer_6.1.3.orig.tar.gz ba29c34ac9d2c9e0fdfc32c3aff59eaea69dd1c7e51afa866e59c7b838472c1f 659 gsequencer_6.1.3.orig.tar.gz.asc 65c2acf0f708ac3213d360d88938d40871bf2d418deb00383bd569b12a2a032f 47512 gsequencer_6.1.3-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/gsequencer"
+	],
+	"Files": [
+		"ac97d99e2dfaa35797f684464b97ae85 3896 gsequencer_6.1.3-1.dsc 6653f08daabf6081549a4db173da929c 11258641 gsequencer_6.1.3.orig.tar.gz dc7730f3e49e0bb2c3cfbb76df115a0a 659 gsequencer_6.1.3.orig.tar.gz.asc a69a5d68cf6c5876f30ae1fb292054e7 47512 gsequencer_6.1.3-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://nongnu.org/gsequencer"
+	],
+	"Maintainer": [
+		"Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>"
+	],
+	"Package": [
+		"gsequencer"
+	],
+	"Package-List": [
+		"gir1.2-ags-6.0 deb introspection optional arch=any gir1.2-agsaudio-6.0 deb introspection optional arch=any gir1.2-agsgui-6.0 deb introspection optional arch=any gsequencer deb sound optional arch=any gsequencer-data deb sound optional arch=all gsequencer-doc deb doc optional arch=all libags-audio-dev deb libdevel optional arch=any libags-audio-doc deb doc optional arch=all libags-audio6 deb libs optional arch=any libags-dev deb libdevel optional arch=any libags-doc deb doc optional arch=all libags-gui-dev deb libdevel optional arch=any libags-gui-doc deb doc optional arch=all libags-gui6 deb libs optional arch=any libags6 deb libs optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"@builddeps@, calf-plugins, cmt, dpkg-dev, fakeroot, fluid-soundfont-gm, hydrogen-drumkits, invada-studio-plugins-lv2, libxtst-dev, parallel, pulseaudio, swh-lv2"
+	],
+	"Uploaders": [
+		"Joël Krähemann <jkraehemann@gmail.com>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/multimedia-team/gsequencer"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/multimedia-team/gsequencer.git"
+	],
+	"Version": [
+		"6.1.3-1"
+	]
 }

@@ -1,53 +1,53 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "gcc-4.3-base, gcc-4.3, gcc-4.3-multilib, gcc-4.3-hppa64, gcc-4.3-spu, g++-4.3-spu, gfortran-4.3-spu, cpp-4.3, gcc-4.3-locales, g++-4.3, g++-4.3-multilib, libmudflap0-4.3-dev, gobjc++-4.3, gobjc++-4.3-multilib, gobjc-4.3, gobjc-4.3-multilib, gfortran-4.3, gfortran-4.3-multilib, libstdc++6-4.3-dev, libstdc++6-4.3-pic, libstdc++6-4.3-dbg, lib32stdc++6-4.3-dbg, lib64stdc++6-4.3-dbg, libn32stdc++6-4.3-dbg, libstdc++6-4.3-doc, gcc-4.3-soft-float, gcc-4.3-source"
-  ],
-  "Build-Conflicts": [
-    "binutils-gold"
-  ],
-  "Build-Depends": [
-    "dpkg-dev (>= 1.14.15), debhelper (>= 5.0.62), gcc-multilib [amd64 i386 mips mipsel powerpc ppc64 s390 sparc kfreebsd-amd64], libc6.1-dev (>= 2.5) [alpha ia64] | libc0.3-dev (>= 2.5) [hurd-i386] | libc0.1-dev (>= 2.5) [kfreebsd-i386 kfreebsd-amd64] | libc6-dev (>= 2.5), libc6-dev-amd64 [i386], libc6-dev-sparc64 [sparc], libc6-dev-s390x [s390], libc6-dev-i386 [amd64], libc6-dev-powerpc [ppc64], libc6-dev-ppc64 [powerpc], libc0.1-dev-i386 [kfreebsd-amd64], lib32gcc1 [amd64 ppc64 kfreebsd-amd64], lib64gcc1 [i386 powerpc sparc s390], libc6-dev-mips64 [mips mipsel], libc6-dev-mipsn32 [mips mipsel], autogen, libunwind7-dev (>= 0.98.5-6) [ia64], libatomic-ops-dev [ia64], m4, autoconf (>= 2.50), autoconf2.59, automake1.9, libtool, gawk, expect-tcl8.3 [hppa], dejagnu [!none !hurd-i386], lzma, binutils (>= 2.19.1) | binutils-multiarch (>= 2.19.1), binutils-hppa64 (>= 2.19.1) [hppa], gperf (>= 3.0.1), bison (>= 1:2.3), flex, gettext, texinfo (>= 4.3), libmpfr-dev (>= 2.3.0), locales [!hurd-i386 !m68k], procps [!hurd-i386], sharutils, binutils-spu (>= 2.19.1) [powerpc ppc64], newlib-spu (>= 1.16.0) [powerpc ppc64], realpath (>= 1.9.12), chrpath, lsb-release, make (>= 3.81)"
-  ],
-  "Build-Depends-Indep": [
-    "doxygen (>= 1.4.2), graphviz (>= 2.2), gsfonts-x11, texlive-latex-base"
-  ],
-  "Checksums-Sha1": [
-    "57b1ca61c553d69fecdeec9edda640193815759b 2785 gcc-4.3_4.3.4-6~bpo50+1.dsc 8c69de608541e6e0e127712e75a645e3522b1799 46467883 gcc-4.3_4.3.4.orig.tar.gz ea4b409137e1acba79bff09b162293ad665df414 665670 gcc-4.3_4.3.4-6~bpo50+1.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "a0590db6d7f4c918a4f6b43f01a198ffc179fc5e582d8b6dc6e6ac93da5cb09f 2785 gcc-4.3_4.3.4-6~bpo50+1.dsc 3f33d8e4f1a72a27de2fefd8dbb60f1709fdbd31cc1c283177a7649c320318a5 46467883 gcc-4.3_4.3.4.orig.tar.gz de204d967ddc412d609e7118f68fd34ccdf518c1d317e65c2f576e3314e029a2 665670 gcc-4.3_4.3.4-6~bpo50+1.diff.gz"
-  ],
-  "Directory": [
-    "pool/main/g/gcc-4.3"
-  ],
-  "Files": [
-    "3ced2d838c133313ebc0a7ae19b73f5f 2785 gcc-4.3_4.3.4-6~bpo50+1.dsc 6d8a6f2e4fe3e1cb42d79b82d5baf710 46467883 gcc-4.3_4.3.4.orig.tar.gz 08bae21e9cfc746bf32e34c3e9217852 665670 gcc-4.3_4.3.4-6~bpo50+1.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Maintainer": [
-    "Debian GCC Maintainers <debian-gcc@lists.debian.org>"
-  ],
-  "Package": [
-    "gcc-4.3"
-  ],
-  "Priority": [
-    "required"
-  ],
-  "Section": [
-    "devel"
-  ],
-  "Standards-Version": [
-    "3.8.3"
-  ],
-  "Uploaders": [
-    "Matthias Klose <doko@debian.org>"
-  ],
-  "Version": [
-    "4.3.4-6~bpo50+1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"gcc-4.3-base, gcc-4.3, gcc-4.3-multilib, gcc-4.3-hppa64, gcc-4.3-spu, g++-4.3-spu, gfortran-4.3-spu, cpp-4.3, gcc-4.3-locales, g++-4.3, g++-4.3-multilib, libmudflap0-4.3-dev, gobjc++-4.3, gobjc++-4.3-multilib, gobjc-4.3, gobjc-4.3-multilib, gfortran-4.3, gfortran-4.3-multilib, libstdc++6-4.3-dev, libstdc++6-4.3-pic, libstdc++6-4.3-dbg, lib32stdc++6-4.3-dbg, lib64stdc++6-4.3-dbg, libn32stdc++6-4.3-dbg, libstdc++6-4.3-doc, gcc-4.3-soft-float, gcc-4.3-source"
+	],
+	"Build-Conflicts": [
+		"binutils-gold"
+	],
+	"Build-Depends": [
+		"dpkg-dev (>= 1.14.15), debhelper (>= 5.0.62), gcc-multilib [amd64 i386 mips mipsel powerpc ppc64 s390 sparc kfreebsd-amd64], libc6.1-dev (>= 2.5) [alpha ia64] | libc0.3-dev (>= 2.5) [hurd-i386] | libc0.1-dev (>= 2.5) [kfreebsd-i386 kfreebsd-amd64] | libc6-dev (>= 2.5), libc6-dev-amd64 [i386], libc6-dev-sparc64 [sparc], libc6-dev-s390x [s390], libc6-dev-i386 [amd64], libc6-dev-powerpc [ppc64], libc6-dev-ppc64 [powerpc], libc0.1-dev-i386 [kfreebsd-amd64], lib32gcc1 [amd64 ppc64 kfreebsd-amd64], lib64gcc1 [i386 powerpc sparc s390], libc6-dev-mips64 [mips mipsel], libc6-dev-mipsn32 [mips mipsel], autogen, libunwind7-dev (>= 0.98.5-6) [ia64], libatomic-ops-dev [ia64], m4, autoconf (>= 2.50), autoconf2.59, automake1.9, libtool, gawk, expect-tcl8.3 [hppa], dejagnu [!none !hurd-i386], lzma, binutils (>= 2.19.1) | binutils-multiarch (>= 2.19.1), binutils-hppa64 (>= 2.19.1) [hppa], gperf (>= 3.0.1), bison (>= 1:2.3), flex, gettext, texinfo (>= 4.3), libmpfr-dev (>= 2.3.0), locales [!hurd-i386 !m68k], procps [!hurd-i386], sharutils, binutils-spu (>= 2.19.1) [powerpc ppc64], newlib-spu (>= 1.16.0) [powerpc ppc64], realpath (>= 1.9.12), chrpath, lsb-release, make (>= 3.81)"
+	],
+	"Build-Depends-Indep": [
+		"doxygen (>= 1.4.2), graphviz (>= 2.2), gsfonts-x11, texlive-latex-base"
+	],
+	"Checksums-Sha1": [
+		"57b1ca61c553d69fecdeec9edda640193815759b 2785 gcc-4.3_4.3.4-6~bpo50+1.dsc 8c69de608541e6e0e127712e75a645e3522b1799 46467883 gcc-4.3_4.3.4.orig.tar.gz ea4b409137e1acba79bff09b162293ad665df414 665670 gcc-4.3_4.3.4-6~bpo50+1.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"a0590db6d7f4c918a4f6b43f01a198ffc179fc5e582d8b6dc6e6ac93da5cb09f 2785 gcc-4.3_4.3.4-6~bpo50+1.dsc 3f33d8e4f1a72a27de2fefd8dbb60f1709fdbd31cc1c283177a7649c320318a5 46467883 gcc-4.3_4.3.4.orig.tar.gz de204d967ddc412d609e7118f68fd34ccdf518c1d317e65c2f576e3314e029a2 665670 gcc-4.3_4.3.4-6~bpo50+1.diff.gz"
+	],
+	"Directory": [
+		"pool/main/g/gcc-4.3"
+	],
+	"Files": [
+		"3ced2d838c133313ebc0a7ae19b73f5f 2785 gcc-4.3_4.3.4-6~bpo50+1.dsc 6d8a6f2e4fe3e1cb42d79b82d5baf710 46467883 gcc-4.3_4.3.4.orig.tar.gz 08bae21e9cfc746bf32e34c3e9217852 665670 gcc-4.3_4.3.4-6~bpo50+1.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Maintainer": [
+		"Debian GCC Maintainers <debian-gcc@lists.debian.org>"
+	],
+	"Package": [
+		"gcc-4.3"
+	],
+	"Priority": [
+		"required"
+	],
+	"Section": [
+		"devel"
+	],
+	"Standards-Version": [
+		"3.8.3"
+	],
+	"Uploaders": [
+		"Matthias Klose <doko@debian.org>"
+	],
+	"Version": [
+		"4.3.4-6~bpo50+1"
+	]
 }

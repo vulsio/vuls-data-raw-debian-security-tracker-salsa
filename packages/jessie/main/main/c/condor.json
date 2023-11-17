@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "htcondor, htcondor-dev, htcondor-doc, htcondor-dbg, libclassad-dev, libclassad7, condor, condor-doc, condor-dev, condor-dbg"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9~), po-debconf, cmake, autotools-dev, dh-autoreconf, python-dev, libpq-dev, libcurl4-openssl-dev, zlib1g-dev, libglobus-gss-assist-dev, libglobus-gram-protocol-dev, libglobus-gram-client-dev, libglobus-gass-server-ez-dev, libglobus-ftp-client-dev, latex2html, transfig, libpcre3-dev, libboost-thread-dev, libboost-program-options-dev, libboost-system-dev, libboost-regex-dev, libboost-filesystem-dev, libexpat1-dev, libxml2-dev, libvirt-dev, libx11-dev, default-jdk | gcj-jdk, uuid-dev, chrpath, libldap2-dev | libldap-dev, help2man, gsoap (>= 2.7.17-1~), libboost-test-dev, libboost-python-dev, libkrb5-dev, libcgroup-dev"
-  ],
-  "Checksums-Sha1": [
-    "634ef9b6508aab801fc231048eae9a7f9e59069c 3023 condor_8.2.3~dfsg.1-6.dsc 00567b03cefb5c5f0cf288668f571a6b27c998f5 9834837 condor_8.2.3~dfsg.1.orig.tar.gz 440ebe726e74f665d03406e5492055634f148d9f 71560 condor_8.2.3~dfsg.1-6.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "83896b837439812c0a27ed6d20784a2679b3f14124c6b08868558bd8531324f6 3023 condor_8.2.3~dfsg.1-6.dsc 3f501ffe5fe20ec40044be47e0af7cd26d6616c9768287583467ebec624bad06 9834837 condor_8.2.3~dfsg.1.orig.tar.gz 1d479b9b00686bcd9a67582c892d26a52da4218dc4385ab05664f87b79820a29 71560 condor_8.2.3~dfsg.1-6.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/c/condor"
-  ],
-  "Files": [
-    "41e3ba2504682e62d9e696d7e4a3991a 3023 condor_8.2.3~dfsg.1-6.dsc 99aca1080f7650def408bb2ffcbd3f6b 9834837 condor_8.2.3~dfsg.1.orig.tar.gz 02d983e720b31d0204cd0212aaa44cb1 71560 condor_8.2.3~dfsg.1-6.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://research.cs.wisc.edu/htcondor"
-  ],
-  "Maintainer": [
-    "HTCondor Developers <condor-debian@cs.wisc.edu>"
-  ],
-  "Package": [
-    "condor"
-  ],
-  "Package-List": [
-    "condor deb oldlibs extra arch=all condor-dbg deb oldlibs extra arch=all condor-dev deb oldlibs extra arch=all condor-doc deb oldlibs extra arch=all htcondor deb science extra arch=any htcondor-dbg deb debug extra arch=any htcondor-dev deb devel extra arch=any htcondor-doc deb doc extra arch=all libclassad-dev deb libdevel extra arch=any libclassad7 deb libs extra arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "science"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Uploaders": [
-    "Michael Hanke <mih@debian.org>, Brian Lin <blin@cs.wisc.edu>"
-  ],
-  "Vcs-Browser": [
-    "http://git.debian.org/?p=pkg-exppsy/condor.git"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/git/pkg-exppsy/condor.git"
-  ],
-  "Version": [
-    "8.2.3~dfsg.1-6"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"htcondor, htcondor-dev, htcondor-doc, htcondor-dbg, libclassad-dev, libclassad7, condor, condor-doc, condor-dev, condor-dbg"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9~), po-debconf, cmake, autotools-dev, dh-autoreconf, python-dev, libpq-dev, libcurl4-openssl-dev, zlib1g-dev, libglobus-gss-assist-dev, libglobus-gram-protocol-dev, libglobus-gram-client-dev, libglobus-gass-server-ez-dev, libglobus-ftp-client-dev, latex2html, transfig, libpcre3-dev, libboost-thread-dev, libboost-program-options-dev, libboost-system-dev, libboost-regex-dev, libboost-filesystem-dev, libexpat1-dev, libxml2-dev, libvirt-dev, libx11-dev, default-jdk | gcj-jdk, uuid-dev, chrpath, libldap2-dev | libldap-dev, help2man, gsoap (>= 2.7.17-1~), libboost-test-dev, libboost-python-dev, libkrb5-dev, libcgroup-dev"
+	],
+	"Checksums-Sha1": [
+		"634ef9b6508aab801fc231048eae9a7f9e59069c 3023 condor_8.2.3~dfsg.1-6.dsc 00567b03cefb5c5f0cf288668f571a6b27c998f5 9834837 condor_8.2.3~dfsg.1.orig.tar.gz 440ebe726e74f665d03406e5492055634f148d9f 71560 condor_8.2.3~dfsg.1-6.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"83896b837439812c0a27ed6d20784a2679b3f14124c6b08868558bd8531324f6 3023 condor_8.2.3~dfsg.1-6.dsc 3f501ffe5fe20ec40044be47e0af7cd26d6616c9768287583467ebec624bad06 9834837 condor_8.2.3~dfsg.1.orig.tar.gz 1d479b9b00686bcd9a67582c892d26a52da4218dc4385ab05664f87b79820a29 71560 condor_8.2.3~dfsg.1-6.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/c/condor"
+	],
+	"Files": [
+		"41e3ba2504682e62d9e696d7e4a3991a 3023 condor_8.2.3~dfsg.1-6.dsc 99aca1080f7650def408bb2ffcbd3f6b 9834837 condor_8.2.3~dfsg.1.orig.tar.gz 02d983e720b31d0204cd0212aaa44cb1 71560 condor_8.2.3~dfsg.1-6.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://research.cs.wisc.edu/htcondor"
+	],
+	"Maintainer": [
+		"HTCondor Developers <condor-debian@cs.wisc.edu>"
+	],
+	"Package": [
+		"condor"
+	],
+	"Package-List": [
+		"condor deb oldlibs extra arch=all condor-dbg deb oldlibs extra arch=all condor-dev deb oldlibs extra arch=all condor-doc deb oldlibs extra arch=all htcondor deb science extra arch=any htcondor-dbg deb debug extra arch=any htcondor-dev deb devel extra arch=any htcondor-doc deb doc extra arch=all libclassad-dev deb libdevel extra arch=any libclassad7 deb libs extra arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"science"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Uploaders": [
+		"Michael Hanke <mih@debian.org>, Brian Lin <blin@cs.wisc.edu>"
+	],
+	"Vcs-Browser": [
+		"http://git.debian.org/?p=pkg-exppsy/condor.git"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/git/pkg-exppsy/condor.git"
+	],
+	"Version": [
+		"8.2.3~dfsg.1-6"
+	]
 }

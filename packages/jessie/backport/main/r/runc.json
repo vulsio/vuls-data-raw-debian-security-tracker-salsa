@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "runc, golang-github-opencontainers-runc-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-golang, go-md2man, golang-dbus-dev, golang-github-codegangsta-cli-dev (>= 0.0~git20151221~), golang-github-coreos-go-systemd-dev, golang-github-docker-go-units-dev, golang-github-opencontainers-specs-dev (>= 1.0.0~), golang-github-seccomp-libseccomp-golang-dev, golang-github-vishvananda-netlink-dev, golang-go, golang-gocapability-dev | golang-github-syndtr-gocapability-dev, golang-goprotobuf-dev, golang-logrus-dev, libapparmor-dev, protobuf-compiler"
-  ],
-  "Checksums-Sha1": [
-    "0e4c04ad352c1e491d4efcbe187f462343fa2e97 2566 runc_0.1.1+dfsg1-1~bpo8+1.dsc af17e6f585a394fa645b476e263c7c193e46fed9 151816 runc_0.1.1+dfsg1.orig.tar.xz bf310234e65d4dd866bee20eb1d7cd64dca8e85c 6080 runc_0.1.1+dfsg1-1~bpo8+1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "201a54b8c97555ae18f322f9318602f8e3f9defe92b2b63cfd67ba3e4ef60357 2566 runc_0.1.1+dfsg1-1~bpo8+1.dsc 329d0aa37c3d6a39bf8406389a8b7f98fce578c6965ced0332b00d299f90822c 151816 runc_0.1.1+dfsg1.orig.tar.xz db327e8dc3cd7a671042b8ca2ec5a5a997b8e5c7a865d3fec920f08656baf7ef 6080 runc_0.1.1+dfsg1-1~bpo8+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/runc"
-  ],
-  "Files": [
-    "05fb645df6b638c480fd88a53a3ae6b5 2566 runc_0.1.1+dfsg1-1~bpo8+1.dsc df4913872328f2197ed2ff44329051a1 151816 runc_0.1.1+dfsg1.orig.tar.xz b28c1c648ec8e63b2093db8d1e345979 6080 runc_0.1.1+dfsg1-1~bpo8+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/opencontainers/runc"
-  ],
-  "Maintainer": [
-    "Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "runc"
-  ],
-  "Package-List": [
-    "golang-github-opencontainers-runc-dev deb devel extra arch=all runc deb devel extra arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Alexandre Viau <alexandre@alexandreviau.net>, Dmitry Smirnov <onlyjob@debian.org>, Tim Potter <tpot@hpe.com>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-go/packages/runc.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-go/packages/runc.git"
-  ],
-  "Version": [
-    "0.1.1+dfsg1-1~bpo8+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"runc, golang-github-opencontainers-runc-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-golang, go-md2man, golang-dbus-dev, golang-github-codegangsta-cli-dev (>= 0.0~git20151221~), golang-github-coreos-go-systemd-dev, golang-github-docker-go-units-dev, golang-github-opencontainers-specs-dev (>= 1.0.0~), golang-github-seccomp-libseccomp-golang-dev, golang-github-vishvananda-netlink-dev, golang-go, golang-gocapability-dev | golang-github-syndtr-gocapability-dev, golang-goprotobuf-dev, golang-logrus-dev, libapparmor-dev, protobuf-compiler"
+	],
+	"Checksums-Sha1": [
+		"0e4c04ad352c1e491d4efcbe187f462343fa2e97 2566 runc_0.1.1+dfsg1-1~bpo8+1.dsc af17e6f585a394fa645b476e263c7c193e46fed9 151816 runc_0.1.1+dfsg1.orig.tar.xz bf310234e65d4dd866bee20eb1d7cd64dca8e85c 6080 runc_0.1.1+dfsg1-1~bpo8+1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"201a54b8c97555ae18f322f9318602f8e3f9defe92b2b63cfd67ba3e4ef60357 2566 runc_0.1.1+dfsg1-1~bpo8+1.dsc 329d0aa37c3d6a39bf8406389a8b7f98fce578c6965ced0332b00d299f90822c 151816 runc_0.1.1+dfsg1.orig.tar.xz db327e8dc3cd7a671042b8ca2ec5a5a997b8e5c7a865d3fec920f08656baf7ef 6080 runc_0.1.1+dfsg1-1~bpo8+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/runc"
+	],
+	"Files": [
+		"05fb645df6b638c480fd88a53a3ae6b5 2566 runc_0.1.1+dfsg1-1~bpo8+1.dsc df4913872328f2197ed2ff44329051a1 151816 runc_0.1.1+dfsg1.orig.tar.xz b28c1c648ec8e63b2093db8d1e345979 6080 runc_0.1.1+dfsg1-1~bpo8+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/opencontainers/runc"
+	],
+	"Maintainer": [
+		"Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"runc"
+	],
+	"Package-List": [
+		"golang-github-opencontainers-runc-dev deb devel extra arch=all runc deb devel extra arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Alexandre Viau <alexandre@alexandreviau.net>, Dmitry Smirnov <onlyjob@debian.org>, Tim Potter <tpot@hpe.com>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-go/packages/runc.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-go/packages/runc.git"
+	],
+	"Version": [
+		"0.1.1+dfsg1-1~bpo8+1"
+	]
 }

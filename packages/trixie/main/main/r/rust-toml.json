@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-toml-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-serde-1+default-dev (>= 1.0.145-~~) <!nocheck>, librust-serde-spanned-0.6+default-dev (>= 0.6.3-~~) <!nocheck>, librust-serde-spanned-0.6+serde-dev (>= 0.6.3-~~) <!nocheck>, librust-toml-datetime-0.6+default-dev (>= 0.6.3-~~) <!nocheck>, librust-toml-datetime-0.6+serde-dev (>= 0.6.3-~~) <!nocheck>, librust-toml-edit-0.19+default-dev (>= 0.19.12-~~) <!nocheck>, librust-toml-edit-0.19+serde-dev (>= 0.19.12-~~) <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "326c879e458198a270a27006552b12cec2f1b12b9d27749529e5cb7a476a00cc 2682 rust-toml_0.7.6-1.dsc c17e963a819c331dcacd7ab957d80bc2b9a9c1e71c804826d2f283dd65306542 49220 rust-toml_0.7.6.orig.tar.gz 3f02a5285f672fad7dbc556d39e37e3891b2aaab6e4f8845b4e3017117631ea2 3856 rust-toml_0.7.6-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-toml"
-  ],
-  "Files": [
-    "12c2cee2a63af79971942304a5643ce7 2682 rust-toml_0.7.6-1.dsc bde6a5b897cd94dc17edd0715536a146 49220 rust-toml_0.7.6.orig.tar.gz a3804667f1b97df760eab2d7e806ab2e 3856 rust-toml_0.7.6-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/toml-rs/toml"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-toml"
-  ],
-  "Package-List": [
-    "librust-toml-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-serde-1+default-dev, librust-serde-1+derive-dev, librust-serde-json-1+default-dev, librust-snapbox-0.4+default-dev"
-  ],
-  "Uploaders": [
-    "kpcyrd <git@rxv.cc>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/toml"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/toml]"
-  ],
-  "Version": [
-    "0.7.6-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-toml-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-serde-1+default-dev (>= 1.0.145-~~) <!nocheck>, librust-serde-spanned-0.6+default-dev (>= 0.6.3-~~) <!nocheck>, librust-serde-spanned-0.6+serde-dev (>= 0.6.3-~~) <!nocheck>, librust-toml-datetime-0.6+default-dev (>= 0.6.3-~~) <!nocheck>, librust-toml-datetime-0.6+serde-dev (>= 0.6.3-~~) <!nocheck>, librust-toml-edit-0.19+default-dev (>= 0.19.12-~~) <!nocheck>, librust-toml-edit-0.19+serde-dev (>= 0.19.12-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"326c879e458198a270a27006552b12cec2f1b12b9d27749529e5cb7a476a00cc 2682 rust-toml_0.7.6-1.dsc c17e963a819c331dcacd7ab957d80bc2b9a9c1e71c804826d2f283dd65306542 49220 rust-toml_0.7.6.orig.tar.gz 3f02a5285f672fad7dbc556d39e37e3891b2aaab6e4f8845b4e3017117631ea2 3856 rust-toml_0.7.6-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-toml"
+	],
+	"Files": [
+		"12c2cee2a63af79971942304a5643ce7 2682 rust-toml_0.7.6-1.dsc bde6a5b897cd94dc17edd0715536a146 49220 rust-toml_0.7.6.orig.tar.gz a3804667f1b97df760eab2d7e806ab2e 3856 rust-toml_0.7.6-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/toml-rs/toml"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-toml"
+	],
+	"Package-List": [
+		"librust-toml-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-serde-1+default-dev, librust-serde-1+derive-dev, librust-serde-json-1+default-dev, librust-snapbox-0.4+default-dev"
+	],
+	"Uploaders": [
+		"kpcyrd <git@rxv.cc>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/toml"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/toml]"
+	],
+	"Version": [
+		"0.7.6-1"
+	]
 }

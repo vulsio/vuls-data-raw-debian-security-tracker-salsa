@@ -1,68 +1,68 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libproxy1v5, libproxy1-plugin-gsettings, libproxy1-plugin-kconfig, libproxy1-plugin-networkmanager, libproxy1-plugin-mozjs, libproxy1-plugin-webkit, libproxy-dev, libproxy-tools, python-libproxy, python3-libproxy, libproxy0.4-cil, libproxy-cil-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9.20140227), dpkg-dev (>= 1.17.14), dh-python, gnome-pkg-tools, netbase, cmake, zlib1g-dev, python-all-dev (>= 2.6.6-3~), python3-all, libnm-dev [linux-any], libdbus-1-dev, libkf5config-bin, libmozjs185-dev (>= 1.8.5) <!stage1>, libwebkit2gtk-4.0-dev <!stage1>, libjavascriptcoregtk-4.0-dev <!stage1>, libglib2.0-dev (>= 2.26) <!stage1>, libxmu-dev <!stage1>"
-  ],
-  "Build-Depends-Indep": [
-    "cli-common-dev (>= 0.5.7~) <!stage1>, mono-devel (>= 2.4.3) <!stage1>"
-  ],
-  "Checksums-Sha1": [
-    "8d2dc25715b5909edacc1ca6398cdbd19f652643 3472 libproxy_0.4.14-2+deb9u2.dsc df6c15692770b84c9722d77cde2415c0747ca054 92783 libproxy_0.4.14.orig.tar.gz 5ce7303c16a54b8ec51775801ee35dbf2a4179ba 11896 libproxy_0.4.14-2+deb9u2.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "80e7e7af2d3bca57a1ae3aa5ca9be3faab8deca187e4ec93345b4d90d4f6239c 3472 libproxy_0.4.14-2+deb9u2.dsc 6220a6cab837a8996116a0568324cadfd09a07ec16b930d2a330e16d5c2e1eb6 92783 libproxy_0.4.14.orig.tar.gz 1e0ec808ae9f82d13f6240a53484954979bc75eec8125acb5ff603507b2f4aea 11896 libproxy_0.4.14-2+deb9u2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/libp/libproxy"
-  ],
-  "Files": [
-    "2fa89abf79d4bce4b5eda4837bb1c6a2 3472 libproxy_0.4.14-2+deb9u2.dsc 272dc378efcc3335154cef30d171e84a 92783 libproxy_0.4.14.orig.tar.gz 9d21a0d4a4429b4c21797893d0fddbb3 11896 libproxy_0.4.14-2+deb9u2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://libproxy.github.io/libproxy/"
-  ],
-  "Maintainer": [
-    "Emilio Pozuelo Monfort <pochu@debian.org>"
-  ],
-  "Package": [
-    "libproxy"
-  ],
-  "Package-List": [
-    "libproxy-cil-dev deb cli-mono optional arch=all profile=!stage1 libproxy-dev deb libdevel optional arch=any libproxy-tools deb utils optional arch=any libproxy0.4-cil deb cli-mono optional arch=all profile=!stage1 libproxy1-plugin-gsettings deb libs optional arch=any profile=!stage1 libproxy1-plugin-kconfig deb libs optional arch=any profile=!stage1 libproxy1-plugin-mozjs deb libs optional arch=any profile=!stage1 libproxy1-plugin-networkmanager deb libs optional arch=linux-any libproxy1-plugin-webkit deb libs optional arch=any profile=!stage1 libproxy1v5 deb libs optional arch=any python-libproxy deb python optional arch=all python3-libproxy deb python optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "libs"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential, pkg-config"
-  ],
-  "Uploaders": [
-    "Iain Lane <laney@debian.org>, Josselin Mouette <joss@debian.org>, Laurent Bigonville <bigon@debian.org>, Michael Biebl <biebl@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/viewvc/pkg-gnome/packages/unstable/libproxy/"
-  ],
-  "Vcs-Svn": [
-    "svn://anonscm.debian.org/pkg-gnome/packages/unstable/libproxy"
-  ],
-  "Version": [
-    "0.4.14-2+deb9u2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libproxy1v5, libproxy1-plugin-gsettings, libproxy1-plugin-kconfig, libproxy1-plugin-networkmanager, libproxy1-plugin-mozjs, libproxy1-plugin-webkit, libproxy-dev, libproxy-tools, python-libproxy, python3-libproxy, libproxy0.4-cil, libproxy-cil-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9.20140227), dpkg-dev (>= 1.17.14), dh-python, gnome-pkg-tools, netbase, cmake, zlib1g-dev, python-all-dev (>= 2.6.6-3~), python3-all, libnm-dev [linux-any], libdbus-1-dev, libkf5config-bin, libmozjs185-dev (>= 1.8.5) <!stage1>, libwebkit2gtk-4.0-dev <!stage1>, libjavascriptcoregtk-4.0-dev <!stage1>, libglib2.0-dev (>= 2.26) <!stage1>, libxmu-dev <!stage1>"
+	],
+	"Build-Depends-Indep": [
+		"cli-common-dev (>= 0.5.7~) <!stage1>, mono-devel (>= 2.4.3) <!stage1>"
+	],
+	"Checksums-Sha1": [
+		"8d2dc25715b5909edacc1ca6398cdbd19f652643 3472 libproxy_0.4.14-2+deb9u2.dsc df6c15692770b84c9722d77cde2415c0747ca054 92783 libproxy_0.4.14.orig.tar.gz 5ce7303c16a54b8ec51775801ee35dbf2a4179ba 11896 libproxy_0.4.14-2+deb9u2.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"80e7e7af2d3bca57a1ae3aa5ca9be3faab8deca187e4ec93345b4d90d4f6239c 3472 libproxy_0.4.14-2+deb9u2.dsc 6220a6cab837a8996116a0568324cadfd09a07ec16b930d2a330e16d5c2e1eb6 92783 libproxy_0.4.14.orig.tar.gz 1e0ec808ae9f82d13f6240a53484954979bc75eec8125acb5ff603507b2f4aea 11896 libproxy_0.4.14-2+deb9u2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/libp/libproxy"
+	],
+	"Files": [
+		"2fa89abf79d4bce4b5eda4837bb1c6a2 3472 libproxy_0.4.14-2+deb9u2.dsc 272dc378efcc3335154cef30d171e84a 92783 libproxy_0.4.14.orig.tar.gz 9d21a0d4a4429b4c21797893d0fddbb3 11896 libproxy_0.4.14-2+deb9u2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://libproxy.github.io/libproxy/"
+	],
+	"Maintainer": [
+		"Emilio Pozuelo Monfort <pochu@debian.org>"
+	],
+	"Package": [
+		"libproxy"
+	],
+	"Package-List": [
+		"libproxy-cil-dev deb cli-mono optional arch=all profile=!stage1 libproxy-dev deb libdevel optional arch=any libproxy-tools deb utils optional arch=any libproxy0.4-cil deb cli-mono optional arch=all profile=!stage1 libproxy1-plugin-gsettings deb libs optional arch=any profile=!stage1 libproxy1-plugin-kconfig deb libs optional arch=any profile=!stage1 libproxy1-plugin-mozjs deb libs optional arch=any profile=!stage1 libproxy1-plugin-networkmanager deb libs optional arch=linux-any libproxy1-plugin-webkit deb libs optional arch=any profile=!stage1 libproxy1v5 deb libs optional arch=any python-libproxy deb python optional arch=all python3-libproxy deb python optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"libs"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, pkg-config"
+	],
+	"Uploaders": [
+		"Iain Lane <laney@debian.org>, Josselin Mouette <joss@debian.org>, Laurent Bigonville <bigon@debian.org>, Michael Biebl <biebl@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/viewvc/pkg-gnome/packages/unstable/libproxy/"
+	],
+	"Vcs-Svn": [
+		"svn://anonscm.debian.org/pkg-gnome/packages/unstable/libproxy"
+	],
+	"Version": [
+		"0.4.14-2+deb9u2"
+	]
 }

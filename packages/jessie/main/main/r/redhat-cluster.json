@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "redhat-cluster-suite, cman, liblogthread3, liblogthread-dev, libccs3, libccs-dev, libccs-perl, libcman3, libcman-dev, libdlm3, libdlm-dev, libdlmcontrol3, libdlmcontrol-dev, libfence4, libfence-dev, rgmanager"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), libxml2-dev, libncurses5-dev, linux-libc-dev, libvirt-dev (>= 0.3.0), libnss3-dev, libnspr4-dev, bzip2, libslang2-dev, libldap2-dev, perl-modules, libcorosync-dev (>= 1.3.0), libopenais-dev (>= 1.1.4), openais-dev (>= 1.1.4), xsltproc, python-pexpect, po-debconf, libglib2.0-dev, libbz2-dev, libltdl7-dev, libdbus-1-dev"
-  ],
-  "Checksums-Sha1": [
-    "8b79083559af6a6df0e4b43f7f088a7eacccc4f1 3181 redhat-cluster_3.1.8-1.2.dsc e86add4923be4124eaf26e9b93643b7b785c528b 655759 redhat-cluster_3.1.8.orig.tar.gz 15a0dbcac3ed4758397ea1cf3b413dc79455ca63 31008 redhat-cluster_3.1.8-1.2.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "828eaa77d1a8383548041909899c9c9266be2475b7ef7fc70104c1dda89405dd 3181 redhat-cluster_3.1.8-1.2.dsc b5b0fb017f372039e7e8bafb21d7d69dfac8881fa3bc4b83fc93623f7c1bc603 655759 redhat-cluster_3.1.8.orig.tar.gz f93e4e510f76c841893d4b8083d939814871b72f86ed95f9e2ccac01ce9cff6f 31008 redhat-cluster_3.1.8-1.2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/redhat-cluster"
-  ],
-  "Files": [
-    "b2a2be5f7b3251a7912309eb77f3eef8 3181 redhat-cluster_3.1.8-1.2.dsc 7989c2c79892ee85a86d4cebbc405758 655759 redhat-cluster_3.1.8.orig.tar.gz cf82458f82a41b52365e134c772e088f 31008 redhat-cluster_3.1.8-1.2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian HA Maintainers <debian-ha-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "redhat-cluster"
-  ],
-  "Package-List": [
-    "cman deb admin optional arch=any libccs-dev deb libdevel optional arch=any libccs-perl deb perl optional arch=any libccs3 deb libs optional arch=any libcman-dev deb libdevel optional arch=any libcman3 deb libs optional arch=any libdlm-dev deb libdevel optional arch=any libdlm3 deb libs optional arch=any libdlmcontrol-dev deb libdevel optional arch=any libdlmcontrol3 deb libs optional arch=any libfence-dev deb libdevel optional arch=any libfence4 deb libs optional arch=any liblogthread-dev deb libdevel optional arch=any liblogthread3 deb libs optional arch=any redhat-cluster-suite deb admin optional arch=all rgmanager deb admin optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "admin"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Bastian Blank <waldi@debian.org>, Frederik Schüler <fs@debian.org>, Guido Günther <agx@sigxcpu.org>, Martin Loschwitz <madkiss@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://git.debian.org/?p=debian-ha/redhat-cluster.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/debian-ha/redhat-cluster.git"
-  ],
-  "Version": [
-    "3.1.8-1.2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"redhat-cluster-suite, cman, liblogthread3, liblogthread-dev, libccs3, libccs-dev, libccs-perl, libcman3, libcman-dev, libdlm3, libdlm-dev, libdlmcontrol3, libdlmcontrol-dev, libfence4, libfence-dev, rgmanager"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), libxml2-dev, libncurses5-dev, linux-libc-dev, libvirt-dev (>= 0.3.0), libnss3-dev, libnspr4-dev, bzip2, libslang2-dev, libldap2-dev, perl-modules, libcorosync-dev (>= 1.3.0), libopenais-dev (>= 1.1.4), openais-dev (>= 1.1.4), xsltproc, python-pexpect, po-debconf, libglib2.0-dev, libbz2-dev, libltdl7-dev, libdbus-1-dev"
+	],
+	"Checksums-Sha1": [
+		"8b79083559af6a6df0e4b43f7f088a7eacccc4f1 3181 redhat-cluster_3.1.8-1.2.dsc e86add4923be4124eaf26e9b93643b7b785c528b 655759 redhat-cluster_3.1.8.orig.tar.gz 15a0dbcac3ed4758397ea1cf3b413dc79455ca63 31008 redhat-cluster_3.1.8-1.2.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"828eaa77d1a8383548041909899c9c9266be2475b7ef7fc70104c1dda89405dd 3181 redhat-cluster_3.1.8-1.2.dsc b5b0fb017f372039e7e8bafb21d7d69dfac8881fa3bc4b83fc93623f7c1bc603 655759 redhat-cluster_3.1.8.orig.tar.gz f93e4e510f76c841893d4b8083d939814871b72f86ed95f9e2ccac01ce9cff6f 31008 redhat-cluster_3.1.8-1.2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/redhat-cluster"
+	],
+	"Files": [
+		"b2a2be5f7b3251a7912309eb77f3eef8 3181 redhat-cluster_3.1.8-1.2.dsc 7989c2c79892ee85a86d4cebbc405758 655759 redhat-cluster_3.1.8.orig.tar.gz cf82458f82a41b52365e134c772e088f 31008 redhat-cluster_3.1.8-1.2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian HA Maintainers <debian-ha-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"redhat-cluster"
+	],
+	"Package-List": [
+		"cman deb admin optional arch=any libccs-dev deb libdevel optional arch=any libccs-perl deb perl optional arch=any libccs3 deb libs optional arch=any libcman-dev deb libdevel optional arch=any libcman3 deb libs optional arch=any libdlm-dev deb libdevel optional arch=any libdlm3 deb libs optional arch=any libdlmcontrol-dev deb libdevel optional arch=any libdlmcontrol3 deb libs optional arch=any libfence-dev deb libdevel optional arch=any libfence4 deb libs optional arch=any liblogthread-dev deb libdevel optional arch=any liblogthread3 deb libs optional arch=any redhat-cluster-suite deb admin optional arch=all rgmanager deb admin optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"admin"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Bastian Blank <waldi@debian.org>, Frederik Schüler <fs@debian.org>, Guido Günther <agx@sigxcpu.org>, Martin Loschwitz <madkiss@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://git.debian.org/?p=debian-ha/redhat-cluster.git;a=summary"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/debian-ha/redhat-cluster.git"
+	],
+	"Version": [
+		"3.1.8-1.2"
+	]
 }

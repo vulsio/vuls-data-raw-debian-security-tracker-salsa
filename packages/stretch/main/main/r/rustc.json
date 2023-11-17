@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "rustc, libstd-rust-1.34, libstd-rust-dev, rust-gdb, rust-lldb, rust-doc, rust-src"
-  ],
-  "Build-Conflicts": [
-    "gdb-minimal <!nocheck>"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dpkg-dev (>= 1.17.14), python:native, llvm-7-dev:native, llvm-7-tools:native, libllvm7 (>= 1:7.0.1-3), autotools-dev, cmake (>= 3.0) | cmake3, pkg-config, zlib1g-dev:native, zlib1g-dev, liblzma-dev:native, binutils (>= 2.26) <!nocheck> | binutils-2.26 <!nocheck>, git <!nocheck>, procps <!nocheck>, gdb (>= 7.12) <!nocheck>, curl <pkg.rustc.dlstage0>, ca-certificates <pkg.rustc.dlstage0>"
-  ],
-  "Checksums-Sha256": [
-    "9042b41f2615c106f880ffa49e934be6dc6ec574d73ccb000d8c0b3aebb3537e 2769 rustc_1.34.2+dfsg1-1~deb9u1.dsc 18f41ffd92fb9743de458b1ceef29de1524ba36f99d937e7854adb8affbf4217 15074836 rustc_1.34.2+dfsg1.orig.tar.xz 64a53c0290315668b0a991fc18b6bc090cc886cfbe3126c916b5d00a559d2894 1874624300 rustc_1.34.2+dfsg1-1~deb9u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rustc"
-  ],
-  "Files": [
-    "c5c1f29bf0ff4625dbaf921857fba89a 2769 rustc_1.34.2+dfsg1-1~deb9u1.dsc b7e9b762795d6fd74e858e2d96e03446 15074836 rustc_1.34.2+dfsg1.orig.tar.xz b6c5bc4d3d224305e90ec0e5cb797ea1 1874624300 rustc_1.34.2+dfsg1-1~deb9u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.rust-lang.org/"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rustc"
-  ],
-  "Package-List": [
-    "libstd-rust-1.34 deb libs optional arch=any libstd-rust-dev deb libdevel optional arch=any rust-doc deb doc optional arch=all profile=!nodoc rust-gdb deb devel optional arch=all rust-lldb deb devel optional arch=all rust-src deb devel optional arch=all rustc deb devel optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "rust"
-  ],
-  "Standards-Version": [
-    "4.2.1"
-  ],
-  "Uploaders": [
-    "Ximin Luo <infinity0@debian.org>, Sylvestre Ledru <sylvestre@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/rust"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/rust.git"
-  ],
-  "Version": [
-    "1.34.2+dfsg1-1~deb9u1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"rustc, libstd-rust-1.34, libstd-rust-dev, rust-gdb, rust-lldb, rust-doc, rust-src"
+	],
+	"Build-Conflicts": [
+		"gdb-minimal <!nocheck>"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dpkg-dev (>= 1.17.14), python:native, llvm-7-dev:native, llvm-7-tools:native, libllvm7 (>= 1:7.0.1-3), autotools-dev, cmake (>= 3.0) | cmake3, pkg-config, zlib1g-dev:native, zlib1g-dev, liblzma-dev:native, binutils (>= 2.26) <!nocheck> | binutils-2.26 <!nocheck>, git <!nocheck>, procps <!nocheck>, gdb (>= 7.12) <!nocheck>, curl <pkg.rustc.dlstage0>, ca-certificates <pkg.rustc.dlstage0>"
+	],
+	"Checksums-Sha256": [
+		"9042b41f2615c106f880ffa49e934be6dc6ec574d73ccb000d8c0b3aebb3537e 2769 rustc_1.34.2+dfsg1-1~deb9u1.dsc 18f41ffd92fb9743de458b1ceef29de1524ba36f99d937e7854adb8affbf4217 15074836 rustc_1.34.2+dfsg1.orig.tar.xz 64a53c0290315668b0a991fc18b6bc090cc886cfbe3126c916b5d00a559d2894 1874624300 rustc_1.34.2+dfsg1-1~deb9u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rustc"
+	],
+	"Files": [
+		"c5c1f29bf0ff4625dbaf921857fba89a 2769 rustc_1.34.2+dfsg1-1~deb9u1.dsc b7e9b762795d6fd74e858e2d96e03446 15074836 rustc_1.34.2+dfsg1.orig.tar.xz b6c5bc4d3d224305e90ec0e5cb797ea1 1874624300 rustc_1.34.2+dfsg1-1~deb9u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.rust-lang.org/"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rustc"
+	],
+	"Package-List": [
+		"libstd-rust-1.34 deb libs optional arch=any libstd-rust-dev deb libdevel optional arch=any rust-doc deb doc optional arch=all profile=!nodoc rust-gdb deb devel optional arch=all rust-lldb deb devel optional arch=all rust-src deb devel optional arch=all rustc deb devel optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"rust"
+	],
+	"Standards-Version": [
+		"4.2.1"
+	],
+	"Uploaders": [
+		"Ximin Luo <infinity0@debian.org>, Sylvestre Ledru <sylvestre@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/rust"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/rust.git"
+	],
+	"Version": [
+		"1.34.2+dfsg1-1~deb9u1"
+	]
 }

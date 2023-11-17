@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "kodi, kodi-data, kodi-bin, kodi-eventclients-common, kodi-eventclients-dev, kodi-eventclients-wiiremote, kodi-eventclients-j2me, kodi-eventclients-ps3, kodi-eventclients-kodi-send, kodi-addons-dev"
-  ],
-  "Build-Depends": [
-    "autoconf, automake, autopoint, autotools-dev, cmake, curl, debhelper (>= 9~), default-jre, dh-autoreconf, dh-python, doxygen, fontforge, fonts-dejavu-core, fonts-droid, gawk, gperf, groovy, inkscape, libasound2-dev | libasound-dev, libass-dev (>= 0.9.8), libavahi-client-dev, libavahi-common-dev, libavcodec-dev (>= 7:2.7.1), libavfilter-dev (>= 7:2.7.1), libavformat-dev (>= 7:2.7.1), libavresample-dev (>= 7:2.7.1), libavutil-dev (>= 7:2.7.1), libbluetooth-dev, libbluray-dev (>= 1:0.7.0), libboost-dev, libboost-thread-dev, libbz2-dev, libcap-dev, libcdio-dev, libcec-dev (>= 3.1), libp8-platform-dev, libcommons-lang-java, libcrystalhd-dev [i386 amd64], libcurl4-gnutls-dev | libcurl-dev, libcwiid-dev [linux-any], libdbus-1-dev, libcrossguid-dev, libdvdnav-dev, libdvdread-dev, libenca-dev, libflac-dev, libfontconfig-dev, libfreetype6-dev, libfribidi-dev, libftgl-dev, libgif-dev, libgles2-mesa-dev [armel armhf] | libgl1-mesa-dev | libgl-dev, libglew-dev, libglu1-mesa-dev | libglu-dev, libgtest-dev, libiso9660-dev, libjasper-dev, libjpeg-dev, libltdl-dev, liblzo2-dev, libmad0-dev, libmicrohttpd-dev, libmodplug-dev, libmp3lame-dev, libmpeg2-4-dev, libmysqlclient-dev, libnfs-dev, libogg-dev, libomxil-bellagio-dev [armel armhf mipsel mips], libpcre3-dev, libplist-dev, libpng-dev, libpostproc-dev (>= 7:2.7.1), libpulse-dev, librtmp-dev, libsamplerate-dev, libsdl2-dev, libsdl2-image-dev, libsdl2-mixer-dev, libshairport-dev, libsidplay2-dev, libsmbclient-dev, libsqlite3-dev, libssh-dev, libssl-dev, libswscale-dev (>= 7:2.7.1), libtag1-dev (>= 1.8), libtiff-dev, libtinyxml-dev (>= 2.6.2), libtool, libudev-dev, libva-dev [!armel !armhf !mipsel !mips], libvdpau-dev [!armel !armhf !mipsel !mips], libvorbis-dev, libxmu-dev, libxrandr-dev, libxslt1-dev, libxt-dev, libyajl-dev, nasm [i386], python-dev (>= 2.6.6-3~), python-imaging, swig, ttf-bitstream-vera, udev, unzip, uuid-dev, yasm, zip, zlib1g-dev"
-  ],
-  "Checksums-Sha1": [
-    "87e9f61fdd88ec48897560ebd27d2572bbc68226 4484 kodi_16.1+dfsg1-2~bpo8+2.dsc ad15b55d8a522347119be5f315453c220fd70063 15907068 kodi_16.1+dfsg1.orig.tar.xz d8df94971f82b240eff3e959a0225c040e02232a 41724 kodi_16.1+dfsg1-2~bpo8+2.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "834060d1bd509c6ad03e1bfe7f5deb87a7be8135ee5c5c0136bd6f8ad20753f1 4484 kodi_16.1+dfsg1-2~bpo8+2.dsc 5f42588589fd2178dbca0fa552bd43fc7fb65944d625b833385ee9893f043cc7 15907068 kodi_16.1+dfsg1.orig.tar.xz 1179b6476abe801338799e6fd138bb957ebd41ceb4b7b41c2cad69656f19409f 41724 kodi_16.1+dfsg1-2~bpo8+2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/k/kodi"
-  ],
-  "Files": [
-    "45e411a11cf6e9572203d8e20712c766 4484 kodi_16.1+dfsg1-2~bpo8+2.dsc c78befe2a53a2b7b0ca3e9fd33f14a33 15907068 kodi_16.1+dfsg1.orig.tar.xz eaa45a6e7d98315da937cb62ec29f5af 41724 kodi_16.1+dfsg1-2~bpo8+2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://kodi.tv/"
-  ],
-  "Maintainer": [
-    "Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "kodi"
-  ],
-  "Package-List": [
-    "kodi deb video optional arch=any kodi-addons-dev deb libdevel optional arch=any kodi-bin deb video optional arch=any kodi-data deb video optional arch=all kodi-eventclients-common deb video optional arch=all kodi-eventclients-dev deb libdevel optional arch=all kodi-eventclients-j2me deb video optional arch=all kodi-eventclients-kodi-send deb video optional arch=all kodi-eventclients-ps3 deb video optional arch=all kodi-eventclients-wiiremote deb video optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Balint Reczey <balint@balintreczey.hu>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-multimedia/kodi.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-multimedia/kodi.git"
-  ],
-  "Version": [
-    "16.1+dfsg1-2~bpo8+2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"kodi, kodi-data, kodi-bin, kodi-eventclients-common, kodi-eventclients-dev, kodi-eventclients-wiiremote, kodi-eventclients-j2me, kodi-eventclients-ps3, kodi-eventclients-kodi-send, kodi-addons-dev"
+	],
+	"Build-Depends": [
+		"autoconf, automake, autopoint, autotools-dev, cmake, curl, debhelper (>= 9~), default-jre, dh-autoreconf, dh-python, doxygen, fontforge, fonts-dejavu-core, fonts-droid, gawk, gperf, groovy, inkscape, libasound2-dev | libasound-dev, libass-dev (>= 0.9.8), libavahi-client-dev, libavahi-common-dev, libavcodec-dev (>= 7:2.7.1), libavfilter-dev (>= 7:2.7.1), libavformat-dev (>= 7:2.7.1), libavresample-dev (>= 7:2.7.1), libavutil-dev (>= 7:2.7.1), libbluetooth-dev, libbluray-dev (>= 1:0.7.0), libboost-dev, libboost-thread-dev, libbz2-dev, libcap-dev, libcdio-dev, libcec-dev (>= 3.1), libp8-platform-dev, libcommons-lang-java, libcrystalhd-dev [i386 amd64], libcurl4-gnutls-dev | libcurl-dev, libcwiid-dev [linux-any], libdbus-1-dev, libcrossguid-dev, libdvdnav-dev, libdvdread-dev, libenca-dev, libflac-dev, libfontconfig-dev, libfreetype6-dev, libfribidi-dev, libftgl-dev, libgif-dev, libgles2-mesa-dev [armel armhf] | libgl1-mesa-dev | libgl-dev, libglew-dev, libglu1-mesa-dev | libglu-dev, libgtest-dev, libiso9660-dev, libjasper-dev, libjpeg-dev, libltdl-dev, liblzo2-dev, libmad0-dev, libmicrohttpd-dev, libmodplug-dev, libmp3lame-dev, libmpeg2-4-dev, libmysqlclient-dev, libnfs-dev, libogg-dev, libomxil-bellagio-dev [armel armhf mipsel mips], libpcre3-dev, libplist-dev, libpng-dev, libpostproc-dev (>= 7:2.7.1), libpulse-dev, librtmp-dev, libsamplerate-dev, libsdl2-dev, libsdl2-image-dev, libsdl2-mixer-dev, libshairport-dev, libsidplay2-dev, libsmbclient-dev, libsqlite3-dev, libssh-dev, libssl-dev, libswscale-dev (>= 7:2.7.1), libtag1-dev (>= 1.8), libtiff-dev, libtinyxml-dev (>= 2.6.2), libtool, libudev-dev, libva-dev [!armel !armhf !mipsel !mips], libvdpau-dev [!armel !armhf !mipsel !mips], libvorbis-dev, libxmu-dev, libxrandr-dev, libxslt1-dev, libxt-dev, libyajl-dev, nasm [i386], python-dev (>= 2.6.6-3~), python-imaging, swig, ttf-bitstream-vera, udev, unzip, uuid-dev, yasm, zip, zlib1g-dev"
+	],
+	"Checksums-Sha1": [
+		"87e9f61fdd88ec48897560ebd27d2572bbc68226 4484 kodi_16.1+dfsg1-2~bpo8+2.dsc ad15b55d8a522347119be5f315453c220fd70063 15907068 kodi_16.1+dfsg1.orig.tar.xz d8df94971f82b240eff3e959a0225c040e02232a 41724 kodi_16.1+dfsg1-2~bpo8+2.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"834060d1bd509c6ad03e1bfe7f5deb87a7be8135ee5c5c0136bd6f8ad20753f1 4484 kodi_16.1+dfsg1-2~bpo8+2.dsc 5f42588589fd2178dbca0fa552bd43fc7fb65944d625b833385ee9893f043cc7 15907068 kodi_16.1+dfsg1.orig.tar.xz 1179b6476abe801338799e6fd138bb957ebd41ceb4b7b41c2cad69656f19409f 41724 kodi_16.1+dfsg1-2~bpo8+2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/k/kodi"
+	],
+	"Files": [
+		"45e411a11cf6e9572203d8e20712c766 4484 kodi_16.1+dfsg1-2~bpo8+2.dsc c78befe2a53a2b7b0ca3e9fd33f14a33 15907068 kodi_16.1+dfsg1.orig.tar.xz eaa45a6e7d98315da937cb62ec29f5af 41724 kodi_16.1+dfsg1-2~bpo8+2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://kodi.tv/"
+	],
+	"Maintainer": [
+		"Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"kodi"
+	],
+	"Package-List": [
+		"kodi deb video optional arch=any kodi-addons-dev deb libdevel optional arch=any kodi-bin deb video optional arch=any kodi-data deb video optional arch=all kodi-eventclients-common deb video optional arch=all kodi-eventclients-dev deb libdevel optional arch=all kodi-eventclients-j2me deb video optional arch=all kodi-eventclients-kodi-send deb video optional arch=all kodi-eventclients-ps3 deb video optional arch=all kodi-eventclients-wiiremote deb video optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Balint Reczey <balint@balintreczey.hu>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-multimedia/kodi.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-multimedia/kodi.git"
+	],
+	"Version": [
+		"16.1+dfsg1-2~bpo8+2"
+	]
 }

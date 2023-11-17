@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-regex-automata-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-aho-corasick-1+perf-literal-dev <!nocheck>, librust-aho-corasick-1+std-dev <!nocheck>, librust-aho-corasick-1-dev <!nocheck>, librust-memchr-2+std-dev (>= 2.6.0-~~) <!nocheck>, librust-memchr-2-dev (>= 2.6.0-~~) <!nocheck>, librust-regex-syntax-0.8+std-dev (>= 0.8.2-~~) <!nocheck>, librust-regex-syntax-0.8+unicode-age-dev (>= 0.8.2-~~) <!nocheck>, librust-regex-syntax-0.8+unicode-bool-dev (>= 0.8.2-~~) <!nocheck>, librust-regex-syntax-0.8+unicode-case-dev (>= 0.8.2-~~) <!nocheck>, librust-regex-syntax-0.8+unicode-dev (>= 0.8.2-~~) <!nocheck>, librust-regex-syntax-0.8+unicode-gencat-dev (>= 0.8.2-~~) <!nocheck>, librust-regex-syntax-0.8+unicode-perl-dev (>= 0.8.2-~~) <!nocheck>, librust-regex-syntax-0.8+unicode-script-dev (>= 0.8.2-~~) <!nocheck>, librust-regex-syntax-0.8+unicode-segment-dev (>= 0.8.2-~~) <!nocheck>, librust-regex-syntax-0.8-dev (>= 0.8.2-~~) <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "c58786f8055cca9e316e7058cb3f12b5655690bae330d02bf7a0d23161014b4d 3338 rust-regex-automata_0.4.3-1.dsc 5f804c7828047e88b2d32e2d7fe5a105da8ee3264f01902f796c8e067dc2483f 617011 rust-regex-automata_0.4.3.orig.tar.gz 677fd75d840a52bce8bc238f828535d7164418aff30905e615cdb2ee27a6d05f 9644 rust-regex-automata_0.4.3-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-regex-automata"
-  ],
-  "Files": [
-    "b6e498afc125445bfead715587a94971 3338 rust-regex-automata_0.4.3-1.dsc 4f496143a21775fa7bd22bf329c37f37 617011 rust-regex-automata_0.4.3.orig.tar.gz fa24be0869d1c16ed41c3e0510ceeeab 9644 rust-regex-automata_0.4.3-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-regex-automata"
-  ],
-  "Package-List": [
-    "librust-regex-automata-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-anyhow-1+default-dev, librust-bstr-1+std-dev, librust-doc-comment-0.3+default-dev, librust-env-logger-0.10+auto-color-dev, librust-env-logger-0.10+color-dev, librust-env-logger-0.10+humantime-dev, librust-quickcheck-1-dev"
-  ],
-  "Uploaders": [
-    "Sylvestre Ledru <sylvestre@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/regex-automata"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/regex-automata]"
-  ],
-  "Version": [
-    "0.4.3-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-regex-automata-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-aho-corasick-1+perf-literal-dev <!nocheck>, librust-aho-corasick-1+std-dev <!nocheck>, librust-aho-corasick-1-dev <!nocheck>, librust-memchr-2+std-dev (>= 2.6.0-~~) <!nocheck>, librust-memchr-2-dev (>= 2.6.0-~~) <!nocheck>, librust-regex-syntax-0.8+std-dev (>= 0.8.2-~~) <!nocheck>, librust-regex-syntax-0.8+unicode-age-dev (>= 0.8.2-~~) <!nocheck>, librust-regex-syntax-0.8+unicode-bool-dev (>= 0.8.2-~~) <!nocheck>, librust-regex-syntax-0.8+unicode-case-dev (>= 0.8.2-~~) <!nocheck>, librust-regex-syntax-0.8+unicode-dev (>= 0.8.2-~~) <!nocheck>, librust-regex-syntax-0.8+unicode-gencat-dev (>= 0.8.2-~~) <!nocheck>, librust-regex-syntax-0.8+unicode-perl-dev (>= 0.8.2-~~) <!nocheck>, librust-regex-syntax-0.8+unicode-script-dev (>= 0.8.2-~~) <!nocheck>, librust-regex-syntax-0.8+unicode-segment-dev (>= 0.8.2-~~) <!nocheck>, librust-regex-syntax-0.8-dev (>= 0.8.2-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"c58786f8055cca9e316e7058cb3f12b5655690bae330d02bf7a0d23161014b4d 3338 rust-regex-automata_0.4.3-1.dsc 5f804c7828047e88b2d32e2d7fe5a105da8ee3264f01902f796c8e067dc2483f 617011 rust-regex-automata_0.4.3.orig.tar.gz 677fd75d840a52bce8bc238f828535d7164418aff30905e615cdb2ee27a6d05f 9644 rust-regex-automata_0.4.3-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-regex-automata"
+	],
+	"Files": [
+		"b6e498afc125445bfead715587a94971 3338 rust-regex-automata_0.4.3-1.dsc 4f496143a21775fa7bd22bf329c37f37 617011 rust-regex-automata_0.4.3.orig.tar.gz fa24be0869d1c16ed41c3e0510ceeeab 9644 rust-regex-automata_0.4.3-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-regex-automata"
+	],
+	"Package-List": [
+		"librust-regex-automata-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-anyhow-1+default-dev, librust-bstr-1+std-dev, librust-doc-comment-0.3+default-dev, librust-env-logger-0.10+auto-color-dev, librust-env-logger-0.10+color-dev, librust-env-logger-0.10+humantime-dev, librust-quickcheck-1-dev"
+	],
+	"Uploaders": [
+		"Sylvestre Ledru <sylvestre@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/regex-automata"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/regex-automata]"
+	],
+	"Version": [
+		"0.4.3-1"
+	]
 }

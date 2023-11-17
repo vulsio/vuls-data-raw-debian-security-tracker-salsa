@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "postgis, postgis-doc, libpostgis-java, libpostgis-java-doc, liblwgeom-2.1.4, liblwgeom-dev, postgresql-9.4-postgis-2.1, postgresql-9.4-postgis-scripts, postgresql-9.4-postgis-2.1-scripts"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), po-debconf, dpkg-dev (>= 1.16.1~), autotools-dev, dh-autoreconf, autoconf2.13, flex, bison, rdfind, libgeos-dev (>= 3.3), libjson-c-dev | libjson0-dev (>= 0.9~), libproj-dev (>= 4.6.0), libssl-dev, xsltproc, docbook, docbook-xsl, imagemagick, libcunit1-dev, dblatex, libxml2-dev (>= 2.5.0~), libgtk2.0-dev, libgdal-dev (>= 1.9.0~) | libgdal1-dev (>= 1.9.0~), postgresql-server-dev-all, postgresql-common (>= 148~), postgresql, maven-repo-helper"
-  ],
-  "Build-Depends-Indep": [
-    "default-jdk, libpostgresql-jdbc-java, fastjar, libjts-java (>= 1.7), maven2, libmaven-clean-plugin-java, libmaven-jar-plugin-java, libsurefire-java, libmaven-compiler-plugin-java, libmaven-resources-plugin-java, libmaven-javadoc-plugin-java"
-  ],
-  "Checksums-Sha1": [
-    "7efa3712b37cf5586fb8257854ec21390e1a1c4c 3370 postgis_2.1.4+dfsg-3+deb8u1.dsc d254c3bacb6ef3e3c7ecc79447715214a4674e21 6782364 postgis_2.1.4+dfsg.orig.tar.gz 394679096bb2ad061dc6c72a758a052427dc4e44 65272 postgis_2.1.4+dfsg-3+deb8u1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "19d80f01ebbed411877ddc4607fc666688d7d3fc7390897804c2a300b41c7825 3370 postgis_2.1.4+dfsg-3+deb8u1.dsc a241b999fc64752b6d847737d4a44619c4a13030fa5ef4dbc33d00d4e34906d8 6782364 postgis_2.1.4+dfsg.orig.tar.gz a23b41c9e928bf98c34942513dca4ecb404d7f622d6e5cbd7d1b807d6d0e9493 65272 postgis_2.1.4+dfsg-3+deb8u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/p/postgis"
-  ],
-  "Files": [
-    "dbe2a93c3df288ef346183b890f56ffb 3370 postgis_2.1.4+dfsg-3+deb8u1.dsc e105cd9764810e2d2c49b89c90e8f743 6782364 postgis_2.1.4+dfsg.orig.tar.gz 70a198a7ffdcbba96c879557ec74d543 65272 postgis_2.1.4+dfsg-3+deb8u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://postgis.refractions.net/"
-  ],
-  "Maintainer": [
-    "Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "postgis"
-  ],
-  "Package-List": [
-    "liblwgeom-2.1.4 deb libs optional arch=any liblwgeom-dev deb libdevel optional arch=any libpostgis-java deb java optional arch=all libpostgis-java-doc deb doc optional arch=all postgis deb misc optional arch=any postgis-doc deb doc optional arch=all postgresql-9.4-postgis-2.1 deb misc optional arch=any postgresql-9.4-postgis-2.1-scripts deb misc optional arch=all postgresql-9.4-postgis-scripts deb misc optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "science"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Stephen Frost <sfrost@debian.org>, Francesco Paolo Lovergine <frankie@debian.org>, Markus Wanner <markus@bluegap.ch>, Bas Couwenberg <sebastic@xs4all.nl>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-grass/postgis.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-grass/postgis.git"
-  ],
-  "Version": [
-    "2.1.4+dfsg-3+deb8u1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"postgis, postgis-doc, libpostgis-java, libpostgis-java-doc, liblwgeom-2.1.4, liblwgeom-dev, postgresql-9.4-postgis-2.1, postgresql-9.4-postgis-scripts, postgresql-9.4-postgis-2.1-scripts"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), po-debconf, dpkg-dev (>= 1.16.1~), autotools-dev, dh-autoreconf, autoconf2.13, flex, bison, rdfind, libgeos-dev (>= 3.3), libjson-c-dev | libjson0-dev (>= 0.9~), libproj-dev (>= 4.6.0), libssl-dev, xsltproc, docbook, docbook-xsl, imagemagick, libcunit1-dev, dblatex, libxml2-dev (>= 2.5.0~), libgtk2.0-dev, libgdal-dev (>= 1.9.0~) | libgdal1-dev (>= 1.9.0~), postgresql-server-dev-all, postgresql-common (>= 148~), postgresql, maven-repo-helper"
+	],
+	"Build-Depends-Indep": [
+		"default-jdk, libpostgresql-jdbc-java, fastjar, libjts-java (>= 1.7), maven2, libmaven-clean-plugin-java, libmaven-jar-plugin-java, libsurefire-java, libmaven-compiler-plugin-java, libmaven-resources-plugin-java, libmaven-javadoc-plugin-java"
+	],
+	"Checksums-Sha1": [
+		"7efa3712b37cf5586fb8257854ec21390e1a1c4c 3370 postgis_2.1.4+dfsg-3+deb8u1.dsc d254c3bacb6ef3e3c7ecc79447715214a4674e21 6782364 postgis_2.1.4+dfsg.orig.tar.gz 394679096bb2ad061dc6c72a758a052427dc4e44 65272 postgis_2.1.4+dfsg-3+deb8u1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"19d80f01ebbed411877ddc4607fc666688d7d3fc7390897804c2a300b41c7825 3370 postgis_2.1.4+dfsg-3+deb8u1.dsc a241b999fc64752b6d847737d4a44619c4a13030fa5ef4dbc33d00d4e34906d8 6782364 postgis_2.1.4+dfsg.orig.tar.gz a23b41c9e928bf98c34942513dca4ecb404d7f622d6e5cbd7d1b807d6d0e9493 65272 postgis_2.1.4+dfsg-3+deb8u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/p/postgis"
+	],
+	"Files": [
+		"dbe2a93c3df288ef346183b890f56ffb 3370 postgis_2.1.4+dfsg-3+deb8u1.dsc e105cd9764810e2d2c49b89c90e8f743 6782364 postgis_2.1.4+dfsg.orig.tar.gz 70a198a7ffdcbba96c879557ec74d543 65272 postgis_2.1.4+dfsg-3+deb8u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://postgis.refractions.net/"
+	],
+	"Maintainer": [
+		"Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"postgis"
+	],
+	"Package-List": [
+		"liblwgeom-2.1.4 deb libs optional arch=any liblwgeom-dev deb libdevel optional arch=any libpostgis-java deb java optional arch=all libpostgis-java-doc deb doc optional arch=all postgis deb misc optional arch=any postgis-doc deb doc optional arch=all postgresql-9.4-postgis-2.1 deb misc optional arch=any postgresql-9.4-postgis-2.1-scripts deb misc optional arch=all postgresql-9.4-postgis-scripts deb misc optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"science"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Stephen Frost <sfrost@debian.org>, Francesco Paolo Lovergine <frankie@debian.org>, Markus Wanner <markus@bluegap.ch>, Bas Couwenberg <sebastic@xs4all.nl>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-grass/postgis.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-grass/postgis.git"
+	],
+	"Version": [
+		"2.1.4+dfsg-3+deb8u1"
+	]
 }

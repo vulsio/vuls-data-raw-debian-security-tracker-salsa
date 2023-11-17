@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "empathy, empathy-dbg, empathy-common"
-  ],
-  "Build-Depends": [
-    "cdbs (>= 0.4.90), debhelper (>= 8), dh-autoreconf, libglib2.0-dev (>= 2.37.6), libgtk-3-dev (>= 3.9.4), libtelepathy-glib-dev (>= 0.23.2), libtelepathy-logger-dev (>= 0.8.0), intltool (>= 0.50.0), libenchant-dev (>= 1.2.0), iso-codes, xsltproc, yelp-tools, libcanberra-gtk3-dev, libnotify-dev (>= 0.7.0), libx11-dev, libdbus-glib-1-dev, libgstreamer-plugins-base1.0-dev, libnm-glib-dev (>= 0.7) [linux-any], libnm-util-dev (>= 0.7) [linux-any], geoclue-2.0 (>= 2.0), libgnome-keyring-dev (>= 2.26.0), libgcr-3-dev (>= 2.91.4), libfolks-dev (>= 0.9.5), libfolks-telepathy-dev (>= 0.9.5), libgnutls28-dev (>= 2.8.5), libwebkitgtk-3.0-dev (>= 1.9.1), gsettings-desktop-schemas-dev, libgeocode-glib-dev (>= 0.99.1), libcheese-gtk-dev (>= 3.7), libclutter-gtk-1.0-dev (>= 1.4), libclutter-gst-2.0-dev, libcogl-dev (>= 1.14), libgudev-1.0-dev [linux-any], libmission-control-plugins-dev (>= 1:5.14.0), libpulse-dev, libtelepathy-farstream-dev (>= 0.6.0), libgoa-1.0-dev (>= 3.8), libchamplain-gtk-0.12-dev (>= 0.12.1), libsecret-1-dev"
-  ],
-  "Checksums-Sha1": [
-    "4149e13a67ce8b41f7eb378c2349113cea78683c 2923 empathy_3.12.7-1.dsc 08098bb2c1179a939dc4f59081838e2fa21c8309 5047116 empathy_3.12.7.orig.tar.xz b9247f9370dc95cbfe89e6fa1546e91f3fd52d06 19992 empathy_3.12.7-1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "07ea7efd058887e5e0afee905767651a8fcc74f112d2a0e2d361d1da8e130151 2923 empathy_3.12.7-1.dsc abcc6e325474d158ba21dfc864183617cf832c3570ccefe9e32f275b94452794 5047116 empathy_3.12.7.orig.tar.xz 417da9e7fa48fbe5d7ca9fe6c2eda90351bc540711fe11bb5774d7decc2e3e1d 19992 empathy_3.12.7-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/e/empathy"
-  ],
-  "Files": [
-    "bff6dfed7687138cd2d672e2c65ac0b7 2923 empathy_3.12.7-1.dsc b86c915c2465203e0ff1443c5987560a 5047116 empathy_3.12.7.orig.tar.xz c14b4f6050cc6491345f5a4de986ef6f 19992 empathy_3.12.7-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://wiki.gnome.org/Apps/Empathy"
-  ],
-  "Maintainer": [
-    "Debian Telepathy maintainers <pkg-telepathy-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "empathy"
-  ],
-  "Package-List": [
-    "empathy deb gnome optional arch=any empathy-common deb gnome optional arch=all empathy-dbg deb debug extra arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "gnome"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Sjoerd Simons <sjoerd@debian.org>, Dafydd Harries <daf@debian.org>, Simon McVittie <smcv@debian.org>, Riccardo Setti <giskard@debian.org>, Laurent Bigonville <bigon@debian.org>, Jonny Lamb <jonny@debian.org>, Emilio Pozuelo Monfort <pochu@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-telepathy/empathy.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-telepathy/empathy.git"
-  ],
-  "Version": [
-    "3.12.7-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"empathy, empathy-dbg, empathy-common"
+	],
+	"Build-Depends": [
+		"cdbs (>= 0.4.90), debhelper (>= 8), dh-autoreconf, libglib2.0-dev (>= 2.37.6), libgtk-3-dev (>= 3.9.4), libtelepathy-glib-dev (>= 0.23.2), libtelepathy-logger-dev (>= 0.8.0), intltool (>= 0.50.0), libenchant-dev (>= 1.2.0), iso-codes, xsltproc, yelp-tools, libcanberra-gtk3-dev, libnotify-dev (>= 0.7.0), libx11-dev, libdbus-glib-1-dev, libgstreamer-plugins-base1.0-dev, libnm-glib-dev (>= 0.7) [linux-any], libnm-util-dev (>= 0.7) [linux-any], geoclue-2.0 (>= 2.0), libgnome-keyring-dev (>= 2.26.0), libgcr-3-dev (>= 2.91.4), libfolks-dev (>= 0.9.5), libfolks-telepathy-dev (>= 0.9.5), libgnutls28-dev (>= 2.8.5), libwebkitgtk-3.0-dev (>= 1.9.1), gsettings-desktop-schemas-dev, libgeocode-glib-dev (>= 0.99.1), libcheese-gtk-dev (>= 3.7), libclutter-gtk-1.0-dev (>= 1.4), libclutter-gst-2.0-dev, libcogl-dev (>= 1.14), libgudev-1.0-dev [linux-any], libmission-control-plugins-dev (>= 1:5.14.0), libpulse-dev, libtelepathy-farstream-dev (>= 0.6.0), libgoa-1.0-dev (>= 3.8), libchamplain-gtk-0.12-dev (>= 0.12.1), libsecret-1-dev"
+	],
+	"Checksums-Sha1": [
+		"4149e13a67ce8b41f7eb378c2349113cea78683c 2923 empathy_3.12.7-1.dsc 08098bb2c1179a939dc4f59081838e2fa21c8309 5047116 empathy_3.12.7.orig.tar.xz b9247f9370dc95cbfe89e6fa1546e91f3fd52d06 19992 empathy_3.12.7-1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"07ea7efd058887e5e0afee905767651a8fcc74f112d2a0e2d361d1da8e130151 2923 empathy_3.12.7-1.dsc abcc6e325474d158ba21dfc864183617cf832c3570ccefe9e32f275b94452794 5047116 empathy_3.12.7.orig.tar.xz 417da9e7fa48fbe5d7ca9fe6c2eda90351bc540711fe11bb5774d7decc2e3e1d 19992 empathy_3.12.7-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/e/empathy"
+	],
+	"Files": [
+		"bff6dfed7687138cd2d672e2c65ac0b7 2923 empathy_3.12.7-1.dsc b86c915c2465203e0ff1443c5987560a 5047116 empathy_3.12.7.orig.tar.xz c14b4f6050cc6491345f5a4de986ef6f 19992 empathy_3.12.7-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://wiki.gnome.org/Apps/Empathy"
+	],
+	"Maintainer": [
+		"Debian Telepathy maintainers <pkg-telepathy-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"empathy"
+	],
+	"Package-List": [
+		"empathy deb gnome optional arch=any empathy-common deb gnome optional arch=all empathy-dbg deb debug extra arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"gnome"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Sjoerd Simons <sjoerd@debian.org>, Dafydd Harries <daf@debian.org>, Simon McVittie <smcv@debian.org>, Riccardo Setti <giskard@debian.org>, Laurent Bigonville <bigon@debian.org>, Jonny Lamb <jonny@debian.org>, Emilio Pozuelo Monfort <pochu@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-telepathy/empathy.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-telepathy/empathy.git"
+	],
+	"Version": [
+		"3.12.7-1"
+	]
 }

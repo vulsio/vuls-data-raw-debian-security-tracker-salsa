@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "alpha amd64 armel armhf arm64 i386 ia64 mips mipsel mips64 mips64el powerpc powerpcspe ppc64 ppc64el m68k sh4 sparc sparc64 s390x x32 kfreebsd-i386 kfreebsd-amd64 all"
-  ],
-  "Binary": [
-    "openjdk-8-jdk-headless, openjdk-8-jre-headless, openjdk-8-jdk, openjdk-8-jre, openjdk-8-demo, openjdk-8-source, openjdk-8-doc, openjdk-8-dbg, openjdk-8-jre-zero"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), quilt, m4, lsb-release, zip, unzip, openjdk-8-jdk, sharutils, gawk, cpio, pkg-config, procps, wdiff, tzdata, time, autoconf (>= 2.69), automake, autotools-dev, ant, ant-optional, fastjar (>= 2:0.96-0ubuntu2), g++-6, libxtst-dev, libxi-dev, libxt-dev, libxaw7-dev, libxrender-dev, libcups2-dev, libasound2-dev, liblcms2-dev, libfreetype6-dev (>= 2.2.1), libxinerama-dev, libkrb5-dev, xsltproc, libpcsclite-dev, libgtk2.0-dev, libffi-dev, zlib1g-dev, libattr1-dev, libpng-dev, libjpeg-dev, libgif-dev, libpulse-dev (>= 0.9.12) [!alpha], systemtap-sdt-dev [!sh4], libnss3-dev (>= 2:3.17.1), openjdk-8-jdk-headless <cross>, dpkg-dev (>= 1.17.14)"
-  ],
-  "Checksums-Sha1": [
-    "9617fbda4b93c387d9aa2bbe8d0f37771e3ce8a1 4482 openjdk-8_8u332-ga-1~deb9u1.dsc 3f5bbfe6c816051019b263acf63a18a05f0c409b 66375615 openjdk-8_8u332-ga.orig.tar.gz 229c3430c1d1e6191e3d8a05e80fae8eab0411ac 178100 openjdk-8_8u332-ga-1~deb9u1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "618d764e8fd213e731cfbcdd520296da8b428e7795db4f39aeeeff05f21d1188 4482 openjdk-8_8u332-ga-1~deb9u1.dsc 6618c1ae5794a262424d8d683b068485dcf074f05c4451ad56ff8cba2df8c98c 66375615 openjdk-8_8u332-ga.orig.tar.gz 0072ce05b8748a64f5399538bdc632376b34a0347608b590bb9f66bd926b42da 178100 openjdk-8_8u332-ga-1~deb9u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/o/openjdk-8"
-  ],
-  "Files": [
-    "8cbe64ad7226ec74bc294e1389e259fc 4482 openjdk-8_8u332-ga-1~deb9u1.dsc 34d17113580e7d3c7f5b3e0c846aeadc 66375615 openjdk-8_8u332-ga.orig.tar.gz 59c1cfa5f1533afa0075cc97b83090f7 178100 openjdk-8_8u332-ga-1~deb9u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://openjdk.java.net/"
-  ],
-  "Maintainer": [
-    "Java Maintenance <debian-java@lists.debian.org>"
-  ],
-  "Package": [
-    "openjdk-8"
-  ],
-  "Package-List": [
-    "openjdk-8-dbg deb debug optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,sh4,sparc,sparc64,s390x,x32,kfreebsd-i386,kfreebsd-amd64 openjdk-8-demo deb java optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,sh4,sparc,sparc64,s390x,x32,kfreebsd-i386,kfreebsd-amd64 openjdk-8-doc deb doc optional arch=all openjdk-8-jdk deb java optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,sh4,sparc,sparc64,s390x,x32,kfreebsd-i386,kfreebsd-amd64 openjdk-8-jdk-headless deb java optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,sh4,sparc,sparc64,s390x,x32,kfreebsd-i386,kfreebsd-amd64 openjdk-8-jre deb java optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,sh4,sparc,sparc64,s390x,x32,kfreebsd-i386,kfreebsd-amd64 openjdk-8-jre-headless deb java optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,sh4,sparc,sparc64,s390x,x32,kfreebsd-i386,kfreebsd-amd64 openjdk-8-jre-zero deb java optional arch=amd64,i386,arm64,ppc64,ppc64el,sparc64,armhf,kfreebsd-amd64,kfreebsd-i386 openjdk-8-source deb java optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.0"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dbus-x11, default-jre-headless, g++, jtreg, testng, unzip, xfwm4, xvfb, zip"
-  ],
-  "Uploaders": [
-    "Thorsten Glaser <tg@mirbsd.de>"
-  ],
-  "Vcs-Browser": [
-    "https://evolvis.org/plugins/scmgit/cgi-bin/gitweb.cgi?p=alioth/openjdk-8.git;a=shortlog;h=refs/heads/master"
-  ],
-  "Vcs-Git": [
-    "https://evolvis.org/anonscm/git/alioth/openjdk-8.git -b master"
-  ],
-  "Version": [
-    "8u332-ga-1~deb9u1"
-  ]
+	"Architecture": [
+		"alpha amd64 armel armhf arm64 i386 ia64 mips mipsel mips64 mips64el powerpc powerpcspe ppc64 ppc64el m68k sh4 sparc sparc64 s390x x32 kfreebsd-i386 kfreebsd-amd64 all"
+	],
+	"Binary": [
+		"openjdk-8-jdk-headless, openjdk-8-jre-headless, openjdk-8-jdk, openjdk-8-jre, openjdk-8-demo, openjdk-8-source, openjdk-8-doc, openjdk-8-dbg, openjdk-8-jre-zero"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), quilt, m4, lsb-release, zip, unzip, openjdk-8-jdk, sharutils, gawk, cpio, pkg-config, procps, wdiff, tzdata, time, autoconf (>= 2.69), automake, autotools-dev, ant, ant-optional, fastjar (>= 2:0.96-0ubuntu2), g++-6, libxtst-dev, libxi-dev, libxt-dev, libxaw7-dev, libxrender-dev, libcups2-dev, libasound2-dev, liblcms2-dev, libfreetype6-dev (>= 2.2.1), libxinerama-dev, libkrb5-dev, xsltproc, libpcsclite-dev, libgtk2.0-dev, libffi-dev, zlib1g-dev, libattr1-dev, libpng-dev, libjpeg-dev, libgif-dev, libpulse-dev (>= 0.9.12) [!alpha], systemtap-sdt-dev [!sh4], libnss3-dev (>= 2:3.17.1), openjdk-8-jdk-headless <cross>, dpkg-dev (>= 1.17.14)"
+	],
+	"Checksums-Sha1": [
+		"9617fbda4b93c387d9aa2bbe8d0f37771e3ce8a1 4482 openjdk-8_8u332-ga-1~deb9u1.dsc 3f5bbfe6c816051019b263acf63a18a05f0c409b 66375615 openjdk-8_8u332-ga.orig.tar.gz 229c3430c1d1e6191e3d8a05e80fae8eab0411ac 178100 openjdk-8_8u332-ga-1~deb9u1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"618d764e8fd213e731cfbcdd520296da8b428e7795db4f39aeeeff05f21d1188 4482 openjdk-8_8u332-ga-1~deb9u1.dsc 6618c1ae5794a262424d8d683b068485dcf074f05c4451ad56ff8cba2df8c98c 66375615 openjdk-8_8u332-ga.orig.tar.gz 0072ce05b8748a64f5399538bdc632376b34a0347608b590bb9f66bd926b42da 178100 openjdk-8_8u332-ga-1~deb9u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/o/openjdk-8"
+	],
+	"Files": [
+		"8cbe64ad7226ec74bc294e1389e259fc 4482 openjdk-8_8u332-ga-1~deb9u1.dsc 34d17113580e7d3c7f5b3e0c846aeadc 66375615 openjdk-8_8u332-ga.orig.tar.gz 59c1cfa5f1533afa0075cc97b83090f7 178100 openjdk-8_8u332-ga-1~deb9u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://openjdk.java.net/"
+	],
+	"Maintainer": [
+		"Java Maintenance <debian-java@lists.debian.org>"
+	],
+	"Package": [
+		"openjdk-8"
+	],
+	"Package-List": [
+		"openjdk-8-dbg deb debug optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,sh4,sparc,sparc64,s390x,x32,kfreebsd-i386,kfreebsd-amd64 openjdk-8-demo deb java optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,sh4,sparc,sparc64,s390x,x32,kfreebsd-i386,kfreebsd-amd64 openjdk-8-doc deb doc optional arch=all openjdk-8-jdk deb java optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,sh4,sparc,sparc64,s390x,x32,kfreebsd-i386,kfreebsd-amd64 openjdk-8-jdk-headless deb java optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,sh4,sparc,sparc64,s390x,x32,kfreebsd-i386,kfreebsd-amd64 openjdk-8-jre deb java optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,sh4,sparc,sparc64,s390x,x32,kfreebsd-i386,kfreebsd-amd64 openjdk-8-jre-headless deb java optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,sh4,sparc,sparc64,s390x,x32,kfreebsd-i386,kfreebsd-amd64 openjdk-8-jre-zero deb java optional arch=amd64,i386,arm64,ppc64,ppc64el,sparc64,armhf,kfreebsd-amd64,kfreebsd-i386 openjdk-8-source deb java optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dbus-x11, default-jre-headless, g++, jtreg, testng, unzip, xfwm4, xvfb, zip"
+	],
+	"Uploaders": [
+		"Thorsten Glaser <tg@mirbsd.de>"
+	],
+	"Vcs-Browser": [
+		"https://evolvis.org/plugins/scmgit/cgi-bin/gitweb.cgi?p=alioth/openjdk-8.git;a=shortlog;h=refs/heads/master"
+	],
+	"Vcs-Git": [
+		"https://evolvis.org/anonscm/git/alioth/openjdk-8.git -b master"
+	],
+	"Version": [
+		"8u332-ga-1~deb9u1"
+	]
 }

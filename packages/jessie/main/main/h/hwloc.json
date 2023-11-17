@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "hwloc, hwloc-nox, libhwloc-dev, libhwloc5, libhwloc-plugins, libhwloc-common, libhwloc-doc"
-  ],
-  "Build-Conflicts": [
-    "autoconf2.13"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 7), cdbs, libltdl-dev, libcairo2-dev, libx11-dev, libxml2-dev, libxml2-utils, libncurses5-dev, libnuma-dev [amd64 arm64 i386 ia64 mips mipsel powerpc ppc64el sparc], libpciaccess-dev, pkg-config, libibverbs-dev [linux-any], ocl-icd-opencl-dev [!hurd-i386], opencl-headers, autoconf (>= 2.63), dh-autoreconf, dpkg-dev (>= 1.16), hardening-wrapper"
-  ],
-  "Build-Depends-Indep": [
-    "doxygen-latex, transfig"
-  ],
-  "Checksums-Sha1": [
-    "6d2501d48dcb011848c9e55c117df6934177978b 2535 hwloc_1.10.0-3.dsc 1d232af79a18db9b62564c44415d4129cb491292 3765051 hwloc_1.10.0.orig.tar.bz2 695f90cc6dd7396bd7252139dad0c3175d4a8e90 9935 hwloc_1.10.0-3.debian.tar.bz2"
-  ],
-  "Checksums-Sha256": [
-    "7f201ad29ae875d901d7db1d315368c2f7d2f7c65d26cd778ddcabc9a55b074a 2535 hwloc_1.10.0-3.dsc b765f72507cf1cc98b398e0ec85b8f30e640bf1cd0a886c286d0b70d648d7be3 3765051 hwloc_1.10.0.orig.tar.bz2 f6350616d4724946d7dde6c84c332a0fcece3e1315aeb766e987840dcfe4e469 9935 hwloc_1.10.0-3.debian.tar.bz2"
-  ],
-  "Directory": [
-    "pool/main/h/hwloc"
-  ],
-  "Files": [
-    "986a7efebe7a3c2a6ac2dd35e980920d 2535 hwloc_1.10.0-3.dsc c0502d93b1b8800cde28f84010bccfe0 3765051 hwloc_1.10.0.orig.tar.bz2 2f12a26f2354e9d05fae918e6f9db9fc 9935 hwloc_1.10.0-3.debian.tar.bz2"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.open-mpi.org/projects/hwloc/"
-  ],
-  "Maintainer": [
-    "Samuel Thibault <sthibault@debian.org>"
-  ],
-  "Package": [
-    "hwloc"
-  ],
-  "Package-List": [
-    "hwloc deb admin extra arch=any hwloc-nox deb admin extra arch=any libhwloc-common deb libs extra arch=all libhwloc-dev deb libdevel extra arch=any libhwloc-doc deb doc extra arch=all libhwloc-plugins deb libs extra arch=any libhwloc5 deb libs extra arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "admin"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Vcs-Browser": [
-    "http://github.com/open-mpi/hwloc-debian"
-  ],
-  "Vcs-Git": [
-    "http://github.com/open-mpi/hwloc-debian.git"
-  ],
-  "Version": [
-    "1.10.0-3"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"hwloc, hwloc-nox, libhwloc-dev, libhwloc5, libhwloc-plugins, libhwloc-common, libhwloc-doc"
+	],
+	"Build-Conflicts": [
+		"autoconf2.13"
+	],
+	"Build-Depends": [
+		"debhelper (>= 7), cdbs, libltdl-dev, libcairo2-dev, libx11-dev, libxml2-dev, libxml2-utils, libncurses5-dev, libnuma-dev [amd64 arm64 i386 ia64 mips mipsel powerpc ppc64el sparc], libpciaccess-dev, pkg-config, libibverbs-dev [linux-any], ocl-icd-opencl-dev [!hurd-i386], opencl-headers, autoconf (>= 2.63), dh-autoreconf, dpkg-dev (>= 1.16), hardening-wrapper"
+	],
+	"Build-Depends-Indep": [
+		"doxygen-latex, transfig"
+	],
+	"Checksums-Sha1": [
+		"6d2501d48dcb011848c9e55c117df6934177978b 2535 hwloc_1.10.0-3.dsc 1d232af79a18db9b62564c44415d4129cb491292 3765051 hwloc_1.10.0.orig.tar.bz2 695f90cc6dd7396bd7252139dad0c3175d4a8e90 9935 hwloc_1.10.0-3.debian.tar.bz2"
+	],
+	"Checksums-Sha256": [
+		"7f201ad29ae875d901d7db1d315368c2f7d2f7c65d26cd778ddcabc9a55b074a 2535 hwloc_1.10.0-3.dsc b765f72507cf1cc98b398e0ec85b8f30e640bf1cd0a886c286d0b70d648d7be3 3765051 hwloc_1.10.0.orig.tar.bz2 f6350616d4724946d7dde6c84c332a0fcece3e1315aeb766e987840dcfe4e469 9935 hwloc_1.10.0-3.debian.tar.bz2"
+	],
+	"Directory": [
+		"pool/main/h/hwloc"
+	],
+	"Files": [
+		"986a7efebe7a3c2a6ac2dd35e980920d 2535 hwloc_1.10.0-3.dsc c0502d93b1b8800cde28f84010bccfe0 3765051 hwloc_1.10.0.orig.tar.bz2 2f12a26f2354e9d05fae918e6f9db9fc 9935 hwloc_1.10.0-3.debian.tar.bz2"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.open-mpi.org/projects/hwloc/"
+	],
+	"Maintainer": [
+		"Samuel Thibault <sthibault@debian.org>"
+	],
+	"Package": [
+		"hwloc"
+	],
+	"Package-List": [
+		"hwloc deb admin extra arch=any hwloc-nox deb admin extra arch=any libhwloc-common deb libs extra arch=all libhwloc-dev deb libdevel extra arch=any libhwloc-doc deb doc extra arch=all libhwloc-plugins deb libs extra arch=any libhwloc5 deb libs extra arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"admin"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Vcs-Browser": [
+		"http://github.com/open-mpi/hwloc-debian"
+	],
+	"Vcs-Git": [
+		"http://github.com/open-mpi/hwloc-debian.git"
+	],
+	"Version": [
+		"1.10.0-3"
+	]
 }

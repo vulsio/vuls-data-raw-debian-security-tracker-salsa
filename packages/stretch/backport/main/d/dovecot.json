@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "dovecot-core, dovecot-dev, dovecot-imapd, dovecot-pop3d, dovecot-lmtpd, dovecot-managesieved, dovecot-pgsql, dovecot-mysql, dovecot-sqlite, dovecot-ldap, dovecot-gssapi, dovecot-sieve, dovecot-solr, dovecot-lucene, dovecot-submissiond, dovecot-auth-lua"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 11~), default-libmysqlclient-dev, dh-exec, dpkg-dev (>= 1.16.1), krb5-multidev, libapparmor-dev, libbz2-dev, libclucene-dev (>= 2.3), libdb-dev, libicu-dev, libexpat-dev, libexttextcat-dev, libldap2-dev, liblz4-dev, liblzma-dev, liblua5.3-dev, libpam0g-dev, libpq-dev, libsasl2-dev, libsodium-dev, libsqlite3-dev, libssl-dev, libstemmer-dev, libwrap0-dev, lsb-release, pkg-config, zlib1g-dev"
-  ],
-  "Checksums-Sha256": [
-    "2baa3902d78c822a36169a6d05f175d025fd78c36e4055e485438e2ea7360343 3621 dovecot_2.3.4.1-5+deb10u1~bpo9+1.dsc b8873e2ce5c33e58963bb7a8d2ff8427c09dbfdd63e13a0b0f4502864043aa07 6925073 dovecot_2.3.4.1.orig.tar.gz d244ae94e316e69a1c2fb272cadd71a5c87b4dfa88edfcc511eceb1dd2252c5d 1286 dovecot_2.3.4.1.orig.tar.gz.asc 53c63f853cb3ed3fc6b282a0c52ffc0df000f1578016597e621242a0432a070e 534608 dovecot_2.3.4.1-5+deb10u1~bpo9+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/d/dovecot"
-  ],
-  "Files": [
-    "59915c0890aaba241377cd1eef643bbb 3621 dovecot_2.3.4.1-5+deb10u1~bpo9+1.dsc b5144d8a7e81833428320a2c32a265d2 6925073 dovecot_2.3.4.1.orig.tar.gz 8c93e4114a2edfd50e881bc0be06e82a 1286 dovecot_2.3.4.1.orig.tar.gz.asc 074557593f61fb66692f5599ee9d3282 534608 dovecot_2.3.4.1-5+deb10u1~bpo9+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://dovecot.org/"
-  ],
-  "Maintainer": [
-    "Dovecot Maintainers <dovecot@packages.debian.org>"
-  ],
-  "Package": [
-    "dovecot"
-  ],
-  "Package-List": [
-    "dovecot-auth-lua deb mail optional arch=any dovecot-core deb mail optional arch=any dovecot-dev deb mail optional arch=any dovecot-gssapi deb mail optional arch=any dovecot-imapd deb mail optional arch=any dovecot-ldap deb mail optional arch=any dovecot-lmtpd deb mail optional arch=any dovecot-lucene deb mail optional arch=any dovecot-managesieved deb mail optional arch=any dovecot-mysql deb mail optional arch=any dovecot-pgsql deb mail optional arch=any dovecot-pop3d deb mail optional arch=any dovecot-sieve deb mail optional arch=any dovecot-solr deb mail optional arch=any dovecot-sqlite deb mail optional arch=any dovecot-submissiond deb mail optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.3.0"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "python3, systemd-sysv"
-  ],
-  "Uploaders": [
-    "Jaldhar H. Vyas <jaldhar@debian.org>, Jelmer Vernooij <jelmer@debian.org>, Apollon Oikonomopoulos <apoikos@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian/dovecot"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian/dovecot.git"
-  ],
-  "Version": [
-    "1:2.3.4.1-5+deb10u1~bpo9+1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"dovecot-core, dovecot-dev, dovecot-imapd, dovecot-pop3d, dovecot-lmtpd, dovecot-managesieved, dovecot-pgsql, dovecot-mysql, dovecot-sqlite, dovecot-ldap, dovecot-gssapi, dovecot-sieve, dovecot-solr, dovecot-lucene, dovecot-submissiond, dovecot-auth-lua"
+	],
+	"Build-Depends": [
+		"debhelper (>= 11~), default-libmysqlclient-dev, dh-exec, dpkg-dev (>= 1.16.1), krb5-multidev, libapparmor-dev, libbz2-dev, libclucene-dev (>= 2.3), libdb-dev, libicu-dev, libexpat-dev, libexttextcat-dev, libldap2-dev, liblz4-dev, liblzma-dev, liblua5.3-dev, libpam0g-dev, libpq-dev, libsasl2-dev, libsodium-dev, libsqlite3-dev, libssl-dev, libstemmer-dev, libwrap0-dev, lsb-release, pkg-config, zlib1g-dev"
+	],
+	"Checksums-Sha256": [
+		"2baa3902d78c822a36169a6d05f175d025fd78c36e4055e485438e2ea7360343 3621 dovecot_2.3.4.1-5+deb10u1~bpo9+1.dsc b8873e2ce5c33e58963bb7a8d2ff8427c09dbfdd63e13a0b0f4502864043aa07 6925073 dovecot_2.3.4.1.orig.tar.gz d244ae94e316e69a1c2fb272cadd71a5c87b4dfa88edfcc511eceb1dd2252c5d 1286 dovecot_2.3.4.1.orig.tar.gz.asc 53c63f853cb3ed3fc6b282a0c52ffc0df000f1578016597e621242a0432a070e 534608 dovecot_2.3.4.1-5+deb10u1~bpo9+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/d/dovecot"
+	],
+	"Files": [
+		"59915c0890aaba241377cd1eef643bbb 3621 dovecot_2.3.4.1-5+deb10u1~bpo9+1.dsc b5144d8a7e81833428320a2c32a265d2 6925073 dovecot_2.3.4.1.orig.tar.gz 8c93e4114a2edfd50e881bc0be06e82a 1286 dovecot_2.3.4.1.orig.tar.gz.asc 074557593f61fb66692f5599ee9d3282 534608 dovecot_2.3.4.1-5+deb10u1~bpo9+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://dovecot.org/"
+	],
+	"Maintainer": [
+		"Dovecot Maintainers <dovecot@packages.debian.org>"
+	],
+	"Package": [
+		"dovecot"
+	],
+	"Package-List": [
+		"dovecot-auth-lua deb mail optional arch=any dovecot-core deb mail optional arch=any dovecot-dev deb mail optional arch=any dovecot-gssapi deb mail optional arch=any dovecot-imapd deb mail optional arch=any dovecot-ldap deb mail optional arch=any dovecot-lmtpd deb mail optional arch=any dovecot-lucene deb mail optional arch=any dovecot-managesieved deb mail optional arch=any dovecot-mysql deb mail optional arch=any dovecot-pgsql deb mail optional arch=any dovecot-pop3d deb mail optional arch=any dovecot-sieve deb mail optional arch=any dovecot-solr deb mail optional arch=any dovecot-sqlite deb mail optional arch=any dovecot-submissiond deb mail optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.3.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"python3, systemd-sysv"
+	],
+	"Uploaders": [
+		"Jaldhar H. Vyas <jaldhar@debian.org>, Jelmer Vernooij <jelmer@debian.org>, Apollon Oikonomopoulos <apoikos@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/dovecot"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/dovecot.git"
+	],
+	"Version": [
+		"1:2.3.4.1-5+deb10u1~bpo9+1"
+	]
 }

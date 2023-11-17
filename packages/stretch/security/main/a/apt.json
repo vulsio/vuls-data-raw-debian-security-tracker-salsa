@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "apt, libapt-pkg5.0, libapt-inst2.0, apt-doc, libapt-pkg-dev, libapt-pkg-doc, apt-utils, apt-transport-https"
-  ],
-  "Build-Depends": [
-    "cmake (>= 3.4), debhelper (>= 9.20160709~), dh-systemd, docbook-xml, docbook-xsl, dpkg-dev (>= 1.17.14), gettext (>= 0.12), libbz2-dev, libcurl4-gnutls-dev (>= 7.19.4~), libdb-dev, googletest <!nocheck> | libgtest-dev <!nocheck>, liblz4-dev (>= 0.0~r126), liblzma-dev, pkg-config, po4a (>= 0.34-2), xsltproc, zlib1g-dev"
-  ],
-  "Build-Depends-Indep": [
-    "doxygen, graphviz, w3m"
-  ],
-  "Checksums-Sha1": [
-    "5badbebd0b3d8af071ac32dfac63b7f0181996c1 2553 apt_1.4.11.dsc 759b5f096db38c02bf416c562db9f28348708ab3 2083192 apt_1.4.11.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "019679d78fbfc08b4bebd7ace4ff6d8ec3e519096eab7bf2bd50ec6a0de9ea7d 2553 apt_1.4.11.dsc 4d37de2dbe19385adc56a2f2e323d2fdcbc64d0d282a13f561288505a6e17363 2083192 apt_1.4.11.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/a/apt"
-  ],
-  "Files": [
-    "920006ad29e94eac318e314384644219 2553 apt_1.4.11.dsc ff806300bb35c18da273c60eec765cb4 2083192 apt_1.4.11.tar.xz"
-  ],
-  "Format": [
-    "3.0 (native)"
-  ],
-  "Maintainer": [
-    "APT Development Team <deity@lists.debian.org>"
-  ],
-  "Package": [
-    "apt"
-  ],
-  "Package-List": [
-    "apt deb admin important arch=any apt-doc deb doc optional arch=all apt-transport-https deb admin optional arch=any apt-utils deb admin important arch=any libapt-inst2.0 deb libs important arch=any libapt-pkg-dev deb libdevel optional arch=any libapt-pkg-doc deb doc optional arch=all libapt-pkg5.0 deb libs important arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "admin"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "db-util, fakeroot, gnupg, gnupg1, gnupg2, gpgv, gpgv1, gpgv2, libfile-fcntllock-perl, lsof, python3-apt, stunnel4, wget"
-  ],
-  "Uploaders": [
-    "Michael Vogt <mvo@debian.org>, Julian Andres Klode <jak@debian.org>, David Kalnischkies <donkult@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/git/apt/apt.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/apt/apt.git"
-  ],
-  "Version": [
-    "1.4.11"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"apt, libapt-pkg5.0, libapt-inst2.0, apt-doc, libapt-pkg-dev, libapt-pkg-doc, apt-utils, apt-transport-https"
+	],
+	"Build-Depends": [
+		"cmake (>= 3.4), debhelper (>= 9.20160709~), dh-systemd, docbook-xml, docbook-xsl, dpkg-dev (>= 1.17.14), gettext (>= 0.12), libbz2-dev, libcurl4-gnutls-dev (>= 7.19.4~), libdb-dev, googletest <!nocheck> | libgtest-dev <!nocheck>, liblz4-dev (>= 0.0~r126), liblzma-dev, pkg-config, po4a (>= 0.34-2), xsltproc, zlib1g-dev"
+	],
+	"Build-Depends-Indep": [
+		"doxygen, graphviz, w3m"
+	],
+	"Checksums-Sha1": [
+		"5badbebd0b3d8af071ac32dfac63b7f0181996c1 2553 apt_1.4.11.dsc 759b5f096db38c02bf416c562db9f28348708ab3 2083192 apt_1.4.11.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"019679d78fbfc08b4bebd7ace4ff6d8ec3e519096eab7bf2bd50ec6a0de9ea7d 2553 apt_1.4.11.dsc 4d37de2dbe19385adc56a2f2e323d2fdcbc64d0d282a13f561288505a6e17363 2083192 apt_1.4.11.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/a/apt"
+	],
+	"Files": [
+		"920006ad29e94eac318e314384644219 2553 apt_1.4.11.dsc ff806300bb35c18da273c60eec765cb4 2083192 apt_1.4.11.tar.xz"
+	],
+	"Format": [
+		"3.0 (native)"
+	],
+	"Maintainer": [
+		"APT Development Team <deity@lists.debian.org>"
+	],
+	"Package": [
+		"apt"
+	],
+	"Package-List": [
+		"apt deb admin important arch=any apt-doc deb doc optional arch=all apt-transport-https deb admin optional arch=any apt-utils deb admin important arch=any libapt-inst2.0 deb libs important arch=any libapt-pkg-dev deb libdevel optional arch=any libapt-pkg-doc deb doc optional arch=all libapt-pkg5.0 deb libs important arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"admin"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"db-util, fakeroot, gnupg, gnupg1, gnupg2, gpgv, gpgv1, gpgv2, libfile-fcntllock-perl, lsof, python3-apt, stunnel4, wget"
+	],
+	"Uploaders": [
+		"Michael Vogt <mvo@debian.org>, Julian Andres Klode <jak@debian.org>, David Kalnischkies <donkult@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/git/apt/apt.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/apt/apt.git"
+	],
+	"Version": [
+		"1.4.11"
+	]
 }

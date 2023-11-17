@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-pyo3-macros-dev, librust-pyo3-macros+abi3-dev, librust-pyo3-macros+pyproto-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-proc-macro2-1-dev <!nocheck>, librust-pyo3-macros-backend-0.17.3+default-dev <!nocheck>, librust-quote-1+default-dev <!nocheck>, librust-syn-1+default-dev (>= 1.0.56-~~) <!nocheck>, librust-syn-1+extra-traits-dev (>= 1.0.56-~~) <!nocheck>, librust-syn-1+full-dev (>= 1.0.56-~~) <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "39c14f5f575e286a1a62c2437aa0046021bbb255ba6f4ba4c969953ce497b5b9 2698 rust-pyo3-macros_0.17.3-1.dsc 94144a1266e236b1c932682136dc35a9dee8d3589728f68130c7c3861ef96b28 7257 rust-pyo3-macros_0.17.3.orig.tar.gz f8fe57da66ec4757ac113126e8e48202bd83f7c8921ae54d66def08d1ee7b3a9 2468 rust-pyo3-macros_0.17.3-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-pyo3-macros"
-  ],
-  "Files": [
-    "9f4d3c333855c31f1d0d7b34f9a870ca 2698 rust-pyo3-macros_0.17.3-1.dsc 48470f8665f9630fe4c96f0c5300d207 7257 rust-pyo3-macros_0.17.3.orig.tar.gz d211c65770ecd1707322f405f1a1ce82 2468 rust-pyo3-macros_0.17.3-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/pyo3/pyo3"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-pyo3-macros"
-  ],
-  "Package-List": [
-    "librust-pyo3-macros+abi3-dev deb rust optional arch=any librust-pyo3-macros+pyproto-dev deb rust optional arch=any librust-pyo3-macros-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo"
-  ],
-  "Uploaders": [
-    "Jelmer Vernooĳ <jelmer@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/pyo3-macros"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/pyo3-macros]"
-  ],
-  "Version": [
-    "0.17.3-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-pyo3-macros-dev, librust-pyo3-macros+abi3-dev, librust-pyo3-macros+pyproto-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-proc-macro2-1-dev <!nocheck>, librust-pyo3-macros-backend-0.17.3+default-dev <!nocheck>, librust-quote-1+default-dev <!nocheck>, librust-syn-1+default-dev (>= 1.0.56-~~) <!nocheck>, librust-syn-1+extra-traits-dev (>= 1.0.56-~~) <!nocheck>, librust-syn-1+full-dev (>= 1.0.56-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"39c14f5f575e286a1a62c2437aa0046021bbb255ba6f4ba4c969953ce497b5b9 2698 rust-pyo3-macros_0.17.3-1.dsc 94144a1266e236b1c932682136dc35a9dee8d3589728f68130c7c3861ef96b28 7257 rust-pyo3-macros_0.17.3.orig.tar.gz f8fe57da66ec4757ac113126e8e48202bd83f7c8921ae54d66def08d1ee7b3a9 2468 rust-pyo3-macros_0.17.3-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-pyo3-macros"
+	],
+	"Files": [
+		"9f4d3c333855c31f1d0d7b34f9a870ca 2698 rust-pyo3-macros_0.17.3-1.dsc 48470f8665f9630fe4c96f0c5300d207 7257 rust-pyo3-macros_0.17.3.orig.tar.gz d211c65770ecd1707322f405f1a1ce82 2468 rust-pyo3-macros_0.17.3-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/pyo3/pyo3"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-pyo3-macros"
+	],
+	"Package-List": [
+		"librust-pyo3-macros+abi3-dev deb rust optional arch=any librust-pyo3-macros+pyproto-dev deb rust optional arch=any librust-pyo3-macros-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo"
+	],
+	"Uploaders": [
+		"Jelmer Vernooĳ <jelmer@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/pyo3-macros"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/pyo3-macros]"
+	],
+	"Version": [
+		"0.17.3-1"
+	]
 }

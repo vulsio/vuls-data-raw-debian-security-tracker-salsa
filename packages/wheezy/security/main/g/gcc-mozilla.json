@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "gcc-mozilla"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 5.0.62), dpkg-dev (>= 1.16.0~ubuntu4), g++-multilib [amd64 i386 kfreebsd-amd64 mips mips64 mips64el mipsel mipsn32 mipsn32el powerpc ppc64 s390 s390x sparc sparc64 x32], libc6.1-dev (>= 2.13-5) [alpha ia64] | libc0.3-dev (>= 2.13-5) [hurd-i386] | libc0.1-dev (>= 2.13-5) [kfreebsd-i386 kfreebsd-amd64] | libc6-dev (>= 2.13-5), libc6-dev (>= 2.13-31) [armel armhf], libc6-dev-amd64 [i386 x32], libc6-dev-sparc64 [sparc], libc6-dev-sparc [sparc64], libc6-dev-s390 [s390x], libc6-dev-s390x [s390], libc6-dev-i386 [amd64 x32], libc6-dev-powerpc [ppc64], libc6-dev-ppc64 [powerpc], libc0.1-dev-i386 [kfreebsd-amd64], lib32gcc1 [amd64 ppc64 kfreebsd-amd64 mipsn32 mipsn32el mips64 mips64el s390x sparc64 x32], libn32gcc1 [mips mipsel mips64 mips64el], lib64gcc1 [i386 mips mipsel mipsn32 mipsn32el powerpc sparc s390 x32], libc6-dev-mips64 [mips mipsel mipsn32 mipsn32el], libc6-dev-mipsn32 [mips mipsel mips64 mips64el], libc6-dev-mips32 [mipsn32 mipsn32el mips64 mips64el], libc6.1-dbg [alpha ia64] | libc0.3-dbg [hurd-i386] | libc0.1-dbg [kfreebsd-i386 kfreebsd-amd64] | libc6-dbg, kfreebsd-kernel-headers (>= 0.84) [kfreebsd-any], m4, libtool, autoconf2.64, libunwind7-dev (>= 0.98.5-6) [ia64], libatomic-ops-dev [ia64], gawk, lzma, xz-utils, patchutils, zlib1g-dev, binutils (>= 2.22) | binutils-multiarch (>= 2.22), binutils-hppa64 (>= 2.22) [hppa], gperf (>= 3.0.1), bison (>= 1:2.3), flex, gettext, texinfo (>= 4.3), locales, sharutils, procps, libantlr-java, python, libffi-dev, netbase, libcloog-ppl-dev (>= 0.15.9-2~), libmpc-dev, libmpfr-dev (>= 3.0.0-9~), libgmp-dev (>= 2:5.0.1~), dejagnu [!m68k !hurd-amd64 !hurd-i386 !hurd-alpha !kfreebsd-amd64 !kfreebsd-i386 !kfreebsd-alpha], autogen, realpath (>= 1.9.12), chrpath, lsb-release, quilt"
-  ],
-  "Build-Depends-Indep": [
-    "doxygen (>= 1.7.2), graphviz (>= 2.2), ghostscript, texlive-latex-base, xsltproc, libxml2-utils, docbook-xsl-ns"
-  ],
-  "Checksums-Sha1": [
-    "e00f7c1dc2262f873160a5ead8ed7625f1dcab98 3798 gcc-mozilla_4.8.4-0deb7u1.dsc 5f3f31bb4b272e2eec853b300ff7adf7ea7b35cf 70635843 gcc-mozilla_4.8.4.orig.tar.gz 36bd6e7547ab08688b8aed1a3bf7d95dd37eb71d 1090456 gcc-mozilla_4.8.4-0deb7u1.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "59ba0a20d6e5251c57f3f951fe39d1e19e53ea4e3558316580857cf6b378a0bd 3798 gcc-mozilla_4.8.4-0deb7u1.dsc 8d5ffac603ea55866568911b369f6ea604312594f71dc00576cae0b1362bc1ac 70635843 gcc-mozilla_4.8.4.orig.tar.gz 61194675dcedd5564cd90d9876f9d72900a4a4c4695c3205ef0b6e38e7169473 1090456 gcc-mozilla_4.8.4-0deb7u1.diff.gz"
-  ],
-  "Directory": [
-    "pool/updates/main/g/gcc-mozilla"
-  ],
-  "Files": [
-    "19e04fa9874bf1f02c335bfbcd4ce14d 3798 gcc-mozilla_4.8.4-0deb7u1.dsc 0d89476c12aeb3d17ed1427679935be5 70635843 gcc-mozilla_4.8.4.orig.tar.gz bad1cd55182b751bd4efea4c8907d25e 1090456 gcc-mozilla_4.8.4-0deb7u1.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Homepage": [
-    "http://gcc.gnu.org/"
-  ],
-  "Maintainer": [
-    "Debian GCC Maintainers <debian-gcc@lists.debian.org>"
-  ],
-  "Package": [
-    "gcc-mozilla"
-  ],
-  "Package-List": [
-    "gcc-mozilla deb devel extra"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Matthias Klose <doko@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://svn.debian.org/viewsvn/gcccvs/branches/sid/gcc-4.8/"
-  ],
-  "Vcs-Svn": [
-    "svn://svn.debian.org/svn/gcccvs/branches/sid/gcc-4.8"
-  ],
-  "Version": [
-    "4.8.4-0deb7u1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"gcc-mozilla"
+	],
+	"Build-Depends": [
+		"debhelper (>= 5.0.62), dpkg-dev (>= 1.16.0~ubuntu4), g++-multilib [amd64 i386 kfreebsd-amd64 mips mips64 mips64el mipsel mipsn32 mipsn32el powerpc ppc64 s390 s390x sparc sparc64 x32], libc6.1-dev (>= 2.13-5) [alpha ia64] | libc0.3-dev (>= 2.13-5) [hurd-i386] | libc0.1-dev (>= 2.13-5) [kfreebsd-i386 kfreebsd-amd64] | libc6-dev (>= 2.13-5), libc6-dev (>= 2.13-31) [armel armhf], libc6-dev-amd64 [i386 x32], libc6-dev-sparc64 [sparc], libc6-dev-sparc [sparc64], libc6-dev-s390 [s390x], libc6-dev-s390x [s390], libc6-dev-i386 [amd64 x32], libc6-dev-powerpc [ppc64], libc6-dev-ppc64 [powerpc], libc0.1-dev-i386 [kfreebsd-amd64], lib32gcc1 [amd64 ppc64 kfreebsd-amd64 mipsn32 mipsn32el mips64 mips64el s390x sparc64 x32], libn32gcc1 [mips mipsel mips64 mips64el], lib64gcc1 [i386 mips mipsel mipsn32 mipsn32el powerpc sparc s390 x32], libc6-dev-mips64 [mips mipsel mipsn32 mipsn32el], libc6-dev-mipsn32 [mips mipsel mips64 mips64el], libc6-dev-mips32 [mipsn32 mipsn32el mips64 mips64el], libc6.1-dbg [alpha ia64] | libc0.3-dbg [hurd-i386] | libc0.1-dbg [kfreebsd-i386 kfreebsd-amd64] | libc6-dbg, kfreebsd-kernel-headers (>= 0.84) [kfreebsd-any], m4, libtool, autoconf2.64, libunwind7-dev (>= 0.98.5-6) [ia64], libatomic-ops-dev [ia64], gawk, lzma, xz-utils, patchutils, zlib1g-dev, binutils (>= 2.22) | binutils-multiarch (>= 2.22), binutils-hppa64 (>= 2.22) [hppa], gperf (>= 3.0.1), bison (>= 1:2.3), flex, gettext, texinfo (>= 4.3), locales, sharutils, procps, libantlr-java, python, libffi-dev, netbase, libcloog-ppl-dev (>= 0.15.9-2~), libmpc-dev, libmpfr-dev (>= 3.0.0-9~), libgmp-dev (>= 2:5.0.1~), dejagnu [!m68k !hurd-amd64 !hurd-i386 !hurd-alpha !kfreebsd-amd64 !kfreebsd-i386 !kfreebsd-alpha], autogen, realpath (>= 1.9.12), chrpath, lsb-release, quilt"
+	],
+	"Build-Depends-Indep": [
+		"doxygen (>= 1.7.2), graphviz (>= 2.2), ghostscript, texlive-latex-base, xsltproc, libxml2-utils, docbook-xsl-ns"
+	],
+	"Checksums-Sha1": [
+		"e00f7c1dc2262f873160a5ead8ed7625f1dcab98 3798 gcc-mozilla_4.8.4-0deb7u1.dsc 5f3f31bb4b272e2eec853b300ff7adf7ea7b35cf 70635843 gcc-mozilla_4.8.4.orig.tar.gz 36bd6e7547ab08688b8aed1a3bf7d95dd37eb71d 1090456 gcc-mozilla_4.8.4-0deb7u1.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"59ba0a20d6e5251c57f3f951fe39d1e19e53ea4e3558316580857cf6b378a0bd 3798 gcc-mozilla_4.8.4-0deb7u1.dsc 8d5ffac603ea55866568911b369f6ea604312594f71dc00576cae0b1362bc1ac 70635843 gcc-mozilla_4.8.4.orig.tar.gz 61194675dcedd5564cd90d9876f9d72900a4a4c4695c3205ef0b6e38e7169473 1090456 gcc-mozilla_4.8.4-0deb7u1.diff.gz"
+	],
+	"Directory": [
+		"pool/updates/main/g/gcc-mozilla"
+	],
+	"Files": [
+		"19e04fa9874bf1f02c335bfbcd4ce14d 3798 gcc-mozilla_4.8.4-0deb7u1.dsc 0d89476c12aeb3d17ed1427679935be5 70635843 gcc-mozilla_4.8.4.orig.tar.gz bad1cd55182b751bd4efea4c8907d25e 1090456 gcc-mozilla_4.8.4-0deb7u1.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Homepage": [
+		"http://gcc.gnu.org/"
+	],
+	"Maintainer": [
+		"Debian GCC Maintainers <debian-gcc@lists.debian.org>"
+	],
+	"Package": [
+		"gcc-mozilla"
+	],
+	"Package-List": [
+		"gcc-mozilla deb devel extra"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Matthias Klose <doko@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://svn.debian.org/viewsvn/gcccvs/branches/sid/gcc-4.8/"
+	],
+	"Vcs-Svn": [
+		"svn://svn.debian.org/svn/gcccvs/branches/sid/gcc-4.8"
+	],
+	"Version": [
+		"4.8.4-0deb7u1"
+	]
 }

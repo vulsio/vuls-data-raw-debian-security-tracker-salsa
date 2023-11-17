@@ -1,53 +1,53 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "debian-installer"
-  ],
-  "Build-Conflicts": [
-    "libnewt-pic [mipsel]"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 4), apt, apt-utils, gnupg, debian-archive-keyring (>= 2006.11.22), dpkg (>= 1.13.9), dctrl-tools, wget, bc, debiandoc-sgml, xsltproc, docbook-xml, docbook-xsl, libbogl-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], glibc-pic, libslang2-pic (>= 2.0.6-4), libnewt-pic (>= 0.52.2-11.3) [!mipsel], libnewt-dev (>= 0.52.2-11.3) [mipsel], libgcc1 [i386 amd64], cramfsprogs [powerpc ppc64 ia64 mips mipsel arm armeb armel], genext2fs (>= 1.3-7.1), e2fsprogs, mklibs (>= 0.1.25), mklibs-copy [mips mipsel], genisoimage [!s390 !s390x], genromfs [sparc], hfsutils [powerpc ppc64], dosfstools [i386 ia64 m68k amd64], cpio, devio [arm armeb armel], slugimage (>= 0.10+r58-6) [arm armeb armel], dns323-firmware-tools [armel], nwutil [arm], uboot-mkimage [arm armel], syslinux (>= 2:3.63+dfsg-2) [i386 amd64], palo [hppa], elilo [ia64], yaboot [powerpc ppc64], aboot (>= 0.9b-2) [alpha], silo [sparc], sparc-utils [sparc], genisovh [mips], tip22 [mips], colo (>= 1.21-1) [mipsel], sibyl [mips mipsel], atari-bootstrap [m68k], vmelilo [m68k], m68k-vme-tftplilo [m68k], amiboot [m68k], emile [m68k], emile-bootblocks [m68k], apex-nslu2 [arm armeb armel], tofrodos [i386 amd64 kfreebsd-i386 kfreebsd-amd64], mtools (>= 3.9.9-1) [i386 ia64 m68k amd64 kfreebsd-i386 kfreebsd-amd64], module-init-tools [i386 arm armeb armel amd64 alpha hppa ia64 m68k mips mipsel powerpc ppc64 s390 sparc], bf-utf-source [!s390 !s390x], upx-ucl (>= 3) [i386], mkvmlinuz [powerpc ppc64], openssl [arm armel], win32-loader [i386 amd64 kfreebsd-i386 kfreebsd-amd64]"
-  ],
-  "Checksums-Sha1": [
-    "426db27e1789b0105be6cc339d225a19e132e1bb 3164 debian-installer_20090123lenny10.dsc 6c60a3428741c692cbfeb7ebf5931e41ee035b8c 1282952 debian-installer_20090123lenny10.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "95649baace5125a5d40ccf670b5835fd3f5d6d7ea9eac7f523056e614b41a60f 3164 debian-installer_20090123lenny10.dsc 6c79e12709bc899e03775ecd4b48b3a638b8da3151227172fafeeb86fd2ebb9a 1282952 debian-installer_20090123lenny10.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/d/debian-installer"
-  ],
-  "Files": [
-    "b776557cc49c75dbfaf5ebfcba2a9c72 3164 debian-installer_20090123lenny10.dsc ada8371b1da3c582b75c6cb01b01e93d 1282952 debian-installer_20090123lenny10.tar.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Maintainer": [
-    "Debian Install System Team <debian-boot@lists.debian.org>"
-  ],
-  "Package": [
-    "debian-installer"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "devel"
-  ],
-  "Standards-Version": [
-    "3.6.2"
-  ],
-  "Uploaders": [
-    "Joey Hess <joeyh@debian.org>, Frans Pop <fjp@debian.org>, Otavio Salvador <otavio@debian.org>"
-  ],
-  "Vcs-Svn": [
-    "svn://svn.debian.org/d-i/trunk/installer"
-  ],
-  "Version": [
-    "20090123lenny10"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"debian-installer"
+	],
+	"Build-Conflicts": [
+		"libnewt-pic [mipsel]"
+	],
+	"Build-Depends": [
+		"debhelper (>= 4), apt, apt-utils, gnupg, debian-archive-keyring (>= 2006.11.22), dpkg (>= 1.13.9), dctrl-tools, wget, bc, debiandoc-sgml, xsltproc, docbook-xml, docbook-xsl, libbogl-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], glibc-pic, libslang2-pic (>= 2.0.6-4), libnewt-pic (>= 0.52.2-11.3) [!mipsel], libnewt-dev (>= 0.52.2-11.3) [mipsel], libgcc1 [i386 amd64], cramfsprogs [powerpc ppc64 ia64 mips mipsel arm armeb armel], genext2fs (>= 1.3-7.1), e2fsprogs, mklibs (>= 0.1.25), mklibs-copy [mips mipsel], genisoimage [!s390 !s390x], genromfs [sparc], hfsutils [powerpc ppc64], dosfstools [i386 ia64 m68k amd64], cpio, devio [arm armeb armel], slugimage (>= 0.10+r58-6) [arm armeb armel], dns323-firmware-tools [armel], nwutil [arm], uboot-mkimage [arm armel], syslinux (>= 2:3.63+dfsg-2) [i386 amd64], palo [hppa], elilo [ia64], yaboot [powerpc ppc64], aboot (>= 0.9b-2) [alpha], silo [sparc], sparc-utils [sparc], genisovh [mips], tip22 [mips], colo (>= 1.21-1) [mipsel], sibyl [mips mipsel], atari-bootstrap [m68k], vmelilo [m68k], m68k-vme-tftplilo [m68k], amiboot [m68k], emile [m68k], emile-bootblocks [m68k], apex-nslu2 [arm armeb armel], tofrodos [i386 amd64 kfreebsd-i386 kfreebsd-amd64], mtools (>= 3.9.9-1) [i386 ia64 m68k amd64 kfreebsd-i386 kfreebsd-amd64], module-init-tools [i386 arm armeb armel amd64 alpha hppa ia64 m68k mips mipsel powerpc ppc64 s390 sparc], bf-utf-source [!s390 !s390x], upx-ucl (>= 3) [i386], mkvmlinuz [powerpc ppc64], openssl [arm armel], win32-loader [i386 amd64 kfreebsd-i386 kfreebsd-amd64]"
+	],
+	"Checksums-Sha1": [
+		"426db27e1789b0105be6cc339d225a19e132e1bb 3164 debian-installer_20090123lenny10.dsc 6c60a3428741c692cbfeb7ebf5931e41ee035b8c 1282952 debian-installer_20090123lenny10.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"95649baace5125a5d40ccf670b5835fd3f5d6d7ea9eac7f523056e614b41a60f 3164 debian-installer_20090123lenny10.dsc 6c79e12709bc899e03775ecd4b48b3a638b8da3151227172fafeeb86fd2ebb9a 1282952 debian-installer_20090123lenny10.tar.gz"
+	],
+	"Directory": [
+		"pool/main/d/debian-installer"
+	],
+	"Files": [
+		"b776557cc49c75dbfaf5ebfcba2a9c72 3164 debian-installer_20090123lenny10.dsc ada8371b1da3c582b75c6cb01b01e93d 1282952 debian-installer_20090123lenny10.tar.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Maintainer": [
+		"Debian Install System Team <debian-boot@lists.debian.org>"
+	],
+	"Package": [
+		"debian-installer"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"devel"
+	],
+	"Standards-Version": [
+		"3.6.2"
+	],
+	"Uploaders": [
+		"Joey Hess <joeyh@debian.org>, Frans Pop <fjp@debian.org>, Otavio Salvador <otavio@debian.org>"
+	],
+	"Vcs-Svn": [
+		"svn://svn.debian.org/d-i/trunk/installer"
+	],
+	"Version": [
+		"20090123lenny10"
+	]
 }

@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "scilab-cli, scilab, scilab-data, scilab-include, scilab-minimal-bin, scilab-full-bin, scilab-minimal-bin-dbg, scilab-full-bin-dbg, libscilab-java, libscilab2-java, scilab-doc, scilab-doc-fr, scilab-doc-pt-br, scilab-doc-ja, scilab-test"
-  ],
-  "Build-Depends": [
-    "autoconf, automake, cdbs, debhelper (>= 7), gfortran, default-jdk, chrpath, ocaml-nox (>= 3.11.2-3), tcl8.5-dev, tk8.5-dev, libxml2-dev, libpcre3-dev, gettext, libreadline-dev, pkg-config, procps, libblas-dev | librefblas3-dev | libatlas-base-dev, liblapack-dev, libflexdock-java (>= 0.5.2), libjogl-java (>= 1.1.1), libgl1-mesa-dev, libjrosetta-java (>= 1.0.1), ant, libjgoodies-looks-java, libskinlf-java, libjeuclid-core-java (>= 3.1.3), libbatik-java (>= 1.7), fop (>= 0.95), javahelp2, libsaxon-java, libavalon-framework-java, docbook-xsl, libxml-commons-external-java, pvm-dev, libfftw3-dev, libsuitesparse-dev (>= 3.4.0), libmatio-dev, libjlatexmath-java (>= 0.9.4), libjlatexmath-fop-java (>= 0.9.4), libjgraphx-java (>= 1.4.1.0), libhdf5-dev (>= 1.8.8), libjhdf5-java (>= 2.8)"
-  ],
-  "Checksums-Sha1": [
-    "71374790ed34dff22f31d94cfb4386d10615a5f8 2763 scilab_5.3.3-10.dsc 0bb26846737651a62565f877e2d660f90e2b4b26 47253497 scilab_5.3.3.orig.tar.gz 33c1712ec772e76b835f3b58c8676246af2dbc60 41566 scilab_5.3.3-10.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "df00ef7857c1b078fba08d258d3bef4db4cbeed2612d7f935233d69155d6973e 2763 scilab_5.3.3-10.dsc e6edd7d241f2a09bd2dadaaafff5c152509db240220933b87305875302401335 47253497 scilab_5.3.3.orig.tar.gz c2f5763240587d545531b73d365d9ee557c7ca89687529864faf4903dcaebf23 41566 scilab_5.3.3-10.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/s/scilab"
-  ],
-  "Files": [
-    "9e202cf35ff5dc5ced2d3c3464e66d12 2763 scilab_5.3.3-10.dsc 0211096464d0bb2e097154d62ef827bd 47253497 scilab_5.3.3.orig.tar.gz 602050df5b836062021f44ad42df9099 41566 scilab_5.3.3-10.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.scilab.org"
-  ],
-  "Maintainer": [
-    "Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "scilab"
-  ],
-  "Package-List": [
-    "libscilab-java deb java optional libscilab2-java deb java optional scilab deb math optional scilab-cli deb math optional scilab-data deb math optional scilab-doc deb doc optional scilab-doc-fr deb doc optional scilab-doc-ja deb doc optional scilab-doc-pt-br deb doc optional scilab-full-bin deb math optional scilab-full-bin-dbg deb debug extra scilab-include deb math optional scilab-minimal-bin deb math optional scilab-minimal-bin-dbg deb debug extra scilab-test deb math optional"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "math"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Sylvestre Ledru <sylvestre@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://svn.debian.org/viewsvn/debian-science/packages/scilab/trunk/"
-  ],
-  "Vcs-Svn": [
-    "svn://svn.debian.org/svn/debian-science/packages/scilab/trunk/"
-  ],
-  "Version": [
-    "5.3.3-10"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"scilab-cli, scilab, scilab-data, scilab-include, scilab-minimal-bin, scilab-full-bin, scilab-minimal-bin-dbg, scilab-full-bin-dbg, libscilab-java, libscilab2-java, scilab-doc, scilab-doc-fr, scilab-doc-pt-br, scilab-doc-ja, scilab-test"
+	],
+	"Build-Depends": [
+		"autoconf, automake, cdbs, debhelper (>= 7), gfortran, default-jdk, chrpath, ocaml-nox (>= 3.11.2-3), tcl8.5-dev, tk8.5-dev, libxml2-dev, libpcre3-dev, gettext, libreadline-dev, pkg-config, procps, libblas-dev | librefblas3-dev | libatlas-base-dev, liblapack-dev, libflexdock-java (>= 0.5.2), libjogl-java (>= 1.1.1), libgl1-mesa-dev, libjrosetta-java (>= 1.0.1), ant, libjgoodies-looks-java, libskinlf-java, libjeuclid-core-java (>= 3.1.3), libbatik-java (>= 1.7), fop (>= 0.95), javahelp2, libsaxon-java, libavalon-framework-java, docbook-xsl, libxml-commons-external-java, pvm-dev, libfftw3-dev, libsuitesparse-dev (>= 3.4.0), libmatio-dev, libjlatexmath-java (>= 0.9.4), libjlatexmath-fop-java (>= 0.9.4), libjgraphx-java (>= 1.4.1.0), libhdf5-dev (>= 1.8.8), libjhdf5-java (>= 2.8)"
+	],
+	"Checksums-Sha1": [
+		"71374790ed34dff22f31d94cfb4386d10615a5f8 2763 scilab_5.3.3-10.dsc 0bb26846737651a62565f877e2d660f90e2b4b26 47253497 scilab_5.3.3.orig.tar.gz 33c1712ec772e76b835f3b58c8676246af2dbc60 41566 scilab_5.3.3-10.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"df00ef7857c1b078fba08d258d3bef4db4cbeed2612d7f935233d69155d6973e 2763 scilab_5.3.3-10.dsc e6edd7d241f2a09bd2dadaaafff5c152509db240220933b87305875302401335 47253497 scilab_5.3.3.orig.tar.gz c2f5763240587d545531b73d365d9ee557c7ca89687529864faf4903dcaebf23 41566 scilab_5.3.3-10.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/s/scilab"
+	],
+	"Files": [
+		"9e202cf35ff5dc5ced2d3c3464e66d12 2763 scilab_5.3.3-10.dsc 0211096464d0bb2e097154d62ef827bd 47253497 scilab_5.3.3.orig.tar.gz 602050df5b836062021f44ad42df9099 41566 scilab_5.3.3-10.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.scilab.org"
+	],
+	"Maintainer": [
+		"Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"scilab"
+	],
+	"Package-List": [
+		"libscilab-java deb java optional libscilab2-java deb java optional scilab deb math optional scilab-cli deb math optional scilab-data deb math optional scilab-doc deb doc optional scilab-doc-fr deb doc optional scilab-doc-ja deb doc optional scilab-doc-pt-br deb doc optional scilab-full-bin deb math optional scilab-full-bin-dbg deb debug extra scilab-include deb math optional scilab-minimal-bin deb math optional scilab-minimal-bin-dbg deb debug extra scilab-test deb math optional"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"math"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Sylvestre Ledru <sylvestre@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://svn.debian.org/viewsvn/debian-science/packages/scilab/trunk/"
+	],
+	"Vcs-Svn": [
+		"svn://svn.debian.org/svn/debian-science/packages/scilab/trunk/"
+	],
+	"Version": [
+		"5.3.3-10"
+	]
 }

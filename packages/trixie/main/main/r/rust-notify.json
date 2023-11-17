@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-notify-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-bitflags-1+default-dev (>= 1.0.4-~~) <!nocheck>, librust-crossbeam-channel-0.5+default-dev <!nocheck>, librust-filetime-0.2+default-dev (>= 0.2.6-~~) <!nocheck>, librust-inotify-0.9-dev <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.4-~~) <!nocheck>, librust-mio-0.8+default-dev <!nocheck>, librust-mio-0.8+os-ext-dev <!nocheck>, librust-walkdir-2+default-dev (>= 2.2.2-~~) <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "359de5ce1390aff94874086174a39aaba679e7140a8f2c5bbcae7794569aec0d 2756 rust-notify_5.2.0-1.dsc 729f63e1ca555a43fe3efa4f3efdf4801c479da85b432242a7b726f353c88486 37297 rust-notify_5.2.0.orig.tar.gz ab5cc944d916530a06621fafb496e13d9a5bfbb62c192677060eec6c812ec560 3256 rust-notify_5.2.0-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-notify"
-  ],
-  "Files": [
-    "846cd290ba16bbd2be0ed433e47dbbd4 2756 rust-notify_5.2.0-1.dsc d494bad82f8da981c14d0efec336f8d0 37297 rust-notify_5.2.0.orig.tar.gz 4908ba89477737b1760a894c999f5cf9 3256 rust-notify_5.2.0-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/notify-rs/notify"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-notify"
-  ],
-  "Package-List": [
-    "librust-notify-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-nix-0+default-dev, librust-serde-json-1+default-dev, librust-tempfile-3+default-dev"
-  ],
-  "Uploaders": [
-    "James McCoy <jamessan@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/notify"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/notify]"
-  ],
-  "Version": [
-    "5.2.0-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-notify-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-bitflags-1+default-dev (>= 1.0.4-~~) <!nocheck>, librust-crossbeam-channel-0.5+default-dev <!nocheck>, librust-filetime-0.2+default-dev (>= 0.2.6-~~) <!nocheck>, librust-inotify-0.9-dev <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.4-~~) <!nocheck>, librust-mio-0.8+default-dev <!nocheck>, librust-mio-0.8+os-ext-dev <!nocheck>, librust-walkdir-2+default-dev (>= 2.2.2-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"359de5ce1390aff94874086174a39aaba679e7140a8f2c5bbcae7794569aec0d 2756 rust-notify_5.2.0-1.dsc 729f63e1ca555a43fe3efa4f3efdf4801c479da85b432242a7b726f353c88486 37297 rust-notify_5.2.0.orig.tar.gz ab5cc944d916530a06621fafb496e13d9a5bfbb62c192677060eec6c812ec560 3256 rust-notify_5.2.0-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-notify"
+	],
+	"Files": [
+		"846cd290ba16bbd2be0ed433e47dbbd4 2756 rust-notify_5.2.0-1.dsc d494bad82f8da981c14d0efec336f8d0 37297 rust-notify_5.2.0.orig.tar.gz 4908ba89477737b1760a894c999f5cf9 3256 rust-notify_5.2.0-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/notify-rs/notify"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-notify"
+	],
+	"Package-List": [
+		"librust-notify-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-nix-0+default-dev, librust-serde-json-1+default-dev, librust-tempfile-3+default-dev"
+	],
+	"Uploaders": [
+		"James McCoy <jamessan@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/notify"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/notify]"
+	],
+	"Version": [
+		"5.2.0-1"
+	]
 }

@@ -1,53 +1,53 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "owfs-common, owfs, libow-3.2-2, libowcapi-3.2-2, libow-dev, libownet-3.2-2, libownet-dev, owserver, ow-shell, ow-tools, owfs-fuse, owhttpd, owftpd, libownet-php, libow-perl, libownet-perl, python-ow, python-ownet, libow-tcl, owfs-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 11), quilt, libfuse-dev [!hurd-i386], swig, python-all-dev, tcl-dev, libusb-1.0-0-dev, ed, php-cli, php-dev, systemd [linux-any], groff-base, dh-python, pkg-config, libavahi-client-dev, libftdi1-dev"
-  ],
-  "Checksums-Sha256": [
-    "e0e3dfac2ec1070da56679955f266a6b1bea20130db1d6d20a49856e8ff7f8b8 3035 owfs_3.2p2-2~bpo9+1.dsc 39535521a65a74bd36dc31726bcf04201f60f230a7944e9a63c393c318f5113c 1491195 owfs_3.2p2.orig.tar.gz b83dafffaa333b78bcc6d00e167e065c284f7e31b762da32076f7eb55dc721fa 22924 owfs_3.2p2-2~bpo9+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/o/owfs"
-  ],
-  "Files": [
-    "e651c0bf0c0b59f7bf9d9d9bd3b5d0d2 3035 owfs_3.2p2-2~bpo9+1.dsc f85e81837fe9ec273499a17f2f7a9143 1491195 owfs_3.2p2.orig.tar.gz 220cb10ede860f28d62952647f9f1f95 22924 owfs_3.2p2-2~bpo9+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://owfs.org/"
-  ],
-  "Maintainer": [
-    "Vincent Danjean <vdanjean@debian.org>"
-  ],
-  "Package": [
-    "owfs"
-  ],
-  "Package-List": [
-    "libow-3.2-2 deb libs optional arch=any libow-dev deb libdevel optional arch=any libow-perl deb perl optional arch=any libow-tcl deb interpreters optional arch=any libowcapi-3.2-2 deb libs optional arch=any libownet-3.2-2 deb libs optional arch=any libownet-dev deb libdevel optional arch=any libownet-perl deb perl optional arch=all libownet-php deb web optional arch=all ow-shell deb electronics optional arch=any ow-tools deb electronics optional arch=all owfs deb electronics optional arch=all owfs-common deb electronics optional arch=all owfs-doc deb doc optional arch=all owfs-fuse deb electronics optional arch=any owftpd deb electronics optional arch=any owhttpd deb electronics optional arch=any owserver deb electronics optional arch=any python-ow deb python optional arch=any python-ownet deb python optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.2.1"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian/owfs"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian/owfs.git"
-  ],
-  "Version": [
-    "3.2p2-2~bpo9+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"owfs-common, owfs, libow-3.2-2, libowcapi-3.2-2, libow-dev, libownet-3.2-2, libownet-dev, owserver, ow-shell, ow-tools, owfs-fuse, owhttpd, owftpd, libownet-php, libow-perl, libownet-perl, python-ow, python-ownet, libow-tcl, owfs-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 11), quilt, libfuse-dev [!hurd-i386], swig, python-all-dev, tcl-dev, libusb-1.0-0-dev, ed, php-cli, php-dev, systemd [linux-any], groff-base, dh-python, pkg-config, libavahi-client-dev, libftdi1-dev"
+	],
+	"Checksums-Sha256": [
+		"e0e3dfac2ec1070da56679955f266a6b1bea20130db1d6d20a49856e8ff7f8b8 3035 owfs_3.2p2-2~bpo9+1.dsc 39535521a65a74bd36dc31726bcf04201f60f230a7944e9a63c393c318f5113c 1491195 owfs_3.2p2.orig.tar.gz b83dafffaa333b78bcc6d00e167e065c284f7e31b762da32076f7eb55dc721fa 22924 owfs_3.2p2-2~bpo9+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/o/owfs"
+	],
+	"Files": [
+		"e651c0bf0c0b59f7bf9d9d9bd3b5d0d2 3035 owfs_3.2p2-2~bpo9+1.dsc f85e81837fe9ec273499a17f2f7a9143 1491195 owfs_3.2p2.orig.tar.gz 220cb10ede860f28d62952647f9f1f95 22924 owfs_3.2p2-2~bpo9+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://owfs.org/"
+	],
+	"Maintainer": [
+		"Vincent Danjean <vdanjean@debian.org>"
+	],
+	"Package": [
+		"owfs"
+	],
+	"Package-List": [
+		"libow-3.2-2 deb libs optional arch=any libow-dev deb libdevel optional arch=any libow-perl deb perl optional arch=any libow-tcl deb interpreters optional arch=any libowcapi-3.2-2 deb libs optional arch=any libownet-3.2-2 deb libs optional arch=any libownet-dev deb libdevel optional arch=any libownet-perl deb perl optional arch=all libownet-php deb web optional arch=all ow-shell deb electronics optional arch=any ow-tools deb electronics optional arch=all owfs deb electronics optional arch=all owfs-common deb electronics optional arch=all owfs-doc deb doc optional arch=all owfs-fuse deb electronics optional arch=any owftpd deb electronics optional arch=any owhttpd deb electronics optional arch=any owserver deb electronics optional arch=any python-ow deb python optional arch=any python-ownet deb python optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.2.1"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/owfs"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/owfs.git"
+	],
+	"Version": [
+		"3.2p2-2~bpo9+1"
+	]
 }

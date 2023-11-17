@@ -1,68 +1,68 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "php-symfony, php-symfony-asset, php-symfony-browser-kit, php-symfony-class-loader, php-symfony-config, php-symfony-console, php-symfony-css-selector, php-symfony-debug, php-symfony-dependency-injection, php-symfony-dom-crawler, php-symfony-event-dispatcher, php-symfony-expression-language, php-symfony-filesystem, php-symfony-finder, php-symfony-form, php-symfony-http-foundation, php-symfony-http-kernel, php-symfony-intl, php-symfony-ldap, php-symfony-locale, php-symfony-options-resolver, php-symfony-process, php-symfony-property-access, php-symfony-property-info, php-symfony-routing, php-symfony-security, php-symfony-security-core, php-symfony-security-csrf, php-symfony-security-guard, php-symfony-security-http, php-symfony-serializer, php-symfony-stopwatch, php-symfony-templating, php-symfony-translation, php-symfony-validator, php-symfony-var-dumper, php-symfony-yaml, php-symfony-doctrine-bridge, php-symfony-monolog-bridge, php-symfony-phpunit-bridge, php-symfony-proxy-manager-bridge, php-symfony-swiftmailer-bridge, php-symfony-twig-bridge, php-symfony-debug-bundle, php-symfony-framework-bundle, php-symfony-security-bundle, php-symfony-twig-bundle, php-symfony-web-profiler-bundle"
-  ],
-  "Build-Conflicts": [
-    "php-mongo"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), pkg-php-tools (>= 1.14~)"
-  ],
-  "Build-Depends-Indep": [
-    "dctrl-tools, file, jq, locales-all, parallel, php-apcu-bc, php-doctrine-bundle (>= 1.5), php-doctrine-data-fixtures (>= 1.1.1-2~), php-doctrine-orm (>= 2.4.8), php-email-validator (>= 1.2.8), php-intl, php-ldap, php-mbstring, php-memcache, php-memcached, php-monolog (>= 1.13), php-phpdocumentor-reflection, php-proxy-manager (>= 1.0.2), php-psr-log (>= 1.0.0-2~), php-sqlite3, php-symfony-polyfill-apcu, php-symfony-polyfill-intl-icu, php-symfony-polyfill-mbstring, php-symfony-polyfill-php54, php-symfony-polyfill-php55, php-symfony-polyfill-php56, php-symfony-polyfill-php70, php-symfony-polyfill-util, php-symfony-security-acl, php-twig (>= 1.23), phpab, phpunit (>= 5)"
-  ],
-  "Checksums-Sha256": [
-    "20fe3c5b1cc6970f1675bc4e6c24acb5923880acc28afcd998395d7ef3a9d921 6325 symfony_2.8.7+dfsg-1.3+deb9u3.dsc f2210726f29a03f754dc5fafbdaa2f88169bda5c5303db8cf05237d525071652 3923472 symfony_2.8.7+dfsg.orig.tar.gz fef529198fb818afa586fb22e13642d7b63fa0f2166f22704ad3c1e9429f8543 61464 symfony_2.8.7+dfsg-1.3+deb9u3.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/s/symfony"
-  ],
-  "Files": [
-    "905db1795c456b3111c8198f8421e40e 6325 symfony_2.8.7+dfsg-1.3+deb9u3.dsc d7bf966f909cb6146ec48d31b05f6032 3923472 symfony_2.8.7+dfsg.orig.tar.gz efdcb94a13f8872794936202f0483225 61464 symfony_2.8.7+dfsg-1.3+deb9u3.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://symfony.com/"
-  ],
-  "Maintainer": [
-    "Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "symfony"
-  ],
-  "Package-List": [
-    "php-symfony deb php optional arch=all php-symfony-asset deb php optional arch=all php-symfony-browser-kit deb php optional arch=all php-symfony-class-loader deb php optional arch=all php-symfony-config deb php optional arch=all php-symfony-console deb php optional arch=all php-symfony-css-selector deb php optional arch=all php-symfony-debug deb php optional arch=all php-symfony-debug-bundle deb php optional arch=all php-symfony-dependency-injection deb php optional arch=all php-symfony-doctrine-bridge deb php optional arch=all php-symfony-dom-crawler deb php optional arch=all php-symfony-event-dispatcher deb php optional arch=all php-symfony-expression-language deb php optional arch=all php-symfony-filesystem deb php optional arch=all php-symfony-finder deb php optional arch=all php-symfony-form deb php optional arch=all php-symfony-framework-bundle deb php optional arch=all php-symfony-http-foundation deb php optional arch=all php-symfony-http-kernel deb php optional arch=all php-symfony-intl deb php optional arch=all php-symfony-ldap deb php optional arch=all php-symfony-locale deb oldlibs optional arch=all php-symfony-monolog-bridge deb php optional arch=all php-symfony-options-resolver deb php optional arch=all php-symfony-phpunit-bridge deb php optional arch=all php-symfony-process deb php optional arch=all php-symfony-property-access deb php optional arch=all php-symfony-property-info deb php optional arch=all php-symfony-proxy-manager-bridge deb php optional arch=all php-symfony-routing deb php optional arch=all php-symfony-security deb php optional arch=all php-symfony-security-bundle deb php optional arch=all php-symfony-security-core deb php optional arch=all php-symfony-security-csrf deb php optional arch=all php-symfony-security-guard deb php optional arch=all php-symfony-security-http deb php optional arch=all php-symfony-serializer deb php optional arch=all php-symfony-stopwatch deb php optional arch=all php-symfony-swiftmailer-bridge deb php optional arch=all php-symfony-templating deb php optional arch=all php-symfony-translation deb php optional arch=all php-symfony-twig-bridge deb php optional arch=all php-symfony-twig-bundle deb php optional arch=all php-symfony-validator deb php optional arch=all php-symfony-var-dumper deb php optional arch=all php-symfony-web-profiler-bundle deb php optional arch=all php-symfony-yaml deb php optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "locales-all, parallel, patch, php-apcu-bc, php-doctrine-bundle, php-doctrine-data-fixtures, php-doctrine-orm, php-email-validator, php-intl, php-mbstring, php-memcache, php-memcached, php-phpdocumentor-reflection, php-sqlite3, phpab, phpunit"
-  ],
-  "Uploaders": [
-    "Daniel Beyer <dabe@deb.ymc.ch>, David Prévot <taffit@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-php/symfony.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-php/symfony.git -b 2.8"
-  ],
-  "Version": [
-    "2.8.7+dfsg-1.3+deb9u3"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"php-symfony, php-symfony-asset, php-symfony-browser-kit, php-symfony-class-loader, php-symfony-config, php-symfony-console, php-symfony-css-selector, php-symfony-debug, php-symfony-dependency-injection, php-symfony-dom-crawler, php-symfony-event-dispatcher, php-symfony-expression-language, php-symfony-filesystem, php-symfony-finder, php-symfony-form, php-symfony-http-foundation, php-symfony-http-kernel, php-symfony-intl, php-symfony-ldap, php-symfony-locale, php-symfony-options-resolver, php-symfony-process, php-symfony-property-access, php-symfony-property-info, php-symfony-routing, php-symfony-security, php-symfony-security-core, php-symfony-security-csrf, php-symfony-security-guard, php-symfony-security-http, php-symfony-serializer, php-symfony-stopwatch, php-symfony-templating, php-symfony-translation, php-symfony-validator, php-symfony-var-dumper, php-symfony-yaml, php-symfony-doctrine-bridge, php-symfony-monolog-bridge, php-symfony-phpunit-bridge, php-symfony-proxy-manager-bridge, php-symfony-swiftmailer-bridge, php-symfony-twig-bridge, php-symfony-debug-bundle, php-symfony-framework-bundle, php-symfony-security-bundle, php-symfony-twig-bundle, php-symfony-web-profiler-bundle"
+	],
+	"Build-Conflicts": [
+		"php-mongo"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), pkg-php-tools (>= 1.14~)"
+	],
+	"Build-Depends-Indep": [
+		"dctrl-tools, file, jq, locales-all, parallel, php-apcu-bc, php-doctrine-bundle (>= 1.5), php-doctrine-data-fixtures (>= 1.1.1-2~), php-doctrine-orm (>= 2.4.8), php-email-validator (>= 1.2.8), php-intl, php-ldap, php-mbstring, php-memcache, php-memcached, php-monolog (>= 1.13), php-phpdocumentor-reflection, php-proxy-manager (>= 1.0.2), php-psr-log (>= 1.0.0-2~), php-sqlite3, php-symfony-polyfill-apcu, php-symfony-polyfill-intl-icu, php-symfony-polyfill-mbstring, php-symfony-polyfill-php54, php-symfony-polyfill-php55, php-symfony-polyfill-php56, php-symfony-polyfill-php70, php-symfony-polyfill-util, php-symfony-security-acl, php-twig (>= 1.23), phpab, phpunit (>= 5)"
+	],
+	"Checksums-Sha256": [
+		"20fe3c5b1cc6970f1675bc4e6c24acb5923880acc28afcd998395d7ef3a9d921 6325 symfony_2.8.7+dfsg-1.3+deb9u3.dsc f2210726f29a03f754dc5fafbdaa2f88169bda5c5303db8cf05237d525071652 3923472 symfony_2.8.7+dfsg.orig.tar.gz fef529198fb818afa586fb22e13642d7b63fa0f2166f22704ad3c1e9429f8543 61464 symfony_2.8.7+dfsg-1.3+deb9u3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/s/symfony"
+	],
+	"Files": [
+		"905db1795c456b3111c8198f8421e40e 6325 symfony_2.8.7+dfsg-1.3+deb9u3.dsc d7bf966f909cb6146ec48d31b05f6032 3923472 symfony_2.8.7+dfsg.orig.tar.gz efdcb94a13f8872794936202f0483225 61464 symfony_2.8.7+dfsg-1.3+deb9u3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://symfony.com/"
+	],
+	"Maintainer": [
+		"Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"symfony"
+	],
+	"Package-List": [
+		"php-symfony deb php optional arch=all php-symfony-asset deb php optional arch=all php-symfony-browser-kit deb php optional arch=all php-symfony-class-loader deb php optional arch=all php-symfony-config deb php optional arch=all php-symfony-console deb php optional arch=all php-symfony-css-selector deb php optional arch=all php-symfony-debug deb php optional arch=all php-symfony-debug-bundle deb php optional arch=all php-symfony-dependency-injection deb php optional arch=all php-symfony-doctrine-bridge deb php optional arch=all php-symfony-dom-crawler deb php optional arch=all php-symfony-event-dispatcher deb php optional arch=all php-symfony-expression-language deb php optional arch=all php-symfony-filesystem deb php optional arch=all php-symfony-finder deb php optional arch=all php-symfony-form deb php optional arch=all php-symfony-framework-bundle deb php optional arch=all php-symfony-http-foundation deb php optional arch=all php-symfony-http-kernel deb php optional arch=all php-symfony-intl deb php optional arch=all php-symfony-ldap deb php optional arch=all php-symfony-locale deb oldlibs optional arch=all php-symfony-monolog-bridge deb php optional arch=all php-symfony-options-resolver deb php optional arch=all php-symfony-phpunit-bridge deb php optional arch=all php-symfony-process deb php optional arch=all php-symfony-property-access deb php optional arch=all php-symfony-property-info deb php optional arch=all php-symfony-proxy-manager-bridge deb php optional arch=all php-symfony-routing deb php optional arch=all php-symfony-security deb php optional arch=all php-symfony-security-bundle deb php optional arch=all php-symfony-security-core deb php optional arch=all php-symfony-security-csrf deb php optional arch=all php-symfony-security-guard deb php optional arch=all php-symfony-security-http deb php optional arch=all php-symfony-serializer deb php optional arch=all php-symfony-stopwatch deb php optional arch=all php-symfony-swiftmailer-bridge deb php optional arch=all php-symfony-templating deb php optional arch=all php-symfony-translation deb php optional arch=all php-symfony-twig-bridge deb php optional arch=all php-symfony-twig-bundle deb php optional arch=all php-symfony-validator deb php optional arch=all php-symfony-var-dumper deb php optional arch=all php-symfony-web-profiler-bundle deb php optional arch=all php-symfony-yaml deb php optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"locales-all, parallel, patch, php-apcu-bc, php-doctrine-bundle, php-doctrine-data-fixtures, php-doctrine-orm, php-email-validator, php-intl, php-mbstring, php-memcache, php-memcached, php-phpdocumentor-reflection, php-sqlite3, phpab, phpunit"
+	],
+	"Uploaders": [
+		"Daniel Beyer <dabe@deb.ymc.ch>, David Prévot <taffit@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-php/symfony.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-php/symfony.git -b 2.8"
+	],
+	"Version": [
+		"2.8.7+dfsg-1.3+deb9u3"
+	]
 }

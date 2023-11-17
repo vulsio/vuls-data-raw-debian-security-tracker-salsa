@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libgdcm2.6, libgdcm-tools, libgdcm2-dev, libgdcm2.6-dbg, libgdcm-cil, python-gdcm, libvtkgdcm2.6, libvtkgdcm2-dev, libvtkgdcm-cil, python-vtkgdcm, libvtkgdcm-tools, gdcm-doc, libgdcm-java, libvtkgdcm-java"
-  ],
-  "Build-Conflicts": [
-    "libopenjpeg-dev"
-  ],
-  "Build-Depends": [
-    "cmake (>= 2.8.9), debhelper (>= 9), default-jdk, dh-strip-nondeterminism, dh-python, python-all-dev, pvrg-jpeg, uuid-dev, libz-dev, libexpat-dev, swig3.0, javahelper, libvtk6-dev, libcharls-dev (>= 1.1.0), libopenjp2-7-dev, libvtk6-java, libxml2-dev, libjson-c-dev, libpoppler-private-dev, libssl1.0-dev, python-vtk6, castxml, libsocket++-dev, libpapyrus3-dev, cli-common-dev (>= 0.9) [amd64 armel armhf i386 mipsel kfreebsd-amd64 kfreebsd-i386 powerpc ppc64 ppc64el s390x arm64], mono-devel (>= 2.10.5) [amd64 armel armhf i386 mipsel kfreebsd-amd64 kfreebsd-i386 powerpc ppc64 ppc64el s390x arm64], xsltproc, docbook-xsl-ns"
-  ],
-  "Build-Depends-Indep": [
-    "vtk6-doc, doxygen, doxygen-latex, ghostscript, graphviz"
-  ],
-  "Checksums-Sha256": [
-    "59722c2e65de0e509e6e6e40d96026d5745df4cb978647c4293b3031439df446 3319 gdcm_2.6.6-3.dsc ff793355283744df49760852c81d0435b0f9a93b0b235b82ae90f01e4534fee6 3677683 gdcm_2.6.6.orig.tar.bz2 28c6b37be9cfcbf9d2f6e26da03a387ea49edc535085b3bb439a86b28ff146f2 19548 gdcm_2.6.6-3.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/g/gdcm"
-  ],
-  "Files": [
-    "b3c69ab61e61b382dcde1a7c33862519 3319 gdcm_2.6.6-3.dsc aa047d32107e06a0b6609129790c3fa2 3677683 gdcm_2.6.6.orig.tar.bz2 2353a7e0318742929b2daf0665964c3e 19548 gdcm_2.6.6-3.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://gdcm.sourceforge.net/"
-  ],
-  "Maintainer": [
-    "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "gdcm"
-  ],
-  "Package-List": [
-    "gdcm-doc deb doc optional arch=all libgdcm-cil deb cli-mono optional arch=amd64,armel,armhf,i386,mipsel,kfreebsd-amd64,kfreebsd-i386,powerpc,ppc64,ppc64el,s390x,arm64 libgdcm-java deb java optional arch=any libgdcm-tools deb utils optional arch=any libgdcm2-dev deb libdevel optional arch=any libgdcm2.6 deb libs optional arch=any libgdcm2.6-dbg deb debug extra arch=any libvtkgdcm-cil deb cli-mono optional arch=amd64,armel,armhf,i386,mipsel,kfreebsd-amd64,kfreebsd-i386,powerpc,ppc64,ppc64el,s390x,arm64 libvtkgdcm-java deb java optional arch=any libvtkgdcm-tools deb utils optional arch=any libvtkgdcm2-dev deb libdevel optional arch=any libvtkgdcm2.6 deb libs optional arch=any python-gdcm deb python optional arch=any python-vtkgdcm deb python optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "libs"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Andreas Tille <tille@debian.org>, Steve M. Robbins <smr@debian.org>, Sébastien Jodogne <s.jodogne@gmail.com>, Gert Wollny <gw.fossdev@gmail.com>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/debian-med/gdcm.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/debian-med/gdcm.git"
-  ],
-  "Version": [
-    "2.6.6-3"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libgdcm2.6, libgdcm-tools, libgdcm2-dev, libgdcm2.6-dbg, libgdcm-cil, python-gdcm, libvtkgdcm2.6, libvtkgdcm2-dev, libvtkgdcm-cil, python-vtkgdcm, libvtkgdcm-tools, gdcm-doc, libgdcm-java, libvtkgdcm-java"
+	],
+	"Build-Conflicts": [
+		"libopenjpeg-dev"
+	],
+	"Build-Depends": [
+		"cmake (>= 2.8.9), debhelper (>= 9), default-jdk, dh-strip-nondeterminism, dh-python, python-all-dev, pvrg-jpeg, uuid-dev, libz-dev, libexpat-dev, swig3.0, javahelper, libvtk6-dev, libcharls-dev (>= 1.1.0), libopenjp2-7-dev, libvtk6-java, libxml2-dev, libjson-c-dev, libpoppler-private-dev, libssl1.0-dev, python-vtk6, castxml, libsocket++-dev, libpapyrus3-dev, cli-common-dev (>= 0.9) [amd64 armel armhf i386 mipsel kfreebsd-amd64 kfreebsd-i386 powerpc ppc64 ppc64el s390x arm64], mono-devel (>= 2.10.5) [amd64 armel armhf i386 mipsel kfreebsd-amd64 kfreebsd-i386 powerpc ppc64 ppc64el s390x arm64], xsltproc, docbook-xsl-ns"
+	],
+	"Build-Depends-Indep": [
+		"vtk6-doc, doxygen, doxygen-latex, ghostscript, graphviz"
+	],
+	"Checksums-Sha256": [
+		"59722c2e65de0e509e6e6e40d96026d5745df4cb978647c4293b3031439df446 3319 gdcm_2.6.6-3.dsc ff793355283744df49760852c81d0435b0f9a93b0b235b82ae90f01e4534fee6 3677683 gdcm_2.6.6.orig.tar.bz2 28c6b37be9cfcbf9d2f6e26da03a387ea49edc535085b3bb439a86b28ff146f2 19548 gdcm_2.6.6-3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/gdcm"
+	],
+	"Files": [
+		"b3c69ab61e61b382dcde1a7c33862519 3319 gdcm_2.6.6-3.dsc aa047d32107e06a0b6609129790c3fa2 3677683 gdcm_2.6.6.orig.tar.bz2 2353a7e0318742929b2daf0665964c3e 19548 gdcm_2.6.6-3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://gdcm.sourceforge.net/"
+	],
+	"Maintainer": [
+		"Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"gdcm"
+	],
+	"Package-List": [
+		"gdcm-doc deb doc optional arch=all libgdcm-cil deb cli-mono optional arch=amd64,armel,armhf,i386,mipsel,kfreebsd-amd64,kfreebsd-i386,powerpc,ppc64,ppc64el,s390x,arm64 libgdcm-java deb java optional arch=any libgdcm-tools deb utils optional arch=any libgdcm2-dev deb libdevel optional arch=any libgdcm2.6 deb libs optional arch=any libgdcm2.6-dbg deb debug extra arch=any libvtkgdcm-cil deb cli-mono optional arch=amd64,armel,armhf,i386,mipsel,kfreebsd-amd64,kfreebsd-i386,powerpc,ppc64,ppc64el,s390x,arm64 libvtkgdcm-java deb java optional arch=any libvtkgdcm-tools deb utils optional arch=any libvtkgdcm2-dev deb libdevel optional arch=any libvtkgdcm2.6 deb libs optional arch=any python-gdcm deb python optional arch=any python-vtkgdcm deb python optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"libs"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Andreas Tille <tille@debian.org>, Steve M. Robbins <smr@debian.org>, Sébastien Jodogne <s.jodogne@gmail.com>, Gert Wollny <gw.fossdev@gmail.com>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/debian-med/gdcm.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/debian-med/gdcm.git"
+	],
+	"Version": [
+		"2.6.6-3"
+	]
 }

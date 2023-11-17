@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "pike7.8-core, pike7.8, pike7.8-dev, pike7.8-manual, pike7.8-reference, pike7.8-doc, pike7.8-full, pike7.8-mysql, pike7.8-pg, pike7.8-odbc, pike7.8-svg, pike7.8-image, pike7.8-sdl, pike7.8-gdbm, pike7.8-gtk, pike7.8-gl, pike7.8-sane, pike7.8-pcre, pike7.8-bzip2, pike7.8-fuse, pike7.8-sqlite, pike7.8-dnssd"
-  ],
-  "Build-Conflicts": [
-    "libutahglx-dev"
-  ],
-  "Build-Depends": [
-    "dpkg-dev (>= 1.15.7), debhelper (>= 5), bison, sharutils, bc, pkg-config, libgmp10-dev, nettle-dev (>= 2.1~), zlib1g-dev | libz-dev, libbz2-dev, libgdbm-dev, unixodbc-dev, libmysqlclient-dev, libpq-dev, libsqlite3-dev, libpcre3-dev, libsdl-mixer1.2-dev, libsdl1.2-dev, libsane-dev, x11proto-gl-dev, libxpm-dev, libglade2-dev, libfreetype6-dev, freeglut3-dev, libjpeg-dev, libtiff-dev, librsvg2-dev (>= 2.7), libgnomeui-dev, libfuse-dev, libfftw3-dev, libavahi-compat-libdnssd-dev"
-  ],
-  "Checksums-Sha1": [
-    "b66b81fb92c663513d7637fb50f5cda3b58d7027 3511 pike7.8_7.8.700-7~bpo70+1.dsc 877bd50d2bb202aa485d1f7c62398922d60696c7 14874033 pike7.8_7.8.700.orig.tar.gz 68124786dc4aee854f525ca5ec3aba32d272237c 37592 pike7.8_7.8.700-7~bpo70+1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "cd085a70546d6bd5bf13337db0a95d03bb837fbad7ca863b36a8d5325b8c3924 3511 pike7.8_7.8.700-7~bpo70+1.dsc b29b294b766bda805fc539e2cb9661bc86c54e3f735271ff760bbe20bff1de19 14874033 pike7.8_7.8.700.orig.tar.gz f5931b34755f33991cb2cd15bfc8d2e1a8f080528ac721aab17ed9271e4b830d 37592 pike7.8_7.8.700-7~bpo70+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/pike7.8"
-  ],
-  "Files": [
-    "55ed2c5f6fa67d9604bc7b03b29f52dd 3511 pike7.8_7.8.700-7~bpo70+1.dsc 9f758c484e55f0660e956823cbf13c7e 14874033 pike7.8_7.8.700.orig.tar.gz 8e76bcda13bad03b61fad3e3e37f249b 37592 pike7.8_7.8.700-7~bpo70+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://pike.ida.liu.se/"
-  ],
-  "Maintainer": [
-    "Magnus Holmgren <holmgren@debian.org>"
-  ],
-  "Package": [
-    "pike7.8"
-  ],
-  "Package-List": [
-    "pike7.8 deb interpreters optional pike7.8-bzip2 deb interpreters optional pike7.8-core deb interpreters optional pike7.8-dev deb interpreters optional pike7.8-dnssd deb interpreters optional pike7.8-doc deb doc optional pike7.8-full deb interpreters optional pike7.8-fuse deb interpreters optional pike7.8-gdbm deb interpreters optional pike7.8-gl deb interpreters optional pike7.8-gtk deb interpreters optional pike7.8-image deb interpreters optional pike7.8-manual deb doc optional pike7.8-mysql deb interpreters optional pike7.8-odbc deb interpreters optional pike7.8-pcre deb interpreters optional pike7.8-pg deb interpreters optional pike7.8-reference deb doc optional pike7.8-sane deb interpreters optional pike7.8-sdl deb interpreters optional pike7.8-sqlite deb interpreters optional pike7.8-svg deb interpreters optional"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.4"
-  ],
-  "Uploaders": [
-    "Henrik Andreasson <debian@han.pp.se>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/viewvc/pkg-pike/"
-  ],
-  "Vcs-Svn": [
-    "svn://svn.debian.org/pkg-pike/branches/7.8-stable"
-  ],
-  "Version": [
-    "7.8.700-7~bpo70+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"pike7.8-core, pike7.8, pike7.8-dev, pike7.8-manual, pike7.8-reference, pike7.8-doc, pike7.8-full, pike7.8-mysql, pike7.8-pg, pike7.8-odbc, pike7.8-svg, pike7.8-image, pike7.8-sdl, pike7.8-gdbm, pike7.8-gtk, pike7.8-gl, pike7.8-sane, pike7.8-pcre, pike7.8-bzip2, pike7.8-fuse, pike7.8-sqlite, pike7.8-dnssd"
+	],
+	"Build-Conflicts": [
+		"libutahglx-dev"
+	],
+	"Build-Depends": [
+		"dpkg-dev (>= 1.15.7), debhelper (>= 5), bison, sharutils, bc, pkg-config, libgmp10-dev, nettle-dev (>= 2.1~), zlib1g-dev | libz-dev, libbz2-dev, libgdbm-dev, unixodbc-dev, libmysqlclient-dev, libpq-dev, libsqlite3-dev, libpcre3-dev, libsdl-mixer1.2-dev, libsdl1.2-dev, libsane-dev, x11proto-gl-dev, libxpm-dev, libglade2-dev, libfreetype6-dev, freeglut3-dev, libjpeg-dev, libtiff-dev, librsvg2-dev (>= 2.7), libgnomeui-dev, libfuse-dev, libfftw3-dev, libavahi-compat-libdnssd-dev"
+	],
+	"Checksums-Sha1": [
+		"b66b81fb92c663513d7637fb50f5cda3b58d7027 3511 pike7.8_7.8.700-7~bpo70+1.dsc 877bd50d2bb202aa485d1f7c62398922d60696c7 14874033 pike7.8_7.8.700.orig.tar.gz 68124786dc4aee854f525ca5ec3aba32d272237c 37592 pike7.8_7.8.700-7~bpo70+1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"cd085a70546d6bd5bf13337db0a95d03bb837fbad7ca863b36a8d5325b8c3924 3511 pike7.8_7.8.700-7~bpo70+1.dsc b29b294b766bda805fc539e2cb9661bc86c54e3f735271ff760bbe20bff1de19 14874033 pike7.8_7.8.700.orig.tar.gz f5931b34755f33991cb2cd15bfc8d2e1a8f080528ac721aab17ed9271e4b830d 37592 pike7.8_7.8.700-7~bpo70+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/pike7.8"
+	],
+	"Files": [
+		"55ed2c5f6fa67d9604bc7b03b29f52dd 3511 pike7.8_7.8.700-7~bpo70+1.dsc 9f758c484e55f0660e956823cbf13c7e 14874033 pike7.8_7.8.700.orig.tar.gz 8e76bcda13bad03b61fad3e3e37f249b 37592 pike7.8_7.8.700-7~bpo70+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://pike.ida.liu.se/"
+	],
+	"Maintainer": [
+		"Magnus Holmgren <holmgren@debian.org>"
+	],
+	"Package": [
+		"pike7.8"
+	],
+	"Package-List": [
+		"pike7.8 deb interpreters optional pike7.8-bzip2 deb interpreters optional pike7.8-core deb interpreters optional pike7.8-dev deb interpreters optional pike7.8-dnssd deb interpreters optional pike7.8-doc deb doc optional pike7.8-full deb interpreters optional pike7.8-fuse deb interpreters optional pike7.8-gdbm deb interpreters optional pike7.8-gl deb interpreters optional pike7.8-gtk deb interpreters optional pike7.8-image deb interpreters optional pike7.8-manual deb doc optional pike7.8-mysql deb interpreters optional pike7.8-odbc deb interpreters optional pike7.8-pcre deb interpreters optional pike7.8-pg deb interpreters optional pike7.8-reference deb doc optional pike7.8-sane deb interpreters optional pike7.8-sdl deb interpreters optional pike7.8-sqlite deb interpreters optional pike7.8-svg deb interpreters optional"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.4"
+	],
+	"Uploaders": [
+		"Henrik Andreasson <debian@han.pp.se>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/viewvc/pkg-pike/"
+	],
+	"Vcs-Svn": [
+		"svn://svn.debian.org/pkg-pike/branches/7.8-stable"
+	],
+	"Version": [
+		"7.8.700-7~bpo70+1"
+	]
 }

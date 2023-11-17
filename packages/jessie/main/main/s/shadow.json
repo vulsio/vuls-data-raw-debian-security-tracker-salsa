@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "passwd, login, uidmap"
-  ],
-  "Build-Depends": [
-    "dh-autoreconf, gettext, libpam0g-dev, debhelper (>= 6.0.7~), quilt, dpkg-dev (>= 1.13.5), xsltproc, docbook-xsl, docbook-xml, libxml2-utils, cdbs, libselinux1-dev [linux-any], libsemanage1-dev [linux-any], gnome-doc-utils (>= 0.4.3), bison, libaudit-dev [linux-any], hardening-wrapper"
-  ],
-  "Checksums-Sha1": [
-    "f2f508a18aedff0751d6b73c35ae29488a7f1b07 2492 shadow_4.2-3+deb8u4.dsc 77feddc823a42623462d3c3a9a49f2f6cf213ca9 1088696 shadow_4.2.orig.tar.xz cd8629482cd38f0e6e558d8aaa9fc0e610c6e824 498804 shadow_4.2-3+deb8u4.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "5f5c2c412e567a6f7b49141f11927202b52a8941befec39f6841b3e20a0ccea4 2492 shadow_4.2-3+deb8u4.dsc c5bd72c4ecb438b99289e4630b22ea0626987a378d084910dbe59eceaa34be1d 1088696 shadow_4.2.orig.tar.xz b694aea58176f3a2703cd6461401951e52d78ad80626c39a04c0b88368957106 498804 shadow_4.2-3+deb8u4.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/s/shadow"
-  ],
-  "Files": [
-    "50c24ba7d0538d1a980914d2d0e49435 2492 shadow_4.2-3+deb8u4.dsc 912a5957c1471acccedbc2a635e36f5e 1088696 shadow_4.2.orig.tar.xz 0e060775c4b387b97ea17da63cbf77ea 498804 shadow_4.2-3+deb8u4.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://pkg-shadow.alioth.debian.org/"
-  ],
-  "Maintainer": [
-    "Shadow package maintainers <pkg-shadow-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "shadow"
-  ],
-  "Package-List": [
-    "login deb admin required arch=any passwd deb admin required arch=any uidmap deb admin optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "admin"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Uploaders": [
-    "Christian Perrier <bubulle@debian.org>, Balint Reczey <balint@balintreczey.hu>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-shadow/shadow.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/git/pkg-shadow/shadow.git"
-  ],
-  "Version": [
-    "1:4.2-3+deb8u4"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"passwd, login, uidmap"
+	],
+	"Build-Depends": [
+		"dh-autoreconf, gettext, libpam0g-dev, debhelper (>= 6.0.7~), quilt, dpkg-dev (>= 1.13.5), xsltproc, docbook-xsl, docbook-xml, libxml2-utils, cdbs, libselinux1-dev [linux-any], libsemanage1-dev [linux-any], gnome-doc-utils (>= 0.4.3), bison, libaudit-dev [linux-any], hardening-wrapper"
+	],
+	"Checksums-Sha1": [
+		"f2f508a18aedff0751d6b73c35ae29488a7f1b07 2492 shadow_4.2-3+deb8u4.dsc 77feddc823a42623462d3c3a9a49f2f6cf213ca9 1088696 shadow_4.2.orig.tar.xz cd8629482cd38f0e6e558d8aaa9fc0e610c6e824 498804 shadow_4.2-3+deb8u4.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"5f5c2c412e567a6f7b49141f11927202b52a8941befec39f6841b3e20a0ccea4 2492 shadow_4.2-3+deb8u4.dsc c5bd72c4ecb438b99289e4630b22ea0626987a378d084910dbe59eceaa34be1d 1088696 shadow_4.2.orig.tar.xz b694aea58176f3a2703cd6461401951e52d78ad80626c39a04c0b88368957106 498804 shadow_4.2-3+deb8u4.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/s/shadow"
+	],
+	"Files": [
+		"50c24ba7d0538d1a980914d2d0e49435 2492 shadow_4.2-3+deb8u4.dsc 912a5957c1471acccedbc2a635e36f5e 1088696 shadow_4.2.orig.tar.xz 0e060775c4b387b97ea17da63cbf77ea 498804 shadow_4.2-3+deb8u4.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://pkg-shadow.alioth.debian.org/"
+	],
+	"Maintainer": [
+		"Shadow package maintainers <pkg-shadow-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"shadow"
+	],
+	"Package-List": [
+		"login deb admin required arch=any passwd deb admin required arch=any uidmap deb admin optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"admin"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Uploaders": [
+		"Christian Perrier <bubulle@debian.org>, Balint Reczey <balint@balintreczey.hu>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-shadow/shadow.git;a=summary"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/git/pkg-shadow/shadow.git"
+	],
+	"Version": [
+		"1:4.2-3+deb8u4"
+	]
 }

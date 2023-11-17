@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "debci, debci-worker, debci-collector"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 12), debootstrap, amqp-tools, autopkgtest (>= 5.29~) <!pkg.debci.runtime>, curl, dctrl-tools, debian-archive-keyring, distro-info, fonts-font-awesome (>= 4.0.3~), inotify-tools, jq, libjs-bootstrap, libjs-jquery, libjs-jquery-flot, moreutils, patchutils, postgresql <!pkg.debci.runtime>, puma <!pkg.debci.runtime>, rabbitmq-server <!pkg.debci.runtime>, rerun <!pkg.debci.runtime>, retry, rsync, ruby, ruby-activerecord (>= 2:5.2), ruby-bunny, ruby-database-cleaner <!pkg.debci.runtime>, ruby-erubi, ruby-foreman <!pkg.debci.runtime>, ruby-localhost <!pkg.debci.runtime>, ruby-magic <!pkg.debci.runtime>, ruby-omniauth-gitlab, ruby-pg, ruby-rack-test <!pkg.debci.runtime>, ruby-rspec (>= 2.14) <!pkg.debci.runtime>, ruby-sinatra, ruby-sinatra-contrib, ruby-kaminari-activerecord, ruby-sqlite3, ruby-thor, shellcheck <!pkg.debci.runtime>, shunit2 <!pkg.debci.runtime>, yard <!pkg.debci.runtime>"
-  ],
-  "Checksums-Sha256": [
-    "9369e3ebe912297f3e04bb98f916dbe1f332edd1bfc4c27e3f75fe61f9d60d9a 2901 debci_3.8.dsc dafba395d84cc961fcd66daf9fed6b01380896b2253b07faa69fa3738c8c321b 156272 debci_3.8.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/d/debci"
-  ],
-  "Files": [
-    "3714254a1dd354a76be1994d865c40a0 2901 debci_3.8.dsc b0a28cd366930cdf64428e12adae6e35 156272 debci_3.8.tar.xz"
-  ],
-  "Format": [
-    "3.0 (native)"
-  ],
-  "Homepage": [
-    "http://ci.debian.net/"
-  ],
-  "Maintainer": [
-    "Debian CI team <team+ci@tracker.debian.org>"
-  ],
-  "Package": [
-    "debci"
-  ],
-  "Package-List": [
-    "debci deb devel optional arch=all debci-collector deb devel optional arch=all debci-worker deb devel optional arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.4.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "autopkgtest, dnsmasq-base, ebtables, iptables, libnss-myhostname, libvirt-clients, libvirt-daemon-system, lxc, lxc-templates, netcat-openbsd, rabbitmq-server, redir, rsync, ruby-database-cleaner, ruby-magic, ruby-rack-test, ruby-rspec, shunit2"
-  ],
-  "Uploaders": [
-    "Antonio Terceiro <terceiro@debian.org>, Paul Gevers <elbrus@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/ci-team/debci"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/ci-team/debci.git"
-  ],
-  "Version": [
-    "3.8"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"debci, debci-worker, debci-collector"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 12), debootstrap, amqp-tools, autopkgtest (>= 5.29~) <!pkg.debci.runtime>, curl, dctrl-tools, debian-archive-keyring, distro-info, fonts-font-awesome (>= 4.0.3~), inotify-tools, jq, libjs-bootstrap, libjs-jquery, libjs-jquery-flot, moreutils, patchutils, postgresql <!pkg.debci.runtime>, puma <!pkg.debci.runtime>, rabbitmq-server <!pkg.debci.runtime>, rerun <!pkg.debci.runtime>, retry, rsync, ruby, ruby-activerecord (>= 2:5.2), ruby-bunny, ruby-database-cleaner <!pkg.debci.runtime>, ruby-erubi, ruby-foreman <!pkg.debci.runtime>, ruby-localhost <!pkg.debci.runtime>, ruby-magic <!pkg.debci.runtime>, ruby-omniauth-gitlab, ruby-pg, ruby-rack-test <!pkg.debci.runtime>, ruby-rspec (>= 2.14) <!pkg.debci.runtime>, ruby-sinatra, ruby-sinatra-contrib, ruby-kaminari-activerecord, ruby-sqlite3, ruby-thor, shellcheck <!pkg.debci.runtime>, shunit2 <!pkg.debci.runtime>, yard <!pkg.debci.runtime>"
+	],
+	"Checksums-Sha256": [
+		"9369e3ebe912297f3e04bb98f916dbe1f332edd1bfc4c27e3f75fe61f9d60d9a 2901 debci_3.8.dsc dafba395d84cc961fcd66daf9fed6b01380896b2253b07faa69fa3738c8c321b 156272 debci_3.8.tar.xz"
+	],
+	"Directory": [
+		"pool/main/d/debci"
+	],
+	"Files": [
+		"3714254a1dd354a76be1994d865c40a0 2901 debci_3.8.dsc b0a28cd366930cdf64428e12adae6e35 156272 debci_3.8.tar.xz"
+	],
+	"Format": [
+		"3.0 (native)"
+	],
+	"Homepage": [
+		"http://ci.debian.net/"
+	],
+	"Maintainer": [
+		"Debian CI team <team+ci@tracker.debian.org>"
+	],
+	"Package": [
+		"debci"
+	],
+	"Package-List": [
+		"debci deb devel optional arch=all debci-collector deb devel optional arch=all debci-worker deb devel optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.4.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"autopkgtest, dnsmasq-base, ebtables, iptables, libnss-myhostname, libvirt-clients, libvirt-daemon-system, lxc, lxc-templates, netcat-openbsd, rabbitmq-server, redir, rsync, ruby-database-cleaner, ruby-magic, ruby-rack-test, ruby-rspec, shunit2"
+	],
+	"Uploaders": [
+		"Antonio Terceiro <terceiro@debian.org>, Paul Gevers <elbrus@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/ci-team/debci"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/ci-team/debci.git"
+	],
+	"Version": [
+		"3.8"
+	]
 }

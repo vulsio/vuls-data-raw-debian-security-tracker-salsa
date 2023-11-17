@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "i386 amd64"
-  ],
-  "Binary": [
-    "spice-client-gtk, spice-client-glib-usb-acl-helper, libspice-client-glib-2.0-8, gir1.2-spice-client-glib-2.0, libspice-client-glib-2.0-dev, libspice-client-gtk-2.0-4, gir1.2-spice-client-gtk-2.0, libspice-client-gtk-2.0-dev, libspice-client-gtk-3.0-4, gir1.2-spice-client-gtk-3.0, libspice-client-gtk-3.0-dev, python-spice-client-gtk"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), libpixman-1-dev (>= 0.17.7), libssl-dev, libgtk2.0-dev, libgtk-3-dev, libglib2.0-dev (>= 2.22), libgudev-1.0-dev, libcairo2-dev (>= 1.2.0), libpulse-dev, libusb-1.0-0-dev, valac (>= 0.18), python-all, python-gtk2-dev (>= 2.0.0), python-pyparsing, intltool, libsasl2-dev, libjpeg-dev, gobject-introspection, libgirepository1.0-dev, gir1.2-gtk-2.0, libtext-csv-perl, libusbredirhost-dev (>= 0.6), libacl1-dev, libpolkit-agent-1-dev, libpolkit-gobject-1-dev, dpkg-dev (>= 1.16.1~), libdbus-glib-1-dev, libopus-dev, libsoup2.4-dev"
-  ],
-  "Checksums-Sha1": [
-    "f2052777f1519f584d5bfc3da71fe41350baa6e3 3430 spice-gtk_0.25-1.dsc dc4caf42d7497ba424efc22720946d116ead5dd2 1242457 spice-gtk_0.25.orig.tar.bz2 f22418a7504911095496d95aa6019f0413a323ae 11612 spice-gtk_0.25-1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "452e8cb0bd969d0f2b0601eba6ca0008906a2784fd24834b763a8525eae2dfbc 3430 spice-gtk_0.25-1.dsc 0730c6a80ad9f5012f65927d443377019f300573f7ccc93db84eadec462ad087 1242457 spice-gtk_0.25.orig.tar.bz2 d9245f23036386dc8ef0c4f1ab58ee0ebdced98bc138b6cc34269f07efd4974f 11612 spice-gtk_0.25-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/s/spice-gtk"
-  ],
-  "Files": [
-    "b538259861457b8b4e86663a9fecc76e 3430 spice-gtk_0.25-1.dsc a79f1ff8b21d295b2a028e52708fb551 1242457 spice-gtk_0.25.orig.tar.bz2 2bbdf6079fd371fe9a893fdfcc503da9 11612 spice-gtk_0.25-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.spice-space.org/"
-  ],
-  "Maintainer": [
-    "Liang Guo <guoliang@debian.org>"
-  ],
-  "Package": [
-    "spice-gtk"
-  ],
-  "Package-List": [
-    "gir1.2-spice-client-glib-2.0 deb introspection optional arch=i386,amd64 gir1.2-spice-client-gtk-2.0 deb introspection optional arch=i386,amd64 gir1.2-spice-client-gtk-3.0 deb introspection optional arch=i386,amd64 libspice-client-glib-2.0-8 deb libs optional arch=i386,amd64 libspice-client-glib-2.0-dev deb libdevel optional arch=i386,amd64 libspice-client-gtk-2.0-4 deb libs optional arch=i386,amd64 libspice-client-gtk-2.0-dev deb libdevel optional arch=i386,amd64 libspice-client-gtk-3.0-4 deb libs optional arch=i386,amd64 libspice-client-gtk-3.0-dev deb libdevel optional arch=i386,amd64 python-spice-client-gtk deb python optional arch=i386,amd64 spice-client-glib-usb-acl-helper deb misc optional arch=i386,amd64 spice-client-gtk deb misc optional arch=i386,amd64"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/git/collab-maint/spice-gtk.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/collab-maint/spice-gtk.git"
-  ],
-  "Version": [
-    "0.25-1"
-  ]
+	"Architecture": [
+		"i386 amd64"
+	],
+	"Binary": [
+		"spice-client-gtk, spice-client-glib-usb-acl-helper, libspice-client-glib-2.0-8, gir1.2-spice-client-glib-2.0, libspice-client-glib-2.0-dev, libspice-client-gtk-2.0-4, gir1.2-spice-client-gtk-2.0, libspice-client-gtk-2.0-dev, libspice-client-gtk-3.0-4, gir1.2-spice-client-gtk-3.0, libspice-client-gtk-3.0-dev, python-spice-client-gtk"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), libpixman-1-dev (>= 0.17.7), libssl-dev, libgtk2.0-dev, libgtk-3-dev, libglib2.0-dev (>= 2.22), libgudev-1.0-dev, libcairo2-dev (>= 1.2.0), libpulse-dev, libusb-1.0-0-dev, valac (>= 0.18), python-all, python-gtk2-dev (>= 2.0.0), python-pyparsing, intltool, libsasl2-dev, libjpeg-dev, gobject-introspection, libgirepository1.0-dev, gir1.2-gtk-2.0, libtext-csv-perl, libusbredirhost-dev (>= 0.6), libacl1-dev, libpolkit-agent-1-dev, libpolkit-gobject-1-dev, dpkg-dev (>= 1.16.1~), libdbus-glib-1-dev, libopus-dev, libsoup2.4-dev"
+	],
+	"Checksums-Sha1": [
+		"f2052777f1519f584d5bfc3da71fe41350baa6e3 3430 spice-gtk_0.25-1.dsc dc4caf42d7497ba424efc22720946d116ead5dd2 1242457 spice-gtk_0.25.orig.tar.bz2 f22418a7504911095496d95aa6019f0413a323ae 11612 spice-gtk_0.25-1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"452e8cb0bd969d0f2b0601eba6ca0008906a2784fd24834b763a8525eae2dfbc 3430 spice-gtk_0.25-1.dsc 0730c6a80ad9f5012f65927d443377019f300573f7ccc93db84eadec462ad087 1242457 spice-gtk_0.25.orig.tar.bz2 d9245f23036386dc8ef0c4f1ab58ee0ebdced98bc138b6cc34269f07efd4974f 11612 spice-gtk_0.25-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/s/spice-gtk"
+	],
+	"Files": [
+		"b538259861457b8b4e86663a9fecc76e 3430 spice-gtk_0.25-1.dsc a79f1ff8b21d295b2a028e52708fb551 1242457 spice-gtk_0.25.orig.tar.bz2 2bbdf6079fd371fe9a893fdfcc503da9 11612 spice-gtk_0.25-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.spice-space.org/"
+	],
+	"Maintainer": [
+		"Liang Guo <guoliang@debian.org>"
+	],
+	"Package": [
+		"spice-gtk"
+	],
+	"Package-List": [
+		"gir1.2-spice-client-glib-2.0 deb introspection optional arch=i386,amd64 gir1.2-spice-client-gtk-2.0 deb introspection optional arch=i386,amd64 gir1.2-spice-client-gtk-3.0 deb introspection optional arch=i386,amd64 libspice-client-glib-2.0-8 deb libs optional arch=i386,amd64 libspice-client-glib-2.0-dev deb libdevel optional arch=i386,amd64 libspice-client-gtk-2.0-4 deb libs optional arch=i386,amd64 libspice-client-gtk-2.0-dev deb libdevel optional arch=i386,amd64 libspice-client-gtk-3.0-4 deb libs optional arch=i386,amd64 libspice-client-gtk-3.0-dev deb libdevel optional arch=i386,amd64 python-spice-client-gtk deb python optional arch=i386,amd64 spice-client-glib-usb-acl-helper deb misc optional arch=i386,amd64 spice-client-gtk deb misc optional arch=i386,amd64"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/git/collab-maint/spice-gtk.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/collab-maint/spice-gtk.git"
+	],
+	"Version": [
+		"0.25-1"
+	]
 }

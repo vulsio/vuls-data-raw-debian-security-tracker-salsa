@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "bareos, bareos-bconsole, bareos-client, bareos-common, bareos-database-common, bareos-database-postgresql, bareos-database-mysql, bareos-database-sqlite3, bareos-database-tools, bareos-dbg, bareos-devel, bareos-director, bareos-filedaemon, bareos-storage, bareos-storage-fifo, bareos-storage-tape, bareos-tools, bareos-director-python-plugin, bareos-filedaemon-ceph-plugin, bareos-filedaemon-glusterfs-plugin, bareos-filedaemon-python-plugin, bareos-filedaemon-ldap-python-plugin, bareos-storage-ceph, bareos-storage-glusterfs, bareos-storage-python-plugin, bareos-traymonitor, bareos-bat"
-  ],
-  "Build-Conflicts": [
-    "python2.2-dev, python2.3, python2.4, qt3-dev-tools"
-  ],
-  "Build-Depends": [
-    "acl-dev, autotools-dev, bc, chrpath, debhelper (>= 9), dh-exec (>= 0.13), dh-systemd, dpkg-dev (>= 1.13.19), glusterfs-common [linux-any], libacl1-dev, libcap-dev [linux-any], libcephfs-dev [linux-any], librados-dev [linux-any], libcmocka-dev (>= 1.0.1), libjansson-dev, liblzo2-dev, libqt4-dev, libreadline-dev, libgnutls28-dev, libwrap0-dev, libx11-dev, libsqlite3-dev, default-libmysqlclient-dev, libpq-dev, logrotate, lsb-release, mtx [!hurd-any], ncurses-dev, pkg-config, po-debconf (>= 0.8.2), python-dev, zlib1g-dev"
-  ],
-  "Checksums-Sha256": [
-    "7746eb34e9f1ff5d90ddb4d0fac4fd2cbd4510374921a2497f1db09f9d988c6b 4448 bareos_16.2.4-3+deb9u2.dsc 9a96d9220150f1db643c932ac529b1e3ad179978ef6b06a2504c06db43b4ff3c 4275141 bareos_16.2.4.orig.tar.gz 7bbd8e333b819771f1c0881079d7a5b653ea8e7b51961c47551a310ae84383dd 43872 bareos_16.2.4-3+deb9u2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/b/bareos"
-  ],
-  "Files": [
-    "ec18fe702525700b44840c072faede27 4448 bareos_16.2.4-3+deb9u2.dsc f29ee52ca5eeeeaa0c5ca6d9162d92d6 4275141 bareos_16.2.4.orig.tar.gz 993464f4e86af104bed61b61318791bf 43872 bareos_16.2.4-3+deb9u2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.bareos.org/"
-  ],
-  "Maintainer": [
-    "Bareos Packaging Team <pkg-bareos-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "bareos"
-  ],
-  "Package-List": [
-    "bareos deb admin optional arch=any bareos-bat deb admin optional arch=any bareos-bconsole deb admin optional arch=any bareos-client deb admin optional arch=any bareos-common deb admin optional arch=any bareos-database-common deb admin optional arch=any bareos-database-mysql deb admin optional arch=any bareos-database-postgresql deb admin optional arch=any bareos-database-sqlite3 deb admin optional arch=any bareos-database-tools deb admin optional arch=any bareos-dbg deb debug extra arch=any bareos-devel deb admin optional arch=any bareos-director deb admin optional arch=any bareos-director-python-plugin deb python optional arch=any bareos-filedaemon deb admin optional arch=any bareos-filedaemon-ceph-plugin deb admin optional arch=linux-any bareos-filedaemon-glusterfs-plugin deb admin optional arch=linux-any bareos-filedaemon-ldap-python-plugin deb python optional arch=any bareos-filedaemon-python-plugin deb python optional arch=any bareos-storage deb admin optional arch=any bareos-storage-ceph deb admin optional arch=linux-any bareos-storage-fifo deb admin optional arch=any bareos-storage-glusterfs deb admin optional arch=linux-any bareos-storage-python-plugin deb python optional arch=any bareos-storage-tape deb admin optional arch=any bareos-tools deb admin optional arch=any bareos-traymonitor deb admin optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Joerg Steffens <joerg.steffens@bareos.com>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-bareos/bareos.git/"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-bareos/bareos.git/"
-  ],
-  "Version": [
-    "16.2.4-3+deb9u2"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"bareos, bareos-bconsole, bareos-client, bareos-common, bareos-database-common, bareos-database-postgresql, bareos-database-mysql, bareos-database-sqlite3, bareos-database-tools, bareos-dbg, bareos-devel, bareos-director, bareos-filedaemon, bareos-storage, bareos-storage-fifo, bareos-storage-tape, bareos-tools, bareos-director-python-plugin, bareos-filedaemon-ceph-plugin, bareos-filedaemon-glusterfs-plugin, bareos-filedaemon-python-plugin, bareos-filedaemon-ldap-python-plugin, bareos-storage-ceph, bareos-storage-glusterfs, bareos-storage-python-plugin, bareos-traymonitor, bareos-bat"
+	],
+	"Build-Conflicts": [
+		"python2.2-dev, python2.3, python2.4, qt3-dev-tools"
+	],
+	"Build-Depends": [
+		"acl-dev, autotools-dev, bc, chrpath, debhelper (>= 9), dh-exec (>= 0.13), dh-systemd, dpkg-dev (>= 1.13.19), glusterfs-common [linux-any], libacl1-dev, libcap-dev [linux-any], libcephfs-dev [linux-any], librados-dev [linux-any], libcmocka-dev (>= 1.0.1), libjansson-dev, liblzo2-dev, libqt4-dev, libreadline-dev, libgnutls28-dev, libwrap0-dev, libx11-dev, libsqlite3-dev, default-libmysqlclient-dev, libpq-dev, logrotate, lsb-release, mtx [!hurd-any], ncurses-dev, pkg-config, po-debconf (>= 0.8.2), python-dev, zlib1g-dev"
+	],
+	"Checksums-Sha256": [
+		"7746eb34e9f1ff5d90ddb4d0fac4fd2cbd4510374921a2497f1db09f9d988c6b 4448 bareos_16.2.4-3+deb9u2.dsc 9a96d9220150f1db643c932ac529b1e3ad179978ef6b06a2504c06db43b4ff3c 4275141 bareos_16.2.4.orig.tar.gz 7bbd8e333b819771f1c0881079d7a5b653ea8e7b51961c47551a310ae84383dd 43872 bareos_16.2.4-3+deb9u2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/b/bareos"
+	],
+	"Files": [
+		"ec18fe702525700b44840c072faede27 4448 bareos_16.2.4-3+deb9u2.dsc f29ee52ca5eeeeaa0c5ca6d9162d92d6 4275141 bareos_16.2.4.orig.tar.gz 993464f4e86af104bed61b61318791bf 43872 bareos_16.2.4-3+deb9u2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.bareos.org/"
+	],
+	"Maintainer": [
+		"Bareos Packaging Team <pkg-bareos-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"bareos"
+	],
+	"Package-List": [
+		"bareos deb admin optional arch=any bareos-bat deb admin optional arch=any bareos-bconsole deb admin optional arch=any bareos-client deb admin optional arch=any bareos-common deb admin optional arch=any bareos-database-common deb admin optional arch=any bareos-database-mysql deb admin optional arch=any bareos-database-postgresql deb admin optional arch=any bareos-database-sqlite3 deb admin optional arch=any bareos-database-tools deb admin optional arch=any bareos-dbg deb debug extra arch=any bareos-devel deb admin optional arch=any bareos-director deb admin optional arch=any bareos-director-python-plugin deb python optional arch=any bareos-filedaemon deb admin optional arch=any bareos-filedaemon-ceph-plugin deb admin optional arch=linux-any bareos-filedaemon-glusterfs-plugin deb admin optional arch=linux-any bareos-filedaemon-ldap-python-plugin deb python optional arch=any bareos-filedaemon-python-plugin deb python optional arch=any bareos-storage deb admin optional arch=any bareos-storage-ceph deb admin optional arch=linux-any bareos-storage-fifo deb admin optional arch=any bareos-storage-glusterfs deb admin optional arch=linux-any bareos-storage-python-plugin deb python optional arch=any bareos-storage-tape deb admin optional arch=any bareos-tools deb admin optional arch=any bareos-traymonitor deb admin optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Joerg Steffens <joerg.steffens@bareos.com>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-bareos/bareos.git/"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-bareos/bareos.git/"
+	],
+	"Version": [
+		"16.2.4-3+deb9u2"
+	]
 }

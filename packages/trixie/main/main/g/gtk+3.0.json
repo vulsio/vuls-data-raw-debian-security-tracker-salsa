@@ -1,68 +1,68 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libgtk-3-0, libgtk-3-0-udeb, libgtk-3-common, libgtk-3-bin, libgtk-3-dev, libgtk-3-doc, gtk-3-examples, gir1.2-gtk-3.0, gtk-update-icon-cache, libgail-3-0, libgail-3-dev, libgail-3-doc"
-  ],
-  "Build-Depends": [
-    "adwaita-icon-theme-full <!nocheck>, at-spi2-core <!nocheck>, dbus-daemon <!nocheck>, debhelper-compat (= 13), dh-sequence-gir, docbook-xml <!nodoc>, docbook-xsl <!nodoc>, fonts-cantarell <!nocheck>, fonts-dejavu-core <!nocheck>, gir1.2-gdkpixbuf-2.0-dev, gir1.2-pango-1.0-dev, gnome-pkg-tools (>= 0.11), gobject-introspection (>= 1.41.3), gsettings-desktop-schemas <!nocheck>, libatk-bridge2.0-dev (>= 2.15.1), libatk1.0-dev (>= 2.35.1), libcairo2-dev (>= 1.14.0), libcloudproviders-dev (>= 0.3.2), libcolord-dev (>= 0.1.9), libcups2-dev (>= 1.7), libegl1-mesa-dev [linux-any], libepoxy-dev (>= 1.4), libfontconfig-dev, libfreetype-dev (>= 2.7.1), libfribidi-dev (>= 0.19.7), libgdk-pixbuf-2.0-dev (>= 2.40.0), libgirepository1.0-dev (>= 1.39.0), libglib2.0-dev (>= 2.57.2), libharfbuzz-dev (>= 2.2.0), libjson-glib-dev:native, libpango1.0-dev (>= 1.44.0), librsvg2-common [amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x powerpc ppc64 riscv64 sparc64] <!nocheck>, libwayland-dev (>= 1.14.91) [linux-any], libx11-dev, libxcomposite-dev, libxcursor-dev, libxdamage-dev, libxext-dev, libxfixes-dev, libxi-dev, libxinerama-dev, libxkbcommon-dev (>= 0.2.0), libxkbfile-dev, libxml2-utils, libxrandr-dev (>= 2:1.5.0), meson (>= 0.60.0), ninja-build, pkg-config, sassc, wayland-protocols (>= 1.17) [linux-any], xauth <!nocheck>, xsltproc <!nodoc>, xvfb <!nocheck>"
-  ],
-  "Build-Depends-Indep": [
-    "gtk-doc-tools (>= 1.20) <!nodoc>, libatk1.0-doc <!nodoc>, libcairo2-doc <!nodoc>, libglib2.0-doc <!nodoc>, libpango1.0-doc <!nodoc>"
-  ],
-  "Checksums-Sha256": [
-    "46bd8f92518077eae7c53df8d1ba7fe02d8a89ce8842665d899e94580584fd0a 4497 gtk+3.0_3.24.38-6.dsc ce11decf018b25bdd8505544a4f87242854ec88be054d9ade5f3a20444dd8ee7 12398104 gtk+3.0_3.24.38.orig.tar.xz 6a661c1a60fd44c8272d02dd7832f3a7536e5d0f4d788a547a2cd585b96f7e0d 541716 gtk+3.0_3.24.38-6.debian.tar.xz"
-  ],
-  "Dgit": [
-    "1e1f523c16a189e8b2edef6b546e2aa6c7a4fddf debian archive/debian/3.24.38-6 https://git.dgit.debian.org/gtk+3.0"
-  ],
-  "Directory": [
-    "pool/main/g/gtk+3.0"
-  ],
-  "Files": [
-    "428bb7f0fed0c28b51f3606d7eefca39 4497 gtk+3.0_3.24.38-6.dsc 7ed2f5914683ebd515da22f5784389f4 12398104 gtk+3.0_3.24.38.orig.tar.xz 4de298eb5c649e4d72adf64b275a0c0c 541716 gtk+3.0_3.24.38-6.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.gtk.org/"
-  ],
-  "Maintainer": [
-    "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "gtk+3.0"
-  ],
-  "Package-List": [
-    "gir1.2-gtk-3.0 deb introspection optional arch=any gtk-3-examples deb x11 optional arch=any gtk-update-icon-cache deb misc optional arch=any libgail-3-0 deb libs optional arch=any libgail-3-dev deb libdevel optional arch=any libgail-3-doc deb doc optional arch=all profile=!nodoc libgtk-3-0 deb libs optional arch=any libgtk-3-0-udeb udeb debian-installer optional arch=any profile=!noudeb libgtk-3-bin deb misc optional arch=any libgtk-3-common deb misc optional arch=all libgtk-3-dev deb libdevel optional arch=any libgtk-3-doc deb doc optional arch=all profile=!nodoc"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "libs"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "adwaita-icon-theme-full, at-spi2-core, build-essential, dbus-daemon, gnome-desktop-testing, librsvg2-common, python3-gi, xauth, xvfb"
-  ],
-  "Uploaders": [
-    "Simon McVittie <smcv@debian.org>, Dmitry Shachnev <mitya57@debian.org>, Jeremy Bícha <jbicha@ubuntu.com>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/gnome-team/gtk3"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/gnome-team/gtk3.git"
-  ],
-  "Version": [
-    "3.24.38-6"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libgtk-3-0, libgtk-3-0-udeb, libgtk-3-common, libgtk-3-bin, libgtk-3-dev, libgtk-3-doc, gtk-3-examples, gir1.2-gtk-3.0, gtk-update-icon-cache, libgail-3-0, libgail-3-dev, libgail-3-doc"
+	],
+	"Build-Depends": [
+		"adwaita-icon-theme-full <!nocheck>, at-spi2-core <!nocheck>, dbus-daemon <!nocheck>, debhelper-compat (= 13), dh-sequence-gir, docbook-xml <!nodoc>, docbook-xsl <!nodoc>, fonts-cantarell <!nocheck>, fonts-dejavu-core <!nocheck>, gir1.2-gdkpixbuf-2.0-dev, gir1.2-pango-1.0-dev, gnome-pkg-tools (>= 0.11), gobject-introspection (>= 1.41.3), gsettings-desktop-schemas <!nocheck>, libatk-bridge2.0-dev (>= 2.15.1), libatk1.0-dev (>= 2.35.1), libcairo2-dev (>= 1.14.0), libcloudproviders-dev (>= 0.3.2), libcolord-dev (>= 0.1.9), libcups2-dev (>= 1.7), libegl1-mesa-dev [linux-any], libepoxy-dev (>= 1.4), libfontconfig-dev, libfreetype-dev (>= 2.7.1), libfribidi-dev (>= 0.19.7), libgdk-pixbuf-2.0-dev (>= 2.40.0), libgirepository1.0-dev (>= 1.39.0), libglib2.0-dev (>= 2.57.2), libharfbuzz-dev (>= 2.2.0), libjson-glib-dev:native, libpango1.0-dev (>= 1.44.0), librsvg2-common [amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x powerpc ppc64 riscv64 sparc64] <!nocheck>, libwayland-dev (>= 1.14.91) [linux-any], libx11-dev, libxcomposite-dev, libxcursor-dev, libxdamage-dev, libxext-dev, libxfixes-dev, libxi-dev, libxinerama-dev, libxkbcommon-dev (>= 0.2.0), libxkbfile-dev, libxml2-utils, libxrandr-dev (>= 2:1.5.0), meson (>= 0.60.0), ninja-build, pkg-config, sassc, wayland-protocols (>= 1.17) [linux-any], xauth <!nocheck>, xsltproc <!nodoc>, xvfb <!nocheck>"
+	],
+	"Build-Depends-Indep": [
+		"gtk-doc-tools (>= 1.20) <!nodoc>, libatk1.0-doc <!nodoc>, libcairo2-doc <!nodoc>, libglib2.0-doc <!nodoc>, libpango1.0-doc <!nodoc>"
+	],
+	"Checksums-Sha256": [
+		"46bd8f92518077eae7c53df8d1ba7fe02d8a89ce8842665d899e94580584fd0a 4497 gtk+3.0_3.24.38-6.dsc ce11decf018b25bdd8505544a4f87242854ec88be054d9ade5f3a20444dd8ee7 12398104 gtk+3.0_3.24.38.orig.tar.xz 6a661c1a60fd44c8272d02dd7832f3a7536e5d0f4d788a547a2cd585b96f7e0d 541716 gtk+3.0_3.24.38-6.debian.tar.xz"
+	],
+	"Dgit": [
+		"1e1f523c16a189e8b2edef6b546e2aa6c7a4fddf debian archive/debian/3.24.38-6 https://git.dgit.debian.org/gtk+3.0"
+	],
+	"Directory": [
+		"pool/main/g/gtk+3.0"
+	],
+	"Files": [
+		"428bb7f0fed0c28b51f3606d7eefca39 4497 gtk+3.0_3.24.38-6.dsc 7ed2f5914683ebd515da22f5784389f4 12398104 gtk+3.0_3.24.38.orig.tar.xz 4de298eb5c649e4d72adf64b275a0c0c 541716 gtk+3.0_3.24.38-6.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.gtk.org/"
+	],
+	"Maintainer": [
+		"Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"gtk+3.0"
+	],
+	"Package-List": [
+		"gir1.2-gtk-3.0 deb introspection optional arch=any gtk-3-examples deb x11 optional arch=any gtk-update-icon-cache deb misc optional arch=any libgail-3-0 deb libs optional arch=any libgail-3-dev deb libdevel optional arch=any libgail-3-doc deb doc optional arch=all profile=!nodoc libgtk-3-0 deb libs optional arch=any libgtk-3-0-udeb udeb debian-installer optional arch=any profile=!noudeb libgtk-3-bin deb misc optional arch=any libgtk-3-common deb misc optional arch=all libgtk-3-dev deb libdevel optional arch=any libgtk-3-doc deb doc optional arch=all profile=!nodoc"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"libs"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"adwaita-icon-theme-full, at-spi2-core, build-essential, dbus-daemon, gnome-desktop-testing, librsvg2-common, python3-gi, xauth, xvfb"
+	],
+	"Uploaders": [
+		"Simon McVittie <smcv@debian.org>, Dmitry Shachnev <mitya57@debian.org>, Jeremy Bícha <jbicha@ubuntu.com>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/gnome-team/gtk3"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/gnome-team/gtk3.git"
+	],
+	"Version": [
+		"3.24.38-6"
+	]
 }

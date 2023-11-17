@@ -1,50 +1,50 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "audacious-plugins, audacious-plugins-extra, audacious-plugins-dev, audacious-plugins-dbg"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 5), autotools-dev, audacious-dev (>= 1.5.1), audacious-dev (<< 1.9), libgtk2.0-dev (>= 2.6), libglade2-dev (>= 2.3.1), libtagc0-dev (>= 1.4), libvisual-0.4-dev, libsdl1.2-dev (>= 1.2.9) | libsdl-dev (>= 1.2.9), libvorbis-dev (>= 1.2), libogg-dev (>= 1.0), libflac-dev (>= 1.1.2), libasound2-dev (>= 1.0) [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386] | libasound-dev (>= 1.0) [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], libesd0-dev (>= 0.2), libsidplay2-dev | libsidplay1-dev, libresid-builder-dev, liblircclient-dev, libjack0.100.0-dev | libjack0.80.0-dev | libjack-dev, libsamplerate0-dev (>= 0.0.15) | libsamplerate-dev (>= 0.0.15), libmusicbrainz4-dev | libmusicbrainz-dev, libmpcdec-dev, libartsc0-dev (>= 0.9.5), libmodplug-dev, libsndfile1-dev (>= 0.19) | libsndfile-dev (>= 0.19), libpulse-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], quilt, libwavpack-dev, libmms-dev, libfluidsynth-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], libmad0-dev, libmcs-dev, libxcomposite-dev, libbinio-dev, libcurl4-gnutls-dev, libneon27-gnutls-dev (>= 0.26), libcdio-cdda-dev (>= 0.70), libcddb2-dev (>= 1.2.1) | libcddb-dev (>= 1.2.1), libmtp-dev, libprojectm-dev, libimlib2-dev (>= 1.1.0)"
-  ],
-  "Checksums-Sha1": [
-    "3bcbc22b2bd3f953bcaf98e281f95848ba7d9016 2467 audacious-plugins_1.5.1-2.dsc 630c936027c66649795cac7327cf6ab3590d3e49 2944448 audacious-plugins_1.5.1.orig.tar.gz 46ae0ad447eae1b510e830ac6ca3269ce1ff3b53 11369 audacious-plugins_1.5.1-2.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "564e7a09a0fc545148b716fc25630a20212dfe15322c66a8a375be0d846877e6 2467 audacious-plugins_1.5.1-2.dsc aed33732c55566604a24cd2cd1751c24d159ff8eca510647c5c3c7889fd8ae15 2944448 audacious-plugins_1.5.1.orig.tar.gz 367c1b0cf8f5cdc2400b9ac61baa4850192dbd171df7c8658b9641be975e9679 11369 audacious-plugins_1.5.1-2.diff.gz"
-  ],
-  "Directory": [
-    "pool/main/a/audacious-plugins"
-  ],
-  "Files": [
-    "156642304b26443ddd6cbe4b43b235e3 2467 audacious-plugins_1.5.1-2.dsc 057b91f33aaf06bb4cde7260177c2f5f 2944448 audacious-plugins_1.5.1.orig.tar.gz 9979cbb8018817ea9bec5582ae9b07a7 11369 audacious-plugins_1.5.1-2.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Homepage": [
-    "http://www.audacious-media-player.org/"
-  ],
-  "Maintainer": [
-    "Debian Audacious Packagers <pkg-audacious-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "audacious-plugins"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "sound"
-  ],
-  "Standards-Version": [
-    "3.7.3"
-  ],
-  "Uploaders": [
-    "Adam Cécile (Le_Vert) <gandalf@le-vert.net>, William Pitcock <nenolod@dereferenced.org>"
-  ],
-  "Version": [
-    "1.5.1-2"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"audacious-plugins, audacious-plugins-extra, audacious-plugins-dev, audacious-plugins-dbg"
+	],
+	"Build-Depends": [
+		"debhelper (>= 5), autotools-dev, audacious-dev (>= 1.5.1), audacious-dev (<< 1.9), libgtk2.0-dev (>= 2.6), libglade2-dev (>= 2.3.1), libtagc0-dev (>= 1.4), libvisual-0.4-dev, libsdl1.2-dev (>= 1.2.9) | libsdl-dev (>= 1.2.9), libvorbis-dev (>= 1.2), libogg-dev (>= 1.0), libflac-dev (>= 1.1.2), libasound2-dev (>= 1.0) [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386] | libasound-dev (>= 1.0) [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], libesd0-dev (>= 0.2), libsidplay2-dev | libsidplay1-dev, libresid-builder-dev, liblircclient-dev, libjack0.100.0-dev | libjack0.80.0-dev | libjack-dev, libsamplerate0-dev (>= 0.0.15) | libsamplerate-dev (>= 0.0.15), libmusicbrainz4-dev | libmusicbrainz-dev, libmpcdec-dev, libartsc0-dev (>= 0.9.5), libmodplug-dev, libsndfile1-dev (>= 0.19) | libsndfile-dev (>= 0.19), libpulse-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], quilt, libwavpack-dev, libmms-dev, libfluidsynth-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], libmad0-dev, libmcs-dev, libxcomposite-dev, libbinio-dev, libcurl4-gnutls-dev, libneon27-gnutls-dev (>= 0.26), libcdio-cdda-dev (>= 0.70), libcddb2-dev (>= 1.2.1) | libcddb-dev (>= 1.2.1), libmtp-dev, libprojectm-dev, libimlib2-dev (>= 1.1.0)"
+	],
+	"Checksums-Sha1": [
+		"3bcbc22b2bd3f953bcaf98e281f95848ba7d9016 2467 audacious-plugins_1.5.1-2.dsc 630c936027c66649795cac7327cf6ab3590d3e49 2944448 audacious-plugins_1.5.1.orig.tar.gz 46ae0ad447eae1b510e830ac6ca3269ce1ff3b53 11369 audacious-plugins_1.5.1-2.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"564e7a09a0fc545148b716fc25630a20212dfe15322c66a8a375be0d846877e6 2467 audacious-plugins_1.5.1-2.dsc aed33732c55566604a24cd2cd1751c24d159ff8eca510647c5c3c7889fd8ae15 2944448 audacious-plugins_1.5.1.orig.tar.gz 367c1b0cf8f5cdc2400b9ac61baa4850192dbd171df7c8658b9641be975e9679 11369 audacious-plugins_1.5.1-2.diff.gz"
+	],
+	"Directory": [
+		"pool/main/a/audacious-plugins"
+	],
+	"Files": [
+		"156642304b26443ddd6cbe4b43b235e3 2467 audacious-plugins_1.5.1-2.dsc 057b91f33aaf06bb4cde7260177c2f5f 2944448 audacious-plugins_1.5.1.orig.tar.gz 9979cbb8018817ea9bec5582ae9b07a7 11369 audacious-plugins_1.5.1-2.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Homepage": [
+		"http://www.audacious-media-player.org/"
+	],
+	"Maintainer": [
+		"Debian Audacious Packagers <pkg-audacious-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"audacious-plugins"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"sound"
+	],
+	"Standards-Version": [
+		"3.7.3"
+	],
+	"Uploaders": [
+		"Adam Cécile (Le_Vert) <gandalf@le-vert.net>, William Pitcock <nenolod@dereferenced.org>"
+	],
+	"Version": [
+		"1.5.1-2"
+	]
 }

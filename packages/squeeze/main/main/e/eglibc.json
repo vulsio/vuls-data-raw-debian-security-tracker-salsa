@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "libc-bin, libc-dev-bin, glibc-doc, eglibc-source, locales, locales-all, nscd, libc6, libc6-dev, libc6-dbg, libc6-prof, libc6-pic, libc6-udeb, libc6.1, libc6.1-dev, libc6.1-dbg, libc6.1-prof, libc6.1-pic, libc6.1-udeb, libc0.3, libc0.3-dev, libc0.3-dbg, libc0.3-prof, libc0.3-pic, libc0.3-udeb, libc0.1, libc0.1-dev, libc0.1-dbg, libc0.1-prof, libc0.1-pic, libc0.1-udeb, libc6-i386, libc6-dev-i386, libc6-sparc64, libc6-dev-sparc64, libc6-s390x, libc6-dev-s390x, libc6-amd64, libc6-dev-amd64, libc6-powerpc, libc6-dev-powerpc, libc6-ppc64, libc6-dev-ppc64, libc6-mipsn32, libc6-dev-mipsn32, libc6-mips64, libc6-dev-mips64, libc0.1-i386, libc0.1-dev-i386, libc6-sparcv9b, libc6-i686, libc6-xen, libc0.1-i686, libc0.3-i686, libc0.3-xen, libc6.1-alphaev67, libnss-dns-udeb, libnss-files-udeb"
-  ],
-  "Build-Depends": [
-    "gettext, make (>= 3.80), dpkg-dev (>= 1.15.3.1), bzip2, lzma, xz-utils, file, quilt, autoconf, sed (>= 4.0.5-4), gawk, debhelper (>= 5.0), tar (>= 1.22), linux-libc-dev [!hurd-i386 !kfreebsd-i386 !kfreebsd-amd64], mig (>= 1.3-2) [hurd-i386], hurd-dev (>= 20080607-3) [hurd-i386], gnumach-dev [hurd-i386], libpthread-stubs0-dev [hurd-i386], kfreebsd-kernel-headers [kfreebsd-i386 kfreebsd-amd64], binutils (>= 2.17cvs20070426), binutils (>= 2.20-3) [mips mipsel], g++-4.4 (>= 4.4.2-2), g++-4.4-multilib [amd64 i386 kfreebsd-amd64 mips mipsel powerpc ppc64 s390 sparc]"
-  ],
-  "Build-Depends-Indep": [
-    "perl, po-debconf (>= 1.0)"
-  ],
-  "Checksums-Sha1": [
-    "876481b4aa7df29471db8682984e948b6b457c8f 2609 eglibc_2.11.3-4.dsc 946ce1056c3b8a4f6cc908a6a7f8600dcc81216b 22677499 eglibc_2.11.3.orig.tar.gz 8362db5ab9f070bbbb8868c92a4fe18fa8c2cfad 915761 eglibc_2.11.3-4.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "fb5090941af74a8a23c0cdc6b1ce50038bb5b0d74bfc70f35138c738faed15f2 2609 eglibc_2.11.3-4.dsc 86468e94516b84c586b0f5c78c5b2361474698a7619f465091b1a61f0ae134af 22677499 eglibc_2.11.3.orig.tar.gz a2503b3525c7e429b4c41c84ac49fd78e91adb72295f561071f0719bb5e5669a 915761 eglibc_2.11.3-4.diff.gz"
-  ],
-  "Directory": [
-    "pool/main/e/eglibc"
-  ],
-  "Files": [
-    "345adb5dc08911a9539f48ce544ac208 2609 eglibc_2.11.3-4.dsc dd8e9ddf5a3d62209d2ef113888d0899 22677499 eglibc_2.11.3.orig.tar.gz 87a1657ff2f76a7da43169be7be8d62d 915761 eglibc_2.11.3-4.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Homepage": [
-    "http://www.eglibc.org"
-  ],
-  "Maintainer": [
-    "GNU Libc Maintainers <debian-glibc@lists.debian.org>"
-  ],
-  "Package": [
-    "eglibc"
-  ],
-  "Priority": [
-    "required"
-  ],
-  "Section": [
-    "libs"
-  ],
-  "Standards-Version": [
-    "3.8.4"
-  ],
-  "Uploaders": [
-    "Clint Adams <clint@gnu.org>, Aurelien Jarno <aurel32@debian.org>, Pierre Habouzit <madcoder@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://svn.debian.org/wsvn/pkg-glibc/glibc-package/"
-  ],
-  "Vcs-Svn": [
-    "svn://svn.debian.org/pkg-glibc/glibc-package/"
-  ],
-  "Version": [
-    "2.11.3-4"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"libc-bin, libc-dev-bin, glibc-doc, eglibc-source, locales, locales-all, nscd, libc6, libc6-dev, libc6-dbg, libc6-prof, libc6-pic, libc6-udeb, libc6.1, libc6.1-dev, libc6.1-dbg, libc6.1-prof, libc6.1-pic, libc6.1-udeb, libc0.3, libc0.3-dev, libc0.3-dbg, libc0.3-prof, libc0.3-pic, libc0.3-udeb, libc0.1, libc0.1-dev, libc0.1-dbg, libc0.1-prof, libc0.1-pic, libc0.1-udeb, libc6-i386, libc6-dev-i386, libc6-sparc64, libc6-dev-sparc64, libc6-s390x, libc6-dev-s390x, libc6-amd64, libc6-dev-amd64, libc6-powerpc, libc6-dev-powerpc, libc6-ppc64, libc6-dev-ppc64, libc6-mipsn32, libc6-dev-mipsn32, libc6-mips64, libc6-dev-mips64, libc0.1-i386, libc0.1-dev-i386, libc6-sparcv9b, libc6-i686, libc6-xen, libc0.1-i686, libc0.3-i686, libc0.3-xen, libc6.1-alphaev67, libnss-dns-udeb, libnss-files-udeb"
+	],
+	"Build-Depends": [
+		"gettext, make (>= 3.80), dpkg-dev (>= 1.15.3.1), bzip2, lzma, xz-utils, file, quilt, autoconf, sed (>= 4.0.5-4), gawk, debhelper (>= 5.0), tar (>= 1.22), linux-libc-dev [!hurd-i386 !kfreebsd-i386 !kfreebsd-amd64], mig (>= 1.3-2) [hurd-i386], hurd-dev (>= 20080607-3) [hurd-i386], gnumach-dev [hurd-i386], libpthread-stubs0-dev [hurd-i386], kfreebsd-kernel-headers [kfreebsd-i386 kfreebsd-amd64], binutils (>= 2.17cvs20070426), binutils (>= 2.20-3) [mips mipsel], g++-4.4 (>= 4.4.2-2), g++-4.4-multilib [amd64 i386 kfreebsd-amd64 mips mipsel powerpc ppc64 s390 sparc]"
+	],
+	"Build-Depends-Indep": [
+		"perl, po-debconf (>= 1.0)"
+	],
+	"Checksums-Sha1": [
+		"876481b4aa7df29471db8682984e948b6b457c8f 2609 eglibc_2.11.3-4.dsc 946ce1056c3b8a4f6cc908a6a7f8600dcc81216b 22677499 eglibc_2.11.3.orig.tar.gz 8362db5ab9f070bbbb8868c92a4fe18fa8c2cfad 915761 eglibc_2.11.3-4.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"fb5090941af74a8a23c0cdc6b1ce50038bb5b0d74bfc70f35138c738faed15f2 2609 eglibc_2.11.3-4.dsc 86468e94516b84c586b0f5c78c5b2361474698a7619f465091b1a61f0ae134af 22677499 eglibc_2.11.3.orig.tar.gz a2503b3525c7e429b4c41c84ac49fd78e91adb72295f561071f0719bb5e5669a 915761 eglibc_2.11.3-4.diff.gz"
+	],
+	"Directory": [
+		"pool/main/e/eglibc"
+	],
+	"Files": [
+		"345adb5dc08911a9539f48ce544ac208 2609 eglibc_2.11.3-4.dsc dd8e9ddf5a3d62209d2ef113888d0899 22677499 eglibc_2.11.3.orig.tar.gz 87a1657ff2f76a7da43169be7be8d62d 915761 eglibc_2.11.3-4.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Homepage": [
+		"http://www.eglibc.org"
+	],
+	"Maintainer": [
+		"GNU Libc Maintainers <debian-glibc@lists.debian.org>"
+	],
+	"Package": [
+		"eglibc"
+	],
+	"Priority": [
+		"required"
+	],
+	"Section": [
+		"libs"
+	],
+	"Standards-Version": [
+		"3.8.4"
+	],
+	"Uploaders": [
+		"Clint Adams <clint@gnu.org>, Aurelien Jarno <aurel32@debian.org>, Pierre Habouzit <madcoder@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://svn.debian.org/wsvn/pkg-glibc/glibc-package/"
+	],
+	"Vcs-Svn": [
+		"svn://svn.debian.org/pkg-glibc/glibc-package/"
+	],
+	"Version": [
+		"2.11.3-4"
+	]
 }

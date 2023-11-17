@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "slurm-wlm, slurm-client, slurm-client-dbg, slurmd, slurmd-dbg, slurmctld, slurmctld-dbg, libslurmdb30, libslurmdb30-dbg, libslurm30, libslurm30-dbg, libpmi0, libpmi0-dbg, libpmi2-0, libpmi2-0-dbg, libslurm-dev, libslurmdb-dev, libpmi0-dev, libpmi2-0-dev, slurm-wlm-doc, slurm-wlm-basic-plugins, slurm-wlm-basic-plugins-dbg, slurm-wlm-basic-plugins-dev, sview, slurmdbd, slurmdbd-dbg, libslurm-perl, libslurmdb-perl, slurm-wlm-torque, libpam-slurm, slurm-llnl, slurm-llnl-slurmdbd, slurm-wlm-emulator, slurm-client-emulator"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9.20130504), autotools-dev, libmunge-dev, libncurses5-dev, libssl-dev, po-debconf, python, libglade2-dev, libgtk2.0-dev, default-libmysqlclient-dev, libpam0g-dev, libperl-dev, chrpath, liblua5.1-0-dev, libhwloc-dev, dh-autoreconf, dh-exec, librrd-dev, libipmimonitoring-dev, dh-systemd (>= 1.5), hdf5-helpers, libhdf5-dev"
-  ],
-  "Checksums-Sha1": [
-    "7150b6e6e1931b6e1239c18ad4210a35a2cf1c4e 4165 slurm-llnl_16.05.9-1+deb9u5.dsc 6cff8027151746aaf0ab0452835ac05b6f7c1d2d 8433592 slurm-llnl_16.05.9.orig.tar.gz 2ccc6fc5c7ee0e604033b4537c45e3abea5a0c7e 128956 slurm-llnl_16.05.9-1+deb9u5.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "8e36a8d06b48aaf2a9ca05658461398e3b7433e41b81dc584e01d17ca1dd997f 4165 slurm-llnl_16.05.9-1+deb9u5.dsc fba18ca59b9e9d72f4e165c0e13fd65056002c578b1dae8862d64ee9a9f0a5ff 8433592 slurm-llnl_16.05.9.orig.tar.gz 196ab54641c80cadbb995165c98ffb6d6fc363d9bd81feaca98af6600fe4241a 128956 slurm-llnl_16.05.9-1+deb9u5.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/s/slurm-llnl"
-  ],
-  "Files": [
-    "32582bbf1139d9ab80f2aebd024c38db 4165 slurm-llnl_16.05.9-1+deb9u5.dsc e653468bfbc7ed2021b386b42da3d5af 8433592 slurm-llnl_16.05.9.orig.tar.gz 34a1b19ea7cf7e3c279ab73744087706 128956 slurm-llnl_16.05.9-1+deb9u5.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://slurm.schedmd.com"
-  ],
-  "Maintainer": [
-    "Gennaro Oliva <oliva.g@na.icar.cnr.it>"
-  ],
-  "Package": [
-    "slurm-llnl"
-  ],
-  "Package-List": [
-    "libpam-slurm deb admin extra arch=any libpmi0 deb libs extra arch=any libpmi0-dbg deb debug extra arch=any libpmi0-dev deb libdevel extra arch=any libpmi2-0 deb libs extra arch=any libpmi2-0-dbg deb debug extra arch=any libpmi2-0-dev deb libdevel extra arch=any libslurm-dev deb libdevel extra arch=any libslurm-perl deb perl extra arch=any libslurm30 deb libs extra arch=any libslurm30-dbg deb debug extra arch=any libslurmdb-dev deb libdevel extra arch=any libslurmdb-perl deb perl extra arch=any libslurmdb30 deb libs extra arch=any libslurmdb30-dbg deb debug extra arch=any slurm-client deb admin extra arch=any slurm-client-dbg deb debug extra arch=any slurm-client-emulator deb admin extra arch=any slurm-llnl deb oldlibs extra arch=all slurm-llnl-slurmdbd deb oldlibs extra arch=all slurm-wlm deb admin extra arch=any slurm-wlm-basic-plugins deb admin extra arch=any slurm-wlm-basic-plugins-dbg deb debug extra arch=any slurm-wlm-basic-plugins-dev deb devel extra arch=any slurm-wlm-doc deb doc extra arch=all slurm-wlm-emulator deb admin extra arch=any slurm-wlm-torque deb admin extra arch=all slurmctld deb admin extra arch=any slurmctld-dbg deb debug extra arch=any slurmd deb admin extra arch=any slurmd-dbg deb debug extra arch=any slurmdbd deb admin extra arch=any slurmdbd-dbg deb debug extra arch=any sview deb admin extra arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "admin"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Rémi Palancher <remi@rezib.org>, Mehdi Dogguy <mehdi@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/git/collab-maint/slurm-llnl.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/collab-maint/slurm-llnl.git"
-  ],
-  "Version": [
-    "16.05.9-1+deb9u5"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"slurm-wlm, slurm-client, slurm-client-dbg, slurmd, slurmd-dbg, slurmctld, slurmctld-dbg, libslurmdb30, libslurmdb30-dbg, libslurm30, libslurm30-dbg, libpmi0, libpmi0-dbg, libpmi2-0, libpmi2-0-dbg, libslurm-dev, libslurmdb-dev, libpmi0-dev, libpmi2-0-dev, slurm-wlm-doc, slurm-wlm-basic-plugins, slurm-wlm-basic-plugins-dbg, slurm-wlm-basic-plugins-dev, sview, slurmdbd, slurmdbd-dbg, libslurm-perl, libslurmdb-perl, slurm-wlm-torque, libpam-slurm, slurm-llnl, slurm-llnl-slurmdbd, slurm-wlm-emulator, slurm-client-emulator"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9.20130504), autotools-dev, libmunge-dev, libncurses5-dev, libssl-dev, po-debconf, python, libglade2-dev, libgtk2.0-dev, default-libmysqlclient-dev, libpam0g-dev, libperl-dev, chrpath, liblua5.1-0-dev, libhwloc-dev, dh-autoreconf, dh-exec, librrd-dev, libipmimonitoring-dev, dh-systemd (>= 1.5), hdf5-helpers, libhdf5-dev"
+	],
+	"Checksums-Sha1": [
+		"7150b6e6e1931b6e1239c18ad4210a35a2cf1c4e 4165 slurm-llnl_16.05.9-1+deb9u5.dsc 6cff8027151746aaf0ab0452835ac05b6f7c1d2d 8433592 slurm-llnl_16.05.9.orig.tar.gz 2ccc6fc5c7ee0e604033b4537c45e3abea5a0c7e 128956 slurm-llnl_16.05.9-1+deb9u5.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"8e36a8d06b48aaf2a9ca05658461398e3b7433e41b81dc584e01d17ca1dd997f 4165 slurm-llnl_16.05.9-1+deb9u5.dsc fba18ca59b9e9d72f4e165c0e13fd65056002c578b1dae8862d64ee9a9f0a5ff 8433592 slurm-llnl_16.05.9.orig.tar.gz 196ab54641c80cadbb995165c98ffb6d6fc363d9bd81feaca98af6600fe4241a 128956 slurm-llnl_16.05.9-1+deb9u5.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/s/slurm-llnl"
+	],
+	"Files": [
+		"32582bbf1139d9ab80f2aebd024c38db 4165 slurm-llnl_16.05.9-1+deb9u5.dsc e653468bfbc7ed2021b386b42da3d5af 8433592 slurm-llnl_16.05.9.orig.tar.gz 34a1b19ea7cf7e3c279ab73744087706 128956 slurm-llnl_16.05.9-1+deb9u5.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://slurm.schedmd.com"
+	],
+	"Maintainer": [
+		"Gennaro Oliva <oliva.g@na.icar.cnr.it>"
+	],
+	"Package": [
+		"slurm-llnl"
+	],
+	"Package-List": [
+		"libpam-slurm deb admin extra arch=any libpmi0 deb libs extra arch=any libpmi0-dbg deb debug extra arch=any libpmi0-dev deb libdevel extra arch=any libpmi2-0 deb libs extra arch=any libpmi2-0-dbg deb debug extra arch=any libpmi2-0-dev deb libdevel extra arch=any libslurm-dev deb libdevel extra arch=any libslurm-perl deb perl extra arch=any libslurm30 deb libs extra arch=any libslurm30-dbg deb debug extra arch=any libslurmdb-dev deb libdevel extra arch=any libslurmdb-perl deb perl extra arch=any libslurmdb30 deb libs extra arch=any libslurmdb30-dbg deb debug extra arch=any slurm-client deb admin extra arch=any slurm-client-dbg deb debug extra arch=any slurm-client-emulator deb admin extra arch=any slurm-llnl deb oldlibs extra arch=all slurm-llnl-slurmdbd deb oldlibs extra arch=all slurm-wlm deb admin extra arch=any slurm-wlm-basic-plugins deb admin extra arch=any slurm-wlm-basic-plugins-dbg deb debug extra arch=any slurm-wlm-basic-plugins-dev deb devel extra arch=any slurm-wlm-doc deb doc extra arch=all slurm-wlm-emulator deb admin extra arch=any slurm-wlm-torque deb admin extra arch=all slurmctld deb admin extra arch=any slurmctld-dbg deb debug extra arch=any slurmd deb admin extra arch=any slurmd-dbg deb debug extra arch=any slurmdbd deb admin extra arch=any slurmdbd-dbg deb debug extra arch=any sview deb admin extra arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"admin"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Rémi Palancher <remi@rezib.org>, Mehdi Dogguy <mehdi@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/git/collab-maint/slurm-llnl.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/collab-maint/slurm-llnl.git"
+	],
+	"Version": [
+		"16.05.9-1+deb9u5"
+	]
 }

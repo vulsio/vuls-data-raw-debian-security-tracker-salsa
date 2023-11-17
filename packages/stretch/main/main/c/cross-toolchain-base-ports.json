@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "linux-libc-dev-alpha-cross, linux-libc-dev-hppa-cross, linux-libc-dev-m68k-cross, linux-libc-dev-mips64-cross, linux-libc-dev-powerpc-cross, linux-libc-dev-ppc64-cross, linux-libc-dev-sh4-cross, linux-libc-dev-sparc64-cross, linux-libc-dev-powerpcspe-cross, libc6.1-alpha-cross, libc6.1-dev-alpha-cross, libc6-hppa-cross, libc6-dev-hppa-cross, libc6-m68k-cross, libc6-dev-m68k-cross, libc6-mips64-cross, libc6-dev-mips64-cross, libc6-powerpc-cross, libc6-dev-powerpc-cross, libc6-ppc64-cross, libc6-dev-ppc64-cross, libc6-sh4-cross, libc6-dev-sh4-cross, libc6-sparc64-cross, libc6-dev-sparc64-cross, libc6-powerpcspe-cross, libc6-dev-powerpcspe-cross, libc6-powerpc-ppc64-cross, libc6-dev-powerpc-ppc64-cross, libc6-sparc-sparc64-cross, libc6-dev-sparc-sparc64-cross, libc6-ppc64-powerpc-cross, libc6-dev-ppc64-powerpc-cross, libc6-mips32-mips64-cross, libc6-dev-mips32-mips64-cross, libc6-mipsn32-mips64-cross, libc6-dev-mipsn32-mips64-cross"
-  ],
-  "Build-Conflicts": [
-    "binutils-alpha-linux-gnu, binutils-hppa-linux-gnu, binutils-m68k-linux-gnu, binutils-mips64-linux-gnuabi64, binutils-powerpc-linux-gnu, binutils-powerpc-linux-gnuspe, binutils-powerpc64-linux-gnu, binutils-sh4-linux-gnu, binutils-sparc64-linux-gnu, dpkg-cross, libc6-alpha-cross, libc6-amd64 [i386 x32], libc6-hppa-cross, libc6-i386 [amd64 x32], libc6-m68k-cross, libc6-mips64-cross, libc6-powerpc-cross, libc6-powerpcspe-cross, libc6-ppc64-cross, libc6-sh4-cross, libc6-sparc64-cross, libc6-x32 [amd64 i386], libdebian-dpkgcross-perl, linux-libc-dev-alpha-cross, linux-libc-dev-hppa-cross, linux-libc-dev-m68k-cross, linux-libc-dev-mips64-cross, linux-libc-dev-powerpc-cross, linux-libc-dev-powerpcspe-cross, linux-libc-dev-ppc64-cross, linux-libc-dev-sh4-cross, linux-libc-dev-sparc64-cross"
-  ],
-  "Build-Depends": [
-    "binutils-multiarch, dpkg (>= 1.16.0~ubuntu6), rdfind, symlinks, lsb-release, binutils-source (>= 2.28-5~), glibc-source (>= 2.24-9~), gcc-6-source (>= 6.3.0-18~), linux-source (>= 4.9), autoconf (>= 2.64), autoconf2.64, autogen, automake, bison (>= 1:2.3), chrpath, debhelper (>= 9), dpkg-dev (>= 1.15.3.1), fakeroot, file, flex, gawk, gettext, gperf (>= 3.0.1), kernel-wedge (>= 2.24), libcloog-isl-dev (>= 0.12.2~), libmpc-dev, libmpfr-dev (>= 2.3.0), rsync, xmlto, libtool, lzma, m4, make (>= 3.81), kmod | module-init-tools, patchutils, procps, quilt, realpath (>= 1.9.12), sed (>= 4.0.5-4), sharutils, tar (>= 1.22), xz-utils, asciidoc, texinfo, cpio, python3, libconfig-auto-perl, libfile-temp-perl, libfile-homedir-perl, liblocale-gettext-perl"
-  ],
-  "Checksums-Sha256": [
-    "5b512d944bf522b8fbfb7bda0457b575e312f44a8bb63d35fa094e41df1332ea 6161 cross-toolchain-base-ports_11.dsc cd59c04d2bd0cec4b9d2b678660a6088304618071a01f8b6bb98623ec8376aea 39556 cross-toolchain-base-ports_11.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/c/cross-toolchain-base-ports"
-  ],
-  "Files": [
-    "afa99e8d7d0b2b79b22b854b5d0ed46e 6161 cross-toolchain-base-ports_11.dsc 0bf2cf3cdbac33aa2d4688d7dbae1c73 39556 cross-toolchain-base-ports_11.tar.xz"
-  ],
-  "Format": [
-    "3.0 (native)"
-  ],
-  "Maintainer": [
-    "Cross Toolchain Base Team <cross-toolchain-base-devs@lists.launchpad.net>"
-  ],
-  "Package": [
-    "cross-toolchain-base-ports"
-  ],
-  "Package-List": [
-    "libc6-dev-hppa-cross deb libdevel extra arch=all libc6-dev-m68k-cross deb libdevel extra arch=all libc6-dev-mips32-mips64-cross deb libdevel extra arch=all libc6-dev-mips64-cross deb libdevel extra arch=all libc6-dev-mipsn32-mips64-cross deb libdevel extra arch=all libc6-dev-powerpc-cross deb libdevel extra arch=all libc6-dev-powerpc-ppc64-cross deb libdevel extra arch=all libc6-dev-powerpcspe-cross deb libdevel extra arch=all libc6-dev-ppc64-cross deb libdevel extra arch=all libc6-dev-ppc64-powerpc-cross deb libdevel extra arch=all libc6-dev-sh4-cross deb libdevel extra arch=all libc6-dev-sparc-sparc64-cross deb libdevel extra arch=all libc6-dev-sparc64-cross deb libdevel extra arch=all libc6-hppa-cross deb libs extra arch=all libc6-m68k-cross deb libs extra arch=all libc6-mips32-mips64-cross deb libs extra arch=all libc6-mips64-cross deb libs extra arch=all libc6-mipsn32-mips64-cross deb libs extra arch=all libc6-powerpc-cross deb libs extra arch=all libc6-powerpc-ppc64-cross deb libs extra arch=all libc6-powerpcspe-cross deb libs extra arch=all libc6-ppc64-cross deb libs extra arch=all libc6-ppc64-powerpc-cross deb libs extra arch=all libc6-sh4-cross deb libs extra arch=all libc6-sparc-sparc64-cross deb libs extra arch=all libc6-sparc64-cross deb libs extra arch=all libc6.1-alpha-cross deb libs extra arch=all libc6.1-dev-alpha-cross deb libdevel extra arch=all linux-libc-dev-alpha-cross deb devel extra arch=all linux-libc-dev-hppa-cross deb devel extra arch=all linux-libc-dev-m68k-cross deb devel extra arch=all linux-libc-dev-mips64-cross deb devel extra arch=all linux-libc-dev-powerpc-cross deb devel extra arch=all linux-libc-dev-powerpcspe-cross deb devel extra arch=all linux-libc-dev-ppc64-cross deb devel extra arch=all linux-libc-dev-sh4-cross deb devel extra arch=all linux-libc-dev-sparc64-cross deb devel extra arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Matthias Klose <doko@debian.org>, Dimitri John Ledkov <xnox@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://code.launchpad.net/~cross-toolchain-base-devs/cross-toolchain-base/+git/cross-toolchain-base"
-  ],
-  "Vcs-Git": [
-    "https://git.launchpad.net/~cross-toolchain-base-devs/cross-toolchain-base/+git/cross-toolchain-base"
-  ],
-  "Version": [
-    "11"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"linux-libc-dev-alpha-cross, linux-libc-dev-hppa-cross, linux-libc-dev-m68k-cross, linux-libc-dev-mips64-cross, linux-libc-dev-powerpc-cross, linux-libc-dev-ppc64-cross, linux-libc-dev-sh4-cross, linux-libc-dev-sparc64-cross, linux-libc-dev-powerpcspe-cross, libc6.1-alpha-cross, libc6.1-dev-alpha-cross, libc6-hppa-cross, libc6-dev-hppa-cross, libc6-m68k-cross, libc6-dev-m68k-cross, libc6-mips64-cross, libc6-dev-mips64-cross, libc6-powerpc-cross, libc6-dev-powerpc-cross, libc6-ppc64-cross, libc6-dev-ppc64-cross, libc6-sh4-cross, libc6-dev-sh4-cross, libc6-sparc64-cross, libc6-dev-sparc64-cross, libc6-powerpcspe-cross, libc6-dev-powerpcspe-cross, libc6-powerpc-ppc64-cross, libc6-dev-powerpc-ppc64-cross, libc6-sparc-sparc64-cross, libc6-dev-sparc-sparc64-cross, libc6-ppc64-powerpc-cross, libc6-dev-ppc64-powerpc-cross, libc6-mips32-mips64-cross, libc6-dev-mips32-mips64-cross, libc6-mipsn32-mips64-cross, libc6-dev-mipsn32-mips64-cross"
+	],
+	"Build-Conflicts": [
+		"binutils-alpha-linux-gnu, binutils-hppa-linux-gnu, binutils-m68k-linux-gnu, binutils-mips64-linux-gnuabi64, binutils-powerpc-linux-gnu, binutils-powerpc-linux-gnuspe, binutils-powerpc64-linux-gnu, binutils-sh4-linux-gnu, binutils-sparc64-linux-gnu, dpkg-cross, libc6-alpha-cross, libc6-amd64 [i386 x32], libc6-hppa-cross, libc6-i386 [amd64 x32], libc6-m68k-cross, libc6-mips64-cross, libc6-powerpc-cross, libc6-powerpcspe-cross, libc6-ppc64-cross, libc6-sh4-cross, libc6-sparc64-cross, libc6-x32 [amd64 i386], libdebian-dpkgcross-perl, linux-libc-dev-alpha-cross, linux-libc-dev-hppa-cross, linux-libc-dev-m68k-cross, linux-libc-dev-mips64-cross, linux-libc-dev-powerpc-cross, linux-libc-dev-powerpcspe-cross, linux-libc-dev-ppc64-cross, linux-libc-dev-sh4-cross, linux-libc-dev-sparc64-cross"
+	],
+	"Build-Depends": [
+		"binutils-multiarch, dpkg (>= 1.16.0~ubuntu6), rdfind, symlinks, lsb-release, binutils-source (>= 2.28-5~), glibc-source (>= 2.24-9~), gcc-6-source (>= 6.3.0-18~), linux-source (>= 4.9), autoconf (>= 2.64), autoconf2.64, autogen, automake, bison (>= 1:2.3), chrpath, debhelper (>= 9), dpkg-dev (>= 1.15.3.1), fakeroot, file, flex, gawk, gettext, gperf (>= 3.0.1), kernel-wedge (>= 2.24), libcloog-isl-dev (>= 0.12.2~), libmpc-dev, libmpfr-dev (>= 2.3.0), rsync, xmlto, libtool, lzma, m4, make (>= 3.81), kmod | module-init-tools, patchutils, procps, quilt, realpath (>= 1.9.12), sed (>= 4.0.5-4), sharutils, tar (>= 1.22), xz-utils, asciidoc, texinfo, cpio, python3, libconfig-auto-perl, libfile-temp-perl, libfile-homedir-perl, liblocale-gettext-perl"
+	],
+	"Checksums-Sha256": [
+		"5b512d944bf522b8fbfb7bda0457b575e312f44a8bb63d35fa094e41df1332ea 6161 cross-toolchain-base-ports_11.dsc cd59c04d2bd0cec4b9d2b678660a6088304618071a01f8b6bb98623ec8376aea 39556 cross-toolchain-base-ports_11.tar.xz"
+	],
+	"Directory": [
+		"pool/main/c/cross-toolchain-base-ports"
+	],
+	"Files": [
+		"afa99e8d7d0b2b79b22b854b5d0ed46e 6161 cross-toolchain-base-ports_11.dsc 0bf2cf3cdbac33aa2d4688d7dbae1c73 39556 cross-toolchain-base-ports_11.tar.xz"
+	],
+	"Format": [
+		"3.0 (native)"
+	],
+	"Maintainer": [
+		"Cross Toolchain Base Team <cross-toolchain-base-devs@lists.launchpad.net>"
+	],
+	"Package": [
+		"cross-toolchain-base-ports"
+	],
+	"Package-List": [
+		"libc6-dev-hppa-cross deb libdevel extra arch=all libc6-dev-m68k-cross deb libdevel extra arch=all libc6-dev-mips32-mips64-cross deb libdevel extra arch=all libc6-dev-mips64-cross deb libdevel extra arch=all libc6-dev-mipsn32-mips64-cross deb libdevel extra arch=all libc6-dev-powerpc-cross deb libdevel extra arch=all libc6-dev-powerpc-ppc64-cross deb libdevel extra arch=all libc6-dev-powerpcspe-cross deb libdevel extra arch=all libc6-dev-ppc64-cross deb libdevel extra arch=all libc6-dev-ppc64-powerpc-cross deb libdevel extra arch=all libc6-dev-sh4-cross deb libdevel extra arch=all libc6-dev-sparc-sparc64-cross deb libdevel extra arch=all libc6-dev-sparc64-cross deb libdevel extra arch=all libc6-hppa-cross deb libs extra arch=all libc6-m68k-cross deb libs extra arch=all libc6-mips32-mips64-cross deb libs extra arch=all libc6-mips64-cross deb libs extra arch=all libc6-mipsn32-mips64-cross deb libs extra arch=all libc6-powerpc-cross deb libs extra arch=all libc6-powerpc-ppc64-cross deb libs extra arch=all libc6-powerpcspe-cross deb libs extra arch=all libc6-ppc64-cross deb libs extra arch=all libc6-ppc64-powerpc-cross deb libs extra arch=all libc6-sh4-cross deb libs extra arch=all libc6-sparc-sparc64-cross deb libs extra arch=all libc6-sparc64-cross deb libs extra arch=all libc6.1-alpha-cross deb libs extra arch=all libc6.1-dev-alpha-cross deb libdevel extra arch=all linux-libc-dev-alpha-cross deb devel extra arch=all linux-libc-dev-hppa-cross deb devel extra arch=all linux-libc-dev-m68k-cross deb devel extra arch=all linux-libc-dev-mips64-cross deb devel extra arch=all linux-libc-dev-powerpc-cross deb devel extra arch=all linux-libc-dev-powerpcspe-cross deb devel extra arch=all linux-libc-dev-ppc64-cross deb devel extra arch=all linux-libc-dev-sh4-cross deb devel extra arch=all linux-libc-dev-sparc64-cross deb devel extra arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Matthias Klose <doko@debian.org>, Dimitri John Ledkov <xnox@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://code.launchpad.net/~cross-toolchain-base-devs/cross-toolchain-base/+git/cross-toolchain-base"
+	],
+	"Vcs-Git": [
+		"https://git.launchpad.net/~cross-toolchain-base-devs/cross-toolchain-base/+git/cross-toolchain-base"
+	],
+	"Version": [
+		"11"
+	]
 }

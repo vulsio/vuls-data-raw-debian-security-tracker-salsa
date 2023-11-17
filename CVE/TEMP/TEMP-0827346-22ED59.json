@@ -1,71 +1,71 @@
 {
-  "header": {
-    "line": "CVE-2014-XXXX [install-sh: insecure use of /tmp]",
-    "name": "TEMP-0827346-22ED59",
-    "description": "[install-sh: insecure use of /tmp]"
-  },
-  "annotations": [
-    {
-      "line": "\t- automake1.11 1:1.11.6-4 (unimportant; bug #827346)",
-      "type": "package",
-      "package": "automake1.11",
-      "kind": "fixed",
-      "version": "1:1.11.6-4",
-      "flags": [
-        {
-          "severity": "unimportant"
-        },
-        {
-          "bug": 827346
-        }
-      ]
-    },
-    {
-      "line": "\t- automake-1.14 <removed> (unimportant; bug #827347)",
-      "type": "package",
-      "package": "automake-1.14",
-      "kind": "removed",
-      "flags": [
-        {
-          "severity": "unimportant"
-        },
-        {
-          "bug": 827347
-        }
-      ]
-    },
-    {
-      "line": "\t[jessie] - automake-1.14 1:1.14.1-4+deb8u1",
-      "type": "package",
-      "release": "jessie",
-      "package": "automake-1.14",
-      "kind": "fixed",
-      "version": "1:1.14.1-4+deb8u1"
-    },
-    {
-      "line": "\t- automake-1.15 1:1.15-3 (unimportant; bug #760455)",
-      "type": "package",
-      "package": "automake-1.15",
-      "kind": "fixed",
-      "version": "1:1.15-3",
-      "flags": [
-        {
-          "severity": "unimportant"
-        },
-        {
-          "bug": 760455
-        }
-      ]
-    },
-    {
-      "line": "\tNOTE: http://seclists.org/oss-sec/2014/q3/588",
-      "type": "NOTE",
-      "description": "http://seclists.org/oss-sec/2014/q3/588"
-    },
-    {
-      "line": "\tNOTE: Neutralised by kernel hardening",
-      "type": "NOTE",
-      "description": "Neutralised by kernel hardening"
-    }
-  ]
+	"header": {
+		"line": "CVE-2014-XXXX [install-sh: insecure use of /tmp]",
+		"name": "TEMP-0827346-22ED59",
+		"description": "[install-sh: insecure use of /tmp]"
+	},
+	"annotations": [
+		{
+			"line": "\t- automake1.11 1:1.11.6-4 (unimportant; bug #827346)",
+			"type": "package",
+			"package": "automake1.11",
+			"kind": "fixed",
+			"version": "1:1.11.6-4",
+			"flags": [
+				{
+					"severity": "unimportant"
+				},
+				{
+					"bug": 827346
+				}
+			]
+		},
+		{
+			"line": "\t- automake-1.14 <removed> (unimportant; bug #827347)",
+			"type": "package",
+			"package": "automake-1.14",
+			"kind": "removed",
+			"flags": [
+				{
+					"severity": "unimportant"
+				},
+				{
+					"bug": 827347
+				}
+			]
+		},
+		{
+			"line": "\t[jessie] - automake-1.14 1:1.14.1-4+deb8u1",
+			"type": "package",
+			"release": "jessie",
+			"package": "automake-1.14",
+			"kind": "fixed",
+			"version": "1:1.14.1-4+deb8u1"
+		},
+		{
+			"line": "\t- automake-1.15 1:1.15-3 (unimportant; bug #760455)",
+			"type": "package",
+			"package": "automake-1.15",
+			"kind": "fixed",
+			"version": "1:1.15-3",
+			"flags": [
+				{
+					"severity": "unimportant"
+				},
+				{
+					"bug": 760455
+				}
+			]
+		},
+		{
+			"line": "\tNOTE: http://seclists.org/oss-sec/2014/q3/588",
+			"type": "NOTE",
+			"description": "http://seclists.org/oss-sec/2014/q3/588"
+		},
+		{
+			"line": "\tNOTE: Neutralised by kernel hardening",
+			"type": "NOTE",
+			"description": "Neutralised by kernel hardening"
+		}
+	]
 }

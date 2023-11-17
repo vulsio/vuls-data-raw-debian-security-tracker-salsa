@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-quinn-proto-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-bytes-1+default-dev <!nocheck>, librust-rand-0.8+default-dev <!nocheck>, librust-ring-0.17+default-dev <!nocheck>, librust-rustc-hash-1+default-dev (>= 1.1-~~) <!nocheck>, librust-rustls-0.21+quic-dev <!nocheck>, librust-slab-0.4+default-dev <!nocheck>, librust-thiserror-1+default-dev (>= 1.0.21-~~) <!nocheck>, librust-tinyvec-1+alloc-dev (>= 1.1-~~) <!nocheck>, librust-tinyvec-1+default-dev (>= 1.1-~~) <!nocheck>, librust-tracing-0.1+default-dev (>= 0.1.10-~~) <!nocheck>, librust-tracing-0.1+log-dev (>= 0.1.10-~~) <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "87604cf253bab48826fc9cc576b3b578c7b3ff3238ecf17c5d19847f368d392f 3053 rust-quinn-proto_0.10.5-2.dsc 2c78e758510582acc40acb90458401172d41f1016f8c9dde89e49677afb7eec1 166064 rust-quinn-proto_0.10.5.orig.tar.gz 097a7f9d44eaa93ad48f0fc2e8ee25f3e379ff91c3165e075fe7c7851db74f4b 4716 rust-quinn-proto_0.10.5-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-quinn-proto"
-  ],
-  "Files": [
-    "51f269b118b7b45c21f07449768a152a 3053 rust-quinn-proto_0.10.5-2.dsc 218cad07020576e15c156f9a8241de5f 166064 rust-quinn-proto_0.10.5.orig.tar.gz e8df0ce916583cdb471b02bb521b57a2 4716 rust-quinn-proto_0.10.5-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-quinn-proto"
-  ],
-  "Package-List": [
-    "librust-quinn-proto-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-assert-matches-1+default-dev, librust-hex-literal-0.4+default-dev, librust-lazy-static-1+default-dev, librust-rcgen-0.11+default-dev, librust-tracing-subscriber-0.3+ansi-dev, librust-tracing-subscriber-0.3+fmt-dev, librust-tracing-subscriber-0.3+local-time-dev, librust-tracing-subscriber-0.3+time-dev"
-  ],
-  "Uploaders": [
-    "Matthias Geiger <matthias.geiger1024@tutanota.de>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/quinn-proto"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/quinn-proto]"
-  ],
-  "Version": [
-    "0.10.5-2"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-quinn-proto-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-bytes-1+default-dev <!nocheck>, librust-rand-0.8+default-dev <!nocheck>, librust-ring-0.17+default-dev <!nocheck>, librust-rustc-hash-1+default-dev (>= 1.1-~~) <!nocheck>, librust-rustls-0.21+quic-dev <!nocheck>, librust-slab-0.4+default-dev <!nocheck>, librust-thiserror-1+default-dev (>= 1.0.21-~~) <!nocheck>, librust-tinyvec-1+alloc-dev (>= 1.1-~~) <!nocheck>, librust-tinyvec-1+default-dev (>= 1.1-~~) <!nocheck>, librust-tracing-0.1+default-dev (>= 0.1.10-~~) <!nocheck>, librust-tracing-0.1+log-dev (>= 0.1.10-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"87604cf253bab48826fc9cc576b3b578c7b3ff3238ecf17c5d19847f368d392f 3053 rust-quinn-proto_0.10.5-2.dsc 2c78e758510582acc40acb90458401172d41f1016f8c9dde89e49677afb7eec1 166064 rust-quinn-proto_0.10.5.orig.tar.gz 097a7f9d44eaa93ad48f0fc2e8ee25f3e379ff91c3165e075fe7c7851db74f4b 4716 rust-quinn-proto_0.10.5-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-quinn-proto"
+	],
+	"Files": [
+		"51f269b118b7b45c21f07449768a152a 3053 rust-quinn-proto_0.10.5-2.dsc 218cad07020576e15c156f9a8241de5f 166064 rust-quinn-proto_0.10.5.orig.tar.gz e8df0ce916583cdb471b02bb521b57a2 4716 rust-quinn-proto_0.10.5-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-quinn-proto"
+	],
+	"Package-List": [
+		"librust-quinn-proto-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-assert-matches-1+default-dev, librust-hex-literal-0.4+default-dev, librust-lazy-static-1+default-dev, librust-rcgen-0.11+default-dev, librust-tracing-subscriber-0.3+ansi-dev, librust-tracing-subscriber-0.3+fmt-dev, librust-tracing-subscriber-0.3+local-time-dev, librust-tracing-subscriber-0.3+time-dev"
+	],
+	"Uploaders": [
+		"Matthias Geiger <matthias.geiger1024@tutanota.de>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/quinn-proto"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/quinn-proto]"
+	],
+	"Version": [
+		"0.10.5-2"
+	]
 }

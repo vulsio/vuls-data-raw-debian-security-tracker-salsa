@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any-amd64 i386 arm64 armel armhf powerpc ppc64el s390x alpha hppa m68k powerpcspe ppc64 sh4 sparc64 all"
-  ],
-  "Binary": [
-    "libmapnik3.0, libmapnik-dev, mapnik-utils, mapnik-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9~), libboost-filesystem-dev, libboost-program-options-dev, libboost-regex-dev, libboost-system-dev, libboost-thread-dev, libcairo-dev, libcurl4-gnutls-dev | libcurl-ssl-dev, libfreetype6-dev, libgdal-dev, libharfbuzz-dev, libicu-dev, libjpeg-dev, libmapbox-variant-dev (>= 1.1.1), libpng-dev, libpq-dev, libproj-dev, libsqlite3-dev, libtiff-dev, libtool, libwebp-dev, libxml2-dev, pkg-config, scons, zlib1g-dev"
-  ],
-  "Checksums-Sha256": [
-    "9cc1865ba12bda09be20f93d7ba0b9748b339ede82bc7b30176ba512377b4034 3013 mapnik_3.0.12+ds-3.dsc b45249bddb325598d6aeb318f2897e7e85773b2c58d9ab03336f24463e850cca 4479620 mapnik_3.0.12+ds.orig.tar.gz 833dd61dd346f2cf16bd99da812c1bd2e28329f3b9a3a6e0b42a012507629f6c 17404 mapnik_3.0.12+ds-3.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/m/mapnik"
-  ],
-  "Files": [
-    "eeebfc90e514039894f22409598b3cf9 3013 mapnik_3.0.12+ds-3.dsc 2ad16684782502b7922137eab81b5fe5 4479620 mapnik_3.0.12+ds.orig.tar.gz 4c3c5fde3a1344c3c4a9c03bd63abfc8 17404 mapnik_3.0.12+ds-3.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.mapnik.org/"
-  ],
-  "Maintainer": [
-    "Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "mapnik"
-  ],
-  "Package-List": [
-    "libmapnik-dev deb libdevel optional arch=any-amd64,i386,arm64,armel,armhf,powerpc,ppc64el,s390x,alpha,hppa,m68k,powerpcspe,ppc64,sh4,sparc64,x32 libmapnik3.0 deb libs optional arch=any-amd64,i386,arm64,armel,armhf,powerpc,ppc64el,s390x,alpha,hppa,m68k,powerpcspe,ppc64,sh4,sparc64,x32 mapnik-doc deb doc optional arch=all mapnik-utils deb utils optional arch=any-amd64,i386,arm64,armel,armhf,powerpc,ppc64el,s390x,alpha,hppa,m68k,powerpcspe,ppc64,sh4,sparc64,x32"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "libs"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "David Paleino <dapal@debian.org>, Francesco Paolo Lovergine <frankie@debian.org>, Jérémy Lal <kapouer@melix.org>, Bas Couwenberg <sebastic@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-grass/mapnik.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-grass/mapnik.git -b stretch"
-  ],
-  "Version": [
-    "3.0.12+ds-3"
-  ]
+	"Architecture": [
+		"any-amd64 i386 arm64 armel armhf powerpc ppc64el s390x alpha hppa m68k powerpcspe ppc64 sh4 sparc64 all"
+	],
+	"Binary": [
+		"libmapnik3.0, libmapnik-dev, mapnik-utils, mapnik-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9~), libboost-filesystem-dev, libboost-program-options-dev, libboost-regex-dev, libboost-system-dev, libboost-thread-dev, libcairo-dev, libcurl4-gnutls-dev | libcurl-ssl-dev, libfreetype6-dev, libgdal-dev, libharfbuzz-dev, libicu-dev, libjpeg-dev, libmapbox-variant-dev (>= 1.1.1), libpng-dev, libpq-dev, libproj-dev, libsqlite3-dev, libtiff-dev, libtool, libwebp-dev, libxml2-dev, pkg-config, scons, zlib1g-dev"
+	],
+	"Checksums-Sha256": [
+		"9cc1865ba12bda09be20f93d7ba0b9748b339ede82bc7b30176ba512377b4034 3013 mapnik_3.0.12+ds-3.dsc b45249bddb325598d6aeb318f2897e7e85773b2c58d9ab03336f24463e850cca 4479620 mapnik_3.0.12+ds.orig.tar.gz 833dd61dd346f2cf16bd99da812c1bd2e28329f3b9a3a6e0b42a012507629f6c 17404 mapnik_3.0.12+ds-3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/m/mapnik"
+	],
+	"Files": [
+		"eeebfc90e514039894f22409598b3cf9 3013 mapnik_3.0.12+ds-3.dsc 2ad16684782502b7922137eab81b5fe5 4479620 mapnik_3.0.12+ds.orig.tar.gz 4c3c5fde3a1344c3c4a9c03bd63abfc8 17404 mapnik_3.0.12+ds-3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.mapnik.org/"
+	],
+	"Maintainer": [
+		"Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"mapnik"
+	],
+	"Package-List": [
+		"libmapnik-dev deb libdevel optional arch=any-amd64,i386,arm64,armel,armhf,powerpc,ppc64el,s390x,alpha,hppa,m68k,powerpcspe,ppc64,sh4,sparc64,x32 libmapnik3.0 deb libs optional arch=any-amd64,i386,arm64,armel,armhf,powerpc,ppc64el,s390x,alpha,hppa,m68k,powerpcspe,ppc64,sh4,sparc64,x32 mapnik-doc deb doc optional arch=all mapnik-utils deb utils optional arch=any-amd64,i386,arm64,armel,armhf,powerpc,ppc64el,s390x,alpha,hppa,m68k,powerpcspe,ppc64,sh4,sparc64,x32"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"libs"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"David Paleino <dapal@debian.org>, Francesco Paolo Lovergine <frankie@debian.org>, Jérémy Lal <kapouer@melix.org>, Bas Couwenberg <sebastic@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-grass/mapnik.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-grass/mapnik.git -b stretch"
+	],
+	"Version": [
+		"3.0.12+ds-3"
+	]
 }

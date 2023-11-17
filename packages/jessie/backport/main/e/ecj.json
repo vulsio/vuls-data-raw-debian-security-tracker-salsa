@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "ecj, libecj-java, libecj-java-gcj, ecj1, ecj-gcj"
-  ],
-  "Build-Conflicts": [
-    "ecj-bootstrap-gcj (<< 3.8.2)"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), gcj-4.9-jdk, libgcj-bc, fastjar, ant, zip, unzip, dpkg (>= 1.13.19), python, time"
-  ],
-  "Build-Depends-Indep": [
-    "maven-repo-helper, default-jre-headless"
-  ],
-  "Checksums-Sha1": [
-    "5dd5efba73eab20c50263ae715c1c57cc82943b0 2297 ecj_3.11.0-5~bpo8+1.dsc 1054f5ea7d0b79878a56d9c9d0ab6a3048034cd1 901540 ecj_3.11.0.orig.tar.xz df5c45ec792756274decfae9b04558d010a29721 30940 ecj_3.11.0-5~bpo8+1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "530444e04336f3d67b778dadb3fa476a8410983270590782e8bbe67ba76d64e2 2297 ecj_3.11.0-5~bpo8+1.dsc fc02dd85bd32a4899e0e678087c38d6dd67b015baadd0ba3d6fbe7df305f93a1 901540 ecj_3.11.0.orig.tar.xz e69b39c0b4e32e8de49bd1a0c261777473a74c62d4edaa6336e73bfb413d9b76 30940 ecj_3.11.0-5~bpo8+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/e/ecj"
-  ],
-  "Files": [
-    "f2ddb9ff63503c1f18de2fe86bda2623 2297 ecj_3.11.0-5~bpo8+1.dsc 7035dadc0b08a49e6bc61a09ba551cb2 901540 ecj_3.11.0.orig.tar.xz 46311c99001ce3152a28a3f7b6572873 30940 ecj_3.11.0-5~bpo8+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.eclipse.org/jdt/core/index.php"
-  ],
-  "Maintainer": [
-    "Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "ecj"
-  ],
-  "Package-List": [
-    "ecj deb java optional arch=any ecj-gcj deb java optional arch=any ecj1 deb java optional arch=alpha,armel,armhf libecj-java deb java optional arch=all libecj-java-gcj deb java optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Matthias Klose <doko@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/viewvc/pkg-java/trunk/ecj/"
-  ],
-  "Vcs-Svn": [
-    "svn://anonscm.debian.org/pkg-java/trunk/ecj"
-  ],
-  "Version": [
-    "3.11.0-5~bpo8+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"ecj, libecj-java, libecj-java-gcj, ecj1, ecj-gcj"
+	],
+	"Build-Conflicts": [
+		"ecj-bootstrap-gcj (<< 3.8.2)"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), gcj-4.9-jdk, libgcj-bc, fastjar, ant, zip, unzip, dpkg (>= 1.13.19), python, time"
+	],
+	"Build-Depends-Indep": [
+		"maven-repo-helper, default-jre-headless"
+	],
+	"Checksums-Sha1": [
+		"5dd5efba73eab20c50263ae715c1c57cc82943b0 2297 ecj_3.11.0-5~bpo8+1.dsc 1054f5ea7d0b79878a56d9c9d0ab6a3048034cd1 901540 ecj_3.11.0.orig.tar.xz df5c45ec792756274decfae9b04558d010a29721 30940 ecj_3.11.0-5~bpo8+1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"530444e04336f3d67b778dadb3fa476a8410983270590782e8bbe67ba76d64e2 2297 ecj_3.11.0-5~bpo8+1.dsc fc02dd85bd32a4899e0e678087c38d6dd67b015baadd0ba3d6fbe7df305f93a1 901540 ecj_3.11.0.orig.tar.xz e69b39c0b4e32e8de49bd1a0c261777473a74c62d4edaa6336e73bfb413d9b76 30940 ecj_3.11.0-5~bpo8+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/e/ecj"
+	],
+	"Files": [
+		"f2ddb9ff63503c1f18de2fe86bda2623 2297 ecj_3.11.0-5~bpo8+1.dsc 7035dadc0b08a49e6bc61a09ba551cb2 901540 ecj_3.11.0.orig.tar.xz 46311c99001ce3152a28a3f7b6572873 30940 ecj_3.11.0-5~bpo8+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.eclipse.org/jdt/core/index.php"
+	],
+	"Maintainer": [
+		"Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"ecj"
+	],
+	"Package-List": [
+		"ecj deb java optional arch=any ecj-gcj deb java optional arch=any ecj1 deb java optional arch=alpha,armel,armhf libecj-java deb java optional arch=all libecj-java-gcj deb java optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Matthias Klose <doko@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/viewvc/pkg-java/trunk/ecj/"
+	],
+	"Vcs-Svn": [
+		"svn://anonscm.debian.org/pkg-java/trunk/ecj"
+	],
+	"Version": [
+		"3.11.0-5~bpo8+1"
+	]
 }

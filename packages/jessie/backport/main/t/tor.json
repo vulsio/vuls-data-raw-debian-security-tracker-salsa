@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "tor, tor-dbg, tor-geoipdb"
-  ],
-  "Build-Conflicts": [
-    "libnacl-dev, libseccomp-dev [!amd64 !i386]"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), quilt, libssl-dev, zlib1g-dev, libevent-dev (>= 1.1), binutils (>= 2.14.90.0.7), asciidoc (>= 8.2), docbook-xml, docbook-xsl, xmlto, dh-apparmor, libseccomp-dev [amd64 i386], dh-systemd [linux-any], libsystemd-dev [linux-any], pkg-config [linux-any], dh-autoreconf"
-  ],
-  "Checksums-Sha1": [
-    "a36299b8cf094fd611a84828a9f5e50c056b09ed 1870 tor_0.2.9.16-1~bpo8+1.dsc d2834128075a2c08af5ac9ac3660a2642349a2ab 5831147 tor_0.2.9.16.orig.tar.gz a4d760ab18f8aff2370ee4a97755471a105d7478 42904 tor_0.2.9.16-1~bpo8+1.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "b038211e0cc7cd3275589c1571bf458bc9530f1b3cb47fe06154b444704bd10b 1870 tor_0.2.9.16-1~bpo8+1.dsc 3a62119cdaa7fb82ad65572c339ced6bcbb544cb56b9cb0da194e2ad2736ea07 5831147 tor_0.2.9.16.orig.tar.gz fd35b16783442a43d72ce35760392d6c95154bb9dcd20ba96def7d0bda7541e4 42904 tor_0.2.9.16-1~bpo8+1.diff.gz"
-  ],
-  "Directory": [
-    "pool/main/t/tor"
-  ],
-  "Files": [
-    "fecdb38021730d32406ac0c82b2fa62d 1870 tor_0.2.9.16-1~bpo8+1.dsc 8b62f14903c7417c34f772fb4f90daf3 5831147 tor_0.2.9.16.orig.tar.gz 36ccc44e212269ab43dac6dbd6996ad5 42904 tor_0.2.9.16-1~bpo8+1.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Homepage": [
-    "https://www.torproject.org/"
-  ],
-  "Maintainer": [
-    "Peter Palfrader <weasel@debian.org>"
-  ],
-  "Package": [
-    "tor"
-  ],
-  "Package-List": [
-    "tor deb net optional arch=any tor-dbg deb debug extra arch=any tor-geoipdb deb net extra arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Vcs-Browser": [
-    "https://gitweb.torproject.org/debian/tor.git"
-  ],
-  "Vcs-Git": [
-    "https://git.torproject.org/debian/tor.git"
-  ],
-  "Version": [
-    "0.2.9.16-1~bpo8+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"tor, tor-dbg, tor-geoipdb"
+	],
+	"Build-Conflicts": [
+		"libnacl-dev, libseccomp-dev [!amd64 !i386]"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), quilt, libssl-dev, zlib1g-dev, libevent-dev (>= 1.1), binutils (>= 2.14.90.0.7), asciidoc (>= 8.2), docbook-xml, docbook-xsl, xmlto, dh-apparmor, libseccomp-dev [amd64 i386], dh-systemd [linux-any], libsystemd-dev [linux-any], pkg-config [linux-any], dh-autoreconf"
+	],
+	"Checksums-Sha1": [
+		"a36299b8cf094fd611a84828a9f5e50c056b09ed 1870 tor_0.2.9.16-1~bpo8+1.dsc d2834128075a2c08af5ac9ac3660a2642349a2ab 5831147 tor_0.2.9.16.orig.tar.gz a4d760ab18f8aff2370ee4a97755471a105d7478 42904 tor_0.2.9.16-1~bpo8+1.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"b038211e0cc7cd3275589c1571bf458bc9530f1b3cb47fe06154b444704bd10b 1870 tor_0.2.9.16-1~bpo8+1.dsc 3a62119cdaa7fb82ad65572c339ced6bcbb544cb56b9cb0da194e2ad2736ea07 5831147 tor_0.2.9.16.orig.tar.gz fd35b16783442a43d72ce35760392d6c95154bb9dcd20ba96def7d0bda7541e4 42904 tor_0.2.9.16-1~bpo8+1.diff.gz"
+	],
+	"Directory": [
+		"pool/main/t/tor"
+	],
+	"Files": [
+		"fecdb38021730d32406ac0c82b2fa62d 1870 tor_0.2.9.16-1~bpo8+1.dsc 8b62f14903c7417c34f772fb4f90daf3 5831147 tor_0.2.9.16.orig.tar.gz 36ccc44e212269ab43dac6dbd6996ad5 42904 tor_0.2.9.16-1~bpo8+1.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Homepage": [
+		"https://www.torproject.org/"
+	],
+	"Maintainer": [
+		"Peter Palfrader <weasel@debian.org>"
+	],
+	"Package": [
+		"tor"
+	],
+	"Package-List": [
+		"tor deb net optional arch=any tor-dbg deb debug extra arch=any tor-geoipdb deb net extra arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Vcs-Browser": [
+		"https://gitweb.torproject.org/debian/tor.git"
+	],
+	"Vcs-Git": [
+		"https://git.torproject.org/debian/tor.git"
+	],
+	"Version": [
+		"0.2.9.16-1~bpo8+1"
+	]
 }

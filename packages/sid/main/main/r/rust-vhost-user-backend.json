@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-vhost-user-backend-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.39-~~) <!nocheck>, librust-log-0.4+default-dev (>= 0.4.17-~~) <!nocheck>, librust-vhost-0.8+default-dev <!nocheck>, librust-vhost-0.8+vhost-user-slave-dev <!nocheck>, librust-virtio-bindings-0.2+default-dev (>= 0.2.1-~~) <!nocheck>, librust-virtio-queue-0.9+default-dev <!nocheck>, librust-vm-memory-0.12+backend-atomic-dev <!nocheck>, librust-vm-memory-0.12+backend-mmap-dev <!nocheck>, librust-vm-memory-0.12+default-dev <!nocheck>, librust-vmm-sys-util-0.11+default-dev <!nocheck>, architecture-is-64-bit"
-  ],
-  "Checksums-Sha256": [
-    "1eb330991fed2aea60fedb225d830de8db0f230f6095a6515268b317c5bfb5d2 2877 rust-vhost-user-backend_0.10.1-1.dsc ab069cdedaf18a0673766eb0a07a0f4ee3ed1b8e17fbfe4aafe5b988e2de1d01 18512 rust-vhost-user-backend_0.10.1.orig.tar.gz 3c36a374978211d82e62b8a616f14730d725fbd15cdc2804e5dd33da2797b5ed 3236 rust-vhost-user-backend_0.10.1-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-vhost-user-backend"
-  ],
-  "Files": [
-    "b80f3ac18e9bdb0b78487d30968bdb8f 2877 rust-vhost-user-backend_0.10.1-1.dsc b2c86b05272da0d2b90522f8565735c0 18512 rust-vhost-user-backend_0.10.1.orig.tar.gz 609ea1b82159f4f03be786c03f7708dd 3236 rust-vhost-user-backend_0.10.1-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-vhost-user-backend"
-  ],
-  "Package-List": [
-    "librust-vhost-user-backend-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-nix-0.26+default-dev, librust-tempfile-3+default-dev, librust-vhost-0.8+default-dev, librust-vhost-0.8+test-utils-dev, librust-vhost-0.8+vhost-user-master-dev, librust-vhost-0.8+vhost-user-slave-dev, librust-vm-memory-0.12+backend-atomic-dev, librust-vm-memory-0.12+backend-bitmap-dev, librust-vm-memory-0.12+backend-mmap-dev, librust-vm-memory-0.12+default-dev"
-  ],
-  "Uploaders": [
-    "Fabian Grünbichler <debian@fabian.gruenbichler.email>, Michael Tokarev <mjt@tls.msk.ru>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/vhost-user-backend"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/vhost-user-backend]"
-  ],
-  "Version": [
-    "0.10.1-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-vhost-user-backend-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.39-~~) <!nocheck>, librust-log-0.4+default-dev (>= 0.4.17-~~) <!nocheck>, librust-vhost-0.8+default-dev <!nocheck>, librust-vhost-0.8+vhost-user-slave-dev <!nocheck>, librust-virtio-bindings-0.2+default-dev (>= 0.2.1-~~) <!nocheck>, librust-virtio-queue-0.9+default-dev <!nocheck>, librust-vm-memory-0.12+backend-atomic-dev <!nocheck>, librust-vm-memory-0.12+backend-mmap-dev <!nocheck>, librust-vm-memory-0.12+default-dev <!nocheck>, librust-vmm-sys-util-0.11+default-dev <!nocheck>, architecture-is-64-bit"
+	],
+	"Checksums-Sha256": [
+		"1eb330991fed2aea60fedb225d830de8db0f230f6095a6515268b317c5bfb5d2 2877 rust-vhost-user-backend_0.10.1-1.dsc ab069cdedaf18a0673766eb0a07a0f4ee3ed1b8e17fbfe4aafe5b988e2de1d01 18512 rust-vhost-user-backend_0.10.1.orig.tar.gz 3c36a374978211d82e62b8a616f14730d725fbd15cdc2804e5dd33da2797b5ed 3236 rust-vhost-user-backend_0.10.1-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-vhost-user-backend"
+	],
+	"Files": [
+		"b80f3ac18e9bdb0b78487d30968bdb8f 2877 rust-vhost-user-backend_0.10.1-1.dsc b2c86b05272da0d2b90522f8565735c0 18512 rust-vhost-user-backend_0.10.1.orig.tar.gz 609ea1b82159f4f03be786c03f7708dd 3236 rust-vhost-user-backend_0.10.1-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-vhost-user-backend"
+	],
+	"Package-List": [
+		"librust-vhost-user-backend-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-nix-0.26+default-dev, librust-tempfile-3+default-dev, librust-vhost-0.8+default-dev, librust-vhost-0.8+test-utils-dev, librust-vhost-0.8+vhost-user-master-dev, librust-vhost-0.8+vhost-user-slave-dev, librust-vm-memory-0.12+backend-atomic-dev, librust-vm-memory-0.12+backend-bitmap-dev, librust-vm-memory-0.12+backend-mmap-dev, librust-vm-memory-0.12+default-dev"
+	],
+	"Uploaders": [
+		"Fabian Grünbichler <debian@fabian.gruenbichler.email>, Michael Tokarev <mjt@tls.msk.ru>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/vhost-user-backend"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/vhost-user-backend]"
+	],
+	"Version": [
+		"0.10.1-1"
+	]
 }

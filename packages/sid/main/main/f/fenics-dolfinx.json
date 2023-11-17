@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libdolfinx-dev, libdolfinx-real-dev, libdolfinx-complex-dev, libdolfinx-real0.7, libdolfinx-complex0.7, python3-dolfinx, python3-dolfinx-real, python3-dolfinx-complex, dolfinx-doc"
-  ],
-  "Build-Depends": [
-    "cmake (>= 3.12), debhelper-compat (= 13), dh-python, gfortran, catch2 (>= 3~), chrpath, libbasix-dev (>= 0.7.0~), python3-basix, libboost-chrono-dev, libboost-dev (>= 1.70), libboost-filesystem-dev, libboost-iostreams-dev, libboost-math-dev, libboost-mpi-dev, libboost-program-options-dev, libboost-serialization-dev, libboost-thread-dev, libboost-timer-dev, libeigen3-dev (>= 3.2.90), libhdf5-mpi-dev, libpugixml-dev, libsuitesparse-dev, libscotch-dev, libxml2-dev, mpi-default-dev, libpetsc-real-dev (>= 3.10), libpetsc-complex-dev (>= 3.10), libslepc-real-dev (>= 3.10), libslepc-complex-dev (>= 3.10), python3-setuptools, python3-petsc4py, python3-petsc4py-real, python3-petsc4py-complex, python3-slepc4py, python3-slepc4py-real, python3-slepc4py-complex, pkg-config, python3-all-dev:any (>= 3.7~), python3-cffi, python3-pkg-resources, python3-ffcx (>= 1:0.7.0~), python3-ffcx (<< 1:0.8.0), python3-ufl (>= 2022.2.0~), python3-mpi4py, python3-numpy (>= 1:1.21~), python3-pip, python3-ply, python3-pybind11 (>= 2.7.0~), python3-sphinx"
-  ],
-  "Build-Depends-Indep": [
-    "doxygen, graphviz, libjs-mathjax, libjs-modernizr, python3-myst-parser, python3-sphinx-rtd-theme"
-  ],
-  "Checksums-Sha256": [
-    "8455d03f458c8d9784964ce6d933d195fa5b83c1ede1f5cfc6c4a6b02c725b3c 3854 fenics-dolfinx_0.7.1-1.dsc ed701830506aa5a0b32e13cb055156505f1f2fe2f90b82486115248300c4a82a 726094 fenics-dolfinx_0.7.1.orig.tar.gz 9db2761c805275257f213a9800452a5cc98212dcb96109035567ac95b8425ea1 344948 fenics-dolfinx_0.7.1-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/f/fenics-dolfinx"
-  ],
-  "Files": [
-    "269fd4d26835da6ef1cc471ffc29a579 3854 fenics-dolfinx_0.7.1-1.dsc ada35ea1a0b5b6910bc40254b3569664 726094 fenics-dolfinx_0.7.1.orig.tar.gz e79391b75b5bbeb384ac26cc373a7586 344948 fenics-dolfinx_0.7.1-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://fenicsproject.org"
-  ],
-  "Maintainer": [
-    "Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "fenics-dolfinx"
-  ],
-  "Package-List": [
-    "dolfinx-doc deb doc optional arch=all libdolfinx-complex-dev deb libdevel optional arch=any libdolfinx-complex0.7 deb libs optional arch=any libdolfinx-dev deb libdevel optional arch=any libdolfinx-real-dev deb libdevel optional arch=any libdolfinx-real0.7 deb libs optional arch=any python3-dolfinx deb python optional arch=any python3-dolfinx-complex deb python optional arch=any python3-dolfinx-real deb python optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "@builddeps@, python3-cppimport, python3-decorator, python3-gmsh, python3-matplotlib, python3-pytest, python3-scipy"
-  ],
-  "Uploaders": [
-    "Drew Parsons <dparsons@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/science-team/fenics/fenics-dolfinx"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/science-team/fenics/fenics-dolfinx.git"
-  ],
-  "Version": [
-    "1:0.7.1-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libdolfinx-dev, libdolfinx-real-dev, libdolfinx-complex-dev, libdolfinx-real0.7, libdolfinx-complex0.7, python3-dolfinx, python3-dolfinx-real, python3-dolfinx-complex, dolfinx-doc"
+	],
+	"Build-Depends": [
+		"cmake (>= 3.12), debhelper-compat (= 13), dh-python, gfortran, catch2 (>= 3~), chrpath, libbasix-dev (>= 0.7.0~), python3-basix, libboost-chrono-dev, libboost-dev (>= 1.70), libboost-filesystem-dev, libboost-iostreams-dev, libboost-math-dev, libboost-mpi-dev, libboost-program-options-dev, libboost-serialization-dev, libboost-thread-dev, libboost-timer-dev, libeigen3-dev (>= 3.2.90), libhdf5-mpi-dev, libpugixml-dev, libsuitesparse-dev, libscotch-dev, libxml2-dev, mpi-default-dev, libpetsc-real-dev (>= 3.10), libpetsc-complex-dev (>= 3.10), libslepc-real-dev (>= 3.10), libslepc-complex-dev (>= 3.10), python3-setuptools, python3-petsc4py, python3-petsc4py-real, python3-petsc4py-complex, python3-slepc4py, python3-slepc4py-real, python3-slepc4py-complex, pkg-config, python3-all-dev:any (>= 3.7~), python3-cffi, python3-pkg-resources, python3-ffcx (>= 1:0.7.0~), python3-ffcx (<< 1:0.8.0), python3-ufl (>= 2022.2.0~), python3-mpi4py, python3-numpy (>= 1:1.21~), python3-pip, python3-ply, python3-pybind11 (>= 2.7.0~), python3-sphinx"
+	],
+	"Build-Depends-Indep": [
+		"doxygen, graphviz, libjs-mathjax, libjs-modernizr, python3-myst-parser, python3-sphinx-rtd-theme"
+	],
+	"Checksums-Sha256": [
+		"8455d03f458c8d9784964ce6d933d195fa5b83c1ede1f5cfc6c4a6b02c725b3c 3854 fenics-dolfinx_0.7.1-1.dsc ed701830506aa5a0b32e13cb055156505f1f2fe2f90b82486115248300c4a82a 726094 fenics-dolfinx_0.7.1.orig.tar.gz 9db2761c805275257f213a9800452a5cc98212dcb96109035567ac95b8425ea1 344948 fenics-dolfinx_0.7.1-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/f/fenics-dolfinx"
+	],
+	"Files": [
+		"269fd4d26835da6ef1cc471ffc29a579 3854 fenics-dolfinx_0.7.1-1.dsc ada35ea1a0b5b6910bc40254b3569664 726094 fenics-dolfinx_0.7.1.orig.tar.gz e79391b75b5bbeb384ac26cc373a7586 344948 fenics-dolfinx_0.7.1-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://fenicsproject.org"
+	],
+	"Maintainer": [
+		"Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"fenics-dolfinx"
+	],
+	"Package-List": [
+		"dolfinx-doc deb doc optional arch=all libdolfinx-complex-dev deb libdevel optional arch=any libdolfinx-complex0.7 deb libs optional arch=any libdolfinx-dev deb libdevel optional arch=any libdolfinx-real-dev deb libdevel optional arch=any libdolfinx-real0.7 deb libs optional arch=any python3-dolfinx deb python optional arch=any python3-dolfinx-complex deb python optional arch=any python3-dolfinx-real deb python optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"@builddeps@, python3-cppimport, python3-decorator, python3-gmsh, python3-matplotlib, python3-pytest, python3-scipy"
+	],
+	"Uploaders": [
+		"Drew Parsons <dparsons@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/science-team/fenics/fenics-dolfinx"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/science-team/fenics/fenics-dolfinx.git"
+	],
+	"Version": [
+		"1:0.7.1-1"
+	]
 }

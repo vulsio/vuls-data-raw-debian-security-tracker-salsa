@@ -1,50 +1,50 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libarccommon3v5, nordugrid-arc-client, nordugrid-arc-hed, nordugrid-arc-gridftpd, nordugrid-arc-cache-service, nordugrid-arc-datadelivery-service, nordugrid-arc-ldap-infosys, nordugrid-arc-aris, nordugrid-arc-egiis, nordugrid-arc-ldap-monitor, nordugrid-arc-ws-monitor, nordugrid-arc-arex, nordugrid-arc-plugins-needed, nordugrid-arc-plugins-globus, nordugrid-arc-acix-core, nordugrid-arc-acix-cache, nordugrid-arc-acix-index, nordugrid-arc-dev, nordugrid-arc-python, nordugrid-arc-java, nordugrid-arc-gridmap-utils, nordugrid-arc-ca-utils, nordugrid-arc-misc-utils, nordugrid-arc-dbg"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-autoreconf, libxml2-dev (>= 2.4.0), libssl-dev, libglibmm-2.4-dev, python-dev, libltdl-dev | libltdl7-dev | libltdl3-dev, libldap2-dev, uuid-dev, libcppunit-dev, pkg-config, libdb++-dev, libxmlsec1-dev (>= 1.2.4), libglobus-common-dev, libglobus-gssapi-gsi-dev, libglobus-ftp-client-dev, libglobus-ftp-control-dev, dh-python, default-jdk | openjdk-6-jdk | java-gcj-compat-dev, junit, openssl, swig, libnss3-dev, pylint, libxml-simple-perl, libdbi-perl, libsqlite3-dev"
-  ],
-  "Checksums-Sha256": [
-    "49f1555cd3ee8c89f828c5a437b01ae98aaac4f90c49208d5089a193db1849a6 4056 nordugrid-arc_5.3.0~rc1-1.dsc fdb923612a74255819c6926e799506078367a06a06f92bebf6eaf6f52800ee25 5637511 nordugrid-arc_5.3.0~rc1.orig.tar.gz 93bf4d9103a7d944b26c50a87f0e1ab04b29d8279306c62f366c9eaf87a64900 20552 nordugrid-arc_5.3.0~rc1-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/n/nordugrid-arc"
-  ],
-  "Files": [
-    "8efd68c80b30dd0853496676274eef64 4056 nordugrid-arc_5.3.0~rc1-1.dsc 80de4e23697a6da29137c79f347ad04a 5637511 nordugrid-arc_5.3.0~rc1.orig.tar.gz 5b1104f58b0b6f9ce6c277b6a97131ed 20552 nordugrid-arc_5.3.0~rc1-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.nordugrid.org"
-  ],
-  "Maintainer": [
-    "Mattias Ellert <mattias.ellert@physics.uu.se>"
-  ],
-  "Package": [
-    "nordugrid-arc"
-  ],
-  "Package-List": [
-    "libarccommon3v5 deb libs optional arch=any nordugrid-arc-acix-cache deb net optional arch=all nordugrid-arc-acix-core deb net optional arch=all nordugrid-arc-acix-index deb net optional arch=all nordugrid-arc-arex deb net optional arch=any nordugrid-arc-aris deb net optional arch=all nordugrid-arc-ca-utils deb net optional arch=all nordugrid-arc-cache-service deb net optional arch=any nordugrid-arc-client deb net optional arch=any nordugrid-arc-datadelivery-service deb net optional arch=any nordugrid-arc-dbg deb debug extra arch=any nordugrid-arc-dev deb libdevel optional arch=any nordugrid-arc-egiis deb net optional arch=any nordugrid-arc-gridftpd deb net optional arch=any nordugrid-arc-gridmap-utils deb net optional arch=all nordugrid-arc-hed deb net optional arch=any nordugrid-arc-java deb java optional arch=any nordugrid-arc-ldap-infosys deb net optional arch=all nordugrid-arc-ldap-monitor deb net optional arch=all nordugrid-arc-misc-utils deb net optional arch=any nordugrid-arc-plugins-globus deb net optional arch=any nordugrid-arc-plugins-needed deb net optional arch=any nordugrid-arc-python deb python optional arch=any nordugrid-arc-ws-monitor deb net optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Anders Waananen <waananen@nbi.dk>"
-  ],
-  "Version": [
-    "5.3.0~rc1-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libarccommon3v5, nordugrid-arc-client, nordugrid-arc-hed, nordugrid-arc-gridftpd, nordugrid-arc-cache-service, nordugrid-arc-datadelivery-service, nordugrid-arc-ldap-infosys, nordugrid-arc-aris, nordugrid-arc-egiis, nordugrid-arc-ldap-monitor, nordugrid-arc-ws-monitor, nordugrid-arc-arex, nordugrid-arc-plugins-needed, nordugrid-arc-plugins-globus, nordugrid-arc-acix-core, nordugrid-arc-acix-cache, nordugrid-arc-acix-index, nordugrid-arc-dev, nordugrid-arc-python, nordugrid-arc-java, nordugrid-arc-gridmap-utils, nordugrid-arc-ca-utils, nordugrid-arc-misc-utils, nordugrid-arc-dbg"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-autoreconf, libxml2-dev (>= 2.4.0), libssl-dev, libglibmm-2.4-dev, python-dev, libltdl-dev | libltdl7-dev | libltdl3-dev, libldap2-dev, uuid-dev, libcppunit-dev, pkg-config, libdb++-dev, libxmlsec1-dev (>= 1.2.4), libglobus-common-dev, libglobus-gssapi-gsi-dev, libglobus-ftp-client-dev, libglobus-ftp-control-dev, dh-python, default-jdk | openjdk-6-jdk | java-gcj-compat-dev, junit, openssl, swig, libnss3-dev, pylint, libxml-simple-perl, libdbi-perl, libsqlite3-dev"
+	],
+	"Checksums-Sha256": [
+		"49f1555cd3ee8c89f828c5a437b01ae98aaac4f90c49208d5089a193db1849a6 4056 nordugrid-arc_5.3.0~rc1-1.dsc fdb923612a74255819c6926e799506078367a06a06f92bebf6eaf6f52800ee25 5637511 nordugrid-arc_5.3.0~rc1.orig.tar.gz 93bf4d9103a7d944b26c50a87f0e1ab04b29d8279306c62f366c9eaf87a64900 20552 nordugrid-arc_5.3.0~rc1-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/n/nordugrid-arc"
+	],
+	"Files": [
+		"8efd68c80b30dd0853496676274eef64 4056 nordugrid-arc_5.3.0~rc1-1.dsc 80de4e23697a6da29137c79f347ad04a 5637511 nordugrid-arc_5.3.0~rc1.orig.tar.gz 5b1104f58b0b6f9ce6c277b6a97131ed 20552 nordugrid-arc_5.3.0~rc1-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.nordugrid.org"
+	],
+	"Maintainer": [
+		"Mattias Ellert <mattias.ellert@physics.uu.se>"
+	],
+	"Package": [
+		"nordugrid-arc"
+	],
+	"Package-List": [
+		"libarccommon3v5 deb libs optional arch=any nordugrid-arc-acix-cache deb net optional arch=all nordugrid-arc-acix-core deb net optional arch=all nordugrid-arc-acix-index deb net optional arch=all nordugrid-arc-arex deb net optional arch=any nordugrid-arc-aris deb net optional arch=all nordugrid-arc-ca-utils deb net optional arch=all nordugrid-arc-cache-service deb net optional arch=any nordugrid-arc-client deb net optional arch=any nordugrid-arc-datadelivery-service deb net optional arch=any nordugrid-arc-dbg deb debug extra arch=any nordugrid-arc-dev deb libdevel optional arch=any nordugrid-arc-egiis deb net optional arch=any nordugrid-arc-gridftpd deb net optional arch=any nordugrid-arc-gridmap-utils deb net optional arch=all nordugrid-arc-hed deb net optional arch=any nordugrid-arc-java deb java optional arch=any nordugrid-arc-ldap-infosys deb net optional arch=all nordugrid-arc-ldap-monitor deb net optional arch=all nordugrid-arc-misc-utils deb net optional arch=any nordugrid-arc-plugins-globus deb net optional arch=any nordugrid-arc-plugins-needed deb net optional arch=any nordugrid-arc-python deb python optional arch=any nordugrid-arc-ws-monitor deb net optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Anders Waananen <waananen@nbi.dk>"
+	],
+	"Version": [
+		"5.3.0~rc1-1"
+	]
 }

@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "opendnssec-common, opendnssec, opendnssec-doc, opendnssec-enforcer, opendnssec-enforcer-mysql, opendnssec-enforcer-sqlite3, opendnssec-signer, libhsm-bin"
-  ],
-  "Build-Depends": [
-    "autotools-dev, debhelper (>= 9), default-jdk, default-libmysqlclient-dev | libmysqlclient-dev, default-mysql-client | mysql-client, dh-autoreconf, dh-systemd, doxygen, graphviz, libcunit1-dev, libldns-dev (>= 1.6.14~), libsqlite3-dev, libssl-dev, libxml2-dev, libxml2-utils, lsb-base (>= 3.2-14), opensc, pkg-config, procps, sqlite3, xsltproc"
-  ],
-  "Checksums-Sha256": [
-    "40eaea4aa8ecbf209000d13f92a3bf57cdeef2e3c01aec60b1941c2bf20ac9ff 2835 opendnssec_2.0.4-3.dsc 0eb1a74b9196c0b6d91a7c75a393da80d47dbcb603817d079a9f24c3fae9d8b9 1103883 opendnssec_2.0.4.orig.tar.gz cebcee30c6d0ff32702fc6472ac0113e1524bd4e65cc0dcd2b713643791421c1 23760 opendnssec_2.0.4-3.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/o/opendnssec"
-  ],
-  "Files": [
-    "f86f4e55e07eda0024d572a52f7a7a89 2835 opendnssec_2.0.4-3.dsc a52dd5deb1d1f37f3438d070a615d449 1103883 opendnssec_2.0.4.orig.tar.gz b2001c6bb58af5e08979ea10af262eb2 23760 opendnssec_2.0.4-3.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.opendnssec.org/"
-  ],
-  "Maintainer": [
-    "Debian DNS Packaging <pkg-dns-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "opendnssec"
-  ],
-  "Package-List": [
-    "libhsm-bin deb misc extra arch=any opendnssec deb misc extra arch=all opendnssec-common deb misc extra arch=all opendnssec-doc deb doc extra arch=all opendnssec-enforcer deb admin extra arch=all opendnssec-enforcer-mysql deb admin extra arch=any opendnssec-enforcer-sqlite3 deb admin extra arch=any opendnssec-signer deb admin extra arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Ondřej Surý <ondrej@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/git/pkg-dns/opendnssec.git/"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-dns/opendnssec.git"
-  ],
-  "Version": [
-    "1:2.0.4-3"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"opendnssec-common, opendnssec, opendnssec-doc, opendnssec-enforcer, opendnssec-enforcer-mysql, opendnssec-enforcer-sqlite3, opendnssec-signer, libhsm-bin"
+	],
+	"Build-Depends": [
+		"autotools-dev, debhelper (>= 9), default-jdk, default-libmysqlclient-dev | libmysqlclient-dev, default-mysql-client | mysql-client, dh-autoreconf, dh-systemd, doxygen, graphviz, libcunit1-dev, libldns-dev (>= 1.6.14~), libsqlite3-dev, libssl-dev, libxml2-dev, libxml2-utils, lsb-base (>= 3.2-14), opensc, pkg-config, procps, sqlite3, xsltproc"
+	],
+	"Checksums-Sha256": [
+		"40eaea4aa8ecbf209000d13f92a3bf57cdeef2e3c01aec60b1941c2bf20ac9ff 2835 opendnssec_2.0.4-3.dsc 0eb1a74b9196c0b6d91a7c75a393da80d47dbcb603817d079a9f24c3fae9d8b9 1103883 opendnssec_2.0.4.orig.tar.gz cebcee30c6d0ff32702fc6472ac0113e1524bd4e65cc0dcd2b713643791421c1 23760 opendnssec_2.0.4-3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/o/opendnssec"
+	],
+	"Files": [
+		"f86f4e55e07eda0024d572a52f7a7a89 2835 opendnssec_2.0.4-3.dsc a52dd5deb1d1f37f3438d070a615d449 1103883 opendnssec_2.0.4.orig.tar.gz b2001c6bb58af5e08979ea10af262eb2 23760 opendnssec_2.0.4-3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.opendnssec.org/"
+	],
+	"Maintainer": [
+		"Debian DNS Packaging <pkg-dns-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"opendnssec"
+	],
+	"Package-List": [
+		"libhsm-bin deb misc extra arch=any opendnssec deb misc extra arch=all opendnssec-common deb misc extra arch=all opendnssec-doc deb doc extra arch=all opendnssec-enforcer deb admin extra arch=all opendnssec-enforcer-mysql deb admin extra arch=any opendnssec-enforcer-sqlite3 deb admin extra arch=any opendnssec-signer deb admin extra arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Ondřej Surý <ondrej@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/git/pkg-dns/opendnssec.git/"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-dns/opendnssec.git"
+	],
+	"Version": [
+		"1:2.0.4-3"
+	]
 }

@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-neutron-vpnaas, neutron-vpnaas-common, neutron-vpnaas-agent, neutron-vpnaas-vyatta-agent"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 10), dh-python, dh-systemd, openstack-pkg-tools (>= 51~), python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx (>= 1.2.1)"
-  ],
-  "Build-Depends-Indep": [
-    "alembic (>= 0.8.0), python-astroid, python-coverage (>= 3.6), python-fixtures (>= 3.0.0), python-hacking (>= 0.10.0), python-jinja2 (>= 2.8), python-mock (>= 2.0), python-mysqldb, python-netaddr (>= 0.7.12), python-neutron (>= 1:9.0.0~b3), python-neutron-lib (>= 0.4.0), python-oslo.concurrency (>= 3.8.0), python-oslo.config (>= 1:3.14.0), python-oslo.db (>= 4.10.0), python-oslo.log (>= 1.14.0), python-oslo.messaging (>= 5.2.0), python-oslo.reports (>= 0.6.0), python-oslo.serialization (>= 1.10.0), python-oslo.service (>= 1.10.0), python-oslo.utils (>= 3.16.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.10.0), python-psycopg2 (>= 2.5), python-requests (>= 2.10.0), python-requests-mock (>= 1.0), python-six (>= 1.9.0), python-sqlalchemy (>= 1.0.12), python-tempest (>= 1:12.1.0), python-testresources (>= 0.2.4), python-testscenarios (>= 0.4), python-testtools (>= 1.4.0), python-webob (>= 1.2.3), python-webtest (>= 2.0), subunit, tempest (>= 1:12.1.0), testrepository"
-  ],
-  "Checksums-Sha256": [
-    "42aca35f60fe435b84a4f78c5ca605bac8d6593fd7d2d7f52c607ea0870c09c8 3393 neutron-vpnaas_9.0.0-3.dsc e0bb52c25dcfb019556317a02664287c635f09f7611314626ab44cc02cc7cc37 150908 neutron-vpnaas_9.0.0.orig.tar.xz 22487896c4bd948a6a8fa4c85fdfb0801e0e3c5bef1cfa4ef47c75762e5afc3d 5164 neutron-vpnaas_9.0.0-3.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/n/neutron-vpnaas"
-  ],
-  "Files": [
-    "f755d92eb05901d8607e43b71909e433 3393 neutron-vpnaas_9.0.0-3.dsc de5723cb0863f4572ba337a7bd803d6d 150908 neutron-vpnaas_9.0.0.orig.tar.xz 207a1efe0aef206dec4b1a29ba91f5fe 5164 neutron-vpnaas_9.0.0-3.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/openstack/neutron-vpnaas"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "neutron-vpnaas"
-  ],
-  "Package-List": [
-    "neutron-vpnaas-agent deb net optional arch=all neutron-vpnaas-common deb net optional arch=all neutron-vpnaas-vyatta-agent deb net optional arch=all python-neutron-vpnaas deb python optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://git.openstack.org/cgit/openstack/deb-neutron-vpnaas?h=debian%2Fnewton"
-  ],
-  "Vcs-Git": [
-    "https://git.openstack.org/openstack/deb-neutron-vpnaas -b debian/newton"
-  ],
-  "Version": [
-    "2:9.0.0-3"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-neutron-vpnaas, neutron-vpnaas-common, neutron-vpnaas-agent, neutron-vpnaas-vyatta-agent"
+	],
+	"Build-Depends": [
+		"debhelper (>= 10), dh-python, dh-systemd, openstack-pkg-tools (>= 51~), python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx (>= 1.2.1)"
+	],
+	"Build-Depends-Indep": [
+		"alembic (>= 0.8.0), python-astroid, python-coverage (>= 3.6), python-fixtures (>= 3.0.0), python-hacking (>= 0.10.0), python-jinja2 (>= 2.8), python-mock (>= 2.0), python-mysqldb, python-netaddr (>= 0.7.12), python-neutron (>= 1:9.0.0~b3), python-neutron-lib (>= 0.4.0), python-oslo.concurrency (>= 3.8.0), python-oslo.config (>= 1:3.14.0), python-oslo.db (>= 4.10.0), python-oslo.log (>= 1.14.0), python-oslo.messaging (>= 5.2.0), python-oslo.reports (>= 0.6.0), python-oslo.serialization (>= 1.10.0), python-oslo.service (>= 1.10.0), python-oslo.utils (>= 3.16.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.10.0), python-psycopg2 (>= 2.5), python-requests (>= 2.10.0), python-requests-mock (>= 1.0), python-six (>= 1.9.0), python-sqlalchemy (>= 1.0.12), python-tempest (>= 1:12.1.0), python-testresources (>= 0.2.4), python-testscenarios (>= 0.4), python-testtools (>= 1.4.0), python-webob (>= 1.2.3), python-webtest (>= 2.0), subunit, tempest (>= 1:12.1.0), testrepository"
+	],
+	"Checksums-Sha256": [
+		"42aca35f60fe435b84a4f78c5ca605bac8d6593fd7d2d7f52c607ea0870c09c8 3393 neutron-vpnaas_9.0.0-3.dsc e0bb52c25dcfb019556317a02664287c635f09f7611314626ab44cc02cc7cc37 150908 neutron-vpnaas_9.0.0.orig.tar.xz 22487896c4bd948a6a8fa4c85fdfb0801e0e3c5bef1cfa4ef47c75762e5afc3d 5164 neutron-vpnaas_9.0.0-3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/n/neutron-vpnaas"
+	],
+	"Files": [
+		"f755d92eb05901d8607e43b71909e433 3393 neutron-vpnaas_9.0.0-3.dsc de5723cb0863f4572ba337a7bd803d6d 150908 neutron-vpnaas_9.0.0.orig.tar.xz 207a1efe0aef206dec4b1a29ba91f5fe 5164 neutron-vpnaas_9.0.0-3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/openstack/neutron-vpnaas"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"neutron-vpnaas"
+	],
+	"Package-List": [
+		"neutron-vpnaas-agent deb net optional arch=all neutron-vpnaas-common deb net optional arch=all neutron-vpnaas-vyatta-agent deb net optional arch=all python-neutron-vpnaas deb python optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://git.openstack.org/cgit/openstack/deb-neutron-vpnaas?h=debian%2Fnewton"
+	],
+	"Vcs-Git": [
+		"https://git.openstack.org/openstack/deb-neutron-vpnaas -b debian/newton"
+	],
+	"Version": [
+		"2:9.0.0-3"
+	]
 }

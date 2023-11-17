@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "pypy, pypy-tk, pypy-lib, pypy-lib-testsuite, pypy-doc, pypy-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9.20141010~), dh-exec, dpkg-dev (>= 1.17.14~), libbz2-dev, libexpat1-dev, libffi-dev, libgdbm-dev, libncurses-dev, libsqlite3-dev, libssl-dev, netbase, pkg-config, procps, pypy [any-amd64 any-i386 armhf ppc64 ppc64el s390x] <!stage1>, python (>= 2.6.6-11~), python-pycparser, python-docutils, python-sphinx (>= 1.0.7+dfsg), python2.7-dev, tcl-dev, tk-dev, valgrind [amd64 arm64 armhf i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x], zlib1g-dev"
-  ],
-  "Build-Depends-Indep": [
-    "graphviz"
-  ],
-  "Checksums-Sha256": [
-    "109861fb8cc0b996b4e6493f38b60c257c6ea4a872057d54cc8c431f6e99a7fb 2277 pypy_7.0.0+dfsg-2~bpo9+1.dsc 298eadf24f8040d81747ed44a6bd106c9ecbbff9cf82cb444864ae8037110d85 13051632 pypy_7.0.0+dfsg.orig.tar.xz e1d2e583e2f682c77b3de8551b9e949dc332887bf9b21821e78c7b0ff4b394d1 72188 pypy_7.0.0+dfsg-2~bpo9+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/pypy"
-  ],
-  "Files": [
-    "4520fd34da1d280178679497dd36c532 2277 pypy_7.0.0+dfsg-2~bpo9+1.dsc 299298ec8bfa9ab4975e8f859288c001 13051632 pypy_7.0.0+dfsg.orig.tar.xz 268d5b851588b7763b24b8a759ebb7ae 72188 pypy_7.0.0+dfsg-2~bpo9+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://pypy.org/"
-  ],
-  "Maintainer": [
-    "Stefano Rivera <stefanor@debian.org>"
-  ],
-  "Package": [
-    "pypy"
-  ],
-  "Package-List": [
-    "pypy deb python optional arch=any pypy-dev deb python optional arch=all pypy-doc deb doc optional arch=all pypy-lib deb python optional arch=any pypy-lib-testsuite deb python optional arch=all pypy-tk deb python optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.3.0"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian/pypy"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian/pypy.git"
-  ],
-  "Version": [
-    "7.0.0+dfsg-2~bpo9+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"pypy, pypy-tk, pypy-lib, pypy-lib-testsuite, pypy-doc, pypy-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9.20141010~), dh-exec, dpkg-dev (>= 1.17.14~), libbz2-dev, libexpat1-dev, libffi-dev, libgdbm-dev, libncurses-dev, libsqlite3-dev, libssl-dev, netbase, pkg-config, procps, pypy [any-amd64 any-i386 armhf ppc64 ppc64el s390x] <!stage1>, python (>= 2.6.6-11~), python-pycparser, python-docutils, python-sphinx (>= 1.0.7+dfsg), python2.7-dev, tcl-dev, tk-dev, valgrind [amd64 arm64 armhf i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x], zlib1g-dev"
+	],
+	"Build-Depends-Indep": [
+		"graphviz"
+	],
+	"Checksums-Sha256": [
+		"109861fb8cc0b996b4e6493f38b60c257c6ea4a872057d54cc8c431f6e99a7fb 2277 pypy_7.0.0+dfsg-2~bpo9+1.dsc 298eadf24f8040d81747ed44a6bd106c9ecbbff9cf82cb444864ae8037110d85 13051632 pypy_7.0.0+dfsg.orig.tar.xz e1d2e583e2f682c77b3de8551b9e949dc332887bf9b21821e78c7b0ff4b394d1 72188 pypy_7.0.0+dfsg-2~bpo9+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/pypy"
+	],
+	"Files": [
+		"4520fd34da1d280178679497dd36c532 2277 pypy_7.0.0+dfsg-2~bpo9+1.dsc 299298ec8bfa9ab4975e8f859288c001 13051632 pypy_7.0.0+dfsg.orig.tar.xz 268d5b851588b7763b24b8a759ebb7ae 72188 pypy_7.0.0+dfsg-2~bpo9+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://pypy.org/"
+	],
+	"Maintainer": [
+		"Stefano Rivera <stefanor@debian.org>"
+	],
+	"Package": [
+		"pypy"
+	],
+	"Package-List": [
+		"pypy deb python optional arch=any pypy-dev deb python optional arch=all pypy-doc deb doc optional arch=all pypy-lib deb python optional arch=any pypy-lib-testsuite deb python optional arch=all pypy-tk deb python optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.3.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/pypy"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/pypy.git"
+	],
+	"Version": [
+		"7.0.0+dfsg-2~bpo9+1"
+	]
 }

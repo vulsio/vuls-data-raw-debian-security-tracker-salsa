@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libgearman7, libgearman-dev, libgearman-dbg, libgearman7-dbg, libgearman-doc, gearman-job-server, gearman-tools, gearman"
-  ],
-  "Build-Depends": [
-    "autoconf, automake, chrpath, debhelper (>= 9), dh-autoreconf, dh-systemd, lcov, libboost-program-options-dev, libboost-system-dev, libboost-thread-dev, libcloog-ppl-dev, libcurl4-gnutls-dev (>= 7.21.7), libevent-dev, libltdl-dev, libmemcached-dev (>= 1.0), libmysqlclient-dev, libpq-dev, libsasl2-dev, libsqlite3-dev, libtool, memcached, pandora-build, pkg-config, procps, systemtap-sdt-dev [amd64 armel armhf i386 ia64 powerpc s390], uuid-dev"
-  ],
-  "Checksums-Sha1": [
-    "52bd90128f2f343a6fad58d4793bf6224a23d499 2684 gearmand_1.0.6-5.dsc 872d5e13c20a29a20e45df3afa8f3981dc52d363 935050 gearmand_1.0.6.orig.tar.gz d00dda31a40c5552f410e0cfc3aee5fe641c679b 16748 gearmand_1.0.6-5.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "0f7d8439a489c83088e44578e2ba6add4327941475f8833730a803c023453e7f 2684 gearmand_1.0.6-5.dsc 52def140a4454d9729fbc0444a49f2c54256f6f6e65168461af12256bfd5d115 935050 gearmand_1.0.6.orig.tar.gz 70f39fdf849d821ce475cde98df490fd410a75154215f212af2b97c6322ec8ad 16748 gearmand_1.0.6-5.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/g/gearmand"
-  ],
-  "Files": [
-    "5fb2ed8aa19e371c5805ae74c1844e3d 2684 gearmand_1.0.6-5.dsc e4537617926f16ba802f27c306c3c43f 935050 gearmand_1.0.6.orig.tar.gz d2ab06ffa010543122aa9eb86a77a5fa 16748 gearmand_1.0.6-5.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://launchpad.net/gearmand"
-  ],
-  "Maintainer": [
-    "Stig Sandbeck Mathisen <ssm@debian.org>"
-  ],
-  "Package": [
-    "gearmand"
-  ],
-  "Package-List": [
-    "gearman deb misc extra arch=all gearman-job-server deb misc extra arch=any gearman-tools deb misc extra arch=any libgearman-dbg deb oldlibs extra arch=all libgearman-dev deb libdevel extra arch=any libgearman-doc deb doc extra arch=all libgearman7 deb misc optional arch=any libgearman7-dbg deb debug extra arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=collab-maint/gearmand.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/collab-maint/gearmand.git"
-  ],
-  "Version": [
-    "1.0.6-5"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libgearman7, libgearman-dev, libgearman-dbg, libgearman7-dbg, libgearman-doc, gearman-job-server, gearman-tools, gearman"
+	],
+	"Build-Depends": [
+		"autoconf, automake, chrpath, debhelper (>= 9), dh-autoreconf, dh-systemd, lcov, libboost-program-options-dev, libboost-system-dev, libboost-thread-dev, libcloog-ppl-dev, libcurl4-gnutls-dev (>= 7.21.7), libevent-dev, libltdl-dev, libmemcached-dev (>= 1.0), libmysqlclient-dev, libpq-dev, libsasl2-dev, libsqlite3-dev, libtool, memcached, pandora-build, pkg-config, procps, systemtap-sdt-dev [amd64 armel armhf i386 ia64 powerpc s390], uuid-dev"
+	],
+	"Checksums-Sha1": [
+		"52bd90128f2f343a6fad58d4793bf6224a23d499 2684 gearmand_1.0.6-5.dsc 872d5e13c20a29a20e45df3afa8f3981dc52d363 935050 gearmand_1.0.6.orig.tar.gz d00dda31a40c5552f410e0cfc3aee5fe641c679b 16748 gearmand_1.0.6-5.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"0f7d8439a489c83088e44578e2ba6add4327941475f8833730a803c023453e7f 2684 gearmand_1.0.6-5.dsc 52def140a4454d9729fbc0444a49f2c54256f6f6e65168461af12256bfd5d115 935050 gearmand_1.0.6.orig.tar.gz 70f39fdf849d821ce475cde98df490fd410a75154215f212af2b97c6322ec8ad 16748 gearmand_1.0.6-5.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/gearmand"
+	],
+	"Files": [
+		"5fb2ed8aa19e371c5805ae74c1844e3d 2684 gearmand_1.0.6-5.dsc e4537617926f16ba802f27c306c3c43f 935050 gearmand_1.0.6.orig.tar.gz d2ab06ffa010543122aa9eb86a77a5fa 16748 gearmand_1.0.6-5.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://launchpad.net/gearmand"
+	],
+	"Maintainer": [
+		"Stig Sandbeck Mathisen <ssm@debian.org>"
+	],
+	"Package": [
+		"gearmand"
+	],
+	"Package-List": [
+		"gearman deb misc extra arch=all gearman-job-server deb misc extra arch=any gearman-tools deb misc extra arch=any libgearman-dbg deb oldlibs extra arch=all libgearman-dev deb libdevel extra arch=any libgearman-doc deb doc extra arch=all libgearman7 deb misc optional arch=any libgearman7-dbg deb debug extra arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=collab-maint/gearmand.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/collab-maint/gearmand.git"
+	],
+	"Version": [
+		"1.0.6-5"
+	]
 }

@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-darling-dev, librust-darling+diagnostics-dev, librust-darling+suggestions-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-darling-core-0.20.3+default-dev <!nocheck>, librust-darling-core-0.20.3+suggestions-dev <!nocheck>, librust-darling-macro-0.20.3+default-dev <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "df3de14734602edcc3bb8cd92892560a516d2e32ce43c903f6524b556cbc2041 2645 rust-darling_0.20.3-1.dsc 0209d94da627ab5605dcccf08bb18afa5009cfbef48d8a8b7d7bdbc79be25c5e 26066 rust-darling_0.20.3.orig.tar.gz 69a76b51ab4bd380d9395a9a266dac631fc8ea52f049c19f1462537c62dd3039 3128 rust-darling_0.20.3-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-darling"
-  ],
-  "Files": [
-    "86e1661a9be8a10395bb81d2f4cc7ad4 2645 rust-darling_0.20.3-1.dsc eac471e90594669e38fc4c750396e80b 26066 rust-darling_0.20.3.orig.tar.gz 30b22347d883f6b3ec64e54e887c7176 3128 rust-darling_0.20.3-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-darling"
-  ],
-  "Package-List": [
-    "librust-darling+diagnostics-dev deb rust optional arch=any librust-darling+suggestions-dev deb rust optional arch=any librust-darling-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-proc-macro2-1+default-dev, librust-quote-1+default-dev, librust-rustversion-1+default-dev, librust-syn-2+default-dev, librust-trybuild-1+default-dev"
-  ],
-  "Uploaders": [
-    "Robin Krahl <robin.krahl@ireas.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/darling"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/darling]"
-  ],
-  "Version": [
-    "0.20.3-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-darling-dev, librust-darling+diagnostics-dev, librust-darling+suggestions-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-darling-core-0.20.3+default-dev <!nocheck>, librust-darling-core-0.20.3+suggestions-dev <!nocheck>, librust-darling-macro-0.20.3+default-dev <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"df3de14734602edcc3bb8cd92892560a516d2e32ce43c903f6524b556cbc2041 2645 rust-darling_0.20.3-1.dsc 0209d94da627ab5605dcccf08bb18afa5009cfbef48d8a8b7d7bdbc79be25c5e 26066 rust-darling_0.20.3.orig.tar.gz 69a76b51ab4bd380d9395a9a266dac631fc8ea52f049c19f1462537c62dd3039 3128 rust-darling_0.20.3-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-darling"
+	],
+	"Files": [
+		"86e1661a9be8a10395bb81d2f4cc7ad4 2645 rust-darling_0.20.3-1.dsc eac471e90594669e38fc4c750396e80b 26066 rust-darling_0.20.3.orig.tar.gz 30b22347d883f6b3ec64e54e887c7176 3128 rust-darling_0.20.3-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-darling"
+	],
+	"Package-List": [
+		"librust-darling+diagnostics-dev deb rust optional arch=any librust-darling+suggestions-dev deb rust optional arch=any librust-darling-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-proc-macro2-1+default-dev, librust-quote-1+default-dev, librust-rustversion-1+default-dev, librust-syn-2+default-dev, librust-trybuild-1+default-dev"
+	],
+	"Uploaders": [
+		"Robin Krahl <robin.krahl@ireas.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/darling"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/darling]"
+	],
+	"Version": [
+		"0.20.3-1"
+	]
 }

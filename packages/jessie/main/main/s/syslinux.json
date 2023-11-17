@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "amd64 i386 all"
-  ],
-  "Binary": [
-    "syslinux, syslinux-efi, extlinux, isolinux, pxelinux, syslinux-common, syslinux-utils"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), e2fslibs-dev, gcc-multilib [amd64], libc6-dev-i386 [amd64], nasm, python, uuid-dev"
-  ],
-  "Checksums-Sha1": [
-    "70ea8d2448bbb89383efba3dd46759adf6d910b3 2348 syslinux_6.03+dfsg-5+deb8u2.dsc 6700388819fe821270f26fd311a89da34aa73f7b 7202936 syslinux_6.03+dfsg.orig.tar.xz 843198a71d55c6a9baa603f43ea9d25e5dfc829b 31304 syslinux_6.03+dfsg-5+deb8u2.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "f4434b0a7bfa05f2a5e914cc590336afc25511cdbcdbba3417b966730c089fac 2348 syslinux_6.03+dfsg-5+deb8u2.dsc 2fafb6a605eba845db29769633385ba8b1e992f61af81956a326133f06adff6f 7202936 syslinux_6.03+dfsg.orig.tar.xz ce1a23dbcdab95c967e0f5eca790dd4af3a0ebcf0ceea56a2fb49a4f378c2d2a 31304 syslinux_6.03+dfsg-5+deb8u2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/s/syslinux"
-  ],
-  "Files": [
-    "980545ccfe8398e808da65aaa691b17d 2348 syslinux_6.03+dfsg-5+deb8u2.dsc 613e89a11dc8746a87def6ac5fe48efa 7202936 syslinux_6.03+dfsg.orig.tar.xz 05f2578a65723c36f4b826c4fd9f3cc3 31304 syslinux_6.03+dfsg-5+deb8u2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.syslinux.org/"
-  ],
-  "Maintainer": [
-    "Daniel Baumann <mail@daniel-baumann.ch>"
-  ],
-  "Package": [
-    "syslinux"
-  ],
-  "Package-List": [
-    "extlinux deb admin optional arch=amd64,i386 isolinux deb admin optional arch=all pxelinux deb admin optional arch=all syslinux deb admin optional arch=amd64,i386 syslinux-common deb admin optional arch=all syslinux-efi deb admin optional arch=all syslinux-utils deb admin optional arch=amd64,i386"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "utils"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Vcs-Browser": [
-    "http://daniel-baumann.ch/gitweb/?p=debian/packages/syslinux.git"
-  ],
-  "Vcs-Git": [
-    "git://daniel-baumann.ch/git/debian/packages/syslinux.git"
-  ],
-  "Version": [
-    "3:6.03+dfsg-5+deb8u2"
-  ]
+	"Architecture": [
+		"amd64 i386 all"
+	],
+	"Binary": [
+		"syslinux, syslinux-efi, extlinux, isolinux, pxelinux, syslinux-common, syslinux-utils"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), e2fslibs-dev, gcc-multilib [amd64], libc6-dev-i386 [amd64], nasm, python, uuid-dev"
+	],
+	"Checksums-Sha1": [
+		"70ea8d2448bbb89383efba3dd46759adf6d910b3 2348 syslinux_6.03+dfsg-5+deb8u2.dsc 6700388819fe821270f26fd311a89da34aa73f7b 7202936 syslinux_6.03+dfsg.orig.tar.xz 843198a71d55c6a9baa603f43ea9d25e5dfc829b 31304 syslinux_6.03+dfsg-5+deb8u2.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"f4434b0a7bfa05f2a5e914cc590336afc25511cdbcdbba3417b966730c089fac 2348 syslinux_6.03+dfsg-5+deb8u2.dsc 2fafb6a605eba845db29769633385ba8b1e992f61af81956a326133f06adff6f 7202936 syslinux_6.03+dfsg.orig.tar.xz ce1a23dbcdab95c967e0f5eca790dd4af3a0ebcf0ceea56a2fb49a4f378c2d2a 31304 syslinux_6.03+dfsg-5+deb8u2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/s/syslinux"
+	],
+	"Files": [
+		"980545ccfe8398e808da65aaa691b17d 2348 syslinux_6.03+dfsg-5+deb8u2.dsc 613e89a11dc8746a87def6ac5fe48efa 7202936 syslinux_6.03+dfsg.orig.tar.xz 05f2578a65723c36f4b826c4fd9f3cc3 31304 syslinux_6.03+dfsg-5+deb8u2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.syslinux.org/"
+	],
+	"Maintainer": [
+		"Daniel Baumann <mail@daniel-baumann.ch>"
+	],
+	"Package": [
+		"syslinux"
+	],
+	"Package-List": [
+		"extlinux deb admin optional arch=amd64,i386 isolinux deb admin optional arch=all pxelinux deb admin optional arch=all syslinux deb admin optional arch=amd64,i386 syslinux-common deb admin optional arch=all syslinux-efi deb admin optional arch=all syslinux-utils deb admin optional arch=amd64,i386"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"utils"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Vcs-Browser": [
+		"http://daniel-baumann.ch/gitweb/?p=debian/packages/syslinux.git"
+	],
+	"Vcs-Git": [
+		"git://daniel-baumann.ch/git/debian/packages/syslinux.git"
+	],
+	"Version": [
+		"3:6.03+dfsg-5+deb8u2"
+	]
 }

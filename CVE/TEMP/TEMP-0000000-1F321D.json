@@ -1,42 +1,42 @@
 {
-  "header": {
-    "line": "CVE-2015-XXXX [BUG/MAJOR: http: don't read past buffer's end in http_replace_value]",
-    "name": "TEMP-0000000-1F321D",
-    "description": "[BUG/MAJOR: http: don't read past buffer's end in http_replace_value]"
-  },
-  "annotations": [
-    {
-      "line": "\t- haproxy 1.5.12-1",
-      "type": "package",
-      "package": "haproxy",
-      "kind": "fixed",
-      "version": "1.5.12-1"
-    },
-    {
-      "line": "\t[jessie] - haproxy <no-dsa> (Minor issue)",
-      "type": "package",
-      "release": "jessie",
-      "package": "haproxy",
-      "kind": "no-dsa",
-      "description": "Minor issue"
-    },
-    {
-      "line": "\t[squeeze] - haproxy <not-affected> (Vulnerable code not present)",
-      "type": "package",
-      "release": "squeeze",
-      "package": "haproxy",
-      "kind": "not-affected",
-      "description": "Vulnerable code not present"
-    },
-    {
-      "line": "\tNOTE: Upstream fix: http://git.haproxy.org/?p=haproxy-1.5.git;a=commit;h=8e05ac2044c6523c867ceaaae1f10486370eec89",
-      "type": "NOTE",
-      "description": "Upstream fix: http://git.haproxy.org/?p=haproxy-1.5.git;a=commit;h=8e05ac2044c6523c867ceaaae1f10486370eec89"
-    },
-    {
-      "line": "\tNOTE: Introduced by: http://git.haproxy.org/?p=haproxy-1.5.git;a=commit;h=c9c2daf283011e9b9ab0af57629af47862e14e0e",
-      "type": "NOTE",
-      "description": "Introduced by: http://git.haproxy.org/?p=haproxy-1.5.git;a=commit;h=c9c2daf283011e9b9ab0af57629af47862e14e0e"
-    }
-  ]
+	"header": {
+		"line": "CVE-2015-XXXX [BUG/MAJOR: http: don't read past buffer's end in http_replace_value]",
+		"name": "TEMP-0000000-1F321D",
+		"description": "[BUG/MAJOR: http: don't read past buffer's end in http_replace_value]"
+	},
+	"annotations": [
+		{
+			"line": "\t- haproxy 1.5.12-1",
+			"type": "package",
+			"package": "haproxy",
+			"kind": "fixed",
+			"version": "1.5.12-1"
+		},
+		{
+			"line": "\t[jessie] - haproxy <no-dsa> (Minor issue)",
+			"type": "package",
+			"release": "jessie",
+			"package": "haproxy",
+			"kind": "no-dsa",
+			"description": "Minor issue"
+		},
+		{
+			"line": "\t[squeeze] - haproxy <not-affected> (Vulnerable code not present)",
+			"type": "package",
+			"release": "squeeze",
+			"package": "haproxy",
+			"kind": "not-affected",
+			"description": "Vulnerable code not present"
+		},
+		{
+			"line": "\tNOTE: Upstream fix: http://git.haproxy.org/?p=haproxy-1.5.git;a=commit;h=8e05ac2044c6523c867ceaaae1f10486370eec89",
+			"type": "NOTE",
+			"description": "Upstream fix: http://git.haproxy.org/?p=haproxy-1.5.git;a=commit;h=8e05ac2044c6523c867ceaaae1f10486370eec89"
+		},
+		{
+			"line": "\tNOTE: Introduced by: http://git.haproxy.org/?p=haproxy-1.5.git;a=commit;h=c9c2daf283011e9b9ab0af57629af47862e14e0e",
+			"type": "NOTE",
+			"description": "Introduced by: http://git.haproxy.org/?p=haproxy-1.5.git;a=commit;h=c9c2daf283011e9b9ab0af57629af47862e14e0e"
+		}
+	]
 }

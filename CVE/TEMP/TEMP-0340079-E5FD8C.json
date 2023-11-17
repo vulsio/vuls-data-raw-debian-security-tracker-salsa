@@ -1,40 +1,40 @@
 {
-  "header": {
-    "line": "CVE-2005-XXXX [Insecure tempfile in libjpeg6b's exifautotran]",
-    "name": "TEMP-0340079-E5FD8C",
-    "description": "[Insecure tempfile in libjpeg6b's exifautotran]"
-  },
-  "annotations": [
-    {
-      "line": "\t- libjpeg6b 6b-11 (bug #340079; low)",
-      "type": "package",
-      "package": "libjpeg6b",
-      "kind": "fixed",
-      "version": "6b-11",
-      "flags": [
-        {
-          "bug": 340079
-        },
-        {
-          "severity": "low"
-        }
-      ]
-    },
-    {
-      "line": "\t[woody] - libjpeg6b <not-affected> (Does not include exifautotran)",
-      "type": "package",
-      "release": "woody",
-      "package": "libjpeg6b",
-      "kind": "not-affected",
-      "description": "Does not include exifautotran"
-    },
-    {
-      "line": "\t[sarge] - libjpeg6b <no-dsa> (Creates tempfile in cwd, only very far-fetched attack vectors applicable)",
-      "type": "package",
-      "release": "sarge",
-      "package": "libjpeg6b",
-      "kind": "no-dsa",
-      "description": "Creates tempfile in cwd, only very far-fetched attack vectors applicable"
-    }
-  ]
+	"header": {
+		"line": "CVE-2005-XXXX [Insecure tempfile in libjpeg6b's exifautotran]",
+		"name": "TEMP-0340079-E5FD8C",
+		"description": "[Insecure tempfile in libjpeg6b's exifautotran]"
+	},
+	"annotations": [
+		{
+			"line": "\t- libjpeg6b 6b-11 (bug #340079; low)",
+			"type": "package",
+			"package": "libjpeg6b",
+			"kind": "fixed",
+			"version": "6b-11",
+			"flags": [
+				{
+					"bug": 340079
+				},
+				{
+					"severity": "low"
+				}
+			]
+		},
+		{
+			"line": "\t[woody] - libjpeg6b <not-affected> (Does not include exifautotran)",
+			"type": "package",
+			"release": "woody",
+			"package": "libjpeg6b",
+			"kind": "not-affected",
+			"description": "Does not include exifautotran"
+		},
+		{
+			"line": "\t[sarge] - libjpeg6b <no-dsa> (Creates tempfile in cwd, only very far-fetched attack vectors applicable)",
+			"type": "package",
+			"release": "sarge",
+			"package": "libjpeg6b",
+			"kind": "no-dsa",
+			"description": "Creates tempfile in cwd, only very far-fetched attack vectors applicable"
+		}
+	]
 }

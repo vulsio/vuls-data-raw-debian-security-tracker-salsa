@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-proptest-dev, librust-proptest+bit-set-dev, librust-proptest+default-dev, librust-proptest+default-code-coverage-dev, librust-proptest+fork-dev, librust-proptest+lazy-static-dev, librust-proptest+quick-error-dev, librust-proptest+regex-syntax-dev, librust-proptest+rusty-fork-dev, librust-proptest+std-dev, librust-proptest+tempfile-dev, librust-proptest+timeout-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-bit-set-0.5+default-dev <!nocheck>, librust-bitflags-1+default-dev (>= 1.0.1-~~) <!nocheck>, librust-byteorder-1+std-dev (>= 1.2.3-~~) <!nocheck>, librust-byteorder-1-dev (>= 1.2.3-~~) <!nocheck>, librust-lazy-static-1+default-dev (>= 1.2-~~) <!nocheck>, librust-num-traits-0.2+std-dev (>= 0.2.2-~~) <!nocheck>, librust-num-traits-0.2-dev (>= 0.2.2-~~) <!nocheck>, librust-quick-error-2+default-dev <!nocheck>, librust-rand-0.8+alloc-dev <!nocheck>, librust-rand-0.8+std-dev <!nocheck>, librust-rand-chacha-0.3-dev <!nocheck>, librust-rand-xorshift-0.3+default-dev <!nocheck>, librust-regex-syntax-0.6+default-dev <!nocheck>, librust-rusty-fork-0.3+timeout-dev <!nocheck>, librust-rusty-fork-0.3-dev <!nocheck>, librust-tempfile-3+default-dev <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "8df1d59380b4e7856bc37f4cfc5ae8dacac4cd94b26319f82fb958626cf26b47 4033 rust-proptest_1.0.0-1.dsc 1e0d9cc07f18492d879586c92b485def06bc850da3118075cd45d50e9c95b0e5 189237 rust-proptest_1.0.0.orig.tar.gz 4a902282874cf89e1db0ee788bb840e66fd855f607fe7a0ca0eecaadf9e6395f 5540 rust-proptest_1.0.0-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-proptest"
-  ],
-  "Files": [
-    "78efba087d4865d188747a30417e857b 4033 rust-proptest_1.0.0-1.dsc 8d51f1453db7c4751e4759f1895f5574 189237 rust-proptest_1.0.0.orig.tar.gz 9ed5248ad7cda8dbff26a3d5aab5ae4b 5540 rust-proptest_1.0.0-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://altsysrq.github.io/proptest-book/proptest/index.html"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-proptest"
-  ],
-  "Package-List": [
-    "librust-proptest+bit-set-dev deb rust optional arch=any librust-proptest+default-code-coverage-dev deb rust optional arch=any librust-proptest+default-dev deb rust optional arch=any librust-proptest+fork-dev deb rust optional arch=any librust-proptest+lazy-static-dev deb rust optional arch=any librust-proptest+quick-error-dev deb rust optional arch=any librust-proptest+regex-syntax-dev deb rust optional arch=any librust-proptest+rusty-fork-dev deb rust optional arch=any librust-proptest+std-dev deb rust optional arch=any librust-proptest+tempfile-dev deb rust optional arch=any librust-proptest+timeout-dev deb rust optional arch=any librust-proptest-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.5.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-regex-1+default-dev"
-  ],
-  "Uploaders": [
-    "Ximin Luo <infinity0@debian.org>, kpcyrd <git@rxv.cc>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/proptest"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/proptest]"
-  ],
-  "Version": [
-    "1.0.0-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-proptest-dev, librust-proptest+bit-set-dev, librust-proptest+default-dev, librust-proptest+default-code-coverage-dev, librust-proptest+fork-dev, librust-proptest+lazy-static-dev, librust-proptest+quick-error-dev, librust-proptest+regex-syntax-dev, librust-proptest+rusty-fork-dev, librust-proptest+std-dev, librust-proptest+tempfile-dev, librust-proptest+timeout-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-bit-set-0.5+default-dev <!nocheck>, librust-bitflags-1+default-dev (>= 1.0.1-~~) <!nocheck>, librust-byteorder-1+std-dev (>= 1.2.3-~~) <!nocheck>, librust-byteorder-1-dev (>= 1.2.3-~~) <!nocheck>, librust-lazy-static-1+default-dev (>= 1.2-~~) <!nocheck>, librust-num-traits-0.2+std-dev (>= 0.2.2-~~) <!nocheck>, librust-num-traits-0.2-dev (>= 0.2.2-~~) <!nocheck>, librust-quick-error-2+default-dev <!nocheck>, librust-rand-0.8+alloc-dev <!nocheck>, librust-rand-0.8+std-dev <!nocheck>, librust-rand-chacha-0.3-dev <!nocheck>, librust-rand-xorshift-0.3+default-dev <!nocheck>, librust-regex-syntax-0.6+default-dev <!nocheck>, librust-rusty-fork-0.3+timeout-dev <!nocheck>, librust-rusty-fork-0.3-dev <!nocheck>, librust-tempfile-3+default-dev <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"8df1d59380b4e7856bc37f4cfc5ae8dacac4cd94b26319f82fb958626cf26b47 4033 rust-proptest_1.0.0-1.dsc 1e0d9cc07f18492d879586c92b485def06bc850da3118075cd45d50e9c95b0e5 189237 rust-proptest_1.0.0.orig.tar.gz 4a902282874cf89e1db0ee788bb840e66fd855f607fe7a0ca0eecaadf9e6395f 5540 rust-proptest_1.0.0-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-proptest"
+	],
+	"Files": [
+		"78efba087d4865d188747a30417e857b 4033 rust-proptest_1.0.0-1.dsc 8d51f1453db7c4751e4759f1895f5574 189237 rust-proptest_1.0.0.orig.tar.gz 9ed5248ad7cda8dbff26a3d5aab5ae4b 5540 rust-proptest_1.0.0-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://altsysrq.github.io/proptest-book/proptest/index.html"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-proptest"
+	],
+	"Package-List": [
+		"librust-proptest+bit-set-dev deb rust optional arch=any librust-proptest+default-code-coverage-dev deb rust optional arch=any librust-proptest+default-dev deb rust optional arch=any librust-proptest+fork-dev deb rust optional arch=any librust-proptest+lazy-static-dev deb rust optional arch=any librust-proptest+quick-error-dev deb rust optional arch=any librust-proptest+regex-syntax-dev deb rust optional arch=any librust-proptest+rusty-fork-dev deb rust optional arch=any librust-proptest+std-dev deb rust optional arch=any librust-proptest+tempfile-dev deb rust optional arch=any librust-proptest+timeout-dev deb rust optional arch=any librust-proptest-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-regex-1+default-dev"
+	],
+	"Uploaders": [
+		"Ximin Luo <infinity0@debian.org>, kpcyrd <git@rxv.cc>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/proptest"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/proptest]"
+	],
+	"Version": [
+		"1.0.0-1"
+	]
 }

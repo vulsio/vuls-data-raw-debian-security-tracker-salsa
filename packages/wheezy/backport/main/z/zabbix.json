@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "zabbix-agent, zabbix-frontend-php, zabbix-proxy-mysql, zabbix-proxy-pgsql, zabbix-proxy-sqlite3, zabbix-server-mysql, zabbix-server-pgsql"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), automake, dh-autoreconf, libcurl4-gnutls-dev, libgcrypt20-dev | libgcrypt-dev, libiksemel-dev, libldap2-dev, libmysqlclient-dev, libopenipmi-dev [!hurd-any !arm], libpq-dev, libsnmp9-dev | libsnmp-dev, libsqlite3-dev, libssh2-1-dev, libxml2-dev, pkg-config, unixodbc-dev"
-  ],
-  "Checksums-Sha1": [
-    "b2767d773891c0e0236a5e7f57f7e9eb38cd2d1c 2546 zabbix_2.2.5+dfsg-1~bpo70+1.dsc f35d5831563a51b8376a573e1729d44eeba1cd0e 5907528 zabbix_2.2.5+dfsg.orig.tar.xz 26624c4a04574f8eb1777f8f89abb3d5304996bc 188796 zabbix_2.2.5+dfsg-1~bpo70+1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "524b9bbc8969962a8e36b88442abad898c47a4364e4f49d667ccca6073de5cda 2546 zabbix_2.2.5+dfsg-1~bpo70+1.dsc 7cd16787fb4f4f1285166677990b211284009e5d87c665806cdf982d0f1f8f93 5907528 zabbix_2.2.5+dfsg.orig.tar.xz 5baec64a360c1ae8eb9680afc595b2ce85b76ff03f050c44a9836db8e33367b9 188796 zabbix_2.2.5+dfsg-1~bpo70+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/z/zabbix"
-  ],
-  "Files": [
-    "b677e116a38ad094e6b30d02fa379e74 2546 zabbix_2.2.5+dfsg-1~bpo70+1.dsc eb1d48cebd0493d34eafc375a1967145 5907528 zabbix_2.2.5+dfsg.orig.tar.xz abfc19147d45b8aab2fa83285d125afa 188796 zabbix_2.2.5+dfsg-1~bpo70+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://zabbix.com"
-  ],
-  "Maintainer": [
-    "Christoph Haas <haas@debian.org>"
-  ],
-  "Package": [
-    "zabbix"
-  ],
-  "Package-List": [
-    "zabbix-agent deb net optional zabbix-frontend-php deb net optional zabbix-proxy-mysql deb net optional zabbix-proxy-pgsql deb net optional zabbix-proxy-sqlite3 deb net optional zabbix-server-mysql deb net optional zabbix-server-pgsql deb net optional"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Uploaders": [
-    "Dmitry Smirnov <onlyjob@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=collab-maint/zabbix.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/collab-maint/zabbix.git"
-  ],
-  "Version": [
-    "1:2.2.5+dfsg-1~bpo70+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"zabbix-agent, zabbix-frontend-php, zabbix-proxy-mysql, zabbix-proxy-pgsql, zabbix-proxy-sqlite3, zabbix-server-mysql, zabbix-server-pgsql"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), automake, dh-autoreconf, libcurl4-gnutls-dev, libgcrypt20-dev | libgcrypt-dev, libiksemel-dev, libldap2-dev, libmysqlclient-dev, libopenipmi-dev [!hurd-any !arm], libpq-dev, libsnmp9-dev | libsnmp-dev, libsqlite3-dev, libssh2-1-dev, libxml2-dev, pkg-config, unixodbc-dev"
+	],
+	"Checksums-Sha1": [
+		"b2767d773891c0e0236a5e7f57f7e9eb38cd2d1c 2546 zabbix_2.2.5+dfsg-1~bpo70+1.dsc f35d5831563a51b8376a573e1729d44eeba1cd0e 5907528 zabbix_2.2.5+dfsg.orig.tar.xz 26624c4a04574f8eb1777f8f89abb3d5304996bc 188796 zabbix_2.2.5+dfsg-1~bpo70+1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"524b9bbc8969962a8e36b88442abad898c47a4364e4f49d667ccca6073de5cda 2546 zabbix_2.2.5+dfsg-1~bpo70+1.dsc 7cd16787fb4f4f1285166677990b211284009e5d87c665806cdf982d0f1f8f93 5907528 zabbix_2.2.5+dfsg.orig.tar.xz 5baec64a360c1ae8eb9680afc595b2ce85b76ff03f050c44a9836db8e33367b9 188796 zabbix_2.2.5+dfsg-1~bpo70+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/z/zabbix"
+	],
+	"Files": [
+		"b677e116a38ad094e6b30d02fa379e74 2546 zabbix_2.2.5+dfsg-1~bpo70+1.dsc eb1d48cebd0493d34eafc375a1967145 5907528 zabbix_2.2.5+dfsg.orig.tar.xz abfc19147d45b8aab2fa83285d125afa 188796 zabbix_2.2.5+dfsg-1~bpo70+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://zabbix.com"
+	],
+	"Maintainer": [
+		"Christoph Haas <haas@debian.org>"
+	],
+	"Package": [
+		"zabbix"
+	],
+	"Package-List": [
+		"zabbix-agent deb net optional zabbix-frontend-php deb net optional zabbix-proxy-mysql deb net optional zabbix-proxy-pgsql deb net optional zabbix-proxy-sqlite3 deb net optional zabbix-server-mysql deb net optional zabbix-server-pgsql deb net optional"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Uploaders": [
+		"Dmitry Smirnov <onlyjob@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=collab-maint/zabbix.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/collab-maint/zabbix.git"
+	],
+	"Version": [
+		"1:2.2.5+dfsg-1~bpo70+1"
+	]
 }

@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-glib-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-bitflags-2+default-dev (>= 2.3-~~) <!nocheck>, librust-futures-channel-0.3+default-dev <!nocheck>, librust-futures-core-0.3-dev <!nocheck>, librust-futures-executor-0.3+default-dev <!nocheck>, librust-futures-task-0.3-dev <!nocheck>, librust-futures-util-0.3+default-dev <!nocheck>, librust-gio-sys-0.18+default-dev <!nocheck>, librust-glib-macros-0.18+default-dev <!nocheck>, librust-glib-sys-0.18+default-dev <!nocheck>, librust-gobject-sys-0.18+default-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-memchr-2+default-dev (>= 2.5.0-~~) <!nocheck>, librust-once-cell-1+default-dev <!nocheck>, librust-smallvec-1+const-generics-dev <!nocheck>, librust-smallvec-1+const-new-dev <!nocheck>, librust-smallvec-1+default-dev <!nocheck>, librust-smallvec-1+union-dev <!nocheck>, librust-thiserror-1+default-dev <!nocheck>, libglib2.0-dev <!nocheck>, gir-rust-code-generator <!nocheck>, libgirepository1.0-dev <!nocheck>, xmlstarlet <!nocheck>, rustc (>= 1.70) <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "296b91a9f3b2c965e2e9ff7a2d7f6c884dd1354d49e8dd170f02073a121a75c4 3248 rust-glib_0.18.2-4.dsc 1c316afb01ce8067c5eaab1fc4f2cd47dc21ce7b6296358605e2ffab23ccbd19 267214 rust-glib_0.18.2.orig.tar.gz b7372b2adb395c09f6a69a743b7ea85364a69153b0b6c8ccab882ba5036d758a 5540 rust-glib_0.18.2-4.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-glib"
-  ],
-  "Files": [
-    "dd9c12af2341f09ac94866f368749cae 3248 rust-glib_0.18.2-4.dsc 7f29d75aafe493c387fd286557aceb5c 267214 rust-glib_0.18.2.orig.tar.gz 2691dc24c067927ffa3b9e0e693f094f 5540 rust-glib_0.18.2-4.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://gtk-rs.org/"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-glib"
-  ],
-  "Package-List": [
-    "librust-glib-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-criterion-0.5+default-dev, librust-gir-format-check-0.1+default-dev, librust-tempfile-3+default-dev, librust-trybuild2-1+default-dev"
-  ],
-  "Uploaders": [
-    "Matthias Geiger <werdahias@riseup.net>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/glib"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/glib]"
-  ],
-  "Version": [
-    "0.18.2-4"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-glib-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-bitflags-2+default-dev (>= 2.3-~~) <!nocheck>, librust-futures-channel-0.3+default-dev <!nocheck>, librust-futures-core-0.3-dev <!nocheck>, librust-futures-executor-0.3+default-dev <!nocheck>, librust-futures-task-0.3-dev <!nocheck>, librust-futures-util-0.3+default-dev <!nocheck>, librust-gio-sys-0.18+default-dev <!nocheck>, librust-glib-macros-0.18+default-dev <!nocheck>, librust-glib-sys-0.18+default-dev <!nocheck>, librust-gobject-sys-0.18+default-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-memchr-2+default-dev (>= 2.5.0-~~) <!nocheck>, librust-once-cell-1+default-dev <!nocheck>, librust-smallvec-1+const-generics-dev <!nocheck>, librust-smallvec-1+const-new-dev <!nocheck>, librust-smallvec-1+default-dev <!nocheck>, librust-smallvec-1+union-dev <!nocheck>, librust-thiserror-1+default-dev <!nocheck>, libglib2.0-dev <!nocheck>, gir-rust-code-generator <!nocheck>, libgirepository1.0-dev <!nocheck>, xmlstarlet <!nocheck>, rustc (>= 1.70) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"296b91a9f3b2c965e2e9ff7a2d7f6c884dd1354d49e8dd170f02073a121a75c4 3248 rust-glib_0.18.2-4.dsc 1c316afb01ce8067c5eaab1fc4f2cd47dc21ce7b6296358605e2ffab23ccbd19 267214 rust-glib_0.18.2.orig.tar.gz b7372b2adb395c09f6a69a743b7ea85364a69153b0b6c8ccab882ba5036d758a 5540 rust-glib_0.18.2-4.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-glib"
+	],
+	"Files": [
+		"dd9c12af2341f09ac94866f368749cae 3248 rust-glib_0.18.2-4.dsc 7f29d75aafe493c387fd286557aceb5c 267214 rust-glib_0.18.2.orig.tar.gz 2691dc24c067927ffa3b9e0e693f094f 5540 rust-glib_0.18.2-4.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://gtk-rs.org/"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-glib"
+	],
+	"Package-List": [
+		"librust-glib-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-criterion-0.5+default-dev, librust-gir-format-check-0.1+default-dev, librust-tempfile-3+default-dev, librust-trybuild2-1+default-dev"
+	],
+	"Uploaders": [
+		"Matthias Geiger <werdahias@riseup.net>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/glib"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/glib]"
+	],
+	"Version": [
+		"0.18.2-4"
+	]
 }

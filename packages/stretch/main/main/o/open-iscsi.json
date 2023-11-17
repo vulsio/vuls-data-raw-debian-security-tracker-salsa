@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "linux-any"
-  ],
-  "Binary": [
-    "open-iscsi, iscsiuio, open-iscsi-udeb"
-  ],
-  "Build-Depends": [
-    "autotools-dev, bison, bzip2, debhelper (>= 9), dh-autoreconf, dh-exec, dh-systemd, dpkg-dev (>= 1.16.1~), flex, libisns-dev (>= 0.96-4~), libmount-dev, po-debconf"
-  ],
-  "Checksums-Sha256": [
-    "c079b07ad9ac260a26b975103333d0086cc712ebfa07ef77c5e9f529c6ecc55f 2489 open-iscsi_2.0.874-3~deb9u1.dsc d0071bf00fdf6591cd6ea5caf89fa57ada03d263da1f80f17deff76acf7419e1 625039 open-iscsi_2.0.874.orig.tar.gz 639373ef6005739d9ed7838357491dc11453f21e791f723ffcb6da533eb6ed53 56116 open-iscsi_2.0.874-3~deb9u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/o/open-iscsi"
-  ],
-  "Files": [
-    "fcc0ad59d766b50a0e6a72dcca918ade 2489 open-iscsi_2.0.874-3~deb9u1.dsc caf2c92bfe58c07f781ab74942e4b9f2 625039 open-iscsi_2.0.874.orig.tar.gz 21a823fb4ec9204254cf650a1807ee2c 56116 open-iscsi_2.0.874-3~deb9u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.open-iscsi.com/"
-  ],
-  "Maintainer": [
-    "Debian iSCSI Maintainers <pkg-iscsi-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "open-iscsi"
-  ],
-  "Package-List": [
-    "iscsiuio deb net optional arch=linux-any open-iscsi deb net optional arch=linux-any open-iscsi-udeb udeb debian-installer optional arch=amd64,arm64,armhf,i386,ia64,mips,mipsel,powerpc,ppc64,ppc64el,s390x"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "autopkgtest, python3, python3-netifaces, qemu-system, qemu-utils, targetcli-fb"
-  ],
-  "Uploaders": [
-    "Ritesh Raj Sarraf <rrs@debian.org>, Christian Seiler <christian@iwakd.de>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-iscsi/open-iscsi.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-iscsi/open-iscsi.git"
-  ],
-  "Version": [
-    "2.0.874-3~deb9u1"
-  ]
+	"Architecture": [
+		"linux-any"
+	],
+	"Binary": [
+		"open-iscsi, iscsiuio, open-iscsi-udeb"
+	],
+	"Build-Depends": [
+		"autotools-dev, bison, bzip2, debhelper (>= 9), dh-autoreconf, dh-exec, dh-systemd, dpkg-dev (>= 1.16.1~), flex, libisns-dev (>= 0.96-4~), libmount-dev, po-debconf"
+	],
+	"Checksums-Sha256": [
+		"c079b07ad9ac260a26b975103333d0086cc712ebfa07ef77c5e9f529c6ecc55f 2489 open-iscsi_2.0.874-3~deb9u1.dsc d0071bf00fdf6591cd6ea5caf89fa57ada03d263da1f80f17deff76acf7419e1 625039 open-iscsi_2.0.874.orig.tar.gz 639373ef6005739d9ed7838357491dc11453f21e791f723ffcb6da533eb6ed53 56116 open-iscsi_2.0.874-3~deb9u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/o/open-iscsi"
+	],
+	"Files": [
+		"fcc0ad59d766b50a0e6a72dcca918ade 2489 open-iscsi_2.0.874-3~deb9u1.dsc caf2c92bfe58c07f781ab74942e4b9f2 625039 open-iscsi_2.0.874.orig.tar.gz 21a823fb4ec9204254cf650a1807ee2c 56116 open-iscsi_2.0.874-3~deb9u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.open-iscsi.com/"
+	],
+	"Maintainer": [
+		"Debian iSCSI Maintainers <pkg-iscsi-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"open-iscsi"
+	],
+	"Package-List": [
+		"iscsiuio deb net optional arch=linux-any open-iscsi deb net optional arch=linux-any open-iscsi-udeb udeb debian-installer optional arch=amd64,arm64,armhf,i386,ia64,mips,mipsel,powerpc,ppc64,ppc64el,s390x"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"autopkgtest, python3, python3-netifaces, qemu-system, qemu-utils, targetcli-fb"
+	],
+	"Uploaders": [
+		"Ritesh Raj Sarraf <rrs@debian.org>, Christian Seiler <christian@iwakd.de>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-iscsi/open-iscsi.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-iscsi/open-iscsi.git"
+	],
+	"Version": [
+		"2.0.874-3~deb9u1"
+	]
 }

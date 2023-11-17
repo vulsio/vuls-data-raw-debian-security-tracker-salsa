@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "upstart, upstart-monitor, upstart-dconf-bridge, libupstart1, libupstart-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), pkg-config (>= 0.22), libnih-dev (>= 1.0.3), libnih-dbus-dev (>= 1.0.3), nih-dbus-tool (>= 1.0.3), libdbus-1-dev (>= 1.2.16), libexpat1-dev (>= 2.0.0), libudev-dev (>= 151-5), libjson-c-dev (>= 0.10), dbus, bash-completion, dh-autoreconf, autopoint, python3, automake (>= 1.12), libdconf-dev, libselinux1-dev [linux-any]"
-  ],
-  "Checksums-Sha1": [
-    "5d7063ffff9a12b78efe32976e75da92fe51297c 2484 upstart_1.11-5.dsc 2b8d5acde086a3a5b7d33a049c516eed9143cfc8 1538128 upstart_1.11.orig.tar.gz c9153d210cffe9d5506f364573fbf4a8b3c5d1b9 31403 upstart_1.11-5.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "1846893d8f0b789c570f91077ef7e64236a89d5d354d2a1ac62549162c3a7ce3 2484 upstart_1.11-5.dsc 1763f6899d1d472727a89f110a8c754d5859cce044440878f12e5280c8752b7c 1538128 upstart_1.11.orig.tar.gz 7250b16eb18782af29e90c3ea591a574dd8dfba1fe56f4d9c395ed7e173a7e40 31403 upstart_1.11-5.diff.gz"
-  ],
-  "Directory": [
-    "pool/main/u/upstart"
-  ],
-  "Files": [
-    "2b5558ce5d808bad4ac7b9f90573ec7d 2484 upstart_1.11-5.dsc e42aa0aa1c82bf583b2ce94a008443ed 1538128 upstart_1.11.orig.tar.gz b35fe8c6186a5027298d10a11e6d6fc3 31403 upstart_1.11-5.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Homepage": [
-    "http://upstart.ubuntu.com/"
-  ],
-  "Maintainer": [
-    "Steve Langasek <vorlon@debian.org>"
-  ],
-  "Package": [
-    "upstart"
-  ],
-  "Package-List": [
-    "libupstart-dev deb libdevel optional arch=any libupstart1 deb admin optional arch=any upstart deb admin extra arch=any upstart-dconf-bridge deb utils optional arch=any upstart-monitor deb utils optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "admin"
-  ],
-  "Standards-Version": [
-    "3.8.4"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Scott James Remnant <scott@netsplit.com>, James Hunt <james.hunt@ubuntu.com>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/loggerhead/collab-maint/upstart/trunk/"
-  ],
-  "Vcs-Bzr": [
-    "nosmart+http://bzr.debian.org/bzr/collab-maint/upstart/trunk/"
-  ],
-  "Version": [
-    "1.11-5"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"upstart, upstart-monitor, upstart-dconf-bridge, libupstart1, libupstart-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), pkg-config (>= 0.22), libnih-dev (>= 1.0.3), libnih-dbus-dev (>= 1.0.3), nih-dbus-tool (>= 1.0.3), libdbus-1-dev (>= 1.2.16), libexpat1-dev (>= 2.0.0), libudev-dev (>= 151-5), libjson-c-dev (>= 0.10), dbus, bash-completion, dh-autoreconf, autopoint, python3, automake (>= 1.12), libdconf-dev, libselinux1-dev [linux-any]"
+	],
+	"Checksums-Sha1": [
+		"5d7063ffff9a12b78efe32976e75da92fe51297c 2484 upstart_1.11-5.dsc 2b8d5acde086a3a5b7d33a049c516eed9143cfc8 1538128 upstart_1.11.orig.tar.gz c9153d210cffe9d5506f364573fbf4a8b3c5d1b9 31403 upstart_1.11-5.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"1846893d8f0b789c570f91077ef7e64236a89d5d354d2a1ac62549162c3a7ce3 2484 upstart_1.11-5.dsc 1763f6899d1d472727a89f110a8c754d5859cce044440878f12e5280c8752b7c 1538128 upstart_1.11.orig.tar.gz 7250b16eb18782af29e90c3ea591a574dd8dfba1fe56f4d9c395ed7e173a7e40 31403 upstart_1.11-5.diff.gz"
+	],
+	"Directory": [
+		"pool/main/u/upstart"
+	],
+	"Files": [
+		"2b5558ce5d808bad4ac7b9f90573ec7d 2484 upstart_1.11-5.dsc e42aa0aa1c82bf583b2ce94a008443ed 1538128 upstart_1.11.orig.tar.gz b35fe8c6186a5027298d10a11e6d6fc3 31403 upstart_1.11-5.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Homepage": [
+		"http://upstart.ubuntu.com/"
+	],
+	"Maintainer": [
+		"Steve Langasek <vorlon@debian.org>"
+	],
+	"Package": [
+		"upstart"
+	],
+	"Package-List": [
+		"libupstart-dev deb libdevel optional arch=any libupstart1 deb admin optional arch=any upstart deb admin extra arch=any upstart-dconf-bridge deb utils optional arch=any upstart-monitor deb utils optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"admin"
+	],
+	"Standards-Version": [
+		"3.8.4"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Scott James Remnant <scott@netsplit.com>, James Hunt <james.hunt@ubuntu.com>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/loggerhead/collab-maint/upstart/trunk/"
+	],
+	"Vcs-Bzr": [
+		"nosmart+http://bzr.debian.org/bzr/collab-maint/upstart/trunk/"
+	],
+	"Version": [
+		"1.11-5"
+	]
 }

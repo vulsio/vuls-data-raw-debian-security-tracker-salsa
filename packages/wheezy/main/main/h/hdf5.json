@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libhdf5-7, libhdf5-7-dbg, libhdf5-dev, libhdf5-serial-dev, libhdf5-openmpi-7, libhdf5-openmpi-dev, libhdf5-openmpi-7-dbg, libhdf5-mpich2-7, libhdf5-mpich2-dev, libhdf5-mpich2-7-dbg, libhdf5-mpi-dev, libhdf5-doc, hdf5-helpers, hdf5-tools"
-  ],
-  "Build-Depends": [
-    "libmpich2-dev, zlib1g-dev, libopenmpi-dev [!hppa !mips !mipsel !s390 !s390x !sh4 !m68k], libjpeg-dev, debhelper (>> 7), sed (>= 4.1.5), gfortran, libibverbs-dev [!arm !hppa !mips !mipsel !s390 !s390x !kfreebsd-i386 !kfreebsd-amd64 !hurd-i386 !sh4], sharutils, mpi-default-dev"
-  ],
-  "Checksums-Sha1": [
-    "da1c2389003ef6a95d8941d9d6e5fb128bd87ec4 2478 hdf5_1.8.8-9.dsc 59158472498928853f9899880c22130c54108869 24065051 hdf5_1.8.8.orig-html.tar.gz 2f674afb21f2806e655fa727dfc3f2c8bb554945 7981566 hdf5_1.8.8.orig.tar.gz c4aa1a0b7a42e7f26223b0d02ac1d6092222855a 92805 hdf5_1.8.8-9.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "7919b4976e75d444a4c79ce54694fcee966b6e4353753d445d1730469efdcb71 2478 hdf5_1.8.8-9.dsc 278ff78bf80acef6569fa5d67abca1f8503e053cf13776bbc003ae64b1a7d6cb 24065051 hdf5_1.8.8.orig-html.tar.gz da36bcc5502c49793a7a2eca82c971e6331bf6dedce998888b936bd3f46d4039 7981566 hdf5_1.8.8.orig.tar.gz 9a142fd8bc86157be1b20d78d12f3ca9c44e00c3ad594dc1c794119dabfda9ed 92805 hdf5_1.8.8-9.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/h/hdf5"
-  ],
-  "Files": [
-    "cfe39cb14912181b29caddcf7bf6b58c 2478 hdf5_1.8.8-9.dsc f76d8d7e0a1d3c2619e9b7af8cf8fca2 24065051 hdf5_1.8.8.orig-html.tar.gz 1196e668f5592bfb50d1de162eb16cff 7981566 hdf5_1.8.8.orig.tar.gz b66c5fcdbc9167177157abcedc1f593e 92805 hdf5_1.8.8-9.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://hdfgroup.org/HDF5/"
-  ],
-  "Maintainer": [
-    "Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "hdf5"
-  ],
-  "Package-List": [
-    "hdf5-helpers deb science optional hdf5-tools deb science optional libhdf5-7 deb libs optional libhdf5-7-dbg deb debug extra libhdf5-dev deb libdevel optional libhdf5-doc deb doc optional libhdf5-mpi-dev deb libdevel extra libhdf5-mpich2-7 deb libs extra libhdf5-mpich2-7-dbg deb debug extra libhdf5-mpich2-dev deb libdevel extra libhdf5-openmpi-7 deb libs extra libhdf5-openmpi-7-dbg deb debug extra libhdf5-openmpi-dev deb libdevel extra libhdf5-serial-dev deb libdevel optional"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "libs"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Francesco Paolo Lovergine <frankie@debian.org>, Sylvestre Ledru <sylvestre@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://git.debian.org/?p=pkg-grass/hdf5.git"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/git/pkg-grass/hdf5.git"
-  ],
-  "Version": [
-    "1.8.8-9"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libhdf5-7, libhdf5-7-dbg, libhdf5-dev, libhdf5-serial-dev, libhdf5-openmpi-7, libhdf5-openmpi-dev, libhdf5-openmpi-7-dbg, libhdf5-mpich2-7, libhdf5-mpich2-dev, libhdf5-mpich2-7-dbg, libhdf5-mpi-dev, libhdf5-doc, hdf5-helpers, hdf5-tools"
+	],
+	"Build-Depends": [
+		"libmpich2-dev, zlib1g-dev, libopenmpi-dev [!hppa !mips !mipsel !s390 !s390x !sh4 !m68k], libjpeg-dev, debhelper (>> 7), sed (>= 4.1.5), gfortran, libibverbs-dev [!arm !hppa !mips !mipsel !s390 !s390x !kfreebsd-i386 !kfreebsd-amd64 !hurd-i386 !sh4], sharutils, mpi-default-dev"
+	],
+	"Checksums-Sha1": [
+		"da1c2389003ef6a95d8941d9d6e5fb128bd87ec4 2478 hdf5_1.8.8-9.dsc 59158472498928853f9899880c22130c54108869 24065051 hdf5_1.8.8.orig-html.tar.gz 2f674afb21f2806e655fa727dfc3f2c8bb554945 7981566 hdf5_1.8.8.orig.tar.gz c4aa1a0b7a42e7f26223b0d02ac1d6092222855a 92805 hdf5_1.8.8-9.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"7919b4976e75d444a4c79ce54694fcee966b6e4353753d445d1730469efdcb71 2478 hdf5_1.8.8-9.dsc 278ff78bf80acef6569fa5d67abca1f8503e053cf13776bbc003ae64b1a7d6cb 24065051 hdf5_1.8.8.orig-html.tar.gz da36bcc5502c49793a7a2eca82c971e6331bf6dedce998888b936bd3f46d4039 7981566 hdf5_1.8.8.orig.tar.gz 9a142fd8bc86157be1b20d78d12f3ca9c44e00c3ad594dc1c794119dabfda9ed 92805 hdf5_1.8.8-9.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/h/hdf5"
+	],
+	"Files": [
+		"cfe39cb14912181b29caddcf7bf6b58c 2478 hdf5_1.8.8-9.dsc f76d8d7e0a1d3c2619e9b7af8cf8fca2 24065051 hdf5_1.8.8.orig-html.tar.gz 1196e668f5592bfb50d1de162eb16cff 7981566 hdf5_1.8.8.orig.tar.gz b66c5fcdbc9167177157abcedc1f593e 92805 hdf5_1.8.8-9.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://hdfgroup.org/HDF5/"
+	],
+	"Maintainer": [
+		"Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"hdf5"
+	],
+	"Package-List": [
+		"hdf5-helpers deb science optional hdf5-tools deb science optional libhdf5-7 deb libs optional libhdf5-7-dbg deb debug extra libhdf5-dev deb libdevel optional libhdf5-doc deb doc optional libhdf5-mpi-dev deb libdevel extra libhdf5-mpich2-7 deb libs extra libhdf5-mpich2-7-dbg deb debug extra libhdf5-mpich2-dev deb libdevel extra libhdf5-openmpi-7 deb libs extra libhdf5-openmpi-7-dbg deb debug extra libhdf5-openmpi-dev deb libdevel extra libhdf5-serial-dev deb libdevel optional"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"libs"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Francesco Paolo Lovergine <frankie@debian.org>, Sylvestre Ledru <sylvestre@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://git.debian.org/?p=pkg-grass/hdf5.git"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/git/pkg-grass/hdf5.git"
+	],
+	"Version": [
+		"1.8.8-9"
+	]
 }

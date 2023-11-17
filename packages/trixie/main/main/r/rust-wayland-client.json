@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-wayland-client-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-bitflags-1+default-dev (>= 1.2-~~) <!nocheck>, librust-nix-0.26-dev <!nocheck>, librust-wayland-backend-0.1+default-dev <!nocheck>, librust-wayland-scanner-0.30+default-dev <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "08967018c9490255a3756b5a4fbc784622cd86b4c3c9d0dfdba5087ba44fea8d 2535 rust-wayland-client_0.30.2-1.dsc 5b3ee97e8928374b596461e2617f4283bcf6d7d029dde4e33f89e74b013d1ff0 62545 rust-wayland-client_0.30.2.orig.tar.gz 730936318f6c026aecb10944c24160bcf82831f742b323f8e3b0fe4503cde49e 3488 rust-wayland-client_0.30.2-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-wayland-client"
-  ],
-  "Files": [
-    "9f49d420112c320be785bbf3829ae6c6 2535 rust-wayland-client_0.30.2-1.dsc a378b6d1c6199033bc80674f3dc14906 62545 rust-wayland-client_0.30.2.orig.tar.gz 5df0593c54191e503bc19f57a6f36301 3488 rust-wayland-client_0.30.2-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-wayland-client"
-  ],
-  "Package-List": [
-    "librust-wayland-client-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-futures-channel-0.3+default-dev, librust-futures-util-0.3+default-dev, librust-tempfile-3+default-dev"
-  ],
-  "Uploaders": [
-    "James McCoy <jamessan@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/wayland-client"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/wayland-client]"
-  ],
-  "Version": [
-    "0.30.2-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-wayland-client-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-bitflags-1+default-dev (>= 1.2-~~) <!nocheck>, librust-nix-0.26-dev <!nocheck>, librust-wayland-backend-0.1+default-dev <!nocheck>, librust-wayland-scanner-0.30+default-dev <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"08967018c9490255a3756b5a4fbc784622cd86b4c3c9d0dfdba5087ba44fea8d 2535 rust-wayland-client_0.30.2-1.dsc 5b3ee97e8928374b596461e2617f4283bcf6d7d029dde4e33f89e74b013d1ff0 62545 rust-wayland-client_0.30.2.orig.tar.gz 730936318f6c026aecb10944c24160bcf82831f742b323f8e3b0fe4503cde49e 3488 rust-wayland-client_0.30.2-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-wayland-client"
+	],
+	"Files": [
+		"9f49d420112c320be785bbf3829ae6c6 2535 rust-wayland-client_0.30.2-1.dsc a378b6d1c6199033bc80674f3dc14906 62545 rust-wayland-client_0.30.2.orig.tar.gz 5df0593c54191e503bc19f57a6f36301 3488 rust-wayland-client_0.30.2-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-wayland-client"
+	],
+	"Package-List": [
+		"librust-wayland-client-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-futures-channel-0.3+default-dev, librust-futures-util-0.3+default-dev, librust-tempfile-3+default-dev"
+	],
+	"Uploaders": [
+		"James McCoy <jamessan@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/wayland-client"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/wayland-client]"
+	],
+	"Version": [
+		"0.30.2-1"
+	]
 }

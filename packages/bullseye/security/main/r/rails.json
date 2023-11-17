@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "ruby-activesupport, ruby-activerecord, ruby-activemodel, ruby-activejob, ruby-actionview, ruby-actionpack, ruby-actionmailbox, ruby-actionmailer, ruby-actioncable, ruby-activestorage, ruby-actiontext, ruby-railties, ruby-rails, rails"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), gem2deb, rollup, node-rollup-plugin-node-resolve (>= 11~), node-rollup-plugin-commonjs (>= 15~), node-rollup-plugin-babel (>= 5.2~), node-babel7, webpack, ruby-byebug, puma (>= 4.1~), racc, rake (>= 11.1), ruby-bcrypt (<< 3.2), ruby-bcrypt (>= 3.1.11), ruby-benchmark-ips, ruby-blade, ruby-blade-sauce-labs-plugin, ruby-capybara (>= 2.15), ruby-chromedriver-helper, ruby-connection-pool, ruby-dalli, ruby-delayed-job, ruby-delayed-job-active-record, ruby-hiredis, ruby-image-processing (<< 2.0), ruby-json (>= 2.0.0), ruby-libxml, ruby-listen (>= 3.2~), ruby-minitest-reporters, ruby-mysql2 (>= 0.4.10), ruby-pg (>= 0.18.0), ruby-rack-cache (<< 2.0), ruby-redis (<< 5.0), ruby-redis (>= 4.0), ruby-redis-namespace, ruby-sass-rails (>= 6.0~), ruby-sdoc, ruby-selenium-webdriver, ruby-sequel, ruby-sidekiq, ruby-sprockets-export, ruby-sqlite3, ruby-turbolinks (>= 5.0), ruby-uglifier, ruby-webmock, ruby-builder (<< 4.0) <!nocheck>, ruby-bundler <!nocheck>, ruby-concurrent (<< 2.0) <!nocheck>, ruby-concurrent (>= 1.0.2) <!nocheck>, ruby-erubi (<< 2.0) <!nocheck>, ruby-globalid <!nocheck>, ruby-i18n (<< 2.0) <!nocheck>, ruby-i18n (>= 0.7) <!nocheck>, ruby-mail (<< 3.0) <!nocheck>, ruby-mail (>= 2.7.1) <!nocheck>, ruby-marcel <!nocheck>, ruby-method-source <!nocheck>, ruby-minitest (<< 6.0) <!nocheck>, ruby-nio4r (<< 3.0) <!nocheck>, ruby-nio4r (>= 2.0) <!nocheck>, ruby-nokogiri (>= 1.8.5) <!nocheck>, ruby-rack (<< 3.0) <!nocheck>, ruby-rack (>= 2.0.8) <!nocheck>, ruby-rack-test (>= 0.6.3) <!nocheck>, ruby-rails-dom-testing (<< 3.0) <!nocheck>, ruby-rails-dom-testing (>= 2.0) <!nocheck>, ruby-rails-html-sanitizer (<< 2.0) <!nocheck>, ruby-rails-html-sanitizer (>= 1.2~) <!nocheck>, ruby-sprockets-rails (>= 2.3.2~) <!nocheck>, ruby-thor (<< 2.0) <!nocheck>, ruby-thor (>= 0.20.3) <!nocheck>, ruby-tzinfo (<< 2.0) <!nocheck>, ruby-websocket-driver <!nocheck>, sqlite3 <!nocheck>, ruby-zeitwerk (<< 3.0) <!nocheck>, redis-server <!nocheck>, procps <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "464d29755a467026afce3ce3a33653993c43404ab1b2b2ffbf45eb71aa65f68e 4492 rails_6.0.3.7+dfsg-2+deb11u2.dsc f1adfb152227b0b840a85f3c326db91191149021adb2c5afbed99c6d32a94582 13967752 rails_6.0.3.7+dfsg.orig.tar.xz acc1ceaf6efb5d4a1ba53bf56ab762a975f86c1d90bc885ca9161c2106967410 118052 rails_6.0.3.7+dfsg-2+deb11u2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/r/rails"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://rubyonrails.org/"
-  ],
-  "Maintainer": [
-    "Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "rails"
-  ],
-  "Package-List": [
-    "rails deb ruby optional arch=all ruby-actioncable deb ruby optional arch=all ruby-actionmailbox deb ruby optional arch=all ruby-actionmailer deb ruby optional arch=all ruby-actionpack deb ruby optional arch=all ruby-actiontext deb ruby optional arch=all ruby-actionview deb ruby optional arch=all ruby-activejob deb ruby optional arch=all ruby-activemodel deb ruby optional arch=all ruby-activerecord deb ruby optional arch=all ruby-activestorage deb ruby optional arch=all ruby-activesupport deb ruby optional arch=all ruby-rails deb ruby optional arch=all ruby-railties deb ruby optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Ruby-Versions": [
-    "all"
-  ],
-  "Section": [
-    "ruby"
-  ],
-  "Standards-Version": [
-    "4.5.1"
-  ],
-  "Testsuite": [
-    "autopkgtest, autopkgtest-pkg-ruby"
-  ],
-  "Uploaders": [
-    "Sruthi Chandran <srud@debian.org>, Utkarsh Gupta <utkarsh@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/ruby-team/rails"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/ruby-team/rails.git"
-  ],
-  "Version": [
-    "2:6.0.3.7+dfsg-2+deb11u2"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"ruby-activesupport, ruby-activerecord, ruby-activemodel, ruby-activejob, ruby-actionview, ruby-actionpack, ruby-actionmailbox, ruby-actionmailer, ruby-actioncable, ruby-activestorage, ruby-actiontext, ruby-railties, ruby-rails, rails"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), gem2deb, rollup, node-rollup-plugin-node-resolve (>= 11~), node-rollup-plugin-commonjs (>= 15~), node-rollup-plugin-babel (>= 5.2~), node-babel7, webpack, ruby-byebug, puma (>= 4.1~), racc, rake (>= 11.1), ruby-bcrypt (<< 3.2), ruby-bcrypt (>= 3.1.11), ruby-benchmark-ips, ruby-blade, ruby-blade-sauce-labs-plugin, ruby-capybara (>= 2.15), ruby-chromedriver-helper, ruby-connection-pool, ruby-dalli, ruby-delayed-job, ruby-delayed-job-active-record, ruby-hiredis, ruby-image-processing (<< 2.0), ruby-json (>= 2.0.0), ruby-libxml, ruby-listen (>= 3.2~), ruby-minitest-reporters, ruby-mysql2 (>= 0.4.10), ruby-pg (>= 0.18.0), ruby-rack-cache (<< 2.0), ruby-redis (<< 5.0), ruby-redis (>= 4.0), ruby-redis-namespace, ruby-sass-rails (>= 6.0~), ruby-sdoc, ruby-selenium-webdriver, ruby-sequel, ruby-sidekiq, ruby-sprockets-export, ruby-sqlite3, ruby-turbolinks (>= 5.0), ruby-uglifier, ruby-webmock, ruby-builder (<< 4.0) <!nocheck>, ruby-bundler <!nocheck>, ruby-concurrent (<< 2.0) <!nocheck>, ruby-concurrent (>= 1.0.2) <!nocheck>, ruby-erubi (<< 2.0) <!nocheck>, ruby-globalid <!nocheck>, ruby-i18n (<< 2.0) <!nocheck>, ruby-i18n (>= 0.7) <!nocheck>, ruby-mail (<< 3.0) <!nocheck>, ruby-mail (>= 2.7.1) <!nocheck>, ruby-marcel <!nocheck>, ruby-method-source <!nocheck>, ruby-minitest (<< 6.0) <!nocheck>, ruby-nio4r (<< 3.0) <!nocheck>, ruby-nio4r (>= 2.0) <!nocheck>, ruby-nokogiri (>= 1.8.5) <!nocheck>, ruby-rack (<< 3.0) <!nocheck>, ruby-rack (>= 2.0.8) <!nocheck>, ruby-rack-test (>= 0.6.3) <!nocheck>, ruby-rails-dom-testing (<< 3.0) <!nocheck>, ruby-rails-dom-testing (>= 2.0) <!nocheck>, ruby-rails-html-sanitizer (<< 2.0) <!nocheck>, ruby-rails-html-sanitizer (>= 1.2~) <!nocheck>, ruby-sprockets-rails (>= 2.3.2~) <!nocheck>, ruby-thor (<< 2.0) <!nocheck>, ruby-thor (>= 0.20.3) <!nocheck>, ruby-tzinfo (<< 2.0) <!nocheck>, ruby-websocket-driver <!nocheck>, sqlite3 <!nocheck>, ruby-zeitwerk (<< 3.0) <!nocheck>, redis-server <!nocheck>, procps <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"464d29755a467026afce3ce3a33653993c43404ab1b2b2ffbf45eb71aa65f68e 4492 rails_6.0.3.7+dfsg-2+deb11u2.dsc f1adfb152227b0b840a85f3c326db91191149021adb2c5afbed99c6d32a94582 13967752 rails_6.0.3.7+dfsg.orig.tar.xz acc1ceaf6efb5d4a1ba53bf56ab762a975f86c1d90bc885ca9161c2106967410 118052 rails_6.0.3.7+dfsg-2+deb11u2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/r/rails"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://rubyonrails.org/"
+	],
+	"Maintainer": [
+		"Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"rails"
+	],
+	"Package-List": [
+		"rails deb ruby optional arch=all ruby-actioncable deb ruby optional arch=all ruby-actionmailbox deb ruby optional arch=all ruby-actionmailer deb ruby optional arch=all ruby-actionpack deb ruby optional arch=all ruby-actiontext deb ruby optional arch=all ruby-actionview deb ruby optional arch=all ruby-activejob deb ruby optional arch=all ruby-activemodel deb ruby optional arch=all ruby-activerecord deb ruby optional arch=all ruby-activestorage deb ruby optional arch=all ruby-activesupport deb ruby optional arch=all ruby-rails deb ruby optional arch=all ruby-railties deb ruby optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Ruby-Versions": [
+		"all"
+	],
+	"Section": [
+		"ruby"
+	],
+	"Standards-Version": [
+		"4.5.1"
+	],
+	"Testsuite": [
+		"autopkgtest, autopkgtest-pkg-ruby"
+	],
+	"Uploaders": [
+		"Sruthi Chandran <srud@debian.org>, Utkarsh Gupta <utkarsh@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/ruby-team/rails"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/ruby-team/rails.git"
+	],
+	"Version": [
+		"2:6.0.3.7+dfsg-2+deb11u2"
+	]
 }

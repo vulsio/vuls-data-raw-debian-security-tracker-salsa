@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "groonga, groonga-server-common, groonga-server-gqtp, libgroonga-dev, libgroonga0, groonga-tokenizer-mecab, groonga-token-filter-stem, groonga-plugin-suggest, groonga-bin, groonga-httpd, groonga-doc, groonga-examples, groonga-munin-plugins"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 10), pkg-config, liblz4-dev, zlib1g-dev, libmsgpack-dev, libzmq3-dev | libzmq-dev, libevent-dev, libmecab-dev, libpcre3-dev, libstemmer-dev, libjemalloc-dev, libssl-dev, libzstd-dev"
-  ],
-  "Checksums-Sha256": [
-    "f4752b8e0606b3c5de5aef9dafe882434976cbb147c50147b82a78e57c192907 3096 groonga_6.1.5-1+deb9u1.dsc bd404dca8860b4bb7af72d77020c95b32926f8976fecfe3ae2b9f8792e26105e 14197733 groonga_6.1.5.orig.tar.gz 117a37fbb4a0d6aa050030b68a653989a2902809ae6b747924e7d35b28cab12c 195 groonga_6.1.5.orig.tar.gz.asc f8d6ca18f697c68686a5af81257d7d5d9491798a24b139adab0e0dd83dfd4e72 95616 groonga_6.1.5-1+deb9u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/g/groonga"
-  ],
-  "Files": [
-    "5cc21365c9a1ea46b44ccbc1f32dcf67 3096 groonga_6.1.5-1+deb9u1.dsc 2563f0b631c41e212d89309a7ff71d31 14197733 groonga_6.1.5.orig.tar.gz 2c2c48cf003f70ba68234389eecd65f9 195 groonga_6.1.5.orig.tar.gz.asc d7310e2e8ed2806bff0460e3e819bec0 95616 groonga_6.1.5-1+deb9u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://groonga.org/"
-  ],
-  "Maintainer": [
-    "Groonga Project <packages@groonga.org>"
-  ],
-  "Package": [
-    "groonga"
-  ],
-  "Package-List": [
-    "groonga deb database optional arch=any groonga-bin deb database optional arch=any groonga-doc deb doc optional arch=all groonga-examples deb database optional arch=all groonga-httpd deb database optional arch=any groonga-munin-plugins deb net optional arch=all groonga-plugin-suggest deb libs optional arch=any groonga-server-common deb database optional arch=all groonga-server-gqtp deb database optional arch=all groonga-token-filter-stem deb libs optional arch=any groonga-tokenizer-mecab deb libs optional arch=any libgroonga-dev deb libdevel optional arch=any libgroonga0 deb libs optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential, curl, jq, pkg-config"
-  ],
-  "Uploaders": [
-    "Kentaro Hayashi <hayashi@clear-code.com>"
-  ],
-  "Version": [
-    "6.1.5-1+deb9u1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"groonga, groonga-server-common, groonga-server-gqtp, libgroonga-dev, libgroonga0, groonga-tokenizer-mecab, groonga-token-filter-stem, groonga-plugin-suggest, groonga-bin, groonga-httpd, groonga-doc, groonga-examples, groonga-munin-plugins"
+	],
+	"Build-Depends": [
+		"debhelper (>= 10), pkg-config, liblz4-dev, zlib1g-dev, libmsgpack-dev, libzmq3-dev | libzmq-dev, libevent-dev, libmecab-dev, libpcre3-dev, libstemmer-dev, libjemalloc-dev, libssl-dev, libzstd-dev"
+	],
+	"Checksums-Sha256": [
+		"f4752b8e0606b3c5de5aef9dafe882434976cbb147c50147b82a78e57c192907 3096 groonga_6.1.5-1+deb9u1.dsc bd404dca8860b4bb7af72d77020c95b32926f8976fecfe3ae2b9f8792e26105e 14197733 groonga_6.1.5.orig.tar.gz 117a37fbb4a0d6aa050030b68a653989a2902809ae6b747924e7d35b28cab12c 195 groonga_6.1.5.orig.tar.gz.asc f8d6ca18f697c68686a5af81257d7d5d9491798a24b139adab0e0dd83dfd4e72 95616 groonga_6.1.5-1+deb9u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/groonga"
+	],
+	"Files": [
+		"5cc21365c9a1ea46b44ccbc1f32dcf67 3096 groonga_6.1.5-1+deb9u1.dsc 2563f0b631c41e212d89309a7ff71d31 14197733 groonga_6.1.5.orig.tar.gz 2c2c48cf003f70ba68234389eecd65f9 195 groonga_6.1.5.orig.tar.gz.asc d7310e2e8ed2806bff0460e3e819bec0 95616 groonga_6.1.5-1+deb9u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://groonga.org/"
+	],
+	"Maintainer": [
+		"Groonga Project <packages@groonga.org>"
+	],
+	"Package": [
+		"groonga"
+	],
+	"Package-List": [
+		"groonga deb database optional arch=any groonga-bin deb database optional arch=any groonga-doc deb doc optional arch=all groonga-examples deb database optional arch=all groonga-httpd deb database optional arch=any groonga-munin-plugins deb net optional arch=all groonga-plugin-suggest deb libs optional arch=any groonga-server-common deb database optional arch=all groonga-server-gqtp deb database optional arch=all groonga-token-filter-stem deb libs optional arch=any groonga-tokenizer-mecab deb libs optional arch=any libgroonga-dev deb libdevel optional arch=any libgroonga0 deb libs optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, curl, jq, pkg-config"
+	],
+	"Uploaders": [
+		"Kentaro Hayashi <hayashi@clear-code.com>"
+	],
+	"Version": [
+		"6.1.5-1+deb9u1"
+	]
 }

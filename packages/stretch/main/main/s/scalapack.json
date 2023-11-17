@@ -1,47 +1,47 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libscalapack-openmpi1, libscalapack-mpich1, libscalapack-mpi-dev, scalapack-mpi-test, libscalapack-pvm1, libscalapack-pvm-dev, scalapack-pvm-test, scalapack-test-common"
-  ],
-  "Build-Depends": [
-    "mpi-default-dev, pvm-dev, blacs-pvm-dev, gfortran, liblapack-dev, libblas-dev, debhelper (>= 6), libblacs-mpi-dev, pkg-config"
-  ],
-  "Checksums-Sha256": [
-    "119b0657868aaee6b634e1cb6c2e218bdf11e1521201884268363b25ee6e08e8 2771 scalapack_1.8.0-13.dsc 2db6fa9221033865b012a8f3faf41f97f2bff1ee00e0cc7623b7a5d2407b85be 4954811 scalapack_1.8.0.orig.tar.gz 8a26e6edb423572e397fcee63409bcb65b69e00a57cd0b542dd0669a46f08858 13852 scalapack_1.8.0-13.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/s/scalapack"
-  ],
-  "Files": [
-    "83dc2ce1aa1370dadba28c7dd159e5e9 2771 scalapack_1.8.0-13.dsc 1860e9942534cecb73f12f6dfdfba960 4954811 scalapack_1.8.0.orig.tar.gz 6c3dbf6b54f62e247649ca757c4a809c 13852 scalapack_1.8.0-13.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.netlib.org/scalapack/"
-  ],
-  "Maintainer": [
-    "Muammar El Khatib <muammar@debian.org>"
-  ],
-  "Package": [
-    "scalapack"
-  ],
-  "Package-List": [
-    "libscalapack-mpi-dev deb libdevel extra arch=alpha,amd64,arm64,armel,armhf,hurd-i386,i386,kfreebsd-amd64,kfreebsd-i386,mips,mipsel,mips64,mips64el,powerpc,ppc64,ppc64el,sparc,s390x,x32,sparc64,hppa,m68k,sh4 libscalapack-mpich1 deb libs extra arch=m68k,sh4 libscalapack-openmpi1 deb libs extra arch=alpha,amd64,arm64,armel,armhf,hurd-i386,i386,kfreebsd-amd64,kfreebsd-i386,mips,mipsel,mips64,mips64el,powerpc,ppc64,ppc64el,sparc,s390x,x32,sparc64,hppa libscalapack-pvm-dev deb libdevel extra arch=any libscalapack-pvm1 deb libs extra arch=any scalapack-mpi-test deb math extra arch=alpha,amd64,arm64,armel,armhf,hurd-i386,i386,kfreebsd-amd64,kfreebsd-i386,mips,mipsel,mips64,mips64el,powerpc,ppc64,ppc64el,sparc,s390x,x32,sparc64,hppa,m68k,sh4 scalapack-pvm-test deb math extra arch=any scalapack-test-common deb devel extra arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "devel"
-  ],
-  "Standards-Version": [
-    "3.8.4"
-  ],
-  "Version": [
-    "1.8.0-13"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libscalapack-openmpi1, libscalapack-mpich1, libscalapack-mpi-dev, scalapack-mpi-test, libscalapack-pvm1, libscalapack-pvm-dev, scalapack-pvm-test, scalapack-test-common"
+	],
+	"Build-Depends": [
+		"mpi-default-dev, pvm-dev, blacs-pvm-dev, gfortran, liblapack-dev, libblas-dev, debhelper (>= 6), libblacs-mpi-dev, pkg-config"
+	],
+	"Checksums-Sha256": [
+		"119b0657868aaee6b634e1cb6c2e218bdf11e1521201884268363b25ee6e08e8 2771 scalapack_1.8.0-13.dsc 2db6fa9221033865b012a8f3faf41f97f2bff1ee00e0cc7623b7a5d2407b85be 4954811 scalapack_1.8.0.orig.tar.gz 8a26e6edb423572e397fcee63409bcb65b69e00a57cd0b542dd0669a46f08858 13852 scalapack_1.8.0-13.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/s/scalapack"
+	],
+	"Files": [
+		"83dc2ce1aa1370dadba28c7dd159e5e9 2771 scalapack_1.8.0-13.dsc 1860e9942534cecb73f12f6dfdfba960 4954811 scalapack_1.8.0.orig.tar.gz 6c3dbf6b54f62e247649ca757c4a809c 13852 scalapack_1.8.0-13.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.netlib.org/scalapack/"
+	],
+	"Maintainer": [
+		"Muammar El Khatib <muammar@debian.org>"
+	],
+	"Package": [
+		"scalapack"
+	],
+	"Package-List": [
+		"libscalapack-mpi-dev deb libdevel extra arch=alpha,amd64,arm64,armel,armhf,hurd-i386,i386,kfreebsd-amd64,kfreebsd-i386,mips,mipsel,mips64,mips64el,powerpc,ppc64,ppc64el,sparc,s390x,x32,sparc64,hppa,m68k,sh4 libscalapack-mpich1 deb libs extra arch=m68k,sh4 libscalapack-openmpi1 deb libs extra arch=alpha,amd64,arm64,armel,armhf,hurd-i386,i386,kfreebsd-amd64,kfreebsd-i386,mips,mipsel,mips64,mips64el,powerpc,ppc64,ppc64el,sparc,s390x,x32,sparc64,hppa libscalapack-pvm-dev deb libdevel extra arch=any libscalapack-pvm1 deb libs extra arch=any scalapack-mpi-test deb math extra arch=alpha,amd64,arm64,armel,armhf,hurd-i386,i386,kfreebsd-amd64,kfreebsd-i386,mips,mipsel,mips64,mips64el,powerpc,ppc64,ppc64el,sparc,s390x,x32,sparc64,hppa,m68k,sh4 scalapack-pvm-test deb math extra arch=any scalapack-test-common deb devel extra arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"devel"
+	],
+	"Standards-Version": [
+		"3.8.4"
+	],
+	"Version": [
+		"1.8.0-13"
+	]
 }

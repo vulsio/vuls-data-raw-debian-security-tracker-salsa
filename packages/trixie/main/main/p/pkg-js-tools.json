@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "dh-nodejs, pkg-js-tools, pkg-js-autopkgtest"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13)"
-  ],
-  "Build-Depends-Indep": [
-    "devscripts, git <!nocheck>, help2man, node-marked-man (>= 1.3.1~) <!nodoc>, libcache-cache-perl, libdebian-copyright-perl <!nocheck>, libdebian-source-perl <!nocheck>, libgraph-perl <!nocheck>, libipc-run-perl <!nocheck>, libjson-perl, libprogress-any-output-termprogressbarcolor-perl, libregexp-assemble-perl, libtest-output-perl <!nocheck>, libyaml-perl <!nocheck>, node-types-node <!nocheck>, nodejs:any, perl:any"
-  ],
-  "Checksums-Sha256": [
-    "e412c9d918f7ef1213dfce21c61f10b0d999526978b78d4ee9a04d393269d2b1 2699 pkg-js-tools_0.15.15.dsc ced84435a2185887bae3f6c3fd68cef20fc572b163b7bcd73cb5f60e690c829c 87420 pkg-js-tools_0.15.15.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/pkg-js-tools"
-  ],
-  "Files": [
-    "2df1eeb264abe85a8a3f1d90441f0f11 2699 pkg-js-tools_0.15.15.dsc 0cb13566cd916498b1483693b997087d 87420 pkg-js-tools_0.15.15.tar.xz"
-  ],
-  "Format": [
-    "3.0 (native)"
-  ],
-  "Homepage": [
-    "https://salsa.debian.org/js-team/pkg-js-tools"
-  ],
-  "Maintainer": [
-    "Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "pkg-js-tools"
-  ],
-  "Package-List": [
-    "dh-nodejs deb devel optional arch=all pkg-js-autopkgtest deb devel optional arch=all pkg-js-tools deb devel optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest, autopkgtest-pkg-perl"
-  ],
-  "Testsuite-Triggers": [
-    "apt-file, build-essential, devscripts, dpkg-dev, fakeroot, grunt, gulp, libcache-cache-perl, libconfig-inifiles-perl, libdpkg-perl, libfile-copy-recursive-perl, libprogress-any-output-termprogressbarcolor-perl, node-abab, node-chalk, node-glob, node-grunt-contrib-concat, node-gulp-concat, node-mdn-browser-compat-data, node-rollup-plugin-node-resolve, node-semver, node-slice-ansi, npm, rollup"
-  ],
-  "Uploaders": [
-    "Yadd <yadd@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/js-team/pkg-js-tools"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/js-team/pkg-js-tools.git"
-  ],
-  "Version": [
-    "0.15.15"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"dh-nodejs, pkg-js-tools, pkg-js-autopkgtest"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13)"
+	],
+	"Build-Depends-Indep": [
+		"devscripts, git <!nocheck>, help2man, node-marked-man (>= 1.3.1~) <!nodoc>, libcache-cache-perl, libdebian-copyright-perl <!nocheck>, libdebian-source-perl <!nocheck>, libgraph-perl <!nocheck>, libipc-run-perl <!nocheck>, libjson-perl, libprogress-any-output-termprogressbarcolor-perl, libregexp-assemble-perl, libtest-output-perl <!nocheck>, libyaml-perl <!nocheck>, node-types-node <!nocheck>, nodejs:any, perl:any"
+	],
+	"Checksums-Sha256": [
+		"e412c9d918f7ef1213dfce21c61f10b0d999526978b78d4ee9a04d393269d2b1 2699 pkg-js-tools_0.15.15.dsc ced84435a2185887bae3f6c3fd68cef20fc572b163b7bcd73cb5f60e690c829c 87420 pkg-js-tools_0.15.15.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/pkg-js-tools"
+	],
+	"Files": [
+		"2df1eeb264abe85a8a3f1d90441f0f11 2699 pkg-js-tools_0.15.15.dsc 0cb13566cd916498b1483693b997087d 87420 pkg-js-tools_0.15.15.tar.xz"
+	],
+	"Format": [
+		"3.0 (native)"
+	],
+	"Homepage": [
+		"https://salsa.debian.org/js-team/pkg-js-tools"
+	],
+	"Maintainer": [
+		"Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"pkg-js-tools"
+	],
+	"Package-List": [
+		"dh-nodejs deb devel optional arch=all pkg-js-autopkgtest deb devel optional arch=all pkg-js-tools deb devel optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest, autopkgtest-pkg-perl"
+	],
+	"Testsuite-Triggers": [
+		"apt-file, build-essential, devscripts, dpkg-dev, fakeroot, grunt, gulp, libcache-cache-perl, libconfig-inifiles-perl, libdpkg-perl, libfile-copy-recursive-perl, libprogress-any-output-termprogressbarcolor-perl, node-abab, node-chalk, node-glob, node-grunt-contrib-concat, node-gulp-concat, node-mdn-browser-compat-data, node-rollup-plugin-node-resolve, node-semver, node-slice-ansi, npm, rollup"
+	],
+	"Uploaders": [
+		"Yadd <yadd@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/js-team/pkg-js-tools"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/js-team/pkg-js-tools.git"
+	],
+	"Version": [
+		"0.15.15"
+	]
 }

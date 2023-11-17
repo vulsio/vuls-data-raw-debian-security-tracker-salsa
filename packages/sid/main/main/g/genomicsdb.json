@@ -1,68 +1,68 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libgenomicsdb-java, libgenomicsdb-jni, genomicsdb-tools, libgenomicsdb0, libgenomicsdb-dev"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), catch2, cmake, default-jdk, javahelper, libbz2-dev, libcurlpp-dev, libfmt-dev, libmuparserx-dev, libopenmpi-dev, libprotobuf-dev, libspdlog-dev, libssl-dev, liblzma-dev, maven-debian-helper, protobuf-compiler, rapidjson-dev, testng <!nocheck>, uuid-dev"
-  ],
-  "Build-Depends-Arch": [
-    "chrpath"
-  ],
-  "Build-Depends-Indep": [
-    "libbuild-helper-maven-plugin-java, libcommons-io-java, libcommons-lang3-java, libgetopt-java, libguava-java, libhtsjdk-java, libjson-simple-java, liblog4j2-java, libmaven-antrun-plugin-java, libprotobuf-java, libsurefire-java"
-  ],
-  "Checksums-Sha256": [
-    "e97403ad4889ab899e5c22cc60f17ca08bba1fff7344dd08115f45b814f580c9 3400 genomicsdb_1.5.0-2.dsc 32483d1b3a37559e0f328af27a8ec67197606899796dd4e580612bd6f32cd9f3 1515241 genomicsdb_1.5.0.orig-genomicsdb-htslib.tar.gz 7f0a515c2df104432079b8ea46794ee693822d547f68f36532db39203ac1d78f 939308 genomicsdb_1.5.0.orig-genomicsdb-tiledb.tar.gz 41a6dec4a8e198b464716142c8b5ae06650311edfa50987907eac15240574e78 6732973 genomicsdb_1.5.0.orig.tar.gz fd79636be7889c38f9d5770282c9c115e90db3271568c562497341c3ecac56b3 26252 genomicsdb_1.5.0-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/g/genomicsdb"
-  ],
-  "Files": [
-    "acadd5c3122698bf875444403f65cff0 3400 genomicsdb_1.5.0-2.dsc 89a7133f35d70b5520d583c93b9cbe94 1515241 genomicsdb_1.5.0.orig-genomicsdb-htslib.tar.gz ef0d43e82199eddd511ddf72cb22809e 939308 genomicsdb_1.5.0.orig-genomicsdb-tiledb.tar.gz 6a44bdb3b7964270f46b68ee4874c4cb 6732973 genomicsdb_1.5.0.orig.tar.gz c82557f547bad22c63978b7548353a4a 26252 genomicsdb_1.5.0-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.genomicsdb.org/"
-  ],
-  "Maintainer": [
-    "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "genomicsdb"
-  ],
-  "Package-List": [
-    "genomicsdb-tools deb science optional arch=any libgenomicsdb-dev deb libdevel optional arch=any libgenomicsdb-java deb java optional arch=all libgenomicsdb-jni deb java optional arch=any libgenomicsdb0 deb libs optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "default-jdk"
-  ],
-  "Uploaders": [
-    "Pierre Gruet <pgt@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/med-team/genomicsdb"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/med-team/genomicsdb.git"
-  ],
-  "Version": [
-    "1.5.0-2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libgenomicsdb-java, libgenomicsdb-jni, genomicsdb-tools, libgenomicsdb0, libgenomicsdb-dev"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), catch2, cmake, default-jdk, javahelper, libbz2-dev, libcurlpp-dev, libfmt-dev, libmuparserx-dev, libopenmpi-dev, libprotobuf-dev, libspdlog-dev, libssl-dev, liblzma-dev, maven-debian-helper, protobuf-compiler, rapidjson-dev, testng <!nocheck>, uuid-dev"
+	],
+	"Build-Depends-Arch": [
+		"chrpath"
+	],
+	"Build-Depends-Indep": [
+		"libbuild-helper-maven-plugin-java, libcommons-io-java, libcommons-lang3-java, libgetopt-java, libguava-java, libhtsjdk-java, libjson-simple-java, liblog4j2-java, libmaven-antrun-plugin-java, libprotobuf-java, libsurefire-java"
+	],
+	"Checksums-Sha256": [
+		"e97403ad4889ab899e5c22cc60f17ca08bba1fff7344dd08115f45b814f580c9 3400 genomicsdb_1.5.0-2.dsc 32483d1b3a37559e0f328af27a8ec67197606899796dd4e580612bd6f32cd9f3 1515241 genomicsdb_1.5.0.orig-genomicsdb-htslib.tar.gz 7f0a515c2df104432079b8ea46794ee693822d547f68f36532db39203ac1d78f 939308 genomicsdb_1.5.0.orig-genomicsdb-tiledb.tar.gz 41a6dec4a8e198b464716142c8b5ae06650311edfa50987907eac15240574e78 6732973 genomicsdb_1.5.0.orig.tar.gz fd79636be7889c38f9d5770282c9c115e90db3271568c562497341c3ecac56b3 26252 genomicsdb_1.5.0-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/genomicsdb"
+	],
+	"Files": [
+		"acadd5c3122698bf875444403f65cff0 3400 genomicsdb_1.5.0-2.dsc 89a7133f35d70b5520d583c93b9cbe94 1515241 genomicsdb_1.5.0.orig-genomicsdb-htslib.tar.gz ef0d43e82199eddd511ddf72cb22809e 939308 genomicsdb_1.5.0.orig-genomicsdb-tiledb.tar.gz 6a44bdb3b7964270f46b68ee4874c4cb 6732973 genomicsdb_1.5.0.orig.tar.gz c82557f547bad22c63978b7548353a4a 26252 genomicsdb_1.5.0-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.genomicsdb.org/"
+	],
+	"Maintainer": [
+		"Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"genomicsdb"
+	],
+	"Package-List": [
+		"genomicsdb-tools deb science optional arch=any libgenomicsdb-dev deb libdevel optional arch=any libgenomicsdb-java deb java optional arch=all libgenomicsdb-jni deb java optional arch=any libgenomicsdb0 deb libs optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"default-jdk"
+	],
+	"Uploaders": [
+		"Pierre Gruet <pgt@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/med-team/genomicsdb"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/med-team/genomicsdb.git"
+	],
+	"Version": [
+		"1.5.0-2"
+	]
 }

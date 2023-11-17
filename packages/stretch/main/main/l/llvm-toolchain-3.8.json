@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "clang-3.8, clang-format-3.8, clang-tidy-3.8, clang-3.8-doc, libclang1-3.8, libclang1-3.8-dbg, libclang-3.8-dev, libclang-common-3.8-dev, libfuzzer-3.8-dev, python-clang-3.8, clang-3.8-examples, libllvm3.8, libllvm3.8-dbg, llvm-3.8, llvm-3.8-runtime, llvm-3.8-dev, llvm-3.8-tools, libllvm-3.8-ocaml-dev, llvm-3.8-doc, llvm-3.8-examples, lldb-3.8, liblldb-3.8, liblldb-3.8-dbg, python-lldb-3.8, liblldb-3.8-dev, lldb-3.8-dev"
-  ],
-  "Build-Conflicts": [
-    "libllvm-3.4-ocaml-dev, libllvm-3.5-ocaml-dev, libllvm-3.8-ocaml-dev, ocaml, oprofile"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9.0), flex, bison, dejagnu, tcl, expect, cmake, perl, libtool, chrpath, texinfo, sharutils, libffi-dev (>= 3.0.9), lsb-release, patchutils, diffstat, xz-utils, python-dev, libedit-dev, swig, python-six, python-sphinx, binutils-dev, libjsoncpp-dev, lcov, procps, help2man, zlib1g-dev, ocaml-nox [amd64 arm64 armel armhf i386], ocaml-findlib [amd64 arm64 armel armhf i386], libctypes-ocaml-dev [amd64 arm64 armel armhf i386], dh-ocaml [amd64 arm64 armel armhf i386], g++-multilib [amd64 i386 kfreebsd-amd64 mips mips64 mips64el mipsel powerpc ppc64 s390 s390x sparc sparc64 x32]"
-  ],
-  "Checksums-Sha256": [
-    "f61be4a4e06656acb88d6f1a607f4e415c0ee40ee0f8e88a96f92ba3e1a8e6df 6326 llvm-toolchain-3.8_3.8.1-24.dsc 788500834305622c7189b1ca9e328f1871b92b234c9397ac7fdde9ca2361dbfc 351346 llvm-toolchain-3.8_3.8.1.orig-clang-tools-extra.tar.bz2 3edb39a9df41cc696c7376d006f4b691f1f91a5e828de842aa5a35375cbe0737 10564872 llvm-toolchain-3.8_3.8.1.orig-clang.tar.bz2 3e69e63516b51a0158ad1845b4a98a78bb9f93df5642b7cdf04b3e6e328abe31 1673839 llvm-toolchain-3.8_3.8.1.orig-compiler-rt.tar.bz2 ff85776e2157f45aa04b03fe34cdd880f8567ae41cb05964dc26a3cb9a252e19 4001949 llvm-toolchain-3.8_3.8.1.orig-lldb.tar.bz2 317e850d90cc9b63e732cc9e95c071fef5bf5e364dcc568aaf56cd1a0e76be09 2018515 llvm-toolchain-3.8_3.8.1.orig-polly.tar.bz2 49bb76301db200454025966887960741a2756a7d0bdb2c44a69436859357c73c 19194143 llvm-toolchain-3.8_3.8.1.orig.tar.bz2 d223323976e99805f0c3a3187f389d768131970b9ba74a44c5375519d26cdc70 67028 llvm-toolchain-3.8_3.8.1-24.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/l/llvm-toolchain-3.8"
-  ],
-  "Files": [
-    "07ef4dfdee2e454e4e755c03c6ba6d6b 6326 llvm-toolchain-3.8_3.8.1-24.dsc 6c8440a6463456e99d65985ff994eb59 351346 llvm-toolchain-3.8_3.8.1.orig-clang-tools-extra.tar.bz2 51dab686ba9df006083129bf2bc186f4 10564872 llvm-toolchain-3.8_3.8.1.orig-clang.tar.bz2 70299c5c3547b0869ed261a4c7bb991a 1673839 llvm-toolchain-3.8_3.8.1.orig-compiler-rt.tar.bz2 e50e34a93c1df5111a7a4f49398c715a 4001949 llvm-toolchain-3.8_3.8.1.orig-lldb.tar.bz2 559412f9c327e34fce2222ec627f1662 2018515 llvm-toolchain-3.8_3.8.1.orig-polly.tar.bz2 fbd4f388d30736e4e8328e824d2d755b 19194143 llvm-toolchain-3.8_3.8.1.orig.tar.bz2 c500588f3b0b5076078360d499b478f3 67028 llvm-toolchain-3.8_3.8.1-24.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.llvm.org/"
-  ],
-  "Maintainer": [
-    "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "llvm-toolchain-3.8"
-  ],
-  "Package-List": [
-    "clang-3.8 deb devel optional arch=any clang-3.8-doc deb doc optional arch=all clang-3.8-examples deb doc optional arch=any clang-format-3.8 deb devel optional arch=any clang-tidy-3.8 deb devel optional arch=any libclang-3.8-dev deb libdevel optional arch=any libclang-common-3.8-dev deb libdevel optional arch=any libclang1-3.8 deb devel optional arch=any libclang1-3.8-dbg deb debug extra arch=any libfuzzer-3.8-dev deb libdevel optional arch=any liblldb-3.8 deb libs optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,alpha,hppa,m68k,powerpcspe,sh4,x32,mips,mipsel,arm64 liblldb-3.8-dbg deb debug extra arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,hppa,m68k,powerpcspe,sh4,x32,mips,mipsel,arm64 liblldb-3.8-dev deb libdevel optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,alpha,hppa,m68k,powerpcspe,sh4,x32,mips,mipsel,arm64 libllvm-3.8-ocaml-dev deb ocaml optional arch=amd64,arm64,armel,armhf,i386 libllvm3.8 deb libs optional arch=any libllvm3.8-dbg deb debug extra arch=any lldb-3.8 deb devel optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,alpha,hppa,m68k,powerpcspe,sh4,x32,mips,mipsel,arm64 lldb-3.8-dev deb oldlibs optional arch=all llvm-3.8 deb devel optional arch=any llvm-3.8-dev deb devel optional arch=any llvm-3.8-doc deb doc optional arch=all llvm-3.8-examples deb doc optional arch=all llvm-3.8-runtime deb devel optional arch=any llvm-3.8-tools deb devel optional arch=any python-clang-3.8 deb python optional arch=any python-lldb-3.8 deb python optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,alpha,hppa,m68k,powerpcspe,sh4,x32,mips,mipsel,arm64"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Sylvestre Ledru <sylvestre@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://svn.debian.org/viewsvn/pkg-llvm/llvm-toolchain/branches/3.8/"
-  ],
-  "Vcs-Svn": [
-    "svn://anonscm.debian.org/svn/pkg-llvm/llvm-toolchain/branches/3.8/"
-  ],
-  "Version": [
-    "1:3.8.1-24"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"clang-3.8, clang-format-3.8, clang-tidy-3.8, clang-3.8-doc, libclang1-3.8, libclang1-3.8-dbg, libclang-3.8-dev, libclang-common-3.8-dev, libfuzzer-3.8-dev, python-clang-3.8, clang-3.8-examples, libllvm3.8, libllvm3.8-dbg, llvm-3.8, llvm-3.8-runtime, llvm-3.8-dev, llvm-3.8-tools, libllvm-3.8-ocaml-dev, llvm-3.8-doc, llvm-3.8-examples, lldb-3.8, liblldb-3.8, liblldb-3.8-dbg, python-lldb-3.8, liblldb-3.8-dev, lldb-3.8-dev"
+	],
+	"Build-Conflicts": [
+		"libllvm-3.4-ocaml-dev, libllvm-3.5-ocaml-dev, libllvm-3.8-ocaml-dev, ocaml, oprofile"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9.0), flex, bison, dejagnu, tcl, expect, cmake, perl, libtool, chrpath, texinfo, sharutils, libffi-dev (>= 3.0.9), lsb-release, patchutils, diffstat, xz-utils, python-dev, libedit-dev, swig, python-six, python-sphinx, binutils-dev, libjsoncpp-dev, lcov, procps, help2man, zlib1g-dev, ocaml-nox [amd64 arm64 armel armhf i386], ocaml-findlib [amd64 arm64 armel armhf i386], libctypes-ocaml-dev [amd64 arm64 armel armhf i386], dh-ocaml [amd64 arm64 armel armhf i386], g++-multilib [amd64 i386 kfreebsd-amd64 mips mips64 mips64el mipsel powerpc ppc64 s390 s390x sparc sparc64 x32]"
+	],
+	"Checksums-Sha256": [
+		"f61be4a4e06656acb88d6f1a607f4e415c0ee40ee0f8e88a96f92ba3e1a8e6df 6326 llvm-toolchain-3.8_3.8.1-24.dsc 788500834305622c7189b1ca9e328f1871b92b234c9397ac7fdde9ca2361dbfc 351346 llvm-toolchain-3.8_3.8.1.orig-clang-tools-extra.tar.bz2 3edb39a9df41cc696c7376d006f4b691f1f91a5e828de842aa5a35375cbe0737 10564872 llvm-toolchain-3.8_3.8.1.orig-clang.tar.bz2 3e69e63516b51a0158ad1845b4a98a78bb9f93df5642b7cdf04b3e6e328abe31 1673839 llvm-toolchain-3.8_3.8.1.orig-compiler-rt.tar.bz2 ff85776e2157f45aa04b03fe34cdd880f8567ae41cb05964dc26a3cb9a252e19 4001949 llvm-toolchain-3.8_3.8.1.orig-lldb.tar.bz2 317e850d90cc9b63e732cc9e95c071fef5bf5e364dcc568aaf56cd1a0e76be09 2018515 llvm-toolchain-3.8_3.8.1.orig-polly.tar.bz2 49bb76301db200454025966887960741a2756a7d0bdb2c44a69436859357c73c 19194143 llvm-toolchain-3.8_3.8.1.orig.tar.bz2 d223323976e99805f0c3a3187f389d768131970b9ba74a44c5375519d26cdc70 67028 llvm-toolchain-3.8_3.8.1-24.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/l/llvm-toolchain-3.8"
+	],
+	"Files": [
+		"07ef4dfdee2e454e4e755c03c6ba6d6b 6326 llvm-toolchain-3.8_3.8.1-24.dsc 6c8440a6463456e99d65985ff994eb59 351346 llvm-toolchain-3.8_3.8.1.orig-clang-tools-extra.tar.bz2 51dab686ba9df006083129bf2bc186f4 10564872 llvm-toolchain-3.8_3.8.1.orig-clang.tar.bz2 70299c5c3547b0869ed261a4c7bb991a 1673839 llvm-toolchain-3.8_3.8.1.orig-compiler-rt.tar.bz2 e50e34a93c1df5111a7a4f49398c715a 4001949 llvm-toolchain-3.8_3.8.1.orig-lldb.tar.bz2 559412f9c327e34fce2222ec627f1662 2018515 llvm-toolchain-3.8_3.8.1.orig-polly.tar.bz2 fbd4f388d30736e4e8328e824d2d755b 19194143 llvm-toolchain-3.8_3.8.1.orig.tar.bz2 c500588f3b0b5076078360d499b478f3 67028 llvm-toolchain-3.8_3.8.1-24.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.llvm.org/"
+	],
+	"Maintainer": [
+		"LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"llvm-toolchain-3.8"
+	],
+	"Package-List": [
+		"clang-3.8 deb devel optional arch=any clang-3.8-doc deb doc optional arch=all clang-3.8-examples deb doc optional arch=any clang-format-3.8 deb devel optional arch=any clang-tidy-3.8 deb devel optional arch=any libclang-3.8-dev deb libdevel optional arch=any libclang-common-3.8-dev deb libdevel optional arch=any libclang1-3.8 deb devel optional arch=any libclang1-3.8-dbg deb debug extra arch=any libfuzzer-3.8-dev deb libdevel optional arch=any liblldb-3.8 deb libs optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,alpha,hppa,m68k,powerpcspe,sh4,x32,mips,mipsel,arm64 liblldb-3.8-dbg deb debug extra arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,hppa,m68k,powerpcspe,sh4,x32,mips,mipsel,arm64 liblldb-3.8-dev deb libdevel optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,alpha,hppa,m68k,powerpcspe,sh4,x32,mips,mipsel,arm64 libllvm-3.8-ocaml-dev deb ocaml optional arch=amd64,arm64,armel,armhf,i386 libllvm3.8 deb libs optional arch=any libllvm3.8-dbg deb debug extra arch=any lldb-3.8 deb devel optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,alpha,hppa,m68k,powerpcspe,sh4,x32,mips,mipsel,arm64 lldb-3.8-dev deb oldlibs optional arch=all llvm-3.8 deb devel optional arch=any llvm-3.8-dev deb devel optional arch=any llvm-3.8-doc deb doc optional arch=all llvm-3.8-examples deb doc optional arch=all llvm-3.8-runtime deb devel optional arch=any llvm-3.8-tools deb devel optional arch=any python-clang-3.8 deb python optional arch=any python-lldb-3.8 deb python optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,alpha,hppa,m68k,powerpcspe,sh4,x32,mips,mipsel,arm64"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Sylvestre Ledru <sylvestre@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://svn.debian.org/viewsvn/pkg-llvm/llvm-toolchain/branches/3.8/"
+	],
+	"Vcs-Svn": [
+		"svn://anonscm.debian.org/svn/pkg-llvm/llvm-toolchain/branches/3.8/"
+	],
+	"Version": [
+		"1:3.8.1-24"
+	]
 }

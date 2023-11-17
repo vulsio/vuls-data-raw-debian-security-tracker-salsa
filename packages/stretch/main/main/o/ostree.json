@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "linux-any all"
-  ],
-  "Binary": [
-    "gir1.2-ostree-1.0, libostree-1-1, libostree-dev, libostree-doc, ostree, ostree-tests"
-  ],
-  "Build-Depends": [
-    "attr, bison, ca-certificates, cpio, debhelper (>= 10~), docbook-xml, docbook-xsl, e2fslibs-dev, elfutils, fuse, gjs [!sparc64], gobject-introspection, gtk-doc-tools, libarchive-dev, libattr1-dev, libcap-dev, libfuse-dev, libgirepository1.0-dev, libglib2.0-dev (>= 2.40.0), libgpgme-dev, liblzma-dev, libmount-dev (>= 2.23), libselinux1-dev, libsoup2.4-dev (>= 2.39.1), libsystemd-dev, procps, xsltproc, zlib1g-dev"
-  ],
-  "Checksums-Sha256": [
-    "6ebc779903fea685a8a3dec222d22f92d12c760f96243511ae1ac589191978f6 2829 ostree_2016.15-5.dsc 430178680bd0842dcfab66b780324f9e3cfa460799eec53166fa069e3396ecbd 693712 ostree_2016.15.orig.tar.xz 5bd45967e87b24919d2df9db79b188c32936d4cd938cdbcc4afe96ece115fc2a 19920 ostree_2016.15-5.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/o/ostree"
-  ],
-  "Files": [
-    "0b259bfc4b778269386ec8c37e3a9707 2829 ostree_2016.15-5.dsc 61d5234f1f8e41050d59649a7ac326a4 693712 ostree_2016.15.orig.tar.xz 66e59285be7988ab9a9a3e2c1f877c7a 19920 ostree_2016.15-5.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/ostreedev/ostree/"
-  ],
-  "Maintainer": [
-    "Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "ostree"
-  ],
-  "Package-List": [
-    "gir1.2-ostree-1.0 deb introspection optional arch=linux-any libostree-1-1 deb libs optional arch=linux-any libostree-dev deb libdevel optional arch=linux-any libostree-doc deb doc optional arch=all ostree deb admin optional arch=linux-any ostree-tests deb admin optional arch=linux-any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential, gnome-desktop-testing, pkg-config"
-  ],
-  "Uploaders": [
-    "Matthias Klumpp <mak@debian.org>, Simon McVittie <smcv@debian.org>, Sjoerd Simons <sjoerd@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/collab-maint/ostree.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/collab-maint/ostree.git"
-  ],
-  "Version": [
-    "2016.15-5"
-  ]
+	"Architecture": [
+		"linux-any all"
+	],
+	"Binary": [
+		"gir1.2-ostree-1.0, libostree-1-1, libostree-dev, libostree-doc, ostree, ostree-tests"
+	],
+	"Build-Depends": [
+		"attr, bison, ca-certificates, cpio, debhelper (>= 10~), docbook-xml, docbook-xsl, e2fslibs-dev, elfutils, fuse, gjs [!sparc64], gobject-introspection, gtk-doc-tools, libarchive-dev, libattr1-dev, libcap-dev, libfuse-dev, libgirepository1.0-dev, libglib2.0-dev (>= 2.40.0), libgpgme-dev, liblzma-dev, libmount-dev (>= 2.23), libselinux1-dev, libsoup2.4-dev (>= 2.39.1), libsystemd-dev, procps, xsltproc, zlib1g-dev"
+	],
+	"Checksums-Sha256": [
+		"6ebc779903fea685a8a3dec222d22f92d12c760f96243511ae1ac589191978f6 2829 ostree_2016.15-5.dsc 430178680bd0842dcfab66b780324f9e3cfa460799eec53166fa069e3396ecbd 693712 ostree_2016.15.orig.tar.xz 5bd45967e87b24919d2df9db79b188c32936d4cd938cdbcc4afe96ece115fc2a 19920 ostree_2016.15-5.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/o/ostree"
+	],
+	"Files": [
+		"0b259bfc4b778269386ec8c37e3a9707 2829 ostree_2016.15-5.dsc 61d5234f1f8e41050d59649a7ac326a4 693712 ostree_2016.15.orig.tar.xz 66e59285be7988ab9a9a3e2c1f877c7a 19920 ostree_2016.15-5.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/ostreedev/ostree/"
+	],
+	"Maintainer": [
+		"Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"ostree"
+	],
+	"Package-List": [
+		"gir1.2-ostree-1.0 deb introspection optional arch=linux-any libostree-1-1 deb libs optional arch=linux-any libostree-dev deb libdevel optional arch=linux-any libostree-doc deb doc optional arch=all ostree deb admin optional arch=linux-any ostree-tests deb admin optional arch=linux-any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, gnome-desktop-testing, pkg-config"
+	],
+	"Uploaders": [
+		"Matthias Klumpp <mak@debian.org>, Simon McVittie <smcv@debian.org>, Sjoerd Simons <sjoerd@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/collab-maint/ostree.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/collab-maint/ostree.git"
+	],
+	"Version": [
+		"2016.15-5"
+	]
 }

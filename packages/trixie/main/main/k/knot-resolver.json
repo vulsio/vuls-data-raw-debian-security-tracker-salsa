@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "amd64 arm64 armel armhf i386 mips mips64el mipsel all"
-  ],
-  "Binary": [
-    "knot-resolver, knot-resolver-module-http, knot-resolver-doc"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), dns-root-data, doxygen, gnutls-bin <!nocheck>, knot-dnsutils <!nocheck>, libcmocka-dev (>= 1.0.0), libedit-dev, libfstrm-dev, libgnutls28-dev, libjemalloc-dev, libknot-dev (>= 3.0.2), liblmdb-dev, libluajit-5.1-dev, libnghttp2-dev, libprotobuf-c-dev, libsystemd-dev (>= 227) [linux-any], libuv1-dev, lua-basexx, lua-cqueues, luajit, meson, ninja-build, po-debconf, pkg-config, protobuf-c-compiler, python3-breathe, python3-sphinx, python3-sphinx-rtd-theme, socat <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "3e397815087d15728677c65ae610582a87495562eaea418c4377079302080d11 3184 knot-resolver_5.7.0-1.dsc 383ef6db1cccabd2dd788ea9385f05e98a2bafdfeb7f0eda57ff9d572f4fad71 1926196 knot-resolver_5.7.0.orig.tar.xz ea4109033f88fa845ce498b74ba6992c492a5c6d5e46d75ff9ff53fdd60cc4fe 833 knot-resolver_5.7.0.orig.tar.xz.asc b730bf61eda6fd66b483773a061ec80a23170baab1e2737e222c42222a5d5cb4 401432 knot-resolver_5.7.0-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/k/knot-resolver"
-  ],
-  "Files": [
-    "b39fc19b879cfaa112e68284bfb43793 3184 knot-resolver_5.7.0-1.dsc 93feb291657b645b85e9ff2a1b4eddc6 1926196 knot-resolver_5.7.0.orig.tar.xz d7c0c93ab5353939caf05db157d480fd 833 knot-resolver_5.7.0.orig.tar.xz.asc d0f6c5d4d2fb8a8c2581e24e3f616d57 401432 knot-resolver_5.7.0-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.knot-resolver.cz/"
-  ],
-  "Maintainer": [
-    "knot-resolver packagers <knot-resolver@packages.debian.org>"
-  ],
-  "Package": [
-    "knot-resolver"
-  ],
-  "Package-List": [
-    "knot-resolver deb net optional arch=amd64,arm64,armel,armhf,i386,mips,mips64el,mipsel knot-resolver-doc deb doc optional arch=all knot-resolver-module-http deb net optional arch=amd64,arm64,armel,armhf,i386,mips,mips64el,mipsel"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.0"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "gnutls-bin, knot-dnsutils, socat"
-  ],
-  "Uploaders": [
-    "Ondřej Surý <ondrej@debian.org>, Daniel Kahn Gillmor <dkg@fifthhorseman.net>, Santiago Ruano Rincón <santiago@debian.org>, Jakub Ružička <jakub.ruzicka@nic.cz>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/dns-team/knot-resolver"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/dns-team/knot-resolver.git"
-  ],
-  "Version": [
-    "5.7.0-1"
-  ]
+	"Architecture": [
+		"amd64 arm64 armel armhf i386 mips mips64el mipsel all"
+	],
+	"Binary": [
+		"knot-resolver, knot-resolver-module-http, knot-resolver-doc"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dns-root-data, doxygen, gnutls-bin <!nocheck>, knot-dnsutils <!nocheck>, libcmocka-dev (>= 1.0.0), libedit-dev, libfstrm-dev, libgnutls28-dev, libjemalloc-dev, libknot-dev (>= 3.0.2), liblmdb-dev, libluajit-5.1-dev, libnghttp2-dev, libprotobuf-c-dev, libsystemd-dev (>= 227) [linux-any], libuv1-dev, lua-basexx, lua-cqueues, luajit, meson, ninja-build, po-debconf, pkg-config, protobuf-c-compiler, python3-breathe, python3-sphinx, python3-sphinx-rtd-theme, socat <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"3e397815087d15728677c65ae610582a87495562eaea418c4377079302080d11 3184 knot-resolver_5.7.0-1.dsc 383ef6db1cccabd2dd788ea9385f05e98a2bafdfeb7f0eda57ff9d572f4fad71 1926196 knot-resolver_5.7.0.orig.tar.xz ea4109033f88fa845ce498b74ba6992c492a5c6d5e46d75ff9ff53fdd60cc4fe 833 knot-resolver_5.7.0.orig.tar.xz.asc b730bf61eda6fd66b483773a061ec80a23170baab1e2737e222c42222a5d5cb4 401432 knot-resolver_5.7.0-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/k/knot-resolver"
+	],
+	"Files": [
+		"b39fc19b879cfaa112e68284bfb43793 3184 knot-resolver_5.7.0-1.dsc 93feb291657b645b85e9ff2a1b4eddc6 1926196 knot-resolver_5.7.0.orig.tar.xz d7c0c93ab5353939caf05db157d480fd 833 knot-resolver_5.7.0.orig.tar.xz.asc d0f6c5d4d2fb8a8c2581e24e3f616d57 401432 knot-resolver_5.7.0-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.knot-resolver.cz/"
+	],
+	"Maintainer": [
+		"knot-resolver packagers <knot-resolver@packages.debian.org>"
+	],
+	"Package": [
+		"knot-resolver"
+	],
+	"Package-List": [
+		"knot-resolver deb net optional arch=amd64,arm64,armel,armhf,i386,mips,mips64el,mipsel knot-resolver-doc deb doc optional arch=all knot-resolver-module-http deb net optional arch=amd64,arm64,armel,armhf,i386,mips,mips64el,mipsel"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"gnutls-bin, knot-dnsutils, socat"
+	],
+	"Uploaders": [
+		"Ondřej Surý <ondrej@debian.org>, Daniel Kahn Gillmor <dkg@fifthhorseman.net>, Santiago Ruano Rincón <santiago@debian.org>, Jakub Ružička <jakub.ruzicka@nic.cz>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/dns-team/knot-resolver"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/dns-team/knot-resolver.git"
+	],
+	"Version": [
+		"5.7.0-1"
+	]
 }

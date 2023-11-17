@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "mingw-w64-common, mingw-w64-i686-dev, mingw-w64-x86-64-dev, mingw-w64, mingw-w64-tools"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13)"
-  ],
-  "Build-Depends-Indep": [
-    "gcc-mingw-w64-i686 | gcc-mingw-w64-bootstrap (>= 4.6.0), gcc-mingw-w64-x86-64 | gcc-mingw-w64-bootstrap (>= 4.6.0)"
-  ],
-  "Checksums-Sha256": [
-    "722f0e2358ce5dd1278c6e6c32d34d56a4ad834cc70ed38762b154500cf63a51 2605 mingw-w64_11.0.1-3.dsc 3f66bce069ee8bed7439a1a13da7cb91a5e67ea6170f21317ac7f5794625ee10 10057401 mingw-w64_11.0.1.orig.tar.bz2 2d0fbff66504777860c5970b2dd1699159721d030566e928e2b730abb3e049e2 269 mingw-w64_11.0.1.orig.tar.bz2.asc bc0206149eaf6c9e9fa3995e91aa76878bd58448ce8568fbeac017358d1ab673 108664 mingw-w64_11.0.1-3.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/m/mingw-w64"
-  ],
-  "Files": [
-    "c0399395ff4f6230d508fd13039db72c 2605 mingw-w64_11.0.1-3.dsc 853ecc858dd080d2b390d845f2804796 10057401 mingw-w64_11.0.1.orig.tar.bz2 518c41ab314aab69f3c3b91042576035 269 mingw-w64_11.0.1.orig.tar.bz2.asc 7387a486b3d835111b04698a0bc74932 108664 mingw-w64_11.0.1-3.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://mingw-w64.sf.net"
-  ],
-  "Maintainer": [
-    "Stephen Kitt <skitt@debian.org>"
-  ],
-  "Package": [
-    "mingw-w64"
-  ],
-  "Package-List": [
-    "mingw-w64 deb devel optional arch=all mingw-w64-common deb devel optional arch=all mingw-w64-i686-dev deb devel optional arch=all mingw-w64-tools deb devel optional arch=any mingw-w64-x86-64-dev deb devel optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "devel"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "gcc-mingw-w64-x86-64, slapd, wine, wine64"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/mingw-w64-team/mingw-w64"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/mingw-w64-team/mingw-w64.git"
-  ],
-  "Version": [
-    "11.0.1-3"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"mingw-w64-common, mingw-w64-i686-dev, mingw-w64-x86-64-dev, mingw-w64, mingw-w64-tools"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13)"
+	],
+	"Build-Depends-Indep": [
+		"gcc-mingw-w64-i686 | gcc-mingw-w64-bootstrap (>= 4.6.0), gcc-mingw-w64-x86-64 | gcc-mingw-w64-bootstrap (>= 4.6.0)"
+	],
+	"Checksums-Sha256": [
+		"722f0e2358ce5dd1278c6e6c32d34d56a4ad834cc70ed38762b154500cf63a51 2605 mingw-w64_11.0.1-3.dsc 3f66bce069ee8bed7439a1a13da7cb91a5e67ea6170f21317ac7f5794625ee10 10057401 mingw-w64_11.0.1.orig.tar.bz2 2d0fbff66504777860c5970b2dd1699159721d030566e928e2b730abb3e049e2 269 mingw-w64_11.0.1.orig.tar.bz2.asc bc0206149eaf6c9e9fa3995e91aa76878bd58448ce8568fbeac017358d1ab673 108664 mingw-w64_11.0.1-3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/m/mingw-w64"
+	],
+	"Files": [
+		"c0399395ff4f6230d508fd13039db72c 2605 mingw-w64_11.0.1-3.dsc 853ecc858dd080d2b390d845f2804796 10057401 mingw-w64_11.0.1.orig.tar.bz2 518c41ab314aab69f3c3b91042576035 269 mingw-w64_11.0.1.orig.tar.bz2.asc 7387a486b3d835111b04698a0bc74932 108664 mingw-w64_11.0.1-3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://mingw-w64.sf.net"
+	],
+	"Maintainer": [
+		"Stephen Kitt <skitt@debian.org>"
+	],
+	"Package": [
+		"mingw-w64"
+	],
+	"Package-List": [
+		"mingw-w64 deb devel optional arch=all mingw-w64-common deb devel optional arch=all mingw-w64-i686-dev deb devel optional arch=all mingw-w64-tools deb devel optional arch=any mingw-w64-x86-64-dev deb devel optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"devel"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"gcc-mingw-w64-x86-64, slapd, wine, wine64"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/mingw-w64-team/mingw-w64"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/mingw-w64-team/mingw-w64.git"
+	],
+	"Version": [
+		"11.0.1-3"
+	]
 }

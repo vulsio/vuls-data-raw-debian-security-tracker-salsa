@@ -1,53 +1,53 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "cdebconf, cdebconf-gtk, libdebconfclient0, libdebconfclient0-dev, cdebconf-udeb, cdebconf-priority, libdebconfclient0-udeb, cdebconf-text-udeb, cdebconf-newt-udeb, cdebconf-gtk-udeb"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), po-debconf, libslang2-dev, libnewt-dev, libtextwrap-dev, libreadline-dev (>= 8.1.2-1.1), libdebian-installer4-dev | libdebian-installer-dev, libglib2.0-dev, libgtk2.0-dev <!pkg.cdebconf.nogtk>, libcairo2-dev <!pkg.cdebconf.nogtk>, libselinux1-dev [linux-any] | libselinux-dev [linux-any], dh-autoreconf, dh-exec"
-  ],
-  "Checksums-Sha256": [
-    "626c8da9b0fd07f37c94940401a8ba92bc3c454673c266e9c927934139e2a079 2707 cdebconf_0.271.dsc b66fd2ea674d22f64a01672fe6c1891ef54ca906fb5c49d8362cba0d78b270c8 284308 cdebconf_0.271.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/c/cdebconf"
-  ],
-  "Files": [
-    "7555849a76fa14c59e457f7c08176040 2707 cdebconf_0.271.dsc 44486686fc5f640875c74bb5a7617ad3 284308 cdebconf_0.271.tar.xz"
-  ],
-  "Format": [
-    "3.0 (native)"
-  ],
-  "Maintainer": [
-    "Debian Install System Team <debian-boot@lists.debian.org>"
-  ],
-  "Package": [
-    "cdebconf"
-  ],
-  "Package-List": [
-    "cdebconf deb utils optional arch=any cdebconf-gtk deb admin optional arch=any profile=!pkg.cdebconf.nogtk cdebconf-gtk-udeb udeb debian-installer optional arch=any profile=!pkg.cdebconf.nogtk cdebconf-newt-udeb udeb debian-installer optional arch=any cdebconf-priority udeb debian-installer standard arch=all cdebconf-text-udeb udeb debian-installer optional arch=any cdebconf-udeb udeb debian-installer standard arch=any libdebconfclient0 deb libs optional arch=any libdebconfclient0-dev deb libdevel optional arch=any libdebconfclient0-udeb udeb debian-installer optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "utils"
-  ],
-  "Standards-Version": [
-    "3.9.7"
-  ],
-  "Uploaders": [
-    "Colin Watson <cjwatson@debian.org>, Cyril Brulebois <kibi@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/installer-team/cdebconf"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/installer-team/cdebconf.git"
-  ],
-  "Version": [
-    "0.271"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"cdebconf, cdebconf-gtk, libdebconfclient0, libdebconfclient0-dev, cdebconf-udeb, cdebconf-priority, libdebconfclient0-udeb, cdebconf-text-udeb, cdebconf-newt-udeb, cdebconf-gtk-udeb"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), po-debconf, libslang2-dev, libnewt-dev, libtextwrap-dev, libreadline-dev (>= 8.1.2-1.1), libdebian-installer4-dev | libdebian-installer-dev, libglib2.0-dev, libgtk2.0-dev <!pkg.cdebconf.nogtk>, libcairo2-dev <!pkg.cdebconf.nogtk>, libselinux1-dev [linux-any] | libselinux-dev [linux-any], dh-autoreconf, dh-exec"
+	],
+	"Checksums-Sha256": [
+		"626c8da9b0fd07f37c94940401a8ba92bc3c454673c266e9c927934139e2a079 2707 cdebconf_0.271.dsc b66fd2ea674d22f64a01672fe6c1891ef54ca906fb5c49d8362cba0d78b270c8 284308 cdebconf_0.271.tar.xz"
+	],
+	"Directory": [
+		"pool/main/c/cdebconf"
+	],
+	"Files": [
+		"7555849a76fa14c59e457f7c08176040 2707 cdebconf_0.271.dsc 44486686fc5f640875c74bb5a7617ad3 284308 cdebconf_0.271.tar.xz"
+	],
+	"Format": [
+		"3.0 (native)"
+	],
+	"Maintainer": [
+		"Debian Install System Team <debian-boot@lists.debian.org>"
+	],
+	"Package": [
+		"cdebconf"
+	],
+	"Package-List": [
+		"cdebconf deb utils optional arch=any cdebconf-gtk deb admin optional arch=any profile=!pkg.cdebconf.nogtk cdebconf-gtk-udeb udeb debian-installer optional arch=any profile=!pkg.cdebconf.nogtk cdebconf-newt-udeb udeb debian-installer optional arch=any cdebconf-priority udeb debian-installer standard arch=all cdebconf-text-udeb udeb debian-installer optional arch=any cdebconf-udeb udeb debian-installer standard arch=any libdebconfclient0 deb libs optional arch=any libdebconfclient0-dev deb libdevel optional arch=any libdebconfclient0-udeb udeb debian-installer optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"utils"
+	],
+	"Standards-Version": [
+		"3.9.7"
+	],
+	"Uploaders": [
+		"Colin Watson <cjwatson@debian.org>, Cyril Brulebois <kibi@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/installer-team/cdebconf"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/installer-team/cdebconf.git"
+	],
+	"Version": [
+		"0.271"
+	]
 }

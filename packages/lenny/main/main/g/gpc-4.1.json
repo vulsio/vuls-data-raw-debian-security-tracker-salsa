@@ -1,47 +1,47 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "gpc-4.1, gpc-4.1-doc"
-  ],
-  "Build-Depends": [
-    "dpkg-dev (>= 1.13.9), gcc-4.1-multilib [amd64 i386 powerpc ppc64 s390 sparc kfreebsd-amd64], libc6.1-dev (>= 2.5) [alpha ia64] | libc0.3-dev (>= 2.5) [hurd-i386] | libc0.1-dev (>= 2.5) [kfreebsd-i386 kfreebsd-amd64 knetbsd-gnu] | libc12-dev (>= 2.5) [netbsd-elf-gnu] | libc6-dev (>= 2.5), libc6-dev-amd64 [i386], libc6-dev-sparc64 [sparc], libc6-dev-s390x [s390], libc6-dev-i386 [amd64], libc6-dev-powerpc [ppc64], libc6-dev-ppc64 [powerpc], libc0.1-dev-i386 [kfreebsd-amd64], lib32gcc1 [amd64 ppc64 kfreebsd-amd64], lib64gcc1 [i386 powerpc sparc s390], lib64z1-dev [i386 powerpc sparc s390], lib32z1-dev [amd64 ppc64 kfreebsd-amd64], libunwind7-dev (>= 0.98.5-6) [ia64], libatomic-ops-dev [ia64], m4, autoconf, autoconf2.13, automake1.9, libtool, autogen, gawk, expect-tcl8.3 [hppa], dejagnu [!none !hurd-i386], bzip2, binutils (>= 2.17cvs20070426) | binutils-multiarch (>= 2.17cvs20070426), binutils-hppa64 (>= 2.17cvs20070426) [hppa], debhelper (>= 5.0), gperf (>= 3.0.1), bison (>= 1:2.3), flex, gettext, texinfo (>= 4.3), zlib1g-dev, libmpfr-dev (>= 2.3.0~rc1.dfsg.1) [!avr], locales [!hurd-i386 !knetbsd-i386 !netbsd-i386 !m68k], procps [!hurd-i386], sharutils, libncurses5-dev [!netbsd-i386], texlive-latex-base [!netbsd-i386], libgmp3-dev [!netbsd-i386], help2man [!netbsd-i386], gcc-4.1-source (>= 4.1.2), gcc-4.1-source (<< 4.1.3), realpath (>= 1.9.12), chrpath, lsb-release, make (>= 3.81)"
-  ],
-  "Checksums-Sha1": [
-    "4b0730484da46b9efc6838601c5b7978f1ed850b 2437 gpc-4.1_2.1-4.1.2-22.dsc 8ee52b52402206b839119e48d68b4bab20b6376a 2766420 gpc-4.1_2.1-4.1.2.orig.tar.gz 3ba1525ef902fc574d8710ddb6fbd6f2bbcf79be 1671513 gpc-4.1_2.1-4.1.2-22.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "4cc74a85f465e7a8b6242287b029fef86503a01d25ed7f65cc868ecbaefff517 2437 gpc-4.1_2.1-4.1.2-22.dsc 2ded1dd0c816d09864ab7b0739166ecd72a980183f9d337b9576d0a9a12a4fb1 2766420 gpc-4.1_2.1-4.1.2.orig.tar.gz 046ae62dd8d58823a445fbe46bacb80d8e630fe6ad89fdebb63f9708320c37a3 1671513 gpc-4.1_2.1-4.1.2-22.diff.gz"
-  ],
-  "Directory": [
-    "pool/main/g/gpc-4.1"
-  ],
-  "Files": [
-    "15f07edf9b12e8ad4578707148404b27 2437 gpc-4.1_2.1-4.1.2-22.dsc d2c8c7aaa698a10d071f57e35b8403c9 2766420 gpc-4.1_2.1-4.1.2.orig.tar.gz b09f8a2601b431569c09a693d39e17d2 1671513 gpc-4.1_2.1-4.1.2-22.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Maintainer": [
-    "Debian GCC Maintainers <debian-gcc@lists.debian.org>"
-  ],
-  "Package": [
-    "gpc-4.1"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "devel"
-  ],
-  "Standards-Version": [
-    "3.7.2"
-  ],
-  "Uploaders": [
-    "Matthias Klose <doko@debian.org>"
-  ],
-  "Version": [
-    "2.1-4.1.2-22"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"gpc-4.1, gpc-4.1-doc"
+	],
+	"Build-Depends": [
+		"dpkg-dev (>= 1.13.9), gcc-4.1-multilib [amd64 i386 powerpc ppc64 s390 sparc kfreebsd-amd64], libc6.1-dev (>= 2.5) [alpha ia64] | libc0.3-dev (>= 2.5) [hurd-i386] | libc0.1-dev (>= 2.5) [kfreebsd-i386 kfreebsd-amd64 knetbsd-gnu] | libc12-dev (>= 2.5) [netbsd-elf-gnu] | libc6-dev (>= 2.5), libc6-dev-amd64 [i386], libc6-dev-sparc64 [sparc], libc6-dev-s390x [s390], libc6-dev-i386 [amd64], libc6-dev-powerpc [ppc64], libc6-dev-ppc64 [powerpc], libc0.1-dev-i386 [kfreebsd-amd64], lib32gcc1 [amd64 ppc64 kfreebsd-amd64], lib64gcc1 [i386 powerpc sparc s390], lib64z1-dev [i386 powerpc sparc s390], lib32z1-dev [amd64 ppc64 kfreebsd-amd64], libunwind7-dev (>= 0.98.5-6) [ia64], libatomic-ops-dev [ia64], m4, autoconf, autoconf2.13, automake1.9, libtool, autogen, gawk, expect-tcl8.3 [hppa], dejagnu [!none !hurd-i386], bzip2, binutils (>= 2.17cvs20070426) | binutils-multiarch (>= 2.17cvs20070426), binutils-hppa64 (>= 2.17cvs20070426) [hppa], debhelper (>= 5.0), gperf (>= 3.0.1), bison (>= 1:2.3), flex, gettext, texinfo (>= 4.3), zlib1g-dev, libmpfr-dev (>= 2.3.0~rc1.dfsg.1) [!avr], locales [!hurd-i386 !knetbsd-i386 !netbsd-i386 !m68k], procps [!hurd-i386], sharutils, libncurses5-dev [!netbsd-i386], texlive-latex-base [!netbsd-i386], libgmp3-dev [!netbsd-i386], help2man [!netbsd-i386], gcc-4.1-source (>= 4.1.2), gcc-4.1-source (<< 4.1.3), realpath (>= 1.9.12), chrpath, lsb-release, make (>= 3.81)"
+	],
+	"Checksums-Sha1": [
+		"4b0730484da46b9efc6838601c5b7978f1ed850b 2437 gpc-4.1_2.1-4.1.2-22.dsc 8ee52b52402206b839119e48d68b4bab20b6376a 2766420 gpc-4.1_2.1-4.1.2.orig.tar.gz 3ba1525ef902fc574d8710ddb6fbd6f2bbcf79be 1671513 gpc-4.1_2.1-4.1.2-22.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"4cc74a85f465e7a8b6242287b029fef86503a01d25ed7f65cc868ecbaefff517 2437 gpc-4.1_2.1-4.1.2-22.dsc 2ded1dd0c816d09864ab7b0739166ecd72a980183f9d337b9576d0a9a12a4fb1 2766420 gpc-4.1_2.1-4.1.2.orig.tar.gz 046ae62dd8d58823a445fbe46bacb80d8e630fe6ad89fdebb63f9708320c37a3 1671513 gpc-4.1_2.1-4.1.2-22.diff.gz"
+	],
+	"Directory": [
+		"pool/main/g/gpc-4.1"
+	],
+	"Files": [
+		"15f07edf9b12e8ad4578707148404b27 2437 gpc-4.1_2.1-4.1.2-22.dsc d2c8c7aaa698a10d071f57e35b8403c9 2766420 gpc-4.1_2.1-4.1.2.orig.tar.gz b09f8a2601b431569c09a693d39e17d2 1671513 gpc-4.1_2.1-4.1.2-22.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Maintainer": [
+		"Debian GCC Maintainers <debian-gcc@lists.debian.org>"
+	],
+	"Package": [
+		"gpc-4.1"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"devel"
+	],
+	"Standards-Version": [
+		"3.7.2"
+	],
+	"Uploaders": [
+		"Matthias Klose <doko@debian.org>"
+	],
+	"Version": [
+		"2.1-4.1.2-22"
+	]
 }

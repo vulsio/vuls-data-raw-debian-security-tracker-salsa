@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "linux-any kfreebsd-any any-arm"
-  ],
-  "Binary": [
-    "libdrm-dev, libdrm2, libdrm2-udeb, libdrm2-dbg, libdrm-intel1, libdrm-intel1-dbg, libdrm-nouveau2, libdrm-nouveau2-dbg, libdrm-radeon1, libdrm-radeon1-dbg, libdrm-omap1, libdrm-omap1-dbg, libdrm-freedreno1, libdrm-freedreno1-dbg, libdrm-exynos1, libdrm-exynos1-dbg, libdrm-tegra0, libdrm-tegra0-dbg, libdrm-amdgpu1, libdrm-amdgpu1-dbg"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 10), quilt, xsltproc, docbook-xsl, libx11-dev, pkg-config, xutils-dev (>= 1:7.6+2), libpthread-stubs0-dev, libudev-dev [linux-any], libpciaccess-dev, valgrind [amd64 armhf i386 mips mipsel powerpc s390x], libbsd-dev [kfreebsd-any]"
-  ],
-  "Checksums-Sha1": [
-    "44875d3d734d9aaa5f6f548a45379f38784cf09a 3600 libdrm_2.4.74-1~bpo8+1.dsc 7b5a80fbdd432e87934ef3b1256a58ed7b034574 1056909 libdrm_2.4.74.orig.tar.gz b7f803c0ee0b723f2ef284bf106bb4b1a73d5633 46213 libdrm_2.4.74-1~bpo8+1.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "768591fed4309bb69787e3ec1d54a16bf1eee9e8e9b72be4824348a16e872fb6 3600 libdrm_2.4.74-1~bpo8+1.dsc 3c8fdf5a89826797a8060e6f3455ca22db9ae49576cfcda1c78e3e2ce59af0f1 1056909 libdrm_2.4.74.orig.tar.gz 146182e92bb7d79a8538882c08eb0b904083408cd724c539afbd5f7dd32dae01 46213 libdrm_2.4.74-1~bpo8+1.diff.gz"
-  ],
-  "Directory": [
-    "pool/main/libd/libdrm"
-  ],
-  "Files": [
-    "18515629c4f36131db926c9b0b3ac5ce 3600 libdrm_2.4.74-1~bpo8+1.dsc b661a54514109caad3de3b520680b98e 1056909 libdrm_2.4.74.orig.tar.gz b699328cb31854e286531f0729d17cf6 46213 libdrm_2.4.74-1~bpo8+1.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Homepage": [
-    "https://cgit.freedesktop.org/mesa/drm/"
-  ],
-  "Maintainer": [
-    "Debian X Strike Force <debian-x@lists.debian.org>"
-  ],
-  "Package": [
-    "libdrm"
-  ],
-  "Package-List": [
-    "libdrm-amdgpu1 deb libs optional arch=linux-any,kfreebsd-any libdrm-amdgpu1-dbg deb debug extra arch=linux-any,kfreebsd-any libdrm-dev deb libdevel optional arch=linux-any,kfreebsd-any libdrm-exynos1 deb libs optional arch=any-arm libdrm-exynos1-dbg deb debug extra arch=any-arm libdrm-freedreno1 deb libs optional arch=any-arm,arm64 libdrm-freedreno1-dbg deb debug extra arch=any-arm,arm64 libdrm-intel1 deb libs optional arch=amd64,i386,kfreebsd-amd64,kfreebsd-i386,x32 libdrm-intel1-dbg deb debug extra arch=amd64,i386,kfreebsd-amd64,kfreebsd-i386,x32 libdrm-nouveau2 deb libs optional arch=linux-any libdrm-nouveau2-dbg deb debug extra arch=linux-any libdrm-omap1 deb libs optional arch=any-arm libdrm-omap1-dbg deb debug extra arch=any-arm libdrm-radeon1 deb libs optional arch=linux-any,kfreebsd-any libdrm-radeon1-dbg deb debug extra arch=linux-any,kfreebsd-any libdrm-tegra0 deb libs optional arch=any-arm,arm64 libdrm-tegra0-dbg deb debug extra arch=any-arm,arm64 libdrm2 deb libs optional arch=linux-any,kfreebsd-any libdrm2-dbg deb debug extra arch=linux-any,kfreebsd-any libdrm2-udeb udeb debian-installer optional arch=linux-any,kfreebsd-any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Andreas Boll <andreas.boll.dev@gmail.com>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-xorg/lib/libdrm.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-xorg/lib/libdrm.git"
-  ],
-  "Version": [
-    "2.4.74-1~bpo8+1"
-  ]
+	"Architecture": [
+		"linux-any kfreebsd-any any-arm"
+	],
+	"Binary": [
+		"libdrm-dev, libdrm2, libdrm2-udeb, libdrm2-dbg, libdrm-intel1, libdrm-intel1-dbg, libdrm-nouveau2, libdrm-nouveau2-dbg, libdrm-radeon1, libdrm-radeon1-dbg, libdrm-omap1, libdrm-omap1-dbg, libdrm-freedreno1, libdrm-freedreno1-dbg, libdrm-exynos1, libdrm-exynos1-dbg, libdrm-tegra0, libdrm-tegra0-dbg, libdrm-amdgpu1, libdrm-amdgpu1-dbg"
+	],
+	"Build-Depends": [
+		"debhelper (>= 10), quilt, xsltproc, docbook-xsl, libx11-dev, pkg-config, xutils-dev (>= 1:7.6+2), libpthread-stubs0-dev, libudev-dev [linux-any], libpciaccess-dev, valgrind [amd64 armhf i386 mips mipsel powerpc s390x], libbsd-dev [kfreebsd-any]"
+	],
+	"Checksums-Sha1": [
+		"44875d3d734d9aaa5f6f548a45379f38784cf09a 3600 libdrm_2.4.74-1~bpo8+1.dsc 7b5a80fbdd432e87934ef3b1256a58ed7b034574 1056909 libdrm_2.4.74.orig.tar.gz b7f803c0ee0b723f2ef284bf106bb4b1a73d5633 46213 libdrm_2.4.74-1~bpo8+1.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"768591fed4309bb69787e3ec1d54a16bf1eee9e8e9b72be4824348a16e872fb6 3600 libdrm_2.4.74-1~bpo8+1.dsc 3c8fdf5a89826797a8060e6f3455ca22db9ae49576cfcda1c78e3e2ce59af0f1 1056909 libdrm_2.4.74.orig.tar.gz 146182e92bb7d79a8538882c08eb0b904083408cd724c539afbd5f7dd32dae01 46213 libdrm_2.4.74-1~bpo8+1.diff.gz"
+	],
+	"Directory": [
+		"pool/main/libd/libdrm"
+	],
+	"Files": [
+		"18515629c4f36131db926c9b0b3ac5ce 3600 libdrm_2.4.74-1~bpo8+1.dsc b661a54514109caad3de3b520680b98e 1056909 libdrm_2.4.74.orig.tar.gz b699328cb31854e286531f0729d17cf6 46213 libdrm_2.4.74-1~bpo8+1.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Homepage": [
+		"https://cgit.freedesktop.org/mesa/drm/"
+	],
+	"Maintainer": [
+		"Debian X Strike Force <debian-x@lists.debian.org>"
+	],
+	"Package": [
+		"libdrm"
+	],
+	"Package-List": [
+		"libdrm-amdgpu1 deb libs optional arch=linux-any,kfreebsd-any libdrm-amdgpu1-dbg deb debug extra arch=linux-any,kfreebsd-any libdrm-dev deb libdevel optional arch=linux-any,kfreebsd-any libdrm-exynos1 deb libs optional arch=any-arm libdrm-exynos1-dbg deb debug extra arch=any-arm libdrm-freedreno1 deb libs optional arch=any-arm,arm64 libdrm-freedreno1-dbg deb debug extra arch=any-arm,arm64 libdrm-intel1 deb libs optional arch=amd64,i386,kfreebsd-amd64,kfreebsd-i386,x32 libdrm-intel1-dbg deb debug extra arch=amd64,i386,kfreebsd-amd64,kfreebsd-i386,x32 libdrm-nouveau2 deb libs optional arch=linux-any libdrm-nouveau2-dbg deb debug extra arch=linux-any libdrm-omap1 deb libs optional arch=any-arm libdrm-omap1-dbg deb debug extra arch=any-arm libdrm-radeon1 deb libs optional arch=linux-any,kfreebsd-any libdrm-radeon1-dbg deb debug extra arch=linux-any,kfreebsd-any libdrm-tegra0 deb libs optional arch=any-arm,arm64 libdrm-tegra0-dbg deb debug extra arch=any-arm,arm64 libdrm2 deb libs optional arch=linux-any,kfreebsd-any libdrm2-dbg deb debug extra arch=linux-any,kfreebsd-any libdrm2-udeb udeb debian-installer optional arch=linux-any,kfreebsd-any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Andreas Boll <andreas.boll.dev@gmail.com>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-xorg/lib/libdrm.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-xorg/lib/libdrm.git"
+	],
+	"Version": [
+		"2.4.74-1~bpo8+1"
+	]
 }

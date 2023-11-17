@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "linux-any kfreebsd-any"
-  ],
-  "Binary": [
-    "hostapd, wpagui, wpasupplicant, wpasupplicant-udeb"
-  ],
-  "Build-Depends": [
-    "debhelper (>> 9.20120115), libdbus-1-dev, libssl1.0-dev, libqt4-dev, libncurses5-dev, libpcsclite-dev, libnl-3-dev [linux-any], libnl-genl-3-dev [linux-any], libnl-route-3-dev [linux-any], libpcap-dev [kfreebsd-any], libbsd-dev [kfreebsd-any], libreadline-dev, pkg-config, qt4-qmake, docbook-to-man, docbook-utils"
-  ],
-  "Checksums-Sha1": [
-    "79d36735315958816fc1cf33e9f6b66721f2749e 2563 wpa_2.4-1+deb9u9.dsc be9f0c01074cebe981a168eb747eab252eeff5f6 1834600 wpa_2.4.orig.tar.xz 3ce635549aec13391b679d74176a31cdb6fc828f 104792 wpa_2.4-1+deb9u9.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "f0c9ade322745651f4fd37bbd0c5ba2d19ced945e5a2c1a23274ec3701fc3126 2563 wpa_2.4-1+deb9u9.dsc a1e4eda50796b2234a6cd2f00748bbe09f38f3f621919187289162faeb50b6b8 1834600 wpa_2.4.orig.tar.xz 4649768aeea45f7d0c09bd2563df1a5205174a86e363e2b1b090a1d3d009a9dd 104792 wpa_2.4-1+deb9u9.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/w/wpa"
-  ],
-  "Files": [
-    "ab7fd9f40fd4e31b8d2c8c3c74a62ad4 2563 wpa_2.4-1+deb9u9.dsc 6a77b9fe6838b4fca9b92cb22e14de1d 1834600 wpa_2.4.orig.tar.xz 968d5788285df585b53e8011fce73495 104792 wpa_2.4-1+deb9u9.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://w1.fi/wpa_supplicant/"
-  ],
-  "Maintainer": [
-    "Debian wpasupplicant Maintainers <pkg-wpa-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "wpa"
-  ],
-  "Package-List": [
-    "hostapd deb net optional arch=linux-any,kfreebsd-any wpagui deb net optional arch=linux-any,kfreebsd-any wpasupplicant deb net optional arch=linux-any,kfreebsd-any wpasupplicant-udeb udeb debian-installer standard arch=linux-any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Stefan Lippers-Hollmann <s.l-h@gmx.de>, Jan Dittberner <jandd@debian.org>, Andrew Shadura <andrewsh@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/collab-maint/wpa.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/collab-maint/wpa.git"
-  ],
-  "Version": [
-    "2:2.4-1+deb9u9"
-  ]
+	"Architecture": [
+		"linux-any kfreebsd-any"
+	],
+	"Binary": [
+		"hostapd, wpagui, wpasupplicant, wpasupplicant-udeb"
+	],
+	"Build-Depends": [
+		"debhelper (>> 9.20120115), libdbus-1-dev, libssl1.0-dev, libqt4-dev, libncurses5-dev, libpcsclite-dev, libnl-3-dev [linux-any], libnl-genl-3-dev [linux-any], libnl-route-3-dev [linux-any], libpcap-dev [kfreebsd-any], libbsd-dev [kfreebsd-any], libreadline-dev, pkg-config, qt4-qmake, docbook-to-man, docbook-utils"
+	],
+	"Checksums-Sha1": [
+		"79d36735315958816fc1cf33e9f6b66721f2749e 2563 wpa_2.4-1+deb9u9.dsc be9f0c01074cebe981a168eb747eab252eeff5f6 1834600 wpa_2.4.orig.tar.xz 3ce635549aec13391b679d74176a31cdb6fc828f 104792 wpa_2.4-1+deb9u9.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"f0c9ade322745651f4fd37bbd0c5ba2d19ced945e5a2c1a23274ec3701fc3126 2563 wpa_2.4-1+deb9u9.dsc a1e4eda50796b2234a6cd2f00748bbe09f38f3f621919187289162faeb50b6b8 1834600 wpa_2.4.orig.tar.xz 4649768aeea45f7d0c09bd2563df1a5205174a86e363e2b1b090a1d3d009a9dd 104792 wpa_2.4-1+deb9u9.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/w/wpa"
+	],
+	"Files": [
+		"ab7fd9f40fd4e31b8d2c8c3c74a62ad4 2563 wpa_2.4-1+deb9u9.dsc 6a77b9fe6838b4fca9b92cb22e14de1d 1834600 wpa_2.4.orig.tar.xz 968d5788285df585b53e8011fce73495 104792 wpa_2.4-1+deb9u9.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://w1.fi/wpa_supplicant/"
+	],
+	"Maintainer": [
+		"Debian wpasupplicant Maintainers <pkg-wpa-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"wpa"
+	],
+	"Package-List": [
+		"hostapd deb net optional arch=linux-any,kfreebsd-any wpagui deb net optional arch=linux-any,kfreebsd-any wpasupplicant deb net optional arch=linux-any,kfreebsd-any wpasupplicant-udeb udeb debian-installer standard arch=linux-any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Stefan Lippers-Hollmann <s.l-h@gmx.de>, Jan Dittberner <jandd@debian.org>, Andrew Shadura <andrewsh@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/collab-maint/wpa.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/collab-maint/wpa.git"
+	],
+	"Version": [
+		"2:2.4-1+deb9u9"
+	]
 }

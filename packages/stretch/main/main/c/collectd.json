@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "collectd-core, collectd, collectd-utils, collectd-dbg, collectd-dev, libcollectdclient-dev, libcollectdclient1"
-  ],
-  "Build-Conflicts": [
-    "libhal-dev, libpthread-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9.20120909~), dpkg-dev (>= 1.14.10), po-debconf, dh-systemd (>= 1.5), dh-strip-nondeterminism, dh-autoreconf, bison, flex, autotools-dev, libltdl-dev, pkg-config, default-libmysqlclient-dev, iptables-dev (>= 1.4.3.2-2) [linux-any], javahelper, kfreebsd-kernel-headers [kfreebsd-any], libatasmart-dev [linux-any], libcap-dev [linux-any], libcurl4-gnutls-dev (>= 7.18.2-5) | libcurl4-gnutls-dev (<= 7.18.2-1) | libcurl3-gnutls-dev, libdevstat-dev [kfreebsd-any], libdbi0-dev, libdpdk-dev [amd64 i386], libesmtp-dev, libganglia1-dev (>= 3) [linux-any], libgeom-dev [kfreebsd-any], libgcrypt20-dev, libglib2.0-dev, libgps-dev, libhiredis-dev, libi2c-dev, libkvm-dev [kfreebsd-any], libldap2-dev, liblua5.3-dev, liblvm2-dev [linux-any], libmemcached-dev, libmicrohttpd-dev, libmodbus-dev, libmosquitto-dev, libmnl-dev [linux-any], libnotify-dev, libopenipmi-dev, liboping-dev (>= 0.3.3), libow-dev, libpcap0.8-dev | libpcap-dev, libperl-dev, libpq-dev, libprotobuf-c-dev, librabbitmq-dev, librdkafka-dev, libriemann-client-dev (>= 1.6.0), librrd-dev (>= 1.4~), libsensors4-dev [linux-any], libsigrok-dev (>= 0.2~) [linux-any], libsnmp-dev (>= 5.4.2.1~dfsg-4~) | libsnmp-dev | libsnmp9-dev, libsnmp-dev (>= 5.4.2.1~dfsg-4~) | perl (<< 5.10.1~rc2-1~), libtokyocabinet-dev [linux-any], libtokyotyrant-dev [linux-any], libudev-dev [linux-any], libupsclient-dev | libupsclient1-dev, libvarnishapi-dev, libvirt-dev (>= 0.4.0-6) [linux-any], libxen-dev [amd64 arm64 armhf i386], libxml2-dev, libyajl-dev, linux-libc-dev (>= 2.6.25-4) [linux-any] | linux-libc-dev (<< 2.6.25-1) [linux-any], default-jdk [!hppa !sparc !kfreebsd-i386 !kfreebsd-amd64], protobuf-c-compiler, python-dev, riemann-c-client"
-  ],
-  "Checksums-Sha256": [
-    "caad673bfb03ff6078e2c5737b8c881d1a2458c3f6f738cbe000a0942d9d3644 3965 collectd_5.7.1-1.1.dsc 7edd3643c0842215553b2421d5456f4e9a8a58b07e216b40a7e8e91026d8e501 1797725 collectd_5.7.1.orig.tar.bz2 b047adc5a4ed82d5979c8c8d087cd8e9f4ebbd4f9a48a7a6dd929e4e6697e8da 74404 collectd_5.7.1-1.1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/c/collectd"
-  ],
-  "Files": [
-    "c1b61abe036cbe2f20c7471501e7f01c 3965 collectd_5.7.1-1.1.dsc dc36141ed3058c4919bbd54b87c07873 1797725 collectd_5.7.1.orig.tar.bz2 e2fe00498208e924f06917f99fdd7878 74404 collectd_5.7.1-1.1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://collectd.org/"
-  ],
-  "Maintainer": [
-    "Sebastian Harl <tokkee@debian.org>"
-  ],
-  "Package": [
-    "collectd"
-  ],
-  "Package-List": [
-    "collectd deb utils optional arch=any collectd-core deb utils optional arch=any collectd-dbg deb debug extra arch=any collectd-dev deb utils optional arch=all collectd-utils deb utils optional arch=any libcollectdclient-dev deb libdevel optional arch=any libcollectdclient1 deb libs optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "utils"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Marc Fournier <marc@bl.uem.li>"
-  ],
-  "Vcs-Browser": [
-    "https://github.com/collectd/pkg-debian.git"
-  ],
-  "Vcs-Git": [
-    "https://github.com/collectd/pkg-debian.git"
-  ],
-  "Version": [
-    "5.7.1-1.1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"collectd-core, collectd, collectd-utils, collectd-dbg, collectd-dev, libcollectdclient-dev, libcollectdclient1"
+	],
+	"Build-Conflicts": [
+		"libhal-dev, libpthread-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9.20120909~), dpkg-dev (>= 1.14.10), po-debconf, dh-systemd (>= 1.5), dh-strip-nondeterminism, dh-autoreconf, bison, flex, autotools-dev, libltdl-dev, pkg-config, default-libmysqlclient-dev, iptables-dev (>= 1.4.3.2-2) [linux-any], javahelper, kfreebsd-kernel-headers [kfreebsd-any], libatasmart-dev [linux-any], libcap-dev [linux-any], libcurl4-gnutls-dev (>= 7.18.2-5) | libcurl4-gnutls-dev (<= 7.18.2-1) | libcurl3-gnutls-dev, libdevstat-dev [kfreebsd-any], libdbi0-dev, libdpdk-dev [amd64 i386], libesmtp-dev, libganglia1-dev (>= 3) [linux-any], libgeom-dev [kfreebsd-any], libgcrypt20-dev, libglib2.0-dev, libgps-dev, libhiredis-dev, libi2c-dev, libkvm-dev [kfreebsd-any], libldap2-dev, liblua5.3-dev, liblvm2-dev [linux-any], libmemcached-dev, libmicrohttpd-dev, libmodbus-dev, libmosquitto-dev, libmnl-dev [linux-any], libnotify-dev, libopenipmi-dev, liboping-dev (>= 0.3.3), libow-dev, libpcap0.8-dev | libpcap-dev, libperl-dev, libpq-dev, libprotobuf-c-dev, librabbitmq-dev, librdkafka-dev, libriemann-client-dev (>= 1.6.0), librrd-dev (>= 1.4~), libsensors4-dev [linux-any], libsigrok-dev (>= 0.2~) [linux-any], libsnmp-dev (>= 5.4.2.1~dfsg-4~) | libsnmp-dev | libsnmp9-dev, libsnmp-dev (>= 5.4.2.1~dfsg-4~) | perl (<< 5.10.1~rc2-1~), libtokyocabinet-dev [linux-any], libtokyotyrant-dev [linux-any], libudev-dev [linux-any], libupsclient-dev | libupsclient1-dev, libvarnishapi-dev, libvirt-dev (>= 0.4.0-6) [linux-any], libxen-dev [amd64 arm64 armhf i386], libxml2-dev, libyajl-dev, linux-libc-dev (>= 2.6.25-4) [linux-any] | linux-libc-dev (<< 2.6.25-1) [linux-any], default-jdk [!hppa !sparc !kfreebsd-i386 !kfreebsd-amd64], protobuf-c-compiler, python-dev, riemann-c-client"
+	],
+	"Checksums-Sha256": [
+		"caad673bfb03ff6078e2c5737b8c881d1a2458c3f6f738cbe000a0942d9d3644 3965 collectd_5.7.1-1.1.dsc 7edd3643c0842215553b2421d5456f4e9a8a58b07e216b40a7e8e91026d8e501 1797725 collectd_5.7.1.orig.tar.bz2 b047adc5a4ed82d5979c8c8d087cd8e9f4ebbd4f9a48a7a6dd929e4e6697e8da 74404 collectd_5.7.1-1.1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/c/collectd"
+	],
+	"Files": [
+		"c1b61abe036cbe2f20c7471501e7f01c 3965 collectd_5.7.1-1.1.dsc dc36141ed3058c4919bbd54b87c07873 1797725 collectd_5.7.1.orig.tar.bz2 e2fe00498208e924f06917f99fdd7878 74404 collectd_5.7.1-1.1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://collectd.org/"
+	],
+	"Maintainer": [
+		"Sebastian Harl <tokkee@debian.org>"
+	],
+	"Package": [
+		"collectd"
+	],
+	"Package-List": [
+		"collectd deb utils optional arch=any collectd-core deb utils optional arch=any collectd-dbg deb debug extra arch=any collectd-dev deb utils optional arch=all collectd-utils deb utils optional arch=any libcollectdclient-dev deb libdevel optional arch=any libcollectdclient1 deb libs optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"utils"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Marc Fournier <marc@bl.uem.li>"
+	],
+	"Vcs-Browser": [
+		"https://github.com/collectd/pkg-debian.git"
+	],
+	"Vcs-Git": [
+		"https://github.com/collectd/pkg-debian.git"
+	],
+	"Version": [
+		"5.7.1-1.1"
+	]
 }

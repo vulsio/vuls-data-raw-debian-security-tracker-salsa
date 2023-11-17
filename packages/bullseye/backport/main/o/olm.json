@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libolm3, libolm-dev, python3-olm, libjs-olm"
-  ],
-  "Build-Depends": [
-    "cmake, debhelper-compat (= 13), dh-sequence-python3, doctest-dev, pandoc, pkg-kde-tools, python3-all-dev, python3-cffi, python3-docutils, python3-future, python3-pygments, python3-pytest, python3-setuptools"
-  ],
-  "Build-Depends-Indep": [
-    "brotli, dpkg (>= 1.20.1), emscripten, pigz, uglifyjs (>= 3)"
-  ],
-  "Checksums-Sha256": [
-    "5c221267c95b7710001206c78aeeeb56ee0aa2f52b9861eca5e428c998413f06 2160 olm_3.2.11~dfsg-1~bpo11+1.dsc 41931bab340ac2cf0b25bf1a6a758ca5845c47d1717ee89ea0509d9ab44eae4d 322320 olm_3.2.11~dfsg.orig.tar.xz 61cce1a687f9988f31c9b2257604761d490c818c73f59a53215f8136191a4240 13776 olm_3.2.11~dfsg-1~bpo11+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/o/olm"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://gitlab.matrix.org/matrix-org/olm/"
-  ],
-  "Maintainer": [
-    "Matrix Packaging Team <pkg-matrix-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "olm"
-  ],
-  "Package-List": [
-    "libjs-olm deb javascript optional arch=all libolm-dev deb libdevel optional arch=any libolm3 deb libs optional arch=any python3-olm deb python optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.0"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "eslint, node-domino, node-jasmine, node-js-yaml, node-matrix-org-olm, nodejs"
-  ],
-  "Uploaders": [
-    "Hubert Chathi <uhoreg@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/matrix-team/olm"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/matrix-team/olm.git"
-  ],
-  "Version": [
-    "3.2.11~dfsg-1~bpo11+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libolm3, libolm-dev, python3-olm, libjs-olm"
+	],
+	"Build-Depends": [
+		"cmake, debhelper-compat (= 13), dh-sequence-python3, doctest-dev, pandoc, pkg-kde-tools, python3-all-dev, python3-cffi, python3-docutils, python3-future, python3-pygments, python3-pytest, python3-setuptools"
+	],
+	"Build-Depends-Indep": [
+		"brotli, dpkg (>= 1.20.1), emscripten, pigz, uglifyjs (>= 3)"
+	],
+	"Checksums-Sha256": [
+		"5c221267c95b7710001206c78aeeeb56ee0aa2f52b9861eca5e428c998413f06 2160 olm_3.2.11~dfsg-1~bpo11+1.dsc 41931bab340ac2cf0b25bf1a6a758ca5845c47d1717ee89ea0509d9ab44eae4d 322320 olm_3.2.11~dfsg.orig.tar.xz 61cce1a687f9988f31c9b2257604761d490c818c73f59a53215f8136191a4240 13776 olm_3.2.11~dfsg-1~bpo11+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/o/olm"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://gitlab.matrix.org/matrix-org/olm/"
+	],
+	"Maintainer": [
+		"Matrix Packaging Team <pkg-matrix-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"olm"
+	],
+	"Package-List": [
+		"libjs-olm deb javascript optional arch=all libolm-dev deb libdevel optional arch=any libolm3 deb libs optional arch=any python3-olm deb python optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"eslint, node-domino, node-jasmine, node-js-yaml, node-matrix-org-olm, nodejs"
+	],
+	"Uploaders": [
+		"Hubert Chathi <uhoreg@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/matrix-team/olm"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/matrix-team/olm.git"
+	],
+	"Version": [
+		"3.2.11~dfsg-1~bpo11+1"
+	]
 }

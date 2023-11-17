@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python3-django, python-django-doc"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, dpkg-dev (>= 1.17.14), libgdal-dev <!nocheck>, libsqlite3-mod-spatialite <!nocheck>, python-django-formtools-doc <!nodoc>, python-psycopg2-doc <!nodoc>, python3-all, python3-asgiref <!nocheck>, python3-bcrypt <!nocheck>, python3-doc <!nodoc>, python3-docutils <!nodoc>, python3-jinja2 <!nocheck>, python3-mock <!nocheck>, python3-numpy <!nocheck>, python3-pil <!nocheck>, python3-selenium <!nocheck>, python3-setuptools, python3-sphinx, python3-sqlparse <!nocheck>, python3-tblib <!nocheck>, python3-tz <!nocheck>, python3-yaml <!nocheck>, sphinx-doc <!nodoc>"
-  ],
-  "Build-Depends-Indep": [
-    "libjs-jquery"
-  ],
-  "Checksums-Sha256": [
-    "5eee722e0e7199ba8dca4693af8d407b8f03598bf8cb5640aa1a55326c0add51 2807 python-django_3.2.21-1.dsc a5de4c484e7b7418e6d3e52a5b8794f0e6b9f9e4ce3c037018cf1c489fa87f3c 9836824 python-django_3.2.21.orig.tar.gz 2f6891c4f1794e596bdb23460c278a634426b71ad83bc6e0957b52a5d377d813 39004 python-django_3.2.21-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/python-django"
-  ],
-  "Files": [
-    "a6fd9381522738922ee064d6f371d8ce 2807 python-django_3.2.21-1.dsc 38c4eba2d11374a9c1dd73300df7771d 9836824 python-django_3.2.21.orig.tar.gz 228f6791c4842c56447b701f33b37833 39004 python-django_3.2.21-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.djangoproject.com/"
-  ],
-  "Maintainer": [
-    "Debian Python Team <team+python@tracker.debian.org>"
-  ],
-  "Package": [
-    "python-django"
-  ],
-  "Package-List": [
-    "python-django-doc deb doc optional arch=all python3-django deb python optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "python"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "@builddeps@"
-  ],
-  "Uploaders": [
-    "Luke Faraone <lfaraone@debian.org>, Raphaël Hertzog <hertzog@debian.org>, Brian May <bam@debian.org>, Chris Lamb <lamby@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/python-team/packages/python-django"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/python-team/packages/python-django.git"
-  ],
-  "Version": [
-    "3:3.2.21-1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python3-django, python-django-doc"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-python, dpkg-dev (>= 1.17.14), libgdal-dev <!nocheck>, libsqlite3-mod-spatialite <!nocheck>, python-django-formtools-doc <!nodoc>, python-psycopg2-doc <!nodoc>, python3-all, python3-asgiref <!nocheck>, python3-bcrypt <!nocheck>, python3-doc <!nodoc>, python3-docutils <!nodoc>, python3-jinja2 <!nocheck>, python3-mock <!nocheck>, python3-numpy <!nocheck>, python3-pil <!nocheck>, python3-selenium <!nocheck>, python3-setuptools, python3-sphinx, python3-sqlparse <!nocheck>, python3-tblib <!nocheck>, python3-tz <!nocheck>, python3-yaml <!nocheck>, sphinx-doc <!nodoc>"
+	],
+	"Build-Depends-Indep": [
+		"libjs-jquery"
+	],
+	"Checksums-Sha256": [
+		"5eee722e0e7199ba8dca4693af8d407b8f03598bf8cb5640aa1a55326c0add51 2807 python-django_3.2.21-1.dsc a5de4c484e7b7418e6d3e52a5b8794f0e6b9f9e4ce3c037018cf1c489fa87f3c 9836824 python-django_3.2.21.orig.tar.gz 2f6891c4f1794e596bdb23460c278a634426b71ad83bc6e0957b52a5d377d813 39004 python-django_3.2.21-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-django"
+	],
+	"Files": [
+		"a6fd9381522738922ee064d6f371d8ce 2807 python-django_3.2.21-1.dsc 38c4eba2d11374a9c1dd73300df7771d 9836824 python-django_3.2.21.orig.tar.gz 228f6791c4842c56447b701f33b37833 39004 python-django_3.2.21-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.djangoproject.com/"
+	],
+	"Maintainer": [
+		"Debian Python Team <team+python@tracker.debian.org>"
+	],
+	"Package": [
+		"python-django"
+	],
+	"Package-List": [
+		"python-django-doc deb doc optional arch=all python3-django deb python optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"python"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"@builddeps@"
+	],
+	"Uploaders": [
+		"Luke Faraone <lfaraone@debian.org>, Raphaël Hertzog <hertzog@debian.org>, Brian May <bam@debian.org>, Chris Lamb <lamby@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/python-team/packages/python-django"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/python-team/packages/python-django.git"
+	],
+	"Version": [
+		"3:3.2.21-1"
+	]
 }

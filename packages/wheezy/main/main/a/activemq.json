@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "libactivemq-java, libactivemq-java-doc, activemq"
-  ],
-  "Build-Depends": [
-    "cdbs, debhelper (>= 7), default-jdk, maven-debian-helper (>= 1.4)"
-  ],
-  "Build-Depends-Indep": [
-    "ant, default-jdk-doc, glassfish-javaee (>= 2.1.1-b31g), libactivemq-activeio-java, libactivemq-protobuf-java, libaopalliance-java, libaxis-java, libaxis-java-doc, libbuild-helper-maven-plugin-java, libcommons-beanutils-java, libcommons-beanutils-java-doc, libcommons-collections3-java, libcommons-daemon-java, libcommons-httpclient-java, libcommons-io-java, libcommons-logging-java, libcommons-logging-java-doc, libcommons-net2-java, libcommons-net2-java-doc, libcommons-pool-java, libcommons-pool-java-doc, libgentlyweb-utils-java, libgentlyweb-utils-java-doc, libjasypt-java, libjasypt-java-doc, libjavacc-maven-plugin-java, libjdom1-java (>= 1.0), libjdom1-java-doc, libjettison-java, libjosql-java, libjosql-java-doc, liblog4j1.2-java, libmaven-antrun-plugin-java, libmaven-bundle-plugin-java, libmaven-enforcer-plugin-java, libmaven-install-plugin-java, libmaven-javadoc-plugin-java, libmaven-shade-plugin-java, libmaven-war-plugin-java, libslf4j-java, libspring-context-java (>= 3.0.5.RELEASE-3), libspring-jms-java, libspring-test-java, libspring-web-java, libspring-web-servlet-java, libstax-java, libxalan2-java, libxbean-java (>= 3.7), libxbean-java-doc, libxpp3-java, libxstream-java (>= 1.4)"
-  ],
-  "Checksums-Sha1": [
-    "ab880c49f8b55b30072fb6009b85610965b58b4c 3468 activemq_5.6.0+dfsg-1+deb7u2.dsc 9dbc1e3b7d01cc54002401c753c9c9502512c6ac 3187408 activemq_5.6.0+dfsg.orig.tar.gz 393b37ddd5423781e8a7ea8807161d323e76aba3 43066 activemq_5.6.0+dfsg-1+deb7u2.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "779d454658afcdca8a84a6fdf8f04c87855c509267b5851e8d1c78379ca1ab8b 3468 activemq_5.6.0+dfsg-1+deb7u2.dsc f6589dae9e2cff7efe144c5bda99f18c1fc2f220b121a3ac9ef92174cb0899a3 3187408 activemq_5.6.0+dfsg.orig.tar.gz ba29e7b66ce36912e5e7253c59fe4c3d009fcacb7993cb77ad39b946af9951d3 43066 activemq_5.6.0+dfsg-1+deb7u2.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/a/activemq"
-  ],
-  "Files": [
-    "976ec40254b1ab054fd0ae37005236c9 3468 activemq_5.6.0+dfsg-1+deb7u2.dsc 54227cd13c5f73e8ec7e62a0d13d3763 3187408 activemq_5.6.0+dfsg.orig.tar.gz 6bd48730408c3b3a564e5a03604f56a5 43066 activemq_5.6.0+dfsg-1+deb7u2.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://activemq.apache.org"
-  ],
-  "Maintainer": [
-    "Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "activemq"
-  ],
-  "Package-List": [
-    "activemq deb java optional libactivemq-java deb java optional libactivemq-java-doc deb doc optional"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "java"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Damien Raude-Morvan <drazzib@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://git.debian.org/?p=pkg-java/activemq.git"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/pkg-java/activemq.git"
-  ],
-  "Version": [
-    "5.6.0+dfsg-1+deb7u2"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"libactivemq-java, libactivemq-java-doc, activemq"
+	],
+	"Build-Depends": [
+		"cdbs, debhelper (>= 7), default-jdk, maven-debian-helper (>= 1.4)"
+	],
+	"Build-Depends-Indep": [
+		"ant, default-jdk-doc, glassfish-javaee (>= 2.1.1-b31g), libactivemq-activeio-java, libactivemq-protobuf-java, libaopalliance-java, libaxis-java, libaxis-java-doc, libbuild-helper-maven-plugin-java, libcommons-beanutils-java, libcommons-beanutils-java-doc, libcommons-collections3-java, libcommons-daemon-java, libcommons-httpclient-java, libcommons-io-java, libcommons-logging-java, libcommons-logging-java-doc, libcommons-net2-java, libcommons-net2-java-doc, libcommons-pool-java, libcommons-pool-java-doc, libgentlyweb-utils-java, libgentlyweb-utils-java-doc, libjasypt-java, libjasypt-java-doc, libjavacc-maven-plugin-java, libjdom1-java (>= 1.0), libjdom1-java-doc, libjettison-java, libjosql-java, libjosql-java-doc, liblog4j1.2-java, libmaven-antrun-plugin-java, libmaven-bundle-plugin-java, libmaven-enforcer-plugin-java, libmaven-install-plugin-java, libmaven-javadoc-plugin-java, libmaven-shade-plugin-java, libmaven-war-plugin-java, libslf4j-java, libspring-context-java (>= 3.0.5.RELEASE-3), libspring-jms-java, libspring-test-java, libspring-web-java, libspring-web-servlet-java, libstax-java, libxalan2-java, libxbean-java (>= 3.7), libxbean-java-doc, libxpp3-java, libxstream-java (>= 1.4)"
+	],
+	"Checksums-Sha1": [
+		"ab880c49f8b55b30072fb6009b85610965b58b4c 3468 activemq_5.6.0+dfsg-1+deb7u2.dsc 9dbc1e3b7d01cc54002401c753c9c9502512c6ac 3187408 activemq_5.6.0+dfsg.orig.tar.gz 393b37ddd5423781e8a7ea8807161d323e76aba3 43066 activemq_5.6.0+dfsg-1+deb7u2.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"779d454658afcdca8a84a6fdf8f04c87855c509267b5851e8d1c78379ca1ab8b 3468 activemq_5.6.0+dfsg-1+deb7u2.dsc f6589dae9e2cff7efe144c5bda99f18c1fc2f220b121a3ac9ef92174cb0899a3 3187408 activemq_5.6.0+dfsg.orig.tar.gz ba29e7b66ce36912e5e7253c59fe4c3d009fcacb7993cb77ad39b946af9951d3 43066 activemq_5.6.0+dfsg-1+deb7u2.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/a/activemq"
+	],
+	"Files": [
+		"976ec40254b1ab054fd0ae37005236c9 3468 activemq_5.6.0+dfsg-1+deb7u2.dsc 54227cd13c5f73e8ec7e62a0d13d3763 3187408 activemq_5.6.0+dfsg.orig.tar.gz 6bd48730408c3b3a564e5a03604f56a5 43066 activemq_5.6.0+dfsg-1+deb7u2.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://activemq.apache.org"
+	],
+	"Maintainer": [
+		"Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"activemq"
+	],
+	"Package-List": [
+		"activemq deb java optional libactivemq-java deb java optional libactivemq-java-doc deb doc optional"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"java"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Damien Raude-Morvan <drazzib@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://git.debian.org/?p=pkg-java/activemq.git"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/pkg-java/activemq.git"
+	],
+	"Version": [
+		"5.6.0+dfsg-1+deb7u2"
+	]
 }

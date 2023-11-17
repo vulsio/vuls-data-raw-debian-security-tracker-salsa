@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "asterisk, asterisk-modules, asterisk-dahdi, asterisk-voicemail, asterisk-voicemail-imapstorage, asterisk-voicemail-odbcstorage, asterisk-ooh323, asterisk-mp3, asterisk-mysql, asterisk-mobile, asterisk-doc, asterisk-dev, asterisk-dbg, asterisk-config"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 6.0.7), lsb-base (>= 3.2-14), libreadline-dev | libreadline5-dev, libgsm1-dev, libssl-dev, libtonezone-dev (>= 1:2.0.0) [linux-any], libasound2-dev, libpq-dev, unixodbc-dev, libmysqlclient-dev | libmysqlclient15-dev, libbluetooth-dev [linux-any], libpri-dev (>= 1.4.12), libss7-dev, libvpb-dev [linux-any], dahdi-source, autotools-dev, autoconf, automake, patch, patchutils, libnewt-dev, libsqlite0-dev | libsqlite-dev, libsqlite3-dev, libspeex-dev, libspeexdsp-dev, libcurl4-openssl-dev | libcurl-dev, libxml2-dev, libpopt-dev, libiksemel-dev, libradiusclient-ng-dev, freetds-dev, libvorbis-dev, libsnmp-dev, libc-client2007e-dev | libc-client2007b-dev, libgmime-2.6-dev, libjack-dev, liblua5.1-0-dev, libcap-dev (>= 1:2.16-4) [linux-any] | libcap2-dev [linux-any], libspandsp-dev, libopenr2-dev [linux-any], libresample1-dev, libopenais-dev, libncurses-dev, libneon27-gnutls-dev | libneon27-dev, libical-dev, libsrtp0-dev [!sparc !hurd-i386], zlib1g-dev"
-  ],
-  "Checksums-Sha1": [
-    "7b9dfbe90dc3a470a9aeb586724d1bf75af273a9 3057 asterisk_1.8.13.1~dfsg1-3+deb7u3.dsc af724706092e1799a91a1f26f146f27af350a2f8 7454524 asterisk_1.8.13.1~dfsg1.orig.tar.gz c68da5a0598702e344a4d45f65b711e868e2c145 384347 asterisk_1.8.13.1~dfsg1-3+deb7u3.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "3b9f9aa08a1918f41488dbde940a526d9936325cb88269c6040f1bd49e390ccc 3057 asterisk_1.8.13.1~dfsg1-3+deb7u3.dsc 7f6c8f42660de1e588eb1e583b33636342741e89ba5e8205eccb5abf608fbea2 7454524 asterisk_1.8.13.1~dfsg1.orig.tar.gz 421b1fe7d9baf0ba1662179988487dd3fb03b3476db921aa1edbe8a3efb55bd5 384347 asterisk_1.8.13.1~dfsg1-3+deb7u3.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/a/asterisk"
-  ],
-  "Files": [
-    "6a66f8ef5f5d1faff3b75a556eaab8c6 3057 asterisk_1.8.13.1~dfsg1-3+deb7u3.dsc 774a4eef40023976ef861eb5d182b9d4 7454524 asterisk_1.8.13.1~dfsg1.orig.tar.gz 5cdf5bd01b0660f4e8ed3c4ccf56fd68 384347 asterisk_1.8.13.1~dfsg1-3+deb7u3.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.asterisk.org/"
-  ],
-  "Maintainer": [
-    "Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "asterisk"
-  ],
-  "Package-List": [
-    "asterisk deb comm optional asterisk-config deb comm optional asterisk-dahdi deb comm optional asterisk-dbg deb debug extra asterisk-dev deb devel extra asterisk-doc deb doc extra asterisk-mobile deb comm optional asterisk-modules deb libs optional asterisk-mp3 deb comm optional asterisk-mysql deb comm optional asterisk-ooh323 deb comm optional asterisk-voicemail deb comm optional asterisk-voicemail-imapstorage deb comm optional asterisk-voicemail-odbcstorage deb comm optional"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "comm"
-  ],
-  "Standards-Version": [
-    "3.9.2.0"
-  ],
-  "Uploaders": [
-    "Mark Purcell <msp@debian.org>, Tzafrir Cohen <tzafrir@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-voip/asterisk.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-voip/asterisk.git"
-  ],
-  "Version": [
-    "1:1.8.13.1~dfsg1-3+deb7u3"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"asterisk, asterisk-modules, asterisk-dahdi, asterisk-voicemail, asterisk-voicemail-imapstorage, asterisk-voicemail-odbcstorage, asterisk-ooh323, asterisk-mp3, asterisk-mysql, asterisk-mobile, asterisk-doc, asterisk-dev, asterisk-dbg, asterisk-config"
+	],
+	"Build-Depends": [
+		"debhelper (>= 6.0.7), lsb-base (>= 3.2-14), libreadline-dev | libreadline5-dev, libgsm1-dev, libssl-dev, libtonezone-dev (>= 1:2.0.0) [linux-any], libasound2-dev, libpq-dev, unixodbc-dev, libmysqlclient-dev | libmysqlclient15-dev, libbluetooth-dev [linux-any], libpri-dev (>= 1.4.12), libss7-dev, libvpb-dev [linux-any], dahdi-source, autotools-dev, autoconf, automake, patch, patchutils, libnewt-dev, libsqlite0-dev | libsqlite-dev, libsqlite3-dev, libspeex-dev, libspeexdsp-dev, libcurl4-openssl-dev | libcurl-dev, libxml2-dev, libpopt-dev, libiksemel-dev, libradiusclient-ng-dev, freetds-dev, libvorbis-dev, libsnmp-dev, libc-client2007e-dev | libc-client2007b-dev, libgmime-2.6-dev, libjack-dev, liblua5.1-0-dev, libcap-dev (>= 1:2.16-4) [linux-any] | libcap2-dev [linux-any], libspandsp-dev, libopenr2-dev [linux-any], libresample1-dev, libopenais-dev, libncurses-dev, libneon27-gnutls-dev | libneon27-dev, libical-dev, libsrtp0-dev [!sparc !hurd-i386], zlib1g-dev"
+	],
+	"Checksums-Sha1": [
+		"7b9dfbe90dc3a470a9aeb586724d1bf75af273a9 3057 asterisk_1.8.13.1~dfsg1-3+deb7u3.dsc af724706092e1799a91a1f26f146f27af350a2f8 7454524 asterisk_1.8.13.1~dfsg1.orig.tar.gz c68da5a0598702e344a4d45f65b711e868e2c145 384347 asterisk_1.8.13.1~dfsg1-3+deb7u3.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"3b9f9aa08a1918f41488dbde940a526d9936325cb88269c6040f1bd49e390ccc 3057 asterisk_1.8.13.1~dfsg1-3+deb7u3.dsc 7f6c8f42660de1e588eb1e583b33636342741e89ba5e8205eccb5abf608fbea2 7454524 asterisk_1.8.13.1~dfsg1.orig.tar.gz 421b1fe7d9baf0ba1662179988487dd3fb03b3476db921aa1edbe8a3efb55bd5 384347 asterisk_1.8.13.1~dfsg1-3+deb7u3.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/a/asterisk"
+	],
+	"Files": [
+		"6a66f8ef5f5d1faff3b75a556eaab8c6 3057 asterisk_1.8.13.1~dfsg1-3+deb7u3.dsc 774a4eef40023976ef861eb5d182b9d4 7454524 asterisk_1.8.13.1~dfsg1.orig.tar.gz 5cdf5bd01b0660f4e8ed3c4ccf56fd68 384347 asterisk_1.8.13.1~dfsg1-3+deb7u3.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.asterisk.org/"
+	],
+	"Maintainer": [
+		"Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"asterisk"
+	],
+	"Package-List": [
+		"asterisk deb comm optional asterisk-config deb comm optional asterisk-dahdi deb comm optional asterisk-dbg deb debug extra asterisk-dev deb devel extra asterisk-doc deb doc extra asterisk-mobile deb comm optional asterisk-modules deb libs optional asterisk-mp3 deb comm optional asterisk-mysql deb comm optional asterisk-ooh323 deb comm optional asterisk-voicemail deb comm optional asterisk-voicemail-imapstorage deb comm optional asterisk-voicemail-odbcstorage deb comm optional"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"comm"
+	],
+	"Standards-Version": [
+		"3.9.2.0"
+	],
+	"Uploaders": [
+		"Mark Purcell <msp@debian.org>, Tzafrir Cohen <tzafrir@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-voip/asterisk.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-voip/asterisk.git"
+	],
+	"Version": [
+		"1:1.8.13.1~dfsg1-3+deb7u3"
+	]
 }

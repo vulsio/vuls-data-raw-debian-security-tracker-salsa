@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "tomcat7-common, tomcat7, tomcat7-user, libtomcat7-java, libservlet3.0-java, libservlet3.0-java-doc, tomcat7-admin, tomcat7-examples, tomcat7-docs"
-  ],
-  "Build-Depends": [
-    "default-jdk, ant-optional, debhelper (>= 9), po-debconf, libhamcrest-java (>= 1.2)"
-  ],
-  "Build-Depends-Indep": [
-    "maven-repo-helper, libecj-java (>= 3.10.1~), javahelper, junit4, libjstl1.1-java, libjakarta-taglibs-standard-java, lsb-release"
-  ],
-  "Checksums-Sha1": [
-    "d9458f0bec0b1150afedb27f937d7dc0522cc879 2715 tomcat7_7.0.56-1~bpo70+3.dsc 488b83f5e61ad6e16a0fb10a009f0df52ac56d88 2895176 tomcat7_7.0.56.orig.tar.xz 1f897e32f6f1d60a68a1e69431aa62366abf0bf2 51791 tomcat7_7.0.56-1~bpo70+3.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "90f0fbd818a28e16d71500adf6184d7f51d8fa9871010b1cbe7c7fb4c2e5fec2 2715 tomcat7_7.0.56-1~bpo70+3.dsc ca736f95cc5c04ea9a67e2ec5ded7c2c92a2ad167f5cd7b6110336ea3f8ccb4d 2895176 tomcat7_7.0.56.orig.tar.xz 9162c294bddf72b17a964f05a32f0a192ab263181e00077d78a9cae4141dec5b 51791 tomcat7_7.0.56-1~bpo70+3.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/t/tomcat7"
-  ],
-  "Files": [
-    "c7ac14c7a20e4f1027df60075ee2c1f4 2715 tomcat7_7.0.56-1~bpo70+3.dsc fda3bd52795239742f320b94c44159a1 2895176 tomcat7_7.0.56.orig.tar.xz f1d5f77147f6f02bf4c744c3bec0ba55 51791 tomcat7_7.0.56-1~bpo70+3.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://tomcat.apache.org"
-  ],
-  "Maintainer": [
-    "Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "tomcat7"
-  ],
-  "Package-List": [
-    "libservlet3.0-java deb java optional libservlet3.0-java-doc deb doc optional libtomcat7-java deb java optional tomcat7 deb java optional tomcat7-admin deb java optional tomcat7-common deb java optional tomcat7-docs deb doc optional tomcat7-examples deb java optional tomcat7-user deb java optional"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Uploaders": [
-    "James Page <james.page@ubuntu.com>, Miguel Landaeta <nomadium@debian.org>, tony mancill <tmancill@debian.org>, Jakub Adam <jakub.adam@ktknet.cz>, Emmanuel Bourg <ebourg@apache.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-java/tomcat7.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-java/tomcat7.git"
-  ],
-  "Version": [
-    "7.0.56-1~bpo70+3"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"tomcat7-common, tomcat7, tomcat7-user, libtomcat7-java, libservlet3.0-java, libservlet3.0-java-doc, tomcat7-admin, tomcat7-examples, tomcat7-docs"
+	],
+	"Build-Depends": [
+		"default-jdk, ant-optional, debhelper (>= 9), po-debconf, libhamcrest-java (>= 1.2)"
+	],
+	"Build-Depends-Indep": [
+		"maven-repo-helper, libecj-java (>= 3.10.1~), javahelper, junit4, libjstl1.1-java, libjakarta-taglibs-standard-java, lsb-release"
+	],
+	"Checksums-Sha1": [
+		"d9458f0bec0b1150afedb27f937d7dc0522cc879 2715 tomcat7_7.0.56-1~bpo70+3.dsc 488b83f5e61ad6e16a0fb10a009f0df52ac56d88 2895176 tomcat7_7.0.56.orig.tar.xz 1f897e32f6f1d60a68a1e69431aa62366abf0bf2 51791 tomcat7_7.0.56-1~bpo70+3.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"90f0fbd818a28e16d71500adf6184d7f51d8fa9871010b1cbe7c7fb4c2e5fec2 2715 tomcat7_7.0.56-1~bpo70+3.dsc ca736f95cc5c04ea9a67e2ec5ded7c2c92a2ad167f5cd7b6110336ea3f8ccb4d 2895176 tomcat7_7.0.56.orig.tar.xz 9162c294bddf72b17a964f05a32f0a192ab263181e00077d78a9cae4141dec5b 51791 tomcat7_7.0.56-1~bpo70+3.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/t/tomcat7"
+	],
+	"Files": [
+		"c7ac14c7a20e4f1027df60075ee2c1f4 2715 tomcat7_7.0.56-1~bpo70+3.dsc fda3bd52795239742f320b94c44159a1 2895176 tomcat7_7.0.56.orig.tar.xz f1d5f77147f6f02bf4c744c3bec0ba55 51791 tomcat7_7.0.56-1~bpo70+3.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://tomcat.apache.org"
+	],
+	"Maintainer": [
+		"Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"tomcat7"
+	],
+	"Package-List": [
+		"libservlet3.0-java deb java optional libservlet3.0-java-doc deb doc optional libtomcat7-java deb java optional tomcat7 deb java optional tomcat7-admin deb java optional tomcat7-common deb java optional tomcat7-docs deb doc optional tomcat7-examples deb java optional tomcat7-user deb java optional"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Uploaders": [
+		"James Page <james.page@ubuntu.com>, Miguel Landaeta <nomadium@debian.org>, tony mancill <tmancill@debian.org>, Jakub Adam <jakub.adam@ktknet.cz>, Emmanuel Bourg <ebourg@apache.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-java/tomcat7.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-java/tomcat7.git"
+	],
+	"Version": [
+		"7.0.56-1~bpo70+3"
+	]
 }

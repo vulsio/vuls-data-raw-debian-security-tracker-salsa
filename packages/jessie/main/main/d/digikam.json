@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "digikam-private-libs, digikam, showfoto, digikam-data, digikam-doc, kipi-plugins, kipi-plugins-common"
-  ],
-  "Build-Conflicts": [
-    "libgraphicsmagick1-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), pkg-kde-tools (>= 0.9), pkg-config, cmake (>= 2.6.2), doxygen, kdelibs5-dev, kdepimlibs5-dev, libmarble-dev, libkipi-dev (>= 4:4.12), libkexiv2-dev (>= 4:4.12), libkdcraw-dev (>= 4:4.12), libksane-dev, baloo-dev, libkfilemetadata-dev, libqt4-dev, libqt4-opengl-dev, libgl1-mesa-dev, libglu1-mesa-dev, libqtwebkit-dev, libqtgstreamer-dev, libmagickcore-dev, imagemagick, libhupnp-dev, libgtk2.0-dev, libxslt1-dev | libxslt-dev, libxml2-dev, libgpod-nogtk-dev, libqca2-dev, libqjson-dev, libpng-dev, libtiff-dev, libjpeg-dev, mysql-server-core-5.5 | mysql-server-core, libglib2.0-dev, libgphoto2-dev (>= 2.4), libusb-dev [!kfreebsd-any], libusb2-dev [kfreebsd-any], liblcms2-dev, liblqr-1-0-dev, libopencv-dev (>= 2.4.9), libjasper-dev, liblensfun-dev (>= 0.2.7), libsqlite3-dev, libsqlite0-dev, libpgf-dev, flex, bison, libeigen3-dev (>= 3.1.2), libboost-graph-dev, libx11-dev, libxrandr-dev, libexpat1-dev | libexpat-dev"
-  ],
-  "Checksums-Sha1": [
-    "80e704a92eaf1a62f02dc8be80e78111ed87164a 3310 digikam_4.4.0-1.1.dsc 1feb43120addda314e09761440ec2058e430171c 68871203 digikam_4.4.0.orig.tar.bz2 5cce8f8bdc9ac28efd55cc4ca8b3c62ef01b7008 41064 digikam_4.4.0-1.1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "307c53a57fed3e4813663a0abc38072f9331cb37f5bede4313152983a353ff39 3310 digikam_4.4.0-1.1.dsc 5c68a2d200f5b502706128ea64839319aad333fb79548f49ecc92594e280d4e9 68871203 digikam_4.4.0.orig.tar.bz2 54dd8b225e54a30941ce51fd90cf27b335e78172845ee85f3a2fa7c95e660305 41064 digikam_4.4.0-1.1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/d/digikam"
-  ],
-  "Files": [
-    "8d1d7e8223f83c696978e714fdec6454 3310 digikam_4.4.0-1.1.dsc ffafd3d4fe7e920830fe7a7452852542 68871203 digikam_4.4.0.orig.tar.bz2 a0d3914fa02001577554eb9f5b1f790e 41064 digikam_4.4.0-1.1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.digikam.org"
-  ],
-  "Maintainer": [
-    "Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "digikam"
-  ],
-  "Package-List": [
-    "digikam deb graphics optional arch=any digikam-data deb graphics optional arch=all digikam-doc deb doc optional arch=all digikam-private-libs deb libs optional arch=any kipi-plugins deb graphics optional arch=any kipi-plugins-common deb graphics optional arch=all showfoto deb graphics optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "graphics"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Uploaders": [
-    "Mark Purcell <msp@debian.org>, Fathi Boudra <fabo@debian.org>, Pino Toscano <pino@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/viewvc/pkg-kde/kde-extras/digikam/trunk/"
-  ],
-  "Vcs-Svn": [
-    "svn://anonscm.debian.org/pkg-kde/kde-extras/digikam/trunk"
-  ],
-  "Version": [
-    "4:4.4.0-1.1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"digikam-private-libs, digikam, showfoto, digikam-data, digikam-doc, kipi-plugins, kipi-plugins-common"
+	],
+	"Build-Conflicts": [
+		"libgraphicsmagick1-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), pkg-kde-tools (>= 0.9), pkg-config, cmake (>= 2.6.2), doxygen, kdelibs5-dev, kdepimlibs5-dev, libmarble-dev, libkipi-dev (>= 4:4.12), libkexiv2-dev (>= 4:4.12), libkdcraw-dev (>= 4:4.12), libksane-dev, baloo-dev, libkfilemetadata-dev, libqt4-dev, libqt4-opengl-dev, libgl1-mesa-dev, libglu1-mesa-dev, libqtwebkit-dev, libqtgstreamer-dev, libmagickcore-dev, imagemagick, libhupnp-dev, libgtk2.0-dev, libxslt1-dev | libxslt-dev, libxml2-dev, libgpod-nogtk-dev, libqca2-dev, libqjson-dev, libpng-dev, libtiff-dev, libjpeg-dev, mysql-server-core-5.5 | mysql-server-core, libglib2.0-dev, libgphoto2-dev (>= 2.4), libusb-dev [!kfreebsd-any], libusb2-dev [kfreebsd-any], liblcms2-dev, liblqr-1-0-dev, libopencv-dev (>= 2.4.9), libjasper-dev, liblensfun-dev (>= 0.2.7), libsqlite3-dev, libsqlite0-dev, libpgf-dev, flex, bison, libeigen3-dev (>= 3.1.2), libboost-graph-dev, libx11-dev, libxrandr-dev, libexpat1-dev | libexpat-dev"
+	],
+	"Checksums-Sha1": [
+		"80e704a92eaf1a62f02dc8be80e78111ed87164a 3310 digikam_4.4.0-1.1.dsc 1feb43120addda314e09761440ec2058e430171c 68871203 digikam_4.4.0.orig.tar.bz2 5cce8f8bdc9ac28efd55cc4ca8b3c62ef01b7008 41064 digikam_4.4.0-1.1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"307c53a57fed3e4813663a0abc38072f9331cb37f5bede4313152983a353ff39 3310 digikam_4.4.0-1.1.dsc 5c68a2d200f5b502706128ea64839319aad333fb79548f49ecc92594e280d4e9 68871203 digikam_4.4.0.orig.tar.bz2 54dd8b225e54a30941ce51fd90cf27b335e78172845ee85f3a2fa7c95e660305 41064 digikam_4.4.0-1.1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/d/digikam"
+	],
+	"Files": [
+		"8d1d7e8223f83c696978e714fdec6454 3310 digikam_4.4.0-1.1.dsc ffafd3d4fe7e920830fe7a7452852542 68871203 digikam_4.4.0.orig.tar.bz2 a0d3914fa02001577554eb9f5b1f790e 41064 digikam_4.4.0-1.1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.digikam.org"
+	],
+	"Maintainer": [
+		"Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"digikam"
+	],
+	"Package-List": [
+		"digikam deb graphics optional arch=any digikam-data deb graphics optional arch=all digikam-doc deb doc optional arch=all digikam-private-libs deb libs optional arch=any kipi-plugins deb graphics optional arch=any kipi-plugins-common deb graphics optional arch=all showfoto deb graphics optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"graphics"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Uploaders": [
+		"Mark Purcell <msp@debian.org>, Fathi Boudra <fabo@debian.org>, Pino Toscano <pino@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/viewvc/pkg-kde/kde-extras/digikam/trunk/"
+	],
+	"Vcs-Svn": [
+		"svn://anonscm.debian.org/pkg-kde/kde-extras/digikam/trunk"
+	],
+	"Version": [
+		"4:4.4.0-1.1"
+	]
 }

@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "pure-ftpd-common, pure-ftpd, pure-ftpd-mysql, pure-ftpd-postgresql, pure-ftpd-ldap"
-  ],
-  "Build-Conflicts": [
-    "libmysqlclient10-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 5), libpam-dev, libcap2-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], libldap2-dev, libmysqlclient-dev | libmysqlclient15-dev, libpq-dev, libssl-dev, openssl (>= 0.9.6), po-debconf"
-  ],
-  "Checksums-Sha1": [
-    "9e2075a2db1f49a4e41b964dd6aaa035d3c23a16 2244 pure-ftpd_1.0.36-1.1.dsc ca932317fd9d1aba17457121bc71d881cf83b1c6 581718 pure-ftpd_1.0.36.orig.tar.gz ab52f0b99526f3cb2368cdb0e52d3f45b5d2f913 48605 pure-ftpd_1.0.36-1.1.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "ca384c9bae359f30f8cb95fece671bdf8e81adf1c65bd7b03e796990d0fa8bf7 2244 pure-ftpd_1.0.36-1.1.dsc 0fe580bdaa74b35bc3f58be5ad537f138e0101e4b3602cd8d4f3bbe134b39678 581718 pure-ftpd_1.0.36.orig.tar.gz bd2b65b94d8d53f1443959232ffc2a07b27d9218b89ed09a0de9ec4710be1ae2 48605 pure-ftpd_1.0.36-1.1.diff.gz"
-  ],
-  "Directory": [
-    "pool/main/p/pure-ftpd"
-  ],
-  "Files": [
-    "96f43771ad1120a91cc422b15ebb9b7f 2244 pure-ftpd_1.0.36-1.1.dsc a8ccc8ed9d4c22471cec98943d4c4cfe 581718 pure-ftpd_1.0.36.orig.tar.gz 4ccee2b65c9e2a23a10e18974c0c7448 48605 pure-ftpd_1.0.36-1.1.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Homepage": [
-    "http://www.pureftpd.org/"
-  ],
-  "Maintainer": [
-    "Stefan Hornburg (Racke) <racke@linuxia.de>"
-  ],
-  "Package": [
-    "pure-ftpd"
-  ],
-  "Package-List": [
-    "pure-ftpd deb net optional pure-ftpd-common deb net optional pure-ftpd-ldap deb net optional pure-ftpd-mysql deb net optional pure-ftpd-postgresql deb net optional"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.8.4"
-  ],
-  "Vcs-Browser": [
-    "https://github.com/jedisct1/pure-ftpd.git"
-  ],
-  "Vcs-Git": [
-    "git://github.com/jedisct1/pure-ftpd.git"
-  ],
-  "Version": [
-    "1.0.36-1.1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"pure-ftpd-common, pure-ftpd, pure-ftpd-mysql, pure-ftpd-postgresql, pure-ftpd-ldap"
+	],
+	"Build-Conflicts": [
+		"libmysqlclient10-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 5), libpam-dev, libcap2-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], libldap2-dev, libmysqlclient-dev | libmysqlclient15-dev, libpq-dev, libssl-dev, openssl (>= 0.9.6), po-debconf"
+	],
+	"Checksums-Sha1": [
+		"9e2075a2db1f49a4e41b964dd6aaa035d3c23a16 2244 pure-ftpd_1.0.36-1.1.dsc ca932317fd9d1aba17457121bc71d881cf83b1c6 581718 pure-ftpd_1.0.36.orig.tar.gz ab52f0b99526f3cb2368cdb0e52d3f45b5d2f913 48605 pure-ftpd_1.0.36-1.1.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"ca384c9bae359f30f8cb95fece671bdf8e81adf1c65bd7b03e796990d0fa8bf7 2244 pure-ftpd_1.0.36-1.1.dsc 0fe580bdaa74b35bc3f58be5ad537f138e0101e4b3602cd8d4f3bbe134b39678 581718 pure-ftpd_1.0.36.orig.tar.gz bd2b65b94d8d53f1443959232ffc2a07b27d9218b89ed09a0de9ec4710be1ae2 48605 pure-ftpd_1.0.36-1.1.diff.gz"
+	],
+	"Directory": [
+		"pool/main/p/pure-ftpd"
+	],
+	"Files": [
+		"96f43771ad1120a91cc422b15ebb9b7f 2244 pure-ftpd_1.0.36-1.1.dsc a8ccc8ed9d4c22471cec98943d4c4cfe 581718 pure-ftpd_1.0.36.orig.tar.gz 4ccee2b65c9e2a23a10e18974c0c7448 48605 pure-ftpd_1.0.36-1.1.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Homepage": [
+		"http://www.pureftpd.org/"
+	],
+	"Maintainer": [
+		"Stefan Hornburg (Racke) <racke@linuxia.de>"
+	],
+	"Package": [
+		"pure-ftpd"
+	],
+	"Package-List": [
+		"pure-ftpd deb net optional pure-ftpd-common deb net optional pure-ftpd-ldap deb net optional pure-ftpd-mysql deb net optional pure-ftpd-postgresql deb net optional"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.8.4"
+	],
+	"Vcs-Browser": [
+		"https://github.com/jedisct1/pure-ftpd.git"
+	],
+	"Vcs-Git": [
+		"git://github.com/jedisct1/pure-ftpd.git"
+	],
+	"Version": [
+		"1.0.36-1.1"
+	]
 }

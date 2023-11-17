@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "python3.4, python3.4-venv, libpython3.4-stdlib, python3.4-minimal, libpython3.4-minimal, libpython3.4, python3.4-examples, python3.4-dev, libpython3.4-dev, libpython3.4-testsuite, idle-python3.4, python3.4-doc, python3.4-dbg, libpython3.4-dbg"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 5.0.51~), dpkg-dev (>= 1.17.11), quilt, autoconf, lsb-release, sharutils, libreadline6-dev, libncursesw5-dev (>= 5.3), gcc (>= 4:4.9.1-1), zlib1g-dev, libbz2-dev, liblzma-dev, libgdbm-dev, libdb-dev, tk-dev, blt-dev (>= 2.4z), libssl-dev, libexpat1-dev, libmpdec-dev (>= 2.4), libbluetooth-dev [!hurd-i386 !kfreebsd-i386 !kfreebsd-amd64], locales [!armel !avr32 !hppa !ia64 !mipsel], libsqlite3-dev, libffi-dev (>= 3.0.5) [!or1k !avr32], libgpm2 [!hurd-i386 !kfreebsd-i386 !kfreebsd-amd64], mime-support, netbase, bzip2, python3:any, net-tools, xvfb, xauth"
-  ],
-  "Build-Depends-Indep": [
-    "python-sphinx"
-  ],
-  "Checksums-Sha1": [
-    "db2dfeb00c717408d03a914e782cc03f7be15798 2584 python3.4_3.4.2-1.dsc a22c157d09bcce7006b9d72e7da1cdf545435e5e 19380599 python3.4_3.4.2.orig.tar.gz c43b21cf3cbf5a42d65d4670eb15fe788e69e1c6 348260 python3.4_3.4.2-1.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "339ada67a26d2fe70184294ee38bc85b5cfb79bb0b67707ed028853c869337ce 2584 python3.4_3.4.2-1.dsc 29fe97d2e197ed25651beb233314121039477e96b4da5ec27cd317e9396a9d72 19380599 python3.4_3.4.2.orig.tar.gz 3b5ad5196a4b8e368a10c78e2c72ab0b06a5a9509da7ddf346d35dd9c1a40f2c 348260 python3.4_3.4.2-1.diff.gz"
-  ],
-  "Directory": [
-    "pool/main/p/python3.4"
-  ],
-  "Files": [
-    "15cfe5fd510401c867fb82b4264faec4 2584 python3.4_3.4.2-1.dsc 0989224489d5e7d4ddd3061426ebcf86 19380599 python3.4_3.4.2.orig.tar.gz 4de63c3d2ff0bce6575658d41f25bc84 348260 python3.4_3.4.2-1.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Maintainer": [
-    "Matthias Klose <doko@debian.org>"
-  ],
-  "Package": [
-    "python3.4"
-  ],
-  "Package-List": [
-    "idle-python3.4 deb python optional arch=all libpython3.4 deb libs optional arch=any libpython3.4-dbg deb debug extra arch=any libpython3.4-dev deb libdevel optional arch=any libpython3.4-minimal deb python optional arch=any libpython3.4-stdlib deb python optional arch=any libpython3.4-testsuite deb libdevel optional arch=all python3.4 deb python optional arch=any python3.4-dbg deb debug extra arch=any python3.4-dev deb python optional arch=any python3.4-doc deb doc optional arch=all python3.4-examples deb python optional arch=all python3.4-minimal deb python optional arch=any python3.4-venv deb python optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Vcs-Browser": [
-    "https://code.launchpad.net/~doko/python/pkg3.4-debian"
-  ],
-  "Vcs-Bzr": [
-    "http://bazaar.launchpad.net/~doko/python/pkg3.4-debian"
-  ],
-  "Version": [
-    "3.4.2-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"python3.4, python3.4-venv, libpython3.4-stdlib, python3.4-minimal, libpython3.4-minimal, libpython3.4, python3.4-examples, python3.4-dev, libpython3.4-dev, libpython3.4-testsuite, idle-python3.4, python3.4-doc, python3.4-dbg, libpython3.4-dbg"
+	],
+	"Build-Depends": [
+		"debhelper (>= 5.0.51~), dpkg-dev (>= 1.17.11), quilt, autoconf, lsb-release, sharutils, libreadline6-dev, libncursesw5-dev (>= 5.3), gcc (>= 4:4.9.1-1), zlib1g-dev, libbz2-dev, liblzma-dev, libgdbm-dev, libdb-dev, tk-dev, blt-dev (>= 2.4z), libssl-dev, libexpat1-dev, libmpdec-dev (>= 2.4), libbluetooth-dev [!hurd-i386 !kfreebsd-i386 !kfreebsd-amd64], locales [!armel !avr32 !hppa !ia64 !mipsel], libsqlite3-dev, libffi-dev (>= 3.0.5) [!or1k !avr32], libgpm2 [!hurd-i386 !kfreebsd-i386 !kfreebsd-amd64], mime-support, netbase, bzip2, python3:any, net-tools, xvfb, xauth"
+	],
+	"Build-Depends-Indep": [
+		"python-sphinx"
+	],
+	"Checksums-Sha1": [
+		"db2dfeb00c717408d03a914e782cc03f7be15798 2584 python3.4_3.4.2-1.dsc a22c157d09bcce7006b9d72e7da1cdf545435e5e 19380599 python3.4_3.4.2.orig.tar.gz c43b21cf3cbf5a42d65d4670eb15fe788e69e1c6 348260 python3.4_3.4.2-1.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"339ada67a26d2fe70184294ee38bc85b5cfb79bb0b67707ed028853c869337ce 2584 python3.4_3.4.2-1.dsc 29fe97d2e197ed25651beb233314121039477e96b4da5ec27cd317e9396a9d72 19380599 python3.4_3.4.2.orig.tar.gz 3b5ad5196a4b8e368a10c78e2c72ab0b06a5a9509da7ddf346d35dd9c1a40f2c 348260 python3.4_3.4.2-1.diff.gz"
+	],
+	"Directory": [
+		"pool/main/p/python3.4"
+	],
+	"Files": [
+		"15cfe5fd510401c867fb82b4264faec4 2584 python3.4_3.4.2-1.dsc 0989224489d5e7d4ddd3061426ebcf86 19380599 python3.4_3.4.2.orig.tar.gz 4de63c3d2ff0bce6575658d41f25bc84 348260 python3.4_3.4.2-1.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Maintainer": [
+		"Matthias Klose <doko@debian.org>"
+	],
+	"Package": [
+		"python3.4"
+	],
+	"Package-List": [
+		"idle-python3.4 deb python optional arch=all libpython3.4 deb libs optional arch=any libpython3.4-dbg deb debug extra arch=any libpython3.4-dev deb libdevel optional arch=any libpython3.4-minimal deb python optional arch=any libpython3.4-stdlib deb python optional arch=any libpython3.4-testsuite deb libdevel optional arch=all python3.4 deb python optional arch=any python3.4-dbg deb debug extra arch=any python3.4-dev deb python optional arch=any python3.4-doc deb doc optional arch=all python3.4-examples deb python optional arch=all python3.4-minimal deb python optional arch=any python3.4-venv deb python optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Vcs-Browser": [
+		"https://code.launchpad.net/~doko/python/pkg3.4-debian"
+	],
+	"Vcs-Bzr": [
+		"http://bazaar.launchpad.net/~doko/python/pkg3.4-debian"
+	],
+	"Version": [
+		"3.4.2-1"
+	]
 }

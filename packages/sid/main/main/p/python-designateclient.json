@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-designateclient-doc, python3-designateclient"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 11), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx"
-  ],
-  "Build-Depends-Indep": [
-    "python3-cliff, python3-coverage, python3-debtcollector, python3-hacking, python3-jsonschema, python3-keystoneauth1, python3-mock, python3-openstackdocstheme, python3-osc-lib, python3-oslo.config, python3-oslo.utils, python3-oslotest, python3-requests, python3-requests-mock, python3-sphinxcontrib.apidoc, python3-stestr, python3-stevedore, python3-subunit, python3-tempest, subunit"
-  ],
-  "Checksums-Sha256": [
-    "b3d69e7070cc6b881fdec17b14589911645edbde39267a92bdefd26869c7b2ed 2808 python-designateclient_5.3.0-2.dsc ab82e81f4f386ec02c99819df0d403fad6ef07f5df2dd48fdeee357a8c2298c7 48932 python-designateclient_5.3.0.orig.tar.xz 5b42744b2cca618cf859fe4cb45e1a5aa9c8bbe6ab5e9677755bbcbd9147bf95 4428 python-designateclient_5.3.0-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/python-designateclient"
-  ],
-  "Files": [
-    "1fe42f6fbb7a9adb04ede8874b7c926f 2808 python-designateclient_5.3.0-2.dsc 6da7781b7b153227a46a1f89f1fc1b7c 48932 python-designateclient_5.3.0.orig.tar.xz f999c44840326f1746b8752f619d20de 4428 python-designateclient_5.3.0-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/openstack/python-designateclient"
-  ],
-  "Maintainer": [
-    "Debian OpenStack <team+openstack@tracker.debian.org>"
-  ],
-  "Package": [
-    "python-designateclient"
-  ],
-  "Package-List": [
-    "python-designateclient-doc deb doc optional arch=all python3-designateclient deb python optional arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.5.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "@builddeps@"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>, Corey Bryant <corey.bryant@canonical.com>, David Della Vecchia <ddv@canonical.com>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/openstack-team/clients/python-designateclient"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/openstack-team/clients/python-designateclient.git"
-  ],
-  "Version": [
-    "5.3.0-2"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-designateclient-doc, python3-designateclient"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 11), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx"
+	],
+	"Build-Depends-Indep": [
+		"python3-cliff, python3-coverage, python3-debtcollector, python3-hacking, python3-jsonschema, python3-keystoneauth1, python3-mock, python3-openstackdocstheme, python3-osc-lib, python3-oslo.config, python3-oslo.utils, python3-oslotest, python3-requests, python3-requests-mock, python3-sphinxcontrib.apidoc, python3-stestr, python3-stevedore, python3-subunit, python3-tempest, subunit"
+	],
+	"Checksums-Sha256": [
+		"b3d69e7070cc6b881fdec17b14589911645edbde39267a92bdefd26869c7b2ed 2808 python-designateclient_5.3.0-2.dsc ab82e81f4f386ec02c99819df0d403fad6ef07f5df2dd48fdeee357a8c2298c7 48932 python-designateclient_5.3.0.orig.tar.xz 5b42744b2cca618cf859fe4cb45e1a5aa9c8bbe6ab5e9677755bbcbd9147bf95 4428 python-designateclient_5.3.0-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-designateclient"
+	],
+	"Files": [
+		"1fe42f6fbb7a9adb04ede8874b7c926f 2808 python-designateclient_5.3.0-2.dsc 6da7781b7b153227a46a1f89f1fc1b7c 48932 python-designateclient_5.3.0.orig.tar.xz f999c44840326f1746b8752f619d20de 4428 python-designateclient_5.3.0-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/openstack/python-designateclient"
+	],
+	"Maintainer": [
+		"Debian OpenStack <team+openstack@tracker.debian.org>"
+	],
+	"Package": [
+		"python-designateclient"
+	],
+	"Package-List": [
+		"python-designateclient-doc deb doc optional arch=all python3-designateclient deb python optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"@builddeps@"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>, Corey Bryant <corey.bryant@canonical.com>, David Della Vecchia <ddv@canonical.com>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/openstack-team/clients/python-designateclient"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/openstack-team/clients/python-designateclient.git"
+	],
+	"Version": [
+		"5.3.0-2"
+	]
 }

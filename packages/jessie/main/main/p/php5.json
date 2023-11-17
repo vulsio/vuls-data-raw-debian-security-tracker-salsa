@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "php5, php5-common, libapache2-mod-php5, libapache2-mod-php5filter, php5-cgi, php5-cli, php5-phpdbg, php5-fpm, libphp5-embed, php5-dev, php5-dbg, php-pear, php5-curl, php5-enchant, php5-gd, php5-gmp, php5-imap, php5-interbase, php5-intl, php5-ldap, php5-mcrypt, php5-readline, php5-mysql, php5-mysqlnd, php5-odbc, php5-pgsql, php5-pspell, php5-recode, php5-snmp, php5-sqlite, php5-sybase, php5-tidy, php5-xmlrpc, php5-xsl"
-  ],
-  "Build-Conflicts": [
-    "bind-dev"
-  ],
-  "Build-Depends": [
-    "apache2-dev (>= 2.4), dh-apache2, dh-systemd (>= 1.3), libsystemd-dev [linux-any], autoconf (>= 2.63), automake (>= 1.11) | automake1.11, bison, chrpath, debhelper (>= 9), dpkg-dev (>= 1.16.1~), firebird-dev [!hurd-any !m68k !hppa !ppc64] | firebird2.5-dev [!hurd-any !m68k !hppa !ppc64] | firebird2.1-dev [!hurd-any !m68k !hppa !ppc64], flex, freetds-dev, libapr1-dev (>= 1.2.7-8), libbz2-dev, libc-client-dev, libcurl4-openssl-dev | libcurl-dev, libdb-dev, libedit-dev (>= 2.11-20080614-4), libenchant-dev, libevent-dev (>= 1.4.11), libexpat1-dev (>= 1.95.2-2.1), libfreetype6-dev, libgcrypt11-dev, libgd-dev (>= 2.1.0) | libgd2-dev, libglib2.0-dev, libgmp3-dev, libicu-dev, libjpeg-dev | libjpeg62-dev, libkrb5-dev, libldap2-dev, libmagic-dev, libmcrypt-dev, libmhash-dev (>= 0.8.8), libmysqlclient-dev | libmysqlclient15-dev, libonig-dev, libpam0g-dev, libpcre3-dev (>= 6.6), libpng-dev | libpng12-dev, libpq-dev, libpspell-dev, libqdbm-dev, librecode-dev, libsasl2-dev, libsnmp-dev, libsqlite3-dev, libssl-dev, libtidy-dev, libtool (>= 2.2), libwrap0-dev, libxmltok1-dev, libxml2-dev, libvpx-dev, libxslt1-dev (>= 1.0.18), systemtap-sdt-dev [amd64 i386 powerpc armel armhf ia64], locales-all | language-pack-de, mysql-server | virtual-mysql-server, netbase, netcat-traditional, re2c, unixodbc-dev, zlib1g-dev, tzdata, libapparmor-dev"
-  ],
-  "Checksums-Sha1": [
-    "06d206a3ded97116b8f93950f08f2f71c9f6749d 5198 php5_5.6.33+dfsg-0+deb8u1.dsc 21f96d53f411417bfc1f4d181a1c6b872e980a36 19437312 php5_5.6.33+dfsg.orig.tar.gz b5a531c2f9bdbd5914126a594d11b156c5310ffe 133800 php5_5.6.33+dfsg-0+deb8u1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "76bfaa038d3dda49e5c7ed099e76e8bf39834720cac66590f5b799f52e265672 5198 php5_5.6.33+dfsg-0+deb8u1.dsc 79e42e5edee22cc41f5d268ff08eb5434162a9755ebacff3307cdd5177ed541e 19437312 php5_5.6.33+dfsg.orig.tar.gz 5200ffea17b116adee657d130308805739e7137dc3db5af4383cc85c4adfe5e8 133800 php5_5.6.33+dfsg-0+deb8u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/php5"
-  ],
-  "Files": [
-    "a05338b724957fc76b7168976f2d5ceb 5198 php5_5.6.33+dfsg-0+deb8u1.dsc 398f2d94f848da74427ae4f65c5aef64 19437312 php5_5.6.33+dfsg.orig.tar.gz ced13269ddbb7b94cc7a92ddf632ba06 133800 php5_5.6.33+dfsg-0+deb8u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://secure.php.net/"
-  ],
-  "Maintainer": [
-    "Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "php5"
-  ],
-  "Package-List": [
-    "libapache2-mod-php5 deb httpd optional arch=any libapache2-mod-php5filter deb httpd extra arch=any libphp5-embed deb php optional arch=any php-pear deb php optional arch=all php5 deb php optional arch=all php5-cgi deb php optional arch=any php5-cli deb php optional arch=any php5-common deb php optional arch=any php5-curl deb php optional arch=any php5-dbg deb debug extra arch=any php5-dev deb php optional arch=any php5-enchant deb php optional arch=any php5-fpm deb php optional arch=any php5-gd deb php optional arch=any php5-gmp deb php optional arch=any php5-imap deb php optional arch=any php5-interbase deb php optional arch=linux-any,kfreebsd-any php5-intl deb php optional arch=any php5-ldap deb php optional arch=any php5-mcrypt deb php optional arch=any php5-mysql deb php optional arch=any php5-mysqlnd deb php extra arch=any php5-odbc deb php optional arch=any php5-pgsql deb php optional arch=any php5-phpdbg deb php optional arch=any php5-pspell deb php optional arch=any php5-readline deb php optional arch=any php5-recode deb php optional arch=any php5-snmp deb php optional arch=any php5-sqlite deb php optional arch=any php5-sybase deb php optional arch=any php5-tidy deb php optional arch=any php5-xmlrpc deb php optional arch=any php5-xsl deb php optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "php"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Ondřej Surý <ondrej@debian.org>, Thijs Kinkhorst <thijs@debian.org>, Lior Kaplan <kaplan@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/php-team/php5"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/php-team/php5.git"
-  ],
-  "Version": [
-    "5.6.33+dfsg-0+deb8u1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"php5, php5-common, libapache2-mod-php5, libapache2-mod-php5filter, php5-cgi, php5-cli, php5-phpdbg, php5-fpm, libphp5-embed, php5-dev, php5-dbg, php-pear, php5-curl, php5-enchant, php5-gd, php5-gmp, php5-imap, php5-interbase, php5-intl, php5-ldap, php5-mcrypt, php5-readline, php5-mysql, php5-mysqlnd, php5-odbc, php5-pgsql, php5-pspell, php5-recode, php5-snmp, php5-sqlite, php5-sybase, php5-tidy, php5-xmlrpc, php5-xsl"
+	],
+	"Build-Conflicts": [
+		"bind-dev"
+	],
+	"Build-Depends": [
+		"apache2-dev (>= 2.4), dh-apache2, dh-systemd (>= 1.3), libsystemd-dev [linux-any], autoconf (>= 2.63), automake (>= 1.11) | automake1.11, bison, chrpath, debhelper (>= 9), dpkg-dev (>= 1.16.1~), firebird-dev [!hurd-any !m68k !hppa !ppc64] | firebird2.5-dev [!hurd-any !m68k !hppa !ppc64] | firebird2.1-dev [!hurd-any !m68k !hppa !ppc64], flex, freetds-dev, libapr1-dev (>= 1.2.7-8), libbz2-dev, libc-client-dev, libcurl4-openssl-dev | libcurl-dev, libdb-dev, libedit-dev (>= 2.11-20080614-4), libenchant-dev, libevent-dev (>= 1.4.11), libexpat1-dev (>= 1.95.2-2.1), libfreetype6-dev, libgcrypt11-dev, libgd-dev (>= 2.1.0) | libgd2-dev, libglib2.0-dev, libgmp3-dev, libicu-dev, libjpeg-dev | libjpeg62-dev, libkrb5-dev, libldap2-dev, libmagic-dev, libmcrypt-dev, libmhash-dev (>= 0.8.8), libmysqlclient-dev | libmysqlclient15-dev, libonig-dev, libpam0g-dev, libpcre3-dev (>= 6.6), libpng-dev | libpng12-dev, libpq-dev, libpspell-dev, libqdbm-dev, librecode-dev, libsasl2-dev, libsnmp-dev, libsqlite3-dev, libssl-dev, libtidy-dev, libtool (>= 2.2), libwrap0-dev, libxmltok1-dev, libxml2-dev, libvpx-dev, libxslt1-dev (>= 1.0.18), systemtap-sdt-dev [amd64 i386 powerpc armel armhf ia64], locales-all | language-pack-de, mysql-server | virtual-mysql-server, netbase, netcat-traditional, re2c, unixodbc-dev, zlib1g-dev, tzdata, libapparmor-dev"
+	],
+	"Checksums-Sha1": [
+		"06d206a3ded97116b8f93950f08f2f71c9f6749d 5198 php5_5.6.33+dfsg-0+deb8u1.dsc 21f96d53f411417bfc1f4d181a1c6b872e980a36 19437312 php5_5.6.33+dfsg.orig.tar.gz b5a531c2f9bdbd5914126a594d11b156c5310ffe 133800 php5_5.6.33+dfsg-0+deb8u1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"76bfaa038d3dda49e5c7ed099e76e8bf39834720cac66590f5b799f52e265672 5198 php5_5.6.33+dfsg-0+deb8u1.dsc 79e42e5edee22cc41f5d268ff08eb5434162a9755ebacff3307cdd5177ed541e 19437312 php5_5.6.33+dfsg.orig.tar.gz 5200ffea17b116adee657d130308805739e7137dc3db5af4383cc85c4adfe5e8 133800 php5_5.6.33+dfsg-0+deb8u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/php5"
+	],
+	"Files": [
+		"a05338b724957fc76b7168976f2d5ceb 5198 php5_5.6.33+dfsg-0+deb8u1.dsc 398f2d94f848da74427ae4f65c5aef64 19437312 php5_5.6.33+dfsg.orig.tar.gz ced13269ddbb7b94cc7a92ddf632ba06 133800 php5_5.6.33+dfsg-0+deb8u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://secure.php.net/"
+	],
+	"Maintainer": [
+		"Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"php5"
+	],
+	"Package-List": [
+		"libapache2-mod-php5 deb httpd optional arch=any libapache2-mod-php5filter deb httpd extra arch=any libphp5-embed deb php optional arch=any php-pear deb php optional arch=all php5 deb php optional arch=all php5-cgi deb php optional arch=any php5-cli deb php optional arch=any php5-common deb php optional arch=any php5-curl deb php optional arch=any php5-dbg deb debug extra arch=any php5-dev deb php optional arch=any php5-enchant deb php optional arch=any php5-fpm deb php optional arch=any php5-gd deb php optional arch=any php5-gmp deb php optional arch=any php5-imap deb php optional arch=any php5-interbase deb php optional arch=linux-any,kfreebsd-any php5-intl deb php optional arch=any php5-ldap deb php optional arch=any php5-mcrypt deb php optional arch=any php5-mysql deb php optional arch=any php5-mysqlnd deb php extra arch=any php5-odbc deb php optional arch=any php5-pgsql deb php optional arch=any php5-phpdbg deb php optional arch=any php5-pspell deb php optional arch=any php5-readline deb php optional arch=any php5-recode deb php optional arch=any php5-snmp deb php optional arch=any php5-sqlite deb php optional arch=any php5-sybase deb php optional arch=any php5-tidy deb php optional arch=any php5-xmlrpc deb php optional arch=any php5-xsl deb php optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"php"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Ondřej Surý <ondrej@debian.org>, Thijs Kinkhorst <thijs@debian.org>, Lior Kaplan <kaplan@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/php-team/php5"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/php-team/php5.git"
+	],
+	"Version": [
+		"5.6.33+dfsg-0+deb8u1"
+	]
 }

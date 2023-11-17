@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "linux-any kfreebsd-any all"
-  ],
-  "Binary": [
-    "bird, bird-bgp, bird6, bird-dbg, bird-bgp-dbg, bird-doc"
-  ],
-  "Build-Depends": [
-    "quilt, dpkg-dev (>= 1.16.1.1~), debhelper (>= 9~), flex, bison, m4, libreadline-dev | libreadline6-dev | libreadline5-dev, libncurses5-dev, autotools-dev, xsltproc, docbook-xsl, linuxdoc-tools-latex, sp"
-  ],
-  "Checksums-Sha1": [
-    "d8167da3ca4708362a6441dc5f1a7fc22636ce83 2438 bird_1.4.5-1+deb8u1.dsc 41d4c03e4435e068af7ffb706a5a05c95f592028 1013304 bird_1.4.5.orig.tar.xz fa0067f8865fe045ff2d7bf90a12f8ea324fb77c 13888 bird_1.4.5-1+deb8u1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "4ade496780f677416fd8ebcc41f75290b96b6cc5c3f7749ca186999db942e7a2 2438 bird_1.4.5-1+deb8u1.dsc 014dcd55376a7f42dd3f887e460477e4a4a2fa2ea4d88fa703fc5ec89fb55ce5 1013304 bird_1.4.5.orig.tar.xz ad94577a01502b806e2e98370df968dab495e6e2dfd1dba48dcd5414f34a22c1 13888 bird_1.4.5-1+deb8u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/b/bird"
-  ],
-  "Files": [
-    "31f1282d05e2361e6081c630f0011485 2438 bird_1.4.5-1+deb8u1.dsc bbc8f29627442d3b2231614c06704cbe 1013304 bird_1.4.5.orig.tar.xz 24ee295f65cc9242ed31fcf46212b62e 13888 bird_1.4.5-1+deb8u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://bird.network.cz/"
-  ],
-  "Maintainer": [
-    "Ondřej Surý <ondrej@debian.org>"
-  ],
-  "Package": [
-    "bird"
-  ],
-  "Package-List": [
-    "bird deb net extra arch=linux-any,kfreebsd-any bird-bgp deb net extra arch=linux-any,kfreebsd-any bird-bgp-dbg deb debug extra arch=linux-any,kfreebsd-any bird-dbg deb debug extra arch=linux-any,kfreebsd-any bird-doc deb doc optional arch=all bird6 deb oldlibs extra arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/?p=users/ondrej/bird.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/users/ondrej/bird.git"
-  ],
-  "Version": [
-    "1.4.5-1+deb8u1"
-  ]
+	"Architecture": [
+		"linux-any kfreebsd-any all"
+	],
+	"Binary": [
+		"bird, bird-bgp, bird6, bird-dbg, bird-bgp-dbg, bird-doc"
+	],
+	"Build-Depends": [
+		"quilt, dpkg-dev (>= 1.16.1.1~), debhelper (>= 9~), flex, bison, m4, libreadline-dev | libreadline6-dev | libreadline5-dev, libncurses5-dev, autotools-dev, xsltproc, docbook-xsl, linuxdoc-tools-latex, sp"
+	],
+	"Checksums-Sha1": [
+		"d8167da3ca4708362a6441dc5f1a7fc22636ce83 2438 bird_1.4.5-1+deb8u1.dsc 41d4c03e4435e068af7ffb706a5a05c95f592028 1013304 bird_1.4.5.orig.tar.xz fa0067f8865fe045ff2d7bf90a12f8ea324fb77c 13888 bird_1.4.5-1+deb8u1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"4ade496780f677416fd8ebcc41f75290b96b6cc5c3f7749ca186999db942e7a2 2438 bird_1.4.5-1+deb8u1.dsc 014dcd55376a7f42dd3f887e460477e4a4a2fa2ea4d88fa703fc5ec89fb55ce5 1013304 bird_1.4.5.orig.tar.xz ad94577a01502b806e2e98370df968dab495e6e2dfd1dba48dcd5414f34a22c1 13888 bird_1.4.5-1+deb8u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/b/bird"
+	],
+	"Files": [
+		"31f1282d05e2361e6081c630f0011485 2438 bird_1.4.5-1+deb8u1.dsc bbc8f29627442d3b2231614c06704cbe 1013304 bird_1.4.5.orig.tar.xz 24ee295f65cc9242ed31fcf46212b62e 13888 bird_1.4.5-1+deb8u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://bird.network.cz/"
+	],
+	"Maintainer": [
+		"Ondřej Surý <ondrej@debian.org>"
+	],
+	"Package": [
+		"bird"
+	],
+	"Package-List": [
+		"bird deb net extra arch=linux-any,kfreebsd-any bird-bgp deb net extra arch=linux-any,kfreebsd-any bird-bgp-dbg deb debug extra arch=linux-any,kfreebsd-any bird-dbg deb debug extra arch=linux-any,kfreebsd-any bird-doc deb doc optional arch=all bird6 deb oldlibs extra arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/?p=users/ondrej/bird.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/users/ondrej/bird.git"
+	],
+	"Version": [
+		"1.4.5-1+deb8u1"
+	]
 }

@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "ncurses-base, ncurses-term, libtinfo6, libtinfo6-udeb, libncurses6, libncurses-dev, libncursesw6, libncursesw6-udeb, lib64tinfo6, lib64ncurses6, lib64ncursesw6, lib64ncurses-dev, lib32tinfo6, lib32ncurses6, lib32ncursesw6, lib32ncurses-dev, ncurses-bin, ncurses-examples, ncurses-doc"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), libgpm-dev [linux-any], pkg-config, autoconf-dickey (>= 2.52+20210509)"
-  ],
-  "Build-Depends-Arch": [
-    "g++-multilib [amd64 i386 powerpc ppc64 s390 sparc] <!nobiarch>"
-  ],
-  "Checksums-Sha256": [
-    "d8f896d72cbc71450664cde520bc444a91f5526bb8b24a5abadde403f87e1331 3807 ncurses_6.4+20231016-1.dsc 07c48ace643c96d444dece3f3a221dace65d3a91f6374651b815cc66b88829e8 3666201 ncurses_6.4+20231016.orig.tar.gz 50955e77e6e3553812de25b9494e411a71b8abaad7345e1b9f49fb64ba3ee9de 729 ncurses_6.4+20231016.orig.tar.gz.asc 5faa024afc6c1c298b445b96c6af13eebdfba207873229f11804acc5158cbd04 48800 ncurses_6.4+20231016-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/n/ncurses"
-  ],
-  "Files": [
-    "a99a3a4168864be6cb586f5b6e983011 3807 ncurses_6.4+20231016-1.dsc bb02744bcb68320a9693c2dd4c5e965c 3666201 ncurses_6.4+20231016.orig.tar.gz 00aac7d9e30669a1f59cd58674dc02e8 729 ncurses_6.4+20231016.orig.tar.gz.asc 595cc0326d09d80fdea54b24ae949b7d 48800 ncurses_6.4+20231016-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://invisible-island.net/ncurses/"
-  ],
-  "Maintainer": [
-    "Ncurses Maintainers <ncurses@packages.debian.org>"
-  ],
-  "Package": [
-    "ncurses"
-  ],
-  "Package-List": [
-    "lib32ncurses-dev deb libdevel optional arch=amd64,ppc64 profile=!nobiarch lib32ncurses6 deb libs optional arch=amd64,ppc64 profile=!nobiarch lib32ncursesw6 deb libs optional arch=amd64,ppc64 profile=!nobiarch lib32tinfo6 deb libs optional arch=amd64,ppc64 profile=!nobiarch lib64ncurses-dev deb libdevel optional arch=i386,powerpc,sparc,s390 profile=!nobiarch lib64ncurses6 deb libs optional arch=i386,powerpc,sparc,s390 profile=!nobiarch lib64ncursesw6 deb libs optional arch=i386,powerpc,sparc,s390 profile=!nobiarch lib64tinfo6 deb libs optional arch=i386,powerpc,sparc,s390 profile=!nobiarch libncurses-dev deb libdevel optional arch=any libncurses6 deb libs optional arch=any libncursesw6 deb libs optional arch=any libncursesw6-udeb udeb debian-installer optional arch=any profile=!noudeb libtinfo6 deb libs optional arch=any libtinfo6-udeb udeb debian-installer optional arch=any profile=!noudeb ncurses-base deb misc required arch=all essential=yes ncurses-bin deb utils required arch=any essential=yes ncurses-doc deb doc optional arch=all ncurses-examples deb misc optional arch=any profile=!pkg.ncurses.noexamples ncurses-term deb misc standard arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "libs"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Uploaders": [
-    "Sven Joachim <svenjoac@gmx.de>, Craig Small <csmall@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian/ncurses"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian/ncurses.git"
-  ],
-  "Version": [
-    "6.4+20231016-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"ncurses-base, ncurses-term, libtinfo6, libtinfo6-udeb, libncurses6, libncurses-dev, libncursesw6, libncursesw6-udeb, lib64tinfo6, lib64ncurses6, lib64ncursesw6, lib64ncurses-dev, lib32tinfo6, lib32ncurses6, lib32ncursesw6, lib32ncurses-dev, ncurses-bin, ncurses-examples, ncurses-doc"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), libgpm-dev [linux-any], pkg-config, autoconf-dickey (>= 2.52+20210509)"
+	],
+	"Build-Depends-Arch": [
+		"g++-multilib [amd64 i386 powerpc ppc64 s390 sparc] <!nobiarch>"
+	],
+	"Checksums-Sha256": [
+		"d8f896d72cbc71450664cde520bc444a91f5526bb8b24a5abadde403f87e1331 3807 ncurses_6.4+20231016-1.dsc 07c48ace643c96d444dece3f3a221dace65d3a91f6374651b815cc66b88829e8 3666201 ncurses_6.4+20231016.orig.tar.gz 50955e77e6e3553812de25b9494e411a71b8abaad7345e1b9f49fb64ba3ee9de 729 ncurses_6.4+20231016.orig.tar.gz.asc 5faa024afc6c1c298b445b96c6af13eebdfba207873229f11804acc5158cbd04 48800 ncurses_6.4+20231016-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/n/ncurses"
+	],
+	"Files": [
+		"a99a3a4168864be6cb586f5b6e983011 3807 ncurses_6.4+20231016-1.dsc bb02744bcb68320a9693c2dd4c5e965c 3666201 ncurses_6.4+20231016.orig.tar.gz 00aac7d9e30669a1f59cd58674dc02e8 729 ncurses_6.4+20231016.orig.tar.gz.asc 595cc0326d09d80fdea54b24ae949b7d 48800 ncurses_6.4+20231016-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://invisible-island.net/ncurses/"
+	],
+	"Maintainer": [
+		"Ncurses Maintainers <ncurses@packages.debian.org>"
+	],
+	"Package": [
+		"ncurses"
+	],
+	"Package-List": [
+		"lib32ncurses-dev deb libdevel optional arch=amd64,ppc64 profile=!nobiarch lib32ncurses6 deb libs optional arch=amd64,ppc64 profile=!nobiarch lib32ncursesw6 deb libs optional arch=amd64,ppc64 profile=!nobiarch lib32tinfo6 deb libs optional arch=amd64,ppc64 profile=!nobiarch lib64ncurses-dev deb libdevel optional arch=i386,powerpc,sparc,s390 profile=!nobiarch lib64ncurses6 deb libs optional arch=i386,powerpc,sparc,s390 profile=!nobiarch lib64ncursesw6 deb libs optional arch=i386,powerpc,sparc,s390 profile=!nobiarch lib64tinfo6 deb libs optional arch=i386,powerpc,sparc,s390 profile=!nobiarch libncurses-dev deb libdevel optional arch=any libncurses6 deb libs optional arch=any libncursesw6 deb libs optional arch=any libncursesw6-udeb udeb debian-installer optional arch=any profile=!noudeb libtinfo6 deb libs optional arch=any libtinfo6-udeb udeb debian-installer optional arch=any profile=!noudeb ncurses-base deb misc required arch=all essential=yes ncurses-bin deb utils required arch=any essential=yes ncurses-doc deb doc optional arch=all ncurses-examples deb misc optional arch=any profile=!pkg.ncurses.noexamples ncurses-term deb misc standard arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"libs"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Uploaders": [
+		"Sven Joachim <svenjoac@gmx.de>, Craig Small <csmall@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/ncurses"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/ncurses.git"
+	],
+	"Version": [
+		"6.4+20231016-1"
+	]
 }

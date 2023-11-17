@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "liquidsoap, liquidsoap-plugin-all, liquidsoap-plugin-alsa, liquidsoap-plugin-ao, liquidsoap-plugin-camlimages, liquidsoap-plugin-dssi, liquidsoap-plugin-faad, liquidsoap-plugin-flac, liquidsoap-plugin-gavl, liquidsoap-plugin-gd, liquidsoap-plugin-graphics, liquidsoap-plugin-gstreamer, liquidsoap-plugin-icecast, liquidsoap-plugin-jack, liquidsoap-plugin-ladspa, liquidsoap-plugin-lame, liquidsoap-plugin-lastfm, liquidsoap-plugin-lo, liquidsoap-plugin-mad, liquidsoap-plugin-ogg, liquidsoap-plugin-oss, liquidsoap-plugin-portaudio, liquidsoap-plugin-pulseaudio, liquidsoap-plugin-samplerate, liquidsoap-plugin-schroedinger, liquidsoap-plugin-sdl, liquidsoap-plugin-soundtouch, liquidsoap-plugin-speex, liquidsoap-plugin-taglib, liquidsoap-plugin-theora, liquidsoap-plugin-voaacenc, liquidsoap-plugin-vorbis, liquidsoap-plugin-xmlplaylist, liguidsoap"
-  ],
-  "Build-Depends": [
-    "cdbs (>= 0.4.85~), debhelper (>= 7.0.1), ocaml-nox, dh-ocaml (>= 1.0.1), ocaml-findlib, libcry-ocaml-dev (>= 0.2.2), libogg-ocaml-dev (>= 0.4.3), libvorbis-ocaml-dev (>= 0.6.1), libmad-ocaml-dev (>= 0.4.3), libdtools-ocaml-dev (>= 0.3.0), libtaglib-ocaml-dev (>= 0.1.4), libcamomile-ocaml-dev (>= 0.8), festival, libxml-dom-perl, python-gtk2-dev, python, python-support (>= 0.3), libao-ocaml-dev (>= 0.2.0), libduppy-ocaml-dev (>= 0.4.2), libalsa-ocaml-dev (>= 0.2.1) [linux-any], libpcre-ocaml-dev, libladspa-ocaml-dev (>= 0.1.4), sox, libsoundtouch-ocaml-dev (>= 0.1.7), liblastfm-ocaml-dev (>= 0.3.0), libspeex-ocaml-dev (>= 0.2.0), libgavl-ocaml-dev (>= 0.1.4), libtheora-ocaml-dev (>= 0.3.0), libportaudio-ocaml-dev (>= 0.2.0), libpulse-ocaml-dev (>= 0.1.2), libsamplerate-ocaml-dev (>= 0.1.1), libxmlplaylist-ocaml-dev (>= 0.1.3), libmagic-ocaml-dev (>= 0.3.6), libbjack-ocaml-dev (>= 0.1.3), libsdl-ocaml-dev, libfaad-ocaml-dev (>= 0.3.0), libmm-ocaml-dev (>= 0.2.0), libflac-ocaml-dev (>= 0.1.1), libschroedinger-ocaml-dev, libvoaacenc-ocaml-dev, libmp3lame-ocaml-dev (>= 0.3.1), libdssi-ocaml-dev, liblo-ocaml-dev, libcamlimages-ocaml-dev (>= 4.0.1-4), libyojson-ocaml-dev, libgstreamer-ocaml-dev (>= 0.1.0-3), libgd-gd2-noxpm-ocaml-dev (>= 1.0~alpha5-3), ttf-liberation"
-  ],
-  "Checksums-Sha1": [
-    "5398547284eff6849bbbaff4d448cda6dc64d038 5630 liquidsoap_1.0.1+repack1-1.1.dsc 5106f5abf534b3d11e7f86c788d1dad237e22bba 706633 liquidsoap_1.0.1+repack1.orig.tar.bz2 860e1ae31487463ec6a19d3637001d0460993fa0 79477 liquidsoap_1.0.1+repack1-1.1.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "0845aeda4bbf6dc9acb3373da96f886373cfa55aa6ade5315b2fabac9eb82e40 5630 liquidsoap_1.0.1+repack1-1.1.dsc 84593e37060899a623a77752feed663a534579c5de463c0a8d71b8e71d330377 706633 liquidsoap_1.0.1+repack1.orig.tar.bz2 a8f5e641e93adb25df56ccbc799aa1793baffa10710ecfe633f6baf344c44de5 79477 liquidsoap_1.0.1+repack1-1.1.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/l/liquidsoap"
-  ],
-  "Files": [
-    "ce4d6a46c26f4eddc318b6ab2e3ef6c8 5630 liquidsoap_1.0.1+repack1-1.1.dsc 17a749442602dcd6fe236b77a25262ac 706633 liquidsoap_1.0.1+repack1.orig.tar.bz2 f9cc4b51096e393340f014b1a9ecd3be 79477 liquidsoap_1.0.1+repack1-1.1.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://savonet.sourceforge.net/"
-  ],
-  "Maintainer": [
-    "Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>"
-  ],
-  "Package": [
-    "liquidsoap"
-  ],
-  "Package-List": [
-    "liguidsoap deb sound optional liquidsoap deb sound optional liquidsoap-plugin-all deb sound optional liquidsoap-plugin-alsa deb sound optional liquidsoap-plugin-ao deb sound optional liquidsoap-plugin-camlimages deb sound optional liquidsoap-plugin-dssi deb sound optional liquidsoap-plugin-faad deb sound optional liquidsoap-plugin-flac deb sound optional liquidsoap-plugin-gavl deb sound optional liquidsoap-plugin-gd deb sound optional liquidsoap-plugin-graphics deb sound optional liquidsoap-plugin-gstreamer deb sound optional liquidsoap-plugin-icecast deb sound optional liquidsoap-plugin-jack deb sound optional liquidsoap-plugin-ladspa deb sound optional liquidsoap-plugin-lame deb sound optional liquidsoap-plugin-lastfm deb sound optional liquidsoap-plugin-lo deb sound optional liquidsoap-plugin-mad deb sound optional liquidsoap-plugin-ogg deb sound optional liquidsoap-plugin-oss deb sound optional liquidsoap-plugin-portaudio deb sound optional liquidsoap-plugin-pulseaudio deb sound optional liquidsoap-plugin-samplerate deb sound optional liquidsoap-plugin-schroedinger deb sound optional liquidsoap-plugin-sdl deb sound optional liquidsoap-plugin-soundtouch deb sound optional liquidsoap-plugin-speex deb sound optional liquidsoap-plugin-taglib deb sound optional liquidsoap-plugin-theora deb sound optional liquidsoap-plugin-voaacenc deb sound optional liquidsoap-plugin-vorbis deb sound optional liquidsoap-plugin-xmlplaylist deb sound optional"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "sound"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Romain Beauxis <toots@rastageeks.org>, Samuel Mimram <smimram@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://git.debian.org/?p=pkg-ocaml-maint/packages/liquidsoap.git"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/git/pkg-ocaml-maint/packages/liquidsoap.git"
-  ],
-  "Version": [
-    "1.0.1+repack1-1.1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"liquidsoap, liquidsoap-plugin-all, liquidsoap-plugin-alsa, liquidsoap-plugin-ao, liquidsoap-plugin-camlimages, liquidsoap-plugin-dssi, liquidsoap-plugin-faad, liquidsoap-plugin-flac, liquidsoap-plugin-gavl, liquidsoap-plugin-gd, liquidsoap-plugin-graphics, liquidsoap-plugin-gstreamer, liquidsoap-plugin-icecast, liquidsoap-plugin-jack, liquidsoap-plugin-ladspa, liquidsoap-plugin-lame, liquidsoap-plugin-lastfm, liquidsoap-plugin-lo, liquidsoap-plugin-mad, liquidsoap-plugin-ogg, liquidsoap-plugin-oss, liquidsoap-plugin-portaudio, liquidsoap-plugin-pulseaudio, liquidsoap-plugin-samplerate, liquidsoap-plugin-schroedinger, liquidsoap-plugin-sdl, liquidsoap-plugin-soundtouch, liquidsoap-plugin-speex, liquidsoap-plugin-taglib, liquidsoap-plugin-theora, liquidsoap-plugin-voaacenc, liquidsoap-plugin-vorbis, liquidsoap-plugin-xmlplaylist, liguidsoap"
+	],
+	"Build-Depends": [
+		"cdbs (>= 0.4.85~), debhelper (>= 7.0.1), ocaml-nox, dh-ocaml (>= 1.0.1), ocaml-findlib, libcry-ocaml-dev (>= 0.2.2), libogg-ocaml-dev (>= 0.4.3), libvorbis-ocaml-dev (>= 0.6.1), libmad-ocaml-dev (>= 0.4.3), libdtools-ocaml-dev (>= 0.3.0), libtaglib-ocaml-dev (>= 0.1.4), libcamomile-ocaml-dev (>= 0.8), festival, libxml-dom-perl, python-gtk2-dev, python, python-support (>= 0.3), libao-ocaml-dev (>= 0.2.0), libduppy-ocaml-dev (>= 0.4.2), libalsa-ocaml-dev (>= 0.2.1) [linux-any], libpcre-ocaml-dev, libladspa-ocaml-dev (>= 0.1.4), sox, libsoundtouch-ocaml-dev (>= 0.1.7), liblastfm-ocaml-dev (>= 0.3.0), libspeex-ocaml-dev (>= 0.2.0), libgavl-ocaml-dev (>= 0.1.4), libtheora-ocaml-dev (>= 0.3.0), libportaudio-ocaml-dev (>= 0.2.0), libpulse-ocaml-dev (>= 0.1.2), libsamplerate-ocaml-dev (>= 0.1.1), libxmlplaylist-ocaml-dev (>= 0.1.3), libmagic-ocaml-dev (>= 0.3.6), libbjack-ocaml-dev (>= 0.1.3), libsdl-ocaml-dev, libfaad-ocaml-dev (>= 0.3.0), libmm-ocaml-dev (>= 0.2.0), libflac-ocaml-dev (>= 0.1.1), libschroedinger-ocaml-dev, libvoaacenc-ocaml-dev, libmp3lame-ocaml-dev (>= 0.3.1), libdssi-ocaml-dev, liblo-ocaml-dev, libcamlimages-ocaml-dev (>= 4.0.1-4), libyojson-ocaml-dev, libgstreamer-ocaml-dev (>= 0.1.0-3), libgd-gd2-noxpm-ocaml-dev (>= 1.0~alpha5-3), ttf-liberation"
+	],
+	"Checksums-Sha1": [
+		"5398547284eff6849bbbaff4d448cda6dc64d038 5630 liquidsoap_1.0.1+repack1-1.1.dsc 5106f5abf534b3d11e7f86c788d1dad237e22bba 706633 liquidsoap_1.0.1+repack1.orig.tar.bz2 860e1ae31487463ec6a19d3637001d0460993fa0 79477 liquidsoap_1.0.1+repack1-1.1.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"0845aeda4bbf6dc9acb3373da96f886373cfa55aa6ade5315b2fabac9eb82e40 5630 liquidsoap_1.0.1+repack1-1.1.dsc 84593e37060899a623a77752feed663a534579c5de463c0a8d71b8e71d330377 706633 liquidsoap_1.0.1+repack1.orig.tar.bz2 a8f5e641e93adb25df56ccbc799aa1793baffa10710ecfe633f6baf344c44de5 79477 liquidsoap_1.0.1+repack1-1.1.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/l/liquidsoap"
+	],
+	"Files": [
+		"ce4d6a46c26f4eddc318b6ab2e3ef6c8 5630 liquidsoap_1.0.1+repack1-1.1.dsc 17a749442602dcd6fe236b77a25262ac 706633 liquidsoap_1.0.1+repack1.orig.tar.bz2 f9cc4b51096e393340f014b1a9ecd3be 79477 liquidsoap_1.0.1+repack1-1.1.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://savonet.sourceforge.net/"
+	],
+	"Maintainer": [
+		"Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>"
+	],
+	"Package": [
+		"liquidsoap"
+	],
+	"Package-List": [
+		"liguidsoap deb sound optional liquidsoap deb sound optional liquidsoap-plugin-all deb sound optional liquidsoap-plugin-alsa deb sound optional liquidsoap-plugin-ao deb sound optional liquidsoap-plugin-camlimages deb sound optional liquidsoap-plugin-dssi deb sound optional liquidsoap-plugin-faad deb sound optional liquidsoap-plugin-flac deb sound optional liquidsoap-plugin-gavl deb sound optional liquidsoap-plugin-gd deb sound optional liquidsoap-plugin-graphics deb sound optional liquidsoap-plugin-gstreamer deb sound optional liquidsoap-plugin-icecast deb sound optional liquidsoap-plugin-jack deb sound optional liquidsoap-plugin-ladspa deb sound optional liquidsoap-plugin-lame deb sound optional liquidsoap-plugin-lastfm deb sound optional liquidsoap-plugin-lo deb sound optional liquidsoap-plugin-mad deb sound optional liquidsoap-plugin-ogg deb sound optional liquidsoap-plugin-oss deb sound optional liquidsoap-plugin-portaudio deb sound optional liquidsoap-plugin-pulseaudio deb sound optional liquidsoap-plugin-samplerate deb sound optional liquidsoap-plugin-schroedinger deb sound optional liquidsoap-plugin-sdl deb sound optional liquidsoap-plugin-soundtouch deb sound optional liquidsoap-plugin-speex deb sound optional liquidsoap-plugin-taglib deb sound optional liquidsoap-plugin-theora deb sound optional liquidsoap-plugin-voaacenc deb sound optional liquidsoap-plugin-vorbis deb sound optional liquidsoap-plugin-xmlplaylist deb sound optional"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"sound"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Romain Beauxis <toots@rastageeks.org>, Samuel Mimram <smimram@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://git.debian.org/?p=pkg-ocaml-maint/packages/liquidsoap.git"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/git/pkg-ocaml-maint/packages/liquidsoap.git"
+	],
+	"Version": [
+		"1.0.1+repack1-1.1"
+	]
 }

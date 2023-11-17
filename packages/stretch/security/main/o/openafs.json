@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "alpha amd64 arm armel armhf i386 ia64 powerpc powerpcspe ppc64 s390 s390x sparc all"
-  ],
-  "Binary": [
-    "openafs-client, openafs-fuse, openafs-kpasswd, openafs-fileserver, openafs-dbserver, openafs-doc, openafs-krb5, libkopenafs1, libafsauthent1, libafsrpc1, libopenafs-dev, openafs-modules-source, openafs-modules-dkms, libpam-openafs-kaserver"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9.20160114~), autoconf, automake, bison, comerr-dev, cpio, flex, libfuse-dev, libkrb5-dev, libncurses5-dev, libpam0g-dev, libxml2-utils, perl, pkg-config, dh-systemd"
-  ],
-  "Build-Depends-Indep": [
-    "dblatex, dkms (>= 2.1.1.1), docbook-xsl, doxygen (>= 1.8.4-1~), xsltproc"
-  ],
-  "Checksums-Sha1": [
-    "72ddecd763724698e91bea1db332c7dde4c823dd 4049 openafs_1.6.20-2+deb9u2.dsc 9919a55a0c399060b5b5b9dc35f470bd8396bbce 6664824 openafs_1.6.20.orig.tar.xz 440f93287c5eb88649532504a26b8d0fbea716ee 153260 openafs_1.6.20-2+deb9u2.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "9a5ddfecce5a6b2c5b7f849baa3d7cd634c6f4389b27cafb52106e533fbece44 4049 openafs_1.6.20-2+deb9u2.dsc 0bd1543b205df80fbc9cf2fa5b102802d02907ae81d6f0f49c2e9f6614b8ffd7 6664824 openafs_1.6.20.orig.tar.xz e43e6c8d589493de136a319731d425c51a01b981ca5ed44e9f36073d2e5a8b9a 153260 openafs_1.6.20-2+deb9u2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/o/openafs"
-  ],
-  "Files": [
-    "c6e04c222acdece498c2bfb48c37509d 4049 openafs_1.6.20-2+deb9u2.dsc 600186f1973b9863ca7defc504546c47 6664824 openafs_1.6.20.orig.tar.xz 70b9b174205490105ffab0940ec2ad66 153260 openafs_1.6.20-2+deb9u2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.openafs.org/"
-  ],
-  "Maintainer": [
-    "Benjamin Kaduk <kaduk@mit.edu>"
-  ],
-  "Package": [
-    "openafs"
-  ],
-  "Package-List": [
-    "libafsauthent1 deb libs optional arch=alpha,amd64,arm,armel,armhf,i386,ia64,powerpc,ppc64,s390,s390x,sparc libafsrpc1 deb libs optional arch=alpha,amd64,arm,armel,armhf,i386,ia64,powerpc,ppc64,s390,s390x,sparc libkopenafs1 deb libs optional arch=alpha,amd64,arm,armel,armhf,i386,ia64,powerpc,ppc64,s390,s390x,sparc libopenafs-dev deb libdevel extra arch=alpha,amd64,arm,armel,armhf,i386,ia64,powerpc,powerpcspe,ppc64,s390,s390x,sparc libpam-openafs-kaserver deb admin extra arch=alpha,amd64,arm,armel,armhf,i386,ia64,powerpc,powerpcspe,ppc64,s390,s390x,sparc openafs-client deb net optional arch=alpha,amd64,arm,armel,armhf,i386,ia64,powerpc,powerpcspe,ppc64,s390,s390x,sparc openafs-dbserver deb net optional arch=alpha,amd64,arm,armel,armhf,i386,ia64,powerpc,powerpcspe,ppc64,s390,s390x,sparc openafs-doc deb doc optional arch=all openafs-fileserver deb net optional arch=alpha,amd64,arm,armel,armhf,i386,ia64,powerpc,powerpcspe,ppc64,s390,s390x,sparc openafs-fuse deb net extra arch=alpha,amd64,arm,armel,armhf,i386,ia64,powerpc,ppc64,s390,s390x,sparc openafs-kpasswd deb net extra arch=alpha,amd64,arm,armel,armhf,i386,ia64,powerpc,powerpcspe,ppc64,s390,s390x,sparc openafs-krb5 deb net optional arch=alpha,amd64,arm,armel,armhf,i386,ia64,powerpc,powerpcspe,ppc64,s390,s390x,sparc openafs-modules-dkms deb kernel extra arch=all openafs-modules-source deb kernel extra arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Russ Allbery <rra@debian.org>, Sam Hartman <hartmans@debian.org>, Anders Kaseorg <andersk@mit.edu>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-k5-afs/openafs.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-k5-afs/openafs.git"
-  ],
-  "Version": [
-    "1.6.20-2+deb9u2"
-  ]
+	"Architecture": [
+		"alpha amd64 arm armel armhf i386 ia64 powerpc powerpcspe ppc64 s390 s390x sparc all"
+	],
+	"Binary": [
+		"openafs-client, openafs-fuse, openafs-kpasswd, openafs-fileserver, openafs-dbserver, openafs-doc, openafs-krb5, libkopenafs1, libafsauthent1, libafsrpc1, libopenafs-dev, openafs-modules-source, openafs-modules-dkms, libpam-openafs-kaserver"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9.20160114~), autoconf, automake, bison, comerr-dev, cpio, flex, libfuse-dev, libkrb5-dev, libncurses5-dev, libpam0g-dev, libxml2-utils, perl, pkg-config, dh-systemd"
+	],
+	"Build-Depends-Indep": [
+		"dblatex, dkms (>= 2.1.1.1), docbook-xsl, doxygen (>= 1.8.4-1~), xsltproc"
+	],
+	"Checksums-Sha1": [
+		"72ddecd763724698e91bea1db332c7dde4c823dd 4049 openafs_1.6.20-2+deb9u2.dsc 9919a55a0c399060b5b5b9dc35f470bd8396bbce 6664824 openafs_1.6.20.orig.tar.xz 440f93287c5eb88649532504a26b8d0fbea716ee 153260 openafs_1.6.20-2+deb9u2.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"9a5ddfecce5a6b2c5b7f849baa3d7cd634c6f4389b27cafb52106e533fbece44 4049 openafs_1.6.20-2+deb9u2.dsc 0bd1543b205df80fbc9cf2fa5b102802d02907ae81d6f0f49c2e9f6614b8ffd7 6664824 openafs_1.6.20.orig.tar.xz e43e6c8d589493de136a319731d425c51a01b981ca5ed44e9f36073d2e5a8b9a 153260 openafs_1.6.20-2+deb9u2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/o/openafs"
+	],
+	"Files": [
+		"c6e04c222acdece498c2bfb48c37509d 4049 openafs_1.6.20-2+deb9u2.dsc 600186f1973b9863ca7defc504546c47 6664824 openafs_1.6.20.orig.tar.xz 70b9b174205490105ffab0940ec2ad66 153260 openafs_1.6.20-2+deb9u2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.openafs.org/"
+	],
+	"Maintainer": [
+		"Benjamin Kaduk <kaduk@mit.edu>"
+	],
+	"Package": [
+		"openafs"
+	],
+	"Package-List": [
+		"libafsauthent1 deb libs optional arch=alpha,amd64,arm,armel,armhf,i386,ia64,powerpc,ppc64,s390,s390x,sparc libafsrpc1 deb libs optional arch=alpha,amd64,arm,armel,armhf,i386,ia64,powerpc,ppc64,s390,s390x,sparc libkopenafs1 deb libs optional arch=alpha,amd64,arm,armel,armhf,i386,ia64,powerpc,ppc64,s390,s390x,sparc libopenafs-dev deb libdevel extra arch=alpha,amd64,arm,armel,armhf,i386,ia64,powerpc,powerpcspe,ppc64,s390,s390x,sparc libpam-openafs-kaserver deb admin extra arch=alpha,amd64,arm,armel,armhf,i386,ia64,powerpc,powerpcspe,ppc64,s390,s390x,sparc openafs-client deb net optional arch=alpha,amd64,arm,armel,armhf,i386,ia64,powerpc,powerpcspe,ppc64,s390,s390x,sparc openafs-dbserver deb net optional arch=alpha,amd64,arm,armel,armhf,i386,ia64,powerpc,powerpcspe,ppc64,s390,s390x,sparc openafs-doc deb doc optional arch=all openafs-fileserver deb net optional arch=alpha,amd64,arm,armel,armhf,i386,ia64,powerpc,powerpcspe,ppc64,s390,s390x,sparc openafs-fuse deb net extra arch=alpha,amd64,arm,armel,armhf,i386,ia64,powerpc,ppc64,s390,s390x,sparc openafs-kpasswd deb net extra arch=alpha,amd64,arm,armel,armhf,i386,ia64,powerpc,powerpcspe,ppc64,s390,s390x,sparc openafs-krb5 deb net optional arch=alpha,amd64,arm,armel,armhf,i386,ia64,powerpc,powerpcspe,ppc64,s390,s390x,sparc openafs-modules-dkms deb kernel extra arch=all openafs-modules-source deb kernel extra arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Russ Allbery <rra@debian.org>, Sam Hartman <hartmans@debian.org>, Anders Kaseorg <andersk@mit.edu>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-k5-afs/openafs.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-k5-afs/openafs.git"
+	],
+	"Version": [
+		"1.6.20-2+deb9u2"
+	]
 }

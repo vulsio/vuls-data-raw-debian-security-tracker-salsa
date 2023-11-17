@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libmed-dev, libmed-doc, libmed-tools, libmed1v5, libmedc-dev, libmedc1v5, libmedimport-dev, libmedimport0v5"
-  ],
-  "Build-Depends": [
-    "autotools-dev, debhelper (>= 9), dh-autoreconf, gfortran, hdf5-tools (>= 1.8.13+docs-12), libhdf5-mpi-dev (>= 1.8.13+docs-12) [!arm64], libhdf5-dev (>= 1.8.13+docs-12) [arm64], mpi-default-dev [!arm64], mpi-default-bin [!arm64], libtool, tk"
-  ],
-  "Checksums-Sha256": [
-    "41f39d4d59f2163e2ee23ac51fc7daeb21359dfcfce29b6a87881ecca25ba71a 2766 med-fichier_3.0.6-11.dsc e1e259fcb756c15417b8fab37ad690e7db9997e1a533125729305f396d8fe97a 29020631 med-fichier_3.0.6.orig.tar.gz 4816b454394783e6558f48c23b8054eb96fbb6f95e8e22c30241edd447e2ae66 49208 med-fichier_3.0.6-11.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/m/med-fichier"
-  ],
-  "Files": [
-    "cafa2b685a969aa2917184cb341d7f88 2766 med-fichier_3.0.6-11.dsc 2b825c78d4d283be3f36b2042ff301b0 29020631 med-fichier_3.0.6.orig.tar.gz b3207a5fba9aba6feb66ebe5bc0493d5 49208 med-fichier_3.0.6-11.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.code-aster.org/outils/med/"
-  ],
-  "Maintainer": [
-    "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "med-fichier"
-  ],
-  "Package-List": [
-    "libmed-dev deb libdevel optional arch=any libmed-doc deb doc optional arch=all libmed-tools deb science optional arch=any libmed1v5 deb libs optional arch=any libmedc-dev deb libdevel optional arch=any libmedc1v5 deb libs optional arch=any libmedimport-dev deb libdevel optional arch=any libmedimport0v5 deb libs optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "libs"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential"
-  ],
-  "Uploaders": [
-    "Aurelien Jarno <aurel32@debian.org>, \"Adam C. Powell, IV\" <hazelsct@debian.org>, Anton Gladky <gladk@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/debian-science/packages/med-fichier.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/debian-science/packages/med-fichier.git"
-  ],
-  "Version": [
-    "3.0.6-11"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libmed-dev, libmed-doc, libmed-tools, libmed1v5, libmedc-dev, libmedc1v5, libmedimport-dev, libmedimport0v5"
+	],
+	"Build-Depends": [
+		"autotools-dev, debhelper (>= 9), dh-autoreconf, gfortran, hdf5-tools (>= 1.8.13+docs-12), libhdf5-mpi-dev (>= 1.8.13+docs-12) [!arm64], libhdf5-dev (>= 1.8.13+docs-12) [arm64], mpi-default-dev [!arm64], mpi-default-bin [!arm64], libtool, tk"
+	],
+	"Checksums-Sha256": [
+		"41f39d4d59f2163e2ee23ac51fc7daeb21359dfcfce29b6a87881ecca25ba71a 2766 med-fichier_3.0.6-11.dsc e1e259fcb756c15417b8fab37ad690e7db9997e1a533125729305f396d8fe97a 29020631 med-fichier_3.0.6.orig.tar.gz 4816b454394783e6558f48c23b8054eb96fbb6f95e8e22c30241edd447e2ae66 49208 med-fichier_3.0.6-11.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/m/med-fichier"
+	],
+	"Files": [
+		"cafa2b685a969aa2917184cb341d7f88 2766 med-fichier_3.0.6-11.dsc 2b825c78d4d283be3f36b2042ff301b0 29020631 med-fichier_3.0.6.orig.tar.gz b3207a5fba9aba6feb66ebe5bc0493d5 49208 med-fichier_3.0.6-11.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.code-aster.org/outils/med/"
+	],
+	"Maintainer": [
+		"Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"med-fichier"
+	],
+	"Package-List": [
+		"libmed-dev deb libdevel optional arch=any libmed-doc deb doc optional arch=all libmed-tools deb science optional arch=any libmed1v5 deb libs optional arch=any libmedc-dev deb libdevel optional arch=any libmedc1v5 deb libs optional arch=any libmedimport-dev deb libdevel optional arch=any libmedimport0v5 deb libs optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"libs"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential"
+	],
+	"Uploaders": [
+		"Aurelien Jarno <aurel32@debian.org>, \"Adam C. Powell, IV\" <hazelsct@debian.org>, Anton Gladky <gladk@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/debian-science/packages/med-fichier.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/debian-science/packages/med-fichier.git"
+	],
+	"Version": [
+		"3.0.6-11"
+	]
 }

@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-muranoclient, python3-muranoclient, python-muranoclient-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 10), dh-python, openstack-pkg-tools (>= 52~), python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.8), python3-setuptools"
-  ],
-  "Build-Depends-Indep": [
-    "python-babel (>= 2.3.4), python-coverage, python-fixtures (>= 3.0.0), python-glanceclient (>= 1:2.3.0), python-hacking (>= 0.10), python-iso8601 (>= 0.1.11), python-keystoneclient (>= 1:2.0.0), python-mock (>= 2.0), python-openssl (>= 0.14), python-osc-lib (>= 1.0.2), python-oslo.i18n (>= 2.1.0), python-oslo.log (>= 2.0.0), python-oslo.serialization (>= 2.0.0), python-oslo.utils (>= 3.16.0), python-prettytable, python-requests (>= 2.10.0), python-requests-mock (>= 1.0), python-six (>= 1.9.0), python-tempest (>= 1:12.1.0), python-testscenarios, python-testtools (>= 1.4.0), python-yaml, python-yaql (>= 1.1.0), python3-babel (>= 2.3.4), python3-fixtures (>= 3.0.0), python3-glanceclient (>= 1:2.3.0), python3-iso8601 (>= 0.1.11), python3-keystoneclient (>= 1:2.0.0), python3-mock (>= 2.0), python3-openssl (>= 0.14), python3-osc-lib (>= 1.0.2), python3-oslo.i18n (>= 2.1.0), python3-oslo.log (>= 2.0.0), python3-oslo.serialization (>= 2.0.0), python3-oslo.utils (>= 3.16.0), python3-prettytable, python3-requests (>= 2.10.0), python3-requests-mock (>= 1.0), python3-six (>= 1.9.0), python3-subunit, python3-tempest (>= 1:12.1.0), python3-testscenarios, python3-testtools (>= 1.4.0), python3-yaml, python3-yaql (>= 1.1.0), subunit, tempest (>= 1:12.1.0), testrepository"
-  ],
-  "Checksums-Sha256": [
-    "98c137fc94a966fa4690cf18a9b4cf0254c8c3c6fec06203935622a5e5060ef0 3719 python-muranoclient_0.11.1-1.dsc 9a0fa9720e7e60defe742984ca051ace7de3b4f3abda563b905c49f517b9fc74 177316 python-muranoclient_0.11.1.orig.tar.xz bc7a95e9e01e11039dd04f575010e8b3b2acd30ea5e276671fbc4fbe212b9225 4352 python-muranoclient_0.11.1-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/python-muranoclient"
-  ],
-  "Files": [
-    "4103d78bad18b9b27735486a6d03381e 3719 python-muranoclient_0.11.1-1.dsc cc2f46f53fbcc1331c02d6ff0fcc52a8 177316 python-muranoclient_0.11.1.orig.tar.xz 7278e677adf5fae09c4e90ea3d73bb01 4352 python-muranoclient_0.11.1-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/openstack/python-muranoclient"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "python-muranoclient"
-  ],
-  "Package-List": [
-    "python-muranoclient deb python extra arch=all python-muranoclient-doc deb doc extra arch=all python3-muranoclient deb python extra arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Corey Bryant <corey.bryant@canonical.com>, Thomas Goirand <zigo@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://git.openstack.org/cgit/openstack/deb-python-muranoclient?h=debian%2Fnewton"
-  ],
-  "Vcs-Git": [
-    "https://git.openstack.org/openstack/deb-python-muranoclient -b debian/newton"
-  ],
-  "Version": [
-    "0.11.1-1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-muranoclient, python3-muranoclient, python-muranoclient-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 10), dh-python, openstack-pkg-tools (>= 52~), python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.8), python3-setuptools"
+	],
+	"Build-Depends-Indep": [
+		"python-babel (>= 2.3.4), python-coverage, python-fixtures (>= 3.0.0), python-glanceclient (>= 1:2.3.0), python-hacking (>= 0.10), python-iso8601 (>= 0.1.11), python-keystoneclient (>= 1:2.0.0), python-mock (>= 2.0), python-openssl (>= 0.14), python-osc-lib (>= 1.0.2), python-oslo.i18n (>= 2.1.0), python-oslo.log (>= 2.0.0), python-oslo.serialization (>= 2.0.0), python-oslo.utils (>= 3.16.0), python-prettytable, python-requests (>= 2.10.0), python-requests-mock (>= 1.0), python-six (>= 1.9.0), python-tempest (>= 1:12.1.0), python-testscenarios, python-testtools (>= 1.4.0), python-yaml, python-yaql (>= 1.1.0), python3-babel (>= 2.3.4), python3-fixtures (>= 3.0.0), python3-glanceclient (>= 1:2.3.0), python3-iso8601 (>= 0.1.11), python3-keystoneclient (>= 1:2.0.0), python3-mock (>= 2.0), python3-openssl (>= 0.14), python3-osc-lib (>= 1.0.2), python3-oslo.i18n (>= 2.1.0), python3-oslo.log (>= 2.0.0), python3-oslo.serialization (>= 2.0.0), python3-oslo.utils (>= 3.16.0), python3-prettytable, python3-requests (>= 2.10.0), python3-requests-mock (>= 1.0), python3-six (>= 1.9.0), python3-subunit, python3-tempest (>= 1:12.1.0), python3-testscenarios, python3-testtools (>= 1.4.0), python3-yaml, python3-yaql (>= 1.1.0), subunit, tempest (>= 1:12.1.0), testrepository"
+	],
+	"Checksums-Sha256": [
+		"98c137fc94a966fa4690cf18a9b4cf0254c8c3c6fec06203935622a5e5060ef0 3719 python-muranoclient_0.11.1-1.dsc 9a0fa9720e7e60defe742984ca051ace7de3b4f3abda563b905c49f517b9fc74 177316 python-muranoclient_0.11.1.orig.tar.xz bc7a95e9e01e11039dd04f575010e8b3b2acd30ea5e276671fbc4fbe212b9225 4352 python-muranoclient_0.11.1-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-muranoclient"
+	],
+	"Files": [
+		"4103d78bad18b9b27735486a6d03381e 3719 python-muranoclient_0.11.1-1.dsc cc2f46f53fbcc1331c02d6ff0fcc52a8 177316 python-muranoclient_0.11.1.orig.tar.xz 7278e677adf5fae09c4e90ea3d73bb01 4352 python-muranoclient_0.11.1-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/openstack/python-muranoclient"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"python-muranoclient"
+	],
+	"Package-List": [
+		"python-muranoclient deb python extra arch=all python-muranoclient-doc deb doc extra arch=all python3-muranoclient deb python extra arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Corey Bryant <corey.bryant@canonical.com>, Thomas Goirand <zigo@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://git.openstack.org/cgit/openstack/deb-python-muranoclient?h=debian%2Fnewton"
+	],
+	"Vcs-Git": [
+		"https://git.openstack.org/openstack/deb-python-muranoclient -b debian/newton"
+	],
+	"Version": [
+		"0.11.1-1"
+	]
 }

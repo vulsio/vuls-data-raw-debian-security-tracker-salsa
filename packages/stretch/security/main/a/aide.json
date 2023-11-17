@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "aide, aide-xen, aide-dynamic, aide-common"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-autoreconf, debconf-utils, zlib1g-dev, libpcre3-dev, libmhash-dev (>= 0.9.7), flex (>= 2.5.32), bison, po-debconf (>= 0.5.0), libselinux1-dev [linux-any], libaudit-dev [linux-any], libattr1-dev, libacl1-dev, e2fslibs-dev"
-  ],
-  "Checksums-Sha1": [
-    "491ea3048d1e04f2d9197502b9a2f368f570741c 2384 aide_0.16-1+deb9u1.dsc b97f65bb12701a42baa2cce45b41ed6367a70734 391009 aide_0.16.orig.tar.gz fbe37b812b8535f0cf8711b91f6bc70b49a496ea 80268 aide_0.16-1+deb9u1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "8c80ed959b93f76d95f17c803f528fdb1a3408243f806109554a1e2fa23bf01b 2384 aide_0.16-1+deb9u1.dsc a81c53a131c4fd130b169b3a26ac35386a2f6e1e014f12807524cc273ed97345 391009 aide_0.16.orig.tar.gz c8436254e5c0acfa511ec37dfc586e1ea8235ff75dfcede321e9524fd33ba832 80268 aide_0.16-1+deb9u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/a/aide"
-  ],
-  "Files": [
-    "f2fe212d986250fa3b61599e650b2931 2384 aide_0.16-1+deb9u1.dsc 25c616f67c667acd4088747ae7f6a9a3 391009 aide_0.16.orig.tar.gz 6f8a1ca8e1cba6d3df0c04f74bfb405b 80268 aide_0.16-1+deb9u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://aide.sourceforge.net"
-  ],
-  "Maintainer": [
-    "Aide Maintainers <pkg-aide-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "aide"
-  ],
-  "Package-List": [
-    "aide deb admin optional arch=any aide-common deb admin optional arch=all aide-dynamic deb admin extra arch=any aide-xen deb admin extra arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "admin"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Marc Haber <mh+debian-packages@zugschlus.de>, Mike Markley <mike@markley.org>, Hannes von Haugwitz <hannes@vonhaugwitz.com>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-aide/aide.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-aide/aide.git"
-  ],
-  "Version": [
-    "0.16-1+deb9u1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"aide, aide-xen, aide-dynamic, aide-common"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-autoreconf, debconf-utils, zlib1g-dev, libpcre3-dev, libmhash-dev (>= 0.9.7), flex (>= 2.5.32), bison, po-debconf (>= 0.5.0), libselinux1-dev [linux-any], libaudit-dev [linux-any], libattr1-dev, libacl1-dev, e2fslibs-dev"
+	],
+	"Checksums-Sha1": [
+		"491ea3048d1e04f2d9197502b9a2f368f570741c 2384 aide_0.16-1+deb9u1.dsc b97f65bb12701a42baa2cce45b41ed6367a70734 391009 aide_0.16.orig.tar.gz fbe37b812b8535f0cf8711b91f6bc70b49a496ea 80268 aide_0.16-1+deb9u1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"8c80ed959b93f76d95f17c803f528fdb1a3408243f806109554a1e2fa23bf01b 2384 aide_0.16-1+deb9u1.dsc a81c53a131c4fd130b169b3a26ac35386a2f6e1e014f12807524cc273ed97345 391009 aide_0.16.orig.tar.gz c8436254e5c0acfa511ec37dfc586e1ea8235ff75dfcede321e9524fd33ba832 80268 aide_0.16-1+deb9u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/a/aide"
+	],
+	"Files": [
+		"f2fe212d986250fa3b61599e650b2931 2384 aide_0.16-1+deb9u1.dsc 25c616f67c667acd4088747ae7f6a9a3 391009 aide_0.16.orig.tar.gz 6f8a1ca8e1cba6d3df0c04f74bfb405b 80268 aide_0.16-1+deb9u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://aide.sourceforge.net"
+	],
+	"Maintainer": [
+		"Aide Maintainers <pkg-aide-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"aide"
+	],
+	"Package-List": [
+		"aide deb admin optional arch=any aide-common deb admin optional arch=all aide-dynamic deb admin extra arch=any aide-xen deb admin extra arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"admin"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Marc Haber <mh+debian-packages@zugschlus.de>, Mike Markley <mike@markley.org>, Hannes von Haugwitz <hannes@vonhaugwitz.com>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-aide/aide.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-aide/aide.git"
+	],
+	"Version": [
+		"0.16-1+deb9u1"
+	]
 }

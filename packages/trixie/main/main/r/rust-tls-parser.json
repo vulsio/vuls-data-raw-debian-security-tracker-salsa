@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-tls-parser-dev, librust-tls-parser+cookie-factory-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-enum-primitive-0.1+default-dev <!nocheck>, librust-nom-7+default-dev <!nocheck>, librust-nom-derive-0.10+default-dev <!nocheck>, librust-phf-0.11+default-dev <!nocheck>, librust-phf-codegen-0.11+default-dev <!nocheck>, librust-rusticata-macros-4+default-dev <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "b09e0fd1eb7746511191b97f8980e6729c64b4de0afdf766b73bbecba7efdae6 2688 rust-tls-parser_0.11.0-3.dsc 409206e2de64edbf7ea99a44ac31680daf9ef1a57895fb3c5bd738a903691be0 64182 rust-tls-parser_0.11.0.orig.tar.gz adf7708a96010b86f7c1db1de2f062eebf1fb927933ab73cd448d02390dd9e52 4924 rust-tls-parser_0.11.0-3.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-tls-parser"
-  ],
-  "Files": [
-    "6393e0da80a8c2f4113f94371e363216 2688 rust-tls-parser_0.11.0-3.dsc de9daabde131f70094379ff6df8af836 64182 rust-tls-parser_0.11.0.orig.tar.gz 521a45da9f3a9980eafba2312a3253be 4924 rust-tls-parser_0.11.0-3.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/rusticata/tls-parser"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-tls-parser"
-  ],
-  "Package-List": [
-    "librust-tls-parser+cookie-factory-dev deb rust optional arch=any librust-tls-parser-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-clap-2-dev, librust-hex-literal-0.3+default-dev, librust-pretty-assertions-1+default-dev"
-  ],
-  "Uploaders": [
-    "kpcyrd <git@rxv.cc>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/tls-parser"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/tls-parser]"
-  ],
-  "Version": [
-    "0.11.0-3"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-tls-parser-dev, librust-tls-parser+cookie-factory-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-enum-primitive-0.1+default-dev <!nocheck>, librust-nom-7+default-dev <!nocheck>, librust-nom-derive-0.10+default-dev <!nocheck>, librust-phf-0.11+default-dev <!nocheck>, librust-phf-codegen-0.11+default-dev <!nocheck>, librust-rusticata-macros-4+default-dev <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"b09e0fd1eb7746511191b97f8980e6729c64b4de0afdf766b73bbecba7efdae6 2688 rust-tls-parser_0.11.0-3.dsc 409206e2de64edbf7ea99a44ac31680daf9ef1a57895fb3c5bd738a903691be0 64182 rust-tls-parser_0.11.0.orig.tar.gz adf7708a96010b86f7c1db1de2f062eebf1fb927933ab73cd448d02390dd9e52 4924 rust-tls-parser_0.11.0-3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-tls-parser"
+	],
+	"Files": [
+		"6393e0da80a8c2f4113f94371e363216 2688 rust-tls-parser_0.11.0-3.dsc de9daabde131f70094379ff6df8af836 64182 rust-tls-parser_0.11.0.orig.tar.gz 521a45da9f3a9980eafba2312a3253be 4924 rust-tls-parser_0.11.0-3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/rusticata/tls-parser"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-tls-parser"
+	],
+	"Package-List": [
+		"librust-tls-parser+cookie-factory-dev deb rust optional arch=any librust-tls-parser-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-clap-2-dev, librust-hex-literal-0.3+default-dev, librust-pretty-assertions-1+default-dev"
+	],
+	"Uploaders": [
+		"kpcyrd <git@rxv.cc>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/tls-parser"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/tls-parser]"
+	],
+	"Version": [
+		"0.11.0-3"
+	]
 }

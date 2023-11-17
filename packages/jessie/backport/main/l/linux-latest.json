@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "all alpha amd64 arm64 armel armhf hppa i386 m68k mips mipsel mips64 mips64el powerpc ppc64 powerpcspe ppc64el s390x sh4 sparc64"
-  ],
-  "Binary": [
-    "linux-source, linux-doc, linux-perf, linux-image-alpha-generic, linux-headers-alpha-generic, linux-image-alpha-smp, linux-headers-alpha-smp, linux-image-amd64, linux-headers-amd64, linux-image-amd64-dbg, linux-image-rt-amd64, linux-headers-rt-amd64, linux-image-rt-amd64-dbg, linux-image-arm64, linux-headers-arm64, linux-image-arm64-dbg, linux-image-marvell, linux-headers-marvell, linux-image-armmp, linux-headers-armmp, linux-image-armmp-lpae, linux-headers-armmp-lpae, linux-image-parisc, linux-headers-parisc, linux-image-parisc64-smp, linux-headers-parisc64-smp, linux-image-686, linux-headers-686, linux-image-686-pae, linux-headers-686-pae, linux-image-686-pae-dbg, linux-image-rt-686-pae, linux-headers-rt-686-pae, linux-image-rt-686-pae-dbg, linux-image-m68k, linux-headers-m68k, linux-image-4kc-malta, linux-headers-4kc-malta, linux-image-5kc-malta, linux-headers-5kc-malta, linux-image-octeon, linux-headers-octeon, linux-image-loongson-3, linux-headers-loongson-3, linux-image-powerpc, linux-headers-powerpc, linux-image-powerpc-smp, linux-headers-powerpc-smp, linux-image-powerpc64, linux-headers-powerpc64, linux-image-powerpcspe, linux-headers-powerpcspe, linux-image-powerpc64le, linux-headers-powerpc64le, linux-image-s390x, linux-headers-s390x, linux-image-s390x-dbg, linux-image-sh7751r, linux-headers-sh7751r, linux-image-sh7785lcr, linux-headers-sh7785lcr, linux-image-sparc64, linux-headers-sparc64, linux-image-sparc64-smp, linux-headers-sparc64-smp, linux-tools, linux-image-586, linux-headers-586, linux-image-kirkwood, linux-headers-kirkwood, linux-image-orion5x, linux-headers-orion5x, xen-linux-system-amd64"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), linux-support-4.9.0-0.bpo.6, linux-headers-4.9.0-0.bpo.6-all"
-  ],
-  "Checksums-Sha1": [
-    "ea35977fb82006aa54e7df4d1b41fb7c396ba90f 7514 linux-latest_80+deb9u4~bpo8+1.dsc 4cba0375332c3ecbffc08ba0994d6ddfa539ab26 16552 linux-latest_80+deb9u4~bpo8+1.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "d0dada2cfc661ca297757816b6b7fee2654dc9658a897b624a8a12a450cf11f1 7514 linux-latest_80+deb9u4~bpo8+1.dsc 57b6f93a27f901e8c58f156da4e6696fe1668c30e7105303c8b951ffbfc2da52 16552 linux-latest_80+deb9u4~bpo8+1.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/l/linux-latest"
-  ],
-  "Files": [
-    "3582101d55ce94a2226fb28a59d75134 7514 linux-latest_80+deb9u4~bpo8+1.dsc e9cec07d3b57ca99fc2d2570cae86fda 16552 linux-latest_80+deb9u4~bpo8+1.tar.xz"
-  ],
-  "Format": [
-    "3.0 (native)"
-  ],
-  "Maintainer": [
-    "Debian Kernel Team <debian-kernel@lists.debian.org>"
-  ],
-  "Package": [
-    "linux-latest"
-  ],
-  "Package-List": [
-    "linux-doc deb doc optional arch=all linux-headers-4kc-malta deb kernel optional arch=mips,mipsel linux-headers-586 deb oldlibs extra arch=i386 linux-headers-5kc-malta deb kernel optional arch=mips,mips64,mips64el,mipsel linux-headers-686 deb kernel optional arch=i386 linux-headers-686-pae deb kernel optional arch=i386 linux-headers-alpha-generic deb kernel optional arch=alpha linux-headers-alpha-smp deb kernel optional arch=alpha linux-headers-amd64 deb kernel optional arch=amd64 linux-headers-arm64 deb kernel optional arch=arm64 linux-headers-armmp deb kernel optional arch=armhf linux-headers-armmp-lpae deb kernel optional arch=armhf linux-headers-kirkwood deb oldlibs extra arch=armel linux-headers-loongson-3 deb kernel optional arch=mips64el,mipsel linux-headers-m68k deb kernel optional arch=m68k linux-headers-marvell deb kernel optional arch=armel linux-headers-octeon deb kernel optional arch=mips,mips64,mips64el,mipsel linux-headers-orion5x deb oldlibs extra arch=armel linux-headers-parisc deb kernel optional arch=hppa linux-headers-parisc64-smp deb kernel optional arch=hppa linux-headers-powerpc deb kernel optional arch=powerpc linux-headers-powerpc-smp deb kernel optional arch=powerpc linux-headers-powerpc64 deb kernel optional arch=powerpc,ppc64 linux-headers-powerpc64le deb kernel optional arch=ppc64el linux-headers-powerpcspe deb kernel optional arch=powerpcspe linux-headers-rt-686-pae deb kernel optional arch=i386 linux-headers-rt-amd64 deb kernel optional arch=amd64 linux-headers-s390x deb kernel optional arch=s390x linux-headers-sh7751r deb kernel optional arch=sh4 linux-headers-sh7785lcr deb kernel optional arch=sh4 linux-headers-sparc64 deb kernel optional arch=sparc64 linux-headers-sparc64-smp deb kernel optional arch=sparc64 linux-image-4kc-malta deb kernel optional arch=mips,mipsel linux-image-586 deb oldlibs extra arch=i386 linux-image-5kc-malta deb kernel optional arch=mips,mips64,mips64el,mipsel linux-image-686 deb kernel optional arch=i386 linux-image-686-pae deb kernel optional arch=i386 linux-image-686-pae-dbg deb kernel optional arch=i386 linux-image-alpha-generic deb kernel optional arch=alpha linux-image-alpha-smp deb kernel optional arch=alpha linux-image-amd64 deb kernel optional arch=amd64 linux-image-amd64-dbg deb kernel optional arch=amd64 linux-image-arm64 deb kernel optional arch=arm64 linux-image-arm64-dbg deb kernel optional arch=arm64 linux-image-armmp deb kernel optional arch=armhf linux-image-armmp-lpae deb kernel optional arch=armhf linux-image-kirkwood deb oldlibs extra arch=armel linux-image-loongson-3 deb kernel optional arch=mips64el,mipsel linux-image-m68k deb kernel optional arch=m68k linux-image-marvell deb kernel optional arch=armel linux-image-octeon deb kernel optional arch=mips,mips64,mips64el,mipsel linux-image-orion5x deb oldlibs extra arch=armel linux-image-parisc deb kernel optional arch=hppa linux-image-parisc64-smp deb kernel optional arch=hppa linux-image-powerpc deb kernel optional arch=powerpc linux-image-powerpc-smp deb kernel optional arch=powerpc linux-image-powerpc64 deb kernel optional arch=powerpc,ppc64 linux-image-powerpc64le deb kernel optional arch=ppc64el linux-image-powerpcspe deb kernel optional arch=powerpcspe linux-image-rt-686-pae deb kernel optional arch=i386 linux-image-rt-686-pae-dbg deb kernel optional arch=i386 linux-image-rt-amd64 deb kernel optional arch=amd64 linux-image-rt-amd64-dbg deb kernel optional arch=amd64 linux-image-s390x deb kernel optional arch=s390x linux-image-s390x-dbg deb kernel optional arch=s390x linux-image-sh7751r deb kernel optional arch=sh4 linux-image-sh7785lcr deb kernel optional arch=sh4 linux-image-sparc64 deb kernel optional arch=sparc64 linux-image-sparc64-smp deb kernel optional arch=sparc64 linux-perf deb kernel optional arch=all linux-source deb kernel optional arch=all linux-tools deb oldlibs extra arch=all xen-linux-system-amd64 deb oldlibs extra arch=amd64"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Bastian Blank <waldi@debian.org>, Frederik Schüler <fs@debian.org>, Ben Hutchings <ben@decadent.org.uk>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/kernel/linux-latest.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/kernel/linux-latest.git"
-  ],
-  "Version": [
-    "80+deb9u4~bpo8+1"
-  ]
+	"Architecture": [
+		"all alpha amd64 arm64 armel armhf hppa i386 m68k mips mipsel mips64 mips64el powerpc ppc64 powerpcspe ppc64el s390x sh4 sparc64"
+	],
+	"Binary": [
+		"linux-source, linux-doc, linux-perf, linux-image-alpha-generic, linux-headers-alpha-generic, linux-image-alpha-smp, linux-headers-alpha-smp, linux-image-amd64, linux-headers-amd64, linux-image-amd64-dbg, linux-image-rt-amd64, linux-headers-rt-amd64, linux-image-rt-amd64-dbg, linux-image-arm64, linux-headers-arm64, linux-image-arm64-dbg, linux-image-marvell, linux-headers-marvell, linux-image-armmp, linux-headers-armmp, linux-image-armmp-lpae, linux-headers-armmp-lpae, linux-image-parisc, linux-headers-parisc, linux-image-parisc64-smp, linux-headers-parisc64-smp, linux-image-686, linux-headers-686, linux-image-686-pae, linux-headers-686-pae, linux-image-686-pae-dbg, linux-image-rt-686-pae, linux-headers-rt-686-pae, linux-image-rt-686-pae-dbg, linux-image-m68k, linux-headers-m68k, linux-image-4kc-malta, linux-headers-4kc-malta, linux-image-5kc-malta, linux-headers-5kc-malta, linux-image-octeon, linux-headers-octeon, linux-image-loongson-3, linux-headers-loongson-3, linux-image-powerpc, linux-headers-powerpc, linux-image-powerpc-smp, linux-headers-powerpc-smp, linux-image-powerpc64, linux-headers-powerpc64, linux-image-powerpcspe, linux-headers-powerpcspe, linux-image-powerpc64le, linux-headers-powerpc64le, linux-image-s390x, linux-headers-s390x, linux-image-s390x-dbg, linux-image-sh7751r, linux-headers-sh7751r, linux-image-sh7785lcr, linux-headers-sh7785lcr, linux-image-sparc64, linux-headers-sparc64, linux-image-sparc64-smp, linux-headers-sparc64-smp, linux-tools, linux-image-586, linux-headers-586, linux-image-kirkwood, linux-headers-kirkwood, linux-image-orion5x, linux-headers-orion5x, xen-linux-system-amd64"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), linux-support-4.9.0-0.bpo.6, linux-headers-4.9.0-0.bpo.6-all"
+	],
+	"Checksums-Sha1": [
+		"ea35977fb82006aa54e7df4d1b41fb7c396ba90f 7514 linux-latest_80+deb9u4~bpo8+1.dsc 4cba0375332c3ecbffc08ba0994d6ddfa539ab26 16552 linux-latest_80+deb9u4~bpo8+1.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"d0dada2cfc661ca297757816b6b7fee2654dc9658a897b624a8a12a450cf11f1 7514 linux-latest_80+deb9u4~bpo8+1.dsc 57b6f93a27f901e8c58f156da4e6696fe1668c30e7105303c8b951ffbfc2da52 16552 linux-latest_80+deb9u4~bpo8+1.tar.xz"
+	],
+	"Directory": [
+		"pool/main/l/linux-latest"
+	],
+	"Files": [
+		"3582101d55ce94a2226fb28a59d75134 7514 linux-latest_80+deb9u4~bpo8+1.dsc e9cec07d3b57ca99fc2d2570cae86fda 16552 linux-latest_80+deb9u4~bpo8+1.tar.xz"
+	],
+	"Format": [
+		"3.0 (native)"
+	],
+	"Maintainer": [
+		"Debian Kernel Team <debian-kernel@lists.debian.org>"
+	],
+	"Package": [
+		"linux-latest"
+	],
+	"Package-List": [
+		"linux-doc deb doc optional arch=all linux-headers-4kc-malta deb kernel optional arch=mips,mipsel linux-headers-586 deb oldlibs extra arch=i386 linux-headers-5kc-malta deb kernel optional arch=mips,mips64,mips64el,mipsel linux-headers-686 deb kernel optional arch=i386 linux-headers-686-pae deb kernel optional arch=i386 linux-headers-alpha-generic deb kernel optional arch=alpha linux-headers-alpha-smp deb kernel optional arch=alpha linux-headers-amd64 deb kernel optional arch=amd64 linux-headers-arm64 deb kernel optional arch=arm64 linux-headers-armmp deb kernel optional arch=armhf linux-headers-armmp-lpae deb kernel optional arch=armhf linux-headers-kirkwood deb oldlibs extra arch=armel linux-headers-loongson-3 deb kernel optional arch=mips64el,mipsel linux-headers-m68k deb kernel optional arch=m68k linux-headers-marvell deb kernel optional arch=armel linux-headers-octeon deb kernel optional arch=mips,mips64,mips64el,mipsel linux-headers-orion5x deb oldlibs extra arch=armel linux-headers-parisc deb kernel optional arch=hppa linux-headers-parisc64-smp deb kernel optional arch=hppa linux-headers-powerpc deb kernel optional arch=powerpc linux-headers-powerpc-smp deb kernel optional arch=powerpc linux-headers-powerpc64 deb kernel optional arch=powerpc,ppc64 linux-headers-powerpc64le deb kernel optional arch=ppc64el linux-headers-powerpcspe deb kernel optional arch=powerpcspe linux-headers-rt-686-pae deb kernel optional arch=i386 linux-headers-rt-amd64 deb kernel optional arch=amd64 linux-headers-s390x deb kernel optional arch=s390x linux-headers-sh7751r deb kernel optional arch=sh4 linux-headers-sh7785lcr deb kernel optional arch=sh4 linux-headers-sparc64 deb kernel optional arch=sparc64 linux-headers-sparc64-smp deb kernel optional arch=sparc64 linux-image-4kc-malta deb kernel optional arch=mips,mipsel linux-image-586 deb oldlibs extra arch=i386 linux-image-5kc-malta deb kernel optional arch=mips,mips64,mips64el,mipsel linux-image-686 deb kernel optional arch=i386 linux-image-686-pae deb kernel optional arch=i386 linux-image-686-pae-dbg deb kernel optional arch=i386 linux-image-alpha-generic deb kernel optional arch=alpha linux-image-alpha-smp deb kernel optional arch=alpha linux-image-amd64 deb kernel optional arch=amd64 linux-image-amd64-dbg deb kernel optional arch=amd64 linux-image-arm64 deb kernel optional arch=arm64 linux-image-arm64-dbg deb kernel optional arch=arm64 linux-image-armmp deb kernel optional arch=armhf linux-image-armmp-lpae deb kernel optional arch=armhf linux-image-kirkwood deb oldlibs extra arch=armel linux-image-loongson-3 deb kernel optional arch=mips64el,mipsel linux-image-m68k deb kernel optional arch=m68k linux-image-marvell deb kernel optional arch=armel linux-image-octeon deb kernel optional arch=mips,mips64,mips64el,mipsel linux-image-orion5x deb oldlibs extra arch=armel linux-image-parisc deb kernel optional arch=hppa linux-image-parisc64-smp deb kernel optional arch=hppa linux-image-powerpc deb kernel optional arch=powerpc linux-image-powerpc-smp deb kernel optional arch=powerpc linux-image-powerpc64 deb kernel optional arch=powerpc,ppc64 linux-image-powerpc64le deb kernel optional arch=ppc64el linux-image-powerpcspe deb kernel optional arch=powerpcspe linux-image-rt-686-pae deb kernel optional arch=i386 linux-image-rt-686-pae-dbg deb kernel optional arch=i386 linux-image-rt-amd64 deb kernel optional arch=amd64 linux-image-rt-amd64-dbg deb kernel optional arch=amd64 linux-image-s390x deb kernel optional arch=s390x linux-image-s390x-dbg deb kernel optional arch=s390x linux-image-sh7751r deb kernel optional arch=sh4 linux-image-sh7785lcr deb kernel optional arch=sh4 linux-image-sparc64 deb kernel optional arch=sparc64 linux-image-sparc64-smp deb kernel optional arch=sparc64 linux-perf deb kernel optional arch=all linux-source deb kernel optional arch=all linux-tools deb oldlibs extra arch=all xen-linux-system-amd64 deb oldlibs extra arch=amd64"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Bastian Blank <waldi@debian.org>, Frederik Schüler <fs@debian.org>, Ben Hutchings <ben@decadent.org.uk>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/kernel/linux-latest.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/kernel/linux-latest.git"
+	],
+	"Version": [
+		"80+deb9u4~bpo8+1"
+	]
 }

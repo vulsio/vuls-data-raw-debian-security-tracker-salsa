@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "yorick, yorick-dbg, yorick-data, yorick-dev, yorick-mpy-mpich2, yorick-mpy-openmpi, yorick-mpy-common, yorick-doc, yorick-full"
-  ],
-  "Build-Depends": [
-    "libx11-dev, texinfo, debhelper (>= 7.0.0), quilt (>= 0.40), po-debconf, mpi-default-dev, libmpich-dev [!powerpcspe !sh4 !x32], libopenmpi-dev [!hppa !s390 !sh4 !x32 !s390x], xvfb, xauth, xfonts-base"
-  ],
-  "Build-Depends-Indep": [
-    "imagemagick"
-  ],
-  "Checksums-Sha1": [
-    "c1aa024cbfb48ce2ee6167d4405b0cc3476034f8 2956 yorick_2.2.04+dfsg1-2~bpo8+1.dsc dd043e2ffffa78c4e04dcdc31717da9db356a354 1864936 yorick_2.2.04+dfsg1.orig.tar.xz d0626e7224013c59366fe1c19fb7cab90290de85 40212 yorick_2.2.04+dfsg1-2~bpo8+1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "247c74b86452f5ce8abc74b99441476e6e867396df9fd73b98063ec2ddb5741e 2956 yorick_2.2.04+dfsg1-2~bpo8+1.dsc 75d83c46377ad60cb0f4110344457b64ef383bc4ae1657425ba40e9f8d656d8a 1864936 yorick_2.2.04+dfsg1.orig.tar.xz bd490fca12c8791ee7ce1bb712d21d213124351bb4daf52cd2f75259e839b8c8 40212 yorick_2.2.04+dfsg1-2~bpo8+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/y/yorick"
-  ],
-  "Files": [
-    "c309bad355a80a2a9fc9eedd766a5234 2956 yorick_2.2.04+dfsg1-2~bpo8+1.dsc 163b727a7ee0f645bf272a94eeac30e8 1864936 yorick_2.2.04+dfsg1.orig.tar.xz 84e0cb52af5302dffa89d8c7816b0402 40212 yorick_2.2.04+dfsg1-2~bpo8+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://yorick.sourceforge.net"
-  ],
-  "Maintainer": [
-    "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "yorick"
-  ],
-  "Package-List": [
-    "yorick deb science extra arch=any yorick-data deb science extra arch=all yorick-dbg deb debug extra arch=any yorick-dev deb science extra arch=any yorick-doc deb doc extra arch=all yorick-full deb science extra arch=any yorick-mpy-common deb science extra arch=all yorick-mpy-mpich2 deb science extra arch=alpha,amd64,arm64,armel,armhf,hppa,hurd-i386,i386,kfreebsd-amd64,kfreebsd-i386,m68k,mips,mipsel,powerpc,ppc64,ppc64el,s390x,sparc,sparc64,sh4,x32 yorick-mpy-openmpi deb science extra arch=alpha,amd64,armel,armhf,hurd-i386,i386,kfreebsd-amd64,kfreebsd-i386,mips,mipsel,powerpc,powerpcspe,ppc64,ppc64el,sparc,sparc64"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Thibaut Paumard <thibaut@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=debian-science/packages/yorick.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/debian-science/packages/yorick.git"
-  ],
-  "Version": [
-    "2.2.04+dfsg1-2~bpo8+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"yorick, yorick-dbg, yorick-data, yorick-dev, yorick-mpy-mpich2, yorick-mpy-openmpi, yorick-mpy-common, yorick-doc, yorick-full"
+	],
+	"Build-Depends": [
+		"libx11-dev, texinfo, debhelper (>= 7.0.0), quilt (>= 0.40), po-debconf, mpi-default-dev, libmpich-dev [!powerpcspe !sh4 !x32], libopenmpi-dev [!hppa !s390 !sh4 !x32 !s390x], xvfb, xauth, xfonts-base"
+	],
+	"Build-Depends-Indep": [
+		"imagemagick"
+	],
+	"Checksums-Sha1": [
+		"c1aa024cbfb48ce2ee6167d4405b0cc3476034f8 2956 yorick_2.2.04+dfsg1-2~bpo8+1.dsc dd043e2ffffa78c4e04dcdc31717da9db356a354 1864936 yorick_2.2.04+dfsg1.orig.tar.xz d0626e7224013c59366fe1c19fb7cab90290de85 40212 yorick_2.2.04+dfsg1-2~bpo8+1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"247c74b86452f5ce8abc74b99441476e6e867396df9fd73b98063ec2ddb5741e 2956 yorick_2.2.04+dfsg1-2~bpo8+1.dsc 75d83c46377ad60cb0f4110344457b64ef383bc4ae1657425ba40e9f8d656d8a 1864936 yorick_2.2.04+dfsg1.orig.tar.xz bd490fca12c8791ee7ce1bb712d21d213124351bb4daf52cd2f75259e839b8c8 40212 yorick_2.2.04+dfsg1-2~bpo8+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/y/yorick"
+	],
+	"Files": [
+		"c309bad355a80a2a9fc9eedd766a5234 2956 yorick_2.2.04+dfsg1-2~bpo8+1.dsc 163b727a7ee0f645bf272a94eeac30e8 1864936 yorick_2.2.04+dfsg1.orig.tar.xz 84e0cb52af5302dffa89d8c7816b0402 40212 yorick_2.2.04+dfsg1-2~bpo8+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://yorick.sourceforge.net"
+	],
+	"Maintainer": [
+		"Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"yorick"
+	],
+	"Package-List": [
+		"yorick deb science extra arch=any yorick-data deb science extra arch=all yorick-dbg deb debug extra arch=any yorick-dev deb science extra arch=any yorick-doc deb doc extra arch=all yorick-full deb science extra arch=any yorick-mpy-common deb science extra arch=all yorick-mpy-mpich2 deb science extra arch=alpha,amd64,arm64,armel,armhf,hppa,hurd-i386,i386,kfreebsd-amd64,kfreebsd-i386,m68k,mips,mipsel,powerpc,ppc64,ppc64el,s390x,sparc,sparc64,sh4,x32 yorick-mpy-openmpi deb science extra arch=alpha,amd64,armel,armhf,hurd-i386,i386,kfreebsd-amd64,kfreebsd-i386,mips,mipsel,powerpc,powerpcspe,ppc64,ppc64el,sparc,sparc64"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Thibaut Paumard <thibaut@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=debian-science/packages/yorick.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/debian-science/packages/yorick.git"
+	],
+	"Version": [
+		"2.2.04+dfsg1-2~bpo8+1"
+	]
 }

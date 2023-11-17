@@ -1,68 +1,68 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "opam, opam-doc, opam-installer"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), ocaml, ocamlbuild, cppo (>= 1.6.0), ocaml-findlib (>= 1.2.4), dh-ocaml (>= 0.9), ocaml-dune, libcudf-ocaml-dev, libdose3-ocaml-dev (>= 7), libre-ocaml-dev (>= 1.7.2~), libcmdliner-ocaml-dev (>= 1.0.2~), libextlib-ocaml-dev, libmccs-ocaml-dev, libocamlgraph-ocaml-dev (>= 1.8), libopam-file-format-ocaml-dev (>= 2.1.2-2~), curl"
-  ],
-  "Build-Depends-Indep": [
-    "texlive-latex-base <!nodoc>, texlive-lang-french <!nodoc>, texlive-latex-extra <!nodoc>, texlive-latex-recommended <!nodoc>, texlive-fonts-recommended <!nodoc>, man2html-base <!nodoc>, latex-make <!nodoc>"
-  ],
-  "Checksums-Sha256": [
-    "178b8ecaf4f34609279bba81db22883b326d7867feb91c25a6015e3ca5ca2f2e 2426 opam_2.1.5-1.dsc 8212c065bcf89f906d80fd52045ec76237d13afc865fd01addd75d2510ab99af 838523 opam_2.1.5.orig.tar.gz 2a4ae8852dfd49e12087fa99b30777505f659f96889529fc505a10f3cac1ac11 8596 opam_2.1.5-1.debian.tar.xz"
-  ],
-  "Dgit": [
-    "5600a85b0835395555439d7bd1d7fe7b9103abfd debian archive/debian/2.1.5-1 https://git.dgit.debian.org/opam"
-  ],
-  "Directory": [
-    "pool/main/o/opam"
-  ],
-  "Files": [
-    "335c8d53af7882ba79534fa7b3bbdc42 2426 opam_2.1.5-1.dsc fba5df192bee3b00536cca2e0f9dcbc0 838523 opam_2.1.5.orig.tar.gz 1f923d84452b6997ef268b5c00cdaacf 8596 opam_2.1.5-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://opam.ocaml.org"
-  ],
-  "Maintainer": [
-    "Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>"
-  ],
-  "Package": [
-    "opam"
-  ],
-  "Package-List": [
-    "opam deb ocaml optional arch=any opam-doc deb doc optional arch=all profile=!nodoc opam-installer deb ocaml optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "ca-certificates, ocaml-nox"
-  ],
-  "Uploaders": [
-    "Mehdi Dogguy <mehdi@debian.org>, Nicolas Braud-Santoni <nicoo@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/ocaml-team/opam"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/ocaml-team/opam.git"
-  ],
-  "Version": [
-    "2.1.5-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"opam, opam-doc, opam-installer"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), ocaml, ocamlbuild, cppo (>= 1.6.0), ocaml-findlib (>= 1.2.4), dh-ocaml (>= 0.9), ocaml-dune, libcudf-ocaml-dev, libdose3-ocaml-dev (>= 7), libre-ocaml-dev (>= 1.7.2~), libcmdliner-ocaml-dev (>= 1.0.2~), libextlib-ocaml-dev, libmccs-ocaml-dev, libocamlgraph-ocaml-dev (>= 1.8), libopam-file-format-ocaml-dev (>= 2.1.2-2~), curl"
+	],
+	"Build-Depends-Indep": [
+		"texlive-latex-base <!nodoc>, texlive-lang-french <!nodoc>, texlive-latex-extra <!nodoc>, texlive-latex-recommended <!nodoc>, texlive-fonts-recommended <!nodoc>, man2html-base <!nodoc>, latex-make <!nodoc>"
+	],
+	"Checksums-Sha256": [
+		"178b8ecaf4f34609279bba81db22883b326d7867feb91c25a6015e3ca5ca2f2e 2426 opam_2.1.5-1.dsc 8212c065bcf89f906d80fd52045ec76237d13afc865fd01addd75d2510ab99af 838523 opam_2.1.5.orig.tar.gz 2a4ae8852dfd49e12087fa99b30777505f659f96889529fc505a10f3cac1ac11 8596 opam_2.1.5-1.debian.tar.xz"
+	],
+	"Dgit": [
+		"5600a85b0835395555439d7bd1d7fe7b9103abfd debian archive/debian/2.1.5-1 https://git.dgit.debian.org/opam"
+	],
+	"Directory": [
+		"pool/main/o/opam"
+	],
+	"Files": [
+		"335c8d53af7882ba79534fa7b3bbdc42 2426 opam_2.1.5-1.dsc fba5df192bee3b00536cca2e0f9dcbc0 838523 opam_2.1.5.orig.tar.gz 1f923d84452b6997ef268b5c00cdaacf 8596 opam_2.1.5-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://opam.ocaml.org"
+	],
+	"Maintainer": [
+		"Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>"
+	],
+	"Package": [
+		"opam"
+	],
+	"Package-List": [
+		"opam deb ocaml optional arch=any opam-doc deb doc optional arch=all profile=!nodoc opam-installer deb ocaml optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"ca-certificates, ocaml-nox"
+	],
+	"Uploaders": [
+		"Mehdi Dogguy <mehdi@debian.org>, Nicolas Braud-Santoni <nicoo@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/ocaml-team/opam"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/ocaml-team/opam.git"
+	],
+	"Version": [
+		"2.1.5-1"
+	]
 }

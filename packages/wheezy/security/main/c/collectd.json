@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "collectd-core, collectd, collectd-utils, collectd-dbg, collectd-dev, libcollectdclient-dev, libcollectdclient0"
-  ],
-  "Build-Conflicts": [
-    "libpthread-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 5), dpkg-dev (>= 1.14.10), po-debconf, dpatch, bison, flex, autotools-dev, libltdl-dev, pkg-config, iproute-dev [!alpha !amd64 !hppa !ia64 !ppc64 !mips !mipsel !kfreebsd-any !hurd-any], iptables-dev (>= 1.4.3.2-2) [linux-any], javahelper, libcurl4-gnutls-dev (>= 7.18.2-5) | libcurl4-gnutls-dev (<= 7.18.2-1) | libcurl3-gnutls-dev, libdbi0-dev, libesmtp-dev, libganglia1-dev (>= 3) [linux-any], libgcrypt11-dev, libglib2.0-dev, libhal-dev, libkvm-dev [kfreebsd-any], libmemcached-dev, libmodbus-dev, libmysqlclient-dev, libnotify-dev, libopenipmi-dev, liboping-dev (>= 0.3.3), libpcap0.8-dev | libpcap-dev, libperl-dev, libpq-dev, libprotobuf-c0-dev, librabbitmq-dev, librrd-dev (>= 1.4~), libsensors4-dev [linux-any], libsnmp-dev (>= 5.4.2.1~dfsg-4~) | libsnmp-dev | libsnmp9-dev, libsnmp-dev (>= 5.4.2.1~dfsg-4~) | perl (<< 5.10.1~rc2-1~), libtokyocabinet-dev [linux-any], libtokyotyrant-dev [linux-any], libupsclient1-dev, libvarnish-dev, libvirt-dev (>= 0.4.0-6) [linux-any], libxml2-dev, libyajl-dev, linux-libc-dev (>= 2.6.25-4) [linux-any] | linux-libc-dev (<< 2.6.25-1) [linux-any], openjdk-6-jdk [!hppa !kfreebsd-any !hurd-any], protobuf-c-compiler, python-dev"
-  ],
-  "Checksums-Sha1": [
-    "f27d4481563a30cf163362eecd9a8f40c7bf1456 3319 collectd_5.1.0-3+deb7u3.dsc 55f17b17a10710641a9bf4e8c5332cef661cafcd 1630323 collectd_5.1.0.orig.tar.gz b0205b4279c19a58a32033c3d9909fd4128f1c16 72374 collectd_5.1.0-3+deb7u3.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "00d8f21dae7b850d52da9dd7937e0703f68621ee076318913ffc9674fd332372 3319 collectd_5.1.0-3+deb7u3.dsc 8e06c03c5467f3021565570fc86c931a43579aa6dad25ca5999d66850cd19927 1630323 collectd_5.1.0.orig.tar.gz 38795ffb3a6edffdab01516825d62e98ca9681036d98b717b9a6c4c18cfbd525 72374 collectd_5.1.0-3+deb7u3.diff.gz"
-  ],
-  "Directory": [
-    "pool/updates/main/c/collectd"
-  ],
-  "Files": [
-    "6681a424bb517875fb00323fbaaa4ef8 3319 collectd_5.1.0-3+deb7u3.dsc adc58a0d448a359ecf737da9398898c6 1630323 collectd_5.1.0.orig.tar.gz 9e39e11dd4081f180fc575ef2dfaa494 72374 collectd_5.1.0-3+deb7u3.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Homepage": [
-    "http://collectd.org/"
-  ],
-  "Maintainer": [
-    "Sebastian Harl <tokkee@debian.org>"
-  ],
-  "Package": [
-    "collectd"
-  ],
-  "Package-List": [
-    "collectd deb utils optional collectd-core deb utils optional collectd-dbg deb debug extra collectd-dev deb utils optional collectd-utils deb utils optional libcollectdclient-dev deb libdevel optional libcollectdclient0 deb libs optional"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "utils"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Vcs-Browser": [
-    "http://git.tokkee.org/?p=pkg-collectd.git"
-  ],
-  "Vcs-Git": [
-    "git://git.tokkee.org/pkg-collectd.git"
-  ],
-  "Version": [
-    "5.1.0-3+deb7u3"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"collectd-core, collectd, collectd-utils, collectd-dbg, collectd-dev, libcollectdclient-dev, libcollectdclient0"
+	],
+	"Build-Conflicts": [
+		"libpthread-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 5), dpkg-dev (>= 1.14.10), po-debconf, dpatch, bison, flex, autotools-dev, libltdl-dev, pkg-config, iproute-dev [!alpha !amd64 !hppa !ia64 !ppc64 !mips !mipsel !kfreebsd-any !hurd-any], iptables-dev (>= 1.4.3.2-2) [linux-any], javahelper, libcurl4-gnutls-dev (>= 7.18.2-5) | libcurl4-gnutls-dev (<= 7.18.2-1) | libcurl3-gnutls-dev, libdbi0-dev, libesmtp-dev, libganglia1-dev (>= 3) [linux-any], libgcrypt11-dev, libglib2.0-dev, libhal-dev, libkvm-dev [kfreebsd-any], libmemcached-dev, libmodbus-dev, libmysqlclient-dev, libnotify-dev, libopenipmi-dev, liboping-dev (>= 0.3.3), libpcap0.8-dev | libpcap-dev, libperl-dev, libpq-dev, libprotobuf-c0-dev, librabbitmq-dev, librrd-dev (>= 1.4~), libsensors4-dev [linux-any], libsnmp-dev (>= 5.4.2.1~dfsg-4~) | libsnmp-dev | libsnmp9-dev, libsnmp-dev (>= 5.4.2.1~dfsg-4~) | perl (<< 5.10.1~rc2-1~), libtokyocabinet-dev [linux-any], libtokyotyrant-dev [linux-any], libupsclient1-dev, libvarnish-dev, libvirt-dev (>= 0.4.0-6) [linux-any], libxml2-dev, libyajl-dev, linux-libc-dev (>= 2.6.25-4) [linux-any] | linux-libc-dev (<< 2.6.25-1) [linux-any], openjdk-6-jdk [!hppa !kfreebsd-any !hurd-any], protobuf-c-compiler, python-dev"
+	],
+	"Checksums-Sha1": [
+		"f27d4481563a30cf163362eecd9a8f40c7bf1456 3319 collectd_5.1.0-3+deb7u3.dsc 55f17b17a10710641a9bf4e8c5332cef661cafcd 1630323 collectd_5.1.0.orig.tar.gz b0205b4279c19a58a32033c3d9909fd4128f1c16 72374 collectd_5.1.0-3+deb7u3.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"00d8f21dae7b850d52da9dd7937e0703f68621ee076318913ffc9674fd332372 3319 collectd_5.1.0-3+deb7u3.dsc 8e06c03c5467f3021565570fc86c931a43579aa6dad25ca5999d66850cd19927 1630323 collectd_5.1.0.orig.tar.gz 38795ffb3a6edffdab01516825d62e98ca9681036d98b717b9a6c4c18cfbd525 72374 collectd_5.1.0-3+deb7u3.diff.gz"
+	],
+	"Directory": [
+		"pool/updates/main/c/collectd"
+	],
+	"Files": [
+		"6681a424bb517875fb00323fbaaa4ef8 3319 collectd_5.1.0-3+deb7u3.dsc adc58a0d448a359ecf737da9398898c6 1630323 collectd_5.1.0.orig.tar.gz 9e39e11dd4081f180fc575ef2dfaa494 72374 collectd_5.1.0-3+deb7u3.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Homepage": [
+		"http://collectd.org/"
+	],
+	"Maintainer": [
+		"Sebastian Harl <tokkee@debian.org>"
+	],
+	"Package": [
+		"collectd"
+	],
+	"Package-List": [
+		"collectd deb utils optional collectd-core deb utils optional collectd-dbg deb debug extra collectd-dev deb utils optional collectd-utils deb utils optional libcollectdclient-dev deb libdevel optional libcollectdclient0 deb libs optional"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"utils"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Vcs-Browser": [
+		"http://git.tokkee.org/?p=pkg-collectd.git"
+	],
+	"Vcs-Git": [
+		"git://git.tokkee.org/pkg-collectd.git"
+	],
+	"Version": [
+		"5.1.0-3+deb7u3"
+	]
 }

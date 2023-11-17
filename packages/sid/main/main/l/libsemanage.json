@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "linux-any all"
-  ],
-  "Binary": [
-    "libsemanage-common, libsemanage2, libsemanage-dev, ruby-semanage, python3-semanage, semanage-utils"
-  ],
-  "Build-Depends": [
-    "bison, debhelper-compat (= 13), dh-sequence-python3 <!nopython>, dh-sequence-ruby <!noruby>, file, flex, gem2deb (>= 0.5.0~) <!noruby>, libaudit-dev, libbz2-dev, libcunit1-dev <!nocheck>, libpython3-all-dev <!nopython>, libselinux1-dev (>= 3.5), libsepol-dev (>= 3.5), pkg-config, python3-all-dev:any <!nopython>, secilc (>= 3.5) <!nocheck>, swig <!nopython> <!noruby>"
-  ],
-  "Checksums-Sha256": [
-    "7415394f12030387ebca4ab7845830984b1ceb7ec3256d30a1733ba7f59d18c1 2644 libsemanage_3.5-1.dsc f53534e50247538280ed0d76c6ce81d8fb3939bd64cadb89da10dba42e40dd9c 185060 libsemanage_3.5.orig.tar.gz f9126c861c666f3308b60cea4405c5e686a056113ca3cbd0a5b0e4af7600c8f5 981 libsemanage_3.5.orig.tar.gz.asc 78b11321d014bd52e1fb67c38db5ec6518b0b566b58c6e35a18e894dacc24aee 29956 libsemanage_3.5-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/libs/libsemanage"
-  ],
-  "Files": [
-    "6b425729eebce842204521182b713a4d 2644 libsemanage_3.5-1.dsc 71c5603b835fb0246b12236a07b4cb7b 185060 libsemanage_3.5.orig.tar.gz 0c884025d0770e053b9245f93df2ff83 981 libsemanage_3.5.orig.tar.gz.asc d96d651466b1e72789f23ff4cb96f20b 29956 libsemanage_3.5-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://selinuxproject.org"
-  ],
-  "Maintainer": [
-    "Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "libsemanage"
-  ],
-  "Package-List": [
-    "libsemanage-common deb libs optional arch=all libsemanage-dev deb libdevel optional arch=linux-any libsemanage2 deb libs optional arch=linux-any python3-semanage deb python optional arch=linux-any profile=!nopython ruby-semanage deb ruby optional arch=linux-any profile=!noruby semanage-utils deb admin optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Ruby-Versions": [
-    "all"
-  ],
-  "Section": [
-    "libdevel"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Uploaders": [
-    "Laurent Bigonville <bigon@debian.org>, Russell Coker <russell@coker.com.au>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/selinux-team/libsemanage"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/selinux-team/libsemanage.git"
-  ],
-  "Version": [
-    "3.5-1"
-  ]
+	"Architecture": [
+		"linux-any all"
+	],
+	"Binary": [
+		"libsemanage-common, libsemanage2, libsemanage-dev, ruby-semanage, python3-semanage, semanage-utils"
+	],
+	"Build-Depends": [
+		"bison, debhelper-compat (= 13), dh-sequence-python3 <!nopython>, dh-sequence-ruby <!noruby>, file, flex, gem2deb (>= 0.5.0~) <!noruby>, libaudit-dev, libbz2-dev, libcunit1-dev <!nocheck>, libpython3-all-dev <!nopython>, libselinux1-dev (>= 3.5), libsepol-dev (>= 3.5), pkg-config, python3-all-dev:any <!nopython>, secilc (>= 3.5) <!nocheck>, swig <!nopython> <!noruby>"
+	],
+	"Checksums-Sha256": [
+		"7415394f12030387ebca4ab7845830984b1ceb7ec3256d30a1733ba7f59d18c1 2644 libsemanage_3.5-1.dsc f53534e50247538280ed0d76c6ce81d8fb3939bd64cadb89da10dba42e40dd9c 185060 libsemanage_3.5.orig.tar.gz f9126c861c666f3308b60cea4405c5e686a056113ca3cbd0a5b0e4af7600c8f5 981 libsemanage_3.5.orig.tar.gz.asc 78b11321d014bd52e1fb67c38db5ec6518b0b566b58c6e35a18e894dacc24aee 29956 libsemanage_3.5-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/libs/libsemanage"
+	],
+	"Files": [
+		"6b425729eebce842204521182b713a4d 2644 libsemanage_3.5-1.dsc 71c5603b835fb0246b12236a07b4cb7b 185060 libsemanage_3.5.orig.tar.gz 0c884025d0770e053b9245f93df2ff83 981 libsemanage_3.5.orig.tar.gz.asc d96d651466b1e72789f23ff4cb96f20b 29956 libsemanage_3.5-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://selinuxproject.org"
+	],
+	"Maintainer": [
+		"Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"libsemanage"
+	],
+	"Package-List": [
+		"libsemanage-common deb libs optional arch=all libsemanage-dev deb libdevel optional arch=linux-any libsemanage2 deb libs optional arch=linux-any python3-semanage deb python optional arch=linux-any profile=!nopython ruby-semanage deb ruby optional arch=linux-any profile=!noruby semanage-utils deb admin optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Ruby-Versions": [
+		"all"
+	],
+	"Section": [
+		"libdevel"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Uploaders": [
+		"Laurent Bigonville <bigon@debian.org>, Russell Coker <russell@coker.com.au>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/selinux-team/libsemanage"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/selinux-team/libsemanage.git"
+	],
+	"Version": [
+		"3.5-1"
+	]
 }

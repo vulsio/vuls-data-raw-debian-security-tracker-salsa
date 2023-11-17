@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "i386 amd64 all"
-  ],
-  "Autobuild": [
-    "yes"
-  ],
-  "Binary": [
-    "nvidia-cuda-toolkit, nvidia-cuda-doc, nvidia-cuda-gdb, nvidia-profiler, nvidia-visual-profiler, nvidia-nsight, nvidia-cuda-dev, nvidia-opencl-dev, libcudart5.5, libcublas5.5, libcufft5.5, libcufftw5.5, libcusparse5.5, libcurand5.5, libnppc5.5, libnppi5.5, libnpps5.5, libcuinj32-5.5, libcuinj64-5.5, libnvtoolsext1, libnvvm2, libcupti5.5, libcupti-dev, libcupti-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), libcuda1 | libcuda-5.5-1"
-  ],
-  "Checksums-Sha1": [
-    "81c66af7fd66e589367588eb80a0849dc9c576a8 3466 nvidia-cuda-toolkit_5.5.22-6~bpo70+2.dsc ce9f14a2fca98d07c6a748eb50fe14b33e1fb186 1147984576 nvidia-cuda-toolkit_5.5.22.orig.tar.gz 3b4647bad2ddc56652f0a0968a77ec00b33d3838 57725 nvidia-cuda-toolkit_5.5.22-6~bpo70+2.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "ac5b5358d49bc4fd7b2a98cb0fbe24e2c45a2aa34800d16f4ce167e9be03d751 3466 nvidia-cuda-toolkit_5.5.22-6~bpo70+2.dsc 92dcddc9de5c44e678a1ff0b296896799023cfe09f636d4252b4d4e732754e0c 1147984576 nvidia-cuda-toolkit_5.5.22.orig.tar.gz c895fbd6a3ea157f0acf8b6b77bf8693e0bd504f1d9c15eafc4e04c8f7d526cd 57725 nvidia-cuda-toolkit_5.5.22-6~bpo70+2.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/non-free/n/nvidia-cuda-toolkit"
-  ],
-  "Files": [
-    "2cfb25a42b4dae33ad7bb700e633bf13 3466 nvidia-cuda-toolkit_5.5.22-6~bpo70+2.dsc 6b2703ced5cc3aace4a8b3a3caaa37b3 1147984576 nvidia-cuda-toolkit_5.5.22.orig.tar.gz 518ea59cc0d18857ce4ccfe30122d4cf 57725 nvidia-cuda-toolkit_5.5.22-6~bpo70+2.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.nvidia.com/CUDA"
-  ],
-  "Maintainer": [
-    "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "nvidia-cuda-toolkit"
-  ],
-  "Package-List": [
-    "libcublas5.5 deb non-free/libs extra libcudart5.5 deb non-free/libs extra libcufft5.5 deb non-free/libs extra libcufftw5.5 deb non-free/libs extra libcuinj32-5.5 deb non-free/libs extra libcuinj64-5.5 deb non-free/libs extra libcupti-dev deb non-free/libdevel extra libcupti-doc deb non-free/doc extra libcupti5.5 deb non-free/libs extra libcurand5.5 deb non-free/libs extra libcusparse5.5 deb non-free/libs extra libnppc5.5 deb non-free/libs extra libnppi5.5 deb non-free/libs extra libnpps5.5 deb non-free/libs extra libnvtoolsext1 deb non-free/libs extra libnvvm2 deb non-free/libs extra nvidia-cuda-dev deb non-free/libdevel extra nvidia-cuda-doc deb non-free/doc extra nvidia-cuda-gdb deb non-free/devel extra nvidia-cuda-toolkit deb non-free/devel extra nvidia-nsight deb non-free/devel extra nvidia-opencl-dev deb non-free/libdevel extra nvidia-profiler deb non-free/devel extra nvidia-visual-profiler deb non-free/devel extra"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "non-free/misc"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Uploaders": [
-    "Andreas Beckmann <anbe@debian.org>, Russ Allbery <rra@debian.org>, Graham Inggs <graham@nerve.org.za>,"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/viewvc/pkg-nvidia/packages/nvidia-cuda-toolkit/"
-  ],
-  "Vcs-Svn": [
-    "svn://anonscm.debian.org/pkg-nvidia/packages/nvidia-cuda-toolkit/trunk"
-  ],
-  "Version": [
-    "5.5.22-6~bpo70+2"
-  ]
+	"Architecture": [
+		"i386 amd64 all"
+	],
+	"Autobuild": [
+		"yes"
+	],
+	"Binary": [
+		"nvidia-cuda-toolkit, nvidia-cuda-doc, nvidia-cuda-gdb, nvidia-profiler, nvidia-visual-profiler, nvidia-nsight, nvidia-cuda-dev, nvidia-opencl-dev, libcudart5.5, libcublas5.5, libcufft5.5, libcufftw5.5, libcusparse5.5, libcurand5.5, libnppc5.5, libnppi5.5, libnpps5.5, libcuinj32-5.5, libcuinj64-5.5, libnvtoolsext1, libnvvm2, libcupti5.5, libcupti-dev, libcupti-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), libcuda1 | libcuda-5.5-1"
+	],
+	"Checksums-Sha1": [
+		"81c66af7fd66e589367588eb80a0849dc9c576a8 3466 nvidia-cuda-toolkit_5.5.22-6~bpo70+2.dsc ce9f14a2fca98d07c6a748eb50fe14b33e1fb186 1147984576 nvidia-cuda-toolkit_5.5.22.orig.tar.gz 3b4647bad2ddc56652f0a0968a77ec00b33d3838 57725 nvidia-cuda-toolkit_5.5.22-6~bpo70+2.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"ac5b5358d49bc4fd7b2a98cb0fbe24e2c45a2aa34800d16f4ce167e9be03d751 3466 nvidia-cuda-toolkit_5.5.22-6~bpo70+2.dsc 92dcddc9de5c44e678a1ff0b296896799023cfe09f636d4252b4d4e732754e0c 1147984576 nvidia-cuda-toolkit_5.5.22.orig.tar.gz c895fbd6a3ea157f0acf8b6b77bf8693e0bd504f1d9c15eafc4e04c8f7d526cd 57725 nvidia-cuda-toolkit_5.5.22-6~bpo70+2.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/non-free/n/nvidia-cuda-toolkit"
+	],
+	"Files": [
+		"2cfb25a42b4dae33ad7bb700e633bf13 3466 nvidia-cuda-toolkit_5.5.22-6~bpo70+2.dsc 6b2703ced5cc3aace4a8b3a3caaa37b3 1147984576 nvidia-cuda-toolkit_5.5.22.orig.tar.gz 518ea59cc0d18857ce4ccfe30122d4cf 57725 nvidia-cuda-toolkit_5.5.22-6~bpo70+2.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.nvidia.com/CUDA"
+	],
+	"Maintainer": [
+		"Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"nvidia-cuda-toolkit"
+	],
+	"Package-List": [
+		"libcublas5.5 deb non-free/libs extra libcudart5.5 deb non-free/libs extra libcufft5.5 deb non-free/libs extra libcufftw5.5 deb non-free/libs extra libcuinj32-5.5 deb non-free/libs extra libcuinj64-5.5 deb non-free/libs extra libcupti-dev deb non-free/libdevel extra libcupti-doc deb non-free/doc extra libcupti5.5 deb non-free/libs extra libcurand5.5 deb non-free/libs extra libcusparse5.5 deb non-free/libs extra libnppc5.5 deb non-free/libs extra libnppi5.5 deb non-free/libs extra libnpps5.5 deb non-free/libs extra libnvtoolsext1 deb non-free/libs extra libnvvm2 deb non-free/libs extra nvidia-cuda-dev deb non-free/libdevel extra nvidia-cuda-doc deb non-free/doc extra nvidia-cuda-gdb deb non-free/devel extra nvidia-cuda-toolkit deb non-free/devel extra nvidia-nsight deb non-free/devel extra nvidia-opencl-dev deb non-free/libdevel extra nvidia-profiler deb non-free/devel extra nvidia-visual-profiler deb non-free/devel extra"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"non-free/misc"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Uploaders": [
+		"Andreas Beckmann <anbe@debian.org>, Russ Allbery <rra@debian.org>, Graham Inggs <graham@nerve.org.za>,"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/viewvc/pkg-nvidia/packages/nvidia-cuda-toolkit/"
+	],
+	"Vcs-Svn": [
+		"svn://anonscm.debian.org/pkg-nvidia/packages/nvidia-cuda-toolkit/trunk"
+	],
+	"Version": [
+		"5.5.22-6~bpo70+2"
+	]
 }

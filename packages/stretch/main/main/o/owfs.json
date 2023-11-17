@@ -1,53 +1,53 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "owfs-common, owfs, libow-3.1-5, libowcapi-3.1-5, libow-dev, libownet-3.1-5, libownet-dev, owserver, ow-shell, ow-tools, owfs-fuse, owhttpd, owftpd, libownet-php, libow-perl, libownet-perl, python-ow, python-ownet, libow-tcl, owfs-doc, owfs-dbg"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), quilt, autotools-dev, libfuse-dev [!hurd-i386], swig, python-all-dev, tcl-dev, libusb-1.0-0-dev, ed, php-cli, php-dev, systemd [linux-any], groff-base, dh-python, pkg-config, libavahi-client-dev"
-  ],
-  "Checksums-Sha256": [
-    "cf651f3c885a0e605e65e2e35923fc31ca802ad6e72e06dcd33a1028f793d3cf 3016 owfs_3.1p5-1.dsc 87138566695f26743bc2b7334695b34b89b78ace1615ea74731158f51a27601f 1487748 owfs_3.1p5.orig.tar.gz 5fe94473e81f24e88f2a190b996b44a0a70f4611637ed857f488d986746213ec 27348 owfs_3.1p5-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/o/owfs"
-  ],
-  "Files": [
-    "f73d8886d3a7e2d090c9af55bbc6df11 3016 owfs_3.1p5-1.dsc 0d3718eb7774d4eb6019e3ff870dbe66 1487748 owfs_3.1p5.orig.tar.gz 830106d3e99d7b08296a1dca609f4d0d 27348 owfs_3.1p5-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://owfs.org/"
-  ],
-  "Maintainer": [
-    "Vincent Danjean <vdanjean@debian.org>"
-  ],
-  "Package": [
-    "owfs"
-  ],
-  "Package-List": [
-    "libow-3.1-5 deb libs extra arch=any libow-dev deb libdevel extra arch=any libow-perl deb perl extra arch=any libow-tcl deb devel extra arch=any libowcapi-3.1-5 deb libs extra arch=any libownet-3.1-5 deb libs extra arch=any libownet-dev deb libdevel extra arch=any libownet-perl deb perl extra arch=all libownet-php deb web extra arch=all ow-shell deb electronics extra arch=any ow-tools deb electronics extra arch=all owfs deb electronics extra arch=all owfs-common deb electronics extra arch=all owfs-dbg deb oldlibs extra arch=any owfs-doc deb doc extra arch=all owfs-fuse deb electronics extra arch=any owftpd deb electronics extra arch=any owhttpd deb electronics extra arch=any owserver deb electronics extra arch=any python-ow deb python extra arch=any python-ownet deb python extra arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "electronics"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/collab-maint/owfs.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/collab-maint/owfs.git"
-  ],
-  "Version": [
-    "3.1p5-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"owfs-common, owfs, libow-3.1-5, libowcapi-3.1-5, libow-dev, libownet-3.1-5, libownet-dev, owserver, ow-shell, ow-tools, owfs-fuse, owhttpd, owftpd, libownet-php, libow-perl, libownet-perl, python-ow, python-ownet, libow-tcl, owfs-doc, owfs-dbg"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), quilt, autotools-dev, libfuse-dev [!hurd-i386], swig, python-all-dev, tcl-dev, libusb-1.0-0-dev, ed, php-cli, php-dev, systemd [linux-any], groff-base, dh-python, pkg-config, libavahi-client-dev"
+	],
+	"Checksums-Sha256": [
+		"cf651f3c885a0e605e65e2e35923fc31ca802ad6e72e06dcd33a1028f793d3cf 3016 owfs_3.1p5-1.dsc 87138566695f26743bc2b7334695b34b89b78ace1615ea74731158f51a27601f 1487748 owfs_3.1p5.orig.tar.gz 5fe94473e81f24e88f2a190b996b44a0a70f4611637ed857f488d986746213ec 27348 owfs_3.1p5-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/o/owfs"
+	],
+	"Files": [
+		"f73d8886d3a7e2d090c9af55bbc6df11 3016 owfs_3.1p5-1.dsc 0d3718eb7774d4eb6019e3ff870dbe66 1487748 owfs_3.1p5.orig.tar.gz 830106d3e99d7b08296a1dca609f4d0d 27348 owfs_3.1p5-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://owfs.org/"
+	],
+	"Maintainer": [
+		"Vincent Danjean <vdanjean@debian.org>"
+	],
+	"Package": [
+		"owfs"
+	],
+	"Package-List": [
+		"libow-3.1-5 deb libs extra arch=any libow-dev deb libdevel extra arch=any libow-perl deb perl extra arch=any libow-tcl deb devel extra arch=any libowcapi-3.1-5 deb libs extra arch=any libownet-3.1-5 deb libs extra arch=any libownet-dev deb libdevel extra arch=any libownet-perl deb perl extra arch=all libownet-php deb web extra arch=all ow-shell deb electronics extra arch=any ow-tools deb electronics extra arch=all owfs deb electronics extra arch=all owfs-common deb electronics extra arch=all owfs-dbg deb oldlibs extra arch=any owfs-doc deb doc extra arch=all owfs-fuse deb electronics extra arch=any owftpd deb electronics extra arch=any owhttpd deb electronics extra arch=any owserver deb electronics extra arch=any python-ow deb python extra arch=any python-ownet deb python extra arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"electronics"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/collab-maint/owfs.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/collab-maint/owfs.git"
+	],
+	"Version": [
+		"3.1p5-1"
+	]
 }

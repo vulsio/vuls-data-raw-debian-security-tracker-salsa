@@ -1,53 +1,53 @@
 {
-  "Architecture": [
-    "all kfreebsd-any kfreebsd-amd64 kfreebsd-i386"
-  ],
-  "Binary": [
-    "kfreebsd-source-8.1, kfreebsd-headers-8.1-1, kfreebsd-image-8.1-1-amd64, kfreebsd-image-8-amd64, kfreebsd-headers-8.1-1-amd64, kfreebsd-headers-8-amd64, kfreebsd-image-8.1-1-486, kfreebsd-image-8-486, kfreebsd-headers-8.1-1-486, kfreebsd-headers-8-486, kfreebsd-image-8.1-1-686, kfreebsd-image-8-686, kfreebsd-headers-8.1-1-686, kfreebsd-headers-8-686, kfreebsd-image-8.1-1-686-smp, kfreebsd-image-8-686-smp, kfreebsd-headers-8.1-1-686-smp, kfreebsd-headers-8-686-smp"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 5.0.0), bzip2, quilt, sharutils, flex-old | flex, freebsd-buildutils (>= 7) [kfreebsd-any], gcc-4.3 [kfreebsd-any], libdb-dev, libbsd-dev [kfreebsd-any], libsbuf-dev [kfreebsd-any]"
-  ],
-  "Checksums-Sha1": [
-    "94480cd5dbc46dc11bbd5b198b8d05506d2b22bc 1945 kfreebsd-8_8.1+dfsg-8+squeeze3.dsc f42e1b26ce8cc24dbe529ad33f4077e73dd1c408 26095080 kfreebsd-8_8.1+dfsg.orig.tar.gz 008fe679721eae13cd502b7f5769c15615171c67 100510 kfreebsd-8_8.1+dfsg-8+squeeze3.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "40b3fbe9bd5c932b5054f5ce03d3ed7c0cf8065414a9e0437f6169ced18330bd 1945 kfreebsd-8_8.1+dfsg-8+squeeze3.dsc 1871be8b002ce221625009b334ad220f97b244bb67f65a9b79c77f09c3061dc6 26095080 kfreebsd-8_8.1+dfsg.orig.tar.gz ed4781f4c51f33d34e407f775e42afbf2ca9d2f7c83003bd23064cf85020e42d 100510 kfreebsd-8_8.1+dfsg-8+squeeze3.diff.gz"
-  ],
-  "Directory": [
-    "pool/updates/main/k/kfreebsd-8"
-  ],
-  "Files": [
-    "034d107299f74716b517c8dee667937d 1945 kfreebsd-8_8.1+dfsg-8+squeeze3.dsc d63d117822899c7a16b9d0d4522c6fc9 26095080 kfreebsd-8_8.1+dfsg.orig.tar.gz 89a542b0abc416da6075d17bcacafb07 100510 kfreebsd-8_8.1+dfsg-8+squeeze3.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Maintainer": [
-    "GNU/kFreeBSD Maintainers <debian-bsd@lists.debian.org>"
-  ],
-  "Package": [
-    "kfreebsd-8"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "kernel"
-  ],
-  "Standards-Version": [
-    "3.9.1"
-  ],
-  "Uploaders": [
-    "Aurelien Jarno <aurel32@debian.org>, Guillem Jover <guillem@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://svn.debian.org/wsvn/glibc-bsd/trunk/kfreebsd-8/"
-  ],
-  "Vcs-Svn": [
-    "svn://svn.debian.org/glibc-bsd/trunk/kfreebsd-8/"
-  ],
-  "Version": [
-    "8.1+dfsg-8+squeeze3"
-  ]
+	"Architecture": [
+		"all kfreebsd-any kfreebsd-amd64 kfreebsd-i386"
+	],
+	"Binary": [
+		"kfreebsd-source-8.1, kfreebsd-headers-8.1-1, kfreebsd-image-8.1-1-amd64, kfreebsd-image-8-amd64, kfreebsd-headers-8.1-1-amd64, kfreebsd-headers-8-amd64, kfreebsd-image-8.1-1-486, kfreebsd-image-8-486, kfreebsd-headers-8.1-1-486, kfreebsd-headers-8-486, kfreebsd-image-8.1-1-686, kfreebsd-image-8-686, kfreebsd-headers-8.1-1-686, kfreebsd-headers-8-686, kfreebsd-image-8.1-1-686-smp, kfreebsd-image-8-686-smp, kfreebsd-headers-8.1-1-686-smp, kfreebsd-headers-8-686-smp"
+	],
+	"Build-Depends": [
+		"debhelper (>= 5.0.0), bzip2, quilt, sharutils, flex-old | flex, freebsd-buildutils (>= 7) [kfreebsd-any], gcc-4.3 [kfreebsd-any], libdb-dev, libbsd-dev [kfreebsd-any], libsbuf-dev [kfreebsd-any]"
+	],
+	"Checksums-Sha1": [
+		"94480cd5dbc46dc11bbd5b198b8d05506d2b22bc 1945 kfreebsd-8_8.1+dfsg-8+squeeze3.dsc f42e1b26ce8cc24dbe529ad33f4077e73dd1c408 26095080 kfreebsd-8_8.1+dfsg.orig.tar.gz 008fe679721eae13cd502b7f5769c15615171c67 100510 kfreebsd-8_8.1+dfsg-8+squeeze3.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"40b3fbe9bd5c932b5054f5ce03d3ed7c0cf8065414a9e0437f6169ced18330bd 1945 kfreebsd-8_8.1+dfsg-8+squeeze3.dsc 1871be8b002ce221625009b334ad220f97b244bb67f65a9b79c77f09c3061dc6 26095080 kfreebsd-8_8.1+dfsg.orig.tar.gz ed4781f4c51f33d34e407f775e42afbf2ca9d2f7c83003bd23064cf85020e42d 100510 kfreebsd-8_8.1+dfsg-8+squeeze3.diff.gz"
+	],
+	"Directory": [
+		"pool/updates/main/k/kfreebsd-8"
+	],
+	"Files": [
+		"034d107299f74716b517c8dee667937d 1945 kfreebsd-8_8.1+dfsg-8+squeeze3.dsc d63d117822899c7a16b9d0d4522c6fc9 26095080 kfreebsd-8_8.1+dfsg.orig.tar.gz 89a542b0abc416da6075d17bcacafb07 100510 kfreebsd-8_8.1+dfsg-8+squeeze3.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Maintainer": [
+		"GNU/kFreeBSD Maintainers <debian-bsd@lists.debian.org>"
+	],
+	"Package": [
+		"kfreebsd-8"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"kernel"
+	],
+	"Standards-Version": [
+		"3.9.1"
+	],
+	"Uploaders": [
+		"Aurelien Jarno <aurel32@debian.org>, Guillem Jover <guillem@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://svn.debian.org/wsvn/glibc-bsd/trunk/kfreebsd-8/"
+	],
+	"Vcs-Svn": [
+		"svn://svn.debian.org/glibc-bsd/trunk/kfreebsd-8/"
+	],
+	"Version": [
+		"8.1+dfsg-8+squeeze3"
+	]
 }

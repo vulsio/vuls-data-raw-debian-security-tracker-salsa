@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "rygel, rygel-dbg, rygel-2.4-dev, librygel-core-2.4-2, librygel-server-2.4-2, librygel-renderer-2.4-2, librygel-renderer-gst-2.4-2, rygel-mediathek, rygel-tracker, rygel-gst-renderer, rygel-playbin, rygel-gst-launch, rygel-preferences"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-autoreconf, gobject-introspection, gstreamer1.0-plugins-base, gtk-doc-tools, intltool, libgee-0.8-dev, libglib2.0-dev (>= 2.34.0), libgssdp-1.0-dev (>= 0.13.0), libgstreamer-plugins-base1.0-dev (>= 1.0), libgstreamer1.0-dev (>= 1.0), libgtk-3-dev (>= 3.0), libgupnp-1.0-dev (>= 0.19.0), libgupnp-av-1.0-dev (>= 0.12.4), libgupnp-dlna-2.0-dev (>= 0.9.4-2), libmediaart-1.0-dev (>= 0.5.0), libsoup2.4-dev (>= 2.44.0), libsqlite3-dev (>= 3.5), libtracker-sparql-1.0-dev | libtracker-sparql-0.16-dev, libunistring-dev, uuid-dev (>= 1.41.3), valac (>= 0.22.0), valadoc (>= 0.2)"
-  ],
-  "Checksums-Sha1": [
-    "7c5f347c1ddef204d28649b5bd08978932217ea3 3243 rygel_0.24.2-1.dsc adb29fb1fbbd90682482d7859947918bfc25cb04 3190292 rygel_0.24.2.orig.tar.xz 2b3f2786ec16642dd2e493d0f6d3702594c910ca 10628 rygel_0.24.2-1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "3c40507be2a3e991e446b267ee45db354c4b91b27bdd21865823755b2a69f363 3243 rygel_0.24.2-1.dsc bbdfcdd169cf2d5572afd3906040c97f6a8e8b4a4bd54b70e761981b7fa37fb3 3190292 rygel_0.24.2.orig.tar.xz d312dceeb880c3dfb2336100743d155bcc38356edc4aceee61aa8b678dbd6ee8 10628 rygel_0.24.2-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rygel"
-  ],
-  "Files": [
-    "64843020dd90b46f6194a2e432f0629f 3243 rygel_0.24.2-1.dsc 445a3f7afdacdac7f6debe4b7f0bea5d 3190292 rygel_0.24.2.orig.tar.xz 1c9f33af5e19ca5f8a1bbd937d8ee0bd 10628 rygel_0.24.2-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://wiki.gnome.org/action/show/Projects/Rygel"
-  ],
-  "Maintainer": [
-    "Debian Rygel Maintainers <ah-rygel@debian.org>"
-  ],
-  "Package": [
-    "rygel"
-  ],
-  "Package-List": [
-    "librygel-core-2.4-2 deb libs extra arch=any librygel-renderer-2.4-2 deb libs extra arch=any librygel-renderer-gst-2.4-2 deb libs extra arch=any librygel-server-2.4-2 deb libs extra arch=any rygel deb net extra arch=any rygel-2.4-dev deb devel extra arch=any rygel-dbg deb debug extra arch=any rygel-gst-launch deb net extra arch=any rygel-gst-renderer deb oldlibs extra arch=all rygel-mediathek deb net extra arch=any rygel-playbin deb net extra arch=any rygel-preferences deb net extra arch=any rygel-tracker deb net extra arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Uploaders": [
-    "Marc-André Lureau <marcandre.lureau@gmail.com>, Andreas Henriksson <andreas@fatal.se>"
-  ],
-  "Vcs-Browser": [
-    "http://git.debian.org/?p=collab-maint/rygel.git"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/git/collab-maint/rygel.git"
-  ],
-  "Version": [
-    "0.24.2-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"rygel, rygel-dbg, rygel-2.4-dev, librygel-core-2.4-2, librygel-server-2.4-2, librygel-renderer-2.4-2, librygel-renderer-gst-2.4-2, rygel-mediathek, rygel-tracker, rygel-gst-renderer, rygel-playbin, rygel-gst-launch, rygel-preferences"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-autoreconf, gobject-introspection, gstreamer1.0-plugins-base, gtk-doc-tools, intltool, libgee-0.8-dev, libglib2.0-dev (>= 2.34.0), libgssdp-1.0-dev (>= 0.13.0), libgstreamer-plugins-base1.0-dev (>= 1.0), libgstreamer1.0-dev (>= 1.0), libgtk-3-dev (>= 3.0), libgupnp-1.0-dev (>= 0.19.0), libgupnp-av-1.0-dev (>= 0.12.4), libgupnp-dlna-2.0-dev (>= 0.9.4-2), libmediaart-1.0-dev (>= 0.5.0), libsoup2.4-dev (>= 2.44.0), libsqlite3-dev (>= 3.5), libtracker-sparql-1.0-dev | libtracker-sparql-0.16-dev, libunistring-dev, uuid-dev (>= 1.41.3), valac (>= 0.22.0), valadoc (>= 0.2)"
+	],
+	"Checksums-Sha1": [
+		"7c5f347c1ddef204d28649b5bd08978932217ea3 3243 rygel_0.24.2-1.dsc adb29fb1fbbd90682482d7859947918bfc25cb04 3190292 rygel_0.24.2.orig.tar.xz 2b3f2786ec16642dd2e493d0f6d3702594c910ca 10628 rygel_0.24.2-1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"3c40507be2a3e991e446b267ee45db354c4b91b27bdd21865823755b2a69f363 3243 rygel_0.24.2-1.dsc bbdfcdd169cf2d5572afd3906040c97f6a8e8b4a4bd54b70e761981b7fa37fb3 3190292 rygel_0.24.2.orig.tar.xz d312dceeb880c3dfb2336100743d155bcc38356edc4aceee61aa8b678dbd6ee8 10628 rygel_0.24.2-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rygel"
+	],
+	"Files": [
+		"64843020dd90b46f6194a2e432f0629f 3243 rygel_0.24.2-1.dsc 445a3f7afdacdac7f6debe4b7f0bea5d 3190292 rygel_0.24.2.orig.tar.xz 1c9f33af5e19ca5f8a1bbd937d8ee0bd 10628 rygel_0.24.2-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://wiki.gnome.org/action/show/Projects/Rygel"
+	],
+	"Maintainer": [
+		"Debian Rygel Maintainers <ah-rygel@debian.org>"
+	],
+	"Package": [
+		"rygel"
+	],
+	"Package-List": [
+		"librygel-core-2.4-2 deb libs extra arch=any librygel-renderer-2.4-2 deb libs extra arch=any librygel-renderer-gst-2.4-2 deb libs extra arch=any librygel-server-2.4-2 deb libs extra arch=any rygel deb net extra arch=any rygel-2.4-dev deb devel extra arch=any rygel-dbg deb debug extra arch=any rygel-gst-launch deb net extra arch=any rygel-gst-renderer deb oldlibs extra arch=all rygel-mediathek deb net extra arch=any rygel-playbin deb net extra arch=any rygel-preferences deb net extra arch=any rygel-tracker deb net extra arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Uploaders": [
+		"Marc-André Lureau <marcandre.lureau@gmail.com>, Andreas Henriksson <andreas@fatal.se>"
+	],
+	"Vcs-Browser": [
+		"http://git.debian.org/?p=collab-maint/rygel.git"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/git/collab-maint/rygel.git"
+	],
+	"Version": [
+		"0.24.2-1"
+	]
 }

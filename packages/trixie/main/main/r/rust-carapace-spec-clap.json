@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-carapace-spec-clap-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-clap-4+std-dev (>= 4.3.12-~~) <!nocheck>, librust-clap-complete-4+default-dev (>= 4.3.2-~~) <!nocheck>, librust-indexmap+default-dev (>= 1.9.2-~~) <!nocheck>, librust-indexmap+serde-dev (>= 1.9.2-~~) <!nocheck>, librust-serde-1+default-dev <!nocheck>, librust-serde-1+derive-dev <!nocheck>, librust-serde-yaml-0.8+default-dev <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "2fcb156b247f4d4cc1f73ea7961c46eeb4fca76ff1ee65d2bac326da897e2d6d 2670 rust-carapace-spec-clap_0.1.12-1.dsc ee27bd86a5c2b9e42c66b0233d561bb129ef6aa3b04c76f79574e118352061dd 13658 rust-carapace-spec-clap_0.1.12.orig.tar.gz 0b13a4add8215dc553089ee8b8b9382f9e27861f718b9a7c7f0122382caae595 4188 rust-carapace-spec-clap_0.1.12-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-carapace-spec-clap"
-  ],
-  "Files": [
-    "2db43c0bd0cf529fe4a3ed7bb000729b 2670 rust-carapace-spec-clap_0.1.12-1.dsc 9305b1254740709ba17807e6ad246b55 13658 rust-carapace-spec-clap_0.1.12.orig.tar.gz 713e0502eaa23a1f052839144ff5d530 4188 rust-carapace-spec-clap_0.1.12-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-carapace-spec-clap"
-  ],
-  "Package-List": [
-    "librust-carapace-spec-clap-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-snapbox-0.4+default-dev, librust-snapbox-0.4+diff-dev"
-  ],
-  "Uploaders": [
-    "Jelmer Vernooĳ <jelmer@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/carapace-spec-clap"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/carapace-spec-clap]"
-  ],
-  "Version": [
-    "0.1.12-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-carapace-spec-clap-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-clap-4+std-dev (>= 4.3.12-~~) <!nocheck>, librust-clap-complete-4+default-dev (>= 4.3.2-~~) <!nocheck>, librust-indexmap+default-dev (>= 1.9.2-~~) <!nocheck>, librust-indexmap+serde-dev (>= 1.9.2-~~) <!nocheck>, librust-serde-1+default-dev <!nocheck>, librust-serde-1+derive-dev <!nocheck>, librust-serde-yaml-0.8+default-dev <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"2fcb156b247f4d4cc1f73ea7961c46eeb4fca76ff1ee65d2bac326da897e2d6d 2670 rust-carapace-spec-clap_0.1.12-1.dsc ee27bd86a5c2b9e42c66b0233d561bb129ef6aa3b04c76f79574e118352061dd 13658 rust-carapace-spec-clap_0.1.12.orig.tar.gz 0b13a4add8215dc553089ee8b8b9382f9e27861f718b9a7c7f0122382caae595 4188 rust-carapace-spec-clap_0.1.12-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-carapace-spec-clap"
+	],
+	"Files": [
+		"2db43c0bd0cf529fe4a3ed7bb000729b 2670 rust-carapace-spec-clap_0.1.12-1.dsc 9305b1254740709ba17807e6ad246b55 13658 rust-carapace-spec-clap_0.1.12.orig.tar.gz 713e0502eaa23a1f052839144ff5d530 4188 rust-carapace-spec-clap_0.1.12-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-carapace-spec-clap"
+	],
+	"Package-List": [
+		"librust-carapace-spec-clap-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-snapbox-0.4+default-dev, librust-snapbox-0.4+diff-dev"
+	],
+	"Uploaders": [
+		"Jelmer Vernooĳ <jelmer@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/carapace-spec-clap"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/carapace-spec-clap]"
+	],
+	"Version": [
+		"0.1.12-1"
+	]
 }

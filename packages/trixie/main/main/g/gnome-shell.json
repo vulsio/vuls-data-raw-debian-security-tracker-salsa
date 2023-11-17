@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "linux-any all"
-  ],
-  "Binary": [
-    "gnome-shell, gnome-shell-common, gnome-shell-extension-prefs"
-  ],
-  "Build-Depends": [
-    "appstream, asciidoc-base, bash-completion, dbus-daemon <!nocheck>, debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, gjs, gir1.2-accountsservice-1.0 <!nocheck>, gir1.2-gdm-1.0 <!nocheck>, gir1.2-geoclue-2.0 <!nocheck>, gir1.2-gnomebg-4.0 <!nocheck>, gir1.2-gnomedesktop-4.0 <!nocheck>, gir1.2-gweather-4.0 (>= 4.1) <!nocheck>, gir1.2-nma4-1.0 [linux-any] <!nocheck>, gir1.2-rsvg-2.0 <!nocheck>, gir1.2-upowerglib-1.0 <!nocheck>, gnome-control-center-dev, gnome-pkg-tools, gnome-settings-daemon-common (>= 40~) <!nocheck>, gobject-introspection, gsettings-desktop-schemas-dev (>= 42~beta), gtk-doc-tools, libasound2-dev, libatk-bridge2.0-dev, libecal2.0-dev (>= 3.45), libedataserver1.2-dev (>= 3.45), libgcr-3-dev, libgirepository1.0-dev, libgjs-dev (>= 1.73.1), libgl1-mesa-dri <!nocheck>, libglib2.0-dev, libgnome-autoar-0-dev, libgnome-bluetooth-3.0-dev (>= 3.9.0) [linux-any], libgnome-desktop-4-dev (>= 40), libgnome-menu-3-dev, libgstreamer1.0-dev, libgstreamer-plugins-base1.0-dev, libgtk-3-bin, libgtk-3-dev <!nocheck>, libgtk-4-dev, libibus-1.0-dev (>= 1.5.22-2ubuntu2~), libjson-glib-dev, libmutter-12-dev (>= 44.2), mutter-12-tests (>= 44.2) <!nocheck>, libnm-dev [linux-any], libpipewire-0.3-dev (>= 0.3.10) [linux-any], libpolkit-agent-1-dev, libpulse-dev (>= 13), libsecret-1-dev, libstartup-notification0-dev, libsystemd-dev [linux-any], libx11-dev, libxfixes-dev, libxml2-dev, mesa-common-dev, meson (>= 0.58.0), mutter (>= 44.2) <!nocheck>, pkg-config, sassc, systemd [linux-any], xauth <!nocheck>, xvfb <!nocheck>, xwayland <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "5c740cc05de854233e98a364f7f4b53a03ae16326cf8db4c2e522fd9fdc48930 3832 gnome-shell_44.5-2.dsc c16afce0381dd593427d708447a9d1fac7489eb02945efb37e904ca74a924a35 1996432 gnome-shell_44.5.orig.tar.xz 90635b1b157269ff32377fb7e8f43b666593ca287a1b7caa885481725b331612 44988 gnome-shell_44.5-2.debian.tar.xz"
-  ],
-  "Dgit": [
-    "fc7e6403d0ccc8e8e90741d458485098df6851bf debian archive/debian/44.5-2 https://git.dgit.debian.org/gnome-shell"
-  ],
-  "Directory": [
-    "pool/main/g/gnome-shell"
-  ],
-  "Files": [
-    "dd726ea0feba07ef4dc1893fc0a748e8 3832 gnome-shell_44.5-2.dsc 3ad3fd413264adcf6aac0dc6167c3979 1996432 gnome-shell_44.5.orig.tar.xz 65e0ece3e2e9cb4da62b4993134bbecf 44988 gnome-shell_44.5-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://wiki.gnome.org/Projects/GnomeShell"
-  ],
-  "Maintainer": [
-    "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "gnome-shell"
-  ],
-  "Package-List": [
-    "gnome-shell deb gnome optional arch=linux-any gnome-shell-common deb gnome optional arch=all gnome-shell-extension-prefs deb gnome optional arch=linux-any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "gnome"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Uploaders": [
-    "Jeremy Bícha <jbicha@ubuntu.com>, Marco Trevisan (Treviño) <marco@ubuntu.com>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/gnome-team/gnome-shell"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/gnome-team/gnome-shell.git"
-  ],
-  "Version": [
-    "44.5-2"
-  ]
+	"Architecture": [
+		"linux-any all"
+	],
+	"Binary": [
+		"gnome-shell, gnome-shell-common, gnome-shell-extension-prefs"
+	],
+	"Build-Depends": [
+		"appstream, asciidoc-base, bash-completion, dbus-daemon <!nocheck>, debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, gjs, gir1.2-accountsservice-1.0 <!nocheck>, gir1.2-gdm-1.0 <!nocheck>, gir1.2-geoclue-2.0 <!nocheck>, gir1.2-gnomebg-4.0 <!nocheck>, gir1.2-gnomedesktop-4.0 <!nocheck>, gir1.2-gweather-4.0 (>= 4.1) <!nocheck>, gir1.2-nma4-1.0 [linux-any] <!nocheck>, gir1.2-rsvg-2.0 <!nocheck>, gir1.2-upowerglib-1.0 <!nocheck>, gnome-control-center-dev, gnome-pkg-tools, gnome-settings-daemon-common (>= 40~) <!nocheck>, gobject-introspection, gsettings-desktop-schemas-dev (>= 42~beta), gtk-doc-tools, libasound2-dev, libatk-bridge2.0-dev, libecal2.0-dev (>= 3.45), libedataserver1.2-dev (>= 3.45), libgcr-3-dev, libgirepository1.0-dev, libgjs-dev (>= 1.73.1), libgl1-mesa-dri <!nocheck>, libglib2.0-dev, libgnome-autoar-0-dev, libgnome-bluetooth-3.0-dev (>= 3.9.0) [linux-any], libgnome-desktop-4-dev (>= 40), libgnome-menu-3-dev, libgstreamer1.0-dev, libgstreamer-plugins-base1.0-dev, libgtk-3-bin, libgtk-3-dev <!nocheck>, libgtk-4-dev, libibus-1.0-dev (>= 1.5.22-2ubuntu2~), libjson-glib-dev, libmutter-12-dev (>= 44.2), mutter-12-tests (>= 44.2) <!nocheck>, libnm-dev [linux-any], libpipewire-0.3-dev (>= 0.3.10) [linux-any], libpolkit-agent-1-dev, libpulse-dev (>= 13), libsecret-1-dev, libstartup-notification0-dev, libsystemd-dev [linux-any], libx11-dev, libxfixes-dev, libxml2-dev, mesa-common-dev, meson (>= 0.58.0), mutter (>= 44.2) <!nocheck>, pkg-config, sassc, systemd [linux-any], xauth <!nocheck>, xvfb <!nocheck>, xwayland <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"5c740cc05de854233e98a364f7f4b53a03ae16326cf8db4c2e522fd9fdc48930 3832 gnome-shell_44.5-2.dsc c16afce0381dd593427d708447a9d1fac7489eb02945efb37e904ca74a924a35 1996432 gnome-shell_44.5.orig.tar.xz 90635b1b157269ff32377fb7e8f43b666593ca287a1b7caa885481725b331612 44988 gnome-shell_44.5-2.debian.tar.xz"
+	],
+	"Dgit": [
+		"fc7e6403d0ccc8e8e90741d458485098df6851bf debian archive/debian/44.5-2 https://git.dgit.debian.org/gnome-shell"
+	],
+	"Directory": [
+		"pool/main/g/gnome-shell"
+	],
+	"Files": [
+		"dd726ea0feba07ef4dc1893fc0a748e8 3832 gnome-shell_44.5-2.dsc 3ad3fd413264adcf6aac0dc6167c3979 1996432 gnome-shell_44.5.orig.tar.xz 65e0ece3e2e9cb4da62b4993134bbecf 44988 gnome-shell_44.5-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://wiki.gnome.org/Projects/GnomeShell"
+	],
+	"Maintainer": [
+		"Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"gnome-shell"
+	],
+	"Package-List": [
+		"gnome-shell deb gnome optional arch=linux-any gnome-shell-common deb gnome optional arch=all gnome-shell-extension-prefs deb gnome optional arch=linux-any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"gnome"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Uploaders": [
+		"Jeremy Bícha <jbicha@ubuntu.com>, Marco Trevisan (Treviño) <marco@ubuntu.com>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/gnome-team/gnome-shell"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/gnome-team/gnome-shell.git"
+	],
+	"Version": [
+		"44.5-2"
+	]
 }

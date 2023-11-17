@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "doxygen, doxygen-latex, doxygen-doc, doxygen-gui, doxygen-dbg"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9.20141010), dpkg-dev (>= 1.17.14), qtbase5-dev <!stage1>, flex, bison (>= 1.875a), python3, zlib1g-dev, libxapian-dev (>= 1.2.21-1.2), cmake, yui-compressor, ruby-compass, llvm-3.9-dev [alpha amd64 armel armhf arm64 i386 mips mipsel mips64el powerpc powerpcspe ppc64 ppc64el s390x sparc64], libclang-3.9-dev [alpha amd64 armel armhf arm64 i386 mips mipsel mips64el powerpc powerpcspe ppc64 ppc64el s390x sparc64]"
-  ],
-  "Build-Depends-Indep": [
-    "texlive-fonts-recommended, texlive-generic-recommended, texlive-latex-extra, texlive-latex-recommended, texlive-extra-utils, texlive-font-utils, ghostscript, graphviz, latex-xcolor, rdfind"
-  ],
-  "Checksums-Sha256": [
-    "4f09cba25d6cd680a70424df4f1414d361efa5fe837bbc7639b8053c5e989ba3 2706 doxygen_1.8.13-4.dsc af667887bd7a87dc0dbf9ac8d86c96b552dfb8ca9c790ed1cbffaa6131573f6b 4893912 doxygen_1.8.13.orig.tar.gz a652ea7f30396f7b3b1878c0771e06a789d4b3e226d371473a926fe8f288d99d 23332 doxygen_1.8.13-4.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/d/doxygen"
-  ],
-  "Files": [
-    "8ccc055822cd922e96dba7261d88a8c6 2706 doxygen_1.8.13-4.dsc 0fa414975f8cd6d30e126c28327c1f7c 4893912 doxygen_1.8.13.orig.tar.gz 8b0094c61652be8d757ca4d5b2f349c4 23332 doxygen_1.8.13-4.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.stack.nl/~dimitri/doxygen/"
-  ],
-  "Maintainer": [
-    "Matthias Klose <doko@debian.org>"
-  ],
-  "Package": [
-    "doxygen"
-  ],
-  "Package-List": [
-    "doxygen deb devel optional arch=any doxygen-dbg deb debug extra arch=any doxygen-doc deb doc optional arch=all doxygen-gui deb devel optional arch=any profile=!stage1 doxygen-latex deb devel optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "devel"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "apt, dpkg-dev, graphviz"
-  ],
-  "Uploaders": [
-    "Helmut Grohne <helmut@subdivi.de>"
-  ],
-  "Version": [
-    "1.8.13-4"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"doxygen, doxygen-latex, doxygen-doc, doxygen-gui, doxygen-dbg"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9.20141010), dpkg-dev (>= 1.17.14), qtbase5-dev <!stage1>, flex, bison (>= 1.875a), python3, zlib1g-dev, libxapian-dev (>= 1.2.21-1.2), cmake, yui-compressor, ruby-compass, llvm-3.9-dev [alpha amd64 armel armhf arm64 i386 mips mipsel mips64el powerpc powerpcspe ppc64 ppc64el s390x sparc64], libclang-3.9-dev [alpha amd64 armel armhf arm64 i386 mips mipsel mips64el powerpc powerpcspe ppc64 ppc64el s390x sparc64]"
+	],
+	"Build-Depends-Indep": [
+		"texlive-fonts-recommended, texlive-generic-recommended, texlive-latex-extra, texlive-latex-recommended, texlive-extra-utils, texlive-font-utils, ghostscript, graphviz, latex-xcolor, rdfind"
+	],
+	"Checksums-Sha256": [
+		"4f09cba25d6cd680a70424df4f1414d361efa5fe837bbc7639b8053c5e989ba3 2706 doxygen_1.8.13-4.dsc af667887bd7a87dc0dbf9ac8d86c96b552dfb8ca9c790ed1cbffaa6131573f6b 4893912 doxygen_1.8.13.orig.tar.gz a652ea7f30396f7b3b1878c0771e06a789d4b3e226d371473a926fe8f288d99d 23332 doxygen_1.8.13-4.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/d/doxygen"
+	],
+	"Files": [
+		"8ccc055822cd922e96dba7261d88a8c6 2706 doxygen_1.8.13-4.dsc 0fa414975f8cd6d30e126c28327c1f7c 4893912 doxygen_1.8.13.orig.tar.gz 8b0094c61652be8d757ca4d5b2f349c4 23332 doxygen_1.8.13-4.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.stack.nl/~dimitri/doxygen/"
+	],
+	"Maintainer": [
+		"Matthias Klose <doko@debian.org>"
+	],
+	"Package": [
+		"doxygen"
+	],
+	"Package-List": [
+		"doxygen deb devel optional arch=any doxygen-dbg deb debug extra arch=any doxygen-doc deb doc optional arch=all doxygen-gui deb devel optional arch=any profile=!stage1 doxygen-latex deb devel optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"devel"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"apt, dpkg-dev, graphviz"
+	],
+	"Uploaders": [
+		"Helmut Grohne <helmut@subdivi.de>"
+	],
+	"Version": [
+		"1.8.13-4"
+	]
 }

@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "amd64 arm64 armel armhf i386 ppc64 ppc64el s390x all"
-  ],
-  "Binary": [
-    "golang-1.8-go, golang-1.8-src, golang-1.8-doc, golang-1.8"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 7.4.10), golang-any (>= 2:1.4~) | golang-go (>= 2:1.4~) | gccgo (>= 4:5~), netbase"
-  ],
-  "Checksums-Sha256": [
-    "0798ed1ba02b2520e061d710aa3604085b06469a0f959b85a81dc781accb8f41 2445 golang-1.8_1.8.1-1.dsc 33daf4c03f86120fdfdc66bddf6bfff4661c7ca11c5da473e537f4d69b470e57 15331455 golang-1.8_1.8.1.orig.tar.gz 23e669e18491598bc9b07f93d9aed09c64b8bfedbb60beef8d9dd47965cf3cf3 28708 golang-1.8_1.8.1-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/g/golang-1.8"
-  ],
-  "Extra-Source-Only": [
-    "yes"
-  ],
-  "Files": [
-    "7add7094f606f95eda4d49510966fde7 2445 golang-1.8_1.8.1-1.dsc 409dd21e7347dd1ea9efe64a700073cc 15331455 golang-1.8_1.8.1.orig.tar.gz f8c4c26ff6c35ba1d5b2e267ed3dcb62 28708 golang-1.8_1.8.1-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://golang.org"
-  ],
-  "Maintainer": [
-    "Go Compiler Team <pkg-golang-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "golang-1.8"
-  ],
-  "Package-List": [
-    "golang-1.8 deb devel optional arch=all golang-1.8-doc deb doc optional arch=all golang-1.8-go deb devel optional arch=amd64,arm64,armel,armhf,i386,ppc64,ppc64el,s390x golang-1.8-src deb devel optional arch=amd64,arm64,armel,armhf,i386,ppc64,ppc64el,s390x"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Michael Stapelberg <stapelberg@debian.org>, Paul Tagliamonte <paultag@debian.org>, Tianon Gravi <tianon@debian.org>, Michael Hudson-Doyle <michael.hudson@ubuntu.com>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-golang/golang.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-golang/golang.git -b golang-1.8"
-  ],
-  "Version": [
-    "1.8.1-1"
-  ]
+	"Architecture": [
+		"amd64 arm64 armel armhf i386 ppc64 ppc64el s390x all"
+	],
+	"Binary": [
+		"golang-1.8-go, golang-1.8-src, golang-1.8-doc, golang-1.8"
+	],
+	"Build-Depends": [
+		"debhelper (>= 7.4.10), golang-any (>= 2:1.4~) | golang-go (>= 2:1.4~) | gccgo (>= 4:5~), netbase"
+	],
+	"Checksums-Sha256": [
+		"0798ed1ba02b2520e061d710aa3604085b06469a0f959b85a81dc781accb8f41 2445 golang-1.8_1.8.1-1.dsc 33daf4c03f86120fdfdc66bddf6bfff4661c7ca11c5da473e537f4d69b470e57 15331455 golang-1.8_1.8.1.orig.tar.gz 23e669e18491598bc9b07f93d9aed09c64b8bfedbb60beef8d9dd47965cf3cf3 28708 golang-1.8_1.8.1-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/golang-1.8"
+	],
+	"Extra-Source-Only": [
+		"yes"
+	],
+	"Files": [
+		"7add7094f606f95eda4d49510966fde7 2445 golang-1.8_1.8.1-1.dsc 409dd21e7347dd1ea9efe64a700073cc 15331455 golang-1.8_1.8.1.orig.tar.gz f8c4c26ff6c35ba1d5b2e267ed3dcb62 28708 golang-1.8_1.8.1-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://golang.org"
+	],
+	"Maintainer": [
+		"Go Compiler Team <pkg-golang-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"golang-1.8"
+	],
+	"Package-List": [
+		"golang-1.8 deb devel optional arch=all golang-1.8-doc deb doc optional arch=all golang-1.8-go deb devel optional arch=amd64,arm64,armel,armhf,i386,ppc64,ppc64el,s390x golang-1.8-src deb devel optional arch=amd64,arm64,armel,armhf,i386,ppc64,ppc64el,s390x"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Michael Stapelberg <stapelberg@debian.org>, Paul Tagliamonte <paultag@debian.org>, Tianon Gravi <tianon@debian.org>, Michael Hudson-Doyle <michael.hudson@ubuntu.com>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-golang/golang.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-golang/golang.git -b golang-1.8"
+	],
+	"Version": [
+		"1.8.1-1"
+	]
 }

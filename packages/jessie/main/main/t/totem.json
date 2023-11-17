@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libtotem0, totem, totem-common, totem-dbg, totem-plugins, gir1.2-totem-1.0, libtotem-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 8), cdbs (>= 0.4.90), dpkg-dev (>= 1.16.1), autotools-dev, dh-autoreconf, appdata-tools, gnome-pkg-tools (>= 0.10), gobject-introspection (>= 0.9.12-4~), gsettings-desktop-schemas-dev, gstreamer1.0-plugins-base (>= 1.4.2), gstreamer1.0-plugins-good, gstreamer1.0-tools, gtk-doc-tools (>= 1.14), intltool (>= 0.40), libatk1.0-dev (>= 1.29.4), libbluetooth-dev [linux-any], libclutter-gst-2.0-dev, libclutter-gtk-1.0-dev (>= 1.5.5), libclutter-1.0-dev (>= 1.17.3), libdbus-glib-1-dev (>= 0.82), libepc-ui-dev (>= 0.4.0), libgdata-dev (>= 0.8.0), libgdk-pixbuf2.0-dev (>= 2.23.0), libgirepository1.0-dev (>= 0.9.12), libglib2.0-dev (>= 2.33.0), libgnome-desktop-3-dev, libgrilo-0.2-dev (>= 0.2.10), libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev (>= 1.3.1), libgtk-3-dev (>= 3.13.7), liblircclient-dev (>= 0.6.6), libnautilus-extension-dev (>= 2.91.4), libpeas-dev (>= 1.1.0), librsvg2-dev (>= 2.16.0-2), libsoup2.4-dev, libtotem-plparser-dev (>= 3.10.1), libx11-dev, libxml2-dev (>= 2.6.0), libxrandr-dev (>= 2:1.1.1), libxtst-dev, libxxf86vm-dev (>= 1:1.0.1), python (>= 2.6.6-3~), python-gi-dev (>= 2.90.3), shared-mime-info (>= 0.22), valac (>= 0.14.1), x11proto-core-dev, yelp-tools"
-  ],
-  "Checksums-Sha1": [
-    "50343f575e616be943533b7d5d804bf9e5fc5497 2920 totem_3.14.0-2.dsc d8f6e29bd3db446ac8d233380c5cf5d3c78ebdbe 3235036 totem_3.14.0.orig.tar.xz bb1dac13a8437051c2ac684d46a08207644154f5 25872 totem_3.14.0-2.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "6d72afc295dbc6127a14f3d00728980e37182b290a8aff344733ec1c808e5ac0 2920 totem_3.14.0-2.dsc a57f78126af431b71e44aa0548e672bf884aef51ec23847f82b07a6849ac635e 3235036 totem_3.14.0.orig.tar.xz 0a3dc0d2a2a91039633045ef4a7fdea1ced2fb7dd51dd3ad4c65d56ddb3bd082 25872 totem_3.14.0-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/t/totem"
-  ],
-  "Files": [
-    "cab567a5302cbd28df93988e1db62946 2920 totem_3.14.0-2.dsc c794736ef65fde6c781ae4ba7f850849 3235036 totem_3.14.0.orig.tar.xz ac1ec4b9910a2bfd3203644ce6d4dcd6 25872 totem_3.14.0-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://wiki.gnome.org/Apps/Videos"
-  ],
-  "Maintainer": [
-    "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "totem"
-  ],
-  "Package-List": [
-    "gir1.2-totem-1.0 deb introspection optional arch=any libtotem-dev deb libdevel optional arch=any libtotem0 deb video optional arch=any totem deb video optional arch=any totem-common deb video optional arch=all totem-dbg deb debug extra arch=any totem-plugins deb video optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "video"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Uploaders": [
-    "Andreas Henriksson <andreas@fatal.se>, Emilio Pozuelo Monfort <pochu@debian.org>, Michael Biebl <biebl@debian.org>, Sjoerd Simons <sjoerd@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/totem"
-  ],
-  "Vcs-Svn": [
-    "svn://anonscm.debian.org/pkg-gnome/desktop/unstable/totem"
-  ],
-  "Version": [
-    "3.14.0-2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libtotem0, totem, totem-common, totem-dbg, totem-plugins, gir1.2-totem-1.0, libtotem-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 8), cdbs (>= 0.4.90), dpkg-dev (>= 1.16.1), autotools-dev, dh-autoreconf, appdata-tools, gnome-pkg-tools (>= 0.10), gobject-introspection (>= 0.9.12-4~), gsettings-desktop-schemas-dev, gstreamer1.0-plugins-base (>= 1.4.2), gstreamer1.0-plugins-good, gstreamer1.0-tools, gtk-doc-tools (>= 1.14), intltool (>= 0.40), libatk1.0-dev (>= 1.29.4), libbluetooth-dev [linux-any], libclutter-gst-2.0-dev, libclutter-gtk-1.0-dev (>= 1.5.5), libclutter-1.0-dev (>= 1.17.3), libdbus-glib-1-dev (>= 0.82), libepc-ui-dev (>= 0.4.0), libgdata-dev (>= 0.8.0), libgdk-pixbuf2.0-dev (>= 2.23.0), libgirepository1.0-dev (>= 0.9.12), libglib2.0-dev (>= 2.33.0), libgnome-desktop-3-dev, libgrilo-0.2-dev (>= 0.2.10), libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev (>= 1.3.1), libgtk-3-dev (>= 3.13.7), liblircclient-dev (>= 0.6.6), libnautilus-extension-dev (>= 2.91.4), libpeas-dev (>= 1.1.0), librsvg2-dev (>= 2.16.0-2), libsoup2.4-dev, libtotem-plparser-dev (>= 3.10.1), libx11-dev, libxml2-dev (>= 2.6.0), libxrandr-dev (>= 2:1.1.1), libxtst-dev, libxxf86vm-dev (>= 1:1.0.1), python (>= 2.6.6-3~), python-gi-dev (>= 2.90.3), shared-mime-info (>= 0.22), valac (>= 0.14.1), x11proto-core-dev, yelp-tools"
+	],
+	"Checksums-Sha1": [
+		"50343f575e616be943533b7d5d804bf9e5fc5497 2920 totem_3.14.0-2.dsc d8f6e29bd3db446ac8d233380c5cf5d3c78ebdbe 3235036 totem_3.14.0.orig.tar.xz bb1dac13a8437051c2ac684d46a08207644154f5 25872 totem_3.14.0-2.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"6d72afc295dbc6127a14f3d00728980e37182b290a8aff344733ec1c808e5ac0 2920 totem_3.14.0-2.dsc a57f78126af431b71e44aa0548e672bf884aef51ec23847f82b07a6849ac635e 3235036 totem_3.14.0.orig.tar.xz 0a3dc0d2a2a91039633045ef4a7fdea1ced2fb7dd51dd3ad4c65d56ddb3bd082 25872 totem_3.14.0-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/t/totem"
+	],
+	"Files": [
+		"cab567a5302cbd28df93988e1db62946 2920 totem_3.14.0-2.dsc c794736ef65fde6c781ae4ba7f850849 3235036 totem_3.14.0.orig.tar.xz ac1ec4b9910a2bfd3203644ce6d4dcd6 25872 totem_3.14.0-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://wiki.gnome.org/Apps/Videos"
+	],
+	"Maintainer": [
+		"Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"totem"
+	],
+	"Package-List": [
+		"gir1.2-totem-1.0 deb introspection optional arch=any libtotem-dev deb libdevel optional arch=any libtotem0 deb video optional arch=any totem deb video optional arch=any totem-common deb video optional arch=all totem-dbg deb debug extra arch=any totem-plugins deb video optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"video"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Uploaders": [
+		"Andreas Henriksson <andreas@fatal.se>, Emilio Pozuelo Monfort <pochu@debian.org>, Michael Biebl <biebl@debian.org>, Sjoerd Simons <sjoerd@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/totem"
+	],
+	"Vcs-Svn": [
+		"svn://anonscm.debian.org/pkg-gnome/desktop/unstable/totem"
+	],
+	"Version": [
+		"3.14.0-2"
+	]
 }

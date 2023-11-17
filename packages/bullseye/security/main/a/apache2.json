@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "apache2, apache2-data, apache2-bin, apache2-utils, apache2-suexec-pristine, apache2-suexec-custom, apache2-doc, apache2-dev, apache2-ssl-dev, libapache2-mod-md, libapache2-mod-proxy-uwsgi"
-  ],
-  "Build-Conflicts": [
-    "autoconf2.13"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), dpkg-dev (>= 1.16.1~), bison, gawk | awk, jdupes, libapr1-dev (>= 1.6.0), libaprutil1-dev (>= 1.6.0), libbrotli-dev, liblua5.3-dev, libnghttp2-dev, libpcre3-dev, libssl-dev (>= 1.1.1), libxml2-dev, lsb-release, perl, zlib1g-dev, libcurl4-openssl-dev | libcurl4-dev, libjansson-dev"
-  ],
-  "Checksums-Sha256": [
-    "751eea360cd53cc4186c64a621390f9f4fd721d366cc809ff110109bb14a8f1d 3539 apache2_2.4.56-1~deb11u1.dsc db0d4c76007b231fd3ab41b580548dc798ae3844bb7c3d5ce1e4174ca2364698 9769650 apache2_2.4.56.orig.tar.gz b53aaa7b05c6888a9cacbbeb100790772f8a8b042f0f308f4aeee60a21e8e44c 833 apache2_2.4.56.orig.tar.gz.asc 37fda9dab3acfe683ff88aa472372eafb1c651a31f03dac5882d13c94bb93e32 894512 apache2_2.4.56-1~deb11u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/a/apache2"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://httpd.apache.org/"
-  ],
-  "Maintainer": [
-    "Debian Apache Maintainers <debian-apache@lists.debian.org>"
-  ],
-  "Package": [
-    "apache2"
-  ],
-  "Package-List": [
-    "apache2 deb httpd optional arch=any apache2-bin deb httpd optional arch=any apache2-data deb httpd optional arch=all apache2-dev deb httpd optional arch=any apache2-doc deb doc optional arch=all apache2-ssl-dev deb httpd optional arch=any apache2-suexec-custom deb httpd optional arch=any apache2-suexec-pristine deb httpd optional arch=any apache2-utils deb httpd optional arch=any libapache2-mod-md deb oldlibs optional arch=any libapache2-mod-proxy-uwsgi deb oldlibs optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "httpd"
-  ],
-  "Standards-Version": [
-    "4.5.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential, curl, dpkg-dev, expect, gcc, libanyevent-perl, libcrypt-ssleay-perl, libdatetime-perl, libfcgi-perl, libhtml-parser-perl, libhttp-dav-perl, libnet-ssleay-perl, libprotocol-http2-perl, libtime-hires-perl, libwww-perl, nghttp2-client, perl-doc, ssl-cert, wget"
-  ],
-  "Uploaders": [
-    "Stefan Fritsch <sf@debian.org>, Arno Töll <arno@debian.org>, Ondřej Surý <ondrej@debian.org>, Yadd <yadd@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/apache-team/apache2"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/apache-team/apache2.git"
-  ],
-  "Version": [
-    "2.4.56-1~deb11u1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"apache2, apache2-data, apache2-bin, apache2-utils, apache2-suexec-pristine, apache2-suexec-custom, apache2-doc, apache2-dev, apache2-ssl-dev, libapache2-mod-md, libapache2-mod-proxy-uwsgi"
+	],
+	"Build-Conflicts": [
+		"autoconf2.13"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dpkg-dev (>= 1.16.1~), bison, gawk | awk, jdupes, libapr1-dev (>= 1.6.0), libaprutil1-dev (>= 1.6.0), libbrotli-dev, liblua5.3-dev, libnghttp2-dev, libpcre3-dev, libssl-dev (>= 1.1.1), libxml2-dev, lsb-release, perl, zlib1g-dev, libcurl4-openssl-dev | libcurl4-dev, libjansson-dev"
+	],
+	"Checksums-Sha256": [
+		"751eea360cd53cc4186c64a621390f9f4fd721d366cc809ff110109bb14a8f1d 3539 apache2_2.4.56-1~deb11u1.dsc db0d4c76007b231fd3ab41b580548dc798ae3844bb7c3d5ce1e4174ca2364698 9769650 apache2_2.4.56.orig.tar.gz b53aaa7b05c6888a9cacbbeb100790772f8a8b042f0f308f4aeee60a21e8e44c 833 apache2_2.4.56.orig.tar.gz.asc 37fda9dab3acfe683ff88aa472372eafb1c651a31f03dac5882d13c94bb93e32 894512 apache2_2.4.56-1~deb11u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/a/apache2"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://httpd.apache.org/"
+	],
+	"Maintainer": [
+		"Debian Apache Maintainers <debian-apache@lists.debian.org>"
+	],
+	"Package": [
+		"apache2"
+	],
+	"Package-List": [
+		"apache2 deb httpd optional arch=any apache2-bin deb httpd optional arch=any apache2-data deb httpd optional arch=all apache2-dev deb httpd optional arch=any apache2-doc deb doc optional arch=all apache2-ssl-dev deb httpd optional arch=any apache2-suexec-custom deb httpd optional arch=any apache2-suexec-pristine deb httpd optional arch=any apache2-utils deb httpd optional arch=any libapache2-mod-md deb oldlibs optional arch=any libapache2-mod-proxy-uwsgi deb oldlibs optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"httpd"
+	],
+	"Standards-Version": [
+		"4.5.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, curl, dpkg-dev, expect, gcc, libanyevent-perl, libcrypt-ssleay-perl, libdatetime-perl, libfcgi-perl, libhtml-parser-perl, libhttp-dav-perl, libnet-ssleay-perl, libprotocol-http2-perl, libtime-hires-perl, libwww-perl, nghttp2-client, perl-doc, ssl-cert, wget"
+	],
+	"Uploaders": [
+		"Stefan Fritsch <sf@debian.org>, Arno Töll <arno@debian.org>, Ondřej Surý <ondrej@debian.org>, Yadd <yadd@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/apache-team/apache2"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/apache-team/apache2.git"
+	],
+	"Version": [
+		"2.4.56-1~deb11u1"
+	]
 }

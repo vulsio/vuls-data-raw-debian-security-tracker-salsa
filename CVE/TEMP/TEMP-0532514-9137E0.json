@@ -1,136 +1,136 @@
 {
-  "header": {
-    "line": "CVE-2009-XXXX [predictable random number generator used in web browsers]",
-    "name": "TEMP-0532514-9137E0",
-    "description": "[predictable random number generator used in web browsers]"
-  },
-  "annotations": [
-    {
-      "line": "\t- webkit 1.2 (low; bug #532514)",
-      "type": "package",
-      "package": "webkit",
-      "kind": "fixed",
-      "version": "1.2",
-      "flags": [
-        {
-          "severity": "low"
-        },
-        {
-          "bug": 532514
-        }
-      ]
-    },
-    {
-      "line": "\tNOTE: The implementations for UNIX seems fine, might be fixed earlier",
-      "type": "NOTE",
-      "description": "The implementations for UNIX seems fine, might be fixed earlier"
-    },
-    {
-      "line": "\t[lenny] - webkit <no-dsa> (Minor issue)",
-      "type": "package",
-      "release": "lenny",
-      "package": "webkit",
-      "kind": "no-dsa",
-      "description": "Minor issue"
-    },
-    {
-      "line": "\t- kdebase <unfixed> (unimportant; bug #532519)",
-      "type": "package",
-      "package": "kdebase",
-      "kind": "unfixed",
-      "flags": [
-        {
-          "severity": "unimportant"
-        },
-        {
-          "bug": 532519
-        }
-      ]
-    },
-    {
-      "line": "\t- w3m <unfixed> (unimportant; bug #532521)",
-      "type": "package",
-      "package": "w3m",
-      "kind": "unfixed",
-      "flags": [
-        {
-          "severity": "unimportant"
-        },
-        {
-          "bug": 532521
-        }
-      ]
-    },
-    {
-      "line": "\tNOTE: w3m doesn't have Javascript support and the boundary issue is harmles",
-      "type": "NOTE",
-      "description": "w3m doesn't have Javascript support and the boundary issue is harmles"
-    },
-    {
-      "line": "\t- chromium-browser 26.0.1410.43-1 (bug #520324)",
-      "type": "package",
-      "package": "chromium-browser",
-      "kind": "fixed",
-      "version": "26.0.1410.43-1",
-      "flags": [
-        {
-          "bug": 520324
-        }
-      ]
-    },
-    {
-      "line": "\t[squeeze] - chromium-browser <end-of-life>",
-      "type": "package",
-      "release": "squeeze",
-      "package": "chromium-browser",
-      "kind": "end-of-life"
-    },
-    {
-      "line": "\tNOTE: chromium has provides window.crypto.getRandomValues as a strong random number generator",
-      "type": "NOTE",
-      "description": "chromium has provides window.crypto.getRandomValues as a strong random number generator"
-    },
-    {
-      "line": "\tNOTE: https://code.google.com/p/chromium/issues/detail?id=246054",
-      "type": "NOTE",
-      "description": "https://code.google.com/p/chromium/issues/detail?id=246054"
-    },
-    {
-      "line": "\t- lynx 2.8.7rel.1-1 (unimportant; bug #532520)",
-      "type": "package",
-      "package": "lynx",
-      "kind": "fixed",
-      "version": "2.8.7rel.1-1",
-      "flags": [
-        {
-          "severity": "unimportant"
-        },
-        {
-          "bug": 532520
-        }
-      ]
-    },
-    {
-      "line": "\tNOTE: lynx doesn't have Javascript and form-data support",
-      "type": "NOTE",
-      "description": "lynx doesn't have Javascript and form-data support"
-    },
-    {
-      "line": "\t- dillo <not-affected> (bug #532522)",
-      "type": "package",
-      "package": "dillo",
-      "kind": "not-affected",
-      "description": "bug #532522"
-    },
-    {
-      "line": "\tNOTE: These issues can be fixed in more recent upstream versions, but the risk",
-      "type": "NOTE",
-      "description": "These issues can be fixed in more recent upstream versions, but the risk"
-    },
-    {
-      "line": "\tNOTE: of regression doesn't outweigh the issue at hand",
-      "type": "NOTE",
-      "description": "of regression doesn't outweigh the issue at hand"
-    }
-  ]
+	"header": {
+		"line": "CVE-2009-XXXX [predictable random number generator used in web browsers]",
+		"name": "TEMP-0532514-9137E0",
+		"description": "[predictable random number generator used in web browsers]"
+	},
+	"annotations": [
+		{
+			"line": "\t- webkit 1.2 (low; bug #532514)",
+			"type": "package",
+			"package": "webkit",
+			"kind": "fixed",
+			"version": "1.2",
+			"flags": [
+				{
+					"severity": "low"
+				},
+				{
+					"bug": 532514
+				}
+			]
+		},
+		{
+			"line": "\tNOTE: The implementations for UNIX seems fine, might be fixed earlier",
+			"type": "NOTE",
+			"description": "The implementations for UNIX seems fine, might be fixed earlier"
+		},
+		{
+			"line": "\t[lenny] - webkit <no-dsa> (Minor issue)",
+			"type": "package",
+			"release": "lenny",
+			"package": "webkit",
+			"kind": "no-dsa",
+			"description": "Minor issue"
+		},
+		{
+			"line": "\t- kdebase <unfixed> (unimportant; bug #532519)",
+			"type": "package",
+			"package": "kdebase",
+			"kind": "unfixed",
+			"flags": [
+				{
+					"severity": "unimportant"
+				},
+				{
+					"bug": 532519
+				}
+			]
+		},
+		{
+			"line": "\t- w3m <unfixed> (unimportant; bug #532521)",
+			"type": "package",
+			"package": "w3m",
+			"kind": "unfixed",
+			"flags": [
+				{
+					"severity": "unimportant"
+				},
+				{
+					"bug": 532521
+				}
+			]
+		},
+		{
+			"line": "\tNOTE: w3m doesn't have Javascript support and the boundary issue is harmles",
+			"type": "NOTE",
+			"description": "w3m doesn't have Javascript support and the boundary issue is harmles"
+		},
+		{
+			"line": "\t- chromium-browser 26.0.1410.43-1 (bug #520324)",
+			"type": "package",
+			"package": "chromium-browser",
+			"kind": "fixed",
+			"version": "26.0.1410.43-1",
+			"flags": [
+				{
+					"bug": 520324
+				}
+			]
+		},
+		{
+			"line": "\t[squeeze] - chromium-browser <end-of-life>",
+			"type": "package",
+			"release": "squeeze",
+			"package": "chromium-browser",
+			"kind": "end-of-life"
+		},
+		{
+			"line": "\tNOTE: chromium has provides window.crypto.getRandomValues as a strong random number generator",
+			"type": "NOTE",
+			"description": "chromium has provides window.crypto.getRandomValues as a strong random number generator"
+		},
+		{
+			"line": "\tNOTE: https://code.google.com/p/chromium/issues/detail?id=246054",
+			"type": "NOTE",
+			"description": "https://code.google.com/p/chromium/issues/detail?id=246054"
+		},
+		{
+			"line": "\t- lynx 2.8.7rel.1-1 (unimportant; bug #532520)",
+			"type": "package",
+			"package": "lynx",
+			"kind": "fixed",
+			"version": "2.8.7rel.1-1",
+			"flags": [
+				{
+					"severity": "unimportant"
+				},
+				{
+					"bug": 532520
+				}
+			]
+		},
+		{
+			"line": "\tNOTE: lynx doesn't have Javascript and form-data support",
+			"type": "NOTE",
+			"description": "lynx doesn't have Javascript and form-data support"
+		},
+		{
+			"line": "\t- dillo <not-affected> (bug #532522)",
+			"type": "package",
+			"package": "dillo",
+			"kind": "not-affected",
+			"description": "bug #532522"
+		},
+		{
+			"line": "\tNOTE: These issues can be fixed in more recent upstream versions, but the risk",
+			"type": "NOTE",
+			"description": "These issues can be fixed in more recent upstream versions, but the risk"
+		},
+		{
+			"line": "\tNOTE: of regression doesn't outweigh the issue at hand",
+			"type": "NOTE",
+			"description": "of regression doesn't outweigh the issue at hand"
+		}
+	]
 }

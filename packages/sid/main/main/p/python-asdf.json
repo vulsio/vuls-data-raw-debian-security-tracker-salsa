@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python3-asdf, python-asdf-doc, asdftool"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, graphviz <!nodoc>, pybuild-plugin-pyproject, python3-all, python3-asdf-standard <!nodoc>, python3-asdf-transform-schemas <!nodoc>, python3-astropy <!nocheck>, python3-fsspec <!nocheck>, python3-importlib-metadata, python3-jmespath, python3-jsonschema (>= 4.0.1~), python3-lz4 <!nocheck>, python3-pytest <!nocheck>, python3-pytest-astropy <!nocheck>, python3-pytest-openfiles <!nocheck>, python3-semantic-version, python3-setuptools (>= 61~), python3-setuptools-scm, python3-sphinx <!nodoc>, python3-sphinx-astropy <!nodoc>, python3-sphinx-inline-tabs <!nodoc>, python3-virtualenv <!nocheck>, python3-yaml"
-  ],
-  "Checksums-Sha256": [
-    "23390e6301a2e8dadcc796c0e1b50eed380f532c625b62a0db193f0717d1daa9 2823 python-asdf_3.0.1-1.dsc cabadc624efab760daaa49412bdf50ab2530a8dd622089800294805ec93a53cb 789472 python-asdf_3.0.1.orig.tar.gz 4a726d753c49b3d05fe7e7436f76edc5f9f1ac2067b1745fd48b5ed4cc7944ab 8268 python-asdf_3.0.1-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/python-asdf"
-  ],
-  "Files": [
-    "d4eb9a3b4a84965e8c451857a29e70ed 2823 python-asdf_3.0.1-1.dsc 244963973e642ba977f152e16bb8af15 789472 python-asdf_3.0.1.orig.tar.gz de14584ba69265a9d5de1d0f4fac1895 8268 python-asdf_3.0.1-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/asdf-format/asdf"
-  ],
-  "Maintainer": [
-    "Debian Astronomy Team <debian-astro-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "python-asdf"
-  ],
-  "Package-List": [
-    "asdftool deb science optional arch=all python-asdf-doc deb doc optional arch=all python3-asdf deb python optional arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "python3-astropy, python3-fsspec, python3-lz4, python3-pytest, python3-pytest-openfiles"
-  ],
-  "Uploaders": [
-    "Ole Streicher <olebole@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian-astro-team/python-asdf"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian-astro-team/python-asdf.git"
-  ],
-  "Version": [
-    "3.0.1-1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python3-asdf, python-asdf-doc, asdftool"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-python, graphviz <!nodoc>, pybuild-plugin-pyproject, python3-all, python3-asdf-standard <!nodoc>, python3-asdf-transform-schemas <!nodoc>, python3-astropy <!nocheck>, python3-fsspec <!nocheck>, python3-importlib-metadata, python3-jmespath, python3-jsonschema (>= 4.0.1~), python3-lz4 <!nocheck>, python3-pytest <!nocheck>, python3-pytest-astropy <!nocheck>, python3-pytest-openfiles <!nocheck>, python3-semantic-version, python3-setuptools (>= 61~), python3-setuptools-scm, python3-sphinx <!nodoc>, python3-sphinx-astropy <!nodoc>, python3-sphinx-inline-tabs <!nodoc>, python3-virtualenv <!nocheck>, python3-yaml"
+	],
+	"Checksums-Sha256": [
+		"23390e6301a2e8dadcc796c0e1b50eed380f532c625b62a0db193f0717d1daa9 2823 python-asdf_3.0.1-1.dsc cabadc624efab760daaa49412bdf50ab2530a8dd622089800294805ec93a53cb 789472 python-asdf_3.0.1.orig.tar.gz 4a726d753c49b3d05fe7e7436f76edc5f9f1ac2067b1745fd48b5ed4cc7944ab 8268 python-asdf_3.0.1-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-asdf"
+	],
+	"Files": [
+		"d4eb9a3b4a84965e8c451857a29e70ed 2823 python-asdf_3.0.1-1.dsc 244963973e642ba977f152e16bb8af15 789472 python-asdf_3.0.1.orig.tar.gz de14584ba69265a9d5de1d0f4fac1895 8268 python-asdf_3.0.1-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/asdf-format/asdf"
+	],
+	"Maintainer": [
+		"Debian Astronomy Team <debian-astro-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"python-asdf"
+	],
+	"Package-List": [
+		"asdftool deb science optional arch=all python-asdf-doc deb doc optional arch=all python3-asdf deb python optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"python3-astropy, python3-fsspec, python3-lz4, python3-pytest, python3-pytest-openfiles"
+	],
+	"Uploaders": [
+		"Ole Streicher <olebole@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian-astro-team/python-asdf"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian-astro-team/python-asdf.git"
+	],
+	"Version": [
+		"3.0.1-1"
+	]
 }

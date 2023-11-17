@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libapache2-mod-webauth, libapache2-mod-webauthldap, libapache2-mod-webkdc, libapache2-webauth, libapache2-webkdc, libwebauth-perl, libwebauth10, libwebauth-dev, libwebkdc-perl, webauth-tests, webauth-utils, webauth-weblogin"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), apache2-threaded-dev (>= 2.2), dh-autoreconf, libapr1-dev, libaprutil1-dev, libcgi-application-perl, libcgi-application-plugin-autorunmode-perl, libcgi-application-plugin-forward-perl, libcgi-application-plugin-tt-perl, libcgi-fast-perl, libcurl4-openssl-dev, libipc-run-perl, libkrb5-dev, libldap2-dev, libremctl-dev (>= 3.1), libssl-dev, libtemplate-perl, libtest-minimumversion-perl, libtest-pod-perl, libtest-strict-perl, libtime-duration-perl, libtimedate-perl, liburi-perl, libwww-perl, libxml-parser-perl, perl"
-  ],
-  "Checksums-Sha1": [
-    "b3c9ea2e2862c7e6158cb400fefe8b421c07f2a0 2629 webauth_4.6.0-2~bpo70+1.dsc 2534b6c1229f5c9d208e24a64b0c90d677b5d722 892884 webauth_4.6.0.orig.tar.xz c152925ae71c794c4ffb9ff87edb67caf4a50455 34504 webauth_4.6.0-2~bpo70+1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "2aefb0621806dd58241c3c3ad1f6e0b5ae3890ed0b54ef8ad6799a94064f2ca3 2629 webauth_4.6.0-2~bpo70+1.dsc b6b0a1eacd9888cab3e140115c79eb5d60b27ede3a992947a70a16fb9cd63146 892884 webauth_4.6.0.orig.tar.xz 7591e01e2da2be4fca05b59029cf8835bea3e9bbfbdbded510c60f89491211e5 34504 webauth_4.6.0-2~bpo70+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/w/webauth"
-  ],
-  "Files": [
-    "a5c29812193fa89660a3eaeaf01ae605 2629 webauth_4.6.0-2~bpo70+1.dsc c45ff5ed80aa3a8aadecf35031bef8c5 892884 webauth_4.6.0.orig.tar.xz 1b75b38976914a6ac5bdc06d23cab570 34504 webauth_4.6.0-2~bpo70+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://webauth.stanford.edu/"
-  ],
-  "Maintainer": [
-    "Russ Allbery <rra@debian.org>"
-  ],
-  "Package": [
-    "webauth"
-  ],
-  "Package-List": [
-    "libapache2-mod-webauth deb httpd optional libapache2-mod-webauthldap deb httpd optional libapache2-mod-webkdc deb httpd optional libapache2-webauth deb oldlibs extra libapache2-webkdc deb oldlibs extra libwebauth-dev deb libdevel extra libwebauth-perl deb perl optional libwebauth10 deb libs optional libwebkdc-perl deb perl optional webauth-tests deb web optional webauth-utils deb web optional webauth-weblogin deb web optional"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Vcs-Browser": [
-    "http://git.eyrie.org/?p=kerberos/webauth.git"
-  ],
-  "Vcs-Git": [
-    "git://git.eyrie.org/kerberos/webauth.git -b debian"
-  ],
-  "Version": [
-    "4.6.0-2~bpo70+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libapache2-mod-webauth, libapache2-mod-webauthldap, libapache2-mod-webkdc, libapache2-webauth, libapache2-webkdc, libwebauth-perl, libwebauth10, libwebauth-dev, libwebkdc-perl, webauth-tests, webauth-utils, webauth-weblogin"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), apache2-threaded-dev (>= 2.2), dh-autoreconf, libapr1-dev, libaprutil1-dev, libcgi-application-perl, libcgi-application-plugin-autorunmode-perl, libcgi-application-plugin-forward-perl, libcgi-application-plugin-tt-perl, libcgi-fast-perl, libcurl4-openssl-dev, libipc-run-perl, libkrb5-dev, libldap2-dev, libremctl-dev (>= 3.1), libssl-dev, libtemplate-perl, libtest-minimumversion-perl, libtest-pod-perl, libtest-strict-perl, libtime-duration-perl, libtimedate-perl, liburi-perl, libwww-perl, libxml-parser-perl, perl"
+	],
+	"Checksums-Sha1": [
+		"b3c9ea2e2862c7e6158cb400fefe8b421c07f2a0 2629 webauth_4.6.0-2~bpo70+1.dsc 2534b6c1229f5c9d208e24a64b0c90d677b5d722 892884 webauth_4.6.0.orig.tar.xz c152925ae71c794c4ffb9ff87edb67caf4a50455 34504 webauth_4.6.0-2~bpo70+1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"2aefb0621806dd58241c3c3ad1f6e0b5ae3890ed0b54ef8ad6799a94064f2ca3 2629 webauth_4.6.0-2~bpo70+1.dsc b6b0a1eacd9888cab3e140115c79eb5d60b27ede3a992947a70a16fb9cd63146 892884 webauth_4.6.0.orig.tar.xz 7591e01e2da2be4fca05b59029cf8835bea3e9bbfbdbded510c60f89491211e5 34504 webauth_4.6.0-2~bpo70+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/w/webauth"
+	],
+	"Files": [
+		"a5c29812193fa89660a3eaeaf01ae605 2629 webauth_4.6.0-2~bpo70+1.dsc c45ff5ed80aa3a8aadecf35031bef8c5 892884 webauth_4.6.0.orig.tar.xz 1b75b38976914a6ac5bdc06d23cab570 34504 webauth_4.6.0-2~bpo70+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://webauth.stanford.edu/"
+	],
+	"Maintainer": [
+		"Russ Allbery <rra@debian.org>"
+	],
+	"Package": [
+		"webauth"
+	],
+	"Package-List": [
+		"libapache2-mod-webauth deb httpd optional libapache2-mod-webauthldap deb httpd optional libapache2-mod-webkdc deb httpd optional libapache2-webauth deb oldlibs extra libapache2-webkdc deb oldlibs extra libwebauth-dev deb libdevel extra libwebauth-perl deb perl optional libwebauth10 deb libs optional libwebkdc-perl deb perl optional webauth-tests deb web optional webauth-utils deb web optional webauth-weblogin deb web optional"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Vcs-Browser": [
+		"http://git.eyrie.org/?p=kerberos/webauth.git"
+	],
+	"Vcs-Git": [
+		"git://git.eyrie.org/kerberos/webauth.git -b debian"
+	],
+	"Version": [
+		"4.6.0-2~bpo70+1"
+	]
 }

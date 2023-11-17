@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-eventlet, python3-eventlet, python-eventlet-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 10), dh-python, netbase, openstack-pkg-tools (>= 52~), python-all, python-setuptools, python-sphinx, python3-all, python3-setuptools"
-  ],
-  "Build-Depends-Indep": [
-    "python-dnspython (>= 1.14.0), python-greenlet, python-httplib2, python-nose, python-openssl (>= 16.0.0), python-subprocess32, python-zmq (>= 13.1.0), python3-dnspython (>= 1.14.0), python3-greenlet, python3-httplib2, python3-nose, python3-openssl (>= 16.0.0), python3-zmq (>= 13.1.0)"
-  ],
-  "Checksums-Sha256": [
-    "cee34f7fe548492ceddbb6437ffce3c9eee4998e91b25810f2a913a568fdc53e 2682 python-eventlet_0.19.0-6.dsc fe4ef97cc2a49f433a3d06908a51d4048c1383f705f06f86f6d53e8a4f770d35 241124 python-eventlet_0.19.0.orig.tar.xz 21fc102f7cbf0f983e9b34143bae2f4ebd591db2dcfbd97d561baed19ad8bff0 11788 python-eventlet_0.19.0-6.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/python-eventlet"
-  ],
-  "Files": [
-    "b6586a50735f1b5d43b9b1551bfaa4f6 2682 python-eventlet_0.19.0-6.dsc 05f5c59bb383362d5c76d010626f9618 241124 python-eventlet_0.19.0.orig.tar.xz 98f8f2b676e7b97d6e5f080e4396f067 11788 python-eventlet_0.19.0-6.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://eventlet.net"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "python-eventlet"
-  ],
-  "Package-List": [
-    "python-eventlet deb python optional arch=all python-eventlet-doc deb doc optional arch=all python3-eventlet deb python optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "python"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Laszlo Boszormenyi (GCS) <gcs@debian.org>, Thomas Goirand <zigo@debian.org>, Ondřej Nový <onovy@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://git.openstack.org/cgit/openstack/deb-python-eventlet"
-  ],
-  "Vcs-Git": [
-    "https://git.openstack.org/openstack/deb-python-eventlet -b debian/newton"
-  ],
-  "Version": [
-    "0.19.0-6"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-eventlet, python3-eventlet, python-eventlet-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 10), dh-python, netbase, openstack-pkg-tools (>= 52~), python-all, python-setuptools, python-sphinx, python3-all, python3-setuptools"
+	],
+	"Build-Depends-Indep": [
+		"python-dnspython (>= 1.14.0), python-greenlet, python-httplib2, python-nose, python-openssl (>= 16.0.0), python-subprocess32, python-zmq (>= 13.1.0), python3-dnspython (>= 1.14.0), python3-greenlet, python3-httplib2, python3-nose, python3-openssl (>= 16.0.0), python3-zmq (>= 13.1.0)"
+	],
+	"Checksums-Sha256": [
+		"cee34f7fe548492ceddbb6437ffce3c9eee4998e91b25810f2a913a568fdc53e 2682 python-eventlet_0.19.0-6.dsc fe4ef97cc2a49f433a3d06908a51d4048c1383f705f06f86f6d53e8a4f770d35 241124 python-eventlet_0.19.0.orig.tar.xz 21fc102f7cbf0f983e9b34143bae2f4ebd591db2dcfbd97d561baed19ad8bff0 11788 python-eventlet_0.19.0-6.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-eventlet"
+	],
+	"Files": [
+		"b6586a50735f1b5d43b9b1551bfaa4f6 2682 python-eventlet_0.19.0-6.dsc 05f5c59bb383362d5c76d010626f9618 241124 python-eventlet_0.19.0.orig.tar.xz 98f8f2b676e7b97d6e5f080e4396f067 11788 python-eventlet_0.19.0-6.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://eventlet.net"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"python-eventlet"
+	],
+	"Package-List": [
+		"python-eventlet deb python optional arch=all python-eventlet-doc deb doc optional arch=all python3-eventlet deb python optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"python"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Laszlo Boszormenyi (GCS) <gcs@debian.org>, Thomas Goirand <zigo@debian.org>, Ondřej Nový <onovy@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://git.openstack.org/cgit/openstack/deb-python-eventlet"
+	],
+	"Vcs-Git": [
+		"https://git.openstack.org/openstack/deb-python-eventlet -b debian/newton"
+	],
+	"Version": [
+		"0.19.0-6"
+	]
 }

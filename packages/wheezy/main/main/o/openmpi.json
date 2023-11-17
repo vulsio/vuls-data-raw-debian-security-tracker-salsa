@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "alpha amd64 armel armhf i386 ia64 powerpc powerpcspe ppc64 sparc sparc64 kfreebsd-i386 kfreebsd-amd64 hurd-i386 all"
-  ],
-  "Binary": [
-    "openmpi-bin, libopenmpi-dev, libopenmpi1.3, openmpi-common, openmpi-doc, libopenmpi-dbg, openmpi-checkpoint"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 5.0.0), libibverbs-dev (>= 1.1.1) [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], gfortran, gcc (>= 4:4.1.2), chrpath, quilt, libcr-dev [amd64 armel i386 powerpc], libnuma-dev [amd64 i386 ia64 mips mipsel powerpc], autoconf (>= 2.59), automake1.10, libtool, libltdl-dev, libtorque2-dev"
-  ],
-  "Checksums-Sha1": [
-    "441a41338176d8508f944a2c944ba8a8ff2d7000 1990 openmpi_1.4.5-1.dsc ffc613be834a892744ac463c8812d5f5b7e32745 10110428 openmpi_1.4.5.orig.tar.gz 4bab6d3ddae4089ff42ce3da00ede3e7a706417a 28248 openmpi_1.4.5-1.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "c7fd6720b4f565e49acb7783034b7ebf2d01e7dbdb47a214164932c6bc510aa6 1990 openmpi_1.4.5-1.dsc a1306bb4d44d0cf3a89680c4c6723bb665126c9d5523022f187b944b9d4ea6a5 10110428 openmpi_1.4.5.orig.tar.gz b5361c05f009e8aa4acac45bb75e6f0d065f8eb5fb7f3308fa8819a0451ac66a 28248 openmpi_1.4.5-1.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/o/openmpi"
-  ],
-  "Files": [
-    "b6dfc723b614e23e68753eb471086c34 1990 openmpi_1.4.5-1.dsc 28b2a7f9c2fcee0217facf47bf35d5ea 10110428 openmpi_1.4.5.orig.tar.gz 284707089511b47d1f4603e133d03690 28248 openmpi_1.4.5-1.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.open-mpi.org/"
-  ],
-  "Maintainer": [
-    "Debian Open MPI Maintainers <pkg-openmpi-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "openmpi"
-  ],
-  "Package-List": [
-    "libopenmpi-dbg deb debug extra libopenmpi-dev deb libdevel extra libopenmpi1.3 deb libs extra openmpi-bin deb net extra openmpi-checkpoint deb net extra openmpi-common deb net extra openmpi-doc deb doc extra"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Manuel Prinz <manuel@debian.org>, Sylvestre Ledru <sylvestre@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://svn.debian.org/wsvn/pkg-openmpi/openmpi/trunk/"
-  ],
-  "Vcs-Svn": [
-    "svn://svn.debian.org/svn/pkg-openmpi/openmpi/trunk/"
-  ],
-  "Version": [
-    "1.4.5-1"
-  ]
+	"Architecture": [
+		"alpha amd64 armel armhf i386 ia64 powerpc powerpcspe ppc64 sparc sparc64 kfreebsd-i386 kfreebsd-amd64 hurd-i386 all"
+	],
+	"Binary": [
+		"openmpi-bin, libopenmpi-dev, libopenmpi1.3, openmpi-common, openmpi-doc, libopenmpi-dbg, openmpi-checkpoint"
+	],
+	"Build-Depends": [
+		"debhelper (>= 5.0.0), libibverbs-dev (>= 1.1.1) [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], gfortran, gcc (>= 4:4.1.2), chrpath, quilt, libcr-dev [amd64 armel i386 powerpc], libnuma-dev [amd64 i386 ia64 mips mipsel powerpc], autoconf (>= 2.59), automake1.10, libtool, libltdl-dev, libtorque2-dev"
+	],
+	"Checksums-Sha1": [
+		"441a41338176d8508f944a2c944ba8a8ff2d7000 1990 openmpi_1.4.5-1.dsc ffc613be834a892744ac463c8812d5f5b7e32745 10110428 openmpi_1.4.5.orig.tar.gz 4bab6d3ddae4089ff42ce3da00ede3e7a706417a 28248 openmpi_1.4.5-1.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"c7fd6720b4f565e49acb7783034b7ebf2d01e7dbdb47a214164932c6bc510aa6 1990 openmpi_1.4.5-1.dsc a1306bb4d44d0cf3a89680c4c6723bb665126c9d5523022f187b944b9d4ea6a5 10110428 openmpi_1.4.5.orig.tar.gz b5361c05f009e8aa4acac45bb75e6f0d065f8eb5fb7f3308fa8819a0451ac66a 28248 openmpi_1.4.5-1.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/o/openmpi"
+	],
+	"Files": [
+		"b6dfc723b614e23e68753eb471086c34 1990 openmpi_1.4.5-1.dsc 28b2a7f9c2fcee0217facf47bf35d5ea 10110428 openmpi_1.4.5.orig.tar.gz 284707089511b47d1f4603e133d03690 28248 openmpi_1.4.5-1.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.open-mpi.org/"
+	],
+	"Maintainer": [
+		"Debian Open MPI Maintainers <pkg-openmpi-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"openmpi"
+	],
+	"Package-List": [
+		"libopenmpi-dbg deb debug extra libopenmpi-dev deb libdevel extra libopenmpi1.3 deb libs extra openmpi-bin deb net extra openmpi-checkpoint deb net extra openmpi-common deb net extra openmpi-doc deb doc extra"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Manuel Prinz <manuel@debian.org>, Sylvestre Ledru <sylvestre@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://svn.debian.org/wsvn/pkg-openmpi/openmpi/trunk/"
+	],
+	"Vcs-Svn": [
+		"svn://svn.debian.org/svn/pkg-openmpi/openmpi/trunk/"
+	],
+	"Version": [
+		"1.4.5-1"
+	]
 }

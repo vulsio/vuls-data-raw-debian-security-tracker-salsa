@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "linux-any"
-  ],
-  "Binary": [
-    "gdm3, libgdm1, libgdm-dev, gir1.2-gdm-1.0"
-  ],
-  "Build-Depends": [
-    "check (>= 0.9.4), dconf-cli (>= 0.19.90), debhelper-compat (= 13), dh-exec, dh-sequence-gir, dh-sequence-gnome, docbook-xml, gettext (>= 0.19.8), gjs [amd64 armel arm64 armhf i386 mips64el mipsel ppc64el s390x riscv64], gnome-pkg-tools (>= 0.16.3), gnome-settings-daemon-dev (>= 3.24.0), gobject-introspection (>= 0.10.7-1~), intltool, iso-codes, itstool, libaccountsservice-dev (>= 0.6.35), libaudit-dev [linux-any], libcanberra-gtk3-dev (>= 0.4), libgirepository1.0-dev (>= 0.9.12), libglib2.0-dev (>= 2.44.0), libgtk-3-dev (>= 2.91.1), libgudev-1.0-dev (>= 232), libkeyutils-dev [linux-any], libpam0g-dev, libplymouth-dev [linux-any], libselinux1-dev [linux-any], libsystemd-dev [linux-any], libwrap0-dev, libx11-dev, libxau-dev, libxcb1-dev, libxdmcp-dev, meson (>= 0.57), pkgconf, systemd, systemd-dev, udev [linux-any]"
-  ],
-  "Checksums-Sha256": [
-    "1179df9033bd2c25a5292b508610b0e9121a8a5860edacdb22a8e9659a2ad5c2 3260 gdm3_45.0.1-1.dsc 6572578c05e3c6569d6ed269f7de2aaf3a035657654586d8243907bb7a6ffa85 855004 gdm3_45.0.1.orig.tar.xz 13a4dfcd4167ad3af167591050a6468927b4dab6d61bd5f59b8aec86c29a16dd 83396 gdm3_45.0.1-1.debian.tar.xz"
-  ],
-  "Dgit": [
-    "79803d91b5be4e7d5e33aac0319485193a188c3e debian archive/debian/45.0.1-1 https://git.dgit.debian.org/gdm3"
-  ],
-  "Directory": [
-    "pool/main/g/gdm3"
-  ],
-  "Files": [
-    "67736b08efbb51fadebfd41a3235c9dc 3260 gdm3_45.0.1-1.dsc 4912429c0231a95fedd086d1ac8f54ea 855004 gdm3_45.0.1.orig.tar.xz 6994299133a0a9f39014951ca5359eab 83396 gdm3_45.0.1-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://wiki.gnome.org/Projects/GDM/"
-  ],
-  "Maintainer": [
-    "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "gdm3"
-  ],
-  "Package-List": [
-    "gdm3 deb gnome optional arch=amd64,arm64,armel,armhf,i386,mips64el,mipsel,ppc64el,s390x,riscv64 gir1.2-gdm-1.0 deb introspection optional arch=linux-any libgdm-dev deb libdevel optional arch=linux-any libgdm1 deb libs optional arch=linux-any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "gnome"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "bash, gnutls-bin, libpam-sss, openssl, pamtester, passwd, softhsm2, sssd, util-linux"
-  ],
-  "Uploaders": [
-    "Jeremy Bícha <jbicha@ubuntu.com>, Laurent Bigonville <bigon@debian.org>, Marco Trevisan (Treviño) <marco@ubuntu.com>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/gnome-team/gdm"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/gnome-team/gdm.git"
-  ],
-  "Version": [
-    "45.0.1-1"
-  ]
+	"Architecture": [
+		"linux-any"
+	],
+	"Binary": [
+		"gdm3, libgdm1, libgdm-dev, gir1.2-gdm-1.0"
+	],
+	"Build-Depends": [
+		"check (>= 0.9.4), dconf-cli (>= 0.19.90), debhelper-compat (= 13), dh-exec, dh-sequence-gir, dh-sequence-gnome, docbook-xml, gettext (>= 0.19.8), gjs [amd64 armel arm64 armhf i386 mips64el mipsel ppc64el s390x riscv64], gnome-pkg-tools (>= 0.16.3), gnome-settings-daemon-dev (>= 3.24.0), gobject-introspection (>= 0.10.7-1~), intltool, iso-codes, itstool, libaccountsservice-dev (>= 0.6.35), libaudit-dev [linux-any], libcanberra-gtk3-dev (>= 0.4), libgirepository1.0-dev (>= 0.9.12), libglib2.0-dev (>= 2.44.0), libgtk-3-dev (>= 2.91.1), libgudev-1.0-dev (>= 232), libkeyutils-dev [linux-any], libpam0g-dev, libplymouth-dev [linux-any], libselinux1-dev [linux-any], libsystemd-dev [linux-any], libwrap0-dev, libx11-dev, libxau-dev, libxcb1-dev, libxdmcp-dev, meson (>= 0.57), pkgconf, systemd, systemd-dev, udev [linux-any]"
+	],
+	"Checksums-Sha256": [
+		"1179df9033bd2c25a5292b508610b0e9121a8a5860edacdb22a8e9659a2ad5c2 3260 gdm3_45.0.1-1.dsc 6572578c05e3c6569d6ed269f7de2aaf3a035657654586d8243907bb7a6ffa85 855004 gdm3_45.0.1.orig.tar.xz 13a4dfcd4167ad3af167591050a6468927b4dab6d61bd5f59b8aec86c29a16dd 83396 gdm3_45.0.1-1.debian.tar.xz"
+	],
+	"Dgit": [
+		"79803d91b5be4e7d5e33aac0319485193a188c3e debian archive/debian/45.0.1-1 https://git.dgit.debian.org/gdm3"
+	],
+	"Directory": [
+		"pool/main/g/gdm3"
+	],
+	"Files": [
+		"67736b08efbb51fadebfd41a3235c9dc 3260 gdm3_45.0.1-1.dsc 4912429c0231a95fedd086d1ac8f54ea 855004 gdm3_45.0.1.orig.tar.xz 6994299133a0a9f39014951ca5359eab 83396 gdm3_45.0.1-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://wiki.gnome.org/Projects/GDM/"
+	],
+	"Maintainer": [
+		"Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"gdm3"
+	],
+	"Package-List": [
+		"gdm3 deb gnome optional arch=amd64,arm64,armel,armhf,i386,mips64el,mipsel,ppc64el,s390x,riscv64 gir1.2-gdm-1.0 deb introspection optional arch=linux-any libgdm-dev deb libdevel optional arch=linux-any libgdm1 deb libs optional arch=linux-any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"gnome"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"bash, gnutls-bin, libpam-sss, openssl, pamtester, passwd, softhsm2, sssd, util-linux"
+	],
+	"Uploaders": [
+		"Jeremy Bícha <jbicha@ubuntu.com>, Laurent Bigonville <bigon@debian.org>, Marco Trevisan (Treviño) <marco@ubuntu.com>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/gnome-team/gdm"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/gnome-team/gdm.git"
+	],
+	"Version": [
+		"45.0.1-1"
+	]
 }

@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "glance-store-common, python-glance-store, python3-glance-store, python-glance-store-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-python, openstack-pkg-tools (>= 52~), python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.8), python3-setuptools"
-  ],
-  "Build-Depends-Indep": [
-    "python-boto (>= 2.32.1), python-cinderclient (>= 1:1.3.1), python-coverage, python-debtcollector, python-enum34, python-eventlet (>= 0.18.2), python-fixtures (>= 3.0.0), python-gridfs, python-hacking (>= 0.10.0), python-jsonschema (>= 2.0.0), python-keystoneclient (>= 1:2.0.0), python-mock (>= 2.0), python-os-brick (>= 1.0.0), python-os-testr (>= 0.7.0), python-oslo.concurrency (>= 3.8.0), python-oslo.config (>= 1:3.14.0), python-oslo.i18n (>= 2.1.0), python-oslo.serialization (>= 1.10.0), python-oslo.utils (>= 3.16.0), python-oslo.vmware (>= 0.14.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.10.0), python-pymongo, python-requests (>= 2.10.0), python-requests-mock (>= 1.0), python-six (>= 1.9.0), python-stevedore (>= 1.16.0), python-swiftclient, python-testscenarios, python-testtools (>= 1.4.0), python3-boto (>= 2.32.1), python3-cinderclient (>= 1:1.3.1), python3-debtcollector, python3 (>= 3.5) | python3-enum34, python3-eventlet (>= 0.18.2), python3-fixtures (>= 3.0.0), python3-gridfs, python3-jsonschema (>= 2.0.0), python3-keystoneclient (>= 1:2.0.0), python3-mock (>= 2.0), python3-os-brick (>= 1.0.0), python3-os-testr (>= 0.7.0), python3-oslo.concurrency (>= 3.8.0), python3-oslo.config (>= 1:3.14.0), python3-oslo.i18n (>= 2.1.0), python3-oslo.serialization (>= 1.10.0), python3-oslo.utils (>= 3.16.0), python3-oslo.vmware (>= 0.14.0), python3-oslotest (>= 1:1.10.0), python3-pymongo, python3-requests (>= 2.10.0), python3-requests-mock (>= 1.0), python3-six (>= 1.9.0), python3-stevedore (>= 1.16.0), python3-subunit, python3-swiftclient, python3-testscenarios, python3-testtools (>= 1.4.0), subunit, testrepository"
-  ],
-  "Checksums-Sha256": [
-    "41b2fbb7f81ef7edb9036b5d798da33d001a06a0cb759e718ca5f386a01e56ff 4156 python-glance-store_0.18.0-2.dsc 7220c3a55800ae28542dfa16efbfc06bdf68092974a04519456aa32509587e5e 94904 python-glance-store_0.18.0.orig.tar.xz 3a7e20801ffea0ed227e9057e611cfc4e9ab9b64594684aa2f9c18b7603fbcc0 6280 python-glance-store_0.18.0-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/python-glance-store"
-  ],
-  "Files": [
-    "fc140a92198fddd555cf01a650f0b7be 4156 python-glance-store_0.18.0-2.dsc e67da30bb3c26070c016e30fe09cc044 94904 python-glance-store_0.18.0.orig.tar.xz 0ed50a0c9bc16a2b95131b8307a0fe6d 6280 python-glance-store_0.18.0-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/openstack/glance_store"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "python-glance-store"
-  ],
-  "Package-List": [
-    "glance-store-common deb python optional arch=all python-glance-store deb python optional arch=all python-glance-store-doc deb doc optional arch=all python3-glance-store deb python optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>, Corey Bryant <corey.bryant@canonical.com>,"
-  ],
-  "Vcs-Browser": [
-    "https://git.openstack.org/cgit/openstack/deb-python-glance-store?h=debian%2Fnewton"
-  ],
-  "Vcs-Git": [
-    "https://git.openstack.org/openstack/deb-python-glance-store -b debian/newton"
-  ],
-  "Version": [
-    "0.18.0-2"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"glance-store-common, python-glance-store, python3-glance-store, python-glance-store-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-python, openstack-pkg-tools (>= 52~), python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.8), python3-setuptools"
+	],
+	"Build-Depends-Indep": [
+		"python-boto (>= 2.32.1), python-cinderclient (>= 1:1.3.1), python-coverage, python-debtcollector, python-enum34, python-eventlet (>= 0.18.2), python-fixtures (>= 3.0.0), python-gridfs, python-hacking (>= 0.10.0), python-jsonschema (>= 2.0.0), python-keystoneclient (>= 1:2.0.0), python-mock (>= 2.0), python-os-brick (>= 1.0.0), python-os-testr (>= 0.7.0), python-oslo.concurrency (>= 3.8.0), python-oslo.config (>= 1:3.14.0), python-oslo.i18n (>= 2.1.0), python-oslo.serialization (>= 1.10.0), python-oslo.utils (>= 3.16.0), python-oslo.vmware (>= 0.14.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.10.0), python-pymongo, python-requests (>= 2.10.0), python-requests-mock (>= 1.0), python-six (>= 1.9.0), python-stevedore (>= 1.16.0), python-swiftclient, python-testscenarios, python-testtools (>= 1.4.0), python3-boto (>= 2.32.1), python3-cinderclient (>= 1:1.3.1), python3-debtcollector, python3 (>= 3.5) | python3-enum34, python3-eventlet (>= 0.18.2), python3-fixtures (>= 3.0.0), python3-gridfs, python3-jsonschema (>= 2.0.0), python3-keystoneclient (>= 1:2.0.0), python3-mock (>= 2.0), python3-os-brick (>= 1.0.0), python3-os-testr (>= 0.7.0), python3-oslo.concurrency (>= 3.8.0), python3-oslo.config (>= 1:3.14.0), python3-oslo.i18n (>= 2.1.0), python3-oslo.serialization (>= 1.10.0), python3-oslo.utils (>= 3.16.0), python3-oslo.vmware (>= 0.14.0), python3-oslotest (>= 1:1.10.0), python3-pymongo, python3-requests (>= 2.10.0), python3-requests-mock (>= 1.0), python3-six (>= 1.9.0), python3-stevedore (>= 1.16.0), python3-subunit, python3-swiftclient, python3-testscenarios, python3-testtools (>= 1.4.0), subunit, testrepository"
+	],
+	"Checksums-Sha256": [
+		"41b2fbb7f81ef7edb9036b5d798da33d001a06a0cb759e718ca5f386a01e56ff 4156 python-glance-store_0.18.0-2.dsc 7220c3a55800ae28542dfa16efbfc06bdf68092974a04519456aa32509587e5e 94904 python-glance-store_0.18.0.orig.tar.xz 3a7e20801ffea0ed227e9057e611cfc4e9ab9b64594684aa2f9c18b7603fbcc0 6280 python-glance-store_0.18.0-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-glance-store"
+	],
+	"Files": [
+		"fc140a92198fddd555cf01a650f0b7be 4156 python-glance-store_0.18.0-2.dsc e67da30bb3c26070c016e30fe09cc044 94904 python-glance-store_0.18.0.orig.tar.xz 0ed50a0c9bc16a2b95131b8307a0fe6d 6280 python-glance-store_0.18.0-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/openstack/glance_store"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"python-glance-store"
+	],
+	"Package-List": [
+		"glance-store-common deb python optional arch=all python-glance-store deb python optional arch=all python-glance-store-doc deb doc optional arch=all python3-glance-store deb python optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>, Corey Bryant <corey.bryant@canonical.com>,"
+	],
+	"Vcs-Browser": [
+		"https://git.openstack.org/cgit/openstack/deb-python-glance-store?h=debian%2Fnewton"
+	],
+	"Vcs-Git": [
+		"https://git.openstack.org/openstack/deb-python-glance-store -b debian/newton"
+	],
+	"Version": [
+		"0.18.0-2"
+	]
 }

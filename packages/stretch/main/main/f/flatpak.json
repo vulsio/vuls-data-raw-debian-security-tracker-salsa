@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "linux-any all"
-  ],
-  "Binary": [
-    "flatpak, flatpak-builder, flatpak-tests, gir1.2-flatpak-1.0, libflatpak-dev, libflatpak-doc, libflatpak0"
-  ],
-  "Build-Depends": [
-    "attr, automake (>= 1.14.1), bubblewrap (>= 0.1.5), ca-certificates, dbus, debhelper (>= 10~), desktop-file-utils, dh-exec, docbook-xml, docbook-xsl, fuse, git, gnome-desktop-testing, gobject-introspection, gtk-doc-tools, gtk-update-icon-cache, hicolor-icon-theme, libarchive-dev (>= 2.8.0), libattr1-dev, libcap-dev, libdw-dev, libelf-dev, libfuse-dev, libgirepository1.0-dev, libglib2.0-dev (>= 2.44), libjson-glib-dev, libostree-dev (>= 2016.15), libpolkit-gobject-1-dev, libseccomp-dev, libsoup2.4-dev, libxau-dev, libxml2-utils, ostree, procps, shared-mime-info, xmlto, xsltproc"
-  ],
-  "Checksums-Sha256": [
-    "d6c26bb4a80806a87a7ee7b989f38c33bfdb721a04b20dab22d16ec51f06bce6 3021 flatpak_0.8.9-0+deb9u3.dsc 9df2823e12461c96c87d1e3cadf49963b5fefb6be8ad04dafb84c58b8bcbbf50 750480 flatpak_0.8.9.orig.tar.xz b63eef3db93fd97fa9ab91cbae11b3805b8b614f52b94f4dc25f9d6becd89470 18992 flatpak_0.8.9-0+deb9u3.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/f/flatpak"
-  ],
-  "Files": [
-    "0403edcbc763ae0fbb3d2a417e154ca6 3021 flatpak_0.8.9-0+deb9u3.dsc 9e4dd45c0b7082063bab9fc688a5b26e 750480 flatpak_0.8.9.orig.tar.xz e10033597546a3d38d985a077258e78d 18992 flatpak_0.8.9-0+deb9u3.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://flatpak.org/"
-  ],
-  "Maintainer": [
-    "Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "flatpak"
-  ],
-  "Package-List": [
-    "flatpak deb admin optional arch=linux-any flatpak-builder deb devel optional arch=linux-any flatpak-tests deb misc optional arch=linux-any gir1.2-flatpak-1.0 deb introspection optional arch=linux-any libflatpak-dev deb libdevel optional arch=linux-any libflatpak-doc deb doc optional arch=all libflatpak0 deb libs optional arch=linux-any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential, git, gnome-desktop-testing, make, python"
-  ],
-  "Uploaders": [
-    "Matthias Klumpp <mak@debian.org>, Simon McVittie <smcv@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian/flatpak"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian/flatpak.git"
-  ],
-  "Version": [
-    "0.8.9-0+deb9u3"
-  ]
+	"Architecture": [
+		"linux-any all"
+	],
+	"Binary": [
+		"flatpak, flatpak-builder, flatpak-tests, gir1.2-flatpak-1.0, libflatpak-dev, libflatpak-doc, libflatpak0"
+	],
+	"Build-Depends": [
+		"attr, automake (>= 1.14.1), bubblewrap (>= 0.1.5), ca-certificates, dbus, debhelper (>= 10~), desktop-file-utils, dh-exec, docbook-xml, docbook-xsl, fuse, git, gnome-desktop-testing, gobject-introspection, gtk-doc-tools, gtk-update-icon-cache, hicolor-icon-theme, libarchive-dev (>= 2.8.0), libattr1-dev, libcap-dev, libdw-dev, libelf-dev, libfuse-dev, libgirepository1.0-dev, libglib2.0-dev (>= 2.44), libjson-glib-dev, libostree-dev (>= 2016.15), libpolkit-gobject-1-dev, libseccomp-dev, libsoup2.4-dev, libxau-dev, libxml2-utils, ostree, procps, shared-mime-info, xmlto, xsltproc"
+	],
+	"Checksums-Sha256": [
+		"d6c26bb4a80806a87a7ee7b989f38c33bfdb721a04b20dab22d16ec51f06bce6 3021 flatpak_0.8.9-0+deb9u3.dsc 9df2823e12461c96c87d1e3cadf49963b5fefb6be8ad04dafb84c58b8bcbbf50 750480 flatpak_0.8.9.orig.tar.xz b63eef3db93fd97fa9ab91cbae11b3805b8b614f52b94f4dc25f9d6becd89470 18992 flatpak_0.8.9-0+deb9u3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/f/flatpak"
+	],
+	"Files": [
+		"0403edcbc763ae0fbb3d2a417e154ca6 3021 flatpak_0.8.9-0+deb9u3.dsc 9e4dd45c0b7082063bab9fc688a5b26e 750480 flatpak_0.8.9.orig.tar.xz e10033597546a3d38d985a077258e78d 18992 flatpak_0.8.9-0+deb9u3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://flatpak.org/"
+	],
+	"Maintainer": [
+		"Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"flatpak"
+	],
+	"Package-List": [
+		"flatpak deb admin optional arch=linux-any flatpak-builder deb devel optional arch=linux-any flatpak-tests deb misc optional arch=linux-any gir1.2-flatpak-1.0 deb introspection optional arch=linux-any libflatpak-dev deb libdevel optional arch=linux-any libflatpak-doc deb doc optional arch=all libflatpak0 deb libs optional arch=linux-any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, git, gnome-desktop-testing, make, python"
+	],
+	"Uploaders": [
+		"Matthias Klumpp <mak@debian.org>, Simon McVittie <smcv@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/flatpak"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/flatpak.git"
+	],
+	"Version": [
+		"0.8.9-0+deb9u3"
+	]
 }

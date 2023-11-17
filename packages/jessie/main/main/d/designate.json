@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-designate, designate-common, designate, designate-api, designate-central, designate-agent, designate-sink, designate-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-systemd, openstack-pkg-tools (>= 22~), python-all (>= 2.6.6-3~), python-pbr (>= 0.6), python-setuptools, python-sphinx"
-  ],
-  "Build-Depends-Indep": [
-    "python-anyjson (>= 0.3.3), python-babel (>= 1.3), python-cliff, python-cmd2, python-coverage (>= 3.6), python-dnspython, python-eventlet (>= 0.13.0), python-extras, python-fixtures (>= 0.3.14), python-flask (>= 0.10), python-hacking (>= 0.8.0), python-iso8601 (>= 0.1.8), python-jsonschema (>= 2.0.0), python-keystoneclient (>= 1:0.6.0), python-kombu (>= 2.4.8), python-lockfile, python-migrate (>= 0.8.2), python-mock (>= 1.0), python-mox, python-netaddr (>= 0.7.6), python-neutronclient (>= 2.3.4), python-oslo.config (>= 1:1.2.0), python-oslo.rootwrap, python-paste, python-pastedeploy (>= 1.5.0), python-pecan (>= 0.4.5), python-prettytable (>= 0.6), python-routes, python-six (>= 1.5.2), python-sphinxcontrib-httpdomain, python-sqlalchemy (>= 0.7.8), python-stevedore (>= 0.14), python-subunit (>= 0.0.18), python-testscenarios (>= 0.4), python-testtools (>= 0.9.34), python-webob (>= 1.2.3), python-webtest (>= 2.0), sqlite3, subunit (>= 0.0.18), testrepository (>= 0.0.18)"
-  ],
-  "Checksums-Sha1": [
-    "563ff73a626c07089b92e618180700c7d519a8f4 3543 designate_2014.1-18+deb8u1.dsc 2498229f6d871492243fbe274344c4ad9c69c5ad 360308 designate_2014.1.orig.tar.xz b388d85368dfad295ec0cf08ac037ea91541084b 15936 designate_2014.1-18+deb8u1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "d7f869c835b62f97348499b4487961eca99b4ba716776ab94ed0cf789ab854a8 3543 designate_2014.1-18+deb8u1.dsc 264731405586430fef0d5294e567a8129f6f0b2ad82af6d80fed17a44890fd95 360308 designate_2014.1.orig.tar.xz 379677fc22ca54524cfd7c33efbe2fe3c76a36776c1f167c3d83b969c8749e7c 15936 designate_2014.1-18+deb8u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/d/designate"
-  ],
-  "Files": [
-    "0f9d9556cbe7525da2db26a13ea0d5ff 3543 designate_2014.1-18+deb8u1.dsc fb5a2b2d740a0acbcc0ca24f89ab4416 360308 designate_2014.1.orig.tar.xz 8cf811f3b987da9daa55d7277f97adb4 15936 designate_2014.1-18+deb8u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/openstack/designate"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "designate"
-  ],
-  "Package-List": [
-    "designate deb net extra arch=all designate-agent deb net extra arch=all designate-api deb net extra arch=all designate-central deb net extra arch=all designate-common deb net extra arch=all designate-doc deb doc extra arch=all designate-sink deb net extra arch=all python-designate deb python extra arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Julien Danjou <acid@debian.org>, Thomas Goirand <zigo@debian.org>, Mehdi Abaakouk <sileht@sileht.net>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=openstack/designate.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/openstack/designate.git"
-  ],
-  "Version": [
-    "2014.1-18+deb8u1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-designate, designate-common, designate, designate-api, designate-central, designate-agent, designate-sink, designate-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-systemd, openstack-pkg-tools (>= 22~), python-all (>= 2.6.6-3~), python-pbr (>= 0.6), python-setuptools, python-sphinx"
+	],
+	"Build-Depends-Indep": [
+		"python-anyjson (>= 0.3.3), python-babel (>= 1.3), python-cliff, python-cmd2, python-coverage (>= 3.6), python-dnspython, python-eventlet (>= 0.13.0), python-extras, python-fixtures (>= 0.3.14), python-flask (>= 0.10), python-hacking (>= 0.8.0), python-iso8601 (>= 0.1.8), python-jsonschema (>= 2.0.0), python-keystoneclient (>= 1:0.6.0), python-kombu (>= 2.4.8), python-lockfile, python-migrate (>= 0.8.2), python-mock (>= 1.0), python-mox, python-netaddr (>= 0.7.6), python-neutronclient (>= 2.3.4), python-oslo.config (>= 1:1.2.0), python-oslo.rootwrap, python-paste, python-pastedeploy (>= 1.5.0), python-pecan (>= 0.4.5), python-prettytable (>= 0.6), python-routes, python-six (>= 1.5.2), python-sphinxcontrib-httpdomain, python-sqlalchemy (>= 0.7.8), python-stevedore (>= 0.14), python-subunit (>= 0.0.18), python-testscenarios (>= 0.4), python-testtools (>= 0.9.34), python-webob (>= 1.2.3), python-webtest (>= 2.0), sqlite3, subunit (>= 0.0.18), testrepository (>= 0.0.18)"
+	],
+	"Checksums-Sha1": [
+		"563ff73a626c07089b92e618180700c7d519a8f4 3543 designate_2014.1-18+deb8u1.dsc 2498229f6d871492243fbe274344c4ad9c69c5ad 360308 designate_2014.1.orig.tar.xz b388d85368dfad295ec0cf08ac037ea91541084b 15936 designate_2014.1-18+deb8u1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"d7f869c835b62f97348499b4487961eca99b4ba716776ab94ed0cf789ab854a8 3543 designate_2014.1-18+deb8u1.dsc 264731405586430fef0d5294e567a8129f6f0b2ad82af6d80fed17a44890fd95 360308 designate_2014.1.orig.tar.xz 379677fc22ca54524cfd7c33efbe2fe3c76a36776c1f167c3d83b969c8749e7c 15936 designate_2014.1-18+deb8u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/d/designate"
+	],
+	"Files": [
+		"0f9d9556cbe7525da2db26a13ea0d5ff 3543 designate_2014.1-18+deb8u1.dsc fb5a2b2d740a0acbcc0ca24f89ab4416 360308 designate_2014.1.orig.tar.xz 8cf811f3b987da9daa55d7277f97adb4 15936 designate_2014.1-18+deb8u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/openstack/designate"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"designate"
+	],
+	"Package-List": [
+		"designate deb net extra arch=all designate-agent deb net extra arch=all designate-api deb net extra arch=all designate-central deb net extra arch=all designate-common deb net extra arch=all designate-doc deb doc extra arch=all designate-sink deb net extra arch=all python-designate deb python extra arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Julien Danjou <acid@debian.org>, Thomas Goirand <zigo@debian.org>, Mehdi Abaakouk <sileht@sileht.net>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=openstack/designate.git;a=summary"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/openstack/designate.git"
+	],
+	"Version": [
+		"2014.1-18+deb8u1"
+	]
 }

@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libopendbx1, libopendbx1-dev, libopendbx1-firebird, libopendbx1-mssql, libopendbx1-mysql, libopendbx1-odbc, libopendbx1-pgsql, libopendbx1-sqlite, libopendbx1-sqlite3, libopendbx1-sybase, opendbx-utils, opendbx-doc"
-  ],
-  "Build-Conflicts": [
-    "autoconf2.13, automake1.4"
-  ],
-  "Build-Depends": [
-    "dh-autoreconf, autoconf, automake, autotools-dev, debhelper (>= 9), libtool, libmysqlclient-dev, libpq-dev, libsqlite0-dev, libsqlite3-dev, firebird2.5-dev | firebird2.1-dev | firebird2.0-dev | firebird2-dev | firebird1.5-dev, freetds-dev, unixodbc-dev | libiodbc2-dev, libreadline-dev, libncurses-dev | libncurses5-dev, docbook2x, doxygen, pkg-kde-tools"
-  ],
-  "Checksums-Sha1": [
-    "3b11d4f32e6349b6af9c0962a7453dc73147b90e 3111 libopendbx_1.4.6-8.dsc df6b1cb75165d4510e2ccf64e5515ada4ae3a67c 587514 libopendbx_1.4.6.orig.tar.gz f937e5cc7527950a18b88a09617dd0f8f6439698 77564 libopendbx_1.4.6-8.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "2e9ae7be6e05a3b3d49fa4ad2445e18274a4a0b0345652c0808e20e92c144804 3111 libopendbx_1.4.6-8.dsc 2246a03812c7d90f10194ad01c2213a7646e383000a800277c6fb8d2bf81497c 587514 libopendbx_1.4.6.orig.tar.gz d10fe5397ab6089f74952b6e16c11f9ecb75aa3a3f86b7d325db8ed455a6e28c 77564 libopendbx_1.4.6-8.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/libo/libopendbx"
-  ],
-  "Files": [
-    "4ff5099d489b03ec7e9a5afffb2f53dd 3111 libopendbx_1.4.6-8.dsc 3e89d7812ce4a28046bd60d5f969263d 587514 libopendbx_1.4.6.orig.tar.gz 0edc650542a12b082537e39c86256952 77564 libopendbx_1.4.6-8.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.linuxnetworks.de/doc/index.php/OpenDBX"
-  ],
-  "Maintainer": [
-    "Debian OpenDBX Maintainers <pkg-libopendbx-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "libopendbx"
-  ],
-  "Package-List": [
-    "libopendbx1 deb libs optional arch=any libopendbx1-dev deb libdevel optional arch=any libopendbx1-firebird deb libs optional arch=any libopendbx1-mssql deb libs optional arch=any libopendbx1-mysql deb libs optional arch=any libopendbx1-odbc deb libs optional arch=any libopendbx1-pgsql deb libs optional arch=any libopendbx1-sqlite deb libs optional arch=any libopendbx1-sqlite3 deb libs optional arch=any libopendbx1-sybase deb libs optional arch=any opendbx-doc deb doc optional arch=all opendbx-utils deb libs optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Uploaders": [
-    "Marc Haber <mh+debian-packages@zugschlus.de>, Scott Kitterman <scott@kitterman.com>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=collab-maint/libopendbx.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/collab-maint/libopendbx.git"
-  ],
-  "Version": [
-    "1.4.6-8"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libopendbx1, libopendbx1-dev, libopendbx1-firebird, libopendbx1-mssql, libopendbx1-mysql, libopendbx1-odbc, libopendbx1-pgsql, libopendbx1-sqlite, libopendbx1-sqlite3, libopendbx1-sybase, opendbx-utils, opendbx-doc"
+	],
+	"Build-Conflicts": [
+		"autoconf2.13, automake1.4"
+	],
+	"Build-Depends": [
+		"dh-autoreconf, autoconf, automake, autotools-dev, debhelper (>= 9), libtool, libmysqlclient-dev, libpq-dev, libsqlite0-dev, libsqlite3-dev, firebird2.5-dev | firebird2.1-dev | firebird2.0-dev | firebird2-dev | firebird1.5-dev, freetds-dev, unixodbc-dev | libiodbc2-dev, libreadline-dev, libncurses-dev | libncurses5-dev, docbook2x, doxygen, pkg-kde-tools"
+	],
+	"Checksums-Sha1": [
+		"3b11d4f32e6349b6af9c0962a7453dc73147b90e 3111 libopendbx_1.4.6-8.dsc df6b1cb75165d4510e2ccf64e5515ada4ae3a67c 587514 libopendbx_1.4.6.orig.tar.gz f937e5cc7527950a18b88a09617dd0f8f6439698 77564 libopendbx_1.4.6-8.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"2e9ae7be6e05a3b3d49fa4ad2445e18274a4a0b0345652c0808e20e92c144804 3111 libopendbx_1.4.6-8.dsc 2246a03812c7d90f10194ad01c2213a7646e383000a800277c6fb8d2bf81497c 587514 libopendbx_1.4.6.orig.tar.gz d10fe5397ab6089f74952b6e16c11f9ecb75aa3a3f86b7d325db8ed455a6e28c 77564 libopendbx_1.4.6-8.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/libo/libopendbx"
+	],
+	"Files": [
+		"4ff5099d489b03ec7e9a5afffb2f53dd 3111 libopendbx_1.4.6-8.dsc 3e89d7812ce4a28046bd60d5f969263d 587514 libopendbx_1.4.6.orig.tar.gz 0edc650542a12b082537e39c86256952 77564 libopendbx_1.4.6-8.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.linuxnetworks.de/doc/index.php/OpenDBX"
+	],
+	"Maintainer": [
+		"Debian OpenDBX Maintainers <pkg-libopendbx-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"libopendbx"
+	],
+	"Package-List": [
+		"libopendbx1 deb libs optional arch=any libopendbx1-dev deb libdevel optional arch=any libopendbx1-firebird deb libs optional arch=any libopendbx1-mssql deb libs optional arch=any libopendbx1-mysql deb libs optional arch=any libopendbx1-odbc deb libs optional arch=any libopendbx1-pgsql deb libs optional arch=any libopendbx1-sqlite deb libs optional arch=any libopendbx1-sqlite3 deb libs optional arch=any libopendbx1-sybase deb libs optional arch=any opendbx-doc deb doc optional arch=all opendbx-utils deb libs optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Uploaders": [
+		"Marc Haber <mh+debian-packages@zugschlus.de>, Scott Kitterman <scott@kitterman.com>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=collab-maint/libopendbx.git;a=summary"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/collab-maint/libopendbx.git"
+	],
+	"Version": [
+		"1.4.6-8"
+	]
 }

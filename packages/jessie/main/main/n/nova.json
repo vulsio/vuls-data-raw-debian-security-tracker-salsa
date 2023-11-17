@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-nova, nova-common, nova-compute, nova-compute-lxc, nova-compute-uml, nova-compute-qemu, nova-compute-kvm, nova-conductor, nova-cert, nova-scheduler, nova-volume, nova-api, nova-network, nova-console, nova-consoleauth, nova-doc, nova-cells, nova-baremetal, nova-consoleproxy"
-  ],
-  "Build-Conflicts": [
-    "python-cjson"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-systemd, openstack-pkg-tools (>= 22~), po-debconf, python-all (>= 2.6.6-3~), python-pbr (>= 0.6), python-setuptools, python-sphinx (>> 1.0)"
-  ],
-  "Build-Depends-Indep": [
-    "bpython, euca2ools, ipython, libvirt-daemon-system, openssh-client, procps, pylint, python-amqplib, python-anyjson (>= 0.3.3), python-babel (>= 1.3), python-boto (>= 2.12.0), python-cinderclient (>= 1:1.0.6), python-coverage (>= 3.6), python-eventlet (>= 0.13.0), python-feedparser, python-fixtures (>= 0.3.14), python-glanceclient (>= 1:0.10.0), python-greenlet (>= 0.3.2), python-hacking (>= 0.8.0), python-iso8601 (>= 0.1.9), python-jinja2, python-jsonschema (>= 2.0.0), python-keystoneclient (>= 1:0.7.0), python-kombu (>= 2.5.12), python-lockfile, python-lxml, python-memcache, python-migrate (>= 0.8.2), python-mock (>= 1.0), python-mox, python-mysqldb, python-netaddr (>= 0.7.6), python-neutronclient (>= 2.3.4), python-novaclient (>= 1:2.9.0), python-oslo.config (>= 1:1.2.1), python-oslo.messaging (>= 1.3.0~a9), python-oslo.rootwrap, python-oslosphinx, python-paramiko (>= 1.9.0), python-paste, python-pastedeploy, python-psycopg2, python-pyasn1, python-pycadf (>= 0.4.1), python-qpid, python-requests (>= 1.1), python-routes, python-setuptools-git, python-simplejson, python-six (>= 1.6.0), python-sqlalchemy (>= 0.7.8), python-stevedore (>= 0.14), python-subunit (>= 0.0.18), python-suds (>= 0.4.0), python-testrepository (>= 0.0.14), python-testtools (>= 0.9.34), python-webob (>= 1.2.3), python-xattr, python-zmq, subunit (>= 0.0.18), sqlite3, testrepository (>= 0.0.18), websockify (>= 0.5.1)"
-  ],
-  "Checksums-Sha1": [
-    "1baa7e7c17cd8d84114e9bf8ece302ea958cf569 4621 nova_2014.1.3-11.dsc 0f851042b769b30e3ad8afc425146628823c3d06 2861020 nova_2014.1.3.orig.tar.xz 4233e7274130f025b06cdafbe8997ca0573f8309 219684 nova_2014.1.3-11.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "ba104dd13501b8be40dc099c79dae43dfe0b3a25dd0fb0cd6a29b8ec64b0c742 4621 nova_2014.1.3-11.dsc 2f1d063d270cc55fe12733540c30c1067b939a6a2873a57c4d66c0552cd7741e 2861020 nova_2014.1.3.orig.tar.xz c11fd02f7c1452a16d4c11641feaeddf4830fa30af7b13657d75f5f31d4f8048 219684 nova_2014.1.3-11.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/n/nova"
-  ],
-  "Files": [
-    "7729df499646d2addee80ee8da87f276 4621 nova_2014.1.3-11.dsc 9193694256b6e1a5dfeffa6616c0f2e3 2861020 nova_2014.1.3.orig.tar.xz 06fec62d40443d5a757a5a199f4845d9 219684 nova_2014.1.3-11.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.openstack.org/software/openstack-compute/"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "nova"
-  ],
-  "Package-List": [
-    "nova-api deb net extra arch=all nova-baremetal deb net extra arch=all nova-cells deb net extra arch=all nova-cert deb net extra arch=all nova-common deb net extra arch=all nova-compute deb net extra arch=all nova-compute-kvm deb net extra arch=all nova-compute-lxc deb net extra arch=all nova-compute-qemu deb net extra arch=all nova-compute-uml deb net extra arch=all nova-conductor deb net extra arch=all nova-console deb net extra arch=all nova-consoleauth deb net extra arch=all nova-consoleproxy deb net extra arch=all nova-doc deb doc extra arch=all nova-network deb net extra arch=all nova-scheduler deb net extra arch=all nova-volume deb oldlibs extra arch=all python-nova deb python extra arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Julien Danjou <acid@debian.org>, Thomas Goirand <zigo@debian.org>, Mehdi Abaakouk <sileht@sileht.net>, Gonéri Le bouder <goneri@debian.org>, gustavo panizzo <gfa@zumbi.com.ar>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=openstack/nova.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/openstack/nova.git"
-  ],
-  "Version": [
-    "2014.1.3-11"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-nova, nova-common, nova-compute, nova-compute-lxc, nova-compute-uml, nova-compute-qemu, nova-compute-kvm, nova-conductor, nova-cert, nova-scheduler, nova-volume, nova-api, nova-network, nova-console, nova-consoleauth, nova-doc, nova-cells, nova-baremetal, nova-consoleproxy"
+	],
+	"Build-Conflicts": [
+		"python-cjson"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-systemd, openstack-pkg-tools (>= 22~), po-debconf, python-all (>= 2.6.6-3~), python-pbr (>= 0.6), python-setuptools, python-sphinx (>> 1.0)"
+	],
+	"Build-Depends-Indep": [
+		"bpython, euca2ools, ipython, libvirt-daemon-system, openssh-client, procps, pylint, python-amqplib, python-anyjson (>= 0.3.3), python-babel (>= 1.3), python-boto (>= 2.12.0), python-cinderclient (>= 1:1.0.6), python-coverage (>= 3.6), python-eventlet (>= 0.13.0), python-feedparser, python-fixtures (>= 0.3.14), python-glanceclient (>= 1:0.10.0), python-greenlet (>= 0.3.2), python-hacking (>= 0.8.0), python-iso8601 (>= 0.1.9), python-jinja2, python-jsonschema (>= 2.0.0), python-keystoneclient (>= 1:0.7.0), python-kombu (>= 2.5.12), python-lockfile, python-lxml, python-memcache, python-migrate (>= 0.8.2), python-mock (>= 1.0), python-mox, python-mysqldb, python-netaddr (>= 0.7.6), python-neutronclient (>= 2.3.4), python-novaclient (>= 1:2.9.0), python-oslo.config (>= 1:1.2.1), python-oslo.messaging (>= 1.3.0~a9), python-oslo.rootwrap, python-oslosphinx, python-paramiko (>= 1.9.0), python-paste, python-pastedeploy, python-psycopg2, python-pyasn1, python-pycadf (>= 0.4.1), python-qpid, python-requests (>= 1.1), python-routes, python-setuptools-git, python-simplejson, python-six (>= 1.6.0), python-sqlalchemy (>= 0.7.8), python-stevedore (>= 0.14), python-subunit (>= 0.0.18), python-suds (>= 0.4.0), python-testrepository (>= 0.0.14), python-testtools (>= 0.9.34), python-webob (>= 1.2.3), python-xattr, python-zmq, subunit (>= 0.0.18), sqlite3, testrepository (>= 0.0.18), websockify (>= 0.5.1)"
+	],
+	"Checksums-Sha1": [
+		"1baa7e7c17cd8d84114e9bf8ece302ea958cf569 4621 nova_2014.1.3-11.dsc 0f851042b769b30e3ad8afc425146628823c3d06 2861020 nova_2014.1.3.orig.tar.xz 4233e7274130f025b06cdafbe8997ca0573f8309 219684 nova_2014.1.3-11.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"ba104dd13501b8be40dc099c79dae43dfe0b3a25dd0fb0cd6a29b8ec64b0c742 4621 nova_2014.1.3-11.dsc 2f1d063d270cc55fe12733540c30c1067b939a6a2873a57c4d66c0552cd7741e 2861020 nova_2014.1.3.orig.tar.xz c11fd02f7c1452a16d4c11641feaeddf4830fa30af7b13657d75f5f31d4f8048 219684 nova_2014.1.3-11.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/n/nova"
+	],
+	"Files": [
+		"7729df499646d2addee80ee8da87f276 4621 nova_2014.1.3-11.dsc 9193694256b6e1a5dfeffa6616c0f2e3 2861020 nova_2014.1.3.orig.tar.xz 06fec62d40443d5a757a5a199f4845d9 219684 nova_2014.1.3-11.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.openstack.org/software/openstack-compute/"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"nova"
+	],
+	"Package-List": [
+		"nova-api deb net extra arch=all nova-baremetal deb net extra arch=all nova-cells deb net extra arch=all nova-cert deb net extra arch=all nova-common deb net extra arch=all nova-compute deb net extra arch=all nova-compute-kvm deb net extra arch=all nova-compute-lxc deb net extra arch=all nova-compute-qemu deb net extra arch=all nova-compute-uml deb net extra arch=all nova-conductor deb net extra arch=all nova-console deb net extra arch=all nova-consoleauth deb net extra arch=all nova-consoleproxy deb net extra arch=all nova-doc deb doc extra arch=all nova-network deb net extra arch=all nova-scheduler deb net extra arch=all nova-volume deb oldlibs extra arch=all python-nova deb python extra arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Julien Danjou <acid@debian.org>, Thomas Goirand <zigo@debian.org>, Mehdi Abaakouk <sileht@sileht.net>, Gonéri Le bouder <goneri@debian.org>, gustavo panizzo <gfa@zumbi.com.ar>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=openstack/nova.git;a=summary"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/openstack/nova.git"
+	],
+	"Version": [
+		"2014.1.3-11"
+	]
 }

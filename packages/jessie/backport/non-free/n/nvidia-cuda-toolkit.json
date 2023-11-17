@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "amd64 ppc64el all"
-  ],
-  "Autobuild": [
-    "yes"
-  ],
-  "Binary": [
-    "nvidia-cuda-toolkit, nvidia-cuda-doc, nvidia-cuda-gdb, nvidia-profiler, nvidia-visual-profiler, nvidia-nsight, nvidia-cuda-dev, nvidia-opencl-dev, libcudart7.5, libcublas7.5, libnvblas7.5, libcufft7.5, libcufftw7.5, libcusparse7.5, libcurand7.5, libnppc7.5, libnppi7.5, libnpps7.5, libcuinj64-7.5, libnvtoolsext1, libnvvm3, libcupti7.5, libcupti-dev, libcupti-doc, libcusolver7.5, libnvrtc7.5"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), quilt, libncurses5, chrpath [ppc64el], libexpat1 [ppc64el]"
-  ],
-  "Checksums-Sha1": [
-    "1884157e4934b8196567fb146a2bd3fd35d33cff 4412 nvidia-cuda-toolkit_7.5.18-4~bpo8+1.dsc f093a6481e49fc57fd67166fca870c398da354f9 912533668 nvidia-cuda-toolkit_7.5.18.orig-ppc64el.tar.xz 472932576f7525cf75344b38251d081d8c8242b9 966244712 nvidia-cuda-toolkit_7.5.18.orig.tar.xz 40081d22bc793d2541812635c9e5330ebb0e53f7 63720 nvidia-cuda-toolkit_7.5.18-4~bpo8+1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "041d33b2f5221983cde077c9bc6bc6b21b938c4b34ef9d4d9021a45ae9628545 4412 nvidia-cuda-toolkit_7.5.18-4~bpo8+1.dsc 5c6e7d48bf2a51790c4d9a8c4221afbc4b7bce1c28b355876bec210f67bda8f2 912533668 nvidia-cuda-toolkit_7.5.18.orig-ppc64el.tar.xz 16090fb053d9e508e8c88de1e2da485841749922e98aca29566d1bbad6c9855d 966244712 nvidia-cuda-toolkit_7.5.18.orig.tar.xz 67cd2d9bf6fba5ef20c70368dca5b0d21d388c60bdfb660c441fc1ac1332ba65 63720 nvidia-cuda-toolkit_7.5.18-4~bpo8+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/non-free/n/nvidia-cuda-toolkit"
-  ],
-  "Files": [
-    "70e87515069f60bc07520ee583615d6a 4412 nvidia-cuda-toolkit_7.5.18-4~bpo8+1.dsc 3d45a2dcf353ba15952321ac7420e1ce 912533668 nvidia-cuda-toolkit_7.5.18.orig-ppc64el.tar.xz 7fb82c46d2dfb41fa0f683f58529868c 966244712 nvidia-cuda-toolkit_7.5.18.orig.tar.xz 09c5b27a1747f1478c2f163e6f1c747b 63720 nvidia-cuda-toolkit_7.5.18-4~bpo8+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.nvidia.com/CUDA"
-  ],
-  "Maintainer": [
-    "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "nvidia-cuda-toolkit"
-  ],
-  "Package-List": [
-    "libcublas7.5 deb non-free/libs extra arch=amd64,ppc64el libcudart7.5 deb non-free/libs extra arch=amd64,ppc64el libcufft7.5 deb non-free/libs extra arch=amd64,ppc64el libcufftw7.5 deb non-free/libs extra arch=amd64,ppc64el libcuinj64-7.5 deb non-free/libs extra arch=amd64,ppc64el libcupti-dev deb non-free/libdevel extra arch=amd64,ppc64el libcupti-doc deb non-free/doc extra arch=all libcupti7.5 deb non-free/libs extra arch=amd64,ppc64el libcurand7.5 deb non-free/libs extra arch=amd64,ppc64el libcusolver7.5 deb non-free/libs extra arch=amd64,ppc64el libcusparse7.5 deb non-free/libs extra arch=amd64,ppc64el libnppc7.5 deb non-free/libs extra arch=amd64,ppc64el libnppi7.5 deb non-free/libs extra arch=amd64,ppc64el libnpps7.5 deb non-free/libs extra arch=amd64,ppc64el libnvblas7.5 deb non-free/libs extra arch=amd64,ppc64el libnvrtc7.5 deb non-free/libs extra arch=amd64,ppc64el libnvtoolsext1 deb non-free/libs extra arch=amd64,ppc64el libnvvm3 deb non-free/libs extra arch=amd64,ppc64el nvidia-cuda-dev deb non-free/libdevel extra arch=amd64,ppc64el nvidia-cuda-doc deb non-free/doc extra arch=all nvidia-cuda-gdb deb non-free/devel extra arch=amd64,ppc64el nvidia-cuda-toolkit deb non-free/devel extra arch=amd64,ppc64el nvidia-nsight deb non-free/devel extra arch=amd64,ppc64el nvidia-opencl-dev deb non-free/libdevel extra arch=amd64,ppc64el nvidia-profiler deb non-free/devel extra arch=amd64,ppc64el nvidia-visual-profiler deb non-free/devel extra arch=amd64,ppc64el"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "non-free/misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Andreas Beckmann <anbe@debian.org>, Russ Allbery <rra@debian.org>, Graham Inggs <ginggs@debian.org>, Zhou Mo <cdluminate@gmail.com>,"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/viewvc/pkg-nvidia/packages/nvidia-cuda-toolkit/"
-  ],
-  "Vcs-Svn": [
-    "svn://anonscm.debian.org/pkg-nvidia/packages/nvidia-cuda-toolkit/trunk"
-  ],
-  "Version": [
-    "7.5.18-4~bpo8+1"
-  ]
+	"Architecture": [
+		"amd64 ppc64el all"
+	],
+	"Autobuild": [
+		"yes"
+	],
+	"Binary": [
+		"nvidia-cuda-toolkit, nvidia-cuda-doc, nvidia-cuda-gdb, nvidia-profiler, nvidia-visual-profiler, nvidia-nsight, nvidia-cuda-dev, nvidia-opencl-dev, libcudart7.5, libcublas7.5, libnvblas7.5, libcufft7.5, libcufftw7.5, libcusparse7.5, libcurand7.5, libnppc7.5, libnppi7.5, libnpps7.5, libcuinj64-7.5, libnvtoolsext1, libnvvm3, libcupti7.5, libcupti-dev, libcupti-doc, libcusolver7.5, libnvrtc7.5"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), quilt, libncurses5, chrpath [ppc64el], libexpat1 [ppc64el]"
+	],
+	"Checksums-Sha1": [
+		"1884157e4934b8196567fb146a2bd3fd35d33cff 4412 nvidia-cuda-toolkit_7.5.18-4~bpo8+1.dsc f093a6481e49fc57fd67166fca870c398da354f9 912533668 nvidia-cuda-toolkit_7.5.18.orig-ppc64el.tar.xz 472932576f7525cf75344b38251d081d8c8242b9 966244712 nvidia-cuda-toolkit_7.5.18.orig.tar.xz 40081d22bc793d2541812635c9e5330ebb0e53f7 63720 nvidia-cuda-toolkit_7.5.18-4~bpo8+1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"041d33b2f5221983cde077c9bc6bc6b21b938c4b34ef9d4d9021a45ae9628545 4412 nvidia-cuda-toolkit_7.5.18-4~bpo8+1.dsc 5c6e7d48bf2a51790c4d9a8c4221afbc4b7bce1c28b355876bec210f67bda8f2 912533668 nvidia-cuda-toolkit_7.5.18.orig-ppc64el.tar.xz 16090fb053d9e508e8c88de1e2da485841749922e98aca29566d1bbad6c9855d 966244712 nvidia-cuda-toolkit_7.5.18.orig.tar.xz 67cd2d9bf6fba5ef20c70368dca5b0d21d388c60bdfb660c441fc1ac1332ba65 63720 nvidia-cuda-toolkit_7.5.18-4~bpo8+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/non-free/n/nvidia-cuda-toolkit"
+	],
+	"Files": [
+		"70e87515069f60bc07520ee583615d6a 4412 nvidia-cuda-toolkit_7.5.18-4~bpo8+1.dsc 3d45a2dcf353ba15952321ac7420e1ce 912533668 nvidia-cuda-toolkit_7.5.18.orig-ppc64el.tar.xz 7fb82c46d2dfb41fa0f683f58529868c 966244712 nvidia-cuda-toolkit_7.5.18.orig.tar.xz 09c5b27a1747f1478c2f163e6f1c747b 63720 nvidia-cuda-toolkit_7.5.18-4~bpo8+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.nvidia.com/CUDA"
+	],
+	"Maintainer": [
+		"Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"nvidia-cuda-toolkit"
+	],
+	"Package-List": [
+		"libcublas7.5 deb non-free/libs extra arch=amd64,ppc64el libcudart7.5 deb non-free/libs extra arch=amd64,ppc64el libcufft7.5 deb non-free/libs extra arch=amd64,ppc64el libcufftw7.5 deb non-free/libs extra arch=amd64,ppc64el libcuinj64-7.5 deb non-free/libs extra arch=amd64,ppc64el libcupti-dev deb non-free/libdevel extra arch=amd64,ppc64el libcupti-doc deb non-free/doc extra arch=all libcupti7.5 deb non-free/libs extra arch=amd64,ppc64el libcurand7.5 deb non-free/libs extra arch=amd64,ppc64el libcusolver7.5 deb non-free/libs extra arch=amd64,ppc64el libcusparse7.5 deb non-free/libs extra arch=amd64,ppc64el libnppc7.5 deb non-free/libs extra arch=amd64,ppc64el libnppi7.5 deb non-free/libs extra arch=amd64,ppc64el libnpps7.5 deb non-free/libs extra arch=amd64,ppc64el libnvblas7.5 deb non-free/libs extra arch=amd64,ppc64el libnvrtc7.5 deb non-free/libs extra arch=amd64,ppc64el libnvtoolsext1 deb non-free/libs extra arch=amd64,ppc64el libnvvm3 deb non-free/libs extra arch=amd64,ppc64el nvidia-cuda-dev deb non-free/libdevel extra arch=amd64,ppc64el nvidia-cuda-doc deb non-free/doc extra arch=all nvidia-cuda-gdb deb non-free/devel extra arch=amd64,ppc64el nvidia-cuda-toolkit deb non-free/devel extra arch=amd64,ppc64el nvidia-nsight deb non-free/devel extra arch=amd64,ppc64el nvidia-opencl-dev deb non-free/libdevel extra arch=amd64,ppc64el nvidia-profiler deb non-free/devel extra arch=amd64,ppc64el nvidia-visual-profiler deb non-free/devel extra arch=amd64,ppc64el"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"non-free/misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Andreas Beckmann <anbe@debian.org>, Russ Allbery <rra@debian.org>, Graham Inggs <ginggs@debian.org>, Zhou Mo <cdluminate@gmail.com>,"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/viewvc/pkg-nvidia/packages/nvidia-cuda-toolkit/"
+	],
+	"Vcs-Svn": [
+		"svn://anonscm.debian.org/pkg-nvidia/packages/nvidia-cuda-toolkit/trunk"
+	],
+	"Version": [
+		"7.5.18-4~bpo8+1"
+	]
 }

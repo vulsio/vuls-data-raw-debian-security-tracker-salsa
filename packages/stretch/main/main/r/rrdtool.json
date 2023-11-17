@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "rrdtool, rrdcached, rrdtool-dbg, librrd8, librrd-dev, librrds-perl, librrdp-perl, rrdtool-tcl, python-rrdtool, ruby-rrd, lua-rrd, lua-rrd-dev, liblua5.1-rrd0, liblua5.1-rrd-dev"
-  ],
-  "Build-Depends": [
-    "dc, debhelper (>= 9), dh-autoreconf, dh-exec (>= 0.3), dh-lua, dh-python, gem2deb, libdbi-dev, libpango1.0-dev, libpng-dev, libxml2-dev, perl (>= 5.8.0), python-all-dbg (>= 2.6.6-3~), python-all-dev (>= 2.6.6-3~), tcl-dev (<= 9), tcl-dev (>= 8)"
-  ],
-  "Checksums-Sha256": [
-    "1302c737f8eae1ad951a14400b6e2ee668a87cbf4b3bce0734173dcf26cdf95b 2986 rrdtool_1.6.0-1.dsc 99117a9f90ff39279ab76b41353652292d49db9a5884a69f593b8925b03bd127 1101128 rrdtool_1.6.0.orig.tar.gz 4a1bb2e88b0345ba1b5a789e4126b59fbc1447acb6293f91d1573ada2df5af97 27704 rrdtool_1.6.0-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rrdtool"
-  ],
-  "Files": [
-    "ec891e9b503ca2943530f93e55056d46 2986 rrdtool_1.6.0-1.dsc e88676cf41eaab97d1a55fd4e555d4cc 1101128 rrdtool_1.6.0.orig.tar.gz 60a003e23278ca71eb05598104c3ed2c 27704 rrdtool_1.6.0-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://oss.oetiker.ch/rrdtool/"
-  ],
-  "Maintainer": [
-    "Debian RRDtool Team <pkg-rrdtool-maint@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "rrdtool"
-  ],
-  "Package-List": [
-    "liblua5.1-rrd-dev deb oldlibs extra arch=all liblua5.1-rrd0 deb oldlibs extra arch=all librrd-dev deb libdevel optional arch=any librrd8 deb libs optional arch=any librrdp-perl deb perl optional arch=all librrds-perl deb perl optional arch=any lua-rrd deb interpreters optional arch=any lua-rrd-dev deb libdevel optional arch=any python-rrdtool deb python optional arch=any rrdcached deb utils optional arch=kfreebsd-any,linux-any rrdtool deb utils optional arch=any rrdtool-dbg deb debug extra arch=any rrdtool-tcl deb utils optional arch=any ruby-rrd deb ruby optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Ruby-Versions": [
-    "all"
-  ],
-  "Section": [
-    "utils"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Sebastian Harl <tokkee@debian.org>, Alexander Wirt <formorer@debian.org>, Bernd Zeimetz <bzed@debian.org>, Jean-Michel Vourgère <nirgal@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-rrdtool/rrdtool.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-rrdtool/rrdtool.git"
-  ],
-  "Version": [
-    "1.6.0-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"rrdtool, rrdcached, rrdtool-dbg, librrd8, librrd-dev, librrds-perl, librrdp-perl, rrdtool-tcl, python-rrdtool, ruby-rrd, lua-rrd, lua-rrd-dev, liblua5.1-rrd0, liblua5.1-rrd-dev"
+	],
+	"Build-Depends": [
+		"dc, debhelper (>= 9), dh-autoreconf, dh-exec (>= 0.3), dh-lua, dh-python, gem2deb, libdbi-dev, libpango1.0-dev, libpng-dev, libxml2-dev, perl (>= 5.8.0), python-all-dbg (>= 2.6.6-3~), python-all-dev (>= 2.6.6-3~), tcl-dev (<= 9), tcl-dev (>= 8)"
+	],
+	"Checksums-Sha256": [
+		"1302c737f8eae1ad951a14400b6e2ee668a87cbf4b3bce0734173dcf26cdf95b 2986 rrdtool_1.6.0-1.dsc 99117a9f90ff39279ab76b41353652292d49db9a5884a69f593b8925b03bd127 1101128 rrdtool_1.6.0.orig.tar.gz 4a1bb2e88b0345ba1b5a789e4126b59fbc1447acb6293f91d1573ada2df5af97 27704 rrdtool_1.6.0-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rrdtool"
+	],
+	"Files": [
+		"ec891e9b503ca2943530f93e55056d46 2986 rrdtool_1.6.0-1.dsc e88676cf41eaab97d1a55fd4e555d4cc 1101128 rrdtool_1.6.0.orig.tar.gz 60a003e23278ca71eb05598104c3ed2c 27704 rrdtool_1.6.0-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://oss.oetiker.ch/rrdtool/"
+	],
+	"Maintainer": [
+		"Debian RRDtool Team <pkg-rrdtool-maint@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"rrdtool"
+	],
+	"Package-List": [
+		"liblua5.1-rrd-dev deb oldlibs extra arch=all liblua5.1-rrd0 deb oldlibs extra arch=all librrd-dev deb libdevel optional arch=any librrd8 deb libs optional arch=any librrdp-perl deb perl optional arch=all librrds-perl deb perl optional arch=any lua-rrd deb interpreters optional arch=any lua-rrd-dev deb libdevel optional arch=any python-rrdtool deb python optional arch=any rrdcached deb utils optional arch=kfreebsd-any,linux-any rrdtool deb utils optional arch=any rrdtool-dbg deb debug extra arch=any rrdtool-tcl deb utils optional arch=any ruby-rrd deb ruby optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Ruby-Versions": [
+		"all"
+	],
+	"Section": [
+		"utils"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Sebastian Harl <tokkee@debian.org>, Alexander Wirt <formorer@debian.org>, Bernd Zeimetz <bzed@debian.org>, Jean-Michel Vourgère <nirgal@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-rrdtool/rrdtool.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-rrdtool/rrdtool.git"
+	],
+	"Version": [
+		"1.6.0-1"
+	]
 }

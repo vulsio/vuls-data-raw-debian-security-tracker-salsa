@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libglib2.0-0, libglib2.0-tests, libglib2.0-udeb, libglib2.0-bin, libglib2.0-dev, libglib2.0-0-dbg, libglib2.0-data, libglib2.0-doc, libgio-fam"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9.20141010), cdbs (>= 0.4.93), dh-autoreconf, dh-exec, pkg-config (>= 0.16.0), gettext, autotools-dev, gnome-pkg-tools (>= 0.11), dpkg-dev (>= 1.17.14), libelf-dev (>= 0.142), libmount-dev (>= 2.28) [linux-any], libpcre3-dev (>= 1:8.35), gtk-doc-tools (>= 1.20), libselinux1-dev [linux-any], linux-libc-dev [linux-any], libgamin-dev [!linux-any] | libfam-dev [!linux-any], zlib1g-dev, desktop-file-utils <!nocheck>, dbus <!nocheck>, shared-mime-info <!nocheck>, tzdata <!nocheck>, xterm <!nocheck>, python3:any (>= 2.7.5-5~), python3-dbus <!nocheck>, python3-gi <!nocheck>, libxml2-utils, xsltproc, docbook-xml, docbook-xsl, libffi-dev (>= 3.0.0)"
-  ],
-  "Checksums-Sha256": [
-    "04b8ae6238d36052ef753615f8278b69df8b91922c15776409a1a60e3eec3b00 3278 glib2.0_2.50.3-2+deb9u2.dsc 82ee94bf4c01459b6b00cb9db0545c2237921e3060c0b74cff13fbc020cfd999 7589284 glib2.0_2.50.3.orig.tar.xz f6d26084bf06135d85188f881790d9e0c5e706d24735af68cafa5d96f3da7fd4 77776 glib2.0_2.50.3-2+deb9u2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/g/glib2.0"
-  ],
-  "Files": [
-    "8c6597103357151cc157519ba13228b8 3278 glib2.0_2.50.3-2+deb9u2.dsc 381ab22934f296750d036aa55a397ded 7589284 glib2.0_2.50.3.orig.tar.xz c2c237d85dd9fcc0e1fd072e0e79bd8a 77776 glib2.0_2.50.3-2+deb9u2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.gtk.org/"
-  ],
-  "Maintainer": [
-    "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "glib2.0"
-  ],
-  "Package-List": [
-    "libgio-fam deb libs optional arch=hurd-any,kfreebsd-any libglib2.0-0 deb libs optional arch=any libglib2.0-0-dbg deb debug extra arch=any libglib2.0-bin deb misc optional arch=any libglib2.0-data deb libs optional arch=all libglib2.0-dev deb libdevel optional arch=any libglib2.0-doc deb doc optional arch=all libglib2.0-tests deb libs optional arch=any libglib2.0-udeb udeb debian-installer optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "libs"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential, dbus, dbus-x11, gnome-desktop-testing, xauth, xvfb"
-  ],
-  "Uploaders": [
-    "Andreas Henriksson <andreas@fatal.se>, Iain Lane <laney@debian.org>, Michael Biebl <biebl@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/gnome-team/glib"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/gnome-team/glib.git -b debian/stretch"
-  ],
-  "Version": [
-    "2.50.3-2+deb9u2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libglib2.0-0, libglib2.0-tests, libglib2.0-udeb, libglib2.0-bin, libglib2.0-dev, libglib2.0-0-dbg, libglib2.0-data, libglib2.0-doc, libgio-fam"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9.20141010), cdbs (>= 0.4.93), dh-autoreconf, dh-exec, pkg-config (>= 0.16.0), gettext, autotools-dev, gnome-pkg-tools (>= 0.11), dpkg-dev (>= 1.17.14), libelf-dev (>= 0.142), libmount-dev (>= 2.28) [linux-any], libpcre3-dev (>= 1:8.35), gtk-doc-tools (>= 1.20), libselinux1-dev [linux-any], linux-libc-dev [linux-any], libgamin-dev [!linux-any] | libfam-dev [!linux-any], zlib1g-dev, desktop-file-utils <!nocheck>, dbus <!nocheck>, shared-mime-info <!nocheck>, tzdata <!nocheck>, xterm <!nocheck>, python3:any (>= 2.7.5-5~), python3-dbus <!nocheck>, python3-gi <!nocheck>, libxml2-utils, xsltproc, docbook-xml, docbook-xsl, libffi-dev (>= 3.0.0)"
+	],
+	"Checksums-Sha256": [
+		"04b8ae6238d36052ef753615f8278b69df8b91922c15776409a1a60e3eec3b00 3278 glib2.0_2.50.3-2+deb9u2.dsc 82ee94bf4c01459b6b00cb9db0545c2237921e3060c0b74cff13fbc020cfd999 7589284 glib2.0_2.50.3.orig.tar.xz f6d26084bf06135d85188f881790d9e0c5e706d24735af68cafa5d96f3da7fd4 77776 glib2.0_2.50.3-2+deb9u2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/glib2.0"
+	],
+	"Files": [
+		"8c6597103357151cc157519ba13228b8 3278 glib2.0_2.50.3-2+deb9u2.dsc 381ab22934f296750d036aa55a397ded 7589284 glib2.0_2.50.3.orig.tar.xz c2c237d85dd9fcc0e1fd072e0e79bd8a 77776 glib2.0_2.50.3-2+deb9u2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.gtk.org/"
+	],
+	"Maintainer": [
+		"Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"glib2.0"
+	],
+	"Package-List": [
+		"libgio-fam deb libs optional arch=hurd-any,kfreebsd-any libglib2.0-0 deb libs optional arch=any libglib2.0-0-dbg deb debug extra arch=any libglib2.0-bin deb misc optional arch=any libglib2.0-data deb libs optional arch=all libglib2.0-dev deb libdevel optional arch=any libglib2.0-doc deb doc optional arch=all libglib2.0-tests deb libs optional arch=any libglib2.0-udeb udeb debian-installer optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"libs"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, dbus, dbus-x11, gnome-desktop-testing, xauth, xvfb"
+	],
+	"Uploaders": [
+		"Andreas Henriksson <andreas@fatal.se>, Iain Lane <laney@debian.org>, Michael Biebl <biebl@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/gnome-team/glib"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/gnome-team/glib.git -b debian/stretch"
+	],
+	"Version": [
+		"2.50.3-2+deb9u2"
+	]
 }

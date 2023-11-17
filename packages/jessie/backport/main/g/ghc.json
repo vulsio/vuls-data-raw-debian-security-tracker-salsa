@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "ghc, ghc-prof, ghc-doc"
-  ],
-  "Build-Conflicts": [
-    "ccache"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), devscripts, dh-autoreconf, autotools-dev, grep-dctrl, pkg-config, ghc (>= 7.8), libgmp-dev, llvm-3.5 (>= 1:3.5.1~) [arm64 armel armhf], libffi-dev, binutils [arm64 armel armhf], libncurses5-dev, xsltproc, docbook-xsl, docbook-xml, dpkg-dev (>= 1.16.1.1)"
-  ],
-  "Build-Depends-Indep": [
-    "hscolour, fop"
-  ],
-  "Checksums-Sha1": [
-    "b7368f3afc2b564b67cdbf526f381068fe012320 2342 ghc_7.10.3-6~bpo8+2.dsc 471a3df55c7f5ac6be75109d0c29de97842b98e9 11731468 ghc_7.10.3.orig.tar.xz 2c87dfc0ac00cf8c90e47e1a28f351850b6c64c5 47492 ghc_7.10.3-6~bpo8+2.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "877fea00e448da39cf3ce8f8dc11f0e76fae5dfe30fb2ac50ea8d91ad7af7d4f 2342 ghc_7.10.3-6~bpo8+2.dsc cf90cedce1c28fd0e2b9e72fe8a938756668d18ea1fcc884a19f698658ac4fef 11731468 ghc_7.10.3.orig.tar.xz 3d3145f6a3292c9f3061cdf6fb70de48f7399b0201fa86d428d5ea4fc6601e2a 47492 ghc_7.10.3-6~bpo8+2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/g/ghc"
-  ],
-  "Files": [
-    "1638af9fe3dacfcf623f560ce4b5d2ae 2342 ghc_7.10.3-6~bpo8+2.dsc 00104e629bfda9f956c23752b5f38613 11731468 ghc_7.10.3.orig.tar.xz 74bc241ba4d2ec2d02e720f37bf4267c 47492 ghc_7.10.3-6~bpo8+2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://haskell.org/ghc/"
-  ],
-  "Maintainer": [
-    "Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "ghc"
-  ],
-  "Package-List": [
-    "ghc deb haskell extra arch=any ghc-doc deb doc extra arch=all ghc-prof deb haskell extra arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Joachim Breitner <nomeata@debian.org>, Clint Adams <clint@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-haskell/DHG_packages.git/"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/git/pkg-haskell/DHG_packages.git"
-  ],
-  "Version": [
-    "7.10.3-6~bpo8+2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"ghc, ghc-prof, ghc-doc"
+	],
+	"Build-Conflicts": [
+		"ccache"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), devscripts, dh-autoreconf, autotools-dev, grep-dctrl, pkg-config, ghc (>= 7.8), libgmp-dev, llvm-3.5 (>= 1:3.5.1~) [arm64 armel armhf], libffi-dev, binutils [arm64 armel armhf], libncurses5-dev, xsltproc, docbook-xsl, docbook-xml, dpkg-dev (>= 1.16.1.1)"
+	],
+	"Build-Depends-Indep": [
+		"hscolour, fop"
+	],
+	"Checksums-Sha1": [
+		"b7368f3afc2b564b67cdbf526f381068fe012320 2342 ghc_7.10.3-6~bpo8+2.dsc 471a3df55c7f5ac6be75109d0c29de97842b98e9 11731468 ghc_7.10.3.orig.tar.xz 2c87dfc0ac00cf8c90e47e1a28f351850b6c64c5 47492 ghc_7.10.3-6~bpo8+2.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"877fea00e448da39cf3ce8f8dc11f0e76fae5dfe30fb2ac50ea8d91ad7af7d4f 2342 ghc_7.10.3-6~bpo8+2.dsc cf90cedce1c28fd0e2b9e72fe8a938756668d18ea1fcc884a19f698658ac4fef 11731468 ghc_7.10.3.orig.tar.xz 3d3145f6a3292c9f3061cdf6fb70de48f7399b0201fa86d428d5ea4fc6601e2a 47492 ghc_7.10.3-6~bpo8+2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/ghc"
+	],
+	"Files": [
+		"1638af9fe3dacfcf623f560ce4b5d2ae 2342 ghc_7.10.3-6~bpo8+2.dsc 00104e629bfda9f956c23752b5f38613 11731468 ghc_7.10.3.orig.tar.xz 74bc241ba4d2ec2d02e720f37bf4267c 47492 ghc_7.10.3-6~bpo8+2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://haskell.org/ghc/"
+	],
+	"Maintainer": [
+		"Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"ghc"
+	],
+	"Package-List": [
+		"ghc deb haskell extra arch=any ghc-doc deb doc extra arch=all ghc-prof deb haskell extra arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Joachim Breitner <nomeata@debian.org>, Clint Adams <clint@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-haskell/DHG_packages.git/"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/git/pkg-haskell/DHG_packages.git"
+	],
+	"Version": [
+		"7.10.3-6~bpo8+2"
+	]
 }

@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "haproxy, haproxy-doc, vim-haproxy"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 12), libpcre2-dev, libssl-dev, liblua5.3-dev, libsystemd-dev [linux-any], python3-sphinx"
-  ],
-  "Build-Depends-Indep": [
-    "python3, python3-mako"
-  ],
-  "Checksums-Sha256": [
-    "48407f69d6911061cac46e7e09c5af7c48d8e897210b4260e4f1e61f1dcdadfb 2357 haproxy_2.6.12-1~bpo11+1.dsc 58f9edb26bf3288f4b502658399281cc5d6478468bd178eafe579c8f41895854 4060878 haproxy_2.6.12.orig.tar.gz fc5b4501bbc86a77aba276791417096a4ff4860746250e5dc3b0de9a518b2132 74448 haproxy_2.6.12-1~bpo11+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/h/haproxy"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.haproxy.org/"
-  ],
-  "Maintainer": [
-    "Debian HAProxy Maintainers <team+haproxy@tracker.debian.org>"
-  ],
-  "Package": [
-    "haproxy"
-  ],
-  "Package-List": [
-    "haproxy deb net optional arch=any haproxy-doc deb doc optional arch=all vim-haproxy deb net optional arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.4.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "apache2, gnutls-bin, socat, ssl-cert, wget"
-  ],
-  "Uploaders": [
-    "Apollon Oikonomopoulos <apoikos@debian.org>, Prach Pongpanich <prach@debian.org>, Vincent Bernat <bernat@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/haproxy-team/haproxy"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/haproxy-team/haproxy.git"
-  ],
-  "Version": [
-    "2.6.12-1~bpo11+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"haproxy, haproxy-doc, vim-haproxy"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 12), libpcre2-dev, libssl-dev, liblua5.3-dev, libsystemd-dev [linux-any], python3-sphinx"
+	],
+	"Build-Depends-Indep": [
+		"python3, python3-mako"
+	],
+	"Checksums-Sha256": [
+		"48407f69d6911061cac46e7e09c5af7c48d8e897210b4260e4f1e61f1dcdadfb 2357 haproxy_2.6.12-1~bpo11+1.dsc 58f9edb26bf3288f4b502658399281cc5d6478468bd178eafe579c8f41895854 4060878 haproxy_2.6.12.orig.tar.gz fc5b4501bbc86a77aba276791417096a4ff4860746250e5dc3b0de9a518b2132 74448 haproxy_2.6.12-1~bpo11+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/h/haproxy"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.haproxy.org/"
+	],
+	"Maintainer": [
+		"Debian HAProxy Maintainers <team+haproxy@tracker.debian.org>"
+	],
+	"Package": [
+		"haproxy"
+	],
+	"Package-List": [
+		"haproxy deb net optional arch=any haproxy-doc deb doc optional arch=all vim-haproxy deb net optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.4.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"apache2, gnutls-bin, socat, ssl-cert, wget"
+	],
+	"Uploaders": [
+		"Apollon Oikonomopoulos <apoikos@debian.org>, Prach Pongpanich <prach@debian.org>, Vincent Bernat <bernat@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/haproxy-team/haproxy"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/haproxy-team/haproxy.git"
+	],
+	"Version": [
+		"2.6.12-1~bpo11+1"
+	]
 }

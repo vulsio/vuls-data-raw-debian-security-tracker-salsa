@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "boinc, boinc-client-nvidia-cuda, boinc-client-opencl, boinc-client, boinc-screensaver, boinc-manager, boinc-dev, libboinc-app-dev, libboinc-app7, libboinc7"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9.20160114), default-libmysqlclient-dev, dh-autoreconf, dh-python, dh-systemd, docbook-xml, docbook2x, dpkg-dev (>= 1.16.1.1), freeglut3-dev, gettext, libcurl4-openssl-dev, libfcgi-dev, libgtk2.0-dev, libice-dev, libjpeg-dev, libnotify-dev (>= 0.7.0), libsm-dev, libsqlite3-dev, libssl-dev, libtool, libwxgtk-webview3.0-dev, libwxgtk3.0-dev, libxcb-util0-dev, libxi-dev, libxml2-utils, libxmu-dev, libxss-dev, pkg-config, po-debconf, python-all, python-setuptools, zlib1g-dev"
-  ],
-  "Checksums-Sha256": [
-    "bbc10eaf3b3baa2bb0a8d2c93b0b75dbb1523ad48225b1922f6eaf46998e2b06 3058 boinc_7.6.33+dfsg-12.dsc 60d71c8281bca9fceb624668843a3f5666dbcff185c8c3f29da9489a0c5b26c1 33688886 boinc_7.6.33+dfsg.orig.tar.gz 7b531fda5edb5ea997a3f84ead48a66b4c71307368f25acedab368838cf5825e 457148 boinc_7.6.33+dfsg-12.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/b/boinc"
-  ],
-  "Files": [
-    "227ec562e3abbe7ee23ce11c28f32116 3058 boinc_7.6.33+dfsg-12.dsc b79c2ff45a7d2bf8754371ffc1d12b78 33688886 boinc_7.6.33+dfsg.orig.tar.gz 9f109b0c347f21a916150581a4f2d8b7 457148 boinc_7.6.33+dfsg-12.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://boinc.berkeley.edu/"
-  ],
-  "Maintainer": [
-    "Debian BOINC Maintainers <pkg-boinc-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "boinc"
-  ],
-  "Package-List": [
-    "boinc deb net optional arch=all boinc-client deb net optional arch=any boinc-client-nvidia-cuda deb contrib/net extra arch=amd64,i386,armhf boinc-client-opencl deb contrib/net extra arch=any boinc-dev deb oldlibs extra arch=any boinc-manager deb x11 optional arch=any boinc-screensaver deb x11 optional arch=any libboinc-app-dev deb libdevel optional arch=any libboinc-app7 deb libs optional arch=any libboinc7 deb libs optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Steffen Moeller <moeller@debian.org>, Guo Yixuan (郭溢譞) <culu.gyx@gmail.com>, Gianfranco Costamagna <locutusofborg@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-boinc/boinc.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-boinc/boinc.git"
-  ],
-  "Version": [
-    "7.6.33+dfsg-12"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"boinc, boinc-client-nvidia-cuda, boinc-client-opencl, boinc-client, boinc-screensaver, boinc-manager, boinc-dev, libboinc-app-dev, libboinc-app7, libboinc7"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9.20160114), default-libmysqlclient-dev, dh-autoreconf, dh-python, dh-systemd, docbook-xml, docbook2x, dpkg-dev (>= 1.16.1.1), freeglut3-dev, gettext, libcurl4-openssl-dev, libfcgi-dev, libgtk2.0-dev, libice-dev, libjpeg-dev, libnotify-dev (>= 0.7.0), libsm-dev, libsqlite3-dev, libssl-dev, libtool, libwxgtk-webview3.0-dev, libwxgtk3.0-dev, libxcb-util0-dev, libxi-dev, libxml2-utils, libxmu-dev, libxss-dev, pkg-config, po-debconf, python-all, python-setuptools, zlib1g-dev"
+	],
+	"Checksums-Sha256": [
+		"bbc10eaf3b3baa2bb0a8d2c93b0b75dbb1523ad48225b1922f6eaf46998e2b06 3058 boinc_7.6.33+dfsg-12.dsc 60d71c8281bca9fceb624668843a3f5666dbcff185c8c3f29da9489a0c5b26c1 33688886 boinc_7.6.33+dfsg.orig.tar.gz 7b531fda5edb5ea997a3f84ead48a66b4c71307368f25acedab368838cf5825e 457148 boinc_7.6.33+dfsg-12.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/b/boinc"
+	],
+	"Files": [
+		"227ec562e3abbe7ee23ce11c28f32116 3058 boinc_7.6.33+dfsg-12.dsc b79c2ff45a7d2bf8754371ffc1d12b78 33688886 boinc_7.6.33+dfsg.orig.tar.gz 9f109b0c347f21a916150581a4f2d8b7 457148 boinc_7.6.33+dfsg-12.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://boinc.berkeley.edu/"
+	],
+	"Maintainer": [
+		"Debian BOINC Maintainers <pkg-boinc-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"boinc"
+	],
+	"Package-List": [
+		"boinc deb net optional arch=all boinc-client deb net optional arch=any boinc-client-nvidia-cuda deb contrib/net extra arch=amd64,i386,armhf boinc-client-opencl deb contrib/net extra arch=any boinc-dev deb oldlibs extra arch=any boinc-manager deb x11 optional arch=any boinc-screensaver deb x11 optional arch=any libboinc-app-dev deb libdevel optional arch=any libboinc-app7 deb libs optional arch=any libboinc7 deb libs optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Steffen Moeller <moeller@debian.org>, Guo Yixuan (郭溢譞) <culu.gyx@gmail.com>, Gianfranco Costamagna <locutusofborg@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-boinc/boinc.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-boinc/boinc.git"
+	],
+	"Version": [
+		"7.6.33+dfsg-12"
+	]
 }

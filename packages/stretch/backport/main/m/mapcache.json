@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "libmapcache1, libmapcache1-dev, mapcache-cgi, mapcache-tools, libapache2-mod-mapcache"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dpkg-dev (>= 1.16.1.1), dh-apache2, apache2-dev, chrpath, cmake, libcairo2-dev, libcurl4-gnutls-dev | libcurl-ssl-dev, libfcgi-dev, libfreetype6-dev, libfribidi-dev, libgd-dev, libgdal-dev (>= 1.10.0-0~), libgeos-dev (>= 3.3.1-1~), libharfbuzz-dev, libjpeg-dev, libmemcached-dev, libpcre3-dev, libpixman-1-dev, libpng-dev, libproj-dev, librsvg2-dev, libsqlite3-dev, libtiff-dev, zlib1g-dev, pkg-config, pkg-kde-tools, docbook2x, docbook-xsl, docbook-xml, xsltproc"
-  ],
-  "Checksums-Sha256": [
-    "f3f7865aa795e946368760251e1be650d49b832fe069416e858a0515d1d4ee73 2813 mapcache_1.6.1-1~bpo9+1.dsc 1b3de277173100e89655b7c1361468c67727895a94152931e222a48b45a48caa 1008453 mapcache_1.6.1.orig.tar.gz ab52bdfe5f7666b7bff6922c927c6e325c36c5aadb5f845305d66fb794ef0fa6 13208 mapcache_1.6.1-1~bpo9+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/m/mapcache"
-  ],
-  "Files": [
-    "3e9b870da5ded162d41db39d26869b04 2813 mapcache_1.6.1-1~bpo9+1.dsc 757cb0d882eddb47637a0bfdcd2ed999 1008453 mapcache_1.6.1.orig.tar.gz 6d119988af3bf448990887b0a51ff6ea 13208 mapcache_1.6.1-1~bpo9+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.mapserver.org/mapcache/"
-  ],
-  "Maintainer": [
-    "Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "mapcache"
-  ],
-  "Package-List": [
-    "libapache2-mod-mapcache deb httpd optional arch=any libmapcache1 deb libs optional arch=any libmapcache1-dev deb libdevel optional arch=any mapcache-cgi deb web optional arch=any mapcache-tools deb misc optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.1.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Francesco Paolo Lovergine <frankie@debian.org>, Alan Boudreault <aboudreault@mapgears.com>, Bas Couwenberg <sebastic@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-grass/mapcache.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-grass/mapcache.git -b stretch-backports"
-  ],
-  "Version": [
-    "1.6.1-1~bpo9+1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"libmapcache1, libmapcache1-dev, mapcache-cgi, mapcache-tools, libapache2-mod-mapcache"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dpkg-dev (>= 1.16.1.1), dh-apache2, apache2-dev, chrpath, cmake, libcairo2-dev, libcurl4-gnutls-dev | libcurl-ssl-dev, libfcgi-dev, libfreetype6-dev, libfribidi-dev, libgd-dev, libgdal-dev (>= 1.10.0-0~), libgeos-dev (>= 3.3.1-1~), libharfbuzz-dev, libjpeg-dev, libmemcached-dev, libpcre3-dev, libpixman-1-dev, libpng-dev, libproj-dev, librsvg2-dev, libsqlite3-dev, libtiff-dev, zlib1g-dev, pkg-config, pkg-kde-tools, docbook2x, docbook-xsl, docbook-xml, xsltproc"
+	],
+	"Checksums-Sha256": [
+		"f3f7865aa795e946368760251e1be650d49b832fe069416e858a0515d1d4ee73 2813 mapcache_1.6.1-1~bpo9+1.dsc 1b3de277173100e89655b7c1361468c67727895a94152931e222a48b45a48caa 1008453 mapcache_1.6.1.orig.tar.gz ab52bdfe5f7666b7bff6922c927c6e325c36c5aadb5f845305d66fb794ef0fa6 13208 mapcache_1.6.1-1~bpo9+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/m/mapcache"
+	],
+	"Files": [
+		"3e9b870da5ded162d41db39d26869b04 2813 mapcache_1.6.1-1~bpo9+1.dsc 757cb0d882eddb47637a0bfdcd2ed999 1008453 mapcache_1.6.1.orig.tar.gz 6d119988af3bf448990887b0a51ff6ea 13208 mapcache_1.6.1-1~bpo9+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.mapserver.org/mapcache/"
+	],
+	"Maintainer": [
+		"Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"mapcache"
+	],
+	"Package-List": [
+		"libapache2-mod-mapcache deb httpd optional arch=any libmapcache1 deb libs optional arch=any libmapcache1-dev deb libdevel optional arch=any mapcache-cgi deb web optional arch=any mapcache-tools deb misc optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.1.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Francesco Paolo Lovergine <frankie@debian.org>, Alan Boudreault <aboudreault@mapgears.com>, Bas Couwenberg <sebastic@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-grass/mapcache.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-grass/mapcache.git -b stretch-backports"
+	],
+	"Version": [
+		"1.6.1-1~bpo9+1"
+	]
 }

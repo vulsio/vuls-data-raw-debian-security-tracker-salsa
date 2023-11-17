@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "xbmc, xbmc-bin, xbmc-dbg, xbmc-eventclients-common, xbmc-eventclients-dev, xbmc-eventclients-wiiremote, xbmc-eventclients-j2me, xbmc-eventclients-ps3, xbmc-eventclients-xbmc-send, xbmc-addons-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9~), dh-python, cmake, autopoint, autotools-dev, autoconf, automake, dh-autoreconf, unzip, libboost-dev, zip, libtool, libgles2-mesa-dev [armel armhf] | libgl1-mesa-dev | libgl-dev, libglu1-mesa-dev | libglu-dev, libftgl-dev, libglew-dev, libmad0-dev, libjpeg-dev, libsamplerate-dev, libogg-dev, libvorbis-dev, libfreetype6-dev, libfontconfig-dev, libbz2-dev, libfribidi-dev, libsqlite3-dev, libmysqlclient-dev, libasound2-dev | libasound-dev, libpng12-dev | libpng-dev, libpcre3-dev, liblzo2-dev, libcdio-dev, libsdl-dev, libsdl-image1.2-dev, libsdl-mixer1.2-dev, libenca-dev, libjasper-dev, libxt-dev, libxmu-dev, libcurl4-gnutls-dev | libcurl-dev, libdbus-1-dev, libpulse-dev, libavahi-common-dev, libavahi-client-dev, libxrandr-dev, libmpeg2-4-dev, libass-dev (>= 0.9.8), libflac-dev, python-dev (>= 2.6.6-3~), gawk, gperf, nasm [i386], yasm, libcwiid-dev [linux-any], libbluetooth-dev, zlib1g-dev, libsmbclient-dev, libiso9660-dev, libssl-dev, libvdpau-dev [!armel !armhf !mipsel !mips], libmicrohttpd-dev, libmodplug-dev, librtmp-dev, libcrystalhd-dev [i386 amd64], curl, libyajl-dev, libboost-thread-dev, libomxil-bellagio-dev [armel armhf mipsel mips], python-imaging, libplist-dev, libcec-dev (>= 2), libudev-dev, udev, libshairport-dev, libnfs-dev, libltdl-dev, libtiff-dev, libtinyxml-dev (>= 2.6.2), libxslt1-dev, libmp3lame-dev, libssh-dev, libtag1-dev (>= 1.8), swig, default-jre, libbluray-dev, libva-dev [!armel !armhf !mipsel !mips], libavcodec-dev (>= 6:10~), libavfilter-dev, libavformat-dev, libavresample-dev, libavutil-dev, libpostproc-dev, libswscale-dev, gimp, groovy, libcommons-lang-java, doxygen, libcap-dev, libsidplay2-dev, libdvdnav-dev, libdvdread-dev, libhdhomerun-dev, fontforge, fonts-dejavu-core, fonts-droid, ttf-bitstream-vera"
-  ],
-  "Checksums-Sha1": [
-    "8f3114fe485e35a0eae9e1525c1967c484f3c306 4318 xbmc_13.2+dfsg1-4.dsc 1083da62209c6bd21578f2a51ba072d750211c54 26014924 xbmc_13.2+dfsg1.orig.tar.xz bf830111c01822b4f54452a021a969dd0929eae5 79964 xbmc_13.2+dfsg1-4.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "ecb1b3446aa9d7ab6e4b4720b1d9fa3560a8fecb0bc798f15801b9c98c95464f 4318 xbmc_13.2+dfsg1-4.dsc 264dc11e99c4e5f7ebd56c634f7aafed8bdbb7e777e1b2c989cfc5cdf8037712 26014924 xbmc_13.2+dfsg1.orig.tar.xz 390e123a8334748a1b5c881f5658cdb8539a127d8e948e16c22da89289d4805f 79964 xbmc_13.2+dfsg1-4.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/x/xbmc"
-  ],
-  "Files": [
-    "8a22eac57aeeefe35efb6f70176148fa 4318 xbmc_13.2+dfsg1-4.dsc 2d9a44e58a3e91634012c43d5ed6ee15 26014924 xbmc_13.2+dfsg1.orig.tar.xz d4c39a1531a217628dbf549c98d0d00f 79964 xbmc_13.2+dfsg1-4.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://xbmc.org/"
-  ],
-  "Maintainer": [
-    "Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "xbmc"
-  ],
-  "Package-List": [
-    "xbmc deb video optional arch=all xbmc-addons-dev deb libdevel optional arch=all xbmc-bin deb video optional arch=any xbmc-dbg deb debug extra arch=amd64,i386 xbmc-eventclients-common deb video optional arch=all xbmc-eventclients-dev deb libdevel optional arch=all xbmc-eventclients-j2me deb video optional arch=all xbmc-eventclients-ps3 deb video optional arch=all xbmc-eventclients-wiiremote deb video optional arch=any xbmc-eventclients-xbmc-send deb video optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "video"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Uploaders": [
-    "Balint Reczey <balint@balintreczey.hu>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-multimedia/xbmc.git"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/pkg-multimedia/xbmc.git"
-  ],
-  "Version": [
-    "2:13.2+dfsg1-4"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"xbmc, xbmc-bin, xbmc-dbg, xbmc-eventclients-common, xbmc-eventclients-dev, xbmc-eventclients-wiiremote, xbmc-eventclients-j2me, xbmc-eventclients-ps3, xbmc-eventclients-xbmc-send, xbmc-addons-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9~), dh-python, cmake, autopoint, autotools-dev, autoconf, automake, dh-autoreconf, unzip, libboost-dev, zip, libtool, libgles2-mesa-dev [armel armhf] | libgl1-mesa-dev | libgl-dev, libglu1-mesa-dev | libglu-dev, libftgl-dev, libglew-dev, libmad0-dev, libjpeg-dev, libsamplerate-dev, libogg-dev, libvorbis-dev, libfreetype6-dev, libfontconfig-dev, libbz2-dev, libfribidi-dev, libsqlite3-dev, libmysqlclient-dev, libasound2-dev | libasound-dev, libpng12-dev | libpng-dev, libpcre3-dev, liblzo2-dev, libcdio-dev, libsdl-dev, libsdl-image1.2-dev, libsdl-mixer1.2-dev, libenca-dev, libjasper-dev, libxt-dev, libxmu-dev, libcurl4-gnutls-dev | libcurl-dev, libdbus-1-dev, libpulse-dev, libavahi-common-dev, libavahi-client-dev, libxrandr-dev, libmpeg2-4-dev, libass-dev (>= 0.9.8), libflac-dev, python-dev (>= 2.6.6-3~), gawk, gperf, nasm [i386], yasm, libcwiid-dev [linux-any], libbluetooth-dev, zlib1g-dev, libsmbclient-dev, libiso9660-dev, libssl-dev, libvdpau-dev [!armel !armhf !mipsel !mips], libmicrohttpd-dev, libmodplug-dev, librtmp-dev, libcrystalhd-dev [i386 amd64], curl, libyajl-dev, libboost-thread-dev, libomxil-bellagio-dev [armel armhf mipsel mips], python-imaging, libplist-dev, libcec-dev (>= 2), libudev-dev, udev, libshairport-dev, libnfs-dev, libltdl-dev, libtiff-dev, libtinyxml-dev (>= 2.6.2), libxslt1-dev, libmp3lame-dev, libssh-dev, libtag1-dev (>= 1.8), swig, default-jre, libbluray-dev, libva-dev [!armel !armhf !mipsel !mips], libavcodec-dev (>= 6:10~), libavfilter-dev, libavformat-dev, libavresample-dev, libavutil-dev, libpostproc-dev, libswscale-dev, gimp, groovy, libcommons-lang-java, doxygen, libcap-dev, libsidplay2-dev, libdvdnav-dev, libdvdread-dev, libhdhomerun-dev, fontforge, fonts-dejavu-core, fonts-droid, ttf-bitstream-vera"
+	],
+	"Checksums-Sha1": [
+		"8f3114fe485e35a0eae9e1525c1967c484f3c306 4318 xbmc_13.2+dfsg1-4.dsc 1083da62209c6bd21578f2a51ba072d750211c54 26014924 xbmc_13.2+dfsg1.orig.tar.xz bf830111c01822b4f54452a021a969dd0929eae5 79964 xbmc_13.2+dfsg1-4.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"ecb1b3446aa9d7ab6e4b4720b1d9fa3560a8fecb0bc798f15801b9c98c95464f 4318 xbmc_13.2+dfsg1-4.dsc 264dc11e99c4e5f7ebd56c634f7aafed8bdbb7e777e1b2c989cfc5cdf8037712 26014924 xbmc_13.2+dfsg1.orig.tar.xz 390e123a8334748a1b5c881f5658cdb8539a127d8e948e16c22da89289d4805f 79964 xbmc_13.2+dfsg1-4.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/x/xbmc"
+	],
+	"Files": [
+		"8a22eac57aeeefe35efb6f70176148fa 4318 xbmc_13.2+dfsg1-4.dsc 2d9a44e58a3e91634012c43d5ed6ee15 26014924 xbmc_13.2+dfsg1.orig.tar.xz d4c39a1531a217628dbf549c98d0d00f 79964 xbmc_13.2+dfsg1-4.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://xbmc.org/"
+	],
+	"Maintainer": [
+		"Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"xbmc"
+	],
+	"Package-List": [
+		"xbmc deb video optional arch=all xbmc-addons-dev deb libdevel optional arch=all xbmc-bin deb video optional arch=any xbmc-dbg deb debug extra arch=amd64,i386 xbmc-eventclients-common deb video optional arch=all xbmc-eventclients-dev deb libdevel optional arch=all xbmc-eventclients-j2me deb video optional arch=all xbmc-eventclients-ps3 deb video optional arch=all xbmc-eventclients-wiiremote deb video optional arch=any xbmc-eventclients-xbmc-send deb video optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"video"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Uploaders": [
+		"Balint Reczey <balint@balintreczey.hu>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-multimedia/xbmc.git"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/pkg-multimedia/xbmc.git"
+	],
+	"Version": [
+		"2:13.2+dfsg1-4"
+	]
 }

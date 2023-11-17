@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "fcitx, fcitx-bin, fcitx-data, fcitx-libs, libfcitx-config4, libfcitx-core0, libfcitx-utils0, fcitx-libs-gclient, libfcitx-gclient0, fcitx-libs-qt, libfcitx-qt0, fcitx-libs-dev, gir1.2-fcitx-1.0, fcitx-dbg, fcitx-ui-classic, fcitx-frontend-all, fcitx-frontend-gtk2, fcitx-frontend-gtk3, fcitx-frontend-qt4, fcitx-pinyin, fcitx-qw, fcitx-table, fcitx-table-all, fcitx-table-bingchan, fcitx-table-cangjie, fcitx-table-dianbaoma, fcitx-table-erbi, fcitx-table-wanfeng, fcitx-table-wbpy, fcitx-table-wubi, fcitx-table-ziranma, fcitx-modules, fcitx-module-dbus, fcitx-module-x11, fcitx-module-lua, fcitx-module-kimpanel, fcitx-module-quickphrase-editor, fcitx-tools"
-  ],
-  "Build-Depends": [
-    "cmake, debhelper (>= 9), extra-cmake-modules, gobject-introspection, iso-codes, qtbase5-dev, libcairo2-dev (>= 1.0), libenchant-dev, libgettextpo-dev, libgirepository1.0-dev, libgtk-3-dev, libgtk2.0-dev, libicu-dev, libkvm-dev [kfreebsd-any], liblua5.2-dev | liblua5.1-0-dev, libopencc-dev (>= 1.0.1), libpango1.0-dev (>= 1.0), libpresage-dev (>= 0.9.1-1.1~), libqt4-dev, libxkbfile-dev, libxkbcommon-dev (>= 0.5.0~), libxml2-dev, x11proto-xinerama-dev"
-  ],
-  "Checksums-Sha256": [
-    "fe8f8075122a5d9749e61a3820489b6d55094eef626178cdee4e150eb4430360 4345 fcitx_4.2.9.1-6.dsc 5337c8226417a1d4e6f88b3b1048aa73695d281ed483568a7b6a9ee849ad6c77 8684772 fcitx_4.2.9.1.orig.tar.xz a7e458fa9c48bd32a465d9a0a052a9ea2922dec5bff8df83ba8ab14129103131 28368 fcitx_4.2.9.1-6.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/f/fcitx"
-  ],
-  "Files": [
-    "641c76db3ca214a22f46cb00fd2c11dc 4345 fcitx_4.2.9.1-6.dsc 9b566df835413a7aa964488c5b0c60d8 8684772 fcitx_4.2.9.1.orig.tar.xz b5cefe4f6baf817b9a9f9d4bcbc1aee8 28368 fcitx_4.2.9.1-6.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/fcitx/fcitx"
-  ],
-  "Maintainer": [
-    "IME Packaging Team <pkg-ime-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "fcitx"
-  ],
-  "Package-List": [
-    "fcitx deb utils optional arch=all fcitx-bin deb utils optional arch=any fcitx-data deb utils optional arch=all fcitx-dbg deb debug extra arch=any fcitx-frontend-all deb utils optional arch=all fcitx-frontend-gtk2 deb utils optional arch=any fcitx-frontend-gtk3 deb utils optional arch=any fcitx-frontend-qt4 deb utils optional arch=any fcitx-libs deb oldlibs optional arch=all fcitx-libs-dev deb libdevel optional arch=any fcitx-libs-gclient deb oldlibs optional arch=all fcitx-libs-qt deb oldlibs optional arch=all fcitx-module-dbus deb utils optional arch=any fcitx-module-kimpanel deb utils optional arch=any fcitx-module-lua deb utils optional arch=any fcitx-module-quickphrase-editor deb utils optional arch=any fcitx-module-x11 deb utils optional arch=any fcitx-modules deb utils optional arch=any fcitx-pinyin deb utils optional arch=any fcitx-qw deb utils optional arch=any fcitx-table deb utils optional arch=any fcitx-table-all deb utils optional arch=all fcitx-table-bingchan deb utils optional arch=all fcitx-table-cangjie deb utils optional arch=all fcitx-table-dianbaoma deb utils optional arch=all fcitx-table-erbi deb utils optional arch=all fcitx-table-wanfeng deb utils optional arch=all fcitx-table-wbpy deb utils optional arch=all fcitx-table-wubi deb utils optional arch=all fcitx-table-ziranma deb utils optional arch=all fcitx-tools deb utils optional arch=any fcitx-ui-classic deb utils optional arch=any gir1.2-fcitx-1.0 deb introspection optional arch=any libfcitx-config4 deb libs optional arch=any libfcitx-core0 deb libs optional arch=any libfcitx-gclient0 deb libs optional arch=any libfcitx-qt0 deb libs optional arch=any libfcitx-utils0 deb libs optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "utils"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Aron Xu <aron@debian.org>, YunQiang Su <wzssyqa@gmail.com>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-ime/fcitx.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-ime/fcitx.git"
-  ],
-  "Version": [
-    "1:4.2.9.1-6"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"fcitx, fcitx-bin, fcitx-data, fcitx-libs, libfcitx-config4, libfcitx-core0, libfcitx-utils0, fcitx-libs-gclient, libfcitx-gclient0, fcitx-libs-qt, libfcitx-qt0, fcitx-libs-dev, gir1.2-fcitx-1.0, fcitx-dbg, fcitx-ui-classic, fcitx-frontend-all, fcitx-frontend-gtk2, fcitx-frontend-gtk3, fcitx-frontend-qt4, fcitx-pinyin, fcitx-qw, fcitx-table, fcitx-table-all, fcitx-table-bingchan, fcitx-table-cangjie, fcitx-table-dianbaoma, fcitx-table-erbi, fcitx-table-wanfeng, fcitx-table-wbpy, fcitx-table-wubi, fcitx-table-ziranma, fcitx-modules, fcitx-module-dbus, fcitx-module-x11, fcitx-module-lua, fcitx-module-kimpanel, fcitx-module-quickphrase-editor, fcitx-tools"
+	],
+	"Build-Depends": [
+		"cmake, debhelper (>= 9), extra-cmake-modules, gobject-introspection, iso-codes, qtbase5-dev, libcairo2-dev (>= 1.0), libenchant-dev, libgettextpo-dev, libgirepository1.0-dev, libgtk-3-dev, libgtk2.0-dev, libicu-dev, libkvm-dev [kfreebsd-any], liblua5.2-dev | liblua5.1-0-dev, libopencc-dev (>= 1.0.1), libpango1.0-dev (>= 1.0), libpresage-dev (>= 0.9.1-1.1~), libqt4-dev, libxkbfile-dev, libxkbcommon-dev (>= 0.5.0~), libxml2-dev, x11proto-xinerama-dev"
+	],
+	"Checksums-Sha256": [
+		"fe8f8075122a5d9749e61a3820489b6d55094eef626178cdee4e150eb4430360 4345 fcitx_4.2.9.1-6.dsc 5337c8226417a1d4e6f88b3b1048aa73695d281ed483568a7b6a9ee849ad6c77 8684772 fcitx_4.2.9.1.orig.tar.xz a7e458fa9c48bd32a465d9a0a052a9ea2922dec5bff8df83ba8ab14129103131 28368 fcitx_4.2.9.1-6.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/f/fcitx"
+	],
+	"Files": [
+		"641c76db3ca214a22f46cb00fd2c11dc 4345 fcitx_4.2.9.1-6.dsc 9b566df835413a7aa964488c5b0c60d8 8684772 fcitx_4.2.9.1.orig.tar.xz b5cefe4f6baf817b9a9f9d4bcbc1aee8 28368 fcitx_4.2.9.1-6.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/fcitx/fcitx"
+	],
+	"Maintainer": [
+		"IME Packaging Team <pkg-ime-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"fcitx"
+	],
+	"Package-List": [
+		"fcitx deb utils optional arch=all fcitx-bin deb utils optional arch=any fcitx-data deb utils optional arch=all fcitx-dbg deb debug extra arch=any fcitx-frontend-all deb utils optional arch=all fcitx-frontend-gtk2 deb utils optional arch=any fcitx-frontend-gtk3 deb utils optional arch=any fcitx-frontend-qt4 deb utils optional arch=any fcitx-libs deb oldlibs optional arch=all fcitx-libs-dev deb libdevel optional arch=any fcitx-libs-gclient deb oldlibs optional arch=all fcitx-libs-qt deb oldlibs optional arch=all fcitx-module-dbus deb utils optional arch=any fcitx-module-kimpanel deb utils optional arch=any fcitx-module-lua deb utils optional arch=any fcitx-module-quickphrase-editor deb utils optional arch=any fcitx-module-x11 deb utils optional arch=any fcitx-modules deb utils optional arch=any fcitx-pinyin deb utils optional arch=any fcitx-qw deb utils optional arch=any fcitx-table deb utils optional arch=any fcitx-table-all deb utils optional arch=all fcitx-table-bingchan deb utils optional arch=all fcitx-table-cangjie deb utils optional arch=all fcitx-table-dianbaoma deb utils optional arch=all fcitx-table-erbi deb utils optional arch=all fcitx-table-wanfeng deb utils optional arch=all fcitx-table-wbpy deb utils optional arch=all fcitx-table-wubi deb utils optional arch=all fcitx-table-ziranma deb utils optional arch=all fcitx-tools deb utils optional arch=any fcitx-ui-classic deb utils optional arch=any gir1.2-fcitx-1.0 deb introspection optional arch=any libfcitx-config4 deb libs optional arch=any libfcitx-core0 deb libs optional arch=any libfcitx-gclient0 deb libs optional arch=any libfcitx-qt0 deb libs optional arch=any libfcitx-utils0 deb libs optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"utils"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Aron Xu <aron@debian.org>, YunQiang Su <wzssyqa@gmail.com>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-ime/fcitx.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-ime/fcitx.git"
+	],
+	"Version": [
+		"1:4.2.9.1-6"
+	]
 }

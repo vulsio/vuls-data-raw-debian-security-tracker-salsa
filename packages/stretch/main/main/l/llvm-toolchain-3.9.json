@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "clang-3.9, clang-format-3.9, clang-tidy-3.9, clang-3.9-doc, libclang1-3.9, libclang1-3.9-dbg, libclang-3.9-dev, libclang-common-3.9-dev, libfuzzer-3.9-dev, python-clang-3.9, clang-3.9-examples, libllvm3.9, libllvm3.9-dbg, llvm-3.9, llvm-3.9-runtime, llvm-3.9-dev, llvm-3.9-tools, libllvm-3.9-ocaml-dev, llvm-3.9-doc, llvm-3.9-examples, lldb-3.9, liblldb-3.9, liblldb-3.9-dbg, python-lldb-3.9, liblldb-3.9-dev"
-  ],
-  "Build-Conflicts": [
-    "libllvm-3.4-ocaml-dev, libllvm-3.5-ocaml-dev, libllvm-3.8-ocaml-dev, libllvm-3.9-ocaml-dev, ocaml, oprofile"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9.0), flex, bison, dejagnu, tcl, expect, cmake, perl, libtool, chrpath, texinfo, sharutils, libffi-dev (>= 3.0.9), lsb-release, patchutils, diffstat, xz-utils, python-dev, libedit-dev, swig, python-six, python-sphinx, binutils-dev, libjsoncpp-dev, lcov, procps, help2man, zlib1g-dev, ocaml-nox [amd64 arm64 armel armhf i386], ocaml-findlib [amd64 arm64 armel armhf i386], libctypes-ocaml-dev [amd64 arm64 armel armhf i386], dh-ocaml [amd64 arm64 armel armhf i386], g++-multilib [amd64 i386 kfreebsd-amd64 mips mips64 mips64el mipsel powerpc ppc64 s390 s390x sparc sparc64 x32]"
-  ],
-  "Checksums-Sha256": [
-    "bc650ce168481d183b8e495d2d5796440a80fdb31aaa6ff90b41767ff1a9da9f 6570 llvm-toolchain-3.9_3.9.1-9.dsc a769c02964f9a93a978c7c46bb410398f52b1d65d3042db57cf36125f5ffe15f 488936 llvm-toolchain-3.9_3.9.1.orig-clang-tools-extra.tar.bz2 74a8086969f7f45312fd2280132d976adcff041938aeb3c6d3cdaac537bf4854 11391148 llvm-toolchain-3.9_3.9.1.orig-clang.tar.bz2 0338475cb10595fc674d3078149f22fb348a206fe27d055dc285466783d0a392 1780329 llvm-toolchain-3.9_3.9.1.orig-compiler-rt.tar.bz2 063896feef13d21b9919de176f74b98ab4f07a80d9adb54f25b4ea2f4f9af950 527216 llvm-toolchain-3.9_3.9.1.orig-lld.tar.bz2 0d233083ba0f883a3e45df81e20e21bba99144310147ac834cfb6ee5ddf8ac8a 7486494 llvm-toolchain-3.9_3.9.1.orig-lldb.tar.bz2 f338a410667572732601f6a1d200f40be7d25b2d8064872bbbea76f6048b7c2c 3242021 llvm-toolchain-3.9_3.9.1.orig-polly.tar.bz2 aa56c943b2c84585bfe2e97f4677e4e33ed6c8d959bd9f5f7db2ad2047562e45 20940957 llvm-toolchain-3.9_3.9.1.orig.tar.bz2 f4385037fd35dcf5aa9e20c5e458c2c124982d2fefd178d02ccce7fa49672107 76368 llvm-toolchain-3.9_3.9.1-9.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/l/llvm-toolchain-3.9"
-  ],
-  "Files": [
-    "c8b036f1c904905e749ab8b5b049c83b 6570 llvm-toolchain-3.9_3.9.1-9.dsc ffe8e0cc41784953741d054e6af2337b 488936 llvm-toolchain-3.9_3.9.1.orig-clang-tools-extra.tar.bz2 e1988e1a9689b03593fb7e0fe0a6e2bd 11391148 llvm-toolchain-3.9_3.9.1.orig-clang.tar.bz2 a7f7a472ebd8eda196ff313f6d7cc7f1 1780329 llvm-toolchain-3.9_3.9.1.orig-compiler-rt.tar.bz2 17fde31e38f85f5d1537df8ee44c9112 527216 llvm-toolchain-3.9_3.9.1.orig-lld.tar.bz2 d13fe9b441c8ed87465127b7fd1ba215 7486494 llvm-toolchain-3.9_3.9.1.orig-lldb.tar.bz2 3537fa10fe47343d1cdd98a33c690313 3242021 llvm-toolchain-3.9_3.9.1.orig-polly.tar.bz2 84f4959ea6d8f047494d9ab76726f33e 20940957 llvm-toolchain-3.9_3.9.1.orig.tar.bz2 a47e7a1020740c6999638df675f7fa72 76368 llvm-toolchain-3.9_3.9.1-9.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.llvm.org/"
-  ],
-  "Maintainer": [
-    "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "llvm-toolchain-3.9"
-  ],
-  "Package-List": [
-    "clang-3.9 deb devel optional arch=any clang-3.9-doc deb doc optional arch=all clang-3.9-examples deb doc optional arch=any clang-format-3.9 deb devel optional arch=any clang-tidy-3.9 deb devel optional arch=any libclang-3.9-dev deb libdevel optional arch=any libclang-common-3.9-dev deb libdevel optional arch=any libclang1-3.9 deb devel optional arch=any libclang1-3.9-dbg deb debug extra arch=any libfuzzer-3.9-dev deb libdevel optional arch=any liblldb-3.9 deb libs optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,alpha,hppa,m68k,powerpcspe,sh4,x32,mips,mipsel,arm64 liblldb-3.9-dbg deb debug extra arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,hppa,m68k,powerpcspe,sh4,x32,mips,mipsel,arm64 liblldb-3.9-dev deb libdevel optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,alpha,hppa,m68k,powerpcspe,sh4,x32,mips,mipsel,arm64 libllvm-3.9-ocaml-dev deb ocaml optional arch=amd64,arm64,armel,armhf,i386 libllvm3.9 deb libs optional arch=any libllvm3.9-dbg deb debug extra arch=any lldb-3.9 deb devel optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,alpha,hppa,m68k,powerpcspe,sh4,x32,mips,mipsel,arm64 llvm-3.9 deb devel optional arch=any llvm-3.9-dev deb devel optional arch=any llvm-3.9-doc deb doc optional arch=all llvm-3.9-examples deb doc optional arch=all llvm-3.9-runtime deb devel optional arch=any llvm-3.9-tools deb devel optional arch=any python-clang-3.9 deb python optional arch=any python-lldb-3.9 deb python optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,hppa,m68k,powerpcspe,sh4,x32,mips,mipsel,arm64"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Sylvestre Ledru <sylvestre@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://svn.debian.org/viewsvn/pkg-llvm/llvm-toolchain/branches/3.9/"
-  ],
-  "Vcs-Svn": [
-    "svn://anonscm.debian.org/svn/pkg-llvm/llvm-toolchain/branches/3.9/"
-  ],
-  "Version": [
-    "1:3.9.1-9"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"clang-3.9, clang-format-3.9, clang-tidy-3.9, clang-3.9-doc, libclang1-3.9, libclang1-3.9-dbg, libclang-3.9-dev, libclang-common-3.9-dev, libfuzzer-3.9-dev, python-clang-3.9, clang-3.9-examples, libllvm3.9, libllvm3.9-dbg, llvm-3.9, llvm-3.9-runtime, llvm-3.9-dev, llvm-3.9-tools, libllvm-3.9-ocaml-dev, llvm-3.9-doc, llvm-3.9-examples, lldb-3.9, liblldb-3.9, liblldb-3.9-dbg, python-lldb-3.9, liblldb-3.9-dev"
+	],
+	"Build-Conflicts": [
+		"libllvm-3.4-ocaml-dev, libllvm-3.5-ocaml-dev, libllvm-3.8-ocaml-dev, libllvm-3.9-ocaml-dev, ocaml, oprofile"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9.0), flex, bison, dejagnu, tcl, expect, cmake, perl, libtool, chrpath, texinfo, sharutils, libffi-dev (>= 3.0.9), lsb-release, patchutils, diffstat, xz-utils, python-dev, libedit-dev, swig, python-six, python-sphinx, binutils-dev, libjsoncpp-dev, lcov, procps, help2man, zlib1g-dev, ocaml-nox [amd64 arm64 armel armhf i386], ocaml-findlib [amd64 arm64 armel armhf i386], libctypes-ocaml-dev [amd64 arm64 armel armhf i386], dh-ocaml [amd64 arm64 armel armhf i386], g++-multilib [amd64 i386 kfreebsd-amd64 mips mips64 mips64el mipsel powerpc ppc64 s390 s390x sparc sparc64 x32]"
+	],
+	"Checksums-Sha256": [
+		"bc650ce168481d183b8e495d2d5796440a80fdb31aaa6ff90b41767ff1a9da9f 6570 llvm-toolchain-3.9_3.9.1-9.dsc a769c02964f9a93a978c7c46bb410398f52b1d65d3042db57cf36125f5ffe15f 488936 llvm-toolchain-3.9_3.9.1.orig-clang-tools-extra.tar.bz2 74a8086969f7f45312fd2280132d976adcff041938aeb3c6d3cdaac537bf4854 11391148 llvm-toolchain-3.9_3.9.1.orig-clang.tar.bz2 0338475cb10595fc674d3078149f22fb348a206fe27d055dc285466783d0a392 1780329 llvm-toolchain-3.9_3.9.1.orig-compiler-rt.tar.bz2 063896feef13d21b9919de176f74b98ab4f07a80d9adb54f25b4ea2f4f9af950 527216 llvm-toolchain-3.9_3.9.1.orig-lld.tar.bz2 0d233083ba0f883a3e45df81e20e21bba99144310147ac834cfb6ee5ddf8ac8a 7486494 llvm-toolchain-3.9_3.9.1.orig-lldb.tar.bz2 f338a410667572732601f6a1d200f40be7d25b2d8064872bbbea76f6048b7c2c 3242021 llvm-toolchain-3.9_3.9.1.orig-polly.tar.bz2 aa56c943b2c84585bfe2e97f4677e4e33ed6c8d959bd9f5f7db2ad2047562e45 20940957 llvm-toolchain-3.9_3.9.1.orig.tar.bz2 f4385037fd35dcf5aa9e20c5e458c2c124982d2fefd178d02ccce7fa49672107 76368 llvm-toolchain-3.9_3.9.1-9.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/l/llvm-toolchain-3.9"
+	],
+	"Files": [
+		"c8b036f1c904905e749ab8b5b049c83b 6570 llvm-toolchain-3.9_3.9.1-9.dsc ffe8e0cc41784953741d054e6af2337b 488936 llvm-toolchain-3.9_3.9.1.orig-clang-tools-extra.tar.bz2 e1988e1a9689b03593fb7e0fe0a6e2bd 11391148 llvm-toolchain-3.9_3.9.1.orig-clang.tar.bz2 a7f7a472ebd8eda196ff313f6d7cc7f1 1780329 llvm-toolchain-3.9_3.9.1.orig-compiler-rt.tar.bz2 17fde31e38f85f5d1537df8ee44c9112 527216 llvm-toolchain-3.9_3.9.1.orig-lld.tar.bz2 d13fe9b441c8ed87465127b7fd1ba215 7486494 llvm-toolchain-3.9_3.9.1.orig-lldb.tar.bz2 3537fa10fe47343d1cdd98a33c690313 3242021 llvm-toolchain-3.9_3.9.1.orig-polly.tar.bz2 84f4959ea6d8f047494d9ab76726f33e 20940957 llvm-toolchain-3.9_3.9.1.orig.tar.bz2 a47e7a1020740c6999638df675f7fa72 76368 llvm-toolchain-3.9_3.9.1-9.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.llvm.org/"
+	],
+	"Maintainer": [
+		"LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"llvm-toolchain-3.9"
+	],
+	"Package-List": [
+		"clang-3.9 deb devel optional arch=any clang-3.9-doc deb doc optional arch=all clang-3.9-examples deb doc optional arch=any clang-format-3.9 deb devel optional arch=any clang-tidy-3.9 deb devel optional arch=any libclang-3.9-dev deb libdevel optional arch=any libclang-common-3.9-dev deb libdevel optional arch=any libclang1-3.9 deb devel optional arch=any libclang1-3.9-dbg deb debug extra arch=any libfuzzer-3.9-dev deb libdevel optional arch=any liblldb-3.9 deb libs optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,alpha,hppa,m68k,powerpcspe,sh4,x32,mips,mipsel,arm64 liblldb-3.9-dbg deb debug extra arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,hppa,m68k,powerpcspe,sh4,x32,mips,mipsel,arm64 liblldb-3.9-dev deb libdevel optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,alpha,hppa,m68k,powerpcspe,sh4,x32,mips,mipsel,arm64 libllvm-3.9-ocaml-dev deb ocaml optional arch=amd64,arm64,armel,armhf,i386 libllvm3.9 deb libs optional arch=any libllvm3.9-dbg deb debug extra arch=any lldb-3.9 deb devel optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,alpha,hppa,m68k,powerpcspe,sh4,x32,mips,mipsel,arm64 llvm-3.9 deb devel optional arch=any llvm-3.9-dev deb devel optional arch=any llvm-3.9-doc deb doc optional arch=all llvm-3.9-examples deb doc optional arch=all llvm-3.9-runtime deb devel optional arch=any llvm-3.9-tools deb devel optional arch=any python-clang-3.9 deb python optional arch=any python-lldb-3.9 deb python optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,hppa,m68k,powerpcspe,sh4,x32,mips,mipsel,arm64"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Sylvestre Ledru <sylvestre@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://svn.debian.org/viewsvn/pkg-llvm/llvm-toolchain/branches/3.9/"
+	],
+	"Vcs-Svn": [
+		"svn://anonscm.debian.org/svn/pkg-llvm/llvm-toolchain/branches/3.9/"
+	],
+	"Version": [
+		"1:3.9.1-9"
+	]
 }

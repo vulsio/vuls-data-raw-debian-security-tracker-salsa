@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-findshlibs-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cc-1+default-dev (>= 1.0.67-~~) <!nocheck>, librust-lazy-static-1+default-dev (>= 1.4-~~) <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.104-~~) <!nocheck>, librust-winapi-0.3+default-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+libloaderapi-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+memoryapi-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+processthreadsapi-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+psapi-dev (>= 0.3.9-~~) <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "f90f598b77b13ddd3ce3884ad7da0027a7149628a8a5e15a5ea54ca1064d845e 2658 rust-findshlibs_0.10.2-1.dsc 5b086f7ba676a845d51c9c7d01d03382eb923fd579f68c39c01fa175b2e15ecc 20028 rust-findshlibs_0.10.2.orig.tar.gz 4fc628b79a6af105f34b9880cd74dd90fcf7eefffdcb3888231acec49499d010 2972 rust-findshlibs_0.10.2-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-findshlibs"
-  ],
-  "Files": [
-    "2dba37858024711d2e91560a29823b49 2658 rust-findshlibs_0.10.2-1.dsc aa713bffc1350b1d47ecc303d1b34491 20028 rust-findshlibs_0.10.2.orig.tar.gz e79e1c3c9d24943c813c3c595185cce5 2972 rust-findshlibs_0.10.2-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-findshlibs"
-  ],
-  "Package-List": [
-    "librust-findshlibs-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.5.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo"
-  ],
-  "Uploaders": [
-    "Ximin Luo <infinity0@debian.org>, kpcyrd <git@rxv.cc>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/findshlibs"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/findshlibs]"
-  ],
-  "Version": [
-    "0.10.2-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-findshlibs-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cc-1+default-dev (>= 1.0.67-~~) <!nocheck>, librust-lazy-static-1+default-dev (>= 1.4-~~) <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.104-~~) <!nocheck>, librust-winapi-0.3+default-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+libloaderapi-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+memoryapi-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+processthreadsapi-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+psapi-dev (>= 0.3.9-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"f90f598b77b13ddd3ce3884ad7da0027a7149628a8a5e15a5ea54ca1064d845e 2658 rust-findshlibs_0.10.2-1.dsc 5b086f7ba676a845d51c9c7d01d03382eb923fd579f68c39c01fa175b2e15ecc 20028 rust-findshlibs_0.10.2.orig.tar.gz 4fc628b79a6af105f34b9880cd74dd90fcf7eefffdcb3888231acec49499d010 2972 rust-findshlibs_0.10.2-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-findshlibs"
+	],
+	"Files": [
+		"2dba37858024711d2e91560a29823b49 2658 rust-findshlibs_0.10.2-1.dsc aa713bffc1350b1d47ecc303d1b34491 20028 rust-findshlibs_0.10.2.orig.tar.gz e79e1c3c9d24943c813c3c595185cce5 2972 rust-findshlibs_0.10.2-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-findshlibs"
+	],
+	"Package-List": [
+		"librust-findshlibs-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo"
+	],
+	"Uploaders": [
+		"Ximin Luo <infinity0@debian.org>, kpcyrd <git@rxv.cc>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/findshlibs"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/findshlibs]"
+	],
+	"Version": [
+		"0.10.2-1"
+	]
 }

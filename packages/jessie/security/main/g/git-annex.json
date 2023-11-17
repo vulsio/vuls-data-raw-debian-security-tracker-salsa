@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "git-annex"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), ghc (>= 7.4), cabal-install, libghc-mtl-dev (>= 2.1.1), libghc-missingh-dev, libghc-data-default-dev, libghc-hslogger-dev, libghc-pcre-light-dev, libghc-sha-dev, libghc-cryptohash-dev, libghc-dataenc-dev, libghc-utf8-string-dev, libghc-hs3-dev (>= 0.5.6), libghc-dav-dev (>= 1.0) [amd64 i386 kfreebsd-amd64 kfreebsd-i386 powerpc], libghc-quickcheck2-dev, libghc-monad-control-dev (>= 0.3), libghc-exceptions-dev (>= 0.6), libghc-transformers-dev, libghc-unix-compat-dev, libghc-dlist-dev, libghc-uuid-dev, libghc-json-dev, libghc-aeson-dev, libghc-ifelse-dev, libghc-bloomfilter-dev, libghc-edit-distance-dev, libghc-hinotify-dev [linux-any], libghc-stm-dev (>= 2.3), libghc-dbus-dev (>= 0.10.3) [linux-any], libghc-fdo-notify-dev (>= 0.3) [linux-any], libghc-yesod-dev [i386 amd64 kfreebsd-i386 kfreebsd-amd64 powerpc], libghc-yesod-static-dev [i386 amd64 kfreebsd-i386 kfreebsd-amd64 powerpc], libghc-yesod-default-dev [i386 amd64 kfreebsd-amd64 powerpc], libghc-hamlet-dev [i386 amd64 kfreebsd-i386 kfreebsd-amd64 powerpc], libghc-shakespeare-dev [i386 amd64 kfreebsd-i386 kfreebsd-amd64 powerpc], libghc-clientsession-dev [i386 amd64 kfreebsd-i386 kfreebsd-amd64 powerpc], libghc-warp-dev [i386 amd64 kfreebsd-i386 kfreebsd-amd64 powerpc], libghc-warp-tls-dev [i386 amd64 kfreebsd-i386 kfreebsd-amd64 powerpc], libghc-wai-dev [i386 amd64 kfreebsd-i386 kfreebsd-amd64 powerpc], libghc-wai-extra-dev [i386 amd64 kfreebsd-i386 kfreebsd-amd64 powerpc], libghc-securemem-dev, libghc-byteable-dev, libghc-dns-dev, libghc-case-insensitive-dev, libghc-http-types-dev, libghc-http-conduit-dev, libghc-blaze-builder-dev, libghc-crypto-api-dev, libghc-network-multicast-dev, libghc-network-info-dev [linux-any kfreebsd-any], libghc-safesemaphore-dev, libghc-network-protocol-xmpp-dev (>= 0.4.3-1+b1), libghc-gnutls-dev (>= 0.1.4), libghc-xml-types-dev, libghc-async-dev, libghc-feed-dev (>= 0.3.9.2), libghc-regex-tdfa-dev [!mipsel !s390], libghc-regex-compat-dev [mipsel s390], libghc-tasty-dev (>= 0.7) [!sparc], libghc-tasty-hunit-dev [!sparc], libghc-tasty-quickcheck-dev [!sparc], libghc-tasty-rerun-dev [!sparc], libghc-optparse-applicative-dev [!sparc], lsof [!kfreebsd-i386 !kfreebsd-amd64 !hurd-any], ikiwiki, perlmagick, git (>= 1:2.0), quilt, rsync, wget, curl, openssh-client, git-remote-gcrypt (>= 0.20130908-6), llvm-3.4 [armel armhf]"
-  ],
-  "Checksums-Sha1": [
-    "fa256f9f2743e80e93a284b753e908f49f12cff2 3875 git-annex_5.20141125+oops-1+deb8u2.dsc afc4ca3fa7f2db6a815ef3379f0a743e62b44d21 5929810 git-annex_5.20141125+oops.orig.tar.gz 7373a8744d5e48a0f09516905115d1383fbbd19d 80320 git-annex_5.20141125+oops-1+deb8u2.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "372bb6ffce1388257c09c3cb81df5c385d2f328e7b23b8706706c9129f28749f 3875 git-annex_5.20141125+oops-1+deb8u2.dsc 1c41bce138a295d24980188547620f2e2f9f07712972ba5a7697512f4a7a49a5 5929810 git-annex_5.20141125+oops.orig.tar.gz c690b8eed3c5d5bdc95dca91bf888be0d74fa00d608bb5b01bd6949e003a03b5 80320 git-annex_5.20141125+oops-1+deb8u2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/g/git-annex"
-  ],
-  "Files": [
-    "7fb9162b87595bb33005838d27756bdd 3875 git-annex_5.20141125+oops-1+deb8u2.dsc 9930bf512dd78122a66107e6cf8300f4 5929810 git-annex_5.20141125+oops.orig.tar.gz 95c61e8f2bf83551e31db6a9aa3fd292 80320 git-annex_5.20141125+oops-1+deb8u2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://git-annex.branchable.com/"
-  ],
-  "Maintainer": [
-    "Joey Hess <joeyh@debian.org>"
-  ],
-  "Package": [
-    "git-annex"
-  ],
-  "Package-List": [
-    "git-annex deb utils optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "utils"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Vcs-Git": [
-    "git://git.kitenet.net/git-annex"
-  ],
-  "Version": [
-    "5.20141125+oops-1+deb8u2"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"git-annex"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), ghc (>= 7.4), cabal-install, libghc-mtl-dev (>= 2.1.1), libghc-missingh-dev, libghc-data-default-dev, libghc-hslogger-dev, libghc-pcre-light-dev, libghc-sha-dev, libghc-cryptohash-dev, libghc-dataenc-dev, libghc-utf8-string-dev, libghc-hs3-dev (>= 0.5.6), libghc-dav-dev (>= 1.0) [amd64 i386 kfreebsd-amd64 kfreebsd-i386 powerpc], libghc-quickcheck2-dev, libghc-monad-control-dev (>= 0.3), libghc-exceptions-dev (>= 0.6), libghc-transformers-dev, libghc-unix-compat-dev, libghc-dlist-dev, libghc-uuid-dev, libghc-json-dev, libghc-aeson-dev, libghc-ifelse-dev, libghc-bloomfilter-dev, libghc-edit-distance-dev, libghc-hinotify-dev [linux-any], libghc-stm-dev (>= 2.3), libghc-dbus-dev (>= 0.10.3) [linux-any], libghc-fdo-notify-dev (>= 0.3) [linux-any], libghc-yesod-dev [i386 amd64 kfreebsd-i386 kfreebsd-amd64 powerpc], libghc-yesod-static-dev [i386 amd64 kfreebsd-i386 kfreebsd-amd64 powerpc], libghc-yesod-default-dev [i386 amd64 kfreebsd-amd64 powerpc], libghc-hamlet-dev [i386 amd64 kfreebsd-i386 kfreebsd-amd64 powerpc], libghc-shakespeare-dev [i386 amd64 kfreebsd-i386 kfreebsd-amd64 powerpc], libghc-clientsession-dev [i386 amd64 kfreebsd-i386 kfreebsd-amd64 powerpc], libghc-warp-dev [i386 amd64 kfreebsd-i386 kfreebsd-amd64 powerpc], libghc-warp-tls-dev [i386 amd64 kfreebsd-i386 kfreebsd-amd64 powerpc], libghc-wai-dev [i386 amd64 kfreebsd-i386 kfreebsd-amd64 powerpc], libghc-wai-extra-dev [i386 amd64 kfreebsd-i386 kfreebsd-amd64 powerpc], libghc-securemem-dev, libghc-byteable-dev, libghc-dns-dev, libghc-case-insensitive-dev, libghc-http-types-dev, libghc-http-conduit-dev, libghc-blaze-builder-dev, libghc-crypto-api-dev, libghc-network-multicast-dev, libghc-network-info-dev [linux-any kfreebsd-any], libghc-safesemaphore-dev, libghc-network-protocol-xmpp-dev (>= 0.4.3-1+b1), libghc-gnutls-dev (>= 0.1.4), libghc-xml-types-dev, libghc-async-dev, libghc-feed-dev (>= 0.3.9.2), libghc-regex-tdfa-dev [!mipsel !s390], libghc-regex-compat-dev [mipsel s390], libghc-tasty-dev (>= 0.7) [!sparc], libghc-tasty-hunit-dev [!sparc], libghc-tasty-quickcheck-dev [!sparc], libghc-tasty-rerun-dev [!sparc], libghc-optparse-applicative-dev [!sparc], lsof [!kfreebsd-i386 !kfreebsd-amd64 !hurd-any], ikiwiki, perlmagick, git (>= 1:2.0), quilt, rsync, wget, curl, openssh-client, git-remote-gcrypt (>= 0.20130908-6), llvm-3.4 [armel armhf]"
+	],
+	"Checksums-Sha1": [
+		"fa256f9f2743e80e93a284b753e908f49f12cff2 3875 git-annex_5.20141125+oops-1+deb8u2.dsc afc4ca3fa7f2db6a815ef3379f0a743e62b44d21 5929810 git-annex_5.20141125+oops.orig.tar.gz 7373a8744d5e48a0f09516905115d1383fbbd19d 80320 git-annex_5.20141125+oops-1+deb8u2.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"372bb6ffce1388257c09c3cb81df5c385d2f328e7b23b8706706c9129f28749f 3875 git-annex_5.20141125+oops-1+deb8u2.dsc 1c41bce138a295d24980188547620f2e2f9f07712972ba5a7697512f4a7a49a5 5929810 git-annex_5.20141125+oops.orig.tar.gz c690b8eed3c5d5bdc95dca91bf888be0d74fa00d608bb5b01bd6949e003a03b5 80320 git-annex_5.20141125+oops-1+deb8u2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/g/git-annex"
+	],
+	"Files": [
+		"7fb9162b87595bb33005838d27756bdd 3875 git-annex_5.20141125+oops-1+deb8u2.dsc 9930bf512dd78122a66107e6cf8300f4 5929810 git-annex_5.20141125+oops.orig.tar.gz 95c61e8f2bf83551e31db6a9aa3fd292 80320 git-annex_5.20141125+oops-1+deb8u2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://git-annex.branchable.com/"
+	],
+	"Maintainer": [
+		"Joey Hess <joeyh@debian.org>"
+	],
+	"Package": [
+		"git-annex"
+	],
+	"Package-List": [
+		"git-annex deb utils optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"utils"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Vcs-Git": [
+		"git://git.kitenet.net/git-annex"
+	],
+	"Version": [
+		"5.20141125+oops-1+deb8u2"
+	]
 }

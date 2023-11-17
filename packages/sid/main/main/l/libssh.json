@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libssh-4, libssh-gcrypt-4, libssh-dev, libssh-gcrypt-dev, libssh-doc"
-  ],
-  "Build-Depends": [
-    "cmake (>= 2.8.5), debhelper-compat (= 13), libcmocka-dev <!nocheck>, libgcrypt-dev, libkrb5-dev | heimdal-dev, libssl-dev, zlib1g-dev | libz-dev, openssh-client <!nocheck>, openssh-server <!nocheck>, pkg-config, python3:any <!nocheck>"
-  ],
-  "Build-Depends-Indep": [
-    "doxygen <!nodoc>, graphviz <!nodoc>"
-  ],
-  "Checksums-Sha256": [
-    "ac2999812d859000fec262307c90708aa6fb571f58d7fb98ffe0c60453ec8e9e 2742 libssh_0.10.5-3.dsc b60e2ff7f367b9eee2b5634d3a63303ddfede0e6a18dfca88c44a8770e7e4234 557776 libssh_0.10.5.orig.tar.xz cc5427ac9480b30f87f7c3c2dca1830c1e7fe3c18503da2c07d4110150916c66 833 libssh_0.10.5.orig.tar.xz.asc 8fec9c76bd4d558fa8470cfe35ea3367e288c023ed9d9b068e380ecb629a16cd 28156 libssh_0.10.5-3.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/libs/libssh"
-  ],
-  "Files": [
-    "98d9417ff6eac4c80f44d9160fdf6498 2742 libssh_0.10.5-3.dsc d8db64ad57bbf25fc53396dd5438a3ef 557776 libssh_0.10.5.orig.tar.xz 5216efd082214fa43e966115bb9502f8 833 libssh_0.10.5.orig.tar.xz.asc e8f750ebc8df6a13fec120e1f2802e19 28156 libssh_0.10.5-3.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.libssh.org/"
-  ],
-  "Maintainer": [
-    "Laurent Bigonville <bigon@debian.org>"
-  ],
-  "Package": [
-    "libssh"
-  ],
-  "Package-List": [
-    "libssh-4 deb libs optional arch=any libssh-dev deb libdevel optional arch=any libssh-doc deb doc optional arch=all profile=!nodoc libssh-gcrypt-4 deb libs optional arch=any libssh-gcrypt-dev deb libdevel optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "libs"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential, libglib2.0-dev, openssh-client"
-  ],
-  "Uploaders": [
-    "Mike Gabriel <sunweaver@debian.org>, Martin Pitt <mpitt@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian/libssh"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian/libssh.git"
-  ],
-  "Version": [
-    "0.10.5-3"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libssh-4, libssh-gcrypt-4, libssh-dev, libssh-gcrypt-dev, libssh-doc"
+	],
+	"Build-Depends": [
+		"cmake (>= 2.8.5), debhelper-compat (= 13), libcmocka-dev <!nocheck>, libgcrypt-dev, libkrb5-dev | heimdal-dev, libssl-dev, zlib1g-dev | libz-dev, openssh-client <!nocheck>, openssh-server <!nocheck>, pkg-config, python3:any <!nocheck>"
+	],
+	"Build-Depends-Indep": [
+		"doxygen <!nodoc>, graphviz <!nodoc>"
+	],
+	"Checksums-Sha256": [
+		"ac2999812d859000fec262307c90708aa6fb571f58d7fb98ffe0c60453ec8e9e 2742 libssh_0.10.5-3.dsc b60e2ff7f367b9eee2b5634d3a63303ddfede0e6a18dfca88c44a8770e7e4234 557776 libssh_0.10.5.orig.tar.xz cc5427ac9480b30f87f7c3c2dca1830c1e7fe3c18503da2c07d4110150916c66 833 libssh_0.10.5.orig.tar.xz.asc 8fec9c76bd4d558fa8470cfe35ea3367e288c023ed9d9b068e380ecb629a16cd 28156 libssh_0.10.5-3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/libs/libssh"
+	],
+	"Files": [
+		"98d9417ff6eac4c80f44d9160fdf6498 2742 libssh_0.10.5-3.dsc d8db64ad57bbf25fc53396dd5438a3ef 557776 libssh_0.10.5.orig.tar.xz 5216efd082214fa43e966115bb9502f8 833 libssh_0.10.5.orig.tar.xz.asc e8f750ebc8df6a13fec120e1f2802e19 28156 libssh_0.10.5-3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.libssh.org/"
+	],
+	"Maintainer": [
+		"Laurent Bigonville <bigon@debian.org>"
+	],
+	"Package": [
+		"libssh"
+	],
+	"Package-List": [
+		"libssh-4 deb libs optional arch=any libssh-dev deb libdevel optional arch=any libssh-doc deb doc optional arch=all profile=!nodoc libssh-gcrypt-4 deb libs optional arch=any libssh-gcrypt-dev deb libdevel optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"libs"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, libglib2.0-dev, openssh-client"
+	],
+	"Uploaders": [
+		"Mike Gabriel <sunweaver@debian.org>, Martin Pitt <mpitt@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/libssh"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/libssh.git"
+	],
+	"Version": [
+		"0.10.5-3"
+	]
 }

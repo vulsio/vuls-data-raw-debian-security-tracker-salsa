@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libxine2-doc, libxine2, libxine2-bin, libxine2-dev, libxine2-ffmpeg, libxine2-gnome, libxine2-console, libxine2-vdr, libxine2-x, libxine2-misc-plugins, libxine2-plugins, libxine2-all-plugins"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 5.0.1), binutils (>= 2.12.90.0.9), pkg-config, dh-autoreconf, libavcodec-dev (>= 4:0.7~), libavformat-dev (>= 4:0.7~), libpostproc-dev (>= 4:0.7~), libvdpau-dev, libva-dev [!hurd-any], libvpx-dev, libxcb-xv0-dev, libxcb-shm0-dev, libxcb-shape0-dev, libxinerama-dev, libxv-dev, libxvmc-dev, libxt-dev, libasound2-dev [linux-any], libv4l-dev [linux-any], libaa1-dev, libcaca-dev, libmodplug-dev, graphicsmagick-libmagick-dev-compat, libpng-dev, libfreetype6-dev, libogg-dev, libvorbis-dev, libtheora-dev, libesd0-dev, libgnomevfs2-dev, libvcdinfo-dev, libpulse-dev, liblircclient-dev, libjack-jackd2-dev | libjack-dev (>= 0.116.1-3), libdirectfb-dev (>= 0.9.22), libgtk2.0-dev, libfaad-dev, libflac-dev, libsdl1.2-dev, libwavpack-dev, libsmbclient-dev [!hurd-i386], libspeex-dev, libmng-dev, libmad0-dev, libmpcdec-dev, libcdio-dev (>= 0.76), libbluray-dev, zlib1g-dev, w3m, xmlto, librsvg2-bin"
-  ],
-  "Checksums-Sha256": [
-    "9e1e31cae3861663568c8bfaf0356b987c56820160acf741016f05d0be91435a 3457 xine-lib-1.2_1.2.6-1.3.dsc bd041d738817c7c0c6392a3c0e5bda5a664a47e035135b5a449364f8c9b6a005 5020964 xine-lib-1.2_1.2.6.orig.tar.xz ae30f90de9fa9008d1270a736f3db8c6bf97b3780555e13760bb43b770c768e0 34920 xine-lib-1.2_1.2.6-1.3.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/x/xine-lib-1.2"
-  ],
-  "Files": [
-    "516720138fdbe756ffb80e0b6920ca00 3457 xine-lib-1.2_1.2.6-1.3.dsc 02ee3c2380273989b4b016903209e05e 5020964 xine-lib-1.2_1.2.6.orig.tar.xz 064ff20bd89dd23f4218d0760cea9598 34920 xine-lib-1.2_1.2.6-1.3.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://xine-project.org/"
-  ],
-  "Maintainer": [
-    "Darren Salt <devspam@moreofthesa.me.uk>"
-  ],
-  "Package": [
-    "xine-lib-1.2"
-  ],
-  "Package-List": [
-    "libxine2 deb libs optional arch=any libxine2-all-plugins deb libs extra arch=all libxine2-bin deb libs optional arch=any libxine2-console deb libs extra arch=any libxine2-dev deb libdevel optional arch=any libxine2-doc deb doc optional arch=all libxine2-ffmpeg deb libs optional arch=any libxine2-gnome deb libs optional arch=any libxine2-misc-plugins deb libs optional arch=any libxine2-plugins deb libs extra arch=all libxine2-vdr deb video extra arch=any libxine2-x deb video optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "libs"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Uploaders": [
-    "Reinhard Tartler <siretart@tauware.de>"
-  ],
-  "Vcs-Browser": [
-    "http://hg.debian.org/hg/xine-lib/pkg/xine-lib-1.2.deb"
-  ],
-  "Vcs-Hg": [
-    "http://hg.debian.org/hg/xine-lib/pkg/xine-lib-1.2.deb"
-  ],
-  "Version": [
-    "1.2.6-1.3"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libxine2-doc, libxine2, libxine2-bin, libxine2-dev, libxine2-ffmpeg, libxine2-gnome, libxine2-console, libxine2-vdr, libxine2-x, libxine2-misc-plugins, libxine2-plugins, libxine2-all-plugins"
+	],
+	"Build-Depends": [
+		"debhelper (>= 5.0.1), binutils (>= 2.12.90.0.9), pkg-config, dh-autoreconf, libavcodec-dev (>= 4:0.7~), libavformat-dev (>= 4:0.7~), libpostproc-dev (>= 4:0.7~), libvdpau-dev, libva-dev [!hurd-any], libvpx-dev, libxcb-xv0-dev, libxcb-shm0-dev, libxcb-shape0-dev, libxinerama-dev, libxv-dev, libxvmc-dev, libxt-dev, libasound2-dev [linux-any], libv4l-dev [linux-any], libaa1-dev, libcaca-dev, libmodplug-dev, graphicsmagick-libmagick-dev-compat, libpng-dev, libfreetype6-dev, libogg-dev, libvorbis-dev, libtheora-dev, libesd0-dev, libgnomevfs2-dev, libvcdinfo-dev, libpulse-dev, liblircclient-dev, libjack-jackd2-dev | libjack-dev (>= 0.116.1-3), libdirectfb-dev (>= 0.9.22), libgtk2.0-dev, libfaad-dev, libflac-dev, libsdl1.2-dev, libwavpack-dev, libsmbclient-dev [!hurd-i386], libspeex-dev, libmng-dev, libmad0-dev, libmpcdec-dev, libcdio-dev (>= 0.76), libbluray-dev, zlib1g-dev, w3m, xmlto, librsvg2-bin"
+	],
+	"Checksums-Sha256": [
+		"9e1e31cae3861663568c8bfaf0356b987c56820160acf741016f05d0be91435a 3457 xine-lib-1.2_1.2.6-1.3.dsc bd041d738817c7c0c6392a3c0e5bda5a664a47e035135b5a449364f8c9b6a005 5020964 xine-lib-1.2_1.2.6.orig.tar.xz ae30f90de9fa9008d1270a736f3db8c6bf97b3780555e13760bb43b770c768e0 34920 xine-lib-1.2_1.2.6-1.3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/x/xine-lib-1.2"
+	],
+	"Files": [
+		"516720138fdbe756ffb80e0b6920ca00 3457 xine-lib-1.2_1.2.6-1.3.dsc 02ee3c2380273989b4b016903209e05e 5020964 xine-lib-1.2_1.2.6.orig.tar.xz 064ff20bd89dd23f4218d0760cea9598 34920 xine-lib-1.2_1.2.6-1.3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://xine-project.org/"
+	],
+	"Maintainer": [
+		"Darren Salt <devspam@moreofthesa.me.uk>"
+	],
+	"Package": [
+		"xine-lib-1.2"
+	],
+	"Package-List": [
+		"libxine2 deb libs optional arch=any libxine2-all-plugins deb libs extra arch=all libxine2-bin deb libs optional arch=any libxine2-console deb libs extra arch=any libxine2-dev deb libdevel optional arch=any libxine2-doc deb doc optional arch=all libxine2-ffmpeg deb libs optional arch=any libxine2-gnome deb libs optional arch=any libxine2-misc-plugins deb libs optional arch=any libxine2-plugins deb libs extra arch=all libxine2-vdr deb video extra arch=any libxine2-x deb video optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"libs"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Uploaders": [
+		"Reinhard Tartler <siretart@tauware.de>"
+	],
+	"Vcs-Browser": [
+		"http://hg.debian.org/hg/xine-lib/pkg/xine-lib-1.2.deb"
+	],
+	"Vcs-Hg": [
+		"http://hg.debian.org/hg/xine-lib/pkg/xine-lib-1.2.deb"
+	],
+	"Version": [
+		"1.2.6-1.3"
+	]
 }

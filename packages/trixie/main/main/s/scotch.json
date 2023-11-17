@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "scotch, ptscotch, libscotch-dev, libptscotch-dev, libscotchmetis-dev, libscotchparmetis-dev, libscotch-7.0, libptscotch-7.0"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), gfortran | fortran-compiler, bison, flex, zlib1g-dev, libbz2-dev, liblzma-dev, chrpath, mpi-default-dev, mpi-default-bin"
-  ],
-  "Checksums-Sha256": [
-    "89c7a6e3070e1c06ea46f61285b3ad028511293d71cce28417d445e96a6c3eee 2575 scotch_7.0.4-1.dsc 7013bb9ff077274e5525fd3fb60115813650a236a3ba2ab4608f3ace478040c1 6095384 scotch_7.0.4.orig.tar.xz d756816aa25738406f7d65259ec100544edf89553a9828ec883d368edac48f71 20988 scotch_7.0.4-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/s/scotch"
-  ],
-  "Files": [
-    "cf91401a294333f4545feb67598c19e2 2575 scotch_7.0.4-1.dsc 8bb5cc42414c54c0626ec7641716a84c 6095384 scotch_7.0.4.orig.tar.xz b1f2fdaf59a404209d81e1b82c609974 20988 scotch_7.0.4-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.labri.fr/perso/pelegrin/scotch/"
-  ],
-  "Maintainer": [
-    "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "scotch"
-  ],
-  "Package-List": [
-    "libptscotch-7.0 deb libs optional arch=any libptscotch-dev deb libdevel optional arch=any libscotch-7.0 deb libs optional arch=any libscotch-dev deb libdevel optional arch=any libscotchmetis-dev deb libdevel optional arch=any libscotchparmetis-dev deb libdevel optional arch=any ptscotch deb math optional arch=any scotch deb math optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "math"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "@builddeps@"
-  ],
-  "Uploaders": [
-    "\"Adam C. Powell, IV\" <hazelsct@debian.org>, Andreas Tille <tille@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/science-team/scotch"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/science-team/scotch.git"
-  ],
-  "Version": [
-    "7.0.4-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"scotch, ptscotch, libscotch-dev, libptscotch-dev, libscotchmetis-dev, libscotchparmetis-dev, libscotch-7.0, libptscotch-7.0"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), gfortran | fortran-compiler, bison, flex, zlib1g-dev, libbz2-dev, liblzma-dev, chrpath, mpi-default-dev, mpi-default-bin"
+	],
+	"Checksums-Sha256": [
+		"89c7a6e3070e1c06ea46f61285b3ad028511293d71cce28417d445e96a6c3eee 2575 scotch_7.0.4-1.dsc 7013bb9ff077274e5525fd3fb60115813650a236a3ba2ab4608f3ace478040c1 6095384 scotch_7.0.4.orig.tar.xz d756816aa25738406f7d65259ec100544edf89553a9828ec883d368edac48f71 20988 scotch_7.0.4-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/s/scotch"
+	],
+	"Files": [
+		"cf91401a294333f4545feb67598c19e2 2575 scotch_7.0.4-1.dsc 8bb5cc42414c54c0626ec7641716a84c 6095384 scotch_7.0.4.orig.tar.xz b1f2fdaf59a404209d81e1b82c609974 20988 scotch_7.0.4-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.labri.fr/perso/pelegrin/scotch/"
+	],
+	"Maintainer": [
+		"Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"scotch"
+	],
+	"Package-List": [
+		"libptscotch-7.0 deb libs optional arch=any libptscotch-dev deb libdevel optional arch=any libscotch-7.0 deb libs optional arch=any libscotch-dev deb libdevel optional arch=any libscotchmetis-dev deb libdevel optional arch=any libscotchparmetis-dev deb libdevel optional arch=any ptscotch deb math optional arch=any scotch deb math optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"math"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"@builddeps@"
+	],
+	"Uploaders": [
+		"\"Adam C. Powell, IV\" <hazelsct@debian.org>, Andreas Tille <tille@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/science-team/scotch"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/science-team/scotch.git"
+	],
+	"Version": [
+		"7.0.4-1"
+	]
 }

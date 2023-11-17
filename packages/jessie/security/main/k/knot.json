@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "knot, knot-libs, knot-dbg, knot-dnsutils, knot-host, knot-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), liburcu-dev (>= 0.4), libssl-dev, libidn11-dev, dh-systemd, dh-autoreconf, autotools-dev, flex, bison, pkg-config, libsystemd-daemon-dev [linux-any], libsystemd-journal-dev [linux-any], liblmdb-dev"
-  ],
-  "Build-Depends-Indep": [
-    "texinfo, texlive, texlive-latex-extra, texlive-font-utils, ghostscript, python-sphinx"
-  ],
-  "Checksums-Sha1": [
-    "c98698e4096f9d7f98cc0923c1c5b152fd3e4016 2018 knot_1.6.0-1+deb8u1.dsc 7c005d549bf8946743b8e02a1369a94b92ba1629 781192 knot_1.6.0.orig.tar.xz e35bed027d7d6023d35fac7498ba796a1775b285 17744 knot_1.6.0-1+deb8u1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "e8c6babce53b8d885e63f276e14ac1051147f8094c8a68aa970dba729b3933a8 2018 knot_1.6.0-1+deb8u1.dsc 38d6c19c70f0640bc9331afd1bee61196c647f138f4d36bdea7d0e1b49514f46 781192 knot_1.6.0.orig.tar.xz 169dfa98ce408d00add4b93c73246443834c730f0910f9147bf275ab3a8d92e1 17744 knot_1.6.0-1+deb8u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/k/knot"
-  ],
-  "Files": [
-    "3098ea100fa17048bb377ccf3c13fbb0 2018 knot_1.6.0-1+deb8u1.dsc 63cd27658e05a7cd4f950b7e0b5c723a 781192 knot_1.6.0.orig.tar.xz b1a186db075c3b261580b64f82025ec6 17744 knot_1.6.0-1+deb8u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.knot-dns.cz/"
-  ],
-  "Maintainer": [
-    "Ondřej Surý <ondrej@debian.org>"
-  ],
-  "Package": [
-    "knot"
-  ],
-  "Package-List": [
-    "knot deb net optional arch=any knot-dbg deb debug extra arch=any knot-dnsutils deb net optional arch=any knot-doc deb doc optional arch=all knot-host deb net optional arch=any knot-libs deb libs optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/?p=users/ondrej/knot.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/users/ondrej/knot.git"
-  ],
-  "Version": [
-    "1.6.0-1+deb8u1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"knot, knot-libs, knot-dbg, knot-dnsutils, knot-host, knot-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), liburcu-dev (>= 0.4), libssl-dev, libidn11-dev, dh-systemd, dh-autoreconf, autotools-dev, flex, bison, pkg-config, libsystemd-daemon-dev [linux-any], libsystemd-journal-dev [linux-any], liblmdb-dev"
+	],
+	"Build-Depends-Indep": [
+		"texinfo, texlive, texlive-latex-extra, texlive-font-utils, ghostscript, python-sphinx"
+	],
+	"Checksums-Sha1": [
+		"c98698e4096f9d7f98cc0923c1c5b152fd3e4016 2018 knot_1.6.0-1+deb8u1.dsc 7c005d549bf8946743b8e02a1369a94b92ba1629 781192 knot_1.6.0.orig.tar.xz e35bed027d7d6023d35fac7498ba796a1775b285 17744 knot_1.6.0-1+deb8u1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"e8c6babce53b8d885e63f276e14ac1051147f8094c8a68aa970dba729b3933a8 2018 knot_1.6.0-1+deb8u1.dsc 38d6c19c70f0640bc9331afd1bee61196c647f138f4d36bdea7d0e1b49514f46 781192 knot_1.6.0.orig.tar.xz 169dfa98ce408d00add4b93c73246443834c730f0910f9147bf275ab3a8d92e1 17744 knot_1.6.0-1+deb8u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/k/knot"
+	],
+	"Files": [
+		"3098ea100fa17048bb377ccf3c13fbb0 2018 knot_1.6.0-1+deb8u1.dsc 63cd27658e05a7cd4f950b7e0b5c723a 781192 knot_1.6.0.orig.tar.xz b1a186db075c3b261580b64f82025ec6 17744 knot_1.6.0-1+deb8u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.knot-dns.cz/"
+	],
+	"Maintainer": [
+		"Ondřej Surý <ondrej@debian.org>"
+	],
+	"Package": [
+		"knot"
+	],
+	"Package-List": [
+		"knot deb net optional arch=any knot-dbg deb debug extra arch=any knot-dnsutils deb net optional arch=any knot-doc deb doc optional arch=all knot-host deb net optional arch=any knot-libs deb libs optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/?p=users/ondrej/knot.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/users/ondrej/knot.git"
+	],
+	"Version": [
+		"1.6.0-1+deb8u1"
+	]
 }

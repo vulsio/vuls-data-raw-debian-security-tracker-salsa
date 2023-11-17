@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "tigervnc-common, tigervnc-scraping-server, tigervnc-standalone-server, tigervnc-xorg-extension, tigervnc-viewer"
-  ],
-  "Build-Depends": [
-    "cdbs (>= 0.4.89), dh-autoreconf, cmake (>= 2.8), pristine-tar, gettext, zlib1g-dev, libjpeg-dev, libgnutls28-dev, libpam0g-dev, libxft-dev, libxcursor-dev, libwrap0-dev, libfltk1.3-dev (>= 1.3.3), xorg-server-source (>= 2:1.19), xserver-xorg-dev, debhelper (>= 9), po-debconf, dpkg-dev (>= 1.16.1), quilt, lsb-release, pkg-config, bison, flex, xutils-dev (>= 1:7.6+4), xfonts-utils (>= 1:7.5+1), x11proto-bigreqs-dev (>= 1:1.1.0), x11proto-composite-dev (>= 1:0.4), x11proto-core-dev (>= 7.0.31), x11proto-damage-dev (>= 1.1), x11proto-fixes-dev (>= 1:5.0), x11proto-fonts-dev (>= 2.1.3), x11proto-kb-dev (>= 1.0.3), x11proto-xinerama-dev, x11proto-randr-dev (>= 1.5.0), x11proto-record-dev (>= 1.13.99.1), x11proto-render-dev (>= 2:0.11), x11proto-resource-dev (>= 1.2.0), x11proto-scrnsaver-dev, x11proto-video-dev, x11proto-xcmisc-dev (>= 1.2.0), x11proto-xext-dev (>= 7.2.99.901), x11proto-xf86bigfont-dev (>= 1.2.0), x11proto-xf86dga-dev (>= 2.0.99.1), x11proto-xf86vidmode-dev (>= 2.2.99.1), x11proto-present-dev, x11proto-dri3-dev, xtrans-dev (>= 1.3.5), libxau-dev (>= 1:1.0.5-2), x11proto-input-dev (>= 2.3), x11proto-dri2-dev (>= 2.8), libxdmcp-dev (>= 1:0.99.1), libxfont-dev (>= 1:2.0.1), libxkbfile-dev (>= 1:0.99.1), libpixman-1-dev (>= 0.27.2), libpciaccess-dev (>= 0.12.901), libgcrypt-dev, nettle-dev, libudev-dev (>= 151-3) [linux-any], libselinux1-dev (>= 2.0.80) [linux-any], libaudit-dev [linux-any], x11proto-xf86dri-dev (>= 2.1.0), libdrm-dev (>= 2.4.46) [!hurd-i386], x11proto-gl-dev (>= 1.4.17), libgl1-mesa-dev (>= 9.2), libxmuu-dev (>= 1:0.99.1), libxext-dev (>= 1:0.99.1), libx11-dev (>= 2:1.6), libxrender-dev (>= 1:0.9.0), libxi-dev (>= 2:1.6.99.1), x11proto-dmx-dev (>= 1:2.2.99.1), libdmx-dev (>= 1:1.0.1), libxpm-dev (>= 1:3.5.3), libxaw7-dev (>= 1:0.99.1), libxt-dev (>= 1:0.99.1), libxmu-dev (>= 1:0.99.1), libxtst-dev (>= 1:0.99.1), libxres-dev (>= 1:0.99.1), libxfixes-dev (>= 1:3.0.0), libxv-dev, libxinerama-dev, libxshmfence-dev (>= 1.1) [!hurd-i386], libepoxy-dev [linux-any kfreebsd-any], libegl1-mesa-dev [linux-any kfreebsd-any], libgbm-dev (>= 10.2) [linux-any kfreebsd-any], xkb-data, x11-xkb-utils, libbsd-dev, libdbus-1-dev (>= 1.0) [linux-any], libsystemd-dev [linux-any]"
-  ],
-  "Checksums-Sha1": [
-    "9de6b94ec00dff70475a9dae55bab1297120d45e 4666 tigervnc_1.7.0+dfsg-7+deb9u2.dsc 705f13d1a9d08c9560bd3bf15ffb7795721e5a32 925944 tigervnc_1.7.0+dfsg.orig.tar.xz bf81f9bdd76d21f1f4a6d22a9b53a1ed8856ff92 70816 tigervnc_1.7.0+dfsg-7+deb9u2.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "8c731c51bfe53c6ca246b78e6099c222d569da1f25af0f1751df709445f84f02 4666 tigervnc_1.7.0+dfsg-7+deb9u2.dsc dd73aabd9ca713bdda61e9b623cf24a474052ac63916fc11f92cdeae0c388440 925944 tigervnc_1.7.0+dfsg.orig.tar.xz 0d4ee5242c549793c45a219401922a2275781b09337f34a2d79b8ecc74172419 70816 tigervnc_1.7.0+dfsg-7+deb9u2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/t/tigervnc"
-  ],
-  "Files": [
-    "f35559bbe6f6049991049cc25bdbdfc7 4666 tigervnc_1.7.0+dfsg-7+deb9u2.dsc 280997838dc1b74c9ca8cbfc29e5e190 925944 tigervnc_1.7.0+dfsg.orig.tar.xz 20197978be2278bd0aedd5f6463abbd2 70816 tigervnc_1.7.0+dfsg-7+deb9u2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.tigervnc.org"
-  ],
-  "Maintainer": [
-    "TigerVNC Packaging Team <pkg-tigervnc-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "tigervnc"
-  ],
-  "Package-List": [
-    "tigervnc-common deb x11 optional arch=any tigervnc-scraping-server deb x11 optional arch=any tigervnc-standalone-server deb x11 optional arch=any tigervnc-viewer deb x11 optional arch=any tigervnc-xorg-extension deb x11 optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Joachim Falk <joachim.falk@gmx.de>, Mike Gabriel <mike.gabriel@das-netzwerkteam.de>, Yaroslav Halchenko <debian@onerussian.com>, Ola Lundqvist <opal@debian.org>, Liang Guo <guoliang@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/gitweb/?p=pkg-tigervnc/pkg-tigervnc.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-tigervnc/pkg-tigervnc.git"
-  ],
-  "Version": [
-    "1.7.0+dfsg-7+deb9u2"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"tigervnc-common, tigervnc-scraping-server, tigervnc-standalone-server, tigervnc-xorg-extension, tigervnc-viewer"
+	],
+	"Build-Depends": [
+		"cdbs (>= 0.4.89), dh-autoreconf, cmake (>= 2.8), pristine-tar, gettext, zlib1g-dev, libjpeg-dev, libgnutls28-dev, libpam0g-dev, libxft-dev, libxcursor-dev, libwrap0-dev, libfltk1.3-dev (>= 1.3.3), xorg-server-source (>= 2:1.19), xserver-xorg-dev, debhelper (>= 9), po-debconf, dpkg-dev (>= 1.16.1), quilt, lsb-release, pkg-config, bison, flex, xutils-dev (>= 1:7.6+4), xfonts-utils (>= 1:7.5+1), x11proto-bigreqs-dev (>= 1:1.1.0), x11proto-composite-dev (>= 1:0.4), x11proto-core-dev (>= 7.0.31), x11proto-damage-dev (>= 1.1), x11proto-fixes-dev (>= 1:5.0), x11proto-fonts-dev (>= 2.1.3), x11proto-kb-dev (>= 1.0.3), x11proto-xinerama-dev, x11proto-randr-dev (>= 1.5.0), x11proto-record-dev (>= 1.13.99.1), x11proto-render-dev (>= 2:0.11), x11proto-resource-dev (>= 1.2.0), x11proto-scrnsaver-dev, x11proto-video-dev, x11proto-xcmisc-dev (>= 1.2.0), x11proto-xext-dev (>= 7.2.99.901), x11proto-xf86bigfont-dev (>= 1.2.0), x11proto-xf86dga-dev (>= 2.0.99.1), x11proto-xf86vidmode-dev (>= 2.2.99.1), x11proto-present-dev, x11proto-dri3-dev, xtrans-dev (>= 1.3.5), libxau-dev (>= 1:1.0.5-2), x11proto-input-dev (>= 2.3), x11proto-dri2-dev (>= 2.8), libxdmcp-dev (>= 1:0.99.1), libxfont-dev (>= 1:2.0.1), libxkbfile-dev (>= 1:0.99.1), libpixman-1-dev (>= 0.27.2), libpciaccess-dev (>= 0.12.901), libgcrypt-dev, nettle-dev, libudev-dev (>= 151-3) [linux-any], libselinux1-dev (>= 2.0.80) [linux-any], libaudit-dev [linux-any], x11proto-xf86dri-dev (>= 2.1.0), libdrm-dev (>= 2.4.46) [!hurd-i386], x11proto-gl-dev (>= 1.4.17), libgl1-mesa-dev (>= 9.2), libxmuu-dev (>= 1:0.99.1), libxext-dev (>= 1:0.99.1), libx11-dev (>= 2:1.6), libxrender-dev (>= 1:0.9.0), libxi-dev (>= 2:1.6.99.1), x11proto-dmx-dev (>= 1:2.2.99.1), libdmx-dev (>= 1:1.0.1), libxpm-dev (>= 1:3.5.3), libxaw7-dev (>= 1:0.99.1), libxt-dev (>= 1:0.99.1), libxmu-dev (>= 1:0.99.1), libxtst-dev (>= 1:0.99.1), libxres-dev (>= 1:0.99.1), libxfixes-dev (>= 1:3.0.0), libxv-dev, libxinerama-dev, libxshmfence-dev (>= 1.1) [!hurd-i386], libepoxy-dev [linux-any kfreebsd-any], libegl1-mesa-dev [linux-any kfreebsd-any], libgbm-dev (>= 10.2) [linux-any kfreebsd-any], xkb-data, x11-xkb-utils, libbsd-dev, libdbus-1-dev (>= 1.0) [linux-any], libsystemd-dev [linux-any]"
+	],
+	"Checksums-Sha1": [
+		"9de6b94ec00dff70475a9dae55bab1297120d45e 4666 tigervnc_1.7.0+dfsg-7+deb9u2.dsc 705f13d1a9d08c9560bd3bf15ffb7795721e5a32 925944 tigervnc_1.7.0+dfsg.orig.tar.xz bf81f9bdd76d21f1f4a6d22a9b53a1ed8856ff92 70816 tigervnc_1.7.0+dfsg-7+deb9u2.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"8c731c51bfe53c6ca246b78e6099c222d569da1f25af0f1751df709445f84f02 4666 tigervnc_1.7.0+dfsg-7+deb9u2.dsc dd73aabd9ca713bdda61e9b623cf24a474052ac63916fc11f92cdeae0c388440 925944 tigervnc_1.7.0+dfsg.orig.tar.xz 0d4ee5242c549793c45a219401922a2275781b09337f34a2d79b8ecc74172419 70816 tigervnc_1.7.0+dfsg-7+deb9u2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/t/tigervnc"
+	],
+	"Files": [
+		"f35559bbe6f6049991049cc25bdbdfc7 4666 tigervnc_1.7.0+dfsg-7+deb9u2.dsc 280997838dc1b74c9ca8cbfc29e5e190 925944 tigervnc_1.7.0+dfsg.orig.tar.xz 20197978be2278bd0aedd5f6463abbd2 70816 tigervnc_1.7.0+dfsg-7+deb9u2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.tigervnc.org"
+	],
+	"Maintainer": [
+		"TigerVNC Packaging Team <pkg-tigervnc-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"tigervnc"
+	],
+	"Package-List": [
+		"tigervnc-common deb x11 optional arch=any tigervnc-scraping-server deb x11 optional arch=any tigervnc-standalone-server deb x11 optional arch=any tigervnc-viewer deb x11 optional arch=any tigervnc-xorg-extension deb x11 optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Joachim Falk <joachim.falk@gmx.de>, Mike Gabriel <mike.gabriel@das-netzwerkteam.de>, Yaroslav Halchenko <debian@onerussian.com>, Ola Lundqvist <opal@debian.org>, Liang Guo <guoliang@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/gitweb/?p=pkg-tigervnc/pkg-tigervnc.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-tigervnc/pkg-tigervnc.git"
+	],
+	"Version": [
+		"1.7.0+dfsg-7+deb9u2"
+	]
 }

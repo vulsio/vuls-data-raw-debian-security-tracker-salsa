@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "python3-gi, python3-gi-dbg, python-gi-dev, python3-gi-cairo"
-  ],
-  "Build-Depends": [
-    "at-spi2-core <!nocheck>, dbus-daemon <!nocheck>, debhelper-compat (= 13), dh-sequence-gnome, dh-sequence-python3, gir1.2-gtk-3.0 <!nocheck>, libcairo2-dev, libffi-dev (>= 3.3), libgirepository1.0-dev (>= 1.64.0~), libglib2.0-dev (>= 2.64.0), locales <!nocheck>, python3-all-dbg, python3-all-dev, python3-cairo-dev (>= 1.16.0), python3-flake8 <!nocheck>, python3-pytest <!nocheck>, python3-setuptools, xauth <!nocheck>, xvfb <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "6b33fc1f49166f950ce9e070bf283f24e11eec1d41643c3ef4a954cdda5eb085 2775 pygobject_3.46.0-1.dsc 426008b2dad548c9af1c7b03b59df0440fde5c33f38fb5406b103a43d653cafc 561552 pygobject_3.46.0.orig.tar.xz e771fa7483f47178245cf3fd9685678650056c8eb4d130b178c8a3150a527a40 23248 pygobject_3.46.0-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/pygobject"
-  ],
-  "Files": [
-    "a957a3f1557fb002492e5fe8f589e3ba 2775 pygobject_3.46.0-1.dsc 56c36bfe6f24fa28182a7adcd3815b2c 561552 pygobject_3.46.0.orig.tar.xz 981e0f30ee7d391a032ff0ef7d8fa606 23248 pygobject_3.46.0-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://pygobject.readthedocs.io/"
-  ],
-  "Maintainer": [
-    "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "pygobject"
-  ],
-  "Package-List": [
-    "python-gi-dev deb python optional arch=any python3-gi deb python optional arch=any python3-gi-cairo deb python optional arch=any python3-gi-dbg deb debug optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "python"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential, gir1.2-glib-2.0, python3-all, python3-all-dbg, python3-all-dev, python3-dev"
-  ],
-  "Uploaders": [
-    "Iain Lane <laney@debian.org>, Jeremy Bícha <jbicha@ubuntu.com>, Laurent Bigonville <bigon@debian.org>, Sebastien Bacher <seb128@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/gnome-team/pygobject"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/gnome-team/pygobject.git"
-  ],
-  "Version": [
-    "3.46.0-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"python3-gi, python3-gi-dbg, python-gi-dev, python3-gi-cairo"
+	],
+	"Build-Depends": [
+		"at-spi2-core <!nocheck>, dbus-daemon <!nocheck>, debhelper-compat (= 13), dh-sequence-gnome, dh-sequence-python3, gir1.2-gtk-3.0 <!nocheck>, libcairo2-dev, libffi-dev (>= 3.3), libgirepository1.0-dev (>= 1.64.0~), libglib2.0-dev (>= 2.64.0), locales <!nocheck>, python3-all-dbg, python3-all-dev, python3-cairo-dev (>= 1.16.0), python3-flake8 <!nocheck>, python3-pytest <!nocheck>, python3-setuptools, xauth <!nocheck>, xvfb <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"6b33fc1f49166f950ce9e070bf283f24e11eec1d41643c3ef4a954cdda5eb085 2775 pygobject_3.46.0-1.dsc 426008b2dad548c9af1c7b03b59df0440fde5c33f38fb5406b103a43d653cafc 561552 pygobject_3.46.0.orig.tar.xz e771fa7483f47178245cf3fd9685678650056c8eb4d130b178c8a3150a527a40 23248 pygobject_3.46.0-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/pygobject"
+	],
+	"Files": [
+		"a957a3f1557fb002492e5fe8f589e3ba 2775 pygobject_3.46.0-1.dsc 56c36bfe6f24fa28182a7adcd3815b2c 561552 pygobject_3.46.0.orig.tar.xz 981e0f30ee7d391a032ff0ef7d8fa606 23248 pygobject_3.46.0-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://pygobject.readthedocs.io/"
+	],
+	"Maintainer": [
+		"Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"pygobject"
+	],
+	"Package-List": [
+		"python-gi-dev deb python optional arch=any python3-gi deb python optional arch=any python3-gi-cairo deb python optional arch=any python3-gi-dbg deb debug optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"python"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, gir1.2-glib-2.0, python3-all, python3-all-dbg, python3-all-dev, python3-dev"
+	],
+	"Uploaders": [
+		"Iain Lane <laney@debian.org>, Jeremy Bícha <jbicha@ubuntu.com>, Laurent Bigonville <bigon@debian.org>, Sebastien Bacher <seb128@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/gnome-team/pygobject"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/gnome-team/pygobject.git"
+	],
+	"Version": [
+		"3.46.0-1"
+	]
 }

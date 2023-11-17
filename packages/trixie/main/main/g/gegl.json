@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "gegl, libgegl-0.4-0, libgegl-common, libgegl-dev, libgegl-doc, gir1.2-gegl-0.4"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, graphviz, libavformat-dev, libbabl-dev (>= 1:0.1.99), libblas-dev, libcairo2-dev (>= 0.12.2), libgdk-pixbuf-2.0-dev (>= 2.18.0), libgexiv2-dev, libgirepository1.0-dev (>= 1.32.0), libglib2.0-dev (>= 2.28.0), libjpeg-dev, libjson-glib-dev, liblensfun-dev, libmaxflow-dev, libopenexr-dev (>= 1.6.1), libpango1.0-dev, libpng-dev (>= 1.6.0), libpoppler-glib-dev (>= 0.71.0), libraw-dev, librsvg2-dev (>= 2.40.6), libsdl2-dev (>= 1.2.0), libspiro-dev (>= 1:20190731-2~), libsuitesparse-dev, libswscale-dev, libtiff-dev, libv4l-dev [!hurd-any], libwebp-dev (>= 0.5.0), meson (>= 0.54.0), pkg-config, valac (>= 0.20)"
-  ],
-  "Build-Depends-Indep": [
-    "asciidoc-base <!nodoc>, gtk-doc-tools (>= 1.0) <!nodoc>, libglib2.0-doc <!nodoc>"
-  ],
-  "Checksums-Sha256": [
-    "392d09b19c9f1601c842167e8b92c9bf225e45f844b076611b9c566423bb0118 3095 gegl_0.4.46-3.dsc d0b3b2481bc8774c5f3d0a487611910166d18eef823a859fb91e781ab7b1e892 5799248 gegl_0.4.46.orig.tar.xz bc22e91f7d8e1e478bdd485c7cac14986992035a887c485af47ba4c9470bdc45 25092 gegl_0.4.46-3.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/g/gegl"
-  ],
-  "Files": [
-    "0ab3cdb6f400a01b95278d43ce2a3c58 3095 gegl_0.4.46-3.dsc 241bde22f9204515121e5fb03a2b9fbd 5799248 gegl_0.4.46.orig.tar.xz 83159326f68e41b0bd6c6f9590b9547d 25092 gegl_0.4.46-3.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://gegl.org/"
-  ],
-  "Maintainer": [
-    "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "gegl"
-  ],
-  "Package-List": [
-    "gegl deb devel optional arch=any gir1.2-gegl-0.4 deb introspection optional arch=any libgegl-0.4-0 deb libs optional arch=any libgegl-common deb devel optional arch=all libgegl-dev deb libdevel optional arch=any libgegl-doc deb doc optional arch=all profile=!nodoc"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "libs"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential, python3-gi, xauth, xvfb"
-  ],
-  "Uploaders": [
-    "Emilio Pozuelo Monfort <pochu@debian.org>, Jeremy Bícha <jbicha@ubuntu.com>, Josselin Mouette <joss@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/gnome-team/gegl"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/gnome-team/gegl.git"
-  ],
-  "Version": [
-    "1:0.4.46-3"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"gegl, libgegl-0.4-0, libgegl-common, libgegl-dev, libgegl-doc, gir1.2-gegl-0.4"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, graphviz, libavformat-dev, libbabl-dev (>= 1:0.1.99), libblas-dev, libcairo2-dev (>= 0.12.2), libgdk-pixbuf-2.0-dev (>= 2.18.0), libgexiv2-dev, libgirepository1.0-dev (>= 1.32.0), libglib2.0-dev (>= 2.28.0), libjpeg-dev, libjson-glib-dev, liblensfun-dev, libmaxflow-dev, libopenexr-dev (>= 1.6.1), libpango1.0-dev, libpng-dev (>= 1.6.0), libpoppler-glib-dev (>= 0.71.0), libraw-dev, librsvg2-dev (>= 2.40.6), libsdl2-dev (>= 1.2.0), libspiro-dev (>= 1:20190731-2~), libsuitesparse-dev, libswscale-dev, libtiff-dev, libv4l-dev [!hurd-any], libwebp-dev (>= 0.5.0), meson (>= 0.54.0), pkg-config, valac (>= 0.20)"
+	],
+	"Build-Depends-Indep": [
+		"asciidoc-base <!nodoc>, gtk-doc-tools (>= 1.0) <!nodoc>, libglib2.0-doc <!nodoc>"
+	],
+	"Checksums-Sha256": [
+		"392d09b19c9f1601c842167e8b92c9bf225e45f844b076611b9c566423bb0118 3095 gegl_0.4.46-3.dsc d0b3b2481bc8774c5f3d0a487611910166d18eef823a859fb91e781ab7b1e892 5799248 gegl_0.4.46.orig.tar.xz bc22e91f7d8e1e478bdd485c7cac14986992035a887c485af47ba4c9470bdc45 25092 gegl_0.4.46-3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/gegl"
+	],
+	"Files": [
+		"0ab3cdb6f400a01b95278d43ce2a3c58 3095 gegl_0.4.46-3.dsc 241bde22f9204515121e5fb03a2b9fbd 5799248 gegl_0.4.46.orig.tar.xz 83159326f68e41b0bd6c6f9590b9547d 25092 gegl_0.4.46-3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://gegl.org/"
+	],
+	"Maintainer": [
+		"Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"gegl"
+	],
+	"Package-List": [
+		"gegl deb devel optional arch=any gir1.2-gegl-0.4 deb introspection optional arch=any libgegl-0.4-0 deb libs optional arch=any libgegl-common deb devel optional arch=all libgegl-dev deb libdevel optional arch=any libgegl-doc deb doc optional arch=all profile=!nodoc"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"libs"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, python3-gi, xauth, xvfb"
+	],
+	"Uploaders": [
+		"Emilio Pozuelo Monfort <pochu@debian.org>, Jeremy Bícha <jbicha@ubuntu.com>, Josselin Mouette <joss@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/gnome-team/gegl"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/gnome-team/gegl.git"
+	],
+	"Version": [
+		"1:0.4.46-3"
+	]
 }

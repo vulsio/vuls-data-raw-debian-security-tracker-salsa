@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "amd64 i386 all"
-  ],
-  "Binary": [
-    "julia, julia-doc, julia-dbg"
-  ],
-  "Build-Conflicts": [
-    "libatlas3-base"
-  ],
-  "Build-Depends": [
-    "dpkg-dev (>= 1.16.2~), debhelper (>= 9), dh-exec, llvm-3.5-dev, libdouble-conversion-dev, libsuitesparse-dev (>= 1:4.2.1), libgmp-dev, libunwind8-dev, libfftw3-dev, libpcre3-dev, libarpack2-dev, libmpfr-dev, libopenblas-dev (>= 0.2.10-1~), libopenlibm-dev, libopenspecfun-dev (>= 0.4~), patchelf, python-sphinx, python-sphinx-rtd-theme, libjs-mathjax"
-  ],
-  "Checksums-Sha1": [
-    "afd548fa10ccc453f9ccab6b38d3400829211b89 2343 julia_0.3.2-2.dsc 53a6c47b3532bba6dcd77ff175cca028eb39d393 2665480 julia_0.3.2.orig.tar.xz b683f8b2d5be0f3b059abc2fc2ba9dbf996b1d07 15204 julia_0.3.2-2.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "fed3743765d47021f49ce7ae44e77930b455baa0b7c7910ddc574845773de5cb 2343 julia_0.3.2-2.dsc eb93c1c9448da073e7fdd6eb91e438e372a0bbea36fc12ef6f34b9945852328a 2665480 julia_0.3.2.orig.tar.xz 9808a4938a733614072e4a0b18cf689a7ef0e90d426c44642ab05d5f4b3ec165 15204 julia_0.3.2-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/j/julia"
-  ],
-  "Files": [
-    "1d556cf9863b0e986a181253b1feeeb9 2343 julia_0.3.2-2.dsc 5b01bd3a83d961fd6ed75e72f900a7bb 2665480 julia_0.3.2.orig.tar.xz db79f35e893e9515d8bcaa020bde32ce 15204 julia_0.3.2-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://julialang.org"
-  ],
-  "Maintainer": [
-    "Debian Julia Team <pkg-julia-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "julia"
-  ],
-  "Package-List": [
-    "julia deb science extra arch=amd64,i386 julia-dbg deb debug extra arch=amd64,i386 julia-doc deb doc extra arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Sébastien Villemot <sebastien@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-julia/julia.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-julia/julia.git"
-  ],
-  "Version": [
-    "0.3.2-2"
-  ]
+	"Architecture": [
+		"amd64 i386 all"
+	],
+	"Binary": [
+		"julia, julia-doc, julia-dbg"
+	],
+	"Build-Conflicts": [
+		"libatlas3-base"
+	],
+	"Build-Depends": [
+		"dpkg-dev (>= 1.16.2~), debhelper (>= 9), dh-exec, llvm-3.5-dev, libdouble-conversion-dev, libsuitesparse-dev (>= 1:4.2.1), libgmp-dev, libunwind8-dev, libfftw3-dev, libpcre3-dev, libarpack2-dev, libmpfr-dev, libopenblas-dev (>= 0.2.10-1~), libopenlibm-dev, libopenspecfun-dev (>= 0.4~), patchelf, python-sphinx, python-sphinx-rtd-theme, libjs-mathjax"
+	],
+	"Checksums-Sha1": [
+		"afd548fa10ccc453f9ccab6b38d3400829211b89 2343 julia_0.3.2-2.dsc 53a6c47b3532bba6dcd77ff175cca028eb39d393 2665480 julia_0.3.2.orig.tar.xz b683f8b2d5be0f3b059abc2fc2ba9dbf996b1d07 15204 julia_0.3.2-2.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"fed3743765d47021f49ce7ae44e77930b455baa0b7c7910ddc574845773de5cb 2343 julia_0.3.2-2.dsc eb93c1c9448da073e7fdd6eb91e438e372a0bbea36fc12ef6f34b9945852328a 2665480 julia_0.3.2.orig.tar.xz 9808a4938a733614072e4a0b18cf689a7ef0e90d426c44642ab05d5f4b3ec165 15204 julia_0.3.2-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/j/julia"
+	],
+	"Files": [
+		"1d556cf9863b0e986a181253b1feeeb9 2343 julia_0.3.2-2.dsc 5b01bd3a83d961fd6ed75e72f900a7bb 2665480 julia_0.3.2.orig.tar.xz db79f35e893e9515d8bcaa020bde32ce 15204 julia_0.3.2-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://julialang.org"
+	],
+	"Maintainer": [
+		"Debian Julia Team <pkg-julia-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"julia"
+	],
+	"Package-List": [
+		"julia deb science extra arch=amd64,i386 julia-dbg deb debug extra arch=amd64,i386 julia-doc deb doc extra arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Sébastien Villemot <sebastien@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-julia/julia.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-julia/julia.git"
+	],
+	"Version": [
+		"0.3.2-2"
+	]
 }

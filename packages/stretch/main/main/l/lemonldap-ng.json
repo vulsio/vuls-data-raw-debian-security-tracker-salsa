@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "lemonldap-ng, lemonldap-ng-doc, lemonldap-ng-fr-doc, lemonldap-ng-fastcgi-server, lemonldap-ng-handler, liblemonldap-ng-handler-perl, liblemonldap-ng-conf-perl, liblemonldap-ng-common-perl, liblemonldap-ng-manager-perl, liblemonldap-ng-portal-perl"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-systemd, po-debconf"
-  ],
-  "Build-Depends-Indep": [
-    "libapache-session-perl, libauthcas-perl, libauthen-captcha-perl, libcache-cache-perl, libcgi-pm-perl, libclone-perl, libconfig-inifiles-perl, libconvert-pem-perl, libcrypt-openssl-rsa-perl, libcrypt-openssl-x509-perl, libcrypt-rijndael-perl, libdbd-sqlite3-perl, libdbi-perl, libdigest-hmac-perl, libglib-perl, libhtml-template-perl, libio-string-perl, libjson-perl, liblasso-perl, libmime-lite-perl, libmoose-perl, libmouse-perl, libnet-cidr-lite-perl, libnet-ldap-perl, libnet-openid-consumer-perl, libnet-openid-server-perl, libregexp-assemble-perl, libregexp-common-perl, libsoap-lite-perl, libstring-random-perl, libtest-mockobject-perl, libtest-pod-perl, libunicode-string-perl, liburi-perl, libhttp-message-perl, libwww-perl, libxml-libxml-perl, libxml-libxslt-perl, libxml-simple-perl, perl"
-  ],
-  "Checksums-Sha256": [
-    "902d9d4d3aa36704ad83931f7abe38356937cfaf249e6c080cb72af154aeb69a 3607 lemonldap-ng_1.9.7-3+deb9u2.dsc c5fa5c46f46e71535b4850bc4eb7e6b877457b022988dadffa36fff75a8c77b1 17288955 lemonldap-ng_1.9.7.orig.tar.gz 0b2bf2728ab7011cc4da1519f9001c7e432bc1cafe1d115e4a2db8aae472bd16 39792 lemonldap-ng_1.9.7-3+deb9u2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/l/lemonldap-ng"
-  ],
-  "Files": [
-    "e56e3ddb3e654639669bc53358e389a1 3607 lemonldap-ng_1.9.7-3+deb9u2.dsc fdc06136dd679a668e3227a4b811c6ec 17288955 lemonldap-ng_1.9.7.orig.tar.gz 86ee241fb551facba4a66a489b55e04e 39792 lemonldap-ng_1.9.7-3+deb9u2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://lemonldap-ng.org/"
-  ],
-  "Maintainer": [
-    "Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "lemonldap-ng"
-  ],
-  "Package-List": [
-    "lemonldap-ng deb perl extra arch=all lemonldap-ng-doc deb doc extra arch=all lemonldap-ng-fastcgi-server deb web extra arch=all lemonldap-ng-fr-doc deb doc extra arch=all lemonldap-ng-handler deb perl extra arch=all liblemonldap-ng-common-perl deb perl extra arch=all liblemonldap-ng-conf-perl deb oldlibs extra arch=all liblemonldap-ng-handler-perl deb perl extra arch=all liblemonldap-ng-manager-perl deb perl extra arch=all liblemonldap-ng-portal-perl deb perl extra arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "perl"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "libmouse-perl, pkg-perl-autopkgtest"
-  ],
-  "Uploaders": [
-    "Xavier Guimard <x.guimard@free.fr>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-perl/packages/lemonldap-ng.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-perl/packages/lemonldap-ng.git"
-  ],
-  "Version": [
-    "1.9.7-3+deb9u2"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"lemonldap-ng, lemonldap-ng-doc, lemonldap-ng-fr-doc, lemonldap-ng-fastcgi-server, lemonldap-ng-handler, liblemonldap-ng-handler-perl, liblemonldap-ng-conf-perl, liblemonldap-ng-common-perl, liblemonldap-ng-manager-perl, liblemonldap-ng-portal-perl"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-systemd, po-debconf"
+	],
+	"Build-Depends-Indep": [
+		"libapache-session-perl, libauthcas-perl, libauthen-captcha-perl, libcache-cache-perl, libcgi-pm-perl, libclone-perl, libconfig-inifiles-perl, libconvert-pem-perl, libcrypt-openssl-rsa-perl, libcrypt-openssl-x509-perl, libcrypt-rijndael-perl, libdbd-sqlite3-perl, libdbi-perl, libdigest-hmac-perl, libglib-perl, libhtml-template-perl, libio-string-perl, libjson-perl, liblasso-perl, libmime-lite-perl, libmoose-perl, libmouse-perl, libnet-cidr-lite-perl, libnet-ldap-perl, libnet-openid-consumer-perl, libnet-openid-server-perl, libregexp-assemble-perl, libregexp-common-perl, libsoap-lite-perl, libstring-random-perl, libtest-mockobject-perl, libtest-pod-perl, libunicode-string-perl, liburi-perl, libhttp-message-perl, libwww-perl, libxml-libxml-perl, libxml-libxslt-perl, libxml-simple-perl, perl"
+	],
+	"Checksums-Sha256": [
+		"902d9d4d3aa36704ad83931f7abe38356937cfaf249e6c080cb72af154aeb69a 3607 lemonldap-ng_1.9.7-3+deb9u2.dsc c5fa5c46f46e71535b4850bc4eb7e6b877457b022988dadffa36fff75a8c77b1 17288955 lemonldap-ng_1.9.7.orig.tar.gz 0b2bf2728ab7011cc4da1519f9001c7e432bc1cafe1d115e4a2db8aae472bd16 39792 lemonldap-ng_1.9.7-3+deb9u2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/l/lemonldap-ng"
+	],
+	"Files": [
+		"e56e3ddb3e654639669bc53358e389a1 3607 lemonldap-ng_1.9.7-3+deb9u2.dsc fdc06136dd679a668e3227a4b811c6ec 17288955 lemonldap-ng_1.9.7.orig.tar.gz 86ee241fb551facba4a66a489b55e04e 39792 lemonldap-ng_1.9.7-3+deb9u2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://lemonldap-ng.org/"
+	],
+	"Maintainer": [
+		"Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"lemonldap-ng"
+	],
+	"Package-List": [
+		"lemonldap-ng deb perl extra arch=all lemonldap-ng-doc deb doc extra arch=all lemonldap-ng-fastcgi-server deb web extra arch=all lemonldap-ng-fr-doc deb doc extra arch=all lemonldap-ng-handler deb perl extra arch=all liblemonldap-ng-common-perl deb perl extra arch=all liblemonldap-ng-conf-perl deb oldlibs extra arch=all liblemonldap-ng-handler-perl deb perl extra arch=all liblemonldap-ng-manager-perl deb perl extra arch=all liblemonldap-ng-portal-perl deb perl extra arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"perl"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"libmouse-perl, pkg-perl-autopkgtest"
+	],
+	"Uploaders": [
+		"Xavier Guimard <x.guimard@free.fr>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-perl/packages/lemonldap-ng.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-perl/packages/lemonldap-ng.git"
+	],
+	"Version": [
+		"1.9.7-3+deb9u2"
+	]
 }

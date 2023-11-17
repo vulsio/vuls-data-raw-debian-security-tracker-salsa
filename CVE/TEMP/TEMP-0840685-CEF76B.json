@@ -1,84 +1,84 @@
 {
-  "header": {
-    "line": "CVE-2016-XXXX [TOCTOU race condition in initscript on chown'ing JVM_TMP temporary directory]",
-    "name": "TEMP-0840685-CEF76B",
-    "description": "[TOCTOU race condition in initscript on chown'ing JVM_TMP temporary directory]"
-  },
-  "annotations": [
-    {
-      "line": "\t- tomcat8 8.0.38-1 (bug #840685)",
-      "type": "package",
-      "package": "tomcat8",
-      "kind": "fixed",
-      "version": "8.0.38-1",
-      "flags": [
-        {
-          "bug": 840685
-        }
-      ]
-    },
-    {
-      "line": "\t[jessie] - tomcat8 8.0.14-1+deb8u4",
-      "type": "package",
-      "release": "jessie",
-      "package": "tomcat8",
-      "kind": "fixed",
-      "version": "8.0.14-1+deb8u4"
-    },
-    {
-      "line": "\tNOTE: Workaround entry for DSA-3720-1 since no CVE assinged",
-      "type": "NOTE",
-      "description": "Workaround entry for DSA-3720-1 since no CVE assinged"
-    },
-    {
-      "line": "\t- tomcat7 7.0.72-3 (bug #841655)",
-      "type": "package",
-      "package": "tomcat7",
-      "kind": "fixed",
-      "version": "7.0.72-3",
-      "flags": [
-        {
-          "bug": 841655
-        }
-      ]
-    },
-    {
-      "line": "\t[jessie] - tomcat7 7.0.56-3+deb8u5",
-      "type": "package",
-      "release": "jessie",
-      "package": "tomcat7",
-      "kind": "fixed",
-      "version": "7.0.56-3+deb8u5"
-    },
-    {
-      "line": "\t[wheezy] - tomcat7 7.0.28-4+deb7u7",
-      "type": "package",
-      "release": "wheezy",
-      "package": "tomcat7",
-      "kind": "fixed",
-      "version": "7.0.28-4+deb7u7"
-    },
-    {
-      "line": "\tNOTE: Workaround entry for DSA-3721-1 since no CVE assinged",
-      "type": "NOTE",
-      "description": "Workaround entry for DSA-3721-1 since no CVE assinged"
-    },
-    {
-      "line": "\tNOTE: Since 7.0.72-3, src:tomcat7 only builds the Servlet API",
-      "type": "NOTE",
-      "description": "Since 7.0.72-3, src:tomcat7 only builds the Servlet API"
-    },
-    {
-      "line": "\t- tomcat6 6.0.41-3",
-      "type": "package",
-      "package": "tomcat6",
-      "kind": "fixed",
-      "version": "6.0.41-3"
-    },
-    {
-      "line": "\tNOTE: Since 6.0.41-3, src:tomcat6 only builds a servlet and docs in Jessie",
-      "type": "NOTE",
-      "description": "Since 6.0.41-3, src:tomcat6 only builds a servlet and docs in Jessie"
-    }
-  ]
+	"header": {
+		"line": "CVE-2016-XXXX [TOCTOU race condition in initscript on chown'ing JVM_TMP temporary directory]",
+		"name": "TEMP-0840685-CEF76B",
+		"description": "[TOCTOU race condition in initscript on chown'ing JVM_TMP temporary directory]"
+	},
+	"annotations": [
+		{
+			"line": "\t- tomcat8 8.0.38-1 (bug #840685)",
+			"type": "package",
+			"package": "tomcat8",
+			"kind": "fixed",
+			"version": "8.0.38-1",
+			"flags": [
+				{
+					"bug": 840685
+				}
+			]
+		},
+		{
+			"line": "\t[jessie] - tomcat8 8.0.14-1+deb8u4",
+			"type": "package",
+			"release": "jessie",
+			"package": "tomcat8",
+			"kind": "fixed",
+			"version": "8.0.14-1+deb8u4"
+		},
+		{
+			"line": "\tNOTE: Workaround entry for DSA-3720-1 since no CVE assinged",
+			"type": "NOTE",
+			"description": "Workaround entry for DSA-3720-1 since no CVE assinged"
+		},
+		{
+			"line": "\t- tomcat7 7.0.72-3 (bug #841655)",
+			"type": "package",
+			"package": "tomcat7",
+			"kind": "fixed",
+			"version": "7.0.72-3",
+			"flags": [
+				{
+					"bug": 841655
+				}
+			]
+		},
+		{
+			"line": "\t[jessie] - tomcat7 7.0.56-3+deb8u5",
+			"type": "package",
+			"release": "jessie",
+			"package": "tomcat7",
+			"kind": "fixed",
+			"version": "7.0.56-3+deb8u5"
+		},
+		{
+			"line": "\t[wheezy] - tomcat7 7.0.28-4+deb7u7",
+			"type": "package",
+			"release": "wheezy",
+			"package": "tomcat7",
+			"kind": "fixed",
+			"version": "7.0.28-4+deb7u7"
+		},
+		{
+			"line": "\tNOTE: Workaround entry for DSA-3721-1 since no CVE assinged",
+			"type": "NOTE",
+			"description": "Workaround entry for DSA-3721-1 since no CVE assinged"
+		},
+		{
+			"line": "\tNOTE: Since 7.0.72-3, src:tomcat7 only builds the Servlet API",
+			"type": "NOTE",
+			"description": "Since 7.0.72-3, src:tomcat7 only builds the Servlet API"
+		},
+		{
+			"line": "\t- tomcat6 6.0.41-3",
+			"type": "package",
+			"package": "tomcat6",
+			"kind": "fixed",
+			"version": "6.0.41-3"
+		},
+		{
+			"line": "\tNOTE: Since 6.0.41-3, src:tomcat6 only builds a servlet and docs in Jessie",
+			"type": "NOTE",
+			"description": "Since 6.0.41-3, src:tomcat6 only builds a servlet and docs in Jessie"
+		}
+	]
 }

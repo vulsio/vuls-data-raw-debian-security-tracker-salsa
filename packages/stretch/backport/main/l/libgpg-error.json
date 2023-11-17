@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libgpg-error-dev, libgpg-error0, gpgrt-tools, libgpg-error0-udeb, libgpg-error-mingw-w64-dev, libgpg-error-l10n"
-  ],
-  "Build-Depends": [
-    "automake (>= 1.14), debhelper-compat (= 12), gettext (>= 0.19.3), texinfo"
-  ],
-  "Build-Depends-Indep": [
-    "mingw-w64"
-  ],
-  "Checksums-Sha256": [
-    "aeb5482173d234c396f3f24ad5ec68ff219014130bc2e179127a58e5d6cd471a 2554 libgpg-error_1.35-1~bpo9+1.dsc cbd5ee62a8a8c88d48c158fff4fc9ead4132aacd1b4a56eb791f9f997d07e067 918408 libgpg-error_1.35.orig.tar.bz2 3bdb81cda53591cb4a1280625b2a6b12c7d85ad9607f8f769f39da9911063444 16132 libgpg-error_1.35-1~bpo9+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/libg/libgpg-error"
-  ],
-  "Files": [
-    "2c9c130ea87f820d0d59a5f1f5fdb53a 2554 libgpg-error_1.35-1~bpo9+1.dsc 2808a9e044f883f7554c5ba6a380b711 918408 libgpg-error_1.35.orig.tar.bz2 2461c17a87655e9fac4264cde2b8db28 16132 libgpg-error_1.35-1~bpo9+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.gnupg.org/related_software/libgpg-error/"
-  ],
-  "Maintainer": [
-    "Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "libgpg-error"
-  ],
-  "Package-List": [
-    "gpgrt-tools deb devel optional arch=any libgpg-error-dev deb libdevel optional arch=any libgpg-error-l10n deb localization optional arch=all libgpg-error-mingw-w64-dev deb libdevel optional arch=all libgpg-error0 deb libs optional arch=any libgpg-error0-udeb udeb debian-installer optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.3.0"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential, wine, wine32, wine64"
-  ],
-  "Uploaders": [
-    "Daniel Kahn Gillmor <dkg@fifthhorseman.net>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian/libgpg-error"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian/libgpg-error.git"
-  ],
-  "Version": [
-    "1.35-1~bpo9+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libgpg-error-dev, libgpg-error0, gpgrt-tools, libgpg-error0-udeb, libgpg-error-mingw-w64-dev, libgpg-error-l10n"
+	],
+	"Build-Depends": [
+		"automake (>= 1.14), debhelper-compat (= 12), gettext (>= 0.19.3), texinfo"
+	],
+	"Build-Depends-Indep": [
+		"mingw-w64"
+	],
+	"Checksums-Sha256": [
+		"aeb5482173d234c396f3f24ad5ec68ff219014130bc2e179127a58e5d6cd471a 2554 libgpg-error_1.35-1~bpo9+1.dsc cbd5ee62a8a8c88d48c158fff4fc9ead4132aacd1b4a56eb791f9f997d07e067 918408 libgpg-error_1.35.orig.tar.bz2 3bdb81cda53591cb4a1280625b2a6b12c7d85ad9607f8f769f39da9911063444 16132 libgpg-error_1.35-1~bpo9+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/libg/libgpg-error"
+	],
+	"Files": [
+		"2c9c130ea87f820d0d59a5f1f5fdb53a 2554 libgpg-error_1.35-1~bpo9+1.dsc 2808a9e044f883f7554c5ba6a380b711 918408 libgpg-error_1.35.orig.tar.bz2 2461c17a87655e9fac4264cde2b8db28 16132 libgpg-error_1.35-1~bpo9+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.gnupg.org/related_software/libgpg-error/"
+	],
+	"Maintainer": [
+		"Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"libgpg-error"
+	],
+	"Package-List": [
+		"gpgrt-tools deb devel optional arch=any libgpg-error-dev deb libdevel optional arch=any libgpg-error-l10n deb localization optional arch=all libgpg-error-mingw-w64-dev deb libdevel optional arch=all libgpg-error0 deb libs optional arch=any libgpg-error0-udeb udeb debian-installer optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.3.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, wine, wine32, wine64"
+	],
+	"Uploaders": [
+		"Daniel Kahn Gillmor <dkg@fifthhorseman.net>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/libgpg-error"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/libgpg-error.git"
+	],
+	"Version": [
+		"1.35-1~bpo9+1"
+	]
 }

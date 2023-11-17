@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "fusioninventory-agent, fusioninventory-agent-task-esx, fusioninventory-agent-task-deploy, fusioninventory-agent-task-collect, fusioninventory-agent-task-network, libfusioninventory-agent-task-esx-perl, libfusioninventory-agent-task-deploy-perl, libfusioninventory-agent-task-network-perl, libfusioninventory-agent-task-netinventory-perl, libfusioninventory-agent-task-snmpquery-perl"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 10), libclone-perl, libdigest-sha-perl, libfile-copy-recursive-perl, libfile-which-perl, libhttp-cookies-perl, libhttp-daemon-perl, libhttp-proxy-perl, libhttp-server-simple-perl, libhttp-server-simple-authen-perl, libio-capture-perl, libipc-run-perl, libjson-pp-perl, libmodule-install-perl, libnet-ip-perl, libnet-snmp-perl, libio-socket-ssl-perl, libparse-edid-perl, libproc-daemon-perl, libparallel-forkmanager-perl, libtest-compile-perl, libtest-deep-perl, libtest-nowarnings-perl, libtest-exception-perl, libtest-mockmodule-perl, libtest-mockobject-perl, libtext-template-perl, libsocket-getaddrinfo-perl, libuniversal-require-perl, liburi-perl, libwww-perl, libxml-treepp-perl (>= 0.26), libyaml-perl, perl, ucf"
-  ],
-  "Checksums-Sha256": [
-    "e231eb424999f5e0d0a795ad3aaa0f7497ba8ea08ebb2cdce0cdd3a97eafb294 3828 fusioninventory-agent_2.4.2-1~bpo9+1.dsc f721418e1930acab96cc9063532830c50750eac46ae8145b77cd9786af9d095e 2587731 fusioninventory-agent_2.4.2.orig.tar.gz 850bf8483992ab46be716a5fff1ff2e84cd1a89a5dcfdcfb94e804d8521574c3 11388 fusioninventory-agent_2.4.2-1~bpo9+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/f/fusioninventory-agent"
-  ],
-  "Files": [
-    "2fc61f35f7c48837013fbcc7bb23e460 3828 fusioninventory-agent_2.4.2-1~bpo9+1.dsc b6139fd1354c6f47d2cddb09401d1c36 2587731 fusioninventory-agent_2.4.2.orig.tar.gz 355c8491af6fb775935747c781d8dce7 11388 fusioninventory-agent_2.4.2-1~bpo9+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://fusioninventory.org/"
-  ],
-  "Maintainer": [
-    "Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "fusioninventory-agent"
-  ],
-  "Package-List": [
-    "fusioninventory-agent deb net optional arch=all fusioninventory-agent-task-collect deb net optional arch=all fusioninventory-agent-task-deploy deb net optional arch=all fusioninventory-agent-task-esx deb net optional arch=all fusioninventory-agent-task-network deb net optional arch=all libfusioninventory-agent-task-deploy-perl deb oldlibs optional arch=all libfusioninventory-agent-task-esx-perl deb oldlibs optional arch=all libfusioninventory-agent-task-netinventory-perl deb oldlibs optional arch=all libfusioninventory-agent-task-network-perl deb oldlibs optional arch=all libfusioninventory-agent-task-snmpquery-perl deb oldlibs optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.2.1"
-  ],
-  "Uploaders": [
-    "Guillaume Bougard <gbougard@teclib.com>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/perl-team/modules/packages/fusioninventory-agent"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/perl-team/modules/packages/fusioninventory-agent.git"
-  ],
-  "Version": [
-    "1:2.4.2-1~bpo9+1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"fusioninventory-agent, fusioninventory-agent-task-esx, fusioninventory-agent-task-deploy, fusioninventory-agent-task-collect, fusioninventory-agent-task-network, libfusioninventory-agent-task-esx-perl, libfusioninventory-agent-task-deploy-perl, libfusioninventory-agent-task-network-perl, libfusioninventory-agent-task-netinventory-perl, libfusioninventory-agent-task-snmpquery-perl"
+	],
+	"Build-Depends": [
+		"debhelper (>= 10), libclone-perl, libdigest-sha-perl, libfile-copy-recursive-perl, libfile-which-perl, libhttp-cookies-perl, libhttp-daemon-perl, libhttp-proxy-perl, libhttp-server-simple-perl, libhttp-server-simple-authen-perl, libio-capture-perl, libipc-run-perl, libjson-pp-perl, libmodule-install-perl, libnet-ip-perl, libnet-snmp-perl, libio-socket-ssl-perl, libparse-edid-perl, libproc-daemon-perl, libparallel-forkmanager-perl, libtest-compile-perl, libtest-deep-perl, libtest-nowarnings-perl, libtest-exception-perl, libtest-mockmodule-perl, libtest-mockobject-perl, libtext-template-perl, libsocket-getaddrinfo-perl, libuniversal-require-perl, liburi-perl, libwww-perl, libxml-treepp-perl (>= 0.26), libyaml-perl, perl, ucf"
+	],
+	"Checksums-Sha256": [
+		"e231eb424999f5e0d0a795ad3aaa0f7497ba8ea08ebb2cdce0cdd3a97eafb294 3828 fusioninventory-agent_2.4.2-1~bpo9+1.dsc f721418e1930acab96cc9063532830c50750eac46ae8145b77cd9786af9d095e 2587731 fusioninventory-agent_2.4.2.orig.tar.gz 850bf8483992ab46be716a5fff1ff2e84cd1a89a5dcfdcfb94e804d8521574c3 11388 fusioninventory-agent_2.4.2-1~bpo9+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/f/fusioninventory-agent"
+	],
+	"Files": [
+		"2fc61f35f7c48837013fbcc7bb23e460 3828 fusioninventory-agent_2.4.2-1~bpo9+1.dsc b6139fd1354c6f47d2cddb09401d1c36 2587731 fusioninventory-agent_2.4.2.orig.tar.gz 355c8491af6fb775935747c781d8dce7 11388 fusioninventory-agent_2.4.2-1~bpo9+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://fusioninventory.org/"
+	],
+	"Maintainer": [
+		"Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"fusioninventory-agent"
+	],
+	"Package-List": [
+		"fusioninventory-agent deb net optional arch=all fusioninventory-agent-task-collect deb net optional arch=all fusioninventory-agent-task-deploy deb net optional arch=all fusioninventory-agent-task-esx deb net optional arch=all fusioninventory-agent-task-network deb net optional arch=all libfusioninventory-agent-task-deploy-perl deb oldlibs optional arch=all libfusioninventory-agent-task-esx-perl deb oldlibs optional arch=all libfusioninventory-agent-task-netinventory-perl deb oldlibs optional arch=all libfusioninventory-agent-task-network-perl deb oldlibs optional arch=all libfusioninventory-agent-task-snmpquery-perl deb oldlibs optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.2.1"
+	],
+	"Uploaders": [
+		"Guillaume Bougard <gbougard@teclib.com>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/perl-team/modules/packages/fusioninventory-agent"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/perl-team/modules/packages/fusioninventory-agent.git"
+	],
+	"Version": [
+		"1:2.4.2-1~bpo9+1"
+	]
 }

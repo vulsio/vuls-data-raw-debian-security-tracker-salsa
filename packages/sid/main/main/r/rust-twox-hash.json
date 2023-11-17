@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-twox-hash-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cfg-if-1-dev <!nocheck> | librust-cfg-if-0-dev (>= 0.1-~~) <!nocheck>, librust-rand-0.8+default-dev <!nocheck> | librust-rand-0.7+default-dev <!nocheck> | librust-rand-0.6+default-dev <!nocheck> | librust-rand-0.5+default-dev <!nocheck> | librust-rand-0.4+default-dev <!nocheck> | librust-rand-0.3+default-dev (>= 0.3.10-~~) <!nocheck>, librust-static-assertions-1-dev <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "7495dd5e90c520d4155727f77966768e1797bd7c132c067bceab1478e3a82757 2598 rust-twox-hash_1.6.3-1.dsc 97fee6b57c6a41524a810daee9286c02d7752c4253064d0b05472833a438f675 21842 rust-twox-hash_1.6.3.orig.tar.gz 3e0f2191bdcde1356955bac852d9d8fd6f78f0d8ccfc0a60a95fa2e559611573 4636 rust-twox-hash_1.6.3-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-twox-hash"
-  ],
-  "Files": [
-    "6a09d7b8f6831021d374c64c41ed54ad 2598 rust-twox-hash_1.6.3-1.dsc 0716afbe0e69146f51e9c36487271847 21842 rust-twox-hash_1.6.3.orig.tar.gz ca1ee2d56b526c32276314aaea0900fc 4636 rust-twox-hash_1.6.3-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-twox-hash"
-  ],
-  "Package-List": [
-    "librust-twox-hash-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-serde-json-1+default-dev"
-  ],
-  "Uploaders": [
-    "Sylvestre Ledru <sylvestre@debian.org>, Alexander Kjäll <alexander.kjall@gmail.com>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/twox-hash"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/twox-hash]"
-  ],
-  "Version": [
-    "1.6.3-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-twox-hash-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cfg-if-1-dev <!nocheck> | librust-cfg-if-0-dev (>= 0.1-~~) <!nocheck>, librust-rand-0.8+default-dev <!nocheck> | librust-rand-0.7+default-dev <!nocheck> | librust-rand-0.6+default-dev <!nocheck> | librust-rand-0.5+default-dev <!nocheck> | librust-rand-0.4+default-dev <!nocheck> | librust-rand-0.3+default-dev (>= 0.3.10-~~) <!nocheck>, librust-static-assertions-1-dev <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"7495dd5e90c520d4155727f77966768e1797bd7c132c067bceab1478e3a82757 2598 rust-twox-hash_1.6.3-1.dsc 97fee6b57c6a41524a810daee9286c02d7752c4253064d0b05472833a438f675 21842 rust-twox-hash_1.6.3.orig.tar.gz 3e0f2191bdcde1356955bac852d9d8fd6f78f0d8ccfc0a60a95fa2e559611573 4636 rust-twox-hash_1.6.3-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-twox-hash"
+	],
+	"Files": [
+		"6a09d7b8f6831021d374c64c41ed54ad 2598 rust-twox-hash_1.6.3-1.dsc 0716afbe0e69146f51e9c36487271847 21842 rust-twox-hash_1.6.3.orig.tar.gz ca1ee2d56b526c32276314aaea0900fc 4636 rust-twox-hash_1.6.3-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-twox-hash"
+	],
+	"Package-List": [
+		"librust-twox-hash-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-serde-json-1+default-dev"
+	],
+	"Uploaders": [
+		"Sylvestre Ledru <sylvestre@debian.org>, Alexander Kjäll <alexander.kjall@gmail.com>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/twox-hash"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/twox-hash]"
+	],
+	"Version": [
+		"1.6.3-1"
+	]
 }

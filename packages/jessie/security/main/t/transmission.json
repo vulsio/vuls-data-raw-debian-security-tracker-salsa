@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "transmission, transmission-common, transmission-dbg, transmission-cli, transmission-gtk, transmission-qt, transmission-daemon"
-  ],
-  "Build-Depends": [
-    "autotools-dev, debhelper (>= 8), dh-autoreconf, dh-systemd [linux-any], intltool (>= 0.40), libcurl4-gnutls-dev | libcurl4-dev | libcurl-dev, libevent-dev (>= 2.0), libglib2.0-dev, libgtk-3-dev, libminiupnpc-dev (>= 1.9), libnatpmp-dev (>= 20110808), libnotify-dev (>= 0.7), libssl-dev, libsystemd-daemon-dev [linux-any], qt5-default, qt5-qmake, qtbase5-dev, qttools5-dev-tools, zlib1g-dev"
-  ],
-  "Checksums-Sha1": [
-    "4d95709a980582eacebc1caa7c36ec13c577c647 2831 transmission_2.84-0.2+deb8u2.dsc 455359bc1fa34aeecc1bac9255ad0c884b94419c 3077836 transmission_2.84.orig.tar.xz 68423caee78265ac43514d0198573b217d2836b5 21900 transmission_2.84-0.2+deb8u2.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "edd0b4e0591c41adb6690fa9ca4a5bc1b0adfa89e209689d253dbe83a8c2ac6c 2831 transmission_2.84-0.2+deb8u2.dsc a9fc1936b4ee414acc732ada04e84339d6755cd0d097bcbd11ba2cfc540db9eb 3077836 transmission_2.84.orig.tar.xz 026cd99479ec44eb56de7df6f280eae7b9c3439c27d35cbc2388d27a03d923ad 21900 transmission_2.84-0.2+deb8u2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/t/transmission"
-  ],
-  "Files": [
-    "ca03082c8933bb4bd190bfeecf27df0b 2831 transmission_2.84-0.2+deb8u2.dsc 411aec1c418c14f6765710d89743ae42 3077836 transmission_2.84.orig.tar.xz 0ee1864924006f919ee8a698820dfa7f 21900 transmission_2.84-0.2+deb8u2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.transmissionbt.com/"
-  ],
-  "Maintainer": [
-    "Leo Costela <costela@debian.org>"
-  ],
-  "Package": [
-    "transmission"
-  ],
-  "Package-List": [
-    "transmission deb net optional arch=all transmission-cli deb net optional arch=any transmission-common deb net optional arch=all transmission-daemon deb net optional arch=any transmission-dbg deb debug extra arch=any transmission-gtk deb net optional arch=any transmission-qt deb net optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=collab-maint/transmission.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/collab-maint/transmission.git"
-  ],
-  "Version": [
-    "2.84-0.2+deb8u2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"transmission, transmission-common, transmission-dbg, transmission-cli, transmission-gtk, transmission-qt, transmission-daemon"
+	],
+	"Build-Depends": [
+		"autotools-dev, debhelper (>= 8), dh-autoreconf, dh-systemd [linux-any], intltool (>= 0.40), libcurl4-gnutls-dev | libcurl4-dev | libcurl-dev, libevent-dev (>= 2.0), libglib2.0-dev, libgtk-3-dev, libminiupnpc-dev (>= 1.9), libnatpmp-dev (>= 20110808), libnotify-dev (>= 0.7), libssl-dev, libsystemd-daemon-dev [linux-any], qt5-default, qt5-qmake, qtbase5-dev, qttools5-dev-tools, zlib1g-dev"
+	],
+	"Checksums-Sha1": [
+		"4d95709a980582eacebc1caa7c36ec13c577c647 2831 transmission_2.84-0.2+deb8u2.dsc 455359bc1fa34aeecc1bac9255ad0c884b94419c 3077836 transmission_2.84.orig.tar.xz 68423caee78265ac43514d0198573b217d2836b5 21900 transmission_2.84-0.2+deb8u2.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"edd0b4e0591c41adb6690fa9ca4a5bc1b0adfa89e209689d253dbe83a8c2ac6c 2831 transmission_2.84-0.2+deb8u2.dsc a9fc1936b4ee414acc732ada04e84339d6755cd0d097bcbd11ba2cfc540db9eb 3077836 transmission_2.84.orig.tar.xz 026cd99479ec44eb56de7df6f280eae7b9c3439c27d35cbc2388d27a03d923ad 21900 transmission_2.84-0.2+deb8u2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/t/transmission"
+	],
+	"Files": [
+		"ca03082c8933bb4bd190bfeecf27df0b 2831 transmission_2.84-0.2+deb8u2.dsc 411aec1c418c14f6765710d89743ae42 3077836 transmission_2.84.orig.tar.xz 0ee1864924006f919ee8a698820dfa7f 21900 transmission_2.84-0.2+deb8u2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.transmissionbt.com/"
+	],
+	"Maintainer": [
+		"Leo Costela <costela@debian.org>"
+	],
+	"Package": [
+		"transmission"
+	],
+	"Package-List": [
+		"transmission deb net optional arch=all transmission-cli deb net optional arch=any transmission-common deb net optional arch=all transmission-daemon deb net optional arch=any transmission-dbg deb debug extra arch=any transmission-gtk deb net optional arch=any transmission-qt deb net optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=collab-maint/transmission.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/collab-maint/transmission.git"
+	],
+	"Version": [
+		"2.84-0.2+deb8u2"
+	]
 }

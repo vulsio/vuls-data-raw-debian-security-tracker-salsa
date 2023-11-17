@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "cmake, cmake-data, cmake-curses-gui, cmake-qt-gui, cmake-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9.20160114~), dpkg-dev (>= 1.17.14~), libarchive-dev (>= 2.8.0), libbz2-dev, libcurl4-openssl-dev | libcurl-ssl-dev, libexpat1-dev, libjsoncpp-dev, liblzma-dev, libncurses5-dev, libuv1-dev, procps [!hurd-any], python-sphinx, qtbase5-dev <!stage1>, zlib1g-dev"
-  ],
-  "Checksums-Sha256": [
-    "f7a2c2c800a1b43f087f16c9def44cd2a59e00c00ec0321421a910dc5526d32a 2989 cmake_3.7.2-1.dsc dc1246c4e6d168ea4d6e042cfba577c1acd65feea27e56f5ff37df920c30cae0 7361593 cmake_3.7.2.orig.tar.gz bb89cd5f40e67004931c978143eee41051303a0bc393853bab7c959a0fec9a5d 31872 cmake_3.7.2-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/c/cmake"
-  ],
-  "Files": [
-    "e5e16790a655dd260b77765093551b22 2989 cmake_3.7.2-1.dsc 79bd7e65cd81ea3aa2619484ad6ff25a 7361593 cmake_3.7.2.orig.tar.gz 8a6c6d8e09d64eb6fe7253236093e871 31872 cmake_3.7.2-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://cmake.org/"
-  ],
-  "Maintainer": [
-    "Debian CMake Team <pkg-cmake-team@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "cmake"
-  ],
-  "Package-List": [
-    "cmake deb devel optional arch=any cmake-curses-gui deb devel optional arch=any cmake-data deb devel optional arch=all cmake-doc deb doc optional arch=all cmake-qt-gui deb devel optional arch=any profile=!stage1"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "devel"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "bison, cvs, doxygen, flex, gettext, git, hspell, icoutils, imagemagick, libarchive-dev, libarmadillo-dev, libasound2-dev, libboost-dev, libbz2-dev, libcups2-dev, libcurl4-openssl-dev, libexpat1-dev, libfreetype6-dev, libgif-dev, libgnutls28-dev, libgtk2.0-dev, liblzma-dev, libmagick++-dev, libmagickcore-dev, libmagickwand-dev, libopenscenegraph-dev, libphysfs-dev, libprotobuf-dev, libtiff5-dev, libxml2-dev, libxslt1-dev, mercurial, ninja-build, perl, pkg-config, protobuf-compiler, ruby-dev, subversion, swig, zlib1g-dev"
-  ],
-  "Uploaders": [
-    "Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>, Felix Geyer <fgeyer@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-cmake/cmake.git/"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-cmake/cmake.git"
-  ],
-  "Version": [
-    "3.7.2-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"cmake, cmake-data, cmake-curses-gui, cmake-qt-gui, cmake-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9.20160114~), dpkg-dev (>= 1.17.14~), libarchive-dev (>= 2.8.0), libbz2-dev, libcurl4-openssl-dev | libcurl-ssl-dev, libexpat1-dev, libjsoncpp-dev, liblzma-dev, libncurses5-dev, libuv1-dev, procps [!hurd-any], python-sphinx, qtbase5-dev <!stage1>, zlib1g-dev"
+	],
+	"Checksums-Sha256": [
+		"f7a2c2c800a1b43f087f16c9def44cd2a59e00c00ec0321421a910dc5526d32a 2989 cmake_3.7.2-1.dsc dc1246c4e6d168ea4d6e042cfba577c1acd65feea27e56f5ff37df920c30cae0 7361593 cmake_3.7.2.orig.tar.gz bb89cd5f40e67004931c978143eee41051303a0bc393853bab7c959a0fec9a5d 31872 cmake_3.7.2-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/c/cmake"
+	],
+	"Files": [
+		"e5e16790a655dd260b77765093551b22 2989 cmake_3.7.2-1.dsc 79bd7e65cd81ea3aa2619484ad6ff25a 7361593 cmake_3.7.2.orig.tar.gz 8a6c6d8e09d64eb6fe7253236093e871 31872 cmake_3.7.2-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://cmake.org/"
+	],
+	"Maintainer": [
+		"Debian CMake Team <pkg-cmake-team@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"cmake"
+	],
+	"Package-List": [
+		"cmake deb devel optional arch=any cmake-curses-gui deb devel optional arch=any cmake-data deb devel optional arch=all cmake-doc deb doc optional arch=all cmake-qt-gui deb devel optional arch=any profile=!stage1"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"devel"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"bison, cvs, doxygen, flex, gettext, git, hspell, icoutils, imagemagick, libarchive-dev, libarmadillo-dev, libasound2-dev, libboost-dev, libbz2-dev, libcups2-dev, libcurl4-openssl-dev, libexpat1-dev, libfreetype6-dev, libgif-dev, libgnutls28-dev, libgtk2.0-dev, liblzma-dev, libmagick++-dev, libmagickcore-dev, libmagickwand-dev, libopenscenegraph-dev, libphysfs-dev, libprotobuf-dev, libtiff5-dev, libxml2-dev, libxslt1-dev, mercurial, ninja-build, perl, pkg-config, protobuf-compiler, ruby-dev, subversion, swig, zlib1g-dev"
+	],
+	"Uploaders": [
+		"Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>, Felix Geyer <fgeyer@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-cmake/cmake.git/"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-cmake/cmake.git"
+	],
+	"Version": [
+		"3.7.2-1"
+	]
 }

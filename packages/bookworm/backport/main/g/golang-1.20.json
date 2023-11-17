@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64 ppc64el riscv64 s390x all"
-  ],
-  "Binary": [
-    "golang-1.20-go, golang-1.20-src, golang-1.20-doc, golang-1.20"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), golang-any (>= 2:1.17~) | golang-go (>= 2:1.17~) | gccgo (>= 4:12~), netbase"
-  ],
-  "Checksums-Sha256": [
-    "c36e76df67a952563d4b378580659d2ec7d973f33aee695264d129eb1a27c1b1 2965 golang-1.20_1.20.11-1~bpo12+1.dsc d355c5ae3a8f7763c9ec9dc25153aae373958cbcb60dd09e91a8b56c7621b2fc 26198249 golang-1.20_1.20.11.orig.tar.gz 3c20705fb65baa4bdf96ecffab57eb646842ce172a617f0b231a04c0c4917d64 833 golang-1.20_1.20.11.orig.tar.gz.asc dad4bd6c6eada70e47372b639a47b25acc25c320300f4ce964f25a19934bf7bf 37924 golang-1.20_1.20.11-1~bpo12+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/g/golang-1.20"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://go.dev/"
-  ],
-  "Maintainer": [
-    "Debian Go Compiler Team <team+go-compiler@tracker.debian.org>"
-  ],
-  "Package": [
-    "golang-1.20"
-  ],
-  "Package-List": [
-    "golang-1.20 deb golang optional arch=all golang-1.20-doc deb doc optional arch=all golang-1.20-go deb golang optional arch=amd64,arm64,armel,armhf,i386,mips,mips64el,mipsel,ppc64,ppc64el,riscv64,s390x golang-1.20-src deb golang optional arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential"
-  ],
-  "Uploaders": [
-    "Michael Stapelberg <stapelberg@debian.org>, Paul Tagliamonte <paultag@debian.org>, Tianon Gravi <tianon@debian.org>, Michael Hudson-Doyle <mwhudson@debian.org>, Dr. Tobias Quathamer <toddy@debian.org>, Anthony Fok <foka@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/go-team/compiler/golang/tree/golang-1.20"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/go-team/compiler/golang.git -b golang-1.20"
-  ],
-  "Version": [
-    "1.20.11-1~bpo12+1"
-  ]
+	"Architecture": [
+		"amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64 ppc64el riscv64 s390x all"
+	],
+	"Binary": [
+		"golang-1.20-go, golang-1.20-src, golang-1.20-doc, golang-1.20"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), golang-any (>= 2:1.17~) | golang-go (>= 2:1.17~) | gccgo (>= 4:12~), netbase"
+	],
+	"Checksums-Sha256": [
+		"c36e76df67a952563d4b378580659d2ec7d973f33aee695264d129eb1a27c1b1 2965 golang-1.20_1.20.11-1~bpo12+1.dsc d355c5ae3a8f7763c9ec9dc25153aae373958cbcb60dd09e91a8b56c7621b2fc 26198249 golang-1.20_1.20.11.orig.tar.gz 3c20705fb65baa4bdf96ecffab57eb646842ce172a617f0b231a04c0c4917d64 833 golang-1.20_1.20.11.orig.tar.gz.asc dad4bd6c6eada70e47372b639a47b25acc25c320300f4ce964f25a19934bf7bf 37924 golang-1.20_1.20.11-1~bpo12+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/golang-1.20"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://go.dev/"
+	],
+	"Maintainer": [
+		"Debian Go Compiler Team <team+go-compiler@tracker.debian.org>"
+	],
+	"Package": [
+		"golang-1.20"
+	],
+	"Package-List": [
+		"golang-1.20 deb golang optional arch=all golang-1.20-doc deb doc optional arch=all golang-1.20-go deb golang optional arch=amd64,arm64,armel,armhf,i386,mips,mips64el,mipsel,ppc64,ppc64el,riscv64,s390x golang-1.20-src deb golang optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential"
+	],
+	"Uploaders": [
+		"Michael Stapelberg <stapelberg@debian.org>, Paul Tagliamonte <paultag@debian.org>, Tianon Gravi <tianon@debian.org>, Michael Hudson-Doyle <mwhudson@debian.org>, Dr. Tobias Quathamer <toddy@debian.org>, Anthony Fok <foka@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/go-team/compiler/golang/tree/golang-1.20"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/go-team/compiler/golang.git -b golang-1.20"
+	],
+	"Version": [
+		"1.20.11-1~bpo12+1"
+	]
 }

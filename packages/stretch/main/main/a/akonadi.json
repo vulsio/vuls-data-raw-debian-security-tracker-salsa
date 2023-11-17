@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "akonadi-server, libkf5akonadi-dev, libkf5akonadi-dev-bin, libkf5akonadiagentbase5, libkf5akonadicore5, libkf5akonadicore-bin, libkf5akonadiwidgets5, libkf5akonadixml5, libkf5akonadiprivate5, libkf5akonadiserver-dev, akonadi-backend-mysql, akonadi-backend-postgresql, akonadi-backend-sqlite"
-  ],
-  "Build-Depends": [
-    "cmake (>= 2.8.12~), debhelper (>= 9), default-libmysqlclient-dev, dh-apparmor, extra-cmake-modules (>= 5.16.0~), kdesignerplugin (>= 5.16.0~), kgendesignerplugin, kio-dev (>= 5.16.0~), libkf5completion-dev (>= 5.16.0~), libkf5config-dev (>= 5.16.0~), libkf5dbusaddons-dev (>= 5.16.0~), libkf5guiaddons-dev (>= 5.16.0~), libkf5i18n-dev (>= 5.16.0~), libkf5iconthemes-dev (>= 5.16.0~), libkf5itemmodels-dev (>= 5.16.0~), libkf5itemviews-dev (>= 5.16.0~), libkf5windowsystem-dev (>= 5.16.0~), libboost-dev (>= 1.34.0~), libxslt1-dev, libxml2-dev, libsqlite3-dev (>= 3.6.23), libxml2-utils, pkg-config, pkg-kde-tools (>= 0.12), qtbase5-dev (>= 5.4.0~), qtbase5-private-dev, qttools5-dev, shared-mime-info (>= 0.20), xsltproc"
-  ],
-  "Checksums-Sha256": [
-    "6f6bbb97e5e443eb9d69d28f4cdb70e667cfaabd9fabe6b1a1c7d6ed0050166f 3812 akonadi_16.04.3-4.dsc 26f1047448bcf6dcf2909c9253a5e7956d2b71410033ae11c5f5a822ed2f5bbb 1022892 akonadi_16.04.3.orig.tar.xz 34c1dadaef5b745dc8327afb05213714cda16103eba439ff4c02b30a19dd787f 54524 akonadi_16.04.3-4.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/a/akonadi"
-  ],
-  "Files": [
-    "80f93e628d1d65c657cfa7013a745ba2 3812 akonadi_16.04.3-4.dsc a29d6dce9e9675bd717cb1b02a4d08a7 1022892 akonadi_16.04.3.orig.tar.xz 3ed0c7d9bb76b14079874f9daf74fbc2 54524 akonadi_16.04.3-4.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://pim.kde.org/akonadi"
-  ],
-  "Maintainer": [
-    "Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>"
-  ],
-  "Package": [
-    "akonadi"
-  ],
-  "Package-List": [
-    "akonadi-backend-mysql deb misc optional arch=all akonadi-backend-postgresql deb misc optional arch=all akonadi-backend-sqlite deb misc optional arch=any akonadi-server deb net optional arch=any libkf5akonadi-dev deb libdevel optional arch=any libkf5akonadi-dev-bin deb libdevel optional arch=any libkf5akonadiagentbase5 deb libs optional arch=any libkf5akonadicore-bin deb oldlibs extra arch=any libkf5akonadicore5 deb libs optional arch=any libkf5akonadiprivate5 deb libs optional arch=any libkf5akonadiserver-dev deb libdevel optional arch=any libkf5akonadiwidgets5 deb libs optional arch=any libkf5akonadixml5 deb libs optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "libs"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential, dbus, dh-acc, exuberant-ctags, libgl1-mesa-dri, libxml2-utils, xauth, xvfb"
-  ],
-  "Uploaders": [
-    "Sune Vuorela <debian@pusling.com>, Modestas Vainius <modax@debian.org>, Fathi Boudra <fabo@debian.org>, Maximiliano Curia <maxy@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/git/pkg-kde/applications/akonadi.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-kde/applications/akonadi.git"
-  ],
-  "Version": [
-    "4:16.04.3-4"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"akonadi-server, libkf5akonadi-dev, libkf5akonadi-dev-bin, libkf5akonadiagentbase5, libkf5akonadicore5, libkf5akonadicore-bin, libkf5akonadiwidgets5, libkf5akonadixml5, libkf5akonadiprivate5, libkf5akonadiserver-dev, akonadi-backend-mysql, akonadi-backend-postgresql, akonadi-backend-sqlite"
+	],
+	"Build-Depends": [
+		"cmake (>= 2.8.12~), debhelper (>= 9), default-libmysqlclient-dev, dh-apparmor, extra-cmake-modules (>= 5.16.0~), kdesignerplugin (>= 5.16.0~), kgendesignerplugin, kio-dev (>= 5.16.0~), libkf5completion-dev (>= 5.16.0~), libkf5config-dev (>= 5.16.0~), libkf5dbusaddons-dev (>= 5.16.0~), libkf5guiaddons-dev (>= 5.16.0~), libkf5i18n-dev (>= 5.16.0~), libkf5iconthemes-dev (>= 5.16.0~), libkf5itemmodels-dev (>= 5.16.0~), libkf5itemviews-dev (>= 5.16.0~), libkf5windowsystem-dev (>= 5.16.0~), libboost-dev (>= 1.34.0~), libxslt1-dev, libxml2-dev, libsqlite3-dev (>= 3.6.23), libxml2-utils, pkg-config, pkg-kde-tools (>= 0.12), qtbase5-dev (>= 5.4.0~), qtbase5-private-dev, qttools5-dev, shared-mime-info (>= 0.20), xsltproc"
+	],
+	"Checksums-Sha256": [
+		"6f6bbb97e5e443eb9d69d28f4cdb70e667cfaabd9fabe6b1a1c7d6ed0050166f 3812 akonadi_16.04.3-4.dsc 26f1047448bcf6dcf2909c9253a5e7956d2b71410033ae11c5f5a822ed2f5bbb 1022892 akonadi_16.04.3.orig.tar.xz 34c1dadaef5b745dc8327afb05213714cda16103eba439ff4c02b30a19dd787f 54524 akonadi_16.04.3-4.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/a/akonadi"
+	],
+	"Files": [
+		"80f93e628d1d65c657cfa7013a745ba2 3812 akonadi_16.04.3-4.dsc a29d6dce9e9675bd717cb1b02a4d08a7 1022892 akonadi_16.04.3.orig.tar.xz 3ed0c7d9bb76b14079874f9daf74fbc2 54524 akonadi_16.04.3-4.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://pim.kde.org/akonadi"
+	],
+	"Maintainer": [
+		"Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>"
+	],
+	"Package": [
+		"akonadi"
+	],
+	"Package-List": [
+		"akonadi-backend-mysql deb misc optional arch=all akonadi-backend-postgresql deb misc optional arch=all akonadi-backend-sqlite deb misc optional arch=any akonadi-server deb net optional arch=any libkf5akonadi-dev deb libdevel optional arch=any libkf5akonadi-dev-bin deb libdevel optional arch=any libkf5akonadiagentbase5 deb libs optional arch=any libkf5akonadicore-bin deb oldlibs extra arch=any libkf5akonadicore5 deb libs optional arch=any libkf5akonadiprivate5 deb libs optional arch=any libkf5akonadiserver-dev deb libdevel optional arch=any libkf5akonadiwidgets5 deb libs optional arch=any libkf5akonadixml5 deb libs optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"libs"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, dbus, dh-acc, exuberant-ctags, libgl1-mesa-dri, libxml2-utils, xauth, xvfb"
+	],
+	"Uploaders": [
+		"Sune Vuorela <debian@pusling.com>, Modestas Vainius <modax@debian.org>, Fathi Boudra <fabo@debian.org>, Maximiliano Curia <maxy@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/git/pkg-kde/applications/akonadi.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-kde/applications/akonadi.git"
+	],
+	"Version": [
+		"4:16.04.3-4"
+	]
 }

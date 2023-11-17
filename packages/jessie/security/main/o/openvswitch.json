@@ -1,53 +1,53 @@
 {
-  "Architecture": [
-    "linux-any all"
-  ],
-  "Binary": [
-    "openvswitch-common, openvswitch-switch, openvswitch-ipsec, openvswitch-pki, openvswitch-dbg, python-openvswitch, openvswitch-test, openvswitch-vtep"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 8), dh-autoreconf, autoconf (>= 2.64), automake (>= 1.10) | automake1.10, libssl-dev, bzip2, openssl, graphviz, python-all (>= 2.6.6-3~), procps, python-qt4, python-zopeinterface, python-twisted-conch, libtool"
-  ],
-  "Checksums-Sha1": [
-    "aa0d5f5648b21a9d9ccc98cac616fed7f0d46ca0 2595 openvswitch_2.3.0+git20140819-3+deb8u1.dsc 33e614de2cdbce2217e439bfd372c995ca131241 2153428 openvswitch_2.3.0+git20140819.orig.tar.xz e1905120eeebe1953eb6e2800087e741c5746fb9 42852 openvswitch_2.3.0+git20140819-3+deb8u1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "165bf25b20bd1fd5a86927b92ce877872851ed8931f2e0ca6c7925d9a8df2b81 2595 openvswitch_2.3.0+git20140819-3+deb8u1.dsc e0faf612378c55edce375508dfba2d87f5b5830116056734c14567f23fcda851 2153428 openvswitch_2.3.0+git20140819.orig.tar.xz 03714d8bb6db2e0c5f18edeec88ef352b161f9849f49179a3910ed5c1e8814f6 42852 openvswitch_2.3.0+git20140819-3+deb8u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/o/openvswitch"
-  ],
-  "Files": [
-    "5775a890f9b5eacb64473c0f33af261c 2595 openvswitch_2.3.0+git20140819-3+deb8u1.dsc b3fb6f7c945b52792bce5e71cad27c43 2153428 openvswitch_2.3.0+git20140819.orig.tar.xz 7a0817ea6afc51ebd31c1a9b481f62bd 42852 openvswitch_2.3.0+git20140819-3+deb8u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://openvswitch.org/"
-  ],
-  "Maintainer": [
-    "Open vSwitch developers <dev@openvswitch.org>"
-  ],
-  "Package": [
-    "openvswitch"
-  ],
-  "Package-List": [
-    "openvswitch-common deb net extra arch=linux-any openvswitch-dbg deb debug extra arch=linux-any openvswitch-ipsec deb net extra arch=linux-any openvswitch-pki deb net extra arch=all openvswitch-switch deb net extra arch=linux-any openvswitch-test deb net extra arch=all openvswitch-vtep deb net extra arch=linux-any python-openvswitch deb python extra arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Ben Pfaff <pfaffben@debian.org>, Simon Horman <horms@debian.org>"
-  ],
-  "Version": [
-    "2.3.0+git20140819-3+deb8u1"
-  ]
+	"Architecture": [
+		"linux-any all"
+	],
+	"Binary": [
+		"openvswitch-common, openvswitch-switch, openvswitch-ipsec, openvswitch-pki, openvswitch-dbg, python-openvswitch, openvswitch-test, openvswitch-vtep"
+	],
+	"Build-Depends": [
+		"debhelper (>= 8), dh-autoreconf, autoconf (>= 2.64), automake (>= 1.10) | automake1.10, libssl-dev, bzip2, openssl, graphviz, python-all (>= 2.6.6-3~), procps, python-qt4, python-zopeinterface, python-twisted-conch, libtool"
+	],
+	"Checksums-Sha1": [
+		"aa0d5f5648b21a9d9ccc98cac616fed7f0d46ca0 2595 openvswitch_2.3.0+git20140819-3+deb8u1.dsc 33e614de2cdbce2217e439bfd372c995ca131241 2153428 openvswitch_2.3.0+git20140819.orig.tar.xz e1905120eeebe1953eb6e2800087e741c5746fb9 42852 openvswitch_2.3.0+git20140819-3+deb8u1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"165bf25b20bd1fd5a86927b92ce877872851ed8931f2e0ca6c7925d9a8df2b81 2595 openvswitch_2.3.0+git20140819-3+deb8u1.dsc e0faf612378c55edce375508dfba2d87f5b5830116056734c14567f23fcda851 2153428 openvswitch_2.3.0+git20140819.orig.tar.xz 03714d8bb6db2e0c5f18edeec88ef352b161f9849f49179a3910ed5c1e8814f6 42852 openvswitch_2.3.0+git20140819-3+deb8u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/o/openvswitch"
+	],
+	"Files": [
+		"5775a890f9b5eacb64473c0f33af261c 2595 openvswitch_2.3.0+git20140819-3+deb8u1.dsc b3fb6f7c945b52792bce5e71cad27c43 2153428 openvswitch_2.3.0+git20140819.orig.tar.xz 7a0817ea6afc51ebd31c1a9b481f62bd 42852 openvswitch_2.3.0+git20140819-3+deb8u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://openvswitch.org/"
+	],
+	"Maintainer": [
+		"Open vSwitch developers <dev@openvswitch.org>"
+	],
+	"Package": [
+		"openvswitch"
+	],
+	"Package-List": [
+		"openvswitch-common deb net extra arch=linux-any openvswitch-dbg deb debug extra arch=linux-any openvswitch-ipsec deb net extra arch=linux-any openvswitch-pki deb net extra arch=all openvswitch-switch deb net extra arch=linux-any openvswitch-test deb net extra arch=all openvswitch-vtep deb net extra arch=linux-any python-openvswitch deb python extra arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Ben Pfaff <pfaffben@debian.org>, Simon Horman <horms@debian.org>"
+	],
+	"Version": [
+		"2.3.0+git20140819-3+deb8u1"
+	]
 }

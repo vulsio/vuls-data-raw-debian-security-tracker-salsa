@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "link-grammar, liblink-grammar5, liblink-grammar-dev, liblink-grammar-java, python-link-grammar, python3-link-grammar, python-link-grammar-examples, link-grammar-dictionaries-en, link-grammar-dictionaries-all"
-  ],
-  "Build-Depends": [
-    "ant [!hppa !hurd-i386 !m68k !sh4], autoconf-archive, debhelper (>= 10), default-jdk [!hppa !hurd-i386 !m68k !sh4], dh-python, libedit-dev, libhunspell-dev, minisat, pkg-config, python-dev, python3-dev, swig, zlib1g-dev"
-  ],
-  "Checksums-Sha256": [
-    "258e798baec5acc1610b67beb8cc3c62200bcb6e784c7fc788e7022b7eecea4f 2947 link-grammar_5.3.14-1.dsc 4161ff7af5d6297cc97758ed5062fc48cb3e87749f3b8dcd5b2c8ceae216f267 3687011 link-grammar_5.3.14.orig.tar.gz 2688300fdfa480411481eb5c5da6f15158f0c9302113d25d681798354d78c416 28900 link-grammar_5.3.14-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/l/link-grammar"
-  ],
-  "Files": [
-    "7bab2668966787b71642f750b24dc33a 2947 link-grammar_5.3.14-1.dsc 9970528004b8dc59e3f8d4b383cc68d9 3687011 link-grammar_5.3.14.orig.tar.gz 7e56a9d5f58e92675881c27a9b2aa13e 28900 link-grammar_5.3.14-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.abisource.com/projects/link-grammar/"
-  ],
-  "Maintainer": [
-    "Debian QA Group <packages@qa.debian.org>"
-  ],
-  "Package": [
-    "link-grammar"
-  ],
-  "Package-List": [
-    "liblink-grammar-dev deb libdevel optional arch=any liblink-grammar-java deb java optional arch=alpha,amd64,arm64,armel,armhf,i386,ia64,kfreebsd-amd64,kfreebsd-i386,mips,mips64,mips64el,mipsel,powerpc,powerpcspe,ppc64,ppc64el,s390x,sparc,sparc64,x32 liblink-grammar5 deb libs optional arch=any link-grammar deb text optional arch=any link-grammar-dictionaries-all deb text optional arch=all link-grammar-dictionaries-en deb text optional arch=all python-link-grammar deb python optional arch=any python-link-grammar-examples deb python optional arch=all python3-link-grammar deb python optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "text"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential, hunspell-en-us, locales-all"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/git/collab-maint/link-grammar.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/collab-maint/link-grammar.git"
-  ],
-  "Version": [
-    "5.3.14-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"link-grammar, liblink-grammar5, liblink-grammar-dev, liblink-grammar-java, python-link-grammar, python3-link-grammar, python-link-grammar-examples, link-grammar-dictionaries-en, link-grammar-dictionaries-all"
+	],
+	"Build-Depends": [
+		"ant [!hppa !hurd-i386 !m68k !sh4], autoconf-archive, debhelper (>= 10), default-jdk [!hppa !hurd-i386 !m68k !sh4], dh-python, libedit-dev, libhunspell-dev, minisat, pkg-config, python-dev, python3-dev, swig, zlib1g-dev"
+	],
+	"Checksums-Sha256": [
+		"258e798baec5acc1610b67beb8cc3c62200bcb6e784c7fc788e7022b7eecea4f 2947 link-grammar_5.3.14-1.dsc 4161ff7af5d6297cc97758ed5062fc48cb3e87749f3b8dcd5b2c8ceae216f267 3687011 link-grammar_5.3.14.orig.tar.gz 2688300fdfa480411481eb5c5da6f15158f0c9302113d25d681798354d78c416 28900 link-grammar_5.3.14-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/l/link-grammar"
+	],
+	"Files": [
+		"7bab2668966787b71642f750b24dc33a 2947 link-grammar_5.3.14-1.dsc 9970528004b8dc59e3f8d4b383cc68d9 3687011 link-grammar_5.3.14.orig.tar.gz 7e56a9d5f58e92675881c27a9b2aa13e 28900 link-grammar_5.3.14-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.abisource.com/projects/link-grammar/"
+	],
+	"Maintainer": [
+		"Debian QA Group <packages@qa.debian.org>"
+	],
+	"Package": [
+		"link-grammar"
+	],
+	"Package-List": [
+		"liblink-grammar-dev deb libdevel optional arch=any liblink-grammar-java deb java optional arch=alpha,amd64,arm64,armel,armhf,i386,ia64,kfreebsd-amd64,kfreebsd-i386,mips,mips64,mips64el,mipsel,powerpc,powerpcspe,ppc64,ppc64el,s390x,sparc,sparc64,x32 liblink-grammar5 deb libs optional arch=any link-grammar deb text optional arch=any link-grammar-dictionaries-all deb text optional arch=all link-grammar-dictionaries-en deb text optional arch=all python-link-grammar deb python optional arch=any python-link-grammar-examples deb python optional arch=all python3-link-grammar deb python optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"text"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, hunspell-en-us, locales-all"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/git/collab-maint/link-grammar.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/collab-maint/link-grammar.git"
+	],
+	"Version": [
+		"5.3.14-1"
+	]
 }

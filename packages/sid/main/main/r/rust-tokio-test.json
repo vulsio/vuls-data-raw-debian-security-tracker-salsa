@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-tokio-test-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-async-stream-0.3+default-dev (>= 0.3.3-~~) <!nocheck>, librust-bytes-1+default-dev <!nocheck>, librust-futures-core-0.3+default-dev <!nocheck>, librust-tokio-1+default-dev (>= 1.2.0-~~) <!nocheck>, librust-tokio-1+rt-dev (>= 1.2.0-~~) <!nocheck>, librust-tokio-1+sync-dev (>= 1.2.0-~~) <!nocheck>, librust-tokio-1+test-util-dev (>= 1.2.0-~~) <!nocheck>, librust-tokio-1+time-dev (>= 1.2.0-~~) <!nocheck>, librust-tokio-stream-0.1+default-dev (>= 0.1.1-~~) <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "e59a5c8d11d730501f106a0e6205f2b62a1f7264890729aa4648008dc3f2f684 2765 rust-tokio-test_0.4.3-1.dsc e89b3cbabd3ae862100094ae433e1def582cf86451b4e9bf83aa7ac1d8a7d719 12250 rust-tokio-test_0.4.3.orig.tar.gz ecc7ad8497204fb6cabc55bdc2dd58307e62c622da0023cb57429cf545f7df68 2708 rust-tokio-test_0.4.3-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-tokio-test"
-  ],
-  "Files": [
-    "b406c414a1091aa2d1631f7f1a2f24d0 2765 rust-tokio-test_0.4.3-1.dsc 580fd0bc35824897d1183580e88841e8 12250 rust-tokio-test_0.4.3.orig.tar.gz 41ba371e3fec0f06c00e0e1ca39d50b2 2708 rust-tokio-test_0.4.3-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://tokio.rs"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-tokio-test"
-  ],
-  "Package-List": [
-    "librust-tokio-test-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-futures-util-0.3+default-dev, librust-tokio-1+default-dev, librust-tokio-1+full-dev"
-  ],
-  "Uploaders": [
-    "Matthias Geiger <werdahias@riseup.net>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/tokio-test"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/tokio-test]"
-  ],
-  "Version": [
-    "0.4.3-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-tokio-test-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-async-stream-0.3+default-dev (>= 0.3.3-~~) <!nocheck>, librust-bytes-1+default-dev <!nocheck>, librust-futures-core-0.3+default-dev <!nocheck>, librust-tokio-1+default-dev (>= 1.2.0-~~) <!nocheck>, librust-tokio-1+rt-dev (>= 1.2.0-~~) <!nocheck>, librust-tokio-1+sync-dev (>= 1.2.0-~~) <!nocheck>, librust-tokio-1+test-util-dev (>= 1.2.0-~~) <!nocheck>, librust-tokio-1+time-dev (>= 1.2.0-~~) <!nocheck>, librust-tokio-stream-0.1+default-dev (>= 0.1.1-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"e59a5c8d11d730501f106a0e6205f2b62a1f7264890729aa4648008dc3f2f684 2765 rust-tokio-test_0.4.3-1.dsc e89b3cbabd3ae862100094ae433e1def582cf86451b4e9bf83aa7ac1d8a7d719 12250 rust-tokio-test_0.4.3.orig.tar.gz ecc7ad8497204fb6cabc55bdc2dd58307e62c622da0023cb57429cf545f7df68 2708 rust-tokio-test_0.4.3-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-tokio-test"
+	],
+	"Files": [
+		"b406c414a1091aa2d1631f7f1a2f24d0 2765 rust-tokio-test_0.4.3-1.dsc 580fd0bc35824897d1183580e88841e8 12250 rust-tokio-test_0.4.3.orig.tar.gz 41ba371e3fec0f06c00e0e1ca39d50b2 2708 rust-tokio-test_0.4.3-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://tokio.rs"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-tokio-test"
+	],
+	"Package-List": [
+		"librust-tokio-test-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-futures-util-0.3+default-dev, librust-tokio-1+default-dev, librust-tokio-1+full-dev"
+	],
+	"Uploaders": [
+		"Matthias Geiger <werdahias@riseup.net>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/tokio-test"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/tokio-test]"
+	],
+	"Version": [
+		"0.4.3-1"
+	]
 }

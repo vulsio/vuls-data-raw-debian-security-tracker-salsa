@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "neutron-fwaas-common, python3-neutron-fwaas"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 10), dh-python, openstack-pkg-tools, po-debconf, python3-all, python3-pbr (>= 2.0.0), python3-setuptools, python3-sphinx (>= 1.6.2)"
-  ],
-  "Build-Depends-Indep": [
-    "alembic (>= 0.8.10), python3-coverage, python3-eventlet, python3-hacking, python3-mock, python3-mysqldb, python3-netaddr, python3-neutron (>= 2:13.0.0), python3-neutron-lib (>= 1.18.0), python3-openstackdocstheme (>= 1.18.1), python3-os-testr (>= 1.0.0), python3-oslo.concurrency (>= 3.26.0), python3-oslo.config (>= 1:5.2.0), python3-oslo.db (>= 4.27.0), python3-oslo.log (>= 3.36.0), python3-oslo.messaging (>= 5.29.0), python3-oslo.privsep (>= 1.23.0), python3-oslo.service (>= 1.24.0), python3-oslo.utils (>= 3.33.0), python3-oslotest (>= 1:3.2.0), python3-psycopg2 (>= 2.6.2), python3-pygments, python3-pymysql, python3-requests-mock (>= 1.2.0), python3-six, python3-sphinxcontrib.apidoc, python3-sqlalchemy, python3-testresources (>= 2.0.0), python3-testscenarios, python3-testtools (>= 2.2.0), python3-webob (>= 1.7.1), python3-webtest (>= 2.0.27), subunit, testrepository"
-  ],
-  "Checksums-Sha256": [
-    "dd3d1f95ac7f099f32f3a2cc66827db13169732c514ae9cacf25e49923c514a9 3146 neutron-fwaas_13.0.1-7.dsc 2022fc7e404219565c83c27bc6db824bb9adcfecd07cce54de5e4ac894c4942c 219631 neutron-fwaas_13.0.1.orig.tar.gz 66d7e178381858b7f18bb90653fd2c30a3f3cc3ebbd02c1228c3a75a1ee4c42f 11044 neutron-fwaas_13.0.1-7.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/n/neutron-fwaas"
-  ],
-  "Files": [
-    "da6a42e67cf040a3094016d4db93031a 3146 neutron-fwaas_13.0.1-7.dsc 3af34ebba18993637d67b3840e809794 219631 neutron-fwaas_13.0.1.orig.tar.gz 35b32e0cf8b12c8b48d11f6ff48909fe 11044 neutron-fwaas_13.0.1-7.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/openstack/neutron-fwaas"
-  ],
-  "Maintainer": [
-    "Debian OpenStack <team+openstack@tracker.debian.org>"
-  ],
-  "Package": [
-    "neutron-fwaas"
-  ],
-  "Package-List": [
-    "neutron-fwaas-common deb net optional arch=all python3-neutron-fwaas deb python optional arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.1.3"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>, Michal Arbet <michal.arbet@ultimum.io>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/openstack-team/services/neutron-fwaas"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/openstack-team/services/neutron-fwaas.git"
-  ],
-  "Version": [
-    "1:13.0.1-7"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"neutron-fwaas-common, python3-neutron-fwaas"
+	],
+	"Build-Depends": [
+		"debhelper (>= 10), dh-python, openstack-pkg-tools, po-debconf, python3-all, python3-pbr (>= 2.0.0), python3-setuptools, python3-sphinx (>= 1.6.2)"
+	],
+	"Build-Depends-Indep": [
+		"alembic (>= 0.8.10), python3-coverage, python3-eventlet, python3-hacking, python3-mock, python3-mysqldb, python3-netaddr, python3-neutron (>= 2:13.0.0), python3-neutron-lib (>= 1.18.0), python3-openstackdocstheme (>= 1.18.1), python3-os-testr (>= 1.0.0), python3-oslo.concurrency (>= 3.26.0), python3-oslo.config (>= 1:5.2.0), python3-oslo.db (>= 4.27.0), python3-oslo.log (>= 3.36.0), python3-oslo.messaging (>= 5.29.0), python3-oslo.privsep (>= 1.23.0), python3-oslo.service (>= 1.24.0), python3-oslo.utils (>= 3.33.0), python3-oslotest (>= 1:3.2.0), python3-psycopg2 (>= 2.6.2), python3-pygments, python3-pymysql, python3-requests-mock (>= 1.2.0), python3-six, python3-sphinxcontrib.apidoc, python3-sqlalchemy, python3-testresources (>= 2.0.0), python3-testscenarios, python3-testtools (>= 2.2.0), python3-webob (>= 1.7.1), python3-webtest (>= 2.0.27), subunit, testrepository"
+	],
+	"Checksums-Sha256": [
+		"dd3d1f95ac7f099f32f3a2cc66827db13169732c514ae9cacf25e49923c514a9 3146 neutron-fwaas_13.0.1-7.dsc 2022fc7e404219565c83c27bc6db824bb9adcfecd07cce54de5e4ac894c4942c 219631 neutron-fwaas_13.0.1.orig.tar.gz 66d7e178381858b7f18bb90653fd2c30a3f3cc3ebbd02c1228c3a75a1ee4c42f 11044 neutron-fwaas_13.0.1-7.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/n/neutron-fwaas"
+	],
+	"Files": [
+		"da6a42e67cf040a3094016d4db93031a 3146 neutron-fwaas_13.0.1-7.dsc 3af34ebba18993637d67b3840e809794 219631 neutron-fwaas_13.0.1.orig.tar.gz 35b32e0cf8b12c8b48d11f6ff48909fe 11044 neutron-fwaas_13.0.1-7.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/openstack/neutron-fwaas"
+	],
+	"Maintainer": [
+		"Debian OpenStack <team+openstack@tracker.debian.org>"
+	],
+	"Package": [
+		"neutron-fwaas"
+	],
+	"Package-List": [
+		"neutron-fwaas-common deb net optional arch=all python3-neutron-fwaas deb python optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.1.3"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>, Michal Arbet <michal.arbet@ultimum.io>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/openstack-team/services/neutron-fwaas"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/openstack-team/services/neutron-fwaas.git"
+	],
+	"Version": [
+		"1:13.0.1-7"
+	]
 }

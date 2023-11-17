@@ -1,68 +1,68 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libgraphene-1.0-0, libgraphene-1.0-dev, libgraphene-doc, graphene-tests, gir1.2-graphene-1.0"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-gir, libglib2.0-dev, libgirepository1.0-dev, meson, pkg-config"
-  ],
-  "Build-Depends-Indep": [
-    "gtk-doc-tools <!nodoc>, libglib2.0-doc <!nodoc>"
-  ],
-  "Checksums-Sha256": [
-    "7898bbb49f75707d3649cbbde16bbb99f0ab47821e588717d1557e7135a7733f 2644 graphene_1.10.8-2.dsc 52e3f69828a2e1895a29d08d8a457ecad7a7a554901596069284fd9cf092fcf9 248540 graphene_1.10.8.orig.tar.xz 1d955d74f4aea836feba437cd300ac84d6b2764a7a565fb56ee409132de5393e 7624 graphene_1.10.8-2.debian.tar.xz"
-  ],
-  "Dgit": [
-    "b224583c73f82daffb29cc01b0287e86840f26dd debian archive/debian/1.10.8-2 https://git.dgit.debian.org/graphene"
-  ],
-  "Directory": [
-    "pool/main/g/graphene"
-  ],
-  "Files": [
-    "358bcb5589bd76b674ee3abc99b50b66 2644 graphene_1.10.8-2.dsc daf48c12b6e0b0bf6115fd4275dbadb4 248540 graphene_1.10.8.orig.tar.xz ffacfe14776cf6e2772516a05489422f 7624 graphene_1.10.8-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://ebassi.github.io/graphene/"
-  ],
-  "Maintainer": [
-    "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "graphene"
-  ],
-  "Package-List": [
-    "gir1.2-graphene-1.0 deb introspection optional arch=any graphene-tests deb libs optional arch=any libgraphene-1.0-0 deb libs optional arch=any libgraphene-1.0-dev deb libdevel optional arch=any libgraphene-doc deb doc optional arch=all profile=!nodoc"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential, gnome-desktop-testing, pkg-config, python3-gi, python3-tap"
-  ],
-  "Uploaders": [
-    "Jeremy Bicha <jbicha@ubuntu.com>, Laurent Bigonville <bigon@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/gnome-team/graphene"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/gnome-team/graphene.git"
-  ],
-  "Version": [
-    "1.10.8-2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libgraphene-1.0-0, libgraphene-1.0-dev, libgraphene-doc, graphene-tests, gir1.2-graphene-1.0"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-sequence-gir, libglib2.0-dev, libgirepository1.0-dev, meson, pkg-config"
+	],
+	"Build-Depends-Indep": [
+		"gtk-doc-tools <!nodoc>, libglib2.0-doc <!nodoc>"
+	],
+	"Checksums-Sha256": [
+		"7898bbb49f75707d3649cbbde16bbb99f0ab47821e588717d1557e7135a7733f 2644 graphene_1.10.8-2.dsc 52e3f69828a2e1895a29d08d8a457ecad7a7a554901596069284fd9cf092fcf9 248540 graphene_1.10.8.orig.tar.xz 1d955d74f4aea836feba437cd300ac84d6b2764a7a565fb56ee409132de5393e 7624 graphene_1.10.8-2.debian.tar.xz"
+	],
+	"Dgit": [
+		"b224583c73f82daffb29cc01b0287e86840f26dd debian archive/debian/1.10.8-2 https://git.dgit.debian.org/graphene"
+	],
+	"Directory": [
+		"pool/main/g/graphene"
+	],
+	"Files": [
+		"358bcb5589bd76b674ee3abc99b50b66 2644 graphene_1.10.8-2.dsc daf48c12b6e0b0bf6115fd4275dbadb4 248540 graphene_1.10.8.orig.tar.xz ffacfe14776cf6e2772516a05489422f 7624 graphene_1.10.8-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://ebassi.github.io/graphene/"
+	],
+	"Maintainer": [
+		"Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"graphene"
+	],
+	"Package-List": [
+		"gir1.2-graphene-1.0 deb introspection optional arch=any graphene-tests deb libs optional arch=any libgraphene-1.0-0 deb libs optional arch=any libgraphene-1.0-dev deb libdevel optional arch=any libgraphene-doc deb doc optional arch=all profile=!nodoc"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, gnome-desktop-testing, pkg-config, python3-gi, python3-tap"
+	],
+	"Uploaders": [
+		"Jeremy Bicha <jbicha@ubuntu.com>, Laurent Bigonville <bigon@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/gnome-team/graphene"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/gnome-team/graphene.git"
+	],
+	"Version": [
+		"1.10.8-2"
+	]
 }

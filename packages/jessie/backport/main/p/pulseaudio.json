@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "pulseaudio, pulseaudio-dbg, pulseaudio-utils, pulseaudio-utils-dbg, pulseaudio-esound-compat, pulseaudio-esound-compat-dbg, pulseaudio-module-zeroconf, pulseaudio-module-zeroconf-dbg, pulseaudio-module-jack, pulseaudio-module-jack-dbg, pulseaudio-module-lirc, pulseaudio-module-lirc-dbg, pulseaudio-module-gconf, pulseaudio-module-gconf-dbg, pulseaudio-module-raop, pulseaudio-module-raop-dbg, pulseaudio-module-bluetooth, pulseaudio-module-bluetooth-dbg, pulseaudio-module-x11, pulseaudio-module-x11-dbg, libpulse0, libpulse0-dbg, libpulse-mainloop-glib0, libpulse-mainloop-glib0-dbg, libpulse-dev, libpulsedsp, libpulsedsp-dbg"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), cdbs (>= 0.4.93), check, dh-autoreconf, dh-exec, intltool, libasound2-dev (>= 1.0.24) [linux-any], libasyncns-dev, libatomic-ops-dev, libavahi-client-dev, libbluetooth-dev (>= 4.99) [linux-any], libsbc-dev [linux-any], libcap-dev [linux-any], libfftw3-dev, libgconf2-dev, libglib2.0-dev, libgtk-3-dev, libice-dev, libjack-dev, libjson-c-dev (>= 0.11), liblircclient-dev, libltdl-dev (>= 2.2.6a-2), liborc-0.4-dev (>= 1:0.4.11), libsamplerate0-dev, libsndfile1-dev (>= 1.0.20), libsoxr-dev (>= 0.1.1), libspeexdsp-dev (>= 1.2~rc1), libssl-dev, libsystemd-dev [linux-any], libtdb-dev [!hurd-any], libudev-dev (>= 143) [linux-any], libwebrtc-audio-processing-dev, libwrap0-dev, libx11-xcb-dev, libxcb1-dev (>= 1.6), libxtst-dev"
-  ],
-  "Checksums-Sha1": [
-    "5ea0dda6cc80054b5481af95f5cd7d753af5117c 4718 pulseaudio_7.1-2~bpo8+1.dsc dc35a8aa66c513ac989319e13a18e317d8e432b3 1506504 pulseaudio_7.1.orig.tar.xz 202542cb198bc406db1989ddcccd30d125fd6b5b 30624 pulseaudio_7.1-2~bpo8+1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "3751561c81204f36043ce1955950c27d5a0aa5fa9148e64b9cda73310e1ae95c 4718 pulseaudio_7.1-2~bpo8+1.dsc e667514a28328f92aceea754a224a0150dddfe7e9a71b4c6d31489220153b9d9 1506504 pulseaudio_7.1.orig.tar.xz 6025cdc0fd9543a7627c25e89a1b97a9678c97e300b3e40fc483208fd361d6d7 30624 pulseaudio_7.1-2~bpo8+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/pulseaudio"
-  ],
-  "Files": [
-    "726aa1d9888a86769d2862be1278c7be 4718 pulseaudio_7.1-2~bpo8+1.dsc 9d0a9817b632cac8e3f3834d7eb1c99d 1506504 pulseaudio_7.1.orig.tar.xz dad58c7d998ac68a9f7ef2bb3d5f3694 30624 pulseaudio_7.1-2~bpo8+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.pulseaudio.org"
-  ],
-  "Maintainer": [
-    "Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "pulseaudio"
-  ],
-  "Package-List": [
-    "libpulse-dev deb libdevel optional arch=any libpulse-mainloop-glib0 deb sound optional arch=any libpulse-mainloop-glib0-dbg deb debug extra arch=any libpulse0 deb libs optional arch=any libpulse0-dbg deb debug extra arch=any libpulsedsp deb sound optional arch=any libpulsedsp-dbg deb debug extra arch=any pulseaudio deb sound optional arch=any pulseaudio-dbg deb debug extra arch=any pulseaudio-esound-compat deb sound optional arch=any pulseaudio-esound-compat-dbg deb debug extra arch=any pulseaudio-module-bluetooth deb sound extra arch=linux-any pulseaudio-module-bluetooth-dbg deb debug extra arch=linux-any pulseaudio-module-gconf deb sound optional arch=any pulseaudio-module-gconf-dbg deb debug extra arch=any pulseaudio-module-jack deb sound optional arch=any pulseaudio-module-jack-dbg deb debug extra arch=any pulseaudio-module-lirc deb sound optional arch=any pulseaudio-module-lirc-dbg deb debug extra arch=any pulseaudio-module-raop deb sound optional arch=any pulseaudio-module-raop-dbg deb debug extra arch=any pulseaudio-module-x11 deb sound optional arch=any pulseaudio-module-x11-dbg deb debug extra arch=any pulseaudio-module-zeroconf deb sound optional arch=any pulseaudio-module-zeroconf-dbg deb debug extra arch=any pulseaudio-utils deb sound optional arch=any pulseaudio-utils-dbg deb debug extra arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Sjoerd Simons <sjoerd@debian.org>, Balint Reczey <balint@balintreczey.hu>, Felipe Sateler <fsateler@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-pulseaudio/pulseaudio.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/git/pkg-pulseaudio/pulseaudio.git"
-  ],
-  "Version": [
-    "7.1-2~bpo8+1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"pulseaudio, pulseaudio-dbg, pulseaudio-utils, pulseaudio-utils-dbg, pulseaudio-esound-compat, pulseaudio-esound-compat-dbg, pulseaudio-module-zeroconf, pulseaudio-module-zeroconf-dbg, pulseaudio-module-jack, pulseaudio-module-jack-dbg, pulseaudio-module-lirc, pulseaudio-module-lirc-dbg, pulseaudio-module-gconf, pulseaudio-module-gconf-dbg, pulseaudio-module-raop, pulseaudio-module-raop-dbg, pulseaudio-module-bluetooth, pulseaudio-module-bluetooth-dbg, pulseaudio-module-x11, pulseaudio-module-x11-dbg, libpulse0, libpulse0-dbg, libpulse-mainloop-glib0, libpulse-mainloop-glib0-dbg, libpulse-dev, libpulsedsp, libpulsedsp-dbg"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), cdbs (>= 0.4.93), check, dh-autoreconf, dh-exec, intltool, libasound2-dev (>= 1.0.24) [linux-any], libasyncns-dev, libatomic-ops-dev, libavahi-client-dev, libbluetooth-dev (>= 4.99) [linux-any], libsbc-dev [linux-any], libcap-dev [linux-any], libfftw3-dev, libgconf2-dev, libglib2.0-dev, libgtk-3-dev, libice-dev, libjack-dev, libjson-c-dev (>= 0.11), liblircclient-dev, libltdl-dev (>= 2.2.6a-2), liborc-0.4-dev (>= 1:0.4.11), libsamplerate0-dev, libsndfile1-dev (>= 1.0.20), libsoxr-dev (>= 0.1.1), libspeexdsp-dev (>= 1.2~rc1), libssl-dev, libsystemd-dev [linux-any], libtdb-dev [!hurd-any], libudev-dev (>= 143) [linux-any], libwebrtc-audio-processing-dev, libwrap0-dev, libx11-xcb-dev, libxcb1-dev (>= 1.6), libxtst-dev"
+	],
+	"Checksums-Sha1": [
+		"5ea0dda6cc80054b5481af95f5cd7d753af5117c 4718 pulseaudio_7.1-2~bpo8+1.dsc dc35a8aa66c513ac989319e13a18e317d8e432b3 1506504 pulseaudio_7.1.orig.tar.xz 202542cb198bc406db1989ddcccd30d125fd6b5b 30624 pulseaudio_7.1-2~bpo8+1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"3751561c81204f36043ce1955950c27d5a0aa5fa9148e64b9cda73310e1ae95c 4718 pulseaudio_7.1-2~bpo8+1.dsc e667514a28328f92aceea754a224a0150dddfe7e9a71b4c6d31489220153b9d9 1506504 pulseaudio_7.1.orig.tar.xz 6025cdc0fd9543a7627c25e89a1b97a9678c97e300b3e40fc483208fd361d6d7 30624 pulseaudio_7.1-2~bpo8+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/pulseaudio"
+	],
+	"Files": [
+		"726aa1d9888a86769d2862be1278c7be 4718 pulseaudio_7.1-2~bpo8+1.dsc 9d0a9817b632cac8e3f3834d7eb1c99d 1506504 pulseaudio_7.1.orig.tar.xz dad58c7d998ac68a9f7ef2bb3d5f3694 30624 pulseaudio_7.1-2~bpo8+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.pulseaudio.org"
+	],
+	"Maintainer": [
+		"Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"pulseaudio"
+	],
+	"Package-List": [
+		"libpulse-dev deb libdevel optional arch=any libpulse-mainloop-glib0 deb sound optional arch=any libpulse-mainloop-glib0-dbg deb debug extra arch=any libpulse0 deb libs optional arch=any libpulse0-dbg deb debug extra arch=any libpulsedsp deb sound optional arch=any libpulsedsp-dbg deb debug extra arch=any pulseaudio deb sound optional arch=any pulseaudio-dbg deb debug extra arch=any pulseaudio-esound-compat deb sound optional arch=any pulseaudio-esound-compat-dbg deb debug extra arch=any pulseaudio-module-bluetooth deb sound extra arch=linux-any pulseaudio-module-bluetooth-dbg deb debug extra arch=linux-any pulseaudio-module-gconf deb sound optional arch=any pulseaudio-module-gconf-dbg deb debug extra arch=any pulseaudio-module-jack deb sound optional arch=any pulseaudio-module-jack-dbg deb debug extra arch=any pulseaudio-module-lirc deb sound optional arch=any pulseaudio-module-lirc-dbg deb debug extra arch=any pulseaudio-module-raop deb sound optional arch=any pulseaudio-module-raop-dbg deb debug extra arch=any pulseaudio-module-x11 deb sound optional arch=any pulseaudio-module-x11-dbg deb debug extra arch=any pulseaudio-module-zeroconf deb sound optional arch=any pulseaudio-module-zeroconf-dbg deb debug extra arch=any pulseaudio-utils deb sound optional arch=any pulseaudio-utils-dbg deb debug extra arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Sjoerd Simons <sjoerd@debian.org>, Balint Reczey <balint@balintreczey.hu>, Felipe Sateler <fsateler@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-pulseaudio/pulseaudio.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/git/pkg-pulseaudio/pulseaudio.git"
+	],
+	"Version": [
+		"7.1-2~bpo8+1"
+	]
 }

@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "amd64 i386"
-  ],
-  "Autobuild": [
-    "yes"
-  ],
-  "Binary": [
-    "nvidia-kernel-dummy, nvidia-kernel-486, nvidia-kernel-amd64, nvidia-kernel-3.16.0-0.bpo.4-amd64, nvidia-kernel-586, nvidia-kernel-3.16.0-0.bpo.4-586, nvidia-kernel-686-pae, nvidia-kernel-3.16.0-0.bpo.4-686-pae"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), linux-headers-3.16.0-0.bpo.4-amd64 [i386 amd64], linux-headers-3.16.0-0.bpo.4-586 [i386], linux-headers-3.16.0-0.bpo.4-686-pae [i386], nvidia-kernel-source (>= 340.101), nvidia-kernel-source (<< 340.101.~)"
-  ],
-  "Checksums-Sha1": [
-    "89dc08cc956355a840390864e670afaad35a8fa4 2707 nvidia-graphics-modules_340.101+3.16.0+1~bpo70+1.dsc 64d018653732364d720c999fc4f61b0fad21a6b0 10520 nvidia-graphics-modules_340.101+3.16.0+1~bpo70+1.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "6125ff3767433b7a223d49b2345d7faa6e24f5ccf6a6af270e47f0d56e378896 2707 nvidia-graphics-modules_340.101+3.16.0+1~bpo70+1.dsc dc5c7cc0c2c8b02cfef9438c75db272f0809328ae76bb900efbcba2cfe3db097 10520 nvidia-graphics-modules_340.101+3.16.0+1~bpo70+1.tar.gz"
-  ],
-  "Directory": [
-    "pool/non-free/n/nvidia-graphics-modules"
-  ],
-  "Files": [
-    "886bf157ecbe30c140744f3e61669a44 2707 nvidia-graphics-modules_340.101+3.16.0+1~bpo70+1.dsc 580e8d56ab3a577cb18a78288bad7412 10520 nvidia-graphics-modules_340.101+3.16.0+1~bpo70+1.tar.gz"
-  ],
-  "Format": [
-    "3.0 (native)"
-  ],
-  "Homepage": [
-    "http://www.nvidia.com/"
-  ],
-  "Maintainer": [
-    "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "nvidia-graphics-modules"
-  ],
-  "Package-List": [
-    "nvidia-kernel-3.16.0-0.bpo.4-586 deb non-free/kernel optional nvidia-kernel-3.16.0-0.bpo.4-686-pae deb non-free/kernel optional nvidia-kernel-3.16.0-0.bpo.4-amd64 deb non-free/kernel optional nvidia-kernel-486 deb non-free/oldlibs extra nvidia-kernel-586 deb non-free/kernel optional nvidia-kernel-686-pae deb non-free/kernel optional nvidia-kernel-amd64 deb non-free/kernel optional nvidia-kernel-dummy deb non-free/kernel extra"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "non-free/misc"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Russ Allbery <rra@debian.org>, Andreas Beckmann <anbe@debian.org>, Vincent Cheng <vcheng@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-nvidia/nvidia-graphics-modules.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-nvidia/nvidia-graphics-modules.git -b wheezy-backports"
-  ],
-  "Version": [
-    "340.101+3.16.0+1~bpo70+1"
-  ]
+	"Architecture": [
+		"amd64 i386"
+	],
+	"Autobuild": [
+		"yes"
+	],
+	"Binary": [
+		"nvidia-kernel-dummy, nvidia-kernel-486, nvidia-kernel-amd64, nvidia-kernel-3.16.0-0.bpo.4-amd64, nvidia-kernel-586, nvidia-kernel-3.16.0-0.bpo.4-586, nvidia-kernel-686-pae, nvidia-kernel-3.16.0-0.bpo.4-686-pae"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), linux-headers-3.16.0-0.bpo.4-amd64 [i386 amd64], linux-headers-3.16.0-0.bpo.4-586 [i386], linux-headers-3.16.0-0.bpo.4-686-pae [i386], nvidia-kernel-source (>= 340.101), nvidia-kernel-source (<< 340.101.~)"
+	],
+	"Checksums-Sha1": [
+		"89dc08cc956355a840390864e670afaad35a8fa4 2707 nvidia-graphics-modules_340.101+3.16.0+1~bpo70+1.dsc 64d018653732364d720c999fc4f61b0fad21a6b0 10520 nvidia-graphics-modules_340.101+3.16.0+1~bpo70+1.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"6125ff3767433b7a223d49b2345d7faa6e24f5ccf6a6af270e47f0d56e378896 2707 nvidia-graphics-modules_340.101+3.16.0+1~bpo70+1.dsc dc5c7cc0c2c8b02cfef9438c75db272f0809328ae76bb900efbcba2cfe3db097 10520 nvidia-graphics-modules_340.101+3.16.0+1~bpo70+1.tar.gz"
+	],
+	"Directory": [
+		"pool/non-free/n/nvidia-graphics-modules"
+	],
+	"Files": [
+		"886bf157ecbe30c140744f3e61669a44 2707 nvidia-graphics-modules_340.101+3.16.0+1~bpo70+1.dsc 580e8d56ab3a577cb18a78288bad7412 10520 nvidia-graphics-modules_340.101+3.16.0+1~bpo70+1.tar.gz"
+	],
+	"Format": [
+		"3.0 (native)"
+	],
+	"Homepage": [
+		"http://www.nvidia.com/"
+	],
+	"Maintainer": [
+		"Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"nvidia-graphics-modules"
+	],
+	"Package-List": [
+		"nvidia-kernel-3.16.0-0.bpo.4-586 deb non-free/kernel optional nvidia-kernel-3.16.0-0.bpo.4-686-pae deb non-free/kernel optional nvidia-kernel-3.16.0-0.bpo.4-amd64 deb non-free/kernel optional nvidia-kernel-486 deb non-free/oldlibs extra nvidia-kernel-586 deb non-free/kernel optional nvidia-kernel-686-pae deb non-free/kernel optional nvidia-kernel-amd64 deb non-free/kernel optional nvidia-kernel-dummy deb non-free/kernel extra"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"non-free/misc"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Russ Allbery <rra@debian.org>, Andreas Beckmann <anbe@debian.org>, Vincent Cheng <vcheng@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-nvidia/nvidia-graphics-modules.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-nvidia/nvidia-graphics-modules.git -b wheezy-backports"
+	],
+	"Version": [
+		"340.101+3.16.0+1~bpo70+1"
+	]
 }

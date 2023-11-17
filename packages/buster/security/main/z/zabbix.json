@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "zabbix-agent, zabbix-frontend-php, zabbix-java-gateway, zabbix-proxy-mysql, zabbix-proxy-pgsql, zabbix-proxy-sqlite3, zabbix-server-mysql, zabbix-server-pgsql"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 11~), automake, dh-linktree, apache2-dev, libcurl4-gnutls-dev, libevent-dev, libgnutls28-dev | gnutls-dev, libiksemel-dev, libldap2-dev, default-libmysqlclient-dev, libopenipmi-dev [!hurd-any !arm], libpcre3-dev, libpq-dev, libsnmp-dev, libsqlite3-dev, libssh2-1-dev, libxml2-dev, pkg-config, unixodbc-dev, zlib1g-dev, libjs-prototype, libjs-jquery-ui (>= 1.10.1), javahelper"
-  ],
-  "Build-Depends-Indep": [
-    "default-jdk, libandroid-json-java, liblogback-java, libslf4j-java, junit4, gettext, ruby-sass"
-  ],
-  "Checksums-Sha256": [
-    "409b4e8ae0c88f68fb31888a3e4980fb31a503d997173695afeb164cdcd55856 2876 zabbix_4.0.4+dfsg-1+deb10u3.dsc be5a320928ee5cfc87fa50a3f3f8beebc6de24d449fe8cdd89c3762a0e84cb03 7880948 zabbix_4.0.4+dfsg.orig.tar.xz 55fcc673aa786a95846ca0954ad2c6e65ea246b74ea1d3923f4f9d24e70a6b7b 218692 zabbix_4.0.4+dfsg-1+deb10u3.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/z/zabbix"
-  ],
-  "Files": [
-    "db90f1b4e4071267fd6b897d5706bdd3 2876 zabbix_4.0.4+dfsg-1+deb10u3.dsc 43c4a65f0d27ac1edff4f3b4e9a58f74 7880948 zabbix_4.0.4+dfsg.orig.tar.xz da8fd27072af5c132df2f0a398765481 218692 zabbix_4.0.4+dfsg-1+deb10u3.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://zabbix.com"
-  ],
-  "Maintainer": [
-    "Dmitry Smirnov <onlyjob@debian.org>"
-  ],
-  "Package": [
-    "zabbix"
-  ],
-  "Package-List": [
-    "zabbix-agent deb net optional arch=any zabbix-frontend-php deb net optional arch=all zabbix-java-gateway deb net optional arch=all zabbix-proxy-mysql deb net optional arch=any zabbix-proxy-pgsql deb net optional arch=any zabbix-proxy-sqlite3 deb net optional arch=any zabbix-server-mysql deb net optional arch=any zabbix-server-pgsql deb net optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "4.3.0"
-  ],
-  "Uploaders": [
-    "Christoph Haas <haas@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian/zabbix"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian/zabbix.git"
-  ],
-  "Version": [
-    "1:4.0.4+dfsg-1+deb10u3"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"zabbix-agent, zabbix-frontend-php, zabbix-java-gateway, zabbix-proxy-mysql, zabbix-proxy-pgsql, zabbix-proxy-sqlite3, zabbix-server-mysql, zabbix-server-pgsql"
+	],
+	"Build-Depends": [
+		"debhelper (>= 11~), automake, dh-linktree, apache2-dev, libcurl4-gnutls-dev, libevent-dev, libgnutls28-dev | gnutls-dev, libiksemel-dev, libldap2-dev, default-libmysqlclient-dev, libopenipmi-dev [!hurd-any !arm], libpcre3-dev, libpq-dev, libsnmp-dev, libsqlite3-dev, libssh2-1-dev, libxml2-dev, pkg-config, unixodbc-dev, zlib1g-dev, libjs-prototype, libjs-jquery-ui (>= 1.10.1), javahelper"
+	],
+	"Build-Depends-Indep": [
+		"default-jdk, libandroid-json-java, liblogback-java, libslf4j-java, junit4, gettext, ruby-sass"
+	],
+	"Checksums-Sha256": [
+		"409b4e8ae0c88f68fb31888a3e4980fb31a503d997173695afeb164cdcd55856 2876 zabbix_4.0.4+dfsg-1+deb10u3.dsc be5a320928ee5cfc87fa50a3f3f8beebc6de24d449fe8cdd89c3762a0e84cb03 7880948 zabbix_4.0.4+dfsg.orig.tar.xz 55fcc673aa786a95846ca0954ad2c6e65ea246b74ea1d3923f4f9d24e70a6b7b 218692 zabbix_4.0.4+dfsg-1+deb10u3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/z/zabbix"
+	],
+	"Files": [
+		"db90f1b4e4071267fd6b897d5706bdd3 2876 zabbix_4.0.4+dfsg-1+deb10u3.dsc 43c4a65f0d27ac1edff4f3b4e9a58f74 7880948 zabbix_4.0.4+dfsg.orig.tar.xz da8fd27072af5c132df2f0a398765481 218692 zabbix_4.0.4+dfsg-1+deb10u3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://zabbix.com"
+	],
+	"Maintainer": [
+		"Dmitry Smirnov <onlyjob@debian.org>"
+	],
+	"Package": [
+		"zabbix"
+	],
+	"Package-List": [
+		"zabbix-agent deb net optional arch=any zabbix-frontend-php deb net optional arch=all zabbix-java-gateway deb net optional arch=all zabbix-proxy-mysql deb net optional arch=any zabbix-proxy-pgsql deb net optional arch=any zabbix-proxy-sqlite3 deb net optional arch=any zabbix-server-mysql deb net optional arch=any zabbix-server-pgsql deb net optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"4.3.0"
+	],
+	"Uploaders": [
+		"Christoph Haas <haas@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/zabbix"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/zabbix.git"
+	],
+	"Version": [
+		"1:4.0.4+dfsg-1+deb10u3"
+	]
 }

@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "linux-any"
-  ],
-  "Binary": [
-    "systemd, systemd-sysv, libpam-systemd, libsystemd-login0, libsystemd-login-dev, libsystemd-daemon0, libsystemd-daemon-dev, libsystemd-journal0, libsystemd-journal-dev, libsystemd-id128-0, libsystemd-id128-dev, udev, libudev1, libudev-dev, udev-udeb, libudev1-udeb, libgudev-1.0-0, gir1.2-gudev-1.0, libgudev-1.0-dev, python-systemd, systemd-dbg"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), pkg-config, xsltproc, docbook-xsl, docbook-xml, gtk-doc-tools, m4, dh-autoreconf, automake (>= 1.11), autoconf (>= 2.63), intltool, gperf, libcap-dev, libpam0g-dev, libaudit-dev, libdbus-1-dev (>= 1.3.2), libglib2.0-dev (>= 2.22.0), libcryptsetup-dev (>= 2:1.4.2), libwrap0-dev, libselinux1-dev (>= 2.1.9), libacl1-dev, libattr1-dev, liblzma-dev, libgcrypt11-dev, libkmod-dev (>= 5), libblkid-dev (>= 2.20), libgirepository1.0-dev (>= 1.31.1), gobject-introspection (>= 1.31.1), python-dev, libglib2.0-doc"
-  ],
-  "Checksums-Sha1": [
-    "a022e72d20039295e55a07eea11d2f5be582ce97 3692 systemd_204-14~bpo70+1.dsc 37b45766a44a95a6b6a7cdf4b587c151375b2053 2186264 systemd_204.orig.tar.xz e54eb8eba9c66cd11d92621e59abf5a65a4eabdf 126308 systemd_204-14~bpo70+1.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "96bfb7f066a0612b087fc2dfa92bd23c0a81162e7ccae2eebcb260a1e0076e4e 3692 systemd_204-14~bpo70+1.dsc 072c393503c7c1e55ca7acf3db659cbd28c7fe5fa94fab3db95360bafd96731b 2186264 systemd_204.orig.tar.xz 4acce0c875426a2225374cb48f273fe205d2c16397571412b7c6f63d9673c11b 126308 systemd_204-14~bpo70+1.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/s/systemd"
-  ],
-  "Files": [
-    "39438c1ed7abd28567989a13a0bf311f 3692 systemd_204-14~bpo70+1.dsc a07619bb19f48164fbf0761d12fd39a8 2186264 systemd_204.orig.tar.xz b7adc3b94e8fb1a4e8e7420502cd8f19 126308 systemd_204-14~bpo70+1.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.freedesktop.org/wiki/Software/systemd"
-  ],
-  "Maintainer": [
-    "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "systemd"
-  ],
-  "Package-List": [
-    "gir1.2-gudev-1.0 deb introspection optional libgudev-1.0-0 deb libs optional libgudev-1.0-dev deb libdevel optional libpam-systemd deb admin optional libsystemd-daemon-dev deb libdevel optional libsystemd-daemon0 deb libs optional libsystemd-id128-0 deb libs optional libsystemd-id128-dev deb libdevel optional libsystemd-journal-dev deb libdevel optional libsystemd-journal0 deb libs optional libsystemd-login-dev deb libdevel optional libsystemd-login0 deb libs optional libudev-dev deb libdevel optional libudev1 deb libs important libudev1-udeb udeb debian-installer optional python-systemd deb python optional systemd deb admin optional systemd-dbg deb debug extra systemd-sysv deb admin extra udev deb admin important udev-udeb udeb debian-installer optional"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Tollef Fog Heen <tfheen@debian.org>, Michael Biebl <biebl@debian.org>, Marco d'Itri <md@linux.it>, Michael Stapelberg <stapelberg@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-systemd/systemd.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-systemd/systemd.git"
-  ],
-  "Version": [
-    "204-14~bpo70+1"
-  ]
+	"Architecture": [
+		"linux-any"
+	],
+	"Binary": [
+		"systemd, systemd-sysv, libpam-systemd, libsystemd-login0, libsystemd-login-dev, libsystemd-daemon0, libsystemd-daemon-dev, libsystemd-journal0, libsystemd-journal-dev, libsystemd-id128-0, libsystemd-id128-dev, udev, libudev1, libudev-dev, udev-udeb, libudev1-udeb, libgudev-1.0-0, gir1.2-gudev-1.0, libgudev-1.0-dev, python-systemd, systemd-dbg"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), pkg-config, xsltproc, docbook-xsl, docbook-xml, gtk-doc-tools, m4, dh-autoreconf, automake (>= 1.11), autoconf (>= 2.63), intltool, gperf, libcap-dev, libpam0g-dev, libaudit-dev, libdbus-1-dev (>= 1.3.2), libglib2.0-dev (>= 2.22.0), libcryptsetup-dev (>= 2:1.4.2), libwrap0-dev, libselinux1-dev (>= 2.1.9), libacl1-dev, libattr1-dev, liblzma-dev, libgcrypt11-dev, libkmod-dev (>= 5), libblkid-dev (>= 2.20), libgirepository1.0-dev (>= 1.31.1), gobject-introspection (>= 1.31.1), python-dev, libglib2.0-doc"
+	],
+	"Checksums-Sha1": [
+		"a022e72d20039295e55a07eea11d2f5be582ce97 3692 systemd_204-14~bpo70+1.dsc 37b45766a44a95a6b6a7cdf4b587c151375b2053 2186264 systemd_204.orig.tar.xz e54eb8eba9c66cd11d92621e59abf5a65a4eabdf 126308 systemd_204-14~bpo70+1.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"96bfb7f066a0612b087fc2dfa92bd23c0a81162e7ccae2eebcb260a1e0076e4e 3692 systemd_204-14~bpo70+1.dsc 072c393503c7c1e55ca7acf3db659cbd28c7fe5fa94fab3db95360bafd96731b 2186264 systemd_204.orig.tar.xz 4acce0c875426a2225374cb48f273fe205d2c16397571412b7c6f63d9673c11b 126308 systemd_204-14~bpo70+1.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/s/systemd"
+	],
+	"Files": [
+		"39438c1ed7abd28567989a13a0bf311f 3692 systemd_204-14~bpo70+1.dsc a07619bb19f48164fbf0761d12fd39a8 2186264 systemd_204.orig.tar.xz b7adc3b94e8fb1a4e8e7420502cd8f19 126308 systemd_204-14~bpo70+1.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.freedesktop.org/wiki/Software/systemd"
+	],
+	"Maintainer": [
+		"Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"systemd"
+	],
+	"Package-List": [
+		"gir1.2-gudev-1.0 deb introspection optional libgudev-1.0-0 deb libs optional libgudev-1.0-dev deb libdevel optional libpam-systemd deb admin optional libsystemd-daemon-dev deb libdevel optional libsystemd-daemon0 deb libs optional libsystemd-id128-0 deb libs optional libsystemd-id128-dev deb libdevel optional libsystemd-journal-dev deb libdevel optional libsystemd-journal0 deb libs optional libsystemd-login-dev deb libdevel optional libsystemd-login0 deb libs optional libudev-dev deb libdevel optional libudev1 deb libs important libudev1-udeb udeb debian-installer optional python-systemd deb python optional systemd deb admin optional systemd-dbg deb debug extra systemd-sysv deb admin extra udev deb admin important udev-udeb udeb debian-installer optional"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Tollef Fog Heen <tfheen@debian.org>, Michael Biebl <biebl@debian.org>, Marco d'Itri <md@linux.it>, Michael Stapelberg <stapelberg@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-systemd/systemd.git;a=summary"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-systemd/systemd.git"
+	],
+	"Version": [
+		"204-14~bpo70+1"
+	]
 }

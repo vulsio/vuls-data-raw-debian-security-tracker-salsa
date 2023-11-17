@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-gnocchi, gnocchi-common, gnocchi-api, gnocchi-metricd"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 10), dh-python, openstack-pkg-tools (>= 54~), python-all, python-pbr, python-setuptools, python-sphinx"
-  ],
-  "Build-Depends-Indep": [
-    "alembic (>= 0.7.6), libpq-dev, postgresql, postgresql-server-dev-all, python-concurrent.futures (>= 2.1.6), python-cotyledon (>= 1.2.2), python-coverage (>= 3.6), python-doc8, python-fixtures, python-future (>= 0.15), python-gabbi (>= 1.21), python-iso8601, python-jsonpatch (>= 1.9), python-keystoneclient (>= 1:1.6.0), python-keystonemiddleware (>= 4.0.0), python-lz4, python-mock, python-msgpack, python-mysqldb, python-numpy, python-os-testr, python-oslo.config (>= 1:2.6.0), python-oslo.db (>= 4.8.0), python-oslo.log (>= 2.3.0), python-oslo.middleware (>= 3.11.0), python-oslo.policy (>= 0.3.0), python-oslo.serialization (>= 1.4.0), python-oslo.utils (>= 3.3.0), python-oslosphinx (>= 2.2.0.0), python-oslotest, python-pandas (>= 0.17), python-paste, python-pastedeploy, python-pecan (>= 0.9), python-prettytable, python-psycopg2, python-pymysql, python-pytimeparse (>= 1.1.5), python-requests, python-retrying, python-six, python-sphinx-bootstrap-theme, python-sphinxcontrib.httpdomain, python-sqlalchemy, python-sqlalchemy-utils, python-stevedore, python-swiftclient (>= 3.1.0), python-sysv-ipc, python-testscenarios, python-testtools (>= 0.9.38), python-tooz (>= 1.38), python-trollius, python-voluptuous, python-webob (>= 1.4.1), python-webtest (>= 2.0.16), python-werkzeug, python-yaml, subunit (>= 0.0.18), testrepository"
-  ],
-  "Checksums-Sha256": [
-    "9e6005bd4e425af5120bfddebd593cd30b9ea4bda3c69b7084a95e91a4b8d468 3551 gnocchi_3.0.4-3.dsc 9b5afaf6f1e5dda10788f58e94149d7089e1793febda0e5130f9382c890e85a7 225872 gnocchi_3.0.4.orig.tar.xz 85e13b0ad5be2b38e985d09d28641bc4cf3dea99c3205a052ebed7d656819c02 25016 gnocchi_3.0.4-3.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/g/gnocchi"
-  ],
-  "Files": [
-    "2472b5e05834868c349ace659970cba3 3551 gnocchi_3.0.4-3.dsc 3c71bdef0de60d84154ba97bdbbe0507 225872 gnocchi_3.0.4.orig.tar.xz ad20c0b8f0dec607114098b940e45121 25016 gnocchi_3.0.4-3.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/openstack/gnocchi"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "gnocchi"
-  ],
-  "Package-List": [
-    "gnocchi-api deb net optional arch=all gnocchi-common deb net optional arch=all gnocchi-metricd deb net optional arch=all python-gnocchi deb python optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://git.openstack.org/cgit/openstack/deb-gnocchi"
-  ],
-  "Vcs-Git": [
-    "https://git.openstack.org/openstack/deb-gnocchi -b debian/newton"
-  ],
-  "Version": [
-    "3.0.4-3"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-gnocchi, gnocchi-common, gnocchi-api, gnocchi-metricd"
+	],
+	"Build-Depends": [
+		"debhelper (>= 10), dh-python, openstack-pkg-tools (>= 54~), python-all, python-pbr, python-setuptools, python-sphinx"
+	],
+	"Build-Depends-Indep": [
+		"alembic (>= 0.7.6), libpq-dev, postgresql, postgresql-server-dev-all, python-concurrent.futures (>= 2.1.6), python-cotyledon (>= 1.2.2), python-coverage (>= 3.6), python-doc8, python-fixtures, python-future (>= 0.15), python-gabbi (>= 1.21), python-iso8601, python-jsonpatch (>= 1.9), python-keystoneclient (>= 1:1.6.0), python-keystonemiddleware (>= 4.0.0), python-lz4, python-mock, python-msgpack, python-mysqldb, python-numpy, python-os-testr, python-oslo.config (>= 1:2.6.0), python-oslo.db (>= 4.8.0), python-oslo.log (>= 2.3.0), python-oslo.middleware (>= 3.11.0), python-oslo.policy (>= 0.3.0), python-oslo.serialization (>= 1.4.0), python-oslo.utils (>= 3.3.0), python-oslosphinx (>= 2.2.0.0), python-oslotest, python-pandas (>= 0.17), python-paste, python-pastedeploy, python-pecan (>= 0.9), python-prettytable, python-psycopg2, python-pymysql, python-pytimeparse (>= 1.1.5), python-requests, python-retrying, python-six, python-sphinx-bootstrap-theme, python-sphinxcontrib.httpdomain, python-sqlalchemy, python-sqlalchemy-utils, python-stevedore, python-swiftclient (>= 3.1.0), python-sysv-ipc, python-testscenarios, python-testtools (>= 0.9.38), python-tooz (>= 1.38), python-trollius, python-voluptuous, python-webob (>= 1.4.1), python-webtest (>= 2.0.16), python-werkzeug, python-yaml, subunit (>= 0.0.18), testrepository"
+	],
+	"Checksums-Sha256": [
+		"9e6005bd4e425af5120bfddebd593cd30b9ea4bda3c69b7084a95e91a4b8d468 3551 gnocchi_3.0.4-3.dsc 9b5afaf6f1e5dda10788f58e94149d7089e1793febda0e5130f9382c890e85a7 225872 gnocchi_3.0.4.orig.tar.xz 85e13b0ad5be2b38e985d09d28641bc4cf3dea99c3205a052ebed7d656819c02 25016 gnocchi_3.0.4-3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/gnocchi"
+	],
+	"Files": [
+		"2472b5e05834868c349ace659970cba3 3551 gnocchi_3.0.4-3.dsc 3c71bdef0de60d84154ba97bdbbe0507 225872 gnocchi_3.0.4.orig.tar.xz ad20c0b8f0dec607114098b940e45121 25016 gnocchi_3.0.4-3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/openstack/gnocchi"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"gnocchi"
+	],
+	"Package-List": [
+		"gnocchi-api deb net optional arch=all gnocchi-common deb net optional arch=all gnocchi-metricd deb net optional arch=all python-gnocchi deb python optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://git.openstack.org/cgit/openstack/deb-gnocchi"
+	],
+	"Vcs-Git": [
+		"https://git.openstack.org/openstack/deb-gnocchi -b debian/newton"
+	],
+	"Version": [
+		"3.0.4-3"
+	]
 }

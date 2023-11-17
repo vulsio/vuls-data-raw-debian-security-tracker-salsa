@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "gdb, gdb-minimal, gdb64, gdb-multiarch, gdbserver, libgdb-dev, gdb-source"
-  ],
-  "Build-Depends": [
-    "autoconf, libtool, texinfo (>= 4.7-2.2), texlive-base, libncurses5-dev, libreadline-dev, bison, gettext, debhelper (>= 7.0.50), dejagnu, gcj-jdk | gcj, gobjc, mig [hurd-any], cdbs (>= 0.4.17), libkvm-dev [kfreebsd-any], libunwind7-dev [ia64], flex | flex-old, libexpat1-dev, g++-multilib [i386 powerpc s390 sparc], lib64readline6-dev [i386 powerpc s390 sparc], python-dev, zlib1g-dev, lib64ncurses5-dev [i386 powerpc s390 sparc], procps, lsb-release, bzip2"
-  ],
-  "Checksums-Sha1": [
-    "11c915927c7ec50b9759046833071df68c731721 2568 gdb_7.4.1+dfsg-0.1.dsc c15919556e29d7eb5ea249704c778cc4634ed675 25896642 gdb_7.4.1+dfsg.orig.tar.gz 3cad79441539be7c6a1eba05917b092ca05f5c68 45646 gdb_7.4.1+dfsg-0.1.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "4ca00e0c191aa85131c90fbb673df07e4815b62bc0818e8d7ad8addbf03a7800 2568 gdb_7.4.1+dfsg-0.1.dsc 9c4c8b8b701da16e68048dc6625d0fd36daba5eea8717878e586e96de2846a66 25896642 gdb_7.4.1+dfsg.orig.tar.gz a680222afc0751cbc15adc9936faf3411b4334f8de31021ea4118af428954dcd 45646 gdb_7.4.1+dfsg-0.1.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/g/gdb"
-  ],
-  "Files": [
-    "d8aba636eba889bacd04abf1c747364b 2568 gdb_7.4.1+dfsg-0.1.dsc 2785e34ce8a86e857bb4c0c97040aaa7 25896642 gdb_7.4.1+dfsg.orig.tar.gz 38ba60a46b6c31a37ae8a3e64583f4f5 45646 gdb_7.4.1+dfsg-0.1.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.gnu.org/s/gdb/"
-  ],
-  "Maintainer": [
-    "Hector Oron <zumbi@debian.org>"
-  ],
-  "Package": [
-    "gdb"
-  ],
-  "Package-List": [
-    "gdb deb devel optional gdb-minimal deb devel optional gdb-multiarch deb devel optional gdb-source deb devel optional gdb64 deb devel optional gdbserver deb devel optional libgdb-dev deb libdevel extra"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "devel"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Luca Bruno <lucab@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=crosstoolchain/gdb.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/crosstoolchain/gdb.git"
-  ],
-  "Version": [
-    "7.4.1+dfsg-0.1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"gdb, gdb-minimal, gdb64, gdb-multiarch, gdbserver, libgdb-dev, gdb-source"
+	],
+	"Build-Depends": [
+		"autoconf, libtool, texinfo (>= 4.7-2.2), texlive-base, libncurses5-dev, libreadline-dev, bison, gettext, debhelper (>= 7.0.50), dejagnu, gcj-jdk | gcj, gobjc, mig [hurd-any], cdbs (>= 0.4.17), libkvm-dev [kfreebsd-any], libunwind7-dev [ia64], flex | flex-old, libexpat1-dev, g++-multilib [i386 powerpc s390 sparc], lib64readline6-dev [i386 powerpc s390 sparc], python-dev, zlib1g-dev, lib64ncurses5-dev [i386 powerpc s390 sparc], procps, lsb-release, bzip2"
+	],
+	"Checksums-Sha1": [
+		"11c915927c7ec50b9759046833071df68c731721 2568 gdb_7.4.1+dfsg-0.1.dsc c15919556e29d7eb5ea249704c778cc4634ed675 25896642 gdb_7.4.1+dfsg.orig.tar.gz 3cad79441539be7c6a1eba05917b092ca05f5c68 45646 gdb_7.4.1+dfsg-0.1.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"4ca00e0c191aa85131c90fbb673df07e4815b62bc0818e8d7ad8addbf03a7800 2568 gdb_7.4.1+dfsg-0.1.dsc 9c4c8b8b701da16e68048dc6625d0fd36daba5eea8717878e586e96de2846a66 25896642 gdb_7.4.1+dfsg.orig.tar.gz a680222afc0751cbc15adc9936faf3411b4334f8de31021ea4118af428954dcd 45646 gdb_7.4.1+dfsg-0.1.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/g/gdb"
+	],
+	"Files": [
+		"d8aba636eba889bacd04abf1c747364b 2568 gdb_7.4.1+dfsg-0.1.dsc 2785e34ce8a86e857bb4c0c97040aaa7 25896642 gdb_7.4.1+dfsg.orig.tar.gz 38ba60a46b6c31a37ae8a3e64583f4f5 45646 gdb_7.4.1+dfsg-0.1.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.gnu.org/s/gdb/"
+	],
+	"Maintainer": [
+		"Hector Oron <zumbi@debian.org>"
+	],
+	"Package": [
+		"gdb"
+	],
+	"Package-List": [
+		"gdb deb devel optional gdb-minimal deb devel optional gdb-multiarch deb devel optional gdb-source deb devel optional gdb64 deb devel optional gdbserver deb devel optional libgdb-dev deb libdevel extra"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"devel"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Luca Bruno <lucab@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=crosstoolchain/gdb.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/crosstoolchain/gdb.git"
+	],
+	"Version": [
+		"7.4.1+dfsg-0.1"
+	]
 }

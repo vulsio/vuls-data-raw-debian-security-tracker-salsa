@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "gvfs, gvfs-daemons, gvfs-libs, gvfs-common, gvfs-fuse, gvfs-backends, gvfs-bin, gvfs-dbg"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 8.1.3), autotools-dev, cdbs (>= 0.4.93), dh-autoreconf, gnome-pkg-tools (>= 0.7), pkg-config, gtk-doc-tools, libglib2.0-dev (>= 2.31.0), libdbus-1-dev, intltool (>= 0.35.0), openssh-client, libsoup-gnome2.4-dev (>= 2.26.0), libxml2-dev, libudev-dev (>= 0.138) [linux-any], libavahi-glib-dev (>= 0.6), libavahi-client-dev (>= 0.6), libfuse-dev [!hurd-any], libhal-dev (>= 0.5.10) [!linux-any], libgdu-dev (>= 3.0.2) [linux-any], libgudev-1.0-dev (>= 001) [linux-any], libcdio-paranoia-dev (>= 0.78.2), libbluetooth-dev (>= 4.0) [linux-any], libdbus-glib-1-dev, libexpat1-dev, libgphoto2-2-dev (>= 2.4.0), libgnome-keyring-dev, libbluray-dev, libsmbclient-dev (>= 3.0), libarchive-dev, libgcrypt11-dev (>= 1.2.2), libltdl-dev, libimobiledevice-dev (>= 1.1.0) [!hurd-any], libplist-dev"
-  ],
-  "Checksums-Sha1": [
-    "8a7558680395d3cd4f58e7e386cd84ade270c4d2 2367 gvfs_1.12.3-4.dsc da45f1e0c119a8ddd0aec7c2b2664dfc11ce66bb 1361968 gvfs_1.12.3.orig.tar.xz a805361fc9ad68a9662b8e4c8162529e0de986f6 19569 gvfs_1.12.3-4.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "4601d7192a3073b6b1ec0e587c4d690cdaa9052eac6ec7062f57a733f7d8dce9 2367 gvfs_1.12.3-4.dsc 38f69ec92083f86a51e7814e98d2861151f16dfb3abe4b3b39488408e12fd9c2 1361968 gvfs_1.12.3.orig.tar.xz dd05093f8a0028de8a84ce9bbdfe7106239126fc0dffa418804d3ac65cb2ad6a 19569 gvfs_1.12.3-4.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/g/gvfs"
-  ],
-  "Files": [
-    "d39709e08b06d2bacdae58c6ec616ae2 2367 gvfs_1.12.3-4.dsc 348edf09eca150ba7065017127f63c64 1361968 gvfs_1.12.3.orig.tar.xz d4947a69b4f0c878546a4ab27f7a988c 19569 gvfs_1.12.3-4.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "gvfs"
-  ],
-  "Package-List": [
-    "gvfs deb libs optional gvfs-backends deb gnome optional gvfs-bin deb gnome optional gvfs-common deb libs optional gvfs-daemons deb libs optional gvfs-dbg deb debug extra gvfs-fuse deb gnome optional gvfs-libs deb libs optional"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "libs"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Josselin Mouette <joss@debian.org>, Martin Pitt <mpitt@debian.org>, Michael Biebl <biebl@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/gvfs/"
-  ],
-  "Vcs-Svn": [
-    "svn://anonscm.debian.org/svn/pkg-gnome/desktop/unstable/gvfs"
-  ],
-  "Version": [
-    "1.12.3-4"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"gvfs, gvfs-daemons, gvfs-libs, gvfs-common, gvfs-fuse, gvfs-backends, gvfs-bin, gvfs-dbg"
+	],
+	"Build-Depends": [
+		"debhelper (>= 8.1.3), autotools-dev, cdbs (>= 0.4.93), dh-autoreconf, gnome-pkg-tools (>= 0.7), pkg-config, gtk-doc-tools, libglib2.0-dev (>= 2.31.0), libdbus-1-dev, intltool (>= 0.35.0), openssh-client, libsoup-gnome2.4-dev (>= 2.26.0), libxml2-dev, libudev-dev (>= 0.138) [linux-any], libavahi-glib-dev (>= 0.6), libavahi-client-dev (>= 0.6), libfuse-dev [!hurd-any], libhal-dev (>= 0.5.10) [!linux-any], libgdu-dev (>= 3.0.2) [linux-any], libgudev-1.0-dev (>= 001) [linux-any], libcdio-paranoia-dev (>= 0.78.2), libbluetooth-dev (>= 4.0) [linux-any], libdbus-glib-1-dev, libexpat1-dev, libgphoto2-2-dev (>= 2.4.0), libgnome-keyring-dev, libbluray-dev, libsmbclient-dev (>= 3.0), libarchive-dev, libgcrypt11-dev (>= 1.2.2), libltdl-dev, libimobiledevice-dev (>= 1.1.0) [!hurd-any], libplist-dev"
+	],
+	"Checksums-Sha1": [
+		"8a7558680395d3cd4f58e7e386cd84ade270c4d2 2367 gvfs_1.12.3-4.dsc da45f1e0c119a8ddd0aec7c2b2664dfc11ce66bb 1361968 gvfs_1.12.3.orig.tar.xz a805361fc9ad68a9662b8e4c8162529e0de986f6 19569 gvfs_1.12.3-4.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"4601d7192a3073b6b1ec0e587c4d690cdaa9052eac6ec7062f57a733f7d8dce9 2367 gvfs_1.12.3-4.dsc 38f69ec92083f86a51e7814e98d2861151f16dfb3abe4b3b39488408e12fd9c2 1361968 gvfs_1.12.3.orig.tar.xz dd05093f8a0028de8a84ce9bbdfe7106239126fc0dffa418804d3ac65cb2ad6a 19569 gvfs_1.12.3-4.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/g/gvfs"
+	],
+	"Files": [
+		"d39709e08b06d2bacdae58c6ec616ae2 2367 gvfs_1.12.3-4.dsc 348edf09eca150ba7065017127f63c64 1361968 gvfs_1.12.3.orig.tar.xz d4947a69b4f0c878546a4ab27f7a988c 19569 gvfs_1.12.3-4.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"gvfs"
+	],
+	"Package-List": [
+		"gvfs deb libs optional gvfs-backends deb gnome optional gvfs-bin deb gnome optional gvfs-common deb libs optional gvfs-daemons deb libs optional gvfs-dbg deb debug extra gvfs-fuse deb gnome optional gvfs-libs deb libs optional"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"libs"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Josselin Mouette <joss@debian.org>, Martin Pitt <mpitt@debian.org>, Michael Biebl <biebl@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/gvfs/"
+	],
+	"Vcs-Svn": [
+		"svn://anonscm.debian.org/svn/pkg-gnome/desktop/unstable/gvfs"
+	],
+	"Version": [
+		"1.12.3-4"
+	]
 }

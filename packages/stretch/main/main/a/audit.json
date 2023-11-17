@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "linux-any all"
-  ],
-  "Binary": [
-    "auditd, libauparse0, libauparse-dev, libaudit1, libaudit-common, libaudit-dev, python-audit, python3-audit, golang-redhat-audit-dev, audispd-plugins"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-autoreconf, dh-systemd (>= 1.4), dh-python <!nopython>, dpkg-dev (>= 1.16.1~), intltool, libcap-ng-dev, libkrb5-dev, libldap2-dev, libprelude-dev, libwrap0-dev, python-all-dev:any (>= 2.6.6-3~) <!nopython>, libpython-all-dev (>= 2.6.6-3~) <!nopython>, python3-all-dev:any <!nopython>, libpython3-all-dev <!nopython>, swig"
-  ],
-  "Build-Depends-Indep": [
-    "golang-go"
-  ],
-  "Checksums-Sha256": [
-    "3cc48a56a06f29cff62d35267471d1775a5b201cd947385566fc8f8d49bc1280 2485 audit_2.6.7-2.dsc 8923917332daa7833bbc0c1d9eb012167093fbad000da4a9630fb3356aff8cdc 1080848 audit_2.6.7.orig.tar.gz 04b40b6ae73625c6a27a9949b28c751a83c97220f59a712b2ea9c03f5cab0fcf 18820 audit_2.6.7-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/a/audit"
-  ],
-  "Files": [
-    "2edb20b9564eaa3ed6dd3c47ea7a1bc9 2485 audit_2.6.7-2.dsc 274ebe4bc5fbee837cd783d5ff597e78 1080848 audit_2.6.7.orig.tar.gz 0971d7da43787d34711e63e77d55ae5a 18820 audit_2.6.7-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://people.redhat.com/sgrubb/audit/"
-  ],
-  "Maintainer": [
-    "Laurent Bigonville <bigon@debian.org>"
-  ],
-  "Package": [
-    "audit"
-  ],
-  "Package-List": [
-    "audispd-plugins deb admin extra arch=linux-any auditd deb admin extra arch=linux-any golang-redhat-audit-dev deb devel extra arch=all libaudit-common deb libs optional arch=all libaudit-dev deb libdevel extra arch=linux-any libaudit1 deb libs optional arch=linux-any libauparse-dev deb libdevel extra arch=linux-any libauparse0 deb libs optional arch=linux-any python-audit deb python extra arch=linux-any profile=!nopython python3-audit deb python extra arch=linux-any profile=!nopython"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "libs"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/gitweb/?p=collab-maint/audit.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/collab-maint/audit.git"
-  ],
-  "Version": [
-    "1:2.6.7-2"
-  ]
+	"Architecture": [
+		"linux-any all"
+	],
+	"Binary": [
+		"auditd, libauparse0, libauparse-dev, libaudit1, libaudit-common, libaudit-dev, python-audit, python3-audit, golang-redhat-audit-dev, audispd-plugins"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-autoreconf, dh-systemd (>= 1.4), dh-python <!nopython>, dpkg-dev (>= 1.16.1~), intltool, libcap-ng-dev, libkrb5-dev, libldap2-dev, libprelude-dev, libwrap0-dev, python-all-dev:any (>= 2.6.6-3~) <!nopython>, libpython-all-dev (>= 2.6.6-3~) <!nopython>, python3-all-dev:any <!nopython>, libpython3-all-dev <!nopython>, swig"
+	],
+	"Build-Depends-Indep": [
+		"golang-go"
+	],
+	"Checksums-Sha256": [
+		"3cc48a56a06f29cff62d35267471d1775a5b201cd947385566fc8f8d49bc1280 2485 audit_2.6.7-2.dsc 8923917332daa7833bbc0c1d9eb012167093fbad000da4a9630fb3356aff8cdc 1080848 audit_2.6.7.orig.tar.gz 04b40b6ae73625c6a27a9949b28c751a83c97220f59a712b2ea9c03f5cab0fcf 18820 audit_2.6.7-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/a/audit"
+	],
+	"Files": [
+		"2edb20b9564eaa3ed6dd3c47ea7a1bc9 2485 audit_2.6.7-2.dsc 274ebe4bc5fbee837cd783d5ff597e78 1080848 audit_2.6.7.orig.tar.gz 0971d7da43787d34711e63e77d55ae5a 18820 audit_2.6.7-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://people.redhat.com/sgrubb/audit/"
+	],
+	"Maintainer": [
+		"Laurent Bigonville <bigon@debian.org>"
+	],
+	"Package": [
+		"audit"
+	],
+	"Package-List": [
+		"audispd-plugins deb admin extra arch=linux-any auditd deb admin extra arch=linux-any golang-redhat-audit-dev deb devel extra arch=all libaudit-common deb libs optional arch=all libaudit-dev deb libdevel extra arch=linux-any libaudit1 deb libs optional arch=linux-any libauparse-dev deb libdevel extra arch=linux-any libauparse0 deb libs optional arch=linux-any python-audit deb python extra arch=linux-any profile=!nopython python3-audit deb python extra arch=linux-any profile=!nopython"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"libs"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/gitweb/?p=collab-maint/audit.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/collab-maint/audit.git"
+	],
+	"Version": [
+		"1:2.6.7-2"
+	]
 }

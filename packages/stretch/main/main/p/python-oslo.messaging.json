@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-oslo.messaging, python3-oslo.messaging, oslo-messaging-zmq-receiver"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-python, dh-systemd, openstack-pkg-tools (>= 52~), python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.8), python3-setuptools"
-  ],
-  "Build-Depends-Indep": [
-    "bandit, python-amqp (>= 1.4.0), python-cachetools, python-concurrent.futures (>= 3.0), python-coverage, python-debtcollector (>= 1.2.0), python-eventlet (>= 0.18.4), python-fixtures (>= 3.0.0), python-futurist (>= 0.13.0), python-greenlet, python-hacking, python-kafka (>= 0.9.5), python-kombu (>= 3.0.30), python-mock (>= 1.3), python-monotonic (>= 0.6), python-mox3, python-oslo.config (>= 1:3.14.0), python-oslo.context (>= 2.9.0), python-oslo.i18n (>= 2.1.0), python-oslo.log (>= 1.14.0), python-oslo.middleware (>= 3.0.0), python-oslo.serialization (>= 2.7.0), python-oslo.service (>= 1.10.0), python-oslo.utils (>= 3.16.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.10.0), python-pika (>= 0.10.0), python-pika-pool, python-pyngus, python-redis, python-retrying, python-six (>= 1.9.0), python-stevedore (>= 1.16.0), python-testscenarios, python-testtools (>= 1.7.0), python-webob, python-yaml, python-zmq, python3-amqp (>= 1.4.0), python3-cachetools, python3-coverage, python3-debtcollector (>= 1.2.0), python3-eventlet (>= 0.18.4), python3-fixtures (>= 3.0.0), python3-futurist (>= 0.13.0), python3-greenlet, python3-kafka (>= 0.9.5), python3-kombu (>= 3.0.30), python3-mock (>= 1.3), python3-monotonic (>= 0.6), python3-mox3, python3-oslo.config (>= 1:3.14.0), python3-oslo.context (>= 2.9.0), python3-oslo.i18n (>= 2.1.0), python3-oslo.log (>= 1.14.0), python3-oslo.middleware (>= 3.0.0), python3-oslo.serialization (>= 2.7.0), python3-oslo.service (>= 1.10.0), python3-oslo.utils (>= 3.16.0), python3-oslotest (>= 1:1.10.0), python3-pika (>= 0.10.0), python3-pika-pool, python3-pyngus, python3-redis, python3-retrying, python3-six (>= 1.9.0), python3-stevedore (>= 1.16.0), python3-subunit, python3-testscenarios, python3-testtools (>= 1.4.0), python3-webob, python3-yaml, python3-zmq, subunit, testrepository"
-  ],
-  "Checksums-Sha256": [
-    "e432070506228865ef1cd20603a11797c10ed9e3361dc78d0e989900268f628d 4373 python-oslo.messaging_5.10.0-2.dsc ee088e9de9a77888268fe9ac5f21bf42d681ea3795f0dde9d8c3dbe562b1f25a 197188 python-oslo.messaging_5.10.0.orig.tar.xz c8ce1aff805fcea1d05d2b4a289139e27bd99b1f7b540a7a4f7ea1c314458b5f 8412 python-oslo.messaging_5.10.0-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/python-oslo.messaging"
-  ],
-  "Files": [
-    "1203e33d1aab8287ae189400551b6ccd 4373 python-oslo.messaging_5.10.0-2.dsc 48a1fb93f55037404d5a36075f3a9178 197188 python-oslo.messaging_5.10.0.orig.tar.xz 1ec14c1fcaf1568c4847aeb5d3e3ff93 8412 python-oslo.messaging_5.10.0-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/openstack/oslo.messaging"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "python-oslo.messaging"
-  ],
-  "Package-List": [
-    "oslo-messaging-zmq-receiver deb python optional arch=all python-oslo.messaging deb python optional arch=all python3-oslo.messaging deb python optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>, James Page <james.page@ubuntu.com>, Corey Bryant <corey.bryant@canonical.com>, David Della Vecchia <ddv@canonical.com>,"
-  ],
-  "Vcs-Browser": [
-    "https://git.openstack.org/cgit/openstack/deb-python-oslo.messaging?h=debian%2Fnewton"
-  ],
-  "Vcs-Git": [
-    "https://git.openstack.org/openstack/deb-python-oslo.messaging -b debian/newton"
-  ],
-  "Version": [
-    "5.10.0-2"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-oslo.messaging, python3-oslo.messaging, oslo-messaging-zmq-receiver"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-python, dh-systemd, openstack-pkg-tools (>= 52~), python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.8), python3-setuptools"
+	],
+	"Build-Depends-Indep": [
+		"bandit, python-amqp (>= 1.4.0), python-cachetools, python-concurrent.futures (>= 3.0), python-coverage, python-debtcollector (>= 1.2.0), python-eventlet (>= 0.18.4), python-fixtures (>= 3.0.0), python-futurist (>= 0.13.0), python-greenlet, python-hacking, python-kafka (>= 0.9.5), python-kombu (>= 3.0.30), python-mock (>= 1.3), python-monotonic (>= 0.6), python-mox3, python-oslo.config (>= 1:3.14.0), python-oslo.context (>= 2.9.0), python-oslo.i18n (>= 2.1.0), python-oslo.log (>= 1.14.0), python-oslo.middleware (>= 3.0.0), python-oslo.serialization (>= 2.7.0), python-oslo.service (>= 1.10.0), python-oslo.utils (>= 3.16.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.10.0), python-pika (>= 0.10.0), python-pika-pool, python-pyngus, python-redis, python-retrying, python-six (>= 1.9.0), python-stevedore (>= 1.16.0), python-testscenarios, python-testtools (>= 1.7.0), python-webob, python-yaml, python-zmq, python3-amqp (>= 1.4.0), python3-cachetools, python3-coverage, python3-debtcollector (>= 1.2.0), python3-eventlet (>= 0.18.4), python3-fixtures (>= 3.0.0), python3-futurist (>= 0.13.0), python3-greenlet, python3-kafka (>= 0.9.5), python3-kombu (>= 3.0.30), python3-mock (>= 1.3), python3-monotonic (>= 0.6), python3-mox3, python3-oslo.config (>= 1:3.14.0), python3-oslo.context (>= 2.9.0), python3-oslo.i18n (>= 2.1.0), python3-oslo.log (>= 1.14.0), python3-oslo.middleware (>= 3.0.0), python3-oslo.serialization (>= 2.7.0), python3-oslo.service (>= 1.10.0), python3-oslo.utils (>= 3.16.0), python3-oslotest (>= 1:1.10.0), python3-pika (>= 0.10.0), python3-pika-pool, python3-pyngus, python3-redis, python3-retrying, python3-six (>= 1.9.0), python3-stevedore (>= 1.16.0), python3-subunit, python3-testscenarios, python3-testtools (>= 1.4.0), python3-webob, python3-yaml, python3-zmq, subunit, testrepository"
+	],
+	"Checksums-Sha256": [
+		"e432070506228865ef1cd20603a11797c10ed9e3361dc78d0e989900268f628d 4373 python-oslo.messaging_5.10.0-2.dsc ee088e9de9a77888268fe9ac5f21bf42d681ea3795f0dde9d8c3dbe562b1f25a 197188 python-oslo.messaging_5.10.0.orig.tar.xz c8ce1aff805fcea1d05d2b4a289139e27bd99b1f7b540a7a4f7ea1c314458b5f 8412 python-oslo.messaging_5.10.0-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-oslo.messaging"
+	],
+	"Files": [
+		"1203e33d1aab8287ae189400551b6ccd 4373 python-oslo.messaging_5.10.0-2.dsc 48a1fb93f55037404d5a36075f3a9178 197188 python-oslo.messaging_5.10.0.orig.tar.xz 1ec14c1fcaf1568c4847aeb5d3e3ff93 8412 python-oslo.messaging_5.10.0-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/openstack/oslo.messaging"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"python-oslo.messaging"
+	],
+	"Package-List": [
+		"oslo-messaging-zmq-receiver deb python optional arch=all python-oslo.messaging deb python optional arch=all python3-oslo.messaging deb python optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>, James Page <james.page@ubuntu.com>, Corey Bryant <corey.bryant@canonical.com>, David Della Vecchia <ddv@canonical.com>,"
+	],
+	"Vcs-Browser": [
+		"https://git.openstack.org/cgit/openstack/deb-python-oslo.messaging?h=debian%2Fnewton"
+	],
+	"Vcs-Git": [
+		"https://git.openstack.org/openstack/deb-python-oslo.messaging -b debian/newton"
+	],
+	"Version": [
+		"5.10.0-2"
+	]
 }

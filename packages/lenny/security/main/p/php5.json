@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "php5, php5-common, libapache2-mod-php5, libapache2-mod-php5filter, php5-cgi, php5-cli, php5-dev, php5-dbg, php-pear, php5-curl, php5-gd, php5-gmp, php5-imap, php5-interbase, php5-ldap, php5-mcrypt, php5-mhash, php5-mysql, php5-odbc, php5-pgsql, php5-pspell, php5-recode, php5-snmp, php5-sqlite, php5-sybase, php5-tidy, php5-xmlrpc, php5-xsl"
-  ],
-  "Build-Conflicts": [
-    "bind-dev"
-  ],
-  "Build-Depends": [
-    "apache2-prefork-dev, autoconf, automake1.4, bison, chrpath, debhelper (>= 5), firebird2.0-dev [i386 amd64 powerpc sparc] | firebird1.5-dev [i386 amd64] | firebird2-dev [i386 amd64], flex, freetds-dev, libapr1-dev (>= 1.2.7-8), libbz2-dev, libc-client-dev, libcurl4-openssl-dev | libcurl-dev, libdb4.6-dev, libexpat1-dev (>= 1.95.2-2.1), libfreetype6-dev, libgcrypt11-dev, libgd2-xpm-dev, libgmp3-dev, libjpeg62-dev, libkrb5-dev, libldap2-dev, libmcrypt-dev, libmhash-dev (>= 0.8.8), libmysqlclient15-dev, libncurses5-dev, libpam0g-dev, libpcre3-dev (>= 6.6), libpng12-dev, libpq-dev, libpspell-dev, librecode-dev, libsasl2-dev, libsnmp-dev, libsqlite0-dev, libssl-dev, libt1-dev, libtidy-dev, libtool, libwrap0-dev, libxmltok1-dev, libxml2-dev, libxslt1-dev (>= 1.0.18), quilt, re2c, unixodbc-dev, zlib1g-dev, tzdata"
-  ],
-  "Checksums-Sha1": [
-    "2061e59420449c385c0786a482d06c64aad27585 2533 php5_5.2.6.dfsg.1-1+lenny16.dsc b674ca6e080b23ecb97b20739b00fd9a04ec5435 12173741 php5_5.2.6.dfsg.1.orig.tar.gz bf67dd9995e683f26bbd47ad2779d99176a2d5b3 188614 php5_5.2.6.dfsg.1-1+lenny16.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "5357fb69841b196520c9ce8b4bb78e8a14d20b86e5479c29a03b40ac4389da13 2533 php5_5.2.6.dfsg.1-1+lenny16.dsc 86c5040915321aea53d870c2b1ecb1dc048e60eaf6c7addc1d421f363e642a3a 12173741 php5_5.2.6.dfsg.1.orig.tar.gz 52ed05526de231748334f3fcc6b4073947bed606bad35b063fdc029c9dbfbfde 188614 php5_5.2.6.dfsg.1-1+lenny16.diff.gz"
-  ],
-  "Directory": [
-    "pool/updates/main/p/php5"
-  ],
-  "Files": [
-    "bd178ebfa29bfdf02c7baa1306e3812c 2533 php5_5.2.6.dfsg.1-1+lenny16.dsc b80fcee38363f031229368ceff8ced58 12173741 php5_5.2.6.dfsg.1.orig.tar.gz 5b575227a9f49254b7c181f717fa220a 188614 php5_5.2.6.dfsg.1-1+lenny16.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Homepage": [
-    "http://www.php.net/"
-  ],
-  "Maintainer": [
-    "Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "php5"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "web"
-  ],
-  "Standards-Version": [
-    "3.8.0"
-  ],
-  "Uploaders": [
-    "Adam Conrad <adconrad@0c3.net>, Jeroen van Wolffelaar <jeroen@wolffelaar.nl>, Ondřej Surý <ondrej@debian.org>, Sean Finney <seanius@debian.org>, Thijs Kinkhorst <thijs@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://svn.debian.org/wsvn/pkg-php/php5/trunk"
-  ],
-  "Vcs-Svn": [
-    "svn://svn.debian.org/pkg-php/php5/trunk"
-  ],
-  "Version": [
-    "5.2.6.dfsg.1-1+lenny16"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"php5, php5-common, libapache2-mod-php5, libapache2-mod-php5filter, php5-cgi, php5-cli, php5-dev, php5-dbg, php-pear, php5-curl, php5-gd, php5-gmp, php5-imap, php5-interbase, php5-ldap, php5-mcrypt, php5-mhash, php5-mysql, php5-odbc, php5-pgsql, php5-pspell, php5-recode, php5-snmp, php5-sqlite, php5-sybase, php5-tidy, php5-xmlrpc, php5-xsl"
+	],
+	"Build-Conflicts": [
+		"bind-dev"
+	],
+	"Build-Depends": [
+		"apache2-prefork-dev, autoconf, automake1.4, bison, chrpath, debhelper (>= 5), firebird2.0-dev [i386 amd64 powerpc sparc] | firebird1.5-dev [i386 amd64] | firebird2-dev [i386 amd64], flex, freetds-dev, libapr1-dev (>= 1.2.7-8), libbz2-dev, libc-client-dev, libcurl4-openssl-dev | libcurl-dev, libdb4.6-dev, libexpat1-dev (>= 1.95.2-2.1), libfreetype6-dev, libgcrypt11-dev, libgd2-xpm-dev, libgmp3-dev, libjpeg62-dev, libkrb5-dev, libldap2-dev, libmcrypt-dev, libmhash-dev (>= 0.8.8), libmysqlclient15-dev, libncurses5-dev, libpam0g-dev, libpcre3-dev (>= 6.6), libpng12-dev, libpq-dev, libpspell-dev, librecode-dev, libsasl2-dev, libsnmp-dev, libsqlite0-dev, libssl-dev, libt1-dev, libtidy-dev, libtool, libwrap0-dev, libxmltok1-dev, libxml2-dev, libxslt1-dev (>= 1.0.18), quilt, re2c, unixodbc-dev, zlib1g-dev, tzdata"
+	],
+	"Checksums-Sha1": [
+		"2061e59420449c385c0786a482d06c64aad27585 2533 php5_5.2.6.dfsg.1-1+lenny16.dsc b674ca6e080b23ecb97b20739b00fd9a04ec5435 12173741 php5_5.2.6.dfsg.1.orig.tar.gz bf67dd9995e683f26bbd47ad2779d99176a2d5b3 188614 php5_5.2.6.dfsg.1-1+lenny16.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"5357fb69841b196520c9ce8b4bb78e8a14d20b86e5479c29a03b40ac4389da13 2533 php5_5.2.6.dfsg.1-1+lenny16.dsc 86c5040915321aea53d870c2b1ecb1dc048e60eaf6c7addc1d421f363e642a3a 12173741 php5_5.2.6.dfsg.1.orig.tar.gz 52ed05526de231748334f3fcc6b4073947bed606bad35b063fdc029c9dbfbfde 188614 php5_5.2.6.dfsg.1-1+lenny16.diff.gz"
+	],
+	"Directory": [
+		"pool/updates/main/p/php5"
+	],
+	"Files": [
+		"bd178ebfa29bfdf02c7baa1306e3812c 2533 php5_5.2.6.dfsg.1-1+lenny16.dsc b80fcee38363f031229368ceff8ced58 12173741 php5_5.2.6.dfsg.1.orig.tar.gz 5b575227a9f49254b7c181f717fa220a 188614 php5_5.2.6.dfsg.1-1+lenny16.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Homepage": [
+		"http://www.php.net/"
+	],
+	"Maintainer": [
+		"Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"php5"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"web"
+	],
+	"Standards-Version": [
+		"3.8.0"
+	],
+	"Uploaders": [
+		"Adam Conrad <adconrad@0c3.net>, Jeroen van Wolffelaar <jeroen@wolffelaar.nl>, Ondřej Surý <ondrej@debian.org>, Sean Finney <seanius@debian.org>, Thijs Kinkhorst <thijs@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://svn.debian.org/wsvn/pkg-php/php5/trunk"
+	],
+	"Vcs-Svn": [
+		"svn://svn.debian.org/pkg-php/php5/trunk"
+	],
+	"Version": [
+		"5.2.6.dfsg.1-1+lenny16"
+	]
 }

@@ -1,68 +1,68 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "horizon-doc, openstack-dashboard, openstack-dashboard-apache, python3-django-horizon"
-  ],
-  "Build-Conflicts": [
-    "python3-django-openstack-auth"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 11), dh-python, openstack-pkg-tools, po-debconf, python3-all, python3-pbr, python3-setuptools, python3-sphinx"
-  ],
-  "Build-Depends-Indep": [
-    "gettext, python3-babel, python3-cinderclient (>= 1:8.0.0), python3-coverage <!nocheck>, python3-debtcollector, python3-django (>= 2:3.2), python3-django-compressor (>= 2.4.1), python3-django-debreach, python3-django-pyscss, python3-enmerkar, python3-futurist, python3-freezegun, python3-glanceclient, python3-hacking <!nocheck>, python3-iso8601 <!nocheck>, python3-keystoneauth1 (>= 4.3.1), python3-keystoneclient, python3-memcache, python3-netaddr <!nocheck>, python3-neutronclient, python3-novaclient, python3-openstackdocstheme, python3-oslo.concurrency (>= 4.5.0), python3-oslo.config (>= 1:8.8.0), python3-oslo.i18n (>= 5.1.0), python3-oslo.policy (>= 3.11.0), python3-oslo.serialization (>= 4.3.0), python3-oslo.upgradecheck (>= 1.5.0), python3-oslo.utils (>= 4.12.0), python3-osprofiler (>= 3.4.2), python3-pep8 <!nocheck>, python3-pymongo <!nocheck>, python3-pyscss (>= 1.4.0), python3-pytest, python3-pytest-django, python3-pytest-xdist, python3-redis, python3-requests, python3-selenium <!nocheck>, python3-semantic-version, python3-six, python3-swiftclient, python3-testscenarios, python3-testtools <!nocheck>, python3-tz <!nocheck>, python3-xstatic, python3-xstatic-angular (>= 1.8.2), python3-xstatic-angular-bootstrap, python3-xstatic-angular-fileupload, python3-xstatic-angular-gettext, python3-xstatic-angular-lrdragndrop, python3-xstatic-angular-schema-form, python3-xstatic-angular-ui-router, python3-xstatic-bootstrap-datepicker, python3-xstatic-bootstrap-scss, python3-xstatic-bootswatch, python3-xstatic-d3, python3-xstatic-font-awesome, python3-xstatic-hogan, python3-xstatic-jasmine, python3-xstatic-jquery, python3-xstatic-jquery-migrate, python3-xstatic-jquery-ui, python3-xstatic-jquery.quicksearch, python3-xstatic-jquery.tablesorter, python3-xstatic-jsencrypt, python3-xstatic-magic-search, python3-xstatic-mdi, python3-xstatic-objectpath, python3-xstatic-rickshaw, python3-xstatic-roboto-fontface, python3-xstatic-smart-table, python3-xstatic-spin, python3-xstatic-term.js, python3-xstatic-tv4, python3-xvfbwrapper, python3-yaml <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "be6d2ea3994038f5ff83f10d6d3fccfbba6180f8d7229ab2c96b4f68c1103908 4569 horizon_23.0.0-5+deb12u1.dsc a1e3b207b12e29dd8acead3c58a4439ee72563632c4c837d8b3e1d58a0b8df39 3292580 horizon_23.0.0.orig.tar.xz e9fd31268fc5a4b1adf1039a1c68a80c846e4527970cd6830101e7b9df49061f 34208 horizon_23.0.0-5+deb12u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/h/horizon"
-  ],
-  "Files": [
-    "176607bc89b9e9b8939a23a1ddcc7acc 4569 horizon_23.0.0-5+deb12u1.dsc b843baf58d6930d71669bf72d2a0539d 3292580 horizon_23.0.0.orig.tar.xz 5d051c9447831d61ee2e36cbfa113bf7 34208 horizon_23.0.0-5+deb12u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://horizon.openstack.org"
-  ],
-  "Maintainer": [
-    "Debian OpenStack <team+openstack@tracker.debian.org>"
-  ],
-  "Package": [
-    "horizon"
-  ],
-  "Package-List": [
-    "horizon-doc deb doc optional arch=all openstack-dashboard deb net optional arch=all openstack-dashboard-apache deb net optional arch=all python3-django-horizon deb python optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "python"
-  ],
-  "Standards-Version": [
-    "4.5.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "@builddeps@"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>, Michal Arbet <michal.arbet@ultimum.io>, Ivan Udovichenko <iudovichenko@mirantis.com>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/openstack-team/services/horizon"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/openstack-team/services/horizon.git"
-  ],
-  "Version": [
-    "3:23.0.0-5+deb12u1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"horizon-doc, openstack-dashboard, openstack-dashboard-apache, python3-django-horizon"
+	],
+	"Build-Conflicts": [
+		"python3-django-openstack-auth"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 11), dh-python, openstack-pkg-tools, po-debconf, python3-all, python3-pbr, python3-setuptools, python3-sphinx"
+	],
+	"Build-Depends-Indep": [
+		"gettext, python3-babel, python3-cinderclient (>= 1:8.0.0), python3-coverage <!nocheck>, python3-debtcollector, python3-django (>= 2:3.2), python3-django-compressor (>= 2.4.1), python3-django-debreach, python3-django-pyscss, python3-enmerkar, python3-futurist, python3-freezegun, python3-glanceclient, python3-hacking <!nocheck>, python3-iso8601 <!nocheck>, python3-keystoneauth1 (>= 4.3.1), python3-keystoneclient, python3-memcache, python3-netaddr <!nocheck>, python3-neutronclient, python3-novaclient, python3-openstackdocstheme, python3-oslo.concurrency (>= 4.5.0), python3-oslo.config (>= 1:8.8.0), python3-oslo.i18n (>= 5.1.0), python3-oslo.policy (>= 3.11.0), python3-oslo.serialization (>= 4.3.0), python3-oslo.upgradecheck (>= 1.5.0), python3-oslo.utils (>= 4.12.0), python3-osprofiler (>= 3.4.2), python3-pep8 <!nocheck>, python3-pymongo <!nocheck>, python3-pyscss (>= 1.4.0), python3-pytest, python3-pytest-django, python3-pytest-xdist, python3-redis, python3-requests, python3-selenium <!nocheck>, python3-semantic-version, python3-six, python3-swiftclient, python3-testscenarios, python3-testtools <!nocheck>, python3-tz <!nocheck>, python3-xstatic, python3-xstatic-angular (>= 1.8.2), python3-xstatic-angular-bootstrap, python3-xstatic-angular-fileupload, python3-xstatic-angular-gettext, python3-xstatic-angular-lrdragndrop, python3-xstatic-angular-schema-form, python3-xstatic-angular-ui-router, python3-xstatic-bootstrap-datepicker, python3-xstatic-bootstrap-scss, python3-xstatic-bootswatch, python3-xstatic-d3, python3-xstatic-font-awesome, python3-xstatic-hogan, python3-xstatic-jasmine, python3-xstatic-jquery, python3-xstatic-jquery-migrate, python3-xstatic-jquery-ui, python3-xstatic-jquery.quicksearch, python3-xstatic-jquery.tablesorter, python3-xstatic-jsencrypt, python3-xstatic-magic-search, python3-xstatic-mdi, python3-xstatic-objectpath, python3-xstatic-rickshaw, python3-xstatic-roboto-fontface, python3-xstatic-smart-table, python3-xstatic-spin, python3-xstatic-term.js, python3-xstatic-tv4, python3-xvfbwrapper, python3-yaml <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"be6d2ea3994038f5ff83f10d6d3fccfbba6180f8d7229ab2c96b4f68c1103908 4569 horizon_23.0.0-5+deb12u1.dsc a1e3b207b12e29dd8acead3c58a4439ee72563632c4c837d8b3e1d58a0b8df39 3292580 horizon_23.0.0.orig.tar.xz e9fd31268fc5a4b1adf1039a1c68a80c846e4527970cd6830101e7b9df49061f 34208 horizon_23.0.0-5+deb12u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/h/horizon"
+	],
+	"Files": [
+		"176607bc89b9e9b8939a23a1ddcc7acc 4569 horizon_23.0.0-5+deb12u1.dsc b843baf58d6930d71669bf72d2a0539d 3292580 horizon_23.0.0.orig.tar.xz 5d051c9447831d61ee2e36cbfa113bf7 34208 horizon_23.0.0-5+deb12u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://horizon.openstack.org"
+	],
+	"Maintainer": [
+		"Debian OpenStack <team+openstack@tracker.debian.org>"
+	],
+	"Package": [
+		"horizon"
+	],
+	"Package-List": [
+		"horizon-doc deb doc optional arch=all openstack-dashboard deb net optional arch=all openstack-dashboard-apache deb net optional arch=all python3-django-horizon deb python optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"python"
+	],
+	"Standards-Version": [
+		"4.5.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"@builddeps@"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>, Michal Arbet <michal.arbet@ultimum.io>, Ivan Udovichenko <iudovichenko@mirantis.com>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/openstack-team/services/horizon"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/openstack-team/services/horizon.git"
+	],
+	"Version": [
+		"3:23.0.0-5+deb12u1"
+	]
 }

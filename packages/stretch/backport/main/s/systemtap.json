@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "systemtap, systemtap-common, systemtap-runtime, systemtap-doc, systemtap-server, systemtap-client, systemtap-sdt-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), gettext (>= 0.19.4), libelf-dev (>= 0.148), libdw-dev (>= 0.148), libsqlite3-dev, texlive-latex-base, texlive-latex-recommended, texlive-latex-extra, texlive-fonts-recommended, libnss3-dev, libnspr4-dev, pkg-config, libnss3-tools, xmlto, python3-lxml (>= 4.2.5), latex2html, libavahi-client-dev"
-  ],
-  "Checksums-Sha256": [
-    "4e5d3739a16c7f63ed0f62d5366df8562bed134bd013f58a4e2ec788b5a0c371 2785 systemtap_4.2-3~bpo9+2.dsc 0984ebe3162274988252ec35074021dc1e8420d87a8b35f437578562fce08781 5443557 systemtap_4.2.orig.tar.gz 705ce0d2e01a3b61979c5cb1beac7bf761265370b0ddeb358c4741ba7e080d1e 29664 systemtap_4.2-3~bpo9+2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/s/systemtap"
-  ],
-  "Files": [
-    "bdef5ec3272fe944c5231ce63a598129 2785 systemtap_4.2-3~bpo9+2.dsc 23e8e64d3e4a6e75a29c57fac98b68d8 5443557 systemtap_4.2.orig.tar.gz e9e578ce56be21feccef2769c64c7bf0 29664 systemtap_4.2-3~bpo9+2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://sourceware.org/systemtap/"
-  ],
-  "Maintainer": [
-    "Emanuele Rocca <ema@debian.org>"
-  ],
-  "Package": [
-    "systemtap"
-  ],
-  "Package-List": [
-    "systemtap deb devel optional arch=linux-any systemtap-client deb devel optional arch=linux-any systemtap-common deb devel optional arch=all systemtap-doc deb doc optional arch=all systemtap-runtime deb devel optional arch=linux-any systemtap-sdt-dev deb devel optional arch=any systemtap-server deb devel optional arch=linux-any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.4.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "apt-utils, coreutils-dbgsym, dejagnu, libnspr4-dev, libnss3-dev"
-  ],
-  "Uploaders": [
-    "Timo Juhani Lindfors <timo.lindfors@iki.fi>, Vincent Bernat <bernat@debian.org>, Ritesh Raj Sarraf <rrs@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian/systemtap.git"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian/systemtap.git"
-  ],
-  "Version": [
-    "4.2-3~bpo9+2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"systemtap, systemtap-common, systemtap-runtime, systemtap-doc, systemtap-server, systemtap-client, systemtap-sdt-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), gettext (>= 0.19.4), libelf-dev (>= 0.148), libdw-dev (>= 0.148), libsqlite3-dev, texlive-latex-base, texlive-latex-recommended, texlive-latex-extra, texlive-fonts-recommended, libnss3-dev, libnspr4-dev, pkg-config, libnss3-tools, xmlto, python3-lxml (>= 4.2.5), latex2html, libavahi-client-dev"
+	],
+	"Checksums-Sha256": [
+		"4e5d3739a16c7f63ed0f62d5366df8562bed134bd013f58a4e2ec788b5a0c371 2785 systemtap_4.2-3~bpo9+2.dsc 0984ebe3162274988252ec35074021dc1e8420d87a8b35f437578562fce08781 5443557 systemtap_4.2.orig.tar.gz 705ce0d2e01a3b61979c5cb1beac7bf761265370b0ddeb358c4741ba7e080d1e 29664 systemtap_4.2-3~bpo9+2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/s/systemtap"
+	],
+	"Files": [
+		"bdef5ec3272fe944c5231ce63a598129 2785 systemtap_4.2-3~bpo9+2.dsc 23e8e64d3e4a6e75a29c57fac98b68d8 5443557 systemtap_4.2.orig.tar.gz e9e578ce56be21feccef2769c64c7bf0 29664 systemtap_4.2-3~bpo9+2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://sourceware.org/systemtap/"
+	],
+	"Maintainer": [
+		"Emanuele Rocca <ema@debian.org>"
+	],
+	"Package": [
+		"systemtap"
+	],
+	"Package-List": [
+		"systemtap deb devel optional arch=linux-any systemtap-client deb devel optional arch=linux-any systemtap-common deb devel optional arch=all systemtap-doc deb doc optional arch=all systemtap-runtime deb devel optional arch=linux-any systemtap-sdt-dev deb devel optional arch=any systemtap-server deb devel optional arch=linux-any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.4.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"apt-utils, coreutils-dbgsym, dejagnu, libnspr4-dev, libnss3-dev"
+	],
+	"Uploaders": [
+		"Timo Juhani Lindfors <timo.lindfors@iki.fi>, Vincent Bernat <bernat@debian.org>, Ritesh Raj Sarraf <rrs@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/systemtap.git"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/systemtap.git"
+	],
+	"Version": [
+		"4.2-3~bpo9+2"
+	]
 }

@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "apparmor, apparmor-utils, apparmor-profiles, apparmor-docs, libapparmor-dev, libapparmor1, libapparmor-perl, libapache2-mod-apparmor, libpam-apparmor, apparmor-notify, python-libapparmor, python3-libapparmor, python-apparmor, python3-apparmor, dh-apparmor, apparmor-easyprof"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9.20120322~), po-debconf, dpkg-dev (>= 1.16.1~), autotools-dev, libtool, automake, autoconf, chrpath, flex, bison, dejagnu, swig, bzip2, apache2-dev, dh-apache2, libpam-dev, texlive-latex-base, texlive-latex-recommended, python-all-dev, python, python3-all-dev, python3, perl (>= 5.8.0), liblocale-gettext-perl, pkg-config"
-  ],
-  "Checksums-Sha1": [
-    "b09c9cecec727e999c869e3f8b20b55025aa272b 3208 apparmor_2.9.0-3.dsc fa262a1c64f069bc551c31e838670f366e74bdac 2354837 apparmor_2.9.0.orig.tar.gz c33f76839e1d4f8e1ed2387c6672e7e66871ffc3 64428 apparmor_2.9.0-3.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "daf2723acb0e1270586e3a44aa656887fe033128838f21a58f9a88d59105e807 3208 apparmor_2.9.0-3.dsc 782df74c8a7a8a5302b4ad0d00184a7e623ef0631c1b8a16a1d92a968e4b4b6b 2354837 apparmor_2.9.0.orig.tar.gz e53b20461058704c1e99e77c720315b437cc4b25ac9dc27166aa3a92ca9db4ac 64428 apparmor_2.9.0-3.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/a/apparmor"
-  ],
-  "Files": [
-    "2597568df3e295f839f8fabf059a0128 3208 apparmor_2.9.0-3.dsc daaeb859452f793abfdafd33f88d3e90 2354837 apparmor_2.9.0.orig.tar.gz 65d1a27022f1d86ec41e9b71da2fdf3f 64428 apparmor_2.9.0-3.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://apparmor.net/"
-  ],
-  "Maintainer": [
-    "Debian AppArmor Team <pkg-apparmor-team@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "apparmor"
-  ],
-  "Package-List": [
-    "apparmor deb admin extra arch=any apparmor-docs deb doc extra arch=all apparmor-easyprof deb admin extra arch=all apparmor-notify deb admin extra arch=all apparmor-profiles deb admin extra arch=all apparmor-utils deb admin extra arch=any dh-apparmor deb devel extra arch=all libapache2-mod-apparmor deb libs extra arch=any libapparmor-dev deb libdevel extra arch=any libapparmor-perl deb perl extra arch=any libapparmor1 deb libs extra arch=any libpam-apparmor deb libs extra arch=any python-apparmor deb python extra arch=any python-libapparmor deb python extra arch=any python3-apparmor deb python extra arch=any python3-libapparmor deb python extra arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "admin"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Holger Levsen <holger@debian.org>, intrigeri <intrigeri@debian.org>, Kees Cook <kees@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://alioth.debian.org/scm/loggerhead/collab-maint/apparmor-experimental/changes"
-  ],
-  "Vcs-Bzr": [
-    "https://anonscm.debian.org/bzr/collab-maint/apparmor-experimental"
-  ],
-  "Version": [
-    "2.9.0-3"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"apparmor, apparmor-utils, apparmor-profiles, apparmor-docs, libapparmor-dev, libapparmor1, libapparmor-perl, libapache2-mod-apparmor, libpam-apparmor, apparmor-notify, python-libapparmor, python3-libapparmor, python-apparmor, python3-apparmor, dh-apparmor, apparmor-easyprof"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9.20120322~), po-debconf, dpkg-dev (>= 1.16.1~), autotools-dev, libtool, automake, autoconf, chrpath, flex, bison, dejagnu, swig, bzip2, apache2-dev, dh-apache2, libpam-dev, texlive-latex-base, texlive-latex-recommended, python-all-dev, python, python3-all-dev, python3, perl (>= 5.8.0), liblocale-gettext-perl, pkg-config"
+	],
+	"Checksums-Sha1": [
+		"b09c9cecec727e999c869e3f8b20b55025aa272b 3208 apparmor_2.9.0-3.dsc fa262a1c64f069bc551c31e838670f366e74bdac 2354837 apparmor_2.9.0.orig.tar.gz c33f76839e1d4f8e1ed2387c6672e7e66871ffc3 64428 apparmor_2.9.0-3.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"daf2723acb0e1270586e3a44aa656887fe033128838f21a58f9a88d59105e807 3208 apparmor_2.9.0-3.dsc 782df74c8a7a8a5302b4ad0d00184a7e623ef0631c1b8a16a1d92a968e4b4b6b 2354837 apparmor_2.9.0.orig.tar.gz e53b20461058704c1e99e77c720315b437cc4b25ac9dc27166aa3a92ca9db4ac 64428 apparmor_2.9.0-3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/a/apparmor"
+	],
+	"Files": [
+		"2597568df3e295f839f8fabf059a0128 3208 apparmor_2.9.0-3.dsc daaeb859452f793abfdafd33f88d3e90 2354837 apparmor_2.9.0.orig.tar.gz 65d1a27022f1d86ec41e9b71da2fdf3f 64428 apparmor_2.9.0-3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://apparmor.net/"
+	],
+	"Maintainer": [
+		"Debian AppArmor Team <pkg-apparmor-team@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"apparmor"
+	],
+	"Package-List": [
+		"apparmor deb admin extra arch=any apparmor-docs deb doc extra arch=all apparmor-easyprof deb admin extra arch=all apparmor-notify deb admin extra arch=all apparmor-profiles deb admin extra arch=all apparmor-utils deb admin extra arch=any dh-apparmor deb devel extra arch=all libapache2-mod-apparmor deb libs extra arch=any libapparmor-dev deb libdevel extra arch=any libapparmor-perl deb perl extra arch=any libapparmor1 deb libs extra arch=any libpam-apparmor deb libs extra arch=any python-apparmor deb python extra arch=any python-libapparmor deb python extra arch=any python3-apparmor deb python extra arch=any python3-libapparmor deb python extra arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"admin"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Holger Levsen <holger@debian.org>, intrigeri <intrigeri@debian.org>, Kees Cook <kees@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://alioth.debian.org/scm/loggerhead/collab-maint/apparmor-experimental/changes"
+	],
+	"Vcs-Bzr": [
+		"https://anonscm.debian.org/bzr/collab-maint/apparmor-experimental"
+	],
+	"Version": [
+		"2.9.0-3"
+	]
 }

@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "pocl-opencl-icd, libpocl2-common, libpocl2, libpocl-dev, pocl-tests, pocl-doc, pocl-source"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), gcc (>= 4:13), clang-15, libclang-15-dev, libclang-cpp15-dev, llvm-15-dev, cmake, libhwloc-dev, ocl-icd-dev, ocl-icd-opencl-dev, pkg-config, pkg-kde-tools, clinfo <!nocheck>"
-  ],
-  "Build-Depends-Indep": [
-    "dh-sequence-sphinxdoc <!nodoc>, python3-sphinx <!nodoc>"
-  ],
-  "Checksums-Sha256": [
-    "2d8847ee83772f62bf67a5b37561f91631ebaaae33e81c62042cab553ccce3e2 2573 pocl_4.0-2.dsc 7f4e8ab608b3191c2b21e3f13c193f1344b40aba7738f78762f7b88f45e8ce03 2140919 pocl_4.0.orig.tar.gz 5351adb21a26b8de467801baa43823ebc65f1ca4159e4409ed62b91c6a102c2d 26940 pocl_4.0-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/pocl"
-  ],
-  "Files": [
-    "1eb3e51f9503118c1cbd99080b394611 2573 pocl_4.0-2.dsc 56d020a3be37d5d010ecf03684e5c2a3 2140919 pocl_4.0.orig.tar.gz ab612a58b35be828c92a7dedacfc7834 26940 pocl_4.0-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://portablecl.org"
-  ],
-  "Maintainer": [
-    "Debian OpenCL Maintainers <pkg-opencl-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "pocl"
-  ],
-  "Package-List": [
-    "libpocl-dev deb libdevel optional arch=any libpocl2 deb libs optional arch=any libpocl2-common deb utils optional arch=all pocl-doc deb doc optional arch=all profile=!nodoc pocl-opencl-icd deb libs optional arch=any pocl-source deb devel optional arch=all pocl-tests deb devel optional arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "clinfo"
-  ],
-  "Uploaders": [
-    "Vincent Danjean <vdanjean@debian.org>, Andreas Beckmann <anbe@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/opencl-team/pocl"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/opencl-team/pocl.git"
-  ],
-  "Version": [
-    "4.0-2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"pocl-opencl-icd, libpocl2-common, libpocl2, libpocl-dev, pocl-tests, pocl-doc, pocl-source"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), gcc (>= 4:13), clang-15, libclang-15-dev, libclang-cpp15-dev, llvm-15-dev, cmake, libhwloc-dev, ocl-icd-dev, ocl-icd-opencl-dev, pkg-config, pkg-kde-tools, clinfo <!nocheck>"
+	],
+	"Build-Depends-Indep": [
+		"dh-sequence-sphinxdoc <!nodoc>, python3-sphinx <!nodoc>"
+	],
+	"Checksums-Sha256": [
+		"2d8847ee83772f62bf67a5b37561f91631ebaaae33e81c62042cab553ccce3e2 2573 pocl_4.0-2.dsc 7f4e8ab608b3191c2b21e3f13c193f1344b40aba7738f78762f7b88f45e8ce03 2140919 pocl_4.0.orig.tar.gz 5351adb21a26b8de467801baa43823ebc65f1ca4159e4409ed62b91c6a102c2d 26940 pocl_4.0-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/pocl"
+	],
+	"Files": [
+		"1eb3e51f9503118c1cbd99080b394611 2573 pocl_4.0-2.dsc 56d020a3be37d5d010ecf03684e5c2a3 2140919 pocl_4.0.orig.tar.gz ab612a58b35be828c92a7dedacfc7834 26940 pocl_4.0-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://portablecl.org"
+	],
+	"Maintainer": [
+		"Debian OpenCL Maintainers <pkg-opencl-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"pocl"
+	],
+	"Package-List": [
+		"libpocl-dev deb libdevel optional arch=any libpocl2 deb libs optional arch=any libpocl2-common deb utils optional arch=all pocl-doc deb doc optional arch=all profile=!nodoc pocl-opencl-icd deb libs optional arch=any pocl-source deb devel optional arch=all pocl-tests deb devel optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"clinfo"
+	],
+	"Uploaders": [
+		"Vincent Danjean <vdanjean@debian.org>, Andreas Beckmann <anbe@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/opencl-team/pocl"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/opencl-team/pocl.git"
+	],
+	"Version": [
+		"4.0-2"
+	]
 }

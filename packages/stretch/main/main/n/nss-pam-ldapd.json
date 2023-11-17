@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "nslcd, pynslcd, libnss-ldapd, libpam-ldapd, nslcd-utils"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), autotools-dev, libkrb5-dev, libldap2-dev, libsasl2-dev, po-debconf (>= 0.5.0), docbook2x, docbook-xml, libpam0g-dev, python (>= 2.6.6-3~), python-daemon, python-ldap, python-pyasn1, python-pyasn1-modules"
-  ],
-  "Checksums-Sha256": [
-    "c0a66a0c3c30564d16d3b7a73de567eb85db1121fc7ce5926826ebffd46ff4c5 2574 nss-pam-ldapd_0.9.7-2+deb9u1.dsc 0db88d6518bf7ffb01b44f8f8841ece5162906982ce2c9e45e6afff90d3783eb 762743 nss-pam-ldapd_0.9.7.orig.tar.gz c5c076c04a8318735cdd2761964dcb821178b2556c275ab1b8a1d08bc2c3f63f 132372 nss-pam-ldapd_0.9.7-2+deb9u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/n/nss-pam-ldapd"
-  ],
-  "Files": [
-    "5a77a8ecb702a3b9841b79b56f9ec0a0 2574 nss-pam-ldapd_0.9.7-2+deb9u1.dsc 912f2a5ead193d2defc6c525423e84e8 762743 nss-pam-ldapd_0.9.7.orig.tar.gz ffc3f9adbacaf1e50a2431e764e67200 132372 nss-pam-ldapd_0.9.7-2+deb9u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://arthurdejong.org/nss-pam-ldapd/"
-  ],
-  "Maintainer": [
-    "Arthur de Jong <adejong@debian.org>"
-  ],
-  "Package": [
-    "nss-pam-ldapd"
-  ],
-  "Package-List": [
-    "libnss-ldapd deb admin extra arch=any libpam-ldapd deb admin extra arch=any nslcd deb admin extra arch=any nslcd-utils deb admin extra arch=all pynslcd deb admin extra arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "admin"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "expect, ldap-utils, slapd"
-  ],
-  "Vcs-Browser": [
-    "https://arthurdejong.org/viewvc/nss-pam-ldapd/debian/nss-pam-ldapd/trunk/"
-  ],
-  "Vcs-Svn": [
-    "https://arthurdejong.org/svn/nss-pam-ldapd/debian/nss-pam-ldapd/trunk/"
-  ],
-  "Version": [
-    "0.9.7-2+deb9u1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"nslcd, pynslcd, libnss-ldapd, libpam-ldapd, nslcd-utils"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), autotools-dev, libkrb5-dev, libldap2-dev, libsasl2-dev, po-debconf (>= 0.5.0), docbook2x, docbook-xml, libpam0g-dev, python (>= 2.6.6-3~), python-daemon, python-ldap, python-pyasn1, python-pyasn1-modules"
+	],
+	"Checksums-Sha256": [
+		"c0a66a0c3c30564d16d3b7a73de567eb85db1121fc7ce5926826ebffd46ff4c5 2574 nss-pam-ldapd_0.9.7-2+deb9u1.dsc 0db88d6518bf7ffb01b44f8f8841ece5162906982ce2c9e45e6afff90d3783eb 762743 nss-pam-ldapd_0.9.7.orig.tar.gz c5c076c04a8318735cdd2761964dcb821178b2556c275ab1b8a1d08bc2c3f63f 132372 nss-pam-ldapd_0.9.7-2+deb9u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/n/nss-pam-ldapd"
+	],
+	"Files": [
+		"5a77a8ecb702a3b9841b79b56f9ec0a0 2574 nss-pam-ldapd_0.9.7-2+deb9u1.dsc 912f2a5ead193d2defc6c525423e84e8 762743 nss-pam-ldapd_0.9.7.orig.tar.gz ffc3f9adbacaf1e50a2431e764e67200 132372 nss-pam-ldapd_0.9.7-2+deb9u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://arthurdejong.org/nss-pam-ldapd/"
+	],
+	"Maintainer": [
+		"Arthur de Jong <adejong@debian.org>"
+	],
+	"Package": [
+		"nss-pam-ldapd"
+	],
+	"Package-List": [
+		"libnss-ldapd deb admin extra arch=any libpam-ldapd deb admin extra arch=any nslcd deb admin extra arch=any nslcd-utils deb admin extra arch=all pynslcd deb admin extra arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"admin"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"expect, ldap-utils, slapd"
+	],
+	"Vcs-Browser": [
+		"https://arthurdejong.org/viewvc/nss-pam-ldapd/debian/nss-pam-ldapd/trunk/"
+	],
+	"Vcs-Svn": [
+		"https://arthurdejong.org/svn/nss-pam-ldapd/debian/nss-pam-ldapd/trunk/"
+	],
+	"Version": [
+		"0.9.7-2+deb9u1"
+	]
 }

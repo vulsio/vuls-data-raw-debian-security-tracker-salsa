@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-shadow-rs-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-const-format-0.2+default-dev (>= 0.2.22-~~) <!nocheck>, librust-git2-0.16-dev <!nocheck>, librust-is-debug-1+default-dev (>= 1.0.1-~~) <!nocheck>, librust-time-0.3+default-dev (>= 0.3.9-~~) <!nocheck>, librust-time-0.3+formatting-dev (>= 0.3.9-~~) <!nocheck>, librust-time-0.3+local-offset-dev (>= 0.3.9-~~) <!nocheck>, librust-time-0.3+parsing-dev (>= 0.3.9-~~) <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "e5b580dfbbc77fb977f277d6833602c972c50cea2d0e4e420b230870e502375e 2636 rust-shadow-rs_0.24.1-1.dsc f9198caff1c94f1a5df6664bddbc379896b51b98a55b0b3fedcb23078fe00c77 27168 rust-shadow-rs_0.24.1.orig.tar.gz 2dce37d058bb58b3ef4a2d8803b0a25d6d0476a67aa01586581c948a4a024797 4016 rust-shadow-rs_0.24.1-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-shadow-rs"
-  ],
-  "Files": [
-    "1fcda5c600bb7d36b15ddf26ab2a8ab9 2636 rust-shadow-rs_0.24.1-1.dsc d588433b58a5723073ae816c451cea39 27168 rust-shadow-rs_0.24.1.orig.tar.gz c1813a50f6ffadf8d98165da8f00d8c7 4016 rust-shadow-rs_0.24.1-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/baoyachi/shadow-rs"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-shadow-rs"
-  ],
-  "Package-List": [
-    "librust-shadow-rs-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-regex-1+default-dev"
-  ],
-  "Uploaders": [
-    "Matthias Geiger <matthias.geiger1024@tutanota.de>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/shadow-rs"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/shadow-rs]"
-  ],
-  "Version": [
-    "0.24.1-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-shadow-rs-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-const-format-0.2+default-dev (>= 0.2.22-~~) <!nocheck>, librust-git2-0.16-dev <!nocheck>, librust-is-debug-1+default-dev (>= 1.0.1-~~) <!nocheck>, librust-time-0.3+default-dev (>= 0.3.9-~~) <!nocheck>, librust-time-0.3+formatting-dev (>= 0.3.9-~~) <!nocheck>, librust-time-0.3+local-offset-dev (>= 0.3.9-~~) <!nocheck>, librust-time-0.3+parsing-dev (>= 0.3.9-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"e5b580dfbbc77fb977f277d6833602c972c50cea2d0e4e420b230870e502375e 2636 rust-shadow-rs_0.24.1-1.dsc f9198caff1c94f1a5df6664bddbc379896b51b98a55b0b3fedcb23078fe00c77 27168 rust-shadow-rs_0.24.1.orig.tar.gz 2dce37d058bb58b3ef4a2d8803b0a25d6d0476a67aa01586581c948a4a024797 4016 rust-shadow-rs_0.24.1-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-shadow-rs"
+	],
+	"Files": [
+		"1fcda5c600bb7d36b15ddf26ab2a8ab9 2636 rust-shadow-rs_0.24.1-1.dsc d588433b58a5723073ae816c451cea39 27168 rust-shadow-rs_0.24.1.orig.tar.gz c1813a50f6ffadf8d98165da8f00d8c7 4016 rust-shadow-rs_0.24.1-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/baoyachi/shadow-rs"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-shadow-rs"
+	],
+	"Package-List": [
+		"librust-shadow-rs-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-regex-1+default-dev"
+	],
+	"Uploaders": [
+		"Matthias Geiger <matthias.geiger1024@tutanota.de>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/shadow-rs"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/shadow-rs]"
+	],
+	"Version": [
+		"0.24.1-1"
+	]
 }

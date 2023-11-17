@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "marble, marble-maps, marble-qt, marble-data, marble-plugins, libmarblewidget-qt5-25, libastro1, libmarble-dev, libastro-dev"
-  ],
-  "Build-Depends": [
-    "cmake (>= 2.8.12~), debhelper (>= 9), extra-cmake-modules (>= 1.7.0~), kdoctools-dev, kio-dev (>= 5.7.0~), libgps-dev (>= 2.90), libkf5config-dev, libkf5coreaddons-dev (>= 5.7.0~), libkf5crash-dev (>= 5.7.0~), libkf5i18n-dev (>= 5.7.0~), libkf5newstuff-dev (>= 5.7.0~), libkf5parts-dev (>= 5.7.0~), libkf5runner-dev (>= 5.7.0~), libkf5service-dev, libkf5wallet-dev (>= 5.7.0~), libopencv-core-dev, libopencv-highgui-dev, libopencv-imgproc-dev, libphonon4qt5-dev, libprotobuf-dev, libqt5opengl5-dev, libqt5serialport5-dev, libqt5svg5-dev (>= 5.4), libqt5webkit5-dev (>= 5.4), libquazip5-dev, libshp-dev, pkg-config, pkg-kde-tools (>= 0.12), python-dev, qtbase5-dev (>= 5.4), qtdeclarative5-dev (>= 5.4), qtlocation5-dev (>= 5.3.0~), qtmultimedia5-dev (>= 5.3.0~), qtpositioning5-dev (>= 5.3.0~), qtscript5-dev (>= 5.4), qttools5-dev (>= 5.4), shared-mime-info, sip-dev, zlib1g-dev"
-  ],
-  "Checksums-Sha256": [
-    "671f7dfce14f0705682ecb7ce37a08119262a8fcd3a5c053f7b86f00f502ead7 3374 marble_16.08.3-1.dsc 1c2d3263a55cde6511b703548399f48a1d9d0c33cb57283cc304d07189e8aa53 23144576 marble_16.08.3.orig.tar.xz a4f19decc82918f4a0266882ae2b8c891e4beb98d3c5acfd4a7863d543d20f07 65396 marble_16.08.3-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/m/marble"
-  ],
-  "Files": [
-    "8a552be38983fe1db756d8941cc5305f 3374 marble_16.08.3-1.dsc 23cb0d66bde02cd6c1f99f2de77a21ae 23144576 marble_16.08.3.orig.tar.xz 1bc5c0d9437e03f3f49b985b19930409 65396 marble_16.08.3-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://edu.kde.org/"
-  ],
-  "Maintainer": [
-    "Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>"
-  ],
-  "Package": [
-    "marble"
-  ],
-  "Package-List": [
-    "libastro-dev deb libdevel optional arch=any libastro1 deb libs optional arch=any libmarble-dev deb libdevel optional arch=any libmarblewidget-qt5-25 deb libs optional arch=any marble deb misc optional arch=any marble-data deb misc optional arch=all marble-maps deb misc optional arch=any marble-plugins deb misc optional arch=any marble-qt deb misc optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential, dbus-x11, dh-acc, exuberant-ctags, xauth, xserver-xephyr, xvfb"
-  ],
-  "Uploaders": [
-    "Sune Vuorela <sune@debian.org>, Maximiliano Curia <maxy@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/git/pkg-kde/applications/marble.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-kde/applications/marble.git"
-  ],
-  "Version": [
-    "4:16.08.3-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"marble, marble-maps, marble-qt, marble-data, marble-plugins, libmarblewidget-qt5-25, libastro1, libmarble-dev, libastro-dev"
+	],
+	"Build-Depends": [
+		"cmake (>= 2.8.12~), debhelper (>= 9), extra-cmake-modules (>= 1.7.0~), kdoctools-dev, kio-dev (>= 5.7.0~), libgps-dev (>= 2.90), libkf5config-dev, libkf5coreaddons-dev (>= 5.7.0~), libkf5crash-dev (>= 5.7.0~), libkf5i18n-dev (>= 5.7.0~), libkf5newstuff-dev (>= 5.7.0~), libkf5parts-dev (>= 5.7.0~), libkf5runner-dev (>= 5.7.0~), libkf5service-dev, libkf5wallet-dev (>= 5.7.0~), libopencv-core-dev, libopencv-highgui-dev, libopencv-imgproc-dev, libphonon4qt5-dev, libprotobuf-dev, libqt5opengl5-dev, libqt5serialport5-dev, libqt5svg5-dev (>= 5.4), libqt5webkit5-dev (>= 5.4), libquazip5-dev, libshp-dev, pkg-config, pkg-kde-tools (>= 0.12), python-dev, qtbase5-dev (>= 5.4), qtdeclarative5-dev (>= 5.4), qtlocation5-dev (>= 5.3.0~), qtmultimedia5-dev (>= 5.3.0~), qtpositioning5-dev (>= 5.3.0~), qtscript5-dev (>= 5.4), qttools5-dev (>= 5.4), shared-mime-info, sip-dev, zlib1g-dev"
+	],
+	"Checksums-Sha256": [
+		"671f7dfce14f0705682ecb7ce37a08119262a8fcd3a5c053f7b86f00f502ead7 3374 marble_16.08.3-1.dsc 1c2d3263a55cde6511b703548399f48a1d9d0c33cb57283cc304d07189e8aa53 23144576 marble_16.08.3.orig.tar.xz a4f19decc82918f4a0266882ae2b8c891e4beb98d3c5acfd4a7863d543d20f07 65396 marble_16.08.3-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/m/marble"
+	],
+	"Files": [
+		"8a552be38983fe1db756d8941cc5305f 3374 marble_16.08.3-1.dsc 23cb0d66bde02cd6c1f99f2de77a21ae 23144576 marble_16.08.3.orig.tar.xz 1bc5c0d9437e03f3f49b985b19930409 65396 marble_16.08.3-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://edu.kde.org/"
+	],
+	"Maintainer": [
+		"Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>"
+	],
+	"Package": [
+		"marble"
+	],
+	"Package-List": [
+		"libastro-dev deb libdevel optional arch=any libastro1 deb libs optional arch=any libmarble-dev deb libdevel optional arch=any libmarblewidget-qt5-25 deb libs optional arch=any marble deb misc optional arch=any marble-data deb misc optional arch=all marble-maps deb misc optional arch=any marble-plugins deb misc optional arch=any marble-qt deb misc optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, dbus-x11, dh-acc, exuberant-ctags, xauth, xserver-xephyr, xvfb"
+	],
+	"Uploaders": [
+		"Sune Vuorela <sune@debian.org>, Maximiliano Curia <maxy@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/git/pkg-kde/applications/marble.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-kde/applications/marble.git"
+	],
+	"Version": [
+		"4:16.08.3-1"
+	]
 }

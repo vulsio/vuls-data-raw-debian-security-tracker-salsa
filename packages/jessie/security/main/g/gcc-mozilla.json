@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "gcc-mozilla"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9.20141010), dpkg-dev (>= 1.17.14), g++-multilib [amd64 i386 kfreebsd-amd64 mips mips64 mips64el mipsel mipsn32 mipsn32el powerpc ppc64 s390 s390x sparc sparc64 x32] <!cross>, g++ [arm64] <!cross>, libc6.1-dev (>= 2.13-5) [alpha ia64] | libc0.3-dev (>= 2.13-5) [hurd-i386] | libc0.1-dev (>= 2.13-5) [kfreebsd-i386 kfreebsd-amd64] | libc6-dev (>= 2.13-5), libc6-dev (>= 2.13-31) [armel armhf], libc6-dev-amd64 [i386 x32], libc6-dev-sparc64 [sparc], libc6-dev-sparc [sparc64], libc6-dev-s390 [s390x], libc6-dev-s390x [s390], libc6-dev-i386 [amd64 x32], libc6-dev-powerpc [ppc64], libc6-dev-ppc64 [powerpc], libc0.1-dev-i386 [kfreebsd-amd64], lib32gcc1 [amd64 ppc64 kfreebsd-amd64 mipsn32 mipsn32el mips64 mips64el s390x sparc64 x32], libn32gcc1 [mips mipsel mips64 mips64el], lib64gcc1 [i386 mips mipsel mipsn32 mipsn32el powerpc sparc s390 x32], libc6-dev-mips64 [mips mipsel mipsn32 mipsn32el], libc6-dev-mipsn32 [mips mipsel mips64 mips64el], libc6-dev-mips32 [mipsn32 mipsn32el mips64 mips64el], libc6-dev-x32 [amd64 i386], libx32gcc1 [amd64 i386], libc6.1-dbg [alpha ia64] | libc0.3-dbg [hurd-i386] | libc0.1-dbg [kfreebsd-i386 kfreebsd-amd64] | libc6-dbg, kfreebsd-kernel-headers (>= 0.84) [kfreebsd-any], linux-libc-dev [m68k], m4, libtool, autoconf2.64, libunwind7-dev (>= 0.98.5-6) [ia64], libatomic-ops-dev [ia64], autogen, gawk, lzma, xz-utils, patchutils, zlib1g-dev, systemtap-sdt-dev [linux-any kfreebsd-any hurd-any], binutils:native (>= 2.25-5~) | binutils-multiarch:native (>= 2.25-5~), binutils-hppa64:native (>= 2.25-5~) [hppa], gperf (>= 3.0.1), bison (>= 1:2.3), flex, gettext, gdb:native, texinfo (>= 4.3), locales, sharutils, procps, libantlr-java, python:native, libffi-dev, netbase, libisl-dev (>= 0.12), libmpc-dev (>= 1.0), libmpfr-dev (>= 3.0.0-9~), libgmp-dev (>= 2:5.0.1~), lib32z1-dev [amd64 kfreebsd-amd64], lib64z1-dev [i386], dejagnu [!m68k !hurd-amd64 !hurd-i386 !hurd-alpha !kfreebsd-amd64 !kfreebsd-i386 !kfreebsd-alpha], coreutils (>= 2.26) | realpath (>= 1.9.12), chrpath, lsb-release, quilt, pkg-config, libgc-dev, g++-6-alpha-linux-gnu [alpha] <cross>, gobjc-6-alpha-linux-gnu [alpha] <cross>, gfortran-6-alpha-linux-gnu [alpha] <cross>, gcj-6-alpha-linux-gnu [alpha] <cross>, gdc-6-alpha-linux-gnu [alpha] <cross>, gccgo-6-alpha-linux-gnu [alpha] <cross>, gnat-6-alpha-linux-gnu [alpha] <cross>, g++-6-x86-64-linux-gnu [amd64] <cross>, gobjc-6-x86-64-linux-gnu [amd64] <cross>, gfortran-6-x86-64-linux-gnu [amd64] <cross>, gcj-6-x86-64-linux-gnu [amd64] <cross>, gdc-6-x86-64-linux-gnu [amd64] <cross>, gccgo-6-x86-64-linux-gnu [amd64] <cross>, gnat-6-x86-64-linux-gnu [amd64] <cross>, g++-6-arm-linux-gnueabi [armel] <cross>, gobjc-6-arm-linux-gnueabi [armel] <cross>, gfortran-6-arm-linux-gnueabi [armel] <cross>, gcj-6-arm-linux-gnueabi [armel] <cross>, gdc-6-arm-linux-gnueabi [armel] <cross>, gccgo-6-arm-linux-gnueabi [armel] <cross>, gnat-6-arm-linux-gnueabi [armel] <cross>, g++-6-arm-linux-gnueabihf [armhf] <cross>, gobjc-6-arm-linux-gnueabihf [armhf] <cross>, gfortran-6-arm-linux-gnueabihf [armhf] <cross>, gcj-6-arm-linux-gnueabihf [armhf] <cross>, gdc-6-arm-linux-gnueabihf [armhf] <cross>, gccgo-6-arm-linux-gnueabihf [armhf] <cross>, gnat-6-arm-linux-gnueabihf [armhf] <cross>, g++-6-aarch64-linux-gnu [arm64] <cross>, gobjc-6-aarch64-linux-gnu [arm64] <cross>, gfortran-6-aarch64-linux-gnu [arm64] <cross>, gcj-6-aarch64-linux-gnu [arm64] <cross>, gdc-6-aarch64-linux-gnu [arm64] <cross>, gccgo-6-aarch64-linux-gnu [arm64] <cross>, gnat-6-aarch64-linux-gnu [arm64] <cross>, g++-6-i686-linux-gnu [i386] <cross>, gobjc-6-i686-linux-gnu [i386] <cross>, gfortran-6-i686-linux-gnu [i386] <cross>, gcj-6-i686-linux-gnu [i386] <cross>, gdc-6-i686-linux-gnu [i386] <cross>, gccgo-6-i686-linux-gnu [i386] <cross>, gnat-6-i686-linux-gnu [i386] <cross>, g++-6-mips-linux-gnu [mips] <cross>, gobjc-6-mips-linux-gnu [mips] <cross>, gfortran-6-mips-linux-gnu [mips] <cross>, gcj-6-mips-linux-gnu [mips] <cross>, gdc-6-mips-linux-gnu [mips] <cross>, gccgo-6-mips-linux-gnu [mips] <cross>, gnat-6-mips-linux-gnu [mips] <cross>, g++-6-mipsel-linux-gnu [mipsel] <cross>, gobjc-6-mipsel-linux-gnu [mipsel] <cross>, gfortran-6-mipsel-linux-gnu [mipsel] <cross>, gcj-6-mipsel-linux-gnu [mipsel] <cross>, gdc-6-mipsel-linux-gnu [mipsel] <cross>, gccgo-6-mipsel-linux-gnu [mipsel] <cross>, gnat-6-mipsel-linux-gnu [mipsel] <cross>, g++-6-mips64-linux-gnuabi64 [mips64] <cross>, gobjc-6-mips64-linux-gnuabi64 [mips64] <cross>, gfortran-6-mips64-linux-gnuabi64 [mips64] <cross>, gcj-6-mips64-linux-gnuabi64 [mips64] <cross>, gdc-6-mips64-linux-gnuabi64 [mips64] <cross>, gccgo-6-mips64-linux-gnuabi64 [mips64] <cross>, g++-6-mips64el-linux-gnuabi64 [mips64el] <cross>, gobjc-6-mips64el-linux-gnuabi64 [mips64el] <cross>, gfortran-6-mips64el-linux-gnuabi64 [mips64el] <cross>, gcj-6-mips64el-linux-gnuabi64 [mips64el] <cross>, gdc-6-mips64el-linux-gnuabi64 [mips64el] <cross>, gccgo-6-mips64el-linux-gnuabi64 [mips64el] <cross>, gnat-6-mips64el-linux-gnuabi64 [mips64el] <cross>, g++-6-powerpc-linux-gnu [powerpc] <cross>, gobjc-6-powerpc-linux-gnu [powerpc] <cross>, gfortran-6-powerpc-linux-gnu [powerpc] <cross>, gcj-6-powerpc-linux-gnu [powerpc] <cross>, gdc-6-powerpc-linux-gnu [powerpc] <cross>, gccgo-6-powerpc-linux-gnu [powerpc] <cross>, gnat-6-powerpc-linux-gnu [powerpc] <cross>, g++-6-powerpc64-linux-gnu [ppc64] <cross>, gobjc-6-powerpc64-linux-gnu [ppc64] <cross>, gfortran-6-powerpc64-linux-gnu [ppc64] <cross>, gcj-6-powerpc64-linux-gnu [ppc64] <cross>, gdc-6-powerpc64-linux-gnu [ppc64] <cross>, gccgo-6-powerpc64-linux-gnu [ppc64] <cross>, gnat-6-powerpc64-linux-gnu [ppc64] <cross>, g++-6-powerpc64le-linux-gnu [ppc64el] <cross>, gobjc-6-powerpc64le-linux-gnu [ppc64el] <cross>, gfortran-6-powerpc64le-linux-gnu [ppc64el] <cross>, gcj-6-powerpc64le-linux-gnu [ppc64el] <cross>, gdc-6-powerpc64le-linux-gnu [ppc64el] <cross>, gccgo-6-powerpc64le-linux-gnu [ppc64el] <cross>, gnat-6-powerpc64le-linux-gnu [ppc64el] <cross>, g++-6-m68k-linux-gnu [m68k] <cross>, gobjc-6-m68k-linux-gnu [m68k] <cross>, gfortran-6-m68k-linux-gnu [m68k] <cross>, gcj-6-m68k-linux-gnu [m68k] <cross>, gdc-6-m68k-linux-gnu [m68k] <cross>, g++-6-sh4-linux-gnu [sh4] <cross>, gobjc-6-sh4-linux-gnu [sh4] <cross>, gfortran-6-sh4-linux-gnu [sh4] <cross>, gcj-6-sh4-linux-gnu [sh4] <cross>, g++-6-sparc64-linux-gnu [sparc64] <cross>, gobjc-6-sparc64-linux-gnu [sparc64] <cross>, gfortran-6-sparc64-linux-gnu [sparc64] <cross>, gcj-6-sparc64-linux-gnu [sparc64] <cross>, gdc-6-sparc64-linux-gnu [sparc64] <cross>, gccgo-6-sparc64-linux-gnu [sparc64] <cross>, g++-6-s390x-linux-gnu [s390x] <cross>, gobjc-6-s390x-linux-gnu [s390x] <cross>, gfortran-6-s390x-linux-gnu [s390x] <cross>, gcj-6-s390x-linux-gnu [s390x] <cross>, gdc-6-s390x-linux-gnu [s390x] <cross>, gccgo-6-s390x-linux-gnu [s390x] <cross>, gnat-6-s390x-linux-gnu [s390x] <cross>, g++-6-x86-64-linux-gnux32 [x32] <cross>, gobjc-6-x86-64-linux-gnux32 [x32] <cross>, gfortran-6-x86-64-linux-gnux32 [x32] <cross>, gcj-6-x86-64-linux-gnux32 [x32] <cross>, gdc-6-x86-64-linux-gnux32 [x32] <cross>, gccgo-6-x86-64-linux-gnux32 [x32] <cross>"
-  ],
-  "Build-Depends-Indep": [
-    "doxygen (>= 1.7.2), graphviz (>= 2.2), ghostscript, texlive-latex-base, xsltproc, libxml2-utils, docbook-xsl-ns"
-  ],
-  "Checksums-Sha1": [
-    "d8d1f5ac53b9c9acc52cd1133659014a881b8979 9171 gcc-mozilla_6.4.0-0+deb8u1.dsc 1fef700e2236de3c21627c294b3c4b88ff9405ec 81632257 gcc-mozilla_6.4.0.orig.tar.gz 631db6c589f63a253681f071918d315a44655817 1559321 gcc-mozilla_6.4.0-0+deb8u1.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "67c64c6a35a2348e0a213c3680cd15b885571387f24738eb6b03e00e8a44fdcd 9171 gcc-mozilla_6.4.0-0+deb8u1.dsc 13220c723ddb7a69ff5690070b245886ac99afe5a31ee106ac36d6f013234a67 81632257 gcc-mozilla_6.4.0.orig.tar.gz e21be4b2672aaf3f01e396ea3840ff32600f9e20571a2675b867e44b0ce0757d 1559321 gcc-mozilla_6.4.0-0+deb8u1.diff.gz"
-  ],
-  "Directory": [
-    "pool/updates/main/g/gcc-mozilla"
-  ],
-  "Files": [
-    "e40f0ec8c91d2db6a4cd79dc1139eafe 9171 gcc-mozilla_6.4.0-0+deb8u1.dsc 285a537b3199e1f89ad2a63badea29ae 81632257 gcc-mozilla_6.4.0.orig.tar.gz 8de5118495a6845d30e52ab2fa918c35 1559321 gcc-mozilla_6.4.0-0+deb8u1.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Homepage": [
-    "http://gcc.gnu.org/"
-  ],
-  "Maintainer": [
-    "Debian GCC Maintainers <debian-gcc@lists.debian.org>"
-  ],
-  "Package": [
-    "gcc-mozilla"
-  ],
-  "Package-List": [
-    "gcc-mozilla deb devel extra arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.1.1"
-  ],
-  "Uploaders": [
-    "Matthias Klose <doko@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://svn.debian.org/viewsvn/gcccvs/branches/sid/gcc-6/"
-  ],
-  "Vcs-Svn": [
-    "svn://anonscm.debian.org/gcccvs/branches/sid/gcc-6"
-  ],
-  "Version": [
-    "6.4.0-0+deb8u1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"gcc-mozilla"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9.20141010), dpkg-dev (>= 1.17.14), g++-multilib [amd64 i386 kfreebsd-amd64 mips mips64 mips64el mipsel mipsn32 mipsn32el powerpc ppc64 s390 s390x sparc sparc64 x32] <!cross>, g++ [arm64] <!cross>, libc6.1-dev (>= 2.13-5) [alpha ia64] | libc0.3-dev (>= 2.13-5) [hurd-i386] | libc0.1-dev (>= 2.13-5) [kfreebsd-i386 kfreebsd-amd64] | libc6-dev (>= 2.13-5), libc6-dev (>= 2.13-31) [armel armhf], libc6-dev-amd64 [i386 x32], libc6-dev-sparc64 [sparc], libc6-dev-sparc [sparc64], libc6-dev-s390 [s390x], libc6-dev-s390x [s390], libc6-dev-i386 [amd64 x32], libc6-dev-powerpc [ppc64], libc6-dev-ppc64 [powerpc], libc0.1-dev-i386 [kfreebsd-amd64], lib32gcc1 [amd64 ppc64 kfreebsd-amd64 mipsn32 mipsn32el mips64 mips64el s390x sparc64 x32], libn32gcc1 [mips mipsel mips64 mips64el], lib64gcc1 [i386 mips mipsel mipsn32 mipsn32el powerpc sparc s390 x32], libc6-dev-mips64 [mips mipsel mipsn32 mipsn32el], libc6-dev-mipsn32 [mips mipsel mips64 mips64el], libc6-dev-mips32 [mipsn32 mipsn32el mips64 mips64el], libc6-dev-x32 [amd64 i386], libx32gcc1 [amd64 i386], libc6.1-dbg [alpha ia64] | libc0.3-dbg [hurd-i386] | libc0.1-dbg [kfreebsd-i386 kfreebsd-amd64] | libc6-dbg, kfreebsd-kernel-headers (>= 0.84) [kfreebsd-any], linux-libc-dev [m68k], m4, libtool, autoconf2.64, libunwind7-dev (>= 0.98.5-6) [ia64], libatomic-ops-dev [ia64], autogen, gawk, lzma, xz-utils, patchutils, zlib1g-dev, systemtap-sdt-dev [linux-any kfreebsd-any hurd-any], binutils:native (>= 2.25-5~) | binutils-multiarch:native (>= 2.25-5~), binutils-hppa64:native (>= 2.25-5~) [hppa], gperf (>= 3.0.1), bison (>= 1:2.3), flex, gettext, gdb:native, texinfo (>= 4.3), locales, sharutils, procps, libantlr-java, python:native, libffi-dev, netbase, libisl-dev (>= 0.12), libmpc-dev (>= 1.0), libmpfr-dev (>= 3.0.0-9~), libgmp-dev (>= 2:5.0.1~), lib32z1-dev [amd64 kfreebsd-amd64], lib64z1-dev [i386], dejagnu [!m68k !hurd-amd64 !hurd-i386 !hurd-alpha !kfreebsd-amd64 !kfreebsd-i386 !kfreebsd-alpha], coreutils (>= 2.26) | realpath (>= 1.9.12), chrpath, lsb-release, quilt, pkg-config, libgc-dev, g++-6-alpha-linux-gnu [alpha] <cross>, gobjc-6-alpha-linux-gnu [alpha] <cross>, gfortran-6-alpha-linux-gnu [alpha] <cross>, gcj-6-alpha-linux-gnu [alpha] <cross>, gdc-6-alpha-linux-gnu [alpha] <cross>, gccgo-6-alpha-linux-gnu [alpha] <cross>, gnat-6-alpha-linux-gnu [alpha] <cross>, g++-6-x86-64-linux-gnu [amd64] <cross>, gobjc-6-x86-64-linux-gnu [amd64] <cross>, gfortran-6-x86-64-linux-gnu [amd64] <cross>, gcj-6-x86-64-linux-gnu [amd64] <cross>, gdc-6-x86-64-linux-gnu [amd64] <cross>, gccgo-6-x86-64-linux-gnu [amd64] <cross>, gnat-6-x86-64-linux-gnu [amd64] <cross>, g++-6-arm-linux-gnueabi [armel] <cross>, gobjc-6-arm-linux-gnueabi [armel] <cross>, gfortran-6-arm-linux-gnueabi [armel] <cross>, gcj-6-arm-linux-gnueabi [armel] <cross>, gdc-6-arm-linux-gnueabi [armel] <cross>, gccgo-6-arm-linux-gnueabi [armel] <cross>, gnat-6-arm-linux-gnueabi [armel] <cross>, g++-6-arm-linux-gnueabihf [armhf] <cross>, gobjc-6-arm-linux-gnueabihf [armhf] <cross>, gfortran-6-arm-linux-gnueabihf [armhf] <cross>, gcj-6-arm-linux-gnueabihf [armhf] <cross>, gdc-6-arm-linux-gnueabihf [armhf] <cross>, gccgo-6-arm-linux-gnueabihf [armhf] <cross>, gnat-6-arm-linux-gnueabihf [armhf] <cross>, g++-6-aarch64-linux-gnu [arm64] <cross>, gobjc-6-aarch64-linux-gnu [arm64] <cross>, gfortran-6-aarch64-linux-gnu [arm64] <cross>, gcj-6-aarch64-linux-gnu [arm64] <cross>, gdc-6-aarch64-linux-gnu [arm64] <cross>, gccgo-6-aarch64-linux-gnu [arm64] <cross>, gnat-6-aarch64-linux-gnu [arm64] <cross>, g++-6-i686-linux-gnu [i386] <cross>, gobjc-6-i686-linux-gnu [i386] <cross>, gfortran-6-i686-linux-gnu [i386] <cross>, gcj-6-i686-linux-gnu [i386] <cross>, gdc-6-i686-linux-gnu [i386] <cross>, gccgo-6-i686-linux-gnu [i386] <cross>, gnat-6-i686-linux-gnu [i386] <cross>, g++-6-mips-linux-gnu [mips] <cross>, gobjc-6-mips-linux-gnu [mips] <cross>, gfortran-6-mips-linux-gnu [mips] <cross>, gcj-6-mips-linux-gnu [mips] <cross>, gdc-6-mips-linux-gnu [mips] <cross>, gccgo-6-mips-linux-gnu [mips] <cross>, gnat-6-mips-linux-gnu [mips] <cross>, g++-6-mipsel-linux-gnu [mipsel] <cross>, gobjc-6-mipsel-linux-gnu [mipsel] <cross>, gfortran-6-mipsel-linux-gnu [mipsel] <cross>, gcj-6-mipsel-linux-gnu [mipsel] <cross>, gdc-6-mipsel-linux-gnu [mipsel] <cross>, gccgo-6-mipsel-linux-gnu [mipsel] <cross>, gnat-6-mipsel-linux-gnu [mipsel] <cross>, g++-6-mips64-linux-gnuabi64 [mips64] <cross>, gobjc-6-mips64-linux-gnuabi64 [mips64] <cross>, gfortran-6-mips64-linux-gnuabi64 [mips64] <cross>, gcj-6-mips64-linux-gnuabi64 [mips64] <cross>, gdc-6-mips64-linux-gnuabi64 [mips64] <cross>, gccgo-6-mips64-linux-gnuabi64 [mips64] <cross>, g++-6-mips64el-linux-gnuabi64 [mips64el] <cross>, gobjc-6-mips64el-linux-gnuabi64 [mips64el] <cross>, gfortran-6-mips64el-linux-gnuabi64 [mips64el] <cross>, gcj-6-mips64el-linux-gnuabi64 [mips64el] <cross>, gdc-6-mips64el-linux-gnuabi64 [mips64el] <cross>, gccgo-6-mips64el-linux-gnuabi64 [mips64el] <cross>, gnat-6-mips64el-linux-gnuabi64 [mips64el] <cross>, g++-6-powerpc-linux-gnu [powerpc] <cross>, gobjc-6-powerpc-linux-gnu [powerpc] <cross>, gfortran-6-powerpc-linux-gnu [powerpc] <cross>, gcj-6-powerpc-linux-gnu [powerpc] <cross>, gdc-6-powerpc-linux-gnu [powerpc] <cross>, gccgo-6-powerpc-linux-gnu [powerpc] <cross>, gnat-6-powerpc-linux-gnu [powerpc] <cross>, g++-6-powerpc64-linux-gnu [ppc64] <cross>, gobjc-6-powerpc64-linux-gnu [ppc64] <cross>, gfortran-6-powerpc64-linux-gnu [ppc64] <cross>, gcj-6-powerpc64-linux-gnu [ppc64] <cross>, gdc-6-powerpc64-linux-gnu [ppc64] <cross>, gccgo-6-powerpc64-linux-gnu [ppc64] <cross>, gnat-6-powerpc64-linux-gnu [ppc64] <cross>, g++-6-powerpc64le-linux-gnu [ppc64el] <cross>, gobjc-6-powerpc64le-linux-gnu [ppc64el] <cross>, gfortran-6-powerpc64le-linux-gnu [ppc64el] <cross>, gcj-6-powerpc64le-linux-gnu [ppc64el] <cross>, gdc-6-powerpc64le-linux-gnu [ppc64el] <cross>, gccgo-6-powerpc64le-linux-gnu [ppc64el] <cross>, gnat-6-powerpc64le-linux-gnu [ppc64el] <cross>, g++-6-m68k-linux-gnu [m68k] <cross>, gobjc-6-m68k-linux-gnu [m68k] <cross>, gfortran-6-m68k-linux-gnu [m68k] <cross>, gcj-6-m68k-linux-gnu [m68k] <cross>, gdc-6-m68k-linux-gnu [m68k] <cross>, g++-6-sh4-linux-gnu [sh4] <cross>, gobjc-6-sh4-linux-gnu [sh4] <cross>, gfortran-6-sh4-linux-gnu [sh4] <cross>, gcj-6-sh4-linux-gnu [sh4] <cross>, g++-6-sparc64-linux-gnu [sparc64] <cross>, gobjc-6-sparc64-linux-gnu [sparc64] <cross>, gfortran-6-sparc64-linux-gnu [sparc64] <cross>, gcj-6-sparc64-linux-gnu [sparc64] <cross>, gdc-6-sparc64-linux-gnu [sparc64] <cross>, gccgo-6-sparc64-linux-gnu [sparc64] <cross>, g++-6-s390x-linux-gnu [s390x] <cross>, gobjc-6-s390x-linux-gnu [s390x] <cross>, gfortran-6-s390x-linux-gnu [s390x] <cross>, gcj-6-s390x-linux-gnu [s390x] <cross>, gdc-6-s390x-linux-gnu [s390x] <cross>, gccgo-6-s390x-linux-gnu [s390x] <cross>, gnat-6-s390x-linux-gnu [s390x] <cross>, g++-6-x86-64-linux-gnux32 [x32] <cross>, gobjc-6-x86-64-linux-gnux32 [x32] <cross>, gfortran-6-x86-64-linux-gnux32 [x32] <cross>, gcj-6-x86-64-linux-gnux32 [x32] <cross>, gdc-6-x86-64-linux-gnux32 [x32] <cross>, gccgo-6-x86-64-linux-gnux32 [x32] <cross>"
+	],
+	"Build-Depends-Indep": [
+		"doxygen (>= 1.7.2), graphviz (>= 2.2), ghostscript, texlive-latex-base, xsltproc, libxml2-utils, docbook-xsl-ns"
+	],
+	"Checksums-Sha1": [
+		"d8d1f5ac53b9c9acc52cd1133659014a881b8979 9171 gcc-mozilla_6.4.0-0+deb8u1.dsc 1fef700e2236de3c21627c294b3c4b88ff9405ec 81632257 gcc-mozilla_6.4.0.orig.tar.gz 631db6c589f63a253681f071918d315a44655817 1559321 gcc-mozilla_6.4.0-0+deb8u1.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"67c64c6a35a2348e0a213c3680cd15b885571387f24738eb6b03e00e8a44fdcd 9171 gcc-mozilla_6.4.0-0+deb8u1.dsc 13220c723ddb7a69ff5690070b245886ac99afe5a31ee106ac36d6f013234a67 81632257 gcc-mozilla_6.4.0.orig.tar.gz e21be4b2672aaf3f01e396ea3840ff32600f9e20571a2675b867e44b0ce0757d 1559321 gcc-mozilla_6.4.0-0+deb8u1.diff.gz"
+	],
+	"Directory": [
+		"pool/updates/main/g/gcc-mozilla"
+	],
+	"Files": [
+		"e40f0ec8c91d2db6a4cd79dc1139eafe 9171 gcc-mozilla_6.4.0-0+deb8u1.dsc 285a537b3199e1f89ad2a63badea29ae 81632257 gcc-mozilla_6.4.0.orig.tar.gz 8de5118495a6845d30e52ab2fa918c35 1559321 gcc-mozilla_6.4.0-0+deb8u1.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Homepage": [
+		"http://gcc.gnu.org/"
+	],
+	"Maintainer": [
+		"Debian GCC Maintainers <debian-gcc@lists.debian.org>"
+	],
+	"Package": [
+		"gcc-mozilla"
+	],
+	"Package-List": [
+		"gcc-mozilla deb devel extra arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.1.1"
+	],
+	"Uploaders": [
+		"Matthias Klose <doko@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://svn.debian.org/viewsvn/gcccvs/branches/sid/gcc-6/"
+	],
+	"Vcs-Svn": [
+		"svn://anonscm.debian.org/gcccvs/branches/sid/gcc-6"
+	],
+	"Version": [
+		"6.4.0-0+deb8u1"
+	]
 }

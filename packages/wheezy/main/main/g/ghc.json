@@ -1,68 +1,68 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "ghc, ghc-prof, ghc-doc, ghc-dynamic, ghc-haddock, ghc6, ghc6-doc, ghc6-prof"
-  ],
-  "Build-Conflicts": [
-    "ccache"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 7), libgmp-dev, devscripts, ghc, grep-dctrl, dh-autoreconf, gcc (>= 4:4.2), llvm-3.0 [armel armhf], libffi-dev, pkg-config, xsltproc, docbook-xsl, docbook-xml, binutils (>= 2.19.51.20090508) [arm armel], libncurses5-dev"
-  ],
-  "Build-Depends-Indep": [
-    "hscolour, fop"
-  ],
-  "Checksums-Sha1": [
-    "44cfcf75d82d8e797445d1f1f7d56e8387fc569d 1841 ghc_7.4.1-4.dsc 66c5a027fef1ed01c35c3493e964fb3657efc936 25272609 ghc_7.4.1.orig.tar.bz2 02701e3cd751e1701d6d23e9a58321e083e16ee7 51830 ghc_7.4.1-4.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "6d7baf53e626994388118d06d9f4930f1994ab56ddcec355cecc1e393fdf942b 1841 ghc_7.4.1-4.dsc 721c09a49e519b7459b67b451b5103252ba3833906a7a24c3a3679ff94669a79 25272609 ghc_7.4.1.orig.tar.bz2 90915cfb61cbbccb551053c6e416ca6a00b5f6e8a32d30e0033a673c0b74a392 51830 ghc_7.4.1-4.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/g/ghc"
-  ],
-  "Dm-Upload-Allowed": [
-    "yes"
-  ],
-  "Files": [
-    "809a0e53c3aa4bc4331c92a8533532c2 1841 ghc_7.4.1-4.dsc 5d86c420978b49cc60edea9bd4c36703 25272609 ghc_7.4.1.orig.tar.bz2 b49af91e6d3a9bb347fe8c19b40ab3e2 51830 ghc_7.4.1-4.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://haskell.org/ghc/"
-  ],
-  "Maintainer": [
-    "Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "ghc"
-  ],
-  "Package-List": [
-    "ghc deb haskell extra ghc-doc deb doc extra ghc-dynamic deb haskell extra ghc-haddock deb haskell extra ghc-prof deb haskell extra ghc6 deb haskell extra ghc6-doc deb doc extra ghc6-prof deb haskell extra"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "haskell"
-  ],
-  "Standards-Version": [
-    "3.9.2"
-  ],
-  "Uploaders": [
-    "Joachim Breitner <nomeata@debian.org>, Erik de Castro Lopo <erikd@mega-nerd.com>"
-  ],
-  "Vcs-Browser": [
-    "http://darcs.debian.org/cgi-bin/darcsweb.cgi?r=pkg-haskell/ghc"
-  ],
-  "Vcs-Darcs": [
-    "http://darcs.debian.org/pkg-haskell/ghc"
-  ],
-  "Version": [
-    "7.4.1-4"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"ghc, ghc-prof, ghc-doc, ghc-dynamic, ghc-haddock, ghc6, ghc6-doc, ghc6-prof"
+	],
+	"Build-Conflicts": [
+		"ccache"
+	],
+	"Build-Depends": [
+		"debhelper (>= 7), libgmp-dev, devscripts, ghc, grep-dctrl, dh-autoreconf, gcc (>= 4:4.2), llvm-3.0 [armel armhf], libffi-dev, pkg-config, xsltproc, docbook-xsl, docbook-xml, binutils (>= 2.19.51.20090508) [arm armel], libncurses5-dev"
+	],
+	"Build-Depends-Indep": [
+		"hscolour, fop"
+	],
+	"Checksums-Sha1": [
+		"44cfcf75d82d8e797445d1f1f7d56e8387fc569d 1841 ghc_7.4.1-4.dsc 66c5a027fef1ed01c35c3493e964fb3657efc936 25272609 ghc_7.4.1.orig.tar.bz2 02701e3cd751e1701d6d23e9a58321e083e16ee7 51830 ghc_7.4.1-4.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"6d7baf53e626994388118d06d9f4930f1994ab56ddcec355cecc1e393fdf942b 1841 ghc_7.4.1-4.dsc 721c09a49e519b7459b67b451b5103252ba3833906a7a24c3a3679ff94669a79 25272609 ghc_7.4.1.orig.tar.bz2 90915cfb61cbbccb551053c6e416ca6a00b5f6e8a32d30e0033a673c0b74a392 51830 ghc_7.4.1-4.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/g/ghc"
+	],
+	"Dm-Upload-Allowed": [
+		"yes"
+	],
+	"Files": [
+		"809a0e53c3aa4bc4331c92a8533532c2 1841 ghc_7.4.1-4.dsc 5d86c420978b49cc60edea9bd4c36703 25272609 ghc_7.4.1.orig.tar.bz2 b49af91e6d3a9bb347fe8c19b40ab3e2 51830 ghc_7.4.1-4.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://haskell.org/ghc/"
+	],
+	"Maintainer": [
+		"Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"ghc"
+	],
+	"Package-List": [
+		"ghc deb haskell extra ghc-doc deb doc extra ghc-dynamic deb haskell extra ghc-haddock deb haskell extra ghc-prof deb haskell extra ghc6 deb haskell extra ghc6-doc deb doc extra ghc6-prof deb haskell extra"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"haskell"
+	],
+	"Standards-Version": [
+		"3.9.2"
+	],
+	"Uploaders": [
+		"Joachim Breitner <nomeata@debian.org>, Erik de Castro Lopo <erikd@mega-nerd.com>"
+	],
+	"Vcs-Browser": [
+		"http://darcs.debian.org/cgi-bin/darcsweb.cgi?r=pkg-haskell/ghc"
+	],
+	"Vcs-Darcs": [
+		"http://darcs.debian.org/pkg-haskell/ghc"
+	],
+	"Version": [
+		"7.4.1-4"
+	]
 }

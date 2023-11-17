@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "ejabberd"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), dh-apparmor, libsqlite3-dev, po-debconf, rebar, erlang-asn1, erlang-base, erlang-base64url (>= 1.0.1), erlang-crypto, erlang-dev, erlang-eunit, erlang-goldrush (>= 0.1.9), erlang-idna (>= 6.0.0), erlang-inets, erlang-jiffy (>= 1.1.1), erlang-jose (>= 1.11.5), erlang-lager (>= 3.9.1), erlang-luerl, erlang-mnesia, erlang-p1-acme (>= 1.0.22), erlang-p1-cache-tab (>= 1.0.30), erlang-p1-eimp (>= 1.0.22), erlang-p1-mqtree (>= 1.0.15), erlang-p1-mysql (>= 1.0.21), erlang-p1-oauth2 (>= 0.6.11), erlang-p1-pkix (>= 1.0.9), erlang-p1-pam (>= 1.0.14), erlang-p1-pgsql (>= 1.1.20), erlang-p1-sip (>= 1.0.49), erlang-p1-sqlite3 (>= 1.1.14), erlang-p1-stringprep (>= 1.0.29), erlang-p1-stun (>= 1.2.7), erlang-p1-tls (>= 1.1.16), erlang-p1-utils (>= 1.0.25), erlang-p1-xml (>= 1.1.49), erlang-p1-xmpp (>= 1.6.1), erlang-p1-yaml (>= 1.0.36), erlang-p1-yconf (>= 1.0.15), erlang-p1-zlib (>= 1.0.12), erlang-parsetools, erlang-redis-client (>= 1.2.0), erlang-ssl, erlang-unicode-util-compat (>= 0.3.1), erlang-xmerl"
-  ],
-  "Checksums-Sha256": [
-    "7cc1b59f72e2d05261715b627e5cf1ca9628dc47a202dcc1940464f434069834 3092 ejabberd_23.01-1.dsc 26cb788ac5d55718b5e9563bbcefbbaaf8aec569bd24e8a01111d8268e08720d 1467647 ejabberd_23.01.orig.tar.gz a0f223eb819bbe23afc57d7b389be71164f76554e3544a2aec08f5bd10a57bc3 67428 ejabberd_23.01-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/e/ejabberd"
-  ],
-  "Files": [
-    "cb53a82d3bdc666aee59f0ab4a0a7793 3092 ejabberd_23.01-1.dsc 54ad107af80234f4f52bb62f224d9f28 1467647 ejabberd_23.01.orig.tar.gz 99375a723f44673562b4203b6445210d 67428 ejabberd_23.01-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.ejabberd.im"
-  ],
-  "Maintainer": [
-    "Ejabberd Packaging Team <ejabberd@packages.debian.org>"
-  ],
-  "Package": [
-    "ejabberd"
-  ],
-  "Package-List": [
-    "ejabberd deb net optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "sudo"
-  ],
-  "Uploaders": [
-    "Konstantin Khomoutov <flatworm@users.sourceforge.net>, Philipp Huebner <debalance@debian.org>, Rhonda D'Vine <rhonda@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/ejabberd-packaging-team/ejabberd"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/ejabberd-packaging-team/ejabberd.git"
-  ],
-  "Version": [
-    "23.01-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"ejabberd"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-apparmor, libsqlite3-dev, po-debconf, rebar, erlang-asn1, erlang-base, erlang-base64url (>= 1.0.1), erlang-crypto, erlang-dev, erlang-eunit, erlang-goldrush (>= 0.1.9), erlang-idna (>= 6.0.0), erlang-inets, erlang-jiffy (>= 1.1.1), erlang-jose (>= 1.11.5), erlang-lager (>= 3.9.1), erlang-luerl, erlang-mnesia, erlang-p1-acme (>= 1.0.22), erlang-p1-cache-tab (>= 1.0.30), erlang-p1-eimp (>= 1.0.22), erlang-p1-mqtree (>= 1.0.15), erlang-p1-mysql (>= 1.0.21), erlang-p1-oauth2 (>= 0.6.11), erlang-p1-pkix (>= 1.0.9), erlang-p1-pam (>= 1.0.14), erlang-p1-pgsql (>= 1.1.20), erlang-p1-sip (>= 1.0.49), erlang-p1-sqlite3 (>= 1.1.14), erlang-p1-stringprep (>= 1.0.29), erlang-p1-stun (>= 1.2.7), erlang-p1-tls (>= 1.1.16), erlang-p1-utils (>= 1.0.25), erlang-p1-xml (>= 1.1.49), erlang-p1-xmpp (>= 1.6.1), erlang-p1-yaml (>= 1.0.36), erlang-p1-yconf (>= 1.0.15), erlang-p1-zlib (>= 1.0.12), erlang-parsetools, erlang-redis-client (>= 1.2.0), erlang-ssl, erlang-unicode-util-compat (>= 0.3.1), erlang-xmerl"
+	],
+	"Checksums-Sha256": [
+		"7cc1b59f72e2d05261715b627e5cf1ca9628dc47a202dcc1940464f434069834 3092 ejabberd_23.01-1.dsc 26cb788ac5d55718b5e9563bbcefbbaaf8aec569bd24e8a01111d8268e08720d 1467647 ejabberd_23.01.orig.tar.gz a0f223eb819bbe23afc57d7b389be71164f76554e3544a2aec08f5bd10a57bc3 67428 ejabberd_23.01-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/e/ejabberd"
+	],
+	"Files": [
+		"cb53a82d3bdc666aee59f0ab4a0a7793 3092 ejabberd_23.01-1.dsc 54ad107af80234f4f52bb62f224d9f28 1467647 ejabberd_23.01.orig.tar.gz 99375a723f44673562b4203b6445210d 67428 ejabberd_23.01-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.ejabberd.im"
+	],
+	"Maintainer": [
+		"Ejabberd Packaging Team <ejabberd@packages.debian.org>"
+	],
+	"Package": [
+		"ejabberd"
+	],
+	"Package-List": [
+		"ejabberd deb net optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"sudo"
+	],
+	"Uploaders": [
+		"Konstantin Khomoutov <flatworm@users.sourceforge.net>, Philipp Huebner <debalance@debian.org>, Rhonda D'Vine <rhonda@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/ejabberd-packaging-team/ejabberd"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/ejabberd-packaging-team/ejabberd.git"
+	],
+	"Version": [
+		"23.01-1"
+	]
 }

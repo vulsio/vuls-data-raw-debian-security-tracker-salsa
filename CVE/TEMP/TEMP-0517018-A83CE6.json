@@ -1,58 +1,58 @@
 {
-  "header": {
-    "line": "CVE-2009-XXXX [sysvinit: no-root option in expert installer exposes locally exploitable security flaw]",
-    "name": "TEMP-0517018-A83CE6",
-    "description": "[sysvinit: no-root option in expert installer exposes locally exploitable security flaw]"
-  },
-  "annotations": [
-    {
-      "line": "\t- sysvinit <unfixed> (bug #517018; unimportant)",
-      "type": "package",
-      "package": "sysvinit",
-      "kind": "unfixed",
-      "flags": [
-        {
-          "bug": 517018
-        },
-        {
-          "severity": "unimportant"
-        }
-      ]
-    },
-    {
-      "line": "\tNOTE: hardly a security issue, if an attacker has local access to the machine and you",
-      "type": "NOTE",
-      "description": "hardly a security issue, if an attacker has local access to the machine and you"
-    },
-    {
-      "line": "\tNOTE: don't use encryption or something similar you have lost anyway",
-      "type": "NOTE",
-      "description": "don't use encryption or something similar you have lost anyway"
-    },
-    {
-      "line": "\tNOTE: - this ^ philosophy is flawed; it should not be trivial to get root just because you",
-      "type": "NOTE",
-      "description": "- this ^ philosophy is flawed; it should not be trivial to get root just because you"
-    },
-    {
-      "line": "\tNOTE: have local access to the machine. it is worth it to make it as difficult as",
-      "type": "NOTE",
-      "description": "have local access to the machine. it is worth it to make it as difficult as"
-    },
-    {
-      "line": "\tNOTE: possible without impacting authorized users. otherwise, why spend so much effort",
-      "type": "NOTE",
-      "description": "possible without impacting authorized users. otherwise, why spend so much effort"
-    },
-    {
-      "line": "\tNOTE: to make sure xscreensaver, gdm, and login are rock solid?",
-      "type": "NOTE",
-      "description": "to make sure xscreensaver, gdm, and login are rock solid?"
-    },
-    {
-      "line": "\tNOTE: - i would like to track as low, rather than unimportant",
-      "type": "NOTE",
-      "description": "- i would like to track as low, rather than unimportant"
-    }
-  ]
+	"header": {
+		"line": "CVE-2009-XXXX [sysvinit: no-root option in expert installer exposes locally exploitable security flaw]",
+		"name": "TEMP-0517018-A83CE6",
+		"description": "[sysvinit: no-root option in expert installer exposes locally exploitable security flaw]"
+	},
+	"annotations": [
+		{
+			"line": "\t- sysvinit <unfixed> (bug #517018; unimportant)",
+			"type": "package",
+			"package": "sysvinit",
+			"kind": "unfixed",
+			"flags": [
+				{
+					"bug": 517018
+				},
+				{
+					"severity": "unimportant"
+				}
+			]
+		},
+		{
+			"line": "\tNOTE: hardly a security issue, if an attacker has local access to the machine and you",
+			"type": "NOTE",
+			"description": "hardly a security issue, if an attacker has local access to the machine and you"
+		},
+		{
+			"line": "\tNOTE: don't use encryption or something similar you have lost anyway",
+			"type": "NOTE",
+			"description": "don't use encryption or something similar you have lost anyway"
+		},
+		{
+			"line": "\tNOTE: - this ^ philosophy is flawed; it should not be trivial to get root just because you",
+			"type": "NOTE",
+			"description": "- this ^ philosophy is flawed; it should not be trivial to get root just because you"
+		},
+		{
+			"line": "\tNOTE: have local access to the machine. it is worth it to make it as difficult as",
+			"type": "NOTE",
+			"description": "have local access to the machine. it is worth it to make it as difficult as"
+		},
+		{
+			"line": "\tNOTE: possible without impacting authorized users. otherwise, why spend so much effort",
+			"type": "NOTE",
+			"description": "possible without impacting authorized users. otherwise, why spend so much effort"
+		},
+		{
+			"line": "\tNOTE: to make sure xscreensaver, gdm, and login are rock solid?",
+			"type": "NOTE",
+			"description": "to make sure xscreensaver, gdm, and login are rock solid?"
+		},
+		{
+			"line": "\tNOTE: - i would like to track as low, rather than unimportant",
+			"type": "NOTE",
+			"description": "- i would like to track as low, rather than unimportant"
+		}
+	]
 }

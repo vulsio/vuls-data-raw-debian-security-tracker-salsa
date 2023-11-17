@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "gdb, gdb-minimal, gdb64, gdb-multiarch, gdbserver, gdb-source, gdb-dbg"
-  ],
-  "Build-Depends": [
-    "cdbs (>= 0.4.17), debhelper (>= 9), lsb-release, bzip2, autoconf, libtool, gettext, bison, dejagnu, flex | flex-old, procps, g++-multilib [i386 powerpc s390 sparc], gobjc, mig [hurd-any], texinfo (>= 4.7-2.2), texlive-base, libexpat1-dev, lib64expat1-dev [i386 powerpc s390 sparc], libncurses5-dev, lib64ncurses5-dev [i386 powerpc s390 sparc], libreadline-dev, lib64readline6-dev [i386 powerpc s390 sparc], zlib1g-dev, liblzma-dev, python-dev, libkvm-dev [kfreebsd-any], libunwind7-dev [ia64]"
-  ],
-  "Checksums-Sha1": [
-    "0d25ec79642f1373a8794253c37053efdf679e9d 2783 gdb_7.7.1+dfsg-5.dsc 053f37941f74a462a9be86b90949be8df97fa707 17652724 gdb_7.7.1+dfsg.orig.tar.xz 6e0f64c9e9cc1c44af95f1fe3971c676a198a54b 71044 gdb_7.7.1+dfsg-5.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "0d5dfa84e2336efc3fdc1590dcf807ce7544e2d09853847e6953e16e14a091e7 2783 gdb_7.7.1+dfsg-5.dsc 920326b45d50993f28843f459a28d848e18dd04a73b4ac3ea59cc0929d99d850 17652724 gdb_7.7.1+dfsg.orig.tar.xz 0780c553ea7de318c129f6e6ba30e644b0d215d2b485707617097397b049acce 71044 gdb_7.7.1+dfsg-5.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/g/gdb"
-  ],
-  "Files": [
-    "b514eecc27ccfd1568784bab151ca3d5 2783 gdb_7.7.1+dfsg-5.dsc dca63aa70c8f78fccb47a4cb01dc2bb9 17652724 gdb_7.7.1+dfsg.orig.tar.xz cadd06797f0e2140f89bd41aa1ece8de 71044 gdb_7.7.1+dfsg-5.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.gnu.org/s/gdb/"
-  ],
-  "Maintainer": [
-    "Héctor Orón Martínez <zumbi@debian.org>"
-  ],
-  "Package": [
-    "gdb"
-  ],
-  "Package-List": [
-    "gdb deb devel optional arch=any gdb-dbg deb debug extra arch=any gdb-minimal deb devel optional arch=any gdb-multiarch deb devel optional arch=any gdb-source deb devel optional arch=all gdb64 deb devel optional arch=i386,powerpc,s390,sparc gdbserver deb devel optional arch=amd64,armel,armhf,arm64,i386,ia64,m32r,m68k,mips,mipsel,powerpc,powerpcspe,ppc64,ppc64el,s390,s390x,x32"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "devel"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Uploaders": [
-    "Luca Bruno <lucab@debian.org>, Samuel Bronson <naesten@gmail.com>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-gdb/gdb.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-gdb/gdb.git"
-  ],
-  "Version": [
-    "7.7.1+dfsg-5"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"gdb, gdb-minimal, gdb64, gdb-multiarch, gdbserver, gdb-source, gdb-dbg"
+	],
+	"Build-Depends": [
+		"cdbs (>= 0.4.17), debhelper (>= 9), lsb-release, bzip2, autoconf, libtool, gettext, bison, dejagnu, flex | flex-old, procps, g++-multilib [i386 powerpc s390 sparc], gobjc, mig [hurd-any], texinfo (>= 4.7-2.2), texlive-base, libexpat1-dev, lib64expat1-dev [i386 powerpc s390 sparc], libncurses5-dev, lib64ncurses5-dev [i386 powerpc s390 sparc], libreadline-dev, lib64readline6-dev [i386 powerpc s390 sparc], zlib1g-dev, liblzma-dev, python-dev, libkvm-dev [kfreebsd-any], libunwind7-dev [ia64]"
+	],
+	"Checksums-Sha1": [
+		"0d25ec79642f1373a8794253c37053efdf679e9d 2783 gdb_7.7.1+dfsg-5.dsc 053f37941f74a462a9be86b90949be8df97fa707 17652724 gdb_7.7.1+dfsg.orig.tar.xz 6e0f64c9e9cc1c44af95f1fe3971c676a198a54b 71044 gdb_7.7.1+dfsg-5.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"0d5dfa84e2336efc3fdc1590dcf807ce7544e2d09853847e6953e16e14a091e7 2783 gdb_7.7.1+dfsg-5.dsc 920326b45d50993f28843f459a28d848e18dd04a73b4ac3ea59cc0929d99d850 17652724 gdb_7.7.1+dfsg.orig.tar.xz 0780c553ea7de318c129f6e6ba30e644b0d215d2b485707617097397b049acce 71044 gdb_7.7.1+dfsg-5.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/gdb"
+	],
+	"Files": [
+		"b514eecc27ccfd1568784bab151ca3d5 2783 gdb_7.7.1+dfsg-5.dsc dca63aa70c8f78fccb47a4cb01dc2bb9 17652724 gdb_7.7.1+dfsg.orig.tar.xz cadd06797f0e2140f89bd41aa1ece8de 71044 gdb_7.7.1+dfsg-5.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.gnu.org/s/gdb/"
+	],
+	"Maintainer": [
+		"Héctor Orón Martínez <zumbi@debian.org>"
+	],
+	"Package": [
+		"gdb"
+	],
+	"Package-List": [
+		"gdb deb devel optional arch=any gdb-dbg deb debug extra arch=any gdb-minimal deb devel optional arch=any gdb-multiarch deb devel optional arch=any gdb-source deb devel optional arch=all gdb64 deb devel optional arch=i386,powerpc,s390,sparc gdbserver deb devel optional arch=amd64,armel,armhf,arm64,i386,ia64,m32r,m68k,mips,mipsel,powerpc,powerpcspe,ppc64,ppc64el,s390,s390x,x32"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"devel"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Uploaders": [
+		"Luca Bruno <lucab@debian.org>, Samuel Bronson <naesten@gmail.com>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-gdb/gdb.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-gdb/gdb.git"
+	],
+	"Version": [
+		"7.7.1+dfsg-5"
+	]
 }

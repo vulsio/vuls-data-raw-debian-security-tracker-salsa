@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "nodejs-dev, nodejs, nodejs-dbg, nodejs-legacy"
-  ],
-  "Build-Depends": [
-    "cdbs, devscripts, debhelper, dh-buildinfo, binutils, openssl (>= 1.0.0g), pkg-config, bash-completion, curl, procps, zlib1g-dev, libkvm-dev [kfreebsd-any], gyp (>= 0.1~svn1654), python, libv8-3.14-dev (>= 3.7), libssl-dev (>= 1.0.0g), libc-ares-dev (>= 1.7.5), ca-certificates"
-  ],
-  "Checksums-Sha1": [
-    "5c872c9cd4315cc3cccfa5f27682631f829c46e3 2409 nodejs_0.10.29~dfsg-1~bpo70+1.dsc 844db8f427bdc58a11f7f657de6a4c87b5d2566e 6082803 nodejs_0.10.29~dfsg.orig.tar.gz fdcc694b5776b0affa44bd14bebebe92036482e1 40000 nodejs_0.10.29~dfsg-1~bpo70+1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "ea0fb97c041f0194c5fe8b7b32c26452aa5f1da274cf0d6ca7209361411b1f60 2409 nodejs_0.10.29~dfsg-1~bpo70+1.dsc 9968cb38781331a517def6ac039da74e9f0aab8f9fee433672ead73b0ae562d3 6082803 nodejs_0.10.29~dfsg.orig.tar.gz e4a6ae003d1e261d93c791fb989823ea94af437dac5c2118e26b959b2e57578d 40000 nodejs_0.10.29~dfsg-1~bpo70+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/n/nodejs"
-  ],
-  "Files": [
-    "66c62ba6b4174dbfa3c26ec10edc3c91 2409 nodejs_0.10.29~dfsg-1~bpo70+1.dsc 4a492ee3329f1f3a8a5e978331f3cd7c 6082803 nodejs_0.10.29~dfsg.orig.tar.gz 6a3dacead27b7f746b7e0d95ae7ffb88 40000 nodejs_0.10.29~dfsg-1~bpo70+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://nodejs.org/"
-  ],
-  "Maintainer": [
-    "Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "nodejs"
-  ],
-  "Package-List": [
-    "nodejs deb web optional arch=any nodejs-dbg deb debug extra arch=any nodejs-dev deb devel extra arch=any nodejs-legacy deb web extra arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Uploaders": [
-    "Jérémy Lal <kapouer@melix.org>, Jonas Smedegaard <dr@jones.dk>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=collab-maint/nodejs.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/collab-maint/nodejs.git"
-  ],
-  "Version": [
-    "0.10.29~dfsg-1~bpo70+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"nodejs-dev, nodejs, nodejs-dbg, nodejs-legacy"
+	],
+	"Build-Depends": [
+		"cdbs, devscripts, debhelper, dh-buildinfo, binutils, openssl (>= 1.0.0g), pkg-config, bash-completion, curl, procps, zlib1g-dev, libkvm-dev [kfreebsd-any], gyp (>= 0.1~svn1654), python, libv8-3.14-dev (>= 3.7), libssl-dev (>= 1.0.0g), libc-ares-dev (>= 1.7.5), ca-certificates"
+	],
+	"Checksums-Sha1": [
+		"5c872c9cd4315cc3cccfa5f27682631f829c46e3 2409 nodejs_0.10.29~dfsg-1~bpo70+1.dsc 844db8f427bdc58a11f7f657de6a4c87b5d2566e 6082803 nodejs_0.10.29~dfsg.orig.tar.gz fdcc694b5776b0affa44bd14bebebe92036482e1 40000 nodejs_0.10.29~dfsg-1~bpo70+1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"ea0fb97c041f0194c5fe8b7b32c26452aa5f1da274cf0d6ca7209361411b1f60 2409 nodejs_0.10.29~dfsg-1~bpo70+1.dsc 9968cb38781331a517def6ac039da74e9f0aab8f9fee433672ead73b0ae562d3 6082803 nodejs_0.10.29~dfsg.orig.tar.gz e4a6ae003d1e261d93c791fb989823ea94af437dac5c2118e26b959b2e57578d 40000 nodejs_0.10.29~dfsg-1~bpo70+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/n/nodejs"
+	],
+	"Files": [
+		"66c62ba6b4174dbfa3c26ec10edc3c91 2409 nodejs_0.10.29~dfsg-1~bpo70+1.dsc 4a492ee3329f1f3a8a5e978331f3cd7c 6082803 nodejs_0.10.29~dfsg.orig.tar.gz 6a3dacead27b7f746b7e0d95ae7ffb88 40000 nodejs_0.10.29~dfsg-1~bpo70+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://nodejs.org/"
+	],
+	"Maintainer": [
+		"Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"nodejs"
+	],
+	"Package-List": [
+		"nodejs deb web optional arch=any nodejs-dbg deb debug extra arch=any nodejs-dev deb devel extra arch=any nodejs-legacy deb web extra arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Uploaders": [
+		"Jérémy Lal <kapouer@melix.org>, Jonas Smedegaard <dr@jones.dk>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=collab-maint/nodejs.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/collab-maint/nodejs.git"
+	],
+	"Version": [
+		"0.10.29~dfsg-1~bpo70+1"
+	]
 }

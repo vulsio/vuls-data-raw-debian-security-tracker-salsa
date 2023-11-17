@@ -1,68 +1,68 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libapache2-mod-php7.0, libphp7.0-embed, php7.0, php7.0-cgi, php7.0-cli, php7.0-dev, php7.0-fpm, php7.0-phpdbg, php7.0-xsl, php7.0-odbc, php7.0-readline, php7.0-recode, php7.0-sqlite3, php7.0-xml, php7.0-zip, php7.0-sybase, php7.0-gd, php7.0-gmp, php7.0-ldap, php7.0-common, php7.0-intl, php7.0-mysql, php7.0-mcrypt, php7.0-snmp, php7.0-json, php7.0-pgsql, php7.0-mbstring, php7.0-enchant, php7.0-opcache, php7.0-imap, php7.0-bz2, php7.0-bcmath, php7.0-tidy, php7.0-soap, php7.0-dba, php7.0-interbase, php7.0-xmlrpc, php7.0-pspell, php7.0-curl"
-  ],
-  "Build-Conflicts": [
-    "bind-dev, libxmlrpc-core-c3-dev"
-  ],
-  "Build-Depends": [
-    "apache2-dev (>= 2.4), autoconf (>= 2.63), automake (>= 1.11) | automake1.11, bison, chrpath, debhelper (>= 9), default-libmysqlclient-dev | libmysqlclient-dev, default-mysql-server | mysql-server | virtual-mysql-server <!nocheck>, dh-apache2, dh-systemd (>= 1.3) [linux-any] | base-files (<< 7.2ubuntu5~) [linux-any], dpkg-dev (>= 1.16.1~), firebird-dev [!hurd-any !m68k !hppa !ppc64] | firebird2.5-dev [!hurd-any !m68k !hppa !ppc64] | firebird2.1-dev [!hurd-any !m68k !hppa !ppc64], flex, freetds-dev, libapparmor-dev, libapr1-dev (>= 1.2.7-8), libbz2-dev, libc-client-dev, libcurl4-openssl-dev | libcurl-dev, libdb-dev, libedit-dev (>= 2.11-20080614-4), libenchant-dev, libevent-dev (>= 1.4.11), libexpat1-dev (>= 1.95.2-2.1), libfreetype6-dev, libgcrypt11-dev, libgd-dev (>= 2.1.0) | libgd2-dev, libglib2.0-dev, libgmp3-dev, libicu-dev, libjpeg-dev | libjpeg62-dev, libkrb5-dev, libldap2-dev, libmagic-dev, libmcrypt-dev, libmhash-dev (>= 0.8.8), libnss-myhostname [linux-any], libonig-dev, libpam0g-dev, libpcre3-dev (>= 8.20), libpng-dev, libpq-dev, libpspell-dev, libqdbm-dev, librecode-dev, libsasl2-dev, libsnmp-dev, libsqlite3-dev, libssl-dev, libsystemd-dev [linux-any] | libsystemd-daemon-dev [linux-any] | base-files (<< 7.2ubuntu5~) [linux-any], libtidy-dev (>= 1:5.2.0), libtool (>= 2.2), libwebp-dev, libwrap0-dev, libxml2-dev, libxmlrpc-epi-dev, libxmltok1-dev, libxslt1-dev (>= 1.0.18), libzip-dev (>= 1.0.0), locales-all | language-pack-de, netbase, netcat-traditional, re2c, systemtap-sdt-dev [amd64 i386 powerpc armel armhf ia64], tzdata, unixodbc-dev, zlib1g-dev"
-  ],
-  "Checksums-Sha1": [
-    "5ae5b0dc0530cecbfcb8a477f1a55f77a647d657 5667 php7.0_7.0.33-0+deb9u12.dsc fef2bfd1285325a4ac2c367fab6a9062c144a790 12033040 php7.0_7.0.33.orig.tar.xz 6056faf0a451210b59b979c4b81a8ea7888a70ea 848740 php7.0_7.0.33-0+deb9u12.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "b3085a78d7acf58acd0c1e4e9638f1bcac3822c80b301741b3b89580f4ae3db4 5667 php7.0_7.0.33-0+deb9u12.dsc ab8c5be6e32b1f8d032909dedaaaa4bbb1a209e519abb01a52ce3914f9a13d96 12033040 php7.0_7.0.33.orig.tar.xz 021cbb0f1e81863f26aaee724f214654ce18d7b5879b319b29f0e80d99190287 848740 php7.0_7.0.33-0+deb9u12.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/p/php7.0"
-  ],
-  "Files": [
-    "8b78ba5b29226f4e11a61e80c9a7ea61 5667 php7.0_7.0.33-0+deb9u12.dsc a6d7c355d023301a1a9ec8b4f32a4856 12033040 php7.0_7.0.33.orig.tar.xz d983a87f6aeb9b5d3b4e9ddb7b01dfbf 848740 php7.0_7.0.33-0+deb9u12.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.php.net/"
-  ],
-  "Maintainer": [
-    "Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "php7.0"
-  ],
-  "Package-List": [
-    "libapache2-mod-php7.0 deb httpd optional arch=any libphp7.0-embed deb php optional arch=any php7.0 deb php optional arch=all php7.0-bcmath deb php optional arch=any php7.0-bz2 deb php optional arch=any php7.0-cgi deb php optional arch=any php7.0-cli deb php optional arch=any php7.0-common deb php optional arch=any php7.0-curl deb php optional arch=any php7.0-dba deb php optional arch=any php7.0-dev deb php optional arch=any php7.0-enchant deb php optional arch=any php7.0-fpm deb php optional arch=any php7.0-gd deb php optional arch=any php7.0-gmp deb php optional arch=any php7.0-imap deb php optional arch=any php7.0-interbase deb php optional arch=any php7.0-intl deb php optional arch=any php7.0-json deb php optional arch=any php7.0-ldap deb php optional arch=any php7.0-mbstring deb php optional arch=any php7.0-mcrypt deb php optional arch=any php7.0-mysql deb php optional arch=any php7.0-odbc deb php optional arch=any php7.0-opcache deb php optional arch=any php7.0-pgsql deb php optional arch=any php7.0-phpdbg deb php optional arch=any php7.0-pspell deb php optional arch=any php7.0-readline deb php optional arch=any php7.0-recode deb php optional arch=any php7.0-snmp deb php optional arch=any php7.0-soap deb php optional arch=any php7.0-sqlite3 deb php optional arch=any php7.0-sybase deb php optional arch=any php7.0-tidy deb php optional arch=any php7.0-xml deb php optional arch=any php7.0-xmlrpc deb php optional arch=any php7.0-xsl deb php optional arch=all php7.0-zip deb php optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.7"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "apache2, wget"
-  ],
-  "Uploaders": [
-    "Ondřej Surý <ondrej@debian.org>, Lior Kaplan <kaplan@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://gitlab.com/deb.sury.org/php"
-  ],
-  "Vcs-Git": [
-    "https://gitlab.com/deb.sury.org/php.git"
-  ],
-  "Version": [
-    "7.0.33-0+deb9u12"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libapache2-mod-php7.0, libphp7.0-embed, php7.0, php7.0-cgi, php7.0-cli, php7.0-dev, php7.0-fpm, php7.0-phpdbg, php7.0-xsl, php7.0-odbc, php7.0-readline, php7.0-recode, php7.0-sqlite3, php7.0-xml, php7.0-zip, php7.0-sybase, php7.0-gd, php7.0-gmp, php7.0-ldap, php7.0-common, php7.0-intl, php7.0-mysql, php7.0-mcrypt, php7.0-snmp, php7.0-json, php7.0-pgsql, php7.0-mbstring, php7.0-enchant, php7.0-opcache, php7.0-imap, php7.0-bz2, php7.0-bcmath, php7.0-tidy, php7.0-soap, php7.0-dba, php7.0-interbase, php7.0-xmlrpc, php7.0-pspell, php7.0-curl"
+	],
+	"Build-Conflicts": [
+		"bind-dev, libxmlrpc-core-c3-dev"
+	],
+	"Build-Depends": [
+		"apache2-dev (>= 2.4), autoconf (>= 2.63), automake (>= 1.11) | automake1.11, bison, chrpath, debhelper (>= 9), default-libmysqlclient-dev | libmysqlclient-dev, default-mysql-server | mysql-server | virtual-mysql-server <!nocheck>, dh-apache2, dh-systemd (>= 1.3) [linux-any] | base-files (<< 7.2ubuntu5~) [linux-any], dpkg-dev (>= 1.16.1~), firebird-dev [!hurd-any !m68k !hppa !ppc64] | firebird2.5-dev [!hurd-any !m68k !hppa !ppc64] | firebird2.1-dev [!hurd-any !m68k !hppa !ppc64], flex, freetds-dev, libapparmor-dev, libapr1-dev (>= 1.2.7-8), libbz2-dev, libc-client-dev, libcurl4-openssl-dev | libcurl-dev, libdb-dev, libedit-dev (>= 2.11-20080614-4), libenchant-dev, libevent-dev (>= 1.4.11), libexpat1-dev (>= 1.95.2-2.1), libfreetype6-dev, libgcrypt11-dev, libgd-dev (>= 2.1.0) | libgd2-dev, libglib2.0-dev, libgmp3-dev, libicu-dev, libjpeg-dev | libjpeg62-dev, libkrb5-dev, libldap2-dev, libmagic-dev, libmcrypt-dev, libmhash-dev (>= 0.8.8), libnss-myhostname [linux-any], libonig-dev, libpam0g-dev, libpcre3-dev (>= 8.20), libpng-dev, libpq-dev, libpspell-dev, libqdbm-dev, librecode-dev, libsasl2-dev, libsnmp-dev, libsqlite3-dev, libssl-dev, libsystemd-dev [linux-any] | libsystemd-daemon-dev [linux-any] | base-files (<< 7.2ubuntu5~) [linux-any], libtidy-dev (>= 1:5.2.0), libtool (>= 2.2), libwebp-dev, libwrap0-dev, libxml2-dev, libxmlrpc-epi-dev, libxmltok1-dev, libxslt1-dev (>= 1.0.18), libzip-dev (>= 1.0.0), locales-all | language-pack-de, netbase, netcat-traditional, re2c, systemtap-sdt-dev [amd64 i386 powerpc armel armhf ia64], tzdata, unixodbc-dev, zlib1g-dev"
+	],
+	"Checksums-Sha1": [
+		"5ae5b0dc0530cecbfcb8a477f1a55f77a647d657 5667 php7.0_7.0.33-0+deb9u12.dsc fef2bfd1285325a4ac2c367fab6a9062c144a790 12033040 php7.0_7.0.33.orig.tar.xz 6056faf0a451210b59b979c4b81a8ea7888a70ea 848740 php7.0_7.0.33-0+deb9u12.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"b3085a78d7acf58acd0c1e4e9638f1bcac3822c80b301741b3b89580f4ae3db4 5667 php7.0_7.0.33-0+deb9u12.dsc ab8c5be6e32b1f8d032909dedaaaa4bbb1a209e519abb01a52ce3914f9a13d96 12033040 php7.0_7.0.33.orig.tar.xz 021cbb0f1e81863f26aaee724f214654ce18d7b5879b319b29f0e80d99190287 848740 php7.0_7.0.33-0+deb9u12.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/p/php7.0"
+	],
+	"Files": [
+		"8b78ba5b29226f4e11a61e80c9a7ea61 5667 php7.0_7.0.33-0+deb9u12.dsc a6d7c355d023301a1a9ec8b4f32a4856 12033040 php7.0_7.0.33.orig.tar.xz d983a87f6aeb9b5d3b4e9ddb7b01dfbf 848740 php7.0_7.0.33-0+deb9u12.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.php.net/"
+	],
+	"Maintainer": [
+		"Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"php7.0"
+	],
+	"Package-List": [
+		"libapache2-mod-php7.0 deb httpd optional arch=any libphp7.0-embed deb php optional arch=any php7.0 deb php optional arch=all php7.0-bcmath deb php optional arch=any php7.0-bz2 deb php optional arch=any php7.0-cgi deb php optional arch=any php7.0-cli deb php optional arch=any php7.0-common deb php optional arch=any php7.0-curl deb php optional arch=any php7.0-dba deb php optional arch=any php7.0-dev deb php optional arch=any php7.0-enchant deb php optional arch=any php7.0-fpm deb php optional arch=any php7.0-gd deb php optional arch=any php7.0-gmp deb php optional arch=any php7.0-imap deb php optional arch=any php7.0-interbase deb php optional arch=any php7.0-intl deb php optional arch=any php7.0-json deb php optional arch=any php7.0-ldap deb php optional arch=any php7.0-mbstring deb php optional arch=any php7.0-mcrypt deb php optional arch=any php7.0-mysql deb php optional arch=any php7.0-odbc deb php optional arch=any php7.0-opcache deb php optional arch=any php7.0-pgsql deb php optional arch=any php7.0-phpdbg deb php optional arch=any php7.0-pspell deb php optional arch=any php7.0-readline deb php optional arch=any php7.0-recode deb php optional arch=any php7.0-snmp deb php optional arch=any php7.0-soap deb php optional arch=any php7.0-sqlite3 deb php optional arch=any php7.0-sybase deb php optional arch=any php7.0-tidy deb php optional arch=any php7.0-xml deb php optional arch=any php7.0-xmlrpc deb php optional arch=any php7.0-xsl deb php optional arch=all php7.0-zip deb php optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.7"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"apache2, wget"
+	],
+	"Uploaders": [
+		"Ondřej Surý <ondrej@debian.org>, Lior Kaplan <kaplan@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://gitlab.com/deb.sury.org/php"
+	],
+	"Vcs-Git": [
+		"https://gitlab.com/deb.sury.org/php.git"
+	],
+	"Version": [
+		"7.0.33-0+deb9u12"
+	]
 }

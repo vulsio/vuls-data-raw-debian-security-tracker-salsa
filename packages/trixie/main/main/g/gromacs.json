@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "amd64 arm64 mips64el ppc64el s390x ia64 ppc64 riscv64 sparc64 all"
-  ],
-  "Binary": [
-    "gromacs, gromacs-data, libgromacs8, libgromacs-dev, libnblib-gmx0, libnblib-gmx-dev"
-  ],
-  "Build-Depends": [
-    "bash-completion, chrpath, cmake (>= 3.13), debhelper-compat (= 13), dh-python, libblas-dev, libboost-dev, libfftw3-dev, libhwloc-dev, liblapack-dev, libmuparser-dev (>= 2.3), lsb-release, mpi-default-bin, mpi-default-dev, pkg-config, python3-dev, python3-mpi4py, python3-networkx, python3-numpy, python3-pybind11, python3-pytest, zlib1g-dev"
-  ],
-  "Build-Depends-Indep": [
-    "doxygen, furo, ghostscript, graphicsmagick, graphviz, mscgen, python3-pygments, python3-sphinx, python3-sphinx-argparse, python3-sphinx-copybutton, python3-sphinx-inline-tabs, python3-sphinxcontrib.autoprogram, python3-sphinxcontrib.plantuml, rdfind, symlinks, tex-gyre, texlive-fonts-recommended, texlive-latex-base, texlive-latex-extra"
-  ],
-  "Checksums-Sha256": [
-    "239a3af919114974798db8023df976bca2b8d9c1fc27e772724c67e85d7a2ed4 3631 gromacs_2023.3-1.dsc cbb1d44af1db313ddbc8c9dde28e8cc018d63f45e0f9c206d87cf5422f17abb0 48620623 gromacs_2023.3.orig-regressiontests.tar.gz 4ec8f8d0c7af76b13f8fd16db8e2c120e749de439ae9554d9f653f812d78d1cb 42071770 gromacs_2023.3.orig.tar.gz 809f945748737514c6af080697fcb1615c01f75e53d18538a59bff53e524745a 36156 gromacs_2023.3-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/g/gromacs"
-  ],
-  "Files": [
-    "caa1a1c814117772df14f34b5604fafa 3631 gromacs_2023.3-1.dsc 15b29966b53accf5306c9a3d7e009963 48620623 gromacs_2023.3.orig-regressiontests.tar.gz 2c9cdd8252ba9aa89a05d7c2d9b07509 42071770 gromacs_2023.3.orig.tar.gz f8a705fc663ad7bab590ef50c8f981bd 36156 gromacs_2023.3-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.gromacs.org/"
-  ],
-  "Maintainer": [
-    "Debichem Team <debichem-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "gromacs"
-  ],
-  "Package-List": [
-    "gromacs deb science optional arch=amd64,arm64,mips64el,ppc64el,s390x,ia64,ppc64,riscv64,sparc64 gromacs-data deb science optional arch=all libgromacs-dev deb libdevel optional arch=amd64,arm64,mips64el,ppc64el,s390x,ia64,ppc64,riscv64,sparc64 libgromacs8 deb libs optional arch=amd64,arm64,mips64el,ppc64el,s390x,ia64,ppc64,riscv64,sparc64 libnblib-gmx-dev deb libdevel optional arch=amd64,arm64,mips64el,ppc64el,s390x,ia64,ppc64,riscv64,sparc64 libnblib-gmx0 deb libs optional arch=amd64,arm64,mips64el,ppc64el,s390x,ia64,ppc64,riscv64,sparc64"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "science"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential, mpi-default-bin, perl"
-  ],
-  "Uploaders": [
-    "Nicholas Breen <nbreen@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debichem-team/gromacs"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debichem-team/gromacs.git"
-  ],
-  "Version": [
-    "2023.3-1"
-  ]
+	"Architecture": [
+		"amd64 arm64 mips64el ppc64el s390x ia64 ppc64 riscv64 sparc64 all"
+	],
+	"Binary": [
+		"gromacs, gromacs-data, libgromacs8, libgromacs-dev, libnblib-gmx0, libnblib-gmx-dev"
+	],
+	"Build-Depends": [
+		"bash-completion, chrpath, cmake (>= 3.13), debhelper-compat (= 13), dh-python, libblas-dev, libboost-dev, libfftw3-dev, libhwloc-dev, liblapack-dev, libmuparser-dev (>= 2.3), lsb-release, mpi-default-bin, mpi-default-dev, pkg-config, python3-dev, python3-mpi4py, python3-networkx, python3-numpy, python3-pybind11, python3-pytest, zlib1g-dev"
+	],
+	"Build-Depends-Indep": [
+		"doxygen, furo, ghostscript, graphicsmagick, graphviz, mscgen, python3-pygments, python3-sphinx, python3-sphinx-argparse, python3-sphinx-copybutton, python3-sphinx-inline-tabs, python3-sphinxcontrib.autoprogram, python3-sphinxcontrib.plantuml, rdfind, symlinks, tex-gyre, texlive-fonts-recommended, texlive-latex-base, texlive-latex-extra"
+	],
+	"Checksums-Sha256": [
+		"239a3af919114974798db8023df976bca2b8d9c1fc27e772724c67e85d7a2ed4 3631 gromacs_2023.3-1.dsc cbb1d44af1db313ddbc8c9dde28e8cc018d63f45e0f9c206d87cf5422f17abb0 48620623 gromacs_2023.3.orig-regressiontests.tar.gz 4ec8f8d0c7af76b13f8fd16db8e2c120e749de439ae9554d9f653f812d78d1cb 42071770 gromacs_2023.3.orig.tar.gz 809f945748737514c6af080697fcb1615c01f75e53d18538a59bff53e524745a 36156 gromacs_2023.3-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/gromacs"
+	],
+	"Files": [
+		"caa1a1c814117772df14f34b5604fafa 3631 gromacs_2023.3-1.dsc 15b29966b53accf5306c9a3d7e009963 48620623 gromacs_2023.3.orig-regressiontests.tar.gz 2c9cdd8252ba9aa89a05d7c2d9b07509 42071770 gromacs_2023.3.orig.tar.gz f8a705fc663ad7bab590ef50c8f981bd 36156 gromacs_2023.3-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.gromacs.org/"
+	],
+	"Maintainer": [
+		"Debichem Team <debichem-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"gromacs"
+	],
+	"Package-List": [
+		"gromacs deb science optional arch=amd64,arm64,mips64el,ppc64el,s390x,ia64,ppc64,riscv64,sparc64 gromacs-data deb science optional arch=all libgromacs-dev deb libdevel optional arch=amd64,arm64,mips64el,ppc64el,s390x,ia64,ppc64,riscv64,sparc64 libgromacs8 deb libs optional arch=amd64,arm64,mips64el,ppc64el,s390x,ia64,ppc64,riscv64,sparc64 libnblib-gmx-dev deb libdevel optional arch=amd64,arm64,mips64el,ppc64el,s390x,ia64,ppc64,riscv64,sparc64 libnblib-gmx0 deb libs optional arch=amd64,arm64,mips64el,ppc64el,s390x,ia64,ppc64,riscv64,sparc64"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"science"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, mpi-default-bin, perl"
+	],
+	"Uploaders": [
+		"Nicholas Breen <nbreen@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debichem-team/gromacs"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debichem-team/gromacs.git"
+	],
+	"Version": [
+		"2023.3-1"
+	]
 }

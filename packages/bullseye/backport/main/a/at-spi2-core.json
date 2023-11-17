@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "at-spi2-core, at-spi2-core-udeb, libatspi2.0-0, libatspi0-udeb, libatspi2.0-dev, gir1.2-atspi-2.0, at-spi2-doc"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), dbus, libdbus-1-dev, dbus-broker [linux-any], libsystemd-dev [linux-any], gedit <!nocheck>, libglib2.0-dev (>= 2.62), libx11-dev, libxtst-dev, meson, libgirepository1.0-dev, gtk-doc-tools, gobject-introspection | dh-sequence-gir, xauth <!nocheck>, xvfb <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "f4923210cc1f955b9580db0130a2165d99f748fe86495fe99027703e2b2d5349 2775 at-spi2-core_2.44.1-1~bpo11+1.dsc 4beb23270ba6cf7caf20b597354d75194d89afb69d2efcf15f4271688ba6f746 209780 at-spi2-core_2.44.1.orig.tar.xz 10aced8f56278d10deaf615dfaa5bad75fc434b16bc991d6e23895f1030d07d6 14124 at-spi2-core_2.44.1-1~bpo11+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/a/at-spi2-core"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://wiki.gnome.org/Accessibility"
-  ],
-  "Maintainer": [
-    "Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "at-spi2-core"
-  ],
-  "Package-List": [
-    "at-spi2-core deb misc optional arch=any at-spi2-core-udeb udeb debian-installer optional arch=any at-spi2-doc deb doc optional arch=all gir1.2-atspi-2.0 deb introspection optional arch=any libatspi0-udeb udeb debian-installer optional arch=any libatspi2.0-0 deb libs optional arch=any libatspi2.0-dev deb libdevel optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.0"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential, dbus, xauth, xvfb"
-  ],
-  "Uploaders": [
-    "Samuel Thibault <sthibault@debian.org>, Jordi Mallach <jordi@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/a11y-team/at-spi2-core"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/a11y-team/at-spi2-core.git"
-  ],
-  "Version": [
-    "2.44.1-1~bpo11+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"at-spi2-core, at-spi2-core-udeb, libatspi2.0-0, libatspi0-udeb, libatspi2.0-dev, gir1.2-atspi-2.0, at-spi2-doc"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dbus, libdbus-1-dev, dbus-broker [linux-any], libsystemd-dev [linux-any], gedit <!nocheck>, libglib2.0-dev (>= 2.62), libx11-dev, libxtst-dev, meson, libgirepository1.0-dev, gtk-doc-tools, gobject-introspection | dh-sequence-gir, xauth <!nocheck>, xvfb <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"f4923210cc1f955b9580db0130a2165d99f748fe86495fe99027703e2b2d5349 2775 at-spi2-core_2.44.1-1~bpo11+1.dsc 4beb23270ba6cf7caf20b597354d75194d89afb69d2efcf15f4271688ba6f746 209780 at-spi2-core_2.44.1.orig.tar.xz 10aced8f56278d10deaf615dfaa5bad75fc434b16bc991d6e23895f1030d07d6 14124 at-spi2-core_2.44.1-1~bpo11+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/a/at-spi2-core"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://wiki.gnome.org/Accessibility"
+	],
+	"Maintainer": [
+		"Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"at-spi2-core"
+	],
+	"Package-List": [
+		"at-spi2-core deb misc optional arch=any at-spi2-core-udeb udeb debian-installer optional arch=any at-spi2-doc deb doc optional arch=all gir1.2-atspi-2.0 deb introspection optional arch=any libatspi0-udeb udeb debian-installer optional arch=any libatspi2.0-0 deb libs optional arch=any libatspi2.0-dev deb libdevel optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, dbus, xauth, xvfb"
+	],
+	"Uploaders": [
+		"Samuel Thibault <sthibault@debian.org>, Jordi Mallach <jordi@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/a11y-team/at-spi2-core"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/a11y-team/at-spi2-core.git"
+	],
+	"Version": [
+		"2.44.1-1~bpo11+1"
+	]
 }

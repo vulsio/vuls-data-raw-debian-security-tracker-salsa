@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "uwsgi, uwsgi-dbg, uwsgi-core, uwsgi-plugins-all, uwsgi-infrastructure-plugins, uwsgi-app-integration-plugins, uwsgi-plugin-admin, uwsgi-plugin-cache, uwsgi-plugin-carbon, uwsgi-plugin-cgi, uwsgi-plugin-echo, uwsgi-plugin-erlang, uwsgi-plugin-fastrouter, uwsgi-plugin-fiber, uwsgi-plugin-graylog2, uwsgi-plugin-greenlet-python, uwsgi-plugin-http, uwsgi-plugin-jvm-openjdk-6, uwsgi-plugin-jwsgi-openjdk-6, uwsgi-plugin-logsocket, uwsgi-plugin-lua5.1, uwsgi-plugin-nagios, uwsgi-plugin-ping, uwsgi-plugin-probeconnect, uwsgi-plugin-probepg, uwsgi-plugin-psgi, uwsgi-plugin-pyerl-python, uwsgi-plugin-pyerl-python3, uwsgi-plugin-python, uwsgi-plugin-python3, uwsgi-plugin-rack-ruby1.8, uwsgi-plugin-rack-ruby1.9.1, uwsgi-plugin-rpc, uwsgi-plugin-rrdtool, uwsgi-plugin-rsyslog, uwsgi-plugin-signal, uwsgi-plugin-symcall, uwsgi-plugin-syslog, uwsgi-plugin-ugreen, libapache2-mod-uwsgi, libapache2-mod-uwsgi-dbg, libapache2-mod-ruwsgi, libapache2-mod-ruwsgi-dbg, python-django-uwsgi-admin, python-uwsgicc, python-uwsgidecorators, python3-uwsgidecorators, uwsgi-extra"
-  ],
-  "Build-Depends": [
-    "cdbs, debhelper (>= 8), apache2-threaded-dev, erlang-dev, help2man, javahelper, libapr1-dev, libaprutil1-dev, libjansson-dev, libldap2-dev, liblua5.1-0-dev, libperl-dev, libpq-dev, libsqlite3-dev, libxml2-dev, libyaml-dev, libzmq-dev, pkg-config, python, python-all-dev, python-greenlet-dev [amd64 i386 mips powerpc s390], python3-all-dev, openjdk-6-jdk, ruby1.8, ruby1.8-dev, ruby1.9.1, ruby1.9.1-dev, uuid-dev"
-  ],
-  "Checksums-Sha1": [
-    "297eb052f53695de9c570bef5de9fd23dcd6d87e 5211 uwsgi_1.2.3+dfsg-5+deb7u2.dsc 0b93d8cc2346bfd0b49cafe5cc73ee16b59230c5 436119 uwsgi_1.2.3+dfsg.orig.tar.gz 4db72ef6ff19c8371f7475cd436e8c3952a9a34d 46791 uwsgi_1.2.3+dfsg-5+deb7u2.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "72a20ea804d345be4c4fb8f652bad0d8659771995321dab6d68baa3e4d5f75e0 5211 uwsgi_1.2.3+dfsg-5+deb7u2.dsc f919444256dc7aa5b21c5efd6a830f1e4fde0efcea24dab551dfcfd3ea684932 436119 uwsgi_1.2.3+dfsg.orig.tar.gz f07b200bddea2178f27ce39ab1d8933ecdf0b66f65783c9894394be88bbc016f 46791 uwsgi_1.2.3+dfsg-5+deb7u2.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/updates/main/u/uwsgi"
-  ],
-  "Dm-Upload-Allowed": [
-    "yes"
-  ],
-  "Files": [
-    "9b58dcec88bb28a1e148085307eb7e46 5211 uwsgi_1.2.3+dfsg-5+deb7u2.dsc dc5c974028951026bc7d3ab18536ed7d 436119 uwsgi_1.2.3+dfsg.orig.tar.gz be44867a17903f98cfa382ffbb9edda7 46791 uwsgi_1.2.3+dfsg-5+deb7u2.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://projects.unbit.it/uwsgi/"
-  ],
-  "Maintainer": [
-    "Janos Guljas <janos@resenje.org>"
-  ],
-  "Package": [
-    "uwsgi"
-  ],
-  "Package-List": [
-    "libapache2-mod-ruwsgi deb web extra libapache2-mod-ruwsgi-dbg deb debug extra libapache2-mod-uwsgi deb web extra libapache2-mod-uwsgi-dbg deb debug extra python-django-uwsgi-admin deb python extra python-uwsgicc deb python extra python-uwsgidecorators deb python extra python3-uwsgidecorators deb python extra uwsgi deb web optional uwsgi-app-integration-plugins deb web extra uwsgi-core deb web optional uwsgi-dbg deb debug extra uwsgi-extra deb web extra uwsgi-infrastructure-plugins deb web extra uwsgi-plugin-admin deb web extra uwsgi-plugin-cache deb web extra uwsgi-plugin-carbon deb web extra uwsgi-plugin-cgi deb web extra uwsgi-plugin-echo deb web extra uwsgi-plugin-erlang deb web extra uwsgi-plugin-fastrouter deb web extra uwsgi-plugin-fiber deb web extra uwsgi-plugin-graylog2 deb web extra uwsgi-plugin-greenlet-python deb web extra uwsgi-plugin-http deb web extra uwsgi-plugin-jvm-openjdk-6 deb web extra uwsgi-plugin-jwsgi-openjdk-6 deb web extra uwsgi-plugin-logsocket deb web extra uwsgi-plugin-lua5.1 deb web extra uwsgi-plugin-nagios deb web extra uwsgi-plugin-ping deb web extra uwsgi-plugin-probeconnect deb web extra uwsgi-plugin-probepg deb web extra uwsgi-plugin-psgi deb web extra uwsgi-plugin-pyerl-python deb web extra uwsgi-plugin-pyerl-python3 deb web extra uwsgi-plugin-python deb web extra uwsgi-plugin-python3 deb web extra uwsgi-plugin-rack-ruby1.8 deb web extra uwsgi-plugin-rack-ruby1.9.1 deb web extra uwsgi-plugin-rpc deb web extra uwsgi-plugin-rrdtool deb web extra uwsgi-plugin-rsyslog deb web extra uwsgi-plugin-signal deb web extra uwsgi-plugin-symcall deb web extra uwsgi-plugin-syslog deb web extra uwsgi-plugin-ugreen deb web extra uwsgi-plugins-all deb web extra"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "web"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Vcs-Browser": [
-    "http://git.debian.org/?p=collab-maint/uwsgi.git"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/collab-maint/uwsgi.git"
-  ],
-  "Version": [
-    "1.2.3+dfsg-5+deb7u2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"uwsgi, uwsgi-dbg, uwsgi-core, uwsgi-plugins-all, uwsgi-infrastructure-plugins, uwsgi-app-integration-plugins, uwsgi-plugin-admin, uwsgi-plugin-cache, uwsgi-plugin-carbon, uwsgi-plugin-cgi, uwsgi-plugin-echo, uwsgi-plugin-erlang, uwsgi-plugin-fastrouter, uwsgi-plugin-fiber, uwsgi-plugin-graylog2, uwsgi-plugin-greenlet-python, uwsgi-plugin-http, uwsgi-plugin-jvm-openjdk-6, uwsgi-plugin-jwsgi-openjdk-6, uwsgi-plugin-logsocket, uwsgi-plugin-lua5.1, uwsgi-plugin-nagios, uwsgi-plugin-ping, uwsgi-plugin-probeconnect, uwsgi-plugin-probepg, uwsgi-plugin-psgi, uwsgi-plugin-pyerl-python, uwsgi-plugin-pyerl-python3, uwsgi-plugin-python, uwsgi-plugin-python3, uwsgi-plugin-rack-ruby1.8, uwsgi-plugin-rack-ruby1.9.1, uwsgi-plugin-rpc, uwsgi-plugin-rrdtool, uwsgi-plugin-rsyslog, uwsgi-plugin-signal, uwsgi-plugin-symcall, uwsgi-plugin-syslog, uwsgi-plugin-ugreen, libapache2-mod-uwsgi, libapache2-mod-uwsgi-dbg, libapache2-mod-ruwsgi, libapache2-mod-ruwsgi-dbg, python-django-uwsgi-admin, python-uwsgicc, python-uwsgidecorators, python3-uwsgidecorators, uwsgi-extra"
+	],
+	"Build-Depends": [
+		"cdbs, debhelper (>= 8), apache2-threaded-dev, erlang-dev, help2man, javahelper, libapr1-dev, libaprutil1-dev, libjansson-dev, libldap2-dev, liblua5.1-0-dev, libperl-dev, libpq-dev, libsqlite3-dev, libxml2-dev, libyaml-dev, libzmq-dev, pkg-config, python, python-all-dev, python-greenlet-dev [amd64 i386 mips powerpc s390], python3-all-dev, openjdk-6-jdk, ruby1.8, ruby1.8-dev, ruby1.9.1, ruby1.9.1-dev, uuid-dev"
+	],
+	"Checksums-Sha1": [
+		"297eb052f53695de9c570bef5de9fd23dcd6d87e 5211 uwsgi_1.2.3+dfsg-5+deb7u2.dsc 0b93d8cc2346bfd0b49cafe5cc73ee16b59230c5 436119 uwsgi_1.2.3+dfsg.orig.tar.gz 4db72ef6ff19c8371f7475cd436e8c3952a9a34d 46791 uwsgi_1.2.3+dfsg-5+deb7u2.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"72a20ea804d345be4c4fb8f652bad0d8659771995321dab6d68baa3e4d5f75e0 5211 uwsgi_1.2.3+dfsg-5+deb7u2.dsc f919444256dc7aa5b21c5efd6a830f1e4fde0efcea24dab551dfcfd3ea684932 436119 uwsgi_1.2.3+dfsg.orig.tar.gz f07b200bddea2178f27ce39ab1d8933ecdf0b66f65783c9894394be88bbc016f 46791 uwsgi_1.2.3+dfsg-5+deb7u2.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/updates/main/u/uwsgi"
+	],
+	"Dm-Upload-Allowed": [
+		"yes"
+	],
+	"Files": [
+		"9b58dcec88bb28a1e148085307eb7e46 5211 uwsgi_1.2.3+dfsg-5+deb7u2.dsc dc5c974028951026bc7d3ab18536ed7d 436119 uwsgi_1.2.3+dfsg.orig.tar.gz be44867a17903f98cfa382ffbb9edda7 46791 uwsgi_1.2.3+dfsg-5+deb7u2.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://projects.unbit.it/uwsgi/"
+	],
+	"Maintainer": [
+		"Janos Guljas <janos@resenje.org>"
+	],
+	"Package": [
+		"uwsgi"
+	],
+	"Package-List": [
+		"libapache2-mod-ruwsgi deb web extra libapache2-mod-ruwsgi-dbg deb debug extra libapache2-mod-uwsgi deb web extra libapache2-mod-uwsgi-dbg deb debug extra python-django-uwsgi-admin deb python extra python-uwsgicc deb python extra python-uwsgidecorators deb python extra python3-uwsgidecorators deb python extra uwsgi deb web optional uwsgi-app-integration-plugins deb web extra uwsgi-core deb web optional uwsgi-dbg deb debug extra uwsgi-extra deb web extra uwsgi-infrastructure-plugins deb web extra uwsgi-plugin-admin deb web extra uwsgi-plugin-cache deb web extra uwsgi-plugin-carbon deb web extra uwsgi-plugin-cgi deb web extra uwsgi-plugin-echo deb web extra uwsgi-plugin-erlang deb web extra uwsgi-plugin-fastrouter deb web extra uwsgi-plugin-fiber deb web extra uwsgi-plugin-graylog2 deb web extra uwsgi-plugin-greenlet-python deb web extra uwsgi-plugin-http deb web extra uwsgi-plugin-jvm-openjdk-6 deb web extra uwsgi-plugin-jwsgi-openjdk-6 deb web extra uwsgi-plugin-logsocket deb web extra uwsgi-plugin-lua5.1 deb web extra uwsgi-plugin-nagios deb web extra uwsgi-plugin-ping deb web extra uwsgi-plugin-probeconnect deb web extra uwsgi-plugin-probepg deb web extra uwsgi-plugin-psgi deb web extra uwsgi-plugin-pyerl-python deb web extra uwsgi-plugin-pyerl-python3 deb web extra uwsgi-plugin-python deb web extra uwsgi-plugin-python3 deb web extra uwsgi-plugin-rack-ruby1.8 deb web extra uwsgi-plugin-rack-ruby1.9.1 deb web extra uwsgi-plugin-rpc deb web extra uwsgi-plugin-rrdtool deb web extra uwsgi-plugin-rsyslog deb web extra uwsgi-plugin-signal deb web extra uwsgi-plugin-symcall deb web extra uwsgi-plugin-syslog deb web extra uwsgi-plugin-ugreen deb web extra uwsgi-plugins-all deb web extra"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"web"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Vcs-Browser": [
+		"http://git.debian.org/?p=collab-maint/uwsgi.git"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/collab-maint/uwsgi.git"
+	],
+	"Version": [
+		"1.2.3+dfsg-5+deb7u2"
+	]
 }

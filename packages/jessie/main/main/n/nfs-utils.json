@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "nfs-kernel-server, nfs-common"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 7), libwrap0-dev, libevent-dev, libnfsidmap-dev (>= 0.24), libkrb5-dev, libblkid-dev, libkeyutils-dev, pkg-config, libldap2-dev, libcap-dev, libtirpc-dev (>= 0.2.4-2~), libdevmapper-dev, dh-autoreconf, libmount-dev, libsqlite3-dev"
-  ],
-  "Checksums-Sha1": [
-    "1a9ed05cb2930ec57669610ece7965c0751d2572 2257 nfs-utils_1.2.8-9.dsc b65fc6f0872219583a142594d9c3d7deaf748457 2747577 nfs-utils_1.2.8.orig.tar.bz2 242da06d0c1e038e46fdb35fd3c57b12870f338e 40171 nfs-utils_1.2.8-9.debian.tar.bz2"
-  ],
-  "Checksums-Sha256": [
-    "097a0c817a8018b485b8218fac943c711e05165cd530d52a554c723dd9963840 2257 nfs-utils_1.2.8-9.dsc 1cc8f02a633eddbf0a1d93421f331479c4cdab4c5ab33b8bf8c7c369f9156ac6 2747577 nfs-utils_1.2.8.orig.tar.bz2 ed30d32760d26afa01a4affce25d3834c4c2364f2a5262680a9805ea78833aec 40171 nfs-utils_1.2.8-9.debian.tar.bz2"
-  ],
-  "Directory": [
-    "pool/main/n/nfs-utils"
-  ],
-  "Files": [
-    "3f510304d1b36d2cb6ef3a8eabab3a62 2257 nfs-utils_1.2.8-9.dsc 6e7d97de51e428a0b8698c16ca23db77 2747577 nfs-utils_1.2.8.orig.tar.bz2 3f18f3ffd5209e91e8a483d82c9cb369 40171 nfs-utils_1.2.8-9.debian.tar.bz2"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://nfs.sourceforge.net/"
-  ],
-  "Maintainer": [
-    "Debian kernel team <debian-kernel@lists.debian.org>"
-  ],
-  "Package": [
-    "nfs-utils"
-  ],
-  "Package-List": [
-    "nfs-common deb net standard arch=any nfs-kernel-server deb net optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.0"
-  ],
-  "Uploaders": [
-    "Anibal Monsalve Salazar <anibal@debian.org>, Ben Hutchings <ben@decadent.org.uk>, Steve Langasek <vorlon@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://git.debian.org/?p=kernel/nfs-utils.git"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/kernel/nfs-utils.git"
-  ],
-  "Version": [
-    "1:1.2.8-9"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"nfs-kernel-server, nfs-common"
+	],
+	"Build-Depends": [
+		"debhelper (>= 7), libwrap0-dev, libevent-dev, libnfsidmap-dev (>= 0.24), libkrb5-dev, libblkid-dev, libkeyutils-dev, pkg-config, libldap2-dev, libcap-dev, libtirpc-dev (>= 0.2.4-2~), libdevmapper-dev, dh-autoreconf, libmount-dev, libsqlite3-dev"
+	],
+	"Checksums-Sha1": [
+		"1a9ed05cb2930ec57669610ece7965c0751d2572 2257 nfs-utils_1.2.8-9.dsc b65fc6f0872219583a142594d9c3d7deaf748457 2747577 nfs-utils_1.2.8.orig.tar.bz2 242da06d0c1e038e46fdb35fd3c57b12870f338e 40171 nfs-utils_1.2.8-9.debian.tar.bz2"
+	],
+	"Checksums-Sha256": [
+		"097a0c817a8018b485b8218fac943c711e05165cd530d52a554c723dd9963840 2257 nfs-utils_1.2.8-9.dsc 1cc8f02a633eddbf0a1d93421f331479c4cdab4c5ab33b8bf8c7c369f9156ac6 2747577 nfs-utils_1.2.8.orig.tar.bz2 ed30d32760d26afa01a4affce25d3834c4c2364f2a5262680a9805ea78833aec 40171 nfs-utils_1.2.8-9.debian.tar.bz2"
+	],
+	"Directory": [
+		"pool/main/n/nfs-utils"
+	],
+	"Files": [
+		"3f510304d1b36d2cb6ef3a8eabab3a62 2257 nfs-utils_1.2.8-9.dsc 6e7d97de51e428a0b8698c16ca23db77 2747577 nfs-utils_1.2.8.orig.tar.bz2 3f18f3ffd5209e91e8a483d82c9cb369 40171 nfs-utils_1.2.8-9.debian.tar.bz2"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://nfs.sourceforge.net/"
+	],
+	"Maintainer": [
+		"Debian kernel team <debian-kernel@lists.debian.org>"
+	],
+	"Package": [
+		"nfs-utils"
+	],
+	"Package-List": [
+		"nfs-common deb net standard arch=any nfs-kernel-server deb net optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.0"
+	],
+	"Uploaders": [
+		"Anibal Monsalve Salazar <anibal@debian.org>, Ben Hutchings <ben@decadent.org.uk>, Steve Langasek <vorlon@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://git.debian.org/?p=kernel/nfs-utils.git"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/kernel/nfs-utils.git"
+	],
+	"Version": [
+		"1:1.2.8-9"
+	]
 }

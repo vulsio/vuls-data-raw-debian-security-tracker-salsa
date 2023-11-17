@@ -1,68 +1,68 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "liborcus-dev, liborcus-0.17-0, liborcus-mso-0.17-0, liborcus-parser-0.17-0, liborcus-spreadsheet-model-0.17-0, python3-orcus, liborcus-doc, liborcus-bin"
-  ],
-  "Build-Conflicts": [
-    "python-sphinx"
-  ],
-  "Build-Depends": [
-    "chrpath, debhelper-compat (= 13), dh-sequence-python3, libboost-date-time-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-program-options-dev, libboost-system-dev, libixion-dev (>= 0.17.0~), libixion-dev (<< 0.18.0~), libmdds-dev (>= 2.0), libmdds-dev (<< 2.1~), pkg-config, python3, python3-dev, zlib1g-dev"
-  ],
-  "Build-Depends-Indep": [
-    "dh-sequence-sphinxdoc, doxygen, python3-breathe, python3-sphinx, python3-sphinx-rtd-theme, python3-sphinx-argparse"
-  ],
-  "Checksums-Sha256": [
-    "1d91b1cbf1a2cf42b070d5cb987b6e78e9307d8b9e37020851ae47f3b77f1df5 2968 liborcus_0.17.2-4.dsc 30509d414e3cf439e0ae1e0c31b4b0ef5b2bb8e2b2404e3cb7d44a72162640ab 1839188 liborcus_0.17.2.orig.tar.xz a05d1b2a2e663cd00601ca8992d9406c0117adb84682cdeb885cfdc96f07ba48 9516 liborcus_0.17.2-4.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/libo/liborcus"
-  ],
-  "Files": [
-    "3925c9d2d0015fe79e189997d75fd975 2968 liborcus_0.17.2-4.dsc 4df3646ca736fa0d04965e25fee4898e 1839188 liborcus_0.17.2.orig.tar.xz 49a1e27c510d8ab08cbc480fbfc61fa7 9516 liborcus_0.17.2-4.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://gitlab.com/orcus/orcus"
-  ],
-  "Maintainer": [
-    "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>"
-  ],
-  "Package": [
-    "liborcus"
-  ],
-  "Package-List": [
-    "liborcus-0.17-0 deb libs optional arch=any liborcus-bin deb libs optional arch=any liborcus-dev deb libdevel optional arch=any liborcus-doc deb doc optional arch=all liborcus-mso-0.17-0 deb libs optional arch=any liborcus-parser-0.17-0 deb libs optional arch=any liborcus-spreadsheet-model-0.17-0 deb libs optional arch=any python3-orcus deb python optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.0"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "@builddeps@, python3"
-  ],
-  "Uploaders": [
-    "Rene Engelhard <rene@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/libreoffice-team/liborcus"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/libreoffice-team/liborcus.git"
-  ],
-  "Version": [
-    "0.17.2-4"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"liborcus-dev, liborcus-0.17-0, liborcus-mso-0.17-0, liborcus-parser-0.17-0, liborcus-spreadsheet-model-0.17-0, python3-orcus, liborcus-doc, liborcus-bin"
+	],
+	"Build-Conflicts": [
+		"python-sphinx"
+	],
+	"Build-Depends": [
+		"chrpath, debhelper-compat (= 13), dh-sequence-python3, libboost-date-time-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-program-options-dev, libboost-system-dev, libixion-dev (>= 0.17.0~), libixion-dev (<< 0.18.0~), libmdds-dev (>= 2.0), libmdds-dev (<< 2.1~), pkg-config, python3, python3-dev, zlib1g-dev"
+	],
+	"Build-Depends-Indep": [
+		"dh-sequence-sphinxdoc, doxygen, python3-breathe, python3-sphinx, python3-sphinx-rtd-theme, python3-sphinx-argparse"
+	],
+	"Checksums-Sha256": [
+		"1d91b1cbf1a2cf42b070d5cb987b6e78e9307d8b9e37020851ae47f3b77f1df5 2968 liborcus_0.17.2-4.dsc 30509d414e3cf439e0ae1e0c31b4b0ef5b2bb8e2b2404e3cb7d44a72162640ab 1839188 liborcus_0.17.2.orig.tar.xz a05d1b2a2e663cd00601ca8992d9406c0117adb84682cdeb885cfdc96f07ba48 9516 liborcus_0.17.2-4.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/libo/liborcus"
+	],
+	"Files": [
+		"3925c9d2d0015fe79e189997d75fd975 2968 liborcus_0.17.2-4.dsc 4df3646ca736fa0d04965e25fee4898e 1839188 liborcus_0.17.2.orig.tar.xz 49a1e27c510d8ab08cbc480fbfc61fa7 9516 liborcus_0.17.2-4.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://gitlab.com/orcus/orcus"
+	],
+	"Maintainer": [
+		"Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>"
+	],
+	"Package": [
+		"liborcus"
+	],
+	"Package-List": [
+		"liborcus-0.17-0 deb libs optional arch=any liborcus-bin deb libs optional arch=any liborcus-dev deb libdevel optional arch=any liborcus-doc deb doc optional arch=all liborcus-mso-0.17-0 deb libs optional arch=any liborcus-parser-0.17-0 deb libs optional arch=any liborcus-spreadsheet-model-0.17-0 deb libs optional arch=any python3-orcus deb python optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"@builddeps@, python3"
+	],
+	"Uploaders": [
+		"Rene Engelhard <rene@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/libreoffice-team/liborcus"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/libreoffice-team/liborcus.git"
+	],
+	"Version": [
+		"0.17.2-4"
+	]
 }

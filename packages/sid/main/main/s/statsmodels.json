@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "python-statsmodels-doc, python3-statsmodels, python3-statsmodels-lib"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), sphinx-common, dh-python (>= 3.20180313~), cython3 (>= 0.29.32~), python3-all-dev, python3-colorama <!nocheck> <!nodoc>, python3-cvxopt <!nocheck> <!nodoc>, python3-dateutil <!nocheck> <!nodoc>, python3-jinja2 <!nocheck> <!nodoc>, python3-joblib <!nocheck> <!nodoc>, python3-matplotlib, python3-numpy, python3-pandas, python3-patsy (>= 0.5.1) <!nocheck> <!nodoc>, python3-pytest <!nocheck>, python3-pytest-forked <!nocheck>, python3-scipy, python3-setuptools, python3-setuptools-scm (>= 7~), python3-tk <!nocheck> <!nodoc>"
-  ],
-  "Build-Depends-Indep": [
-    "python3-jupyter-client <!nodoc>, python3-nbconvert <!nodoc>, python3-nbsphinx <!nodoc>, python3-notebook <!nodoc>, python3-numpydoc <!nodoc>, python3-seaborn <!nodoc>, python3-simplegeneric <!nodoc>, python3-sphinx <!nodoc>, python3-yaml <!nodoc>, jdupes <!nodoc>, python-scipy-doc <!nodoc>, python-pandas-doc <!nodoc>, python3-doc <!nodoc>, r-base-core <!nodoc>, python3-rpy2 <!nodoc>, r-cran-cardata <!nodoc>, r-cran-geepack <!nodoc>, r-cran-guerry <!nodoc>, r-cran-lme4 <!nodoc>, r-cran-mass <!nodoc>, r-cran-robustbase <!nodoc>, r-cran-vcd <!nodoc>, pandoc <!nodoc>"
-  ],
-  "Checksums-Sha256": [
-    "18e0f0f445845272748c8a3081e1b338b98abbcd91222f6aa7cdd947875750c1 3636 statsmodels_0.14.0+dfsg-5.dsc aa55e2c15cdb391d9dfd132af8bb6a1f3d93744345592346fc88a962ca2253cf 12122796 statsmodels_0.14.0+dfsg.orig.tar.xz dfe661e4616624849c991cc98442ca574f0a48beca2d22278a472f5be8e64c0c 35676 statsmodels_0.14.0+dfsg-5.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/s/statsmodels"
-  ],
-  "Files": [
-    "8eb02b06bfec3c50360c8d95a5baf0a2 3636 statsmodels_0.14.0+dfsg-5.dsc fdedeb1ec17f68b96733e99115806f99 12122796 statsmodels_0.14.0+dfsg.orig.tar.xz d0da5054bc639dcb170f602cbb372e84 35676 statsmodels_0.14.0+dfsg-5.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.statsmodels.org"
-  ],
-  "Maintainer": [
-    "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "statsmodels"
-  ],
-  "Package-List": [
-    "python-statsmodels-doc deb doc optional arch=all python3-statsmodels deb python optional arch=all python3-statsmodels-lib deb python optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "python"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "python3-all, python3-colorama, python3-cvxopt, python3-dateutil, python3-jinja2, python3-joblib, python3-matplotlib, python3-pytest, python3-tk"
-  ],
-  "Uploaders": [
-    "Yaroslav Halchenko <debian@onerussian.com>, Michael Hanke <michael.hanke@gmail.com>, Diane Trout <diane@ghic.org>, Rebecca N. Palmer <rebecca_palmer@zoho.com>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/science-team/statsmodels"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/science-team/statsmodels.git"
-  ],
-  "Version": [
-    "0.14.0+dfsg-5"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"python-statsmodels-doc, python3-statsmodels, python3-statsmodels-lib"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), sphinx-common, dh-python (>= 3.20180313~), cython3 (>= 0.29.32~), python3-all-dev, python3-colorama <!nocheck> <!nodoc>, python3-cvxopt <!nocheck> <!nodoc>, python3-dateutil <!nocheck> <!nodoc>, python3-jinja2 <!nocheck> <!nodoc>, python3-joblib <!nocheck> <!nodoc>, python3-matplotlib, python3-numpy, python3-pandas, python3-patsy (>= 0.5.1) <!nocheck> <!nodoc>, python3-pytest <!nocheck>, python3-pytest-forked <!nocheck>, python3-scipy, python3-setuptools, python3-setuptools-scm (>= 7~), python3-tk <!nocheck> <!nodoc>"
+	],
+	"Build-Depends-Indep": [
+		"python3-jupyter-client <!nodoc>, python3-nbconvert <!nodoc>, python3-nbsphinx <!nodoc>, python3-notebook <!nodoc>, python3-numpydoc <!nodoc>, python3-seaborn <!nodoc>, python3-simplegeneric <!nodoc>, python3-sphinx <!nodoc>, python3-yaml <!nodoc>, jdupes <!nodoc>, python-scipy-doc <!nodoc>, python-pandas-doc <!nodoc>, python3-doc <!nodoc>, r-base-core <!nodoc>, python3-rpy2 <!nodoc>, r-cran-cardata <!nodoc>, r-cran-geepack <!nodoc>, r-cran-guerry <!nodoc>, r-cran-lme4 <!nodoc>, r-cran-mass <!nodoc>, r-cran-robustbase <!nodoc>, r-cran-vcd <!nodoc>, pandoc <!nodoc>"
+	],
+	"Checksums-Sha256": [
+		"18e0f0f445845272748c8a3081e1b338b98abbcd91222f6aa7cdd947875750c1 3636 statsmodels_0.14.0+dfsg-5.dsc aa55e2c15cdb391d9dfd132af8bb6a1f3d93744345592346fc88a962ca2253cf 12122796 statsmodels_0.14.0+dfsg.orig.tar.xz dfe661e4616624849c991cc98442ca574f0a48beca2d22278a472f5be8e64c0c 35676 statsmodels_0.14.0+dfsg-5.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/s/statsmodels"
+	],
+	"Files": [
+		"8eb02b06bfec3c50360c8d95a5baf0a2 3636 statsmodels_0.14.0+dfsg-5.dsc fdedeb1ec17f68b96733e99115806f99 12122796 statsmodels_0.14.0+dfsg.orig.tar.xz d0da5054bc639dcb170f602cbb372e84 35676 statsmodels_0.14.0+dfsg-5.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.statsmodels.org"
+	],
+	"Maintainer": [
+		"Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"statsmodels"
+	],
+	"Package-List": [
+		"python-statsmodels-doc deb doc optional arch=all python3-statsmodels deb python optional arch=all python3-statsmodels-lib deb python optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"python"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"python3-all, python3-colorama, python3-cvxopt, python3-dateutil, python3-jinja2, python3-joblib, python3-matplotlib, python3-pytest, python3-tk"
+	],
+	"Uploaders": [
+		"Yaroslav Halchenko <debian@onerussian.com>, Michael Hanke <michael.hanke@gmail.com>, Diane Trout <diane@ghic.org>, Rebecca N. Palmer <rebecca_palmer@zoho.com>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/science-team/statsmodels"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/science-team/statsmodels.git"
+	],
+	"Version": [
+		"0.14.0+dfsg-5"
+	]
 }

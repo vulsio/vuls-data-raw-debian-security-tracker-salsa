@@ -1,53 +1,53 @@
 {
-  "Architecture": [
-    "linux-any"
-  ],
-  "Binary": [
-    "rdma-core, ibacm, ibverbs-providers, ibverbs-utils, libibverbs-dev, libibverbs1, libibcm-dev, libibcm1, libibumad-dev, libibumad3, librdmacm-dev, librdmacm1, rdmacm-utils, srptools"
-  ],
-  "Build-Depends": [
-    "cmake (>= 2.8.11), debhelper (>= 10), dpkg-dev (>= 1.17), libnl-3-dev, libnl-route-3-dev, libsystemd-dev, libudev-dev, ninja-build, pkg-config, python, valgrind [!alpha !armel !hppa !m68k !powerpcspe !sh4 !sparc64 !x32]"
-  ],
-  "Checksums-Sha256": [
-    "1901a99ca3d676930875ad8d9b68ab14b483f2d328d8d40cebdf13c74564ac8e 2829 rdma-core_16.0-1~bpo9+1.dsc d6d852ff71bec5834772018871476e11b344550cc1c941a183f3a1eef5962210 914336 rdma-core_16.0.orig.tar.gz 8fb041697af8c7f73527fa54ca691eebf7c4c61b2486baaa099310f7774c7253 17580 rdma-core_16.0-1~bpo9+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rdma-core"
-  ],
-  "Files": [
-    "6106fae49c7f9bdfb025ee6ff2411ed1 2829 rdma-core_16.0-1~bpo9+1.dsc 778fca601c0738a47c696b1a965a40d7 914336 rdma-core_16.0.orig.tar.gz c7e4e0f0bb7c63be2f0e15c83aba0668 17580 rdma-core_16.0-1~bpo9+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/linux-rdma/rdma-core"
-  ],
-  "Maintainer": [
-    "Benjamin Drung <benjamin.drung@profitbricks.com>"
-  ],
-  "Package": [
-    "rdma-core"
-  ],
-  "Package-List": [
-    "ibacm deb net optional arch=linux-any ibverbs-providers deb net optional arch=linux-any ibverbs-utils deb net optional arch=linux-any libibcm-dev deb libdevel optional arch=linux-any libibcm1 deb libs optional arch=linux-any libibumad-dev deb libdevel optional arch=linux-any libibumad3 deb libs optional arch=linux-any libibverbs-dev deb libdevel optional arch=linux-any libibverbs1 deb libs optional arch=linux-any librdmacm-dev deb libdevel optional arch=linux-any librdmacm1 deb libs optional arch=linux-any rdma-core deb net optional arch=linux-any rdmacm-utils deb net optional arch=linux-any srptools deb net optional arch=linux-any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.1.2"
-  ],
-  "Vcs-Browser": [
-    "https://github.com/linux-rdma/rdma-core"
-  ],
-  "Vcs-Git": [
-    "https://github.com/linux-rdma/rdma-core.git"
-  ],
-  "Version": [
-    "16.0-1~bpo9+1"
-  ]
+	"Architecture": [
+		"linux-any"
+	],
+	"Binary": [
+		"rdma-core, ibacm, ibverbs-providers, ibverbs-utils, libibverbs-dev, libibverbs1, libibcm-dev, libibcm1, libibumad-dev, libibumad3, librdmacm-dev, librdmacm1, rdmacm-utils, srptools"
+	],
+	"Build-Depends": [
+		"cmake (>= 2.8.11), debhelper (>= 10), dpkg-dev (>= 1.17), libnl-3-dev, libnl-route-3-dev, libsystemd-dev, libudev-dev, ninja-build, pkg-config, python, valgrind [!alpha !armel !hppa !m68k !powerpcspe !sh4 !sparc64 !x32]"
+	],
+	"Checksums-Sha256": [
+		"1901a99ca3d676930875ad8d9b68ab14b483f2d328d8d40cebdf13c74564ac8e 2829 rdma-core_16.0-1~bpo9+1.dsc d6d852ff71bec5834772018871476e11b344550cc1c941a183f3a1eef5962210 914336 rdma-core_16.0.orig.tar.gz 8fb041697af8c7f73527fa54ca691eebf7c4c61b2486baaa099310f7774c7253 17580 rdma-core_16.0-1~bpo9+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rdma-core"
+	],
+	"Files": [
+		"6106fae49c7f9bdfb025ee6ff2411ed1 2829 rdma-core_16.0-1~bpo9+1.dsc 778fca601c0738a47c696b1a965a40d7 914336 rdma-core_16.0.orig.tar.gz c7e4e0f0bb7c63be2f0e15c83aba0668 17580 rdma-core_16.0-1~bpo9+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/linux-rdma/rdma-core"
+	],
+	"Maintainer": [
+		"Benjamin Drung <benjamin.drung@profitbricks.com>"
+	],
+	"Package": [
+		"rdma-core"
+	],
+	"Package-List": [
+		"ibacm deb net optional arch=linux-any ibverbs-providers deb net optional arch=linux-any ibverbs-utils deb net optional arch=linux-any libibcm-dev deb libdevel optional arch=linux-any libibcm1 deb libs optional arch=linux-any libibumad-dev deb libdevel optional arch=linux-any libibumad3 deb libs optional arch=linux-any libibverbs-dev deb libdevel optional arch=linux-any libibverbs1 deb libs optional arch=linux-any librdmacm-dev deb libdevel optional arch=linux-any librdmacm1 deb libs optional arch=linux-any rdma-core deb net optional arch=linux-any rdmacm-utils deb net optional arch=linux-any srptools deb net optional arch=linux-any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.1.2"
+	],
+	"Vcs-Browser": [
+		"https://github.com/linux-rdma/rdma-core"
+	],
+	"Vcs-Git": [
+		"https://github.com/linux-rdma/rdma-core.git"
+	],
+	"Version": [
+		"16.0-1~bpo9+1"
+	]
 }

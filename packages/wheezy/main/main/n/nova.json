@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-nova, nova-common, nova-compute, nova-compute-lxc, nova-compute-uml, nova-compute-xen, nova-compute-qemu, nova-compute-kvm, nova-scheduler, nova-volume, nova-api, nova-network, nova-objectstore, nova-console, nova-cert, nova-xcp-plugins, nova-xcp-network, nova-doc, nova-xvpvncproxy, nova-api-metadata, nova-api-os-compute, nova-api-os-volume, nova-api-ec2"
-  ],
-  "Build-Conflicts": [
-    "python-cjson"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 7.0.50), python-netaddr, python-distutils-extra, python-eventlet, python-m2crypto, python-all (>= 2.6.6-3~), python-lockfile, python-novaclient (>= 2.6.7), python-gflags, python-feedparser, python-suds (>= 0.4.0), python-coverage, python-greenlet, python-xattr, python-webob, python-glance, python-routes, python-libvirt, python-memcache, python-carrot, python-lxml, python-mox, python-boto, python-cheetah, python-nose, python-paramiko, python-paste, python-simplejson, python-xenapi, euca2ools, ipython, bpython, python-qpid, python-iso8601, openssh-client, pep8"
-  ],
-  "Build-Depends-Indep": [
-    "python-setuptools, python-sphinx (>> 1.0)"
-  ],
-  "Checksums-Sha1": [
-    "d92edcdfc9f8e9ad60980e4ec617db87085e13db 3073 nova_2012.1.1-18.dsc 845401b523b4ffbb80f3439b113c2da54c258f9f 3268172 nova_2012.1.1.orig.tar.xz b9ae67b38ce000f9ce0a9feca0d689bea9b0030e 69557 nova_2012.1.1-18.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "d4fdc4f43515cbe4ecd538686ecd9cf7503b86b3241e39ce86db72ee371582c8 3073 nova_2012.1.1-18.dsc f5a5f4c5ba0f06e30aefc5c5b8b575beb06d94b1ca9f943848bdd13f2f7e1ad7 3268172 nova_2012.1.1.orig.tar.xz a03201c44cb6576f334a364224397dd01474a6fe48f2a17547b9b72585de530c 69557 nova_2012.1.1-18.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/n/nova"
-  ],
-  "Files": [
-    "7305a6ce36e11733f26cd45d0bfdf8e8 3073 nova_2012.1.1-18.dsc 8d7e07c5ac4006c1b29168e5877784fa 3268172 nova_2012.1.1.orig.tar.xz 03f723a2ee327a996866b29d57de78d7 69557 nova_2012.1.1-18.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://launchpad.net/nova"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "nova"
-  ],
-  "Package-List": [
-    "nova-api deb net extra nova-api-ec2 deb net extra nova-api-metadata deb net extra nova-api-os-compute deb net extra nova-api-os-volume deb net extra nova-cert deb net extra nova-common deb net extra nova-compute deb net extra nova-compute-kvm deb net extra nova-compute-lxc deb net extra nova-compute-qemu deb net extra nova-compute-uml deb net extra nova-compute-xen deb net extra nova-console deb net extra nova-doc deb doc extra nova-network deb net extra nova-objectstore deb net extra nova-scheduler deb net extra nova-volume deb net extra nova-xcp-network deb net extra nova-xcp-plugins deb net extra nova-xvpvncproxy deb net extra python-nova deb python extra"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Loic Dachary (OuoU) <loic@debian.org>, Julien Danjou <acid@debian.org>, Thomas Goirand <zigo@debian.org>, Ghe Rivero <ghe.rivero@stackops.com>, Mehdi Abaakouk <sileht@sileht.net>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=openstack/nova.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/openstack/nova.git"
-  ],
-  "Version": [
-    "2012.1.1-18"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-nova, nova-common, nova-compute, nova-compute-lxc, nova-compute-uml, nova-compute-xen, nova-compute-qemu, nova-compute-kvm, nova-scheduler, nova-volume, nova-api, nova-network, nova-objectstore, nova-console, nova-cert, nova-xcp-plugins, nova-xcp-network, nova-doc, nova-xvpvncproxy, nova-api-metadata, nova-api-os-compute, nova-api-os-volume, nova-api-ec2"
+	],
+	"Build-Conflicts": [
+		"python-cjson"
+	],
+	"Build-Depends": [
+		"debhelper (>= 7.0.50), python-netaddr, python-distutils-extra, python-eventlet, python-m2crypto, python-all (>= 2.6.6-3~), python-lockfile, python-novaclient (>= 2.6.7), python-gflags, python-feedparser, python-suds (>= 0.4.0), python-coverage, python-greenlet, python-xattr, python-webob, python-glance, python-routes, python-libvirt, python-memcache, python-carrot, python-lxml, python-mox, python-boto, python-cheetah, python-nose, python-paramiko, python-paste, python-simplejson, python-xenapi, euca2ools, ipython, bpython, python-qpid, python-iso8601, openssh-client, pep8"
+	],
+	"Build-Depends-Indep": [
+		"python-setuptools, python-sphinx (>> 1.0)"
+	],
+	"Checksums-Sha1": [
+		"d92edcdfc9f8e9ad60980e4ec617db87085e13db 3073 nova_2012.1.1-18.dsc 845401b523b4ffbb80f3439b113c2da54c258f9f 3268172 nova_2012.1.1.orig.tar.xz b9ae67b38ce000f9ce0a9feca0d689bea9b0030e 69557 nova_2012.1.1-18.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"d4fdc4f43515cbe4ecd538686ecd9cf7503b86b3241e39ce86db72ee371582c8 3073 nova_2012.1.1-18.dsc f5a5f4c5ba0f06e30aefc5c5b8b575beb06d94b1ca9f943848bdd13f2f7e1ad7 3268172 nova_2012.1.1.orig.tar.xz a03201c44cb6576f334a364224397dd01474a6fe48f2a17547b9b72585de530c 69557 nova_2012.1.1-18.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/n/nova"
+	],
+	"Files": [
+		"7305a6ce36e11733f26cd45d0bfdf8e8 3073 nova_2012.1.1-18.dsc 8d7e07c5ac4006c1b29168e5877784fa 3268172 nova_2012.1.1.orig.tar.xz 03f723a2ee327a996866b29d57de78d7 69557 nova_2012.1.1-18.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://launchpad.net/nova"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"nova"
+	],
+	"Package-List": [
+		"nova-api deb net extra nova-api-ec2 deb net extra nova-api-metadata deb net extra nova-api-os-compute deb net extra nova-api-os-volume deb net extra nova-cert deb net extra nova-common deb net extra nova-compute deb net extra nova-compute-kvm deb net extra nova-compute-lxc deb net extra nova-compute-qemu deb net extra nova-compute-uml deb net extra nova-compute-xen deb net extra nova-console deb net extra nova-doc deb doc extra nova-network deb net extra nova-objectstore deb net extra nova-scheduler deb net extra nova-volume deb net extra nova-xcp-network deb net extra nova-xcp-plugins deb net extra nova-xvpvncproxy deb net extra python-nova deb python extra"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Loic Dachary (OuoU) <loic@debian.org>, Julien Danjou <acid@debian.org>, Thomas Goirand <zigo@debian.org>, Ghe Rivero <ghe.rivero@stackops.com>, Mehdi Abaakouk <sileht@sileht.net>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=openstack/nova.git;a=summary"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/openstack/nova.git"
+	],
+	"Version": [
+		"2012.1.1-18"
+	]
 }

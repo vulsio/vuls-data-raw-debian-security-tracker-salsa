@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-ipfs-unixfs-dev, librust-ipfs-unixfs+filetime-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 24), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cid-0.5-dev <!nocheck>, librust-either-1-dev (>= 1.5-~~) <!nocheck>, librust-filetime-0.2+default-dev (>= 0.2.9-~~) <!nocheck>, librust-multihash-0.11-dev <!nocheck>, librust-quick-protobuf-0.7+std-dev <!nocheck>, librust-sha2-0.9-dev <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "5186a84a7bce3b9c3b1fa40f5962bc192d0a9260775fd2dc33c355a1eceec636 2690 rust-ipfs-unixfs_0.2.0-2~bpo11+1.dsc 67d1cf65363f3d01682283456651d1cea436019de5be7a974bb61716c940d44f 69281 rust-ipfs-unixfs_0.2.0.orig.tar.gz aa534a7a4e2fddba14651c3ada4155a83fa4d17c70a763bada55307ef3babb84 3588 rust-ipfs-unixfs_0.2.0-2~bpo11+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-ipfs-unixfs"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-ipfs-unixfs"
-  ],
-  "Package-List": [
-    "librust-ipfs-unixfs+filetime-dev deb rust optional arch=any librust-ipfs-unixfs-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.5.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-criterion-0.3-dev, librust-hex-literal-0.3-dev, librust-libc-0.2-dev, librust-multibase-0.8-dev, librust-tar-0.4-dev"
-  ],
-  "Uploaders": [
-    "Jochen Sprickerhof <jspricke@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/ipfs-unixfs"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/ipfs-unixfs]"
-  ],
-  "Version": [
-    "0.2.0-2~bpo11+1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-ipfs-unixfs-dev, librust-ipfs-unixfs+filetime-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 24), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cid-0.5-dev <!nocheck>, librust-either-1-dev (>= 1.5-~~) <!nocheck>, librust-filetime-0.2+default-dev (>= 0.2.9-~~) <!nocheck>, librust-multihash-0.11-dev <!nocheck>, librust-quick-protobuf-0.7+std-dev <!nocheck>, librust-sha2-0.9-dev <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"5186a84a7bce3b9c3b1fa40f5962bc192d0a9260775fd2dc33c355a1eceec636 2690 rust-ipfs-unixfs_0.2.0-2~bpo11+1.dsc 67d1cf65363f3d01682283456651d1cea436019de5be7a974bb61716c940d44f 69281 rust-ipfs-unixfs_0.2.0.orig.tar.gz aa534a7a4e2fddba14651c3ada4155a83fa4d17c70a763bada55307ef3babb84 3588 rust-ipfs-unixfs_0.2.0-2~bpo11+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-ipfs-unixfs"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-ipfs-unixfs"
+	],
+	"Package-List": [
+		"librust-ipfs-unixfs+filetime-dev deb rust optional arch=any librust-ipfs-unixfs-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-criterion-0.3-dev, librust-hex-literal-0.3-dev, librust-libc-0.2-dev, librust-multibase-0.8-dev, librust-tar-0.4-dev"
+	],
+	"Uploaders": [
+		"Jochen Sprickerhof <jspricke@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/ipfs-unixfs"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/ipfs-unixfs]"
+	],
+	"Version": [
+		"0.2.0-2~bpo11+1"
+	]
 }

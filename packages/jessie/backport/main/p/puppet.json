@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "puppet, puppet-master, puppetmaster, puppet-master-passenger, puppetmaster-passenger, puppet-common"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9~), dh-systemd, facter, rake, hiera"
-  ],
-  "Checksums-Sha1": [
-    "fd13775fe10a34cc58c97dbe11f6b27c71c24fb0 2481 puppet_4.8.2-5~bpo8+1.dsc cb727781aac3fcb204ad4913cb9c7738bfc5cc80 2865098 puppet_4.8.2.orig.tar.gz 489d71d2b25dc2f232ff706dbb266cee1b98dc01 38508 puppet_4.8.2-5~bpo8+1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "c60659b29f667e486459d4d085bdf81b6f358fae5a52c8247c996471602acdcf 2481 puppet_4.8.2-5~bpo8+1.dsc a8b0c0175acc3dd0303c54d4d1999df8d63119dadf2490d953168de7c1b589da 2865098 puppet_4.8.2.orig.tar.gz 3bab82346d5387a308610c735c6e6f4ec515f80c961efcd6d2a402304110bb07 38508 puppet_4.8.2-5~bpo8+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/puppet"
-  ],
-  "Files": [
-    "00f746e5c06eec4f62b1c2a9d62ecbeb 2481 puppet_4.8.2-5~bpo8+1.dsc 3cf567f29937f6ec7ce9c6a6f82eaba6 2865098 puppet_4.8.2.orig.tar.gz 7cf1443c7c93f2270b538959c73ebbd0 38508 puppet_4.8.2-5~bpo8+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/puppetlabs/puppet"
-  ],
-  "Maintainer": [
-    "Puppet Package Maintainers <pkg-puppet-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "puppet"
-  ],
-  "Package-List": [
-    "puppet deb admin optional arch=all puppet-common deb oldlibs extra arch=all puppet-master deb admin optional arch=all puppet-master-passenger deb admin optional arch=all puppetmaster deb oldlibs extra arch=all puppetmaster-passenger deb oldlibs extra arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Micah Anderson <micah@debian.org>, Andrew Pollock <apollock@debian.org>, Nigel Kersten <nigel@explanatorygap.net>, Stig Sandbeck Mathisen <ssm@debian.org>, Apollon Oikonomopoulos <apoikos@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-puppet/puppet.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-puppet/puppet.git"
-  ],
-  "Version": [
-    "4.8.2-5~bpo8+1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"puppet, puppet-master, puppetmaster, puppet-master-passenger, puppetmaster-passenger, puppet-common"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9~), dh-systemd, facter, rake, hiera"
+	],
+	"Checksums-Sha1": [
+		"fd13775fe10a34cc58c97dbe11f6b27c71c24fb0 2481 puppet_4.8.2-5~bpo8+1.dsc cb727781aac3fcb204ad4913cb9c7738bfc5cc80 2865098 puppet_4.8.2.orig.tar.gz 489d71d2b25dc2f232ff706dbb266cee1b98dc01 38508 puppet_4.8.2-5~bpo8+1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"c60659b29f667e486459d4d085bdf81b6f358fae5a52c8247c996471602acdcf 2481 puppet_4.8.2-5~bpo8+1.dsc a8b0c0175acc3dd0303c54d4d1999df8d63119dadf2490d953168de7c1b589da 2865098 puppet_4.8.2.orig.tar.gz 3bab82346d5387a308610c735c6e6f4ec515f80c961efcd6d2a402304110bb07 38508 puppet_4.8.2-5~bpo8+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/puppet"
+	],
+	"Files": [
+		"00f746e5c06eec4f62b1c2a9d62ecbeb 2481 puppet_4.8.2-5~bpo8+1.dsc 3cf567f29937f6ec7ce9c6a6f82eaba6 2865098 puppet_4.8.2.orig.tar.gz 7cf1443c7c93f2270b538959c73ebbd0 38508 puppet_4.8.2-5~bpo8+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/puppetlabs/puppet"
+	],
+	"Maintainer": [
+		"Puppet Package Maintainers <pkg-puppet-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"puppet"
+	],
+	"Package-List": [
+		"puppet deb admin optional arch=all puppet-common deb oldlibs extra arch=all puppet-master deb admin optional arch=all puppet-master-passenger deb admin optional arch=all puppetmaster deb oldlibs extra arch=all puppetmaster-passenger deb oldlibs extra arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Micah Anderson <micah@debian.org>, Andrew Pollock <apollock@debian.org>, Nigel Kersten <nigel@explanatorygap.net>, Stig Sandbeck Mathisen <ssm@debian.org>, Apollon Oikonomopoulos <apoikos@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-puppet/puppet.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-puppet/puppet.git"
+	],
+	"Version": [
+		"4.8.2-5~bpo8+1"
+	]
 }

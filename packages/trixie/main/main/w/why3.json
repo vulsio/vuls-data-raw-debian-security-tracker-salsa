@@ -1,68 +1,68 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "why3, libwhy3-ocaml-dev, why3-examples, why3-doc-html, why3-doc-pdf"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), dh-ocaml, autoconf, ocaml, ocaml-findlib, menhir (>= 20200123), libmenhir-ocaml-dev (>= 20200123), libzarith-ocaml-dev, libsqlite3-ocaml-dev, libzip-ocaml-dev, libnum-ocaml-dev, libocamlgraph-ocaml-dev (>= 1.8.2), liblablgtk3-ocaml-dev, liblablgtksourceview3-ocaml-dev, tex-common"
-  ],
-  "Build-Depends-Indep": [
-    "python3-sphinx, python3-sphinxcontrib.bibtex, texlive-plain-generic, texlive-latex-recommended, texlive-latex-extra, texlive-fonts-recommended, texlive-bibtex-extra, tex-gyre, graphviz"
-  ],
-  "Checksums-Sha256": [
-    "34c860a2e712039c57901068d49eaf42f65594401e2c1af4a5996bfec4507474 2435 why3_1.6.0-1.dsc 845bccea41d271a0ad70709ce957b397d091ec115b88a3e84c487b923d19271c 6850062 why3_1.6.0.orig.tar.gz 94d0ee921fdb93d164dcac6da952fcd855f05a1166ca3d7fa4eab8ca80bef0c4 18360 why3_1.6.0-1.debian.tar.xz"
-  ],
-  "Dgit": [
-    "95e5434a027aa226f54baabf6520fcff48bb672c debian archive/debian/1.6.0-1 https://git.dgit.debian.org/why3"
-  ],
-  "Directory": [
-    "pool/main/w/why3"
-  ],
-  "Files": [
-    "1be000ae2508999aa93bab35fa338380 2435 why3_1.6.0-1.dsc 6b449abe1e485d6f3c12f81c59fc186c 6850062 why3_1.6.0.orig.tar.gz d42df719d11fbf5db922c63be258f0a3 18360 why3_1.6.0-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://why3.lri.fr/"
-  ],
-  "Maintainer": [
-    "Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>"
-  ],
-  "Package": [
-    "why3"
-  ],
-  "Package-List": [
-    "libwhy3-ocaml-dev deb ocaml optional arch=any why3 deb math optional arch=any why3-doc-html deb math optional arch=all why3-doc-pdf deb math optional arch=all why3-examples deb math optional arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "alt-ergo, cvc4, spass, z3"
-  ],
-  "Uploaders": [
-    "Ralf Treinen <treinen@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/ocaml-team/why3"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/ocaml-team/why3.git"
-  ],
-  "Version": [
-    "1.6.0-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"why3, libwhy3-ocaml-dev, why3-examples, why3-doc-html, why3-doc-pdf"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-ocaml, autoconf, ocaml, ocaml-findlib, menhir (>= 20200123), libmenhir-ocaml-dev (>= 20200123), libzarith-ocaml-dev, libsqlite3-ocaml-dev, libzip-ocaml-dev, libnum-ocaml-dev, libocamlgraph-ocaml-dev (>= 1.8.2), liblablgtk3-ocaml-dev, liblablgtksourceview3-ocaml-dev, tex-common"
+	],
+	"Build-Depends-Indep": [
+		"python3-sphinx, python3-sphinxcontrib.bibtex, texlive-plain-generic, texlive-latex-recommended, texlive-latex-extra, texlive-fonts-recommended, texlive-bibtex-extra, tex-gyre, graphviz"
+	],
+	"Checksums-Sha256": [
+		"34c860a2e712039c57901068d49eaf42f65594401e2c1af4a5996bfec4507474 2435 why3_1.6.0-1.dsc 845bccea41d271a0ad70709ce957b397d091ec115b88a3e84c487b923d19271c 6850062 why3_1.6.0.orig.tar.gz 94d0ee921fdb93d164dcac6da952fcd855f05a1166ca3d7fa4eab8ca80bef0c4 18360 why3_1.6.0-1.debian.tar.xz"
+	],
+	"Dgit": [
+		"95e5434a027aa226f54baabf6520fcff48bb672c debian archive/debian/1.6.0-1 https://git.dgit.debian.org/why3"
+	],
+	"Directory": [
+		"pool/main/w/why3"
+	],
+	"Files": [
+		"1be000ae2508999aa93bab35fa338380 2435 why3_1.6.0-1.dsc 6b449abe1e485d6f3c12f81c59fc186c 6850062 why3_1.6.0.orig.tar.gz d42df719d11fbf5db922c63be258f0a3 18360 why3_1.6.0-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://why3.lri.fr/"
+	],
+	"Maintainer": [
+		"Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>"
+	],
+	"Package": [
+		"why3"
+	],
+	"Package-List": [
+		"libwhy3-ocaml-dev deb ocaml optional arch=any why3 deb math optional arch=any why3-doc-html deb math optional arch=all why3-doc-pdf deb math optional arch=all why3-examples deb math optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"alt-ergo, cvc4, spass, z3"
+	],
+	"Uploaders": [
+		"Ralf Treinen <treinen@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/ocaml-team/why3"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/ocaml-team/why3.git"
+	],
+	"Version": [
+		"1.6.0-1"
+	]
 }

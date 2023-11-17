@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "kodi, kodi-data, kodi-bin, kodi-eventclients-common, kodi-eventclients-dev, kodi-eventclients-wiiremote, kodi-eventclients-ps3, kodi-eventclients-kodi-send, kodi-addons-dev, xbmc, xbmc-bin, xbmc-eventclients-common, xbmc-eventclients-dev, xbmc-eventclients-wiiremote, xbmc-eventclients-ps3, xbmc-eventclients-xbmc-send, xbmc-addons-dev"
-  ],
-  "Build-Depends": [
-    "autoconf, automake, autopoint, autotools-dev, cmake, curl, debhelper (>= 10~), default-jre, dh-autoreconf, dh-python, doxygen, fontforge, fonts-dejavu-core, fonts-droid-fallback, gawk, gperf, groovy, inkscape, libasound2-dev | libasound-dev, libass-dev (>= 0.9.8), libavahi-client-dev, libavahi-common-dev, libavcodec-dev (>= 7:2.7.1), libavfilter-dev (>= 7:2.7.1), libavformat-dev (>= 7:2.7.1), libavresample-dev (>= 7:2.7.1), libavutil-dev (>= 7:2.7.1), libbluetooth-dev, libbluray-dev (>= 1:0.7.0), libboost-dev, libboost-thread-dev, libbz2-dev, libcap-dev, libcdio-dev, libcec-dev (>= 4~), libp8-platform-dev, libcommons-lang-java, libcurl4-gnutls-dev | libcurl-dev, libcwiid-dev [linux-any], libdbus-1-dev, libcrossguid-dev, libfontconfig-dev, libfreetype6-dev, libfribidi-dev, libgif-dev, libgles2-mesa-dev [armel armhf arm64] | libgl1-mesa-dev | libgl-dev, libglu1-mesa-dev | libglu-dev, libgtest-dev, libiso9660-dev, libjpeg-dev, liblcms2-dev, libltdl-dev, liblzo2-dev, libmicrohttpd-dev, libmodplug-dev, default-libmysqlclient-dev, libnfs-dev, libomxil-bellagio-dev [armel armhf arm64 mipsel mips], libpcre3-dev, libplist-dev, libpng-dev, libpostproc-dev (>= 7:2.7.1), libpulse-dev, libsdl2-dev, libsdl2-image-dev, libsdl2-mixer-dev, libshairport-dev, libsmbclient-dev, libsqlite3-dev, libssh-gcrypt-dev, libgcrypt-dev, libswscale-dev (>= 7:2.7.1), libtag1-dev (>= 1.8), libtinyxml-dev (>= 2.6.2), libtool, libudev-dev, libva-dev [!armel !armhf !arm64 !mipsel !mips], libvdpau-dev [!armel !armhf !arm64 !mipsel !mips], libxmu-dev, libxrandr-dev, libxslt1-dev, libxt-dev, libyajl-dev, nasm [i386], python-dev (>= 2.6.6-3~), python-imaging, swig, udev, unzip, uuid-dev, valgrind [amd64 i386], yasm, zip, zlib1g-dev"
-  ],
-  "Checksums-Sha256": [
-    "17cdad848ca5be42ecdba690a66e426f943d563d37475fc2a866499b40e2548b 5644 kodi_17.1+dfsg1-3.dsc 3ff45551e81378e994c5a2381962d35282570e303fa16357ecb98f6fb616fd3c 369621 kodi_17.1+dfsg1.orig-libdvdnav-5-0-3.tar.bz2 321cdf2dbdc83c96572bc583cd27d8c660ddb540ff16672ecb28607d018ed82b 394885 kodi_17.1+dfsg1.orig-libdvdread-5-0-3.tar.bz2 693fa280d5f5622b1d197332d37124fbc8dbde80204d25b6a7a3bf8d85fcfb0f 246480 kodi_17.1+dfsg1.orig-webinterface-default.tar.xz 5dff6fa08dc00278eea24868229bbe9da326a93c61d0ed578f6825cc7db92714 20483796 kodi_17.1+dfsg1.orig.tar.xz f142ac43faa808d990cc003586898a20358e48b2ca5d171c67e3d665a9acf069 39352 kodi_17.1+dfsg1-3.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/k/kodi"
-  ],
-  "Files": [
-    "93d1b1097e6cc77d79d5813d7c9336fc 5644 kodi_17.1+dfsg1-3.dsc 0b8eb73603514a9c39444c2235cdb45c 369621 kodi_17.1+dfsg1.orig-libdvdnav-5-0-3.tar.bz2 b7b7d2a782087ed2a913263087083715 394885 kodi_17.1+dfsg1.orig-libdvdread-5-0-3.tar.bz2 7cfcb00a22c55c023966ce7d9abc1f4a 246480 kodi_17.1+dfsg1.orig-webinterface-default.tar.xz ee79d7fd6ba0d4d363a894d62e7c2671 20483796 kodi_17.1+dfsg1.orig.tar.xz 5ee5638ea360e2f81e3c0ea0a9e94dab 39352 kodi_17.1+dfsg1-3.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://kodi.tv/"
-  ],
-  "Maintainer": [
-    "Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "kodi"
-  ],
-  "Package-List": [
-    "kodi deb video optional arch=any kodi-addons-dev deb libdevel optional arch=any kodi-bin deb video optional arch=any kodi-data deb video optional arch=all kodi-eventclients-common deb video optional arch=all kodi-eventclients-dev deb libdevel optional arch=all kodi-eventclients-kodi-send deb video optional arch=all kodi-eventclients-ps3 deb video optional arch=all kodi-eventclients-wiiremote deb video optional arch=any xbmc deb video optional arch=all xbmc-addons-dev deb video optional arch=all xbmc-bin deb video optional arch=any xbmc-eventclients-common deb video optional arch=all xbmc-eventclients-dev deb video optional arch=all xbmc-eventclients-ps3 deb video optional arch=all xbmc-eventclients-wiiremote deb video optional arch=any xbmc-eventclients-xbmc-send deb video optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Balint Reczey <rbalint@ubuntu.com>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-multimedia/kodi.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-multimedia/kodi.git"
-  ],
-  "Version": [
-    "2:17.1+dfsg1-3"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"kodi, kodi-data, kodi-bin, kodi-eventclients-common, kodi-eventclients-dev, kodi-eventclients-wiiremote, kodi-eventclients-ps3, kodi-eventclients-kodi-send, kodi-addons-dev, xbmc, xbmc-bin, xbmc-eventclients-common, xbmc-eventclients-dev, xbmc-eventclients-wiiremote, xbmc-eventclients-ps3, xbmc-eventclients-xbmc-send, xbmc-addons-dev"
+	],
+	"Build-Depends": [
+		"autoconf, automake, autopoint, autotools-dev, cmake, curl, debhelper (>= 10~), default-jre, dh-autoreconf, dh-python, doxygen, fontforge, fonts-dejavu-core, fonts-droid-fallback, gawk, gperf, groovy, inkscape, libasound2-dev | libasound-dev, libass-dev (>= 0.9.8), libavahi-client-dev, libavahi-common-dev, libavcodec-dev (>= 7:2.7.1), libavfilter-dev (>= 7:2.7.1), libavformat-dev (>= 7:2.7.1), libavresample-dev (>= 7:2.7.1), libavutil-dev (>= 7:2.7.1), libbluetooth-dev, libbluray-dev (>= 1:0.7.0), libboost-dev, libboost-thread-dev, libbz2-dev, libcap-dev, libcdio-dev, libcec-dev (>= 4~), libp8-platform-dev, libcommons-lang-java, libcurl4-gnutls-dev | libcurl-dev, libcwiid-dev [linux-any], libdbus-1-dev, libcrossguid-dev, libfontconfig-dev, libfreetype6-dev, libfribidi-dev, libgif-dev, libgles2-mesa-dev [armel armhf arm64] | libgl1-mesa-dev | libgl-dev, libglu1-mesa-dev | libglu-dev, libgtest-dev, libiso9660-dev, libjpeg-dev, liblcms2-dev, libltdl-dev, liblzo2-dev, libmicrohttpd-dev, libmodplug-dev, default-libmysqlclient-dev, libnfs-dev, libomxil-bellagio-dev [armel armhf arm64 mipsel mips], libpcre3-dev, libplist-dev, libpng-dev, libpostproc-dev (>= 7:2.7.1), libpulse-dev, libsdl2-dev, libsdl2-image-dev, libsdl2-mixer-dev, libshairport-dev, libsmbclient-dev, libsqlite3-dev, libssh-gcrypt-dev, libgcrypt-dev, libswscale-dev (>= 7:2.7.1), libtag1-dev (>= 1.8), libtinyxml-dev (>= 2.6.2), libtool, libudev-dev, libva-dev [!armel !armhf !arm64 !mipsel !mips], libvdpau-dev [!armel !armhf !arm64 !mipsel !mips], libxmu-dev, libxrandr-dev, libxslt1-dev, libxt-dev, libyajl-dev, nasm [i386], python-dev (>= 2.6.6-3~), python-imaging, swig, udev, unzip, uuid-dev, valgrind [amd64 i386], yasm, zip, zlib1g-dev"
+	],
+	"Checksums-Sha256": [
+		"17cdad848ca5be42ecdba690a66e426f943d563d37475fc2a866499b40e2548b 5644 kodi_17.1+dfsg1-3.dsc 3ff45551e81378e994c5a2381962d35282570e303fa16357ecb98f6fb616fd3c 369621 kodi_17.1+dfsg1.orig-libdvdnav-5-0-3.tar.bz2 321cdf2dbdc83c96572bc583cd27d8c660ddb540ff16672ecb28607d018ed82b 394885 kodi_17.1+dfsg1.orig-libdvdread-5-0-3.tar.bz2 693fa280d5f5622b1d197332d37124fbc8dbde80204d25b6a7a3bf8d85fcfb0f 246480 kodi_17.1+dfsg1.orig-webinterface-default.tar.xz 5dff6fa08dc00278eea24868229bbe9da326a93c61d0ed578f6825cc7db92714 20483796 kodi_17.1+dfsg1.orig.tar.xz f142ac43faa808d990cc003586898a20358e48b2ca5d171c67e3d665a9acf069 39352 kodi_17.1+dfsg1-3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/k/kodi"
+	],
+	"Files": [
+		"93d1b1097e6cc77d79d5813d7c9336fc 5644 kodi_17.1+dfsg1-3.dsc 0b8eb73603514a9c39444c2235cdb45c 369621 kodi_17.1+dfsg1.orig-libdvdnav-5-0-3.tar.bz2 b7b7d2a782087ed2a913263087083715 394885 kodi_17.1+dfsg1.orig-libdvdread-5-0-3.tar.bz2 7cfcb00a22c55c023966ce7d9abc1f4a 246480 kodi_17.1+dfsg1.orig-webinterface-default.tar.xz ee79d7fd6ba0d4d363a894d62e7c2671 20483796 kodi_17.1+dfsg1.orig.tar.xz 5ee5638ea360e2f81e3c0ea0a9e94dab 39352 kodi_17.1+dfsg1-3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://kodi.tv/"
+	],
+	"Maintainer": [
+		"Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"kodi"
+	],
+	"Package-List": [
+		"kodi deb video optional arch=any kodi-addons-dev deb libdevel optional arch=any kodi-bin deb video optional arch=any kodi-data deb video optional arch=all kodi-eventclients-common deb video optional arch=all kodi-eventclients-dev deb libdevel optional arch=all kodi-eventclients-kodi-send deb video optional arch=all kodi-eventclients-ps3 deb video optional arch=all kodi-eventclients-wiiremote deb video optional arch=any xbmc deb video optional arch=all xbmc-addons-dev deb video optional arch=all xbmc-bin deb video optional arch=any xbmc-eventclients-common deb video optional arch=all xbmc-eventclients-dev deb video optional arch=all xbmc-eventclients-ps3 deb video optional arch=all xbmc-eventclients-wiiremote deb video optional arch=any xbmc-eventclients-xbmc-send deb video optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Balint Reczey <rbalint@ubuntu.com>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-multimedia/kodi.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-multimedia/kodi.git"
+	],
+	"Version": [
+		"2:17.1+dfsg1-3"
+	]
 }

@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "slurm-wlm, slurm-client, slurmd, slurmctld, libslurmdb27, libslurm27, libpmi0, libslurm-dev, libslurmdb-dev, libpmi0-dev, slurm-wlm-doc, slurm-wlm-basic-plugins, slurm-wlm-basic-plugins-dev, sview, slurmdbd, libslurm-perl, libslurmdb-perl, slurm-wlm-torque, libpam-slurm, slurm-llnl, slurm-llnl-slurmdbd"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9.20130504), autotools-dev, libmunge-dev, libncurses5-dev, libssl-dev, po-debconf, python, libglade2-dev, libgtk2.0-dev, libmysqlclient-dev, libpam0g-dev, libperl-dev, chrpath, liblua5.1-0-dev, libhwloc-dev, dh-autoreconf, dh-exec, dh-systemd (>= 1.5)"
-  ],
-  "Checksums-Sha1": [
-    "513385d6ee0e3921f9ef72bd1dabfd13ef6959da 2976 slurm-llnl_14.03.9-5+deb8u5.dsc 60b855729334ddb4ec41531637039ab8950be792 8273638 slurm-llnl_14.03.9.orig.tar.gz bc275cd270c9ee8ff0d2895683f93cd082c19de0 56776 slurm-llnl_14.03.9-5+deb8u5.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "f9f53cfbf8b4c3194f4929da27f0923ae56725c903b1118011dea85b0e76e2df 2976 slurm-llnl_14.03.9-5+deb8u5.dsc dd2af77c4c37b1a3de3a24e59654323ff33c10368869d0c1471c433fa3be6eca 8273638 slurm-llnl_14.03.9.orig.tar.gz 234b3563272a0b09a6e3d2150d83387c22070b1cc8a2458969fbab255572bae8 56776 slurm-llnl_14.03.9-5+deb8u5.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/s/slurm-llnl"
-  ],
-  "Files": [
-    "9e989569775da67bd1da74423e0ab2f3 2976 slurm-llnl_14.03.9-5+deb8u5.dsc a7e219e5051e0652ac653c378cd2da3e 8273638 slurm-llnl_14.03.9.orig.tar.gz 597ee17674a39909b6d56e88df84ad3b 56776 slurm-llnl_14.03.9-5+deb8u5.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://slurm.schedmd.com"
-  ],
-  "Maintainer": [
-    "Gennaro Oliva <oliva.g@na.icar.cnr.it>"
-  ],
-  "Package": [
-    "slurm-llnl"
-  ],
-  "Package-List": [
-    "libpam-slurm deb admin extra arch=any libpmi0 deb libs extra arch=any libpmi0-dev deb libdevel extra arch=any libslurm-dev deb libdevel extra arch=any libslurm-perl deb perl extra arch=any libslurm27 deb libs extra arch=any libslurmdb-dev deb libdevel extra arch=any libslurmdb-perl deb perl extra arch=any libslurmdb27 deb libs extra arch=any slurm-client deb admin extra arch=any slurm-llnl deb oldlibs extra arch=all slurm-llnl-slurmdbd deb oldlibs extra arch=all slurm-wlm deb admin extra arch=any slurm-wlm-basic-plugins deb admin extra arch=any slurm-wlm-basic-plugins-dev deb devel extra arch=any slurm-wlm-doc deb doc extra arch=all slurm-wlm-torque deb admin extra arch=all slurmctld deb admin extra arch=any slurmd deb admin extra arch=any slurmdbd deb admin extra arch=any sview deb admin extra arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "admin"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Rémi Palancher <remi@rezib.org>, Mehdi Dogguy <mehdi@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/cgit/collab-maint/slurm-llnl.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/collab-maint/slurm-llnl.git"
-  ],
-  "Version": [
-    "14.03.9-5+deb8u5"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"slurm-wlm, slurm-client, slurmd, slurmctld, libslurmdb27, libslurm27, libpmi0, libslurm-dev, libslurmdb-dev, libpmi0-dev, slurm-wlm-doc, slurm-wlm-basic-plugins, slurm-wlm-basic-plugins-dev, sview, slurmdbd, libslurm-perl, libslurmdb-perl, slurm-wlm-torque, libpam-slurm, slurm-llnl, slurm-llnl-slurmdbd"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9.20130504), autotools-dev, libmunge-dev, libncurses5-dev, libssl-dev, po-debconf, python, libglade2-dev, libgtk2.0-dev, libmysqlclient-dev, libpam0g-dev, libperl-dev, chrpath, liblua5.1-0-dev, libhwloc-dev, dh-autoreconf, dh-exec, dh-systemd (>= 1.5)"
+	],
+	"Checksums-Sha1": [
+		"513385d6ee0e3921f9ef72bd1dabfd13ef6959da 2976 slurm-llnl_14.03.9-5+deb8u5.dsc 60b855729334ddb4ec41531637039ab8950be792 8273638 slurm-llnl_14.03.9.orig.tar.gz bc275cd270c9ee8ff0d2895683f93cd082c19de0 56776 slurm-llnl_14.03.9-5+deb8u5.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"f9f53cfbf8b4c3194f4929da27f0923ae56725c903b1118011dea85b0e76e2df 2976 slurm-llnl_14.03.9-5+deb8u5.dsc dd2af77c4c37b1a3de3a24e59654323ff33c10368869d0c1471c433fa3be6eca 8273638 slurm-llnl_14.03.9.orig.tar.gz 234b3563272a0b09a6e3d2150d83387c22070b1cc8a2458969fbab255572bae8 56776 slurm-llnl_14.03.9-5+deb8u5.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/s/slurm-llnl"
+	],
+	"Files": [
+		"9e989569775da67bd1da74423e0ab2f3 2976 slurm-llnl_14.03.9-5+deb8u5.dsc a7e219e5051e0652ac653c378cd2da3e 8273638 slurm-llnl_14.03.9.orig.tar.gz 597ee17674a39909b6d56e88df84ad3b 56776 slurm-llnl_14.03.9-5+deb8u5.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://slurm.schedmd.com"
+	],
+	"Maintainer": [
+		"Gennaro Oliva <oliva.g@na.icar.cnr.it>"
+	],
+	"Package": [
+		"slurm-llnl"
+	],
+	"Package-List": [
+		"libpam-slurm deb admin extra arch=any libpmi0 deb libs extra arch=any libpmi0-dev deb libdevel extra arch=any libslurm-dev deb libdevel extra arch=any libslurm-perl deb perl extra arch=any libslurm27 deb libs extra arch=any libslurmdb-dev deb libdevel extra arch=any libslurmdb-perl deb perl extra arch=any libslurmdb27 deb libs extra arch=any slurm-client deb admin extra arch=any slurm-llnl deb oldlibs extra arch=all slurm-llnl-slurmdbd deb oldlibs extra arch=all slurm-wlm deb admin extra arch=any slurm-wlm-basic-plugins deb admin extra arch=any slurm-wlm-basic-plugins-dev deb devel extra arch=any slurm-wlm-doc deb doc extra arch=all slurm-wlm-torque deb admin extra arch=all slurmctld deb admin extra arch=any slurmd deb admin extra arch=any slurmdbd deb admin extra arch=any sview deb admin extra arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"admin"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Rémi Palancher <remi@rezib.org>, Mehdi Dogguy <mehdi@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/cgit/collab-maint/slurm-llnl.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/collab-maint/slurm-llnl.git"
+	],
+	"Version": [
+		"14.03.9-5+deb8u5"
+	]
 }

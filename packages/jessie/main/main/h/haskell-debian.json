@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libghc-debian-dev, libghc-debian-prof, libghc-debian-doc, haskell-debian-utils"
-  ],
-  "Build-Conflicts": [
-    "libghc-parsec2-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), cdbs, haskell-devscripts (>= 0.8.15), ghc, ghc-prof, libghc-either-dev, libghc-either-prof, libghc-exceptions-dev, libghc-exceptions-prof, libghc-bzlib-dev, libghc-bzlib-prof, libghc-haxml-dev (>= 1:1.20), libghc-haxml-prof, libghc-listlike-dev (>= 4), libghc-listlike-prof, libghc-mtl-dev, libghc-mtl-prof, libghc-network-dev (>= 2.4), libghc-network-dev (<< 2.6), libghc-network-prof, libghc-parsec3-dev, libghc-parsec3-prof, libghc-process-extras-dev, libghc-process-extras-prof, libghc-puremd5-dev, libghc-puremd5-prof, libghc-regex-compat-dev, libghc-regex-compat-prof, libghc-regex-tdfa-dev, libghc-regex-tdfa-prof, libghc-text-dev, libghc-text-prof, libghc-unixutils-dev (>= 1.50), libghc-unixutils-prof, libghc-utf8-string-dev, libghc-utf8-string-prof, libghc-zlib-dev, libghc-zlib-prof"
-  ],
-  "Build-Depends-Indep": [
-    "ghc-doc, libghc-either-doc, libghc-exceptions-doc, libghc-mtl-doc, libghc-parsec3-doc, libghc-regex-compat-doc, libghc-regex-tdfa-doc, libghc-bzlib-doc, libghc-haxml-doc, libghc-listlike-doc, libghc-unixutils-doc, libghc-zlib-doc, libghc-network-doc, libghc-utf8-string-doc, libghc-process-extras-doc, libghc-puremd5-doc, libghc-text-doc"
-  ],
-  "Checksums-Sha1": [
-    "4ff9bfa975029e7e4bc07ac534b4604a39880d15 3404 haskell-debian_3.83.3.1-1.dsc 1589fc710851b9d7990a3b6c799c2e067774b6b7 68455 haskell-debian_3.83.3.1.orig.tar.gz 0dd2be765db0e2959e56ec187b208707454675bd 4964 haskell-debian_3.83.3.1-1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "f8a04549618b3ff934d4452ff883f3ccd8e3ebffe4d6db83b0070c145716e214 3404 haskell-debian_3.83.3.1-1.dsc ba9345db46641a270314fa155df0f9ec57db55800c8001f2ba4024d6c776edbd 68455 haskell-debian_3.83.3.1.orig.tar.gz d27c30d5aec72610a214d66a7119a76d16783031a694190141cb4db743634ade 4964 haskell-debian_3.83.3.1-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/h/haskell-debian"
-  ],
-  "Files": [
-    "b543a3b0ff0b3e63fa409d4cfabc1313 3404 haskell-debian_3.83.3.1-1.dsc 8a7324d640570b1281646e9a14bfa699 68455 haskell-debian_3.83.3.1.orig.tar.gz c607021c30d3c8b9b3a8cdd9a08e6b80 4964 haskell-debian_3.83.3.1-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://hackage.haskell.org/package/debian"
-  ],
-  "Maintainer": [
-    "Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "haskell-debian"
-  ],
-  "Package-List": [
-    "haskell-debian-utils deb devel extra arch=any libghc-debian-dev deb haskell extra arch=any libghc-debian-doc deb doc extra arch=all libghc-debian-prof deb haskell extra arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "haskell"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Uploaders": [
-    "Joachim Breitner <nomeata@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://darcs.debian.org/cgi-bin/darcsweb.cgi?r=pkg-haskell/haskell-debian"
-  ],
-  "Vcs-Darcs": [
-    "http://darcs.debian.org/pkg-haskell/haskell-debian"
-  ],
-  "Version": [
-    "3.83.3.1-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libghc-debian-dev, libghc-debian-prof, libghc-debian-doc, haskell-debian-utils"
+	],
+	"Build-Conflicts": [
+		"libghc-parsec2-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), cdbs, haskell-devscripts (>= 0.8.15), ghc, ghc-prof, libghc-either-dev, libghc-either-prof, libghc-exceptions-dev, libghc-exceptions-prof, libghc-bzlib-dev, libghc-bzlib-prof, libghc-haxml-dev (>= 1:1.20), libghc-haxml-prof, libghc-listlike-dev (>= 4), libghc-listlike-prof, libghc-mtl-dev, libghc-mtl-prof, libghc-network-dev (>= 2.4), libghc-network-dev (<< 2.6), libghc-network-prof, libghc-parsec3-dev, libghc-parsec3-prof, libghc-process-extras-dev, libghc-process-extras-prof, libghc-puremd5-dev, libghc-puremd5-prof, libghc-regex-compat-dev, libghc-regex-compat-prof, libghc-regex-tdfa-dev, libghc-regex-tdfa-prof, libghc-text-dev, libghc-text-prof, libghc-unixutils-dev (>= 1.50), libghc-unixutils-prof, libghc-utf8-string-dev, libghc-utf8-string-prof, libghc-zlib-dev, libghc-zlib-prof"
+	],
+	"Build-Depends-Indep": [
+		"ghc-doc, libghc-either-doc, libghc-exceptions-doc, libghc-mtl-doc, libghc-parsec3-doc, libghc-regex-compat-doc, libghc-regex-tdfa-doc, libghc-bzlib-doc, libghc-haxml-doc, libghc-listlike-doc, libghc-unixutils-doc, libghc-zlib-doc, libghc-network-doc, libghc-utf8-string-doc, libghc-process-extras-doc, libghc-puremd5-doc, libghc-text-doc"
+	],
+	"Checksums-Sha1": [
+		"4ff9bfa975029e7e4bc07ac534b4604a39880d15 3404 haskell-debian_3.83.3.1-1.dsc 1589fc710851b9d7990a3b6c799c2e067774b6b7 68455 haskell-debian_3.83.3.1.orig.tar.gz 0dd2be765db0e2959e56ec187b208707454675bd 4964 haskell-debian_3.83.3.1-1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"f8a04549618b3ff934d4452ff883f3ccd8e3ebffe4d6db83b0070c145716e214 3404 haskell-debian_3.83.3.1-1.dsc ba9345db46641a270314fa155df0f9ec57db55800c8001f2ba4024d6c776edbd 68455 haskell-debian_3.83.3.1.orig.tar.gz d27c30d5aec72610a214d66a7119a76d16783031a694190141cb4db743634ade 4964 haskell-debian_3.83.3.1-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/h/haskell-debian"
+	],
+	"Files": [
+		"b543a3b0ff0b3e63fa409d4cfabc1313 3404 haskell-debian_3.83.3.1-1.dsc 8a7324d640570b1281646e9a14bfa699 68455 haskell-debian_3.83.3.1.orig.tar.gz c607021c30d3c8b9b3a8cdd9a08e6b80 4964 haskell-debian_3.83.3.1-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://hackage.haskell.org/package/debian"
+	],
+	"Maintainer": [
+		"Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"haskell-debian"
+	],
+	"Package-List": [
+		"haskell-debian-utils deb devel extra arch=any libghc-debian-dev deb haskell extra arch=any libghc-debian-doc deb doc extra arch=all libghc-debian-prof deb haskell extra arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"haskell"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Uploaders": [
+		"Joachim Breitner <nomeata@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://darcs.debian.org/cgi-bin/darcsweb.cgi?r=pkg-haskell/haskell-debian"
+	],
+	"Vcs-Darcs": [
+		"http://darcs.debian.org/pkg-haskell/haskell-debian"
+	],
+	"Version": [
+		"3.83.3.1-1"
+	]
 }

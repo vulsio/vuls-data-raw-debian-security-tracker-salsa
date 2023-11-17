@@ -1,68 +1,68 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "apache2, apache2-data, apache2-bin, apache2-utils, apache2-suexec-pristine, apache2-suexec-custom, apache2-doc, apache2-dev, apache2-ssl-dev, apache2-dbg"
-  ],
-  "Build-Conflicts": [
-    "autoconf2.13"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9.20131213~), lsb-release, dpkg-dev (>= 1.16.1~), libaprutil1-dev (>= 1.5.0), libapr1-dev (>= 1.5.0), libpcre3-dev, zlib1g-dev, libnghttp2-dev, libssl1.0-dev | libssl-dev (<< 1.1), perl, liblua5.2-dev, libxml2-dev, autotools-dev, gawk | awk, dh-systemd"
-  ],
-  "Checksums-Sha1": [
-    "5dd0a53ab6e95fc31e91e70c73da7aeefe2f13f8 2990 apache2_2.4.25-3+deb9u13.dsc bd6d138c31c109297da2346c6e7b93b9283993d2 6398218 apache2_2.4.25.orig.tar.bz2 ee0d213570f25e33e02ef5ee904d8c0b636b14bd 829032 apache2_2.4.25-3+deb9u13.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "ffb4924f69b031617a52070c6a63984c7f21a02bc03bae1bf03a66e0cf077042 2990 apache2_2.4.25-3+deb9u13.dsc f87ec2df1c9fee3e6bfde3c8b855a3ddb7ca1ab20ca877bd0e2b6bf3f05c80b2 6398218 apache2_2.4.25.orig.tar.bz2 4d513ae8a99d64225d2ad289ef7b4255ca1c00776846d95cbf95d49c960c0f9a 829032 apache2_2.4.25-3+deb9u13.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/a/apache2"
-  ],
-  "Files": [
-    "e0dacd49d34c0e9293effb3ec5b3a74b 2990 apache2_2.4.25-3+deb9u13.dsc 2826f49619112ad5813c0be5afcc7ddb 6398218 apache2_2.4.25.orig.tar.bz2 3bedabc15b83b457ff1307a321145750 829032 apache2_2.4.25-3+deb9u13.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://httpd.apache.org/"
-  ],
-  "Maintainer": [
-    "Debian Apache Maintainers <debian-apache@lists.debian.org>"
-  ],
-  "Package": [
-    "apache2"
-  ],
-  "Package-List": [
-    "apache2 deb httpd optional arch=any apache2-bin deb httpd optional arch=any apache2-data deb httpd optional arch=all apache2-dbg deb debug extra arch=any apache2-dev deb httpd optional arch=any apache2-doc deb doc optional arch=all apache2-ssl-dev deb httpd optional arch=any apache2-suexec-custom deb httpd extra arch=any apache2-suexec-pristine deb httpd optional arch=any apache2-utils deb httpd optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "httpd"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential, curl, dpkg-dev, expect, libanyevent-perl, libcrypt-ssleay-perl, libdatetime-perl, libhttp-dav-perl, libnet-ssleay-perl, libwww-perl, ssl-cert, wget"
-  ],
-  "Uploaders": [
-    "Stefan Fritsch <sf@debian.org>, Arno Töll <arno@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-apache/apache2.git/"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-apache/apache2.git"
-  ],
-  "Version": [
-    "2.4.25-3+deb9u13"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"apache2, apache2-data, apache2-bin, apache2-utils, apache2-suexec-pristine, apache2-suexec-custom, apache2-doc, apache2-dev, apache2-ssl-dev, apache2-dbg"
+	],
+	"Build-Conflicts": [
+		"autoconf2.13"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9.20131213~), lsb-release, dpkg-dev (>= 1.16.1~), libaprutil1-dev (>= 1.5.0), libapr1-dev (>= 1.5.0), libpcre3-dev, zlib1g-dev, libnghttp2-dev, libssl1.0-dev | libssl-dev (<< 1.1), perl, liblua5.2-dev, libxml2-dev, autotools-dev, gawk | awk, dh-systemd"
+	],
+	"Checksums-Sha1": [
+		"5dd0a53ab6e95fc31e91e70c73da7aeefe2f13f8 2990 apache2_2.4.25-3+deb9u13.dsc bd6d138c31c109297da2346c6e7b93b9283993d2 6398218 apache2_2.4.25.orig.tar.bz2 ee0d213570f25e33e02ef5ee904d8c0b636b14bd 829032 apache2_2.4.25-3+deb9u13.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"ffb4924f69b031617a52070c6a63984c7f21a02bc03bae1bf03a66e0cf077042 2990 apache2_2.4.25-3+deb9u13.dsc f87ec2df1c9fee3e6bfde3c8b855a3ddb7ca1ab20ca877bd0e2b6bf3f05c80b2 6398218 apache2_2.4.25.orig.tar.bz2 4d513ae8a99d64225d2ad289ef7b4255ca1c00776846d95cbf95d49c960c0f9a 829032 apache2_2.4.25-3+deb9u13.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/a/apache2"
+	],
+	"Files": [
+		"e0dacd49d34c0e9293effb3ec5b3a74b 2990 apache2_2.4.25-3+deb9u13.dsc 2826f49619112ad5813c0be5afcc7ddb 6398218 apache2_2.4.25.orig.tar.bz2 3bedabc15b83b457ff1307a321145750 829032 apache2_2.4.25-3+deb9u13.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://httpd.apache.org/"
+	],
+	"Maintainer": [
+		"Debian Apache Maintainers <debian-apache@lists.debian.org>"
+	],
+	"Package": [
+		"apache2"
+	],
+	"Package-List": [
+		"apache2 deb httpd optional arch=any apache2-bin deb httpd optional arch=any apache2-data deb httpd optional arch=all apache2-dbg deb debug extra arch=any apache2-dev deb httpd optional arch=any apache2-doc deb doc optional arch=all apache2-ssl-dev deb httpd optional arch=any apache2-suexec-custom deb httpd extra arch=any apache2-suexec-pristine deb httpd optional arch=any apache2-utils deb httpd optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"httpd"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, curl, dpkg-dev, expect, libanyevent-perl, libcrypt-ssleay-perl, libdatetime-perl, libhttp-dav-perl, libnet-ssleay-perl, libwww-perl, ssl-cert, wget"
+	],
+	"Uploaders": [
+		"Stefan Fritsch <sf@debian.org>, Arno Töll <arno@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-apache/apache2.git/"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-apache/apache2.git"
+	],
+	"Version": [
+		"2.4.25-3+deb9u13"
+	]
 }

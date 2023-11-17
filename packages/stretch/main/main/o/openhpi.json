@@ -1,50 +1,50 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libopenhpi3, libopenhpi-dev, openhpid, openhpi-clients, openhpi-plugin-ilo2-ribcl, openhpi-plugin-ipmi, openhpi-plugin-ipmidirect, openhpi-plugin-oa-soap, openhpi-plugin-slave, openhpi-plugin-test-agent, openhpi-plugin-snmp-bc, openhpi-plugin-sysfs, openhpi-plugin-watchdog, openhpi-plugin-simulator, openhpi-plugin-dynamic-simulator, openhpi"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dpkg-dev (>= 1.16.1~), autotools-dev, autoconf (>= 2.57), dh-autoreconf, automake (>= 1.9), uuid-dev, libglib2.0-dev (>= 2.2), pkg-config, libltdl-dev, openipmi (>= 2.0.7), libopenipmi-dev (>= 2.0.7), libsnmp-dev, libssl1.0-dev | libssl-dev (<< 1.1.0~), libsysfs-dev (>= 0.3), libncurses5-dev, libxml2-dev"
-  ],
-  "Checksums-Sha256": [
-    "3ada473cac153f643394e6eba466e829a4a9a32e6ae8cf345065c067c917fa3c 3137 openhpi_3.6.1-2.2.dsc dc4fdb6b4cd7fd502620466b3f817de0719038ef851b7e0ffc4550ded1b986a7 7076533 openhpi_3.6.1.orig.tar.gz ad8e60d6598531c8852bed92f8b5fef8b7f7c66788c09efe64bfe1517dda2f91 14568 openhpi_3.6.1-2.2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/o/openhpi"
-  ],
-  "Files": [
-    "e915ddaf80f8786b97ca37df9e0fddb5 3137 openhpi_3.6.1-2.2.dsc 28b2ceea424618d0ec906195f9ca1611 7076533 openhpi_3.6.1.orig.tar.gz cebce5a517f5af7eb3fa9d0e53665958 14568 openhpi_3.6.1-2.2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://openhpi.org"
-  ],
-  "Maintainer": [
-    "Bryan Sutula <bryan.sutula@hpe.com>"
-  ],
-  "Package": [
-    "openhpi"
-  ],
-  "Package-List": [
-    "libopenhpi-dev deb libdevel optional arch=any libopenhpi3 deb libs optional arch=any openhpi deb admin extra arch=all openhpi-clients deb admin optional arch=any openhpi-plugin-dynamic-simulator deb libs optional arch=linux-any openhpi-plugin-ilo2-ribcl deb libs optional arch=any openhpi-plugin-ipmi deb libs optional arch=any openhpi-plugin-ipmidirect deb libs optional arch=any openhpi-plugin-oa-soap deb libs optional arch=any openhpi-plugin-simulator deb libs optional arch=linux-any openhpi-plugin-slave deb libs optional arch=any openhpi-plugin-snmp-bc deb libs optional arch=any openhpi-plugin-sysfs deb libs extra arch=linux-any openhpi-plugin-test-agent deb libs optional arch=any openhpi-plugin-watchdog deb libs optional arch=linux-any openhpid deb admin optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "admin"
-  ],
-  "Standards-Version": [
-    "3.9.7"
-  ],
-  "Uploaders": [
-    "Khalid Aziz <khalid@debian.org>"
-  ],
-  "Version": [
-    "3.6.1-2.2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libopenhpi3, libopenhpi-dev, openhpid, openhpi-clients, openhpi-plugin-ilo2-ribcl, openhpi-plugin-ipmi, openhpi-plugin-ipmidirect, openhpi-plugin-oa-soap, openhpi-plugin-slave, openhpi-plugin-test-agent, openhpi-plugin-snmp-bc, openhpi-plugin-sysfs, openhpi-plugin-watchdog, openhpi-plugin-simulator, openhpi-plugin-dynamic-simulator, openhpi"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dpkg-dev (>= 1.16.1~), autotools-dev, autoconf (>= 2.57), dh-autoreconf, automake (>= 1.9), uuid-dev, libglib2.0-dev (>= 2.2), pkg-config, libltdl-dev, openipmi (>= 2.0.7), libopenipmi-dev (>= 2.0.7), libsnmp-dev, libssl1.0-dev | libssl-dev (<< 1.1.0~), libsysfs-dev (>= 0.3), libncurses5-dev, libxml2-dev"
+	],
+	"Checksums-Sha256": [
+		"3ada473cac153f643394e6eba466e829a4a9a32e6ae8cf345065c067c917fa3c 3137 openhpi_3.6.1-2.2.dsc dc4fdb6b4cd7fd502620466b3f817de0719038ef851b7e0ffc4550ded1b986a7 7076533 openhpi_3.6.1.orig.tar.gz ad8e60d6598531c8852bed92f8b5fef8b7f7c66788c09efe64bfe1517dda2f91 14568 openhpi_3.6.1-2.2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/o/openhpi"
+	],
+	"Files": [
+		"e915ddaf80f8786b97ca37df9e0fddb5 3137 openhpi_3.6.1-2.2.dsc 28b2ceea424618d0ec906195f9ca1611 7076533 openhpi_3.6.1.orig.tar.gz cebce5a517f5af7eb3fa9d0e53665958 14568 openhpi_3.6.1-2.2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://openhpi.org"
+	],
+	"Maintainer": [
+		"Bryan Sutula <bryan.sutula@hpe.com>"
+	],
+	"Package": [
+		"openhpi"
+	],
+	"Package-List": [
+		"libopenhpi-dev deb libdevel optional arch=any libopenhpi3 deb libs optional arch=any openhpi deb admin extra arch=all openhpi-clients deb admin optional arch=any openhpi-plugin-dynamic-simulator deb libs optional arch=linux-any openhpi-plugin-ilo2-ribcl deb libs optional arch=any openhpi-plugin-ipmi deb libs optional arch=any openhpi-plugin-ipmidirect deb libs optional arch=any openhpi-plugin-oa-soap deb libs optional arch=any openhpi-plugin-simulator deb libs optional arch=linux-any openhpi-plugin-slave deb libs optional arch=any openhpi-plugin-snmp-bc deb libs optional arch=any openhpi-plugin-sysfs deb libs extra arch=linux-any openhpi-plugin-test-agent deb libs optional arch=any openhpi-plugin-watchdog deb libs optional arch=linux-any openhpid deb admin optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"admin"
+	],
+	"Standards-Version": [
+		"3.9.7"
+	],
+	"Uploaders": [
+		"Khalid Aziz <khalid@debian.org>"
+	],
+	"Version": [
+		"3.6.1-2.2"
+	]
 }

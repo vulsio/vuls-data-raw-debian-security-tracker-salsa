@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "yaws, erlang-yaws, yaws-doc, yaws-chat, yaws-mail, yaws-wiki, yaws-yapp"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 8.9.7), autotools-dev, libpam0g-dev, erlang-dev (>= 1:13.b.1-3), erlang-edoc, erlang-mnesia"
-  ],
-  "Build-Depends-Indep": [
-    "texlive-latex-base, texlive-latex-recommended, texlive-fonts-recommended, texlive-font-utils, texlive-extra-utils, ghostscript"
-  ],
-  "Checksums-Sha1": [
-    "666382354ea5cc4dee784dd70b9e5ec2ac70ac92 2399 yaws_1.98-4+deb8u1.dsc 062d575183c06d4c37e7b155a9e6313117e5daab 1235022 yaws_1.98.orig.tar.gz a028d4570d677a9b6af3804139440866ccac2984 20000 yaws_1.98-4+deb8u1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "64452219ad8446d82e02bbbfd22b71835c1dc3fcf941820ce2046d5be96fb408 2399 yaws_1.98-4+deb8u1.dsc b7eaaab6030200c16f2901cda9f40bfddd608f5152581c1d30be1ea448d5f18e 1235022 yaws_1.98.orig.tar.gz a34cc4bee71518d5f7d8d0b889604465e4b1e92d4c1e1cc6eb35d4f57c286501 20000 yaws_1.98-4+deb8u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/y/yaws"
-  ],
-  "Files": [
-    "7a43a318cdbba77377384ff252bf83f7 2399 yaws_1.98-4+deb8u1.dsc 38d43a797c816ef8e63ac5593ce73e8b 1235022 yaws_1.98.orig.tar.gz cc32b35b2b82521bab91405d8b68a292 20000 yaws_1.98-4+deb8u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://yaws.hyber.org/"
-  ],
-  "Maintainer": [
-    "Debian Erlang Packagers <pkg-erlang-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "yaws"
-  ],
-  "Package-List": [
-    "erlang-yaws deb httpd optional arch=any yaws deb httpd optional arch=all yaws-chat deb web optional arch=all yaws-doc deb doc optional arch=all yaws-mail deb web optional arch=all yaws-wiki deb web optional arch=all yaws-yapp deb web optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "httpd"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Uploaders": [
-    "Sergei Golovan <sgolovan@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://svn.debian.org/wsvn/pkg-erlang/yaws/trunk/"
-  ],
-  "Vcs-Svn": [
-    "svn://svn.debian.org//svn/pkg-erlang/yaws/trunk/"
-  ],
-  "Version": [
-    "1.98-4+deb8u1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"yaws, erlang-yaws, yaws-doc, yaws-chat, yaws-mail, yaws-wiki, yaws-yapp"
+	],
+	"Build-Depends": [
+		"debhelper (>= 8.9.7), autotools-dev, libpam0g-dev, erlang-dev (>= 1:13.b.1-3), erlang-edoc, erlang-mnesia"
+	],
+	"Build-Depends-Indep": [
+		"texlive-latex-base, texlive-latex-recommended, texlive-fonts-recommended, texlive-font-utils, texlive-extra-utils, ghostscript"
+	],
+	"Checksums-Sha1": [
+		"666382354ea5cc4dee784dd70b9e5ec2ac70ac92 2399 yaws_1.98-4+deb8u1.dsc 062d575183c06d4c37e7b155a9e6313117e5daab 1235022 yaws_1.98.orig.tar.gz a028d4570d677a9b6af3804139440866ccac2984 20000 yaws_1.98-4+deb8u1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"64452219ad8446d82e02bbbfd22b71835c1dc3fcf941820ce2046d5be96fb408 2399 yaws_1.98-4+deb8u1.dsc b7eaaab6030200c16f2901cda9f40bfddd608f5152581c1d30be1ea448d5f18e 1235022 yaws_1.98.orig.tar.gz a34cc4bee71518d5f7d8d0b889604465e4b1e92d4c1e1cc6eb35d4f57c286501 20000 yaws_1.98-4+deb8u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/y/yaws"
+	],
+	"Files": [
+		"7a43a318cdbba77377384ff252bf83f7 2399 yaws_1.98-4+deb8u1.dsc 38d43a797c816ef8e63ac5593ce73e8b 1235022 yaws_1.98.orig.tar.gz cc32b35b2b82521bab91405d8b68a292 20000 yaws_1.98-4+deb8u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://yaws.hyber.org/"
+	],
+	"Maintainer": [
+		"Debian Erlang Packagers <pkg-erlang-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"yaws"
+	],
+	"Package-List": [
+		"erlang-yaws deb httpd optional arch=any yaws deb httpd optional arch=all yaws-chat deb web optional arch=all yaws-doc deb doc optional arch=all yaws-mail deb web optional arch=all yaws-wiki deb web optional arch=all yaws-yapp deb web optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"httpd"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Uploaders": [
+		"Sergei Golovan <sgolovan@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://svn.debian.org/wsvn/pkg-erlang/yaws/trunk/"
+	],
+	"Vcs-Svn": [
+		"svn://svn.debian.org//svn/pkg-erlang/yaws/trunk/"
+	],
+	"Version": [
+		"1.98-4+deb8u1"
+	]
 }

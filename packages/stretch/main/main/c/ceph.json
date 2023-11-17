@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "linux-any all"
-  ],
-  "Binary": [
-    "ceph, ceph-base, rbd-mirror, rbd-nbd, ceph-common, ceph-mds, ceph-mon, ceph-osd, ceph-fuse, rbd-fuse, ceph-fs-common, ceph-resource-agents, librados2, librados-dev, libradosstriper1, libradosstriper-dev, librbd1, librbd-dev, libcephfs1, libcephfs-dev, librgw2, librgw-dev, radosgw, ceph-test, python-ceph, python-rados, python-rbd, python-cephfs, libcephfs-java, libcephfs-jni"
-  ],
-  "Build-Conflicts": [
-    "libcrypto++-dev"
-  ],
-  "Build-Depends": [
-    "cython, debhelper (>= 9~), default-jdk, dh-autoreconf, dh-python, dh-systemd (>= 1.5), dpkg-dev (>= 1.16.1~), javahelper, junit4, libaio-dev, libatomic-ops-dev, libbabeltrace-ctf-dev, libbabeltrace-dev, libblkid-dev, libboost-dev (>= 1.42), libboost-iostreams-dev, libboost-program-options-dev (>= 1.42), libboost-random-dev, libboost-regex-dev, libboost-system-dev (>= 1.42), libboost-thread-dev (>= 1.42), libbz2-dev, libcurl4-gnutls-dev, libedit-dev, libexpat1-dev, libfcgi-dev, libfuse-dev, libgoogle-perftools-dev [i386 amd64 powerpc armhf arm64 ppc64el], libkeyutils-dev, libldap2-dev, libleveldb-dev, libnss3-dev, libsnappy-dev, libssl-dev, libtool, libudev-dev, libxml2-dev, lsb-release, pkg-config, python-all (>= 2.6.6-3~), python-dev, python-nose, python-setuptools, python-sphinx, uuid-dev, uuid-runtime, valgrind [amd64 armhf i386 powerpc], xfslibs-dev, xfsprogs, yasm [amd64], zlib1g-dev"
-  ],
-  "Checksums-Sha256": [
-    "040ceb7a8f348f809f710fe514f1c3d9dfc548a4d4baa9f8b5e3daf4f3de12c8 4285 ceph_10.2.11-2.dsc 91c7dd7c3c6b39c4f82cdfae3379e3562b18d6bcda6ea9423649272b0d90d7fd 15063671 ceph_10.2.11.orig.tar.gz 226a79fe8f452e93ae48a67495f32e8f2296a7066ada9c4b958e87fc464905e0 54252 ceph_10.2.11-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/c/ceph"
-  ],
-  "Files": [
-    "f50043c36c59b75ee74dfbde8cc69b4a 4285 ceph_10.2.11-2.dsc 09d18eb8d8d06893e9496657f03427a0 15063671 ceph_10.2.11.orig.tar.gz cda7bfbb3934abe1b2b33847e708967f 54252 ceph_10.2.11-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://ceph.com/"
-  ],
-  "Maintainer": [
-    "Ceph Maintainers <ceph-maintainers@lists.ceph.com>"
-  ],
-  "Package": [
-    "ceph"
-  ],
-  "Package-List": [
-    "ceph deb admin optional arch=linux-any ceph-base deb admin optional arch=linux-any ceph-common deb admin optional arch=linux-any ceph-fs-common deb admin optional arch=linux-any ceph-fuse deb admin optional arch=amd64 ceph-mds deb admin optional arch=linux-any ceph-mon deb admin optional arch=linux-any ceph-osd deb admin optional arch=linux-any ceph-resource-agents deb admin extra arch=all ceph-test deb admin optional arch=linux-any libcephfs-dev deb libdevel optional arch=linux-any libcephfs-java deb java optional arch=all libcephfs-jni deb libs optional arch=linux-any libcephfs1 deb libs optional arch=linux-any librados-dev deb libdevel optional arch=linux-any librados2 deb libs optional arch=linux-any libradosstriper-dev deb libdevel optional arch=linux-any libradosstriper1 deb libs optional arch=linux-any librbd-dev deb libdevel optional arch=linux-any librbd1 deb libs optional arch=linux-any librgw-dev deb libdevel optional arch=linux-any librgw2 deb libs optional arch=linux-any python-ceph deb python optional arch=all python-cephfs deb python optional arch=linux-any python-rados deb python optional arch=linux-any python-rbd deb python optional arch=linux-any radosgw deb admin optional arch=linux-any rbd-fuse deb admin optional arch=linux-any rbd-mirror deb admin optional arch=linux-any rbd-nbd deb admin optional arch=linux-any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "admin"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential"
-  ],
-  "Uploaders": [
-    "James Page <jamespage@debian.org>, Gaudenz Steinlin <gaudenz@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-ceph/ceph.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-ceph/ceph.git"
-  ],
-  "Version": [
-    "10.2.11-2"
-  ]
+	"Architecture": [
+		"linux-any all"
+	],
+	"Binary": [
+		"ceph, ceph-base, rbd-mirror, rbd-nbd, ceph-common, ceph-mds, ceph-mon, ceph-osd, ceph-fuse, rbd-fuse, ceph-fs-common, ceph-resource-agents, librados2, librados-dev, libradosstriper1, libradosstriper-dev, librbd1, librbd-dev, libcephfs1, libcephfs-dev, librgw2, librgw-dev, radosgw, ceph-test, python-ceph, python-rados, python-rbd, python-cephfs, libcephfs-java, libcephfs-jni"
+	],
+	"Build-Conflicts": [
+		"libcrypto++-dev"
+	],
+	"Build-Depends": [
+		"cython, debhelper (>= 9~), default-jdk, dh-autoreconf, dh-python, dh-systemd (>= 1.5), dpkg-dev (>= 1.16.1~), javahelper, junit4, libaio-dev, libatomic-ops-dev, libbabeltrace-ctf-dev, libbabeltrace-dev, libblkid-dev, libboost-dev (>= 1.42), libboost-iostreams-dev, libboost-program-options-dev (>= 1.42), libboost-random-dev, libboost-regex-dev, libboost-system-dev (>= 1.42), libboost-thread-dev (>= 1.42), libbz2-dev, libcurl4-gnutls-dev, libedit-dev, libexpat1-dev, libfcgi-dev, libfuse-dev, libgoogle-perftools-dev [i386 amd64 powerpc armhf arm64 ppc64el], libkeyutils-dev, libldap2-dev, libleveldb-dev, libnss3-dev, libsnappy-dev, libssl-dev, libtool, libudev-dev, libxml2-dev, lsb-release, pkg-config, python-all (>= 2.6.6-3~), python-dev, python-nose, python-setuptools, python-sphinx, uuid-dev, uuid-runtime, valgrind [amd64 armhf i386 powerpc], xfslibs-dev, xfsprogs, yasm [amd64], zlib1g-dev"
+	],
+	"Checksums-Sha256": [
+		"040ceb7a8f348f809f710fe514f1c3d9dfc548a4d4baa9f8b5e3daf4f3de12c8 4285 ceph_10.2.11-2.dsc 91c7dd7c3c6b39c4f82cdfae3379e3562b18d6bcda6ea9423649272b0d90d7fd 15063671 ceph_10.2.11.orig.tar.gz 226a79fe8f452e93ae48a67495f32e8f2296a7066ada9c4b958e87fc464905e0 54252 ceph_10.2.11-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/c/ceph"
+	],
+	"Files": [
+		"f50043c36c59b75ee74dfbde8cc69b4a 4285 ceph_10.2.11-2.dsc 09d18eb8d8d06893e9496657f03427a0 15063671 ceph_10.2.11.orig.tar.gz cda7bfbb3934abe1b2b33847e708967f 54252 ceph_10.2.11-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://ceph.com/"
+	],
+	"Maintainer": [
+		"Ceph Maintainers <ceph-maintainers@lists.ceph.com>"
+	],
+	"Package": [
+		"ceph"
+	],
+	"Package-List": [
+		"ceph deb admin optional arch=linux-any ceph-base deb admin optional arch=linux-any ceph-common deb admin optional arch=linux-any ceph-fs-common deb admin optional arch=linux-any ceph-fuse deb admin optional arch=amd64 ceph-mds deb admin optional arch=linux-any ceph-mon deb admin optional arch=linux-any ceph-osd deb admin optional arch=linux-any ceph-resource-agents deb admin extra arch=all ceph-test deb admin optional arch=linux-any libcephfs-dev deb libdevel optional arch=linux-any libcephfs-java deb java optional arch=all libcephfs-jni deb libs optional arch=linux-any libcephfs1 deb libs optional arch=linux-any librados-dev deb libdevel optional arch=linux-any librados2 deb libs optional arch=linux-any libradosstriper-dev deb libdevel optional arch=linux-any libradosstriper1 deb libs optional arch=linux-any librbd-dev deb libdevel optional arch=linux-any librbd1 deb libs optional arch=linux-any librgw-dev deb libdevel optional arch=linux-any librgw2 deb libs optional arch=linux-any python-ceph deb python optional arch=all python-cephfs deb python optional arch=linux-any python-rados deb python optional arch=linux-any python-rbd deb python optional arch=linux-any radosgw deb admin optional arch=linux-any rbd-fuse deb admin optional arch=linux-any rbd-mirror deb admin optional arch=linux-any rbd-nbd deb admin optional arch=linux-any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"admin"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential"
+	],
+	"Uploaders": [
+		"James Page <jamespage@debian.org>, Gaudenz Steinlin <gaudenz@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-ceph/ceph.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-ceph/ceph.git"
+	],
+	"Version": [
+		"10.2.11-2"
+	]
 }

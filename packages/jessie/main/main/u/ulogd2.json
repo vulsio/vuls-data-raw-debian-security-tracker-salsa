@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "linux-any"
-  ],
-  "Binary": [
-    "ulogd2, ulogd2-dbi, ulogd2-json, ulogd2-mysql, ulogd2-pcap, ulogd2-pgsql, ulogd2-sqlite3, ulogd2-dbg, ulogd, ulogd-mysql, ulogd-pgsql, ulogd-pcap, ulogd-sqlite3"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-autoreconf, pkg-config, libnfnetlink-dev (>= 1.0.1), libmnl-dev, libnetfilter-acct-dev, libnetfilter-conntrack-dev (>= 1.0.2), libnetfilter-log-dev, libmysqlclient-dev, libpq-dev, libsqlite3-dev, libdbi-dev, libpcap-dev, linuxdoc-tools, groff, dh-systemd (>= 1.5), libjansson-dev"
-  ],
-  "Checksums-Sha1": [
-    "52ae2dfc6c8a07e53ec1bcf61c7955584f165743 2972 ulogd2_2.0.4-2+deb8u1.dsc f5e09d9e9a6c7ab8966d22ed8d6e90196aab3fb3 452234 ulogd2_2.0.4.orig.tar.bz2 d26954a007bd36092a462082f06b9b000b849770 14772 ulogd2_2.0.4-2+deb8u1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "d700a3e01b4baa09cb179a2eb5789eab8234d88c647ac9518f3eacfcf9c8ac6a 2972 ulogd2_2.0.4-2+deb8u1.dsc 56b30a13a8832e97178f39b7bb173a0b1dfe173dbb60d99a1a386c0962a2effd 452234 ulogd2_2.0.4.orig.tar.bz2 92c62cd2ffc3847723e3d3743c5849940df7ef6d0cbd278ec464818df5fa58a7 14772 ulogd2_2.0.4-2+deb8u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/u/ulogd2"
-  ],
-  "Files": [
-    "aa3d18039fec2e22e33744660f57e986 2972 ulogd2_2.0.4-2+deb8u1.dsc 7c71ec460dfea5287eba27472c521ebc 452234 ulogd2_2.0.4.orig.tar.bz2 3ab9688dbe93a72d1ea84d4f7a258bef 14772 ulogd2_2.0.4-2+deb8u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.netfilter.org/projects/ulogd/"
-  ],
-  "Maintainer": [
-    "Chris Boot <debian@bootc.net>"
-  ],
-  "Package": [
-    "ulogd2"
-  ],
-  "Package-List": [
-    "ulogd deb oldlibs extra arch=linux-any ulogd-mysql deb oldlibs extra arch=linux-any ulogd-pcap deb oldlibs extra arch=linux-any ulogd-pgsql deb oldlibs extra arch=linux-any ulogd-sqlite3 deb oldlibs extra arch=linux-any ulogd2 deb net optional arch=linux-any ulogd2-dbg deb debug extra arch=linux-any ulogd2-dbi deb net optional arch=linux-any ulogd2-json deb net optional arch=linux-any ulogd2-mysql deb net optional arch=linux-any ulogd2-pcap deb net optional arch=linux-any ulogd2-pgsql deb net optional arch=linux-any ulogd2-sqlite3 deb net optional arch=linux-any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=collab-maint/ulogd2.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/collab-maint/ulogd2.git"
-  ],
-  "Version": [
-    "2.0.4-2+deb8u1"
-  ]
+	"Architecture": [
+		"linux-any"
+	],
+	"Binary": [
+		"ulogd2, ulogd2-dbi, ulogd2-json, ulogd2-mysql, ulogd2-pcap, ulogd2-pgsql, ulogd2-sqlite3, ulogd2-dbg, ulogd, ulogd-mysql, ulogd-pgsql, ulogd-pcap, ulogd-sqlite3"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-autoreconf, pkg-config, libnfnetlink-dev (>= 1.0.1), libmnl-dev, libnetfilter-acct-dev, libnetfilter-conntrack-dev (>= 1.0.2), libnetfilter-log-dev, libmysqlclient-dev, libpq-dev, libsqlite3-dev, libdbi-dev, libpcap-dev, linuxdoc-tools, groff, dh-systemd (>= 1.5), libjansson-dev"
+	],
+	"Checksums-Sha1": [
+		"52ae2dfc6c8a07e53ec1bcf61c7955584f165743 2972 ulogd2_2.0.4-2+deb8u1.dsc f5e09d9e9a6c7ab8966d22ed8d6e90196aab3fb3 452234 ulogd2_2.0.4.orig.tar.bz2 d26954a007bd36092a462082f06b9b000b849770 14772 ulogd2_2.0.4-2+deb8u1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"d700a3e01b4baa09cb179a2eb5789eab8234d88c647ac9518f3eacfcf9c8ac6a 2972 ulogd2_2.0.4-2+deb8u1.dsc 56b30a13a8832e97178f39b7bb173a0b1dfe173dbb60d99a1a386c0962a2effd 452234 ulogd2_2.0.4.orig.tar.bz2 92c62cd2ffc3847723e3d3743c5849940df7ef6d0cbd278ec464818df5fa58a7 14772 ulogd2_2.0.4-2+deb8u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/u/ulogd2"
+	],
+	"Files": [
+		"aa3d18039fec2e22e33744660f57e986 2972 ulogd2_2.0.4-2+deb8u1.dsc 7c71ec460dfea5287eba27472c521ebc 452234 ulogd2_2.0.4.orig.tar.bz2 3ab9688dbe93a72d1ea84d4f7a258bef 14772 ulogd2_2.0.4-2+deb8u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.netfilter.org/projects/ulogd/"
+	],
+	"Maintainer": [
+		"Chris Boot <debian@bootc.net>"
+	],
+	"Package": [
+		"ulogd2"
+	],
+	"Package-List": [
+		"ulogd deb oldlibs extra arch=linux-any ulogd-mysql deb oldlibs extra arch=linux-any ulogd-pcap deb oldlibs extra arch=linux-any ulogd-pgsql deb oldlibs extra arch=linux-any ulogd-sqlite3 deb oldlibs extra arch=linux-any ulogd2 deb net optional arch=linux-any ulogd2-dbg deb debug extra arch=linux-any ulogd2-dbi deb net optional arch=linux-any ulogd2-json deb net optional arch=linux-any ulogd2-mysql deb net optional arch=linux-any ulogd2-pcap deb net optional arch=linux-any ulogd2-pgsql deb net optional arch=linux-any ulogd2-sqlite3 deb net optional arch=linux-any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=collab-maint/ulogd2.git;a=summary"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/collab-maint/ulogd2.git"
+	],
+	"Version": [
+		"2.0.4-2+deb8u1"
+	]
 }

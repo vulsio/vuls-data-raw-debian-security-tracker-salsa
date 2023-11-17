@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "mkdocs, mkdocs-doc"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all"
-  ],
-  "Build-Depends-Indep": [
-    "ghp-import (>= 1.0) <!nocheck>, mkdocs-autorefs <!nodoc>, mkdocs-click <!nocheck> <!nodoc>, mkdocs-literate-nav <!nodoc>, mkdocs-redirects <!nodoc>, mkdocstrings <!nodoc>, mkdocstrings-python-handlers <!nodoc>, python3-babel, python3-click <!nodoc>, python3-hatchling, python3-jinja2 <!nocheck>, python3-markdown <!nocheck>, python3-markdown-callouts <!nodoc>, python3-mergedeep <!nocheck>, python3-platformdirs <!nocheck>, python3-pymdownx <!nocheck>, python3-pyyaml-env-tag <!nocheck>, python3-watchdog <!nocheck>, python3-yaml <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "bdbc1fdfb48e6c51bc2fae80e2a4e5c4e51bfa073910be1c47c55748753db12a 2749 python-mkdocs_1.5.3+dfsg-1.dsc 78d7b1d96bdd38f8d64a507d43bf620e497cdb9824f348c443df04de419c161a 3348745 python-mkdocs_1.5.3+dfsg.orig.tar.gz 0e6dfbdfba7bc6bbbf52596229b9b9b723587890508e99edddb468b671d7f8f4 17856 python-mkdocs_1.5.3+dfsg-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/python-mkdocs"
-  ],
-  "Files": [
-    "513ef15efd76f9f8397387fee389d616 2749 python-mkdocs_1.5.3+dfsg-1.dsc 6652ee2f2a1006cd754cdf9c92925882 3348745 python-mkdocs_1.5.3+dfsg.orig.tar.gz 607a428fc0df67516b7c40458bbcf5cd 17856 python-mkdocs_1.5.3+dfsg-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.mkdocs.org/"
-  ],
-  "Maintainer": [
-    "Debian Python Team <team+python@tracker.debian.org>"
-  ],
-  "Package": [
-    "python-mkdocs"
-  ],
-  "Package-List": [
-    "mkdocs deb text optional arch=all mkdocs-doc deb doc optional arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "@builddeps@, python3-all"
-  ],
-  "Uploaders": [
-    "Brian May <bam@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/python-team/packages/python-mkdocs"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/python-team/packages/python-mkdocs.git"
-  ],
-  "Version": [
-    "1.5.3+dfsg-1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"mkdocs, mkdocs-doc"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all"
+	],
+	"Build-Depends-Indep": [
+		"ghp-import (>= 1.0) <!nocheck>, mkdocs-autorefs <!nodoc>, mkdocs-click <!nocheck> <!nodoc>, mkdocs-literate-nav <!nodoc>, mkdocs-redirects <!nodoc>, mkdocstrings <!nodoc>, mkdocstrings-python-handlers <!nodoc>, python3-babel, python3-click <!nodoc>, python3-hatchling, python3-jinja2 <!nocheck>, python3-markdown <!nocheck>, python3-markdown-callouts <!nodoc>, python3-mergedeep <!nocheck>, python3-platformdirs <!nocheck>, python3-pymdownx <!nocheck>, python3-pyyaml-env-tag <!nocheck>, python3-watchdog <!nocheck>, python3-yaml <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"bdbc1fdfb48e6c51bc2fae80e2a4e5c4e51bfa073910be1c47c55748753db12a 2749 python-mkdocs_1.5.3+dfsg-1.dsc 78d7b1d96bdd38f8d64a507d43bf620e497cdb9824f348c443df04de419c161a 3348745 python-mkdocs_1.5.3+dfsg.orig.tar.gz 0e6dfbdfba7bc6bbbf52596229b9b9b723587890508e99edddb468b671d7f8f4 17856 python-mkdocs_1.5.3+dfsg-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-mkdocs"
+	],
+	"Files": [
+		"513ef15efd76f9f8397387fee389d616 2749 python-mkdocs_1.5.3+dfsg-1.dsc 6652ee2f2a1006cd754cdf9c92925882 3348745 python-mkdocs_1.5.3+dfsg.orig.tar.gz 607a428fc0df67516b7c40458bbcf5cd 17856 python-mkdocs_1.5.3+dfsg-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.mkdocs.org/"
+	],
+	"Maintainer": [
+		"Debian Python Team <team+python@tracker.debian.org>"
+	],
+	"Package": [
+		"python-mkdocs"
+	],
+	"Package-List": [
+		"mkdocs deb text optional arch=all mkdocs-doc deb doc optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"@builddeps@, python3-all"
+	],
+	"Uploaders": [
+		"Brian May <bam@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/python-team/packages/python-mkdocs"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/python-team/packages/python-mkdocs.git"
+	],
+	"Version": [
+		"1.5.3+dfsg-1"
+	]
 }

@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libqt5core5a, libqt5gui5, libqt5network5, libqt5opengl5, libqt5sql5, libqt5sql5-mysql, libqt5sql5-odbc, libqt5sql5-psql, libqt5sql5-sqlite, libqt5sql5-tds, libqt5xml5, libqt5dbus5, libqt5test5, libqt5concurrent5, libqt5widgets5, libqt5printsupport5, qtbase5-dev, qtbase5-private-dev, libqt5opengl5-dev, qtbase5-dev-tools, qt5-qmake, qtbase5-examples, qtbase5-dbg, qtbase5-dev-tools-dbg, qtbase5-examples-dbg, qt5-default, qtbase5-doc-html"
-  ],
-  "Build-Conflicts": [
-    "libmariadbclient-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dpkg-dev (>= 1.16.1), firebird-dev [amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sh4 sparc], freetds-dev, gdb, libasound2-dev [linux-any], libatspi2.0-dev, libcups2-dev, libdbus-1-dev, libfontconfig1-dev, libfreetype6-dev, libgbm-dev [linux-any], libgl1-mesa-dev | libgl-dev, libgles2-mesa-dev [linux-any] | libgles2-dev [linux-any], libglib2.0-dev, libglu1-mesa-dev | libglu-dev, libgtk2.0-dev, libharfbuzz-dev, libicu-dev, libjpeg-dev, libmtdev-dev [linux-any], libmysqlclient-dev, libopenvg1-mesa-dev [!hurd-any], libpng-dev, libpq-dev, libpulse-dev, libsqlite3-dev, libssl-dev, libudev-dev [linux-any], libx11-dev, libx11-xcb-dev, libxcb-icccm4-dev, libxcb-image0-dev, libxcb-keysyms1-dev, libxcb-randr0-dev, libxcb-render-util0-dev, libxcb-render0-dev, libxcb-shape0-dev, libxcb-shm0-dev, libxcb-sync-dev, libxcb-xfixes0-dev, libxcb-xkb-dev, libxcb1-dev, libxext-dev, libxi-dev, libxkbcommon-dev, libxkbcommon-x11-dev, libxrender-dev, pkg-kde-tools (>= 0.14.2), unixodbc-dev, zlib1g-dev"
-  ],
-  "Checksums-Sha1": [
-    "3e3c48f1f3e12ad663ed22a088cfa031178ecd1a 4944 qtbase-opensource-src_5.3.2+dfsg-4+deb8u4.dsc c503006c3c2a493a45903862a8964cc4eb3c2cc3 47569832 qtbase-opensource-src_5.3.2+dfsg.orig.tar.xz 28954007cb05fe50236d81c61fe9c7379f5ccbd9 195280 qtbase-opensource-src_5.3.2+dfsg-4+deb8u4.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "7852653890592c55e5e1b9f57c660dd3293a7ece7f0479c18c70171aa9a7d268 4944 qtbase-opensource-src_5.3.2+dfsg-4+deb8u4.dsc 0e68ab39c4b9ef858c9de3167627668d4ecd8c222600feac2f4939e72f9816fe 47569832 qtbase-opensource-src_5.3.2+dfsg.orig.tar.xz 3c5404787c51806a4001b10bbf562ebe42fa32b485f7421465058dfcfd0579d4 195280 qtbase-opensource-src_5.3.2+dfsg-4+deb8u4.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/q/qtbase-opensource-src"
-  ],
-  "Files": [
-    "4c791d9c11f3b2419ebd8ac021f909d1 4944 qtbase-opensource-src_5.3.2+dfsg-4+deb8u4.dsc d95bf306547712ac13533e2359b443d3 47569832 qtbase-opensource-src_5.3.2+dfsg.orig.tar.xz a9b833beaf4746efebe930e78347194d 195280 qtbase-opensource-src_5.3.2+dfsg-4+deb8u4.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://qt-project.org/"
-  ],
-  "Maintainer": [
-    "Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>"
-  ],
-  "Package": [
-    "qtbase-opensource-src"
-  ],
-  "Package-List": [
-    "libqt5concurrent5 deb libs optional arch=any libqt5core5a deb libs optional arch=any libqt5dbus5 deb libs optional arch=any libqt5gui5 deb libs optional arch=any libqt5network5 deb libs optional arch=any libqt5opengl5 deb libs optional arch=any libqt5opengl5-dev deb libdevel optional arch=any libqt5printsupport5 deb libs optional arch=any libqt5sql5 deb libs optional arch=any libqt5sql5-mysql deb libs optional arch=any libqt5sql5-odbc deb libs optional arch=any libqt5sql5-psql deb libs optional arch=any libqt5sql5-sqlite deb libs optional arch=any libqt5sql5-tds deb libs optional arch=any libqt5test5 deb libs optional arch=any libqt5widgets5 deb libs optional arch=any libqt5xml5 deb libs optional arch=any qt5-default deb libs optional arch=any qt5-qmake deb devel optional arch=any qtbase5-dbg deb debug extra arch=any qtbase5-dev deb libdevel optional arch=any qtbase5-dev-tools deb devel optional arch=any qtbase5-dev-tools-dbg deb debug extra arch=any qtbase5-doc-html deb doc extra arch=all qtbase5-examples deb x11 optional arch=any qtbase5-examples-dbg deb debug extra arch=any qtbase5-private-dev deb libdevel optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Uploaders": [
-    "Fathi Boudra <fabo@debian.org>, Modestas Vainius <modax@debian.org>, Sune Vuorela <debian@pusling.com>, Pino Toscano <pino@debian.org>, Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>, Timo Jyrinki <timo@debian.org>, Dmitry Shachnev <mitya57@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/cgit/pkg-kde/qt/qtbase.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-kde/qt/qtbase.git"
-  ],
-  "Version": [
-    "5.3.2+dfsg-4+deb8u4"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libqt5core5a, libqt5gui5, libqt5network5, libqt5opengl5, libqt5sql5, libqt5sql5-mysql, libqt5sql5-odbc, libqt5sql5-psql, libqt5sql5-sqlite, libqt5sql5-tds, libqt5xml5, libqt5dbus5, libqt5test5, libqt5concurrent5, libqt5widgets5, libqt5printsupport5, qtbase5-dev, qtbase5-private-dev, libqt5opengl5-dev, qtbase5-dev-tools, qt5-qmake, qtbase5-examples, qtbase5-dbg, qtbase5-dev-tools-dbg, qtbase5-examples-dbg, qt5-default, qtbase5-doc-html"
+	],
+	"Build-Conflicts": [
+		"libmariadbclient-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dpkg-dev (>= 1.16.1), firebird-dev [amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sh4 sparc], freetds-dev, gdb, libasound2-dev [linux-any], libatspi2.0-dev, libcups2-dev, libdbus-1-dev, libfontconfig1-dev, libfreetype6-dev, libgbm-dev [linux-any], libgl1-mesa-dev | libgl-dev, libgles2-mesa-dev [linux-any] | libgles2-dev [linux-any], libglib2.0-dev, libglu1-mesa-dev | libglu-dev, libgtk2.0-dev, libharfbuzz-dev, libicu-dev, libjpeg-dev, libmtdev-dev [linux-any], libmysqlclient-dev, libopenvg1-mesa-dev [!hurd-any], libpng-dev, libpq-dev, libpulse-dev, libsqlite3-dev, libssl-dev, libudev-dev [linux-any], libx11-dev, libx11-xcb-dev, libxcb-icccm4-dev, libxcb-image0-dev, libxcb-keysyms1-dev, libxcb-randr0-dev, libxcb-render-util0-dev, libxcb-render0-dev, libxcb-shape0-dev, libxcb-shm0-dev, libxcb-sync-dev, libxcb-xfixes0-dev, libxcb-xkb-dev, libxcb1-dev, libxext-dev, libxi-dev, libxkbcommon-dev, libxkbcommon-x11-dev, libxrender-dev, pkg-kde-tools (>= 0.14.2), unixodbc-dev, zlib1g-dev"
+	],
+	"Checksums-Sha1": [
+		"3e3c48f1f3e12ad663ed22a088cfa031178ecd1a 4944 qtbase-opensource-src_5.3.2+dfsg-4+deb8u4.dsc c503006c3c2a493a45903862a8964cc4eb3c2cc3 47569832 qtbase-opensource-src_5.3.2+dfsg.orig.tar.xz 28954007cb05fe50236d81c61fe9c7379f5ccbd9 195280 qtbase-opensource-src_5.3.2+dfsg-4+deb8u4.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"7852653890592c55e5e1b9f57c660dd3293a7ece7f0479c18c70171aa9a7d268 4944 qtbase-opensource-src_5.3.2+dfsg-4+deb8u4.dsc 0e68ab39c4b9ef858c9de3167627668d4ecd8c222600feac2f4939e72f9816fe 47569832 qtbase-opensource-src_5.3.2+dfsg.orig.tar.xz 3c5404787c51806a4001b10bbf562ebe42fa32b485f7421465058dfcfd0579d4 195280 qtbase-opensource-src_5.3.2+dfsg-4+deb8u4.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/q/qtbase-opensource-src"
+	],
+	"Files": [
+		"4c791d9c11f3b2419ebd8ac021f909d1 4944 qtbase-opensource-src_5.3.2+dfsg-4+deb8u4.dsc d95bf306547712ac13533e2359b443d3 47569832 qtbase-opensource-src_5.3.2+dfsg.orig.tar.xz a9b833beaf4746efebe930e78347194d 195280 qtbase-opensource-src_5.3.2+dfsg-4+deb8u4.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://qt-project.org/"
+	],
+	"Maintainer": [
+		"Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>"
+	],
+	"Package": [
+		"qtbase-opensource-src"
+	],
+	"Package-List": [
+		"libqt5concurrent5 deb libs optional arch=any libqt5core5a deb libs optional arch=any libqt5dbus5 deb libs optional arch=any libqt5gui5 deb libs optional arch=any libqt5network5 deb libs optional arch=any libqt5opengl5 deb libs optional arch=any libqt5opengl5-dev deb libdevel optional arch=any libqt5printsupport5 deb libs optional arch=any libqt5sql5 deb libs optional arch=any libqt5sql5-mysql deb libs optional arch=any libqt5sql5-odbc deb libs optional arch=any libqt5sql5-psql deb libs optional arch=any libqt5sql5-sqlite deb libs optional arch=any libqt5sql5-tds deb libs optional arch=any libqt5test5 deb libs optional arch=any libqt5widgets5 deb libs optional arch=any libqt5xml5 deb libs optional arch=any qt5-default deb libs optional arch=any qt5-qmake deb devel optional arch=any qtbase5-dbg deb debug extra arch=any qtbase5-dev deb libdevel optional arch=any qtbase5-dev-tools deb devel optional arch=any qtbase5-dev-tools-dbg deb debug extra arch=any qtbase5-doc-html deb doc extra arch=all qtbase5-examples deb x11 optional arch=any qtbase5-examples-dbg deb debug extra arch=any qtbase5-private-dev deb libdevel optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Uploaders": [
+		"Fathi Boudra <fabo@debian.org>, Modestas Vainius <modax@debian.org>, Sune Vuorela <debian@pusling.com>, Pino Toscano <pino@debian.org>, Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>, Timo Jyrinki <timo@debian.org>, Dmitry Shachnev <mitya57@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/cgit/pkg-kde/qt/qtbase.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-kde/qt/qtbase.git"
+	],
+	"Version": [
+		"5.3.2+dfsg-4+deb8u4"
+	]
 }

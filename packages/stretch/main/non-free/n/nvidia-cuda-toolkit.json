@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "amd64 ppc64el all"
-  ],
-  "Autobuild": [
-    "yes"
-  ],
-  "Binary": [
-    "nvidia-cuda-toolkit, nvidia-cuda-doc, nvidia-cuda-gdb, nvidia-profiler, nvidia-visual-profiler, nvidia-nsight, nvidia-cuda-dev, nvidia-opencl-dev, libcudart8.0, libcuinj64-8.0, libnvrtc8.0, libnvtoolsext1, libnvvm3, libcupti8.0, libcupti-dev, libcupti-doc, libcublas8.0, libnvblas8.0, libcufft8.0, libcufftw8.0, libcurand8.0, libcusolver8.0, libcusparse8.0, libnppc8.0, libnppi8.0, libnppial8.0, libnppicc8.0, libnppicom8.0, libnppidei8.0, libnppif8.0, libnppig8.0, libnppim8.0, libnppist8.0, libnppisu8.0, libnppitc8.0, libnpps8.0, libnvgraph8.0"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 10), quilt, libncurses5, chrpath [ppc64el], libexpat1 [ppc64el]"
-  ],
-  "Checksums-Sha256": [
-    "b88b9c73fb2b21bc472b3be1573dd633c45124bf3e381d4d3679e31e5d977929 5172 nvidia-cuda-toolkit_8.0.44-4.dsc d687e0b30a1764336b071c1a2277093b7c828deaafb2bbb65651a1bc34469f9c 1137990699 nvidia-cuda-toolkit_8.0.44.orig-ppc64el.tar.gz 18f50ca7e824243c66f03e3e008cefa7a1d4b71c590e3f215f2017839e1d90ba 1282191745 nvidia-cuda-toolkit_8.0.44.orig.tar.gz 63e194be6e2c84bc720f72829091af2a5763e0fa1bbb3c35599b95b1acdaaf0c 76152 nvidia-cuda-toolkit_8.0.44-4.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/non-free/n/nvidia-cuda-toolkit"
-  ],
-  "Files": [
-    "7bb2755b187336c3678ef33511285ada 5172 nvidia-cuda-toolkit_8.0.44-4.dsc ba1afaa68562ed0b43366d0b1f78c3bc 1137990699 nvidia-cuda-toolkit_8.0.44.orig-ppc64el.tar.gz ec17c5f3c91ca7c26e1951c37d6d42cf 1282191745 nvidia-cuda-toolkit_8.0.44.orig.tar.gz 9d5d2f6745e7d80f950bcd072ef47f44 76152 nvidia-cuda-toolkit_8.0.44-4.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.nvidia.com/CUDA"
-  ],
-  "Maintainer": [
-    "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "nvidia-cuda-toolkit"
-  ],
-  "Package-List": [
-    "libcublas8.0 deb non-free/libs extra arch=amd64,ppc64el libcudart8.0 deb non-free/libs extra arch=amd64,ppc64el libcufft8.0 deb non-free/libs extra arch=amd64,ppc64el libcufftw8.0 deb non-free/libs extra arch=amd64,ppc64el libcuinj64-8.0 deb non-free/libs extra arch=amd64,ppc64el libcupti-dev deb non-free/libdevel extra arch=amd64,ppc64el libcupti-doc deb non-free/doc extra arch=all libcupti8.0 deb non-free/libs extra arch=amd64,ppc64el libcurand8.0 deb non-free/libs extra arch=amd64,ppc64el libcusolver8.0 deb non-free/libs extra arch=amd64,ppc64el libcusparse8.0 deb non-free/libs extra arch=amd64,ppc64el libnppc8.0 deb non-free/libs extra arch=amd64,ppc64el libnppi8.0 deb non-free/libs extra arch=amd64,ppc64el libnppial8.0 deb non-free/libs extra arch=amd64,ppc64el libnppicc8.0 deb non-free/libs extra arch=amd64,ppc64el libnppicom8.0 deb non-free/libs extra arch=amd64,ppc64el libnppidei8.0 deb non-free/libs extra arch=amd64,ppc64el libnppif8.0 deb non-free/libs extra arch=amd64,ppc64el libnppig8.0 deb non-free/libs extra arch=amd64,ppc64el libnppim8.0 deb non-free/libs extra arch=amd64,ppc64el libnppist8.0 deb non-free/libs extra arch=amd64,ppc64el libnppisu8.0 deb non-free/libs extra arch=amd64,ppc64el libnppitc8.0 deb non-free/libs extra arch=amd64,ppc64el libnpps8.0 deb non-free/libs extra arch=amd64,ppc64el libnvblas8.0 deb non-free/libs extra arch=amd64,ppc64el libnvgraph8.0 deb non-free/libs extra arch=amd64,ppc64el libnvrtc8.0 deb non-free/libs extra arch=amd64,ppc64el libnvtoolsext1 deb non-free/libs extra arch=amd64,ppc64el libnvvm3 deb non-free/libs extra arch=amd64,ppc64el nvidia-cuda-dev deb non-free/libdevel extra arch=amd64,ppc64el nvidia-cuda-doc deb non-free/doc extra arch=all nvidia-cuda-gdb deb non-free/devel extra arch=amd64,ppc64el nvidia-cuda-toolkit deb non-free/devel extra arch=amd64,ppc64el nvidia-nsight deb non-free/devel extra arch=amd64,ppc64el nvidia-opencl-dev deb non-free/libdevel extra arch=amd64,ppc64el nvidia-profiler deb non-free/devel extra arch=amd64,ppc64el nvidia-visual-profiler deb non-free/devel extra arch=amd64,ppc64el"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "non-free/devel"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Andreas Beckmann <anbe@debian.org>, Russ Allbery <rra@debian.org>, Graham Inggs <ginggs@debian.org>, Zhou Mo <cdluminate@gmail.com>,"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/viewvc/pkg-nvidia/packages/nvidia-cuda-toolkit/"
-  ],
-  "Vcs-Svn": [
-    "svn://anonscm.debian.org/pkg-nvidia/packages/nvidia-cuda-toolkit/trunk"
-  ],
-  "Version": [
-    "8.0.44-4"
-  ]
+	"Architecture": [
+		"amd64 ppc64el all"
+	],
+	"Autobuild": [
+		"yes"
+	],
+	"Binary": [
+		"nvidia-cuda-toolkit, nvidia-cuda-doc, nvidia-cuda-gdb, nvidia-profiler, nvidia-visual-profiler, nvidia-nsight, nvidia-cuda-dev, nvidia-opencl-dev, libcudart8.0, libcuinj64-8.0, libnvrtc8.0, libnvtoolsext1, libnvvm3, libcupti8.0, libcupti-dev, libcupti-doc, libcublas8.0, libnvblas8.0, libcufft8.0, libcufftw8.0, libcurand8.0, libcusolver8.0, libcusparse8.0, libnppc8.0, libnppi8.0, libnppial8.0, libnppicc8.0, libnppicom8.0, libnppidei8.0, libnppif8.0, libnppig8.0, libnppim8.0, libnppist8.0, libnppisu8.0, libnppitc8.0, libnpps8.0, libnvgraph8.0"
+	],
+	"Build-Depends": [
+		"debhelper (>= 10), quilt, libncurses5, chrpath [ppc64el], libexpat1 [ppc64el]"
+	],
+	"Checksums-Sha256": [
+		"b88b9c73fb2b21bc472b3be1573dd633c45124bf3e381d4d3679e31e5d977929 5172 nvidia-cuda-toolkit_8.0.44-4.dsc d687e0b30a1764336b071c1a2277093b7c828deaafb2bbb65651a1bc34469f9c 1137990699 nvidia-cuda-toolkit_8.0.44.orig-ppc64el.tar.gz 18f50ca7e824243c66f03e3e008cefa7a1d4b71c590e3f215f2017839e1d90ba 1282191745 nvidia-cuda-toolkit_8.0.44.orig.tar.gz 63e194be6e2c84bc720f72829091af2a5763e0fa1bbb3c35599b95b1acdaaf0c 76152 nvidia-cuda-toolkit_8.0.44-4.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/non-free/n/nvidia-cuda-toolkit"
+	],
+	"Files": [
+		"7bb2755b187336c3678ef33511285ada 5172 nvidia-cuda-toolkit_8.0.44-4.dsc ba1afaa68562ed0b43366d0b1f78c3bc 1137990699 nvidia-cuda-toolkit_8.0.44.orig-ppc64el.tar.gz ec17c5f3c91ca7c26e1951c37d6d42cf 1282191745 nvidia-cuda-toolkit_8.0.44.orig.tar.gz 9d5d2f6745e7d80f950bcd072ef47f44 76152 nvidia-cuda-toolkit_8.0.44-4.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.nvidia.com/CUDA"
+	],
+	"Maintainer": [
+		"Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"nvidia-cuda-toolkit"
+	],
+	"Package-List": [
+		"libcublas8.0 deb non-free/libs extra arch=amd64,ppc64el libcudart8.0 deb non-free/libs extra arch=amd64,ppc64el libcufft8.0 deb non-free/libs extra arch=amd64,ppc64el libcufftw8.0 deb non-free/libs extra arch=amd64,ppc64el libcuinj64-8.0 deb non-free/libs extra arch=amd64,ppc64el libcupti-dev deb non-free/libdevel extra arch=amd64,ppc64el libcupti-doc deb non-free/doc extra arch=all libcupti8.0 deb non-free/libs extra arch=amd64,ppc64el libcurand8.0 deb non-free/libs extra arch=amd64,ppc64el libcusolver8.0 deb non-free/libs extra arch=amd64,ppc64el libcusparse8.0 deb non-free/libs extra arch=amd64,ppc64el libnppc8.0 deb non-free/libs extra arch=amd64,ppc64el libnppi8.0 deb non-free/libs extra arch=amd64,ppc64el libnppial8.0 deb non-free/libs extra arch=amd64,ppc64el libnppicc8.0 deb non-free/libs extra arch=amd64,ppc64el libnppicom8.0 deb non-free/libs extra arch=amd64,ppc64el libnppidei8.0 deb non-free/libs extra arch=amd64,ppc64el libnppif8.0 deb non-free/libs extra arch=amd64,ppc64el libnppig8.0 deb non-free/libs extra arch=amd64,ppc64el libnppim8.0 deb non-free/libs extra arch=amd64,ppc64el libnppist8.0 deb non-free/libs extra arch=amd64,ppc64el libnppisu8.0 deb non-free/libs extra arch=amd64,ppc64el libnppitc8.0 deb non-free/libs extra arch=amd64,ppc64el libnpps8.0 deb non-free/libs extra arch=amd64,ppc64el libnvblas8.0 deb non-free/libs extra arch=amd64,ppc64el libnvgraph8.0 deb non-free/libs extra arch=amd64,ppc64el libnvrtc8.0 deb non-free/libs extra arch=amd64,ppc64el libnvtoolsext1 deb non-free/libs extra arch=amd64,ppc64el libnvvm3 deb non-free/libs extra arch=amd64,ppc64el nvidia-cuda-dev deb non-free/libdevel extra arch=amd64,ppc64el nvidia-cuda-doc deb non-free/doc extra arch=all nvidia-cuda-gdb deb non-free/devel extra arch=amd64,ppc64el nvidia-cuda-toolkit deb non-free/devel extra arch=amd64,ppc64el nvidia-nsight deb non-free/devel extra arch=amd64,ppc64el nvidia-opencl-dev deb non-free/libdevel extra arch=amd64,ppc64el nvidia-profiler deb non-free/devel extra arch=amd64,ppc64el nvidia-visual-profiler deb non-free/devel extra arch=amd64,ppc64el"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"non-free/devel"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Andreas Beckmann <anbe@debian.org>, Russ Allbery <rra@debian.org>, Graham Inggs <ginggs@debian.org>, Zhou Mo <cdluminate@gmail.com>,"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/viewvc/pkg-nvidia/packages/nvidia-cuda-toolkit/"
+	],
+	"Vcs-Svn": [
+		"svn://anonscm.debian.org/pkg-nvidia/packages/nvidia-cuda-toolkit/trunk"
+	],
+	"Version": [
+		"8.0.44-4"
+	]
 }

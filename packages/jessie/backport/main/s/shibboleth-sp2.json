@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libapache2-mod-shib2, libshibsp7, libshibsp-plugins, libshibsp-dev, libshibsp-doc, shibboleth-sp2-common, shibboleth-sp2-utils"
-  ],
-  "Build-Depends": [
-    "apache2-dev (>> 2.4.4), debhelper (>= 9), dh-apache2, dh-autoreconf, dh-exec, dh-systemd, libboost-dev, libfcgi-dev, libkrb5-dev, liblog4shib-dev (>= 1.0.9-3~), libmemcached-dev (>= 1.0), libsaml2-dev (>= 2.6.0-4~), libsystemd-dev [linux-any], libxerces-c-dev, libxml-security-c-dev (>= 1.7.3-3~), libxmltooling-dev (>= 1.6.0-3~), opensaml2-schemas, pkg-config, unixodbc-dev, xmltooling-schemas"
-  ],
-  "Build-Depends-Indep": [
-    "doxygen, graphviz"
-  ],
-  "Checksums-Sha1": [
-    "33efdbc7c4ce16e87e578ffdcd93fa7307d2d734 2958 shibboleth-sp2_2.6.0+dfsg1-4+deb9u1~bpo8+1.dsc 2b5a216d701b2f7d9061f5972de3ad16e70d06e0 719497 shibboleth-sp2_2.6.0+dfsg1.orig.tar.bz2 3c1a66c3f97cd674c843d6bfa85e81d4b88e2488 82544 shibboleth-sp2_2.6.0+dfsg1-4+deb9u1~bpo8+1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "a1cb6da4d15d36ea13481431d8d61c26305a26d2139354629e71d66e1add06fe 2958 shibboleth-sp2_2.6.0+dfsg1-4+deb9u1~bpo8+1.dsc 73c853edc88bd94b69dd9a7571fcee52083ffb2802f13c5c2456caae6cdbd66a 719497 shibboleth-sp2_2.6.0+dfsg1.orig.tar.bz2 1756f089208a7fe326e51cbb413881257c3eb2be06734cc84c507a5c665452a7 82544 shibboleth-sp2_2.6.0+dfsg1-4+deb9u1~bpo8+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/s/shibboleth-sp2"
-  ],
-  "Files": [
-    "910578438980920da77378787ca7df00 2958 shibboleth-sp2_2.6.0+dfsg1-4+deb9u1~bpo8+1.dsc 833386e1051dcad4329fd8c1b92ebae0 719497 shibboleth-sp2_2.6.0+dfsg1.orig.tar.bz2 735574d38db7099a74f936c4fb66d537 82544 shibboleth-sp2_2.6.0+dfsg1-4+deb9u1~bpo8+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://shibboleth.net/"
-  ],
-  "Maintainer": [
-    "Debian Shib Team <pkg-shibboleth-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "shibboleth-sp2"
-  ],
-  "Package-List": [
-    "libapache2-mod-shib2 deb httpd extra arch=any libshibsp-dev deb libdevel extra arch=any libshibsp-doc deb doc extra arch=all libshibsp-plugins deb libs extra arch=any libshibsp7 deb libs extra arch=any shibboleth-sp2-common deb libs extra arch=all shibboleth-sp2-utils deb web extra arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Russ Allbery <rra@debian.org>, Ferenc Wágner <wferi@debian.org>, Etienne Dysli Metref <etienne.dysli-metref@switch.ch>,"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-shibboleth/shibboleth-sp2.git/"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-shibboleth/shibboleth-sp2.git"
-  ],
-  "Version": [
-    "2.6.0+dfsg1-4+deb9u1~bpo8+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libapache2-mod-shib2, libshibsp7, libshibsp-plugins, libshibsp-dev, libshibsp-doc, shibboleth-sp2-common, shibboleth-sp2-utils"
+	],
+	"Build-Depends": [
+		"apache2-dev (>> 2.4.4), debhelper (>= 9), dh-apache2, dh-autoreconf, dh-exec, dh-systemd, libboost-dev, libfcgi-dev, libkrb5-dev, liblog4shib-dev (>= 1.0.9-3~), libmemcached-dev (>= 1.0), libsaml2-dev (>= 2.6.0-4~), libsystemd-dev [linux-any], libxerces-c-dev, libxml-security-c-dev (>= 1.7.3-3~), libxmltooling-dev (>= 1.6.0-3~), opensaml2-schemas, pkg-config, unixodbc-dev, xmltooling-schemas"
+	],
+	"Build-Depends-Indep": [
+		"doxygen, graphviz"
+	],
+	"Checksums-Sha1": [
+		"33efdbc7c4ce16e87e578ffdcd93fa7307d2d734 2958 shibboleth-sp2_2.6.0+dfsg1-4+deb9u1~bpo8+1.dsc 2b5a216d701b2f7d9061f5972de3ad16e70d06e0 719497 shibboleth-sp2_2.6.0+dfsg1.orig.tar.bz2 3c1a66c3f97cd674c843d6bfa85e81d4b88e2488 82544 shibboleth-sp2_2.6.0+dfsg1-4+deb9u1~bpo8+1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"a1cb6da4d15d36ea13481431d8d61c26305a26d2139354629e71d66e1add06fe 2958 shibboleth-sp2_2.6.0+dfsg1-4+deb9u1~bpo8+1.dsc 73c853edc88bd94b69dd9a7571fcee52083ffb2802f13c5c2456caae6cdbd66a 719497 shibboleth-sp2_2.6.0+dfsg1.orig.tar.bz2 1756f089208a7fe326e51cbb413881257c3eb2be06734cc84c507a5c665452a7 82544 shibboleth-sp2_2.6.0+dfsg1-4+deb9u1~bpo8+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/s/shibboleth-sp2"
+	],
+	"Files": [
+		"910578438980920da77378787ca7df00 2958 shibboleth-sp2_2.6.0+dfsg1-4+deb9u1~bpo8+1.dsc 833386e1051dcad4329fd8c1b92ebae0 719497 shibboleth-sp2_2.6.0+dfsg1.orig.tar.bz2 735574d38db7099a74f936c4fb66d537 82544 shibboleth-sp2_2.6.0+dfsg1-4+deb9u1~bpo8+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://shibboleth.net/"
+	],
+	"Maintainer": [
+		"Debian Shib Team <pkg-shibboleth-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"shibboleth-sp2"
+	],
+	"Package-List": [
+		"libapache2-mod-shib2 deb httpd extra arch=any libshibsp-dev deb libdevel extra arch=any libshibsp-doc deb doc extra arch=all libshibsp-plugins deb libs extra arch=any libshibsp7 deb libs extra arch=any shibboleth-sp2-common deb libs extra arch=all shibboleth-sp2-utils deb web extra arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Russ Allbery <rra@debian.org>, Ferenc Wágner <wferi@debian.org>, Etienne Dysli Metref <etienne.dysli-metref@switch.ch>,"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-shibboleth/shibboleth-sp2.git/"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-shibboleth/shibboleth-sp2.git"
+	],
+	"Version": [
+		"2.6.0+dfsg1-4+deb9u1~bpo8+1"
+	]
 }

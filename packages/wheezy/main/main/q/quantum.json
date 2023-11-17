@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "quantum-server, quantum-plugin-cisco, quantum-plugin-openvswitch, quantum-plugin-sample, quantum-plugin-nicira, quantum-plugin-linuxbridge, quantum-plugin-openvswitch-agent, quantum-plugin-linuxbridge-agent, python-quantum"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 7.0.50~), python-all (>= 2.6.6-3~), python-setuptools, python-webtest, python-eventlet, python-routes, python-paste, python-pastedeploy, python-gflags, python-simplejson, python-sqlalchemy, python-webob, python-nose"
-  ],
-  "Checksums-Sha1": [
-    "5a8573aba7664ea5bf42cae1267f0be4dfe7dd8f 2218 quantum_2012.1-5+deb70u1.dsc 4bdf0b254551f0da4933309b2f01ca11aec042f9 241392 quantum_2012.1.orig.tar.xz 39ed59ce24f7916dd7ff886e598fc33b2b456818 6980 quantum_2012.1-5+deb70u1.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "02cbd9bf967bd09ecfa6d8f0849ffafbe81ec7504edf16a5a9c21364dc28e5e7 2218 quantum_2012.1-5+deb70u1.dsc c4db48e8a2cef3f2b18093c85c2495622786b6eb66ec297e4f133841a3504e61 241392 quantum_2012.1.orig.tar.xz 7ee9dac932f88704907cfb1b1b49577c15bca424698395e235a10449e6b5a7b5 6980 quantum_2012.1-5+deb70u1.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/q/quantum"
-  ],
-  "Files": [
-    "2480060d9a7d879495bc272799808d15 2218 quantum_2012.1-5+deb70u1.dsc 93e1b7c7d8759ed982bf1a78d3c212b7 241392 quantum_2012.1.orig.tar.xz 6daaa2aa25aa00a2aebb0d884d688764 6980 quantum_2012.1-5+deb70u1.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://launchpad.net/quantum"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "quantum"
-  ],
-  "Package-List": [
-    "python-quantum deb python optional quantum-plugin-cisco deb net optional quantum-plugin-linuxbridge deb net optional quantum-plugin-linuxbridge-agent deb net optional quantum-plugin-nicira deb net optional quantum-plugin-openvswitch deb net optional quantum-plugin-openvswitch-agent deb net optional quantum-plugin-sample deb net optional quantum-server deb net optional"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Loic Dachary (OuoU) <loic@debian.org>, Julien Danjou <acid@debian.org>, Thomas Goirand <zigo@debian.org>, Ghe Rivero <ghe.rivero@stackops.com>, Mehdi Abaakouk <sileht@sileht.net>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=openstack/quantum.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/openstack/quantum.git"
-  ],
-  "Version": [
-    "2012.1-5+deb70u1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"quantum-server, quantum-plugin-cisco, quantum-plugin-openvswitch, quantum-plugin-sample, quantum-plugin-nicira, quantum-plugin-linuxbridge, quantum-plugin-openvswitch-agent, quantum-plugin-linuxbridge-agent, python-quantum"
+	],
+	"Build-Depends": [
+		"debhelper (>= 7.0.50~), python-all (>= 2.6.6-3~), python-setuptools, python-webtest, python-eventlet, python-routes, python-paste, python-pastedeploy, python-gflags, python-simplejson, python-sqlalchemy, python-webob, python-nose"
+	],
+	"Checksums-Sha1": [
+		"5a8573aba7664ea5bf42cae1267f0be4dfe7dd8f 2218 quantum_2012.1-5+deb70u1.dsc 4bdf0b254551f0da4933309b2f01ca11aec042f9 241392 quantum_2012.1.orig.tar.xz 39ed59ce24f7916dd7ff886e598fc33b2b456818 6980 quantum_2012.1-5+deb70u1.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"02cbd9bf967bd09ecfa6d8f0849ffafbe81ec7504edf16a5a9c21364dc28e5e7 2218 quantum_2012.1-5+deb70u1.dsc c4db48e8a2cef3f2b18093c85c2495622786b6eb66ec297e4f133841a3504e61 241392 quantum_2012.1.orig.tar.xz 7ee9dac932f88704907cfb1b1b49577c15bca424698395e235a10449e6b5a7b5 6980 quantum_2012.1-5+deb70u1.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/q/quantum"
+	],
+	"Files": [
+		"2480060d9a7d879495bc272799808d15 2218 quantum_2012.1-5+deb70u1.dsc 93e1b7c7d8759ed982bf1a78d3c212b7 241392 quantum_2012.1.orig.tar.xz 6daaa2aa25aa00a2aebb0d884d688764 6980 quantum_2012.1-5+deb70u1.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://launchpad.net/quantum"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"quantum"
+	],
+	"Package-List": [
+		"python-quantum deb python optional quantum-plugin-cisco deb net optional quantum-plugin-linuxbridge deb net optional quantum-plugin-linuxbridge-agent deb net optional quantum-plugin-nicira deb net optional quantum-plugin-openvswitch deb net optional quantum-plugin-openvswitch-agent deb net optional quantum-plugin-sample deb net optional quantum-server deb net optional"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Loic Dachary (OuoU) <loic@debian.org>, Julien Danjou <acid@debian.org>, Thomas Goirand <zigo@debian.org>, Ghe Rivero <ghe.rivero@stackops.com>, Mehdi Abaakouk <sileht@sileht.net>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=openstack/quantum.git;a=summary"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/openstack/quantum.git"
+	],
+	"Version": [
+		"2012.1-5+deb70u1"
+	]
 }

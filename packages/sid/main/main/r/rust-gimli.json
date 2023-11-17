@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-gimli-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-fallible-iterator-0.2+std-dev <!nocheck>, librust-fallible-iterator-0.2-dev <!nocheck>, librust-indexmap-1+default-dev (>= 1.0.2-~~) <!nocheck>, librust-stable-deref-trait-1+std-dev (>= 1.1.0-~~) <!nocheck>, librust-stable-deref-trait-1-dev (>= 1.1.0-~~) <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "5bf6e396741c68d999e9566bc29e711c68597107afa5b14cfbfd5228217e9d44 2734 rust-gimli_0.27.3-1.dsc b6c80984affa11d98d1b88b66ac8853f143217b399d3c74116778ff8fdb4ed2e 287904 rust-gimli_0.27.3.orig.tar.gz 2dff470c761e2a3981da6862e17a44b760953a4999e7ee300ad2a9f599bfc67d 10204 rust-gimli_0.27.3-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-gimli"
-  ],
-  "Files": [
-    "e75f83df2dc80b6c1f1bba6e35ff498d 2734 rust-gimli_0.27.3-1.dsc ff87974aed9ddf2f97785fae88b9027a 287904 rust-gimli_0.27.3.orig.tar.gz 83a367e3392b5d87230a1896938e1ff9 10204 rust-gimli_0.27.3-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-gimli"
-  ],
-  "Package-List": [
-    "librust-gimli-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-crossbeam-0.8+default-dev, librust-getopts-0.2+default-dev, librust-memmap2-0.5+default-dev, librust-memmap2-0.6+default-dev, librust-num-cpus-1+default-dev, librust-object-0.30+default-dev, librust-rayon-1+default-dev, librust-regex-1+default-dev, librust-typed-arena-2+default-dev"
-  ],
-  "Uploaders": [
-    "Ximin Luo <infinity0@debian.org>, Wolfgang Silbermayr <wolfgang@silbermayr.at>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gimli"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/gimli]"
-  ],
-  "Version": [
-    "0.27.3-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-gimli-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-fallible-iterator-0.2+std-dev <!nocheck>, librust-fallible-iterator-0.2-dev <!nocheck>, librust-indexmap-1+default-dev (>= 1.0.2-~~) <!nocheck>, librust-stable-deref-trait-1+std-dev (>= 1.1.0-~~) <!nocheck>, librust-stable-deref-trait-1-dev (>= 1.1.0-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"5bf6e396741c68d999e9566bc29e711c68597107afa5b14cfbfd5228217e9d44 2734 rust-gimli_0.27.3-1.dsc b6c80984affa11d98d1b88b66ac8853f143217b399d3c74116778ff8fdb4ed2e 287904 rust-gimli_0.27.3.orig.tar.gz 2dff470c761e2a3981da6862e17a44b760953a4999e7ee300ad2a9f599bfc67d 10204 rust-gimli_0.27.3-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-gimli"
+	],
+	"Files": [
+		"e75f83df2dc80b6c1f1bba6e35ff498d 2734 rust-gimli_0.27.3-1.dsc ff87974aed9ddf2f97785fae88b9027a 287904 rust-gimli_0.27.3.orig.tar.gz 83a367e3392b5d87230a1896938e1ff9 10204 rust-gimli_0.27.3-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-gimli"
+	],
+	"Package-List": [
+		"librust-gimli-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-crossbeam-0.8+default-dev, librust-getopts-0.2+default-dev, librust-memmap2-0.5+default-dev, librust-memmap2-0.6+default-dev, librust-num-cpus-1+default-dev, librust-object-0.30+default-dev, librust-rayon-1+default-dev, librust-regex-1+default-dev, librust-typed-arena-2+default-dev"
+	],
+	"Uploaders": [
+		"Ximin Luo <infinity0@debian.org>, Wolfgang Silbermayr <wolfgang@silbermayr.at>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gimli"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/gimli]"
+	],
+	"Version": [
+		"0.27.3-1"
+	]
 }

@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "i386 amd64 armhf"
-  ],
-  "Autobuild": [
-    "yes"
-  ],
-  "Binary": [
-    "nvidia-driver, nvidia-driver-bin, nvidia-glx, xserver-xorg-video-nvidia, libgl1-nvidia-glx, libgl1-nvidia-glx-i386, libegl1-nvidia, libgles1-nvidia, libgles2-nvidia, libnvidia-eglcore, nvidia-alternative, nvidia-kernel-dkms, nvidia-kernel-source, nvidia-vdpau-driver, nvidia-smi, nvidia-cuda-mps, libcuda1, libcuda1-i386, libnvidia-compiler, libnvcuvid1, libnvidia-encode1, libnvidia-ifr1, libnvidia-fbc1, libnvidia-ml1, nvidia-opencl-common, nvidia-opencl-icd, nvidia-libopencl1, nvidia-detect"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), xz-utils, dkms, libxext6, quilt, po-debconf"
-  ],
-  "Checksums-Sha1": [
-    "9e720fc1c0c41f9686cdfa3a85ce50f08bd7c83f 4928 nvidia-graphics-drivers_340.102-1~bpo70+1.dsc f4fda4d0072f06c7b48dd7c20ffcd7fe9edc0f50 69928076 nvidia-graphics-drivers_340.102.orig-amd64.tar.gz 869c26cd9eb9bcbd20ab74f725953181a92c5919 23498470 nvidia-graphics-drivers_340.102.orig-armhf.tar.gz 6c26c81f93dcfb4566ec11ebd359e589296eaca2 38744685 nvidia-graphics-drivers_340.102.orig-i386.tar.gz 8483f84a22fdebd402eb6ffcd2d9b0d40782bfc5 138 nvidia-graphics-drivers_340.102.orig.tar.gz de8c4850e01f5239207dfc74f97b67bafa684918 155689 nvidia-graphics-drivers_340.102-1~bpo70+1.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "6fd6e91d1f7cdb4bf380c35f455737a55acffffb2bb1c71e08c3e912aa145874 4928 nvidia-graphics-drivers_340.102-1~bpo70+1.dsc fb3c21fa825660f46ac2fd2b502f8db9a021a13715aa977a394311b8e63030c8 69928076 nvidia-graphics-drivers_340.102.orig-amd64.tar.gz 12b1aaa7961905b3368304564d1fe5c8ac272e2b57bf1fcb9caa27ec74c38b8e 23498470 nvidia-graphics-drivers_340.102.orig-armhf.tar.gz c5b69e6ac4dfbe87fa08b702b60666a4fa996201077cf1623af955447dd4d8e0 38744685 nvidia-graphics-drivers_340.102.orig-i386.tar.gz 35e60368283bef06a1adae66c94f22eb6d342c3d49711ed9483f52ae4807ff26 138 nvidia-graphics-drivers_340.102.orig.tar.gz 235931aa34a7af41f624aa8eeeae673efc4381b1377af7f6403f1703e1ad035c 155689 nvidia-graphics-drivers_340.102-1~bpo70+1.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/non-free/n/nvidia-graphics-drivers"
-  ],
-  "Files": [
-    "ade5111ff020f9caa857f28c2ef9103c 4928 nvidia-graphics-drivers_340.102-1~bpo70+1.dsc 7cec06e7c630f4dada7d950a6527fc5e 69928076 nvidia-graphics-drivers_340.102.orig-amd64.tar.gz 797c8de9ffa8c49c0125c2e549f0f711 23498470 nvidia-graphics-drivers_340.102.orig-armhf.tar.gz 56f97efeeed8d188c85175446ec23415 38744685 nvidia-graphics-drivers_340.102.orig-i386.tar.gz 0d7c684e3b6607e56352f287588df315 138 nvidia-graphics-drivers_340.102.orig.tar.gz adf07ea1938a6e9bfcd6ace1644a8546 155689 nvidia-graphics-drivers_340.102-1~bpo70+1.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.nvidia.com"
-  ],
-  "Maintainer": [
-    "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "nvidia-graphics-drivers"
-  ],
-  "Package-List": [
-    "libcuda1 deb non-free/libs optional libcuda1-i386 deb non-free/libs optional libegl1-nvidia deb non-free/libs optional libgl1-nvidia-glx deb non-free/libs optional libgl1-nvidia-glx-i386 deb non-free/libs optional libgles1-nvidia deb non-free/libs optional libgles2-nvidia deb non-free/libs optional libnvcuvid1 deb non-free/libs optional libnvidia-compiler deb non-free/libs optional libnvidia-eglcore deb non-free/libs optional libnvidia-encode1 deb non-free/libs optional libnvidia-fbc1 deb non-free/libs optional libnvidia-ifr1 deb non-free/libs optional libnvidia-ml1 deb non-free/libs optional nvidia-alternative deb non-free/libs optional nvidia-cuda-mps deb non-free/utils optional nvidia-detect deb non-free/x11 optional nvidia-driver deb non-free/x11 optional nvidia-driver-bin deb non-free/x11 optional nvidia-glx deb non-free/oldlibs extra nvidia-kernel-dkms deb non-free/kernel optional nvidia-kernel-source deb non-free/kernel optional nvidia-libopencl1 deb non-free/libs optional nvidia-opencl-common deb non-free/libs optional nvidia-opencl-icd deb non-free/libs optional nvidia-smi deb non-free/utils optional nvidia-vdpau-driver deb non-free/video optional xserver-xorg-video-nvidia deb non-free/x11 optional"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "non-free/misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Russ Allbery <rra@debian.org>, Andreas Beckmann <anbe@debian.org>, Vincent Cheng <vcheng@debian.org>, Luca Boccassi <luca.boccassi@gmail.com>,"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/viewvc/pkg-nvidia/packages/nvidia-graphics-drivers/"
-  ],
-  "Vcs-Svn": [
-    "svn://anonscm.debian.org/pkg-nvidia/packages/nvidia-graphics-drivers/trunk"
-  ],
-  "Version": [
-    "340.102-1~bpo70+1"
-  ]
+	"Architecture": [
+		"i386 amd64 armhf"
+	],
+	"Autobuild": [
+		"yes"
+	],
+	"Binary": [
+		"nvidia-driver, nvidia-driver-bin, nvidia-glx, xserver-xorg-video-nvidia, libgl1-nvidia-glx, libgl1-nvidia-glx-i386, libegl1-nvidia, libgles1-nvidia, libgles2-nvidia, libnvidia-eglcore, nvidia-alternative, nvidia-kernel-dkms, nvidia-kernel-source, nvidia-vdpau-driver, nvidia-smi, nvidia-cuda-mps, libcuda1, libcuda1-i386, libnvidia-compiler, libnvcuvid1, libnvidia-encode1, libnvidia-ifr1, libnvidia-fbc1, libnvidia-ml1, nvidia-opencl-common, nvidia-opencl-icd, nvidia-libopencl1, nvidia-detect"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), xz-utils, dkms, libxext6, quilt, po-debconf"
+	],
+	"Checksums-Sha1": [
+		"9e720fc1c0c41f9686cdfa3a85ce50f08bd7c83f 4928 nvidia-graphics-drivers_340.102-1~bpo70+1.dsc f4fda4d0072f06c7b48dd7c20ffcd7fe9edc0f50 69928076 nvidia-graphics-drivers_340.102.orig-amd64.tar.gz 869c26cd9eb9bcbd20ab74f725953181a92c5919 23498470 nvidia-graphics-drivers_340.102.orig-armhf.tar.gz 6c26c81f93dcfb4566ec11ebd359e589296eaca2 38744685 nvidia-graphics-drivers_340.102.orig-i386.tar.gz 8483f84a22fdebd402eb6ffcd2d9b0d40782bfc5 138 nvidia-graphics-drivers_340.102.orig.tar.gz de8c4850e01f5239207dfc74f97b67bafa684918 155689 nvidia-graphics-drivers_340.102-1~bpo70+1.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"6fd6e91d1f7cdb4bf380c35f455737a55acffffb2bb1c71e08c3e912aa145874 4928 nvidia-graphics-drivers_340.102-1~bpo70+1.dsc fb3c21fa825660f46ac2fd2b502f8db9a021a13715aa977a394311b8e63030c8 69928076 nvidia-graphics-drivers_340.102.orig-amd64.tar.gz 12b1aaa7961905b3368304564d1fe5c8ac272e2b57bf1fcb9caa27ec74c38b8e 23498470 nvidia-graphics-drivers_340.102.orig-armhf.tar.gz c5b69e6ac4dfbe87fa08b702b60666a4fa996201077cf1623af955447dd4d8e0 38744685 nvidia-graphics-drivers_340.102.orig-i386.tar.gz 35e60368283bef06a1adae66c94f22eb6d342c3d49711ed9483f52ae4807ff26 138 nvidia-graphics-drivers_340.102.orig.tar.gz 235931aa34a7af41f624aa8eeeae673efc4381b1377af7f6403f1703e1ad035c 155689 nvidia-graphics-drivers_340.102-1~bpo70+1.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/non-free/n/nvidia-graphics-drivers"
+	],
+	"Files": [
+		"ade5111ff020f9caa857f28c2ef9103c 4928 nvidia-graphics-drivers_340.102-1~bpo70+1.dsc 7cec06e7c630f4dada7d950a6527fc5e 69928076 nvidia-graphics-drivers_340.102.orig-amd64.tar.gz 797c8de9ffa8c49c0125c2e549f0f711 23498470 nvidia-graphics-drivers_340.102.orig-armhf.tar.gz 56f97efeeed8d188c85175446ec23415 38744685 nvidia-graphics-drivers_340.102.orig-i386.tar.gz 0d7c684e3b6607e56352f287588df315 138 nvidia-graphics-drivers_340.102.orig.tar.gz adf07ea1938a6e9bfcd6ace1644a8546 155689 nvidia-graphics-drivers_340.102-1~bpo70+1.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.nvidia.com"
+	],
+	"Maintainer": [
+		"Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"nvidia-graphics-drivers"
+	],
+	"Package-List": [
+		"libcuda1 deb non-free/libs optional libcuda1-i386 deb non-free/libs optional libegl1-nvidia deb non-free/libs optional libgl1-nvidia-glx deb non-free/libs optional libgl1-nvidia-glx-i386 deb non-free/libs optional libgles1-nvidia deb non-free/libs optional libgles2-nvidia deb non-free/libs optional libnvcuvid1 deb non-free/libs optional libnvidia-compiler deb non-free/libs optional libnvidia-eglcore deb non-free/libs optional libnvidia-encode1 deb non-free/libs optional libnvidia-fbc1 deb non-free/libs optional libnvidia-ifr1 deb non-free/libs optional libnvidia-ml1 deb non-free/libs optional nvidia-alternative deb non-free/libs optional nvidia-cuda-mps deb non-free/utils optional nvidia-detect deb non-free/x11 optional nvidia-driver deb non-free/x11 optional nvidia-driver-bin deb non-free/x11 optional nvidia-glx deb non-free/oldlibs extra nvidia-kernel-dkms deb non-free/kernel optional nvidia-kernel-source deb non-free/kernel optional nvidia-libopencl1 deb non-free/libs optional nvidia-opencl-common deb non-free/libs optional nvidia-opencl-icd deb non-free/libs optional nvidia-smi deb non-free/utils optional nvidia-vdpau-driver deb non-free/video optional xserver-xorg-video-nvidia deb non-free/x11 optional"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"non-free/misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Russ Allbery <rra@debian.org>, Andreas Beckmann <anbe@debian.org>, Vincent Cheng <vcheng@debian.org>, Luca Boccassi <luca.boccassi@gmail.com>,"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/viewvc/pkg-nvidia/packages/nvidia-graphics-drivers/"
+	],
+	"Vcs-Svn": [
+		"svn://anonscm.debian.org/pkg-nvidia/packages/nvidia-graphics-drivers/trunk"
+	],
+	"Version": [
+		"340.102-1~bpo70+1"
+	]
 }

@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-ironic, ironic-common, ironic-api, ironic-conductor, ironic-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 10), dh-python, dh-systemd, openstack-pkg-tools (>= 54~), po-debconf, python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx"
-  ],
-  "Build-Depends-Indep": [
-    "alembic (>= 0.8.4), python-amqplib, python-automaton, python-babel (>= 2.3.4), python-bashate, python-coverage, python-doc8, python-eventlet (>= 0.18.4), python-fixtures (>= 3.0.0), python-futurist (>= 0.11.0), python-glanceclient (>= 1:2.3.0), python-greenlet, python-hacking (>= 0.11.0), python-ironic-lib (>= 2.0.0), python-ironicclient (>= 1.6.0), python-iso8601 (>= 0.1.11), python-jinja2 (>= 2.8), python-jsonpatch, python-jsonschema, python-keystoneauth1 (>= 2.10.0), python-keystonemiddleware (>= 4.0.0), python-mock (>= 2.0), python-mysqldb, python-netaddr (>= 0.7.13), python-neutronclient (>= 1:5.1.0), python-openstackdocstheme (>= 1.5.0), python-os-testr (>= 0.7.0), python-oslo.concurrency (>= 3.8.0), python-oslo.config (>= 1:3.14.0), python-oslo.context (>= 2.9.0), python-oslo.db (>= 4.10.0), python-oslo.i18n (>= 2.1.0), python-oslo.log (>= 2.0.0), python-oslo.messaging (>= 5.2.0), python-oslo.middleware (>= 3.0.0), python-oslo.policy (>= 1.9.0), python-oslo.rootwrap (>= 5.0.0), python-oslo.serialization (>= 2.0.0), python-oslo.service (>= 1.10.0), python-oslo.utils (>= 3.16.0), python-oslo.versionedobjects (>= 1.13.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.10.0), python-paramiko (>= 2.0), python-pecan (>= 1.0.0), python-pil, python-proliantutils (>= 2.1.7), python-psutil, python-psycopg2 (>= 2.5), python-pyghmi (>= 0.8.0), python-pymysql, python-pysnmp4, python-requests (>= 2.10.0), python-retrying, python-seamicroclient (>= 0.4.0), python-sendfile, python-six (>= 1.9.0), python-sphinxcontrib-pecanwsme, python-sphinxcontrib.seqdiag, python-sqlalchemy (>= 1.0.10), python-stevedore (>= 1.16.0), python-swiftclient (>= 1:2.2.0), python-testresources, python-testtools (>= 1.4.0), python-tz, python-webob, python-webtest, python-wsme (>= 0.8), subunit, testrepository"
-  ],
-  "Checksums-Sha256": [
-    "30ffcff5ced0172808e9d0327cf272bbf34ac004833e96765639f41120160e0e 4104 ironic_6.2.0-3.dsc 6a17ce1d71fe956ff974ed16f121246fc57584d2316cbc1e8b739c45cdbd889b 882212 ironic_6.2.0.orig.tar.xz 874a8d31744e27f9bbdb1cb917bf4ba1502f40e1d7f17d82048522b0c6b761a4 21444 ironic_6.2.0-3.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/i/ironic"
-  ],
-  "Files": [
-    "69fecd61c804ba40df22028545518d7c 4104 ironic_6.2.0-3.dsc a119e7d3000b7e6ddba764df5191e569 882212 ironic_6.2.0.orig.tar.xz 9a978cf64fe3ed5d430b803c04d419b8 21444 ironic_6.2.0-3.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/openstack/ironic"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "ironic"
-  ],
-  "Package-List": [
-    "ironic-api deb net extra arch=all ironic-common deb net extra arch=all ironic-conductor deb net extra arch=all ironic-doc deb doc extra arch=all python-ironic deb python extra arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://git.openstack.org/cgit/openstack/deb-ironic?h=debian%2Fnewton"
-  ],
-  "Vcs-Git": [
-    "https://git.openstack.org/openstack/deb-ironic -b debian/newton"
-  ],
-  "Version": [
-    "1:6.2.0-3"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-ironic, ironic-common, ironic-api, ironic-conductor, ironic-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 10), dh-python, dh-systemd, openstack-pkg-tools (>= 54~), po-debconf, python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx"
+	],
+	"Build-Depends-Indep": [
+		"alembic (>= 0.8.4), python-amqplib, python-automaton, python-babel (>= 2.3.4), python-bashate, python-coverage, python-doc8, python-eventlet (>= 0.18.4), python-fixtures (>= 3.0.0), python-futurist (>= 0.11.0), python-glanceclient (>= 1:2.3.0), python-greenlet, python-hacking (>= 0.11.0), python-ironic-lib (>= 2.0.0), python-ironicclient (>= 1.6.0), python-iso8601 (>= 0.1.11), python-jinja2 (>= 2.8), python-jsonpatch, python-jsonschema, python-keystoneauth1 (>= 2.10.0), python-keystonemiddleware (>= 4.0.0), python-mock (>= 2.0), python-mysqldb, python-netaddr (>= 0.7.13), python-neutronclient (>= 1:5.1.0), python-openstackdocstheme (>= 1.5.0), python-os-testr (>= 0.7.0), python-oslo.concurrency (>= 3.8.0), python-oslo.config (>= 1:3.14.0), python-oslo.context (>= 2.9.0), python-oslo.db (>= 4.10.0), python-oslo.i18n (>= 2.1.0), python-oslo.log (>= 2.0.0), python-oslo.messaging (>= 5.2.0), python-oslo.middleware (>= 3.0.0), python-oslo.policy (>= 1.9.0), python-oslo.rootwrap (>= 5.0.0), python-oslo.serialization (>= 2.0.0), python-oslo.service (>= 1.10.0), python-oslo.utils (>= 3.16.0), python-oslo.versionedobjects (>= 1.13.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.10.0), python-paramiko (>= 2.0), python-pecan (>= 1.0.0), python-pil, python-proliantutils (>= 2.1.7), python-psutil, python-psycopg2 (>= 2.5), python-pyghmi (>= 0.8.0), python-pymysql, python-pysnmp4, python-requests (>= 2.10.0), python-retrying, python-seamicroclient (>= 0.4.0), python-sendfile, python-six (>= 1.9.0), python-sphinxcontrib-pecanwsme, python-sphinxcontrib.seqdiag, python-sqlalchemy (>= 1.0.10), python-stevedore (>= 1.16.0), python-swiftclient (>= 1:2.2.0), python-testresources, python-testtools (>= 1.4.0), python-tz, python-webob, python-webtest, python-wsme (>= 0.8), subunit, testrepository"
+	],
+	"Checksums-Sha256": [
+		"30ffcff5ced0172808e9d0327cf272bbf34ac004833e96765639f41120160e0e 4104 ironic_6.2.0-3.dsc 6a17ce1d71fe956ff974ed16f121246fc57584d2316cbc1e8b739c45cdbd889b 882212 ironic_6.2.0.orig.tar.xz 874a8d31744e27f9bbdb1cb917bf4ba1502f40e1d7f17d82048522b0c6b761a4 21444 ironic_6.2.0-3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/i/ironic"
+	],
+	"Files": [
+		"69fecd61c804ba40df22028545518d7c 4104 ironic_6.2.0-3.dsc a119e7d3000b7e6ddba764df5191e569 882212 ironic_6.2.0.orig.tar.xz 9a978cf64fe3ed5d430b803c04d419b8 21444 ironic_6.2.0-3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/openstack/ironic"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"ironic"
+	],
+	"Package-List": [
+		"ironic-api deb net extra arch=all ironic-common deb net extra arch=all ironic-conductor deb net extra arch=all ironic-doc deb doc extra arch=all python-ironic deb python extra arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://git.openstack.org/cgit/openstack/deb-ironic?h=debian%2Fnewton"
+	],
+	"Vcs-Git": [
+		"https://git.openstack.org/openstack/deb-ironic -b debian/newton"
+	],
+	"Version": [
+		"1:6.2.0-3"
+	]
 }

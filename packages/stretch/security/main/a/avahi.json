@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "avahi-daemon, avahi-dnsconfd, avahi-autoipd, python-avahi, avahi-utils, avahi-discover, libavahi-common3, libavahi-common-data, libavahi-common-dev, libavahi-core7, libavahi-core-dev, libavahi-client3, libavahi-client-dev, libavahi-glib1, libavahi-glib-dev, libavahi-gobject0, libavahi-gobject-dev, libavahi-qt4-1, libavahi-qt4-dev, libavahi-compat-libdnssd1, libavahi-compat-libdnssd-dev, libavahi-ui0, libavahi-ui-dev, libavahi-ui-gtk3-0, libavahi-ui-gtk3-dev, avahi-ui-utils"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9.20160114), dh-systemd (>= 1.5), dh-python, dpkg-dev (>= 1.17.14), autotools-dev, pkg-config, dh-autoreconf, libcap-dev (>= 1:2.16) [linux-any], libgdbm-dev, libglib2.0-dev (>= 2.4), libgtk2.0-dev (>= 2.14.0), libgtk-3-dev <!stage1>, libexpat-dev, libdaemon-dev (>= 0.11), libdbus-1-dev (>= 0.60), python-all-dev (>= 2.6.6-3~), python-gdbm (>= 2.4.3), python-dbus <!stage1>, python-gtk2 (>= 2.8.6-2) <!stage1>, libqt4-dev <!stage1>, xmltoman, intltool (>= 0.35.0)"
-  ],
-  "Checksums-Sha1": [
-    "ba0a55e0bcd21879da751d976ced6ac67026ce09 4442 avahi_0.6.32-2+deb9u1.dsc 1c6d234058fd7883b3a4515e99216fdc8f71b223 1297169 avahi_0.6.32.orig.tar.gz 99c9497087b568f66c44d3f52330f9901ac6b472 29928 avahi_0.6.32-2+deb9u1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "e04580262cc3cefa5dc01e81408c925a88d88f462dd503818da769f47e44c0b5 4442 avahi_0.6.32-2+deb9u1.dsc d54991185d514a0aba54ebeb408d7575b60f5818a772e28fa0e18b98bc1db454 1297169 avahi_0.6.32.orig.tar.gz d1a456ba6996943370c2d46c2a760386141e3125be8158ac09212af23d8b9eee 29928 avahi_0.6.32-2+deb9u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/a/avahi"
-  ],
-  "Files": [
-    "7acbad22441d2e1914bc90c5ab507691 4442 avahi_0.6.32-2+deb9u1.dsc 22b5e705d3eabb31d26f2e1e7b074013 1297169 avahi_0.6.32.orig.tar.gz 8b826b393c58d3691dfd5aa42615ccc3 29928 avahi_0.6.32-2+deb9u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://avahi.org/"
-  ],
-  "Maintainer": [
-    "Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "avahi"
-  ],
-  "Package-List": [
-    "avahi-autoipd deb net optional arch=linux-any avahi-daemon deb net optional arch=any avahi-discover deb net optional arch=all profile=!stage1 avahi-dnsconfd deb net optional arch=any avahi-ui-utils deb utils optional arch=any profile=!stage1 avahi-utils deb net optional arch=any libavahi-client-dev deb libdevel optional arch=any libavahi-client3 deb libs optional arch=any libavahi-common-data deb libs optional arch=any libavahi-common-dev deb libdevel optional arch=any libavahi-common3 deb libs optional arch=any libavahi-compat-libdnssd-dev deb libdevel optional arch=any libavahi-compat-libdnssd1 deb libs optional arch=any libavahi-core-dev deb libdevel optional arch=any libavahi-core7 deb libs optional arch=any libavahi-glib-dev deb libdevel optional arch=any libavahi-glib1 deb libs optional arch=any libavahi-gobject-dev deb libdevel optional arch=any libavahi-gobject0 deb libs optional arch=any libavahi-qt4-1 deb libs optional arch=any profile=!stage1 libavahi-qt4-dev deb libdevel optional arch=any profile=!stage1 libavahi-ui-dev deb libdevel optional arch=any profile=!stage1 libavahi-ui-gtk3-0 deb libs optional arch=any profile=!stage1 libavahi-ui-gtk3-dev deb libdevel optional arch=any profile=!stage1 libavahi-ui0 deb libs optional arch=any profile=!stage1 python-avahi deb python optional arch=any profile=!stage1"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Sjoerd Simons <sjoerd@debian.org>, Sebastian Dröge <slomo@debian.org>, Loic Minier <lool@dooz.org>, Michael Biebl <biebl@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-utopia/avahi.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-utopia/avahi.git"
-  ],
-  "Version": [
-    "0.6.32-2+deb9u1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"avahi-daemon, avahi-dnsconfd, avahi-autoipd, python-avahi, avahi-utils, avahi-discover, libavahi-common3, libavahi-common-data, libavahi-common-dev, libavahi-core7, libavahi-core-dev, libavahi-client3, libavahi-client-dev, libavahi-glib1, libavahi-glib-dev, libavahi-gobject0, libavahi-gobject-dev, libavahi-qt4-1, libavahi-qt4-dev, libavahi-compat-libdnssd1, libavahi-compat-libdnssd-dev, libavahi-ui0, libavahi-ui-dev, libavahi-ui-gtk3-0, libavahi-ui-gtk3-dev, avahi-ui-utils"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9.20160114), dh-systemd (>= 1.5), dh-python, dpkg-dev (>= 1.17.14), autotools-dev, pkg-config, dh-autoreconf, libcap-dev (>= 1:2.16) [linux-any], libgdbm-dev, libglib2.0-dev (>= 2.4), libgtk2.0-dev (>= 2.14.0), libgtk-3-dev <!stage1>, libexpat-dev, libdaemon-dev (>= 0.11), libdbus-1-dev (>= 0.60), python-all-dev (>= 2.6.6-3~), python-gdbm (>= 2.4.3), python-dbus <!stage1>, python-gtk2 (>= 2.8.6-2) <!stage1>, libqt4-dev <!stage1>, xmltoman, intltool (>= 0.35.0)"
+	],
+	"Checksums-Sha1": [
+		"ba0a55e0bcd21879da751d976ced6ac67026ce09 4442 avahi_0.6.32-2+deb9u1.dsc 1c6d234058fd7883b3a4515e99216fdc8f71b223 1297169 avahi_0.6.32.orig.tar.gz 99c9497087b568f66c44d3f52330f9901ac6b472 29928 avahi_0.6.32-2+deb9u1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"e04580262cc3cefa5dc01e81408c925a88d88f462dd503818da769f47e44c0b5 4442 avahi_0.6.32-2+deb9u1.dsc d54991185d514a0aba54ebeb408d7575b60f5818a772e28fa0e18b98bc1db454 1297169 avahi_0.6.32.orig.tar.gz d1a456ba6996943370c2d46c2a760386141e3125be8158ac09212af23d8b9eee 29928 avahi_0.6.32-2+deb9u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/a/avahi"
+	],
+	"Files": [
+		"7acbad22441d2e1914bc90c5ab507691 4442 avahi_0.6.32-2+deb9u1.dsc 22b5e705d3eabb31d26f2e1e7b074013 1297169 avahi_0.6.32.orig.tar.gz 8b826b393c58d3691dfd5aa42615ccc3 29928 avahi_0.6.32-2+deb9u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://avahi.org/"
+	],
+	"Maintainer": [
+		"Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"avahi"
+	],
+	"Package-List": [
+		"avahi-autoipd deb net optional arch=linux-any avahi-daemon deb net optional arch=any avahi-discover deb net optional arch=all profile=!stage1 avahi-dnsconfd deb net optional arch=any avahi-ui-utils deb utils optional arch=any profile=!stage1 avahi-utils deb net optional arch=any libavahi-client-dev deb libdevel optional arch=any libavahi-client3 deb libs optional arch=any libavahi-common-data deb libs optional arch=any libavahi-common-dev deb libdevel optional arch=any libavahi-common3 deb libs optional arch=any libavahi-compat-libdnssd-dev deb libdevel optional arch=any libavahi-compat-libdnssd1 deb libs optional arch=any libavahi-core-dev deb libdevel optional arch=any libavahi-core7 deb libs optional arch=any libavahi-glib-dev deb libdevel optional arch=any libavahi-glib1 deb libs optional arch=any libavahi-gobject-dev deb libdevel optional arch=any libavahi-gobject0 deb libs optional arch=any libavahi-qt4-1 deb libs optional arch=any profile=!stage1 libavahi-qt4-dev deb libdevel optional arch=any profile=!stage1 libavahi-ui-dev deb libdevel optional arch=any profile=!stage1 libavahi-ui-gtk3-0 deb libs optional arch=any profile=!stage1 libavahi-ui-gtk3-dev deb libdevel optional arch=any profile=!stage1 libavahi-ui0 deb libs optional arch=any profile=!stage1 python-avahi deb python optional arch=any profile=!stage1"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Sjoerd Simons <sjoerd@debian.org>, Sebastian Dröge <slomo@debian.org>, Loic Minier <lool@dooz.org>, Michael Biebl <biebl@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-utopia/avahi.git;a=summary"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-utopia/avahi.git"
+	],
+	"Version": [
+		"0.6.32-2+deb9u1"
+	]
 }

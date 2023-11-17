@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "kdepimlibs5-dev, kdepimlibs-kio-plugins, libakonadi-contact4, libakonadi-kabc4, libakonadi-kcal4, libakonadi-kde4, libakonadi-kmime4, libakonadi-socialutils4, libakonadi-notes4, libakonadi-xml4, libgpgme++2, libkabc4, libkblog4, libkalarmcal2, libkcal4, libkcalcore4, libkcalutils4, libkholidays4, libkimap4, libkldap4, libkmbox4, libakonadi-calendar4, libkmime4, libkontactinterface4a, libkpimidentities4, libkpimtextedit4, libkpimutils4, libkresources4, libktnef4, libkxmlrpcclient4, libmailtransport4, libmicroblog4, libqgpgme1, libsyndication4, kdepimlibs-dbg"
-  ],
-  "Build-Depends": [
-    "cmake, debhelper (>= 9), dpkg-dev (>= 1.15.5), kde-sc-dev-latest (>= 4:4.12), kdelibs5-dev (>= 4:4.13), libakonadi-dev (>= 1.12.90), libboost-dev (>= 1.34), libboost-graph-dev, libgpgme11-dev, libical-dev (>= 0.42), libldap2-dev, libprison-dev, libqjson-dev, libqt4-dev (>= 4:4.8), libsasl2-dev, libx11-dev, libxslt1-dev, pkg-config, pkg-kde-tools (>= 0.12), shared-mime-info (>= 0.30), uuid-dev, xsltproc"
-  ],
-  "Checksums-Sha1": [
-    "a16c3998cbcf7b3a17604871edff67710d0ef163 4797 kdepimlibs_4.14.2-2+deb8u2.dsc c152380465ed167d41f9ab7a85c9c59a7dc11680 2788976 kdepimlibs_4.14.2.orig.tar.xz 65647691bb598c5bc1739f616710ade42e2de2ef 116288 kdepimlibs_4.14.2-2+deb8u2.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "c0b3490140b2895bd7e788e49554b723c4e61d64dab9171b698f1fa290cfbb34 4797 kdepimlibs_4.14.2-2+deb8u2.dsc d35b6343ffadbfaa561bed3d16fd0a449303c7f4c86366b5428d34a5df7db79d 2788976 kdepimlibs_4.14.2.orig.tar.xz a32c54b662864e1e33fa73491c93ed016b43c5c4093bd208a45629750aaaff02 116288 kdepimlibs_4.14.2-2+deb8u2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/k/kdepimlibs"
-  ],
-  "Files": [
-    "122bb5bd031af056f3b375a708dfb659 4797 kdepimlibs_4.14.2-2+deb8u2.dsc f1c8a6f0914706109809d4f27d2835a6 2788976 kdepimlibs_4.14.2.orig.tar.xz 601319285deeaa2c84be947e6ea16890 116288 kdepimlibs_4.14.2-2+deb8u2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://pim.kde.org/"
-  ],
-  "Maintainer": [
-    "Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>"
-  ],
-  "Package": [
-    "kdepimlibs"
-  ],
-  "Package-List": [
-    "kdepimlibs-dbg deb debug extra arch=any kdepimlibs-kio-plugins deb libs optional arch=any kdepimlibs5-dev deb libdevel optional arch=any libakonadi-calendar4 deb libs optional arch=any libakonadi-contact4 deb libs optional arch=any libakonadi-kabc4 deb libs optional arch=any libakonadi-kcal4 deb libs optional arch=any libakonadi-kde4 deb libs optional arch=any libakonadi-kmime4 deb libs optional arch=any libakonadi-notes4 deb libs optional arch=any libakonadi-socialutils4 deb libs optional arch=any libakonadi-xml4 deb libs optional arch=any libgpgme++2 deb libs optional arch=any libkabc4 deb libs optional arch=any libkalarmcal2 deb libs optional arch=any libkblog4 deb libs optional arch=any libkcal4 deb libs optional arch=any libkcalcore4 deb libs optional arch=any libkcalutils4 deb libs optional arch=any libkholidays4 deb libs optional arch=any libkimap4 deb libs optional arch=any libkldap4 deb libs optional arch=any libkmbox4 deb libs optional arch=any libkmime4 deb libs optional arch=any libkontactinterface4a deb libs optional arch=any libkpimidentities4 deb libs optional arch=any libkpimtextedit4 deb libs optional arch=any libkpimutils4 deb libs optional arch=any libkresources4 deb libs optional arch=any libktnef4 deb libs optional arch=any libkxmlrpcclient4 deb libs optional arch=any libmailtransport4 deb libs optional arch=any libmicroblog4 deb libs optional arch=any libqgpgme1 deb libs optional arch=any libsyndication4 deb libs optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "libs"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "akonadi-server, build-essential, dbus-x11, dh-acc, exuberant-ctags, kde-runtime, libxml2-utils, oxygen-icon-theme, tzdata, xauth, xvfb"
-  ],
-  "Uploaders": [
-    "Sune Vuorela <sune@debian.org>, Fathi Boudra <fabo@debian.org>, Modestas Vainius <modax@debian.org>, George Kiagiadakis <kiagiadakis.george@gmail.com>, Eshat Cakar <info@eshat.de>, Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>, Maximiliano Curia <maxy@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kdepimlibs.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-kde/kde-sc/kdepimlibs.git"
-  ],
-  "Version": [
-    "4:4.14.2-2+deb8u2"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"kdepimlibs5-dev, kdepimlibs-kio-plugins, libakonadi-contact4, libakonadi-kabc4, libakonadi-kcal4, libakonadi-kde4, libakonadi-kmime4, libakonadi-socialutils4, libakonadi-notes4, libakonadi-xml4, libgpgme++2, libkabc4, libkblog4, libkalarmcal2, libkcal4, libkcalcore4, libkcalutils4, libkholidays4, libkimap4, libkldap4, libkmbox4, libakonadi-calendar4, libkmime4, libkontactinterface4a, libkpimidentities4, libkpimtextedit4, libkpimutils4, libkresources4, libktnef4, libkxmlrpcclient4, libmailtransport4, libmicroblog4, libqgpgme1, libsyndication4, kdepimlibs-dbg"
+	],
+	"Build-Depends": [
+		"cmake, debhelper (>= 9), dpkg-dev (>= 1.15.5), kde-sc-dev-latest (>= 4:4.12), kdelibs5-dev (>= 4:4.13), libakonadi-dev (>= 1.12.90), libboost-dev (>= 1.34), libboost-graph-dev, libgpgme11-dev, libical-dev (>= 0.42), libldap2-dev, libprison-dev, libqjson-dev, libqt4-dev (>= 4:4.8), libsasl2-dev, libx11-dev, libxslt1-dev, pkg-config, pkg-kde-tools (>= 0.12), shared-mime-info (>= 0.30), uuid-dev, xsltproc"
+	],
+	"Checksums-Sha1": [
+		"a16c3998cbcf7b3a17604871edff67710d0ef163 4797 kdepimlibs_4.14.2-2+deb8u2.dsc c152380465ed167d41f9ab7a85c9c59a7dc11680 2788976 kdepimlibs_4.14.2.orig.tar.xz 65647691bb598c5bc1739f616710ade42e2de2ef 116288 kdepimlibs_4.14.2-2+deb8u2.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"c0b3490140b2895bd7e788e49554b723c4e61d64dab9171b698f1fa290cfbb34 4797 kdepimlibs_4.14.2-2+deb8u2.dsc d35b6343ffadbfaa561bed3d16fd0a449303c7f4c86366b5428d34a5df7db79d 2788976 kdepimlibs_4.14.2.orig.tar.xz a32c54b662864e1e33fa73491c93ed016b43c5c4093bd208a45629750aaaff02 116288 kdepimlibs_4.14.2-2+deb8u2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/k/kdepimlibs"
+	],
+	"Files": [
+		"122bb5bd031af056f3b375a708dfb659 4797 kdepimlibs_4.14.2-2+deb8u2.dsc f1c8a6f0914706109809d4f27d2835a6 2788976 kdepimlibs_4.14.2.orig.tar.xz 601319285deeaa2c84be947e6ea16890 116288 kdepimlibs_4.14.2-2+deb8u2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://pim.kde.org/"
+	],
+	"Maintainer": [
+		"Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>"
+	],
+	"Package": [
+		"kdepimlibs"
+	],
+	"Package-List": [
+		"kdepimlibs-dbg deb debug extra arch=any kdepimlibs-kio-plugins deb libs optional arch=any kdepimlibs5-dev deb libdevel optional arch=any libakonadi-calendar4 deb libs optional arch=any libakonadi-contact4 deb libs optional arch=any libakonadi-kabc4 deb libs optional arch=any libakonadi-kcal4 deb libs optional arch=any libakonadi-kde4 deb libs optional arch=any libakonadi-kmime4 deb libs optional arch=any libakonadi-notes4 deb libs optional arch=any libakonadi-socialutils4 deb libs optional arch=any libakonadi-xml4 deb libs optional arch=any libgpgme++2 deb libs optional arch=any libkabc4 deb libs optional arch=any libkalarmcal2 deb libs optional arch=any libkblog4 deb libs optional arch=any libkcal4 deb libs optional arch=any libkcalcore4 deb libs optional arch=any libkcalutils4 deb libs optional arch=any libkholidays4 deb libs optional arch=any libkimap4 deb libs optional arch=any libkldap4 deb libs optional arch=any libkmbox4 deb libs optional arch=any libkmime4 deb libs optional arch=any libkontactinterface4a deb libs optional arch=any libkpimidentities4 deb libs optional arch=any libkpimtextedit4 deb libs optional arch=any libkpimutils4 deb libs optional arch=any libkresources4 deb libs optional arch=any libktnef4 deb libs optional arch=any libkxmlrpcclient4 deb libs optional arch=any libmailtransport4 deb libs optional arch=any libmicroblog4 deb libs optional arch=any libqgpgme1 deb libs optional arch=any libsyndication4 deb libs optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"libs"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"akonadi-server, build-essential, dbus-x11, dh-acc, exuberant-ctags, kde-runtime, libxml2-utils, oxygen-icon-theme, tzdata, xauth, xvfb"
+	],
+	"Uploaders": [
+		"Sune Vuorela <sune@debian.org>, Fathi Boudra <fabo@debian.org>, Modestas Vainius <modax@debian.org>, George Kiagiadakis <kiagiadakis.george@gmail.com>, Eshat Cakar <info@eshat.de>, Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>, Maximiliano Curia <maxy@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kdepimlibs.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-kde/kde-sc/kdepimlibs.git"
+	],
+	"Version": [
+		"4:4.14.2-2+deb8u2"
+	]
 }

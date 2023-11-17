@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "perlimports"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13)"
-  ],
-  "Build-Depends-Indep": [
-    "libcapture-tiny-perl <!nocheck>, libclass-inspector-perl (>= 1.36) <!nocheck>, libcpanel-json-xs-perl <!nocheck>, libdatetime-perl <!nocheck>, libfile-chdir-perl <!nocheck>, libfile-pushd-perl <!nocheck>, libfile-xdg-perl <!nocheck>, libgeo-ip-perl <!nocheck>, libgetopt-long-descriptive-perl <!nocheck>, libhtml-lint-perl <!nocheck>, libhtml-tableextract-perl <!nocheck>, libhttp-message-perl <!nocheck>, liblingua-en-inflect-perl <!nocheck>, liblist-allutils-perl <!nocheck>, liblog-dispatch-array-perl <!nocheck>, liblog-dispatch-perl (>= 2.70) <!nocheck>, libmodule-runtime-perl <!nocheck>, libmojolicious-perl <!nocheck>, libmoo-perl <!nocheck>, libmoose-perl <!nocheck>, libmoosex-types-path-class-perl <!nocheck>, libmoosex-types-perl <!nocheck>, libmoox-strictconstructor-perl <!nocheck>, libossp-uuid-perl <!nocheck>, libpath-class-perl <!nocheck>, libpath-iterator-rule-perl <!nocheck>, libpath-tiny-perl <!nocheck>, libperl-critic-perl <!nocheck>, libpithub-perl <!nocheck>, libppi-perl (>= 1.276) <!nocheck>, libppix-utils-perl <!nocheck>, libref-util-perl <!nocheck>, libscalar-list-utils-perl <!nocheck>, libsereal-decoder-perl <!nocheck>, libsereal-encoder-perl <!nocheck>, libsub-exporter-perl <!nocheck>, libsub-handlesvia-perl <!nocheck>, libsymbol-get-perl <!nocheck>, libtest-differences-perl <!nocheck>, libtest-fatal-perl <!nocheck>, libtest-most-perl <!nocheck>, libtest-needs-perl <!nocheck>, libtest-requiresinternet-perl <!nocheck>, libtest-script-perl (>= 1.29) <!nocheck>, libtest-simple-perl <!nocheck>, libtest-warnings-perl <!nocheck>, libtest2-suite-perl <!nocheck>, libtext-diff-perl <!nocheck>, libtext-simpletable-autowidth-perl <!nocheck>, libtoml-tiny-perl <!nocheck>, libtry-tiny-perl <!nocheck>, libtype-tiny-perl <!nocheck>, libwww-perl <!nocheck>, perl, perltidy (>= 20220613) <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "eb1bd46fbb0b43fc7bc132f5df5a5832fbc72171233c791e24f1a0bc282e098d 4132 perlimports_0.000050-1.dsc 409cdecdc0c4d233a40fb7a036d7d4853c26e41a34069637b8fb71748692d73d 90126 perlimports_0.000050.orig.tar.gz 555dc1f728bf47e06f94cbcc785402cbf5f2b1591936a084d983c9aebf6c8b96 2752 perlimports_0.000050-1.debian.tar.xz"
-  ],
-  "Dgit": [
-    "e6544273c2b74e04ac53cd449c18f4f052d7c65c debian archive/debian/0.000050-1 https://git.dgit.debian.org/perlimports"
-  ],
-  "Directory": [
-    "pool/main/p/perlimports"
-  ],
-  "Files": [
-    "25d1e1d929ed9d0fbc46c6b8291823f6 4132 perlimports_0.000050-1.dsc 34cc3ae3137bff2814f036f8967195b9 90126 perlimports_0.000050.orig.tar.gz 9c23da90df07e979c01ce9d7d560b4ca 2752 perlimports_0.000050-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://metacpan.org/release/App-perlimports"
-  ],
-  "Maintainer": [
-    "Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "perlimports"
-  ],
-  "Package-List": [
-    "perlimports deb perl optional arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest-pkg-perl"
-  ],
-  "Uploaders": [
-    "gregor herrmann <gregoa@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/perl-team/modules/packages/perlimports"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/perl-team/modules/packages/perlimports.git"
-  ],
-  "Version": [
-    "0.000050-1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"perlimports"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13)"
+	],
+	"Build-Depends-Indep": [
+		"libcapture-tiny-perl <!nocheck>, libclass-inspector-perl (>= 1.36) <!nocheck>, libcpanel-json-xs-perl <!nocheck>, libdatetime-perl <!nocheck>, libfile-chdir-perl <!nocheck>, libfile-pushd-perl <!nocheck>, libfile-xdg-perl <!nocheck>, libgeo-ip-perl <!nocheck>, libgetopt-long-descriptive-perl <!nocheck>, libhtml-lint-perl <!nocheck>, libhtml-tableextract-perl <!nocheck>, libhttp-message-perl <!nocheck>, liblingua-en-inflect-perl <!nocheck>, liblist-allutils-perl <!nocheck>, liblog-dispatch-array-perl <!nocheck>, liblog-dispatch-perl (>= 2.70) <!nocheck>, libmodule-runtime-perl <!nocheck>, libmojolicious-perl <!nocheck>, libmoo-perl <!nocheck>, libmoose-perl <!nocheck>, libmoosex-types-path-class-perl <!nocheck>, libmoosex-types-perl <!nocheck>, libmoox-strictconstructor-perl <!nocheck>, libossp-uuid-perl <!nocheck>, libpath-class-perl <!nocheck>, libpath-iterator-rule-perl <!nocheck>, libpath-tiny-perl <!nocheck>, libperl-critic-perl <!nocheck>, libpithub-perl <!nocheck>, libppi-perl (>= 1.276) <!nocheck>, libppix-utils-perl <!nocheck>, libref-util-perl <!nocheck>, libscalar-list-utils-perl <!nocheck>, libsereal-decoder-perl <!nocheck>, libsereal-encoder-perl <!nocheck>, libsub-exporter-perl <!nocheck>, libsub-handlesvia-perl <!nocheck>, libsymbol-get-perl <!nocheck>, libtest-differences-perl <!nocheck>, libtest-fatal-perl <!nocheck>, libtest-most-perl <!nocheck>, libtest-needs-perl <!nocheck>, libtest-requiresinternet-perl <!nocheck>, libtest-script-perl (>= 1.29) <!nocheck>, libtest-simple-perl <!nocheck>, libtest-warnings-perl <!nocheck>, libtest2-suite-perl <!nocheck>, libtext-diff-perl <!nocheck>, libtext-simpletable-autowidth-perl <!nocheck>, libtoml-tiny-perl <!nocheck>, libtry-tiny-perl <!nocheck>, libtype-tiny-perl <!nocheck>, libwww-perl <!nocheck>, perl, perltidy (>= 20220613) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"eb1bd46fbb0b43fc7bc132f5df5a5832fbc72171233c791e24f1a0bc282e098d 4132 perlimports_0.000050-1.dsc 409cdecdc0c4d233a40fb7a036d7d4853c26e41a34069637b8fb71748692d73d 90126 perlimports_0.000050.orig.tar.gz 555dc1f728bf47e06f94cbcc785402cbf5f2b1591936a084d983c9aebf6c8b96 2752 perlimports_0.000050-1.debian.tar.xz"
+	],
+	"Dgit": [
+		"e6544273c2b74e04ac53cd449c18f4f052d7c65c debian archive/debian/0.000050-1 https://git.dgit.debian.org/perlimports"
+	],
+	"Directory": [
+		"pool/main/p/perlimports"
+	],
+	"Files": [
+		"25d1e1d929ed9d0fbc46c6b8291823f6 4132 perlimports_0.000050-1.dsc 34cc3ae3137bff2814f036f8967195b9 90126 perlimports_0.000050.orig.tar.gz 9c23da90df07e979c01ce9d7d560b4ca 2752 perlimports_0.000050-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://metacpan.org/release/App-perlimports"
+	],
+	"Maintainer": [
+		"Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"perlimports"
+	],
+	"Package-List": [
+		"perlimports deb perl optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest-pkg-perl"
+	],
+	"Uploaders": [
+		"gregor herrmann <gregoa@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/perl-team/modules/packages/perlimports"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/perl-team/modules/packages/perlimports.git"
+	],
+	"Version": [
+		"0.000050-1"
+	]
 }

@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-ceilometer, ceilometer-common, ceilometer-collector, ceilometer-api, ceilometer-agent-compute, ceilometer-agent-central, ceilometer-alarm-evaluator, ceilometer-alarm-notifier, ceilometer-agent-notification"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-systemd, openstack-pkg-tools (>= 22~), po-debconf, python-all (>= 2.6.6-3~), python-pbr (>= 0.6), python-sphinx"
-  ],
-  "Build-Depends-Indep": [
-    "alembic (>= 0.4.2), mongodb, python-anyjson (>= 0.3.3), python-babel (>= 1.3), python-ceilometerclient (>= 1.0.6), python-coverage (>= 3.6), python-croniter, python-docutils (>= 0.9.1), python-eventlet (>= 0.13.0), python-fixtures (>= 0.3.14), python-flask (>= 0.10), python-glance (>= 2014.1~), python-glanceclient (>= 1:0.10.0), python-hacking (>= 0.8), python-happybase (>= 0.8), python-httplib2 (>= 0.7.5), python-iso8601 (>= 0.1.8), python-jsonpath-rw, python-jsonschema (>= 2.0.0), python-keystoneclient (>= 1:0.7.0), python-kombu (>= 2.4.8), python-lockfile, python-lxml, python-migrate (>= 0.8.2), python-mock (>= 1.0), python-mox, python-msgpack, python-mysqldb, python-netaddr (>= 0.7.6), python-nova (>= 2013.2~), python-novaclient (>= 2:2.17.0), python-oslo.config (>= 1.2.1), python-oslo.vmware, python-oslosphinx, python-pecan (>= 0.4.5), python-pymongo (>= 2.4), python-pysnmp4 (>= 4.2.1), python-requests (>= 1.1), python-six (>= 1.6.0), python-sphinxcontrib-docbookrestapi, python-sphinxcontrib-httpdomain, python-sphinxcontrib-pecanwsme (>= 0.6), python-sqlalchemy (>= 0.7.8), python-stevedore (>= 0.14), python-subunit (>= 0.0.18), python-swift (>= 1.12.0), python-swiftclient (>= 1:1.6.0), python-testscenarios (>= 0.4), python-testtools (>= 0.9.34), python-tz, python-webob (>= 1.2.3), python-wsme (>= 0.6), python-yaml, subunit (>= 0.0.18), testrepository (>= 0.0.18)"
-  ],
-  "Checksums-Sha1": [
-    "8a4e99360ebc94975fc195c8b85e3f77a946d44a 4155 ceilometer_2014.1.3-6.dsc 30acffcff4d470a25b696db545e1baf597019907 860020 ceilometer_2014.1.3.orig.tar.xz 6fe17df220ac6d7a19f34a2462ecbb1c0fba6a06 33228 ceilometer_2014.1.3-6.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "44ed762d26b576bd1c733ec47de3d3b61102f106786b18b9365006f11ad70763 4155 ceilometer_2014.1.3-6.dsc 7e9a559d1f52296f3048e2eddc891f180a3d72eb4626d8d6cc4fd3e8150b1836 860020 ceilometer_2014.1.3.orig.tar.xz 06d86d10805567b2373fbf71e9f5b763d775b38039e0e25c0f5b1c717dce2c5b 33228 ceilometer_2014.1.3-6.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/c/ceilometer"
-  ],
-  "Files": [
-    "921f8bd8347417cde6cadebae6b246f6 4155 ceilometer_2014.1.3-6.dsc 33907541d9ae70d2e519d9caaaa2a14b 860020 ceilometer_2014.1.3.orig.tar.xz ab5d04ea78fd07e2cb5043a15bc022c6 33228 ceilometer_2014.1.3-6.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://wiki.openstack.org/Ceilometer"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "ceilometer"
-  ],
-  "Package-List": [
-    "ceilometer-agent-central deb web optional arch=all ceilometer-agent-compute deb web optional arch=all ceilometer-agent-notification deb web optional arch=all ceilometer-alarm-evaluator deb web optional arch=all ceilometer-alarm-notifier deb web optional arch=all ceilometer-api deb web optional arch=all ceilometer-collector deb web optional arch=all ceilometer-common deb web optional arch=all python-ceilometer deb python optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Julien Danjou <acid@debian.org>, Thomas Goirand <zigo@debian.org>, Mehdi Abaakouk <sileht@sileht.net>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=openstack/ceilometer.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/openstack/ceilometer.git"
-  ],
-  "Version": [
-    "2014.1.3-6"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-ceilometer, ceilometer-common, ceilometer-collector, ceilometer-api, ceilometer-agent-compute, ceilometer-agent-central, ceilometer-alarm-evaluator, ceilometer-alarm-notifier, ceilometer-agent-notification"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-systemd, openstack-pkg-tools (>= 22~), po-debconf, python-all (>= 2.6.6-3~), python-pbr (>= 0.6), python-sphinx"
+	],
+	"Build-Depends-Indep": [
+		"alembic (>= 0.4.2), mongodb, python-anyjson (>= 0.3.3), python-babel (>= 1.3), python-ceilometerclient (>= 1.0.6), python-coverage (>= 3.6), python-croniter, python-docutils (>= 0.9.1), python-eventlet (>= 0.13.0), python-fixtures (>= 0.3.14), python-flask (>= 0.10), python-glance (>= 2014.1~), python-glanceclient (>= 1:0.10.0), python-hacking (>= 0.8), python-happybase (>= 0.8), python-httplib2 (>= 0.7.5), python-iso8601 (>= 0.1.8), python-jsonpath-rw, python-jsonschema (>= 2.0.0), python-keystoneclient (>= 1:0.7.0), python-kombu (>= 2.4.8), python-lockfile, python-lxml, python-migrate (>= 0.8.2), python-mock (>= 1.0), python-mox, python-msgpack, python-mysqldb, python-netaddr (>= 0.7.6), python-nova (>= 2013.2~), python-novaclient (>= 2:2.17.0), python-oslo.config (>= 1.2.1), python-oslo.vmware, python-oslosphinx, python-pecan (>= 0.4.5), python-pymongo (>= 2.4), python-pysnmp4 (>= 4.2.1), python-requests (>= 1.1), python-six (>= 1.6.0), python-sphinxcontrib-docbookrestapi, python-sphinxcontrib-httpdomain, python-sphinxcontrib-pecanwsme (>= 0.6), python-sqlalchemy (>= 0.7.8), python-stevedore (>= 0.14), python-subunit (>= 0.0.18), python-swift (>= 1.12.0), python-swiftclient (>= 1:1.6.0), python-testscenarios (>= 0.4), python-testtools (>= 0.9.34), python-tz, python-webob (>= 1.2.3), python-wsme (>= 0.6), python-yaml, subunit (>= 0.0.18), testrepository (>= 0.0.18)"
+	],
+	"Checksums-Sha1": [
+		"8a4e99360ebc94975fc195c8b85e3f77a946d44a 4155 ceilometer_2014.1.3-6.dsc 30acffcff4d470a25b696db545e1baf597019907 860020 ceilometer_2014.1.3.orig.tar.xz 6fe17df220ac6d7a19f34a2462ecbb1c0fba6a06 33228 ceilometer_2014.1.3-6.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"44ed762d26b576bd1c733ec47de3d3b61102f106786b18b9365006f11ad70763 4155 ceilometer_2014.1.3-6.dsc 7e9a559d1f52296f3048e2eddc891f180a3d72eb4626d8d6cc4fd3e8150b1836 860020 ceilometer_2014.1.3.orig.tar.xz 06d86d10805567b2373fbf71e9f5b763d775b38039e0e25c0f5b1c717dce2c5b 33228 ceilometer_2014.1.3-6.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/c/ceilometer"
+	],
+	"Files": [
+		"921f8bd8347417cde6cadebae6b246f6 4155 ceilometer_2014.1.3-6.dsc 33907541d9ae70d2e519d9caaaa2a14b 860020 ceilometer_2014.1.3.orig.tar.xz ab5d04ea78fd07e2cb5043a15bc022c6 33228 ceilometer_2014.1.3-6.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://wiki.openstack.org/Ceilometer"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"ceilometer"
+	],
+	"Package-List": [
+		"ceilometer-agent-central deb web optional arch=all ceilometer-agent-compute deb web optional arch=all ceilometer-agent-notification deb web optional arch=all ceilometer-alarm-evaluator deb web optional arch=all ceilometer-alarm-notifier deb web optional arch=all ceilometer-api deb web optional arch=all ceilometer-collector deb web optional arch=all ceilometer-common deb web optional arch=all python-ceilometer deb python optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Julien Danjou <acid@debian.org>, Thomas Goirand <zigo@debian.org>, Mehdi Abaakouk <sileht@sileht.net>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=openstack/ceilometer.git;a=summary"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/openstack/ceilometer.git"
+	],
+	"Version": [
+		"2014.1.3-6"
+	]
 }

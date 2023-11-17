@@ -1,92 +1,92 @@
 {
-  "header": {
-    "line": "CVE-2016-XXXX [dbus format string vulnerability]",
-    "name": "TEMP-0000000-4DA0A8",
-    "description": "[dbus format string vulnerability]"
-  },
-  "annotations": [
-    {
-      "line": "\t- dbus 1.10.12-1",
-      "type": "package",
-      "package": "dbus",
-      "kind": "fixed",
-      "version": "1.10.12-1"
-    },
-    {
-      "line": "\t[jessie] - dbus 1.8.22-0+deb8u1",
-      "type": "package",
-      "release": "jessie",
-      "package": "dbus",
-      "kind": "fixed",
-      "version": "1.8.22-0+deb8u1"
-    },
-    {
-      "line": "\t[wheezy] - dbus <no-dsa> (Minor issue)",
-      "type": "package",
-      "release": "wheezy",
-      "package": "dbus",
-      "kind": "no-dsa",
-      "description": "Minor issue"
-    },
-    {
-      "line": "\tNOTE: https://bugs.freedesktop.org/show_bug.cgi?id=98157",
-      "type": "NOTE",
-      "description": "https://bugs.freedesktop.org/show_bug.cgi?id=98157"
-    },
-    {
-      "line": "\tNOTE: Versions affected: dbus >= 1.4.0",
-      "type": "NOTE",
-      "description": "Versions affected: dbus >= 1.4.0"
-    },
-    {
-      "line": "\tNOTE: Fixed in: dbus >= 1.11.6, 1.10.x >= 1.10.12, 1.8.x >= 1.8.22",
-      "type": "NOTE",
-      "description": "Fixed in: dbus >= 1.11.6, 1.10.x >= 1.10.12, 1.8.x >= 1.8.22"
-    },
-    {
-      "line": "\tNOTE: CVE Request: https://www.openwall.com/lists/oss-security/2016/10/10/9",
-      "type": "NOTE",
-      "description": "CVE Request: https://www.openwall.com/lists/oss-security/2016/10/10/9"
-    },
-    {
-      "line": "\tNOTE: In Debian CVE-2015-0245 was already fixed, and this issue is",
-      "type": "NOTE",
-      "description": "In Debian CVE-2015-0245 was already fixed, and this issue is"
-    },
-    {
-      "line": "\tNOTE: not believed to be exploitable in practice, because the relevant",
-      "type": "NOTE",
-      "description": "not believed to be exploitable in practice, because the relevant"
-    },
-    {
-      "line": "\tNOTE: message is ignored unless it comes from the owner of the bus name",
-      "type": "NOTE",
-      "description": "message is ignored unless it comes from the owner of the bus name"
-    },
-    {
-      "line": "\tNOTE: org.freedesktop.systemd1. On the system bus, this bus name is only",
-      "type": "NOTE",
-      "description": "org.freedesktop.systemd1. On the system bus, this bus name is only"
-    },
-    {
-      "line": "\tNOTE: allowed to be owned by uid 0; it is intended to be owned by systemd,",
-      "type": "NOTE",
-      "description": "allowed to be owned by uid 0; it is intended to be owned by systemd,"
-    },
-    {
-      "line": "\tNOTE: and no mechanism is currently known by which an attacker who does not",
-      "type": "NOTE",
-      "description": "and no mechanism is currently known by which an attacker who does not"
-    },
-    {
-      "line": "\tNOTE: already have root privileges could induce systemd to send messages",
-      "type": "NOTE",
-      "description": "already have root privileges could induce systemd to send messages"
-    },
-    {
-      "line": "\tNOTE: that would trigger the format string vulnerability.",
-      "type": "NOTE",
-      "description": "that would trigger the format string vulnerability."
-    }
-  ]
+	"header": {
+		"line": "CVE-2016-XXXX [dbus format string vulnerability]",
+		"name": "TEMP-0000000-4DA0A8",
+		"description": "[dbus format string vulnerability]"
+	},
+	"annotations": [
+		{
+			"line": "\t- dbus 1.10.12-1",
+			"type": "package",
+			"package": "dbus",
+			"kind": "fixed",
+			"version": "1.10.12-1"
+		},
+		{
+			"line": "\t[jessie] - dbus 1.8.22-0+deb8u1",
+			"type": "package",
+			"release": "jessie",
+			"package": "dbus",
+			"kind": "fixed",
+			"version": "1.8.22-0+deb8u1"
+		},
+		{
+			"line": "\t[wheezy] - dbus <no-dsa> (Minor issue)",
+			"type": "package",
+			"release": "wheezy",
+			"package": "dbus",
+			"kind": "no-dsa",
+			"description": "Minor issue"
+		},
+		{
+			"line": "\tNOTE: https://bugs.freedesktop.org/show_bug.cgi?id=98157",
+			"type": "NOTE",
+			"description": "https://bugs.freedesktop.org/show_bug.cgi?id=98157"
+		},
+		{
+			"line": "\tNOTE: Versions affected: dbus >= 1.4.0",
+			"type": "NOTE",
+			"description": "Versions affected: dbus >= 1.4.0"
+		},
+		{
+			"line": "\tNOTE: Fixed in: dbus >= 1.11.6, 1.10.x >= 1.10.12, 1.8.x >= 1.8.22",
+			"type": "NOTE",
+			"description": "Fixed in: dbus >= 1.11.6, 1.10.x >= 1.10.12, 1.8.x >= 1.8.22"
+		},
+		{
+			"line": "\tNOTE: CVE Request: https://www.openwall.com/lists/oss-security/2016/10/10/9",
+			"type": "NOTE",
+			"description": "CVE Request: https://www.openwall.com/lists/oss-security/2016/10/10/9"
+		},
+		{
+			"line": "\tNOTE: In Debian CVE-2015-0245 was already fixed, and this issue is",
+			"type": "NOTE",
+			"description": "In Debian CVE-2015-0245 was already fixed, and this issue is"
+		},
+		{
+			"line": "\tNOTE: not believed to be exploitable in practice, because the relevant",
+			"type": "NOTE",
+			"description": "not believed to be exploitable in practice, because the relevant"
+		},
+		{
+			"line": "\tNOTE: message is ignored unless it comes from the owner of the bus name",
+			"type": "NOTE",
+			"description": "message is ignored unless it comes from the owner of the bus name"
+		},
+		{
+			"line": "\tNOTE: org.freedesktop.systemd1. On the system bus, this bus name is only",
+			"type": "NOTE",
+			"description": "org.freedesktop.systemd1. On the system bus, this bus name is only"
+		},
+		{
+			"line": "\tNOTE: allowed to be owned by uid 0; it is intended to be owned by systemd,",
+			"type": "NOTE",
+			"description": "allowed to be owned by uid 0; it is intended to be owned by systemd,"
+		},
+		{
+			"line": "\tNOTE: and no mechanism is currently known by which an attacker who does not",
+			"type": "NOTE",
+			"description": "and no mechanism is currently known by which an attacker who does not"
+		},
+		{
+			"line": "\tNOTE: already have root privileges could induce systemd to send messages",
+			"type": "NOTE",
+			"description": "already have root privileges could induce systemd to send messages"
+		},
+		{
+			"line": "\tNOTE: that would trigger the format string vulnerability.",
+			"type": "NOTE",
+			"description": "that would trigger the format string vulnerability."
+		}
+	]
 }

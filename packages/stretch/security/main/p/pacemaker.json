@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "pacemaker-common, pacemaker-resource-agents, pacemaker, pacemaker-cli-utils, pacemaker-remote, pacemaker-doc, libcib4, libcib-dev, libcrmcluster4, libcrmcluster-dev, libcrmcommon3, libcrmcommon-dev, libcrmservice3, libcrmservice-dev, liblrmd1, liblrmd-dev, libpe-rules2, libpe-status10, libpengine10, libpengine-dev, libstonithd2, libstonithd-dev, libtransitioner2"
-  ],
-  "Build-Depends": [
-    "cluster-glue-dev, dctrl-tools, debhelper (>= 9), dh-autoreconf, dh-exec, dh-systemd, docbook-xsl, help2man, libbz2-dev, libcfg-dev (>= 1.99), libcmap-dev (>= 1.99), libcpg-dev (>= 1.99), libdbus-1-dev, libesmtp-dev, libglib2.0-dev, libgnutls28-dev, libltdl-dev, libncurses5-dev, libpam0g-dev, libqb-dev (>= 0.17.1), libquorum-dev (>= 1.99), libsensors4-dev, libsnmp-dev, libxml2-dev, libxml2-utils, libxslt1-dev, pkg-config, systemd [linux-any], uuid-dev, xsltproc"
-  ],
-  "Build-Depends-Indep": [
-    "asciidoc, doxygen, graphviz, inkscape, publican"
-  ],
-  "Checksums-Sha1": [
-    "8675eaed13056ac980f7996cc1d4bb1edc36fa10 4129 pacemaker_1.1.24-0+deb9u1.dsc 5cf76107bc0f68d0330f87e8392d4681d3595197 5765945 pacemaker_1.1.24.orig.tar.gz 2b0bb3b0406c5398c77dfdc5a7f461333e2c1930 35984 pacemaker_1.1.24-0+deb9u1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "4c43f815512a995b6d0d64140af66fd3ca9087175a6b5c42e10b0c2dc69eb1de 4129 pacemaker_1.1.24-0+deb9u1.dsc 0b9ac529b5e6b3846dbb04af605d9a79958fc8cc80e2f4233a8609f64546c6a4 5765945 pacemaker_1.1.24.orig.tar.gz 987226ed5cc77f3a2cf6f1a663820e91bd9e91856f08d8c88faee89cd119a967 35984 pacemaker_1.1.24-0+deb9u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/p/pacemaker"
-  ],
-  "Files": [
-    "3a4ccdda43d42a8fb60ae6c3292dfc61 4129 pacemaker_1.1.24-0+deb9u1.dsc 4e0b76f7ba00535514a97dcf9cd47813 5765945 pacemaker_1.1.24.orig.tar.gz f270203c48dde7cf98fbe2ccbab4fa4b 35984 pacemaker_1.1.24-0+deb9u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.clusterlabs.org/"
-  ],
-  "Maintainer": [
-    "Debian HA Maintainers <debian-ha-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "pacemaker"
-  ],
-  "Package-List": [
-    "libcib-dev deb libdevel optional arch=any libcib4 deb libs optional arch=any libcrmcluster-dev deb libdevel optional arch=any libcrmcluster4 deb libs optional arch=any libcrmcommon-dev deb libdevel optional arch=any libcrmcommon3 deb libs optional arch=any libcrmservice-dev deb libdevel optional arch=any libcrmservice3 deb libs optional arch=any liblrmd-dev deb libdevel optional arch=any liblrmd1 deb libs optional arch=any libpe-rules2 deb libs optional arch=any libpe-status10 deb libs optional arch=any libpengine-dev deb libdevel optional arch=any libpengine10 deb libs optional arch=any libstonithd-dev deb libdevel optional arch=any libstonithd2 deb libs optional arch=any libtransitioner2 deb libs optional arch=any pacemaker deb admin optional arch=any pacemaker-cli-utils deb admin optional arch=any pacemaker-common deb admin optional arch=all pacemaker-doc deb doc optional arch=all pacemaker-remote deb admin optional arch=any pacemaker-resource-agents deb admin optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "admin"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Richard B Winters <rik@mmogp.com>, Ferenc Wágner <wferi@debian.org>, Christoph Berg <myon@debian.org>, Adrian Vondendriesch <adrian.vondendriesch@credativ.de>,"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/debian-ha/pacemaker.git"
-  ],
-  "Vcs-Git": [
-    "https://alioth.debian.org/anonscm/git/debian-ha/pacemaker.git"
-  ],
-  "Version": [
-    "1.1.24-0+deb9u1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"pacemaker-common, pacemaker-resource-agents, pacemaker, pacemaker-cli-utils, pacemaker-remote, pacemaker-doc, libcib4, libcib-dev, libcrmcluster4, libcrmcluster-dev, libcrmcommon3, libcrmcommon-dev, libcrmservice3, libcrmservice-dev, liblrmd1, liblrmd-dev, libpe-rules2, libpe-status10, libpengine10, libpengine-dev, libstonithd2, libstonithd-dev, libtransitioner2"
+	],
+	"Build-Depends": [
+		"cluster-glue-dev, dctrl-tools, debhelper (>= 9), dh-autoreconf, dh-exec, dh-systemd, docbook-xsl, help2man, libbz2-dev, libcfg-dev (>= 1.99), libcmap-dev (>= 1.99), libcpg-dev (>= 1.99), libdbus-1-dev, libesmtp-dev, libglib2.0-dev, libgnutls28-dev, libltdl-dev, libncurses5-dev, libpam0g-dev, libqb-dev (>= 0.17.1), libquorum-dev (>= 1.99), libsensors4-dev, libsnmp-dev, libxml2-dev, libxml2-utils, libxslt1-dev, pkg-config, systemd [linux-any], uuid-dev, xsltproc"
+	],
+	"Build-Depends-Indep": [
+		"asciidoc, doxygen, graphviz, inkscape, publican"
+	],
+	"Checksums-Sha1": [
+		"8675eaed13056ac980f7996cc1d4bb1edc36fa10 4129 pacemaker_1.1.24-0+deb9u1.dsc 5cf76107bc0f68d0330f87e8392d4681d3595197 5765945 pacemaker_1.1.24.orig.tar.gz 2b0bb3b0406c5398c77dfdc5a7f461333e2c1930 35984 pacemaker_1.1.24-0+deb9u1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"4c43f815512a995b6d0d64140af66fd3ca9087175a6b5c42e10b0c2dc69eb1de 4129 pacemaker_1.1.24-0+deb9u1.dsc 0b9ac529b5e6b3846dbb04af605d9a79958fc8cc80e2f4233a8609f64546c6a4 5765945 pacemaker_1.1.24.orig.tar.gz 987226ed5cc77f3a2cf6f1a663820e91bd9e91856f08d8c88faee89cd119a967 35984 pacemaker_1.1.24-0+deb9u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/p/pacemaker"
+	],
+	"Files": [
+		"3a4ccdda43d42a8fb60ae6c3292dfc61 4129 pacemaker_1.1.24-0+deb9u1.dsc 4e0b76f7ba00535514a97dcf9cd47813 5765945 pacemaker_1.1.24.orig.tar.gz f270203c48dde7cf98fbe2ccbab4fa4b 35984 pacemaker_1.1.24-0+deb9u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.clusterlabs.org/"
+	],
+	"Maintainer": [
+		"Debian HA Maintainers <debian-ha-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"pacemaker"
+	],
+	"Package-List": [
+		"libcib-dev deb libdevel optional arch=any libcib4 deb libs optional arch=any libcrmcluster-dev deb libdevel optional arch=any libcrmcluster4 deb libs optional arch=any libcrmcommon-dev deb libdevel optional arch=any libcrmcommon3 deb libs optional arch=any libcrmservice-dev deb libdevel optional arch=any libcrmservice3 deb libs optional arch=any liblrmd-dev deb libdevel optional arch=any liblrmd1 deb libs optional arch=any libpe-rules2 deb libs optional arch=any libpe-status10 deb libs optional arch=any libpengine-dev deb libdevel optional arch=any libpengine10 deb libs optional arch=any libstonithd-dev deb libdevel optional arch=any libstonithd2 deb libs optional arch=any libtransitioner2 deb libs optional arch=any pacemaker deb admin optional arch=any pacemaker-cli-utils deb admin optional arch=any pacemaker-common deb admin optional arch=all pacemaker-doc deb doc optional arch=all pacemaker-remote deb admin optional arch=any pacemaker-resource-agents deb admin optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"admin"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Richard B Winters <rik@mmogp.com>, Ferenc Wágner <wferi@debian.org>, Christoph Berg <myon@debian.org>, Adrian Vondendriesch <adrian.vondendriesch@credativ.de>,"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/debian-ha/pacemaker.git"
+	],
+	"Vcs-Git": [
+		"https://alioth.debian.org/anonscm/git/debian-ha/pacemaker.git"
+	],
+	"Version": [
+		"1.1.24-0+deb9u1"
+	]
 }

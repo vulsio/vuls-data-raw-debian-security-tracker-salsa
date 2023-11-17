@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libhdf5-8, libhdf5-8-dbg, libhdf5-cpp-8, libhdf5-cpp-8-dbg, libhdf5-dev, libhdf5-openmpi-8, libhdf5-openmpi-dev, libhdf5-openmpi-8-dbg, libhdf5-mpich-8, libhdf5-mpich-dev, libhdf5-mpich2-dev, libhdf5-mpich-8-dbg, libhdf5-mpi-dev, libhdf5-doc, hdf5-helpers, hdf5-tools, libhdf5-serial-dev"
-  ],
-  "Build-Depends": [
-    "dpkg-dev (>= 1.16.1~), mpi-default-dev, libmpich-dev, zlib1g-dev, libjpeg-dev, debhelper (>= 9~), gfortran, sharutils, chrpath, autotools-dev, automake, dh-autoreconf, doxygen, php5-cli"
-  ],
-  "Checksums-Sha1": [
-    "e47add17dd3d2e3ee9dcacb4e6193acb2777338a 3255 hdf5_1.8.13+docs-15+deb8u1.dsc 0ca3d28556a86b4b799263b054c7999f378a98cd 29517530 hdf5_1.8.13+docs.orig.tar.gz d40ee44ba7163ce882dd8132c3cda450408d8f3d 101604 hdf5_1.8.13+docs-15+deb8u1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "7e43685b7dee7ef6c40bac18c46f0aa2bd411168749c1e55a753d125e1c88040 3255 hdf5_1.8.13+docs-15+deb8u1.dsc 8a849bb4781943629acfe9dc5d536667a251c77acb2a88bd5b8428b44b8397ec 29517530 hdf5_1.8.13+docs.orig.tar.gz 9b9c92b9b949f961ac12fb05953b34eb5a4a1874bb27bb8858df6a1005fe80ed 101604 hdf5_1.8.13+docs-15+deb8u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/h/hdf5"
-  ],
-  "Files": [
-    "473d675054d286aa001dd553a2b3ae44 3255 hdf5_1.8.13+docs-15+deb8u1.dsc 9dbedf46290d09f3955eb0253272b08e 29517530 hdf5_1.8.13+docs.orig.tar.gz 970a0f962898927e531812dc886fd481 101604 hdf5_1.8.13+docs-15+deb8u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://hdfgroup.org/HDF5/"
-  ],
-  "Maintainer": [
-    "Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "hdf5"
-  ],
-  "Package-List": [
-    "hdf5-helpers deb science optional arch=any hdf5-tools deb science optional arch=any libhdf5-8 deb libs optional arch=any libhdf5-8-dbg deb debug extra arch=any libhdf5-cpp-8 deb libs optional arch=any libhdf5-cpp-8-dbg deb debug extra arch=any libhdf5-dev deb libdevel optional arch=any libhdf5-doc deb doc optional arch=all libhdf5-mpi-dev deb libdevel extra arch=any libhdf5-mpich-8 deb libs extra arch=any libhdf5-mpich-8-dbg deb debug extra arch=any libhdf5-mpich-dev deb libdevel extra arch=any libhdf5-mpich2-dev deb oldlibs extra arch=all libhdf5-openmpi-8 deb libs extra arch=alpha,amd64,armel,armhf,arm64,i386,ia64,powerpc,powerpcspe,ppc64,ppc64el,sparc,sparc64,kfreebsd-i386,kfreebsd-amd64,hurd-i386,mips64,mips64el,mips,mipsel libhdf5-openmpi-8-dbg deb debug extra arch=alpha,amd64,armel,armhf,arm64,i386,ia64,powerpc,powerpcspe,ppc64,ppc64el,sparc,sparc64,kfreebsd-i386,kfreebsd-amd64,hurd-i386,mips64,mips64el,mips,mipsel libhdf5-openmpi-dev deb libdevel extra arch=alpha,amd64,armel,armhf,arm64,i386,ia64,powerpc,powerpcspe,ppc64,ppc64el,sparc,sparc64,kfreebsd-i386,kfreebsd-amd64,hurd-i386,mips64,mips64el,mips,mipsel libhdf5-serial-dev deb oldlibs extra arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "libs"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Uploaders": [
-    "Francesco Paolo Lovergine <frankie@debian.org>, Gilles Filippini <pini@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-grass/hdf5.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-grass/hdf5.git"
-  ],
-  "Version": [
-    "1.8.13+docs-15+deb8u1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libhdf5-8, libhdf5-8-dbg, libhdf5-cpp-8, libhdf5-cpp-8-dbg, libhdf5-dev, libhdf5-openmpi-8, libhdf5-openmpi-dev, libhdf5-openmpi-8-dbg, libhdf5-mpich-8, libhdf5-mpich-dev, libhdf5-mpich2-dev, libhdf5-mpich-8-dbg, libhdf5-mpi-dev, libhdf5-doc, hdf5-helpers, hdf5-tools, libhdf5-serial-dev"
+	],
+	"Build-Depends": [
+		"dpkg-dev (>= 1.16.1~), mpi-default-dev, libmpich-dev, zlib1g-dev, libjpeg-dev, debhelper (>= 9~), gfortran, sharutils, chrpath, autotools-dev, automake, dh-autoreconf, doxygen, php5-cli"
+	],
+	"Checksums-Sha1": [
+		"e47add17dd3d2e3ee9dcacb4e6193acb2777338a 3255 hdf5_1.8.13+docs-15+deb8u1.dsc 0ca3d28556a86b4b799263b054c7999f378a98cd 29517530 hdf5_1.8.13+docs.orig.tar.gz d40ee44ba7163ce882dd8132c3cda450408d8f3d 101604 hdf5_1.8.13+docs-15+deb8u1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"7e43685b7dee7ef6c40bac18c46f0aa2bd411168749c1e55a753d125e1c88040 3255 hdf5_1.8.13+docs-15+deb8u1.dsc 8a849bb4781943629acfe9dc5d536667a251c77acb2a88bd5b8428b44b8397ec 29517530 hdf5_1.8.13+docs.orig.tar.gz 9b9c92b9b949f961ac12fb05953b34eb5a4a1874bb27bb8858df6a1005fe80ed 101604 hdf5_1.8.13+docs-15+deb8u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/h/hdf5"
+	],
+	"Files": [
+		"473d675054d286aa001dd553a2b3ae44 3255 hdf5_1.8.13+docs-15+deb8u1.dsc 9dbedf46290d09f3955eb0253272b08e 29517530 hdf5_1.8.13+docs.orig.tar.gz 970a0f962898927e531812dc886fd481 101604 hdf5_1.8.13+docs-15+deb8u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://hdfgroup.org/HDF5/"
+	],
+	"Maintainer": [
+		"Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"hdf5"
+	],
+	"Package-List": [
+		"hdf5-helpers deb science optional arch=any hdf5-tools deb science optional arch=any libhdf5-8 deb libs optional arch=any libhdf5-8-dbg deb debug extra arch=any libhdf5-cpp-8 deb libs optional arch=any libhdf5-cpp-8-dbg deb debug extra arch=any libhdf5-dev deb libdevel optional arch=any libhdf5-doc deb doc optional arch=all libhdf5-mpi-dev deb libdevel extra arch=any libhdf5-mpich-8 deb libs extra arch=any libhdf5-mpich-8-dbg deb debug extra arch=any libhdf5-mpich-dev deb libdevel extra arch=any libhdf5-mpich2-dev deb oldlibs extra arch=all libhdf5-openmpi-8 deb libs extra arch=alpha,amd64,armel,armhf,arm64,i386,ia64,powerpc,powerpcspe,ppc64,ppc64el,sparc,sparc64,kfreebsd-i386,kfreebsd-amd64,hurd-i386,mips64,mips64el,mips,mipsel libhdf5-openmpi-8-dbg deb debug extra arch=alpha,amd64,armel,armhf,arm64,i386,ia64,powerpc,powerpcspe,ppc64,ppc64el,sparc,sparc64,kfreebsd-i386,kfreebsd-amd64,hurd-i386,mips64,mips64el,mips,mipsel libhdf5-openmpi-dev deb libdevel extra arch=alpha,amd64,armel,armhf,arm64,i386,ia64,powerpc,powerpcspe,ppc64,ppc64el,sparc,sparc64,kfreebsd-i386,kfreebsd-amd64,hurd-i386,mips64,mips64el,mips,mipsel libhdf5-serial-dev deb oldlibs extra arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"libs"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Uploaders": [
+		"Francesco Paolo Lovergine <frankie@debian.org>, Gilles Filippini <pini@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-grass/hdf5.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-grass/hdf5.git"
+	],
+	"Version": [
+		"1.8.13+docs-15+deb8u1"
+	]
 }

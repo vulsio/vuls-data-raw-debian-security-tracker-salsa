@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "black, python-black-doc"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), bash-completion, dh-python, dh-sequence-python3, dh-sequence-sphinxdoc <!nodoc>, libjs-jquery <!nodoc>, libjs-underscore <!nodoc>, pybuild-plugin-pyproject, python3-aiohttp <!nocheck>, python3-all, python3-click, python3-hatch-vcs, python3-hatchling, python3-mypy-extensions, python3-pathspec, python3-platformdirs, python3-pytest <!nocheck>, python3-regex, python3-setuptools, python3-setuptools-scm, python3-sphinx (>= 3.2) <!nodoc>, python3-sphinx-copybutton (>= 0.4.0-2) <!nodoc>, python3-sphinxcontrib.programoutput <!nodoc>, python3-tomli, python3-typing-extensions"
-  ],
-  "Checksums-Sha256": [
-    "c25b2808b9c15a9acbe51ef7fd7a132ffd9f64e0de1657c6036bd5861bc9b4e2 2871 black_23.10.1-1.dsc ce98fb6d710ec24dc7336a9d1da3537abc5d0b132a9a4d5f2bf165b0d03b14fa 1220097 black_23.10.1.orig.tar.gz e0371a3a55fef20b871fb606c4df602ac4457da40bec8d2cb8f30d078526f266 10968 black_23.10.1-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/b/black"
-  ],
-  "Files": [
-    "a9f685cdce7bb4a21b7e4a9a850db1d6 2871 black_23.10.1-1.dsc c1bf221d03e6af20be1455bdcf8efc57 1220097 black_23.10.1.orig.tar.gz f75e02b99dbb5b30119adf82ec359f6f 10968 black_23.10.1-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/psf/black"
-  ],
-  "Maintainer": [
-    "Debian Python Team <team+python@tracker.debian.org>"
-  ],
-  "Package": [
-    "black"
-  ],
-  "Package-List": [
-    "black deb python optional arch=all python-black-doc deb doc optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dpkg-dev, python3, python3-aiohttp, python3-click, python3-docutils, python3-mypy-extensions, python3-pathspec, python3-platformdirs, python3-pytest, python3-regex, python3-setuptools, python3-sphinx, python3-tomli, python3-typed-ast, python3-typing-extensions"
-  ],
-  "Uploaders": [
-    "Sylvestre Ledru <sylvestre@debian.org>, Chris Lamb <lamby@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/python-team/packages/black"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/python-team/packages/black.git"
-  ],
-  "Version": [
-    "23.10.1-1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"black, python-black-doc"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), bash-completion, dh-python, dh-sequence-python3, dh-sequence-sphinxdoc <!nodoc>, libjs-jquery <!nodoc>, libjs-underscore <!nodoc>, pybuild-plugin-pyproject, python3-aiohttp <!nocheck>, python3-all, python3-click, python3-hatch-vcs, python3-hatchling, python3-mypy-extensions, python3-pathspec, python3-platformdirs, python3-pytest <!nocheck>, python3-regex, python3-setuptools, python3-setuptools-scm, python3-sphinx (>= 3.2) <!nodoc>, python3-sphinx-copybutton (>= 0.4.0-2) <!nodoc>, python3-sphinxcontrib.programoutput <!nodoc>, python3-tomli, python3-typing-extensions"
+	],
+	"Checksums-Sha256": [
+		"c25b2808b9c15a9acbe51ef7fd7a132ffd9f64e0de1657c6036bd5861bc9b4e2 2871 black_23.10.1-1.dsc ce98fb6d710ec24dc7336a9d1da3537abc5d0b132a9a4d5f2bf165b0d03b14fa 1220097 black_23.10.1.orig.tar.gz e0371a3a55fef20b871fb606c4df602ac4457da40bec8d2cb8f30d078526f266 10968 black_23.10.1-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/b/black"
+	],
+	"Files": [
+		"a9f685cdce7bb4a21b7e4a9a850db1d6 2871 black_23.10.1-1.dsc c1bf221d03e6af20be1455bdcf8efc57 1220097 black_23.10.1.orig.tar.gz f75e02b99dbb5b30119adf82ec359f6f 10968 black_23.10.1-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/psf/black"
+	],
+	"Maintainer": [
+		"Debian Python Team <team+python@tracker.debian.org>"
+	],
+	"Package": [
+		"black"
+	],
+	"Package-List": [
+		"black deb python optional arch=all python-black-doc deb doc optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dpkg-dev, python3, python3-aiohttp, python3-click, python3-docutils, python3-mypy-extensions, python3-pathspec, python3-platformdirs, python3-pytest, python3-regex, python3-setuptools, python3-sphinx, python3-tomli, python3-typed-ast, python3-typing-extensions"
+	],
+	"Uploaders": [
+		"Sylvestre Ledru <sylvestre@debian.org>, Chris Lamb <lamby@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/python-team/packages/black"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/python-team/packages/black.git"
+	],
+	"Version": [
+		"23.10.1-1"
+	]
 }

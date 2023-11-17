@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-bytes-dev, librust-bytes+serde-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "396165eee7292ca236d69d043927d9d1715a115ca2abb759430f2488ddc9e311 2295 rust-bytes_1.4.0-1.dsc 89b2fd2a0dcf38d7971e2194b6b6eebab45ae01067456a7fd93d5547a61b70be 58080 rust-bytes_1.4.0.orig.tar.gz d8f33611c1d2ced78fdc3fbe564d1fd0e110fd15c0221c928f6a48e96a1c44fa 3044 rust-bytes_1.4.0-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-bytes"
-  ],
-  "Files": [
-    "fdd0abda2af80bc3802522cd32e7305b 2295 rust-bytes_1.4.0-1.dsc 596cab766930d487256260ab9ca55b71 58080 rust-bytes_1.4.0.orig.tar.gz 4665c12b929e140cc87afd30aa46de76 3044 rust-bytes_1.4.0-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-bytes"
-  ],
-  "Package-List": [
-    "librust-bytes+serde-dev deb rust optional arch=any librust-bytes-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-loom-0.5+default-dev, librust-serde-test-1+default-dev"
-  ],
-  "Uploaders": [
-    "Ximin Luo <infinity0@debian.org>, kpcyrd <git@rxv.cc>, Robin Krahl <robin.krahl@ireas.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/bytes"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/bytes]"
-  ],
-  "Version": [
-    "1.4.0-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-bytes-dev, librust-bytes+serde-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"396165eee7292ca236d69d043927d9d1715a115ca2abb759430f2488ddc9e311 2295 rust-bytes_1.4.0-1.dsc 89b2fd2a0dcf38d7971e2194b6b6eebab45ae01067456a7fd93d5547a61b70be 58080 rust-bytes_1.4.0.orig.tar.gz d8f33611c1d2ced78fdc3fbe564d1fd0e110fd15c0221c928f6a48e96a1c44fa 3044 rust-bytes_1.4.0-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-bytes"
+	],
+	"Files": [
+		"fdd0abda2af80bc3802522cd32e7305b 2295 rust-bytes_1.4.0-1.dsc 596cab766930d487256260ab9ca55b71 58080 rust-bytes_1.4.0.orig.tar.gz 4665c12b929e140cc87afd30aa46de76 3044 rust-bytes_1.4.0-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-bytes"
+	],
+	"Package-List": [
+		"librust-bytes+serde-dev deb rust optional arch=any librust-bytes-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-loom-0.5+default-dev, librust-serde-test-1+default-dev"
+	],
+	"Uploaders": [
+		"Ximin Luo <infinity0@debian.org>, kpcyrd <git@rxv.cc>, Robin Krahl <robin.krahl@ireas.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/bytes"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/bytes]"
+	],
+	"Version": [
+		"1.4.0-1"
+	]
 }

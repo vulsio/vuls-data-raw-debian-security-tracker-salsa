@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "amd64 i386 kfreebsd-amd64 kfreebsd-i386 armhf"
-  ],
-  "Binary": [
-    "mongodb, mongodb-server, mongodb-clients, mongodb-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-systemd (>= 1.5), libboost-date-time-dev, libboost-dev (>= 1.49), libboost-filesystem-dev, libboost-program-options-dev, libboost-thread-dev, libgoogle-perftools-dev [linux-amd64 linux-i386], libpcap-dev, libpcre3-dev, libreadline-dev, libsnappy-dev, libstemmer-dev, libssl-dev, libv8-dev (>= 3.12), python-pymongo, scons"
-  ],
-  "Checksums-Sha1": [
-    "890516b6c248c1e4421af9f19b812653cb7dca80 2458 mongodb_2.4.8-2~bpo70+1.dsc 59fa237e102c9760271df9433ee7357dd0ec831f 14157223 mongodb_2.4.8.orig.tar.gz c63ccdec36fb849967da9b24f7420fc2cc4fabe4 57578 mongodb_2.4.8-2~bpo70+1.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "9c7bdc5188f97949c6a1801bb0348a8751b148d7bfb6c5ed7270e1a0ff9525f8 2458 mongodb_2.4.8-2~bpo70+1.dsc fd703ce5e53ddfa0cca9c7fba9a0c4cea4179d38972a98c675f45d9f15b4cfdc 14157223 mongodb_2.4.8.orig.tar.gz 9ddbe844d86bca511d7807431db678e48f40735c9c5e0c54870b576f5e6fd709 57578 mongodb_2.4.8-2~bpo70+1.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/m/mongodb"
-  ],
-  "Files": [
-    "0503af78277de82454f2049f59bd2f8e 2458 mongodb_2.4.8-2~bpo70+1.dsc 85a46189e034654ce7b1ca4fac8ad8dd 14157223 mongodb_2.4.8.orig.tar.gz 6f2e557707534b99d9c19e9879663348 57578 mongodb_2.4.8-2~bpo70+1.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.mongodb.org"
-  ],
-  "Maintainer": [
-    "Laszlo Boszormenyi (GCS) <gcs@debian.org>"
-  ],
-  "Package": [
-    "mongodb"
-  ],
-  "Package-List": [
-    "mongodb deb database optional mongodb-clients deb database optional mongodb-dev deb libdevel optional mongodb-server deb database optional"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Jérémy Lal <kapouer@melix.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/git/collab-maint/mongodb.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/collab-maint/mongodb.git"
-  ],
-  "Version": [
-    "1:2.4.8-2~bpo70+1"
-  ]
+	"Architecture": [
+		"amd64 i386 kfreebsd-amd64 kfreebsd-i386 armhf"
+	],
+	"Binary": [
+		"mongodb, mongodb-server, mongodb-clients, mongodb-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-systemd (>= 1.5), libboost-date-time-dev, libboost-dev (>= 1.49), libboost-filesystem-dev, libboost-program-options-dev, libboost-thread-dev, libgoogle-perftools-dev [linux-amd64 linux-i386], libpcap-dev, libpcre3-dev, libreadline-dev, libsnappy-dev, libstemmer-dev, libssl-dev, libv8-dev (>= 3.12), python-pymongo, scons"
+	],
+	"Checksums-Sha1": [
+		"890516b6c248c1e4421af9f19b812653cb7dca80 2458 mongodb_2.4.8-2~bpo70+1.dsc 59fa237e102c9760271df9433ee7357dd0ec831f 14157223 mongodb_2.4.8.orig.tar.gz c63ccdec36fb849967da9b24f7420fc2cc4fabe4 57578 mongodb_2.4.8-2~bpo70+1.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"9c7bdc5188f97949c6a1801bb0348a8751b148d7bfb6c5ed7270e1a0ff9525f8 2458 mongodb_2.4.8-2~bpo70+1.dsc fd703ce5e53ddfa0cca9c7fba9a0c4cea4179d38972a98c675f45d9f15b4cfdc 14157223 mongodb_2.4.8.orig.tar.gz 9ddbe844d86bca511d7807431db678e48f40735c9c5e0c54870b576f5e6fd709 57578 mongodb_2.4.8-2~bpo70+1.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/m/mongodb"
+	],
+	"Files": [
+		"0503af78277de82454f2049f59bd2f8e 2458 mongodb_2.4.8-2~bpo70+1.dsc 85a46189e034654ce7b1ca4fac8ad8dd 14157223 mongodb_2.4.8.orig.tar.gz 6f2e557707534b99d9c19e9879663348 57578 mongodb_2.4.8-2~bpo70+1.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.mongodb.org"
+	],
+	"Maintainer": [
+		"Laszlo Boszormenyi (GCS) <gcs@debian.org>"
+	],
+	"Package": [
+		"mongodb"
+	],
+	"Package-List": [
+		"mongodb deb database optional mongodb-clients deb database optional mongodb-dev deb libdevel optional mongodb-server deb database optional"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Jérémy Lal <kapouer@melix.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/git/collab-maint/mongodb.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/collab-maint/mongodb.git"
+	],
+	"Version": [
+		"1:2.4.8-2~bpo70+1"
+	]
 }

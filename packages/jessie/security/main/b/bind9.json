@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "bind9, bind9utils, bind9-doc, host, bind9-host, libbind-dev, libbind9-90, libdns100, libisc95, liblwres90, libisccc90, libisccfg90, dnsutils, lwresd, libbind-export-dev, libdns-export100, libdns-export100-udeb, libisc-export95, libisc-export95-udeb, libisccfg-export90, libisccfg-export90-udeb, libirs-export91, libirs-export91-udeb"
-  ],
-  "Build-Conflicts": [
-    "libdb4.2-dev"
-  ],
-  "Build-Depends": [
-    "libkrb5-dev, debhelper (>= 5), libssl-dev, libtool, bison, libdb-dev (>> 4.6), libldap2-dev, libxml2-dev, libcap2-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], hardening-wrapper, libgeoip-dev (>= 1.4.6.dfsg-5), dpkg-dev (>= 1.15.5), python, python-argparse, dh-systemd, autotools-dev, dh-autoreconf"
-  ],
-  "Checksums-Sha1": [
-    "7af9da87a84a5c4fd04776b407bebb5d549a3925 3624 bind9_9.9.5.dfsg-9+deb8u19.dsc ea05323d1d799fae970a7124debe297ef71f2cd0 7877309 bind9_9.9.5.dfsg.orig.tar.gz 657122bd83c27c2db6e7ff5e2d65ab51bef18cdc 148091 bind9_9.9.5.dfsg-9+deb8u19.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "fdb8ae2f3457abc9c7c72071f4b80af871acb9d5201b4b9dbf031ed6d36aca60 3624 bind9_9.9.5.dfsg-9+deb8u19.dsc 8108e01d5b501642d986beae7dfff9650b5bf54d87677275a8aaf4f0bcb008e6 7877309 bind9_9.9.5.dfsg.orig.tar.gz 7a602ab3d896628b7fb99e5e855ea7bebd5712a2ab005dbf7c53bd004c995f62 148091 bind9_9.9.5.dfsg-9+deb8u19.diff.gz"
-  ],
-  "Directory": [
-    "pool/updates/main/b/bind9"
-  ],
-  "Files": [
-    "66be18b51bead84d4fb3580f8074d442 3624 bind9_9.9.5.dfsg-9+deb8u19.dsc e3b03e1cd273d708cbfbd862297646ce 7877309 bind9_9.9.5.dfsg.orig.tar.gz b3799a06c750d1cefa273c519716b794 148091 bind9_9.9.5.dfsg-9+deb8u19.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Maintainer": [
-    "LaMont Jones <lamont@debian.org>"
-  ],
-  "Package": [
-    "bind9"
-  ],
-  "Package-List": [
-    "bind9 deb net optional arch=any bind9-doc deb doc optional arch=all bind9-host deb net standard arch=any bind9utils deb net optional arch=any dnsutils deb net standard arch=any host deb net standard arch=all libbind-dev deb libdevel optional arch=any libbind-export-dev deb libdevel optional arch=any libbind9-90 deb libs standard arch=any libdns-export100 deb libs optional arch=any libdns-export100-udeb udeb debian-installer optional arch=any libdns100 deb libs standard arch=any libirs-export91 deb libs optional arch=any libirs-export91-udeb udeb debian-installer optional arch=any libisc-export95 deb libs optional arch=any libisc-export95-udeb udeb debian-installer optional arch=any libisc95 deb libs standard arch=any libisccc90 deb libs optional arch=any libisccfg-export90 deb libs optional arch=any libisccfg-export90-udeb udeb debian-installer optional arch=any libisccfg90 deb libs optional arch=any liblwres90 deb libs standard arch=any lwresd deb net optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.7.3.0"
-  ],
-  "Uploaders": [
-    "Michael Gilbert <mgilbert@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://git.debian.org/?p=users/lamont/bind9.git"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/~lamont/bind9.git"
-  ],
-  "Version": [
-    "1:9.9.5.dfsg-9+deb8u19"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"bind9, bind9utils, bind9-doc, host, bind9-host, libbind-dev, libbind9-90, libdns100, libisc95, liblwres90, libisccc90, libisccfg90, dnsutils, lwresd, libbind-export-dev, libdns-export100, libdns-export100-udeb, libisc-export95, libisc-export95-udeb, libisccfg-export90, libisccfg-export90-udeb, libirs-export91, libirs-export91-udeb"
+	],
+	"Build-Conflicts": [
+		"libdb4.2-dev"
+	],
+	"Build-Depends": [
+		"libkrb5-dev, debhelper (>= 5), libssl-dev, libtool, bison, libdb-dev (>> 4.6), libldap2-dev, libxml2-dev, libcap2-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], hardening-wrapper, libgeoip-dev (>= 1.4.6.dfsg-5), dpkg-dev (>= 1.15.5), python, python-argparse, dh-systemd, autotools-dev, dh-autoreconf"
+	],
+	"Checksums-Sha1": [
+		"7af9da87a84a5c4fd04776b407bebb5d549a3925 3624 bind9_9.9.5.dfsg-9+deb8u19.dsc ea05323d1d799fae970a7124debe297ef71f2cd0 7877309 bind9_9.9.5.dfsg.orig.tar.gz 657122bd83c27c2db6e7ff5e2d65ab51bef18cdc 148091 bind9_9.9.5.dfsg-9+deb8u19.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"fdb8ae2f3457abc9c7c72071f4b80af871acb9d5201b4b9dbf031ed6d36aca60 3624 bind9_9.9.5.dfsg-9+deb8u19.dsc 8108e01d5b501642d986beae7dfff9650b5bf54d87677275a8aaf4f0bcb008e6 7877309 bind9_9.9.5.dfsg.orig.tar.gz 7a602ab3d896628b7fb99e5e855ea7bebd5712a2ab005dbf7c53bd004c995f62 148091 bind9_9.9.5.dfsg-9+deb8u19.diff.gz"
+	],
+	"Directory": [
+		"pool/updates/main/b/bind9"
+	],
+	"Files": [
+		"66be18b51bead84d4fb3580f8074d442 3624 bind9_9.9.5.dfsg-9+deb8u19.dsc e3b03e1cd273d708cbfbd862297646ce 7877309 bind9_9.9.5.dfsg.orig.tar.gz b3799a06c750d1cefa273c519716b794 148091 bind9_9.9.5.dfsg-9+deb8u19.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Maintainer": [
+		"LaMont Jones <lamont@debian.org>"
+	],
+	"Package": [
+		"bind9"
+	],
+	"Package-List": [
+		"bind9 deb net optional arch=any bind9-doc deb doc optional arch=all bind9-host deb net standard arch=any bind9utils deb net optional arch=any dnsutils deb net standard arch=any host deb net standard arch=all libbind-dev deb libdevel optional arch=any libbind-export-dev deb libdevel optional arch=any libbind9-90 deb libs standard arch=any libdns-export100 deb libs optional arch=any libdns-export100-udeb udeb debian-installer optional arch=any libdns100 deb libs standard arch=any libirs-export91 deb libs optional arch=any libirs-export91-udeb udeb debian-installer optional arch=any libisc-export95 deb libs optional arch=any libisc-export95-udeb udeb debian-installer optional arch=any libisc95 deb libs standard arch=any libisccc90 deb libs optional arch=any libisccfg-export90 deb libs optional arch=any libisccfg-export90-udeb udeb debian-installer optional arch=any libisccfg90 deb libs optional arch=any liblwres90 deb libs standard arch=any lwresd deb net optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.7.3.0"
+	],
+	"Uploaders": [
+		"Michael Gilbert <mgilbert@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://git.debian.org/?p=users/lamont/bind9.git"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/~lamont/bind9.git"
+	],
+	"Version": [
+		"1:9.9.5.dfsg-9+deb8u19"
+	]
 }

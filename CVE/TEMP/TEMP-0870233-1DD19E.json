@@ -1,68 +1,68 @@
 {
-  "header": {
-    "line": "CVE-2017-XXXX [executes javascript code downloaded from insecure URL]",
-    "name": "TEMP-0870233-1DD19E",
-    "description": "[executes javascript code downloaded from insecure URL]"
-  },
-  "annotations": [
-    {
-      "line": "\t- smplayer 17.7.0~ds0-1 (low; bug #870233)",
-      "type": "package",
-      "package": "smplayer",
-      "kind": "fixed",
-      "version": "17.7.0~ds0-1",
-      "flags": [
-        {
-          "severity": "low"
-        },
-        {
-          "bug": 870233
-        }
-      ]
-    },
-    {
-      "line": "\t[stretch] - smplayer <no-dsa> (Minor issue)",
-      "type": "package",
-      "release": "stretch",
-      "package": "smplayer",
-      "kind": "no-dsa",
-      "description": "Minor issue"
-    },
-    {
-      "line": "\t[jessie] - smplayer <no-dsa> (Minor issue)",
-      "type": "package",
-      "release": "jessie",
-      "package": "smplayer",
-      "kind": "no-dsa",
-      "description": "Minor issue"
-    },
-    {
-      "line": "\t[wheezy] - smplayer <not-affected> (vulnerable code not present)",
-      "type": "package",
-      "release": "wheezy",
-      "package": "smplayer",
-      "kind": "not-affected",
-      "description": "vulnerable code not present"
-    },
-    {
-      "line": "\tNOTE: The version tracking here is not 100% since the vulnerable code still would",
-      "type": "NOTE",
-      "description": "The version tracking here is not 100% since the vulnerable code still would"
-    },
-    {
-      "line": "\tNOTE: be present in the source. Users though need to explicitly rebuilt the package",
-      "type": "NOTE",
-      "description": "be present in the source. Users though need to explicitly rebuilt the package"
-    },
-    {
-      "line": "\tNOTE: changing the upstream pro file to enable YT_USE_YTSIG. YT_USE_YTSIG is",
-      "type": "NOTE",
-      "description": "changing the upstream pro file to enable YT_USE_YTSIG. YT_USE_YTSIG is"
-    },
-    {
-      "line": "\tNOTE: disabled by default on upstream since 17.2.0",
-      "type": "NOTE",
-      "description": "disabled by default on upstream since 17.2.0"
-    }
-  ]
+	"header": {
+		"line": "CVE-2017-XXXX [executes javascript code downloaded from insecure URL]",
+		"name": "TEMP-0870233-1DD19E",
+		"description": "[executes javascript code downloaded from insecure URL]"
+	},
+	"annotations": [
+		{
+			"line": "\t- smplayer 17.7.0~ds0-1 (low; bug #870233)",
+			"type": "package",
+			"package": "smplayer",
+			"kind": "fixed",
+			"version": "17.7.0~ds0-1",
+			"flags": [
+				{
+					"severity": "low"
+				},
+				{
+					"bug": 870233
+				}
+			]
+		},
+		{
+			"line": "\t[stretch] - smplayer <no-dsa> (Minor issue)",
+			"type": "package",
+			"release": "stretch",
+			"package": "smplayer",
+			"kind": "no-dsa",
+			"description": "Minor issue"
+		},
+		{
+			"line": "\t[jessie] - smplayer <no-dsa> (Minor issue)",
+			"type": "package",
+			"release": "jessie",
+			"package": "smplayer",
+			"kind": "no-dsa",
+			"description": "Minor issue"
+		},
+		{
+			"line": "\t[wheezy] - smplayer <not-affected> (vulnerable code not present)",
+			"type": "package",
+			"release": "wheezy",
+			"package": "smplayer",
+			"kind": "not-affected",
+			"description": "vulnerable code not present"
+		},
+		{
+			"line": "\tNOTE: The version tracking here is not 100% since the vulnerable code still would",
+			"type": "NOTE",
+			"description": "The version tracking here is not 100% since the vulnerable code still would"
+		},
+		{
+			"line": "\tNOTE: be present in the source. Users though need to explicitly rebuilt the package",
+			"type": "NOTE",
+			"description": "be present in the source. Users though need to explicitly rebuilt the package"
+		},
+		{
+			"line": "\tNOTE: changing the upstream pro file to enable YT_USE_YTSIG. YT_USE_YTSIG is",
+			"type": "NOTE",
+			"description": "changing the upstream pro file to enable YT_USE_YTSIG. YT_USE_YTSIG is"
+		},
+		{
+			"line": "\tNOTE: disabled by default on upstream since 17.2.0",
+			"type": "NOTE",
+			"description": "disabled by default on upstream since 17.2.0"
+		}
+	]
 }

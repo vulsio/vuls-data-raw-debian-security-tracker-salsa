@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "gvfs, gvfs-daemons, gvfs-libs, gvfs-common, gvfs-fuse, gvfs-backends, gvfs-bin, gvfs-dbg"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 8.1.3), autotools-dev, cdbs (>= 0.4.93), dh-autoreconf, gnome-pkg-tools (>= 0.7), pkg-config, gtk-doc-tools, libglib2.0-dev (>= 2.37.0), libdbus-1-dev, intltool (>= 0.35.0), openssh-client, libsoup2.4-dev (>= 2.42.0), libxml2-dev, libudev-dev (>= 0.138) [linux-any], libavahi-glib-dev (>= 0.6), libavahi-client-dev (>= 0.6), libfuse-dev [!hurd-any], libgudev-1.0-dev (>= 147) [linux-any], libcdio-paranoia-dev (>= 0.78.2), libbluetooth-dev (>= 4.0) [linux-any], libgoa-1.0-dev (>= 3.7.1), libdbus-glib-1-dev, libexpat1-dev, libgphoto2-dev (>= 2.5.0), libsecret-1-dev, libbluray-dev, libmtp-dev (>= 1.1.6), libsmbclient-dev (>= 3.4.0), libarchive-dev, libgcrypt11-dev (>= 1.2.2), libltdl-dev, libimobiledevice-dev (>= 1.1.5) [!hurd-any], libplist-dev, libudisks2-dev (>= 1.97) [linux-any], libsystemd-login-dev (>= 44) [linux-any], libgtk-3-dev"
-  ],
-  "Checksums-Sha1": [
-    "17f2a0846f199aabb692ab548f0db1a559fabcfa 3442 gvfs_1.22.2-1+deb8u1.dsc 73ed1a3249afe0218d2606105ff1d12690218941 1585720 gvfs_1.22.2.orig.tar.xz 553a56ffac0c4d016c35bfbde758f55906cbcc0f 19764 gvfs_1.22.2-1+deb8u1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "1dcde902c6a35b26e3a6ba16d9eb3105d32fe9f00ec7186291900eee348a3225 3442 gvfs_1.22.2-1+deb8u1.dsc 8d08c4927b6c20d990498c23280017e7033b31a386f09b4c3ce5bedd20316250 1585720 gvfs_1.22.2.orig.tar.xz b42ac53f76d8531b3d00717dec03daae53f02b32521f4afa622db2fe0d4ca17f 19764 gvfs_1.22.2-1+deb8u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/g/gvfs"
-  ],
-  "Files": [
-    "406a1561939eb950b99cb40934726bbc 3442 gvfs_1.22.2-1+deb8u1.dsc 6b00ec682a6851bcdad7814dd799e228 1585720 gvfs_1.22.2.orig.tar.xz 8a8b6296a38f2b4f432cdab91afe0033 19764 gvfs_1.22.2-1+deb8u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://wiki.gnome.org/Projects/gvfs"
-  ],
-  "Maintainer": [
-    "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "gvfs"
-  ],
-  "Package-List": [
-    "gvfs deb libs optional arch=any gvfs-backends deb gnome optional arch=any gvfs-bin deb gnome optional arch=any gvfs-common deb libs optional arch=all gvfs-daemons deb libs optional arch=any gvfs-dbg deb debug extra arch=any gvfs-fuse deb gnome optional arch=linux-any,kfreebsd-any gvfs-libs deb libs optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "libs"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Andreas Henriksson <andreas@fatal.se>, Iain Lane <laney@debian.org>, Josselin Mouette <joss@debian.org>, Michael Biebl <biebl@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/gvfs/"
-  ],
-  "Vcs-Svn": [
-    "svn://anonscm.debian.org/pkg-gnome/desktop/unstable/gvfs"
-  ],
-  "Version": [
-    "1.22.2-1+deb8u1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"gvfs, gvfs-daemons, gvfs-libs, gvfs-common, gvfs-fuse, gvfs-backends, gvfs-bin, gvfs-dbg"
+	],
+	"Build-Depends": [
+		"debhelper (>= 8.1.3), autotools-dev, cdbs (>= 0.4.93), dh-autoreconf, gnome-pkg-tools (>= 0.7), pkg-config, gtk-doc-tools, libglib2.0-dev (>= 2.37.0), libdbus-1-dev, intltool (>= 0.35.0), openssh-client, libsoup2.4-dev (>= 2.42.0), libxml2-dev, libudev-dev (>= 0.138) [linux-any], libavahi-glib-dev (>= 0.6), libavahi-client-dev (>= 0.6), libfuse-dev [!hurd-any], libgudev-1.0-dev (>= 147) [linux-any], libcdio-paranoia-dev (>= 0.78.2), libbluetooth-dev (>= 4.0) [linux-any], libgoa-1.0-dev (>= 3.7.1), libdbus-glib-1-dev, libexpat1-dev, libgphoto2-dev (>= 2.5.0), libsecret-1-dev, libbluray-dev, libmtp-dev (>= 1.1.6), libsmbclient-dev (>= 3.4.0), libarchive-dev, libgcrypt11-dev (>= 1.2.2), libltdl-dev, libimobiledevice-dev (>= 1.1.5) [!hurd-any], libplist-dev, libudisks2-dev (>= 1.97) [linux-any], libsystemd-login-dev (>= 44) [linux-any], libgtk-3-dev"
+	],
+	"Checksums-Sha1": [
+		"17f2a0846f199aabb692ab548f0db1a559fabcfa 3442 gvfs_1.22.2-1+deb8u1.dsc 73ed1a3249afe0218d2606105ff1d12690218941 1585720 gvfs_1.22.2.orig.tar.xz 553a56ffac0c4d016c35bfbde758f55906cbcc0f 19764 gvfs_1.22.2-1+deb8u1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"1dcde902c6a35b26e3a6ba16d9eb3105d32fe9f00ec7186291900eee348a3225 3442 gvfs_1.22.2-1+deb8u1.dsc 8d08c4927b6c20d990498c23280017e7033b31a386f09b4c3ce5bedd20316250 1585720 gvfs_1.22.2.orig.tar.xz b42ac53f76d8531b3d00717dec03daae53f02b32521f4afa622db2fe0d4ca17f 19764 gvfs_1.22.2-1+deb8u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/g/gvfs"
+	],
+	"Files": [
+		"406a1561939eb950b99cb40934726bbc 3442 gvfs_1.22.2-1+deb8u1.dsc 6b00ec682a6851bcdad7814dd799e228 1585720 gvfs_1.22.2.orig.tar.xz 8a8b6296a38f2b4f432cdab91afe0033 19764 gvfs_1.22.2-1+deb8u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://wiki.gnome.org/Projects/gvfs"
+	],
+	"Maintainer": [
+		"Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"gvfs"
+	],
+	"Package-List": [
+		"gvfs deb libs optional arch=any gvfs-backends deb gnome optional arch=any gvfs-bin deb gnome optional arch=any gvfs-common deb libs optional arch=all gvfs-daemons deb libs optional arch=any gvfs-dbg deb debug extra arch=any gvfs-fuse deb gnome optional arch=linux-any,kfreebsd-any gvfs-libs deb libs optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"libs"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Andreas Henriksson <andreas@fatal.se>, Iain Lane <laney@debian.org>, Josselin Mouette <joss@debian.org>, Michael Biebl <biebl@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/gvfs/"
+	],
+	"Vcs-Svn": [
+		"svn://anonscm.debian.org/pkg-gnome/desktop/unstable/gvfs"
+	],
+	"Version": [
+		"1.22.2-1+deb8u1"
+	]
 }

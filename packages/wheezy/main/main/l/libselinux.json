@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "linux-any all"
-  ],
-  "Binary": [
-    "selinux-utils, libselinux1, libselinux1-dev, ruby-selinux, libselinux-ruby1.8, python-selinux"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), file, gem2deb (>= 0.2.7~), libsepol1-dev (>= 2.1.4-2), pkg-config, python-all-dev (>= 2.6.6-3~), swig"
-  ],
-  "Checksums-Sha1": [
-    "db81c7076c9bbd22e9653c6a8f6082d108d290df 1993 libselinux_2.1.9-5.dsc 127925f0bb4fced9e6ba965290c390dad2554bcc 155840 libselinux_2.1.9.orig.tar.gz ded515df22edb34f23f7698cfa6a425f029d13fd 26754 libselinux_2.1.9-5.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "55b89f7c09daaba0f43010004c61b07517bf3c367742475c43f11509714c3a3d 1993 libselinux_2.1.9-5.dsc 749d4b39c80aa9df8247b8b3187ab72442c0dbad6e70bf312e25052bd4e7063f 155840 libselinux_2.1.9.orig.tar.gz ad2e76959abd6e8063b947faa79062405ca60124b3cdb6a190e2490dabd50a66 26754 libselinux_2.1.9-5.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/libs/libselinux"
-  ],
-  "Files": [
-    "df311f053a91dcda3b28ce0cb12e36d5 1993 libselinux_2.1.9-5.dsc 8ea0548dd65e9479b357ba1447f89221 155840 libselinux_2.1.9.orig.tar.gz 2ba82b0665278f29cbbacc510c53c055 26754 libselinux_2.1.9-5.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "libselinux"
-  ],
-  "Package-List": [
-    "libselinux-ruby1.8 deb oldlibs extra libselinux1 deb libs required libselinux1-dev deb libdevel optional python-selinux deb python optional ruby-selinux deb ruby optional selinux-utils deb admin optional"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Ruby-Versions": [
-    "all"
-  ],
-  "Section": [
-    "libs"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Manoj Srivastava <srivasta@debian.org>, Russell Coker <russell@coker.com.au>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=selinux/libselinux.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/git/selinux/libselinux.git"
-  ],
-  "Version": [
-    "2.1.9-5"
-  ]
+	"Architecture": [
+		"linux-any all"
+	],
+	"Binary": [
+		"selinux-utils, libselinux1, libselinux1-dev, ruby-selinux, libselinux-ruby1.8, python-selinux"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), file, gem2deb (>= 0.2.7~), libsepol1-dev (>= 2.1.4-2), pkg-config, python-all-dev (>= 2.6.6-3~), swig"
+	],
+	"Checksums-Sha1": [
+		"db81c7076c9bbd22e9653c6a8f6082d108d290df 1993 libselinux_2.1.9-5.dsc 127925f0bb4fced9e6ba965290c390dad2554bcc 155840 libselinux_2.1.9.orig.tar.gz ded515df22edb34f23f7698cfa6a425f029d13fd 26754 libselinux_2.1.9-5.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"55b89f7c09daaba0f43010004c61b07517bf3c367742475c43f11509714c3a3d 1993 libselinux_2.1.9-5.dsc 749d4b39c80aa9df8247b8b3187ab72442c0dbad6e70bf312e25052bd4e7063f 155840 libselinux_2.1.9.orig.tar.gz ad2e76959abd6e8063b947faa79062405ca60124b3cdb6a190e2490dabd50a66 26754 libselinux_2.1.9-5.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/libs/libselinux"
+	],
+	"Files": [
+		"df311f053a91dcda3b28ce0cb12e36d5 1993 libselinux_2.1.9-5.dsc 8ea0548dd65e9479b357ba1447f89221 155840 libselinux_2.1.9.orig.tar.gz 2ba82b0665278f29cbbacc510c53c055 26754 libselinux_2.1.9-5.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"libselinux"
+	],
+	"Package-List": [
+		"libselinux-ruby1.8 deb oldlibs extra libselinux1 deb libs required libselinux1-dev deb libdevel optional python-selinux deb python optional ruby-selinux deb ruby optional selinux-utils deb admin optional"
+	],
+	"Priority": [
+		"source"
+	],
+	"Ruby-Versions": [
+		"all"
+	],
+	"Section": [
+		"libs"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Manoj Srivastava <srivasta@debian.org>, Russell Coker <russell@coker.com.au>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=selinux/libselinux.git;a=summary"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/git/selinux/libselinux.git"
+	],
+	"Version": [
+		"2.1.9-5"
+	]
 }

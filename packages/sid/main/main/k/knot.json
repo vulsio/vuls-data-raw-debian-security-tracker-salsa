@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "knot, libknot14, libzscanner4, libdnssec9, libknot-dev, knot-dnsutils, knot-dnssecutils, knot-host, knot-module-dnstap, knot-module-geoip, knot-doc, knot-exporter, python3-libknot"
-  ],
-  "Build-Depends": [
-    "autoconf, automake, debhelper-compat (= 13), dh-python, libbpf-dev [!hurd-i386 !alpha !arc !hppa !ia64 !m68k !powerpc !sh4 !sparc64 !x32], libcap-ng-dev [!hurd-i386], libedit-dev, libfstrm-dev, libgnutls28-dev, libidn2-dev, liblmdb-dev, libmaxminddb-dev, libmnl-dev [!hurd-i386 !alpha !arc !hppa !ia64 !m68k !powerpc !sh4 !sparc64 !x32], libnghttp2-dev, libngtcp2-crypto-gnutls-dev [!hurd-i386 !alpha !arc !hppa !ia64 !m68k !powerpc !sh4 !sparc64 !x32], libngtcp2-dev [!hurd-i386 !alpha !arc !hppa !ia64 !m68k !powerpc !sh4 !sparc64 !x32], libprotobuf-c-dev, libsofthsm2 <!nocheck>, libsystemd-dev [linux-any] | libsystemd-daemon-dev [linux-any], libsystemd-dev [linux-any] | libsystemd-journal-dev [linux-any], libtool, liburcu-dev, libxdp-dev [!hurd-i386 !alpha !arc !hppa !ia64 !m68k !powerpc !sh4 !sparc64 !x32], pkg-config, protobuf-c-compiler, python3-all"
-  ],
-  "Build-Depends-Indep": [
-    "python3-setuptools, python3-sphinx, python3-sphinx-panels"
-  ],
-  "Checksums-Sha256": [
-    "b8b634e5c917ab69ef78538d7635f49ddbae4057785c5bca5d42fd45b3ff7af6 3917 knot_3.3.2-1.dsc 0d65d4b59f5df69b78c6295ade0a2ea7931831de7ef5eeee3e00f8a20af679e4 1580800 knot_3.3.2.orig.tar.xz 2fab6809601f02814082bfc3c3820dfb0ab5fe4ddc516103dbdb3aa5ba19b942 833 knot_3.3.2.orig.tar.xz.asc f66ce5572e42a67b29b62410945376335f5ee4b55538d245fb4cf3cfc22b2bcd 29148 knot_3.3.2-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/k/knot"
-  ],
-  "Files": [
-    "58deffcaf61a4829e0f708b839cc4f19 3917 knot_3.3.2-1.dsc cb77130790eab98f13d85a5a4e18a330 1580800 knot_3.3.2.orig.tar.xz 03165dfd603ed80982f278e7f58a2fc7 833 knot_3.3.2.orig.tar.xz.asc 994947dc16870557f68ead841435c3df 29148 knot_3.3.2-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.knot-dns.cz/"
-  ],
-  "Maintainer": [
-    "knot packagers <knot@packages.debian.org>"
-  ],
-  "Package": [
-    "knot"
-  ],
-  "Package-List": [
-    "knot deb net optional arch=any knot-dnssecutils deb net optional arch=any knot-dnsutils deb net optional arch=any knot-doc deb doc optional arch=all knot-exporter deb python optional arch=all knot-host deb net optional arch=any knot-module-dnstap deb net optional arch=any knot-module-geoip deb net optional arch=any libdnssec9 deb libs optional arch=any libknot-dev deb libdevel optional arch=any libknot14 deb libs optional arch=any libzscanner4 deb libs optional arch=any python3-libknot deb python optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "ca-certificates, findutils, iputils-ping"
-  ],
-  "Uploaders": [
-    "Ondřej Surý <ondrej@debian.org>, Daniel Salzman <daniel.salzman@nic.cz>, Daniel Kahn Gillmor <dkg@fifthhorseman.net>, Robert Edmonds <edmonds@debian.org>, Jakub Ružička <jakub.ruzicka@nic.cz>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/dns-team/knot-dns"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/dns-team/knot-dns.git"
-  ],
-  "Version": [
-    "3.3.2-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"knot, libknot14, libzscanner4, libdnssec9, libknot-dev, knot-dnsutils, knot-dnssecutils, knot-host, knot-module-dnstap, knot-module-geoip, knot-doc, knot-exporter, python3-libknot"
+	],
+	"Build-Depends": [
+		"autoconf, automake, debhelper-compat (= 13), dh-python, libbpf-dev [!hurd-i386 !alpha !arc !hppa !ia64 !m68k !powerpc !sh4 !sparc64 !x32], libcap-ng-dev [!hurd-i386], libedit-dev, libfstrm-dev, libgnutls28-dev, libidn2-dev, liblmdb-dev, libmaxminddb-dev, libmnl-dev [!hurd-i386 !alpha !arc !hppa !ia64 !m68k !powerpc !sh4 !sparc64 !x32], libnghttp2-dev, libngtcp2-crypto-gnutls-dev [!hurd-i386 !alpha !arc !hppa !ia64 !m68k !powerpc !sh4 !sparc64 !x32], libngtcp2-dev [!hurd-i386 !alpha !arc !hppa !ia64 !m68k !powerpc !sh4 !sparc64 !x32], libprotobuf-c-dev, libsofthsm2 <!nocheck>, libsystemd-dev [linux-any] | libsystemd-daemon-dev [linux-any], libsystemd-dev [linux-any] | libsystemd-journal-dev [linux-any], libtool, liburcu-dev, libxdp-dev [!hurd-i386 !alpha !arc !hppa !ia64 !m68k !powerpc !sh4 !sparc64 !x32], pkg-config, protobuf-c-compiler, python3-all"
+	],
+	"Build-Depends-Indep": [
+		"python3-setuptools, python3-sphinx, python3-sphinx-panels"
+	],
+	"Checksums-Sha256": [
+		"b8b634e5c917ab69ef78538d7635f49ddbae4057785c5bca5d42fd45b3ff7af6 3917 knot_3.3.2-1.dsc 0d65d4b59f5df69b78c6295ade0a2ea7931831de7ef5eeee3e00f8a20af679e4 1580800 knot_3.3.2.orig.tar.xz 2fab6809601f02814082bfc3c3820dfb0ab5fe4ddc516103dbdb3aa5ba19b942 833 knot_3.3.2.orig.tar.xz.asc f66ce5572e42a67b29b62410945376335f5ee4b55538d245fb4cf3cfc22b2bcd 29148 knot_3.3.2-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/k/knot"
+	],
+	"Files": [
+		"58deffcaf61a4829e0f708b839cc4f19 3917 knot_3.3.2-1.dsc cb77130790eab98f13d85a5a4e18a330 1580800 knot_3.3.2.orig.tar.xz 03165dfd603ed80982f278e7f58a2fc7 833 knot_3.3.2.orig.tar.xz.asc 994947dc16870557f68ead841435c3df 29148 knot_3.3.2-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.knot-dns.cz/"
+	],
+	"Maintainer": [
+		"knot packagers <knot@packages.debian.org>"
+	],
+	"Package": [
+		"knot"
+	],
+	"Package-List": [
+		"knot deb net optional arch=any knot-dnssecutils deb net optional arch=any knot-dnsutils deb net optional arch=any knot-doc deb doc optional arch=all knot-exporter deb python optional arch=all knot-host deb net optional arch=any knot-module-dnstap deb net optional arch=any knot-module-geoip deb net optional arch=any libdnssec9 deb libs optional arch=any libknot-dev deb libdevel optional arch=any libknot14 deb libs optional arch=any libzscanner4 deb libs optional arch=any python3-libknot deb python optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"ca-certificates, findutils, iputils-ping"
+	],
+	"Uploaders": [
+		"Ondřej Surý <ondrej@debian.org>, Daniel Salzman <daniel.salzman@nic.cz>, Daniel Kahn Gillmor <dkg@fifthhorseman.net>, Robert Edmonds <edmonds@debian.org>, Jakub Ružička <jakub.ruzicka@nic.cz>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/dns-team/knot-dns"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/dns-team/knot-dns.git"
+	],
+	"Version": [
+		"3.3.2-1"
+	]
 }

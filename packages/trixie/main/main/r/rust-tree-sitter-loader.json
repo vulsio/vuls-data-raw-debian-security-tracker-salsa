@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-tree-sitter-loader-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-anyhow-1+default-dev <!nocheck>, librust-cc-1+default-dev (>= 1.0.58-~~) <!nocheck>, librust-dirs-5+default-dev <!nocheck> | librust-dirs-4+default-dev <!nocheck> | librust-dirs-3+default-dev <!nocheck>, librust-libloading-0.7+default-dev <!nocheck>, librust-once-cell-1+default-dev (>= 1.7-~~) <!nocheck>, librust-regex-1+default-dev <!nocheck>, librust-serde-1+default-dev (>= 1.0.130-~~) <!nocheck>, librust-serde-1+derive-dev (>= 1.0.130-~~) <!nocheck>, librust-serde-json-1+default-dev <!nocheck>, librust-serde-json-1+preserve-order-dev <!nocheck>, librust-tree-sitter-0.20+default-dev <!nocheck>, librust-tree-sitter-highlight-0.20+default-dev <!nocheck>, librust-tree-sitter-tags-0.20+default-dev <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "d61837ae03615c5f41ba083acc7de0b78506e160fde3a703b9f38d1b384b6a32 3082 rust-tree-sitter-loader_0.20.0-3.dsc d0b17eef4833c7c139abed66d562dfa23228e97e647597baf246fd56c21bbfaf 8037 rust-tree-sitter-loader_0.20.0.orig.tar.gz c802dd2e66cb3dda1286e3d8842e14a33b5b0b76b899efe89bbb4cc754eda304 2916 rust-tree-sitter-loader_0.20.0-3.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-tree-sitter-loader"
-  ],
-  "Files": [
-    "ef4c72cfbbc09ec161bf3a62806a2b87 3082 rust-tree-sitter-loader_0.20.0-3.dsc e3b843bc30c07ad9c394336208852644 8037 rust-tree-sitter-loader_0.20.0.orig.tar.gz 09461d18dae8aabd18ee40fa98a3f2d0 2916 rust-tree-sitter-loader_0.20.0-3.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-tree-sitter-loader"
-  ],
-  "Package-List": [
-    "librust-tree-sitter-loader-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo"
-  ],
-  "Uploaders": [
-    "James McCoy <jamessan@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/tree-sitter-loader"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/tree-sitter-loader]"
-  ],
-  "Version": [
-    "0.20.0-3"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-tree-sitter-loader-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-anyhow-1+default-dev <!nocheck>, librust-cc-1+default-dev (>= 1.0.58-~~) <!nocheck>, librust-dirs-5+default-dev <!nocheck> | librust-dirs-4+default-dev <!nocheck> | librust-dirs-3+default-dev <!nocheck>, librust-libloading-0.7+default-dev <!nocheck>, librust-once-cell-1+default-dev (>= 1.7-~~) <!nocheck>, librust-regex-1+default-dev <!nocheck>, librust-serde-1+default-dev (>= 1.0.130-~~) <!nocheck>, librust-serde-1+derive-dev (>= 1.0.130-~~) <!nocheck>, librust-serde-json-1+default-dev <!nocheck>, librust-serde-json-1+preserve-order-dev <!nocheck>, librust-tree-sitter-0.20+default-dev <!nocheck>, librust-tree-sitter-highlight-0.20+default-dev <!nocheck>, librust-tree-sitter-tags-0.20+default-dev <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"d61837ae03615c5f41ba083acc7de0b78506e160fde3a703b9f38d1b384b6a32 3082 rust-tree-sitter-loader_0.20.0-3.dsc d0b17eef4833c7c139abed66d562dfa23228e97e647597baf246fd56c21bbfaf 8037 rust-tree-sitter-loader_0.20.0.orig.tar.gz c802dd2e66cb3dda1286e3d8842e14a33b5b0b76b899efe89bbb4cc754eda304 2916 rust-tree-sitter-loader_0.20.0-3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-tree-sitter-loader"
+	],
+	"Files": [
+		"ef4c72cfbbc09ec161bf3a62806a2b87 3082 rust-tree-sitter-loader_0.20.0-3.dsc e3b843bc30c07ad9c394336208852644 8037 rust-tree-sitter-loader_0.20.0.orig.tar.gz 09461d18dae8aabd18ee40fa98a3f2d0 2916 rust-tree-sitter-loader_0.20.0-3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-tree-sitter-loader"
+	],
+	"Package-List": [
+		"librust-tree-sitter-loader-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo"
+	],
+	"Uploaders": [
+		"James McCoy <jamessan@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/tree-sitter-loader"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/tree-sitter-loader]"
+	],
+	"Version": [
+		"0.20.0-3"
+	]
 }

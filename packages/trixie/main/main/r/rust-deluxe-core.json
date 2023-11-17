@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-deluxe-core-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-arrayvec-0.7+default-dev (>= 0.7.2-~~) <!nocheck>, librust-proc-macro2-1+default-dev (>= 1.0.38-~~) <!nocheck>, librust-quote-1+default-dev (>= 1.0.25-~~) <!nocheck>, librust-strsim-0.10+default-dev <!nocheck>, librust-syn-2+clone-impls-dev (>= 2.0.10-~~) <!nocheck>, librust-syn-2+derive-dev (>= 2.0.10-~~) <!nocheck>, librust-syn-2+extra-traits-dev (>= 2.0.10-~~) <!nocheck>, librust-syn-2+full-dev (>= 2.0.10-~~) <!nocheck>, librust-syn-2+parsing-dev (>= 2.0.10-~~) <!nocheck>, librust-syn-2+printing-dev (>= 2.0.10-~~) <!nocheck>, librust-syn-2+proc-macro-dev (>= 2.0.10-~~) <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "ac3a8693cdcc82cfd3407aece4d0d5359163231f31d22ea071bf4df9196db481 2822 rust-deluxe-core_0.5.0-1.dsc eddada51c8576df9d6a8450c351ff63042b092c9458b8ac7d20f89cbd0ffd313 31165 rust-deluxe-core_0.5.0.orig.tar.gz 7734fb632776d7c88604cc665c9bc638126c477efe94f3812818169c802310a5 2708 rust-deluxe-core_0.5.0-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-deluxe-core"
-  ],
-  "Files": [
-    "9db40956c17adb39592ea17bf5d4e779 2822 rust-deluxe-core_0.5.0-1.dsc 4bc1d9018ecaed90fc5221db6aab20d1 31165 rust-deluxe-core_0.5.0.orig.tar.gz bbdf01810df133b19afab1822fd8e4bd 2708 rust-deluxe-core_0.5.0-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/jf2048/deluxe"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-deluxe-core"
-  ],
-  "Package-List": [
-    "librust-deluxe-core-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo"
-  ],
-  "Uploaders": [
-    "Arnaud Ferraris <aferraris@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/deluxe-core"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/deluxe-core]"
-  ],
-  "Version": [
-    "0.5.0-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-deluxe-core-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-arrayvec-0.7+default-dev (>= 0.7.2-~~) <!nocheck>, librust-proc-macro2-1+default-dev (>= 1.0.38-~~) <!nocheck>, librust-quote-1+default-dev (>= 1.0.25-~~) <!nocheck>, librust-strsim-0.10+default-dev <!nocheck>, librust-syn-2+clone-impls-dev (>= 2.0.10-~~) <!nocheck>, librust-syn-2+derive-dev (>= 2.0.10-~~) <!nocheck>, librust-syn-2+extra-traits-dev (>= 2.0.10-~~) <!nocheck>, librust-syn-2+full-dev (>= 2.0.10-~~) <!nocheck>, librust-syn-2+parsing-dev (>= 2.0.10-~~) <!nocheck>, librust-syn-2+printing-dev (>= 2.0.10-~~) <!nocheck>, librust-syn-2+proc-macro-dev (>= 2.0.10-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"ac3a8693cdcc82cfd3407aece4d0d5359163231f31d22ea071bf4df9196db481 2822 rust-deluxe-core_0.5.0-1.dsc eddada51c8576df9d6a8450c351ff63042b092c9458b8ac7d20f89cbd0ffd313 31165 rust-deluxe-core_0.5.0.orig.tar.gz 7734fb632776d7c88604cc665c9bc638126c477efe94f3812818169c802310a5 2708 rust-deluxe-core_0.5.0-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-deluxe-core"
+	],
+	"Files": [
+		"9db40956c17adb39592ea17bf5d4e779 2822 rust-deluxe-core_0.5.0-1.dsc 4bc1d9018ecaed90fc5221db6aab20d1 31165 rust-deluxe-core_0.5.0.orig.tar.gz bbdf01810df133b19afab1822fd8e4bd 2708 rust-deluxe-core_0.5.0-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/jf2048/deluxe"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-deluxe-core"
+	],
+	"Package-List": [
+		"librust-deluxe-core-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo"
+	],
+	"Uploaders": [
+		"Arnaud Ferraris <aferraris@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/deluxe-core"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/deluxe-core]"
+	],
+	"Version": [
+		"0.5.0-1"
+	]
 }

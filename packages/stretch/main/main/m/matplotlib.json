@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "python-matplotlib, python3-matplotlib, python-matplotlib-data, python-matplotlib-doc, python-matplotlib-dbg, python3-matplotlib-dbg"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 7), dh-python, dvipng, ghostscript, graphviz, inkscape, ipython, libfreetype6-dev, libgtk2.0-dev, libpng-dev, locales-all, python-all-dbg (>= 2.4.4-6), python-all-dev (>= 2.3.5-7), python3-all-dbg, python3-all-dev, python-cycler (>= 0.10.0), python3-cycler (>= 0.10.0), python-dateutil, python3-dateutil, python-colorspacious, python3-colorspacious, python-cairocffi, python3-cairocffi, python-cxx-dev, python3-cxx-dev, python-functools32, python-gi, python3-gi, python-gtk2-dev, python-mock, python3-mock, python-mpltoolkits.basemap <!stage1>, python3-mpltoolkits.basemap <!stage1>, python-nose, python3-nose, python-numpy, python-numpy-dbg, python-numpydoc, python3-numpy, python3-numpy-dbg, python-pil, python3-pil, python-pkg-resources, python3-pkg-resources, python-pyparsing (>= 1.5.6), python3-pyparsing (>= 1.5.6), python-qt4, python3-pyqt4, python-pyqt5, python3-pyqt5, python-setuptools, python3-setuptools, python-six (>= 1.4), python3-six (>= 1.4), python-sphinx (>= 1.0.7+dfsg), python-subprocess32, python-tk (>= 2.5.2-1.1), python-tk-dbg (>= 2.5.2-1.1), python3-tk, python3-tk-dbg, python-tornado, python3-tornado, python-tz, python3-tz, python-wxgtk3.0, python-xlwt, tcl8.6-dev, texlive-fonts-recommended, texlive-latex-extra, texlive-latex-recommended, tk8.6-dev, xauth, xvfb, zlib1g-dev"
-  ],
-  "Checksums-Sha256": [
-    "21532e992994218c7431bdc8480b997ab21e0aa2561f7d4e5a7bac4a8bede1f3 3965 matplotlib_2.0.0+dfsg1-2.dsc d3a9d06c280784315fe17cd52aa79577bc32f8ffa1dabe3a5f5c61336a8285c2 52007676 matplotlib_2.0.0+dfsg1.orig.tar.gz 7a7da800b6d4d407e7a7e88162197828e8e1ca5032255d2d9d97782fed631f98 32568 matplotlib_2.0.0+dfsg1-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/m/matplotlib"
-  ],
-  "Files": [
-    "e5b4fd8eea6e4174a9e9567df2f70ddd 3965 matplotlib_2.0.0+dfsg1-2.dsc 38007cba508af5e30eb57923d68df7e8 52007676 matplotlib_2.0.0+dfsg1.orig.tar.gz ed4edfc94b3b3fe335615cd86429fbbe 32568 matplotlib_2.0.0+dfsg1-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://matplotlib.org/"
-  ],
-  "Maintainer": [
-    "Sandro Tosi <morph@debian.org>"
-  ],
-  "Package": [
-    "matplotlib"
-  ],
-  "Package-List": [
-    "python-matplotlib deb python optional arch=any python-matplotlib-data deb python optional arch=all python-matplotlib-dbg deb debug extra arch=any python-matplotlib-doc deb doc optional arch=all python3-matplotlib deb python optional arch=any python3-matplotlib-dbg deb debug extra arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Python-Version": [
-    "all"
-  ],
-  "Section": [
-    "python"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "python-numpy, python-numpy-dbg, python-qt4, python-qt4-dbg, python-tk, python-tk-dbg, python-wxgtk3.0, python3-numpy, python3-numpy-dbg, python3-pyqt4, python3-pyqt4-dbg, python3-tk, python3-tk-dbg, xauth, xvfb"
-  ],
-  "Uploaders": [
-    "Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/python-modules/packages/matplotlib.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/python-modules/packages/matplotlib.git"
-  ],
-  "Version": [
-    "2.0.0+dfsg1-2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"python-matplotlib, python3-matplotlib, python-matplotlib-data, python-matplotlib-doc, python-matplotlib-dbg, python3-matplotlib-dbg"
+	],
+	"Build-Depends": [
+		"debhelper (>= 7), dh-python, dvipng, ghostscript, graphviz, inkscape, ipython, libfreetype6-dev, libgtk2.0-dev, libpng-dev, locales-all, python-all-dbg (>= 2.4.4-6), python-all-dev (>= 2.3.5-7), python3-all-dbg, python3-all-dev, python-cycler (>= 0.10.0), python3-cycler (>= 0.10.0), python-dateutil, python3-dateutil, python-colorspacious, python3-colorspacious, python-cairocffi, python3-cairocffi, python-cxx-dev, python3-cxx-dev, python-functools32, python-gi, python3-gi, python-gtk2-dev, python-mock, python3-mock, python-mpltoolkits.basemap <!stage1>, python3-mpltoolkits.basemap <!stage1>, python-nose, python3-nose, python-numpy, python-numpy-dbg, python-numpydoc, python3-numpy, python3-numpy-dbg, python-pil, python3-pil, python-pkg-resources, python3-pkg-resources, python-pyparsing (>= 1.5.6), python3-pyparsing (>= 1.5.6), python-qt4, python3-pyqt4, python-pyqt5, python3-pyqt5, python-setuptools, python3-setuptools, python-six (>= 1.4), python3-six (>= 1.4), python-sphinx (>= 1.0.7+dfsg), python-subprocess32, python-tk (>= 2.5.2-1.1), python-tk-dbg (>= 2.5.2-1.1), python3-tk, python3-tk-dbg, python-tornado, python3-tornado, python-tz, python3-tz, python-wxgtk3.0, python-xlwt, tcl8.6-dev, texlive-fonts-recommended, texlive-latex-extra, texlive-latex-recommended, tk8.6-dev, xauth, xvfb, zlib1g-dev"
+	],
+	"Checksums-Sha256": [
+		"21532e992994218c7431bdc8480b997ab21e0aa2561f7d4e5a7bac4a8bede1f3 3965 matplotlib_2.0.0+dfsg1-2.dsc d3a9d06c280784315fe17cd52aa79577bc32f8ffa1dabe3a5f5c61336a8285c2 52007676 matplotlib_2.0.0+dfsg1.orig.tar.gz 7a7da800b6d4d407e7a7e88162197828e8e1ca5032255d2d9d97782fed631f98 32568 matplotlib_2.0.0+dfsg1-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/m/matplotlib"
+	],
+	"Files": [
+		"e5b4fd8eea6e4174a9e9567df2f70ddd 3965 matplotlib_2.0.0+dfsg1-2.dsc 38007cba508af5e30eb57923d68df7e8 52007676 matplotlib_2.0.0+dfsg1.orig.tar.gz ed4edfc94b3b3fe335615cd86429fbbe 32568 matplotlib_2.0.0+dfsg1-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://matplotlib.org/"
+	],
+	"Maintainer": [
+		"Sandro Tosi <morph@debian.org>"
+	],
+	"Package": [
+		"matplotlib"
+	],
+	"Package-List": [
+		"python-matplotlib deb python optional arch=any python-matplotlib-data deb python optional arch=all python-matplotlib-dbg deb debug extra arch=any python-matplotlib-doc deb doc optional arch=all python3-matplotlib deb python optional arch=any python3-matplotlib-dbg deb debug extra arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Python-Version": [
+		"all"
+	],
+	"Section": [
+		"python"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"python-numpy, python-numpy-dbg, python-qt4, python-qt4-dbg, python-tk, python-tk-dbg, python-wxgtk3.0, python3-numpy, python3-numpy-dbg, python3-pyqt4, python3-pyqt4-dbg, python3-tk, python3-tk-dbg, xauth, xvfb"
+	],
+	"Uploaders": [
+		"Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/python-modules/packages/matplotlib.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/python-modules/packages/matplotlib.git"
+	],
+	"Version": [
+		"2.0.0+dfsg1-2"
+	]
 }

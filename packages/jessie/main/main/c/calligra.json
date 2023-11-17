@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "calligra, karbon, kexi, kexi-data, kexi-calligrasheets-driver, kexi-mysql-driver, kexi-postgresql-driver, kexi-xbase-driver, kexi-sybase-driver, kexi-web-form-widget, kexi-map-form-widget, calligra-reports-web-element, calligra-reports-map-element, krita, krita-data, calligrasheets, calligraplan, calligrawords, calligrawords-data, calligrastage, calligrastage-data, calligraflow, calligraflow-data, braindump, calligraactive, calligra-libs, calligra-semanticitems, calligra-data, okular-backend-odp, calligra-dbg, calligraauthor, krita-sketch, krita-gemini"
-  ],
-  "Build-Depends": [
-    "cmake (>= 2.8), debhelper (>= 9), default-jdk, freetds-dev, kdelibs5-dev (>= 4:4.4.0), kdepimlibs5-dev (>= 4:4.6.0), libattica-dev, libboost-dev, libeigen3-dev (>= 2.0~beta6), libexiv2-dev (>= 0.16), libfftw3-dev, libfontconfig1-dev, libfreetype6-dev, libglew-dev, libglib2.0-dev, libgsl0-dev, libicu-dev, libjpeg-dev, libkactivities-dev (>= 4:4.10), libkdcraw-dev (>= 4:4.12), liblcms2-dev (>= 2.4), libmarble-dev (>> 4:4.12), libmysqlclient-dev, libodfgen-dev (>= 0.1), libopencolorio-dev, libopenexr-dev, libopenjpeg-dev, libphononexperimental-dev, libpng-dev, libpoppler-private-dev, libpoppler-qt4-dev, libpq-dev, libpqxx-dev, libqca2-dev, libqt4-dev, libqt4-opengl-dev, libqtwebkit-dev, libspnav-dev, libsqlite3-dev (>= 3.6.16), libtiff-dev, libvisio-dev (>= 0.1), libwpd-dev (>= 0.10), libwpg-dev (>= 0.3), libwps-dev (>= 0.3), libxbase64-dev, libxi-dev, nepomuk-core-dev, okular-dev (>= 4:4.4.3), pkg-config, pkg-kde-tools (>= 0.9), pstoedit, shared-desktop-ontologies, shared-mime-info, zlib1g-dev"
-  ],
-  "Checksums-Sha1": [
-    "cfcb50fa1886193743b0ff4099a72762b84dce78 5061 calligra_2.8.5+dfsg-1.dsc b992c205a73902008173e34683ed0533a5e6c533 138644328 calligra_2.8.5+dfsg.orig.tar.xz 07ebc2a61794a00249ad28590df57696f77a07f5 115888 calligra_2.8.5+dfsg-1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "dc0a42b1fa584cbdf248a0899de3a16a20a2ace41d8a8eb265a6e2e3f646e997 5061 calligra_2.8.5+dfsg-1.dsc 81ce27dd1274765624a4a480062de05d313ec87c5079d2e5d2ab6d8f512503f8 138644328 calligra_2.8.5+dfsg.orig.tar.xz fe32d6fdb99c681ac15441ba32f76d78536e861a705f79dfd391e5ae3793e795 115888 calligra_2.8.5+dfsg-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/c/calligra"
-  ],
-  "Files": [
-    "8f7a97effd8450fc946cbbf40486cd22 5061 calligra_2.8.5+dfsg-1.dsc 2cd0a04bcc93fc2248710fc5cc2700bc 138644328 calligra_2.8.5+dfsg.orig.tar.xz 1416dfdf5ee4f0e52d4f27b1a2473fbb 115888 calligra_2.8.5+dfsg-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.calligra-suite.org/"
-  ],
-  "Maintainer": [
-    "Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>"
-  ],
-  "Package": [
-    "calligra"
-  ],
-  "Package-List": [
-    "braindump deb kde optional arch=any calligra deb kde optional arch=all calligra-data deb libs optional arch=all calligra-dbg deb debug extra arch=any calligra-libs deb libs optional arch=any calligra-reports-map-element deb kde optional arch=any calligra-reports-web-element deb kde optional arch=any calligra-semanticitems deb libs optional arch=any calligraactive deb kde optional arch=any calligraauthor deb text optional arch=any calligraflow deb graphics optional arch=any calligraflow-data deb graphics optional arch=all calligraplan deb kde optional arch=any calligrasheets deb math optional arch=any calligrastage deb kde optional arch=any calligrastage-data deb kde optional arch=all calligrawords deb text optional arch=any calligrawords-data deb text optional arch=all karbon deb graphics optional arch=any kexi deb database optional arch=any kexi-calligrasheets-driver deb kde optional arch=any kexi-data deb kde optional arch=all kexi-map-form-widget deb database optional arch=any kexi-mysql-driver deb database optional arch=any kexi-postgresql-driver deb database optional arch=any kexi-sybase-driver deb database optional arch=any kexi-web-form-widget deb database optional arch=any kexi-xbase-driver deb database optional arch=any krita deb graphics optional arch=any krita-data deb graphics optional arch=all krita-gemini deb graphics optional arch=any krita-sketch deb graphics optional arch=any okular-backend-odp deb graphics optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "kde"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Adrien Grellier <perso@adrieng.fr>, Raúl Sánchez Siles <rasasi78@gmail.com>, Maximiliano Curia <maxy@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-std/calligra.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-kde/kde-std/calligra.git"
-  ],
-  "Version": [
-    "1:2.8.5+dfsg-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"calligra, karbon, kexi, kexi-data, kexi-calligrasheets-driver, kexi-mysql-driver, kexi-postgresql-driver, kexi-xbase-driver, kexi-sybase-driver, kexi-web-form-widget, kexi-map-form-widget, calligra-reports-web-element, calligra-reports-map-element, krita, krita-data, calligrasheets, calligraplan, calligrawords, calligrawords-data, calligrastage, calligrastage-data, calligraflow, calligraflow-data, braindump, calligraactive, calligra-libs, calligra-semanticitems, calligra-data, okular-backend-odp, calligra-dbg, calligraauthor, krita-sketch, krita-gemini"
+	],
+	"Build-Depends": [
+		"cmake (>= 2.8), debhelper (>= 9), default-jdk, freetds-dev, kdelibs5-dev (>= 4:4.4.0), kdepimlibs5-dev (>= 4:4.6.0), libattica-dev, libboost-dev, libeigen3-dev (>= 2.0~beta6), libexiv2-dev (>= 0.16), libfftw3-dev, libfontconfig1-dev, libfreetype6-dev, libglew-dev, libglib2.0-dev, libgsl0-dev, libicu-dev, libjpeg-dev, libkactivities-dev (>= 4:4.10), libkdcraw-dev (>= 4:4.12), liblcms2-dev (>= 2.4), libmarble-dev (>> 4:4.12), libmysqlclient-dev, libodfgen-dev (>= 0.1), libopencolorio-dev, libopenexr-dev, libopenjpeg-dev, libphononexperimental-dev, libpng-dev, libpoppler-private-dev, libpoppler-qt4-dev, libpq-dev, libpqxx-dev, libqca2-dev, libqt4-dev, libqt4-opengl-dev, libqtwebkit-dev, libspnav-dev, libsqlite3-dev (>= 3.6.16), libtiff-dev, libvisio-dev (>= 0.1), libwpd-dev (>= 0.10), libwpg-dev (>= 0.3), libwps-dev (>= 0.3), libxbase64-dev, libxi-dev, nepomuk-core-dev, okular-dev (>= 4:4.4.3), pkg-config, pkg-kde-tools (>= 0.9), pstoedit, shared-desktop-ontologies, shared-mime-info, zlib1g-dev"
+	],
+	"Checksums-Sha1": [
+		"cfcb50fa1886193743b0ff4099a72762b84dce78 5061 calligra_2.8.5+dfsg-1.dsc b992c205a73902008173e34683ed0533a5e6c533 138644328 calligra_2.8.5+dfsg.orig.tar.xz 07ebc2a61794a00249ad28590df57696f77a07f5 115888 calligra_2.8.5+dfsg-1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"dc0a42b1fa584cbdf248a0899de3a16a20a2ace41d8a8eb265a6e2e3f646e997 5061 calligra_2.8.5+dfsg-1.dsc 81ce27dd1274765624a4a480062de05d313ec87c5079d2e5d2ab6d8f512503f8 138644328 calligra_2.8.5+dfsg.orig.tar.xz fe32d6fdb99c681ac15441ba32f76d78536e861a705f79dfd391e5ae3793e795 115888 calligra_2.8.5+dfsg-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/c/calligra"
+	],
+	"Files": [
+		"8f7a97effd8450fc946cbbf40486cd22 5061 calligra_2.8.5+dfsg-1.dsc 2cd0a04bcc93fc2248710fc5cc2700bc 138644328 calligra_2.8.5+dfsg.orig.tar.xz 1416dfdf5ee4f0e52d4f27b1a2473fbb 115888 calligra_2.8.5+dfsg-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.calligra-suite.org/"
+	],
+	"Maintainer": [
+		"Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>"
+	],
+	"Package": [
+		"calligra"
+	],
+	"Package-List": [
+		"braindump deb kde optional arch=any calligra deb kde optional arch=all calligra-data deb libs optional arch=all calligra-dbg deb debug extra arch=any calligra-libs deb libs optional arch=any calligra-reports-map-element deb kde optional arch=any calligra-reports-web-element deb kde optional arch=any calligra-semanticitems deb libs optional arch=any calligraactive deb kde optional arch=any calligraauthor deb text optional arch=any calligraflow deb graphics optional arch=any calligraflow-data deb graphics optional arch=all calligraplan deb kde optional arch=any calligrasheets deb math optional arch=any calligrastage deb kde optional arch=any calligrastage-data deb kde optional arch=all calligrawords deb text optional arch=any calligrawords-data deb text optional arch=all karbon deb graphics optional arch=any kexi deb database optional arch=any kexi-calligrasheets-driver deb kde optional arch=any kexi-data deb kde optional arch=all kexi-map-form-widget deb database optional arch=any kexi-mysql-driver deb database optional arch=any kexi-postgresql-driver deb database optional arch=any kexi-sybase-driver deb database optional arch=any kexi-web-form-widget deb database optional arch=any kexi-xbase-driver deb database optional arch=any krita deb graphics optional arch=any krita-data deb graphics optional arch=all krita-gemini deb graphics optional arch=any krita-sketch deb graphics optional arch=any okular-backend-odp deb graphics optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"kde"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Adrien Grellier <perso@adrieng.fr>, Raúl Sánchez Siles <rasasi78@gmail.com>, Maximiliano Curia <maxy@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-std/calligra.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-kde/kde-std/calligra.git"
+	],
+	"Version": [
+		"1:2.8.5+dfsg-1"
+	]
 }

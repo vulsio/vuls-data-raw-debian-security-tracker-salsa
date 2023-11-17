@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "libdecor-0-0, libdecor-0-dev, libdecor-0-plugin-1-cairo, libdecor-tests"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), libcairo2-dev, libdbus-1-dev, libegl-dev <!noinsttest>, libgl-dev <!noinsttest>, libopengl-dev <!noinsttest>, libpango1.0-dev, libwayland-dev (>= 1.18), libxkbcommon-dev <!noinsttest>, meson, pkg-config, wayland-protocols"
-  ],
-  "Checksums-Sha256": [
-    "200d1163fcb13ec10ca0e816a0db3c196f087aa7c5332f98c48f6dc28e55dcc2 2770 libdecor-0_0.1.1-2~bpo11+1.dsc 82adece5baeb6194292b0d1a91b4b3d10da41115f352a5e6c5844b20b88a0512 47192 libdecor-0_0.1.1.orig.tar.gz 35641eb3ea90507470fb6bc68600c32791b61ea536252b355bfc426cd29648cb 6564 libdecor-0_0.1.1-2~bpo11+1.debian.tar.xz"
-  ],
-  "Dgit": [
-    "b6c68d7f43922820098fdd183136be43a0544699 debian archive/debian/0.1.1-2_bpo11+1 https://git.dgit.debian.org/libdecor-0"
-  ],
-  "Directory": [
-    "pool/main/libd/libdecor-0"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://gitlab.freedesktop.org/libdecor/libdecor"
-  ],
-  "Maintainer": [
-    "Debian SDL packages maintainers <pkg-sdl-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "libdecor-0"
-  ],
-  "Package-List": [
-    "libdecor-0-0 deb libs optional arch=any libdecor-0-dev deb libdevel optional arch=any libdecor-0-plugin-1-cairo deb libs optional arch=any libdecor-tests deb misc optional arch=any profile=!noinsttest"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential, libdbus-1-dev, libwayland-dev, libxkbcommon-dev, pkg-config, wayland-protocols, weston"
-  ],
-  "Uploaders": [
-    "Christian Rauch <Rauch.Christian@gmx.de>, Simon McVittie <smcv@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/sdl-team/libdecor-0"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/sdl-team/libdecor-0.git -b debian/bullseye-backports"
-  ],
-  "Version": [
-    "0.1.1-2~bpo11+1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"libdecor-0-0, libdecor-0-dev, libdecor-0-plugin-1-cairo, libdecor-tests"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), libcairo2-dev, libdbus-1-dev, libegl-dev <!noinsttest>, libgl-dev <!noinsttest>, libopengl-dev <!noinsttest>, libpango1.0-dev, libwayland-dev (>= 1.18), libxkbcommon-dev <!noinsttest>, meson, pkg-config, wayland-protocols"
+	],
+	"Checksums-Sha256": [
+		"200d1163fcb13ec10ca0e816a0db3c196f087aa7c5332f98c48f6dc28e55dcc2 2770 libdecor-0_0.1.1-2~bpo11+1.dsc 82adece5baeb6194292b0d1a91b4b3d10da41115f352a5e6c5844b20b88a0512 47192 libdecor-0_0.1.1.orig.tar.gz 35641eb3ea90507470fb6bc68600c32791b61ea536252b355bfc426cd29648cb 6564 libdecor-0_0.1.1-2~bpo11+1.debian.tar.xz"
+	],
+	"Dgit": [
+		"b6c68d7f43922820098fdd183136be43a0544699 debian archive/debian/0.1.1-2_bpo11+1 https://git.dgit.debian.org/libdecor-0"
+	],
+	"Directory": [
+		"pool/main/libd/libdecor-0"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://gitlab.freedesktop.org/libdecor/libdecor"
+	],
+	"Maintainer": [
+		"Debian SDL packages maintainers <pkg-sdl-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"libdecor-0"
+	],
+	"Package-List": [
+		"libdecor-0-0 deb libs optional arch=any libdecor-0-dev deb libdevel optional arch=any libdecor-0-plugin-1-cairo deb libs optional arch=any libdecor-tests deb misc optional arch=any profile=!noinsttest"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, libdbus-1-dev, libwayland-dev, libxkbcommon-dev, pkg-config, wayland-protocols, weston"
+	],
+	"Uploaders": [
+		"Christian Rauch <Rauch.Christian@gmx.de>, Simon McVittie <smcv@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/sdl-team/libdecor-0"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/sdl-team/libdecor-0.git -b debian/bullseye-backports"
+	],
+	"Version": [
+		"0.1.1-2~bpo11+1"
+	]
 }

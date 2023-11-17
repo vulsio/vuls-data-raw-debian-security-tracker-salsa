@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "gcc-4.7-base, libgcc1, libgcc1-dbg, libgcc2, libgcc2-dbg, libgcc4, libgcc4-dbg, lib64gcc1, lib64gcc1-dbg, lib32gcc1, lib32gcc1-dbg, libn32gcc1, libn32gcc1-dbg, gcc-4.7, gcc-4.7-multilib, gcc-4.7-plugin-dev, gcc-4.7-hppa64, gcc-4.7-spu, g++-4.7-spu, gfortran-4.7-spu, cpp-4.7, gcc-4.7-locales, g++-4.7, g++-4.7-multilib, libmudflap0, libmudflap0-dbg, lib32mudflap0, lib32mudflap0-dbg, lib64mudflap0, lib64mudflap0-dbg, libn32mudflap0, libn32mudflap0-dbg, libmudflap0-4.7-dev, libgomp1, libgomp1-dbg, lib32gomp1, lib32gomp1-dbg, lib64gomp1, lib64gomp1-dbg, libn32gomp1, libn32gomp1-dbg, libitm1, libitm1-dbg, lib32itm1, lib32itm1-dbg, lib64itm1, lib64itm1-dbg, libn32itm1, libn32itm1-dbg, libquadmath0, libquadmath0-dbg, lib32quadmath0, lib32quadmath0-dbg, lib64quadmath0, lib64quadmath0-dbg, libn32quadmath0, libn32quadmath0-dbg, gobjc++-4.7, gobjc++-4.7-multilib, gobjc-4.7, gobjc-4.7-multilib, libobjc4, libobjc4-dbg, lib64objc4, lib64objc4-dbg, lib32objc4, lib32objc4-dbg, libn32objc4, libn32objc4-dbg, gfortran-4.7, gfortran-4.7-multilib, libgfortran3, libgfortran3-dbg, lib64gfortran3, lib64gfortran3-dbg, lib32gfortran3, lib32gfortran3-dbg, libn32gfortran3, libn32gfortran3-dbg, gccgo-4.7, gccgo-4.7-multilib, libgo0, libgo0-dbg, lib64go0, lib64go0-dbg, lib32go0, lib32go0-dbg, libn32go0, libn32go0-dbg, libstdc++6, lib32stdc++6, lib64stdc++6, libn32stdc++6, libstdc++6-4.7-dev, libstdc++6-4.7-pic, libstdc++6-4.7-dbg, lib32stdc++6-4.7-dbg, lib64stdc++6-4.7-dbg, libn32stdc++6-4.7-dbg, libstdc++6-4.7-doc, gcc-4.7-soft-float, fixincludes, gcc-4.7-source"
-  ],
-  "Build-Conflicts": [
-    "binutils-gold"
-  ],
-  "Build-Depends": [
-    "dpkg-dev (>= 1.16.0~ubuntu4), debhelper (>= 5.0.62), g++-multilib [amd64 i386 kfreebsd-amd64 mips mipsel powerpc ppc64 s390 s390x sparc], libc6.1-dev (>= 2.13-5) [alpha ia64] | libc0.3-dev (>= 2.13-5) [hurd-i386] | libc0.1-dev (>= 2.13-5) [kfreebsd-i386 kfreebsd-amd64] | libc6-dev (>= 2.13-5), libc6-dev (>= 2.13-31) [armel armhf], libc6-dev-amd64 [i386], libc6-dev-sparc64 [sparc], libc6-dev-s390 [s390x], libc6-dev-s390x [s390], libc6-dev-i386 [amd64], libc6-dev-powerpc [ppc64], libc6-dev-ppc64 [powerpc], libc0.1-dev-i386 [kfreebsd-amd64], lib32gcc1 [amd64 ppc64 kfreebsd-amd64 s390x], lib64gcc1 [i386 powerpc sparc s390], libc6-dev-mips64 [mips mipsel], libc6-dev-mipsn32 [mips mipsel], m4, libtool, autoconf2.64, automake (>= 1:1.11), automake (<< 1:1.12), libunwind7-dev (>= 0.98.5-6) [ia64], libatomic-ops-dev [ia64], zlib1g-dev, gawk, lzma, xz-utils, patchutils, binutils (>= 2.21.1) | binutils-multiarch (>= 2.21.1), binutils-hppa64 (>= 2.21.1) [hppa], gperf (>= 3.0.1), bison (>= 1:2.3), flex, gettext, texinfo (>= 4.3), locales, procps, sharutils, netbase, binutils-spu (>= 2.21.1) [powerpc ppc64], newlib-spu (>= 1.16.0) [powerpc ppc64], libcloog-ppl-dev (>= 0.15.9-2~), libmpc-dev, libmpfr-dev (>= 3.0.0-9~), libgmp-dev (>= 2:5.0.1~), libelfg0-dev (>= 0.8.12), dejagnu [!m68k !hurd-i386 !hurd-alpha], autogen, realpath (>= 1.9.12), chrpath, lsb-release, make (>= 3.81), quilt"
-  ],
-  "Build-Depends-Indep": [
-    "doxygen (>= 1.7.2), graphviz (>= 2.2), gsfonts-x11, texlive-latex-base, xsltproc, libxml2-utils, docbook-xsl-ns"
-  ],
-  "Checksums-Sha1": [
-    "3e9759840ef633ea917a416ed509f11af5aceedd 7661 gcc-4.7_4.7.2-5.dsc d21af5c953de348f2a3569ae7f486470ff2be0b7 63335342 gcc-4.7_4.7.2.orig.tar.gz a26742740e6bd46662ccff74bb341aeabb31a993 988683 gcc-4.7_4.7.2-5.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "8f755a0a57a3111473f859816c48f695fc2b0be0b4f0587731fa053452029caf 7661 gcc-4.7_4.7.2-5.dsc 226cc88e397a3f833400ceddd9b9af9f6093b53c2afece7dfc5b0313634c4760 63335342 gcc-4.7_4.7.2.orig.tar.gz 94beefe23dbcf9a6797cb91108c3bc12b5c43e9ee3cede94b070bb565248fe1f 988683 gcc-4.7_4.7.2-5.diff.gz"
-  ],
-  "Directory": [
-    "pool/main/g/gcc-4.7"
-  ],
-  "Files": [
-    "c8d2e504a8f555c02b680cae8e2f292f 7661 gcc-4.7_4.7.2-5.dsc 56227b6d71596ae1340b20475ba9bff1 63335342 gcc-4.7_4.7.2.orig.tar.gz e531f4dd3e98e0ce734d6edca362f152 988683 gcc-4.7_4.7.2-5.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Homepage": [
-    "http://gcc.gnu.org/"
-  ],
-  "Maintainer": [
-    "Debian GCC Maintainers <debian-gcc@lists.debian.org>"
-  ],
-  "Package": [
-    "gcc-4.7"
-  ],
-  "Package-List": [
-    "cpp-4.7 deb interpreters optional fixincludes deb devel optional g++-4.7 deb devel optional g++-4.7-multilib deb devel optional g++-4.7-spu deb devel optional gcc-4.7 deb devel optional gcc-4.7-base deb libs required gcc-4.7-hppa64 deb devel optional gcc-4.7-locales deb devel optional gcc-4.7-multilib deb devel optional gcc-4.7-plugin-dev deb devel optional gcc-4.7-soft-float deb devel optional gcc-4.7-source deb devel optional gcc-4.7-spu deb devel optional gccgo-4.7 deb devel optional gccgo-4.7-multilib deb devel optional gfortran-4.7 deb devel optional gfortran-4.7-multilib deb devel optional gfortran-4.7-spu deb devel optional gobjc++-4.7 deb devel optional gobjc++-4.7-multilib deb devel optional gobjc-4.7 deb devel optional gobjc-4.7-multilib deb devel optional lib32gcc1 deb libs extra lib32gcc1-dbg deb debug extra lib32gfortran3 deb libs optional lib32gfortran3-dbg deb debug extra lib32go0 deb libs optional lib32go0-dbg deb debug extra lib32gomp1 deb libs optional lib32gomp1-dbg deb debug extra lib32itm1 deb libs optional lib32itm1-dbg deb debug extra lib32mudflap0 deb libs optional lib32mudflap0-dbg deb debug extra lib32objc4 deb libs optional lib32objc4-dbg deb debug extra lib32quadmath0 deb libs optional lib32quadmath0-dbg deb debug extra lib32stdc++6 deb libs extra lib32stdc++6-4.7-dbg deb debug extra lib64gcc1 deb libs optional lib64gcc1-dbg deb debug extra lib64gfortran3 deb libs optional lib64gfortran3-dbg deb debug extra lib64go0 deb libs optional lib64go0-dbg deb debug extra lib64gomp1 deb libs optional lib64gomp1-dbg deb debug extra lib64itm1 deb libs optional lib64itm1-dbg deb debug extra lib64mudflap0 deb libs optional lib64mudflap0-dbg deb debug extra lib64objc4 deb libs optional lib64objc4-dbg deb debug extra lib64quadmath0 deb libs optional lib64quadmath0-dbg deb debug extra lib64stdc++6 deb libs optional lib64stdc++6-4.7-dbg deb debug extra libgcc1 deb libs required libgcc1-dbg deb debug extra libgcc2 deb libs required libgcc2-dbg deb debug extra libgcc4 deb libs required libgcc4-dbg deb debug extra libgfortran3 deb libs optional libgfortran3-dbg deb debug extra libgo0 deb libs optional libgo0-dbg deb debug extra libgomp1 deb libs optional libgomp1-dbg deb debug extra libitm1 deb libs optional libitm1-dbg deb debug extra libmudflap0 deb libs optional libmudflap0-4.7-dev deb libdevel optional libmudflap0-dbg deb debug extra libn32gcc1 deb libs optional libn32gcc1-dbg deb debug extra libn32gfortran3 deb libs optional libn32gfortran3-dbg deb debug extra libn32go0 deb libs optional libn32go0-dbg deb debug extra libn32gomp1 deb libs optional libn32gomp1-dbg deb debug extra libn32itm1 deb libs optional libn32itm1-dbg deb debug extra libn32mudflap0 deb libs optional libn32mudflap0-dbg deb debug extra libn32objc4 deb libs optional libn32objc4-dbg deb debug extra libn32quadmath0 deb libs optional libn32quadmath0-dbg deb debug extra libn32stdc++6 deb libs optional libn32stdc++6-4.7-dbg deb debug extra libobjc4 deb libs optional libobjc4-dbg deb debug extra libquadmath0 deb libs optional libquadmath0-dbg deb debug extra libstdc++6 deb libs important libstdc++6-4.7-dbg deb debug extra libstdc++6-4.7-dev deb libdevel optional libstdc++6-4.7-doc deb doc optional libstdc++6-4.7-pic deb libdevel extra"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "devel"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Matthias Klose <doko@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://svn.debian.org/viewsvn/gcccvs/branches/sid/gcc-4.7/"
-  ],
-  "Vcs-Svn": [
-    "svn://svn.debian.org/svn/gcccvs/branches/sid/gcc-4.7"
-  ],
-  "Version": [
-    "4.7.2-5"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"gcc-4.7-base, libgcc1, libgcc1-dbg, libgcc2, libgcc2-dbg, libgcc4, libgcc4-dbg, lib64gcc1, lib64gcc1-dbg, lib32gcc1, lib32gcc1-dbg, libn32gcc1, libn32gcc1-dbg, gcc-4.7, gcc-4.7-multilib, gcc-4.7-plugin-dev, gcc-4.7-hppa64, gcc-4.7-spu, g++-4.7-spu, gfortran-4.7-spu, cpp-4.7, gcc-4.7-locales, g++-4.7, g++-4.7-multilib, libmudflap0, libmudflap0-dbg, lib32mudflap0, lib32mudflap0-dbg, lib64mudflap0, lib64mudflap0-dbg, libn32mudflap0, libn32mudflap0-dbg, libmudflap0-4.7-dev, libgomp1, libgomp1-dbg, lib32gomp1, lib32gomp1-dbg, lib64gomp1, lib64gomp1-dbg, libn32gomp1, libn32gomp1-dbg, libitm1, libitm1-dbg, lib32itm1, lib32itm1-dbg, lib64itm1, lib64itm1-dbg, libn32itm1, libn32itm1-dbg, libquadmath0, libquadmath0-dbg, lib32quadmath0, lib32quadmath0-dbg, lib64quadmath0, lib64quadmath0-dbg, libn32quadmath0, libn32quadmath0-dbg, gobjc++-4.7, gobjc++-4.7-multilib, gobjc-4.7, gobjc-4.7-multilib, libobjc4, libobjc4-dbg, lib64objc4, lib64objc4-dbg, lib32objc4, lib32objc4-dbg, libn32objc4, libn32objc4-dbg, gfortran-4.7, gfortran-4.7-multilib, libgfortran3, libgfortran3-dbg, lib64gfortran3, lib64gfortran3-dbg, lib32gfortran3, lib32gfortran3-dbg, libn32gfortran3, libn32gfortran3-dbg, gccgo-4.7, gccgo-4.7-multilib, libgo0, libgo0-dbg, lib64go0, lib64go0-dbg, lib32go0, lib32go0-dbg, libn32go0, libn32go0-dbg, libstdc++6, lib32stdc++6, lib64stdc++6, libn32stdc++6, libstdc++6-4.7-dev, libstdc++6-4.7-pic, libstdc++6-4.7-dbg, lib32stdc++6-4.7-dbg, lib64stdc++6-4.7-dbg, libn32stdc++6-4.7-dbg, libstdc++6-4.7-doc, gcc-4.7-soft-float, fixincludes, gcc-4.7-source"
+	],
+	"Build-Conflicts": [
+		"binutils-gold"
+	],
+	"Build-Depends": [
+		"dpkg-dev (>= 1.16.0~ubuntu4), debhelper (>= 5.0.62), g++-multilib [amd64 i386 kfreebsd-amd64 mips mipsel powerpc ppc64 s390 s390x sparc], libc6.1-dev (>= 2.13-5) [alpha ia64] | libc0.3-dev (>= 2.13-5) [hurd-i386] | libc0.1-dev (>= 2.13-5) [kfreebsd-i386 kfreebsd-amd64] | libc6-dev (>= 2.13-5), libc6-dev (>= 2.13-31) [armel armhf], libc6-dev-amd64 [i386], libc6-dev-sparc64 [sparc], libc6-dev-s390 [s390x], libc6-dev-s390x [s390], libc6-dev-i386 [amd64], libc6-dev-powerpc [ppc64], libc6-dev-ppc64 [powerpc], libc0.1-dev-i386 [kfreebsd-amd64], lib32gcc1 [amd64 ppc64 kfreebsd-amd64 s390x], lib64gcc1 [i386 powerpc sparc s390], libc6-dev-mips64 [mips mipsel], libc6-dev-mipsn32 [mips mipsel], m4, libtool, autoconf2.64, automake (>= 1:1.11), automake (<< 1:1.12), libunwind7-dev (>= 0.98.5-6) [ia64], libatomic-ops-dev [ia64], zlib1g-dev, gawk, lzma, xz-utils, patchutils, binutils (>= 2.21.1) | binutils-multiarch (>= 2.21.1), binutils-hppa64 (>= 2.21.1) [hppa], gperf (>= 3.0.1), bison (>= 1:2.3), flex, gettext, texinfo (>= 4.3), locales, procps, sharutils, netbase, binutils-spu (>= 2.21.1) [powerpc ppc64], newlib-spu (>= 1.16.0) [powerpc ppc64], libcloog-ppl-dev (>= 0.15.9-2~), libmpc-dev, libmpfr-dev (>= 3.0.0-9~), libgmp-dev (>= 2:5.0.1~), libelfg0-dev (>= 0.8.12), dejagnu [!m68k !hurd-i386 !hurd-alpha], autogen, realpath (>= 1.9.12), chrpath, lsb-release, make (>= 3.81), quilt"
+	],
+	"Build-Depends-Indep": [
+		"doxygen (>= 1.7.2), graphviz (>= 2.2), gsfonts-x11, texlive-latex-base, xsltproc, libxml2-utils, docbook-xsl-ns"
+	],
+	"Checksums-Sha1": [
+		"3e9759840ef633ea917a416ed509f11af5aceedd 7661 gcc-4.7_4.7.2-5.dsc d21af5c953de348f2a3569ae7f486470ff2be0b7 63335342 gcc-4.7_4.7.2.orig.tar.gz a26742740e6bd46662ccff74bb341aeabb31a993 988683 gcc-4.7_4.7.2-5.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"8f755a0a57a3111473f859816c48f695fc2b0be0b4f0587731fa053452029caf 7661 gcc-4.7_4.7.2-5.dsc 226cc88e397a3f833400ceddd9b9af9f6093b53c2afece7dfc5b0313634c4760 63335342 gcc-4.7_4.7.2.orig.tar.gz 94beefe23dbcf9a6797cb91108c3bc12b5c43e9ee3cede94b070bb565248fe1f 988683 gcc-4.7_4.7.2-5.diff.gz"
+	],
+	"Directory": [
+		"pool/main/g/gcc-4.7"
+	],
+	"Files": [
+		"c8d2e504a8f555c02b680cae8e2f292f 7661 gcc-4.7_4.7.2-5.dsc 56227b6d71596ae1340b20475ba9bff1 63335342 gcc-4.7_4.7.2.orig.tar.gz e531f4dd3e98e0ce734d6edca362f152 988683 gcc-4.7_4.7.2-5.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Homepage": [
+		"http://gcc.gnu.org/"
+	],
+	"Maintainer": [
+		"Debian GCC Maintainers <debian-gcc@lists.debian.org>"
+	],
+	"Package": [
+		"gcc-4.7"
+	],
+	"Package-List": [
+		"cpp-4.7 deb interpreters optional fixincludes deb devel optional g++-4.7 deb devel optional g++-4.7-multilib deb devel optional g++-4.7-spu deb devel optional gcc-4.7 deb devel optional gcc-4.7-base deb libs required gcc-4.7-hppa64 deb devel optional gcc-4.7-locales deb devel optional gcc-4.7-multilib deb devel optional gcc-4.7-plugin-dev deb devel optional gcc-4.7-soft-float deb devel optional gcc-4.7-source deb devel optional gcc-4.7-spu deb devel optional gccgo-4.7 deb devel optional gccgo-4.7-multilib deb devel optional gfortran-4.7 deb devel optional gfortran-4.7-multilib deb devel optional gfortran-4.7-spu deb devel optional gobjc++-4.7 deb devel optional gobjc++-4.7-multilib deb devel optional gobjc-4.7 deb devel optional gobjc-4.7-multilib deb devel optional lib32gcc1 deb libs extra lib32gcc1-dbg deb debug extra lib32gfortran3 deb libs optional lib32gfortran3-dbg deb debug extra lib32go0 deb libs optional lib32go0-dbg deb debug extra lib32gomp1 deb libs optional lib32gomp1-dbg deb debug extra lib32itm1 deb libs optional lib32itm1-dbg deb debug extra lib32mudflap0 deb libs optional lib32mudflap0-dbg deb debug extra lib32objc4 deb libs optional lib32objc4-dbg deb debug extra lib32quadmath0 deb libs optional lib32quadmath0-dbg deb debug extra lib32stdc++6 deb libs extra lib32stdc++6-4.7-dbg deb debug extra lib64gcc1 deb libs optional lib64gcc1-dbg deb debug extra lib64gfortran3 deb libs optional lib64gfortran3-dbg deb debug extra lib64go0 deb libs optional lib64go0-dbg deb debug extra lib64gomp1 deb libs optional lib64gomp1-dbg deb debug extra lib64itm1 deb libs optional lib64itm1-dbg deb debug extra lib64mudflap0 deb libs optional lib64mudflap0-dbg deb debug extra lib64objc4 deb libs optional lib64objc4-dbg deb debug extra lib64quadmath0 deb libs optional lib64quadmath0-dbg deb debug extra lib64stdc++6 deb libs optional lib64stdc++6-4.7-dbg deb debug extra libgcc1 deb libs required libgcc1-dbg deb debug extra libgcc2 deb libs required libgcc2-dbg deb debug extra libgcc4 deb libs required libgcc4-dbg deb debug extra libgfortran3 deb libs optional libgfortran3-dbg deb debug extra libgo0 deb libs optional libgo0-dbg deb debug extra libgomp1 deb libs optional libgomp1-dbg deb debug extra libitm1 deb libs optional libitm1-dbg deb debug extra libmudflap0 deb libs optional libmudflap0-4.7-dev deb libdevel optional libmudflap0-dbg deb debug extra libn32gcc1 deb libs optional libn32gcc1-dbg deb debug extra libn32gfortran3 deb libs optional libn32gfortran3-dbg deb debug extra libn32go0 deb libs optional libn32go0-dbg deb debug extra libn32gomp1 deb libs optional libn32gomp1-dbg deb debug extra libn32itm1 deb libs optional libn32itm1-dbg deb debug extra libn32mudflap0 deb libs optional libn32mudflap0-dbg deb debug extra libn32objc4 deb libs optional libn32objc4-dbg deb debug extra libn32quadmath0 deb libs optional libn32quadmath0-dbg deb debug extra libn32stdc++6 deb libs optional libn32stdc++6-4.7-dbg deb debug extra libobjc4 deb libs optional libobjc4-dbg deb debug extra libquadmath0 deb libs optional libquadmath0-dbg deb debug extra libstdc++6 deb libs important libstdc++6-4.7-dbg deb debug extra libstdc++6-4.7-dev deb libdevel optional libstdc++6-4.7-doc deb doc optional libstdc++6-4.7-pic deb libdevel extra"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"devel"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Matthias Klose <doko@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://svn.debian.org/viewsvn/gcccvs/branches/sid/gcc-4.7/"
+	],
+	"Vcs-Svn": [
+		"svn://svn.debian.org/svn/gcccvs/branches/sid/gcc-4.7"
+	],
+	"Version": [
+		"4.7.2-5"
+	]
 }

@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "linux-any kfreebsd-any"
-  ],
-  "Binary": [
-    "hostapd, wpagui, wpasupplicant, wpasupplicant-udeb"
-  ],
-  "Build-Depends": [
-    "debhelper (>> 9.20120115), libdbus-1-dev, libssl1.0-dev, libqt4-dev, libncurses5-dev, libpcsclite-dev, libnl-3-dev [linux-any], libnl-genl-3-dev [linux-any], libnl-route-3-dev [linux-any], libpcap-dev [kfreebsd-any], libbsd-dev [kfreebsd-any], libreadline-dev, pkg-config, qt4-qmake, docbook-to-man, docbook-utils"
-  ],
-  "Checksums-Sha256": [
-    "372b3ca96776be9224c88a0a03e42969470a0f0652d8753b592a431c3dc168b1 2304 wpa_2.4-1+deb9u6.dsc a1e4eda50796b2234a6cd2f00748bbe09f38f3f621919187289162faeb50b6b8 1834600 wpa_2.4.orig.tar.xz d0125627c8b22c29d3e5318e885d7dce0e2fba4a140821ae1002f62984473002 101412 wpa_2.4-1+deb9u6.debian.tar.xz"
-  ],
-  "Dgit": [
-    "c5eb7e8bd840057b74d1111791c4a125180f8bfd debian archive/debian/2%2.4-1+deb9u6 https://git.dgit.debian.org/wpa"
-  ],
-  "Directory": [
-    "pool/main/w/wpa"
-  ],
-  "Files": [
-    "0203579cb117255e9333d430aaf2596c 2304 wpa_2.4-1+deb9u6.dsc 6a77b9fe6838b4fca9b92cb22e14de1d 1834600 wpa_2.4.orig.tar.xz 1dabc64d9bb0cb6f6d8aa4b0a7bcd8c3 101412 wpa_2.4-1+deb9u6.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://w1.fi/wpa_supplicant/"
-  ],
-  "Maintainer": [
-    "Debian wpasupplicant Maintainers <pkg-wpa-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "wpa"
-  ],
-  "Package-List": [
-    "hostapd deb net optional arch=linux-any,kfreebsd-any wpagui deb net optional arch=linux-any,kfreebsd-any wpasupplicant deb net optional arch=linux-any,kfreebsd-any wpasupplicant-udeb udeb debian-installer standard arch=linux-any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Stefan Lippers-Hollmann <s.l-h@gmx.de>, Jan Dittberner <jandd@debian.org>, Andrew Shadura <andrewsh@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/collab-maint/wpa.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/collab-maint/wpa.git"
-  ],
-  "Version": [
-    "2:2.4-1+deb9u6"
-  ]
+	"Architecture": [
+		"linux-any kfreebsd-any"
+	],
+	"Binary": [
+		"hostapd, wpagui, wpasupplicant, wpasupplicant-udeb"
+	],
+	"Build-Depends": [
+		"debhelper (>> 9.20120115), libdbus-1-dev, libssl1.0-dev, libqt4-dev, libncurses5-dev, libpcsclite-dev, libnl-3-dev [linux-any], libnl-genl-3-dev [linux-any], libnl-route-3-dev [linux-any], libpcap-dev [kfreebsd-any], libbsd-dev [kfreebsd-any], libreadline-dev, pkg-config, qt4-qmake, docbook-to-man, docbook-utils"
+	],
+	"Checksums-Sha256": [
+		"372b3ca96776be9224c88a0a03e42969470a0f0652d8753b592a431c3dc168b1 2304 wpa_2.4-1+deb9u6.dsc a1e4eda50796b2234a6cd2f00748bbe09f38f3f621919187289162faeb50b6b8 1834600 wpa_2.4.orig.tar.xz d0125627c8b22c29d3e5318e885d7dce0e2fba4a140821ae1002f62984473002 101412 wpa_2.4-1+deb9u6.debian.tar.xz"
+	],
+	"Dgit": [
+		"c5eb7e8bd840057b74d1111791c4a125180f8bfd debian archive/debian/2%2.4-1+deb9u6 https://git.dgit.debian.org/wpa"
+	],
+	"Directory": [
+		"pool/main/w/wpa"
+	],
+	"Files": [
+		"0203579cb117255e9333d430aaf2596c 2304 wpa_2.4-1+deb9u6.dsc 6a77b9fe6838b4fca9b92cb22e14de1d 1834600 wpa_2.4.orig.tar.xz 1dabc64d9bb0cb6f6d8aa4b0a7bcd8c3 101412 wpa_2.4-1+deb9u6.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://w1.fi/wpa_supplicant/"
+	],
+	"Maintainer": [
+		"Debian wpasupplicant Maintainers <pkg-wpa-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"wpa"
+	],
+	"Package-List": [
+		"hostapd deb net optional arch=linux-any,kfreebsd-any wpagui deb net optional arch=linux-any,kfreebsd-any wpasupplicant deb net optional arch=linux-any,kfreebsd-any wpasupplicant-udeb udeb debian-installer standard arch=linux-any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Stefan Lippers-Hollmann <s.l-h@gmx.de>, Jan Dittberner <jandd@debian.org>, Andrew Shadura <andrewsh@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/collab-maint/wpa.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/collab-maint/wpa.git"
+	],
+	"Version": [
+		"2:2.4-1+deb9u6"
+	]
 }

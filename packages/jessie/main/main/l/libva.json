@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "libva-dev, libva1, libva-x11-1, libva-glx1, libva-tpi1, libva-egl1, libva-drm1, libva-wayland1, vainfo, va-driver-all"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-autoreconf, automake (>= 1:1.3.2), libdrm-dev, libegl1-mesa-dev, libgl1-mesa-dev | libgl-dev, libwayland-dev (>= 1.0.0) [linux-any], libx11-dev, libxext-dev, libxfixes-dev, pkg-config"
-  ],
-  "Checksums-Sha1": [
-    "6a588f146a7f25fa9ddd9be5f5fd80ab91b8019f 2667 libva_1.4.1-1.dsc 23415d5ad50725ac1d1b7d64401f776c13c305ae 761421 libva_1.4.1.orig.tar.bz2 3d1a8dd92c79a32cee8e4dfaf3a17966178f2e72 11236 libva_1.4.1-1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "9936536572ef99748d004fe51c7360d5d8bf4ff4f816cd76b084228f5cfba7bc 2667 libva_1.4.1-1.dsc 0662af0ecdf1cfd2bb47e86f5bf66009554fe12ce7bf5b9cec6a2cc43f3f4c11 761421 libva_1.4.1.orig.tar.bz2 e15b5e40e9aaf879f9215d42b458cf92a974b370c1fd57067742860fa0ac0cac 11236 libva_1.4.1-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/libv/libva"
-  ],
-  "Files": [
-    "a14767363fa6ddc6975cf565ffb3dd48 2667 libva_1.4.1-1.dsc 8e3e7096750c14d1f98da807df7c1ba5 761421 libva_1.4.1.orig.tar.bz2 095e52cd8022d94a055a638df9f238b4 11236 libva_1.4.1-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.freedesktop.org/wiki/Software/vaapi"
-  ],
-  "Maintainer": [
-    "Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "libva"
-  ],
-  "Package-List": [
-    "libva-dev deb libdevel optional arch=any libva-drm1 deb libs optional arch=any libva-egl1 deb libs optional arch=any libva-glx1 deb libs optional arch=any libva-tpi1 deb libs optional arch=any libva-wayland1 deb libs optional arch=linux-any libva-x11-1 deb libs optional arch=any libva1 deb libs optional arch=any va-driver-all deb video optional arch=any vainfo deb utils optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "libs"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Reinhard Tartler <siretart@tauware.de>, Matteo F. Vescovi <mfvescovi@gmail.com>, Sebastian Ramacher <sramacher@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-multimedia/libva.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-multimedia/libva.git"
-  ],
-  "Version": [
-    "1.4.1-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"libva-dev, libva1, libva-x11-1, libva-glx1, libva-tpi1, libva-egl1, libva-drm1, libva-wayland1, vainfo, va-driver-all"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-autoreconf, automake (>= 1:1.3.2), libdrm-dev, libegl1-mesa-dev, libgl1-mesa-dev | libgl-dev, libwayland-dev (>= 1.0.0) [linux-any], libx11-dev, libxext-dev, libxfixes-dev, pkg-config"
+	],
+	"Checksums-Sha1": [
+		"6a588f146a7f25fa9ddd9be5f5fd80ab91b8019f 2667 libva_1.4.1-1.dsc 23415d5ad50725ac1d1b7d64401f776c13c305ae 761421 libva_1.4.1.orig.tar.bz2 3d1a8dd92c79a32cee8e4dfaf3a17966178f2e72 11236 libva_1.4.1-1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"9936536572ef99748d004fe51c7360d5d8bf4ff4f816cd76b084228f5cfba7bc 2667 libva_1.4.1-1.dsc 0662af0ecdf1cfd2bb47e86f5bf66009554fe12ce7bf5b9cec6a2cc43f3f4c11 761421 libva_1.4.1.orig.tar.bz2 e15b5e40e9aaf879f9215d42b458cf92a974b370c1fd57067742860fa0ac0cac 11236 libva_1.4.1-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/libv/libva"
+	],
+	"Files": [
+		"a14767363fa6ddc6975cf565ffb3dd48 2667 libva_1.4.1-1.dsc 8e3e7096750c14d1f98da807df7c1ba5 761421 libva_1.4.1.orig.tar.bz2 095e52cd8022d94a055a638df9f238b4 11236 libva_1.4.1-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.freedesktop.org/wiki/Software/vaapi"
+	],
+	"Maintainer": [
+		"Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"libva"
+	],
+	"Package-List": [
+		"libva-dev deb libdevel optional arch=any libva-drm1 deb libs optional arch=any libva-egl1 deb libs optional arch=any libva-glx1 deb libs optional arch=any libva-tpi1 deb libs optional arch=any libva-wayland1 deb libs optional arch=linux-any libva-x11-1 deb libs optional arch=any libva1 deb libs optional arch=any va-driver-all deb video optional arch=any vainfo deb utils optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"libs"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Reinhard Tartler <siretart@tauware.de>, Matteo F. Vescovi <mfvescovi@gmail.com>, Sebastian Ramacher <sramacher@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-multimedia/libva.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-multimedia/libva.git"
+	],
+	"Version": [
+		"1.4.1-1"
+	]
 }

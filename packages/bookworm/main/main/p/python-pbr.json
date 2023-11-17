@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-pbr-doc, python3-pbr"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 10), dh-python, git, gnupg, openstack-pkg-tools, python3-all, python3-setuptools, python3-sphinx <!nodoc>"
-  ],
-  "Build-Depends-Indep": [
-    "python3-all-dev <!nocheck>, python3-coverage <!nocheck>, python3-fixtures <!nocheck>, python3-markupsafe <!nocheck>, python3-mock <!nocheck>, python3-openstackdocstheme <!nocheck>, python3-pip <!nocheck>, python3-six <!nocheck>, python3-sphinxcontrib.apidoc <!nodoc>, python3-stestr <!nocheck>, python3-testresources <!nocheck>, python3-testscenarios <!nocheck>, python3-testtools <!nocheck>, python3-virtualenv (>= 20.0) <!nocheck>, python3-wheel <!nocheck>, subunit <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "3eb3e90d7eff60a4db83f8a2f4c7ab5c6bf6ffa09164f503afa84d0149075f31 2727 python-pbr_5.10.0-2.dsc c6da634b00436bb663e02b9161c460c1c6e0d37826fac49b6ce4ffcaf04ba6af 84808 python-pbr_5.10.0.orig.tar.xz 0394722c1439f1aef5e0f4e8abcc8e0d41658579e05b5b2f23ab008be41ff06f 8376 python-pbr_5.10.0-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/python-pbr"
-  ],
-  "Files": [
-    "78a79ef962962fa1aa21fb7f2777860d 2727 python-pbr_5.10.0-2.dsc 6400a7b6812185d92fb7c9462353940a 84808 python-pbr_5.10.0.orig.tar.xz e43a6cda99bf35c99f90452ba28b09de 8376 python-pbr_5.10.0-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://pypi.python.org/pypi/pbr"
-  ],
-  "Maintainer": [
-    "Debian OpenStack <team+openstack@tracker.debian.org>"
-  ],
-  "Package": [
-    "python-pbr"
-  ],
-  "Package-List": [
-    "python-pbr-doc deb doc optional arch=all python3-pbr deb python optional arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.4.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "@builddeps@, python3-pip, python3-virtualenv"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>, Prach Pongpanich <prachpub@gmail.com>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/openstack-team/libs/python-pbr"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/openstack-team/libs/python-pbr.git"
-  ],
-  "Version": [
-    "5.10.0-2"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-pbr-doc, python3-pbr"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 10), dh-python, git, gnupg, openstack-pkg-tools, python3-all, python3-setuptools, python3-sphinx <!nodoc>"
+	],
+	"Build-Depends-Indep": [
+		"python3-all-dev <!nocheck>, python3-coverage <!nocheck>, python3-fixtures <!nocheck>, python3-markupsafe <!nocheck>, python3-mock <!nocheck>, python3-openstackdocstheme <!nocheck>, python3-pip <!nocheck>, python3-six <!nocheck>, python3-sphinxcontrib.apidoc <!nodoc>, python3-stestr <!nocheck>, python3-testresources <!nocheck>, python3-testscenarios <!nocheck>, python3-testtools <!nocheck>, python3-virtualenv (>= 20.0) <!nocheck>, python3-wheel <!nocheck>, subunit <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"3eb3e90d7eff60a4db83f8a2f4c7ab5c6bf6ffa09164f503afa84d0149075f31 2727 python-pbr_5.10.0-2.dsc c6da634b00436bb663e02b9161c460c1c6e0d37826fac49b6ce4ffcaf04ba6af 84808 python-pbr_5.10.0.orig.tar.xz 0394722c1439f1aef5e0f4e8abcc8e0d41658579e05b5b2f23ab008be41ff06f 8376 python-pbr_5.10.0-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-pbr"
+	],
+	"Files": [
+		"78a79ef962962fa1aa21fb7f2777860d 2727 python-pbr_5.10.0-2.dsc 6400a7b6812185d92fb7c9462353940a 84808 python-pbr_5.10.0.orig.tar.xz e43a6cda99bf35c99f90452ba28b09de 8376 python-pbr_5.10.0-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://pypi.python.org/pypi/pbr"
+	],
+	"Maintainer": [
+		"Debian OpenStack <team+openstack@tracker.debian.org>"
+	],
+	"Package": [
+		"python-pbr"
+	],
+	"Package-List": [
+		"python-pbr-doc deb doc optional arch=all python3-pbr deb python optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.4.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"@builddeps@, python3-pip, python3-virtualenv"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>, Prach Pongpanich <prachpub@gmail.com>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/openstack-team/libs/python-pbr"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/openstack-team/libs/python-pbr.git"
+	],
+	"Version": [
+		"5.10.0-2"
+	]
 }

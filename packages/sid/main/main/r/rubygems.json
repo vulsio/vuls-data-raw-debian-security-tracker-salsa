@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "ruby-rubygems, ruby-bundler, bundler"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), gem2deb (>= 1), rake, ruby, ruby-dev, ruby-test-unit (>= 3.3.9~), ruby-webrick (>= 1.7.0)"
-  ],
-  "Checksums-Sha256": [
-    "30f01c5132f173d51252262cf188afee7d930d7a3a89881122b3cfa463c7e04c 2263 rubygems_3.4.20-1.dsc a675cfb9759c7842e9e27d78654bbf876dc061b740d73f302cc63b4181a8a236 15043337 rubygems_3.4.20.orig.tar.gz 0490e77879c8472310fc2e3d264e92af947bf88b374de2c13b021cf43f20adc1 9340 rubygems_3.4.20-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rubygems"
-  ],
-  "Files": [
-    "b11306d059065b71c50a489f658a8c5c 2263 rubygems_3.4.20-1.dsc 55f7524beb40d5079a629bd5fb6e5d76 15043337 rubygems_3.4.20.orig.tar.gz d72eeb50a388a3a036ffe3603fae5f64 9340 rubygems_3.4.20-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://rubygems.org"
-  ],
-  "Maintainer": [
-    "Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "rubygems"
-  ],
-  "Package-List": [
-    "bundler deb ruby optional arch=all ruby-bundler deb ruby optional arch=all ruby-rubygems deb ruby optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Ruby-Versions": [
-    "all"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest, autopkgtest-pkg-ruby"
-  ],
-  "Testsuite-Triggers": [
-    "@builddeps@, build-essential, libxml2-dev, libyaml-dev, libz-dev"
-  ],
-  "Uploaders": [
-    "Lucas Kanashiro <kanashiro@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/ruby-team/rubygems"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/ruby-team/rubygems.git"
-  ],
-  "Version": [
-    "3.4.20-1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"ruby-rubygems, ruby-bundler, bundler"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), gem2deb (>= 1), rake, ruby, ruby-dev, ruby-test-unit (>= 3.3.9~), ruby-webrick (>= 1.7.0)"
+	],
+	"Checksums-Sha256": [
+		"30f01c5132f173d51252262cf188afee7d930d7a3a89881122b3cfa463c7e04c 2263 rubygems_3.4.20-1.dsc a675cfb9759c7842e9e27d78654bbf876dc061b740d73f302cc63b4181a8a236 15043337 rubygems_3.4.20.orig.tar.gz 0490e77879c8472310fc2e3d264e92af947bf88b374de2c13b021cf43f20adc1 9340 rubygems_3.4.20-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rubygems"
+	],
+	"Files": [
+		"b11306d059065b71c50a489f658a8c5c 2263 rubygems_3.4.20-1.dsc 55f7524beb40d5079a629bd5fb6e5d76 15043337 rubygems_3.4.20.orig.tar.gz d72eeb50a388a3a036ffe3603fae5f64 9340 rubygems_3.4.20-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://rubygems.org"
+	],
+	"Maintainer": [
+		"Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"rubygems"
+	],
+	"Package-List": [
+		"bundler deb ruby optional arch=all ruby-bundler deb ruby optional arch=all ruby-rubygems deb ruby optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Ruby-Versions": [
+		"all"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest, autopkgtest-pkg-ruby"
+	],
+	"Testsuite-Triggers": [
+		"@builddeps@, build-essential, libxml2-dev, libyaml-dev, libz-dev"
+	],
+	"Uploaders": [
+		"Lucas Kanashiro <kanashiro@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/ruby-team/rubygems"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/ruby-team/rubygems.git"
+	],
+	"Version": [
+		"3.4.20-1"
+	]
 }

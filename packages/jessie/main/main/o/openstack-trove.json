@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-trove, trove-common, trove-api, trove-guestagent, trove-taskmanager, trove-conductor, trove-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-systemd, openstack-pkg-tools (>= 22~), po-debconf, python-all (>= 2.6.6-3~), python-pbr (>= 0.6), python-setuptools, python-sphinx"
-  ],
-  "Build-Depends-Indep": [
-    "python-babel (>= 1.3), python-cinderclient (>= 1:1.0.6), python-coverage (>= 3.6), python-designateclient, python-eventlet (>= 0.13.0), python-extras, python-hacking (>= 0.8.0), python-heatclient (>= 0.2.3), python-httplib2 (>= 0.7.5), python-iso8601 (>= 0.1.9), python-jinja2, python-jsonschema (>= 2.0.0), python-keystoneclient (>= 1:0.7.0), python-kombu (>= 2.5), python-lxml, python-migrate (>= 0.8.2), python-mock (>= 1.0), python-mox, python-mysqldb, python-netaddr (>= 0.7.6), python-nose, python-nosexcover, python-novaclient (>= 2:2.17.0), python-openstack.nose-plugin, python-oslo.config (>= 1:1.2.1), python-passlib, python-paste, python-pastedeploy, python-pexpect (>= 3.1), python-proboscis, python-routes, python-sqlalchemy, python-swiftclient (>= 1:2.0.2), python-testtools (>= 0.9.34), python-troveclient, python-webob (>= 1.2.3), python-webtest (>= 2.0), python-wsgi-intercept, subunit (>= 0.0.18), testrepository (>= 0.0.18)"
-  ],
-  "Checksums-Sha1": [
-    "a9778508fea7e66c8c40897454199885b1324062 3476 openstack-trove_2014.1.3-8.dsc a0c8fea36ff6c12212ab078e06da6f81f4681e99 936280 openstack-trove_2014.1.3.orig.tar.xz a150f8f8ec97331c60a459cf52d526e33aff0982 23720 openstack-trove_2014.1.3-8.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "e70dbba65a389f7416d1baf39444318589eb72ecd03f5a1d031ec79d58268e55 3476 openstack-trove_2014.1.3-8.dsc 85289ca85ee988555455a9af4ada1d88f4b817b5a2cd6cea45222fc00e618edb 936280 openstack-trove_2014.1.3.orig.tar.xz c6291565f63643bfed68b5d2e000d7961ee86aeaf0e5acd866e7464e144dbcc1 23720 openstack-trove_2014.1.3-8.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/o/openstack-trove"
-  ],
-  "Files": [
-    "33b09d79e1b6c61daae25265572335ba 3476 openstack-trove_2014.1.3-8.dsc 5eaa27d87e70f85f6e7472e91eadd896 936280 openstack-trove_2014.1.3.orig.tar.xz dca0cedbb41e3f7fd0916e41030912df 23720 openstack-trove_2014.1.3-8.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://github.com/openstack/trove"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "openstack-trove"
-  ],
-  "Package-List": [
-    "python-trove deb python extra arch=all trove-api deb net extra arch=all trove-common deb net extra arch=all trove-conductor deb net extra arch=all trove-doc deb doc extra arch=all trove-guestagent deb net extra arch=all trove-taskmanager deb net extra arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Julien Danjou <acid@debian.org>, Thomas Goirand <zigo@debian.org>, Mehdi Abaakouk <sileht@sileht.net>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=openstack/openstack-trove.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/openstack/openstack-trove.git"
-  ],
-  "Version": [
-    "2014.1.3-8"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-trove, trove-common, trove-api, trove-guestagent, trove-taskmanager, trove-conductor, trove-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-systemd, openstack-pkg-tools (>= 22~), po-debconf, python-all (>= 2.6.6-3~), python-pbr (>= 0.6), python-setuptools, python-sphinx"
+	],
+	"Build-Depends-Indep": [
+		"python-babel (>= 1.3), python-cinderclient (>= 1:1.0.6), python-coverage (>= 3.6), python-designateclient, python-eventlet (>= 0.13.0), python-extras, python-hacking (>= 0.8.0), python-heatclient (>= 0.2.3), python-httplib2 (>= 0.7.5), python-iso8601 (>= 0.1.9), python-jinja2, python-jsonschema (>= 2.0.0), python-keystoneclient (>= 1:0.7.0), python-kombu (>= 2.5), python-lxml, python-migrate (>= 0.8.2), python-mock (>= 1.0), python-mox, python-mysqldb, python-netaddr (>= 0.7.6), python-nose, python-nosexcover, python-novaclient (>= 2:2.17.0), python-openstack.nose-plugin, python-oslo.config (>= 1:1.2.1), python-passlib, python-paste, python-pastedeploy, python-pexpect (>= 3.1), python-proboscis, python-routes, python-sqlalchemy, python-swiftclient (>= 1:2.0.2), python-testtools (>= 0.9.34), python-troveclient, python-webob (>= 1.2.3), python-webtest (>= 2.0), python-wsgi-intercept, subunit (>= 0.0.18), testrepository (>= 0.0.18)"
+	],
+	"Checksums-Sha1": [
+		"a9778508fea7e66c8c40897454199885b1324062 3476 openstack-trove_2014.1.3-8.dsc a0c8fea36ff6c12212ab078e06da6f81f4681e99 936280 openstack-trove_2014.1.3.orig.tar.xz a150f8f8ec97331c60a459cf52d526e33aff0982 23720 openstack-trove_2014.1.3-8.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"e70dbba65a389f7416d1baf39444318589eb72ecd03f5a1d031ec79d58268e55 3476 openstack-trove_2014.1.3-8.dsc 85289ca85ee988555455a9af4ada1d88f4b817b5a2cd6cea45222fc00e618edb 936280 openstack-trove_2014.1.3.orig.tar.xz c6291565f63643bfed68b5d2e000d7961ee86aeaf0e5acd866e7464e144dbcc1 23720 openstack-trove_2014.1.3-8.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/o/openstack-trove"
+	],
+	"Files": [
+		"33b09d79e1b6c61daae25265572335ba 3476 openstack-trove_2014.1.3-8.dsc 5eaa27d87e70f85f6e7472e91eadd896 936280 openstack-trove_2014.1.3.orig.tar.xz dca0cedbb41e3f7fd0916e41030912df 23720 openstack-trove_2014.1.3-8.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://github.com/openstack/trove"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"openstack-trove"
+	],
+	"Package-List": [
+		"python-trove deb python extra arch=all trove-api deb net extra arch=all trove-common deb net extra arch=all trove-conductor deb net extra arch=all trove-doc deb doc extra arch=all trove-guestagent deb net extra arch=all trove-taskmanager deb net extra arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Julien Danjou <acid@debian.org>, Thomas Goirand <zigo@debian.org>, Mehdi Abaakouk <sileht@sileht.net>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=openstack/openstack-trove.git;a=summary"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/openstack/openstack-trove.git"
+	],
+	"Version": [
+		"2014.1.3-8"
+	]
 }

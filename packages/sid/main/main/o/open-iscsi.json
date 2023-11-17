@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "linux-any all"
-  ],
-  "Binary": [
-    "open-iscsi, libopeniscsiusr, libopeniscsiusr-dev, iscsiuio, open-iscsi-udeb"
-  ],
-  "Build-Depends": [
-    "bison, bzip2, debhelper-compat (= 13), dh-exec, flex, libisns-dev, libmount-dev, pkg-config, libkmod-dev, libsystemd-dev, libssl-dev"
-  ],
-  "Checksums-Sha256": [
-    "6e1e1f393cb00808479cafcbdc88ebdc2c4aa51440c395e4554a53ed353f50de 2565 open-iscsi_2.1.9-1.dsc 60e2a1e3058a8af7f702e86a5a0511b05b8754d29d3d2df4e0e301399b5cf70a 641974 open-iscsi_2.1.9.orig.tar.gz ef99d33a76b87476d97e2482eaa6a28aaccc7df0c47a34eba692941a7cf52273 57484 open-iscsi_2.1.9-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/o/open-iscsi"
-  ],
-  "Files": [
-    "d1e1f06073bda1eade0cbbe57f856aeb 2565 open-iscsi_2.1.9-1.dsc 4732b0413891014bc4730209425df0d4 641974 open-iscsi_2.1.9.orig.tar.gz 0439059aa5dbf5d8ded0579e2994bde7 57484 open-iscsi_2.1.9-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.open-iscsi.com/"
-  ],
-  "Maintainer": [
-    "Debian iSCSI Maintainers <open-iscsi@packages.debian.org>"
-  ],
-  "Package": [
-    "open-iscsi"
-  ],
-  "Package-List": [
-    "iscsiuio deb net optional arch=linux-any libopeniscsiusr deb net optional arch=linux-any libopeniscsiusr-dev deb net optional arch=all open-iscsi deb net optional arch=linux-any open-iscsi-udeb udeb debian-installer optional arch=amd64,arm64,armhf,i386,ia64,mips,mipsel,powerpc,ppc64,ppc64el,s390x"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "4.5.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "python3, python3-netifaces, qemu-system, qemu-utils, targetcli-fb"
-  ],
-  "Uploaders": [
-    "Ritesh Raj Sarraf <rrs@debian.org>, Christian Seiler <christian@iwakd.de>, Chris Hofstaedtler <zeha@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/linux-blocks-team/open-iscsi"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/linux-blocks-team/open-iscsi.git"
-  ],
-  "Version": [
-    "2.1.9-1"
-  ]
+	"Architecture": [
+		"linux-any all"
+	],
+	"Binary": [
+		"open-iscsi, libopeniscsiusr, libopeniscsiusr-dev, iscsiuio, open-iscsi-udeb"
+	],
+	"Build-Depends": [
+		"bison, bzip2, debhelper-compat (= 13), dh-exec, flex, libisns-dev, libmount-dev, pkg-config, libkmod-dev, libsystemd-dev, libssl-dev"
+	],
+	"Checksums-Sha256": [
+		"6e1e1f393cb00808479cafcbdc88ebdc2c4aa51440c395e4554a53ed353f50de 2565 open-iscsi_2.1.9-1.dsc 60e2a1e3058a8af7f702e86a5a0511b05b8754d29d3d2df4e0e301399b5cf70a 641974 open-iscsi_2.1.9.orig.tar.gz ef99d33a76b87476d97e2482eaa6a28aaccc7df0c47a34eba692941a7cf52273 57484 open-iscsi_2.1.9-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/o/open-iscsi"
+	],
+	"Files": [
+		"d1e1f06073bda1eade0cbbe57f856aeb 2565 open-iscsi_2.1.9-1.dsc 4732b0413891014bc4730209425df0d4 641974 open-iscsi_2.1.9.orig.tar.gz 0439059aa5dbf5d8ded0579e2994bde7 57484 open-iscsi_2.1.9-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.open-iscsi.com/"
+	],
+	"Maintainer": [
+		"Debian iSCSI Maintainers <open-iscsi@packages.debian.org>"
+	],
+	"Package": [
+		"open-iscsi"
+	],
+	"Package-List": [
+		"iscsiuio deb net optional arch=linux-any libopeniscsiusr deb net optional arch=linux-any libopeniscsiusr-dev deb net optional arch=all open-iscsi deb net optional arch=linux-any open-iscsi-udeb udeb debian-installer optional arch=amd64,arm64,armhf,i386,ia64,mips,mipsel,powerpc,ppc64,ppc64el,s390x"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"4.5.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"python3, python3-netifaces, qemu-system, qemu-utils, targetcli-fb"
+	],
+	"Uploaders": [
+		"Ritesh Raj Sarraf <rrs@debian.org>, Christian Seiler <christian@iwakd.de>, Chris Hofstaedtler <zeha@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/linux-blocks-team/open-iscsi"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/linux-blocks-team/open-iscsi.git"
+	],
+	"Version": [
+		"2.1.9-1"
+	]
 }

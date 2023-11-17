@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-senlin, senlin-common, senlin-api, senlin-engine, senlin-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-python, dh-systemd, openstack-pkg-tools (>= 40~), po-debconf, python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx"
-  ],
-  "Build-Depends-Indep": [
-    "git, python-babel, python-coverage, python-eventlet (>= 0.18.4), python-hacking, python-keystonemiddleware (>= 4.0.0), python-migrate (>= 0.9.6), python-mock (>= 1.3), python-mox, python-mox3 (>= 0.7.0), python-openstackdocstheme (>= 1.0.3), python-openstacksdk (>= 0.8.1), python-os-testr (>= 0.4.1), python-oslo.config (>= 3.7.0), python-oslo.context (>= 0.2.0), python-oslo.db (>= 4.1.0), python-oslo.i18n (>= 2.1.0), python-oslo.log (>= 1.14.0), python-oslo.messaging (>= 4.0.0), python-oslo.middleware (>= 3.0.0), python-oslo.policy (>= 0.5.0), python-oslo.serialization (>= 1.10.0), python-oslo.service (>= 1.0.0), python-oslo.utils (>= 3.5.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1.10.0), python-paramiko (>= 1.13.0), python-pastedeploy (>= 1.5.0), python-pymysql, python-qpid, python-reno, python-requests (>= 2.8.1), python-routes, python-six (>= 1.9.0), python-sqlalchemy (>= 1.0.10), python-stevedore (>= 1.5.0), python-testscenarios, python-testtools (>= 1.4.0), python-tz, python-webob (>= 1.2.3), python-yaml (>= 3.1.0), subunit, testrepository"
-  ],
-  "Checksums-Sha1": [
-    "66198faffdc3575a40bfd172e99efc1a5ddc58d0 3341 senlin_1.0.0-2~bpo8+1.dsc 1a3c7732891a18562abe79129223bde9b9a9a540 297544 senlin_1.0.0.orig.tar.xz c7a8cee2695a96a690c6e5196e2d457d54780097 25892 senlin_1.0.0-2~bpo8+1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "ea0f70a62b6ad3fc1172f2d49898f02e0354511eb3a79b12ab29afd0161f75f6 3341 senlin_1.0.0-2~bpo8+1.dsc 766ac759cc531f6e5887cb225c204d374ca2c54251f03029aef90a280a20f62a 297544 senlin_1.0.0.orig.tar.xz 23ddaff6f7defb97edbd992dd7e9f4d60490370dd82399f7a2c2e8a123a8f6dd 25892 senlin_1.0.0-2~bpo8+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/s/senlin"
-  ],
-  "Files": [
-    "0818402a002100b3c8be58352959df1d 3341 senlin_1.0.0-2~bpo8+1.dsc d4cf73ae6845f1e3871976c8f3c54974 297544 senlin_1.0.0.orig.tar.xz fa55209eab2a9b39cb6b407082cc9a87 25892 senlin_1.0.0-2~bpo8+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/stackforge/senlin"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "senlin"
-  ],
-  "Package-List": [
-    "python-senlin deb python extra arch=all senlin-api deb net extra arch=all senlin-common deb net extra arch=all senlin-doc deb doc extra arch=all senlin-engine deb net extra arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/openstack/senlin.git/"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/openstack/senlin.git"
-  ],
-  "Version": [
-    "1.0.0-2~bpo8+1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-senlin, senlin-common, senlin-api, senlin-engine, senlin-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-python, dh-systemd, openstack-pkg-tools (>= 40~), po-debconf, python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx"
+	],
+	"Build-Depends-Indep": [
+		"git, python-babel, python-coverage, python-eventlet (>= 0.18.4), python-hacking, python-keystonemiddleware (>= 4.0.0), python-migrate (>= 0.9.6), python-mock (>= 1.3), python-mox, python-mox3 (>= 0.7.0), python-openstackdocstheme (>= 1.0.3), python-openstacksdk (>= 0.8.1), python-os-testr (>= 0.4.1), python-oslo.config (>= 3.7.0), python-oslo.context (>= 0.2.0), python-oslo.db (>= 4.1.0), python-oslo.i18n (>= 2.1.0), python-oslo.log (>= 1.14.0), python-oslo.messaging (>= 4.0.0), python-oslo.middleware (>= 3.0.0), python-oslo.policy (>= 0.5.0), python-oslo.serialization (>= 1.10.0), python-oslo.service (>= 1.0.0), python-oslo.utils (>= 3.5.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1.10.0), python-paramiko (>= 1.13.0), python-pastedeploy (>= 1.5.0), python-pymysql, python-qpid, python-reno, python-requests (>= 2.8.1), python-routes, python-six (>= 1.9.0), python-sqlalchemy (>= 1.0.10), python-stevedore (>= 1.5.0), python-testscenarios, python-testtools (>= 1.4.0), python-tz, python-webob (>= 1.2.3), python-yaml (>= 3.1.0), subunit, testrepository"
+	],
+	"Checksums-Sha1": [
+		"66198faffdc3575a40bfd172e99efc1a5ddc58d0 3341 senlin_1.0.0-2~bpo8+1.dsc 1a3c7732891a18562abe79129223bde9b9a9a540 297544 senlin_1.0.0.orig.tar.xz c7a8cee2695a96a690c6e5196e2d457d54780097 25892 senlin_1.0.0-2~bpo8+1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"ea0f70a62b6ad3fc1172f2d49898f02e0354511eb3a79b12ab29afd0161f75f6 3341 senlin_1.0.0-2~bpo8+1.dsc 766ac759cc531f6e5887cb225c204d374ca2c54251f03029aef90a280a20f62a 297544 senlin_1.0.0.orig.tar.xz 23ddaff6f7defb97edbd992dd7e9f4d60490370dd82399f7a2c2e8a123a8f6dd 25892 senlin_1.0.0-2~bpo8+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/s/senlin"
+	],
+	"Files": [
+		"0818402a002100b3c8be58352959df1d 3341 senlin_1.0.0-2~bpo8+1.dsc d4cf73ae6845f1e3871976c8f3c54974 297544 senlin_1.0.0.orig.tar.xz fa55209eab2a9b39cb6b407082cc9a87 25892 senlin_1.0.0-2~bpo8+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/stackforge/senlin"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"senlin"
+	],
+	"Package-List": [
+		"python-senlin deb python extra arch=all senlin-api deb net extra arch=all senlin-common deb net extra arch=all senlin-doc deb doc extra arch=all senlin-engine deb net extra arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/openstack/senlin.git/"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/openstack/senlin.git"
+	],
+	"Version": [
+		"1.0.0-2~bpo8+1"
+	]
 }

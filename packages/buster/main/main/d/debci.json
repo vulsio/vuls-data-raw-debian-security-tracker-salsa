@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "debci, debci-worker, debci-collector"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9.20160709), amqp-tools, autopkgtest (>= 5.5~) <!pkg.debci.runtime>, bsdmainutils, curl, dctrl-tools, devscripts, fonts-font-awesome (>= 4.0.3~), inotify-tools <!pkg.debci.runtime>, jq, libjs-bootstrap, libjs-jquery, libjs-jquery-flot, moreutils, patchutils, rabbitmq-server <!pkg.debci.runtime>, rerun <!pkg.debci.runtime>, rsync, ruby, ruby-activerecord, ruby-bunny, ruby-foreman <!pkg.debci.runtime>, ruby-minitar, ruby-rack-test <!pkg.debci.runtime>, ruby-rspec (>= 2.14) <!pkg.debci.runtime>, ruby-sinatra, ruby-sinatra-contrib, ruby-sqlite3 <!pkg.debci.runtime>, ruby-thor, shellcheck <!pkg.debci.runtime>, shunit2 <!pkg.debci.runtime>, yard <!pkg.debci.runtime>"
-  ],
-  "Checksums-Sha256": [
-    "21bb1f309dcb7a5bd0fd0243609bca6a70a17043ff1b141749cde362f09db30e 2642 debci_2.0.dsc 49fef9f7e982871a88955a967a99cb739d0acdb70eb759a430ba278f670d577a 98440 debci_2.0.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/d/debci"
-  ],
-  "Files": [
-    "fa232b9b59d061e1dc3a55468c375e63 2642 debci_2.0.dsc 0f204dd1f14c6ca7871f9a1a1a685957 98440 debci_2.0.tar.xz"
-  ],
-  "Format": [
-    "3.0 (native)"
-  ],
-  "Homepage": [
-    "http://ci.debian.net/"
-  ],
-  "Maintainer": [
-    "Debian CI team <team+ci@tracker.debian.org>"
-  ],
-  "Package": [
-    "debci"
-  ],
-  "Package-List": [
-    "debci deb devel optional arch=all debci-collector deb devel optional arch=all debci-worker deb devel optional arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.3.0"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "autopkgtest, dnsmasq-base, ebtables, iptables, libnss-myhostname, libvirt-clients, libvirt-daemon-system, lxc, lxc-templates, netcat-openbsd, rabbitmq-server, redir, rsync, ruby-rack-test, ruby-rspec, schroot, shunit2"
-  ],
-  "Uploaders": [
-    "Antonio Terceiro <terceiro@debian.org>, Paul Gevers <elbrus@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/ci-team/debci"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/ci-team/debci.git"
-  ],
-  "Version": [
-    "2.0"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"debci, debci-worker, debci-collector"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9.20160709), amqp-tools, autopkgtest (>= 5.5~) <!pkg.debci.runtime>, bsdmainutils, curl, dctrl-tools, devscripts, fonts-font-awesome (>= 4.0.3~), inotify-tools <!pkg.debci.runtime>, jq, libjs-bootstrap, libjs-jquery, libjs-jquery-flot, moreutils, patchutils, rabbitmq-server <!pkg.debci.runtime>, rerun <!pkg.debci.runtime>, rsync, ruby, ruby-activerecord, ruby-bunny, ruby-foreman <!pkg.debci.runtime>, ruby-minitar, ruby-rack-test <!pkg.debci.runtime>, ruby-rspec (>= 2.14) <!pkg.debci.runtime>, ruby-sinatra, ruby-sinatra-contrib, ruby-sqlite3 <!pkg.debci.runtime>, ruby-thor, shellcheck <!pkg.debci.runtime>, shunit2 <!pkg.debci.runtime>, yard <!pkg.debci.runtime>"
+	],
+	"Checksums-Sha256": [
+		"21bb1f309dcb7a5bd0fd0243609bca6a70a17043ff1b141749cde362f09db30e 2642 debci_2.0.dsc 49fef9f7e982871a88955a967a99cb739d0acdb70eb759a430ba278f670d577a 98440 debci_2.0.tar.xz"
+	],
+	"Directory": [
+		"pool/main/d/debci"
+	],
+	"Files": [
+		"fa232b9b59d061e1dc3a55468c375e63 2642 debci_2.0.dsc 0f204dd1f14c6ca7871f9a1a1a685957 98440 debci_2.0.tar.xz"
+	],
+	"Format": [
+		"3.0 (native)"
+	],
+	"Homepage": [
+		"http://ci.debian.net/"
+	],
+	"Maintainer": [
+		"Debian CI team <team+ci@tracker.debian.org>"
+	],
+	"Package": [
+		"debci"
+	],
+	"Package-List": [
+		"debci deb devel optional arch=all debci-collector deb devel optional arch=all debci-worker deb devel optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.3.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"autopkgtest, dnsmasq-base, ebtables, iptables, libnss-myhostname, libvirt-clients, libvirt-daemon-system, lxc, lxc-templates, netcat-openbsd, rabbitmq-server, redir, rsync, ruby-rack-test, ruby-rspec, schroot, shunit2"
+	],
+	"Uploaders": [
+		"Antonio Terceiro <terceiro@debian.org>, Paul Gevers <elbrus@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/ci-team/debci"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/ci-team/debci.git"
+	],
+	"Version": [
+		"2.0"
+	]
 }

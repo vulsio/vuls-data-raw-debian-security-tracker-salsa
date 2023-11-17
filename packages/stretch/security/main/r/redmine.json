@@ -1,68 +1,68 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "redmine, redmine-mysql, redmine-pgsql, redmine-sqlite"
-  ],
-  "Build-Depends": [
-    "dbconfig-common, debhelper (>= 9), ruby | ruby-interpreter, ruby-actionpack-action-caching, ruby-actionpack-xml-parser, ruby-bundler, ruby-coderay (>= 1.0.6), ruby-i18n (>= 0.6.9-1~), ruby-jquery-rails (>= 4.0.5), ruby-mimemagic, ruby-mime-types (>= 1.25), ruby-net-ldap (>= 0.3.1), ruby-openid, ruby-protected-attributes, ruby-rack (>= 1.4.5~), ruby-rack-openid, ruby-rails (>= 2:4.2.5), ruby-rails-observers, ruby-rbpdf, ruby-redcarpet, ruby-request-store, ruby-rmagick, ruby-roadie-rails, ruby-mocha, ruby-sqlite3"
-  ],
-  "Build-Depends-Indep": [
-    "po-debconf"
-  ],
-  "Checksums-Sha1": [
-    "085294551f8c50c473832b00ded38bf71666758d 2823 redmine_3.3.1-4+deb9u5.dsc 2845e0111a25f0275514ec2a966e23657b9aa35f 2350320 redmine_3.3.1.orig.tar.gz 36ad761a02fcd3881838b1ac2d248c175583ce0c 256008 redmine_3.3.1-4+deb9u5.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "a5fb17e342b0277d8c8b248f1481881abaf8b6add29aee47e14285942cd2deb1 2823 redmine_3.3.1-4+deb9u5.dsc 89c5a3ee1d1a3a956795fe253e4dc0c5de886f5495ddb2a0f8b6634a104c07c8 2350320 redmine_3.3.1.orig.tar.gz b888605ff226af16184220c8b070c63a4ae6bced52f2cf756e9ab8499b507b7c 256008 redmine_3.3.1-4+deb9u5.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/r/redmine"
-  ],
-  "Files": [
-    "d5990779cfb0d6335b797c5a9f09b37d 2823 redmine_3.3.1-4+deb9u5.dsc bfa69f3bb3d1792d7a503e0d0c940349 2350320 redmine_3.3.1.orig.tar.gz d8a94a1558512fb1358e5b1cf4b61d44 256008 redmine_3.3.1-4+deb9u5.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.redmine.org"
-  ],
-  "Maintainer": [
-    "Antonio Terceiro <terceiro@debian.org>"
-  ],
-  "Package": [
-    "redmine"
-  ],
-  "Package-List": [
-    "redmine deb web extra arch=all redmine-mysql deb web extra arch=all redmine-pgsql deb web extra arch=all redmine-sqlite deb web extra arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "web"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "apache2, curl, libapache2-mod-passenger, mysql-server, postgresql, redmine-plugin-custom-css"
-  ],
-  "Uploaders": [
-    "Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>, Jérémy Lal <kapouer@melix.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-ruby-extras/redmine.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-ruby-extras/redmine.git"
-  ],
-  "Version": [
-    "3.3.1-4+deb9u5"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"redmine, redmine-mysql, redmine-pgsql, redmine-sqlite"
+	],
+	"Build-Depends": [
+		"dbconfig-common, debhelper (>= 9), ruby | ruby-interpreter, ruby-actionpack-action-caching, ruby-actionpack-xml-parser, ruby-bundler, ruby-coderay (>= 1.0.6), ruby-i18n (>= 0.6.9-1~), ruby-jquery-rails (>= 4.0.5), ruby-mimemagic, ruby-mime-types (>= 1.25), ruby-net-ldap (>= 0.3.1), ruby-openid, ruby-protected-attributes, ruby-rack (>= 1.4.5~), ruby-rack-openid, ruby-rails (>= 2:4.2.5), ruby-rails-observers, ruby-rbpdf, ruby-redcarpet, ruby-request-store, ruby-rmagick, ruby-roadie-rails, ruby-mocha, ruby-sqlite3"
+	],
+	"Build-Depends-Indep": [
+		"po-debconf"
+	],
+	"Checksums-Sha1": [
+		"085294551f8c50c473832b00ded38bf71666758d 2823 redmine_3.3.1-4+deb9u5.dsc 2845e0111a25f0275514ec2a966e23657b9aa35f 2350320 redmine_3.3.1.orig.tar.gz 36ad761a02fcd3881838b1ac2d248c175583ce0c 256008 redmine_3.3.1-4+deb9u5.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"a5fb17e342b0277d8c8b248f1481881abaf8b6add29aee47e14285942cd2deb1 2823 redmine_3.3.1-4+deb9u5.dsc 89c5a3ee1d1a3a956795fe253e4dc0c5de886f5495ddb2a0f8b6634a104c07c8 2350320 redmine_3.3.1.orig.tar.gz b888605ff226af16184220c8b070c63a4ae6bced52f2cf756e9ab8499b507b7c 256008 redmine_3.3.1-4+deb9u5.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/r/redmine"
+	],
+	"Files": [
+		"d5990779cfb0d6335b797c5a9f09b37d 2823 redmine_3.3.1-4+deb9u5.dsc bfa69f3bb3d1792d7a503e0d0c940349 2350320 redmine_3.3.1.orig.tar.gz d8a94a1558512fb1358e5b1cf4b61d44 256008 redmine_3.3.1-4+deb9u5.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.redmine.org"
+	],
+	"Maintainer": [
+		"Antonio Terceiro <terceiro@debian.org>"
+	],
+	"Package": [
+		"redmine"
+	],
+	"Package-List": [
+		"redmine deb web extra arch=all redmine-mysql deb web extra arch=all redmine-pgsql deb web extra arch=all redmine-sqlite deb web extra arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"web"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"apache2, curl, libapache2-mod-passenger, mysql-server, postgresql, redmine-plugin-custom-css"
+	],
+	"Uploaders": [
+		"Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>, Jérémy Lal <kapouer@melix.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-ruby-extras/redmine.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-ruby-extras/redmine.git"
+	],
+	"Version": [
+		"3.3.1-4+deb9u5"
+	]
 }

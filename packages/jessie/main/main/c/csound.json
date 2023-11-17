@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "csound, csound-data, csound-utils, libcsound64-6.0, libcsnd6-java, libcsound64-dev, libcsnd-dev, libcsoundac-dev, pd-csound, python-csound, libcsnd6-6.0, liblua5.1-luacsnd, libcsoundac6.0, python-csoundac, csladspa, libcsound64-doc"
-  ],
-  "Build-Depends": [
-    "cdbs (>= 0.4.111~), debhelper, dh-buildinfo, python, devscripts, cmake (>= 2.8.3), libsndfile1-dev, libasound2-dev [linux-any], libjack-dev, portaudio19-dev, libportmidi-dev, libpulse-dev, swig, liblua5.1-0-dev, python-dev (>= 2.6.6-3~), puredata-dev, default-jdk, libfltk1.1-dev, libfluidsynth-dev, liblo-dev, fluid, ladspa-sdk, libboost-dev, libboost-serialization-dev, libpng-dev, dssi-dev, libstk0-dev, libgmm++-dev, bison (>= 2.6), flex, libportsmf-dev, libeigen3-dev"
-  ],
-  "Build-Depends-Indep": [
-    "dh-linktree, doxygen, graphviz, libjs-jquery, ttf-dejavu"
-  ],
-  "Checksums-Sha1": [
-    "86b0e74392822259e185f0ded12971af94a7aa50 3422 csound_6.03.2~dfsg-1.dsc 61c5b86124fe8649e6ed6dfde99f8c942a11c2b9 22311232 csound_6.03.2~dfsg.orig.tar.gz e372ae21ad3dcd13f9fe1785590a317b9de3c077 50656 csound_6.03.2~dfsg-1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "73c0b4ea6eefcf2709a951a4801aa4f61d6ec3588df9781ac55b9b7df156b1e4 3422 csound_6.03.2~dfsg-1.dsc e361ba86fc1e3c6489036394017daa5d37ad5629812c4d1348f783620be1fe19 22311232 csound_6.03.2~dfsg.orig.tar.gz 49f7520c90177275a51ae35ec3b843f8bb665beb4daa93cfc26338acbe077002 50656 csound_6.03.2~dfsg-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/c/csound"
-  ],
-  "Files": [
-    "21a172b24f1f03a4425c6739e69e0866 3422 csound_6.03.2~dfsg-1.dsc 4e0e8beffe9c8f547081302742f62bcd 22311232 csound_6.03.2~dfsg.orig.tar.gz 825947778572406a9f7c98a315fd402f 50656 csound_6.03.2~dfsg-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.csounds.com"
-  ],
-  "Maintainer": [
-    "Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "csound"
-  ],
-  "Package-List": [
-    "csladspa deb sound optional arch=any csound deb sound optional arch=any csound-data deb sound optional arch=all csound-utils deb sound optional arch=any libcsnd-dev deb libdevel optional arch=all libcsnd6-6.0 deb libs optional arch=any libcsnd6-java deb java optional arch=any libcsound64-6.0 deb libs optional arch=any libcsound64-dev deb libdevel optional arch=all libcsound64-doc deb doc optional arch=all libcsoundac-dev deb libdevel optional arch=all libcsoundac6.0 deb libs optional arch=any liblua5.1-luacsnd deb sound optional arch=any pd-csound deb sound optional arch=any python-csound deb python optional arch=any python-csoundac deb python optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "sound"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Uploaders": [
-    "Felipe Sateler <fsateler@debian.org>, Jonas Smedegaard <dr@jones.dk>, Forrest Cahoon <forrest.cahoon@gmail.com>"
-  ],
-  "Vcs-Browser": [
-    "http://git.debian.org/?p=pkg-multimedia/csound.git"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/git/pkg-multimedia/csound"
-  ],
-  "Version": [
-    "1:6.03.2~dfsg-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"csound, csound-data, csound-utils, libcsound64-6.0, libcsnd6-java, libcsound64-dev, libcsnd-dev, libcsoundac-dev, pd-csound, python-csound, libcsnd6-6.0, liblua5.1-luacsnd, libcsoundac6.0, python-csoundac, csladspa, libcsound64-doc"
+	],
+	"Build-Depends": [
+		"cdbs (>= 0.4.111~), debhelper, dh-buildinfo, python, devscripts, cmake (>= 2.8.3), libsndfile1-dev, libasound2-dev [linux-any], libjack-dev, portaudio19-dev, libportmidi-dev, libpulse-dev, swig, liblua5.1-0-dev, python-dev (>= 2.6.6-3~), puredata-dev, default-jdk, libfltk1.1-dev, libfluidsynth-dev, liblo-dev, fluid, ladspa-sdk, libboost-dev, libboost-serialization-dev, libpng-dev, dssi-dev, libstk0-dev, libgmm++-dev, bison (>= 2.6), flex, libportsmf-dev, libeigen3-dev"
+	],
+	"Build-Depends-Indep": [
+		"dh-linktree, doxygen, graphviz, libjs-jquery, ttf-dejavu"
+	],
+	"Checksums-Sha1": [
+		"86b0e74392822259e185f0ded12971af94a7aa50 3422 csound_6.03.2~dfsg-1.dsc 61c5b86124fe8649e6ed6dfde99f8c942a11c2b9 22311232 csound_6.03.2~dfsg.orig.tar.gz e372ae21ad3dcd13f9fe1785590a317b9de3c077 50656 csound_6.03.2~dfsg-1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"73c0b4ea6eefcf2709a951a4801aa4f61d6ec3588df9781ac55b9b7df156b1e4 3422 csound_6.03.2~dfsg-1.dsc e361ba86fc1e3c6489036394017daa5d37ad5629812c4d1348f783620be1fe19 22311232 csound_6.03.2~dfsg.orig.tar.gz 49f7520c90177275a51ae35ec3b843f8bb665beb4daa93cfc26338acbe077002 50656 csound_6.03.2~dfsg-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/c/csound"
+	],
+	"Files": [
+		"21a172b24f1f03a4425c6739e69e0866 3422 csound_6.03.2~dfsg-1.dsc 4e0e8beffe9c8f547081302742f62bcd 22311232 csound_6.03.2~dfsg.orig.tar.gz 825947778572406a9f7c98a315fd402f 50656 csound_6.03.2~dfsg-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.csounds.com"
+	],
+	"Maintainer": [
+		"Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"csound"
+	],
+	"Package-List": [
+		"csladspa deb sound optional arch=any csound deb sound optional arch=any csound-data deb sound optional arch=all csound-utils deb sound optional arch=any libcsnd-dev deb libdevel optional arch=all libcsnd6-6.0 deb libs optional arch=any libcsnd6-java deb java optional arch=any libcsound64-6.0 deb libs optional arch=any libcsound64-dev deb libdevel optional arch=all libcsound64-doc deb doc optional arch=all libcsoundac-dev deb libdevel optional arch=all libcsoundac6.0 deb libs optional arch=any liblua5.1-luacsnd deb sound optional arch=any pd-csound deb sound optional arch=any python-csound deb python optional arch=any python-csoundac deb python optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"sound"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Uploaders": [
+		"Felipe Sateler <fsateler@debian.org>, Jonas Smedegaard <dr@jones.dk>, Forrest Cahoon <forrest.cahoon@gmail.com>"
+	],
+	"Vcs-Browser": [
+		"http://git.debian.org/?p=pkg-multimedia/csound.git"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/git/pkg-multimedia/csound"
+	],
+	"Version": [
+		"1:6.03.2~dfsg-1"
+	]
 }

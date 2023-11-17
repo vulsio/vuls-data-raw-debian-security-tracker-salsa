@@ -1,50 +1,50 @@
 {
-  "header": {
-    "line": "CVE-2021-XXXX [SQL Server LIMIT / OFFSET SQL Injection]",
-    "name": "TEMP-0987831-866E01",
-    "description": "[SQL Server LIMIT / OFFSET SQL Injection]"
-  },
-  "annotations": [
-    {
-      "line": "\t- php-laravel-framework 6.20.14+dfsg-2 (bug #987831)",
-      "type": "package",
-      "package": "php-laravel-framework",
-      "kind": "fixed",
-      "version": "6.20.14+dfsg-2",
-      "flags": [
-        {
-          "bug": 987831
-        }
-      ]
-    },
-    {
-      "line": "\t- php-illuminate-database <removed> (bug #987848)",
-      "type": "package",
-      "package": "php-illuminate-database",
-      "kind": "removed",
-      "flags": [
-        {
-          "bug": 987848
-        }
-      ]
-    },
-    {
-      "line": "\t[buster] - php-illuminate-database 5.7.27-1+deb10u1",
-      "type": "package",
-      "release": "buster",
-      "package": "php-illuminate-database",
-      "kind": "fixed",
-      "version": "5.7.27-1+deb10u1"
-    },
-    {
-      "line": "\tNOTE: https://github.com/laravel/framework/security/advisories/GHSA-4mg9-vhxq-vm7j",
-      "type": "NOTE",
-      "description": "https://github.com/laravel/framework/security/advisories/GHSA-4mg9-vhxq-vm7j"
-    },
-    {
-      "line": "\tNOTE: https://blog.laravel.com/security-sql-injection-in-sql-server-limit-offset",
-      "type": "NOTE",
-      "description": "https://blog.laravel.com/security-sql-injection-in-sql-server-limit-offset"
-    }
-  ]
+	"header": {
+		"line": "CVE-2021-XXXX [SQL Server LIMIT / OFFSET SQL Injection]",
+		"name": "TEMP-0987831-866E01",
+		"description": "[SQL Server LIMIT / OFFSET SQL Injection]"
+	},
+	"annotations": [
+		{
+			"line": "\t- php-laravel-framework 6.20.14+dfsg-2 (bug #987831)",
+			"type": "package",
+			"package": "php-laravel-framework",
+			"kind": "fixed",
+			"version": "6.20.14+dfsg-2",
+			"flags": [
+				{
+					"bug": 987831
+				}
+			]
+		},
+		{
+			"line": "\t- php-illuminate-database <removed> (bug #987848)",
+			"type": "package",
+			"package": "php-illuminate-database",
+			"kind": "removed",
+			"flags": [
+				{
+					"bug": 987848
+				}
+			]
+		},
+		{
+			"line": "\t[buster] - php-illuminate-database 5.7.27-1+deb10u1",
+			"type": "package",
+			"release": "buster",
+			"package": "php-illuminate-database",
+			"kind": "fixed",
+			"version": "5.7.27-1+deb10u1"
+		},
+		{
+			"line": "\tNOTE: https://github.com/laravel/framework/security/advisories/GHSA-4mg9-vhxq-vm7j",
+			"type": "NOTE",
+			"description": "https://github.com/laravel/framework/security/advisories/GHSA-4mg9-vhxq-vm7j"
+		},
+		{
+			"line": "\tNOTE: https://blog.laravel.com/security-sql-injection-in-sql-server-limit-offset",
+			"type": "NOTE",
+			"description": "https://blog.laravel.com/security-sql-injection-in-sql-server-limit-offset"
+		}
+	]
 }

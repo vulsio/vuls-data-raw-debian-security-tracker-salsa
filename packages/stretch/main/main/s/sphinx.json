@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-sphinx, python3-sphinx, sphinx-common, sphinx-doc, libjs-sphinxdoc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9)"
-  ],
-  "Build-Depends-Indep": [
-    "dh-python, dh-strip-nondeterminism, python-all (>= 2.6.6-3~), python3-all (>= 3.3~), python-six (>= 1.5), python3-six (>= 1.5), python-setuptools (>= 0.6c5-1~), python3-setuptools, python-docutils (>= 0.11), python3-docutils (>= 0.11), python-pygments (>= 2.1.1), python3-pygments (>= 2.1.1), python-jinja2 (>= 2.3), python3-jinja2 (>= 2.3), python-sqlalchemy, python3-sqlalchemy, python-whoosh, python3-whoosh, python-nose, python3-nose, python-mock, python3-mock, python-babel (>= 1.3), python3-babel (>= 1.3), python-alabaster (>= 0.7), python3-alabaster (>= 0.7), python-imagesize, python3-imagesize, libjs-jquery (>= 1.4), libjs-underscore, texlive-latex-recommended, texlive-latex-extra, texlive-fonts-recommended, texinfo, texlive-luatex, texlive-generic-extra, dvipng, graphviz, perl"
-  ],
-  "Checksums-Sha256": [
-    "b4f1946c1d520e6784fc29628d6adbad6161a8b565aeaca8f632aa55807e96f7 3364 sphinx_1.4.9-2.dsc 82cd2728c906be96e307b81352d3fd9fb731869234c6b835cc25e9a3dfb4b7e4 4525489 sphinx_1.4.9.orig.tar.gz 53b310bab37519dcfcedf95879876d3180ef00de4c023e9ac5106bbae57bc20d 34600 sphinx_1.4.9-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/s/sphinx"
-  ],
-  "Files": [
-    "2b2189bddb5ac6b48e5111a5c531373c 3364 sphinx_1.4.9-2.dsc 6c7472d3630835113ee9cc251cc36c31 4525489 sphinx_1.4.9.orig.tar.gz 70fd9ad37f455b5e563f97ce1ad81edb 34600 sphinx_1.4.9-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://sphinx-doc.org/"
-  ],
-  "Maintainer": [
-    "Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "sphinx"
-  ],
-  "Package-List": [
-    "libjs-sphinxdoc deb web optional arch=all python-sphinx deb python optional arch=all python3-sphinx deb python optional arch=all sphinx-common deb python optional arch=all sphinx-doc deb doc optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "python"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dvipng, gir1.2-webkit2-4.0, graphviz, python-mock, python-nose, python-pygments, python-whoosh, python-xapian, python3-gi, python3-mock, python3-nose, python3-pygments, python3-whoosh, python3-xapian, texinfo, texlive-fonts-recommended, texlive-generic-extra, texlive-latex-extra, texlive-luatex, xauth, xvfb"
-  ],
-  "Uploaders": [
-    "Dmitry Shachnev <mitya57@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/python-modules/packages/sphinx.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/python-modules/packages/sphinx.git"
-  ],
-  "Version": [
-    "1.4.9-2"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-sphinx, python3-sphinx, sphinx-common, sphinx-doc, libjs-sphinxdoc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9)"
+	],
+	"Build-Depends-Indep": [
+		"dh-python, dh-strip-nondeterminism, python-all (>= 2.6.6-3~), python3-all (>= 3.3~), python-six (>= 1.5), python3-six (>= 1.5), python-setuptools (>= 0.6c5-1~), python3-setuptools, python-docutils (>= 0.11), python3-docutils (>= 0.11), python-pygments (>= 2.1.1), python3-pygments (>= 2.1.1), python-jinja2 (>= 2.3), python3-jinja2 (>= 2.3), python-sqlalchemy, python3-sqlalchemy, python-whoosh, python3-whoosh, python-nose, python3-nose, python-mock, python3-mock, python-babel (>= 1.3), python3-babel (>= 1.3), python-alabaster (>= 0.7), python3-alabaster (>= 0.7), python-imagesize, python3-imagesize, libjs-jquery (>= 1.4), libjs-underscore, texlive-latex-recommended, texlive-latex-extra, texlive-fonts-recommended, texinfo, texlive-luatex, texlive-generic-extra, dvipng, graphviz, perl"
+	],
+	"Checksums-Sha256": [
+		"b4f1946c1d520e6784fc29628d6adbad6161a8b565aeaca8f632aa55807e96f7 3364 sphinx_1.4.9-2.dsc 82cd2728c906be96e307b81352d3fd9fb731869234c6b835cc25e9a3dfb4b7e4 4525489 sphinx_1.4.9.orig.tar.gz 53b310bab37519dcfcedf95879876d3180ef00de4c023e9ac5106bbae57bc20d 34600 sphinx_1.4.9-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/s/sphinx"
+	],
+	"Files": [
+		"2b2189bddb5ac6b48e5111a5c531373c 3364 sphinx_1.4.9-2.dsc 6c7472d3630835113ee9cc251cc36c31 4525489 sphinx_1.4.9.orig.tar.gz 70fd9ad37f455b5e563f97ce1ad81edb 34600 sphinx_1.4.9-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://sphinx-doc.org/"
+	],
+	"Maintainer": [
+		"Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"sphinx"
+	],
+	"Package-List": [
+		"libjs-sphinxdoc deb web optional arch=all python-sphinx deb python optional arch=all python3-sphinx deb python optional arch=all sphinx-common deb python optional arch=all sphinx-doc deb doc optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"python"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dvipng, gir1.2-webkit2-4.0, graphviz, python-mock, python-nose, python-pygments, python-whoosh, python-xapian, python3-gi, python3-mock, python3-nose, python3-pygments, python3-whoosh, python3-xapian, texinfo, texlive-fonts-recommended, texlive-generic-extra, texlive-latex-extra, texlive-luatex, xauth, xvfb"
+	],
+	"Uploaders": [
+		"Dmitry Shachnev <mitya57@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/python-modules/packages/sphinx.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/python-modules/packages/sphinx.git"
+	],
+	"Version": [
+		"1.4.9-2"
+	]
 }

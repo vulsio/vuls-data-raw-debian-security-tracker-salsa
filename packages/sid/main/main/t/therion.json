@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "therion, therion-viewer, therion-doc"
-  ],
-  "Build-Depends": [
-    "dpkg (>= 1.16.2), debhelper, debhelper-compat (= 13), perl (>= 5.5), tcl, libvtk9-dev, libwxgtk3.2-dev, libfreetype-dev, libjpeg-dev, libpng-dev, pkg-config, texlive-base, libproj-dev, libsqlite3-tcl, python3, libshp-dev, cmake, ninja-build, libfmt-dev"
-  ],
-  "Build-Depends-Indep": [
-    "texlive-metapost, imagemagick-6.q16, ghostscript"
-  ],
-  "Checksums-Sha256": [
-    "b2f9c1a6fc3d362a54256839a72f87dd464b6b22274319580962ac5d1d6458cc 2570 therion_6.1.8-2.dsc 86ae863c2515228990b940a8df87a7bad162ca2fe4e85060f740d47edbc453c8 2500144 therion_6.1.8.orig.tar.gz 5c5c5f3671cffaa91ed2ddb99b10fd7841b1327e793de29da0d8f7179924f9fe 659 therion_6.1.8.orig.tar.gz.asc 8ef01230c9ffc901dd85a0d96fbbae368549f04d6095aec3f9d5bba0701d3d61 23456 therion_6.1.8-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/t/therion"
-  ],
-  "Files": [
-    "3f79c2d9cf84a54ca23912766b871042 2570 therion_6.1.8-2.dsc b10723c8505dec3dd45d8479c2024129 2500144 therion_6.1.8.orig.tar.gz e5f25e8a3a5e993352ea4f094895416a 659 therion_6.1.8.orig.tar.gz.asc 105ce1c07888cc207a34a8f08ff9dc63 23456 therion_6.1.8-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://therion.speleo.sk/"
-  ],
-  "Maintainer": [
-    "Martin Budaj <m.budaj@gmail.com>"
-  ],
-  "Package": [
-    "therion"
-  ],
-  "Package-List": [
-    "therion deb science optional arch=any therion-doc deb doc optional arch=all therion-viewer deb science optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "science"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "imagemagick, survex, texlive-lang-cyrillic, texlive-lang-czechslovak"
-  ],
-  "Uploaders": [
-    "Wookey <wookey@debian.org>, Olly Betts <olly@survex.com>"
-  ],
-  "Version": [
-    "6.1.8-2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"therion, therion-viewer, therion-doc"
+	],
+	"Build-Depends": [
+		"dpkg (>= 1.16.2), debhelper, debhelper-compat (= 13), perl (>= 5.5), tcl, libvtk9-dev, libwxgtk3.2-dev, libfreetype-dev, libjpeg-dev, libpng-dev, pkg-config, texlive-base, libproj-dev, libsqlite3-tcl, python3, libshp-dev, cmake, ninja-build, libfmt-dev"
+	],
+	"Build-Depends-Indep": [
+		"texlive-metapost, imagemagick-6.q16, ghostscript"
+	],
+	"Checksums-Sha256": [
+		"b2f9c1a6fc3d362a54256839a72f87dd464b6b22274319580962ac5d1d6458cc 2570 therion_6.1.8-2.dsc 86ae863c2515228990b940a8df87a7bad162ca2fe4e85060f740d47edbc453c8 2500144 therion_6.1.8.orig.tar.gz 5c5c5f3671cffaa91ed2ddb99b10fd7841b1327e793de29da0d8f7179924f9fe 659 therion_6.1.8.orig.tar.gz.asc 8ef01230c9ffc901dd85a0d96fbbae368549f04d6095aec3f9d5bba0701d3d61 23456 therion_6.1.8-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/t/therion"
+	],
+	"Files": [
+		"3f79c2d9cf84a54ca23912766b871042 2570 therion_6.1.8-2.dsc b10723c8505dec3dd45d8479c2024129 2500144 therion_6.1.8.orig.tar.gz e5f25e8a3a5e993352ea4f094895416a 659 therion_6.1.8.orig.tar.gz.asc 105ce1c07888cc207a34a8f08ff9dc63 23456 therion_6.1.8-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://therion.speleo.sk/"
+	],
+	"Maintainer": [
+		"Martin Budaj <m.budaj@gmail.com>"
+	],
+	"Package": [
+		"therion"
+	],
+	"Package-List": [
+		"therion deb science optional arch=any therion-doc deb doc optional arch=all therion-viewer deb science optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"science"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"imagemagick, survex, texlive-lang-cyrillic, texlive-lang-czechslovak"
+	],
+	"Uploaders": [
+		"Wookey <wookey@debian.org>, Olly Betts <olly@survex.com>"
+	],
+	"Version": [
+		"6.1.8-2"
+	]
 }

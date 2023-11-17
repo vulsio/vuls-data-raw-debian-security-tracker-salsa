@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "gobgpd, golang-github-osrg-gobgp-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), bash-completion, dh-systemd, dh-golang, golang-go, golang-github-armon-go-radix-dev, golang-toml-dev, golang-gopkg-eapache-channels.v1-dev, golang-goprotobuf-dev, golang-go-flags-dev, golang-github-influxdb-influxdb-dev, golang-github-kr-pretty-dev, golang-github-satori-go.uuid-dev, golang-github-sirupsen-logrus-dev, golang-github-socketplane-libovsdb-dev, golang-github-spf13-cobra-dev, golang-github-spf13-viper-dev, golang-github-stretchr-testify-dev, golang-github-vishvananda-netlink-dev, golang-golang-x-net-dev, golang-google-grpc-dev, golang-gopkg-tomb.v2-dev, protobuf-compiler (>= 3)"
-  ],
-  "Checksums-Sha256": [
-    "ec80a2b3f17dfe8531f9659edd35c61612231f4405bb49c6e48aa57bb80e469b 2635 gobgp_1.15-1.dsc 15a3579818a10f0d9f6be49c59c6e3dfe2d95016a11716ffbf314fe780f4fbc5 603758 gobgp_1.15.orig.tar.gz 07bd895c626c0cab028a3840cc87d385415f2f21e5fdbee8eb2fe44d3a06d192 2828 gobgp_1.15-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/g/gobgp"
-  ],
-  "Files": [
-    "bdc6a63f3e06d488bd257ffbcec1533c 2635 gobgp_1.15-1.dsc 47c646c771f3c68c870e31bedf4d7486 603758 gobgp_1.15.orig.tar.gz 16c7264c2f2eda7f1b34d45e9ebf5cb5 2828 gobgp_1.15-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Go-Import-Path": [
-    "github.com/osrg/gobgp"
-  ],
-  "Homepage": [
-    "https://github.com/osrg/gobgp"
-  ],
-  "Maintainer": [
-    "Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "gobgp"
-  ],
-  "Package-List": [
-    "gobgpd deb devel extra arch=any golang-github-osrg-gobgp-dev deb devel extra arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Vincent Bernat <bernat@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-go/packages/gobgp.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-go/packages/gobgp.git"
-  ],
-  "Version": [
-    "1.15-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"gobgpd, golang-github-osrg-gobgp-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), bash-completion, dh-systemd, dh-golang, golang-go, golang-github-armon-go-radix-dev, golang-toml-dev, golang-gopkg-eapache-channels.v1-dev, golang-goprotobuf-dev, golang-go-flags-dev, golang-github-influxdb-influxdb-dev, golang-github-kr-pretty-dev, golang-github-satori-go.uuid-dev, golang-github-sirupsen-logrus-dev, golang-github-socketplane-libovsdb-dev, golang-github-spf13-cobra-dev, golang-github-spf13-viper-dev, golang-github-stretchr-testify-dev, golang-github-vishvananda-netlink-dev, golang-golang-x-net-dev, golang-google-grpc-dev, golang-gopkg-tomb.v2-dev, protobuf-compiler (>= 3)"
+	],
+	"Checksums-Sha256": [
+		"ec80a2b3f17dfe8531f9659edd35c61612231f4405bb49c6e48aa57bb80e469b 2635 gobgp_1.15-1.dsc 15a3579818a10f0d9f6be49c59c6e3dfe2d95016a11716ffbf314fe780f4fbc5 603758 gobgp_1.15.orig.tar.gz 07bd895c626c0cab028a3840cc87d385415f2f21e5fdbee8eb2fe44d3a06d192 2828 gobgp_1.15-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/gobgp"
+	],
+	"Files": [
+		"bdc6a63f3e06d488bd257ffbcec1533c 2635 gobgp_1.15-1.dsc 47c646c771f3c68c870e31bedf4d7486 603758 gobgp_1.15.orig.tar.gz 16c7264c2f2eda7f1b34d45e9ebf5cb5 2828 gobgp_1.15-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Go-Import-Path": [
+		"github.com/osrg/gobgp"
+	],
+	"Homepage": [
+		"https://github.com/osrg/gobgp"
+	],
+	"Maintainer": [
+		"Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"gobgp"
+	],
+	"Package-List": [
+		"gobgpd deb devel extra arch=any golang-github-osrg-gobgp-dev deb devel extra arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Vincent Bernat <bernat@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-go/packages/gobgp.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-go/packages/gobgp.git"
+	],
+	"Version": [
+		"1.15-1"
+	]
 }

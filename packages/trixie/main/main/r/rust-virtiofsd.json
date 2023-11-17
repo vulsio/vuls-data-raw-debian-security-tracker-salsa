@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-virtiofsd-dev, virtiofsd"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native, rustc:native, libstd-rust-dev, librust-bitflags-1+default-dev (>= 1.2-~~), librust-capng-0.2+default-dev (>= 0.2.2-~~), librust-clap-4+default-dev, librust-clap-4+derive-dev, librust-env-logger-0.10+default-dev, librust-futures-0.3+default-dev, librust-futures-0.3+thread-pool-dev, librust-libc-0.2+default-dev (>= 0.2.139-~~), librust-libseccomp-sys-0.2+default-dev, librust-log-0.4+default-dev, librust-syslog-6+default-dev, librust-vhost-0.8+default-dev (>= 0.8.1-~~), librust-vhost-user-backend-0.10+default-dev (>= 0.10.1-~~), librust-virtio-bindings-0.2+default-dev, librust-virtio-bindings-0.2+virtio-v5-0-0-dev, librust-virtio-queue-0.9+default-dev, librust-vm-memory-0.12+backend-atomic-dev, librust-vm-memory-0.12+backend-mmap-dev, librust-vm-memory-0.12+default-dev, librust-vmm-sys-util-0.11+default-dev (>= 0.11.1-~~), architecture-is-64-bit"
-  ],
-  "Checksums-Sha256": [
-    "b9737a72919d45c7b2251451ecbdb3f3007423d7230ed5f264ace985fc11a4c5 2747 rust-virtiofsd_1.8.0-1.dsc 8d43218f5c29d4ba5af4304eced17031c31b47807ec8a2432686e65d43bc171b 116890 rust-virtiofsd_1.8.0.orig.tar.gz ccf011894171610efb57e8c0cbecf42d0e7055911c356b9455e84049bd3f3ed5 5016 rust-virtiofsd_1.8.0-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-virtiofsd"
-  ],
-  "Files": [
-    "4c096b5b8d6ef0773503a17e1c926fa0 2747 rust-virtiofsd_1.8.0-1.dsc fb773fb8933bd035fd2f2ca39a43d77c 116890 rust-virtiofsd_1.8.0.orig.tar.gz 15dc9d81aaaed9035d018fc717f09d89 5016 rust-virtiofsd_1.8.0-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://virtio-fs.gitlab.io/"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-virtiofsd"
-  ],
-  "Package-List": [
-    "librust-virtiofsd-dev deb otherosfs optional arch=any virtiofsd deb otherosfs optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo"
-  ],
-  "Uploaders": [
-    "Fabian Grünbichler <debian@fabian.gruenbichler.email>, Michael Tokarev <mjt@tls.msk.ru>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/virtiofsd"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/virtiofsd]"
-  ],
-  "Version": [
-    "1.8.0-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-virtiofsd-dev, virtiofsd"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native, rustc:native, libstd-rust-dev, librust-bitflags-1+default-dev (>= 1.2-~~), librust-capng-0.2+default-dev (>= 0.2.2-~~), librust-clap-4+default-dev, librust-clap-4+derive-dev, librust-env-logger-0.10+default-dev, librust-futures-0.3+default-dev, librust-futures-0.3+thread-pool-dev, librust-libc-0.2+default-dev (>= 0.2.139-~~), librust-libseccomp-sys-0.2+default-dev, librust-log-0.4+default-dev, librust-syslog-6+default-dev, librust-vhost-0.8+default-dev (>= 0.8.1-~~), librust-vhost-user-backend-0.10+default-dev (>= 0.10.1-~~), librust-virtio-bindings-0.2+default-dev, librust-virtio-bindings-0.2+virtio-v5-0-0-dev, librust-virtio-queue-0.9+default-dev, librust-vm-memory-0.12+backend-atomic-dev, librust-vm-memory-0.12+backend-mmap-dev, librust-vm-memory-0.12+default-dev, librust-vmm-sys-util-0.11+default-dev (>= 0.11.1-~~), architecture-is-64-bit"
+	],
+	"Checksums-Sha256": [
+		"b9737a72919d45c7b2251451ecbdb3f3007423d7230ed5f264ace985fc11a4c5 2747 rust-virtiofsd_1.8.0-1.dsc 8d43218f5c29d4ba5af4304eced17031c31b47807ec8a2432686e65d43bc171b 116890 rust-virtiofsd_1.8.0.orig.tar.gz ccf011894171610efb57e8c0cbecf42d0e7055911c356b9455e84049bd3f3ed5 5016 rust-virtiofsd_1.8.0-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-virtiofsd"
+	],
+	"Files": [
+		"4c096b5b8d6ef0773503a17e1c926fa0 2747 rust-virtiofsd_1.8.0-1.dsc fb773fb8933bd035fd2f2ca39a43d77c 116890 rust-virtiofsd_1.8.0.orig.tar.gz 15dc9d81aaaed9035d018fc717f09d89 5016 rust-virtiofsd_1.8.0-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://virtio-fs.gitlab.io/"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-virtiofsd"
+	],
+	"Package-List": [
+		"librust-virtiofsd-dev deb otherosfs optional arch=any virtiofsd deb otherosfs optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo"
+	],
+	"Uploaders": [
+		"Fabian Grünbichler <debian@fabian.gruenbichler.email>, Michael Tokarev <mjt@tls.msk.ru>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/virtiofsd"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/virtiofsd]"
+	],
+	"Version": [
+		"1.8.0-1"
+	]
 }

@@ -1,46 +1,46 @@
 {
-  "header": {
-    "line": "[06 Jul 2005] DSA-740-1 zlib - buffer overflow",
-    "name": "DSA-740-1"
-  },
-  "annotations": [
-    {
-      "line": "\t{CVE-2005-2096}",
-      "type": "xref",
-      "bugs": [
-        "CVE-2005-2096"
-      ]
-    },
-    {
-      "line": "\t[woody] - zlib <not-affected> (vulnerability was introduced later)",
-      "type": "package",
-      "release": "woody",
-      "package": "zlib",
-      "kind": "not-affected",
-      "description": "vulnerability was introduced later"
-    },
-    {
-      "line": "\t[sarge] - zlib 1:1.2.2-4.sarge.1 (medium)",
-      "type": "package",
-      "release": "sarge",
-      "package": "zlib",
-      "kind": "fixed",
-      "version": "1:1.2.2-4.sarge.1",
-      "flags": [
-        {
-          "severity": "medium"
-        }
-      ]
-    },
-    {
-      "line": "\tNOTE: anything statically linking zlib needs rebuild",
-      "type": "NOTE",
-      "description": "anything statically linking zlib needs rebuild"
-    },
-    {
-      "line": "\tNOTE: not fixed in testing at time of DSA (embargoed disclosure)",
-      "type": "NOTE",
-      "description": "not fixed in testing at time of DSA (embargoed disclosure)"
-    }
-  ]
+	"header": {
+		"line": "[06 Jul 2005] DSA-740-1 zlib - buffer overflow",
+		"name": "DSA-740-1"
+	},
+	"annotations": [
+		{
+			"line": "\t{CVE-2005-2096}",
+			"type": "xref",
+			"bugs": [
+				"CVE-2005-2096"
+			]
+		},
+		{
+			"line": "\t[woody] - zlib <not-affected> (vulnerability was introduced later)",
+			"type": "package",
+			"release": "woody",
+			"package": "zlib",
+			"kind": "not-affected",
+			"description": "vulnerability was introduced later"
+		},
+		{
+			"line": "\t[sarge] - zlib 1:1.2.2-4.sarge.1 (medium)",
+			"type": "package",
+			"release": "sarge",
+			"package": "zlib",
+			"kind": "fixed",
+			"version": "1:1.2.2-4.sarge.1",
+			"flags": [
+				{
+					"severity": "medium"
+				}
+			]
+		},
+		{
+			"line": "\tNOTE: anything statically linking zlib needs rebuild",
+			"type": "NOTE",
+			"description": "anything statically linking zlib needs rebuild"
+		},
+		{
+			"line": "\tNOTE: not fixed in testing at time of DSA (embargoed disclosure)",
+			"type": "NOTE",
+			"description": "not fixed in testing at time of DSA (embargoed disclosure)"
+		}
+	]
 }

@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-keystoneauth1, python3-keystoneauth1, python-keystoneauth1-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-python, openstack-pkg-tools (>= 51~), python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.8), python3-setuptools"
-  ],
-  "Build-Depends-Indep": [
-    "git, python-betamax (>= 0.7.0), python-coverage, python-crypto, python-fixtures (>= 3.0.0), python-hacking, python-iso8601 (>= 0.1.11), python-lxml, python-mock (>= 2.0), python-oauthlib (>= 0.6), python-os-testr (>= 0.7.0), python-oslo.config (>= 1:3.14.0), python-oslo.utils (>= 3.16.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.10.0), python-pep8, python-positional (>= 1.0.1), python-requests (>= 2.10.0), python-requests-kerberos (>= 0.6), python-requests-mock (>= 1.0), python-six (>= 1.9.0), python-stevedore (>= 1.16.0), python-testresources, python-testtools (>= 1.4.0), python-yaml (>= 3.1.0), python3-betamax (>= 0.7.0), python3-crypto, python3-fixtures (>= 3.0.0), python3-iso8601 (>= 0.1.11), python3-lxml, python3-mock (>= 2.0), python3-oauthlib (>= 0.6), python3-os-testr (>= 0.7.0), python3-oslo.config (>= 1:3.14.0), python3-oslo.utils (>= 3.16.0), python3-oslotest (>= 1:1.10.0), python3-pep8, python3-positional (>= 1.0.1), python3-requests (>= 2.10.0), python3-requests-kerberos (>= 0.6), python3-requests-mock (>= 1.0), python3-six (>= 1.9.0), python3-stevedore (>= 1.16.0), python3-subunit, python3-testresources, python3-testtools (>= 1.4.0), python3-yaml (>= 3.1.0), subunit, testrepository"
-  ],
-  "Checksums-Sha256": [
-    "2de4c6f6e9f9ae82b6b9d482965b418091db89318a6df898a26d787c4c8598c8 3645 python-keystoneauth1_2.12.1-2.dsc 20dbae9e93e7659dca45d08cb5cf7977a18c59214c4a452a0d36cc1613d57a45 124536 python-keystoneauth1_2.12.1.orig.tar.xz e7b12eb6b008e38de4ec808a1da14e415cee8ea49803c77c401788a9c37351b4 3896 python-keystoneauth1_2.12.1-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/python-keystoneauth1"
-  ],
-  "Files": [
-    "057aedb863ccd11f7a5fdc669e901552 3645 python-keystoneauth1_2.12.1-2.dsc d93fa08485f97876a5b6fd1c8afdc9af 124536 python-keystoneauth1_2.12.1.orig.tar.xz 269c45842ca5a711f12fab8c9f8b56df 3896 python-keystoneauth1_2.12.1-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.openstack.org/"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "python-keystoneauth1"
-  ],
-  "Package-List": [
-    "python-keystoneauth1 deb python optional arch=all python-keystoneauth1-doc deb doc optional arch=all python3-keystoneauth1 deb python optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>, Corey Bryant <corey.bryant@canonical.com>,"
-  ],
-  "Vcs-Browser": [
-    "https://git.openstack.org/cgit/openstack/deb-python-keystoneauth1?h=debian%2Fnewton"
-  ],
-  "Vcs-Git": [
-    "https://git.openstack.org/git/openstack/deb-python-keystoneauth1 -b debian/newton"
-  ],
-  "Version": [
-    "2.12.1-2"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-keystoneauth1, python3-keystoneauth1, python-keystoneauth1-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-python, openstack-pkg-tools (>= 51~), python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.8), python3-setuptools"
+	],
+	"Build-Depends-Indep": [
+		"git, python-betamax (>= 0.7.0), python-coverage, python-crypto, python-fixtures (>= 3.0.0), python-hacking, python-iso8601 (>= 0.1.11), python-lxml, python-mock (>= 2.0), python-oauthlib (>= 0.6), python-os-testr (>= 0.7.0), python-oslo.config (>= 1:3.14.0), python-oslo.utils (>= 3.16.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.10.0), python-pep8, python-positional (>= 1.0.1), python-requests (>= 2.10.0), python-requests-kerberos (>= 0.6), python-requests-mock (>= 1.0), python-six (>= 1.9.0), python-stevedore (>= 1.16.0), python-testresources, python-testtools (>= 1.4.0), python-yaml (>= 3.1.0), python3-betamax (>= 0.7.0), python3-crypto, python3-fixtures (>= 3.0.0), python3-iso8601 (>= 0.1.11), python3-lxml, python3-mock (>= 2.0), python3-oauthlib (>= 0.6), python3-os-testr (>= 0.7.0), python3-oslo.config (>= 1:3.14.0), python3-oslo.utils (>= 3.16.0), python3-oslotest (>= 1:1.10.0), python3-pep8, python3-positional (>= 1.0.1), python3-requests (>= 2.10.0), python3-requests-kerberos (>= 0.6), python3-requests-mock (>= 1.0), python3-six (>= 1.9.0), python3-stevedore (>= 1.16.0), python3-subunit, python3-testresources, python3-testtools (>= 1.4.0), python3-yaml (>= 3.1.0), subunit, testrepository"
+	],
+	"Checksums-Sha256": [
+		"2de4c6f6e9f9ae82b6b9d482965b418091db89318a6df898a26d787c4c8598c8 3645 python-keystoneauth1_2.12.1-2.dsc 20dbae9e93e7659dca45d08cb5cf7977a18c59214c4a452a0d36cc1613d57a45 124536 python-keystoneauth1_2.12.1.orig.tar.xz e7b12eb6b008e38de4ec808a1da14e415cee8ea49803c77c401788a9c37351b4 3896 python-keystoneauth1_2.12.1-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-keystoneauth1"
+	],
+	"Files": [
+		"057aedb863ccd11f7a5fdc669e901552 3645 python-keystoneauth1_2.12.1-2.dsc d93fa08485f97876a5b6fd1c8afdc9af 124536 python-keystoneauth1_2.12.1.orig.tar.xz 269c45842ca5a711f12fab8c9f8b56df 3896 python-keystoneauth1_2.12.1-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.openstack.org/"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"python-keystoneauth1"
+	],
+	"Package-List": [
+		"python-keystoneauth1 deb python optional arch=all python-keystoneauth1-doc deb doc optional arch=all python3-keystoneauth1 deb python optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>, Corey Bryant <corey.bryant@canonical.com>,"
+	],
+	"Vcs-Browser": [
+		"https://git.openstack.org/cgit/openstack/deb-python-keystoneauth1?h=debian%2Fnewton"
+	],
+	"Vcs-Git": [
+		"https://git.openstack.org/git/openstack/deb-python-keystoneauth1 -b debian/newton"
+	],
+	"Version": [
+		"2.12.1-2"
+	]
 }

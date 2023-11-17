@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "prometheus-node-exporter"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 11), dh-golang (>= 1.17~), golang-any (>= 2:1.10~), golang-dbus-dev, golang-github-coreos-go-systemd-dev, golang-github-kolo-xmlrpc-dev, golang-github-prometheus-client-golang-dev (>= 0.9.0~pre1+git20180417), golang-github-prometheus-client-model-dev, golang-github-prometheus-common-dev (>= 0+git20180518), golang-golang-x-sys-dev (>= 0.0~git20170630), golang-gopkg-alecthomas-kingpin.v2-dev, golang-goprotobuf-dev, golang-procfs-dev (>= 0+git20181004)"
-  ],
-  "Checksums-Sha256": [
-    "328ab72c56b14d45b50d7b93b6d2c7c0ca2b1277f9fcebdeba31ce27a972d904 2694 prometheus-node-exporter_0.17.0+ds-2~bpo9+1.dsc 03639739230f5994494f417d7d83045f0de6e2c99fde16b3ba19dad13a56a0c3 314562 prometheus-node-exporter_0.17.0+ds.orig.tar.gz 5f60cd8add0468e944949ad6be2b9ddaa9c49a77db70a647c32fcf4c1bd1da89 12932 prometheus-node-exporter_0.17.0+ds-2~bpo9+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/prometheus-node-exporter"
-  ],
-  "Files": [
-    "1ab0b080e14973ebf6dcf183fb42aa65 2694 prometheus-node-exporter_0.17.0+ds-2~bpo9+1.dsc 4b21fc3dd3dea13e8cc6619d409bad21 314562 prometheus-node-exporter_0.17.0+ds.orig.tar.gz 1f56a5302fc48e7fbbc16a709b5e1bdf 12932 prometheus-node-exporter_0.17.0+ds-2~bpo9+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Go-Import-Path": [
-    "github.com/prometheus/node_exporter"
-  ],
-  "Homepage": [
-    "https://github.com/prometheus/node_exporter"
-  ],
-  "Maintainer": [
-    "Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "prometheus-node-exporter"
-  ],
-  "Package-List": [
-    "prometheus-node-exporter deb net optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.2.1"
-  ],
-  "Testsuite": [
-    "autopkgtest-pkg-go"
-  ],
-  "Uploaders": [
-    "Martín Ferrari <tincho@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/go-team/packages/prometheus-node-exporter"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/go-team/packages/prometheus-node-exporter.git"
-  ],
-  "Version": [
-    "0.17.0+ds-2~bpo9+1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"prometheus-node-exporter"
+	],
+	"Build-Depends": [
+		"debhelper (>= 11), dh-golang (>= 1.17~), golang-any (>= 2:1.10~), golang-dbus-dev, golang-github-coreos-go-systemd-dev, golang-github-kolo-xmlrpc-dev, golang-github-prometheus-client-golang-dev (>= 0.9.0~pre1+git20180417), golang-github-prometheus-client-model-dev, golang-github-prometheus-common-dev (>= 0+git20180518), golang-golang-x-sys-dev (>= 0.0~git20170630), golang-gopkg-alecthomas-kingpin.v2-dev, golang-goprotobuf-dev, golang-procfs-dev (>= 0+git20181004)"
+	],
+	"Checksums-Sha256": [
+		"328ab72c56b14d45b50d7b93b6d2c7c0ca2b1277f9fcebdeba31ce27a972d904 2694 prometheus-node-exporter_0.17.0+ds-2~bpo9+1.dsc 03639739230f5994494f417d7d83045f0de6e2c99fde16b3ba19dad13a56a0c3 314562 prometheus-node-exporter_0.17.0+ds.orig.tar.gz 5f60cd8add0468e944949ad6be2b9ddaa9c49a77db70a647c32fcf4c1bd1da89 12932 prometheus-node-exporter_0.17.0+ds-2~bpo9+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/prometheus-node-exporter"
+	],
+	"Files": [
+		"1ab0b080e14973ebf6dcf183fb42aa65 2694 prometheus-node-exporter_0.17.0+ds-2~bpo9+1.dsc 4b21fc3dd3dea13e8cc6619d409bad21 314562 prometheus-node-exporter_0.17.0+ds.orig.tar.gz 1f56a5302fc48e7fbbc16a709b5e1bdf 12932 prometheus-node-exporter_0.17.0+ds-2~bpo9+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Go-Import-Path": [
+		"github.com/prometheus/node_exporter"
+	],
+	"Homepage": [
+		"https://github.com/prometheus/node_exporter"
+	],
+	"Maintainer": [
+		"Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"prometheus-node-exporter"
+	],
+	"Package-List": [
+		"prometheus-node-exporter deb net optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.2.1"
+	],
+	"Testsuite": [
+		"autopkgtest-pkg-go"
+	],
+	"Uploaders": [
+		"Martín Ferrari <tincho@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/go-team/packages/prometheus-node-exporter"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/go-team/packages/prometheus-node-exporter.git"
+	],
+	"Version": [
+		"0.17.0+ds-2~bpo9+1"
+	]
 }

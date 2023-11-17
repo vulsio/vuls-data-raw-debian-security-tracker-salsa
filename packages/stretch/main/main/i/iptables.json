@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "linux-any all"
-  ],
-  "Binary": [
-    "iptables, iptables-dev, libxtables12, libxtables-dev, libiptc0, libiptc-dev, libip4tc0, libip4tc-dev, libip6tc0, libip6tc-dev, iptables-nftables-compat"
-  ],
-  "Build-Depends": [
-    "autoconf, automake, bison, debhelper (>= 10), flex, libmnl-dev, libnetfilter-conntrack-dev, libnetfilter-conntrack3, libnfnetlink-dev, libnftnl-dev, libtool (>= 2.2.6)"
-  ],
-  "Checksums-Sha256": [
-    "5ba41a2377437d3fa26d16029562de52df33dd4b870cbc8de062a5d591aed004 2818 iptables_1.6.0+snapshot20161117-6.dsc 4279f8a732edd01091dbc11e6766529b71b342337ad016d09653636d77339983 337604 iptables_1.6.0+snapshot20161117.orig.tar.bz2 fc9d7816f840ff1777e5b110a82a5900f11f4fa503f2c3e55cd7d21935ae9f51 62052 iptables_1.6.0+snapshot20161117-6.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/i/iptables"
-  ],
-  "Files": [
-    "3552f0beb19d4c06f9cf9cb44a20b95c 2818 iptables_1.6.0+snapshot20161117-6.dsc 5ad9803daee798f292da16203231a36d 337604 iptables_1.6.0+snapshot20161117.orig.tar.bz2 c9547320252da6171c42781cd1373334 62052 iptables_1.6.0+snapshot20161117-6.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.netfilter.org/"
-  ],
-  "Maintainer": [
-    "Arturo Borrero Gonzalez <arturo@debian.org>"
-  ],
-  "Package": [
-    "iptables"
-  ],
-  "Package-List": [
-    "iptables deb net important arch=linux-any iptables-dev deb oldlibs extra arch=all iptables-nftables-compat deb net optional arch=linux-any libip4tc-dev deb libdevel optional arch=linux-any libip4tc0 deb libs optional arch=linux-any libip6tc-dev deb libdevel optional arch=linux-any libip6tc0 deb libs optional arch=linux-any libiptc-dev deb libdevel optional arch=linux-any libiptc0 deb libs optional arch=linux-any libxtables-dev deb libdevel optional arch=linux-any libxtables12 deb libs optional arch=linux-any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Laurence J. Lane <ljlane@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/git/pkg-netfilter/pkg-iptables.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-netfilter/pkg-iptables.git"
-  ],
-  "Version": [
-    "1.6.0+snapshot20161117-6"
-  ]
+	"Architecture": [
+		"linux-any all"
+	],
+	"Binary": [
+		"iptables, iptables-dev, libxtables12, libxtables-dev, libiptc0, libiptc-dev, libip4tc0, libip4tc-dev, libip6tc0, libip6tc-dev, iptables-nftables-compat"
+	],
+	"Build-Depends": [
+		"autoconf, automake, bison, debhelper (>= 10), flex, libmnl-dev, libnetfilter-conntrack-dev, libnetfilter-conntrack3, libnfnetlink-dev, libnftnl-dev, libtool (>= 2.2.6)"
+	],
+	"Checksums-Sha256": [
+		"5ba41a2377437d3fa26d16029562de52df33dd4b870cbc8de062a5d591aed004 2818 iptables_1.6.0+snapshot20161117-6.dsc 4279f8a732edd01091dbc11e6766529b71b342337ad016d09653636d77339983 337604 iptables_1.6.0+snapshot20161117.orig.tar.bz2 fc9d7816f840ff1777e5b110a82a5900f11f4fa503f2c3e55cd7d21935ae9f51 62052 iptables_1.6.0+snapshot20161117-6.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/i/iptables"
+	],
+	"Files": [
+		"3552f0beb19d4c06f9cf9cb44a20b95c 2818 iptables_1.6.0+snapshot20161117-6.dsc 5ad9803daee798f292da16203231a36d 337604 iptables_1.6.0+snapshot20161117.orig.tar.bz2 c9547320252da6171c42781cd1373334 62052 iptables_1.6.0+snapshot20161117-6.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.netfilter.org/"
+	],
+	"Maintainer": [
+		"Arturo Borrero Gonzalez <arturo@debian.org>"
+	],
+	"Package": [
+		"iptables"
+	],
+	"Package-List": [
+		"iptables deb net important arch=linux-any iptables-dev deb oldlibs extra arch=all iptables-nftables-compat deb net optional arch=linux-any libip4tc-dev deb libdevel optional arch=linux-any libip4tc0 deb libs optional arch=linux-any libip6tc-dev deb libdevel optional arch=linux-any libip6tc0 deb libs optional arch=linux-any libiptc-dev deb libdevel optional arch=linux-any libiptc0 deb libs optional arch=linux-any libxtables-dev deb libdevel optional arch=linux-any libxtables12 deb libs optional arch=linux-any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Laurence J. Lane <ljlane@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/git/pkg-netfilter/pkg-iptables.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-netfilter/pkg-iptables.git"
+	],
+	"Version": [
+		"1.6.0+snapshot20161117-6"
+	]
 }

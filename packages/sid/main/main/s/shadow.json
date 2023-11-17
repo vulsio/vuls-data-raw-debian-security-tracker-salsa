@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "passwd, login, uidmap, libsubid4, libsubid-dev"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), gettext, libcrypt-dev, libpam0g-dev, quilt, xsltproc <!nodoc>, docbook-xsl <!nodoc>, docbook-xml <!nodoc>, libxml2-utils <!nodoc>, libselinux1-dev [linux-any], libsemanage-dev [linux-any], itstool <!nodoc>, bison, libaudit-dev [linux-any]"
-  ],
-  "Checksums-Sha256": [
-    "13f79d61847c6ea525dcde26bb71b99d24b4d15cbbebf5070537c9a8caa50a52 2407 shadow_4.13+dfsg1-3.dsc a8bb3a2aceff1cbe39d0f50687dcc1d7e7be0516a9d954d8e2eedb93f5906207 1811752 shadow_4.13+dfsg1.orig.tar.xz 4fac3636727d73b660d18d084532e2bcc7d6bf5632b5e3c2897aae9cad4a9d8e 82360 shadow_4.13+dfsg1-3.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/s/shadow"
-  ],
-  "Files": [
-    "16f5f1a271504e3ef93e0c57b3e41df1 2407 shadow_4.13+dfsg1-3.dsc 8eff6d434a14a5db7ecb10a3228c45b4 1811752 shadow_4.13+dfsg1.orig.tar.xz 2ed7eba88585c2a1a72f24391972d436 82360 shadow_4.13+dfsg1-3.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/shadow-maint/shadow"
-  ],
-  "Maintainer": [
-    "Shadow package maintainers <pkg-shadow-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "shadow"
-  ],
-  "Package-List": [
-    "libsubid-dev deb libdevel optional arch=any libsubid4 deb libs optional arch=any login deb admin required arch=any essential=yes passwd deb admin required arch=any uidmap deb admin optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "admin"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Serge Hallyn <serge@hallyn.com>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian/shadow"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian/shadow.git -b master"
-  ],
-  "Version": [
-    "1:4.13+dfsg1-3"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"passwd, login, uidmap, libsubid4, libsubid-dev"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), gettext, libcrypt-dev, libpam0g-dev, quilt, xsltproc <!nodoc>, docbook-xsl <!nodoc>, docbook-xml <!nodoc>, libxml2-utils <!nodoc>, libselinux1-dev [linux-any], libsemanage-dev [linux-any], itstool <!nodoc>, bison, libaudit-dev [linux-any]"
+	],
+	"Checksums-Sha256": [
+		"13f79d61847c6ea525dcde26bb71b99d24b4d15cbbebf5070537c9a8caa50a52 2407 shadow_4.13+dfsg1-3.dsc a8bb3a2aceff1cbe39d0f50687dcc1d7e7be0516a9d954d8e2eedb93f5906207 1811752 shadow_4.13+dfsg1.orig.tar.xz 4fac3636727d73b660d18d084532e2bcc7d6bf5632b5e3c2897aae9cad4a9d8e 82360 shadow_4.13+dfsg1-3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/s/shadow"
+	],
+	"Files": [
+		"16f5f1a271504e3ef93e0c57b3e41df1 2407 shadow_4.13+dfsg1-3.dsc 8eff6d434a14a5db7ecb10a3228c45b4 1811752 shadow_4.13+dfsg1.orig.tar.xz 2ed7eba88585c2a1a72f24391972d436 82360 shadow_4.13+dfsg1-3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/shadow-maint/shadow"
+	],
+	"Maintainer": [
+		"Shadow package maintainers <pkg-shadow-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"shadow"
+	],
+	"Package-List": [
+		"libsubid-dev deb libdevel optional arch=any libsubid4 deb libs optional arch=any login deb admin required arch=any essential=yes passwd deb admin required arch=any uidmap deb admin optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"admin"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Serge Hallyn <serge@hallyn.com>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/shadow"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/shadow.git -b master"
+	],
+	"Version": [
+		"1:4.13+dfsg1-3"
+	]
 }

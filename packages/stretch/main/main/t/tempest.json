@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-tempest, python3-tempest, tempest"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-python, openstack-pkg-tools (>= 52~), python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.8), python3-setuptools"
-  ],
-  "Build-Depends-Indep": [
-    "git, python-cliff (>= 1.15.0), python-coverage, python-fixtures (>= 3.0.0), python-hacking, python-jsonschema, python-mock (>= 2.0), python-mysqldb, python-netaddr (>= 0.7.12), python-os-testr (>= 0.7.0), python-oslo.concurrency (>= 3.8.0), python-oslo.config (>= 1:3.14.0), python-oslo.i18n (>= 2.1.0), python-oslo.log (>= 1.14.0), python-oslo.serialization (>= 1.10.0), python-oslo.utils (>= 3.16.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.10.0), python-paramiko (>= 2.0), python-pep8, python-prettytable, python-psycopg2, python-six (>= 1.9.0), python-stevedore (>= 1.16.0), python-swiftclient, python-testscenarios, python-testtools (>= 1.4.0), python-urllib3 (>= 1.15.1), python-yaml, python3-cliff (>= 1.15.0), python3-coverage, python3-fixtures (>= 3.0.0), python3-hacking, python3-jsonschema, python3-mock (>= 2.0), python3-mysqldb, python3-netaddr (>= 0.7.12), python3-os-testr (>= 0.7.0), python3-oslo.concurrency (>= 3.8.0), python3-oslo.config (>= 1:3.14.0), python3-oslo.i18n (>= 2.1.0), python3-oslo.log (>= 1.14.0), python3-oslo.serialization (>= 1.10.0), python3-oslo.utils (>= 3.16.0), python3-oslotest (>= 1:1.10.0), python3-paramiko (>= 2.0), python3-prettytable, python3-psycopg2, python3-six (>= 1.9.0), python3-stevedore (>= 1.16.0), python3-subunit, python3-swiftclient, python3-testscenarios, python3-testtools (>= 1.4.0), python3-urllib3 (>= 1.15.1), python3-yaml, subunit, testrepository"
-  ],
-  "Checksums-Sha256": [
-    "70e479960de9a7d10d0c212a34f8d0ae91f90fc580c3cd4aee071f503ed5470d 3707 tempest_12.2.0-1.dsc 5c6e437039e2111bba8d83709777a5def251889216b794e62e0d30c69868b10e 472388 tempest_12.2.0.orig.tar.xz 23de44a0fe1c2cb5a1131ca201844ff26a4c1cf3e651a3490057f9edd49a318e 6880 tempest_12.2.0-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/t/tempest"
-  ],
-  "Files": [
-    "44e21df680ee22ce59f77974df4ecf9b 3707 tempest_12.2.0-1.dsc 2e7386a2a0c264cff34beb1961d29572 472388 tempest_12.2.0.orig.tar.xz be681b86112a30f3117584dd7a644fa0 6880 tempest_12.2.0-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/openstack/tempest"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "tempest"
-  ],
-  "Package-List": [
-    "python-tempest deb python optional arch=all python3-tempest deb python optional arch=all tempest deb python optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>, Corey Bryant <corey.bryant@canonical.com>,"
-  ],
-  "Vcs-Browser": [
-    "https://git.openstack.org/cgit/openstack/deb-tempest?h=debian%2Fnewton"
-  ],
-  "Vcs-Git": [
-    "https://git.openstack.org/openstack/deb-tempest -b debian/newton"
-  ],
-  "Version": [
-    "1:12.2.0-1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-tempest, python3-tempest, tempest"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-python, openstack-pkg-tools (>= 52~), python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.8), python3-setuptools"
+	],
+	"Build-Depends-Indep": [
+		"git, python-cliff (>= 1.15.0), python-coverage, python-fixtures (>= 3.0.0), python-hacking, python-jsonschema, python-mock (>= 2.0), python-mysqldb, python-netaddr (>= 0.7.12), python-os-testr (>= 0.7.0), python-oslo.concurrency (>= 3.8.0), python-oslo.config (>= 1:3.14.0), python-oslo.i18n (>= 2.1.0), python-oslo.log (>= 1.14.0), python-oslo.serialization (>= 1.10.0), python-oslo.utils (>= 3.16.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.10.0), python-paramiko (>= 2.0), python-pep8, python-prettytable, python-psycopg2, python-six (>= 1.9.0), python-stevedore (>= 1.16.0), python-swiftclient, python-testscenarios, python-testtools (>= 1.4.0), python-urllib3 (>= 1.15.1), python-yaml, python3-cliff (>= 1.15.0), python3-coverage, python3-fixtures (>= 3.0.0), python3-hacking, python3-jsonschema, python3-mock (>= 2.0), python3-mysqldb, python3-netaddr (>= 0.7.12), python3-os-testr (>= 0.7.0), python3-oslo.concurrency (>= 3.8.0), python3-oslo.config (>= 1:3.14.0), python3-oslo.i18n (>= 2.1.0), python3-oslo.log (>= 1.14.0), python3-oslo.serialization (>= 1.10.0), python3-oslo.utils (>= 3.16.0), python3-oslotest (>= 1:1.10.0), python3-paramiko (>= 2.0), python3-prettytable, python3-psycopg2, python3-six (>= 1.9.0), python3-stevedore (>= 1.16.0), python3-subunit, python3-swiftclient, python3-testscenarios, python3-testtools (>= 1.4.0), python3-urllib3 (>= 1.15.1), python3-yaml, subunit, testrepository"
+	],
+	"Checksums-Sha256": [
+		"70e479960de9a7d10d0c212a34f8d0ae91f90fc580c3cd4aee071f503ed5470d 3707 tempest_12.2.0-1.dsc 5c6e437039e2111bba8d83709777a5def251889216b794e62e0d30c69868b10e 472388 tempest_12.2.0.orig.tar.xz 23de44a0fe1c2cb5a1131ca201844ff26a4c1cf3e651a3490057f9edd49a318e 6880 tempest_12.2.0-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/t/tempest"
+	],
+	"Files": [
+		"44e21df680ee22ce59f77974df4ecf9b 3707 tempest_12.2.0-1.dsc 2e7386a2a0c264cff34beb1961d29572 472388 tempest_12.2.0.orig.tar.xz be681b86112a30f3117584dd7a644fa0 6880 tempest_12.2.0-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/openstack/tempest"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"tempest"
+	],
+	"Package-List": [
+		"python-tempest deb python optional arch=all python3-tempest deb python optional arch=all tempest deb python optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>, Corey Bryant <corey.bryant@canonical.com>,"
+	],
+	"Vcs-Browser": [
+		"https://git.openstack.org/cgit/openstack/deb-tempest?h=debian%2Fnewton"
+	],
+	"Vcs-Git": [
+		"https://git.openstack.org/openstack/deb-tempest -b debian/newton"
+	],
+	"Version": [
+		"1:12.2.0-1"
+	]
 }

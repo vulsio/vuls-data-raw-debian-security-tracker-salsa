@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-ceilometerclient, python3-ceilometerclient, python-ceilometerclient-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-python, openstack-pkg-tools, python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.8), python3-setuptools"
-  ],
-  "Build-Depends-Indep": [
-    "python-coverage, python-fixtures, python-hacking, python-iso8601, python-keystoneclient (>= 1:1.6.0), python-mock, python-oslo.i18n (>= 2.1.0), python-oslo.serialization (>= 1.10.0), python-oslo.utils (>= 3.5.0), python-oslosphinx (>= 2.5.0), python-prettytable, python-requests (>= 2.8.1), python-six (>= 1.9.0), python-stevedore (>= 1.5.0), python-tempest-lib (>= 0.14.0), python-testtools, python-keystoneauth1 (>= 2.1.0), python3-fixtures, python3-iso8601, python3-keystoneclient (>= 1:1.6.0), python3-mock, python3-oslo.i18n (>= 2.1.0), python3-oslo.serialization (>= 1.10.0), python3-oslo.utils (>= 3.5.0), python3-prettytable, python3-requests (>= 2.8.1), python3-six (>= 1.9.0), python3-stevedore (>= 1.5.0), python3-subunit, python3-tempest-lib (>= 0.14.0), python3-testtools, python3-keystoneauth1 (>= 2.1.0), subunit, testrepository"
-  ],
-  "Checksums-Sha1": [
-    "ecd7e77564c37f4798acdeb5c9b0b0469df3b500 3314 python-ceilometerclient_2.4.0-2~bpo8+1.dsc a592ddf4c863db6a206c322f6f3359b58c1ed4da 70184 python-ceilometerclient_2.4.0.orig.tar.xz 5315738df5297f085b1b5f64df6a43bbc3684665 5892 python-ceilometerclient_2.4.0-2~bpo8+1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "79b54d696e140169f86cd5e35afd2d44faff2a24477e69c235730d51d429f28c 3314 python-ceilometerclient_2.4.0-2~bpo8+1.dsc 675efbb457ac7cd90c5edc89bfcd0b334f4384e4e7a62ef7033e611b00c562ea 70184 python-ceilometerclient_2.4.0.orig.tar.xz bac27bfd2a0f19e5b74dff505730b7937f0301fd230b226f9e03c9e193106870 5892 python-ceilometerclient_2.4.0-2~bpo8+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/python-ceilometerclient"
-  ],
-  "Files": [
-    "511db3e524d3f406ab4173b2d7888e1f 3314 python-ceilometerclient_2.4.0-2~bpo8+1.dsc 614ab9e21a7677bbb0c698f47eb08408 70184 python-ceilometerclient_2.4.0.orig.tar.xz 906d49d8c836c110082dcba166e91f08 5892 python-ceilometerclient_2.4.0-2~bpo8+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.openstack.org"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "python-ceilometerclient"
-  ],
-  "Package-List": [
-    "python-ceilometerclient deb python extra arch=all python-ceilometerclient-doc deb doc extra arch=all python3-ceilometerclient deb python extra arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.7"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>, Corey Bryant <corey.bryant@canonical.com>,"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/openstack/python-ceilometerclient.git/"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/openstack/python-ceilometerclient.git"
-  ],
-  "Version": [
-    "2.4.0-2~bpo8+1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-ceilometerclient, python3-ceilometerclient, python-ceilometerclient-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-python, openstack-pkg-tools, python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.8), python3-setuptools"
+	],
+	"Build-Depends-Indep": [
+		"python-coverage, python-fixtures, python-hacking, python-iso8601, python-keystoneclient (>= 1:1.6.0), python-mock, python-oslo.i18n (>= 2.1.0), python-oslo.serialization (>= 1.10.0), python-oslo.utils (>= 3.5.0), python-oslosphinx (>= 2.5.0), python-prettytable, python-requests (>= 2.8.1), python-six (>= 1.9.0), python-stevedore (>= 1.5.0), python-tempest-lib (>= 0.14.0), python-testtools, python-keystoneauth1 (>= 2.1.0), python3-fixtures, python3-iso8601, python3-keystoneclient (>= 1:1.6.0), python3-mock, python3-oslo.i18n (>= 2.1.0), python3-oslo.serialization (>= 1.10.0), python3-oslo.utils (>= 3.5.0), python3-prettytable, python3-requests (>= 2.8.1), python3-six (>= 1.9.0), python3-stevedore (>= 1.5.0), python3-subunit, python3-tempest-lib (>= 0.14.0), python3-testtools, python3-keystoneauth1 (>= 2.1.0), subunit, testrepository"
+	],
+	"Checksums-Sha1": [
+		"ecd7e77564c37f4798acdeb5c9b0b0469df3b500 3314 python-ceilometerclient_2.4.0-2~bpo8+1.dsc a592ddf4c863db6a206c322f6f3359b58c1ed4da 70184 python-ceilometerclient_2.4.0.orig.tar.xz 5315738df5297f085b1b5f64df6a43bbc3684665 5892 python-ceilometerclient_2.4.0-2~bpo8+1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"79b54d696e140169f86cd5e35afd2d44faff2a24477e69c235730d51d429f28c 3314 python-ceilometerclient_2.4.0-2~bpo8+1.dsc 675efbb457ac7cd90c5edc89bfcd0b334f4384e4e7a62ef7033e611b00c562ea 70184 python-ceilometerclient_2.4.0.orig.tar.xz bac27bfd2a0f19e5b74dff505730b7937f0301fd230b226f9e03c9e193106870 5892 python-ceilometerclient_2.4.0-2~bpo8+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-ceilometerclient"
+	],
+	"Files": [
+		"511db3e524d3f406ab4173b2d7888e1f 3314 python-ceilometerclient_2.4.0-2~bpo8+1.dsc 614ab9e21a7677bbb0c698f47eb08408 70184 python-ceilometerclient_2.4.0.orig.tar.xz 906d49d8c836c110082dcba166e91f08 5892 python-ceilometerclient_2.4.0-2~bpo8+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.openstack.org"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"python-ceilometerclient"
+	],
+	"Package-List": [
+		"python-ceilometerclient deb python extra arch=all python-ceilometerclient-doc deb doc extra arch=all python3-ceilometerclient deb python extra arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.7"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>, Corey Bryant <corey.bryant@canonical.com>,"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/openstack/python-ceilometerclient.git/"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/openstack/python-ceilometerclient.git"
+	],
+	"Version": [
+		"2.4.0-2~bpo8+1"
+	]
 }

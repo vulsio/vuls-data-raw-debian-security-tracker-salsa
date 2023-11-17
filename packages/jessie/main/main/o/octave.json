@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "octave, octave-dbg, octave-common, octave-doc, octave-htmldoc, octave-info, liboctave2, liboctave-dev"
-  ],
-  "Build-Depends": [
-    "gfortran, debhelper (>= 9), automake, dh-autoreconf, texinfo, texlive-latex-base, texlive-generic-recommended, epstool, transfig, pstoedit, libreadline-dev, xauth, xvfb, libncurses5-dev, gperf, libhdf5-dev (>= 1.8.8), libblas-dev (>= 1.2-7), liblapack-dev (>= 3.4.1-4), gnuplot-nox, libfftw3-dev, less, libpcre3-dev, flex, libglpk-dev (>= 4.15), libsuitesparse-dev (>= 1:3.2.0), gawk, ghostscript, libcurl4-gnutls-dev | libcurl4-dev, libqhull-dev, desktop-file-utils, libfltk1.3-dev, libgl2ps-dev, libgraphicsmagick++1-dev, libftgl-dev, libfontconfig1-dev, libqrupdate-dev, libarpack2-dev (>= 2.1+parpack96.dfsg-2), dh-exec, dpkg-dev (>= 1.16.1), default-jdk, libqscintilla2-dev, libxft-dev, javahelper"
-  ],
-  "Checksums-Sha1": [
-    "a46cf0407a2a165cfefb850ee1ed341ee8db79cf 2952 octave_3.8.2-4.dsc 02c38e0f69bce4e6dd7be7d301898347085d9c2d 17834980 octave_3.8.2.orig.tar.bz2 9371bb15604299de8e303da0a49493806b34c9a1 59248 octave_3.8.2-4.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "1af42ca17db82beef96c6763b0779c03735fbdbfa2634cab74eb0ce656079fa9 2952 octave_3.8.2-4.dsc 83bbd701aab04e7e57d0d5b8373dd54719bebb64ce0a850e69bf3d7454f33bae 17834980 octave_3.8.2.orig.tar.bz2 f78774fa1c5af89087ab31c14cebdb8d07a7677936afa66c3755441c3c553c89 59248 octave_3.8.2-4.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/o/octave"
-  ],
-  "Files": [
-    "452436565d0b18fa2497e6d54d335f80 2952 octave_3.8.2-4.dsc 188bd97e22054f9c62701ee0e6800dc1 17834980 octave_3.8.2.orig.tar.bz2 4130d1ceea2482f93b60015f81e40fc4 59248 octave_3.8.2-4.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.octave.org/"
-  ],
-  "Maintainer": [
-    "Debian Octave Group <pkg-octave-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "octave"
-  ],
-  "Package-List": [
-    "liboctave-dev deb libdevel optional arch=any liboctave2 deb libs optional arch=any octave deb math optional arch=any octave-common deb math optional arch=all octave-dbg deb debug extra arch=any octave-doc deb doc optional arch=all octave-htmldoc deb doc optional arch=all octave-info deb doc optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "math"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Sébastien Villemot <sebastien@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-octave/octave.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-octave/octave.git"
-  ],
-  "Version": [
-    "3.8.2-4"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"octave, octave-dbg, octave-common, octave-doc, octave-htmldoc, octave-info, liboctave2, liboctave-dev"
+	],
+	"Build-Depends": [
+		"gfortran, debhelper (>= 9), automake, dh-autoreconf, texinfo, texlive-latex-base, texlive-generic-recommended, epstool, transfig, pstoedit, libreadline-dev, xauth, xvfb, libncurses5-dev, gperf, libhdf5-dev (>= 1.8.8), libblas-dev (>= 1.2-7), liblapack-dev (>= 3.4.1-4), gnuplot-nox, libfftw3-dev, less, libpcre3-dev, flex, libglpk-dev (>= 4.15), libsuitesparse-dev (>= 1:3.2.0), gawk, ghostscript, libcurl4-gnutls-dev | libcurl4-dev, libqhull-dev, desktop-file-utils, libfltk1.3-dev, libgl2ps-dev, libgraphicsmagick++1-dev, libftgl-dev, libfontconfig1-dev, libqrupdate-dev, libarpack2-dev (>= 2.1+parpack96.dfsg-2), dh-exec, dpkg-dev (>= 1.16.1), default-jdk, libqscintilla2-dev, libxft-dev, javahelper"
+	],
+	"Checksums-Sha1": [
+		"a46cf0407a2a165cfefb850ee1ed341ee8db79cf 2952 octave_3.8.2-4.dsc 02c38e0f69bce4e6dd7be7d301898347085d9c2d 17834980 octave_3.8.2.orig.tar.bz2 9371bb15604299de8e303da0a49493806b34c9a1 59248 octave_3.8.2-4.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"1af42ca17db82beef96c6763b0779c03735fbdbfa2634cab74eb0ce656079fa9 2952 octave_3.8.2-4.dsc 83bbd701aab04e7e57d0d5b8373dd54719bebb64ce0a850e69bf3d7454f33bae 17834980 octave_3.8.2.orig.tar.bz2 f78774fa1c5af89087ab31c14cebdb8d07a7677936afa66c3755441c3c553c89 59248 octave_3.8.2-4.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/o/octave"
+	],
+	"Files": [
+		"452436565d0b18fa2497e6d54d335f80 2952 octave_3.8.2-4.dsc 188bd97e22054f9c62701ee0e6800dc1 17834980 octave_3.8.2.orig.tar.bz2 4130d1ceea2482f93b60015f81e40fc4 59248 octave_3.8.2-4.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.octave.org/"
+	],
+	"Maintainer": [
+		"Debian Octave Group <pkg-octave-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"octave"
+	],
+	"Package-List": [
+		"liboctave-dev deb libdevel optional arch=any liboctave2 deb libs optional arch=any octave deb math optional arch=any octave-common deb math optional arch=all octave-dbg deb debug extra arch=any octave-doc deb doc optional arch=all octave-htmldoc deb doc optional arch=all octave-info deb doc optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"math"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Sébastien Villemot <sebastien@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-octave/octave.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-octave/octave.git"
+	],
+	"Version": [
+		"3.8.2-4"
+	]
 }

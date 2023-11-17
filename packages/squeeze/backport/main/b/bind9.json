@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "bind9, bind9utils, bind9-doc, host, bind9-host, libbind-dev, libbind9-80, libdns88, libisc84, liblwres80, libisccc80, libisccfg82, dnsutils, lwresd"
-  ],
-  "Build-Conflicts": [
-    "libdb4.2-dev"
-  ],
-  "Build-Depends": [
-    "libkrb5-dev, debhelper (>= 5), libssl-dev, libtool, bison, libdb-dev (>> 4.6), libldap2-dev, libxml2-dev, libcap2-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], hardening-wrapper, libgeoip-dev (>= 1.4.6.dfsg-5), dpkg-dev (>= 1.15.5)"
-  ],
-  "Checksums-Sha1": [
-    "94ea450ad3ae3452226c06be190261ae2a7d7980 2687 bind9_9.8.4.dfsg.P1-6+nmu2+deb7u2~bpo60+1.dsc 3ab83667ab3ce2df6bdf558cc1e5a361fe5b539b 7258441 bind9_9.8.4.dfsg.P1.orig.tar.gz 8e4b999a067e2bb21ba512a83f4f58147f50e311 686434 bind9_9.8.4.dfsg.P1-6+nmu2+deb7u2~bpo60+1.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "4dfe7143b0999275c7a7e9f480a6e71ee1e8cb3d7f2a687c3c788279f75d156c 2687 bind9_9.8.4.dfsg.P1-6+nmu2+deb7u2~bpo60+1.dsc de7b8ef3f5336ba2c19e7ad8cec618e1bf77fbd81cc2e45cc7f798544e843bdb 7258441 bind9_9.8.4.dfsg.P1.orig.tar.gz df1c8b4dc7c663b349cd7432263b5e14d17020d9f9d9255a18bb1251423f1564 686434 bind9_9.8.4.dfsg.P1-6+nmu2+deb7u2~bpo60+1.diff.gz"
-  ],
-  "Directory": [
-    "pool/main/b/bind9"
-  ],
-  "Files": [
-    "612881a9325711cb72cd2e8843607469 2687 bind9_9.8.4.dfsg.P1-6+nmu2+deb7u2~bpo60+1.dsc 96f5c03a8b42d29519c8860bea5a8353 7258441 bind9_9.8.4.dfsg.P1.orig.tar.gz 8b65503e85ed37fdce713b83488b993c 686434 bind9_9.8.4.dfsg.P1-6+nmu2+deb7u2~bpo60+1.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Maintainer": [
-    "LaMont Jones <lamont@debian.org>"
-  ],
-  "Package": [
-    "bind9"
-  ],
-  "Package-List": [
-    "bind9 deb net optional bind9-doc deb doc optional bind9-host deb net standard bind9utils deb net optional dnsutils deb net standard host deb net standard libbind-dev deb libdevel optional libbind9-80 deb libs standard libdns88 deb libs standard libisc84 deb libs standard libisccc80 deb libs optional libisccfg82 deb libs optional liblwres80 deb libs standard lwresd deb net optional"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.7.3.0"
-  ],
-  "Uploaders": [
-    "Bdale Garbee <bdale@gag.com>, Christoph Berg <myon@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://git.debian.org/?p=users/lamont/bind9.git"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/~lamont/bind9.git"
-  ],
-  "Version": [
-    "1:9.8.4.dfsg.P1-6+nmu2+deb7u2~bpo60+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"bind9, bind9utils, bind9-doc, host, bind9-host, libbind-dev, libbind9-80, libdns88, libisc84, liblwres80, libisccc80, libisccfg82, dnsutils, lwresd"
+	],
+	"Build-Conflicts": [
+		"libdb4.2-dev"
+	],
+	"Build-Depends": [
+		"libkrb5-dev, debhelper (>= 5), libssl-dev, libtool, bison, libdb-dev (>> 4.6), libldap2-dev, libxml2-dev, libcap2-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], hardening-wrapper, libgeoip-dev (>= 1.4.6.dfsg-5), dpkg-dev (>= 1.15.5)"
+	],
+	"Checksums-Sha1": [
+		"94ea450ad3ae3452226c06be190261ae2a7d7980 2687 bind9_9.8.4.dfsg.P1-6+nmu2+deb7u2~bpo60+1.dsc 3ab83667ab3ce2df6bdf558cc1e5a361fe5b539b 7258441 bind9_9.8.4.dfsg.P1.orig.tar.gz 8e4b999a067e2bb21ba512a83f4f58147f50e311 686434 bind9_9.8.4.dfsg.P1-6+nmu2+deb7u2~bpo60+1.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"4dfe7143b0999275c7a7e9f480a6e71ee1e8cb3d7f2a687c3c788279f75d156c 2687 bind9_9.8.4.dfsg.P1-6+nmu2+deb7u2~bpo60+1.dsc de7b8ef3f5336ba2c19e7ad8cec618e1bf77fbd81cc2e45cc7f798544e843bdb 7258441 bind9_9.8.4.dfsg.P1.orig.tar.gz df1c8b4dc7c663b349cd7432263b5e14d17020d9f9d9255a18bb1251423f1564 686434 bind9_9.8.4.dfsg.P1-6+nmu2+deb7u2~bpo60+1.diff.gz"
+	],
+	"Directory": [
+		"pool/main/b/bind9"
+	],
+	"Files": [
+		"612881a9325711cb72cd2e8843607469 2687 bind9_9.8.4.dfsg.P1-6+nmu2+deb7u2~bpo60+1.dsc 96f5c03a8b42d29519c8860bea5a8353 7258441 bind9_9.8.4.dfsg.P1.orig.tar.gz 8b65503e85ed37fdce713b83488b993c 686434 bind9_9.8.4.dfsg.P1-6+nmu2+deb7u2~bpo60+1.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Maintainer": [
+		"LaMont Jones <lamont@debian.org>"
+	],
+	"Package": [
+		"bind9"
+	],
+	"Package-List": [
+		"bind9 deb net optional bind9-doc deb doc optional bind9-host deb net standard bind9utils deb net optional dnsutils deb net standard host deb net standard libbind-dev deb libdevel optional libbind9-80 deb libs standard libdns88 deb libs standard libisc84 deb libs standard libisccc80 deb libs optional libisccfg82 deb libs optional liblwres80 deb libs standard lwresd deb net optional"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.7.3.0"
+	],
+	"Uploaders": [
+		"Bdale Garbee <bdale@gag.com>, Christoph Berg <myon@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://git.debian.org/?p=users/lamont/bind9.git"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/~lamont/bind9.git"
+	],
+	"Version": [
+		"1:9.8.4.dfsg.P1-6+nmu2+deb7u2~bpo60+1"
+	]
 }

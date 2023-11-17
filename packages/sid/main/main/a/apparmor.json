@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "linux-any all"
-  ],
-  "Binary": [
-    "apparmor, apparmor-utils, apparmor-profiles, libapparmor-dev, libapparmor1, libapache2-mod-apparmor, libpam-apparmor, apparmor-notify, python3-libapparmor, python3-apparmor, dh-apparmor"
-  ],
-  "Build-Depends": [
-    "apache2-dev, autoconf, automake, bison, bzip2, chrpath, debhelper-compat (= 13), dejagnu <!nocheck>, dh-apache2, dh-python, dh-sequence-python3, flex, liblocale-gettext-perl <!nocheck>, libpython3-all-dev, libpam-dev, libtool, perl <!nocheck>, pkg-config, po-debconf, python3:any, python3-all:any, python3-all-dev:any, python3-setuptools, swig"
-  ],
-  "Checksums-Sha256": [
-    "f423e24aceceda97141a5f82440445a7d68cfe6159e3c97796c859b73ba0ee4f 2999 apparmor_3.0.12-1.dsc 7c7aed0b68d9e73fa1bb6665ece65a704217fb32dbad04ae01cb5f6d8d24ab31 7969246 apparmor_3.0.12.orig.tar.gz 1b5152634072c03b690ef35c5243489679e4ca4903ee904209b687950f61991b 870 apparmor_3.0.12.orig.tar.gz.asc eb75f12b128780d49a08ae90b35700c9c1f18d98b38aab7e7adb1f3e65e664c4 90104 apparmor_3.0.12-1.debian.tar.xz"
-  ],
-  "Dgit": [
-    "6b7d02979c814d7592cb4676ffe4cf3ea2789201 debian archive/debian/3.0.12-1 https://git.dgit.debian.org/apparmor"
-  ],
-  "Directory": [
-    "pool/main/a/apparmor"
-  ],
-  "Files": [
-    "00ee350dc14fce3d60fdb49b4f6ad327 2999 apparmor_3.0.12-1.dsc 254fd4c99b52021414e337ad3e8e3576 7969246 apparmor_3.0.12.orig.tar.gz f42981fafbce3d998b621004ee3df7f7 870 apparmor_3.0.12.orig.tar.gz.asc 5fafa0dd4bea48ffde45e8818a44ce7b 90104 apparmor_3.0.12-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://apparmor.net/"
-  ],
-  "Maintainer": [
-    "Debian AppArmor Team <pkg-apparmor-team@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "apparmor"
-  ],
-  "Package-List": [
-    "apparmor deb admin optional arch=linux-any apparmor-notify deb admin optional arch=all apparmor-profiles deb admin optional arch=all apparmor-utils deb admin optional arch=all dh-apparmor deb devel optional arch=all libapache2-mod-apparmor deb httpd optional arch=linux-any libapparmor-dev deb libdevel optional arch=linux-any libapparmor1 deb libs optional arch=linux-any libpam-apparmor deb admin optional arch=linux-any python3-apparmor deb python optional arch=all python3-libapparmor deb python optional arch=linux-any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "admin"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "@builddeps@, apparmor-profiles-extra, bind9, cups-browsed, cups-daemon, evince, haveged, libreoffice-common, libvirt-daemon-system, linux-image-amd64, linux-image-generic, man-db, ntp, onioncircuits, tcpdump, tor"
-  ],
-  "Uploaders": [
-    "intrigeri <intrigeri@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/apparmor-team/apparmor/tree/debian/unstable"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/apparmor-team/apparmor.git -b debian/unstable"
-  ],
-  "Version": [
-    "3.0.12-1"
-  ]
+	"Architecture": [
+		"linux-any all"
+	],
+	"Binary": [
+		"apparmor, apparmor-utils, apparmor-profiles, libapparmor-dev, libapparmor1, libapache2-mod-apparmor, libpam-apparmor, apparmor-notify, python3-libapparmor, python3-apparmor, dh-apparmor"
+	],
+	"Build-Depends": [
+		"apache2-dev, autoconf, automake, bison, bzip2, chrpath, debhelper-compat (= 13), dejagnu <!nocheck>, dh-apache2, dh-python, dh-sequence-python3, flex, liblocale-gettext-perl <!nocheck>, libpython3-all-dev, libpam-dev, libtool, perl <!nocheck>, pkg-config, po-debconf, python3:any, python3-all:any, python3-all-dev:any, python3-setuptools, swig"
+	],
+	"Checksums-Sha256": [
+		"f423e24aceceda97141a5f82440445a7d68cfe6159e3c97796c859b73ba0ee4f 2999 apparmor_3.0.12-1.dsc 7c7aed0b68d9e73fa1bb6665ece65a704217fb32dbad04ae01cb5f6d8d24ab31 7969246 apparmor_3.0.12.orig.tar.gz 1b5152634072c03b690ef35c5243489679e4ca4903ee904209b687950f61991b 870 apparmor_3.0.12.orig.tar.gz.asc eb75f12b128780d49a08ae90b35700c9c1f18d98b38aab7e7adb1f3e65e664c4 90104 apparmor_3.0.12-1.debian.tar.xz"
+	],
+	"Dgit": [
+		"6b7d02979c814d7592cb4676ffe4cf3ea2789201 debian archive/debian/3.0.12-1 https://git.dgit.debian.org/apparmor"
+	],
+	"Directory": [
+		"pool/main/a/apparmor"
+	],
+	"Files": [
+		"00ee350dc14fce3d60fdb49b4f6ad327 2999 apparmor_3.0.12-1.dsc 254fd4c99b52021414e337ad3e8e3576 7969246 apparmor_3.0.12.orig.tar.gz f42981fafbce3d998b621004ee3df7f7 870 apparmor_3.0.12.orig.tar.gz.asc 5fafa0dd4bea48ffde45e8818a44ce7b 90104 apparmor_3.0.12-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://apparmor.net/"
+	],
+	"Maintainer": [
+		"Debian AppArmor Team <pkg-apparmor-team@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"apparmor"
+	],
+	"Package-List": [
+		"apparmor deb admin optional arch=linux-any apparmor-notify deb admin optional arch=all apparmor-profiles deb admin optional arch=all apparmor-utils deb admin optional arch=all dh-apparmor deb devel optional arch=all libapache2-mod-apparmor deb httpd optional arch=linux-any libapparmor-dev deb libdevel optional arch=linux-any libapparmor1 deb libs optional arch=linux-any libpam-apparmor deb admin optional arch=linux-any python3-apparmor deb python optional arch=all python3-libapparmor deb python optional arch=linux-any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"admin"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"@builddeps@, apparmor-profiles-extra, bind9, cups-browsed, cups-daemon, evince, haveged, libreoffice-common, libvirt-daemon-system, linux-image-amd64, linux-image-generic, man-db, ntp, onioncircuits, tcpdump, tor"
+	],
+	"Uploaders": [
+		"intrigeri <intrigeri@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/apparmor-team/apparmor/tree/debian/unstable"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/apparmor-team/apparmor.git -b debian/unstable"
+	],
+	"Version": [
+		"3.0.12-1"
+	]
 }

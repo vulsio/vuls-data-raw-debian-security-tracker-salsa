@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "amd64 arm armel armhf hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x sparc sparc64 all"
-  ],
-  "Binary": [
-    "qemu, qemu-keymaps, qemu-system, qemu-user, qemu-user-static, qemu-utils"
-  ],
-  "Build-Conflicts": [
-    "oss4-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 5), nasm, device-tree-compiler, libfdt-dev, libx11-dev, libsdl1.2-dev (>> 1.2.1), libncurses5-dev, zlib1g-dev, texi2html, sharutils, libbrlapi-dev, libpulse-dev, libcurl4-gnutls-dev, libgnutls-dev, libsasl2-dev, uuid-dev, libvdeplug2-dev [linux-any], libasound2-dev [linux-any], libbluetooth-dev [linux-any], libattr1-dev, libcap-dev [linux-any], libgpmg1-dev [linux-any], linux-libc-dev (>= 2.6.34) [linux-any], libaio-dev [linux-any], xfslibs-dev [linux-any], texinfo, python, libspice-server-dev [amd64], libspice-protocol-dev [amd64], libxen-dev [amd64 i386], libiscsi-dev, libusbredirparser-dev [linux-any]"
-  ],
-  "Checksums-Sha1": [
-    "8049b20d54a826ef824e18960b998c7557472b3f 2621 qemu_1.1.2+dfsg-6a+deb7u12.dsc 65930c43945aad83862eaf578b93b7c3d041dc3c 4480342 qemu_1.1.2+dfsg.orig.tar.bz2 ca5c1f97e6613394e18a96d79a2bfccdb6755104 128897 qemu_1.1.2+dfsg-6a+deb7u12.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "11de5b757f0daa8c0076e145f126b0468359d1273544c8b9cfeddb47273d4ad1 2621 qemu_1.1.2+dfsg-6a+deb7u12.dsc 8286cbf15452ba2166e1fde1cfce1a1ded46ad20d8463a720d13a834b5f69915 4480342 qemu_1.1.2+dfsg.orig.tar.bz2 d023bfd26e9daada179627de8a25167e5534cb993261d3c5950036d7a6298cf1 128897 qemu_1.1.2+dfsg-6a+deb7u12.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/q/qemu"
-  ],
-  "Dm-Upload-Allowed": [
-    "yes"
-  ],
-  "Files": [
-    "5573dde7e7e417b8c8e0a169ffe1ae34 2621 qemu_1.1.2+dfsg-6a+deb7u12.dsc e385f154b12c27422860cdcbd37509b4 4480342 qemu_1.1.2+dfsg.orig.tar.bz2 c40eb75e7070afc3ba085b11da235550 128897 qemu_1.1.2+dfsg-6a+deb7u12.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.qemu.org/"
-  ],
-  "Maintainer": [
-    "Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "qemu"
-  ],
-  "Package-List": [
-    "qemu deb misc optional qemu-keymaps deb misc optional qemu-system deb misc optional qemu-user deb misc optional qemu-user-static deb misc optional qemu-utils deb misc optional"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "otherosfs"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Aurelien Jarno <aurel32@debian.org>, Riku Voipio <riku.voipio@iki.fi>, Vagrant Cascadian <vagrant@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://git.debian.org/?p=pkg-qemu/qemu.git"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/git/pkg-qemu/qemu.git"
-  ],
-  "Version": [
-    "1.1.2+dfsg-6a+deb7u12"
-  ]
+	"Architecture": [
+		"amd64 arm armel armhf hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x sparc sparc64 all"
+	],
+	"Binary": [
+		"qemu, qemu-keymaps, qemu-system, qemu-user, qemu-user-static, qemu-utils"
+	],
+	"Build-Conflicts": [
+		"oss4-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 5), nasm, device-tree-compiler, libfdt-dev, libx11-dev, libsdl1.2-dev (>> 1.2.1), libncurses5-dev, zlib1g-dev, texi2html, sharutils, libbrlapi-dev, libpulse-dev, libcurl4-gnutls-dev, libgnutls-dev, libsasl2-dev, uuid-dev, libvdeplug2-dev [linux-any], libasound2-dev [linux-any], libbluetooth-dev [linux-any], libattr1-dev, libcap-dev [linux-any], libgpmg1-dev [linux-any], linux-libc-dev (>= 2.6.34) [linux-any], libaio-dev [linux-any], xfslibs-dev [linux-any], texinfo, python, libspice-server-dev [amd64], libspice-protocol-dev [amd64], libxen-dev [amd64 i386], libiscsi-dev, libusbredirparser-dev [linux-any]"
+	],
+	"Checksums-Sha1": [
+		"8049b20d54a826ef824e18960b998c7557472b3f 2621 qemu_1.1.2+dfsg-6a+deb7u12.dsc 65930c43945aad83862eaf578b93b7c3d041dc3c 4480342 qemu_1.1.2+dfsg.orig.tar.bz2 ca5c1f97e6613394e18a96d79a2bfccdb6755104 128897 qemu_1.1.2+dfsg-6a+deb7u12.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"11de5b757f0daa8c0076e145f126b0468359d1273544c8b9cfeddb47273d4ad1 2621 qemu_1.1.2+dfsg-6a+deb7u12.dsc 8286cbf15452ba2166e1fde1cfce1a1ded46ad20d8463a720d13a834b5f69915 4480342 qemu_1.1.2+dfsg.orig.tar.bz2 d023bfd26e9daada179627de8a25167e5534cb993261d3c5950036d7a6298cf1 128897 qemu_1.1.2+dfsg-6a+deb7u12.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/q/qemu"
+	],
+	"Dm-Upload-Allowed": [
+		"yes"
+	],
+	"Files": [
+		"5573dde7e7e417b8c8e0a169ffe1ae34 2621 qemu_1.1.2+dfsg-6a+deb7u12.dsc e385f154b12c27422860cdcbd37509b4 4480342 qemu_1.1.2+dfsg.orig.tar.bz2 c40eb75e7070afc3ba085b11da235550 128897 qemu_1.1.2+dfsg-6a+deb7u12.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.qemu.org/"
+	],
+	"Maintainer": [
+		"Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"qemu"
+	],
+	"Package-List": [
+		"qemu deb misc optional qemu-keymaps deb misc optional qemu-system deb misc optional qemu-user deb misc optional qemu-user-static deb misc optional qemu-utils deb misc optional"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"otherosfs"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Aurelien Jarno <aurel32@debian.org>, Riku Voipio <riku.voipio@iki.fi>, Vagrant Cascadian <vagrant@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://git.debian.org/?p=pkg-qemu/qemu.git"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/git/pkg-qemu/qemu.git"
+	],
+	"Version": [
+		"1.1.2+dfsg-6a+deb7u12"
+	]
 }

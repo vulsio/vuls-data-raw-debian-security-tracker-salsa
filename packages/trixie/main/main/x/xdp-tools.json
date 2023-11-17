@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "linux-any"
-  ],
-  "Binary": [
-    "libxdp1, libxdp-dev, xdp-tools, xdp-tests"
-  ],
-  "Build-Depends": [
-    "bpftool, clang, debhelper-compat (= 13), dh-package-notes, libbpf-dev, libelf-dev, libpcap-dev, llvm, pkg-config, zlib1g-dev"
-  ],
-  "Checksums-Sha256": [
-    "c59eae3e12e160450ed6d9cc808366218251e4cb81e8c5a4d8e702e508791b92 2255 xdp-tools_1.4.0-1.dsc 38a2baf2b78865440b5539da6bceac99d014954a6ceafc51e3dc522e8439cfe0 1344669 xdp-tools_1.4.0.orig.tar.gz df50a2cf46c4761d614945ce9592655c0b03abc517fa4fe7b9a5d9311f1160dd 6408 xdp-tools_1.4.0-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/x/xdp-tools"
-  ],
-  "Files": [
-    "b8e0cf0fb8653c8cb0d5a243eaadfba8 2255 xdp-tools_1.4.0-1.dsc 66a333ce9baa74312e0c74d58c8852a7 1344669 xdp-tools_1.4.0.orig.tar.gz d9220c6a7f1dea3fb9155122ee590207 6408 xdp-tools_1.4.0-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/xdp-project/xdp-tools"
-  ],
-  "Maintainer": [
-    "Luca Boccassi <bluca@debian.org>"
-  ],
-  "Package": [
-    "xdp-tools"
-  ],
-  "Package-List": [
-    "libxdp-dev deb libdevel optional arch=linux-any libxdp1 deb libs optional arch=linux-any xdp-tests deb devel optional arch=linux-any xdp-tools deb devel optional arch=linux-any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "ethtool, iproute2, iputils-ping, netcat-openbsd, tcpdump, tshark"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian/xdp-tools"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian/xdp-tools.git"
-  ],
-  "Version": [
-    "1.4.0-1"
-  ]
+	"Architecture": [
+		"linux-any"
+	],
+	"Binary": [
+		"libxdp1, libxdp-dev, xdp-tools, xdp-tests"
+	],
+	"Build-Depends": [
+		"bpftool, clang, debhelper-compat (= 13), dh-package-notes, libbpf-dev, libelf-dev, libpcap-dev, llvm, pkg-config, zlib1g-dev"
+	],
+	"Checksums-Sha256": [
+		"c59eae3e12e160450ed6d9cc808366218251e4cb81e8c5a4d8e702e508791b92 2255 xdp-tools_1.4.0-1.dsc 38a2baf2b78865440b5539da6bceac99d014954a6ceafc51e3dc522e8439cfe0 1344669 xdp-tools_1.4.0.orig.tar.gz df50a2cf46c4761d614945ce9592655c0b03abc517fa4fe7b9a5d9311f1160dd 6408 xdp-tools_1.4.0-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/x/xdp-tools"
+	],
+	"Files": [
+		"b8e0cf0fb8653c8cb0d5a243eaadfba8 2255 xdp-tools_1.4.0-1.dsc 66a333ce9baa74312e0c74d58c8852a7 1344669 xdp-tools_1.4.0.orig.tar.gz d9220c6a7f1dea3fb9155122ee590207 6408 xdp-tools_1.4.0-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/xdp-project/xdp-tools"
+	],
+	"Maintainer": [
+		"Luca Boccassi <bluca@debian.org>"
+	],
+	"Package": [
+		"xdp-tools"
+	],
+	"Package-List": [
+		"libxdp-dev deb libdevel optional arch=linux-any libxdp1 deb libs optional arch=linux-any xdp-tests deb devel optional arch=linux-any xdp-tools deb devel optional arch=linux-any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"ethtool, iproute2, iputils-ping, netcat-openbsd, tcpdump, tshark"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/xdp-tools"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/xdp-tools.git"
+	],
+	"Version": [
+		"1.4.0-1"
+	]
 }

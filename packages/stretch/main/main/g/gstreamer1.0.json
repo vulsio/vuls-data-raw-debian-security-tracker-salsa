@@ -1,53 +1,53 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libgstreamer1.0-0, libgstreamer1.0-0-dbg, libgstreamer1.0-dev, gstreamer1.0-doc, gstreamer1.0-tools, gir1.2-gstreamer-1.0"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), cdbs (>= 0.4.93~), gnome-pkg-tools (>= 0.7), autotools-dev, automake (>= 1.14), autoconf (>= 2.69), libtool (>= 2.2.6), dh-autoreconf, autopoint (>= 0.17), zlib1g-dev (>= 1:1.1.4), libglib2.0-dev (>= 2.40), libgmp3-dev, libgsl-dev | libgsl0-dev, pkg-config (>= 0.11.0), bison (>= 1:2.4), flex (>= 2.5.34), dpkg-dev (>= 1.15.1), perl-doc, libgirepository1.0-dev (>= 0.9.12-4~), gobject-introspection (>= 0.9.12-4~), gir1.2-glib-2.0, gir1.2-freedesktop, libcap-dev [linux-any]"
-  ],
-  "Build-Depends-Indep": [
-    "python (>= 2.2), gtk-doc-tools (>= 1.12), texlive-generic-recommended, transfig (>= 3.2.3.c), docbook-utils (>= 0.6.9), docbook-xml, docbook-xsl, xsltproc (>= 1.0.21), ghostscript, xmlto, netpbm, libglib2.0-doc"
-  ],
-  "Checksums-Sha256": [
-    "7de937f39bdb5e664f35a745af213bcf97055fe7b5219ffad27cdc576b6816f2 3188 gstreamer1.0_1.10.4-1.dsc 50c2f5af50a6cc6c0a3f3ed43bdd8b5e2bff00bacfb766d4be139ec06d8b5218 3797376 gstreamer1.0_1.10.4.orig.tar.xz feac223d9913500fa0489db4e099e1c05a8c2237d80416aebc752e572465ed59 42656 gstreamer1.0_1.10.4-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/g/gstreamer1.0"
-  ],
-  "Files": [
-    "7eef88e65368064b46d7d2a9a81c1049 3188 gstreamer1.0_1.10.4-1.dsc 7c91a97e4a2dc81eafd59d0a2f8b0d6e 3797376 gstreamer1.0_1.10.4.orig.tar.xz 0853e7c4d8c3e2251c2f758b51325d1d 42656 gstreamer1.0_1.10.4-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://gstreamer.freedesktop.org"
-  ],
-  "Maintainer": [
-    "Maintainers of GStreamer packages <pkg-gstreamer-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "gstreamer1.0"
-  ],
-  "Package-List": [
-    "gir1.2-gstreamer-1.0 deb introspection optional arch=any gstreamer1.0-doc deb doc optional arch=all gstreamer1.0-tools deb utils optional arch=any libgstreamer1.0-0 deb libs optional arch=any libgstreamer1.0-0-dbg deb debug extra arch=any libgstreamer1.0-dev deb libdevel optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "libs"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Loïc Minier <lool@debian.org>, Sebastien Bacher <seb128@debian.org>, Sebastian Dröge <slomo@debian.org>, Sjoerd Simons <sjoerd@debian.org>"
-  ],
-  "Version": [
-    "1.10.4-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libgstreamer1.0-0, libgstreamer1.0-0-dbg, libgstreamer1.0-dev, gstreamer1.0-doc, gstreamer1.0-tools, gir1.2-gstreamer-1.0"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), cdbs (>= 0.4.93~), gnome-pkg-tools (>= 0.7), autotools-dev, automake (>= 1.14), autoconf (>= 2.69), libtool (>= 2.2.6), dh-autoreconf, autopoint (>= 0.17), zlib1g-dev (>= 1:1.1.4), libglib2.0-dev (>= 2.40), libgmp3-dev, libgsl-dev | libgsl0-dev, pkg-config (>= 0.11.0), bison (>= 1:2.4), flex (>= 2.5.34), dpkg-dev (>= 1.15.1), perl-doc, libgirepository1.0-dev (>= 0.9.12-4~), gobject-introspection (>= 0.9.12-4~), gir1.2-glib-2.0, gir1.2-freedesktop, libcap-dev [linux-any]"
+	],
+	"Build-Depends-Indep": [
+		"python (>= 2.2), gtk-doc-tools (>= 1.12), texlive-generic-recommended, transfig (>= 3.2.3.c), docbook-utils (>= 0.6.9), docbook-xml, docbook-xsl, xsltproc (>= 1.0.21), ghostscript, xmlto, netpbm, libglib2.0-doc"
+	],
+	"Checksums-Sha256": [
+		"7de937f39bdb5e664f35a745af213bcf97055fe7b5219ffad27cdc576b6816f2 3188 gstreamer1.0_1.10.4-1.dsc 50c2f5af50a6cc6c0a3f3ed43bdd8b5e2bff00bacfb766d4be139ec06d8b5218 3797376 gstreamer1.0_1.10.4.orig.tar.xz feac223d9913500fa0489db4e099e1c05a8c2237d80416aebc752e572465ed59 42656 gstreamer1.0_1.10.4-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/gstreamer1.0"
+	],
+	"Files": [
+		"7eef88e65368064b46d7d2a9a81c1049 3188 gstreamer1.0_1.10.4-1.dsc 7c91a97e4a2dc81eafd59d0a2f8b0d6e 3797376 gstreamer1.0_1.10.4.orig.tar.xz 0853e7c4d8c3e2251c2f758b51325d1d 42656 gstreamer1.0_1.10.4-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://gstreamer.freedesktop.org"
+	],
+	"Maintainer": [
+		"Maintainers of GStreamer packages <pkg-gstreamer-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"gstreamer1.0"
+	],
+	"Package-List": [
+		"gir1.2-gstreamer-1.0 deb introspection optional arch=any gstreamer1.0-doc deb doc optional arch=all gstreamer1.0-tools deb utils optional arch=any libgstreamer1.0-0 deb libs optional arch=any libgstreamer1.0-0-dbg deb debug extra arch=any libgstreamer1.0-dev deb libdevel optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"libs"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Loïc Minier <lool@debian.org>, Sebastien Bacher <seb128@debian.org>, Sebastian Dröge <slomo@debian.org>, Sjoerd Simons <sjoerd@debian.org>"
+	],
+	"Version": [
+		"1.10.4-1"
+	]
 }

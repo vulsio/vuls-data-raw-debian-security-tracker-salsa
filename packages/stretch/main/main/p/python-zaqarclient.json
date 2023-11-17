@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-zaqarclient, python3-zaqarclient"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-python, openstack-pkg-tools (>= 52~), python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.8), python3-setuptools"
-  ],
-  "Build-Depends-Indep": [
-    "python-coverage, python-ddt (>= 1.0.1), python-fixtures (>= 3.0.0), python-hacking (>= 0.10.2), python-jsonschema, python-keystoneclient (>= 1:2.0.0), python-mock (>= 2.0), python-nose, python-openstackclient (>= 2.1.0), python-os-client-config (>= 1.13.1), python-osc-lib (>= 1.0.2), python-oslo.i18n (>= 2.1.0), python-oslo.utils (>= 3.16.0), python-oslosphinx (>= 2.5.0), python-requests (>= 2.10.0), python-requests-mock (>= 1.0), python-six (>= 1.9.0), python-stevedore (>= 1.16.0), python-testtools (>= 1.4.0), python3-ddt (>= 1.0.1), python3-fixtures (>= 3.0.0), python3-jsonschema, python3-keystoneclient (>= 1:2.0.0), python3-mock (>= 2.0), python3-nose, python3-openstackclient (>= 2.1.0), python3-os-client-config (>= 1.13.1), python3-osc-lib (>= 1.0.2), python3-oslo.i18n (>= 2.1.0), python3-oslo.utils (>= 3.16.0), python3-requests (>= 2.10.0), python3-requests-mock (>= 1.0), python3-six (>= 1.9.0), python3-stevedore (>= 1.16.0), python3-subunit, python3-testtools (>= 1.4.0), subunit, testrepository"
-  ],
-  "Checksums-Sha256": [
-    "e836bf8c0343b27565be3aebd10bb4939fbaddbba5064a6828ff8b10877b4f46 3362 python-zaqarclient_1.2.0-2.dsc d1c2d43460dcc2591749eba1afedba407d700cfd3aec13bb21ea719bbc9f7e47 48852 python-zaqarclient_1.2.0.orig.tar.xz 7e4f51a195607d6e1a8cda5eae0cb8af0868e4816ebacba70e3b266f2910d1be 3736 python-zaqarclient_1.2.0-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/python-zaqarclient"
-  ],
-  "Files": [
-    "37729cc0b08f27c2015d346be8c865e8 3362 python-zaqarclient_1.2.0-2.dsc 0b602532c020ffef0847b220accb19be 48852 python-zaqarclient_1.2.0.orig.tar.xz ab80e7556f430f019f6e1dd5628bd4bd 3736 python-zaqarclient_1.2.0-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.openstack.org/"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "python-zaqarclient"
-  ],
-  "Package-List": [
-    "python-zaqarclient deb python optional arch=all python3-zaqarclient deb python optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>, Corey Bryant <corey.bryant@canonical.com>,"
-  ],
-  "Vcs-Browser": [
-    "https://git.openstack.org/cgit/openstack/deb-python-zaqarclient?h=debian%2Fnewton"
-  ],
-  "Vcs-Git": [
-    "https://git.openstack.org/openstack/deb-python-zaqarclient -b debian/newton"
-  ],
-  "Version": [
-    "1.2.0-2"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-zaqarclient, python3-zaqarclient"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-python, openstack-pkg-tools (>= 52~), python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.8), python3-setuptools"
+	],
+	"Build-Depends-Indep": [
+		"python-coverage, python-ddt (>= 1.0.1), python-fixtures (>= 3.0.0), python-hacking (>= 0.10.2), python-jsonschema, python-keystoneclient (>= 1:2.0.0), python-mock (>= 2.0), python-nose, python-openstackclient (>= 2.1.0), python-os-client-config (>= 1.13.1), python-osc-lib (>= 1.0.2), python-oslo.i18n (>= 2.1.0), python-oslo.utils (>= 3.16.0), python-oslosphinx (>= 2.5.0), python-requests (>= 2.10.0), python-requests-mock (>= 1.0), python-six (>= 1.9.0), python-stevedore (>= 1.16.0), python-testtools (>= 1.4.0), python3-ddt (>= 1.0.1), python3-fixtures (>= 3.0.0), python3-jsonschema, python3-keystoneclient (>= 1:2.0.0), python3-mock (>= 2.0), python3-nose, python3-openstackclient (>= 2.1.0), python3-os-client-config (>= 1.13.1), python3-osc-lib (>= 1.0.2), python3-oslo.i18n (>= 2.1.0), python3-oslo.utils (>= 3.16.0), python3-requests (>= 2.10.0), python3-requests-mock (>= 1.0), python3-six (>= 1.9.0), python3-stevedore (>= 1.16.0), python3-subunit, python3-testtools (>= 1.4.0), subunit, testrepository"
+	],
+	"Checksums-Sha256": [
+		"e836bf8c0343b27565be3aebd10bb4939fbaddbba5064a6828ff8b10877b4f46 3362 python-zaqarclient_1.2.0-2.dsc d1c2d43460dcc2591749eba1afedba407d700cfd3aec13bb21ea719bbc9f7e47 48852 python-zaqarclient_1.2.0.orig.tar.xz 7e4f51a195607d6e1a8cda5eae0cb8af0868e4816ebacba70e3b266f2910d1be 3736 python-zaqarclient_1.2.0-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-zaqarclient"
+	],
+	"Files": [
+		"37729cc0b08f27c2015d346be8c865e8 3362 python-zaqarclient_1.2.0-2.dsc 0b602532c020ffef0847b220accb19be 48852 python-zaqarclient_1.2.0.orig.tar.xz ab80e7556f430f019f6e1dd5628bd4bd 3736 python-zaqarclient_1.2.0-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.openstack.org/"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"python-zaqarclient"
+	],
+	"Package-List": [
+		"python-zaqarclient deb python optional arch=all python3-zaqarclient deb python optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>, Corey Bryant <corey.bryant@canonical.com>,"
+	],
+	"Vcs-Browser": [
+		"https://git.openstack.org/cgit/openstack/deb-python-zaqarclient?h=debian%2Fnewton"
+	],
+	"Vcs-Git": [
+		"https://git.openstack.org/openstack/deb-python-zaqarclient -b debian/newton"
+	],
+	"Version": [
+		"1.2.0-2"
+	]
 }

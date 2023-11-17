@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-zvariant-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-byteorder-1+default-dev (>= 1.4.3-~~) <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.137-~~) <!nocheck>, librust-serde-1+default-dev <!nocheck>, librust-serde-1+derive-dev <!nocheck>, librust-static-assertions-1+default-dev (>= 1.1.0-~~) <!nocheck>, librust-zvariant-derive-3.15.0+default-dev <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "95c8e74d8c6b1e28a026bbb7d14078bfbe26a9b6a59c0af24bfe600f7712141f 2604 rust-zvariant_3.15.0-1.dsc 44b291bee0d960c53170780af148dca5fa260a63cdd24f1962fa82e03e53338c 72221 rust-zvariant_3.15.0.orig.tar.gz b52853a93064c826b9d15f2a4e71f1c649ea7674189f926e6946e9504db66ba8 3644 rust-zvariant_3.15.0-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-zvariant"
-  ],
-  "Files": [
-    "06a250e5eacbdbfc441425772de1bc44 2604 rust-zvariant_3.15.0-1.dsc 7b18a2563fc4f01365351f78ed546f72 72221 rust-zvariant_3.15.0.orig.tar.gz 327409a82fed2cbc22be5a6dc5ccd793 3644 rust-zvariant_3.15.0-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-zvariant"
-  ],
-  "Package-List": [
-    "librust-zvariant-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-criterion-0.5+default-dev, librust-glib-0.18+default-dev, librust-rand-0.8+default-dev, librust-serde-json-1+default-dev, librust-serde-repr-0.1+default-dev"
-  ],
-  "Uploaders": [
-    "Andrej Shadura <andrewsh@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/zvariant"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/zvariant]"
-  ],
-  "Version": [
-    "3.15.0-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-zvariant-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-byteorder-1+default-dev (>= 1.4.3-~~) <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.137-~~) <!nocheck>, librust-serde-1+default-dev <!nocheck>, librust-serde-1+derive-dev <!nocheck>, librust-static-assertions-1+default-dev (>= 1.1.0-~~) <!nocheck>, librust-zvariant-derive-3.15.0+default-dev <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"95c8e74d8c6b1e28a026bbb7d14078bfbe26a9b6a59c0af24bfe600f7712141f 2604 rust-zvariant_3.15.0-1.dsc 44b291bee0d960c53170780af148dca5fa260a63cdd24f1962fa82e03e53338c 72221 rust-zvariant_3.15.0.orig.tar.gz b52853a93064c826b9d15f2a4e71f1c649ea7674189f926e6946e9504db66ba8 3644 rust-zvariant_3.15.0-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-zvariant"
+	],
+	"Files": [
+		"06a250e5eacbdbfc441425772de1bc44 2604 rust-zvariant_3.15.0-1.dsc 7b18a2563fc4f01365351f78ed546f72 72221 rust-zvariant_3.15.0.orig.tar.gz 327409a82fed2cbc22be5a6dc5ccd793 3644 rust-zvariant_3.15.0-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-zvariant"
+	],
+	"Package-List": [
+		"librust-zvariant-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-criterion-0.5+default-dev, librust-glib-0.18+default-dev, librust-rand-0.8+default-dev, librust-serde-json-1+default-dev, librust-serde-repr-0.1+default-dev"
+	],
+	"Uploaders": [
+		"Andrej Shadura <andrewsh@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/zvariant"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/zvariant]"
+	],
+	"Version": [
+		"3.15.0-1"
+	]
 }

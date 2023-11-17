@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "golang-github-influxdb-influxdb-dev, influxdb-dev, influxdb, influxdb-client"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-golang (>= 1.9), dh-systemd, golang-go, yui-compressor, golang-statik, tmpl, libjs-bootstrap (>= 3.0), libjs-jquery (>= 1.9.1), golang-go.crypto-dev | golang-golang-x-crypto-dev, golang-toml-dev | golang-github-burntsushi-toml-dev, golang-goprotobuf-dev | golang-github-golang-protobuf-dev, golang-gogoprotobuf-dev (>= 0.0~git20150717) | golang-github-gogo-protobuf-dev, golang-github-boltdb-bolt-dev, golang-github-peterh-liner-dev, golang-github-bmizerany-pat-dev, golang-github-rakyll-statik-dev, golang-github-retailnext-hllpp-dev, golang-github-kimor79-gollectd-dev, golang-collectd-dev, golang-github-davecgh-go-spew-dev, golang-github-dgrijalva-jwt-go-dev, golang-github-dgryski-go-bitstream-dev, golang-github-dgryski-go-bits-dev, golang-github-jwilder-encoding-dev (>= 0.0~git20160927.0.4dada27), golang-github-influxdb-enterprise-client-dev, golang-github-paulbellamy-ratecounter-dev, golang-github-influxdb-usage-client-dev (>= 0.0~git20151204.0.475977e-2~), golang-github-golang-snappy-dev"
-  ],
-  "Checksums-Sha1": [
-    "3268e077452383e4c3e9365bc773e4e3f24aae5c 3494 influxdb_1.1.1+dfsg1-4+deb9u1.dsc 64c75f55f1e87e2ecd6e081a780999a0963ac0fb 1324546 influxdb_1.1.1+dfsg1.orig.tar.gz 2d2af70702a982f2a692ce315959e59f024e2b8b 122780 influxdb_1.1.1+dfsg1-4+deb9u1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "7761e85ae1c3f33265b4a07b87364c56a84e233446bda616923838c475fc0feb 3494 influxdb_1.1.1+dfsg1-4+deb9u1.dsc a4aaef94acb4b86ae93d41121616654723321d23fe38c3dfce339b6c9f9b8b55 1324546 influxdb_1.1.1+dfsg1.orig.tar.gz b3ea736e008433beacfa64451b4103cfaf2b56d8f26fca357898cab9143aded4 122780 influxdb_1.1.1+dfsg1-4+deb9u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/i/influxdb"
-  ],
-  "Files": [
-    "14bc90414e0205f3da144081f98ca731 3494 influxdb_1.1.1+dfsg1-4+deb9u1.dsc 66a9766d7113d412ee6852edc702ccf7 1324546 influxdb_1.1.1+dfsg1.orig.tar.gz afd933a18259ce35c82603c3498ce52d 122780 influxdb_1.1.1+dfsg1-4+deb9u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Go-Import-Path": [
-    "github.com/influxdata/influxdb"
-  ],
-  "Homepage": [
-    "https://influxdata.com/time-series-platform/influxdb/"
-  ],
-  "Maintainer": [
-    "Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "influxdb"
-  ],
-  "Package-List": [
-    "golang-github-influxdb-influxdb-dev deb database extra arch=all influxdb deb database extra arch=any influxdb-client deb database extra arch=any influxdb-dev deb oldlibs extra arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Alexandre Viau <aviau@debian.org>, Tim Potter <tpot@hpe.com>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-go/packages/influxdb.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-go/packages/influxdb.git"
-  ],
-  "Version": [
-    "1.1.1+dfsg1-4+deb9u1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"golang-github-influxdb-influxdb-dev, influxdb-dev, influxdb, influxdb-client"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-golang (>= 1.9), dh-systemd, golang-go, yui-compressor, golang-statik, tmpl, libjs-bootstrap (>= 3.0), libjs-jquery (>= 1.9.1), golang-go.crypto-dev | golang-golang-x-crypto-dev, golang-toml-dev | golang-github-burntsushi-toml-dev, golang-goprotobuf-dev | golang-github-golang-protobuf-dev, golang-gogoprotobuf-dev (>= 0.0~git20150717) | golang-github-gogo-protobuf-dev, golang-github-boltdb-bolt-dev, golang-github-peterh-liner-dev, golang-github-bmizerany-pat-dev, golang-github-rakyll-statik-dev, golang-github-retailnext-hllpp-dev, golang-github-kimor79-gollectd-dev, golang-collectd-dev, golang-github-davecgh-go-spew-dev, golang-github-dgrijalva-jwt-go-dev, golang-github-dgryski-go-bitstream-dev, golang-github-dgryski-go-bits-dev, golang-github-jwilder-encoding-dev (>= 0.0~git20160927.0.4dada27), golang-github-influxdb-enterprise-client-dev, golang-github-paulbellamy-ratecounter-dev, golang-github-influxdb-usage-client-dev (>= 0.0~git20151204.0.475977e-2~), golang-github-golang-snappy-dev"
+	],
+	"Checksums-Sha1": [
+		"3268e077452383e4c3e9365bc773e4e3f24aae5c 3494 influxdb_1.1.1+dfsg1-4+deb9u1.dsc 64c75f55f1e87e2ecd6e081a780999a0963ac0fb 1324546 influxdb_1.1.1+dfsg1.orig.tar.gz 2d2af70702a982f2a692ce315959e59f024e2b8b 122780 influxdb_1.1.1+dfsg1-4+deb9u1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"7761e85ae1c3f33265b4a07b87364c56a84e233446bda616923838c475fc0feb 3494 influxdb_1.1.1+dfsg1-4+deb9u1.dsc a4aaef94acb4b86ae93d41121616654723321d23fe38c3dfce339b6c9f9b8b55 1324546 influxdb_1.1.1+dfsg1.orig.tar.gz b3ea736e008433beacfa64451b4103cfaf2b56d8f26fca357898cab9143aded4 122780 influxdb_1.1.1+dfsg1-4+deb9u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/i/influxdb"
+	],
+	"Files": [
+		"14bc90414e0205f3da144081f98ca731 3494 influxdb_1.1.1+dfsg1-4+deb9u1.dsc 66a9766d7113d412ee6852edc702ccf7 1324546 influxdb_1.1.1+dfsg1.orig.tar.gz afd933a18259ce35c82603c3498ce52d 122780 influxdb_1.1.1+dfsg1-4+deb9u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Go-Import-Path": [
+		"github.com/influxdata/influxdb"
+	],
+	"Homepage": [
+		"https://influxdata.com/time-series-platform/influxdb/"
+	],
+	"Maintainer": [
+		"Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"influxdb"
+	],
+	"Package-List": [
+		"golang-github-influxdb-influxdb-dev deb database extra arch=all influxdb deb database extra arch=any influxdb-client deb database extra arch=any influxdb-dev deb oldlibs extra arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Alexandre Viau <aviau@debian.org>, Tim Potter <tpot@hpe.com>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-go/packages/influxdb.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-go/packages/influxdb.git"
+	],
+	"Version": [
+		"1.1.1+dfsg1-4+deb9u1"
+	]
 }

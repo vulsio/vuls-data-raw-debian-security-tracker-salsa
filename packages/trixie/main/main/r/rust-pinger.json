@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-pinger-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-anyhow-1+default-dev (>= 1.0.72-~~) <!nocheck>, librust-lazy-static-1+default-dev (>= 1.4.0-~~) <!nocheck>, librust-regex-1+default-dev (>= 1.7-~~) <!nocheck>, librust-thiserror-1+default-dev <!nocheck>, iputils-ping <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "92912dfd8f494dd1235137dcd516d92dafeeb765e1766e56652cf272b0868f96 2397 rust-pinger_0.13.0-1.dsc d82b3c319ab8c90966909572d680baf5200228863248b994ebff9fbcaba00b44 6424 rust-pinger_0.13.0.orig.tar.gz 07cf7f0b2e8ec3bc1677785333bc41f79839ae6bf0cc8d5aa13a4c61d66d0c15 2996 rust-pinger_0.13.0-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-pinger"
-  ],
-  "Files": [
-    "b2ba7bfbb92c86f6773b9caeee11e558 2397 rust-pinger_0.13.0-1.dsc bd8fee7b8da72e3c57870d965d0f8189 6424 rust-pinger_0.13.0.orig.tar.gz fbe38064ce9870a62f3deedecd9588cd 2996 rust-pinger_0.13.0-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-pinger"
-  ],
-  "Package-List": [
-    "librust-pinger-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-os-info-3+default-dev"
-  ],
-  "Uploaders": [
-    "Matthias Geiger <werdahias@riseup.net>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/pinger"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/pinger]"
-  ],
-  "Version": [
-    "0.13.0-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-pinger-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-anyhow-1+default-dev (>= 1.0.72-~~) <!nocheck>, librust-lazy-static-1+default-dev (>= 1.4.0-~~) <!nocheck>, librust-regex-1+default-dev (>= 1.7-~~) <!nocheck>, librust-thiserror-1+default-dev <!nocheck>, iputils-ping <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"92912dfd8f494dd1235137dcd516d92dafeeb765e1766e56652cf272b0868f96 2397 rust-pinger_0.13.0-1.dsc d82b3c319ab8c90966909572d680baf5200228863248b994ebff9fbcaba00b44 6424 rust-pinger_0.13.0.orig.tar.gz 07cf7f0b2e8ec3bc1677785333bc41f79839ae6bf0cc8d5aa13a4c61d66d0c15 2996 rust-pinger_0.13.0-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-pinger"
+	],
+	"Files": [
+		"b2ba7bfbb92c86f6773b9caeee11e558 2397 rust-pinger_0.13.0-1.dsc bd8fee7b8da72e3c57870d965d0f8189 6424 rust-pinger_0.13.0.orig.tar.gz fbe38064ce9870a62f3deedecd9588cd 2996 rust-pinger_0.13.0-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-pinger"
+	],
+	"Package-List": [
+		"librust-pinger-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-os-info-3+default-dev"
+	],
+	"Uploaders": [
+		"Matthias Geiger <werdahias@riseup.net>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/pinger"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/pinger]"
+	],
+	"Version": [
+		"0.13.0-1"
+	]
 }

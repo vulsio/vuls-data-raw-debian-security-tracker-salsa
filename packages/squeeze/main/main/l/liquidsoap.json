@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "liquidsoap, liguidsoap"
-  ],
-  "Build-Depends": [
-    "cdbs (>= 0.4.53), debhelper (>= 7.0.1), ocaml-nox, dh-ocaml (>= 0.9), quilt, patchutils (>= 0.2.25), ocaml-findlib, libcry-ocaml-dev (>= 0.1.1), libogg-ocaml-dev (>= 0.3.1), libvorbis-ocaml-dev (>= 0.5.1), libmad-ocaml-dev (>= 0.3.6), libdtools-ocaml-dev (>= 0.1.6), libtaglib-ocaml-dev (>= 0.1.3), libcamomile-ocaml-dev, festival, libxml-dom-perl, python-gtk2-dev, python, python-support (>= 0.3), libao-ocaml-dev (>= 0.1.10), libduppy-ocaml-dev (>= 0.3.1), libalsa-ocaml-dev (>= 0.1.4) [!kfreebsd-i386 !hurd-i386 !kfreebsd-amd64], libpcre-ocaml-dev, libladspa-ocaml-dev (>= 0.1.2), sox, libsoundtouch-ocaml-dev (>= 0.1.5), liblastfm-ocaml-dev (>= 0.2.0), libspeex-ocaml-dev (>= 0.1.2), libgavl-ocaml-dev (>= 0.1.2), libtheora-ocaml-dev (>= 0.2.0~svn6618), libportaudio-ocaml-dev (>= 0.1.3), libpulse-ocaml-dev (>= 0.1.1), libsamplerate-ocaml-dev (>= 0.1.1), libxmlplaylist-ocaml-dev (>= 0.1.2), libmagic-ocaml-dev (>= 0.3.6), libbjack-ocaml-dev (>= 0.1.3), libsdl-ocaml-dev"
-  ],
-  "Checksums-Sha1": [
-    "cb022530521de4e78385d8a3c72aecff69bfb4c2 2540 liquidsoap_0.9.2-3.dsc 3fe523def3f86a9b5e522b99bdae14e5a370ca3f 585536 liquidsoap_0.9.2.orig.tar.gz e6f2f49deaeda4ce702c78753b4d00f58b66a692 80203 liquidsoap_0.9.2-3.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "86a3519415ffa12a118450f313e0fdcb0f57221d0554a190e0904bfa19bc7d77 2540 liquidsoap_0.9.2-3.dsc 59a437948a67f2caec8275119f6b23d933294f3caf572b565e4c709307f632df 585536 liquidsoap_0.9.2.orig.tar.gz 8900a04e6c552bac90a07f78f12433a81d82b529d404017768bcf8552117a14f 80203 liquidsoap_0.9.2-3.diff.gz"
-  ],
-  "Directory": [
-    "pool/main/l/liquidsoap"
-  ],
-  "Files": [
-    "c6be006f97f60966888a207360b65846 2540 liquidsoap_0.9.2-3.dsc 96a119b54629a826d9e25a8cb2ca77fc 585536 liquidsoap_0.9.2.orig.tar.gz 0aa019dbc825df96c7ca89e09cb3c1fa 80203 liquidsoap_0.9.2-3.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Homepage": [
-    "http://savonet.sourceforge.net/"
-  ],
-  "Maintainer": [
-    "Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>"
-  ],
-  "Package": [
-    "liquidsoap"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "sound"
-  ],
-  "Standards-Version": [
-    "3.8.4"
-  ],
-  "Uploaders": [
-    "Romain Beauxis <toots@rastageeks.org>, Samuel Mimram <smimram@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://git.debian.org/?p=pkg-ocaml-maint/packages/liquidsoap.git"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/git/pkg-ocaml-maint/packages/liquidsoap.git"
-  ],
-  "Version": [
-    "0.9.2-3"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"liquidsoap, liguidsoap"
+	],
+	"Build-Depends": [
+		"cdbs (>= 0.4.53), debhelper (>= 7.0.1), ocaml-nox, dh-ocaml (>= 0.9), quilt, patchutils (>= 0.2.25), ocaml-findlib, libcry-ocaml-dev (>= 0.1.1), libogg-ocaml-dev (>= 0.3.1), libvorbis-ocaml-dev (>= 0.5.1), libmad-ocaml-dev (>= 0.3.6), libdtools-ocaml-dev (>= 0.1.6), libtaglib-ocaml-dev (>= 0.1.3), libcamomile-ocaml-dev, festival, libxml-dom-perl, python-gtk2-dev, python, python-support (>= 0.3), libao-ocaml-dev (>= 0.1.10), libduppy-ocaml-dev (>= 0.3.1), libalsa-ocaml-dev (>= 0.1.4) [!kfreebsd-i386 !hurd-i386 !kfreebsd-amd64], libpcre-ocaml-dev, libladspa-ocaml-dev (>= 0.1.2), sox, libsoundtouch-ocaml-dev (>= 0.1.5), liblastfm-ocaml-dev (>= 0.2.0), libspeex-ocaml-dev (>= 0.1.2), libgavl-ocaml-dev (>= 0.1.2), libtheora-ocaml-dev (>= 0.2.0~svn6618), libportaudio-ocaml-dev (>= 0.1.3), libpulse-ocaml-dev (>= 0.1.1), libsamplerate-ocaml-dev (>= 0.1.1), libxmlplaylist-ocaml-dev (>= 0.1.2), libmagic-ocaml-dev (>= 0.3.6), libbjack-ocaml-dev (>= 0.1.3), libsdl-ocaml-dev"
+	],
+	"Checksums-Sha1": [
+		"cb022530521de4e78385d8a3c72aecff69bfb4c2 2540 liquidsoap_0.9.2-3.dsc 3fe523def3f86a9b5e522b99bdae14e5a370ca3f 585536 liquidsoap_0.9.2.orig.tar.gz e6f2f49deaeda4ce702c78753b4d00f58b66a692 80203 liquidsoap_0.9.2-3.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"86a3519415ffa12a118450f313e0fdcb0f57221d0554a190e0904bfa19bc7d77 2540 liquidsoap_0.9.2-3.dsc 59a437948a67f2caec8275119f6b23d933294f3caf572b565e4c709307f632df 585536 liquidsoap_0.9.2.orig.tar.gz 8900a04e6c552bac90a07f78f12433a81d82b529d404017768bcf8552117a14f 80203 liquidsoap_0.9.2-3.diff.gz"
+	],
+	"Directory": [
+		"pool/main/l/liquidsoap"
+	],
+	"Files": [
+		"c6be006f97f60966888a207360b65846 2540 liquidsoap_0.9.2-3.dsc 96a119b54629a826d9e25a8cb2ca77fc 585536 liquidsoap_0.9.2.orig.tar.gz 0aa019dbc825df96c7ca89e09cb3c1fa 80203 liquidsoap_0.9.2-3.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Homepage": [
+		"http://savonet.sourceforge.net/"
+	],
+	"Maintainer": [
+		"Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>"
+	],
+	"Package": [
+		"liquidsoap"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"sound"
+	],
+	"Standards-Version": [
+		"3.8.4"
+	],
+	"Uploaders": [
+		"Romain Beauxis <toots@rastageeks.org>, Samuel Mimram <smimram@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://git.debian.org/?p=pkg-ocaml-maint/packages/liquidsoap.git"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/git/pkg-ocaml-maint/packages/liquidsoap.git"
+	],
+	"Version": [
+		"0.9.2-3"
+	]
 }

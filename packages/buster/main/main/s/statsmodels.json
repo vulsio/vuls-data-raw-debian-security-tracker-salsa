@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "python-statsmodels, python-statsmodels-lib, python-statsmodels-doc, python3-statsmodels, python3-statsmodels-lib"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), sphinx-common, python-all-dev, python-setuptools, python-dateutil, python-numpy (>= 1:1.4.0), python-scipy, python-nose <!nocheck>, python-matplotlib, python-pandas, python-patsy, python-joblib, cython, python-tk <!nocheck>, python-cvxopt, dh-python (>= 3.20180313~), cython3, python3-all-dev, python3-dateutil, python3-cvxopt <!nocheck>, python3-matplotlib, python3-numpy (>= 1:1.4.0), python3-nose, python3-pandas, python3-patsy <!nocheck>, python3-scipy, python3-setuptools, python3-tk <!nocheck>, python3-joblib"
-  ],
-  "Build-Depends-Indep": [
-    "ipython3 (>= 5~) <!nodoc> | ipython3-notebook (>= 0.13.1) <!nodoc>, python3-nbconvert <!nodoc>, python3-jupyter-client <!nodoc>, python3-ipykernel <!nodoc>, python3-numpydoc <!nodoc>, python-numpy-doc <!nodoc>, python-patsy-doc <!nodoc>, python-pandas-doc <!nodoc>, python3-doc <!nodoc>, python3-sphinx (>= 1.0.6) <!nodoc>, python3-traitlets <!nodoc> | ipython3-notebook (>= 0.13.1)"
-  ],
-  "Checksums-Sha256": [
-    "1e512714e79ba0ee5c4c3fe0ba0cec22a085d972868429a91098f908b0200e02 3396 statsmodels_0.8.0-9.dsc 4dc5d6a06b97e0fdd4815aa5e894f83d3d50eecd67c445445ffe6cdf37834cf9 8878770 statsmodels_0.8.0.orig.tar.gz 84acda7a995095b6b69fcaffcb5df219ab2c9d036481a33cd8d4fe182280c295 219508 statsmodels_0.8.0-9.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/s/statsmodels"
-  ],
-  "Files": [
-    "3d2663d513153a13025a6c611bfa3a3b 3396 statsmodels_0.8.0-9.dsc 839428b3b1b134857d50e6d876f6cf87 8878770 statsmodels_0.8.0.orig.tar.gz 3a92164439c5325028759992edf57020 219508 statsmodels_0.8.0-9.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://statsmodels.sourceforge.net/"
-  ],
-  "Maintainer": [
-    "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "statsmodels"
-  ],
-  "Package-List": [
-    "python-statsmodels deb python optional arch=all python-statsmodels-doc deb doc optional arch=all python-statsmodels-lib deb python optional arch=any python3-statsmodels deb python optional arch=all python3-statsmodels-lib deb python optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "python"
-  ],
-  "Standards-Version": [
-    "4.1.0"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "python-all, python3-all, python3-nose"
-  ],
-  "Uploaders": [
-    "Yaroslav Halchenko <debian@onerussian.com>, Michael Hanke <michael.hanke@gmail.com>, Diane Trout <diane@ghic.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/science-team/statsmodels"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/science-team/statsmodels.git"
-  ],
-  "Version": [
-    "0.8.0-9"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"python-statsmodels, python-statsmodels-lib, python-statsmodels-doc, python3-statsmodels, python3-statsmodels-lib"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), sphinx-common, python-all-dev, python-setuptools, python-dateutil, python-numpy (>= 1:1.4.0), python-scipy, python-nose <!nocheck>, python-matplotlib, python-pandas, python-patsy, python-joblib, cython, python-tk <!nocheck>, python-cvxopt, dh-python (>= 3.20180313~), cython3, python3-all-dev, python3-dateutil, python3-cvxopt <!nocheck>, python3-matplotlib, python3-numpy (>= 1:1.4.0), python3-nose, python3-pandas, python3-patsy <!nocheck>, python3-scipy, python3-setuptools, python3-tk <!nocheck>, python3-joblib"
+	],
+	"Build-Depends-Indep": [
+		"ipython3 (>= 5~) <!nodoc> | ipython3-notebook (>= 0.13.1) <!nodoc>, python3-nbconvert <!nodoc>, python3-jupyter-client <!nodoc>, python3-ipykernel <!nodoc>, python3-numpydoc <!nodoc>, python-numpy-doc <!nodoc>, python-patsy-doc <!nodoc>, python-pandas-doc <!nodoc>, python3-doc <!nodoc>, python3-sphinx (>= 1.0.6) <!nodoc>, python3-traitlets <!nodoc> | ipython3-notebook (>= 0.13.1)"
+	],
+	"Checksums-Sha256": [
+		"1e512714e79ba0ee5c4c3fe0ba0cec22a085d972868429a91098f908b0200e02 3396 statsmodels_0.8.0-9.dsc 4dc5d6a06b97e0fdd4815aa5e894f83d3d50eecd67c445445ffe6cdf37834cf9 8878770 statsmodels_0.8.0.orig.tar.gz 84acda7a995095b6b69fcaffcb5df219ab2c9d036481a33cd8d4fe182280c295 219508 statsmodels_0.8.0-9.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/s/statsmodels"
+	],
+	"Files": [
+		"3d2663d513153a13025a6c611bfa3a3b 3396 statsmodels_0.8.0-9.dsc 839428b3b1b134857d50e6d876f6cf87 8878770 statsmodels_0.8.0.orig.tar.gz 3a92164439c5325028759992edf57020 219508 statsmodels_0.8.0-9.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://statsmodels.sourceforge.net/"
+	],
+	"Maintainer": [
+		"Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"statsmodels"
+	],
+	"Package-List": [
+		"python-statsmodels deb python optional arch=all python-statsmodels-doc deb doc optional arch=all python-statsmodels-lib deb python optional arch=any python3-statsmodels deb python optional arch=all python3-statsmodels-lib deb python optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"python"
+	],
+	"Standards-Version": [
+		"4.1.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"python-all, python3-all, python3-nose"
+	],
+	"Uploaders": [
+		"Yaroslav Halchenko <debian@onerussian.com>, Michael Hanke <michael.hanke@gmail.com>, Diane Trout <diane@ghic.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/science-team/statsmodels"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/science-team/statsmodels.git"
+	],
+	"Version": [
+		"0.8.0-9"
+	]
 }

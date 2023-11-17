@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "why3, why3-coq, libwhy3-ocaml-dev, why3-examples, why3-doc-html, why3-doc-pdf"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-ocaml, ocaml-nox (>= 3.11.2), menhir, libmenhir-ocaml-dev, libzarith-ocaml-dev, liblablgtk2-ocaml-dev, liblablgtksourceview2-ocaml-dev, libsqlite3-ocaml-dev, libzip-ocaml-dev, libocamlgraph-ocaml-dev, coq, libcoq-ocaml-dev, tex-common"
-  ],
-  "Build-Depends-Indep": [
-    "rubber, hevea, lmodern, texlive-latex-recommended, texlive-latex-extra, texlive-fonts-recommended"
-  ],
-  "Checksums-Sha256": [
-    "7f9e340c3a0b20e6ad7d30953255ce710901a45501e00597d93af4b0148c96d6 2613 why3_0.87.3-2.dsc 6a8ac5539a65a5e2c63f46e3d8f9f69059b931e261fc4caca879d218b8d9c9ba 4501588 why3_0.87.3.orig.tar.gz d40cc2684ba42980fa8f1240c5527a2a43939a03c47bf32298cebf3187b1d58f 12404 why3_0.87.3-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/w/why3"
-  ],
-  "Files": [
-    "afa444d89fdfbbc77b92b656ce69ef5c 2613 why3_0.87.3-2.dsc ea24a4877ca09e2ec4fff19d5f4d35c6 4501588 why3_0.87.3.orig.tar.gz b102abf8c4c1e5c2b0dd3faebd296e40 12404 why3_0.87.3-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://why3.lri.fr/"
-  ],
-  "Maintainer": [
-    "Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>"
-  ],
-  "Package": [
-    "why3"
-  ],
-  "Package-List": [
-    "libwhy3-ocaml-dev deb ocaml optional arch=any why3 deb math optional arch=any why3-coq deb math optional arch=any why3-doc-html deb math optional arch=all why3-doc-pdf deb math optional arch=all why3-examples deb math optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "alt-ergo, coq, cvc3, spass, z3"
-  ],
-  "Uploaders": [
-    "Ralf Treinen <treinen@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-ocaml-maint/packages/why3.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-ocaml-maint/packages/why3.git"
-  ],
-  "Version": [
-    "0.87.3-2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"why3, why3-coq, libwhy3-ocaml-dev, why3-examples, why3-doc-html, why3-doc-pdf"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-ocaml, ocaml-nox (>= 3.11.2), menhir, libmenhir-ocaml-dev, libzarith-ocaml-dev, liblablgtk2-ocaml-dev, liblablgtksourceview2-ocaml-dev, libsqlite3-ocaml-dev, libzip-ocaml-dev, libocamlgraph-ocaml-dev, coq, libcoq-ocaml-dev, tex-common"
+	],
+	"Build-Depends-Indep": [
+		"rubber, hevea, lmodern, texlive-latex-recommended, texlive-latex-extra, texlive-fonts-recommended"
+	],
+	"Checksums-Sha256": [
+		"7f9e340c3a0b20e6ad7d30953255ce710901a45501e00597d93af4b0148c96d6 2613 why3_0.87.3-2.dsc 6a8ac5539a65a5e2c63f46e3d8f9f69059b931e261fc4caca879d218b8d9c9ba 4501588 why3_0.87.3.orig.tar.gz d40cc2684ba42980fa8f1240c5527a2a43939a03c47bf32298cebf3187b1d58f 12404 why3_0.87.3-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/w/why3"
+	],
+	"Files": [
+		"afa444d89fdfbbc77b92b656ce69ef5c 2613 why3_0.87.3-2.dsc ea24a4877ca09e2ec4fff19d5f4d35c6 4501588 why3_0.87.3.orig.tar.gz b102abf8c4c1e5c2b0dd3faebd296e40 12404 why3_0.87.3-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://why3.lri.fr/"
+	],
+	"Maintainer": [
+		"Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>"
+	],
+	"Package": [
+		"why3"
+	],
+	"Package-List": [
+		"libwhy3-ocaml-dev deb ocaml optional arch=any why3 deb math optional arch=any why3-coq deb math optional arch=any why3-doc-html deb math optional arch=all why3-doc-pdf deb math optional arch=all why3-examples deb math optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"alt-ergo, coq, cvc3, spass, z3"
+	],
+	"Uploaders": [
+		"Ralf Treinen <treinen@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-ocaml-maint/packages/why3.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-ocaml-maint/packages/why3.git"
+	],
+	"Version": [
+		"0.87.3-2"
+	]
 }

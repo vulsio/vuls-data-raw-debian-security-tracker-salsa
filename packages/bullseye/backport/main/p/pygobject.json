@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "python3-gi, python3-gi-dbg, python-gi-dev, python3-gi-cairo"
-  ],
-  "Build-Depends": [
-    "at-spi2-core <!nocheck>, dbus (>= 1.8) <!nocheck>, debhelper-compat (= 13), dh-sequence-gnome, dh-sequence-python3, dpkg-dev (>= 1.16.1~), gir1.2-gtk-3.0 <!nocheck>, libcairo2-dev, libffi-dev (>= 3.3), libgirepository1.0-dev (>= 1.62.0-4~), libglib2.0-dev (>= 2.56.0), locales <!nocheck>, python3-all-dbg, python3-all-dev, python3-cairo-dev (>= 1.16.0), python3-flake8 <!nocheck>, python3-pytest <!nocheck>, python3-setuptools, xauth <!nocheck>, xvfb <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "482c1d45bf447a94bc26fe1195b21025ba5e3a31b4d6c18bea06409fedf6b804 2841 pygobject_3.42.2-2~bpo11+1.dsc ade8695e2a7073849dd0316d31d8728e15e1e0bc71d9ff6d1c09e86be52bc957 558724 pygobject_3.42.2.orig.tar.xz 1dbbf7ef80a5d29514b40a6fd4a0128c8edc111842dc8f7721c0d113090c2cde 23044 pygobject_3.42.2-2~bpo11+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/pygobject"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://wiki.gnome.org/Projects/PyGObject"
-  ],
-  "Maintainer": [
-    "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "pygobject"
-  ],
-  "Package-List": [
-    "python-gi-dev deb python optional arch=any python3-gi deb python optional arch=any python3-gi-cairo deb python optional arch=any python3-gi-dbg deb debug optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.0"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential, gir1.2-glib-2.0, python3-all, python3-all-dbg, python3-all-dev, python3-dev"
-  ],
-  "Uploaders": [
-    "Iain Lane <laney@debian.org>, Jeremy Bicha <jbicha@debian.org>, Laurent Bigonville <bigon@debian.org>, Sebastien Bacher <seb128@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/gnome-team/pygobject"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/gnome-team/pygobject.git"
-  ],
-  "Version": [
-    "3.42.2-2~bpo11+1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"python3-gi, python3-gi-dbg, python-gi-dev, python3-gi-cairo"
+	],
+	"Build-Depends": [
+		"at-spi2-core <!nocheck>, dbus (>= 1.8) <!nocheck>, debhelper-compat (= 13), dh-sequence-gnome, dh-sequence-python3, dpkg-dev (>= 1.16.1~), gir1.2-gtk-3.0 <!nocheck>, libcairo2-dev, libffi-dev (>= 3.3), libgirepository1.0-dev (>= 1.62.0-4~), libglib2.0-dev (>= 2.56.0), locales <!nocheck>, python3-all-dbg, python3-all-dev, python3-cairo-dev (>= 1.16.0), python3-flake8 <!nocheck>, python3-pytest <!nocheck>, python3-setuptools, xauth <!nocheck>, xvfb <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"482c1d45bf447a94bc26fe1195b21025ba5e3a31b4d6c18bea06409fedf6b804 2841 pygobject_3.42.2-2~bpo11+1.dsc ade8695e2a7073849dd0316d31d8728e15e1e0bc71d9ff6d1c09e86be52bc957 558724 pygobject_3.42.2.orig.tar.xz 1dbbf7ef80a5d29514b40a6fd4a0128c8edc111842dc8f7721c0d113090c2cde 23044 pygobject_3.42.2-2~bpo11+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/pygobject"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://wiki.gnome.org/Projects/PyGObject"
+	],
+	"Maintainer": [
+		"Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"pygobject"
+	],
+	"Package-List": [
+		"python-gi-dev deb python optional arch=any python3-gi deb python optional arch=any python3-gi-cairo deb python optional arch=any python3-gi-dbg deb debug optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, gir1.2-glib-2.0, python3-all, python3-all-dbg, python3-all-dev, python3-dev"
+	],
+	"Uploaders": [
+		"Iain Lane <laney@debian.org>, Jeremy Bicha <jbicha@debian.org>, Laurent Bigonville <bigon@debian.org>, Sebastien Bacher <seb128@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/gnome-team/pygobject"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/gnome-team/pygobject.git"
+	],
+	"Version": [
+		"3.42.2-2~bpo11+1"
+	]
 }

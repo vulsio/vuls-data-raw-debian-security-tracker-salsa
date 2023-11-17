@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "prometheus-alertmanager, golang-github-prometheus-alertmanager-dev"
-  ],
-  "Build-Depends": [
-    "adduser, bash-completion, debhelper (>= 11), dh-golang (>= 1.31~), golang-any (>= 2:1.10~), golang-github-cenkalti-backoff-dev, golang-github-cespare-xxhash-dev, golang-github-go-kit-kit-dev, golang-github-gogo-protobuf-dev (>= 0.5), golang-github-hashicorp-go-sockaddr-dev, golang-github-hashicorp-memberlist-dev (>= 0.1.0~), golang-github-kylelemons-godebug-dev, golang-github-oklog-ulid-dev, golang-github-pkg-errors-dev, golang-github-prometheus-client-golang-dev (>= 0.9.0~pre1+git20180417), golang-github-prometheus-common-dev (>= 0+git20181119), golang-github-satori-go.uuid-dev, golang-golang-x-net-dev, golang-gopkg-alecthomas-kingpin.v2-dev, golang-gopkg-yaml.v2-dev (>= 2.2.1-1~)"
-  ],
-  "Checksums-Sha256": [
-    "67d5d95ef06652d8559fb304a1469edcd36958be5df315724197fcff3f81358b 3000 prometheus-alertmanager_0.15.3+ds-2~bpo9+1.dsc aad478d06307f2f0203e3cd6d20709015721736d5fe446f4de655e40033fcbf6 220285 prometheus-alertmanager_0.15.3+ds.orig.tar.gz ca4142f0d41c247957cfd90ad7ba9709484a8a918af19fc10000faf6de89a92c 15048 prometheus-alertmanager_0.15.3+ds-2~bpo9+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/prometheus-alertmanager"
-  ],
-  "Files": [
-    "41be8a1d9436e73cbd51e6155e3f861e 3000 prometheus-alertmanager_0.15.3+ds-2~bpo9+1.dsc f9ce174eefa4f0de231f5d9a23666ba1 220285 prometheus-alertmanager_0.15.3+ds.orig.tar.gz e1d42c47c8d2b5abded8dfb079aebd8a 15048 prometheus-alertmanager_0.15.3+ds-2~bpo9+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Go-Import-Path": [
-    "github.com/prometheus/alertmanager"
-  ],
-  "Homepage": [
-    "https://prometheus.io/"
-  ],
-  "Maintainer": [
-    "Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "prometheus-alertmanager"
-  ],
-  "Package-List": [
-    "golang-github-prometheus-alertmanager-dev deb net optional arch=all prometheus-alertmanager deb net optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.3.0"
-  ],
-  "Testsuite": [
-    "autopkgtest-pkg-go"
-  ],
-  "Uploaders": [
-    "Martín Ferrari <tincho@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/go-team/packages/prometheus-alertmanager"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/go-team/packages/prometheus-alertmanager.git"
-  ],
-  "Version": [
-    "0.15.3+ds-2~bpo9+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"prometheus-alertmanager, golang-github-prometheus-alertmanager-dev"
+	],
+	"Build-Depends": [
+		"adduser, bash-completion, debhelper (>= 11), dh-golang (>= 1.31~), golang-any (>= 2:1.10~), golang-github-cenkalti-backoff-dev, golang-github-cespare-xxhash-dev, golang-github-go-kit-kit-dev, golang-github-gogo-protobuf-dev (>= 0.5), golang-github-hashicorp-go-sockaddr-dev, golang-github-hashicorp-memberlist-dev (>= 0.1.0~), golang-github-kylelemons-godebug-dev, golang-github-oklog-ulid-dev, golang-github-pkg-errors-dev, golang-github-prometheus-client-golang-dev (>= 0.9.0~pre1+git20180417), golang-github-prometheus-common-dev (>= 0+git20181119), golang-github-satori-go.uuid-dev, golang-golang-x-net-dev, golang-gopkg-alecthomas-kingpin.v2-dev, golang-gopkg-yaml.v2-dev (>= 2.2.1-1~)"
+	],
+	"Checksums-Sha256": [
+		"67d5d95ef06652d8559fb304a1469edcd36958be5df315724197fcff3f81358b 3000 prometheus-alertmanager_0.15.3+ds-2~bpo9+1.dsc aad478d06307f2f0203e3cd6d20709015721736d5fe446f4de655e40033fcbf6 220285 prometheus-alertmanager_0.15.3+ds.orig.tar.gz ca4142f0d41c247957cfd90ad7ba9709484a8a918af19fc10000faf6de89a92c 15048 prometheus-alertmanager_0.15.3+ds-2~bpo9+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/prometheus-alertmanager"
+	],
+	"Files": [
+		"41be8a1d9436e73cbd51e6155e3f861e 3000 prometheus-alertmanager_0.15.3+ds-2~bpo9+1.dsc f9ce174eefa4f0de231f5d9a23666ba1 220285 prometheus-alertmanager_0.15.3+ds.orig.tar.gz e1d42c47c8d2b5abded8dfb079aebd8a 15048 prometheus-alertmanager_0.15.3+ds-2~bpo9+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Go-Import-Path": [
+		"github.com/prometheus/alertmanager"
+	],
+	"Homepage": [
+		"https://prometheus.io/"
+	],
+	"Maintainer": [
+		"Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"prometheus-alertmanager"
+	],
+	"Package-List": [
+		"golang-github-prometheus-alertmanager-dev deb net optional arch=all prometheus-alertmanager deb net optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.3.0"
+	],
+	"Testsuite": [
+		"autopkgtest-pkg-go"
+	],
+	"Uploaders": [
+		"Martín Ferrari <tincho@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/go-team/packages/prometheus-alertmanager"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/go-team/packages/prometheus-alertmanager.git"
+	],
+	"Version": [
+		"0.15.3+ds-2~bpo9+1"
+	]
 }

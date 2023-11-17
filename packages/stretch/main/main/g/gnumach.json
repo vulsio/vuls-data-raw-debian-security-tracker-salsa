@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any-i386 all"
-  ],
-  "Binary": [
-    "gnumach, gnumach-dbg, gnumach-image-1-486, gnumach-image-1-xen-486, gnumach-image-1.8-486, gnumach-image-1.8-xen-486, kernel-image-1.8-486-di, kernel-image-1.8-xen-486-di, gnumach-image-1.8-486-dbg, gnumach-image-1.8-xen-486-dbg, gnumach-common, gnumach-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9.20141010), mig (>= 1.6+git20160502-1~) <!stage1>, sharutils, autoconf, automake, texinfo, dpkg-dev (>= 1.17.14)"
-  ],
-  "Checksums-Sha256": [
-    "0bcff86a064c0824c52a3444c7ddba1ad3ab100726c570b4453a5ae7349a51ce 3184 gnumach_1.8+git20170102-1.dsc 44519926b8e3eee79997f8e40f928fe29a6bc9c6db31bc8efc500531199a3ed1 3228179 gnumach_1.8+git20170102.orig.tar.bz2 d212365521b8194a727fa4b33feb94509e7a6f544b03969e5e96d611cadb3b5d 30069 gnumach_1.8+git20170102-1.debian.tar.bz2"
-  ],
-  "Directory": [
-    "pool/main/g/gnumach"
-  ],
-  "Files": [
-    "4e58b1728b4622b2cacc3fda22ce79ab 3184 gnumach_1.8+git20170102-1.dsc 70652d9e108cb8daf6d0c18bbd19ab65 3228179 gnumach_1.8+git20170102.orig.tar.bz2 f26d115cc265e54b855e13613b12d23c 30069 gnumach_1.8+git20170102-1.debian.tar.bz2"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.gnu.org/software/hurd/microkernel/mach/gnumach.html"
-  ],
-  "Maintainer": [
-    "GNU Hurd Maintainers <debian-hurd@lists.debian.org>"
-  ],
-  "Package": [
-    "gnumach"
-  ],
-  "Package-List": [
-    "gnumach deb kernel optional arch=any-i386 profile=!stage1 gnumach-common deb devel optional arch=all profile=!stage1 gnumach-dbg deb debug extra arch=any-i386 profile=!stage1 gnumach-dev deb devel optional arch=any-i386 gnumach-image-1-486 deb kernel optional arch=any-i386 profile=!stage1 gnumach-image-1-xen-486 deb kernel optional arch=any-i386 profile=!stage1 gnumach-image-1.8-486 deb kernel optional arch=any-i386 profile=!stage1 gnumach-image-1.8-486-dbg deb debug extra arch=any-i386 profile=!stage1 gnumach-image-1.8-xen-486 deb kernel optional arch=any-i386 profile=!stage1 gnumach-image-1.8-xen-486-dbg deb debug extra arch=any-i386 profile=!stage1 kernel-image-1.8-486-di udeb debian-installer optional arch=hurd-i386 profile=!stage1 kernel-image-1.8-xen-486-di udeb debian-installer optional arch=hurd-i386 profile=!stage1"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "kernel"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Samuel Thibault <sthibault@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-hurd/gnumach.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-hurd/gnumach.git"
-  ],
-  "Version": [
-    "2:1.8+git20170102-1"
-  ]
+	"Architecture": [
+		"any-i386 all"
+	],
+	"Binary": [
+		"gnumach, gnumach-dbg, gnumach-image-1-486, gnumach-image-1-xen-486, gnumach-image-1.8-486, gnumach-image-1.8-xen-486, kernel-image-1.8-486-di, kernel-image-1.8-xen-486-di, gnumach-image-1.8-486-dbg, gnumach-image-1.8-xen-486-dbg, gnumach-common, gnumach-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9.20141010), mig (>= 1.6+git20160502-1~) <!stage1>, sharutils, autoconf, automake, texinfo, dpkg-dev (>= 1.17.14)"
+	],
+	"Checksums-Sha256": [
+		"0bcff86a064c0824c52a3444c7ddba1ad3ab100726c570b4453a5ae7349a51ce 3184 gnumach_1.8+git20170102-1.dsc 44519926b8e3eee79997f8e40f928fe29a6bc9c6db31bc8efc500531199a3ed1 3228179 gnumach_1.8+git20170102.orig.tar.bz2 d212365521b8194a727fa4b33feb94509e7a6f544b03969e5e96d611cadb3b5d 30069 gnumach_1.8+git20170102-1.debian.tar.bz2"
+	],
+	"Directory": [
+		"pool/main/g/gnumach"
+	],
+	"Files": [
+		"4e58b1728b4622b2cacc3fda22ce79ab 3184 gnumach_1.8+git20170102-1.dsc 70652d9e108cb8daf6d0c18bbd19ab65 3228179 gnumach_1.8+git20170102.orig.tar.bz2 f26d115cc265e54b855e13613b12d23c 30069 gnumach_1.8+git20170102-1.debian.tar.bz2"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.gnu.org/software/hurd/microkernel/mach/gnumach.html"
+	],
+	"Maintainer": [
+		"GNU Hurd Maintainers <debian-hurd@lists.debian.org>"
+	],
+	"Package": [
+		"gnumach"
+	],
+	"Package-List": [
+		"gnumach deb kernel optional arch=any-i386 profile=!stage1 gnumach-common deb devel optional arch=all profile=!stage1 gnumach-dbg deb debug extra arch=any-i386 profile=!stage1 gnumach-dev deb devel optional arch=any-i386 gnumach-image-1-486 deb kernel optional arch=any-i386 profile=!stage1 gnumach-image-1-xen-486 deb kernel optional arch=any-i386 profile=!stage1 gnumach-image-1.8-486 deb kernel optional arch=any-i386 profile=!stage1 gnumach-image-1.8-486-dbg deb debug extra arch=any-i386 profile=!stage1 gnumach-image-1.8-xen-486 deb kernel optional arch=any-i386 profile=!stage1 gnumach-image-1.8-xen-486-dbg deb debug extra arch=any-i386 profile=!stage1 kernel-image-1.8-486-di udeb debian-installer optional arch=hurd-i386 profile=!stage1 kernel-image-1.8-xen-486-di udeb debian-installer optional arch=hurd-i386 profile=!stage1"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"kernel"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Samuel Thibault <sthibault@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-hurd/gnumach.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-hurd/gnumach.git"
+	],
+	"Version": [
+		"2:1.8+git20170102-1"
+	]
 }

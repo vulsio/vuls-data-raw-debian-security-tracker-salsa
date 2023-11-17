@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-vm-memory-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.39-~~) <!nocheck>, librust-thiserror-1+default-dev (>= 1.0.38-~~) <!nocheck>, librust-winapi-0.3+default-dev <!nocheck>, librust-winapi-0.3+errhandlingapi-dev <!nocheck>, librust-winapi-0.3+sysinfoapi-dev <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "5923a9dc8ece3933313ad0e79840295e33126146c283626154758e5ec85c25b1 2179 rust-vm-memory_0.12.2-1.dsc 9dc276f0d00c17b9aeb584da0f1e1c673df0d183cc2539e3636ec8cbc5eae99b 79072 rust-vm-memory_0.12.2.orig.tar.gz 7cd2acbb0cb9cac012fe5c04c110c683cf28eedc18eee629a0d9660283b43479 5992 rust-vm-memory_0.12.2-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-vm-memory"
-  ],
-  "Files": [
-    "12fffc21f68aa737b896d7fd1fc29f17 2179 rust-vm-memory_0.12.2-1.dsc a07cc362a3c95985e43ea7783075198f 79072 rust-vm-memory_0.12.2.orig.tar.gz a2c7b9cdfb9e09792cc731befa7c4f8b 5992 rust-vm-memory_0.12.2-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-vm-memory"
-  ],
-  "Package-List": [
-    "librust-vm-memory-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-matches-0.1+default-dev, librust-vmm-sys-util-0.11+default-dev"
-  ],
-  "Uploaders": [
-    "Liang Yan <ly@xryan.net>, Fabian Grünbichler <debian@fabian.gruenbichler.email>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/vm-memory"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/vm-memory]"
-  ],
-  "Version": [
-    "0.12.2-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-vm-memory-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.39-~~) <!nocheck>, librust-thiserror-1+default-dev (>= 1.0.38-~~) <!nocheck>, librust-winapi-0.3+default-dev <!nocheck>, librust-winapi-0.3+errhandlingapi-dev <!nocheck>, librust-winapi-0.3+sysinfoapi-dev <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"5923a9dc8ece3933313ad0e79840295e33126146c283626154758e5ec85c25b1 2179 rust-vm-memory_0.12.2-1.dsc 9dc276f0d00c17b9aeb584da0f1e1c673df0d183cc2539e3636ec8cbc5eae99b 79072 rust-vm-memory_0.12.2.orig.tar.gz 7cd2acbb0cb9cac012fe5c04c110c683cf28eedc18eee629a0d9660283b43479 5992 rust-vm-memory_0.12.2-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-vm-memory"
+	],
+	"Files": [
+		"12fffc21f68aa737b896d7fd1fc29f17 2179 rust-vm-memory_0.12.2-1.dsc a07cc362a3c95985e43ea7783075198f 79072 rust-vm-memory_0.12.2.orig.tar.gz a2c7b9cdfb9e09792cc731befa7c4f8b 5992 rust-vm-memory_0.12.2-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-vm-memory"
+	],
+	"Package-List": [
+		"librust-vm-memory-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-matches-0.1+default-dev, librust-vmm-sys-util-0.11+default-dev"
+	],
+	"Uploaders": [
+		"Liang Yan <ly@xryan.net>, Fabian Grünbichler <debian@fabian.gruenbichler.email>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/vm-memory"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/vm-memory]"
+	],
+	"Version": [
+		"0.12.2-1"
+	]
 }

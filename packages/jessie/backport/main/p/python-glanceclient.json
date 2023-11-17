@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-glanceclient, python3-glanceclient, python-glanceclient-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-python, openstack-pkg-tools, python-all, python-pbr (>= 1.6), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.6), python3-setuptools"
-  ],
-  "Build-Depends-Indep": [
-    "python-babel, python-coverage, python-fixtures (>= 1.3.1), python-hacking (>= 0.10.0), python-keystoneclient (>= 1:1.6.0), python-mock (>= 1.2), python-mox3, python-oslo.i18n (>= 2.1.0), python-oslo.utils (>= 3.5.0), python-oslosphinx (>= 2.5.0), python-prettytable, python-requests (>= 2.8.1), python-requests-mock (>= 0.7.0), python-six (>= 1.9.0), python-tempest-lib (>= 0.14.0), python-testscenarios (>= 0.4), python-testtools (>= 1.4.0), python-unittest2, python-warlock, python-os-client-config (>= 1.13.1), python3-babel, python3-fixtures (>= 1.3.1), python3-hacking (>= 0.10.0), python3-keystoneclient (>= 1:1.6.0), python3-mock (>= 1.2), python3-mox3, python3-oslo.i18n (>= 2.1.0), python3-oslo.utils (>= 3.5.0), python3-prettytable, python3-requests (>= 2.8.1), python3-requests-mock (>= 0.7.0), python3-six (>= 1.9.0), python3-subunit, python3-tempest-lib (>= 0.14.0), python3-testtools (>= 1.4.0), python3-testscenarios (>= 0.4), python3-warlock, python3-os-client-config (>= 1.13.1), subunit, testrepository"
-  ],
-  "Checksums-Sha1": [
-    "5a6522df72f6dd44d2bd14a50fe25a77337df62c 3442 python-glanceclient_2.0.0-2~bpo8+1.dsc 9672772bd620a8a5da570f26b65d0dd876e3cc0a 112284 python-glanceclient_2.0.0.orig.tar.xz 749997c804ece36ad77e9d5d337efc585460a2cf 28200 python-glanceclient_2.0.0-2~bpo8+1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "47b0c6ae76a9ce3237e57d42706b6201d39310dfd18c8dd6db42ff90622d5b88 3442 python-glanceclient_2.0.0-2~bpo8+1.dsc b5f0c7cf02f6e09c6281a5121b932d090fb885d5fe9a609643b7509ce76b5ae3 112284 python-glanceclient_2.0.0.orig.tar.xz d8b876a91a95926bf9a29fbb1ac42e707d61016f38a8f2d679d9e0d6170b07ba 28200 python-glanceclient_2.0.0-2~bpo8+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/python-glanceclient"
-  ],
-  "Files": [
-    "bcdac5b0622b7420664a2b53a3c42b13 3442 python-glanceclient_2.0.0-2~bpo8+1.dsc 32dd488584230101fbce6b4298fa09a2 112284 python-glanceclient_2.0.0.orig.tar.xz caec9bac4b55b80b1ba4c198043e1024 28200 python-glanceclient_2.0.0-2~bpo8+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://glance.openstack.org"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "python-glanceclient"
-  ],
-  "Package-List": [
-    "python-glanceclient deb python extra arch=all python-glanceclient-doc deb doc extra arch=all python3-glanceclient deb python extra arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.7"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Corey Bryant <corey.bryant@canonical.com>, Thomas Goirand <zigo@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/openstack/python-glanceclient.git/"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/openstack/python-glanceclient.git"
-  ],
-  "Version": [
-    "1:2.0.0-2~bpo8+1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-glanceclient, python3-glanceclient, python-glanceclient-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-python, openstack-pkg-tools, python-all, python-pbr (>= 1.6), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.6), python3-setuptools"
+	],
+	"Build-Depends-Indep": [
+		"python-babel, python-coverage, python-fixtures (>= 1.3.1), python-hacking (>= 0.10.0), python-keystoneclient (>= 1:1.6.0), python-mock (>= 1.2), python-mox3, python-oslo.i18n (>= 2.1.0), python-oslo.utils (>= 3.5.0), python-oslosphinx (>= 2.5.0), python-prettytable, python-requests (>= 2.8.1), python-requests-mock (>= 0.7.0), python-six (>= 1.9.0), python-tempest-lib (>= 0.14.0), python-testscenarios (>= 0.4), python-testtools (>= 1.4.0), python-unittest2, python-warlock, python-os-client-config (>= 1.13.1), python3-babel, python3-fixtures (>= 1.3.1), python3-hacking (>= 0.10.0), python3-keystoneclient (>= 1:1.6.0), python3-mock (>= 1.2), python3-mox3, python3-oslo.i18n (>= 2.1.0), python3-oslo.utils (>= 3.5.0), python3-prettytable, python3-requests (>= 2.8.1), python3-requests-mock (>= 0.7.0), python3-six (>= 1.9.0), python3-subunit, python3-tempest-lib (>= 0.14.0), python3-testtools (>= 1.4.0), python3-testscenarios (>= 0.4), python3-warlock, python3-os-client-config (>= 1.13.1), subunit, testrepository"
+	],
+	"Checksums-Sha1": [
+		"5a6522df72f6dd44d2bd14a50fe25a77337df62c 3442 python-glanceclient_2.0.0-2~bpo8+1.dsc 9672772bd620a8a5da570f26b65d0dd876e3cc0a 112284 python-glanceclient_2.0.0.orig.tar.xz 749997c804ece36ad77e9d5d337efc585460a2cf 28200 python-glanceclient_2.0.0-2~bpo8+1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"47b0c6ae76a9ce3237e57d42706b6201d39310dfd18c8dd6db42ff90622d5b88 3442 python-glanceclient_2.0.0-2~bpo8+1.dsc b5f0c7cf02f6e09c6281a5121b932d090fb885d5fe9a609643b7509ce76b5ae3 112284 python-glanceclient_2.0.0.orig.tar.xz d8b876a91a95926bf9a29fbb1ac42e707d61016f38a8f2d679d9e0d6170b07ba 28200 python-glanceclient_2.0.0-2~bpo8+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-glanceclient"
+	],
+	"Files": [
+		"bcdac5b0622b7420664a2b53a3c42b13 3442 python-glanceclient_2.0.0-2~bpo8+1.dsc 32dd488584230101fbce6b4298fa09a2 112284 python-glanceclient_2.0.0.orig.tar.xz caec9bac4b55b80b1ba4c198043e1024 28200 python-glanceclient_2.0.0-2~bpo8+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://glance.openstack.org"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"python-glanceclient"
+	],
+	"Package-List": [
+		"python-glanceclient deb python extra arch=all python-glanceclient-doc deb doc extra arch=all python3-glanceclient deb python extra arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.7"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Corey Bryant <corey.bryant@canonical.com>, Thomas Goirand <zigo@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/openstack/python-glanceclient.git/"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/openstack/python-glanceclient.git"
+	],
+	"Version": [
+		"1:2.0.0-2~bpo8+1"
+	]
 }

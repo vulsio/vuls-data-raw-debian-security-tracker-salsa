@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "redis-server, redis-tools, redis-sentinel"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-systemd (>= 1.5), libjemalloc-dev [linux-any], procps, tcl"
-  ],
-  "Checksums-Sha1": [
-    "518cdc09af57735920664ff66c736ee254c4d3c5 2013 redis_3.2.6-3+deb9u9.dsc 0c7bc5c751bdbc6fabed178db9cdbdd948915d1b 1544806 redis_3.2.6.orig.tar.gz c4c70dfa0263620351008101a50747018f34e005 46088 redis_3.2.6-3+deb9u9.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "db3370a1d4d64eed0f1e2b5c147bb763af1ced6b407a17c377dc88d109df0128 2013 redis_3.2.6-3+deb9u9.dsc 2e1831c5a315e400d72bda4beaa98c0cfbe3f4eb8b20c269371634390cf729fa 1544806 redis_3.2.6.orig.tar.gz a95ab749a4df8c3c70bbbf8b67faa1b4173a8afcbb10aae6c2684bd21e2f663c 46088 redis_3.2.6-3+deb9u9.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/r/redis"
-  ],
-  "Files": [
-    "f521bdc6fd0f6263a5988c6dda8883a8 2013 redis_3.2.6-3+deb9u9.dsc d0e81d1e19f673fd84d01784bf9fb5f0 1544806 redis_3.2.6.orig.tar.gz f360614a51eaed845975f89bccc63a04 46088 redis_3.2.6-3+deb9u9.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://redis.io/"
-  ],
-  "Maintainer": [
-    "Chris Lamb <lamby@debian.org>"
-  ],
-  "Package": [
-    "redis"
-  ],
-  "Package-List": [
-    "redis-sentinel deb database optional arch=any redis-server deb database optional arch=any redis-tools deb database optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "database"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Vcs-Browser": [
-    "https://github.com/lamby/pkg-redis"
-  ],
-  "Vcs-Git": [
-    "https://github.com/lamby/pkg-redis.git"
-  ],
-  "Version": [
-    "3:3.2.6-3+deb9u9"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"redis-server, redis-tools, redis-sentinel"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-systemd (>= 1.5), libjemalloc-dev [linux-any], procps, tcl"
+	],
+	"Checksums-Sha1": [
+		"518cdc09af57735920664ff66c736ee254c4d3c5 2013 redis_3.2.6-3+deb9u9.dsc 0c7bc5c751bdbc6fabed178db9cdbdd948915d1b 1544806 redis_3.2.6.orig.tar.gz c4c70dfa0263620351008101a50747018f34e005 46088 redis_3.2.6-3+deb9u9.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"db3370a1d4d64eed0f1e2b5c147bb763af1ced6b407a17c377dc88d109df0128 2013 redis_3.2.6-3+deb9u9.dsc 2e1831c5a315e400d72bda4beaa98c0cfbe3f4eb8b20c269371634390cf729fa 1544806 redis_3.2.6.orig.tar.gz a95ab749a4df8c3c70bbbf8b67faa1b4173a8afcbb10aae6c2684bd21e2f663c 46088 redis_3.2.6-3+deb9u9.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/r/redis"
+	],
+	"Files": [
+		"f521bdc6fd0f6263a5988c6dda8883a8 2013 redis_3.2.6-3+deb9u9.dsc d0e81d1e19f673fd84d01784bf9fb5f0 1544806 redis_3.2.6.orig.tar.gz f360614a51eaed845975f89bccc63a04 46088 redis_3.2.6-3+deb9u9.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://redis.io/"
+	],
+	"Maintainer": [
+		"Chris Lamb <lamby@debian.org>"
+	],
+	"Package": [
+		"redis"
+	],
+	"Package-List": [
+		"redis-sentinel deb database optional arch=any redis-server deb database optional arch=any redis-tools deb database optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"database"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Vcs-Browser": [
+		"https://github.com/lamby/pkg-redis"
+	],
+	"Vcs-Git": [
+		"https://github.com/lamby/pkg-redis.git"
+	],
+	"Version": [
+		"3:3.2.6-3+deb9u9"
+	]
 }

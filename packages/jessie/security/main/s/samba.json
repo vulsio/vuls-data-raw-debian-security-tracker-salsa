@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "samba, samba-libs, samba-common, samba-common-bin, smbclient, samba-testsuite, registry-tools, libparse-pidl-perl, samba-dev, samba-doc, python-samba, samba-dsdb-modules, samba-vfs-modules, libpam-smbpass, libsmbclient, libsmbclient-dev, winbind, libpam-winbind, libnss-winbind, samba-dbg, libwbclient0, libwbclient-dev, ctdb"
-  ],
-  "Build-Depends": [
-    "bison, debhelper (>> 9), dh-systemd (>= 1.5), docbook-xml, docbook-xsl, faketime, flex, libacl1-dev, libaio-dev [linux-any], libarchive-dev, libattr1-dev, libblkid-dev, libbsd-dev, libcap-dev [linux-any], libcups2-dev, libgnutls28-dev, libheimntlm0-heimdal (>= 1.6~), libldap2-dev, libldb-dev (>= 1:1.1.20~), libncurses5-dev, libntdb-dev (>= 1.0), libpam0g-dev, libparse-yapp-perl, libpcap-dev [hurd-i386 kfreebsd-any], libpopt-dev, libreadline-dev, libsubunit-dev, libtalloc-dev (>= 2.1.2~), libtdb-dev (>= 1.3.6~), libtevent-dev (>= 0.9.28~), perl, perl-modules, pkg-config, po-debconf, python-all-dev (>= 2.6.6-3), python-dnspython, python-ldb (>= 1:1.1.20~), python-ldb-dev (>= 1:1.1.20~), python-ntdb, python-talloc-dev (>= 2.1.2~), python-tdb (>= 1.3.6~), python-testtools, python3, subunit (>= 0.0.6), xsltproc, zlib1g-dev (>= 1:1.2.3)"
-  ],
-  "Checksums-Sha1": [
-    "96538770bbeff62e59ab365cb914b16196b60070 4192 samba_4.2.14+dfsg-0+deb8u13.dsc 636584f1e88276a5dc1eed99845063660e493704 20862908 samba_4.2.14+dfsg.orig.tar.gz e0ee819d3c5dc6c4cb5a4da8703c850ada059952 291476 samba_4.2.14+dfsg-0+deb8u13.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "8de82ea7d2902f2db3e04207b69fce2143a71149353856a529aa0d330ddc72cd 4192 samba_4.2.14+dfsg-0+deb8u13.dsc 9beca5ea39f4e61798bb05748abfdd0650c85b6381b5531b372f7757635e4264 20862908 samba_4.2.14+dfsg.orig.tar.gz 97b52fffc5ce45edfe4b0e0298453a8d9f8eb6cf474bba14886d38c4e10122ce 291476 samba_4.2.14+dfsg-0+deb8u13.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/s/samba"
-  ],
-  "Files": [
-    "82e2f4c99230f312d4fee46941712963 4192 samba_4.2.14+dfsg-0+deb8u13.dsc c76527d80c6c7c1c8ea7bdbeba35c073 20862908 samba_4.2.14+dfsg.orig.tar.gz db854c6954675693c176a1df6cb180d2 291476 samba_4.2.14+dfsg-0+deb8u13.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.samba.org"
-  ],
-  "Maintainer": [
-    "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "samba"
-  ],
-  "Package-List": [
-    "ctdb deb net optional arch=any libnss-winbind deb net optional arch=any libpam-smbpass deb admin extra arch=any libpam-winbind deb net optional arch=any libparse-pidl-perl deb perl optional arch=any libsmbclient deb libs optional arch=any libsmbclient-dev deb libdevel extra arch=any libwbclient-dev deb libdevel optional arch=any libwbclient0 deb libs optional arch=any python-samba deb python optional arch=any registry-tools deb net optional arch=any samba deb net optional arch=any samba-common deb net optional arch=all samba-common-bin deb net optional arch=any samba-dbg deb debug extra arch=any samba-dev deb devel optional arch=any samba-doc deb doc optional arch=all samba-dsdb-modules deb libs optional arch=any samba-libs deb libs optional arch=any samba-testsuite deb net optional arch=any samba-vfs-modules deb net optional arch=any smbclient deb net optional arch=any winbind deb net optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Steve Langasek <vorlon@debian.org>, Christian Perrier <bubulle@debian.org>, Jelmer Vernooij <jelmer@debian.org>, Ivo De Decker <ivodd@debian.org>, Mathieu Parent <sathieu@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-samba/samba.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-samba/samba.git -b master"
-  ],
-  "Version": [
-    "2:4.2.14+dfsg-0+deb8u13"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"samba, samba-libs, samba-common, samba-common-bin, smbclient, samba-testsuite, registry-tools, libparse-pidl-perl, samba-dev, samba-doc, python-samba, samba-dsdb-modules, samba-vfs-modules, libpam-smbpass, libsmbclient, libsmbclient-dev, winbind, libpam-winbind, libnss-winbind, samba-dbg, libwbclient0, libwbclient-dev, ctdb"
+	],
+	"Build-Depends": [
+		"bison, debhelper (>> 9), dh-systemd (>= 1.5), docbook-xml, docbook-xsl, faketime, flex, libacl1-dev, libaio-dev [linux-any], libarchive-dev, libattr1-dev, libblkid-dev, libbsd-dev, libcap-dev [linux-any], libcups2-dev, libgnutls28-dev, libheimntlm0-heimdal (>= 1.6~), libldap2-dev, libldb-dev (>= 1:1.1.20~), libncurses5-dev, libntdb-dev (>= 1.0), libpam0g-dev, libparse-yapp-perl, libpcap-dev [hurd-i386 kfreebsd-any], libpopt-dev, libreadline-dev, libsubunit-dev, libtalloc-dev (>= 2.1.2~), libtdb-dev (>= 1.3.6~), libtevent-dev (>= 0.9.28~), perl, perl-modules, pkg-config, po-debconf, python-all-dev (>= 2.6.6-3), python-dnspython, python-ldb (>= 1:1.1.20~), python-ldb-dev (>= 1:1.1.20~), python-ntdb, python-talloc-dev (>= 2.1.2~), python-tdb (>= 1.3.6~), python-testtools, python3, subunit (>= 0.0.6), xsltproc, zlib1g-dev (>= 1:1.2.3)"
+	],
+	"Checksums-Sha1": [
+		"96538770bbeff62e59ab365cb914b16196b60070 4192 samba_4.2.14+dfsg-0+deb8u13.dsc 636584f1e88276a5dc1eed99845063660e493704 20862908 samba_4.2.14+dfsg.orig.tar.gz e0ee819d3c5dc6c4cb5a4da8703c850ada059952 291476 samba_4.2.14+dfsg-0+deb8u13.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"8de82ea7d2902f2db3e04207b69fce2143a71149353856a529aa0d330ddc72cd 4192 samba_4.2.14+dfsg-0+deb8u13.dsc 9beca5ea39f4e61798bb05748abfdd0650c85b6381b5531b372f7757635e4264 20862908 samba_4.2.14+dfsg.orig.tar.gz 97b52fffc5ce45edfe4b0e0298453a8d9f8eb6cf474bba14886d38c4e10122ce 291476 samba_4.2.14+dfsg-0+deb8u13.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/s/samba"
+	],
+	"Files": [
+		"82e2f4c99230f312d4fee46941712963 4192 samba_4.2.14+dfsg-0+deb8u13.dsc c76527d80c6c7c1c8ea7bdbeba35c073 20862908 samba_4.2.14+dfsg.orig.tar.gz db854c6954675693c176a1df6cb180d2 291476 samba_4.2.14+dfsg-0+deb8u13.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.samba.org"
+	],
+	"Maintainer": [
+		"Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"samba"
+	],
+	"Package-List": [
+		"ctdb deb net optional arch=any libnss-winbind deb net optional arch=any libpam-smbpass deb admin extra arch=any libpam-winbind deb net optional arch=any libparse-pidl-perl deb perl optional arch=any libsmbclient deb libs optional arch=any libsmbclient-dev deb libdevel extra arch=any libwbclient-dev deb libdevel optional arch=any libwbclient0 deb libs optional arch=any python-samba deb python optional arch=any registry-tools deb net optional arch=any samba deb net optional arch=any samba-common deb net optional arch=all samba-common-bin deb net optional arch=any samba-dbg deb debug extra arch=any samba-dev deb devel optional arch=any samba-doc deb doc optional arch=all samba-dsdb-modules deb libs optional arch=any samba-libs deb libs optional arch=any samba-testsuite deb net optional arch=any samba-vfs-modules deb net optional arch=any smbclient deb net optional arch=any winbind deb net optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Steve Langasek <vorlon@debian.org>, Christian Perrier <bubulle@debian.org>, Jelmer Vernooij <jelmer@debian.org>, Ivo De Decker <ivodd@debian.org>, Mathieu Parent <sathieu@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-samba/samba.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-samba/samba.git -b master"
+	],
+	"Version": [
+		"2:4.2.14+dfsg-0+deb8u13"
+	]
 }

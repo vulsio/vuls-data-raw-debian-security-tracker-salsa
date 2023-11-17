@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "hplip, hplip-data, printer-driver-postscript-hp, hplip-gui, hplip-dbg, hplip-doc, hpijs-ppds, printer-driver-hpijs, printer-driver-hpcups, libhpmud0, libhpmud-dev, libsane-hpaio"
-  ],
-  "Build-Depends": [
-    "libcups2-dev, libcupsimage2-dev, libsane-dev, libsnmp-dev, libjpeg-dev, libusb-1.0-0-dev [linux-any], libusb2-dev [kfreebsd-any], libusb-dev [!linux-any !kfreebsd-any], debhelper (>= 9), autotools-dev, autoconf, automake, libtool, cups (>= 1.4.0) | cupsddk, patch (>= 2.5.9-3bpo1), findutils (>= 4.2.28), python-dev, python-all-dev (>= 2.6.6-3~), python-qt4, pyqt4-dev-tools, python-dbus (>= 0.80), python-qt4-dbus, libdbus-1-dev, libudev-dev [linux-any], policykit-1, fdupes, lsb-release, pyppd (>= 1.0.1), dh-autoreconf"
-  ],
-  "Checksums-Sha1": [
-    "73ae7fea6966d9a9de021ab43cda5375c609a06d 2902 hplip_3.14.6-1+deb8u1.dsc 3688ce1378be1372ce00b13ef1cd74d687ecd1ac 21603895 hplip_3.14.6.orig.tar.gz 747afbb48114beb02feb1202465335a11ec7fa13 90944 hplip_3.14.6-1+deb8u1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "a2093a2db0663088b945244309676a8bdf0e4f02d842d67d9d84541bdbd06782 2902 hplip_3.14.6-1+deb8u1.dsc a57233cd0e2db1dcf1d34d8b90c6a9d3e027e522695aada6c3c411a839868b8e 21603895 hplip_3.14.6.orig.tar.gz 62c6dc7e9714a41b335226296b0171e444642dde91bfb3c8aca5ff3662d370d0 90944 hplip_3.14.6-1+deb8u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/h/hplip"
-  ],
-  "Files": [
-    "71db3a1987131bd0c0e8845039490bd2 2902 hplip_3.14.6-1+deb8u1.dsc ec14b3bf3ac17a7c00b96e51d4c38114 21603895 hplip_3.14.6.orig.tar.gz b7d0788f89070b3e94786925fd1219a1 90944 hplip_3.14.6-1+deb8u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://hplipopensource.com/hplip-web/index.html"
-  ],
-  "Maintainer": [
-    "Debian HPIJS and HPLIP maintainers <pkg-hpijs-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "hplip"
-  ],
-  "Package-List": [
-    "hpijs-ppds deb utils optional arch=all hplip deb utils optional arch=any hplip-data deb utils optional arch=all hplip-dbg deb debug extra arch=any hplip-doc deb doc optional arch=all hplip-gui deb utils optional arch=all libhpmud-dev deb libdevel optional arch=any libhpmud0 deb libs optional arch=any libsane-hpaio deb libs optional arch=any printer-driver-hpcups deb text optional arch=any printer-driver-hpijs deb text optional arch=any printer-driver-postscript-hp deb utils optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "utils"
-  ],
-  "Standards-Version": [
-    "3.9.4"
-  ],
-  "Uploaders": [
-    "Mark Purcell <msp@debian.org>, Till Kamppeter <till.kamppeter@gmail.com>"
-  ],
-  "Vcs-Svn": [
-    "svn://anonscm.debian.org/pkg-hpijs/hplip/trunk/"
-  ],
-  "Version": [
-    "3.14.6-1+deb8u1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"hplip, hplip-data, printer-driver-postscript-hp, hplip-gui, hplip-dbg, hplip-doc, hpijs-ppds, printer-driver-hpijs, printer-driver-hpcups, libhpmud0, libhpmud-dev, libsane-hpaio"
+	],
+	"Build-Depends": [
+		"libcups2-dev, libcupsimage2-dev, libsane-dev, libsnmp-dev, libjpeg-dev, libusb-1.0-0-dev [linux-any], libusb2-dev [kfreebsd-any], libusb-dev [!linux-any !kfreebsd-any], debhelper (>= 9), autotools-dev, autoconf, automake, libtool, cups (>= 1.4.0) | cupsddk, patch (>= 2.5.9-3bpo1), findutils (>= 4.2.28), python-dev, python-all-dev (>= 2.6.6-3~), python-qt4, pyqt4-dev-tools, python-dbus (>= 0.80), python-qt4-dbus, libdbus-1-dev, libudev-dev [linux-any], policykit-1, fdupes, lsb-release, pyppd (>= 1.0.1), dh-autoreconf"
+	],
+	"Checksums-Sha1": [
+		"73ae7fea6966d9a9de021ab43cda5375c609a06d 2902 hplip_3.14.6-1+deb8u1.dsc 3688ce1378be1372ce00b13ef1cd74d687ecd1ac 21603895 hplip_3.14.6.orig.tar.gz 747afbb48114beb02feb1202465335a11ec7fa13 90944 hplip_3.14.6-1+deb8u1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"a2093a2db0663088b945244309676a8bdf0e4f02d842d67d9d84541bdbd06782 2902 hplip_3.14.6-1+deb8u1.dsc a57233cd0e2db1dcf1d34d8b90c6a9d3e027e522695aada6c3c411a839868b8e 21603895 hplip_3.14.6.orig.tar.gz 62c6dc7e9714a41b335226296b0171e444642dde91bfb3c8aca5ff3662d370d0 90944 hplip_3.14.6-1+deb8u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/h/hplip"
+	],
+	"Files": [
+		"71db3a1987131bd0c0e8845039490bd2 2902 hplip_3.14.6-1+deb8u1.dsc ec14b3bf3ac17a7c00b96e51d4c38114 21603895 hplip_3.14.6.orig.tar.gz b7d0788f89070b3e94786925fd1219a1 90944 hplip_3.14.6-1+deb8u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://hplipopensource.com/hplip-web/index.html"
+	],
+	"Maintainer": [
+		"Debian HPIJS and HPLIP maintainers <pkg-hpijs-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"hplip"
+	],
+	"Package-List": [
+		"hpijs-ppds deb utils optional arch=all hplip deb utils optional arch=any hplip-data deb utils optional arch=all hplip-dbg deb debug extra arch=any hplip-doc deb doc optional arch=all hplip-gui deb utils optional arch=all libhpmud-dev deb libdevel optional arch=any libhpmud0 deb libs optional arch=any libsane-hpaio deb libs optional arch=any printer-driver-hpcups deb text optional arch=any printer-driver-hpijs deb text optional arch=any printer-driver-postscript-hp deb utils optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"utils"
+	],
+	"Standards-Version": [
+		"3.9.4"
+	],
+	"Uploaders": [
+		"Mark Purcell <msp@debian.org>, Till Kamppeter <till.kamppeter@gmail.com>"
+	],
+	"Vcs-Svn": [
+		"svn://anonscm.debian.org/pkg-hpijs/hplip/trunk/"
+	],
+	"Version": [
+		"3.14.6-1+deb8u1"
+	]
 }

@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-neutron-lbaas, neutron-lbaas-agent"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-python, dh-systemd, openstack-pkg-tools (>= 23~), po-debconf, python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx"
-  ],
-  "Build-Depends-Indep": [
-    "alembic (>= 0.8.0), python-barbicanclient (>= 3.3.0), python-coverage, python-eventlet (>= 0.18.4), python-fixtures (>= 1.3.1), python-hacking (>= 0.10.0), python-keystoneauth1 (>= 2.1.0), python-mock (>= 1.3), python-mysqldb, python-netaddr (>= 0.7.12), python-neutron (>= 1:8.0.0~rc1), python-neutron-lib, python-openssl (>= 0.14), python-oslo.concurrency (>= 3.5.0), python-oslo.config (>= 1:3.7.0), python-oslo.db (>= 4.1.0), python-oslo.log (>= 1.14.0), python-oslo.messaging (>= 4.0.0), python-oslo.serialization (>= 1.10.0), python-oslo.service (>= 1.0.0), python-oslo.utils (>= 3.5.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1.10.0), python-psycopg2, python-pyasn1, python-pyasn1-modules, python-pymysql, python-requests (>= 2.8.1), python-requests-mock (>= 0.7.0), python-six (>= 1.9.0), python-stevedore (>= 1.5.0), python-sqlalchemy (>= 1.0.10), python-tempest-lib (>= 0.14.0), python-testresources, python-testscenarios, python-testtools (>= 1.4.0), python-webob, python-webtest, subunit, testrepository"
-  ],
-  "Checksums-Sha1": [
-    "2f854bb028b25d3972d7c79de47d97f3eb95a470 3247 neutron-lbaas_8.0.0-3~bpo8+1.dsc 1e89ad84dcf7155a44bb8af8d939f169d33d578e 228004 neutron-lbaas_8.0.0.orig.tar.xz c0d820ae27bdcce9e0e14b75bb3c2fe2b49e5348 4188 neutron-lbaas_8.0.0-3~bpo8+1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "6af11fcffef4a15db06299808e060de43346830ac8e6c149708a9183aceef222 3247 neutron-lbaas_8.0.0-3~bpo8+1.dsc 6c69ede63e82024adc039723037df1be9c768dc50f82981b730bdad0bd990d3c 228004 neutron-lbaas_8.0.0.orig.tar.xz 9f4d13fbcce921fda9d2d620a2c137008cd460162397a4ac00e8bc03829ca718 4188 neutron-lbaas_8.0.0-3~bpo8+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/n/neutron-lbaas"
-  ],
-  "Files": [
-    "a59d3688f38ae4ecc88893c0b60394cc 3247 neutron-lbaas_8.0.0-3~bpo8+1.dsc c694670ea38c44ac41f1f7538f087a92 228004 neutron-lbaas_8.0.0.orig.tar.xz 92b7ef82c343b23f760d1946b0c13ca3 4188 neutron-lbaas_8.0.0-3~bpo8+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/openstack/neutron-lbaas"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "neutron-lbaas"
-  ],
-  "Package-List": [
-    "neutron-lbaas-agent deb net optional arch=all python-neutron-lbaas deb python optional arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/openstack/neutron-lbaas.git/"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/openstack/neutron-lbaas.git"
-  ],
-  "Version": [
-    "1:8.0.0-3~bpo8+1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-neutron-lbaas, neutron-lbaas-agent"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-python, dh-systemd, openstack-pkg-tools (>= 23~), po-debconf, python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx"
+	],
+	"Build-Depends-Indep": [
+		"alembic (>= 0.8.0), python-barbicanclient (>= 3.3.0), python-coverage, python-eventlet (>= 0.18.4), python-fixtures (>= 1.3.1), python-hacking (>= 0.10.0), python-keystoneauth1 (>= 2.1.0), python-mock (>= 1.3), python-mysqldb, python-netaddr (>= 0.7.12), python-neutron (>= 1:8.0.0~rc1), python-neutron-lib, python-openssl (>= 0.14), python-oslo.concurrency (>= 3.5.0), python-oslo.config (>= 1:3.7.0), python-oslo.db (>= 4.1.0), python-oslo.log (>= 1.14.0), python-oslo.messaging (>= 4.0.0), python-oslo.serialization (>= 1.10.0), python-oslo.service (>= 1.0.0), python-oslo.utils (>= 3.5.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1.10.0), python-psycopg2, python-pyasn1, python-pyasn1-modules, python-pymysql, python-requests (>= 2.8.1), python-requests-mock (>= 0.7.0), python-six (>= 1.9.0), python-stevedore (>= 1.5.0), python-sqlalchemy (>= 1.0.10), python-tempest-lib (>= 0.14.0), python-testresources, python-testscenarios, python-testtools (>= 1.4.0), python-webob, python-webtest, subunit, testrepository"
+	],
+	"Checksums-Sha1": [
+		"2f854bb028b25d3972d7c79de47d97f3eb95a470 3247 neutron-lbaas_8.0.0-3~bpo8+1.dsc 1e89ad84dcf7155a44bb8af8d939f169d33d578e 228004 neutron-lbaas_8.0.0.orig.tar.xz c0d820ae27bdcce9e0e14b75bb3c2fe2b49e5348 4188 neutron-lbaas_8.0.0-3~bpo8+1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"6af11fcffef4a15db06299808e060de43346830ac8e6c149708a9183aceef222 3247 neutron-lbaas_8.0.0-3~bpo8+1.dsc 6c69ede63e82024adc039723037df1be9c768dc50f82981b730bdad0bd990d3c 228004 neutron-lbaas_8.0.0.orig.tar.xz 9f4d13fbcce921fda9d2d620a2c137008cd460162397a4ac00e8bc03829ca718 4188 neutron-lbaas_8.0.0-3~bpo8+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/n/neutron-lbaas"
+	],
+	"Files": [
+		"a59d3688f38ae4ecc88893c0b60394cc 3247 neutron-lbaas_8.0.0-3~bpo8+1.dsc c694670ea38c44ac41f1f7538f087a92 228004 neutron-lbaas_8.0.0.orig.tar.xz 92b7ef82c343b23f760d1946b0c13ca3 4188 neutron-lbaas_8.0.0-3~bpo8+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/openstack/neutron-lbaas"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"neutron-lbaas"
+	],
+	"Package-List": [
+		"neutron-lbaas-agent deb net optional arch=all python-neutron-lbaas deb python optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/openstack/neutron-lbaas.git/"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/openstack/neutron-lbaas.git"
+	],
+	"Version": [
+		"1:8.0.0-3~bpo8+1"
+	]
 }

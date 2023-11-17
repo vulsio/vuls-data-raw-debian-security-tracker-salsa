@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "swupdate, swupdate-www, libswupdate-dev, libswupdate0.1, swupdate-doc, lua-swupdate"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), dh-lua:native <!nolua>, dh-nodejs | dh-nodejs:any, graphviz <!nodoc>, liblua5.3-dev <!nolua>, libfdisk-dev, latexmk <!nodoc> | latexmk:native <!nodoc>, libconfig-dev, libcurl4-gnutls-dev, libarchive-dev, libblkid-dev, libudev-dev, libbtrfsutil-dev, libext2fs-dev, libgpiod-dev [linux-any], libjs-bootstrap4, libjs-dropzone:native, libjson-c-dev, librsync-dev, libsystemd-dev, uuid-dev, zlib1g-dev, libzstd-dev, libzck-dev (>= 1.3) <!pkg.swupdate.bpo>, libp11-kit-dev <pkg.swupdate.p11>, libwolfssl-dev (>= 5), libmtd-dev [linux-any], libubi-dev [linux-any], libwebsockets-dev (>= 3.2.0) <!pkg.swupdate.noswuforwarder>, liburiparser-dev, libubootenv-dev [linux-any], libebgenv-dev [any-amd64 any-i386 any-arm64 armhf any-riscv64 any-ia64], libcmocka-dev, node-jquery, pkg-config, gawk, sassc <!pkg.swupdate.bpo>, python3-sphinx:native <!nodoc>, texlive-latex-recommended <!nodoc>, texlive-fonts-recommended <!nodoc>, tex-gyre <!nodoc>, texlive-formats-extra <!nodoc> | texlive-formats-extra:native <!nodoc>"
-  ],
-  "Checksums-Sha256": [
-    "499debc9ec2d9a485c3814b295574a98374acd87fb90e2a880d490f58ed4d0eb 3258 swupdate_2023.05+dfsg-4.dsc eec280b764ef347d168ea169c9059a198c59c6a5af6a6941bfbc816db43b70d9 5431688 swupdate_2023.05+dfsg.orig.tar.xz d96c972fd3fba4e818f6f2c07a114afde6e8f8e75d02eece047c0d77154da322 21872 swupdate_2023.05+dfsg-4.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/s/swupdate"
-  ],
-  "Files": [
-    "8b840564889953d914e0e31fcd7324f6 3258 swupdate_2023.05+dfsg-4.dsc 2464eaa4160dd27f2215548e87d756af 5431688 swupdate_2023.05+dfsg.orig.tar.xz 8c9e9661969959e5f1e6192a26d9c455 21872 swupdate_2023.05+dfsg-4.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://sbabic.github.io/swupdate"
-  ],
-  "Maintainer": [
-    "Bastian Germann <bage@debian.org>"
-  ],
-  "Package": [
-    "swupdate"
-  ],
-  "Package-List": [
-    "libswupdate-dev deb libdevel optional arch=any libswupdate0.1 deb libs optional arch=any lua-swupdate deb interpreters optional arch=linux-any profile=!nolua swupdate deb embedded optional arch=linux-any swupdate-doc deb doc optional arch=all profile=!nodoc swupdate-www deb embedded optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.0.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "@builddeps@, cpio, libubootenv-dev, wget"
-  ],
-  "Uploaders": [
-    "SZ Lin (林上智) <szlin@debian.org>, Nobuhiro Iwamatsu <iwamatsu@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian/swupdate"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian/swupdate.git"
-  ],
-  "Version": [
-    "2023.05+dfsg-4"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"swupdate, swupdate-www, libswupdate-dev, libswupdate0.1, swupdate-doc, lua-swupdate"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-lua:native <!nolua>, dh-nodejs | dh-nodejs:any, graphviz <!nodoc>, liblua5.3-dev <!nolua>, libfdisk-dev, latexmk <!nodoc> | latexmk:native <!nodoc>, libconfig-dev, libcurl4-gnutls-dev, libarchive-dev, libblkid-dev, libudev-dev, libbtrfsutil-dev, libext2fs-dev, libgpiod-dev [linux-any], libjs-bootstrap4, libjs-dropzone:native, libjson-c-dev, librsync-dev, libsystemd-dev, uuid-dev, zlib1g-dev, libzstd-dev, libzck-dev (>= 1.3) <!pkg.swupdate.bpo>, libp11-kit-dev <pkg.swupdate.p11>, libwolfssl-dev (>= 5), libmtd-dev [linux-any], libubi-dev [linux-any], libwebsockets-dev (>= 3.2.0) <!pkg.swupdate.noswuforwarder>, liburiparser-dev, libubootenv-dev [linux-any], libebgenv-dev [any-amd64 any-i386 any-arm64 armhf any-riscv64 any-ia64], libcmocka-dev, node-jquery, pkg-config, gawk, sassc <!pkg.swupdate.bpo>, python3-sphinx:native <!nodoc>, texlive-latex-recommended <!nodoc>, texlive-fonts-recommended <!nodoc>, tex-gyre <!nodoc>, texlive-formats-extra <!nodoc> | texlive-formats-extra:native <!nodoc>"
+	],
+	"Checksums-Sha256": [
+		"499debc9ec2d9a485c3814b295574a98374acd87fb90e2a880d490f58ed4d0eb 3258 swupdate_2023.05+dfsg-4.dsc eec280b764ef347d168ea169c9059a198c59c6a5af6a6941bfbc816db43b70d9 5431688 swupdate_2023.05+dfsg.orig.tar.xz d96c972fd3fba4e818f6f2c07a114afde6e8f8e75d02eece047c0d77154da322 21872 swupdate_2023.05+dfsg-4.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/s/swupdate"
+	],
+	"Files": [
+		"8b840564889953d914e0e31fcd7324f6 3258 swupdate_2023.05+dfsg-4.dsc 2464eaa4160dd27f2215548e87d756af 5431688 swupdate_2023.05+dfsg.orig.tar.xz 8c9e9661969959e5f1e6192a26d9c455 21872 swupdate_2023.05+dfsg-4.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://sbabic.github.io/swupdate"
+	],
+	"Maintainer": [
+		"Bastian Germann <bage@debian.org>"
+	],
+	"Package": [
+		"swupdate"
+	],
+	"Package-List": [
+		"libswupdate-dev deb libdevel optional arch=any libswupdate0.1 deb libs optional arch=any lua-swupdate deb interpreters optional arch=linux-any profile=!nolua swupdate deb embedded optional arch=linux-any swupdate-doc deb doc optional arch=all profile=!nodoc swupdate-www deb embedded optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.0.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"@builddeps@, cpio, libubootenv-dev, wget"
+	],
+	"Uploaders": [
+		"SZ Lin (林上智) <szlin@debian.org>, Nobuhiro Iwamatsu <iwamatsu@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/swupdate"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/swupdate.git"
+	],
+	"Version": [
+		"2023.05+dfsg-4"
+	]
 }

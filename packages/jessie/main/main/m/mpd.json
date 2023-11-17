@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "mpd, mpd-dbg"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-autoreconf, dh-systemd, dpkg-dev (>= 1.16.1~), libadplug-dev, libao-dev, libasound2-dev [linux-any], libaudiofile-dev (>= 0.3), libavahi-client-dev, libavahi-glib-dev, libavcodec-dev, libavformat-dev, libboost-dev, libbz2-dev, libcdio-paranoia-dev, libcppunit-dev, libcurl4-gnutls-dev | libcurl-dev, libexpat1-dev, libfaad-dev, libflac-dev, libfluidsynth-dev, libglib2.0-dev, libgme-dev, libicu-dev, libid3tag0-dev, libiso9660-dev, libjack-jackd2-dev, libmad0-dev, libmikmod-dev, libmms-dev, libmodplug-dev, libmp3lame-dev, libmpcdec-dev, libmpdclient-dev, libmpg123-dev, libnfs-dev, libogg-dev, libopenal-dev, libopus-dev, libpulse-dev, libresid-builder-dev, libroar-dev (>= 0.4), libsamplerate0-dev, libshine-dev [arm armel armeb], libshout3-dev, libsidplay2-dev, libsidutils-dev, libsmbclient-dev, libsndfile1-dev, libsoxr-dev, libsqlite3-dev, libsystemd-daemon-dev [linux-any], libupnp-dev, libvorbis-dev [!arm !armel !armeb], libvorbisidec-dev [arm armel armeb], libwavpack-dev, libwildmidi-dev, libwrap0-dev, libyajl-dev, libzzip-dev, xmlto"
-  ],
-  "Checksums-Sha1": [
-    "4987c4846b8478177193ea7853e421326aaad517 2922 mpd_0.19.1-1.1.dsc 68f1ff43a2dd4de913d6c979db504dc2955f5737 701192 mpd_0.19.1.orig.tar.xz 2c1e82e5c357e62552787904bc873a60badb30ea 27424 mpd_0.19.1-1.1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "edf3aeddd1d0335d3c0e27b055e702af05f195a3021a953632449b821f097ae9 2922 mpd_0.19.1-1.1.dsc 8b3afcd440181c9bd18b229b5974e529d59648344dd371370d6f7d62ec2847c5 701192 mpd_0.19.1.orig.tar.xz cee4b33941c15c88671620f60652570798d0c975d0fccff6bd4047e0282f304c 27424 mpd_0.19.1-1.1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/m/mpd"
-  ],
-  "Files": [
-    "eae5122747c99c8ead4262415a01cd49 2922 mpd_0.19.1-1.1.dsc d235f6e53e5442b6926c49946a303f8d 701192 mpd_0.19.1.orig.tar.xz 561026bcbec8a1e081c7d4f6ffb24e3e 27424 mpd_0.19.1-1.1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.musicpd.org/"
-  ],
-  "Maintainer": [
-    "mpd maintainers <pkg-mpd-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "mpd"
-  ],
-  "Package-List": [
-    "mpd deb sound optional arch=any mpd-dbg deb debug extra arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "sound"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Florian Schlichting <fsfs@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb?p=pkg-mpd/pkg-mpd.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-mpd/pkg-mpd.git"
-  ],
-  "Version": [
-    "0.19.1-1.1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"mpd, mpd-dbg"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-autoreconf, dh-systemd, dpkg-dev (>= 1.16.1~), libadplug-dev, libao-dev, libasound2-dev [linux-any], libaudiofile-dev (>= 0.3), libavahi-client-dev, libavahi-glib-dev, libavcodec-dev, libavformat-dev, libboost-dev, libbz2-dev, libcdio-paranoia-dev, libcppunit-dev, libcurl4-gnutls-dev | libcurl-dev, libexpat1-dev, libfaad-dev, libflac-dev, libfluidsynth-dev, libglib2.0-dev, libgme-dev, libicu-dev, libid3tag0-dev, libiso9660-dev, libjack-jackd2-dev, libmad0-dev, libmikmod-dev, libmms-dev, libmodplug-dev, libmp3lame-dev, libmpcdec-dev, libmpdclient-dev, libmpg123-dev, libnfs-dev, libogg-dev, libopenal-dev, libopus-dev, libpulse-dev, libresid-builder-dev, libroar-dev (>= 0.4), libsamplerate0-dev, libshine-dev [arm armel armeb], libshout3-dev, libsidplay2-dev, libsidutils-dev, libsmbclient-dev, libsndfile1-dev, libsoxr-dev, libsqlite3-dev, libsystemd-daemon-dev [linux-any], libupnp-dev, libvorbis-dev [!arm !armel !armeb], libvorbisidec-dev [arm armel armeb], libwavpack-dev, libwildmidi-dev, libwrap0-dev, libyajl-dev, libzzip-dev, xmlto"
+	],
+	"Checksums-Sha1": [
+		"4987c4846b8478177193ea7853e421326aaad517 2922 mpd_0.19.1-1.1.dsc 68f1ff43a2dd4de913d6c979db504dc2955f5737 701192 mpd_0.19.1.orig.tar.xz 2c1e82e5c357e62552787904bc873a60badb30ea 27424 mpd_0.19.1-1.1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"edf3aeddd1d0335d3c0e27b055e702af05f195a3021a953632449b821f097ae9 2922 mpd_0.19.1-1.1.dsc 8b3afcd440181c9bd18b229b5974e529d59648344dd371370d6f7d62ec2847c5 701192 mpd_0.19.1.orig.tar.xz cee4b33941c15c88671620f60652570798d0c975d0fccff6bd4047e0282f304c 27424 mpd_0.19.1-1.1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/m/mpd"
+	],
+	"Files": [
+		"eae5122747c99c8ead4262415a01cd49 2922 mpd_0.19.1-1.1.dsc d235f6e53e5442b6926c49946a303f8d 701192 mpd_0.19.1.orig.tar.xz 561026bcbec8a1e081c7d4f6ffb24e3e 27424 mpd_0.19.1-1.1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.musicpd.org/"
+	],
+	"Maintainer": [
+		"mpd maintainers <pkg-mpd-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"mpd"
+	],
+	"Package-List": [
+		"mpd deb sound optional arch=any mpd-dbg deb debug extra arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"sound"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Florian Schlichting <fsfs@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb?p=pkg-mpd/pkg-mpd.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-mpd/pkg-mpd.git"
+	],
+	"Version": [
+		"0.19.1-1.1"
+	]
 }

@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libghc-serialise-dev, libghc-serialise-prof, libghc-serialise-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.13), cdbs, ghc (>= 9.4), ghc-prof, libghc-cborg-dev (>= 0.2), libghc-cborg-dev (<< 0.3), libghc-cborg-prof, libghc-half-dev (>= 0.2.2.3), libghc-half-dev (<< 0.4), libghc-half-prof, libghc-hashable-dev (>= 1.2), libghc-hashable-dev (<< 2.0), libghc-hashable-prof, libghc-primitive-dev (>= 0.5), libghc-primitive-dev (<< 0.9), libghc-primitive-prof, libghc-strict-dev (>= 0.4), libghc-strict-dev (<< 0.6), libghc-strict-prof, libghc-these-dev (>= 1.1), libghc-these-dev (<< 1.3), libghc-these-prof, libghc-unordered-containers-dev (>= 0.2), libghc-unordered-containers-dev (<< 0.3), libghc-unordered-containers-prof, libghc-vector-dev (>= 0.10), libghc-vector-dev (<< 0.14), libghc-vector-prof, libghc-quickcheck2-dev (>= 2.9), libghc-quickcheck2-dev (<< 2.15), libghc-quickcheck2-prof, libghc-quickcheck-instances-dev (>= 0.3.12), libghc-quickcheck-instances-dev (<< 0.4), libghc-quickcheck-instances-prof, libghc-tasty-dev (>= 0.11), libghc-tasty-dev (<< 1.5), libghc-tasty-prof, libghc-tasty-hunit-dev (>= 0.9), libghc-tasty-hunit-dev (<< 0.11), libghc-tasty-hunit-prof, libghc-tasty-quickcheck-dev (>= 0.8), libghc-tasty-quickcheck-dev (<< 0.11), libghc-tasty-quickcheck-prof"
-  ],
-  "Build-Depends-Indep": [
-    "ghc-doc, libghc-cborg-doc, libghc-half-doc, libghc-hashable-doc, libghc-primitive-doc, libghc-strict-doc, libghc-these-doc, libghc-unordered-containers-doc, libghc-vector-doc"
-  ],
-  "Checksums-Sha256": [
-    "dfe960b04ec8ac1dab3228705ca509cd331a2addbc398694b6e419e0673613bb 3679 haskell-serialise_0.2.6.0-2.dsc 93ff1888e1972999f14663072b38efcfd0c1481b4ec8e30ddc9c5ce97681a516 75077 haskell-serialise_0.2.6.0.orig.tar.gz 902e8161ea1d14dcc8b0fc0fa12a585c89fa65c2fe9ab244dc4947ada0a00d7b 3688 haskell-serialise_0.2.6.0-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/h/haskell-serialise"
-  ],
-  "Files": [
-    "fc3e053999646b5947966514ec3fd88d 3679 haskell-serialise_0.2.6.0-2.dsc ae2e6a4c58f52d9702a6ecdbd849cf4b 75077 haskell-serialise_0.2.6.0.orig.tar.gz dc497fad06580a8c79b5717414066236 3688 haskell-serialise_0.2.6.0-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/well-typed/cborg"
-  ],
-  "Maintainer": [
-    "Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "haskell-serialise"
-  ],
-  "Package-List": [
-    "libghc-serialise-dev deb haskell optional arch=any libghc-serialise-doc deb doc optional arch=all libghc-serialise-prof deb haskell optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Uploaders": [
-    "Clint Adams <clint@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-serialise"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-serialise]"
-  ],
-  "Version": [
-    "0.2.6.0-2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libghc-serialise-dev, libghc-serialise-prof, libghc-serialise-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.13), cdbs, ghc (>= 9.4), ghc-prof, libghc-cborg-dev (>= 0.2), libghc-cborg-dev (<< 0.3), libghc-cborg-prof, libghc-half-dev (>= 0.2.2.3), libghc-half-dev (<< 0.4), libghc-half-prof, libghc-hashable-dev (>= 1.2), libghc-hashable-dev (<< 2.0), libghc-hashable-prof, libghc-primitive-dev (>= 0.5), libghc-primitive-dev (<< 0.9), libghc-primitive-prof, libghc-strict-dev (>= 0.4), libghc-strict-dev (<< 0.6), libghc-strict-prof, libghc-these-dev (>= 1.1), libghc-these-dev (<< 1.3), libghc-these-prof, libghc-unordered-containers-dev (>= 0.2), libghc-unordered-containers-dev (<< 0.3), libghc-unordered-containers-prof, libghc-vector-dev (>= 0.10), libghc-vector-dev (<< 0.14), libghc-vector-prof, libghc-quickcheck2-dev (>= 2.9), libghc-quickcheck2-dev (<< 2.15), libghc-quickcheck2-prof, libghc-quickcheck-instances-dev (>= 0.3.12), libghc-quickcheck-instances-dev (<< 0.4), libghc-quickcheck-instances-prof, libghc-tasty-dev (>= 0.11), libghc-tasty-dev (<< 1.5), libghc-tasty-prof, libghc-tasty-hunit-dev (>= 0.9), libghc-tasty-hunit-dev (<< 0.11), libghc-tasty-hunit-prof, libghc-tasty-quickcheck-dev (>= 0.8), libghc-tasty-quickcheck-dev (<< 0.11), libghc-tasty-quickcheck-prof"
+	],
+	"Build-Depends-Indep": [
+		"ghc-doc, libghc-cborg-doc, libghc-half-doc, libghc-hashable-doc, libghc-primitive-doc, libghc-strict-doc, libghc-these-doc, libghc-unordered-containers-doc, libghc-vector-doc"
+	],
+	"Checksums-Sha256": [
+		"dfe960b04ec8ac1dab3228705ca509cd331a2addbc398694b6e419e0673613bb 3679 haskell-serialise_0.2.6.0-2.dsc 93ff1888e1972999f14663072b38efcfd0c1481b4ec8e30ddc9c5ce97681a516 75077 haskell-serialise_0.2.6.0.orig.tar.gz 902e8161ea1d14dcc8b0fc0fa12a585c89fa65c2fe9ab244dc4947ada0a00d7b 3688 haskell-serialise_0.2.6.0-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/h/haskell-serialise"
+	],
+	"Files": [
+		"fc3e053999646b5947966514ec3fd88d 3679 haskell-serialise_0.2.6.0-2.dsc ae2e6a4c58f52d9702a6ecdbd849cf4b 75077 haskell-serialise_0.2.6.0.orig.tar.gz dc497fad06580a8c79b5717414066236 3688 haskell-serialise_0.2.6.0-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/well-typed/cborg"
+	],
+	"Maintainer": [
+		"Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"haskell-serialise"
+	],
+	"Package-List": [
+		"libghc-serialise-dev deb haskell optional arch=any libghc-serialise-doc deb doc optional arch=all libghc-serialise-prof deb haskell optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Uploaders": [
+		"Clint Adams <clint@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-serialise"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-serialise]"
+	],
+	"Version": [
+		"0.2.6.0-2"
+	]
 }

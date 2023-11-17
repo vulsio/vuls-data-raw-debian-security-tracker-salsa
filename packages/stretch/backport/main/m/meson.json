@@ -1,53 +1,53 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "meson"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 11), python3:any (>= 3.5), dh-python, python3-setuptools, ninja-build (>= 1.6), zlib1g-dev <!nocheck>, pkg-config <!nocheck>, libboost-dev <!nocheck>, libboost-thread-dev <!nocheck>, libboost-test-dev <!nocheck>, libboost-log-dev <!nocheck>, gobjc <!nocheck>, gobjc++ <!nocheck>, gnustep-make <!nocheck>, libgnustep-base-dev <!nocheck>, googletest <!nocheck>, qtbase5-dev <!nocheck>, qtbase5-private-dev <!nocheck>, qtbase5-dev-tools <!nocheck>, qttools5-dev-tools <!nocheck>, protobuf-compiler <!nocheck>, libprotobuf-dev <!nocheck>, default-jdk-headless [!hurd-i386] <!nocheck>, valac <!nocheck>, gobject-introspection <!nocheck>, libgirepository1.0-dev <!nocheck>, gfortran <!nocheck>, flex <!nocheck>, bison <!nocheck>, mono-mcs <!nocheck>, mono-devel <!nocheck>, libwxgtk3.0-dev <!nocheck>, python3-gi <!nocheck>, gtk-doc-tools <!nocheck>, rustc [i386 amd64] <!nocheck> | bash-doc <!nocheck>, python3-dev <!nocheck>, cython3 <!nocheck>, gdc [amd64 armhf i386] <!nocheck>, itstool <!nocheck>, libgtk-3-dev <!nocheck>, g++-arm-linux-gnueabihf [!armhf] <!nocheck> | bash-doc <!nocheck>, valgrind [amd64 i386] <!nocheck>, llvm-dev <!nocheck>, libsdl2-dev <!nocheck>, openmpi-bin <!nocheck>, libopenmpi-dev <!nocheck>, openssh-client <!nocheck>, libvulkan-dev <!nocheck>, libpcap-dev <!nocheck>, libcups2-dev <!nocheck>, gtk-sharp2 <!nocheck>, gtk-sharp2-gapi <!nocheck>, libglib2.0-cil-dev <!nocheck>, libwmf-dev <!nocheck>, git <!nocheck>, mercurial <!nocheck>, gcovr <!nocheck>, lcov <!nocheck>, fpga-icestorm <!nocheck>, arachne-pnr <!nocheck>, yosys <!nocheck>, doxygen <!nocheck>, nasm <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "bd1ba777e47ddd93c6e3373c9209237e35280deb1a7af3e11c246ce1cbca3b54 3378 meson_0.49.0-1~bpo9+1.dsc fb0395c4ac208eab381cd1a20571584bdbba176eb562a7efa9cb17cace0e1551 1338583 meson_0.49.0.orig.tar.gz 1a0e8b36510f55aaf04bd51c22f4a9e7d7bd576c9f01494ebf7100889527f54a 12020 meson_0.49.0-1~bpo9+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/m/meson"
-  ],
-  "Files": [
-    "c5a3f81100026ff7d2611b97cd562dab 3378 meson_0.49.0-1~bpo9+1.dsc 3c35b91e8040901034809576d54007c6 1338583 meson_0.49.0.orig.tar.gz 565de90bae5d39f291a728c057e3bce3 12020 meson_0.49.0-1~bpo9+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://mesonbuild.com"
-  ],
-  "Maintainer": [
-    "Jussi Pakkanen <jpakkane@gmail.com>"
-  ],
-  "Package": [
-    "meson"
-  ],
-  "Package-List": [
-    "meson deb devel optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.2.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "clang, g++, ninja-build"
-  ],
-  "Version": [
-    "0.49.0-1~bpo9+1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"meson"
+	],
+	"Build-Depends": [
+		"debhelper (>= 11), python3:any (>= 3.5), dh-python, python3-setuptools, ninja-build (>= 1.6), zlib1g-dev <!nocheck>, pkg-config <!nocheck>, libboost-dev <!nocheck>, libboost-thread-dev <!nocheck>, libboost-test-dev <!nocheck>, libboost-log-dev <!nocheck>, gobjc <!nocheck>, gobjc++ <!nocheck>, gnustep-make <!nocheck>, libgnustep-base-dev <!nocheck>, googletest <!nocheck>, qtbase5-dev <!nocheck>, qtbase5-private-dev <!nocheck>, qtbase5-dev-tools <!nocheck>, qttools5-dev-tools <!nocheck>, protobuf-compiler <!nocheck>, libprotobuf-dev <!nocheck>, default-jdk-headless [!hurd-i386] <!nocheck>, valac <!nocheck>, gobject-introspection <!nocheck>, libgirepository1.0-dev <!nocheck>, gfortran <!nocheck>, flex <!nocheck>, bison <!nocheck>, mono-mcs <!nocheck>, mono-devel <!nocheck>, libwxgtk3.0-dev <!nocheck>, python3-gi <!nocheck>, gtk-doc-tools <!nocheck>, rustc [i386 amd64] <!nocheck> | bash-doc <!nocheck>, python3-dev <!nocheck>, cython3 <!nocheck>, gdc [amd64 armhf i386] <!nocheck>, itstool <!nocheck>, libgtk-3-dev <!nocheck>, g++-arm-linux-gnueabihf [!armhf] <!nocheck> | bash-doc <!nocheck>, valgrind [amd64 i386] <!nocheck>, llvm-dev <!nocheck>, libsdl2-dev <!nocheck>, openmpi-bin <!nocheck>, libopenmpi-dev <!nocheck>, openssh-client <!nocheck>, libvulkan-dev <!nocheck>, libpcap-dev <!nocheck>, libcups2-dev <!nocheck>, gtk-sharp2 <!nocheck>, gtk-sharp2-gapi <!nocheck>, libglib2.0-cil-dev <!nocheck>, libwmf-dev <!nocheck>, git <!nocheck>, mercurial <!nocheck>, gcovr <!nocheck>, lcov <!nocheck>, fpga-icestorm <!nocheck>, arachne-pnr <!nocheck>, yosys <!nocheck>, doxygen <!nocheck>, nasm <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"bd1ba777e47ddd93c6e3373c9209237e35280deb1a7af3e11c246ce1cbca3b54 3378 meson_0.49.0-1~bpo9+1.dsc fb0395c4ac208eab381cd1a20571584bdbba176eb562a7efa9cb17cace0e1551 1338583 meson_0.49.0.orig.tar.gz 1a0e8b36510f55aaf04bd51c22f4a9e7d7bd576c9f01494ebf7100889527f54a 12020 meson_0.49.0-1~bpo9+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/m/meson"
+	],
+	"Files": [
+		"c5a3f81100026ff7d2611b97cd562dab 3378 meson_0.49.0-1~bpo9+1.dsc 3c35b91e8040901034809576d54007c6 1338583 meson_0.49.0.orig.tar.gz 565de90bae5d39f291a728c057e3bce3 12020 meson_0.49.0-1~bpo9+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://mesonbuild.com"
+	],
+	"Maintainer": [
+		"Jussi Pakkanen <jpakkane@gmail.com>"
+	],
+	"Package": [
+		"meson"
+	],
+	"Package-List": [
+		"meson deb devel optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.2.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"clang, g++, ninja-build"
+	],
+	"Version": [
+		"0.49.0-1~bpo9+1"
+	]
 }

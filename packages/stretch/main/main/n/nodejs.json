@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "nodejs-dev, nodejs, nodejs-dbg, nodejs-legacy"
-  ],
-  "Build-Depends": [
-    "cdbs, debhelper (>= 9.20141010), dh-buildinfo, binutils, openssl (>= 1.0.2), pkg-config, bash-completion, curl, procps, zlib1g-dev, libicu-dev, libkvm-dev [kfreebsd-any], gyp (>= 0.1~svn1773), ca-certificates, node-yamlish <!stage1>, node-marked <!stage1>, python, libssl1.0-dev (>= 1.0.2), libuv1-dev"
-  ],
-  "Checksums-Sha256": [
-    "cec224b7e524f49daedeb8b89d3084b8b745c92264bb5550d340dbbe48fd71df 2524 nodejs_4.8.2~dfsg-1.dsc 356fc3f17370e73520a044fc3e028259d2c95680c3a3ddf5959407f00275765b 9729304 nodejs_4.8.2~dfsg.orig.tar.gz 5725ede2ad19ae778ca9f28e3116bc1c3d3c7e4bdc1f0b10e6f38faa8704619a 348616 nodejs_4.8.2~dfsg-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/n/nodejs"
-  ],
-  "Files": [
-    "d88991321ec420016f1054a38fa8608c 2524 nodejs_4.8.2~dfsg-1.dsc 883baf04546d45e5fa2ff38fc043f638 9729304 nodejs_4.8.2~dfsg.orig.tar.gz 2a819831e0b29feb77906ce1b68e5faa 348616 nodejs_4.8.2~dfsg-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://nodejs.org/"
-  ],
-  "Maintainer": [
-    "Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "nodejs"
-  ],
-  "Package-List": [
-    "nodejs deb web optional arch=any nodejs-dbg deb debug extra arch=any nodejs-dev deb devel extra arch=any nodejs-legacy deb web extra arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "web"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential, cdbs, curl, procps, python"
-  ],
-  "Uploaders": [
-    "Jérémy Lal <kapouer@melix.org>, Jonas Smedegaard <dr@jones.dk>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/gitweb/?p=collab-maint/nodejs.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/collab-maint/nodejs.git"
-  ],
-  "Version": [
-    "4.8.2~dfsg-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"nodejs-dev, nodejs, nodejs-dbg, nodejs-legacy"
+	],
+	"Build-Depends": [
+		"cdbs, debhelper (>= 9.20141010), dh-buildinfo, binutils, openssl (>= 1.0.2), pkg-config, bash-completion, curl, procps, zlib1g-dev, libicu-dev, libkvm-dev [kfreebsd-any], gyp (>= 0.1~svn1773), ca-certificates, node-yamlish <!stage1>, node-marked <!stage1>, python, libssl1.0-dev (>= 1.0.2), libuv1-dev"
+	],
+	"Checksums-Sha256": [
+		"cec224b7e524f49daedeb8b89d3084b8b745c92264bb5550d340dbbe48fd71df 2524 nodejs_4.8.2~dfsg-1.dsc 356fc3f17370e73520a044fc3e028259d2c95680c3a3ddf5959407f00275765b 9729304 nodejs_4.8.2~dfsg.orig.tar.gz 5725ede2ad19ae778ca9f28e3116bc1c3d3c7e4bdc1f0b10e6f38faa8704619a 348616 nodejs_4.8.2~dfsg-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/n/nodejs"
+	],
+	"Files": [
+		"d88991321ec420016f1054a38fa8608c 2524 nodejs_4.8.2~dfsg-1.dsc 883baf04546d45e5fa2ff38fc043f638 9729304 nodejs_4.8.2~dfsg.orig.tar.gz 2a819831e0b29feb77906ce1b68e5faa 348616 nodejs_4.8.2~dfsg-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://nodejs.org/"
+	],
+	"Maintainer": [
+		"Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"nodejs"
+	],
+	"Package-List": [
+		"nodejs deb web optional arch=any nodejs-dbg deb debug extra arch=any nodejs-dev deb devel extra arch=any nodejs-legacy deb web extra arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"web"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, cdbs, curl, procps, python"
+	],
+	"Uploaders": [
+		"Jérémy Lal <kapouer@melix.org>, Jonas Smedegaard <dr@jones.dk>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/gitweb/?p=collab-maint/nodejs.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/collab-maint/nodejs.git"
+	],
+	"Version": [
+		"4.8.2~dfsg-1"
+	]
 }

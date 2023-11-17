@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libcogl9, libcogl-common, libcogl-dev, libcogl9-dbg, libcogl-doc, gir1.2-cogl-1.0, libcogl-pango0, libcogl-pango-dev, libcogl-pango0-dbg, gir1.2-coglpango-1.0"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 8.1.3~), cdbs (>= 0.4.93~), gnome-pkg-tools, gtk-doc-tools (>= 1.13), libgl1-mesa-dev (>= 7.1~rc3-1~) [!armel !armhf], libgles2-mesa-dev (>= 7.1~rc3-1~) [armel armhf] | libgles2-dev [armel armhf], libcairo2-dev (>= 1.10), libpango1.0-dev (>= 1.28.3-5), libgdk-pixbuf2.0-dev (>= 2.0), libglib2.0-dev (>= 2.28.0), libxfixes-dev (>= 1:3), libxdamage-dev, libxcomposite-dev (>= 1:0.4), gobject-introspection (>= 0.9.12-4~), libgirepository1.0-dev (>= 0.9.12)"
-  ],
-  "Checksums-Sha1": [
-    "5a34e6ee8885f9386720dd81fc0cb8929cdce495 2924 cogl_1.10.2-7.dsc 52b9829557c169d4b97c1ab1bc9a116e63210461 1209148 cogl_1.10.2.orig.tar.xz afbbfaa30fe343b5b6ac64dbfeaa2470ee7795e1 13031 cogl_1.10.2-7.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "f9323654853b98fa23c2dd9ec96b7c4624c1036312ff0fee636a77c5d3042e36 2924 cogl_1.10.2-7.dsc 042cf87ec35d2eac78719856356e415dd5333f9f613093c5db8b438630c1ecb3 1209148 cogl_1.10.2.orig.tar.xz f4d7d7b188974b29aa38d1471badd7a49ff5222b8888310648c9f98959b453d4 13031 cogl_1.10.2-7.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/c/cogl"
-  ],
-  "Files": [
-    "a4a09023bfb66dae9ba599d0f5e10f38 2924 cogl_1.10.2-7.dsc c5414188a64a6e68ed6f7c07e4e105c4 1209148 cogl_1.10.2.orig.tar.xz f74403aa38078ce29516f3911e179cce 13031 cogl_1.10.2-7.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Rico Tzschichholz <ricotz@ubuntu.com>"
-  ],
-  "Package": [
-    "cogl"
-  ],
-  "Package-List": [
-    "gir1.2-cogl-1.0 deb introspection optional gir1.2-coglpango-1.0 deb introspection optional libcogl-common deb libs optional libcogl-dev deb libdevel optional libcogl-doc deb doc optional libcogl-pango-dev deb libdevel optional libcogl-pango0 deb libs optional libcogl-pango0-dbg deb debug extra libcogl9 deb libs optional libcogl9-dbg deb debug extra"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "libs"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>, Laurent Bigonville <bigon@debian.org>, Michael Biebl <biebl@debian.org>, Sjoerd Simons <sjoerd@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/cogl/"
-  ],
-  "Vcs-Svn": [
-    "svn://svn.debian.org/svn/pkg-gnome/desktop/unstable/cogl"
-  ],
-  "Version": [
-    "1.10.2-7"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libcogl9, libcogl-common, libcogl-dev, libcogl9-dbg, libcogl-doc, gir1.2-cogl-1.0, libcogl-pango0, libcogl-pango-dev, libcogl-pango0-dbg, gir1.2-coglpango-1.0"
+	],
+	"Build-Depends": [
+		"debhelper (>= 8.1.3~), cdbs (>= 0.4.93~), gnome-pkg-tools, gtk-doc-tools (>= 1.13), libgl1-mesa-dev (>= 7.1~rc3-1~) [!armel !armhf], libgles2-mesa-dev (>= 7.1~rc3-1~) [armel armhf] | libgles2-dev [armel armhf], libcairo2-dev (>= 1.10), libpango1.0-dev (>= 1.28.3-5), libgdk-pixbuf2.0-dev (>= 2.0), libglib2.0-dev (>= 2.28.0), libxfixes-dev (>= 1:3), libxdamage-dev, libxcomposite-dev (>= 1:0.4), gobject-introspection (>= 0.9.12-4~), libgirepository1.0-dev (>= 0.9.12)"
+	],
+	"Checksums-Sha1": [
+		"5a34e6ee8885f9386720dd81fc0cb8929cdce495 2924 cogl_1.10.2-7.dsc 52b9829557c169d4b97c1ab1bc9a116e63210461 1209148 cogl_1.10.2.orig.tar.xz afbbfaa30fe343b5b6ac64dbfeaa2470ee7795e1 13031 cogl_1.10.2-7.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"f9323654853b98fa23c2dd9ec96b7c4624c1036312ff0fee636a77c5d3042e36 2924 cogl_1.10.2-7.dsc 042cf87ec35d2eac78719856356e415dd5333f9f613093c5db8b438630c1ecb3 1209148 cogl_1.10.2.orig.tar.xz f4d7d7b188974b29aa38d1471badd7a49ff5222b8888310648c9f98959b453d4 13031 cogl_1.10.2-7.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/c/cogl"
+	],
+	"Files": [
+		"a4a09023bfb66dae9ba599d0f5e10f38 2924 cogl_1.10.2-7.dsc c5414188a64a6e68ed6f7c07e4e105c4 1209148 cogl_1.10.2.orig.tar.xz f74403aa38078ce29516f3911e179cce 13031 cogl_1.10.2-7.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Rico Tzschichholz <ricotz@ubuntu.com>"
+	],
+	"Package": [
+		"cogl"
+	],
+	"Package-List": [
+		"gir1.2-cogl-1.0 deb introspection optional gir1.2-coglpango-1.0 deb introspection optional libcogl-common deb libs optional libcogl-dev deb libdevel optional libcogl-doc deb doc optional libcogl-pango-dev deb libdevel optional libcogl-pango0 deb libs optional libcogl-pango0-dbg deb debug extra libcogl9 deb libs optional libcogl9-dbg deb debug extra"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"libs"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>, Laurent Bigonville <bigon@debian.org>, Michael Biebl <biebl@debian.org>, Sjoerd Simons <sjoerd@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/cogl/"
+	],
+	"Vcs-Svn": [
+		"svn://svn.debian.org/svn/pkg-gnome/desktop/unstable/cogl"
+	],
+	"Version": [
+		"1.10.2-7"
+	]
 }

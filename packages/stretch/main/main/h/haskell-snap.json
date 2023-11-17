@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libghc-snap-dev, libghc-snap-prof, libghc-snap-doc"
-  ],
-  "Build-Depends": [
-    "cdbs, debhelper (>= 9), ghc (>= 8), ghc-ghci, ghc-prof, haskell-devscripts (>= 0.13), libghc-aeson-dev (<< 1.1), libghc-aeson-dev (>= 0.6), libghc-aeson-prof, libghc-attoparsec-dev (<< 0.14), libghc-attoparsec-dev (>= 0.10), libghc-attoparsec-prof, libghc-cereal-dev (<< 0.6), libghc-cereal-dev (>= 0.3), libghc-cereal-prof, libghc-clientsession-dev (<< 0.10), libghc-clientsession-dev (>= 0.8), libghc-clientsession-prof, libghc-configurator-dev (<< 0.4), libghc-configurator-dev (>= 0.1), libghc-configurator-prof, libghc-directory-tree-dev (<< 0.13), libghc-directory-tree-dev (>= 0.10), libghc-directory-tree-prof, libghc-dlist-dev (<< 0.9), libghc-dlist-dev (>= 0.5), libghc-dlist-prof, libghc-hashable-dev (<< 1.3), libghc-hashable-dev (>= 1.2.0.6), libghc-hashable-prof, libghc-heist-dev (<< 1.1), libghc-heist-dev (>= 1.0), libghc-heist-prof, libghc-lens-dev (<< 4.15), libghc-lens-dev (>= 3.7.6), libghc-lens-prof, libghc-lifted-base-dev (<< 0.3), libghc-lifted-base-dev (>= 0.2), libghc-lifted-base-prof, libghc-map-syntax-dev (<< 0.3), libghc-map-syntax-dev (>= 0.2), libghc-map-syntax-prof, libghc-monad-control-dev (<< 1.1), libghc-monad-control-dev (>= 0.3), libghc-monad-control-prof, libghc-mtl-dev (<< 2.3), libghc-mtl-dev (>= 2.0), libghc-mtl-prof, libghc-mwc-random-dev (<< 0.14), libghc-mwc-random-dev (>= 0.8), libghc-mwc-random-prof, libghc-pwstore-fast-dev (<< 2.5), libghc-pwstore-fast-dev (>= 2.2), libghc-pwstore-fast-prof, libghc-snap-core-dev (<< 1.1), libghc-snap-core-dev (>= 1.0), libghc-snap-core-prof, libghc-snap-server-dev (<< 1.1), libghc-snap-server-dev (>= 1.0), libghc-snap-server-prof, libghc-stm-dev (<< 2.5), libghc-stm-dev (>= 2.2), libghc-stm-prof, libghc-text-dev (<< 1.3), libghc-text-dev (>= 0.11), libghc-text-prof, libghc-transformers-base-dev (<< 0.5), libghc-transformers-base-dev (>= 0.4), libghc-transformers-base-prof, libghc-unordered-containers-dev (<< 0.3), libghc-unordered-containers-dev (>= 0.1.4), libghc-unordered-containers-prof, libghc-xmlhtml-dev (<< 0.3), libghc-xmlhtml-dev (>= 0.1), libghc-xmlhtml-prof"
-  ],
-  "Build-Depends-Indep": [
-    "ghc-doc, libghc-aeson-doc, libghc-attoparsec-doc, libghc-cereal-doc, libghc-clientsession-doc, libghc-configurator-doc, libghc-directory-tree-doc, libghc-dlist-doc, libghc-hashable-doc, libghc-heist-doc, libghc-lens-doc, libghc-lifted-base-doc, libghc-map-syntax-doc, libghc-monad-control-doc, libghc-mtl-doc, libghc-mwc-random-doc, libghc-pwstore-fast-doc, libghc-snap-core-doc, libghc-snap-server-doc, libghc-stm-doc, libghc-text-doc, libghc-transformers-base-doc, libghc-unordered-containers-doc, libghc-xmlhtml-doc"
-  ],
-  "Checksums-Sha256": [
-    "49e23a948bc6184202bc6359c9966d7c2fb0580af2356aab5854af3f5ab565fe 4852 haskell-snap_1.0.0.1-3.dsc 293f16c1404793121d3d85abb6287bbb32f5dc1d82b12146d4bb650052322db8 81400 haskell-snap_1.0.0.1.orig.tar.gz 952548f586cd306c94457e59db6d3cbcf6ace3d98db11c0aa5cbd1edab6e9c99 3836 haskell-snap_1.0.0.1-3.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/h/haskell-snap"
-  ],
-  "Files": [
-    "ccfc3f37fc0db16fa6b8785b112968a5 4852 haskell-snap_1.0.0.1-3.dsc 6284cf959f9b7485b28a26ec6805bf43 81400 haskell-snap_1.0.0.1.orig.tar.gz 80cfa69ab0644b724785aadaff7d05aa 3836 haskell-snap_1.0.0.1-3.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://snapframework.com/"
-  ],
-  "Maintainer": [
-    "Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "haskell-snap"
-  ],
-  "Package-List": [
-    "libghc-snap-dev deb haskell extra arch=any libghc-snap-doc deb doc extra arch=all libghc-snap-prof deb haskell extra arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Clint Adams <clint@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-haskell/DHG_packages.git/tree/p/haskell-snap"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/cgit/pkg-haskell/DHG_packages.git"
-  ],
-  "Version": [
-    "1.0.0.1-3"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libghc-snap-dev, libghc-snap-prof, libghc-snap-doc"
+	],
+	"Build-Depends": [
+		"cdbs, debhelper (>= 9), ghc (>= 8), ghc-ghci, ghc-prof, haskell-devscripts (>= 0.13), libghc-aeson-dev (<< 1.1), libghc-aeson-dev (>= 0.6), libghc-aeson-prof, libghc-attoparsec-dev (<< 0.14), libghc-attoparsec-dev (>= 0.10), libghc-attoparsec-prof, libghc-cereal-dev (<< 0.6), libghc-cereal-dev (>= 0.3), libghc-cereal-prof, libghc-clientsession-dev (<< 0.10), libghc-clientsession-dev (>= 0.8), libghc-clientsession-prof, libghc-configurator-dev (<< 0.4), libghc-configurator-dev (>= 0.1), libghc-configurator-prof, libghc-directory-tree-dev (<< 0.13), libghc-directory-tree-dev (>= 0.10), libghc-directory-tree-prof, libghc-dlist-dev (<< 0.9), libghc-dlist-dev (>= 0.5), libghc-dlist-prof, libghc-hashable-dev (<< 1.3), libghc-hashable-dev (>= 1.2.0.6), libghc-hashable-prof, libghc-heist-dev (<< 1.1), libghc-heist-dev (>= 1.0), libghc-heist-prof, libghc-lens-dev (<< 4.15), libghc-lens-dev (>= 3.7.6), libghc-lens-prof, libghc-lifted-base-dev (<< 0.3), libghc-lifted-base-dev (>= 0.2), libghc-lifted-base-prof, libghc-map-syntax-dev (<< 0.3), libghc-map-syntax-dev (>= 0.2), libghc-map-syntax-prof, libghc-monad-control-dev (<< 1.1), libghc-monad-control-dev (>= 0.3), libghc-monad-control-prof, libghc-mtl-dev (<< 2.3), libghc-mtl-dev (>= 2.0), libghc-mtl-prof, libghc-mwc-random-dev (<< 0.14), libghc-mwc-random-dev (>= 0.8), libghc-mwc-random-prof, libghc-pwstore-fast-dev (<< 2.5), libghc-pwstore-fast-dev (>= 2.2), libghc-pwstore-fast-prof, libghc-snap-core-dev (<< 1.1), libghc-snap-core-dev (>= 1.0), libghc-snap-core-prof, libghc-snap-server-dev (<< 1.1), libghc-snap-server-dev (>= 1.0), libghc-snap-server-prof, libghc-stm-dev (<< 2.5), libghc-stm-dev (>= 2.2), libghc-stm-prof, libghc-text-dev (<< 1.3), libghc-text-dev (>= 0.11), libghc-text-prof, libghc-transformers-base-dev (<< 0.5), libghc-transformers-base-dev (>= 0.4), libghc-transformers-base-prof, libghc-unordered-containers-dev (<< 0.3), libghc-unordered-containers-dev (>= 0.1.4), libghc-unordered-containers-prof, libghc-xmlhtml-dev (<< 0.3), libghc-xmlhtml-dev (>= 0.1), libghc-xmlhtml-prof"
+	],
+	"Build-Depends-Indep": [
+		"ghc-doc, libghc-aeson-doc, libghc-attoparsec-doc, libghc-cereal-doc, libghc-clientsession-doc, libghc-configurator-doc, libghc-directory-tree-doc, libghc-dlist-doc, libghc-hashable-doc, libghc-heist-doc, libghc-lens-doc, libghc-lifted-base-doc, libghc-map-syntax-doc, libghc-monad-control-doc, libghc-mtl-doc, libghc-mwc-random-doc, libghc-pwstore-fast-doc, libghc-snap-core-doc, libghc-snap-server-doc, libghc-stm-doc, libghc-text-doc, libghc-transformers-base-doc, libghc-unordered-containers-doc, libghc-xmlhtml-doc"
+	],
+	"Checksums-Sha256": [
+		"49e23a948bc6184202bc6359c9966d7c2fb0580af2356aab5854af3f5ab565fe 4852 haskell-snap_1.0.0.1-3.dsc 293f16c1404793121d3d85abb6287bbb32f5dc1d82b12146d4bb650052322db8 81400 haskell-snap_1.0.0.1.orig.tar.gz 952548f586cd306c94457e59db6d3cbcf6ace3d98db11c0aa5cbd1edab6e9c99 3836 haskell-snap_1.0.0.1-3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/h/haskell-snap"
+	],
+	"Files": [
+		"ccfc3f37fc0db16fa6b8785b112968a5 4852 haskell-snap_1.0.0.1-3.dsc 6284cf959f9b7485b28a26ec6805bf43 81400 haskell-snap_1.0.0.1.orig.tar.gz 80cfa69ab0644b724785aadaff7d05aa 3836 haskell-snap_1.0.0.1-3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://snapframework.com/"
+	],
+	"Maintainer": [
+		"Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"haskell-snap"
+	],
+	"Package-List": [
+		"libghc-snap-dev deb haskell extra arch=any libghc-snap-doc deb doc extra arch=all libghc-snap-prof deb haskell extra arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Clint Adams <clint@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-haskell/DHG_packages.git/tree/p/haskell-snap"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/cgit/pkg-haskell/DHG_packages.git"
+	],
+	"Version": [
+		"1.0.0.1-3"
+	]
 }

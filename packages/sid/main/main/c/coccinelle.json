@@ -1,68 +1,68 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "coccinelle, coccinelle-doc"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), dh-ocaml, dh-python, libmenhir-ocaml-dev, libparmap-ocaml-dev, libstdcompat-ocaml-dev, libpyml-ocaml-dev, menhir, ocaml-findlib, ocaml, pkg-config, python3"
-  ],
-  "Build-Depends-Indep": [
-    "texlive-fonts-extra, texlive-fonts-recommended, texlive-latex-base, texlive-latex-extra, texlive-latex-recommended"
-  ],
-  "Checksums-Sha256": [
-    "a952a73463e6994613a0009d8e44ed77a3dae1ea63a8f8d86bfad9d113ad859d 2191 coccinelle_1.1.1.deb-5.dsc ffc44e6801045957f4fdfc9db46e7433dbc6a01d51b25ca5349b6ea0f58a0559 1799837 coccinelle_1.1.1.deb.orig.tar.gz 7482214e55b86cd1d3c64bfb1da83d4d37a15a7f68ad1b447dae641769934681 12432 coccinelle_1.1.1.deb-5.debian.tar.xz"
-  ],
-  "Dgit": [
-    "85631d4ed9ba20d757aa0b721b36b5c22fd58c16 debian archive/debian/1.1.1.deb-5 https://git.dgit.debian.org/coccinelle"
-  ],
-  "Directory": [
-    "pool/main/c/coccinelle"
-  ],
-  "Files": [
-    "66af92ca53e07b7bb5e4d14f5ab624f0 2191 coccinelle_1.1.1.deb-5.dsc 0617f5d9d0013fc60ac2bccb655d7070 1799837 coccinelle_1.1.1.deb.orig.tar.gz 1e612d11da45383ca59fd76acf540ab2 12432 coccinelle_1.1.1.deb-5.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://coccinelle.lip6.fr"
-  ],
-  "Maintainer": [
-    "Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>"
-  ],
-  "Package": [
-    "coccinelle"
-  ],
-  "Package-List": [
-    "coccinelle deb devel optional arch=any coccinelle-doc deb doc optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "devel"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "patch"
-  ],
-  "Uploaders": [
-    "Emmanuel Arias <eamanu@yaerobi.com>, Ralf Treinen <treinen@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/ocaml-team/coccinelle"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/ocaml-team/coccinelle.git"
-  ],
-  "Version": [
-    "1.1.1.deb-5"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"coccinelle, coccinelle-doc"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-ocaml, dh-python, libmenhir-ocaml-dev, libparmap-ocaml-dev, libstdcompat-ocaml-dev, libpyml-ocaml-dev, menhir, ocaml-findlib, ocaml, pkg-config, python3"
+	],
+	"Build-Depends-Indep": [
+		"texlive-fonts-extra, texlive-fonts-recommended, texlive-latex-base, texlive-latex-extra, texlive-latex-recommended"
+	],
+	"Checksums-Sha256": [
+		"a952a73463e6994613a0009d8e44ed77a3dae1ea63a8f8d86bfad9d113ad859d 2191 coccinelle_1.1.1.deb-5.dsc ffc44e6801045957f4fdfc9db46e7433dbc6a01d51b25ca5349b6ea0f58a0559 1799837 coccinelle_1.1.1.deb.orig.tar.gz 7482214e55b86cd1d3c64bfb1da83d4d37a15a7f68ad1b447dae641769934681 12432 coccinelle_1.1.1.deb-5.debian.tar.xz"
+	],
+	"Dgit": [
+		"85631d4ed9ba20d757aa0b721b36b5c22fd58c16 debian archive/debian/1.1.1.deb-5 https://git.dgit.debian.org/coccinelle"
+	],
+	"Directory": [
+		"pool/main/c/coccinelle"
+	],
+	"Files": [
+		"66af92ca53e07b7bb5e4d14f5ab624f0 2191 coccinelle_1.1.1.deb-5.dsc 0617f5d9d0013fc60ac2bccb655d7070 1799837 coccinelle_1.1.1.deb.orig.tar.gz 1e612d11da45383ca59fd76acf540ab2 12432 coccinelle_1.1.1.deb-5.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://coccinelle.lip6.fr"
+	],
+	"Maintainer": [
+		"Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>"
+	],
+	"Package": [
+		"coccinelle"
+	],
+	"Package-List": [
+		"coccinelle deb devel optional arch=any coccinelle-doc deb doc optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"devel"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"patch"
+	],
+	"Uploaders": [
+		"Emmanuel Arias <eamanu@yaerobi.com>, Ralf Treinen <treinen@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/ocaml-team/coccinelle"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/ocaml-team/coccinelle.git"
+	],
+	"Version": [
+		"1.1.1.deb-5"
+	]
 }

@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-glance, glance, python-glance-doc, glance-common, glance-api, glance-glare, glance-registry"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-python, dh-systemd, openstack-pkg-tools (>= 40~), po-debconf, python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx"
-  ],
-  "Build-Depends-Indep": [
-    "bandit, curl, git, procps, python-babel, python-boto, python-castellan (>= 0.3.1), python-coverage, python-crypto, python-cryptography (>= 1.0), python-debtcollector (>= 1.2.0), python-elasticsearch (>= 1.3.0), python-eventlet (>= 0.18.4), python-fixtures (>= 1.3.1), python-futurist (>= 0.11.0), python-glance-store (>= 0.13.0), python-hacking, python-httplib2, python-iso8601, python-jsonschema, python-keystoneauth1 (>= 2.1.0), python-keystoneclient (>= 1:1.6.0), python-keystonemiddleware (>= 4.0.0), python-migrate (>= 0.9.6), python-mock (>= 1.3), python-monotonic (>= 0.6), python-mox3, python-mysqldb, python-openssl, python-oslo.concurrency (>= 3.5.0), python-oslo.config (>= 1:3.7.0), python-oslo.context (>= 0.2.0), python-oslo.db (>= 4.1.0), python-oslo.i18n (>= 2.1.0), python-oslo.log (>= 2.0.0), python-oslo.messaging (>= 4.0.0), python-oslo.middleware (>= 3.0.0), python-oslo.policy (>= 0.5.0), python-oslo.serialization (>= 2.0.0), python-oslo.service (>= 1.0.0), python-oslo.utils (>= 3.5.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1.10.0), python-osprofiler (>= 1.1.0), python-paste, python-pastedeploy, python-prettytable, python-psutil, python-psycopg2 (>= 2.5), python-pymysql, python-qpid, python-requests (>= 2.8.1), python-retrying, python-routes, python-semantic-version (>= 2.3.1), python-sendfile, python-six (>= 1.9.0), python-sqlalchemy (>= 1.0.10), python-stevedore (>= 1.5.0), python-swiftclient (>= 1:2.6.0), python-taskflow (>= 1.26.0), python-testresources, python-testscenarios, python-testtools (>= 1.4.0), python-webob, python-wsme (>= 0.8), python-xattr, sqlite3, subunit, testrepository"
-  ],
-  "Checksums-Sha1": [
-    "0ff0062acdf985bccb3b3a6fb6cc7135eef47f40 4039 glance_12.0.0-3~bpo8+1.dsc 26d56429c269af902b93852c1f251f3bdfb83086 1234536 glance_12.0.0.orig.tar.xz 1c1a2f51dd7ae4afeee3e74e10d29d82d91b2622 36808 glance_12.0.0-3~bpo8+1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "d123e3331282d7402b1547f9785d5a9cb059d1342fae04b4c9ea9f3ecbe0122e 4039 glance_12.0.0-3~bpo8+1.dsc 6585a6542c71718615da6a87d42e1d9e12d032fd5c46026ee03ffdbddddd56a1 1234536 glance_12.0.0.orig.tar.xz 623ad9f25d7f9acea05b12489946abf4ac5d9953dcda8c4a78b41b3a6b8bbe8d 36808 glance_12.0.0-3~bpo8+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/g/glance"
-  ],
-  "Files": [
-    "13ad524901f8a6be36305ede19e4447b 4039 glance_12.0.0-3~bpo8+1.dsc 2973fdb819ba47de0b5d01cc51950f6c 1234536 glance_12.0.0.orig.tar.xz f3467af583789b92c33b86f8170f2b31 36808 glance_12.0.0-3~bpo8+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/openstack/glance"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "glance"
-  ],
-  "Package-List": [
-    "glance deb net extra arch=all glance-api deb net extra arch=all glance-common deb net extra arch=all glance-glare deb net extra arch=all glance-registry deb net extra arch=all python-glance deb python extra arch=all python-glance-doc deb doc extra arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/gitweb/?p=openstack/glance.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/openstack/glance.git"
-  ],
-  "Version": [
-    "2:12.0.0-3~bpo8+1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-glance, glance, python-glance-doc, glance-common, glance-api, glance-glare, glance-registry"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-python, dh-systemd, openstack-pkg-tools (>= 40~), po-debconf, python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx"
+	],
+	"Build-Depends-Indep": [
+		"bandit, curl, git, procps, python-babel, python-boto, python-castellan (>= 0.3.1), python-coverage, python-crypto, python-cryptography (>= 1.0), python-debtcollector (>= 1.2.0), python-elasticsearch (>= 1.3.0), python-eventlet (>= 0.18.4), python-fixtures (>= 1.3.1), python-futurist (>= 0.11.0), python-glance-store (>= 0.13.0), python-hacking, python-httplib2, python-iso8601, python-jsonschema, python-keystoneauth1 (>= 2.1.0), python-keystoneclient (>= 1:1.6.0), python-keystonemiddleware (>= 4.0.0), python-migrate (>= 0.9.6), python-mock (>= 1.3), python-monotonic (>= 0.6), python-mox3, python-mysqldb, python-openssl, python-oslo.concurrency (>= 3.5.0), python-oslo.config (>= 1:3.7.0), python-oslo.context (>= 0.2.0), python-oslo.db (>= 4.1.0), python-oslo.i18n (>= 2.1.0), python-oslo.log (>= 2.0.0), python-oslo.messaging (>= 4.0.0), python-oslo.middleware (>= 3.0.0), python-oslo.policy (>= 0.5.0), python-oslo.serialization (>= 2.0.0), python-oslo.service (>= 1.0.0), python-oslo.utils (>= 3.5.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1.10.0), python-osprofiler (>= 1.1.0), python-paste, python-pastedeploy, python-prettytable, python-psutil, python-psycopg2 (>= 2.5), python-pymysql, python-qpid, python-requests (>= 2.8.1), python-retrying, python-routes, python-semantic-version (>= 2.3.1), python-sendfile, python-six (>= 1.9.0), python-sqlalchemy (>= 1.0.10), python-stevedore (>= 1.5.0), python-swiftclient (>= 1:2.6.0), python-taskflow (>= 1.26.0), python-testresources, python-testscenarios, python-testtools (>= 1.4.0), python-webob, python-wsme (>= 0.8), python-xattr, sqlite3, subunit, testrepository"
+	],
+	"Checksums-Sha1": [
+		"0ff0062acdf985bccb3b3a6fb6cc7135eef47f40 4039 glance_12.0.0-3~bpo8+1.dsc 26d56429c269af902b93852c1f251f3bdfb83086 1234536 glance_12.0.0.orig.tar.xz 1c1a2f51dd7ae4afeee3e74e10d29d82d91b2622 36808 glance_12.0.0-3~bpo8+1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"d123e3331282d7402b1547f9785d5a9cb059d1342fae04b4c9ea9f3ecbe0122e 4039 glance_12.0.0-3~bpo8+1.dsc 6585a6542c71718615da6a87d42e1d9e12d032fd5c46026ee03ffdbddddd56a1 1234536 glance_12.0.0.orig.tar.xz 623ad9f25d7f9acea05b12489946abf4ac5d9953dcda8c4a78b41b3a6b8bbe8d 36808 glance_12.0.0-3~bpo8+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/glance"
+	],
+	"Files": [
+		"13ad524901f8a6be36305ede19e4447b 4039 glance_12.0.0-3~bpo8+1.dsc 2973fdb819ba47de0b5d01cc51950f6c 1234536 glance_12.0.0.orig.tar.xz f3467af583789b92c33b86f8170f2b31 36808 glance_12.0.0-3~bpo8+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/openstack/glance"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"glance"
+	],
+	"Package-List": [
+		"glance deb net extra arch=all glance-api deb net extra arch=all glance-common deb net extra arch=all glance-glare deb net extra arch=all glance-registry deb net extra arch=all python-glance deb python extra arch=all python-glance-doc deb doc extra arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/gitweb/?p=openstack/glance.git;a=summary"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/openstack/glance.git"
+	],
+	"Version": [
+		"2:12.0.0-3~bpo8+1"
+	]
 }

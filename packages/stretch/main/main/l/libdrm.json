@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "linux-any kfreebsd-any any-arm"
-  ],
-  "Binary": [
-    "libdrm-dev, libdrm2, libdrm2-udeb, libdrm2-dbg, libdrm-intel1, libdrm-intel1-dbg, libdrm-nouveau2, libdrm-nouveau2-dbg, libdrm-radeon1, libdrm-radeon1-dbg, libdrm-omap1, libdrm-omap1-dbg, libdrm-freedreno1, libdrm-freedreno1-dbg, libdrm-exynos1, libdrm-exynos1-dbg, libdrm-tegra0, libdrm-tegra0-dbg, libdrm-amdgpu1, libdrm-amdgpu1-dbg"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 10), quilt, xsltproc, docbook-xsl, libx11-dev, pkg-config, xutils-dev (>= 1:7.6+2), libpthread-stubs0-dev, libudev-dev [linux-any], libpciaccess-dev, valgrind [amd64 armhf i386 mips mipsel powerpc s390x], libbsd-dev [kfreebsd-any]"
-  ],
-  "Checksums-Sha256": [
-    "6922553494ca71ff8ec981d0d2e4f61952053b11a9b7f9935e210ac9dbcdd260 3572 libdrm_2.4.74-1.dsc 3c8fdf5a89826797a8060e6f3455ca22db9ae49576cfcda1c78e3e2ce59af0f1 1056909 libdrm_2.4.74.orig.tar.gz 9d5cb3ef2060a5c92f465eaf672add69c337843a6a0cad0bf15a8c9862fcd751 46060 libdrm_2.4.74-1.diff.gz"
-  ],
-  "Directory": [
-    "pool/main/libd/libdrm"
-  ],
-  "Files": [
-    "21c387801781bab547982c11c6b9a47f 3572 libdrm_2.4.74-1.dsc b661a54514109caad3de3b520680b98e 1056909 libdrm_2.4.74.orig.tar.gz 283d0d8f09713917e9886c14079aae8d 46060 libdrm_2.4.74-1.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Homepage": [
-    "https://cgit.freedesktop.org/mesa/drm/"
-  ],
-  "Maintainer": [
-    "Debian X Strike Force <debian-x@lists.debian.org>"
-  ],
-  "Package": [
-    "libdrm"
-  ],
-  "Package-List": [
-    "libdrm-amdgpu1 deb libs optional arch=linux-any,kfreebsd-any libdrm-amdgpu1-dbg deb debug extra arch=linux-any,kfreebsd-any libdrm-dev deb libdevel optional arch=linux-any,kfreebsd-any libdrm-exynos1 deb libs optional arch=any-arm libdrm-exynos1-dbg deb debug extra arch=any-arm libdrm-freedreno1 deb libs optional arch=any-arm,arm64 libdrm-freedreno1-dbg deb debug extra arch=any-arm,arm64 libdrm-intel1 deb libs optional arch=amd64,i386,kfreebsd-amd64,kfreebsd-i386,x32 libdrm-intel1-dbg deb debug extra arch=amd64,i386,kfreebsd-amd64,kfreebsd-i386,x32 libdrm-nouveau2 deb libs optional arch=linux-any libdrm-nouveau2-dbg deb debug extra arch=linux-any libdrm-omap1 deb libs optional arch=any-arm libdrm-omap1-dbg deb debug extra arch=any-arm libdrm-radeon1 deb libs optional arch=linux-any,kfreebsd-any libdrm-radeon1-dbg deb debug extra arch=linux-any,kfreebsd-any libdrm-tegra0 deb libs optional arch=any-arm,arm64 libdrm-tegra0-dbg deb debug extra arch=any-arm,arm64 libdrm2 deb libs optional arch=linux-any,kfreebsd-any libdrm2-dbg deb debug extra arch=linux-any,kfreebsd-any libdrm2-udeb udeb debian-installer optional arch=linux-any,kfreebsd-any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "libs"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Andreas Boll <andreas.boll.dev@gmail.com>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-xorg/lib/libdrm.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-xorg/lib/libdrm.git"
-  ],
-  "Version": [
-    "2.4.74-1"
-  ]
+	"Architecture": [
+		"linux-any kfreebsd-any any-arm"
+	],
+	"Binary": [
+		"libdrm-dev, libdrm2, libdrm2-udeb, libdrm2-dbg, libdrm-intel1, libdrm-intel1-dbg, libdrm-nouveau2, libdrm-nouveau2-dbg, libdrm-radeon1, libdrm-radeon1-dbg, libdrm-omap1, libdrm-omap1-dbg, libdrm-freedreno1, libdrm-freedreno1-dbg, libdrm-exynos1, libdrm-exynos1-dbg, libdrm-tegra0, libdrm-tegra0-dbg, libdrm-amdgpu1, libdrm-amdgpu1-dbg"
+	],
+	"Build-Depends": [
+		"debhelper (>= 10), quilt, xsltproc, docbook-xsl, libx11-dev, pkg-config, xutils-dev (>= 1:7.6+2), libpthread-stubs0-dev, libudev-dev [linux-any], libpciaccess-dev, valgrind [amd64 armhf i386 mips mipsel powerpc s390x], libbsd-dev [kfreebsd-any]"
+	],
+	"Checksums-Sha256": [
+		"6922553494ca71ff8ec981d0d2e4f61952053b11a9b7f9935e210ac9dbcdd260 3572 libdrm_2.4.74-1.dsc 3c8fdf5a89826797a8060e6f3455ca22db9ae49576cfcda1c78e3e2ce59af0f1 1056909 libdrm_2.4.74.orig.tar.gz 9d5cb3ef2060a5c92f465eaf672add69c337843a6a0cad0bf15a8c9862fcd751 46060 libdrm_2.4.74-1.diff.gz"
+	],
+	"Directory": [
+		"pool/main/libd/libdrm"
+	],
+	"Files": [
+		"21c387801781bab547982c11c6b9a47f 3572 libdrm_2.4.74-1.dsc b661a54514109caad3de3b520680b98e 1056909 libdrm_2.4.74.orig.tar.gz 283d0d8f09713917e9886c14079aae8d 46060 libdrm_2.4.74-1.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Homepage": [
+		"https://cgit.freedesktop.org/mesa/drm/"
+	],
+	"Maintainer": [
+		"Debian X Strike Force <debian-x@lists.debian.org>"
+	],
+	"Package": [
+		"libdrm"
+	],
+	"Package-List": [
+		"libdrm-amdgpu1 deb libs optional arch=linux-any,kfreebsd-any libdrm-amdgpu1-dbg deb debug extra arch=linux-any,kfreebsd-any libdrm-dev deb libdevel optional arch=linux-any,kfreebsd-any libdrm-exynos1 deb libs optional arch=any-arm libdrm-exynos1-dbg deb debug extra arch=any-arm libdrm-freedreno1 deb libs optional arch=any-arm,arm64 libdrm-freedreno1-dbg deb debug extra arch=any-arm,arm64 libdrm-intel1 deb libs optional arch=amd64,i386,kfreebsd-amd64,kfreebsd-i386,x32 libdrm-intel1-dbg deb debug extra arch=amd64,i386,kfreebsd-amd64,kfreebsd-i386,x32 libdrm-nouveau2 deb libs optional arch=linux-any libdrm-nouveau2-dbg deb debug extra arch=linux-any libdrm-omap1 deb libs optional arch=any-arm libdrm-omap1-dbg deb debug extra arch=any-arm libdrm-radeon1 deb libs optional arch=linux-any,kfreebsd-any libdrm-radeon1-dbg deb debug extra arch=linux-any,kfreebsd-any libdrm-tegra0 deb libs optional arch=any-arm,arm64 libdrm-tegra0-dbg deb debug extra arch=any-arm,arm64 libdrm2 deb libs optional arch=linux-any,kfreebsd-any libdrm2-dbg deb debug extra arch=linux-any,kfreebsd-any libdrm2-udeb udeb debian-installer optional arch=linux-any,kfreebsd-any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"libs"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Andreas Boll <andreas.boll.dev@gmail.com>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-xorg/lib/libdrm.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-xorg/lib/libdrm.git"
+	],
+	"Version": [
+		"2.4.74-1"
+	]
 }

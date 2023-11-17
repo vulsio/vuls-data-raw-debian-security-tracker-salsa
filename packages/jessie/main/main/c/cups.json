@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libcups2, libcupsimage2, libcupscgi1, libcupsmime1, libcupsppdc1, cups, cups-core-drivers, cups-daemon, cups-client, libcups2-dev, libcupsimage2-dev, libcupscgi1-dev, libcupsmime1-dev, libcupsppdc1-dev, cups-bsd, cups-common, cups-server-common, cups-ppdc, cups-dbg"
-  ],
-  "Build-Conflicts": [
-    "libgmp-dev (<< 2:6)"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9~), dh-apparmor, dh-systemd, dpkg-dev (>= 1.16.1~), patch, autoconf, automake, libtool, autotools-dev, pkg-config, ghostscript (>= 9.02~), libavahi-client-dev, libavahi-common-dev, libavahi-compat-libdnssd-dev, libdbus-1-dev (>= 1.0.2), libfontconfig1-dev, libfreetype6-dev, libgnutls28-dev, libijs-dev, libjpeg-dev, libldap2-dev, libkrb5-dev, libpam0g-dev, libpaper-dev, libpng-dev | libpng12-dev, libslp-dev, libsystemd-daemon-dev [linux-any], libtiff-dev, libusb-1.0-0-dev [!hurd-any], po4a (>= 0.31~), po-debconf, poppler-utils, sharutils, zlib1g-dev, cups-filters (>= 1.0.38~), libcupsfilters-dev (>= 1.0.38~)"
-  ],
-  "Checksums-Sha1": [
-    "336e441443b1084ce350795f3eeeda2e7b8cb71b 3461 cups_1.7.5-11+deb8u2.dsc 7cd1a18fe2988b4375e9276af313a53e1caf5a27 8793338 cups_1.7.5.orig.tar.bz2 9ea0d9a1ae0412e1a2e382e93e470061827700dc 305704 cups_1.7.5-11+deb8u2.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "22f612c156019f489b1431356edac5b467ecd52779f8b56feb78644af4f0cb71 3461 cups_1.7.5-11+deb8u2.dsc 18cb4c6847dbaaaa05c8b35af787f19dd5c7686970b46548e72c711c6f26bd02 8793338 cups_1.7.5.orig.tar.bz2 ae8943c35211802415a1495c0afdcb6943484f4f592f09ec024f11ded5f85ec9 305704 cups_1.7.5-11+deb8u2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/c/cups"
-  ],
-  "Files": [
-    "b418163ec953e281d69beb55c153e90b 3461 cups_1.7.5-11+deb8u2.dsc 5d893edc2957005f78e2b2423fdace2e 8793338 cups_1.7.5.orig.tar.bz2 fa7962b8ab166484db97a6ef101d7979 305704 cups_1.7.5-11+deb8u2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.cups.org"
-  ],
-  "Maintainer": [
-    "Debian Printing Team <debian-printing@lists.debian.org>"
-  ],
-  "Package": [
-    "cups"
-  ],
-  "Package-List": [
-    "cups deb net optional arch=any cups-bsd deb net extra arch=any cups-client deb net optional arch=any cups-common deb net optional arch=all cups-core-drivers deb net optional arch=any cups-daemon deb net optional arch=any cups-dbg deb debug extra arch=any cups-ppdc deb utils optional arch=any cups-server-common deb net optional arch=all libcups2 deb libs optional arch=any libcups2-dev deb libdevel optional arch=any libcupscgi1 deb libs optional arch=any libcupscgi1-dev deb libdevel optional arch=any libcupsimage2 deb libs optional arch=any libcupsimage2-dev deb libdevel optional arch=any libcupsmime1 deb libs optional arch=any libcupsmime1-dev deb libdevel optional arch=any libcupsppdc1 deb libs optional arch=any libcupsppdc1-dev deb libdevel optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Didier Raboud <odyx@debian.org>, Till Kamppeter <till.kamppeter@gmail.com>,"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=printing/cups.git"
-  ],
-  "Vcs-Git": [
-    "https://alioth.debian.org/anonscm/git/printing/cups.git"
-  ],
-  "Version": [
-    "1.7.5-11+deb8u2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libcups2, libcupsimage2, libcupscgi1, libcupsmime1, libcupsppdc1, cups, cups-core-drivers, cups-daemon, cups-client, libcups2-dev, libcupsimage2-dev, libcupscgi1-dev, libcupsmime1-dev, libcupsppdc1-dev, cups-bsd, cups-common, cups-server-common, cups-ppdc, cups-dbg"
+	],
+	"Build-Conflicts": [
+		"libgmp-dev (<< 2:6)"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9~), dh-apparmor, dh-systemd, dpkg-dev (>= 1.16.1~), patch, autoconf, automake, libtool, autotools-dev, pkg-config, ghostscript (>= 9.02~), libavahi-client-dev, libavahi-common-dev, libavahi-compat-libdnssd-dev, libdbus-1-dev (>= 1.0.2), libfontconfig1-dev, libfreetype6-dev, libgnutls28-dev, libijs-dev, libjpeg-dev, libldap2-dev, libkrb5-dev, libpam0g-dev, libpaper-dev, libpng-dev | libpng12-dev, libslp-dev, libsystemd-daemon-dev [linux-any], libtiff-dev, libusb-1.0-0-dev [!hurd-any], po4a (>= 0.31~), po-debconf, poppler-utils, sharutils, zlib1g-dev, cups-filters (>= 1.0.38~), libcupsfilters-dev (>= 1.0.38~)"
+	],
+	"Checksums-Sha1": [
+		"336e441443b1084ce350795f3eeeda2e7b8cb71b 3461 cups_1.7.5-11+deb8u2.dsc 7cd1a18fe2988b4375e9276af313a53e1caf5a27 8793338 cups_1.7.5.orig.tar.bz2 9ea0d9a1ae0412e1a2e382e93e470061827700dc 305704 cups_1.7.5-11+deb8u2.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"22f612c156019f489b1431356edac5b467ecd52779f8b56feb78644af4f0cb71 3461 cups_1.7.5-11+deb8u2.dsc 18cb4c6847dbaaaa05c8b35af787f19dd5c7686970b46548e72c711c6f26bd02 8793338 cups_1.7.5.orig.tar.bz2 ae8943c35211802415a1495c0afdcb6943484f4f592f09ec024f11ded5f85ec9 305704 cups_1.7.5-11+deb8u2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/c/cups"
+	],
+	"Files": [
+		"b418163ec953e281d69beb55c153e90b 3461 cups_1.7.5-11+deb8u2.dsc 5d893edc2957005f78e2b2423fdace2e 8793338 cups_1.7.5.orig.tar.bz2 fa7962b8ab166484db97a6ef101d7979 305704 cups_1.7.5-11+deb8u2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.cups.org"
+	],
+	"Maintainer": [
+		"Debian Printing Team <debian-printing@lists.debian.org>"
+	],
+	"Package": [
+		"cups"
+	],
+	"Package-List": [
+		"cups deb net optional arch=any cups-bsd deb net extra arch=any cups-client deb net optional arch=any cups-common deb net optional arch=all cups-core-drivers deb net optional arch=any cups-daemon deb net optional arch=any cups-dbg deb debug extra arch=any cups-ppdc deb utils optional arch=any cups-server-common deb net optional arch=all libcups2 deb libs optional arch=any libcups2-dev deb libdevel optional arch=any libcupscgi1 deb libs optional arch=any libcupscgi1-dev deb libdevel optional arch=any libcupsimage2 deb libs optional arch=any libcupsimage2-dev deb libdevel optional arch=any libcupsmime1 deb libs optional arch=any libcupsmime1-dev deb libdevel optional arch=any libcupsppdc1 deb libs optional arch=any libcupsppdc1-dev deb libdevel optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Didier Raboud <odyx@debian.org>, Till Kamppeter <till.kamppeter@gmail.com>,"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=printing/cups.git"
+	],
+	"Vcs-Git": [
+		"https://alioth.debian.org/anonscm/git/printing/cups.git"
+	],
+	"Version": [
+		"1.7.5-11+deb8u2"
+	]
 }

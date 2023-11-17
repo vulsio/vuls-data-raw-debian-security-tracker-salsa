@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "barbican-api, barbican-common, barbican-doc, barbican-keystone-listener, barbican-worker, python3-barbican"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 11), dh-python, openstack-pkg-tools (>= 123~), po-debconf, python3-all, python3-pbr, python3-setuptools, python3-sphinx <!nodoc>"
-  ],
-  "Build-Depends-Indep": [
-    "alembic, bandit, python3-castellan, python3-cffi, python3-coverage, python3-cryptography, python3-dateutil, python3-eventlet, python3-falcon, python3-fixtures, python3-hacking <!nocheck>, python3-jsonschema, python3-keystoneclient, python3-keystonemiddleware, python3-ldap3, python3-microversion-parse, python3-openssl, python3-openstackdocstheme <!nodoc>, python3-os-api-ref <!nodoc>, python3-oslo.config, python3-oslo.context, python3-oslo.db, python3-oslo.i18n, python3-oslo.log, python3-oslo.messaging, python3-oslo.middleware, python3-oslo.policy (>= 3.6.0), python3-oslo.serialization, python3-oslo.service, python3-oslo.upgradecheck (>= 1.3.0), python3-oslo.utils, python3-oslo.versionedobjects, python3-oslotest <!nocheck>, python3-paste, python3-pastedeploy, python3-pecan, python3-pep8 <!nocheck>, python3-pygments <!nocheck>, python3-pykmip <!nodoc>, python3-requests, python3-six, python3-sphinxcontrib.blockdiag <!nodoc>, python3-sphinxcontrib.httpdomain <!nodoc>, python3-sphinxcontrib.svg2pdfconverter, python3-sqlalchemy, python3-stestr <!nocheck>, python3-stevedore, python3-tempest <!nocheck>, python3-testtools, python3-webob, python3-webtest, subunit, tempest <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "2f3dfbff904d2cb909bf6185a84080ff610939dfb60804895b6b0c4e2689c0ca 3698 barbican_15.0.1-2.dsc 5133c252fb06121da2886360a87160a085d9a53e7b9181c02a6787297d175777 491140 barbican_15.0.1.orig.tar.xz 0674edd8cfdc833951564c371178569e811500ee3b88a42d15cbe6884f691789 10260 barbican_15.0.1-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/b/barbican"
-  ],
-  "Files": [
-    "238368004ee82ec9b0f0698053823e58 3698 barbican_15.0.1-2.dsc 9a2b3376da32bdbf287bb08f628992e9 491140 barbican_15.0.1.orig.tar.xz b3568952c16ae89aadbb5733f84c80fe 10260 barbican_15.0.1-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/openstack/barbican"
-  ],
-  "Maintainer": [
-    "Debian OpenStack <team+openstack@tracker.debian.org>"
-  ],
-  "Package": [
-    "barbican"
-  ],
-  "Package-List": [
-    "barbican-api deb python optional arch=all barbican-common deb net optional arch=all barbican-doc deb doc optional arch=all barbican-keystone-listener deb net optional arch=all barbican-worker deb net optional arch=all python3-barbican deb python optional arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.5.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "@builddeps@"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>, Michal Arbet <michal.arbet@ultimum.io>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/openstack-team/services/barbican"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/openstack-team/services/barbican.git"
-  ],
-  "Version": [
-    "1:15.0.1-2"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"barbican-api, barbican-common, barbican-doc, barbican-keystone-listener, barbican-worker, python3-barbican"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 11), dh-python, openstack-pkg-tools (>= 123~), po-debconf, python3-all, python3-pbr, python3-setuptools, python3-sphinx <!nodoc>"
+	],
+	"Build-Depends-Indep": [
+		"alembic, bandit, python3-castellan, python3-cffi, python3-coverage, python3-cryptography, python3-dateutil, python3-eventlet, python3-falcon, python3-fixtures, python3-hacking <!nocheck>, python3-jsonschema, python3-keystoneclient, python3-keystonemiddleware, python3-ldap3, python3-microversion-parse, python3-openssl, python3-openstackdocstheme <!nodoc>, python3-os-api-ref <!nodoc>, python3-oslo.config, python3-oslo.context, python3-oslo.db, python3-oslo.i18n, python3-oslo.log, python3-oslo.messaging, python3-oslo.middleware, python3-oslo.policy (>= 3.6.0), python3-oslo.serialization, python3-oslo.service, python3-oslo.upgradecheck (>= 1.3.0), python3-oslo.utils, python3-oslo.versionedobjects, python3-oslotest <!nocheck>, python3-paste, python3-pastedeploy, python3-pecan, python3-pep8 <!nocheck>, python3-pygments <!nocheck>, python3-pykmip <!nodoc>, python3-requests, python3-six, python3-sphinxcontrib.blockdiag <!nodoc>, python3-sphinxcontrib.httpdomain <!nodoc>, python3-sphinxcontrib.svg2pdfconverter, python3-sqlalchemy, python3-stestr <!nocheck>, python3-stevedore, python3-tempest <!nocheck>, python3-testtools, python3-webob, python3-webtest, subunit, tempest <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"2f3dfbff904d2cb909bf6185a84080ff610939dfb60804895b6b0c4e2689c0ca 3698 barbican_15.0.1-2.dsc 5133c252fb06121da2886360a87160a085d9a53e7b9181c02a6787297d175777 491140 barbican_15.0.1.orig.tar.xz 0674edd8cfdc833951564c371178569e811500ee3b88a42d15cbe6884f691789 10260 barbican_15.0.1-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/b/barbican"
+	],
+	"Files": [
+		"238368004ee82ec9b0f0698053823e58 3698 barbican_15.0.1-2.dsc 9a2b3376da32bdbf287bb08f628992e9 491140 barbican_15.0.1.orig.tar.xz b3568952c16ae89aadbb5733f84c80fe 10260 barbican_15.0.1-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/openstack/barbican"
+	],
+	"Maintainer": [
+		"Debian OpenStack <team+openstack@tracker.debian.org>"
+	],
+	"Package": [
+		"barbican"
+	],
+	"Package-List": [
+		"barbican-api deb python optional arch=all barbican-common deb net optional arch=all barbican-doc deb doc optional arch=all barbican-keystone-listener deb net optional arch=all barbican-worker deb net optional arch=all python3-barbican deb python optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"@builddeps@"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>, Michal Arbet <michal.arbet@ultimum.io>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/openstack-team/services/barbican"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/openstack-team/services/barbican.git"
+	],
+	"Version": [
+		"1:15.0.1-2"
+	]
 }

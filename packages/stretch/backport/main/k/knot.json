@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "knot, libknot8, libzscanner2, libdnssec6, libknot-dev, knot-dnsutils, knot-host, knot-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 11~), latexmk, libcap-ng-dev, libedit-dev, libfstrm-dev, libgnutls28-dev, libidn2-0-dev, liblmdb-dev, libmaxminddb-dev, libprotobuf-c-dev, libsofthsm2 <!nocheck>, libsystemd-dev [linux-any] | libsystemd-daemon-dev [linux-any], libsystemd-dev [linux-any] | libsystemd-journal-dev [linux-any], liburcu-dev (>= 0.4), pkg-config, protobuf-c-compiler, python3-yaml <!nocheck>"
-  ],
-  "Build-Depends-Indep": [
-    "ghostscript, python3-sphinx, texinfo, texlive, texlive-font-utils, texlive-generic-extra, texlive-latex-extra"
-  ],
-  "Checksums-Sha256": [
-    "06f449518ac457a9faa0eade434a4bac866b83ab322f168568ca413d40f258d4 2329 knot_2.7.6-2~bpo9+1.dsc a1cb1877f04f7c2549c977c2658cfafd07c7e0e924f8e8aa8d4ae4b707f697a2 1151068 knot_2.7.6.orig.tar.xz 65c52f8d7359235872c11c0db86088967abe8f05bfebab875c3994e2891db751 31804 knot_2.7.6-2~bpo9+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/k/knot"
-  ],
-  "Files": [
-    "1db27ccb0a6888b4977b781de4748602 2329 knot_2.7.6-2~bpo9+1.dsc 6afbbaff4e9d93de8d6311958d86b323 1151068 knot_2.7.6.orig.tar.xz 0fa7bc5f286630b1c1066507d538f1c7 31804 knot_2.7.6-2~bpo9+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.knot-dns.cz/"
-  ],
-  "Maintainer": [
-    "knot packagers <knot@packages.debian.org>"
-  ],
-  "Package": [
-    "knot"
-  ],
-  "Package-List": [
-    "knot deb net optional arch=any knot-dnsutils deb net optional arch=any knot-doc deb doc optional arch=all knot-host deb net optional arch=any libdnssec6 deb libs optional arch=any libknot-dev deb libdevel optional arch=any libknot8 deb libs optional arch=any libzscanner2 deb libs optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.3.0"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "ca-certificates, findutils, python3-lmdb, python3-yaml"
-  ],
-  "Uploaders": [
-    "Ondřej Surý <ondrej@debian.org>, Daniel Salzman <daniel.salzman@nic.cz>, Daniel Kahn Gillmor <dkg@fifthhorseman.net>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/dns-team/knot-dns"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/dns-team/knot-dns.git -b debian/stretch-backports"
-  ],
-  "Version": [
-    "2.7.6-2~bpo9+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"knot, libknot8, libzscanner2, libdnssec6, libknot-dev, knot-dnsutils, knot-host, knot-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 11~), latexmk, libcap-ng-dev, libedit-dev, libfstrm-dev, libgnutls28-dev, libidn2-0-dev, liblmdb-dev, libmaxminddb-dev, libprotobuf-c-dev, libsofthsm2 <!nocheck>, libsystemd-dev [linux-any] | libsystemd-daemon-dev [linux-any], libsystemd-dev [linux-any] | libsystemd-journal-dev [linux-any], liburcu-dev (>= 0.4), pkg-config, protobuf-c-compiler, python3-yaml <!nocheck>"
+	],
+	"Build-Depends-Indep": [
+		"ghostscript, python3-sphinx, texinfo, texlive, texlive-font-utils, texlive-generic-extra, texlive-latex-extra"
+	],
+	"Checksums-Sha256": [
+		"06f449518ac457a9faa0eade434a4bac866b83ab322f168568ca413d40f258d4 2329 knot_2.7.6-2~bpo9+1.dsc a1cb1877f04f7c2549c977c2658cfafd07c7e0e924f8e8aa8d4ae4b707f697a2 1151068 knot_2.7.6.orig.tar.xz 65c52f8d7359235872c11c0db86088967abe8f05bfebab875c3994e2891db751 31804 knot_2.7.6-2~bpo9+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/k/knot"
+	],
+	"Files": [
+		"1db27ccb0a6888b4977b781de4748602 2329 knot_2.7.6-2~bpo9+1.dsc 6afbbaff4e9d93de8d6311958d86b323 1151068 knot_2.7.6.orig.tar.xz 0fa7bc5f286630b1c1066507d538f1c7 31804 knot_2.7.6-2~bpo9+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.knot-dns.cz/"
+	],
+	"Maintainer": [
+		"knot packagers <knot@packages.debian.org>"
+	],
+	"Package": [
+		"knot"
+	],
+	"Package-List": [
+		"knot deb net optional arch=any knot-dnsutils deb net optional arch=any knot-doc deb doc optional arch=all knot-host deb net optional arch=any libdnssec6 deb libs optional arch=any libknot-dev deb libdevel optional arch=any libknot8 deb libs optional arch=any libzscanner2 deb libs optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.3.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"ca-certificates, findutils, python3-lmdb, python3-yaml"
+	],
+	"Uploaders": [
+		"Ondřej Surý <ondrej@debian.org>, Daniel Salzman <daniel.salzman@nic.cz>, Daniel Kahn Gillmor <dkg@fifthhorseman.net>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/dns-team/knot-dns"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/dns-team/knot-dns.git -b debian/stretch-backports"
+	],
+	"Version": [
+		"2.7.6-2~bpo9+1"
+	]
 }

@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "linux-any all"
-  ],
-  "Binary": [
-    "libbluetooth3, libbluetooth3-dbg, libbluetooth-dev, bluetooth, bluez, bluez-dbg, bluez-cups, bluez-obexd, bluez-hcidump, bluez-test-tools, bluez-test-scripts"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), autotools-dev, dh-autoreconf, flex, bison, libdbus-glib-1-dev, libglib2.0-dev (>= 2.28), libcap-ng-dev, udev, libudev-dev, libreadline-dev, libical-dev, check (>= 0.9.8-1.1), systemd, dh-systemd (>= 1.5)"
-  ],
-  "Checksums-Sha256": [
-    "97be0c87939413d3566e7967e118fde4db1033cf7efa12155b2e02155292496f 2936 bluez_5.43-2+deb9u2.dsc 0f3307b45e116ea2b20cacb5cfd7afda5df25dc36f632290739ece4b7f7d7dc1 2544442 bluez_5.43.orig.tar.gz 442c6f2f55194f496b86f394df77684c09a546b6e4a39feff111dd2403bd9eed 30480 bluez_5.43-2+deb9u2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/b/bluez"
-  ],
-  "Files": [
-    "34151ebe4c576cce276f1d3d24c0dfce 2936 bluez_5.43-2+deb9u2.dsc e5b74adbd4a3a7f8da2b01c925173732 2544442 bluez_5.43.orig.tar.gz 1e2c4aef142c2fe1d95c89def1a216bd 30480 bluez_5.43-2+deb9u2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.bluez.org"
-  ],
-  "Maintainer": [
-    "Debian Bluetooth Maintainers <pkg-bluetooth-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "bluez"
-  ],
-  "Package-List": [
-    "bluetooth deb admin optional arch=all bluez deb admin optional arch=linux-any bluez-cups deb admin optional arch=linux-any bluez-dbg deb debug extra arch=linux-any bluez-hcidump deb admin optional arch=linux-any bluez-obexd deb admin optional arch=linux-any bluez-test-scripts deb admin optional arch=all bluez-test-tools deb admin optional arch=linux-any libbluetooth-dev deb libdevel extra arch=linux-any libbluetooth3 deb libs optional arch=linux-any libbluetooth3-dbg deb debug extra arch=linux-any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "admin"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Nobuhiro Iwamatsu <iwamatsu@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://svn.debian.org/wsvn/pkg-bluetooth/packages/bluez/trunk"
-  ],
-  "Vcs-Svn": [
-    "svn://anonscm.debian.org/pkg-bluetooth/packages/bluez/trunk"
-  ],
-  "Version": [
-    "5.43-2+deb9u2"
-  ]
+	"Architecture": [
+		"linux-any all"
+	],
+	"Binary": [
+		"libbluetooth3, libbluetooth3-dbg, libbluetooth-dev, bluetooth, bluez, bluez-dbg, bluez-cups, bluez-obexd, bluez-hcidump, bluez-test-tools, bluez-test-scripts"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), autotools-dev, dh-autoreconf, flex, bison, libdbus-glib-1-dev, libglib2.0-dev (>= 2.28), libcap-ng-dev, udev, libudev-dev, libreadline-dev, libical-dev, check (>= 0.9.8-1.1), systemd, dh-systemd (>= 1.5)"
+	],
+	"Checksums-Sha256": [
+		"97be0c87939413d3566e7967e118fde4db1033cf7efa12155b2e02155292496f 2936 bluez_5.43-2+deb9u2.dsc 0f3307b45e116ea2b20cacb5cfd7afda5df25dc36f632290739ece4b7f7d7dc1 2544442 bluez_5.43.orig.tar.gz 442c6f2f55194f496b86f394df77684c09a546b6e4a39feff111dd2403bd9eed 30480 bluez_5.43-2+deb9u2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/b/bluez"
+	],
+	"Files": [
+		"34151ebe4c576cce276f1d3d24c0dfce 2936 bluez_5.43-2+deb9u2.dsc e5b74adbd4a3a7f8da2b01c925173732 2544442 bluez_5.43.orig.tar.gz 1e2c4aef142c2fe1d95c89def1a216bd 30480 bluez_5.43-2+deb9u2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.bluez.org"
+	],
+	"Maintainer": [
+		"Debian Bluetooth Maintainers <pkg-bluetooth-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"bluez"
+	],
+	"Package-List": [
+		"bluetooth deb admin optional arch=all bluez deb admin optional arch=linux-any bluez-cups deb admin optional arch=linux-any bluez-dbg deb debug extra arch=linux-any bluez-hcidump deb admin optional arch=linux-any bluez-obexd deb admin optional arch=linux-any bluez-test-scripts deb admin optional arch=all bluez-test-tools deb admin optional arch=linux-any libbluetooth-dev deb libdevel extra arch=linux-any libbluetooth3 deb libs optional arch=linux-any libbluetooth3-dbg deb debug extra arch=linux-any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"admin"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Nobuhiro Iwamatsu <iwamatsu@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://svn.debian.org/wsvn/pkg-bluetooth/packages/bluez/trunk"
+	],
+	"Vcs-Svn": [
+		"svn://anonscm.debian.org/pkg-bluetooth/packages/bluez/trunk"
+	],
+	"Version": [
+		"5.43-2+deb9u2"
+	]
 }

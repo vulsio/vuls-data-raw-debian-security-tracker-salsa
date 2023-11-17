@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "libunbound8, unbound, unbound-anchor, unbound-host"
-  ],
-  "Build-Depends": [
-    "autoconf, autotools-dev, bison, debhelper (>= 9.20160709), dh-apparmor <!pkg.unbound.libonly>, dh-autoreconf, dh-python <!pkg.unbound.libonly>, dpkg-dev (>= 1.16.1~), flex, libbsd-dev (>= 0.8.1~) [!linux-any], libevent-dev, libexpat1-dev, libfstrm-dev <!pkg.unbound.libonly>, libprotobuf-c-dev <!pkg.unbound.libonly>, libssl-dev <!pkg.unbound.libonly>, libsystemd-dev <!pkg.unbound.libonly>, libtool, nettle-dev, pkg-config, protobuf-c-compiler <!pkg.unbound.libonly>, python-dev:any (>= 2.6.6-3~) <!pkg.unbound.libonly>, libpython-dev (>= 2.6.6-3~) <!pkg.unbound.libonly>, python3-dev:any <!pkg.unbound.libonly>, libpython3-dev <!pkg.unbound.libonly>, swig <!pkg.unbound.libonly>"
-  ],
-  "Checksums-Sha1": [
-    "8f9209a1583bfefe3231d04641edb1821a6b1f8b 3009 unbound1.9_1.9.0-2+deb10u2~deb9u2.dsc a81e548852ba5cdd355a1f494a37b8a77481ec5b 5662176 unbound1.9_1.9.0.orig.tar.gz f024bcd03af7493b3720d20b05c5a3b6d03eebb3 30264 unbound1.9_1.9.0-2+deb10u2~deb9u2.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "f35b3cdfb7e88df21a5a0d47ceda0ac1d5994e4c1e0de8488786e69054ea81d4 3009 unbound1.9_1.9.0-2+deb10u2~deb9u2.dsc 415af94b8392bc6b2c52e44ac8f17935cc6ddf2cc81edfb47c5be4ad205ab917 5662176 unbound1.9_1.9.0.orig.tar.gz d8e4d5ec17d1e4f345fd6d4aaac113ff119aabcc3502582e62493bd82e9cf36b 30264 unbound1.9_1.9.0-2+deb10u2~deb9u2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/u/unbound1.9"
-  ],
-  "Files": [
-    "6f323bc8d23e0b62ea384e44f320d3e5 3009 unbound1.9_1.9.0-2+deb10u2~deb9u2.dsc 1026159991a3883518525bc18e25582f 5662176 unbound1.9_1.9.0.orig.tar.gz 9ca1e538c2ea0575b4f1d83999d23852 30264 unbound1.9_1.9.0-2+deb10u2~deb9u2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.unbound.net/"
-  ],
-  "Maintainer": [
-    "Debian LTS team <debian-lts@lists.debian.org>"
-  ],
-  "Package": [
-    "unbound1.9"
-  ],
-  "Package-List": [
-    "libunbound8 deb libs optional arch=any unbound deb net optional arch=any profile=!pkg.unbound.libonly unbound-anchor deb net optional arch=any profile=!pkg.unbound.libonly unbound-host deb net optional arch=any profile=!pkg.unbound.libonly"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "4.1.1"
-  ],
-  "Uploaders": [
-    "Markus Koschany <apo@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian/unbound1.9"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian/unbound1.9.git"
-  ],
-  "Version": [
-    "1.9.0-2+deb10u2~deb9u2"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"libunbound8, unbound, unbound-anchor, unbound-host"
+	],
+	"Build-Depends": [
+		"autoconf, autotools-dev, bison, debhelper (>= 9.20160709), dh-apparmor <!pkg.unbound.libonly>, dh-autoreconf, dh-python <!pkg.unbound.libonly>, dpkg-dev (>= 1.16.1~), flex, libbsd-dev (>= 0.8.1~) [!linux-any], libevent-dev, libexpat1-dev, libfstrm-dev <!pkg.unbound.libonly>, libprotobuf-c-dev <!pkg.unbound.libonly>, libssl-dev <!pkg.unbound.libonly>, libsystemd-dev <!pkg.unbound.libonly>, libtool, nettle-dev, pkg-config, protobuf-c-compiler <!pkg.unbound.libonly>, python-dev:any (>= 2.6.6-3~) <!pkg.unbound.libonly>, libpython-dev (>= 2.6.6-3~) <!pkg.unbound.libonly>, python3-dev:any <!pkg.unbound.libonly>, libpython3-dev <!pkg.unbound.libonly>, swig <!pkg.unbound.libonly>"
+	],
+	"Checksums-Sha1": [
+		"8f9209a1583bfefe3231d04641edb1821a6b1f8b 3009 unbound1.9_1.9.0-2+deb10u2~deb9u2.dsc a81e548852ba5cdd355a1f494a37b8a77481ec5b 5662176 unbound1.9_1.9.0.orig.tar.gz f024bcd03af7493b3720d20b05c5a3b6d03eebb3 30264 unbound1.9_1.9.0-2+deb10u2~deb9u2.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"f35b3cdfb7e88df21a5a0d47ceda0ac1d5994e4c1e0de8488786e69054ea81d4 3009 unbound1.9_1.9.0-2+deb10u2~deb9u2.dsc 415af94b8392bc6b2c52e44ac8f17935cc6ddf2cc81edfb47c5be4ad205ab917 5662176 unbound1.9_1.9.0.orig.tar.gz d8e4d5ec17d1e4f345fd6d4aaac113ff119aabcc3502582e62493bd82e9cf36b 30264 unbound1.9_1.9.0-2+deb10u2~deb9u2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/u/unbound1.9"
+	],
+	"Files": [
+		"6f323bc8d23e0b62ea384e44f320d3e5 3009 unbound1.9_1.9.0-2+deb10u2~deb9u2.dsc 1026159991a3883518525bc18e25582f 5662176 unbound1.9_1.9.0.orig.tar.gz 9ca1e538c2ea0575b4f1d83999d23852 30264 unbound1.9_1.9.0-2+deb10u2~deb9u2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.unbound.net/"
+	],
+	"Maintainer": [
+		"Debian LTS team <debian-lts@lists.debian.org>"
+	],
+	"Package": [
+		"unbound1.9"
+	],
+	"Package-List": [
+		"libunbound8 deb libs optional arch=any unbound deb net optional arch=any profile=!pkg.unbound.libonly unbound-anchor deb net optional arch=any profile=!pkg.unbound.libonly unbound-host deb net optional arch=any profile=!pkg.unbound.libonly"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"4.1.1"
+	],
+	"Uploaders": [
+		"Markus Koschany <apo@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/unbound1.9"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/unbound1.9.git"
+	],
+	"Version": [
+		"1.9.0-2+deb10u2~deb9u2"
+	]
 }

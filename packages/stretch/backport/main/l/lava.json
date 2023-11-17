@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "amd64 arm64 armhf i386 ppc64el s390x ppc64 all"
-  ],
-  "Binary": [
-    "lava-dispatcher, lava-server, lava-common, lava, lava-lxc-mocker, lava-dev, lava-server-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9.20160709), dh-python, po-debconf, python3, python3-sphinx (>= 1.4), python3-setuptools (>= 3), python3-yaml, python3-sphinx-bootstrap-theme, node-uglify, libjs-excanvas, libjs-jquery-cookie, libjs-jquery, libjs-jquery-watermark, libjs-jquery-flot (>= 0.8.2), libjs-jquery-typeahead, libjs-jquery-ui"
-  ],
-  "Checksums-Sha256": [
-    "5ec2f268b2d764aaefc20a0133e4f1371cafb04a366514f801d03934cf5c6178 2960 lava_2018.11-1~bpo9+1.dsc 44bcc2aacd1b75b6594ff0726d98c017593fe0bdca2d5455d22bde3bbf8f1bff 6283233 lava_2018.11.orig.tar.gz 186df482164c01f7a1e932dddda20c931f458073ca8b59db00b433588919ec52 68008 lava_2018.11-1~bpo9+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/l/lava"
-  ],
-  "Files": [
-    "62ba032605c4f359a19dfba4a1932a92 2960 lava_2018.11-1~bpo9+1.dsc 5170394fd503ee408e2eb3ed79efc0ad 6283233 lava_2018.11.orig.tar.gz 4ee573cfce060c58234c39c4285f58da 68008 lava_2018.11-1~bpo9+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.lavasoftware.org/"
-  ],
-  "Maintainer": [
-    "Debian LAVA team <pkg-linaro-lava-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "lava"
-  ],
-  "Package-List": [
-    "lava deb metapackages optional arch=all lava-common deb net optional arch=all lava-dev deb devel optional arch=all lava-dispatcher deb net optional arch=amd64,arm64,armhf,i386,ppc64el,s390x,ppc64 lava-lxc-mocker deb net optional arch=all lava-server deb net optional arch=all lava-server-doc deb doc optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.2.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-python, git, iproute2, lxc, nfs-kernel-server, pep8, python3-django-testscenarios, python3-setuptools, python3-sphinx, python3-testscenarios, python3-tz, python3-yaml, qemu-system-x86, schroot, telnet, tftpd-hpa, u-boot-tools"
-  ],
-  "Uploaders": [
-    "Neil Williams <codehelp@debian.org>, Senthil Kumaran S (stylesen) <stylesen@gmail.com>"
-  ],
-  "Vcs-Browser": [
-    "https://git.lavasoftware.org/lava/pkg-lava-debian"
-  ],
-  "Vcs-Git": [
-    "https://git.lavasoftware.org/lava/pkg-lava-debian.git"
-  ],
-  "Version": [
-    "2018.11-1~bpo9+1"
-  ]
+	"Architecture": [
+		"amd64 arm64 armhf i386 ppc64el s390x ppc64 all"
+	],
+	"Binary": [
+		"lava-dispatcher, lava-server, lava-common, lava, lava-lxc-mocker, lava-dev, lava-server-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9.20160709), dh-python, po-debconf, python3, python3-sphinx (>= 1.4), python3-setuptools (>= 3), python3-yaml, python3-sphinx-bootstrap-theme, node-uglify, libjs-excanvas, libjs-jquery-cookie, libjs-jquery, libjs-jquery-watermark, libjs-jquery-flot (>= 0.8.2), libjs-jquery-typeahead, libjs-jquery-ui"
+	],
+	"Checksums-Sha256": [
+		"5ec2f268b2d764aaefc20a0133e4f1371cafb04a366514f801d03934cf5c6178 2960 lava_2018.11-1~bpo9+1.dsc 44bcc2aacd1b75b6594ff0726d98c017593fe0bdca2d5455d22bde3bbf8f1bff 6283233 lava_2018.11.orig.tar.gz 186df482164c01f7a1e932dddda20c931f458073ca8b59db00b433588919ec52 68008 lava_2018.11-1~bpo9+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/l/lava"
+	],
+	"Files": [
+		"62ba032605c4f359a19dfba4a1932a92 2960 lava_2018.11-1~bpo9+1.dsc 5170394fd503ee408e2eb3ed79efc0ad 6283233 lava_2018.11.orig.tar.gz 4ee573cfce060c58234c39c4285f58da 68008 lava_2018.11-1~bpo9+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.lavasoftware.org/"
+	],
+	"Maintainer": [
+		"Debian LAVA team <pkg-linaro-lava-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"lava"
+	],
+	"Package-List": [
+		"lava deb metapackages optional arch=all lava-common deb net optional arch=all lava-dev deb devel optional arch=all lava-dispatcher deb net optional arch=amd64,arm64,armhf,i386,ppc64el,s390x,ppc64 lava-lxc-mocker deb net optional arch=all lava-server deb net optional arch=all lava-server-doc deb doc optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.2.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-python, git, iproute2, lxc, nfs-kernel-server, pep8, python3-django-testscenarios, python3-setuptools, python3-sphinx, python3-testscenarios, python3-tz, python3-yaml, qemu-system-x86, schroot, telnet, tftpd-hpa, u-boot-tools"
+	],
+	"Uploaders": [
+		"Neil Williams <codehelp@debian.org>, Senthil Kumaran S (stylesen) <stylesen@gmail.com>"
+	],
+	"Vcs-Browser": [
+		"https://git.lavasoftware.org/lava/pkg-lava-debian"
+	],
+	"Vcs-Git": [
+		"https://git.lavasoftware.org/lava/pkg-lava-debian.git"
+	],
+	"Version": [
+		"2018.11-1~bpo9+1"
+	]
 }

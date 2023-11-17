@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "knot, libknot5, libzscanner1, libdnssec2, libknot-dev, knot-dnsutils, knot-host, knot-doc"
-  ],
-  "Build-Depends": [
-    "autotools-dev, bash-completion, bison, debhelper (>= 9), dh-autoreconf, dh-systemd, flex, libedit-dev, libgnutls28-dev, libidn11-dev, libjansson-dev (>= 2.4), liblmdb-dev, libsystemd-dev [linux-any] | libsystemd-daemon-dev [linux-any], libsystemd-dev [linux-any] | libsystemd-journal-dev [linux-any], liburcu-dev (>= 0.4), pkg-config"
-  ],
-  "Build-Depends-Indep": [
-    "ghostscript, python-sphinx, texinfo, texlive, texlive-font-utils, texlive-generic-extra, texlive-latex-extra"
-  ],
-  "Checksums-Sha1": [
-    "cd190e31c3b910dd139a8f60d09567a3a47193f5 2349 knot_2.4.0-3+deb9u1.dsc c1ad6007f5ecd31940f967e4370255d83869add7 1102856 knot_2.4.0.orig.tar.xz d20ac0f28e1a11cf38795b7a8692972a942ca00b 22592 knot_2.4.0-3+deb9u1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "72fa5a5ea38bf1131dd57065f9d5b2920104b557693ae0a066042689b421691e 2349 knot_2.4.0-3+deb9u1.dsc 0ba4d3e6951fc4d5c0e3dc88a720462690dd1d25f4bc1e7c24bb5747d3853679 1102856 knot_2.4.0.orig.tar.xz 8f023a2a91f838af742851d420ed7f5a0049e1dea2b9129b58e7ace7fc5ddfdb 22592 knot_2.4.0-3+deb9u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/k/knot"
-  ],
-  "Files": [
-    "b58e4de0ccf430a0b878785ecd4db18a 2349 knot_2.4.0-3+deb9u1.dsc 549dcc3778f12adee8d624dbc2c4de20 1102856 knot_2.4.0.orig.tar.xz aa92495bdb4dbbd687e765d130cdec2a 22592 knot_2.4.0-3+deb9u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.knot-dns.cz/"
-  ],
-  "Maintainer": [
-    "Debian DNS Packaging <pkg-dns-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "knot"
-  ],
-  "Package-List": [
-    "knot deb net optional arch=any knot-dnsutils deb net optional arch=any knot-doc deb doc optional arch=all knot-host deb net optional arch=any libdnssec2 deb libs optional arch=any libknot-dev deb libdevel optional arch=any libknot5 deb libs optional arch=any libzscanner1 deb libs optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Ondřej Surý <ondrej@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/git/pkg-dns/knot.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-dns/knot.git"
-  ],
-  "Version": [
-    "2.4.0-3+deb9u1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"knot, libknot5, libzscanner1, libdnssec2, libknot-dev, knot-dnsutils, knot-host, knot-doc"
+	],
+	"Build-Depends": [
+		"autotools-dev, bash-completion, bison, debhelper (>= 9), dh-autoreconf, dh-systemd, flex, libedit-dev, libgnutls28-dev, libidn11-dev, libjansson-dev (>= 2.4), liblmdb-dev, libsystemd-dev [linux-any] | libsystemd-daemon-dev [linux-any], libsystemd-dev [linux-any] | libsystemd-journal-dev [linux-any], liburcu-dev (>= 0.4), pkg-config"
+	],
+	"Build-Depends-Indep": [
+		"ghostscript, python-sphinx, texinfo, texlive, texlive-font-utils, texlive-generic-extra, texlive-latex-extra"
+	],
+	"Checksums-Sha1": [
+		"cd190e31c3b910dd139a8f60d09567a3a47193f5 2349 knot_2.4.0-3+deb9u1.dsc c1ad6007f5ecd31940f967e4370255d83869add7 1102856 knot_2.4.0.orig.tar.xz d20ac0f28e1a11cf38795b7a8692972a942ca00b 22592 knot_2.4.0-3+deb9u1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"72fa5a5ea38bf1131dd57065f9d5b2920104b557693ae0a066042689b421691e 2349 knot_2.4.0-3+deb9u1.dsc 0ba4d3e6951fc4d5c0e3dc88a720462690dd1d25f4bc1e7c24bb5747d3853679 1102856 knot_2.4.0.orig.tar.xz 8f023a2a91f838af742851d420ed7f5a0049e1dea2b9129b58e7ace7fc5ddfdb 22592 knot_2.4.0-3+deb9u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/k/knot"
+	],
+	"Files": [
+		"b58e4de0ccf430a0b878785ecd4db18a 2349 knot_2.4.0-3+deb9u1.dsc 549dcc3778f12adee8d624dbc2c4de20 1102856 knot_2.4.0.orig.tar.xz aa92495bdb4dbbd687e765d130cdec2a 22592 knot_2.4.0-3+deb9u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.knot-dns.cz/"
+	],
+	"Maintainer": [
+		"Debian DNS Packaging <pkg-dns-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"knot"
+	],
+	"Package-List": [
+		"knot deb net optional arch=any knot-dnsutils deb net optional arch=any knot-doc deb doc optional arch=all knot-host deb net optional arch=any libdnssec2 deb libs optional arch=any libknot-dev deb libdevel optional arch=any libknot5 deb libs optional arch=any libzscanner1 deb libs optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Ondřej Surý <ondrej@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/git/pkg-dns/knot.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-dns/knot.git"
+	],
+	"Version": [
+		"2.4.0-3+deb9u1"
+	]
 }

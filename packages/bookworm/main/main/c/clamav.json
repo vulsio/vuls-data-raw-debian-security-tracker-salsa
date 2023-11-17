@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "clamav-base, clamav-docs, clamav, libclamav-dev, libclamav11, clamav-daemon, clamdscan, clamav-testfiles, clamav-freshclam, clamav-milter"
-  ],
-  "Build-Depends": [
-    "automake, bindgen, cargo, check, cmake, debhelper-compat (= 12), dh-apparmor, dh-strip-nondeterminism, doxygen, libbz2-dev, libcurl4-openssl-dev, libjson-c-dev, libltdl-dev, libmilter-dev, libmspack-dev, libncurses-dev, libpcre2-dev, libssl-dev, libsystemd-dev [linux-any], libxml2-dev, perl:native, pkg-config, po-debconf, python3-pytest, rust-gdb, rustfmt, systemd, zlib1g-dev"
-  ],
-  "Checksums-Sha256": [
-    "8332125e67c4767aa1b3df9adc906d7d33288eb7a12822f0a3e6a92c975f288c 2849 clamav_1.0.3+dfsg-1~deb12u1.dsc dfe627bb320517db765486343b3e34eead797ecf41c1667d14f6ee7f09c322df 14191252 clamav_1.0.3+dfsg.orig.tar.xz 654d7a34e722302767121091402e1f14f7253e3685222578c29015f2586574b9 230760 clamav_1.0.3+dfsg-1~deb12u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/c/clamav"
-  ],
-  "Files": [
-    "b6e05243f816a388e5bf4b685ae3291a 2849 clamav_1.0.3+dfsg-1~deb12u1.dsc 2ada89489b5da2c5f90016d89eee653c 14191252 clamav_1.0.3+dfsg.orig.tar.xz 92444c1bab4a772ea48f316e82f8d973 230760 clamav_1.0.3+dfsg-1~deb12u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.clamav.net/"
-  ],
-  "Maintainer": [
-    "ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "clamav"
-  ],
-  "Package-List": [
-    "clamav deb utils optional arch=any clamav-base deb utils optional arch=all clamav-daemon deb utils optional arch=any clamav-docs deb doc optional arch=all clamav-freshclam deb utils optional arch=any clamav-milter deb utils optional arch=any clamav-testfiles deb utils optional arch=all clamdscan deb utils optional arch=any libclamav-dev deb libdevel optional arch=any libclamav11 deb libs optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "utils"
-  ],
-  "Standards-Version": [
-    "4.5.0"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Michael Meskes <meskes@debian.org>, Michael Tautschnig <mt@debian.org>, Scott Kitterman <scott@kitterman.com>, Sebastian Andrzej Siewior <sebastian@breakpoint.cc>, Andreas Cadhalpun <Andreas.Cadhalpun@googlemail.com>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/clamav-team/clamav"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/clamav-team/clamav.git"
-  ],
-  "Version": [
-    "1.0.3+dfsg-1~deb12u1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"clamav-base, clamav-docs, clamav, libclamav-dev, libclamav11, clamav-daemon, clamdscan, clamav-testfiles, clamav-freshclam, clamav-milter"
+	],
+	"Build-Depends": [
+		"automake, bindgen, cargo, check, cmake, debhelper-compat (= 12), dh-apparmor, dh-strip-nondeterminism, doxygen, libbz2-dev, libcurl4-openssl-dev, libjson-c-dev, libltdl-dev, libmilter-dev, libmspack-dev, libncurses-dev, libpcre2-dev, libssl-dev, libsystemd-dev [linux-any], libxml2-dev, perl:native, pkg-config, po-debconf, python3-pytest, rust-gdb, rustfmt, systemd, zlib1g-dev"
+	],
+	"Checksums-Sha256": [
+		"8332125e67c4767aa1b3df9adc906d7d33288eb7a12822f0a3e6a92c975f288c 2849 clamav_1.0.3+dfsg-1~deb12u1.dsc dfe627bb320517db765486343b3e34eead797ecf41c1667d14f6ee7f09c322df 14191252 clamav_1.0.3+dfsg.orig.tar.xz 654d7a34e722302767121091402e1f14f7253e3685222578c29015f2586574b9 230760 clamav_1.0.3+dfsg-1~deb12u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/c/clamav"
+	],
+	"Files": [
+		"b6e05243f816a388e5bf4b685ae3291a 2849 clamav_1.0.3+dfsg-1~deb12u1.dsc 2ada89489b5da2c5f90016d89eee653c 14191252 clamav_1.0.3+dfsg.orig.tar.xz 92444c1bab4a772ea48f316e82f8d973 230760 clamav_1.0.3+dfsg-1~deb12u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.clamav.net/"
+	],
+	"Maintainer": [
+		"ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"clamav"
+	],
+	"Package-List": [
+		"clamav deb utils optional arch=any clamav-base deb utils optional arch=all clamav-daemon deb utils optional arch=any clamav-docs deb doc optional arch=all clamav-freshclam deb utils optional arch=any clamav-milter deb utils optional arch=any clamav-testfiles deb utils optional arch=all clamdscan deb utils optional arch=any libclamav-dev deb libdevel optional arch=any libclamav11 deb libs optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"utils"
+	],
+	"Standards-Version": [
+		"4.5.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Michael Meskes <meskes@debian.org>, Michael Tautschnig <mt@debian.org>, Scott Kitterman <scott@kitterman.com>, Sebastian Andrzej Siewior <sebastian@breakpoint.cc>, Andreas Cadhalpun <Andreas.Cadhalpun@googlemail.com>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/clamav-team/clamav"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/clamav-team/clamav.git"
+	],
+	"Version": [
+		"1.0.3+dfsg-1~deb12u1"
+	]
 }

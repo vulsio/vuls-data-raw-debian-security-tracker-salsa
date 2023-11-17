@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "request-tracker4, rt4-clients, rt4-fcgi, rt4-apache2, rt4-db-postgresql, rt4-db-mysql, rt4-db-sqlite, rt4-doc-html"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 5), po-debconf, libdbd-sqlite3-perl, perl (>= 5.17.10) | libpod-simple-perl (>= 3.24), libhtml-parser-perl, libemail-abstract-perl, libtest-email-perl, libhtml-form-perl, libwww-mechanize-perl, libtest-www-mechanize-perl (>= 1.30), libtest-expect-perl (>= 0.31), libxml-simple-perl, libtest-deep-perl, libstring-shellquote-perl, libtest-warn-perl, perl (>= 5.10.1) | libtest-simple-perl (>= 0.90), libtest-mocktime-perl, liblog-dispatch-perl-perl, libtest-www-mechanize-psgi-perl, libplack-middleware-test-stashwarnings-perl, libtest-longstring-perl, libtest-nowarnings-perl, libhtml-mason-perl (>= 1:1.43), libapache-session-perl (>= 1.53), libregexp-common-perl, libdbi-perl (>= 1.37), libclass-returnvalue-perl (>= 0.40), libdbix-searchbuilder-perl (>= 1.59), libcache-simple-timedexpiry-perl, libtext-template-perl (>= 1.44), liblog-dispatch-perl (>= 2.23), liblocale-maketext-fuzzy-perl, liblocale-maketext-lexicon-perl (>= 0.32), liblocale-po-perl, libmime-tools-perl (>= 5.108) | libmime-perl (>= 5.108), libmime-types-perl, libmailtools-perl (>= 1.57), libtext-wrapper-perl, libtime-modules-perl, libtext-autoformat-perl, libtext-wikiformat-perl, libhtml-scrubber-perl, libmodule-versions-report-perl (>= 1.03), libtree-simple-perl (>= 1.04), libxml-rss-perl (>= 1.05), libgd-graph-perl, libuniversal-require-perl, libgd-text-perl, libtimedate-perl, libcss-squish-perl (>= 0.06), libdevel-stacktrace-perl (>= 1.19), libfile-sharedir-perl, libemail-address-perl, libperlio-eol-perl, libdata-ical-perl, libtext-quoted-perl (>= 2.02), libhtml-rewriteattributes-perl (>= 0.05), libgraphviz-perl, libgnupg-interface-perl, perl (>= 5.12.2) | libencode-perl (>= 2.39), perl (>= 5.12.0) | libcgi-pm-perl (>= 3.38), libfcgi-procmanager-perl, libdatetime-perl (>= 0.44), libdatetime-locale-perl (>= 0.40), libhtml-quoted-perl, perl (>= 5.10.1) | libfile-temp-perl (>= 0.19), libtext-password-pronounceable-perl, libdevel-globaldestruction-perl, liblist-moreutils-perl, libnet-cidr-perl, libregexp-common-net-cidr-perl, libregexp-ipv6-perl, libjson-perl, libipc-run3-perl, libcgi-psgi-perl (>= 0.12), libhtml-mason-psgihandler-perl (>= 0.52), libplack-perl (>= 0.9971), libcgi-emulate-psgi-perl, libconvert-color-perl, libclass-accessor-perl (>= 0.34), libhtml-tree-perl, libhtml-format-perl, liburi-perl (>= 1.59), libipc-run-perl (>= 0.90), libterm-readkey-perl, libfcgi-perl"
-  ],
-  "Build-Depends-Indep": [
-    "perl (>= 5.8.3)"
-  ],
-  "Checksums-Sha1": [
-    "b8d1da837504a1461404185ed5c575bf05a74619 5169 request-tracker4_4.0.19-1~bpo70+2.dsc 73930510411a4310d0f8d7af6b10337364650cd4 1144907 request-tracker4_4.0.19.orig-third-party-source.tar.gz ce7bae429ed56603fef9e7a46d976d1ea9ed1e14 6938409 request-tracker4_4.0.19.orig.tar.gz 1d5cf467aef61f6c67fc6007a6313ce170abfff3 84597 request-tracker4_4.0.19-1~bpo70+2.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "fe755915ef8152801aa63d47d1299ad864f718512230296b52a489b296c61a02 5169 request-tracker4_4.0.19-1~bpo70+2.dsc 739f298985ba901b24831facbaa1b0d5ae4b9717fc2697f9137cd47d14c8bc36 1144907 request-tracker4_4.0.19.orig-third-party-source.tar.gz 2ce03fc43c9c07ef69377fb63e14a2b1b65a91c1a722cfbfaf6eee1f0fd06d69 6938409 request-tracker4_4.0.19.orig.tar.gz fe015c76cef24fa9f3d1a459e40a7af7fb2a686fa1f88df8e21ba9b458b81212 84597 request-tracker4_4.0.19-1~bpo70+2.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/r/request-tracker4"
-  ],
-  "Files": [
-    "9fbeb7cebabcd0fbed2b5650f9641504 5169 request-tracker4_4.0.19-1~bpo70+2.dsc 6b606857180b74033defbae25dc61f1a 1144907 request-tracker4_4.0.19.orig-third-party-source.tar.gz 84e0fe8614a86a6cd88813c3e71681c5 6938409 request-tracker4_4.0.19.orig.tar.gz 6a87ce55033595bdffe4eed4d944e456 84597 request-tracker4_4.0.19-1~bpo70+2.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://bestpractical.com/rt/"
-  ],
-  "Maintainer": [
-    "Debian Request Tracker Group <pkg-request-tracker-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "request-tracker4"
-  ],
-  "Package-List": [
-    "request-tracker4 deb misc optional rt4-apache2 deb misc optional rt4-clients deb misc optional rt4-db-mysql deb misc optional rt4-db-postgresql deb misc optional rt4-db-sqlite deb misc optional rt4-doc-html deb doc optional rt4-fcgi deb misc optional"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.4"
-  ],
-  "Uploaders": [
-    "Niko Tyni <ntyni@debian.org>, Dominic Hargreaves <dom@earth.li>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-request-tracker/request-tracker4.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-request-tracker/request-tracker4.git"
-  ],
-  "Version": [
-    "4.0.19-1~bpo70+2"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"request-tracker4, rt4-clients, rt4-fcgi, rt4-apache2, rt4-db-postgresql, rt4-db-mysql, rt4-db-sqlite, rt4-doc-html"
+	],
+	"Build-Depends": [
+		"debhelper (>= 5), po-debconf, libdbd-sqlite3-perl, perl (>= 5.17.10) | libpod-simple-perl (>= 3.24), libhtml-parser-perl, libemail-abstract-perl, libtest-email-perl, libhtml-form-perl, libwww-mechanize-perl, libtest-www-mechanize-perl (>= 1.30), libtest-expect-perl (>= 0.31), libxml-simple-perl, libtest-deep-perl, libstring-shellquote-perl, libtest-warn-perl, perl (>= 5.10.1) | libtest-simple-perl (>= 0.90), libtest-mocktime-perl, liblog-dispatch-perl-perl, libtest-www-mechanize-psgi-perl, libplack-middleware-test-stashwarnings-perl, libtest-longstring-perl, libtest-nowarnings-perl, libhtml-mason-perl (>= 1:1.43), libapache-session-perl (>= 1.53), libregexp-common-perl, libdbi-perl (>= 1.37), libclass-returnvalue-perl (>= 0.40), libdbix-searchbuilder-perl (>= 1.59), libcache-simple-timedexpiry-perl, libtext-template-perl (>= 1.44), liblog-dispatch-perl (>= 2.23), liblocale-maketext-fuzzy-perl, liblocale-maketext-lexicon-perl (>= 0.32), liblocale-po-perl, libmime-tools-perl (>= 5.108) | libmime-perl (>= 5.108), libmime-types-perl, libmailtools-perl (>= 1.57), libtext-wrapper-perl, libtime-modules-perl, libtext-autoformat-perl, libtext-wikiformat-perl, libhtml-scrubber-perl, libmodule-versions-report-perl (>= 1.03), libtree-simple-perl (>= 1.04), libxml-rss-perl (>= 1.05), libgd-graph-perl, libuniversal-require-perl, libgd-text-perl, libtimedate-perl, libcss-squish-perl (>= 0.06), libdevel-stacktrace-perl (>= 1.19), libfile-sharedir-perl, libemail-address-perl, libperlio-eol-perl, libdata-ical-perl, libtext-quoted-perl (>= 2.02), libhtml-rewriteattributes-perl (>= 0.05), libgraphviz-perl, libgnupg-interface-perl, perl (>= 5.12.2) | libencode-perl (>= 2.39), perl (>= 5.12.0) | libcgi-pm-perl (>= 3.38), libfcgi-procmanager-perl, libdatetime-perl (>= 0.44), libdatetime-locale-perl (>= 0.40), libhtml-quoted-perl, perl (>= 5.10.1) | libfile-temp-perl (>= 0.19), libtext-password-pronounceable-perl, libdevel-globaldestruction-perl, liblist-moreutils-perl, libnet-cidr-perl, libregexp-common-net-cidr-perl, libregexp-ipv6-perl, libjson-perl, libipc-run3-perl, libcgi-psgi-perl (>= 0.12), libhtml-mason-psgihandler-perl (>= 0.52), libplack-perl (>= 0.9971), libcgi-emulate-psgi-perl, libconvert-color-perl, libclass-accessor-perl (>= 0.34), libhtml-tree-perl, libhtml-format-perl, liburi-perl (>= 1.59), libipc-run-perl (>= 0.90), libterm-readkey-perl, libfcgi-perl"
+	],
+	"Build-Depends-Indep": [
+		"perl (>= 5.8.3)"
+	],
+	"Checksums-Sha1": [
+		"b8d1da837504a1461404185ed5c575bf05a74619 5169 request-tracker4_4.0.19-1~bpo70+2.dsc 73930510411a4310d0f8d7af6b10337364650cd4 1144907 request-tracker4_4.0.19.orig-third-party-source.tar.gz ce7bae429ed56603fef9e7a46d976d1ea9ed1e14 6938409 request-tracker4_4.0.19.orig.tar.gz 1d5cf467aef61f6c67fc6007a6313ce170abfff3 84597 request-tracker4_4.0.19-1~bpo70+2.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"fe755915ef8152801aa63d47d1299ad864f718512230296b52a489b296c61a02 5169 request-tracker4_4.0.19-1~bpo70+2.dsc 739f298985ba901b24831facbaa1b0d5ae4b9717fc2697f9137cd47d14c8bc36 1144907 request-tracker4_4.0.19.orig-third-party-source.tar.gz 2ce03fc43c9c07ef69377fb63e14a2b1b65a91c1a722cfbfaf6eee1f0fd06d69 6938409 request-tracker4_4.0.19.orig.tar.gz fe015c76cef24fa9f3d1a459e40a7af7fb2a686fa1f88df8e21ba9b458b81212 84597 request-tracker4_4.0.19-1~bpo70+2.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/r/request-tracker4"
+	],
+	"Files": [
+		"9fbeb7cebabcd0fbed2b5650f9641504 5169 request-tracker4_4.0.19-1~bpo70+2.dsc 6b606857180b74033defbae25dc61f1a 1144907 request-tracker4_4.0.19.orig-third-party-source.tar.gz 84e0fe8614a86a6cd88813c3e71681c5 6938409 request-tracker4_4.0.19.orig.tar.gz 6a87ce55033595bdffe4eed4d944e456 84597 request-tracker4_4.0.19-1~bpo70+2.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://bestpractical.com/rt/"
+	],
+	"Maintainer": [
+		"Debian Request Tracker Group <pkg-request-tracker-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"request-tracker4"
+	],
+	"Package-List": [
+		"request-tracker4 deb misc optional rt4-apache2 deb misc optional rt4-clients deb misc optional rt4-db-mysql deb misc optional rt4-db-postgresql deb misc optional rt4-db-sqlite deb misc optional rt4-doc-html deb doc optional rt4-fcgi deb misc optional"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.4"
+	],
+	"Uploaders": [
+		"Niko Tyni <ntyni@debian.org>, Dominic Hargreaves <dom@earth.li>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-request-tracker/request-tracker4.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-request-tracker/request-tracker4.git"
+	],
+	"Version": [
+		"4.0.19-1~bpo70+2"
+	]
 }

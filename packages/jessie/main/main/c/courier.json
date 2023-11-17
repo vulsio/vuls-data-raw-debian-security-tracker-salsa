@@ -1,53 +1,53 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "courier-base, courier-maildrop, courier-mlm, courier-mta, courier-faxmail, courier-webadmin, sqwebmail, courier-pcp, courier-pop, courier-imap, courier-ldap, courier-doc, courier-ssl, courier-mta-ssl, courier-pop-ssl, courier-imap-ssl"
-  ],
-  "Build-Conflicts": [
-    "automake1.4"
-  ],
-  "Build-Depends": [
-    "libmysqlclient-dev | libmysqlclient15-dev, libpam0g-dev, libgdbm-dev | libgdbmg1-dev, libperl-dev, zlib1g-dev, libpcre3-dev, debhelper (>= 5), mime-support, libldap2-dev, procps, libsasl2-dev | libsasl-dev, expect, groff-base, ghostscript, mgetty-fax, netpbm, libfam-dev, libssl-dev, openssl (>= 0.9.6), libpq-dev, libtool, libtool-bin, courier-authlib-dev (>= 0.66.1), po-debconf, automake, autotools-dev"
-  ],
-  "Checksums-Sha1": [
-    "e5422f6c0ac05b9f7147b79278b3a33da4214ad4 2942 courier_0.73.1-1.6.dsc 961bc58556a74246cb1f0c66e4d2f441cc2826d3 9857173 courier_0.73.1.orig.tar.gz a15fde105f5a29e9ef0bae2f236665b6dd8ce8d0 111382 courier_0.73.1-1.6.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "4400219f0d68a07cd231605b9f5653fdd9752950b69b53460e6de04c643d1982 2942 courier_0.73.1-1.6.dsc c142e9b975ad16dfd8e1a009821de73f015e2f5296dfeea4938be42dd3960a6c 9857173 courier_0.73.1.orig.tar.gz 616590b58550248a7b73374d3ecac524b51ec2ec99b1c6a0777bedbfd38226d6 111382 courier_0.73.1-1.6.diff.gz"
-  ],
-  "Directory": [
-    "pool/main/c/courier"
-  ],
-  "Files": [
-    "fca4af90088faf45fa2e1621e89046eb 2942 courier_0.73.1-1.6.dsc 64144717eca2aef4f0f69a256681dd47 9857173 courier_0.73.1.orig.tar.gz 83e8c41c39dd33f83be81b69280d6046 111382 courier_0.73.1-1.6.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Homepage": [
-    "http://www.courier-mta.org/"
-  ],
-  "Maintainer": [
-    "Stefan Hornburg (Racke) <racke@linuxia.de>"
-  ],
-  "Package": [
-    "courier"
-  ],
-  "Package-List": [
-    "courier-base deb mail optional arch=any courier-doc deb doc optional arch=all courier-faxmail deb mail extra arch=any courier-imap deb mail extra arch=any courier-imap-ssl deb mail extra arch=any courier-ldap deb mail optional arch=any courier-maildrop deb mail optional arch=any courier-mlm deb mail optional arch=any courier-mta deb mail extra arch=any courier-mta-ssl deb mail extra arch=any courier-pcp deb mail optional arch=any courier-pop deb mail extra arch=any courier-pop-ssl deb mail extra arch=any courier-ssl deb mail optional arch=any courier-webadmin deb mail optional arch=any sqwebmail deb mail optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "mail"
-  ],
-  "Standards-Version": [
-    "3.8.3"
-  ],
-  "Version": [
-    "0.73.1-1.6"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"courier-base, courier-maildrop, courier-mlm, courier-mta, courier-faxmail, courier-webadmin, sqwebmail, courier-pcp, courier-pop, courier-imap, courier-ldap, courier-doc, courier-ssl, courier-mta-ssl, courier-pop-ssl, courier-imap-ssl"
+	],
+	"Build-Conflicts": [
+		"automake1.4"
+	],
+	"Build-Depends": [
+		"libmysqlclient-dev | libmysqlclient15-dev, libpam0g-dev, libgdbm-dev | libgdbmg1-dev, libperl-dev, zlib1g-dev, libpcre3-dev, debhelper (>= 5), mime-support, libldap2-dev, procps, libsasl2-dev | libsasl-dev, expect, groff-base, ghostscript, mgetty-fax, netpbm, libfam-dev, libssl-dev, openssl (>= 0.9.6), libpq-dev, libtool, libtool-bin, courier-authlib-dev (>= 0.66.1), po-debconf, automake, autotools-dev"
+	],
+	"Checksums-Sha1": [
+		"e5422f6c0ac05b9f7147b79278b3a33da4214ad4 2942 courier_0.73.1-1.6.dsc 961bc58556a74246cb1f0c66e4d2f441cc2826d3 9857173 courier_0.73.1.orig.tar.gz a15fde105f5a29e9ef0bae2f236665b6dd8ce8d0 111382 courier_0.73.1-1.6.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"4400219f0d68a07cd231605b9f5653fdd9752950b69b53460e6de04c643d1982 2942 courier_0.73.1-1.6.dsc c142e9b975ad16dfd8e1a009821de73f015e2f5296dfeea4938be42dd3960a6c 9857173 courier_0.73.1.orig.tar.gz 616590b58550248a7b73374d3ecac524b51ec2ec99b1c6a0777bedbfd38226d6 111382 courier_0.73.1-1.6.diff.gz"
+	],
+	"Directory": [
+		"pool/main/c/courier"
+	],
+	"Files": [
+		"fca4af90088faf45fa2e1621e89046eb 2942 courier_0.73.1-1.6.dsc 64144717eca2aef4f0f69a256681dd47 9857173 courier_0.73.1.orig.tar.gz 83e8c41c39dd33f83be81b69280d6046 111382 courier_0.73.1-1.6.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Homepage": [
+		"http://www.courier-mta.org/"
+	],
+	"Maintainer": [
+		"Stefan Hornburg (Racke) <racke@linuxia.de>"
+	],
+	"Package": [
+		"courier"
+	],
+	"Package-List": [
+		"courier-base deb mail optional arch=any courier-doc deb doc optional arch=all courier-faxmail deb mail extra arch=any courier-imap deb mail extra arch=any courier-imap-ssl deb mail extra arch=any courier-ldap deb mail optional arch=any courier-maildrop deb mail optional arch=any courier-mlm deb mail optional arch=any courier-mta deb mail extra arch=any courier-mta-ssl deb mail extra arch=any courier-pcp deb mail optional arch=any courier-pop deb mail extra arch=any courier-pop-ssl deb mail extra arch=any courier-ssl deb mail optional arch=any courier-webadmin deb mail optional arch=any sqwebmail deb mail optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"mail"
+	],
+	"Standards-Version": [
+		"3.8.3"
+	],
+	"Version": [
+		"0.73.1-1.6"
+	]
 }

@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libadwaita-1-0, libadwaita-1-dev, gir1.2-adw-1, libadwaita-1-doc, libadwaita-1-examples"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, gi-docgen <!nodoc>, libappstream-dev, libgirepository1.0-dev, libgnome-desktop-3-dev, libglib2.0-dev (>= 2.76.0), libgtk-4-dev (>= 4.12.0), libxml2-utils, meson (>= 0.59.0), pkg-config, python3-gi (>= 3.40) <!nocheck>, sassc, valac (>= 0.20), xauth <!nocheck>, xvfb <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "bab10df7fc9766a3e09856028b3f47210b5dcecb89923e26175e01a1f09cf37e 2753 libadwaita-1_1.4.0-1.dsc 6217b41831c41b7d26a5667b9200b4f522a7302f33215dbe14fada1da8470756 1939008 libadwaita-1_1.4.0.orig.tar.xz ccfdf2fbf436c5cdd9da597cb6554a250ae32773eed99825df03fc65479192e8 16216 libadwaita-1_1.4.0-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/liba/libadwaita-1"
-  ],
-  "Files": [
-    "485c137d6293e26baaacc6ebb6c6c56c 2753 libadwaita-1_1.4.0-1.dsc 6607f48064775862afdced1a1ec6721a 1939008 libadwaita-1_1.4.0.orig.tar.xz 44e5474d9bdf438b4685eacd692bfe0c 16216 libadwaita-1_1.4.0-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://gitlab.gnome.org/GNOME/libadwaita"
-  ],
-  "Maintainer": [
-    "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "libadwaita-1"
-  ],
-  "Package-List": [
-    "gir1.2-adw-1 deb introspection optional arch=any libadwaita-1-0 deb libs optional arch=any libadwaita-1-dev deb libdevel optional arch=any libadwaita-1-doc deb doc optional arch=all profile=!nodoc libadwaita-1-examples deb x11 optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential, pkg-config, python3, python3-gi, xauth, xvfb"
-  ],
-  "Uploaders": [
-    "Guido Günther <agx@sigxcpu.org>, Jeremy Bícha <jbicha@ubuntu.com>, Marco Trevisan (Treviño) <marco@ubuntu.com>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/gnome-team/libadwaita"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/gnome-team/libadwaita.git"
-  ],
-  "Version": [
-    "1.4.0-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libadwaita-1-0, libadwaita-1-dev, gir1.2-adw-1, libadwaita-1-doc, libadwaita-1-examples"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, gi-docgen <!nodoc>, libappstream-dev, libgirepository1.0-dev, libgnome-desktop-3-dev, libglib2.0-dev (>= 2.76.0), libgtk-4-dev (>= 4.12.0), libxml2-utils, meson (>= 0.59.0), pkg-config, python3-gi (>= 3.40) <!nocheck>, sassc, valac (>= 0.20), xauth <!nocheck>, xvfb <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"bab10df7fc9766a3e09856028b3f47210b5dcecb89923e26175e01a1f09cf37e 2753 libadwaita-1_1.4.0-1.dsc 6217b41831c41b7d26a5667b9200b4f522a7302f33215dbe14fada1da8470756 1939008 libadwaita-1_1.4.0.orig.tar.xz ccfdf2fbf436c5cdd9da597cb6554a250ae32773eed99825df03fc65479192e8 16216 libadwaita-1_1.4.0-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/liba/libadwaita-1"
+	],
+	"Files": [
+		"485c137d6293e26baaacc6ebb6c6c56c 2753 libadwaita-1_1.4.0-1.dsc 6607f48064775862afdced1a1ec6721a 1939008 libadwaita-1_1.4.0.orig.tar.xz 44e5474d9bdf438b4685eacd692bfe0c 16216 libadwaita-1_1.4.0-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://gitlab.gnome.org/GNOME/libadwaita"
+	],
+	"Maintainer": [
+		"Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"libadwaita-1"
+	],
+	"Package-List": [
+		"gir1.2-adw-1 deb introspection optional arch=any libadwaita-1-0 deb libs optional arch=any libadwaita-1-dev deb libdevel optional arch=any libadwaita-1-doc deb doc optional arch=all profile=!nodoc libadwaita-1-examples deb x11 optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, pkg-config, python3, python3-gi, xauth, xvfb"
+	],
+	"Uploaders": [
+		"Guido Günther <agx@sigxcpu.org>, Jeremy Bícha <jbicha@ubuntu.com>, Marco Trevisan (Treviño) <marco@ubuntu.com>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/gnome-team/libadwaita"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/gnome-team/libadwaita.git"
+	],
+	"Version": [
+		"1.4.0-1"
+	]
 }

@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "linux-any"
-  ],
-  "Binary": [
-    "conntrack, conntrackd, nfct"
-  ],
-  "Build-Depends": [
-    "autotools-dev, bison, debhelper (>= 10), dh-systemd, flex, libmnl-dev (>= 1.0.1), libnetfilter-conntrack-dev (>= 1.0.6), libnetfilter-cthelper0-dev, libnetfilter-cttimeout-dev (>= 1.0.0), libnetfilter-queue-dev (>= 1.0.2), libnfnetlink-dev (>= 1.0.1), libsystemd-dev (>= 227), autoconf, automake, libtool"
-  ],
-  "Checksums-Sha256": [
-    "3bf3a5ea38306d870997fe2a736c2d6e3c163b44f8e9f7850c04f92b99eca2c4 2585 conntrack-tools_1.4.4+snapshot20161117-5.dsc 601704bd2b6dc4a5eeef6a1a0a5a05260af979a69fcef14f47d29402bc54ce0d 150708 conntrack-tools_1.4.4+snapshot20161117.orig.tar.bz2 c6b6572c5b034eed557d9554e113675030a6178b8366ad43a94bf182a8b2e4ab 9452 conntrack-tools_1.4.4+snapshot20161117-5.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/c/conntrack-tools"
-  ],
-  "Files": [
-    "1dfdcd4973c79b69f490e435dc7a67eb 2585 conntrack-tools_1.4.4+snapshot20161117-5.dsc 2a7a2b56d35e089c0c0ede7d5a0cb763 150708 conntrack-tools_1.4.4+snapshot20161117.orig.tar.bz2 d06cfd64deacf61cad2313c6169f26f3 9452 conntrack-tools_1.4.4+snapshot20161117-5.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://conntrack-tools.netfilter.org/"
-  ],
-  "Maintainer": [
-    "Arturo Borrero Gonzalez <arturo@debian.org>"
-  ],
-  "Package": [
-    "conntrack-tools"
-  ],
-  "Package-List": [
-    "conntrack deb net extra arch=linux-any conntrackd deb net extra arch=linux-any nfct deb net extra arch=linux-any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "kmod, procps, systemd"
-  ],
-  "Uploaders": [
-    "Alexander Wirt <formorer@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-netfilter/pkg-conntrack-tools.git/"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-netfilter/pkg-conntrack-tools.git/"
-  ],
-  "Version": [
-    "1:1.4.4+snapshot20161117-5"
-  ]
+	"Architecture": [
+		"linux-any"
+	],
+	"Binary": [
+		"conntrack, conntrackd, nfct"
+	],
+	"Build-Depends": [
+		"autotools-dev, bison, debhelper (>= 10), dh-systemd, flex, libmnl-dev (>= 1.0.1), libnetfilter-conntrack-dev (>= 1.0.6), libnetfilter-cthelper0-dev, libnetfilter-cttimeout-dev (>= 1.0.0), libnetfilter-queue-dev (>= 1.0.2), libnfnetlink-dev (>= 1.0.1), libsystemd-dev (>= 227), autoconf, automake, libtool"
+	],
+	"Checksums-Sha256": [
+		"3bf3a5ea38306d870997fe2a736c2d6e3c163b44f8e9f7850c04f92b99eca2c4 2585 conntrack-tools_1.4.4+snapshot20161117-5.dsc 601704bd2b6dc4a5eeef6a1a0a5a05260af979a69fcef14f47d29402bc54ce0d 150708 conntrack-tools_1.4.4+snapshot20161117.orig.tar.bz2 c6b6572c5b034eed557d9554e113675030a6178b8366ad43a94bf182a8b2e4ab 9452 conntrack-tools_1.4.4+snapshot20161117-5.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/c/conntrack-tools"
+	],
+	"Files": [
+		"1dfdcd4973c79b69f490e435dc7a67eb 2585 conntrack-tools_1.4.4+snapshot20161117-5.dsc 2a7a2b56d35e089c0c0ede7d5a0cb763 150708 conntrack-tools_1.4.4+snapshot20161117.orig.tar.bz2 d06cfd64deacf61cad2313c6169f26f3 9452 conntrack-tools_1.4.4+snapshot20161117-5.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://conntrack-tools.netfilter.org/"
+	],
+	"Maintainer": [
+		"Arturo Borrero Gonzalez <arturo@debian.org>"
+	],
+	"Package": [
+		"conntrack-tools"
+	],
+	"Package-List": [
+		"conntrack deb net extra arch=linux-any conntrackd deb net extra arch=linux-any nfct deb net extra arch=linux-any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"kmod, procps, systemd"
+	],
+	"Uploaders": [
+		"Alexander Wirt <formorer@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-netfilter/pkg-conntrack-tools.git/"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-netfilter/pkg-conntrack-tools.git/"
+	],
+	"Version": [
+		"1:1.4.4+snapshot20161117-5"
+	]
 }

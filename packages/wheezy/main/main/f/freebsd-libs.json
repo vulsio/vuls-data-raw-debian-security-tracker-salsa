@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libsbuf6, libsbuf6-udeb, libsbuf-dev, libcam6, libcam-dev, libgeom1, libgeom-dev, libgeom1-udeb, libusbhid4debian, libusbhid-common, libusbhid-dev, libusb2debian, libusb2-dev, libusb2debian-udeb, libkvm0, libkvm-dev, libdevstat7, libdevstat-dev, libmemstat3, libmemstat-dev, libnetgraph4, libnetgraph-dev, libipx2, libipx-dev, libipx2-udeb, libkiconv4, libkiconv-dev, libjail1, libjail-dev, libalias7, libalias-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 7), pkg-config, freebsd-buildutils (>= 9.0-3~), libbsd-dev (>= 0.3.0), libc0.1-dev (>= 2.13-31) [kfreebsd-any], libgdbm-dev [kfreebsd-any], kfreebsd-kernel-headers (>= 0.81) [kfreebsd-any], libexpat-dev [kfreebsd-any], libncurses5-dev [kfreebsd-any], freebsd-glue"
-  ],
-  "Checksums-Sha1": [
-    "e8a4354a5d0d8eb2f8c5a55b742de9419ac126eb 3694 freebsd-libs_9.0+ds1-4.dsc 3ae768c54a50074f292082d668c09428ff5dbe77 601611 freebsd-libs_9.0+ds1.orig.tar.gz cf14056890a2da795b4b376438c7ef94d0fc05b5 26320 freebsd-libs_9.0+ds1-4.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "188024b8f2cd552b969a408527464cb585a4dddbd93589f6330dec3c080b48a4 3694 freebsd-libs_9.0+ds1-4.dsc 0f6d58820dd5aa83f4ae7b773a46dfab33a23a2b8204bd3512299f5e3124f1f1 601611 freebsd-libs_9.0+ds1.orig.tar.gz 1da320ccfc7dfa2b3656eb84018e14eb7bad89826579363983210e77737892f1 26320 freebsd-libs_9.0+ds1-4.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/f/freebsd-libs"
-  ],
-  "Files": [
-    "072c0965dc0df3cbf9de1e19a86b084a 3694 freebsd-libs_9.0+ds1-4.dsc af26525bc692d05aa9461a4c4488c5b1 601611 freebsd-libs_9.0+ds1.orig.tar.gz 0d9dd6cb5a92618b90b4148f5042936f 26320 freebsd-libs_9.0+ds1-4.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "GNU/kFreeBSD Maintainers <debian-bsd@lists.debian.org>"
-  ],
-  "Package": [
-    "freebsd-libs"
-  ],
-  "Package-List": [
-    "libalias-dev deb libdevel optional libalias7 deb libs optional libcam-dev deb libdevel optional libcam6 deb libs optional libdevstat-dev deb libdevel optional libdevstat7 deb libs optional libgeom-dev deb libdevel optional libgeom1 deb libs optional libgeom1-udeb udeb debian-installer optional libipx-dev deb libdevel optional libipx2 deb libs optional libipx2-udeb udeb debian-installer optional libjail-dev deb libdevel optional libjail1 deb libs optional libkiconv-dev deb libdevel optional libkiconv4 deb libs optional libkvm-dev deb libdevel optional libkvm0 deb libs optional libmemstat-dev deb libdevel optional libmemstat3 deb libs optional libnetgraph-dev deb libdevel optional libnetgraph4 deb libs optional libsbuf-dev deb libdevel optional libsbuf6 deb libs optional libsbuf6-udeb udeb debian-installer optional libusb2-dev deb libdevel optional libusb2debian deb libs optional libusb2debian-udeb udeb debian-installer optional libusbhid-common deb libs optional libusbhid-dev deb libdevel optional libusbhid4debian deb libs optional"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "libs"
-  ],
-  "Standards-Version": [
-    "3.9.2"
-  ],
-  "Uploaders": [
-    "Aurelien Jarno <aurel32@debian.org>, Guillem Jover <guillem@debian.org>, Robert Millan <rmh@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://svn.debian.org/wsvn/glibc-bsd/trunk/freebsd-libs/"
-  ],
-  "Vcs-Svn": [
-    "svn://svn.debian.org/glibc-bsd/trunk/freebsd-libs/"
-  ],
-  "Version": [
-    "9.0+ds1-4"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libsbuf6, libsbuf6-udeb, libsbuf-dev, libcam6, libcam-dev, libgeom1, libgeom-dev, libgeom1-udeb, libusbhid4debian, libusbhid-common, libusbhid-dev, libusb2debian, libusb2-dev, libusb2debian-udeb, libkvm0, libkvm-dev, libdevstat7, libdevstat-dev, libmemstat3, libmemstat-dev, libnetgraph4, libnetgraph-dev, libipx2, libipx-dev, libipx2-udeb, libkiconv4, libkiconv-dev, libjail1, libjail-dev, libalias7, libalias-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 7), pkg-config, freebsd-buildutils (>= 9.0-3~), libbsd-dev (>= 0.3.0), libc0.1-dev (>= 2.13-31) [kfreebsd-any], libgdbm-dev [kfreebsd-any], kfreebsd-kernel-headers (>= 0.81) [kfreebsd-any], libexpat-dev [kfreebsd-any], libncurses5-dev [kfreebsd-any], freebsd-glue"
+	],
+	"Checksums-Sha1": [
+		"e8a4354a5d0d8eb2f8c5a55b742de9419ac126eb 3694 freebsd-libs_9.0+ds1-4.dsc 3ae768c54a50074f292082d668c09428ff5dbe77 601611 freebsd-libs_9.0+ds1.orig.tar.gz cf14056890a2da795b4b376438c7ef94d0fc05b5 26320 freebsd-libs_9.0+ds1-4.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"188024b8f2cd552b969a408527464cb585a4dddbd93589f6330dec3c080b48a4 3694 freebsd-libs_9.0+ds1-4.dsc 0f6d58820dd5aa83f4ae7b773a46dfab33a23a2b8204bd3512299f5e3124f1f1 601611 freebsd-libs_9.0+ds1.orig.tar.gz 1da320ccfc7dfa2b3656eb84018e14eb7bad89826579363983210e77737892f1 26320 freebsd-libs_9.0+ds1-4.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/f/freebsd-libs"
+	],
+	"Files": [
+		"072c0965dc0df3cbf9de1e19a86b084a 3694 freebsd-libs_9.0+ds1-4.dsc af26525bc692d05aa9461a4c4488c5b1 601611 freebsd-libs_9.0+ds1.orig.tar.gz 0d9dd6cb5a92618b90b4148f5042936f 26320 freebsd-libs_9.0+ds1-4.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"GNU/kFreeBSD Maintainers <debian-bsd@lists.debian.org>"
+	],
+	"Package": [
+		"freebsd-libs"
+	],
+	"Package-List": [
+		"libalias-dev deb libdevel optional libalias7 deb libs optional libcam-dev deb libdevel optional libcam6 deb libs optional libdevstat-dev deb libdevel optional libdevstat7 deb libs optional libgeom-dev deb libdevel optional libgeom1 deb libs optional libgeom1-udeb udeb debian-installer optional libipx-dev deb libdevel optional libipx2 deb libs optional libipx2-udeb udeb debian-installer optional libjail-dev deb libdevel optional libjail1 deb libs optional libkiconv-dev deb libdevel optional libkiconv4 deb libs optional libkvm-dev deb libdevel optional libkvm0 deb libs optional libmemstat-dev deb libdevel optional libmemstat3 deb libs optional libnetgraph-dev deb libdevel optional libnetgraph4 deb libs optional libsbuf-dev deb libdevel optional libsbuf6 deb libs optional libsbuf6-udeb udeb debian-installer optional libusb2-dev deb libdevel optional libusb2debian deb libs optional libusb2debian-udeb udeb debian-installer optional libusbhid-common deb libs optional libusbhid-dev deb libdevel optional libusbhid4debian deb libs optional"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"libs"
+	],
+	"Standards-Version": [
+		"3.9.2"
+	],
+	"Uploaders": [
+		"Aurelien Jarno <aurel32@debian.org>, Guillem Jover <guillem@debian.org>, Robert Millan <rmh@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://svn.debian.org/wsvn/glibc-bsd/trunk/freebsd-libs/"
+	],
+	"Vcs-Svn": [
+		"svn://svn.debian.org/glibc-bsd/trunk/freebsd-libs/"
+	],
+	"Version": [
+		"9.0+ds1-4"
+	]
 }

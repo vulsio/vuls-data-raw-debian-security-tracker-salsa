@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "golang-github-ubuntu-core-snappy-dev, golang-github-snapcore-snapd-dev, snapd, snap-confine, ubuntu-core-launcher"
-  ],
-  "Build-Depends": [
-    "autoconf, automake, autotools-dev, bash-completion, debhelper (>= 9), dh-apparmor, dh-autoreconf, dh-golang (>= 1.7), dh-systemd, fakeroot, gettext, gnupg2, golang-check.v1-dev, golang-context-dev, golang-github-coreos-go-systemd-dev, golang-github-gorilla-mux-dev, golang-github-gosexy-gettext-dev, golang-github-mvo5-goconfigparser-dev, golang-github-mvo5-uboot-go-dev, golang-go, golang-go-flags-dev, golang-golang-x-crypto-dev, golang-golang-x-net-dev, golang-gopkg-tomb.v2-dev (>= 0.0~git20161208.0.d5d1b58-1), golang-gopkg-cheggaaa-pb.v1-dev, golang-websocket-dev, golang-yaml.v2-dev, golang-gopkg-macaroon.v1-dev, golang-gopkg-retry.v1-dev, golang-any (>= 2:1.6) | golang-1.6, indent, init-system-helpers, libapparmor-dev, libglib2.0-dev, libseccomp-dev, libudev-dev, pkg-config, python3, python3-docutils, python3-markdown, squashfs-tools, tzdata, udev"
-  ],
-  "Checksums-Sha256": [
-    "768c5b734ccf5171c977d8c83a8398bf1db6c4202b59646fb3421f7dca70b8f7 3117 snapd_2.21-2.dsc 0534331099a310c40ba831bb0b56ecac173af051f03759e3ef412f115f62c8d5 693424 snapd_2.21.orig.tar.xz e5b983b3cb6ff86838584976e95b449d0a6c1632efd4f846e3c1f3aea13b78c6 39904 snapd_2.21-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/s/snapd"
-  ],
-  "Files": [
-    "36891255374f25da616e06d2e8c30197 3117 snapd_2.21-2.dsc 83bfbf8e16e1a132904205878951ce5e 693424 snapd_2.21.orig.tar.xz ce5455fe075a1cc58522233bdfec87fc 39904 snapd_2.21-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/snapcore/snapd"
-  ],
-  "Maintainer": [
-    "Steve Langasek <vorlon@debian.org>"
-  ],
-  "Package": [
-    "snapd"
-  ],
-  "Package-List": [
-    "golang-github-snapcore-snapd-dev deb devel optional arch=all golang-github-ubuntu-core-snappy-dev deb oldlibs optional arch=all snap-confine deb devel optional arch=any snapd deb devel optional arch=any ubuntu-core-launcher deb devel optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Michael Hudson-Doyle <michael.hudson@ubuntu.com>, Zygmunt Krynicki <me@zygoon.pl>, Luke Faraone <lfaraone@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/collab-maint/snapd.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/collab-maint/snapd.git"
-  ],
-  "Version": [
-    "2.21-2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"golang-github-ubuntu-core-snappy-dev, golang-github-snapcore-snapd-dev, snapd, snap-confine, ubuntu-core-launcher"
+	],
+	"Build-Depends": [
+		"autoconf, automake, autotools-dev, bash-completion, debhelper (>= 9), dh-apparmor, dh-autoreconf, dh-golang (>= 1.7), dh-systemd, fakeroot, gettext, gnupg2, golang-check.v1-dev, golang-context-dev, golang-github-coreos-go-systemd-dev, golang-github-gorilla-mux-dev, golang-github-gosexy-gettext-dev, golang-github-mvo5-goconfigparser-dev, golang-github-mvo5-uboot-go-dev, golang-go, golang-go-flags-dev, golang-golang-x-crypto-dev, golang-golang-x-net-dev, golang-gopkg-tomb.v2-dev (>= 0.0~git20161208.0.d5d1b58-1), golang-gopkg-cheggaaa-pb.v1-dev, golang-websocket-dev, golang-yaml.v2-dev, golang-gopkg-macaroon.v1-dev, golang-gopkg-retry.v1-dev, golang-any (>= 2:1.6) | golang-1.6, indent, init-system-helpers, libapparmor-dev, libglib2.0-dev, libseccomp-dev, libudev-dev, pkg-config, python3, python3-docutils, python3-markdown, squashfs-tools, tzdata, udev"
+	],
+	"Checksums-Sha256": [
+		"768c5b734ccf5171c977d8c83a8398bf1db6c4202b59646fb3421f7dca70b8f7 3117 snapd_2.21-2.dsc 0534331099a310c40ba831bb0b56ecac173af051f03759e3ef412f115f62c8d5 693424 snapd_2.21.orig.tar.xz e5b983b3cb6ff86838584976e95b449d0a6c1632efd4f846e3c1f3aea13b78c6 39904 snapd_2.21-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/s/snapd"
+	],
+	"Files": [
+		"36891255374f25da616e06d2e8c30197 3117 snapd_2.21-2.dsc 83bfbf8e16e1a132904205878951ce5e 693424 snapd_2.21.orig.tar.xz ce5455fe075a1cc58522233bdfec87fc 39904 snapd_2.21-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/snapcore/snapd"
+	],
+	"Maintainer": [
+		"Steve Langasek <vorlon@debian.org>"
+	],
+	"Package": [
+		"snapd"
+	],
+	"Package-List": [
+		"golang-github-snapcore-snapd-dev deb devel optional arch=all golang-github-ubuntu-core-snappy-dev deb oldlibs optional arch=all snap-confine deb devel optional arch=any snapd deb devel optional arch=any ubuntu-core-launcher deb devel optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Michael Hudson-Doyle <michael.hudson@ubuntu.com>, Zygmunt Krynicki <me@zygoon.pl>, Luke Faraone <lfaraone@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/collab-maint/snapd.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/collab-maint/snapd.git"
+	],
+	"Version": [
+		"2.21-2"
+	]
 }

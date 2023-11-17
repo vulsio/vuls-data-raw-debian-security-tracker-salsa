@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-ironic-inspector, ironic-inspector"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-python, openstack-pkg-tools, python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx"
-  ],
-  "Build-Depends-Indep": [
-    "alembic (>= 0.8.0), python-babel, python-coverage, python-eventlet (>= 0.18.4), python-fixtures (>= 1.3.1), python-flask, python-futurist (>= 0.11.0), python-hacking (>= 0.10.0), python-ironicclient (>= 1.1.0), python-jsonpath-rw (>= 1.2.0), python-jsonschema, python-keystoneclient (>= 1:1.6.0), python-keystonemiddleware (>= 4.0.0), python-mock (>= 1.3), python-netaddr (>= 0.7.12), python-oslo.concurrency (>= 3.5.0), python-oslo.config (>= 1:3.7.0), python-oslo.db (>= 4.1.0), python-oslo.i18n (>= 2.1.0), python-oslo.log (>= 1.14.0), python-oslo.middleware (>= 3.0.0), python-oslo.rootwrap (>= 2.0.0), python-oslo.utils (>= 3.5.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1.10.0), python-six (>= 1.9.0), python-sqlalchemy (>= 1.0.10), python-stevedore (>= 1.5.0), python-swiftclient (>= 1:2.2.0), python-testresources, python-testscenarios"
-  ],
-  "Checksums-Sha1": [
-    "a648e29d27f19322513851fec0e2196b5dabff02 3065 ironic-inspector_3.2.0-2~bpo8+1.dsc fb7895d375bde79371d7be48732ba4e99da6180d 97132 ironic-inspector_3.2.0.orig.tar.xz c8460edd6080dc07eb68034c1f1134b3dd0b78ee 4412 ironic-inspector_3.2.0-2~bpo8+1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "c3c6a89387669503bde121ef2362fe1fc7a5fc06f0faf178313fe41df7e638db 3065 ironic-inspector_3.2.0-2~bpo8+1.dsc 625e00265c433dc91c1a69f3ed891d4d87540a29463a2c455bddf79a7ae96016 97132 ironic-inspector_3.2.0.orig.tar.xz 8614193e2e969270fc63213e4796c31b0a7703b1232698317ba0581f2f4ce783 4412 ironic-inspector_3.2.0-2~bpo8+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/i/ironic-inspector"
-  ],
-  "Files": [
-    "d3406e272341042bdcf85425b3fb0416 3065 ironic-inspector_3.2.0-2~bpo8+1.dsc fd4ae7ed054ae4e3ed8666aa1b73595a 97132 ironic-inspector_3.2.0.orig.tar.xz 9cbc9afe92229112ecc228445f9b8834 4412 ironic-inspector_3.2.0-2~bpo8+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/openstack/ironic-inspector"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "ironic-inspector"
-  ],
-  "Package-List": [
-    "ironic-inspector deb python extra arch=all python-ironic-inspector deb python extra arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.7"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/openstack/ironic-inspector.git/"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/openstack/ironic-inspector.git"
-  ],
-  "Version": [
-    "3.2.0-2~bpo8+1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-ironic-inspector, ironic-inspector"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-python, openstack-pkg-tools, python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx"
+	],
+	"Build-Depends-Indep": [
+		"alembic (>= 0.8.0), python-babel, python-coverage, python-eventlet (>= 0.18.4), python-fixtures (>= 1.3.1), python-flask, python-futurist (>= 0.11.0), python-hacking (>= 0.10.0), python-ironicclient (>= 1.1.0), python-jsonpath-rw (>= 1.2.0), python-jsonschema, python-keystoneclient (>= 1:1.6.0), python-keystonemiddleware (>= 4.0.0), python-mock (>= 1.3), python-netaddr (>= 0.7.12), python-oslo.concurrency (>= 3.5.0), python-oslo.config (>= 1:3.7.0), python-oslo.db (>= 4.1.0), python-oslo.i18n (>= 2.1.0), python-oslo.log (>= 1.14.0), python-oslo.middleware (>= 3.0.0), python-oslo.rootwrap (>= 2.0.0), python-oslo.utils (>= 3.5.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1.10.0), python-six (>= 1.9.0), python-sqlalchemy (>= 1.0.10), python-stevedore (>= 1.5.0), python-swiftclient (>= 1:2.2.0), python-testresources, python-testscenarios"
+	],
+	"Checksums-Sha1": [
+		"a648e29d27f19322513851fec0e2196b5dabff02 3065 ironic-inspector_3.2.0-2~bpo8+1.dsc fb7895d375bde79371d7be48732ba4e99da6180d 97132 ironic-inspector_3.2.0.orig.tar.xz c8460edd6080dc07eb68034c1f1134b3dd0b78ee 4412 ironic-inspector_3.2.0-2~bpo8+1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"c3c6a89387669503bde121ef2362fe1fc7a5fc06f0faf178313fe41df7e638db 3065 ironic-inspector_3.2.0-2~bpo8+1.dsc 625e00265c433dc91c1a69f3ed891d4d87540a29463a2c455bddf79a7ae96016 97132 ironic-inspector_3.2.0.orig.tar.xz 8614193e2e969270fc63213e4796c31b0a7703b1232698317ba0581f2f4ce783 4412 ironic-inspector_3.2.0-2~bpo8+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/i/ironic-inspector"
+	],
+	"Files": [
+		"d3406e272341042bdcf85425b3fb0416 3065 ironic-inspector_3.2.0-2~bpo8+1.dsc fd4ae7ed054ae4e3ed8666aa1b73595a 97132 ironic-inspector_3.2.0.orig.tar.xz 9cbc9afe92229112ecc228445f9b8834 4412 ironic-inspector_3.2.0-2~bpo8+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/openstack/ironic-inspector"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"ironic-inspector"
+	],
+	"Package-List": [
+		"ironic-inspector deb python extra arch=all python-ironic-inspector deb python extra arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.7"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/openstack/ironic-inspector.git/"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/openstack/ironic-inspector.git"
+	],
+	"Version": [
+		"3.2.0-2~bpo8+1"
+	]
 }

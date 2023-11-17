@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "drizzle-client, drizzle, drizzle-plugin-auth-file, drizzle-plugin-auth-http, drizzle-plugin-auth-ldap, drizzle-plugin-auth-pam, drizzle-plugin-auth-schema, drizzle-plugin-js, drizzle-plugin-debug, drizzle-plugin-gearman-udf, drizzle-plugin-http-functions, drizzle-plugin-json-server, drizzle-plugin-logging-gearman, drizzle-plugin-logging-query, drizzle-plugin-perf-dictionary, drizzle-plugin-rabbitmq, drizzle-plugin-regex-policy, drizzle-plugin-slave, drizzle-plugin-simple-user-policy, drizzle-plugin-query-log, drizzle-plugin-dev, libdrizzledmessage0, libdrizzledmessage-dev, drizzle-doc, drizzle-dev-doc, drizzle-dbg, libdrizzle-dev, libdrizzle-dbg, libdrizzle4"
-  ],
-  "Build-Depends": [
-    "autoconf, automake, bison, debhelper (>= 7.0.50), dh-autoreconf, doxygen, flex, gettext, gperf, hardening-wrapper, intltool, libaio-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], libboost-date-time-dev, libboost-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-program-options-dev, libboost-regex-dev, libboost-test-dev, libboost-thread-dev, libcloog-ppl-dev, libcurl4-gnutls-dev, libgcrypt11-dev, libgearman-dev (>= 0.27-2), libldap2-dev, libmemcached-dev (>= 0.39), libpam0g-dev, libpcre3-dev, libprotobuf-dev, librabbitmq-dev, libreadline-dev (>= 5.0), libtool, libv8-dev [amd64 armel armhf i386], pandora-build, po-debconf, protobuf-compiler, python, python-sphinx (>= 1.0.7+dfsg), systemtap-sdt-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386 !mips !mipsel !s390x !sparc], uuid-dev, zlib1g-dev (>= 1:1.1.3-5)"
-  ],
-  "Checksums-Sha1": [
-    "0f700eaabd5b0c98b61b2d7c1b3b0bf26cc7241a 4549 drizzle_7.1.36-stable-1.dsc 6ce317d6a6b0560e75d5bcf44af2e278443cfbfe 29239842 drizzle_7.1.36-stable.orig.tar.gz 057d6c10f0ecaef2f4b43df5bacddd75b02e66d6 37275 drizzle_7.1.36-stable-1.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "1c712378d909a890aa21aa563f286f7d13db10d28b66ef38a94a4eb3f79ba6fe 4549 drizzle_7.1.36-stable-1.dsc ee7fb86a58c6c017e451d68ca1b7b9247183e6f9f188035b01b04818f1d9269c 29239842 drizzle_7.1.36-stable.orig.tar.gz 4effbe6d4aee366887efa222d55bcd06f1edc274de53c277eaf211c8ad8e457a 37275 drizzle_7.1.36-stable-1.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/d/drizzle"
-  ],
-  "Files": [
-    "b4dd5a7a77d414cf3ff370290f943a4e 4549 drizzle_7.1.36-stable-1.dsc bf2c807a41cc98e41544b5d01fdb6040 29239842 drizzle_7.1.36-stable.orig.tar.gz a779920979ab3a817260f6715adf888f 37275 drizzle_7.1.36-stable-1.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://launchpad.net/drizzle"
-  ],
-  "Maintainer": [
-    "Tobias Frost <tobi@coldtobi.de>"
-  ],
-  "Package": [
-    "drizzle"
-  ],
-  "Package-List": [
-    "drizzle deb database extra drizzle-client deb database optional drizzle-dbg deb debug extra drizzle-dev-doc deb doc extra drizzle-doc deb doc extra drizzle-plugin-auth-file deb database extra drizzle-plugin-auth-http deb database extra drizzle-plugin-auth-ldap deb database extra drizzle-plugin-auth-pam deb database extra drizzle-plugin-auth-schema deb database extra drizzle-plugin-debug deb database extra drizzle-plugin-dev deb devel extra drizzle-plugin-gearman-udf deb database extra drizzle-plugin-http-functions deb database extra drizzle-plugin-js deb database extra drizzle-plugin-json-server deb database extra drizzle-plugin-logging-gearman deb database extra drizzle-plugin-logging-query deb database extra drizzle-plugin-perf-dictionary deb database extra drizzle-plugin-query-log deb database extra drizzle-plugin-rabbitmq deb database extra drizzle-plugin-regex-policy deb database extra drizzle-plugin-simple-user-policy deb database extra drizzle-plugin-slave deb database extra libdrizzle-dbg deb debug extra libdrizzle-dev deb libdevel extra libdrizzle4 deb libs optional libdrizzledmessage-dev deb libdevel extra libdrizzledmessage0 deb libs optional"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "database"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Vcs-Browser": [
-    "https://gitorious.org/drizzle-debian/drizzle-debian/trees/master"
-  ],
-  "Vcs-Git": [
-    "http://git.gitorious.org/drizzle-debian/drizzle-debian.git"
-  ],
-  "Version": [
-    "1:7.1.36-stable-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"drizzle-client, drizzle, drizzle-plugin-auth-file, drizzle-plugin-auth-http, drizzle-plugin-auth-ldap, drizzle-plugin-auth-pam, drizzle-plugin-auth-schema, drizzle-plugin-js, drizzle-plugin-debug, drizzle-plugin-gearman-udf, drizzle-plugin-http-functions, drizzle-plugin-json-server, drizzle-plugin-logging-gearman, drizzle-plugin-logging-query, drizzle-plugin-perf-dictionary, drizzle-plugin-rabbitmq, drizzle-plugin-regex-policy, drizzle-plugin-slave, drizzle-plugin-simple-user-policy, drizzle-plugin-query-log, drizzle-plugin-dev, libdrizzledmessage0, libdrizzledmessage-dev, drizzle-doc, drizzle-dev-doc, drizzle-dbg, libdrizzle-dev, libdrizzle-dbg, libdrizzle4"
+	],
+	"Build-Depends": [
+		"autoconf, automake, bison, debhelper (>= 7.0.50), dh-autoreconf, doxygen, flex, gettext, gperf, hardening-wrapper, intltool, libaio-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], libboost-date-time-dev, libboost-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-program-options-dev, libboost-regex-dev, libboost-test-dev, libboost-thread-dev, libcloog-ppl-dev, libcurl4-gnutls-dev, libgcrypt11-dev, libgearman-dev (>= 0.27-2), libldap2-dev, libmemcached-dev (>= 0.39), libpam0g-dev, libpcre3-dev, libprotobuf-dev, librabbitmq-dev, libreadline-dev (>= 5.0), libtool, libv8-dev [amd64 armel armhf i386], pandora-build, po-debconf, protobuf-compiler, python, python-sphinx (>= 1.0.7+dfsg), systemtap-sdt-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386 !mips !mipsel !s390x !sparc], uuid-dev, zlib1g-dev (>= 1:1.1.3-5)"
+	],
+	"Checksums-Sha1": [
+		"0f700eaabd5b0c98b61b2d7c1b3b0bf26cc7241a 4549 drizzle_7.1.36-stable-1.dsc 6ce317d6a6b0560e75d5bcf44af2e278443cfbfe 29239842 drizzle_7.1.36-stable.orig.tar.gz 057d6c10f0ecaef2f4b43df5bacddd75b02e66d6 37275 drizzle_7.1.36-stable-1.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"1c712378d909a890aa21aa563f286f7d13db10d28b66ef38a94a4eb3f79ba6fe 4549 drizzle_7.1.36-stable-1.dsc ee7fb86a58c6c017e451d68ca1b7b9247183e6f9f188035b01b04818f1d9269c 29239842 drizzle_7.1.36-stable.orig.tar.gz 4effbe6d4aee366887efa222d55bcd06f1edc274de53c277eaf211c8ad8e457a 37275 drizzle_7.1.36-stable-1.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/d/drizzle"
+	],
+	"Files": [
+		"b4dd5a7a77d414cf3ff370290f943a4e 4549 drizzle_7.1.36-stable-1.dsc bf2c807a41cc98e41544b5d01fdb6040 29239842 drizzle_7.1.36-stable.orig.tar.gz a779920979ab3a817260f6715adf888f 37275 drizzle_7.1.36-stable-1.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://launchpad.net/drizzle"
+	],
+	"Maintainer": [
+		"Tobias Frost <tobi@coldtobi.de>"
+	],
+	"Package": [
+		"drizzle"
+	],
+	"Package-List": [
+		"drizzle deb database extra drizzle-client deb database optional drizzle-dbg deb debug extra drizzle-dev-doc deb doc extra drizzle-doc deb doc extra drizzle-plugin-auth-file deb database extra drizzle-plugin-auth-http deb database extra drizzle-plugin-auth-ldap deb database extra drizzle-plugin-auth-pam deb database extra drizzle-plugin-auth-schema deb database extra drizzle-plugin-debug deb database extra drizzle-plugin-dev deb devel extra drizzle-plugin-gearman-udf deb database extra drizzle-plugin-http-functions deb database extra drizzle-plugin-js deb database extra drizzle-plugin-json-server deb database extra drizzle-plugin-logging-gearman deb database extra drizzle-plugin-logging-query deb database extra drizzle-plugin-perf-dictionary deb database extra drizzle-plugin-query-log deb database extra drizzle-plugin-rabbitmq deb database extra drizzle-plugin-regex-policy deb database extra drizzle-plugin-simple-user-policy deb database extra drizzle-plugin-slave deb database extra libdrizzle-dbg deb debug extra libdrizzle-dev deb libdevel extra libdrizzle4 deb libs optional libdrizzledmessage-dev deb libdevel extra libdrizzledmessage0 deb libs optional"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"database"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Vcs-Browser": [
+		"https://gitorious.org/drizzle-debian/drizzle-debian/trees/master"
+	],
+	"Vcs-Git": [
+		"http://git.gitorious.org/drizzle-debian/drizzle-debian.git"
+	],
+	"Version": [
+		"1:7.1.36-stable-1"
+	]
 }

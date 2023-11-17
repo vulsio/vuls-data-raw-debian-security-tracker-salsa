@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "subversion, libsvn1, libsvn-dev, libsvn-doc, libapache2-mod-svn, python-subversion, subversion-tools, libsvn-java, libsvn-perl, ruby-svn"
-  ],
-  "Build-Conflicts": [
-    "libsvn-dev (<< 1.9~)"
-  ],
-  "Build-Depends": [
-    "apache2-dev (>= 2.4.16), autoconf, autotools-dev, bash-completion, debhelper (>= 9), default-jdk (>= 2:1.6) [!hurd-i386 !hppa !sparc], dh-apache2, dh-python, doxygen, junit [!hurd-i386 !hppa !sparc], kdelibs5-dev, libapr1-dev, libaprutil1-dev, libdb5.3-dev, libdbus-1-dev, libgnome-keyring-dev, libperl-dev, libsasl2-dev, libserf-dev (>= 1.3.4), libsqlite3-dev (>= 3.7.12), libtool, perl, python-all-dev (>= 2.7), quilt, rename, ruby, ruby-dev, swig, zlib1g-dev"
-  ],
-  "Checksums-Sha256": [
-    "8f2758d5a5b1f8611612c0ce7af6de09b3c125c7dafba772c0a8a09acb916c35 2947 subversion_1.9.5-1+deb9u5.dsc 280ba586c5d51d7b976b65d22d5e8e42f3908ed1c968d71120dcf534ce857a83 10615674 subversion_1.9.5.orig.tar.gz 3cc8c1e90d4367825b23ddce27b7c3a80a60e1e1bf99cd70bb995255eef1ace1 2548586 subversion_1.9.5-1+deb9u5.diff.gz"
-  ],
-  "Directory": [
-    "pool/main/s/subversion"
-  ],
-  "Files": [
-    "d12919eca0c2d0b2282afa1793d753c7 2947 subversion_1.9.5-1+deb9u5.dsc 8fb42396b9d16d96755dc7e2375f1163 10615674 subversion_1.9.5.orig.tar.gz 4a02fd66a283a0a52f3f22a66470b2ee 2548586 subversion_1.9.5-1+deb9u5.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Homepage": [
-    "http://subversion.apache.org/"
-  ],
-  "Maintainer": [
-    "Peter Samuelson <peter@p12n.org>"
-  ],
-  "Package": [
-    "subversion"
-  ],
-  "Package-List": [
-    "libapache2-mod-svn deb httpd optional arch=any libsvn-dev deb libdevel extra arch=any libsvn-doc deb doc extra arch=all libsvn-java deb java optional arch=any libsvn-perl deb perl optional arch=any libsvn1 deb libs optional arch=any python-subversion deb python optional arch=any ruby-svn deb ruby optional arch=any subversion deb vcs optional arch=any subversion-tools deb vcs extra arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "vcs"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "apache2, wget"
-  ],
-  "Uploaders": [
-    "James McCoy <jamessan@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/viewvc/pkg-subversion/src/1.9.x/"
-  ],
-  "Vcs-Svn": [
-    "svn://anonscm.debian.org/pkg-subversion/src/1.9.x/"
-  ],
-  "Version": [
-    "1.9.5-1+deb9u5"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"subversion, libsvn1, libsvn-dev, libsvn-doc, libapache2-mod-svn, python-subversion, subversion-tools, libsvn-java, libsvn-perl, ruby-svn"
+	],
+	"Build-Conflicts": [
+		"libsvn-dev (<< 1.9~)"
+	],
+	"Build-Depends": [
+		"apache2-dev (>= 2.4.16), autoconf, autotools-dev, bash-completion, debhelper (>= 9), default-jdk (>= 2:1.6) [!hurd-i386 !hppa !sparc], dh-apache2, dh-python, doxygen, junit [!hurd-i386 !hppa !sparc], kdelibs5-dev, libapr1-dev, libaprutil1-dev, libdb5.3-dev, libdbus-1-dev, libgnome-keyring-dev, libperl-dev, libsasl2-dev, libserf-dev (>= 1.3.4), libsqlite3-dev (>= 3.7.12), libtool, perl, python-all-dev (>= 2.7), quilt, rename, ruby, ruby-dev, swig, zlib1g-dev"
+	],
+	"Checksums-Sha256": [
+		"8f2758d5a5b1f8611612c0ce7af6de09b3c125c7dafba772c0a8a09acb916c35 2947 subversion_1.9.5-1+deb9u5.dsc 280ba586c5d51d7b976b65d22d5e8e42f3908ed1c968d71120dcf534ce857a83 10615674 subversion_1.9.5.orig.tar.gz 3cc8c1e90d4367825b23ddce27b7c3a80a60e1e1bf99cd70bb995255eef1ace1 2548586 subversion_1.9.5-1+deb9u5.diff.gz"
+	],
+	"Directory": [
+		"pool/main/s/subversion"
+	],
+	"Files": [
+		"d12919eca0c2d0b2282afa1793d753c7 2947 subversion_1.9.5-1+deb9u5.dsc 8fb42396b9d16d96755dc7e2375f1163 10615674 subversion_1.9.5.orig.tar.gz 4a02fd66a283a0a52f3f22a66470b2ee 2548586 subversion_1.9.5-1+deb9u5.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Homepage": [
+		"http://subversion.apache.org/"
+	],
+	"Maintainer": [
+		"Peter Samuelson <peter@p12n.org>"
+	],
+	"Package": [
+		"subversion"
+	],
+	"Package-List": [
+		"libapache2-mod-svn deb httpd optional arch=any libsvn-dev deb libdevel extra arch=any libsvn-doc deb doc extra arch=all libsvn-java deb java optional arch=any libsvn-perl deb perl optional arch=any libsvn1 deb libs optional arch=any python-subversion deb python optional arch=any ruby-svn deb ruby optional arch=any subversion deb vcs optional arch=any subversion-tools deb vcs extra arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"vcs"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"apache2, wget"
+	],
+	"Uploaders": [
+		"James McCoy <jamessan@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/viewvc/pkg-subversion/src/1.9.x/"
+	],
+	"Vcs-Svn": [
+		"svn://anonscm.debian.org/pkg-subversion/src/1.9.x/"
+	],
+	"Version": [
+		"1.9.5-1+deb9u5"
+	]
 }

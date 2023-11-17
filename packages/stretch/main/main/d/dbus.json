@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "dbus, dbus-1-dbg, dbus-1-doc, dbus-tests, dbus-udeb, dbus-user-session, dbus-x11, libdbus-1-3, libdbus-1-3-udeb, libdbus-1-dev"
-  ],
-  "Build-Depends": [
-    "automake (>= 1:1.10), autotools-dev, debhelper (>= 10), dh-exec (>= 0.13), doxygen, dpkg-dev (>= 1.16.1), libapparmor-dev (>= 2.8.95) [linux-any], libaudit-dev [linux-any], libcap-ng-dev [linux-any], libexpat-dev, libglib2.0-dev, libselinux1-dev [linux-any], libsystemd-dev (>= 209) [linux-any], libx11-dev, python (>= 2.6), python-dbus, python-gobject, valgrind [amd64 arm64 armhf i386 mips64el mips mipsel powerpc ppc64 ppc64el s390x], xmlto, xsltproc"
-  ],
-  "Checksums-Sha256": [
-    "251938541498756e05c3088f3f409c2ee79844114457b60db0218979e722a61c 3488 dbus_1.10.32-0+deb9u1.dsc 28baa6061a2b89b4c49688df0fab1f74b390c7fa6fac28c637622ee36ec49c8f 2000784 dbus_1.10.32.orig.tar.gz 1395b3669b6181a86eede147277aa467a3e2cfb185c331ebe2369221c978c3ce 833 dbus_1.10.32.orig.tar.gz.asc e6a095bde70a14e2e27696dd422a2bfc4b58d228088a2588f04ca252b2af15ac 57564 dbus_1.10.32-0+deb9u1.debian.tar.xz"
-  ],
-  "Dgit": [
-    "d4530d25487334a81a2e2edd9cb7b683d1fc2ed8 debian archive/debian/1.10.32-0+deb9u1 https://git.dgit.debian.org/dbus"
-  ],
-  "Directory": [
-    "pool/main/d/dbus"
-  ],
-  "Files": [
-    "93e2a7d852dd8a08391bb7d47acba665 3488 dbus_1.10.32-0+deb9u1.dsc 5eb350a660d8fd6f0100fdaf86d96694 2000784 dbus_1.10.32.orig.tar.gz a89f87172e216c586d7ead3e8b4c853e 833 dbus_1.10.32.orig.tar.gz.asc 0a45754fbaa3af0d3b30c67dcaac5373 57564 dbus_1.10.32-0+deb9u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://dbus.freedesktop.org/"
-  ],
-  "Maintainer": [
-    "Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "dbus"
-  ],
-  "Package-List": [
-    "dbus deb admin standard arch=any dbus-1-dbg deb debug extra arch=any dbus-1-doc deb doc optional arch=all dbus-tests deb misc extra arch=any dbus-udeb udeb debian-installer extra arch=any dbus-user-session deb admin optional arch=all dbus-x11 deb x11 optional arch=any libdbus-1-3 deb libs optional arch=any libdbus-1-3-udeb udeb debian-installer extra arch=any libdbus-1-dev deb libdevel optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "admin"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential, dpkg-dev, gcc, gnome-desktop-testing"
-  ],
-  "Uploaders": [
-    "Sjoerd Simons <sjoerd@debian.org>, Sebastian Dröge <slomo@debian.org>, Michael Biebl <biebl@debian.org>, Loic Minier <lool@dooz.org>, Simon McVittie <smcv@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/utopia-team/dbus"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/utopia-team/dbus.git -b debian/stretch"
-  ],
-  "Version": [
-    "1.10.32-0+deb9u1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"dbus, dbus-1-dbg, dbus-1-doc, dbus-tests, dbus-udeb, dbus-user-session, dbus-x11, libdbus-1-3, libdbus-1-3-udeb, libdbus-1-dev"
+	],
+	"Build-Depends": [
+		"automake (>= 1:1.10), autotools-dev, debhelper (>= 10), dh-exec (>= 0.13), doxygen, dpkg-dev (>= 1.16.1), libapparmor-dev (>= 2.8.95) [linux-any], libaudit-dev [linux-any], libcap-ng-dev [linux-any], libexpat-dev, libglib2.0-dev, libselinux1-dev [linux-any], libsystemd-dev (>= 209) [linux-any], libx11-dev, python (>= 2.6), python-dbus, python-gobject, valgrind [amd64 arm64 armhf i386 mips64el mips mipsel powerpc ppc64 ppc64el s390x], xmlto, xsltproc"
+	],
+	"Checksums-Sha256": [
+		"251938541498756e05c3088f3f409c2ee79844114457b60db0218979e722a61c 3488 dbus_1.10.32-0+deb9u1.dsc 28baa6061a2b89b4c49688df0fab1f74b390c7fa6fac28c637622ee36ec49c8f 2000784 dbus_1.10.32.orig.tar.gz 1395b3669b6181a86eede147277aa467a3e2cfb185c331ebe2369221c978c3ce 833 dbus_1.10.32.orig.tar.gz.asc e6a095bde70a14e2e27696dd422a2bfc4b58d228088a2588f04ca252b2af15ac 57564 dbus_1.10.32-0+deb9u1.debian.tar.xz"
+	],
+	"Dgit": [
+		"d4530d25487334a81a2e2edd9cb7b683d1fc2ed8 debian archive/debian/1.10.32-0+deb9u1 https://git.dgit.debian.org/dbus"
+	],
+	"Directory": [
+		"pool/main/d/dbus"
+	],
+	"Files": [
+		"93e2a7d852dd8a08391bb7d47acba665 3488 dbus_1.10.32-0+deb9u1.dsc 5eb350a660d8fd6f0100fdaf86d96694 2000784 dbus_1.10.32.orig.tar.gz a89f87172e216c586d7ead3e8b4c853e 833 dbus_1.10.32.orig.tar.gz.asc 0a45754fbaa3af0d3b30c67dcaac5373 57564 dbus_1.10.32-0+deb9u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://dbus.freedesktop.org/"
+	],
+	"Maintainer": [
+		"Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"dbus"
+	],
+	"Package-List": [
+		"dbus deb admin standard arch=any dbus-1-dbg deb debug extra arch=any dbus-1-doc deb doc optional arch=all dbus-tests deb misc extra arch=any dbus-udeb udeb debian-installer extra arch=any dbus-user-session deb admin optional arch=all dbus-x11 deb x11 optional arch=any libdbus-1-3 deb libs optional arch=any libdbus-1-3-udeb udeb debian-installer extra arch=any libdbus-1-dev deb libdevel optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"admin"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, dpkg-dev, gcc, gnome-desktop-testing"
+	],
+	"Uploaders": [
+		"Sjoerd Simons <sjoerd@debian.org>, Sebastian Dröge <slomo@debian.org>, Michael Biebl <biebl@debian.org>, Loic Minier <lool@dooz.org>, Simon McVittie <smcv@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/utopia-team/dbus"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/utopia-team/dbus.git -b debian/stretch"
+	],
+	"Version": [
+		"1.10.32-0+deb9u1"
+	]
 }

@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "python3.12, python3.12-venv, libpython3.12-stdlib, python3.12-minimal, python3.12-nopie, libpython3.12-minimal, libpython3.12, python3.12-examples, python3.12-dev, libpython3.12-dev, libpython3.12-testsuite, idle-python3.12, python3.12-doc, python3.12-dbg, libpython3.12-dbg, python3.12-full"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 11), dpkg-dev (>= 1.17.11), quilt, autoconf, lsb-release, sharutils, libreadline-dev | libeditreadline-dev, libncurses-dev, zlib1g-dev, libbz2-dev, liblzma-dev, libgdbm-dev, libdb-dev, tk-dev, blt-dev (>= 2.4z), libssl-dev, libexpat1-dev, libbluetooth-dev [linux-any] <!pkg.python3.12.nobluetooth>, locales-all, libsqlite3-dev, libffi-dev (>= 3.0.5) [!or1k !avr32], libgpm2 [linux-any], media-types | mime-support, netbase, bzip2, time, python3:any, python3.12:any <cross>, net-tools, xvfb <!nocheck>, xauth <!nocheck>, tzdata <!nocheck>, systemtap-sdt-dev, valgrind-if-available"
-  ],
-  "Build-Depends-Indep": [
-    "python3-sphinx, python3-docs-theme, texinfo"
-  ],
-  "Checksums-Sha256": [
-    "bbfc3a0fd61c5aa7afd8664132a452be9674122b813d01e3f6a2d704b0eaae6f 3217 python3.12_3.12.0-5.dsc 795c34f44df45a0e9b9710c8c71c15c671871524cd412ca14def212e8ccb155d 20575020 python3.12_3.12.0.orig.tar.xz 2058701aefe1c31fe5f0d8908b56cb3109f5bc1e6c0e709bdec8034b774e52eb 649760 python3.12_3.12.0-5.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/python3.12"
-  ],
-  "Files": [
-    "f7241dd07b85c5ab851030b5f5148d76 3217 python3.12_3.12.0-5.dsc f6f4616584b23254d165f4db90c247d6 20575020 python3.12_3.12.0.orig.tar.xz 4cd59f1f74084db56e0afbad0c3715a6 649760 python3.12_3.12.0-5.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Matthias Klose <doko@debian.org>"
-  ],
-  "Package": [
-    "python3.12"
-  ],
-  "Package-List": [
-    "idle-python3.12 deb python optional arch=all libpython3.12 deb libs optional arch=any libpython3.12-dbg deb debug optional arch=any libpython3.12-dev deb libdevel optional arch=any libpython3.12-minimal deb python optional arch=any libpython3.12-stdlib deb python optional arch=any libpython3.12-testsuite deb libdevel optional arch=all python3.12 deb python optional arch=any python3.12-dbg deb debug optional arch=any python3.12-dev deb python optional arch=any python3.12-doc deb doc optional arch=all python3.12-examples deb python optional arch=all python3.12-full deb python optional arch=any python3.12-minimal deb python optional arch=any python3.12-nopie deb python optional arch=any python3.12-venv deb python optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential, ca-certificates, gdb, locales-all, python3-distutils, python3-gdbm, python3-gdbm-dbg, python3-pip, python3-setuptools, python3-setuptools-whl, python3-tk, python3-tk-dbg, python3-wheel-whl, shunit2, systemtap-sdt-dev, virtualenv"
-  ],
-  "Uploaders": [
-    "Stefano Rivera <stefanor@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/cpython-team/python3"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/cpython-team/python3.git"
-  ],
-  "Version": [
-    "3.12.0-5"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"python3.12, python3.12-venv, libpython3.12-stdlib, python3.12-minimal, python3.12-nopie, libpython3.12-minimal, libpython3.12, python3.12-examples, python3.12-dev, libpython3.12-dev, libpython3.12-testsuite, idle-python3.12, python3.12-doc, python3.12-dbg, libpython3.12-dbg, python3.12-full"
+	],
+	"Build-Depends": [
+		"debhelper (>= 11), dpkg-dev (>= 1.17.11), quilt, autoconf, lsb-release, sharutils, libreadline-dev | libeditreadline-dev, libncurses-dev, zlib1g-dev, libbz2-dev, liblzma-dev, libgdbm-dev, libdb-dev, tk-dev, blt-dev (>= 2.4z), libssl-dev, libexpat1-dev, libbluetooth-dev [linux-any] <!pkg.python3.12.nobluetooth>, locales-all, libsqlite3-dev, libffi-dev (>= 3.0.5) [!or1k !avr32], libgpm2 [linux-any], media-types | mime-support, netbase, bzip2, time, python3:any, python3.12:any <cross>, net-tools, xvfb <!nocheck>, xauth <!nocheck>, tzdata <!nocheck>, systemtap-sdt-dev, valgrind-if-available"
+	],
+	"Build-Depends-Indep": [
+		"python3-sphinx, python3-docs-theme, texinfo"
+	],
+	"Checksums-Sha256": [
+		"bbfc3a0fd61c5aa7afd8664132a452be9674122b813d01e3f6a2d704b0eaae6f 3217 python3.12_3.12.0-5.dsc 795c34f44df45a0e9b9710c8c71c15c671871524cd412ca14def212e8ccb155d 20575020 python3.12_3.12.0.orig.tar.xz 2058701aefe1c31fe5f0d8908b56cb3109f5bc1e6c0e709bdec8034b774e52eb 649760 python3.12_3.12.0-5.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python3.12"
+	],
+	"Files": [
+		"f7241dd07b85c5ab851030b5f5148d76 3217 python3.12_3.12.0-5.dsc f6f4616584b23254d165f4db90c247d6 20575020 python3.12_3.12.0.orig.tar.xz 4cd59f1f74084db56e0afbad0c3715a6 649760 python3.12_3.12.0-5.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Matthias Klose <doko@debian.org>"
+	],
+	"Package": [
+		"python3.12"
+	],
+	"Package-List": [
+		"idle-python3.12 deb python optional arch=all libpython3.12 deb libs optional arch=any libpython3.12-dbg deb debug optional arch=any libpython3.12-dev deb libdevel optional arch=any libpython3.12-minimal deb python optional arch=any libpython3.12-stdlib deb python optional arch=any libpython3.12-testsuite deb libdevel optional arch=all python3.12 deb python optional arch=any python3.12-dbg deb debug optional arch=any python3.12-dev deb python optional arch=any python3.12-doc deb doc optional arch=all python3.12-examples deb python optional arch=all python3.12-full deb python optional arch=any python3.12-minimal deb python optional arch=any python3.12-nopie deb python optional arch=any python3.12-venv deb python optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, ca-certificates, gdb, locales-all, python3-distutils, python3-gdbm, python3-gdbm-dbg, python3-pip, python3-setuptools, python3-setuptools-whl, python3-tk, python3-tk-dbg, python3-wheel-whl, shunit2, systemtap-sdt-dev, virtualenv"
+	],
+	"Uploaders": [
+		"Stefano Rivera <stefanor@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/cpython-team/python3"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/cpython-team/python3.git"
+	],
+	"Version": [
+		"3.12.0-5"
+	]
 }

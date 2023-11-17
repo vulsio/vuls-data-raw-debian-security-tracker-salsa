@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-glance, glance, python-glance-doc, glance-common, glance-api, glance-registry"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-systemd, openstack-pkg-tools (>= 22~), po-debconf, python-all (>= 2.6.6-3~), python-pbr (>= 0.6), python-setuptools, python-sphinx (>= 1.1.2)"
-  ],
-  "Build-Depends-Indep": [
-    "curl, procps, python-anyjson (>= 0.3.3), python-babel (>= 1.3), python-boto (>= 2.12.0), python-cinderclient (>= 1:1.0.6), python-coverage (>= 3.6), python-crypto, python-eventlet (>= 0.13.0), python-fixtures (>= 0.3.14), python-glanceclient, python-greenlet (>= 0.3.2), python-hacking (>= 0.8.0), python-httplib2 (>= 0.7.5), python-iso8601 (>= 0.1.9), python-jsonschema (>= 2.0.0), python-keystoneclient (>= 1:0.7.0), python-kombu (>= 2.4.8), python-lxml, python-migrate (>= 0.8.2), python-mock (>= 1.0), python-mox, python-mysqldb, python-openssl, python-oslo.config (>= 1.2.1), python-oslo.messaging (>= 1.3.0~a9), python-oslo.vmware, python-oslosphinx, python-passlib, python-paste, python-pastedeploy, python-psutil (>= 1.1.1), python-psycopg2, python-qpid, python-requests (>= 1.1), python-routes, python-sendfile (>= 2.0), python-six (>= 1.6.0), python-sqlalchemy (>= 0.7.8), python-stevedore (>= 0.14), python-subunit (>= 0.0.18), python-swiftclient (>= 1:1.6), python-testtools (>= 0.9.34), python-webob (>= 1.2.3), python-xattr, sqlite3, subunit (>= 0.0.18), testrepository (>= 0.0.18)"
-  ],
-  "Checksums-Sha1": [
-    "ca273569852c53e886f0f7c387a789af23471315 3470 glance_2014.1.3-12+deb8u1.dsc ca25029ccbf7de65461baaf6ffb4dee116fa4e45 559968 glance_2014.1.3.orig.tar.xz b0f054dfb7773ed361f2b579e2145ccb5bde039f 45292 glance_2014.1.3-12+deb8u1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "7b792b61eb667f0de7adc1d1b4afadb61ffe9154e6086574c8e8e597b62b7607 3470 glance_2014.1.3-12+deb8u1.dsc fe432e0b5542ace98ee61f9b1c257a27b5fac2292cc5f50d1dc21e5fea60936d 559968 glance_2014.1.3.orig.tar.xz bdc3484fb7830fc48f4677a24b665d7e0e7a5bd5d9dd2f8a57d7824dcd36e7d4 45292 glance_2014.1.3-12+deb8u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/g/glance"
-  ],
-  "Files": [
-    "6a6f76ca64239111503162171e39f204 3470 glance_2014.1.3-12+deb8u1.dsc 087f9bd17c9e5d93229c0087b99df523 559968 glance_2014.1.3.orig.tar.xz f64cce2c5fddd5baf5eaf3e01c10afcf 45292 glance_2014.1.3-12+deb8u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://glance.openstack.org/"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "glance"
-  ],
-  "Package-List": [
-    "glance deb python extra arch=all glance-api deb python extra arch=all glance-common deb python extra arch=all glance-registry deb python extra arch=all python-glance deb python extra arch=all python-glance-doc deb doc extra arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "python"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=openstack/glance.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/openstack/glance.git"
-  ],
-  "Version": [
-    "2014.1.3-12+deb8u1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-glance, glance, python-glance-doc, glance-common, glance-api, glance-registry"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-systemd, openstack-pkg-tools (>= 22~), po-debconf, python-all (>= 2.6.6-3~), python-pbr (>= 0.6), python-setuptools, python-sphinx (>= 1.1.2)"
+	],
+	"Build-Depends-Indep": [
+		"curl, procps, python-anyjson (>= 0.3.3), python-babel (>= 1.3), python-boto (>= 2.12.0), python-cinderclient (>= 1:1.0.6), python-coverage (>= 3.6), python-crypto, python-eventlet (>= 0.13.0), python-fixtures (>= 0.3.14), python-glanceclient, python-greenlet (>= 0.3.2), python-hacking (>= 0.8.0), python-httplib2 (>= 0.7.5), python-iso8601 (>= 0.1.9), python-jsonschema (>= 2.0.0), python-keystoneclient (>= 1:0.7.0), python-kombu (>= 2.4.8), python-lxml, python-migrate (>= 0.8.2), python-mock (>= 1.0), python-mox, python-mysqldb, python-openssl, python-oslo.config (>= 1.2.1), python-oslo.messaging (>= 1.3.0~a9), python-oslo.vmware, python-oslosphinx, python-passlib, python-paste, python-pastedeploy, python-psutil (>= 1.1.1), python-psycopg2, python-qpid, python-requests (>= 1.1), python-routes, python-sendfile (>= 2.0), python-six (>= 1.6.0), python-sqlalchemy (>= 0.7.8), python-stevedore (>= 0.14), python-subunit (>= 0.0.18), python-swiftclient (>= 1:1.6), python-testtools (>= 0.9.34), python-webob (>= 1.2.3), python-xattr, sqlite3, subunit (>= 0.0.18), testrepository (>= 0.0.18)"
+	],
+	"Checksums-Sha1": [
+		"ca273569852c53e886f0f7c387a789af23471315 3470 glance_2014.1.3-12+deb8u1.dsc ca25029ccbf7de65461baaf6ffb4dee116fa4e45 559968 glance_2014.1.3.orig.tar.xz b0f054dfb7773ed361f2b579e2145ccb5bde039f 45292 glance_2014.1.3-12+deb8u1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"7b792b61eb667f0de7adc1d1b4afadb61ffe9154e6086574c8e8e597b62b7607 3470 glance_2014.1.3-12+deb8u1.dsc fe432e0b5542ace98ee61f9b1c257a27b5fac2292cc5f50d1dc21e5fea60936d 559968 glance_2014.1.3.orig.tar.xz bdc3484fb7830fc48f4677a24b665d7e0e7a5bd5d9dd2f8a57d7824dcd36e7d4 45292 glance_2014.1.3-12+deb8u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/glance"
+	],
+	"Files": [
+		"6a6f76ca64239111503162171e39f204 3470 glance_2014.1.3-12+deb8u1.dsc 087f9bd17c9e5d93229c0087b99df523 559968 glance_2014.1.3.orig.tar.xz f64cce2c5fddd5baf5eaf3e01c10afcf 45292 glance_2014.1.3-12+deb8u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://glance.openstack.org/"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"glance"
+	],
+	"Package-List": [
+		"glance deb python extra arch=all glance-api deb python extra arch=all glance-common deb python extra arch=all glance-registry deb python extra arch=all python-glance deb python extra arch=all python-glance-doc deb doc extra arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"python"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=openstack/glance.git;a=summary"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/openstack/glance.git"
+	],
+	"Version": [
+		"2014.1.3-12+deb8u1"
+	]
 }

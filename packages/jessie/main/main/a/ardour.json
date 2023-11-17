@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "ardour, ardour-dbg, ardour-altivec, ardour-i686"
-  ],
-  "Build-Depends": [
-    "cdbs, autotools-dev, devscripts, debhelper (>= 9), dh-buildinfo, gettext, intltool, scons, libboost-dev, libcurl4-gnutls-dev, libfftw3-dev, libraptor1-dev (>= 1.4.21-5), liblrdf0-dev (>= 0.4.0-4), libsigc++-2.0-dev, libusb-dev, libxml2-dev (>= 2.5.7), librasqal3-dev | librasqal2-dev (>= 0.9.14), libcairomm-1.0-dev (>= 1.2.4), libglade2-dev, libglademm-2.4-dev, libglib2.0-dev, libgnomecanvas2-dev, libgnomecanvasmm-2.6-dev, libgtkmm-2.4-dev, libpango1.0-dev, ladspa-sdk (>= 1.1-2), libasound2-dev (>= 0.9.4) [linux-any], liboss-salsa-dev [!linux-any], libaubio-dev (>= 0.4.0), libjack-dev, liblo-dev, libsuil-dev, libsamplerate0-dev, libsndfile1-dev, libsoundtouch-dev (>= 1.5.0), lv2-dev, liblilv-dev, vamp-plugin-sdk (>= 2.1)"
-  ],
-  "Checksums-Sha1": [
-    "f55f5741b2fad08e374a355e180c17edb894a3f0 3059 ardour_2.8.16+git20131003+dfsg1-1~deb8u1.dsc d967e9ad37678233e1c2f636521a7bbd07c9746b 8707467 ardour_2.8.16+git20131003+dfsg1.orig.tar.bz2 fabddec2822d7da420a6df87565389a0d835b809 51724 ardour_2.8.16+git20131003+dfsg1-1~deb8u1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "f3f60aaac26a2a97efcc12c9b7fd2d4783d3723817067b8f6d6b3c560a46be51 3059 ardour_2.8.16+git20131003+dfsg1-1~deb8u1.dsc b4539b6134eb8c738cdfc98c08d01c4aacd7bb8691250471b05ab4b6073ed620 8707467 ardour_2.8.16+git20131003+dfsg1.orig.tar.bz2 3d0681601702adff970908667d94cdacaba751c700b6063389155c41d98c286a 51724 ardour_2.8.16+git20131003+dfsg1-1~deb8u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/a/ardour"
-  ],
-  "Files": [
-    "66f7ac43b98681558f270394395c1bb1 3059 ardour_2.8.16+git20131003+dfsg1-1~deb8u1.dsc 87e491b0fb3843244ee89222aeb47902 8707467 ardour_2.8.16+git20131003+dfsg1.orig.tar.bz2 cfa94d546670ac58920e7b23df921103 51724 ardour_2.8.16+git20131003+dfsg1-1~deb8u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.ardour.org/"
-  ],
-  "Maintainer": [
-    "Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "ardour"
-  ],
-  "Package-List": [
-    "ardour deb sound optional arch=any ardour-altivec deb sound optional arch=powerpc ardour-dbg deb debug extra arch=any ardour-i686 deb sound optional arch=i386"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "sound"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Adrian Knoth <adi@drcomp.erfurt.thur.de>, Free Ekanayaka <freee@debian.org>, Jaromír Mikeš <mira.mikes@seznam.cz>, Jonas Smedegaard <dr@jones.dk>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-multimedia/ardour.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-multimedia/ardour.git"
-  ],
-  "Version": [
-    "1:2.8.16+git20131003+dfsg1-1~deb8u1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"ardour, ardour-dbg, ardour-altivec, ardour-i686"
+	],
+	"Build-Depends": [
+		"cdbs, autotools-dev, devscripts, debhelper (>= 9), dh-buildinfo, gettext, intltool, scons, libboost-dev, libcurl4-gnutls-dev, libfftw3-dev, libraptor1-dev (>= 1.4.21-5), liblrdf0-dev (>= 0.4.0-4), libsigc++-2.0-dev, libusb-dev, libxml2-dev (>= 2.5.7), librasqal3-dev | librasqal2-dev (>= 0.9.14), libcairomm-1.0-dev (>= 1.2.4), libglade2-dev, libglademm-2.4-dev, libglib2.0-dev, libgnomecanvas2-dev, libgnomecanvasmm-2.6-dev, libgtkmm-2.4-dev, libpango1.0-dev, ladspa-sdk (>= 1.1-2), libasound2-dev (>= 0.9.4) [linux-any], liboss-salsa-dev [!linux-any], libaubio-dev (>= 0.4.0), libjack-dev, liblo-dev, libsuil-dev, libsamplerate0-dev, libsndfile1-dev, libsoundtouch-dev (>= 1.5.0), lv2-dev, liblilv-dev, vamp-plugin-sdk (>= 2.1)"
+	],
+	"Checksums-Sha1": [
+		"f55f5741b2fad08e374a355e180c17edb894a3f0 3059 ardour_2.8.16+git20131003+dfsg1-1~deb8u1.dsc d967e9ad37678233e1c2f636521a7bbd07c9746b 8707467 ardour_2.8.16+git20131003+dfsg1.orig.tar.bz2 fabddec2822d7da420a6df87565389a0d835b809 51724 ardour_2.8.16+git20131003+dfsg1-1~deb8u1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"f3f60aaac26a2a97efcc12c9b7fd2d4783d3723817067b8f6d6b3c560a46be51 3059 ardour_2.8.16+git20131003+dfsg1-1~deb8u1.dsc b4539b6134eb8c738cdfc98c08d01c4aacd7bb8691250471b05ab4b6073ed620 8707467 ardour_2.8.16+git20131003+dfsg1.orig.tar.bz2 3d0681601702adff970908667d94cdacaba751c700b6063389155c41d98c286a 51724 ardour_2.8.16+git20131003+dfsg1-1~deb8u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/a/ardour"
+	],
+	"Files": [
+		"66f7ac43b98681558f270394395c1bb1 3059 ardour_2.8.16+git20131003+dfsg1-1~deb8u1.dsc 87e491b0fb3843244ee89222aeb47902 8707467 ardour_2.8.16+git20131003+dfsg1.orig.tar.bz2 cfa94d546670ac58920e7b23df921103 51724 ardour_2.8.16+git20131003+dfsg1-1~deb8u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.ardour.org/"
+	],
+	"Maintainer": [
+		"Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"ardour"
+	],
+	"Package-List": [
+		"ardour deb sound optional arch=any ardour-altivec deb sound optional arch=powerpc ardour-dbg deb debug extra arch=any ardour-i686 deb sound optional arch=i386"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"sound"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Adrian Knoth <adi@drcomp.erfurt.thur.de>, Free Ekanayaka <freee@debian.org>, Jaromír Mikeš <mira.mikes@seznam.cz>, Jonas Smedegaard <dr@jones.dk>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-multimedia/ardour.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-multimedia/ardour.git"
+	],
+	"Version": [
+		"1:2.8.16+git20131003+dfsg1-1~deb8u1"
+	]
 }

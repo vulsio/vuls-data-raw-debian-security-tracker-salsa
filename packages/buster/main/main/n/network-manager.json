@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "linux-any all"
-  ],
-  "Binary": [
-    "network-manager, network-manager-dev, libnm0, libnm-dev, gir1.2-nm-1.0, network-manager-config-connectivity-debian"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 12), automake (>= 1.12), dpkg-dev (>= 1.17.14), pkg-config, intltool, libglib2.0-dev (>= 2.32), ppp-dev (>= 2.4.7-1+1), libpolkit-gobject-1-dev, libpolkit-agent-1-dev (>= 0.97), libselinux1-dev, libaudit-dev, libgnutls28-dev (>= 2.12), uuid-dev, systemd (>= 185), libsystemd-dev (>= 209), libudev-dev (>= 175), libgirepository1.0-dev (>= 0.10.7-1~), gobject-introspection (>= 0.9.12-4~), python-gi, libpsl-dev (>= 0.1), libcurl4-gnutls-dev (>= 7.24.0), gtk-doc-tools, perl, libyaml-perl, libglib2.0-doc, libmm-glib-dev (>= 0.7.991), libndp-dev, libreadline-dev, libnewt-dev (>= 0.52.15), libteam-dev (>= 1.9), libjansson-dev, libbluetooth-dev (>= 5), valac (>= 0.17.1.24), dbus <!nocheck>, python-dbus <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "b7a598fd0ea77408bcbb0043b1ad20669fcd9051fb8ef6d164f87a576ed7391b 3204 network-manager_1.14.6-2+deb10u1.dsc 693bcdad15eec7f07a06cbc6e43ddb3b1c13b2d2d23ec165fbb5adf4c3323a5d 4426540 network-manager_1.14.6.orig.tar.xz 254d956fa5f81f804b808a4eec3b24a4105138fa306a20125155365d65fb2ee2 46504 network-manager_1.14.6-2+deb10u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/n/network-manager"
-  ],
-  "Files": [
-    "45cf11286cf8c62293d1c2a256fd4f73 3204 network-manager_1.14.6-2+deb10u1.dsc 6881d04fe72e09a98bd9bfb26813544b 4426540 network-manager_1.14.6.orig.tar.xz 588897b9b0b118377fb454d64b045d3b 46504 network-manager_1.14.6-2+deb10u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://wiki.gnome.org/Projects/NetworkManager"
-  ],
-  "Maintainer": [
-    "Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "network-manager"
-  ],
-  "Package-List": [
-    "gir1.2-nm-1.0 deb introspection optional arch=linux-any libnm-dev deb libdevel optional arch=linux-any libnm0 deb libs optional arch=linux-any network-manager deb net optional arch=linux-any network-manager-config-connectivity-debian deb net optional arch=all network-manager-dev deb devel optional arch=linux-any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "4.3.0"
-  ],
-  "Uploaders": [
-    "Michael Biebl <biebl@debian.org>, Sjoerd Simons <sjoerd@debian.org>, Aron Xu <aron@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/utopia-team/network-manager"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/utopia-team/network-manager.git"
-  ],
-  "Version": [
-    "1.14.6-2+deb10u1"
-  ]
+	"Architecture": [
+		"linux-any all"
+	],
+	"Binary": [
+		"network-manager, network-manager-dev, libnm0, libnm-dev, gir1.2-nm-1.0, network-manager-config-connectivity-debian"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 12), automake (>= 1.12), dpkg-dev (>= 1.17.14), pkg-config, intltool, libglib2.0-dev (>= 2.32), ppp-dev (>= 2.4.7-1+1), libpolkit-gobject-1-dev, libpolkit-agent-1-dev (>= 0.97), libselinux1-dev, libaudit-dev, libgnutls28-dev (>= 2.12), uuid-dev, systemd (>= 185), libsystemd-dev (>= 209), libudev-dev (>= 175), libgirepository1.0-dev (>= 0.10.7-1~), gobject-introspection (>= 0.9.12-4~), python-gi, libpsl-dev (>= 0.1), libcurl4-gnutls-dev (>= 7.24.0), gtk-doc-tools, perl, libyaml-perl, libglib2.0-doc, libmm-glib-dev (>= 0.7.991), libndp-dev, libreadline-dev, libnewt-dev (>= 0.52.15), libteam-dev (>= 1.9), libjansson-dev, libbluetooth-dev (>= 5), valac (>= 0.17.1.24), dbus <!nocheck>, python-dbus <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"b7a598fd0ea77408bcbb0043b1ad20669fcd9051fb8ef6d164f87a576ed7391b 3204 network-manager_1.14.6-2+deb10u1.dsc 693bcdad15eec7f07a06cbc6e43ddb3b1c13b2d2d23ec165fbb5adf4c3323a5d 4426540 network-manager_1.14.6.orig.tar.xz 254d956fa5f81f804b808a4eec3b24a4105138fa306a20125155365d65fb2ee2 46504 network-manager_1.14.6-2+deb10u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/n/network-manager"
+	],
+	"Files": [
+		"45cf11286cf8c62293d1c2a256fd4f73 3204 network-manager_1.14.6-2+deb10u1.dsc 6881d04fe72e09a98bd9bfb26813544b 4426540 network-manager_1.14.6.orig.tar.xz 588897b9b0b118377fb454d64b045d3b 46504 network-manager_1.14.6-2+deb10u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://wiki.gnome.org/Projects/NetworkManager"
+	],
+	"Maintainer": [
+		"Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"network-manager"
+	],
+	"Package-List": [
+		"gir1.2-nm-1.0 deb introspection optional arch=linux-any libnm-dev deb libdevel optional arch=linux-any libnm0 deb libs optional arch=linux-any network-manager deb net optional arch=linux-any network-manager-config-connectivity-debian deb net optional arch=all network-manager-dev deb devel optional arch=linux-any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"4.3.0"
+	],
+	"Uploaders": [
+		"Michael Biebl <biebl@debian.org>, Sjoerd Simons <sjoerd@debian.org>, Aron Xu <aron@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/utopia-team/network-manager"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/utopia-team/network-manager.git"
+	],
+	"Version": [
+		"1.14.6-2+deb10u1"
+	]
 }

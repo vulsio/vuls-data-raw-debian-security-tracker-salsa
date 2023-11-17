@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "linux-any all"
-  ],
-  "Binary": [
-    "multipath-tools, kpartx, multipath-tools-boot, multipath-udeb, kpartx-udeb"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), po-debconf, libdevmapper-dev (>= 2:1.02.20), libreadline-dev, libaio-dev, dpkg-dev (>= 1.16.1~), libudev-dev, libsystemd-dev, systemd, dh-systemd, liburcu-dev, librados-dev"
-  ],
-  "Checksums-Sha256": [
-    "78ff45628da3cd474ef87a9056a06ca6577abe0c9db965d3d74f50d6f0a11f71 2635 multipath-tools_0.6.4-5+deb9u1.dsc 32436eaf9c02a44271d301ad945cae4fc926bc7df904d0e7558c9bf76039a646 285426 multipath-tools_0.6.4.orig.tar.gz b516f85f569be84e082fad510e455dd04b8bdd137c60368e02b60602abec4507 32244 multipath-tools_0.6.4-5+deb9u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/m/multipath-tools"
-  ],
-  "Files": [
-    "b110b0742f9f112e86d028852df514c2 2635 multipath-tools_0.6.4-5+deb9u1.dsc 8394e3695708e4910dc395d497b54353 285426 multipath-tools_0.6.4.orig.tar.gz f27e5ebe8dc8b8f6c15617dd119d50ba 32244 multipath-tools_0.6.4-5+deb9u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://christophe.varoqui.free.fr/"
-  ],
-  "Maintainer": [
-    "Debian DM Multipath Team <team+linux-blocks@tracker.debian.org>"
-  ],
-  "Package": [
-    "multipath-tools"
-  ],
-  "Package-List": [
-    "kpartx deb admin extra arch=linux-any kpartx-udeb udeb debian-installer extra arch=linux-any multipath-tools deb admin extra arch=linux-any multipath-tools-boot deb admin extra arch=all multipath-udeb udeb debian-installer extra arch=linux-any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "admin"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "fio, gdisk, lsscsi, open-iscsi, qemu-utils, tgt"
-  ],
-  "Uploaders": [
-    "Guido Günther <agx@sigxcpu.org>, Ritesh Raj Sarraf <rrs@debian.org>, Chris Hofstaedtler <zeha@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/linux-blocks-team/multipath-tools.git"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/linux-blocks-team/multipath-tools.git"
-  ],
-  "Version": [
-    "0.6.4-5+deb9u1"
-  ]
+	"Architecture": [
+		"linux-any all"
+	],
+	"Binary": [
+		"multipath-tools, kpartx, multipath-tools-boot, multipath-udeb, kpartx-udeb"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), po-debconf, libdevmapper-dev (>= 2:1.02.20), libreadline-dev, libaio-dev, dpkg-dev (>= 1.16.1~), libudev-dev, libsystemd-dev, systemd, dh-systemd, liburcu-dev, librados-dev"
+	],
+	"Checksums-Sha256": [
+		"78ff45628da3cd474ef87a9056a06ca6577abe0c9db965d3d74f50d6f0a11f71 2635 multipath-tools_0.6.4-5+deb9u1.dsc 32436eaf9c02a44271d301ad945cae4fc926bc7df904d0e7558c9bf76039a646 285426 multipath-tools_0.6.4.orig.tar.gz b516f85f569be84e082fad510e455dd04b8bdd137c60368e02b60602abec4507 32244 multipath-tools_0.6.4-5+deb9u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/m/multipath-tools"
+	],
+	"Files": [
+		"b110b0742f9f112e86d028852df514c2 2635 multipath-tools_0.6.4-5+deb9u1.dsc 8394e3695708e4910dc395d497b54353 285426 multipath-tools_0.6.4.orig.tar.gz f27e5ebe8dc8b8f6c15617dd119d50ba 32244 multipath-tools_0.6.4-5+deb9u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://christophe.varoqui.free.fr/"
+	],
+	"Maintainer": [
+		"Debian DM Multipath Team <team+linux-blocks@tracker.debian.org>"
+	],
+	"Package": [
+		"multipath-tools"
+	],
+	"Package-List": [
+		"kpartx deb admin extra arch=linux-any kpartx-udeb udeb debian-installer extra arch=linux-any multipath-tools deb admin extra arch=linux-any multipath-tools-boot deb admin extra arch=all multipath-udeb udeb debian-installer extra arch=linux-any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"admin"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"fio, gdisk, lsscsi, open-iscsi, qemu-utils, tgt"
+	],
+	"Uploaders": [
+		"Guido Günther <agx@sigxcpu.org>, Ritesh Raj Sarraf <rrs@debian.org>, Chris Hofstaedtler <zeha@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/linux-blocks-team/multipath-tools.git"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/linux-blocks-team/multipath-tools.git"
+	],
+	"Version": [
+		"0.6.4-5+deb9u1"
+	]
 }

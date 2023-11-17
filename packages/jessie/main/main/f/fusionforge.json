@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "fusionforge-standard, fusionforge-minimal, fusionforge-full, gforge, gforge-common, gforge-web-apache2, gforge-web-apache2-vhosts, gforge-db-postgresql, gforge-db-remote, gforge-mta-exim4, gforge-mta-postfix, gforge-shell-postgresql, gforge-ftp-proftpd, gforge-dns-bind9, gforge-lists-mailman, fusionforge-plugin-admssw, fusionforge-plugin-authcas, fusionforge-plugin-authhttpd, fusionforge-plugin-authldap, fusionforge-plugin-blocks, fusionforge-plugin-compactpreview, fusionforge-plugin-contribtracker, fusionforge-plugin-doaprdf, fusionforge-plugin-extsubproj, fusionforge-plugin-foafprofiles, fusionforge-plugin-globalsearch, fusionforge-plugin-gravatar, fusionforge-plugin-headermenu, fusionforge-plugin-hudson, fusionforge-plugin-mediawiki, fusionforge-plugin-message, fusionforge-plugin-moinmoin, fusionforge-plugin-projectlabels, fusionforge-plugin-scmarch, fusionforge-plugin-scmbzr, fusionforge-plugin-scmcvs, fusionforge-plugin-scmdarcs, fusionforge-plugin-scmgit, fusionforge-plugin-scmhg, fusionforge-plugin-scmhook, fusionforge-plugin-scmsvn, fusionforge-plugin-sysauthldap"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 7.0.50~), quilt (>= 0.40), perl, confget, moreutils"
-  ],
-  "Build-Depends-Indep": [
-    "sharutils, docbook-to-man, devscripts, gettext, isoquery, iso-codes"
-  ],
-  "Checksums-Sha1": [
-    "6766486433328b78f7e790921c992fc27fbaf277 5481 fusionforge_5.3.2+20141104-3+deb8u3.dsc 9c50acc35f0b3c75cf9fd7e8d3af0e6dc46bacf8 12290066 fusionforge_5.3.2+20141104.orig.tar.gz bcb063dc5b5f13ad6a4bfb1665232fae0b42971f 173856 fusionforge_5.3.2+20141104-3+deb8u3.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "f54bb3965e97ade7a0863fc9b88a3b038fda03e6832df9f7efb6490a25e6ad45 5481 fusionforge_5.3.2+20141104-3+deb8u3.dsc bc0ede1f12a2f5e4ad3ace217a28ce8a4c5d2643eb1322edddc0887bc58ccdd2 12290066 fusionforge_5.3.2+20141104.orig.tar.gz 365f55c31d9afc3f43819146147bba93aa4a42b8e7e396caeb31766fce2ef7a8 173856 fusionforge_5.3.2+20141104-3+deb8u3.diff.gz"
-  ],
-  "Directory": [
-    "pool/main/f/fusionforge"
-  ],
-  "Files": [
-    "99b6839c0db2f36ddd7ee1a3ff36fbc3 5481 fusionforge_5.3.2+20141104-3+deb8u3.dsc 9c61e1ab47de47addc2a8f1d9f2d423b 12290066 fusionforge_5.3.2+20141104.orig.tar.gz 7444bb5f4fb1f69a3651e1a84155278a 173856 fusionforge_5.3.2+20141104-3+deb8u3.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Homepage": [
-    "https://fusionforge.org/"
-  ],
-  "Maintainer": [
-    "Roland Mas <lolando@debian.org>"
-  ],
-  "Package": [
-    "fusionforge"
-  ],
-  "Package-List": [
-    "fusionforge-full deb devel optional arch=all fusionforge-minimal deb devel optional arch=all fusionforge-plugin-admssw deb devel optional arch=all fusionforge-plugin-authcas deb devel optional arch=all fusionforge-plugin-authhttpd deb devel optional arch=all fusionforge-plugin-authldap deb devel optional arch=all fusionforge-plugin-blocks deb devel optional arch=all fusionforge-plugin-compactpreview deb devel optional arch=all fusionforge-plugin-contribtracker deb devel optional arch=all fusionforge-plugin-doaprdf deb devel optional arch=all fusionforge-plugin-extsubproj deb devel optional arch=all fusionforge-plugin-foafprofiles deb devel optional arch=all fusionforge-plugin-globalsearch deb devel optional arch=all fusionforge-plugin-gravatar deb devel optional arch=all fusionforge-plugin-headermenu deb devel optional arch=all fusionforge-plugin-hudson deb devel optional arch=all fusionforge-plugin-mediawiki deb devel optional arch=all fusionforge-plugin-message deb devel optional arch=all fusionforge-plugin-moinmoin deb devel optional arch=all fusionforge-plugin-projectlabels deb devel optional arch=all fusionforge-plugin-scmarch deb devel optional arch=all fusionforge-plugin-scmbzr deb devel optional arch=all fusionforge-plugin-scmcvs deb devel optional arch=all fusionforge-plugin-scmdarcs deb devel optional arch=all fusionforge-plugin-scmgit deb devel optional arch=all fusionforge-plugin-scmhg deb devel optional arch=all fusionforge-plugin-scmhook deb devel optional arch=all fusionforge-plugin-scmsvn deb devel optional arch=all fusionforge-plugin-sysauthldap deb devel optional arch=all fusionforge-standard deb devel optional arch=all gforge deb oldlibs extra arch=all gforge-common deb devel optional arch=all gforge-db-postgresql deb devel optional arch=all gforge-db-remote deb devel optional arch=all gforge-dns-bind9 deb devel optional arch=all gforge-ftp-proftpd deb devel optional arch=all gforge-lists-mailman deb devel optional arch=all gforge-mta-exim4 deb devel optional arch=all gforge-mta-postfix deb devel optional arch=all gforge-shell-postgresql deb devel optional arch=all gforge-web-apache2 deb devel optional arch=all gforge-web-apache2-vhosts deb devel optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "devel"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Christian Bayle <bayle@debian.org>, Olivier Berger <obergix@debian.org>, Sylvain Beucler <beuc@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://fusionforge.org/scm/browser.php?group_id=9"
-  ],
-  "Vcs-Git": [
-    "https://fusionforge.org/anonscm/git/deb-packaging/deb-packaging.git"
-  ],
-  "Version": [
-    "5.3.2+20141104-3+deb8u3"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"fusionforge-standard, fusionforge-minimal, fusionforge-full, gforge, gforge-common, gforge-web-apache2, gforge-web-apache2-vhosts, gforge-db-postgresql, gforge-db-remote, gforge-mta-exim4, gforge-mta-postfix, gforge-shell-postgresql, gforge-ftp-proftpd, gforge-dns-bind9, gforge-lists-mailman, fusionforge-plugin-admssw, fusionforge-plugin-authcas, fusionforge-plugin-authhttpd, fusionforge-plugin-authldap, fusionforge-plugin-blocks, fusionforge-plugin-compactpreview, fusionforge-plugin-contribtracker, fusionforge-plugin-doaprdf, fusionforge-plugin-extsubproj, fusionforge-plugin-foafprofiles, fusionforge-plugin-globalsearch, fusionforge-plugin-gravatar, fusionforge-plugin-headermenu, fusionforge-plugin-hudson, fusionforge-plugin-mediawiki, fusionforge-plugin-message, fusionforge-plugin-moinmoin, fusionforge-plugin-projectlabels, fusionforge-plugin-scmarch, fusionforge-plugin-scmbzr, fusionforge-plugin-scmcvs, fusionforge-plugin-scmdarcs, fusionforge-plugin-scmgit, fusionforge-plugin-scmhg, fusionforge-plugin-scmhook, fusionforge-plugin-scmsvn, fusionforge-plugin-sysauthldap"
+	],
+	"Build-Depends": [
+		"debhelper (>= 7.0.50~), quilt (>= 0.40), perl, confget, moreutils"
+	],
+	"Build-Depends-Indep": [
+		"sharutils, docbook-to-man, devscripts, gettext, isoquery, iso-codes"
+	],
+	"Checksums-Sha1": [
+		"6766486433328b78f7e790921c992fc27fbaf277 5481 fusionforge_5.3.2+20141104-3+deb8u3.dsc 9c50acc35f0b3c75cf9fd7e8d3af0e6dc46bacf8 12290066 fusionforge_5.3.2+20141104.orig.tar.gz bcb063dc5b5f13ad6a4bfb1665232fae0b42971f 173856 fusionforge_5.3.2+20141104-3+deb8u3.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"f54bb3965e97ade7a0863fc9b88a3b038fda03e6832df9f7efb6490a25e6ad45 5481 fusionforge_5.3.2+20141104-3+deb8u3.dsc bc0ede1f12a2f5e4ad3ace217a28ce8a4c5d2643eb1322edddc0887bc58ccdd2 12290066 fusionforge_5.3.2+20141104.orig.tar.gz 365f55c31d9afc3f43819146147bba93aa4a42b8e7e396caeb31766fce2ef7a8 173856 fusionforge_5.3.2+20141104-3+deb8u3.diff.gz"
+	],
+	"Directory": [
+		"pool/main/f/fusionforge"
+	],
+	"Files": [
+		"99b6839c0db2f36ddd7ee1a3ff36fbc3 5481 fusionforge_5.3.2+20141104-3+deb8u3.dsc 9c61e1ab47de47addc2a8f1d9f2d423b 12290066 fusionforge_5.3.2+20141104.orig.tar.gz 7444bb5f4fb1f69a3651e1a84155278a 173856 fusionforge_5.3.2+20141104-3+deb8u3.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Homepage": [
+		"https://fusionforge.org/"
+	],
+	"Maintainer": [
+		"Roland Mas <lolando@debian.org>"
+	],
+	"Package": [
+		"fusionforge"
+	],
+	"Package-List": [
+		"fusionforge-full deb devel optional arch=all fusionforge-minimal deb devel optional arch=all fusionforge-plugin-admssw deb devel optional arch=all fusionforge-plugin-authcas deb devel optional arch=all fusionforge-plugin-authhttpd deb devel optional arch=all fusionforge-plugin-authldap deb devel optional arch=all fusionforge-plugin-blocks deb devel optional arch=all fusionforge-plugin-compactpreview deb devel optional arch=all fusionforge-plugin-contribtracker deb devel optional arch=all fusionforge-plugin-doaprdf deb devel optional arch=all fusionforge-plugin-extsubproj deb devel optional arch=all fusionforge-plugin-foafprofiles deb devel optional arch=all fusionforge-plugin-globalsearch deb devel optional arch=all fusionforge-plugin-gravatar deb devel optional arch=all fusionforge-plugin-headermenu deb devel optional arch=all fusionforge-plugin-hudson deb devel optional arch=all fusionforge-plugin-mediawiki deb devel optional arch=all fusionforge-plugin-message deb devel optional arch=all fusionforge-plugin-moinmoin deb devel optional arch=all fusionforge-plugin-projectlabels deb devel optional arch=all fusionforge-plugin-scmarch deb devel optional arch=all fusionforge-plugin-scmbzr deb devel optional arch=all fusionforge-plugin-scmcvs deb devel optional arch=all fusionforge-plugin-scmdarcs deb devel optional arch=all fusionforge-plugin-scmgit deb devel optional arch=all fusionforge-plugin-scmhg deb devel optional arch=all fusionforge-plugin-scmhook deb devel optional arch=all fusionforge-plugin-scmsvn deb devel optional arch=all fusionforge-plugin-sysauthldap deb devel optional arch=all fusionforge-standard deb devel optional arch=all gforge deb oldlibs extra arch=all gforge-common deb devel optional arch=all gforge-db-postgresql deb devel optional arch=all gforge-db-remote deb devel optional arch=all gforge-dns-bind9 deb devel optional arch=all gforge-ftp-proftpd deb devel optional arch=all gforge-lists-mailman deb devel optional arch=all gforge-mta-exim4 deb devel optional arch=all gforge-mta-postfix deb devel optional arch=all gforge-shell-postgresql deb devel optional arch=all gforge-web-apache2 deb devel optional arch=all gforge-web-apache2-vhosts deb devel optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"devel"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Christian Bayle <bayle@debian.org>, Olivier Berger <obergix@debian.org>, Sylvain Beucler <beuc@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://fusionforge.org/scm/browser.php?group_id=9"
+	],
+	"Vcs-Git": [
+		"https://fusionforge.org/anonscm/git/deb-packaging/deb-packaging.git"
+	],
+	"Version": [
+		"5.3.2+20141104-3+deb8u3"
+	]
 }

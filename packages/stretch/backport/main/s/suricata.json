@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "linux-any all"
-  ],
-  "Binary": [
-    "suricata, suricata-oinkmaster"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 11~), dh-python, libcap-ng-dev, libevent-dev, libgeoip-dev, libhiredis-dev, libjansson-dev, libluajit-5.1-dev [i386 amd64 powerpc mips mipsel armel armhf], libhyperscan-dev (>= 4.4.0) [i386 amd64 x32], rustc (>= 1.21.0) [i386 amd64 armhf arm64], cargo (>= 0.23.0) [i386 amd64 armhf arm64], liblz4-dev, libmagic-dev, libnet1-dev | libnet-dev, libnetfilter-log-dev, libnetfilter-queue-dev, libnspr4-dev, libnss3-dev, libpcap-dev, libpcre3-dev, libprelude-dev, libyaml-dev, python:any, zlib1g-dev | libz-dev, libhtp-dev (>= 1:0.5.25), procps"
-  ],
-  "Checksums-Sha256": [
-    "e0c51c75676017f31701d122be3794fb4fbe953e93e663b824bb8e5ef74f116e 2667 suricata_4.1.2-2~bpo9+1.dsc c1d8333647820f26d1dd9002fccdf94f5b4cab4bf62ba82c1a199602b2d85365 14841237 suricata_4.1.2.orig.tar.gz 7886c9fcf503caf20f60f6203d4f5f44176dbdbfbf86b64bf05faff48d0c1240 25532 suricata_4.1.2-2~bpo9+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/s/suricata"
-  ],
-  "Files": [
-    "24ebeb42a0e89dffb7c8f05196bb1b16 2667 suricata_4.1.2-2~bpo9+1.dsc 5b4db141db40e844ccb02812d34c494e 14841237 suricata_4.1.2.orig.tar.gz 04e9ffbb51ec9f86b49ce8fde7f9019e 25532 suricata_4.1.2-2~bpo9+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.suricata-ids.org/"
-  ],
-  "Maintainer": [
-    "Pierre Chifflier <pollux@debian.org>"
-  ],
-  "Package": [
-    "suricata"
-  ],
-  "Package-List": [
-    "suricata deb net optional arch=linux-any suricata-oinkmaster deb net optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.1.3"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "geoip-database, procps, systemd"
-  ],
-  "Uploaders": [
-    "Arturo Borrero Gonzalez <arturo@debian.org>, Sascha Steinbiss <satta@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/pkg-suricata-team/pkg-suricata"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/pkg-suricata-team/pkg-suricata.git"
-  ],
-  "Version": [
-    "1:4.1.2-2~bpo9+1"
-  ]
+	"Architecture": [
+		"linux-any all"
+	],
+	"Binary": [
+		"suricata, suricata-oinkmaster"
+	],
+	"Build-Depends": [
+		"debhelper (>= 11~), dh-python, libcap-ng-dev, libevent-dev, libgeoip-dev, libhiredis-dev, libjansson-dev, libluajit-5.1-dev [i386 amd64 powerpc mips mipsel armel armhf], libhyperscan-dev (>= 4.4.0) [i386 amd64 x32], rustc (>= 1.21.0) [i386 amd64 armhf arm64], cargo (>= 0.23.0) [i386 amd64 armhf arm64], liblz4-dev, libmagic-dev, libnet1-dev | libnet-dev, libnetfilter-log-dev, libnetfilter-queue-dev, libnspr4-dev, libnss3-dev, libpcap-dev, libpcre3-dev, libprelude-dev, libyaml-dev, python:any, zlib1g-dev | libz-dev, libhtp-dev (>= 1:0.5.25), procps"
+	],
+	"Checksums-Sha256": [
+		"e0c51c75676017f31701d122be3794fb4fbe953e93e663b824bb8e5ef74f116e 2667 suricata_4.1.2-2~bpo9+1.dsc c1d8333647820f26d1dd9002fccdf94f5b4cab4bf62ba82c1a199602b2d85365 14841237 suricata_4.1.2.orig.tar.gz 7886c9fcf503caf20f60f6203d4f5f44176dbdbfbf86b64bf05faff48d0c1240 25532 suricata_4.1.2-2~bpo9+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/s/suricata"
+	],
+	"Files": [
+		"24ebeb42a0e89dffb7c8f05196bb1b16 2667 suricata_4.1.2-2~bpo9+1.dsc 5b4db141db40e844ccb02812d34c494e 14841237 suricata_4.1.2.orig.tar.gz 04e9ffbb51ec9f86b49ce8fde7f9019e 25532 suricata_4.1.2-2~bpo9+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.suricata-ids.org/"
+	],
+	"Maintainer": [
+		"Pierre Chifflier <pollux@debian.org>"
+	],
+	"Package": [
+		"suricata"
+	],
+	"Package-List": [
+		"suricata deb net optional arch=linux-any suricata-oinkmaster deb net optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.1.3"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"geoip-database, procps, systemd"
+	],
+	"Uploaders": [
+		"Arturo Borrero Gonzalez <arturo@debian.org>, Sascha Steinbiss <satta@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/pkg-suricata-team/pkg-suricata"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/pkg-suricata-team/pkg-suricata.git"
+	],
+	"Version": [
+		"1:4.1.2-2~bpo9+1"
+	]
 }

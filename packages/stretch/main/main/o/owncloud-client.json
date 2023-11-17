@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "owncloud-client, owncloud-client-doc, libowncloudsync0, libowncloudsync-dev, owncloud-client-data, owncloud-client-l10n, owncloud-client-cmd, dolphin-owncloud, nautilus-owncloud, nemo-owncloud"
-  ],
-  "Build-Depends": [
-    "cmake, debhelper (>= 10), dh-python, extra-cmake-modules (>= 5.16), kdelibs5-dev, kio-dev, libcmocka-dev, libhttp-dav-perl, libinotify-dev [kfreebsd-any], libqt5webkit5-dev, libsqlite3-dev, libssl-dev (>> 1.0.0), zlib1g-dev, optipng, pkg-kde-tools, python-sphinx | python3-sphinx, python3-all, qt5keychain-dev, qtdeclarative5-dev, qttools5-dev, qttools5-dev-tools, xvfb"
-  ],
-  "Build-Depends-Indep": [
-    "texlive-fonts-recommended, texlive-generic-extra, texlive-latex-extra, texlive-latex-recommended, xsltproc"
-  ],
-  "Checksums-Sha256": [
-    "21a4117e93e16fd0363426adcc0a7719f462ee3ef333fe1837c70813f15aaf76 3170 owncloud-client_2.2.4+dfsg-2.dsc c46c051fce91081d22afeda8731894ed1bfc2da623a7fbecf3d491470ab86289 10715180 owncloud-client_2.2.4+dfsg.orig.tar.xz 47f9a1c7ed7838b8d09085d684fb401b789b4065522b5f7edc9c8c8e4f52eb3a 23428 owncloud-client_2.2.4+dfsg-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/o/owncloud-client"
-  ],
-  "Files": [
-    "8af22e662dbb315683fdc7dc2a00828f 3170 owncloud-client_2.2.4+dfsg-2.dsc f686331bf37dffa8fbd9fd437fb259c8 10715180 owncloud-client_2.2.4+dfsg.orig.tar.xz fb87df3a205df4d68e43a56646143910 23428 owncloud-client_2.2.4+dfsg-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://owncloud.org/sync-clients/"
-  ],
-  "Maintainer": [
-    "ownCloud for Debian maintainers <pkg-owncloud-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "owncloud-client"
-  ],
-  "Package-List": [
-    "dolphin-owncloud deb kde optional arch=any libowncloudsync-dev deb libdevel optional arch=any libowncloudsync0 deb libs optional arch=any nautilus-owncloud deb gnome optional arch=all nemo-owncloud deb net optional arch=all owncloud-client deb net optional arch=any owncloud-client-cmd deb net optional arch=any owncloud-client-data deb net optional arch=all owncloud-client-doc deb doc optional arch=all owncloud-client-l10n deb localization optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Sandro Knauß <hefee@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-owncloud/owncloud-client.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-owncloud/owncloud-client.git"
-  ],
-  "Version": [
-    "2.2.4+dfsg-2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"owncloud-client, owncloud-client-doc, libowncloudsync0, libowncloudsync-dev, owncloud-client-data, owncloud-client-l10n, owncloud-client-cmd, dolphin-owncloud, nautilus-owncloud, nemo-owncloud"
+	],
+	"Build-Depends": [
+		"cmake, debhelper (>= 10), dh-python, extra-cmake-modules (>= 5.16), kdelibs5-dev, kio-dev, libcmocka-dev, libhttp-dav-perl, libinotify-dev [kfreebsd-any], libqt5webkit5-dev, libsqlite3-dev, libssl-dev (>> 1.0.0), zlib1g-dev, optipng, pkg-kde-tools, python-sphinx | python3-sphinx, python3-all, qt5keychain-dev, qtdeclarative5-dev, qttools5-dev, qttools5-dev-tools, xvfb"
+	],
+	"Build-Depends-Indep": [
+		"texlive-fonts-recommended, texlive-generic-extra, texlive-latex-extra, texlive-latex-recommended, xsltproc"
+	],
+	"Checksums-Sha256": [
+		"21a4117e93e16fd0363426adcc0a7719f462ee3ef333fe1837c70813f15aaf76 3170 owncloud-client_2.2.4+dfsg-2.dsc c46c051fce91081d22afeda8731894ed1bfc2da623a7fbecf3d491470ab86289 10715180 owncloud-client_2.2.4+dfsg.orig.tar.xz 47f9a1c7ed7838b8d09085d684fb401b789b4065522b5f7edc9c8c8e4f52eb3a 23428 owncloud-client_2.2.4+dfsg-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/o/owncloud-client"
+	],
+	"Files": [
+		"8af22e662dbb315683fdc7dc2a00828f 3170 owncloud-client_2.2.4+dfsg-2.dsc f686331bf37dffa8fbd9fd437fb259c8 10715180 owncloud-client_2.2.4+dfsg.orig.tar.xz fb87df3a205df4d68e43a56646143910 23428 owncloud-client_2.2.4+dfsg-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://owncloud.org/sync-clients/"
+	],
+	"Maintainer": [
+		"ownCloud for Debian maintainers <pkg-owncloud-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"owncloud-client"
+	],
+	"Package-List": [
+		"dolphin-owncloud deb kde optional arch=any libowncloudsync-dev deb libdevel optional arch=any libowncloudsync0 deb libs optional arch=any nautilus-owncloud deb gnome optional arch=all nemo-owncloud deb net optional arch=all owncloud-client deb net optional arch=any owncloud-client-cmd deb net optional arch=any owncloud-client-data deb net optional arch=all owncloud-client-doc deb doc optional arch=all owncloud-client-l10n deb localization optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Sandro Knauß <hefee@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-owncloud/owncloud-client.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-owncloud/owncloud-client.git"
+	],
+	"Version": [
+		"2.2.4+dfsg-2"
+	]
 }

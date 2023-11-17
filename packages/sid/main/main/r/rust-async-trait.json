@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-async-trait-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-proc-macro2-1+default-dev (>= 1.0.63-~~) <!nocheck>, librust-quote-1+default-dev (>= 1.0.29-~~) <!nocheck>, librust-syn-2+default-dev (>= 2.0.23-~~) <!nocheck>, librust-syn-2+full-dev (>= 2.0.23-~~) <!nocheck>, librust-syn-2+visit-mut-dev (>= 2.0.23-~~) <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "440093494cc7218ab36c6cdf8a558a42666a730b88f23a797ed56e00357b8f94 2677 rust-async-trait_0.1.72-1.dsc cc6dde6e4ed435a4c1ee4e73592f5ba9da2151af10076cc04858746af9352d09 28592 rust-async-trait_0.1.72.orig.tar.gz 17d627a3f5d59985ab81e34c5265f0a18a705087dda0c61d45ca253d99488a5f 2784 rust-async-trait_0.1.72-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-async-trait"
-  ],
-  "Files": [
-    "17dc88d721a2598e020833c804af0bf3 2677 rust-async-trait_0.1.72-1.dsc 0189711a6980e8000558565aaaf1e919 28592 rust-async-trait_0.1.72.orig.tar.gz 578430dfe0b6f8330aab3b801556b754 2784 rust-async-trait_0.1.72-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-async-trait"
-  ],
-  "Package-List": [
-    "librust-async-trait-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-futures-0.3+default-dev, librust-rustversion-1+default-dev, librust-tracing-0.1+default-dev, librust-tracing-attributes-0.1+default-dev, librust-trybuild-1+default-dev, librust-trybuild-1+diff-dev"
-  ],
-  "Uploaders": [
-    "Fabian Grünbichler <f.gruenbichler@proxmox.com>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/async-trait"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/async-trait]"
-  ],
-  "Version": [
-    "0.1.72-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-async-trait-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-proc-macro2-1+default-dev (>= 1.0.63-~~) <!nocheck>, librust-quote-1+default-dev (>= 1.0.29-~~) <!nocheck>, librust-syn-2+default-dev (>= 2.0.23-~~) <!nocheck>, librust-syn-2+full-dev (>= 2.0.23-~~) <!nocheck>, librust-syn-2+visit-mut-dev (>= 2.0.23-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"440093494cc7218ab36c6cdf8a558a42666a730b88f23a797ed56e00357b8f94 2677 rust-async-trait_0.1.72-1.dsc cc6dde6e4ed435a4c1ee4e73592f5ba9da2151af10076cc04858746af9352d09 28592 rust-async-trait_0.1.72.orig.tar.gz 17d627a3f5d59985ab81e34c5265f0a18a705087dda0c61d45ca253d99488a5f 2784 rust-async-trait_0.1.72-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-async-trait"
+	],
+	"Files": [
+		"17dc88d721a2598e020833c804af0bf3 2677 rust-async-trait_0.1.72-1.dsc 0189711a6980e8000558565aaaf1e919 28592 rust-async-trait_0.1.72.orig.tar.gz 578430dfe0b6f8330aab3b801556b754 2784 rust-async-trait_0.1.72-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-async-trait"
+	],
+	"Package-List": [
+		"librust-async-trait-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-futures-0.3+default-dev, librust-rustversion-1+default-dev, librust-tracing-0.1+default-dev, librust-tracing-attributes-0.1+default-dev, librust-trybuild-1+default-dev, librust-trybuild-1+diff-dev"
+	],
+	"Uploaders": [
+		"Fabian Grünbichler <f.gruenbichler@proxmox.com>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/async-trait"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/async-trait]"
+	],
+	"Version": [
+		"0.1.72-1"
+	]
 }

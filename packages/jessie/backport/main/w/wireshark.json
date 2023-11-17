@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "wireshark-common, wireshark, wireshark-qt, wireshark-gtk, tshark, wireshark-dev, wireshark-doc, libwireshark8, libwsutil7, libwsutil-dev, libwscodecs1, libwireshark-data, libwireshark-dev, libwiretap6, libwiretap-dev"
-  ],
-  "Build-Conflicts": [
-    "libsnmp-dev, libsnmp4.2-dev"
-  ],
-  "Build-Depends": [
-    "libgtk-3-dev, qtbase5-dev, qtbase5-dev-tools, qttools5-dev, qttools5-dev-tools, qtmultimedia5-dev, libqt5svg5-dev, libpcap0.8-dev, flex, libz-dev, debhelper (>= 9), po-debconf, libtool, python (>= 2.6.6-3~), python-ply, libc-ares-dev, xsltproc, dh-python, docbook-xsl (>= 1.64.1.0-0), docbook-xml, libxml2-utils, libpcre3-dev, libcap2-dev [linux-any] | libcap-dev (>= 2.17) [linux-any], lsb-release, bison, libgnutls28-dev (>= 3.2.14-1~), libgcrypt-dev, portaudio19-dev, libkrb5-dev, liblua5.2-dev, libsmi2-dev, libgeoip-dev, dpkg-dev (>= 1.16.1~), imagemagick, xdg-utils, libnl-genl-3-dev [linux-any], libnl-route-3-dev [linux-any], asciidoc, cmake (>= 2.8.8), w3m, libsbc-dev, libnghttp2-dev, libssh-gcrypt-dev"
-  ],
-  "Checksums-Sha1": [
-    "0bd0bc80712229a19cc1049129e4366ddfd5a3df 3520 wireshark_2.2.4+gcc3dc1b-1~bpo8+1.dsc d530755bebec14e57c31b13d9d89bc3b7c3f574d 27195788 wireshark_2.2.4+gcc3dc1b.orig.tar.xz 82b284cc6d005eadf4404479b464dd7a995ff16c 64492 wireshark_2.2.4+gcc3dc1b-1~bpo8+1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "329b0d38f56dde6cd6432f20f9dd9fef2f9e0b976a5278705904c552bd50d0ce 3520 wireshark_2.2.4+gcc3dc1b-1~bpo8+1.dsc 3bccbd26df7889fa6c9916cfff6fb5277e6a05660db456754cfaf889c02177a9 27195788 wireshark_2.2.4+gcc3dc1b.orig.tar.xz 497f8eebd0a43ad699a3d51a3a3bbd10f20b9f0d729dd89fa2a7c685010bdff5 64492 wireshark_2.2.4+gcc3dc1b-1~bpo8+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/w/wireshark"
-  ],
-  "Files": [
-    "74f6964031b4cfc6478b076e0045b5be 3520 wireshark_2.2.4+gcc3dc1b-1~bpo8+1.dsc 19b452347df0e4b1df0d7356c85250e5 27195788 wireshark_2.2.4+gcc3dc1b.orig.tar.xz 124308c9baca7f3e813123eec7f25d0c 64492 wireshark_2.2.4+gcc3dc1b-1~bpo8+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.wireshark.org/"
-  ],
-  "Maintainer": [
-    "Balint Reczey <balint@balintreczey.hu>"
-  ],
-  "Package": [
-    "wireshark"
-  ],
-  "Package-List": [
-    "libwireshark-data deb libs optional arch=all libwireshark-dev deb libdevel optional arch=any libwireshark8 deb libs optional arch=any libwiretap-dev deb libdevel optional arch=any libwiretap6 deb libs optional arch=any libwscodecs1 deb libs optional arch=any libwsutil-dev deb libdevel optional arch=any libwsutil7 deb libs optional arch=any tshark deb net optional arch=any wireshark deb net optional arch=any wireshark-common deb net optional arch=any wireshark-dev deb devel optional arch=any wireshark-doc deb doc extra arch=all wireshark-gtk deb net optional arch=any wireshark-qt deb net optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/viewvc/collab-maint/ext-maint/wireshark/trunk/"
-  ],
-  "Vcs-Svn": [
-    "svn://anonscm.debian.org/collab-maint/ext-maint/wireshark/trunk"
-  ],
-  "Version": [
-    "2.2.4+gcc3dc1b-1~bpo8+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"wireshark-common, wireshark, wireshark-qt, wireshark-gtk, tshark, wireshark-dev, wireshark-doc, libwireshark8, libwsutil7, libwsutil-dev, libwscodecs1, libwireshark-data, libwireshark-dev, libwiretap6, libwiretap-dev"
+	],
+	"Build-Conflicts": [
+		"libsnmp-dev, libsnmp4.2-dev"
+	],
+	"Build-Depends": [
+		"libgtk-3-dev, qtbase5-dev, qtbase5-dev-tools, qttools5-dev, qttools5-dev-tools, qtmultimedia5-dev, libqt5svg5-dev, libpcap0.8-dev, flex, libz-dev, debhelper (>= 9), po-debconf, libtool, python (>= 2.6.6-3~), python-ply, libc-ares-dev, xsltproc, dh-python, docbook-xsl (>= 1.64.1.0-0), docbook-xml, libxml2-utils, libpcre3-dev, libcap2-dev [linux-any] | libcap-dev (>= 2.17) [linux-any], lsb-release, bison, libgnutls28-dev (>= 3.2.14-1~), libgcrypt-dev, portaudio19-dev, libkrb5-dev, liblua5.2-dev, libsmi2-dev, libgeoip-dev, dpkg-dev (>= 1.16.1~), imagemagick, xdg-utils, libnl-genl-3-dev [linux-any], libnl-route-3-dev [linux-any], asciidoc, cmake (>= 2.8.8), w3m, libsbc-dev, libnghttp2-dev, libssh-gcrypt-dev"
+	],
+	"Checksums-Sha1": [
+		"0bd0bc80712229a19cc1049129e4366ddfd5a3df 3520 wireshark_2.2.4+gcc3dc1b-1~bpo8+1.dsc d530755bebec14e57c31b13d9d89bc3b7c3f574d 27195788 wireshark_2.2.4+gcc3dc1b.orig.tar.xz 82b284cc6d005eadf4404479b464dd7a995ff16c 64492 wireshark_2.2.4+gcc3dc1b-1~bpo8+1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"329b0d38f56dde6cd6432f20f9dd9fef2f9e0b976a5278705904c552bd50d0ce 3520 wireshark_2.2.4+gcc3dc1b-1~bpo8+1.dsc 3bccbd26df7889fa6c9916cfff6fb5277e6a05660db456754cfaf889c02177a9 27195788 wireshark_2.2.4+gcc3dc1b.orig.tar.xz 497f8eebd0a43ad699a3d51a3a3bbd10f20b9f0d729dd89fa2a7c685010bdff5 64492 wireshark_2.2.4+gcc3dc1b-1~bpo8+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/w/wireshark"
+	],
+	"Files": [
+		"74f6964031b4cfc6478b076e0045b5be 3520 wireshark_2.2.4+gcc3dc1b-1~bpo8+1.dsc 19b452347df0e4b1df0d7356c85250e5 27195788 wireshark_2.2.4+gcc3dc1b.orig.tar.xz 124308c9baca7f3e813123eec7f25d0c 64492 wireshark_2.2.4+gcc3dc1b-1~bpo8+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.wireshark.org/"
+	],
+	"Maintainer": [
+		"Balint Reczey <balint@balintreczey.hu>"
+	],
+	"Package": [
+		"wireshark"
+	],
+	"Package-List": [
+		"libwireshark-data deb libs optional arch=all libwireshark-dev deb libdevel optional arch=any libwireshark8 deb libs optional arch=any libwiretap-dev deb libdevel optional arch=any libwiretap6 deb libs optional arch=any libwscodecs1 deb libs optional arch=any libwsutil-dev deb libdevel optional arch=any libwsutil7 deb libs optional arch=any tshark deb net optional arch=any wireshark deb net optional arch=any wireshark-common deb net optional arch=any wireshark-dev deb devel optional arch=any wireshark-doc deb doc extra arch=all wireshark-gtk deb net optional arch=any wireshark-qt deb net optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/viewvc/collab-maint/ext-maint/wireshark/trunk/"
+	],
+	"Vcs-Svn": [
+		"svn://anonscm.debian.org/collab-maint/ext-maint/wireshark/trunk"
+	],
+	"Version": [
+		"2.2.4+gcc3dc1b-1~bpo8+1"
+	]
 }

@@ -1,42 +1,42 @@
 {
-  "header": {
-    "line": "CVE-2018-XXXX [security issue with the PASS command and duplicate server instances]",
-    "name": "TEMP-0906879-C6E80C",
-    "description": "[security issue with the PASS command and duplicate server instances]"
-  },
-  "annotations": [
-    {
-      "line": "\t- charybdis 4.1.1-1 (bug #906879)",
-      "type": "package",
-      "package": "charybdis",
-      "kind": "fixed",
-      "version": "4.1.1-1",
-      "flags": [
-        {
-          "bug": 906879
-        }
-      ]
-    },
-    {
-      "line": "\t[stretch] - charybdis <not-affected> (Vulnerable code added later)",
-      "type": "package",
-      "release": "stretch",
-      "package": "charybdis",
-      "kind": "not-affected",
-      "description": "Vulnerable code added later"
-    },
-    {
-      "line": "\t[jessie] - charybdis <not-affected> (Vulnerable code added later)",
-      "type": "package",
-      "release": "jessie",
-      "package": "charybdis",
-      "kind": "not-affected",
-      "description": "Vulnerable code added later"
-    },
-    {
-      "line": "\tNOTE: partial fix: https://github.com/charybdis-ircd/charybdis/commit/d4b2529a61fb48ebcd54bc0fcc6f400f97bfe251",
-      "type": "NOTE",
-      "description": "partial fix: https://github.com/charybdis-ircd/charybdis/commit/d4b2529a61fb48ebcd54bc0fcc6f400f97bfe251"
-    }
-  ]
+	"header": {
+		"line": "CVE-2018-XXXX [security issue with the PASS command and duplicate server instances]",
+		"name": "TEMP-0906879-C6E80C",
+		"description": "[security issue with the PASS command and duplicate server instances]"
+	},
+	"annotations": [
+		{
+			"line": "\t- charybdis 4.1.1-1 (bug #906879)",
+			"type": "package",
+			"package": "charybdis",
+			"kind": "fixed",
+			"version": "4.1.1-1",
+			"flags": [
+				{
+					"bug": 906879
+				}
+			]
+		},
+		{
+			"line": "\t[stretch] - charybdis <not-affected> (Vulnerable code added later)",
+			"type": "package",
+			"release": "stretch",
+			"package": "charybdis",
+			"kind": "not-affected",
+			"description": "Vulnerable code added later"
+		},
+		{
+			"line": "\t[jessie] - charybdis <not-affected> (Vulnerable code added later)",
+			"type": "package",
+			"release": "jessie",
+			"package": "charybdis",
+			"kind": "not-affected",
+			"description": "Vulnerable code added later"
+		},
+		{
+			"line": "\tNOTE: partial fix: https://github.com/charybdis-ircd/charybdis/commit/d4b2529a61fb48ebcd54bc0fcc6f400f97bfe251",
+			"type": "NOTE",
+			"description": "partial fix: https://github.com/charybdis-ircd/charybdis/commit/d4b2529a61fb48ebcd54bc0fcc6f400f97bfe251"
+		}
+	]
 }

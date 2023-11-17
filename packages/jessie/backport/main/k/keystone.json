@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-keystone, keystone, keystone-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-apparmor, dh-python, dh-systemd, openstack-pkg-tools (>= 23~), po-debconf, python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx"
-  ],
-  "Build-Depends-Indep": [
-    "git, python-bashate, python-coverage, python-crypto, python-cryptography (>= 1.0), python-dogpile.cache (>= 0.5.7), python-eventlet (>= 0.18.4), python-fixtures (>= 1.3.1), python-greenlet, python-hacking, python-jsonschema, python-keystoneclient (>= 1:1.6.0), python-keystonemiddleware (>= 4.0.0), python-ldap, python-ldappool, python-lxml, python-memcache (>= 1.56), python-migrate (>= 0.10.0), python-mock (>= 1.3), python-msgpack, python-oauthlib, python-oslo.cache (>= 1.5.0), python-oslo.concurrency (>= 3.5.0), python-oslo.config (>= 1:3.7.0), python-oslo.context (>= 0.2.0), python-oslo.db (>= 4.1.0), python-oslo.i18n (>= 2.5.0), python-oslo.log (>= 2.0.0), python-oslo.messaging (>= 4.0.0), python-oslo.middleware (>= 3.0.0), python-oslo.policy (>= 0.5.0), python-oslo.serialization (>= 2.0.0), python-oslo.service (>= 1.0.0), python-oslo.utils (>= 3.5.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1.10.0), python-os-testr (>= 0.4.1), python-pam, python-passlib (>= 1.6), python-paste, python-pastedeploy, python-pycadf (>= 1.1.0), python-pymongo (>= 3.0.1), python-pysaml2 (>= 3.0.0), python-pysqlite2, python-routes, python-six (>= 1.9.0), python-sqlalchemy (>= 1.0.10), python-stevedore (>= 1.5.0), python-tempest-lib (>= 0.14.0), python-testscenarios, python-testtools (>= 1.4.0), python-unittest2, python-webob, python-webtest, subunit, testrepository"
-  ],
-  "Checksums-Sha1": [
-    "78eda87863bb0efd7d0400d9408931724e87e64e 3568 keystone_9.0.0-2~bpo8+1.dsc f8234f059dc56428a8f0440ee0f8f37aad5dd25a 729804 keystone_9.0.0.orig.tar.xz c6f473fca348d3fb3a33427d316c09cb6978b442 36204 keystone_9.0.0-2~bpo8+1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "b6f1e8057465a8bca9fe83e728dba2e25a279f5c2939d4af1170d0564770c5e0 3568 keystone_9.0.0-2~bpo8+1.dsc 2cf939d54546263d380be6a5be00800599b9e63d16f043419c19995e5b243256 729804 keystone_9.0.0.orig.tar.xz 13dbef67043fe5cd2034440e1ec650527f4cded78e02e0b6fc3d1773597268b8 36204 keystone_9.0.0-2~bpo8+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/k/keystone"
-  ],
-  "Files": [
-    "800dc7019a5dde2e4fa9e2b549a19d72 3568 keystone_9.0.0-2~bpo8+1.dsc 1128818a3b9ebd3eb07ddb4143a9f32f 729804 keystone_9.0.0.orig.tar.xz f79efbeebe3fd0bf2731f0938c437b14 36204 keystone_9.0.0-2~bpo8+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://keystone.openstack.org/"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "keystone"
-  ],
-  "Package-List": [
-    "keystone deb net extra arch=all keystone-doc deb doc extra arch=all python-keystone deb python extra arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/openstack/keystone.git/"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/openstack/keystone.git"
-  ],
-  "Version": [
-    "2:9.0.0-2~bpo8+1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-keystone, keystone, keystone-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-apparmor, dh-python, dh-systemd, openstack-pkg-tools (>= 23~), po-debconf, python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx"
+	],
+	"Build-Depends-Indep": [
+		"git, python-bashate, python-coverage, python-crypto, python-cryptography (>= 1.0), python-dogpile.cache (>= 0.5.7), python-eventlet (>= 0.18.4), python-fixtures (>= 1.3.1), python-greenlet, python-hacking, python-jsonschema, python-keystoneclient (>= 1:1.6.0), python-keystonemiddleware (>= 4.0.0), python-ldap, python-ldappool, python-lxml, python-memcache (>= 1.56), python-migrate (>= 0.10.0), python-mock (>= 1.3), python-msgpack, python-oauthlib, python-oslo.cache (>= 1.5.0), python-oslo.concurrency (>= 3.5.0), python-oslo.config (>= 1:3.7.0), python-oslo.context (>= 0.2.0), python-oslo.db (>= 4.1.0), python-oslo.i18n (>= 2.5.0), python-oslo.log (>= 2.0.0), python-oslo.messaging (>= 4.0.0), python-oslo.middleware (>= 3.0.0), python-oslo.policy (>= 0.5.0), python-oslo.serialization (>= 2.0.0), python-oslo.service (>= 1.0.0), python-oslo.utils (>= 3.5.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1.10.0), python-os-testr (>= 0.4.1), python-pam, python-passlib (>= 1.6), python-paste, python-pastedeploy, python-pycadf (>= 1.1.0), python-pymongo (>= 3.0.1), python-pysaml2 (>= 3.0.0), python-pysqlite2, python-routes, python-six (>= 1.9.0), python-sqlalchemy (>= 1.0.10), python-stevedore (>= 1.5.0), python-tempest-lib (>= 0.14.0), python-testscenarios, python-testtools (>= 1.4.0), python-unittest2, python-webob, python-webtest, subunit, testrepository"
+	],
+	"Checksums-Sha1": [
+		"78eda87863bb0efd7d0400d9408931724e87e64e 3568 keystone_9.0.0-2~bpo8+1.dsc f8234f059dc56428a8f0440ee0f8f37aad5dd25a 729804 keystone_9.0.0.orig.tar.xz c6f473fca348d3fb3a33427d316c09cb6978b442 36204 keystone_9.0.0-2~bpo8+1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"b6f1e8057465a8bca9fe83e728dba2e25a279f5c2939d4af1170d0564770c5e0 3568 keystone_9.0.0-2~bpo8+1.dsc 2cf939d54546263d380be6a5be00800599b9e63d16f043419c19995e5b243256 729804 keystone_9.0.0.orig.tar.xz 13dbef67043fe5cd2034440e1ec650527f4cded78e02e0b6fc3d1773597268b8 36204 keystone_9.0.0-2~bpo8+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/k/keystone"
+	],
+	"Files": [
+		"800dc7019a5dde2e4fa9e2b549a19d72 3568 keystone_9.0.0-2~bpo8+1.dsc 1128818a3b9ebd3eb07ddb4143a9f32f 729804 keystone_9.0.0.orig.tar.xz f79efbeebe3fd0bf2731f0938c437b14 36204 keystone_9.0.0-2~bpo8+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://keystone.openstack.org/"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"keystone"
+	],
+	"Package-List": [
+		"keystone deb net extra arch=all keystone-doc deb doc extra arch=all python-keystone deb python extra arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/openstack/keystone.git/"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/openstack/keystone.git"
+	],
+	"Version": [
+		"2:9.0.0-2~bpo8+1"
+	]
 }

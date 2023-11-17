@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "opendnssec-common, opendnssec, opendnssec-doc, opendnssec-enforcer, opendnssec-enforcer-mysql, opendnssec-enforcer-sqlite3, opendnssec-signer, libhsm-bin, opendnssec-dbg-mysql, opendnssec-dbg-sqlite3"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-autoreconf, autotools-dev, libxml2-utils, xsltproc, libxml2-dev, libmysqlclient-dev, libcurl4-openssl-dev, mysql-client | mariadb-client, libsqlite3-dev, sqlite3, libldns-dev (>= 1.6.14~), libcunit1-dev, opensc, procps, graphviz, doxygen"
-  ],
-  "Checksums-Sha1": [
-    "ec10e98e8c3610c5e6a91db639c7b34e6889adf8 2816 opendnssec_1.4.6-6.dsc 2318b31546d0d4118cd03b9591ba76d259e1b0b0 1014314 opendnssec_1.4.6.orig.tar.gz 7814f8a18f2483903d27d48b1b7233e903570d01 16912 opendnssec_1.4.6-6.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "eb5054f9764ba699c0bd2be6d38177e0a081cfa6431aec0a19f18bab47d70053 2816 opendnssec_1.4.6-6.dsc 53f9c454f331822925d76c9d9e5e7cb3fe2dfb03e3c467f67f9412f10d0fd5ec 1014314 opendnssec_1.4.6.orig.tar.gz e63716ac3f2cc622c60ab48f36740ff5f076e0e584240caef277482ea540993e 16912 opendnssec_1.4.6-6.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/o/opendnssec"
-  ],
-  "Files": [
-    "1f7ba3ae7859ee27a2e0d744bd9480fa 2816 opendnssec_1.4.6-6.dsc d241a6e4660aad92044f61568d32d4dd 1014314 opendnssec_1.4.6.orig.tar.gz 950a14f6d3bd8818482be179be4303bb 16912 opendnssec_1.4.6-6.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.opendnssec.org/"
-  ],
-  "Maintainer": [
-    "Ondřej Surý <ondrej@debian.org>"
-  ],
-  "Package": [
-    "opendnssec"
-  ],
-  "Package-List": [
-    "libhsm-bin deb misc extra arch=any opendnssec deb misc extra arch=all opendnssec-common deb misc extra arch=all opendnssec-dbg-mysql deb debug extra arch=any opendnssec-dbg-sqlite3 deb debug extra arch=any opendnssec-doc deb doc extra arch=all opendnssec-enforcer deb admin extra arch=all opendnssec-enforcer-mysql deb admin extra arch=any opendnssec-enforcer-sqlite3 deb admin extra arch=any opendnssec-signer deb admin extra arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/?p=pkg-nlnetlabs/opendnssec.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-nlnetlabs/opendnssec.git"
-  ],
-  "Version": [
-    "1:1.4.6-6"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"opendnssec-common, opendnssec, opendnssec-doc, opendnssec-enforcer, opendnssec-enforcer-mysql, opendnssec-enforcer-sqlite3, opendnssec-signer, libhsm-bin, opendnssec-dbg-mysql, opendnssec-dbg-sqlite3"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-autoreconf, autotools-dev, libxml2-utils, xsltproc, libxml2-dev, libmysqlclient-dev, libcurl4-openssl-dev, mysql-client | mariadb-client, libsqlite3-dev, sqlite3, libldns-dev (>= 1.6.14~), libcunit1-dev, opensc, procps, graphviz, doxygen"
+	],
+	"Checksums-Sha1": [
+		"ec10e98e8c3610c5e6a91db639c7b34e6889adf8 2816 opendnssec_1.4.6-6.dsc 2318b31546d0d4118cd03b9591ba76d259e1b0b0 1014314 opendnssec_1.4.6.orig.tar.gz 7814f8a18f2483903d27d48b1b7233e903570d01 16912 opendnssec_1.4.6-6.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"eb5054f9764ba699c0bd2be6d38177e0a081cfa6431aec0a19f18bab47d70053 2816 opendnssec_1.4.6-6.dsc 53f9c454f331822925d76c9d9e5e7cb3fe2dfb03e3c467f67f9412f10d0fd5ec 1014314 opendnssec_1.4.6.orig.tar.gz e63716ac3f2cc622c60ab48f36740ff5f076e0e584240caef277482ea540993e 16912 opendnssec_1.4.6-6.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/o/opendnssec"
+	],
+	"Files": [
+		"1f7ba3ae7859ee27a2e0d744bd9480fa 2816 opendnssec_1.4.6-6.dsc d241a6e4660aad92044f61568d32d4dd 1014314 opendnssec_1.4.6.orig.tar.gz 950a14f6d3bd8818482be179be4303bb 16912 opendnssec_1.4.6-6.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.opendnssec.org/"
+	],
+	"Maintainer": [
+		"Ondřej Surý <ondrej@debian.org>"
+	],
+	"Package": [
+		"opendnssec"
+	],
+	"Package-List": [
+		"libhsm-bin deb misc extra arch=any opendnssec deb misc extra arch=all opendnssec-common deb misc extra arch=all opendnssec-dbg-mysql deb debug extra arch=any opendnssec-dbg-sqlite3 deb debug extra arch=any opendnssec-doc deb doc extra arch=all opendnssec-enforcer deb admin extra arch=all opendnssec-enforcer-mysql deb admin extra arch=any opendnssec-enforcer-sqlite3 deb admin extra arch=any opendnssec-signer deb admin extra arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/?p=pkg-nlnetlabs/opendnssec.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-nlnetlabs/opendnssec.git"
+	],
+	"Version": [
+		"1:1.4.6-6"
+	]
 }

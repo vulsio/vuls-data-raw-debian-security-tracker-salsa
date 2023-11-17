@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libgimp2.0, gimp, gimp-data, libgimp2.0-dev, libgimp2.0-doc, gimp-dbg"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), cdbs (>= 0.4.97), autotools-dev, dh-autoreconf, gettext, gnome-pkg-tools, gtk-doc-tools (>= 1.0), intltool (>= 0.40.1), iso-codes, libaa1-dev, libart-2.0-dev, libasound2-dev (>= 1.0.0) [linux-any], libatk1.0-dev (>= 2.2.0), libbabl-dev (>= 0.1.10), libbz2-dev, libcairo2-dev (>= 1.10.2), libcurl4-gnutls-dev (>= 7.15.1), libdbus-glib-1-dev (>= 0.70), libexif-dev (>= 0.6.15), libfreetype6-dev (>= 2.2), libfontconfig1-dev (>= 2.2.0), libglib2.0-dev (>= 2.30.2), libglib2.0-doc, libgegl-dev (>= 0.3.0), libgtk2.0-dev (>= 2.24.10), libgtk2.0-doc, libgdk-pixbuf2.0-dev (>= 2.24.1), libgdk-pixbuf2.0-doc, libgs-dev, libgudev-1.0-dev (>= 167) [linux-any], libice-dev, libjpeg-dev, liblcms2-dev (>= 2.2), libmng-dev, libpango1.0-dev (>= 1.29.4), libpng-dev, libpoppler-glib-dev (>= 0.12.4), librsvg2-dev (>= 2.14.0), libsm-dev, libtiff-dev, libwmf-dev (>= 0.2.8), libx11-dev, libxcursor-dev, libxmu-dev, libxpm-dev, libxt-dev, zlib1g-dev, patchutils, python-dev (>= 2.6.6-3), python-gtk2-dev (>= 2.10.4), xsltproc"
-  ],
-  "Checksums-Sha256": [
-    "19e837214c93d16b2c32c9d3c7760ed2a0e598c56ee3044bcc5af3e908a2f896 3310 gimp_2.8.18-1+deb9u1.dsc 39dd2247c678deaf5cc664397d3c6bd4fb910d3472290fd54b52b441b5815441 20824198 gimp_2.8.18.orig.tar.bz2 8bbf100f772506de22e5ce66a8d520f326065ad0690d818723ff75efe58d3972 45212 gimp_2.8.18-1+deb9u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/g/gimp"
-  ],
-  "Files": [
-    "2fcb5534d2ddb552693af1f4a5af325a 3310 gimp_2.8.18-1+deb9u1.dsc 5adaa11a68bc8a42bb2c778fee4d389c 20824198 gimp_2.8.18.orig.tar.bz2 34c459aea0fe89203cff012c1a23e459 45212 gimp_2.8.18-1+deb9u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.gimp.org/"
-  ],
-  "Maintainer": [
-    "Ari Pollak <ari@debian.org>"
-  ],
-  "Package": [
-    "gimp"
-  ],
-  "Package-List": [
-    "gimp deb graphics optional arch=any gimp-data deb graphics optional arch=all gimp-dbg deb debug extra arch=any libgimp2.0 deb libs optional arch=any libgimp2.0-dev deb libdevel optional arch=any libgimp2.0-doc deb doc optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "graphics"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Jordi Mallach <jordi@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=collab-maint/gimp.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/collab-maint/gimp.git"
-  ],
-  "Version": [
-    "2.8.18-1+deb9u1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libgimp2.0, gimp, gimp-data, libgimp2.0-dev, libgimp2.0-doc, gimp-dbg"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), cdbs (>= 0.4.97), autotools-dev, dh-autoreconf, gettext, gnome-pkg-tools, gtk-doc-tools (>= 1.0), intltool (>= 0.40.1), iso-codes, libaa1-dev, libart-2.0-dev, libasound2-dev (>= 1.0.0) [linux-any], libatk1.0-dev (>= 2.2.0), libbabl-dev (>= 0.1.10), libbz2-dev, libcairo2-dev (>= 1.10.2), libcurl4-gnutls-dev (>= 7.15.1), libdbus-glib-1-dev (>= 0.70), libexif-dev (>= 0.6.15), libfreetype6-dev (>= 2.2), libfontconfig1-dev (>= 2.2.0), libglib2.0-dev (>= 2.30.2), libglib2.0-doc, libgegl-dev (>= 0.3.0), libgtk2.0-dev (>= 2.24.10), libgtk2.0-doc, libgdk-pixbuf2.0-dev (>= 2.24.1), libgdk-pixbuf2.0-doc, libgs-dev, libgudev-1.0-dev (>= 167) [linux-any], libice-dev, libjpeg-dev, liblcms2-dev (>= 2.2), libmng-dev, libpango1.0-dev (>= 1.29.4), libpng-dev, libpoppler-glib-dev (>= 0.12.4), librsvg2-dev (>= 2.14.0), libsm-dev, libtiff-dev, libwmf-dev (>= 0.2.8), libx11-dev, libxcursor-dev, libxmu-dev, libxpm-dev, libxt-dev, zlib1g-dev, patchutils, python-dev (>= 2.6.6-3), python-gtk2-dev (>= 2.10.4), xsltproc"
+	],
+	"Checksums-Sha256": [
+		"19e837214c93d16b2c32c9d3c7760ed2a0e598c56ee3044bcc5af3e908a2f896 3310 gimp_2.8.18-1+deb9u1.dsc 39dd2247c678deaf5cc664397d3c6bd4fb910d3472290fd54b52b441b5815441 20824198 gimp_2.8.18.orig.tar.bz2 8bbf100f772506de22e5ce66a8d520f326065ad0690d818723ff75efe58d3972 45212 gimp_2.8.18-1+deb9u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/gimp"
+	],
+	"Files": [
+		"2fcb5534d2ddb552693af1f4a5af325a 3310 gimp_2.8.18-1+deb9u1.dsc 5adaa11a68bc8a42bb2c778fee4d389c 20824198 gimp_2.8.18.orig.tar.bz2 34c459aea0fe89203cff012c1a23e459 45212 gimp_2.8.18-1+deb9u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.gimp.org/"
+	],
+	"Maintainer": [
+		"Ari Pollak <ari@debian.org>"
+	],
+	"Package": [
+		"gimp"
+	],
+	"Package-List": [
+		"gimp deb graphics optional arch=any gimp-data deb graphics optional arch=all gimp-dbg deb debug extra arch=any libgimp2.0 deb libs optional arch=any libgimp2.0-dev deb libdevel optional arch=any libgimp2.0-doc deb doc optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"graphics"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Jordi Mallach <jordi@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=collab-maint/gimp.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/collab-maint/gimp.git"
+	],
+	"Version": [
+		"2.8.18-1+deb9u1"
+	]
 }

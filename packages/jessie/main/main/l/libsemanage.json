@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "linux-any all"
-  ],
-  "Binary": [
-    "libsemanage-common, libsemanage1, libsemanage1-dev, ruby-semanage, python-semanage"
-  ],
-  "Build-Depends": [
-    "bison, debhelper (>= 9), file, flex, gem2deb (>= 0.5.0~), libaudit-dev, libbz2-dev, libcunit1-dev, libselinux1-dev (>= 2.3), libsepol1-dev (>= 2.3), libustr-dev, pkg-config, python-all-dev (>= 2.6.6-3~), swig"
-  ],
-  "Checksums-Sha1": [
-    "812685c8d13d0389a7394820e89b32fb09cf80b8 2131 libsemanage_2.3-1.dsc 600cc5d47753fc8ff865611ae8dd7bf38c0a8ab2 138231 libsemanage_2.3.orig.tar.gz 943a2387f6e80ebff5ec59d8f7e51f22da0360e7 14848 libsemanage_2.3-1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "21b321c61399deeb3d1b04b76a0c9f43e968371f3afc8a8eb859e3cc79f295aa 2131 libsemanage_2.3-1.dsc 03e09e35e611c286e446bef92b6023ef2623815996f5a53394bb02e49a312e4b 138231 libsemanage_2.3.orig.tar.gz e6e8002ae5084daf6628ac836e4724005dd7591f9a015203bb55e445508e55e6 14848 libsemanage_2.3-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/libs/libsemanage"
-  ],
-  "Files": [
-    "9e5e5048a466a86e854d22d5d7ddda77 2131 libsemanage_2.3-1.dsc e564e2b92d18db35707060da29cddab9 138231 libsemanage_2.3.orig.tar.gz 03d185e6242db07e421be4a9f638e163 14848 libsemanage_2.3-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://userspace.selinuxproject.org/"
-  ],
-  "Maintainer": [
-    "Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "libsemanage"
-  ],
-  "Package-List": [
-    "libsemanage-common deb libs optional arch=all libsemanage1 deb libs optional arch=linux-any libsemanage1-dev deb libdevel optional arch=linux-any python-semanage deb python optional arch=linux-any ruby-semanage deb ruby optional arch=linux-any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Ruby-Versions": [
-    "all"
-  ],
-  "Section": [
-    "libdevel"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Uploaders": [
-    "Manoj Srivastava <srivasta@debian.org>, Russell Coker <russell@coker.com.au>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=selinux/libsemanage.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/selinux/libsemanage.git"
-  ],
-  "Version": [
-    "2.3-1"
-  ]
+	"Architecture": [
+		"linux-any all"
+	],
+	"Binary": [
+		"libsemanage-common, libsemanage1, libsemanage1-dev, ruby-semanage, python-semanage"
+	],
+	"Build-Depends": [
+		"bison, debhelper (>= 9), file, flex, gem2deb (>= 0.5.0~), libaudit-dev, libbz2-dev, libcunit1-dev, libselinux1-dev (>= 2.3), libsepol1-dev (>= 2.3), libustr-dev, pkg-config, python-all-dev (>= 2.6.6-3~), swig"
+	],
+	"Checksums-Sha1": [
+		"812685c8d13d0389a7394820e89b32fb09cf80b8 2131 libsemanage_2.3-1.dsc 600cc5d47753fc8ff865611ae8dd7bf38c0a8ab2 138231 libsemanage_2.3.orig.tar.gz 943a2387f6e80ebff5ec59d8f7e51f22da0360e7 14848 libsemanage_2.3-1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"21b321c61399deeb3d1b04b76a0c9f43e968371f3afc8a8eb859e3cc79f295aa 2131 libsemanage_2.3-1.dsc 03e09e35e611c286e446bef92b6023ef2623815996f5a53394bb02e49a312e4b 138231 libsemanage_2.3.orig.tar.gz e6e8002ae5084daf6628ac836e4724005dd7591f9a015203bb55e445508e55e6 14848 libsemanage_2.3-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/libs/libsemanage"
+	],
+	"Files": [
+		"9e5e5048a466a86e854d22d5d7ddda77 2131 libsemanage_2.3-1.dsc e564e2b92d18db35707060da29cddab9 138231 libsemanage_2.3.orig.tar.gz 03d185e6242db07e421be4a9f638e163 14848 libsemanage_2.3-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://userspace.selinuxproject.org/"
+	],
+	"Maintainer": [
+		"Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"libsemanage"
+	],
+	"Package-List": [
+		"libsemanage-common deb libs optional arch=all libsemanage1 deb libs optional arch=linux-any libsemanage1-dev deb libdevel optional arch=linux-any python-semanage deb python optional arch=linux-any ruby-semanage deb ruby optional arch=linux-any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Ruby-Versions": [
+		"all"
+	],
+	"Section": [
+		"libdevel"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Uploaders": [
+		"Manoj Srivastava <srivasta@debian.org>, Russell Coker <russell@coker.com.au>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=selinux/libsemanage.git;a=summary"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/selinux/libsemanage.git"
+	],
+	"Version": [
+		"2.3-1"
+	]
 }

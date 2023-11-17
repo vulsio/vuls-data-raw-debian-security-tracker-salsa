@@ -1,50 +1,50 @@
 {
-  "header": {
-    "line": "CVE-2017-XXXX [out-of-bounds read in eexec_line()]",
-    "name": "TEMP-0868134-294030",
-    "description": "[out-of-bounds read in eexec_line()]"
-  },
-  "annotations": [
-    {
-      "line": "\t- t1utils 1.40-1 (bug #868134; unimportant)",
-      "type": "package",
-      "package": "t1utils",
-      "kind": "fixed",
-      "version": "1.40-1",
-      "flags": [
-        {
-          "bug": 868134
-        },
-        {
-          "severity": "unimportant"
-        }
-      ]
-    },
-    {
-      "line": "\t[jessie] - t1utils <not-affected> (Vulnerable code introduced in 1.39)",
-      "type": "package",
-      "release": "jessie",
-      "package": "t1utils",
-      "kind": "not-affected",
-      "description": "Vulnerable code introduced in 1.39"
-    },
-    {
-      "line": "\t[wheezy] - t1utils <not-affected> (Vulnerable code introduced in 1.39)",
-      "type": "package",
-      "release": "wheezy",
-      "package": "t1utils",
-      "kind": "not-affected",
-      "description": "Vulnerable code introduced in 1.39"
-    },
-    {
-      "line": "\tNOTE: Crash in CLI tool, no security impact",
-      "type": "NOTE",
-      "description": "Crash in CLI tool, no security impact"
-    },
-    {
-      "line": "\tNOTE: https://github.com/kohler/t1utils/issues/6",
-      "type": "NOTE",
-      "description": "https://github.com/kohler/t1utils/issues/6"
-    }
-  ]
+	"header": {
+		"line": "CVE-2017-XXXX [out-of-bounds read in eexec_line()]",
+		"name": "TEMP-0868134-294030",
+		"description": "[out-of-bounds read in eexec_line()]"
+	},
+	"annotations": [
+		{
+			"line": "\t- t1utils 1.40-1 (bug #868134; unimportant)",
+			"type": "package",
+			"package": "t1utils",
+			"kind": "fixed",
+			"version": "1.40-1",
+			"flags": [
+				{
+					"bug": 868134
+				},
+				{
+					"severity": "unimportant"
+				}
+			]
+		},
+		{
+			"line": "\t[jessie] - t1utils <not-affected> (Vulnerable code introduced in 1.39)",
+			"type": "package",
+			"release": "jessie",
+			"package": "t1utils",
+			"kind": "not-affected",
+			"description": "Vulnerable code introduced in 1.39"
+		},
+		{
+			"line": "\t[wheezy] - t1utils <not-affected> (Vulnerable code introduced in 1.39)",
+			"type": "package",
+			"release": "wheezy",
+			"package": "t1utils",
+			"kind": "not-affected",
+			"description": "Vulnerable code introduced in 1.39"
+		},
+		{
+			"line": "\tNOTE: Crash in CLI tool, no security impact",
+			"type": "NOTE",
+			"description": "Crash in CLI tool, no security impact"
+		},
+		{
+			"line": "\tNOTE: https://github.com/kohler/t1utils/issues/6",
+			"type": "NOTE",
+			"description": "https://github.com/kohler/t1utils/issues/6"
+		}
+	]
 }

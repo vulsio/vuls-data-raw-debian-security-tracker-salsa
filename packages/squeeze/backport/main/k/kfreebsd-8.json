@@ -1,53 +1,53 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "kfreebsd-source-8.2, kfreebsd-headers-8.2-1, kfreebsd-image-8.2-1-amd64, kfreebsd-image-8-amd64, kfreebsd-headers-8.2-1-amd64, kfreebsd-headers-8-amd64, kfreebsd-image-8.2-1-486, kfreebsd-image-8-486, kfreebsd-headers-8.2-1-486, kfreebsd-headers-8-486, kfreebsd-image-8.2-1-686, kfreebsd-image-8-686, kfreebsd-headers-8.2-1-686, kfreebsd-headers-8-686, kfreebsd-image-8.2-1-686-smp, kfreebsd-image-8-686-smp, kfreebsd-headers-8.2-1-686-smp, kfreebsd-headers-8-686-smp, kfreebsd-image-8.2-1-xen, kfreebsd-image-8-xen, kfreebsd-headers-8.2-1-xen, kfreebsd-headers-8-xen, kfreebsd-image-8.2-1-malta, kfreebsd-image-8-malta, kfreebsd-headers-8.2-1-malta, kfreebsd-headers-8-malta"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 5.0.0), bzip2, sharutils, flex-old | flex, freebsd-buildutils (>= 8.1-2) [!kfreebsd-any] | freebsd-buildutils (>= 7) [kfreebsd-any], gcc-4.4, libdb-dev, libbsd-dev, libsbuf-dev, libsbuf-dev (>= 8.2-2) | kfreebsd-kernel-headers (<< 0.56), freebsd-buildutils (>= 8.2-4) [any-mipsel]"
-  ],
-  "Checksums-Sha1": [
-    "a76d09f893201db6db27054aa76dba9ba0440c36 2234 kfreebsd-8_8.2-15~bpo60+1.dsc cd98de0934c8df9ef8ee31573be51a11190f6bc9 28312093 kfreebsd-8_8.2.orig.tar.gz 47f980854a183f1bc76b67db9393d5533cb92809 139192 kfreebsd-8_8.2-15~bpo60+1.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "8ef4a4a946ac78ded28bbbafade1b25055856e133a3c29a376fa4128b2f4fdde 2234 kfreebsd-8_8.2-15~bpo60+1.dsc 1a7608f5922236a89c1a40f83969d9c1a1c4d83ba63a1951b8edb35791a7ed01 28312093 kfreebsd-8_8.2.orig.tar.gz 9cce324454cdccde9f1a0303b2d3f0043791058cc12bc1c43969b93ff068f389 139192 kfreebsd-8_8.2-15~bpo60+1.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/k/kfreebsd-8"
-  ],
-  "Files": [
-    "49da21359043ccaeabaa20ba0cc2709a 2234 kfreebsd-8_8.2-15~bpo60+1.dsc cfbb3358defa899261ac9de232c8210b 28312093 kfreebsd-8_8.2.orig.tar.gz 77a1dcd05629d522ac8a4eb64d9c5bea 139192 kfreebsd-8_8.2-15~bpo60+1.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "GNU/kFreeBSD Maintainers <debian-bsd@lists.debian.org>"
-  ],
-  "Package": [
-    "kfreebsd-8"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "kernel"
-  ],
-  "Standards-Version": [
-    "3.9.2"
-  ],
-  "Uploaders": [
-    "Aurelien Jarno <aurel32@debian.org>, Guillem Jover <guillem@debian.org>, Robert Millan <rmh@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://svn.debian.org/wsvn/glibc-bsd/trunk/kfreebsd-8/"
-  ],
-  "Vcs-Svn": [
-    "svn://svn.debian.org/glibc-bsd/trunk/kfreebsd-8/"
-  ],
-  "Version": [
-    "8.2-15~bpo60+1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"kfreebsd-source-8.2, kfreebsd-headers-8.2-1, kfreebsd-image-8.2-1-amd64, kfreebsd-image-8-amd64, kfreebsd-headers-8.2-1-amd64, kfreebsd-headers-8-amd64, kfreebsd-image-8.2-1-486, kfreebsd-image-8-486, kfreebsd-headers-8.2-1-486, kfreebsd-headers-8-486, kfreebsd-image-8.2-1-686, kfreebsd-image-8-686, kfreebsd-headers-8.2-1-686, kfreebsd-headers-8-686, kfreebsd-image-8.2-1-686-smp, kfreebsd-image-8-686-smp, kfreebsd-headers-8.2-1-686-smp, kfreebsd-headers-8-686-smp, kfreebsd-image-8.2-1-xen, kfreebsd-image-8-xen, kfreebsd-headers-8.2-1-xen, kfreebsd-headers-8-xen, kfreebsd-image-8.2-1-malta, kfreebsd-image-8-malta, kfreebsd-headers-8.2-1-malta, kfreebsd-headers-8-malta"
+	],
+	"Build-Depends": [
+		"debhelper (>= 5.0.0), bzip2, sharutils, flex-old | flex, freebsd-buildutils (>= 8.1-2) [!kfreebsd-any] | freebsd-buildutils (>= 7) [kfreebsd-any], gcc-4.4, libdb-dev, libbsd-dev, libsbuf-dev, libsbuf-dev (>= 8.2-2) | kfreebsd-kernel-headers (<< 0.56), freebsd-buildutils (>= 8.2-4) [any-mipsel]"
+	],
+	"Checksums-Sha1": [
+		"a76d09f893201db6db27054aa76dba9ba0440c36 2234 kfreebsd-8_8.2-15~bpo60+1.dsc cd98de0934c8df9ef8ee31573be51a11190f6bc9 28312093 kfreebsd-8_8.2.orig.tar.gz 47f980854a183f1bc76b67db9393d5533cb92809 139192 kfreebsd-8_8.2-15~bpo60+1.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"8ef4a4a946ac78ded28bbbafade1b25055856e133a3c29a376fa4128b2f4fdde 2234 kfreebsd-8_8.2-15~bpo60+1.dsc 1a7608f5922236a89c1a40f83969d9c1a1c4d83ba63a1951b8edb35791a7ed01 28312093 kfreebsd-8_8.2.orig.tar.gz 9cce324454cdccde9f1a0303b2d3f0043791058cc12bc1c43969b93ff068f389 139192 kfreebsd-8_8.2-15~bpo60+1.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/k/kfreebsd-8"
+	],
+	"Files": [
+		"49da21359043ccaeabaa20ba0cc2709a 2234 kfreebsd-8_8.2-15~bpo60+1.dsc cfbb3358defa899261ac9de232c8210b 28312093 kfreebsd-8_8.2.orig.tar.gz 77a1dcd05629d522ac8a4eb64d9c5bea 139192 kfreebsd-8_8.2-15~bpo60+1.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"GNU/kFreeBSD Maintainers <debian-bsd@lists.debian.org>"
+	],
+	"Package": [
+		"kfreebsd-8"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"kernel"
+	],
+	"Standards-Version": [
+		"3.9.2"
+	],
+	"Uploaders": [
+		"Aurelien Jarno <aurel32@debian.org>, Guillem Jover <guillem@debian.org>, Robert Millan <rmh@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://svn.debian.org/wsvn/glibc-bsd/trunk/kfreebsd-8/"
+	],
+	"Vcs-Svn": [
+		"svn://svn.debian.org/glibc-bsd/trunk/kfreebsd-8/"
+	],
+	"Version": [
+		"8.2-15~bpo60+1"
+	]
 }

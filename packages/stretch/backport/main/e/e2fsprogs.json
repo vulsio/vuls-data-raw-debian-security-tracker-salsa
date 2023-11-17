@@ -1,53 +1,53 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "fuse2fs, e2fsck-static, e2fsprogs-l10n, libcomerr2, libcom-err2, comerr-dev, libss2, ss-dev, e2fsprogs-udeb, e2fslibs, e2fslibs-dev, libext2fs2, libext2fs-dev, e2fsprogs"
-  ],
-  "Build-Depends": [
-    "gettext, texinfo, pkg-config, libfuse-dev [linux-any kfreebsd-any] <!pkg.e2fsprogs.no-fuse2fs>, libattr1-dev, debhelper (>= 9.0), libblkid-dev, uuid-dev, m4"
-  ],
-  "Checksums-Sha256": [
-    "266f6aca458993979627a0fa0ddd2c2e2ff651326d215c43ad8cb68c62db37d4 2775 e2fsprogs_1.44.5-1~bpo9+1.dsc 2e211fae27ef74d5af4a4e40b10b8df7f87c655933bd171aab4889bfc4e6d1cc 7619237 e2fsprogs_1.44.5.orig.tar.gz c0e3e4e51f46c005890963b005015b784b2f19e291a16a15681b9906528f557e 488 e2fsprogs_1.44.5.orig.tar.gz.asc 24490561c95b0d544115a464939a043bbd749c653bee979bafb2d23d81bcabdd 78112 e2fsprogs_1.44.5-1~bpo9+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/e/e2fsprogs"
-  ],
-  "Files": [
-    "c4b479ed3ec1772d83b821f71b30f286 2775 e2fsprogs_1.44.5-1~bpo9+1.dsc 8d78b11d04d26c0b2dd149529441fa80 7619237 e2fsprogs_1.44.5.orig.tar.gz dde8ecabaf0f5082ef7de90e8bc9b8c6 488 e2fsprogs_1.44.5.orig.tar.gz.asc bf644780c4c77e202cfb3d70223c5ce6 78112 e2fsprogs_1.44.5-1~bpo9+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://e2fsprogs.sourceforge.net"
-  ],
-  "Maintainer": [
-    "Theodore Y. Ts'o <tytso@mit.edu>"
-  ],
-  "Package": [
-    "e2fsprogs"
-  ],
-  "Package-List": [
-    "comerr-dev deb libdevel optional arch=any e2fsck-static deb admin optional arch=any profile=!pkg.e2fsprogs.no-static-e2fsck e2fslibs deb oldlibs optional arch=any e2fslibs-dev deb oldlibs optional arch=all e2fsprogs deb admin required arch=any e2fsprogs-l10n deb localization optional arch=all e2fsprogs-udeb udeb debian-installer optional arch=any profile=!noudeb fuse2fs deb admin optional arch=linux-any,kfreebsd-any profile=!pkg.e2fsprogs.no-fuse2fs libcom-err2 deb libs optional arch=any libcomerr2 deb oldlibs optional arch=any libext2fs-dev deb libdevel optional arch=any libext2fs2 deb libs optional arch=any libss2 deb libs optional arch=any ss-dev deb libdevel optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.2.1"
-  ],
-  "Vcs-Browser": [
-    "https://git.kernel.org/pub/scm/fs/ext2/e2fsprogs.git"
-  ],
-  "Vcs-Git": [
-    "https://git.kernel.org/pub/scm/fs/ext2/e2fsprogs.git -b debian/master"
-  ],
-  "Version": [
-    "1.44.5-1~bpo9+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"fuse2fs, e2fsck-static, e2fsprogs-l10n, libcomerr2, libcom-err2, comerr-dev, libss2, ss-dev, e2fsprogs-udeb, e2fslibs, e2fslibs-dev, libext2fs2, libext2fs-dev, e2fsprogs"
+	],
+	"Build-Depends": [
+		"gettext, texinfo, pkg-config, libfuse-dev [linux-any kfreebsd-any] <!pkg.e2fsprogs.no-fuse2fs>, libattr1-dev, debhelper (>= 9.0), libblkid-dev, uuid-dev, m4"
+	],
+	"Checksums-Sha256": [
+		"266f6aca458993979627a0fa0ddd2c2e2ff651326d215c43ad8cb68c62db37d4 2775 e2fsprogs_1.44.5-1~bpo9+1.dsc 2e211fae27ef74d5af4a4e40b10b8df7f87c655933bd171aab4889bfc4e6d1cc 7619237 e2fsprogs_1.44.5.orig.tar.gz c0e3e4e51f46c005890963b005015b784b2f19e291a16a15681b9906528f557e 488 e2fsprogs_1.44.5.orig.tar.gz.asc 24490561c95b0d544115a464939a043bbd749c653bee979bafb2d23d81bcabdd 78112 e2fsprogs_1.44.5-1~bpo9+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/e/e2fsprogs"
+	],
+	"Files": [
+		"c4b479ed3ec1772d83b821f71b30f286 2775 e2fsprogs_1.44.5-1~bpo9+1.dsc 8d78b11d04d26c0b2dd149529441fa80 7619237 e2fsprogs_1.44.5.orig.tar.gz dde8ecabaf0f5082ef7de90e8bc9b8c6 488 e2fsprogs_1.44.5.orig.tar.gz.asc bf644780c4c77e202cfb3d70223c5ce6 78112 e2fsprogs_1.44.5-1~bpo9+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://e2fsprogs.sourceforge.net"
+	],
+	"Maintainer": [
+		"Theodore Y. Ts'o <tytso@mit.edu>"
+	],
+	"Package": [
+		"e2fsprogs"
+	],
+	"Package-List": [
+		"comerr-dev deb libdevel optional arch=any e2fsck-static deb admin optional arch=any profile=!pkg.e2fsprogs.no-static-e2fsck e2fslibs deb oldlibs optional arch=any e2fslibs-dev deb oldlibs optional arch=all e2fsprogs deb admin required arch=any e2fsprogs-l10n deb localization optional arch=all e2fsprogs-udeb udeb debian-installer optional arch=any profile=!noudeb fuse2fs deb admin optional arch=linux-any,kfreebsd-any profile=!pkg.e2fsprogs.no-fuse2fs libcom-err2 deb libs optional arch=any libcomerr2 deb oldlibs optional arch=any libext2fs-dev deb libdevel optional arch=any libext2fs2 deb libs optional arch=any libss2 deb libs optional arch=any ss-dev deb libdevel optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.2.1"
+	],
+	"Vcs-Browser": [
+		"https://git.kernel.org/pub/scm/fs/ext2/e2fsprogs.git"
+	],
+	"Vcs-Git": [
+		"https://git.kernel.org/pub/scm/fs/ext2/e2fsprogs.git -b debian/master"
+	],
+	"Version": [
+		"1.44.5-1~bpo9+1"
+	]
 }

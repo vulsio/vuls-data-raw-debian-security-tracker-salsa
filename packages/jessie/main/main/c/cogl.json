@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libcogl20, libcogl-common, libcogl-dev, libcogl20-dbg, libcogl-doc, gir1.2-cogl-1.0, libcogl-path20, libcogl-path-dev, libcogl-pango20, libcogl-pango-dev, libcogl-pango20-dbg, gir1.2-coglpango-1.0, libcogl-gles2-20, libcogl-gles2-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 8.1.3~), cdbs (>= 0.4.93~), dh-autoreconf, gnome-pkg-tools, gtk-doc-tools (>= 1.13), libgbm-dev [linux-any], libgl1-mesa-dev (>= 7.1~rc3-1~), libgles2-mesa-dev (>= 7.1~rc3-1~) | libgles2-dev, libcairo2-dev (>= 1.10), libpango1.0-dev (>= 1.28.3-5), libgdk-pixbuf2.0-dev (>= 2.0), libglib2.0-dev (>= 2.32.0), libwayland-dev (>= 1.1.90) [linux-any], libxfixes-dev (>= 1:3), libxdamage-dev, libxcomposite-dev (>= 1:0.4), libxrandr-dev (>= 2:1.2), gobject-introspection (>= 1.33.4-1~), libgirepository1.0-dev (>= 0.9.12)"
-  ],
-  "Checksums-Sha1": [
-    "845cf5268ffb97d9074cec60ef7b68ae1317d4ca 3329 cogl_1.18.2-3.dsc 40be1ceb45701d27d1e506efbbbdea8a06daf354 1635384 cogl_1.18.2.orig.tar.xz acfbdc11f7d6b6aa245502d6f3834525574d8559 13416 cogl_1.18.2-3.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "8c94d65da0b9e1cd9eff9aaab2e82d2e6586ce3a7e19c0d33cd81cb3b6992905 3329 cogl_1.18.2-3.dsc 9278e519d5480eb0379efd48db024e8fdbf93f01dff48a7e756b85b508a863aa 1635384 cogl_1.18.2.orig.tar.xz b3fbe8f7533eec79b42c1ce51e5aac89fe8c5c5206572a9980b5bb3cbbfc084c 13416 cogl_1.18.2-3.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/c/cogl"
-  ],
-  "Files": [
-    "0ab9e93f2824f71d9562434911bcc78b 3329 cogl_1.18.2-3.dsc 952155d526d35f297737266408e842b5 1635384 cogl_1.18.2.orig.tar.xz 71cd17d3563d3fd599156c6d89e6e27c 13416 cogl_1.18.2-3.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Rico Tzschichholz <ricotz@ubuntu.com>"
-  ],
-  "Package": [
-    "cogl"
-  ],
-  "Package-List": [
-    "gir1.2-cogl-1.0 deb introspection optional arch=any gir1.2-coglpango-1.0 deb introspection optional arch=any libcogl-common deb libs optional arch=all libcogl-dev deb libdevel optional arch=any libcogl-doc deb doc optional arch=all libcogl-gles2-20 deb libs optional arch=any libcogl-gles2-dev deb libdevel optional arch=any libcogl-pango-dev deb libdevel optional arch=any libcogl-pango20 deb libs optional arch=any libcogl-pango20-dbg deb debug extra arch=any libcogl-path-dev deb libdevel optional arch=any libcogl-path20 deb libs optional arch=any libcogl20 deb libs optional arch=any libcogl20-dbg deb debug extra arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "libs"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Uploaders": [
-    "Andreas Henriksson <andreas@fatal.se>, Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>, Emilio Pozuelo Monfort <pochu@debian.org>, Iain Lane <laney@debian.org>, Sjoerd Simons <sjoerd@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/cogl/"
-  ],
-  "Vcs-Svn": [
-    "svn://svn.debian.org/pkg-gnome/desktop/unstable/cogl"
-  ],
-  "Version": [
-    "1.18.2-3"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libcogl20, libcogl-common, libcogl-dev, libcogl20-dbg, libcogl-doc, gir1.2-cogl-1.0, libcogl-path20, libcogl-path-dev, libcogl-pango20, libcogl-pango-dev, libcogl-pango20-dbg, gir1.2-coglpango-1.0, libcogl-gles2-20, libcogl-gles2-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 8.1.3~), cdbs (>= 0.4.93~), dh-autoreconf, gnome-pkg-tools, gtk-doc-tools (>= 1.13), libgbm-dev [linux-any], libgl1-mesa-dev (>= 7.1~rc3-1~), libgles2-mesa-dev (>= 7.1~rc3-1~) | libgles2-dev, libcairo2-dev (>= 1.10), libpango1.0-dev (>= 1.28.3-5), libgdk-pixbuf2.0-dev (>= 2.0), libglib2.0-dev (>= 2.32.0), libwayland-dev (>= 1.1.90) [linux-any], libxfixes-dev (>= 1:3), libxdamage-dev, libxcomposite-dev (>= 1:0.4), libxrandr-dev (>= 2:1.2), gobject-introspection (>= 1.33.4-1~), libgirepository1.0-dev (>= 0.9.12)"
+	],
+	"Checksums-Sha1": [
+		"845cf5268ffb97d9074cec60ef7b68ae1317d4ca 3329 cogl_1.18.2-3.dsc 40be1ceb45701d27d1e506efbbbdea8a06daf354 1635384 cogl_1.18.2.orig.tar.xz acfbdc11f7d6b6aa245502d6f3834525574d8559 13416 cogl_1.18.2-3.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"8c94d65da0b9e1cd9eff9aaab2e82d2e6586ce3a7e19c0d33cd81cb3b6992905 3329 cogl_1.18.2-3.dsc 9278e519d5480eb0379efd48db024e8fdbf93f01dff48a7e756b85b508a863aa 1635384 cogl_1.18.2.orig.tar.xz b3fbe8f7533eec79b42c1ce51e5aac89fe8c5c5206572a9980b5bb3cbbfc084c 13416 cogl_1.18.2-3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/c/cogl"
+	],
+	"Files": [
+		"0ab9e93f2824f71d9562434911bcc78b 3329 cogl_1.18.2-3.dsc 952155d526d35f297737266408e842b5 1635384 cogl_1.18.2.orig.tar.xz 71cd17d3563d3fd599156c6d89e6e27c 13416 cogl_1.18.2-3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Rico Tzschichholz <ricotz@ubuntu.com>"
+	],
+	"Package": [
+		"cogl"
+	],
+	"Package-List": [
+		"gir1.2-cogl-1.0 deb introspection optional arch=any gir1.2-coglpango-1.0 deb introspection optional arch=any libcogl-common deb libs optional arch=all libcogl-dev deb libdevel optional arch=any libcogl-doc deb doc optional arch=all libcogl-gles2-20 deb libs optional arch=any libcogl-gles2-dev deb libdevel optional arch=any libcogl-pango-dev deb libdevel optional arch=any libcogl-pango20 deb libs optional arch=any libcogl-pango20-dbg deb debug extra arch=any libcogl-path-dev deb libdevel optional arch=any libcogl-path20 deb libs optional arch=any libcogl20 deb libs optional arch=any libcogl20-dbg deb debug extra arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"libs"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Uploaders": [
+		"Andreas Henriksson <andreas@fatal.se>, Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>, Emilio Pozuelo Monfort <pochu@debian.org>, Iain Lane <laney@debian.org>, Sjoerd Simons <sjoerd@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/cogl/"
+	],
+	"Vcs-Svn": [
+		"svn://svn.debian.org/pkg-gnome/desktop/unstable/cogl"
+	],
+	"Version": [
+		"1.18.2-3"
+	]
 }

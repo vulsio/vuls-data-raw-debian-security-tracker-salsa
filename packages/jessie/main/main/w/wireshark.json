@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "wireshark-common, wireshark, wireshark-qt, tshark, wireshark-dev, wireshark-dbg, wireshark-doc, libwireshark5, libwsutil4, libwsutil-dev, libwireshark-data, libwireshark-dev, libwiretap4, libwiretap-dev"
-  ],
-  "Build-Conflicts": [
-    "libsnmp-dev, libsnmp4.2-dev"
-  ],
-  "Build-Depends": [
-    "libgtk-3-dev, qtbase5-dev, qtbase5-dev-tools, qttools5-dev, qttools5-dev-tools, libpcap0.8-dev, flex, libz-dev, debhelper (>= 9), po-debconf, libtool, python (>= 2.6.6-3~), python-ply, libc-ares-dev, xsltproc, docbook-xsl (>= 1.64.1.0-0), docbook-xml, libxml2-utils, libpcre3-dev, libcap2-dev [linux-any] | libcap-dev (>= 2.17) [linux-any], bison, libgnutls28-dev (>= 3.2.14-1~), libgcrypt-dev, portaudio19-dev, libkrb5-dev, liblua5.2-dev, libsmi2-dev, libgeoip-dev, dpkg-dev (>= 1.16.1~), imagemagick, xdg-utils, libnl-genl-3-dev [linux-any], libnl-route-3-dev [linux-any], asciidoc, cmake, w3m"
-  ],
-  "Checksums-Sha1": [
-    "689fab70e8e68b134a2fd5f46172ec6a42c18ed8 3346 wireshark_1.12.1+g01b65bf-4+deb8u14.dsc 407f0a5f28c4ea34b0ea2b5a43e1da7632e357a9 25091052 wireshark_1.12.1+g01b65bf.orig.tar.xz 280a150dea1d7d465f946f842d4f9c60503eb2b3 169404 wireshark_1.12.1+g01b65bf-4+deb8u14.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "468ebc0449f6888d354e1c6f2c39aec57db5d78452b7ffe239d50ba787aa4364 3346 wireshark_1.12.1+g01b65bf-4+deb8u14.dsc 5244081064ba37780804983724e09263440866587f33f2a525a684b6d393d4cf 25091052 wireshark_1.12.1+g01b65bf.orig.tar.xz 22754a57a234325df6d94261141a09314c4350c705ea439ff0adf87c77456229 169404 wireshark_1.12.1+g01b65bf-4+deb8u14.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/w/wireshark"
-  ],
-  "Files": [
-    "0b0036cbd7027ddfebea0824236667ca 3346 wireshark_1.12.1+g01b65bf-4+deb8u14.dsc 9b573499932f20a6d5a25a1cb83e14f6 25091052 wireshark_1.12.1+g01b65bf.orig.tar.xz 7b994a795d675a68da67b4183d886632 169404 wireshark_1.12.1+g01b65bf-4+deb8u14.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.wireshark.org/"
-  ],
-  "Maintainer": [
-    "Balint Reczey <balint@balintreczey.hu>"
-  ],
-  "Package": [
-    "wireshark"
-  ],
-  "Package-List": [
-    "libwireshark-data deb libs optional arch=all libwireshark-dev deb libdevel optional arch=any libwireshark5 deb libs optional arch=any libwiretap-dev deb libdevel optional arch=any libwiretap4 deb libs optional arch=any libwsutil-dev deb libdevel optional arch=any libwsutil4 deb libs optional arch=any tshark deb net optional arch=any wireshark deb net optional arch=any wireshark-common deb net optional arch=any wireshark-dbg deb debug extra arch=any wireshark-dev deb devel optional arch=any wireshark-doc deb doc extra arch=all wireshark-qt deb net optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Vcs-Browser": [
-    "http://svn.debian.org/wsvn/collab-maint/ext-maint/wireshark/trunk/"
-  ],
-  "Vcs-Svn": [
-    "svn://svn.debian.org/svn/collab-maint/ext-maint/wireshark/trunk"
-  ],
-  "Version": [
-    "1.12.1+g01b65bf-4+deb8u14"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"wireshark-common, wireshark, wireshark-qt, tshark, wireshark-dev, wireshark-dbg, wireshark-doc, libwireshark5, libwsutil4, libwsutil-dev, libwireshark-data, libwireshark-dev, libwiretap4, libwiretap-dev"
+	],
+	"Build-Conflicts": [
+		"libsnmp-dev, libsnmp4.2-dev"
+	],
+	"Build-Depends": [
+		"libgtk-3-dev, qtbase5-dev, qtbase5-dev-tools, qttools5-dev, qttools5-dev-tools, libpcap0.8-dev, flex, libz-dev, debhelper (>= 9), po-debconf, libtool, python (>= 2.6.6-3~), python-ply, libc-ares-dev, xsltproc, docbook-xsl (>= 1.64.1.0-0), docbook-xml, libxml2-utils, libpcre3-dev, libcap2-dev [linux-any] | libcap-dev (>= 2.17) [linux-any], bison, libgnutls28-dev (>= 3.2.14-1~), libgcrypt-dev, portaudio19-dev, libkrb5-dev, liblua5.2-dev, libsmi2-dev, libgeoip-dev, dpkg-dev (>= 1.16.1~), imagemagick, xdg-utils, libnl-genl-3-dev [linux-any], libnl-route-3-dev [linux-any], asciidoc, cmake, w3m"
+	],
+	"Checksums-Sha1": [
+		"689fab70e8e68b134a2fd5f46172ec6a42c18ed8 3346 wireshark_1.12.1+g01b65bf-4+deb8u14.dsc 407f0a5f28c4ea34b0ea2b5a43e1da7632e357a9 25091052 wireshark_1.12.1+g01b65bf.orig.tar.xz 280a150dea1d7d465f946f842d4f9c60503eb2b3 169404 wireshark_1.12.1+g01b65bf-4+deb8u14.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"468ebc0449f6888d354e1c6f2c39aec57db5d78452b7ffe239d50ba787aa4364 3346 wireshark_1.12.1+g01b65bf-4+deb8u14.dsc 5244081064ba37780804983724e09263440866587f33f2a525a684b6d393d4cf 25091052 wireshark_1.12.1+g01b65bf.orig.tar.xz 22754a57a234325df6d94261141a09314c4350c705ea439ff0adf87c77456229 169404 wireshark_1.12.1+g01b65bf-4+deb8u14.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/w/wireshark"
+	],
+	"Files": [
+		"0b0036cbd7027ddfebea0824236667ca 3346 wireshark_1.12.1+g01b65bf-4+deb8u14.dsc 9b573499932f20a6d5a25a1cb83e14f6 25091052 wireshark_1.12.1+g01b65bf.orig.tar.xz 7b994a795d675a68da67b4183d886632 169404 wireshark_1.12.1+g01b65bf-4+deb8u14.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.wireshark.org/"
+	],
+	"Maintainer": [
+		"Balint Reczey <balint@balintreczey.hu>"
+	],
+	"Package": [
+		"wireshark"
+	],
+	"Package-List": [
+		"libwireshark-data deb libs optional arch=all libwireshark-dev deb libdevel optional arch=any libwireshark5 deb libs optional arch=any libwiretap-dev deb libdevel optional arch=any libwiretap4 deb libs optional arch=any libwsutil-dev deb libdevel optional arch=any libwsutil4 deb libs optional arch=any tshark deb net optional arch=any wireshark deb net optional arch=any wireshark-common deb net optional arch=any wireshark-dbg deb debug extra arch=any wireshark-dev deb devel optional arch=any wireshark-doc deb doc extra arch=all wireshark-qt deb net optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Vcs-Browser": [
+		"http://svn.debian.org/wsvn/collab-maint/ext-maint/wireshark/trunk/"
+	],
+	"Vcs-Svn": [
+		"svn://svn.debian.org/svn/collab-maint/ext-maint/wireshark/trunk"
+	],
+	"Version": [
+		"1.12.1+g01b65bf-4+deb8u14"
+	]
 }

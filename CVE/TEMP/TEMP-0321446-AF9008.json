@@ -1,32 +1,32 @@
 {
-  "header": {
-    "line": "CVE-2005-XXXX [clamav-getfile: Insecure use of temporary files]",
-    "name": "TEMP-0321446-AF9008",
-    "description": "[clamav-getfile: Insecure use of temporary files]"
-  },
-  "annotations": [
-    {
-      "line": "\t- clamav-getfiles 0.5-1 (bug #321446; medium)",
-      "type": "package",
-      "package": "clamav-getfiles",
-      "kind": "fixed",
-      "version": "0.5-1",
-      "flags": [
-        {
-          "bug": 321446
-        },
-        {
-          "severity": "medium"
-        }
-      ]
-    },
-    {
-      "line": "\t[sarge] - clamav-getfiles <not-affected> (Sarge version uses mktemp)",
-      "type": "package",
-      "release": "sarge",
-      "package": "clamav-getfiles",
-      "kind": "not-affected",
-      "description": "Sarge version uses mktemp"
-    }
-  ]
+	"header": {
+		"line": "CVE-2005-XXXX [clamav-getfile: Insecure use of temporary files]",
+		"name": "TEMP-0321446-AF9008",
+		"description": "[clamav-getfile: Insecure use of temporary files]"
+	},
+	"annotations": [
+		{
+			"line": "\t- clamav-getfiles 0.5-1 (bug #321446; medium)",
+			"type": "package",
+			"package": "clamav-getfiles",
+			"kind": "fixed",
+			"version": "0.5-1",
+			"flags": [
+				{
+					"bug": 321446
+				},
+				{
+					"severity": "medium"
+				}
+			]
+		},
+		{
+			"line": "\t[sarge] - clamav-getfiles <not-affected> (Sarge version uses mktemp)",
+			"type": "package",
+			"release": "sarge",
+			"package": "clamav-getfiles",
+			"kind": "not-affected",
+			"description": "Sarge version uses mktemp"
+		}
+	]
 }

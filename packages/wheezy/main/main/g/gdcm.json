@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libgdcm2.2, libgdcm-tools, libgdcm2-dev, libgdcm2.2-dbg, libgdcm-cil, php5-gdcm, libgdcm-java, python-gdcm, libvtkgdcm2.2, libvtkgdcm2-dev, libvtkgdcm-cil, php5-vtkgdcm, libvtkgdcm-java, python-vtkgdcm, libvtkgdcm-tools, gdcm-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), python-all-dev, libvtk-java, pvrg-jpeg, uuid-dev, libz-dev, libexpat-dev, doxygen-latex, ghostscript, swig (>= 2.0.7), cmake (>= 2.6.2), libvtk5-dev, libcharls-dev, javahelper, libopenjpeg-dev, graphviz, default-jdk, php5-dev, php5-cli, libpoppler-private-dev, libssl-dev, python-vtk, gccxml, libactiviz.net-cil [amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc ppc64 s390x sparc], mummy [amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc ppc64 s390x sparc], cli-common-dev (>= 0.8~) [amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc ppc64 s390x sparc], mono-devel (>= 2.10.5) [amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc ppc64 s390x sparc]"
-  ],
-  "Build-Depends-Indep": [
-    "vtk-doc"
-  ],
-  "Checksums-Sha1": [
-    "bf3f683251ae1ae0938384bcd5420e4017433349 3444 gdcm_2.2.0-14.1.dsc bd805a6337be414b4df899895ec77aab844e61ea 5528077 gdcm_2.2.0.orig.tar.gz 840413cf3525057a36d22d7f7693dd5ed9b467df 34605 gdcm_2.2.0-14.1.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "15a3df0362ebc131fc17221c29c2b87b94910eb7d1265048d643de5d502da6aa 3444 gdcm_2.2.0-14.1.dsc 14a904dadc12314f70613ea757436088cd20eeb53587c81b08ec537c62daca4f 5528077 gdcm_2.2.0.orig.tar.gz a0c9226bcb2a16312ab7bff5f0e89a773a21f21a22f9b616e4e3fc34b4465584 34605 gdcm_2.2.0-14.1.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/g/gdcm"
-  ],
-  "Files": [
-    "e1780125cd453684546b25ed902d3461 3444 gdcm_2.2.0-14.1.dsc 7a19400d16c16e6d65ac882975b47d57 5528077 gdcm_2.2.0.orig.tar.gz b5f2be0dbf3668751ac9df41e941de4f 34605 gdcm_2.2.0-14.1.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://gdcm.sourceforge.net/"
-  ],
-  "Maintainer": [
-    "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "gdcm"
-  ],
-  "Package-List": [
-    "gdcm-doc deb doc optional libgdcm-cil deb cli-mono optional libgdcm-java deb java optional libgdcm-tools deb utils optional libgdcm2-dev deb libdevel optional libgdcm2.2 deb libs optional libgdcm2.2-dbg deb debug extra libvtkgdcm-cil deb cli-mono optional libvtkgdcm-java deb java optional libvtkgdcm-tools deb utils optional libvtkgdcm2-dev deb libdevel optional libvtkgdcm2.2 deb libs optional php5-gdcm deb php optional php5-vtkgdcm deb php optional python-gdcm deb python optional python-vtkgdcm deb python optional"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "libs"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Mathieu Malaterre <malat@debian.org>, Andreas Tille <tille@debian.org>, Steve M. Robbins <smr@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/viewvc/debian-med/trunk/packages/gdcm/trunk/"
-  ],
-  "Vcs-Svn": [
-    "svn://svn.debian.org/debian-med/trunk/packages/gdcm/trunk/"
-  ],
-  "Version": [
-    "2.2.0-14.1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libgdcm2.2, libgdcm-tools, libgdcm2-dev, libgdcm2.2-dbg, libgdcm-cil, php5-gdcm, libgdcm-java, python-gdcm, libvtkgdcm2.2, libvtkgdcm2-dev, libvtkgdcm-cil, php5-vtkgdcm, libvtkgdcm-java, python-vtkgdcm, libvtkgdcm-tools, gdcm-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), python-all-dev, libvtk-java, pvrg-jpeg, uuid-dev, libz-dev, libexpat-dev, doxygen-latex, ghostscript, swig (>= 2.0.7), cmake (>= 2.6.2), libvtk5-dev, libcharls-dev, javahelper, libopenjpeg-dev, graphviz, default-jdk, php5-dev, php5-cli, libpoppler-private-dev, libssl-dev, python-vtk, gccxml, libactiviz.net-cil [amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc ppc64 s390x sparc], mummy [amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc ppc64 s390x sparc], cli-common-dev (>= 0.8~) [amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc ppc64 s390x sparc], mono-devel (>= 2.10.5) [amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc ppc64 s390x sparc]"
+	],
+	"Build-Depends-Indep": [
+		"vtk-doc"
+	],
+	"Checksums-Sha1": [
+		"bf3f683251ae1ae0938384bcd5420e4017433349 3444 gdcm_2.2.0-14.1.dsc bd805a6337be414b4df899895ec77aab844e61ea 5528077 gdcm_2.2.0.orig.tar.gz 840413cf3525057a36d22d7f7693dd5ed9b467df 34605 gdcm_2.2.0-14.1.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"15a3df0362ebc131fc17221c29c2b87b94910eb7d1265048d643de5d502da6aa 3444 gdcm_2.2.0-14.1.dsc 14a904dadc12314f70613ea757436088cd20eeb53587c81b08ec537c62daca4f 5528077 gdcm_2.2.0.orig.tar.gz a0c9226bcb2a16312ab7bff5f0e89a773a21f21a22f9b616e4e3fc34b4465584 34605 gdcm_2.2.0-14.1.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/g/gdcm"
+	],
+	"Files": [
+		"e1780125cd453684546b25ed902d3461 3444 gdcm_2.2.0-14.1.dsc 7a19400d16c16e6d65ac882975b47d57 5528077 gdcm_2.2.0.orig.tar.gz b5f2be0dbf3668751ac9df41e941de4f 34605 gdcm_2.2.0-14.1.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://gdcm.sourceforge.net/"
+	],
+	"Maintainer": [
+		"Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"gdcm"
+	],
+	"Package-List": [
+		"gdcm-doc deb doc optional libgdcm-cil deb cli-mono optional libgdcm-java deb java optional libgdcm-tools deb utils optional libgdcm2-dev deb libdevel optional libgdcm2.2 deb libs optional libgdcm2.2-dbg deb debug extra libvtkgdcm-cil deb cli-mono optional libvtkgdcm-java deb java optional libvtkgdcm-tools deb utils optional libvtkgdcm2-dev deb libdevel optional libvtkgdcm2.2 deb libs optional php5-gdcm deb php optional php5-vtkgdcm deb php optional python-gdcm deb python optional python-vtkgdcm deb python optional"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"libs"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Mathieu Malaterre <malat@debian.org>, Andreas Tille <tille@debian.org>, Steve M. Robbins <smr@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/viewvc/debian-med/trunk/packages/gdcm/trunk/"
+	],
+	"Vcs-Svn": [
+		"svn://svn.debian.org/debian-med/trunk/packages/gdcm/trunk/"
+	],
+	"Version": [
+		"2.2.0-14.1"
+	]
 }

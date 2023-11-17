@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-cinder, cinder-common, cinder-api, cinder-volume, cinder-scheduler, cinder-backup"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-systemd, openstack-pkg-tools (>= 22~), po-debconf, python-all (>= 2.6.6-3~), python-pbr (>= 0.6), python-setuptools, python-sphinx"
-  ],
-  "Build-Depends-Indep": [
-    "python-amqplib, python-anyjson (>= 0.3.3), python-babel (>= 1.3), python-coverage (>= 3.6), python-daemon, python-eventlet (>= 0.13.0), python-fixtures (>= 0.3.14), python-glanceclient (>= 1:0.9.0), python-greenlet (>= 0.3.2), python-hacking (>= 0.8.0), python-hp3parclient (>= 3.0), python-hplefthandclient, python-iso8601 (>= 0.1.9), python-keystoneclient (>= 1:0.7.0), python-kombu (>= 2.5.12), python-lockfile, python-lxml, python-migrate (>= 0.8.2), python-mock (>= 1.0), python-mox, python-mysqldb, python-netaddr, python-novaclient (>= 2:2.17.0), python-oslo.config (>= 1:1.2.1), python-oslo.messaging (>= 1.3.0~a9), python-oslo.rootwrap, python-oslosphinx, python-paramiko (>= 1.9.0), python-paste, python-pastedeploy, python-psycopg2, python-requests (>= 1.1), python-routes, python-rtslib-fb, python-six (>= 1.6.0), python-sqlalchemy, python-stevedore (>= 0.14), python-subunit (>= 0.0.18), python-suds, python-swiftclient (>= 1:1.6.0), python-taskflow (>= 0.1.3), python-testtools (>= 0.9.34), python-webob (>= 1.2.3), subunit (>= 0.0.18), testrepository (>= 0.0.18)"
-  ],
-  "Checksums-Sha1": [
-    "a76437b01acec2cb101f32d0588c290f06c4976a 3479 cinder_2014.1.3-11+deb8u1.dsc 87ac3f63c7a400517b27485a3cd28503371c918b 1057900 cinder_2014.1.3.orig.tar.xz 8c4b4f50548effcdfe9d66ebca11ead4c888a5b8 388652 cinder_2014.1.3-11+deb8u1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "5e06b7f6bd72624e5523f879a70000c82df08f4ccec22f8fcdfc4aee7f231626 3479 cinder_2014.1.3-11+deb8u1.dsc f552a73ecc1024aa765029171a50abebb5bfaf4d2d0f3384558118406ceadedc 1057900 cinder_2014.1.3.orig.tar.xz a93ba1d1b8b49807fe94b488e9ac2b8ef4bdc3ef8cc4dcefb1bde06a68df32c2 388652 cinder_2014.1.3-11+deb8u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/c/cinder"
-  ],
-  "Files": [
-    "193c08ea2eaa305cb42525d4bfa4c4f2 3479 cinder_2014.1.3-11+deb8u1.dsc 915ad0a7b5ae87a55362c984f2bfaa93 1057900 cinder_2014.1.3.orig.tar.xz c5ee30d39dbf95b9b8501b9c68748832 388652 cinder_2014.1.3-11+deb8u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://cinder.openstack.org/"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "cinder"
-  ],
-  "Package-List": [
-    "cinder-api deb net extra arch=all cinder-backup deb net extra arch=all cinder-common deb net extra arch=all cinder-scheduler deb net extra arch=all cinder-volume deb net extra arch=all python-cinder deb python extra arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>, Gustavo Panizzo <gfa@zumbi.com.ar>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=openstack/cinder.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/openstack/cinder.git"
-  ],
-  "Version": [
-    "2014.1.3-11+deb8u1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-cinder, cinder-common, cinder-api, cinder-volume, cinder-scheduler, cinder-backup"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-systemd, openstack-pkg-tools (>= 22~), po-debconf, python-all (>= 2.6.6-3~), python-pbr (>= 0.6), python-setuptools, python-sphinx"
+	],
+	"Build-Depends-Indep": [
+		"python-amqplib, python-anyjson (>= 0.3.3), python-babel (>= 1.3), python-coverage (>= 3.6), python-daemon, python-eventlet (>= 0.13.0), python-fixtures (>= 0.3.14), python-glanceclient (>= 1:0.9.0), python-greenlet (>= 0.3.2), python-hacking (>= 0.8.0), python-hp3parclient (>= 3.0), python-hplefthandclient, python-iso8601 (>= 0.1.9), python-keystoneclient (>= 1:0.7.0), python-kombu (>= 2.5.12), python-lockfile, python-lxml, python-migrate (>= 0.8.2), python-mock (>= 1.0), python-mox, python-mysqldb, python-netaddr, python-novaclient (>= 2:2.17.0), python-oslo.config (>= 1:1.2.1), python-oslo.messaging (>= 1.3.0~a9), python-oslo.rootwrap, python-oslosphinx, python-paramiko (>= 1.9.0), python-paste, python-pastedeploy, python-psycopg2, python-requests (>= 1.1), python-routes, python-rtslib-fb, python-six (>= 1.6.0), python-sqlalchemy, python-stevedore (>= 0.14), python-subunit (>= 0.0.18), python-suds, python-swiftclient (>= 1:1.6.0), python-taskflow (>= 0.1.3), python-testtools (>= 0.9.34), python-webob (>= 1.2.3), subunit (>= 0.0.18), testrepository (>= 0.0.18)"
+	],
+	"Checksums-Sha1": [
+		"a76437b01acec2cb101f32d0588c290f06c4976a 3479 cinder_2014.1.3-11+deb8u1.dsc 87ac3f63c7a400517b27485a3cd28503371c918b 1057900 cinder_2014.1.3.orig.tar.xz 8c4b4f50548effcdfe9d66ebca11ead4c888a5b8 388652 cinder_2014.1.3-11+deb8u1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"5e06b7f6bd72624e5523f879a70000c82df08f4ccec22f8fcdfc4aee7f231626 3479 cinder_2014.1.3-11+deb8u1.dsc f552a73ecc1024aa765029171a50abebb5bfaf4d2d0f3384558118406ceadedc 1057900 cinder_2014.1.3.orig.tar.xz a93ba1d1b8b49807fe94b488e9ac2b8ef4bdc3ef8cc4dcefb1bde06a68df32c2 388652 cinder_2014.1.3-11+deb8u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/c/cinder"
+	],
+	"Files": [
+		"193c08ea2eaa305cb42525d4bfa4c4f2 3479 cinder_2014.1.3-11+deb8u1.dsc 915ad0a7b5ae87a55362c984f2bfaa93 1057900 cinder_2014.1.3.orig.tar.xz c5ee30d39dbf95b9b8501b9c68748832 388652 cinder_2014.1.3-11+deb8u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://cinder.openstack.org/"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"cinder"
+	],
+	"Package-List": [
+		"cinder-api deb net extra arch=all cinder-backup deb net extra arch=all cinder-common deb net extra arch=all cinder-scheduler deb net extra arch=all cinder-volume deb net extra arch=all python-cinder deb python extra arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>, Gustavo Panizzo <gfa@zumbi.com.ar>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=openstack/cinder.git;a=summary"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/openstack/cinder.git"
+	],
+	"Version": [
+		"2014.1.3-11+deb8u1"
+	]
 }

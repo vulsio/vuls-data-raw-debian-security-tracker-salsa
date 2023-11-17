@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-oslo.utils-doc, python3-oslo.utils"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 10), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx"
-  ],
-  "Build-Depends-Indep": [
-    "bandit, python3-coverage, python3-ddt, python3-debtcollector, python3-eventlet, python3-fixtures <!nocheck>, python3-fixtures <!nodoc>, python3-hacking, python3-iso8601, python3-netaddr, python3-netifaces, python3-openstackdocstheme <!nodoc>, python3-oslo.config, python3-oslo.i18n, python3-oslotest, python3-packaging, python3-pyparsing, python3-stestr, python3-testscenarios, python3-testtools, python3-tz, subunit"
-  ],
-  "Checksums-Sha256": [
-    "69f49e5945f187dd5a3b148c60ea6ecc9818476a00e6b246cb6fc314368db935 2761 python-oslo.utils_6.2.1-2.dsc 59e52ded343c51402d74603e5ec43e1df7a3ac4869478c79a53b886e9e74d59b 70824 python-oslo.utils_6.2.1.orig.tar.xz 2ac73a265157d87b2724d8c10ace1c0faed97e90f6fce25e92f8e04db25559de 5028 python-oslo.utils_6.2.1-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/python-oslo.utils"
-  ],
-  "Files": [
-    "09f34bee4cb6eac2044577626dea0f1e 2761 python-oslo.utils_6.2.1-2.dsc 9cda2081f6c89ceda533e75845d266ea 70824 python-oslo.utils_6.2.1.orig.tar.xz b729d2e7a6f7db6cde848d9070fe2b97 5028 python-oslo.utils_6.2.1-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://launchpad.net/oslo"
-  ],
-  "Maintainer": [
-    "Debian OpenStack <team+openstack@tracker.debian.org>"
-  ],
-  "Package": [
-    "python-oslo.utils"
-  ],
-  "Package-List": [
-    "python-oslo.utils-doc deb doc optional arch=all profile=!nodoc python3-oslo.utils deb python optional arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.5.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "@builddeps@"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>, Corey Bryant <corey.bryant@canonical.com>, Michal Arbet <michal.arbet@ultimum.io>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/openstack-team/oslo/python-oslo.utils"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/openstack-team/oslo/python-oslo.utils.git"
-  ],
-  "Version": [
-    "6.2.1-2"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-oslo.utils-doc, python3-oslo.utils"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 10), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx"
+	],
+	"Build-Depends-Indep": [
+		"bandit, python3-coverage, python3-ddt, python3-debtcollector, python3-eventlet, python3-fixtures <!nocheck>, python3-fixtures <!nodoc>, python3-hacking, python3-iso8601, python3-netaddr, python3-netifaces, python3-openstackdocstheme <!nodoc>, python3-oslo.config, python3-oslo.i18n, python3-oslotest, python3-packaging, python3-pyparsing, python3-stestr, python3-testscenarios, python3-testtools, python3-tz, subunit"
+	],
+	"Checksums-Sha256": [
+		"69f49e5945f187dd5a3b148c60ea6ecc9818476a00e6b246cb6fc314368db935 2761 python-oslo.utils_6.2.1-2.dsc 59e52ded343c51402d74603e5ec43e1df7a3ac4869478c79a53b886e9e74d59b 70824 python-oslo.utils_6.2.1.orig.tar.xz 2ac73a265157d87b2724d8c10ace1c0faed97e90f6fce25e92f8e04db25559de 5028 python-oslo.utils_6.2.1-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-oslo.utils"
+	],
+	"Files": [
+		"09f34bee4cb6eac2044577626dea0f1e 2761 python-oslo.utils_6.2.1-2.dsc 9cda2081f6c89ceda533e75845d266ea 70824 python-oslo.utils_6.2.1.orig.tar.xz b729d2e7a6f7db6cde848d9070fe2b97 5028 python-oslo.utils_6.2.1-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://launchpad.net/oslo"
+	],
+	"Maintainer": [
+		"Debian OpenStack <team+openstack@tracker.debian.org>"
+	],
+	"Package": [
+		"python-oslo.utils"
+	],
+	"Package-List": [
+		"python-oslo.utils-doc deb doc optional arch=all profile=!nodoc python3-oslo.utils deb python optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"@builddeps@"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>, Corey Bryant <corey.bryant@canonical.com>, Michal Arbet <michal.arbet@ultimum.io>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/openstack-team/oslo/python-oslo.utils"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/openstack-team/oslo/python-oslo.utils.git"
+	],
+	"Version": [
+		"6.2.1-2"
+	]
 }

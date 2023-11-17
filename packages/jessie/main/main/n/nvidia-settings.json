@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "i386 amd64 armhf"
-  ],
-  "Binary": [
-    "nvidia-settings, libxnvctrl0, libxnvctrl-dev"
-  ],
-  "Build-Conflicts": [
-    "libxnvctrl-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), m4, libgl1-mesa-dev | libgl-dev, libgtk2.0-dev (>= 2.4), libjansson-dev (>= 2.2), libvdpau-dev, libxext-dev, libxv-dev, libxxf86vm-dev, pkg-config"
-  ],
-  "Checksums-Sha1": [
-    "45c5f136b0bc8cfa9ff1e64f2d022d7da3f5b989 2481 nvidia-settings_340.46-2.dsc 3ffd9b94784f1f42f85d74af8626027170c747a5 1549925 nvidia-settings_340.46.orig.tar.bz2 15ee3cbfbca1f8339a1af50f306ef5c61dab7073 15976 nvidia-settings_340.46-2.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "d3c68f32ad01c11b581d9455f6bf79a3cac2314b663d6ac6fac7b3a9ab013fa3 2481 nvidia-settings_340.46-2.dsc c4e5921be9968701b4ee1aa840f157dffd7e54a382f4dd3f900b2b0391fdf23d 1549925 nvidia-settings_340.46.orig.tar.bz2 53cad7d8b96a835025674fb4bb875bcca5ce9b3a9074550e5b85b0581381feb6 15976 nvidia-settings_340.46-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/n/nvidia-settings"
-  ],
-  "Files": [
-    "43f4079e02aaad38bf015a7498925984 2481 nvidia-settings_340.46-2.dsc 778c3841694544a371cfb92e97d18368 1549925 nvidia-settings_340.46.orig.tar.bz2 8701fda83311952bce7386ce8c97d6aa 15976 nvidia-settings_340.46-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "ftp://download.nvidia.com/XFree86/nvidia-settings/"
-  ],
-  "Maintainer": [
-    "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "nvidia-settings"
-  ],
-  "Package-List": [
-    "libxnvctrl-dev deb libdevel optional arch=i386,amd64,armhf libxnvctrl0 deb libs optional arch=i386,amd64,armhf nvidia-settings deb contrib/x11 optional arch=i386,amd64,armhf"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Fathi Boudra <fabo@debian.org>, Andreas Beckmann <anbe@debian.org>, Russ Allbery <rra@debian.org>, Vincent Cheng <vcheng@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/viewvc/pkg-nvidia/packages/nvidia-settings/"
-  ],
-  "Vcs-Svn": [
-    "svn://anonscm.debian.org/pkg-nvidia/packages/nvidia-settings/trunk"
-  ],
-  "Version": [
-    "340.46-2"
-  ]
+	"Architecture": [
+		"i386 amd64 armhf"
+	],
+	"Binary": [
+		"nvidia-settings, libxnvctrl0, libxnvctrl-dev"
+	],
+	"Build-Conflicts": [
+		"libxnvctrl-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), m4, libgl1-mesa-dev | libgl-dev, libgtk2.0-dev (>= 2.4), libjansson-dev (>= 2.2), libvdpau-dev, libxext-dev, libxv-dev, libxxf86vm-dev, pkg-config"
+	],
+	"Checksums-Sha1": [
+		"45c5f136b0bc8cfa9ff1e64f2d022d7da3f5b989 2481 nvidia-settings_340.46-2.dsc 3ffd9b94784f1f42f85d74af8626027170c747a5 1549925 nvidia-settings_340.46.orig.tar.bz2 15ee3cbfbca1f8339a1af50f306ef5c61dab7073 15976 nvidia-settings_340.46-2.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"d3c68f32ad01c11b581d9455f6bf79a3cac2314b663d6ac6fac7b3a9ab013fa3 2481 nvidia-settings_340.46-2.dsc c4e5921be9968701b4ee1aa840f157dffd7e54a382f4dd3f900b2b0391fdf23d 1549925 nvidia-settings_340.46.orig.tar.bz2 53cad7d8b96a835025674fb4bb875bcca5ce9b3a9074550e5b85b0581381feb6 15976 nvidia-settings_340.46-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/n/nvidia-settings"
+	],
+	"Files": [
+		"43f4079e02aaad38bf015a7498925984 2481 nvidia-settings_340.46-2.dsc 778c3841694544a371cfb92e97d18368 1549925 nvidia-settings_340.46.orig.tar.bz2 8701fda83311952bce7386ce8c97d6aa 15976 nvidia-settings_340.46-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"ftp://download.nvidia.com/XFree86/nvidia-settings/"
+	],
+	"Maintainer": [
+		"Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"nvidia-settings"
+	],
+	"Package-List": [
+		"libxnvctrl-dev deb libdevel optional arch=i386,amd64,armhf libxnvctrl0 deb libs optional arch=i386,amd64,armhf nvidia-settings deb contrib/x11 optional arch=i386,amd64,armhf"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Fathi Boudra <fabo@debian.org>, Andreas Beckmann <anbe@debian.org>, Russ Allbery <rra@debian.org>, Vincent Cheng <vcheng@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/viewvc/pkg-nvidia/packages/nvidia-settings/"
+	],
+	"Vcs-Svn": [
+		"svn://anonscm.debian.org/pkg-nvidia/packages/nvidia-settings/trunk"
+	],
+	"Version": [
+		"340.46-2"
+	]
 }

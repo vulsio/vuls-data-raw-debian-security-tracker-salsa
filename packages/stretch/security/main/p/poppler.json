@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libpoppler64, libpoppler-dev, libpoppler-private-dev, libpoppler-glib8, libpoppler-glib-dev, libpoppler-glib-doc, gir1.2-poppler-0.18, libpoppler-qt4-4, libpoppler-qt4-dev, libpoppler-qt5-1, libpoppler-qt5-dev, libpoppler-cpp0v5, libpoppler-cpp-dev, poppler-utils, poppler-dbg"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dpkg (>= 1.16.1), dh-autoreconf, libglib2.0-dev (>= 2.41), libfontconfig1-dev, libqt4-dev (>= 4:4.7.0), libcairo2-dev (>= 1.10.0), libopenjp2-7-dev, libjpeg-dev, libpng-dev, libtiff-dev, liblcms2-dev, libfreetype6-dev, gtk-doc-tools (>= 1.14), pkg-config (>= 0.18), libgirepository1.0-dev (>= 1.42.0-2~), gobject-introspection (>= 1.42.0-2~), qtbase5-dev, zlib1g-dev, libnss3-dev, libglib2.0-doc, libcairo2-doc"
-  ],
-  "Checksums-Sha1": [
-    "6b134fe4590957489146ae13dd8f8a00490fec0c 3559 poppler_0.48.0-2+deb9u4.dsc d635f326c28d87feee2d6012a4819c44c21154f0 1684164 poppler_0.48.0.orig.tar.xz 9d4b1952dbcd991cb12fe2f08fa6d83b39629535 48360 poppler_0.48.0-2+deb9u4.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "05ecb7e94c05b63ca9a4fd71d5fa54eecf531292478d1aa654d6491fbc7543d3 3559 poppler_0.48.0-2+deb9u4.dsc 85a003968074c85d8e13bf320ec47cef647b496b56dcff4c790b34e5482fef93 1684164 poppler_0.48.0.orig.tar.xz c20ba2c5b1967c051f1e6acfae1f75aa5440b79c29b06c5bc776bf049f3b5a7f 48360 poppler_0.48.0-2+deb9u4.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/p/poppler"
-  ],
-  "Files": [
-    "788d279f146324e0828a83041d946a64 3559 poppler_0.48.0-2+deb9u4.dsc 8d61c91cb9e99ad38bba1b0b4432f174 1684164 poppler_0.48.0.orig.tar.xz 298ccaa5dcda68659a4e605a87bfead0 48360 poppler_0.48.0-2+deb9u4.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://poppler.freedesktop.org/"
-  ],
-  "Maintainer": [
-    "Loic Minier <lool@dooz.org>"
-  ],
-  "Package": [
-    "poppler"
-  ],
-  "Package-List": [
-    "gir1.2-poppler-0.18 deb introspection optional arch=any libpoppler-cpp-dev deb libdevel optional arch=any libpoppler-cpp0v5 deb libs optional arch=any libpoppler-dev deb libdevel optional arch=any libpoppler-glib-dev deb libdevel optional arch=any libpoppler-glib-doc deb doc optional arch=all libpoppler-glib8 deb libs optional arch=any libpoppler-private-dev deb libdevel optional arch=any libpoppler-qt4-4 deb libs optional arch=any libpoppler-qt4-dev deb libdevel optional arch=any libpoppler-qt5-1 deb libs optional arch=any libpoppler-qt5-dev deb libdevel optional arch=any libpoppler64 deb libs optional arch=any poppler-dbg deb debug extra arch=any poppler-utils deb utils optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "devel"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential, cups-filters, pkg-config"
-  ],
-  "Uploaders": [
-    "Josselin Mouette <joss@debian.org>, Pino Toscano <pino@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/gitweb/?p=pkg-freedesktop/poppler.git"
-  ],
-  "Vcs-Git": [
-    "https://alioth.debian.org/anonscm/git/pkg-freedesktop/poppler.git"
-  ],
-  "Version": [
-    "0.48.0-2+deb9u4"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libpoppler64, libpoppler-dev, libpoppler-private-dev, libpoppler-glib8, libpoppler-glib-dev, libpoppler-glib-doc, gir1.2-poppler-0.18, libpoppler-qt4-4, libpoppler-qt4-dev, libpoppler-qt5-1, libpoppler-qt5-dev, libpoppler-cpp0v5, libpoppler-cpp-dev, poppler-utils, poppler-dbg"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dpkg (>= 1.16.1), dh-autoreconf, libglib2.0-dev (>= 2.41), libfontconfig1-dev, libqt4-dev (>= 4:4.7.0), libcairo2-dev (>= 1.10.0), libopenjp2-7-dev, libjpeg-dev, libpng-dev, libtiff-dev, liblcms2-dev, libfreetype6-dev, gtk-doc-tools (>= 1.14), pkg-config (>= 0.18), libgirepository1.0-dev (>= 1.42.0-2~), gobject-introspection (>= 1.42.0-2~), qtbase5-dev, zlib1g-dev, libnss3-dev, libglib2.0-doc, libcairo2-doc"
+	],
+	"Checksums-Sha1": [
+		"6b134fe4590957489146ae13dd8f8a00490fec0c 3559 poppler_0.48.0-2+deb9u4.dsc d635f326c28d87feee2d6012a4819c44c21154f0 1684164 poppler_0.48.0.orig.tar.xz 9d4b1952dbcd991cb12fe2f08fa6d83b39629535 48360 poppler_0.48.0-2+deb9u4.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"05ecb7e94c05b63ca9a4fd71d5fa54eecf531292478d1aa654d6491fbc7543d3 3559 poppler_0.48.0-2+deb9u4.dsc 85a003968074c85d8e13bf320ec47cef647b496b56dcff4c790b34e5482fef93 1684164 poppler_0.48.0.orig.tar.xz c20ba2c5b1967c051f1e6acfae1f75aa5440b79c29b06c5bc776bf049f3b5a7f 48360 poppler_0.48.0-2+deb9u4.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/p/poppler"
+	],
+	"Files": [
+		"788d279f146324e0828a83041d946a64 3559 poppler_0.48.0-2+deb9u4.dsc 8d61c91cb9e99ad38bba1b0b4432f174 1684164 poppler_0.48.0.orig.tar.xz 298ccaa5dcda68659a4e605a87bfead0 48360 poppler_0.48.0-2+deb9u4.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://poppler.freedesktop.org/"
+	],
+	"Maintainer": [
+		"Loic Minier <lool@dooz.org>"
+	],
+	"Package": [
+		"poppler"
+	],
+	"Package-List": [
+		"gir1.2-poppler-0.18 deb introspection optional arch=any libpoppler-cpp-dev deb libdevel optional arch=any libpoppler-cpp0v5 deb libs optional arch=any libpoppler-dev deb libdevel optional arch=any libpoppler-glib-dev deb libdevel optional arch=any libpoppler-glib-doc deb doc optional arch=all libpoppler-glib8 deb libs optional arch=any libpoppler-private-dev deb libdevel optional arch=any libpoppler-qt4-4 deb libs optional arch=any libpoppler-qt4-dev deb libdevel optional arch=any libpoppler-qt5-1 deb libs optional arch=any libpoppler-qt5-dev deb libdevel optional arch=any libpoppler64 deb libs optional arch=any poppler-dbg deb debug extra arch=any poppler-utils deb utils optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"devel"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, cups-filters, pkg-config"
+	],
+	"Uploaders": [
+		"Josselin Mouette <joss@debian.org>, Pino Toscano <pino@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/gitweb/?p=pkg-freedesktop/poppler.git"
+	],
+	"Vcs-Git": [
+		"https://alioth.debian.org/anonscm/git/pkg-freedesktop/poppler.git"
+	],
+	"Version": [
+		"0.48.0-2+deb9u4"
+	]
 }

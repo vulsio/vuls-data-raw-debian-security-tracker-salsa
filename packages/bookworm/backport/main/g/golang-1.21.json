@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64 ppc64el riscv64 s390x all"
-  ],
-  "Binary": [
-    "golang-1.21-go, golang-1.21-src, golang-1.21-doc, golang-1.21"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), golang-any (>= 2:1.17~) | golang-go (>= 2:1.17~) | gccgo (>= 4:12~), netbase"
-  ],
-  "Checksums-Sha256": [
-    "baf5827d274537f0764b293c7870f2763d965b2881d3ee3d7f9a3a93fff3435f 2955 golang-1.21_1.21.4-1~bpo12+1.dsc 47b26a83d2b65a3c1c1bcace273b69bee49a7a7b5168a7604ded3d26a37bd787 26979154 golang-1.21_1.21.4.orig.tar.gz c0ef49bfa5c96f571b1b4c676ca95d671c55263f031c69002d466c639ea31b57 833 golang-1.21_1.21.4.orig.tar.gz.asc a154547671eb74762c416a006886b30d84b9b04c71bf9b067b9918eb64c6f3b5 36700 golang-1.21_1.21.4-1~bpo12+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/g/golang-1.21"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://go.dev/"
-  ],
-  "Maintainer": [
-    "Debian Go Compiler Team <team+go-compiler@tracker.debian.org>"
-  ],
-  "Package": [
-    "golang-1.21"
-  ],
-  "Package-List": [
-    "golang-1.21 deb golang optional arch=all golang-1.21-doc deb doc optional arch=all golang-1.21-go deb golang optional arch=amd64,arm64,armel,armhf,i386,mips,mips64el,mipsel,ppc64,ppc64el,riscv64,s390x golang-1.21-src deb golang optional arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential"
-  ],
-  "Uploaders": [
-    "Michael Stapelberg <stapelberg@debian.org>, Paul Tagliamonte <paultag@debian.org>, Tianon Gravi <tianon@debian.org>, Michael Hudson-Doyle <mwhudson@debian.org>, Dr. Tobias Quathamer <toddy@debian.org>, Anthony Fok <foka@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/go-team/compiler/golang/tree/golang-1.21"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/go-team/compiler/golang.git -b golang-1.21"
-  ],
-  "Version": [
-    "1.21.4-1~bpo12+1"
-  ]
+	"Architecture": [
+		"amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64 ppc64el riscv64 s390x all"
+	],
+	"Binary": [
+		"golang-1.21-go, golang-1.21-src, golang-1.21-doc, golang-1.21"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), golang-any (>= 2:1.17~) | golang-go (>= 2:1.17~) | gccgo (>= 4:12~), netbase"
+	],
+	"Checksums-Sha256": [
+		"baf5827d274537f0764b293c7870f2763d965b2881d3ee3d7f9a3a93fff3435f 2955 golang-1.21_1.21.4-1~bpo12+1.dsc 47b26a83d2b65a3c1c1bcace273b69bee49a7a7b5168a7604ded3d26a37bd787 26979154 golang-1.21_1.21.4.orig.tar.gz c0ef49bfa5c96f571b1b4c676ca95d671c55263f031c69002d466c639ea31b57 833 golang-1.21_1.21.4.orig.tar.gz.asc a154547671eb74762c416a006886b30d84b9b04c71bf9b067b9918eb64c6f3b5 36700 golang-1.21_1.21.4-1~bpo12+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/golang-1.21"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://go.dev/"
+	],
+	"Maintainer": [
+		"Debian Go Compiler Team <team+go-compiler@tracker.debian.org>"
+	],
+	"Package": [
+		"golang-1.21"
+	],
+	"Package-List": [
+		"golang-1.21 deb golang optional arch=all golang-1.21-doc deb doc optional arch=all golang-1.21-go deb golang optional arch=amd64,arm64,armel,armhf,i386,mips,mips64el,mipsel,ppc64,ppc64el,riscv64,s390x golang-1.21-src deb golang optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential"
+	],
+	"Uploaders": [
+		"Michael Stapelberg <stapelberg@debian.org>, Paul Tagliamonte <paultag@debian.org>, Tianon Gravi <tianon@debian.org>, Michael Hudson-Doyle <mwhudson@debian.org>, Dr. Tobias Quathamer <toddy@debian.org>, Anthony Fok <foka@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/go-team/compiler/golang/tree/golang-1.21"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/go-team/compiler/golang.git -b golang-1.21"
+	],
+	"Version": [
+		"1.21.4-1~bpo12+1"
+	]
 }

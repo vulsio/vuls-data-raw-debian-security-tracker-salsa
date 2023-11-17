@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "tor, tor-geoipdb"
-  ],
-  "Build-Conflicts": [
-    "libnacl-dev, libseccomp-dev [!amd64 !i386]"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 10), quilt, libssl-dev, zlib1g-dev, libevent-dev (>= 1.1), asciidoc (>= 8.2), docbook-xml, docbook-xsl, xmlto, dh-apparmor, libseccomp-dev [amd64 i386], libsystemd-dev [linux-any], pkg-config [linux-any], libcap-dev [linux-any], dh-autoreconf, liblzma-dev, libzstd-dev, dh-runit (>= 2.8.8)"
-  ],
-  "Checksums-Sha256": [
-    "685de453c59d51fb51777541317112523a6ddaaf3d496e91ec8977fa3062d0ea 1992 tor_0.4.7.13-1~bpo11+1.dsc 2079172cce034556f110048e26083ce9bea751f3154b0ad2809751815b11ea9d 8031948 tor_0.4.7.13.orig.tar.gz 46deceec4eba5bbeacc53ea21f7cbf6be116f85ab8c8ae322188af88d850d241 60291 tor_0.4.7.13-1~bpo11+1.diff.gz"
-  ],
-  "Directory": [
-    "pool/main/t/tor"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Homepage": [
-    "https://www.torproject.org/"
-  ],
-  "Maintainer": [
-    "Peter Palfrader <weasel@debian.org>"
-  ],
-  "Package": [
-    "tor"
-  ],
-  "Package-List": [
-    "tor deb net optional arch=any tor-geoipdb deb net optional arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.4.0"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "ca-certificates, colorized-logs, curl, diffutils, netcat-openbsd, onionshare, torsocks, unzip"
-  ],
-  "Vcs-Browser": [
-    "https://gitweb.torproject.org/debian/tor.git"
-  ],
-  "Vcs-Git": [
-    "https://git.torproject.org/debian/tor.git"
-  ],
-  "Version": [
-    "0.4.7.13-1~bpo11+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"tor, tor-geoipdb"
+	],
+	"Build-Conflicts": [
+		"libnacl-dev, libseccomp-dev [!amd64 !i386]"
+	],
+	"Build-Depends": [
+		"debhelper (>= 10), quilt, libssl-dev, zlib1g-dev, libevent-dev (>= 1.1), asciidoc (>= 8.2), docbook-xml, docbook-xsl, xmlto, dh-apparmor, libseccomp-dev [amd64 i386], libsystemd-dev [linux-any], pkg-config [linux-any], libcap-dev [linux-any], dh-autoreconf, liblzma-dev, libzstd-dev, dh-runit (>= 2.8.8)"
+	],
+	"Checksums-Sha256": [
+		"685de453c59d51fb51777541317112523a6ddaaf3d496e91ec8977fa3062d0ea 1992 tor_0.4.7.13-1~bpo11+1.dsc 2079172cce034556f110048e26083ce9bea751f3154b0ad2809751815b11ea9d 8031948 tor_0.4.7.13.orig.tar.gz 46deceec4eba5bbeacc53ea21f7cbf6be116f85ab8c8ae322188af88d850d241 60291 tor_0.4.7.13-1~bpo11+1.diff.gz"
+	],
+	"Directory": [
+		"pool/main/t/tor"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Homepage": [
+		"https://www.torproject.org/"
+	],
+	"Maintainer": [
+		"Peter Palfrader <weasel@debian.org>"
+	],
+	"Package": [
+		"tor"
+	],
+	"Package-List": [
+		"tor deb net optional arch=any tor-geoipdb deb net optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.4.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"ca-certificates, colorized-logs, curl, diffutils, netcat-openbsd, onionshare, torsocks, unzip"
+	],
+	"Vcs-Browser": [
+		"https://gitweb.torproject.org/debian/tor.git"
+	],
+	"Vcs-Git": [
+		"https://git.torproject.org/debian/tor.git"
+	],
+	"Version": [
+		"0.4.7.13-1~bpo11+1"
+	]
 }

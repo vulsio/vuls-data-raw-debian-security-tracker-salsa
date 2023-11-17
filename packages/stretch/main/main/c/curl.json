@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "curl, libcurl3, libcurl3-gnutls, libcurl3-nss, libcurl4-openssl-dev, libcurl4-gnutls-dev, libcurl4-nss-dev, libcurl3-dbg, libcurl4-doc"
-  ],
-  "Build-Conflicts": [
-    "autoconf2.13, automake1.4"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9.20141010~), autoconf, automake, ca-certificates, dpkg-dev (>= 1.17.14~), groff-base, libgnutls28-dev, libidn2-0-dev, libkrb5-dev, libldap2-dev, libnghttp2-dev, libnss3-dev, libpsl-dev, librtmp-dev (>= 2.4+20131018.git79459a2-3~), libssh2-1-dev, libssl1.0-dev | libssl-dev (<< 1.1), libtool, openssh-server <!nocheck>, python:native, quilt, stunnel4 <!nocheck>, zlib1g-dev"
-  ],
-  "Checksums-Sha256": [
-    "313cd1eeb23ee0cb069040ab48d3d4fba08811d14b1581647b0e0bf303747160 2822 curl_7.52.1-5+deb9u10.dsc a8984e8b20880b621f61a62d95ff3c0763a3152093a9f9ce4287cfd614add6ae 3504621 curl_7.52.1.orig.tar.gz 014f6df474eb55469883314060bef68c04334862ff8d543c04bec6f5fae4542c 43360 curl_7.52.1-5+deb9u10.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/c/curl"
-  ],
-  "Files": [
-    "017bd156e39a39a601b2f42dd1f8739c 2822 curl_7.52.1-5+deb9u10.dsc 4e1ef056e117b4d25f4ec42ac609c0d4 3504621 curl_7.52.1.orig.tar.gz 4e605be31d73e9765c6620a63c3c44b6 43360 curl_7.52.1-5+deb9u10.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://curl.haxx.se"
-  ],
-  "Maintainer": [
-    "Alessandro Ghedini <ghedo@debian.org>"
-  ],
-  "Package": [
-    "curl"
-  ],
-  "Package-List": [
-    "curl deb web optional arch=any libcurl3 deb libs optional arch=any libcurl3-dbg deb debug extra arch=any libcurl3-gnutls deb libs optional arch=any libcurl3-nss deb libs optional arch=any libcurl4-doc deb doc optional arch=all libcurl4-gnutls-dev deb libdevel optional arch=any libcurl4-nss-dev deb libdevel optional arch=any libcurl4-openssl-dev deb libdevel optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "libs"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Ian Jackson <ijackson@chiark.greenend.org.uk>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/gitweb/?p=collab-maint/curl.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/collab-maint/curl.git"
-  ],
-  "Version": [
-    "7.52.1-5+deb9u10"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"curl, libcurl3, libcurl3-gnutls, libcurl3-nss, libcurl4-openssl-dev, libcurl4-gnutls-dev, libcurl4-nss-dev, libcurl3-dbg, libcurl4-doc"
+	],
+	"Build-Conflicts": [
+		"autoconf2.13, automake1.4"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9.20141010~), autoconf, automake, ca-certificates, dpkg-dev (>= 1.17.14~), groff-base, libgnutls28-dev, libidn2-0-dev, libkrb5-dev, libldap2-dev, libnghttp2-dev, libnss3-dev, libpsl-dev, librtmp-dev (>= 2.4+20131018.git79459a2-3~), libssh2-1-dev, libssl1.0-dev | libssl-dev (<< 1.1), libtool, openssh-server <!nocheck>, python:native, quilt, stunnel4 <!nocheck>, zlib1g-dev"
+	],
+	"Checksums-Sha256": [
+		"313cd1eeb23ee0cb069040ab48d3d4fba08811d14b1581647b0e0bf303747160 2822 curl_7.52.1-5+deb9u10.dsc a8984e8b20880b621f61a62d95ff3c0763a3152093a9f9ce4287cfd614add6ae 3504621 curl_7.52.1.orig.tar.gz 014f6df474eb55469883314060bef68c04334862ff8d543c04bec6f5fae4542c 43360 curl_7.52.1-5+deb9u10.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/c/curl"
+	],
+	"Files": [
+		"017bd156e39a39a601b2f42dd1f8739c 2822 curl_7.52.1-5+deb9u10.dsc 4e1ef056e117b4d25f4ec42ac609c0d4 3504621 curl_7.52.1.orig.tar.gz 4e605be31d73e9765c6620a63c3c44b6 43360 curl_7.52.1-5+deb9u10.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://curl.haxx.se"
+	],
+	"Maintainer": [
+		"Alessandro Ghedini <ghedo@debian.org>"
+	],
+	"Package": [
+		"curl"
+	],
+	"Package-List": [
+		"curl deb web optional arch=any libcurl3 deb libs optional arch=any libcurl3-dbg deb debug extra arch=any libcurl3-gnutls deb libs optional arch=any libcurl3-nss deb libs optional arch=any libcurl4-doc deb doc optional arch=all libcurl4-gnutls-dev deb libdevel optional arch=any libcurl4-nss-dev deb libdevel optional arch=any libcurl4-openssl-dev deb libdevel optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"libs"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Ian Jackson <ijackson@chiark.greenend.org.uk>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/gitweb/?p=collab-maint/curl.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/collab-maint/curl.git"
+	],
+	"Version": [
+		"7.52.1-5+deb9u10"
+	]
 }

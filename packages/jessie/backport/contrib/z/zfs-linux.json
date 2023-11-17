@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "linux-any all"
-  ],
-  "Binary": [
-    "libnvpair1linux, libuutil1linux, libzfslinux-dev, libzfs2linux, libzpool2linux, zfs-dkms, zfs-initramfs, zfs-dracut, zfsutils-linux, zfs-zed, zfs-dbg"
-  ],
-  "Build-Depends": [
-    "dh-autoreconf, dh-systemd, autotools-dev, debhelper (>= 9), dkms (>> 2.1.1.2-5), libselinux1-dev, libtool, lsb-release, po-debconf, uuid-dev, zlib1g-dev, python3, dh-python, libblkid-dev, libattr1-dev"
-  ],
-  "Checksums-Sha1": [
-    "1718f20600dde9e424a56d4fb74d6c647fbffd3b 2621 zfs-linux_0.6.5.9-5~bpo8+1.dsc 6c580575691e346bd97c31959148921ea9df8c26 2610650 zfs-linux_0.6.5.9.orig.tar.gz b70305f83e2fdf6311c322d769eeda67373ba9ed 52928 zfs-linux_0.6.5.9-5~bpo8+1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "d9a59057c6740c347e1532acd421ed80164db84fa00a673379ad6a6c824dbff7 2621 zfs-linux_0.6.5.9-5~bpo8+1.dsc b724b57dbddae59246fdc15f88f1224061c712945bb36412a2087e0c7760d77f 2610650 zfs-linux_0.6.5.9.orig.tar.gz fbcf1971d26ea5f0b6f5e44676efbbbbec44b3f361f8decb817f57cb1c9240f1 52928 zfs-linux_0.6.5.9-5~bpo8+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/contrib/z/zfs-linux"
-  ],
-  "Files": [
-    "d3bd4d4eb0f12c85ceb1ea3a1b21c0d5 2621 zfs-linux_0.6.5.9-5~bpo8+1.dsc 9dceb3930be4e1a8cf35bcc40e48e527 2610650 zfs-linux_0.6.5.9.orig.tar.gz 83a2b5375bffdcd2634ac6524a1a6b02 52928 zfs-linux_0.6.5.9-5~bpo8+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.zfsonlinux.org/"
-  ],
-  "Maintainer": [
-    "Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "zfs-linux"
-  ],
-  "Package-List": [
-    "libnvpair1linux deb contrib/libs optional arch=linux-any libuutil1linux deb contrib/libs optional arch=linux-any libzfs2linux deb contrib/libs optional arch=linux-any libzfslinux-dev deb contrib/libdevel optional arch=linux-any libzpool2linux deb contrib/libs optional arch=linux-any zfs-dbg deb contrib/debug extra arch=linux-any zfs-dkms deb contrib/kernel optional arch=all zfs-dracut deb contrib/kernel optional arch=all zfs-initramfs deb contrib/kernel optional arch=all zfs-zed deb contrib/admin optional arch=linux-any zfsutils-linux deb contrib/admin optional arch=linux-any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "contrib/misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Aron Xu <aron@debian.org>, Petter Reinholdtsen <pere@debian.org>, Carlos Alberto Lopez Perez <clopez@igalia.com>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-zfsonlinux/zfs.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-zfsonlinux/zfs.git"
-  ],
-  "Version": [
-    "0.6.5.9-5~bpo8+1"
-  ]
+	"Architecture": [
+		"linux-any all"
+	],
+	"Binary": [
+		"libnvpair1linux, libuutil1linux, libzfslinux-dev, libzfs2linux, libzpool2linux, zfs-dkms, zfs-initramfs, zfs-dracut, zfsutils-linux, zfs-zed, zfs-dbg"
+	],
+	"Build-Depends": [
+		"dh-autoreconf, dh-systemd, autotools-dev, debhelper (>= 9), dkms (>> 2.1.1.2-5), libselinux1-dev, libtool, lsb-release, po-debconf, uuid-dev, zlib1g-dev, python3, dh-python, libblkid-dev, libattr1-dev"
+	],
+	"Checksums-Sha1": [
+		"1718f20600dde9e424a56d4fb74d6c647fbffd3b 2621 zfs-linux_0.6.5.9-5~bpo8+1.dsc 6c580575691e346bd97c31959148921ea9df8c26 2610650 zfs-linux_0.6.5.9.orig.tar.gz b70305f83e2fdf6311c322d769eeda67373ba9ed 52928 zfs-linux_0.6.5.9-5~bpo8+1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"d9a59057c6740c347e1532acd421ed80164db84fa00a673379ad6a6c824dbff7 2621 zfs-linux_0.6.5.9-5~bpo8+1.dsc b724b57dbddae59246fdc15f88f1224061c712945bb36412a2087e0c7760d77f 2610650 zfs-linux_0.6.5.9.orig.tar.gz fbcf1971d26ea5f0b6f5e44676efbbbbec44b3f361f8decb817f57cb1c9240f1 52928 zfs-linux_0.6.5.9-5~bpo8+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/contrib/z/zfs-linux"
+	],
+	"Files": [
+		"d3bd4d4eb0f12c85ceb1ea3a1b21c0d5 2621 zfs-linux_0.6.5.9-5~bpo8+1.dsc 9dceb3930be4e1a8cf35bcc40e48e527 2610650 zfs-linux_0.6.5.9.orig.tar.gz 83a2b5375bffdcd2634ac6524a1a6b02 52928 zfs-linux_0.6.5.9-5~bpo8+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.zfsonlinux.org/"
+	],
+	"Maintainer": [
+		"Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"zfs-linux"
+	],
+	"Package-List": [
+		"libnvpair1linux deb contrib/libs optional arch=linux-any libuutil1linux deb contrib/libs optional arch=linux-any libzfs2linux deb contrib/libs optional arch=linux-any libzfslinux-dev deb contrib/libdevel optional arch=linux-any libzpool2linux deb contrib/libs optional arch=linux-any zfs-dbg deb contrib/debug extra arch=linux-any zfs-dkms deb contrib/kernel optional arch=all zfs-dracut deb contrib/kernel optional arch=all zfs-initramfs deb contrib/kernel optional arch=all zfs-zed deb contrib/admin optional arch=linux-any zfsutils-linux deb contrib/admin optional arch=linux-any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"contrib/misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Aron Xu <aron@debian.org>, Petter Reinholdtsen <pere@debian.org>, Carlos Alberto Lopez Perez <clopez@igalia.com>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-zfsonlinux/zfs.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-zfsonlinux/zfs.git"
+	],
+	"Version": [
+		"0.6.5.9-5~bpo8+1"
+	]
 }

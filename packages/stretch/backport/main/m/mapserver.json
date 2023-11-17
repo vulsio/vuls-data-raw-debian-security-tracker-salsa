@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libmapserver2, libmapserver-dev, cgi-mapserver, mapserver-bin, mapserver-doc, libmapscript-perl, python-mapscript, ruby-mapscript, libmapscript-java"
-  ],
-  "Build-Conflicts": [
-    "libcurl3-openssl-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9.20160114), dh-python, dpkg-dev (>= 1.16.1.1), cmake (>= 2.8.12.1-1.2), chrpath, default-jdk, ant, libcairo2-dev, libcurl4-gnutls-dev | libcurl-ssl-dev, libfcgi-dev, libfreetype6-dev (>= 2.0.9), libfribidi-dev, libgdal-dev (>= 1.10.1-0~), libgeos-dev (>= 3.3.1-1~), libgif-dev, libharfbuzz-dev, libjpeg-dev, libperl-dev, libpng-dev, libprotobuf-c-dev, libpq-dev, libproj-dev, librsvg2-dev, libxml2-dev, libxslt1-dev, zlib1g-dev (>= 1.1.4), pkg-config, pkg-kde-tools, protobuf-c-compiler, python-all (>= 2.6.6-3~), python-all-dev (>= 2.6.6-3~), ruby, ruby-all-dev, gem2deb, swig, docbook2x, docbook-xsl, docbook-xml, xsltproc"
-  ],
-  "Checksums-Sha256": [
-    "dd39ba11fc4c7e73def79a7a09008af6ba64a577a49d7c94efd045fc1bffc024 3237 mapserver_7.2.2-1~bpo9+1.dsc 287f8dfe10961bc685bb87e118b7aa81382df907b2b3961d6559169b527ba95c 2677800 mapserver_7.2.2.orig.tar.gz 79a926744640f8161cf2931f7547c173e1cf283ab911964be8eb75e1467086e8 47344 mapserver_7.2.2-1~bpo9+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/m/mapserver"
-  ],
-  "Files": [
-    "488594c21ebea04613cfe3ed100d243d 3237 mapserver_7.2.2-1~bpo9+1.dsc 35fab157e77421d29c86b321d643e3d6 2677800 mapserver_7.2.2.orig.tar.gz 0bb47ee26a9131da986e5f0d08bc1791 47344 mapserver_7.2.2-1~bpo9+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.mapserver.org"
-  ],
-  "Maintainer": [
-    "Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "mapserver"
-  ],
-  "Package-List": [
-    "cgi-mapserver deb web optional arch=any libmapscript-java deb java optional arch=any libmapscript-perl deb perl optional arch=any libmapserver-dev deb libdevel optional arch=any libmapserver2 deb libs optional arch=any mapserver-bin deb misc optional arch=any mapserver-doc deb doc optional arch=all python-mapscript deb python optional arch=any ruby-mapscript deb ruby optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Ruby-Versions": [
-    "all"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.3.0"
-  ],
-  "Uploaders": [
-    "Francesco Paolo Lovergine <frankie@debian.org>, Alan Boudreault <aboudreault@mapgears.com>, Bas Couwenberg <sebastic@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian-gis-team/mapserver"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian-gis-team/mapserver.git -b stretch-backports"
-  ],
-  "Version": [
-    "7.2.2-1~bpo9+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libmapserver2, libmapserver-dev, cgi-mapserver, mapserver-bin, mapserver-doc, libmapscript-perl, python-mapscript, ruby-mapscript, libmapscript-java"
+	],
+	"Build-Conflicts": [
+		"libcurl3-openssl-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9.20160114), dh-python, dpkg-dev (>= 1.16.1.1), cmake (>= 2.8.12.1-1.2), chrpath, default-jdk, ant, libcairo2-dev, libcurl4-gnutls-dev | libcurl-ssl-dev, libfcgi-dev, libfreetype6-dev (>= 2.0.9), libfribidi-dev, libgdal-dev (>= 1.10.1-0~), libgeos-dev (>= 3.3.1-1~), libgif-dev, libharfbuzz-dev, libjpeg-dev, libperl-dev, libpng-dev, libprotobuf-c-dev, libpq-dev, libproj-dev, librsvg2-dev, libxml2-dev, libxslt1-dev, zlib1g-dev (>= 1.1.4), pkg-config, pkg-kde-tools, protobuf-c-compiler, python-all (>= 2.6.6-3~), python-all-dev (>= 2.6.6-3~), ruby, ruby-all-dev, gem2deb, swig, docbook2x, docbook-xsl, docbook-xml, xsltproc"
+	],
+	"Checksums-Sha256": [
+		"dd39ba11fc4c7e73def79a7a09008af6ba64a577a49d7c94efd045fc1bffc024 3237 mapserver_7.2.2-1~bpo9+1.dsc 287f8dfe10961bc685bb87e118b7aa81382df907b2b3961d6559169b527ba95c 2677800 mapserver_7.2.2.orig.tar.gz 79a926744640f8161cf2931f7547c173e1cf283ab911964be8eb75e1467086e8 47344 mapserver_7.2.2-1~bpo9+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/m/mapserver"
+	],
+	"Files": [
+		"488594c21ebea04613cfe3ed100d243d 3237 mapserver_7.2.2-1~bpo9+1.dsc 35fab157e77421d29c86b321d643e3d6 2677800 mapserver_7.2.2.orig.tar.gz 0bb47ee26a9131da986e5f0d08bc1791 47344 mapserver_7.2.2-1~bpo9+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.mapserver.org"
+	],
+	"Maintainer": [
+		"Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"mapserver"
+	],
+	"Package-List": [
+		"cgi-mapserver deb web optional arch=any libmapscript-java deb java optional arch=any libmapscript-perl deb perl optional arch=any libmapserver-dev deb libdevel optional arch=any libmapserver2 deb libs optional arch=any mapserver-bin deb misc optional arch=any mapserver-doc deb doc optional arch=all python-mapscript deb python optional arch=any ruby-mapscript deb ruby optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Ruby-Versions": [
+		"all"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.3.0"
+	],
+	"Uploaders": [
+		"Francesco Paolo Lovergine <frankie@debian.org>, Alan Boudreault <aboudreault@mapgears.com>, Bas Couwenberg <sebastic@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian-gis-team/mapserver"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian-gis-team/mapserver.git -b stretch-backports"
+	],
+	"Version": [
+		"7.2.2-1~bpo9+1"
+	]
 }

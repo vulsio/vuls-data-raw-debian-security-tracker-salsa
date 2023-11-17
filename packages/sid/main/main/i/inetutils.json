@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "inetutils-syslogd, inetutils-inetd, inetutils-ping, inetutils-traceroute, inetutils-tools, inetutils-ftp, inetutils-ftpd, inetutils-telnet, telnet, inetutils-telnetd, telnetd, inetutils-talk, inetutils-talkd"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), debhelper (>= 13.10), netbase <!nocheck>, net-tools <!nocheck>, autoconf, automake, bison, libreadline-dev, libncurses-dev, libpam0g-dev, libwrap0-dev, libkrb5-dev"
-  ],
-  "Checksums-Sha256": [
-    "9f4ba0f12e7b8d5e4f8e856c72a7fabad7367ed2d4202580437b088ddd2a20f3 3095 inetutils_2.4-3.dsc 1789d6b1b1a57dfe2a7ab7b533ee9f5dfd9cbf5b59bb1bb3c2612ed08d0f68b2 1558308 inetutils_2.4.orig.tar.xz 5453c3407a380c7d79f09e644533aeff90c89bda53c41b77f97c7ffa827b3eb2 228 inetutils_2.4.orig.tar.xz.asc 8674c02c101dbd5346c471009bf248f59b8fdae4323d7ac002df8a61c5104a6b 82256 inetutils_2.4-3.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/i/inetutils"
-  ],
-  "Files": [
-    "1fd4132bf3acea3f6bc9b3ea989762cc 3095 inetutils_2.4-3.dsc 319d65bb5a6f1847c4810651f3b4ba74 1558308 inetutils_2.4.orig.tar.xz 278812e1abfa9580ebc565dbb430a56b 228 inetutils_2.4.orig.tar.xz.asc c9175014acf9fea22caae4bcd58338b9 82256 inetutils_2.4-3.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.gnu.org/software/inetutils/"
-  ],
-  "Maintainer": [
-    "Guillem Jover <guillem@debian.org>"
-  ],
-  "Package": [
-    "inetutils"
-  ],
-  "Package-List": [
-    "inetutils-ftp deb net optional arch=any inetutils-ftpd deb net optional arch=any inetutils-inetd deb net optional arch=any inetutils-ping deb net optional arch=any inetutils-syslogd deb net optional arch=any inetutils-talk deb net optional arch=any inetutils-talkd deb net optional arch=any inetutils-telnet deb net standard arch=any inetutils-telnetd deb net optional arch=any inetutils-tools deb net optional arch=any inetutils-traceroute deb net optional arch=any telnet deb oldlibs optional arch=all telnetd deb oldlibs optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "autoconf, automake, build-essential, file, gettext, net-tools, netbase"
-  ],
-  "Vcs-Browser": [
-    "https://git.hadrons.org/cgit/debian/pkgs/inetutils.git"
-  ],
-  "Vcs-Git": [
-    "https://git.hadrons.org/git/debian/pkgs/inetutils.git"
-  ],
-  "Version": [
-    "2:2.4-3"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"inetutils-syslogd, inetutils-inetd, inetutils-ping, inetutils-traceroute, inetutils-tools, inetutils-ftp, inetutils-ftpd, inetutils-telnet, telnet, inetutils-telnetd, telnetd, inetutils-talk, inetutils-talkd"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), debhelper (>= 13.10), netbase <!nocheck>, net-tools <!nocheck>, autoconf, automake, bison, libreadline-dev, libncurses-dev, libpam0g-dev, libwrap0-dev, libkrb5-dev"
+	],
+	"Checksums-Sha256": [
+		"9f4ba0f12e7b8d5e4f8e856c72a7fabad7367ed2d4202580437b088ddd2a20f3 3095 inetutils_2.4-3.dsc 1789d6b1b1a57dfe2a7ab7b533ee9f5dfd9cbf5b59bb1bb3c2612ed08d0f68b2 1558308 inetutils_2.4.orig.tar.xz 5453c3407a380c7d79f09e644533aeff90c89bda53c41b77f97c7ffa827b3eb2 228 inetutils_2.4.orig.tar.xz.asc 8674c02c101dbd5346c471009bf248f59b8fdae4323d7ac002df8a61c5104a6b 82256 inetutils_2.4-3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/i/inetutils"
+	],
+	"Files": [
+		"1fd4132bf3acea3f6bc9b3ea989762cc 3095 inetutils_2.4-3.dsc 319d65bb5a6f1847c4810651f3b4ba74 1558308 inetutils_2.4.orig.tar.xz 278812e1abfa9580ebc565dbb430a56b 228 inetutils_2.4.orig.tar.xz.asc c9175014acf9fea22caae4bcd58338b9 82256 inetutils_2.4-3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.gnu.org/software/inetutils/"
+	],
+	"Maintainer": [
+		"Guillem Jover <guillem@debian.org>"
+	],
+	"Package": [
+		"inetutils"
+	],
+	"Package-List": [
+		"inetutils-ftp deb net optional arch=any inetutils-ftpd deb net optional arch=any inetutils-inetd deb net optional arch=any inetutils-ping deb net optional arch=any inetutils-syslogd deb net optional arch=any inetutils-talk deb net optional arch=any inetutils-talkd deb net optional arch=any inetutils-telnet deb net standard arch=any inetutils-telnetd deb net optional arch=any inetutils-tools deb net optional arch=any inetutils-traceroute deb net optional arch=any telnet deb oldlibs optional arch=all telnetd deb oldlibs optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"autoconf, automake, build-essential, file, gettext, net-tools, netbase"
+	],
+	"Vcs-Browser": [
+		"https://git.hadrons.org/cgit/debian/pkgs/inetutils.git"
+	],
+	"Vcs-Git": [
+		"https://git.hadrons.org/git/debian/pkgs/inetutils.git"
+	],
+	"Version": [
+		"2:2.4-3"
+	]
 }

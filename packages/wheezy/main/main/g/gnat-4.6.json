@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "gnat-4.6-base, gnat-4.6, gnat-4.6-sjlj, libgnat-4.6, libgnat-4.6-dbg, libgnatvsn4.6-dev, libgnatvsn4.6, libgnatvsn4.6-dbg, libgnatprj4.6-dev, libgnatprj4.6, libgnatprj4.6-dbg"
-  ],
-  "Build-Conflicts": [
-    "binutils-gold"
-  ],
-  "Build-Depends": [
-    "dpkg-dev (>= 1.16.0~ubuntu4), debhelper (>= 5.0.62), g++-multilib [amd64 i386 kfreebsd-amd64 mips mipsel powerpc ppc64 s390 s390x sparc], libc6.1-dev (>= 2.13-5) [alpha ia64] | libc0.3-dev (>= 2.13-5) [hurd-i386] | libc0.1-dev (>= 2.13-5) [kfreebsd-i386 kfreebsd-amd64] | libc6-dev (>= 2.13-5), libc6-dev-amd64 [i386], libc6-dev-sparc64 [sparc], libc6-dev-s390 [s390x], libc6-dev-s390x [s390], libc6-dev-i386 [amd64], libc6-dev-powerpc [ppc64], libc6-dev-ppc64 [powerpc], libc0.1-dev-i386 [kfreebsd-amd64], lib32gcc1 [amd64 ppc64 kfreebsd-amd64 s390x], lib64gcc1 [i386 powerpc sparc s390], libc6-dev-mips64 [mips mipsel], libc6-dev-mipsn32 [mips mipsel], m4, libtool, autoconf2.64, automake (>= 1:1.11), automake (<< 1:1.12), libunwind7-dev (>= 0.98.5-6) [ia64], libatomic-ops-dev [ia64], zlib1g-dev, gawk, lzma, xz-utils, patchutils, binutils (>= 2.21.1) | binutils-multiarch (>= 2.21.1), binutils-hppa64 (>= 2.21.1) [hppa], gperf (>= 3.0.1), bison (>= 1:2.3), flex, gettext, texinfo (>= 4.3), locales, procps, sharutils, gnat (>= 4.1), gcc-4.6-source (>= 4.6.3), gcc-4.6-source (<< 4.6.4), libcloog-ppl-dev (>= 0.15.9-2~), libmpc-dev, libmpfr-dev (>= 3.0.0-9~), libgmp-dev (>= 2:5.0.1~), libelfg0-dev (>= 0.8.12), dejagnu [!m68k !hurd-i386 !hurd-alpha], realpath (>= 1.9.12), chrpath, lsb-release, make (>= 3.81), quilt"
-  ],
-  "Checksums-Sha1": [
-    "58cc1d2609cc9b5b6f1eb00bcb180a1dc94a940f 2817 gnat-4.6_4.6.3-8.dsc c63a9b18c39abc733d97861e384c6f370796c009 978826 gnat-4.6_4.6.3-8.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "7bfa676f34c6311d85be0776ec0c7f4c6ba0d81843db9ad8f28b5b45c685b0ae 2817 gnat-4.6_4.6.3-8.dsc 33107670fe93dcf47c4f568ea8b501c9050711bcc46a6202f4ca5c93a459f184 978826 gnat-4.6_4.6.3-8.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/g/gnat-4.6"
-  ],
-  "Files": [
-    "26530efc2cd6fde6c7b0ef6c49141730 2817 gnat-4.6_4.6.3-8.dsc fa62e38160203f1aa730ec5d72e40903 978826 gnat-4.6_4.6.3-8.tar.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Homepage": [
-    "http://gcc.gnu.org/"
-  ],
-  "Maintainer": [
-    "Debian GCC Maintainers <debian-gcc@lists.debian.org>"
-  ],
-  "Package": [
-    "gnat-4.6"
-  ],
-  "Package-List": [
-    "gnat-4.6 deb devel optional gnat-4.6-base deb libs optional gnat-4.6-sjlj deb devel extra libgnat-4.6 deb libs optional libgnat-4.6-dbg deb debug extra libgnatprj4.6 deb libs optional libgnatprj4.6-dbg deb debug extra libgnatprj4.6-dev deb libdevel extra libgnatvsn4.6 deb libs optional libgnatvsn4.6-dbg deb debug extra libgnatvsn4.6-dev deb libdevel extra"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "devel"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Ludovic Brenta <lbrenta@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://svn.debian.org/viewsvn/gcccvs/branches/sid/gcc-4.6/"
-  ],
-  "Vcs-Svn": [
-    "svn://svn.debian.org/svn/gcccvs/branches/sid/gcc-4.6"
-  ],
-  "Version": [
-    "4.6.3-8"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"gnat-4.6-base, gnat-4.6, gnat-4.6-sjlj, libgnat-4.6, libgnat-4.6-dbg, libgnatvsn4.6-dev, libgnatvsn4.6, libgnatvsn4.6-dbg, libgnatprj4.6-dev, libgnatprj4.6, libgnatprj4.6-dbg"
+	],
+	"Build-Conflicts": [
+		"binutils-gold"
+	],
+	"Build-Depends": [
+		"dpkg-dev (>= 1.16.0~ubuntu4), debhelper (>= 5.0.62), g++-multilib [amd64 i386 kfreebsd-amd64 mips mipsel powerpc ppc64 s390 s390x sparc], libc6.1-dev (>= 2.13-5) [alpha ia64] | libc0.3-dev (>= 2.13-5) [hurd-i386] | libc0.1-dev (>= 2.13-5) [kfreebsd-i386 kfreebsd-amd64] | libc6-dev (>= 2.13-5), libc6-dev-amd64 [i386], libc6-dev-sparc64 [sparc], libc6-dev-s390 [s390x], libc6-dev-s390x [s390], libc6-dev-i386 [amd64], libc6-dev-powerpc [ppc64], libc6-dev-ppc64 [powerpc], libc0.1-dev-i386 [kfreebsd-amd64], lib32gcc1 [amd64 ppc64 kfreebsd-amd64 s390x], lib64gcc1 [i386 powerpc sparc s390], libc6-dev-mips64 [mips mipsel], libc6-dev-mipsn32 [mips mipsel], m4, libtool, autoconf2.64, automake (>= 1:1.11), automake (<< 1:1.12), libunwind7-dev (>= 0.98.5-6) [ia64], libatomic-ops-dev [ia64], zlib1g-dev, gawk, lzma, xz-utils, patchutils, binutils (>= 2.21.1) | binutils-multiarch (>= 2.21.1), binutils-hppa64 (>= 2.21.1) [hppa], gperf (>= 3.0.1), bison (>= 1:2.3), flex, gettext, texinfo (>= 4.3), locales, procps, sharutils, gnat (>= 4.1), gcc-4.6-source (>= 4.6.3), gcc-4.6-source (<< 4.6.4), libcloog-ppl-dev (>= 0.15.9-2~), libmpc-dev, libmpfr-dev (>= 3.0.0-9~), libgmp-dev (>= 2:5.0.1~), libelfg0-dev (>= 0.8.12), dejagnu [!m68k !hurd-i386 !hurd-alpha], realpath (>= 1.9.12), chrpath, lsb-release, make (>= 3.81), quilt"
+	],
+	"Checksums-Sha1": [
+		"58cc1d2609cc9b5b6f1eb00bcb180a1dc94a940f 2817 gnat-4.6_4.6.3-8.dsc c63a9b18c39abc733d97861e384c6f370796c009 978826 gnat-4.6_4.6.3-8.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"7bfa676f34c6311d85be0776ec0c7f4c6ba0d81843db9ad8f28b5b45c685b0ae 2817 gnat-4.6_4.6.3-8.dsc 33107670fe93dcf47c4f568ea8b501c9050711bcc46a6202f4ca5c93a459f184 978826 gnat-4.6_4.6.3-8.tar.gz"
+	],
+	"Directory": [
+		"pool/main/g/gnat-4.6"
+	],
+	"Files": [
+		"26530efc2cd6fde6c7b0ef6c49141730 2817 gnat-4.6_4.6.3-8.dsc fa62e38160203f1aa730ec5d72e40903 978826 gnat-4.6_4.6.3-8.tar.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Homepage": [
+		"http://gcc.gnu.org/"
+	],
+	"Maintainer": [
+		"Debian GCC Maintainers <debian-gcc@lists.debian.org>"
+	],
+	"Package": [
+		"gnat-4.6"
+	],
+	"Package-List": [
+		"gnat-4.6 deb devel optional gnat-4.6-base deb libs optional gnat-4.6-sjlj deb devel extra libgnat-4.6 deb libs optional libgnat-4.6-dbg deb debug extra libgnatprj4.6 deb libs optional libgnatprj4.6-dbg deb debug extra libgnatprj4.6-dev deb libdevel extra libgnatvsn4.6 deb libs optional libgnatvsn4.6-dbg deb debug extra libgnatvsn4.6-dev deb libdevel extra"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"devel"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Ludovic Brenta <lbrenta@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://svn.debian.org/viewsvn/gcccvs/branches/sid/gcc-4.6/"
+	],
+	"Vcs-Svn": [
+		"svn://svn.debian.org/svn/gcccvs/branches/sid/gcc-4.6"
+	],
+	"Version": [
+		"4.6.3-8"
+	]
 }

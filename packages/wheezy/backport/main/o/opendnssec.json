@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "opendnssec-common, opendnssec, opendnssec-doc, opendnssec-enforcer, opendnssec-enforcer-mysql, opendnssec-enforcer-sqlite3, opendnssec-signer, libhsm-bin, opendnssec-dbg-mysql, opendnssec-dbg-sqlite3"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-autoreconf, autotools-dev, libxml2-utils, xsltproc, libxml2-dev, libmysqlclient-dev, libcurl4-openssl-dev, mysql-client | mariadb-client, libsqlite3-dev, sqlite3, libldns-dev (>= 1.6.14~), libcunit1-dev, opensc, procps, graphviz, doxygen"
-  ],
-  "Checksums-Sha1": [
-    "84acb72b6557551f7eab3fe4732c5fd7a212228e 2624 opendnssec_1.4.5-6~bpo70+1.dsc da2d97669a7688321ea563e0a512531d932f19d6 1009953 opendnssec_1.4.5.orig.tar.gz f027946a604dafcdc2810dbe03d24882eb7dd5d6 18917 opendnssec_1.4.5-6~bpo70+1.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "548de3e53b1c10b4a0d9ddb905c7ab551063a53cfbff718e4310fdf66d92594f 2624 opendnssec_1.4.5-6~bpo70+1.dsc c4d4366497ab096c6887c51f7518d546a0419a44dfad1f57d4ec9e67bb95019b 1009953 opendnssec_1.4.5.orig.tar.gz 2110b6eb000135ac5edfb7f049f0d11ce13f36101cc51dc66ece685964dd1947 18917 opendnssec_1.4.5-6~bpo70+1.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/o/opendnssec"
-  ],
-  "Files": [
-    "0fd258fcf52f54ca0dd0d309503db0fa 2624 opendnssec_1.4.5-6~bpo70+1.dsc 76eb0e2165de2081f5018ab04ec532aa 1009953 opendnssec_1.4.5.orig.tar.gz 470d04c833b202384347c678f2cc2686 18917 opendnssec_1.4.5-6~bpo70+1.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.opendnssec.org/"
-  ],
-  "Maintainer": [
-    "Ondřej Surý <ondrej@debian.org>"
-  ],
-  "Package": [
-    "opendnssec"
-  ],
-  "Package-List": [
-    "libhsm-bin deb misc extra opendnssec deb misc extra opendnssec-common deb misc extra opendnssec-dbg-mysql deb debug extra opendnssec-dbg-sqlite3 deb debug extra opendnssec-doc deb doc extra opendnssec-enforcer deb admin extra opendnssec-enforcer-mysql deb admin extra opendnssec-enforcer-sqlite3 deb admin extra opendnssec-signer deb admin extra"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Vcs-Browser": [
-    "http://git.debian.org/?p=pkg-nlnetlabs/opendnssec.git"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/pkg-nlnetlabs/opendnssec.git"
-  ],
-  "Version": [
-    "1:1.4.5-6~bpo70+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"opendnssec-common, opendnssec, opendnssec-doc, opendnssec-enforcer, opendnssec-enforcer-mysql, opendnssec-enforcer-sqlite3, opendnssec-signer, libhsm-bin, opendnssec-dbg-mysql, opendnssec-dbg-sqlite3"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-autoreconf, autotools-dev, libxml2-utils, xsltproc, libxml2-dev, libmysqlclient-dev, libcurl4-openssl-dev, mysql-client | mariadb-client, libsqlite3-dev, sqlite3, libldns-dev (>= 1.6.14~), libcunit1-dev, opensc, procps, graphviz, doxygen"
+	],
+	"Checksums-Sha1": [
+		"84acb72b6557551f7eab3fe4732c5fd7a212228e 2624 opendnssec_1.4.5-6~bpo70+1.dsc da2d97669a7688321ea563e0a512531d932f19d6 1009953 opendnssec_1.4.5.orig.tar.gz f027946a604dafcdc2810dbe03d24882eb7dd5d6 18917 opendnssec_1.4.5-6~bpo70+1.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"548de3e53b1c10b4a0d9ddb905c7ab551063a53cfbff718e4310fdf66d92594f 2624 opendnssec_1.4.5-6~bpo70+1.dsc c4d4366497ab096c6887c51f7518d546a0419a44dfad1f57d4ec9e67bb95019b 1009953 opendnssec_1.4.5.orig.tar.gz 2110b6eb000135ac5edfb7f049f0d11ce13f36101cc51dc66ece685964dd1947 18917 opendnssec_1.4.5-6~bpo70+1.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/o/opendnssec"
+	],
+	"Files": [
+		"0fd258fcf52f54ca0dd0d309503db0fa 2624 opendnssec_1.4.5-6~bpo70+1.dsc 76eb0e2165de2081f5018ab04ec532aa 1009953 opendnssec_1.4.5.orig.tar.gz 470d04c833b202384347c678f2cc2686 18917 opendnssec_1.4.5-6~bpo70+1.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.opendnssec.org/"
+	],
+	"Maintainer": [
+		"Ondřej Surý <ondrej@debian.org>"
+	],
+	"Package": [
+		"opendnssec"
+	],
+	"Package-List": [
+		"libhsm-bin deb misc extra opendnssec deb misc extra opendnssec-common deb misc extra opendnssec-dbg-mysql deb debug extra opendnssec-dbg-sqlite3 deb debug extra opendnssec-doc deb doc extra opendnssec-enforcer deb admin extra opendnssec-enforcer-mysql deb admin extra opendnssec-enforcer-sqlite3 deb admin extra opendnssec-signer deb admin extra"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Vcs-Browser": [
+		"http://git.debian.org/?p=pkg-nlnetlabs/opendnssec.git"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/pkg-nlnetlabs/opendnssec.git"
+	],
+	"Version": [
+		"1:1.4.5-6~bpo70+1"
+	]
 }

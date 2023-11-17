@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-magnumclient, python3-magnumclient, python-magnumclient-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 10), dh-python, openstack-pkg-tools (>= 52~), python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.8), python3-setuptools"
-  ],
-  "Build-Depends-Indep": [
-    "python-babel (>= 2.3.4), python-coverage, python-cryptography (>= 1.0), python-decorator (>= 3.4.0), python-fixtures (>= 3.0.0), python-hacking (>= 0.10.0), python-keystoneauth1 (>= 2.10.0), python-mock (>= 2.0), python-openstackclient (>= 2.1.0), python-os-client-config (>= 1.14.0), python-oslo.i18n (>= 2.1.0), python-oslo.serialization (>= 1.10.0), python-oslo.utils (>= 3.16.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.10.0), python-prettytable (>= 0.7), python-requests (>= 2.10.0), python-six (>= 1.9.0), python-stevedore (>= 1.16.0), python-testscenarios, python-testtools (>= 1.4.0), python3-babel (>= 2.3.4), python3-cryptography (>= 1.0), python3-decorator (>= 3.4.0), python3-fixtures (>= 3.0.0), python3-keystoneauth1 (>= 2.10.0), python3-mock (>= 2.0), python3-openstackclient (>= 2.1.0), python3-os-client-config (>= 1.14.0), python3-oslo.i18n (>= 2.1.0), python3-oslo.serialization (>= 1.10.0), python3-oslo.utils (>= 3.16.0), python3-oslotest (>= 1:1.10.0), python3-prettytable (>= 0.7), python3-requests (>= 2.10.0), python3-six (>= 1.9.0), python3-stevedore (>= 1.16.0), python3-subunit, python3-testscenarios, python3-testtools (>= 1.4.0), subunit, testrepository"
-  ],
-  "Checksums-Sha256": [
-    "5e25b5ec0cab37265113a2b9a319b5b926c92f267693b75395410c04ae5f2f64 3619 python-magnumclient_2.3.1-1.dsc 59cc652245e55a9553c7c4dc43f2285b0b2c8e73e193d3af79732f465dddaf37 53844 python-magnumclient_2.3.1.orig.tar.xz 159149a98da303ada73936ae70ee4127010936cc90dec34f2418120841d3e457 3844 python-magnumclient_2.3.1-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/python-magnumclient"
-  ],
-  "Files": [
-    "cbecf7a29adf09b82639ce911b10861c 3619 python-magnumclient_2.3.1-1.dsc 74fb20c9f9cb5a9ca4194a6ce1f619c4 53844 python-magnumclient_2.3.1.orig.tar.xz 3290f0fe2d89220c9997c57027f79ee2 3844 python-magnumclient_2.3.1-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.openstack.org/"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "python-magnumclient"
-  ],
-  "Package-List": [
-    "python-magnumclient deb python optional arch=all python-magnumclient-doc deb doc optional arch=all python3-magnumclient deb python optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>, Corey Bryant <corey.bryant@canonical.com>,"
-  ],
-  "Vcs-Browser": [
-    "https://git.openstack.org/cgit/openstack/deb-python-magnumclient?h=debian%2Fnewton"
-  ],
-  "Vcs-Git": [
-    "https://git.openstack.org/openstack/deb-python-magnumclient -b debian/newton"
-  ],
-  "Version": [
-    "2.3.1-1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-magnumclient, python3-magnumclient, python-magnumclient-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 10), dh-python, openstack-pkg-tools (>= 52~), python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.8), python3-setuptools"
+	],
+	"Build-Depends-Indep": [
+		"python-babel (>= 2.3.4), python-coverage, python-cryptography (>= 1.0), python-decorator (>= 3.4.0), python-fixtures (>= 3.0.0), python-hacking (>= 0.10.0), python-keystoneauth1 (>= 2.10.0), python-mock (>= 2.0), python-openstackclient (>= 2.1.0), python-os-client-config (>= 1.14.0), python-oslo.i18n (>= 2.1.0), python-oslo.serialization (>= 1.10.0), python-oslo.utils (>= 3.16.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.10.0), python-prettytable (>= 0.7), python-requests (>= 2.10.0), python-six (>= 1.9.0), python-stevedore (>= 1.16.0), python-testscenarios, python-testtools (>= 1.4.0), python3-babel (>= 2.3.4), python3-cryptography (>= 1.0), python3-decorator (>= 3.4.0), python3-fixtures (>= 3.0.0), python3-keystoneauth1 (>= 2.10.0), python3-mock (>= 2.0), python3-openstackclient (>= 2.1.0), python3-os-client-config (>= 1.14.0), python3-oslo.i18n (>= 2.1.0), python3-oslo.serialization (>= 1.10.0), python3-oslo.utils (>= 3.16.0), python3-oslotest (>= 1:1.10.0), python3-prettytable (>= 0.7), python3-requests (>= 2.10.0), python3-six (>= 1.9.0), python3-stevedore (>= 1.16.0), python3-subunit, python3-testscenarios, python3-testtools (>= 1.4.0), subunit, testrepository"
+	],
+	"Checksums-Sha256": [
+		"5e25b5ec0cab37265113a2b9a319b5b926c92f267693b75395410c04ae5f2f64 3619 python-magnumclient_2.3.1-1.dsc 59cc652245e55a9553c7c4dc43f2285b0b2c8e73e193d3af79732f465dddaf37 53844 python-magnumclient_2.3.1.orig.tar.xz 159149a98da303ada73936ae70ee4127010936cc90dec34f2418120841d3e457 3844 python-magnumclient_2.3.1-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-magnumclient"
+	],
+	"Files": [
+		"cbecf7a29adf09b82639ce911b10861c 3619 python-magnumclient_2.3.1-1.dsc 74fb20c9f9cb5a9ca4194a6ce1f619c4 53844 python-magnumclient_2.3.1.orig.tar.xz 3290f0fe2d89220c9997c57027f79ee2 3844 python-magnumclient_2.3.1-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.openstack.org/"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"python-magnumclient"
+	],
+	"Package-List": [
+		"python-magnumclient deb python optional arch=all python-magnumclient-doc deb doc optional arch=all python3-magnumclient deb python optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>, Corey Bryant <corey.bryant@canonical.com>,"
+	],
+	"Vcs-Browser": [
+		"https://git.openstack.org/cgit/openstack/deb-python-magnumclient?h=debian%2Fnewton"
+	],
+	"Vcs-Git": [
+		"https://git.openstack.org/openstack/deb-python-magnumclient -b debian/newton"
+	],
+	"Version": [
+		"2.3.1-1"
+	]
 }

@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "exim4-base, exim4-config, exim4-daemon-light, exim4, exim4-daemon-heavy, eximon4, exim4-dbg, exim4-daemon-light-dbg, exim4-daemon-heavy-dbg, exim4-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), po-debconf, docbook-xsl, xsltproc, lynx-cur | lynx, docbook-xml, libpcre3-dev, libldap2-dev, libpam0g-dev, libident-dev, libdb5.3-dev, libxmu-dev, libxt-dev, libxext-dev, libx11-dev, libxaw7-dev, libpq-dev, default-libmysqlclient-dev, libsqlite3-dev, libperl-dev, libgnutls28-dev, libsasl2-dev"
-  ],
-  "Checksums-Sha256": [
-    "1f84c5b2e4d6db74fcb13c99674d3635797b2e7681923f8b39cb04b5aaafa87d 3054 exim4_4.89-2+deb9u7.dsc 0c490a1ca97bbb22d6079d2896de19af48ac3af109ea5f307dbc6b49c66e9626 1686652 exim4_4.89.orig.tar.xz 8bc441fd562cdb322b5180f010ff2f2308d121afe6118b27f316f981873aa2cc 996 exim4_4.89.orig.tar.xz.asc 22ff2913b872e732c344ae86b42b5839799cf4cf234eb0a750bb14e9e3e979ae 455052 exim4_4.89-2+deb9u7.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/e/exim4"
-  ],
-  "Files": [
-    "5bbe2a21d781901b89793b78d0b1ced8 3054 exim4_4.89-2+deb9u7.dsc b569ec80c495dffc54545895e680ed61 1686652 exim4_4.89.orig.tar.xz fa05d033ee4652d9ff585f58477c8ab4 996 exim4_4.89.orig.tar.xz.asc a1874852389e4e50471e7417acc09c18 455052 exim4_4.89-2+deb9u7.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.exim.org/"
-  ],
-  "Maintainer": [
-    "Exim4 Maintainers <pkg-exim4-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "exim4"
-  ],
-  "Package-List": [
-    "exim4 deb mail standard arch=all exim4-base deb mail standard arch=any exim4-config deb mail standard arch=all exim4-daemon-heavy deb mail optional arch=any exim4-daemon-heavy-dbg deb debug extra arch=any exim4-daemon-light deb mail standard arch=any exim4-daemon-light-dbg deb debug extra arch=any exim4-dbg deb debug extra arch=any exim4-dev deb mail extra arch=any eximon4 deb mail optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "mail"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "python"
-  ],
-  "Uploaders": [
-    "Andreas Metzler <ametzler@debian.org>,Marc Haber <mh+debian-packages@zugschlus.de>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/git/pkg-exim4/exim4.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-exim4/exim4.git"
-  ],
-  "Version": [
-    "4.89-2+deb9u7"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"exim4-base, exim4-config, exim4-daemon-light, exim4, exim4-daemon-heavy, eximon4, exim4-dbg, exim4-daemon-light-dbg, exim4-daemon-heavy-dbg, exim4-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), po-debconf, docbook-xsl, xsltproc, lynx-cur | lynx, docbook-xml, libpcre3-dev, libldap2-dev, libpam0g-dev, libident-dev, libdb5.3-dev, libxmu-dev, libxt-dev, libxext-dev, libx11-dev, libxaw7-dev, libpq-dev, default-libmysqlclient-dev, libsqlite3-dev, libperl-dev, libgnutls28-dev, libsasl2-dev"
+	],
+	"Checksums-Sha256": [
+		"1f84c5b2e4d6db74fcb13c99674d3635797b2e7681923f8b39cb04b5aaafa87d 3054 exim4_4.89-2+deb9u7.dsc 0c490a1ca97bbb22d6079d2896de19af48ac3af109ea5f307dbc6b49c66e9626 1686652 exim4_4.89.orig.tar.xz 8bc441fd562cdb322b5180f010ff2f2308d121afe6118b27f316f981873aa2cc 996 exim4_4.89.orig.tar.xz.asc 22ff2913b872e732c344ae86b42b5839799cf4cf234eb0a750bb14e9e3e979ae 455052 exim4_4.89-2+deb9u7.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/e/exim4"
+	],
+	"Files": [
+		"5bbe2a21d781901b89793b78d0b1ced8 3054 exim4_4.89-2+deb9u7.dsc b569ec80c495dffc54545895e680ed61 1686652 exim4_4.89.orig.tar.xz fa05d033ee4652d9ff585f58477c8ab4 996 exim4_4.89.orig.tar.xz.asc a1874852389e4e50471e7417acc09c18 455052 exim4_4.89-2+deb9u7.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.exim.org/"
+	],
+	"Maintainer": [
+		"Exim4 Maintainers <pkg-exim4-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"exim4"
+	],
+	"Package-List": [
+		"exim4 deb mail standard arch=all exim4-base deb mail standard arch=any exim4-config deb mail standard arch=all exim4-daemon-heavy deb mail optional arch=any exim4-daemon-heavy-dbg deb debug extra arch=any exim4-daemon-light deb mail standard arch=any exim4-daemon-light-dbg deb debug extra arch=any exim4-dbg deb debug extra arch=any exim4-dev deb mail extra arch=any eximon4 deb mail optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"mail"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"python"
+	],
+	"Uploaders": [
+		"Andreas Metzler <ametzler@debian.org>,Marc Haber <mh+debian-packages@zugschlus.de>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/git/pkg-exim4/exim4.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-exim4/exim4.git"
+	],
+	"Version": [
+		"4.89-2+deb9u7"
+	]
 }

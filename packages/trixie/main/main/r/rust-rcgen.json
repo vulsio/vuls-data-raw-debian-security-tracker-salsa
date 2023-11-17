@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-rcgen-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-pem-1+default-dev <!nocheck>, librust-ring-0.17+default-dev <!nocheck>, librust-time-0.3-dev (>= 0.3.6-~~) <!nocheck>, librust-yasna-0.5+default-dev (>= 0.5.2-~~) <!nocheck>, librust-yasna-0.5+std-dev (>= 0.5.2-~~) <!nocheck>, librust-yasna-0.5+time-dev (>= 0.5.2-~~) <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "ac4c8caffb358b6716e94a5d428306ef7f57129300ce8234452b4d1233344605 2544 rust-rcgen_0.11.3-4.dsc 52c4f3084aa3bc7dfbba4eff4fab2a54db4324965d8872ab933565e6fbd83bc6 55311 rust-rcgen_0.11.3.orig.tar.gz 8baf6ba75c2893fafdcf0a1a8d537c6e62decc76194d544235ec2fbb52d432b8 8356 rust-rcgen_0.11.3-4.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-rcgen"
-  ],
-  "Files": [
-    "fbfe197d88343d38227afdaa3282d818 2544 rust-rcgen_0.11.3-4.dsc c55aeb3363c28cfb2babee1ef7a7d0ae 55311 rust-rcgen_0.11.3.orig.tar.gz 1efe6579a8e91c94c4dec0acb22acdff 8356 rust-rcgen_0.11.3-4.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-rcgen"
-  ],
-  "Package-List": [
-    "librust-rcgen-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-openssl-0.10+default-dev, librust-rand-0.8+default-dev, librust-rustls-webpki-0.101+default-dev, librust-rustls-webpki-0.101+std-dev"
-  ],
-  "Uploaders": [
-    "Emanuele Rocca <ema@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/rcgen"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/rcgen]"
-  ],
-  "Version": [
-    "0.11.3-4"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-rcgen-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-pem-1+default-dev <!nocheck>, librust-ring-0.17+default-dev <!nocheck>, librust-time-0.3-dev (>= 0.3.6-~~) <!nocheck>, librust-yasna-0.5+default-dev (>= 0.5.2-~~) <!nocheck>, librust-yasna-0.5+std-dev (>= 0.5.2-~~) <!nocheck>, librust-yasna-0.5+time-dev (>= 0.5.2-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"ac4c8caffb358b6716e94a5d428306ef7f57129300ce8234452b4d1233344605 2544 rust-rcgen_0.11.3-4.dsc 52c4f3084aa3bc7dfbba4eff4fab2a54db4324965d8872ab933565e6fbd83bc6 55311 rust-rcgen_0.11.3.orig.tar.gz 8baf6ba75c2893fafdcf0a1a8d537c6e62decc76194d544235ec2fbb52d432b8 8356 rust-rcgen_0.11.3-4.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-rcgen"
+	],
+	"Files": [
+		"fbfe197d88343d38227afdaa3282d818 2544 rust-rcgen_0.11.3-4.dsc c55aeb3363c28cfb2babee1ef7a7d0ae 55311 rust-rcgen_0.11.3.orig.tar.gz 1efe6579a8e91c94c4dec0acb22acdff 8356 rust-rcgen_0.11.3-4.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-rcgen"
+	],
+	"Package-List": [
+		"librust-rcgen-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-openssl-0.10+default-dev, librust-rand-0.8+default-dev, librust-rustls-webpki-0.101+default-dev, librust-rustls-webpki-0.101+std-dev"
+	],
+	"Uploaders": [
+		"Emanuele Rocca <ema@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/rcgen"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/rcgen]"
+	],
+	"Version": [
+		"0.11.3-4"
+	]
 }

@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "i386 amd64 arm64 armhf all"
-  ],
-  "Binary": [
-    "chromium, chromium-l10n, chromium-shell, chromium-widevine, chromium-driver, chromedriver"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), python3, pkg-config, ninja-build, python-jinja2, ca-certificates, wget, flex, yasm, xvfb, wdiff, gperf, bison, valgrind, xz-utils, x11-apps, xfonts-base, libglewmx-dev, libgl1-mesa-dev, libglu1-mesa-dev, libegl1-mesa-dev, libgles2-mesa-dev, mesa-common-dev, libxt-dev, libre2-dev, libgbm-dev, libpng-dev, libxss-dev, libelf-dev, libvpx-dev, libpci-dev, libcap-dev, libdrm-dev, libicu-dev, libffi-dev, libkrb5-dev, libexif-dev, libflac-dev, libudev-dev, libopus-dev, libwebp-dev, libxtst-dev, libsrtp-dev, libjpeg-dev, libxml2-dev, libgtk-3-dev, libgtk2.0-dev, libxslt1-dev, libpulse-dev, libpam0g-dev, libsnappy-dev, libavutil-dev, libavcodec-dev (>= 7:3.0), libavformat-dev, libglib2.0-dev, libasound2-dev, libsqlite3-dev, libjsoncpp-dev, libspeechd-dev (>= 0.8.4), libminizip-dev, libhunspell-dev, libharfbuzz-dev (>= 1.2.7), libusb-1.0-0-dev, libopenjp2-7-dev, libmodpbase64-dev, libgnome-keyring-dev, libnss3-dev (>= 3.12.3), libnspr4-dev (>= 2:4.9), libcups2-dev (>= 1.5.0), libevent-dev (>= 1.4.13), libjs-jquery, libjs-excanvas, libjs-jquery-flot, libgcrypt20-dev, fonts-ipafont-gothic, fonts-ipafont-mincho"
-  ],
-  "Checksums-Sha256": [
-    "0cfa80368294ee9055ecdd42dc9a5ab5272be62129df4d7495e791109a73558d 4299 chromium_73.0.3683.75-1~deb9u1.dsc 7dfdc4d5c75db1caa74ae792f8e9a2e10c21c573725beaf5cd91e8edfd527b77 224659364 chromium_73.0.3683.75.orig.tar.xz 8c110c91651f9cafe5775867fd169a2c9d9cbdde50a3c72fabab656815dd6ef1 176640 chromium_73.0.3683.75-1~deb9u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/c/chromium"
-  ],
-  "Files": [
-    "d4266dc5774bbaecf7a6cb869c851478 4299 chromium_73.0.3683.75-1~deb9u1.dsc 939555e77aaeacc51ca3dbdf9d440348 224659364 chromium_73.0.3683.75.orig.tar.xz 6e1e536048a98c00659493a6c3f0b47b 176640 chromium_73.0.3683.75-1~deb9u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.chromium.org/Home"
-  ],
-  "Maintainer": [
-    "Debian Chromium Maintainers <pkg-chromium-maint@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "chromium"
-  ],
-  "Package-List": [
-    "chromedriver deb web optional arch=i386,amd64,arm64,armhf chromium deb web optional arch=i386,amd64,arm64,armhf chromium-driver deb web optional arch=i386,amd64,arm64,armhf chromium-l10n deb localization optional arch=all chromium-shell deb web optional arch=i386,amd64,arm64,armhf chromium-widevine deb contrib/web optional arch=i386,amd64,arm64,armhf"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Michael Gilbert <mgilbert@debian.org>, Riku Voipio <riku.voipio@linaro.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-chromium/pkg-chromium.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-chromium/pkg-chromium.git"
-  ],
-  "Version": [
-    "73.0.3683.75-1~deb9u1"
-  ]
+	"Architecture": [
+		"i386 amd64 arm64 armhf all"
+	],
+	"Binary": [
+		"chromium, chromium-l10n, chromium-shell, chromium-widevine, chromium-driver, chromedriver"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), python3, pkg-config, ninja-build, python-jinja2, ca-certificates, wget, flex, yasm, xvfb, wdiff, gperf, bison, valgrind, xz-utils, x11-apps, xfonts-base, libglewmx-dev, libgl1-mesa-dev, libglu1-mesa-dev, libegl1-mesa-dev, libgles2-mesa-dev, mesa-common-dev, libxt-dev, libre2-dev, libgbm-dev, libpng-dev, libxss-dev, libelf-dev, libvpx-dev, libpci-dev, libcap-dev, libdrm-dev, libicu-dev, libffi-dev, libkrb5-dev, libexif-dev, libflac-dev, libudev-dev, libopus-dev, libwebp-dev, libxtst-dev, libsrtp-dev, libjpeg-dev, libxml2-dev, libgtk-3-dev, libgtk2.0-dev, libxslt1-dev, libpulse-dev, libpam0g-dev, libsnappy-dev, libavutil-dev, libavcodec-dev (>= 7:3.0), libavformat-dev, libglib2.0-dev, libasound2-dev, libsqlite3-dev, libjsoncpp-dev, libspeechd-dev (>= 0.8.4), libminizip-dev, libhunspell-dev, libharfbuzz-dev (>= 1.2.7), libusb-1.0-0-dev, libopenjp2-7-dev, libmodpbase64-dev, libgnome-keyring-dev, libnss3-dev (>= 3.12.3), libnspr4-dev (>= 2:4.9), libcups2-dev (>= 1.5.0), libevent-dev (>= 1.4.13), libjs-jquery, libjs-excanvas, libjs-jquery-flot, libgcrypt20-dev, fonts-ipafont-gothic, fonts-ipafont-mincho"
+	],
+	"Checksums-Sha256": [
+		"0cfa80368294ee9055ecdd42dc9a5ab5272be62129df4d7495e791109a73558d 4299 chromium_73.0.3683.75-1~deb9u1.dsc 7dfdc4d5c75db1caa74ae792f8e9a2e10c21c573725beaf5cd91e8edfd527b77 224659364 chromium_73.0.3683.75.orig.tar.xz 8c110c91651f9cafe5775867fd169a2c9d9cbdde50a3c72fabab656815dd6ef1 176640 chromium_73.0.3683.75-1~deb9u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/c/chromium"
+	],
+	"Files": [
+		"d4266dc5774bbaecf7a6cb869c851478 4299 chromium_73.0.3683.75-1~deb9u1.dsc 939555e77aaeacc51ca3dbdf9d440348 224659364 chromium_73.0.3683.75.orig.tar.xz 6e1e536048a98c00659493a6c3f0b47b 176640 chromium_73.0.3683.75-1~deb9u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.chromium.org/Home"
+	],
+	"Maintainer": [
+		"Debian Chromium Maintainers <pkg-chromium-maint@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"chromium"
+	],
+	"Package-List": [
+		"chromedriver deb web optional arch=i386,amd64,arm64,armhf chromium deb web optional arch=i386,amd64,arm64,armhf chromium-driver deb web optional arch=i386,amd64,arm64,armhf chromium-l10n deb localization optional arch=all chromium-shell deb web optional arch=i386,amd64,arm64,armhf chromium-widevine deb contrib/web optional arch=i386,amd64,arm64,armhf"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Michael Gilbert <mgilbert@debian.org>, Riku Voipio <riku.voipio@linaro.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-chromium/pkg-chromium.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-chromium/pkg-chromium.git"
+	],
+	"Version": [
+		"73.0.3683.75-1~deb9u1"
+	]
 }

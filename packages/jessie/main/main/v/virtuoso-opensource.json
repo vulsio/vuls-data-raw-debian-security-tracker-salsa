@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "virtuoso-opensource, virtuoso-server, virtuoso-minimal, virtuoso-opensource-6.1, virtuoso-opensource-6.1-common, virtuoso-opensource-6.1-bin, virtuoso-vsp-startpage, virtuoso-vad-conductor, virtuoso-vad-doc, virtuoso-vad-demo, virtuoso-vad-tutorial, virtuoso-vad-rdfmappers, virtuoso-vad-sparqldemo, virtuoso-vad-syncml, virtuoso-vad-bpel, virtuoso-vad-isparql, virtuoso-vad-ods, libvirtodbc0, libvirtuoso5.5-cil"
-  ],
-  "Build-Depends": [
-    "autoconf (>= 2.57), automake (>= 1.10), autotools-dev, bison (>= 1.35), cli-common-dev (>= 0.8~) [i386 kfreebsd-i386 powerpc amd64 kfreebsd-amd64 ia64 arm armel sparc s390x ppc64], debhelper (>= 9), dh-autoreconf, docbook2x, docbook-xml, flex (>= 2.5.4), gawk (>= 3.1.1), gperf (>= 2.7.2), libldap2-dev, libmagickwand-dev, libpcre3-dev, libreadline-dev, libssl-dev (>= 0.9.7), libtool (>= 1.5.16), libwbxml2-dev, libxml2-dev, m4 (>= 1.4.1), make (>= 3.79.1), mono-devel (>= 2.4.3) [i386 kfreebsd-i386 powerpc amd64 kfreebsd-amd64 arm armel sparc s390x ppc64], net-tools, pkg-kde-tools, po-debconf, zlib1g-dev"
-  ],
-  "Checksums-Sha1": [
-    "fc9ef3436444b6c402ba4261c3feeb5e44036338 4173 virtuoso-opensource_6.1.6+dfsg2-2.dsc 3b62e4d7ea8dbc0b213816616809cf2c567b3e2a 92998596 virtuoso-opensource_6.1.6+dfsg2.orig.tar.xz f4f9bcb81660a04b13f2c7e389b318cfaff815bb 64544 virtuoso-opensource_6.1.6+dfsg2-2.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "5eaf56f9116ac83c1444d7c51bbc9c543c5feac8b4a582cf6597ce9aa59b70e3 4173 virtuoso-opensource_6.1.6+dfsg2-2.dsc 22ef4ba8d6bf4676c70e8b7af12f805818952794a2d15206945fe811c2d3c452 92998596 virtuoso-opensource_6.1.6+dfsg2.orig.tar.xz 680ec87aec9cee292aa225336f995fa5e412ec7b535a1b2a9fb083814fde9b59 64544 virtuoso-opensource_6.1.6+dfsg2-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/v/virtuoso-opensource"
-  ],
-  "Files": [
-    "483d928673576139f0b93e1596f047f2 4173 virtuoso-opensource_6.1.6+dfsg2-2.dsc aacc434dd0241c67f63aa61c8bc16a76 92998596 virtuoso-opensource_6.1.6+dfsg2.orig.tar.xz f3ade3de150b0398d76bedc0989259e5 64544 virtuoso-opensource_6.1.6+dfsg2-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://virtuoso.openlinksw.com/wiki/main/Main/"
-  ],
-  "Maintainer": [
-    "Debian Krap Maintainers <debian-qt-kde@lists.debian.org>"
-  ],
-  "Package": [
-    "virtuoso-opensource"
-  ],
-  "Package-List": [
-    "libvirtodbc0 deb database optional arch=any libvirtuoso5.5-cil deb cli-mono optional arch=amd64,arm,armel,i386,kfreebsd-amd64,kfreebsd-i386,powerpc,ppc64,s390x,sparc virtuoso-minimal deb metapackages optional arch=all virtuoso-opensource deb metapackages optional arch=all virtuoso-opensource-6.1 deb database optional arch=any virtuoso-opensource-6.1-bin deb database optional arch=any virtuoso-opensource-6.1-common deb database optional arch=any virtuoso-server deb metapackages optional arch=all virtuoso-vad-bpel deb database optional arch=all virtuoso-vad-conductor deb database optional arch=all virtuoso-vad-demo deb doc optional arch=all virtuoso-vad-doc deb doc optional arch=all virtuoso-vad-isparql deb database optional arch=all virtuoso-vad-ods deb database optional arch=all virtuoso-vad-rdfmappers deb database optional arch=all virtuoso-vad-sparqldemo deb database optional arch=all virtuoso-vad-syncml deb database optional arch=all virtuoso-vad-tutorial deb doc optional arch=all virtuoso-vsp-startpage deb database optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "database"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Uploaders": [
-    "Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>, Sune Vuorela <sune@debian.org>, Maximiliano Curia <maxy@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-virtuoso/pkg-virtuoso.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-virtuoso/pkg-virtuoso.git"
-  ],
-  "Version": [
-    "6.1.6+dfsg2-2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"virtuoso-opensource, virtuoso-server, virtuoso-minimal, virtuoso-opensource-6.1, virtuoso-opensource-6.1-common, virtuoso-opensource-6.1-bin, virtuoso-vsp-startpage, virtuoso-vad-conductor, virtuoso-vad-doc, virtuoso-vad-demo, virtuoso-vad-tutorial, virtuoso-vad-rdfmappers, virtuoso-vad-sparqldemo, virtuoso-vad-syncml, virtuoso-vad-bpel, virtuoso-vad-isparql, virtuoso-vad-ods, libvirtodbc0, libvirtuoso5.5-cil"
+	],
+	"Build-Depends": [
+		"autoconf (>= 2.57), automake (>= 1.10), autotools-dev, bison (>= 1.35), cli-common-dev (>= 0.8~) [i386 kfreebsd-i386 powerpc amd64 kfreebsd-amd64 ia64 arm armel sparc s390x ppc64], debhelper (>= 9), dh-autoreconf, docbook2x, docbook-xml, flex (>= 2.5.4), gawk (>= 3.1.1), gperf (>= 2.7.2), libldap2-dev, libmagickwand-dev, libpcre3-dev, libreadline-dev, libssl-dev (>= 0.9.7), libtool (>= 1.5.16), libwbxml2-dev, libxml2-dev, m4 (>= 1.4.1), make (>= 3.79.1), mono-devel (>= 2.4.3) [i386 kfreebsd-i386 powerpc amd64 kfreebsd-amd64 arm armel sparc s390x ppc64], net-tools, pkg-kde-tools, po-debconf, zlib1g-dev"
+	],
+	"Checksums-Sha1": [
+		"fc9ef3436444b6c402ba4261c3feeb5e44036338 4173 virtuoso-opensource_6.1.6+dfsg2-2.dsc 3b62e4d7ea8dbc0b213816616809cf2c567b3e2a 92998596 virtuoso-opensource_6.1.6+dfsg2.orig.tar.xz f4f9bcb81660a04b13f2c7e389b318cfaff815bb 64544 virtuoso-opensource_6.1.6+dfsg2-2.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"5eaf56f9116ac83c1444d7c51bbc9c543c5feac8b4a582cf6597ce9aa59b70e3 4173 virtuoso-opensource_6.1.6+dfsg2-2.dsc 22ef4ba8d6bf4676c70e8b7af12f805818952794a2d15206945fe811c2d3c452 92998596 virtuoso-opensource_6.1.6+dfsg2.orig.tar.xz 680ec87aec9cee292aa225336f995fa5e412ec7b535a1b2a9fb083814fde9b59 64544 virtuoso-opensource_6.1.6+dfsg2-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/v/virtuoso-opensource"
+	],
+	"Files": [
+		"483d928673576139f0b93e1596f047f2 4173 virtuoso-opensource_6.1.6+dfsg2-2.dsc aacc434dd0241c67f63aa61c8bc16a76 92998596 virtuoso-opensource_6.1.6+dfsg2.orig.tar.xz f3ade3de150b0398d76bedc0989259e5 64544 virtuoso-opensource_6.1.6+dfsg2-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://virtuoso.openlinksw.com/wiki/main/Main/"
+	],
+	"Maintainer": [
+		"Debian Krap Maintainers <debian-qt-kde@lists.debian.org>"
+	],
+	"Package": [
+		"virtuoso-opensource"
+	],
+	"Package-List": [
+		"libvirtodbc0 deb database optional arch=any libvirtuoso5.5-cil deb cli-mono optional arch=amd64,arm,armel,i386,kfreebsd-amd64,kfreebsd-i386,powerpc,ppc64,s390x,sparc virtuoso-minimal deb metapackages optional arch=all virtuoso-opensource deb metapackages optional arch=all virtuoso-opensource-6.1 deb database optional arch=any virtuoso-opensource-6.1-bin deb database optional arch=any virtuoso-opensource-6.1-common deb database optional arch=any virtuoso-server deb metapackages optional arch=all virtuoso-vad-bpel deb database optional arch=all virtuoso-vad-conductor deb database optional arch=all virtuoso-vad-demo deb doc optional arch=all virtuoso-vad-doc deb doc optional arch=all virtuoso-vad-isparql deb database optional arch=all virtuoso-vad-ods deb database optional arch=all virtuoso-vad-rdfmappers deb database optional arch=all virtuoso-vad-sparqldemo deb database optional arch=all virtuoso-vad-syncml deb database optional arch=all virtuoso-vad-tutorial deb doc optional arch=all virtuoso-vsp-startpage deb database optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"database"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Uploaders": [
+		"Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>, Sune Vuorela <sune@debian.org>, Maximiliano Curia <maxy@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-virtuoso/pkg-virtuoso.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-virtuoso/pkg-virtuoso.git"
+	],
+	"Version": [
+		"6.1.6+dfsg2-2"
+	]
 }

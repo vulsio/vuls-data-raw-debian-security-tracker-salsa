@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-wasm-bindgen-dev, librust-wasm-bindgen+default-dev, librust-wasm-bindgen+serde-dev, librust-wasm-bindgen+serde-serialize-dev, librust-wasm-bindgen+serde-json-dev, librust-wasm-bindgen+spans-dev, librust-wasm-bindgen+strict-macro-dev, librust-wasm-bindgen+xxx-debug-only-print-generated-code-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cfg-if-1+default-dev <!nocheck>, librust-wasm-bindgen-macro-0.2.87+default-dev <!nocheck>, librust-wasm-bindgen-macro-0.2.87+spans-dev <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "77af44db8d342f1817550576493d2f1a9b9db5c5f3ab2ad0254f443afd83fa43 3431 rust-wasm-bindgen_0.2.87-1.dsc 7706a72ab36d8cb1f80ffbf0e071533974a60d0a308d01a5d0375bf60499a342 175052 rust-wasm-bindgen_0.2.87.orig.tar.gz b9dc80cbabe0daf6fdefb39ccabec05fd75960b04c6538de03d2eb229458a483 3716 rust-wasm-bindgen_0.2.87-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-wasm-bindgen"
-  ],
-  "Files": [
-    "d65cdf7bc498b314b49d3edd654f88bd 3431 rust-wasm-bindgen_0.2.87-1.dsc 64f9f5c520b25087ba70e4194d6aea9c 175052 rust-wasm-bindgen_0.2.87.orig.tar.gz 1c0bd880654f1f23fc929b4875197ab3 3716 rust-wasm-bindgen_0.2.87-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://rustwasm.github.io/"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-wasm-bindgen"
-  ],
-  "Package-List": [
-    "librust-wasm-bindgen+default-dev deb rust optional arch=any librust-wasm-bindgen+serde-dev deb rust optional arch=any librust-wasm-bindgen+serde-json-dev deb rust optional arch=any librust-wasm-bindgen+serde-serialize-dev deb rust optional arch=any librust-wasm-bindgen+spans-dev deb rust optional arch=any librust-wasm-bindgen+strict-macro-dev deb rust optional arch=any librust-wasm-bindgen+xxx-debug-only-print-generated-code-dev deb rust optional arch=any librust-wasm-bindgen-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-js-sys-0.3+default-dev, librust-serde-derive-1+default-dev, librust-wasm-bindgen-futures-0.4.37+default-dev, librust-wasm-bindgen-test-0.3.37+default-dev, librust-wasm-bindgen-test-crate-a-0.1+default-dev, librust-wasm-bindgen-test-crate-b-0.1+default-dev"
-  ],
-  "Uploaders": [
-    "Wolfgang Silbermayr <wolfgang@silbermayr.at>, kpcyrd <git@rxv.cc>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/wasm-bindgen"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/wasm-bindgen]"
-  ],
-  "Version": [
-    "0.2.87-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-wasm-bindgen-dev, librust-wasm-bindgen+default-dev, librust-wasm-bindgen+serde-dev, librust-wasm-bindgen+serde-serialize-dev, librust-wasm-bindgen+serde-json-dev, librust-wasm-bindgen+spans-dev, librust-wasm-bindgen+strict-macro-dev, librust-wasm-bindgen+xxx-debug-only-print-generated-code-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cfg-if-1+default-dev <!nocheck>, librust-wasm-bindgen-macro-0.2.87+default-dev <!nocheck>, librust-wasm-bindgen-macro-0.2.87+spans-dev <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"77af44db8d342f1817550576493d2f1a9b9db5c5f3ab2ad0254f443afd83fa43 3431 rust-wasm-bindgen_0.2.87-1.dsc 7706a72ab36d8cb1f80ffbf0e071533974a60d0a308d01a5d0375bf60499a342 175052 rust-wasm-bindgen_0.2.87.orig.tar.gz b9dc80cbabe0daf6fdefb39ccabec05fd75960b04c6538de03d2eb229458a483 3716 rust-wasm-bindgen_0.2.87-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-wasm-bindgen"
+	],
+	"Files": [
+		"d65cdf7bc498b314b49d3edd654f88bd 3431 rust-wasm-bindgen_0.2.87-1.dsc 64f9f5c520b25087ba70e4194d6aea9c 175052 rust-wasm-bindgen_0.2.87.orig.tar.gz 1c0bd880654f1f23fc929b4875197ab3 3716 rust-wasm-bindgen_0.2.87-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://rustwasm.github.io/"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-wasm-bindgen"
+	],
+	"Package-List": [
+		"librust-wasm-bindgen+default-dev deb rust optional arch=any librust-wasm-bindgen+serde-dev deb rust optional arch=any librust-wasm-bindgen+serde-json-dev deb rust optional arch=any librust-wasm-bindgen+serde-serialize-dev deb rust optional arch=any librust-wasm-bindgen+spans-dev deb rust optional arch=any librust-wasm-bindgen+strict-macro-dev deb rust optional arch=any librust-wasm-bindgen+xxx-debug-only-print-generated-code-dev deb rust optional arch=any librust-wasm-bindgen-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-js-sys-0.3+default-dev, librust-serde-derive-1+default-dev, librust-wasm-bindgen-futures-0.4.37+default-dev, librust-wasm-bindgen-test-0.3.37+default-dev, librust-wasm-bindgen-test-crate-a-0.1+default-dev, librust-wasm-bindgen-test-crate-b-0.1+default-dev"
+	],
+	"Uploaders": [
+		"Wolfgang Silbermayr <wolfgang@silbermayr.at>, kpcyrd <git@rxv.cc>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/wasm-bindgen"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/wasm-bindgen]"
+	],
+	"Version": [
+		"0.2.87-1"
+	]
 }

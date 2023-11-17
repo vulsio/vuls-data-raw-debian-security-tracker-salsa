@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "dovecot-core, dovecot-dev, dovecot-imapd, dovecot-pop3d, dovecot-lmtpd, dovecot-managesieved, dovecot-pgsql, dovecot-mysql, dovecot-sqlite, dovecot-ldap, dovecot-gssapi, dovecot-sieve, dovecot-solr, dovecot-lucene, dovecot-dbg"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 7.2.3~), dh-autoreconf, dpkg-dev (>= 1.16.1), pkg-config, libssl-dev, libpam0g-dev, libldap2-dev, libpq-dev, libmysqlclient-dev, libsqlite3-dev, libsasl2-dev, zlib1g-dev, libkrb5-dev, drac-dev (>= 1.12-5), libbz2-dev, libdb-dev, libcurl4-gnutls-dev, libexpat-dev, libwrap0-dev, dh-systemd, po-debconf, lsb-release, libclucene-dev (>= 2.3), liblzma-dev, libexttextcat-dev, libstemmer-dev, autotools-dev"
-  ],
-  "Checksums-Sha1": [
-    "3269c5521e9caae287f3c19b7bfa8b048256da57 3335 dovecot_2.2.13-12~deb8u7.dsc ee8efc77cb9d502dc416ae4fba242adc5f01c163 4613824 dovecot_2.2.13.orig.tar.gz 699a546883385a1fe9528851b1f94baa1205f5cc 748492 dovecot_2.2.13-12~deb8u7.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "5b865fe6f381e72f3fb2036e3be10564b15ed74b1b5930fd083e51d3b1eb1609 3335 dovecot_2.2.13-12~deb8u7.dsc 133cf3d2aa81733f6688ec986c91dbe07602fad81e856ba3d8046ffca85d9dce 4613824 dovecot_2.2.13.orig.tar.gz 6fdf7b65fcf1517bb95bf6acec99835d5dcd172bbe3cf375d4280d09596e0418 748492 dovecot_2.2.13-12~deb8u7.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/d/dovecot"
-  ],
-  "Files": [
-    "8dbf7be2d2d6f2edd4bef899cc334cb8 3335 dovecot_2.2.13-12~deb8u7.dsc a3eb1c0b1822c4f2b0fe9247776baa71 4613824 dovecot_2.2.13.orig.tar.gz 0650c48fcd113225f9cf543a9e76c23e 748492 dovecot_2.2.13-12~deb8u7.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://dovecot.org/"
-  ],
-  "Maintainer": [
-    "Dovecot Maintainers <jaldhar-dovecot@debian.org>"
-  ],
-  "Package": [
-    "dovecot"
-  ],
-  "Package-List": [
-    "dovecot-core deb mail optional arch=any dovecot-dbg deb debug extra arch=any dovecot-dev deb mail optional arch=any dovecot-gssapi deb mail optional arch=any dovecot-imapd deb mail optional arch=any dovecot-ldap deb mail optional arch=any dovecot-lmtpd deb mail optional arch=any dovecot-lucene deb mail optional arch=any dovecot-managesieved deb mail optional arch=any dovecot-mysql deb mail optional arch=any dovecot-pgsql deb mail optional arch=any dovecot-pop3d deb mail optional arch=any dovecot-sieve deb mail optional arch=any dovecot-solr deb mail optional arch=any dovecot-sqlite deb mail optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "mail"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Jaldhar H. Vyas <jaldhar@debian.org>, Fabio Tranchitella <kobold@debian.org>, Joel Johnson <mrjoel@lixil.net>, Marco Nenciarini <mnencia@debian.org>, Jelmer Vernooij <jelmer@debian.org>, Apollon Oikonomopoulos <apoikos@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=collab-maint/dovecot.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/collab-maint/dovecot.git"
-  ],
-  "Version": [
-    "1:2.2.13-12~deb8u7"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"dovecot-core, dovecot-dev, dovecot-imapd, dovecot-pop3d, dovecot-lmtpd, dovecot-managesieved, dovecot-pgsql, dovecot-mysql, dovecot-sqlite, dovecot-ldap, dovecot-gssapi, dovecot-sieve, dovecot-solr, dovecot-lucene, dovecot-dbg"
+	],
+	"Build-Depends": [
+		"debhelper (>= 7.2.3~), dh-autoreconf, dpkg-dev (>= 1.16.1), pkg-config, libssl-dev, libpam0g-dev, libldap2-dev, libpq-dev, libmysqlclient-dev, libsqlite3-dev, libsasl2-dev, zlib1g-dev, libkrb5-dev, drac-dev (>= 1.12-5), libbz2-dev, libdb-dev, libcurl4-gnutls-dev, libexpat-dev, libwrap0-dev, dh-systemd, po-debconf, lsb-release, libclucene-dev (>= 2.3), liblzma-dev, libexttextcat-dev, libstemmer-dev, autotools-dev"
+	],
+	"Checksums-Sha1": [
+		"3269c5521e9caae287f3c19b7bfa8b048256da57 3335 dovecot_2.2.13-12~deb8u7.dsc ee8efc77cb9d502dc416ae4fba242adc5f01c163 4613824 dovecot_2.2.13.orig.tar.gz 699a546883385a1fe9528851b1f94baa1205f5cc 748492 dovecot_2.2.13-12~deb8u7.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"5b865fe6f381e72f3fb2036e3be10564b15ed74b1b5930fd083e51d3b1eb1609 3335 dovecot_2.2.13-12~deb8u7.dsc 133cf3d2aa81733f6688ec986c91dbe07602fad81e856ba3d8046ffca85d9dce 4613824 dovecot_2.2.13.orig.tar.gz 6fdf7b65fcf1517bb95bf6acec99835d5dcd172bbe3cf375d4280d09596e0418 748492 dovecot_2.2.13-12~deb8u7.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/d/dovecot"
+	],
+	"Files": [
+		"8dbf7be2d2d6f2edd4bef899cc334cb8 3335 dovecot_2.2.13-12~deb8u7.dsc a3eb1c0b1822c4f2b0fe9247776baa71 4613824 dovecot_2.2.13.orig.tar.gz 0650c48fcd113225f9cf543a9e76c23e 748492 dovecot_2.2.13-12~deb8u7.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://dovecot.org/"
+	],
+	"Maintainer": [
+		"Dovecot Maintainers <jaldhar-dovecot@debian.org>"
+	],
+	"Package": [
+		"dovecot"
+	],
+	"Package-List": [
+		"dovecot-core deb mail optional arch=any dovecot-dbg deb debug extra arch=any dovecot-dev deb mail optional arch=any dovecot-gssapi deb mail optional arch=any dovecot-imapd deb mail optional arch=any dovecot-ldap deb mail optional arch=any dovecot-lmtpd deb mail optional arch=any dovecot-lucene deb mail optional arch=any dovecot-managesieved deb mail optional arch=any dovecot-mysql deb mail optional arch=any dovecot-pgsql deb mail optional arch=any dovecot-pop3d deb mail optional arch=any dovecot-sieve deb mail optional arch=any dovecot-solr deb mail optional arch=any dovecot-sqlite deb mail optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"mail"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Jaldhar H. Vyas <jaldhar@debian.org>, Fabio Tranchitella <kobold@debian.org>, Joel Johnson <mrjoel@lixil.net>, Marco Nenciarini <mnencia@debian.org>, Jelmer Vernooij <jelmer@debian.org>, Apollon Oikonomopoulos <apoikos@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=collab-maint/dovecot.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/collab-maint/dovecot.git"
+	],
+	"Version": [
+		"1:2.2.13-12~deb8u7"
+	]
 }

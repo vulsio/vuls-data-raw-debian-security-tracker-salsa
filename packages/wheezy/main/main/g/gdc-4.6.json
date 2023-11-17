@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "gdc-4.6, libphobos2-4.6-dev, libphobos2-4.6-dbg"
-  ],
-  "Build-Conflicts": [
-    "binutils-gold"
-  ],
-  "Build-Depends": [
-    "dpkg-dev (>= 1.16.0~ubuntu4), debhelper (>= 5.0.62), g++-multilib [amd64 i386 kfreebsd-amd64 mips mipsel powerpc ppc64 s390 s390x sparc], libc6.1-dev (>= 2.13-5) [alpha ia64] | libc0.3-dev (>= 2.13-5) [hurd-i386] | libc0.1-dev (>= 2.13-5) [kfreebsd-i386 kfreebsd-amd64] | libc6-dev (>= 2.13-5), libc6-dev-amd64 [i386], libc6-dev-sparc64 [sparc], libc6-dev-s390 [s390x], libc6-dev-s390x [s390], libc6-dev-i386 [amd64], libc6-dev-powerpc [ppc64], libc6-dev-ppc64 [powerpc], libc0.1-dev-i386 [kfreebsd-amd64], lib32gcc1 [amd64 ppc64 kfreebsd-amd64 s390x], lib64gcc1 [i386 powerpc sparc s390], libc6-dev-mips64 [mips mipsel], libc6-dev-mipsn32 [mips mipsel], m4, libtool, autoconf2.64, automake (>= 1:1.11), automake (<< 1:1.12), libunwind7-dev (>= 0.98.5-6) [ia64], libatomic-ops-dev [ia64], zlib1g-dev, gawk, lzma, xz-utils, patchutils, binutils (>= 2.21.1) | binutils-multiarch (>= 2.21.1), binutils-hppa64 (>= 2.21.1) [hppa], gperf (>= 3.0.1), bison (>= 1:2.3), flex, gettext, texinfo (>= 4.3), locales, procps, sharutils, gcc-4.6-source (>= 4.6.3), gcc-4.6-source (<< 4.6.4), libcloog-ppl-dev (>= 0.15.9-2~), libmpc-dev, libmpfr-dev (>= 3.0.0-9~), libgmp-dev (>= 2:5.0.1~), libelfg0-dev (>= 0.8.12), dejagnu [!m68k !hurd-i386 !hurd-alpha], realpath (>= 1.9.12), chrpath, lsb-release, make (>= 3.81), quilt"
-  ],
-  "Checksums-Sha1": [
-    "a2284446dc3b346a35c5478e088af1a27824ee99 2762 gdc-4.6_0.29.1-4.6.3-2.dsc 35d730dbcb428e06258633e367f2cef0cbddc823 1951403 gdc-4.6_0.29.1-4.6.3.orig.tar.gz cee4054c8b3be2a6bd7f3a860a1b19388c6c4dac 1207647 gdc-4.6_0.29.1-4.6.3-2.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "bc86ea923f52a5fd90738be29e02bd639a3d544f48b10be44bb523bf2bd7ff40 2762 gdc-4.6_0.29.1-4.6.3-2.dsc 785c05591cb5cb103a74aaf236879b87f7e71e4d090305f221538f72868c4dfb 1951403 gdc-4.6_0.29.1-4.6.3.orig.tar.gz 953cbe311782b36cc8abdd6e40793865b2011d8b5a74109da0eb2c7478c013d2 1207647 gdc-4.6_0.29.1-4.6.3-2.diff.gz"
-  ],
-  "Directory": [
-    "pool/main/g/gdc-4.6"
-  ],
-  "Files": [
-    "9130a4d21b3c11df01e54ebc6b9fb1e7 2762 gdc-4.6_0.29.1-4.6.3-2.dsc a206bca95c00874145d6fd7aec19da78 1951403 gdc-4.6_0.29.1-4.6.3.orig.tar.gz d3175739bb0869720a91dabb88897569 1207647 gdc-4.6_0.29.1-4.6.3-2.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Homepage": [
-    "http://bitbucket.org/goshawk/gdc/"
-  ],
-  "Maintainer": [
-    "Debian GCC Maintainers <debian-gcc@lists.debian.org>"
-  ],
-  "Package": [
-    "gdc-4.6"
-  ],
-  "Package-List": [
-    "gdc-4.6 deb devel optional libphobos2-4.6-dbg deb debug extra libphobos2-4.6-dev deb libdevel optional"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "devel"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Iain Buclaw <ibuclaw@ubuntu.com>, Arthur Loiret <aloiret@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://svn.debian.org/viewsvn/gcccvs/branches/sid/gcc-4.6/"
-  ],
-  "Vcs-Svn": [
-    "svn://svn.debian.org/svn/gcccvs/branches/sid/gcc-4.6"
-  ],
-  "Version": [
-    "0.29.1-4.6.3-2"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"gdc-4.6, libphobos2-4.6-dev, libphobos2-4.6-dbg"
+	],
+	"Build-Conflicts": [
+		"binutils-gold"
+	],
+	"Build-Depends": [
+		"dpkg-dev (>= 1.16.0~ubuntu4), debhelper (>= 5.0.62), g++-multilib [amd64 i386 kfreebsd-amd64 mips mipsel powerpc ppc64 s390 s390x sparc], libc6.1-dev (>= 2.13-5) [alpha ia64] | libc0.3-dev (>= 2.13-5) [hurd-i386] | libc0.1-dev (>= 2.13-5) [kfreebsd-i386 kfreebsd-amd64] | libc6-dev (>= 2.13-5), libc6-dev-amd64 [i386], libc6-dev-sparc64 [sparc], libc6-dev-s390 [s390x], libc6-dev-s390x [s390], libc6-dev-i386 [amd64], libc6-dev-powerpc [ppc64], libc6-dev-ppc64 [powerpc], libc0.1-dev-i386 [kfreebsd-amd64], lib32gcc1 [amd64 ppc64 kfreebsd-amd64 s390x], lib64gcc1 [i386 powerpc sparc s390], libc6-dev-mips64 [mips mipsel], libc6-dev-mipsn32 [mips mipsel], m4, libtool, autoconf2.64, automake (>= 1:1.11), automake (<< 1:1.12), libunwind7-dev (>= 0.98.5-6) [ia64], libatomic-ops-dev [ia64], zlib1g-dev, gawk, lzma, xz-utils, patchutils, binutils (>= 2.21.1) | binutils-multiarch (>= 2.21.1), binutils-hppa64 (>= 2.21.1) [hppa], gperf (>= 3.0.1), bison (>= 1:2.3), flex, gettext, texinfo (>= 4.3), locales, procps, sharutils, gcc-4.6-source (>= 4.6.3), gcc-4.6-source (<< 4.6.4), libcloog-ppl-dev (>= 0.15.9-2~), libmpc-dev, libmpfr-dev (>= 3.0.0-9~), libgmp-dev (>= 2:5.0.1~), libelfg0-dev (>= 0.8.12), dejagnu [!m68k !hurd-i386 !hurd-alpha], realpath (>= 1.9.12), chrpath, lsb-release, make (>= 3.81), quilt"
+	],
+	"Checksums-Sha1": [
+		"a2284446dc3b346a35c5478e088af1a27824ee99 2762 gdc-4.6_0.29.1-4.6.3-2.dsc 35d730dbcb428e06258633e367f2cef0cbddc823 1951403 gdc-4.6_0.29.1-4.6.3.orig.tar.gz cee4054c8b3be2a6bd7f3a860a1b19388c6c4dac 1207647 gdc-4.6_0.29.1-4.6.3-2.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"bc86ea923f52a5fd90738be29e02bd639a3d544f48b10be44bb523bf2bd7ff40 2762 gdc-4.6_0.29.1-4.6.3-2.dsc 785c05591cb5cb103a74aaf236879b87f7e71e4d090305f221538f72868c4dfb 1951403 gdc-4.6_0.29.1-4.6.3.orig.tar.gz 953cbe311782b36cc8abdd6e40793865b2011d8b5a74109da0eb2c7478c013d2 1207647 gdc-4.6_0.29.1-4.6.3-2.diff.gz"
+	],
+	"Directory": [
+		"pool/main/g/gdc-4.6"
+	],
+	"Files": [
+		"9130a4d21b3c11df01e54ebc6b9fb1e7 2762 gdc-4.6_0.29.1-4.6.3-2.dsc a206bca95c00874145d6fd7aec19da78 1951403 gdc-4.6_0.29.1-4.6.3.orig.tar.gz d3175739bb0869720a91dabb88897569 1207647 gdc-4.6_0.29.1-4.6.3-2.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Homepage": [
+		"http://bitbucket.org/goshawk/gdc/"
+	],
+	"Maintainer": [
+		"Debian GCC Maintainers <debian-gcc@lists.debian.org>"
+	],
+	"Package": [
+		"gdc-4.6"
+	],
+	"Package-List": [
+		"gdc-4.6 deb devel optional libphobos2-4.6-dbg deb debug extra libphobos2-4.6-dev deb libdevel optional"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"devel"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Iain Buclaw <ibuclaw@ubuntu.com>, Arthur Loiret <aloiret@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://svn.debian.org/viewsvn/gcccvs/branches/sid/gcc-4.6/"
+	],
+	"Vcs-Svn": [
+		"svn://svn.debian.org/svn/gcccvs/branches/sid/gcc-4.6"
+	],
+	"Version": [
+		"0.29.1-4.6.3-2"
+	]
 }

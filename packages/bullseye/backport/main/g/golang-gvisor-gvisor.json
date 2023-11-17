@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "amd64 arm64 all"
-  ],
-  "Binary": [
-    "runsc, golang-gvisor-gvisor-dev"
-  ],
-  "Build-Depends": [
-    "clang, debhelper-compat (= 13), dh-sequence-golang, golang-go (>= 2:1.19~0), golang-github-bits-and-blooms-bitset-dev, golang-github-cenkalti-backoff-dev, golang-github-coreos-go-systemd-dev (>= 22.3.2), golang-dbus-dev (>= 5.1.0), golang-github-cilium-ebpf-dev, golang-github-gofrs-flock-dev, golang-github-google-btree-dev, golang-github-google-subcommands-dev, golang-github-kr-pty-dev, golang-github-mohae-deepcopy-dev, golang-github-opencontainers-runtime-spec-dev, golang-github-vishvananda-netlink-dev, golang-gocapability-dev, golang-golang-x-mod-dev (>= 0.5.1), golang-golang-x-sync-dev (>= 0.0~git20220722), golang-golang-x-sys-dev (>= 0.1.0), golang-golang-x-time-dev, golang-google-protobuf-dev (>= 1.27), linux-libc-dev, python3"
-  ],
-  "Checksums-Sha256": [
-    "771677e239b821d699a556837cf4f91846678afd6ca4e077ee8da8e728f292e0 3083 golang-gvisor-gvisor_0.0~20221219.0-2~bpo11+1.dsc 1e2eb3db4965b084660e6dbc55b547ef2101a32a8e48a0b1adea0c66edc3ef20 2693784 golang-gvisor-gvisor_0.0~20221219.0.orig.tar.gz 449c7ae7284faa763cf5bef89b39ba264bdceef7f14adcf4b14b813df20b384a 6696 golang-gvisor-gvisor_0.0~20221219.0-2~bpo11+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/g/golang-gvisor-gvisor"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Go-Import-Path": [
-    "gvisor.dev/gvisor"
-  ],
-  "Homepage": [
-    "https://github.com/google/gvisor"
-  ],
-  "Maintainer": [
-    "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>"
-  ],
-  "Package": [
-    "golang-gvisor-gvisor"
-  ],
-  "Package-List": [
-    "golang-gvisor-gvisor-dev deb golang optional arch=all runsc deb admin optional arch=amd64,arm64"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest, autopkgtest-pkg-go"
-  ],
-  "Testsuite-Triggers": [
-    "dh-golang, golang-any"
-  ],
-  "Uploaders": [
-    "John Goerzen <jgoerzen@complete.org>, Shengjing Zhu <zhsj@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/go-team/packages/golang-gvisor-gvisor"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/go-team/packages/golang-gvisor-gvisor.git"
-  ],
-  "Version": [
-    "0.0~20221219.0-2~bpo11+1"
-  ]
+	"Architecture": [
+		"amd64 arm64 all"
+	],
+	"Binary": [
+		"runsc, golang-gvisor-gvisor-dev"
+	],
+	"Build-Depends": [
+		"clang, debhelper-compat (= 13), dh-sequence-golang, golang-go (>= 2:1.19~0), golang-github-bits-and-blooms-bitset-dev, golang-github-cenkalti-backoff-dev, golang-github-coreos-go-systemd-dev (>= 22.3.2), golang-dbus-dev (>= 5.1.0), golang-github-cilium-ebpf-dev, golang-github-gofrs-flock-dev, golang-github-google-btree-dev, golang-github-google-subcommands-dev, golang-github-kr-pty-dev, golang-github-mohae-deepcopy-dev, golang-github-opencontainers-runtime-spec-dev, golang-github-vishvananda-netlink-dev, golang-gocapability-dev, golang-golang-x-mod-dev (>= 0.5.1), golang-golang-x-sync-dev (>= 0.0~git20220722), golang-golang-x-sys-dev (>= 0.1.0), golang-golang-x-time-dev, golang-google-protobuf-dev (>= 1.27), linux-libc-dev, python3"
+	],
+	"Checksums-Sha256": [
+		"771677e239b821d699a556837cf4f91846678afd6ca4e077ee8da8e728f292e0 3083 golang-gvisor-gvisor_0.0~20221219.0-2~bpo11+1.dsc 1e2eb3db4965b084660e6dbc55b547ef2101a32a8e48a0b1adea0c66edc3ef20 2693784 golang-gvisor-gvisor_0.0~20221219.0.orig.tar.gz 449c7ae7284faa763cf5bef89b39ba264bdceef7f14adcf4b14b813df20b384a 6696 golang-gvisor-gvisor_0.0~20221219.0-2~bpo11+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/golang-gvisor-gvisor"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Go-Import-Path": [
+		"gvisor.dev/gvisor"
+	],
+	"Homepage": [
+		"https://github.com/google/gvisor"
+	],
+	"Maintainer": [
+		"Debian Go Packaging Team <team+pkg-go@tracker.debian.org>"
+	],
+	"Package": [
+		"golang-gvisor-gvisor"
+	],
+	"Package-List": [
+		"golang-gvisor-gvisor-dev deb golang optional arch=all runsc deb admin optional arch=amd64,arm64"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest, autopkgtest-pkg-go"
+	],
+	"Testsuite-Triggers": [
+		"dh-golang, golang-any"
+	],
+	"Uploaders": [
+		"John Goerzen <jgoerzen@complete.org>, Shengjing Zhu <zhsj@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/go-team/packages/golang-gvisor-gvisor"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/go-team/packages/golang-gvisor-gvisor.git"
+	],
+	"Version": [
+		"0.0~20221219.0-2~bpo11+1"
+	]
 }

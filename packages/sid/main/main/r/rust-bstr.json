@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-bstr-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-memchr-2+alloc-dev (>= 2.6.1-~~) <!nocheck>, librust-memchr-2+std-dev (>= 2.6.1-~~) <!nocheck>, librust-memchr-2-dev (>= 2.6.1-~~) <!nocheck>, librust-regex-automata-0.4+dfa-search-dev (>= 0.4.1-~~) <!nocheck>, librust-serde-1+alloc-dev (>= 1.0.85-~~) <!nocheck>, librust-serde-1+std-dev (>= 1.0.85-~~) <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "02e6efcad30aba378b8306f6bf29628c761db9d42d2a02eec08fbdc2e6f0fec1 2579 rust-bstr_1.7.0-2.dsc c79ad7fb2dd38f3dabd76b09c6a5a20c038fc0213ef1e9afd30eb777f120f019 380090 rust-bstr_1.7.0.orig.tar.gz 48ec7ec3730880888f3baa38c03bf6154032c07c6e106aca010d3462c344987d 4084 rust-bstr_1.7.0-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-bstr"
-  ],
-  "Files": [
-    "4b9444fa4aa4b4e4e97f886beb22b7e4 2579 rust-bstr_1.7.0-2.dsc 58b04c69758e02189595f45cce636284 380090 rust-bstr_1.7.0.orig.tar.gz a524c995a5016769a2c3bbc3350c4fb1 4084 rust-bstr_1.7.0-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/BurntSushi/bstr"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-bstr"
-  ],
-  "Package-List": [
-    "librust-bstr-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-quickcheck-1-dev, librust-ucd-parse-0.1+default-dev, librust-unicode-segmentation-1+default-dev"
-  ],
-  "Uploaders": [
-    "Sylvestre Ledru <sylvestre@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/bstr"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/bstr]"
-  ],
-  "Version": [
-    "1.7.0-2"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-bstr-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-memchr-2+alloc-dev (>= 2.6.1-~~) <!nocheck>, librust-memchr-2+std-dev (>= 2.6.1-~~) <!nocheck>, librust-memchr-2-dev (>= 2.6.1-~~) <!nocheck>, librust-regex-automata-0.4+dfa-search-dev (>= 0.4.1-~~) <!nocheck>, librust-serde-1+alloc-dev (>= 1.0.85-~~) <!nocheck>, librust-serde-1+std-dev (>= 1.0.85-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"02e6efcad30aba378b8306f6bf29628c761db9d42d2a02eec08fbdc2e6f0fec1 2579 rust-bstr_1.7.0-2.dsc c79ad7fb2dd38f3dabd76b09c6a5a20c038fc0213ef1e9afd30eb777f120f019 380090 rust-bstr_1.7.0.orig.tar.gz 48ec7ec3730880888f3baa38c03bf6154032c07c6e106aca010d3462c344987d 4084 rust-bstr_1.7.0-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-bstr"
+	],
+	"Files": [
+		"4b9444fa4aa4b4e4e97f886beb22b7e4 2579 rust-bstr_1.7.0-2.dsc 58b04c69758e02189595f45cce636284 380090 rust-bstr_1.7.0.orig.tar.gz a524c995a5016769a2c3bbc3350c4fb1 4084 rust-bstr_1.7.0-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/BurntSushi/bstr"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-bstr"
+	],
+	"Package-List": [
+		"librust-bstr-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-quickcheck-1-dev, librust-ucd-parse-0.1+default-dev, librust-unicode-segmentation-1+default-dev"
+	],
+	"Uploaders": [
+		"Sylvestre Ledru <sylvestre@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/bstr"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/bstr]"
+	],
+	"Version": [
+		"1.7.0-2"
+	]
 }

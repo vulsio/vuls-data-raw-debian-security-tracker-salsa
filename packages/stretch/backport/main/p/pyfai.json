@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "pyfai, python-pyfai, python-pyfai-dbg, python3-pyfai, python3-pyfai-dbg, python-pyfai-doc"
-  ],
-  "Build-Depends": [
-    "cython, cython-dbg, cython3, cython3-dbg, debhelper (>= 10), dh-python, help2man, libjs-mathjax, pandoc <!nodoc>, python-all-dbg, python-all-dev, python-fabio (>= 0.3.0+dfsg-1~), python-fabio-dbg (>= 0.3.0+dfsg-1~), python-h5py, python-h5py-dbg, python-matplotlib, python-matplotlib-dbg, python-nbsphinx <!nodoc>, python-numexpr, python-numexpr-dbg, python-numpy, python-numpy-dbg, python-pymca5, python-pymca5-dbg, python-pyopencl, python-pyopencl-dbg, python-pyqt5, python-pyqt5-dbg, python-scipy, python-scipy-dbg, python-setuptools, python-silx, python-silx-dbg, python-sphinx, python-sphinxcontrib.programoutput, python-tk, python-tk-dbg, python3-all-dbg, python3-all-dev, python3-fabio, python3-fabio-dbg, python3-h5py, python3-h5py-dbg, python3-matplotlib, python3-matplotlib-dbg, python3-nbsphinx <!nodoc>, python3-numexpr, python3-numexpr-dbg, python3-numpy, python3-numpy-dbg, python3-pymca5, python3-pymca5-dbg, python3-pyopencl, python3-pyopencl-dbg, python3-pyqt5, python3-pyqt5-dbg, python3-scipy, python3-scipy-dbg, python3-setuptools, python3-silx, python3-silx-dbg, python3-sphinx, python3-sphinxcontrib.programoutput, python3-tk, python3-tk-dbg, xauth, xvfb"
-  ],
-  "Checksums-Sha256": [
-    "957b347d7b810392d14b0723bfd7424adf5b5da7ba9f5371582106da7501aaf2 3780 pyfai_0.15.0+dfsg1-1~bpo9+1.dsc 33f794395af28178c95c6c21e7b4a2f38b81349145f5be4844d4b6d4bd321044 20298015 pyfai_0.15.0+dfsg1.orig.tar.gz b5e6c8a11d198c5a5d83ba6bfa6221837701745b60a0d214561c98dd8a893257 16156 pyfai_0.15.0+dfsg1-1~bpo9+1.debian.tar.xz"
-  ],
-  "Dgit": [
-    "08f41b903f289ed0f95072eb202a4e0887d87bbb debian archive/debian/0.15.0+dfsg1-1_bpo9+1 https://git.dgit.debian.org/pyfai"
-  ],
-  "Directory": [
-    "pool/main/p/pyfai"
-  ],
-  "Files": [
-    "2ec5df77fac58378a129bf7b8a7b93e8 3780 pyfai_0.15.0+dfsg1-1~bpo9+1.dsc 3f8b54d8b817e2c82f5a7d015254bdf3 20298015 pyfai_0.15.0+dfsg1.orig.tar.gz 1393037b2f99c1522311af4e05e88a46 16156 pyfai_0.15.0+dfsg1-1~bpo9+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/silx-kit/pyFAI"
-  ],
-  "Maintainer": [
-    "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "pyfai"
-  ],
-  "Package-List": [
-    "pyfai deb science optional arch=all python-pyfai deb python optional arch=any python-pyfai-dbg deb debug optional arch=any python-pyfai-doc deb doc optional arch=all python3-pyfai deb python optional arch=any python3-pyfai-dbg deb debug optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.1.3"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "python-tk, python-tk-dbg, python3-tk, python3-tk-dbg"
-  ],
-  "Uploaders": [
-    "Jerome Kieffer <jerome.kieffer@esrf.fr>, Picca Frédéric-Emmanuel <picca@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/debian-science/packages/pyfai.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/debian-science/packages/pyfai.git"
-  ],
-  "Version": [
-    "0.15.0+dfsg1-1~bpo9+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"pyfai, python-pyfai, python-pyfai-dbg, python3-pyfai, python3-pyfai-dbg, python-pyfai-doc"
+	],
+	"Build-Depends": [
+		"cython, cython-dbg, cython3, cython3-dbg, debhelper (>= 10), dh-python, help2man, libjs-mathjax, pandoc <!nodoc>, python-all-dbg, python-all-dev, python-fabio (>= 0.3.0+dfsg-1~), python-fabio-dbg (>= 0.3.0+dfsg-1~), python-h5py, python-h5py-dbg, python-matplotlib, python-matplotlib-dbg, python-nbsphinx <!nodoc>, python-numexpr, python-numexpr-dbg, python-numpy, python-numpy-dbg, python-pymca5, python-pymca5-dbg, python-pyopencl, python-pyopencl-dbg, python-pyqt5, python-pyqt5-dbg, python-scipy, python-scipy-dbg, python-setuptools, python-silx, python-silx-dbg, python-sphinx, python-sphinxcontrib.programoutput, python-tk, python-tk-dbg, python3-all-dbg, python3-all-dev, python3-fabio, python3-fabio-dbg, python3-h5py, python3-h5py-dbg, python3-matplotlib, python3-matplotlib-dbg, python3-nbsphinx <!nodoc>, python3-numexpr, python3-numexpr-dbg, python3-numpy, python3-numpy-dbg, python3-pymca5, python3-pymca5-dbg, python3-pyopencl, python3-pyopencl-dbg, python3-pyqt5, python3-pyqt5-dbg, python3-scipy, python3-scipy-dbg, python3-setuptools, python3-silx, python3-silx-dbg, python3-sphinx, python3-sphinxcontrib.programoutput, python3-tk, python3-tk-dbg, xauth, xvfb"
+	],
+	"Checksums-Sha256": [
+		"957b347d7b810392d14b0723bfd7424adf5b5da7ba9f5371582106da7501aaf2 3780 pyfai_0.15.0+dfsg1-1~bpo9+1.dsc 33f794395af28178c95c6c21e7b4a2f38b81349145f5be4844d4b6d4bd321044 20298015 pyfai_0.15.0+dfsg1.orig.tar.gz b5e6c8a11d198c5a5d83ba6bfa6221837701745b60a0d214561c98dd8a893257 16156 pyfai_0.15.0+dfsg1-1~bpo9+1.debian.tar.xz"
+	],
+	"Dgit": [
+		"08f41b903f289ed0f95072eb202a4e0887d87bbb debian archive/debian/0.15.0+dfsg1-1_bpo9+1 https://git.dgit.debian.org/pyfai"
+	],
+	"Directory": [
+		"pool/main/p/pyfai"
+	],
+	"Files": [
+		"2ec5df77fac58378a129bf7b8a7b93e8 3780 pyfai_0.15.0+dfsg1-1~bpo9+1.dsc 3f8b54d8b817e2c82f5a7d015254bdf3 20298015 pyfai_0.15.0+dfsg1.orig.tar.gz 1393037b2f99c1522311af4e05e88a46 16156 pyfai_0.15.0+dfsg1-1~bpo9+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/silx-kit/pyFAI"
+	],
+	"Maintainer": [
+		"Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"pyfai"
+	],
+	"Package-List": [
+		"pyfai deb science optional arch=all python-pyfai deb python optional arch=any python-pyfai-dbg deb debug optional arch=any python-pyfai-doc deb doc optional arch=all python3-pyfai deb python optional arch=any python3-pyfai-dbg deb debug optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.1.3"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"python-tk, python-tk-dbg, python3-tk, python3-tk-dbg"
+	],
+	"Uploaders": [
+		"Jerome Kieffer <jerome.kieffer@esrf.fr>, Picca Frédéric-Emmanuel <picca@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/debian-science/packages/pyfai.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/debian-science/packages/pyfai.git"
+	],
+	"Version": [
+		"0.15.0+dfsg1-1~bpo9+1"
+	]
 }

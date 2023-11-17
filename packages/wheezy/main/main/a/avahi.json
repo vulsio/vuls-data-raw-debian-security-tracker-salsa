@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "avahi-daemon, avahi-dnsconfd, avahi-autoipd, python-avahi, avahi-utils, avahi-discover, libavahi-common3, libavahi-common-data, libavahi-common-dev, libavahi-core7, libavahi-core-dev, libavahi-client3, libavahi-client-dev, libavahi-glib1, libavahi-glib-dev, libavahi-gobject0, libavahi-gobject-dev, libavahi-qt4-1, libavahi-qt4-dev, libavahi-compat-libdnssd1, libavahi-compat-libdnssd-dev, libavahi-ui0, libavahi-ui-dev, libavahi-ui-gtk3-0, libavahi-ui-gtk3-dev, avahi-ui-utils, avahi-dbg"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), pkg-config, libcap-dev (>= 1:2.16) [linux-any], libgdbm-dev, libglib2.0-dev (>= 2.4), libgtk2.0-dev (>= 2.14.0), libgtk-3-dev, libexpat-dev, libdaemon-dev (>= 0.11), libdbus-1-dev (>= 0.60), python-all-dev (>= 2.6.6-3~), python-gdbm (>= 2.4.3), python-dbus, python-gtk2 (>= 2.8.6-2), libqt4-dev, xmltoman, intltool (>= 0.35.0)"
-  ],
-  "Checksums-Sha1": [
-    "8706af01575c47695388a50b36b653e94cae0a90 3779 avahi_0.6.31-2.dsc 7e05bd78572c9088b03b1207a0ad5aba38490684 1268686 avahi_0.6.31.orig.tar.gz dae854f9a10e4038a38741b7d7030b5086811fa2 32448 avahi_0.6.31-2.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "d80d8e832f34732816c5068666922f9e0b57ee74293943a4c62179efa89b5618 3779 avahi_0.6.31-2.dsc 8372719b24e2dd75de6f59bb1315e600db4fd092805bd1201ed0cb651a2dab48 1268686 avahi_0.6.31.orig.tar.gz 56893eb777aaa4f00f7d8893b61120e7558885d1d9ced20642204e530705ded9 32448 avahi_0.6.31-2.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/a/avahi"
-  ],
-  "Files": [
-    "3ca3452243b075d50dcc57a53d0448bd 3779 avahi_0.6.31-2.dsc 2f22745b8f7368ad5a0a3fddac343f2d 1268686 avahi_0.6.31.orig.tar.gz 39aebabd8c0d5233d2edfb9fe183de15 32448 avahi_0.6.31-2.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://avahi.org/"
-  ],
-  "Maintainer": [
-    "Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "avahi"
-  ],
-  "Package-List": [
-    "avahi-autoipd deb net optional avahi-daemon deb net optional avahi-dbg deb debug extra avahi-discover deb net optional avahi-dnsconfd deb net optional avahi-ui-utils deb utils optional avahi-utils deb net optional libavahi-client-dev deb libdevel optional libavahi-client3 deb libs optional libavahi-common-data deb libs optional libavahi-common-dev deb libdevel optional libavahi-common3 deb libs optional libavahi-compat-libdnssd-dev deb libdevel optional libavahi-compat-libdnssd1 deb libs optional libavahi-core-dev deb libdevel optional libavahi-core7 deb libs optional libavahi-glib-dev deb libdevel optional libavahi-glib1 deb libs optional libavahi-gobject-dev deb libdevel optional libavahi-gobject0 deb libs optional libavahi-qt4-1 deb libs optional libavahi-qt4-dev deb libdevel optional libavahi-ui-dev deb libdevel optional libavahi-ui-gtk3-0 deb libs optional libavahi-ui-gtk3-dev deb libdevel optional libavahi-ui0 deb libs optional python-avahi deb python optional"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Sjoerd Simons <sjoerd@debian.org>, Sebastian Dröge <slomo@debian.org>, Loic Minier <lool@dooz.org>, Michael Biebl <biebl@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://git.debian.org/?p=pkg-utopia/avahi.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/git/pkg-utopia/avahi.git"
-  ],
-  "Version": [
-    "0.6.31-2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"avahi-daemon, avahi-dnsconfd, avahi-autoipd, python-avahi, avahi-utils, avahi-discover, libavahi-common3, libavahi-common-data, libavahi-common-dev, libavahi-core7, libavahi-core-dev, libavahi-client3, libavahi-client-dev, libavahi-glib1, libavahi-glib-dev, libavahi-gobject0, libavahi-gobject-dev, libavahi-qt4-1, libavahi-qt4-dev, libavahi-compat-libdnssd1, libavahi-compat-libdnssd-dev, libavahi-ui0, libavahi-ui-dev, libavahi-ui-gtk3-0, libavahi-ui-gtk3-dev, avahi-ui-utils, avahi-dbg"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), pkg-config, libcap-dev (>= 1:2.16) [linux-any], libgdbm-dev, libglib2.0-dev (>= 2.4), libgtk2.0-dev (>= 2.14.0), libgtk-3-dev, libexpat-dev, libdaemon-dev (>= 0.11), libdbus-1-dev (>= 0.60), python-all-dev (>= 2.6.6-3~), python-gdbm (>= 2.4.3), python-dbus, python-gtk2 (>= 2.8.6-2), libqt4-dev, xmltoman, intltool (>= 0.35.0)"
+	],
+	"Checksums-Sha1": [
+		"8706af01575c47695388a50b36b653e94cae0a90 3779 avahi_0.6.31-2.dsc 7e05bd78572c9088b03b1207a0ad5aba38490684 1268686 avahi_0.6.31.orig.tar.gz dae854f9a10e4038a38741b7d7030b5086811fa2 32448 avahi_0.6.31-2.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"d80d8e832f34732816c5068666922f9e0b57ee74293943a4c62179efa89b5618 3779 avahi_0.6.31-2.dsc 8372719b24e2dd75de6f59bb1315e600db4fd092805bd1201ed0cb651a2dab48 1268686 avahi_0.6.31.orig.tar.gz 56893eb777aaa4f00f7d8893b61120e7558885d1d9ced20642204e530705ded9 32448 avahi_0.6.31-2.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/a/avahi"
+	],
+	"Files": [
+		"3ca3452243b075d50dcc57a53d0448bd 3779 avahi_0.6.31-2.dsc 2f22745b8f7368ad5a0a3fddac343f2d 1268686 avahi_0.6.31.orig.tar.gz 39aebabd8c0d5233d2edfb9fe183de15 32448 avahi_0.6.31-2.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://avahi.org/"
+	],
+	"Maintainer": [
+		"Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"avahi"
+	],
+	"Package-List": [
+		"avahi-autoipd deb net optional avahi-daemon deb net optional avahi-dbg deb debug extra avahi-discover deb net optional avahi-dnsconfd deb net optional avahi-ui-utils deb utils optional avahi-utils deb net optional libavahi-client-dev deb libdevel optional libavahi-client3 deb libs optional libavahi-common-data deb libs optional libavahi-common-dev deb libdevel optional libavahi-common3 deb libs optional libavahi-compat-libdnssd-dev deb libdevel optional libavahi-compat-libdnssd1 deb libs optional libavahi-core-dev deb libdevel optional libavahi-core7 deb libs optional libavahi-glib-dev deb libdevel optional libavahi-glib1 deb libs optional libavahi-gobject-dev deb libdevel optional libavahi-gobject0 deb libs optional libavahi-qt4-1 deb libs optional libavahi-qt4-dev deb libdevel optional libavahi-ui-dev deb libdevel optional libavahi-ui-gtk3-0 deb libs optional libavahi-ui-gtk3-dev deb libdevel optional libavahi-ui0 deb libs optional python-avahi deb python optional"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Sjoerd Simons <sjoerd@debian.org>, Sebastian Dröge <slomo@debian.org>, Loic Minier <lool@dooz.org>, Michael Biebl <biebl@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://git.debian.org/?p=pkg-utopia/avahi.git;a=summary"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/git/pkg-utopia/avahi.git"
+	],
+	"Version": [
+		"0.6.31-2"
+	]
 }

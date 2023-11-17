@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "gridengine-common, gridengine-client, gridengine-qmon, gridengine-master, gridengine-exec, gridengine-dev, gridengine-drmaa1.0, libdrmaa1.0-java, libdrmaa1.0-java-doc, gridengine-drmaa-dev, libdrmaa1.0-ruby"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 10), tcsh | c-shell, libdb-dev, libssl-dev, libtirpc-dev, libncurses5-dev, libpam0g-dev, libxt-dev, libmotif-dev, libxpm-dev, libxmu-dev, po-debconf, default-jdk, ant, ant-optional, junit, javacc, libhwloc-dev, libjemalloc-dev, libxft-dev, libmunge-dev"
-  ],
-  "Checksums-Sha256": [
-    "681db1d9164eb59a23ab59b2049bd9ea73104584dd1f989ef3c615618740f9e2 3002 gridengine_8.1.9+dfsg-11.dsc 1ae36a01c8d1e288777948711358ad155bdbee589a849c966989f478c7ed78aa 10927029 gridengine_8.1.9+dfsg.orig.tar.gz 93701affafe12063a328d707bbdcd634dd469b4db92d20f0143335f0244e0d3b 47640 gridengine_8.1.9+dfsg-11.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/g/gridengine"
-  ],
-  "Files": [
-    "89ac8a353b6d9e88719e480a27db2e1b 3002 gridengine_8.1.9+dfsg-11.dsc e5c4579c0a9531a35475fabf7be1f798 10927029 gridengine_8.1.9+dfsg.orig.tar.gz 204452eb38c3614d8143e0d5def76f3b 47640 gridengine_8.1.9+dfsg-11.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://arc.liv.ac.uk/trac/SGE/"
-  ],
-  "Maintainer": [
-    "Debian HPC Team <debian-hpc@lists.debian.org>"
-  ],
-  "Package": [
-    "gridengine"
-  ],
-  "Package-List": [
-    "gridengine-client deb utils optional arch=any gridengine-common deb utils optional arch=all gridengine-dev deb libdevel optional arch=all gridengine-drmaa-dev deb libdevel optional arch=any gridengine-drmaa1.0 deb libs optional arch=any gridengine-exec deb utils optional arch=any gridengine-master deb utils optional arch=any gridengine-qmon deb utils optional arch=any libdrmaa1.0-java deb java optional arch=all libdrmaa1.0-java-doc deb doc optional arch=all libdrmaa1.0-ruby deb ruby optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "utils"
-  ],
-  "Standards-Version": [
-    "4.6.0.1"
-  ],
-  "Uploaders": [
-    "Dave Love <d.love@liverpool.ac.uk>, Afif Elghraoui <afif@debian.org>, Laszlo Kajan <lkajan@debian.org>, Mark Hymers <mhy@debian.org>, Michael Banck <mbanck@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/hpc-team/gridengine"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/hpc-team/gridengine"
-  ],
-  "Version": [
-    "8.1.9+dfsg-11"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"gridengine-common, gridengine-client, gridengine-qmon, gridengine-master, gridengine-exec, gridengine-dev, gridengine-drmaa1.0, libdrmaa1.0-java, libdrmaa1.0-java-doc, gridengine-drmaa-dev, libdrmaa1.0-ruby"
+	],
+	"Build-Depends": [
+		"debhelper (>= 10), tcsh | c-shell, libdb-dev, libssl-dev, libtirpc-dev, libncurses5-dev, libpam0g-dev, libxt-dev, libmotif-dev, libxpm-dev, libxmu-dev, po-debconf, default-jdk, ant, ant-optional, junit, javacc, libhwloc-dev, libjemalloc-dev, libxft-dev, libmunge-dev"
+	],
+	"Checksums-Sha256": [
+		"681db1d9164eb59a23ab59b2049bd9ea73104584dd1f989ef3c615618740f9e2 3002 gridengine_8.1.9+dfsg-11.dsc 1ae36a01c8d1e288777948711358ad155bdbee589a849c966989f478c7ed78aa 10927029 gridengine_8.1.9+dfsg.orig.tar.gz 93701affafe12063a328d707bbdcd634dd469b4db92d20f0143335f0244e0d3b 47640 gridengine_8.1.9+dfsg-11.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/gridengine"
+	],
+	"Files": [
+		"89ac8a353b6d9e88719e480a27db2e1b 3002 gridengine_8.1.9+dfsg-11.dsc e5c4579c0a9531a35475fabf7be1f798 10927029 gridengine_8.1.9+dfsg.orig.tar.gz 204452eb38c3614d8143e0d5def76f3b 47640 gridengine_8.1.9+dfsg-11.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://arc.liv.ac.uk/trac/SGE/"
+	],
+	"Maintainer": [
+		"Debian HPC Team <debian-hpc@lists.debian.org>"
+	],
+	"Package": [
+		"gridengine"
+	],
+	"Package-List": [
+		"gridengine-client deb utils optional arch=any gridengine-common deb utils optional arch=all gridengine-dev deb libdevel optional arch=all gridengine-drmaa-dev deb libdevel optional arch=any gridengine-drmaa1.0 deb libs optional arch=any gridengine-exec deb utils optional arch=any gridengine-master deb utils optional arch=any gridengine-qmon deb utils optional arch=any libdrmaa1.0-java deb java optional arch=all libdrmaa1.0-java-doc deb doc optional arch=all libdrmaa1.0-ruby deb ruby optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"utils"
+	],
+	"Standards-Version": [
+		"4.6.0.1"
+	],
+	"Uploaders": [
+		"Dave Love <d.love@liverpool.ac.uk>, Afif Elghraoui <afif@debian.org>, Laszlo Kajan <lkajan@debian.org>, Mark Hymers <mhy@debian.org>, Michael Banck <mbanck@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/hpc-team/gridengine"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/hpc-team/gridengine"
+	],
+	"Version": [
+		"8.1.9+dfsg-11"
+	]
 }

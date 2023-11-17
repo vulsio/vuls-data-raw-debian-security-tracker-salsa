@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-parsec-interface-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-bincode-1+default-dev (>= 1.3.1-~~) <!nocheck>, librust-derivative-2+default-dev (>= 2.1.1-~~) <!nocheck>, librust-log-0.4+default-dev (>= 0.4.11-~~) <!nocheck>, librust-num-0.4+default-dev <!nocheck>, librust-num-derive-0.3+default-dev <!nocheck>, librust-num-traits-0.2+default-dev (>= 0.2.12-~~) <!nocheck>, librust-prost-0.11+default-dev <!nocheck>, librust-psa-crypto-0.9-dev <!nocheck>, librust-secrecy-0.8+default-dev <!nocheck>, librust-secrecy-0.8+serde-dev <!nocheck>, librust-serde-1+default-dev (>= 1.0.115-~~) <!nocheck>, librust-serde-1+derive-dev (>= 1.0.115-~~) <!nocheck>, librust-uuid-1+default-dev (>= 1.4.0-~~) <!nocheck>, librust-zeroize-1+default-dev (>= 1.1.0-~~) <!nocheck>, librust-zeroize-1+zeroize-derive-dev (>= 1.1.0-~~) <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "dd4772d1ff1c5f47dd0961e25e23cb7c144404fe5bc9051a939ea997079b6fe4 2976 rust-parsec-interface_0.29.1-1.dsc cc706e09209b30f10baa35709d41b9cc01d4931b21c00679f59db96cd1650add 71980 rust-parsec-interface_0.29.1.orig.tar.gz 75cd87681660ef5dd3336dc3522a08d8ad2f566b406cbd57488dcf336b78e62c 3976 rust-parsec-interface_0.29.1-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-parsec-interface"
-  ],
-  "Files": [
-    "9f516805ce343d68c362d19ebb6fc783 2976 rust-parsec-interface_0.29.1-1.dsc a19fc7a7c517a9ef572b57ac7ee7c5ea 71980 rust-parsec-interface_0.29.1.orig.tar.gz f0c2e04c01f85e400e85c57255281423 3976 rust-parsec-interface_0.29.1-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-parsec-interface"
-  ],
-  "Package-List": [
-    "librust-parsec-interface-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo"
-  ],
-  "Uploaders": [
-    "Emanuele Rocca <ema@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/parsec-interface"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/parsec-interface]"
-  ],
-  "Version": [
-    "0.29.1-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-parsec-interface-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-bincode-1+default-dev (>= 1.3.1-~~) <!nocheck>, librust-derivative-2+default-dev (>= 2.1.1-~~) <!nocheck>, librust-log-0.4+default-dev (>= 0.4.11-~~) <!nocheck>, librust-num-0.4+default-dev <!nocheck>, librust-num-derive-0.3+default-dev <!nocheck>, librust-num-traits-0.2+default-dev (>= 0.2.12-~~) <!nocheck>, librust-prost-0.11+default-dev <!nocheck>, librust-psa-crypto-0.9-dev <!nocheck>, librust-secrecy-0.8+default-dev <!nocheck>, librust-secrecy-0.8+serde-dev <!nocheck>, librust-serde-1+default-dev (>= 1.0.115-~~) <!nocheck>, librust-serde-1+derive-dev (>= 1.0.115-~~) <!nocheck>, librust-uuid-1+default-dev (>= 1.4.0-~~) <!nocheck>, librust-zeroize-1+default-dev (>= 1.1.0-~~) <!nocheck>, librust-zeroize-1+zeroize-derive-dev (>= 1.1.0-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"dd4772d1ff1c5f47dd0961e25e23cb7c144404fe5bc9051a939ea997079b6fe4 2976 rust-parsec-interface_0.29.1-1.dsc cc706e09209b30f10baa35709d41b9cc01d4931b21c00679f59db96cd1650add 71980 rust-parsec-interface_0.29.1.orig.tar.gz 75cd87681660ef5dd3336dc3522a08d8ad2f566b406cbd57488dcf336b78e62c 3976 rust-parsec-interface_0.29.1-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-parsec-interface"
+	],
+	"Files": [
+		"9f516805ce343d68c362d19ebb6fc783 2976 rust-parsec-interface_0.29.1-1.dsc a19fc7a7c517a9ef572b57ac7ee7c5ea 71980 rust-parsec-interface_0.29.1.orig.tar.gz f0c2e04c01f85e400e85c57255281423 3976 rust-parsec-interface_0.29.1-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-parsec-interface"
+	],
+	"Package-List": [
+		"librust-parsec-interface-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo"
+	],
+	"Uploaders": [
+		"Emanuele Rocca <ema@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/parsec-interface"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/parsec-interface]"
+	],
+	"Version": [
+		"0.29.1-1"
+	]
 }

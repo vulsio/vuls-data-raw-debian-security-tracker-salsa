@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libllvm3.1, llvm-3.1, llvm-3.1-runtime, llvm-3.1-dev, libllvm-3.1-ocaml-dev, llvm-3.1-doc, llvm-3.1-examples, llvm-3.1-source"
-  ],
-  "Build-Conflicts": [
-    "oprofile"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 8.1.3), flex, bison, dejagnu, tcl8.5, expect, autoconf, automake1.9, perl, libtool, doxygen, chrpath, texinfo, quilt, sharutils, autotools-dev (>= 20060702.1), libffi-dev (>= 3.0.9), lsb-release, xz-utils, binutils-dev (>= 2.20.51.20100222-1~), ocaml-nox (>= 3.11.2), dh-ocaml (>= 0.9.1)"
-  ],
-  "Checksums-Sha1": [
-    "86e9607948234e39382369e94c4d4dd5ded97b4b 1954 llvm-3.1_3.1-1.dsc 25956c549a1b217c62880735d7d2b40339c4fc55 8638959 llvm-3.1_3.1.orig.tar.bz2 3399a106c56228b02e753bb96b762823b7bf3b6f 32702 llvm-3.1_3.1-1.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "2a25ef32c61ad4bd8f1645365f43cd45f88c9649565c40df65ce788d582b585d 1954 llvm-3.1_3.1-1.dsc 65e1c5268dce842c0cd19ff6ba66a4a745eefce9bd8d3032786299440c696d2d 8638959 llvm-3.1_3.1.orig.tar.bz2 19012305174079bf071110a2eb7680c5c7ec01137d9200ee21d68ab31e33c18d 32702 llvm-3.1_3.1-1.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/l/llvm-3.1"
-  ],
-  "Files": [
-    "4e4a5f34ea5420ee6b3f35964f591fd5 1954 llvm-3.1_3.1-1.dsc b443ea9649304e5f614634a054c8fd60 8638959 llvm-3.1_3.1.orig.tar.bz2 ba1240cf4f16078aded809d30ba4ede8 32702 llvm-3.1_3.1-1.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.llvm.org/"
-  ],
-  "Maintainer": [
-    "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "llvm-3.1"
-  ],
-  "Package-List": [
-    "libllvm-3.1-ocaml-dev deb ocaml optional libllvm3.1 deb libs optional llvm-3.1 deb devel optional llvm-3.1-dev deb devel optional llvm-3.1-doc deb doc optional llvm-3.1-examples deb doc optional llvm-3.1-runtime deb devel optional llvm-3.1-source deb devel optional"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "devel"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Arthur Loiret <aloiret@debian.org>, Sylvestre Ledru <sylvestre@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://svn.debian.org/viewsvn/pkg-llvm/llvm/trunk/"
-  ],
-  "Vcs-Svn": [
-    "svn://svn.debian.org/svn/pkg-llvm/llvm/trunk/"
-  ],
-  "Version": [
-    "3.1-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libllvm3.1, llvm-3.1, llvm-3.1-runtime, llvm-3.1-dev, libllvm-3.1-ocaml-dev, llvm-3.1-doc, llvm-3.1-examples, llvm-3.1-source"
+	],
+	"Build-Conflicts": [
+		"oprofile"
+	],
+	"Build-Depends": [
+		"debhelper (>= 8.1.3), flex, bison, dejagnu, tcl8.5, expect, autoconf, automake1.9, perl, libtool, doxygen, chrpath, texinfo, quilt, sharutils, autotools-dev (>= 20060702.1), libffi-dev (>= 3.0.9), lsb-release, xz-utils, binutils-dev (>= 2.20.51.20100222-1~), ocaml-nox (>= 3.11.2), dh-ocaml (>= 0.9.1)"
+	],
+	"Checksums-Sha1": [
+		"86e9607948234e39382369e94c4d4dd5ded97b4b 1954 llvm-3.1_3.1-1.dsc 25956c549a1b217c62880735d7d2b40339c4fc55 8638959 llvm-3.1_3.1.orig.tar.bz2 3399a106c56228b02e753bb96b762823b7bf3b6f 32702 llvm-3.1_3.1-1.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"2a25ef32c61ad4bd8f1645365f43cd45f88c9649565c40df65ce788d582b585d 1954 llvm-3.1_3.1-1.dsc 65e1c5268dce842c0cd19ff6ba66a4a745eefce9bd8d3032786299440c696d2d 8638959 llvm-3.1_3.1.orig.tar.bz2 19012305174079bf071110a2eb7680c5c7ec01137d9200ee21d68ab31e33c18d 32702 llvm-3.1_3.1-1.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/l/llvm-3.1"
+	],
+	"Files": [
+		"4e4a5f34ea5420ee6b3f35964f591fd5 1954 llvm-3.1_3.1-1.dsc b443ea9649304e5f614634a054c8fd60 8638959 llvm-3.1_3.1.orig.tar.bz2 ba1240cf4f16078aded809d30ba4ede8 32702 llvm-3.1_3.1-1.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.llvm.org/"
+	],
+	"Maintainer": [
+		"LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"llvm-3.1"
+	],
+	"Package-List": [
+		"libllvm-3.1-ocaml-dev deb ocaml optional libllvm3.1 deb libs optional llvm-3.1 deb devel optional llvm-3.1-dev deb devel optional llvm-3.1-doc deb doc optional llvm-3.1-examples deb doc optional llvm-3.1-runtime deb devel optional llvm-3.1-source deb devel optional"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"devel"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Arthur Loiret <aloiret@debian.org>, Sylvestre Ledru <sylvestre@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://svn.debian.org/viewsvn/pkg-llvm/llvm/trunk/"
+	],
+	"Vcs-Svn": [
+		"svn://svn.debian.org/svn/pkg-llvm/llvm/trunk/"
+	],
+	"Version": [
+		"3.1-1"
+	]
 }

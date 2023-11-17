@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-aodhclient, python3-aodhclient, python-aodhclient-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-python, openstack-pkg-tools (>= 52~), python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.8), python3-setuptools"
-  ],
-  "Build-Depends-Indep": [
-    "python-cliff (>= 1.14.0), python-coverage, python-debtcollector, python-keystoneauth1 (>= 1.0.0), python-keystonemiddleware, python-mock (>= 1.2), python-oslo.i18n (>= 1.5.0), python-oslo.serialization (>= 1.4.0), python-oslo.utils (>= 2.0.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.10.0), python-six, python-tempest (>= 1:10.0.0), python-testscenarios, python-testtools (>= 1.4.0), python3-cliff (>= 1.14.0), python3-debtcollector, python3-keystoneauth1 (>= 1.0.0), python3-keystonemiddleware, python3-mock (>= 1.2), python3-oslo.i18n (>= 1.5.0), python3-oslo.serialization (>= 1.4.0), python3-oslo.utils (>= 2.0.0), python3-oslotest (>= 1:1.10.0), python3-six, python3-subunit, python3-tempest (>= 1:10.0.0), python3-testscenarios, python3-testtools (>= 1.4.0), subunit, testrepository"
-  ],
-  "Checksums-Sha256": [
-    "6df4959f99d4f86263c7b18bcf2e3cd1fdbf4a4cc83d36ec6525cf4ad0b217b6 3164 python-aodhclient_0.7.0-2.dsc fb79003f04e706288b988c694414f3b9af08b1027e9801c583596aa02710f185 32248 python-aodhclient_0.7.0.orig.tar.xz 6562c98a6fcf7a99a06d713215ffe52680f068890b0b3b33a4ab46c0c30a142a 3836 python-aodhclient_0.7.0-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/python-aodhclient"
-  ],
-  "Files": [
-    "13e93d33327782ecd4b2bbc1ba9b4f41 3164 python-aodhclient_0.7.0-2.dsc 5c9dcaee28dc1f03b311156b1120f8da 32248 python-aodhclient_0.7.0.orig.tar.xz ab1e6a90a216fdc8ffb6f39eadeee99c 3836 python-aodhclient_0.7.0-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.openstack.org"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "python-aodhclient"
-  ],
-  "Package-List": [
-    "python-aodhclient deb python extra arch=all python-aodhclient-doc deb doc extra arch=all python3-aodhclient deb python extra arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://git.openstack.org/cgit/openstack/deb-python-aodhclient.git/?h=debian%2Fnewton"
-  ],
-  "Vcs-Git": [
-    "https://git.openstack.org/openstack/deb-python-aodhclient.git -b debian/newton"
-  ],
-  "Version": [
-    "0.7.0-2"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-aodhclient, python3-aodhclient, python-aodhclient-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-python, openstack-pkg-tools (>= 52~), python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.8), python3-setuptools"
+	],
+	"Build-Depends-Indep": [
+		"python-cliff (>= 1.14.0), python-coverage, python-debtcollector, python-keystoneauth1 (>= 1.0.0), python-keystonemiddleware, python-mock (>= 1.2), python-oslo.i18n (>= 1.5.0), python-oslo.serialization (>= 1.4.0), python-oslo.utils (>= 2.0.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.10.0), python-six, python-tempest (>= 1:10.0.0), python-testscenarios, python-testtools (>= 1.4.0), python3-cliff (>= 1.14.0), python3-debtcollector, python3-keystoneauth1 (>= 1.0.0), python3-keystonemiddleware, python3-mock (>= 1.2), python3-oslo.i18n (>= 1.5.0), python3-oslo.serialization (>= 1.4.0), python3-oslo.utils (>= 2.0.0), python3-oslotest (>= 1:1.10.0), python3-six, python3-subunit, python3-tempest (>= 1:10.0.0), python3-testscenarios, python3-testtools (>= 1.4.0), subunit, testrepository"
+	],
+	"Checksums-Sha256": [
+		"6df4959f99d4f86263c7b18bcf2e3cd1fdbf4a4cc83d36ec6525cf4ad0b217b6 3164 python-aodhclient_0.7.0-2.dsc fb79003f04e706288b988c694414f3b9af08b1027e9801c583596aa02710f185 32248 python-aodhclient_0.7.0.orig.tar.xz 6562c98a6fcf7a99a06d713215ffe52680f068890b0b3b33a4ab46c0c30a142a 3836 python-aodhclient_0.7.0-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-aodhclient"
+	],
+	"Files": [
+		"13e93d33327782ecd4b2bbc1ba9b4f41 3164 python-aodhclient_0.7.0-2.dsc 5c9dcaee28dc1f03b311156b1120f8da 32248 python-aodhclient_0.7.0.orig.tar.xz ab1e6a90a216fdc8ffb6f39eadeee99c 3836 python-aodhclient_0.7.0-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.openstack.org"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"python-aodhclient"
+	],
+	"Package-List": [
+		"python-aodhclient deb python extra arch=all python-aodhclient-doc deb doc extra arch=all python3-aodhclient deb python extra arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://git.openstack.org/cgit/openstack/deb-python-aodhclient.git/?h=debian%2Fnewton"
+	],
+	"Vcs-Git": [
+		"https://git.openstack.org/openstack/deb-python-aodhclient.git -b debian/newton"
+	],
+	"Version": [
+		"0.7.0-2"
+	]
 }

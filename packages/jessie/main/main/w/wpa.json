@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "linux-any kfreebsd-any"
-  ],
-  "Binary": [
-    "hostapd, wpagui, wpasupplicant, wpasupplicant-udeb"
-  ],
-  "Build-Depends": [
-    "debhelper (>> 9.20120115), libdbus-1-dev, libssl-dev, libqt4-dev, libncurses5-dev, libpcsclite-dev, libnl-3-dev [linux-any], libnl-genl-3-dev [linux-any], libnl-route-3-dev [linux-any], libpcap-dev [kfreebsd-any], libbsd-dev [kfreebsd-any], libreadline-dev, pkg-config, qt4-qmake, docbook-to-man, docbook-utils"
-  ],
-  "Checksums-Sha1": [
-    "007783f3da4e796e885d5dc79c23e66037b3051d 2165 wpa_2.3-1+deb8u5.dsc 7737a4306195ffaba8bb6777e2ede5a4a25e3ca0 1735544 wpa_2.3.orig.tar.xz 7f2e644aff9fdf766cb00e612e0ec98e3d3cb806 92112 wpa_2.3-1+deb8u5.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "866661aa6fdd5a0560a23ca9992e4d2da101db71bb7f6eeb5b9bcd988b8d18ab 2165 wpa_2.3-1+deb8u5.dsc 3d96034fa9e042c8aacb0812d8b2ab3d4c9aa6fc410802b4ee0da311e51c3eb3 1735544 wpa_2.3.orig.tar.xz 5b5021d7a5e023a5e4ad464de974ad60194e80d04192db96408e52cf2290baf3 92112 wpa_2.3-1+deb8u5.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/w/wpa"
-  ],
-  "Files": [
-    "41aa54a5181fde83a5fcb45edf018695 2165 wpa_2.3-1+deb8u5.dsc d6dc9fa32a406506717ee6a4d076cd6d 1735544 wpa_2.3.orig.tar.xz da8b95455ab7eded8ece38fdc16fe7a3 92112 wpa_2.3-1+deb8u5.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://w1.fi/wpa_supplicant/"
-  ],
-  "Maintainer": [
-    "Debian wpasupplicant Maintainers <pkg-wpa-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "wpa"
-  ],
-  "Package-List": [
-    "hostapd deb net optional arch=linux-any,kfreebsd-any wpagui deb net optional arch=linux-any,kfreebsd-any wpasupplicant deb net optional arch=linux-any,kfreebsd-any wpasupplicant-udeb udeb debian-installer standard arch=linux-any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Kel Modderman <kel@otaku42.de>, Stefan Lippers-Hollmann <s.l-h@gmx.de>, Jan Dittberner <jandd@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/viewvc/pkg-wpa/wpa/trunk/"
-  ],
-  "Vcs-Svn": [
-    "svn://anonscm.debian.org/pkg-wpa/wpa/trunk/"
-  ],
-  "Version": [
-    "2.3-1+deb8u5"
-  ]
+	"Architecture": [
+		"linux-any kfreebsd-any"
+	],
+	"Binary": [
+		"hostapd, wpagui, wpasupplicant, wpasupplicant-udeb"
+	],
+	"Build-Depends": [
+		"debhelper (>> 9.20120115), libdbus-1-dev, libssl-dev, libqt4-dev, libncurses5-dev, libpcsclite-dev, libnl-3-dev [linux-any], libnl-genl-3-dev [linux-any], libnl-route-3-dev [linux-any], libpcap-dev [kfreebsd-any], libbsd-dev [kfreebsd-any], libreadline-dev, pkg-config, qt4-qmake, docbook-to-man, docbook-utils"
+	],
+	"Checksums-Sha1": [
+		"007783f3da4e796e885d5dc79c23e66037b3051d 2165 wpa_2.3-1+deb8u5.dsc 7737a4306195ffaba8bb6777e2ede5a4a25e3ca0 1735544 wpa_2.3.orig.tar.xz 7f2e644aff9fdf766cb00e612e0ec98e3d3cb806 92112 wpa_2.3-1+deb8u5.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"866661aa6fdd5a0560a23ca9992e4d2da101db71bb7f6eeb5b9bcd988b8d18ab 2165 wpa_2.3-1+deb8u5.dsc 3d96034fa9e042c8aacb0812d8b2ab3d4c9aa6fc410802b4ee0da311e51c3eb3 1735544 wpa_2.3.orig.tar.xz 5b5021d7a5e023a5e4ad464de974ad60194e80d04192db96408e52cf2290baf3 92112 wpa_2.3-1+deb8u5.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/w/wpa"
+	],
+	"Files": [
+		"41aa54a5181fde83a5fcb45edf018695 2165 wpa_2.3-1+deb8u5.dsc d6dc9fa32a406506717ee6a4d076cd6d 1735544 wpa_2.3.orig.tar.xz da8b95455ab7eded8ece38fdc16fe7a3 92112 wpa_2.3-1+deb8u5.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://w1.fi/wpa_supplicant/"
+	],
+	"Maintainer": [
+		"Debian wpasupplicant Maintainers <pkg-wpa-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"wpa"
+	],
+	"Package-List": [
+		"hostapd deb net optional arch=linux-any,kfreebsd-any wpagui deb net optional arch=linux-any,kfreebsd-any wpasupplicant deb net optional arch=linux-any,kfreebsd-any wpasupplicant-udeb udeb debian-installer standard arch=linux-any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Kel Modderman <kel@otaku42.de>, Stefan Lippers-Hollmann <s.l-h@gmx.de>, Jan Dittberner <jandd@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/viewvc/pkg-wpa/wpa/trunk/"
+	],
+	"Vcs-Svn": [
+		"svn://anonscm.debian.org/pkg-wpa/wpa/trunk/"
+	],
+	"Version": [
+		"2.3-1+deb8u5"
+	]
 }

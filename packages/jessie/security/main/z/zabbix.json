@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "zabbix-agent, zabbix-frontend-php, zabbix-java-gateway, zabbix-proxy-mysql, zabbix-proxy-pgsql, zabbix-proxy-sqlite3, zabbix-server-mysql, zabbix-server-pgsql"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), automake, dh-autoreconf, libcurl4-gnutls-dev, libgcrypt20-dev | libgcrypt-dev, libiksemel-dev, libldap2-dev, libmysqlclient-dev, libopenipmi-dev [!hurd-any !arm], libpq-dev, libsnmp9-dev | libsnmp-dev, libsqlite3-dev, libssh2-1-dev, libxml2-dev, pkg-config, unixodbc-dev, javahelper"
-  ],
-  "Build-Depends-Indep": [
-    "default-jdk, libandroid-json-org-java, liblogback-java, libslf4j-java, junit4"
-  ],
-  "Checksums-Sha1": [
-    "07de8242ace39bedac86bb2340ed617227d0cc25 2952 zabbix_2.2.23+dfsg-0+deb8u1.dsc 1f32037be9457cf7e63f19e938c2e57d2870fabc 6078160 zabbix_2.2.23+dfsg.orig.tar.xz 328bbe1bd8d03fdfe1f3a5fb970906dea77b9906 189656 zabbix_2.2.23+dfsg-0+deb8u1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "b0279209eb3bb6c4694beef4af08ad63384122435d2ee0fe6f2a702098fd0e14 2952 zabbix_2.2.23+dfsg-0+deb8u1.dsc e1c73ea9ea813ca5b77a509dd0796af9293784ae402bbbe7de427faea6742eeb 6078160 zabbix_2.2.23+dfsg.orig.tar.xz 5f4b4a49adfa76449692d09236dead95452e6404baaeba67bd12fe1d1d85afd3 189656 zabbix_2.2.23+dfsg-0+deb8u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/z/zabbix"
-  ],
-  "Files": [
-    "85a552b03f384cfa5948d85a2e1dbbfc 2952 zabbix_2.2.23+dfsg-0+deb8u1.dsc 543faf820fd790c7f7ef56d623bafef6 6078160 zabbix_2.2.23+dfsg.orig.tar.xz 9dc874c9291c78e8cd378d7a09adab0d 189656 zabbix_2.2.23+dfsg-0+deb8u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://zabbix.com"
-  ],
-  "Maintainer": [
-    "Christoph Haas <haas@debian.org>"
-  ],
-  "Package": [
-    "zabbix"
-  ],
-  "Package-List": [
-    "zabbix-agent deb net optional arch=any zabbix-frontend-php deb net optional arch=all zabbix-java-gateway deb net optional arch=all zabbix-proxy-mysql deb net optional arch=any zabbix-proxy-pgsql deb net optional arch=any zabbix-proxy-sqlite3 deb net optional arch=any zabbix-server-mysql deb net optional arch=any zabbix-server-pgsql deb net optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Dmitry Smirnov <onlyjob@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=collab-maint/zabbix.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/collab-maint/zabbix.git"
-  ],
-  "Version": [
-    "1:2.2.23+dfsg-0+deb8u1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"zabbix-agent, zabbix-frontend-php, zabbix-java-gateway, zabbix-proxy-mysql, zabbix-proxy-pgsql, zabbix-proxy-sqlite3, zabbix-server-mysql, zabbix-server-pgsql"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), automake, dh-autoreconf, libcurl4-gnutls-dev, libgcrypt20-dev | libgcrypt-dev, libiksemel-dev, libldap2-dev, libmysqlclient-dev, libopenipmi-dev [!hurd-any !arm], libpq-dev, libsnmp9-dev | libsnmp-dev, libsqlite3-dev, libssh2-1-dev, libxml2-dev, pkg-config, unixodbc-dev, javahelper"
+	],
+	"Build-Depends-Indep": [
+		"default-jdk, libandroid-json-org-java, liblogback-java, libslf4j-java, junit4"
+	],
+	"Checksums-Sha1": [
+		"07de8242ace39bedac86bb2340ed617227d0cc25 2952 zabbix_2.2.23+dfsg-0+deb8u1.dsc 1f32037be9457cf7e63f19e938c2e57d2870fabc 6078160 zabbix_2.2.23+dfsg.orig.tar.xz 328bbe1bd8d03fdfe1f3a5fb970906dea77b9906 189656 zabbix_2.2.23+dfsg-0+deb8u1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"b0279209eb3bb6c4694beef4af08ad63384122435d2ee0fe6f2a702098fd0e14 2952 zabbix_2.2.23+dfsg-0+deb8u1.dsc e1c73ea9ea813ca5b77a509dd0796af9293784ae402bbbe7de427faea6742eeb 6078160 zabbix_2.2.23+dfsg.orig.tar.xz 5f4b4a49adfa76449692d09236dead95452e6404baaeba67bd12fe1d1d85afd3 189656 zabbix_2.2.23+dfsg-0+deb8u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/z/zabbix"
+	],
+	"Files": [
+		"85a552b03f384cfa5948d85a2e1dbbfc 2952 zabbix_2.2.23+dfsg-0+deb8u1.dsc 543faf820fd790c7f7ef56d623bafef6 6078160 zabbix_2.2.23+dfsg.orig.tar.xz 9dc874c9291c78e8cd378d7a09adab0d 189656 zabbix_2.2.23+dfsg-0+deb8u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://zabbix.com"
+	],
+	"Maintainer": [
+		"Christoph Haas <haas@debian.org>"
+	],
+	"Package": [
+		"zabbix"
+	],
+	"Package-List": [
+		"zabbix-agent deb net optional arch=any zabbix-frontend-php deb net optional arch=all zabbix-java-gateway deb net optional arch=all zabbix-proxy-mysql deb net optional arch=any zabbix-proxy-pgsql deb net optional arch=any zabbix-proxy-sqlite3 deb net optional arch=any zabbix-server-mysql deb net optional arch=any zabbix-server-pgsql deb net optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Dmitry Smirnov <onlyjob@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=collab-maint/zabbix.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/collab-maint/zabbix.git"
+	],
+	"Version": [
+		"1:2.2.23+dfsg-0+deb8u1"
+	]
 }

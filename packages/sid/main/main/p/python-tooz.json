@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-tooz-doc, python3-tooz"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 10), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx"
-  ],
-  "Build-Depends-Indep": [
-    "mariadb-server | mysql-server, memcached, net-tools, postgresql, postgresql-server-dev-all, python3-consul, python3-coverage, python3-ddt, python3-etcd3, python3-etcd3gw, python3-eventlet, python3-fasteners, python3-fixtures, python3-futurist, python3-grpcio, python3-kazoo, python3-msgpack, python3-openstackdocstheme, python3-oslo.serialization, python3-oslo.utils (>= 4.7.0), python3-psycopg2, python3-pymemcache, python3-pymysql, python3-redis, python3-requests, python3-stestr, python3-stevedore, python3-sysv-ipc, python3-tenacity, python3-testscenarios, python3-testtools, python3-voluptuous, python3-zake, subunit"
-  ],
-  "Checksums-Sha256": [
-    "63cea2cadd7515be4a39906be0d76ef88b1ce965601523a0d0bd82eb6fe43def 2861 python-tooz_4.2.0-2.dsc 3efcc2897230b8ca52af7c932587b67e8e98908480e477f9ec7180f33aeaa4ee 66892 python-tooz_4.2.0.orig.tar.xz d69f3bb4ba67f07eea66abf890faef3ac0884c231b7dd528088dc5e12143602d 6716 python-tooz_4.2.0-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/python-tooz"
-  ],
-  "Files": [
-    "227e2a6d22af1bb589558dd57dbb760c 2861 python-tooz_4.2.0-2.dsc e5a0bc1ac2dabdbe9c251fdd190a94e8 66892 python-tooz_4.2.0.orig.tar.xz 82874c59aca1545a85aa0763825c6e6f 6716 python-tooz_4.2.0-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/openstack/tooz"
-  ],
-  "Maintainer": [
-    "Debian OpenStack <team+openstack@tracker.debian.org>"
-  ],
-  "Package": [
-    "python-tooz"
-  ],
-  "Package-List": [
-    "python-tooz-doc deb doc optional arch=all python3-tooz deb python optional arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.5.1"
-  ],
-  "Testsuite": [
-    "autopkgtest, autopkgtest-pkg-python"
-  ],
-  "Testsuite-Triggers": [
-    "@builddeps@"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>, Michal Arbet <michal.arbet@ultimum.io>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/openstack-team/libs/python-tooz"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/openstack-team/libs/python-tooz.git"
-  ],
-  "Version": [
-    "4.2.0-2"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-tooz-doc, python3-tooz"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 10), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx"
+	],
+	"Build-Depends-Indep": [
+		"mariadb-server | mysql-server, memcached, net-tools, postgresql, postgresql-server-dev-all, python3-consul, python3-coverage, python3-ddt, python3-etcd3, python3-etcd3gw, python3-eventlet, python3-fasteners, python3-fixtures, python3-futurist, python3-grpcio, python3-kazoo, python3-msgpack, python3-openstackdocstheme, python3-oslo.serialization, python3-oslo.utils (>= 4.7.0), python3-psycopg2, python3-pymemcache, python3-pymysql, python3-redis, python3-requests, python3-stestr, python3-stevedore, python3-sysv-ipc, python3-tenacity, python3-testscenarios, python3-testtools, python3-voluptuous, python3-zake, subunit"
+	],
+	"Checksums-Sha256": [
+		"63cea2cadd7515be4a39906be0d76ef88b1ce965601523a0d0bd82eb6fe43def 2861 python-tooz_4.2.0-2.dsc 3efcc2897230b8ca52af7c932587b67e8e98908480e477f9ec7180f33aeaa4ee 66892 python-tooz_4.2.0.orig.tar.xz d69f3bb4ba67f07eea66abf890faef3ac0884c231b7dd528088dc5e12143602d 6716 python-tooz_4.2.0-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-tooz"
+	],
+	"Files": [
+		"227e2a6d22af1bb589558dd57dbb760c 2861 python-tooz_4.2.0-2.dsc e5a0bc1ac2dabdbe9c251fdd190a94e8 66892 python-tooz_4.2.0.orig.tar.xz 82874c59aca1545a85aa0763825c6e6f 6716 python-tooz_4.2.0-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/openstack/tooz"
+	],
+	"Maintainer": [
+		"Debian OpenStack <team+openstack@tracker.debian.org>"
+	],
+	"Package": [
+		"python-tooz"
+	],
+	"Package-List": [
+		"python-tooz-doc deb doc optional arch=all python3-tooz deb python optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.1"
+	],
+	"Testsuite": [
+		"autopkgtest, autopkgtest-pkg-python"
+	],
+	"Testsuite-Triggers": [
+		"@builddeps@"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>, Michal Arbet <michal.arbet@ultimum.io>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/openstack-team/libs/python-tooz"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/openstack-team/libs/python-tooz.git"
+	],
+	"Version": [
+		"4.2.0-2"
+	]
 }

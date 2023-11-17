@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "linux-any all"
-  ],
-  "Binary": [
-    "spl-dkms, spl"
-  ],
-  "Build-Depends": [
-    "autogen, autotools-dev, debhelper (>= 9), dh-autoreconf, dkms (>> 2.2.0.2-1~), libtool"
-  ],
-  "Checksums-Sha1": [
-    "1cb589b412e34a6566671aef70ad9e6aa474530f 1796 spl-linux_0.6.5.9-1~bpo8+1.dsc 129d44e7b99bef406f03b23a0726de0f38d618bf 594271 spl-linux_0.6.5.9.orig.tar.gz 72c9805af903ad13e3900fbfc628a332b87c219c 9548 spl-linux_0.6.5.9-1~bpo8+1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "91d631a7b806deb157a7500e4821a925978c9cc14b37d2bc959b325ce5fe9d26 1796 spl-linux_0.6.5.9-1~bpo8+1.dsc d9ccd24786bb5a8616748a93a3c0b1270aa891175e2f5d726195b416f5c03b9c 594271 spl-linux_0.6.5.9.orig.tar.gz d0531a0ce84efcd2fb34fed75dd531ff183cb590566e096c61e15e5806340c1d 9548 spl-linux_0.6.5.9-1~bpo8+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/s/spl-linux"
-  ],
-  "Files": [
-    "58f23b3c812cd192f0b2f12b4f30cca8 1796 spl-linux_0.6.5.9-1~bpo8+1.dsc ab4e2538231dc4b3acf65fe2436ec46b 594271 spl-linux_0.6.5.9.orig.tar.gz 1f37249ef87ffabe206f58b547a1b10a 9548 spl-linux_0.6.5.9-1~bpo8+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.zfsonlinux.org/"
-  ],
-  "Maintainer": [
-    "Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "spl-linux"
-  ],
-  "Package-List": [
-    "spl deb kernel optional arch=linux-any spl-dkms deb kernel optional arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Aron Xu <aron@debian.org>, Carlos Alberto Lopez Perez <clopez@igalia.com>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-zfsonlinux/spl.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-zfsonlinux/spl.git"
-  ],
-  "Version": [
-    "0.6.5.9-1~bpo8+1"
-  ]
+	"Architecture": [
+		"linux-any all"
+	],
+	"Binary": [
+		"spl-dkms, spl"
+	],
+	"Build-Depends": [
+		"autogen, autotools-dev, debhelper (>= 9), dh-autoreconf, dkms (>> 2.2.0.2-1~), libtool"
+	],
+	"Checksums-Sha1": [
+		"1cb589b412e34a6566671aef70ad9e6aa474530f 1796 spl-linux_0.6.5.9-1~bpo8+1.dsc 129d44e7b99bef406f03b23a0726de0f38d618bf 594271 spl-linux_0.6.5.9.orig.tar.gz 72c9805af903ad13e3900fbfc628a332b87c219c 9548 spl-linux_0.6.5.9-1~bpo8+1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"91d631a7b806deb157a7500e4821a925978c9cc14b37d2bc959b325ce5fe9d26 1796 spl-linux_0.6.5.9-1~bpo8+1.dsc d9ccd24786bb5a8616748a93a3c0b1270aa891175e2f5d726195b416f5c03b9c 594271 spl-linux_0.6.5.9.orig.tar.gz d0531a0ce84efcd2fb34fed75dd531ff183cb590566e096c61e15e5806340c1d 9548 spl-linux_0.6.5.9-1~bpo8+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/s/spl-linux"
+	],
+	"Files": [
+		"58f23b3c812cd192f0b2f12b4f30cca8 1796 spl-linux_0.6.5.9-1~bpo8+1.dsc ab4e2538231dc4b3acf65fe2436ec46b 594271 spl-linux_0.6.5.9.orig.tar.gz 1f37249ef87ffabe206f58b547a1b10a 9548 spl-linux_0.6.5.9-1~bpo8+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.zfsonlinux.org/"
+	],
+	"Maintainer": [
+		"Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"spl-linux"
+	],
+	"Package-List": [
+		"spl deb kernel optional arch=linux-any spl-dkms deb kernel optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Aron Xu <aron@debian.org>, Carlos Alberto Lopez Perez <clopez@igalia.com>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-zfsonlinux/spl.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-zfsonlinux/spl.git"
+	],
+	"Version": [
+		"0.6.5.9-1~bpo8+1"
+	]
 }

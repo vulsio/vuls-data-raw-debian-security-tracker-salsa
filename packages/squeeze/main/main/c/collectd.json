@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "collectd-core, collectd, collectd-utils, collectd-dbg, collectd-dev, libcollectdclient-dev, libcollectdclient0"
-  ],
-  "Build-Conflicts": [
-    "libpthread-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 5), dpkg-dev (>= 1.14.10), po-debconf, dpatch, bison, flex, autotools-dev, libltdl-dev, pkg-config, iproute-dev [!alpha !amd64 !hppa !ia64 !ppc64 !mips !mipsel !kfreebsd-i386 !kfreebsd-amd64], iptables-dev (>= 1.4.3.2-2) [!kfreebsd-i386 !kfreebsd-amd64], libcurl4-gnutls-dev (>= 7.18.2-5) | libcurl4-gnutls-dev (<= 7.18.2-1) | libcurl3-gnutls-dev, libdbi0-dev, libesmtp-dev, libganglia1-dev (>= 3) [!kfreebsd-i386 !kfreebsd-amd64], libgcrypt11-dev, libglib2.0-dev, libhal-dev, libmemcached-dev, libmysqlclient-dev, libnotify-dev, libopenipmi-dev, liboping-dev (>= 0.3.3), libpcap0.8-dev | libpcap-dev, libperl-dev, libpq-dev, libprotobuf-c0-dev, librrd-dev (>= 1.4~), libsensors4-dev [!kfreebsd-i386 !kfreebsd-amd64], libsnmp-dev (>= 5.4.2.1~dfsg-4~) | libsnmp-dev | libsnmp9-dev, libsnmp-dev (>= 5.4.2.1~dfsg-4~) | perl (<< 5.10.1~rc2-1~), libtokyocabinet-dev [!kfreebsd-i386 !kfreebsd-amd64], libtokyotyrant-dev [!kfreebsd-i386 !kfreebsd-amd64], libupsclient1-dev, libvirt-dev (>= 0.4.0-6) [!kfreebsd-i386 !kfreebsd-amd64], libxml2-dev, libyajl-dev, linux-libc-dev (>= 2.6.25-4) [!kfreebsd-i386 !kfreebsd-amd64] | linux-libc-dev (<< 2.6.25-1) [!kfreebsd-i386 !kfreebsd-amd64], openjdk-6-jdk [!hppa !kfreebsd-i386 !kfreebsd-amd64], protobuf-c-compiler, python-dev"
-  ],
-  "Checksums-Sha1": [
-    "217d46bd8a23b0cdc30e85e5cade341dca201e62 2529 collectd_4.10.1-1+squeeze2.dsc e5167b9ad349de5778c4656f8ac94271461a5bc6 1732940 collectd_4.10.1.orig.tar.gz d75dd9f51e05b964b2026fd6b05a000f99cbc3e2 58643 collectd_4.10.1-1+squeeze2.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "ace2dda4c8f05b8e50a1a8d6cc2167bb1b15421399523c101c2d5ed10ff48e45 2529 collectd_4.10.1-1+squeeze2.dsc d923c623d1a0dec270aeb6d89457bdbb232dc73f85e42e895670e25a616e3c1f 1732940 collectd_4.10.1.orig.tar.gz 8bd7a1739b7a27efc9e28fc8b68d09df1ba3584528dd2cf486485fe651a6d777 58643 collectd_4.10.1-1+squeeze2.diff.gz"
-  ],
-  "Directory": [
-    "pool/main/c/collectd"
-  ],
-  "Files": [
-    "27e16cfe30ec8108f73f2243df641b01 2529 collectd_4.10.1-1+squeeze2.dsc af512b00787a65897c95197641d1a4cb 1732940 collectd_4.10.1.orig.tar.gz 5d9552357cd0683dbd0b8f4c631e0f2b 58643 collectd_4.10.1-1+squeeze2.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Homepage": [
-    "http://collectd.org/"
-  ],
-  "Maintainer": [
-    "Sebastian Harl <tokkee@debian.org>"
-  ],
-  "Package": [
-    "collectd"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "utils"
-  ],
-  "Standards-Version": [
-    "3.9.1"
-  ],
-  "Vcs-Browser": [
-    "http://git.tokkee.org/?p=pkg-collectd.git"
-  ],
-  "Vcs-Git": [
-    "git://git.tokkee.org/pkg-collectd.git"
-  ],
-  "Version": [
-    "4.10.1-1+squeeze2"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"collectd-core, collectd, collectd-utils, collectd-dbg, collectd-dev, libcollectdclient-dev, libcollectdclient0"
+	],
+	"Build-Conflicts": [
+		"libpthread-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 5), dpkg-dev (>= 1.14.10), po-debconf, dpatch, bison, flex, autotools-dev, libltdl-dev, pkg-config, iproute-dev [!alpha !amd64 !hppa !ia64 !ppc64 !mips !mipsel !kfreebsd-i386 !kfreebsd-amd64], iptables-dev (>= 1.4.3.2-2) [!kfreebsd-i386 !kfreebsd-amd64], libcurl4-gnutls-dev (>= 7.18.2-5) | libcurl4-gnutls-dev (<= 7.18.2-1) | libcurl3-gnutls-dev, libdbi0-dev, libesmtp-dev, libganglia1-dev (>= 3) [!kfreebsd-i386 !kfreebsd-amd64], libgcrypt11-dev, libglib2.0-dev, libhal-dev, libmemcached-dev, libmysqlclient-dev, libnotify-dev, libopenipmi-dev, liboping-dev (>= 0.3.3), libpcap0.8-dev | libpcap-dev, libperl-dev, libpq-dev, libprotobuf-c0-dev, librrd-dev (>= 1.4~), libsensors4-dev [!kfreebsd-i386 !kfreebsd-amd64], libsnmp-dev (>= 5.4.2.1~dfsg-4~) | libsnmp-dev | libsnmp9-dev, libsnmp-dev (>= 5.4.2.1~dfsg-4~) | perl (<< 5.10.1~rc2-1~), libtokyocabinet-dev [!kfreebsd-i386 !kfreebsd-amd64], libtokyotyrant-dev [!kfreebsd-i386 !kfreebsd-amd64], libupsclient1-dev, libvirt-dev (>= 0.4.0-6) [!kfreebsd-i386 !kfreebsd-amd64], libxml2-dev, libyajl-dev, linux-libc-dev (>= 2.6.25-4) [!kfreebsd-i386 !kfreebsd-amd64] | linux-libc-dev (<< 2.6.25-1) [!kfreebsd-i386 !kfreebsd-amd64], openjdk-6-jdk [!hppa !kfreebsd-i386 !kfreebsd-amd64], protobuf-c-compiler, python-dev"
+	],
+	"Checksums-Sha1": [
+		"217d46bd8a23b0cdc30e85e5cade341dca201e62 2529 collectd_4.10.1-1+squeeze2.dsc e5167b9ad349de5778c4656f8ac94271461a5bc6 1732940 collectd_4.10.1.orig.tar.gz d75dd9f51e05b964b2026fd6b05a000f99cbc3e2 58643 collectd_4.10.1-1+squeeze2.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"ace2dda4c8f05b8e50a1a8d6cc2167bb1b15421399523c101c2d5ed10ff48e45 2529 collectd_4.10.1-1+squeeze2.dsc d923c623d1a0dec270aeb6d89457bdbb232dc73f85e42e895670e25a616e3c1f 1732940 collectd_4.10.1.orig.tar.gz 8bd7a1739b7a27efc9e28fc8b68d09df1ba3584528dd2cf486485fe651a6d777 58643 collectd_4.10.1-1+squeeze2.diff.gz"
+	],
+	"Directory": [
+		"pool/main/c/collectd"
+	],
+	"Files": [
+		"27e16cfe30ec8108f73f2243df641b01 2529 collectd_4.10.1-1+squeeze2.dsc af512b00787a65897c95197641d1a4cb 1732940 collectd_4.10.1.orig.tar.gz 5d9552357cd0683dbd0b8f4c631e0f2b 58643 collectd_4.10.1-1+squeeze2.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Homepage": [
+		"http://collectd.org/"
+	],
+	"Maintainer": [
+		"Sebastian Harl <tokkee@debian.org>"
+	],
+	"Package": [
+		"collectd"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"utils"
+	],
+	"Standards-Version": [
+		"3.9.1"
+	],
+	"Vcs-Browser": [
+		"http://git.tokkee.org/?p=pkg-collectd.git"
+	],
+	"Vcs-Git": [
+		"git://git.tokkee.org/pkg-collectd.git"
+	],
+	"Version": [
+		"4.10.1-1+squeeze2"
+	]
 }

@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "binutils, binutils-dev, binutils-multiarch, binutils-multiarch-dev, binutils-hppa64-linux-gnu, binutils-doc, binutils-source, binutils-s390x-linux-gnu, binutils-powerpc64le-linux-gnu, binutils-powerpc-linux-gnu, binutils-aarch64-linux-gnu, binutils-arm-linux-gnueabihf, binutils-arm-linux-gnueabi, binutils-mips-linux-gnu, binutils-mipsel-linux-gnu, binutils-alpha-linux-gnu, binutils-hppa-linux-gnu, binutils-m68k-linux-gnu, binutils-mips64-linux-gnuabi64, binutils-mips64el-linux-gnuabi64, binutils-powerpc-linux-gnuspe, binutils-powerpc64-linux-gnu, binutils-sh4-linux-gnu, binutils-sparc64-linux-gnu, binutils-mips64-linux-gnuabin32, binutils-mips64el-linux-gnuabin32"
-  ],
-  "Build-Conflicts": [
-    "libelf-dev"
-  ],
-  "Build-Depends": [
-    "autoconf (>= 2.64), dpkg-dev (>= 1.17.11), bison, flex, gettext, texinfo, dejagnu, quilt, chrpath, python3:any, file, xz-utils, lsb-release, zlib1g-dev"
-  ],
-  "Checksums-Sha256": [
-    "a835d9d6e2d102a4c04c07259c7a2810c11935d70f43fdb31c5b01c4c01da380 4380 binutils_2.28-5.dsc db29588b0214fa69baa1a9351122cd6d0f081f2e675e6ad2aefc316ddeaf327a 37814356 binutils_2.28.orig.tar.gz 7cb92a4ca5b3afdd1c6a735ff7876b7751f83aaa887d6eb5cf0ec919bf850a35 129501 binutils_2.28-5.diff.gz"
-  ],
-  "Directory": [
-    "pool/main/b/binutils"
-  ],
-  "Files": [
-    "ad0bb1e4b0a74125b0d297e65a9c8177 4380 binutils_2.28-5.dsc 9ebb08757c6e8a025a331ca4e4764e74 37814356 binutils_2.28.orig.tar.gz ff3610cc945354f79d4a3b3b60d6ccea 129501 binutils_2.28-5.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Homepage": [
-    "https://www.gnu.org/software/binutils/"
-  ],
-  "Maintainer": [
-    "Matthias Klose <doko@debian.org>"
-  ],
-  "Package": [
-    "binutils"
-  ],
-  "Package-List": [
-    "binutils deb devel optional arch=any binutils-aarch64-linux-gnu deb devel extra arch=amd64,i386,x32 binutils-alpha-linux-gnu deb devel extra arch=amd64,i386,x32 binutils-arm-linux-gnueabi deb devel extra arch=amd64,i386,x32,arm64 binutils-arm-linux-gnueabihf deb devel extra arch=amd64,i386,x32,arm64 binutils-dev deb devel extra arch=any binutils-doc deb doc optional arch=all binutils-hppa-linux-gnu deb devel extra arch=amd64,i386,x32 binutils-hppa64-linux-gnu deb devel optional arch=amd64,i386,x32,hppa binutils-m68k-linux-gnu deb devel extra arch=amd64,i386,x32 binutils-mips-linux-gnu deb devel extra arch=amd64,i386,x32 binutils-mips64-linux-gnuabi64 deb devel extra arch=amd64,i386,x32 binutils-mips64-linux-gnuabin32 deb devel extra arch=amd64,i386,x32 binutils-mips64el-linux-gnuabi64 deb devel extra arch=amd64,i386,x32 binutils-mips64el-linux-gnuabin32 deb devel extra arch=amd64,i386,x32 binutils-mipsel-linux-gnu deb devel extra arch=amd64,i386,x32 binutils-multiarch deb devel extra arch=any binutils-multiarch-dev deb devel extra arch=any binutils-powerpc-linux-gnu deb devel extra arch=amd64,i386,x32,ppc64el binutils-powerpc-linux-gnuspe deb devel extra arch=amd64,i386,x32 binutils-powerpc64-linux-gnu deb devel extra arch=amd64,i386,x32,ppc64el binutils-powerpc64le-linux-gnu deb devel extra arch=amd64,i386,x32,ppc64 binutils-s390x-linux-gnu deb devel extra arch=amd64,i386,x32 binutils-sh4-linux-gnu deb devel extra arch=amd64,i386,x32 binutils-source deb devel optional arch=all binutils-sparc64-linux-gnu deb devel extra arch=amd64,i386,x32"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "devel"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential"
-  ],
-  "Uploaders": [
-    "James Troup <binutils@elmo.tasta.io>, Daniel Jacobowitz <dan@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://code.launchpad.net/~doko/binutils/pkg-2.28-debian"
-  ],
-  "Vcs-Bzr": [
-    "http://bazaar.launchpad.net/~doko/binutils/pkg-2.28-debian"
-  ],
-  "Version": [
-    "2.28-5"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"binutils, binutils-dev, binutils-multiarch, binutils-multiarch-dev, binutils-hppa64-linux-gnu, binutils-doc, binutils-source, binutils-s390x-linux-gnu, binutils-powerpc64le-linux-gnu, binutils-powerpc-linux-gnu, binutils-aarch64-linux-gnu, binutils-arm-linux-gnueabihf, binutils-arm-linux-gnueabi, binutils-mips-linux-gnu, binutils-mipsel-linux-gnu, binutils-alpha-linux-gnu, binutils-hppa-linux-gnu, binutils-m68k-linux-gnu, binutils-mips64-linux-gnuabi64, binutils-mips64el-linux-gnuabi64, binutils-powerpc-linux-gnuspe, binutils-powerpc64-linux-gnu, binutils-sh4-linux-gnu, binutils-sparc64-linux-gnu, binutils-mips64-linux-gnuabin32, binutils-mips64el-linux-gnuabin32"
+	],
+	"Build-Conflicts": [
+		"libelf-dev"
+	],
+	"Build-Depends": [
+		"autoconf (>= 2.64), dpkg-dev (>= 1.17.11), bison, flex, gettext, texinfo, dejagnu, quilt, chrpath, python3:any, file, xz-utils, lsb-release, zlib1g-dev"
+	],
+	"Checksums-Sha256": [
+		"a835d9d6e2d102a4c04c07259c7a2810c11935d70f43fdb31c5b01c4c01da380 4380 binutils_2.28-5.dsc db29588b0214fa69baa1a9351122cd6d0f081f2e675e6ad2aefc316ddeaf327a 37814356 binutils_2.28.orig.tar.gz 7cb92a4ca5b3afdd1c6a735ff7876b7751f83aaa887d6eb5cf0ec919bf850a35 129501 binutils_2.28-5.diff.gz"
+	],
+	"Directory": [
+		"pool/main/b/binutils"
+	],
+	"Files": [
+		"ad0bb1e4b0a74125b0d297e65a9c8177 4380 binutils_2.28-5.dsc 9ebb08757c6e8a025a331ca4e4764e74 37814356 binutils_2.28.orig.tar.gz ff3610cc945354f79d4a3b3b60d6ccea 129501 binutils_2.28-5.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Homepage": [
+		"https://www.gnu.org/software/binutils/"
+	],
+	"Maintainer": [
+		"Matthias Klose <doko@debian.org>"
+	],
+	"Package": [
+		"binutils"
+	],
+	"Package-List": [
+		"binutils deb devel optional arch=any binutils-aarch64-linux-gnu deb devel extra arch=amd64,i386,x32 binutils-alpha-linux-gnu deb devel extra arch=amd64,i386,x32 binutils-arm-linux-gnueabi deb devel extra arch=amd64,i386,x32,arm64 binutils-arm-linux-gnueabihf deb devel extra arch=amd64,i386,x32,arm64 binutils-dev deb devel extra arch=any binutils-doc deb doc optional arch=all binutils-hppa-linux-gnu deb devel extra arch=amd64,i386,x32 binutils-hppa64-linux-gnu deb devel optional arch=amd64,i386,x32,hppa binutils-m68k-linux-gnu deb devel extra arch=amd64,i386,x32 binutils-mips-linux-gnu deb devel extra arch=amd64,i386,x32 binutils-mips64-linux-gnuabi64 deb devel extra arch=amd64,i386,x32 binutils-mips64-linux-gnuabin32 deb devel extra arch=amd64,i386,x32 binutils-mips64el-linux-gnuabi64 deb devel extra arch=amd64,i386,x32 binutils-mips64el-linux-gnuabin32 deb devel extra arch=amd64,i386,x32 binutils-mipsel-linux-gnu deb devel extra arch=amd64,i386,x32 binutils-multiarch deb devel extra arch=any binutils-multiarch-dev deb devel extra arch=any binutils-powerpc-linux-gnu deb devel extra arch=amd64,i386,x32,ppc64el binutils-powerpc-linux-gnuspe deb devel extra arch=amd64,i386,x32 binutils-powerpc64-linux-gnu deb devel extra arch=amd64,i386,x32,ppc64el binutils-powerpc64le-linux-gnu deb devel extra arch=amd64,i386,x32,ppc64 binutils-s390x-linux-gnu deb devel extra arch=amd64,i386,x32 binutils-sh4-linux-gnu deb devel extra arch=amd64,i386,x32 binutils-source deb devel optional arch=all binutils-sparc64-linux-gnu deb devel extra arch=amd64,i386,x32"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"devel"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential"
+	],
+	"Uploaders": [
+		"James Troup <binutils@elmo.tasta.io>, Daniel Jacobowitz <dan@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://code.launchpad.net/~doko/binutils/pkg-2.28-debian"
+	],
+	"Vcs-Bzr": [
+		"http://bazaar.launchpad.net/~doko/binutils/pkg-2.28-debian"
+	],
+	"Version": [
+		"2.28-5"
+	]
 }

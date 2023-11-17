@@ -1,53 +1,53 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "openvswitch-common, openvswitch-switch, ovn-common, ovn-controller-vtep, ovn-host, ovn-central, ovn-docker, openvswitch-ipsec, openvswitch-pki, openvswitch-testcontroller, openvswitch-dbg, python-openvswitch, openvswitch-test, openvswitch-vtep, openvswitch-dev"
-  ],
-  "Build-Depends": [
-    "graphviz, autoconf (>= 2.64), automake (>= 1.10) | automake1.10, bzip2, debhelper (>= 8), dh-autoreconf, libssl-dev, libtool, openssl, procps, python-all (>= 2.7), python-twisted-conch, python-zopeinterface, python-six"
-  ],
-  "Checksums-Sha1": [
-    "ea52f480d9f7585c5ee109f7481181bf79823aa5 3103 openvswitch_2.6.10-0+deb9u1.dsc d4c80991901f5aae5b750e80beb642c1bde8a5bf 5294571 openvswitch_2.6.10.orig.tar.gz 9dd2525eb610cac8bacc8bd74407da4c3d6158bc 53840 openvswitch_2.6.10-0+deb9u1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "c9c89f9ebafde683942c90a53310b1163ba7b43252aee6670e0d5865c81a4d88 3103 openvswitch_2.6.10-0+deb9u1.dsc dc9017013e57e90806a5ee11d5a6b815bc37fab7bec3d713296a16c749c01084 5294571 openvswitch_2.6.10.orig.tar.gz a896f11611a44819f3d193e2d4fa700c184a32e84dbe6b20b03916b2c1d7637f 53840 openvswitch_2.6.10-0+deb9u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/o/openvswitch"
-  ],
-  "Files": [
-    "a520250ad33a222e5a5b31083dd44988 3103 openvswitch_2.6.10-0+deb9u1.dsc cee18b75260a35ff1d00c8553a7dcb06 5294571 openvswitch_2.6.10.orig.tar.gz 03764746f8ff9bcb8c499a8fdcfb3150 53840 openvswitch_2.6.10-0+deb9u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://openvswitch.org/"
-  ],
-  "Maintainer": [
-    "Open vSwitch developers <dev@openvswitch.org>"
-  ],
-  "Package": [
-    "openvswitch"
-  ],
-  "Package-List": [
-    "openvswitch-common deb net extra arch=linux-any openvswitch-dbg deb debug extra arch=linux-any openvswitch-dev deb net extra arch=linux-any openvswitch-ipsec deb net extra arch=linux-any openvswitch-pki deb net extra arch=all openvswitch-switch deb net extra arch=linux-any openvswitch-test deb net extra arch=all openvswitch-testcontroller deb net extra arch=linux-any openvswitch-vtep deb net extra arch=linux-any ovn-central deb net extra arch=linux-any ovn-common deb net extra arch=linux-any ovn-controller-vtep deb net extra arch=linux-any ovn-docker deb net extra arch=any ovn-host deb net extra arch=linux-any python-openvswitch deb python extra arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Ben Pfaff <pfaffben@debian.org>, Simon Horman <horms@debian.org>"
-  ],
-  "Version": [
-    "2.6.10-0+deb9u1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"openvswitch-common, openvswitch-switch, ovn-common, ovn-controller-vtep, ovn-host, ovn-central, ovn-docker, openvswitch-ipsec, openvswitch-pki, openvswitch-testcontroller, openvswitch-dbg, python-openvswitch, openvswitch-test, openvswitch-vtep, openvswitch-dev"
+	],
+	"Build-Depends": [
+		"graphviz, autoconf (>= 2.64), automake (>= 1.10) | automake1.10, bzip2, debhelper (>= 8), dh-autoreconf, libssl-dev, libtool, openssl, procps, python-all (>= 2.7), python-twisted-conch, python-zopeinterface, python-six"
+	],
+	"Checksums-Sha1": [
+		"ea52f480d9f7585c5ee109f7481181bf79823aa5 3103 openvswitch_2.6.10-0+deb9u1.dsc d4c80991901f5aae5b750e80beb642c1bde8a5bf 5294571 openvswitch_2.6.10.orig.tar.gz 9dd2525eb610cac8bacc8bd74407da4c3d6158bc 53840 openvswitch_2.6.10-0+deb9u1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"c9c89f9ebafde683942c90a53310b1163ba7b43252aee6670e0d5865c81a4d88 3103 openvswitch_2.6.10-0+deb9u1.dsc dc9017013e57e90806a5ee11d5a6b815bc37fab7bec3d713296a16c749c01084 5294571 openvswitch_2.6.10.orig.tar.gz a896f11611a44819f3d193e2d4fa700c184a32e84dbe6b20b03916b2c1d7637f 53840 openvswitch_2.6.10-0+deb9u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/o/openvswitch"
+	],
+	"Files": [
+		"a520250ad33a222e5a5b31083dd44988 3103 openvswitch_2.6.10-0+deb9u1.dsc cee18b75260a35ff1d00c8553a7dcb06 5294571 openvswitch_2.6.10.orig.tar.gz 03764746f8ff9bcb8c499a8fdcfb3150 53840 openvswitch_2.6.10-0+deb9u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://openvswitch.org/"
+	],
+	"Maintainer": [
+		"Open vSwitch developers <dev@openvswitch.org>"
+	],
+	"Package": [
+		"openvswitch"
+	],
+	"Package-List": [
+		"openvswitch-common deb net extra arch=linux-any openvswitch-dbg deb debug extra arch=linux-any openvswitch-dev deb net extra arch=linux-any openvswitch-ipsec deb net extra arch=linux-any openvswitch-pki deb net extra arch=all openvswitch-switch deb net extra arch=linux-any openvswitch-test deb net extra arch=all openvswitch-testcontroller deb net extra arch=linux-any openvswitch-vtep deb net extra arch=linux-any ovn-central deb net extra arch=linux-any ovn-common deb net extra arch=linux-any ovn-controller-vtep deb net extra arch=linux-any ovn-docker deb net extra arch=any ovn-host deb net extra arch=linux-any python-openvswitch deb python extra arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Ben Pfaff <pfaffben@debian.org>, Simon Horman <horms@debian.org>"
+	],
+	"Version": [
+		"2.6.10-0+deb9u1"
+	]
 }

@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "nginx, nginx-doc, nginx-common, nginx-full, nginx-full-dbg, nginx-light, nginx-light-dbg, nginx-extras, nginx-extras-dbg"
-  ],
-  "Build-Depends": [
-    "autotools-dev, debhelper (>= 9), po-debconf, dh-systemd (>= 1.5), dpkg-dev (>= 1.15.5), libexpat-dev, libgd2-dev | libgd2-noxpm-dev, libgeoip-dev, libluajit-5.1-dev [i386 amd64 kfreebsd-i386 armel armhf powerpc powerpcspe mips mipsel], liblua5.1-0-dev [!i386 !amd64 !kfreebsd-i386 !armel !armhf !powerpc !powerpcspe !mips !mipsel], libmhash-dev, libpam0g-dev, libpcre3-dev, libperl-dev, libssl-dev, libxslt1-dev, zlib1g-dev"
-  ],
-  "Checksums-Sha1": [
-    "2527db1f794788a538971737d27a2cddcb09b7db 2965 nginx_1.6.2-5+deb8u5.dsc 1a5458bc15acf90eea16353a1dd17285cf97ec35 804164 nginx_1.6.2.orig.tar.gz 0b1e85eeeebfff8267d58ab82dc8f567d4c779b2 611576 nginx_1.6.2-5+deb8u5.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "70d8e0fca4155ee7efee3b052a5182b7aa8300f68e4e7e07d7b4c70fa6036705 2965 nginx_1.6.2-5+deb8u5.dsc b5608c2959d3e7ad09b20fc8f9e5bd4bc87b3bc8ba5936a513c04ed8f1391a18 804164 nginx_1.6.2.orig.tar.gz 0775bf1407067b888ab3cb4d2325a81e4c74eae30f753f1b38d0a52fa1f7e9d3 611576 nginx_1.6.2-5+deb8u5.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/n/nginx"
-  ],
-  "Files": [
-    "f6c3096ccb162de4d5823e48c74f7166 2965 nginx_1.6.2-5+deb8u5.dsc d1b55031ae6e4bce37f8776b94d8b930 804164 nginx_1.6.2.orig.tar.gz 27edceb6b52a57ca76af729f5b1ccb86 611576 nginx_1.6.2-5+deb8u5.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://nginx.net"
-  ],
-  "Maintainer": [
-    "Kartik Mistry <kartik@debian.org>"
-  ],
-  "Package": [
-    "nginx"
-  ],
-  "Package-List": [
-    "nginx deb httpd optional arch=all nginx-common deb httpd optional arch=all nginx-doc deb doc optional arch=all nginx-extras deb httpd extra arch=any nginx-extras-dbg deb debug extra arch=any nginx-full deb httpd optional arch=any nginx-full-dbg deb debug extra arch=any nginx-light deb httpd extra arch=any nginx-light-dbg deb debug extra arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "httpd"
-  ],
-  "Standards-Version": [
-    "3.9.6.0"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Jose Parrella <bureado@debian.org>, Fabio Tranchitella <kobold@debian.org>, Michael Lustfield <michael@lustfield.net>, Dmitry E. Oboukhov <unera@debian.org>, Cyril Lavier <cyril.lavier@davromaniak.eu>, Christos Trochalakis <yatiohi@ideopolis.gr>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=collab-maint/nginx.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/collab-maint/nginx.git"
-  ],
-  "Version": [
-    "1.6.2-5+deb8u5"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"nginx, nginx-doc, nginx-common, nginx-full, nginx-full-dbg, nginx-light, nginx-light-dbg, nginx-extras, nginx-extras-dbg"
+	],
+	"Build-Depends": [
+		"autotools-dev, debhelper (>= 9), po-debconf, dh-systemd (>= 1.5), dpkg-dev (>= 1.15.5), libexpat-dev, libgd2-dev | libgd2-noxpm-dev, libgeoip-dev, libluajit-5.1-dev [i386 amd64 kfreebsd-i386 armel armhf powerpc powerpcspe mips mipsel], liblua5.1-0-dev [!i386 !amd64 !kfreebsd-i386 !armel !armhf !powerpc !powerpcspe !mips !mipsel], libmhash-dev, libpam0g-dev, libpcre3-dev, libperl-dev, libssl-dev, libxslt1-dev, zlib1g-dev"
+	],
+	"Checksums-Sha1": [
+		"2527db1f794788a538971737d27a2cddcb09b7db 2965 nginx_1.6.2-5+deb8u5.dsc 1a5458bc15acf90eea16353a1dd17285cf97ec35 804164 nginx_1.6.2.orig.tar.gz 0b1e85eeeebfff8267d58ab82dc8f567d4c779b2 611576 nginx_1.6.2-5+deb8u5.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"70d8e0fca4155ee7efee3b052a5182b7aa8300f68e4e7e07d7b4c70fa6036705 2965 nginx_1.6.2-5+deb8u5.dsc b5608c2959d3e7ad09b20fc8f9e5bd4bc87b3bc8ba5936a513c04ed8f1391a18 804164 nginx_1.6.2.orig.tar.gz 0775bf1407067b888ab3cb4d2325a81e4c74eae30f753f1b38d0a52fa1f7e9d3 611576 nginx_1.6.2-5+deb8u5.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/n/nginx"
+	],
+	"Files": [
+		"f6c3096ccb162de4d5823e48c74f7166 2965 nginx_1.6.2-5+deb8u5.dsc d1b55031ae6e4bce37f8776b94d8b930 804164 nginx_1.6.2.orig.tar.gz 27edceb6b52a57ca76af729f5b1ccb86 611576 nginx_1.6.2-5+deb8u5.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://nginx.net"
+	],
+	"Maintainer": [
+		"Kartik Mistry <kartik@debian.org>"
+	],
+	"Package": [
+		"nginx"
+	],
+	"Package-List": [
+		"nginx deb httpd optional arch=all nginx-common deb httpd optional arch=all nginx-doc deb doc optional arch=all nginx-extras deb httpd extra arch=any nginx-extras-dbg deb debug extra arch=any nginx-full deb httpd optional arch=any nginx-full-dbg deb debug extra arch=any nginx-light deb httpd extra arch=any nginx-light-dbg deb debug extra arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"httpd"
+	],
+	"Standards-Version": [
+		"3.9.6.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Jose Parrella <bureado@debian.org>, Fabio Tranchitella <kobold@debian.org>, Michael Lustfield <michael@lustfield.net>, Dmitry E. Oboukhov <unera@debian.org>, Cyril Lavier <cyril.lavier@davromaniak.eu>, Christos Trochalakis <yatiohi@ideopolis.gr>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=collab-maint/nginx.git;a=summary"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/collab-maint/nginx.git"
+	],
+	"Version": [
+		"1.6.2-5+deb8u5"
+	]
 }

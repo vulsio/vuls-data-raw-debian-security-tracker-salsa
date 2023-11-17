@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "i386 hurd-i386 kfreebsd-i386 netbsd-i386 amd64 kfreebsd-amd64 powerpc hurd-powerpc kfreebsd-powerpc netbsd-powerpc sparc hurd-sparc kfreebsd-sparc netbsd-sparc"
-  ],
-  "Binary": [
-    "wine, wine-bin, libwine-dbg, libwine-dev, libwine, libwine-alsa, libwine-capi, libwine-cms, libwine-esd, libwine-gl, libwine-gphoto2, libwine-jack, libwine-ldap, libwine-nas, libwine-oss, libwine-print, libwine-sane, libwine-twain, wine-utils"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 5), flex | flex-old, bison, libx11-dev | xlibs-dev (<< 4.3), libxext-dev | xlibs-dev (<< 4.3), libxi-dev | xlibs-dev (<< 4.3), libxrandr-dev | xlibs-dev (<< 4.3), libxrender-dev | xlibs-dev (<< 4.3), libxt-dev | xlibs-dev (<< 4.3), libxkbfile-dev | xlibs-static-dev (<< 6) | xlibs-dev (<< 4.3), libxxf86dga-dev | xlibs-static-dev (<< 6) | xlibs-dev (<< 4.3), libxxf86vm-dev | xlibs-static-dev (<< 6) | xlibs-dev (<< 4.3), libxinerama-dev | xlibs-static-dev (<< 6) | xlibs-dev (<< 4.3), libxcomposite-dev | xlibs-static-dev (<< 6) | xlibs-dev (<< 4.3), xlibmesa-gl-dev | xlibmesa-dev (<< 4.3) | libgl-dev, libglu1-xorg-dev | xlibmesa-glu-dev | xlibmesa-dev (<= 4.2.1-4) | libglu-dev, freeglut3-dev | libglut-dev | glutg3-dev, libxmu-dev | xlibs-dev (<< 4.3), libxcursor-dev | xlibs-dev (<< 4.3), libncurses5-dev, libcups2-dev | libcupsys2-dev, libjpeg62-dev | libjpeg-dev, libpng12-dev | libpng3-dev | libpng-dev, libfreetype6-dev, libfontconfig1-dev, libasound2-dev [i386 amd64 powerpc sparc], libjack0.100.0-dev | libjack0.80.0-dev | libjack0.71.2-dev | libjack0.50.0-dev, libaudio-dev | nas-dev, libesd0-dev, libsane-dev, libusb-dev, libcapi20-dev (>= 1:3.3.0.20041024-2) [i386 amd64 powerpc sparc], libhal-dev, libdbus-1-dev | dbus-1-dev, libgphoto2-2-dev, liblcms1-dev, libldap2-dev, libssl-dev, libxml2-dev, libxslt1-dev, unixodbc-dev, fontforge, prelink [i386 amd64], dctrl-tools | grep-dctrl, lzma, sharutils, gcc-multilib [amd64 kfreebsd-amd64] | gcc-4.1 (<< 4.1.2) [amd64 kfreebsd-amd64], ia32-libs (>= 1.19) [amd64 kfreebsd-amd64], lib32ncurses5-dev [amd64 kfreebsd-amd64], lib32asound2-dev [amd64], lib32z1-dev [amd64 kfreebsd-amd64]"
-  ],
-  "Checksums-Sha1": [
-    "4dfc125a0b3e043872b79a8549822972f98db364 3211 wine_1.0.1-1.dsc 7dcf6a320bd8d4b3aa98eab13efa33db4dff9cdc 18110034 wine_1.0.1.orig.tar.gz c04602afebe96f6ae8c9f03273f59d9bf480fbca 56112 wine_1.0.1-1.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "2edd0680c23e33442effc141da5b0c5f2f65f44b26ce2476db4adfebf0d78594 3211 wine_1.0.1-1.dsc 317efeecccf19056ce3f8d85f3944261edcc2ec7db35361e8acbc90e0855fdc3 18110034 wine_1.0.1.orig.tar.gz 7f31b0a85771b80b0549cfbcce43f523f8b65c78ca8d16850dad1fe5465110fd 56112 wine_1.0.1-1.diff.gz"
-  ],
-  "Directory": [
-    "pool/main/w/wine"
-  ],
-  "Files": [
-    "be82863cfce8afdc761980c89e7a4997 3211 wine_1.0.1-1.dsc 7bce7bccc3369a43b38b987eb2040800 18110034 wine_1.0.1.orig.tar.gz 532d81d0fd4738b8eb176fb4fae20ad6 56112 wine_1.0.1-1.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Homepage": [
-    "http://www.winehq.org/"
-  ],
-  "Maintainer": [
-    "Debian Wine Party <pkg-wine-party@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "wine"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "otherosfs"
-  ],
-  "Standards-Version": [
-    "3.7.3"
-  ],
-  "Uploaders": [
-    "Ove Kaaven <ovek@arcticnet.no>, Arthur Loiret <arthur.loiret@gmail.com>"
-  ],
-  "Vcs-Browser": [
-    "http://git.debian.org/?p=pkg-wine/wine.git"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/git/pkg-wine/wine.git"
-  ],
-  "Version": [
-    "1.0.1-1"
-  ]
+	"Architecture": [
+		"i386 hurd-i386 kfreebsd-i386 netbsd-i386 amd64 kfreebsd-amd64 powerpc hurd-powerpc kfreebsd-powerpc netbsd-powerpc sparc hurd-sparc kfreebsd-sparc netbsd-sparc"
+	],
+	"Binary": [
+		"wine, wine-bin, libwine-dbg, libwine-dev, libwine, libwine-alsa, libwine-capi, libwine-cms, libwine-esd, libwine-gl, libwine-gphoto2, libwine-jack, libwine-ldap, libwine-nas, libwine-oss, libwine-print, libwine-sane, libwine-twain, wine-utils"
+	],
+	"Build-Depends": [
+		"debhelper (>= 5), flex | flex-old, bison, libx11-dev | xlibs-dev (<< 4.3), libxext-dev | xlibs-dev (<< 4.3), libxi-dev | xlibs-dev (<< 4.3), libxrandr-dev | xlibs-dev (<< 4.3), libxrender-dev | xlibs-dev (<< 4.3), libxt-dev | xlibs-dev (<< 4.3), libxkbfile-dev | xlibs-static-dev (<< 6) | xlibs-dev (<< 4.3), libxxf86dga-dev | xlibs-static-dev (<< 6) | xlibs-dev (<< 4.3), libxxf86vm-dev | xlibs-static-dev (<< 6) | xlibs-dev (<< 4.3), libxinerama-dev | xlibs-static-dev (<< 6) | xlibs-dev (<< 4.3), libxcomposite-dev | xlibs-static-dev (<< 6) | xlibs-dev (<< 4.3), xlibmesa-gl-dev | xlibmesa-dev (<< 4.3) | libgl-dev, libglu1-xorg-dev | xlibmesa-glu-dev | xlibmesa-dev (<= 4.2.1-4) | libglu-dev, freeglut3-dev | libglut-dev | glutg3-dev, libxmu-dev | xlibs-dev (<< 4.3), libxcursor-dev | xlibs-dev (<< 4.3), libncurses5-dev, libcups2-dev | libcupsys2-dev, libjpeg62-dev | libjpeg-dev, libpng12-dev | libpng3-dev | libpng-dev, libfreetype6-dev, libfontconfig1-dev, libasound2-dev [i386 amd64 powerpc sparc], libjack0.100.0-dev | libjack0.80.0-dev | libjack0.71.2-dev | libjack0.50.0-dev, libaudio-dev | nas-dev, libesd0-dev, libsane-dev, libusb-dev, libcapi20-dev (>= 1:3.3.0.20041024-2) [i386 amd64 powerpc sparc], libhal-dev, libdbus-1-dev | dbus-1-dev, libgphoto2-2-dev, liblcms1-dev, libldap2-dev, libssl-dev, libxml2-dev, libxslt1-dev, unixodbc-dev, fontforge, prelink [i386 amd64], dctrl-tools | grep-dctrl, lzma, sharutils, gcc-multilib [amd64 kfreebsd-amd64] | gcc-4.1 (<< 4.1.2) [amd64 kfreebsd-amd64], ia32-libs (>= 1.19) [amd64 kfreebsd-amd64], lib32ncurses5-dev [amd64 kfreebsd-amd64], lib32asound2-dev [amd64], lib32z1-dev [amd64 kfreebsd-amd64]"
+	],
+	"Checksums-Sha1": [
+		"4dfc125a0b3e043872b79a8549822972f98db364 3211 wine_1.0.1-1.dsc 7dcf6a320bd8d4b3aa98eab13efa33db4dff9cdc 18110034 wine_1.0.1.orig.tar.gz c04602afebe96f6ae8c9f03273f59d9bf480fbca 56112 wine_1.0.1-1.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"2edd0680c23e33442effc141da5b0c5f2f65f44b26ce2476db4adfebf0d78594 3211 wine_1.0.1-1.dsc 317efeecccf19056ce3f8d85f3944261edcc2ec7db35361e8acbc90e0855fdc3 18110034 wine_1.0.1.orig.tar.gz 7f31b0a85771b80b0549cfbcce43f523f8b65c78ca8d16850dad1fe5465110fd 56112 wine_1.0.1-1.diff.gz"
+	],
+	"Directory": [
+		"pool/main/w/wine"
+	],
+	"Files": [
+		"be82863cfce8afdc761980c89e7a4997 3211 wine_1.0.1-1.dsc 7bce7bccc3369a43b38b987eb2040800 18110034 wine_1.0.1.orig.tar.gz 532d81d0fd4738b8eb176fb4fae20ad6 56112 wine_1.0.1-1.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Homepage": [
+		"http://www.winehq.org/"
+	],
+	"Maintainer": [
+		"Debian Wine Party <pkg-wine-party@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"wine"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"otherosfs"
+	],
+	"Standards-Version": [
+		"3.7.3"
+	],
+	"Uploaders": [
+		"Ove Kaaven <ovek@arcticnet.no>, Arthur Loiret <arthur.loiret@gmail.com>"
+	],
+	"Vcs-Browser": [
+		"http://git.debian.org/?p=pkg-wine/wine.git"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/git/pkg-wine/wine.git"
+	],
+	"Version": [
+		"1.0.1-1"
+	]
 }

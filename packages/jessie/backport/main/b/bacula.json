@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "bacula, bacula-common, bacula-common-sqlite3, bacula-common-pgsql, bacula-common-mysql, bacula-director-common, bacula-director-sqlite3, bacula-director-mysql, bacula-director-pgsql, bacula-client, bacula-fd, bacula-server, bacula-sd, bacula-sd-sqlite3, bacula-sd-mysql, bacula-sd-pgsql, bacula-console, bacula-console-qt"
-  ],
-  "Build-Depends": [
-    "autoconf, autotools-dev, bc, debhelper (>= 9), libacl1-dev, libcap-dev [linux-any], libgnome2-dev, libgnomeui-dev, libgtk2.0-dev, libkrb5-dev, liblzo2-dev, libmysqlclient-dev, libpq-dev (>= 9.1), libqt4-dev, libreadline-dev, libsqlite3-dev, libssl-dev, libwrap0-dev, libx11-dev, libxt-dev, mtx [!hurd-any], po-debconf, postgresql-server-dev-all, zlib1g-dev"
-  ],
-  "Checksums-Sha1": [
-    "6b90b359204f22e9f5c49142676f1f51ea624672 3395 bacula_7.4.3+dfsg-1+sid1~bpo8+1.dsc ff7cbbf6f45a0ebfaf3c248b16fd993727a5d92e 2145720 bacula_7.4.3+dfsg.orig.tar.xz 00acec3b7c396a91a8ce963db02d518ecef9d46a 69464 bacula_7.4.3+dfsg-1+sid1~bpo8+1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "3b51374e3130f609c88d4e4b6c202cd6e19bce906e2fecbb1f625992f8f84f94 3395 bacula_7.4.3+dfsg-1+sid1~bpo8+1.dsc c1a3366fbb8236be2dcdd80d406ac301f36ab10659763ae931df0d8c02a770af 2145720 bacula_7.4.3+dfsg.orig.tar.xz 01493fbfe248ca9f217640a3b9eed94e67e65536009deb5efecfc318f972d51f 69464 bacula_7.4.3+dfsg-1+sid1~bpo8+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/b/bacula"
-  ],
-  "Files": [
-    "8a17490190e5e66f5e918bcc1be99e5a 3395 bacula_7.4.3+dfsg-1+sid1~bpo8+1.dsc b4aa18bedfbd24daeb28b7536bcfe040 2145720 bacula_7.4.3+dfsg.orig.tar.xz b8cd230670e523fdd3305f95b01d5108 69464 bacula_7.4.3+dfsg-1+sid1~bpo8+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.bacula.org/"
-  ],
-  "Maintainer": [
-    "Debian Bacula Team <pkg-bacula-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "bacula"
-  ],
-  "Package-List": [
-    "bacula deb admin optional arch=all bacula-client deb admin optional arch=all bacula-common deb admin optional arch=any bacula-common-mysql deb admin optional arch=any bacula-common-pgsql deb admin optional arch=any bacula-common-sqlite3 deb admin optional arch=any bacula-console deb admin optional arch=any bacula-console-qt deb utils optional arch=any bacula-director-common deb admin optional arch=any bacula-director-mysql deb admin optional arch=any bacula-director-pgsql deb admin optional arch=any bacula-director-sqlite3 deb admin optional arch=any bacula-fd deb admin optional arch=any bacula-sd deb admin optional arch=any bacula-sd-mysql deb admin optional arch=any bacula-sd-pgsql deb admin optional arch=any bacula-sd-sqlite3 deb admin optional arch=any bacula-server deb admin optional arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Carsten Leonhardt <leo@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-bacula/bacula.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-bacula/bacula.git"
-  ],
-  "Version": [
-    "7.4.3+dfsg-1+sid1~bpo8+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"bacula, bacula-common, bacula-common-sqlite3, bacula-common-pgsql, bacula-common-mysql, bacula-director-common, bacula-director-sqlite3, bacula-director-mysql, bacula-director-pgsql, bacula-client, bacula-fd, bacula-server, bacula-sd, bacula-sd-sqlite3, bacula-sd-mysql, bacula-sd-pgsql, bacula-console, bacula-console-qt"
+	],
+	"Build-Depends": [
+		"autoconf, autotools-dev, bc, debhelper (>= 9), libacl1-dev, libcap-dev [linux-any], libgnome2-dev, libgnomeui-dev, libgtk2.0-dev, libkrb5-dev, liblzo2-dev, libmysqlclient-dev, libpq-dev (>= 9.1), libqt4-dev, libreadline-dev, libsqlite3-dev, libssl-dev, libwrap0-dev, libx11-dev, libxt-dev, mtx [!hurd-any], po-debconf, postgresql-server-dev-all, zlib1g-dev"
+	],
+	"Checksums-Sha1": [
+		"6b90b359204f22e9f5c49142676f1f51ea624672 3395 bacula_7.4.3+dfsg-1+sid1~bpo8+1.dsc ff7cbbf6f45a0ebfaf3c248b16fd993727a5d92e 2145720 bacula_7.4.3+dfsg.orig.tar.xz 00acec3b7c396a91a8ce963db02d518ecef9d46a 69464 bacula_7.4.3+dfsg-1+sid1~bpo8+1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"3b51374e3130f609c88d4e4b6c202cd6e19bce906e2fecbb1f625992f8f84f94 3395 bacula_7.4.3+dfsg-1+sid1~bpo8+1.dsc c1a3366fbb8236be2dcdd80d406ac301f36ab10659763ae931df0d8c02a770af 2145720 bacula_7.4.3+dfsg.orig.tar.xz 01493fbfe248ca9f217640a3b9eed94e67e65536009deb5efecfc318f972d51f 69464 bacula_7.4.3+dfsg-1+sid1~bpo8+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/b/bacula"
+	],
+	"Files": [
+		"8a17490190e5e66f5e918bcc1be99e5a 3395 bacula_7.4.3+dfsg-1+sid1~bpo8+1.dsc b4aa18bedfbd24daeb28b7536bcfe040 2145720 bacula_7.4.3+dfsg.orig.tar.xz b8cd230670e523fdd3305f95b01d5108 69464 bacula_7.4.3+dfsg-1+sid1~bpo8+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.bacula.org/"
+	],
+	"Maintainer": [
+		"Debian Bacula Team <pkg-bacula-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"bacula"
+	],
+	"Package-List": [
+		"bacula deb admin optional arch=all bacula-client deb admin optional arch=all bacula-common deb admin optional arch=any bacula-common-mysql deb admin optional arch=any bacula-common-pgsql deb admin optional arch=any bacula-common-sqlite3 deb admin optional arch=any bacula-console deb admin optional arch=any bacula-console-qt deb utils optional arch=any bacula-director-common deb admin optional arch=any bacula-director-mysql deb admin optional arch=any bacula-director-pgsql deb admin optional arch=any bacula-director-sqlite3 deb admin optional arch=any bacula-fd deb admin optional arch=any bacula-sd deb admin optional arch=any bacula-sd-mysql deb admin optional arch=any bacula-sd-pgsql deb admin optional arch=any bacula-sd-sqlite3 deb admin optional arch=any bacula-server deb admin optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Carsten Leonhardt <leo@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-bacula/bacula.git;a=summary"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-bacula/bacula.git"
+	],
+	"Version": [
+		"7.4.3+dfsg-1+sid1~bpo8+1"
+	]
 }

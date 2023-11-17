@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "python-pil, python-pil-dbg, python-pil.imagetk, python-pil.imagetk-dbg, python3-pil, python3-pil-dbg, python3-pil.imagetk, python3-pil.imagetk-dbg, python-pil-doc, python-imaging"
-  ],
-  "Build-Conflicts": [
-    "python-cffi, python3-cffi"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), tk-dev, dpkg-dev (>= 1.16.1~), dh-python, python2.7-dev (>= 2.7.8-4), python-all-dev, python-all-dbg, python-setuptools, python3-all-dev, python3-all-dbg, python3-setuptools, python-tk, python-tk-dbg, python3-tk, python3-tk-dbg, python-nose, python3-nose, libfreetype6-dev, libjpeg-dev, zlib1g-dev, liblcms2-dev, libtiff5-dev | libtiff-dev, libwebp-dev"
-  ],
-  "Checksums-Sha256": [
-    "bda9bfd0a651ac0ec86a855f33f452f0233c4184ab981d856f62a5b72b87526a 2782 pillow_4.0.0-4+deb9u1.dsc d68b6e6777de6824b3345540038372c451021bd14ac0dd04da2d89ef88c7f870 7854072 pillow_4.0.0.orig.tar.xz b5be3793c6a4235154b3b7bcfc54fece094d7b151a9aa9702eda8166b4ef778b 46352 pillow_4.0.0-4+deb9u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/pillow"
-  ],
-  "Files": [
-    "ad0273d4d5b312355e738f237f0d25ca 2782 pillow_4.0.0-4+deb9u1.dsc 4052cca60a7445ef1dc6d9d61522606b 7854072 pillow_4.0.0.orig.tar.xz b8c0b3433b6fc9897ed577ad48054e85 46352 pillow_4.0.0-4+deb9u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://python-pillow.github.io/"
-  ],
-  "Maintainer": [
-    "Matthias Klose <doko@debian.org>"
-  ],
-  "Package": [
-    "pillow"
-  ],
-  "Package-List": [
-    "python-imaging deb python optional arch=all python-pil deb python optional arch=any python-pil-dbg deb debug extra arch=any python-pil-doc deb doc optional arch=all python-pil.imagetk deb python optional arch=any python-pil.imagetk-dbg deb debug extra arch=any python3-pil deb python optional arch=any python3-pil-dbg deb debug extra arch=any python3-pil.imagetk deb python optional arch=any python3-pil.imagetk-dbg deb debug extra arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "python-nose, python3-nose, webp"
-  ],
-  "Version": [
-    "4.0.0-4+deb9u1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"python-pil, python-pil-dbg, python-pil.imagetk, python-pil.imagetk-dbg, python3-pil, python3-pil-dbg, python3-pil.imagetk, python3-pil.imagetk-dbg, python-pil-doc, python-imaging"
+	],
+	"Build-Conflicts": [
+		"python-cffi, python3-cffi"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), tk-dev, dpkg-dev (>= 1.16.1~), dh-python, python2.7-dev (>= 2.7.8-4), python-all-dev, python-all-dbg, python-setuptools, python3-all-dev, python3-all-dbg, python3-setuptools, python-tk, python-tk-dbg, python3-tk, python3-tk-dbg, python-nose, python3-nose, libfreetype6-dev, libjpeg-dev, zlib1g-dev, liblcms2-dev, libtiff5-dev | libtiff-dev, libwebp-dev"
+	],
+	"Checksums-Sha256": [
+		"bda9bfd0a651ac0ec86a855f33f452f0233c4184ab981d856f62a5b72b87526a 2782 pillow_4.0.0-4+deb9u1.dsc d68b6e6777de6824b3345540038372c451021bd14ac0dd04da2d89ef88c7f870 7854072 pillow_4.0.0.orig.tar.xz b5be3793c6a4235154b3b7bcfc54fece094d7b151a9aa9702eda8166b4ef778b 46352 pillow_4.0.0-4+deb9u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/pillow"
+	],
+	"Files": [
+		"ad0273d4d5b312355e738f237f0d25ca 2782 pillow_4.0.0-4+deb9u1.dsc 4052cca60a7445ef1dc6d9d61522606b 7854072 pillow_4.0.0.orig.tar.xz b8c0b3433b6fc9897ed577ad48054e85 46352 pillow_4.0.0-4+deb9u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://python-pillow.github.io/"
+	],
+	"Maintainer": [
+		"Matthias Klose <doko@debian.org>"
+	],
+	"Package": [
+		"pillow"
+	],
+	"Package-List": [
+		"python-imaging deb python optional arch=all python-pil deb python optional arch=any python-pil-dbg deb debug extra arch=any python-pil-doc deb doc optional arch=all python-pil.imagetk deb python optional arch=any python-pil.imagetk-dbg deb debug extra arch=any python3-pil deb python optional arch=any python3-pil-dbg deb debug extra arch=any python3-pil.imagetk deb python optional arch=any python3-pil.imagetk-dbg deb debug extra arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"python-nose, python3-nose, webp"
+	],
+	"Version": [
+		"4.0.0-4+deb9u1"
+	]
 }

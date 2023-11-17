@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "kde-workspace, kdebase-workspace, plasma-desktop, plasma-netbook, kde-workspace-bin, kdebase-workspace-bin, kde-workspace-data, kde-workspace-dev, kdebase-workspace-dev, plasma-dataengines-workspace, plasma-widgets-workspace, plasma-scriptengines, plasma-scriptengine-ruby, plasma-scriptengine-python, plasma-scriptengine-webkit, freespacenotifier, kdm, kinfocenter, klipper, ksysguardd, ksysguard, kde-window-manager, libkdecorations4, libkwineffects1abi3, systemsettings, kde-workspace-kgreet-plugins, kde-style-oxygen, kmenuedit, libkephal4abi1, libkscreensaver5, libksgrd4, libksignalplotter4, libkworkspace4abi1, liblsofui4, libplasmaclock4abi3, libplasma-geolocation-interface4, libkwinglutils1, libplasmagenericshell4, libprocesscore4abi1, libprocessui4a, libsolidcontrol4abi2, libsolidcontrolifaces4abi2, libtaskmanager4abi3, libweather-ion6, kde-workspace-dbg, kdebase-workspace-dbg"
-  ],
-  "Build-Conflicts": [
-    "libgles2-mesa-dev"
-  ],
-  "Build-Depends": [
-    "kde-sc-dev-latest (>= 4:4.8.4), cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12), dpkg-dev (>= 1.15.5), libdlrestrictions-dev (>= 0.14), kdelibs5-dev (>= 4:4.8), kdepimlibs5-dev (>= 4:4.8), libkactivities-dev, libstrigiqtdbusclient-dev (>= 0.6.3), libstreamanalyzer-dev (>= 0.6.3), libqimageblitz-dev (>= 1:0.0.4-2), zlib1g-dev, libdbusmenu-qt-dev (>= 0.6.0), libfontconfig-dev, libglu1-mesa-dev, libqt4-opengl-dev, python-dev (>= 2.6.6-3~), shared-desktop-ontologies (>= 0.8), libpam0g-dev, libnm-util-dev (>= 0.9) [linux-any], network-manager-dev (>= 0.9) [linux-any], libraw1394-dev [linux-any], libusb-dev, libpci-dev, libakonadi-dev (>= 1.1.95), libboost-dev, libgps-dev (>= 2.90), libck-connector-dev, libdbus-1-dev, libsensors4-dev [linux-any], libdevstat-dev [kfreebsd-any], libxkbfile-dev, libxrandr-dev, libxrender-dev, libxcomposite-dev, libxdamage-dev, libxfixes-dev, libxft-dev, libxtst-dev, libxss-dev, libsm-dev, libxinerama-dev, libxi-dev, libpng12-dev (<< 1.5), libjpeg-dev, libxcursor-dev, libqalculate-dev, libglib2.0-dev, libqtwebkit-dev, libprison-dev"
-  ],
-  "Checksums-Sha1": [
-    "dabb895ed7fdbc84dedff7a311a3a2af47a88c0a 5859 kde-workspace_4.8.4-6.dsc a732ceacf34dfb79c8ab243f17cd5a70b9183212 35841792 kde-workspace_4.8.4.orig.tar.xz 53cff8c5b4ec7a9704555293bb9d5f60697ca444 155790 kde-workspace_4.8.4-6.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "39f1fe97bbe5e14d911fd81e13cc96926810b7439a099e47666463a7b7d7d441 5859 kde-workspace_4.8.4-6.dsc 36c95ef05f33445e6c1f80817abe8cadb97c09e3fa6c54d6beb1e3654f08768b 35841792 kde-workspace_4.8.4.orig.tar.xz ed47200a84042b64b1ec727d872fa35e92f0a4575ec7f0bbb78df4d3346b62f5 155790 kde-workspace_4.8.4-6.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/k/kde-workspace"
-  ],
-  "Files": [
-    "12136e266aebc1c4201f681ca5804c72 5859 kde-workspace_4.8.4-6.dsc fc1911379365eaaf5d6aa0759259cce8 35841792 kde-workspace_4.8.4.orig.tar.xz 9b08647252bd5a417a793d8ac0e29a80 155790 kde-workspace_4.8.4-6.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.kde.org/"
-  ],
-  "Maintainer": [
-    "Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>"
-  ],
-  "Package": [
-    "kde-workspace"
-  ],
-  "Package-List": [
-    "freespacenotifier deb kde optional kde-style-oxygen deb kde optional kde-window-manager deb x11 optional kde-workspace deb kde optional kde-workspace-bin deb kde optional kde-workspace-data deb kde optional kde-workspace-dbg deb debug extra kde-workspace-dev deb kde optional kde-workspace-kgreet-plugins deb libs optional kdebase-workspace deb oldlibs extra kdebase-workspace-bin deb oldlibs extra kdebase-workspace-dbg deb oldlibs extra kdebase-workspace-dev deb oldlibs extra kdm deb x11 optional kinfocenter deb utils optional klipper deb x11 optional kmenuedit deb kde optional ksysguard deb utils optional ksysguardd deb utils optional libkdecorations4 deb libs optional libkephal4abi1 deb libs optional libkscreensaver5 deb libs optional libksgrd4 deb libs optional libksignalplotter4 deb libs optional libkwineffects1abi3 deb libs optional libkwinglutils1 deb libs optional libkworkspace4abi1 deb libs optional liblsofui4 deb libs optional libplasma-geolocation-interface4 deb libs optional libplasmaclock4abi3 deb libs optional libplasmagenericshell4 deb libs optional libprocesscore4abi1 deb libs optional libprocessui4a deb libs optional libsolidcontrol4abi2 deb libs optional libsolidcontrolifaces4abi2 deb libs optional libtaskmanager4abi3 deb libs optional libweather-ion6 deb libs optional plasma-dataengines-workspace deb kde optional plasma-desktop deb kde optional plasma-netbook deb kde optional plasma-scriptengine-python deb kde optional plasma-scriptengine-ruby deb kde optional plasma-scriptengine-webkit deb kde optional plasma-scriptengines deb kde optional plasma-widgets-workspace deb kde optional systemsettings deb kde optional"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "kde"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Sune Vuorela <sune@debian.org>, Fathi Boudra <fabo@debian.org>, Modestas Vainius <modax@debian.org>, George Kiagiadakis <kiagiadakis.george@gmail.com>, José Manuel Santamaría Lema <panfaust@gmail.com>, Eshat Cakar <info@eshat.de>, Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://git.debian.org/?p=pkg-kde/kde-sc/kde-workspace.git"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/pkg-kde/kde-sc/kde-workspace.git"
-  ],
-  "Version": [
-    "4:4.8.4-6"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"kde-workspace, kdebase-workspace, plasma-desktop, plasma-netbook, kde-workspace-bin, kdebase-workspace-bin, kde-workspace-data, kde-workspace-dev, kdebase-workspace-dev, plasma-dataengines-workspace, plasma-widgets-workspace, plasma-scriptengines, plasma-scriptengine-ruby, plasma-scriptengine-python, plasma-scriptengine-webkit, freespacenotifier, kdm, kinfocenter, klipper, ksysguardd, ksysguard, kde-window-manager, libkdecorations4, libkwineffects1abi3, systemsettings, kde-workspace-kgreet-plugins, kde-style-oxygen, kmenuedit, libkephal4abi1, libkscreensaver5, libksgrd4, libksignalplotter4, libkworkspace4abi1, liblsofui4, libplasmaclock4abi3, libplasma-geolocation-interface4, libkwinglutils1, libplasmagenericshell4, libprocesscore4abi1, libprocessui4a, libsolidcontrol4abi2, libsolidcontrolifaces4abi2, libtaskmanager4abi3, libweather-ion6, kde-workspace-dbg, kdebase-workspace-dbg"
+	],
+	"Build-Conflicts": [
+		"libgles2-mesa-dev"
+	],
+	"Build-Depends": [
+		"kde-sc-dev-latest (>= 4:4.8.4), cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12), dpkg-dev (>= 1.15.5), libdlrestrictions-dev (>= 0.14), kdelibs5-dev (>= 4:4.8), kdepimlibs5-dev (>= 4:4.8), libkactivities-dev, libstrigiqtdbusclient-dev (>= 0.6.3), libstreamanalyzer-dev (>= 0.6.3), libqimageblitz-dev (>= 1:0.0.4-2), zlib1g-dev, libdbusmenu-qt-dev (>= 0.6.0), libfontconfig-dev, libglu1-mesa-dev, libqt4-opengl-dev, python-dev (>= 2.6.6-3~), shared-desktop-ontologies (>= 0.8), libpam0g-dev, libnm-util-dev (>= 0.9) [linux-any], network-manager-dev (>= 0.9) [linux-any], libraw1394-dev [linux-any], libusb-dev, libpci-dev, libakonadi-dev (>= 1.1.95), libboost-dev, libgps-dev (>= 2.90), libck-connector-dev, libdbus-1-dev, libsensors4-dev [linux-any], libdevstat-dev [kfreebsd-any], libxkbfile-dev, libxrandr-dev, libxrender-dev, libxcomposite-dev, libxdamage-dev, libxfixes-dev, libxft-dev, libxtst-dev, libxss-dev, libsm-dev, libxinerama-dev, libxi-dev, libpng12-dev (<< 1.5), libjpeg-dev, libxcursor-dev, libqalculate-dev, libglib2.0-dev, libqtwebkit-dev, libprison-dev"
+	],
+	"Checksums-Sha1": [
+		"dabb895ed7fdbc84dedff7a311a3a2af47a88c0a 5859 kde-workspace_4.8.4-6.dsc a732ceacf34dfb79c8ab243f17cd5a70b9183212 35841792 kde-workspace_4.8.4.orig.tar.xz 53cff8c5b4ec7a9704555293bb9d5f60697ca444 155790 kde-workspace_4.8.4-6.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"39f1fe97bbe5e14d911fd81e13cc96926810b7439a099e47666463a7b7d7d441 5859 kde-workspace_4.8.4-6.dsc 36c95ef05f33445e6c1f80817abe8cadb97c09e3fa6c54d6beb1e3654f08768b 35841792 kde-workspace_4.8.4.orig.tar.xz ed47200a84042b64b1ec727d872fa35e92f0a4575ec7f0bbb78df4d3346b62f5 155790 kde-workspace_4.8.4-6.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/k/kde-workspace"
+	],
+	"Files": [
+		"12136e266aebc1c4201f681ca5804c72 5859 kde-workspace_4.8.4-6.dsc fc1911379365eaaf5d6aa0759259cce8 35841792 kde-workspace_4.8.4.orig.tar.xz 9b08647252bd5a417a793d8ac0e29a80 155790 kde-workspace_4.8.4-6.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.kde.org/"
+	],
+	"Maintainer": [
+		"Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>"
+	],
+	"Package": [
+		"kde-workspace"
+	],
+	"Package-List": [
+		"freespacenotifier deb kde optional kde-style-oxygen deb kde optional kde-window-manager deb x11 optional kde-workspace deb kde optional kde-workspace-bin deb kde optional kde-workspace-data deb kde optional kde-workspace-dbg deb debug extra kde-workspace-dev deb kde optional kde-workspace-kgreet-plugins deb libs optional kdebase-workspace deb oldlibs extra kdebase-workspace-bin deb oldlibs extra kdebase-workspace-dbg deb oldlibs extra kdebase-workspace-dev deb oldlibs extra kdm deb x11 optional kinfocenter deb utils optional klipper deb x11 optional kmenuedit deb kde optional ksysguard deb utils optional ksysguardd deb utils optional libkdecorations4 deb libs optional libkephal4abi1 deb libs optional libkscreensaver5 deb libs optional libksgrd4 deb libs optional libksignalplotter4 deb libs optional libkwineffects1abi3 deb libs optional libkwinglutils1 deb libs optional libkworkspace4abi1 deb libs optional liblsofui4 deb libs optional libplasma-geolocation-interface4 deb libs optional libplasmaclock4abi3 deb libs optional libplasmagenericshell4 deb libs optional libprocesscore4abi1 deb libs optional libprocessui4a deb libs optional libsolidcontrol4abi2 deb libs optional libsolidcontrolifaces4abi2 deb libs optional libtaskmanager4abi3 deb libs optional libweather-ion6 deb libs optional plasma-dataengines-workspace deb kde optional plasma-desktop deb kde optional plasma-netbook deb kde optional plasma-scriptengine-python deb kde optional plasma-scriptengine-ruby deb kde optional plasma-scriptengine-webkit deb kde optional plasma-scriptengines deb kde optional plasma-widgets-workspace deb kde optional systemsettings deb kde optional"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"kde"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Sune Vuorela <sune@debian.org>, Fathi Boudra <fabo@debian.org>, Modestas Vainius <modax@debian.org>, George Kiagiadakis <kiagiadakis.george@gmail.com>, José Manuel Santamaría Lema <panfaust@gmail.com>, Eshat Cakar <info@eshat.de>, Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://git.debian.org/?p=pkg-kde/kde-sc/kde-workspace.git"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/pkg-kde/kde-sc/kde-workspace.git"
+	],
+	"Version": [
+		"4:4.8.4-6"
+	]
 }

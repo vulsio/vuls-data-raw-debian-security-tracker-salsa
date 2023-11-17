@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-ntp-udp-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-ntp-proto-1+--internal-api-dev <!nocheck>, librust-ntp-proto-1+default-dev <!nocheck>, librust-serde-1+default-dev (>= 1.0.145-~~) <!nocheck>, librust-serde-1+derive-dev (>= 1.0.145-~~) <!nocheck>, librust-tokio-1+default-dev (>= 1.28-~~) <!nocheck>, librust-tokio-1+net-dev (>= 1.28-~~) <!nocheck>, librust-tokio-1+time-dev (>= 1.28-~~) <!nocheck>, librust-tracing-0.1+default-dev (>= 0.1.21-~~) <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "e64ebe9473d8cf8633498f108190f967c5e3c33147955987eb4b6de9d961b35f 2730 rust-ntp-udp_1.0.0-1.dsc 4d71127d7f0ab2272a4aeda0e224117c50214c72561b92bb5205d6d4c684a0ff 19136 rust-ntp-udp_1.0.0.orig.tar.gz 93368028a973aae1007c63049cc2f2b38a51cfe1c5a65853ad36b4d85bf3bc34 2904 rust-ntp-udp_1.0.0-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-ntp-udp"
-  ],
-  "Files": [
-    "5ed29c6c0fe16390df1a7a5eb7a84b40 2730 rust-ntp-udp_1.0.0-1.dsc 4c15fd3a41a0ed16cc83b0caffcbe6ec 19136 rust-ntp-udp_1.0.0.orig.tar.gz 15bd0c0497f5bce0a13d63730cfa78c5 2904 rust-ntp-udp_1.0.0-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/pendulum-project/ntpd-rs"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-ntp-udp"
-  ],
-  "Package-List": [
-    "librust-ntp-udp-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-tokio-1+default-dev, librust-tokio-1+net-dev, librust-tokio-1+test-util-dev, librust-tokio-1+time-dev"
-  ],
-  "Uploaders": [
-    "Sylvestre Ledru <sylvestre@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/ntp-udp"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/ntp-udp]"
-  ],
-  "Version": [
-    "1.0.0-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-ntp-udp-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-ntp-proto-1+--internal-api-dev <!nocheck>, librust-ntp-proto-1+default-dev <!nocheck>, librust-serde-1+default-dev (>= 1.0.145-~~) <!nocheck>, librust-serde-1+derive-dev (>= 1.0.145-~~) <!nocheck>, librust-tokio-1+default-dev (>= 1.28-~~) <!nocheck>, librust-tokio-1+net-dev (>= 1.28-~~) <!nocheck>, librust-tokio-1+time-dev (>= 1.28-~~) <!nocheck>, librust-tracing-0.1+default-dev (>= 0.1.21-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"e64ebe9473d8cf8633498f108190f967c5e3c33147955987eb4b6de9d961b35f 2730 rust-ntp-udp_1.0.0-1.dsc 4d71127d7f0ab2272a4aeda0e224117c50214c72561b92bb5205d6d4c684a0ff 19136 rust-ntp-udp_1.0.0.orig.tar.gz 93368028a973aae1007c63049cc2f2b38a51cfe1c5a65853ad36b4d85bf3bc34 2904 rust-ntp-udp_1.0.0-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-ntp-udp"
+	],
+	"Files": [
+		"5ed29c6c0fe16390df1a7a5eb7a84b40 2730 rust-ntp-udp_1.0.0-1.dsc 4c15fd3a41a0ed16cc83b0caffcbe6ec 19136 rust-ntp-udp_1.0.0.orig.tar.gz 15bd0c0497f5bce0a13d63730cfa78c5 2904 rust-ntp-udp_1.0.0-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/pendulum-project/ntpd-rs"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-ntp-udp"
+	],
+	"Package-List": [
+		"librust-ntp-udp-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-tokio-1+default-dev, librust-tokio-1+net-dev, librust-tokio-1+test-util-dev, librust-tokio-1+time-dev"
+	],
+	"Uploaders": [
+		"Sylvestre Ledru <sylvestre@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/ntp-udp"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/ntp-udp]"
+	],
+	"Version": [
+		"1.0.0-1"
+	]
 }

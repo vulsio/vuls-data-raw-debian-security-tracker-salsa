@@ -1,53 +1,53 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "myproxy, libmyproxy6, libmyproxy-voms, libmyproxy-dev, myproxy-server, myproxy-admin, libmyproxy-doc, libmyproxy-dbg, myproxy-dbg"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-autoreconf, pkg-config, libglobus-common-dev (>= 14), libglobus-usage-dev (>= 3), libglobus-gssapi-gsi-dev (>= 9), libglobus-gss-assist-dev (>= 8), libglobus-gsi-sysconfig-dev (>= 5), libglobus-gsi-cert-utils-dev (>= 8), libglobus-gsi-proxy-core-dev (>= 6), libglobus-gsi-credential-dev (>= 5), libglobus-gsi-callback-dev (>= 4), libpam0g-dev, libldap2-dev, libkrb5-dev, voms-dev, libsasl2-dev, libbsd-dev, globus-proxy-utils, globus-gsi-cert-utils-progs, voms-clients, procps"
-  ],
-  "Checksums-Sha256": [
-    "6c6bff3ce5cacfa222ed010186c2ae90640f864d74ce175a609d8254054dab92 2805 myproxy_6.1.22-1.dsc 7e55dcbf0f9447aa02bf0b4d5cb33e698bd331439ae9c0423c7fed454c51bf5b 653866 myproxy_6.1.22.orig.tar.gz 4a9285f78137c63cdff9e2a36f50c0437a8fa7512ea0c2c985879be22835b705 13240 myproxy_6.1.22-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/m/myproxy"
-  ],
-  "Files": [
-    "b3a916155ba0c1e6cbce1824c989363b 2805 myproxy_6.1.22-1.dsc c5103c2ddadf070af06a616ef1ce9ca0 653866 myproxy_6.1.22.orig.tar.gz f3b87fb7a01502b56737e9cd70b3d520 13240 myproxy_6.1.22-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://grid.ncsa.illinois.edu/myproxy/"
-  ],
-  "Maintainer": [
-    "Mattias Ellert <mattias.ellert@physics.uu.se>"
-  ],
-  "Package": [
-    "myproxy"
-  ],
-  "Package-List": [
-    "libmyproxy-dbg deb debug extra arch=any libmyproxy-dev deb libdevel optional arch=any libmyproxy-doc deb doc optional arch=all libmyproxy-voms deb libs optional arch=any libmyproxy6 deb libs optional arch=any myproxy deb net optional arch=any myproxy-admin deb net optional arch=any myproxy-dbg deb debug extra arch=any myproxy-server deb net optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Vcs-Browser": [
-    "http://svn.nordugrid.org/trac/packaging/browser/debian/myproxy"
-  ],
-  "Vcs-Svn": [
-    "http://svn.nordugrid.org/repos/packaging/debian/myproxy"
-  ],
-  "Version": [
-    "6.1.22-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"myproxy, libmyproxy6, libmyproxy-voms, libmyproxy-dev, myproxy-server, myproxy-admin, libmyproxy-doc, libmyproxy-dbg, myproxy-dbg"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-autoreconf, pkg-config, libglobus-common-dev (>= 14), libglobus-usage-dev (>= 3), libglobus-gssapi-gsi-dev (>= 9), libglobus-gss-assist-dev (>= 8), libglobus-gsi-sysconfig-dev (>= 5), libglobus-gsi-cert-utils-dev (>= 8), libglobus-gsi-proxy-core-dev (>= 6), libglobus-gsi-credential-dev (>= 5), libglobus-gsi-callback-dev (>= 4), libpam0g-dev, libldap2-dev, libkrb5-dev, voms-dev, libsasl2-dev, libbsd-dev, globus-proxy-utils, globus-gsi-cert-utils-progs, voms-clients, procps"
+	],
+	"Checksums-Sha256": [
+		"6c6bff3ce5cacfa222ed010186c2ae90640f864d74ce175a609d8254054dab92 2805 myproxy_6.1.22-1.dsc 7e55dcbf0f9447aa02bf0b4d5cb33e698bd331439ae9c0423c7fed454c51bf5b 653866 myproxy_6.1.22.orig.tar.gz 4a9285f78137c63cdff9e2a36f50c0437a8fa7512ea0c2c985879be22835b705 13240 myproxy_6.1.22-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/m/myproxy"
+	],
+	"Files": [
+		"b3a916155ba0c1e6cbce1824c989363b 2805 myproxy_6.1.22-1.dsc c5103c2ddadf070af06a616ef1ce9ca0 653866 myproxy_6.1.22.orig.tar.gz f3b87fb7a01502b56737e9cd70b3d520 13240 myproxy_6.1.22-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://grid.ncsa.illinois.edu/myproxy/"
+	],
+	"Maintainer": [
+		"Mattias Ellert <mattias.ellert@physics.uu.se>"
+	],
+	"Package": [
+		"myproxy"
+	],
+	"Package-List": [
+		"libmyproxy-dbg deb debug extra arch=any libmyproxy-dev deb libdevel optional arch=any libmyproxy-doc deb doc optional arch=all libmyproxy-voms deb libs optional arch=any libmyproxy6 deb libs optional arch=any myproxy deb net optional arch=any myproxy-admin deb net optional arch=any myproxy-dbg deb debug extra arch=any myproxy-server deb net optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Vcs-Browser": [
+		"http://svn.nordugrid.org/trac/packaging/browser/debian/myproxy"
+	],
+	"Vcs-Svn": [
+		"http://svn.nordugrid.org/repos/packaging/debian/myproxy"
+	],
+	"Version": [
+		"6.1.22-1"
+	]
 }

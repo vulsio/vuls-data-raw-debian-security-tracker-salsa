@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "linux-any all"
-  ],
-  "Binary": [
-    "libfwupd1, libdfu1, fwupd, fwupd-doc, libfwupd-dev, gir1.2-fwupd-1.0, libdfu-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9.0.0), dh-autoreconf, docbook-utils, gettext, intltool, libappstream-glib-dev (>= 0.5.10), libarchive-dev, libcolord-dev (>= 1.0.0), libefivar-dev (>= 28) [amd64 arm64 armhf armel i386], libfwup-dev (>= 7) [amd64 arm64 armhf i386], libgcab-dev, gcab, libgirepository1.0-dev, libglib2.0-dev (>= 2.45.8), gir1.2-appstreamglib-1.0, libgpgme11-dev, libtool-bin, libgudev-1.0-dev, udev, libgusb-dev (>= 0.2.9), libpolkit-gobject-1-dev (>= 0.103), libsqlite3-dev, pkg-config, libsoup2.4-dev, gtk-doc-tools, libcolorhug-dev, gobject-introspection, libsmbios-dev [amd64 i386], libelf-dev, autoconf-archive, valgrind [!mips !sparc64 !sh4 !ppc64 !powerpcspe !hppa !alpha !mips64el !armhf !armel !mipsel]"
-  ],
-  "Checksums-Sha256": [
-    "5f03ea5b04f6428ecdf7d39926af0d0f16c24301b0e7851db48790efb6b53c36 3082 fwupd_0.8.3-1.dsc 729536f9b5c531738e05c65bff562bd2f4f434191502952067f3817d4b75511a 1299619 fwupd_0.8.3.orig.tar.gz 3f70188e7de01a285e438d00e6f54d9fc7c1489510ed94dc497076c504909b7e 15640 fwupd_0.8.3-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/f/fwupd"
-  ],
-  "Files": [
-    "0e898d6d3def340d45ad85770c845abd 3082 fwupd_0.8.3-1.dsc fc9b209fb6ec6807e21f1a197e95dd82 1299619 fwupd_0.8.3.orig.tar.gz a10fc1c430e35a9fe7f66b842ecca76d 15640 fwupd_0.8.3-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/hughsie/fwupd"
-  ],
-  "Maintainer": [
-    "Debian EFI <debian-efi@lists.debian.org>"
-  ],
-  "Package": [
-    "fwupd"
-  ],
-  "Package-List": [
-    "fwupd deb admin optional arch=linux-any fwupd-doc deb doc optional arch=all gir1.2-fwupd-1.0 deb introspection optional arch=linux-any libdfu-dev deb libdevel optional arch=linux-any libdfu1 deb admin optional arch=linux-any libfwupd-dev deb libdevel optional arch=linux-any libfwupd1 deb admin optional arch=linux-any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Steve McIntyre <93sam@debian.org>, Daniel Jared Dominguez <jared.dominguez@dell.com>, Matthias Klumpp <mak@debian.org>, Mario Limonciello <mario.limonciello@dell.com>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/gitweb/?p=uefi/fwupd.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/uefi/fwupd.git"
-  ],
-  "Version": [
-    "0.8.3-1"
-  ]
+	"Architecture": [
+		"linux-any all"
+	],
+	"Binary": [
+		"libfwupd1, libdfu1, fwupd, fwupd-doc, libfwupd-dev, gir1.2-fwupd-1.0, libdfu-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9.0.0), dh-autoreconf, docbook-utils, gettext, intltool, libappstream-glib-dev (>= 0.5.10), libarchive-dev, libcolord-dev (>= 1.0.0), libefivar-dev (>= 28) [amd64 arm64 armhf armel i386], libfwup-dev (>= 7) [amd64 arm64 armhf i386], libgcab-dev, gcab, libgirepository1.0-dev, libglib2.0-dev (>= 2.45.8), gir1.2-appstreamglib-1.0, libgpgme11-dev, libtool-bin, libgudev-1.0-dev, udev, libgusb-dev (>= 0.2.9), libpolkit-gobject-1-dev (>= 0.103), libsqlite3-dev, pkg-config, libsoup2.4-dev, gtk-doc-tools, libcolorhug-dev, gobject-introspection, libsmbios-dev [amd64 i386], libelf-dev, autoconf-archive, valgrind [!mips !sparc64 !sh4 !ppc64 !powerpcspe !hppa !alpha !mips64el !armhf !armel !mipsel]"
+	],
+	"Checksums-Sha256": [
+		"5f03ea5b04f6428ecdf7d39926af0d0f16c24301b0e7851db48790efb6b53c36 3082 fwupd_0.8.3-1.dsc 729536f9b5c531738e05c65bff562bd2f4f434191502952067f3817d4b75511a 1299619 fwupd_0.8.3.orig.tar.gz 3f70188e7de01a285e438d00e6f54d9fc7c1489510ed94dc497076c504909b7e 15640 fwupd_0.8.3-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/f/fwupd"
+	],
+	"Files": [
+		"0e898d6d3def340d45ad85770c845abd 3082 fwupd_0.8.3-1.dsc fc9b209fb6ec6807e21f1a197e95dd82 1299619 fwupd_0.8.3.orig.tar.gz a10fc1c430e35a9fe7f66b842ecca76d 15640 fwupd_0.8.3-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/hughsie/fwupd"
+	],
+	"Maintainer": [
+		"Debian EFI <debian-efi@lists.debian.org>"
+	],
+	"Package": [
+		"fwupd"
+	],
+	"Package-List": [
+		"fwupd deb admin optional arch=linux-any fwupd-doc deb doc optional arch=all gir1.2-fwupd-1.0 deb introspection optional arch=linux-any libdfu-dev deb libdevel optional arch=linux-any libdfu1 deb admin optional arch=linux-any libfwupd-dev deb libdevel optional arch=linux-any libfwupd1 deb admin optional arch=linux-any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Steve McIntyre <93sam@debian.org>, Daniel Jared Dominguez <jared.dominguez@dell.com>, Matthias Klumpp <mak@debian.org>, Mario Limonciello <mario.limonciello@dell.com>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/gitweb/?p=uefi/fwupd.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/uefi/fwupd.git"
+	],
+	"Version": [
+		"0.8.3-1"
+	]
 }

@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "rsyslog, rsyslog-mysql, rsyslog-pgsql, rsyslog-mongodb, rsyslog-elasticsearch, rsyslog-gssapi, rsyslog-gnutls, rsyslog-relp"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 8), dpkg-dev (>= 1.16.1), dh-autoreconf, dh-systemd (>= 1.4), zlib1g-dev, libmysqlclient-dev, libpq-dev, libmongo-client-dev (>= 0.1.4), libcurl4-gnutls-dev, libkrb5-dev, libgnutls28-dev, librelp-dev (>= 1.2.5), libestr-dev (>= 0.1.9), liblognorm-dev (>= 1.0.0), liblogging-stdlog-dev (>= 1.0.3), libjson-c-dev, uuid-dev, pkg-config, bison"
-  ],
-  "Checksums-Sha1": [
-    "12926c9db59cedef38f063a3752b44fb3fa9b280 2594 rsyslog_8.4.2-1+deb8u2.dsc f68f92a1fa3d8fca6f4fc3dc4a7acbabc1774612 1938563 rsyslog_8.4.2.orig.tar.gz b5aa1f67496060526301410847fb7a503ca1b852 24096 rsyslog_8.4.2-1+deb8u2.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "80d107c1bbf6f766fd49faea4a910c51e1a233661ac8c2aa521186a2c902abf4 2594 rsyslog_8.4.2-1+deb8u2.dsc 71c3c6dac74fba2692f9fefb092cd3d22e2bd71eb702e0da06648de51b8b7b9a 1938563 rsyslog_8.4.2.orig.tar.gz 62aebf7c34c4d8089467db6cafef9b84487a3ab0dc18f636d090baa62d75e010 24096 rsyslog_8.4.2-1+deb8u2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rsyslog"
-  ],
-  "Files": [
-    "724a33130fdf39e97554cf7646ae506d 2594 rsyslog_8.4.2-1+deb8u2.dsc 5d0f39d5a4fdd4b3b91d80450f17f22e 1938563 rsyslog_8.4.2.orig.tar.gz b5c4d1afa5f5bb393f70712f4b9f93f7 24096 rsyslog_8.4.2-1+deb8u2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.rsyslog.com/"
-  ],
-  "Maintainer": [
-    "Michael Biebl <biebl@debian.org>"
-  ],
-  "Package": [
-    "rsyslog"
-  ],
-  "Package-List": [
-    "rsyslog deb admin important arch=any rsyslog-elasticsearch deb admin extra arch=any rsyslog-gnutls deb admin extra arch=any rsyslog-gssapi deb admin extra arch=any rsyslog-mongodb deb admin extra arch=any rsyslog-mysql deb admin extra arch=any rsyslog-pgsql deb admin extra arch=any rsyslog-relp deb admin extra arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "admin"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=collab-maint/rsyslog.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/collab-maint/rsyslog.git"
-  ],
-  "Version": [
-    "8.4.2-1+deb8u2"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"rsyslog, rsyslog-mysql, rsyslog-pgsql, rsyslog-mongodb, rsyslog-elasticsearch, rsyslog-gssapi, rsyslog-gnutls, rsyslog-relp"
+	],
+	"Build-Depends": [
+		"debhelper (>= 8), dpkg-dev (>= 1.16.1), dh-autoreconf, dh-systemd (>= 1.4), zlib1g-dev, libmysqlclient-dev, libpq-dev, libmongo-client-dev (>= 0.1.4), libcurl4-gnutls-dev, libkrb5-dev, libgnutls28-dev, librelp-dev (>= 1.2.5), libestr-dev (>= 0.1.9), liblognorm-dev (>= 1.0.0), liblogging-stdlog-dev (>= 1.0.3), libjson-c-dev, uuid-dev, pkg-config, bison"
+	],
+	"Checksums-Sha1": [
+		"12926c9db59cedef38f063a3752b44fb3fa9b280 2594 rsyslog_8.4.2-1+deb8u2.dsc f68f92a1fa3d8fca6f4fc3dc4a7acbabc1774612 1938563 rsyslog_8.4.2.orig.tar.gz b5aa1f67496060526301410847fb7a503ca1b852 24096 rsyslog_8.4.2-1+deb8u2.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"80d107c1bbf6f766fd49faea4a910c51e1a233661ac8c2aa521186a2c902abf4 2594 rsyslog_8.4.2-1+deb8u2.dsc 71c3c6dac74fba2692f9fefb092cd3d22e2bd71eb702e0da06648de51b8b7b9a 1938563 rsyslog_8.4.2.orig.tar.gz 62aebf7c34c4d8089467db6cafef9b84487a3ab0dc18f636d090baa62d75e010 24096 rsyslog_8.4.2-1+deb8u2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rsyslog"
+	],
+	"Files": [
+		"724a33130fdf39e97554cf7646ae506d 2594 rsyslog_8.4.2-1+deb8u2.dsc 5d0f39d5a4fdd4b3b91d80450f17f22e 1938563 rsyslog_8.4.2.orig.tar.gz b5c4d1afa5f5bb393f70712f4b9f93f7 24096 rsyslog_8.4.2-1+deb8u2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.rsyslog.com/"
+	],
+	"Maintainer": [
+		"Michael Biebl <biebl@debian.org>"
+	],
+	"Package": [
+		"rsyslog"
+	],
+	"Package-List": [
+		"rsyslog deb admin important arch=any rsyslog-elasticsearch deb admin extra arch=any rsyslog-gnutls deb admin extra arch=any rsyslog-gssapi deb admin extra arch=any rsyslog-mongodb deb admin extra arch=any rsyslog-mysql deb admin extra arch=any rsyslog-pgsql deb admin extra arch=any rsyslog-relp deb admin extra arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"admin"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=collab-maint/rsyslog.git;a=summary"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/collab-maint/rsyslog.git"
+	],
+	"Version": [
+		"8.4.2-1+deb8u2"
+	]
 }

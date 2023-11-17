@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libgpgme-dev, libgpgme11, python3-gpg, libqgpgme15, libgpgmepp6, libgpgmepp-dev, libgpgmepp-doc"
-  ],
-  "Build-Depends": [
-    "automake (>= 1.14), debhelper-compat (= 13), dh-python, gnupg-agent, gnupg2 | gnupg (>= 2), gpgsm, libassuan-dev (>= 2.4.2), libgpg-error-dev (>= 1.36), libpython3-all-dev, pkg-config, python3-all-dev:any, qtbase5-dev, scdaemon, swig, texinfo"
-  ],
-  "Build-Depends-Indep": [
-    "doxygen, graphviz"
-  ],
-  "Checksums-Sha256": [
-    "568e0a8f342ab129c8761bbbd30e54934102914141b8e38c9f504be9d4d1de5a 2258 gpgme1.0_1.18.0-3.dsc 361d4eae47ce925dba0ea569af40e7b52c645c4ae2e65e5621bf1b6cdd8b0e9e 1762323 gpgme1.0_1.18.0.orig.tar.bz2 61efa5372ea178285b3ebf8be8c26edac2ac883a9cd6085e4ad608b6c2f772b6 390 gpgme1.0_1.18.0.orig.tar.bz2.asc 1cef1b54c5e68bf0779287662a482ca1f8d0d6166df7c6b25ddafab680dcdd80 26436 gpgme1.0_1.18.0-3.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/g/gpgme1.0"
-  ],
-  "Extra-Source-Only": [
-    "yes"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.gnupg.org/related_software/gpgme/"
-  ],
-  "Maintainer": [
-    "Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "gpgme1.0"
-  ],
-  "Package-List": [
-    "libgpgme-dev deb libdevel optional arch=any libgpgme11 deb libs optional arch=any libgpgmepp-dev deb libdevel optional arch=any libgpgmepp-doc deb doc optional arch=all libgpgmepp6 deb libs optional arch=any libqgpgme15 deb libs optional arch=any python3-gpg deb python optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "gcc, libc6-dev, python3-all"
-  ],
-  "Uploaders": [
-    "Daniel Kahn Gillmor <dkg@fifthhorseman.net>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian/gpgme"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian/gpgme.git"
-  ],
-  "Version": [
-    "1.18.0-3"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libgpgme-dev, libgpgme11, python3-gpg, libqgpgme15, libgpgmepp6, libgpgmepp-dev, libgpgmepp-doc"
+	],
+	"Build-Depends": [
+		"automake (>= 1.14), debhelper-compat (= 13), dh-python, gnupg-agent, gnupg2 | gnupg (>= 2), gpgsm, libassuan-dev (>= 2.4.2), libgpg-error-dev (>= 1.36), libpython3-all-dev, pkg-config, python3-all-dev:any, qtbase5-dev, scdaemon, swig, texinfo"
+	],
+	"Build-Depends-Indep": [
+		"doxygen, graphviz"
+	],
+	"Checksums-Sha256": [
+		"568e0a8f342ab129c8761bbbd30e54934102914141b8e38c9f504be9d4d1de5a 2258 gpgme1.0_1.18.0-3.dsc 361d4eae47ce925dba0ea569af40e7b52c645c4ae2e65e5621bf1b6cdd8b0e9e 1762323 gpgme1.0_1.18.0.orig.tar.bz2 61efa5372ea178285b3ebf8be8c26edac2ac883a9cd6085e4ad608b6c2f772b6 390 gpgme1.0_1.18.0.orig.tar.bz2.asc 1cef1b54c5e68bf0779287662a482ca1f8d0d6166df7c6b25ddafab680dcdd80 26436 gpgme1.0_1.18.0-3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/gpgme1.0"
+	],
+	"Extra-Source-Only": [
+		"yes"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.gnupg.org/related_software/gpgme/"
+	],
+	"Maintainer": [
+		"Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"gpgme1.0"
+	],
+	"Package-List": [
+		"libgpgme-dev deb libdevel optional arch=any libgpgme11 deb libs optional arch=any libgpgmepp-dev deb libdevel optional arch=any libgpgmepp-doc deb doc optional arch=all libgpgmepp6 deb libs optional arch=any libqgpgme15 deb libs optional arch=any python3-gpg deb python optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"gcc, libc6-dev, python3-all"
+	],
+	"Uploaders": [
+		"Daniel Kahn Gillmor <dkg@fifthhorseman.net>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/gpgme"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/gpgme.git"
+	],
+	"Version": [
+		"1.18.0-3"
+	]
 }

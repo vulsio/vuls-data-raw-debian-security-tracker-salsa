@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python3-vcr, python-vcr-doc"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc <!nodoc>, pandoc, python3-all, python3-aiohttp, python3-boto3, python3-httplib2, python3-pytest, python3-pytest-httpbin, python3-pytest-tornado, python3-requests, python3-setuptools, python3-six, python3-sphinx, python3-sphinx-rtd-theme, python3-tornado, python3-urllib3, python3-wrapt, python3-yaml, python3-yarl"
-  ],
-  "Checksums-Sha256": [
-    "e52635a9f8476071615df176b2b57409964dca2093ec26d6117bd9ff6792ce8b 2903 vcr.py_5.1.0-1.dsc 2b5adb2a4be5c220ba98b168c60e6538bf4ccb42f0fafa47c18675313be1b84b 337183 vcr.py_5.1.0.orig.tar.gz aface585520ec4ce51a1221bc132f686e32116b027e056011c940c5b056e8abc 5808 vcr.py_5.1.0-1.debian.tar.xz"
-  ],
-  "Description": [
-    "record and replay HTML interactions vcr.py records all interactions that take place through the HTML libraries it supports and writes them to flat files, called cassettes (YAML format by default). These cassettes could be replayed then for fast, deterministic and accurate HTML testing. . vcr.py supports the following Python HTTP libraries: - urllib2 (stdlib) - urllib3 - http.client (Python3 stdlib) - Requests - httplib2 - Boto (interface to Amazon Web Services) - Tornado's HTTP client"
-  ],
-  "Directory": [
-    "pool/main/v/vcr.py"
-  ],
-  "Files": [
-    "b5ee08bbe45f06a07b7c8ba477282e89 2903 vcr.py_5.1.0-1.dsc 5c51383f8211a4d857441461cae76a0f 337183 vcr.py_5.1.0.orig.tar.gz df102d17f31376221abf4dbb5dde0251 5808 vcr.py_5.1.0-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/kevin1024/vcrpy/"
-  ],
-  "Maintainer": [
-    "Debian Python Team <team+python@tracker.debian.org>"
-  ],
-  "Package": [
-    "vcr.py"
-  ],
-  "Package-List": [
-    "python-vcr-doc deb doc optional arch=all python3-vcr deb python optional arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest-pkg-pybuild"
-  ],
-  "Uploaders": [
-    "Daniele Tricoli <eriol@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/python-team/packages/vcr.py"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/python-team/packages/vcr.py.git"
-  ],
-  "Version": [
-    "5.1.0-1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python3-vcr, python-vcr-doc"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc <!nodoc>, pandoc, python3-all, python3-aiohttp, python3-boto3, python3-httplib2, python3-pytest, python3-pytest-httpbin, python3-pytest-tornado, python3-requests, python3-setuptools, python3-six, python3-sphinx, python3-sphinx-rtd-theme, python3-tornado, python3-urllib3, python3-wrapt, python3-yaml, python3-yarl"
+	],
+	"Checksums-Sha256": [
+		"e52635a9f8476071615df176b2b57409964dca2093ec26d6117bd9ff6792ce8b 2903 vcr.py_5.1.0-1.dsc 2b5adb2a4be5c220ba98b168c60e6538bf4ccb42f0fafa47c18675313be1b84b 337183 vcr.py_5.1.0.orig.tar.gz aface585520ec4ce51a1221bc132f686e32116b027e056011c940c5b056e8abc 5808 vcr.py_5.1.0-1.debian.tar.xz"
+	],
+	"Description": [
+		"record and replay HTML interactions vcr.py records all interactions that take place through the HTML libraries it supports and writes them to flat files, called cassettes (YAML format by default). These cassettes could be replayed then for fast, deterministic and accurate HTML testing. . vcr.py supports the following Python HTTP libraries: - urllib2 (stdlib) - urllib3 - http.client (Python3 stdlib) - Requests - httplib2 - Boto (interface to Amazon Web Services) - Tornado's HTTP client"
+	],
+	"Directory": [
+		"pool/main/v/vcr.py"
+	],
+	"Files": [
+		"b5ee08bbe45f06a07b7c8ba477282e89 2903 vcr.py_5.1.0-1.dsc 5c51383f8211a4d857441461cae76a0f 337183 vcr.py_5.1.0.orig.tar.gz df102d17f31376221abf4dbb5dde0251 5808 vcr.py_5.1.0-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/kevin1024/vcrpy/"
+	],
+	"Maintainer": [
+		"Debian Python Team <team+python@tracker.debian.org>"
+	],
+	"Package": [
+		"vcr.py"
+	],
+	"Package-List": [
+		"python-vcr-doc deb doc optional arch=all python3-vcr deb python optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest-pkg-pybuild"
+	],
+	"Uploaders": [
+		"Daniele Tricoli <eriol@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/python-team/packages/vcr.py"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/python-team/packages/vcr.py.git"
+	],
+	"Version": [
+		"5.1.0-1"
+	]
 }

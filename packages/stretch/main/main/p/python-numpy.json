@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "python-numpy, python-numpy-dbg, python3-numpy, python3-numpy-dbg, python-numpy-doc"
-  ],
-  "Build-Depends": [
-    "cython, debhelper (>= 8.9.7~), dh-python, gfortran (>= 4:4.2), libblas-dev [!arm !m68k], liblapack-dev [!arm !m68k], python-all-dbg, python-all-dev, python-nose (>= 1.0), python-tz, python3-all-dbg, python3-all-dev, python3-nose (>= 1.0), python3-tz, python-setuptools, python3-setuptools"
-  ],
-  "Build-Depends-Indep": [
-    "python-docutils, python-matplotlib, python-sphinx (>= 1.0.7+dfsg)"
-  ],
-  "Checksums-Sha256": [
-    "8f0b51feb952c574f2075a7dd972680e820739bbe939e4e8f1d962330d1c1a7e 2863 python-numpy_1.12.1-3.dsc c13f5cab98eb75545b211d738588d297d8219deced16bc61593e4e89098a913f 4344068 python-numpy_1.12.1.orig.tar.gz efa024a6245c01bb11686f11d0142b62b5c352f31ce2007876d1684c02ded898 141860 python-numpy_1.12.1-3.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/python-numpy"
-  ],
-  "Files": [
-    "c29b5aadd6eb68a343d485689bb60107 2863 python-numpy_1.12.1-3.dsc c10439139789aa1be9d5a6c81050bba8 4344068 python-numpy_1.12.1.orig.tar.gz ad957187df086d848efee073c2690c05 141860 python-numpy_1.12.1-3.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.numpy.org/"
-  ],
-  "Maintainer": [
-    "Sandro Tosi <morph@debian.org>"
-  ],
-  "Package": [
-    "python-numpy"
-  ],
-  "Package-List": [
-    "python-numpy deb python optional arch=any python-numpy-dbg deb debug extra arch=any python-numpy-doc deb doc optional arch=all python3-numpy deb python optional arch=any python3-numpy-dbg deb debug extra arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "python"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential, gfortran, libatlas3-base, libfftw3-dev, libopenblas-base, python-all, python-all-dbg, python-all-dev, python-nose, python-tz, python3-all, python3-all-dbg, python3-all-dev, python3-nose, python3-tz"
-  ],
-  "Uploaders": [
-    "Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/python-modules/packages/python-numpy.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/python-modules/packages/python-numpy.git"
-  ],
-  "Version": [
-    "1:1.12.1-3"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"python-numpy, python-numpy-dbg, python3-numpy, python3-numpy-dbg, python-numpy-doc"
+	],
+	"Build-Depends": [
+		"cython, debhelper (>= 8.9.7~), dh-python, gfortran (>= 4:4.2), libblas-dev [!arm !m68k], liblapack-dev [!arm !m68k], python-all-dbg, python-all-dev, python-nose (>= 1.0), python-tz, python3-all-dbg, python3-all-dev, python3-nose (>= 1.0), python3-tz, python-setuptools, python3-setuptools"
+	],
+	"Build-Depends-Indep": [
+		"python-docutils, python-matplotlib, python-sphinx (>= 1.0.7+dfsg)"
+	],
+	"Checksums-Sha256": [
+		"8f0b51feb952c574f2075a7dd972680e820739bbe939e4e8f1d962330d1c1a7e 2863 python-numpy_1.12.1-3.dsc c13f5cab98eb75545b211d738588d297d8219deced16bc61593e4e89098a913f 4344068 python-numpy_1.12.1.orig.tar.gz efa024a6245c01bb11686f11d0142b62b5c352f31ce2007876d1684c02ded898 141860 python-numpy_1.12.1-3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-numpy"
+	],
+	"Files": [
+		"c29b5aadd6eb68a343d485689bb60107 2863 python-numpy_1.12.1-3.dsc c10439139789aa1be9d5a6c81050bba8 4344068 python-numpy_1.12.1.orig.tar.gz ad957187df086d848efee073c2690c05 141860 python-numpy_1.12.1-3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.numpy.org/"
+	],
+	"Maintainer": [
+		"Sandro Tosi <morph@debian.org>"
+	],
+	"Package": [
+		"python-numpy"
+	],
+	"Package-List": [
+		"python-numpy deb python optional arch=any python-numpy-dbg deb debug extra arch=any python-numpy-doc deb doc optional arch=all python3-numpy deb python optional arch=any python3-numpy-dbg deb debug extra arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"python"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, gfortran, libatlas3-base, libfftw3-dev, libopenblas-base, python-all, python-all-dbg, python-all-dev, python-nose, python-tz, python3-all, python3-all-dbg, python3-all-dev, python3-nose, python3-tz"
+	],
+	"Uploaders": [
+		"Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/python-modules/packages/python-numpy.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/python-modules/packages/python-numpy.git"
+	],
+	"Version": [
+		"1:1.12.1-3"
+	]
 }

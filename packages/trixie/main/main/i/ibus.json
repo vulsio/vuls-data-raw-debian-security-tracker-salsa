@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "ibus, ibus-data, ibus-tests, libibus-1.0-5, libibus-1.0-dev, ibus-gtk, ibus-gtk3, ibus-gtk4, ibus-wayland, ibus-doc, gir1.2-ibus-1.0, python3-ibus-1.0"
-  ],
-  "Build-Depends": [
-    "dbus-x11 <!nocheck>, debhelper-compat (= 13), dh-exec, desktop-file-utils, dh-python, gettext, gnome-pkg-tools, gobject-introspection, gtk-doc-tools <!nodoc>, iso-codes, libdbusmenu-glib-dev, libdbusmenu-gtk3-dev, libdconf-dev, libgirepository1.0-dev, libglib2.0-dev, libgtk-3-bin, libgtk-3-dev, libgtk-4-bin, libgtk-4-dev, libgtk2.0-dev, libnotify-dev, libtool, libwayland-dev [linux-any], pkg-config, python-gi-dev, python3-all, systemd [linux-any], unicode-cldr-core, unicode-data (>= 13.0.0-2), valac, xauth <!nocheck>, xkb-data (>= 2.38), xvfb <!nocheck>"
-  ],
-  "Build-Depends-Indep": [
-    "libglib2.0-doc <!nodoc>"
-  ],
-  "Checksums-Sha256": [
-    "83a5ffdf3dce7368105b20da7c4647ca5ead9f365600ed4a17a2f7e1804ec5f0 2957 ibus_1.5.29~rc1-1.dsc 086df8e610830b2fe8d47e6c639d7782ff5eb4b3087c6752d86837d4dab2a545 3989492 ibus_1.5.29~rc1.orig.tar.gz 31d9499b3e43740075f2d6940e5b35da3aaceaa6532967b2cc823e4a10b2565d 29892 ibus_1.5.29~rc1-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/i/ibus"
-  ],
-  "Files": [
-    "93234c76da6f869a8075119eb355099e 2957 ibus_1.5.29~rc1-1.dsc 1f4d0e2f7f76cb4e4c1fa178822e2bb5 3989492 ibus_1.5.29~rc1.orig.tar.gz 1ea29d426d4d9a4011c4788a6c2c4df2 29892 ibus_1.5.29~rc1-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/ibus/ibus"
-  ],
-  "Maintainer": [
-    "Debian Input Method Team <debian-input-method@lists.debian.org>"
-  ],
-  "Package": [
-    "ibus"
-  ],
-  "Package-List": [
-    "gir1.2-ibus-1.0 deb introspection optional arch=any ibus deb utils optional arch=any ibus-data deb utils optional arch=all ibus-doc deb doc optional arch=all profile=!nodoc ibus-gtk deb utils optional arch=any ibus-gtk3 deb utils optional arch=any ibus-gtk4 deb utils optional arch=any ibus-tests deb utils optional arch=amd64,arm64,armhf,i386,mips64el,mipsel,ppc64el,s390x,riscv64 profile=!noinsttest ibus-wayland deb utils optional arch=linux-any libibus-1.0-5 deb libs optional arch=any libibus-1.0-dev deb libdevel optional arch=any python3-ibus-1.0 deb python optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "utils"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Aron Xu <aron@debian.org>, Changwoo Ryu <cwryu@debian.org>, Osamu Aoki <osamu@debian.org>, Gunnar Hjalmarsson <gunnarhj@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian/ibus"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian/ibus.git"
-  ],
-  "Version": [
-    "1.5.29~rc1-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"ibus, ibus-data, ibus-tests, libibus-1.0-5, libibus-1.0-dev, ibus-gtk, ibus-gtk3, ibus-gtk4, ibus-wayland, ibus-doc, gir1.2-ibus-1.0, python3-ibus-1.0"
+	],
+	"Build-Depends": [
+		"dbus-x11 <!nocheck>, debhelper-compat (= 13), dh-exec, desktop-file-utils, dh-python, gettext, gnome-pkg-tools, gobject-introspection, gtk-doc-tools <!nodoc>, iso-codes, libdbusmenu-glib-dev, libdbusmenu-gtk3-dev, libdconf-dev, libgirepository1.0-dev, libglib2.0-dev, libgtk-3-bin, libgtk-3-dev, libgtk-4-bin, libgtk-4-dev, libgtk2.0-dev, libnotify-dev, libtool, libwayland-dev [linux-any], pkg-config, python-gi-dev, python3-all, systemd [linux-any], unicode-cldr-core, unicode-data (>= 13.0.0-2), valac, xauth <!nocheck>, xkb-data (>= 2.38), xvfb <!nocheck>"
+	],
+	"Build-Depends-Indep": [
+		"libglib2.0-doc <!nodoc>"
+	],
+	"Checksums-Sha256": [
+		"83a5ffdf3dce7368105b20da7c4647ca5ead9f365600ed4a17a2f7e1804ec5f0 2957 ibus_1.5.29~rc1-1.dsc 086df8e610830b2fe8d47e6c639d7782ff5eb4b3087c6752d86837d4dab2a545 3989492 ibus_1.5.29~rc1.orig.tar.gz 31d9499b3e43740075f2d6940e5b35da3aaceaa6532967b2cc823e4a10b2565d 29892 ibus_1.5.29~rc1-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/i/ibus"
+	],
+	"Files": [
+		"93234c76da6f869a8075119eb355099e 2957 ibus_1.5.29~rc1-1.dsc 1f4d0e2f7f76cb4e4c1fa178822e2bb5 3989492 ibus_1.5.29~rc1.orig.tar.gz 1ea29d426d4d9a4011c4788a6c2c4df2 29892 ibus_1.5.29~rc1-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/ibus/ibus"
+	],
+	"Maintainer": [
+		"Debian Input Method Team <debian-input-method@lists.debian.org>"
+	],
+	"Package": [
+		"ibus"
+	],
+	"Package-List": [
+		"gir1.2-ibus-1.0 deb introspection optional arch=any ibus deb utils optional arch=any ibus-data deb utils optional arch=all ibus-doc deb doc optional arch=all profile=!nodoc ibus-gtk deb utils optional arch=any ibus-gtk3 deb utils optional arch=any ibus-gtk4 deb utils optional arch=any ibus-tests deb utils optional arch=amd64,arm64,armhf,i386,mips64el,mipsel,ppc64el,s390x,riscv64 profile=!noinsttest ibus-wayland deb utils optional arch=linux-any libibus-1.0-5 deb libs optional arch=any libibus-1.0-dev deb libdevel optional arch=any python3-ibus-1.0 deb python optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"utils"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Aron Xu <aron@debian.org>, Changwoo Ryu <cwryu@debian.org>, Osamu Aoki <osamu@debian.org>, Gunnar Hjalmarsson <gunnarhj@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/ibus"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/ibus.git"
+	],
+	"Version": [
+		"1.5.29~rc1-1"
+	]
 }

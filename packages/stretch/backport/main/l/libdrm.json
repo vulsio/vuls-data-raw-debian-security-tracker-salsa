@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "linux-any kfreebsd-any any-arm all"
-  ],
-  "Binary": [
-    "libdrm-dev, libdrm2, libdrm-common, libdrm2-udeb, libdrm-intel1, libdrm-nouveau2, libdrm-radeon1, libdrm-omap1, libdrm-freedreno1, libdrm-exynos1, libdrm-tegra0, libdrm-amdgpu1, libdrm-etnaviv1"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 11), meson, quilt, xsltproc, docbook-xsl, libx11-dev, pkg-config, xutils-dev (>= 1:7.6+2), libudev-dev [linux-any], libpciaccess-dev, valgrind [amd64 armhf i386 mips mipsel powerpc s390x], libbsd-dev [kfreebsd-any]"
-  ],
-  "Checksums-Sha256": [
-    "00e6b5e3596194a892f6e9622473076ab573db1f38363df0bedc0be9e48256a8 3040 libdrm_2.4.95-1~bpo9+1.dsc f0685d8b6ec173d964cd3a5bc98c5fcd89836505c42278863b78cebacae6f7e6 1125706 libdrm_2.4.95.orig.tar.gz f38820cea5b69f1b50cfd388521e9cd583e24b1d7637dc131fb78ce9e1303fe9 50660 libdrm_2.4.95-1~bpo9+1.diff.gz"
-  ],
-  "Directory": [
-    "pool/main/libd/libdrm"
-  ],
-  "Files": [
-    "830dc9a04b2249e25da983fc8badb038 3040 libdrm_2.4.95-1~bpo9+1.dsc dc673e34a5355ad2121f405b1f816be7 1125706 libdrm_2.4.95.orig.tar.gz 7261d2419570540f796695b42b1903cd 50660 libdrm_2.4.95-1~bpo9+1.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Homepage": [
-    "https://cgit.freedesktop.org/mesa/drm/"
-  ],
-  "Maintainer": [
-    "Debian X Strike Force <debian-x@lists.debian.org>"
-  ],
-  "Package": [
-    "libdrm"
-  ],
-  "Package-List": [
-    "libdrm-amdgpu1 deb libs optional arch=linux-any,kfreebsd-any libdrm-common deb libs optional arch=all libdrm-dev deb libdevel optional arch=linux-any,kfreebsd-any libdrm-etnaviv1 deb libs optional arch=armhf,arm64 libdrm-exynos1 deb libs optional arch=any-arm libdrm-freedreno1 deb libs optional arch=any-arm,arm64 libdrm-intel1 deb libs optional arch=amd64,i386,kfreebsd-amd64,kfreebsd-i386,x32 libdrm-nouveau2 deb libs optional arch=linux-any libdrm-omap1 deb libs optional arch=any-arm libdrm-radeon1 deb libs optional arch=linux-any,kfreebsd-any libdrm-tegra0 deb libs optional arch=any-arm,arm64 libdrm2 deb libs optional arch=linux-any,kfreebsd-any libdrm2-udeb udeb debian-installer optional arch=linux-any,kfreebsd-any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.1.4"
-  ],
-  "Uploaders": [
-    "Andreas Boll <aboll@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/xorg-team/lib/libdrm"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/xorg-team/lib/libdrm"
-  ],
-  "Version": [
-    "2.4.95-1~bpo9+1"
-  ]
+	"Architecture": [
+		"linux-any kfreebsd-any any-arm all"
+	],
+	"Binary": [
+		"libdrm-dev, libdrm2, libdrm-common, libdrm2-udeb, libdrm-intel1, libdrm-nouveau2, libdrm-radeon1, libdrm-omap1, libdrm-freedreno1, libdrm-exynos1, libdrm-tegra0, libdrm-amdgpu1, libdrm-etnaviv1"
+	],
+	"Build-Depends": [
+		"debhelper (>= 11), meson, quilt, xsltproc, docbook-xsl, libx11-dev, pkg-config, xutils-dev (>= 1:7.6+2), libudev-dev [linux-any], libpciaccess-dev, valgrind [amd64 armhf i386 mips mipsel powerpc s390x], libbsd-dev [kfreebsd-any]"
+	],
+	"Checksums-Sha256": [
+		"00e6b5e3596194a892f6e9622473076ab573db1f38363df0bedc0be9e48256a8 3040 libdrm_2.4.95-1~bpo9+1.dsc f0685d8b6ec173d964cd3a5bc98c5fcd89836505c42278863b78cebacae6f7e6 1125706 libdrm_2.4.95.orig.tar.gz f38820cea5b69f1b50cfd388521e9cd583e24b1d7637dc131fb78ce9e1303fe9 50660 libdrm_2.4.95-1~bpo9+1.diff.gz"
+	],
+	"Directory": [
+		"pool/main/libd/libdrm"
+	],
+	"Files": [
+		"830dc9a04b2249e25da983fc8badb038 3040 libdrm_2.4.95-1~bpo9+1.dsc dc673e34a5355ad2121f405b1f816be7 1125706 libdrm_2.4.95.orig.tar.gz 7261d2419570540f796695b42b1903cd 50660 libdrm_2.4.95-1~bpo9+1.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Homepage": [
+		"https://cgit.freedesktop.org/mesa/drm/"
+	],
+	"Maintainer": [
+		"Debian X Strike Force <debian-x@lists.debian.org>"
+	],
+	"Package": [
+		"libdrm"
+	],
+	"Package-List": [
+		"libdrm-amdgpu1 deb libs optional arch=linux-any,kfreebsd-any libdrm-common deb libs optional arch=all libdrm-dev deb libdevel optional arch=linux-any,kfreebsd-any libdrm-etnaviv1 deb libs optional arch=armhf,arm64 libdrm-exynos1 deb libs optional arch=any-arm libdrm-freedreno1 deb libs optional arch=any-arm,arm64 libdrm-intel1 deb libs optional arch=amd64,i386,kfreebsd-amd64,kfreebsd-i386,x32 libdrm-nouveau2 deb libs optional arch=linux-any libdrm-omap1 deb libs optional arch=any-arm libdrm-radeon1 deb libs optional arch=linux-any,kfreebsd-any libdrm-tegra0 deb libs optional arch=any-arm,arm64 libdrm2 deb libs optional arch=linux-any,kfreebsd-any libdrm2-udeb udeb debian-installer optional arch=linux-any,kfreebsd-any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.1.4"
+	],
+	"Uploaders": [
+		"Andreas Boll <aboll@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/xorg-team/lib/libdrm"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/xorg-team/lib/libdrm"
+	],
+	"Version": [
+		"2.4.95-1~bpo9+1"
+	]
 }

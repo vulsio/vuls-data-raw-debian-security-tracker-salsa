@@ -1,45 +1,45 @@
 {
-  "header": {
-    "line": "CVE-2010-XXXX [tcpdf code execution via tcpdf tag]",
-    "name": "TEMP-0000000-D91305",
-    "description": "[tcpdf code execution via tcpdf tag]"
-  },
-  "annotations": [
-    {
-      "line": "\t- moodle <not-affected> (Vulnerable code not present)",
-      "type": "package",
-      "package": "moodle",
-      "kind": "not-affected",
-      "description": "Vulnerable code not present"
-    },
-    {
-      "line": "\t- phpmyadmin <not-affected> (Vulnerable code not present)",
-      "type": "package",
-      "package": "phpmyadmin",
-      "kind": "not-affected",
-      "description": "Vulnerable code not present"
-    },
-    {
-      "line": "\t- tcpdf 6.0.010+dfsg-1",
-      "type": "package",
-      "package": "tcpdf",
-      "kind": "fixed",
-      "version": "6.0.010+dfsg-1"
-    },
-    {
-      "line": "\tNOTE: http://sourceforge.net/projects/tcpdf/files/CHANGELOG.TXT/view",
-      "type": "NOTE",
-      "description": "http://sourceforge.net/projects/tcpdf/files/CHANGELOG.TXT/view"
-    },
-    {
-      "line": "\tNOTE: http://seclists.org/fulldisclosure/2010/Apr/104",
-      "type": "NOTE",
-      "description": "http://seclists.org/fulldisclosure/2010/Apr/104"
-    },
-    {
-      "line": "\tNOTE: setting K_TCPDF_CALLS_IN_HTML to false mitigates the problem",
-      "type": "NOTE",
-      "description": "setting K_TCPDF_CALLS_IN_HTML to false mitigates the problem"
-    }
-  ]
+	"header": {
+		"line": "CVE-2010-XXXX [tcpdf code execution via tcpdf tag]",
+		"name": "TEMP-0000000-D91305",
+		"description": "[tcpdf code execution via tcpdf tag]"
+	},
+	"annotations": [
+		{
+			"line": "\t- moodle <not-affected> (Vulnerable code not present)",
+			"type": "package",
+			"package": "moodle",
+			"kind": "not-affected",
+			"description": "Vulnerable code not present"
+		},
+		{
+			"line": "\t- phpmyadmin <not-affected> (Vulnerable code not present)",
+			"type": "package",
+			"package": "phpmyadmin",
+			"kind": "not-affected",
+			"description": "Vulnerable code not present"
+		},
+		{
+			"line": "\t- tcpdf 6.0.010+dfsg-1",
+			"type": "package",
+			"package": "tcpdf",
+			"kind": "fixed",
+			"version": "6.0.010+dfsg-1"
+		},
+		{
+			"line": "\tNOTE: http://sourceforge.net/projects/tcpdf/files/CHANGELOG.TXT/view",
+			"type": "NOTE",
+			"description": "http://sourceforge.net/projects/tcpdf/files/CHANGELOG.TXT/view"
+		},
+		{
+			"line": "\tNOTE: http://seclists.org/fulldisclosure/2010/Apr/104",
+			"type": "NOTE",
+			"description": "http://seclists.org/fulldisclosure/2010/Apr/104"
+		},
+		{
+			"line": "\tNOTE: setting K_TCPDF_CALLS_IN_HTML to false mitigates the problem",
+			"type": "NOTE",
+			"description": "setting K_TCPDF_CALLS_IN_HTML to false mitigates the problem"
+		}
+	]
 }

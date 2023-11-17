@@ -1,53 +1,53 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "nufw, nuauth, nuauth-extra, nuauth-log-mysql, nuauth-log-pgsql, nutcpc, nuauth-utils, libnuclient4, libnuclient-dev, libpam-nufw, libnussl1, libnussl-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9.0), po-debconf, automake, dh-autoreconf, libldap2-dev, libglib2.0-dev, libmysqlclient-dev | libmysqlclient15-dev, libpq-dev, iptables-dev, libtool, libgnutls28-dev | libgnutls-dev, libsasl2-dev, libpam0g-dev, libprelude-dev, libnetfilter-conntrack-dev, libnetfilter-queue-dev, libnfnetlink-dev, python-support (>= 0.4), python-dev, pkg-config, flex, bison, chrpath"
-  ],
-  "Checksums-Sha1": [
-    "fd92e5ba1e43edb3cd8aab8db043cb1ca04d4811 2653 nufw_2.4.3-3.1.dsc 8c6aff1d755f39601167c9df71674face9ed9195 979388 nufw_2.4.3.orig.tar.gz 28c38fc21cca742febd7b8a4f244db3adb01b3a1 14848 nufw_2.4.3-3.1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "06ea310c3ec02780e317aa33e683a95341c6c9a8963681e65bd98a8745a84b70 2653 nufw_2.4.3-3.1.dsc dcdbd2708f2c2e12467e8290427000123747df8a0fffb5c31fdecd194bc1d79d 979388 nufw_2.4.3.orig.tar.gz 173bf61e6d902e462b6cca2bc320a8400917af82b0597791ed7db19310d1cf73 14848 nufw_2.4.3-3.1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/n/nufw"
-  ],
-  "Files": [
-    "a70e7cb5ba7dbb9beb63eca629a4f0cf 2653 nufw_2.4.3-3.1.dsc c7dd517473d8735688ca29fa4e1aad85 979388 nufw_2.4.3.orig.tar.gz fb680e66ad5ab68f3bc6e5130a8857ce 14848 nufw_2.4.3-3.1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.nufw.org/-English-.html"
-  ],
-  "Maintainer": [
-    "Pierre Chifflier <pollux@debian.org>"
-  ],
-  "Package": [
-    "nufw"
-  ],
-  "Package-List": [
-    "libnuclient-dev deb libdevel optional arch=any libnuclient4 deb net optional arch=any libnussl-dev deb libdevel optional arch=any libnussl1 deb net optional arch=any libpam-nufw deb admin optional arch=any nuauth deb net optional arch=any nuauth-extra deb net optional arch=any nuauth-log-mysql deb net optional arch=any nuauth-log-pgsql deb net optional arch=any nuauth-utils deb net optional arch=all nufw deb net optional arch=any nutcpc deb net optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Python-Version": [
-    "all"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.4"
-  ],
-  "Version": [
-    "2.4.3-3.1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"nufw, nuauth, nuauth-extra, nuauth-log-mysql, nuauth-log-pgsql, nutcpc, nuauth-utils, libnuclient4, libnuclient-dev, libpam-nufw, libnussl1, libnussl-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9.0), po-debconf, automake, dh-autoreconf, libldap2-dev, libglib2.0-dev, libmysqlclient-dev | libmysqlclient15-dev, libpq-dev, iptables-dev, libtool, libgnutls28-dev | libgnutls-dev, libsasl2-dev, libpam0g-dev, libprelude-dev, libnetfilter-conntrack-dev, libnetfilter-queue-dev, libnfnetlink-dev, python-support (>= 0.4), python-dev, pkg-config, flex, bison, chrpath"
+	],
+	"Checksums-Sha1": [
+		"fd92e5ba1e43edb3cd8aab8db043cb1ca04d4811 2653 nufw_2.4.3-3.1.dsc 8c6aff1d755f39601167c9df71674face9ed9195 979388 nufw_2.4.3.orig.tar.gz 28c38fc21cca742febd7b8a4f244db3adb01b3a1 14848 nufw_2.4.3-3.1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"06ea310c3ec02780e317aa33e683a95341c6c9a8963681e65bd98a8745a84b70 2653 nufw_2.4.3-3.1.dsc dcdbd2708f2c2e12467e8290427000123747df8a0fffb5c31fdecd194bc1d79d 979388 nufw_2.4.3.orig.tar.gz 173bf61e6d902e462b6cca2bc320a8400917af82b0597791ed7db19310d1cf73 14848 nufw_2.4.3-3.1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/n/nufw"
+	],
+	"Files": [
+		"a70e7cb5ba7dbb9beb63eca629a4f0cf 2653 nufw_2.4.3-3.1.dsc c7dd517473d8735688ca29fa4e1aad85 979388 nufw_2.4.3.orig.tar.gz fb680e66ad5ab68f3bc6e5130a8857ce 14848 nufw_2.4.3-3.1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.nufw.org/-English-.html"
+	],
+	"Maintainer": [
+		"Pierre Chifflier <pollux@debian.org>"
+	],
+	"Package": [
+		"nufw"
+	],
+	"Package-List": [
+		"libnuclient-dev deb libdevel optional arch=any libnuclient4 deb net optional arch=any libnussl-dev deb libdevel optional arch=any libnussl1 deb net optional arch=any libpam-nufw deb admin optional arch=any nuauth deb net optional arch=any nuauth-extra deb net optional arch=any nuauth-log-mysql deb net optional arch=any nuauth-log-pgsql deb net optional arch=any nuauth-utils deb net optional arch=all nufw deb net optional arch=any nutcpc deb net optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Python-Version": [
+		"all"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.4"
+	],
+	"Version": [
+		"2.4.3-3.1"
+	]
 }

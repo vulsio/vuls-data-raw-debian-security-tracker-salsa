@@ -1,53 +1,53 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "libnbd-dev, libnbd0, python3-libnbd, libnbd-ocaml, libnbd-ocaml-dev, libnbd-bin"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 13), dh-python, python3-dev, libfuse3-dev, libgnutls28-dev, libxml2-dev, pkg-config, gnutls-bin <!nocheck>, nbdkit (>= 1.12.4) <!nocheck>, nbdkit-plugin-dev (>= 1.12.4) <!nocheck>, nbd-server <!nocheck>, qemu-utils <!nocheck>, qemu-system-common <!nocheck>, ocaml-nox, ocamlbuild, ocaml-findlib, dh-ocaml, bash-completion, iproute2 <!nocheck>, jq <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "a895e804de917427ec0856b65df20ede0035822cedcebb3b3f37f82bf79cc228 2705 libnbd_1.18.1-1.dsc 50d1d1a610f0d727119e9d0a0a5cc7952b8b231b3931ce2072307e105fec99b6 1482736 libnbd_1.18.1.orig.tar.gz fc250987092411d621f95cc857272e3ca197bb56d7336b840a34098ebb0e3e2c 858 libnbd_1.18.1.orig.tar.gz.asc beb42488643fedeba3d6c6f1d6d23690e6fd6b6f633cced12d8a5410d305e28f 86540 libnbd_1.18.1-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/libn/libnbd"
-  ],
-  "Files": [
-    "eff52a98cbd78de55b09f8d3dd967d03 2705 libnbd_1.18.1-1.dsc b7a59685e4b196647e9c9c67c7242688 1482736 libnbd_1.18.1.orig.tar.gz a0d99120561778efff0e43104ef1afea 858 libnbd_1.18.1.orig.tar.gz.asc 9c5d8f79e52075935e9b40ee30bcffcc 86540 libnbd_1.18.1-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/libguestfs/libnbd"
-  ],
-  "Maintainer": [
-    "Hilko Bengen <bengen@debian.org>"
-  ],
-  "Package": [
-    "libnbd"
-  ],
-  "Package-List": [
-    "libnbd-bin deb utils optional arch=linux-any libnbd-dev deb libdevel optional arch=any libnbd-ocaml deb ocaml optional arch=any libnbd-ocaml-dev deb ocaml optional arch=linux-any libnbd0 deb libs optional arch=any python3-libnbd deb libs optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.5.0"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian/libnbd"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian/libnbd.git"
-  ],
-  "Version": [
-    "1.18.1-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"libnbd-dev, libnbd0, python3-libnbd, libnbd-ocaml, libnbd-ocaml-dev, libnbd-bin"
+	],
+	"Build-Depends": [
+		"debhelper (>= 13), dh-python, python3-dev, libfuse3-dev, libgnutls28-dev, libxml2-dev, pkg-config, gnutls-bin <!nocheck>, nbdkit (>= 1.12.4) <!nocheck>, nbdkit-plugin-dev (>= 1.12.4) <!nocheck>, nbd-server <!nocheck>, qemu-utils <!nocheck>, qemu-system-common <!nocheck>, ocaml-nox, ocamlbuild, ocaml-findlib, dh-ocaml, bash-completion, iproute2 <!nocheck>, jq <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"a895e804de917427ec0856b65df20ede0035822cedcebb3b3f37f82bf79cc228 2705 libnbd_1.18.1-1.dsc 50d1d1a610f0d727119e9d0a0a5cc7952b8b231b3931ce2072307e105fec99b6 1482736 libnbd_1.18.1.orig.tar.gz fc250987092411d621f95cc857272e3ca197bb56d7336b840a34098ebb0e3e2c 858 libnbd_1.18.1.orig.tar.gz.asc beb42488643fedeba3d6c6f1d6d23690e6fd6b6f633cced12d8a5410d305e28f 86540 libnbd_1.18.1-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/libn/libnbd"
+	],
+	"Files": [
+		"eff52a98cbd78de55b09f8d3dd967d03 2705 libnbd_1.18.1-1.dsc b7a59685e4b196647e9c9c67c7242688 1482736 libnbd_1.18.1.orig.tar.gz a0d99120561778efff0e43104ef1afea 858 libnbd_1.18.1.orig.tar.gz.asc 9c5d8f79e52075935e9b40ee30bcffcc 86540 libnbd_1.18.1-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/libguestfs/libnbd"
+	],
+	"Maintainer": [
+		"Hilko Bengen <bengen@debian.org>"
+	],
+	"Package": [
+		"libnbd"
+	],
+	"Package-List": [
+		"libnbd-bin deb utils optional arch=linux-any libnbd-dev deb libdevel optional arch=any libnbd-ocaml deb ocaml optional arch=any libnbd-ocaml-dev deb ocaml optional arch=linux-any libnbd0 deb libs optional arch=any python3-libnbd deb libs optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.0"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/libnbd"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/libnbd.git"
+	],
+	"Version": [
+		"1.18.1-1"
+	]
 }

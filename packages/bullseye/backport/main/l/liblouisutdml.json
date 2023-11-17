@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "liblouisutdml-dev, liblouisutdml9, liblouisutdml-java, liblouisutdml-java-doc, liblouisutdml-data, liblouisutdml-bin"
-  ],
-  "Build-Depends": [
-    "ant [!hppa !hurd-i386 !kfreebsd-i386 !kfreebsd-amd64], automake, autoconf-archive, chrpath, debhelper-compat (= 13), default-jdk [!hppa !hurd-i386 !kfreebsd-i386 !kfreebsd-amd64], dpkg-dev (>= 1.16), help2man, java-common, liblouis-dev (>= 3.20.0-2~), liblouis-dev:native (>= 3.13), libxml2-dev, libxml2-dev:native, libtool, pkg-config, texinfo"
-  ],
-  "Checksums-Sha256": [
-    "c1abfdb0aa657df7de1573ce0b86a4b7b0d401e86435bdb87103c074f8faaf93 2752 liblouisutdml_2.11.0-1~bpo11+1.dsc e29a8b8b6f714757a7c0b6318a00ba7e5954a09d9c85aad0df5dfbef16e415eb 1750174 liblouisutdml_2.11.0.orig.tar.gz 9eda1cf4d689f09d08596448ff009ddedfc63e217b3b4ada8f2e4c7bfc9c2067 7600 liblouisutdml_2.11.0-1~bpo11+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/libl/liblouisutdml"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://liblouis.org/"
-  ],
-  "Maintainer": [
-    "Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "liblouisutdml"
-  ],
-  "Package-List": [
-    "liblouisutdml-bin deb text optional arch=any liblouisutdml-data deb text optional arch=all liblouisutdml-dev deb libdevel optional arch=any liblouisutdml-java deb java optional arch=all liblouisutdml-java-doc deb doc optional arch=all liblouisutdml9 deb libs optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.0"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "@builddeps@"
-  ],
-  "Uploaders": [
-    "Paul Gevers <elbrus@debian.org>, Samuel Thibault <sthibault@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/a11y-team/liblouisutdml"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/a11y-team/liblouisutdml.git"
-  ],
-  "Version": [
-    "2.11.0-1~bpo11+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"liblouisutdml-dev, liblouisutdml9, liblouisutdml-java, liblouisutdml-java-doc, liblouisutdml-data, liblouisutdml-bin"
+	],
+	"Build-Depends": [
+		"ant [!hppa !hurd-i386 !kfreebsd-i386 !kfreebsd-amd64], automake, autoconf-archive, chrpath, debhelper-compat (= 13), default-jdk [!hppa !hurd-i386 !kfreebsd-i386 !kfreebsd-amd64], dpkg-dev (>= 1.16), help2man, java-common, liblouis-dev (>= 3.20.0-2~), liblouis-dev:native (>= 3.13), libxml2-dev, libxml2-dev:native, libtool, pkg-config, texinfo"
+	],
+	"Checksums-Sha256": [
+		"c1abfdb0aa657df7de1573ce0b86a4b7b0d401e86435bdb87103c074f8faaf93 2752 liblouisutdml_2.11.0-1~bpo11+1.dsc e29a8b8b6f714757a7c0b6318a00ba7e5954a09d9c85aad0df5dfbef16e415eb 1750174 liblouisutdml_2.11.0.orig.tar.gz 9eda1cf4d689f09d08596448ff009ddedfc63e217b3b4ada8f2e4c7bfc9c2067 7600 liblouisutdml_2.11.0-1~bpo11+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/libl/liblouisutdml"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://liblouis.org/"
+	],
+	"Maintainer": [
+		"Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"liblouisutdml"
+	],
+	"Package-List": [
+		"liblouisutdml-bin deb text optional arch=any liblouisutdml-data deb text optional arch=all liblouisutdml-dev deb libdevel optional arch=any liblouisutdml-java deb java optional arch=all liblouisutdml-java-doc deb doc optional arch=all liblouisutdml9 deb libs optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"@builddeps@"
+	],
+	"Uploaders": [
+		"Paul Gevers <elbrus@debian.org>, Samuel Thibault <sthibault@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/a11y-team/liblouisutdml"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/a11y-team/liblouisutdml.git"
+	],
+	"Version": [
+		"2.11.0-1~bpo11+1"
+	]
 }

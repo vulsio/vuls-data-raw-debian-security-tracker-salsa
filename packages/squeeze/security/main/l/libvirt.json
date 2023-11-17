@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "libvirt-bin, libvirt0, libvirt0-dbg, libvirt-doc, libvirt-dev, python-libvirt"
-  ],
-  "Build-Conflicts": [
-    "dpkg-dev (= 1.15.3)"
-  ],
-  "Build-Depends": [
-    "cdbs (>= 0.4.43), debhelper (>= 7), libxml2-dev, libncurses5-dev, libreadline-dev, zlib1g-dev, libgnutls-dev, python-dev (>= 2.3.5-11), python-central (>= 0.5.6), libavahi-client-dev, libsasl2-dev, libxen-dev [i386 amd64], lvm2, qemu [amd64 i386 powerpc sparc], open-iscsi, libparted0-dev (>= 2.2), libdevmapper-dev, uuid-dev, libudev-dev, libpciaccess-dev, module-init-tools, policykit-1, dpkg-dev (<< 1.15.3) | dpkg-dev (>> 1.15.3), libcap-ng-dev, virtualbox-ose [amd64 i386], libnl-dev"
-  ],
-  "Checksums-Sha1": [
-    "f7f03d33d9d7abe993a090767e0ea2d068c225ab 1910 libvirt_0.8.3-5+squeeze5.dsc 4dc92139031f2af3141c2b1d0813b57ecd735c5d 12430752 libvirt_0.8.3.orig.tar.gz 89649a8062313946caeb92701245a7a255f2bcbb 41356 libvirt_0.8.3-5+squeeze5.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "02ff8c38cbcef53f2bf53979f60d37ff077986758a75fa3dbc3eef9974447718 1910 libvirt_0.8.3-5+squeeze5.dsc 35e1836c3947ac3edd7b4a1948cf13f5f13dd3e5bb31933d627d771b1e997a1f 12430752 libvirt_0.8.3.orig.tar.gz cdfdf5ceb19e4c905a93963a28265b178a30a68dc35acb1a11ea08e0c54d1f1f 41356 libvirt_0.8.3-5+squeeze5.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/updates/main/libv/libvirt"
-  ],
-  "Dm-Upload-Allowed": [
-    "yes"
-  ],
-  "Files": [
-    "f1d35a37cc618ac9ad5b0385796d8455 1910 libvirt_0.8.3-5+squeeze5.dsc ae8535ce119d32a2e9fb1f46e2c8f325 12430752 libvirt_0.8.3.orig.tar.gz a4ba64b3e7bf39c0919a4f70ce525912 41356 libvirt_0.8.3-5+squeeze5.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://libvirt.org"
-  ],
-  "Maintainer": [
-    "Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "libvirt"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Python-Version": [
-    "current"
-  ],
-  "Section": [
-    "devel"
-  ],
-  "Standards-Version": [
-    "3.9.1"
-  ],
-  "Uploaders": [
-    "Guido Günther <agx@sigxcpu.org>, Laurent Léonard <laurent@open-minds.org>"
-  ],
-  "Vcs-Browser": [
-    "http://git.debian.org/?p=pkg-libvirt/libvirt.git"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/git/pkg-libvirt/libvirt.git"
-  ],
-  "Version": [
-    "0.8.3-5+squeeze5"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"libvirt-bin, libvirt0, libvirt0-dbg, libvirt-doc, libvirt-dev, python-libvirt"
+	],
+	"Build-Conflicts": [
+		"dpkg-dev (= 1.15.3)"
+	],
+	"Build-Depends": [
+		"cdbs (>= 0.4.43), debhelper (>= 7), libxml2-dev, libncurses5-dev, libreadline-dev, zlib1g-dev, libgnutls-dev, python-dev (>= 2.3.5-11), python-central (>= 0.5.6), libavahi-client-dev, libsasl2-dev, libxen-dev [i386 amd64], lvm2, qemu [amd64 i386 powerpc sparc], open-iscsi, libparted0-dev (>= 2.2), libdevmapper-dev, uuid-dev, libudev-dev, libpciaccess-dev, module-init-tools, policykit-1, dpkg-dev (<< 1.15.3) | dpkg-dev (>> 1.15.3), libcap-ng-dev, virtualbox-ose [amd64 i386], libnl-dev"
+	],
+	"Checksums-Sha1": [
+		"f7f03d33d9d7abe993a090767e0ea2d068c225ab 1910 libvirt_0.8.3-5+squeeze5.dsc 4dc92139031f2af3141c2b1d0813b57ecd735c5d 12430752 libvirt_0.8.3.orig.tar.gz 89649a8062313946caeb92701245a7a255f2bcbb 41356 libvirt_0.8.3-5+squeeze5.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"02ff8c38cbcef53f2bf53979f60d37ff077986758a75fa3dbc3eef9974447718 1910 libvirt_0.8.3-5+squeeze5.dsc 35e1836c3947ac3edd7b4a1948cf13f5f13dd3e5bb31933d627d771b1e997a1f 12430752 libvirt_0.8.3.orig.tar.gz cdfdf5ceb19e4c905a93963a28265b178a30a68dc35acb1a11ea08e0c54d1f1f 41356 libvirt_0.8.3-5+squeeze5.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/updates/main/libv/libvirt"
+	],
+	"Dm-Upload-Allowed": [
+		"yes"
+	],
+	"Files": [
+		"f1d35a37cc618ac9ad5b0385796d8455 1910 libvirt_0.8.3-5+squeeze5.dsc ae8535ce119d32a2e9fb1f46e2c8f325 12430752 libvirt_0.8.3.orig.tar.gz a4ba64b3e7bf39c0919a4f70ce525912 41356 libvirt_0.8.3-5+squeeze5.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://libvirt.org"
+	],
+	"Maintainer": [
+		"Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"libvirt"
+	],
+	"Priority": [
+		"source"
+	],
+	"Python-Version": [
+		"current"
+	],
+	"Section": [
+		"devel"
+	],
+	"Standards-Version": [
+		"3.9.1"
+	],
+	"Uploaders": [
+		"Guido Günther <agx@sigxcpu.org>, Laurent Léonard <laurent@open-minds.org>"
+	],
+	"Vcs-Browser": [
+		"http://git.debian.org/?p=pkg-libvirt/libvirt.git"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/git/pkg-libvirt/libvirt.git"
+	],
+	"Version": [
+		"0.8.3-5+squeeze5"
+	]
 }

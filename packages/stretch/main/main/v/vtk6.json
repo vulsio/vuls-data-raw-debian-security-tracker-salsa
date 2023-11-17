@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libvtk6-dev, libvtk6-qt-dev, libvtk6.3, libvtk6.3-qt, libvtk6-jni, libvtk6-java, python-vtk6, tcl-vtk6, vtk6, vtk6-doc, vtk6-examples"
-  ],
-  "Build-Depends": [
-    "chrpath, cmake (>= 3.2.0), debhelper (>= 9), default-jdk, default-libmysqlclient-dev, dh-python, ftgl-dev, hdf5-tools, javahelper, libalglib-dev, libavcodec-dev, libavformat-dev, libavutil-dev, libboost-all-dev, libdigest-md5-perl, libexpat-dev, libfreetype6-dev, libgdal-dev, libgl1-mesa-dev | libgl-dev, libgl2ps-dev (>= 1.3.8), libglew-dev, libglu1-mesa-dev | libglu-dev, libhdf5-mpi-dev, libjpeg-dev, libjsoncpp-dev, libmrmpi-dev, libnetcdf-dev, libnetcdf-cxx-legacy-dev, libogg-dev, libosmesa6-dev, libpng-dev, libpq-dev, libproj-dev, libqt5opengl5-dev, libqt5webkit5-dev, libsqlite3-dev, libswscale-dev, libtheora-dev, libtiff-dev, libutfcpp-dev, libx11-dev, libxml2-dev, libxpm-dev, libxt-dev, mpi-default-dev, pkg-config, python-all-dev (<< 2.8), python-autobahn, python-matplotlib, python-mpi4py, python-six, python-twisted, qtbase5-dev, qttools5-private-dev, r-base, r-base-core, r-base-dev, tcl-dev, tk-dev, x11proto-core-dev, xauth, xvfb, zlib1g-dev"
-  ],
-  "Build-Depends-Indep": [
-    "doxygen-latex, texlive-binaries, texlive-math-extra, graphviz, ghostscript, gnuplot-nox"
-  ],
-  "Checksums-Sha256": [
-    "64119db959e26087b5a6979cab84dd3ccf8df53d0e325d8c72bf0513cb4c31eb 3656 vtk6_6.3.0+dfsg1-5.dsc c485859fe954baed0069676b72d1f5bd06050fe4e02bb111b40acd969595ca8d 17936046 vtk6_6.3.0+dfsg1.orig.tar.gz ca976731c0245830c94c526adaf3860957f45ab31200c13452f80c7e21e6db5e 29320 vtk6_6.3.0+dfsg1-5.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/v/vtk6"
-  ],
-  "Files": [
-    "25516813418a39f5f919315267f35c5a 3656 vtk6_6.3.0+dfsg1-5.dsc f12f24aa0cc3dc1aee2808e8f511bc1f 17936046 vtk6_6.3.0+dfsg1.orig.tar.gz 23b5006aa44a1b32c62ea05d69c2e7a4 29320 vtk6_6.3.0+dfsg1-5.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.vtk.org/"
-  ],
-  "Maintainer": [
-    "Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "vtk6"
-  ],
-  "Package-List": [
-    "libvtk6-dev deb libdevel optional arch=any libvtk6-java deb java optional arch=any libvtk6-jni deb java optional arch=any libvtk6-qt-dev deb libdevel optional arch=any libvtk6.3 deb libs optional arch=any libvtk6.3-qt deb libs optional arch=any python-vtk6 deb python optional arch=any tcl-vtk6 deb interpreters optional arch=any vtk6 deb interpreters optional arch=any vtk6-doc deb doc optional arch=all vtk6-examples deb graphics optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential, cmake"
-  ],
-  "Uploaders": [
-    "Anton Gladky <gladk@debian.org>, Gert Wollny <gw.fossdev@gmail.com>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/debian-science/packages/vtk6.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/debian-science/packages/vtk6.git"
-  ],
-  "Version": [
-    "6.3.0+dfsg1-5"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libvtk6-dev, libvtk6-qt-dev, libvtk6.3, libvtk6.3-qt, libvtk6-jni, libvtk6-java, python-vtk6, tcl-vtk6, vtk6, vtk6-doc, vtk6-examples"
+	],
+	"Build-Depends": [
+		"chrpath, cmake (>= 3.2.0), debhelper (>= 9), default-jdk, default-libmysqlclient-dev, dh-python, ftgl-dev, hdf5-tools, javahelper, libalglib-dev, libavcodec-dev, libavformat-dev, libavutil-dev, libboost-all-dev, libdigest-md5-perl, libexpat-dev, libfreetype6-dev, libgdal-dev, libgl1-mesa-dev | libgl-dev, libgl2ps-dev (>= 1.3.8), libglew-dev, libglu1-mesa-dev | libglu-dev, libhdf5-mpi-dev, libjpeg-dev, libjsoncpp-dev, libmrmpi-dev, libnetcdf-dev, libnetcdf-cxx-legacy-dev, libogg-dev, libosmesa6-dev, libpng-dev, libpq-dev, libproj-dev, libqt5opengl5-dev, libqt5webkit5-dev, libsqlite3-dev, libswscale-dev, libtheora-dev, libtiff-dev, libutfcpp-dev, libx11-dev, libxml2-dev, libxpm-dev, libxt-dev, mpi-default-dev, pkg-config, python-all-dev (<< 2.8), python-autobahn, python-matplotlib, python-mpi4py, python-six, python-twisted, qtbase5-dev, qttools5-private-dev, r-base, r-base-core, r-base-dev, tcl-dev, tk-dev, x11proto-core-dev, xauth, xvfb, zlib1g-dev"
+	],
+	"Build-Depends-Indep": [
+		"doxygen-latex, texlive-binaries, texlive-math-extra, graphviz, ghostscript, gnuplot-nox"
+	],
+	"Checksums-Sha256": [
+		"64119db959e26087b5a6979cab84dd3ccf8df53d0e325d8c72bf0513cb4c31eb 3656 vtk6_6.3.0+dfsg1-5.dsc c485859fe954baed0069676b72d1f5bd06050fe4e02bb111b40acd969595ca8d 17936046 vtk6_6.3.0+dfsg1.orig.tar.gz ca976731c0245830c94c526adaf3860957f45ab31200c13452f80c7e21e6db5e 29320 vtk6_6.3.0+dfsg1-5.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/v/vtk6"
+	],
+	"Files": [
+		"25516813418a39f5f919315267f35c5a 3656 vtk6_6.3.0+dfsg1-5.dsc f12f24aa0cc3dc1aee2808e8f511bc1f 17936046 vtk6_6.3.0+dfsg1.orig.tar.gz 23b5006aa44a1b32c62ea05d69c2e7a4 29320 vtk6_6.3.0+dfsg1-5.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.vtk.org/"
+	],
+	"Maintainer": [
+		"Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"vtk6"
+	],
+	"Package-List": [
+		"libvtk6-dev deb libdevel optional arch=any libvtk6-java deb java optional arch=any libvtk6-jni deb java optional arch=any libvtk6-qt-dev deb libdevel optional arch=any libvtk6.3 deb libs optional arch=any libvtk6.3-qt deb libs optional arch=any python-vtk6 deb python optional arch=any tcl-vtk6 deb interpreters optional arch=any vtk6 deb interpreters optional arch=any vtk6-doc deb doc optional arch=all vtk6-examples deb graphics optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, cmake"
+	],
+	"Uploaders": [
+		"Anton Gladky <gladk@debian.org>, Gert Wollny <gw.fossdev@gmail.com>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/debian-science/packages/vtk6.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/debian-science/packages/vtk6.git"
+	],
+	"Version": [
+		"6.3.0+dfsg1-5"
+	]
 }

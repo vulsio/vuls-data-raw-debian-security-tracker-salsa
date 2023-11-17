@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "orthanc, orthanc-doc, orthanc-dev, liborthancframework1, liborthancframework-dev"
-  ],
-  "Build-Depends": [
-    "cmake, debhelper-compat (= 13), doxygen, libboost-all-dev, libcharls-dev, libcivetweb-dev (>= 1.14), libcurl4-openssl-dev | libcurl4-dev, libdcmtk-dev, libgtest-dev, libjpeg-dev, libjs-jquery, libjsoncpp-dev, liblua5.3-dev, libpng-dev, libprotobuf-dev, libpugixml-dev, libsqlite3-dev, libwrap0-dev, locales, protobuf-compiler, tzdata, unzip, uuid-dev, zlib1g-dev, yui-compressor"
-  ],
-  "Checksums-Sha256": [
-    "ca57aea996a4fc0d042867b68d572261ee55af945dd1e98d154709846c7e8f25 2678 orthanc_1.12.1+dfsg-4.dsc b62e8db2ea3e0219067a60390a9ae9201066bfe8c4aad2d833e4c28c7e3c5178 1071392 orthanc_1.12.1+dfsg.orig.tar.xz 27bf713b57e682913fb56d90c6004974a828bcf6afadbb1dcd97e05e91664f38 232752 orthanc_1.12.1+dfsg-4.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/o/orthanc"
-  ],
-  "Files": [
-    "76b18d7d9a9b36baf0d685547d3c06fd 2678 orthanc_1.12.1+dfsg-4.dsc 8e46d0c06d7d7754b992037724f13929 1071392 orthanc_1.12.1+dfsg.orig.tar.xz bd6f55ffb89c90a9308c70b295ed9f72 232752 orthanc_1.12.1+dfsg-4.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.orthanc-server.com/"
-  ],
-  "Maintainer": [
-    "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "orthanc"
-  ],
-  "Package-List": [
-    "liborthancframework-dev deb libdevel optional arch=any liborthancframework1 deb libs optional arch=any orthanc deb science optional arch=any orthanc-dev deb libdevel optional arch=any orthanc-doc deb doc optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "curl"
-  ],
-  "Uploaders": [
-    "Sebastien Jodogne <s.jodogne@gmail.com>, Andreas Tille <tille@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/med-team/orthanc"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/med-team/orthanc.git"
-  ],
-  "Version": [
-    "1.12.1+dfsg-4"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"orthanc, orthanc-doc, orthanc-dev, liborthancframework1, liborthancframework-dev"
+	],
+	"Build-Depends": [
+		"cmake, debhelper-compat (= 13), doxygen, libboost-all-dev, libcharls-dev, libcivetweb-dev (>= 1.14), libcurl4-openssl-dev | libcurl4-dev, libdcmtk-dev, libgtest-dev, libjpeg-dev, libjs-jquery, libjsoncpp-dev, liblua5.3-dev, libpng-dev, libprotobuf-dev, libpugixml-dev, libsqlite3-dev, libwrap0-dev, locales, protobuf-compiler, tzdata, unzip, uuid-dev, zlib1g-dev, yui-compressor"
+	],
+	"Checksums-Sha256": [
+		"ca57aea996a4fc0d042867b68d572261ee55af945dd1e98d154709846c7e8f25 2678 orthanc_1.12.1+dfsg-4.dsc b62e8db2ea3e0219067a60390a9ae9201066bfe8c4aad2d833e4c28c7e3c5178 1071392 orthanc_1.12.1+dfsg.orig.tar.xz 27bf713b57e682913fb56d90c6004974a828bcf6afadbb1dcd97e05e91664f38 232752 orthanc_1.12.1+dfsg-4.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/o/orthanc"
+	],
+	"Files": [
+		"76b18d7d9a9b36baf0d685547d3c06fd 2678 orthanc_1.12.1+dfsg-4.dsc 8e46d0c06d7d7754b992037724f13929 1071392 orthanc_1.12.1+dfsg.orig.tar.xz bd6f55ffb89c90a9308c70b295ed9f72 232752 orthanc_1.12.1+dfsg-4.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.orthanc-server.com/"
+	],
+	"Maintainer": [
+		"Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"orthanc"
+	],
+	"Package-List": [
+		"liborthancframework-dev deb libdevel optional arch=any liborthancframework1 deb libs optional arch=any orthanc deb science optional arch=any orthanc-dev deb libdevel optional arch=any orthanc-doc deb doc optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"curl"
+	],
+	"Uploaders": [
+		"Sebastien Jodogne <s.jodogne@gmail.com>, Andreas Tille <tille@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/med-team/orthanc"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/med-team/orthanc.git"
+	],
+	"Version": [
+		"1.12.1+dfsg-4"
+	]
 }

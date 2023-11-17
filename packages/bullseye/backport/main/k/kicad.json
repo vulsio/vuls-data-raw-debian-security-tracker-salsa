@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any-amd64 any-i386 arm64 armhf mips64el powerpc ppc64 ppc64el riscv64 all"
-  ],
-  "Binary": [
-    "kicad, kicad-demos, kicad-doc-ca, kicad-doc-de, kicad-doc-en, kicad-doc-es, kicad-doc-fr, kicad-doc-id, kicad-doc-it, kicad-doc-ja, kicad-doc-pl, kicad-doc-ru, kicad-doc-zh, kicad-libraries"
-  ],
-  "Build-Depends": [
-    "asciidoctor, cmake, chrpath, dblatex, debhelper-compat (= 13), dh-python, docbook-utils, docbook-xsl, doxygen, dpkg-dev (>= 1.16.1.1~), fonts-freefont-ttf, fonts-vlgothic, gettext, git, imagemagick, libocct-data-exchange-dev, libboost-date-time-dev, libboost-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-locale-dev, libboost-program-options-dev, libboost-regex-dev, libboost-system-dev, libboost-test-dev, libboost-thread-dev, libbz2-dev, libcairo2-dev, libcurl4-openssl-dev, libglew-dev, libglm-dev (>= 0.9.9.6-1~), libgtk-3-dev, liblocale-gettext-perl, libngspice0-dev, libpython3-dev, libssl-dev, libterm-readkey-perl, libtext-wrapi18n-perl, libunicode-linebreak-perl, libwxgtk3.0-gtk3-dev, libxml2-utils, lmodern, pkg-config, po4a, python3-all, python3-dev, python3-wxgtk4.0, source-highlight, swig, texlive-fonts-extra, texlive-lang-chinese, texlive-lang-cyrillic, texlive-lang-english, texlive-lang-european, texlive-lang-french, texlive-lang-german, texlive-lang-italian, texlive-lang-japanese, texlive-lang-other, texlive-lang-polish, texlive-lang-spanish, texlive-xetex, xmlto"
-  ],
-  "Checksums-Sha256": [
-    "6b2feb353005ace1a6fc5b189597e38a8805364a6268b9a71c7092ef851dbfb8 4304 kicad_6.0.11+dfsg-1~bpo11+1.dsc 47f082d4f08068a0a3c00d1814513a55e37af11cd73a8fd08b1e8ac225f1af5b 74491576 kicad_6.0.11+dfsg.orig-doc.tar.xz 0441426e54e50dae539c80edb20efa3eb3caefb70eae8410ddef80701d533461 26459684 kicad_6.0.11+dfsg.orig.tar.xz db0665e94f5357d07382ead04bc7a8b2ee023cfdc5aa8cce603534870ce6d287 59812 kicad_6.0.11+dfsg-1~bpo11+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/k/kicad"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.kicad.org"
-  ],
-  "Maintainer": [
-    "Debian Electronics Team <pkg-electronics-devel@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "kicad"
-  ],
-  "Package-List": [
-    "kicad deb electronics optional arch=any-amd64,any-i386,arm64,armhf,mips64el,powerpc,ppc64,ppc64el,riscv64 kicad-demos deb electronics optional arch=all kicad-doc-ca deb doc optional arch=all kicad-doc-de deb doc optional arch=all kicad-doc-en deb doc optional arch=all kicad-doc-es deb doc optional arch=all kicad-doc-fr deb doc optional arch=all kicad-doc-id deb doc optional arch=all kicad-doc-it deb doc optional arch=all kicad-doc-ja deb doc optional arch=all kicad-doc-pl deb doc optional arch=all kicad-doc-ru deb doc optional arch=all kicad-doc-zh deb doc optional arch=all kicad-libraries deb metapackages optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Carsten Schoenert <c.schoenert@t-online.de>, Georges Khaznadar <georgesk@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/electronics-team/KiCad/kicad/-/tree/debian/bullseye"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/electronics-team/KiCad/kicad -b debian/bullseye"
-  ],
-  "Version": [
-    "6.0.11+dfsg-1~bpo11+1"
-  ]
+	"Architecture": [
+		"any-amd64 any-i386 arm64 armhf mips64el powerpc ppc64 ppc64el riscv64 all"
+	],
+	"Binary": [
+		"kicad, kicad-demos, kicad-doc-ca, kicad-doc-de, kicad-doc-en, kicad-doc-es, kicad-doc-fr, kicad-doc-id, kicad-doc-it, kicad-doc-ja, kicad-doc-pl, kicad-doc-ru, kicad-doc-zh, kicad-libraries"
+	],
+	"Build-Depends": [
+		"asciidoctor, cmake, chrpath, dblatex, debhelper-compat (= 13), dh-python, docbook-utils, docbook-xsl, doxygen, dpkg-dev (>= 1.16.1.1~), fonts-freefont-ttf, fonts-vlgothic, gettext, git, imagemagick, libocct-data-exchange-dev, libboost-date-time-dev, libboost-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-locale-dev, libboost-program-options-dev, libboost-regex-dev, libboost-system-dev, libboost-test-dev, libboost-thread-dev, libbz2-dev, libcairo2-dev, libcurl4-openssl-dev, libglew-dev, libglm-dev (>= 0.9.9.6-1~), libgtk-3-dev, liblocale-gettext-perl, libngspice0-dev, libpython3-dev, libssl-dev, libterm-readkey-perl, libtext-wrapi18n-perl, libunicode-linebreak-perl, libwxgtk3.0-gtk3-dev, libxml2-utils, lmodern, pkg-config, po4a, python3-all, python3-dev, python3-wxgtk4.0, source-highlight, swig, texlive-fonts-extra, texlive-lang-chinese, texlive-lang-cyrillic, texlive-lang-english, texlive-lang-european, texlive-lang-french, texlive-lang-german, texlive-lang-italian, texlive-lang-japanese, texlive-lang-other, texlive-lang-polish, texlive-lang-spanish, texlive-xetex, xmlto"
+	],
+	"Checksums-Sha256": [
+		"6b2feb353005ace1a6fc5b189597e38a8805364a6268b9a71c7092ef851dbfb8 4304 kicad_6.0.11+dfsg-1~bpo11+1.dsc 47f082d4f08068a0a3c00d1814513a55e37af11cd73a8fd08b1e8ac225f1af5b 74491576 kicad_6.0.11+dfsg.orig-doc.tar.xz 0441426e54e50dae539c80edb20efa3eb3caefb70eae8410ddef80701d533461 26459684 kicad_6.0.11+dfsg.orig.tar.xz db0665e94f5357d07382ead04bc7a8b2ee023cfdc5aa8cce603534870ce6d287 59812 kicad_6.0.11+dfsg-1~bpo11+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/k/kicad"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.kicad.org"
+	],
+	"Maintainer": [
+		"Debian Electronics Team <pkg-electronics-devel@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"kicad"
+	],
+	"Package-List": [
+		"kicad deb electronics optional arch=any-amd64,any-i386,arm64,armhf,mips64el,powerpc,ppc64,ppc64el,riscv64 kicad-demos deb electronics optional arch=all kicad-doc-ca deb doc optional arch=all kicad-doc-de deb doc optional arch=all kicad-doc-en deb doc optional arch=all kicad-doc-es deb doc optional arch=all kicad-doc-fr deb doc optional arch=all kicad-doc-id deb doc optional arch=all kicad-doc-it deb doc optional arch=all kicad-doc-ja deb doc optional arch=all kicad-doc-pl deb doc optional arch=all kicad-doc-ru deb doc optional arch=all kicad-doc-zh deb doc optional arch=all kicad-libraries deb metapackages optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Carsten Schoenert <c.schoenert@t-online.de>, Georges Khaznadar <georgesk@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/electronics-team/KiCad/kicad/-/tree/debian/bullseye"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/electronics-team/KiCad/kicad -b debian/bullseye"
+	],
+	"Version": [
+		"6.0.11+dfsg-1~bpo11+1"
+	]
 }

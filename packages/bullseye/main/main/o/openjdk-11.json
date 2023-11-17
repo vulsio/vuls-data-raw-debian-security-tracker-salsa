@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "alpha amd64 armel armhf arm64 i386 ia64 mips mipsel mips64 mips64el powerpc powerpcspe ppc64 ppc64el m68k riscv64 sh4 sparc sparc64 s390x x32 all"
-  ],
-  "Binary": [
-    "openjdk-11-jdk-headless, openjdk-11-jre-headless, openjdk-11-jdk, openjdk-11-jre, openjdk-11-demo, openjdk-11-source, openjdk-11-doc, openjdk-11-dbg, openjdk-11-jre-zero"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 11), m4, lsb-release, zip, unzip, sharutils, gawk, cpio, pkg-config, procps, wdiff, fastjar (>= 2:0.96-0ubuntu2), time, strip-nondeterminism, debugedit (>= 4.16), jtreg6 (>= 6+1-0~) <!nocheck>, libtestng7-java <!nocheck>, xvfb <!nocheck>, xauth <!nocheck>, xfonts-base <!nocheck>, libgl1-mesa-dri [!x32] <!nocheck>, xfwm4 <!nocheck>, x11-xkb-utils <!nocheck>, dbus-x11 <!nocheck>, libasmtools-java <!nocheck>, googletest <!nocheck>, google-mock <!nocheck>, autoconf, automake, autotools-dev, ant, ant-optional, g++-10 <!cross>, openjdk-11-jdk-headless:native | openjdk-10-jdk-headless:native, libxtst-dev, libxi-dev, libxt-dev, libxaw7-dev, libxrender-dev, libcups2-dev, libasound2-dev, liblcms2-dev, libfreetype6-dev (>= 2.2.1), libxinerama-dev, libkrb5-dev, xsltproc, libpcsclite-dev, libxrandr-dev, libelf-dev, libfontconfig1-dev, libgtk2.0-0 | libgtk-3-0, libharfbuzz-dev, libffi-dev, zlib1g-dev:native, zlib1g-dev, libattr1-dev, libpng-dev, libjpeg-dev, libgif-dev, libnss3-dev (>= 2:3.17.1), openjdk-11-jdk-headless <cross>"
-  ],
-  "Build-Depends-Indep": [
-    "graphviz, pandoc"
-  ],
-  "Checksums-Sha256": [
-    "30d4539e412fcf5b9f65c868d1483c451d2fdf102ad2bcd4772ce6bd5997ea16 4616 openjdk-11_11.0.20+8-1~deb11u1.dsc 4d5d712133522f6423a34eb72baf481fd07cab603bbdbb4f4202b211948bc75e 68772944 openjdk-11_11.0.20+8.orig.tar.xz 12d759bc6535369e635b1050c1f64b9a409a21aa3eb5d7aad95162b276b25aa0 161420 openjdk-11_11.0.20+8-1~deb11u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/o/openjdk-11"
-  ],
-  "Files": [
-    "c575241aecb86277ee05e42de4f7a979 4616 openjdk-11_11.0.20+8-1~deb11u1.dsc 2d8a4fe2b0ed8c4e0e34ce50eebe10fd 68772944 openjdk-11_11.0.20+8.orig.tar.xz ba6ce72bc9954e5274dcd89daac137c1 161420 openjdk-11_11.0.20+8-1~deb11u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://openjdk.java.net/"
-  ],
-  "Maintainer": [
-    "OpenJDK Team <openjdk-11@packages.debian.org>"
-  ],
-  "Package": [
-    "openjdk-11"
-  ],
-  "Package-List": [
-    "openjdk-11-dbg deb debug optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,riscv64,sh4,sparc,sparc64,s390x,x32 openjdk-11-demo deb java optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,riscv64,sh4,sparc,sparc64,s390x,x32 openjdk-11-doc deb doc optional arch=all openjdk-11-jdk deb java optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,riscv64,sh4,sparc,sparc64,s390x,x32 openjdk-11-jdk-headless deb java optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,riscv64,sh4,sparc,sparc64,s390x,x32 openjdk-11-jre deb java optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,riscv64,sh4,sparc,sparc64,s390x,x32 openjdk-11-jre-headless deb java optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,riscv64,sh4,sparc,sparc64,s390x,x32 openjdk-11-jre-zero deb java optional arch=amd64,i386,arm64,ppc64,ppc64el,s390x openjdk-11-source deb java optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Matthias Klose <doko@ubuntu.com>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/openjdk-team/openjdk/tree/openjdk-11"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/openjdk-team/openjdk.git -b openjdk-11"
-  ],
-  "Version": [
-    "11.0.20+8-1~deb11u1"
-  ]
+	"Architecture": [
+		"alpha amd64 armel armhf arm64 i386 ia64 mips mipsel mips64 mips64el powerpc powerpcspe ppc64 ppc64el m68k riscv64 sh4 sparc sparc64 s390x x32 all"
+	],
+	"Binary": [
+		"openjdk-11-jdk-headless, openjdk-11-jre-headless, openjdk-11-jdk, openjdk-11-jre, openjdk-11-demo, openjdk-11-source, openjdk-11-doc, openjdk-11-dbg, openjdk-11-jre-zero"
+	],
+	"Build-Depends": [
+		"debhelper (>= 11), m4, lsb-release, zip, unzip, sharutils, gawk, cpio, pkg-config, procps, wdiff, fastjar (>= 2:0.96-0ubuntu2), time, strip-nondeterminism, debugedit (>= 4.16), jtreg6 (>= 6+1-0~) <!nocheck>, libtestng7-java <!nocheck>, xvfb <!nocheck>, xauth <!nocheck>, xfonts-base <!nocheck>, libgl1-mesa-dri [!x32] <!nocheck>, xfwm4 <!nocheck>, x11-xkb-utils <!nocheck>, dbus-x11 <!nocheck>, libasmtools-java <!nocheck>, googletest <!nocheck>, google-mock <!nocheck>, autoconf, automake, autotools-dev, ant, ant-optional, g++-10 <!cross>, openjdk-11-jdk-headless:native | openjdk-10-jdk-headless:native, libxtst-dev, libxi-dev, libxt-dev, libxaw7-dev, libxrender-dev, libcups2-dev, libasound2-dev, liblcms2-dev, libfreetype6-dev (>= 2.2.1), libxinerama-dev, libkrb5-dev, xsltproc, libpcsclite-dev, libxrandr-dev, libelf-dev, libfontconfig1-dev, libgtk2.0-0 | libgtk-3-0, libharfbuzz-dev, libffi-dev, zlib1g-dev:native, zlib1g-dev, libattr1-dev, libpng-dev, libjpeg-dev, libgif-dev, libnss3-dev (>= 2:3.17.1), openjdk-11-jdk-headless <cross>"
+	],
+	"Build-Depends-Indep": [
+		"graphviz, pandoc"
+	],
+	"Checksums-Sha256": [
+		"30d4539e412fcf5b9f65c868d1483c451d2fdf102ad2bcd4772ce6bd5997ea16 4616 openjdk-11_11.0.20+8-1~deb11u1.dsc 4d5d712133522f6423a34eb72baf481fd07cab603bbdbb4f4202b211948bc75e 68772944 openjdk-11_11.0.20+8.orig.tar.xz 12d759bc6535369e635b1050c1f64b9a409a21aa3eb5d7aad95162b276b25aa0 161420 openjdk-11_11.0.20+8-1~deb11u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/o/openjdk-11"
+	],
+	"Files": [
+		"c575241aecb86277ee05e42de4f7a979 4616 openjdk-11_11.0.20+8-1~deb11u1.dsc 2d8a4fe2b0ed8c4e0e34ce50eebe10fd 68772944 openjdk-11_11.0.20+8.orig.tar.xz ba6ce72bc9954e5274dcd89daac137c1 161420 openjdk-11_11.0.20+8-1~deb11u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://openjdk.java.net/"
+	],
+	"Maintainer": [
+		"OpenJDK Team <openjdk-11@packages.debian.org>"
+	],
+	"Package": [
+		"openjdk-11"
+	],
+	"Package-List": [
+		"openjdk-11-dbg deb debug optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,riscv64,sh4,sparc,sparc64,s390x,x32 openjdk-11-demo deb java optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,riscv64,sh4,sparc,sparc64,s390x,x32 openjdk-11-doc deb doc optional arch=all openjdk-11-jdk deb java optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,riscv64,sh4,sparc,sparc64,s390x,x32 openjdk-11-jdk-headless deb java optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,riscv64,sh4,sparc,sparc64,s390x,x32 openjdk-11-jre deb java optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,riscv64,sh4,sparc,sparc64,s390x,x32 openjdk-11-jre-headless deb java optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,riscv64,sh4,sparc,sparc64,s390x,x32 openjdk-11-jre-zero deb java optional arch=amd64,i386,arm64,ppc64,ppc64el,s390x openjdk-11-source deb java optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Matthias Klose <doko@ubuntu.com>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/openjdk-team/openjdk/tree/openjdk-11"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/openjdk-team/openjdk.git -b openjdk-11"
+	],
+	"Version": [
+		"11.0.20+8-1~deb11u1"
+	]
 }

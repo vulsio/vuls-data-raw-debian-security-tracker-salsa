@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "gstreamer1.0-plugins-bad-doc, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-bad-dbg, libgstreamer-plugins-bad1.0-0, libgstreamer-plugins-bad1.0-dev, gir1.2-gst-plugins-bad-1.0"
-  ],
-  "Build-Depends": [
-    "autoconf (>= 2.69), automake (>= 1.14), autopoint (>= 0.17), autotools-dev, cdbs (>= 0.4.93), debhelper (>= 9), dh-autoreconf, dpkg-dev (>= 1.15.1), flite-dev, gir1.2-freedesktop, gir1.2-glib-2.0, gir1.2-gst-plugins-base-1.0, gir1.2-gstreamer-1.0, gobject-introspection (>= 0.9.12-4~), libasound2-dev (>= 0.9.1) [linux-any], libcdaudio-dev [linux-any], libdc1394-22-dev (>= 2.0.0) [linux-any], libgudev-1.0-dev (>= 143) [linux-any], libusb-1.0-0-dev [linux-any], libbluetooth-dev (>= 5) [linux-any], libsbc-dev (>= 1.1) [linux-any], libwayland-dev (>= 1.0) [linux-any], wayland-protocols [linux-any], libgstreamer1.0-dev (>= 1.10.0), gstreamer1.0-doc, gstreamer1.0-plugins-base (>= 1.10.0), gstreamer1.0-plugins-base-doc, gtk-doc-tools (>= 1.12), ladspa-sdk, libass-dev (>= 0.10.4), libbs2b-dev, libbz2-dev, libcairo2-dev, libchromaprint-dev, libcurl4-gnutls-dev (>= 7.35.0), libdca-dev, libde265-dev, libdrm-dev [!hurd-any], libdvdnav-dev (>= 4.1.2) [!hurd-any], libegl1-mesa-dev, libexempi-dev, libexif-dev (>= 0.6.16), libfaad-dev (>= 2.7), libfluidsynth-dev (>= 1.0), libgirepository1.0-dev (>= 0.9.12-4~), libgl1-mesa-dev, libgles2-mesa-dev, libglib2.0-dev (>= 2.40), libglu1-mesa-dev, libgme-dev, libgnutls28-dev (>= 2.11.3), libgsm1-dev, libgstreamer-plugins-base1.0-dev (>= 1.10.0), libgtk-3-dev (>= 3.15.0), libiptcdata0-dev (>= 1.0.2), libkate-dev (>= 0.1.7), liblilv-dev (>= 0.16), libmjpegtools-dev, libmms-dev (>= 0.4), libmodplug-dev, libmpcdec-dev, libofa0-dev (>= 0.9.3), libopenal-dev (>= 1:1.14), libopencv-dev (>= 2.3.0), libopenexr-dev, libopenjp2-7-dev, libopus-dev (>= 0.9.4), liborc-0.4-dev (>= 1:0.4.17), libpng-dev, librsvg2-dev (>= 2.36.2), librtmp-dev, libsndfile1-dev (>= 1.0.16), libsoundtouch-dev (>= 1.5.0), libspandsp-dev, libsrtp0-dev, libssl-dev, libtool (>= 2.2.6), libvo-aacenc-dev, libvo-amrwbenc-dev, libwebp-dev (>= 0.2.1), libwebrtc-audio-processing-dev (>= 0.2), libwildmidi-dev (>= 0.2.3), libx11-dev, libx265-dev, libxml2-dev (>= 2.8), libxvidcore-dev, libzbar-dev (>= 0.9), libzvbi-dev, nettle-dev, pkg-config (>= 0.11.0)"
-  ],
-  "Checksums-Sha256": [
-    "6a47212d299458570cc7f98a0833a11a6e1f13c942a37f3003ad09333460cb9a 4791 gst-plugins-bad1.0_1.10.4-1.dsc 23ddae506b3a223b94869a0d3eea3e9a12e847f94d2d0e0b97102ce13ecd6966 4738824 gst-plugins-bad1.0_1.10.4.orig.tar.xz d81d933336ebf62ec317c0b8623fbb9446f4e7993cb2387f0e9a0181178c9daa 33788 gst-plugins-bad1.0_1.10.4-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/g/gst-plugins-bad1.0"
-  ],
-  "Files": [
-    "ab8bcfcdcf1c117e90115d9cebeb6d1d 4791 gst-plugins-bad1.0_1.10.4-1.dsc 2757103e57a096a1a05b3ab85b8381af 4738824 gst-plugins-bad1.0_1.10.4.orig.tar.xz d90c706eed5bcbcdba1e4af5d419f42a 33788 gst-plugins-bad1.0_1.10.4-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://gstreamer.freedesktop.org/modules/gst-plugins-bad.html"
-  ],
-  "Maintainer": [
-    "Maintainers of GStreamer packages <pkg-gstreamer-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "gst-plugins-bad1.0"
-  ],
-  "Package-List": [
-    "gir1.2-gst-plugins-bad-1.0 deb introspection extra arch=any gstreamer1.0-plugins-bad deb libs extra arch=any gstreamer1.0-plugins-bad-dbg deb debug extra arch=any gstreamer1.0-plugins-bad-doc deb doc extra arch=all libgstreamer-plugins-bad1.0-0 deb libs extra arch=any libgstreamer-plugins-bad1.0-dev deb libdevel extra arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "libs"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Sebastian Dröge <slomo@debian.org>, Sjoerd Simons <sjoerd@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-gstreamer/gst-plugins-bad1.0.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-gstreamer/gst-plugins-bad1.0.git"
-  ],
-  "Version": [
-    "1.10.4-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"gstreamer1.0-plugins-bad-doc, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-bad-dbg, libgstreamer-plugins-bad1.0-0, libgstreamer-plugins-bad1.0-dev, gir1.2-gst-plugins-bad-1.0"
+	],
+	"Build-Depends": [
+		"autoconf (>= 2.69), automake (>= 1.14), autopoint (>= 0.17), autotools-dev, cdbs (>= 0.4.93), debhelper (>= 9), dh-autoreconf, dpkg-dev (>= 1.15.1), flite-dev, gir1.2-freedesktop, gir1.2-glib-2.0, gir1.2-gst-plugins-base-1.0, gir1.2-gstreamer-1.0, gobject-introspection (>= 0.9.12-4~), libasound2-dev (>= 0.9.1) [linux-any], libcdaudio-dev [linux-any], libdc1394-22-dev (>= 2.0.0) [linux-any], libgudev-1.0-dev (>= 143) [linux-any], libusb-1.0-0-dev [linux-any], libbluetooth-dev (>= 5) [linux-any], libsbc-dev (>= 1.1) [linux-any], libwayland-dev (>= 1.0) [linux-any], wayland-protocols [linux-any], libgstreamer1.0-dev (>= 1.10.0), gstreamer1.0-doc, gstreamer1.0-plugins-base (>= 1.10.0), gstreamer1.0-plugins-base-doc, gtk-doc-tools (>= 1.12), ladspa-sdk, libass-dev (>= 0.10.4), libbs2b-dev, libbz2-dev, libcairo2-dev, libchromaprint-dev, libcurl4-gnutls-dev (>= 7.35.0), libdca-dev, libde265-dev, libdrm-dev [!hurd-any], libdvdnav-dev (>= 4.1.2) [!hurd-any], libegl1-mesa-dev, libexempi-dev, libexif-dev (>= 0.6.16), libfaad-dev (>= 2.7), libfluidsynth-dev (>= 1.0), libgirepository1.0-dev (>= 0.9.12-4~), libgl1-mesa-dev, libgles2-mesa-dev, libglib2.0-dev (>= 2.40), libglu1-mesa-dev, libgme-dev, libgnutls28-dev (>= 2.11.3), libgsm1-dev, libgstreamer-plugins-base1.0-dev (>= 1.10.0), libgtk-3-dev (>= 3.15.0), libiptcdata0-dev (>= 1.0.2), libkate-dev (>= 0.1.7), liblilv-dev (>= 0.16), libmjpegtools-dev, libmms-dev (>= 0.4), libmodplug-dev, libmpcdec-dev, libofa0-dev (>= 0.9.3), libopenal-dev (>= 1:1.14), libopencv-dev (>= 2.3.0), libopenexr-dev, libopenjp2-7-dev, libopus-dev (>= 0.9.4), liborc-0.4-dev (>= 1:0.4.17), libpng-dev, librsvg2-dev (>= 2.36.2), librtmp-dev, libsndfile1-dev (>= 1.0.16), libsoundtouch-dev (>= 1.5.0), libspandsp-dev, libsrtp0-dev, libssl-dev, libtool (>= 2.2.6), libvo-aacenc-dev, libvo-amrwbenc-dev, libwebp-dev (>= 0.2.1), libwebrtc-audio-processing-dev (>= 0.2), libwildmidi-dev (>= 0.2.3), libx11-dev, libx265-dev, libxml2-dev (>= 2.8), libxvidcore-dev, libzbar-dev (>= 0.9), libzvbi-dev, nettle-dev, pkg-config (>= 0.11.0)"
+	],
+	"Checksums-Sha256": [
+		"6a47212d299458570cc7f98a0833a11a6e1f13c942a37f3003ad09333460cb9a 4791 gst-plugins-bad1.0_1.10.4-1.dsc 23ddae506b3a223b94869a0d3eea3e9a12e847f94d2d0e0b97102ce13ecd6966 4738824 gst-plugins-bad1.0_1.10.4.orig.tar.xz d81d933336ebf62ec317c0b8623fbb9446f4e7993cb2387f0e9a0181178c9daa 33788 gst-plugins-bad1.0_1.10.4-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/gst-plugins-bad1.0"
+	],
+	"Files": [
+		"ab8bcfcdcf1c117e90115d9cebeb6d1d 4791 gst-plugins-bad1.0_1.10.4-1.dsc 2757103e57a096a1a05b3ab85b8381af 4738824 gst-plugins-bad1.0_1.10.4.orig.tar.xz d90c706eed5bcbcdba1e4af5d419f42a 33788 gst-plugins-bad1.0_1.10.4-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://gstreamer.freedesktop.org/modules/gst-plugins-bad.html"
+	],
+	"Maintainer": [
+		"Maintainers of GStreamer packages <pkg-gstreamer-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"gst-plugins-bad1.0"
+	],
+	"Package-List": [
+		"gir1.2-gst-plugins-bad-1.0 deb introspection extra arch=any gstreamer1.0-plugins-bad deb libs extra arch=any gstreamer1.0-plugins-bad-dbg deb debug extra arch=any gstreamer1.0-plugins-bad-doc deb doc extra arch=all libgstreamer-plugins-bad1.0-0 deb libs extra arch=any libgstreamer-plugins-bad1.0-dev deb libdevel extra arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"libs"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Sebastian Dröge <slomo@debian.org>, Sjoerd Simons <sjoerd@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-gstreamer/gst-plugins-bad1.0.git;a=summary"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-gstreamer/gst-plugins-bad1.0.git"
+	],
+	"Version": [
+		"1.10.4-1"
+	]
 }

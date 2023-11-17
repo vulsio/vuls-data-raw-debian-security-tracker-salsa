@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libvirt-bin, libvirt-clients, libvirt-daemon, libvirt-daemon-system, libvirt0, libvirt0-dbg, libvirt-doc, libvirt-dev, libvirt-sanlock"
-  ],
-  "Build-Conflicts": [
-    "dpkg-dev (= 1.15.3)"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 7), dh-systemd (>= 1.18~), libxml2-dev, libncurses5-dev, libreadline-dev, zlib1g-dev, libgcrypt11-dev, libgnutls-dev, libavahi-client-dev, libsasl2-dev, libxen-dev [i386 amd64], lvm2 [linux-any], open-iscsi [linux-any], libparted0-dev (>= 2.2), parted (>= 2.2), libdevmapper-dev [linux-any], uuid-dev, libudev-dev [linux-any], libpciaccess-dev, kmod [linux-any], policykit-1, libcap-ng-dev [linux-any], libnl-dev [linux-any], libyajl-dev, libpcap0.8-dev, libnuma-dev [amd64 i386 ia64 mips mipsel powerpc], radvd [linux-any], libnetcf-dev (<< 1:0.2.0-5~) [linux-any], libsanlock-dev [linux-any], libaudit-dev [linux-any], libselinux1-dev (>= 2.0.82) [linux-any], libapparmor-dev [linux-any], libsystemd-daemon-dev [linux-any], systemtap-sdt-dev [amd64 armel armhf i386 ia64 powerpc s390], python, libfuse-dev [linux-any], libssh2-1-dev, augeas-tools, dwarves, libxml2-utils, dnsmasq-base, openssh-client, netcat-openbsd, ebtables [linux-any], iptables [linux-any], qemu-utils [linux-any]"
-  ],
-  "Checksums-Sha1": [
-    "d107ebb15fbcab9e622c3d00abb234c59d3cb497 3387 libvirt_1.2.9-9+deb8u2~bpo70+1.dsc f2de4cda8640b3abb13e6b30dd4882cc7e7b39e3 30154430 libvirt_1.2.9.orig.tar.gz 8f65a8550392e20d02e174cf1aba3d149ec5fafe 72806 libvirt_1.2.9-9+deb8u2~bpo70+1.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "c419a2c43913309f229b7ba0a9f119d001c47a2e740437ff2d9c3876a8828475 3387 libvirt_1.2.9-9+deb8u2~bpo70+1.dsc 95931a5a52f451b9ab73d6a5ae11a5740e1ba69a66520c2a0cffc6068a7e8fc4 30154430 libvirt_1.2.9.orig.tar.gz ba3b2006c15660168b3897e47fe6d35d8ccaa8de8b6df6892c655ddb154c46f3 72806 libvirt_1.2.9-9+deb8u2~bpo70+1.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/libv/libvirt"
-  ],
-  "Files": [
-    "2a0cd3ac91f1ac0b68d936600812b261 3387 libvirt_1.2.9-9+deb8u2~bpo70+1.dsc f017075995062ff1d15577b0b093d02e 30154430 libvirt_1.2.9.orig.tar.gz 65094128dbb1dc3f71fca5a0fcfee793 72806 libvirt_1.2.9-9+deb8u2~bpo70+1.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://libvirt.org"
-  ],
-  "Maintainer": [
-    "Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "libvirt"
-  ],
-  "Package-List": [
-    "libvirt-bin deb oldlibs extra libvirt-clients deb admin optional libvirt-daemon deb admin optional libvirt-daemon-system deb admin optional libvirt-dev deb libdevel optional libvirt-doc deb doc optional libvirt-sanlock deb libs extra libvirt0 deb libs optional libvirt0-dbg deb debug extra"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Uploaders": [
-    "Guido Günther <agx@sigxcpu.org>, Laurent Léonard <laurent@open-minds.org>"
-  ],
-  "Vcs-Browser": [
-    "http://git.debian.org/?p=pkg-libvirt/libvirt.git"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/git/pkg-libvirt/libvirt.git"
-  ],
-  "Version": [
-    "1.2.9-9+deb8u2~bpo70+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libvirt-bin, libvirt-clients, libvirt-daemon, libvirt-daemon-system, libvirt0, libvirt0-dbg, libvirt-doc, libvirt-dev, libvirt-sanlock"
+	],
+	"Build-Conflicts": [
+		"dpkg-dev (= 1.15.3)"
+	],
+	"Build-Depends": [
+		"debhelper (>= 7), dh-systemd (>= 1.18~), libxml2-dev, libncurses5-dev, libreadline-dev, zlib1g-dev, libgcrypt11-dev, libgnutls-dev, libavahi-client-dev, libsasl2-dev, libxen-dev [i386 amd64], lvm2 [linux-any], open-iscsi [linux-any], libparted0-dev (>= 2.2), parted (>= 2.2), libdevmapper-dev [linux-any], uuid-dev, libudev-dev [linux-any], libpciaccess-dev, kmod [linux-any], policykit-1, libcap-ng-dev [linux-any], libnl-dev [linux-any], libyajl-dev, libpcap0.8-dev, libnuma-dev [amd64 i386 ia64 mips mipsel powerpc], radvd [linux-any], libnetcf-dev (<< 1:0.2.0-5~) [linux-any], libsanlock-dev [linux-any], libaudit-dev [linux-any], libselinux1-dev (>= 2.0.82) [linux-any], libapparmor-dev [linux-any], libsystemd-daemon-dev [linux-any], systemtap-sdt-dev [amd64 armel armhf i386 ia64 powerpc s390], python, libfuse-dev [linux-any], libssh2-1-dev, augeas-tools, dwarves, libxml2-utils, dnsmasq-base, openssh-client, netcat-openbsd, ebtables [linux-any], iptables [linux-any], qemu-utils [linux-any]"
+	],
+	"Checksums-Sha1": [
+		"d107ebb15fbcab9e622c3d00abb234c59d3cb497 3387 libvirt_1.2.9-9+deb8u2~bpo70+1.dsc f2de4cda8640b3abb13e6b30dd4882cc7e7b39e3 30154430 libvirt_1.2.9.orig.tar.gz 8f65a8550392e20d02e174cf1aba3d149ec5fafe 72806 libvirt_1.2.9-9+deb8u2~bpo70+1.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"c419a2c43913309f229b7ba0a9f119d001c47a2e740437ff2d9c3876a8828475 3387 libvirt_1.2.9-9+deb8u2~bpo70+1.dsc 95931a5a52f451b9ab73d6a5ae11a5740e1ba69a66520c2a0cffc6068a7e8fc4 30154430 libvirt_1.2.9.orig.tar.gz ba3b2006c15660168b3897e47fe6d35d8ccaa8de8b6df6892c655ddb154c46f3 72806 libvirt_1.2.9-9+deb8u2~bpo70+1.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/libv/libvirt"
+	],
+	"Files": [
+		"2a0cd3ac91f1ac0b68d936600812b261 3387 libvirt_1.2.9-9+deb8u2~bpo70+1.dsc f017075995062ff1d15577b0b093d02e 30154430 libvirt_1.2.9.orig.tar.gz 65094128dbb1dc3f71fca5a0fcfee793 72806 libvirt_1.2.9-9+deb8u2~bpo70+1.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://libvirt.org"
+	],
+	"Maintainer": [
+		"Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"libvirt"
+	],
+	"Package-List": [
+		"libvirt-bin deb oldlibs extra libvirt-clients deb admin optional libvirt-daemon deb admin optional libvirt-daemon-system deb admin optional libvirt-dev deb libdevel optional libvirt-doc deb doc optional libvirt-sanlock deb libs extra libvirt0 deb libs optional libvirt0-dbg deb debug extra"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Uploaders": [
+		"Guido Günther <agx@sigxcpu.org>, Laurent Léonard <laurent@open-minds.org>"
+	],
+	"Vcs-Browser": [
+		"http://git.debian.org/?p=pkg-libvirt/libvirt.git"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/git/pkg-libvirt/libvirt.git"
+	],
+	"Version": [
+		"1.2.9-9+deb8u2~bpo70+1"
+	]
 }

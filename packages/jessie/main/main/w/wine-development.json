@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any-i386 any-powerpc amd64"
-  ],
-  "Binary": [
-    "wine-development, wine32-development, wine64-development, wine32-development-preloader, wine64-development-preloader, wine32-development-tools, wine64-development-tools, libwine-development-dev, libwine-development-dbg, libwine-development"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-autoreconf, libxi-dev, libxt-dev, libxmu-dev, libx11-dev, libxext-dev, libxrandr-dev, libxcursor-dev, libxrender-dev, libxkbfile-dev, libxxf86vm-dev, libxxf86dga-dev, libxinerama-dev, libgl1-mesa-dev, libglu1-mesa-dev, libxcomposite-dev, lzma, flex, bison, gettext, oss4-dev, sharutils, dctrl-tools, libpng-dev, libssl-dev, libxml2-dev, libgsm1-dev, libjpeg-dev, libtiff-dev, libpcap-dev, liblcms2-dev, libldap2-dev, libxslt1-dev, unixodbc-dev, libcups2-dev, libgnutls28-dev, libopenal-dev, libdbus-1-dev, freeglut3-dev, libmpg123-dev, libasound2-dev, libosmesa6-dev, libncurses5-dev, libgettextpo-dev, libfreetype6-dev (>= 2.5.1), libfontconfig1-dev, freebsd-glue [kfreebsd-any], prelink [linux-any], ocl-icd-opencl-dev"
-  ],
-  "Checksums-Sha1": [
-    "234dc36d5e7d55d9f96b2ee52da940a2685f8f10 4305 wine-development_1.7.29-4.dsc 14b4815654e379945dd7cf66cdf9f972934ae68a 21714485 wine-development_1.7.29.orig.tar.bz2 b8f04577b6e8e46cbf09286121f0063268c6cf26 63252 wine-development_1.7.29-4.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "1105a47a30f3de75fc28e678b0ecb12c08c3e331a728082cf2b3a2efffd440e0 4305 wine-development_1.7.29-4.dsc ad53b2179c368a61cc9297c1d39a3ff9c92d062277e8516a54b964e5a5ea1daf 21714485 wine-development_1.7.29.orig.tar.bz2 2a931f75e070b43dc7a8cfa4929f69de0795a457f002f64ea4521308ada0c77e 63252 wine-development_1.7.29-4.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/w/wine-development"
-  ],
-  "Files": [
-    "b90a3ecc8722b03a83f7d97927a354de 4305 wine-development_1.7.29-4.dsc 5a4c2b97f95b2fe2168bd5ce0870b7f7 21714485 wine-development_1.7.29.orig.tar.bz2 48163ecc16bca1eba8242d08ced9804b 63252 wine-development_1.7.29-4.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.winehq.org/"
-  ],
-  "Maintainer": [
-    "Debian Wine Party <pkg-wine-party@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "wine-development"
-  ],
-  "Package-List": [
-    "libwine-development deb libs optional arch=amd64,any-i386,any-powerpc libwine-development-dbg deb debug extra arch=amd64,any-i386,any-powerpc libwine-development-dev deb libdevel optional arch=amd64,any-i386,any-powerpc wine-development deb otherosfs optional arch=amd64,any-i386,any-powerpc wine32-development deb otherosfs optional arch=any-i386,any-powerpc wine32-development-preloader deb otherosfs optional arch=i386,powerpc wine32-development-tools deb libdevel optional arch=any-i386,any-powerpc wine64-development deb otherosfs optional arch=amd64 wine64-development-preloader deb otherosfs optional arch=amd64 wine64-development-tools deb libdevel optional arch=amd64"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Michael Gilbert <mgilbert@debian.org>, Stephen Kitt <skitt@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-wine/wine.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-wine/wine.git"
-  ],
-  "Version": [
-    "1.7.29-4"
-  ]
+	"Architecture": [
+		"any-i386 any-powerpc amd64"
+	],
+	"Binary": [
+		"wine-development, wine32-development, wine64-development, wine32-development-preloader, wine64-development-preloader, wine32-development-tools, wine64-development-tools, libwine-development-dev, libwine-development-dbg, libwine-development"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-autoreconf, libxi-dev, libxt-dev, libxmu-dev, libx11-dev, libxext-dev, libxrandr-dev, libxcursor-dev, libxrender-dev, libxkbfile-dev, libxxf86vm-dev, libxxf86dga-dev, libxinerama-dev, libgl1-mesa-dev, libglu1-mesa-dev, libxcomposite-dev, lzma, flex, bison, gettext, oss4-dev, sharutils, dctrl-tools, libpng-dev, libssl-dev, libxml2-dev, libgsm1-dev, libjpeg-dev, libtiff-dev, libpcap-dev, liblcms2-dev, libldap2-dev, libxslt1-dev, unixodbc-dev, libcups2-dev, libgnutls28-dev, libopenal-dev, libdbus-1-dev, freeglut3-dev, libmpg123-dev, libasound2-dev, libosmesa6-dev, libncurses5-dev, libgettextpo-dev, libfreetype6-dev (>= 2.5.1), libfontconfig1-dev, freebsd-glue [kfreebsd-any], prelink [linux-any], ocl-icd-opencl-dev"
+	],
+	"Checksums-Sha1": [
+		"234dc36d5e7d55d9f96b2ee52da940a2685f8f10 4305 wine-development_1.7.29-4.dsc 14b4815654e379945dd7cf66cdf9f972934ae68a 21714485 wine-development_1.7.29.orig.tar.bz2 b8f04577b6e8e46cbf09286121f0063268c6cf26 63252 wine-development_1.7.29-4.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"1105a47a30f3de75fc28e678b0ecb12c08c3e331a728082cf2b3a2efffd440e0 4305 wine-development_1.7.29-4.dsc ad53b2179c368a61cc9297c1d39a3ff9c92d062277e8516a54b964e5a5ea1daf 21714485 wine-development_1.7.29.orig.tar.bz2 2a931f75e070b43dc7a8cfa4929f69de0795a457f002f64ea4521308ada0c77e 63252 wine-development_1.7.29-4.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/w/wine-development"
+	],
+	"Files": [
+		"b90a3ecc8722b03a83f7d97927a354de 4305 wine-development_1.7.29-4.dsc 5a4c2b97f95b2fe2168bd5ce0870b7f7 21714485 wine-development_1.7.29.orig.tar.bz2 48163ecc16bca1eba8242d08ced9804b 63252 wine-development_1.7.29-4.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.winehq.org/"
+	],
+	"Maintainer": [
+		"Debian Wine Party <pkg-wine-party@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"wine-development"
+	],
+	"Package-List": [
+		"libwine-development deb libs optional arch=amd64,any-i386,any-powerpc libwine-development-dbg deb debug extra arch=amd64,any-i386,any-powerpc libwine-development-dev deb libdevel optional arch=amd64,any-i386,any-powerpc wine-development deb otherosfs optional arch=amd64,any-i386,any-powerpc wine32-development deb otherosfs optional arch=any-i386,any-powerpc wine32-development-preloader deb otherosfs optional arch=i386,powerpc wine32-development-tools deb libdevel optional arch=any-i386,any-powerpc wine64-development deb otherosfs optional arch=amd64 wine64-development-preloader deb otherosfs optional arch=amd64 wine64-development-tools deb libdevel optional arch=amd64"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Michael Gilbert <mgilbert@debian.org>, Stephen Kitt <skitt@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-wine/wine.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-wine/wine.git"
+	],
+	"Version": [
+		"1.7.29-4"
+	]
 }

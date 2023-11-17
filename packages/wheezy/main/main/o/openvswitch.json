@@ -1,53 +1,53 @@
 {
-  "Architecture": [
-    "linux-any all"
-  ],
-  "Binary": [
-    "openvswitch-datapath-source, openvswitch-datapath-dkms, openvswitch-common, openvswitch-switch, openvswitch-ipsec, openvswitch-pki, openvswitch-controller, openvswitch-brcompat, openvswitch-dbg, python-openvswitch, ovsdbmonitor, openvswitch-test"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 8), autoconf (>= 2.64), automake (>= 1.10) | automake1.10, libssl-dev, pkg-config (>= 0.21), bzip2, openssl, python-all (>= 2.6.6-3~), procps, python-qt4, python-zopeinterface, python-twisted-conch"
-  ],
-  "Checksums-Sha1": [
-    "729840ce3c7962e1e2141f02725c509688726cbc 2775 openvswitch_1.4.2+git20120612-9.1~deb7u1.1.dsc be5d5b563f13159818a43919e291c59ae7914d0e 1345396 openvswitch_1.4.2+git20120612.orig.tar.xz a0e6fd242f2874003eec7111cd3bbca86270be50 178475 openvswitch_1.4.2+git20120612-9.1~deb7u1.1.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "698fc970b82a2771a854c5668c04b6d1fd604e5b4365a835a07eec9cd5e04194 2775 openvswitch_1.4.2+git20120612-9.1~deb7u1.1.dsc e6804a4c1fbac44f30796b5ef543dbe081f5b7f8fc5599ae195ab6e2cfd91c9f 1345396 openvswitch_1.4.2+git20120612.orig.tar.xz 4ec681ba5fab9ac19b036e8f56e70fcce06c1a3c9e21ca444b598a51ccba302b 178475 openvswitch_1.4.2+git20120612-9.1~deb7u1.1.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/o/openvswitch"
-  ],
-  "Files": [
-    "933aa1a4b0f445877d5fac75c03ff1ab 2775 openvswitch_1.4.2+git20120612-9.1~deb7u1.1.dsc 27db406d0c41b40a0a45379e94c07a49 1345396 openvswitch_1.4.2+git20120612.orig.tar.xz fc7052b9683e8456ec76e30e18d4570f 178475 openvswitch_1.4.2+git20120612-9.1~deb7u1.1.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://openvswitch.org/"
-  ],
-  "Maintainer": [
-    "Open vSwitch developers <dev@openvswitch.org>"
-  ],
-  "Package": [
-    "openvswitch"
-  ],
-  "Package-List": [
-    "openvswitch-brcompat deb net extra openvswitch-common deb net extra openvswitch-controller deb net extra openvswitch-datapath-dkms deb net extra openvswitch-datapath-source deb net extra openvswitch-dbg deb debug extra openvswitch-ipsec deb net extra openvswitch-pki deb net extra openvswitch-switch deb net extra openvswitch-test deb net extra ovsdbmonitor deb utils extra python-openvswitch deb python extra"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Ben Pfaff <pfaffben@debian.org>, Simon Horman <horms@debian.org>"
-  ],
-  "Version": [
-    "1.4.2+git20120612-9.1~deb7u1.1"
-  ]
+	"Architecture": [
+		"linux-any all"
+	],
+	"Binary": [
+		"openvswitch-datapath-source, openvswitch-datapath-dkms, openvswitch-common, openvswitch-switch, openvswitch-ipsec, openvswitch-pki, openvswitch-controller, openvswitch-brcompat, openvswitch-dbg, python-openvswitch, ovsdbmonitor, openvswitch-test"
+	],
+	"Build-Depends": [
+		"debhelper (>= 8), autoconf (>= 2.64), automake (>= 1.10) | automake1.10, libssl-dev, pkg-config (>= 0.21), bzip2, openssl, python-all (>= 2.6.6-3~), procps, python-qt4, python-zopeinterface, python-twisted-conch"
+	],
+	"Checksums-Sha1": [
+		"729840ce3c7962e1e2141f02725c509688726cbc 2775 openvswitch_1.4.2+git20120612-9.1~deb7u1.1.dsc be5d5b563f13159818a43919e291c59ae7914d0e 1345396 openvswitch_1.4.2+git20120612.orig.tar.xz a0e6fd242f2874003eec7111cd3bbca86270be50 178475 openvswitch_1.4.2+git20120612-9.1~deb7u1.1.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"698fc970b82a2771a854c5668c04b6d1fd604e5b4365a835a07eec9cd5e04194 2775 openvswitch_1.4.2+git20120612-9.1~deb7u1.1.dsc e6804a4c1fbac44f30796b5ef543dbe081f5b7f8fc5599ae195ab6e2cfd91c9f 1345396 openvswitch_1.4.2+git20120612.orig.tar.xz 4ec681ba5fab9ac19b036e8f56e70fcce06c1a3c9e21ca444b598a51ccba302b 178475 openvswitch_1.4.2+git20120612-9.1~deb7u1.1.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/o/openvswitch"
+	],
+	"Files": [
+		"933aa1a4b0f445877d5fac75c03ff1ab 2775 openvswitch_1.4.2+git20120612-9.1~deb7u1.1.dsc 27db406d0c41b40a0a45379e94c07a49 1345396 openvswitch_1.4.2+git20120612.orig.tar.xz fc7052b9683e8456ec76e30e18d4570f 178475 openvswitch_1.4.2+git20120612-9.1~deb7u1.1.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://openvswitch.org/"
+	],
+	"Maintainer": [
+		"Open vSwitch developers <dev@openvswitch.org>"
+	],
+	"Package": [
+		"openvswitch"
+	],
+	"Package-List": [
+		"openvswitch-brcompat deb net extra openvswitch-common deb net extra openvswitch-controller deb net extra openvswitch-datapath-dkms deb net extra openvswitch-datapath-source deb net extra openvswitch-dbg deb debug extra openvswitch-ipsec deb net extra openvswitch-pki deb net extra openvswitch-switch deb net extra openvswitch-test deb net extra ovsdbmonitor deb utils extra python-openvswitch deb python extra"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Ben Pfaff <pfaffben@debian.org>, Simon Horman <horms@debian.org>"
+	],
+	"Version": [
+		"1.4.2+git20120612-9.1~deb7u1.1"
+	]
 }

@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "pulseaudio, pulseaudio-dbg, pulseaudio-utils, pulseaudio-utils-dbg, pulseaudio-esound-compat, pulseaudio-esound-compat-dbg, pulseaudio-module-zeroconf, pulseaudio-module-zeroconf-dbg, pulseaudio-module-hal, pulseaudio-module-hal-dbg, pulseaudio-module-jack, pulseaudio-module-jack-dbg, pulseaudio-module-lirc, pulseaudio-module-lirc-dbg, pulseaudio-module-gconf, pulseaudio-module-gconf-dbg, pulseaudio-module-raop, pulseaudio-module-raop-dbg, pulseaudio-module-bluetooth, pulseaudio-module-bluetooth-dbg, pulseaudio-module-x11, pulseaudio-module-x11-dbg, libpulse0, libpulse0-dbg, libpulse-mainloop-glib0, libpulse-mainloop-glib0-dbg, libpulse-browse0, libpulse-browse0-dbg, libpulse-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 5), cdbs, quilt, m4, libltdl-dev (>= 2.2.6a-2), libsamplerate0-dev, libsndfile1-dev (>= 1.0.20), libx11-dev, x11proto-core-dev, libxt-dev, libglib2.0-dev, libcap-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], libasound2-dev (>= 1.0.19) [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], libavahi-client-dev, libjack-dev, libwrap0-dev, liblircclient-dev, libgconf2-dev, libhal-dev [kfreebsd-i386 kfreebsd-amd64 hurd-i386], libasyncns-dev, libatomic-ops-dev, libspeexdsp-dev (>= 1.2~rc1), libbluetooth-dev (>= 4.40) [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], libgdbm-dev, intltool, libgtk2.0-dev, libxtst-dev, libssl-dev"
-  ],
-  "Checksums-Sha1": [
-    "a93838783ae04445a3046ce587ee751169e818b1 2631 pulseaudio_0.9.21-3~bpo50+1.dsc 817258e2ea17b8c7d16028b14de4dfb1c8a84a25 1968478 pulseaudio_0.9.21.orig.tar.gz 0400e821c4ecc5037a9974ddbe6912eb689d7a79 58281 pulseaudio_0.9.21-3~bpo50+1.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "b8059c0c2f8f9de7324515916ce62a58f21d89fdbee1d9bb83ce3888a4153d22 2631 pulseaudio_0.9.21-3~bpo50+1.dsc a43496de20267966449f97b795c25734e72795592024fdffaaefa02165a4b049 1968478 pulseaudio_0.9.21.orig.tar.gz d31e132849fc756f0264db4d2fb7d28bd23f8035c254c91536db481245da3757 58281 pulseaudio_0.9.21-3~bpo50+1.diff.gz"
-  ],
-  "Directory": [
-    "pool/main/p/pulseaudio"
-  ],
-  "Files": [
-    "4dc7c4b89627794160cb8e96e73acbb9 2631 pulseaudio_0.9.21-3~bpo50+1.dsc 39596ea1b3b24f5bf834c0e2ba77c92d 1968478 pulseaudio_0.9.21.orig.tar.gz 39c12549f4e578f320bc98e10e8d55d0 58281 pulseaudio_0.9.21-3~bpo50+1.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Homepage": [
-    "http://www.pulseaudio.org"
-  ],
-  "Maintainer": [
-    "Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "pulseaudio"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "sound"
-  ],
-  "Standards-Version": [
-    "3.8.1"
-  ],
-  "Uploaders": [
-    "CJ van den Berg <cj@vdbonline.com>, Sjoerd Simons <sjoerd@debian.org>, Andres Salomon <dilinger@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://git.debian.org/?p=pkg-pulseaudio/pulseaudio.git"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/git/pkg-pulseaudio/pulseaudio.git"
-  ],
-  "Version": [
-    "0.9.21-3~bpo50+1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"pulseaudio, pulseaudio-dbg, pulseaudio-utils, pulseaudio-utils-dbg, pulseaudio-esound-compat, pulseaudio-esound-compat-dbg, pulseaudio-module-zeroconf, pulseaudio-module-zeroconf-dbg, pulseaudio-module-hal, pulseaudio-module-hal-dbg, pulseaudio-module-jack, pulseaudio-module-jack-dbg, pulseaudio-module-lirc, pulseaudio-module-lirc-dbg, pulseaudio-module-gconf, pulseaudio-module-gconf-dbg, pulseaudio-module-raop, pulseaudio-module-raop-dbg, pulseaudio-module-bluetooth, pulseaudio-module-bluetooth-dbg, pulseaudio-module-x11, pulseaudio-module-x11-dbg, libpulse0, libpulse0-dbg, libpulse-mainloop-glib0, libpulse-mainloop-glib0-dbg, libpulse-browse0, libpulse-browse0-dbg, libpulse-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 5), cdbs, quilt, m4, libltdl-dev (>= 2.2.6a-2), libsamplerate0-dev, libsndfile1-dev (>= 1.0.20), libx11-dev, x11proto-core-dev, libxt-dev, libglib2.0-dev, libcap-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], libasound2-dev (>= 1.0.19) [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], libavahi-client-dev, libjack-dev, libwrap0-dev, liblircclient-dev, libgconf2-dev, libhal-dev [kfreebsd-i386 kfreebsd-amd64 hurd-i386], libasyncns-dev, libatomic-ops-dev, libspeexdsp-dev (>= 1.2~rc1), libbluetooth-dev (>= 4.40) [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], libgdbm-dev, intltool, libgtk2.0-dev, libxtst-dev, libssl-dev"
+	],
+	"Checksums-Sha1": [
+		"a93838783ae04445a3046ce587ee751169e818b1 2631 pulseaudio_0.9.21-3~bpo50+1.dsc 817258e2ea17b8c7d16028b14de4dfb1c8a84a25 1968478 pulseaudio_0.9.21.orig.tar.gz 0400e821c4ecc5037a9974ddbe6912eb689d7a79 58281 pulseaudio_0.9.21-3~bpo50+1.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"b8059c0c2f8f9de7324515916ce62a58f21d89fdbee1d9bb83ce3888a4153d22 2631 pulseaudio_0.9.21-3~bpo50+1.dsc a43496de20267966449f97b795c25734e72795592024fdffaaefa02165a4b049 1968478 pulseaudio_0.9.21.orig.tar.gz d31e132849fc756f0264db4d2fb7d28bd23f8035c254c91536db481245da3757 58281 pulseaudio_0.9.21-3~bpo50+1.diff.gz"
+	],
+	"Directory": [
+		"pool/main/p/pulseaudio"
+	],
+	"Files": [
+		"4dc7c4b89627794160cb8e96e73acbb9 2631 pulseaudio_0.9.21-3~bpo50+1.dsc 39596ea1b3b24f5bf834c0e2ba77c92d 1968478 pulseaudio_0.9.21.orig.tar.gz 39c12549f4e578f320bc98e10e8d55d0 58281 pulseaudio_0.9.21-3~bpo50+1.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Homepage": [
+		"http://www.pulseaudio.org"
+	],
+	"Maintainer": [
+		"Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"pulseaudio"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"sound"
+	],
+	"Standards-Version": [
+		"3.8.1"
+	],
+	"Uploaders": [
+		"CJ van den Berg <cj@vdbonline.com>, Sjoerd Simons <sjoerd@debian.org>, Andres Salomon <dilinger@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://git.debian.org/?p=pkg-pulseaudio/pulseaudio.git"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/git/pkg-pulseaudio/pulseaudio.git"
+	],
+	"Version": [
+		"0.9.21-3~bpo50+1"
+	]
 }

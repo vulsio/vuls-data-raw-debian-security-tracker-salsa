@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "sasl2-bin, cyrus-sasl2-doc, libsasl2-2, libsasl2-modules, libsasl2-modules-ldap, libsasl2-modules-otp, libsasl2-modules-sql, libsasl2-modules-gssapi-mit, libsasl2-dev, libsasl2-modules-gssapi-heimdal, cyrus-sasl2-dbg, cyrus-sasl2-mit-dbg, cyrus-sasl2-heimdal-dbg"
-  ],
-  "Build-Conflicts": [
-    "heimdal-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), quilt (>= 0.46-7~), autotools-dev, automake, autoconf, libtool, libdb-dev, libpam0g-dev (>= 0.76-22), libssl-dev (>= 0.9.7e-3), libmysqlclient-dev | libmysqlclient15-dev (>= 5.0.20), libpq-dev (>= 8.1.3-4), heimdal-multidev, krb5-multidev, libsqlite3-dev, libldap2-dev (>= 2.1.30-8), chrpath, groff-base, debconf (>= 0.5) | debconf-2.0, po-debconf, docbook-to-man, hardening-wrapper"
-  ],
-  "Checksums-Sha1": [
-    "c7b6cfc219f1849bd23f7770e32a0940bdabca15 2584 cyrus-sasl2_2.1.25.dfsg1-6+deb7u1.dsc 1ac1f1408643aa6687af5f2f763d9ff2a64304c8 1489145 cyrus-sasl2_2.1.25.dfsg1.orig.tar.gz 8cfc6b2b53e9d6abac604e0c3f0fcfcf229eb301 106970 cyrus-sasl2_2.1.25.dfsg1-6+deb7u1.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "051dfeb80b1ddf3c0018b9e9d32b32526577d62b1fd230c55c09400a1dfaf55d 2584 cyrus-sasl2_2.1.25.dfsg1-6+deb7u1.dsc 523f752715669c3e44b663b16929257c8868db23f427552930ca2fdb24c8d1c3 1489145 cyrus-sasl2_2.1.25.dfsg1.orig.tar.gz 0ea7d1f7c1c4daafb94548e9aecf0952cff918313f0bbee0ad394ca0354b14b7 106970 cyrus-sasl2_2.1.25.dfsg1-6+deb7u1.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/c/cyrus-sasl2"
-  ],
-  "Files": [
-    "826023a2efd05a40b35b3452a5700ed4 2584 cyrus-sasl2_2.1.25.dfsg1-6+deb7u1.dsc b65b7c94bbb5ac9c236daf74014dab8a 1489145 cyrus-sasl2_2.1.25.dfsg1.orig.tar.gz d6c37e00d733c73a53ee4a18cd3f1a30 106970 cyrus-sasl2_2.1.25.dfsg1-6+deb7u1.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.cyrusimap.org/"
-  ],
-  "Maintainer": [
-    "Debian Cyrus SASL Team <pkg-cyrus-sasl2-debian-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "cyrus-sasl2"
-  ],
-  "Package-List": [
-    "cyrus-sasl2-dbg deb debug extra cyrus-sasl2-doc deb doc optional cyrus-sasl2-heimdal-dbg deb debug extra cyrus-sasl2-mit-dbg deb debug extra libsasl2-2 deb libs standard libsasl2-dev deb libdevel optional libsasl2-modules deb libs optional libsasl2-modules-gssapi-heimdal deb libs extra libsasl2-modules-gssapi-mit deb libs extra libsasl2-modules-ldap deb libs extra libsasl2-modules-otp deb libs extra libsasl2-modules-sql deb libs extra sasl2-bin deb utils optional"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "devel"
-  ],
-  "Standards-Version": [
-    "3.9.2"
-  ],
-  "Uploaders": [
-    "Fabian Fagerholm <fabbe@debian.org>, Roberto C. Sanchez <roberto@connexer.com>, Ondřej Surý <ondrej@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://git.debian.org/?p=pkg-cyrus-sasl2/cyrus-sasl2.git"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/pkg-cyrus-sasl2/cyrus-sasl2/"
-  ],
-  "Version": [
-    "2.1.25.dfsg1-6+deb7u1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"sasl2-bin, cyrus-sasl2-doc, libsasl2-2, libsasl2-modules, libsasl2-modules-ldap, libsasl2-modules-otp, libsasl2-modules-sql, libsasl2-modules-gssapi-mit, libsasl2-dev, libsasl2-modules-gssapi-heimdal, cyrus-sasl2-dbg, cyrus-sasl2-mit-dbg, cyrus-sasl2-heimdal-dbg"
+	],
+	"Build-Conflicts": [
+		"heimdal-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), quilt (>= 0.46-7~), autotools-dev, automake, autoconf, libtool, libdb-dev, libpam0g-dev (>= 0.76-22), libssl-dev (>= 0.9.7e-3), libmysqlclient-dev | libmysqlclient15-dev (>= 5.0.20), libpq-dev (>= 8.1.3-4), heimdal-multidev, krb5-multidev, libsqlite3-dev, libldap2-dev (>= 2.1.30-8), chrpath, groff-base, debconf (>= 0.5) | debconf-2.0, po-debconf, docbook-to-man, hardening-wrapper"
+	],
+	"Checksums-Sha1": [
+		"c7b6cfc219f1849bd23f7770e32a0940bdabca15 2584 cyrus-sasl2_2.1.25.dfsg1-6+deb7u1.dsc 1ac1f1408643aa6687af5f2f763d9ff2a64304c8 1489145 cyrus-sasl2_2.1.25.dfsg1.orig.tar.gz 8cfc6b2b53e9d6abac604e0c3f0fcfcf229eb301 106970 cyrus-sasl2_2.1.25.dfsg1-6+deb7u1.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"051dfeb80b1ddf3c0018b9e9d32b32526577d62b1fd230c55c09400a1dfaf55d 2584 cyrus-sasl2_2.1.25.dfsg1-6+deb7u1.dsc 523f752715669c3e44b663b16929257c8868db23f427552930ca2fdb24c8d1c3 1489145 cyrus-sasl2_2.1.25.dfsg1.orig.tar.gz 0ea7d1f7c1c4daafb94548e9aecf0952cff918313f0bbee0ad394ca0354b14b7 106970 cyrus-sasl2_2.1.25.dfsg1-6+deb7u1.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/c/cyrus-sasl2"
+	],
+	"Files": [
+		"826023a2efd05a40b35b3452a5700ed4 2584 cyrus-sasl2_2.1.25.dfsg1-6+deb7u1.dsc b65b7c94bbb5ac9c236daf74014dab8a 1489145 cyrus-sasl2_2.1.25.dfsg1.orig.tar.gz d6c37e00d733c73a53ee4a18cd3f1a30 106970 cyrus-sasl2_2.1.25.dfsg1-6+deb7u1.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.cyrusimap.org/"
+	],
+	"Maintainer": [
+		"Debian Cyrus SASL Team <pkg-cyrus-sasl2-debian-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"cyrus-sasl2"
+	],
+	"Package-List": [
+		"cyrus-sasl2-dbg deb debug extra cyrus-sasl2-doc deb doc optional cyrus-sasl2-heimdal-dbg deb debug extra cyrus-sasl2-mit-dbg deb debug extra libsasl2-2 deb libs standard libsasl2-dev deb libdevel optional libsasl2-modules deb libs optional libsasl2-modules-gssapi-heimdal deb libs extra libsasl2-modules-gssapi-mit deb libs extra libsasl2-modules-ldap deb libs extra libsasl2-modules-otp deb libs extra libsasl2-modules-sql deb libs extra sasl2-bin deb utils optional"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"devel"
+	],
+	"Standards-Version": [
+		"3.9.2"
+	],
+	"Uploaders": [
+		"Fabian Fagerholm <fabbe@debian.org>, Roberto C. Sanchez <roberto@connexer.com>, Ondřej Surý <ondrej@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://git.debian.org/?p=pkg-cyrus-sasl2/cyrus-sasl2.git"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/pkg-cyrus-sasl2/cyrus-sasl2/"
+	],
+	"Version": [
+		"2.1.25.dfsg1-6+deb7u1"
+	]
 }

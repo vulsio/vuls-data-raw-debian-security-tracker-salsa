@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "amd64 arm64 armel armhf i386 mips mipsel powerpc ppc64el s390x alpha hppa hurd-i386 kfreebsd-amd64 m68k mips64el kfreebsd-i386 ppc64 sh4 x32 all"
-  ],
-  "Binary": [
-    "genometools, genometools-common, libgenometools0, libgenometools0-dev, genometools-doc, genometools-dbg, python-genometools"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-python, liblua5.1-0-dev, lua-md5-dev, lua-filesystem-dev, lua-lpeg-dev, libcairo2-dev, zlib1g-dev, libbz2-dev, libexpat1-dev, libsqlite3-dev, libbam-dev, libpango1.0-dev, libtre-dev, texlive-latex-base, texlive-latex-extra, texlive-fonts-extra, latex-xcolor, texlive-fonts-recommended, python, asciidoc-base, libxml2-utils, xsltproc, ruby, docbook-xsl, docbook-xml, faketime, imagemagick"
-  ],
-  "Checksums-Sha256": [
-    "dd188b499b1844b134272994d5f98fad1f9c0a8bcd30f963dffe34b6cc4f8223 3550 genometools_1.5.9+ds-4.dsc ae11f94395af4d04a91e7d289f849677198e486f20c32a41b63ba6ef72318784 7775328 genometools_1.5.9+ds.orig.tar.xz 54c70083f29455836bb45b35736cf19bb87cf7b00e72f475a294ab8010f73b98 22524 genometools_1.5.9+ds-4.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/g/genometools"
-  ],
-  "Files": [
-    "97f50794cc2aa2d152c6ae9e0d161a7b 3550 genometools_1.5.9+ds-4.dsc bcd7a20680419b01c3fdb63201b27952 7775328 genometools_1.5.9+ds.orig.tar.xz bad7ed1fe5a135f75d7db98cf7b5f29a 22524 genometools_1.5.9+ds-4.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://genometools.org"
-  ],
-  "Maintainer": [
-    "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "genometools"
-  ],
-  "Package-List": [
-    "genometools deb science optional arch=amd64,arm64,armel,armhf,i386,mips,mipsel,powerpc,ppc64el,s390x,alpha,hppa,hurd-i386,kfreebsd-amd64,m68k,mips64el,kfreebsd-i386,ppc64,sh4,x32 genometools-common deb science optional arch=all genometools-dbg deb debug extra arch=amd64,arm64,armel,armhf,i386,mips,mipsel,powerpc,ppc64el,s390x,alpha,hppa,hurd-i386,kfreebsd-amd64,m68k,mips64el,kfreebsd-i386,ppc64,sh4,x32 genometools-doc deb doc optional arch=all libgenometools0 deb libs optional arch=amd64,arm64,armel,armhf,i386,mips,mipsel,powerpc,ppc64el,s390x,alpha,hppa,hurd-i386,kfreebsd-amd64,m68k,mips64el,kfreebsd-i386,ppc64,sh4,x32 libgenometools0-dev deb libdevel optional arch=amd64,arm64,armel,armhf,i386,mips,mipsel,powerpc,ppc64el,s390x,alpha,hppa,hurd-i386,kfreebsd-amd64,m68k,mips64el,kfreebsd-i386,ppc64,sh4,x32 python-genometools deb python optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "science"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential, python"
-  ],
-  "Uploaders": [
-    "Sascha Steinbiss <satta@debian.org>, Andreas Tille <tille@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/debian-med/genometools.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/debian-med/genometools.git"
-  ],
-  "Version": [
-    "1.5.9+ds-4"
-  ]
+	"Architecture": [
+		"amd64 arm64 armel armhf i386 mips mipsel powerpc ppc64el s390x alpha hppa hurd-i386 kfreebsd-amd64 m68k mips64el kfreebsd-i386 ppc64 sh4 x32 all"
+	],
+	"Binary": [
+		"genometools, genometools-common, libgenometools0, libgenometools0-dev, genometools-doc, genometools-dbg, python-genometools"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-python, liblua5.1-0-dev, lua-md5-dev, lua-filesystem-dev, lua-lpeg-dev, libcairo2-dev, zlib1g-dev, libbz2-dev, libexpat1-dev, libsqlite3-dev, libbam-dev, libpango1.0-dev, libtre-dev, texlive-latex-base, texlive-latex-extra, texlive-fonts-extra, latex-xcolor, texlive-fonts-recommended, python, asciidoc-base, libxml2-utils, xsltproc, ruby, docbook-xsl, docbook-xml, faketime, imagemagick"
+	],
+	"Checksums-Sha256": [
+		"dd188b499b1844b134272994d5f98fad1f9c0a8bcd30f963dffe34b6cc4f8223 3550 genometools_1.5.9+ds-4.dsc ae11f94395af4d04a91e7d289f849677198e486f20c32a41b63ba6ef72318784 7775328 genometools_1.5.9+ds.orig.tar.xz 54c70083f29455836bb45b35736cf19bb87cf7b00e72f475a294ab8010f73b98 22524 genometools_1.5.9+ds-4.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/genometools"
+	],
+	"Files": [
+		"97f50794cc2aa2d152c6ae9e0d161a7b 3550 genometools_1.5.9+ds-4.dsc bcd7a20680419b01c3fdb63201b27952 7775328 genometools_1.5.9+ds.orig.tar.xz bad7ed1fe5a135f75d7db98cf7b5f29a 22524 genometools_1.5.9+ds-4.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://genometools.org"
+	],
+	"Maintainer": [
+		"Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"genometools"
+	],
+	"Package-List": [
+		"genometools deb science optional arch=amd64,arm64,armel,armhf,i386,mips,mipsel,powerpc,ppc64el,s390x,alpha,hppa,hurd-i386,kfreebsd-amd64,m68k,mips64el,kfreebsd-i386,ppc64,sh4,x32 genometools-common deb science optional arch=all genometools-dbg deb debug extra arch=amd64,arm64,armel,armhf,i386,mips,mipsel,powerpc,ppc64el,s390x,alpha,hppa,hurd-i386,kfreebsd-amd64,m68k,mips64el,kfreebsd-i386,ppc64,sh4,x32 genometools-doc deb doc optional arch=all libgenometools0 deb libs optional arch=amd64,arm64,armel,armhf,i386,mips,mipsel,powerpc,ppc64el,s390x,alpha,hppa,hurd-i386,kfreebsd-amd64,m68k,mips64el,kfreebsd-i386,ppc64,sh4,x32 libgenometools0-dev deb libdevel optional arch=amd64,arm64,armel,armhf,i386,mips,mipsel,powerpc,ppc64el,s390x,alpha,hppa,hurd-i386,kfreebsd-amd64,m68k,mips64el,kfreebsd-i386,ppc64,sh4,x32 python-genometools deb python optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"science"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, python"
+	],
+	"Uploaders": [
+		"Sascha Steinbiss <satta@debian.org>, Andreas Tille <tille@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/debian-med/genometools.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/debian-med/genometools.git"
+	],
+	"Version": [
+		"1.5.9+ds-4"
+	]
 }

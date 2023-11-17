@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-ring-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cc-1-dev (>= 1.0.62-~~) <!nocheck>, librust-libc-0.2-dev (>= 0.2.69-~~) <!nocheck>, librust-once-cell-1+std-dev (>= 1.5.2-~~) <!nocheck>, librust-spin-0.9+once-dev <!nocheck>, librust-untrusted-0.7+default-dev (>= 0.7.1-~~) <!nocheck>, librust-web-sys-0.3+crypto-dev (>= 0.3.37-~~) <!nocheck>, librust-web-sys-0.3+window-dev (>= 0.3.37-~~) <!nocheck>, librust-winapi-0.3+ntsecapi-dev (>= 0.3.8-~~) <!nocheck>, librust-winapi-0.3+wtypesbase-dev (>= 0.3.8-~~) <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "ccbe538dfbaac9d7ebbca44b7f06e43aed05b8ee10e8f099868925a56e19e724 2708 rust-ring_0.16.20-2.dsc 3053cf52e236a3ed746dfc745aa9cacf1b791d846bdaf412f60a8d7d6e17c8fc 5082615 rust-ring_0.16.20.orig.tar.gz 5ce6fa31177b22500f264e1e236d8b9900af78c00f852805f60efbb58cb37c0d 12104 rust-ring_0.16.20-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-ring"
-  ],
-  "Files": [
-    "73e0cd72ba4a61b38c6810e85da0c648 2708 rust-ring_0.16.20-2.dsc 17462a66e5dda514a57afefa0295d8f0 5082615 rust-ring_0.16.20.orig.tar.gz 7d5c9300c297850e227e61c8d2d32cb5 12104 rust-ring_0.16.20-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-ring"
-  ],
-  "Package-List": [
-    "librust-ring-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.5.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-libc-0.2-dev"
-  ],
-  "Uploaders": [
-    "kpcyrd <git@rxv.cc>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/ring"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/ring]"
-  ],
-  "Version": [
-    "0.16.20-2"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-ring-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cc-1-dev (>= 1.0.62-~~) <!nocheck>, librust-libc-0.2-dev (>= 0.2.69-~~) <!nocheck>, librust-once-cell-1+std-dev (>= 1.5.2-~~) <!nocheck>, librust-spin-0.9+once-dev <!nocheck>, librust-untrusted-0.7+default-dev (>= 0.7.1-~~) <!nocheck>, librust-web-sys-0.3+crypto-dev (>= 0.3.37-~~) <!nocheck>, librust-web-sys-0.3+window-dev (>= 0.3.37-~~) <!nocheck>, librust-winapi-0.3+ntsecapi-dev (>= 0.3.8-~~) <!nocheck>, librust-winapi-0.3+wtypesbase-dev (>= 0.3.8-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"ccbe538dfbaac9d7ebbca44b7f06e43aed05b8ee10e8f099868925a56e19e724 2708 rust-ring_0.16.20-2.dsc 3053cf52e236a3ed746dfc745aa9cacf1b791d846bdaf412f60a8d7d6e17c8fc 5082615 rust-ring_0.16.20.orig.tar.gz 5ce6fa31177b22500f264e1e236d8b9900af78c00f852805f60efbb58cb37c0d 12104 rust-ring_0.16.20-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-ring"
+	],
+	"Files": [
+		"73e0cd72ba4a61b38c6810e85da0c648 2708 rust-ring_0.16.20-2.dsc 17462a66e5dda514a57afefa0295d8f0 5082615 rust-ring_0.16.20.orig.tar.gz 7d5c9300c297850e227e61c8d2d32cb5 12104 rust-ring_0.16.20-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-ring"
+	],
+	"Package-List": [
+		"librust-ring-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-libc-0.2-dev"
+	],
+	"Uploaders": [
+		"kpcyrd <git@rxv.cc>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/ring"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/ring]"
+	],
+	"Version": [
+		"0.16.20-2"
+	]
 }

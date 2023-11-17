@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "golang-github-syncthing-syncthing-dev, syncthing, syncthing-relaysrv, syncthing-discosrv"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-golang, golang-go, genxdr, golang-metrics-dev, golang-github-kardianos-osext-dev, golang-github-bkaradzic-go-lz4-dev, golang-golang-x-text-dev, golang-golang-x-net-dev, golang-golang-x-crypto-dev, golang-github-calmh-du-dev, golang-github-calmh-luhn-dev, golang-github-calmh-xdr-dev, golang-github-thejerf-suture-dev, golang-github-juju-ratelimit-dev, golang-github-vitrun-qart-dev, golang-goleveldb-dev, golang-github-gobwas-glob-dev (>= 0.2.1), golang-github-jackpal-gateway-dev, golang-github-audriusbutkevicius-go-nat-pmp-dev, golang-github-d4l3k-messagediff-dev, golang-github-cznic-ql-dev, golang-github-golang-groupcache-dev, golang-github-oschwald-geoip2-golang-dev, golang-gogoprotobuf-dev, golang-github-lib-pq-dev, golang-github-minio-sha256-simd-dev, golang-github-sasha-s-go-deadlock-dev, fonts-font-awesome, libjs-bootstrap"
-  ],
-  "Checksums-Sha256": [
-    "c0c9d7b8276865ff99a04ca2c7770904437dcb6834d43f107feb7e0ff2bc3837 3231 syncthing_0.14.18+dfsg1-2.dsc c90d3f5b0819655c07650434e522c1e0018326712232e320d946a5f5a1ef9f7e 2030874 syncthing_0.14.18+dfsg1.orig.tar.gz 9d033aeec7a6502b263833cc713c942bc2827e9081fc6cbc743e981c40f3394b 18584 syncthing_0.14.18+dfsg1-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/s/syncthing"
-  ],
-  "Files": [
-    "c43a24ecf3590e17332b1e7975384e5d 3231 syncthing_0.14.18+dfsg1-2.dsc 0cd179638fd56f3c0800319550bfeee4 2030874 syncthing_0.14.18+dfsg1.orig.tar.gz 24f0f4561feef988af85207b5bd2c017 18584 syncthing_0.14.18+dfsg1-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Go-Import-Path": [
-    "github.com/syncthing/syncthing"
-  ],
-  "Homepage": [
-    "https://www.syncthing.net/"
-  ],
-  "Maintainer": [
-    "Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "syncthing"
-  ],
-  "Package-List": [
-    "golang-github-syncthing-syncthing-dev deb devel extra arch=all syncthing deb utils extra arch=any syncthing-discosrv deb utils extra arch=any syncthing-relaysrv deb utils extra arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Alexandre Viau <aviau@debian.org>, Gordon Ball <gordon@chronitis.net>, Michael Lustfield <michael@lustfield.net>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-go/packages/syncthing.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-go/packages/syncthing.git"
-  ],
-  "Version": [
-    "0.14.18+dfsg1-2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"golang-github-syncthing-syncthing-dev, syncthing, syncthing-relaysrv, syncthing-discosrv"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-golang, golang-go, genxdr, golang-metrics-dev, golang-github-kardianos-osext-dev, golang-github-bkaradzic-go-lz4-dev, golang-golang-x-text-dev, golang-golang-x-net-dev, golang-golang-x-crypto-dev, golang-github-calmh-du-dev, golang-github-calmh-luhn-dev, golang-github-calmh-xdr-dev, golang-github-thejerf-suture-dev, golang-github-juju-ratelimit-dev, golang-github-vitrun-qart-dev, golang-goleveldb-dev, golang-github-gobwas-glob-dev (>= 0.2.1), golang-github-jackpal-gateway-dev, golang-github-audriusbutkevicius-go-nat-pmp-dev, golang-github-d4l3k-messagediff-dev, golang-github-cznic-ql-dev, golang-github-golang-groupcache-dev, golang-github-oschwald-geoip2-golang-dev, golang-gogoprotobuf-dev, golang-github-lib-pq-dev, golang-github-minio-sha256-simd-dev, golang-github-sasha-s-go-deadlock-dev, fonts-font-awesome, libjs-bootstrap"
+	],
+	"Checksums-Sha256": [
+		"c0c9d7b8276865ff99a04ca2c7770904437dcb6834d43f107feb7e0ff2bc3837 3231 syncthing_0.14.18+dfsg1-2.dsc c90d3f5b0819655c07650434e522c1e0018326712232e320d946a5f5a1ef9f7e 2030874 syncthing_0.14.18+dfsg1.orig.tar.gz 9d033aeec7a6502b263833cc713c942bc2827e9081fc6cbc743e981c40f3394b 18584 syncthing_0.14.18+dfsg1-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/s/syncthing"
+	],
+	"Files": [
+		"c43a24ecf3590e17332b1e7975384e5d 3231 syncthing_0.14.18+dfsg1-2.dsc 0cd179638fd56f3c0800319550bfeee4 2030874 syncthing_0.14.18+dfsg1.orig.tar.gz 24f0f4561feef988af85207b5bd2c017 18584 syncthing_0.14.18+dfsg1-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Go-Import-Path": [
+		"github.com/syncthing/syncthing"
+	],
+	"Homepage": [
+		"https://www.syncthing.net/"
+	],
+	"Maintainer": [
+		"Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"syncthing"
+	],
+	"Package-List": [
+		"golang-github-syncthing-syncthing-dev deb devel extra arch=all syncthing deb utils extra arch=any syncthing-discosrv deb utils extra arch=any syncthing-relaysrv deb utils extra arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Alexandre Viau <aviau@debian.org>, Gordon Ball <gordon@chronitis.net>, Michael Lustfield <michael@lustfield.net>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-go/packages/syncthing.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-go/packages/syncthing.git"
+	],
+	"Version": [
+		"0.14.18+dfsg1-2"
+	]
 }

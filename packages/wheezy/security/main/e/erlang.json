@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "erlang-base, erlang-base-hipe, erlang-appmon, erlang-asn1, erlang-common-test, erlang-corba, erlang-crypto, erlang-debugger, erlang-dialyzer, erlang-diameter, erlang-doc, erlang-edoc, erlang-eldap, erlang-erl-docgen, erlang-et, erlang-eunit, erlang-gs, erlang-ic, erlang-ic-java, erlang-inets, erlang-inviso, erlang-manpages, erlang-megaco, erlang-mnesia, erlang-observer, erlang-odbc, erlang-os-mon, erlang-parsetools, erlang-percept, erlang-pman, erlang-public-key, erlang-reltool, erlang-runtime-tools, erlang-snmp, erlang-ssh, erlang-ssl, erlang-syntax-tools, erlang-test-server, erlang-toolbar, erlang-tools, erlang-tv, erlang-typer, erlang-webtool, erlang-wx, erlang-xmerl, erlang-dev, erlang-src, erlang-examples, erlang-jinterface, erlang-mode, erlang-nox, erlang-x11, erlang"
-  ],
-  "Build-Conflicts": [
-    "autoconf2.13, libwxgtk2.4-dev, libwxgtk2.6-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 5.0.0), autoconf (>= 2.50), openssl, libssl-dev, m4, libncurses5-dev, quilt, autotools-dev, unixodbc-dev, bison, flex, ed, libwxgtk2.8-dev, dctrl-tools, xsltproc, libgl1-mesa-dev | libgl-dev, libglu1-mesa-dev | libglu-dev, libsctp-dev [!hurd-i386 !kfreebsd-i386 !kfreebsd-amd64 !solaris-i386], kfreebsd-kernel-headers [kfreebsd-i386 kfreebsd-amd64]"
-  ],
-  "Build-Depends-Indep": [
-    "fop, default-jdk | sun-java6-jdk"
-  ],
-  "Checksums-Sha1": [
-    "987386caa4a89eda2695a43a4eaf4bfbb3c99bc1 4982 erlang_15.b.1-dfsg-4+deb7u2.dsc 03ce6187a0d1f3f015afa499291159f111396ffd 35344908 erlang_15.b.1-dfsg.orig.tar.gz b6dba4aa70475fb192f274c320022ef6169835c2 73312 erlang_15.b.1-dfsg-4+deb7u2.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "ebe4db34706d0a818570a7220574a88129786b91020df3bd040fbf7cff20baec 4982 erlang_15.b.1-dfsg-4+deb7u2.dsc 49fe4a87455b57e5bbb742a10eff7fd5a8756177b600d6f4c955e774785baea9 35344908 erlang_15.b.1-dfsg.orig.tar.gz 545b1f6718c78077a3dcbff070acc2920acddc7e74717af008296649e815d6c8 73312 erlang_15.b.1-dfsg-4+deb7u2.diff.gz"
-  ],
-  "Directory": [
-    "pool/updates/main/e/erlang"
-  ],
-  "Files": [
-    "bbf621c975526ec9c3c25104056b87c1 4982 erlang_15.b.1-dfsg-4+deb7u2.dsc 3315d9c5107b3777548d4daccb5591e5 35344908 erlang_15.b.1-dfsg.orig.tar.gz b52db7bd5938a5b9759fd3838e1309bc 73312 erlang_15.b.1-dfsg-4+deb7u2.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Homepage": [
-    "http://www.erlang.org/"
-  ],
-  "Maintainer": [
-    "Debian Erlang Packagers <pkg-erlang-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "erlang"
-  ],
-  "Package-List": [
-    "erlang deb interpreters optional erlang-appmon deb interpreters optional erlang-asn1 deb interpreters optional erlang-base deb interpreters optional erlang-base-hipe deb interpreters extra erlang-common-test deb interpreters optional erlang-corba deb interpreters optional erlang-crypto deb interpreters optional erlang-debugger deb interpreters optional erlang-dev deb interpreters optional erlang-dialyzer deb interpreters optional erlang-diameter deb interpreters optional erlang-doc deb doc optional erlang-edoc deb interpreters optional erlang-eldap deb interpreters optional erlang-erl-docgen deb interpreters optional erlang-et deb interpreters optional erlang-eunit deb interpreters optional erlang-examples deb interpreters optional erlang-gs deb interpreters optional erlang-ic deb interpreters optional erlang-ic-java deb interpreters optional erlang-inets deb interpreters optional erlang-inviso deb interpreters optional erlang-jinterface deb interpreters optional erlang-manpages deb doc optional erlang-megaco deb interpreters optional erlang-mnesia deb interpreters optional erlang-mode deb interpreters optional erlang-nox deb interpreters optional erlang-observer deb interpreters optional erlang-odbc deb interpreters optional erlang-os-mon deb interpreters optional erlang-parsetools deb interpreters optional erlang-percept deb interpreters optional erlang-pman deb interpreters optional erlang-public-key deb interpreters optional erlang-reltool deb interpreters optional erlang-runtime-tools deb interpreters optional erlang-snmp deb interpreters optional erlang-src deb interpreters optional erlang-ssh deb interpreters optional erlang-ssl deb interpreters optional erlang-syntax-tools deb interpreters optional erlang-test-server deb interpreters optional erlang-toolbar deb interpreters optional erlang-tools deb interpreters optional erlang-tv deb interpreters optional erlang-typer deb interpreters optional erlang-webtool deb interpreters optional erlang-wx deb interpreters optional erlang-x11 deb interpreters optional erlang-xmerl deb interpreters optional"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "interpreters"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Sergei Golovan <sgolovan@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://svn.debian.org/wsvn/pkg-erlang/erlang/trunk/"
-  ],
-  "Vcs-Svn": [
-    "svn://svn.debian.org/svn/pkg-erlang/erlang/trunk/"
-  ],
-  "Version": [
-    "1:15.b.1-dfsg-4+deb7u2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"erlang-base, erlang-base-hipe, erlang-appmon, erlang-asn1, erlang-common-test, erlang-corba, erlang-crypto, erlang-debugger, erlang-dialyzer, erlang-diameter, erlang-doc, erlang-edoc, erlang-eldap, erlang-erl-docgen, erlang-et, erlang-eunit, erlang-gs, erlang-ic, erlang-ic-java, erlang-inets, erlang-inviso, erlang-manpages, erlang-megaco, erlang-mnesia, erlang-observer, erlang-odbc, erlang-os-mon, erlang-parsetools, erlang-percept, erlang-pman, erlang-public-key, erlang-reltool, erlang-runtime-tools, erlang-snmp, erlang-ssh, erlang-ssl, erlang-syntax-tools, erlang-test-server, erlang-toolbar, erlang-tools, erlang-tv, erlang-typer, erlang-webtool, erlang-wx, erlang-xmerl, erlang-dev, erlang-src, erlang-examples, erlang-jinterface, erlang-mode, erlang-nox, erlang-x11, erlang"
+	],
+	"Build-Conflicts": [
+		"autoconf2.13, libwxgtk2.4-dev, libwxgtk2.6-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 5.0.0), autoconf (>= 2.50), openssl, libssl-dev, m4, libncurses5-dev, quilt, autotools-dev, unixodbc-dev, bison, flex, ed, libwxgtk2.8-dev, dctrl-tools, xsltproc, libgl1-mesa-dev | libgl-dev, libglu1-mesa-dev | libglu-dev, libsctp-dev [!hurd-i386 !kfreebsd-i386 !kfreebsd-amd64 !solaris-i386], kfreebsd-kernel-headers [kfreebsd-i386 kfreebsd-amd64]"
+	],
+	"Build-Depends-Indep": [
+		"fop, default-jdk | sun-java6-jdk"
+	],
+	"Checksums-Sha1": [
+		"987386caa4a89eda2695a43a4eaf4bfbb3c99bc1 4982 erlang_15.b.1-dfsg-4+deb7u2.dsc 03ce6187a0d1f3f015afa499291159f111396ffd 35344908 erlang_15.b.1-dfsg.orig.tar.gz b6dba4aa70475fb192f274c320022ef6169835c2 73312 erlang_15.b.1-dfsg-4+deb7u2.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"ebe4db34706d0a818570a7220574a88129786b91020df3bd040fbf7cff20baec 4982 erlang_15.b.1-dfsg-4+deb7u2.dsc 49fe4a87455b57e5bbb742a10eff7fd5a8756177b600d6f4c955e774785baea9 35344908 erlang_15.b.1-dfsg.orig.tar.gz 545b1f6718c78077a3dcbff070acc2920acddc7e74717af008296649e815d6c8 73312 erlang_15.b.1-dfsg-4+deb7u2.diff.gz"
+	],
+	"Directory": [
+		"pool/updates/main/e/erlang"
+	],
+	"Files": [
+		"bbf621c975526ec9c3c25104056b87c1 4982 erlang_15.b.1-dfsg-4+deb7u2.dsc 3315d9c5107b3777548d4daccb5591e5 35344908 erlang_15.b.1-dfsg.orig.tar.gz b52db7bd5938a5b9759fd3838e1309bc 73312 erlang_15.b.1-dfsg-4+deb7u2.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Homepage": [
+		"http://www.erlang.org/"
+	],
+	"Maintainer": [
+		"Debian Erlang Packagers <pkg-erlang-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"erlang"
+	],
+	"Package-List": [
+		"erlang deb interpreters optional erlang-appmon deb interpreters optional erlang-asn1 deb interpreters optional erlang-base deb interpreters optional erlang-base-hipe deb interpreters extra erlang-common-test deb interpreters optional erlang-corba deb interpreters optional erlang-crypto deb interpreters optional erlang-debugger deb interpreters optional erlang-dev deb interpreters optional erlang-dialyzer deb interpreters optional erlang-diameter deb interpreters optional erlang-doc deb doc optional erlang-edoc deb interpreters optional erlang-eldap deb interpreters optional erlang-erl-docgen deb interpreters optional erlang-et deb interpreters optional erlang-eunit deb interpreters optional erlang-examples deb interpreters optional erlang-gs deb interpreters optional erlang-ic deb interpreters optional erlang-ic-java deb interpreters optional erlang-inets deb interpreters optional erlang-inviso deb interpreters optional erlang-jinterface deb interpreters optional erlang-manpages deb doc optional erlang-megaco deb interpreters optional erlang-mnesia deb interpreters optional erlang-mode deb interpreters optional erlang-nox deb interpreters optional erlang-observer deb interpreters optional erlang-odbc deb interpreters optional erlang-os-mon deb interpreters optional erlang-parsetools deb interpreters optional erlang-percept deb interpreters optional erlang-pman deb interpreters optional erlang-public-key deb interpreters optional erlang-reltool deb interpreters optional erlang-runtime-tools deb interpreters optional erlang-snmp deb interpreters optional erlang-src deb interpreters optional erlang-ssh deb interpreters optional erlang-ssl deb interpreters optional erlang-syntax-tools deb interpreters optional erlang-test-server deb interpreters optional erlang-toolbar deb interpreters optional erlang-tools deb interpreters optional erlang-tv deb interpreters optional erlang-typer deb interpreters optional erlang-webtool deb interpreters optional erlang-wx deb interpreters optional erlang-x11 deb interpreters optional erlang-xmerl deb interpreters optional"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"interpreters"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Sergei Golovan <sgolovan@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://svn.debian.org/wsvn/pkg-erlang/erlang/trunk/"
+	],
+	"Vcs-Svn": [
+		"svn://svn.debian.org/svn/pkg-erlang/erlang/trunk/"
+	],
+	"Version": [
+		"1:15.b.1-dfsg-4+deb7u2"
+	]
 }

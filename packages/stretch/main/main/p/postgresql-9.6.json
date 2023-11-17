@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libpq-dev, libpq5, libecpg6, libecpg-dev, libecpg-compat3, libpgtypes3, postgresql-9.6, postgresql-9.6-dbg, postgresql-client-9.6, postgresql-server-dev-9.6, postgresql-doc-9.6, postgresql-contrib-9.6, postgresql-plperl-9.6, postgresql-plpython-9.6, postgresql-plpython3-9.6, postgresql-pltcl-9.6"
-  ],
-  "Build-Depends": [
-    "bison, debhelper (>= 9~), dh-exec (>= 0.13~), docbook, docbook-dsssl, docbook-xml, docbook-xsl, dpkg-dev (>= 1.16.1~), flex, gettext, krb5-multidev, libedit-dev, libipc-run-perl, libldap2-dev, libpam0g-dev | libpam-dev, libperl-dev, libselinux1-dev [linux-any], libssl-dev, libsystemd-dev [linux-any], libxml2-dev, libxml2-utils, libxslt1-dev, openjade, opensp, perl (>= 5.8), python-dev, python3-dev, tcl8.6-dev | tcl8.5-dev, uuid-dev, xsltproc, zlib1g-dev | libz-dev"
-  ],
-  "Checksums-Sha256": [
-    "d7bd776c56f514fcdae757d0bc88b5d3311799eb436e1e389a6c0138c48cb40d 3698 postgresql-9.6_9.6.17-0+deb9u1.dsc f6e1e32d32545f97c066f3c19f4d58dfab1205c01252cf85c5c92294ace1a0c2 18812282 postgresql-9.6_9.6.17.orig.tar.bz2 daae30d27d42300b52aeddd7280e03872bab9fd2baa0f939d6a2674e7172933b 29964 postgresql-9.6_9.6.17-0+deb9u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/postgresql-9.6"
-  ],
-  "Files": [
-    "a4282603914d21bdac1532cb293443a5 3698 postgresql-9.6_9.6.17-0+deb9u1.dsc 4a12dd9e2afe140a8d2d4366471b075f 18812282 postgresql-9.6_9.6.17.orig.tar.bz2 c8fe3a799540162605db6f36ae3f906c 29964 postgresql-9.6_9.6.17-0+deb9u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.postgresql.org/"
-  ],
-  "Maintainer": [
-    "Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>"
-  ],
-  "Package": [
-    "postgresql-9.6"
-  ],
-  "Package-List": [
-    "libecpg-compat3 deb libs optional arch=any libecpg-dev deb libdevel optional arch=any libecpg6 deb libs optional arch=any libpgtypes3 deb libs optional arch=any libpq-dev deb libdevel optional arch=any libpq5 deb libs optional arch=any postgresql-9.6 deb database optional arch=any postgresql-9.6-dbg deb debug extra arch=any postgresql-client-9.6 deb database optional arch=any postgresql-contrib-9.6 deb database optional arch=any postgresql-doc-9.6 deb doc optional arch=all postgresql-plperl-9.6 deb database optional arch=any postgresql-plpython-9.6 deb database optional arch=any postgresql-plpython3-9.6 deb database optional arch=any postgresql-pltcl-9.6 deb database optional arch=any postgresql-server-dev-9.6 deb libdevel optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential, hunspell-en-us, locales, logrotate, net-tools, netcat-openbsd, perl"
-  ],
-  "Uploaders": [
-    "Martin Pitt <mpitt@debian.org>, Peter Eisentraut <petere@debian.org>, Christoph Berg <myon@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-postgresql/postgresql.git/"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-postgresql/postgresql.git -b 9.6-stretch"
-  ],
-  "Version": [
-    "9.6.17-0+deb9u1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libpq-dev, libpq5, libecpg6, libecpg-dev, libecpg-compat3, libpgtypes3, postgresql-9.6, postgresql-9.6-dbg, postgresql-client-9.6, postgresql-server-dev-9.6, postgresql-doc-9.6, postgresql-contrib-9.6, postgresql-plperl-9.6, postgresql-plpython-9.6, postgresql-plpython3-9.6, postgresql-pltcl-9.6"
+	],
+	"Build-Depends": [
+		"bison, debhelper (>= 9~), dh-exec (>= 0.13~), docbook, docbook-dsssl, docbook-xml, docbook-xsl, dpkg-dev (>= 1.16.1~), flex, gettext, krb5-multidev, libedit-dev, libipc-run-perl, libldap2-dev, libpam0g-dev | libpam-dev, libperl-dev, libselinux1-dev [linux-any], libssl-dev, libsystemd-dev [linux-any], libxml2-dev, libxml2-utils, libxslt1-dev, openjade, opensp, perl (>= 5.8), python-dev, python3-dev, tcl8.6-dev | tcl8.5-dev, uuid-dev, xsltproc, zlib1g-dev | libz-dev"
+	],
+	"Checksums-Sha256": [
+		"d7bd776c56f514fcdae757d0bc88b5d3311799eb436e1e389a6c0138c48cb40d 3698 postgresql-9.6_9.6.17-0+deb9u1.dsc f6e1e32d32545f97c066f3c19f4d58dfab1205c01252cf85c5c92294ace1a0c2 18812282 postgresql-9.6_9.6.17.orig.tar.bz2 daae30d27d42300b52aeddd7280e03872bab9fd2baa0f939d6a2674e7172933b 29964 postgresql-9.6_9.6.17-0+deb9u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/postgresql-9.6"
+	],
+	"Files": [
+		"a4282603914d21bdac1532cb293443a5 3698 postgresql-9.6_9.6.17-0+deb9u1.dsc 4a12dd9e2afe140a8d2d4366471b075f 18812282 postgresql-9.6_9.6.17.orig.tar.bz2 c8fe3a799540162605db6f36ae3f906c 29964 postgresql-9.6_9.6.17-0+deb9u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.postgresql.org/"
+	],
+	"Maintainer": [
+		"Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>"
+	],
+	"Package": [
+		"postgresql-9.6"
+	],
+	"Package-List": [
+		"libecpg-compat3 deb libs optional arch=any libecpg-dev deb libdevel optional arch=any libecpg6 deb libs optional arch=any libpgtypes3 deb libs optional arch=any libpq-dev deb libdevel optional arch=any libpq5 deb libs optional arch=any postgresql-9.6 deb database optional arch=any postgresql-9.6-dbg deb debug extra arch=any postgresql-client-9.6 deb database optional arch=any postgresql-contrib-9.6 deb database optional arch=any postgresql-doc-9.6 deb doc optional arch=all postgresql-plperl-9.6 deb database optional arch=any postgresql-plpython-9.6 deb database optional arch=any postgresql-plpython3-9.6 deb database optional arch=any postgresql-pltcl-9.6 deb database optional arch=any postgresql-server-dev-9.6 deb libdevel optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, hunspell-en-us, locales, logrotate, net-tools, netcat-openbsd, perl"
+	],
+	"Uploaders": [
+		"Martin Pitt <mpitt@debian.org>, Peter Eisentraut <petere@debian.org>, Christoph Berg <myon@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-postgresql/postgresql.git/"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-postgresql/postgresql.git -b 9.6-stretch"
+	],
+	"Version": [
+		"9.6.17-0+deb9u1"
+	]
 }

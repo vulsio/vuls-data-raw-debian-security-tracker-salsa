@@ -1,36 +1,36 @@
 {
-  "header": {
-    "line": "CVE-2006-XXXX [realtime-lsm-source: wrong permissions might lead to local root]",
-    "name": "TEMP-0382161-C88554",
-    "description": "[realtime-lsm-source: wrong permissions might lead to local root]"
-  },
-  "annotations": [
-    {
-      "line": "\t- realtime-lsm 0.8.7-2 (bug #382161; low)",
-      "type": "package",
-      "package": "realtime-lsm",
-      "kind": "fixed",
-      "version": "0.8.7-2",
-      "flags": [
-        {
-          "bug": 382161
-        },
-        {
-          "severity": "low"
-        }
-      ]
-    },
-    {
-      "line": "\t[sarge] - realtime-lsm <not-affected>",
-      "type": "package",
-      "release": "sarge",
-      "package": "realtime-lsm",
-      "kind": "not-affected"
-    },
-    {
-      "line": "\tNOTE: only to user 1017 or group 1001 and only while root is building the module",
-      "type": "NOTE",
-      "description": "only to user 1017 or group 1001 and only while root is building the module"
-    }
-  ]
+	"header": {
+		"line": "CVE-2006-XXXX [realtime-lsm-source: wrong permissions might lead to local root]",
+		"name": "TEMP-0382161-C88554",
+		"description": "[realtime-lsm-source: wrong permissions might lead to local root]"
+	},
+	"annotations": [
+		{
+			"line": "\t- realtime-lsm 0.8.7-2 (bug #382161; low)",
+			"type": "package",
+			"package": "realtime-lsm",
+			"kind": "fixed",
+			"version": "0.8.7-2",
+			"flags": [
+				{
+					"bug": 382161
+				},
+				{
+					"severity": "low"
+				}
+			]
+		},
+		{
+			"line": "\t[sarge] - realtime-lsm <not-affected>",
+			"type": "package",
+			"release": "sarge",
+			"package": "realtime-lsm",
+			"kind": "not-affected"
+		},
+		{
+			"line": "\tNOTE: only to user 1017 or group 1001 and only while root is building the module",
+			"type": "NOTE",
+			"description": "only to user 1017 or group 1001 and only while root is building the module"
+		}
+	]
 }

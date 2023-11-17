@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "ktorrent, ktorrent-data"
-  ],
-  "Build-Depends": [
-    "cmake (>= 3.16~), debhelper-compat (= 13), extra-cmake-modules (>= 5.91~), gettext, libboost-dev (>= 1.71.0~), libgeoip-dev, libkf5archive-dev (>= 5.91~), libkf5completion-dev (>= 5.91~), libkf5config-dev (>= 5.91~), libkf5configwidgets-dev (>= 5.91~), libkf5coreaddons-dev (>= 5.91~), libkf5crash-dev (>= 5.91~), libkf5dbusaddons-dev (>= 5.91~), libkf5dnssd-dev (>= 5.91~), libkf5doctools-dev (>= 5.91~), libkf5i18n-dev (>= 5.91~), libkf5iconthemes-dev (>= 5.91~), libkf5itemviews-dev (>= 5.91~), libkf5kcmutils-dev (>= 5.91~), libkf5kio-dev (>= 5.91~), libkf5notifications-dev (>= 5.91~), libkf5notifyconfig-dev (>= 5.91~), libkf5parts-dev (>= 5.91~), libkf5plotting-dev (>= 5.91~), libkf5solid-dev (>= 5.91~), libkf5syndication-dev (>= 1:5.91~), libkf5textwidgets-dev (>= 5.91~), libkf5widgetsaddons-dev (>= 5.91~), libkf5windowsystem-dev (>= 5.91~), libkf5xmlgui-dev (>= 5.91~), libktorrent-dev (>= 20.11.70~), libphonon4qt5-dev, libphonon4qt5experimental-dev, libtag1-dev, pkg-config, pkg-kde-tools (>= 0.15.16), qtbase5-dev (>= 5.15.2~), qtwebengine5-dev (>= 5.15.2~) [amd64 arm64 armhf i386]"
-  ],
-  "Checksums-Sha256": [
-    "73b14a09cd6ab3ec1349235ebd5c437e3e125a8d62bea9e64eda58f8fb88be81 3339 ktorrent_22.12.3-2.dsc 85ae133afa93750a75f7255b74d4364aa833325fc61ed4e49cdcf31f08e0f71e 2144172 ktorrent_22.12.3.orig.tar.xz 40b4214da55cb9d1cc12eabb20f75f63f266292495785b6ca6908b19482257d9 833 ktorrent_22.12.3.orig.tar.xz.asc 499272a69aa65c35313a417bf97c46a5a33693c5cd34c24adfa85c808dfd3c43 24864 ktorrent_22.12.3-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/k/ktorrent"
-  ],
-  "Files": [
-    "5bbefc7ddc578a08e151100f47233b90 3339 ktorrent_22.12.3-2.dsc ecf507002927123a266c1916381cb5cb 2144172 ktorrent_22.12.3.orig.tar.xz 7b5fd414ebe396f8cd690c417fc7fdaf 833 ktorrent_22.12.3.orig.tar.xz.asc 12050a814afb76fa75079f79cf9393f9 24864 ktorrent_22.12.3-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.kde.org/applications/internet/ktorrent/"
-  ],
-  "Maintainer": [
-    "Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>"
-  ],
-  "Package": [
-    "ktorrent"
-  ],
-  "Package-List": [
-    "ktorrent deb net optional arch=any ktorrent-data deb net optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Uploaders": [
-    "Aurélien COUDERC <coucouf@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/qt-kde-team/kde/ktorrent"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/qt-kde-team/kde/ktorrent.git"
-  ],
-  "Version": [
-    "22.12.3-2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"ktorrent, ktorrent-data"
+	],
+	"Build-Depends": [
+		"cmake (>= 3.16~), debhelper-compat (= 13), extra-cmake-modules (>= 5.91~), gettext, libboost-dev (>= 1.71.0~), libgeoip-dev, libkf5archive-dev (>= 5.91~), libkf5completion-dev (>= 5.91~), libkf5config-dev (>= 5.91~), libkf5configwidgets-dev (>= 5.91~), libkf5coreaddons-dev (>= 5.91~), libkf5crash-dev (>= 5.91~), libkf5dbusaddons-dev (>= 5.91~), libkf5dnssd-dev (>= 5.91~), libkf5doctools-dev (>= 5.91~), libkf5i18n-dev (>= 5.91~), libkf5iconthemes-dev (>= 5.91~), libkf5itemviews-dev (>= 5.91~), libkf5kcmutils-dev (>= 5.91~), libkf5kio-dev (>= 5.91~), libkf5notifications-dev (>= 5.91~), libkf5notifyconfig-dev (>= 5.91~), libkf5parts-dev (>= 5.91~), libkf5plotting-dev (>= 5.91~), libkf5solid-dev (>= 5.91~), libkf5syndication-dev (>= 1:5.91~), libkf5textwidgets-dev (>= 5.91~), libkf5widgetsaddons-dev (>= 5.91~), libkf5windowsystem-dev (>= 5.91~), libkf5xmlgui-dev (>= 5.91~), libktorrent-dev (>= 20.11.70~), libphonon4qt5-dev, libphonon4qt5experimental-dev, libtag1-dev, pkg-config, pkg-kde-tools (>= 0.15.16), qtbase5-dev (>= 5.15.2~), qtwebengine5-dev (>= 5.15.2~) [amd64 arm64 armhf i386]"
+	],
+	"Checksums-Sha256": [
+		"73b14a09cd6ab3ec1349235ebd5c437e3e125a8d62bea9e64eda58f8fb88be81 3339 ktorrent_22.12.3-2.dsc 85ae133afa93750a75f7255b74d4364aa833325fc61ed4e49cdcf31f08e0f71e 2144172 ktorrent_22.12.3.orig.tar.xz 40b4214da55cb9d1cc12eabb20f75f63f266292495785b6ca6908b19482257d9 833 ktorrent_22.12.3.orig.tar.xz.asc 499272a69aa65c35313a417bf97c46a5a33693c5cd34c24adfa85c808dfd3c43 24864 ktorrent_22.12.3-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/k/ktorrent"
+	],
+	"Files": [
+		"5bbefc7ddc578a08e151100f47233b90 3339 ktorrent_22.12.3-2.dsc ecf507002927123a266c1916381cb5cb 2144172 ktorrent_22.12.3.orig.tar.xz 7b5fd414ebe396f8cd690c417fc7fdaf 833 ktorrent_22.12.3.orig.tar.xz.asc 12050a814afb76fa75079f79cf9393f9 24864 ktorrent_22.12.3-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.kde.org/applications/internet/ktorrent/"
+	],
+	"Maintainer": [
+		"Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>"
+	],
+	"Package": [
+		"ktorrent"
+	],
+	"Package-List": [
+		"ktorrent deb net optional arch=any ktorrent-data deb net optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Uploaders": [
+		"Aurélien COUDERC <coucouf@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/qt-kde-team/kde/ktorrent"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/qt-kde-team/kde/ktorrent.git"
+	],
+	"Version": [
+		"22.12.3-2"
+	]
 }

@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "alpha amd64 armel armhf arm64 i386 ia64 powerpc powerpcspe ppc64 ppc64el sparc sparc64 kfreebsd-i386 kfreebsd-amd64 hurd-i386 mips64 mips64el mips mipsel all"
-  ],
-  "Binary": [
-    "openmpi-bin, libopenmpi-dev, libopenmpi1.6, openmpi-common, openmpi-doc, libopenmpi1.6-dbg, openmpi-checkpoint"
-  ],
-  "Build-Conflicts": [
-    "libopenmpi1.3"
-  ],
-  "Build-Depends": [
-    "dpkg-dev (>= 1.16.1~), debhelper (>= 8.0.0~), libibverbs-dev (>= 1.1.1) [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], gfortran, gcc (>= 4:4.1.2), chrpath, libhwloc-dev, libcr-dev [amd64 armel armhf i386 powerpc], libtool, libltdl-dev, libnuma-dev [amd64 i386 ia64 mips mipsel mipsn32 mipsn32el mips64 mips64el powerpc ppc64el], autoconf (>= 2.59), automake"
-  ],
-  "Checksums-Sha1": [
-    "fa191a9183b9ca1cd7543456efba3b067457d535 3516 openmpi_1.6.5-9.1+deb8u1.dsc 41fe3bdbd8d8211ae8721ef9801df1efb436a59d 15513056 openmpi_1.6.5.orig.tar.gz 462c3143c212fcf5a8b8e6fedaa1c1fd904c1458 28964 openmpi_1.6.5-9.1+deb8u1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "f3fb0b9720c3fd2d7ccf73588b8291681de72b9737be79f69cb858ecf7f29016 3516 openmpi_1.6.5-9.1+deb8u1.dsc ac308dc38e77c622aedea5f3fd368c800b6636d0500f2124c36a505a65806559 15513056 openmpi_1.6.5.orig.tar.gz 06f5d23e6f5fef7e5c942a19dc2140facde8ad25343b64f2224a3e0851c3dcbf 28964 openmpi_1.6.5-9.1+deb8u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/o/openmpi"
-  ],
-  "Files": [
-    "26db2bd167886bc95bf2f7f6f2b7fa59 3516 openmpi_1.6.5-9.1+deb8u1.dsc d7e98ac8ae1a27a0e37a68b6588c3d97 15513056 openmpi_1.6.5.orig.tar.gz bc13e4ec492b316b1be41032df13449e 28964 openmpi_1.6.5-9.1+deb8u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.open-mpi.org/"
-  ],
-  "Maintainer": [
-    "Debian Open MPI Maintainers <pkg-openmpi-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "openmpi"
-  ],
-  "Package-List": [
-    "libopenmpi-dev deb libdevel extra arch=alpha,amd64,armel,armhf,arm64,i386,ia64,powerpc,powerpcspe,ppc64,ppc64el,sparc,sparc64,kfreebsd-i386,kfreebsd-amd64,hurd-i386,mips64,mips64el,mips,mipsel libopenmpi1.6 deb libs extra arch=alpha,amd64,armel,armhf,arm64,i386,ia64,powerpc,powerpcspe,ppc64,ppc64el,sparc,sparc64,kfreebsd-i386,kfreebsd-amd64,hurd-i386,mips64,mips64el,mips,mipsel libopenmpi1.6-dbg deb debug extra arch=alpha,amd64,armel,armhf,arm64,i386,ia64,powerpc,powerpcspe,ppc64,ppc64el,sparc,sparc64,kfreebsd-i386,kfreebsd-amd64,hurd-i386,mips64,mips64el,mips,mipsel openmpi-bin deb net extra arch=alpha,amd64,armel,armhf,arm64,i386,ia64,powerpc,powerpcspe,ppc64,ppc64el,sparc,sparc64,kfreebsd-i386,kfreebsd-amd64,hurd-i386,mips64,mips64el,mips,mipsel openmpi-checkpoint deb net extra arch=amd64,armel,armhf,i386,powerpc openmpi-common deb net extra arch=all openmpi-doc deb doc extra arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Manuel Prinz <manuel@debian.org>, Sylvestre Ledru <sylvestre@debian.org>, Alastair McKinstry <mckinstry@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://svn.debian.org/wsvn/pkg-openmpi/openmpi/trunk/"
-  ],
-  "Vcs-Svn": [
-    "svn://svn.debian.org/svn/pkg-openmpi/openmpi/trunk/"
-  ],
-  "Version": [
-    "1.6.5-9.1+deb8u1"
-  ]
+	"Architecture": [
+		"alpha amd64 armel armhf arm64 i386 ia64 powerpc powerpcspe ppc64 ppc64el sparc sparc64 kfreebsd-i386 kfreebsd-amd64 hurd-i386 mips64 mips64el mips mipsel all"
+	],
+	"Binary": [
+		"openmpi-bin, libopenmpi-dev, libopenmpi1.6, openmpi-common, openmpi-doc, libopenmpi1.6-dbg, openmpi-checkpoint"
+	],
+	"Build-Conflicts": [
+		"libopenmpi1.3"
+	],
+	"Build-Depends": [
+		"dpkg-dev (>= 1.16.1~), debhelper (>= 8.0.0~), libibverbs-dev (>= 1.1.1) [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], gfortran, gcc (>= 4:4.1.2), chrpath, libhwloc-dev, libcr-dev [amd64 armel armhf i386 powerpc], libtool, libltdl-dev, libnuma-dev [amd64 i386 ia64 mips mipsel mipsn32 mipsn32el mips64 mips64el powerpc ppc64el], autoconf (>= 2.59), automake"
+	],
+	"Checksums-Sha1": [
+		"fa191a9183b9ca1cd7543456efba3b067457d535 3516 openmpi_1.6.5-9.1+deb8u1.dsc 41fe3bdbd8d8211ae8721ef9801df1efb436a59d 15513056 openmpi_1.6.5.orig.tar.gz 462c3143c212fcf5a8b8e6fedaa1c1fd904c1458 28964 openmpi_1.6.5-9.1+deb8u1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"f3fb0b9720c3fd2d7ccf73588b8291681de72b9737be79f69cb858ecf7f29016 3516 openmpi_1.6.5-9.1+deb8u1.dsc ac308dc38e77c622aedea5f3fd368c800b6636d0500f2124c36a505a65806559 15513056 openmpi_1.6.5.orig.tar.gz 06f5d23e6f5fef7e5c942a19dc2140facde8ad25343b64f2224a3e0851c3dcbf 28964 openmpi_1.6.5-9.1+deb8u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/o/openmpi"
+	],
+	"Files": [
+		"26db2bd167886bc95bf2f7f6f2b7fa59 3516 openmpi_1.6.5-9.1+deb8u1.dsc d7e98ac8ae1a27a0e37a68b6588c3d97 15513056 openmpi_1.6.5.orig.tar.gz bc13e4ec492b316b1be41032df13449e 28964 openmpi_1.6.5-9.1+deb8u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.open-mpi.org/"
+	],
+	"Maintainer": [
+		"Debian Open MPI Maintainers <pkg-openmpi-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"openmpi"
+	],
+	"Package-List": [
+		"libopenmpi-dev deb libdevel extra arch=alpha,amd64,armel,armhf,arm64,i386,ia64,powerpc,powerpcspe,ppc64,ppc64el,sparc,sparc64,kfreebsd-i386,kfreebsd-amd64,hurd-i386,mips64,mips64el,mips,mipsel libopenmpi1.6 deb libs extra arch=alpha,amd64,armel,armhf,arm64,i386,ia64,powerpc,powerpcspe,ppc64,ppc64el,sparc,sparc64,kfreebsd-i386,kfreebsd-amd64,hurd-i386,mips64,mips64el,mips,mipsel libopenmpi1.6-dbg deb debug extra arch=alpha,amd64,armel,armhf,arm64,i386,ia64,powerpc,powerpcspe,ppc64,ppc64el,sparc,sparc64,kfreebsd-i386,kfreebsd-amd64,hurd-i386,mips64,mips64el,mips,mipsel openmpi-bin deb net extra arch=alpha,amd64,armel,armhf,arm64,i386,ia64,powerpc,powerpcspe,ppc64,ppc64el,sparc,sparc64,kfreebsd-i386,kfreebsd-amd64,hurd-i386,mips64,mips64el,mips,mipsel openmpi-checkpoint deb net extra arch=amd64,armel,armhf,i386,powerpc openmpi-common deb net extra arch=all openmpi-doc deb doc extra arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Manuel Prinz <manuel@debian.org>, Sylvestre Ledru <sylvestre@debian.org>, Alastair McKinstry <mckinstry@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://svn.debian.org/wsvn/pkg-openmpi/openmpi/trunk/"
+	],
+	"Vcs-Svn": [
+		"svn://svn.debian.org/svn/pkg-openmpi/openmpi/trunk/"
+	],
+	"Version": [
+		"1.6.5-9.1+deb8u1"
+	]
 }

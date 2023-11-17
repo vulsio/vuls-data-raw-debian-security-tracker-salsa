@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "postfix, postfix-ldap, postfix-cdb, postfix-pcre, postfix-mysql, postfix-pgsql, postfix-dev, postfix-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 7), po-debconf (>= 0.5.0), groff-base, patch, lsb-release, libdb-dev (>= 4.6.19), libldap2-dev (>= 2.1), libpcre3-dev, libmysqlclient-dev | libmysqlclient15-dev | libmysqlclient14-dev, libssl-dev (>= 0.9.7), libsasl2-dev, libpq-dev, libcdb-dev, hardening-wrapper, dpkg-dev (>= 1.15.5), libsqlite3-dev"
-  ],
-  "Checksums-Sha1": [
-    "c28ea28e08270bffe0c24eb430248726b6107a55 2487 postfix_2.11.3-1+deb8u2.dsc 2c0e974d7a24eb48e352c9268b5bb131e7c9debf 4039705 postfix_2.11.3.orig.tar.gz 3677727ca16eec689e2584d65619c2b4c333150d 252078 postfix_2.11.3-1+deb8u2.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "5ba2f7f3fab4040ed9636a13f31b0d3fddb4d2b3c5fde148099ee2add28c90bf 2487 postfix_2.11.3-1+deb8u2.dsc 04e5146e6e56261baae9f63c590348a4b12ce22d3d46260e26e97233f40802c3 4039705 postfix_2.11.3.orig.tar.gz 0e92f3a672f803f81987bbf73cdce32b832420451100a8a5e8b05820a50d3e6a 252078 postfix_2.11.3-1+deb8u2.diff.gz"
-  ],
-  "Directory": [
-    "pool/main/p/postfix"
-  ],
-  "Files": [
-    "2e27efa3b9dd3f586b3711a084b9fa89 2487 postfix_2.11.3-1+deb8u2.dsc c3f0f51d8865559b40e9350eb3816011 4039705 postfix_2.11.3.orig.tar.gz a58d44f5d27e956fa4695aa5d155a869 252078 postfix_2.11.3-1+deb8u2.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Homepage": [
-    "http://www.postfix.org"
-  ],
-  "Maintainer": [
-    "LaMont Jones <lamont@debian.org>"
-  ],
-  "Package": [
-    "postfix"
-  ],
-  "Package-List": [
-    "postfix deb mail extra arch=any postfix-cdb deb mail extra arch=any postfix-dev deb devel extra arch=all postfix-doc deb doc extra arch=all postfix-ldap deb mail extra arch=any postfix-mysql deb mail extra arch=any postfix-pcre deb mail extra arch=any postfix-pgsql deb mail extra arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "mail"
-  ],
-  "Standards-Version": [
-    "3.9.1.0"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Vcs-Browser": [
-    "http://git.debian.org/?p=users/lamont/postfix.git"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/~lamont/postfix.git"
-  ],
-  "Version": [
-    "2.11.3-1+deb8u2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"postfix, postfix-ldap, postfix-cdb, postfix-pcre, postfix-mysql, postfix-pgsql, postfix-dev, postfix-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 7), po-debconf (>= 0.5.0), groff-base, patch, lsb-release, libdb-dev (>= 4.6.19), libldap2-dev (>= 2.1), libpcre3-dev, libmysqlclient-dev | libmysqlclient15-dev | libmysqlclient14-dev, libssl-dev (>= 0.9.7), libsasl2-dev, libpq-dev, libcdb-dev, hardening-wrapper, dpkg-dev (>= 1.15.5), libsqlite3-dev"
+	],
+	"Checksums-Sha1": [
+		"c28ea28e08270bffe0c24eb430248726b6107a55 2487 postfix_2.11.3-1+deb8u2.dsc 2c0e974d7a24eb48e352c9268b5bb131e7c9debf 4039705 postfix_2.11.3.orig.tar.gz 3677727ca16eec689e2584d65619c2b4c333150d 252078 postfix_2.11.3-1+deb8u2.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"5ba2f7f3fab4040ed9636a13f31b0d3fddb4d2b3c5fde148099ee2add28c90bf 2487 postfix_2.11.3-1+deb8u2.dsc 04e5146e6e56261baae9f63c590348a4b12ce22d3d46260e26e97233f40802c3 4039705 postfix_2.11.3.orig.tar.gz 0e92f3a672f803f81987bbf73cdce32b832420451100a8a5e8b05820a50d3e6a 252078 postfix_2.11.3-1+deb8u2.diff.gz"
+	],
+	"Directory": [
+		"pool/main/p/postfix"
+	],
+	"Files": [
+		"2e27efa3b9dd3f586b3711a084b9fa89 2487 postfix_2.11.3-1+deb8u2.dsc c3f0f51d8865559b40e9350eb3816011 4039705 postfix_2.11.3.orig.tar.gz a58d44f5d27e956fa4695aa5d155a869 252078 postfix_2.11.3-1+deb8u2.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Homepage": [
+		"http://www.postfix.org"
+	],
+	"Maintainer": [
+		"LaMont Jones <lamont@debian.org>"
+	],
+	"Package": [
+		"postfix"
+	],
+	"Package-List": [
+		"postfix deb mail extra arch=any postfix-cdb deb mail extra arch=any postfix-dev deb devel extra arch=all postfix-doc deb doc extra arch=all postfix-ldap deb mail extra arch=any postfix-mysql deb mail extra arch=any postfix-pcre deb mail extra arch=any postfix-pgsql deb mail extra arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"mail"
+	],
+	"Standards-Version": [
+		"3.9.1.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Vcs-Browser": [
+		"http://git.debian.org/?p=users/lamont/postfix.git"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/~lamont/postfix.git"
+	],
+	"Version": [
+		"2.11.3-1+deb8u2"
+	]
 }

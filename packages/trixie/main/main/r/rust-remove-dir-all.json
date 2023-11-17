@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-remove-dir-all-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cfg-if-1+default-dev <!nocheck>, librust-cvt-0.1+default-dev (>= 0.1.1-~~) <!nocheck>, librust-fs-at-0.1+default-dev (>= 0.1.4-~~) <!nocheck>, librust-lazy-static-1+default-dev (>= 1.4.0-~~) <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-normpath-1+default-dev (>= 1.0.1-~~) <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "273586cc9d691851ab03c2202f46ecdaa02db6c8871b209b5853d16a2f483a83 2662 rust-remove-dir-all_0.8.2-1.dsc 23895cfadc1917fed9c6ed76a8c2903615fa3704f7493ff82b364c6540acc02b 19074 rust-remove-dir-all_0.8.2.orig.tar.gz a5a5663a0d31f707734a406d51e5607f7c2a942a3fe4c600344bea2e90141b2d 3928 rust-remove-dir-all_0.8.2-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-remove-dir-all"
-  ],
-  "Files": [
-    "064917c7bf18d648ef253d18502cf8b5 2662 rust-remove-dir-all_0.8.2-1.dsc 8f5ff45e31f879a4bb4f8815fb25acc1 19074 rust-remove-dir-all_0.8.2.orig.tar.gz 5d54bcabe10baa3d3dcebc948790856b 3928 rust-remove-dir-all_0.8.2-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-remove-dir-all"
-  ],
-  "Package-List": [
-    "librust-remove-dir-all-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-doc-comment-0.3+default-dev, librust-env-logger-0.10+default-dev, librust-log-0.4+default-dev, librust-tempfile-3+default-dev, librust-test-log-0.2+default-dev"
-  ],
-  "Uploaders": [
-    "Sylvestre Ledru <sylvestre@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/remove-dir-all"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/remove-dir-all]"
-  ],
-  "Version": [
-    "0.8.2-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-remove-dir-all-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cfg-if-1+default-dev <!nocheck>, librust-cvt-0.1+default-dev (>= 0.1.1-~~) <!nocheck>, librust-fs-at-0.1+default-dev (>= 0.1.4-~~) <!nocheck>, librust-lazy-static-1+default-dev (>= 1.4.0-~~) <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-normpath-1+default-dev (>= 1.0.1-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"273586cc9d691851ab03c2202f46ecdaa02db6c8871b209b5853d16a2f483a83 2662 rust-remove-dir-all_0.8.2-1.dsc 23895cfadc1917fed9c6ed76a8c2903615fa3704f7493ff82b364c6540acc02b 19074 rust-remove-dir-all_0.8.2.orig.tar.gz a5a5663a0d31f707734a406d51e5607f7c2a942a3fe4c600344bea2e90141b2d 3928 rust-remove-dir-all_0.8.2-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-remove-dir-all"
+	],
+	"Files": [
+		"064917c7bf18d648ef253d18502cf8b5 2662 rust-remove-dir-all_0.8.2-1.dsc 8f5ff45e31f879a4bb4f8815fb25acc1 19074 rust-remove-dir-all_0.8.2.orig.tar.gz 5d54bcabe10baa3d3dcebc948790856b 3928 rust-remove-dir-all_0.8.2-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-remove-dir-all"
+	],
+	"Package-List": [
+		"librust-remove-dir-all-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-doc-comment-0.3+default-dev, librust-env-logger-0.10+default-dev, librust-log-0.4+default-dev, librust-tempfile-3+default-dev, librust-test-log-0.2+default-dev"
+	],
+	"Uploaders": [
+		"Sylvestre Ledru <sylvestre@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/remove-dir-all"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/remove-dir-all]"
+	],
+	"Version": [
+		"0.8.2-1"
+	]
 }

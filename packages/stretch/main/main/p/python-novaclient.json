@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-novaclient, python3-novaclient, python-novaclient-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-python, openstack-pkg-tools (>= 52~), python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.8), python3-setuptools"
-  ],
-  "Build-Depends-Indep": [
-    "python-babel, python-cinderclient (>= 1:1.6.0), python-coverage, python-fixtures (>= 3.0.0), python-glanceclient (>= 1:2.3.0), python-hacking (>= 0.10.0), python-iso8601, python-keyring (>= 7.2), python-keystoneauth1 (>= 2.10.0), python-keystoneclient (>= 1:2.0.0), python-mock (>= 2.0), python-os-client-config (>= 1.13.1), python-oslo.i18n (>= 2.1.0), python-oslo.serialization (>= 1.10.0), python-oslo.utils (>= 3.16.0), python-oslosphinx (>= 2.5.0), python-prettytable, python-requests (>= 2.10.0), python-requests-mock (>= 1.0), python-simplejson (>= 2.2.0), python-six (>= 1.9.0), python-tempest (>= 1:12.1.0), python-testscenarios (>= 0.4), python-testtools (>= 1.4.0), python-unittest2, python3-babel, python3-cinderclient (>= 1:1.6.0), python3-fixtures (>= 3.0.0), python3-glanceclient (>= 1:2.3.0), python3-iso8601, python3-keyring (>= 7.2), python3-keystoneauth1 (>= 2.10.0), python3-keystoneclient (>= 1:2.0.0), python3-mock (>= 2.0), python3-os-client-config (>= 1.13.1), python3-oslo.i18n (>= 2.1.0), python3-oslo.serialization (>= 1.10.0), python3-oslo.utils (>= 3.16.0), python3-prettytable, python3-requests (>= 2.10.0), python3-requests-mock (>= 1.0), python3-simplejson (>= 2.2.0), python3-six (>= 1.9.0), python3-subunit, python3-tempest (>= 1:12.1.0), python3-testscenarios (>= 0.4), python3-testtools (>= 1.4.0), python3-unittest2, subunit, testrepository"
-  ],
-  "Checksums-Sha256": [
-    "558b6b5118851bfb3b8073dc02bd56585cd7f452e775b31467241532d949d293 3788 python-novaclient_6.0.0-2.dsc 496650182684bc3c96812d46848ec340519b21e9135df77b5432bb3883981a69 190524 python-novaclient_6.0.0.orig.tar.xz 3866b619631c59f3a9abb0241763641f1a4f136eaacf4bb7b17f34423b85b78d 66784 python-novaclient_6.0.0-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/python-novaclient"
-  ],
-  "Files": [
-    "afec0343de66a35cb27106af3c5fb612 3788 python-novaclient_6.0.0-2.dsc e610f5a1b07e423c5d0f6376bca6b076 190524 python-novaclient_6.0.0.orig.tar.xz 1151f7fda957666290ea3b9004f1cfb9 66784 python-novaclient_6.0.0-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/openstack/python-novaclient"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "python-novaclient"
-  ],
-  "Package-List": [
-    "python-novaclient deb python optional arch=all python-novaclient-doc deb doc optional arch=all python3-novaclient deb python optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "python"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>, Corey Bryant <corey.bryant@canonical.com>,"
-  ],
-  "Vcs-Browser": [
-    "https://git.openstack.org/cgit/openstack/deb-python-novaclient?h=debian%2Fnewton"
-  ],
-  "Vcs-Git": [
-    "https://git.openstack.org/openstack/deb-python-novaclient -b debian/newton"
-  ],
-  "Version": [
-    "2:6.0.0-2"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-novaclient, python3-novaclient, python-novaclient-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-python, openstack-pkg-tools (>= 52~), python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.8), python3-setuptools"
+	],
+	"Build-Depends-Indep": [
+		"python-babel, python-cinderclient (>= 1:1.6.0), python-coverage, python-fixtures (>= 3.0.0), python-glanceclient (>= 1:2.3.0), python-hacking (>= 0.10.0), python-iso8601, python-keyring (>= 7.2), python-keystoneauth1 (>= 2.10.0), python-keystoneclient (>= 1:2.0.0), python-mock (>= 2.0), python-os-client-config (>= 1.13.1), python-oslo.i18n (>= 2.1.0), python-oslo.serialization (>= 1.10.0), python-oslo.utils (>= 3.16.0), python-oslosphinx (>= 2.5.0), python-prettytable, python-requests (>= 2.10.0), python-requests-mock (>= 1.0), python-simplejson (>= 2.2.0), python-six (>= 1.9.0), python-tempest (>= 1:12.1.0), python-testscenarios (>= 0.4), python-testtools (>= 1.4.0), python-unittest2, python3-babel, python3-cinderclient (>= 1:1.6.0), python3-fixtures (>= 3.0.0), python3-glanceclient (>= 1:2.3.0), python3-iso8601, python3-keyring (>= 7.2), python3-keystoneauth1 (>= 2.10.0), python3-keystoneclient (>= 1:2.0.0), python3-mock (>= 2.0), python3-os-client-config (>= 1.13.1), python3-oslo.i18n (>= 2.1.0), python3-oslo.serialization (>= 1.10.0), python3-oslo.utils (>= 3.16.0), python3-prettytable, python3-requests (>= 2.10.0), python3-requests-mock (>= 1.0), python3-simplejson (>= 2.2.0), python3-six (>= 1.9.0), python3-subunit, python3-tempest (>= 1:12.1.0), python3-testscenarios (>= 0.4), python3-testtools (>= 1.4.0), python3-unittest2, subunit, testrepository"
+	],
+	"Checksums-Sha256": [
+		"558b6b5118851bfb3b8073dc02bd56585cd7f452e775b31467241532d949d293 3788 python-novaclient_6.0.0-2.dsc 496650182684bc3c96812d46848ec340519b21e9135df77b5432bb3883981a69 190524 python-novaclient_6.0.0.orig.tar.xz 3866b619631c59f3a9abb0241763641f1a4f136eaacf4bb7b17f34423b85b78d 66784 python-novaclient_6.0.0-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-novaclient"
+	],
+	"Files": [
+		"afec0343de66a35cb27106af3c5fb612 3788 python-novaclient_6.0.0-2.dsc e610f5a1b07e423c5d0f6376bca6b076 190524 python-novaclient_6.0.0.orig.tar.xz 1151f7fda957666290ea3b9004f1cfb9 66784 python-novaclient_6.0.0-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/openstack/python-novaclient"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"python-novaclient"
+	],
+	"Package-List": [
+		"python-novaclient deb python optional arch=all python-novaclient-doc deb doc optional arch=all python3-novaclient deb python optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"python"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>, Corey Bryant <corey.bryant@canonical.com>,"
+	],
+	"Vcs-Browser": [
+		"https://git.openstack.org/cgit/openstack/deb-python-novaclient?h=debian%2Fnewton"
+	],
+	"Vcs-Git": [
+		"https://git.openstack.org/openstack/deb-python-novaclient -b debian/newton"
+	],
+	"Version": [
+		"2:6.0.0-2"
+	]
 }

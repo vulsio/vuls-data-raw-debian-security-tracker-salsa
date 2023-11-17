@@ -1,53 +1,53 @@
 {
-  "Architecture": [
-    "linux-any"
-  ],
-  "Binary": [
-    "gdm3, libgdm1, libgdm-dev, gir1.2-gdm-1.0"
-  ],
-  "Build-Depends": [
-    "gnome-pkg-tools (>= 0.16.3), debhelper (>= 10), dconf-cli (>= 0.19.90), intltool (>= 0.40.0), libdbus-glib-1-dev (>= 0.74) [!linux-any], libglib2.0-dev (>= 2.36.0), libgtk-3-dev (>= 2.91.1), libpango1.0-dev (>= 1.3.0), libcanberra-gtk3-dev (>= 0.4), libfontconfig1-dev (>= 2.5.0), libaccountsservice-dev (>= 0.6.12), gnome-settings-daemon-dev (>= 2.91.2), gnome-settings-daemon (>= 2.91.2), libnss3-dev (>= 3.11.1), libxcb1-dev, libx11-dev, libxau-dev, libxt-dev, libxext-dev, check (>= 0.9.10-2~), libgirepository1.0-dev (>= 0.9.12), gobject-introspection (>= 0.10.7-1~), libpam0g-dev, libkeyutils-dev [linux-any], libxdmcp-dev, libwrap0-dev, libxft-dev, libxi-dev, libxinerama-dev, libplymouth-dev [linux-any] | plymouth-dev [linux-any], yelp-tools, libselinux1-dev [linux-any], libattr1-dev [linux-any], iso-codes, libaudit-dev [linux-any], docbook-xml, gsettings-desktop-schemas, libsystemd-dev [linux-any], xserver-xorg-dev"
-  ],
-  "Checksums-Sha256": [
-    "267bc5886511392aa07732671f86fbcd6abee6cc43740303c8861bd306316f1d 3283 gdm3_3.22.3-3+deb9u2.dsc e7ca3ce77140efe1920f8864c2c77f89bc9f9f75e70e744994cf0a70d8780963 1110740 gdm3_3.22.3.orig.tar.xz 9399ae2ef951a1b50c7de3a481f9216678bf06d11877d9c41380c30f228ccab6 95188 gdm3_3.22.3-3+deb9u2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/g/gdm3"
-  ],
-  "Files": [
-    "9b916c93f9a34f287d0056e155844a98 3283 gdm3_3.22.3-3+deb9u2.dsc 565d4ffa2583baf8d2a4fedb74bcd448 1110740 gdm3_3.22.3.orig.tar.xz ee0595f8059b8ebd1c75a7c8bbbd0552 95188 gdm3_3.22.3-3+deb9u2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "gdm3"
-  ],
-  "Package-List": [
-    "gdm3 deb gnome optional arch=linux-any gir1.2-gdm-1.0 deb introspection optional arch=linux-any libgdm-dev deb libdevel optional arch=linux-any libgdm1 deb libs optional arch=linux-any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "gnome"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Andreas Henriksson <andreas@fatal.se>, Emilio Pozuelo Monfort <pochu@debian.org>, Laurent Bigonville <bigon@debian.org>, Michael Biebl <biebl@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/gdm3/"
-  ],
-  "Vcs-Svn": [
-    "svn://anonscm.debian.org/pkg-gnome/desktop/unstable/gdm3/"
-  ],
-  "Version": [
-    "3.22.3-3+deb9u2"
-  ]
+	"Architecture": [
+		"linux-any"
+	],
+	"Binary": [
+		"gdm3, libgdm1, libgdm-dev, gir1.2-gdm-1.0"
+	],
+	"Build-Depends": [
+		"gnome-pkg-tools (>= 0.16.3), debhelper (>= 10), dconf-cli (>= 0.19.90), intltool (>= 0.40.0), libdbus-glib-1-dev (>= 0.74) [!linux-any], libglib2.0-dev (>= 2.36.0), libgtk-3-dev (>= 2.91.1), libpango1.0-dev (>= 1.3.0), libcanberra-gtk3-dev (>= 0.4), libfontconfig1-dev (>= 2.5.0), libaccountsservice-dev (>= 0.6.12), gnome-settings-daemon-dev (>= 2.91.2), gnome-settings-daemon (>= 2.91.2), libnss3-dev (>= 3.11.1), libxcb1-dev, libx11-dev, libxau-dev, libxt-dev, libxext-dev, check (>= 0.9.10-2~), libgirepository1.0-dev (>= 0.9.12), gobject-introspection (>= 0.10.7-1~), libpam0g-dev, libkeyutils-dev [linux-any], libxdmcp-dev, libwrap0-dev, libxft-dev, libxi-dev, libxinerama-dev, libplymouth-dev [linux-any] | plymouth-dev [linux-any], yelp-tools, libselinux1-dev [linux-any], libattr1-dev [linux-any], iso-codes, libaudit-dev [linux-any], docbook-xml, gsettings-desktop-schemas, libsystemd-dev [linux-any], xserver-xorg-dev"
+	],
+	"Checksums-Sha256": [
+		"267bc5886511392aa07732671f86fbcd6abee6cc43740303c8861bd306316f1d 3283 gdm3_3.22.3-3+deb9u2.dsc e7ca3ce77140efe1920f8864c2c77f89bc9f9f75e70e744994cf0a70d8780963 1110740 gdm3_3.22.3.orig.tar.xz 9399ae2ef951a1b50c7de3a481f9216678bf06d11877d9c41380c30f228ccab6 95188 gdm3_3.22.3-3+deb9u2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/gdm3"
+	],
+	"Files": [
+		"9b916c93f9a34f287d0056e155844a98 3283 gdm3_3.22.3-3+deb9u2.dsc 565d4ffa2583baf8d2a4fedb74bcd448 1110740 gdm3_3.22.3.orig.tar.xz ee0595f8059b8ebd1c75a7c8bbbd0552 95188 gdm3_3.22.3-3+deb9u2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"gdm3"
+	],
+	"Package-List": [
+		"gdm3 deb gnome optional arch=linux-any gir1.2-gdm-1.0 deb introspection optional arch=linux-any libgdm-dev deb libdevel optional arch=linux-any libgdm1 deb libs optional arch=linux-any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"gnome"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Andreas Henriksson <andreas@fatal.se>, Emilio Pozuelo Monfort <pochu@debian.org>, Laurent Bigonville <bigon@debian.org>, Michael Biebl <biebl@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/gdm3/"
+	],
+	"Vcs-Svn": [
+		"svn://anonscm.debian.org/pkg-gnome/desktop/unstable/gdm3/"
+	],
+	"Version": [
+		"3.22.3-3+deb9u2"
+	]
 }

@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "groonga, groonga-server-common, groonga-server-http, groonga-server-gqtp, libgroonga-dev, libgroonga0, groonga-tokenizer-mecab, groonga-token-filter-stem, groonga-plugin-suggest, groonga-bin, groonga-doc, groonga-examples, groonga-munin-plugins"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), pkg-config, liblz4-dev, zlib1g-dev, libmsgpack-dev, libzmq3-dev | libzmq-dev, libevent-dev, libmecab-dev, libpcre2-dev, libstemmer-dev, libjemalloc-dev [!hurd-i386], libssl-dev, libzstd-dev, rapidjson-dev, python3-sphinx, python3-pydata-sphinx-theme, python3-myst-parser, python3-linkify-it, autoconf-archive, libjs-jquery, libjs-jquery-ui, libjs-jquery-flot, libjs-bootstrap"
-  ],
-  "Checksums-Sha256": [
-    "65714c79f230c710a8f666c3803ae548531c94ff647023ee7c41cfc49a357cbc 3138 groonga_13.0.9+dfsg-1.dsc c50847a8b09ffd54563481d8db75a0ed459a51ae4403701533400ce75ac0a766 10931776 groonga_13.0.9+dfsg.orig.tar.xz 1b67846519481c27870d2b820ea77dec525624bbf388a808c20640402c85091d 107240 groonga_13.0.9+dfsg-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/g/groonga"
-  ],
-  "Files": [
-    "f4179e3c22ece31dcc4e5e5eb5432b40 3138 groonga_13.0.9+dfsg-1.dsc 35a2e6ae1fef1fc239a2922c69e974d1 10931776 groonga_13.0.9+dfsg.orig.tar.xz 985552c660a654b550ed485841c6422c 107240 groonga_13.0.9+dfsg-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://groonga.org/"
-  ],
-  "Maintainer": [
-    "Kentaro Hayashi <kenhys@xdump.org>"
-  ],
-  "Package": [
-    "groonga"
-  ],
-  "Package-List": [
-    "groonga deb database optional arch=any groonga-bin deb database optional arch=any groonga-doc deb doc optional arch=all groonga-examples deb database optional arch=all groonga-munin-plugins deb net optional arch=all groonga-plugin-suggest deb libs optional arch=any groonga-server-common deb database optional arch=all groonga-server-gqtp deb database optional arch=all groonga-server-http deb database optional arch=all groonga-token-filter-stem deb libs optional arch=any groonga-tokenizer-mecab deb libs optional arch=any libgroonga-dev deb libdevel optional arch=any libgroonga0 deb libs optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential, curl, jq, pkg-config"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian/groonga/"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian/groonga.git"
-  ],
-  "Version": [
-    "13.0.9+dfsg-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"groonga, groonga-server-common, groonga-server-http, groonga-server-gqtp, libgroonga-dev, libgroonga0, groonga-tokenizer-mecab, groonga-token-filter-stem, groonga-plugin-suggest, groonga-bin, groonga-doc, groonga-examples, groonga-munin-plugins"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), pkg-config, liblz4-dev, zlib1g-dev, libmsgpack-dev, libzmq3-dev | libzmq-dev, libevent-dev, libmecab-dev, libpcre2-dev, libstemmer-dev, libjemalloc-dev [!hurd-i386], libssl-dev, libzstd-dev, rapidjson-dev, python3-sphinx, python3-pydata-sphinx-theme, python3-myst-parser, python3-linkify-it, autoconf-archive, libjs-jquery, libjs-jquery-ui, libjs-jquery-flot, libjs-bootstrap"
+	],
+	"Checksums-Sha256": [
+		"65714c79f230c710a8f666c3803ae548531c94ff647023ee7c41cfc49a357cbc 3138 groonga_13.0.9+dfsg-1.dsc c50847a8b09ffd54563481d8db75a0ed459a51ae4403701533400ce75ac0a766 10931776 groonga_13.0.9+dfsg.orig.tar.xz 1b67846519481c27870d2b820ea77dec525624bbf388a808c20640402c85091d 107240 groonga_13.0.9+dfsg-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/groonga"
+	],
+	"Files": [
+		"f4179e3c22ece31dcc4e5e5eb5432b40 3138 groonga_13.0.9+dfsg-1.dsc 35a2e6ae1fef1fc239a2922c69e974d1 10931776 groonga_13.0.9+dfsg.orig.tar.xz 985552c660a654b550ed485841c6422c 107240 groonga_13.0.9+dfsg-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://groonga.org/"
+	],
+	"Maintainer": [
+		"Kentaro Hayashi <kenhys@xdump.org>"
+	],
+	"Package": [
+		"groonga"
+	],
+	"Package-List": [
+		"groonga deb database optional arch=any groonga-bin deb database optional arch=any groonga-doc deb doc optional arch=all groonga-examples deb database optional arch=all groonga-munin-plugins deb net optional arch=all groonga-plugin-suggest deb libs optional arch=any groonga-server-common deb database optional arch=all groonga-server-gqtp deb database optional arch=all groonga-server-http deb database optional arch=all groonga-token-filter-stem deb libs optional arch=any groonga-tokenizer-mecab deb libs optional arch=any libgroonga-dev deb libdevel optional arch=any libgroonga0 deb libs optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, curl, jq, pkg-config"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/groonga/"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/groonga.git"
+	],
+	"Version": [
+		"13.0.9+dfsg-1"
+	]
 }

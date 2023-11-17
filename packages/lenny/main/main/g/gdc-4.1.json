@@ -1,47 +1,47 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "gdc-4.1, libphobos-4.1-dev"
-  ],
-  "Build-Depends": [
-    "dpkg-dev (>= 1.13.9), gcc-4.1-multilib [amd64 i386 powerpc ppc64 s390 sparc kfreebsd-amd64], libc6.1-dev (>= 2.5) [alpha ia64] | libc0.3-dev (>= 2.5) [hurd-i386] | libc0.1-dev (>= 2.5) [kfreebsd-i386 kfreebsd-amd64] | libc6-dev (>= 2.5), libc6-dev-amd64 [i386], libc6-dev-sparc64 [sparc], libc6-dev-s390x [s390], libc6-dev-i386 [amd64], libc6-dev-powerpc [ppc64], libc6-dev-ppc64 [powerpc], libc0.1-dev-i386 [kfreebsd-amd64], lib32gcc1 [amd64 ppc64 kfreebsd-amd64], lib64gcc1 [i386 powerpc sparc s390], lib64z1-dev [i386 powerpc sparc s390], lib32z1-dev [amd64 ppc64 kfreebsd-amd64], libunwind7-dev (>= 0.98.5-6) [ia64], libatomic-ops-dev [ia64], m4, autoconf, autoconf2.13, automake1.9, libtool, autogen, gawk, expect-tcl8.3 [hppa], dejagnu [!hurd-i386], bzip2, binutils (>= 2.17cvs20070426) | binutils-multiarch (>= 2.17cvs20070426), binutils-hppa64 (>= 2.17cvs20070426) [hppa], debhelper (>= 5.0), gperf (>= 3.0.1), bison (>= 1:2.3), flex, gettext, texinfo (>= 4.3), zlib1g-dev, libmpfr-dev (>= 2.3.0~rc1.dfsg.1) [!avr], locales [!hurd-i386 !m68k], procps [!hurd-i386], sharutils, gcc-4.1-source (>= 4.1.2), gcc-4.1-source (<< 4.1.3), realpath (>= 1.9.12), chrpath, lsb-release, make (>= 3.81)"
-  ],
-  "Checksums-Sha1": [
-    "dc2844d592806bd906ca10f88d6079401532f9cf 2332 gdc-4.1_0.25-20080616-4.1.2-23.2.dsc bf0f900b449864dbfba09c23bb3017c5e655e119 2537139 gdc-4.1_0.25-20080616-4.1.2.orig.tar.gz f3cf708ed2dfdb57522c42cb6ad8874a0fc29448 1398736 gdc-4.1_0.25-20080616-4.1.2-23.2.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "95079bca85cb37b4f64aa5f1638e274f41d4aa0add539c0c6cc980c42ef5e94e 2332 gdc-4.1_0.25-20080616-4.1.2-23.2.dsc 8a7024f8d988cf05a04930b60990f5418867bcb4160f0e6fe17277398367015e 2537139 gdc-4.1_0.25-20080616-4.1.2.orig.tar.gz 9867cdbef8d4d0f16ef0419a38e4840c0faa192dedc89818ac1c40dc28a43eae 1398736 gdc-4.1_0.25-20080616-4.1.2-23.2.diff.gz"
-  ],
-  "Directory": [
-    "pool/main/g/gdc-4.1"
-  ],
-  "Files": [
-    "05aeff1de047242a828f4056eabdccc7 2332 gdc-4.1_0.25-20080616-4.1.2-23.2.dsc c84a503f550e50e7b3af9eda292851b2 2537139 gdc-4.1_0.25-20080616-4.1.2.orig.tar.gz f25444626d2498ef28af9a7f48bb2754 1398736 gdc-4.1_0.25-20080616-4.1.2-23.2.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Maintainer": [
-    "Debian GCC Maintainers <debian-gcc@lists.debian.org>"
-  ],
-  "Package": [
-    "gdc-4.1"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "devel"
-  ],
-  "Standards-Version": [
-    "3.8.0"
-  ],
-  "Uploaders": [
-    "Arthur Loiret <arthur.loiret@gmail.com>"
-  ],
-  "Version": [
-    "0.25-20080616-4.1.2-23.2"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"gdc-4.1, libphobos-4.1-dev"
+	],
+	"Build-Depends": [
+		"dpkg-dev (>= 1.13.9), gcc-4.1-multilib [amd64 i386 powerpc ppc64 s390 sparc kfreebsd-amd64], libc6.1-dev (>= 2.5) [alpha ia64] | libc0.3-dev (>= 2.5) [hurd-i386] | libc0.1-dev (>= 2.5) [kfreebsd-i386 kfreebsd-amd64] | libc6-dev (>= 2.5), libc6-dev-amd64 [i386], libc6-dev-sparc64 [sparc], libc6-dev-s390x [s390], libc6-dev-i386 [amd64], libc6-dev-powerpc [ppc64], libc6-dev-ppc64 [powerpc], libc0.1-dev-i386 [kfreebsd-amd64], lib32gcc1 [amd64 ppc64 kfreebsd-amd64], lib64gcc1 [i386 powerpc sparc s390], lib64z1-dev [i386 powerpc sparc s390], lib32z1-dev [amd64 ppc64 kfreebsd-amd64], libunwind7-dev (>= 0.98.5-6) [ia64], libatomic-ops-dev [ia64], m4, autoconf, autoconf2.13, automake1.9, libtool, autogen, gawk, expect-tcl8.3 [hppa], dejagnu [!hurd-i386], bzip2, binutils (>= 2.17cvs20070426) | binutils-multiarch (>= 2.17cvs20070426), binutils-hppa64 (>= 2.17cvs20070426) [hppa], debhelper (>= 5.0), gperf (>= 3.0.1), bison (>= 1:2.3), flex, gettext, texinfo (>= 4.3), zlib1g-dev, libmpfr-dev (>= 2.3.0~rc1.dfsg.1) [!avr], locales [!hurd-i386 !m68k], procps [!hurd-i386], sharutils, gcc-4.1-source (>= 4.1.2), gcc-4.1-source (<< 4.1.3), realpath (>= 1.9.12), chrpath, lsb-release, make (>= 3.81)"
+	],
+	"Checksums-Sha1": [
+		"dc2844d592806bd906ca10f88d6079401532f9cf 2332 gdc-4.1_0.25-20080616-4.1.2-23.2.dsc bf0f900b449864dbfba09c23bb3017c5e655e119 2537139 gdc-4.1_0.25-20080616-4.1.2.orig.tar.gz f3cf708ed2dfdb57522c42cb6ad8874a0fc29448 1398736 gdc-4.1_0.25-20080616-4.1.2-23.2.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"95079bca85cb37b4f64aa5f1638e274f41d4aa0add539c0c6cc980c42ef5e94e 2332 gdc-4.1_0.25-20080616-4.1.2-23.2.dsc 8a7024f8d988cf05a04930b60990f5418867bcb4160f0e6fe17277398367015e 2537139 gdc-4.1_0.25-20080616-4.1.2.orig.tar.gz 9867cdbef8d4d0f16ef0419a38e4840c0faa192dedc89818ac1c40dc28a43eae 1398736 gdc-4.1_0.25-20080616-4.1.2-23.2.diff.gz"
+	],
+	"Directory": [
+		"pool/main/g/gdc-4.1"
+	],
+	"Files": [
+		"05aeff1de047242a828f4056eabdccc7 2332 gdc-4.1_0.25-20080616-4.1.2-23.2.dsc c84a503f550e50e7b3af9eda292851b2 2537139 gdc-4.1_0.25-20080616-4.1.2.orig.tar.gz f25444626d2498ef28af9a7f48bb2754 1398736 gdc-4.1_0.25-20080616-4.1.2-23.2.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Maintainer": [
+		"Debian GCC Maintainers <debian-gcc@lists.debian.org>"
+	],
+	"Package": [
+		"gdc-4.1"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"devel"
+	],
+	"Standards-Version": [
+		"3.8.0"
+	],
+	"Uploaders": [
+		"Arthur Loiret <arthur.loiret@gmail.com>"
+	],
+	"Version": [
+		"0.25-20080616-4.1.2-23.2"
+	]
 }

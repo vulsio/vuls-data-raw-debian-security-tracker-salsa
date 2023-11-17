@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "i386 amd64 all"
-  ],
-  "Binary": [
-    "chromium, chromium-dbg, chromium-l10n, chromium-inspector, chromedriver"
-  ],
-  "Build-Depends": [
-    "clang (>= 3.5), debhelper (>= 9), gyp, python3, pkg-config, ninja-build, python-jinja2, ca-certificates, wget, flex, yasm, xvfb, wdiff, gperf, bison, valgrind, xz-utils, x11-apps, xfonts-base, libglewmx-dev, libgl1-mesa-dev, libglu1-mesa-dev, libegl1-mesa-dev, libgles2-mesa-dev, mesa-common-dev, libgtk2.0-dev, libglib2.0-dev, libxt-dev, libre2-dev, libpng-dev, libxss-dev, libelf-dev, libvpx-dev, libssl-dev, libpci-dev, libcap-dev, libdrm-dev, libusb-dev, libicu-dev, libffi-dev, libkrb5-dev, libexif-dev, libudev-dev, libopus-dev, libwebp-dev, libxtst-dev, libsrtp-dev, libjpeg-dev, libxml2-dev, libxslt1-dev, libpulse-dev, libspeex-dev, libpam0g-dev, libsnappy-dev, libgconf2-dev, libasound2-dev, libjsoncpp-dev, libspeechd-dev, libminizip-dev, libhunspell-dev, libmodpbase64-dev, libgnome-keyring-dev, libnss3-dev (>= 3.12.3), libnspr4-dev (>= 2:4.9), libcups2-dev (>= 1.5.0), libevent-dev (>= 1.4.13), libjs-jquery, libjs-excanvas, libjs-jquery-flot, libgcrypt20-dev, fonts-ipafont-gothic, fonts-ipafont-mincho"
-  ],
-  "Checksums-Sha1": [
-    "d65e05e74c1eafbc9bdc90ed8092e6f9243bc676 4087 chromium-browser_57.0.2987.98-1~deb8u1.dsc 22a8c32dc35bcfbe57159f9ca7b396d799567fb6 481398480 chromium-browser_57.0.2987.98.orig.tar.xz 2f8da2f001e738577bce9fc75a20435360bb6e69 185220 chromium-browser_57.0.2987.98-1~deb8u1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "fd2cc713e10bba251baad7f609e11733012623c56512d022bea45f494204ab39 4087 chromium-browser_57.0.2987.98-1~deb8u1.dsc 6c7bfd6e226a0e94dca91479b94c444c162d2a834d65e08208d25692bc1e0e9c 481398480 chromium-browser_57.0.2987.98.orig.tar.xz c7b02dc64baba418fffe9233a806397cf534ceadea6eb590d3b7a9119c9c21d6 185220 chromium-browser_57.0.2987.98-1~deb8u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/c/chromium-browser"
-  ],
-  "Files": [
-    "136c31a3ec580ae2d421ad8f3bcb4eac 4087 chromium-browser_57.0.2987.98-1~deb8u1.dsc e5b393a2b3000f5cadf3c0ee4b11e206 481398480 chromium-browser_57.0.2987.98.orig.tar.xz a21d3051d0ad84bcced131743f2879cf 185220 chromium-browser_57.0.2987.98-1~deb8u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.chromium.org/Home"
-  ],
-  "Maintainer": [
-    "Debian Chromium Maintainers <pkg-chromium-maint@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "chromium-browser"
-  ],
-  "Package-List": [
-    "chromedriver deb web optional arch=i386,amd64 chromium deb web optional arch=i386,amd64 chromium-dbg deb debug extra arch=i386,amd64 chromium-inspector deb web optional arch=all chromium-l10n deb localization optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "web"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Giuseppe Iuculano <iuculano@debian.org>, Michael Gilbert <mgilbert@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-chromium/pkg-chromium.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-chromium/pkg-chromium.git"
-  ],
-  "Version": [
-    "57.0.2987.98-1~deb8u1"
-  ]
+	"Architecture": [
+		"i386 amd64 all"
+	],
+	"Binary": [
+		"chromium, chromium-dbg, chromium-l10n, chromium-inspector, chromedriver"
+	],
+	"Build-Depends": [
+		"clang (>= 3.5), debhelper (>= 9), gyp, python3, pkg-config, ninja-build, python-jinja2, ca-certificates, wget, flex, yasm, xvfb, wdiff, gperf, bison, valgrind, xz-utils, x11-apps, xfonts-base, libglewmx-dev, libgl1-mesa-dev, libglu1-mesa-dev, libegl1-mesa-dev, libgles2-mesa-dev, mesa-common-dev, libgtk2.0-dev, libglib2.0-dev, libxt-dev, libre2-dev, libpng-dev, libxss-dev, libelf-dev, libvpx-dev, libssl-dev, libpci-dev, libcap-dev, libdrm-dev, libusb-dev, libicu-dev, libffi-dev, libkrb5-dev, libexif-dev, libudev-dev, libopus-dev, libwebp-dev, libxtst-dev, libsrtp-dev, libjpeg-dev, libxml2-dev, libxslt1-dev, libpulse-dev, libspeex-dev, libpam0g-dev, libsnappy-dev, libgconf2-dev, libasound2-dev, libjsoncpp-dev, libspeechd-dev, libminizip-dev, libhunspell-dev, libmodpbase64-dev, libgnome-keyring-dev, libnss3-dev (>= 3.12.3), libnspr4-dev (>= 2:4.9), libcups2-dev (>= 1.5.0), libevent-dev (>= 1.4.13), libjs-jquery, libjs-excanvas, libjs-jquery-flot, libgcrypt20-dev, fonts-ipafont-gothic, fonts-ipafont-mincho"
+	],
+	"Checksums-Sha1": [
+		"d65e05e74c1eafbc9bdc90ed8092e6f9243bc676 4087 chromium-browser_57.0.2987.98-1~deb8u1.dsc 22a8c32dc35bcfbe57159f9ca7b396d799567fb6 481398480 chromium-browser_57.0.2987.98.orig.tar.xz 2f8da2f001e738577bce9fc75a20435360bb6e69 185220 chromium-browser_57.0.2987.98-1~deb8u1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"fd2cc713e10bba251baad7f609e11733012623c56512d022bea45f494204ab39 4087 chromium-browser_57.0.2987.98-1~deb8u1.dsc 6c7bfd6e226a0e94dca91479b94c444c162d2a834d65e08208d25692bc1e0e9c 481398480 chromium-browser_57.0.2987.98.orig.tar.xz c7b02dc64baba418fffe9233a806397cf534ceadea6eb590d3b7a9119c9c21d6 185220 chromium-browser_57.0.2987.98-1~deb8u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/c/chromium-browser"
+	],
+	"Files": [
+		"136c31a3ec580ae2d421ad8f3bcb4eac 4087 chromium-browser_57.0.2987.98-1~deb8u1.dsc e5b393a2b3000f5cadf3c0ee4b11e206 481398480 chromium-browser_57.0.2987.98.orig.tar.xz a21d3051d0ad84bcced131743f2879cf 185220 chromium-browser_57.0.2987.98-1~deb8u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.chromium.org/Home"
+	],
+	"Maintainer": [
+		"Debian Chromium Maintainers <pkg-chromium-maint@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"chromium-browser"
+	],
+	"Package-List": [
+		"chromedriver deb web optional arch=i386,amd64 chromium deb web optional arch=i386,amd64 chromium-dbg deb debug extra arch=i386,amd64 chromium-inspector deb web optional arch=all chromium-l10n deb localization optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"web"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Giuseppe Iuculano <iuculano@debian.org>, Michael Gilbert <mgilbert@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-chromium/pkg-chromium.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-chromium/pkg-chromium.git"
+	],
+	"Version": [
+		"57.0.2987.98-1~deb8u1"
+	]
 }

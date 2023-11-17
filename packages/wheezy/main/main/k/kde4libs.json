@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libkdecore5, libkdeui5, libkpty4, libkdesu5, libkjsapi4, libkjsembed4, libkio5, libkntlm4, libsolid4, libkde3support4, libkfile4, libknewstuff2-4, libknewstuff3-4, libkparts4, libkutils4, libthreadweaver4, libkhtml5, libkimproxy4, libkmediaplayer4, libktexteditor4, libknotifyconfig4, libkdnssd4, libkrosscore4, libkrossui4, libnepomuk4, libnepomukutils4, libnepomukquery4a, libplasma3, libkunitconversion4, libkdewebkit5, libkcmutils4, libkemoticons4, libkidletime4, libkprintutils4, libkdeclarative5, kdelibs-bin, kdelibs5-plugins, kdelibs5-data, kdoctools, kdelibs5-dev, kdelibs5-dbg"
-  ],
-  "Build-Conflicts": [
-    "libqtwebkit-dev (<< 2.2.1)"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 7.3.16), cmake (>= 2.6.4), pkg-kde-tools (>= 0.14), libdlrestrictions-dev (>= 0.14), shared-mime-info (>= 0.30), dpkg-dev (>= 1.15.5), libphonon-dev (>= 4:4.6.0really4.3.80), libqt4-dev (>= 4:4.7.0), libqt4-opengl-dev (>= 4:4.7.0), libqtwebkit-dev, libpng12-dev, libssl-dev, libsm-dev, flex, bison, libsoprano-dev (>= 2.5.60), libstreamanalyzer-dev (>= 0.6.3), libxml2-dev, libxml2-utils, libxslt1-dev, libgif-dev, libavahi-common-dev, libaspell-dev, libbz2-dev, libenchant-dev, libfam-dev, libjasper-dev, libopenexr-dev, libpcre3-dev, zlib1g-dev, libjpeg-dev, hspell, libglu1-mesa-dev, libacl1-dev, automoc (>= 1.0~version-0.9.88), libutempter-dev, liblzma-dev, libattica-dev (>= 0.1.90), shared-desktop-ontologies (>= 0.6.50), libpolkit-qt-1-dev (>= 0.99.0), libxss-dev, libqca2-dev, libdbusmenu-qt-dev, docbook-xml, docbook-xsl, libxrender-dev, libkrb5-dev, libudev-dev [linux-any]"
-  ],
-  "Checksums-Sha1": [
-    "5f1531e55284076b95076e8cf39f6d05deab8380 4975 kde4libs_4.8.4-4+deb7u1.dsc 35cd199a30d84eb37b2b213fed5ee3adf810ea49 12182912 kde4libs_4.8.4.orig.tar.xz 93826bb88cb29d9446f0da28a34eb86790433727 341017 kde4libs_4.8.4-4+deb7u1.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "3ad3093c15abff9d143ef32416ea2d8530ea83207b9181ddae0ea1994f36e6e9 4975 kde4libs_4.8.4-4+deb7u1.dsc 25ac8781b66ee16d551363a9a41f33e672dcbd7905c091f2c2730c569b9a20f3 12182912 kde4libs_4.8.4.orig.tar.xz 91135bd9929e11c76e36188af4ff2d3fa72ad6185bf40ccdec543f4d311ec63c 341017 kde4libs_4.8.4-4+deb7u1.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/k/kde4libs"
-  ],
-  "Files": [
-    "501eb1d7662c4089ecbb6870c848c958 4975 kde4libs_4.8.4-4+deb7u1.dsc 83e0de7d22d07503da9cf2e2ff7cea43 12182912 kde4libs_4.8.4.orig.tar.xz eb454e5d96b015058db373e63f88f730 341017 kde4libs_4.8.4-4+deb7u1.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.kde.org/"
-  ],
-  "Maintainer": [
-    "Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>"
-  ],
-  "Package": [
-    "kde4libs"
-  ],
-  "Package-List": [
-    "kdelibs-bin deb libs optional kdelibs5-data deb libs optional kdelibs5-dbg deb debug extra kdelibs5-dev deb libdevel optional kdelibs5-plugins deb libs optional kdoctools deb libs optional libkcmutils4 deb libs optional libkde3support4 deb libs optional libkdeclarative5 deb libs optional libkdecore5 deb libs optional libkdesu5 deb libs optional libkdeui5 deb libs optional libkdewebkit5 deb libs optional libkdnssd4 deb libs optional libkemoticons4 deb libs optional libkfile4 deb libs optional libkhtml5 deb libs optional libkidletime4 deb libs optional libkimproxy4 deb libs optional libkio5 deb libs optional libkjsapi4 deb libs optional libkjsembed4 deb libs optional libkmediaplayer4 deb libs optional libknewstuff2-4 deb libs optional libknewstuff3-4 deb libs optional libknotifyconfig4 deb libs optional libkntlm4 deb libs optional libkparts4 deb libs optional libkprintutils4 deb libs optional libkpty4 deb libs optional libkrosscore4 deb libs optional libkrossui4 deb libs optional libktexteditor4 deb libs optional libkunitconversion4 deb libs optional libkutils4 deb libs optional libnepomuk4 deb libs optional libnepomukquery4a deb libs optional libnepomukutils4 deb libs optional libplasma3 deb libs optional libsolid4 deb libs optional libthreadweaver4 deb libs optional"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "libs"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Sune Vuorela <sune@debian.org>, Fathi Boudra <fabo@debian.org>, Modestas Vainius <modax@debian.org>, George Kiagiadakis <kiagiadakis.george@gmail.com>, José Manuel Santamaría Lema <panfaust@gmail.com>, Eshat Cakar <info@eshat.de>, Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://git.debian.org/?p=pkg-kde/kde-sc/kde4libs.git"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/pkg-kde/kde-sc/kde4libs.git"
-  ],
-  "Version": [
-    "4:4.8.4-4+deb7u1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libkdecore5, libkdeui5, libkpty4, libkdesu5, libkjsapi4, libkjsembed4, libkio5, libkntlm4, libsolid4, libkde3support4, libkfile4, libknewstuff2-4, libknewstuff3-4, libkparts4, libkutils4, libthreadweaver4, libkhtml5, libkimproxy4, libkmediaplayer4, libktexteditor4, libknotifyconfig4, libkdnssd4, libkrosscore4, libkrossui4, libnepomuk4, libnepomukutils4, libnepomukquery4a, libplasma3, libkunitconversion4, libkdewebkit5, libkcmutils4, libkemoticons4, libkidletime4, libkprintutils4, libkdeclarative5, kdelibs-bin, kdelibs5-plugins, kdelibs5-data, kdoctools, kdelibs5-dev, kdelibs5-dbg"
+	],
+	"Build-Conflicts": [
+		"libqtwebkit-dev (<< 2.2.1)"
+	],
+	"Build-Depends": [
+		"debhelper (>= 7.3.16), cmake (>= 2.6.4), pkg-kde-tools (>= 0.14), libdlrestrictions-dev (>= 0.14), shared-mime-info (>= 0.30), dpkg-dev (>= 1.15.5), libphonon-dev (>= 4:4.6.0really4.3.80), libqt4-dev (>= 4:4.7.0), libqt4-opengl-dev (>= 4:4.7.0), libqtwebkit-dev, libpng12-dev, libssl-dev, libsm-dev, flex, bison, libsoprano-dev (>= 2.5.60), libstreamanalyzer-dev (>= 0.6.3), libxml2-dev, libxml2-utils, libxslt1-dev, libgif-dev, libavahi-common-dev, libaspell-dev, libbz2-dev, libenchant-dev, libfam-dev, libjasper-dev, libopenexr-dev, libpcre3-dev, zlib1g-dev, libjpeg-dev, hspell, libglu1-mesa-dev, libacl1-dev, automoc (>= 1.0~version-0.9.88), libutempter-dev, liblzma-dev, libattica-dev (>= 0.1.90), shared-desktop-ontologies (>= 0.6.50), libpolkit-qt-1-dev (>= 0.99.0), libxss-dev, libqca2-dev, libdbusmenu-qt-dev, docbook-xml, docbook-xsl, libxrender-dev, libkrb5-dev, libudev-dev [linux-any]"
+	],
+	"Checksums-Sha1": [
+		"5f1531e55284076b95076e8cf39f6d05deab8380 4975 kde4libs_4.8.4-4+deb7u1.dsc 35cd199a30d84eb37b2b213fed5ee3adf810ea49 12182912 kde4libs_4.8.4.orig.tar.xz 93826bb88cb29d9446f0da28a34eb86790433727 341017 kde4libs_4.8.4-4+deb7u1.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"3ad3093c15abff9d143ef32416ea2d8530ea83207b9181ddae0ea1994f36e6e9 4975 kde4libs_4.8.4-4+deb7u1.dsc 25ac8781b66ee16d551363a9a41f33e672dcbd7905c091f2c2730c569b9a20f3 12182912 kde4libs_4.8.4.orig.tar.xz 91135bd9929e11c76e36188af4ff2d3fa72ad6185bf40ccdec543f4d311ec63c 341017 kde4libs_4.8.4-4+deb7u1.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/k/kde4libs"
+	],
+	"Files": [
+		"501eb1d7662c4089ecbb6870c848c958 4975 kde4libs_4.8.4-4+deb7u1.dsc 83e0de7d22d07503da9cf2e2ff7cea43 12182912 kde4libs_4.8.4.orig.tar.xz eb454e5d96b015058db373e63f88f730 341017 kde4libs_4.8.4-4+deb7u1.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.kde.org/"
+	],
+	"Maintainer": [
+		"Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>"
+	],
+	"Package": [
+		"kde4libs"
+	],
+	"Package-List": [
+		"kdelibs-bin deb libs optional kdelibs5-data deb libs optional kdelibs5-dbg deb debug extra kdelibs5-dev deb libdevel optional kdelibs5-plugins deb libs optional kdoctools deb libs optional libkcmutils4 deb libs optional libkde3support4 deb libs optional libkdeclarative5 deb libs optional libkdecore5 deb libs optional libkdesu5 deb libs optional libkdeui5 deb libs optional libkdewebkit5 deb libs optional libkdnssd4 deb libs optional libkemoticons4 deb libs optional libkfile4 deb libs optional libkhtml5 deb libs optional libkidletime4 deb libs optional libkimproxy4 deb libs optional libkio5 deb libs optional libkjsapi4 deb libs optional libkjsembed4 deb libs optional libkmediaplayer4 deb libs optional libknewstuff2-4 deb libs optional libknewstuff3-4 deb libs optional libknotifyconfig4 deb libs optional libkntlm4 deb libs optional libkparts4 deb libs optional libkprintutils4 deb libs optional libkpty4 deb libs optional libkrosscore4 deb libs optional libkrossui4 deb libs optional libktexteditor4 deb libs optional libkunitconversion4 deb libs optional libkutils4 deb libs optional libnepomuk4 deb libs optional libnepomukquery4a deb libs optional libnepomukutils4 deb libs optional libplasma3 deb libs optional libsolid4 deb libs optional libthreadweaver4 deb libs optional"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"libs"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Sune Vuorela <sune@debian.org>, Fathi Boudra <fabo@debian.org>, Modestas Vainius <modax@debian.org>, George Kiagiadakis <kiagiadakis.george@gmail.com>, José Manuel Santamaría Lema <panfaust@gmail.com>, Eshat Cakar <info@eshat.de>, Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://git.debian.org/?p=pkg-kde/kde-sc/kde4libs.git"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/pkg-kde/kde-sc/kde4libs.git"
+	],
+	"Version": [
+		"4:4.8.4-4+deb7u1"
+	]
 }

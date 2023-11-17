@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libgnatcoll1.7-dev, libgnatcoll-doc, libgnatcoll1.7, libgnatcoll-python1.7-dev, libgnatcoll-python1.7, libgnatcoll-iconv1.7-dev, libgnatcoll-iconv1.7, libgnatcoll-sqlite1.7-dev, libgnatcoll-sqlite1.7, libgnatcoll-sqlite-bin, libgnatcoll-readline1.7-dev, libgnatcoll-readline1.7, libgnatcoll-gmp1.7-dev, libgnatcoll-gmp1.7, libgnatcoll-gtk1.7-dev, libgnatcoll-gtk1.7"
-  ],
-  "Build-Depends": [
-    "dpkg-dev (>= 1.16.1), debhelper (>= 9), autoconf, autotools-dev, gnat, gnat-6, libgnatprj6-dev, libgnatvsn6-dev, dh-ada-library (>= 6.7), gprbuild (>= 2015-2), libgmp-dev, libgtkada3.8.3-dev, pkg-config, python-gi-dev, python-dev, libpython-dev, libreadline-dev, libsqlite3-dev"
-  ],
-  "Build-Depends-Indep": [
-    "faketime, python-sphinx, texlive-fonts-recommended, texlive-generic-extra, texlive-latex-extra, sphinx-common"
-  ],
-  "Checksums-Sha256": [
-    "e13fb1c991aee4a30ee542bbb489d28bda01ee677c49fbb5ab5666a34fa96008 3466 libgnatcoll_1.7gpl2015-2.dsc da60886116864b8e9257ae285c7d08ded48d820ed37185345435a529163c6b7d 1466984 libgnatcoll_1.7gpl2015.orig.tar.xz 897c99c837b6ae2ccbd175d1f5da02dc4f8191b3880333e20b685e456452bcfc 15992 libgnatcoll_1.7gpl2015-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/libg/libgnatcoll"
-  ],
-  "Files": [
-    "357a434dc55fd3eabe70775f4725c458 3466 libgnatcoll_1.7gpl2015-2.dsc c7941b8e506047eae602b49e53b57a9d 1466984 libgnatcoll_1.7gpl2015.orig.tar.xz b7232a104d31e6ce431184a6ac0206b3 15992 libgnatcoll_1.7gpl2015-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://libre.adacore.com/libre/tools"
-  ],
-  "Maintainer": [
-    "Nicolas Boulenguez <nicolas@debian.org>"
-  ],
-  "Package": [
-    "libgnatcoll"
-  ],
-  "Package-List": [
-    "libgnatcoll-doc deb doc extra arch=all libgnatcoll-gmp1.7 deb libs optional arch=any libgnatcoll-gmp1.7-dev deb libdevel extra arch=any libgnatcoll-gtk1.7 deb libs optional arch=any libgnatcoll-gtk1.7-dev deb libdevel extra arch=any libgnatcoll-iconv1.7 deb libs optional arch=any libgnatcoll-iconv1.7-dev deb libdevel extra arch=any libgnatcoll-python1.7 deb libs optional arch=any libgnatcoll-python1.7-dev deb libdevel extra arch=any libgnatcoll-readline1.7 deb libs optional arch=any libgnatcoll-readline1.7-dev deb libdevel extra arch=any libgnatcoll-sqlite-bin deb devel optional arch=any libgnatcoll-sqlite1.7 deb libs optional arch=any libgnatcoll-sqlite1.7-dev deb libdevel extra arch=any libgnatcoll1.7 deb libs optional arch=any libgnatcoll1.7-dev deb libdevel extra arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "gprbuild"
-  ],
-  "Vcs-Browser": [
-    "http://www.ada-france.org:8081/branch/changes/org.debian.libgnatcoll"
-  ],
-  "Vcs-Mtn": [
-    "www.ada-france.org org.debian.libgnatcoll"
-  ],
-  "Version": [
-    "1.7gpl2015-2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libgnatcoll1.7-dev, libgnatcoll-doc, libgnatcoll1.7, libgnatcoll-python1.7-dev, libgnatcoll-python1.7, libgnatcoll-iconv1.7-dev, libgnatcoll-iconv1.7, libgnatcoll-sqlite1.7-dev, libgnatcoll-sqlite1.7, libgnatcoll-sqlite-bin, libgnatcoll-readline1.7-dev, libgnatcoll-readline1.7, libgnatcoll-gmp1.7-dev, libgnatcoll-gmp1.7, libgnatcoll-gtk1.7-dev, libgnatcoll-gtk1.7"
+	],
+	"Build-Depends": [
+		"dpkg-dev (>= 1.16.1), debhelper (>= 9), autoconf, autotools-dev, gnat, gnat-6, libgnatprj6-dev, libgnatvsn6-dev, dh-ada-library (>= 6.7), gprbuild (>= 2015-2), libgmp-dev, libgtkada3.8.3-dev, pkg-config, python-gi-dev, python-dev, libpython-dev, libreadline-dev, libsqlite3-dev"
+	],
+	"Build-Depends-Indep": [
+		"faketime, python-sphinx, texlive-fonts-recommended, texlive-generic-extra, texlive-latex-extra, sphinx-common"
+	],
+	"Checksums-Sha256": [
+		"e13fb1c991aee4a30ee542bbb489d28bda01ee677c49fbb5ab5666a34fa96008 3466 libgnatcoll_1.7gpl2015-2.dsc da60886116864b8e9257ae285c7d08ded48d820ed37185345435a529163c6b7d 1466984 libgnatcoll_1.7gpl2015.orig.tar.xz 897c99c837b6ae2ccbd175d1f5da02dc4f8191b3880333e20b685e456452bcfc 15992 libgnatcoll_1.7gpl2015-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/libg/libgnatcoll"
+	],
+	"Files": [
+		"357a434dc55fd3eabe70775f4725c458 3466 libgnatcoll_1.7gpl2015-2.dsc c7941b8e506047eae602b49e53b57a9d 1466984 libgnatcoll_1.7gpl2015.orig.tar.xz b7232a104d31e6ce431184a6ac0206b3 15992 libgnatcoll_1.7gpl2015-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://libre.adacore.com/libre/tools"
+	],
+	"Maintainer": [
+		"Nicolas Boulenguez <nicolas@debian.org>"
+	],
+	"Package": [
+		"libgnatcoll"
+	],
+	"Package-List": [
+		"libgnatcoll-doc deb doc extra arch=all libgnatcoll-gmp1.7 deb libs optional arch=any libgnatcoll-gmp1.7-dev deb libdevel extra arch=any libgnatcoll-gtk1.7 deb libs optional arch=any libgnatcoll-gtk1.7-dev deb libdevel extra arch=any libgnatcoll-iconv1.7 deb libs optional arch=any libgnatcoll-iconv1.7-dev deb libdevel extra arch=any libgnatcoll-python1.7 deb libs optional arch=any libgnatcoll-python1.7-dev deb libdevel extra arch=any libgnatcoll-readline1.7 deb libs optional arch=any libgnatcoll-readline1.7-dev deb libdevel extra arch=any libgnatcoll-sqlite-bin deb devel optional arch=any libgnatcoll-sqlite1.7 deb libs optional arch=any libgnatcoll-sqlite1.7-dev deb libdevel extra arch=any libgnatcoll1.7 deb libs optional arch=any libgnatcoll1.7-dev deb libdevel extra arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"gprbuild"
+	],
+	"Vcs-Browser": [
+		"http://www.ada-france.org:8081/branch/changes/org.debian.libgnatcoll"
+	],
+	"Vcs-Mtn": [
+		"www.ada-france.org org.debian.libgnatcoll"
+	],
+	"Version": [
+		"1.7gpl2015-2"
+	]
 }

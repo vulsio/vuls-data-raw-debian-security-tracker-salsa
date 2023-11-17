@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "monitoring-plugins, monitoring-plugins-common, monitoring-plugins-basic, monitoring-plugins-standard, nagios-plugins, nagios-plugins-common, nagios-plugins-basic, nagios-plugins-standard"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 5), dpatch (>= 2.0.9), perl, autotools-dev, libdbi-dev, libldap2-dev, libpq-dev, libmysqlclient-dev | libmysqlclient16-dev | libmysqlclient15-dev, libfreeradius-client-dev | libradiusclient-ng-dev, libkrb5-dev, libnet-snmp-perl, procps, mawk | awk, hardening-wrapper"
-  ],
-  "Checksums-Sha1": [
-    "fb11ac5f4e4aadfd1c4c7e23320642d77383440c 2826 monitoring-plugins_2.1.1-1.dsc ec2747969dc6df122dd6bae1cedfc6ab90df8666 1738255 monitoring-plugins_2.1.1.orig.tar.gz 3539f432c37c0173459d1e8aca9b6ab163bde98d 37747 monitoring-plugins_2.1.1-1.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "dcb31cd044447973474d6ead6170458814089d820a80040a65ed452d14556d0a 2826 monitoring-plugins_2.1.1-1.dsc 100be6b31a0337a1c21a100a03bb528d999b10d7313254d23fe5414d9ff79c4c 1738255 monitoring-plugins_2.1.1.orig.tar.gz 87e4780365e8369d01173142896178eef08d527f8a9f1c03f1247e1391dada48 37747 monitoring-plugins_2.1.1-1.diff.gz"
-  ],
-  "Directory": [
-    "pool/main/m/monitoring-plugins"
-  ],
-  "Files": [
-    "da26eae7b92ddf154b578f36567b59f9 2826 monitoring-plugins_2.1.1-1.dsc be64125de319d4cf937475ce16b12646 1738255 monitoring-plugins_2.1.1.orig.tar.gz ca9b334c4a0ea4b289498e2fb34b90a8 37747 monitoring-plugins_2.1.1-1.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Homepage": [
-    "https://www.monitoring-plugins.org"
-  ],
-  "Maintainer": [
-    "Debian Nagios Maintainer Group <pkg-nagios-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "monitoring-plugins"
-  ],
-  "Package-List": [
-    "monitoring-plugins deb net extra arch=all monitoring-plugins-basic deb net extra arch=any monitoring-plugins-common deb net extra arch=any monitoring-plugins-standard deb net extra arch=any nagios-plugins deb oldlibs extra arch=all nagios-plugins-basic deb oldlibs extra arch=all nagios-plugins-common deb oldlibs extra arch=all nagios-plugins-standard deb oldlibs extra arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Jan Wagner <waja@cyconet.org>, Alexander Wirt <formorer@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-nagios/pkg-monitoring-plugins.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-nagios/pkg-monitoring-plugins.git"
-  ],
-  "Version": [
-    "2.1.1-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"monitoring-plugins, monitoring-plugins-common, monitoring-plugins-basic, monitoring-plugins-standard, nagios-plugins, nagios-plugins-common, nagios-plugins-basic, nagios-plugins-standard"
+	],
+	"Build-Depends": [
+		"debhelper (>= 5), dpatch (>= 2.0.9), perl, autotools-dev, libdbi-dev, libldap2-dev, libpq-dev, libmysqlclient-dev | libmysqlclient16-dev | libmysqlclient15-dev, libfreeradius-client-dev | libradiusclient-ng-dev, libkrb5-dev, libnet-snmp-perl, procps, mawk | awk, hardening-wrapper"
+	],
+	"Checksums-Sha1": [
+		"fb11ac5f4e4aadfd1c4c7e23320642d77383440c 2826 monitoring-plugins_2.1.1-1.dsc ec2747969dc6df122dd6bae1cedfc6ab90df8666 1738255 monitoring-plugins_2.1.1.orig.tar.gz 3539f432c37c0173459d1e8aca9b6ab163bde98d 37747 monitoring-plugins_2.1.1-1.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"dcb31cd044447973474d6ead6170458814089d820a80040a65ed452d14556d0a 2826 monitoring-plugins_2.1.1-1.dsc 100be6b31a0337a1c21a100a03bb528d999b10d7313254d23fe5414d9ff79c4c 1738255 monitoring-plugins_2.1.1.orig.tar.gz 87e4780365e8369d01173142896178eef08d527f8a9f1c03f1247e1391dada48 37747 monitoring-plugins_2.1.1-1.diff.gz"
+	],
+	"Directory": [
+		"pool/main/m/monitoring-plugins"
+	],
+	"Files": [
+		"da26eae7b92ddf154b578f36567b59f9 2826 monitoring-plugins_2.1.1-1.dsc be64125de319d4cf937475ce16b12646 1738255 monitoring-plugins_2.1.1.orig.tar.gz ca9b334c4a0ea4b289498e2fb34b90a8 37747 monitoring-plugins_2.1.1-1.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Homepage": [
+		"https://www.monitoring-plugins.org"
+	],
+	"Maintainer": [
+		"Debian Nagios Maintainer Group <pkg-nagios-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"monitoring-plugins"
+	],
+	"Package-List": [
+		"monitoring-plugins deb net extra arch=all monitoring-plugins-basic deb net extra arch=any monitoring-plugins-common deb net extra arch=any monitoring-plugins-standard deb net extra arch=any nagios-plugins deb oldlibs extra arch=all nagios-plugins-basic deb oldlibs extra arch=all nagios-plugins-common deb oldlibs extra arch=all nagios-plugins-standard deb oldlibs extra arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Jan Wagner <waja@cyconet.org>, Alexander Wirt <formorer@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-nagios/pkg-monitoring-plugins.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-nagios/pkg-monitoring-plugins.git"
+	],
+	"Version": [
+		"2.1.1-1"
+	]
 }

@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "kfreebsd-any linux-any all"
-  ],
-  "Binary": [
-    "pypy, pypy-tk, python-pypy.sandbox, pypy-lib, pypy-lib-testsuite, pypy-doc, pypy-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-exec, libbz2-dev, libexpat1-dev, libffi-dev, libgdbm-dev, libncurses-dev, libsqlite3-dev, libssl-dev, netbase, pkg-config, procps, python (>= 2.6.6-11~), python-docutils, python-sphinx (>= 1.0.7+dfsg), python2.7-dev, tcl-dev, tk-dev, valgrind [amd64 armhf i386 mips mipsel powerpc ppc64 s390x], zlib1g-dev"
-  ],
-  "Build-Depends-Indep": [
-    "graphviz"
-  ],
-  "Checksums-Sha1": [
-    "a626efb37ca7d6b9e0d4e04c30d2f0cedfe85bbe 2544 pypy_2.4.0+dfsg-3.dsc 30643432ae0d1e308df4aa95c114e98105fbf225 11969912 pypy_2.4.0+dfsg.orig.tar.xz 43141d7217e7d0abcadb54d0a79987a8874fa8d7 63256 pypy_2.4.0+dfsg-3.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "5846dace8252f2ca4c524f6547917c05690e187caa198f8740f45777ec295d50 2544 pypy_2.4.0+dfsg-3.dsc 62fa289ec4122d0af07f5a23e9a9535767a795295922c15783a0862d1c87e143 11969912 pypy_2.4.0+dfsg.orig.tar.xz 6ae5d7e4eed30d652050301cd7c31b1a1ed4d68b06ec6dc145252697d03e4832 63256 pypy_2.4.0+dfsg-3.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/pypy"
-  ],
-  "Files": [
-    "c36d68c8b4760d9f6fe83430a09dd871 2544 pypy_2.4.0+dfsg-3.dsc f93f4e151e0e39e5d1184507bfc738f9 11969912 pypy_2.4.0+dfsg.orig.tar.xz bf2e90d9f3f75cdef400c21d5568361b 63256 pypy_2.4.0+dfsg-3.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://pypy.org/"
-  ],
-  "Maintainer": [
-    "Stefano Rivera <stefanor@debian.org>"
-  ],
-  "Package": [
-    "pypy"
-  ],
-  "Package-List": [
-    "pypy deb python extra arch=kfreebsd-any,linux-any pypy-dev deb python extra arch=all pypy-doc deb doc extra arch=all pypy-lib deb python extra arch=all pypy-lib-testsuite deb python extra arch=all pypy-tk deb python extra arch=kfreebsd-any,linux-any python-pypy.sandbox deb python extra arch=kfreebsd-any,linux-any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "python"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=collab-maint/pypy.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/collab-maint/pypy.git"
-  ],
-  "Version": [
-    "2.4.0+dfsg-3"
-  ]
+	"Architecture": [
+		"kfreebsd-any linux-any all"
+	],
+	"Binary": [
+		"pypy, pypy-tk, python-pypy.sandbox, pypy-lib, pypy-lib-testsuite, pypy-doc, pypy-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-exec, libbz2-dev, libexpat1-dev, libffi-dev, libgdbm-dev, libncurses-dev, libsqlite3-dev, libssl-dev, netbase, pkg-config, procps, python (>= 2.6.6-11~), python-docutils, python-sphinx (>= 1.0.7+dfsg), python2.7-dev, tcl-dev, tk-dev, valgrind [amd64 armhf i386 mips mipsel powerpc ppc64 s390x], zlib1g-dev"
+	],
+	"Build-Depends-Indep": [
+		"graphviz"
+	],
+	"Checksums-Sha1": [
+		"a626efb37ca7d6b9e0d4e04c30d2f0cedfe85bbe 2544 pypy_2.4.0+dfsg-3.dsc 30643432ae0d1e308df4aa95c114e98105fbf225 11969912 pypy_2.4.0+dfsg.orig.tar.xz 43141d7217e7d0abcadb54d0a79987a8874fa8d7 63256 pypy_2.4.0+dfsg-3.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"5846dace8252f2ca4c524f6547917c05690e187caa198f8740f45777ec295d50 2544 pypy_2.4.0+dfsg-3.dsc 62fa289ec4122d0af07f5a23e9a9535767a795295922c15783a0862d1c87e143 11969912 pypy_2.4.0+dfsg.orig.tar.xz 6ae5d7e4eed30d652050301cd7c31b1a1ed4d68b06ec6dc145252697d03e4832 63256 pypy_2.4.0+dfsg-3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/pypy"
+	],
+	"Files": [
+		"c36d68c8b4760d9f6fe83430a09dd871 2544 pypy_2.4.0+dfsg-3.dsc f93f4e151e0e39e5d1184507bfc738f9 11969912 pypy_2.4.0+dfsg.orig.tar.xz bf2e90d9f3f75cdef400c21d5568361b 63256 pypy_2.4.0+dfsg-3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://pypy.org/"
+	],
+	"Maintainer": [
+		"Stefano Rivera <stefanor@debian.org>"
+	],
+	"Package": [
+		"pypy"
+	],
+	"Package-List": [
+		"pypy deb python extra arch=kfreebsd-any,linux-any pypy-dev deb python extra arch=all pypy-doc deb doc extra arch=all pypy-lib deb python extra arch=all pypy-lib-testsuite deb python extra arch=all pypy-tk deb python extra arch=kfreebsd-any,linux-any python-pypy.sandbox deb python extra arch=kfreebsd-any,linux-any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"python"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=collab-maint/pypy.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/collab-maint/pypy.git"
+	],
+	"Version": [
+		"2.4.0+dfsg-3"
+	]
 }

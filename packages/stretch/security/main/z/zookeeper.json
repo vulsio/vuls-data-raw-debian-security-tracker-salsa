@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libzookeeper-java, zookeeper, zookeeperd, libzookeeper-java-doc, libzookeeper-mt2, libzookeeper-st2, libzookeeper2, libzookeeper-mt-dev, libzookeeper-st-dev, zookeeper-bin, python-zookeeper"
-  ],
-  "Build-Depends": [
-    "ant (>= 1.6.0), ant-optional, autoconf, automake, debhelper (>= 9~), default-jdk (>= 2:1.6), default-jdk-doc, dh-python, dh-systemd, help2man, ivy-debian-helper, javacc, javahelper (>= 0.28), junit4, libboost-dev, libcppunit-dev, libjline-java, liblog4cxx-dev, liblog4j1.2-java (>> 1.2.15-8), libmockito-java, libnetty-3.9-java, libslf4j-java, libtool, libxerces2-java, libxml2-dev, maven-repo-helper, procps, python-all-dev (>= 2.6.6-3~)"
-  ],
-  "Checksums-Sha1": [
-    "fd422563f8da1d774762931103c97e8515da3b3b 3021 zookeeper_3.4.9-3+deb9u2.dsc a0a6168dcd380c5586c8dcfa144668f7a1a21c6d 1931392 zookeeper_3.4.9.orig.tar.xz 96790de23fd6781d297276ded726d95efa1185ff 87508 zookeeper_3.4.9-3+deb9u2.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "efbf3e61208c807edba26e62535f76527045fbeb21d18ade5b352db2c35f54ac 3021 zookeeper_3.4.9-3+deb9u2.dsc 1471e69d0b391c87208ec5a6ef5c6dbb1e31820b274b34ebd9a808940f36410b 1931392 zookeeper_3.4.9.orig.tar.xz eec0dee2d132413af212cf07eec8fe9c57737761026462b645105b44258cfe74 87508 zookeeper_3.4.9-3+deb9u2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/z/zookeeper"
-  ],
-  "Files": [
-    "d1d5583f09aeabf30fc2a7268104b8b2 3021 zookeeper_3.4.9-3+deb9u2.dsc d33aa506accaeade4260f1ba26ad3b8e 1931392 zookeeper_3.4.9.orig.tar.xz ef1b7f910ff68518158146e962f8287e 87508 zookeeper_3.4.9-3+deb9u2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://zookeeper.apache.org"
-  ],
-  "Maintainer": [
-    "Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "zookeeper"
-  ],
-  "Package-List": [
-    "libzookeeper-java deb java optional arch=all libzookeeper-java-doc deb doc optional arch=all libzookeeper-mt-dev deb libdevel optional arch=any libzookeeper-mt2 deb libs optional arch=any libzookeeper-st-dev deb libdevel optional arch=any libzookeeper-st2 deb libs optional arch=any libzookeeper2 deb oldlibs extra arch=any python-zookeeper deb python optional arch=any zookeeper deb java optional arch=all zookeeper-bin deb misc optional arch=any zookeeperd deb java optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "java"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "James Page <james.page@ubuntu.com>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-java/zookeeper.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-java/zookeeper.git"
-  ],
-  "Version": [
-    "3.4.9-3+deb9u2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libzookeeper-java, zookeeper, zookeeperd, libzookeeper-java-doc, libzookeeper-mt2, libzookeeper-st2, libzookeeper2, libzookeeper-mt-dev, libzookeeper-st-dev, zookeeper-bin, python-zookeeper"
+	],
+	"Build-Depends": [
+		"ant (>= 1.6.0), ant-optional, autoconf, automake, debhelper (>= 9~), default-jdk (>= 2:1.6), default-jdk-doc, dh-python, dh-systemd, help2man, ivy-debian-helper, javacc, javahelper (>= 0.28), junit4, libboost-dev, libcppunit-dev, libjline-java, liblog4cxx-dev, liblog4j1.2-java (>> 1.2.15-8), libmockito-java, libnetty-3.9-java, libslf4j-java, libtool, libxerces2-java, libxml2-dev, maven-repo-helper, procps, python-all-dev (>= 2.6.6-3~)"
+	],
+	"Checksums-Sha1": [
+		"fd422563f8da1d774762931103c97e8515da3b3b 3021 zookeeper_3.4.9-3+deb9u2.dsc a0a6168dcd380c5586c8dcfa144668f7a1a21c6d 1931392 zookeeper_3.4.9.orig.tar.xz 96790de23fd6781d297276ded726d95efa1185ff 87508 zookeeper_3.4.9-3+deb9u2.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"efbf3e61208c807edba26e62535f76527045fbeb21d18ade5b352db2c35f54ac 3021 zookeeper_3.4.9-3+deb9u2.dsc 1471e69d0b391c87208ec5a6ef5c6dbb1e31820b274b34ebd9a808940f36410b 1931392 zookeeper_3.4.9.orig.tar.xz eec0dee2d132413af212cf07eec8fe9c57737761026462b645105b44258cfe74 87508 zookeeper_3.4.9-3+deb9u2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/z/zookeeper"
+	],
+	"Files": [
+		"d1d5583f09aeabf30fc2a7268104b8b2 3021 zookeeper_3.4.9-3+deb9u2.dsc d33aa506accaeade4260f1ba26ad3b8e 1931392 zookeeper_3.4.9.orig.tar.xz ef1b7f910ff68518158146e962f8287e 87508 zookeeper_3.4.9-3+deb9u2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://zookeeper.apache.org"
+	],
+	"Maintainer": [
+		"Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"zookeeper"
+	],
+	"Package-List": [
+		"libzookeeper-java deb java optional arch=all libzookeeper-java-doc deb doc optional arch=all libzookeeper-mt-dev deb libdevel optional arch=any libzookeeper-mt2 deb libs optional arch=any libzookeeper-st-dev deb libdevel optional arch=any libzookeeper-st2 deb libs optional arch=any libzookeeper2 deb oldlibs extra arch=any python-zookeeper deb python optional arch=any zookeeper deb java optional arch=all zookeeper-bin deb misc optional arch=any zookeeperd deb java optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"java"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"James Page <james.page@ubuntu.com>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-java/zookeeper.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-java/zookeeper.git"
+	],
+	"Version": [
+		"3.4.9-3+deb9u2"
+	]
 }

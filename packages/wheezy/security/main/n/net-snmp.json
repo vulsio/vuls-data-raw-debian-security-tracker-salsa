@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "snmpd, snmp, libsnmp-base, libsnmp15, libsnmp15-dbg, libsnmp-dev, libsnmp-perl, libsnmp-python, tkmib"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 7.0.50~), libtool, libwrap0-dev, libssl-dev (>> 0.9.8), perl (>= 5.8), libperl-dev, python-all-dev (>= 2.5.4-1~), python-central (>= 0.5.6), python (>= 2.3.5-7), python-setuptools (>= 0.6b3), autoconf, automake1.9, autotools-dev, debianutils (>= 1.13.1), bash (>= 2.05), findutils (>= 4.1.20), procps, libbsd-dev [kfreebsd-any], libkvm-dev [kfreebsd-any], libsensors4-dev [linux-any]"
-  ],
-  "Checksums-Sha1": [
-    "5ca55846e7bdae367015b741c8b33b2678910166 2773 net-snmp_5.4.3~dfsg-2.8+deb7u2.dsc 7154bc505d7fbb8b1628d86015918df3e281cd67 4389779 net-snmp_5.4.3~dfsg.orig.tar.gz 2b6fbedc17a1f1b1c1081dec9c537410f4161809 60399 net-snmp_5.4.3~dfsg-2.8+deb7u2.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "fb04aee5dee7f30232e4269065c75e77a0cae350867dfce396db6b7183fb4563 2773 net-snmp_5.4.3~dfsg-2.8+deb7u2.dsc 83bd12866a0a3d2ebb5a0b346fed113c2d81ecac188397ffd6619c6caa711151 4389779 net-snmp_5.4.3~dfsg.orig.tar.gz adfd0e83ff5fa5e878614767b46044b9ffced9f304eaf25be78a9327e4fd3985 60399 net-snmp_5.4.3~dfsg-2.8+deb7u2.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/updates/main/n/net-snmp"
-  ],
-  "Files": [
-    "f92078cd968418ec79867097f113ecc6 2773 net-snmp_5.4.3~dfsg-2.8+deb7u2.dsc 8fbaa389537fcc4ae858cfb6fdfa9562 4389779 net-snmp_5.4.3~dfsg.orig.tar.gz 7e8c6c13cc2178587ccb8605601f7052 60399 net-snmp_5.4.3~dfsg-2.8+deb7u2.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://net-snmp.sourceforge.net/"
-  ],
-  "Maintainer": [
-    "Net-SNMP Packaging Team <pkg-net-snmp-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "net-snmp"
-  ],
-  "Package-List": [
-    "libsnmp-base deb libs optional libsnmp-dev deb libdevel optional libsnmp-perl deb perl optional libsnmp-python deb python optional libsnmp15 deb libs optional libsnmp15-dbg deb debug extra snmp deb net optional snmpd deb net optional tkmib deb net optional"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Python-Version": [
-    "all"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.8.4"
-  ],
-  "Uploaders": [
-    "Jochen Friedrich <jochen@scram.de>, Thomas Anders <tanders@users.sourceforge.net>, Noah Meyerhans <noahm@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://svn.debian.org/wsvn/pkg-net-snmp/"
-  ],
-  "Vcs-Svn": [
-    "svn://svn.debian.org/pkg-net-snmp/"
-  ],
-  "Version": [
-    "5.4.3~dfsg-2.8+deb7u2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"snmpd, snmp, libsnmp-base, libsnmp15, libsnmp15-dbg, libsnmp-dev, libsnmp-perl, libsnmp-python, tkmib"
+	],
+	"Build-Depends": [
+		"debhelper (>= 7.0.50~), libtool, libwrap0-dev, libssl-dev (>> 0.9.8), perl (>= 5.8), libperl-dev, python-all-dev (>= 2.5.4-1~), python-central (>= 0.5.6), python (>= 2.3.5-7), python-setuptools (>= 0.6b3), autoconf, automake1.9, autotools-dev, debianutils (>= 1.13.1), bash (>= 2.05), findutils (>= 4.1.20), procps, libbsd-dev [kfreebsd-any], libkvm-dev [kfreebsd-any], libsensors4-dev [linux-any]"
+	],
+	"Checksums-Sha1": [
+		"5ca55846e7bdae367015b741c8b33b2678910166 2773 net-snmp_5.4.3~dfsg-2.8+deb7u2.dsc 7154bc505d7fbb8b1628d86015918df3e281cd67 4389779 net-snmp_5.4.3~dfsg.orig.tar.gz 2b6fbedc17a1f1b1c1081dec9c537410f4161809 60399 net-snmp_5.4.3~dfsg-2.8+deb7u2.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"fb04aee5dee7f30232e4269065c75e77a0cae350867dfce396db6b7183fb4563 2773 net-snmp_5.4.3~dfsg-2.8+deb7u2.dsc 83bd12866a0a3d2ebb5a0b346fed113c2d81ecac188397ffd6619c6caa711151 4389779 net-snmp_5.4.3~dfsg.orig.tar.gz adfd0e83ff5fa5e878614767b46044b9ffced9f304eaf25be78a9327e4fd3985 60399 net-snmp_5.4.3~dfsg-2.8+deb7u2.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/updates/main/n/net-snmp"
+	],
+	"Files": [
+		"f92078cd968418ec79867097f113ecc6 2773 net-snmp_5.4.3~dfsg-2.8+deb7u2.dsc 8fbaa389537fcc4ae858cfb6fdfa9562 4389779 net-snmp_5.4.3~dfsg.orig.tar.gz 7e8c6c13cc2178587ccb8605601f7052 60399 net-snmp_5.4.3~dfsg-2.8+deb7u2.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://net-snmp.sourceforge.net/"
+	],
+	"Maintainer": [
+		"Net-SNMP Packaging Team <pkg-net-snmp-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"net-snmp"
+	],
+	"Package-List": [
+		"libsnmp-base deb libs optional libsnmp-dev deb libdevel optional libsnmp-perl deb perl optional libsnmp-python deb python optional libsnmp15 deb libs optional libsnmp15-dbg deb debug extra snmp deb net optional snmpd deb net optional tkmib deb net optional"
+	],
+	"Priority": [
+		"source"
+	],
+	"Python-Version": [
+		"all"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.8.4"
+	],
+	"Uploaders": [
+		"Jochen Friedrich <jochen@scram.de>, Thomas Anders <tanders@users.sourceforge.net>, Noah Meyerhans <noahm@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://svn.debian.org/wsvn/pkg-net-snmp/"
+	],
+	"Vcs-Svn": [
+		"svn://svn.debian.org/pkg-net-snmp/"
+	],
+	"Version": [
+		"5.4.3~dfsg-2.8+deb7u2"
+	]
 }

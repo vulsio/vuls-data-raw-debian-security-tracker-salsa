@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libgtksourceview-5-0, libgtksourceview-5-common, libgtksourceview-5-dev, libgtksourceview-5-doc, gir1.2-gtksource-5, libgtksourceview-5-tests"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, meson (>= 0.60.0), gi-docgen <!nodoc>, libgtk-4-dev (>= 4.10), libatk1.0-dev (>= 1.32), libfribidi-dev, libxml2-dev (>= 2.6), libxml2-utils, libglib2.0-dev (>= 2.73), libgirepository1.0-dev (>= 1.70), valac, xauth <!nocheck>, xvfb <!nocheck>"
-  ],
-  "Build-Depends-Indep": [
-    "libglib2.0-doc <!nodoc>, libgtk-3-doc <!nodoc>, libgdk-pixbuf2.0-doc <!nodoc>, libpango1.0-doc <!nodoc>"
-  ],
-  "Checksums-Sha256": [
-    "4e08c02a5969e20e0c96a25f066e6f0151c3eababcd7ca552a68ededf2afe6c6 3028 gtksourceview5_5.10.0-1.dsc b38a3010c34f59e13b05175e9d20ca02a3110443fec2b1e5747413801bc9c23f 1255564 gtksourceview5_5.10.0.orig.tar.xz eaf0b785e794f0ea2debd8d7735e93eb9b8197654730caee20c70fce62fb4cb7 19164 gtksourceview5_5.10.0-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/g/gtksourceview5"
-  ],
-  "Files": [
-    "e2dbc5834bf81f7cee6ce310e083af08 3028 gtksourceview5_5.10.0-1.dsc f74162d727875c3f517d5316148e7222 1255564 gtksourceview5_5.10.0.orig.tar.xz 7fcacda24400fbf7ce0ca153fb11fb5b 19164 gtksourceview5_5.10.0-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://wiki.gnome.org/Projects/GtkSourceView"
-  ],
-  "Maintainer": [
-    "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "gtksourceview5"
-  ],
-  "Package-List": [
-    "gir1.2-gtksource-5 deb introspection optional arch=any libgtksourceview-5-0 deb libs optional arch=any libgtksourceview-5-common deb libs optional arch=all libgtksourceview-5-dev deb libdevel optional arch=any libgtksourceview-5-doc deb doc optional arch=all profile=!nodoc libgtksourceview-5-tests deb libs optional arch=any profile=!noinsttest"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "gnome-desktop-testing, xauth, xvfb"
-  ],
-  "Uploaders": [
-    "Jeremy Bícha <jbicha@ubuntu.com>, Michael Biebl <biebl@debian.org>, Sebastien Bacher <seb128@debian.org>, Tim Lunn <tim@feathertop.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/gnome-team/gtksourceview5"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/gnome-team/gtksourceview5.git"
-  ],
-  "Version": [
-    "5.10.0-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libgtksourceview-5-0, libgtksourceview-5-common, libgtksourceview-5-dev, libgtksourceview-5-doc, gir1.2-gtksource-5, libgtksourceview-5-tests"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, meson (>= 0.60.0), gi-docgen <!nodoc>, libgtk-4-dev (>= 4.10), libatk1.0-dev (>= 1.32), libfribidi-dev, libxml2-dev (>= 2.6), libxml2-utils, libglib2.0-dev (>= 2.73), libgirepository1.0-dev (>= 1.70), valac, xauth <!nocheck>, xvfb <!nocheck>"
+	],
+	"Build-Depends-Indep": [
+		"libglib2.0-doc <!nodoc>, libgtk-3-doc <!nodoc>, libgdk-pixbuf2.0-doc <!nodoc>, libpango1.0-doc <!nodoc>"
+	],
+	"Checksums-Sha256": [
+		"4e08c02a5969e20e0c96a25f066e6f0151c3eababcd7ca552a68ededf2afe6c6 3028 gtksourceview5_5.10.0-1.dsc b38a3010c34f59e13b05175e9d20ca02a3110443fec2b1e5747413801bc9c23f 1255564 gtksourceview5_5.10.0.orig.tar.xz eaf0b785e794f0ea2debd8d7735e93eb9b8197654730caee20c70fce62fb4cb7 19164 gtksourceview5_5.10.0-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/gtksourceview5"
+	],
+	"Files": [
+		"e2dbc5834bf81f7cee6ce310e083af08 3028 gtksourceview5_5.10.0-1.dsc f74162d727875c3f517d5316148e7222 1255564 gtksourceview5_5.10.0.orig.tar.xz 7fcacda24400fbf7ce0ca153fb11fb5b 19164 gtksourceview5_5.10.0-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://wiki.gnome.org/Projects/GtkSourceView"
+	],
+	"Maintainer": [
+		"Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"gtksourceview5"
+	],
+	"Package-List": [
+		"gir1.2-gtksource-5 deb introspection optional arch=any libgtksourceview-5-0 deb libs optional arch=any libgtksourceview-5-common deb libs optional arch=all libgtksourceview-5-dev deb libdevel optional arch=any libgtksourceview-5-doc deb doc optional arch=all profile=!nodoc libgtksourceview-5-tests deb libs optional arch=any profile=!noinsttest"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"gnome-desktop-testing, xauth, xvfb"
+	],
+	"Uploaders": [
+		"Jeremy Bícha <jbicha@ubuntu.com>, Michael Biebl <biebl@debian.org>, Sebastien Bacher <seb128@debian.org>, Tim Lunn <tim@feathertop.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/gnome-team/gtksourceview5"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/gnome-team/gtksourceview5.git"
+	],
+	"Version": [
+		"5.10.0-1"
+	]
 }

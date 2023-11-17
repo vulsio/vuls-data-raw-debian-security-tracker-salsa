@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "umockdev, libumockdev0, libumockdev-dev, gir1.2-umockdev-1.0"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), meson, pkg-config, valac (>= 0.16.1), libglib2.0-dev (>= 2.32.0), libudev-dev, libgudev-1.0-dev, libpcap-dev, python3-gi, gobject-introspection, libgirepository1.0-dev, gir1.2-glib-2.0, gir1.2-gudev-1.0, gtk-doc-tools, help2man, udev <!nocheck>, usbutils <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "ed33a950e977f6f6800e8423aeb3bc7bd429fc1e3b4d0a89569012300bcccd64 2475 umockdev_0.17.18-1.dsc 466ad3e0c715e56f50ea6a965165823d073a84137acb8a1e39b66573648a985f 491668 umockdev_0.17.18.orig.tar.xz b13c96a96c289f10da9aae7f280e9bcd07988463795511d8537bf919dbd08f5e 8428 umockdev_0.17.18-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/u/umockdev"
-  ],
-  "Files": [
-    "b5a1c30100ad27edad97da8dbfa9f5c5 2475 umockdev_0.17.18-1.dsc a9ff284518c034aa334b58237074e313 491668 umockdev_0.17.18.orig.tar.xz 70bce0de0d4c7cc3fc71310d9b792386 8428 umockdev_0.17.18-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/martinpitt/umockdev/"
-  ],
-  "Maintainer": [
-    "Martin Pitt <mpitt@debian.org>"
-  ],
-  "Package": [
-    "umockdev"
-  ],
-  "Package-List": [
-    "gir1.2-umockdev-1.0 deb introspection optional arch=any libumockdev-dev deb libdevel optional arch=any libumockdev0 deb libs optional arch=any umockdev deb devel optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "@builddeps@, evtest, gphoto2, usbutils, xinput, xserver-xorg-input-evdev, xserver-xorg-input-synaptics, xserver-xorg-video-dummy"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian/umockdev"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian/umockdev.git"
-  ],
-  "Version": [
-    "0.17.18-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"umockdev, libumockdev0, libumockdev-dev, gir1.2-umockdev-1.0"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), meson, pkg-config, valac (>= 0.16.1), libglib2.0-dev (>= 2.32.0), libudev-dev, libgudev-1.0-dev, libpcap-dev, python3-gi, gobject-introspection, libgirepository1.0-dev, gir1.2-glib-2.0, gir1.2-gudev-1.0, gtk-doc-tools, help2man, udev <!nocheck>, usbutils <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"ed33a950e977f6f6800e8423aeb3bc7bd429fc1e3b4d0a89569012300bcccd64 2475 umockdev_0.17.18-1.dsc 466ad3e0c715e56f50ea6a965165823d073a84137acb8a1e39b66573648a985f 491668 umockdev_0.17.18.orig.tar.xz b13c96a96c289f10da9aae7f280e9bcd07988463795511d8537bf919dbd08f5e 8428 umockdev_0.17.18-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/u/umockdev"
+	],
+	"Files": [
+		"b5a1c30100ad27edad97da8dbfa9f5c5 2475 umockdev_0.17.18-1.dsc a9ff284518c034aa334b58237074e313 491668 umockdev_0.17.18.orig.tar.xz 70bce0de0d4c7cc3fc71310d9b792386 8428 umockdev_0.17.18-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/martinpitt/umockdev/"
+	],
+	"Maintainer": [
+		"Martin Pitt <mpitt@debian.org>"
+	],
+	"Package": [
+		"umockdev"
+	],
+	"Package-List": [
+		"gir1.2-umockdev-1.0 deb introspection optional arch=any libumockdev-dev deb libdevel optional arch=any libumockdev0 deb libs optional arch=any umockdev deb devel optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"@builddeps@, evtest, gphoto2, usbutils, xinput, xserver-xorg-input-evdev, xserver-xorg-input-synaptics, xserver-xorg-video-dummy"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/umockdev"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/umockdev.git"
+	],
+	"Version": [
+		"0.17.18-1"
+	]
 }

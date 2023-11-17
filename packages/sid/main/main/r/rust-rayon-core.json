@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-rayon-core-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-crossbeam-channel-0.5+default-dev <!nocheck>, librust-crossbeam-deque-0.8+default-dev (>= 0.8.1-~~) <!nocheck>, librust-crossbeam-utils-0.8+default-dev <!nocheck>, librust-num-cpus-1+default-dev (>= 1.2-~~) <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "8bfae61b0c42351ad7ff5234b0208fb11d7c90645172228bdcfa3b91f027fd54 2608 rust-rayon-core_1.11.0-1.dsc 4b8f95bd6966f5c87776639160a66bd8ab9895d9d4ab01ddba9fc60661aebe8d 73118 rust-rayon-core_1.11.0.orig.tar.gz dad7873e6df778dd601b93c0bcb1f3e22bfa63fff42944db339005334d775814 3552 rust-rayon-core_1.11.0-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-rayon-core"
-  ],
-  "Files": [
-    "df4b35af4d7ef0560cfc60e3ddab2236 2608 rust-rayon-core_1.11.0-1.dsc 08db330bc0fb2b16a6c78c2870196852 73118 rust-rayon-core_1.11.0.orig.tar.gz ad5fbad624e55f4bf6b6290a6e648c68 3552 rust-rayon-core_1.11.0-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-rayon-core"
-  ],
-  "Package-List": [
-    "librust-rayon-core-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-libc-0.2+default-dev, librust-rand-0.8+default-dev, librust-rand-xorshift-0.3+default-dev, librust-scoped-tls-1+default-dev"
-  ],
-  "Uploaders": [
-    "Wolfgang Silbermayr <wolfgang@silbermayr.at>, kpcyrd <git@rxv.cc>, Daniel Kahn Gillmor <dkg@fifthhorseman.net>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/rayon-core"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/rayon-core]"
-  ],
-  "Version": [
-    "1.11.0-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-rayon-core-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-crossbeam-channel-0.5+default-dev <!nocheck>, librust-crossbeam-deque-0.8+default-dev (>= 0.8.1-~~) <!nocheck>, librust-crossbeam-utils-0.8+default-dev <!nocheck>, librust-num-cpus-1+default-dev (>= 1.2-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"8bfae61b0c42351ad7ff5234b0208fb11d7c90645172228bdcfa3b91f027fd54 2608 rust-rayon-core_1.11.0-1.dsc 4b8f95bd6966f5c87776639160a66bd8ab9895d9d4ab01ddba9fc60661aebe8d 73118 rust-rayon-core_1.11.0.orig.tar.gz dad7873e6df778dd601b93c0bcb1f3e22bfa63fff42944db339005334d775814 3552 rust-rayon-core_1.11.0-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-rayon-core"
+	],
+	"Files": [
+		"df4b35af4d7ef0560cfc60e3ddab2236 2608 rust-rayon-core_1.11.0-1.dsc 08db330bc0fb2b16a6c78c2870196852 73118 rust-rayon-core_1.11.0.orig.tar.gz ad5fbad624e55f4bf6b6290a6e648c68 3552 rust-rayon-core_1.11.0-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-rayon-core"
+	],
+	"Package-List": [
+		"librust-rayon-core-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-libc-0.2+default-dev, librust-rand-0.8+default-dev, librust-rand-xorshift-0.3+default-dev, librust-scoped-tls-1+default-dev"
+	],
+	"Uploaders": [
+		"Wolfgang Silbermayr <wolfgang@silbermayr.at>, kpcyrd <git@rxv.cc>, Daniel Kahn Gillmor <dkg@fifthhorseman.net>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/rayon-core"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/rayon-core]"
+	],
+	"Version": [
+		"1.11.0-1"
+	]
 }

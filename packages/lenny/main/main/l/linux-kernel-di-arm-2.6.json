@@ -1,44 +1,44 @@
 {
-  "Architecture": [
-    "arm"
-  ],
-  "Binary": [
-    "kernel-image-2.6.26-2-footbridge-di, nic-modules-2.6.26-2-footbridge-di, nic-shared-modules-2.6.26-2-footbridge-di, ide-modules-2.6.26-2-footbridge-di, cdrom-core-modules-2.6.26-2-footbridge-di, scsi-core-modules-2.6.26-2-footbridge-di, loop-modules-2.6.26-2-footbridge-di, nls-core-modules-2.6.26-2-footbridge-di, isofs-modules-2.6.26-2-footbridge-di, reiserfs-modules-2.6.26-2-footbridge-di, fat-modules-2.6.26-2-footbridge-di, md-modules-2.6.26-2-footbridge-di, multipath-modules-2.6.26-2-footbridge-di, usb-modules-2.6.26-2-footbridge-di, usb-storage-modules-2.6.26-2-footbridge-di, core-modules-2.6.26-2-footbridge-di, crc-modules-2.6.26-2-footbridge-di, crypto-core-modules-2.6.26-2-footbridge-di, crypto-modules-2.6.26-2-footbridge-di, crypto-dm-modules-2.6.26-2-footbridge-di, kernel-image-2.6.26-2-iop32x-di, nic-modules-2.6.26-2-iop32x-di, ide-modules-2.6.26-2-iop32x-di, ide-core-modules-2.6.26-2-iop32x-di, cdrom-core-modules-2.6.26-2-iop32x-di, scsi-core-modules-2.6.26-2-iop32x-di, loop-modules-2.6.26-2-iop32x-di, nls-core-modules-2.6.26-2-iop32x-di, ext2-modules-2.6.26-2-iop32x-di, ext3-modules-2.6.26-2-iop32x-di, isofs-modules-2.6.26-2-iop32x-di, reiserfs-modules-2.6.26-2-iop32x-di, fat-modules-2.6.26-2-iop32x-di, md-modules-2.6.26-2-iop32x-di, multipath-modules-2.6.26-2-iop32x-di, usb-modules-2.6.26-2-iop32x-di, usb-storage-modules-2.6.26-2-iop32x-di, input-modules-2.6.26-2-iop32x-di, nic-usb-modules-2.6.26-2-iop32x-di, sata-modules-2.6.26-2-iop32x-di, core-modules-2.6.26-2-iop32x-di, crc-modules-2.6.26-2-iop32x-di, crypto-core-modules-2.6.26-2-iop32x-di, crypto-modules-2.6.26-2-iop32x-di, crypto-dm-modules-2.6.26-2-iop32x-di, kernel-image-2.6.26-2-ixp4xx-di, nic-modules-2.6.26-2-ixp4xx-di, scsi-core-modules-2.6.26-2-ixp4xx-di, loop-modules-2.6.26-2-ixp4xx-di, ext2-modules-2.6.26-2-ixp4xx-di, ext3-modules-2.6.26-2-ixp4xx-di, reiserfs-modules-2.6.26-2-ixp4xx-di, fat-modules-2.6.26-2-ixp4xx-di, md-modules-2.6.26-2-ixp4xx-di, multipath-modules-2.6.26-2-ixp4xx-di, usb-modules-2.6.26-2-ixp4xx-di, usb-storage-modules-2.6.26-2-ixp4xx-di, input-modules-2.6.26-2-ixp4xx-di, nic-usb-modules-2.6.26-2-ixp4xx-di, sata-modules-2.6.26-2-ixp4xx-di, core-modules-2.6.26-2-ixp4xx-di, crc-modules-2.6.26-2-ixp4xx-di, crypto-core-modules-2.6.26-2-ixp4xx-di, crypto-modules-2.6.26-2-ixp4xx-di, crypto-dm-modules-2.6.26-2-ixp4xx-di, ata-modules-2.6.26-2-ixp4xx-di, kernel-image-2.6.26-2-orion5x-di, nic-modules-2.6.26-2-orion5x-di, nic-shared-modules-2.6.26-2-orion5x-di, scsi-core-modules-2.6.26-2-orion5x-di, loop-modules-2.6.26-2-orion5x-di, ext2-modules-2.6.26-2-orion5x-di, ext3-modules-2.6.26-2-orion5x-di, jffs2-modules-2.6.26-2-orion5x-di, reiserfs-modules-2.6.26-2-orion5x-di, fat-modules-2.6.26-2-orion5x-di, minix-modules-2.6.26-2-orion5x-di, md-modules-2.6.26-2-orion5x-di, multipath-modules-2.6.26-2-orion5x-di, usb-modules-2.6.26-2-orion5x-di, usb-storage-modules-2.6.26-2-orion5x-di, input-modules-2.6.26-2-orion5x-di, nic-usb-modules-2.6.26-2-orion5x-di, sata-modules-2.6.26-2-orion5x-di, core-modules-2.6.26-2-orion5x-di, crc-modules-2.6.26-2-orion5x-di, crypto-core-modules-2.6.26-2-orion5x-di, crypto-modules-2.6.26-2-orion5x-di, crypto-dm-modules-2.6.26-2-orion5x-di"
-  ],
-  "Build-Depends": [
-    "kernel-wedge (>= 2.49), linux-image-2.6.26-2-footbridge [arm], linux-image-2.6.26-2-iop32x [arm], linux-image-2.6.26-2-ixp4xx [arm], linux-image-2.6.26-2-orion5x [arm]"
-  ],
-  "Checksums-Sha1": [
-    "fdd6e12c4b86d0c7ebdb21d071e8c86701836b6e 4917 linux-kernel-di-arm-2.6_1.37lenny12.dsc ad76d9d6f2964863d92d067cab730d2178d2b8d1 7886 linux-kernel-di-arm-2.6_1.37lenny12.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "87a4ad838542f04cc18e984f73bfb9edef12e1f2470dd6bf94dfa74abd4e85ce 4917 linux-kernel-di-arm-2.6_1.37lenny12.dsc e2f3bbda172bb179dbcc9fd5976a2b63dc251d0d23eebc086342779c6e60dc0a 7886 linux-kernel-di-arm-2.6_1.37lenny12.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/l/linux-kernel-di-arm-2.6"
-  ],
-  "Files": [
-    "16c6283516ed26aba9508b2cec293517 4917 linux-kernel-di-arm-2.6_1.37lenny12.dsc 22778c8d901a7d4e5577ec3f57b28532 7886 linux-kernel-di-arm-2.6_1.37lenny12.tar.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Maintainer": [
-    "Debian Install System Team <debian-boot@lists.debian.org>"
-  ],
-  "Package": [
-    "linux-kernel-di-arm-2.6"
-  ],
-  "Section": [
-    "admin"
-  ],
-  "Uploaders": [
-    "Joey Hess <joeyh@debian.org>, Martin Michlmayr <tbm@cyrius.com>"
-  ],
-  "Vcs-Svn": [
-    "svn://svn.debian.org/d-i/trunk/packages/kernel/linux-kernel-di-arm-2.6"
-  ],
-  "Version": [
-    "1.37lenny12"
-  ]
+	"Architecture": [
+		"arm"
+	],
+	"Binary": [
+		"kernel-image-2.6.26-2-footbridge-di, nic-modules-2.6.26-2-footbridge-di, nic-shared-modules-2.6.26-2-footbridge-di, ide-modules-2.6.26-2-footbridge-di, cdrom-core-modules-2.6.26-2-footbridge-di, scsi-core-modules-2.6.26-2-footbridge-di, loop-modules-2.6.26-2-footbridge-di, nls-core-modules-2.6.26-2-footbridge-di, isofs-modules-2.6.26-2-footbridge-di, reiserfs-modules-2.6.26-2-footbridge-di, fat-modules-2.6.26-2-footbridge-di, md-modules-2.6.26-2-footbridge-di, multipath-modules-2.6.26-2-footbridge-di, usb-modules-2.6.26-2-footbridge-di, usb-storage-modules-2.6.26-2-footbridge-di, core-modules-2.6.26-2-footbridge-di, crc-modules-2.6.26-2-footbridge-di, crypto-core-modules-2.6.26-2-footbridge-di, crypto-modules-2.6.26-2-footbridge-di, crypto-dm-modules-2.6.26-2-footbridge-di, kernel-image-2.6.26-2-iop32x-di, nic-modules-2.6.26-2-iop32x-di, ide-modules-2.6.26-2-iop32x-di, ide-core-modules-2.6.26-2-iop32x-di, cdrom-core-modules-2.6.26-2-iop32x-di, scsi-core-modules-2.6.26-2-iop32x-di, loop-modules-2.6.26-2-iop32x-di, nls-core-modules-2.6.26-2-iop32x-di, ext2-modules-2.6.26-2-iop32x-di, ext3-modules-2.6.26-2-iop32x-di, isofs-modules-2.6.26-2-iop32x-di, reiserfs-modules-2.6.26-2-iop32x-di, fat-modules-2.6.26-2-iop32x-di, md-modules-2.6.26-2-iop32x-di, multipath-modules-2.6.26-2-iop32x-di, usb-modules-2.6.26-2-iop32x-di, usb-storage-modules-2.6.26-2-iop32x-di, input-modules-2.6.26-2-iop32x-di, nic-usb-modules-2.6.26-2-iop32x-di, sata-modules-2.6.26-2-iop32x-di, core-modules-2.6.26-2-iop32x-di, crc-modules-2.6.26-2-iop32x-di, crypto-core-modules-2.6.26-2-iop32x-di, crypto-modules-2.6.26-2-iop32x-di, crypto-dm-modules-2.6.26-2-iop32x-di, kernel-image-2.6.26-2-ixp4xx-di, nic-modules-2.6.26-2-ixp4xx-di, scsi-core-modules-2.6.26-2-ixp4xx-di, loop-modules-2.6.26-2-ixp4xx-di, ext2-modules-2.6.26-2-ixp4xx-di, ext3-modules-2.6.26-2-ixp4xx-di, reiserfs-modules-2.6.26-2-ixp4xx-di, fat-modules-2.6.26-2-ixp4xx-di, md-modules-2.6.26-2-ixp4xx-di, multipath-modules-2.6.26-2-ixp4xx-di, usb-modules-2.6.26-2-ixp4xx-di, usb-storage-modules-2.6.26-2-ixp4xx-di, input-modules-2.6.26-2-ixp4xx-di, nic-usb-modules-2.6.26-2-ixp4xx-di, sata-modules-2.6.26-2-ixp4xx-di, core-modules-2.6.26-2-ixp4xx-di, crc-modules-2.6.26-2-ixp4xx-di, crypto-core-modules-2.6.26-2-ixp4xx-di, crypto-modules-2.6.26-2-ixp4xx-di, crypto-dm-modules-2.6.26-2-ixp4xx-di, ata-modules-2.6.26-2-ixp4xx-di, kernel-image-2.6.26-2-orion5x-di, nic-modules-2.6.26-2-orion5x-di, nic-shared-modules-2.6.26-2-orion5x-di, scsi-core-modules-2.6.26-2-orion5x-di, loop-modules-2.6.26-2-orion5x-di, ext2-modules-2.6.26-2-orion5x-di, ext3-modules-2.6.26-2-orion5x-di, jffs2-modules-2.6.26-2-orion5x-di, reiserfs-modules-2.6.26-2-orion5x-di, fat-modules-2.6.26-2-orion5x-di, minix-modules-2.6.26-2-orion5x-di, md-modules-2.6.26-2-orion5x-di, multipath-modules-2.6.26-2-orion5x-di, usb-modules-2.6.26-2-orion5x-di, usb-storage-modules-2.6.26-2-orion5x-di, input-modules-2.6.26-2-orion5x-di, nic-usb-modules-2.6.26-2-orion5x-di, sata-modules-2.6.26-2-orion5x-di, core-modules-2.6.26-2-orion5x-di, crc-modules-2.6.26-2-orion5x-di, crypto-core-modules-2.6.26-2-orion5x-di, crypto-modules-2.6.26-2-orion5x-di, crypto-dm-modules-2.6.26-2-orion5x-di"
+	],
+	"Build-Depends": [
+		"kernel-wedge (>= 2.49), linux-image-2.6.26-2-footbridge [arm], linux-image-2.6.26-2-iop32x [arm], linux-image-2.6.26-2-ixp4xx [arm], linux-image-2.6.26-2-orion5x [arm]"
+	],
+	"Checksums-Sha1": [
+		"fdd6e12c4b86d0c7ebdb21d071e8c86701836b6e 4917 linux-kernel-di-arm-2.6_1.37lenny12.dsc ad76d9d6f2964863d92d067cab730d2178d2b8d1 7886 linux-kernel-di-arm-2.6_1.37lenny12.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"87a4ad838542f04cc18e984f73bfb9edef12e1f2470dd6bf94dfa74abd4e85ce 4917 linux-kernel-di-arm-2.6_1.37lenny12.dsc e2f3bbda172bb179dbcc9fd5976a2b63dc251d0d23eebc086342779c6e60dc0a 7886 linux-kernel-di-arm-2.6_1.37lenny12.tar.gz"
+	],
+	"Directory": [
+		"pool/main/l/linux-kernel-di-arm-2.6"
+	],
+	"Files": [
+		"16c6283516ed26aba9508b2cec293517 4917 linux-kernel-di-arm-2.6_1.37lenny12.dsc 22778c8d901a7d4e5577ec3f57b28532 7886 linux-kernel-di-arm-2.6_1.37lenny12.tar.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Maintainer": [
+		"Debian Install System Team <debian-boot@lists.debian.org>"
+	],
+	"Package": [
+		"linux-kernel-di-arm-2.6"
+	],
+	"Section": [
+		"admin"
+	],
+	"Uploaders": [
+		"Joey Hess <joeyh@debian.org>, Martin Michlmayr <tbm@cyrius.com>"
+	],
+	"Vcs-Svn": [
+		"svn://svn.debian.org/d-i/trunk/packages/kernel/linux-kernel-di-arm-2.6"
+	],
+	"Version": [
+		"1.37lenny12"
+	]
 }

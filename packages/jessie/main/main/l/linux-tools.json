@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "linux-any"
-  ],
-  "Binary": [
-    "linux-kbuild-3.16, linux-tools-3.16, libusbip-dev, usbip, hyperv-daemons"
-  ],
-  "Build-Depends": [
-    "debhelper (>> 7), python, asciidoc, bison, flex, libaudit-dev, libdw-dev, libelf-dev, libiberty-dev | binutils-dev (<< 2.23.91.20131123-1), libnewt-dev, libnuma-dev [amd64 arm64 i386 powerpc ppc64 ppc64el], libperl-dev, libunwind8-dev [amd64 arm64 i386], python-dev, xmlto, autoconf, automake, libtool, libglib2.0-dev, libudev-dev, libwrap0-dev, dh-systemd"
-  ],
-  "Checksums-Sha1": [
-    "bef8ec725f0b1bfd41777b2ebcdd666d712742bc 2673 linux-tools_3.16.56-1.dsc f095d1fa050289fb78622887292cc66d0889bb45 7847956 linux-tools_3.16.56.orig.tar.xz a27a5fa8fb1a202f833d0b9802240c8c99f7d77a 33672 linux-tools_3.16.56-1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "b7c2ad228fae744d18ab89df0f75686e214d5cf2e28bb2a3c3a4efa3b951ed56 2673 linux-tools_3.16.56-1.dsc 4540c6bc1f670b454fa787c4255f08e769709436216ee12b27673d69f5236f25 7847956 linux-tools_3.16.56.orig.tar.xz 9d7d4b384ed0fc3ac281103ee3b8b72389d0ca0c50312451295ee2db6b414b12 33672 linux-tools_3.16.56-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/l/linux-tools"
-  ],
-  "Files": [
-    "a6877da812315a15252846a66b154b3c 2673 linux-tools_3.16.56-1.dsc bc0cb45828f9e40ce4c165710d175ac3 7847956 linux-tools_3.16.56.orig.tar.xz 8905d6241f18356cb2731ed60c976325 33672 linux-tools_3.16.56-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian Kernel Team <debian-kernel@lists.debian.org>"
-  ],
-  "Package": [
-    "linux-tools"
-  ],
-  "Package-List": [
-    "hyperv-daemons deb admin optional arch=amd64,i386 libusbip-dev deb libdevel optional arch=linux-any linux-kbuild-3.16 deb kernel optional arch=linux-any linux-tools-3.16 deb devel optional arch=alpha,amd64,arm64,armel,armhf,hppa,i386,powerpc,ppc64,ppc64el,s390,s390x,sh4,sparc,sparc64 usbip deb admin optional arch=linux-any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "devel"
-  ],
-  "Standards-Version": [
-    "3.9.4"
-  ],
-  "Uploaders": [
-    "Bastian Blank <waldi@debian.org>, Ben Hutchings <ben@decadent.org.uk>, Jonathan Nieder <jrnieder@gmail.com>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/kernel/linux-tools.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/kernel/linux-tools.git"
-  ],
-  "Version": [
-    "3.16.56-1"
-  ]
+	"Architecture": [
+		"linux-any"
+	],
+	"Binary": [
+		"linux-kbuild-3.16, linux-tools-3.16, libusbip-dev, usbip, hyperv-daemons"
+	],
+	"Build-Depends": [
+		"debhelper (>> 7), python, asciidoc, bison, flex, libaudit-dev, libdw-dev, libelf-dev, libiberty-dev | binutils-dev (<< 2.23.91.20131123-1), libnewt-dev, libnuma-dev [amd64 arm64 i386 powerpc ppc64 ppc64el], libperl-dev, libunwind8-dev [amd64 arm64 i386], python-dev, xmlto, autoconf, automake, libtool, libglib2.0-dev, libudev-dev, libwrap0-dev, dh-systemd"
+	],
+	"Checksums-Sha1": [
+		"bef8ec725f0b1bfd41777b2ebcdd666d712742bc 2673 linux-tools_3.16.56-1.dsc f095d1fa050289fb78622887292cc66d0889bb45 7847956 linux-tools_3.16.56.orig.tar.xz a27a5fa8fb1a202f833d0b9802240c8c99f7d77a 33672 linux-tools_3.16.56-1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"b7c2ad228fae744d18ab89df0f75686e214d5cf2e28bb2a3c3a4efa3b951ed56 2673 linux-tools_3.16.56-1.dsc 4540c6bc1f670b454fa787c4255f08e769709436216ee12b27673d69f5236f25 7847956 linux-tools_3.16.56.orig.tar.xz 9d7d4b384ed0fc3ac281103ee3b8b72389d0ca0c50312451295ee2db6b414b12 33672 linux-tools_3.16.56-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/l/linux-tools"
+	],
+	"Files": [
+		"a6877da812315a15252846a66b154b3c 2673 linux-tools_3.16.56-1.dsc bc0cb45828f9e40ce4c165710d175ac3 7847956 linux-tools_3.16.56.orig.tar.xz 8905d6241f18356cb2731ed60c976325 33672 linux-tools_3.16.56-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Kernel Team <debian-kernel@lists.debian.org>"
+	],
+	"Package": [
+		"linux-tools"
+	],
+	"Package-List": [
+		"hyperv-daemons deb admin optional arch=amd64,i386 libusbip-dev deb libdevel optional arch=linux-any linux-kbuild-3.16 deb kernel optional arch=linux-any linux-tools-3.16 deb devel optional arch=alpha,amd64,arm64,armel,armhf,hppa,i386,powerpc,ppc64,ppc64el,s390,s390x,sh4,sparc,sparc64 usbip deb admin optional arch=linux-any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"devel"
+	],
+	"Standards-Version": [
+		"3.9.4"
+	],
+	"Uploaders": [
+		"Bastian Blank <waldi@debian.org>, Ben Hutchings <ben@decadent.org.uk>, Jonathan Nieder <jrnieder@gmail.com>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/kernel/linux-tools.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/kernel/linux-tools.git"
+	],
+	"Version": [
+		"3.16.56-1"
+	]
 }

@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "ocrmypdf, ocrmypdf-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 10), dh-python, python3-all, python3-cffi, python3-defusedxml, python3-img2pdf (>= 0.2.1), python3-pil, python3-pypdf2 (>= 1.26), python3-pytest-runner, python3-reportlab, python3-ruffus (<< 2.6.3+dfsh), python3-ruffus (>= 2.6.3+dfsg), python3-setuptools, python3-setuptools-scm, python3-sphinx (>= 1.4.8), python3-sphinx-rtd-theme"
-  ],
-  "Checksums-Sha256": [
-    "ec63cb4fc2208fffcdb2aca0f8dc38093bf7bc7b76f5e8264e92682227fcd1c7 2541 ocrmypdf_6.2.4-1~bpo9+1.dsc 3b7ec0c5fbf0661a2e853ff125520bc7c5a2facfee1f8472729b77204ed95259 18343608 ocrmypdf_6.2.4.orig.tar.xz 0d2e57a57b4916dc949734f70f763dabc50c2ec34d0cec388c78248b6dcf09c9 29588 ocrmypdf_6.2.4-1~bpo9+1.debian.tar.xz"
-  ],
-  "Dgit": [
-    "c9653fbf69d5f66b9ff5ad8163230c6ff3ac1b8b debian archive/debian/6.2.4-1_bpo9+1 https://git.dgit.debian.org/ocrmypdf"
-  ],
-  "Directory": [
-    "pool/main/o/ocrmypdf"
-  ],
-  "Files": [
-    "ba38d86e0b2fa9033ac5ab5eeffbed37 2541 ocrmypdf_6.2.4-1~bpo9+1.dsc a85d8dfe6d89f7bb0fec91d7654b666b 18343608 ocrmypdf_6.2.4.orig.tar.xz 58023dc79b87afe8ce3d9bb791e9d5b5 29588 ocrmypdf_6.2.4-1~bpo9+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/jbarlow83/OCRmyPDF"
-  ],
-  "Maintainer": [
-    "Sean Whitton <spwhitton@spwhitton.name>"
-  ],
-  "Package": [
-    "ocrmypdf"
-  ],
-  "Package-List": [
-    "ocrmypdf deb graphics optional arch=all ocrmypdf-doc deb doc optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.1.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "libjpeg-dev, python3-pytest, python3-pytest-cov, python3-pytest-helpers-namespace, python3-pytest-timeout, tesseract-ocr-fra, unpaper"
-  ],
-  "Vcs-Browser": [
-    "https://git.spwhitton.name/ocrmypdf"
-  ],
-  "Vcs-Git": [
-    "https://git.spwhitton.name/ocrmypdf -b debian"
-  ],
-  "Version": [
-    "6.2.4-1~bpo9+1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"ocrmypdf, ocrmypdf-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 10), dh-python, python3-all, python3-cffi, python3-defusedxml, python3-img2pdf (>= 0.2.1), python3-pil, python3-pypdf2 (>= 1.26), python3-pytest-runner, python3-reportlab, python3-ruffus (<< 2.6.3+dfsh), python3-ruffus (>= 2.6.3+dfsg), python3-setuptools, python3-setuptools-scm, python3-sphinx (>= 1.4.8), python3-sphinx-rtd-theme"
+	],
+	"Checksums-Sha256": [
+		"ec63cb4fc2208fffcdb2aca0f8dc38093bf7bc7b76f5e8264e92682227fcd1c7 2541 ocrmypdf_6.2.4-1~bpo9+1.dsc 3b7ec0c5fbf0661a2e853ff125520bc7c5a2facfee1f8472729b77204ed95259 18343608 ocrmypdf_6.2.4.orig.tar.xz 0d2e57a57b4916dc949734f70f763dabc50c2ec34d0cec388c78248b6dcf09c9 29588 ocrmypdf_6.2.4-1~bpo9+1.debian.tar.xz"
+	],
+	"Dgit": [
+		"c9653fbf69d5f66b9ff5ad8163230c6ff3ac1b8b debian archive/debian/6.2.4-1_bpo9+1 https://git.dgit.debian.org/ocrmypdf"
+	],
+	"Directory": [
+		"pool/main/o/ocrmypdf"
+	],
+	"Files": [
+		"ba38d86e0b2fa9033ac5ab5eeffbed37 2541 ocrmypdf_6.2.4-1~bpo9+1.dsc a85d8dfe6d89f7bb0fec91d7654b666b 18343608 ocrmypdf_6.2.4.orig.tar.xz 58023dc79b87afe8ce3d9bb791e9d5b5 29588 ocrmypdf_6.2.4-1~bpo9+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/jbarlow83/OCRmyPDF"
+	],
+	"Maintainer": [
+		"Sean Whitton <spwhitton@spwhitton.name>"
+	],
+	"Package": [
+		"ocrmypdf"
+	],
+	"Package-List": [
+		"ocrmypdf deb graphics optional arch=all ocrmypdf-doc deb doc optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.1.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"libjpeg-dev, python3-pytest, python3-pytest-cov, python3-pytest-helpers-namespace, python3-pytest-timeout, tesseract-ocr-fra, unpaper"
+	],
+	"Vcs-Browser": [
+		"https://git.spwhitton.name/ocrmypdf"
+	],
+	"Vcs-Git": [
+		"https://git.spwhitton.name/ocrmypdf -b debian"
+	],
+	"Version": [
+		"6.2.4-1~bpo9+1"
+	]
 }

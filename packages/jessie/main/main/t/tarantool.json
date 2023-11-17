@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "all i386 amd64 kfreebsd-i386 kfreebsd-amd64 hurd-i386"
-  ],
-  "Binary": [
-    "tarantool-common, tarantool, tarantool-plugins, tarantool-postgresql-plugin, tarantool-mysql-plugin, tarantool-client, tarantool-client-dbg, libtarantool-dev"
-  ],
-  "Build-Depends": [
-    "cdbs, debhelper (>= 8), cmake, libreadline-dev, python-yaml, python-daemon, python-pexpect, libncurses5-dev, libiberty-dev | binutils-dev, libmysqlclient-dev, libpq-dev"
-  ],
-  "Checksums-Sha1": [
-    "77104b15786a302170affdedde4fec77cfc46603 1894 tarantool_1.5.2.20.g5f5d924-2.dsc 7a129dc8ea5b654adf44c503719643ce3f644260 6620901 tarantool_1.5.2.20.g5f5d924.orig.tar.gz 5886fa14c3b48ecb58d269bb48143c3b7153c616 17548 tarantool_1.5.2.20.g5f5d924-2.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "09a6f063f8d59aa5c2706861f26b03563c47fe1bf6419d020d07fc23d1049697 1894 tarantool_1.5.2.20.g5f5d924-2.dsc 9454ae61dba17837e3d48f69658a62c58256da0c7bbb2099e3f39f5829c2b54c 6620901 tarantool_1.5.2.20.g5f5d924.orig.tar.gz c9fbb4a88acd96fd594ae21e3aa2ab186193336e8caf94677a3bb7b208570201 17548 tarantool_1.5.2.20.g5f5d924-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/t/tarantool"
-  ],
-  "Files": [
-    "33f3c5174d43ee42f214b5ed4004998e 1894 tarantool_1.5.2.20.g5f5d924-2.dsc 013ae093ce7f8e4739ce2cfe76d6be44 6620901 tarantool_1.5.2.20.g5f5d924.orig.tar.gz fce601be6d3bfd1d2d04adaf9fae7978 17548 tarantool_1.5.2.20.g5f5d924-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://tarantool.org/"
-  ],
-  "Maintainer": [
-    "Dmitry E. Oboukhov <unera@debian.org>"
-  ],
-  "Package": [
-    "tarantool"
-  ],
-  "Package-List": [
-    "libtarantool-dev deb libdevel optional tarantool deb database optional tarantool-client deb database optional tarantool-client-dbg deb debug extra tarantool-common deb database optional tarantool-mysql-plugin deb database optional tarantool-plugins deb database optional tarantool-postgresql-plugin deb database optional"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "database"
-  ],
-  "Standards-Version": [
-    "3.9.4"
-  ],
-  "Vcs-Browser": [
-    "https://github.com/tarantool/tarantool"
-  ],
-  "Vcs-Git": [
-    "git://github.com/tarantool/tarantool.git"
-  ],
-  "Version": [
-    "1.5.2.20.g5f5d924-2"
-  ]
+	"Architecture": [
+		"all i386 amd64 kfreebsd-i386 kfreebsd-amd64 hurd-i386"
+	],
+	"Binary": [
+		"tarantool-common, tarantool, tarantool-plugins, tarantool-postgresql-plugin, tarantool-mysql-plugin, tarantool-client, tarantool-client-dbg, libtarantool-dev"
+	],
+	"Build-Depends": [
+		"cdbs, debhelper (>= 8), cmake, libreadline-dev, python-yaml, python-daemon, python-pexpect, libncurses5-dev, libiberty-dev | binutils-dev, libmysqlclient-dev, libpq-dev"
+	],
+	"Checksums-Sha1": [
+		"77104b15786a302170affdedde4fec77cfc46603 1894 tarantool_1.5.2.20.g5f5d924-2.dsc 7a129dc8ea5b654adf44c503719643ce3f644260 6620901 tarantool_1.5.2.20.g5f5d924.orig.tar.gz 5886fa14c3b48ecb58d269bb48143c3b7153c616 17548 tarantool_1.5.2.20.g5f5d924-2.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"09a6f063f8d59aa5c2706861f26b03563c47fe1bf6419d020d07fc23d1049697 1894 tarantool_1.5.2.20.g5f5d924-2.dsc 9454ae61dba17837e3d48f69658a62c58256da0c7bbb2099e3f39f5829c2b54c 6620901 tarantool_1.5.2.20.g5f5d924.orig.tar.gz c9fbb4a88acd96fd594ae21e3aa2ab186193336e8caf94677a3bb7b208570201 17548 tarantool_1.5.2.20.g5f5d924-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/t/tarantool"
+	],
+	"Files": [
+		"33f3c5174d43ee42f214b5ed4004998e 1894 tarantool_1.5.2.20.g5f5d924-2.dsc 013ae093ce7f8e4739ce2cfe76d6be44 6620901 tarantool_1.5.2.20.g5f5d924.orig.tar.gz fce601be6d3bfd1d2d04adaf9fae7978 17548 tarantool_1.5.2.20.g5f5d924-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://tarantool.org/"
+	],
+	"Maintainer": [
+		"Dmitry E. Oboukhov <unera@debian.org>"
+	],
+	"Package": [
+		"tarantool"
+	],
+	"Package-List": [
+		"libtarantool-dev deb libdevel optional tarantool deb database optional tarantool-client deb database optional tarantool-client-dbg deb debug extra tarantool-common deb database optional tarantool-mysql-plugin deb database optional tarantool-plugins deb database optional tarantool-postgresql-plugin deb database optional"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"database"
+	],
+	"Standards-Version": [
+		"3.9.4"
+	],
+	"Vcs-Browser": [
+		"https://github.com/tarantool/tarantool"
+	],
+	"Vcs-Git": [
+		"git://github.com/tarantool/tarantool.git"
+	],
+	"Version": [
+		"1.5.2.20.g5f5d924-2"
+	]
 }

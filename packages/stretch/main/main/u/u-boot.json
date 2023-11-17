@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "linux-any"
-  ],
-  "Binary": [
-    "u-boot, u-boot-imx, u-boot-qcom, u-boot-tegra, u-boot-omap, u-boot-sunxi, u-boot-exynos, u-boot-rockchip, u-boot-rpi, u-boot-tools"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9.20141010), bc, device-tree-compiler, dpkg-dev (>= 1.17.14), python:any [armhf], skales:native [arm64], libfdt-dev:native [arm64]"
-  ],
-  "Checksums-Sha256": [
-    "6baa28c2cae492f7267a0b20621851de4cc7afd966bf7729dd1699495dee2d64 2693 u-boot_2016.11+dfsg1-4.dsc 0580a4ad94cee5b1b456b0b9b42b00decd1109dee9d53594ac3030a67a3b78c4 9865944 u-boot_2016.11+dfsg1.orig.tar.xz aa5b3b63c4f9f68bacc69345f8bae3dde3e8b150a66415d043c2b1687526766c 38484 u-boot_2016.11+dfsg1-4.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/u/u-boot"
-  ],
-  "Files": [
-    "f5c3193c4dc87a731188571cb7da34b4 2693 u-boot_2016.11+dfsg1-4.dsc 0fa0b587c72c62aea6b901b03ebeccb8 9865944 u-boot_2016.11+dfsg1.orig.tar.xz 8181c9e0fc1097145aec731b1b642811 38484 u-boot_2016.11+dfsg1-4.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.denx.de/wiki/U-Boot/"
-  ],
-  "Maintainer": [
-    "Vagrant Cascadian <vagrant@debian.org>"
-  ],
-  "Package": [
-    "u-boot"
-  ],
-  "Package-List": [
-    "u-boot deb admin optional arch=armel,armhf,avr32,mips,sh4 u-boot-exynos deb admin optional arch=armhf u-boot-imx deb admin optional arch=armhf u-boot-omap deb admin optional arch=armhf u-boot-qcom deb admin optional arch=arm64 u-boot-rockchip deb admin optional arch=armhf u-boot-rpi deb admin optional arch=armel,armhf,arm64 u-boot-sunxi deb admin optional arch=armhf,arm64 u-boot-tegra deb admin optional arch=armhf,arm64 u-boot-tools deb admin optional arch=linux-any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "admin"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Loïc Minier <lool@debian.org>, Clint Adams <clint@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/collab-maint/u-boot.git/"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/collab-maint/u-boot.git"
-  ],
-  "Version": [
-    "2016.11+dfsg1-4"
-  ]
+	"Architecture": [
+		"linux-any"
+	],
+	"Binary": [
+		"u-boot, u-boot-imx, u-boot-qcom, u-boot-tegra, u-boot-omap, u-boot-sunxi, u-boot-exynos, u-boot-rockchip, u-boot-rpi, u-boot-tools"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9.20141010), bc, device-tree-compiler, dpkg-dev (>= 1.17.14), python:any [armhf], skales:native [arm64], libfdt-dev:native [arm64]"
+	],
+	"Checksums-Sha256": [
+		"6baa28c2cae492f7267a0b20621851de4cc7afd966bf7729dd1699495dee2d64 2693 u-boot_2016.11+dfsg1-4.dsc 0580a4ad94cee5b1b456b0b9b42b00decd1109dee9d53594ac3030a67a3b78c4 9865944 u-boot_2016.11+dfsg1.orig.tar.xz aa5b3b63c4f9f68bacc69345f8bae3dde3e8b150a66415d043c2b1687526766c 38484 u-boot_2016.11+dfsg1-4.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/u/u-boot"
+	],
+	"Files": [
+		"f5c3193c4dc87a731188571cb7da34b4 2693 u-boot_2016.11+dfsg1-4.dsc 0fa0b587c72c62aea6b901b03ebeccb8 9865944 u-boot_2016.11+dfsg1.orig.tar.xz 8181c9e0fc1097145aec731b1b642811 38484 u-boot_2016.11+dfsg1-4.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.denx.de/wiki/U-Boot/"
+	],
+	"Maintainer": [
+		"Vagrant Cascadian <vagrant@debian.org>"
+	],
+	"Package": [
+		"u-boot"
+	],
+	"Package-List": [
+		"u-boot deb admin optional arch=armel,armhf,avr32,mips,sh4 u-boot-exynos deb admin optional arch=armhf u-boot-imx deb admin optional arch=armhf u-boot-omap deb admin optional arch=armhf u-boot-qcom deb admin optional arch=arm64 u-boot-rockchip deb admin optional arch=armhf u-boot-rpi deb admin optional arch=armel,armhf,arm64 u-boot-sunxi deb admin optional arch=armhf,arm64 u-boot-tegra deb admin optional arch=armhf,arm64 u-boot-tools deb admin optional arch=linux-any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"admin"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Loïc Minier <lool@debian.org>, Clint Adams <clint@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/collab-maint/u-boot.git/"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/collab-maint/u-boot.git"
+	],
+	"Version": [
+		"2016.11+dfsg1-4"
+	]
 }

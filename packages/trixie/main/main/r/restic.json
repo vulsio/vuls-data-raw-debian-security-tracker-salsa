@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "restic"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 12), dh-golang, dh-sequence-sphinxdoc, golang-any, golang-github-anacrolix-fuse-dev, golang-github-azure-azure-sdk-for-go-dev, golang-github-cenkalti-backoff-dev (>= 4.0.0), golang-github-cespare-xxhash-dev, golang-github-elithrar-simple-scrypt-dev, golang-github-google-go-cmp-dev, golang-github-hashicorp-golang-lru-v2-dev, golang-github-juju-ratelimit-dev, golang-github-klauspost-compress-dev, golang-github-kurin-blazer-dev, golang-github-mattn-go-isatty-dev, golang-github-minio-minio-go-v7-dev, golang-github-ncw-swift-v2-dev, golang-github-pkg-errors-dev, golang-github-pkg-sftp-dev (>= 1.13.2), golang-github-pkg-xattr-dev, golang-github-restic-chunker-dev (>= 0.2.0), golang-github-spf13-cobra-dev (>= 1.2.1), golang-github-spf13-pflag-dev, golang-golang-x-crypto-dev, golang-golang-x-net-dev, golang-golang-x-oauth2-dev, golang-golang-x-sys-dev, golang-google-cloud-dev, golang-google-api-dev, golang-gopkg-tomb.v2-dev, sphinx-common, sphinx-rtd-theme-common, python3-sphinx, python3-sphinx-rtd-theme"
-  ],
-  "Checksums-Sha256": [
-    "9be96391dc388dc77d66d8fee45aa92002b54c2605d251cbf0575edab4014203 2758 restic_0.16.0-1.dsc b91f5ef6203a5c50a72943c21aaef336e1344f19a3afd35406c00f065db8a8b9 23972221 restic_0.16.0.orig.tar.gz 0ce5bc8d5c726f021c668104923f1fa73935ff0c0104c6156255d9e919e002c4 833 restic_0.16.0.orig.tar.gz.asc ad3b2f2ed595c03a9856e7872c902ad028935eaa807b700bcc8c3c08b5156d07 12296 restic_0.16.0-1.debian.tar.xz"
-  ],
-  "Dgit": [
-    "06396a053cf4b27eedd70bddb7e4da4f78563aeb debian archive/debian/0.16.0-1 https://git.dgit.debian.org/restic"
-  ],
-  "Directory": [
-    "pool/main/r/restic"
-  ],
-  "Files": [
-    "6428c919f845d150afada7060293acaa 2758 restic_0.16.0-1.dsc 2d5893d7e0ddfaeea39538e752e40750 23972221 restic_0.16.0.orig.tar.gz e9dff10f9b552a57d4691f61175933dd 833 restic_0.16.0.orig.tar.gz.asc fc51941cfeeb1d6e58b9d9ab6c87509a 12296 restic_0.16.0-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Go-Import-Path": [
-    "github.com/restic/restic"
-  ],
-  "Homepage": [
-    "https://github.com/restic/restic"
-  ],
-  "Maintainer": [
-    "Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "restic"
-  ],
-  "Package-List": [
-    "restic deb utils optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.4.1"
-  ],
-  "Uploaders": [
-    "Félix Sipma <felix@debian.org>, Michael Stapelberg <stapelberg@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/go-team/packages/restic"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/go-team/packages/restic.git"
-  ],
-  "Version": [
-    "0.16.0-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"restic"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 12), dh-golang, dh-sequence-sphinxdoc, golang-any, golang-github-anacrolix-fuse-dev, golang-github-azure-azure-sdk-for-go-dev, golang-github-cenkalti-backoff-dev (>= 4.0.0), golang-github-cespare-xxhash-dev, golang-github-elithrar-simple-scrypt-dev, golang-github-google-go-cmp-dev, golang-github-hashicorp-golang-lru-v2-dev, golang-github-juju-ratelimit-dev, golang-github-klauspost-compress-dev, golang-github-kurin-blazer-dev, golang-github-mattn-go-isatty-dev, golang-github-minio-minio-go-v7-dev, golang-github-ncw-swift-v2-dev, golang-github-pkg-errors-dev, golang-github-pkg-sftp-dev (>= 1.13.2), golang-github-pkg-xattr-dev, golang-github-restic-chunker-dev (>= 0.2.0), golang-github-spf13-cobra-dev (>= 1.2.1), golang-github-spf13-pflag-dev, golang-golang-x-crypto-dev, golang-golang-x-net-dev, golang-golang-x-oauth2-dev, golang-golang-x-sys-dev, golang-google-cloud-dev, golang-google-api-dev, golang-gopkg-tomb.v2-dev, sphinx-common, sphinx-rtd-theme-common, python3-sphinx, python3-sphinx-rtd-theme"
+	],
+	"Checksums-Sha256": [
+		"9be96391dc388dc77d66d8fee45aa92002b54c2605d251cbf0575edab4014203 2758 restic_0.16.0-1.dsc b91f5ef6203a5c50a72943c21aaef336e1344f19a3afd35406c00f065db8a8b9 23972221 restic_0.16.0.orig.tar.gz 0ce5bc8d5c726f021c668104923f1fa73935ff0c0104c6156255d9e919e002c4 833 restic_0.16.0.orig.tar.gz.asc ad3b2f2ed595c03a9856e7872c902ad028935eaa807b700bcc8c3c08b5156d07 12296 restic_0.16.0-1.debian.tar.xz"
+	],
+	"Dgit": [
+		"06396a053cf4b27eedd70bddb7e4da4f78563aeb debian archive/debian/0.16.0-1 https://git.dgit.debian.org/restic"
+	],
+	"Directory": [
+		"pool/main/r/restic"
+	],
+	"Files": [
+		"6428c919f845d150afada7060293acaa 2758 restic_0.16.0-1.dsc 2d5893d7e0ddfaeea39538e752e40750 23972221 restic_0.16.0.orig.tar.gz e9dff10f9b552a57d4691f61175933dd 833 restic_0.16.0.orig.tar.gz.asc fc51941cfeeb1d6e58b9d9ab6c87509a 12296 restic_0.16.0-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Go-Import-Path": [
+		"github.com/restic/restic"
+	],
+	"Homepage": [
+		"https://github.com/restic/restic"
+	],
+	"Maintainer": [
+		"Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"restic"
+	],
+	"Package-List": [
+		"restic deb utils optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.4.1"
+	],
+	"Uploaders": [
+		"Félix Sipma <felix@debian.org>, Michael Stapelberg <stapelberg@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/go-team/packages/restic"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/go-team/packages/restic.git"
+	],
+	"Version": [
+		"0.16.0-1"
+	]
 }

@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-swift, swift, swift-proxy, swift-object, swift-container, swift-account, swift-object-expirer, swift-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), openstack-pkg-tools, python-all (>= 2.6.6-3~), python-pbr, python-setuptools, python-sphinx (>= 1.1.2)"
-  ],
-  "Build-Depends-Indep": [
-    "python-coverage, python-dnspython, python-eventlet (>= 0.9.15), python-greenlet (>= 0.3.1), python-mock (>= 1.0), python-netifaces, python-nose, python-nosehtmloutput, python-nosexcover, python-openssl, python-openstack.nose-plugin, python-oslosphinx, python-paste, python-pastedeploy, python-simplejson (>= 2.0.9), python-swiftclient, python-xattr"
-  ],
-  "Checksums-Sha1": [
-    "1991f0af7ed8a278080aae45b392b166d61ceb2b 2864 swift_2.2.0-1+deb8u1.dsc 183c3b33477b6c262931441271a0ad64626016f3 701056 swift_2.2.0.orig.tar.xz 76615c6f95bf1d38c44cbcd1038011f23bcb63f1 17004 swift_2.2.0-1+deb8u1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "204ab6ceb2dfe912635085fa7c8aad54814708bc95a80453d550903609afaed5 2864 swift_2.2.0-1+deb8u1.dsc 7473efb4d799ad58fba6111f5dc11ead9e776ffa530879cfed36ced4b32ef248 701056 swift_2.2.0.orig.tar.xz 2171f99a30550580a6f7776302f3e19c81fef3a65cba726851e5e10896f47791 17004 swift_2.2.0-1+deb8u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/s/swift"
-  ],
-  "Files": [
-    "b9777bed14e544b81e726f03d9cfeb99 2864 swift_2.2.0-1+deb8u1.dsc 89c825893f9b401c579d660c3e10b0ab 701056 swift_2.2.0.orig.tar.xz dd78db2e333a545b79e08a1e45bf63d1 17004 swift_2.2.0-1+deb8u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://launchpad.net/swift"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "swift"
-  ],
-  "Package-List": [
-    "python-swift deb python optional arch=all swift deb net optional arch=all swift-account deb net optional arch=all swift-container deb net optional arch=all swift-doc deb doc optional arch=all swift-object deb net optional arch=all swift-object-expirer deb net optional arch=all swift-proxy deb net optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.4"
-  ],
-  "Uploaders": [
-    "Julien Danjou <acid@debian.org>, Thomas Goirand <zigo@debian.org>, Ghe Rivero <ghe.rivero@stackops.com>, Mehdi Abaakouk <sileht@sileht.net>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=openstack/swift.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/openstack/swift.git"
-  ],
-  "Version": [
-    "2.2.0-1+deb8u1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-swift, swift, swift-proxy, swift-object, swift-container, swift-account, swift-object-expirer, swift-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), openstack-pkg-tools, python-all (>= 2.6.6-3~), python-pbr, python-setuptools, python-sphinx (>= 1.1.2)"
+	],
+	"Build-Depends-Indep": [
+		"python-coverage, python-dnspython, python-eventlet (>= 0.9.15), python-greenlet (>= 0.3.1), python-mock (>= 1.0), python-netifaces, python-nose, python-nosehtmloutput, python-nosexcover, python-openssl, python-openstack.nose-plugin, python-oslosphinx, python-paste, python-pastedeploy, python-simplejson (>= 2.0.9), python-swiftclient, python-xattr"
+	],
+	"Checksums-Sha1": [
+		"1991f0af7ed8a278080aae45b392b166d61ceb2b 2864 swift_2.2.0-1+deb8u1.dsc 183c3b33477b6c262931441271a0ad64626016f3 701056 swift_2.2.0.orig.tar.xz 76615c6f95bf1d38c44cbcd1038011f23bcb63f1 17004 swift_2.2.0-1+deb8u1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"204ab6ceb2dfe912635085fa7c8aad54814708bc95a80453d550903609afaed5 2864 swift_2.2.0-1+deb8u1.dsc 7473efb4d799ad58fba6111f5dc11ead9e776ffa530879cfed36ced4b32ef248 701056 swift_2.2.0.orig.tar.xz 2171f99a30550580a6f7776302f3e19c81fef3a65cba726851e5e10896f47791 17004 swift_2.2.0-1+deb8u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/s/swift"
+	],
+	"Files": [
+		"b9777bed14e544b81e726f03d9cfeb99 2864 swift_2.2.0-1+deb8u1.dsc 89c825893f9b401c579d660c3e10b0ab 701056 swift_2.2.0.orig.tar.xz dd78db2e333a545b79e08a1e45bf63d1 17004 swift_2.2.0-1+deb8u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://launchpad.net/swift"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"swift"
+	],
+	"Package-List": [
+		"python-swift deb python optional arch=all swift deb net optional arch=all swift-account deb net optional arch=all swift-container deb net optional arch=all swift-doc deb doc optional arch=all swift-object deb net optional arch=all swift-object-expirer deb net optional arch=all swift-proxy deb net optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.4"
+	],
+	"Uploaders": [
+		"Julien Danjou <acid@debian.org>, Thomas Goirand <zigo@debian.org>, Ghe Rivero <ghe.rivero@stackops.com>, Mehdi Abaakouk <sileht@sileht.net>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=openstack/swift.git;a=summary"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/openstack/swift.git"
+	],
+	"Version": [
+		"2.2.0-1+deb8u1"
+	]
 }

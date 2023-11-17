@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-openstacksdk, python3-openstacksdk, python-openstacksdk-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-python, openstack-pkg-tools (>= 52~), python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.8), python3-setuptools"
-  ],
-  "Build-Depends-Indep": [
-    "git, python-coverage (>= 3.6), python-fixtures (>= 3.0.0), python-hacking, python-keystoneauth1 (>= 2.10.0), python-mock (>= 2.0), python-os-client-config (>= 1.13.1), python-os-testr (>= 0.7.0), python-oslosphinx (>= 2.5.0), python-requests (>= 2.10.0), python-requests-mock (>= 1.0), python-six (>= 1.9.0), python-stevedore (>= 1.16.0), python-testscenarios (>= 0.4), python-testtools (>= 1.4.0), python3-fixtures (>= 3.0.0), python3-hacking, python3-keystoneauth1 (>= 2.10.0), python3-mock (>= 2.0), python3-os-client-config (>= 1.13.1), python3-os-testr (>= 0.7.0), python3-requests (>= 2.10.0), python3-requests-mock (>= 1.0), python3-six (>= 1.9.0), python3-stevedore (>= 1.16.0), python3-testscenarios (>= 0.4), python3-testtools (>= 1.4.0), python3-subunit, subunit, testrepository"
-  ],
-  "Checksums-Sha256": [
-    "0ea3ceeb3844f0ea834ca2fe3cd7f2a62fd1ab19dcaa1d9291b792573e0b3ca6 3161 python-openstacksdk_0.9.5-2.dsc c03c04a61858726467340292032ce1626db5fa837842f614a561613131990fb7 185900 python-openstacksdk_0.9.5.orig.tar.xz ef09221ff96e616777944789ceaa969cfca8f1ed463dc3075ec4321db088f0a0 4116 python-openstacksdk_0.9.5-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/python-openstacksdk"
-  ],
-  "Files": [
-    "9976b52c062d6f9b7639a042906a2619 3161 python-openstacksdk_0.9.5-2.dsc 8f0cd525ffc8a952a503ee8dd53cb9a2 185900 python-openstacksdk_0.9.5.orig.tar.xz d7f2c136796eca8737747e42360ac227 4116 python-openstacksdk_0.9.5-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/stackforge/python-openstacksdk"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "python-openstacksdk"
-  ],
-  "Package-List": [
-    "python-openstacksdk deb python optional arch=all python-openstacksdk-doc deb doc optional arch=all python3-openstacksdk deb python optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://git.openstack.org/cgit/openstack/deb-python-openstacksdk?h=debian%2Fnewton"
-  ],
-  "Vcs-Git": [
-    "https://git.openstack.org/openstack/deb-python-openstacksdk -b debian/newton"
-  ],
-  "Version": [
-    "0.9.5-2"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-openstacksdk, python3-openstacksdk, python-openstacksdk-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-python, openstack-pkg-tools (>= 52~), python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.8), python3-setuptools"
+	],
+	"Build-Depends-Indep": [
+		"git, python-coverage (>= 3.6), python-fixtures (>= 3.0.0), python-hacking, python-keystoneauth1 (>= 2.10.0), python-mock (>= 2.0), python-os-client-config (>= 1.13.1), python-os-testr (>= 0.7.0), python-oslosphinx (>= 2.5.0), python-requests (>= 2.10.0), python-requests-mock (>= 1.0), python-six (>= 1.9.0), python-stevedore (>= 1.16.0), python-testscenarios (>= 0.4), python-testtools (>= 1.4.0), python3-fixtures (>= 3.0.0), python3-hacking, python3-keystoneauth1 (>= 2.10.0), python3-mock (>= 2.0), python3-os-client-config (>= 1.13.1), python3-os-testr (>= 0.7.0), python3-requests (>= 2.10.0), python3-requests-mock (>= 1.0), python3-six (>= 1.9.0), python3-stevedore (>= 1.16.0), python3-testscenarios (>= 0.4), python3-testtools (>= 1.4.0), python3-subunit, subunit, testrepository"
+	],
+	"Checksums-Sha256": [
+		"0ea3ceeb3844f0ea834ca2fe3cd7f2a62fd1ab19dcaa1d9291b792573e0b3ca6 3161 python-openstacksdk_0.9.5-2.dsc c03c04a61858726467340292032ce1626db5fa837842f614a561613131990fb7 185900 python-openstacksdk_0.9.5.orig.tar.xz ef09221ff96e616777944789ceaa969cfca8f1ed463dc3075ec4321db088f0a0 4116 python-openstacksdk_0.9.5-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-openstacksdk"
+	],
+	"Files": [
+		"9976b52c062d6f9b7639a042906a2619 3161 python-openstacksdk_0.9.5-2.dsc 8f0cd525ffc8a952a503ee8dd53cb9a2 185900 python-openstacksdk_0.9.5.orig.tar.xz d7f2c136796eca8737747e42360ac227 4116 python-openstacksdk_0.9.5-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/stackforge/python-openstacksdk"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"python-openstacksdk"
+	],
+	"Package-List": [
+		"python-openstacksdk deb python optional arch=all python-openstacksdk-doc deb doc optional arch=all python3-openstacksdk deb python optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://git.openstack.org/cgit/openstack/deb-python-openstacksdk?h=debian%2Fnewton"
+	],
+	"Vcs-Git": [
+		"https://git.openstack.org/openstack/deb-python-openstacksdk -b debian/newton"
+	],
+	"Version": [
+		"0.9.5-2"
+	]
 }

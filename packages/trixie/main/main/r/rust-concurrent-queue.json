@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-concurrent-queue-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-crossbeam-utils-0.8-dev (>= 0.8.11-~~) <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "b7411190db8b4283cf9b1ad152c3521eead7c103eed5c9c6dc1aa6c47acd841b 2432 rust-concurrent-queue_2.3.0-1.dsc f057a694a54f12365049b0958a1685bb52d567f5593b355fbf685838e873d400 20189 rust-concurrent-queue_2.3.0.orig.tar.gz 5540cdc693cca0b95e1ff824de93d42f08fac0f395f13185a1dffed9e67fe6e7 3196 rust-concurrent-queue_2.3.0-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-concurrent-queue"
-  ],
-  "Files": [
-    "9464a8adc1decc718783a4efa12755d5 2432 rust-concurrent-queue_2.3.0-1.dsc 7aae42bbfaea3a8e930fbb8de4e86df8 20189 rust-concurrent-queue_2.3.0.orig.tar.gz af08bb4ae8e881033c0b87d54f7f83e4 3196 rust-concurrent-queue_2.3.0-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-concurrent-queue"
-  ],
-  "Package-List": [
-    "librust-concurrent-queue-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-criterion-0.5+default-dev, librust-easy-parallel-3+default-dev, librust-fastrand-1+default-dev, librust-fastrand-2+default-dev"
-  ],
-  "Uploaders": [
-    "Henry-Nicolas Tourneur <debian@nilux.be>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/concurrent-queue"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/concurrent-queue]"
-  ],
-  "Version": [
-    "2.3.0-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-concurrent-queue-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-crossbeam-utils-0.8-dev (>= 0.8.11-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"b7411190db8b4283cf9b1ad152c3521eead7c103eed5c9c6dc1aa6c47acd841b 2432 rust-concurrent-queue_2.3.0-1.dsc f057a694a54f12365049b0958a1685bb52d567f5593b355fbf685838e873d400 20189 rust-concurrent-queue_2.3.0.orig.tar.gz 5540cdc693cca0b95e1ff824de93d42f08fac0f395f13185a1dffed9e67fe6e7 3196 rust-concurrent-queue_2.3.0-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-concurrent-queue"
+	],
+	"Files": [
+		"9464a8adc1decc718783a4efa12755d5 2432 rust-concurrent-queue_2.3.0-1.dsc 7aae42bbfaea3a8e930fbb8de4e86df8 20189 rust-concurrent-queue_2.3.0.orig.tar.gz af08bb4ae8e881033c0b87d54f7f83e4 3196 rust-concurrent-queue_2.3.0-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-concurrent-queue"
+	],
+	"Package-List": [
+		"librust-concurrent-queue-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-criterion-0.5+default-dev, librust-easy-parallel-3+default-dev, librust-fastrand-1+default-dev, librust-fastrand-2+default-dev"
+	],
+	"Uploaders": [
+		"Henry-Nicolas Tourneur <debian@nilux.be>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/concurrent-queue"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/concurrent-queue]"
+	],
+	"Version": [
+		"2.3.0-1"
+	]
 }

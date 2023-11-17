@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "linux-any"
-  ],
-  "Binary": [
-    "systemd, systemd-sysv, libpam-systemd, systemd-gui, libsystemd-login0, libsystemd-login-dev, libsystemd-daemon0, libsystemd-daemon-dev, libsystemd-journal0, libsystemd-journal-dev, libsystemd-id128-0, libsystemd-id128-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), libcap-dev, pkg-config, libudev-dev (>= 172), libdbus-1-dev (>= 1.3.2~), libdbus-glib-1-dev, libgtk2.0-dev, valac (>= 0.12), xsltproc, docbook-xsl, docbook-xml, m4, libpam0g-dev, libnotify-dev (>= 0.7.0), libaudit-dev, dh-autoreconf, automake (>= 1.11), autoconf (>= 2.63), intltool, libcryptsetup-dev (>= 2:1.2.0), libwrap0-dev, libselinux1-dev, libacl1-dev, liblzma-dev, libgee-dev, gperf, libkmod-dev (>= 5), faketime"
-  ],
-  "Checksums-Sha1": [
-    "6778318018b037876aef90a2b81d0818b348a025 2274 systemd_44-11+deb7u4.dsc 851869f1d991343995a9ca1243616c8bf4edfdad 885636 systemd_44.orig.tar.xz 8397d9a2dfa24bb2caf55f3f44cad89ff6ad7ade 32731 systemd_44-11+deb7u4.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "7b2321d157e16285f60818532adfc5f21cc31392ce4cbdbedb4a8bef340faf00 2274 systemd_44-11+deb7u4.dsc 7a5aac4b4b8b3a82bf59292f10e43d8f2c2d7039f34e95714f81d8edcb42233c 885636 systemd_44.orig.tar.xz d6229a7f8a1d9c2ccc084b90886b7c577a7826423bfb2ff7a3ad706fdc2dc5ef 32731 systemd_44-11+deb7u4.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/s/systemd"
-  ],
-  "Files": [
-    "e6fd1075a4c838cccad1f6422482ac6d 2274 systemd_44-11+deb7u4.dsc 11f44ff74c87850064e4351518bcff17 885636 systemd_44.orig.tar.xz 17dc7d57accd58ea73ed3a6b767080ca 32731 systemd_44-11+deb7u4.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.freedesktop.org/wiki/Software/systemd"
-  ],
-  "Maintainer": [
-    "Tollef Fog Heen <tfheen@debian.org>"
-  ],
-  "Package": [
-    "systemd"
-  ],
-  "Package-List": [
-    "libpam-systemd deb admin extra libsystemd-daemon-dev deb libdevel extra libsystemd-daemon0 deb libs extra libsystemd-id128-0 deb libs extra libsystemd-id128-dev deb libdevel extra libsystemd-journal-dev deb libdevel extra libsystemd-journal0 deb libs extra libsystemd-login-dev deb libdevel extra libsystemd-login0 deb libs extra systemd deb admin extra systemd-gui deb admin extra systemd-sysv deb admin extra"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "admin"
-  ],
-  "Standards-Version": [
-    "3.9.2"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-systemd/systemd.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-systemd/systemd.git -b debian"
-  ],
-  "Version": [
-    "44-11+deb7u4"
-  ]
+	"Architecture": [
+		"linux-any"
+	],
+	"Binary": [
+		"systemd, systemd-sysv, libpam-systemd, systemd-gui, libsystemd-login0, libsystemd-login-dev, libsystemd-daemon0, libsystemd-daemon-dev, libsystemd-journal0, libsystemd-journal-dev, libsystemd-id128-0, libsystemd-id128-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), libcap-dev, pkg-config, libudev-dev (>= 172), libdbus-1-dev (>= 1.3.2~), libdbus-glib-1-dev, libgtk2.0-dev, valac (>= 0.12), xsltproc, docbook-xsl, docbook-xml, m4, libpam0g-dev, libnotify-dev (>= 0.7.0), libaudit-dev, dh-autoreconf, automake (>= 1.11), autoconf (>= 2.63), intltool, libcryptsetup-dev (>= 2:1.2.0), libwrap0-dev, libselinux1-dev, libacl1-dev, liblzma-dev, libgee-dev, gperf, libkmod-dev (>= 5), faketime"
+	],
+	"Checksums-Sha1": [
+		"6778318018b037876aef90a2b81d0818b348a025 2274 systemd_44-11+deb7u4.dsc 851869f1d991343995a9ca1243616c8bf4edfdad 885636 systemd_44.orig.tar.xz 8397d9a2dfa24bb2caf55f3f44cad89ff6ad7ade 32731 systemd_44-11+deb7u4.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"7b2321d157e16285f60818532adfc5f21cc31392ce4cbdbedb4a8bef340faf00 2274 systemd_44-11+deb7u4.dsc 7a5aac4b4b8b3a82bf59292f10e43d8f2c2d7039f34e95714f81d8edcb42233c 885636 systemd_44.orig.tar.xz d6229a7f8a1d9c2ccc084b90886b7c577a7826423bfb2ff7a3ad706fdc2dc5ef 32731 systemd_44-11+deb7u4.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/s/systemd"
+	],
+	"Files": [
+		"e6fd1075a4c838cccad1f6422482ac6d 2274 systemd_44-11+deb7u4.dsc 11f44ff74c87850064e4351518bcff17 885636 systemd_44.orig.tar.xz 17dc7d57accd58ea73ed3a6b767080ca 32731 systemd_44-11+deb7u4.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.freedesktop.org/wiki/Software/systemd"
+	],
+	"Maintainer": [
+		"Tollef Fog Heen <tfheen@debian.org>"
+	],
+	"Package": [
+		"systemd"
+	],
+	"Package-List": [
+		"libpam-systemd deb admin extra libsystemd-daemon-dev deb libdevel extra libsystemd-daemon0 deb libs extra libsystemd-id128-0 deb libs extra libsystemd-id128-dev deb libdevel extra libsystemd-journal-dev deb libdevel extra libsystemd-journal0 deb libs extra libsystemd-login-dev deb libdevel extra libsystemd-login0 deb libs extra systemd deb admin extra systemd-gui deb admin extra systemd-sysv deb admin extra"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"admin"
+	],
+	"Standards-Version": [
+		"3.9.2"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-systemd/systemd.git;a=summary"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-systemd/systemd.git -b debian"
+	],
+	"Version": [
+		"44-11+deb7u4"
+	]
 }

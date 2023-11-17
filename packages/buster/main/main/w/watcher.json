@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python3-watcher, watcher-api, watcher-applier, watcher-common, watcher-decision-engine, watcher-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 10), dh-python, openstack-pkg-tools (>= 74~), po-debconf, python3-all, python3-pbr (>= 3.1.1), python3-setuptools, python3-sphinx (>= 1.6.2)"
-  ],
-  "Build-Depends-Indep": [
-    "python3-apscheduler (>= 3.5.1), python3-ceilometerclient (>= 2.9.0), python3-cinderclient (>= 1:3.5.0), python3-coverage (>= 4.5.1), python3-croniter (>= 0.3.20), python3-freezegun (>= 0.3.10), python3-futurist (>= 1.6.0), python3-glanceclient (>= 1:2.9.1), python3-gnocchiclient (>= 7.0.1), python3-hacking, python3-ironicclient (>= 2.3.0), python3-jsonpatch (>= 1.21), python3-jsonschema (>= 2.6.0), python3-keystoneauth1 (>= 3.4.0), python3-keystoneclient (>= 1:3.15.0), python3-keystonemiddleware (>= 4.21.0), python3-lxml (>= 4.1.1), python3-mock, python3-monascaclient (>= 1.12.0), python3-networkx (>= 1.11), python3-neutronclient (>= 1:6.7.0), python3-novaclient (>= 2:10.1.0), python3-openstackclient (>= 3.14.0), python3-openstackdocstheme (>= 1.20.0), python3-os-api-ref (>= 1.4.0), python3-os-testr (>= 1.0.0), python3-oslo.cache (>= 1.29.0), python3-oslo.concurrency (>= 3.26.0), python3-oslo.config (>= 1:5.2.0), python3-oslo.context (>= 2.20.0), python3-oslo.db (>= 4.35.0), python3-oslo.i18n (>= 3.20.0), python3-oslo.log (>= 3.37.0), python3-oslo.messaging (>= 5.36.0), python3-oslo.policy (>= 1.34.0), python3-oslo.reports (>= 1.27.0), python3-oslo.serialization (>= 2.25.0), python3-oslo.service (>= 1.30.0), python3-oslo.utils (>= 3.36.0), python3-oslo.versionedobjects (>= 1.32.0), python3-oslotest (>= 1:3.3.0), python3-pastedeploy, python3-pecan (>= 1.3.2), python3-prettytable, python3-six (>= 1.11.0), python3-sphinxcontrib-pecanwsme, python3-sqlalchemy (>= 1.2.5), python3-stestr (>= 2.0.0), python3-stevedore (>= 1.28.0), python3-taskflow (>= 3.1.0), python3-testscenarios (>= 0.5.0), python3-testtools (>= 2.3.0), python3-webob (>= 1.8.2), python3-wsme (>= 0.9.2)"
-  ],
-  "Checksums-Sha256": [
-    "7c38ac011eca8c235a84ccc498e9a462fc6f4d470929c0321e6d46e774c14329 4078 watcher_1.12.0-3.dsc c3d385323e40dc140aa55acd1a7638c0ec4fe99e146192f0945b94f474c8bf95 843268 watcher_1.12.0.orig.tar.xz 51a4c18311420c47d57d405969ebcf106bf64ad8a6fde59cdb502b7707a08daa 8000 watcher_1.12.0-3.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/w/watcher"
-  ],
-  "Files": [
-    "6892abd7af53994280cfe38de3f367ac 4078 watcher_1.12.0-3.dsc 0f923524f2cca1b661b787613391eb22 843268 watcher_1.12.0.orig.tar.xz 47e87cac0b1df68bd398e871e54d9142 8000 watcher_1.12.0-3.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/openstack/watcher"
-  ],
-  "Maintainer": [
-    "Debian OpenStack <team+openstack@tracker.debian.org>"
-  ],
-  "Package": [
-    "watcher"
-  ],
-  "Package-List": [
-    "python3-watcher deb python optional arch=all watcher-api deb net optional arch=all watcher-applier deb net optional arch=all watcher-common deb net optional arch=all watcher-decision-engine deb net optional arch=all watcher-doc deb doc optional arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.1.3"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/openstack-team/services/watcher"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/openstack-team/services/watcher.git"
-  ],
-  "Version": [
-    "1.12.0-3"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python3-watcher, watcher-api, watcher-applier, watcher-common, watcher-decision-engine, watcher-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 10), dh-python, openstack-pkg-tools (>= 74~), po-debconf, python3-all, python3-pbr (>= 3.1.1), python3-setuptools, python3-sphinx (>= 1.6.2)"
+	],
+	"Build-Depends-Indep": [
+		"python3-apscheduler (>= 3.5.1), python3-ceilometerclient (>= 2.9.0), python3-cinderclient (>= 1:3.5.0), python3-coverage (>= 4.5.1), python3-croniter (>= 0.3.20), python3-freezegun (>= 0.3.10), python3-futurist (>= 1.6.0), python3-glanceclient (>= 1:2.9.1), python3-gnocchiclient (>= 7.0.1), python3-hacking, python3-ironicclient (>= 2.3.0), python3-jsonpatch (>= 1.21), python3-jsonschema (>= 2.6.0), python3-keystoneauth1 (>= 3.4.0), python3-keystoneclient (>= 1:3.15.0), python3-keystonemiddleware (>= 4.21.0), python3-lxml (>= 4.1.1), python3-mock, python3-monascaclient (>= 1.12.0), python3-networkx (>= 1.11), python3-neutronclient (>= 1:6.7.0), python3-novaclient (>= 2:10.1.0), python3-openstackclient (>= 3.14.0), python3-openstackdocstheme (>= 1.20.0), python3-os-api-ref (>= 1.4.0), python3-os-testr (>= 1.0.0), python3-oslo.cache (>= 1.29.0), python3-oslo.concurrency (>= 3.26.0), python3-oslo.config (>= 1:5.2.0), python3-oslo.context (>= 2.20.0), python3-oslo.db (>= 4.35.0), python3-oslo.i18n (>= 3.20.0), python3-oslo.log (>= 3.37.0), python3-oslo.messaging (>= 5.36.0), python3-oslo.policy (>= 1.34.0), python3-oslo.reports (>= 1.27.0), python3-oslo.serialization (>= 2.25.0), python3-oslo.service (>= 1.30.0), python3-oslo.utils (>= 3.36.0), python3-oslo.versionedobjects (>= 1.32.0), python3-oslotest (>= 1:3.3.0), python3-pastedeploy, python3-pecan (>= 1.3.2), python3-prettytable, python3-six (>= 1.11.0), python3-sphinxcontrib-pecanwsme, python3-sqlalchemy (>= 1.2.5), python3-stestr (>= 2.0.0), python3-stevedore (>= 1.28.0), python3-taskflow (>= 3.1.0), python3-testscenarios (>= 0.5.0), python3-testtools (>= 2.3.0), python3-webob (>= 1.8.2), python3-wsme (>= 0.9.2)"
+	],
+	"Checksums-Sha256": [
+		"7c38ac011eca8c235a84ccc498e9a462fc6f4d470929c0321e6d46e774c14329 4078 watcher_1.12.0-3.dsc c3d385323e40dc140aa55acd1a7638c0ec4fe99e146192f0945b94f474c8bf95 843268 watcher_1.12.0.orig.tar.xz 51a4c18311420c47d57d405969ebcf106bf64ad8a6fde59cdb502b7707a08daa 8000 watcher_1.12.0-3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/w/watcher"
+	],
+	"Files": [
+		"6892abd7af53994280cfe38de3f367ac 4078 watcher_1.12.0-3.dsc 0f923524f2cca1b661b787613391eb22 843268 watcher_1.12.0.orig.tar.xz 47e87cac0b1df68bd398e871e54d9142 8000 watcher_1.12.0-3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/openstack/watcher"
+	],
+	"Maintainer": [
+		"Debian OpenStack <team+openstack@tracker.debian.org>"
+	],
+	"Package": [
+		"watcher"
+	],
+	"Package-List": [
+		"python3-watcher deb python optional arch=all watcher-api deb net optional arch=all watcher-applier deb net optional arch=all watcher-common deb net optional arch=all watcher-decision-engine deb net optional arch=all watcher-doc deb doc optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.1.3"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/openstack-team/services/watcher"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/openstack-team/services/watcher.git"
+	],
+	"Version": [
+		"1.12.0-3"
+	]
 }

@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-ripasso-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-anyhow-1+default-dev (>= 1.0.66-~~) <!nocheck>, librust-base64-0.21+default-dev <!nocheck>, librust-chrono-0.4+default-dev <!nocheck>, librust-config-0.11+toml-dev <!nocheck>, librust-git2-0.16+default-dev <!nocheck>, librust-glob-0.3+default-dev <!nocheck>, librust-gpgme-0+default-dev (>= 0.10-~~) <!nocheck>, librust-hex-0.4+default-dev (>= 0.4.3-~~) <!nocheck>, librust-hmac-0.12+default-dev (>= 0.12.1-~~) <!nocheck>, librust-rand-0.8+default-dev (>= 0.8.5-~~) <!nocheck>, librust-reqwest-0.11+blocking-dev (>= 0.11.12-~~) <!nocheck>, librust-reqwest-0.11+default-dev (>= 0.11.12-~~) <!nocheck>, librust-sequoia-ipc-0.28+default-dev <!nocheck>, librust-sequoia-openpgp-1+default-dev (>= 1.13.0-~~) <!nocheck>, librust-sha1-0.10+default-dev (>= 0.10.5-~~) <!nocheck>, librust-sha2-0.10+default-dev (>= 0.10.6-~~) <!nocheck>, librust-toml-0.5+default-dev (>= 0.5.9-~~) <!nocheck>, librust-totp-rs-3+default-dev <!nocheck>, librust-totp-rs-3+otpauth-dev <!nocheck>, librust-whoami-1+default-dev (>= 1.2.3-~~) <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "66943d1830730eec752c2de70f5f9dcb081f27fdd11dbbf704b1b3837452a8ad 3302 rust-ripasso_0.6.4-2.dsc 9d1abc21f91641421efe9c9ef775a1a3f81ae8e2b13a81fcaabea829d07ced41 429623 rust-ripasso_0.6.4.orig.tar.gz 3ba81367344a8246de236330f7472697df20f61fd1a0971d2abd95d7f904c69f 4288 rust-ripasso_0.6.4-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-ripasso"
-  ],
-  "Files": [
-    "fc2cc1b7dc72f023c60d3cbe4dc40e55 3302 rust-ripasso_0.6.4-2.dsc 4457e8e8c381452231ad500ef0e7f222 429623 rust-ripasso_0.6.4.orig.tar.gz 1771c3993103f8fe96938d394001dab3 4288 rust-ripasso_0.6.4-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-ripasso"
-  ],
-  "Package-List": [
-    "librust-ripasso-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-criterion-0.3+default-dev, librust-flate2-1+default-dev, librust-tar-0.4+default-dev, librust-tempfile-3+default-dev"
-  ],
-  "Uploaders": [
-    "Alexander Kjäll <alexander.kjall@gmail.com>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/ripasso"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/ripasso]"
-  ],
-  "Version": [
-    "0.6.4-2"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-ripasso-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-anyhow-1+default-dev (>= 1.0.66-~~) <!nocheck>, librust-base64-0.21+default-dev <!nocheck>, librust-chrono-0.4+default-dev <!nocheck>, librust-config-0.11+toml-dev <!nocheck>, librust-git2-0.16+default-dev <!nocheck>, librust-glob-0.3+default-dev <!nocheck>, librust-gpgme-0+default-dev (>= 0.10-~~) <!nocheck>, librust-hex-0.4+default-dev (>= 0.4.3-~~) <!nocheck>, librust-hmac-0.12+default-dev (>= 0.12.1-~~) <!nocheck>, librust-rand-0.8+default-dev (>= 0.8.5-~~) <!nocheck>, librust-reqwest-0.11+blocking-dev (>= 0.11.12-~~) <!nocheck>, librust-reqwest-0.11+default-dev (>= 0.11.12-~~) <!nocheck>, librust-sequoia-ipc-0.28+default-dev <!nocheck>, librust-sequoia-openpgp-1+default-dev (>= 1.13.0-~~) <!nocheck>, librust-sha1-0.10+default-dev (>= 0.10.5-~~) <!nocheck>, librust-sha2-0.10+default-dev (>= 0.10.6-~~) <!nocheck>, librust-toml-0.5+default-dev (>= 0.5.9-~~) <!nocheck>, librust-totp-rs-3+default-dev <!nocheck>, librust-totp-rs-3+otpauth-dev <!nocheck>, librust-whoami-1+default-dev (>= 1.2.3-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"66943d1830730eec752c2de70f5f9dcb081f27fdd11dbbf704b1b3837452a8ad 3302 rust-ripasso_0.6.4-2.dsc 9d1abc21f91641421efe9c9ef775a1a3f81ae8e2b13a81fcaabea829d07ced41 429623 rust-ripasso_0.6.4.orig.tar.gz 3ba81367344a8246de236330f7472697df20f61fd1a0971d2abd95d7f904c69f 4288 rust-ripasso_0.6.4-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-ripasso"
+	],
+	"Files": [
+		"fc2cc1b7dc72f023c60d3cbe4dc40e55 3302 rust-ripasso_0.6.4-2.dsc 4457e8e8c381452231ad500ef0e7f222 429623 rust-ripasso_0.6.4.orig.tar.gz 1771c3993103f8fe96938d394001dab3 4288 rust-ripasso_0.6.4-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-ripasso"
+	],
+	"Package-List": [
+		"librust-ripasso-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-criterion-0.3+default-dev, librust-flate2-1+default-dev, librust-tar-0.4+default-dev, librust-tempfile-3+default-dev"
+	],
+	"Uploaders": [
+		"Alexander Kjäll <alexander.kjall@gmail.com>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/ripasso"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/ripasso]"
+	],
+	"Version": [
+		"0.6.4-2"
+	]
 }

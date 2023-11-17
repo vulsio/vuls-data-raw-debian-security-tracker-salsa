@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python3-ffcx, python-ffcx-doc"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all-dev (>= 3.7), python3-basix (>= 0.7.0~), python3-ufl (>= 2023.2.0~), python3-pytest, python3-cffi, python3-numpy, python3-pygraphviz, python3-sympy, python3-setuptools, python3-sphinx <!nodoc>, python3-sphinx-rtd-theme <!nodoc>"
-  ],
-  "Checksums-Sha256": [
-    "33fbd6de23c82533cc35db4c9d1a63385ca92eb4d38ccac8dd78a8b954f8e965 2498 fenics-ffcx_0.7.0-2.dsc 7f3c3ca91d63ce7831d37799cc19d0551bdcd275bdfa4c099711679533dd1c71 127167 fenics-ffcx_0.7.0.orig.tar.gz f1a51d986d5a52070bb3fe899cf548b951ca74acbdfe6dcb78aeb2d9a065ed0d 9352 fenics-ffcx_0.7.0-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/f/fenics-ffcx"
-  ],
-  "Files": [
-    "b730c11f1d96f27685ccc96cfefcea50 2498 fenics-ffcx_0.7.0-2.dsc cfbce6afe9dad113661e1ceeac75884e 127167 fenics-ffcx_0.7.0.orig.tar.gz ff516b51fd9e770bb09132c59f56ce1e 9352 fenics-ffcx_0.7.0-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://fenicsproject.org"
-  ],
-  "Maintainer": [
-    "Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "fenics-ffcx"
-  ],
-  "Package-List": [
-    "python-ffcx-doc deb python optional arch=all python3-ffcx deb python optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "@builddeps@, cmake, libboost-math-dev, python3-dev, python3-pip, python3-pybind11, python3-pygraphviz, python3-pytest, python3-setuptools, python3-wheel"
-  ],
-  "Uploaders": [
-    "Drew Parsons <dparsons@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/science-team/fenics/fenics-ffcx"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/science-team/fenics/fenics-ffcx.git"
-  ],
-  "Version": [
-    "1:0.7.0-2"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python3-ffcx, python-ffcx-doc"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all-dev (>= 3.7), python3-basix (>= 0.7.0~), python3-ufl (>= 2023.2.0~), python3-pytest, python3-cffi, python3-numpy, python3-pygraphviz, python3-sympy, python3-setuptools, python3-sphinx <!nodoc>, python3-sphinx-rtd-theme <!nodoc>"
+	],
+	"Checksums-Sha256": [
+		"33fbd6de23c82533cc35db4c9d1a63385ca92eb4d38ccac8dd78a8b954f8e965 2498 fenics-ffcx_0.7.0-2.dsc 7f3c3ca91d63ce7831d37799cc19d0551bdcd275bdfa4c099711679533dd1c71 127167 fenics-ffcx_0.7.0.orig.tar.gz f1a51d986d5a52070bb3fe899cf548b951ca74acbdfe6dcb78aeb2d9a065ed0d 9352 fenics-ffcx_0.7.0-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/f/fenics-ffcx"
+	],
+	"Files": [
+		"b730c11f1d96f27685ccc96cfefcea50 2498 fenics-ffcx_0.7.0-2.dsc cfbce6afe9dad113661e1ceeac75884e 127167 fenics-ffcx_0.7.0.orig.tar.gz ff516b51fd9e770bb09132c59f56ce1e 9352 fenics-ffcx_0.7.0-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://fenicsproject.org"
+	],
+	"Maintainer": [
+		"Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"fenics-ffcx"
+	],
+	"Package-List": [
+		"python-ffcx-doc deb python optional arch=all python3-ffcx deb python optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"@builddeps@, cmake, libboost-math-dev, python3-dev, python3-pip, python3-pybind11, python3-pygraphviz, python3-pytest, python3-setuptools, python3-wheel"
+	],
+	"Uploaders": [
+		"Drew Parsons <dparsons@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/science-team/fenics/fenics-ffcx"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/science-team/fenics/fenics-ffcx.git"
+	],
+	"Version": [
+		"1:0.7.0-2"
+	]
 }

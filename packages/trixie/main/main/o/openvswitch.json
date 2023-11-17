@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "linux-any all"
-  ],
-  "Binary": [
-    "openvswitch-common, openvswitch-doc, openvswitch-ipsec, openvswitch-pki, openvswitch-source, openvswitch-switch, openvswitch-switch-dpdk, openvswitch-test, openvswitch-testcontroller, openvswitch-vtep, python3-openvswitch"
-  ],
-  "Build-Depends": [
-    "autoconf (>= 2.64), automake (>= 1.10), bzip2, debhelper-compat (= 13), dh-exec, dh-python, dh-sequence-python3, dh-sequence-sphinxdoc, graphviz, iproute2, libbpf-dev, libcap-ng-dev, libdbus-1-dev [amd64 i386 ppc64el arm64 riscv64], libdpdk-dev (>= 22.11) [amd64 i386 ppc64el arm64 riscv64], libnuma-dev [amd64 i386 ppc64el arm64 riscv64 s390x], libpcap-dev [amd64 i386 ppc64el arm64 riscv64], libssl-dev, libtool, libunbound-dev, libxdp-dev (>= 1.2.9~) [!alpha !arc !hppa !ia64 !m68k !sh4], openssl, pkg-config, procps, python3-all-dev, python3-setuptools, python3-sortedcontainers, python3-sphinx"
-  ],
-  "Checksums-Sha256": [
-    "8c5e1edb46c24709e75d9feee6a40a793facf8323ac3c2bde31e4f52f377fe77 3634 openvswitch_3.2.0-2.dsc f52a979f59c4a8f60dcf44fa0874f1ca2d92058772f7be14f453fbfbd3be41fd 5187004 openvswitch_3.2.0.orig.tar.xz 7e27810e3bb3d4302cb30112d64a5ca09db5cf7f35de19db437b87ea1ed45acb 71716 openvswitch_3.2.0-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/o/openvswitch"
-  ],
-  "Files": [
-    "a1fdd98d0d38b489f1b3cc4704b64b4d 3634 openvswitch_3.2.0-2.dsc 5b9c289db9212df931ac0ca68cea8df0 5187004 openvswitch_3.2.0.orig.tar.xz ff27791fb61e6d8366df32c6665a0da4 71716 openvswitch_3.2.0-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://openvswitch.org/"
-  ],
-  "Maintainer": [
-    "Debian OpenStack <team+openstack@tracker.debian.org>"
-  ],
-  "Package": [
-    "openvswitch"
-  ],
-  "Package-List": [
-    "openvswitch-common deb net optional arch=linux-any openvswitch-doc deb doc optional arch=all openvswitch-ipsec deb net optional arch=linux-any openvswitch-pki deb net optional arch=all openvswitch-source deb net optional arch=all openvswitch-switch deb net optional arch=linux-any openvswitch-switch-dpdk deb net optional arch=amd64,arm64,i386,ppc64el,riscv64 openvswitch-test deb net optional arch=all openvswitch-testcontroller deb net optional arch=linux-any openvswitch-vtep deb net optional arch=linux-any python3-openvswitch deb python optional arch=linux-any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "conntrack, curl, devscripts, dpdk-dev, equivs, ethtool, net-tools, netcat-openbsd, python3-pyftpdlib, tcpdump, wget"
-  ],
-  "Uploaders": [
-    "Simon Horman <horms@debian.org>, Thomas Goirand <zigo@debian.org>, Michal Arbet <michal.arbet@ultimum.io>, Luca Boccassi <bluca@debian.org>, Christian Ehrhardt <christian.ehrhardt@canonical.com>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/openstack-team/third-party/openvswitch/-/tree/debian/experimental"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/openstack-team/third-party/openvswitch.git"
-  ],
-  "Version": [
-    "3.2.0-2"
-  ]
+	"Architecture": [
+		"linux-any all"
+	],
+	"Binary": [
+		"openvswitch-common, openvswitch-doc, openvswitch-ipsec, openvswitch-pki, openvswitch-source, openvswitch-switch, openvswitch-switch-dpdk, openvswitch-test, openvswitch-testcontroller, openvswitch-vtep, python3-openvswitch"
+	],
+	"Build-Depends": [
+		"autoconf (>= 2.64), automake (>= 1.10), bzip2, debhelper-compat (= 13), dh-exec, dh-python, dh-sequence-python3, dh-sequence-sphinxdoc, graphviz, iproute2, libbpf-dev, libcap-ng-dev, libdbus-1-dev [amd64 i386 ppc64el arm64 riscv64], libdpdk-dev (>= 22.11) [amd64 i386 ppc64el arm64 riscv64], libnuma-dev [amd64 i386 ppc64el arm64 riscv64 s390x], libpcap-dev [amd64 i386 ppc64el arm64 riscv64], libssl-dev, libtool, libunbound-dev, libxdp-dev (>= 1.2.9~) [!alpha !arc !hppa !ia64 !m68k !sh4], openssl, pkg-config, procps, python3-all-dev, python3-setuptools, python3-sortedcontainers, python3-sphinx"
+	],
+	"Checksums-Sha256": [
+		"8c5e1edb46c24709e75d9feee6a40a793facf8323ac3c2bde31e4f52f377fe77 3634 openvswitch_3.2.0-2.dsc f52a979f59c4a8f60dcf44fa0874f1ca2d92058772f7be14f453fbfbd3be41fd 5187004 openvswitch_3.2.0.orig.tar.xz 7e27810e3bb3d4302cb30112d64a5ca09db5cf7f35de19db437b87ea1ed45acb 71716 openvswitch_3.2.0-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/o/openvswitch"
+	],
+	"Files": [
+		"a1fdd98d0d38b489f1b3cc4704b64b4d 3634 openvswitch_3.2.0-2.dsc 5b9c289db9212df931ac0ca68cea8df0 5187004 openvswitch_3.2.0.orig.tar.xz ff27791fb61e6d8366df32c6665a0da4 71716 openvswitch_3.2.0-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://openvswitch.org/"
+	],
+	"Maintainer": [
+		"Debian OpenStack <team+openstack@tracker.debian.org>"
+	],
+	"Package": [
+		"openvswitch"
+	],
+	"Package-List": [
+		"openvswitch-common deb net optional arch=linux-any openvswitch-doc deb doc optional arch=all openvswitch-ipsec deb net optional arch=linux-any openvswitch-pki deb net optional arch=all openvswitch-source deb net optional arch=all openvswitch-switch deb net optional arch=linux-any openvswitch-switch-dpdk deb net optional arch=amd64,arm64,i386,ppc64el,riscv64 openvswitch-test deb net optional arch=all openvswitch-testcontroller deb net optional arch=linux-any openvswitch-vtep deb net optional arch=linux-any python3-openvswitch deb python optional arch=linux-any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"conntrack, curl, devscripts, dpdk-dev, equivs, ethtool, net-tools, netcat-openbsd, python3-pyftpdlib, tcpdump, wget"
+	],
+	"Uploaders": [
+		"Simon Horman <horms@debian.org>, Thomas Goirand <zigo@debian.org>, Michal Arbet <michal.arbet@ultimum.io>, Luca Boccassi <bluca@debian.org>, Christian Ehrhardt <christian.ehrhardt@canonical.com>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/openstack-team/third-party/openvswitch/-/tree/debian/experimental"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/openstack-team/third-party/openvswitch.git"
+	],
+	"Version": [
+		"3.2.0-2"
+	]
 }

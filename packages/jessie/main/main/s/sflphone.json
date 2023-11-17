@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "sflphone-daemon, sflphone-data, sflphone-gnome, sflphone-kde, sflphone-evolution"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), autotools-dev, autoconf, automake, libtool, chrpath, check, astyle, libdbus-c++-dev, libdbus-c++-bin, libexpat1-dev, libucommon-dev (>= 6.0.7-1.1), libccrtp-dev (>= 2.0.6-3), libcppunit-dev, libzrtpcpp-dev (>= 2.0.0), libsrtp0-dev, libssl-dev, libpcre3-dev, uuid-dev, libyaml-dev, libasound2-dev, libspeexdsp-dev, libspeex-dev, libgsm1-dev, libsndfile-dev, libpulse-dev, libsamplerate0-dev, libopencore-amrnb-dev, libavformat-dev, libavcodec-dev, libswscale-dev, libavdevice-dev, libavutil-dev, gnome-common, gnome-doc-utils, libglib2.0-dev, libgnomeui-dev, rarian-compat, libx11-dev, libgtk-3-dev, libsexy-dev, libdbus-1-dev, libdbus-glib-1-dev, libnotify-dev (>= 0.7), libatk1.0-dev, libcairo2-dev, libgconf2-dev, libgdk-pixbuf2.0-dev, libjavascriptcoregtk-3.0-dev, libwebkitgtk-3.0-dev, libpango1.0-dev, librsvg2-dev, intltool, yelp-tools, libclutter-gtk-1.0-dev, cmake, libboost-dev, kdelibs5-dev, kdepimlibs5-dev, libphonon-dev, libqt4-dev, libqt4-opengl-dev, libsoprano-dev, nepomuk-core-dev, libebook1.2-dev, libedataserver1.2-dev, libsoup2.4-dev"
-  ],
-  "Checksums-Sha1": [
-    "b5e7eda51f5f8f85f6068100e78fc937a71a17e8 3307 sflphone_1.4.1-0.1.dsc 8f77625c04763dab76df8933f935b60df8eb2777 12015105 sflphone_1.4.1.orig.tar.gz 45d0fe499020840a66383bca86d365078930e46e 11240 sflphone_1.4.1-0.1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "2a9c14f5983d11ad14051817d44d8b6395139ca6e6c2685dbf6f4e0ff0d015ee 3307 sflphone_1.4.1-0.1.dsc cc885bdc1fe20d16b03a2ae182b5b41d81035ba9e3b53a0460803cbdc62eb0f8 12015105 sflphone_1.4.1.orig.tar.gz 628cf42b29fa7aee3e14442667eba67e91a49c5c35c3500e03ac53a63762cb7e 11240 sflphone_1.4.1-0.1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/s/sflphone"
-  ],
-  "Files": [
-    "c52eaaedce23ebfce1bc149bebcd73dc 3307 sflphone_1.4.1-0.1.dsc 2092fb6ebcdfdf4f0f45da4738b1be8d 12015105 sflphone_1.4.1.orig.tar.gz dc1e2f478321025d0590f7980ae95d51 11240 sflphone_1.4.1-0.1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.sflphone.org"
-  ],
-  "Maintainer": [
-    "Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "sflphone"
-  ],
-  "Package-List": [
-    "sflphone-daemon deb comm extra arch=any sflphone-data deb comm extra arch=all sflphone-evolution deb comm extra arch=any sflphone-gnome deb gnome extra arch=any sflphone-kde deb kde extra arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "gnome"
-  ],
-  "Standards-Version": [
-    "3.9.4"
-  ],
-  "Uploaders": [
-    "Mark Purcell <msp@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/viewvc/pkg-voip/sflphone/trunk/"
-  ],
-  "Vcs-Svn": [
-    "svn://anonscm.debian.org/pkg-voip/sflphone/trunk/"
-  ],
-  "Version": [
-    "1.4.1-0.1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"sflphone-daemon, sflphone-data, sflphone-gnome, sflphone-kde, sflphone-evolution"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), autotools-dev, autoconf, automake, libtool, chrpath, check, astyle, libdbus-c++-dev, libdbus-c++-bin, libexpat1-dev, libucommon-dev (>= 6.0.7-1.1), libccrtp-dev (>= 2.0.6-3), libcppunit-dev, libzrtpcpp-dev (>= 2.0.0), libsrtp0-dev, libssl-dev, libpcre3-dev, uuid-dev, libyaml-dev, libasound2-dev, libspeexdsp-dev, libspeex-dev, libgsm1-dev, libsndfile-dev, libpulse-dev, libsamplerate0-dev, libopencore-amrnb-dev, libavformat-dev, libavcodec-dev, libswscale-dev, libavdevice-dev, libavutil-dev, gnome-common, gnome-doc-utils, libglib2.0-dev, libgnomeui-dev, rarian-compat, libx11-dev, libgtk-3-dev, libsexy-dev, libdbus-1-dev, libdbus-glib-1-dev, libnotify-dev (>= 0.7), libatk1.0-dev, libcairo2-dev, libgconf2-dev, libgdk-pixbuf2.0-dev, libjavascriptcoregtk-3.0-dev, libwebkitgtk-3.0-dev, libpango1.0-dev, librsvg2-dev, intltool, yelp-tools, libclutter-gtk-1.0-dev, cmake, libboost-dev, kdelibs5-dev, kdepimlibs5-dev, libphonon-dev, libqt4-dev, libqt4-opengl-dev, libsoprano-dev, nepomuk-core-dev, libebook1.2-dev, libedataserver1.2-dev, libsoup2.4-dev"
+	],
+	"Checksums-Sha1": [
+		"b5e7eda51f5f8f85f6068100e78fc937a71a17e8 3307 sflphone_1.4.1-0.1.dsc 8f77625c04763dab76df8933f935b60df8eb2777 12015105 sflphone_1.4.1.orig.tar.gz 45d0fe499020840a66383bca86d365078930e46e 11240 sflphone_1.4.1-0.1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"2a9c14f5983d11ad14051817d44d8b6395139ca6e6c2685dbf6f4e0ff0d015ee 3307 sflphone_1.4.1-0.1.dsc cc885bdc1fe20d16b03a2ae182b5b41d81035ba9e3b53a0460803cbdc62eb0f8 12015105 sflphone_1.4.1.orig.tar.gz 628cf42b29fa7aee3e14442667eba67e91a49c5c35c3500e03ac53a63762cb7e 11240 sflphone_1.4.1-0.1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/s/sflphone"
+	],
+	"Files": [
+		"c52eaaedce23ebfce1bc149bebcd73dc 3307 sflphone_1.4.1-0.1.dsc 2092fb6ebcdfdf4f0f45da4738b1be8d 12015105 sflphone_1.4.1.orig.tar.gz dc1e2f478321025d0590f7980ae95d51 11240 sflphone_1.4.1-0.1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.sflphone.org"
+	],
+	"Maintainer": [
+		"Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"sflphone"
+	],
+	"Package-List": [
+		"sflphone-daemon deb comm extra arch=any sflphone-data deb comm extra arch=all sflphone-evolution deb comm extra arch=any sflphone-gnome deb gnome extra arch=any sflphone-kde deb kde extra arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"gnome"
+	],
+	"Standards-Version": [
+		"3.9.4"
+	],
+	"Uploaders": [
+		"Mark Purcell <msp@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/viewvc/pkg-voip/sflphone/trunk/"
+	],
+	"Vcs-Svn": [
+		"svn://anonscm.debian.org/pkg-voip/sflphone/trunk/"
+	],
+	"Version": [
+		"1.4.1-0.1"
+	]
 }

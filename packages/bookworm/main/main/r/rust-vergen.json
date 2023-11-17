@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-vergen-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-anyhow-1+default-dev <!nocheck>, librust-cfg-if-1+default-dev <!nocheck>, librust-chrono-0+default-dev <!nocheck>, librust-chrono-0-dev <!nocheck>, librust-enum-iterator-0+default-dev <!nocheck>, librust-getset-0+default-dev <!nocheck>, librust-git2-0-dev <!nocheck>, librust-rustc-version-0.4+default-dev <!nocheck>, librust-rustversion-1+default-dev <!nocheck>, librust-sysinfo-0.26-dev <!nocheck>, librust-thiserror-1+default-dev <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "17cff6e651eeb32dde8c410c8d119decbf98b211b0eeff8e308d06c1c850a107 2762 rust-vergen_6.0.2-3.dsc 3893329bee75c101278e0234b646fa72221547d63f97fb66ac112a0569acd110 28659 rust-vergen_6.0.2.orig.tar.gz 86b5f733e8fb346a814ec5f91e7542e37f55feb434fca1d8ec9e49fda3124936 5220 rust-vergen_6.0.2-3.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-vergen"
-  ],
-  "Files": [
-    "23f615ecfe858cd472a22d59b90de04f 2762 rust-vergen_6.0.2-3.dsc c419c64e4f3801acb2f278d50c7b3ade 28659 rust-vergen_6.0.2.orig.tar.gz 32eae5bd272f567a7b1d17d770a4cacb 5220 rust-vergen_6.0.2-3.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://github.com/rustyhorde/vergen"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-vergen"
-  ],
-  "Package-List": [
-    "librust-vergen-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-lazy-static-1+default-dev, librust-regex-1+default-dev, librust-serial-test-0+default-dev"
-  ],
-  "Uploaders": [
-    "Ximin Luo <infinity0@debian.org>, Daniel Kahn Gillmor <dkg@fifthhorseman.net>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/vergen"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/vergen]"
-  ],
-  "Version": [
-    "6.0.2-3"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-vergen-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-anyhow-1+default-dev <!nocheck>, librust-cfg-if-1+default-dev <!nocheck>, librust-chrono-0+default-dev <!nocheck>, librust-chrono-0-dev <!nocheck>, librust-enum-iterator-0+default-dev <!nocheck>, librust-getset-0+default-dev <!nocheck>, librust-git2-0-dev <!nocheck>, librust-rustc-version-0.4+default-dev <!nocheck>, librust-rustversion-1+default-dev <!nocheck>, librust-sysinfo-0.26-dev <!nocheck>, librust-thiserror-1+default-dev <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"17cff6e651eeb32dde8c410c8d119decbf98b211b0eeff8e308d06c1c850a107 2762 rust-vergen_6.0.2-3.dsc 3893329bee75c101278e0234b646fa72221547d63f97fb66ac112a0569acd110 28659 rust-vergen_6.0.2.orig.tar.gz 86b5f733e8fb346a814ec5f91e7542e37f55feb434fca1d8ec9e49fda3124936 5220 rust-vergen_6.0.2-3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-vergen"
+	],
+	"Files": [
+		"23f615ecfe858cd472a22d59b90de04f 2762 rust-vergen_6.0.2-3.dsc c419c64e4f3801acb2f278d50c7b3ade 28659 rust-vergen_6.0.2.orig.tar.gz 32eae5bd272f567a7b1d17d770a4cacb 5220 rust-vergen_6.0.2-3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://github.com/rustyhorde/vergen"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-vergen"
+	],
+	"Package-List": [
+		"librust-vergen-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-lazy-static-1+default-dev, librust-regex-1+default-dev, librust-serial-test-0+default-dev"
+	],
+	"Uploaders": [
+		"Ximin Luo <infinity0@debian.org>, Daniel Kahn Gillmor <dkg@fifthhorseman.net>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/vergen"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/vergen]"
+	],
+	"Version": [
+		"6.0.2-3"
+	]
 }

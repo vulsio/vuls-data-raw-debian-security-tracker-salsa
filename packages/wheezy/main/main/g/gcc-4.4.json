@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "gcc-4.4-base, gcc-4.4, gcc-4.4-multilib, gcc-4.4-hppa64, gcc-4.4-spu, g++-4.4-spu, gfortran-4.4-spu, cpp-4.4, gcc-4.4-locales, g++-4.4, g++-4.4-multilib, libmudflap0-4.4-dev, protoize, gfortran-4.4, gfortran-4.4-multilib, libstdc++6-4.4-dev, libstdc++6-4.4-pic, libstdc++6-4.4-dbg, lib32stdc++6-4.4-dbg, lib64stdc++6-4.4-dbg, libn32stdc++6-4.4-dbg, libstdc++6-4.4-doc, gcc-4.4-soft-float, gcc-4.4-source"
-  ],
-  "Build-Depends": [
-    "dpkg-dev (>= 1.16.0.3), debhelper (>= 5.0.62), g++-multilib [amd64 i386 mips mipsel powerpc ppc64 s390 s390x sparc kfreebsd-amd64], libc6.1-dev (>= 2.13-5) [alpha ia64] | libc0.3-dev (>= 2.13-5) [hurd-i386] | libc0.1-dev (>= 2.13-5) [kfreebsd-i386 kfreebsd-amd64] | libc6-dev (>= 2.13-5), libc6-dev-amd64 [i386], libc6-dev-sparc64 [sparc], libc6-dev-s390 [s390x], libc6-dev-s390x [s390], libc6-dev-i386 [amd64], libc6-dev-powerpc [ppc64], libc6-dev-ppc64 [powerpc], libc0.1-dev-i386 [kfreebsd-amd64], lib32gcc1 [amd64 ppc64 kfreebsd-amd64 s390x], lib64gcc1 [i386 powerpc sparc s390], libc6-dev-mips64 [mips mipsel], libc6-dev-mipsn32 [mips mipsel], m4, libtool, autoconf2.59, automake1.9, libunwind7-dev (>= 0.98.5-6) [ia64], libatomic-ops-dev [ia64], zlib1g-dev, gawk, lzma, xz-utils, patchutils, binutils (>= 2.20.1-15~) | binutils-multiarch (>= 2.20.1-15~), binutils-hppa64 (>= 2.20.1-15~) [hppa], gperf (>= 3.0.1), bison (>= 1:2.3), flex, gettext, texinfo (>= 4.3), locales [!knetbsd-i386 !knetbsd-alpha], procps, sharutils, binutils-spu (>= 2.20.1-15~) [powerpc ppc64], newlib-spu (>= 1.16.0) [powerpc ppc64], libcloog-ppl-dev (>= 0.15.8-1~), libmpfr-dev (>= 3.0.0-9~), libgmp-dev (>= 2:5.0.1~), dejagnu [!m68k !hurd-i386 !hurd-alpha], autogen, realpath (>= 1.9.12), chrpath, lsb-release, make (>= 3.81), quilt"
-  ],
-  "Build-Depends-Indep": [
-    "doxygen (>= 1.4.2), graphviz (>= 2.2), gsfonts-x11, texlive-latex-base"
-  ],
-  "Checksums-Sha1": [
-    "066f3e56305b1a7d3d00ed100d134c302911d622 3885 gcc-4.4_4.4.7-2.dsc 9b6ecc1106cb87aad34fe5559db571d83df5d160 49910915 gcc-4.4_4.4.7.orig.tar.gz 241c13a0c23302c7edd89e8e8fa97f0af5565b0b 1251746 gcc-4.4_4.4.7-2.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "7fb532baf096aba3f9e6fbb5c7ad1d208f5b916cceb5663903c97de58a972b82 3885 gcc-4.4_4.4.7-2.dsc 9f3afc1f1a0ef32b8ea21d5d1cb68873e854a517ae95316181c9224b0835d6fc 49910915 gcc-4.4_4.4.7.orig.tar.gz 64e1f127e030baf9658a533579e6418a22cf150b5b38a9c2d8f079788284e98a 1251746 gcc-4.4_4.4.7-2.diff.gz"
-  ],
-  "Directory": [
-    "pool/main/g/gcc-4.4"
-  ],
-  "Files": [
-    "ac98fd58d59ddee179665452ed3b9996 3885 gcc-4.4_4.4.7-2.dsc a59a81812c3af058043a5eaf99636af6 49910915 gcc-4.4_4.4.7.orig.tar.gz cd92ec82fb096016a2227af7163efa7d 1251746 gcc-4.4_4.4.7-2.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Homepage": [
-    "http://gcc.gnu.org/"
-  ],
-  "Maintainer": [
-    "Debian GCC Maintainers <debian-gcc@lists.debian.org>"
-  ],
-  "Package": [
-    "gcc-4.4"
-  ],
-  "Package-List": [
-    "cpp-4.4 deb interpreters optional g++-4.4 deb devel optional g++-4.4-multilib deb devel optional g++-4.4-spu deb devel optional gcc-4.4 deb devel optional gcc-4.4-base deb libs required gcc-4.4-hppa64 deb devel optional gcc-4.4-locales deb devel optional gcc-4.4-multilib deb devel optional gcc-4.4-soft-float deb devel optional gcc-4.4-source deb devel optional gcc-4.4-spu deb devel optional gfortran-4.4 deb devel optional gfortran-4.4-multilib deb devel optional gfortran-4.4-spu deb devel optional lib32stdc++6-4.4-dbg deb debug extra lib64stdc++6-4.4-dbg deb debug extra libmudflap0-4.4-dev deb libdevel optional libn32stdc++6-4.4-dbg deb debug extra libstdc++6-4.4-dbg deb debug extra libstdc++6-4.4-dev deb libdevel optional libstdc++6-4.4-doc deb doc optional libstdc++6-4.4-pic deb libdevel extra protoize deb devel optional"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "devel"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Matthias Klose <doko@debian.org>, Arthur Loiret <aloiret@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://svn.debian.org/viewsvn/gcccvs/branches/sid/gcc-4.4/"
-  ],
-  "Vcs-Svn": [
-    "svn://svn.debian.org/svn/gcccvs/branches/sid/gcc-4.4"
-  ],
-  "Version": [
-    "4.4.7-2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"gcc-4.4-base, gcc-4.4, gcc-4.4-multilib, gcc-4.4-hppa64, gcc-4.4-spu, g++-4.4-spu, gfortran-4.4-spu, cpp-4.4, gcc-4.4-locales, g++-4.4, g++-4.4-multilib, libmudflap0-4.4-dev, protoize, gfortran-4.4, gfortran-4.4-multilib, libstdc++6-4.4-dev, libstdc++6-4.4-pic, libstdc++6-4.4-dbg, lib32stdc++6-4.4-dbg, lib64stdc++6-4.4-dbg, libn32stdc++6-4.4-dbg, libstdc++6-4.4-doc, gcc-4.4-soft-float, gcc-4.4-source"
+	],
+	"Build-Depends": [
+		"dpkg-dev (>= 1.16.0.3), debhelper (>= 5.0.62), g++-multilib [amd64 i386 mips mipsel powerpc ppc64 s390 s390x sparc kfreebsd-amd64], libc6.1-dev (>= 2.13-5) [alpha ia64] | libc0.3-dev (>= 2.13-5) [hurd-i386] | libc0.1-dev (>= 2.13-5) [kfreebsd-i386 kfreebsd-amd64] | libc6-dev (>= 2.13-5), libc6-dev-amd64 [i386], libc6-dev-sparc64 [sparc], libc6-dev-s390 [s390x], libc6-dev-s390x [s390], libc6-dev-i386 [amd64], libc6-dev-powerpc [ppc64], libc6-dev-ppc64 [powerpc], libc0.1-dev-i386 [kfreebsd-amd64], lib32gcc1 [amd64 ppc64 kfreebsd-amd64 s390x], lib64gcc1 [i386 powerpc sparc s390], libc6-dev-mips64 [mips mipsel], libc6-dev-mipsn32 [mips mipsel], m4, libtool, autoconf2.59, automake1.9, libunwind7-dev (>= 0.98.5-6) [ia64], libatomic-ops-dev [ia64], zlib1g-dev, gawk, lzma, xz-utils, patchutils, binutils (>= 2.20.1-15~) | binutils-multiarch (>= 2.20.1-15~), binutils-hppa64 (>= 2.20.1-15~) [hppa], gperf (>= 3.0.1), bison (>= 1:2.3), flex, gettext, texinfo (>= 4.3), locales [!knetbsd-i386 !knetbsd-alpha], procps, sharutils, binutils-spu (>= 2.20.1-15~) [powerpc ppc64], newlib-spu (>= 1.16.0) [powerpc ppc64], libcloog-ppl-dev (>= 0.15.8-1~), libmpfr-dev (>= 3.0.0-9~), libgmp-dev (>= 2:5.0.1~), dejagnu [!m68k !hurd-i386 !hurd-alpha], autogen, realpath (>= 1.9.12), chrpath, lsb-release, make (>= 3.81), quilt"
+	],
+	"Build-Depends-Indep": [
+		"doxygen (>= 1.4.2), graphviz (>= 2.2), gsfonts-x11, texlive-latex-base"
+	],
+	"Checksums-Sha1": [
+		"066f3e56305b1a7d3d00ed100d134c302911d622 3885 gcc-4.4_4.4.7-2.dsc 9b6ecc1106cb87aad34fe5559db571d83df5d160 49910915 gcc-4.4_4.4.7.orig.tar.gz 241c13a0c23302c7edd89e8e8fa97f0af5565b0b 1251746 gcc-4.4_4.4.7-2.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"7fb532baf096aba3f9e6fbb5c7ad1d208f5b916cceb5663903c97de58a972b82 3885 gcc-4.4_4.4.7-2.dsc 9f3afc1f1a0ef32b8ea21d5d1cb68873e854a517ae95316181c9224b0835d6fc 49910915 gcc-4.4_4.4.7.orig.tar.gz 64e1f127e030baf9658a533579e6418a22cf150b5b38a9c2d8f079788284e98a 1251746 gcc-4.4_4.4.7-2.diff.gz"
+	],
+	"Directory": [
+		"pool/main/g/gcc-4.4"
+	],
+	"Files": [
+		"ac98fd58d59ddee179665452ed3b9996 3885 gcc-4.4_4.4.7-2.dsc a59a81812c3af058043a5eaf99636af6 49910915 gcc-4.4_4.4.7.orig.tar.gz cd92ec82fb096016a2227af7163efa7d 1251746 gcc-4.4_4.4.7-2.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Homepage": [
+		"http://gcc.gnu.org/"
+	],
+	"Maintainer": [
+		"Debian GCC Maintainers <debian-gcc@lists.debian.org>"
+	],
+	"Package": [
+		"gcc-4.4"
+	],
+	"Package-List": [
+		"cpp-4.4 deb interpreters optional g++-4.4 deb devel optional g++-4.4-multilib deb devel optional g++-4.4-spu deb devel optional gcc-4.4 deb devel optional gcc-4.4-base deb libs required gcc-4.4-hppa64 deb devel optional gcc-4.4-locales deb devel optional gcc-4.4-multilib deb devel optional gcc-4.4-soft-float deb devel optional gcc-4.4-source deb devel optional gcc-4.4-spu deb devel optional gfortran-4.4 deb devel optional gfortran-4.4-multilib deb devel optional gfortran-4.4-spu deb devel optional lib32stdc++6-4.4-dbg deb debug extra lib64stdc++6-4.4-dbg deb debug extra libmudflap0-4.4-dev deb libdevel optional libn32stdc++6-4.4-dbg deb debug extra libstdc++6-4.4-dbg deb debug extra libstdc++6-4.4-dev deb libdevel optional libstdc++6-4.4-doc deb doc optional libstdc++6-4.4-pic deb libdevel extra protoize deb devel optional"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"devel"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Matthias Klose <doko@debian.org>, Arthur Loiret <aloiret@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://svn.debian.org/viewsvn/gcccvs/branches/sid/gcc-4.4/"
+	],
+	"Vcs-Svn": [
+		"svn://svn.debian.org/svn/gcccvs/branches/sid/gcc-4.4"
+	],
+	"Version": [
+		"4.4.7-2"
+	]
 }

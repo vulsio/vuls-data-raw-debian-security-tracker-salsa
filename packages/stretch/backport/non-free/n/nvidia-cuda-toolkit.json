@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "amd64 ppc64el all"
-  ],
-  "Autobuild": [
-    "yes"
-  ],
-  "Binary": [
-    "nvidia-cuda-toolkit, nvidia-cuda-doc, nvidia-cuda-gdb, nvidia-profiler, nvidia-visual-profiler, nvidia-nsight, nvidia-cuda-dev, nvidia-opencl-dev, libcudart9.1, libaccinj64-9.1, libcuinj64-9.1, libnvrtc9.1, libnvtoolsext1, libnvvm3, libcupti9.1, libcupti-dev, libcupti-doc, libcublas9.1, libnvblas9.1, libcufft9.1, libcufftw9.1, libcurand9.1, libcusolver9.1, libcusparse9.1, libnppc9.1, libnppial9.1, libnppicc9.1, libnppicom9.1, libnppidei9.1, libnppif9.1, libnppig9.1, libnppim9.1, libnppist9.1, libnppisu9.1, libnppitc9.1, libnpps9.1, libnvgraph9.1, libthrust-dev"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 11), quilt, libncurses5, libexpat1 [ppc64el], libasound2 [amd64], libgl1 [amd64], libgtk2.0-0 [amd64], libxslt1.1 [amd64], libxtst6 [amd64], libxxf86vm1 [amd64]"
-  ],
-  "Checksums-Sha256": [
-    "4f0b47d595cbc9b1037092132c91aac67ea10a6728fdaad1d11053ad5c1ad9b7 5486 nvidia-cuda-toolkit_9.1.85-8~bpo9+1.dsc c5c85aaa387d91af3d8fe6b5c72198c8493e2a25d7e17bae2c6aba68ade35bc5 916667947 nvidia-cuda-toolkit_9.1.85.orig-ppc64el.tar.gz 860c2e94b126d1f2baeaf2a7e954a46ab6e6846852cb20d0ca3b5b4b0d8575cf 1456200630 nvidia-cuda-toolkit_9.1.85.orig.tar.gz aeb59bcb4bdf0b01012d9726249a1d031b6cfb1f8d3bb5a2ebde2dccbe094a06 104800 nvidia-cuda-toolkit_9.1.85-8~bpo9+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/non-free/n/nvidia-cuda-toolkit"
-  ],
-  "Files": [
-    "51bfc90c8236b6787b9b748aee8ad8bd 5486 nvidia-cuda-toolkit_9.1.85-8~bpo9+1.dsc 691b151fa8e86a46df44043d447a150b 916667947 nvidia-cuda-toolkit_9.1.85.orig-ppc64el.tar.gz 24ef885968de4a5ff2eb9b04b9b86de1 1456200630 nvidia-cuda-toolkit_9.1.85.orig.tar.gz 0028bb3987a65d4bad932d5b8bd86c50 104800 nvidia-cuda-toolkit_9.1.85-8~bpo9+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://developer.nvidia.com/cuda-zone"
-  ],
-  "Maintainer": [
-    "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "nvidia-cuda-toolkit"
-  ],
-  "Package-List": [
-    "libaccinj64-9.1 deb non-free/libs optional arch=amd64,ppc64el libcublas9.1 deb non-free/libs optional arch=amd64,ppc64el libcudart9.1 deb non-free/libs optional arch=amd64,ppc64el libcufft9.1 deb non-free/libs optional arch=amd64,ppc64el libcufftw9.1 deb non-free/libs optional arch=amd64,ppc64el libcuinj64-9.1 deb non-free/libs optional arch=amd64,ppc64el libcupti-dev deb non-free/libdevel optional arch=amd64,ppc64el libcupti-doc deb non-free/doc optional arch=all libcupti9.1 deb non-free/libs optional arch=amd64,ppc64el libcurand9.1 deb non-free/libs optional arch=amd64,ppc64el libcusolver9.1 deb non-free/libs optional arch=amd64,ppc64el libcusparse9.1 deb non-free/libs optional arch=amd64,ppc64el libnppc9.1 deb non-free/libs optional arch=amd64,ppc64el libnppial9.1 deb non-free/libs optional arch=amd64,ppc64el libnppicc9.1 deb non-free/libs optional arch=amd64,ppc64el libnppicom9.1 deb non-free/libs optional arch=amd64,ppc64el libnppidei9.1 deb non-free/libs optional arch=amd64,ppc64el libnppif9.1 deb non-free/libs optional arch=amd64,ppc64el libnppig9.1 deb non-free/libs optional arch=amd64,ppc64el libnppim9.1 deb non-free/libs optional arch=amd64,ppc64el libnppist9.1 deb non-free/libs optional arch=amd64,ppc64el libnppisu9.1 deb non-free/libs optional arch=amd64,ppc64el libnppitc9.1 deb non-free/libs optional arch=amd64,ppc64el libnpps9.1 deb non-free/libs optional arch=amd64,ppc64el libnvblas9.1 deb non-free/libs optional arch=amd64,ppc64el libnvgraph9.1 deb non-free/libs optional arch=amd64,ppc64el libnvrtc9.1 deb non-free/libs optional arch=amd64,ppc64el libnvtoolsext1 deb non-free/libs optional arch=amd64,ppc64el libnvvm3 deb non-free/libs optional arch=amd64,ppc64el libthrust-dev deb non-free/libdevel optional arch=all nvidia-cuda-dev deb non-free/libdevel optional arch=amd64,ppc64el nvidia-cuda-doc deb non-free/doc optional arch=all nvidia-cuda-gdb deb non-free/devel optional arch=amd64,ppc64el nvidia-cuda-toolkit deb non-free/devel optional arch=amd64,ppc64el nvidia-nsight deb non-free/devel optional arch=amd64,ppc64el nvidia-opencl-dev deb non-free/libdevel optional arch=amd64,ppc64el nvidia-profiler deb non-free/devel optional arch=amd64,ppc64el nvidia-visual-profiler deb non-free/devel optional arch=amd64,ppc64el"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "non-free/misc"
-  ],
-  "Standards-Version": [
-    "4.3.0"
-  ],
-  "Uploaders": [
-    "Andreas Beckmann <anbe@debian.org>, Graham Inggs <ginggs@debian.org>, Zhou Mo <cdluminate@gmail.com>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/nvidia-team/nvidia-cuda-toolkit"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/nvidia-team/nvidia-cuda-toolkit.git"
-  ],
-  "Version": [
-    "9.1.85-8~bpo9+1"
-  ]
+	"Architecture": [
+		"amd64 ppc64el all"
+	],
+	"Autobuild": [
+		"yes"
+	],
+	"Binary": [
+		"nvidia-cuda-toolkit, nvidia-cuda-doc, nvidia-cuda-gdb, nvidia-profiler, nvidia-visual-profiler, nvidia-nsight, nvidia-cuda-dev, nvidia-opencl-dev, libcudart9.1, libaccinj64-9.1, libcuinj64-9.1, libnvrtc9.1, libnvtoolsext1, libnvvm3, libcupti9.1, libcupti-dev, libcupti-doc, libcublas9.1, libnvblas9.1, libcufft9.1, libcufftw9.1, libcurand9.1, libcusolver9.1, libcusparse9.1, libnppc9.1, libnppial9.1, libnppicc9.1, libnppicom9.1, libnppidei9.1, libnppif9.1, libnppig9.1, libnppim9.1, libnppist9.1, libnppisu9.1, libnppitc9.1, libnpps9.1, libnvgraph9.1, libthrust-dev"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 11), quilt, libncurses5, libexpat1 [ppc64el], libasound2 [amd64], libgl1 [amd64], libgtk2.0-0 [amd64], libxslt1.1 [amd64], libxtst6 [amd64], libxxf86vm1 [amd64]"
+	],
+	"Checksums-Sha256": [
+		"4f0b47d595cbc9b1037092132c91aac67ea10a6728fdaad1d11053ad5c1ad9b7 5486 nvidia-cuda-toolkit_9.1.85-8~bpo9+1.dsc c5c85aaa387d91af3d8fe6b5c72198c8493e2a25d7e17bae2c6aba68ade35bc5 916667947 nvidia-cuda-toolkit_9.1.85.orig-ppc64el.tar.gz 860c2e94b126d1f2baeaf2a7e954a46ab6e6846852cb20d0ca3b5b4b0d8575cf 1456200630 nvidia-cuda-toolkit_9.1.85.orig.tar.gz aeb59bcb4bdf0b01012d9726249a1d031b6cfb1f8d3bb5a2ebde2dccbe094a06 104800 nvidia-cuda-toolkit_9.1.85-8~bpo9+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/non-free/n/nvidia-cuda-toolkit"
+	],
+	"Files": [
+		"51bfc90c8236b6787b9b748aee8ad8bd 5486 nvidia-cuda-toolkit_9.1.85-8~bpo9+1.dsc 691b151fa8e86a46df44043d447a150b 916667947 nvidia-cuda-toolkit_9.1.85.orig-ppc64el.tar.gz 24ef885968de4a5ff2eb9b04b9b86de1 1456200630 nvidia-cuda-toolkit_9.1.85.orig.tar.gz 0028bb3987a65d4bad932d5b8bd86c50 104800 nvidia-cuda-toolkit_9.1.85-8~bpo9+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://developer.nvidia.com/cuda-zone"
+	],
+	"Maintainer": [
+		"Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"nvidia-cuda-toolkit"
+	],
+	"Package-List": [
+		"libaccinj64-9.1 deb non-free/libs optional arch=amd64,ppc64el libcublas9.1 deb non-free/libs optional arch=amd64,ppc64el libcudart9.1 deb non-free/libs optional arch=amd64,ppc64el libcufft9.1 deb non-free/libs optional arch=amd64,ppc64el libcufftw9.1 deb non-free/libs optional arch=amd64,ppc64el libcuinj64-9.1 deb non-free/libs optional arch=amd64,ppc64el libcupti-dev deb non-free/libdevel optional arch=amd64,ppc64el libcupti-doc deb non-free/doc optional arch=all libcupti9.1 deb non-free/libs optional arch=amd64,ppc64el libcurand9.1 deb non-free/libs optional arch=amd64,ppc64el libcusolver9.1 deb non-free/libs optional arch=amd64,ppc64el libcusparse9.1 deb non-free/libs optional arch=amd64,ppc64el libnppc9.1 deb non-free/libs optional arch=amd64,ppc64el libnppial9.1 deb non-free/libs optional arch=amd64,ppc64el libnppicc9.1 deb non-free/libs optional arch=amd64,ppc64el libnppicom9.1 deb non-free/libs optional arch=amd64,ppc64el libnppidei9.1 deb non-free/libs optional arch=amd64,ppc64el libnppif9.1 deb non-free/libs optional arch=amd64,ppc64el libnppig9.1 deb non-free/libs optional arch=amd64,ppc64el libnppim9.1 deb non-free/libs optional arch=amd64,ppc64el libnppist9.1 deb non-free/libs optional arch=amd64,ppc64el libnppisu9.1 deb non-free/libs optional arch=amd64,ppc64el libnppitc9.1 deb non-free/libs optional arch=amd64,ppc64el libnpps9.1 deb non-free/libs optional arch=amd64,ppc64el libnvblas9.1 deb non-free/libs optional arch=amd64,ppc64el libnvgraph9.1 deb non-free/libs optional arch=amd64,ppc64el libnvrtc9.1 deb non-free/libs optional arch=amd64,ppc64el libnvtoolsext1 deb non-free/libs optional arch=amd64,ppc64el libnvvm3 deb non-free/libs optional arch=amd64,ppc64el libthrust-dev deb non-free/libdevel optional arch=all nvidia-cuda-dev deb non-free/libdevel optional arch=amd64,ppc64el nvidia-cuda-doc deb non-free/doc optional arch=all nvidia-cuda-gdb deb non-free/devel optional arch=amd64,ppc64el nvidia-cuda-toolkit deb non-free/devel optional arch=amd64,ppc64el nvidia-nsight deb non-free/devel optional arch=amd64,ppc64el nvidia-opencl-dev deb non-free/libdevel optional arch=amd64,ppc64el nvidia-profiler deb non-free/devel optional arch=amd64,ppc64el nvidia-visual-profiler deb non-free/devel optional arch=amd64,ppc64el"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"non-free/misc"
+	],
+	"Standards-Version": [
+		"4.3.0"
+	],
+	"Uploaders": [
+		"Andreas Beckmann <anbe@debian.org>, Graham Inggs <ginggs@debian.org>, Zhou Mo <cdluminate@gmail.com>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/nvidia-team/nvidia-cuda-toolkit"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/nvidia-team/nvidia-cuda-toolkit.git"
+	],
+	"Version": [
+		"9.1.85-8~bpo9+1"
+	]
 }

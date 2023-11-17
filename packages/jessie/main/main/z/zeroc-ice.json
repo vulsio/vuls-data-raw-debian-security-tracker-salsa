@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "zeroc-ice35, ice35-translators, ice35-services, libicestorm35, libicegrid35, libicebox35, icebox, libicepatch2-35, libglacier2-35, libfreeze35, libicedb35, ice35-slice, libzeroc-ice35, libicessl35, libiceutil35, libicexml35, libslice35, libzeroc-ice35-dev, libzeroc-ice35-dbg, python-zeroc-ice, python3-zeroc-ice, php-zeroc-ice, libzeroc-ice3.5-cil, ruby-zeroc-ice, libzeroc-ice3.5-java, icegrid-gui"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), hardening-wrapper, libdb++-dev, libmcpp-dev (>= 2.7.1), libreadline-gplv2-dev, libexpat1-dev, libssl-dev, libbz2-dev, zlib1g-dev | libz-dev, python-all-dev (>= 2.3.5-11), python3-all-dev, php5-dev (>= 5.4.0~rc6), ruby-dev, ruby, libqt4-dev"
-  ],
-  "Build-Depends-Indep": [
-    "mono-devel | c-sharp-2.0-compiler, libmono2.0-cil, pkg-config, default-jdk | java-gcj-compat, libjgoodies-looks-java (>= 2.5.2), libjgoodies-forms-java (>= 1.6.0), proguard (>= 4.1), libdb5.3-java (>= 5.1.4~) | libdb-java (>= 5.1.4~), ant, ant-optional, mono-gmcs, cli-common-dev (>= 0.8~)"
-  ],
-  "Checksums-Sha1": [
-    "bba84b32abb5281a2afd676c188760092fb45d54 3421 zeroc-ice_3.5.1-6.dsc 63599ea22a1e9638a49356682c9e516b7c2c454f 4799296 zeroc-ice_3.5.1.orig.tar.gz 0c6e58cb47c6bcbe792397ea20c78952dd0d257d 47844 zeroc-ice_3.5.1-6.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "5b5f9f50f2a2dde93a5494ac91241e9b9899bbbae0de670d6f93d04c3d067246 3421 zeroc-ice_3.5.1-6.dsc 989e51194c6adadbd156da3288e37bad847b93b3b876502e83033b70493af392 4799296 zeroc-ice_3.5.1.orig.tar.gz 81f5176ff058f857d33e71f8156ea857c53c92ec9de1ed43c7abebb0d6296278 47844 zeroc-ice_3.5.1-6.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/z/zeroc-ice"
-  ],
-  "Files": [
-    "fd2c6063026c24c3441037ac5f440315 3421 zeroc-ice_3.5.1-6.dsc f00c59983cc904bca977133c0a9b3e80 4799296 zeroc-ice_3.5.1.orig.tar.gz 8b7d3bb511f53d17cb304278b88d67a4 47844 zeroc-ice_3.5.1-6.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.zeroc.com/"
-  ],
-  "Maintainer": [
-    "Francisco Moya <paco@debian.org>"
-  ],
-  "Package": [
-    "zeroc-ice"
-  ],
-  "Package-List": [
-    "ice35-services deb devel optional arch=any ice35-slice deb devel optional arch=all ice35-translators deb devel optional arch=any icebox deb devel optional arch=any icegrid-gui deb devel optional arch=all libfreeze35 deb libs optional arch=any libglacier2-35 deb libs optional arch=any libicebox35 deb libs optional arch=any libicedb35 deb libs optional arch=any libicegrid35 deb libs optional arch=any libicepatch2-35 deb libs optional arch=any libicessl35 deb libs optional arch=any libicestorm35 deb libs optional arch=any libiceutil35 deb libs optional arch=any libicexml35 deb libs optional arch=any libslice35 deb libs optional arch=any libzeroc-ice3.5-cil deb cli-mono optional arch=all libzeroc-ice3.5-java deb java optional arch=all libzeroc-ice35 deb libs optional arch=any libzeroc-ice35-dbg deb debug extra arch=any libzeroc-ice35-dev deb libdevel optional arch=any php-zeroc-ice deb php optional arch=any python-zeroc-ice deb python optional arch=any python3-zeroc-ice deb python optional arch=any ruby-zeroc-ice deb ruby optional arch=any zeroc-ice35 deb devel optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "devel"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Uploaders": [
-    "Cleto Martín <cleto@debian.org>"
-  ],
-  "Version": [
-    "3.5.1-6"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"zeroc-ice35, ice35-translators, ice35-services, libicestorm35, libicegrid35, libicebox35, icebox, libicepatch2-35, libglacier2-35, libfreeze35, libicedb35, ice35-slice, libzeroc-ice35, libicessl35, libiceutil35, libicexml35, libslice35, libzeroc-ice35-dev, libzeroc-ice35-dbg, python-zeroc-ice, python3-zeroc-ice, php-zeroc-ice, libzeroc-ice3.5-cil, ruby-zeroc-ice, libzeroc-ice3.5-java, icegrid-gui"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), hardening-wrapper, libdb++-dev, libmcpp-dev (>= 2.7.1), libreadline-gplv2-dev, libexpat1-dev, libssl-dev, libbz2-dev, zlib1g-dev | libz-dev, python-all-dev (>= 2.3.5-11), python3-all-dev, php5-dev (>= 5.4.0~rc6), ruby-dev, ruby, libqt4-dev"
+	],
+	"Build-Depends-Indep": [
+		"mono-devel | c-sharp-2.0-compiler, libmono2.0-cil, pkg-config, default-jdk | java-gcj-compat, libjgoodies-looks-java (>= 2.5.2), libjgoodies-forms-java (>= 1.6.0), proguard (>= 4.1), libdb5.3-java (>= 5.1.4~) | libdb-java (>= 5.1.4~), ant, ant-optional, mono-gmcs, cli-common-dev (>= 0.8~)"
+	],
+	"Checksums-Sha1": [
+		"bba84b32abb5281a2afd676c188760092fb45d54 3421 zeroc-ice_3.5.1-6.dsc 63599ea22a1e9638a49356682c9e516b7c2c454f 4799296 zeroc-ice_3.5.1.orig.tar.gz 0c6e58cb47c6bcbe792397ea20c78952dd0d257d 47844 zeroc-ice_3.5.1-6.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"5b5f9f50f2a2dde93a5494ac91241e9b9899bbbae0de670d6f93d04c3d067246 3421 zeroc-ice_3.5.1-6.dsc 989e51194c6adadbd156da3288e37bad847b93b3b876502e83033b70493af392 4799296 zeroc-ice_3.5.1.orig.tar.gz 81f5176ff058f857d33e71f8156ea857c53c92ec9de1ed43c7abebb0d6296278 47844 zeroc-ice_3.5.1-6.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/z/zeroc-ice"
+	],
+	"Files": [
+		"fd2c6063026c24c3441037ac5f440315 3421 zeroc-ice_3.5.1-6.dsc f00c59983cc904bca977133c0a9b3e80 4799296 zeroc-ice_3.5.1.orig.tar.gz 8b7d3bb511f53d17cb304278b88d67a4 47844 zeroc-ice_3.5.1-6.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.zeroc.com/"
+	],
+	"Maintainer": [
+		"Francisco Moya <paco@debian.org>"
+	],
+	"Package": [
+		"zeroc-ice"
+	],
+	"Package-List": [
+		"ice35-services deb devel optional arch=any ice35-slice deb devel optional arch=all ice35-translators deb devel optional arch=any icebox deb devel optional arch=any icegrid-gui deb devel optional arch=all libfreeze35 deb libs optional arch=any libglacier2-35 deb libs optional arch=any libicebox35 deb libs optional arch=any libicedb35 deb libs optional arch=any libicegrid35 deb libs optional arch=any libicepatch2-35 deb libs optional arch=any libicessl35 deb libs optional arch=any libicestorm35 deb libs optional arch=any libiceutil35 deb libs optional arch=any libicexml35 deb libs optional arch=any libslice35 deb libs optional arch=any libzeroc-ice3.5-cil deb cli-mono optional arch=all libzeroc-ice3.5-java deb java optional arch=all libzeroc-ice35 deb libs optional arch=any libzeroc-ice35-dbg deb debug extra arch=any libzeroc-ice35-dev deb libdevel optional arch=any php-zeroc-ice deb php optional arch=any python-zeroc-ice deb python optional arch=any python3-zeroc-ice deb python optional arch=any ruby-zeroc-ice deb ruby optional arch=any zeroc-ice35 deb devel optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"devel"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Uploaders": [
+		"Cleto Martín <cleto@debian.org>"
+	],
+	"Version": [
+		"3.5.1-6"
+	]
 }

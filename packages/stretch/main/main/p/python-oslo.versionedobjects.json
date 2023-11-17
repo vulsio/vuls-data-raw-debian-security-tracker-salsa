@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-oslo.versionedobjects, python3-oslo.versionedobjects, python-oslo.versionedobjects-doc, python-oslo-versionedobjects, python-oslo-versionedobjects-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-python, openstack-pkg-tools, python-all, python-pbr, python-setuptools, python-sphinx, python3-all, python3-pbr, python3-setuptools"
-  ],
-  "Build-Depends-Indep": [
-    "python-coverage, python-fixtures, python-hacking, python-iso8601, python-netaddr (>= 0.7.12), python-oslo.concurrency (>= 3.8.0), python-oslo.config (>= 1:3.14.0), python-oslo.context (>= 2.6.0), python-oslo.i18n (>= 2.1.0), python-oslo.log (>= 2.0.0), python-oslo.messaging (>= 5.2.0), python-oslo.serialization (>= 2.0.0), python-oslo.utils (>= 3.16.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.10.0), python-six (>= 1.9.0), python-testtools (>= 1.4.0), python-webob, python3-fixtures, python3-iso8601, python3-netaddr (>= 0.7.12), python3-oslo.concurrency (>= 3.8.0), python3-oslo.config (>= 1:3.14.0), python3-oslo.context (>= 2.6.0), python3-oslo.i18n (>= 2.1.0), python3-oslo.log (>= 2.0.0), python3-oslo.messaging (>= 5.2.0), python3-oslo.serialization (>= 2.0.0), python3-oslo.utils (>= 3.16.0), python3-oslotest (>= 1:1.10.0), python3-six (>= 1.9.0), python3-testtools (>= 1.4.0), python3-webob, subunit, testrepository"
-  ],
-  "Checksums-Sha256": [
-    "f28401e4b44b4bda68120f11f5a527e324c9e620e5fe5f2b22c024b4349567a4 3697 python-oslo.versionedobjects_1.17.0-2.dsc 2f436b9139efbfe903dd6bdf0ed32f605cf6c653ab8879a319f150b0399f0c52 58660 python-oslo.versionedobjects_1.17.0.orig.tar.xz a6ee969d4bc0b20644e61c5ed0a798fe8d3c716c0ea40c68e227ee5761861c26 4236 python-oslo.versionedobjects_1.17.0-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/python-oslo.versionedobjects"
-  ],
-  "Files": [
-    "8412f7d5966b0af1b9839309f15fb941 3697 python-oslo.versionedobjects_1.17.0-2.dsc 7006d9fc75125554dde52df0224c7538 58660 python-oslo.versionedobjects_1.17.0.orig.tar.xz f524ba3e3a2674544c8ef67ee9ed832f 4236 python-oslo.versionedobjects_1.17.0-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/openstack/oslo.versionedobjects"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "python-oslo.versionedobjects"
-  ],
-  "Package-List": [
-    "python-oslo-versionedobjects deb oldlibs extra arch=all python-oslo-versionedobjects-doc deb oldlibs extra arch=all python-oslo.versionedobjects deb python optional arch=all python-oslo.versionedobjects-doc deb doc optional arch=all python3-oslo.versionedobjects deb python optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>, Corey Bryant <corey.bryant@canonical.com>, David Della Vecchia <ddv@canonical.com>,"
-  ],
-  "Vcs-Browser": [
-    "https://git.openstack.org/cgit/openstack/deb-python-oslo.versionedobjects?h=debian%2Fnewton"
-  ],
-  "Vcs-Git": [
-    "https://git.openstack.org/git/openstack/deb-python-oslo.versionedobjects -b debian/newton"
-  ],
-  "Version": [
-    "1.17.0-2"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-oslo.versionedobjects, python3-oslo.versionedobjects, python-oslo.versionedobjects-doc, python-oslo-versionedobjects, python-oslo-versionedobjects-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-python, openstack-pkg-tools, python-all, python-pbr, python-setuptools, python-sphinx, python3-all, python3-pbr, python3-setuptools"
+	],
+	"Build-Depends-Indep": [
+		"python-coverage, python-fixtures, python-hacking, python-iso8601, python-netaddr (>= 0.7.12), python-oslo.concurrency (>= 3.8.0), python-oslo.config (>= 1:3.14.0), python-oslo.context (>= 2.6.0), python-oslo.i18n (>= 2.1.0), python-oslo.log (>= 2.0.0), python-oslo.messaging (>= 5.2.0), python-oslo.serialization (>= 2.0.0), python-oslo.utils (>= 3.16.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.10.0), python-six (>= 1.9.0), python-testtools (>= 1.4.0), python-webob, python3-fixtures, python3-iso8601, python3-netaddr (>= 0.7.12), python3-oslo.concurrency (>= 3.8.0), python3-oslo.config (>= 1:3.14.0), python3-oslo.context (>= 2.6.0), python3-oslo.i18n (>= 2.1.0), python3-oslo.log (>= 2.0.0), python3-oslo.messaging (>= 5.2.0), python3-oslo.serialization (>= 2.0.0), python3-oslo.utils (>= 3.16.0), python3-oslotest (>= 1:1.10.0), python3-six (>= 1.9.0), python3-testtools (>= 1.4.0), python3-webob, subunit, testrepository"
+	],
+	"Checksums-Sha256": [
+		"f28401e4b44b4bda68120f11f5a527e324c9e620e5fe5f2b22c024b4349567a4 3697 python-oslo.versionedobjects_1.17.0-2.dsc 2f436b9139efbfe903dd6bdf0ed32f605cf6c653ab8879a319f150b0399f0c52 58660 python-oslo.versionedobjects_1.17.0.orig.tar.xz a6ee969d4bc0b20644e61c5ed0a798fe8d3c716c0ea40c68e227ee5761861c26 4236 python-oslo.versionedobjects_1.17.0-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-oslo.versionedobjects"
+	],
+	"Files": [
+		"8412f7d5966b0af1b9839309f15fb941 3697 python-oslo.versionedobjects_1.17.0-2.dsc 7006d9fc75125554dde52df0224c7538 58660 python-oslo.versionedobjects_1.17.0.orig.tar.xz f524ba3e3a2674544c8ef67ee9ed832f 4236 python-oslo.versionedobjects_1.17.0-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/openstack/oslo.versionedobjects"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"python-oslo.versionedobjects"
+	],
+	"Package-List": [
+		"python-oslo-versionedobjects deb oldlibs extra arch=all python-oslo-versionedobjects-doc deb oldlibs extra arch=all python-oslo.versionedobjects deb python optional arch=all python-oslo.versionedobjects-doc deb doc optional arch=all python3-oslo.versionedobjects deb python optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>, Corey Bryant <corey.bryant@canonical.com>, David Della Vecchia <ddv@canonical.com>,"
+	],
+	"Vcs-Browser": [
+		"https://git.openstack.org/cgit/openstack/deb-python-oslo.versionedobjects?h=debian%2Fnewton"
+	],
+	"Vcs-Git": [
+		"https://git.openstack.org/git/openstack/deb-python-oslo.versionedobjects -b debian/newton"
+	],
+	"Version": [
+		"1.17.0-2"
+	]
 }

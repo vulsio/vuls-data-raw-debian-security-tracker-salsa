@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-senlinclient, python3-senlinclient, python-senlinclient-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 10), dh-python, openstack-pkg-tools (>= 52~), python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.8), python3-setuptools"
-  ],
-  "Build-Depends-Indep": [
-    "git, python-babel (>= 2.3.4), python-coverage, python-fixtures (>= 3.0.0), python-hacking, python-heatclient (>= 1.4.0), python-mock (>= 2.0), python-openstackclient (>= 2.1.0), python-openstacksdk (>= 0.9.4), python-osc-lib (>= 1.0.2), python-oslo.i18n (>= 2.1.0), python-oslo.serialization (>= 1.10.0), python-oslo.utils (>= 3.16.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.10.0), python-prettytable, python-requests (>= 2.10.0), python-requests-mock (>= 1.0.0), python-six (>= 1.9.0), python-testscenarios, python-testtools (>= 1.4.0), python-yaml, python3-babel (>= 2.3.4), python3-fixtures (>= 3.0.0), python3-heatclient (>= 1.4.0), python3-mock (>= 2.0), python3-openstackclient (>= 2.1.0), python3-openstacksdk (>= 0.9.4), python3-osc-lib (>= 1.0.2), python3-oslo.i18n (>= 2.1.0), python3-oslo.serialization (>= 1.10.0), python3-oslo.utils (>= 3.16.0), python3-oslotest (>= 1:1.10.0), python3-prettytable, python3-requests (>= 2.10.0), python3-requests-mock (>= 1.0.0), python3-six (>= 1.9.0), python3-subunit, python3-testscenarios, python3-testtools (>= 1.4.0), python3-yaml, subunit, testrepository"
-  ],
-  "Checksums-Sha256": [
-    "70f6e35714f03b8b863473440a9bde579d3fb1a82e01c7294b8a834d977ff07a 3633 python-senlinclient_1.0.0-3.dsc 83890601af1cc57f2c02208c6d60ec6d9611e0c02eb46496747158ebb24918bb 70936 python-senlinclient_1.0.0.orig.tar.xz 3eefcdb3c33e5e7641386803d1fd03fa5c6ee0aa48cc51bd3ff2f596833ff8ec 3560 python-senlinclient_1.0.0-3.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/python-senlinclient"
-  ],
-  "Files": [
-    "78e500095dac1542db753624606240ef 3633 python-senlinclient_1.0.0-3.dsc db03a36a3468cce788b8ed070c6364a7 70936 python-senlinclient_1.0.0.orig.tar.xz faa3b5c13be863b8b1ad0785ef5e37c1 3560 python-senlinclient_1.0.0-3.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/openstack/python-senlinclient"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "python-senlinclient"
-  ],
-  "Package-List": [
-    "python-senlinclient deb python optional arch=all python-senlinclient-doc deb doc optional arch=all python3-senlinclient deb python optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>, David Della Vecchia <ddv@canonical.com>, Corey Bryant <corey.bryant@canonical.com>,"
-  ],
-  "Vcs-Browser": [
-    "https://git.openstack.org/cgit/openstack/deb-python-senlinclient?h=debian%2Fnewton"
-  ],
-  "Vcs-Git": [
-    "https://git.openstack.org/openstack/deb-python-senlinclient -b debian/newton"
-  ],
-  "Version": [
-    "1.0.0-3"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-senlinclient, python3-senlinclient, python-senlinclient-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 10), dh-python, openstack-pkg-tools (>= 52~), python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.8), python3-setuptools"
+	],
+	"Build-Depends-Indep": [
+		"git, python-babel (>= 2.3.4), python-coverage, python-fixtures (>= 3.0.0), python-hacking, python-heatclient (>= 1.4.0), python-mock (>= 2.0), python-openstackclient (>= 2.1.0), python-openstacksdk (>= 0.9.4), python-osc-lib (>= 1.0.2), python-oslo.i18n (>= 2.1.0), python-oslo.serialization (>= 1.10.0), python-oslo.utils (>= 3.16.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.10.0), python-prettytable, python-requests (>= 2.10.0), python-requests-mock (>= 1.0.0), python-six (>= 1.9.0), python-testscenarios, python-testtools (>= 1.4.0), python-yaml, python3-babel (>= 2.3.4), python3-fixtures (>= 3.0.0), python3-heatclient (>= 1.4.0), python3-mock (>= 2.0), python3-openstackclient (>= 2.1.0), python3-openstacksdk (>= 0.9.4), python3-osc-lib (>= 1.0.2), python3-oslo.i18n (>= 2.1.0), python3-oslo.serialization (>= 1.10.0), python3-oslo.utils (>= 3.16.0), python3-oslotest (>= 1:1.10.0), python3-prettytable, python3-requests (>= 2.10.0), python3-requests-mock (>= 1.0.0), python3-six (>= 1.9.0), python3-subunit, python3-testscenarios, python3-testtools (>= 1.4.0), python3-yaml, subunit, testrepository"
+	],
+	"Checksums-Sha256": [
+		"70f6e35714f03b8b863473440a9bde579d3fb1a82e01c7294b8a834d977ff07a 3633 python-senlinclient_1.0.0-3.dsc 83890601af1cc57f2c02208c6d60ec6d9611e0c02eb46496747158ebb24918bb 70936 python-senlinclient_1.0.0.orig.tar.xz 3eefcdb3c33e5e7641386803d1fd03fa5c6ee0aa48cc51bd3ff2f596833ff8ec 3560 python-senlinclient_1.0.0-3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-senlinclient"
+	],
+	"Files": [
+		"78e500095dac1542db753624606240ef 3633 python-senlinclient_1.0.0-3.dsc db03a36a3468cce788b8ed070c6364a7 70936 python-senlinclient_1.0.0.orig.tar.xz faa3b5c13be863b8b1ad0785ef5e37c1 3560 python-senlinclient_1.0.0-3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/openstack/python-senlinclient"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"python-senlinclient"
+	],
+	"Package-List": [
+		"python-senlinclient deb python optional arch=all python-senlinclient-doc deb doc optional arch=all python3-senlinclient deb python optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>, David Della Vecchia <ddv@canonical.com>, Corey Bryant <corey.bryant@canonical.com>,"
+	],
+	"Vcs-Browser": [
+		"https://git.openstack.org/cgit/openstack/deb-python-senlinclient?h=debian%2Fnewton"
+	],
+	"Vcs-Git": [
+		"https://git.openstack.org/openstack/deb-python-senlinclient -b debian/newton"
+	],
+	"Version": [
+		"1.0.0-3"
+	]
 }

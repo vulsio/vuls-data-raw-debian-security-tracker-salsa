@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-pango-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-gio-0.18+default-dev <!nocheck>, librust-glib-0.18+default-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-once-cell-1+default-dev <!nocheck>, librust-pango-sys-0.18+default-dev <!nocheck>, libpango1.0-dev <!nocheck>, libgirepository1.0-dev <!nocheck>, libharfbuzz-dev <!nocheck>, gir-rust-code-generator <!nocheck>, xmlstarlet <!nocheck>, rustc (>= 1.70) <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "99f541c41a939fef7a5b4703b0ebfad87714e93e35204d3a7149b5ecd034a8ef 2557 rust-pango_0.18.0-4.dsc 06a9e54b831d033206160096b825f2070cf5fda7e35167b1c01e9e774f9202d1 47499 rust-pango_0.18.0.orig.tar.gz 48aff142849a1f5a70441324460cc05b2d3d03db6092bc342596dff9d8df9bfa 4312 rust-pango_0.18.0-4.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-pango"
-  ],
-  "Files": [
-    "24b47e4a13ddd7f578591a4647ec52e0 2557 rust-pango_0.18.0-4.dsc 9d127368397a7cf7d86383731e1868d5 47499 rust-pango_0.18.0.orig.tar.gz 0e8c94170474c971ad5f63870bb6bed5 4312 rust-pango_0.18.0-4.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://gtk-rs.org/"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-pango"
-  ],
-  "Package-List": [
-    "librust-pango-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-gir-format-check-0.1+default-dev"
-  ],
-  "Uploaders": [
-    "Matthias Geiger <werdahias@riseup.net>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/pango"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/pango]"
-  ],
-  "Version": [
-    "0.18.0-4"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-pango-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-gio-0.18+default-dev <!nocheck>, librust-glib-0.18+default-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-once-cell-1+default-dev <!nocheck>, librust-pango-sys-0.18+default-dev <!nocheck>, libpango1.0-dev <!nocheck>, libgirepository1.0-dev <!nocheck>, libharfbuzz-dev <!nocheck>, gir-rust-code-generator <!nocheck>, xmlstarlet <!nocheck>, rustc (>= 1.70) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"99f541c41a939fef7a5b4703b0ebfad87714e93e35204d3a7149b5ecd034a8ef 2557 rust-pango_0.18.0-4.dsc 06a9e54b831d033206160096b825f2070cf5fda7e35167b1c01e9e774f9202d1 47499 rust-pango_0.18.0.orig.tar.gz 48aff142849a1f5a70441324460cc05b2d3d03db6092bc342596dff9d8df9bfa 4312 rust-pango_0.18.0-4.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-pango"
+	],
+	"Files": [
+		"24b47e4a13ddd7f578591a4647ec52e0 2557 rust-pango_0.18.0-4.dsc 9d127368397a7cf7d86383731e1868d5 47499 rust-pango_0.18.0.orig.tar.gz 0e8c94170474c971ad5f63870bb6bed5 4312 rust-pango_0.18.0-4.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://gtk-rs.org/"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-pango"
+	],
+	"Package-List": [
+		"librust-pango-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-gir-format-check-0.1+default-dev"
+	],
+	"Uploaders": [
+		"Matthias Geiger <werdahias@riseup.net>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/pango"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/pango]"
+	],
+	"Version": [
+		"0.18.0-4"
+	]
 }

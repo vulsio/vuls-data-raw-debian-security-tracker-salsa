@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "subversion, subversion-dbg, libsvn1, libsvn-dev, libsvn-doc, libapache2-mod-svn, libapache2-svn, python-subversion, subversion-tools, libsvn-java, libsvn-perl, ruby-svn, libsvn-ruby1.8"
-  ],
-  "Build-Conflicts": [
-    "libsvn-dev (<< 1.8~), ruby-test-unit"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 8), libserf-dev (>= 1.2), zlib1g-dev, libapr1-dev, libaprutil1-dev, libdb5.3-dev, libsasl2-dev, apache2-dev (>= 2.4.10-10+deb8u1), dh-apache2, libsqlite3-dev (>= 3.7.12), libgnome-keyring-dev, libdbus-1-dev, kdelibs5-dev, quilt, doxygen, autotools-dev, autoconf, libtool, swig, python-all-dev, perl, libperl-dev, ruby, ruby-dev, default-jdk, junit"
-  ],
-  "Checksums-Sha1": [
-    "9f753fd101883211ca7384368f6be12f5500debc 3035 subversion_1.8.10-6+deb8u7.dsc 8e1e1e5fd97c3f575a81d66232c62dc902257a17 9331079 subversion_1.8.10.orig.tar.gz aa15e7fa16f801b8f1aacbcddb719ee6a1d3f5a9 306950 subversion_1.8.10-6+deb8u7.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "da5e655efd0221b37e594dda3844c88b23260fd98a965016e31527077148aaf4 3035 subversion_1.8.10-6+deb8u7.dsc d0efa2533225c0bfba2ac27bcc004255997cbbde58f4f970dfb9dc3cc825005f 9331079 subversion_1.8.10.orig.tar.gz 4806824ffa7f70c7f8327f86dbfbefa0ba19b86fa967f1b0f9ce4dbb1e8d10b2 306950 subversion_1.8.10-6+deb8u7.diff.gz"
-  ],
-  "Directory": [
-    "pool/updates/main/s/subversion"
-  ],
-  "Files": [
-    "d2b2eefc3b66fd95b567e409f5b60abe 3035 subversion_1.8.10-6+deb8u7.dsc 88cd7d8cc0fcdd00957ecca5c2550d5c 9331079 subversion_1.8.10.orig.tar.gz fe1bb75a2aabce8a99434f809a9ad101 306950 subversion_1.8.10-6+deb8u7.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Homepage": [
-    "http://subversion.apache.org/"
-  ],
-  "Maintainer": [
-    "Peter Samuelson <peter@p12n.org>"
-  ],
-  "Package": [
-    "subversion"
-  ],
-  "Package-List": [
-    "libapache2-mod-svn deb httpd optional arch=any libapache2-svn deb oldlibs extra arch=all libsvn-dev deb libdevel extra arch=any libsvn-doc deb doc extra arch=all libsvn-java deb java optional arch=any libsvn-perl deb perl optional arch=any libsvn-ruby1.8 deb oldlibs extra arch=all libsvn1 deb libs optional arch=any python-subversion deb python optional arch=any ruby-svn deb ruby optional arch=any subversion deb vcs optional arch=any subversion-dbg deb debug extra arch=any subversion-tools deb vcs extra arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "vcs"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Troy Heber <troyh@debian.org>, James McCoy <jamessan@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/viewvc/pkg-subversion/src/1.8.x/"
-  ],
-  "Vcs-Svn": [
-    "svn://anonscm.debian.org/pkg-subversion/src/1.8.x/"
-  ],
-  "Version": [
-    "1.8.10-6+deb8u7"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"subversion, subversion-dbg, libsvn1, libsvn-dev, libsvn-doc, libapache2-mod-svn, libapache2-svn, python-subversion, subversion-tools, libsvn-java, libsvn-perl, ruby-svn, libsvn-ruby1.8"
+	],
+	"Build-Conflicts": [
+		"libsvn-dev (<< 1.8~), ruby-test-unit"
+	],
+	"Build-Depends": [
+		"debhelper (>= 8), libserf-dev (>= 1.2), zlib1g-dev, libapr1-dev, libaprutil1-dev, libdb5.3-dev, libsasl2-dev, apache2-dev (>= 2.4.10-10+deb8u1), dh-apache2, libsqlite3-dev (>= 3.7.12), libgnome-keyring-dev, libdbus-1-dev, kdelibs5-dev, quilt, doxygen, autotools-dev, autoconf, libtool, swig, python-all-dev, perl, libperl-dev, ruby, ruby-dev, default-jdk, junit"
+	],
+	"Checksums-Sha1": [
+		"9f753fd101883211ca7384368f6be12f5500debc 3035 subversion_1.8.10-6+deb8u7.dsc 8e1e1e5fd97c3f575a81d66232c62dc902257a17 9331079 subversion_1.8.10.orig.tar.gz aa15e7fa16f801b8f1aacbcddb719ee6a1d3f5a9 306950 subversion_1.8.10-6+deb8u7.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"da5e655efd0221b37e594dda3844c88b23260fd98a965016e31527077148aaf4 3035 subversion_1.8.10-6+deb8u7.dsc d0efa2533225c0bfba2ac27bcc004255997cbbde58f4f970dfb9dc3cc825005f 9331079 subversion_1.8.10.orig.tar.gz 4806824ffa7f70c7f8327f86dbfbefa0ba19b86fa967f1b0f9ce4dbb1e8d10b2 306950 subversion_1.8.10-6+deb8u7.diff.gz"
+	],
+	"Directory": [
+		"pool/updates/main/s/subversion"
+	],
+	"Files": [
+		"d2b2eefc3b66fd95b567e409f5b60abe 3035 subversion_1.8.10-6+deb8u7.dsc 88cd7d8cc0fcdd00957ecca5c2550d5c 9331079 subversion_1.8.10.orig.tar.gz fe1bb75a2aabce8a99434f809a9ad101 306950 subversion_1.8.10-6+deb8u7.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Homepage": [
+		"http://subversion.apache.org/"
+	],
+	"Maintainer": [
+		"Peter Samuelson <peter@p12n.org>"
+	],
+	"Package": [
+		"subversion"
+	],
+	"Package-List": [
+		"libapache2-mod-svn deb httpd optional arch=any libapache2-svn deb oldlibs extra arch=all libsvn-dev deb libdevel extra arch=any libsvn-doc deb doc extra arch=all libsvn-java deb java optional arch=any libsvn-perl deb perl optional arch=any libsvn-ruby1.8 deb oldlibs extra arch=all libsvn1 deb libs optional arch=any python-subversion deb python optional arch=any ruby-svn deb ruby optional arch=any subversion deb vcs optional arch=any subversion-dbg deb debug extra arch=any subversion-tools deb vcs extra arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"vcs"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Troy Heber <troyh@debian.org>, James McCoy <jamessan@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/viewvc/pkg-subversion/src/1.8.x/"
+	],
+	"Vcs-Svn": [
+		"svn://anonscm.debian.org/pkg-subversion/src/1.8.x/"
+	],
+	"Version": [
+		"1.8.10-6+deb8u7"
+	]
 }

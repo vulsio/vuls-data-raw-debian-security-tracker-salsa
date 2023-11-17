@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "cpp, g++, g++-multilib, gobjc, gobjc-multilib, gobjc++, gobjc++-multilib, gfortran, gfortran-multilib, gccgo, gccgo-multilib, libgcj-common, libgcj-bc, gcj-jdk, gcj-jre-headless, gcj-jre, gcc, gcc-multilib, gdc, libphobos-dev"
-  ],
-  "Build-Depends": [
-    "m4, debhelper (>= 5), dpkg-dev (>= 1.17.11), gcc-4.9-base (>= 4.9.2-1~), lsb-release"
-  ],
-  "Build-Depends-Indep": [
-    "ca-certificates, gcj-jdk, python (>= 2.6.6)"
-  ],
-  "Checksums-Sha1": [
-    "133581f7ab4429efeb168f34d9da85fd2e7c31a7 3255 gcc-defaults_1.136.dsc ac2c34cea3c1a24b23d9f31df83a8852155df0e0 64341 gcc-defaults_1.136.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "5ac9089c83ce76445a7b3dcb546460e85352bce22fa0ce26fc26c1a8812d484a 3255 gcc-defaults_1.136.dsc 7146bd9f988928c0c9e765677d9997edec7bd23472306dbec9be54bdaa21e558 64341 gcc-defaults_1.136.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/g/gcc-defaults"
-  ],
-  "Files": [
-    "2b78f86dc394eb2cde019918e24c39f6 3255 gcc-defaults_1.136.dsc cb01ba8d76bf784fbe851482e21c7026 64341 gcc-defaults_1.136.tar.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Maintainer": [
-    "Debian GCC Maintainers <debian-gcc@lists.debian.org>"
-  ],
-  "Package": [
-    "gcc-defaults"
-  ],
-  "Package-List": [
-    "cpp deb interpreters optional arch=any g++ deb devel optional arch=any g++-multilib deb devel optional arch=amd64,i386,kfreebsd-amd64,mips,mips64,mips64el,mipsel,powerpc,ppc64,s390,s390x,sparc,sparc64,x32 gcc deb devel optional arch=any gcc-multilib deb devel optional arch=amd64,i386,kfreebsd-amd64,mips,mips64,mips64el,mipsel,powerpc,ppc64,s390,s390x,s390x,sparc,sparc64,x32 gccgo deb devel optional arch=any gccgo-multilib deb devel optional arch=amd64,i386,mips,mips64,mips64el,mipsel,powerpc,ppc64,s390,s390x,x32 gcj-jdk deb java optional arch=any gcj-jre deb java optional arch=any gcj-jre-headless deb java optional arch=any gdc deb devel optional arch=any gfortran deb devel optional arch=any gfortran-multilib deb devel optional arch=amd64,i386,kfreebsd-amd64,mips,mips64,mips64el,mipsel,powerpc,ppc64,s390,s390x,sparc,sparc64,x32 gobjc deb devel optional arch=any gobjc++ deb devel optional arch=any gobjc++-multilib deb devel optional arch=amd64,i386,kfreebsd-amd64,mips,mipsel,mips64,mips64el,powerpc,ppc64,s390,s390x,sparc,sparc64,x32 gobjc-multilib deb devel optional arch=amd64,i386,kfreebsd-amd64,mips,mips64,mips64el,mipsel,powerpc,ppc64,s390,s390x,sparc,sparc64,x32 libgcj-bc deb java optional arch=any libgcj-common deb java optional arch=all libphobos-dev deb libdevel optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Python-Version": [
-    "all"
-  ],
-  "Section": [
-    "devel"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Matthias Klose <doko@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://svn.debian.org/viewsvn/gcccvs/branches/sid/gcc-defaults"
-  ],
-  "Vcs-Svn": [
-    "svn://svn.debian.org/svn/gcccvs/branches/sid/gcc-defaults"
-  ],
-  "Version": [
-    "1.136"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"cpp, g++, g++-multilib, gobjc, gobjc-multilib, gobjc++, gobjc++-multilib, gfortran, gfortran-multilib, gccgo, gccgo-multilib, libgcj-common, libgcj-bc, gcj-jdk, gcj-jre-headless, gcj-jre, gcc, gcc-multilib, gdc, libphobos-dev"
+	],
+	"Build-Depends": [
+		"m4, debhelper (>= 5), dpkg-dev (>= 1.17.11), gcc-4.9-base (>= 4.9.2-1~), lsb-release"
+	],
+	"Build-Depends-Indep": [
+		"ca-certificates, gcj-jdk, python (>= 2.6.6)"
+	],
+	"Checksums-Sha1": [
+		"133581f7ab4429efeb168f34d9da85fd2e7c31a7 3255 gcc-defaults_1.136.dsc ac2c34cea3c1a24b23d9f31df83a8852155df0e0 64341 gcc-defaults_1.136.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"5ac9089c83ce76445a7b3dcb546460e85352bce22fa0ce26fc26c1a8812d484a 3255 gcc-defaults_1.136.dsc 7146bd9f988928c0c9e765677d9997edec7bd23472306dbec9be54bdaa21e558 64341 gcc-defaults_1.136.tar.gz"
+	],
+	"Directory": [
+		"pool/main/g/gcc-defaults"
+	],
+	"Files": [
+		"2b78f86dc394eb2cde019918e24c39f6 3255 gcc-defaults_1.136.dsc cb01ba8d76bf784fbe851482e21c7026 64341 gcc-defaults_1.136.tar.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Maintainer": [
+		"Debian GCC Maintainers <debian-gcc@lists.debian.org>"
+	],
+	"Package": [
+		"gcc-defaults"
+	],
+	"Package-List": [
+		"cpp deb interpreters optional arch=any g++ deb devel optional arch=any g++-multilib deb devel optional arch=amd64,i386,kfreebsd-amd64,mips,mips64,mips64el,mipsel,powerpc,ppc64,s390,s390x,sparc,sparc64,x32 gcc deb devel optional arch=any gcc-multilib deb devel optional arch=amd64,i386,kfreebsd-amd64,mips,mips64,mips64el,mipsel,powerpc,ppc64,s390,s390x,s390x,sparc,sparc64,x32 gccgo deb devel optional arch=any gccgo-multilib deb devel optional arch=amd64,i386,mips,mips64,mips64el,mipsel,powerpc,ppc64,s390,s390x,x32 gcj-jdk deb java optional arch=any gcj-jre deb java optional arch=any gcj-jre-headless deb java optional arch=any gdc deb devel optional arch=any gfortran deb devel optional arch=any gfortran-multilib deb devel optional arch=amd64,i386,kfreebsd-amd64,mips,mips64,mips64el,mipsel,powerpc,ppc64,s390,s390x,sparc,sparc64,x32 gobjc deb devel optional arch=any gobjc++ deb devel optional arch=any gobjc++-multilib deb devel optional arch=amd64,i386,kfreebsd-amd64,mips,mipsel,mips64,mips64el,powerpc,ppc64,s390,s390x,sparc,sparc64,x32 gobjc-multilib deb devel optional arch=amd64,i386,kfreebsd-amd64,mips,mips64,mips64el,mipsel,powerpc,ppc64,s390,s390x,sparc,sparc64,x32 libgcj-bc deb java optional arch=any libgcj-common deb java optional arch=all libphobos-dev deb libdevel optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Python-Version": [
+		"all"
+	],
+	"Section": [
+		"devel"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Matthias Klose <doko@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://svn.debian.org/viewsvn/gcccvs/branches/sid/gcc-defaults"
+	],
+	"Vcs-Svn": [
+		"svn://svn.debian.org/svn/gcccvs/branches/sid/gcc-defaults"
+	],
+	"Version": [
+		"1.136"
+	]
 }

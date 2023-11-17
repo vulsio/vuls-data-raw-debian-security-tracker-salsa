@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-glib-macros-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-heck-0.4+default-dev <!nocheck>, librust-proc-macro-crate-1+default-dev <!nocheck>, librust-proc-macro-error-1+default-dev <!nocheck>, librust-proc-macro2-1+default-dev <!nocheck>, librust-quote-1+default-dev <!nocheck>, librust-syn-2+default-dev <!nocheck>, librust-syn-2+full-dev <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "171c76262e6c5a7e0345da08c34308a78f9e240ed58451f3ec9b7c4d9b5ba0d3 2616 rust-glib-macros_0.18.2-1.dsc f8da903822b136d42360518653fcf154455defc437d3e7a81475bf9a95ff1e47 50855 rust-glib-macros_0.18.2.orig.tar.gz 5f8eed35f9040035f1d3de6db766bda1c9ab16bf9e7f216a3bf5b6eada4e5e3a 3024 rust-glib-macros_0.18.2-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-glib-macros"
-  ],
-  "Files": [
-    "04a85f51292cb593d66e74fd7b366574 2616 rust-glib-macros_0.18.2-1.dsc f967f7d2bc06063369152253fd9ec81c 50855 rust-glib-macros_0.18.2.orig.tar.gz 4c699db27c136147b00cd778c9cd7d48 3024 rust-glib-macros_0.18.2-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://gtk-rs.org/"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-glib-macros"
-  ],
-  "Package-List": [
-    "librust-glib-macros-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-glib-0.18+default-dev, librust-once-cell-1+default-dev, librust-trybuild2-1+default-dev"
-  ],
-  "Uploaders": [
-    "Matthias Geiger <werdahias@riseup.net>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/glib-macros"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/glib-macros]"
-  ],
-  "Version": [
-    "0.18.2-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-glib-macros-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-heck-0.4+default-dev <!nocheck>, librust-proc-macro-crate-1+default-dev <!nocheck>, librust-proc-macro-error-1+default-dev <!nocheck>, librust-proc-macro2-1+default-dev <!nocheck>, librust-quote-1+default-dev <!nocheck>, librust-syn-2+default-dev <!nocheck>, librust-syn-2+full-dev <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"171c76262e6c5a7e0345da08c34308a78f9e240ed58451f3ec9b7c4d9b5ba0d3 2616 rust-glib-macros_0.18.2-1.dsc f8da903822b136d42360518653fcf154455defc437d3e7a81475bf9a95ff1e47 50855 rust-glib-macros_0.18.2.orig.tar.gz 5f8eed35f9040035f1d3de6db766bda1c9ab16bf9e7f216a3bf5b6eada4e5e3a 3024 rust-glib-macros_0.18.2-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-glib-macros"
+	],
+	"Files": [
+		"04a85f51292cb593d66e74fd7b366574 2616 rust-glib-macros_0.18.2-1.dsc f967f7d2bc06063369152253fd9ec81c 50855 rust-glib-macros_0.18.2.orig.tar.gz 4c699db27c136147b00cd778c9cd7d48 3024 rust-glib-macros_0.18.2-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://gtk-rs.org/"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-glib-macros"
+	],
+	"Package-List": [
+		"librust-glib-macros-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-glib-0.18+default-dev, librust-once-cell-1+default-dev, librust-trybuild2-1+default-dev"
+	],
+	"Uploaders": [
+		"Matthias Geiger <werdahias@riseup.net>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/glib-macros"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/glib-macros]"
+	],
+	"Version": [
+		"0.18.2-1"
+	]
 }

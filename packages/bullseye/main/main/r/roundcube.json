@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "roundcube-core, roundcube, roundcube-mysql, roundcube-pgsql, roundcube-sqlite3, roundcube-plugins"
-  ],
-  "Build-Depends": [
-    "cleancss, debhelper-compat (= 13), dh-buildinfo, node-less (>= 3.0.0~), php-intl <!nocheck>, php-masterminds-html5 <!nocheck>, php-mbstring, phpunit (>= 9~) <!nocheck>, pigz, pkg-php-tools, po-debconf, uglifyjs (>= 3)"
-  ],
-  "Checksums-Sha256": [
-    "eb664fd1a08be44630c25cbfe897b087a4b1e8c3d72da407c0fb7fd797f8be2e 3273 roundcube_1.4.14+dfsg.1-1~deb11u1.dsc 652859555790d44159521c22ea9d43eb8a05b5eb4728760ba6ea02676ea9ad06 128856 roundcube_1.4.14+dfsg.1.orig-tinymce-langs.tar.xz 570038d21a89986e238582359a8d864bdd13e3fc47e322c88a9d0dc0f29baf01 889132 roundcube_1.4.14+dfsg.1.orig-tinymce.tar.xz 116f5129984fc38d1441e475a42896470e105db8c8e1092a963133643f7925e0 2976108 roundcube_1.4.14+dfsg.1.orig.tar.xz b03d8140e3f7f96eae5b0d73f4c5a19cffc8584ce46035068889433e6c5fdc65 94968 roundcube_1.4.14+dfsg.1-1~deb11u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/roundcube"
-  ],
-  "Files": [
-    "ce4e93c339a78d6d2585ad3549c1e3d9 3273 roundcube_1.4.14+dfsg.1-1~deb11u1.dsc 1cd21dbf082a39086f80035274ae0505 128856 roundcube_1.4.14+dfsg.1.orig-tinymce-langs.tar.xz 0bed51c23db9c8bb84b56a9403acf47d 889132 roundcube_1.4.14+dfsg.1.orig-tinymce.tar.xz b12f36a36d6fa76a9644878d7482b1de 2976108 roundcube_1.4.14+dfsg.1.orig.tar.xz c8144dce52d1c3b4a110f5d3c60d5380 94968 roundcube_1.4.14+dfsg.1-1~deb11u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.roundcube.net/"
-  ],
-  "Maintainer": [
-    "Debian Roundcube Maintainers <pkg-roundcube-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "roundcube"
-  ],
-  "Package-List": [
-    "roundcube deb web optional arch=all roundcube-core deb web optional arch=all roundcube-mysql deb web optional arch=all roundcube-pgsql deb web optional arch=all roundcube-plugins deb web optional arch=all roundcube-sqlite3 deb web optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "web"
-  ],
-  "Standards-Version": [
-    "4.5.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "phpunit"
-  ],
-  "Uploaders": [
-    "Vincent Bernat <bernat@debian.org>, Sandro Knauß <hefee@debian.org>, Guilhem Moulin <guilhem@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/roundcube-team/roundcube"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/roundcube-team/roundcube.git -b debian/latest"
-  ],
-  "Version": [
-    "1.4.14+dfsg.1-1~deb11u1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"roundcube-core, roundcube, roundcube-mysql, roundcube-pgsql, roundcube-sqlite3, roundcube-plugins"
+	],
+	"Build-Depends": [
+		"cleancss, debhelper-compat (= 13), dh-buildinfo, node-less (>= 3.0.0~), php-intl <!nocheck>, php-masterminds-html5 <!nocheck>, php-mbstring, phpunit (>= 9~) <!nocheck>, pigz, pkg-php-tools, po-debconf, uglifyjs (>= 3)"
+	],
+	"Checksums-Sha256": [
+		"eb664fd1a08be44630c25cbfe897b087a4b1e8c3d72da407c0fb7fd797f8be2e 3273 roundcube_1.4.14+dfsg.1-1~deb11u1.dsc 652859555790d44159521c22ea9d43eb8a05b5eb4728760ba6ea02676ea9ad06 128856 roundcube_1.4.14+dfsg.1.orig-tinymce-langs.tar.xz 570038d21a89986e238582359a8d864bdd13e3fc47e322c88a9d0dc0f29baf01 889132 roundcube_1.4.14+dfsg.1.orig-tinymce.tar.xz 116f5129984fc38d1441e475a42896470e105db8c8e1092a963133643f7925e0 2976108 roundcube_1.4.14+dfsg.1.orig.tar.xz b03d8140e3f7f96eae5b0d73f4c5a19cffc8584ce46035068889433e6c5fdc65 94968 roundcube_1.4.14+dfsg.1-1~deb11u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/roundcube"
+	],
+	"Files": [
+		"ce4e93c339a78d6d2585ad3549c1e3d9 3273 roundcube_1.4.14+dfsg.1-1~deb11u1.dsc 1cd21dbf082a39086f80035274ae0505 128856 roundcube_1.4.14+dfsg.1.orig-tinymce-langs.tar.xz 0bed51c23db9c8bb84b56a9403acf47d 889132 roundcube_1.4.14+dfsg.1.orig-tinymce.tar.xz b12f36a36d6fa76a9644878d7482b1de 2976108 roundcube_1.4.14+dfsg.1.orig.tar.xz c8144dce52d1c3b4a110f5d3c60d5380 94968 roundcube_1.4.14+dfsg.1-1~deb11u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.roundcube.net/"
+	],
+	"Maintainer": [
+		"Debian Roundcube Maintainers <pkg-roundcube-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"roundcube"
+	],
+	"Package-List": [
+		"roundcube deb web optional arch=all roundcube-core deb web optional arch=all roundcube-mysql deb web optional arch=all roundcube-pgsql deb web optional arch=all roundcube-plugins deb web optional arch=all roundcube-sqlite3 deb web optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"web"
+	],
+	"Standards-Version": [
+		"4.5.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"phpunit"
+	],
+	"Uploaders": [
+		"Vincent Bernat <bernat@debian.org>, Sandro Knauß <hefee@debian.org>, Guilhem Moulin <guilhem@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/roundcube-team/roundcube"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/roundcube-team/roundcube.git -b debian/latest"
+	],
+	"Version": [
+		"1.4.14+dfsg.1-1~deb11u1"
+	]
 }

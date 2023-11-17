@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "collectd-core, collectd, collectd-utils, collectd-dbg, collectd-dev, libcollectdclient-dev, libcollectdclient1"
-  ],
-  "Build-Conflicts": [
-    "libhal-dev, libpthread-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 5), dpkg-dev (>= 1.14.10), po-debconf, dpatch, bison, flex, autotools-dev, libltdl-dev, pkg-config, iptables-dev (>= 1.4.3.2-2) [linux-any], javahelper, kfreebsd-kernel-headers [kfreebsd-any], libcurl4-gnutls-dev (>= 7.18.2-5) | libcurl4-gnutls-dev (<= 7.18.2-1) | libcurl3-gnutls-dev, libdbi0-dev, libesmtp-dev, libganglia1-dev (>= 3) [linux-any], libgcrypt11-dev, libglib2.0-dev, libkvm-dev [kfreebsd-any], liblvm2-dev [linux-any], libmemcached-dev, libmodbus-dev, libmnl-dev [linux-any], libmysqlclient-dev, libnotify-dev, libopenipmi-dev, liboping-dev (>= 0.3.3), libow-dev, libpcap0.8-dev | libpcap-dev, libperl-dev, libpq-dev, libprotobuf-c-dev, librabbitmq-dev, librrd-dev (>= 1.4~), libsensors4-dev [linux-any], libsnmp-dev (>= 5.4.2.1~dfsg-4~) | libsnmp-dev | libsnmp9-dev, libsnmp-dev (>= 5.4.2.1~dfsg-4~) | perl (<< 5.10.1~rc2-1~), libtokyocabinet-dev [linux-any], libtokyotyrant-dev [linux-any], libupsclient-dev | libupsclient1-dev, libvirt-dev (>= 0.4.0-6) [linux-any], libxml2-dev, libyajl-dev, linux-libc-dev (>= 2.6.25-4) [linux-any] | linux-libc-dev (<< 2.6.25-1) [linux-any], default-jdk [!hppa !sparc !kfreebsd-i386 !kfreebsd-amd64], protobuf-c-compiler, python-dev"
-  ],
-  "Checksums-Sha1": [
-    "98704c3a7cf59e643d8f48f3968e6395ca712989 3390 collectd_5.4.1-6+deb8u1.dsc faaccac4daf48449bcefc9d6f9236f98a5dd5b4b 1894132 collectd_5.4.1.orig.tar.gz 8f562d43cfa0d1c21e7016d3d5113359faf6e75c 86934 collectd_5.4.1-6+deb8u1.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "d0511d484ea28dc78407891cb583a99f906722c433a20fb5bccfe653beadc4d9 3390 collectd_5.4.1-6+deb8u1.dsc 853680936893df00bfc2be58f61ab9181fecb1cf45fc5cddcb7d25da98855f65 1894132 collectd_5.4.1.orig.tar.gz 086da0254961bc40a58a4455425048fe86faeb6ae7220935db228a814ad78f5e 86934 collectd_5.4.1-6+deb8u1.diff.gz"
-  ],
-  "Directory": [
-    "pool/main/c/collectd"
-  ],
-  "Files": [
-    "21a12fdc30dfd8285e6ff04b9b5b3ec2 3390 collectd_5.4.1-6+deb8u1.dsc 6514ab3f7fd2135d2713f1ab25068841 1894132 collectd_5.4.1.orig.tar.gz f45feb2fe33ffdc563503e89670918d8 86934 collectd_5.4.1-6+deb8u1.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Homepage": [
-    "http://collectd.org/"
-  ],
-  "Maintainer": [
-    "Sebastian Harl <tokkee@debian.org>"
-  ],
-  "Package": [
-    "collectd"
-  ],
-  "Package-List": [
-    "collectd deb utils optional arch=any collectd-core deb utils optional arch=any collectd-dbg deb debug extra arch=any collectd-dev deb utils optional arch=all collectd-utils deb utils optional arch=any libcollectdclient-dev deb libdevel optional arch=any libcollectdclient1 deb libs optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "utils"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Vcs-Browser": [
-    "http://git.tokkee.org/?p=pkg-collectd.git"
-  ],
-  "Vcs-Git": [
-    "git://git.tokkee.org/pkg-collectd.git"
-  ],
-  "Version": [
-    "5.4.1-6+deb8u1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"collectd-core, collectd, collectd-utils, collectd-dbg, collectd-dev, libcollectdclient-dev, libcollectdclient1"
+	],
+	"Build-Conflicts": [
+		"libhal-dev, libpthread-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 5), dpkg-dev (>= 1.14.10), po-debconf, dpatch, bison, flex, autotools-dev, libltdl-dev, pkg-config, iptables-dev (>= 1.4.3.2-2) [linux-any], javahelper, kfreebsd-kernel-headers [kfreebsd-any], libcurl4-gnutls-dev (>= 7.18.2-5) | libcurl4-gnutls-dev (<= 7.18.2-1) | libcurl3-gnutls-dev, libdbi0-dev, libesmtp-dev, libganglia1-dev (>= 3) [linux-any], libgcrypt11-dev, libglib2.0-dev, libkvm-dev [kfreebsd-any], liblvm2-dev [linux-any], libmemcached-dev, libmodbus-dev, libmnl-dev [linux-any], libmysqlclient-dev, libnotify-dev, libopenipmi-dev, liboping-dev (>= 0.3.3), libow-dev, libpcap0.8-dev | libpcap-dev, libperl-dev, libpq-dev, libprotobuf-c-dev, librabbitmq-dev, librrd-dev (>= 1.4~), libsensors4-dev [linux-any], libsnmp-dev (>= 5.4.2.1~dfsg-4~) | libsnmp-dev | libsnmp9-dev, libsnmp-dev (>= 5.4.2.1~dfsg-4~) | perl (<< 5.10.1~rc2-1~), libtokyocabinet-dev [linux-any], libtokyotyrant-dev [linux-any], libupsclient-dev | libupsclient1-dev, libvirt-dev (>= 0.4.0-6) [linux-any], libxml2-dev, libyajl-dev, linux-libc-dev (>= 2.6.25-4) [linux-any] | linux-libc-dev (<< 2.6.25-1) [linux-any], default-jdk [!hppa !sparc !kfreebsd-i386 !kfreebsd-amd64], protobuf-c-compiler, python-dev"
+	],
+	"Checksums-Sha1": [
+		"98704c3a7cf59e643d8f48f3968e6395ca712989 3390 collectd_5.4.1-6+deb8u1.dsc faaccac4daf48449bcefc9d6f9236f98a5dd5b4b 1894132 collectd_5.4.1.orig.tar.gz 8f562d43cfa0d1c21e7016d3d5113359faf6e75c 86934 collectd_5.4.1-6+deb8u1.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"d0511d484ea28dc78407891cb583a99f906722c433a20fb5bccfe653beadc4d9 3390 collectd_5.4.1-6+deb8u1.dsc 853680936893df00bfc2be58f61ab9181fecb1cf45fc5cddcb7d25da98855f65 1894132 collectd_5.4.1.orig.tar.gz 086da0254961bc40a58a4455425048fe86faeb6ae7220935db228a814ad78f5e 86934 collectd_5.4.1-6+deb8u1.diff.gz"
+	],
+	"Directory": [
+		"pool/main/c/collectd"
+	],
+	"Files": [
+		"21a12fdc30dfd8285e6ff04b9b5b3ec2 3390 collectd_5.4.1-6+deb8u1.dsc 6514ab3f7fd2135d2713f1ab25068841 1894132 collectd_5.4.1.orig.tar.gz f45feb2fe33ffdc563503e89670918d8 86934 collectd_5.4.1-6+deb8u1.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Homepage": [
+		"http://collectd.org/"
+	],
+	"Maintainer": [
+		"Sebastian Harl <tokkee@debian.org>"
+	],
+	"Package": [
+		"collectd"
+	],
+	"Package-List": [
+		"collectd deb utils optional arch=any collectd-core deb utils optional arch=any collectd-dbg deb debug extra arch=any collectd-dev deb utils optional arch=all collectd-utils deb utils optional arch=any libcollectdclient-dev deb libdevel optional arch=any libcollectdclient1 deb libs optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"utils"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Vcs-Browser": [
+		"http://git.tokkee.org/?p=pkg-collectd.git"
+	],
+	"Vcs-Git": [
+		"git://git.tokkee.org/pkg-collectd.git"
+	],
+	"Version": [
+		"5.4.1-6+deb8u1"
+	]
 }

@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "mpc-ace, libace-6.2.8, libace-dev, libace-doc, libace-ssl-6.2.8, libace-ssl-dev, libace-rmcast-6.2.8, libace-rmcast-dev, libace-tmcast-6.2.8, libace-tmcast-dev, libace-htbp-6.2.8, libace-htbp-dev, libace-inet-6.2.8, libace-inet-dev, libace-inet-ssl-6.2.8, libace-inet-ssl-dev, ace-gperf, gperf-ace, libacexml-6.2.8, libacexml-dev, libace-xml-utils-6.2.8, libace-xml-utils-dev, libkokyu-6.2.8, libkokyu-dev, libace-qtreactor-6.2.8, libace-qtreactor-dev, libace-xtreactor-6.2.8, libace-xtreactor-dev, libace-tkreactor-6.2.8, libace-tkreactor-dev, libace-flreactor-6.2.8, libace-flreactor-dev, libace-foxreactor-6.2.8, libace-foxreactor-dev, ace-netsvcs, libnetsvcs-6.2.8, libnetsvcs-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dpkg-dev (>= 1.16.2), libssl-dev (>= 0.9.7d), libxt-dev (>= 4.3.0), libfltk1.1-dev (>= 1.1.4), libqt4-dev (>= 4.4~rc1-4), tk-dev (>= 8.5), libfox-1.6-dev, zlib1g-dev, libzzip-dev, liblzo2-dev, docbook-to-man, bzip2, libbz2-dev, libxerces-c-dev"
-  ],
-  "Build-Depends-Indep": [
-    "doxygen, graphviz"
-  ],
-  "Checksums-Sha1": [
-    "340794a7601fed6a5d281f997bf9adef6e7837f9 4045 ace_6.2.8+dfsg-1.dsc 2405e86b42d59d2e75dd0c4eb26c9272c6ee11ea 8495797 ace_6.2.8+dfsg.orig.tar.gz f4c54ab8738d0b259a88bc2c662e691969cb3347 38196 ace_6.2.8+dfsg-1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "fc9b7d179cc7e1300a9432e9b477bc6571276b8079af88d4a2a0d3acbbffd365 4045 ace_6.2.8+dfsg-1.dsc 4d294e29bb681ddb83c0b3fb0906b12889975d6d96ab22aaf0a88c43fd230935 8495797 ace_6.2.8+dfsg.orig.tar.gz cbdf8ebd80ce9e7826689b0c023afb661c26cb36d4dad4da0d2bb6940dc1063d 38196 ace_6.2.8+dfsg-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/a/ace"
-  ],
-  "Files": [
-    "a9ac8d1079ea11d1db0b0dd7124af870 4045 ace_6.2.8+dfsg-1.dsc baea5329e191e09fea1dbd515bd85d41 8495797 ace_6.2.8+dfsg.orig.tar.gz 19f0bb799954bfd3c9c61e8477251375 38196 ace_6.2.8+dfsg-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.dre.vanderbilt.edu/~schmidt/ACE.html"
-  ],
-  "Maintainer": [
-    "Debian ACE+TAO maintainers <pkg-ace-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "ace"
-  ],
-  "Package-List": [
-    "ace-gperf deb devel optional arch=any ace-netsvcs deb devel optional arch=any gperf-ace deb oldlibs extra arch=all libace-6.2.8 deb libs optional arch=any libace-dev deb libdevel optional arch=any libace-doc deb doc optional arch=all libace-flreactor-6.2.8 deb libs optional arch=any libace-flreactor-dev deb libdevel optional arch=any libace-foxreactor-6.2.8 deb libs optional arch=any libace-foxreactor-dev deb libdevel optional arch=any libace-htbp-6.2.8 deb libs optional arch=any libace-htbp-dev deb libdevel optional arch=any libace-inet-6.2.8 deb libs optional arch=any libace-inet-dev deb libdevel optional arch=any libace-inet-ssl-6.2.8 deb libs optional arch=any libace-inet-ssl-dev deb libdevel optional arch=any libace-qtreactor-6.2.8 deb libs optional arch=any libace-qtreactor-dev deb libdevel optional arch=any libace-rmcast-6.2.8 deb libs optional arch=any libace-rmcast-dev deb libdevel optional arch=any libace-ssl-6.2.8 deb libs optional arch=any libace-ssl-dev deb libdevel optional arch=any libace-tkreactor-6.2.8 deb libs optional arch=any libace-tkreactor-dev deb libdevel optional arch=any libace-tmcast-6.2.8 deb libs optional arch=any libace-tmcast-dev deb libdevel optional arch=any libace-xml-utils-6.2.8 deb libs optional arch=any libace-xml-utils-dev deb libdevel optional arch=any libace-xtreactor-6.2.8 deb libs optional arch=any libace-xtreactor-dev deb libdevel optional arch=any libacexml-6.2.8 deb libs optional arch=any libacexml-dev deb libdevel optional arch=any libkokyu-6.2.8 deb libs optional arch=any libkokyu-dev deb libdevel optional arch=any libnetsvcs-6.2.8 deb libs optional arch=any libnetsvcs-dev deb libdevel optional arch=any mpc-ace deb devel optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "devel"
-  ],
-  "Standards-Version": [
-    "3.9.5.0"
-  ],
-  "Uploaders": [
-    "Thomas Girard <thomas.g.girard@free.fr>, Pau Garcia i Quiles <pgquiles@elpauer.org>, Marek Brudka <mbrudka@aster.pl>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-ace/pkg-ace.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-ace/pkg-ace.git"
-  ],
-  "Version": [
-    "6.2.8+dfsg-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"mpc-ace, libace-6.2.8, libace-dev, libace-doc, libace-ssl-6.2.8, libace-ssl-dev, libace-rmcast-6.2.8, libace-rmcast-dev, libace-tmcast-6.2.8, libace-tmcast-dev, libace-htbp-6.2.8, libace-htbp-dev, libace-inet-6.2.8, libace-inet-dev, libace-inet-ssl-6.2.8, libace-inet-ssl-dev, ace-gperf, gperf-ace, libacexml-6.2.8, libacexml-dev, libace-xml-utils-6.2.8, libace-xml-utils-dev, libkokyu-6.2.8, libkokyu-dev, libace-qtreactor-6.2.8, libace-qtreactor-dev, libace-xtreactor-6.2.8, libace-xtreactor-dev, libace-tkreactor-6.2.8, libace-tkreactor-dev, libace-flreactor-6.2.8, libace-flreactor-dev, libace-foxreactor-6.2.8, libace-foxreactor-dev, ace-netsvcs, libnetsvcs-6.2.8, libnetsvcs-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dpkg-dev (>= 1.16.2), libssl-dev (>= 0.9.7d), libxt-dev (>= 4.3.0), libfltk1.1-dev (>= 1.1.4), libqt4-dev (>= 4.4~rc1-4), tk-dev (>= 8.5), libfox-1.6-dev, zlib1g-dev, libzzip-dev, liblzo2-dev, docbook-to-man, bzip2, libbz2-dev, libxerces-c-dev"
+	],
+	"Build-Depends-Indep": [
+		"doxygen, graphviz"
+	],
+	"Checksums-Sha1": [
+		"340794a7601fed6a5d281f997bf9adef6e7837f9 4045 ace_6.2.8+dfsg-1.dsc 2405e86b42d59d2e75dd0c4eb26c9272c6ee11ea 8495797 ace_6.2.8+dfsg.orig.tar.gz f4c54ab8738d0b259a88bc2c662e691969cb3347 38196 ace_6.2.8+dfsg-1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"fc9b7d179cc7e1300a9432e9b477bc6571276b8079af88d4a2a0d3acbbffd365 4045 ace_6.2.8+dfsg-1.dsc 4d294e29bb681ddb83c0b3fb0906b12889975d6d96ab22aaf0a88c43fd230935 8495797 ace_6.2.8+dfsg.orig.tar.gz cbdf8ebd80ce9e7826689b0c023afb661c26cb36d4dad4da0d2bb6940dc1063d 38196 ace_6.2.8+dfsg-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/a/ace"
+	],
+	"Files": [
+		"a9ac8d1079ea11d1db0b0dd7124af870 4045 ace_6.2.8+dfsg-1.dsc baea5329e191e09fea1dbd515bd85d41 8495797 ace_6.2.8+dfsg.orig.tar.gz 19f0bb799954bfd3c9c61e8477251375 38196 ace_6.2.8+dfsg-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.dre.vanderbilt.edu/~schmidt/ACE.html"
+	],
+	"Maintainer": [
+		"Debian ACE+TAO maintainers <pkg-ace-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"ace"
+	],
+	"Package-List": [
+		"ace-gperf deb devel optional arch=any ace-netsvcs deb devel optional arch=any gperf-ace deb oldlibs extra arch=all libace-6.2.8 deb libs optional arch=any libace-dev deb libdevel optional arch=any libace-doc deb doc optional arch=all libace-flreactor-6.2.8 deb libs optional arch=any libace-flreactor-dev deb libdevel optional arch=any libace-foxreactor-6.2.8 deb libs optional arch=any libace-foxreactor-dev deb libdevel optional arch=any libace-htbp-6.2.8 deb libs optional arch=any libace-htbp-dev deb libdevel optional arch=any libace-inet-6.2.8 deb libs optional arch=any libace-inet-dev deb libdevel optional arch=any libace-inet-ssl-6.2.8 deb libs optional arch=any libace-inet-ssl-dev deb libdevel optional arch=any libace-qtreactor-6.2.8 deb libs optional arch=any libace-qtreactor-dev deb libdevel optional arch=any libace-rmcast-6.2.8 deb libs optional arch=any libace-rmcast-dev deb libdevel optional arch=any libace-ssl-6.2.8 deb libs optional arch=any libace-ssl-dev deb libdevel optional arch=any libace-tkreactor-6.2.8 deb libs optional arch=any libace-tkreactor-dev deb libdevel optional arch=any libace-tmcast-6.2.8 deb libs optional arch=any libace-tmcast-dev deb libdevel optional arch=any libace-xml-utils-6.2.8 deb libs optional arch=any libace-xml-utils-dev deb libdevel optional arch=any libace-xtreactor-6.2.8 deb libs optional arch=any libace-xtreactor-dev deb libdevel optional arch=any libacexml-6.2.8 deb libs optional arch=any libacexml-dev deb libdevel optional arch=any libkokyu-6.2.8 deb libs optional arch=any libkokyu-dev deb libdevel optional arch=any libnetsvcs-6.2.8 deb libs optional arch=any libnetsvcs-dev deb libdevel optional arch=any mpc-ace deb devel optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"devel"
+	],
+	"Standards-Version": [
+		"3.9.5.0"
+	],
+	"Uploaders": [
+		"Thomas Girard <thomas.g.girard@free.fr>, Pau Garcia i Quiles <pgquiles@elpauer.org>, Marek Brudka <mbrudka@aster.pl>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-ace/pkg-ace.git;a=summary"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-ace/pkg-ace.git"
+	],
+	"Version": [
+		"6.2.8+dfsg-1"
+	]
 }

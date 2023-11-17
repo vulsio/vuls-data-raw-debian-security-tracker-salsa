@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "erlang-base, erlang-base-hipe, erlang-appmon, erlang-asn1, erlang-common-test, erlang-corba, erlang-crypto, erlang-debugger, erlang-dialyzer, erlang-doc, erlang-docbuilder, erlang-edoc, erlang-erl-docgen, erlang-et, erlang-eunit, erlang-gs, erlang-ic, erlang-ic-java, erlang-inets, erlang-inviso, erlang-manpages, erlang-megaco, erlang-mnesia, erlang-observer, erlang-odbc, erlang-os-mon, erlang-parsetools, erlang-percept, erlang-pman, erlang-public-key, erlang-reltool, erlang-runtime-tools, erlang-snmp, erlang-ssh, erlang-ssl, erlang-syntax-tools, erlang-test-server, erlang-toolbar, erlang-tools, erlang-tv, erlang-typer, erlang-webtool, erlang-wx, erlang-xmerl, erlang-dev, erlang-src, erlang-examples, erlang-jinterface, erlang-mode, erlang-nox, erlang-x11, erlang"
-  ],
-  "Build-Conflicts": [
-    "autoconf2.13, libwxgtk2.4-dev, libwxgtk2.6-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 5.0.0), autoconf (>= 2.50), openssl, libssl-dev, m4, libncurses5-dev, quilt, autotools-dev, unixodbc-dev, bison, flex, libwxgtk2.8-dev, dctrl-tools, xsltproc, libgl1-mesa-dev | libgl-dev, libglu1-mesa-dev | libglu-dev, libsctp-dev [!hurd-i386 !kfreebsd-i386 !kfreebsd-amd64 !solaris-i386], kfreebsd-kernel-headers [kfreebsd-i386 kfreebsd-amd64]"
-  ],
-  "Build-Depends-Indep": [
-    "fop, default-jdk | sun-java6-jdk"
-  ],
-  "Checksums-Sha1": [
-    "759be8bd607aeaf8325d08277c52f4d5e047e363 2460 erlang_14.a-dfsg-3squeeze1.dsc a3a1d380ec6d39266356b4153f95cfe1bef92b80 29010286 erlang_14.a-dfsg.orig.tar.gz e1c5ec79a4cecd4cc6fd7271f4e527bcdc2f20ad 76827 erlang_14.a-dfsg-3squeeze1.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "ac2257b84a1699ca2fbd909569957e26f8340839699fc3a55e998a50070d6bd3 2460 erlang_14.a-dfsg-3squeeze1.dsc e74317974e19365d12bd240362feb6858a4b26c37d4c6356e569e18c1714f17d 29010286 erlang_14.a-dfsg.orig.tar.gz 8e056c0932f1d707efc5351a73df08a74bc966c023a32511c95f765e4e3a3a03 76827 erlang_14.a-dfsg-3squeeze1.diff.gz"
-  ],
-  "Directory": [
-    "pool/main/e/erlang"
-  ],
-  "Files": [
-    "4c4af722f342c2b0f19cbf1640fa8087 2460 erlang_14.a-dfsg-3squeeze1.dsc 057a4dc7275bb958f0fd1976ab75a5e8 29010286 erlang_14.a-dfsg.orig.tar.gz 5e68238abfe5e2eef192d9525b8d63d7 76827 erlang_14.a-dfsg-3squeeze1.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Homepage": [
-    "http://www.erlang.org/"
-  ],
-  "Maintainer": [
-    "Debian Erlang Packagers <pkg-erlang-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "erlang"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "interpreters"
-  ],
-  "Standards-Version": [
-    "3.9.1"
-  ],
-  "Uploaders": [
-    "Sergei Golovan <sgolovan@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://svn.debian.org/wsvn/pkg-erlang/erlang/trunk/"
-  ],
-  "Vcs-Svn": [
-    "svn://svn.debian.org/svn/pkg-erlang/erlang/trunk/"
-  ],
-  "Version": [
-    "1:14.a-dfsg-3squeeze1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"erlang-base, erlang-base-hipe, erlang-appmon, erlang-asn1, erlang-common-test, erlang-corba, erlang-crypto, erlang-debugger, erlang-dialyzer, erlang-doc, erlang-docbuilder, erlang-edoc, erlang-erl-docgen, erlang-et, erlang-eunit, erlang-gs, erlang-ic, erlang-ic-java, erlang-inets, erlang-inviso, erlang-manpages, erlang-megaco, erlang-mnesia, erlang-observer, erlang-odbc, erlang-os-mon, erlang-parsetools, erlang-percept, erlang-pman, erlang-public-key, erlang-reltool, erlang-runtime-tools, erlang-snmp, erlang-ssh, erlang-ssl, erlang-syntax-tools, erlang-test-server, erlang-toolbar, erlang-tools, erlang-tv, erlang-typer, erlang-webtool, erlang-wx, erlang-xmerl, erlang-dev, erlang-src, erlang-examples, erlang-jinterface, erlang-mode, erlang-nox, erlang-x11, erlang"
+	],
+	"Build-Conflicts": [
+		"autoconf2.13, libwxgtk2.4-dev, libwxgtk2.6-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 5.0.0), autoconf (>= 2.50), openssl, libssl-dev, m4, libncurses5-dev, quilt, autotools-dev, unixodbc-dev, bison, flex, libwxgtk2.8-dev, dctrl-tools, xsltproc, libgl1-mesa-dev | libgl-dev, libglu1-mesa-dev | libglu-dev, libsctp-dev [!hurd-i386 !kfreebsd-i386 !kfreebsd-amd64 !solaris-i386], kfreebsd-kernel-headers [kfreebsd-i386 kfreebsd-amd64]"
+	],
+	"Build-Depends-Indep": [
+		"fop, default-jdk | sun-java6-jdk"
+	],
+	"Checksums-Sha1": [
+		"759be8bd607aeaf8325d08277c52f4d5e047e363 2460 erlang_14.a-dfsg-3squeeze1.dsc a3a1d380ec6d39266356b4153f95cfe1bef92b80 29010286 erlang_14.a-dfsg.orig.tar.gz e1c5ec79a4cecd4cc6fd7271f4e527bcdc2f20ad 76827 erlang_14.a-dfsg-3squeeze1.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"ac2257b84a1699ca2fbd909569957e26f8340839699fc3a55e998a50070d6bd3 2460 erlang_14.a-dfsg-3squeeze1.dsc e74317974e19365d12bd240362feb6858a4b26c37d4c6356e569e18c1714f17d 29010286 erlang_14.a-dfsg.orig.tar.gz 8e056c0932f1d707efc5351a73df08a74bc966c023a32511c95f765e4e3a3a03 76827 erlang_14.a-dfsg-3squeeze1.diff.gz"
+	],
+	"Directory": [
+		"pool/main/e/erlang"
+	],
+	"Files": [
+		"4c4af722f342c2b0f19cbf1640fa8087 2460 erlang_14.a-dfsg-3squeeze1.dsc 057a4dc7275bb958f0fd1976ab75a5e8 29010286 erlang_14.a-dfsg.orig.tar.gz 5e68238abfe5e2eef192d9525b8d63d7 76827 erlang_14.a-dfsg-3squeeze1.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Homepage": [
+		"http://www.erlang.org/"
+	],
+	"Maintainer": [
+		"Debian Erlang Packagers <pkg-erlang-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"erlang"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"interpreters"
+	],
+	"Standards-Version": [
+		"3.9.1"
+	],
+	"Uploaders": [
+		"Sergei Golovan <sgolovan@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://svn.debian.org/wsvn/pkg-erlang/erlang/trunk/"
+	],
+	"Vcs-Svn": [
+		"svn://svn.debian.org/svn/pkg-erlang/erlang/trunk/"
+	],
+	"Version": [
+		"1:14.a-dfsg-3squeeze1"
+	]
 }

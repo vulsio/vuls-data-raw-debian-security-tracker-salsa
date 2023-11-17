@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-tempest, python3-tempest, tempest"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 10), dh-python, openstack-pkg-tools, python-all, python-pbr (>= 2.0.0), python-setuptools, python-sphinx (>= 1.6.2), python3-all, python3-pbr (>= 2.0.0), python3-setuptools"
-  ],
-  "Build-Depends-Indep": [
-    "git, python-cliff (>= 2.8.0), python-coverage, python-debtcollector (>= 1.2.0), python-fixtures, python-hacking, python-jsonschema (>= 2.6.0), python-mock, python-mysqldb, python-netaddr, python-openstackdocstheme (>= 1.17.0), python-os-testr (>= 1.0.0), python-oslo.concurrency (>= 3.26.0), python-oslo.config (>= 1:5.2.0), python-oslo.i18n, python-oslo.log (>= 3.36.0), python-oslo.serialization (>= 2.18.0), python-oslo.utils (>= 3.33.0), python-oslotest (>= 1:3.2.0), python-paramiko (>= 2.0.0), python-pep8, python-prettytable, python-psycopg2, python-six, python-stestr, python-stevedore (>= 1.20.0), python-swiftclient, python-testtools (>= 2.2.0), python-unittest2, python-urllib3 (>= 1.21.1), python-yaml, python3-cliff (>= 2.8.0), python3-coverage, python3-debtcollector (>= 1.2.0), python3-fixtures (>= 3.0.0), python3-hacking, python3-jsonschema (>= 2.6.0), python3-mock, python3-mysqldb, python3-netaddr, python3-os-testr (>= 1.0.0), python3-oslo.concurrency (>= 3.26.0), python3-oslo.config (>= 1:5.2.0), python3-oslo.log (>= 3.36.0), python3-oslo.serialization (>= 2.18.0), python3-oslo.utils (>= 3.33.0), python3-oslotest (>= 1:3.2.0), python3-paramiko (>= 2.0.0), python3-prettytable, python3-psycopg2, python3-six, python3-stestr, python3-stevedore (>= 1.20.0), python3-swiftclient, python3-testtools (>= 2.2.0), python3-unittest2, python3-urllib3 (>= 1.21.1), python3-yaml, subunit, testrepository"
-  ],
-  "Checksums-Sha256": [
-    "7da7f700cb5e7c45fdf37fb97493bdb05ef34fa056bb3311cb6dbc4d16440784 3722 tempest_19.0.0-2.dsc 539d74aed8a040b8e8444d266878876a8b3e0215c619e9d2ac8c0fa664cf7038 568968 tempest_19.0.0.orig.tar.xz 76e4b144b8c80bc14d45bdfd66629fd9111728ef0123f36b03a38578feb501de 7144 tempest_19.0.0-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/t/tempest"
-  ],
-  "Files": [
-    "cc8b1f6ef58b919ff12a6ae0f7be3cf4 3722 tempest_19.0.0-2.dsc 35c51cd85c8395686e20b81840a050e0 568968 tempest_19.0.0.orig.tar.xz 97efa39157b49dfcb0b2236724cfa566 7144 tempest_19.0.0-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/openstack/tempest"
-  ],
-  "Maintainer": [
-    "Debian OpenStack <team+openstack@tracker.debian.org>"
-  ],
-  "Package": [
-    "tempest"
-  ],
-  "Package-List": [
-    "python-tempest deb python optional arch=all python3-tempest deb python optional arch=all tempest deb python optional arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.1.0"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>, Corey Bryant <corey.bryant@canonical.com>, Michal Arbet <michal.arbet@ultimum.io>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/openstack-team/libs/tempest"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/openstack-team/libs/tempest.git"
-  ],
-  "Version": [
-    "1:19.0.0-2"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-tempest, python3-tempest, tempest"
+	],
+	"Build-Depends": [
+		"debhelper (>= 10), dh-python, openstack-pkg-tools, python-all, python-pbr (>= 2.0.0), python-setuptools, python-sphinx (>= 1.6.2), python3-all, python3-pbr (>= 2.0.0), python3-setuptools"
+	],
+	"Build-Depends-Indep": [
+		"git, python-cliff (>= 2.8.0), python-coverage, python-debtcollector (>= 1.2.0), python-fixtures, python-hacking, python-jsonschema (>= 2.6.0), python-mock, python-mysqldb, python-netaddr, python-openstackdocstheme (>= 1.17.0), python-os-testr (>= 1.0.0), python-oslo.concurrency (>= 3.26.0), python-oslo.config (>= 1:5.2.0), python-oslo.i18n, python-oslo.log (>= 3.36.0), python-oslo.serialization (>= 2.18.0), python-oslo.utils (>= 3.33.0), python-oslotest (>= 1:3.2.0), python-paramiko (>= 2.0.0), python-pep8, python-prettytable, python-psycopg2, python-six, python-stestr, python-stevedore (>= 1.20.0), python-swiftclient, python-testtools (>= 2.2.0), python-unittest2, python-urllib3 (>= 1.21.1), python-yaml, python3-cliff (>= 2.8.0), python3-coverage, python3-debtcollector (>= 1.2.0), python3-fixtures (>= 3.0.0), python3-hacking, python3-jsonschema (>= 2.6.0), python3-mock, python3-mysqldb, python3-netaddr, python3-os-testr (>= 1.0.0), python3-oslo.concurrency (>= 3.26.0), python3-oslo.config (>= 1:5.2.0), python3-oslo.log (>= 3.36.0), python3-oslo.serialization (>= 2.18.0), python3-oslo.utils (>= 3.33.0), python3-oslotest (>= 1:3.2.0), python3-paramiko (>= 2.0.0), python3-prettytable, python3-psycopg2, python3-six, python3-stestr, python3-stevedore (>= 1.20.0), python3-swiftclient, python3-testtools (>= 2.2.0), python3-unittest2, python3-urllib3 (>= 1.21.1), python3-yaml, subunit, testrepository"
+	],
+	"Checksums-Sha256": [
+		"7da7f700cb5e7c45fdf37fb97493bdb05ef34fa056bb3311cb6dbc4d16440784 3722 tempest_19.0.0-2.dsc 539d74aed8a040b8e8444d266878876a8b3e0215c619e9d2ac8c0fa664cf7038 568968 tempest_19.0.0.orig.tar.xz 76e4b144b8c80bc14d45bdfd66629fd9111728ef0123f36b03a38578feb501de 7144 tempest_19.0.0-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/t/tempest"
+	],
+	"Files": [
+		"cc8b1f6ef58b919ff12a6ae0f7be3cf4 3722 tempest_19.0.0-2.dsc 35c51cd85c8395686e20b81840a050e0 568968 tempest_19.0.0.orig.tar.xz 97efa39157b49dfcb0b2236724cfa566 7144 tempest_19.0.0-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/openstack/tempest"
+	],
+	"Maintainer": [
+		"Debian OpenStack <team+openstack@tracker.debian.org>"
+	],
+	"Package": [
+		"tempest"
+	],
+	"Package-List": [
+		"python-tempest deb python optional arch=all python3-tempest deb python optional arch=all tempest deb python optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.1.0"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>, Corey Bryant <corey.bryant@canonical.com>, Michal Arbet <michal.arbet@ultimum.io>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/openstack-team/libs/tempest"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/openstack-team/libs/tempest.git"
+	],
+	"Version": [
+		"1:19.0.0-2"
+	]
 }

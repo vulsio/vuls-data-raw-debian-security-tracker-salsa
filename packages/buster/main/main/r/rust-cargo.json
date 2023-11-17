@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-cargo-dev, librust-cargo+openssl-dev, librust-cargo+vendored-openssl-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 11), dh-cargo (>= 10), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-atty-0.2+default-dev <!nocheck>, librust-bytesize-1+default-dev <!nocheck>, librust-clap-2+default-dev (>= 2.31.2-~~) <!nocheck>, librust-core-foundation-0.6+default-dev <!nocheck>, librust-core-foundation-0.6+mac-os-10-7-support-dev <!nocheck>, librust-crates-io-0.20+default-dev <!nocheck>, librust-crossbeam-utils-0.5+default-dev <!nocheck>, librust-crypto-hash-0.3+default-dev (>= 0.3.1-~~) <!nocheck>, librust-curl-0.4+default-dev (>= 0.4.17-~~) <!nocheck>, librust-curl-0.4+http2-dev (>= 0.4.17-~~) <!nocheck>, librust-curl-sys-0.4+default-dev (>= 0.4.12-~~) <!nocheck>, librust-env-logger-0.6+default-dev <!nocheck> | librust-env-logger-0.5+default-dev <!nocheck>, librust-failure-0.1+default-dev (>= 0.1.2-~~) <!nocheck>, librust-filetime-0.2+default-dev <!nocheck>, librust-flate2-1+default-dev (>= 1.0.3-~~) <!nocheck>, librust-fs2-0.4+default-dev <!nocheck>, librust-fwdansi-1+default-dev <!nocheck>, librust-git2-0.7+default-dev (>= 0.7.5-~~) <!nocheck>, librust-git2-curl-0.8+default-dev (>= 0.8.1-~~) <!nocheck>, librust-glob-0.2+default-dev (>= 0.2.11-~~) <!nocheck>, librust-hex-0.3+default-dev <!nocheck>, librust-home-0.3+default-dev <!nocheck>, librust-ignore-0.4+default-dev <!nocheck>, librust-jobserver-0.1+default-dev (>= 0.1.11-~~) <!nocheck>, librust-lazy-static-1+default-dev <!nocheck>, librust-lazycell-1+default-dev (>= 1.2.0-~~) <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-libgit2-sys-0.7+default-dev (>= 0.7.9-~~) <!nocheck>, librust-log-0.4+default-dev <!nocheck>, librust-miow-0.3+default-dev (>= 0.3.1-~~) <!nocheck>, librust-num-cpus-1+default-dev <!nocheck>, librust-opener-0.3+default-dev <!nocheck>, librust-rustc-workspace-hack-1+default-dev <!nocheck>, librust-rustfix-0.4+default-dev (>= 0.4.2-~~) <!nocheck>, librust-same-file-1+default-dev <!nocheck>, librust-semver-0.9+default-dev <!nocheck>, librust-semver-0.9+serde-dev <!nocheck>, librust-serde-1+default-dev <!nocheck>, librust-serde-derive-1+default-dev <!nocheck>, librust-serde-ignored-0.0.4+default-dev <!nocheck>, librust-serde-json-1+default-dev (>= 1.0.30-~~) <!nocheck>, librust-serde-json-1+raw-value-dev (>= 1.0.30-~~) <!nocheck>, librust-shell-escape-0.1+default-dev (>= 0.1.4-~~) <!nocheck>, librust-tar-0.4-dev (>= 0.4.15-~~) <!nocheck>, librust-tempfile-3+default-dev <!nocheck>, librust-termcolor-1+default-dev <!nocheck>, librust-toml-0.4+default-dev (>= 0.4.2-~~) <!nocheck>, librust-unicode-width-0.1+default-dev (>= 0.1.5-~~) <!nocheck>, librust-url-1+default-dev (>= 1.1-~~) <!nocheck>, librust-winapi-0.3+basetsd-dev <!nocheck>, librust-winapi-0.3+default-dev <!nocheck>, librust-winapi-0.3+handleapi-dev <!nocheck>, librust-winapi-0.3+jobapi-dev <!nocheck>, librust-winapi-0.3+jobapi2-dev <!nocheck>, librust-winapi-0.3+memoryapi-dev <!nocheck>, librust-winapi-0.3+minwindef-dev <!nocheck>, librust-winapi-0.3+ntdef-dev <!nocheck>, librust-winapi-0.3+ntstatus-dev <!nocheck>, librust-winapi-0.3+processenv-dev <!nocheck>, librust-winapi-0.3+processthreadsapi-dev <!nocheck>, librust-winapi-0.3+psapi-dev <!nocheck>, librust-winapi-0.3+synchapi-dev <!nocheck>, librust-winapi-0.3+winbase-dev <!nocheck>, librust-winapi-0.3+wincon-dev <!nocheck>, librust-winapi-0.3+winerror-dev <!nocheck>, librust-winapi-0.3+winnt-dev <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "7a0b841f5af0cb81391fc3677d2a8dacac2155b9456498a6c76dfe7a4aba7b9c 4916 rust-cargo_0.32.0-2.dsc 399c966265f89b62ed12f662f51e7402c58820c86f9f1d3a9ee59a689c787d76 825669 rust-cargo_0.32.0.orig.tar.gz 794a6aea14f2988d7603153be5e71347f19f1827ff323dffa7710639e097a099 4060 rust-cargo_0.32.0-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-cargo"
-  ],
-  "Files": [
-    "84d24f2684f1e40d6ce207fab9a39306 4916 rust-cargo_0.32.0-2.dsc a733cd46f8e94e9d06f6cdd7db78a70f 825669 rust-cargo_0.32.0.orig.tar.gz 0d5e391e3329189ffbde57e2e08fbe39 4060 rust-cargo_0.32.0-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://crates.io"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-cargo"
-  ],
-  "Package-List": [
-    "librust-cargo+openssl-dev deb rust optional arch=any librust-cargo+vendored-openssl-dev deb rust optional arch=any librust-cargo-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.2.0"
-  ],
-  "Uploaders": [
-    "Ximin Luo <infinity0@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/cargo"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/cargo]"
-  ],
-  "Version": [
-    "0.32.0-2"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-cargo-dev, librust-cargo+openssl-dev, librust-cargo+vendored-openssl-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 11), dh-cargo (>= 10), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-atty-0.2+default-dev <!nocheck>, librust-bytesize-1+default-dev <!nocheck>, librust-clap-2+default-dev (>= 2.31.2-~~) <!nocheck>, librust-core-foundation-0.6+default-dev <!nocheck>, librust-core-foundation-0.6+mac-os-10-7-support-dev <!nocheck>, librust-crates-io-0.20+default-dev <!nocheck>, librust-crossbeam-utils-0.5+default-dev <!nocheck>, librust-crypto-hash-0.3+default-dev (>= 0.3.1-~~) <!nocheck>, librust-curl-0.4+default-dev (>= 0.4.17-~~) <!nocheck>, librust-curl-0.4+http2-dev (>= 0.4.17-~~) <!nocheck>, librust-curl-sys-0.4+default-dev (>= 0.4.12-~~) <!nocheck>, librust-env-logger-0.6+default-dev <!nocheck> | librust-env-logger-0.5+default-dev <!nocheck>, librust-failure-0.1+default-dev (>= 0.1.2-~~) <!nocheck>, librust-filetime-0.2+default-dev <!nocheck>, librust-flate2-1+default-dev (>= 1.0.3-~~) <!nocheck>, librust-fs2-0.4+default-dev <!nocheck>, librust-fwdansi-1+default-dev <!nocheck>, librust-git2-0.7+default-dev (>= 0.7.5-~~) <!nocheck>, librust-git2-curl-0.8+default-dev (>= 0.8.1-~~) <!nocheck>, librust-glob-0.2+default-dev (>= 0.2.11-~~) <!nocheck>, librust-hex-0.3+default-dev <!nocheck>, librust-home-0.3+default-dev <!nocheck>, librust-ignore-0.4+default-dev <!nocheck>, librust-jobserver-0.1+default-dev (>= 0.1.11-~~) <!nocheck>, librust-lazy-static-1+default-dev <!nocheck>, librust-lazycell-1+default-dev (>= 1.2.0-~~) <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-libgit2-sys-0.7+default-dev (>= 0.7.9-~~) <!nocheck>, librust-log-0.4+default-dev <!nocheck>, librust-miow-0.3+default-dev (>= 0.3.1-~~) <!nocheck>, librust-num-cpus-1+default-dev <!nocheck>, librust-opener-0.3+default-dev <!nocheck>, librust-rustc-workspace-hack-1+default-dev <!nocheck>, librust-rustfix-0.4+default-dev (>= 0.4.2-~~) <!nocheck>, librust-same-file-1+default-dev <!nocheck>, librust-semver-0.9+default-dev <!nocheck>, librust-semver-0.9+serde-dev <!nocheck>, librust-serde-1+default-dev <!nocheck>, librust-serde-derive-1+default-dev <!nocheck>, librust-serde-ignored-0.0.4+default-dev <!nocheck>, librust-serde-json-1+default-dev (>= 1.0.30-~~) <!nocheck>, librust-serde-json-1+raw-value-dev (>= 1.0.30-~~) <!nocheck>, librust-shell-escape-0.1+default-dev (>= 0.1.4-~~) <!nocheck>, librust-tar-0.4-dev (>= 0.4.15-~~) <!nocheck>, librust-tempfile-3+default-dev <!nocheck>, librust-termcolor-1+default-dev <!nocheck>, librust-toml-0.4+default-dev (>= 0.4.2-~~) <!nocheck>, librust-unicode-width-0.1+default-dev (>= 0.1.5-~~) <!nocheck>, librust-url-1+default-dev (>= 1.1-~~) <!nocheck>, librust-winapi-0.3+basetsd-dev <!nocheck>, librust-winapi-0.3+default-dev <!nocheck>, librust-winapi-0.3+handleapi-dev <!nocheck>, librust-winapi-0.3+jobapi-dev <!nocheck>, librust-winapi-0.3+jobapi2-dev <!nocheck>, librust-winapi-0.3+memoryapi-dev <!nocheck>, librust-winapi-0.3+minwindef-dev <!nocheck>, librust-winapi-0.3+ntdef-dev <!nocheck>, librust-winapi-0.3+ntstatus-dev <!nocheck>, librust-winapi-0.3+processenv-dev <!nocheck>, librust-winapi-0.3+processthreadsapi-dev <!nocheck>, librust-winapi-0.3+psapi-dev <!nocheck>, librust-winapi-0.3+synchapi-dev <!nocheck>, librust-winapi-0.3+winbase-dev <!nocheck>, librust-winapi-0.3+wincon-dev <!nocheck>, librust-winapi-0.3+winerror-dev <!nocheck>, librust-winapi-0.3+winnt-dev <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"7a0b841f5af0cb81391fc3677d2a8dacac2155b9456498a6c76dfe7a4aba7b9c 4916 rust-cargo_0.32.0-2.dsc 399c966265f89b62ed12f662f51e7402c58820c86f9f1d3a9ee59a689c787d76 825669 rust-cargo_0.32.0.orig.tar.gz 794a6aea14f2988d7603153be5e71347f19f1827ff323dffa7710639e097a099 4060 rust-cargo_0.32.0-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-cargo"
+	],
+	"Files": [
+		"84d24f2684f1e40d6ce207fab9a39306 4916 rust-cargo_0.32.0-2.dsc a733cd46f8e94e9d06f6cdd7db78a70f 825669 rust-cargo_0.32.0.orig.tar.gz 0d5e391e3329189ffbde57e2e08fbe39 4060 rust-cargo_0.32.0-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://crates.io"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-cargo"
+	],
+	"Package-List": [
+		"librust-cargo+openssl-dev deb rust optional arch=any librust-cargo+vendored-openssl-dev deb rust optional arch=any librust-cargo-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.2.0"
+	],
+	"Uploaders": [
+		"Ximin Luo <infinity0@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/cargo"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/cargo]"
+	],
+	"Version": [
+		"0.32.0-2"
+	]
 }

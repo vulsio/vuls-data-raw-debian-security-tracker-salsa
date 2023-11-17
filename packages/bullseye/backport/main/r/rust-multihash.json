@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-multihash-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 24), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-blake2b-simd-0.5-dev (>= 0.5.9-~~) <!nocheck>, librust-blake2s-simd-0.5-dev (>= 0.5.9-~~) <!nocheck>, librust-digest-0.9-dev <!nocheck>, librust-sha-1-0.9-dev <!nocheck>, librust-sha2-0.9-dev <!nocheck>, librust-sha3-0.9-dev <!nocheck>, librust-unsigned-varint-0.5+default-dev <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "d7971266de3cb7f92b30526904a25657fb43e658ef02144138387aee25cff17d 2560 rust-multihash_0.11.4-2~bpo11+1.dsc 567122ab6492f49b59def14ecc36e13e64dca4188196dd0cd41f9f3f979f3df6 15058 rust-multihash_0.11.4.orig.tar.gz 3c5528c19daae88c9284b6d6947d44f523e3e7b98566c3bb15a2e873627f5ee1 3012 rust-multihash_0.11.4-2~bpo11+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-multihash"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-multihash"
-  ],
-  "Package-List": [
-    "librust-multihash-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.5.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-criterion-0.3+default-dev, librust-hex-0.4+default-dev"
-  ],
-  "Uploaders": [
-    "Jochen Sprickerhof <jspricke@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/multihash"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/multihash]"
-  ],
-  "Version": [
-    "0.11.4-2~bpo11+1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-multihash-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 24), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-blake2b-simd-0.5-dev (>= 0.5.9-~~) <!nocheck>, librust-blake2s-simd-0.5-dev (>= 0.5.9-~~) <!nocheck>, librust-digest-0.9-dev <!nocheck>, librust-sha-1-0.9-dev <!nocheck>, librust-sha2-0.9-dev <!nocheck>, librust-sha3-0.9-dev <!nocheck>, librust-unsigned-varint-0.5+default-dev <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"d7971266de3cb7f92b30526904a25657fb43e658ef02144138387aee25cff17d 2560 rust-multihash_0.11.4-2~bpo11+1.dsc 567122ab6492f49b59def14ecc36e13e64dca4188196dd0cd41f9f3f979f3df6 15058 rust-multihash_0.11.4.orig.tar.gz 3c5528c19daae88c9284b6d6947d44f523e3e7b98566c3bb15a2e873627f5ee1 3012 rust-multihash_0.11.4-2~bpo11+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-multihash"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-multihash"
+	],
+	"Package-List": [
+		"librust-multihash-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-criterion-0.3+default-dev, librust-hex-0.4+default-dev"
+	],
+	"Uploaders": [
+		"Jochen Sprickerhof <jspricke@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/multihash"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/multihash]"
+	],
+	"Version": [
+		"0.11.4-2~bpo11+1"
+	]
 }

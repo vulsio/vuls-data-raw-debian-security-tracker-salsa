@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "amd64 arm64 armel armhf i386 mips64el ppc64el hppa hurd-i386 ia64 kfreebsd-amd64 kfreebsd-i386 riscv64 all"
-  ],
-  "Binary": [
-    "jellyfish, libjellyfish-2.0-2, libjellyfish-2.0-dev, python3-dna-jellyfish, libjellyfish-perl, jellyfish-examples"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), d-shlibs, autoconf-archive, yaggo, pkg-config, bc, time, procps, swig, python3-all-dev, dh-python, perl, chrpath, libhts-dev, dos2unix, samtools"
-  ],
-  "Checksums-Sha256": [
-    "77655075e577ecd95ab88fce2448ca13bbcbea324847ed9fde3597069f40995b 3224 jellyfish_2.3.0-16.dsc 29ead991de90151dbe4a2717f7ac30b3852296c9cbdda8b001121a1f2fa714db 679125 jellyfish_2.3.0.orig.tar.gz 3746ba6ef82f2a4596e0d81fbd8f54b7e5341f17d89288d6a1a2a5f263e05da1 15496 jellyfish_2.3.0-16.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/j/jellyfish"
-  ],
-  "Files": [
-    "638bd5e72143b0054ecb0f40f5076ac8 3224 jellyfish_2.3.0-16.dsc b447a26df0f1e11526129907a9b0acdb 679125 jellyfish_2.3.0.orig.tar.gz da514f92e8a2522597c3acc50e0fa8a1 15496 jellyfish_2.3.0-16.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/gmarcais/Jellyfish"
-  ],
-  "Maintainer": [
-    "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "jellyfish"
-  ],
-  "Package-List": [
-    "jellyfish deb science optional arch=amd64,arm64,armel,armhf,i386,mips64el,ppc64el,hppa,hurd-i386,ia64,kfreebsd-amd64,kfreebsd-i386,riscv64 jellyfish-examples deb science optional arch=all libjellyfish-2.0-2 deb libs optional arch=amd64,arm64,armel,armhf,i386,mips64el,ppc64el,hppa,hurd-i386,ia64,kfreebsd-amd64,kfreebsd-i386,riscv64 libjellyfish-2.0-dev deb libdevel optional arch=amd64,arm64,armel,armhf,i386,mips64el,ppc64el,hppa,hurd-i386,ia64,kfreebsd-amd64,kfreebsd-i386,riscv64 libjellyfish-perl deb perl optional arch=amd64,arm64,armel,armhf,i386,mips64el,ppc64el,hppa,hurd-i386,ia64,kfreebsd-amd64,kfreebsd-i386,riscv64 python3-dna-jellyfish deb python optional arch=amd64,arm64,armel,armhf,i386,mips64el,ppc64el,hppa,hurd-i386,ia64,kfreebsd-amd64,kfreebsd-i386,riscv64"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "science"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "@builddeps@"
-  ],
-  "Uploaders": [
-    "Shaun Jackman <sjackman@debian.org>, Andreas Tille <tille@debian.org>, Michael R. Crusoe <crusoe@debian.org>, Étienne Mollier <emollier@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/med-team/jellyfish"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/med-team/jellyfish.git"
-  ],
-  "Version": [
-    "2.3.0-16"
-  ]
+	"Architecture": [
+		"amd64 arm64 armel armhf i386 mips64el ppc64el hppa hurd-i386 ia64 kfreebsd-amd64 kfreebsd-i386 riscv64 all"
+	],
+	"Binary": [
+		"jellyfish, libjellyfish-2.0-2, libjellyfish-2.0-dev, python3-dna-jellyfish, libjellyfish-perl, jellyfish-examples"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), d-shlibs, autoconf-archive, yaggo, pkg-config, bc, time, procps, swig, python3-all-dev, dh-python, perl, chrpath, libhts-dev, dos2unix, samtools"
+	],
+	"Checksums-Sha256": [
+		"77655075e577ecd95ab88fce2448ca13bbcbea324847ed9fde3597069f40995b 3224 jellyfish_2.3.0-16.dsc 29ead991de90151dbe4a2717f7ac30b3852296c9cbdda8b001121a1f2fa714db 679125 jellyfish_2.3.0.orig.tar.gz 3746ba6ef82f2a4596e0d81fbd8f54b7e5341f17d89288d6a1a2a5f263e05da1 15496 jellyfish_2.3.0-16.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/j/jellyfish"
+	],
+	"Files": [
+		"638bd5e72143b0054ecb0f40f5076ac8 3224 jellyfish_2.3.0-16.dsc b447a26df0f1e11526129907a9b0acdb 679125 jellyfish_2.3.0.orig.tar.gz da514f92e8a2522597c3acc50e0fa8a1 15496 jellyfish_2.3.0-16.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/gmarcais/Jellyfish"
+	],
+	"Maintainer": [
+		"Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"jellyfish"
+	],
+	"Package-List": [
+		"jellyfish deb science optional arch=amd64,arm64,armel,armhf,i386,mips64el,ppc64el,hppa,hurd-i386,ia64,kfreebsd-amd64,kfreebsd-i386,riscv64 jellyfish-examples deb science optional arch=all libjellyfish-2.0-2 deb libs optional arch=amd64,arm64,armel,armhf,i386,mips64el,ppc64el,hppa,hurd-i386,ia64,kfreebsd-amd64,kfreebsd-i386,riscv64 libjellyfish-2.0-dev deb libdevel optional arch=amd64,arm64,armel,armhf,i386,mips64el,ppc64el,hppa,hurd-i386,ia64,kfreebsd-amd64,kfreebsd-i386,riscv64 libjellyfish-perl deb perl optional arch=amd64,arm64,armel,armhf,i386,mips64el,ppc64el,hppa,hurd-i386,ia64,kfreebsd-amd64,kfreebsd-i386,riscv64 python3-dna-jellyfish deb python optional arch=amd64,arm64,armel,armhf,i386,mips64el,ppc64el,hppa,hurd-i386,ia64,kfreebsd-amd64,kfreebsd-i386,riscv64"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"science"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"@builddeps@"
+	],
+	"Uploaders": [
+		"Shaun Jackman <sjackman@debian.org>, Andreas Tille <tille@debian.org>, Michael R. Crusoe <crusoe@debian.org>, Étienne Mollier <emollier@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/med-team/jellyfish"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/med-team/jellyfish.git"
+	],
+	"Version": [
+		"2.3.0-16"
+	]
 }

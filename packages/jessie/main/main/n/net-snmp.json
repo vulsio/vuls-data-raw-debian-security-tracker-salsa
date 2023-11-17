@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "snmpd, snmptrapd, snmp, libsnmp-base, libsnmp30, libsnmp30-dbg, libsnmp-dev, libsnmp-perl, python-netsnmp, tkmib"
-  ],
-  "Build-Conflicts": [
-    "libsnmp-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), libtool, libwrap0-dev, libssl-dev (>> 0.9.8), perl (>= 5.8), libperl-dev, python-all (>= 2.6.6-3~), python-setuptools (>= 0.6b3), python2.7-dev, autoconf, automake, autotools-dev, debianutils (>= 1.13.1), dh-autoreconf, bash (>= 2.05), findutils (>= 4.1.20), procps, libbsd-dev [kfreebsd-i386 kfreebsd-amd64], libkvm-dev [kfreebsd-i386 kfreebsd-amd64], libsensors4-dev [!hurd-i386 !kfreebsd-i386 !kfreebsd-amd64], libmysqld-dev, libpci-dev"
-  ],
-  "Checksums-Sha1": [
-    "5646a22f183e0a4daa8f19a5f149ae8049fd4eff 3074 net-snmp_5.7.2.1+dfsg-1+deb8u1.dsc 887dfc3c27770ba53740f9fe70907b3ab77b1cfe 3300532 net-snmp_5.7.2.1+dfsg.orig.tar.xz 280805902a13016ebf5a34a990dbd81aa0de2b9e 64408 net-snmp_5.7.2.1+dfsg-1+deb8u1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "08c453fde54873455b4310caa249535ba60096a6b2b8a422c0dc9ba182f2d9cc 3074 net-snmp_5.7.2.1+dfsg-1+deb8u1.dsc 0cea52558582a8e104d58c47e49cd967e6b78d8b086adc52bd0d195a8b5733e9 3300532 net-snmp_5.7.2.1+dfsg.orig.tar.xz 15b0b5940bf073ed327f45bdb857a2d3b55a9b38baddc533e5f8494509b4d198 64408 net-snmp_5.7.2.1+dfsg-1+deb8u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/n/net-snmp"
-  ],
-  "Files": [
-    "5da89abc608d270c9f356d3e21f7a70f 3074 net-snmp_5.7.2.1+dfsg-1+deb8u1.dsc 4f878c027f36aeab0118d10606fac8f1 3300532 net-snmp_5.7.2.1+dfsg.orig.tar.xz 2cb4794b1d4a8365f74e44062b5e068f 64408 net-snmp_5.7.2.1+dfsg-1+deb8u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://net-snmp.sourceforge.net/"
-  ],
-  "Maintainer": [
-    "Net-SNMP Packaging Team <pkg-net-snmp-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "net-snmp"
-  ],
-  "Package-List": [
-    "libsnmp-base deb libs optional arch=all libsnmp-dev deb libdevel optional arch=any libsnmp-perl deb perl optional arch=any libsnmp30 deb libs optional arch=any libsnmp30-dbg deb debug extra arch=any python-netsnmp deb python optional arch=any snmp deb net optional arch=any snmpd deb net optional arch=any snmptrapd deb net optional arch=any tkmib deb net optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Python-Version": [
-    "2.7"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Uploaders": [
-    "Jochen Friedrich <jochen@scram.de>, Thomas Anders <tanders@users.sourceforge.net>, Noah Meyerhans <noahm@debian.org>, Hideki Yamane <henrich@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-net-snmp/pkg-net-snmp.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-net-snmp/pkg-net-snmp.git"
-  ],
-  "Version": [
-    "5.7.2.1+dfsg-1+deb8u1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"snmpd, snmptrapd, snmp, libsnmp-base, libsnmp30, libsnmp30-dbg, libsnmp-dev, libsnmp-perl, python-netsnmp, tkmib"
+	],
+	"Build-Conflicts": [
+		"libsnmp-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), libtool, libwrap0-dev, libssl-dev (>> 0.9.8), perl (>= 5.8), libperl-dev, python-all (>= 2.6.6-3~), python-setuptools (>= 0.6b3), python2.7-dev, autoconf, automake, autotools-dev, debianutils (>= 1.13.1), dh-autoreconf, bash (>= 2.05), findutils (>= 4.1.20), procps, libbsd-dev [kfreebsd-i386 kfreebsd-amd64], libkvm-dev [kfreebsd-i386 kfreebsd-amd64], libsensors4-dev [!hurd-i386 !kfreebsd-i386 !kfreebsd-amd64], libmysqld-dev, libpci-dev"
+	],
+	"Checksums-Sha1": [
+		"5646a22f183e0a4daa8f19a5f149ae8049fd4eff 3074 net-snmp_5.7.2.1+dfsg-1+deb8u1.dsc 887dfc3c27770ba53740f9fe70907b3ab77b1cfe 3300532 net-snmp_5.7.2.1+dfsg.orig.tar.xz 280805902a13016ebf5a34a990dbd81aa0de2b9e 64408 net-snmp_5.7.2.1+dfsg-1+deb8u1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"08c453fde54873455b4310caa249535ba60096a6b2b8a422c0dc9ba182f2d9cc 3074 net-snmp_5.7.2.1+dfsg-1+deb8u1.dsc 0cea52558582a8e104d58c47e49cd967e6b78d8b086adc52bd0d195a8b5733e9 3300532 net-snmp_5.7.2.1+dfsg.orig.tar.xz 15b0b5940bf073ed327f45bdb857a2d3b55a9b38baddc533e5f8494509b4d198 64408 net-snmp_5.7.2.1+dfsg-1+deb8u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/n/net-snmp"
+	],
+	"Files": [
+		"5da89abc608d270c9f356d3e21f7a70f 3074 net-snmp_5.7.2.1+dfsg-1+deb8u1.dsc 4f878c027f36aeab0118d10606fac8f1 3300532 net-snmp_5.7.2.1+dfsg.orig.tar.xz 2cb4794b1d4a8365f74e44062b5e068f 64408 net-snmp_5.7.2.1+dfsg-1+deb8u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://net-snmp.sourceforge.net/"
+	],
+	"Maintainer": [
+		"Net-SNMP Packaging Team <pkg-net-snmp-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"net-snmp"
+	],
+	"Package-List": [
+		"libsnmp-base deb libs optional arch=all libsnmp-dev deb libdevel optional arch=any libsnmp-perl deb perl optional arch=any libsnmp30 deb libs optional arch=any libsnmp30-dbg deb debug extra arch=any python-netsnmp deb python optional arch=any snmp deb net optional arch=any snmpd deb net optional arch=any snmptrapd deb net optional arch=any tkmib deb net optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Python-Version": [
+		"2.7"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Uploaders": [
+		"Jochen Friedrich <jochen@scram.de>, Thomas Anders <tanders@users.sourceforge.net>, Noah Meyerhans <noahm@debian.org>, Hideki Yamane <henrich@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-net-snmp/pkg-net-snmp.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-net-snmp/pkg-net-snmp.git"
+	],
+	"Version": [
+		"5.7.2.1+dfsg-1+deb8u1"
+	]
 }

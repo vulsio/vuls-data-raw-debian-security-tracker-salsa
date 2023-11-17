@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libpq-dev, libpq5, libecpg6, libecpg-dev, libecpg-compat3, libpgtypes3, postgresql-9.1, postgresql-9.1-dbg, postgresql-client-9.1, postgresql-server-dev-9.1, postgresql-doc-9.1, postgresql-contrib-9.1, postgresql-plperl-9.1, postgresql-plpython-9.1, postgresql-plpython3-9.1, postgresql-pltcl-9.1"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 8~), dpkg-dev (>= 1.16.1~) | hardening-wrapper, perl (>= 5.8), libperl-dev, tcl8.5-dev, libedit-dev, libssl-dev, zlib1g-dev | libz-dev, libpam0g-dev | libpam-dev, libxml2-dev, libkrb5-dev, libldap2-dev, libxslt1-dev, libossp-uuid-dev, python-dev, python3-dev, bison, flex, openjade, docbook-dsssl, docbook-xsl, docbook, opensp, xsltproc, gettext"
-  ],
-  "Checksums-Sha1": [
-    "4220f855369ca254b31b4f4668e4ccc4f88a6f9d 3381 postgresql-9.1_9.1.24lts2-0+deb7u2.dsc d57e733d6302db8cef1d79e7f2015b75e605cdee 15809167 postgresql-9.1_9.1.24lts2.orig.tar.bz2 083473a382504b6f549c1b0c6f45f4efe2609783 56921 postgresql-9.1_9.1.24lts2-0+deb7u2.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "24737ee99b8d3ab6a856da553bbfdb09c4f8955bb5d668425e9309e059aa0753 3381 postgresql-9.1_9.1.24lts2-0+deb7u2.dsc b1db8299cfccb31d0d0396b9a00afd9610fdab8768d45f4749fd2faf60b3931f 15809167 postgresql-9.1_9.1.24lts2.orig.tar.bz2 cdeaba0681765e3c3609946a3231a3fe6de89f0a9fb2d5702e998faea854c906 56921 postgresql-9.1_9.1.24lts2-0+deb7u2.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/updates/main/p/postgresql-9.1"
-  ],
-  "Files": [
-    "1937cd54c5f358af34db45ab4d6b1ed0 3381 postgresql-9.1_9.1.24lts2-0+deb7u2.dsc 795d705296ee70010a44ade65cfcfc72 15809167 postgresql-9.1_9.1.24lts2.orig.tar.bz2 c3d371454784cd23c815f438828fde91 56921 postgresql-9.1_9.1.24lts2-0+deb7u2.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.postgresql.org/"
-  ],
-  "Maintainer": [
-    "Debian PostgreSQL Maintainers <pkg-postgresql-public@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "postgresql-9.1"
-  ],
-  "Package-List": [
-    "libecpg-compat3 deb libs optional libecpg-dev deb libdevel optional libecpg6 deb libs optional libpgtypes3 deb libs optional libpq-dev deb libdevel optional libpq5 deb libs optional postgresql-9.1 deb database optional postgresql-9.1-dbg deb debug extra postgresql-client-9.1 deb database optional postgresql-contrib-9.1 deb database optional postgresql-doc-9.1 deb doc optional postgresql-plperl-9.1 deb database optional postgresql-plpython-9.1 deb database optional postgresql-plpython3-9.1 deb database optional postgresql-pltcl-9.1 deb database optional postgresql-server-dev-9.1 deb libdevel optional"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "database"
-  ],
-  "Standards-Version": [
-    "3.9.4"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Martin Pitt <mpitt@debian.org>, Peter Eisentraut <petere@debian.org>, Christoph Berg <myon@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-postgresql/postgresql.git/"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-postgresql/postgresql.git -b 9.1-wheezy"
-  ],
-  "Version": [
-    "9.1.24lts2-0+deb7u2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libpq-dev, libpq5, libecpg6, libecpg-dev, libecpg-compat3, libpgtypes3, postgresql-9.1, postgresql-9.1-dbg, postgresql-client-9.1, postgresql-server-dev-9.1, postgresql-doc-9.1, postgresql-contrib-9.1, postgresql-plperl-9.1, postgresql-plpython-9.1, postgresql-plpython3-9.1, postgresql-pltcl-9.1"
+	],
+	"Build-Depends": [
+		"debhelper (>= 8~), dpkg-dev (>= 1.16.1~) | hardening-wrapper, perl (>= 5.8), libperl-dev, tcl8.5-dev, libedit-dev, libssl-dev, zlib1g-dev | libz-dev, libpam0g-dev | libpam-dev, libxml2-dev, libkrb5-dev, libldap2-dev, libxslt1-dev, libossp-uuid-dev, python-dev, python3-dev, bison, flex, openjade, docbook-dsssl, docbook-xsl, docbook, opensp, xsltproc, gettext"
+	],
+	"Checksums-Sha1": [
+		"4220f855369ca254b31b4f4668e4ccc4f88a6f9d 3381 postgresql-9.1_9.1.24lts2-0+deb7u2.dsc d57e733d6302db8cef1d79e7f2015b75e605cdee 15809167 postgresql-9.1_9.1.24lts2.orig.tar.bz2 083473a382504b6f549c1b0c6f45f4efe2609783 56921 postgresql-9.1_9.1.24lts2-0+deb7u2.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"24737ee99b8d3ab6a856da553bbfdb09c4f8955bb5d668425e9309e059aa0753 3381 postgresql-9.1_9.1.24lts2-0+deb7u2.dsc b1db8299cfccb31d0d0396b9a00afd9610fdab8768d45f4749fd2faf60b3931f 15809167 postgresql-9.1_9.1.24lts2.orig.tar.bz2 cdeaba0681765e3c3609946a3231a3fe6de89f0a9fb2d5702e998faea854c906 56921 postgresql-9.1_9.1.24lts2-0+deb7u2.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/updates/main/p/postgresql-9.1"
+	],
+	"Files": [
+		"1937cd54c5f358af34db45ab4d6b1ed0 3381 postgresql-9.1_9.1.24lts2-0+deb7u2.dsc 795d705296ee70010a44ade65cfcfc72 15809167 postgresql-9.1_9.1.24lts2.orig.tar.bz2 c3d371454784cd23c815f438828fde91 56921 postgresql-9.1_9.1.24lts2-0+deb7u2.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.postgresql.org/"
+	],
+	"Maintainer": [
+		"Debian PostgreSQL Maintainers <pkg-postgresql-public@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"postgresql-9.1"
+	],
+	"Package-List": [
+		"libecpg-compat3 deb libs optional libecpg-dev deb libdevel optional libecpg6 deb libs optional libpgtypes3 deb libs optional libpq-dev deb libdevel optional libpq5 deb libs optional postgresql-9.1 deb database optional postgresql-9.1-dbg deb debug extra postgresql-client-9.1 deb database optional postgresql-contrib-9.1 deb database optional postgresql-doc-9.1 deb doc optional postgresql-plperl-9.1 deb database optional postgresql-plpython-9.1 deb database optional postgresql-plpython3-9.1 deb database optional postgresql-pltcl-9.1 deb database optional postgresql-server-dev-9.1 deb libdevel optional"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"database"
+	],
+	"Standards-Version": [
+		"3.9.4"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Martin Pitt <mpitt@debian.org>, Peter Eisentraut <petere@debian.org>, Christoph Berg <myon@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-postgresql/postgresql.git/"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-postgresql/postgresql.git -b 9.1-wheezy"
+	],
+	"Version": [
+		"9.1.24lts2-0+deb7u2"
+	]
 }

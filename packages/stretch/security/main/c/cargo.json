@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "cargo, cargo-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 10~), dpkg-dev (>= 1.17.14), cargo:native (>= 0.17.0), rustc:native (>= 1.41), libstd-rust-dev (>= 1.41), pkg-config, cmake, bash-completion, python3:native, libcurl4-gnutls-dev | libcurl4-openssl-dev, libssh2-1-dev, libhttp-parser-dev, libssl-dev, zlib1g-dev, git <!nocheck>"
-  ],
-  "Checksums-Sha1": [
-    "50d4cdc9387a80ae70e34ffaca143796ed353a22 2593 cargo_0.43.1-3~deb9u1.dsc 5c8f80d3d707fd6d7612901c75b85dafe5b5a448 6483857 cargo_0.43.1.orig-vendor.tar.gz a33dd96297bfa7c010653ab7a33708972e2f723f 1172290 cargo_0.43.1.orig.tar.gz 493ef9a993bb5968593f61959236b6eb1f0f4de3 764720 cargo_0.43.1-3~deb9u1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "078b78d0fe5b59cc3d3ec806580f5916ad07a98e6f347431f11e526df306997d 2593 cargo_0.43.1-3~deb9u1.dsc 39c0b7a45e42704b09dcb8a1d616092752735ed0140b15b466d5b27fafd35d12 6483857 cargo_0.43.1.orig-vendor.tar.gz e154a7a17e70eb51b1763786768c5e352a9d65bb43b85fca112f5e755dc7f8c7 1172290 cargo_0.43.1.orig.tar.gz 64beafcc00a4bf7e83954ad78d3cde4731e6f33857ccb09557c8a099144107c8 764720 cargo_0.43.1-3~deb9u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/c/cargo"
-  ],
-  "Files": [
-    "47c2bb29abffbac065bf3e016240569e 2593 cargo_0.43.1-3~deb9u1.dsc b374315e79634c533a73195834375d88 6483857 cargo_0.43.1.orig-vendor.tar.gz 3bc06d233b903d880d0e1ad3377088b9 1172290 cargo_0.43.1.orig.tar.gz 4d3fb21228bc625c24f1afb6a5e0d260 764720 cargo_0.43.1-3~deb9u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://crates.io/"
-  ],
-  "Maintainer": [
-    "Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "cargo"
-  ],
-  "Package-List": [
-    "cargo deb devel optional arch=any cargo-doc deb doc optional arch=all profile=!nodoc"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.2.1"
-  ],
-  "Uploaders": [
-    "Luca Bruno <lucab@debian.org>, Angus Lees <gus@debian.org>, Ximin Luo <infinity0@debian.org>, Vasudev Kamath <vasudev@copyninja.info>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/cargo"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/cargo.git"
-  ],
-  "Version": [
-    "0.43.1-3~deb9u1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"cargo, cargo-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 10~), dpkg-dev (>= 1.17.14), cargo:native (>= 0.17.0), rustc:native (>= 1.41), libstd-rust-dev (>= 1.41), pkg-config, cmake, bash-completion, python3:native, libcurl4-gnutls-dev | libcurl4-openssl-dev, libssh2-1-dev, libhttp-parser-dev, libssl-dev, zlib1g-dev, git <!nocheck>"
+	],
+	"Checksums-Sha1": [
+		"50d4cdc9387a80ae70e34ffaca143796ed353a22 2593 cargo_0.43.1-3~deb9u1.dsc 5c8f80d3d707fd6d7612901c75b85dafe5b5a448 6483857 cargo_0.43.1.orig-vendor.tar.gz a33dd96297bfa7c010653ab7a33708972e2f723f 1172290 cargo_0.43.1.orig.tar.gz 493ef9a993bb5968593f61959236b6eb1f0f4de3 764720 cargo_0.43.1-3~deb9u1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"078b78d0fe5b59cc3d3ec806580f5916ad07a98e6f347431f11e526df306997d 2593 cargo_0.43.1-3~deb9u1.dsc 39c0b7a45e42704b09dcb8a1d616092752735ed0140b15b466d5b27fafd35d12 6483857 cargo_0.43.1.orig-vendor.tar.gz e154a7a17e70eb51b1763786768c5e352a9d65bb43b85fca112f5e755dc7f8c7 1172290 cargo_0.43.1.orig.tar.gz 64beafcc00a4bf7e83954ad78d3cde4731e6f33857ccb09557c8a099144107c8 764720 cargo_0.43.1-3~deb9u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/c/cargo"
+	],
+	"Files": [
+		"47c2bb29abffbac065bf3e016240569e 2593 cargo_0.43.1-3~deb9u1.dsc b374315e79634c533a73195834375d88 6483857 cargo_0.43.1.orig-vendor.tar.gz 3bc06d233b903d880d0e1ad3377088b9 1172290 cargo_0.43.1.orig.tar.gz 4d3fb21228bc625c24f1afb6a5e0d260 764720 cargo_0.43.1-3~deb9u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://crates.io/"
+	],
+	"Maintainer": [
+		"Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"cargo"
+	],
+	"Package-List": [
+		"cargo deb devel optional arch=any cargo-doc deb doc optional arch=all profile=!nodoc"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.2.1"
+	],
+	"Uploaders": [
+		"Luca Bruno <lucab@debian.org>, Angus Lees <gus@debian.org>, Ximin Luo <infinity0@debian.org>, Vasudev Kamath <vasudev@copyninja.info>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/cargo"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/cargo.git"
+	],
+	"Version": [
+		"0.43.1-3~deb9u1"
+	]
 }

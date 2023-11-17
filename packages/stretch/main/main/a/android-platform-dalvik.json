@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "amd64 i386 armel armhf arm64 mips mipsel mips64el all"
-  ],
-  "Binary": [
-    "android-libdex, android-libdex-dev, dexdump, dmtracedump, hprof-conv, dalvik-exchange"
-  ],
-  "Build-Depends": [
-    "android-libcutils-dev (>= 1:7.0.0+r33~) [amd64 i386 armel armhf arm64 mips mipsel mips64el], android-liblog-dev (>= 1:7.0.0+r33~) [amd64 i386 armel armhf arm64 mips mipsel mips64el], android-libnativehelper-dev (>= 7.0.0+r1) [amd64 i386 armel armhf arm64 mips mipsel mips64el], android-libutils-dev (>= 1:7.0.0+r33~) [amd64 i386 armel armhf arm64 mips mipsel mips64el], android-libziparchive-dev (>= 1:7.0.0+r33~) [amd64 i386 armel armhf arm64 mips mipsel mips64el], debhelper (>= 10), dh-exec, gradle-debian-helper (>= 1.4~), libsafe-iop-dev [amd64 i386 armel armhf arm64 mips mipsel mips64el], maven-repo-helper, pandoc, zlib1g-dev [amd64 i386 armel armhf arm64 mips mipsel mips64el]"
-  ],
-  "Build-Depends-Indep": [
-    "default-jdk-headless | default-jdk, libandroid-dex-java (>= 7.0.0+r33~), libjarjar-java"
-  ],
-  "Checksums-Sha256": [
-    "173564f7cf67cafa9cda05bdf13bcd23fe3290d504f9c7de1ae7a289b29d6039 3212 android-platform-dalvik_7.0.0+r33-1.dsc 8887b401e667b6be4b99cf5a7ddf1cdab3012a4cb018224188568d779b8bd368 557272 android-platform-dalvik_7.0.0+r33.orig.tar.xz 2df6804295704920bc5d3d86f7dd9c07c375fd61fba86699a84190c5ff2d5932 25564 android-platform-dalvik_7.0.0+r33-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/a/android-platform-dalvik"
-  ],
-  "Files": [
-    "9bc60d471bb1789c84fbb7b39e7e15e6 3212 android-platform-dalvik_7.0.0+r33-1.dsc 915288f3e361c0e5935acd223fb4d2c6 557272 android-platform-dalvik_7.0.0+r33.orig.tar.xz 39675c9a5d92b7c87311a82704347f23 25564 android-platform-dalvik_7.0.0+r33-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://android.googlesource.com/platform/dalvik"
-  ],
-  "Maintainer": [
-    "Android Tools Maintainers <android-tools-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "android-platform-dalvik"
-  ],
-  "Package-List": [
-    "android-libdex deb libs optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el android-libdex-dev deb libdevel optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el dalvik-exchange deb devel optional arch=all dexdump deb devel optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el dmtracedump deb devel optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el hprof-conv deb devel optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Kai-Chung Yan <seamlikok@gmail.com>, Hans-Christoph Steiner <hans@eds.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/android-tools/android-platform-dalvik.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/android-tools/android-platform-dalvik.git"
-  ],
-  "Version": [
-    "7.0.0+r33-1"
-  ]
+	"Architecture": [
+		"amd64 i386 armel armhf arm64 mips mipsel mips64el all"
+	],
+	"Binary": [
+		"android-libdex, android-libdex-dev, dexdump, dmtracedump, hprof-conv, dalvik-exchange"
+	],
+	"Build-Depends": [
+		"android-libcutils-dev (>= 1:7.0.0+r33~) [amd64 i386 armel armhf arm64 mips mipsel mips64el], android-liblog-dev (>= 1:7.0.0+r33~) [amd64 i386 armel armhf arm64 mips mipsel mips64el], android-libnativehelper-dev (>= 7.0.0+r1) [amd64 i386 armel armhf arm64 mips mipsel mips64el], android-libutils-dev (>= 1:7.0.0+r33~) [amd64 i386 armel armhf arm64 mips mipsel mips64el], android-libziparchive-dev (>= 1:7.0.0+r33~) [amd64 i386 armel armhf arm64 mips mipsel mips64el], debhelper (>= 10), dh-exec, gradle-debian-helper (>= 1.4~), libsafe-iop-dev [amd64 i386 armel armhf arm64 mips mipsel mips64el], maven-repo-helper, pandoc, zlib1g-dev [amd64 i386 armel armhf arm64 mips mipsel mips64el]"
+	],
+	"Build-Depends-Indep": [
+		"default-jdk-headless | default-jdk, libandroid-dex-java (>= 7.0.0+r33~), libjarjar-java"
+	],
+	"Checksums-Sha256": [
+		"173564f7cf67cafa9cda05bdf13bcd23fe3290d504f9c7de1ae7a289b29d6039 3212 android-platform-dalvik_7.0.0+r33-1.dsc 8887b401e667b6be4b99cf5a7ddf1cdab3012a4cb018224188568d779b8bd368 557272 android-platform-dalvik_7.0.0+r33.orig.tar.xz 2df6804295704920bc5d3d86f7dd9c07c375fd61fba86699a84190c5ff2d5932 25564 android-platform-dalvik_7.0.0+r33-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/a/android-platform-dalvik"
+	],
+	"Files": [
+		"9bc60d471bb1789c84fbb7b39e7e15e6 3212 android-platform-dalvik_7.0.0+r33-1.dsc 915288f3e361c0e5935acd223fb4d2c6 557272 android-platform-dalvik_7.0.0+r33.orig.tar.xz 39675c9a5d92b7c87311a82704347f23 25564 android-platform-dalvik_7.0.0+r33-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://android.googlesource.com/platform/dalvik"
+	],
+	"Maintainer": [
+		"Android Tools Maintainers <android-tools-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"android-platform-dalvik"
+	],
+	"Package-List": [
+		"android-libdex deb libs optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el android-libdex-dev deb libdevel optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el dalvik-exchange deb devel optional arch=all dexdump deb devel optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el dmtracedump deb devel optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el hprof-conv deb devel optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Kai-Chung Yan <seamlikok@gmail.com>, Hans-Christoph Steiner <hans@eds.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/android-tools/android-platform-dalvik.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/android-tools/android-platform-dalvik.git"
+	],
+	"Version": [
+		"7.0.0+r33-1"
+	]
 }

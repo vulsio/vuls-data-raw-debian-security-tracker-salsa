@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "gnupg, gnupg-curl, gpgv, gnupg-udeb, gpgv-udeb, gpgv-win32"
-  ],
-  "Build-Depends": [
-    "debhelper (>> 7), file, gettext, libbz2-dev, libcurl4-gnutls-dev, libldap2-dev, libreadline-dev, libusb-dev [!hurd-i386], libz-dev"
-  ],
-  "Build-Depends-Indep": [
-    "mingw-w64"
-  ],
-  "Checksums-Sha1": [
-    "5c7d7ff27da386464b8fcb3b4cbcc8d602c5ab71 2591 gnupg_1.4.18-7+deb8u5.dsc ea7d66c3de7aaf46de9e8678f4fc4a8c329400b2 5047888 gnupg_1.4.18.orig.tar.gz 9b11241dca37c626ba9fa7ac7cfde8063d9baf96 305056 gnupg_1.4.18-7+deb8u5.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "63cb3c6d7ee52b38bee3ade03c8d0ef4befd1d3bf56129bd11d260ac46e22f8b 2591 gnupg_1.4.18-7+deb8u5.dsc 10a8936b76ccadb98521535b5f41cc5b41b3c159a6c2915f062bd4dc8ac12d12 5047888 gnupg_1.4.18.orig.tar.gz 6e63f0543ca283511c0be22c87ac802c34819808f1a4e17fc7fce75b11a22c90 305056 gnupg_1.4.18-7+deb8u5.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/g/gnupg"
-  ],
-  "Files": [
-    "ffc205ac886cf769bd9340a183ecad86 2591 gnupg_1.4.18-7+deb8u5.dsc 7035b9d80f37814242923771560c2b98 5047888 gnupg_1.4.18.orig.tar.gz e2c77c13bbb627867347c7e6971bb7fa 305056 gnupg_1.4.18-7+deb8u5.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.gnupg.org"
-  ],
-  "Maintainer": [
-    "Debian GnuPG-Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "gnupg"
-  ],
-  "Package-List": [
-    "gnupg deb utils important arch=any gnupg-curl deb utils optional arch=any gnupg-udeb udeb debian-installer extra arch=any gpgv deb utils important arch=any gpgv-udeb udeb debian-installer extra arch=any gpgv-win32 deb utils extra arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "utils"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Sune Vuorela <debian@pusling.com>, Eric Dorland <eric@debian.org>, Daniel Kahn Gillmor <dkg@fifthhorseman.net>, Thijs Kinkhorst <thijs@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-gnupg/gnupg.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-gnupg/gnupg.git"
-  ],
-  "Version": [
-    "1.4.18-7+deb8u5"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"gnupg, gnupg-curl, gpgv, gnupg-udeb, gpgv-udeb, gpgv-win32"
+	],
+	"Build-Depends": [
+		"debhelper (>> 7), file, gettext, libbz2-dev, libcurl4-gnutls-dev, libldap2-dev, libreadline-dev, libusb-dev [!hurd-i386], libz-dev"
+	],
+	"Build-Depends-Indep": [
+		"mingw-w64"
+	],
+	"Checksums-Sha1": [
+		"5c7d7ff27da386464b8fcb3b4cbcc8d602c5ab71 2591 gnupg_1.4.18-7+deb8u5.dsc ea7d66c3de7aaf46de9e8678f4fc4a8c329400b2 5047888 gnupg_1.4.18.orig.tar.gz 9b11241dca37c626ba9fa7ac7cfde8063d9baf96 305056 gnupg_1.4.18-7+deb8u5.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"63cb3c6d7ee52b38bee3ade03c8d0ef4befd1d3bf56129bd11d260ac46e22f8b 2591 gnupg_1.4.18-7+deb8u5.dsc 10a8936b76ccadb98521535b5f41cc5b41b3c159a6c2915f062bd4dc8ac12d12 5047888 gnupg_1.4.18.orig.tar.gz 6e63f0543ca283511c0be22c87ac802c34819808f1a4e17fc7fce75b11a22c90 305056 gnupg_1.4.18-7+deb8u5.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/g/gnupg"
+	],
+	"Files": [
+		"ffc205ac886cf769bd9340a183ecad86 2591 gnupg_1.4.18-7+deb8u5.dsc 7035b9d80f37814242923771560c2b98 5047888 gnupg_1.4.18.orig.tar.gz e2c77c13bbb627867347c7e6971bb7fa 305056 gnupg_1.4.18-7+deb8u5.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.gnupg.org"
+	],
+	"Maintainer": [
+		"Debian GnuPG-Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"gnupg"
+	],
+	"Package-List": [
+		"gnupg deb utils important arch=any gnupg-curl deb utils optional arch=any gnupg-udeb udeb debian-installer extra arch=any gpgv deb utils important arch=any gpgv-udeb udeb debian-installer extra arch=any gpgv-win32 deb utils extra arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"utils"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Sune Vuorela <debian@pusling.com>, Eric Dorland <eric@debian.org>, Daniel Kahn Gillmor <dkg@fifthhorseman.net>, Thijs Kinkhorst <thijs@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-gnupg/gnupg.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-gnupg/gnupg.git"
+	],
+	"Version": [
+		"1.4.18-7+deb8u5"
+	]
 }

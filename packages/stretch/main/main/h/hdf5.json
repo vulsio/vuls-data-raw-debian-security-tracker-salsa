@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libhdf5-100, libhdf5-cpp-100, libhdf5-dev, libhdf5-openmpi-100, libhdf5-openmpi-dev, libhdf5-mpich-100, libhdf5-mpich-dev, libhdf5-mpi-dev, libhdf5-doc, hdf5-helpers, hdf5-tools, libhdf5-serial-dev, libhdf5-java, libhdf5-jni"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 10~), mpi-default-dev, libmpich-dev, zlib1g-dev, libjpeg-dev, gfortran, sharutils, chrpath, autotools-dev, automake, dh-autoreconf, libaec-dev, default-jdk-headless (>= 2:1.7) [!hppa !hurd-i386], javahelper [!hppa !hurd-i386]"
-  ],
-  "Build-Depends-Indep": [
-    "doxygen, php-cli"
-  ],
-  "Checksums-Sha256": [
-    "337e2efff0d32140bf05f4c07d178e3c00b71cda4978fbcd30d1e5e839cab875 2776 hdf5_1.10.0-patch1+docs-3+deb9u1.dsc db039dd6825ce1e2845b2c7e9d8cf3cd0caa0842f713a7a8c282af09520204d8 25959021 hdf5_1.10.0-patch1+docs.orig.tar.gz c5bcae0b656a3e4362186fc4bcf11ff6ce9adfce636e763d1dfd6d374689dec2 119604 hdf5_1.10.0-patch1+docs-3+deb9u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/h/hdf5"
-  ],
-  "Files": [
-    "f97a40531e587e97441f52f305202bca 2776 hdf5_1.10.0-patch1+docs-3+deb9u1.dsc 0db8608fb88ce3808e8a42f45b773bd6 25959021 hdf5_1.10.0-patch1+docs.orig.tar.gz deff8793b3c1da781abee649816c5c62 119604 hdf5_1.10.0-patch1+docs-3+deb9u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://hdfgroup.org/HDF5/"
-  ],
-  "Maintainer": [
-    "Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "hdf5"
-  ],
-  "Package-List": [
-    "hdf5-helpers deb science optional arch=any hdf5-tools deb science optional arch=any libhdf5-100 deb libs optional arch=any libhdf5-cpp-100 deb libs optional arch=any libhdf5-dev deb libdevel optional arch=any libhdf5-doc deb doc optional arch=all libhdf5-java deb java optional arch=all libhdf5-jni deb science optional arch=any libhdf5-mpi-dev deb libdevel extra arch=any libhdf5-mpich-100 deb libs extra arch=any libhdf5-mpich-dev deb libdevel extra arch=any libhdf5-openmpi-100 deb libs extra arch=any libhdf5-openmpi-dev deb libdevel extra arch=any libhdf5-serial-dev deb oldlibs extra arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "libs"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Francesco Paolo Lovergine <frankie@debian.org>, Gilles Filippini <pini@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-grass/hdf5.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-grass/hdf5.git"
-  ],
-  "Version": [
-    "1.10.0-patch1+docs-3+deb9u1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libhdf5-100, libhdf5-cpp-100, libhdf5-dev, libhdf5-openmpi-100, libhdf5-openmpi-dev, libhdf5-mpich-100, libhdf5-mpich-dev, libhdf5-mpi-dev, libhdf5-doc, hdf5-helpers, hdf5-tools, libhdf5-serial-dev, libhdf5-java, libhdf5-jni"
+	],
+	"Build-Depends": [
+		"debhelper (>= 10~), mpi-default-dev, libmpich-dev, zlib1g-dev, libjpeg-dev, gfortran, sharutils, chrpath, autotools-dev, automake, dh-autoreconf, libaec-dev, default-jdk-headless (>= 2:1.7) [!hppa !hurd-i386], javahelper [!hppa !hurd-i386]"
+	],
+	"Build-Depends-Indep": [
+		"doxygen, php-cli"
+	],
+	"Checksums-Sha256": [
+		"337e2efff0d32140bf05f4c07d178e3c00b71cda4978fbcd30d1e5e839cab875 2776 hdf5_1.10.0-patch1+docs-3+deb9u1.dsc db039dd6825ce1e2845b2c7e9d8cf3cd0caa0842f713a7a8c282af09520204d8 25959021 hdf5_1.10.0-patch1+docs.orig.tar.gz c5bcae0b656a3e4362186fc4bcf11ff6ce9adfce636e763d1dfd6d374689dec2 119604 hdf5_1.10.0-patch1+docs-3+deb9u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/h/hdf5"
+	],
+	"Files": [
+		"f97a40531e587e97441f52f305202bca 2776 hdf5_1.10.0-patch1+docs-3+deb9u1.dsc 0db8608fb88ce3808e8a42f45b773bd6 25959021 hdf5_1.10.0-patch1+docs.orig.tar.gz deff8793b3c1da781abee649816c5c62 119604 hdf5_1.10.0-patch1+docs-3+deb9u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://hdfgroup.org/HDF5/"
+	],
+	"Maintainer": [
+		"Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"hdf5"
+	],
+	"Package-List": [
+		"hdf5-helpers deb science optional arch=any hdf5-tools deb science optional arch=any libhdf5-100 deb libs optional arch=any libhdf5-cpp-100 deb libs optional arch=any libhdf5-dev deb libdevel optional arch=any libhdf5-doc deb doc optional arch=all libhdf5-java deb java optional arch=all libhdf5-jni deb science optional arch=any libhdf5-mpi-dev deb libdevel extra arch=any libhdf5-mpich-100 deb libs extra arch=any libhdf5-mpich-dev deb libdevel extra arch=any libhdf5-openmpi-100 deb libs extra arch=any libhdf5-openmpi-dev deb libdevel extra arch=any libhdf5-serial-dev deb oldlibs extra arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"libs"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Francesco Paolo Lovergine <frankie@debian.org>, Gilles Filippini <pini@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-grass/hdf5.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-grass/hdf5.git"
+	],
+	"Version": [
+		"1.10.0-patch1+docs-3+deb9u1"
+	]
 }

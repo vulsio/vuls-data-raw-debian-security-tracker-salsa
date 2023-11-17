@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "evolution-data-server, evolution-data-server-common, evolution-data-server-dev, evolution-data-server-dbg, evolution-data-server-doc, libedataserver-1.2-16, libedataserver1.2-dev, gir1.2-edataserver-1.2, libcamel-1.2-33, libcamel1.2-dev, libebook-1.2-13, libebook1.2-dev, gir1.2-ebook-1.2, libedataserverui-3.0-1, libedataserverui-3.0-dev, libedata-book-1.2-13, libedata-book1.2-dev, libecal-1.2-11, libecal1.2-dev, gir1.2-ecalendar-1.2, libedata-cal-1.2-15, libedata-cal1.2-dev, libebackend-1.2-2, libebackend1.2-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), cdbs (>= 0.4.90), dh-autoreconf, dpkg-dev (>= 1.16.1), flex, bison, libtool, intltool (>= 0.35.5), libdb-dev, libdbus-glib-1-dev (>= 0.6), libdbus-glib-1-doc, libglib2.0-dev (>= 2.32), libglib2.0-doc, libgconf2-dev, libgdata-dev (>= 0.10), libgirepository1.0-dev (>= 0.9.12), libgnome-keyring-dev (>= 2.20.1), libgoa-1.0-dev (>= 3.1.1), libgtk-3-dev (>= 3.2), libgweather-3-dev (>= 2.90.0), libical-dev (>= 0.43), libkrb5-dev, libldap2-dev, liboauth-dev (>= 0.9.4), libnss3-dev, libnspr4-dev, libsoup2.4-dev (>= 2.31.2), libsqlite3-dev (>= 3.5), libxml2-dev, gtk-doc-tools (>= 1.14), chrpath, gobject-introspection (>= 0.9.12-4~), gir1.2-glib-2.0, gir1.2-freedesktop, gperf, gnome-pkg-tools, pkg-config (>= 0.16), valac-0.16 (>= 0.16)"
-  ],
-  "Checksums-Sha1": [
-    "1b0dc9ae63422a2fce4e15d5997f0e64540e653d 4927 evolution-data-server_3.4.4-3+deb7u1.dsc 1ea98405898b3ee5008dd75ad078da3b8d08c237 3647048 evolution-data-server_3.4.4.orig.tar.xz c7625aeb05c105c52e1e8e02a1fe8a6a9c992685 24128 evolution-data-server_3.4.4-3+deb7u1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "0e022de86e05e3b7d4bcd5468f9428fd7a419326972000947fdda80c3cf67439 4927 evolution-data-server_3.4.4-3+deb7u1.dsc ce9e1d5625503cd7f1f0631ec2f552e26800c33305b45722b34eba8da5ced491 3647048 evolution-data-server_3.4.4.orig.tar.xz 0a957024f44c6332e8f5024bee80abb2eb76addf9af91ee023b7821d1d5ec564 24128 evolution-data-server_3.4.4-3+deb7u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/e/evolution-data-server"
-  ],
-  "Files": [
-    "3de1d0067da243611b59071b91a653da 4927 evolution-data-server_3.4.4-3+deb7u1.dsc 4d822c44f00d1f6327433cebdf2443f3 3647048 evolution-data-server_3.4.4.orig.tar.xz 2d42183dd1595f8d8ce93381bbc6bcd7 24128 evolution-data-server_3.4.4-3+deb7u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.gnome.org/projects/evolution/"
-  ],
-  "Maintainer": [
-    "Debian Evolution Maintainers <pkg-evolution-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "evolution-data-server"
-  ],
-  "Package-List": [
-    "evolution-data-server deb gnome optional arch=any evolution-data-server-common deb gnome optional arch=all evolution-data-server-dbg deb debug extra arch=any evolution-data-server-dev deb devel optional arch=any evolution-data-server-doc deb doc optional arch=all gir1.2-ebook-1.2 deb introspection optional arch=any gir1.2-ecalendar-1.2 deb introspection optional arch=any gir1.2-edataserver-1.2 deb introspection optional arch=any libcamel-1.2-33 deb libs optional arch=any libcamel1.2-dev deb libdevel optional arch=any libebackend-1.2-2 deb libs optional arch=any libebackend1.2-dev deb libdevel optional arch=any libebook-1.2-13 deb libs optional arch=any libebook1.2-dev deb libdevel optional arch=any libecal-1.2-11 deb libs optional arch=any libecal1.2-dev deb libdevel optional arch=any libedata-book-1.2-13 deb libs optional arch=any libedata-book1.2-dev deb libdevel optional arch=any libedata-cal-1.2-15 deb libs optional arch=any libedata-cal1.2-dev deb libdevel optional arch=any libedataserver-1.2-16 deb libs optional arch=any libedataserver1.2-dev deb libdevel optional arch=any libedataserverui-3.0-1 deb libs optional arch=any libedataserverui-3.0-dev deb libdevel optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "gnome"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Jordi Mallach <jordi@debian.org>, Margarita Manterola <debian@marga.com.ar>, Loic Minier <lool@dooz.org>, Heikki Henriksen <heikkih@gmail.com>, Oystein Gisnas <oystein@gisnas.net>, Riccardo Setti <giskard@debian.org>, Yves-Alexis Perez <corsac@debian.org>, Pedro Fragoso <ember@ubuntu.com>, Josselin Mouette <joss@debian.org>, David Weinehall <tao@debian.org>, Sjoerd Simons <sjoerd@debian.org>, Laurent Bigonville <bigon@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/viewvc/pkg-evolution/unstable/evolution-data-server"
-  ],
-  "Vcs-Svn": [
-    "svn://anonscm.debian.org/svn/pkg-evolution/unstable/evolution-data-server"
-  ],
-  "Version": [
-    "3.4.4-3+deb7u1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"evolution-data-server, evolution-data-server-common, evolution-data-server-dev, evolution-data-server-dbg, evolution-data-server-doc, libedataserver-1.2-16, libedataserver1.2-dev, gir1.2-edataserver-1.2, libcamel-1.2-33, libcamel1.2-dev, libebook-1.2-13, libebook1.2-dev, gir1.2-ebook-1.2, libedataserverui-3.0-1, libedataserverui-3.0-dev, libedata-book-1.2-13, libedata-book1.2-dev, libecal-1.2-11, libecal1.2-dev, gir1.2-ecalendar-1.2, libedata-cal-1.2-15, libedata-cal1.2-dev, libebackend-1.2-2, libebackend1.2-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), cdbs (>= 0.4.90), dh-autoreconf, dpkg-dev (>= 1.16.1), flex, bison, libtool, intltool (>= 0.35.5), libdb-dev, libdbus-glib-1-dev (>= 0.6), libdbus-glib-1-doc, libglib2.0-dev (>= 2.32), libglib2.0-doc, libgconf2-dev, libgdata-dev (>= 0.10), libgirepository1.0-dev (>= 0.9.12), libgnome-keyring-dev (>= 2.20.1), libgoa-1.0-dev (>= 3.1.1), libgtk-3-dev (>= 3.2), libgweather-3-dev (>= 2.90.0), libical-dev (>= 0.43), libkrb5-dev, libldap2-dev, liboauth-dev (>= 0.9.4), libnss3-dev, libnspr4-dev, libsoup2.4-dev (>= 2.31.2), libsqlite3-dev (>= 3.5), libxml2-dev, gtk-doc-tools (>= 1.14), chrpath, gobject-introspection (>= 0.9.12-4~), gir1.2-glib-2.0, gir1.2-freedesktop, gperf, gnome-pkg-tools, pkg-config (>= 0.16), valac-0.16 (>= 0.16)"
+	],
+	"Checksums-Sha1": [
+		"1b0dc9ae63422a2fce4e15d5997f0e64540e653d 4927 evolution-data-server_3.4.4-3+deb7u1.dsc 1ea98405898b3ee5008dd75ad078da3b8d08c237 3647048 evolution-data-server_3.4.4.orig.tar.xz c7625aeb05c105c52e1e8e02a1fe8a6a9c992685 24128 evolution-data-server_3.4.4-3+deb7u1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"0e022de86e05e3b7d4bcd5468f9428fd7a419326972000947fdda80c3cf67439 4927 evolution-data-server_3.4.4-3+deb7u1.dsc ce9e1d5625503cd7f1f0631ec2f552e26800c33305b45722b34eba8da5ced491 3647048 evolution-data-server_3.4.4.orig.tar.xz 0a957024f44c6332e8f5024bee80abb2eb76addf9af91ee023b7821d1d5ec564 24128 evolution-data-server_3.4.4-3+deb7u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/e/evolution-data-server"
+	],
+	"Files": [
+		"3de1d0067da243611b59071b91a653da 4927 evolution-data-server_3.4.4-3+deb7u1.dsc 4d822c44f00d1f6327433cebdf2443f3 3647048 evolution-data-server_3.4.4.orig.tar.xz 2d42183dd1595f8d8ce93381bbc6bcd7 24128 evolution-data-server_3.4.4-3+deb7u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.gnome.org/projects/evolution/"
+	],
+	"Maintainer": [
+		"Debian Evolution Maintainers <pkg-evolution-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"evolution-data-server"
+	],
+	"Package-List": [
+		"evolution-data-server deb gnome optional arch=any evolution-data-server-common deb gnome optional arch=all evolution-data-server-dbg deb debug extra arch=any evolution-data-server-dev deb devel optional arch=any evolution-data-server-doc deb doc optional arch=all gir1.2-ebook-1.2 deb introspection optional arch=any gir1.2-ecalendar-1.2 deb introspection optional arch=any gir1.2-edataserver-1.2 deb introspection optional arch=any libcamel-1.2-33 deb libs optional arch=any libcamel1.2-dev deb libdevel optional arch=any libebackend-1.2-2 deb libs optional arch=any libebackend1.2-dev deb libdevel optional arch=any libebook-1.2-13 deb libs optional arch=any libebook1.2-dev deb libdevel optional arch=any libecal-1.2-11 deb libs optional arch=any libecal1.2-dev deb libdevel optional arch=any libedata-book-1.2-13 deb libs optional arch=any libedata-book1.2-dev deb libdevel optional arch=any libedata-cal-1.2-15 deb libs optional arch=any libedata-cal1.2-dev deb libdevel optional arch=any libedataserver-1.2-16 deb libs optional arch=any libedataserver1.2-dev deb libdevel optional arch=any libedataserverui-3.0-1 deb libs optional arch=any libedataserverui-3.0-dev deb libdevel optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"gnome"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Jordi Mallach <jordi@debian.org>, Margarita Manterola <debian@marga.com.ar>, Loic Minier <lool@dooz.org>, Heikki Henriksen <heikkih@gmail.com>, Oystein Gisnas <oystein@gisnas.net>, Riccardo Setti <giskard@debian.org>, Yves-Alexis Perez <corsac@debian.org>, Pedro Fragoso <ember@ubuntu.com>, Josselin Mouette <joss@debian.org>, David Weinehall <tao@debian.org>, Sjoerd Simons <sjoerd@debian.org>, Laurent Bigonville <bigon@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/viewvc/pkg-evolution/unstable/evolution-data-server"
+	],
+	"Vcs-Svn": [
+		"svn://anonscm.debian.org/svn/pkg-evolution/unstable/evolution-data-server"
+	],
+	"Version": [
+		"3.4.4-3+deb7u1"
+	]
 }

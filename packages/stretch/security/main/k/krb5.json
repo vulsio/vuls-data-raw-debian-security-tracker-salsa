@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "krb5-user, krb5-kdc, krb5-kdc-ldap, krb5-admin-server, krb5-kpropd, krb5-multidev, libkrb5-dev, libkrb5-dbg, krb5-pkinit, krb5-otp, krb5-k5tls, krb5-doc, libkrb5-3, libgssapi-krb5-2, libgssrpc4, libkadm5srv-mit11, libkadm5clnt-mit11, libk5crypto3, libkdb5-8, libkrb5support0, libkrad0, krb5-gss-samples, krb5-locales, libkrad-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), byacc | bison, comerr-dev, docbook-to-man, doxygen, libkeyutils-dev [linux-any], libldap2-dev, libncurses5-dev, libssl-dev, ss-dev, libverto-dev (>= 0.2.4), pkg-config, dh-systemd"
-  ],
-  "Build-Depends-Indep": [
-    "python, python-cheetah, python-lxml, python-sphinx, doxygen-latex, texlive-generic-extra"
-  ],
-  "Checksums-Sha1": [
-    "bb5403f4f27e636efc487ae8822df83e4c1722a2 3456 krb5_1.15-1+deb9u3.dsc 07fb763082c21e9e597b39aac6413302e3aa7c97 9327157 krb5_1.15.orig.tar.gz ce93bd5f2d62c43baa838a37ee14054aaeddc081 150040 krb5_1.15-1+deb9u3.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "85a66bbb32f36fa4aa8a192b16c8106ed975dca87bcd4bd08bdd160d858309ef 3456 krb5_1.15-1+deb9u3.dsc fd34752774c808ab4f6f864f935c49945f5a56b62240b1ad4ab1af7b4ded127c 9327157 krb5_1.15.orig.tar.gz 7f36ff9d174926ce6b5ed0cc0370fc3d091d3170ffba6d5d9dfa6d6c0c239177 150040 krb5_1.15-1+deb9u3.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/k/krb5"
-  ],
-  "Files": [
-    "8a2335a06f267109f9967a57d2f7658d 3456 krb5_1.15-1+deb9u3.dsc cd43a3316ebbb86b2a9020b485b1a819 9327157 krb5_1.15.orig.tar.gz e78e03f05e559a4251d48101d3d771c5 150040 krb5_1.15-1+deb9u3.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://web.mit.edu/kerberos/"
-  ],
-  "Maintainer": [
-    "Sam Hartman <hartmans@debian.org>"
-  ],
-  "Package": [
-    "krb5"
-  ],
-  "Package-List": [
-    "krb5-admin-server deb net optional arch=any krb5-doc deb doc optional arch=all krb5-gss-samples deb net extra arch=any krb5-k5tls deb net extra arch=any krb5-kdc deb net optional arch=any krb5-kdc-ldap deb net extra arch=any krb5-kpropd deb net optional arch=any krb5-locales deb localization standard arch=all krb5-multidev deb libdevel optional arch=any krb5-otp deb net extra arch=any krb5-pkinit deb net extra arch=any krb5-user deb net optional arch=any libgssapi-krb5-2 deb libs standard arch=any libgssrpc4 deb libs standard arch=any libk5crypto3 deb libs standard arch=any libkadm5clnt-mit11 deb libs standard arch=any libkadm5srv-mit11 deb libs standard arch=any libkdb5-8 deb libs standard arch=any libkrad-dev deb libdevel extra arch=any libkrad0 deb libs standard arch=any libkrb5-3 deb libs standard arch=any libkrb5-dbg deb debug extra arch=any libkrb5-dev deb libdevel extra arch=any libkrb5support0 deb libs standard arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Russ Allbery <rra@debian.org>, Benjamin Kaduk <kaduk@mit.edu>"
-  ],
-  "Vcs-Browser": [
-    "http://git.debian.org/?p=pkg-k5-afs/debian-krb5-2013.git"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/git/pkg-k5-afs/debian-krb5-2013.git"
-  ],
-  "Version": [
-    "1.15-1+deb9u3"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"krb5-user, krb5-kdc, krb5-kdc-ldap, krb5-admin-server, krb5-kpropd, krb5-multidev, libkrb5-dev, libkrb5-dbg, krb5-pkinit, krb5-otp, krb5-k5tls, krb5-doc, libkrb5-3, libgssapi-krb5-2, libgssrpc4, libkadm5srv-mit11, libkadm5clnt-mit11, libk5crypto3, libkdb5-8, libkrb5support0, libkrad0, krb5-gss-samples, krb5-locales, libkrad-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), byacc | bison, comerr-dev, docbook-to-man, doxygen, libkeyutils-dev [linux-any], libldap2-dev, libncurses5-dev, libssl-dev, ss-dev, libverto-dev (>= 0.2.4), pkg-config, dh-systemd"
+	],
+	"Build-Depends-Indep": [
+		"python, python-cheetah, python-lxml, python-sphinx, doxygen-latex, texlive-generic-extra"
+	],
+	"Checksums-Sha1": [
+		"bb5403f4f27e636efc487ae8822df83e4c1722a2 3456 krb5_1.15-1+deb9u3.dsc 07fb763082c21e9e597b39aac6413302e3aa7c97 9327157 krb5_1.15.orig.tar.gz ce93bd5f2d62c43baa838a37ee14054aaeddc081 150040 krb5_1.15-1+deb9u3.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"85a66bbb32f36fa4aa8a192b16c8106ed975dca87bcd4bd08bdd160d858309ef 3456 krb5_1.15-1+deb9u3.dsc fd34752774c808ab4f6f864f935c49945f5a56b62240b1ad4ab1af7b4ded127c 9327157 krb5_1.15.orig.tar.gz 7f36ff9d174926ce6b5ed0cc0370fc3d091d3170ffba6d5d9dfa6d6c0c239177 150040 krb5_1.15-1+deb9u3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/k/krb5"
+	],
+	"Files": [
+		"8a2335a06f267109f9967a57d2f7658d 3456 krb5_1.15-1+deb9u3.dsc cd43a3316ebbb86b2a9020b485b1a819 9327157 krb5_1.15.orig.tar.gz e78e03f05e559a4251d48101d3d771c5 150040 krb5_1.15-1+deb9u3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://web.mit.edu/kerberos/"
+	],
+	"Maintainer": [
+		"Sam Hartman <hartmans@debian.org>"
+	],
+	"Package": [
+		"krb5"
+	],
+	"Package-List": [
+		"krb5-admin-server deb net optional arch=any krb5-doc deb doc optional arch=all krb5-gss-samples deb net extra arch=any krb5-k5tls deb net extra arch=any krb5-kdc deb net optional arch=any krb5-kdc-ldap deb net extra arch=any krb5-kpropd deb net optional arch=any krb5-locales deb localization standard arch=all krb5-multidev deb libdevel optional arch=any krb5-otp deb net extra arch=any krb5-pkinit deb net extra arch=any krb5-user deb net optional arch=any libgssapi-krb5-2 deb libs standard arch=any libgssrpc4 deb libs standard arch=any libk5crypto3 deb libs standard arch=any libkadm5clnt-mit11 deb libs standard arch=any libkadm5srv-mit11 deb libs standard arch=any libkdb5-8 deb libs standard arch=any libkrad-dev deb libdevel extra arch=any libkrad0 deb libs standard arch=any libkrb5-3 deb libs standard arch=any libkrb5-dbg deb debug extra arch=any libkrb5-dev deb libdevel extra arch=any libkrb5support0 deb libs standard arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Russ Allbery <rra@debian.org>, Benjamin Kaduk <kaduk@mit.edu>"
+	],
+	"Vcs-Browser": [
+		"http://git.debian.org/?p=pkg-k5-afs/debian-krb5-2013.git"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/git/pkg-k5-afs/debian-krb5-2013.git"
+	],
+	"Version": [
+		"1.15-1+deb9u3"
+	]
 }

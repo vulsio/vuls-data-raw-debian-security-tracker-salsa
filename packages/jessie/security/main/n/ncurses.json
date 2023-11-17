@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libtinfo5, libncurses5, libtinfo-dev, libtinfo5-dbg, libncurses5-dev, libncurses5-dbg, libncursesw5, libncursesw5-dev, libncursesw5-dbg, lib64ncurses5, lib64ncurses5-dev, lib32ncurses5, lib32ncurses5-dev, lib32ncursesw5, lib32ncursesw5-dev, lib64tinfo5, lib32tinfo5, lib32tinfo-dev, ncurses-bin, ncurses-base, ncurses-term, ncurses-examples, ncurses-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 8.1.3), dpkg-dev (>= 1.15.7), g++-multilib [amd64 i386 powerpc ppc64 s390 sparc], libgpm-dev [linux-any], pkg-config, autotools-dev"
-  ],
-  "Checksums-Sha1": [
-    "105836458e8abf25c132ff43f3032ea1007c255c 3505 ncurses_5.9+20140913-1+deb8u3.dsc 790ac6ad9d6988e4cd7009919427493ba96d3a8c 2987249 ncurses_5.9+20140913.orig.tar.gz e1eab548c2f046f794453a023450255935b370f0 57136 ncurses_5.9+20140913-1+deb8u3.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "a4136ac92fd361e7b3c61f7e5a08e145841d960b2feefe014174f8109a997f0b 3505 ncurses_5.9+20140913-1+deb8u3.dsc c4247ad81ee9d743caba8a2db6dd96d36878530b2e76e376af1c00b067a2dec9 2987249 ncurses_5.9+20140913.orig.tar.gz 5edac557abf72e2f22c37423a9c8441f4da4509506e01b59b71d5120bd21a8ea 57136 ncurses_5.9+20140913-1+deb8u3.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/n/ncurses"
-  ],
-  "Extra-Source-Only": [
-    "yes"
-  ],
-  "Files": [
-    "9fb0fde24358bb81a2cca6539d830d26 3505 ncurses_5.9+20140913-1+deb8u3.dsc 24b892d1a91b70f754ef2f9bc9ecbf34 2987249 ncurses_5.9+20140913.orig.tar.gz 7000585c8cda5e7181b08c41467addad 57136 ncurses_5.9+20140913-1+deb8u3.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://invisible-island.net/ncurses/"
-  ],
-  "Maintainer": [
-    "Craig Small <csmall@debian.org>"
-  ],
-  "Package": [
-    "ncurses"
-  ],
-  "Package-List": [
-    "lib32ncurses5 deb libs optional arch=amd64,ppc64 lib32ncurses5-dev deb libdevel optional arch=amd64,ppc64 lib32ncursesw5 deb libs optional arch=amd64,ppc64 lib32ncursesw5-dev deb libdevel optional arch=amd64,ppc64 lib32tinfo-dev deb libdevel optional arch=amd64,ppc64 lib32tinfo5 deb libs optional arch=amd64,ppc64 lib64ncurses5 deb libs optional arch=i386,powerpc,sparc,s390 lib64ncurses5-dev deb libdevel optional arch=i386,powerpc,sparc,s390 lib64tinfo5 deb libs optional arch=i386,powerpc,sparc,s390 libncurses5 deb libs required arch=any libncurses5-dbg deb debug extra arch=any libncurses5-dev deb libdevel optional arch=any libncursesw5 deb libs important arch=any libncursesw5-dbg deb debug extra arch=any libncursesw5-dev deb libdevel optional arch=any libtinfo-dev deb libdevel optional arch=any libtinfo5 deb libs required arch=any libtinfo5-dbg deb debug extra arch=any ncurses-base deb misc required arch=all ncurses-bin deb utils required arch=any ncurses-doc deb doc optional arch=all ncurses-examples deb misc optional arch=any ncurses-term deb misc standard arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "libs"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Uploaders": [
-    "Sven Joachim <svenjoac@gmx.de>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=collab-maint/ncurses.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/collab-maint/ncurses.git"
-  ],
-  "Version": [
-    "5.9+20140913-1+deb8u3"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libtinfo5, libncurses5, libtinfo-dev, libtinfo5-dbg, libncurses5-dev, libncurses5-dbg, libncursesw5, libncursesw5-dev, libncursesw5-dbg, lib64ncurses5, lib64ncurses5-dev, lib32ncurses5, lib32ncurses5-dev, lib32ncursesw5, lib32ncursesw5-dev, lib64tinfo5, lib32tinfo5, lib32tinfo-dev, ncurses-bin, ncurses-base, ncurses-term, ncurses-examples, ncurses-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 8.1.3), dpkg-dev (>= 1.15.7), g++-multilib [amd64 i386 powerpc ppc64 s390 sparc], libgpm-dev [linux-any], pkg-config, autotools-dev"
+	],
+	"Checksums-Sha1": [
+		"105836458e8abf25c132ff43f3032ea1007c255c 3505 ncurses_5.9+20140913-1+deb8u3.dsc 790ac6ad9d6988e4cd7009919427493ba96d3a8c 2987249 ncurses_5.9+20140913.orig.tar.gz e1eab548c2f046f794453a023450255935b370f0 57136 ncurses_5.9+20140913-1+deb8u3.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"a4136ac92fd361e7b3c61f7e5a08e145841d960b2feefe014174f8109a997f0b 3505 ncurses_5.9+20140913-1+deb8u3.dsc c4247ad81ee9d743caba8a2db6dd96d36878530b2e76e376af1c00b067a2dec9 2987249 ncurses_5.9+20140913.orig.tar.gz 5edac557abf72e2f22c37423a9c8441f4da4509506e01b59b71d5120bd21a8ea 57136 ncurses_5.9+20140913-1+deb8u3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/n/ncurses"
+	],
+	"Extra-Source-Only": [
+		"yes"
+	],
+	"Files": [
+		"9fb0fde24358bb81a2cca6539d830d26 3505 ncurses_5.9+20140913-1+deb8u3.dsc 24b892d1a91b70f754ef2f9bc9ecbf34 2987249 ncurses_5.9+20140913.orig.tar.gz 7000585c8cda5e7181b08c41467addad 57136 ncurses_5.9+20140913-1+deb8u3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://invisible-island.net/ncurses/"
+	],
+	"Maintainer": [
+		"Craig Small <csmall@debian.org>"
+	],
+	"Package": [
+		"ncurses"
+	],
+	"Package-List": [
+		"lib32ncurses5 deb libs optional arch=amd64,ppc64 lib32ncurses5-dev deb libdevel optional arch=amd64,ppc64 lib32ncursesw5 deb libs optional arch=amd64,ppc64 lib32ncursesw5-dev deb libdevel optional arch=amd64,ppc64 lib32tinfo-dev deb libdevel optional arch=amd64,ppc64 lib32tinfo5 deb libs optional arch=amd64,ppc64 lib64ncurses5 deb libs optional arch=i386,powerpc,sparc,s390 lib64ncurses5-dev deb libdevel optional arch=i386,powerpc,sparc,s390 lib64tinfo5 deb libs optional arch=i386,powerpc,sparc,s390 libncurses5 deb libs required arch=any libncurses5-dbg deb debug extra arch=any libncurses5-dev deb libdevel optional arch=any libncursesw5 deb libs important arch=any libncursesw5-dbg deb debug extra arch=any libncursesw5-dev deb libdevel optional arch=any libtinfo-dev deb libdevel optional arch=any libtinfo5 deb libs required arch=any libtinfo5-dbg deb debug extra arch=any ncurses-base deb misc required arch=all ncurses-bin deb utils required arch=any ncurses-doc deb doc optional arch=all ncurses-examples deb misc optional arch=any ncurses-term deb misc standard arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"libs"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Uploaders": [
+		"Sven Joachim <svenjoac@gmx.de>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=collab-maint/ncurses.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/collab-maint/ncurses.git"
+	],
+	"Version": [
+		"5.9+20140913-1+deb8u3"
+	]
 }

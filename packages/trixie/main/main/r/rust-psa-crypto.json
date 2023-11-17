@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-psa-crypto-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-log-0.4+default-dev (>= 0.4.11-~~) <!nocheck>, librust-psa-crypto-sys-0.9+interface-dev (>= 0.9.3-~~) <!nocheck>, librust-psa-crypto-sys-0.9+operations-dev (>= 0.9.3-~~) <!nocheck>, librust-psa-crypto-sys-0.9-dev (>= 0.9.3-~~) <!nocheck>, librust-serde-1+default-dev (>= 1.0.115-~~) <!nocheck>, librust-serde-1+derive-dev (>= 1.0.115-~~) <!nocheck>, librust-zeroize-1+default-dev (>= 1.4.3-~~) <!nocheck>, librust-zeroize-1+zeroize-derive-dev (>= 1.4.3-~~) <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "ffb01edcc645d6dbd238b5b21622326a90e6664720a44970052ac680c791b444 2673 rust-psa-crypto_0.9.2-3.dsc f96fc66af3a6d2cb810d08cd631d559130102657d8fc2890a4f202afebcf0cae 37811 rust-psa-crypto_0.9.2.orig.tar.gz a0465afe9d060bc808f1f05404d96e6fdda96037d76bade5887a30964daafdf3 3184 rust-psa-crypto_0.9.2-3.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-psa-crypto"
-  ],
-  "Files": [
-    "17e6283ade90ac6122a1873d271ba927 2673 rust-psa-crypto_0.9.2-3.dsc b97a879b929f8fc7f26098249dc55fbe 37811 rust-psa-crypto_0.9.2.orig.tar.gz ac22dca03334d51b24027d910c5843ff 3184 rust-psa-crypto_0.9.2-3.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-psa-crypto"
-  ],
-  "Package-List": [
-    "librust-psa-crypto-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-base64-0.21+default-dev, librust-rand-0.8+default-dev"
-  ],
-  "Uploaders": [
-    "Emanuele Rocca <ema@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/psa-crypto"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/psa-crypto]"
-  ],
-  "Version": [
-    "0.9.2-3"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-psa-crypto-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-log-0.4+default-dev (>= 0.4.11-~~) <!nocheck>, librust-psa-crypto-sys-0.9+interface-dev (>= 0.9.3-~~) <!nocheck>, librust-psa-crypto-sys-0.9+operations-dev (>= 0.9.3-~~) <!nocheck>, librust-psa-crypto-sys-0.9-dev (>= 0.9.3-~~) <!nocheck>, librust-serde-1+default-dev (>= 1.0.115-~~) <!nocheck>, librust-serde-1+derive-dev (>= 1.0.115-~~) <!nocheck>, librust-zeroize-1+default-dev (>= 1.4.3-~~) <!nocheck>, librust-zeroize-1+zeroize-derive-dev (>= 1.4.3-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"ffb01edcc645d6dbd238b5b21622326a90e6664720a44970052ac680c791b444 2673 rust-psa-crypto_0.9.2-3.dsc f96fc66af3a6d2cb810d08cd631d559130102657d8fc2890a4f202afebcf0cae 37811 rust-psa-crypto_0.9.2.orig.tar.gz a0465afe9d060bc808f1f05404d96e6fdda96037d76bade5887a30964daafdf3 3184 rust-psa-crypto_0.9.2-3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-psa-crypto"
+	],
+	"Files": [
+		"17e6283ade90ac6122a1873d271ba927 2673 rust-psa-crypto_0.9.2-3.dsc b97a879b929f8fc7f26098249dc55fbe 37811 rust-psa-crypto_0.9.2.orig.tar.gz ac22dca03334d51b24027d910c5843ff 3184 rust-psa-crypto_0.9.2-3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-psa-crypto"
+	],
+	"Package-List": [
+		"librust-psa-crypto-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-base64-0.21+default-dev, librust-rand-0.8+default-dev"
+	],
+	"Uploaders": [
+		"Emanuele Rocca <ema@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/psa-crypto"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/psa-crypto]"
+	],
+	"Version": [
+		"0.9.2-3"
+	]
 }

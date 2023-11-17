@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "krb5-user, krb5-kdc, krb5-kdc-ldap, krb5-admin-server, krb5-kpropd, krb5-multidev, libkrb5-dev, libkrb5-dbg, krb5-pkinit, krb5-otp, krb5-k5tls, krb5-doc, libkrb5-3, libgssapi-krb5-2, libgssrpc4, libkadm5srv-mit11, libkadm5clnt-mit11, libk5crypto3, libkdb5-8, libkrb5support0, libkrad0, krb5-gss-samples, krb5-locales, libkrad-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), byacc | bison, comerr-dev, docbook-to-man, doxygen, libkeyutils-dev [linux-any], libldap2-dev, libncurses5-dev, libssl-dev, ss-dev, libverto-dev (>= 0.2.4), pkg-config, dh-systemd"
-  ],
-  "Build-Depends-Indep": [
-    "python, python-cheetah, python-lxml, python-sphinx, doxygen-latex, texlive-generic-extra"
-  ],
-  "Checksums-Sha256": [
-    "cb69444c826f380c9d3ea7c5e6bf04105ca2fceb26ecc14b293f458f337f34c2 3373 krb5_1.15-1+deb9u1.dsc fd34752774c808ab4f6f864f935c49945f5a56b62240b1ad4ab1af7b4ded127c 9327157 krb5_1.15.orig.tar.gz f04183b2ecfd0fe488975338eb4f900d5f605c81a9ae279451ceda948d99a21c 144944 krb5_1.15-1+deb9u1.debian.tar.xz"
-  ],
-  "Dgit": [
-    "46d7b68453db32bc00a8b3a2d4a79ea15f6e1771 debian archive/debian/1.15-1+deb9u1 https://git.dgit.debian.org/krb5"
-  ],
-  "Directory": [
-    "pool/main/k/krb5"
-  ],
-  "Files": [
-    "03dd0ab3bfb4c70bd8bea0437db65194 3373 krb5_1.15-1+deb9u1.dsc cd43a3316ebbb86b2a9020b485b1a819 9327157 krb5_1.15.orig.tar.gz 981da9e09bcd891263f0a05d4789e7fe 144944 krb5_1.15-1+deb9u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://web.mit.edu/kerberos/"
-  ],
-  "Maintainer": [
-    "Sam Hartman <hartmans@debian.org>"
-  ],
-  "Package": [
-    "krb5"
-  ],
-  "Package-List": [
-    "krb5-admin-server deb net optional arch=any krb5-doc deb doc optional arch=all krb5-gss-samples deb net extra arch=any krb5-k5tls deb net extra arch=any krb5-kdc deb net optional arch=any krb5-kdc-ldap deb net extra arch=any krb5-kpropd deb net optional arch=any krb5-locales deb localization standard arch=all krb5-multidev deb libdevel optional arch=any krb5-otp deb net extra arch=any krb5-pkinit deb net extra arch=any krb5-user deb net optional arch=any libgssapi-krb5-2 deb libs standard arch=any libgssrpc4 deb libs standard arch=any libk5crypto3 deb libs standard arch=any libkadm5clnt-mit11 deb libs standard arch=any libkadm5srv-mit11 deb libs standard arch=any libkdb5-8 deb libs standard arch=any libkrad-dev deb libdevel extra arch=any libkrad0 deb libs standard arch=any libkrb5-3 deb libs standard arch=any libkrb5-dbg deb debug extra arch=any libkrb5-dev deb libdevel extra arch=any libkrb5support0 deb libs standard arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Russ Allbery <rra@debian.org>, Benjamin Kaduk <kaduk@mit.edu>"
-  ],
-  "Vcs-Browser": [
-    "http://git.debian.org/?p=pkg-k5-afs/debian-krb5-2013.git"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/git/pkg-k5-afs/debian-krb5-2013.git"
-  ],
-  "Version": [
-    "1.15-1+deb9u1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"krb5-user, krb5-kdc, krb5-kdc-ldap, krb5-admin-server, krb5-kpropd, krb5-multidev, libkrb5-dev, libkrb5-dbg, krb5-pkinit, krb5-otp, krb5-k5tls, krb5-doc, libkrb5-3, libgssapi-krb5-2, libgssrpc4, libkadm5srv-mit11, libkadm5clnt-mit11, libk5crypto3, libkdb5-8, libkrb5support0, libkrad0, krb5-gss-samples, krb5-locales, libkrad-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), byacc | bison, comerr-dev, docbook-to-man, doxygen, libkeyutils-dev [linux-any], libldap2-dev, libncurses5-dev, libssl-dev, ss-dev, libverto-dev (>= 0.2.4), pkg-config, dh-systemd"
+	],
+	"Build-Depends-Indep": [
+		"python, python-cheetah, python-lxml, python-sphinx, doxygen-latex, texlive-generic-extra"
+	],
+	"Checksums-Sha256": [
+		"cb69444c826f380c9d3ea7c5e6bf04105ca2fceb26ecc14b293f458f337f34c2 3373 krb5_1.15-1+deb9u1.dsc fd34752774c808ab4f6f864f935c49945f5a56b62240b1ad4ab1af7b4ded127c 9327157 krb5_1.15.orig.tar.gz f04183b2ecfd0fe488975338eb4f900d5f605c81a9ae279451ceda948d99a21c 144944 krb5_1.15-1+deb9u1.debian.tar.xz"
+	],
+	"Dgit": [
+		"46d7b68453db32bc00a8b3a2d4a79ea15f6e1771 debian archive/debian/1.15-1+deb9u1 https://git.dgit.debian.org/krb5"
+	],
+	"Directory": [
+		"pool/main/k/krb5"
+	],
+	"Files": [
+		"03dd0ab3bfb4c70bd8bea0437db65194 3373 krb5_1.15-1+deb9u1.dsc cd43a3316ebbb86b2a9020b485b1a819 9327157 krb5_1.15.orig.tar.gz 981da9e09bcd891263f0a05d4789e7fe 144944 krb5_1.15-1+deb9u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://web.mit.edu/kerberos/"
+	],
+	"Maintainer": [
+		"Sam Hartman <hartmans@debian.org>"
+	],
+	"Package": [
+		"krb5"
+	],
+	"Package-List": [
+		"krb5-admin-server deb net optional arch=any krb5-doc deb doc optional arch=all krb5-gss-samples deb net extra arch=any krb5-k5tls deb net extra arch=any krb5-kdc deb net optional arch=any krb5-kdc-ldap deb net extra arch=any krb5-kpropd deb net optional arch=any krb5-locales deb localization standard arch=all krb5-multidev deb libdevel optional arch=any krb5-otp deb net extra arch=any krb5-pkinit deb net extra arch=any krb5-user deb net optional arch=any libgssapi-krb5-2 deb libs standard arch=any libgssrpc4 deb libs standard arch=any libk5crypto3 deb libs standard arch=any libkadm5clnt-mit11 deb libs standard arch=any libkadm5srv-mit11 deb libs standard arch=any libkdb5-8 deb libs standard arch=any libkrad-dev deb libdevel extra arch=any libkrad0 deb libs standard arch=any libkrb5-3 deb libs standard arch=any libkrb5-dbg deb debug extra arch=any libkrb5-dev deb libdevel extra arch=any libkrb5support0 deb libs standard arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Russ Allbery <rra@debian.org>, Benjamin Kaduk <kaduk@mit.edu>"
+	],
+	"Vcs-Browser": [
+		"http://git.debian.org/?p=pkg-k5-afs/debian-krb5-2013.git"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/git/pkg-k5-afs/debian-krb5-2013.git"
+	],
+	"Version": [
+		"1.15-1+deb9u1"
+	]
 }

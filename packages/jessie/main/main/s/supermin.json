@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "linux-any all"
-  ],
-  "Binary": [
-    "supermin, febootstrap"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-autoreconf, gawk, pkg-config, apt, ocaml-nox, ocaml-findlib, dh-ocaml, perl, comerr-dev, e2fslibs-dev, zlib1g-dev, liblzma-dev, cpio, augeas-tools, libhivex-bin, linux-image-versatile [armel], linux-image-armmp [armhf], linux-image-arm64 [arm64], linux-image-4kc-malta [mips mipsel] | linux-image-5kc-malta [mips mipsel], linux-image-s390x [s390x], linux-image-powerpc [powerpc], linux-image-powerpc64le [ppc64el], linux-image-sparc64 [sparc], linux-image-amd64 [amd64], linux-image-486 [i386] | linux-image-686-pae [i386]"
-  ],
-  "Checksums-Sha1": [
-    "87823ebf0f34a4550e0ea7cbbde12ab1171dc9b0 1873 supermin_5.1.11-1.dsc 183d8361c5a55ec726ae1b1e31e39dc8c58ec461 513163 supermin_5.1.11.orig.tar.gz abe4a8f79abffb6a57dad197512211e4294d2c31 5256 supermin_5.1.11-1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "9b392990b164fc32ea6c4252f6c74f37010a6cfadbae890396b386f257e66e20 1873 supermin_5.1.11-1.dsc 0968859fe76a76f01d1f2cbcdf5dd37e91d2687df7c2c9b895430195fe8f81fd 513163 supermin_5.1.11.orig.tar.gz 926de704ca8f89e9dd9c4185bc56103c76c75ed3fda485249e829ba2feda4792 5256 supermin_5.1.11-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/s/supermin"
-  ],
-  "Files": [
-    "c344ba81a059b6110fd2d96fbb4def49 1873 supermin_5.1.11-1.dsc 5843cd7016022d4944227c3019c8b225 513163 supermin_5.1.11.orig.tar.gz 0a4646cd5b5ff6a6cddae6b1ebed94f7 5256 supermin_5.1.11-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://people.redhat.com/~rjones/supermin/"
-  ],
-  "Maintainer": [
-    "Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "supermin"
-  ],
-  "Package-List": [
-    "febootstrap deb oldlibs extra arch=all supermin deb admin optional arch=linux-any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Hilko Bengen <bengen@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://git.debian.org/?p=pkg-libvirt/supermin.git"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/git/pkg-libvirt/supermin.git"
-  ],
-  "Version": [
-    "5.1.11-1"
-  ]
+	"Architecture": [
+		"linux-any all"
+	],
+	"Binary": [
+		"supermin, febootstrap"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-autoreconf, gawk, pkg-config, apt, ocaml-nox, ocaml-findlib, dh-ocaml, perl, comerr-dev, e2fslibs-dev, zlib1g-dev, liblzma-dev, cpio, augeas-tools, libhivex-bin, linux-image-versatile [armel], linux-image-armmp [armhf], linux-image-arm64 [arm64], linux-image-4kc-malta [mips mipsel] | linux-image-5kc-malta [mips mipsel], linux-image-s390x [s390x], linux-image-powerpc [powerpc], linux-image-powerpc64le [ppc64el], linux-image-sparc64 [sparc], linux-image-amd64 [amd64], linux-image-486 [i386] | linux-image-686-pae [i386]"
+	],
+	"Checksums-Sha1": [
+		"87823ebf0f34a4550e0ea7cbbde12ab1171dc9b0 1873 supermin_5.1.11-1.dsc 183d8361c5a55ec726ae1b1e31e39dc8c58ec461 513163 supermin_5.1.11.orig.tar.gz abe4a8f79abffb6a57dad197512211e4294d2c31 5256 supermin_5.1.11-1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"9b392990b164fc32ea6c4252f6c74f37010a6cfadbae890396b386f257e66e20 1873 supermin_5.1.11-1.dsc 0968859fe76a76f01d1f2cbcdf5dd37e91d2687df7c2c9b895430195fe8f81fd 513163 supermin_5.1.11.orig.tar.gz 926de704ca8f89e9dd9c4185bc56103c76c75ed3fda485249e829ba2feda4792 5256 supermin_5.1.11-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/s/supermin"
+	],
+	"Files": [
+		"c344ba81a059b6110fd2d96fbb4def49 1873 supermin_5.1.11-1.dsc 5843cd7016022d4944227c3019c8b225 513163 supermin_5.1.11.orig.tar.gz 0a4646cd5b5ff6a6cddae6b1ebed94f7 5256 supermin_5.1.11-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://people.redhat.com/~rjones/supermin/"
+	],
+	"Maintainer": [
+		"Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"supermin"
+	],
+	"Package-List": [
+		"febootstrap deb oldlibs extra arch=all supermin deb admin optional arch=linux-any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Hilko Bengen <bengen@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://git.debian.org/?p=pkg-libvirt/supermin.git"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/git/pkg-libvirt/supermin.git"
+	],
+	"Version": [
+		"5.1.11-1"
+	]
 }

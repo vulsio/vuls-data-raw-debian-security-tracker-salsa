@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "nfs-kernel-server, nfs-common"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 7), libwrap0-dev, libevent-dev, libnfsidmap-dev (>= 0.24), libkrb5-dev, libgssglue-dev (>= 0.3), libblkid-dev, libkeyutils-dev, pkg-config, libldap2-dev, libcap-dev, libtirpc-dev, libdevmapper-dev, dh-autoreconf, libmount-dev"
-  ],
-  "Checksums-Sha1": [
-    "e12d056ac347f2ca2bdd71af3f537d770b5dbb4d 2244 nfs-utils_1.2.6-4.dsc 144634a4b5b3ad12c836f5dbcb49c62017035b96 755305 nfs-utils_1.2.6.orig.tar.bz2 ecce84b044fca647feb30bec64fdf39427e776ad 39545 nfs-utils_1.2.6-4.debian.tar.bz2"
-  ],
-  "Checksums-Sha256": [
-    "96e6be52317f30ad86e8dd54eebf4eda403c44e4fba3fbb17ea2aacdddfbfdb3 2244 nfs-utils_1.2.6-4.dsc 70267288500408495085b7c54a667c4e8cfde5882f3193da095fc7dad2da0b83 755305 nfs-utils_1.2.6.orig.tar.bz2 3b0ddf1c48d27aaedfd7c15e30301bbbce192024c30978107bfb6ee3ec421611 39545 nfs-utils_1.2.6-4.debian.tar.bz2"
-  ],
-  "Directory": [
-    "pool/main/n/nfs-utils"
-  ],
-  "Files": [
-    "d47f0e26e17d2bd12efe0cf5a6cf9f27 2244 nfs-utils_1.2.6-4.dsc 8be543ca270c2234ff18f8c8d35e0d37 755305 nfs-utils_1.2.6.orig.tar.bz2 37dba20026ed7f6778ec1ef85a254b70 39545 nfs-utils_1.2.6-4.debian.tar.bz2"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://nfs.sourceforge.net/"
-  ],
-  "Maintainer": [
-    "Debian kernel team <debian-kernel@lists.debian.org>"
-  ],
-  "Package": [
-    "nfs-utils"
-  ],
-  "Package-List": [
-    "nfs-common deb net standard nfs-kernel-server deb net optional"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.0"
-  ],
-  "Uploaders": [
-    "Anibal Monsalve Salazar <anibal@debian.org>, Ben Hutchings <ben@decadent.org.uk>, Luk Claes <luk@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://git.debian.org/?p=kernel/nfs-utils.git"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/kernel/nfs-utils.git"
-  ],
-  "Version": [
-    "1:1.2.6-4"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"nfs-kernel-server, nfs-common"
+	],
+	"Build-Depends": [
+		"debhelper (>= 7), libwrap0-dev, libevent-dev, libnfsidmap-dev (>= 0.24), libkrb5-dev, libgssglue-dev (>= 0.3), libblkid-dev, libkeyutils-dev, pkg-config, libldap2-dev, libcap-dev, libtirpc-dev, libdevmapper-dev, dh-autoreconf, libmount-dev"
+	],
+	"Checksums-Sha1": [
+		"e12d056ac347f2ca2bdd71af3f537d770b5dbb4d 2244 nfs-utils_1.2.6-4.dsc 144634a4b5b3ad12c836f5dbcb49c62017035b96 755305 nfs-utils_1.2.6.orig.tar.bz2 ecce84b044fca647feb30bec64fdf39427e776ad 39545 nfs-utils_1.2.6-4.debian.tar.bz2"
+	],
+	"Checksums-Sha256": [
+		"96e6be52317f30ad86e8dd54eebf4eda403c44e4fba3fbb17ea2aacdddfbfdb3 2244 nfs-utils_1.2.6-4.dsc 70267288500408495085b7c54a667c4e8cfde5882f3193da095fc7dad2da0b83 755305 nfs-utils_1.2.6.orig.tar.bz2 3b0ddf1c48d27aaedfd7c15e30301bbbce192024c30978107bfb6ee3ec421611 39545 nfs-utils_1.2.6-4.debian.tar.bz2"
+	],
+	"Directory": [
+		"pool/main/n/nfs-utils"
+	],
+	"Files": [
+		"d47f0e26e17d2bd12efe0cf5a6cf9f27 2244 nfs-utils_1.2.6-4.dsc 8be543ca270c2234ff18f8c8d35e0d37 755305 nfs-utils_1.2.6.orig.tar.bz2 37dba20026ed7f6778ec1ef85a254b70 39545 nfs-utils_1.2.6-4.debian.tar.bz2"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://nfs.sourceforge.net/"
+	],
+	"Maintainer": [
+		"Debian kernel team <debian-kernel@lists.debian.org>"
+	],
+	"Package": [
+		"nfs-utils"
+	],
+	"Package-List": [
+		"nfs-common deb net standard nfs-kernel-server deb net optional"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.0"
+	],
+	"Uploaders": [
+		"Anibal Monsalve Salazar <anibal@debian.org>, Ben Hutchings <ben@decadent.org.uk>, Luk Claes <luk@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://git.debian.org/?p=kernel/nfs-utils.git"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/kernel/nfs-utils.git"
+	],
+	"Version": [
+		"1:1.2.6-4"
+	]
 }

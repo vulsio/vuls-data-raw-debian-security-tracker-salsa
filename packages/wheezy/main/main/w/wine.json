@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "wine, wine-bin, wine64-bin, libwine-dbg, libwine-dev, libwine, libwine-alsa, libwine-bin, libwine-capi, libwine-cms, libwine-gl, libwine-gphoto2, libwine-ldap, libwine-openal, libwine-oss, libwine-print, libwine-sane"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dpkg-dev (>= 1.16.0), flex, bison, libx11-dev | xlibs-dev (<< 4.3), libxext-dev | xlibs-dev (<< 4.3), libxi-dev | xlibs-dev (<< 4.3), libxrandr-dev | xlibs-dev (<< 4.3), libxrender-dev | xlibs-dev (<< 4.3), libxt-dev | xlibs-dev (<< 4.3), libxkbfile-dev | xlibs-static-dev (<< 6) | xlibs-dev (<< 4.3), libxxf86dga-dev | xlibs-static-dev (<< 6) | xlibs-dev (<< 4.3), libxxf86vm-dev | xlibs-static-dev (<< 6) | xlibs-dev (<< 4.3), libxinerama-dev | xlibs-static-dev (<< 6) | xlibs-dev (<< 4.3), libxcomposite-dev | xlibs-static-dev (<< 6) | xlibs-dev (<< 4.3), libgl1-mesa-dev | xlibmesa-gl-dev | xlibmesa-dev (<< 4.3) | libgl-dev, libglu1-mesa-dev | libglu1-xorg-dev | xlibmesa-glu-dev | xlibmesa-dev (<= 4.2.1-4) | libglu-dev, freeglut3-dev | libglut-dev | glutg3-dev, libxmu-dev | xlibs-dev (<< 4.3), libxcursor-dev | xlibs-dev (<< 4.3), libncurses5-dev, libcups2-dev | libcupsys2-dev, libjpeg8-dev | libjpeg62-dev | libjpeg-dev, libpng-dev | libpng3-dev | libpng12-dev, libfreetype6-dev, libfontconfig1-dev, libopenal-dev, libasound2-dev, oss4-dev, libsane-dev, libgsm1-dev, libmpg123-dev, libcapi20-dev (>= 1:3.3.0.20041024-2) [linux-any], libdbus-1-dev | dbus-1-dev, libgphoto2-2-dev, liblcms1-dev, libldap2-dev, libssl-dev, libgnutls-dev, libxml2-dev, libxslt1-dev, unixodbc-dev, prelink [linux-any], dctrl-tools | grep-dctrl, lzma, sharutils, gcc (>= 4.4)"
-  ],
-  "Checksums-Sha1": [
-    "d8eee0af5b973389441934d0ef7657f8b00763c8 3379 wine_1.4.1-4.dsc c3fabd680a55ee34ca7cc3a55d67a8d8b405efae 26636630 wine_1.4.1.orig.tar.gz a78092106a6f3f3c12566a9e07a86bd29ecb1d98 74799 wine_1.4.1-4.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "9dfa68f3ff30023a0e6393922499606f13dc3186e654b840e511f49ba05b8be6 3379 wine_1.4.1-4.dsc f9f67b8a7e2bcb1202cfc4023db111f7cfe0b96bc1970b6c1ef3d1782c27616d 26636630 wine_1.4.1.orig.tar.gz fc65e23d905bda8876e5856654469756bef36a38fe96a28e6cecae3de5f26c9e 74799 wine_1.4.1-4.diff.gz"
-  ],
-  "Directory": [
-    "pool/main/w/wine"
-  ],
-  "Files": [
-    "680169ad7932c1987e8f57a36fecb1ef 3379 wine_1.4.1-4.dsc cc9434cd24fd22a80bf8a0cf6971062d 26636630 wine_1.4.1.orig.tar.gz 1ccfa1d06aebcda329e1af38eaa98a74 74799 wine_1.4.1-4.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Homepage": [
-    "http://www.winehq.org/"
-  ],
-  "Maintainer": [
-    "Debian Wine Party <pkg-wine-party@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "wine"
-  ],
-  "Package-List": [
-    "libwine deb libs optional libwine-alsa deb libs optional libwine-bin deb libs optional libwine-capi deb libs extra libwine-cms deb libs optional libwine-dbg deb debug extra libwine-dev deb libdevel optional libwine-gl deb libs optional libwine-gphoto2 deb libs optional libwine-ldap deb libs optional libwine-openal deb libs optional libwine-oss deb libs optional libwine-print deb libs optional libwine-sane deb libs optional wine deb otherosfs optional wine-bin deb otherosfs optional wine64-bin deb otherosfs optional"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "otherosfs"
-  ],
-  "Standards-Version": [
-    "3.9.2"
-  ],
-  "Uploaders": [
-    "Ove Kaaven <ovek@arcticnet.no>, Arthur Loiret <arthur.loiret@gmail.com>, Michael Gilbert <mgilbert@debian.org>, Hilko Bengen <bengen@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "http://git.debian.org/?p=pkg-wine/wine.git"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/git/pkg-wine/wine.git"
-  ],
-  "Version": [
-    "1.4.1-4"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"wine, wine-bin, wine64-bin, libwine-dbg, libwine-dev, libwine, libwine-alsa, libwine-bin, libwine-capi, libwine-cms, libwine-gl, libwine-gphoto2, libwine-ldap, libwine-openal, libwine-oss, libwine-print, libwine-sane"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dpkg-dev (>= 1.16.0), flex, bison, libx11-dev | xlibs-dev (<< 4.3), libxext-dev | xlibs-dev (<< 4.3), libxi-dev | xlibs-dev (<< 4.3), libxrandr-dev | xlibs-dev (<< 4.3), libxrender-dev | xlibs-dev (<< 4.3), libxt-dev | xlibs-dev (<< 4.3), libxkbfile-dev | xlibs-static-dev (<< 6) | xlibs-dev (<< 4.3), libxxf86dga-dev | xlibs-static-dev (<< 6) | xlibs-dev (<< 4.3), libxxf86vm-dev | xlibs-static-dev (<< 6) | xlibs-dev (<< 4.3), libxinerama-dev | xlibs-static-dev (<< 6) | xlibs-dev (<< 4.3), libxcomposite-dev | xlibs-static-dev (<< 6) | xlibs-dev (<< 4.3), libgl1-mesa-dev | xlibmesa-gl-dev | xlibmesa-dev (<< 4.3) | libgl-dev, libglu1-mesa-dev | libglu1-xorg-dev | xlibmesa-glu-dev | xlibmesa-dev (<= 4.2.1-4) | libglu-dev, freeglut3-dev | libglut-dev | glutg3-dev, libxmu-dev | xlibs-dev (<< 4.3), libxcursor-dev | xlibs-dev (<< 4.3), libncurses5-dev, libcups2-dev | libcupsys2-dev, libjpeg8-dev | libjpeg62-dev | libjpeg-dev, libpng-dev | libpng3-dev | libpng12-dev, libfreetype6-dev, libfontconfig1-dev, libopenal-dev, libasound2-dev, oss4-dev, libsane-dev, libgsm1-dev, libmpg123-dev, libcapi20-dev (>= 1:3.3.0.20041024-2) [linux-any], libdbus-1-dev | dbus-1-dev, libgphoto2-2-dev, liblcms1-dev, libldap2-dev, libssl-dev, libgnutls-dev, libxml2-dev, libxslt1-dev, unixodbc-dev, prelink [linux-any], dctrl-tools | grep-dctrl, lzma, sharutils, gcc (>= 4.4)"
+	],
+	"Checksums-Sha1": [
+		"d8eee0af5b973389441934d0ef7657f8b00763c8 3379 wine_1.4.1-4.dsc c3fabd680a55ee34ca7cc3a55d67a8d8b405efae 26636630 wine_1.4.1.orig.tar.gz a78092106a6f3f3c12566a9e07a86bd29ecb1d98 74799 wine_1.4.1-4.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"9dfa68f3ff30023a0e6393922499606f13dc3186e654b840e511f49ba05b8be6 3379 wine_1.4.1-4.dsc f9f67b8a7e2bcb1202cfc4023db111f7cfe0b96bc1970b6c1ef3d1782c27616d 26636630 wine_1.4.1.orig.tar.gz fc65e23d905bda8876e5856654469756bef36a38fe96a28e6cecae3de5f26c9e 74799 wine_1.4.1-4.diff.gz"
+	],
+	"Directory": [
+		"pool/main/w/wine"
+	],
+	"Files": [
+		"680169ad7932c1987e8f57a36fecb1ef 3379 wine_1.4.1-4.dsc cc9434cd24fd22a80bf8a0cf6971062d 26636630 wine_1.4.1.orig.tar.gz 1ccfa1d06aebcda329e1af38eaa98a74 74799 wine_1.4.1-4.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Homepage": [
+		"http://www.winehq.org/"
+	],
+	"Maintainer": [
+		"Debian Wine Party <pkg-wine-party@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"wine"
+	],
+	"Package-List": [
+		"libwine deb libs optional libwine-alsa deb libs optional libwine-bin deb libs optional libwine-capi deb libs extra libwine-cms deb libs optional libwine-dbg deb debug extra libwine-dev deb libdevel optional libwine-gl deb libs optional libwine-gphoto2 deb libs optional libwine-ldap deb libs optional libwine-openal deb libs optional libwine-oss deb libs optional libwine-print deb libs optional libwine-sane deb libs optional wine deb otherosfs optional wine-bin deb otherosfs optional wine64-bin deb otherosfs optional"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"otherosfs"
+	],
+	"Standards-Version": [
+		"3.9.2"
+	],
+	"Uploaders": [
+		"Ove Kaaven <ovek@arcticnet.no>, Arthur Loiret <arthur.loiret@gmail.com>, Michael Gilbert <mgilbert@debian.org>, Hilko Bengen <bengen@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"http://git.debian.org/?p=pkg-wine/wine.git"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/git/pkg-wine/wine.git"
+	],
+	"Version": [
+		"1.4.1-4"
+	]
 }

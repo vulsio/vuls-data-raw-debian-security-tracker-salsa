@@ -1,50 +1,50 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "gcc-4.3-base, libgcc1, libgcc1-dbg, libgcc2, libgcc2-dbg, libgcc4, libgcc4-dbg, lib64gcc1, lib64gcc1-dbg, lib32gcc1, lib32gcc1-dbg, libn32gcc1, libn32gcc1-dbg, gcc-4.3, gcc-4.3-multilib, gcc-4.3-hppa64, gcc-4.3-spu, g++-4.3-spu, gfortran-4.3-spu, cpp-4.3, gcc-4.3-locales, g++-4.3, g++-4.3-multilib, libmudflap0, libmudflap0-dbg, lib32mudflap0, lib32mudflap0-dbg, lib64mudflap0, lib64mudflap0-dbg, libn32mudflap0, libn32mudflap0-dbg, libmudflap0-4.3-dev, libgomp1, libgomp1-dbg, lib32gomp1, lib32gomp1-dbg, lib64gomp1, lib64gomp1-dbg, libn32gomp1, libn32gomp1-dbg, protoize, gobjc++-4.3, gobjc++-4.3-multilib, gobjc-4.3, gobjc-4.3-multilib, libobjc2, libobjc2-dbg, lib64objc2, lib64objc2-dbg, lib32objc2, lib32objc2-dbg, libn32objc2, libn32objc2-dbg, gfortran-4.3, gfortran-4.3-multilib, libgfortran3, libgfortran3-dbg, lib64gfortran3, lib64gfortran3-dbg, lib32gfortran3, lib32gfortran3-dbg, libn32gfortran3, libn32gfortran3-dbg, libstdc++6, lib32stdc++6, lib64stdc++6, libn32stdc++6, libstdc++6-4.3-dev, libstdc++6-4.3-pic, libstdc++6-4.3-dbg, lib32stdc++6-4.3-dbg, lib64stdc++6-4.3-dbg, libn32stdc++6-4.3-dbg, libstdc++6-4.3-doc, gcc-4.3-soft-float, fixincludes, gcc-4.3-source"
-  ],
-  "Build-Depends": [
-    "dpkg-dev (>= 1.14.15), debhelper (>= 5.0.62), gcc-multilib [amd64 i386 mips mipsel powerpc ppc64 s390 sparc kfreebsd-amd64], libc6.1-dev (>= 2.5) [alpha ia64] | libc0.3-dev (>= 2.5) [hurd-i386] | libc0.1-dev (>= 2.5) [kfreebsd-i386 kfreebsd-amd64] | libc6-dev (>= 2.5), libc6-dev-amd64 [i386], libc6-dev-sparc64 [sparc], libc6-dev-s390x [s390], libc6-dev-i386 [amd64], libc6-dev-powerpc [ppc64], libc6-dev-ppc64 [powerpc], libc0.1-dev-i386 [kfreebsd-amd64], lib32gcc1 [amd64 ppc64 kfreebsd-amd64], lib64gcc1 [i386 powerpc sparc s390], libc6-dev-mips64 [mips mipsel], libc6-dev-mipsn32 [mips mipsel], autogen, libunwind7-dev (>= 0.98.5-6) [ia64], libatomic-ops-dev [ia64], m4, autoconf, automake1.9, libtool, gawk, expect-tcl8.3 [hppa], dejagnu [!none !hurd-i386], lzma, binutils (>= 2.18.1~cvs20080103-2) [mips mipsel] | binutils-multiarch (>= 2.18.1~cvs20080103-2) [mips mipsel], binutils (>= 2.17cvs20070426) | binutils-multiarch (>= 2.17cvs20070426), binutils-hppa64 (>= 2.17cvs20070426) [hppa], gperf (>= 3.0.1), bison (>= 1:2.3), flex, gettext, texinfo (>= 4.3), libmpfr-dev (>= 2.3.0), locales [!hurd-i386 !m68k], procps [!hurd-i386], sharutils, binutils-spu (>= 2.18.1~cvs20080103-3) [powerpc ppc64], newlib-spu (>= 1.16.0) [powerpc ppc64], realpath (>= 1.9.12), chrpath, lsb-release, make (>= 3.81)"
-  ],
-  "Build-Depends-Indep": [
-    "doxygen (>= 1.4.2), graphviz (>= 2.2), gsfonts-x11, texlive-latex-base"
-  ],
-  "Checksums-Sha1": [
-    "7cdb0efeba73f3562f78f23d74d2602067976823 3578 gcc-4.3_4.3.2-1.1.dsc 6bb62276d022a3890da1555c607482bf21ba37f4 44412030 gcc-4.3_4.3.2.orig.tar.gz a3dfe2b464d93eafe0bf2784cfc311ebc1ee94a5 723458 gcc-4.3_4.3.2-1.1.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "7a636fe2c100ca1fe2f4ae4d03eeefe266b598463313bca0b71aa0b27d6a36bc 3578 gcc-4.3_4.3.2-1.1.dsc b703a501155ec32c6113bed3a8a47a4ae34cd8548986b065d482c7b666c43bff 44412030 gcc-4.3_4.3.2.orig.tar.gz 67549d953345628c9997502451a6d1252497e7af9043aac76e07ec222a7a99e1 723458 gcc-4.3_4.3.2-1.1.diff.gz"
-  ],
-  "Directory": [
-    "pool/main/g/gcc-4.3"
-  ],
-  "Files": [
-    "0deca48ff022751408cde85d0f60182f 3578 gcc-4.3_4.3.2-1.1.dsc 9972328e49f224b2c55419bf2d93face 44412030 gcc-4.3_4.3.2.orig.tar.gz b9c50b4d01c89241a9bc1e17d003c97d 723458 gcc-4.3_4.3.2-1.1.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Maintainer": [
-    "Debian GCC Maintainers <debian-gcc@lists.debian.org>"
-  ],
-  "Package": [
-    "gcc-4.3"
-  ],
-  "Priority": [
-    "required"
-  ],
-  "Section": [
-    "devel"
-  ],
-  "Standards-Version": [
-    "3.7.3"
-  ],
-  "Uploaders": [
-    "Matthias Klose <doko@debian.org>"
-  ],
-  "Version": [
-    "4.3.2-1.1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"gcc-4.3-base, libgcc1, libgcc1-dbg, libgcc2, libgcc2-dbg, libgcc4, libgcc4-dbg, lib64gcc1, lib64gcc1-dbg, lib32gcc1, lib32gcc1-dbg, libn32gcc1, libn32gcc1-dbg, gcc-4.3, gcc-4.3-multilib, gcc-4.3-hppa64, gcc-4.3-spu, g++-4.3-spu, gfortran-4.3-spu, cpp-4.3, gcc-4.3-locales, g++-4.3, g++-4.3-multilib, libmudflap0, libmudflap0-dbg, lib32mudflap0, lib32mudflap0-dbg, lib64mudflap0, lib64mudflap0-dbg, libn32mudflap0, libn32mudflap0-dbg, libmudflap0-4.3-dev, libgomp1, libgomp1-dbg, lib32gomp1, lib32gomp1-dbg, lib64gomp1, lib64gomp1-dbg, libn32gomp1, libn32gomp1-dbg, protoize, gobjc++-4.3, gobjc++-4.3-multilib, gobjc-4.3, gobjc-4.3-multilib, libobjc2, libobjc2-dbg, lib64objc2, lib64objc2-dbg, lib32objc2, lib32objc2-dbg, libn32objc2, libn32objc2-dbg, gfortran-4.3, gfortran-4.3-multilib, libgfortran3, libgfortran3-dbg, lib64gfortran3, lib64gfortran3-dbg, lib32gfortran3, lib32gfortran3-dbg, libn32gfortran3, libn32gfortran3-dbg, libstdc++6, lib32stdc++6, lib64stdc++6, libn32stdc++6, libstdc++6-4.3-dev, libstdc++6-4.3-pic, libstdc++6-4.3-dbg, lib32stdc++6-4.3-dbg, lib64stdc++6-4.3-dbg, libn32stdc++6-4.3-dbg, libstdc++6-4.3-doc, gcc-4.3-soft-float, fixincludes, gcc-4.3-source"
+	],
+	"Build-Depends": [
+		"dpkg-dev (>= 1.14.15), debhelper (>= 5.0.62), gcc-multilib [amd64 i386 mips mipsel powerpc ppc64 s390 sparc kfreebsd-amd64], libc6.1-dev (>= 2.5) [alpha ia64] | libc0.3-dev (>= 2.5) [hurd-i386] | libc0.1-dev (>= 2.5) [kfreebsd-i386 kfreebsd-amd64] | libc6-dev (>= 2.5), libc6-dev-amd64 [i386], libc6-dev-sparc64 [sparc], libc6-dev-s390x [s390], libc6-dev-i386 [amd64], libc6-dev-powerpc [ppc64], libc6-dev-ppc64 [powerpc], libc0.1-dev-i386 [kfreebsd-amd64], lib32gcc1 [amd64 ppc64 kfreebsd-amd64], lib64gcc1 [i386 powerpc sparc s390], libc6-dev-mips64 [mips mipsel], libc6-dev-mipsn32 [mips mipsel], autogen, libunwind7-dev (>= 0.98.5-6) [ia64], libatomic-ops-dev [ia64], m4, autoconf, automake1.9, libtool, gawk, expect-tcl8.3 [hppa], dejagnu [!none !hurd-i386], lzma, binutils (>= 2.18.1~cvs20080103-2) [mips mipsel] | binutils-multiarch (>= 2.18.1~cvs20080103-2) [mips mipsel], binutils (>= 2.17cvs20070426) | binutils-multiarch (>= 2.17cvs20070426), binutils-hppa64 (>= 2.17cvs20070426) [hppa], gperf (>= 3.0.1), bison (>= 1:2.3), flex, gettext, texinfo (>= 4.3), libmpfr-dev (>= 2.3.0), locales [!hurd-i386 !m68k], procps [!hurd-i386], sharutils, binutils-spu (>= 2.18.1~cvs20080103-3) [powerpc ppc64], newlib-spu (>= 1.16.0) [powerpc ppc64], realpath (>= 1.9.12), chrpath, lsb-release, make (>= 3.81)"
+	],
+	"Build-Depends-Indep": [
+		"doxygen (>= 1.4.2), graphviz (>= 2.2), gsfonts-x11, texlive-latex-base"
+	],
+	"Checksums-Sha1": [
+		"7cdb0efeba73f3562f78f23d74d2602067976823 3578 gcc-4.3_4.3.2-1.1.dsc 6bb62276d022a3890da1555c607482bf21ba37f4 44412030 gcc-4.3_4.3.2.orig.tar.gz a3dfe2b464d93eafe0bf2784cfc311ebc1ee94a5 723458 gcc-4.3_4.3.2-1.1.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"7a636fe2c100ca1fe2f4ae4d03eeefe266b598463313bca0b71aa0b27d6a36bc 3578 gcc-4.3_4.3.2-1.1.dsc b703a501155ec32c6113bed3a8a47a4ae34cd8548986b065d482c7b666c43bff 44412030 gcc-4.3_4.3.2.orig.tar.gz 67549d953345628c9997502451a6d1252497e7af9043aac76e07ec222a7a99e1 723458 gcc-4.3_4.3.2-1.1.diff.gz"
+	],
+	"Directory": [
+		"pool/main/g/gcc-4.3"
+	],
+	"Files": [
+		"0deca48ff022751408cde85d0f60182f 3578 gcc-4.3_4.3.2-1.1.dsc 9972328e49f224b2c55419bf2d93face 44412030 gcc-4.3_4.3.2.orig.tar.gz b9c50b4d01c89241a9bc1e17d003c97d 723458 gcc-4.3_4.3.2-1.1.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Maintainer": [
+		"Debian GCC Maintainers <debian-gcc@lists.debian.org>"
+	],
+	"Package": [
+		"gcc-4.3"
+	],
+	"Priority": [
+		"required"
+	],
+	"Section": [
+		"devel"
+	],
+	"Standards-Version": [
+		"3.7.3"
+	],
+	"Uploaders": [
+		"Matthias Klose <doko@debian.org>"
+	],
+	"Version": [
+		"4.3.2-1.1"
+	]
 }

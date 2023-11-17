@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "python2.7, libpython2.7-stdlib, python2.7-minimal, libpython2.7-minimal, libpython2.7, python2.7-examples, python2.7-dev, libpython2.7-dev, libpython2.7-testsuite, idle-python2.7, python2.7-doc, python2.7-dbg, libpython2.7-dbg"
-  ],
-  "Build-Conflicts": [
-    "autoconf2.13, hardening-wrapper, python-cxx-dev, python-xml, python2.7-xml, tcl8.4-dev, tk8.4-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 5), dpkg-dev (>= 1.17.11), gcc (>= 4:4.9.2-1~), quilt, autoconf, autotools-dev, lsb-release, sharutils, libreadline-dev, libtinfo-dev, libncursesw5-dev (>= 5.3), gcc-4.9 (>= 4.9.2-7), tk-dev, blt-dev (>= 2.4z), libssl-dev, zlib1g-dev, libbz2-dev, libexpat1-dev, libbluetooth-dev [linux-any], locales [!armel !avr32 !hppa !ia64 !mipsel], libsqlite3-dev, libffi-dev (>= 3.0.5) [!or1k !avr32], libgpm2 [linux-any], mime-support, netbase, net-tools, bzip2, libdb-dev (<< 1:6.0), libgdbm-dev, python:any, help2man, xvfb, xauth"
-  ],
-  "Build-Depends-Indep": [
-    "python-sphinx"
-  ],
-  "Checksums-Sha1": [
-    "e6c5fd974c901396765b5a708ec206e67dbd628f 3285 python2.7_2.7.9-2+deb8u5.dsc 2eca098bdad3b94f94188f5f4cf78a3345444537 15148821 python2.7_2.7.9.orig.tar.gz 96cf41bc3d750dbec2bd15604b6b99538fa76271 283376 python2.7_2.7.9-2+deb8u5.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "20f901dff6a79b1495922fe081048ce702110f19cf39c6575eb99eec7371a153 3285 python2.7_2.7.9-2+deb8u5.dsc 46454dc4cb20e1f9b85aef63985890fa7e247f5941991761afd97d68e69b1901 15148821 python2.7_2.7.9.orig.tar.gz 7f1201056c9b44d5add74eb2f9a5c64372f8125787efbe45b11e43abc41d1d26 283376 python2.7_2.7.9-2+deb8u5.diff.gz"
-  ],
-  "Directory": [
-    "pool/updates/main/p/python2.7"
-  ],
-  "Files": [
-    "3b2f94901e657ac159ef6e88f1fe8010 3285 python2.7_2.7.9-2+deb8u5.dsc 6c8157ba0f2e705d7ef74593f78e0325 15148821 python2.7_2.7.9.orig.tar.gz 0ce6b5bf283f5e43d35ada68be7b9d28 283376 python2.7_2.7.9-2+deb8u5.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Maintainer": [
-    "Matthias Klose <doko@debian.org>"
-  ],
-  "Package": [
-    "python2.7"
-  ],
-  "Package-List": [
-    "idle-python2.7 deb python optional arch=all libpython2.7 deb libs standard arch=any libpython2.7-dbg deb debug extra arch=any libpython2.7-dev deb libdevel optional arch=any libpython2.7-minimal deb python standard arch=any libpython2.7-stdlib deb python standard arch=any libpython2.7-testsuite deb libdevel optional arch=all python2.7 deb python standard arch=any python2.7-dbg deb debug extra arch=any python2.7-dev deb python optional arch=any python2.7-doc deb doc optional arch=all python2.7-examples deb python optional arch=all python2.7-minimal deb python standard arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "python"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Vcs-Browser": [
-    "https://code.launchpad.net/~doko/python/pkg2.7-debian"
-  ],
-  "Vcs-Bzr": [
-    "http://bazaar.launchpad.net/~doko/python/pkg2.7-debian"
-  ],
-  "Version": [
-    "2.7.9-2+deb8u5"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"python2.7, libpython2.7-stdlib, python2.7-minimal, libpython2.7-minimal, libpython2.7, python2.7-examples, python2.7-dev, libpython2.7-dev, libpython2.7-testsuite, idle-python2.7, python2.7-doc, python2.7-dbg, libpython2.7-dbg"
+	],
+	"Build-Conflicts": [
+		"autoconf2.13, hardening-wrapper, python-cxx-dev, python-xml, python2.7-xml, tcl8.4-dev, tk8.4-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 5), dpkg-dev (>= 1.17.11), gcc (>= 4:4.9.2-1~), quilt, autoconf, autotools-dev, lsb-release, sharutils, libreadline-dev, libtinfo-dev, libncursesw5-dev (>= 5.3), gcc-4.9 (>= 4.9.2-7), tk-dev, blt-dev (>= 2.4z), libssl-dev, zlib1g-dev, libbz2-dev, libexpat1-dev, libbluetooth-dev [linux-any], locales [!armel !avr32 !hppa !ia64 !mipsel], libsqlite3-dev, libffi-dev (>= 3.0.5) [!or1k !avr32], libgpm2 [linux-any], mime-support, netbase, net-tools, bzip2, libdb-dev (<< 1:6.0), libgdbm-dev, python:any, help2man, xvfb, xauth"
+	],
+	"Build-Depends-Indep": [
+		"python-sphinx"
+	],
+	"Checksums-Sha1": [
+		"e6c5fd974c901396765b5a708ec206e67dbd628f 3285 python2.7_2.7.9-2+deb8u5.dsc 2eca098bdad3b94f94188f5f4cf78a3345444537 15148821 python2.7_2.7.9.orig.tar.gz 96cf41bc3d750dbec2bd15604b6b99538fa76271 283376 python2.7_2.7.9-2+deb8u5.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"20f901dff6a79b1495922fe081048ce702110f19cf39c6575eb99eec7371a153 3285 python2.7_2.7.9-2+deb8u5.dsc 46454dc4cb20e1f9b85aef63985890fa7e247f5941991761afd97d68e69b1901 15148821 python2.7_2.7.9.orig.tar.gz 7f1201056c9b44d5add74eb2f9a5c64372f8125787efbe45b11e43abc41d1d26 283376 python2.7_2.7.9-2+deb8u5.diff.gz"
+	],
+	"Directory": [
+		"pool/updates/main/p/python2.7"
+	],
+	"Files": [
+		"3b2f94901e657ac159ef6e88f1fe8010 3285 python2.7_2.7.9-2+deb8u5.dsc 6c8157ba0f2e705d7ef74593f78e0325 15148821 python2.7_2.7.9.orig.tar.gz 0ce6b5bf283f5e43d35ada68be7b9d28 283376 python2.7_2.7.9-2+deb8u5.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Maintainer": [
+		"Matthias Klose <doko@debian.org>"
+	],
+	"Package": [
+		"python2.7"
+	],
+	"Package-List": [
+		"idle-python2.7 deb python optional arch=all libpython2.7 deb libs standard arch=any libpython2.7-dbg deb debug extra arch=any libpython2.7-dev deb libdevel optional arch=any libpython2.7-minimal deb python standard arch=any libpython2.7-stdlib deb python standard arch=any libpython2.7-testsuite deb libdevel optional arch=all python2.7 deb python standard arch=any python2.7-dbg deb debug extra arch=any python2.7-dev deb python optional arch=any python2.7-doc deb doc optional arch=all python2.7-examples deb python optional arch=all python2.7-minimal deb python standard arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"python"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Vcs-Browser": [
+		"https://code.launchpad.net/~doko/python/pkg2.7-debian"
+	],
+	"Vcs-Bzr": [
+		"http://bazaar.launchpad.net/~doko/python/pkg2.7-debian"
+	],
+	"Version": [
+		"2.7.9-2+deb8u5"
+	]
 }

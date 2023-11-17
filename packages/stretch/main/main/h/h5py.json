@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "python-h5py, python-h5py-dbg, python3-h5py, python3-h5py-dbg, python-h5py-doc"
-  ],
-  "Build-Depends": [
-    "cython, cython-dbg, cython3, cython3-dbg, debhelper (>= 10), dh-python, dpkg-dev (>= 1.17.14), libhdf5-dev, python-all-dbg, python-all-dev, python-numpy, python-numpy-dbg, python-pkgconfig, python-setuptools, python-six, python3-all-dbg, python3-all-dev, python3-numpy, python3-numpy-dbg, python3-pkgconfig, python3-setuptools, python3-six, sphinx-common"
-  ],
-  "Build-Depends-Indep": [
-    "python-sphinx <!nodoc>"
-  ],
-  "Checksums-Sha256": [
-    "a5d2bb9ee18f26bd7ead4a87b0741bf4b846c4a9bf44b3758f7cce3d35b0dafc 2670 h5py_2.7.0-1.dsc 79254312df2e6154c4928f5e3b22f7a2847b6e5ffb05ddc33e37b16e76d36310 256471 h5py_2.7.0.orig.tar.gz a24763381a287870ae011ce5cacf1d246c011584489de029703e8b60aec5ef5c 6996 h5py_2.7.0-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/h/h5py"
-  ],
-  "Files": [
-    "152bbe90c96931a46a712dd776b4b1af 2670 h5py_2.7.0-1.dsc f62937f40f68d3b128b3941be239dd93 256471 h5py_2.7.0.orig.tar.gz 58ee9c2f55590c2f5935f9e73a228402 6996 h5py_2.7.0-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.h5py.org/"
-  ],
-  "Maintainer": [
-    "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "h5py"
-  ],
-  "Package-List": [
-    "python-h5py deb python optional arch=any python-h5py-dbg deb debug extra arch=any python-h5py-doc deb doc optional arch=all profile=!nodoc python3-h5py deb python optional arch=any python3-h5py-dbg deb debug extra arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "python"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "python-all, python-all-dbg, python3-all, python3-all-dbg"
-  ],
-  "Uploaders": [
-    "Soeren Sonnenburg <sonne@debian.org>, Ghislain Antony Vaillant <ghisvail@gmail.com>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/debian-science/packages/h5py.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/debian-science/packages/h5py.git"
-  ],
-  "Version": [
-    "2.7.0-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"python-h5py, python-h5py-dbg, python3-h5py, python3-h5py-dbg, python-h5py-doc"
+	],
+	"Build-Depends": [
+		"cython, cython-dbg, cython3, cython3-dbg, debhelper (>= 10), dh-python, dpkg-dev (>= 1.17.14), libhdf5-dev, python-all-dbg, python-all-dev, python-numpy, python-numpy-dbg, python-pkgconfig, python-setuptools, python-six, python3-all-dbg, python3-all-dev, python3-numpy, python3-numpy-dbg, python3-pkgconfig, python3-setuptools, python3-six, sphinx-common"
+	],
+	"Build-Depends-Indep": [
+		"python-sphinx <!nodoc>"
+	],
+	"Checksums-Sha256": [
+		"a5d2bb9ee18f26bd7ead4a87b0741bf4b846c4a9bf44b3758f7cce3d35b0dafc 2670 h5py_2.7.0-1.dsc 79254312df2e6154c4928f5e3b22f7a2847b6e5ffb05ddc33e37b16e76d36310 256471 h5py_2.7.0.orig.tar.gz a24763381a287870ae011ce5cacf1d246c011584489de029703e8b60aec5ef5c 6996 h5py_2.7.0-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/h/h5py"
+	],
+	"Files": [
+		"152bbe90c96931a46a712dd776b4b1af 2670 h5py_2.7.0-1.dsc f62937f40f68d3b128b3941be239dd93 256471 h5py_2.7.0.orig.tar.gz 58ee9c2f55590c2f5935f9e73a228402 6996 h5py_2.7.0-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.h5py.org/"
+	],
+	"Maintainer": [
+		"Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"h5py"
+	],
+	"Package-List": [
+		"python-h5py deb python optional arch=any python-h5py-dbg deb debug extra arch=any python-h5py-doc deb doc optional arch=all profile=!nodoc python3-h5py deb python optional arch=any python3-h5py-dbg deb debug extra arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"python"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"python-all, python-all-dbg, python3-all, python3-all-dbg"
+	],
+	"Uploaders": [
+		"Soeren Sonnenburg <sonne@debian.org>, Ghislain Antony Vaillant <ghisvail@gmail.com>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/debian-science/packages/h5py.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/debian-science/packages/h5py.git"
+	],
+	"Version": [
+		"2.7.0-1"
+	]
 }

@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "linux-any"
-  ],
-  "Binary": [
-    "network-manager, network-manager-dev, libnm-glib4, libnm-glib-dev, libnm-glib-vpn1, libnm-glib-vpn-dev, libnm-util2, libnm-util-dev, network-manager-dbg, gir1.2-networkmanager-1.0"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-systemd (>= 1.14), dh-autoreconf, pkg-config, intltool, libdbus-glib-1-dev (>= 0.100), libdbus-1-dev (>= 1.1), libiw-dev (>= 27+28pre9), libglib2.0-dev (>= 2.32), libnl-3-dev (>= 3.2.8), libnl-route-3-dev (>= 3.2.8), libnl-genl-3-dev (>= 3.2.8), ppp-dev (>= 2.4.6), libpolkit-gobject-1-dev, libgnutls28-dev, libgcrypt11-dev, uuid-dev, systemd (>= 185), libsystemd-dev (>= 209), libudev-dev (>= 165), libgudev-1.0-dev (>= 165), libgirepository1.0-dev (>= 0.10.7-1~), gobject-introspection (>= 0.9.12-4~), libsoup2.4-dev (>= 2.26), gtk-doc-tools, libglib2.0-doc, libmm-glib-dev (>= 0.7.991), libndp-dev, libreadline-dev, libnewt-dev (>= 0.52.15), libteam-dev (>= 1.9)"
-  ],
-  "Checksums-Sha1": [
-    "124f078b4dea8a66873ffa5a68617c8fc98285bd 3393 network-manager_0.9.10.0-7.dsc f670d871d0115d8b4c0bc035245cb309510c7377 2540228 network-manager_0.9.10.0.orig.tar.xz 2e14f9784b1656d743ed51a294064c2c73a2e79e 45972 network-manager_0.9.10.0-7.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "6c835a687e9e3ef5958e7807e4412961a392a6556aee9b1259888710590e8c3a 3393 network-manager_0.9.10.0-7.dsc 66a88346bb04d4f402540281181340313b2ec433e75aa9d9ea13f31697f9487e 2540228 network-manager_0.9.10.0.orig.tar.xz f523d7a87582f9b59074225ffc9dbbc96f0ae41da8df001ce510abd4d898de9b 45972 network-manager_0.9.10.0-7.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/n/network-manager"
-  ],
-  "Files": [
-    "52233b0463426d654a5612c18753dcca 3393 network-manager_0.9.10.0-7.dsc 21b9051dbbd6434df4624a90ca9d71b6 2540228 network-manager_0.9.10.0.orig.tar.xz fb84d1615d970bde7c9936e89210a591 45972 network-manager_0.9.10.0-7.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://wiki.gnome.org/Projects/NetworkManager"
-  ],
-  "Maintainer": [
-    "Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "network-manager"
-  ],
-  "Package-List": [
-    "gir1.2-networkmanager-1.0 deb introspection optional arch=linux-any libnm-glib-dev deb libdevel optional arch=linux-any libnm-glib-vpn-dev deb libdevel optional arch=linux-any libnm-glib-vpn1 deb libs optional arch=linux-any libnm-glib4 deb libs optional arch=linux-any libnm-util-dev deb libdevel optional arch=linux-any libnm-util2 deb libs optional arch=linux-any network-manager deb net optional arch=linux-any network-manager-dbg deb debug extra arch=linux-any network-manager-dev deb devel optional arch=linux-any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Uploaders": [
-    "Michael Biebl <biebl@debian.org>, Sjoerd Simons <sjoerd@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-utopia/network-manager.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-utopia/network-manager.git"
-  ],
-  "Version": [
-    "0.9.10.0-7"
-  ]
+	"Architecture": [
+		"linux-any"
+	],
+	"Binary": [
+		"network-manager, network-manager-dev, libnm-glib4, libnm-glib-dev, libnm-glib-vpn1, libnm-glib-vpn-dev, libnm-util2, libnm-util-dev, network-manager-dbg, gir1.2-networkmanager-1.0"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-systemd (>= 1.14), dh-autoreconf, pkg-config, intltool, libdbus-glib-1-dev (>= 0.100), libdbus-1-dev (>= 1.1), libiw-dev (>= 27+28pre9), libglib2.0-dev (>= 2.32), libnl-3-dev (>= 3.2.8), libnl-route-3-dev (>= 3.2.8), libnl-genl-3-dev (>= 3.2.8), ppp-dev (>= 2.4.6), libpolkit-gobject-1-dev, libgnutls28-dev, libgcrypt11-dev, uuid-dev, systemd (>= 185), libsystemd-dev (>= 209), libudev-dev (>= 165), libgudev-1.0-dev (>= 165), libgirepository1.0-dev (>= 0.10.7-1~), gobject-introspection (>= 0.9.12-4~), libsoup2.4-dev (>= 2.26), gtk-doc-tools, libglib2.0-doc, libmm-glib-dev (>= 0.7.991), libndp-dev, libreadline-dev, libnewt-dev (>= 0.52.15), libteam-dev (>= 1.9)"
+	],
+	"Checksums-Sha1": [
+		"124f078b4dea8a66873ffa5a68617c8fc98285bd 3393 network-manager_0.9.10.0-7.dsc f670d871d0115d8b4c0bc035245cb309510c7377 2540228 network-manager_0.9.10.0.orig.tar.xz 2e14f9784b1656d743ed51a294064c2c73a2e79e 45972 network-manager_0.9.10.0-7.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"6c835a687e9e3ef5958e7807e4412961a392a6556aee9b1259888710590e8c3a 3393 network-manager_0.9.10.0-7.dsc 66a88346bb04d4f402540281181340313b2ec433e75aa9d9ea13f31697f9487e 2540228 network-manager_0.9.10.0.orig.tar.xz f523d7a87582f9b59074225ffc9dbbc96f0ae41da8df001ce510abd4d898de9b 45972 network-manager_0.9.10.0-7.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/n/network-manager"
+	],
+	"Files": [
+		"52233b0463426d654a5612c18753dcca 3393 network-manager_0.9.10.0-7.dsc 21b9051dbbd6434df4624a90ca9d71b6 2540228 network-manager_0.9.10.0.orig.tar.xz fb84d1615d970bde7c9936e89210a591 45972 network-manager_0.9.10.0-7.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://wiki.gnome.org/Projects/NetworkManager"
+	],
+	"Maintainer": [
+		"Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"network-manager"
+	],
+	"Package-List": [
+		"gir1.2-networkmanager-1.0 deb introspection optional arch=linux-any libnm-glib-dev deb libdevel optional arch=linux-any libnm-glib-vpn-dev deb libdevel optional arch=linux-any libnm-glib-vpn1 deb libs optional arch=linux-any libnm-glib4 deb libs optional arch=linux-any libnm-util-dev deb libdevel optional arch=linux-any libnm-util2 deb libs optional arch=linux-any network-manager deb net optional arch=linux-any network-manager-dbg deb debug extra arch=linux-any network-manager-dev deb devel optional arch=linux-any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Uploaders": [
+		"Michael Biebl <biebl@debian.org>, Sjoerd Simons <sjoerd@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-utopia/network-manager.git;a=summary"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-utopia/network-manager.git"
+	],
+	"Version": [
+		"0.9.10.0-7"
+	]
 }

@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-aodh, aodh-common, aodh-api, aodh-evaluator, aodh-notifier, aodh-listener, aodh-expirer, aodh-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-python, dh-systemd, openstack-pkg-tools (>= 40~), po-debconf, python-all, python-pbr (>= 1.6), python-setuptools, python-sphinx"
-  ],
-  "Build-Depends-Indep": [
-    "alembic (>= 0.7.2), git, mongodb, python-babel, python-ceilometerclient (>= 1.5.0), python-coverage, python-croniter, python-fixtures (>= 1.3.1), python-gabbi (>= 0.12.0), python-gnocchiclient (>= 2.1.0), python-hacking (>= 0.10.0), python-happybase, python-jsonschema, python-keystoneclient (>= 1.6.0), python-keystonemiddleware (>= 3.0.0), python-lxml, python-mock, python-oslo.config (>= 1:3.0.0), python-oslo.context (>= 0.2.0), python-oslo.db (>= 1.12.0), python-oslo.i18n (>= 1.5.0), python-oslo.log (>= 1.2.0), python-oslo.messaging (>= 3.0.0), python-oslo.middleware (>= 3.0.0), python-oslo.policy (>= 0.5.0), python-oslo.serialization (>= 1.4.0), python-oslo.service, python-oslo.utils (>= 1.9.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1.5.1), python-pastedeploy, python-pecan (>= 0.8.0), python-psycopg2, python-pymongo (>= 3.0.2), python-pymysql, python-requests (>= 2.5.2), python-retrying, python-six (>= 1.9.0), python-sphinxcontrib-pecanwsme (>= 0.8), python-sphinxcontrib.httpdomain, python-sqlalchemy (>= 0.9.7), python-stevedore (>= 1.5.0), python-tempest-lib (>= 0.6.1), python-testtools (>= 1.4.0), python-tooz (>= 0.16.0), python-tz, python-webob, python-werkzeug, python-wsme (>= 0.8), subunit, testrepository"
-  ],
-  "Checksums-Sha1": [
-    "8a927eb825b7931e98b0c727bcc335649a389743 3672 aodh_2.0.0-2~bpo8+1.dsc 5e6ddce61f741a3cc4bd0ab92f55a74bb3dc2471 136180 aodh_2.0.0.orig.tar.xz 1c7f3b46b10e1fc7d62fb449800612264937cde1 25376 aodh_2.0.0-2~bpo8+1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "467abd658dd668f8b69b32e9ba46bafb6b536e879c9fbf34984d7debca0f2663 3672 aodh_2.0.0-2~bpo8+1.dsc 3aa340d342663cd40ab390e208199351da4850cd62cc9314ac404fcfae3034c4 136180 aodh_2.0.0.orig.tar.xz 3bcb698db1ecd5485ed39d6c0625560e9e2ce81ee4de8d1258e2d1b9b5bdf8d8 25376 aodh_2.0.0-2~bpo8+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/a/aodh"
-  ],
-  "Files": [
-    "e1fa883161dd7142805373146e406606 3672 aodh_2.0.0-2~bpo8+1.dsc bf958b997b1fa7da0124764e662657dd 136180 aodh_2.0.0.orig.tar.xz c22a64aa3e15c34d92c26b1773593a2a 25376 aodh_2.0.0-2~bpo8+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/openstack/aodh"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "aodh"
-  ],
-  "Package-List": [
-    "aodh-api deb web optional arch=all aodh-common deb web optional arch=all aodh-doc deb doc optional arch=all aodh-evaluator deb web optional arch=all aodh-expirer deb web optional arch=all aodh-listener deb web optional arch=all aodh-notifier deb web optional arch=all python-aodh deb python optional arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/gitweb/?p=openstack/aodh.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/openstack/aodh.git"
-  ],
-  "Version": [
-    "2.0.0-2~bpo8+1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-aodh, aodh-common, aodh-api, aodh-evaluator, aodh-notifier, aodh-listener, aodh-expirer, aodh-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-python, dh-systemd, openstack-pkg-tools (>= 40~), po-debconf, python-all, python-pbr (>= 1.6), python-setuptools, python-sphinx"
+	],
+	"Build-Depends-Indep": [
+		"alembic (>= 0.7.2), git, mongodb, python-babel, python-ceilometerclient (>= 1.5.0), python-coverage, python-croniter, python-fixtures (>= 1.3.1), python-gabbi (>= 0.12.0), python-gnocchiclient (>= 2.1.0), python-hacking (>= 0.10.0), python-happybase, python-jsonschema, python-keystoneclient (>= 1.6.0), python-keystonemiddleware (>= 3.0.0), python-lxml, python-mock, python-oslo.config (>= 1:3.0.0), python-oslo.context (>= 0.2.0), python-oslo.db (>= 1.12.0), python-oslo.i18n (>= 1.5.0), python-oslo.log (>= 1.2.0), python-oslo.messaging (>= 3.0.0), python-oslo.middleware (>= 3.0.0), python-oslo.policy (>= 0.5.0), python-oslo.serialization (>= 1.4.0), python-oslo.service, python-oslo.utils (>= 1.9.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1.5.1), python-pastedeploy, python-pecan (>= 0.8.0), python-psycopg2, python-pymongo (>= 3.0.2), python-pymysql, python-requests (>= 2.5.2), python-retrying, python-six (>= 1.9.0), python-sphinxcontrib-pecanwsme (>= 0.8), python-sphinxcontrib.httpdomain, python-sqlalchemy (>= 0.9.7), python-stevedore (>= 1.5.0), python-tempest-lib (>= 0.6.1), python-testtools (>= 1.4.0), python-tooz (>= 0.16.0), python-tz, python-webob, python-werkzeug, python-wsme (>= 0.8), subunit, testrepository"
+	],
+	"Checksums-Sha1": [
+		"8a927eb825b7931e98b0c727bcc335649a389743 3672 aodh_2.0.0-2~bpo8+1.dsc 5e6ddce61f741a3cc4bd0ab92f55a74bb3dc2471 136180 aodh_2.0.0.orig.tar.xz 1c7f3b46b10e1fc7d62fb449800612264937cde1 25376 aodh_2.0.0-2~bpo8+1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"467abd658dd668f8b69b32e9ba46bafb6b536e879c9fbf34984d7debca0f2663 3672 aodh_2.0.0-2~bpo8+1.dsc 3aa340d342663cd40ab390e208199351da4850cd62cc9314ac404fcfae3034c4 136180 aodh_2.0.0.orig.tar.xz 3bcb698db1ecd5485ed39d6c0625560e9e2ce81ee4de8d1258e2d1b9b5bdf8d8 25376 aodh_2.0.0-2~bpo8+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/a/aodh"
+	],
+	"Files": [
+		"e1fa883161dd7142805373146e406606 3672 aodh_2.0.0-2~bpo8+1.dsc bf958b997b1fa7da0124764e662657dd 136180 aodh_2.0.0.orig.tar.xz c22a64aa3e15c34d92c26b1773593a2a 25376 aodh_2.0.0-2~bpo8+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/openstack/aodh"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"aodh"
+	],
+	"Package-List": [
+		"aodh-api deb web optional arch=all aodh-common deb web optional arch=all aodh-doc deb doc optional arch=all aodh-evaluator deb web optional arch=all aodh-expirer deb web optional arch=all aodh-listener deb web optional arch=all aodh-notifier deb web optional arch=all python-aodh deb python optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/gitweb/?p=openstack/aodh.git;a=summary"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/openstack/aodh.git"
+	],
+	"Version": [
+		"2.0.0-2~bpo8+1"
+	]
 }

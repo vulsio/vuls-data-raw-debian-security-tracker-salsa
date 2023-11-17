@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-gio-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-futures-channel-0.3+default-dev <!nocheck>, librust-futures-core-0.3-dev <!nocheck>, librust-futures-io-0.3+default-dev <!nocheck>, librust-futures-util-0.3-dev <!nocheck>, librust-gio-sys-0.18+default-dev <!nocheck>, librust-glib-0.18+default-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-once-cell-1+default-dev <!nocheck>, librust-pin-project-lite-0.2+default-dev <!nocheck>, librust-smallvec-1+default-dev <!nocheck>, librust-thiserror-1+default-dev <!nocheck>, gir-rust-code-generator <!nocheck>, libgirepository1.0-dev <!nocheck>, xmlstarlet <!nocheck>, rustc (>= 1.70) <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "9596d4b5e54c0a225d95954d2479bf2341128a7f3135f0762e074b49f3888856 2899 rust-gio_0.18.2-3.dsc 57052f84e8e5999b258e8adf8f5f2af0ac69033864936b8b6838321db2f759b1 205555 rust-gio_0.18.2.orig.tar.gz 7111c0c284ceae13719e5f7e62ea2da31fadfb266cfff8d9e769e5105a8f2b07 4180 rust-gio_0.18.2-3.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-gio"
-  ],
-  "Files": [
-    "8be9a0651562b26aecb19689a8bed72e 2899 rust-gio_0.18.2-3.dsc d1988ff1a370680e27e54d73245ca814 205555 rust-gio_0.18.2.orig.tar.gz 81f31b6103426a3a366d4f8f5d3746a8 4180 rust-gio_0.18.2-3.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://gtk-rs.org/"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-gio"
-  ],
-  "Package-List": [
-    "librust-gio-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-futures-0.3+default-dev, librust-futures-util-0.3+default-dev, librust-futures-util-0.3+io-dev, librust-gir-format-check-0.1+default-dev, librust-serial-test-2+default-dev"
-  ],
-  "Uploaders": [
-    "Matthias Geiger <werdahias@riseup.net>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gio"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/gio]"
-  ],
-  "Version": [
-    "0.18.2-3"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-gio-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-futures-channel-0.3+default-dev <!nocheck>, librust-futures-core-0.3-dev <!nocheck>, librust-futures-io-0.3+default-dev <!nocheck>, librust-futures-util-0.3-dev <!nocheck>, librust-gio-sys-0.18+default-dev <!nocheck>, librust-glib-0.18+default-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-once-cell-1+default-dev <!nocheck>, librust-pin-project-lite-0.2+default-dev <!nocheck>, librust-smallvec-1+default-dev <!nocheck>, librust-thiserror-1+default-dev <!nocheck>, gir-rust-code-generator <!nocheck>, libgirepository1.0-dev <!nocheck>, xmlstarlet <!nocheck>, rustc (>= 1.70) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"9596d4b5e54c0a225d95954d2479bf2341128a7f3135f0762e074b49f3888856 2899 rust-gio_0.18.2-3.dsc 57052f84e8e5999b258e8adf8f5f2af0ac69033864936b8b6838321db2f759b1 205555 rust-gio_0.18.2.orig.tar.gz 7111c0c284ceae13719e5f7e62ea2da31fadfb266cfff8d9e769e5105a8f2b07 4180 rust-gio_0.18.2-3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-gio"
+	],
+	"Files": [
+		"8be9a0651562b26aecb19689a8bed72e 2899 rust-gio_0.18.2-3.dsc d1988ff1a370680e27e54d73245ca814 205555 rust-gio_0.18.2.orig.tar.gz 81f31b6103426a3a366d4f8f5d3746a8 4180 rust-gio_0.18.2-3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://gtk-rs.org/"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-gio"
+	],
+	"Package-List": [
+		"librust-gio-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-futures-0.3+default-dev, librust-futures-util-0.3+default-dev, librust-futures-util-0.3+io-dev, librust-gir-format-check-0.1+default-dev, librust-serial-test-2+default-dev"
+	],
+	"Uploaders": [
+		"Matthias Geiger <werdahias@riseup.net>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gio"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/gio]"
+	],
+	"Version": [
+		"0.18.2-3"
+	]
 }

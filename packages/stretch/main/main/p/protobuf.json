@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libprotobuf10, libprotobuf-lite10, libprotobuf-dev, libprotoc10, libprotoc-dev, protobuf-compiler, python-protobuf, python3-protobuf, libprotobuf-java"
-  ],
-  "Build-Depends": [
-    "dpkg-dev (>= 1.16.1~), debhelper (>= 9), dh-autoreconf, g++ (>= 4:4.7), zlib1g-dev, google-mock, libgtest-dev, dh-python, python-all (>= 2.7), libpython-all-dev (>= 2.7), python3-all (>= 3.3), libpython3-all-dev (>= 3.3), python-setuptools, python3-setuptools, python-google-apputils, python3-six, xmlto, unzip"
-  ],
-  "Build-Depends-Indep": [
-    "ant, default-jdk, maven-repo-helper"
-  ],
-  "Checksums-Sha256": [
-    "f64417fd3309530b05db5c56075dd4e6da74d42fd46baff95d2d26cc61956cff 3036 protobuf_3.0.0-9.dsc f5b3563f118f1d3d6e001705fa7082e8fc3bda50038ac3dff787650795734146 3899337 protobuf_3.0.0.orig.tar.gz fa18948e6229d971c5286cb7fd2092fb291cd3e948ba847b032c71a25d2c8017 22828 protobuf_3.0.0-9.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/protobuf"
-  ],
-  "Files": [
-    "6dbdb0deac4732524f6b6a39e6f77f96 3036 protobuf_3.0.0-9.dsc d4f6ca65aadc6310b3872ee421e79fa6 3899337 protobuf_3.0.0.orig.tar.gz 8424b171f6df36f21316fd70b10056b6 22828 protobuf_3.0.0-9.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/google/protobuf/"
-  ],
-  "Maintainer": [
-    "Debian protobuf maintainers <pkg-protobuf-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "protobuf"
-  ],
-  "Package-List": [
-    "libprotobuf-dev deb libdevel optional arch=any libprotobuf-java deb java optional arch=all libprotobuf-lite10 deb libs optional arch=any libprotobuf10 deb libs optional arch=any libprotoc-dev deb libdevel optional arch=any libprotoc10 deb libs optional arch=any protobuf-compiler deb devel optional arch=any python-protobuf deb python optional arch=any python3-protobuf deb python optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "devel"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential, default-jdk, make, pkg-config, python, zlib1g-dev"
-  ],
-  "Uploaders": [
-    "Robert Edmonds <edmonds@debian.org>, Iustin Pop <iustin@debian.org>, Laszlo Boszormenyi (GCS) <gcs@debian.org>, Andrew Pollock <apollock@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-protobuf/pkg-protobuf.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-protobuf/pkg-protobuf.git"
-  ],
-  "Version": [
-    "3.0.0-9"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libprotobuf10, libprotobuf-lite10, libprotobuf-dev, libprotoc10, libprotoc-dev, protobuf-compiler, python-protobuf, python3-protobuf, libprotobuf-java"
+	],
+	"Build-Depends": [
+		"dpkg-dev (>= 1.16.1~), debhelper (>= 9), dh-autoreconf, g++ (>= 4:4.7), zlib1g-dev, google-mock, libgtest-dev, dh-python, python-all (>= 2.7), libpython-all-dev (>= 2.7), python3-all (>= 3.3), libpython3-all-dev (>= 3.3), python-setuptools, python3-setuptools, python-google-apputils, python3-six, xmlto, unzip"
+	],
+	"Build-Depends-Indep": [
+		"ant, default-jdk, maven-repo-helper"
+	],
+	"Checksums-Sha256": [
+		"f64417fd3309530b05db5c56075dd4e6da74d42fd46baff95d2d26cc61956cff 3036 protobuf_3.0.0-9.dsc f5b3563f118f1d3d6e001705fa7082e8fc3bda50038ac3dff787650795734146 3899337 protobuf_3.0.0.orig.tar.gz fa18948e6229d971c5286cb7fd2092fb291cd3e948ba847b032c71a25d2c8017 22828 protobuf_3.0.0-9.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/protobuf"
+	],
+	"Files": [
+		"6dbdb0deac4732524f6b6a39e6f77f96 3036 protobuf_3.0.0-9.dsc d4f6ca65aadc6310b3872ee421e79fa6 3899337 protobuf_3.0.0.orig.tar.gz 8424b171f6df36f21316fd70b10056b6 22828 protobuf_3.0.0-9.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/google/protobuf/"
+	],
+	"Maintainer": [
+		"Debian protobuf maintainers <pkg-protobuf-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"protobuf"
+	],
+	"Package-List": [
+		"libprotobuf-dev deb libdevel optional arch=any libprotobuf-java deb java optional arch=all libprotobuf-lite10 deb libs optional arch=any libprotobuf10 deb libs optional arch=any libprotoc-dev deb libdevel optional arch=any libprotoc10 deb libs optional arch=any protobuf-compiler deb devel optional arch=any python-protobuf deb python optional arch=any python3-protobuf deb python optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"devel"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, default-jdk, make, pkg-config, python, zlib1g-dev"
+	],
+	"Uploaders": [
+		"Robert Edmonds <edmonds@debian.org>, Iustin Pop <iustin@debian.org>, Laszlo Boszormenyi (GCS) <gcs@debian.org>, Andrew Pollock <apollock@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-protobuf/pkg-protobuf.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-protobuf/pkg-protobuf.git"
+	],
+	"Version": [
+		"3.0.0-9"
+	]
 }

@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "ejabberd"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 11~), dh-apparmor, libsqlite3-dev, po-debconf, rebar (>= 2.6.0), erlang-asn1, erlang-base, erlang-base64url (>= 1.0), erlang-crypto, erlang-dev (>= 1:19.2), erlang-eunit, erlang-goldrush (>= 0.1.9), erlang-inets, erlang-jiffy (>= 0.14.8), erlang-jose (>= 1.8.4), erlang-lager (>= 3.6.7), erlang-luerl (>= 1:0.3), erlang-mnesia, erlang-p1-cache-tab (>= 1.0.17), erlang-p1-eimp (>= 1.0.9), erlang-p1-iconv (>= 1.0.10), erlang-p1-mysql (>= 1.0.8), erlang-p1-oauth2 (>= 0.6.3), erlang-p1-pkix (>= 1.0.0), erlang-p1-pam (>= 1.0.4), erlang-p1-pgsql (>= 1.1.6), erlang-p1-sip (>= 1.0.27), erlang-p1-sqlite3 (>= 1.1.6), erlang-p1-stringprep (>= 1.0.14), erlang-p1-stun (>= 1.0.26), erlang-p1-tls (>= 1.0.26), erlang-p1-utils (>= 1.0.13), erlang-p1-xml (>= 1.1.34), erlang-p1-xmpp (>= 1.2.8), erlang-p1-yaml (>= 1.0.17), erlang-p1-zlib (>= 1.0.4), erlang-parsetools, erlang-redis-client (>= 1.0.8), erlang-ssl, erlang-xmerl"
-  ],
-  "Checksums-Sha256": [
-    "0beb111fc76a380782e26224fe02628be29b3afb0a11be8c99531deaf6ab52cf 2986 ejabberd_18.12.1-2~bpo9+1.dsc ccf55d4391f8014c70df5d14bd9f7bdfb247e8a330c112b36d09e0a3f2223acc 1642035 ejabberd_18.12.1.orig.tar.gz b5c4fa8e24d5b0d35b219294000208640a30ae58a2af2913d7541fbbe45f30bc 63660 ejabberd_18.12.1-2~bpo9+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/e/ejabberd"
-  ],
-  "Files": [
-    "b7c25327a31dfac78dc700d99e582e61 2986 ejabberd_18.12.1-2~bpo9+1.dsc 69f0d13ff2ab23ebd45fad0f43624159 1642035 ejabberd_18.12.1.orig.tar.gz 7c47489f771657f6c91db96a75e4362e 63660 ejabberd_18.12.1-2~bpo9+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.ejabberd.im"
-  ],
-  "Maintainer": [
-    "Ejabberd Packaging Team <ejabberd@packages.debian.org>"
-  ],
-  "Package": [
-    "ejabberd"
-  ],
-  "Package-List": [
-    "ejabberd deb net optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.3.0"
-  ],
-  "Uploaders": [
-    "Konstantin Khomoutov <flatworm@users.sourceforge.net>, Philipp Huebner <debalance@debian.org>, Rhonda D'Vine <rhonda@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/ejabberd-packaging-team/ejabberd"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/ejabberd-packaging-team/ejabberd.git"
-  ],
-  "Version": [
-    "18.12.1-2~bpo9+1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"ejabberd"
+	],
+	"Build-Depends": [
+		"debhelper (>= 11~), dh-apparmor, libsqlite3-dev, po-debconf, rebar (>= 2.6.0), erlang-asn1, erlang-base, erlang-base64url (>= 1.0), erlang-crypto, erlang-dev (>= 1:19.2), erlang-eunit, erlang-goldrush (>= 0.1.9), erlang-inets, erlang-jiffy (>= 0.14.8), erlang-jose (>= 1.8.4), erlang-lager (>= 3.6.7), erlang-luerl (>= 1:0.3), erlang-mnesia, erlang-p1-cache-tab (>= 1.0.17), erlang-p1-eimp (>= 1.0.9), erlang-p1-iconv (>= 1.0.10), erlang-p1-mysql (>= 1.0.8), erlang-p1-oauth2 (>= 0.6.3), erlang-p1-pkix (>= 1.0.0), erlang-p1-pam (>= 1.0.4), erlang-p1-pgsql (>= 1.1.6), erlang-p1-sip (>= 1.0.27), erlang-p1-sqlite3 (>= 1.1.6), erlang-p1-stringprep (>= 1.0.14), erlang-p1-stun (>= 1.0.26), erlang-p1-tls (>= 1.0.26), erlang-p1-utils (>= 1.0.13), erlang-p1-xml (>= 1.1.34), erlang-p1-xmpp (>= 1.2.8), erlang-p1-yaml (>= 1.0.17), erlang-p1-zlib (>= 1.0.4), erlang-parsetools, erlang-redis-client (>= 1.0.8), erlang-ssl, erlang-xmerl"
+	],
+	"Checksums-Sha256": [
+		"0beb111fc76a380782e26224fe02628be29b3afb0a11be8c99531deaf6ab52cf 2986 ejabberd_18.12.1-2~bpo9+1.dsc ccf55d4391f8014c70df5d14bd9f7bdfb247e8a330c112b36d09e0a3f2223acc 1642035 ejabberd_18.12.1.orig.tar.gz b5c4fa8e24d5b0d35b219294000208640a30ae58a2af2913d7541fbbe45f30bc 63660 ejabberd_18.12.1-2~bpo9+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/e/ejabberd"
+	],
+	"Files": [
+		"b7c25327a31dfac78dc700d99e582e61 2986 ejabberd_18.12.1-2~bpo9+1.dsc 69f0d13ff2ab23ebd45fad0f43624159 1642035 ejabberd_18.12.1.orig.tar.gz 7c47489f771657f6c91db96a75e4362e 63660 ejabberd_18.12.1-2~bpo9+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.ejabberd.im"
+	],
+	"Maintainer": [
+		"Ejabberd Packaging Team <ejabberd@packages.debian.org>"
+	],
+	"Package": [
+		"ejabberd"
+	],
+	"Package-List": [
+		"ejabberd deb net optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.3.0"
+	],
+	"Uploaders": [
+		"Konstantin Khomoutov <flatworm@users.sourceforge.net>, Philipp Huebner <debalance@debian.org>, Rhonda D'Vine <rhonda@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/ejabberd-packaging-team/ejabberd"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/ejabberd-packaging-team/ejabberd.git"
+	],
+	"Version": [
+		"18.12.1-2~bpo9+1"
+	]
 }

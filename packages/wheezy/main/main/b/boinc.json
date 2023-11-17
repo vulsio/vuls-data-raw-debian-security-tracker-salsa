@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "boinc, boinc-nvidia-cuda, boinc-client, boinc-manager, boinc-dev, boinc-server-maker, boinc-app-examples, boinc-dbg, boinc-cgi-stripchart"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 7.0.50~), po-debconf, dh-buildinfo, pkg-config (>= 0.15), dpkg-dev (>= 1.16.1.1), libtool, autoconf (>= 2.59), autotools-dev, automake1.9 (>= 1.9.3), gettext, docbook2x, docbook-xml, libxml2-utils, zlib1g-dev, libssl-dev, libcurl4-openssl-dev (>= 7.17.1), libsm-dev, libice-dev, libxmu-dev, libxi-dev, libx11-dev, libnotify-dev (>= 0.7.0), freeglut3-dev, libwxgtk2.8-dev, libgtk2.0-dev, libsqlite3-dev, libmysqlclient-dev, python, libfcgi-dev, libjpeg-dev, libxcb-util0-dev, libxss-dev"
-  ],
-  "Checksums-Sha1": [
-    "3f0f72419c261a55e1faf2bca09b2a7899f46a48 2296 boinc_7.0.27+dfsg-5.dsc b7a2e626c565c38e657e6b8ee02bcac3e15d1f1b 33558453 boinc_7.0.27+dfsg.orig.tar.gz 7012672c96e1617a991138612695645272331f7b 191484 boinc_7.0.27+dfsg-5.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "34070fbdeb6916b687f905beefb8f9e81b656001bd97262296c4f227e77e8b60 2296 boinc_7.0.27+dfsg-5.dsc 4bb6c0ee0d3a9fe722cd96a8a76a74043dbcd01d9984ae1da8b505192c00ebf8 33558453 boinc_7.0.27+dfsg.orig.tar.gz 5722e69079568e9fdce1fbff427e71fd7928b0e50ad247459a1ee6401337e5c0 191484 boinc_7.0.27+dfsg-5.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/b/boinc"
-  ],
-  "Dm-Upload-Allowed": [
-    "yes"
-  ],
-  "Files": [
-    "c7244f4849469f5b87d386f75ed28f6f 2296 boinc_7.0.27+dfsg-5.dsc 40dcf14117b81036c489216fea380670 33558453 boinc_7.0.27+dfsg.orig.tar.gz 99807c5c924657b6cae80df5e8bdf9c4 191484 boinc_7.0.27+dfsg-5.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://boinc.berkeley.edu/"
-  ],
-  "Maintainer": [
-    "Debian BOINC Maintainers <pkg-boinc-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "boinc"
-  ],
-  "Package-List": [
-    "boinc deb net optional boinc-app-examples deb net optional boinc-cgi-stripchart deb libs extra boinc-client deb net optional boinc-dbg deb debug extra boinc-dev deb devel optional boinc-manager deb x11 optional boinc-nvidia-cuda deb contrib/net optional boinc-server-maker deb net optional"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Steffen Moeller <moeller@debian.org>, Rene Mayorga <rmayorga@debian.org>, Daniel Hahler <ubuntu@thequod.de>, Guo Yixuan <culu.gyx@gmail.com>"
-  ],
-  "Vcs-Browser": [
-    "http://git.debian.org/?p=pkg-boinc/boinc.git"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/git/pkg-boinc/boinc.git"
-  ],
-  "Version": [
-    "7.0.27+dfsg-5"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"boinc, boinc-nvidia-cuda, boinc-client, boinc-manager, boinc-dev, boinc-server-maker, boinc-app-examples, boinc-dbg, boinc-cgi-stripchart"
+	],
+	"Build-Depends": [
+		"debhelper (>= 7.0.50~), po-debconf, dh-buildinfo, pkg-config (>= 0.15), dpkg-dev (>= 1.16.1.1), libtool, autoconf (>= 2.59), autotools-dev, automake1.9 (>= 1.9.3), gettext, docbook2x, docbook-xml, libxml2-utils, zlib1g-dev, libssl-dev, libcurl4-openssl-dev (>= 7.17.1), libsm-dev, libice-dev, libxmu-dev, libxi-dev, libx11-dev, libnotify-dev (>= 0.7.0), freeglut3-dev, libwxgtk2.8-dev, libgtk2.0-dev, libsqlite3-dev, libmysqlclient-dev, python, libfcgi-dev, libjpeg-dev, libxcb-util0-dev, libxss-dev"
+	],
+	"Checksums-Sha1": [
+		"3f0f72419c261a55e1faf2bca09b2a7899f46a48 2296 boinc_7.0.27+dfsg-5.dsc b7a2e626c565c38e657e6b8ee02bcac3e15d1f1b 33558453 boinc_7.0.27+dfsg.orig.tar.gz 7012672c96e1617a991138612695645272331f7b 191484 boinc_7.0.27+dfsg-5.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"34070fbdeb6916b687f905beefb8f9e81b656001bd97262296c4f227e77e8b60 2296 boinc_7.0.27+dfsg-5.dsc 4bb6c0ee0d3a9fe722cd96a8a76a74043dbcd01d9984ae1da8b505192c00ebf8 33558453 boinc_7.0.27+dfsg.orig.tar.gz 5722e69079568e9fdce1fbff427e71fd7928b0e50ad247459a1ee6401337e5c0 191484 boinc_7.0.27+dfsg-5.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/b/boinc"
+	],
+	"Dm-Upload-Allowed": [
+		"yes"
+	],
+	"Files": [
+		"c7244f4849469f5b87d386f75ed28f6f 2296 boinc_7.0.27+dfsg-5.dsc 40dcf14117b81036c489216fea380670 33558453 boinc_7.0.27+dfsg.orig.tar.gz 99807c5c924657b6cae80df5e8bdf9c4 191484 boinc_7.0.27+dfsg-5.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://boinc.berkeley.edu/"
+	],
+	"Maintainer": [
+		"Debian BOINC Maintainers <pkg-boinc-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"boinc"
+	],
+	"Package-List": [
+		"boinc deb net optional boinc-app-examples deb net optional boinc-cgi-stripchart deb libs extra boinc-client deb net optional boinc-dbg deb debug extra boinc-dev deb devel optional boinc-manager deb x11 optional boinc-nvidia-cuda deb contrib/net optional boinc-server-maker deb net optional"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Steffen Moeller <moeller@debian.org>, Rene Mayorga <rmayorga@debian.org>, Daniel Hahler <ubuntu@thequod.de>, Guo Yixuan <culu.gyx@gmail.com>"
+	],
+	"Vcs-Browser": [
+		"http://git.debian.org/?p=pkg-boinc/boinc.git"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/git/pkg-boinc/boinc.git"
+	],
+	"Version": [
+		"7.0.27+dfsg-5"
+	]
 }

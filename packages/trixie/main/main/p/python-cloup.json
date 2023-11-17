@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python3-cloup, python-cloup-doc"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc, furo <!nodoc>, python3-all, python3-click, python3-pytest <!nocheck>, python3-setuptools, python3-setuptools-scm, python3-sphinx <!nodoc>, python3-sphinx-autoapi <!nodoc>, python3-sphinx-copybutton <!nodoc>, python3-sphinx-issues <!nodoc>, python3-sphinx-panels <!nodoc>"
-  ],
-  "Checksums-Sha256": [
-    "d5b9cd720b514489843ed70b4d3319894d41eb685ffec2659bb6dc718dec4772 3270 python-cloup_3.0.2-1.dsc 315fe1c5160bf95e8e2f39bf6bb89dda356752ea7128a24cf025abd84d0f3005 225377 python-cloup_3.0.2.orig.tar.gz b2b96deaf878b922fe87031664c91d281a28e3bf210867a747c68974d9097698 4584 python-cloup_3.0.2-1.debian.tar.xz"
-  ],
-  "Description": [
-    "Click with option groups Cloup enriches Click with several features that make it more expressive and configurable: * option groups and an (optional) help section for positional arguments * constraints, like mutually_exclusive, that can be applied to option groups or to any group of parameters, even conditionally subcommand aliases * subcommands sections, i.e. the possibility to organize the subcommands of a Group in multiple help sections * a themeable HelpFormatter that: - has more parameters for adjusting widths and spacing, which can be provided at the context and command level use a different layout when the terminal width is below a certain threshold in order to improve readability - suggestions like \"did you mean <subcommand>?\" when you mistype a subcommand Moreover, Cloup improves on IDE support providing decorators with detailed type hints and adding the static methods Context.settings() and HelpFormatter.settings() for creating dictionaries of settings."
-  ],
-  "Directory": [
-    "pool/main/p/python-cloup"
-  ],
-  "Files": [
-    "ec9b4f687cadc469680133573edadc6e 3270 python-cloup_3.0.2-1.dsc bc3d00f00a00f03d002e76f262db3a2b 225377 python-cloup_3.0.2.orig.tar.gz b70089e5ed28d0f3d09285a9a5e951f0 4584 python-cloup_3.0.2-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/janluke/cloup"
-  ],
-  "Maintainer": [
-    "Debian Python Team <team+python@tracker.debian.org>"
-  ],
-  "Package": [
-    "python-cloup"
-  ],
-  "Package-List": [
-    "python-cloup-doc deb doc optional arch=all python3-cloup deb python optional arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest-pkg-pybuild"
-  ],
-  "Uploaders": [
-    "Timo Röhling <roehling@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/python-team/packages/python-cloup"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/python-team/packages/python-cloup.git"
-  ],
-  "Version": [
-    "3.0.2-1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python3-cloup, python-cloup-doc"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc, furo <!nodoc>, python3-all, python3-click, python3-pytest <!nocheck>, python3-setuptools, python3-setuptools-scm, python3-sphinx <!nodoc>, python3-sphinx-autoapi <!nodoc>, python3-sphinx-copybutton <!nodoc>, python3-sphinx-issues <!nodoc>, python3-sphinx-panels <!nodoc>"
+	],
+	"Checksums-Sha256": [
+		"d5b9cd720b514489843ed70b4d3319894d41eb685ffec2659bb6dc718dec4772 3270 python-cloup_3.0.2-1.dsc 315fe1c5160bf95e8e2f39bf6bb89dda356752ea7128a24cf025abd84d0f3005 225377 python-cloup_3.0.2.orig.tar.gz b2b96deaf878b922fe87031664c91d281a28e3bf210867a747c68974d9097698 4584 python-cloup_3.0.2-1.debian.tar.xz"
+	],
+	"Description": [
+		"Click with option groups Cloup enriches Click with several features that make it more expressive and configurable: * option groups and an (optional) help section for positional arguments * constraints, like mutually_exclusive, that can be applied to option groups or to any group of parameters, even conditionally subcommand aliases * subcommands sections, i.e. the possibility to organize the subcommands of a Group in multiple help sections * a themeable HelpFormatter that: - has more parameters for adjusting widths and spacing, which can be provided at the context and command level use a different layout when the terminal width is below a certain threshold in order to improve readability - suggestions like \"did you mean <subcommand>?\" when you mistype a subcommand Moreover, Cloup improves on IDE support providing decorators with detailed type hints and adding the static methods Context.settings() and HelpFormatter.settings() for creating dictionaries of settings."
+	],
+	"Directory": [
+		"pool/main/p/python-cloup"
+	],
+	"Files": [
+		"ec9b4f687cadc469680133573edadc6e 3270 python-cloup_3.0.2-1.dsc bc3d00f00a00f03d002e76f262db3a2b 225377 python-cloup_3.0.2.orig.tar.gz b70089e5ed28d0f3d09285a9a5e951f0 4584 python-cloup_3.0.2-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/janluke/cloup"
+	],
+	"Maintainer": [
+		"Debian Python Team <team+python@tracker.debian.org>"
+	],
+	"Package": [
+		"python-cloup"
+	],
+	"Package-List": [
+		"python-cloup-doc deb doc optional arch=all python3-cloup deb python optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest-pkg-pybuild"
+	],
+	"Uploaders": [
+		"Timo Röhling <roehling@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/python-team/packages/python-cloup"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/python-team/packages/python-cloup.git"
+	],
+	"Version": [
+		"3.0.2-1"
+	]
 }

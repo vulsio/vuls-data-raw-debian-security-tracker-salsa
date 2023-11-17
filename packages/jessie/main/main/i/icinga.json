@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "icinga-common, icinga-cgi, icinga-cgi-bin, icinga-idoutils, icinga, icinga-core, icinga-doc, icinga-dbg"
-  ],
-  "Build-Depends": [
-    "autotools-dev, debhelper (>= 7), dpatch (>= 2.0.10), dpkg-dev (>= 1.13.19), libdbi-dev | libdbi0-dev, libgd-dev | libgd2-noxpm-dev (>= 2.0.1) | libgd2-xpm-dev (>= 2.0.1), libperl-dev, libpng-dev | libpng12-dev, po-debconf"
-  ],
-  "Checksums-Sha1": [
-    "3021c1905ac643f213ff8f85ec33fbdd5c6dc38b 2431 icinga_1.11.6-1.dsc 4cadfb6c9569d56d229a1d7f67fee14059c8f73a 18658042 icinga_1.11.6.orig.tar.gz 73cc119b80d2a46d014d1f525d419ed92e3d4c4a 48855 icinga_1.11.6-1.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "096ac1500e8af173518244e462489f14e987db312bcb43bc7845178e08b6682f 2431 icinga_1.11.6-1.dsc 0423b94d80ee0731123027e6a4e32147440ba390378362b1507418f80652c8c0 18658042 icinga_1.11.6.orig.tar.gz b49447ee15ed4a4d876d2b75882aad26fdac1894ff219b07d6cc63b68654cb8a 48855 icinga_1.11.6-1.diff.gz"
-  ],
-  "Directory": [
-    "pool/main/i/icinga"
-  ],
-  "Files": [
-    "1173df1e25fbe80394a43921680570cd 2431 icinga_1.11.6-1.dsc 94c355f036692127901fc2480618f960 18658042 icinga_1.11.6.orig.tar.gz 534494bf8481e1f1eb83ed552961aa3e 48855 icinga_1.11.6-1.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Maintainer": [
-    "Debian Nagios Maintainer Group <pkg-nagios-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "icinga"
-  ],
-  "Package-List": [
-    "icinga deb net optional arch=any icinga-cgi deb net optional arch=any icinga-cgi-bin deb net optional arch=any icinga-common deb net optional arch=all icinga-core deb net optional arch=any icinga-dbg deb debug extra arch=any icinga-doc deb doc optional arch=all icinga-idoutils deb net optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Uploaders": [
-    "Alexander Wirt <formorer@debian.org>, Jan Wagner <waja@cyconet.org>"
-  ],
-  "Vcs-Browser": [
-    "http://git.debian.org/?p=pkg-nagios/icinga.git"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/pkg-nagios/icinga.git"
-  ],
-  "Version": [
-    "1.11.6-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"icinga-common, icinga-cgi, icinga-cgi-bin, icinga-idoutils, icinga, icinga-core, icinga-doc, icinga-dbg"
+	],
+	"Build-Depends": [
+		"autotools-dev, debhelper (>= 7), dpatch (>= 2.0.10), dpkg-dev (>= 1.13.19), libdbi-dev | libdbi0-dev, libgd-dev | libgd2-noxpm-dev (>= 2.0.1) | libgd2-xpm-dev (>= 2.0.1), libperl-dev, libpng-dev | libpng12-dev, po-debconf"
+	],
+	"Checksums-Sha1": [
+		"3021c1905ac643f213ff8f85ec33fbdd5c6dc38b 2431 icinga_1.11.6-1.dsc 4cadfb6c9569d56d229a1d7f67fee14059c8f73a 18658042 icinga_1.11.6.orig.tar.gz 73cc119b80d2a46d014d1f525d419ed92e3d4c4a 48855 icinga_1.11.6-1.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"096ac1500e8af173518244e462489f14e987db312bcb43bc7845178e08b6682f 2431 icinga_1.11.6-1.dsc 0423b94d80ee0731123027e6a4e32147440ba390378362b1507418f80652c8c0 18658042 icinga_1.11.6.orig.tar.gz b49447ee15ed4a4d876d2b75882aad26fdac1894ff219b07d6cc63b68654cb8a 48855 icinga_1.11.6-1.diff.gz"
+	],
+	"Directory": [
+		"pool/main/i/icinga"
+	],
+	"Files": [
+		"1173df1e25fbe80394a43921680570cd 2431 icinga_1.11.6-1.dsc 94c355f036692127901fc2480618f960 18658042 icinga_1.11.6.orig.tar.gz 534494bf8481e1f1eb83ed552961aa3e 48855 icinga_1.11.6-1.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Maintainer": [
+		"Debian Nagios Maintainer Group <pkg-nagios-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"icinga"
+	],
+	"Package-List": [
+		"icinga deb net optional arch=any icinga-cgi deb net optional arch=any icinga-cgi-bin deb net optional arch=any icinga-common deb net optional arch=all icinga-core deb net optional arch=any icinga-dbg deb debug extra arch=any icinga-doc deb doc optional arch=all icinga-idoutils deb net optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Uploaders": [
+		"Alexander Wirt <formorer@debian.org>, Jan Wagner <waja@cyconet.org>"
+	],
+	"Vcs-Browser": [
+		"http://git.debian.org/?p=pkg-nagios/icinga.git"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/pkg-nagios/icinga.git"
+	],
+	"Version": [
+		"1.11.6-1"
+	]
 }

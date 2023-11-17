@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libbasix-dev, libbasix0.7, python3-basix, basix-doc"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, python3-setuptools, python3-all-dev:any, python3-ufl (>= 2023.2.0~), python3-numpy (>= 1.21~), python3-pybind11 (>= 2.6.4~), pybuild-plugin-pyproject, python3-pytest, python3-skbuild, python3-sphinx, python3-sympy, python3-wheel, cmake (>= 3.16), chrpath, cython3, libeigen3-dev, libjs-mathjax, ninja-build, libblas-dev | libopenblas-dev | libblis-dev | libatlas-base-dev | libblas.so, liblapack-dev | libopenblas-dev | libatlas-base-dev | liblapack.so"
-  ],
-  "Build-Depends-Indep": [
-    "doxygen, graphviz"
-  ],
-  "Checksums-Sha256": [
-    "1a35be6a94288a520310f758c0f8dddc042c1bde52c819e5a23634683b8b42bd 2770 fenics-basix_0.7.0-2.dsc 9bee81b396ee452eec8d9735f278cb44cb6994c6bc30aec8ed9bb4b12d83fa7f 618573 fenics-basix_0.7.0.orig.tar.gz 1a07a5c758fcacec7680879086565f0a5bdc1aa7bcece790bed3d465617662ee 8612 fenics-basix_0.7.0-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/f/fenics-basix"
-  ],
-  "Files": [
-    "cc71cad7ab7763efcf1a4e0dad5f3cdc 2770 fenics-basix_0.7.0-2.dsc e5a3e7ea5e0caf6709957a35efecc64b 618573 fenics-basix_0.7.0.orig.tar.gz e74e1df12a850a0e80d58bf85d8a612c 8612 fenics-basix_0.7.0-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/FEniCS/basix"
-  ],
-  "Maintainer": [
-    "Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "fenics-basix"
-  ],
-  "Package-List": [
-    "basix-doc deb doc optional arch=all libbasix-dev deb python optional arch=any libbasix0.7 deb python optional arch=any python3-basix deb python optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest, autopkgtest-pkg-python"
-  ],
-  "Testsuite-Triggers": [
-    "python3-numpy, python3-pytest, python3-sympy, python3-ufl"
-  ],
-  "Uploaders": [
-    "Drew Parsons <dparsons@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/science-team/fenics/fenics-basix"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/science-team/fenics/fenics-basix.git"
-  ],
-  "Version": [
-    "0.7.0-2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libbasix-dev, libbasix0.7, python3-basix, basix-doc"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-python, python3-setuptools, python3-all-dev:any, python3-ufl (>= 2023.2.0~), python3-numpy (>= 1.21~), python3-pybind11 (>= 2.6.4~), pybuild-plugin-pyproject, python3-pytest, python3-skbuild, python3-sphinx, python3-sympy, python3-wheel, cmake (>= 3.16), chrpath, cython3, libeigen3-dev, libjs-mathjax, ninja-build, libblas-dev | libopenblas-dev | libblis-dev | libatlas-base-dev | libblas.so, liblapack-dev | libopenblas-dev | libatlas-base-dev | liblapack.so"
+	],
+	"Build-Depends-Indep": [
+		"doxygen, graphviz"
+	],
+	"Checksums-Sha256": [
+		"1a35be6a94288a520310f758c0f8dddc042c1bde52c819e5a23634683b8b42bd 2770 fenics-basix_0.7.0-2.dsc 9bee81b396ee452eec8d9735f278cb44cb6994c6bc30aec8ed9bb4b12d83fa7f 618573 fenics-basix_0.7.0.orig.tar.gz 1a07a5c758fcacec7680879086565f0a5bdc1aa7bcece790bed3d465617662ee 8612 fenics-basix_0.7.0-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/f/fenics-basix"
+	],
+	"Files": [
+		"cc71cad7ab7763efcf1a4e0dad5f3cdc 2770 fenics-basix_0.7.0-2.dsc e5a3e7ea5e0caf6709957a35efecc64b 618573 fenics-basix_0.7.0.orig.tar.gz e74e1df12a850a0e80d58bf85d8a612c 8612 fenics-basix_0.7.0-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/FEniCS/basix"
+	],
+	"Maintainer": [
+		"Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"fenics-basix"
+	],
+	"Package-List": [
+		"basix-doc deb doc optional arch=all libbasix-dev deb python optional arch=any libbasix0.7 deb python optional arch=any python3-basix deb python optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest, autopkgtest-pkg-python"
+	],
+	"Testsuite-Triggers": [
+		"python3-numpy, python3-pytest, python3-sympy, python3-ufl"
+	],
+	"Uploaders": [
+		"Drew Parsons <dparsons@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/science-team/fenics/fenics-basix"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/science-team/fenics/fenics-basix.git"
+	],
+	"Version": [
+		"0.7.0-2"
+	]
 }

@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "all amd64 armel armhf i386 mips mipsel powerpc s390x arm64 ppc64el"
-  ],
-  "Binary": [
-    "scilab-cli, scilab, scilab-data, scilab-include, scilab-minimal-bin, scilab-full-bin, scilab-minimal-bin-dbg, scilab-full-bin-dbg, scilab-doc, scilab-doc-fr, scilab-doc-pt-br, scilab-doc-ja, scilab-test"
-  ],
-  "Build-Depends": [
-    "autoconf, automake, cdbs, debhelper (>= 7), gfortran, default-jdk, chrpath, ocaml-nox (>= 3.11.2-3), fakeroot, tcl8.5-dev, tk8.5-dev, libxml2-dev, libpcre3-dev, libcurl4-openssl-dev, gettext, libreadline-dev, pkg-config, procps, dpkg-dev (>= 1.16.0), libblas-dev | librefblas3-dev | libatlas-base-dev, liblapack-dev, libarpack2-dev (>= 3.0), libeigen3-dev, libflexdock-java (>= 1.2.3), libjogl2-java (>= 2.3.2), libgl1-mesa-dev, libjrosetta-java (>= 1.0.1), ant, libjgoodies-looks-java, libskinlf-java, libfreehep-graphics2d-java, libfreehep-graphicsio-emf-java, libjeuclid-core-java (>= 3.1.3), libbatik-java (>= 1.7), fop (>= 0.95), javahelp2, libsaxon-java, libavalon-framework-java, docbook-xsl, libxml-commons-external-java, help2man, libfftw3-dev, libsuitesparse-dev (>= 3.4.0), libmatio-dev (>= 1.5.0), libjlatexmath-java (>= 1.0.2), libjlatexmath-fop-java (>= 1.0.2), libjgraphx-java (>= 1.8.0.0), libhdf5-dev (>= 1.8.8), mpi-default-dev, libecj-java, ant-optional, junit4, libcobertura-java"
-  ],
-  "Checksums-Sha256": [
-    "63b5c5cd4aab91a4e1652781ddeefa9d12c52657651c7558c03d24513f4fda90 3634 scilab_5.5.2-4.dsc a734519de96d35b8f081768a5584086e46db089ab11c021744897b22ec4d0f5e 69626327 scilab_5.5.2.orig.tar.gz 7a65f4c894a45a5727635ca57c967f706df4e472b746214b3d53e2dbc083dd44 65408 scilab_5.5.2-4.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/s/scilab"
-  ],
-  "Files": [
-    "b07f0c80825b6bfc3af8460232d01e46 3634 scilab_5.5.2-4.dsc b6fab39d76841f41ddf8cab927dea305 69626327 scilab_5.5.2.orig.tar.gz ee175e8cf74a7cb54480fae51ea33905 65408 scilab_5.5.2-4.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.scilab.org"
-  ],
-  "Maintainer": [
-    "Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "scilab"
-  ],
-  "Package-List": [
-    "scilab deb math optional arch=all scilab-cli deb math optional arch=all scilab-data deb math optional arch=all scilab-doc deb doc optional arch=all scilab-doc-fr deb doc optional arch=all scilab-doc-ja deb doc optional arch=all scilab-doc-pt-br deb doc optional arch=all scilab-full-bin deb math optional arch=amd64,armel,armhf,i386,mips,mipsel,powerpc,s390x,arm64,ppc64el scilab-full-bin-dbg deb debug extra arch=amd64,armel,armhf,i386,mips,mipsel,powerpc,s390x,arm64,ppc64el scilab-include deb math optional arch=amd64,armel,armhf,i386,mips,mipsel,powerpc,s390x,arm64,ppc64el scilab-minimal-bin deb math optional arch=amd64,armel,armhf,i386,mips,mipsel,powerpc,s390x,arm64,ppc64el scilab-minimal-bin-dbg deb debug extra arch=amd64,armel,armhf,i386,mips,mipsel,powerpc,s390x,arm64,ppc64el scilab-test deb math optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "math"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Uploaders": [
-    "Sylvestre Ledru <sylvestre@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://svn.debian.org/viewsvn/debian-science/packages/scilab/branches/5.5"
-  ],
-  "Vcs-Svn": [
-    "svn://svn.debian.org/svn/debian-science/packages/scilab/branches/5.5"
-  ],
-  "Version": [
-    "5.5.2-4"
-  ]
+	"Architecture": [
+		"all amd64 armel armhf i386 mips mipsel powerpc s390x arm64 ppc64el"
+	],
+	"Binary": [
+		"scilab-cli, scilab, scilab-data, scilab-include, scilab-minimal-bin, scilab-full-bin, scilab-minimal-bin-dbg, scilab-full-bin-dbg, scilab-doc, scilab-doc-fr, scilab-doc-pt-br, scilab-doc-ja, scilab-test"
+	],
+	"Build-Depends": [
+		"autoconf, automake, cdbs, debhelper (>= 7), gfortran, default-jdk, chrpath, ocaml-nox (>= 3.11.2-3), fakeroot, tcl8.5-dev, tk8.5-dev, libxml2-dev, libpcre3-dev, libcurl4-openssl-dev, gettext, libreadline-dev, pkg-config, procps, dpkg-dev (>= 1.16.0), libblas-dev | librefblas3-dev | libatlas-base-dev, liblapack-dev, libarpack2-dev (>= 3.0), libeigen3-dev, libflexdock-java (>= 1.2.3), libjogl2-java (>= 2.3.2), libgl1-mesa-dev, libjrosetta-java (>= 1.0.1), ant, libjgoodies-looks-java, libskinlf-java, libfreehep-graphics2d-java, libfreehep-graphicsio-emf-java, libjeuclid-core-java (>= 3.1.3), libbatik-java (>= 1.7), fop (>= 0.95), javahelp2, libsaxon-java, libavalon-framework-java, docbook-xsl, libxml-commons-external-java, help2man, libfftw3-dev, libsuitesparse-dev (>= 3.4.0), libmatio-dev (>= 1.5.0), libjlatexmath-java (>= 1.0.2), libjlatexmath-fop-java (>= 1.0.2), libjgraphx-java (>= 1.8.0.0), libhdf5-dev (>= 1.8.8), mpi-default-dev, libecj-java, ant-optional, junit4, libcobertura-java"
+	],
+	"Checksums-Sha256": [
+		"63b5c5cd4aab91a4e1652781ddeefa9d12c52657651c7558c03d24513f4fda90 3634 scilab_5.5.2-4.dsc a734519de96d35b8f081768a5584086e46db089ab11c021744897b22ec4d0f5e 69626327 scilab_5.5.2.orig.tar.gz 7a65f4c894a45a5727635ca57c967f706df4e472b746214b3d53e2dbc083dd44 65408 scilab_5.5.2-4.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/s/scilab"
+	],
+	"Files": [
+		"b07f0c80825b6bfc3af8460232d01e46 3634 scilab_5.5.2-4.dsc b6fab39d76841f41ddf8cab927dea305 69626327 scilab_5.5.2.orig.tar.gz ee175e8cf74a7cb54480fae51ea33905 65408 scilab_5.5.2-4.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.scilab.org"
+	],
+	"Maintainer": [
+		"Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"scilab"
+	],
+	"Package-List": [
+		"scilab deb math optional arch=all scilab-cli deb math optional arch=all scilab-data deb math optional arch=all scilab-doc deb doc optional arch=all scilab-doc-fr deb doc optional arch=all scilab-doc-ja deb doc optional arch=all scilab-doc-pt-br deb doc optional arch=all scilab-full-bin deb math optional arch=amd64,armel,armhf,i386,mips,mipsel,powerpc,s390x,arm64,ppc64el scilab-full-bin-dbg deb debug extra arch=amd64,armel,armhf,i386,mips,mipsel,powerpc,s390x,arm64,ppc64el scilab-include deb math optional arch=amd64,armel,armhf,i386,mips,mipsel,powerpc,s390x,arm64,ppc64el scilab-minimal-bin deb math optional arch=amd64,armel,armhf,i386,mips,mipsel,powerpc,s390x,arm64,ppc64el scilab-minimal-bin-dbg deb debug extra arch=amd64,armel,armhf,i386,mips,mipsel,powerpc,s390x,arm64,ppc64el scilab-test deb math optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"math"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Uploaders": [
+		"Sylvestre Ledru <sylvestre@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://svn.debian.org/viewsvn/debian-science/packages/scilab/branches/5.5"
+	],
+	"Vcs-Svn": [
+		"svn://svn.debian.org/svn/debian-science/packages/scilab/branches/5.5"
+	],
+	"Version": [
+		"5.5.2-4"
+	]
 }

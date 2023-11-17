@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "pgpool2, libpgpool0, libpgpool-dev, postgresql-9.4-pgpool2"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), libpq-dev, postgresql-server-dev-all (>= 148~), libpam0g-dev, libssl-dev, libmemcached-dev, dh-autoreconf, dh-systemd (>= 1.19), bison, flex, ruby"
-  ],
-  "Checksums-Sha1": [
-    "07fcd5bc217d7f918817f380cc93d0228d0bb62d 2297 pgpool2_3.3.4-1.dsc 66fd78c91d247c544f6d7d2f0e225fa35b59cd06 1752572 pgpool2_3.3.4.orig.tar.gz e2337070a921b93bd3060b4e581e5636dfa06809 11280 pgpool2_3.3.4-1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "aa63c2c39c519012c96ad9514c8f47017b06341407b1deb223ba16c5d023c91e 2297 pgpool2_3.3.4-1.dsc 4ea1ddfd80d06763ffd8bb7f9bea32d71fbfcdc0af998150ce3a116edd3732c5 1752572 pgpool2_3.3.4.orig.tar.gz 809d575f9b62c4f4824587cfd6125a9a847087e4379ec7b21aea950a6c530a7c 11280 pgpool2_3.3.4-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/pgpool2"
-  ],
-  "Files": [
-    "f168e23eba530130c2a2fd0b1e4c4e91 2297 pgpool2_3.3.4-1.dsc 21e942546a5b426f455898e4803a197f 1752572 pgpool2_3.3.4.orig.tar.gz 22abf2af23c3b8ff15e9b7fe2c306a15 11280 pgpool2_3.3.4-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.pgpool.net/mediawiki/index.php/Main_Page"
-  ],
-  "Maintainer": [
-    "Debian PostgreSQL Maintainers <pkg-postgresql-public@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "pgpool2"
-  ],
-  "Package-List": [
-    "libpgpool-dev deb libdevel optional arch=any libpgpool0 deb libs optional arch=any pgpool2 deb database optional arch=any postgresql-9.4-pgpool2 deb database optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "database"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Christoph Berg <myon@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-postgresql/pgpool2.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-postgresql/pgpool2.git"
-  ],
-  "Version": [
-    "3.3.4-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"pgpool2, libpgpool0, libpgpool-dev, postgresql-9.4-pgpool2"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), libpq-dev, postgresql-server-dev-all (>= 148~), libpam0g-dev, libssl-dev, libmemcached-dev, dh-autoreconf, dh-systemd (>= 1.19), bison, flex, ruby"
+	],
+	"Checksums-Sha1": [
+		"07fcd5bc217d7f918817f380cc93d0228d0bb62d 2297 pgpool2_3.3.4-1.dsc 66fd78c91d247c544f6d7d2f0e225fa35b59cd06 1752572 pgpool2_3.3.4.orig.tar.gz e2337070a921b93bd3060b4e581e5636dfa06809 11280 pgpool2_3.3.4-1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"aa63c2c39c519012c96ad9514c8f47017b06341407b1deb223ba16c5d023c91e 2297 pgpool2_3.3.4-1.dsc 4ea1ddfd80d06763ffd8bb7f9bea32d71fbfcdc0af998150ce3a116edd3732c5 1752572 pgpool2_3.3.4.orig.tar.gz 809d575f9b62c4f4824587cfd6125a9a847087e4379ec7b21aea950a6c530a7c 11280 pgpool2_3.3.4-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/pgpool2"
+	],
+	"Files": [
+		"f168e23eba530130c2a2fd0b1e4c4e91 2297 pgpool2_3.3.4-1.dsc 21e942546a5b426f455898e4803a197f 1752572 pgpool2_3.3.4.orig.tar.gz 22abf2af23c3b8ff15e9b7fe2c306a15 11280 pgpool2_3.3.4-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.pgpool.net/mediawiki/index.php/Main_Page"
+	],
+	"Maintainer": [
+		"Debian PostgreSQL Maintainers <pkg-postgresql-public@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"pgpool2"
+	],
+	"Package-List": [
+		"libpgpool-dev deb libdevel optional arch=any libpgpool0 deb libs optional arch=any pgpool2 deb database optional arch=any postgresql-9.4-pgpool2 deb database optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"database"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Christoph Berg <myon@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-postgresql/pgpool2.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-postgresql/pgpool2.git"
+	],
+	"Version": [
+		"3.3.4-1"
+	]
 }

@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "gcc-4.6-base, gcc-4.6, gcc-4.6-multilib, gcc-4.6-plugin-dev, gcc-4.6-hppa64, gcc-4.6-spu, g++-4.6-spu, gfortran-4.6-spu, cpp-4.6, gcc-4.6-locales, g++-4.6, g++-4.6-multilib, libmudflap0-4.6-dev, gobjc++-4.6, gobjc++-4.6-multilib, gobjc-4.6, gobjc-4.6-multilib, libobjc3, libobjc3-dbg, lib64objc3, lib64objc3-dbg, lib32objc3, lib32objc3-dbg, libn32objc3, libn32objc3-dbg, gfortran-4.6, gfortran-4.6-multilib, libstdc++6-4.6-dev, libstdc++6-4.6-pic, libstdc++6-4.6-dbg, lib32stdc++6-4.6-dbg, lib64stdc++6-4.6-dbg, libn32stdc++6-4.6-dbg, libstdc++6-4.6-doc, gcc-4.6-soft-float, gcc-4.6-source"
-  ],
-  "Build-Conflicts": [
-    "binutils-gold"
-  ],
-  "Build-Depends": [
-    "dpkg-dev (>= 1.16.0~ubuntu4), debhelper (>= 5.0.62), g++-multilib [amd64 i386 kfreebsd-amd64 mips mipsel powerpc ppc64 s390 s390x sparc], libc6.1-dev (>= 2.13-5) [alpha ia64] | libc0.3-dev (>= 2.13-5) [hurd-i386] | libc0.1-dev (>= 2.13-5) [kfreebsd-i386 kfreebsd-amd64] | libc6-dev (>= 2.13-5), libc6-dev-amd64 [i386], libc6-dev-sparc64 [sparc], libc6-dev-s390 [s390x], libc6-dev-s390x [s390], libc6-dev-i386 [amd64], libc6-dev-powerpc [ppc64], libc6-dev-ppc64 [powerpc], libc0.1-dev-i386 [kfreebsd-amd64], lib32gcc1 [amd64 ppc64 kfreebsd-amd64 s390x], lib64gcc1 [i386 powerpc sparc s390], libc6-dev-mips64 [mips mipsel], libc6-dev-mipsn32 [mips mipsel], m4, libtool, autoconf2.64, automake (>= 1:1.11), automake (<< 1:1.12), libunwind7-dev (>= 0.98.5-6) [ia64], libatomic-ops-dev [ia64], zlib1g-dev, gawk, lzma, xz-utils, patchutils, binutils (>= 2.21.1) | binutils-multiarch (>= 2.21.1), binutils-hppa64 (>= 2.21.1) [hppa], gperf (>= 3.0.1), bison (>= 1:2.3), flex, gettext, texinfo (>= 4.3), locales, procps, sharutils, binutils-spu (>= 2.21.1) [powerpc ppc64], newlib-spu (>= 1.16.0) [powerpc ppc64], libcloog-ppl-dev (>= 0.15.9-2~), libmpc-dev, libmpfr-dev (>= 3.0.0-9~), libgmp-dev (>= 2:5.0.1~), libelfg0-dev (>= 0.8.12), dejagnu [!m68k !hurd-i386 !hurd-alpha], autogen, realpath (>= 1.9.12), chrpath, lsb-release, make (>= 3.81), quilt"
-  ],
-  "Build-Depends-Indep": [
-    "doxygen (>= 1.7.2), graphviz (>= 2.2), gsfonts-x11, texlive-latex-base"
-  ],
-  "Checksums-Sha1": [
-    "d32b6ae32209a7a3d37277eebbc5fb388d7f9acc 4496 gcc-4.6_4.6.3-14.dsc ee27ab5b08ef620f25edca24f447330b412809a2 56883287 gcc-4.6_4.6.3.orig.tar.gz 10d1e271484773b4d9583906464ab639c7e44007 1094288 gcc-4.6_4.6.3-14.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "cb196b811b9d46a0a0111db1776ab27a2868c6faf15e385668818e45e51fbc39 4496 gcc-4.6_4.6.3-14.dsc 359dc7ac504c9fdbcdb484e0b62ff55c661e3c0e61bf027bed3cea6b9f382963 56883287 gcc-4.6_4.6.3.orig.tar.gz fe7df73b468affeb46442cb521e0a8a7942fe1cf41107171758c3ce48dcba3dc 1094288 gcc-4.6_4.6.3-14.diff.gz"
-  ],
-  "Directory": [
-    "pool/main/g/gcc-4.6"
-  ],
-  "Files": [
-    "345690ee15aa09e402775bbd6e03b593 4496 gcc-4.6_4.6.3-14.dsc 3c3708bff21f487844714fc43d24e1b4 56883287 gcc-4.6_4.6.3.orig.tar.gz fc9e3e7b8901747776d0dbf104e869c5 1094288 gcc-4.6_4.6.3-14.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Homepage": [
-    "http://gcc.gnu.org/"
-  ],
-  "Maintainer": [
-    "Debian GCC Maintainers <debian-gcc@lists.debian.org>"
-  ],
-  "Package": [
-    "gcc-4.6"
-  ],
-  "Package-List": [
-    "cpp-4.6 deb interpreters optional g++-4.6 deb devel optional g++-4.6-multilib deb devel optional g++-4.6-spu deb devel optional gcc-4.6 deb devel optional gcc-4.6-base deb libs required gcc-4.6-hppa64 deb devel optional gcc-4.6-locales deb devel optional gcc-4.6-multilib deb devel optional gcc-4.6-plugin-dev deb devel optional gcc-4.6-soft-float deb devel optional gcc-4.6-source deb devel optional gcc-4.6-spu deb devel optional gfortran-4.6 deb devel optional gfortran-4.6-multilib deb devel optional gfortran-4.6-spu deb devel optional gobjc++-4.6 deb devel optional gobjc++-4.6-multilib deb devel optional gobjc-4.6 deb devel optional gobjc-4.6-multilib deb devel optional lib32objc3 deb libs optional lib32objc3-dbg deb debug extra lib32stdc++6-4.6-dbg deb debug extra lib64objc3 deb libs optional lib64objc3-dbg deb debug extra lib64stdc++6-4.6-dbg deb debug extra libmudflap0-4.6-dev deb libdevel optional libn32objc3 deb libs optional libn32objc3-dbg deb debug extra libn32stdc++6-4.6-dbg deb debug extra libobjc3 deb libs optional libobjc3-dbg deb debug extra libstdc++6-4.6-dbg deb debug extra libstdc++6-4.6-dev deb libdevel optional libstdc++6-4.6-doc deb doc optional libstdc++6-4.6-pic deb libdevel extra"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "devel"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Matthias Klose <doko@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://svn.debian.org/viewsvn/gcccvs/branches/sid/gcc-4.6/"
-  ],
-  "Vcs-Svn": [
-    "svn://svn.debian.org/svn/gcccvs/branches/sid/gcc-4.6"
-  ],
-  "Version": [
-    "4.6.3-14"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"gcc-4.6-base, gcc-4.6, gcc-4.6-multilib, gcc-4.6-plugin-dev, gcc-4.6-hppa64, gcc-4.6-spu, g++-4.6-spu, gfortran-4.6-spu, cpp-4.6, gcc-4.6-locales, g++-4.6, g++-4.6-multilib, libmudflap0-4.6-dev, gobjc++-4.6, gobjc++-4.6-multilib, gobjc-4.6, gobjc-4.6-multilib, libobjc3, libobjc3-dbg, lib64objc3, lib64objc3-dbg, lib32objc3, lib32objc3-dbg, libn32objc3, libn32objc3-dbg, gfortran-4.6, gfortran-4.6-multilib, libstdc++6-4.6-dev, libstdc++6-4.6-pic, libstdc++6-4.6-dbg, lib32stdc++6-4.6-dbg, lib64stdc++6-4.6-dbg, libn32stdc++6-4.6-dbg, libstdc++6-4.6-doc, gcc-4.6-soft-float, gcc-4.6-source"
+	],
+	"Build-Conflicts": [
+		"binutils-gold"
+	],
+	"Build-Depends": [
+		"dpkg-dev (>= 1.16.0~ubuntu4), debhelper (>= 5.0.62), g++-multilib [amd64 i386 kfreebsd-amd64 mips mipsel powerpc ppc64 s390 s390x sparc], libc6.1-dev (>= 2.13-5) [alpha ia64] | libc0.3-dev (>= 2.13-5) [hurd-i386] | libc0.1-dev (>= 2.13-5) [kfreebsd-i386 kfreebsd-amd64] | libc6-dev (>= 2.13-5), libc6-dev-amd64 [i386], libc6-dev-sparc64 [sparc], libc6-dev-s390 [s390x], libc6-dev-s390x [s390], libc6-dev-i386 [amd64], libc6-dev-powerpc [ppc64], libc6-dev-ppc64 [powerpc], libc0.1-dev-i386 [kfreebsd-amd64], lib32gcc1 [amd64 ppc64 kfreebsd-amd64 s390x], lib64gcc1 [i386 powerpc sparc s390], libc6-dev-mips64 [mips mipsel], libc6-dev-mipsn32 [mips mipsel], m4, libtool, autoconf2.64, automake (>= 1:1.11), automake (<< 1:1.12), libunwind7-dev (>= 0.98.5-6) [ia64], libatomic-ops-dev [ia64], zlib1g-dev, gawk, lzma, xz-utils, patchutils, binutils (>= 2.21.1) | binutils-multiarch (>= 2.21.1), binutils-hppa64 (>= 2.21.1) [hppa], gperf (>= 3.0.1), bison (>= 1:2.3), flex, gettext, texinfo (>= 4.3), locales, procps, sharutils, binutils-spu (>= 2.21.1) [powerpc ppc64], newlib-spu (>= 1.16.0) [powerpc ppc64], libcloog-ppl-dev (>= 0.15.9-2~), libmpc-dev, libmpfr-dev (>= 3.0.0-9~), libgmp-dev (>= 2:5.0.1~), libelfg0-dev (>= 0.8.12), dejagnu [!m68k !hurd-i386 !hurd-alpha], autogen, realpath (>= 1.9.12), chrpath, lsb-release, make (>= 3.81), quilt"
+	],
+	"Build-Depends-Indep": [
+		"doxygen (>= 1.7.2), graphviz (>= 2.2), gsfonts-x11, texlive-latex-base"
+	],
+	"Checksums-Sha1": [
+		"d32b6ae32209a7a3d37277eebbc5fb388d7f9acc 4496 gcc-4.6_4.6.3-14.dsc ee27ab5b08ef620f25edca24f447330b412809a2 56883287 gcc-4.6_4.6.3.orig.tar.gz 10d1e271484773b4d9583906464ab639c7e44007 1094288 gcc-4.6_4.6.3-14.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"cb196b811b9d46a0a0111db1776ab27a2868c6faf15e385668818e45e51fbc39 4496 gcc-4.6_4.6.3-14.dsc 359dc7ac504c9fdbcdb484e0b62ff55c661e3c0e61bf027bed3cea6b9f382963 56883287 gcc-4.6_4.6.3.orig.tar.gz fe7df73b468affeb46442cb521e0a8a7942fe1cf41107171758c3ce48dcba3dc 1094288 gcc-4.6_4.6.3-14.diff.gz"
+	],
+	"Directory": [
+		"pool/main/g/gcc-4.6"
+	],
+	"Files": [
+		"345690ee15aa09e402775bbd6e03b593 4496 gcc-4.6_4.6.3-14.dsc 3c3708bff21f487844714fc43d24e1b4 56883287 gcc-4.6_4.6.3.orig.tar.gz fc9e3e7b8901747776d0dbf104e869c5 1094288 gcc-4.6_4.6.3-14.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Homepage": [
+		"http://gcc.gnu.org/"
+	],
+	"Maintainer": [
+		"Debian GCC Maintainers <debian-gcc@lists.debian.org>"
+	],
+	"Package": [
+		"gcc-4.6"
+	],
+	"Package-List": [
+		"cpp-4.6 deb interpreters optional g++-4.6 deb devel optional g++-4.6-multilib deb devel optional g++-4.6-spu deb devel optional gcc-4.6 deb devel optional gcc-4.6-base deb libs required gcc-4.6-hppa64 deb devel optional gcc-4.6-locales deb devel optional gcc-4.6-multilib deb devel optional gcc-4.6-plugin-dev deb devel optional gcc-4.6-soft-float deb devel optional gcc-4.6-source deb devel optional gcc-4.6-spu deb devel optional gfortran-4.6 deb devel optional gfortran-4.6-multilib deb devel optional gfortran-4.6-spu deb devel optional gobjc++-4.6 deb devel optional gobjc++-4.6-multilib deb devel optional gobjc-4.6 deb devel optional gobjc-4.6-multilib deb devel optional lib32objc3 deb libs optional lib32objc3-dbg deb debug extra lib32stdc++6-4.6-dbg deb debug extra lib64objc3 deb libs optional lib64objc3-dbg deb debug extra lib64stdc++6-4.6-dbg deb debug extra libmudflap0-4.6-dev deb libdevel optional libn32objc3 deb libs optional libn32objc3-dbg deb debug extra libn32stdc++6-4.6-dbg deb debug extra libobjc3 deb libs optional libobjc3-dbg deb debug extra libstdc++6-4.6-dbg deb debug extra libstdc++6-4.6-dev deb libdevel optional libstdc++6-4.6-doc deb doc optional libstdc++6-4.6-pic deb libdevel extra"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"devel"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Matthias Klose <doko@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://svn.debian.org/viewsvn/gcccvs/branches/sid/gcc-4.6/"
+	],
+	"Vcs-Svn": [
+		"svn://svn.debian.org/svn/gcccvs/branches/sid/gcc-4.6"
+	],
+	"Version": [
+		"4.6.3-14"
+	]
 }

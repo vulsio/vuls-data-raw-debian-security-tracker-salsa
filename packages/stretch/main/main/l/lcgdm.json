@@ -1,53 +1,53 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "liblcgdm1, liblcgdm-dev, liblfc1, liblfc-dev, lfc, liblfc-perl, python-lfc, lfc-server-mysql, lfc-server-postgres, lfc-dli, libdpm1, libdpm-dev, dpm, libdpm-perl, python-dpm, dpm-server-mysql, dpm-server-postgres, dpm-name-server-mysql, dpm-name-server-postgres, dpm-copy-server-mysql, dpm-copy-server-postgres, dpm-srm-server-mysql, dpm-srm-server-postgres, dpm-rfio-server, lcgdm-dbg"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), libglobus-gssapi-gsi-dev, libglobus-gss-assist-dev, libglobus-gsi-credential-dev, libglobus-gsi-callback-dev, libglobus-gass-copy-dev, libglobus-ftp-client-dev, libglobus-common-dev, voms-dev (>= 2), gsoap, libcgsi-gsoap-dev (>= 1.3.4.2), default-libmysqlclient-dev, libpq-dev, uuid-dev, swig, libperl-dev, perl, python-dev, dh-python, xutils-dev, pkg-config"
-  ],
-  "Checksums-Sha256": [
-    "58fe78cdf6ad42f5add051df354d0b706ce59f92c9d8ab5a12038189f7fe6362 3599 lcgdm_1.9.0-2.dsc e316b12e990dafe1989d046e022c765937c001b08940e1a79588de2d5eda2110 2111614 lcgdm_1.9.0.orig.tar.gz 1457c265733cb6068e2752711e5f443e89baa9294c8812372bf581b4be287afd 22564 lcgdm_1.9.0-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/l/lcgdm"
-  ],
-  "Files": [
-    "b1df532ef16609ba8edba2d83c0aad81 3599 lcgdm_1.9.0-2.dsc 389faeeb11cad43dafe4b67ea9d5476b 2111614 lcgdm_1.9.0.orig.tar.gz db087103d0b84603c698cf0ab4fe918d 22564 lcgdm_1.9.0-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://glite.web.cern.ch/glite/"
-  ],
-  "Maintainer": [
-    "Mattias Ellert <mattias.ellert@physics.uu.se>"
-  ],
-  "Package": [
-    "lcgdm"
-  ],
-  "Package-List": [
-    "dpm deb net optional arch=any dpm-copy-server-mysql deb net optional arch=any dpm-copy-server-postgres deb net optional arch=any dpm-name-server-mysql deb net optional arch=any dpm-name-server-postgres deb net optional arch=any dpm-rfio-server deb net optional arch=any dpm-server-mysql deb net optional arch=any dpm-server-postgres deb net optional arch=any dpm-srm-server-mysql deb net optional arch=any dpm-srm-server-postgres deb net optional arch=any lcgdm-dbg deb debug extra arch=any lfc deb net optional arch=any lfc-dli deb net optional arch=any lfc-server-mysql deb net optional arch=any lfc-server-postgres deb net optional arch=any libdpm-dev deb libdevel optional arch=any libdpm-perl deb perl optional arch=any libdpm1 deb libs optional arch=any liblcgdm-dev deb libdevel optional arch=any liblcgdm1 deb libs optional arch=any liblfc-dev deb libdevel optional arch=any liblfc-perl deb perl optional arch=any liblfc1 deb libs optional arch=any python-dpm deb python optional arch=any python-lfc deb python optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Vcs-Browser": [
-    "http://svn.nordugrid.org/trac/packaging/browser/debian/lcgdm"
-  ],
-  "Vcs-Svn": [
-    "http://svn.nordugrid.org/repos/packaging/debian/lcgdm"
-  ],
-  "Version": [
-    "1.9.0-2"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"liblcgdm1, liblcgdm-dev, liblfc1, liblfc-dev, lfc, liblfc-perl, python-lfc, lfc-server-mysql, lfc-server-postgres, lfc-dli, libdpm1, libdpm-dev, dpm, libdpm-perl, python-dpm, dpm-server-mysql, dpm-server-postgres, dpm-name-server-mysql, dpm-name-server-postgres, dpm-copy-server-mysql, dpm-copy-server-postgres, dpm-srm-server-mysql, dpm-srm-server-postgres, dpm-rfio-server, lcgdm-dbg"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), libglobus-gssapi-gsi-dev, libglobus-gss-assist-dev, libglobus-gsi-credential-dev, libglobus-gsi-callback-dev, libglobus-gass-copy-dev, libglobus-ftp-client-dev, libglobus-common-dev, voms-dev (>= 2), gsoap, libcgsi-gsoap-dev (>= 1.3.4.2), default-libmysqlclient-dev, libpq-dev, uuid-dev, swig, libperl-dev, perl, python-dev, dh-python, xutils-dev, pkg-config"
+	],
+	"Checksums-Sha256": [
+		"58fe78cdf6ad42f5add051df354d0b706ce59f92c9d8ab5a12038189f7fe6362 3599 lcgdm_1.9.0-2.dsc e316b12e990dafe1989d046e022c765937c001b08940e1a79588de2d5eda2110 2111614 lcgdm_1.9.0.orig.tar.gz 1457c265733cb6068e2752711e5f443e89baa9294c8812372bf581b4be287afd 22564 lcgdm_1.9.0-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/l/lcgdm"
+	],
+	"Files": [
+		"b1df532ef16609ba8edba2d83c0aad81 3599 lcgdm_1.9.0-2.dsc 389faeeb11cad43dafe4b67ea9d5476b 2111614 lcgdm_1.9.0.orig.tar.gz db087103d0b84603c698cf0ab4fe918d 22564 lcgdm_1.9.0-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://glite.web.cern.ch/glite/"
+	],
+	"Maintainer": [
+		"Mattias Ellert <mattias.ellert@physics.uu.se>"
+	],
+	"Package": [
+		"lcgdm"
+	],
+	"Package-List": [
+		"dpm deb net optional arch=any dpm-copy-server-mysql deb net optional arch=any dpm-copy-server-postgres deb net optional arch=any dpm-name-server-mysql deb net optional arch=any dpm-name-server-postgres deb net optional arch=any dpm-rfio-server deb net optional arch=any dpm-server-mysql deb net optional arch=any dpm-server-postgres deb net optional arch=any dpm-srm-server-mysql deb net optional arch=any dpm-srm-server-postgres deb net optional arch=any lcgdm-dbg deb debug extra arch=any lfc deb net optional arch=any lfc-dli deb net optional arch=any lfc-server-mysql deb net optional arch=any lfc-server-postgres deb net optional arch=any libdpm-dev deb libdevel optional arch=any libdpm-perl deb perl optional arch=any libdpm1 deb libs optional arch=any liblcgdm-dev deb libdevel optional arch=any liblcgdm1 deb libs optional arch=any liblfc-dev deb libdevel optional arch=any liblfc-perl deb perl optional arch=any liblfc1 deb libs optional arch=any python-dpm deb python optional arch=any python-lfc deb python optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Vcs-Browser": [
+		"http://svn.nordugrid.org/trac/packaging/browser/debian/lcgdm"
+	],
+	"Vcs-Svn": [
+		"http://svn.nordugrid.org/repos/packaging/debian/lcgdm"
+	],
+	"Version": [
+		"1.9.0-2"
+	]
 }

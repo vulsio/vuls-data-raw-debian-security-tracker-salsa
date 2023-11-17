@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-watcher, watcher-common, watcher-api, watcher-decision-engine, watcher-applier, watcher-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 10), dh-python, dh-systemd, openstack-pkg-tools (>= 54~), po-debconf, python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx"
-  ],
-  "Build-Depends-Indep": [
-    "python-apscheduler (>= 3.0.5), python-ceilometerclient (>= 2.5.0), python-cinderclient (>= 1:1.6.0), python-coverage, python-enum34, python-freezegun, python-glanceclient (>= 1:2.3.0), python-hacking, python-jsonpatch (>= 1.1), python-keystoneauth1 (>= 2.10.0), python-keystoneclient (>= 1:2.0.0), python-keystonemiddleware (>= 4.0.0), python-lxml (>= 2.3), python-mock (>= 2.0), python-neutronclient (>= 1:5.1.0), python-novaclient (>= 2:2.29.0), python-openstackclient (>= 2.1.0), python-os-testr (>= 0.7.0), python-oslo.cache (>= 1.5.0), python-oslo.concurrency (>= 3.8.0), python-oslo.config (>= 1:3.14.0), python-oslo.context (>= 2.9.0), python-oslo.db (>= 4.10.0), python-oslo.i18n (>= 2.1.0), python-oslo.log (>= 1.14.0), python-oslo.messaging (>= 5.2.0), python-oslo.policy (>= 1.9.0), python-oslo.reports (>= 0.6.0), python-oslo.serialization (>= 1.10.0), python-oslo.service (>= 1.10.0), python-oslo.utils (>= 3.16.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.10.0), python-pastedeploy (>= 1.5.0), python-pecan (>= 1.0.0), python-prettytable, python-six (>= 1.9.0), python-sphinxcontrib-pecanwsme, python-sqlalchemy (>= 1.0.10), python-stevedore (>= 1.16.0), python-taskflow (>= 1.26.0), python-testscenarios, python-testtools (>= 1.4.0), python-voluptuous (>= 0.8.9), python-webob, python-wsme (>= 0.8), subunit, testrepository"
-  ],
-  "Checksums-Sha256": [
-    "28a2e8eb9ad9b81204f933d178eb6543ff60d9aef9adcc68e4b1a4f92c275cf3 3736 watcher_0.30.0-5.dsc 5b97c0ef6f43e4c9754a715e9a0b4873f63c1f56fb8ac890c3e91e3ffce6e798 689440 watcher_0.30.0.orig.tar.xz 25226b25be7544bd6f39e72fb3e767f34552701102a02d27cdbdd9f3c646f664 24440 watcher_0.30.0-5.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/w/watcher"
-  ],
-  "Files": [
-    "e87816266660052049650618b23f72bd 3736 watcher_0.30.0-5.dsc b7dab0e9a5996113b015c1d624b8095b 689440 watcher_0.30.0.orig.tar.xz 5d06ab39ea884000fa2a257f4a6bc568 24440 watcher_0.30.0-5.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/openstack/watcher"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "watcher"
-  ],
-  "Package-List": [
-    "python-watcher deb python extra arch=all watcher-api deb net extra arch=all watcher-applier deb net extra arch=all watcher-common deb net extra arch=all watcher-decision-engine deb net extra arch=all watcher-doc deb doc extra arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://git.openstack.org/cgit/openstack/deb-watcher?h=debian%2Fnewton"
-  ],
-  "Vcs-Git": [
-    "https://git.openstack.org/openstack/deb-watcher -b debian/newton"
-  ],
-  "Version": [
-    "0.30.0-5"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-watcher, watcher-common, watcher-api, watcher-decision-engine, watcher-applier, watcher-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 10), dh-python, dh-systemd, openstack-pkg-tools (>= 54~), po-debconf, python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx"
+	],
+	"Build-Depends-Indep": [
+		"python-apscheduler (>= 3.0.5), python-ceilometerclient (>= 2.5.0), python-cinderclient (>= 1:1.6.0), python-coverage, python-enum34, python-freezegun, python-glanceclient (>= 1:2.3.0), python-hacking, python-jsonpatch (>= 1.1), python-keystoneauth1 (>= 2.10.0), python-keystoneclient (>= 1:2.0.0), python-keystonemiddleware (>= 4.0.0), python-lxml (>= 2.3), python-mock (>= 2.0), python-neutronclient (>= 1:5.1.0), python-novaclient (>= 2:2.29.0), python-openstackclient (>= 2.1.0), python-os-testr (>= 0.7.0), python-oslo.cache (>= 1.5.0), python-oslo.concurrency (>= 3.8.0), python-oslo.config (>= 1:3.14.0), python-oslo.context (>= 2.9.0), python-oslo.db (>= 4.10.0), python-oslo.i18n (>= 2.1.0), python-oslo.log (>= 1.14.0), python-oslo.messaging (>= 5.2.0), python-oslo.policy (>= 1.9.0), python-oslo.reports (>= 0.6.0), python-oslo.serialization (>= 1.10.0), python-oslo.service (>= 1.10.0), python-oslo.utils (>= 3.16.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.10.0), python-pastedeploy (>= 1.5.0), python-pecan (>= 1.0.0), python-prettytable, python-six (>= 1.9.0), python-sphinxcontrib-pecanwsme, python-sqlalchemy (>= 1.0.10), python-stevedore (>= 1.16.0), python-taskflow (>= 1.26.0), python-testscenarios, python-testtools (>= 1.4.0), python-voluptuous (>= 0.8.9), python-webob, python-wsme (>= 0.8), subunit, testrepository"
+	],
+	"Checksums-Sha256": [
+		"28a2e8eb9ad9b81204f933d178eb6543ff60d9aef9adcc68e4b1a4f92c275cf3 3736 watcher_0.30.0-5.dsc 5b97c0ef6f43e4c9754a715e9a0b4873f63c1f56fb8ac890c3e91e3ffce6e798 689440 watcher_0.30.0.orig.tar.xz 25226b25be7544bd6f39e72fb3e767f34552701102a02d27cdbdd9f3c646f664 24440 watcher_0.30.0-5.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/w/watcher"
+	],
+	"Files": [
+		"e87816266660052049650618b23f72bd 3736 watcher_0.30.0-5.dsc b7dab0e9a5996113b015c1d624b8095b 689440 watcher_0.30.0.orig.tar.xz 5d06ab39ea884000fa2a257f4a6bc568 24440 watcher_0.30.0-5.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/openstack/watcher"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"watcher"
+	],
+	"Package-List": [
+		"python-watcher deb python extra arch=all watcher-api deb net extra arch=all watcher-applier deb net extra arch=all watcher-common deb net extra arch=all watcher-decision-engine deb net extra arch=all watcher-doc deb doc extra arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://git.openstack.org/cgit/openstack/deb-watcher?h=debian%2Fnewton"
+	],
+	"Vcs-Git": [
+		"https://git.openstack.org/openstack/deb-watcher -b debian/newton"
+	],
+	"Version": [
+		"0.30.0-5"
+	]
 }

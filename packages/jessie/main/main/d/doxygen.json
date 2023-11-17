@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "doxygen, doxygen-latex, doxygen-doc, doxygen-gui, doxygen-dbg"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 5), libqt4-dev, flex, bison (>= 1.875a), python3, libsqlite3-dev, libxapian-dev, tmake, yui-compressor, libclang-3.5-dev [alpha amd64 armel armhf arm64 i386 mips mipsel powerpc powerpcspe ppc64 ppc64el s390x kfreebsd-amd64 kfreebsd-i386]"
-  ],
-  "Build-Depends-Indep": [
-    "texlive-fonts-recommended, texlive-generic-recommended, texlive-latex-extra, texlive-latex-recommended, texlive-extra-utils, texlive-font-utils, ghostscript, graphviz, latex-xcolor, rdfind"
-  ],
-  "Checksums-Sha1": [
-    "1bec731697787569295295d1f01d5a6602645899 2440 doxygen_1.8.8-5.dsc 2f2d028254d804c3b04e78ba2183de5a7637143c 4971577 doxygen_1.8.8.orig.tar.gz 80956349843cdeb6696a1b144a1ccb7aa143bd10 24168 doxygen_1.8.8-5.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "15641f3680da982a5ac40aae4b59abccc646c88bdbb5ac5e4efd4350bfa7a18c 2440 doxygen_1.8.8-5.dsc d1f978350527a2338199c9abb78f76f10746520de5dc4ae4cdd27fc9df9b19b8 4971577 doxygen_1.8.8.orig.tar.gz 0a1e81bac5a65ce76d0d7c452fcfb5ea940690499aadfc9dfc1888977a9893d4 24168 doxygen_1.8.8-5.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/d/doxygen"
-  ],
-  "Files": [
-    "d37aff58d25463528706747c0690d044 2440 doxygen_1.8.8-5.dsc 453892def7b378df387585a9358c23d4 4971577 doxygen_1.8.8.orig.tar.gz 2057394feeb0ddc0f873b874ad7adf39 24168 doxygen_1.8.8-5.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.stack.nl/~dimitri/doxygen/"
-  ],
-  "Maintainer": [
-    "Matthias Klose <doko@debian.org>"
-  ],
-  "Package": [
-    "doxygen"
-  ],
-  "Package-List": [
-    "doxygen deb devel optional arch=any doxygen-dbg deb debug extra arch=any doxygen-doc deb doc optional arch=all doxygen-gui deb devel optional arch=any profile=!stage1 doxygen-latex deb devel optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "devel"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Helmut Grohne <helmut@subdivi.de>"
-  ],
-  "Version": [
-    "1.8.8-5"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"doxygen, doxygen-latex, doxygen-doc, doxygen-gui, doxygen-dbg"
+	],
+	"Build-Depends": [
+		"debhelper (>= 5), libqt4-dev, flex, bison (>= 1.875a), python3, libsqlite3-dev, libxapian-dev, tmake, yui-compressor, libclang-3.5-dev [alpha amd64 armel armhf arm64 i386 mips mipsel powerpc powerpcspe ppc64 ppc64el s390x kfreebsd-amd64 kfreebsd-i386]"
+	],
+	"Build-Depends-Indep": [
+		"texlive-fonts-recommended, texlive-generic-recommended, texlive-latex-extra, texlive-latex-recommended, texlive-extra-utils, texlive-font-utils, ghostscript, graphviz, latex-xcolor, rdfind"
+	],
+	"Checksums-Sha1": [
+		"1bec731697787569295295d1f01d5a6602645899 2440 doxygen_1.8.8-5.dsc 2f2d028254d804c3b04e78ba2183de5a7637143c 4971577 doxygen_1.8.8.orig.tar.gz 80956349843cdeb6696a1b144a1ccb7aa143bd10 24168 doxygen_1.8.8-5.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"15641f3680da982a5ac40aae4b59abccc646c88bdbb5ac5e4efd4350bfa7a18c 2440 doxygen_1.8.8-5.dsc d1f978350527a2338199c9abb78f76f10746520de5dc4ae4cdd27fc9df9b19b8 4971577 doxygen_1.8.8.orig.tar.gz 0a1e81bac5a65ce76d0d7c452fcfb5ea940690499aadfc9dfc1888977a9893d4 24168 doxygen_1.8.8-5.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/d/doxygen"
+	],
+	"Files": [
+		"d37aff58d25463528706747c0690d044 2440 doxygen_1.8.8-5.dsc 453892def7b378df387585a9358c23d4 4971577 doxygen_1.8.8.orig.tar.gz 2057394feeb0ddc0f873b874ad7adf39 24168 doxygen_1.8.8-5.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.stack.nl/~dimitri/doxygen/"
+	],
+	"Maintainer": [
+		"Matthias Klose <doko@debian.org>"
+	],
+	"Package": [
+		"doxygen"
+	],
+	"Package-List": [
+		"doxygen deb devel optional arch=any doxygen-dbg deb debug extra arch=any doxygen-doc deb doc optional arch=all doxygen-gui deb devel optional arch=any profile=!stage1 doxygen-latex deb devel optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"devel"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Helmut Grohne <helmut@subdivi.de>"
+	],
+	"Version": [
+		"1.8.8-5"
+	]
 }

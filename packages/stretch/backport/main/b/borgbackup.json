@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "borgbackup, borgbackup-doc"
-  ],
-  "Build-Depends": [
-    "cython3, debhelper (>= 11), dh-python, fakeroot, libacl1-dev, libb2-dev, liblz4-dev, libssl-dev (>= 1.0.0), libzstd-dev, python3-dev (>= 3.4), python3-guzzle-sphinx-theme, python3-llfuse (<< 2.0) [!hurd-any], python3-msgpack, python3-pytest, python3-pytest-cov, python3-setuptools, python3-setuptools-scm (>= 1.7), python3-sphinx (>= 1.0.7)"
-  ],
-  "Checksums-Sha256": [
-    "612e71de035033f084f2095cd75a229ed9f718f4b60862bc9785ef2eb1c9301e 2165 borgbackup_1.1.9-2~bpo9+2.dsc 7d0ff84e64c4be35c43ae2c047bb521a94f15b278c2fe63b43950c4836b42575 3468259 borgbackup_1.1.9.orig.tar.gz 3891010343b62a2f2752b9f998f4b0deed7aa7c546d24dabd75740eb835248fa 24008 borgbackup_1.1.9-2~bpo9+2.debian.tar.xz"
-  ],
-  "Dgit": [
-    "963dc5fa0c8a501ee0baa3976fdc265463e8d475 debian archive/debian/1.1.9-2_bpo9+2 https://git.dgit.debian.org/borgbackup"
-  ],
-  "Directory": [
-    "pool/main/b/borgbackup"
-  ],
-  "Files": [
-    "6f0bbb3434feca0c57dfaad2b83072bb 2165 borgbackup_1.1.9-2~bpo9+2.dsc 0fda2c1f636754d0748569bff67a6836 3468259 borgbackup_1.1.9.orig.tar.gz 92715956ca4341aca012756827347b01 24008 borgbackup_1.1.9-2~bpo9+2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://borgbackup.github.io/borgbackup/"
-  ],
-  "Maintainer": [
-    "Danny Edel <debian@danny-edel.de>"
-  ],
-  "Package": [
-    "borgbackup"
-  ],
-  "Package-List": [
-    "borgbackup deb admin optional arch=any borgbackup-doc deb doc optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.3.0"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "fuse, python3-llfuse"
-  ],
-  "Uploaders": [
-    "Gianfranco Costamagna <locutusofborg@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian/borgbackup"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian/borgbackup.git"
-  ],
-  "Version": [
-    "1.1.9-2~bpo9+2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"borgbackup, borgbackup-doc"
+	],
+	"Build-Depends": [
+		"cython3, debhelper (>= 11), dh-python, fakeroot, libacl1-dev, libb2-dev, liblz4-dev, libssl-dev (>= 1.0.0), libzstd-dev, python3-dev (>= 3.4), python3-guzzle-sphinx-theme, python3-llfuse (<< 2.0) [!hurd-any], python3-msgpack, python3-pytest, python3-pytest-cov, python3-setuptools, python3-setuptools-scm (>= 1.7), python3-sphinx (>= 1.0.7)"
+	],
+	"Checksums-Sha256": [
+		"612e71de035033f084f2095cd75a229ed9f718f4b60862bc9785ef2eb1c9301e 2165 borgbackup_1.1.9-2~bpo9+2.dsc 7d0ff84e64c4be35c43ae2c047bb521a94f15b278c2fe63b43950c4836b42575 3468259 borgbackup_1.1.9.orig.tar.gz 3891010343b62a2f2752b9f998f4b0deed7aa7c546d24dabd75740eb835248fa 24008 borgbackup_1.1.9-2~bpo9+2.debian.tar.xz"
+	],
+	"Dgit": [
+		"963dc5fa0c8a501ee0baa3976fdc265463e8d475 debian archive/debian/1.1.9-2_bpo9+2 https://git.dgit.debian.org/borgbackup"
+	],
+	"Directory": [
+		"pool/main/b/borgbackup"
+	],
+	"Files": [
+		"6f0bbb3434feca0c57dfaad2b83072bb 2165 borgbackup_1.1.9-2~bpo9+2.dsc 0fda2c1f636754d0748569bff67a6836 3468259 borgbackup_1.1.9.orig.tar.gz 92715956ca4341aca012756827347b01 24008 borgbackup_1.1.9-2~bpo9+2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://borgbackup.github.io/borgbackup/"
+	],
+	"Maintainer": [
+		"Danny Edel <debian@danny-edel.de>"
+	],
+	"Package": [
+		"borgbackup"
+	],
+	"Package-List": [
+		"borgbackup deb admin optional arch=any borgbackup-doc deb doc optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.3.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"fuse, python3-llfuse"
+	],
+	"Uploaders": [
+		"Gianfranco Costamagna <locutusofborg@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/borgbackup"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/borgbackup.git"
+	],
+	"Version": [
+		"1.1.9-2~bpo9+2"
+	]
 }

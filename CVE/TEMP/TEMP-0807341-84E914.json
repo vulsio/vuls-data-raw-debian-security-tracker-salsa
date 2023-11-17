@@ -1,29 +1,29 @@
 {
-  "header": {
-    "line": "CVE-2015-XXXX [uses non-random tempdir /tmp/tmprepo.0/.git/]",
-    "name": "TEMP-0807341-84E914",
-    "description": "[uses non-random tempdir /tmp/tmprepo.0/.git/]"
-  },
-  "annotations": [
-    {
-      "line": "\t- git-repair 1.20151215-1 (unimportant; bug #807341)",
-      "type": "package",
-      "package": "git-repair",
-      "kind": "fixed",
-      "version": "1.20151215-1",
-      "flags": [
-        {
-          "severity": "unimportant"
-        },
-        {
-          "bug": 807341
-        }
-      ]
-    },
-    {
-      "line": "\tNOTE: Non-exploitable on release archs due to kernel hardening",
-      "type": "NOTE",
-      "description": "Non-exploitable on release archs due to kernel hardening"
-    }
-  ]
+	"header": {
+		"line": "CVE-2015-XXXX [uses non-random tempdir /tmp/tmprepo.0/.git/]",
+		"name": "TEMP-0807341-84E914",
+		"description": "[uses non-random tempdir /tmp/tmprepo.0/.git/]"
+	},
+	"annotations": [
+		{
+			"line": "\t- git-repair 1.20151215-1 (unimportant; bug #807341)",
+			"type": "package",
+			"package": "git-repair",
+			"kind": "fixed",
+			"version": "1.20151215-1",
+			"flags": [
+				{
+					"severity": "unimportant"
+				},
+				{
+					"bug": 807341
+				}
+			]
+		},
+		{
+			"line": "\tNOTE: Non-exploitable on release archs due to kernel hardening",
+			"type": "NOTE",
+			"description": "Non-exploitable on release archs due to kernel hardening"
+		}
+	]
 }

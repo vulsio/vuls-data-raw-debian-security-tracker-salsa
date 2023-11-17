@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-tempfile-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cfg-if-1+default-dev <!nocheck>, librust-fastrand+default-dev (>= 1.6.0-~~) <!nocheck>, librust-redox-syscall-0.2+default-dev (>= 0.2.9-~~) <!nocheck>, librust-rustix-0.38+default-dev (>= 0.38.21-~~) <!nocheck>, librust-rustix-0.38+fs-dev (>= 0.38.21-~~) <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "52725fa65f26385a90149b24109ca07c22046228499c662315bc3e6291296e5c 2590 rust-tempfile_3.8.1-1.dsc 7ef1adac450ad7f4b3c28589471ade84f25f731a7a0fe30d71dfa9f60fd808e5 32164 rust-tempfile_3.8.1.orig.tar.gz 0507c302390de7f9175d22d5cd6c687d044a4b018ece98efe007c75d5d04face 3744 rust-tempfile_3.8.1-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-tempfile"
-  ],
-  "Files": [
-    "b9dab2b42bf97fcb36796ca3786a5781 2590 rust-tempfile_3.8.1-1.dsc f80faded72df19d43134e2b44137376a 32164 rust-tempfile_3.8.1.orig.tar.gz 1735561c3be0072a1e86257ba0a1b281 3744 rust-tempfile_3.8.1-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://stebalien.com/projects/tempfile-rs/"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-tempfile"
-  ],
-  "Package-List": [
-    "librust-tempfile-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-doc-comment-0.3+default-dev"
-  ],
-  "Uploaders": [
-    "Ximin Luo <infinity0@debian.org>, Wolfgang Silbermayr <wolfgang@silbermayr.at>, Robin Krahl <robin.krahl@ireas.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/tempfile"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/tempfile]"
-  ],
-  "Version": [
-    "3.8.1-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-tempfile-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cfg-if-1+default-dev <!nocheck>, librust-fastrand+default-dev (>= 1.6.0-~~) <!nocheck>, librust-redox-syscall-0.2+default-dev (>= 0.2.9-~~) <!nocheck>, librust-rustix-0.38+default-dev (>= 0.38.21-~~) <!nocheck>, librust-rustix-0.38+fs-dev (>= 0.38.21-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"52725fa65f26385a90149b24109ca07c22046228499c662315bc3e6291296e5c 2590 rust-tempfile_3.8.1-1.dsc 7ef1adac450ad7f4b3c28589471ade84f25f731a7a0fe30d71dfa9f60fd808e5 32164 rust-tempfile_3.8.1.orig.tar.gz 0507c302390de7f9175d22d5cd6c687d044a4b018ece98efe007c75d5d04face 3744 rust-tempfile_3.8.1-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-tempfile"
+	],
+	"Files": [
+		"b9dab2b42bf97fcb36796ca3786a5781 2590 rust-tempfile_3.8.1-1.dsc f80faded72df19d43134e2b44137376a 32164 rust-tempfile_3.8.1.orig.tar.gz 1735561c3be0072a1e86257ba0a1b281 3744 rust-tempfile_3.8.1-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://stebalien.com/projects/tempfile-rs/"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-tempfile"
+	],
+	"Package-List": [
+		"librust-tempfile-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-doc-comment-0.3+default-dev"
+	],
+	"Uploaders": [
+		"Ximin Luo <infinity0@debian.org>, Wolfgang Silbermayr <wolfgang@silbermayr.at>, Robin Krahl <robin.krahl@ireas.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/tempfile"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/tempfile]"
+	],
+	"Version": [
+		"3.8.1-1"
+	]
 }

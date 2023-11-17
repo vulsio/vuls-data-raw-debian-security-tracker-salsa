@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "ecj, libecj-java, libecj-java-gcj, ecj1, ecj-gcj"
-  ],
-  "Build-Conflicts": [
-    "ecj-bootstrap-gcj (<< 3.8.2)"
-  ],
-  "Build-Depends": [
-    "cdbs (>= 0.4.90ubuntu9), debhelper (>= 9), gcj-4.9-jdk (>= 4.9.1), libgcj-bc (>= 4.6.3), fastjar, ant, zip, dpkg (>= 1.13.19), python, time"
-  ],
-  "Build-Depends-Indep": [
-    "maven-repo-helper"
-  ],
-  "Checksums-Sha1": [
-    "8b56466e32cefb5d5e47ca0f87f5182c146fa0b3 1651 ecj_3.10.1-1.dsc 0e7184318abe6cbb7dcb6c4ded0ab7544cd33ae2 1441395 ecj_3.10.1.orig.tar.gz 30ed6ef6eca8aa3125ce122b0a4bd2cd725f54b0 26992 ecj_3.10.1-1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "23be9c62e4499f8be6b83b76ec465c9ef09af70091b77274afeb474b6d0f0d77 1651 ecj_3.10.1-1.dsc 8df0c0d9b1490975c70cd3c18068db3a3f9925acb81cf249aa98db6612f12148 1441395 ecj_3.10.1.orig.tar.gz b8e3e5651173eea53159bedf90ab1b71b08d96b0bcd665f8bac142c1a1ca1856 26992 ecj_3.10.1-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/e/ecj"
-  ],
-  "Files": [
-    "4e8223898a6d22b5f294c8a0ea584dcb 1651 ecj_3.10.1-1.dsc 020b0cdd1fa9dc68eb97190d526fa0bb 1441395 ecj_3.10.1.orig.tar.gz b17967c822d915d71865dc8fad253b9f 26992 ecj_3.10.1-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.eclipse.org/jdt/core/index.php"
-  ],
-  "Maintainer": [
-    "Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "ecj"
-  ],
-  "Package-List": [
-    "ecj deb java optional arch=any ecj-gcj deb java optional arch=any ecj1 deb java optional arch=alpha,armel,armhf libecj-java deb java optional arch=all libecj-java-gcj deb java optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "java"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Matthias Klose <doko@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/viewvc/pkg-java/trunk/ecj/"
-  ],
-  "Vcs-Svn": [
-    "svn://anonscm.debian.org/pkg-java/trunk/ecj"
-  ],
-  "Version": [
-    "3.10.1-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"ecj, libecj-java, libecj-java-gcj, ecj1, ecj-gcj"
+	],
+	"Build-Conflicts": [
+		"ecj-bootstrap-gcj (<< 3.8.2)"
+	],
+	"Build-Depends": [
+		"cdbs (>= 0.4.90ubuntu9), debhelper (>= 9), gcj-4.9-jdk (>= 4.9.1), libgcj-bc (>= 4.6.3), fastjar, ant, zip, dpkg (>= 1.13.19), python, time"
+	],
+	"Build-Depends-Indep": [
+		"maven-repo-helper"
+	],
+	"Checksums-Sha1": [
+		"8b56466e32cefb5d5e47ca0f87f5182c146fa0b3 1651 ecj_3.10.1-1.dsc 0e7184318abe6cbb7dcb6c4ded0ab7544cd33ae2 1441395 ecj_3.10.1.orig.tar.gz 30ed6ef6eca8aa3125ce122b0a4bd2cd725f54b0 26992 ecj_3.10.1-1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"23be9c62e4499f8be6b83b76ec465c9ef09af70091b77274afeb474b6d0f0d77 1651 ecj_3.10.1-1.dsc 8df0c0d9b1490975c70cd3c18068db3a3f9925acb81cf249aa98db6612f12148 1441395 ecj_3.10.1.orig.tar.gz b8e3e5651173eea53159bedf90ab1b71b08d96b0bcd665f8bac142c1a1ca1856 26992 ecj_3.10.1-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/e/ecj"
+	],
+	"Files": [
+		"4e8223898a6d22b5f294c8a0ea584dcb 1651 ecj_3.10.1-1.dsc 020b0cdd1fa9dc68eb97190d526fa0bb 1441395 ecj_3.10.1.orig.tar.gz b17967c822d915d71865dc8fad253b9f 26992 ecj_3.10.1-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.eclipse.org/jdt/core/index.php"
+	],
+	"Maintainer": [
+		"Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"ecj"
+	],
+	"Package-List": [
+		"ecj deb java optional arch=any ecj-gcj deb java optional arch=any ecj1 deb java optional arch=alpha,armel,armhf libecj-java deb java optional arch=all libecj-java-gcj deb java optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"java"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Matthias Klose <doko@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/viewvc/pkg-java/trunk/ecj/"
+	],
+	"Vcs-Svn": [
+		"svn://anonscm.debian.org/pkg-java/trunk/ecj"
+	],
+	"Version": [
+		"3.10.1-1"
+	]
 }

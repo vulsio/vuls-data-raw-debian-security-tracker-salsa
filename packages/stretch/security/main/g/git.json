@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "git, git-man, git-core, git-doc, git-arch, git-cvs, git-svn, git-mediawiki, git-email, git-daemon-run, git-daemon-sysvinit, git-gui, gitk, git-el, gitweb, git-all"
-  ],
-  "Build-Depends": [
-    "libz-dev, libpcre3-dev, gettext, libcurl4-gnutls-dev, libexpat1-dev, subversion, libsvn-perl, libyaml-perl, tcl, libhttp-date-perl | libtime-modules-perl, libcgi-pm-perl, python, cvs, cvsps, libdbd-sqlite3-perl, unzip, libio-pty-perl, debhelper (>= 9), dh-exec (>= 0.7), dh-apache2, dpkg-dev (>= 1.16.2~)"
-  ],
-  "Build-Depends-Indep": [
-    "asciidoc, xmlto, docbook-xsl"
-  ],
-  "Checksums-Sha1": [
-    "376bc1d45fc181f701b4885253802be9c5032c85 2944 git_2.11.0-3+deb9u7.dsc a1567e3b5ef586b931768bec5c7cb3f1c857d469 4197984 git_2.11.0.orig.tar.xz 242f1e6bddf81be0eb5c821c4f3989a20dea9e1a 610188 git_2.11.0-3+deb9u7.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "7f2be1b1709c216ad06590687cc8fc0ff6b55a6c3e0ad6ec32b2567ce10adec1 2944 git_2.11.0-3+deb9u7.dsc 7e7e8d69d494892373b87007674be5820a4bc1ef596a0117d03ea3169119fd0b 4197984 git_2.11.0.orig.tar.xz 3f54b7ea7b8cda477ddb559c63de063c5bd49d8ab772330c05c79ace546ce38d 610188 git_2.11.0-3+deb9u7.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/g/git"
-  ],
-  "Files": [
-    "e594aeada05ecb15253cc5768412ce3b 2944 git_2.11.0-3+deb9u7.dsc dd4e3360e28aec5bb902fb34dd7fce3b 4197984 git_2.11.0.orig.tar.xz e8d896e5307397f0e106e6a85c1b8682 610188 git_2.11.0-3+deb9u7.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://git-scm.com/"
-  ],
-  "Maintainer": [
-    "Gerrit Pape <pape@smarden.org>"
-  ],
-  "Package": [
-    "git"
-  ],
-  "Package-List": [
-    "git deb vcs optional arch=any git-all deb vcs optional arch=all git-arch deb vcs optional arch=all git-core deb vcs optional arch=all git-cvs deb vcs optional arch=all git-daemon-run deb vcs optional arch=all git-daemon-sysvinit deb vcs extra arch=all git-doc deb doc optional arch=all git-el deb vcs optional arch=all git-email deb vcs optional arch=all git-gui deb vcs optional arch=all git-man deb doc optional arch=all git-mediawiki deb vcs optional arch=all git-svn deb vcs optional arch=all gitk deb vcs optional arch=all gitweb deb vcs optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "vcs"
-  ],
-  "Standards-Version": [
-    "3.9.6.0"
-  ],
-  "Uploaders": [
-    "Jonathan Nieder <jrnieder@gmail.com>, Anders Kaseorg <andersk@mit.edu>"
-  ],
-  "Vcs-Browser": [
-    "http://repo.or.cz/w/git/debian.git/"
-  ],
-  "Vcs-Git": [
-    "https://repo.or.cz/r/git/debian.git/"
-  ],
-  "Version": [
-    "1:2.11.0-3+deb9u7"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"git, git-man, git-core, git-doc, git-arch, git-cvs, git-svn, git-mediawiki, git-email, git-daemon-run, git-daemon-sysvinit, git-gui, gitk, git-el, gitweb, git-all"
+	],
+	"Build-Depends": [
+		"libz-dev, libpcre3-dev, gettext, libcurl4-gnutls-dev, libexpat1-dev, subversion, libsvn-perl, libyaml-perl, tcl, libhttp-date-perl | libtime-modules-perl, libcgi-pm-perl, python, cvs, cvsps, libdbd-sqlite3-perl, unzip, libio-pty-perl, debhelper (>= 9), dh-exec (>= 0.7), dh-apache2, dpkg-dev (>= 1.16.2~)"
+	],
+	"Build-Depends-Indep": [
+		"asciidoc, xmlto, docbook-xsl"
+	],
+	"Checksums-Sha1": [
+		"376bc1d45fc181f701b4885253802be9c5032c85 2944 git_2.11.0-3+deb9u7.dsc a1567e3b5ef586b931768bec5c7cb3f1c857d469 4197984 git_2.11.0.orig.tar.xz 242f1e6bddf81be0eb5c821c4f3989a20dea9e1a 610188 git_2.11.0-3+deb9u7.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"7f2be1b1709c216ad06590687cc8fc0ff6b55a6c3e0ad6ec32b2567ce10adec1 2944 git_2.11.0-3+deb9u7.dsc 7e7e8d69d494892373b87007674be5820a4bc1ef596a0117d03ea3169119fd0b 4197984 git_2.11.0.orig.tar.xz 3f54b7ea7b8cda477ddb559c63de063c5bd49d8ab772330c05c79ace546ce38d 610188 git_2.11.0-3+deb9u7.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/g/git"
+	],
+	"Files": [
+		"e594aeada05ecb15253cc5768412ce3b 2944 git_2.11.0-3+deb9u7.dsc dd4e3360e28aec5bb902fb34dd7fce3b 4197984 git_2.11.0.orig.tar.xz e8d896e5307397f0e106e6a85c1b8682 610188 git_2.11.0-3+deb9u7.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://git-scm.com/"
+	],
+	"Maintainer": [
+		"Gerrit Pape <pape@smarden.org>"
+	],
+	"Package": [
+		"git"
+	],
+	"Package-List": [
+		"git deb vcs optional arch=any git-all deb vcs optional arch=all git-arch deb vcs optional arch=all git-core deb vcs optional arch=all git-cvs deb vcs optional arch=all git-daemon-run deb vcs optional arch=all git-daemon-sysvinit deb vcs extra arch=all git-doc deb doc optional arch=all git-el deb vcs optional arch=all git-email deb vcs optional arch=all git-gui deb vcs optional arch=all git-man deb doc optional arch=all git-mediawiki deb vcs optional arch=all git-svn deb vcs optional arch=all gitk deb vcs optional arch=all gitweb deb vcs optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"vcs"
+	],
+	"Standards-Version": [
+		"3.9.6.0"
+	],
+	"Uploaders": [
+		"Jonathan Nieder <jrnieder@gmail.com>, Anders Kaseorg <andersk@mit.edu>"
+	],
+	"Vcs-Browser": [
+		"http://repo.or.cz/w/git/debian.git/"
+	],
+	"Vcs-Git": [
+		"https://repo.or.cz/r/git/debian.git/"
+	],
+	"Version": [
+		"1:2.11.0-3+deb9u7"
+	]
 }

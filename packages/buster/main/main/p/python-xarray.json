@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-xarray, python3-xarray, python-xarray-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 11), dh-python, dpkg-dev (>= 1.17.14), python3-numpydoc <!nodoc>, python-numpydoc <!nodoc>, python-pandas-doc <!nodoc>, python3-all, python-all, python3-toolz, python3-cloudpickle, python-cloudpickle, python-flake8, python3-flake8, python3-doc <!nodoc>, python-doc <!nodoc>, python3-bottleneck <!nocheck>, python-bottleneck <!nocheck>, python3-cartopy <!nodoc>, python-cartopy <!nodoc>, python3-dask (>= 0.17.3) <!nocheck> <!nodoc>, python3-ipython <!nodoc>, python-ipython <!nodoc>, python3-matplotlib <!nocheck> <!nodoc>, python-matplotlib <!nocheck> <!nodoc>, python3-netcdf4 <!nocheck> <!nodoc>, python-netcdf4 <!nocheck> <!nodoc>, python3-numpy <!nocheck> <!nodoc>, python-numpy <!nocheck> <!nodoc>, python-matplotlib-doc <!nodoc>, python3-pandas (>= 0.15.0) <!nocheck> <!nodoc>, python3-pytest (>= 2.7.1) <!nocheck>, python-pandas (>= 0.15.0) <!nocheck> <!nodoc>, python-pytest (>= 2.7.1) <!nocheck>, python3-rasterio <!nocheck> <!nodoc>, python3-setuptools, python-setuptools, python3-scipy <!nocheck> <!nodoc>, python-scipy <!nocheck> <!nodoc>, python3-seaborn <!nocheck> <!nodoc>, python-seaborn <!nocheck> <!nodoc>, python3-sphinx <!nodoc>, python-sphinx <!nodoc>, python3-sphinx-gallery <!nodoc>, python-sphinx-gallery <!nodoc>, python3-sphinx-rtd-theme <!nodoc>, python-sphinx-rtd-theme <!nodoc>, sphinx-common"
-  ],
-  "Checksums-Sha256": [
-    "a2e6021163064c7acdc210b56c4f1de432df3ee26d136bbb904bfe3dfc4d6d3c 3675 python-xarray_0.11.3-2.dsc 16270af8312e852c8e7657818a5bff13d08f1773762a477abf3312b377f8d5bd 2657696 python-xarray_0.11.3.orig.tar.xz dcf3dad86b6fd2f3e8a438caeeca7e90a922210b37997e143e8bd8ce0f68afe7 11500 python-xarray_0.11.3-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/python-xarray"
-  ],
-  "Files": [
-    "9ae5b7fc8e2511ae8ba6dd9f250de426 3675 python-xarray_0.11.3-2.dsc fba9845e54c14555e1f06d1c92b6a977 2657696 python-xarray_0.11.3.orig.tar.xz db41c3efc7c645ee9d13d043ea211279 11500 python-xarray_0.11.3-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://xarray.pydata.org/"
-  ],
-  "Maintainer": [
-    "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "python-xarray"
-  ],
-  "Package-List": [
-    "python-xarray deb python optional arch=all python-xarray-doc deb doc optional arch=all profile=!nodoc python3-xarray deb python optional arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.3.0"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "python3-all, python3-bottleneck, python3-dask, python3-matplotlib, python3-netcdf4, python3-pytest, python3-scipy"
-  ],
-  "Uploaders": [
-    "Ghislain Antony Vaillant <ghisvail@gmail.com>, Alastair McKinstry <mckinstry@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/science-team/python-xarray"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/science-team/python-xarray.git"
-  ],
-  "Version": [
-    "0.11.3-2"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-xarray, python3-xarray, python-xarray-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 11), dh-python, dpkg-dev (>= 1.17.14), python3-numpydoc <!nodoc>, python-numpydoc <!nodoc>, python-pandas-doc <!nodoc>, python3-all, python-all, python3-toolz, python3-cloudpickle, python-cloudpickle, python-flake8, python3-flake8, python3-doc <!nodoc>, python-doc <!nodoc>, python3-bottleneck <!nocheck>, python-bottleneck <!nocheck>, python3-cartopy <!nodoc>, python-cartopy <!nodoc>, python3-dask (>= 0.17.3) <!nocheck> <!nodoc>, python3-ipython <!nodoc>, python-ipython <!nodoc>, python3-matplotlib <!nocheck> <!nodoc>, python-matplotlib <!nocheck> <!nodoc>, python3-netcdf4 <!nocheck> <!nodoc>, python-netcdf4 <!nocheck> <!nodoc>, python3-numpy <!nocheck> <!nodoc>, python-numpy <!nocheck> <!nodoc>, python-matplotlib-doc <!nodoc>, python3-pandas (>= 0.15.0) <!nocheck> <!nodoc>, python3-pytest (>= 2.7.1) <!nocheck>, python-pandas (>= 0.15.0) <!nocheck> <!nodoc>, python-pytest (>= 2.7.1) <!nocheck>, python3-rasterio <!nocheck> <!nodoc>, python3-setuptools, python-setuptools, python3-scipy <!nocheck> <!nodoc>, python-scipy <!nocheck> <!nodoc>, python3-seaborn <!nocheck> <!nodoc>, python-seaborn <!nocheck> <!nodoc>, python3-sphinx <!nodoc>, python-sphinx <!nodoc>, python3-sphinx-gallery <!nodoc>, python-sphinx-gallery <!nodoc>, python3-sphinx-rtd-theme <!nodoc>, python-sphinx-rtd-theme <!nodoc>, sphinx-common"
+	],
+	"Checksums-Sha256": [
+		"a2e6021163064c7acdc210b56c4f1de432df3ee26d136bbb904bfe3dfc4d6d3c 3675 python-xarray_0.11.3-2.dsc 16270af8312e852c8e7657818a5bff13d08f1773762a477abf3312b377f8d5bd 2657696 python-xarray_0.11.3.orig.tar.xz dcf3dad86b6fd2f3e8a438caeeca7e90a922210b37997e143e8bd8ce0f68afe7 11500 python-xarray_0.11.3-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-xarray"
+	],
+	"Files": [
+		"9ae5b7fc8e2511ae8ba6dd9f250de426 3675 python-xarray_0.11.3-2.dsc fba9845e54c14555e1f06d1c92b6a977 2657696 python-xarray_0.11.3.orig.tar.xz db41c3efc7c645ee9d13d043ea211279 11500 python-xarray_0.11.3-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://xarray.pydata.org/"
+	],
+	"Maintainer": [
+		"Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"python-xarray"
+	],
+	"Package-List": [
+		"python-xarray deb python optional arch=all python-xarray-doc deb doc optional arch=all profile=!nodoc python3-xarray deb python optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.3.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"python3-all, python3-bottleneck, python3-dask, python3-matplotlib, python3-netcdf4, python3-pytest, python3-scipy"
+	],
+	"Uploaders": [
+		"Ghislain Antony Vaillant <ghisvail@gmail.com>, Alastair McKinstry <mckinstry@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/science-team/python-xarray"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/science-team/python-xarray.git"
+	],
+	"Version": [
+		"0.11.3-2"
+	]
 }

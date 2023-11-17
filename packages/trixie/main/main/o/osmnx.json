@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python3-osmnx, python-osmnx-doc"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3, python3-coverage, python3-geopandas (>= 0.12), python3-networkx (>= 2.8), python3-numpy (>= 1.23), python3-pandas (>= 1.5), python3-requests (>= 2.28), python3-shapely (>= 2.0), python3-matplotlib (>= 3.5), python3-sklearn, python3-scipy, python3-folium, python3-pytest, python3-hatchling, flit, black, isort, pydocstyle"
-  ],
-  "Build-Depends-Indep": [
-    "python3-sphinx, furo, latexmk, texlive-plain-generic, texlive-latex-base, texlive-latex-recommended, texlive-fonts-recommended, texlive-latex-extra, tex-gyre"
-  ],
-  "Checksums-Sha256": [
-    "6ac17b7610af15c6715e34a7669caed05b467243989f37b6b18e43d52f69cdd5 3430 osmnx_1.6.0+ds-1.dsc 2cf6b1fb83f52c0ab6ebf1dd5774d2138feaa6616dca0842128432b7904ab255 105948 osmnx_1.6.0+ds.orig.tar.xz 05bc22fd94d219b6251e970c30978401adb14556ffec9b644cde6717f99be3b2 10852 osmnx_1.6.0+ds-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/o/osmnx"
-  ],
-  "Files": [
-    "9b70c5c8ec9be76d4fcae234010953fe 3430 osmnx_1.6.0+ds-1.dsc 9c2e95107ed31c4a837c58f540a3fa48 105948 osmnx_1.6.0+ds.orig.tar.xz f5635b114e601fb5d1b630086f0a7432 10852 osmnx_1.6.0+ds-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/gboeing/osmnx"
-  ],
-  "Maintainer": [
-    "Jerome Benoit <calculus@rezozer.net>"
-  ],
-  "Package": [
-    "osmnx"
-  ],
-  "Package-List": [
-    "python-osmnx-doc deb doc optional arch=all python3-osmnx deb python optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "python3-coverage, python3-folium, python3-gdal, python3-matplotlib, python3-pytest, python3-rasterio, python3-scipy, python3-sklearn"
-  ],
-  "Uploaders": [
-    "Debian Python Team <team+python@tracker.debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/python-team/packages/osmnx"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/python-team/packages/osmnx.git"
-  ],
-  "Version": [
-    "1.6.0+ds-1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python3-osmnx, python-osmnx-doc"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3, python3-coverage, python3-geopandas (>= 0.12), python3-networkx (>= 2.8), python3-numpy (>= 1.23), python3-pandas (>= 1.5), python3-requests (>= 2.28), python3-shapely (>= 2.0), python3-matplotlib (>= 3.5), python3-sklearn, python3-scipy, python3-folium, python3-pytest, python3-hatchling, flit, black, isort, pydocstyle"
+	],
+	"Build-Depends-Indep": [
+		"python3-sphinx, furo, latexmk, texlive-plain-generic, texlive-latex-base, texlive-latex-recommended, texlive-fonts-recommended, texlive-latex-extra, tex-gyre"
+	],
+	"Checksums-Sha256": [
+		"6ac17b7610af15c6715e34a7669caed05b467243989f37b6b18e43d52f69cdd5 3430 osmnx_1.6.0+ds-1.dsc 2cf6b1fb83f52c0ab6ebf1dd5774d2138feaa6616dca0842128432b7904ab255 105948 osmnx_1.6.0+ds.orig.tar.xz 05bc22fd94d219b6251e970c30978401adb14556ffec9b644cde6717f99be3b2 10852 osmnx_1.6.0+ds-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/o/osmnx"
+	],
+	"Files": [
+		"9b70c5c8ec9be76d4fcae234010953fe 3430 osmnx_1.6.0+ds-1.dsc 9c2e95107ed31c4a837c58f540a3fa48 105948 osmnx_1.6.0+ds.orig.tar.xz f5635b114e601fb5d1b630086f0a7432 10852 osmnx_1.6.0+ds-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/gboeing/osmnx"
+	],
+	"Maintainer": [
+		"Jerome Benoit <calculus@rezozer.net>"
+	],
+	"Package": [
+		"osmnx"
+	],
+	"Package-List": [
+		"python-osmnx-doc deb doc optional arch=all python3-osmnx deb python optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"python3-coverage, python3-folium, python3-gdal, python3-matplotlib, python3-pytest, python3-rasterio, python3-scipy, python3-sklearn"
+	],
+	"Uploaders": [
+		"Debian Python Team <team+python@tracker.debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/python-team/packages/osmnx"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/python-team/packages/osmnx.git"
+	],
+	"Version": [
+		"1.6.0+ds-1"
+	]
 }

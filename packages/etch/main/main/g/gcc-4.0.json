@@ -1,44 +1,44 @@
 {
-  "Architecture": [
-    "hurd-i386 hppa arm armeb"
-  ],
-  "Binary": [
-    "cpp-4.0, gcc-4.0-base, gcc-4.0-locales, libgcc2, gcc-4.0-soft-float, gcc-4.0"
-  ],
-  "Build-Depends": [
-    "dpkg-dev (>= 1.13.9), libc6.1-dev (>= 2.3.6) [alpha ia64] | libc0.3-dev (>= 2.3.6) [hurd-i386] | libc0.1-dev (>= 2.3.6) [kfreebsd-i386 knetbsd-gnu] | libc12-dev (>= 2.3.6) [netbsd-elf-gnu] | libc6-dev (>= 2.3.6), libc6-dev-amd64 [i386], libc6-dev-sparc64 [sparc], libc6-dev-s390x [s390], libc6-dev-i386 [amd64], libc6-dev-powerpc [ppc64], libc6-dev-ppc64 [powerpc], lib32gcc1 [amd64 ppc64], lib64gcc1 [i386 powerpc sparc s390], lib64z1-dev [i386 powerpc sparc s390], lib32z1-dev [amd64], libunwind7-dev (>= 0.98.5-6) [ia64], libatomic-ops-dev [ia64], m4, autoconf, automake1.9, libtool, autogen, gawk, dejagnu (>= 1.4.3) [!hurd-i386], expect-tcl8.3 [!hurd-i386], bzip2, binutils (>= 2.16.1cvs20051214) | binutils-multiarch (>= 2.16.1cvs20051214), binutils-hppa64 (>= 2.16.1cvs20051214) [hppa], debhelper (>= 5.0), gperf (>= 3.0.1), bison (>= 1:1.875a-1), flex, gettext, texinfo (>= 4.3), zlib1g-dev, libmpfr-dev [!avr], locales [!hurd-i386 !knetbsd-i386 !netbsd-i386], procps [!hurd-i386], sharutils, realpath (>= 1.9.12), chrpath, lsb-release, dash [hppa]"
-  ],
-  "Build-Depends-Indep": [
-    "doxygen (>= 1.4.2), graphviz (>= 2.2), gsfonts-x11"
-  ],
-  "Directory": [
-    "pool/main/g/gcc-4.0"
-  ],
-  "Files": [
-    "6dbe2753d1b3fb665f0338a9eed85cbb 1835 gcc-4.0_4.0.3ds1-9.dsc 02955f5294ca53d1680993afa68c0ae2 31715200 gcc-4.0_4.0.3ds1.orig.tar.gz 3a9df3dcc3df38c36fc7b125244c7bf9 732232 gcc-4.0_4.0.3ds1-9.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Maintainer": [
-    "Debian GCC Maintainers <debian-gcc@lists.debian.org>"
-  ],
-  "Package": [
-    "gcc-4.0"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "devel"
-  ],
-  "Standards-Version": [
-    "3.6.2"
-  ],
-  "Uploaders": [
-    "Matthias Klose <doko@debian.org>"
-  ],
-  "Version": [
-    "4.0.3ds1-9"
-  ]
+	"Architecture": [
+		"hurd-i386 hppa arm armeb"
+	],
+	"Binary": [
+		"cpp-4.0, gcc-4.0-base, gcc-4.0-locales, libgcc2, gcc-4.0-soft-float, gcc-4.0"
+	],
+	"Build-Depends": [
+		"dpkg-dev (>= 1.13.9), libc6.1-dev (>= 2.3.6) [alpha ia64] | libc0.3-dev (>= 2.3.6) [hurd-i386] | libc0.1-dev (>= 2.3.6) [kfreebsd-i386 knetbsd-gnu] | libc12-dev (>= 2.3.6) [netbsd-elf-gnu] | libc6-dev (>= 2.3.6), libc6-dev-amd64 [i386], libc6-dev-sparc64 [sparc], libc6-dev-s390x [s390], libc6-dev-i386 [amd64], libc6-dev-powerpc [ppc64], libc6-dev-ppc64 [powerpc], lib32gcc1 [amd64 ppc64], lib64gcc1 [i386 powerpc sparc s390], lib64z1-dev [i386 powerpc sparc s390], lib32z1-dev [amd64], libunwind7-dev (>= 0.98.5-6) [ia64], libatomic-ops-dev [ia64], m4, autoconf, automake1.9, libtool, autogen, gawk, dejagnu (>= 1.4.3) [!hurd-i386], expect-tcl8.3 [!hurd-i386], bzip2, binutils (>= 2.16.1cvs20051214) | binutils-multiarch (>= 2.16.1cvs20051214), binutils-hppa64 (>= 2.16.1cvs20051214) [hppa], debhelper (>= 5.0), gperf (>= 3.0.1), bison (>= 1:1.875a-1), flex, gettext, texinfo (>= 4.3), zlib1g-dev, libmpfr-dev [!avr], locales [!hurd-i386 !knetbsd-i386 !netbsd-i386], procps [!hurd-i386], sharutils, realpath (>= 1.9.12), chrpath, lsb-release, dash [hppa]"
+	],
+	"Build-Depends-Indep": [
+		"doxygen (>= 1.4.2), graphviz (>= 2.2), gsfonts-x11"
+	],
+	"Directory": [
+		"pool/main/g/gcc-4.0"
+	],
+	"Files": [
+		"6dbe2753d1b3fb665f0338a9eed85cbb 1835 gcc-4.0_4.0.3ds1-9.dsc 02955f5294ca53d1680993afa68c0ae2 31715200 gcc-4.0_4.0.3ds1.orig.tar.gz 3a9df3dcc3df38c36fc7b125244c7bf9 732232 gcc-4.0_4.0.3ds1-9.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Maintainer": [
+		"Debian GCC Maintainers <debian-gcc@lists.debian.org>"
+	],
+	"Package": [
+		"gcc-4.0"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"devel"
+	],
+	"Standards-Version": [
+		"3.6.2"
+	],
+	"Uploaders": [
+		"Matthias Klose <doko@debian.org>"
+	],
+	"Version": [
+		"4.0.3ds1-9"
+	]
 }

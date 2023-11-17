@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "prometheus"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 11), dh-golang (>= 1.39~), gogoprotobuf (>= 1.0.0+git20180330~), golang-github-aws-aws-sdk-go-dev (>= 1.4), golang-github-azure-azure-sdk-for-go-dev (>= 10), golang-github-azure-go-autorest-dev (>= 8), golang-github-cespare-xxhash-dev, golang-github-cockroachdb-cmux-dev, golang-github-fsnotify-fsnotify-dev (>= 1.4.7-2~), golang-github-go-kit-kit-dev, golang-github-gogo-protobuf-dev (>= 1.0.0+git20180330~), golang-github-golang-snappy-dev, golang-github-gophercloud-gophercloud-dev (>= 0.0~git20180917~), golang-github-grpc-ecosystem-grpc-gateway-dev, golang-github-hashicorp-go-cleanhttp-dev, golang-github-hashicorp-serf-dev, golang-github-json-iterator-go-dev, golang-github-miekg-dns-dev (>= 0.0~git20170501), golang-github-mwitkow-go-conntrack-dev, golang-github-opentracing-contrib-go-stdlib-dev, golang-github-opentracing-opentracing-go-dev, golang-github-pkg-errors-dev, golang-github-prometheus-client-golang-dev (>= 0.9.0-1~), golang-github-prometheus-client-model-dev, golang-github-prometheus-common-dev (>= 0+git20181119), golang-github-prometheus-tsdb-dev (>= 0.4.0), golang-github-samuel-go-zookeeper-dev, golang-go (>= 2:1.10~), golang-golang-x-net-dev (>= 1:0.0+git20180124), golang-golang-x-oauth2-google-dev, golang-golang-x-time-dev, golang-google-api-dev (>= 0.0~git20170907), golang-google-genproto-dev (>= 0.0~git20171123), golang-google-grpc-dev (>= 1.6.0~), golang-gopkg-alecthomas-kingpin.v2-dev, golang-gopkg-yaml.v2-dev (>= 2.2.1-1~), golang-grpc-gateway, po-debconf"
-  ],
-  "Checksums-Sha256": [
-    "4efad7b6ebbb3a97d54d1f6110a3e064a8aebb6bc715238f3ed4abfd385eb4b0 3553 prometheus_2.7.1+ds-3~bpo9+2.dsc d43f86c934b98397a1431006222115a4945a9025e76ae1bdee03b997b8af42d6 634122 prometheus_2.7.1+ds.orig.tar.gz 645c5893ad2d31716c38b5309ce73fb3210c7fd39ddf353589024a04e8d0aa43 34712 prometheus_2.7.1+ds-3~bpo9+2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/prometheus"
-  ],
-  "Files": [
-    "cd1dbedd6483e321808a2af786759309 3553 prometheus_2.7.1+ds-3~bpo9+2.dsc 5448d97e42a3a421c163be247cb98029 634122 prometheus_2.7.1+ds.orig.tar.gz f1a61e127367c908a33c3fa262822d89 34712 prometheus_2.7.1+ds-3~bpo9+2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Go-Import-Path": [
-    "github.com/prometheus/prometheus"
-  ],
-  "Homepage": [
-    "https://prometheus.io/"
-  ],
-  "Maintainer": [
-    "Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "prometheus"
-  ],
-  "Package-List": [
-    "prometheus deb net optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.3.0"
-  ],
-  "Testsuite": [
-    "autopkgtest-pkg-go"
-  ],
-  "Uploaders": [
-    "Martina Ferrari <tincho@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/go-team/packages/prometheus"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/go-team/packages/prometheus.git"
-  ],
-  "Version": [
-    "2.7.1+ds-3~bpo9+2"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"prometheus"
+	],
+	"Build-Depends": [
+		"debhelper (>= 11), dh-golang (>= 1.39~), gogoprotobuf (>= 1.0.0+git20180330~), golang-github-aws-aws-sdk-go-dev (>= 1.4), golang-github-azure-azure-sdk-for-go-dev (>= 10), golang-github-azure-go-autorest-dev (>= 8), golang-github-cespare-xxhash-dev, golang-github-cockroachdb-cmux-dev, golang-github-fsnotify-fsnotify-dev (>= 1.4.7-2~), golang-github-go-kit-kit-dev, golang-github-gogo-protobuf-dev (>= 1.0.0+git20180330~), golang-github-golang-snappy-dev, golang-github-gophercloud-gophercloud-dev (>= 0.0~git20180917~), golang-github-grpc-ecosystem-grpc-gateway-dev, golang-github-hashicorp-go-cleanhttp-dev, golang-github-hashicorp-serf-dev, golang-github-json-iterator-go-dev, golang-github-miekg-dns-dev (>= 0.0~git20170501), golang-github-mwitkow-go-conntrack-dev, golang-github-opentracing-contrib-go-stdlib-dev, golang-github-opentracing-opentracing-go-dev, golang-github-pkg-errors-dev, golang-github-prometheus-client-golang-dev (>= 0.9.0-1~), golang-github-prometheus-client-model-dev, golang-github-prometheus-common-dev (>= 0+git20181119), golang-github-prometheus-tsdb-dev (>= 0.4.0), golang-github-samuel-go-zookeeper-dev, golang-go (>= 2:1.10~), golang-golang-x-net-dev (>= 1:0.0+git20180124), golang-golang-x-oauth2-google-dev, golang-golang-x-time-dev, golang-google-api-dev (>= 0.0~git20170907), golang-google-genproto-dev (>= 0.0~git20171123), golang-google-grpc-dev (>= 1.6.0~), golang-gopkg-alecthomas-kingpin.v2-dev, golang-gopkg-yaml.v2-dev (>= 2.2.1-1~), golang-grpc-gateway, po-debconf"
+	],
+	"Checksums-Sha256": [
+		"4efad7b6ebbb3a97d54d1f6110a3e064a8aebb6bc715238f3ed4abfd385eb4b0 3553 prometheus_2.7.1+ds-3~bpo9+2.dsc d43f86c934b98397a1431006222115a4945a9025e76ae1bdee03b997b8af42d6 634122 prometheus_2.7.1+ds.orig.tar.gz 645c5893ad2d31716c38b5309ce73fb3210c7fd39ddf353589024a04e8d0aa43 34712 prometheus_2.7.1+ds-3~bpo9+2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/prometheus"
+	],
+	"Files": [
+		"cd1dbedd6483e321808a2af786759309 3553 prometheus_2.7.1+ds-3~bpo9+2.dsc 5448d97e42a3a421c163be247cb98029 634122 prometheus_2.7.1+ds.orig.tar.gz f1a61e127367c908a33c3fa262822d89 34712 prometheus_2.7.1+ds-3~bpo9+2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Go-Import-Path": [
+		"github.com/prometheus/prometheus"
+	],
+	"Homepage": [
+		"https://prometheus.io/"
+	],
+	"Maintainer": [
+		"Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"prometheus"
+	],
+	"Package-List": [
+		"prometheus deb net optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.3.0"
+	],
+	"Testsuite": [
+		"autopkgtest-pkg-go"
+	],
+	"Uploaders": [
+		"Martina Ferrari <tincho@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/go-team/packages/prometheus"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/go-team/packages/prometheus.git"
+	],
+	"Version": [
+		"2.7.1+ds-3~bpo9+2"
+	]
 }

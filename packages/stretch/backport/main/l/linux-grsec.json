@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all amd64 i386"
-  ],
-  "Binary": [
-    "linux-grsec-source-4.9, linux-grsec-support-4.9.0-4, linux-headers-4.9.0-4-common-grsec, linux-image-4.9.0-4-grsec-amd64, linux-headers-4.9.0-4-grsec-amd64, linux-image-4.9.0-4-grsec-686-pae, linux-headers-4.9.0-4-grsec-686-pae"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 10.1~), dh-exec, python3:any, quilt, cpio <!stage1>, xz-utils <!stage1>, kernel-wedge (>= 2.93~) <!stage1>, kmod <!stage1>, bc <!stage1>, libssl-dev:native <!stage1>, libssl-dev [linux-any] <!stage1 !pkg.linux.notools cross>, openssl (>= 1.1.0-1~) <!stage1> | openssl:native <!stage1>, asciidoc-base <!stage1 !nodoc !pkg.linux.notools> | asciidoc <!stage1 !nodoc !pkg.linux.notools>, xmlto <!stage1 !nodoc !pkg.linux.notools>, bison <!stage1 !pkg.linux.notools !nopython>, flex (>= 2.6.1-1.1~) <!stage1 !pkg.linux.notools !nopython> | flex:native <!stage1 !pkg.linux.notools !nopython>, gcc-multilib [amd64 ppc64 s390x sparc64] <!stage1 !pkg.linux.notools !nopython>, libaudit-dev <!stage1 !pkg.linux.notools !nopython>, libbabeltrace-dev (>= 1.5.0) <!stage1 !pkg.linux.notools !nopython>, libbabeltrace-ctf-dev (>= 1.5.0) <!stage1 !pkg.linux.notools !nopython>, libdw-dev <!stage1 !pkg.linux.notools !nopython>, libelf-dev <!stage1 !pkg.linux.notools !nopython>, libiberty-dev <!stage1 !pkg.linux.notools !nopython>, libnewt-dev <!stage1 !pkg.linux.notools !nopython>, libnuma-dev [amd64 arm64 hppa i386 mips mips64 mips64el mipsel mipsn32 mipsn32el mipsr6 mipsr6el mipsn32r6 mipsn32r6el mips64r6 mips64r6el powerpc powerpcspe ppc64 ppc64el sparc x32] <!stage1 !pkg.linux.notools !nopython>, libperl-dev <!stage1 !pkg.linux.notools !nopython>, libunwind8-dev [amd64 armel armhf arm64 i386] <!stage1 !pkg.linux.notools !nopython>, python-dev <!stage1 !pkg.linux.notools !nopython>, autoconf <!stage1 !pkg.linux.notools>, automake <!stage1 !pkg.linux.notools>, libtool <!stage1 !pkg.linux.notools>, libglib2.0-dev <!stage1 !pkg.linux.notools>, libudev-dev <!stage1 !pkg.linux.notools>, libwrap0-dev <!stage1 !pkg.linux.notools>, rsync <!stage1 !pkg.linux.notools>, libpci-dev <!stage1 !pkg.linux.notools>, dh-python <!stage1>, gcc-6 [amd64 i386], gcc-6-plugin-dev [amd64 i386] <!stage1>"
-  ],
-  "Build-Depends-Indep": [
-    "patchutils <!stage1>, python-sphinx <!stage1 !nodoc>, python-sphinx-rtd-theme <!stage1 !nodoc>, xmlto <!stage1 !nodoc>"
-  ],
-  "Checksums-Sha256": [
-    "1a094e2883206ea8f41dcbfe1cd73d49d139d2586466d5185ec7e2146e30201e 4518 linux-grsec_4.9.65-2+grsecunoff1~bpo9+1.dsc 6ef40fbbacdc3e1eeb12479137fe11b392df548c9ec4f8ad739281065798ee61 94513472 linux-grsec_4.9.65.orig.tar.xz 9f794f5869706f2bc3c50757bc365df85ed3ee4b8b6627f62913396fa39b1144 3964544 linux-grsec_4.9.65-2+grsecunoff1~bpo9+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/l/linux-grsec"
-  ],
-  "Files": [
-    "d4b7fa1b11e99877e986040bf1043e37 4518 linux-grsec_4.9.65-2+grsecunoff1~bpo9+1.dsc 95903dff7ddfbbfc25cf831c5ce8fa20 94513472 linux-grsec_4.9.65.orig.tar.xz b4f0f5425c73c4f655cb5cf18c843aa1 3964544 linux-grsec_4.9.65-2+grsecunoff1~bpo9+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.kernel.org/"
-  ],
-  "Maintainer": [
-    "Yves-Alexis Perez <corsac@debian.org>"
-  ],
-  "Package": [
-    "linux-grsec"
-  ],
-  "Package-List": [
-    "linux-grsec-source-4.9 deb kernel optional arch=all profile=!stage1 linux-grsec-support-4.9.0-4 deb devel optional arch=all profile=!stage1 linux-headers-4.9.0-4-common-grsec deb kernel optional arch=all profile=!stage1 linux-headers-4.9.0-4-grsec-686-pae deb kernel optional arch=i386 profile=!stage1 linux-headers-4.9.0-4-grsec-amd64 deb kernel optional arch=amd64 profile=!stage1 linux-image-4.9.0-4-grsec-686-pae deb kernel optional arch=i386 profile=!stage1 linux-image-4.9.0-4-grsec-amd64 deb kernel optional arch=amd64 profile=!stage1"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "bc, fuse, gcc, gcc-multilib, kexec-tools, libfuse-dev, libpopt-dev, make, pkg-config, python3"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/collab-maint/linux-grsec.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/collab-maint/linux-grsec.git"
-  ],
-  "Version": [
-    "4.9.65-2+grsecunoff1~bpo9+1"
-  ]
+	"Architecture": [
+		"all amd64 i386"
+	],
+	"Binary": [
+		"linux-grsec-source-4.9, linux-grsec-support-4.9.0-4, linux-headers-4.9.0-4-common-grsec, linux-image-4.9.0-4-grsec-amd64, linux-headers-4.9.0-4-grsec-amd64, linux-image-4.9.0-4-grsec-686-pae, linux-headers-4.9.0-4-grsec-686-pae"
+	],
+	"Build-Depends": [
+		"debhelper (>= 10.1~), dh-exec, python3:any, quilt, cpio <!stage1>, xz-utils <!stage1>, kernel-wedge (>= 2.93~) <!stage1>, kmod <!stage1>, bc <!stage1>, libssl-dev:native <!stage1>, libssl-dev [linux-any] <!stage1 !pkg.linux.notools cross>, openssl (>= 1.1.0-1~) <!stage1> | openssl:native <!stage1>, asciidoc-base <!stage1 !nodoc !pkg.linux.notools> | asciidoc <!stage1 !nodoc !pkg.linux.notools>, xmlto <!stage1 !nodoc !pkg.linux.notools>, bison <!stage1 !pkg.linux.notools !nopython>, flex (>= 2.6.1-1.1~) <!stage1 !pkg.linux.notools !nopython> | flex:native <!stage1 !pkg.linux.notools !nopython>, gcc-multilib [amd64 ppc64 s390x sparc64] <!stage1 !pkg.linux.notools !nopython>, libaudit-dev <!stage1 !pkg.linux.notools !nopython>, libbabeltrace-dev (>= 1.5.0) <!stage1 !pkg.linux.notools !nopython>, libbabeltrace-ctf-dev (>= 1.5.0) <!stage1 !pkg.linux.notools !nopython>, libdw-dev <!stage1 !pkg.linux.notools !nopython>, libelf-dev <!stage1 !pkg.linux.notools !nopython>, libiberty-dev <!stage1 !pkg.linux.notools !nopython>, libnewt-dev <!stage1 !pkg.linux.notools !nopython>, libnuma-dev [amd64 arm64 hppa i386 mips mips64 mips64el mipsel mipsn32 mipsn32el mipsr6 mipsr6el mipsn32r6 mipsn32r6el mips64r6 mips64r6el powerpc powerpcspe ppc64 ppc64el sparc x32] <!stage1 !pkg.linux.notools !nopython>, libperl-dev <!stage1 !pkg.linux.notools !nopython>, libunwind8-dev [amd64 armel armhf arm64 i386] <!stage1 !pkg.linux.notools !nopython>, python-dev <!stage1 !pkg.linux.notools !nopython>, autoconf <!stage1 !pkg.linux.notools>, automake <!stage1 !pkg.linux.notools>, libtool <!stage1 !pkg.linux.notools>, libglib2.0-dev <!stage1 !pkg.linux.notools>, libudev-dev <!stage1 !pkg.linux.notools>, libwrap0-dev <!stage1 !pkg.linux.notools>, rsync <!stage1 !pkg.linux.notools>, libpci-dev <!stage1 !pkg.linux.notools>, dh-python <!stage1>, gcc-6 [amd64 i386], gcc-6-plugin-dev [amd64 i386] <!stage1>"
+	],
+	"Build-Depends-Indep": [
+		"patchutils <!stage1>, python-sphinx <!stage1 !nodoc>, python-sphinx-rtd-theme <!stage1 !nodoc>, xmlto <!stage1 !nodoc>"
+	],
+	"Checksums-Sha256": [
+		"1a094e2883206ea8f41dcbfe1cd73d49d139d2586466d5185ec7e2146e30201e 4518 linux-grsec_4.9.65-2+grsecunoff1~bpo9+1.dsc 6ef40fbbacdc3e1eeb12479137fe11b392df548c9ec4f8ad739281065798ee61 94513472 linux-grsec_4.9.65.orig.tar.xz 9f794f5869706f2bc3c50757bc365df85ed3ee4b8b6627f62913396fa39b1144 3964544 linux-grsec_4.9.65-2+grsecunoff1~bpo9+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/l/linux-grsec"
+	],
+	"Files": [
+		"d4b7fa1b11e99877e986040bf1043e37 4518 linux-grsec_4.9.65-2+grsecunoff1~bpo9+1.dsc 95903dff7ddfbbfc25cf831c5ce8fa20 94513472 linux-grsec_4.9.65.orig.tar.xz b4f0f5425c73c4f655cb5cf18c843aa1 3964544 linux-grsec_4.9.65-2+grsecunoff1~bpo9+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.kernel.org/"
+	],
+	"Maintainer": [
+		"Yves-Alexis Perez <corsac@debian.org>"
+	],
+	"Package": [
+		"linux-grsec"
+	],
+	"Package-List": [
+		"linux-grsec-source-4.9 deb kernel optional arch=all profile=!stage1 linux-grsec-support-4.9.0-4 deb devel optional arch=all profile=!stage1 linux-headers-4.9.0-4-common-grsec deb kernel optional arch=all profile=!stage1 linux-headers-4.9.0-4-grsec-686-pae deb kernel optional arch=i386 profile=!stage1 linux-headers-4.9.0-4-grsec-amd64 deb kernel optional arch=amd64 profile=!stage1 linux-image-4.9.0-4-grsec-686-pae deb kernel optional arch=i386 profile=!stage1 linux-image-4.9.0-4-grsec-amd64 deb kernel optional arch=amd64 profile=!stage1"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"bc, fuse, gcc, gcc-multilib, kexec-tools, libfuse-dev, libpopt-dev, make, pkg-config, python3"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/collab-maint/linux-grsec.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/collab-maint/linux-grsec.git"
+	],
+	"Version": [
+		"4.9.65-2+grsecunoff1~bpo9+1"
+	]
 }

@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "linux-any all"
-  ],
-  "Binary": [
-    "libqmi-glib-dev, libqmi-glib-doc, libqmi-glib5, libqmi-utils, libqmi-proxy, gir1.2-qmi-1.0"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), bash-completion, gobject-introspection, gtk-doc-tools <!nodoc>, help2man, libgirepository1.0-dev, libglib2.0-dev, libgudev-1.0-dev, libmbim-glib-dev, libqrtr-glib-dev (>= 1.0.0), meson, pkg-config"
-  ],
-  "Build-Depends-Indep": [
-    "libglib2.0-doc <!nodoc>"
-  ],
-  "Checksums-Sha256": [
-    "04821abdf720ef1fb54d8860385330c613a3ddb5578f8ad7b67c96916e4f5232 2666 libqmi_1.34.0-2.dsc 87d3ec841bec2a5a647adf135d0e3a7ae1be52badf1bdc6c80839b1bab9b3965 1510344 libqmi_1.34.0.orig.tar.xz 9365051ef945441d8f4d831d834dce34a7d1f972110a505d74e52675a67f3402 37828 libqmi_1.34.0-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/libq/libqmi"
-  ],
-  "Files": [
-    "8cd70e62e7ef5437ef991f71bc81163a 2666 libqmi_1.34.0-2.dsc ed6440d15d2d298e937aa9c625afef66 1510344 libqmi_1.34.0.orig.tar.xz 15c51db6767db27e0df4dbed2cd5deb0 37828 libqmi_1.34.0-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.freedesktop.org/wiki/Software/libqmi"
-  ],
-  "Maintainer": [
-    "DebianOnMobile Maintainers <debian-on-mobile-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "libqmi"
-  ],
-  "Package-List": [
-    "gir1.2-qmi-1.0 deb introspection optional arch=linux-any libqmi-glib-dev deb libdevel optional arch=linux-any libqmi-glib-doc deb doc optional arch=all profile=!nodoc libqmi-glib5 deb libs optional arch=linux-any libqmi-proxy deb net optional arch=linux-any libqmi-utils deb net optional arch=linux-any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Uploaders": [
-    "Arnaud Ferraris <aferraris@debian.org>, Guido Günther <agx@sigxcpu.org>, Henry-Nicolas Tourneur <debian@nilux.be>, Martin <debacle@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/DebianOnMobile-team/libqmi"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/DebianOnMobile-team/libqmi.git"
-  ],
-  "Version": [
-    "1.34.0-2"
-  ]
+	"Architecture": [
+		"linux-any all"
+	],
+	"Binary": [
+		"libqmi-glib-dev, libqmi-glib-doc, libqmi-glib5, libqmi-utils, libqmi-proxy, gir1.2-qmi-1.0"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), bash-completion, gobject-introspection, gtk-doc-tools <!nodoc>, help2man, libgirepository1.0-dev, libglib2.0-dev, libgudev-1.0-dev, libmbim-glib-dev, libqrtr-glib-dev (>= 1.0.0), meson, pkg-config"
+	],
+	"Build-Depends-Indep": [
+		"libglib2.0-doc <!nodoc>"
+	],
+	"Checksums-Sha256": [
+		"04821abdf720ef1fb54d8860385330c613a3ddb5578f8ad7b67c96916e4f5232 2666 libqmi_1.34.0-2.dsc 87d3ec841bec2a5a647adf135d0e3a7ae1be52badf1bdc6c80839b1bab9b3965 1510344 libqmi_1.34.0.orig.tar.xz 9365051ef945441d8f4d831d834dce34a7d1f972110a505d74e52675a67f3402 37828 libqmi_1.34.0-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/libq/libqmi"
+	],
+	"Files": [
+		"8cd70e62e7ef5437ef991f71bc81163a 2666 libqmi_1.34.0-2.dsc ed6440d15d2d298e937aa9c625afef66 1510344 libqmi_1.34.0.orig.tar.xz 15c51db6767db27e0df4dbed2cd5deb0 37828 libqmi_1.34.0-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.freedesktop.org/wiki/Software/libqmi"
+	],
+	"Maintainer": [
+		"DebianOnMobile Maintainers <debian-on-mobile-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"libqmi"
+	],
+	"Package-List": [
+		"gir1.2-qmi-1.0 deb introspection optional arch=linux-any libqmi-glib-dev deb libdevel optional arch=linux-any libqmi-glib-doc deb doc optional arch=all profile=!nodoc libqmi-glib5 deb libs optional arch=linux-any libqmi-proxy deb net optional arch=linux-any libqmi-utils deb net optional arch=linux-any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Uploaders": [
+		"Arnaud Ferraris <aferraris@debian.org>, Guido Günther <agx@sigxcpu.org>, Henry-Nicolas Tourneur <debian@nilux.be>, Martin <debacle@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/DebianOnMobile-team/libqmi"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/DebianOnMobile-team/libqmi.git"
+	],
+	"Version": [
+		"1.34.0-2"
+	]
 }

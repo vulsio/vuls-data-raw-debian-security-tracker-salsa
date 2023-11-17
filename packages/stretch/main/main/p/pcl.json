@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libpcl-dev, libpcl-apps1.8, libpcl-common1.8, libpcl-features1.8, libpcl-filters1.8, libpcl-io1.8, libpcl-kdtree1.8, libpcl-keypoints1.8, libpcl-ml1.8, libpcl-octree1.8, libpcl-outofcore1.8, libpcl-people1.8, libpcl-recognition1.8, libpcl-registration1.8, libpcl-sample-consensus1.8, libpcl-search1.8, libpcl-segmentation1.8, libpcl-stereo1.8, libpcl-surface1.8, libpcl-tracking1.8, libpcl-visualization1.8, pcl-tools, libpcl-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-exec (>= 0.3), cmake, python-sphinx, libboost-system-dev, libboost-filesystem-dev, libboost-thread-dev, libboost-date-time-dev, libboost-iostreams-dev, libeigen3-dev, libflann-dev, libvtk6-dev, libqhull-dev, libopenni-dev [!s390x !alpha !hppa !hurd-i386 !kfreebsd-any !m68k !sh4 !sparc64], libopenni2-dev [!armel !hppa !hurd-i386 !kfreebsd-any !m68k !powerpcspe], libqt5opengl5-dev [!armel !armhf], libusb-1.0-0-dev, freeglut3-dev, libxmu-dev, libxi-dev, libvtk6-qt-dev [!armel !armhf]"
-  ],
-  "Build-Depends-Indep": [
-    "doxygen, doxygen-latex"
-  ],
-  "Checksums-Sha256": [
-    "d21f4ec64621f4de47819b735f0e3142b884444f9d233249c5d1cc2ec8e737d9 3991 pcl_1.8.0+dfsg1-4+deb9u1.dsc cce41fa3be2cbdba879f6da2257d3abf4fef199219d2bc5a3e1d2ef3db116d8b 66531711 pcl_1.8.0+dfsg1.orig.tar.gz 5d6c1e53ab4b709e279ebe71fd161f852d9b66b18542096047498823517f606c 31936 pcl_1.8.0+dfsg1-4+deb9u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/pcl"
-  ],
-  "Files": [
-    "258daba6c3572b14c5865521fff2f661 3991 pcl_1.8.0+dfsg1-4+deb9u1.dsc 6e779673a4743920b26eaa73bd70278d 66531711 pcl_1.8.0+dfsg1.orig.tar.gz 279c6ef3f39e723b1ba2a4130dfc3ff1 31936 pcl_1.8.0+dfsg1-4+deb9u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.pointclouds.org/"
-  ],
-  "Maintainer": [
-    "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "pcl"
-  ],
-  "Package-List": [
-    "libpcl-apps1.8 deb libs extra arch=any libpcl-common1.8 deb libs extra arch=any libpcl-dev deb libdevel extra arch=any libpcl-doc deb doc extra arch=all libpcl-features1.8 deb libs extra arch=any libpcl-filters1.8 deb libs extra arch=any libpcl-io1.8 deb libs extra arch=any libpcl-kdtree1.8 deb libs extra arch=any libpcl-keypoints1.8 deb libs extra arch=any libpcl-ml1.8 deb libs extra arch=any libpcl-octree1.8 deb libs extra arch=any libpcl-outofcore1.8 deb libs extra arch=any libpcl-people1.8 deb libs extra arch=any libpcl-recognition1.8 deb libs extra arch=any libpcl-registration1.8 deb libs extra arch=any libpcl-sample-consensus1.8 deb libs extra arch=any libpcl-search1.8 deb libs extra arch=any libpcl-segmentation1.8 deb libs extra arch=any libpcl-stereo1.8 deb libs extra arch=any libpcl-surface1.8 deb libs extra arch=any libpcl-tracking1.8 deb libs extra arch=any libpcl-visualization1.8 deb libs extra arch=any pcl-tools deb science extra arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Thomas Moulard <thomas.moulard@gmail.com>, Jochen Sprickerhof <jspricke@debian.org>, Leopold Palomo-Avellaneda <leo@alaxarxa.net>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/debian-science/packages/pcl.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/cgit/debian-science/packages/pcl.git"
-  ],
-  "Version": [
-    "1.8.0+dfsg1-4+deb9u1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libpcl-dev, libpcl-apps1.8, libpcl-common1.8, libpcl-features1.8, libpcl-filters1.8, libpcl-io1.8, libpcl-kdtree1.8, libpcl-keypoints1.8, libpcl-ml1.8, libpcl-octree1.8, libpcl-outofcore1.8, libpcl-people1.8, libpcl-recognition1.8, libpcl-registration1.8, libpcl-sample-consensus1.8, libpcl-search1.8, libpcl-segmentation1.8, libpcl-stereo1.8, libpcl-surface1.8, libpcl-tracking1.8, libpcl-visualization1.8, pcl-tools, libpcl-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-exec (>= 0.3), cmake, python-sphinx, libboost-system-dev, libboost-filesystem-dev, libboost-thread-dev, libboost-date-time-dev, libboost-iostreams-dev, libeigen3-dev, libflann-dev, libvtk6-dev, libqhull-dev, libopenni-dev [!s390x !alpha !hppa !hurd-i386 !kfreebsd-any !m68k !sh4 !sparc64], libopenni2-dev [!armel !hppa !hurd-i386 !kfreebsd-any !m68k !powerpcspe], libqt5opengl5-dev [!armel !armhf], libusb-1.0-0-dev, freeglut3-dev, libxmu-dev, libxi-dev, libvtk6-qt-dev [!armel !armhf]"
+	],
+	"Build-Depends-Indep": [
+		"doxygen, doxygen-latex"
+	],
+	"Checksums-Sha256": [
+		"d21f4ec64621f4de47819b735f0e3142b884444f9d233249c5d1cc2ec8e737d9 3991 pcl_1.8.0+dfsg1-4+deb9u1.dsc cce41fa3be2cbdba879f6da2257d3abf4fef199219d2bc5a3e1d2ef3db116d8b 66531711 pcl_1.8.0+dfsg1.orig.tar.gz 5d6c1e53ab4b709e279ebe71fd161f852d9b66b18542096047498823517f606c 31936 pcl_1.8.0+dfsg1-4+deb9u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/pcl"
+	],
+	"Files": [
+		"258daba6c3572b14c5865521fff2f661 3991 pcl_1.8.0+dfsg1-4+deb9u1.dsc 6e779673a4743920b26eaa73bd70278d 66531711 pcl_1.8.0+dfsg1.orig.tar.gz 279c6ef3f39e723b1ba2a4130dfc3ff1 31936 pcl_1.8.0+dfsg1-4+deb9u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.pointclouds.org/"
+	],
+	"Maintainer": [
+		"Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"pcl"
+	],
+	"Package-List": [
+		"libpcl-apps1.8 deb libs extra arch=any libpcl-common1.8 deb libs extra arch=any libpcl-dev deb libdevel extra arch=any libpcl-doc deb doc extra arch=all libpcl-features1.8 deb libs extra arch=any libpcl-filters1.8 deb libs extra arch=any libpcl-io1.8 deb libs extra arch=any libpcl-kdtree1.8 deb libs extra arch=any libpcl-keypoints1.8 deb libs extra arch=any libpcl-ml1.8 deb libs extra arch=any libpcl-octree1.8 deb libs extra arch=any libpcl-outofcore1.8 deb libs extra arch=any libpcl-people1.8 deb libs extra arch=any libpcl-recognition1.8 deb libs extra arch=any libpcl-registration1.8 deb libs extra arch=any libpcl-sample-consensus1.8 deb libs extra arch=any libpcl-search1.8 deb libs extra arch=any libpcl-segmentation1.8 deb libs extra arch=any libpcl-stereo1.8 deb libs extra arch=any libpcl-surface1.8 deb libs extra arch=any libpcl-tracking1.8 deb libs extra arch=any libpcl-visualization1.8 deb libs extra arch=any pcl-tools deb science extra arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Thomas Moulard <thomas.moulard@gmail.com>, Jochen Sprickerhof <jspricke@debian.org>, Leopold Palomo-Avellaneda <leo@alaxarxa.net>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/debian-science/packages/pcl.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/cgit/debian-science/packages/pcl.git"
+	],
+	"Version": [
+		"1.8.0+dfsg1-4+deb9u1"
+	]
 }

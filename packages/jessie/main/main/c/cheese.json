@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "cheese, cheese-common, libcheese-gtk23, libcheese-gtk-dev, libcheese7, libcheese-dev, libcheese-doc, gir1.2-cheese-3.0"
-  ],
-  "Build-Depends": [
-    "cdbs (>= 0.4.93~), debhelper (>= 9), dh-autoreconf, docbook-xsl, gnome-common, gnome-pkg-tools (>= 0.10), gtk-doc-tools (>= 1.14), intltool (>= 0.50.0), rarian-compat, valac (>= 0.25.3), libglib2.0-dev (>= 2.39.90), libgdk-pixbuf2.0-dev, libgtk-3-dev (>= 3.13.4), libgnome-desktop-3-dev (>= 3.12), libgstreamer1.0-dev (>= 0.11.0), libgstreamer-plugins-base1.0-dev (>= 0.11.0), libgstreamer-plugins-bad1.0-dev (>= 0.11.0), libcairo2-dev (>= 1.10.0), libpango1.0-dev (>= 1.28.0), librsvg2-dev (>= 2.32.0), libclutter-1.0-dev (>= 1.16), libclutter-gtk-1.0-dev (>= 0.91.8), libclutter-gst-2.0-dev (>= 1.9.0), x11proto-core-dev, libcanberra-gtk3-dev (>= 0.26), gnome-video-effects-dev, gobject-introspection (>= 0.9.12-4~), libgirepository1.0-dev (>= 0.9.6), libxtst-dev, libgudev-1.0-dev [linux-any], pkg-config (>= 0.24), appstream-util, yelp-tools"
-  ],
-  "Checksums-Sha1": [
-    "4ac3f24cbfe82baefc9ab7e056520e285feafdaf 3342 cheese_3.14.1-2.dsc 4ef2d075ebd9bff9f6c3651249c187212e24dadf 1804208 cheese_3.14.1.orig.tar.xz 17574429f2026c347dd364331459903a20a2ec65 17660 cheese_3.14.1-2.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "93937678f6b95cd60555dfa3645fd2d18730d120477bd302087a8a59e37b7328 3342 cheese_3.14.1-2.dsc cb8d27c24daf9ceaff4ab209471d09f53e2a81946ed710133533080d2a91c20a 1804208 cheese_3.14.1.orig.tar.xz 3c8651e5b125930417b5ab75f4eee0c738b0d2848d0e586ac90b8202f7d3a6a6 17660 cheese_3.14.1-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/c/cheese"
-  ],
-  "Files": [
-    "38a052de9ff6ccddf398c011e8849cc4 3342 cheese_3.14.1-2.dsc 02ed745aa52118f135051d763d233c03 1804208 cheese_3.14.1.orig.tar.xz 88a92b278d35186670f0e9e840eedb73 17660 cheese_3.14.1-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://wiki.gnome.org/Apps/Cheese"
-  ],
-  "Maintainer": [
-    "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "cheese"
-  ],
-  "Package-List": [
-    "cheese deb gnome optional arch=any cheese-common deb gnome optional arch=all gir1.2-cheese-3.0 deb introspection optional arch=any libcheese-dev deb libdevel optional arch=any libcheese-doc deb doc optional arch=all libcheese-gtk-dev deb libdevel optional arch=any libcheese-gtk23 deb libs optional arch=any libcheese7 deb libs optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "gnome"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Andreas Henriksson <andreas@fatal.se>, Emilio Pozuelo Monfort <pochu@debian.org>, Josselin Mouette <joss@debian.org>, Laurent Bigonville <bigon@debian.org>, Sjoerd Simons <sjoerd@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/cheese/"
-  ],
-  "Vcs-Svn": [
-    "svn://anonscm.debian.org/pkg-gnome/desktop/unstable/cheese/"
-  ],
-  "Version": [
-    "3.14.1-2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"cheese, cheese-common, libcheese-gtk23, libcheese-gtk-dev, libcheese7, libcheese-dev, libcheese-doc, gir1.2-cheese-3.0"
+	],
+	"Build-Depends": [
+		"cdbs (>= 0.4.93~), debhelper (>= 9), dh-autoreconf, docbook-xsl, gnome-common, gnome-pkg-tools (>= 0.10), gtk-doc-tools (>= 1.14), intltool (>= 0.50.0), rarian-compat, valac (>= 0.25.3), libglib2.0-dev (>= 2.39.90), libgdk-pixbuf2.0-dev, libgtk-3-dev (>= 3.13.4), libgnome-desktop-3-dev (>= 3.12), libgstreamer1.0-dev (>= 0.11.0), libgstreamer-plugins-base1.0-dev (>= 0.11.0), libgstreamer-plugins-bad1.0-dev (>= 0.11.0), libcairo2-dev (>= 1.10.0), libpango1.0-dev (>= 1.28.0), librsvg2-dev (>= 2.32.0), libclutter-1.0-dev (>= 1.16), libclutter-gtk-1.0-dev (>= 0.91.8), libclutter-gst-2.0-dev (>= 1.9.0), x11proto-core-dev, libcanberra-gtk3-dev (>= 0.26), gnome-video-effects-dev, gobject-introspection (>= 0.9.12-4~), libgirepository1.0-dev (>= 0.9.6), libxtst-dev, libgudev-1.0-dev [linux-any], pkg-config (>= 0.24), appstream-util, yelp-tools"
+	],
+	"Checksums-Sha1": [
+		"4ac3f24cbfe82baefc9ab7e056520e285feafdaf 3342 cheese_3.14.1-2.dsc 4ef2d075ebd9bff9f6c3651249c187212e24dadf 1804208 cheese_3.14.1.orig.tar.xz 17574429f2026c347dd364331459903a20a2ec65 17660 cheese_3.14.1-2.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"93937678f6b95cd60555dfa3645fd2d18730d120477bd302087a8a59e37b7328 3342 cheese_3.14.1-2.dsc cb8d27c24daf9ceaff4ab209471d09f53e2a81946ed710133533080d2a91c20a 1804208 cheese_3.14.1.orig.tar.xz 3c8651e5b125930417b5ab75f4eee0c738b0d2848d0e586ac90b8202f7d3a6a6 17660 cheese_3.14.1-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/c/cheese"
+	],
+	"Files": [
+		"38a052de9ff6ccddf398c011e8849cc4 3342 cheese_3.14.1-2.dsc 02ed745aa52118f135051d763d233c03 1804208 cheese_3.14.1.orig.tar.xz 88a92b278d35186670f0e9e840eedb73 17660 cheese_3.14.1-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://wiki.gnome.org/Apps/Cheese"
+	],
+	"Maintainer": [
+		"Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"cheese"
+	],
+	"Package-List": [
+		"cheese deb gnome optional arch=any cheese-common deb gnome optional arch=all gir1.2-cheese-3.0 deb introspection optional arch=any libcheese-dev deb libdevel optional arch=any libcheese-doc deb doc optional arch=all libcheese-gtk-dev deb libdevel optional arch=any libcheese-gtk23 deb libs optional arch=any libcheese7 deb libs optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"gnome"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Andreas Henriksson <andreas@fatal.se>, Emilio Pozuelo Monfort <pochu@debian.org>, Josselin Mouette <joss@debian.org>, Laurent Bigonville <bigon@debian.org>, Sjoerd Simons <sjoerd@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/cheese/"
+	],
+	"Vcs-Svn": [
+		"svn://anonscm.debian.org/pkg-gnome/desktop/unstable/cheese/"
+	],
+	"Version": [
+		"3.14.1-2"
+	]
 }

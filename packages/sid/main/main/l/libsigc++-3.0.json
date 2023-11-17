@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libsigc++-3.0-0, libsigc++-3.0-dev, libsigc++-3.0-doc"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-gnome, docbook-xml <!nodoc>, docbook-xsl <!nodoc>, doxygen <!nodoc>, graphviz <!nodoc>, libxml2-utils <!nocheck>, meson (>= 0.55.0), mm-common, pkg-kde-tools, python3-distutils, xsltproc <!nodoc>"
-  ],
-  "Checksums-Sha256": [
-    "1cef637937e5bff614f2d660f7d4ffda7a563bd589f021a0a69b7b359be24423 2474 libsigc++-3.0_3.4.0-7.dsc 1835edd4834a038916db743e6a679c45745bf344601d159eca0f5447e0471685 150148 libsigc++-3.0_3.4.0.orig.tar.xz 9e2dfcbea6c205f30c620e2165e5bb84d7d4e4f9bbd738110da26a921462211a 12040 libsigc++-3.0_3.4.0-7.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/libs/libsigc++-3.0"
-  ],
-  "Files": [
-    "6c3e85b3bbd42fb3bf422c841d6568e8 2474 libsigc++-3.0_3.4.0-7.dsc 55fc768c38d9891afc8e1360cddbe33d 150148 libsigc++-3.0_3.4.0.orig.tar.xz ce41038e0e8c5284ed85d2916fff4ee6 12040 libsigc++-3.0_3.4.0-7.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://libsigcplusplus.github.io/libsigcplusplus/"
-  ],
-  "Maintainer": [
-    "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "libsigc++-3.0"
-  ],
-  "Package-List": [
-    "libsigc++-3.0-0 deb libs optional arch=any libsigc++-3.0-dev deb libdevel optional arch=any libsigc++-3.0-doc deb doc optional arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "@builddeps@, g++"
-  ],
-  "Uploaders": [
-    "Jeremy Bicha <jbicha@ubuntu.com>, Michael Biebl <biebl@debian.org>, Boyuan Yang <byang@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/gnome-team/libsigcplusplus-3.0"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/gnome-team/libsigcplusplus-3.0.git"
-  ],
-  "Version": [
-    "3.4.0-7"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libsigc++-3.0-0, libsigc++-3.0-dev, libsigc++-3.0-doc"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-sequence-gnome, docbook-xml <!nodoc>, docbook-xsl <!nodoc>, doxygen <!nodoc>, graphviz <!nodoc>, libxml2-utils <!nocheck>, meson (>= 0.55.0), mm-common, pkg-kde-tools, python3-distutils, xsltproc <!nodoc>"
+	],
+	"Checksums-Sha256": [
+		"1cef637937e5bff614f2d660f7d4ffda7a563bd589f021a0a69b7b359be24423 2474 libsigc++-3.0_3.4.0-7.dsc 1835edd4834a038916db743e6a679c45745bf344601d159eca0f5447e0471685 150148 libsigc++-3.0_3.4.0.orig.tar.xz 9e2dfcbea6c205f30c620e2165e5bb84d7d4e4f9bbd738110da26a921462211a 12040 libsigc++-3.0_3.4.0-7.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/libs/libsigc++-3.0"
+	],
+	"Files": [
+		"6c3e85b3bbd42fb3bf422c841d6568e8 2474 libsigc++-3.0_3.4.0-7.dsc 55fc768c38d9891afc8e1360cddbe33d 150148 libsigc++-3.0_3.4.0.orig.tar.xz ce41038e0e8c5284ed85d2916fff4ee6 12040 libsigc++-3.0_3.4.0-7.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://libsigcplusplus.github.io/libsigcplusplus/"
+	],
+	"Maintainer": [
+		"Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"libsigc++-3.0"
+	],
+	"Package-List": [
+		"libsigc++-3.0-0 deb libs optional arch=any libsigc++-3.0-dev deb libdevel optional arch=any libsigc++-3.0-doc deb doc optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"@builddeps@, g++"
+	],
+	"Uploaders": [
+		"Jeremy Bicha <jbicha@ubuntu.com>, Michael Biebl <biebl@debian.org>, Boyuan Yang <byang@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/gnome-team/libsigcplusplus-3.0"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/gnome-team/libsigcplusplus-3.0.git"
+	],
+	"Version": [
+		"3.4.0-7"
+	]
 }

@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-phf-macros-dev, librust-phf-macros+unicase-dev, librust-phf-macros+unicase--dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-phf-generator-0.10+default-dev <!nocheck>, librust-phf-shared-0.10-dev <!nocheck>, librust-proc-macro-hack-0.5+default-dev (>= 0.5.4-~~) <!nocheck>, librust-proc-macro2-1+default-dev <!nocheck>, librust-quote-1+default-dev <!nocheck>, librust-syn-1+default-dev <!nocheck>, librust-syn-1+full-dev <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "0056fb77c50ce2b7b17ccf65461971b64ece2ac01184fd9d302c67ac65d304b8 2904 rust-phf-macros_0.10.0-1.dsc 58fdf3184dd560f160dd73922bea2d5cd6e8f064bf4b13110abd81b03697b4e0 3552 rust-phf-macros_0.10.0.orig.tar.gz 6b64cf9a402e7dc9322a7c92fa7c11a1b717c6b04557719b0cdb560968b20cf1 2920 rust-phf-macros_0.10.0-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-phf-macros"
-  ],
-  "Files": [
-    "0315027d33fde0339a1b5c4208638842 2904 rust-phf-macros_0.10.0-1.dsc 90dd240c0ba99664629efc507679da23 3552 rust-phf-macros_0.10.0.orig.tar.gz 4bb96066018e65cb1341cf0cada78e2f 2920 rust-phf-macros_0.10.0-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-phf-macros"
-  ],
-  "Package-List": [
-    "librust-phf-macros+unicase--dev deb rust optional arch=any librust-phf-macros+unicase-dev deb rust optional arch=any librust-phf-macros-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.5.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-phf-0.9+default-dev, librust-phf-0.9+macros-dev, librust-phf-0.9+unicase-dev, librust-trybuild-1+default-dev, librust-unicase-2+default-dev"
-  ],
-  "Uploaders": [
-    "kpcyrd <git@rxv.cc>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/phf-macros"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/phf-macros]"
-  ],
-  "Version": [
-    "0.10.0-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-phf-macros-dev, librust-phf-macros+unicase-dev, librust-phf-macros+unicase--dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-phf-generator-0.10+default-dev <!nocheck>, librust-phf-shared-0.10-dev <!nocheck>, librust-proc-macro-hack-0.5+default-dev (>= 0.5.4-~~) <!nocheck>, librust-proc-macro2-1+default-dev <!nocheck>, librust-quote-1+default-dev <!nocheck>, librust-syn-1+default-dev <!nocheck>, librust-syn-1+full-dev <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"0056fb77c50ce2b7b17ccf65461971b64ece2ac01184fd9d302c67ac65d304b8 2904 rust-phf-macros_0.10.0-1.dsc 58fdf3184dd560f160dd73922bea2d5cd6e8f064bf4b13110abd81b03697b4e0 3552 rust-phf-macros_0.10.0.orig.tar.gz 6b64cf9a402e7dc9322a7c92fa7c11a1b717c6b04557719b0cdb560968b20cf1 2920 rust-phf-macros_0.10.0-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-phf-macros"
+	],
+	"Files": [
+		"0315027d33fde0339a1b5c4208638842 2904 rust-phf-macros_0.10.0-1.dsc 90dd240c0ba99664629efc507679da23 3552 rust-phf-macros_0.10.0.orig.tar.gz 4bb96066018e65cb1341cf0cada78e2f 2920 rust-phf-macros_0.10.0-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-phf-macros"
+	],
+	"Package-List": [
+		"librust-phf-macros+unicase--dev deb rust optional arch=any librust-phf-macros+unicase-dev deb rust optional arch=any librust-phf-macros-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-phf-0.9+default-dev, librust-phf-0.9+macros-dev, librust-phf-0.9+unicase-dev, librust-trybuild-1+default-dev, librust-unicase-2+default-dev"
+	],
+	"Uploaders": [
+		"kpcyrd <git@rxv.cc>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/phf-macros"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/phf-macros]"
+	],
+	"Version": [
+		"0.10.0-1"
+	]
 }

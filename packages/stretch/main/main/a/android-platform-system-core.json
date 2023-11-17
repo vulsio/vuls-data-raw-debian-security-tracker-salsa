@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "amd64 i386 armel armhf arm64 mips mipsel mips64el all"
-  ],
-  "Binary": [
-    "android-liblog, android-liblog-dev, android-libcutils, android-libcutils-dev, adb, android-libsparse, android-libsparse-dev, android-libutils, android-libutils-dev, android-libziparchive, android-libziparchive-dev, android-platform-system-core-headers, android-libbacktrace, android-libbacktrace-dev, android-libadb, android-libadb-dev, android-libbase, android-libbase-dev, fastboot, simg2img, img2simg, append2simg, android-tools-adb, android-tools-fastboot"
-  ],
-  "Build-Depends": [
-    "android-libunwind-dev (>= 7.0.0+r1~) [amd64 i386 armel armhf arm64 mips mipsel mips64el], bash-completion, debhelper (>= 10), dh-exec, dpkg-dev (>= 1.17.14), libsafe-iop-dev [amd64 i386 armel armhf arm64 mips mipsel mips64el], libssl-dev [amd64 i386 armel armhf arm64 mips mipsel mips64el], pandoc [amd64 i386 armel armhf arm64 mips mipsel mips64el], zlib1g-dev [amd64 i386 armel armhf arm64 mips mipsel mips64el], android-libext4-utils-dev (>= 7.0.0+r1~) [amd64 i386 armel armhf arm64 mips mipsel mips64el] <!stage1>, android-libf2fs-utils-dev (>= 7.0.0+r1~) [amd64 i386 armel armhf arm64 mips mipsel mips64el] <!stage1>, googletest [amd64 i386 armel armhf arm64 mips mipsel mips64el] <!stage1>"
-  ],
-  "Checksums-Sha256": [
-    "d023733dd4abbbaccb123bd5880dbacfb614b83711f3e6a94362e3472a05669d 5111 android-platform-system-core_7.0.0+r33-1.dsc f653cf80bf04d441cbd1bb4db2dd7a2146197a5897dd5d14f074b4c08caaf685 1572607 android-platform-system-core_7.0.0+r33.orig.tar.gz d4b382c39fc848240743f99f57027ac2fe209e2d72fe2130beeb77aa71947fc8 27460 android-platform-system-core_7.0.0+r33-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/a/android-platform-system-core"
-  ],
-  "Files": [
-    "5fb5ffe08a30ab15e88d42a227fabb15 5111 android-platform-system-core_7.0.0+r33-1.dsc 0d11d43282579b6e4af976e7f8298652 1572607 android-platform-system-core_7.0.0+r33.orig.tar.gz 8cbc16a5dc4f19d61bf709e0c1e6c0bc 27460 android-platform-system-core_7.0.0+r33-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://android.googlesource.com/platform/system/core"
-  ],
-  "Maintainer": [
-    "Android Tools Maintainers <android-tools-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "android-platform-system-core"
-  ],
-  "Package-List": [
-    "adb deb devel optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el android-libadb deb libs optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el android-libadb-dev deb libdevel optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el android-libbacktrace deb libs optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el android-libbacktrace-dev deb libdevel optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el android-libbase deb libs optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el android-libbase-dev deb libdevel optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el android-libcutils deb libs optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el android-libcutils-dev deb libdevel optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el android-liblog deb libs optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el android-liblog-dev deb libdevel optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el android-libsparse deb libs optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el android-libsparse-dev deb libdevel optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el android-libutils deb libs optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el android-libutils-dev deb libdevel optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el android-libziparchive deb libs optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el android-libziparchive-dev deb libdevel optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el android-platform-system-core-headers deb libdevel optional arch=all android-tools-adb deb oldlibs extra arch=all android-tools-fastboot deb oldlibs extra arch=all append2simg deb devel optional arch=amd64,i386 fastboot deb devel optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el profile=!stage1 img2simg deb devel optional arch=amd64,i386 simg2img deb devel optional arch=amd64,i386"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Hans-Christoph Steiner <hans@eds.org>, Kai-Chung Yan <seamlikok@gmail.com>, Chirayu Desai <chirayudesai1@gmail.com>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/android-tools/android-platform-system-core.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/android-tools/android-platform-system-core.git"
-  ],
-  "Version": [
-    "1:7.0.0+r33-1"
-  ]
+	"Architecture": [
+		"amd64 i386 armel armhf arm64 mips mipsel mips64el all"
+	],
+	"Binary": [
+		"android-liblog, android-liblog-dev, android-libcutils, android-libcutils-dev, adb, android-libsparse, android-libsparse-dev, android-libutils, android-libutils-dev, android-libziparchive, android-libziparchive-dev, android-platform-system-core-headers, android-libbacktrace, android-libbacktrace-dev, android-libadb, android-libadb-dev, android-libbase, android-libbase-dev, fastboot, simg2img, img2simg, append2simg, android-tools-adb, android-tools-fastboot"
+	],
+	"Build-Depends": [
+		"android-libunwind-dev (>= 7.0.0+r1~) [amd64 i386 armel armhf arm64 mips mipsel mips64el], bash-completion, debhelper (>= 10), dh-exec, dpkg-dev (>= 1.17.14), libsafe-iop-dev [amd64 i386 armel armhf arm64 mips mipsel mips64el], libssl-dev [amd64 i386 armel armhf arm64 mips mipsel mips64el], pandoc [amd64 i386 armel armhf arm64 mips mipsel mips64el], zlib1g-dev [amd64 i386 armel armhf arm64 mips mipsel mips64el], android-libext4-utils-dev (>= 7.0.0+r1~) [amd64 i386 armel armhf arm64 mips mipsel mips64el] <!stage1>, android-libf2fs-utils-dev (>= 7.0.0+r1~) [amd64 i386 armel armhf arm64 mips mipsel mips64el] <!stage1>, googletest [amd64 i386 armel armhf arm64 mips mipsel mips64el] <!stage1>"
+	],
+	"Checksums-Sha256": [
+		"d023733dd4abbbaccb123bd5880dbacfb614b83711f3e6a94362e3472a05669d 5111 android-platform-system-core_7.0.0+r33-1.dsc f653cf80bf04d441cbd1bb4db2dd7a2146197a5897dd5d14f074b4c08caaf685 1572607 android-platform-system-core_7.0.0+r33.orig.tar.gz d4b382c39fc848240743f99f57027ac2fe209e2d72fe2130beeb77aa71947fc8 27460 android-platform-system-core_7.0.0+r33-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/a/android-platform-system-core"
+	],
+	"Files": [
+		"5fb5ffe08a30ab15e88d42a227fabb15 5111 android-platform-system-core_7.0.0+r33-1.dsc 0d11d43282579b6e4af976e7f8298652 1572607 android-platform-system-core_7.0.0+r33.orig.tar.gz 8cbc16a5dc4f19d61bf709e0c1e6c0bc 27460 android-platform-system-core_7.0.0+r33-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://android.googlesource.com/platform/system/core"
+	],
+	"Maintainer": [
+		"Android Tools Maintainers <android-tools-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"android-platform-system-core"
+	],
+	"Package-List": [
+		"adb deb devel optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el android-libadb deb libs optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el android-libadb-dev deb libdevel optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el android-libbacktrace deb libs optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el android-libbacktrace-dev deb libdevel optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el android-libbase deb libs optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el android-libbase-dev deb libdevel optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el android-libcutils deb libs optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el android-libcutils-dev deb libdevel optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el android-liblog deb libs optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el android-liblog-dev deb libdevel optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el android-libsparse deb libs optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el android-libsparse-dev deb libdevel optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el android-libutils deb libs optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el android-libutils-dev deb libdevel optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el android-libziparchive deb libs optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el android-libziparchive-dev deb libdevel optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el android-platform-system-core-headers deb libdevel optional arch=all android-tools-adb deb oldlibs extra arch=all android-tools-fastboot deb oldlibs extra arch=all append2simg deb devel optional arch=amd64,i386 fastboot deb devel optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el profile=!stage1 img2simg deb devel optional arch=amd64,i386 simg2img deb devel optional arch=amd64,i386"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Hans-Christoph Steiner <hans@eds.org>, Kai-Chung Yan <seamlikok@gmail.com>, Chirayu Desai <chirayudesai1@gmail.com>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/android-tools/android-platform-system-core.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/android-tools/android-platform-system-core.git"
+	],
+	"Version": [
+		"1:7.0.0+r33-1"
+	]
 }

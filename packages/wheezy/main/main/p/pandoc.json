@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "pandoc, libghc-pandoc-dev, libghc-pandoc-doc, libghc-pandoc-prof"
-  ],
-  "Build-Depends": [
-    "cdbs (>= 0.4.72~), devscripts, debhelper, dh-buildinfo, ghc, libghc-parsec3-dev (<< 3.2), libghc-mtl-dev (<< 2.2), libghc-network-dev (<< 2.4), libghc-zip-archive-dev (<< 0.2), libghc-utf8-string-dev (<< 0.4), libghc-http-dev (<< 1:4000.3), libghc-texmath-dev (<< 0.7), libghc-xml-dev (<< 1.4), libghc-random-dev (<< 1.1), libghc-citeproc-hs-dev (<< 0.4), libghc-pandoc-types-dev (<< 1.10), libghc-json-dev (<< 0.6), libghc-tagsoup-dev (<< 0.13), libghc-base64-bytestring-dev (<< 0.2), libghc-zlib-dev (<< 0.6), libghc-highlighting-kate-dev (>= 0.5.1), libghc-highlighting-kate-dev (<< 0.6), libghc-temporary-dev (<< 1.2), libghc-blaze-html-dev (<< 0.5), libghc-syb-dev (<< 0.4), ghc-prof, libghc-parsec3-prof, libghc-mtl-prof, libghc-network-prof, libghc-zip-archive-prof, libghc-utf8-string-prof, libghc-http-prof, libghc-texmath-prof, libghc-xml-prof, libghc-random-prof, libghc-citeproc-hs-prof, libghc-pandoc-types-prof, libghc-json-prof, libghc-tagsoup-prof, libghc-base64-bytestring-prof, libghc-zlib-prof, libghc-highlighting-kate-prof, libghc-temporary-prof, libghc-blaze-html-prof, libghc-syb-prof, haskell-devscripts (>= 0.5.12)"
-  ],
-  "Build-Depends-Indep": [
-    "ghc-doc, libghc-syb-doc, libghc-parsec3-doc, libghc-xhtml-doc, libghc-mtl-doc, libghc-network-doc, libghc-zip-archive-doc, libghc-utf8-string-doc, libghc-http-doc, libghc-texmath-doc, libghc-xml-doc, libghc-citeproc-hs-doc, libghc-pandoc-types-doc, libghc-json-doc, libghc-dlist-doc, libghc-tagsoup-doc, libghc-base64-bytestring-doc, libghc-highlighting-kate-doc, libghc-diff-doc, libghc-testpack-doc, libghc-binary-doc, libghc-digest-doc, libghc-pcre-light-doc, libghc-transformers-doc, libghc-zlib-doc, libghc-blaze-html-doc, libghc-temporary-doc, libghc-blaze-builder-doc, libghc-hs-bibutils-doc, libghc-random-doc, libghc-text-doc"
-  ],
-  "Checksums-Sha1": [
-    "b74e50beae4007d4186e18f1a21e0603c4ef0ac9 3955 pandoc_1.9.4.2-2.dsc 96b5ac10109257ce94bf73232f7a737d121f3090 575099 pandoc_1.9.4.2.orig.tar.gz 27618e8ee83ad041ab0ca8b4801e31983efec60a 37241 pandoc_1.9.4.2-2.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "2eabbf972a40dc837d3a555e50490538783bf7a945fc164bda93912bc4fa90bf 3955 pandoc_1.9.4.2-2.dsc 535380d76be30747e264950ca1df96bc3d480a5917ab5a54fcd0d7b84cc722ff 575099 pandoc_1.9.4.2.orig.tar.gz ec2fd3cdc297bbb5c294f9ad770f7914c837d27428c33f0e00444203d5639cd2 37241 pandoc_1.9.4.2-2.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/p/pandoc"
-  ],
-  "Dm-Upload-Allowed": [
-    "yes"
-  ],
-  "Files": [
-    "f0310fdcd20174ea3a0ba29b296e88de 3955 pandoc_1.9.4.2-2.dsc c099360947d0cbb90608ce2f6a217071 575099 pandoc_1.9.4.2.orig.tar.gz 12094187a7e9da29517da3223c4dcbb4 37241 pandoc_1.9.4.2-2.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://johnmacfarlane.net/pandoc/"
-  ],
-  "Maintainer": [
-    "Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "pandoc"
-  ],
-  "Package-List": [
-    "libghc-pandoc-dev deb haskell extra libghc-pandoc-doc deb doc extra libghc-pandoc-prof deb haskell extra pandoc deb text optional"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "text"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Jonas Smedegaard <dr@jones.dk> , Kiwamu Okabe <kiwamu@debian.or.jp>, , Clint Adams <clint@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=collab-maint/pandoc.git"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/git/collab-maint/pandoc.git"
-  ],
-  "Version": [
-    "1.9.4.2-2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"pandoc, libghc-pandoc-dev, libghc-pandoc-doc, libghc-pandoc-prof"
+	],
+	"Build-Depends": [
+		"cdbs (>= 0.4.72~), devscripts, debhelper, dh-buildinfo, ghc, libghc-parsec3-dev (<< 3.2), libghc-mtl-dev (<< 2.2), libghc-network-dev (<< 2.4), libghc-zip-archive-dev (<< 0.2), libghc-utf8-string-dev (<< 0.4), libghc-http-dev (<< 1:4000.3), libghc-texmath-dev (<< 0.7), libghc-xml-dev (<< 1.4), libghc-random-dev (<< 1.1), libghc-citeproc-hs-dev (<< 0.4), libghc-pandoc-types-dev (<< 1.10), libghc-json-dev (<< 0.6), libghc-tagsoup-dev (<< 0.13), libghc-base64-bytestring-dev (<< 0.2), libghc-zlib-dev (<< 0.6), libghc-highlighting-kate-dev (>= 0.5.1), libghc-highlighting-kate-dev (<< 0.6), libghc-temporary-dev (<< 1.2), libghc-blaze-html-dev (<< 0.5), libghc-syb-dev (<< 0.4), ghc-prof, libghc-parsec3-prof, libghc-mtl-prof, libghc-network-prof, libghc-zip-archive-prof, libghc-utf8-string-prof, libghc-http-prof, libghc-texmath-prof, libghc-xml-prof, libghc-random-prof, libghc-citeproc-hs-prof, libghc-pandoc-types-prof, libghc-json-prof, libghc-tagsoup-prof, libghc-base64-bytestring-prof, libghc-zlib-prof, libghc-highlighting-kate-prof, libghc-temporary-prof, libghc-blaze-html-prof, libghc-syb-prof, haskell-devscripts (>= 0.5.12)"
+	],
+	"Build-Depends-Indep": [
+		"ghc-doc, libghc-syb-doc, libghc-parsec3-doc, libghc-xhtml-doc, libghc-mtl-doc, libghc-network-doc, libghc-zip-archive-doc, libghc-utf8-string-doc, libghc-http-doc, libghc-texmath-doc, libghc-xml-doc, libghc-citeproc-hs-doc, libghc-pandoc-types-doc, libghc-json-doc, libghc-dlist-doc, libghc-tagsoup-doc, libghc-base64-bytestring-doc, libghc-highlighting-kate-doc, libghc-diff-doc, libghc-testpack-doc, libghc-binary-doc, libghc-digest-doc, libghc-pcre-light-doc, libghc-transformers-doc, libghc-zlib-doc, libghc-blaze-html-doc, libghc-temporary-doc, libghc-blaze-builder-doc, libghc-hs-bibutils-doc, libghc-random-doc, libghc-text-doc"
+	],
+	"Checksums-Sha1": [
+		"b74e50beae4007d4186e18f1a21e0603c4ef0ac9 3955 pandoc_1.9.4.2-2.dsc 96b5ac10109257ce94bf73232f7a737d121f3090 575099 pandoc_1.9.4.2.orig.tar.gz 27618e8ee83ad041ab0ca8b4801e31983efec60a 37241 pandoc_1.9.4.2-2.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"2eabbf972a40dc837d3a555e50490538783bf7a945fc164bda93912bc4fa90bf 3955 pandoc_1.9.4.2-2.dsc 535380d76be30747e264950ca1df96bc3d480a5917ab5a54fcd0d7b84cc722ff 575099 pandoc_1.9.4.2.orig.tar.gz ec2fd3cdc297bbb5c294f9ad770f7914c837d27428c33f0e00444203d5639cd2 37241 pandoc_1.9.4.2-2.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/p/pandoc"
+	],
+	"Dm-Upload-Allowed": [
+		"yes"
+	],
+	"Files": [
+		"f0310fdcd20174ea3a0ba29b296e88de 3955 pandoc_1.9.4.2-2.dsc c099360947d0cbb90608ce2f6a217071 575099 pandoc_1.9.4.2.orig.tar.gz 12094187a7e9da29517da3223c4dcbb4 37241 pandoc_1.9.4.2-2.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://johnmacfarlane.net/pandoc/"
+	],
+	"Maintainer": [
+		"Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"pandoc"
+	],
+	"Package-List": [
+		"libghc-pandoc-dev deb haskell extra libghc-pandoc-doc deb doc extra libghc-pandoc-prof deb haskell extra pandoc deb text optional"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"text"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Jonas Smedegaard <dr@jones.dk> , Kiwamu Okabe <kiwamu@debian.or.jp>, , Clint Adams <clint@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=collab-maint/pandoc.git"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/git/collab-maint/pandoc.git"
+	],
+	"Version": [
+		"1.9.4.2-2"
+	]
 }

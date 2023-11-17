@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-breezyshim-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-debversion-0.2+default-dev <!nocheck>, librust-debversion-0.2+python-debian-dev <!nocheck>, librust-lazy-static-1+default-dev (>= 1.4.0-~~) <!nocheck>, librust-pyo3+default-dev (>= 0.18-~~) <!nocheck>, librust-pyo3+serde-dev (>= 0.18-~~) <!nocheck>, librust-pyo3-file+default-dev (>= 0.5.0-~~) <!nocheck>, librust-serde-1+default-dev <!nocheck>, librust-serde-1+derive-dev <!nocheck>, librust-tempfile-3+default-dev (>= 3.6.0-~~) <!nocheck>, librust-url-2+default-dev <!nocheck>, librust-url-2+serde-dev <!nocheck>, brz-debian <!nocheck>, python3-breezy <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "8d396d5f76aa42e5dfb1e0265dfcea8cdce29bde8114a3f3102f88223eb216d4 2471 rust-breezyshim_0.1.50-1.dsc bcfeb22973e2784d59db6d13aa6b75f17c0a990db159abff51410f228600e87a 34824 rust-breezyshim_0.1.50.orig.tar.gz 55701d22d4e9f027cadb52133ef9a04ba2719efd36b60530405a1666a3ac542f 2400 rust-breezyshim_0.1.50-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-breezyshim"
-  ],
-  "Files": [
-    "73ec7e88cbfb5bc0e33fd794069dcda1 2471 rust-breezyshim_0.1.50-1.dsc 84fa21fbe795750e62ae02141fc5b924 34824 rust-breezyshim_0.1.50.orig.tar.gz bb677492937a932fdd2d1a6b5edb6691 2400 rust-breezyshim_0.1.50-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.breezy-vcs.org/"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-breezyshim"
-  ],
-  "Package-List": [
-    "librust-breezyshim-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-pyo3+auto-initialize-dev, librust-pyo3+default-dev"
-  ],
-  "Uploaders": [
-    "Jelmer Vernooĳ <jelmer@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/breezyshim"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/breezyshim]"
-  ],
-  "Version": [
-    "0.1.50-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-breezyshim-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-debversion-0.2+default-dev <!nocheck>, librust-debversion-0.2+python-debian-dev <!nocheck>, librust-lazy-static-1+default-dev (>= 1.4.0-~~) <!nocheck>, librust-pyo3+default-dev (>= 0.18-~~) <!nocheck>, librust-pyo3+serde-dev (>= 0.18-~~) <!nocheck>, librust-pyo3-file+default-dev (>= 0.5.0-~~) <!nocheck>, librust-serde-1+default-dev <!nocheck>, librust-serde-1+derive-dev <!nocheck>, librust-tempfile-3+default-dev (>= 3.6.0-~~) <!nocheck>, librust-url-2+default-dev <!nocheck>, librust-url-2+serde-dev <!nocheck>, brz-debian <!nocheck>, python3-breezy <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"8d396d5f76aa42e5dfb1e0265dfcea8cdce29bde8114a3f3102f88223eb216d4 2471 rust-breezyshim_0.1.50-1.dsc bcfeb22973e2784d59db6d13aa6b75f17c0a990db159abff51410f228600e87a 34824 rust-breezyshim_0.1.50.orig.tar.gz 55701d22d4e9f027cadb52133ef9a04ba2719efd36b60530405a1666a3ac542f 2400 rust-breezyshim_0.1.50-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-breezyshim"
+	],
+	"Files": [
+		"73ec7e88cbfb5bc0e33fd794069dcda1 2471 rust-breezyshim_0.1.50-1.dsc 84fa21fbe795750e62ae02141fc5b924 34824 rust-breezyshim_0.1.50.orig.tar.gz bb677492937a932fdd2d1a6b5edb6691 2400 rust-breezyshim_0.1.50-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.breezy-vcs.org/"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-breezyshim"
+	],
+	"Package-List": [
+		"librust-breezyshim-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-pyo3+auto-initialize-dev, librust-pyo3+default-dev"
+	],
+	"Uploaders": [
+		"Jelmer Vernooĳ <jelmer@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/breezyshim"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/breezyshim]"
+	],
+	"Version": [
+		"0.1.50-1"
+	]
 }

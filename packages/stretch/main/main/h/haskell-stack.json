@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "haskell-stack"
-  ],
-  "Build-Depends": [
-    "cdbs, debhelper (>= 9), ghc (>= 8), haskell-devscripts (>= 0.13), libghc-aeson-dev, libghc-ansi-terminal-dev (<< 0.7), libghc-ansi-terminal-dev (>= 0.6.2.3), libghc-async-dev (<< 2.2), libghc-async-dev (>= 2.1.0), libghc-attoparsec-dev (<< 0.14), libghc-attoparsec-dev (>= 0.13.0.2), libghc-base-compat-dev (<< 0.10), libghc-base-compat-dev (>= 0.6), libghc-base16-bytestring-dev (<< 0.2), libghc-base16-bytestring-dev (>= 0.1.1.6), libghc-base64-bytestring-dev (<< 1.1), libghc-base64-bytestring-dev (>= 1.0.0.1), libghc-binary-tagged-dev (<< 0.2), libghc-binary-tagged-dev (>= 0.1.1), libghc-blaze-builder-dev (<< 0.5), libghc-blaze-builder-dev (>= 0.4.0.2), libghc-byteable-dev (<< 0.2), libghc-byteable-dev (>= 0.1.1), libghc-conduit-dev (<< 1.3), libghc-conduit-dev (>= 1.2.6.6), libghc-conduit-extra-dev (<< 1.2), libghc-conduit-extra-dev (>= 1.1.13.1), libghc-cryptohash-conduit-dev (<< 0.2), libghc-cryptohash-conduit-dev (>= 0.1.1), libghc-cryptohash-dev (<< 0.12), libghc-cryptohash-dev (>= 0.11.6), libghc-edit-distance-dev (<< 0.3), libghc-edit-distance-dev (>= 0.2), libghc-either-dev (<< 4.5), libghc-either-dev (>= 4.4.1.1), libghc-enclosed-exceptions-dev (<< 1.1), libghc-enclosed-exceptions-dev (>= 1.0.1.1), libghc-errors-dev (<< 2.2), libghc-errors-dev (>= 2.1.2), libghc-exceptions-dev (<< 0.9), libghc-exceptions-dev (>= 0.8.2.1), libghc-extra-dev (<< 1.6), libghc-extra-dev (>= 1.4.6), libghc-fast-logger-dev (<< 2.5), libghc-fast-logger-dev (>= 2.3.1), libghc-filelock-dev (<< 0.2), libghc-filelock-dev (>= 0.1.0.1), libghc-fsnotify-dev (<< 0.3), libghc-fsnotify-dev (>= 0.2.1), libghc-generic-deriving-dev (<< 1.12), libghc-generic-deriving-dev (>= 1.9.0), libghc-gitrev-dev (<< 1.3), libghc-gitrev-dev (>= 1.1), libghc-hashable-dev (<< 1.3), libghc-hashable-dev (>= 1.2.3.2), libghc-hastache-dev (<< 0.7), libghc-hastache-dev (>= 0.6.1), libghc-hit-dev (<< 0.7), libghc-hit-dev (>= 0.6.3), libghc-hpack-dev (<< 0.15), libghc-hpack-dev (>= 0.14.0), libghc-hspec-dev (<< 2.3), libghc-hspec-dev (>= 2.2.3), libghc-http-client-dev (<< 0.5), libghc-http-client-dev (>= 0.4.28), libghc-http-client-tls-dev (<< 0.3), libghc-http-client-tls-dev (>= 0.2.2), libghc-http-conduit-dev (<< 2.2), libghc-http-conduit-dev (>= 2.1.10.1), libghc-http-types-dev (<< 0.10), libghc-http-types-dev (>= 0.8.6), libghc-lifted-base-dev (<< 0.3), libghc-lifted-base-dev (>= 0.2.3.6), libghc-microlens-dev (<< 0.5), libghc-microlens-dev (>= 0.3.0.0), libghc-monad-control-dev (<< 1.1), libghc-monad-control-dev (>= 1.0.1.0), libghc-monad-logger-dev (<< 0.4), libghc-monad-logger-dev (>= 0.3.18), libghc-monad-unlift-dev (<< 0.3), libghc-monad-unlift-dev (>= 0.1.2.0), libghc-mtl-dev (<< 2.3), libghc-mtl-dev (>= 2.1.3.1), libghc-open-browser-dev (<< 0.3), libghc-open-browser-dev (>= 0.2.1), libghc-optparse-applicative-dev (<< 0.13), libghc-optparse-applicative-dev (>= 0.11.0.2), libghc-optparse-simple-dev (<< 0.1), libghc-optparse-simple-dev (>= 0.0.3), libghc-path-dev (<< 0.6), libghc-path-dev (>= 0.5.7), libghc-path-io-dev (<< 2.0.0), libghc-path-io-dev (>= 1.1.0), libghc-persistent-dev (<< 2.7), libghc-persistent-dev (>= 2.1.2), libghc-persistent-sqlite-dev (<< 2.7), libghc-persistent-sqlite-dev (>= 2.1.4), libghc-persistent-template-dev (<< 2.6), libghc-persistent-template-dev (>= 2.1.1), libghc-project-template-dev (<< 0.3), libghc-project-template-dev (>= 0.2), libghc-quickcheck2-dev (<< 2.10), libghc-quickcheck2-dev (>= 2.8.1), libghc-regex-applicative-text-dev (<< 0.2), libghc-regex-applicative-text-dev (>= 0.1.0.1), libghc-resourcet-dev (<< 1.2), libghc-resourcet-dev (>= 1.1.7.4), libghc-retry-dev (<< 0.8), libghc-retry-dev (>= 0.6), libghc-safe-dev (<< 0.4), libghc-safe-dev (>= 0.3), libghc-semigroups-dev (<< 0.19), libghc-semigroups-dev (>= 0.5), libghc-split-dev (<< 0.3), libghc-split-dev (>= 0.2.3.1), libghc-stm-dev (<< 2.5), libghc-stm-dev (>= 2.4.4), libghc-streaming-commons-dev (<< 0.2), libghc-streaming-commons-dev (>= 0.1.10.0), libghc-tar-dev (<< 0.6), libghc-tar-dev (>= 0.4.1.0), libghc-temporary-dev (<< 1.3), libghc-temporary-dev (>= 1.2.0.4), libghc-text-binary-dev (<< 0.3), libghc-text-binary-dev (>= 0.2.1), libghc-text-dev (<< 1.3), libghc-text-dev (>= 1.2.2.1), libghc-tls-dev (<< 1.4), libghc-tls-dev (>= 1.3.8), libghc-transformers-base-dev (<< 0.5), libghc-transformers-base-dev (>= 0.4.4), libghc-unix-compat-dev (<< 0.5), libghc-unix-compat-dev (>= 0.4.1.4), libghc-unordered-containers-dev (<< 0.3), libghc-unordered-containers-dev (>= 0.2.5.1), libghc-vector-binary-instances-dev (<< 0.3), libghc-vector-binary-instances-dev (>= 0.2.3.2), libghc-vector-dev (<< 0.12), libghc-vector-dev (>= 0.10.12.3), libghc-yaml-dev (<< 0.9), libghc-yaml-dev (>= 0.8.10.1), libghc-zip-archive-dev (<< 0.4), libghc-zip-archive-dev (>= 0.2.3.7), libghc-zlib-dev (<< 0.7), libghc-zlib-dev (>= 0.5.4.2)"
-  ],
-  "Checksums-Sha256": [
-    "185c377892cb95c92e31c4a3f6123e6c8ca3f2f7061a29fde518d39b2f64c6fe 6852 haskell-stack_1.1.2-7.dsc fc836b24fdeac54244fc79b6775d5edee146b7e552ad8e69596c7cc2f2b10625 438633 haskell-stack_1.1.2.orig.tar.gz cd1816e146242a6a1c6fc56ca432bddb5b8d90965af1ad9fc9e50e0dc3a9b24a 7628 haskell-stack_1.1.2-7.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/h/haskell-stack"
-  ],
-  "Files": [
-    "76c64197d8c9b83aeb6922c89a1e1360 6852 haskell-stack_1.1.2-7.dsc 98cd6a63a47c596c04d0d118db77c199 438633 haskell-stack_1.1.2.orig.tar.gz ee0728951646ea1ea365af86de198b54 7628 haskell-stack_1.1.2-7.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://haskellstack.org"
-  ],
-  "Maintainer": [
-    "Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "haskell-stack"
-  ],
-  "Package-List": [
-    "haskell-stack deb haskell extra arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Joachim Breitner <nomeata@debian.org>, Dmitry Bogatov <KAction@gnu.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-haskell/DHG_packages.git/tree/p/haskell-stack"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-haskell/DHG_packages.git"
-  ],
-  "Version": [
-    "1.1.2-7"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"haskell-stack"
+	],
+	"Build-Depends": [
+		"cdbs, debhelper (>= 9), ghc (>= 8), haskell-devscripts (>= 0.13), libghc-aeson-dev, libghc-ansi-terminal-dev (<< 0.7), libghc-ansi-terminal-dev (>= 0.6.2.3), libghc-async-dev (<< 2.2), libghc-async-dev (>= 2.1.0), libghc-attoparsec-dev (<< 0.14), libghc-attoparsec-dev (>= 0.13.0.2), libghc-base-compat-dev (<< 0.10), libghc-base-compat-dev (>= 0.6), libghc-base16-bytestring-dev (<< 0.2), libghc-base16-bytestring-dev (>= 0.1.1.6), libghc-base64-bytestring-dev (<< 1.1), libghc-base64-bytestring-dev (>= 1.0.0.1), libghc-binary-tagged-dev (<< 0.2), libghc-binary-tagged-dev (>= 0.1.1), libghc-blaze-builder-dev (<< 0.5), libghc-blaze-builder-dev (>= 0.4.0.2), libghc-byteable-dev (<< 0.2), libghc-byteable-dev (>= 0.1.1), libghc-conduit-dev (<< 1.3), libghc-conduit-dev (>= 1.2.6.6), libghc-conduit-extra-dev (<< 1.2), libghc-conduit-extra-dev (>= 1.1.13.1), libghc-cryptohash-conduit-dev (<< 0.2), libghc-cryptohash-conduit-dev (>= 0.1.1), libghc-cryptohash-dev (<< 0.12), libghc-cryptohash-dev (>= 0.11.6), libghc-edit-distance-dev (<< 0.3), libghc-edit-distance-dev (>= 0.2), libghc-either-dev (<< 4.5), libghc-either-dev (>= 4.4.1.1), libghc-enclosed-exceptions-dev (<< 1.1), libghc-enclosed-exceptions-dev (>= 1.0.1.1), libghc-errors-dev (<< 2.2), libghc-errors-dev (>= 2.1.2), libghc-exceptions-dev (<< 0.9), libghc-exceptions-dev (>= 0.8.2.1), libghc-extra-dev (<< 1.6), libghc-extra-dev (>= 1.4.6), libghc-fast-logger-dev (<< 2.5), libghc-fast-logger-dev (>= 2.3.1), libghc-filelock-dev (<< 0.2), libghc-filelock-dev (>= 0.1.0.1), libghc-fsnotify-dev (<< 0.3), libghc-fsnotify-dev (>= 0.2.1), libghc-generic-deriving-dev (<< 1.12), libghc-generic-deriving-dev (>= 1.9.0), libghc-gitrev-dev (<< 1.3), libghc-gitrev-dev (>= 1.1), libghc-hashable-dev (<< 1.3), libghc-hashable-dev (>= 1.2.3.2), libghc-hastache-dev (<< 0.7), libghc-hastache-dev (>= 0.6.1), libghc-hit-dev (<< 0.7), libghc-hit-dev (>= 0.6.3), libghc-hpack-dev (<< 0.15), libghc-hpack-dev (>= 0.14.0), libghc-hspec-dev (<< 2.3), libghc-hspec-dev (>= 2.2.3), libghc-http-client-dev (<< 0.5), libghc-http-client-dev (>= 0.4.28), libghc-http-client-tls-dev (<< 0.3), libghc-http-client-tls-dev (>= 0.2.2), libghc-http-conduit-dev (<< 2.2), libghc-http-conduit-dev (>= 2.1.10.1), libghc-http-types-dev (<< 0.10), libghc-http-types-dev (>= 0.8.6), libghc-lifted-base-dev (<< 0.3), libghc-lifted-base-dev (>= 0.2.3.6), libghc-microlens-dev (<< 0.5), libghc-microlens-dev (>= 0.3.0.0), libghc-monad-control-dev (<< 1.1), libghc-monad-control-dev (>= 1.0.1.0), libghc-monad-logger-dev (<< 0.4), libghc-monad-logger-dev (>= 0.3.18), libghc-monad-unlift-dev (<< 0.3), libghc-monad-unlift-dev (>= 0.1.2.0), libghc-mtl-dev (<< 2.3), libghc-mtl-dev (>= 2.1.3.1), libghc-open-browser-dev (<< 0.3), libghc-open-browser-dev (>= 0.2.1), libghc-optparse-applicative-dev (<< 0.13), libghc-optparse-applicative-dev (>= 0.11.0.2), libghc-optparse-simple-dev (<< 0.1), libghc-optparse-simple-dev (>= 0.0.3), libghc-path-dev (<< 0.6), libghc-path-dev (>= 0.5.7), libghc-path-io-dev (<< 2.0.0), libghc-path-io-dev (>= 1.1.0), libghc-persistent-dev (<< 2.7), libghc-persistent-dev (>= 2.1.2), libghc-persistent-sqlite-dev (<< 2.7), libghc-persistent-sqlite-dev (>= 2.1.4), libghc-persistent-template-dev (<< 2.6), libghc-persistent-template-dev (>= 2.1.1), libghc-project-template-dev (<< 0.3), libghc-project-template-dev (>= 0.2), libghc-quickcheck2-dev (<< 2.10), libghc-quickcheck2-dev (>= 2.8.1), libghc-regex-applicative-text-dev (<< 0.2), libghc-regex-applicative-text-dev (>= 0.1.0.1), libghc-resourcet-dev (<< 1.2), libghc-resourcet-dev (>= 1.1.7.4), libghc-retry-dev (<< 0.8), libghc-retry-dev (>= 0.6), libghc-safe-dev (<< 0.4), libghc-safe-dev (>= 0.3), libghc-semigroups-dev (<< 0.19), libghc-semigroups-dev (>= 0.5), libghc-split-dev (<< 0.3), libghc-split-dev (>= 0.2.3.1), libghc-stm-dev (<< 2.5), libghc-stm-dev (>= 2.4.4), libghc-streaming-commons-dev (<< 0.2), libghc-streaming-commons-dev (>= 0.1.10.0), libghc-tar-dev (<< 0.6), libghc-tar-dev (>= 0.4.1.0), libghc-temporary-dev (<< 1.3), libghc-temporary-dev (>= 1.2.0.4), libghc-text-binary-dev (<< 0.3), libghc-text-binary-dev (>= 0.2.1), libghc-text-dev (<< 1.3), libghc-text-dev (>= 1.2.2.1), libghc-tls-dev (<< 1.4), libghc-tls-dev (>= 1.3.8), libghc-transformers-base-dev (<< 0.5), libghc-transformers-base-dev (>= 0.4.4), libghc-unix-compat-dev (<< 0.5), libghc-unix-compat-dev (>= 0.4.1.4), libghc-unordered-containers-dev (<< 0.3), libghc-unordered-containers-dev (>= 0.2.5.1), libghc-vector-binary-instances-dev (<< 0.3), libghc-vector-binary-instances-dev (>= 0.2.3.2), libghc-vector-dev (<< 0.12), libghc-vector-dev (>= 0.10.12.3), libghc-yaml-dev (<< 0.9), libghc-yaml-dev (>= 0.8.10.1), libghc-zip-archive-dev (<< 0.4), libghc-zip-archive-dev (>= 0.2.3.7), libghc-zlib-dev (<< 0.7), libghc-zlib-dev (>= 0.5.4.2)"
+	],
+	"Checksums-Sha256": [
+		"185c377892cb95c92e31c4a3f6123e6c8ca3f2f7061a29fde518d39b2f64c6fe 6852 haskell-stack_1.1.2-7.dsc fc836b24fdeac54244fc79b6775d5edee146b7e552ad8e69596c7cc2f2b10625 438633 haskell-stack_1.1.2.orig.tar.gz cd1816e146242a6a1c6fc56ca432bddb5b8d90965af1ad9fc9e50e0dc3a9b24a 7628 haskell-stack_1.1.2-7.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/h/haskell-stack"
+	],
+	"Files": [
+		"76c64197d8c9b83aeb6922c89a1e1360 6852 haskell-stack_1.1.2-7.dsc 98cd6a63a47c596c04d0d118db77c199 438633 haskell-stack_1.1.2.orig.tar.gz ee0728951646ea1ea365af86de198b54 7628 haskell-stack_1.1.2-7.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://haskellstack.org"
+	],
+	"Maintainer": [
+		"Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"haskell-stack"
+	],
+	"Package-List": [
+		"haskell-stack deb haskell extra arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Joachim Breitner <nomeata@debian.org>, Dmitry Bogatov <KAction@gnu.org>,"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-haskell/DHG_packages.git/tree/p/haskell-stack"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-haskell/DHG_packages.git"
+	],
+	"Version": [
+		"1.1.2-7"
+	]
 }

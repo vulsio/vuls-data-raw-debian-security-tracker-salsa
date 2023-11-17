@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "pdns-server, pdns-server-dbg, pdns-backend-pipe, pdns-backend-ldap, pdns-backend-geo, pdns-backend-mysql, pdns-backend-pgsql, pdns-backend-sqlite3, pdns-backend-lua, pdns-backend-remote, pdns-backend-mydns"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9~), dh-autoreconf, po-debconf, libtool, flex, bison, libmysqlclient-dev, libpq-dev, libssl-dev, libpolarssl-dev, libgdbm-dev, libldap2-dev, libsqlite3-dev, dpkg-dev (>= 1.16.1~), libboost-dev, libboost-serialization-dev, libboost-program-options-dev, libboost-test-dev, autotools-dev, automake, autoconf, liblua5.1-0-dev, pkg-config, libcrypto++-dev, ragel, libgmp-dev, libbotan1.10-dev, libcurl4-openssl-dev, libzmq-dev"
-  ],
-  "Checksums-Sha1": [
-    "1a63965eff87e8546edb09a92119f3d5e989c23d 2939 pdns_3.4.4-2~bpo7+1.dsc 42fffcefea0c87ff0090c279c0205326c2ff86d8 1336624 pdns_3.4.4.orig.tar.bz2 1e8d7126a5c7246f9374f7c44cc9ae64b6665112 49904 pdns_3.4.4-2~bpo7+1.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "3f6736a6562c15273c380a0799f498eec3458dbeedeb127f440f70a3fcdcf1e5 2939 pdns_3.4.4-2~bpo7+1.dsc ec49f5a0b55b69ba057bf9ce28ab81e5258fc60c8d4954d9100fe3bb3efd09c8 1336624 pdns_3.4.4.orig.tar.bz2 14d95f0e9bd7eaa6edd6083259d516bf4f23915973c40e978ae9eb8243499fbd 49904 pdns_3.4.4-2~bpo7+1.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/p/pdns"
-  ],
-  "Files": [
-    "b379ec004a56b8241e0ffb52bc8cfc92 2939 pdns_3.4.4-2~bpo7+1.dsc 7207dc27b43077d7908732b8ca5d6ae1 1336624 pdns_3.4.4.orig.tar.bz2 cc790620890b7766eb541a66ffb0b394 49904 pdns_3.4.4-2~bpo7+1.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.powerdns.com/"
-  ],
-  "Maintainer": [
-    "Debian PowerDNS Maintainers <pkg-pdns-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "pdns"
-  ],
-  "Package-List": [
-    "pdns-backend-geo deb net extra pdns-backend-ldap deb net extra pdns-backend-lua deb net extra pdns-backend-mydns deb net extra pdns-backend-mysql deb net extra pdns-backend-pgsql deb net extra pdns-backend-pipe deb net extra pdns-backend-remote deb net extra pdns-backend-sqlite3 deb net extra pdns-server deb net extra pdns-server-dbg deb debug extra"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Matthijs Möhlmann <matthijs@cacholong.nl>, Marc Haber <mh+debian-packages@zugschlus.de>, Christian Hofstaedtler <zeha@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-pdns/pdns.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-pdns/pdns.git"
-  ],
-  "Version": [
-    "3.4.4-2~bpo7+1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"pdns-server, pdns-server-dbg, pdns-backend-pipe, pdns-backend-ldap, pdns-backend-geo, pdns-backend-mysql, pdns-backend-pgsql, pdns-backend-sqlite3, pdns-backend-lua, pdns-backend-remote, pdns-backend-mydns"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9~), dh-autoreconf, po-debconf, libtool, flex, bison, libmysqlclient-dev, libpq-dev, libssl-dev, libpolarssl-dev, libgdbm-dev, libldap2-dev, libsqlite3-dev, dpkg-dev (>= 1.16.1~), libboost-dev, libboost-serialization-dev, libboost-program-options-dev, libboost-test-dev, autotools-dev, automake, autoconf, liblua5.1-0-dev, pkg-config, libcrypto++-dev, ragel, libgmp-dev, libbotan1.10-dev, libcurl4-openssl-dev, libzmq-dev"
+	],
+	"Checksums-Sha1": [
+		"1a63965eff87e8546edb09a92119f3d5e989c23d 2939 pdns_3.4.4-2~bpo7+1.dsc 42fffcefea0c87ff0090c279c0205326c2ff86d8 1336624 pdns_3.4.4.orig.tar.bz2 1e8d7126a5c7246f9374f7c44cc9ae64b6665112 49904 pdns_3.4.4-2~bpo7+1.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"3f6736a6562c15273c380a0799f498eec3458dbeedeb127f440f70a3fcdcf1e5 2939 pdns_3.4.4-2~bpo7+1.dsc ec49f5a0b55b69ba057bf9ce28ab81e5258fc60c8d4954d9100fe3bb3efd09c8 1336624 pdns_3.4.4.orig.tar.bz2 14d95f0e9bd7eaa6edd6083259d516bf4f23915973c40e978ae9eb8243499fbd 49904 pdns_3.4.4-2~bpo7+1.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/p/pdns"
+	],
+	"Files": [
+		"b379ec004a56b8241e0ffb52bc8cfc92 2939 pdns_3.4.4-2~bpo7+1.dsc 7207dc27b43077d7908732b8ca5d6ae1 1336624 pdns_3.4.4.orig.tar.bz2 cc790620890b7766eb541a66ffb0b394 49904 pdns_3.4.4-2~bpo7+1.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.powerdns.com/"
+	],
+	"Maintainer": [
+		"Debian PowerDNS Maintainers <pkg-pdns-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"pdns"
+	],
+	"Package-List": [
+		"pdns-backend-geo deb net extra pdns-backend-ldap deb net extra pdns-backend-lua deb net extra pdns-backend-mydns deb net extra pdns-backend-mysql deb net extra pdns-backend-pgsql deb net extra pdns-backend-pipe deb net extra pdns-backend-remote deb net extra pdns-backend-sqlite3 deb net extra pdns-server deb net extra pdns-server-dbg deb debug extra"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Matthijs Möhlmann <matthijs@cacholong.nl>, Marc Haber <mh+debian-packages@zugschlus.de>, Christian Hofstaedtler <zeha@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-pdns/pdns.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-pdns/pdns.git"
+	],
+	"Version": [
+		"3.4.4-2~bpo7+1"
+	]
 }

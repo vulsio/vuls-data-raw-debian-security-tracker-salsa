@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-backtrace-dev, librust-backtrace+cpp-demangle-dev, librust-backtrace+rustc-serialize-dev, librust-backtrace+serde-dev, librust-backtrace+verify-winapi-dev, librust-backtrace+winapi-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-addr2line-0.20-dev <!nocheck>, librust-cc-1+default-dev (>= 1.0.67-~~) <!nocheck>, librust-cfg-if-1+default-dev <!nocheck>, librust-libc-0.2-dev (>= 0.2.146-~~) <!nocheck>, librust-miniz-oxide-0.7-dev <!nocheck>, librust-object-0.31+archive-dev (>= 0.31.1-~~) <!nocheck>, librust-object-0.31+elf-dev (>= 0.31.1-~~) <!nocheck>, librust-object-0.31+macho-dev (>= 0.31.1-~~) <!nocheck>, librust-object-0.31+pe-dev (>= 0.31.1-~~) <!nocheck>, librust-object-0.31+read-core-dev (>= 0.31.1-~~) <!nocheck>, librust-object-0.31+unaligned-dev (>= 0.31.1-~~) <!nocheck>, librust-rustc-demangle-0.1+default-dev (>= 0.1.4-~~) <!nocheck>, librust-flate2-dev (>= 1.0.27) <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "e5adc9c3841fca2becb7cbe51622703c6005a7c073100d700eed84085064ad3e 3433 rust-backtrace_0.3.68-2.dsc e03685c8f8662144d78a8b7b39fff5724856225eb6629737cc863032ea7d94bc 75769 rust-backtrace_0.3.68.orig.tar.gz 1d01965a6db610017ca2d5bc90fd7727004cb3de6b1b427b24f11f106b399e1b 5100 rust-backtrace_0.3.68-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-backtrace"
-  ],
-  "Files": [
-    "26b95074b59ea05cb9543fdb7b8651d7 3433 rust-backtrace_0.3.68-2.dsc 5067a1b30f790f2bda9e39f33ae7c10f 75769 rust-backtrace_0.3.68.orig.tar.gz 9bb286cc7735e3aafe226b63b2cae5c1 5100 rust-backtrace_0.3.68-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/rust-lang/backtrace-rs"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-backtrace"
-  ],
-  "Package-List": [
-    "librust-backtrace+cpp-demangle-dev deb rust optional arch=any librust-backtrace+rustc-serialize-dev deb rust optional arch=any librust-backtrace+serde-dev deb rust optional arch=any librust-backtrace+verify-winapi-dev deb rust optional arch=any librust-backtrace+winapi-dev deb rust optional arch=any librust-backtrace-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-libloading-0.7+default-dev"
-  ],
-  "Uploaders": [
-    "kpcyrd <git@rxv.cc>, Wolfgang Silbermayr <wolfgang@silbermayr.at>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/backtrace"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/backtrace]"
-  ],
-  "Version": [
-    "0.3.68-2"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-backtrace-dev, librust-backtrace+cpp-demangle-dev, librust-backtrace+rustc-serialize-dev, librust-backtrace+serde-dev, librust-backtrace+verify-winapi-dev, librust-backtrace+winapi-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-addr2line-0.20-dev <!nocheck>, librust-cc-1+default-dev (>= 1.0.67-~~) <!nocheck>, librust-cfg-if-1+default-dev <!nocheck>, librust-libc-0.2-dev (>= 0.2.146-~~) <!nocheck>, librust-miniz-oxide-0.7-dev <!nocheck>, librust-object-0.31+archive-dev (>= 0.31.1-~~) <!nocheck>, librust-object-0.31+elf-dev (>= 0.31.1-~~) <!nocheck>, librust-object-0.31+macho-dev (>= 0.31.1-~~) <!nocheck>, librust-object-0.31+pe-dev (>= 0.31.1-~~) <!nocheck>, librust-object-0.31+read-core-dev (>= 0.31.1-~~) <!nocheck>, librust-object-0.31+unaligned-dev (>= 0.31.1-~~) <!nocheck>, librust-rustc-demangle-0.1+default-dev (>= 0.1.4-~~) <!nocheck>, librust-flate2-dev (>= 1.0.27) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"e5adc9c3841fca2becb7cbe51622703c6005a7c073100d700eed84085064ad3e 3433 rust-backtrace_0.3.68-2.dsc e03685c8f8662144d78a8b7b39fff5724856225eb6629737cc863032ea7d94bc 75769 rust-backtrace_0.3.68.orig.tar.gz 1d01965a6db610017ca2d5bc90fd7727004cb3de6b1b427b24f11f106b399e1b 5100 rust-backtrace_0.3.68-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-backtrace"
+	],
+	"Files": [
+		"26b95074b59ea05cb9543fdb7b8651d7 3433 rust-backtrace_0.3.68-2.dsc 5067a1b30f790f2bda9e39f33ae7c10f 75769 rust-backtrace_0.3.68.orig.tar.gz 9bb286cc7735e3aafe226b63b2cae5c1 5100 rust-backtrace_0.3.68-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/rust-lang/backtrace-rs"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-backtrace"
+	],
+	"Package-List": [
+		"librust-backtrace+cpp-demangle-dev deb rust optional arch=any librust-backtrace+rustc-serialize-dev deb rust optional arch=any librust-backtrace+serde-dev deb rust optional arch=any librust-backtrace+verify-winapi-dev deb rust optional arch=any librust-backtrace+winapi-dev deb rust optional arch=any librust-backtrace-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-libloading-0.7+default-dev"
+	],
+	"Uploaders": [
+		"kpcyrd <git@rxv.cc>, Wolfgang Silbermayr <wolfgang@silbermayr.at>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/backtrace"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/backtrace]"
+	],
+	"Version": [
+		"0.3.68-2"
+	]
 }

@@ -1,68 +1,68 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "python-pandas, python3-pandas, python-pandas-doc, python-pandas-lib, python3-pandas-lib"
-  ],
-  "Build-Conflicts": [
-    "python-tables (= 3.3.0-4), python3-tables (= 3.3.0-4)"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 7.0.50), python-all-dev (>= 2.5), python-setuptools, cython, python-numpy (>= 1:1.7~), python-dateutil, python-scipy, python-tz, python-tables [!m68k !sh4 !x32], python-sphinx (>= 1.0~), python-nose, python-matplotlib [!hurd-i386], python-tk, python-openpyxl, python-xlwt, python-xlrd, python-bs4, python-html5lib, python-six, python-lxml, python3-all-dev, python3-setuptools, cython3 (>= 0.17.1~) | cython (<< 0.17.1~), python3-numpy (>= 1:1.7~), python3-dateutil, python3-scipy, python3-tz, python3-sphinx (>= 1.0~), python3-nose, python3-matplotlib [!hurd-i386] | python-matplotlib (<< 1.2.0~) [!hurd-i386], python3-tk, python3-bs4, python3-six, python3-lxml, python3-html5lib, python3-tables [!m68k !sh4 !x32], xvfb, xauth, xclip"
-  ],
-  "Build-Depends-Indep": [
-    "ipython (>= 0.12) | ipython2x | ipython1x, python-statsmodels [!arm64 !ppc64el !sparc64 !mips64el !ppc64 !sparc64 !sh4]"
-  ],
-  "Checksums-Sha256": [
-    "bff880db88ecf04c5e3dd2cddfc232f45cce963fbe8b86b5165a938334b4c1ba 3565 pandas_0.19.2-5.1.dsc af634dd6ed3ca1f8635183f41e7f7769108531ccca8213067d9627857461702e 6400027 pandas_0.19.2.orig.tar.gz 0474d0c907001e2a3bd3972349831451a024c1f94d024057c103c33a172dd0be 2393040 pandas_0.19.2-5.1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/pandas"
-  ],
-  "Files": [
-    "b4be40a2cc98f9268d85f5ff91efa419 3565 pandas_0.19.2-5.1.dsc ec94ff3e7e8f6c8ed8f96aa3aa9e6659 6400027 pandas_0.19.2.orig.tar.gz ea79db470984acc1159896ffd8f575f9 2393040 pandas_0.19.2-5.1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://pandas.sourceforge.net"
-  ],
-  "Maintainer": [
-    "NeuroDebian Team <team@neuro.debian.net>"
-  ],
-  "Package": [
-    "pandas"
-  ],
-  "Package-List": [
-    "python-pandas deb python optional arch=all python-pandas-doc deb doc optional arch=all python-pandas-lib deb python optional arch=any python3-pandas deb python optional arch=all python3-pandas-lib deb python optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "python"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "python-all, python-bs4, python-dateutil, python-html5lib, python-matplotlib, python-nose, python-numpy, python-openpyxl, python-scipy, python-statsmodels, python-tables, python-tk, python-tz, python-xlrd, python-xlwt, python3-all, python3-bs4, python3-dateutil, python3-matplotlib, python3-nose, python3-numpy, python3-scipy, python3-tk, python3-tz, xauth, xvfb"
-  ],
-  "Uploaders": [
-    "Yaroslav Halchenko <debian@onerussian.com>, Michael Hanke <michael.hanke@gmail.com>"
-  ],
-  "Vcs-Browser": [
-    "http://github.com/neurodebian/pandas"
-  ],
-  "Vcs-Git": [
-    "git://github.com/neurodebian/pandas.git"
-  ],
-  "Version": [
-    "0.19.2-5.1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"python-pandas, python3-pandas, python-pandas-doc, python-pandas-lib, python3-pandas-lib"
+	],
+	"Build-Conflicts": [
+		"python-tables (= 3.3.0-4), python3-tables (= 3.3.0-4)"
+	],
+	"Build-Depends": [
+		"debhelper (>= 7.0.50), python-all-dev (>= 2.5), python-setuptools, cython, python-numpy (>= 1:1.7~), python-dateutil, python-scipy, python-tz, python-tables [!m68k !sh4 !x32], python-sphinx (>= 1.0~), python-nose, python-matplotlib [!hurd-i386], python-tk, python-openpyxl, python-xlwt, python-xlrd, python-bs4, python-html5lib, python-six, python-lxml, python3-all-dev, python3-setuptools, cython3 (>= 0.17.1~) | cython (<< 0.17.1~), python3-numpy (>= 1:1.7~), python3-dateutil, python3-scipy, python3-tz, python3-sphinx (>= 1.0~), python3-nose, python3-matplotlib [!hurd-i386] | python-matplotlib (<< 1.2.0~) [!hurd-i386], python3-tk, python3-bs4, python3-six, python3-lxml, python3-html5lib, python3-tables [!m68k !sh4 !x32], xvfb, xauth, xclip"
+	],
+	"Build-Depends-Indep": [
+		"ipython (>= 0.12) | ipython2x | ipython1x, python-statsmodels [!arm64 !ppc64el !sparc64 !mips64el !ppc64 !sparc64 !sh4]"
+	],
+	"Checksums-Sha256": [
+		"bff880db88ecf04c5e3dd2cddfc232f45cce963fbe8b86b5165a938334b4c1ba 3565 pandas_0.19.2-5.1.dsc af634dd6ed3ca1f8635183f41e7f7769108531ccca8213067d9627857461702e 6400027 pandas_0.19.2.orig.tar.gz 0474d0c907001e2a3bd3972349831451a024c1f94d024057c103c33a172dd0be 2393040 pandas_0.19.2-5.1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/pandas"
+	],
+	"Files": [
+		"b4be40a2cc98f9268d85f5ff91efa419 3565 pandas_0.19.2-5.1.dsc ec94ff3e7e8f6c8ed8f96aa3aa9e6659 6400027 pandas_0.19.2.orig.tar.gz ea79db470984acc1159896ffd8f575f9 2393040 pandas_0.19.2-5.1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://pandas.sourceforge.net"
+	],
+	"Maintainer": [
+		"NeuroDebian Team <team@neuro.debian.net>"
+	],
+	"Package": [
+		"pandas"
+	],
+	"Package-List": [
+		"python-pandas deb python optional arch=all python-pandas-doc deb doc optional arch=all python-pandas-lib deb python optional arch=any python3-pandas deb python optional arch=all python3-pandas-lib deb python optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"python"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"python-all, python-bs4, python-dateutil, python-html5lib, python-matplotlib, python-nose, python-numpy, python-openpyxl, python-scipy, python-statsmodels, python-tables, python-tk, python-tz, python-xlrd, python-xlwt, python3-all, python3-bs4, python3-dateutil, python3-matplotlib, python3-nose, python3-numpy, python3-scipy, python3-tk, python3-tz, xauth, xvfb"
+	],
+	"Uploaders": [
+		"Yaroslav Halchenko <debian@onerussian.com>, Michael Hanke <michael.hanke@gmail.com>"
+	],
+	"Vcs-Browser": [
+		"http://github.com/neurodebian/pandas"
+	],
+	"Vcs-Git": [
+		"git://github.com/neurodebian/pandas.git"
+	],
+	"Version": [
+		"0.19.2-5.1"
+	]
 }

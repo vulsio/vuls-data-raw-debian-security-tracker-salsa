@@ -1,39 +1,39 @@
 {
-  "header": {
-    "line": "CVE-2010-XXXX [sqlite: info leak]",
-    "name": "TEMP-0566326-9A899F",
-    "description": "[sqlite: info leak]"
-  },
-  "annotations": [
-    {
-      "line": "\t- sqlite3 3.6.21-1 (low; bug #566326)",
-      "type": "package",
-      "package": "sqlite3",
-      "kind": "fixed",
-      "version": "3.6.21-1",
-      "flags": [
-        {
-          "severity": "low"
-        },
-        {
-          "bug": 566326
-        }
-      ]
-    },
-    {
-      "line": "\t[lenny] - sqlite3 <no-dsa> (Minor information leak)",
-      "type": "package",
-      "release": "lenny",
-      "package": "sqlite3",
-      "kind": "no-dsa",
-      "description": "Minor information leak"
-    },
-    {
-      "line": "\t- sqlite <not-affected> (SQLITE_SECURE_DELETE introduced in v3.3.5)",
-      "type": "package",
-      "package": "sqlite",
-      "kind": "not-affected",
-      "description": "SQLITE_SECURE_DELETE introduced in v3.3.5"
-    }
-  ]
+	"header": {
+		"line": "CVE-2010-XXXX [sqlite: info leak]",
+		"name": "TEMP-0566326-9A899F",
+		"description": "[sqlite: info leak]"
+	},
+	"annotations": [
+		{
+			"line": "\t- sqlite3 3.6.21-1 (low; bug #566326)",
+			"type": "package",
+			"package": "sqlite3",
+			"kind": "fixed",
+			"version": "3.6.21-1",
+			"flags": [
+				{
+					"severity": "low"
+				},
+				{
+					"bug": 566326
+				}
+			]
+		},
+		{
+			"line": "\t[lenny] - sqlite3 <no-dsa> (Minor information leak)",
+			"type": "package",
+			"release": "lenny",
+			"package": "sqlite3",
+			"kind": "no-dsa",
+			"description": "Minor information leak"
+		},
+		{
+			"line": "\t- sqlite <not-affected> (SQLITE_SECURE_DELETE introduced in v3.3.5)",
+			"type": "package",
+			"package": "sqlite",
+			"kind": "not-affected",
+			"description": "SQLITE_SECURE_DELETE introduced in v3.3.5"
+		}
+	]
 }

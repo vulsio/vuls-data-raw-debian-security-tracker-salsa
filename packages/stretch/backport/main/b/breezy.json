@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "brz, python-breezy, python3-breezy, python-breezy.tests, python3-breezy.tests, brz-doc"
-  ],
-  "Build-Conflicts": [
-    "python-pyftpdlib"
-  ],
-  "Build-Depends": [
-    "bash-completion, ca-certificates, cython-dbg (>= 0.17) <!nocheck>, dh-python, debhelper (>= 9.20160114), fdupes, python (>= 2.6.6-3), python-all-dbg (>= 2.6.6-3), python-all-dev (>= 2.6.6-3), python-configobj (>= 4.7.2+ds-2), python-coverage, python-dulwich (>= 0.19.8), python-docutils, python-fastimport (>= 0.9.8), python-meliae-dbg, python-paramiko, python-sphinx (>= 1.0.7+dfsg), python-subunit, cython3-dbg (>= 0.17), python3 (>= 2.6.6-3), python3-all-dbg (>= 2.6.6-3), python3-all-dev (>= 2.6.6-3), python3-configobj (>= 4.7.2+ds-2), python3-coverage <!nocheck>, python3-dulwich (>= 0.19.8), python3-docutils, python3-fastimport (>= 0.9.8), python3-paramiko, python3-sphinx (>= 1.0.7+dfsg), python3-subunit <!nocheck>, python3-testtools (>= 0.9.5~) <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "8406038b6b66313b2194bc7c168b105c916b7e50286a60b046a1ee0a6e245a87 3268 breezy_3.0.0~bzr7210-3~bpo9+1.dsc e54e04526f839a08fa93abdf6369e6fd81baf98d19574d3fc4ea1d57227e6061 8516744 breezy_3.0.0~bzr7210.orig.tar.gz 56188563caa07923ba5c357ec7923f329ef8b0f213edc46094c4624ad7fec0c2 623940 breezy_3.0.0~bzr7210-3~bpo9+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/b/breezy"
-  ],
-  "Files": [
-    "c27c18348685043217e424ffdcd4f659 3268 breezy_3.0.0~bzr7210-3~bpo9+1.dsc 759afc287798427ef7b96c842c3d75ac 8516744 breezy_3.0.0~bzr7210.orig.tar.gz e08f60d166c9820669765608250dcaf8 623940 breezy_3.0.0~bzr7210-3~bpo9+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.breezy-vcs.org/"
-  ],
-  "Maintainer": [
-    "Debian Breezy Maintainers <pkg-bazaar-maint@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "breezy"
-  ],
-  "Package-List": [
-    "brz deb vcs optional arch=all brz-doc deb doc optional arch=all python-breezy deb python optional arch=any python-breezy.tests deb python optional arch=all python3-breezy deb python optional arch=any python3-breezy.tests deb python optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.2.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "ca-certificates, python-coverage, python-dulwich, python-lzma, python-meliae, python-subunit, python3-coverage, python3-dulwich, python3-subunit"
-  ],
-  "Uploaders": [
-    "Jelmer Vernooĳ <jelmer@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://code.breezy-vcs.org/breezy/unstable"
-  ],
-  "Vcs-Bzr": [
-    "https://code.breezy-vcs.org/breezy/unstable"
-  ],
-  "Version": [
-    "3.0.0~bzr7210-3~bpo9+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"brz, python-breezy, python3-breezy, python-breezy.tests, python3-breezy.tests, brz-doc"
+	],
+	"Build-Conflicts": [
+		"python-pyftpdlib"
+	],
+	"Build-Depends": [
+		"bash-completion, ca-certificates, cython-dbg (>= 0.17) <!nocheck>, dh-python, debhelper (>= 9.20160114), fdupes, python (>= 2.6.6-3), python-all-dbg (>= 2.6.6-3), python-all-dev (>= 2.6.6-3), python-configobj (>= 4.7.2+ds-2), python-coverage, python-dulwich (>= 0.19.8), python-docutils, python-fastimport (>= 0.9.8), python-meliae-dbg, python-paramiko, python-sphinx (>= 1.0.7+dfsg), python-subunit, cython3-dbg (>= 0.17), python3 (>= 2.6.6-3), python3-all-dbg (>= 2.6.6-3), python3-all-dev (>= 2.6.6-3), python3-configobj (>= 4.7.2+ds-2), python3-coverage <!nocheck>, python3-dulwich (>= 0.19.8), python3-docutils, python3-fastimport (>= 0.9.8), python3-paramiko, python3-sphinx (>= 1.0.7+dfsg), python3-subunit <!nocheck>, python3-testtools (>= 0.9.5~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"8406038b6b66313b2194bc7c168b105c916b7e50286a60b046a1ee0a6e245a87 3268 breezy_3.0.0~bzr7210-3~bpo9+1.dsc e54e04526f839a08fa93abdf6369e6fd81baf98d19574d3fc4ea1d57227e6061 8516744 breezy_3.0.0~bzr7210.orig.tar.gz 56188563caa07923ba5c357ec7923f329ef8b0f213edc46094c4624ad7fec0c2 623940 breezy_3.0.0~bzr7210-3~bpo9+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/b/breezy"
+	],
+	"Files": [
+		"c27c18348685043217e424ffdcd4f659 3268 breezy_3.0.0~bzr7210-3~bpo9+1.dsc 759afc287798427ef7b96c842c3d75ac 8516744 breezy_3.0.0~bzr7210.orig.tar.gz e08f60d166c9820669765608250dcaf8 623940 breezy_3.0.0~bzr7210-3~bpo9+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.breezy-vcs.org/"
+	],
+	"Maintainer": [
+		"Debian Breezy Maintainers <pkg-bazaar-maint@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"breezy"
+	],
+	"Package-List": [
+		"brz deb vcs optional arch=all brz-doc deb doc optional arch=all python-breezy deb python optional arch=any python-breezy.tests deb python optional arch=all python3-breezy deb python optional arch=any python3-breezy.tests deb python optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.2.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"ca-certificates, python-coverage, python-dulwich, python-lzma, python-meliae, python-subunit, python3-coverage, python3-dulwich, python3-subunit"
+	],
+	"Uploaders": [
+		"Jelmer Vernooĳ <jelmer@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://code.breezy-vcs.org/breezy/unstable"
+	],
+	"Vcs-Bzr": [
+		"https://code.breezy-vcs.org/breezy/unstable"
+	],
+	"Version": [
+		"3.0.0~bzr7210-3~bpo9+1"
+	]
 }

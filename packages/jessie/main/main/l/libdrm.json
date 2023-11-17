@@ -1,53 +1,53 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "libdrm-dev, libdrm2, libdrm2-udeb, libdrm2-dbg, libdrm-intel1, libdrm-intel1-dbg, libdrm-nouveau2, libdrm-nouveau2-dbg, libdrm-radeon1, libdrm-radeon1-dbg, libdrm-omap1, libdrm-omap1-dbg, libdrm-freedreno1, libdrm-freedreno1-dbg, libdrm-exynos1, libdrm-exynos1-dbg"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-autoreconf, quilt, xsltproc, docbook-xsl, libx11-dev, pkg-config, libpthread-stubs0-dev, libudev-dev [linux-any], libpciaccess-dev, valgrind [amd64 armhf i386 mips mipsel powerpc s390x], libbsd-dev [kfreebsd-any]"
-  ],
-  "Checksums-Sha1": [
-    "4c97df12c5c513f30239aedaef3e83c760d73cbf 3002 libdrm_2.4.58-2.dsc a53df9c326062f0ab0da8cfb8ccc843fe1accedc 732395 libdrm_2.4.58.orig.tar.gz 5d3241b6a702d5e689f7ead7f6b686df9100ac10 18700 libdrm_2.4.58-2.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "1286092e26403ea459a77df792fabfcad35ae68c05313d60362947d8eaa04c72 3002 libdrm_2.4.58-2.dsc e6f6901b0dd431d4e21f6e81ae5a5aef65885ed5f066e8d9751ca69ba9a71186 732395 libdrm_2.4.58.orig.tar.gz 51f9a553461a26cd3757c05e792187c3fdec4744cefda6ce1e103f201ef7c0f0 18700 libdrm_2.4.58-2.diff.gz"
-  ],
-  "Directory": [
-    "pool/main/libd/libdrm"
-  ],
-  "Files": [
-    "3dfa54daf5f997f568ce20f0986b5ccf 3002 libdrm_2.4.58-2.dsc e56c0c79f7b17f761b0287b25b500cce 732395 libdrm_2.4.58.orig.tar.gz 7ef61f8a344e529e087647d5571b1401 18700 libdrm_2.4.58-2.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Maintainer": [
-    "Debian X Strike Force <debian-x@lists.debian.org>"
-  ],
-  "Package": [
-    "libdrm"
-  ],
-  "Package-List": [
-    "libdrm-dev deb libdevel optional arch=any libdrm-exynos1 deb libs optional arch=any-arm libdrm-exynos1-dbg deb debug extra arch=any-arm libdrm-freedreno1 deb libs optional arch=any-arm libdrm-freedreno1-dbg deb debug extra arch=any-arm libdrm-intel1 deb libs optional arch=amd64,i386,kfreebsd-amd64,kfreebsd-i386,x32 libdrm-intel1-dbg deb debug extra arch=amd64,i386,kfreebsd-amd64,kfreebsd-i386,x32 libdrm-nouveau2 deb libs optional arch=linux-any libdrm-nouveau2-dbg deb debug extra arch=linux-any libdrm-omap1 deb libs optional arch=any-arm libdrm-omap1-dbg deb debug extra arch=any-arm libdrm-radeon1 deb libs optional arch=any libdrm-radeon1-dbg deb debug extra arch=any libdrm2 deb libs optional arch=any libdrm2-dbg deb debug extra arch=any libdrm2-udeb udeb debian-installer optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "libs"
-  ],
-  "Standards-Version": [
-    "3.9.4"
-  ],
-  "Vcs-Browser": [
-    "http://git.debian.org/?p=pkg-xorg/lib/libdrm.git"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/git/pkg-xorg/lib/libdrm"
-  ],
-  "Version": [
-    "2.4.58-2"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"libdrm-dev, libdrm2, libdrm2-udeb, libdrm2-dbg, libdrm-intel1, libdrm-intel1-dbg, libdrm-nouveau2, libdrm-nouveau2-dbg, libdrm-radeon1, libdrm-radeon1-dbg, libdrm-omap1, libdrm-omap1-dbg, libdrm-freedreno1, libdrm-freedreno1-dbg, libdrm-exynos1, libdrm-exynos1-dbg"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-autoreconf, quilt, xsltproc, docbook-xsl, libx11-dev, pkg-config, libpthread-stubs0-dev, libudev-dev [linux-any], libpciaccess-dev, valgrind [amd64 armhf i386 mips mipsel powerpc s390x], libbsd-dev [kfreebsd-any]"
+	],
+	"Checksums-Sha1": [
+		"4c97df12c5c513f30239aedaef3e83c760d73cbf 3002 libdrm_2.4.58-2.dsc a53df9c326062f0ab0da8cfb8ccc843fe1accedc 732395 libdrm_2.4.58.orig.tar.gz 5d3241b6a702d5e689f7ead7f6b686df9100ac10 18700 libdrm_2.4.58-2.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"1286092e26403ea459a77df792fabfcad35ae68c05313d60362947d8eaa04c72 3002 libdrm_2.4.58-2.dsc e6f6901b0dd431d4e21f6e81ae5a5aef65885ed5f066e8d9751ca69ba9a71186 732395 libdrm_2.4.58.orig.tar.gz 51f9a553461a26cd3757c05e792187c3fdec4744cefda6ce1e103f201ef7c0f0 18700 libdrm_2.4.58-2.diff.gz"
+	],
+	"Directory": [
+		"pool/main/libd/libdrm"
+	],
+	"Files": [
+		"3dfa54daf5f997f568ce20f0986b5ccf 3002 libdrm_2.4.58-2.dsc e56c0c79f7b17f761b0287b25b500cce 732395 libdrm_2.4.58.orig.tar.gz 7ef61f8a344e529e087647d5571b1401 18700 libdrm_2.4.58-2.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Maintainer": [
+		"Debian X Strike Force <debian-x@lists.debian.org>"
+	],
+	"Package": [
+		"libdrm"
+	],
+	"Package-List": [
+		"libdrm-dev deb libdevel optional arch=any libdrm-exynos1 deb libs optional arch=any-arm libdrm-exynos1-dbg deb debug extra arch=any-arm libdrm-freedreno1 deb libs optional arch=any-arm libdrm-freedreno1-dbg deb debug extra arch=any-arm libdrm-intel1 deb libs optional arch=amd64,i386,kfreebsd-amd64,kfreebsd-i386,x32 libdrm-intel1-dbg deb debug extra arch=amd64,i386,kfreebsd-amd64,kfreebsd-i386,x32 libdrm-nouveau2 deb libs optional arch=linux-any libdrm-nouveau2-dbg deb debug extra arch=linux-any libdrm-omap1 deb libs optional arch=any-arm libdrm-omap1-dbg deb debug extra arch=any-arm libdrm-radeon1 deb libs optional arch=any libdrm-radeon1-dbg deb debug extra arch=any libdrm2 deb libs optional arch=any libdrm2-dbg deb debug extra arch=any libdrm2-udeb udeb debian-installer optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"libs"
+	],
+	"Standards-Version": [
+		"3.9.4"
+	],
+	"Vcs-Browser": [
+		"http://git.debian.org/?p=pkg-xorg/lib/libdrm.git"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/git/pkg-xorg/lib/libdrm"
+	],
+	"Version": [
+		"2.4.58-2"
+	]
 }

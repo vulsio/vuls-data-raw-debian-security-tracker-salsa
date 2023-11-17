@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "haproxy, haproxy-dbg, haproxy-doc, vim-haproxy"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), libpcre3-dev, libssl-dev (>= 1.0.2), liblua5.3-dev, dh-systemd (>= 1.5), python-sphinx (>= 1.0.7+dfsg), zlib1g-dev"
-  ],
-  "Build-Depends-Indep": [
-    "python, python-mako"
-  ],
-  "Checksums-Sha1": [
-    "c050be2251d91f75937875692b9d8f1fd6cb3a0b 2389 haproxy_1.7.5-2~bpo8+1.dsc 1b06931b9fd83ba64ef59a25b9ce6275b0f67809 1743979 haproxy_1.7.5.orig.tar.gz ecbc27d38e0ec626ce6fe68c949497ee38321d28 63356 haproxy_1.7.5-2~bpo8+1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "cbbec1af4ac974d050f6b19e3ee9f8c119625f36cb8f760463ffe7107e6f97de 2389 haproxy_1.7.5-2~bpo8+1.dsc b04d7db6383c662eb0a421a95af7becac6d9744a1abf0df6b0280c1e61416121 1743979 haproxy_1.7.5.orig.tar.gz 6092d988892064fc60aa50133c046e0e6855ca74d512c770ef364dad397108ed 63356 haproxy_1.7.5-2~bpo8+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/h/haproxy"
-  ],
-  "Files": [
-    "9218e5279d9826c90dc3090d4d5aa42a 2389 haproxy_1.7.5-2~bpo8+1.dsc ed84c80cb97852d2aa3161ed16c48a1c 1743979 haproxy_1.7.5.orig.tar.gz db49770270a8297551e0658e8ad5613f 63356 haproxy_1.7.5-2~bpo8+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.haproxy.org/"
-  ],
-  "Maintainer": [
-    "Debian HAProxy Maintainers <pkg-haproxy-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "haproxy"
-  ],
-  "Package-List": [
-    "haproxy deb net optional arch=any haproxy-dbg deb debug extra arch=any haproxy-doc deb doc extra arch=all vim-haproxy deb net optional arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Apollon Oikonomopoulos <apoikos@debian.org>, Prach Pongpanich <prach@debian.org>, Vincent Bernat <bernat@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/gitweb/?p=pkg-haproxy/haproxy.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-haproxy/haproxy.git"
-  ],
-  "Version": [
-    "1.7.5-2~bpo8+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"haproxy, haproxy-dbg, haproxy-doc, vim-haproxy"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), libpcre3-dev, libssl-dev (>= 1.0.2), liblua5.3-dev, dh-systemd (>= 1.5), python-sphinx (>= 1.0.7+dfsg), zlib1g-dev"
+	],
+	"Build-Depends-Indep": [
+		"python, python-mako"
+	],
+	"Checksums-Sha1": [
+		"c050be2251d91f75937875692b9d8f1fd6cb3a0b 2389 haproxy_1.7.5-2~bpo8+1.dsc 1b06931b9fd83ba64ef59a25b9ce6275b0f67809 1743979 haproxy_1.7.5.orig.tar.gz ecbc27d38e0ec626ce6fe68c949497ee38321d28 63356 haproxy_1.7.5-2~bpo8+1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"cbbec1af4ac974d050f6b19e3ee9f8c119625f36cb8f760463ffe7107e6f97de 2389 haproxy_1.7.5-2~bpo8+1.dsc b04d7db6383c662eb0a421a95af7becac6d9744a1abf0df6b0280c1e61416121 1743979 haproxy_1.7.5.orig.tar.gz 6092d988892064fc60aa50133c046e0e6855ca74d512c770ef364dad397108ed 63356 haproxy_1.7.5-2~bpo8+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/h/haproxy"
+	],
+	"Files": [
+		"9218e5279d9826c90dc3090d4d5aa42a 2389 haproxy_1.7.5-2~bpo8+1.dsc ed84c80cb97852d2aa3161ed16c48a1c 1743979 haproxy_1.7.5.orig.tar.gz db49770270a8297551e0658e8ad5613f 63356 haproxy_1.7.5-2~bpo8+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.haproxy.org/"
+	],
+	"Maintainer": [
+		"Debian HAProxy Maintainers <pkg-haproxy-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"haproxy"
+	],
+	"Package-List": [
+		"haproxy deb net optional arch=any haproxy-dbg deb debug extra arch=any haproxy-doc deb doc extra arch=all vim-haproxy deb net optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Apollon Oikonomopoulos <apoikos@debian.org>, Prach Pongpanich <prach@debian.org>, Vincent Bernat <bernat@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/gitweb/?p=pkg-haproxy/haproxy.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-haproxy/haproxy.git"
+	],
+	"Version": [
+		"1.7.5-2~bpo8+1"
+	]
 }

@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "libremctl1, libremctl-dev, remctl-client, remctl-server, libnet-remctl-perl, php5-remctl, python-remctl, ruby-remctl"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-autoreconf, dpkg-dev (>= 1.14.9), gem2deb (>= 0.4.1~), krb5-config, libevent-dev, libkrb5-dev, libpcre3-dev, libperl-critic-perl, libsystemd-daemon-dev [linux-any], libtest-pod-perl, libtest-minimumversion-perl, libtest-pod-coverage-perl, libtest-strict-perl, libtest-synopsis-perl, perl, php5-cli, php5-dev, pkg-config, python-all-dev"
-  ],
-  "Checksums-Sha1": [
-    "1bd80fc26b702d78445349d703d7ccf32c861847 2230 remctl_3.9-1.dsc 622e4e60d7e9934ac4b74d0a6b4949214d982116 537104 remctl_3.9.orig.tar.xz 5dbb836843a1fff58ddf748a62887b0acd13441a 23372 remctl_3.9-1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "e0972d01bb7d298acd3397eba33d6cdaf11d7beb99311131dde43aece579eceb 2230 remctl_3.9-1.dsc a91fe2eb4d83227f6d464b2c697a5eee37a581a06d884c6ce9a39eb232c87ca3 537104 remctl_3.9.orig.tar.xz 12da491e9dbd803dd9013cf273e2b975e7cf79a9661beae7a6ec59e642db3f37 23372 remctl_3.9-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/remctl"
-  ],
-  "Files": [
-    "5b7d8bc777a2f90bb4dda6575409f99c 2230 remctl_3.9-1.dsc bc6755a168d7ee1f59169414a73f3cdc 537104 remctl_3.9.orig.tar.xz 84f848ffe527bb68edd4dcf324ab6f48 23372 remctl_3.9-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.eyrie.org/~eagle/software/remctl/"
-  ],
-  "Maintainer": [
-    "Russ Allbery <rra@debian.org>"
-  ],
-  "Package": [
-    "remctl"
-  ],
-  "Package-List": [
-    "libnet-remctl-perl deb perl optional arch=any libremctl-dev deb libdevel extra arch=any libremctl1 deb libs optional arch=any php5-remctl deb php optional arch=any python-remctl deb python optional arch=any remctl-client deb net optional arch=any remctl-server deb net optional arch=any ruby-remctl deb ruby optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Python-Version": [
-    ">= 2.6"
-  ],
-  "Ruby-Versions": [
-    "all"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Vcs-Browser": [
-    "http://git.eyrie.org/?p=kerberos/remctl.git"
-  ],
-  "Vcs-Git": [
-    "git://git.eyrie.org/kerberos/remctl.git -b debian"
-  ],
-  "Version": [
-    "3.9-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"libremctl1, libremctl-dev, remctl-client, remctl-server, libnet-remctl-perl, php5-remctl, python-remctl, ruby-remctl"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-autoreconf, dpkg-dev (>= 1.14.9), gem2deb (>= 0.4.1~), krb5-config, libevent-dev, libkrb5-dev, libpcre3-dev, libperl-critic-perl, libsystemd-daemon-dev [linux-any], libtest-pod-perl, libtest-minimumversion-perl, libtest-pod-coverage-perl, libtest-strict-perl, libtest-synopsis-perl, perl, php5-cli, php5-dev, pkg-config, python-all-dev"
+	],
+	"Checksums-Sha1": [
+		"1bd80fc26b702d78445349d703d7ccf32c861847 2230 remctl_3.9-1.dsc 622e4e60d7e9934ac4b74d0a6b4949214d982116 537104 remctl_3.9.orig.tar.xz 5dbb836843a1fff58ddf748a62887b0acd13441a 23372 remctl_3.9-1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"e0972d01bb7d298acd3397eba33d6cdaf11d7beb99311131dde43aece579eceb 2230 remctl_3.9-1.dsc a91fe2eb4d83227f6d464b2c697a5eee37a581a06d884c6ce9a39eb232c87ca3 537104 remctl_3.9.orig.tar.xz 12da491e9dbd803dd9013cf273e2b975e7cf79a9661beae7a6ec59e642db3f37 23372 remctl_3.9-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/remctl"
+	],
+	"Files": [
+		"5b7d8bc777a2f90bb4dda6575409f99c 2230 remctl_3.9-1.dsc bc6755a168d7ee1f59169414a73f3cdc 537104 remctl_3.9.orig.tar.xz 84f848ffe527bb68edd4dcf324ab6f48 23372 remctl_3.9-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.eyrie.org/~eagle/software/remctl/"
+	],
+	"Maintainer": [
+		"Russ Allbery <rra@debian.org>"
+	],
+	"Package": [
+		"remctl"
+	],
+	"Package-List": [
+		"libnet-remctl-perl deb perl optional arch=any libremctl-dev deb libdevel extra arch=any libremctl1 deb libs optional arch=any php5-remctl deb php optional arch=any python-remctl deb python optional arch=any remctl-client deb net optional arch=any remctl-server deb net optional arch=any ruby-remctl deb ruby optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Python-Version": [
+		">= 2.6"
+	],
+	"Ruby-Versions": [
+		"all"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Vcs-Browser": [
+		"http://git.eyrie.org/?p=kerberos/remctl.git"
+	],
+	"Vcs-Git": [
+		"git://git.eyrie.org/kerberos/remctl.git -b debian"
+	],
+	"Version": [
+		"3.9-1"
+	]
 }

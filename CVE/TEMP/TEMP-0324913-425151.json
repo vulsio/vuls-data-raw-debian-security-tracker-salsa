@@ -1,40 +1,40 @@
 {
-  "header": {
-    "line": "CVE-2005-XXXX [cplay - still unsafe temporary file handling vulnerable to symlink attacks]",
-    "name": "TEMP-0324913-425151",
-    "description": "[cplay - still unsafe temporary file handling vulnerable to symlink attacks]"
-  },
-  "annotations": [
-    {
-      "line": "\t- cplay 1.49-8 (bug #324913; low)",
-      "type": "package",
-      "package": "cplay",
-      "kind": "fixed",
-      "version": "1.49-8",
-      "flags": [
-        {
-          "bug": 324913
-        },
-        {
-          "severity": "low"
-        }
-      ]
-    },
-    {
-      "line": "\t[woody] - cplay <not-affected> (CPLAY_TMP doesn't exist in this version)",
-      "type": "package",
-      "release": "woody",
-      "package": "cplay",
-      "kind": "not-affected",
-      "description": "CPLAY_TMP doesn't exist in this version"
-    },
-    {
-      "line": "\t[sarge] - cplay <no-dsa> (Hardly exploitable)",
-      "type": "package",
-      "release": "sarge",
-      "package": "cplay",
-      "kind": "no-dsa",
-      "description": "Hardly exploitable"
-    }
-  ]
+	"header": {
+		"line": "CVE-2005-XXXX [cplay - still unsafe temporary file handling vulnerable to symlink attacks]",
+		"name": "TEMP-0324913-425151",
+		"description": "[cplay - still unsafe temporary file handling vulnerable to symlink attacks]"
+	},
+	"annotations": [
+		{
+			"line": "\t- cplay 1.49-8 (bug #324913; low)",
+			"type": "package",
+			"package": "cplay",
+			"kind": "fixed",
+			"version": "1.49-8",
+			"flags": [
+				{
+					"bug": 324913
+				},
+				{
+					"severity": "low"
+				}
+			]
+		},
+		{
+			"line": "\t[woody] - cplay <not-affected> (CPLAY_TMP doesn't exist in this version)",
+			"type": "package",
+			"release": "woody",
+			"package": "cplay",
+			"kind": "not-affected",
+			"description": "CPLAY_TMP doesn't exist in this version"
+		},
+		{
+			"line": "\t[sarge] - cplay <no-dsa> (Hardly exploitable)",
+			"type": "package",
+			"release": "sarge",
+			"package": "cplay",
+			"kind": "no-dsa",
+			"description": "Hardly exploitable"
+		}
+	]
 }

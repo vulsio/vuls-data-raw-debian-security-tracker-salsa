@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "rrdtool, rrdcached, rrdtool-dbg, librrd4, librrd-dev, librrds-perl, librrdp-perl, rrdtool-tcl, python-rrdtool, ruby-rrd, librrd-ruby, librrd-ruby1.8, librrd-ruby1.9.1, liblua5.1-rrd0, liblua5.1-rrd-dev"
-  ],
-  "Build-Conflicts": [
-    "lua50"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), groff, autotools-dev, dh-autoreconf, gettext, quilt, zlib1g-dev, libpng12-dev, libcairo2-dev, libpango1.0-dev, libfreetype6-dev, libdbi0-dev, libxml2-dev, tcl-dev (>= 8), tcl-dev (<= 9), perl (>= 5.8.0), python-all-dev (>= 2.6.6-3~), python-all-dbg (>= 2.6.6-3~), gem2deb, liblua5.1-0-dev, lua5.1"
-  ],
-  "Checksums-Sha1": [
-    "5a33f2109f3a8ac99767fa127e853dc39232b3ba 3117 rrdtool_1.4.8-1.2+deb8u2.dsc 56d68857f39e70bfa32360947614d8220702ed02 1379482 rrdtool_1.4.8.orig.tar.gz 6d6c125646d766097aeb9a3989c6a0d9836d2a6c 29843 rrdtool_1.4.8-1.2+deb8u2.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "d56e97986910768ea2b2579e0e53288b70ae24900ad2d9ee5abda0285ec0cf12 3117 rrdtool_1.4.8-1.2+deb8u2.dsc de95b9f5aa488b0683600aad5a07c316f8d98cbe8d00aa0a1c87e2b2ef89f3d6 1379482 rrdtool_1.4.8.orig.tar.gz faf3daa479a70adc9d794a46a5eedb362c03f60ccb3805c6abaa18c3bd448035 29843 rrdtool_1.4.8-1.2+deb8u2.diff.gz"
-  ],
-  "Directory": [
-    "pool/updates/main/r/rrdtool"
-  ],
-  "Files": [
-    "c05458faaa9f66675a2c9ecb06c93db7 3117 rrdtool_1.4.8-1.2+deb8u2.dsc dbe59386db97fd2f2216729facd74ca8 1379482 rrdtool_1.4.8.orig.tar.gz cdf4d22fb141a1309f6df7f37fec0ebe 29843 rrdtool_1.4.8-1.2+deb8u2.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Homepage": [
-    "http://oss.oetiker.ch/rrdtool/"
-  ],
-  "Maintainer": [
-    "Debian RRDtool Team <rrdtool@ml.snow-crash.org>"
-  ],
-  "Package": [
-    "rrdtool"
-  ],
-  "Package-List": [
-    "liblua5.1-rrd-dev deb libdevel optional arch=any liblua5.1-rrd0 deb interpreters optional arch=any librrd-dev deb libdevel optional arch=any librrd-ruby deb oldlibs extra arch=all librrd-ruby1.8 deb oldlibs extra arch=all librrd-ruby1.9.1 deb oldlibs extra arch=all librrd4 deb libs optional arch=any librrdp-perl deb perl optional arch=all librrds-perl deb perl optional arch=any python-rrdtool deb python optional arch=any rrdcached deb utils optional arch=any rrdtool deb utils optional arch=any rrdtool-dbg deb debug extra arch=any rrdtool-tcl deb utils optional arch=any ruby-rrd deb ruby optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Ruby-Versions": [
-    "all"
-  ],
-  "Section": [
-    "utils"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Uploaders": [
-    "Sebastian Harl <tokkee@debian.org>, Alexander Wirt <formorer@debian.org>, Bernd Zeimetz <bzed@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://git.snow-crash.org/?p=pkg-rrdtool.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "git://git.snow-crash.org/pkg-rrdtool.git/"
-  ],
-  "Version": [
-    "1.4.8-1.2+deb8u2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"rrdtool, rrdcached, rrdtool-dbg, librrd4, librrd-dev, librrds-perl, librrdp-perl, rrdtool-tcl, python-rrdtool, ruby-rrd, librrd-ruby, librrd-ruby1.8, librrd-ruby1.9.1, liblua5.1-rrd0, liblua5.1-rrd-dev"
+	],
+	"Build-Conflicts": [
+		"lua50"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), groff, autotools-dev, dh-autoreconf, gettext, quilt, zlib1g-dev, libpng12-dev, libcairo2-dev, libpango1.0-dev, libfreetype6-dev, libdbi0-dev, libxml2-dev, tcl-dev (>= 8), tcl-dev (<= 9), perl (>= 5.8.0), python-all-dev (>= 2.6.6-3~), python-all-dbg (>= 2.6.6-3~), gem2deb, liblua5.1-0-dev, lua5.1"
+	],
+	"Checksums-Sha1": [
+		"5a33f2109f3a8ac99767fa127e853dc39232b3ba 3117 rrdtool_1.4.8-1.2+deb8u2.dsc 56d68857f39e70bfa32360947614d8220702ed02 1379482 rrdtool_1.4.8.orig.tar.gz 6d6c125646d766097aeb9a3989c6a0d9836d2a6c 29843 rrdtool_1.4.8-1.2+deb8u2.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"d56e97986910768ea2b2579e0e53288b70ae24900ad2d9ee5abda0285ec0cf12 3117 rrdtool_1.4.8-1.2+deb8u2.dsc de95b9f5aa488b0683600aad5a07c316f8d98cbe8d00aa0a1c87e2b2ef89f3d6 1379482 rrdtool_1.4.8.orig.tar.gz faf3daa479a70adc9d794a46a5eedb362c03f60ccb3805c6abaa18c3bd448035 29843 rrdtool_1.4.8-1.2+deb8u2.diff.gz"
+	],
+	"Directory": [
+		"pool/updates/main/r/rrdtool"
+	],
+	"Files": [
+		"c05458faaa9f66675a2c9ecb06c93db7 3117 rrdtool_1.4.8-1.2+deb8u2.dsc dbe59386db97fd2f2216729facd74ca8 1379482 rrdtool_1.4.8.orig.tar.gz cdf4d22fb141a1309f6df7f37fec0ebe 29843 rrdtool_1.4.8-1.2+deb8u2.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Homepage": [
+		"http://oss.oetiker.ch/rrdtool/"
+	],
+	"Maintainer": [
+		"Debian RRDtool Team <rrdtool@ml.snow-crash.org>"
+	],
+	"Package": [
+		"rrdtool"
+	],
+	"Package-List": [
+		"liblua5.1-rrd-dev deb libdevel optional arch=any liblua5.1-rrd0 deb interpreters optional arch=any librrd-dev deb libdevel optional arch=any librrd-ruby deb oldlibs extra arch=all librrd-ruby1.8 deb oldlibs extra arch=all librrd-ruby1.9.1 deb oldlibs extra arch=all librrd4 deb libs optional arch=any librrdp-perl deb perl optional arch=all librrds-perl deb perl optional arch=any python-rrdtool deb python optional arch=any rrdcached deb utils optional arch=any rrdtool deb utils optional arch=any rrdtool-dbg deb debug extra arch=any rrdtool-tcl deb utils optional arch=any ruby-rrd deb ruby optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Ruby-Versions": [
+		"all"
+	],
+	"Section": [
+		"utils"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Uploaders": [
+		"Sebastian Harl <tokkee@debian.org>, Alexander Wirt <formorer@debian.org>, Bernd Zeimetz <bzed@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://git.snow-crash.org/?p=pkg-rrdtool.git;a=summary"
+	],
+	"Vcs-Git": [
+		"git://git.snow-crash.org/pkg-rrdtool.git/"
+	],
+	"Version": [
+		"1.4.8-1.2+deb8u2"
+	]
 }

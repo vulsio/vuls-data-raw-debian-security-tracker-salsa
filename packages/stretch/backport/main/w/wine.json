@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any-i386 any-powerpc all armel armhf amd64 arm64"
-  ],
-  "Binary": [
-    "wine, wine32, wine64, wine32-preloader, wine64-preloader, wine32-tools, wine64-tools, libwine, libwine-dev, wine-binfmt, fonts-wine"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 11~), clang-6.0 [arm64], oss4-dev [kfreebsd-any], freebsd-glue [kfreebsd-any], lzma, flex, bison, quilt, gettext, icoutils, sharutils, pkg-config, dctrl-tools, imagemagick, librsvg2-bin, fontforge-nox, khronos-api (>= 4.6), unicode-data (>= 11), unicode-data (<< 13), libxi-dev, libxt-dev, libxmu-dev, libx11-dev, libxext-dev, libxfixes-dev, libxrandr-dev, libxcursor-dev, libxrender-dev, libxkbfile-dev, libxxf86vm-dev, libxxf86dga-dev, libxinerama-dev, libgl1-mesa-dev, libglu1-mesa-dev, libxcomposite-dev, libxml-simple-perl, libxml-parser-perl, libpng-dev, libssl-dev, libv4l-dev [linux-any kfreebsd-any], libsdl2-dev, libxml2-dev, libgsm1-dev, libjpeg-dev, libkrb5-dev, libtiff-dev, libudev-dev [linux-any], libpulse-dev [!kfreebsd-any], liblcms2-dev, libldap2-dev, libxslt1-dev, unixodbc-dev, libcups2-dev, libcapi20-dev [linux-any], libopenal-dev, libdbus-1-dev, freeglut3-dev, libmpg123-dev, libasound2-dev, libgphoto2-dev, libosmesa6-dev, libpcap0.8-dev, libgnutls28-dev, libncurses5-dev, libgettextpo-dev, libfreetype6-dev (>= 2.6.2), libfontconfig1-dev, ocl-icd-opencl-dev, libgstreamer-plugins-base1.0-dev"
-  ],
-  "Checksums-Sha256": [
-    "f15cf375a1dff73557e99bb11660e038c9d5dd44970353eb2cca9c62a9ea2f04 3859 wine_4.0-2~bpo9+1.dsc decaac4ecd5160b4bf79385a790dbb72e3650214f2e3023429423264ca1ca2c9 19888584 wine_4.0.orig.tar.xz b195ae954dad04c6d76c9bb2637560f4814abdb392e92bbbe48e034bb9882fcb 192908 wine_4.0-2~bpo9+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/w/wine"
-  ],
-  "Files": [
-    "46382d6e47d3587533a1e050d0603a63 3859 wine_4.0-2~bpo9+1.dsc 25ab35ae601b79ff15d09b67805677d4 19888584 wine_4.0.orig.tar.xz 71fdac6b4791b5f8f3b3c5721b3de4ad 192908 wine_4.0-2~bpo9+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.winehq.org"
-  ],
-  "Maintainer": [
-    "Debian Wine Party <debian-wine@lists.debian.org>"
-  ],
-  "Package": [
-    "wine"
-  ],
-  "Package-List": [
-    "fonts-wine deb fonts optional arch=all libwine deb libs optional arch=amd64,any-i386,any-powerpc,armel,armhf,arm64 libwine-dev deb libdevel optional arch=amd64,any-i386,any-powerpc,armel,armhf,arm64 wine deb otherosfs optional arch=all wine-binfmt deb otherosfs optional arch=all wine32 deb otherosfs optional arch=any-i386,any-powerpc,armel,armhf wine32-preloader deb otherosfs optional arch=i386,powerpc,armel,armhf wine32-tools deb libdevel optional arch=any-i386,any-powerpc,armel,armhf wine64 deb otherosfs optional arch=amd64,arm64 wine64-preloader deb otherosfs optional arch=amd64,arm64 wine64-tools deb libdevel optional arch=amd64,arm64"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.3.0"
-  ],
-  "Uploaders": [
-    "Michael Gilbert <mgilbert@debian.org>, Stephen Kitt <skitt@debian.org>, Jens Reyer <jre.winesim@gmail.com>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/wine-team/wine/tree/buster"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/wine-team/wine.git -b buster"
-  ],
-  "Version": [
-    "4.0-2~bpo9+1"
-  ]
+	"Architecture": [
+		"any-i386 any-powerpc all armel armhf amd64 arm64"
+	],
+	"Binary": [
+		"wine, wine32, wine64, wine32-preloader, wine64-preloader, wine32-tools, wine64-tools, libwine, libwine-dev, wine-binfmt, fonts-wine"
+	],
+	"Build-Depends": [
+		"debhelper (>= 11~), clang-6.0 [arm64], oss4-dev [kfreebsd-any], freebsd-glue [kfreebsd-any], lzma, flex, bison, quilt, gettext, icoutils, sharutils, pkg-config, dctrl-tools, imagemagick, librsvg2-bin, fontforge-nox, khronos-api (>= 4.6), unicode-data (>= 11), unicode-data (<< 13), libxi-dev, libxt-dev, libxmu-dev, libx11-dev, libxext-dev, libxfixes-dev, libxrandr-dev, libxcursor-dev, libxrender-dev, libxkbfile-dev, libxxf86vm-dev, libxxf86dga-dev, libxinerama-dev, libgl1-mesa-dev, libglu1-mesa-dev, libxcomposite-dev, libxml-simple-perl, libxml-parser-perl, libpng-dev, libssl-dev, libv4l-dev [linux-any kfreebsd-any], libsdl2-dev, libxml2-dev, libgsm1-dev, libjpeg-dev, libkrb5-dev, libtiff-dev, libudev-dev [linux-any], libpulse-dev [!kfreebsd-any], liblcms2-dev, libldap2-dev, libxslt1-dev, unixodbc-dev, libcups2-dev, libcapi20-dev [linux-any], libopenal-dev, libdbus-1-dev, freeglut3-dev, libmpg123-dev, libasound2-dev, libgphoto2-dev, libosmesa6-dev, libpcap0.8-dev, libgnutls28-dev, libncurses5-dev, libgettextpo-dev, libfreetype6-dev (>= 2.6.2), libfontconfig1-dev, ocl-icd-opencl-dev, libgstreamer-plugins-base1.0-dev"
+	],
+	"Checksums-Sha256": [
+		"f15cf375a1dff73557e99bb11660e038c9d5dd44970353eb2cca9c62a9ea2f04 3859 wine_4.0-2~bpo9+1.dsc decaac4ecd5160b4bf79385a790dbb72e3650214f2e3023429423264ca1ca2c9 19888584 wine_4.0.orig.tar.xz b195ae954dad04c6d76c9bb2637560f4814abdb392e92bbbe48e034bb9882fcb 192908 wine_4.0-2~bpo9+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/w/wine"
+	],
+	"Files": [
+		"46382d6e47d3587533a1e050d0603a63 3859 wine_4.0-2~bpo9+1.dsc 25ab35ae601b79ff15d09b67805677d4 19888584 wine_4.0.orig.tar.xz 71fdac6b4791b5f8f3b3c5721b3de4ad 192908 wine_4.0-2~bpo9+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.winehq.org"
+	],
+	"Maintainer": [
+		"Debian Wine Party <debian-wine@lists.debian.org>"
+	],
+	"Package": [
+		"wine"
+	],
+	"Package-List": [
+		"fonts-wine deb fonts optional arch=all libwine deb libs optional arch=amd64,any-i386,any-powerpc,armel,armhf,arm64 libwine-dev deb libdevel optional arch=amd64,any-i386,any-powerpc,armel,armhf,arm64 wine deb otherosfs optional arch=all wine-binfmt deb otherosfs optional arch=all wine32 deb otherosfs optional arch=any-i386,any-powerpc,armel,armhf wine32-preloader deb otherosfs optional arch=i386,powerpc,armel,armhf wine32-tools deb libdevel optional arch=any-i386,any-powerpc,armel,armhf wine64 deb otherosfs optional arch=amd64,arm64 wine64-preloader deb otherosfs optional arch=amd64,arm64 wine64-tools deb libdevel optional arch=amd64,arm64"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.3.0"
+	],
+	"Uploaders": [
+		"Michael Gilbert <mgilbert@debian.org>, Stephen Kitt <skitt@debian.org>, Jens Reyer <jre.winesim@gmail.com>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/wine-team/wine/tree/buster"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/wine-team/wine.git -b buster"
+	],
+	"Version": [
+		"4.0-2~bpo9+1"
+	]
 }

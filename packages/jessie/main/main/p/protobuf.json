@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libprotobuf9, libprotobuf-lite9, libprotobuf-dev, libprotoc9, libprotoc-dev, protobuf-compiler, python-protobuf, libprotobuf-java"
-  ],
-  "Build-Depends": [
-    "dpkg-dev (>= 1.16.1~), debhelper (>= 9), dh-autoreconf, g++ (>= 4:4.7), zlib1g-dev, dh-python, python-all (>= 2.7), libpython-all-dev (>= 2.7), python-setuptools, python-google-apputils, xmlto, unzip"
-  ],
-  "Build-Depends-Indep": [
-    "ant, default-jdk, maven-repo-helper"
-  ],
-  "Checksums-Sha1": [
-    "629afc1cd0d84dc11ac21e3c866efe27150a6d1b 2564 protobuf_2.6.1-1.dsc 375765455ad49e45e4e10364f91aaf2831d3e905 2641426 protobuf_2.6.1.orig.tar.gz d217d4b2485f0b9a46ee32b5ac18477d891aac36 12744 protobuf_2.6.1-1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "5183d506f77488a02349cdf9ee1a1b0936e3717c2a63746ea883695c1f119fe8 2564 protobuf_2.6.1-1.dsc dbbd7bdd2381633995404de65a945ff1a7610b0da14593051b4738c90c6dd164 2641426 protobuf_2.6.1.orig.tar.gz d871f905916d6de94a3e062d29b90ae83f52cacc53854360975cdd0240dc0322 12744 protobuf_2.6.1-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/protobuf"
-  ],
-  "Files": [
-    "6a09a27d2eaa27096397d2c6ccfff359 2564 protobuf_2.6.1-1.dsc f3916ce13b7fcb3072a1fa8cf02b2423 2641426 protobuf_2.6.1.orig.tar.gz 869961b3907c7c48d61eb2846948e524 12744 protobuf_2.6.1-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://code.google.com/p/protobuf/"
-  ],
-  "Maintainer": [
-    "Robert Edmonds <edmonds@debian.org>"
-  ],
-  "Package": [
-    "protobuf"
-  ],
-  "Package-List": [
-    "libprotobuf-dev deb libdevel optional arch=any libprotobuf-java deb java optional arch=all libprotobuf-lite9 deb libs optional arch=any libprotobuf9 deb libs optional arch=any libprotoc-dev deb libdevel optional arch=any libprotoc9 deb libs optional arch=any protobuf-compiler deb devel optional arch=any python-protobuf deb python optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "devel"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Uploaders": [
-    "Iustin Pop <iustin@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=collab-maint/protobuf.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/collab-maint/protobuf.git"
-  ],
-  "Version": [
-    "2.6.1-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libprotobuf9, libprotobuf-lite9, libprotobuf-dev, libprotoc9, libprotoc-dev, protobuf-compiler, python-protobuf, libprotobuf-java"
+	],
+	"Build-Depends": [
+		"dpkg-dev (>= 1.16.1~), debhelper (>= 9), dh-autoreconf, g++ (>= 4:4.7), zlib1g-dev, dh-python, python-all (>= 2.7), libpython-all-dev (>= 2.7), python-setuptools, python-google-apputils, xmlto, unzip"
+	],
+	"Build-Depends-Indep": [
+		"ant, default-jdk, maven-repo-helper"
+	],
+	"Checksums-Sha1": [
+		"629afc1cd0d84dc11ac21e3c866efe27150a6d1b 2564 protobuf_2.6.1-1.dsc 375765455ad49e45e4e10364f91aaf2831d3e905 2641426 protobuf_2.6.1.orig.tar.gz d217d4b2485f0b9a46ee32b5ac18477d891aac36 12744 protobuf_2.6.1-1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"5183d506f77488a02349cdf9ee1a1b0936e3717c2a63746ea883695c1f119fe8 2564 protobuf_2.6.1-1.dsc dbbd7bdd2381633995404de65a945ff1a7610b0da14593051b4738c90c6dd164 2641426 protobuf_2.6.1.orig.tar.gz d871f905916d6de94a3e062d29b90ae83f52cacc53854360975cdd0240dc0322 12744 protobuf_2.6.1-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/protobuf"
+	],
+	"Files": [
+		"6a09a27d2eaa27096397d2c6ccfff359 2564 protobuf_2.6.1-1.dsc f3916ce13b7fcb3072a1fa8cf02b2423 2641426 protobuf_2.6.1.orig.tar.gz 869961b3907c7c48d61eb2846948e524 12744 protobuf_2.6.1-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://code.google.com/p/protobuf/"
+	],
+	"Maintainer": [
+		"Robert Edmonds <edmonds@debian.org>"
+	],
+	"Package": [
+		"protobuf"
+	],
+	"Package-List": [
+		"libprotobuf-dev deb libdevel optional arch=any libprotobuf-java deb java optional arch=all libprotobuf-lite9 deb libs optional arch=any libprotobuf9 deb libs optional arch=any libprotoc-dev deb libdevel optional arch=any libprotoc9 deb libs optional arch=any protobuf-compiler deb devel optional arch=any python-protobuf deb python optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"devel"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Uploaders": [
+		"Iustin Pop <iustin@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=collab-maint/protobuf.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/collab-maint/protobuf.git"
+	],
+	"Version": [
+		"2.6.1-1"
+	]
 }

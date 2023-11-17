@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all i386 armel armhf amd64 arm64"
-  ],
-  "Binary": [
-    "dxvk, dxvk-wine32-development, dxvk-wine64-development"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), glslang-tools, meson, ninja-build, libwine-development-dev, libvulkan-dev, spirv-headers, gcc-mingw-w64-x86-64-posix [amd64 arm64], gcc-mingw-w64-i686-posix [i386 armel armhf], g++-mingw-w64-x86-64-posix [amd64 arm64], g++-mingw-w64-i686-posix [i386 armel armhf], rename, llvm"
-  ],
-  "Checksums-Sha256": [
-    "a7ebfaff0b54c788592b251459fa09ba28cdb771692d76a4bb67935b15466ad4 2412 dxvk_2.3-1.dsc 489ee3e0a28c7acb14a6e35efe7a984a167dca09de46f50f26258c99bf6c87e0 996736 dxvk_2.3.orig.tar.gz 32048f236d3fda8556c27c6d7b239b9819b2f880ab31469d10c10d36e53e1c2e 97344 dxvk_2.3-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/d/dxvk"
-  ],
-  "Files": [
-    "f68ca01b79a3b1f6babffc2ef4c1af03 2412 dxvk_2.3-1.dsc 76a406ccd19f7923f355f8d891e72ffd 996736 dxvk_2.3.orig.tar.gz 7b310d9fe16e03045e1cafe7384d9dd1 97344 dxvk_2.3-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/doitsujin/dxvk"
-  ],
-  "Maintainer": [
-    "Alexandre Viau <aviau@debian.org>"
-  ],
-  "Package": [
-    "dxvk"
-  ],
-  "Package-List": [
-    "dxvk deb utils optional arch=all dxvk-wine32-development deb libs optional arch=i386,armel,armhf dxvk-wine64-development deb libs optional arch=amd64,arm64"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "wine-development, wine32-development, wine64-development, xauth, xvfb"
-  ],
-  "Uploaders": [
-    "Marc Dequènes (Duck) <Duck@DuckCorp.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/aviau/dxvk"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/aviau/dxvk.git"
-  ],
-  "Version": [
-    "2.3-1"
-  ]
+	"Architecture": [
+		"all i386 armel armhf amd64 arm64"
+	],
+	"Binary": [
+		"dxvk, dxvk-wine32-development, dxvk-wine64-development"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), glslang-tools, meson, ninja-build, libwine-development-dev, libvulkan-dev, spirv-headers, gcc-mingw-w64-x86-64-posix [amd64 arm64], gcc-mingw-w64-i686-posix [i386 armel armhf], g++-mingw-w64-x86-64-posix [amd64 arm64], g++-mingw-w64-i686-posix [i386 armel armhf], rename, llvm"
+	],
+	"Checksums-Sha256": [
+		"a7ebfaff0b54c788592b251459fa09ba28cdb771692d76a4bb67935b15466ad4 2412 dxvk_2.3-1.dsc 489ee3e0a28c7acb14a6e35efe7a984a167dca09de46f50f26258c99bf6c87e0 996736 dxvk_2.3.orig.tar.gz 32048f236d3fda8556c27c6d7b239b9819b2f880ab31469d10c10d36e53e1c2e 97344 dxvk_2.3-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/d/dxvk"
+	],
+	"Files": [
+		"f68ca01b79a3b1f6babffc2ef4c1af03 2412 dxvk_2.3-1.dsc 76a406ccd19f7923f355f8d891e72ffd 996736 dxvk_2.3.orig.tar.gz 7b310d9fe16e03045e1cafe7384d9dd1 97344 dxvk_2.3-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/doitsujin/dxvk"
+	],
+	"Maintainer": [
+		"Alexandre Viau <aviau@debian.org>"
+	],
+	"Package": [
+		"dxvk"
+	],
+	"Package-List": [
+		"dxvk deb utils optional arch=all dxvk-wine32-development deb libs optional arch=i386,armel,armhf dxvk-wine64-development deb libs optional arch=amd64,arm64"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"wine-development, wine32-development, wine64-development, xauth, xvfb"
+	],
+	"Uploaders": [
+		"Marc Dequènes (Duck) <Duck@DuckCorp.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/aviau/dxvk"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/aviau/dxvk.git"
+	],
+	"Version": [
+		"2.3-1"
+	]
 }

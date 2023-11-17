@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "packagekit, packagekit-tools, packagekit-docs, libpackagekit-glib2-18, libpackagekit-glib2-dev, gir1.2-packagekitglib-1.0, packagekit-gtk3-module, gstreamer1.0-packagekit, browser-plugin-packagekit, packagekit-command-not-found, packagekit-dbg"
-  ],
-  "Build-Depends": [
-    "bash-completion, debhelper (>= 9.0.0), dh-autoreconf (>= 4), dh-systemd (>= 1.16), docbook-utils, gir1.2-glib-2.0 (>= 1.36), gobject-introspection (>= 1.36), gtk-doc-tools, libapt-pkg-dev (>= 0.8.14), libarchive-dev, libgirepository1.0-dev (>= 1.36), libglib2.0-dev (>= 2.36), libgstreamer-plugins-base1.0-dev, libgtk-3-dev (>= 3.2), libgtk2.0-dev (>= 2.24), libnm-glib-dev [linux-any], libnspr4-dev (>= 4.8.6), libpolkit-gobject-1-dev, libsqlite3-dev, libsystemd-journal-dev (>= 214) [linux-any], libsystemd-login-dev (>= 214) [linux-any], libtool, libxt-dev, network-manager-dev [linux-any], npapi-sdk-dev, policykit-1, xmlto"
-  ],
-  "Checksums-Sha1": [
-    "b203af4797cd87bb51616dcb133021b17aff3d4f 3256 packagekit_1.0.1-2.dsc e47b44e388ad17cbe886ddcb5ff64944db1c311d 1411992 packagekit_1.0.1.orig.tar.xz 51958d976a6fb3dfb940832eaab980f25be52ab4 23260 packagekit_1.0.1-2.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "8986c71ee52b1457319efce48b2a91eaf5ea9bb715398f190b09c23066c46fbe 3256 packagekit_1.0.1-2.dsc d8a7f69844c7fc72b513a7f2b91c5f3d76ccd8bf0f6eef758613c64511172665 1411992 packagekit_1.0.1.orig.tar.xz d606cc9b115e108e986b11d5c51491ca3808980b7fadecf7e39460e9f8523e79 23260 packagekit_1.0.1-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/packagekit"
-  ],
-  "Files": [
-    "bae80b408a999419f02d58465a728345 3256 packagekit_1.0.1-2.dsc 4d2242db1a060c1b0b51c249216f5df4 1411992 packagekit_1.0.1.orig.tar.xz 3b93d9ccf5a3314d01ebb0bb310be3d2 23260 packagekit_1.0.1-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.packagekit.org"
-  ],
-  "Maintainer": [
-    "Matthias Klumpp <mak@debian.org>"
-  ],
-  "Package": [
-    "packagekit"
-  ],
-  "Package-List": [
-    "browser-plugin-packagekit deb web optional arch=any gir1.2-packagekitglib-1.0 deb introspection optional arch=any gstreamer1.0-packagekit deb libs optional arch=any libpackagekit-glib2-18 deb libs optional arch=any libpackagekit-glib2-dev deb libdevel optional arch=any packagekit deb admin optional arch=any packagekit-command-not-found deb misc optional arch=any packagekit-dbg deb debug extra arch=any packagekit-docs deb doc optional arch=all packagekit-gtk3-module deb libs optional arch=any packagekit-tools deb libs optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "admin"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Julian Andres Klode <jak@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-packagekit/packagekit.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-packagekit/packagekit.git"
-  ],
-  "Version": [
-    "1.0.1-2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"packagekit, packagekit-tools, packagekit-docs, libpackagekit-glib2-18, libpackagekit-glib2-dev, gir1.2-packagekitglib-1.0, packagekit-gtk3-module, gstreamer1.0-packagekit, browser-plugin-packagekit, packagekit-command-not-found, packagekit-dbg"
+	],
+	"Build-Depends": [
+		"bash-completion, debhelper (>= 9.0.0), dh-autoreconf (>= 4), dh-systemd (>= 1.16), docbook-utils, gir1.2-glib-2.0 (>= 1.36), gobject-introspection (>= 1.36), gtk-doc-tools, libapt-pkg-dev (>= 0.8.14), libarchive-dev, libgirepository1.0-dev (>= 1.36), libglib2.0-dev (>= 2.36), libgstreamer-plugins-base1.0-dev, libgtk-3-dev (>= 3.2), libgtk2.0-dev (>= 2.24), libnm-glib-dev [linux-any], libnspr4-dev (>= 4.8.6), libpolkit-gobject-1-dev, libsqlite3-dev, libsystemd-journal-dev (>= 214) [linux-any], libsystemd-login-dev (>= 214) [linux-any], libtool, libxt-dev, network-manager-dev [linux-any], npapi-sdk-dev, policykit-1, xmlto"
+	],
+	"Checksums-Sha1": [
+		"b203af4797cd87bb51616dcb133021b17aff3d4f 3256 packagekit_1.0.1-2.dsc e47b44e388ad17cbe886ddcb5ff64944db1c311d 1411992 packagekit_1.0.1.orig.tar.xz 51958d976a6fb3dfb940832eaab980f25be52ab4 23260 packagekit_1.0.1-2.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"8986c71ee52b1457319efce48b2a91eaf5ea9bb715398f190b09c23066c46fbe 3256 packagekit_1.0.1-2.dsc d8a7f69844c7fc72b513a7f2b91c5f3d76ccd8bf0f6eef758613c64511172665 1411992 packagekit_1.0.1.orig.tar.xz d606cc9b115e108e986b11d5c51491ca3808980b7fadecf7e39460e9f8523e79 23260 packagekit_1.0.1-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/packagekit"
+	],
+	"Files": [
+		"bae80b408a999419f02d58465a728345 3256 packagekit_1.0.1-2.dsc 4d2242db1a060c1b0b51c249216f5df4 1411992 packagekit_1.0.1.orig.tar.xz 3b93d9ccf5a3314d01ebb0bb310be3d2 23260 packagekit_1.0.1-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.packagekit.org"
+	],
+	"Maintainer": [
+		"Matthias Klumpp <mak@debian.org>"
+	],
+	"Package": [
+		"packagekit"
+	],
+	"Package-List": [
+		"browser-plugin-packagekit deb web optional arch=any gir1.2-packagekitglib-1.0 deb introspection optional arch=any gstreamer1.0-packagekit deb libs optional arch=any libpackagekit-glib2-18 deb libs optional arch=any libpackagekit-glib2-dev deb libdevel optional arch=any packagekit deb admin optional arch=any packagekit-command-not-found deb misc optional arch=any packagekit-dbg deb debug extra arch=any packagekit-docs deb doc optional arch=all packagekit-gtk3-module deb libs optional arch=any packagekit-tools deb libs optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"admin"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Julian Andres Klode <jak@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-packagekit/packagekit.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-packagekit/packagekit.git"
+	],
+	"Version": [
+		"1.0.1-2"
+	]
 }

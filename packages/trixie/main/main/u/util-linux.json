@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "util-linux, util-linux-locales, mount, bsdutils, bsdextrautils, fdisk, fdisk-udeb, libblkid1, libblkid1-udeb, libblkid-dev, libfdisk1, libfdisk1-udeb, libfdisk-dev, libmount1, libmount1-udeb, libmount-dev, libsmartcols1, libsmartcols1-udeb, libsmartcols-dev, libuuid1, uuid-runtime, libuuid1-udeb, uuid-dev, util-linux-udeb, rfkill, eject, eject-udeb, util-linux-extra"
-  ],
-  "Build-Conflicts": [
-    "libedit-dev"
-  ],
-  "Build-Depends": [
-    "asciidoctor <!stage1>, bc <!stage1 !nocheck>, bison, debhelper-compat (= 13), dh-exec, gettext, libaudit-dev [linux-any] <!stage1>, libcap-ng-dev [linux-any] <!stage1>, libcrypt-dev <!stage1>, libcryptsetup-dev [linux-any] <!pkg.util-linux.noverity>, libncurses-dev, libpam0g-dev <!stage1>, libreadline-dev, libselinux1-dev [linux-any], libsystemd-dev [linux-any] <!stage1>, libtool, libudev-dev [linux-any] <!stage1>, netbase <!stage1 !nocheck>, pkg-config, po-debconf, po4a, socat <!stage1 !nocheck>, systemd [linux-any] <!stage1>, systemd-dev [linux-any] <!stage1>, zlib1g-dev"
-  ],
-  "Checksums-Sha256": [
-    "42b2a38031c85c2383bfdd4eba1f75d1e06946e6ebf9b9fb4ecd48b5fb3eee39 4601 util-linux_2.39.2-6.dsc 87abdfaa8e490f8be6dde976f7c80b9b5ff9f301e1b67e3899e1f05a59a1531f 8362220 util-linux_2.39.2.orig.tar.xz 47143ceff6893470cd29d7afdff010df62ac18f84bedc6a9f9ac32e1c1d6039c 99836 util-linux_2.39.2-6.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/u/util-linux"
-  ],
-  "Files": [
-    "3eed10df7730dab8b107d1b3bbb25f34 4601 util-linux_2.39.2-6.dsc 2feb3e7c306f336a3d22a182dfffc942 8362220 util-linux_2.39.2.orig.tar.xz 33a53194fca454d2ed8e8c6c3223ef4d 99836 util-linux_2.39.2-6.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.kernel.org/pub/linux/utils/util-linux/"
-  ],
-  "Maintainer": [
-    "util-linux packagers <util-linux@packages.debian.org>"
-  ],
-  "Package": [
-    "util-linux"
-  ],
-  "Package-List": [
-    "bsdextrautils deb utils optional arch=any profile=!stage1 bsdutils deb utils required arch=any profile=!stage1 essential=yes eject deb utils optional arch=linux-any profile=!stage1 eject-udeb udeb debian-installer optional arch=linux-any profile=!stage1,!noudeb fdisk deb utils important arch=any profile=!stage1 fdisk-udeb udeb debian-installer optional arch=hurd-any,linux-any profile=!stage1,!noudeb libblkid-dev deb libdevel optional arch=any libblkid1 deb libs optional arch=any libblkid1-udeb udeb debian-installer optional arch=any profile=!noudeb libfdisk-dev deb libdevel optional arch=any libfdisk1 deb libs optional arch=any libfdisk1-udeb udeb debian-installer optional arch=any profile=!noudeb libmount-dev deb libdevel optional arch=linux-any libmount1 deb libs optional arch=any libmount1-udeb udeb debian-installer optional arch=linux-any profile=!noudeb libsmartcols-dev deb libdevel optional arch=any libsmartcols1 deb libs optional arch=any libsmartcols1-udeb udeb debian-installer optional arch=any profile=!noudeb libuuid1 deb libs optional arch=any libuuid1-udeb udeb debian-installer optional arch=any profile=!noudeb mount deb admin required arch=linux-any profile=!stage1 rfkill deb utils optional arch=linux-any profile=!stage1 util-linux deb utils required arch=any profile=!stage1 essential=yes util-linux-extra deb utils standard arch=any profile=!stage1 util-linux-locales deb localization optional arch=all profile=!stage1 util-linux-udeb udeb debian-installer optional arch=any profile=!stage1,!noudeb uuid-dev deb libdevel optional arch=any uuid-runtime deb utils optional arch=any profile=!stage1"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "utils"
-  ],
-  "Standards-Version": [
-    "4.6.0"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "bash, bc, build-essential, dpkg, grep, pkg-config"
-  ],
-  "Uploaders": [
-    "Chris Hofstaedtler <zeha@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian/util-linux"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian/util-linux.git"
-  ],
-  "Version": [
-    "2.39.2-6"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"util-linux, util-linux-locales, mount, bsdutils, bsdextrautils, fdisk, fdisk-udeb, libblkid1, libblkid1-udeb, libblkid-dev, libfdisk1, libfdisk1-udeb, libfdisk-dev, libmount1, libmount1-udeb, libmount-dev, libsmartcols1, libsmartcols1-udeb, libsmartcols-dev, libuuid1, uuid-runtime, libuuid1-udeb, uuid-dev, util-linux-udeb, rfkill, eject, eject-udeb, util-linux-extra"
+	],
+	"Build-Conflicts": [
+		"libedit-dev"
+	],
+	"Build-Depends": [
+		"asciidoctor <!stage1>, bc <!stage1 !nocheck>, bison, debhelper-compat (= 13), dh-exec, gettext, libaudit-dev [linux-any] <!stage1>, libcap-ng-dev [linux-any] <!stage1>, libcrypt-dev <!stage1>, libcryptsetup-dev [linux-any] <!pkg.util-linux.noverity>, libncurses-dev, libpam0g-dev <!stage1>, libreadline-dev, libselinux1-dev [linux-any], libsystemd-dev [linux-any] <!stage1>, libtool, libudev-dev [linux-any] <!stage1>, netbase <!stage1 !nocheck>, pkg-config, po-debconf, po4a, socat <!stage1 !nocheck>, systemd [linux-any] <!stage1>, systemd-dev [linux-any] <!stage1>, zlib1g-dev"
+	],
+	"Checksums-Sha256": [
+		"42b2a38031c85c2383bfdd4eba1f75d1e06946e6ebf9b9fb4ecd48b5fb3eee39 4601 util-linux_2.39.2-6.dsc 87abdfaa8e490f8be6dde976f7c80b9b5ff9f301e1b67e3899e1f05a59a1531f 8362220 util-linux_2.39.2.orig.tar.xz 47143ceff6893470cd29d7afdff010df62ac18f84bedc6a9f9ac32e1c1d6039c 99836 util-linux_2.39.2-6.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/u/util-linux"
+	],
+	"Files": [
+		"3eed10df7730dab8b107d1b3bbb25f34 4601 util-linux_2.39.2-6.dsc 2feb3e7c306f336a3d22a182dfffc942 8362220 util-linux_2.39.2.orig.tar.xz 33a53194fca454d2ed8e8c6c3223ef4d 99836 util-linux_2.39.2-6.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.kernel.org/pub/linux/utils/util-linux/"
+	],
+	"Maintainer": [
+		"util-linux packagers <util-linux@packages.debian.org>"
+	],
+	"Package": [
+		"util-linux"
+	],
+	"Package-List": [
+		"bsdextrautils deb utils optional arch=any profile=!stage1 bsdutils deb utils required arch=any profile=!stage1 essential=yes eject deb utils optional arch=linux-any profile=!stage1 eject-udeb udeb debian-installer optional arch=linux-any profile=!stage1,!noudeb fdisk deb utils important arch=any profile=!stage1 fdisk-udeb udeb debian-installer optional arch=hurd-any,linux-any profile=!stage1,!noudeb libblkid-dev deb libdevel optional arch=any libblkid1 deb libs optional arch=any libblkid1-udeb udeb debian-installer optional arch=any profile=!noudeb libfdisk-dev deb libdevel optional arch=any libfdisk1 deb libs optional arch=any libfdisk1-udeb udeb debian-installer optional arch=any profile=!noudeb libmount-dev deb libdevel optional arch=linux-any libmount1 deb libs optional arch=any libmount1-udeb udeb debian-installer optional arch=linux-any profile=!noudeb libsmartcols-dev deb libdevel optional arch=any libsmartcols1 deb libs optional arch=any libsmartcols1-udeb udeb debian-installer optional arch=any profile=!noudeb libuuid1 deb libs optional arch=any libuuid1-udeb udeb debian-installer optional arch=any profile=!noudeb mount deb admin required arch=linux-any profile=!stage1 rfkill deb utils optional arch=linux-any profile=!stage1 util-linux deb utils required arch=any profile=!stage1 essential=yes util-linux-extra deb utils standard arch=any profile=!stage1 util-linux-locales deb localization optional arch=all profile=!stage1 util-linux-udeb udeb debian-installer optional arch=any profile=!stage1,!noudeb uuid-dev deb libdevel optional arch=any uuid-runtime deb utils optional arch=any profile=!stage1"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"utils"
+	],
+	"Standards-Version": [
+		"4.6.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"bash, bc, build-essential, dpkg, grep, pkg-config"
+	],
+	"Uploaders": [
+		"Chris Hofstaedtler <zeha@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/util-linux"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/util-linux.git"
+	],
+	"Version": [
+		"2.39.2-6"
+	]
 }

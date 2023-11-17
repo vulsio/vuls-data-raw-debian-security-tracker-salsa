@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "vtk-doc, vtk-examples, libvtk5.8, libvtk-java, libvtk5-dev, libvtk5.8-qt4, libvtk5-qt4-dev, tcl-vtk, python-vtk"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), libgl1-mesa-dev | libgl-dev, libglu1-mesa-dev | libglu-dev, libosmesa6-dev, libx11-dev, libxt-dev, xvfb, x11proto-core-dev, tcl8.5-dev, tk8.5-dev, python-dev (>= 2.5.3), cmake (>= 2.6.3), libexpat-dev, libjpeg-dev, libpng-dev, libtiff-dev, zlib1g-dev, default-jdk, libboost-all-dev, mpi-default-dev, libnetcdf-dev, libmysqlclient-dev, libpq-dev, libxpm-dev, libavformat-dev, libavutil-dev, libavcodec-dev, libswscale-dev, libgl2ps-dev, libsqlite3-dev, libfreetype6-dev, ftgl-dev, libqt4-dev, python-support (>= 0.5.3), libxml2-dev, pkg-config, libhdf5-dev, dpkg-dev (>= 1.16.1~)"
-  ],
-  "Build-Depends-Indep": [
-    "libdigest-md5-perl, doxygen-latex, graphviz, gnuplot-nox, ghostscript"
-  ],
-  "Checksums-Sha1": [
-    "66d8b48ed78f4fb1a7280434533b027b0ae3f2e9 3231 vtk_5.8.0-17.5.dsc ece52f4fa92811fe927581e60ecb39a8a5f68cd9 23745803 vtk_5.8.0.orig.tar.gz 7f900fd0aa81815c133d1b0c2cdc709e69af6488 54388 vtk_5.8.0-17.5.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "9e4eb3b39303dab12233a09b9f5a7c81a69315dfb66f28c1db8770c5892d33af 3231 vtk_5.8.0-17.5.dsc 83ee74b83403590342c079a52b06eef7ab862417f941d5f4558aea25c6bbc2d5 23745803 vtk_5.8.0.orig.tar.gz db887f70ccb892e717ead160ebe841d06d3a285469e2ef84e7e6be2a7a368041 54388 vtk_5.8.0-17.5.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/v/vtk"
-  ],
-  "Files": [
-    "b8d62d7619be5647e088b2a30172d985 3231 vtk_5.8.0-17.5.dsc 37b7297d02d647cc6ca95b38174cb41f 23745803 vtk_5.8.0.orig.tar.gz 65e6cec2d1e29adf11d6a93db26e5332 54388 vtk_5.8.0-17.5.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.vtk.org/"
-  ],
-  "Maintainer": [
-    "Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "vtk"
-  ],
-  "Package-List": [
-    "libvtk-java deb java optional arch=any libvtk5-dev deb libdevel optional arch=any libvtk5-qt4-dev deb libdevel optional arch=any libvtk5.8 deb libs optional arch=any libvtk5.8-qt4 deb libs optional arch=any python-vtk deb python optional arch=any tcl-vtk deb interpreters optional arch=any vtk-doc deb doc optional arch=all vtk-examples deb graphics optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Python-Version": [
-    "current"
-  ],
-  "Section": [
-    "graphics"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "A. Maitland Bottoms <bottoms@debian.org>, Dominique Belhachemi <domibel@debian.org>, Mathieu Malaterre <malat@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://git.debian.org/?p=collab-maint/vtk.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/git/collab-maint/vtk.git"
-  ],
-  "Version": [
-    "5.8.0-17.5"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"vtk-doc, vtk-examples, libvtk5.8, libvtk-java, libvtk5-dev, libvtk5.8-qt4, libvtk5-qt4-dev, tcl-vtk, python-vtk"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), libgl1-mesa-dev | libgl-dev, libglu1-mesa-dev | libglu-dev, libosmesa6-dev, libx11-dev, libxt-dev, xvfb, x11proto-core-dev, tcl8.5-dev, tk8.5-dev, python-dev (>= 2.5.3), cmake (>= 2.6.3), libexpat-dev, libjpeg-dev, libpng-dev, libtiff-dev, zlib1g-dev, default-jdk, libboost-all-dev, mpi-default-dev, libnetcdf-dev, libmysqlclient-dev, libpq-dev, libxpm-dev, libavformat-dev, libavutil-dev, libavcodec-dev, libswscale-dev, libgl2ps-dev, libsqlite3-dev, libfreetype6-dev, ftgl-dev, libqt4-dev, python-support (>= 0.5.3), libxml2-dev, pkg-config, libhdf5-dev, dpkg-dev (>= 1.16.1~)"
+	],
+	"Build-Depends-Indep": [
+		"libdigest-md5-perl, doxygen-latex, graphviz, gnuplot-nox, ghostscript"
+	],
+	"Checksums-Sha1": [
+		"66d8b48ed78f4fb1a7280434533b027b0ae3f2e9 3231 vtk_5.8.0-17.5.dsc ece52f4fa92811fe927581e60ecb39a8a5f68cd9 23745803 vtk_5.8.0.orig.tar.gz 7f900fd0aa81815c133d1b0c2cdc709e69af6488 54388 vtk_5.8.0-17.5.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"9e4eb3b39303dab12233a09b9f5a7c81a69315dfb66f28c1db8770c5892d33af 3231 vtk_5.8.0-17.5.dsc 83ee74b83403590342c079a52b06eef7ab862417f941d5f4558aea25c6bbc2d5 23745803 vtk_5.8.0.orig.tar.gz db887f70ccb892e717ead160ebe841d06d3a285469e2ef84e7e6be2a7a368041 54388 vtk_5.8.0-17.5.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/v/vtk"
+	],
+	"Files": [
+		"b8d62d7619be5647e088b2a30172d985 3231 vtk_5.8.0-17.5.dsc 37b7297d02d647cc6ca95b38174cb41f 23745803 vtk_5.8.0.orig.tar.gz 65e6cec2d1e29adf11d6a93db26e5332 54388 vtk_5.8.0-17.5.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.vtk.org/"
+	],
+	"Maintainer": [
+		"Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"vtk"
+	],
+	"Package-List": [
+		"libvtk-java deb java optional arch=any libvtk5-dev deb libdevel optional arch=any libvtk5-qt4-dev deb libdevel optional arch=any libvtk5.8 deb libs optional arch=any libvtk5.8-qt4 deb libs optional arch=any python-vtk deb python optional arch=any tcl-vtk deb interpreters optional arch=any vtk-doc deb doc optional arch=all vtk-examples deb graphics optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Python-Version": [
+		"current"
+	],
+	"Section": [
+		"graphics"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"A. Maitland Bottoms <bottoms@debian.org>, Dominique Belhachemi <domibel@debian.org>, Mathieu Malaterre <malat@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://git.debian.org/?p=collab-maint/vtk.git;a=summary"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/git/collab-maint/vtk.git"
+	],
+	"Version": [
+		"5.8.0-17.5"
+	]
 }

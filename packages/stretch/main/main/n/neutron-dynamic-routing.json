@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-neutron-dynamic-routing, neutron-dynamic-routing-common, neutron-bgp-dragent"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-python, dh-systemd, openstack-pkg-tools (>= 53~), python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx"
-  ],
-  "Build-Depends-Indep": [
-    "python-fixtures (>= 3.0.0), python-alembic (>= 0.8.4), python-coverage, python-eventlet (>= 0.18.2), python-hacking (>= 0.11.0), python-httplib2 (>= 0.7.5), python-mock (>= 2.0), python-netaddr (>= 0.7.13), python-neutron (>= 2:9.0.0~rc1), python-neutron-lib (>= 0.4.0), python-oslo.concurrency (>= 3.8.0), python-oslo.config (>= 3.14.0), python-oslo.db (>= 4.10.0), python-oslo.log (>= 1.14.0), python-oslo.messaging (>= 5.2.0), python-oslo.serialization (>= 1.10.0), python-oslo.service (>= 1.10.0), python-oslo.utils (>= 3.16.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.10.0), python-reno, python-requests-mock (>= 1.0), python-six (>= 1.9.0), python-sqlalchemy (>= 1.0.10), python-subunit, python-tempest (>= 1:12.1.0), python-testresources, python-testscenarios, python-testtools (>= 1.4.0), python-webob, python-webtest (>= 2.0), subunit, tempest (>= 1:12.1.0), testrepository"
-  ],
-  "Checksums-Sha256": [
-    "7aec104d1bc9ee5098b11363c9566089d7550fdd089a8f0252314c86c5af1962 3310 neutron-dynamic-routing_9.0.0-1.2.dsc 6208a6e99257e299220edbe09909fd608666ac1428cac90661bd8cd9526811ab 75480 neutron-dynamic-routing_9.0.0.orig.tar.xz 5035279923f4086c135c386fc509d889b60657c22c5526273bd867f2a1c22fe3 4424 neutron-dynamic-routing_9.0.0-1.2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/n/neutron-dynamic-routing"
-  ],
-  "Files": [
-    "300ed7e4ff91c68945ca5d7c8d9a0860 3310 neutron-dynamic-routing_9.0.0-1.2.dsc 989b4e0f33205aa2b4fe36455a4e9918 75480 neutron-dynamic-routing_9.0.0.orig.tar.xz 1f9f3997dcc244dc373c8eeab1169ef5 4424 neutron-dynamic-routing_9.0.0-1.2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/openstack/neutron-dynamic-routing"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "neutron-dynamic-routing"
-  ],
-  "Package-List": [
-    "neutron-bgp-dragent deb net extra arch=all neutron-dynamic-routing-common deb net extra arch=all python-neutron-dynamic-routing deb python extra arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://git.openstack.org/cgit/openstack/deb-dynamic-routing?h=debian%2Fnewton"
-  ],
-  "Vcs-Git": [
-    "https://git.openstack.org/openstack/deb-dynamic-routing -b debian/newton"
-  ],
-  "Version": [
-    "2:9.0.0-1.2"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-neutron-dynamic-routing, neutron-dynamic-routing-common, neutron-bgp-dragent"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-python, dh-systemd, openstack-pkg-tools (>= 53~), python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx"
+	],
+	"Build-Depends-Indep": [
+		"python-fixtures (>= 3.0.0), python-alembic (>= 0.8.4), python-coverage, python-eventlet (>= 0.18.2), python-hacking (>= 0.11.0), python-httplib2 (>= 0.7.5), python-mock (>= 2.0), python-netaddr (>= 0.7.13), python-neutron (>= 2:9.0.0~rc1), python-neutron-lib (>= 0.4.0), python-oslo.concurrency (>= 3.8.0), python-oslo.config (>= 3.14.0), python-oslo.db (>= 4.10.0), python-oslo.log (>= 1.14.0), python-oslo.messaging (>= 5.2.0), python-oslo.serialization (>= 1.10.0), python-oslo.service (>= 1.10.0), python-oslo.utils (>= 3.16.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.10.0), python-reno, python-requests-mock (>= 1.0), python-six (>= 1.9.0), python-sqlalchemy (>= 1.0.10), python-subunit, python-tempest (>= 1:12.1.0), python-testresources, python-testscenarios, python-testtools (>= 1.4.0), python-webob, python-webtest (>= 2.0), subunit, tempest (>= 1:12.1.0), testrepository"
+	],
+	"Checksums-Sha256": [
+		"7aec104d1bc9ee5098b11363c9566089d7550fdd089a8f0252314c86c5af1962 3310 neutron-dynamic-routing_9.0.0-1.2.dsc 6208a6e99257e299220edbe09909fd608666ac1428cac90661bd8cd9526811ab 75480 neutron-dynamic-routing_9.0.0.orig.tar.xz 5035279923f4086c135c386fc509d889b60657c22c5526273bd867f2a1c22fe3 4424 neutron-dynamic-routing_9.0.0-1.2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/n/neutron-dynamic-routing"
+	],
+	"Files": [
+		"300ed7e4ff91c68945ca5d7c8d9a0860 3310 neutron-dynamic-routing_9.0.0-1.2.dsc 989b4e0f33205aa2b4fe36455a4e9918 75480 neutron-dynamic-routing_9.0.0.orig.tar.xz 1f9f3997dcc244dc373c8eeab1169ef5 4424 neutron-dynamic-routing_9.0.0-1.2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/openstack/neutron-dynamic-routing"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"neutron-dynamic-routing"
+	],
+	"Package-List": [
+		"neutron-bgp-dragent deb net extra arch=all neutron-dynamic-routing-common deb net extra arch=all python-neutron-dynamic-routing deb python extra arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://git.openstack.org/cgit/openstack/deb-dynamic-routing?h=debian%2Fnewton"
+	],
+	"Vcs-Git": [
+		"https://git.openstack.org/openstack/deb-dynamic-routing -b debian/newton"
+	],
+	"Version": [
+		"2:9.0.0-1.2"
+	]
 }

@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "fpc-2.6.4, fpc-source-2.6.4, fp-compiler-2.6.4, fp-ide-2.6.4, fp-utils-2.6.4, fp-docs-2.6.4, fp-units-rtl-2.6.4, fp-units-base-2.6.4, fp-units-fcl-2.6.4, fp-units-fv-2.6.4, fp-units-gtk-2.6.4, fp-units-gtk2-2.6.4, fp-units-gnome1-2.6.4, fp-units-db-2.6.4, fp-units-gfx-2.6.4, fp-units-net-2.6.4, fp-units-math-2.6.4, fp-units-misc-2.6.4, fp-units-multimedia-2.6.4, fp-units-i386-2.6.4, fpc, fpc-source, fp-compiler, fp-ide, fp-utils, fp-docs, fp-units-rtl, fp-units-base, fp-units-fcl, fp-units-fv, fp-units-gtk, fp-units-gtk2, fp-units-gnome1, fp-units-db, fp-units-gfx, fp-units-net, fp-units-math, fp-units-misc, fp-units-multimedia, fp-units-i386"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 7), fp-compiler, fp-units-base, fp-units-fcl, fp-utils, mawk | awk, libncurses-dev, binutils, ghostscript, po-debconf"
-  ],
-  "Build-Depends-Indep": [
-    "hevea, rdfind, symlinks"
-  ],
-  "Checksums-Sha1": [
-    "195706a792b8ac7f836d3b63a0e5f4f9d701ed47 4193 fpc_2.6.4+dfsg-4.dsc 9b2dad5466d43bad06a2c8f74fe4a2bd3bb2c4e4 29252242 fpc_2.6.4+dfsg.orig.tar.gz 41a82640a38b84900644b4851642cd977ffc11a4 60556 fpc_2.6.4+dfsg-4.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "0daa9f835f4fd1996b01bff078c9e4b2104fd839a74e8a8c56b40b3353b12e29 4193 fpc_2.6.4+dfsg-4.dsc 1db165cdb13bdb8b0102d6775e922d2d52dbb274c77a32851c8924111b841ce5 29252242 fpc_2.6.4+dfsg.orig.tar.gz cf928d08446326f65677910b9ad39d95fddaca5df4e7c23ad318cc966c8d02bd 60556 fpc_2.6.4+dfsg-4.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/f/fpc"
-  ],
-  "Files": [
-    "3c770f8f93a08804c82de58eb13c239b 4193 fpc_2.6.4+dfsg-4.dsc 5700624be207961aaede459ac445a06b 29252242 fpc_2.6.4+dfsg.orig.tar.gz 438a8cc0b326d3e159d9add42ddba0bd 60556 fpc_2.6.4+dfsg-4.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.freepascal.org/"
-  ],
-  "Maintainer": [
-    "Carlos Laviola <claviola@debian.org>"
-  ],
-  "Package": [
-    "fpc"
-  ],
-  "Package-List": [
-    "fp-compiler deb devel optional arch=any fp-compiler-2.6.4 deb devel optional arch=any fp-docs deb doc optional arch=all fp-docs-2.6.4 deb doc optional arch=all fp-ide deb devel optional arch=any fp-ide-2.6.4 deb devel optional arch=any fp-units-base deb devel optional arch=any fp-units-base-2.6.4 deb devel optional arch=any fp-units-db deb devel optional arch=any fp-units-db-2.6.4 deb devel optional arch=any fp-units-fcl deb devel optional arch=any fp-units-fcl-2.6.4 deb devel optional arch=any fp-units-fv deb devel optional arch=any fp-units-fv-2.6.4 deb devel optional arch=any fp-units-gfx deb devel optional arch=any fp-units-gfx-2.6.4 deb devel optional arch=any fp-units-gnome1 deb devel optional arch=any fp-units-gnome1-2.6.4 deb devel optional arch=any fp-units-gtk deb devel optional arch=any fp-units-gtk-2.6.4 deb devel optional arch=any fp-units-gtk2 deb devel optional arch=any fp-units-gtk2-2.6.4 deb devel optional arch=any fp-units-i386 deb devel optional arch=i386 fp-units-i386-2.6.4 deb devel optional arch=i386 fp-units-math deb devel optional arch=any fp-units-math-2.6.4 deb devel optional arch=any fp-units-misc deb devel optional arch=any fp-units-misc-2.6.4 deb devel optional arch=any fp-units-multimedia deb devel optional arch=any fp-units-multimedia-2.6.4 deb devel optional arch=any fp-units-net deb devel optional arch=any fp-units-net-2.6.4 deb devel optional arch=any fp-units-rtl deb devel optional arch=any fp-units-rtl-2.6.4 deb devel optional arch=any fp-utils deb devel optional arch=any fp-utils-2.6.4 deb devel optional arch=any fpc deb devel optional arch=all fpc-2.6.4 deb devel optional arch=all fpc-source deb devel optional arch=all fpc-source-2.6.4 deb devel optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "devel"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Abou Al Montacir <abou.almontacir@sfr.fr>, Paul Gevers <elbrus@debian.org>, Peter Michael Green <plugwash@debian.org>, Torsten Werner <twerner@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-pascal/fpc.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-pascal/fpc.git"
-  ],
-  "Version": [
-    "2.6.4+dfsg-4"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"fpc-2.6.4, fpc-source-2.6.4, fp-compiler-2.6.4, fp-ide-2.6.4, fp-utils-2.6.4, fp-docs-2.6.4, fp-units-rtl-2.6.4, fp-units-base-2.6.4, fp-units-fcl-2.6.4, fp-units-fv-2.6.4, fp-units-gtk-2.6.4, fp-units-gtk2-2.6.4, fp-units-gnome1-2.6.4, fp-units-db-2.6.4, fp-units-gfx-2.6.4, fp-units-net-2.6.4, fp-units-math-2.6.4, fp-units-misc-2.6.4, fp-units-multimedia-2.6.4, fp-units-i386-2.6.4, fpc, fpc-source, fp-compiler, fp-ide, fp-utils, fp-docs, fp-units-rtl, fp-units-base, fp-units-fcl, fp-units-fv, fp-units-gtk, fp-units-gtk2, fp-units-gnome1, fp-units-db, fp-units-gfx, fp-units-net, fp-units-math, fp-units-misc, fp-units-multimedia, fp-units-i386"
+	],
+	"Build-Depends": [
+		"debhelper (>= 7), fp-compiler, fp-units-base, fp-units-fcl, fp-utils, mawk | awk, libncurses-dev, binutils, ghostscript, po-debconf"
+	],
+	"Build-Depends-Indep": [
+		"hevea, rdfind, symlinks"
+	],
+	"Checksums-Sha1": [
+		"195706a792b8ac7f836d3b63a0e5f4f9d701ed47 4193 fpc_2.6.4+dfsg-4.dsc 9b2dad5466d43bad06a2c8f74fe4a2bd3bb2c4e4 29252242 fpc_2.6.4+dfsg.orig.tar.gz 41a82640a38b84900644b4851642cd977ffc11a4 60556 fpc_2.6.4+dfsg-4.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"0daa9f835f4fd1996b01bff078c9e4b2104fd839a74e8a8c56b40b3353b12e29 4193 fpc_2.6.4+dfsg-4.dsc 1db165cdb13bdb8b0102d6775e922d2d52dbb274c77a32851c8924111b841ce5 29252242 fpc_2.6.4+dfsg.orig.tar.gz cf928d08446326f65677910b9ad39d95fddaca5df4e7c23ad318cc966c8d02bd 60556 fpc_2.6.4+dfsg-4.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/f/fpc"
+	],
+	"Files": [
+		"3c770f8f93a08804c82de58eb13c239b 4193 fpc_2.6.4+dfsg-4.dsc 5700624be207961aaede459ac445a06b 29252242 fpc_2.6.4+dfsg.orig.tar.gz 438a8cc0b326d3e159d9add42ddba0bd 60556 fpc_2.6.4+dfsg-4.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.freepascal.org/"
+	],
+	"Maintainer": [
+		"Carlos Laviola <claviola@debian.org>"
+	],
+	"Package": [
+		"fpc"
+	],
+	"Package-List": [
+		"fp-compiler deb devel optional arch=any fp-compiler-2.6.4 deb devel optional arch=any fp-docs deb doc optional arch=all fp-docs-2.6.4 deb doc optional arch=all fp-ide deb devel optional arch=any fp-ide-2.6.4 deb devel optional arch=any fp-units-base deb devel optional arch=any fp-units-base-2.6.4 deb devel optional arch=any fp-units-db deb devel optional arch=any fp-units-db-2.6.4 deb devel optional arch=any fp-units-fcl deb devel optional arch=any fp-units-fcl-2.6.4 deb devel optional arch=any fp-units-fv deb devel optional arch=any fp-units-fv-2.6.4 deb devel optional arch=any fp-units-gfx deb devel optional arch=any fp-units-gfx-2.6.4 deb devel optional arch=any fp-units-gnome1 deb devel optional arch=any fp-units-gnome1-2.6.4 deb devel optional arch=any fp-units-gtk deb devel optional arch=any fp-units-gtk-2.6.4 deb devel optional arch=any fp-units-gtk2 deb devel optional arch=any fp-units-gtk2-2.6.4 deb devel optional arch=any fp-units-i386 deb devel optional arch=i386 fp-units-i386-2.6.4 deb devel optional arch=i386 fp-units-math deb devel optional arch=any fp-units-math-2.6.4 deb devel optional arch=any fp-units-misc deb devel optional arch=any fp-units-misc-2.6.4 deb devel optional arch=any fp-units-multimedia deb devel optional arch=any fp-units-multimedia-2.6.4 deb devel optional arch=any fp-units-net deb devel optional arch=any fp-units-net-2.6.4 deb devel optional arch=any fp-units-rtl deb devel optional arch=any fp-units-rtl-2.6.4 deb devel optional arch=any fp-utils deb devel optional arch=any fp-utils-2.6.4 deb devel optional arch=any fpc deb devel optional arch=all fpc-2.6.4 deb devel optional arch=all fpc-source deb devel optional arch=all fpc-source-2.6.4 deb devel optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"devel"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Abou Al Montacir <abou.almontacir@sfr.fr>, Paul Gevers <elbrus@debian.org>, Peter Michael Green <plugwash@debian.org>, Torsten Werner <twerner@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-pascal/fpc.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-pascal/fpc.git"
+	],
+	"Version": [
+		"2.6.4+dfsg-4"
+	]
 }

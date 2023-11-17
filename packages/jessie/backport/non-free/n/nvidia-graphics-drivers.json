@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "i386 amd64 armhf ppc64el"
-  ],
-  "Autobuild": [
-    "yes"
-  ],
-  "Binary": [
-    "nvidia-driver, nvidia-driver-bin, nvidia-driver-libs, nvidia-driver-libs-i386, nvidia-driver-libs-nonglvnd, nvidia-driver-libs-nonglvnd-i386, xserver-xorg-video-nvidia, nvidia-legacy-check, libglvnd0-nvidia, libopengl0-glvnd-nvidia, libglx0-glvnd-nvidia, libglx-nvidia0, libgl1-glvnd-nvidia-glx, libgl1-nvidia-glvnd-glx, libgl1-nvidia-glx, libnvidia-glcore, libegl1-glvnd-nvidia, libegl1-nvidia, libegl-nvidia0, libgles1-glvnd-nvidia, libgles1-nvidia, libgles-nvidia1, libgles2-glvnd-nvidia, libgles2-nvidia, libgles-nvidia2, libnvidia-eglcore, nvidia-egl-common, nvidia-egl-icd, libnvidia-egl-wayland1, nvidia-egl-wayland-common, nvidia-egl-wayland-icd, nvidia-vulkan-common, nvidia-vulkan-icd, nvidia-nonglvnd-vulkan-common, nvidia-nonglvnd-vulkan-icd, libnvidia-cfg1, nvidia-alternative, nvidia-kernel-support, nvidia-kernel-dkms, nvidia-kernel-source, nvidia-vdpau-driver, nvidia-smi, nvidia-cuda-mps, libcuda1, libcuda1-i386, libnvidia-compiler, libnvidia-fatbinaryloader, libnvidia-ptxjitcompiler1, libnvcuvid1, libnvidia-encode1, libnvidia-ifr1, libnvidia-fbc1, libnvidia-ml1, nvidia-opencl-common, nvidia-opencl-icd, nvidia-libopencl1, nvidia-detect"
-  ],
-  "Build-Conflicts": [
-    "libglvnd-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 10), dpkg-dev (>= 1.17), xz-utils, dkms, libvulkan1, libwayland-client0, libwayland-server0, libxext6 [!ppc64el], quilt, po-debconf"
-  ],
-  "Checksums-Sha1": [
-    "e5a75234df37140cf0fe73a028ebeaca70ed7e75 8421 nvidia-graphics-drivers_384.130-1~bpo8+1.dsc 4b2a4be237569a2cdb8ce84eaeb5faab0486beee 82225587 nvidia-graphics-drivers_384.130.orig-amd64.tar.gz 3eebebf6cb22bc0d63c78ab1e2f46502bc6461d9 28862083 nvidia-graphics-drivers_384.130.orig-armhf.tar.gz e577313dd2a54e760310e59c20e4b86e4e200f6a 47504082 nvidia-graphics-drivers_384.130.orig-i386.tar.gz 918395ba2da05c5bfb5b1223bc9a257ee10b8e0c 139 nvidia-graphics-drivers_384.130.orig.tar.gz 9cc1567d5349f76efa812afd15972e0373b99d79 174796 nvidia-graphics-drivers_384.130-1~bpo8+1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "255e22fc5d0bee32b97644e4517e00e27270e79fc6cb48fc09c23d0083fd4a3d 8421 nvidia-graphics-drivers_384.130-1~bpo8+1.dsc 5b8104cae58a3a0487a4eae596716ee25c105d1c823cce2ab862b1292ae83754 82225587 nvidia-graphics-drivers_384.130.orig-amd64.tar.gz e5e636c163dc153bd4662ae4ba29d3e1cde0d0b479ff88dd5f03458f7fc411fb 28862083 nvidia-graphics-drivers_384.130.orig-armhf.tar.gz 6d6465c7f52466c33b3c9fcb9a8c3fd65275e67a793418997cc33a78788fb3e9 47504082 nvidia-graphics-drivers_384.130.orig-i386.tar.gz 97dc8c203e7ca5d32535e16e5a84dca7ffa8f5bb401ba0c7f25a4a7ca992c59d 139 nvidia-graphics-drivers_384.130.orig.tar.gz ebae3bb10e46fb4bc8a612a14a940b5d2ad3d5473f418f5452ca78644a681c22 174796 nvidia-graphics-drivers_384.130-1~bpo8+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/non-free/n/nvidia-graphics-drivers"
-  ],
-  "Files": [
-    "59df06fc7a0876203ab1903fe96df888 8421 nvidia-graphics-drivers_384.130-1~bpo8+1.dsc bd533cbe768055e509b1c345695cd74a 82225587 nvidia-graphics-drivers_384.130.orig-amd64.tar.gz e7a0e31f9ac7f53c820961fe0d86bd8c 28862083 nvidia-graphics-drivers_384.130.orig-armhf.tar.gz 1fab2293d4f37c89f5597aca9c13a256 47504082 nvidia-graphics-drivers_384.130.orig-i386.tar.gz 185d83f72bf7684d8a16859e9b018924 139 nvidia-graphics-drivers_384.130.orig.tar.gz b3a1c65d07c0cc87327eaff9007e4bae 174796 nvidia-graphics-drivers_384.130-1~bpo8+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.nvidia.com"
-  ],
-  "Maintainer": [
-    "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "nvidia-graphics-drivers"
-  ],
-  "Package-List": [
-    "libcuda1 deb non-free/libs optional arch=i386,amd64,armhf,ppc64el libcuda1-i386 deb non-free/libs optional arch=i386 libegl-nvidia0 deb non-free/libs optional arch=i386,amd64,armhf libegl1-glvnd-nvidia deb non-free/libs optional arch=i386,amd64,armhf libegl1-nvidia deb non-free/libs optional arch=i386,amd64,armhf libgl1-glvnd-nvidia-glx deb non-free/libs optional arch=i386,amd64,armhf libgl1-nvidia-glvnd-glx deb non-free/libs optional arch=i386,amd64,armhf libgl1-nvidia-glx deb non-free/libs optional arch=i386,amd64,armhf libgles-nvidia1 deb non-free/libs optional arch=i386,amd64,armhf libgles-nvidia2 deb non-free/libs optional arch=i386,amd64,armhf libgles1-glvnd-nvidia deb non-free/libs optional arch=i386,amd64,armhf libgles1-nvidia deb non-free/oldlibs optional arch=i386,amd64,armhf libgles2-glvnd-nvidia deb non-free/libs optional arch=i386,amd64,armhf libgles2-nvidia deb non-free/oldlibs optional arch=i386,amd64,armhf libglvnd0-nvidia deb non-free/libs optional arch=i386,amd64,armhf libglx-nvidia0 deb non-free/libs optional arch=i386,amd64,armhf libglx0-glvnd-nvidia deb non-free/libs optional arch=i386,amd64,armhf libnvcuvid1 deb non-free/libs optional arch=i386,amd64,armhf libnvidia-cfg1 deb non-free/libs optional arch=i386,amd64,armhf libnvidia-compiler deb non-free/libs optional arch=i386,amd64 libnvidia-egl-wayland1 deb non-free/libs optional arch=i386,amd64,armhf libnvidia-eglcore deb non-free/libs optional arch=i386,amd64,armhf libnvidia-encode1 deb non-free/libs optional arch=i386,amd64,armhf libnvidia-fatbinaryloader deb non-free/libs optional arch=i386,amd64,armhf libnvidia-fbc1 deb non-free/libs optional arch=i386,amd64,armhf libnvidia-glcore deb non-free/libs optional arch=i386,amd64,armhf libnvidia-ifr1 deb non-free/libs optional arch=i386,amd64,armhf libnvidia-ml1 deb non-free/libs optional arch=i386,amd64,armhf,ppc64el libnvidia-ptxjitcompiler1 deb non-free/libs optional arch=i386,amd64,armhf libopengl0-glvnd-nvidia deb non-free/libs optional arch=i386,amd64,armhf nvidia-alternative deb non-free/libs optional arch=i386,amd64,armhf,ppc64el nvidia-cuda-mps deb non-free/utils optional arch=i386,amd64,armhf,ppc64el nvidia-detect deb non-free/x11 optional arch=i386,amd64,armhf nvidia-driver deb non-free/x11 optional arch=i386,amd64,armhf nvidia-driver-bin deb non-free/x11 optional arch=i386,amd64,armhf nvidia-driver-libs deb non-free/libs optional arch=i386,amd64,armhf nvidia-driver-libs-i386 deb non-free/libs optional arch=i386 nvidia-driver-libs-nonglvnd deb non-free/libs optional arch=i386,amd64,armhf nvidia-driver-libs-nonglvnd-i386 deb non-free/libs optional arch=i386 nvidia-egl-common deb non-free/libs optional arch=i386,amd64,armhf nvidia-egl-icd deb non-free/libs optional arch=i386,amd64,armhf nvidia-egl-wayland-common deb non-free/libs optional arch=i386,amd64,armhf nvidia-egl-wayland-icd deb non-free/libs optional arch=i386,amd64,armhf nvidia-kernel-dkms deb non-free/kernel optional arch=i386,amd64,armhf,ppc64el nvidia-kernel-source deb non-free/kernel optional arch=i386,amd64,armhf,ppc64el nvidia-kernel-support deb non-free/kernel optional arch=i386,amd64,armhf,ppc64el nvidia-legacy-check deb non-free/libs optional arch=i386,amd64,armhf nvidia-libopencl1 deb non-free/libs optional arch=i386,amd64,ppc64el nvidia-nonglvnd-vulkan-common deb non-free/libs optional arch=i386,amd64 nvidia-nonglvnd-vulkan-icd deb non-free/libs optional arch=i386,amd64 nvidia-opencl-common deb non-free/libs optional arch=i386,amd64,ppc64el nvidia-opencl-icd deb non-free/libs optional arch=i386,amd64,ppc64el nvidia-smi deb non-free/utils optional arch=i386,amd64,armhf,ppc64el nvidia-vdpau-driver deb non-free/video optional arch=i386,amd64,armhf nvidia-vulkan-common deb non-free/libs optional arch=i386,amd64 nvidia-vulkan-icd deb non-free/libs optional arch=i386,amd64 xserver-xorg-video-nvidia deb non-free/x11 optional arch=i386,amd64,armhf"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "non-free/misc"
-  ],
-  "Standards-Version": [
-    "4.1.4"
-  ],
-  "Uploaders": [
-    "Andreas Beckmann <anbe@debian.org>, Vincent Cheng <vcheng@debian.org>, Luca Boccassi <bluca@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/viewvc/pkg-nvidia/packages/nvidia-graphics-drivers/"
-  ],
-  "Vcs-Svn": [
-    "svn://anonscm.debian.org/pkg-nvidia/packages/nvidia-graphics-drivers/trunk"
-  ],
-  "Version": [
-    "384.130-1~bpo8+1"
-  ]
+	"Architecture": [
+		"i386 amd64 armhf ppc64el"
+	],
+	"Autobuild": [
+		"yes"
+	],
+	"Binary": [
+		"nvidia-driver, nvidia-driver-bin, nvidia-driver-libs, nvidia-driver-libs-i386, nvidia-driver-libs-nonglvnd, nvidia-driver-libs-nonglvnd-i386, xserver-xorg-video-nvidia, nvidia-legacy-check, libglvnd0-nvidia, libopengl0-glvnd-nvidia, libglx0-glvnd-nvidia, libglx-nvidia0, libgl1-glvnd-nvidia-glx, libgl1-nvidia-glvnd-glx, libgl1-nvidia-glx, libnvidia-glcore, libegl1-glvnd-nvidia, libegl1-nvidia, libegl-nvidia0, libgles1-glvnd-nvidia, libgles1-nvidia, libgles-nvidia1, libgles2-glvnd-nvidia, libgles2-nvidia, libgles-nvidia2, libnvidia-eglcore, nvidia-egl-common, nvidia-egl-icd, libnvidia-egl-wayland1, nvidia-egl-wayland-common, nvidia-egl-wayland-icd, nvidia-vulkan-common, nvidia-vulkan-icd, nvidia-nonglvnd-vulkan-common, nvidia-nonglvnd-vulkan-icd, libnvidia-cfg1, nvidia-alternative, nvidia-kernel-support, nvidia-kernel-dkms, nvidia-kernel-source, nvidia-vdpau-driver, nvidia-smi, nvidia-cuda-mps, libcuda1, libcuda1-i386, libnvidia-compiler, libnvidia-fatbinaryloader, libnvidia-ptxjitcompiler1, libnvcuvid1, libnvidia-encode1, libnvidia-ifr1, libnvidia-fbc1, libnvidia-ml1, nvidia-opencl-common, nvidia-opencl-icd, nvidia-libopencl1, nvidia-detect"
+	],
+	"Build-Conflicts": [
+		"libglvnd-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 10), dpkg-dev (>= 1.17), xz-utils, dkms, libvulkan1, libwayland-client0, libwayland-server0, libxext6 [!ppc64el], quilt, po-debconf"
+	],
+	"Checksums-Sha1": [
+		"e5a75234df37140cf0fe73a028ebeaca70ed7e75 8421 nvidia-graphics-drivers_384.130-1~bpo8+1.dsc 4b2a4be237569a2cdb8ce84eaeb5faab0486beee 82225587 nvidia-graphics-drivers_384.130.orig-amd64.tar.gz 3eebebf6cb22bc0d63c78ab1e2f46502bc6461d9 28862083 nvidia-graphics-drivers_384.130.orig-armhf.tar.gz e577313dd2a54e760310e59c20e4b86e4e200f6a 47504082 nvidia-graphics-drivers_384.130.orig-i386.tar.gz 918395ba2da05c5bfb5b1223bc9a257ee10b8e0c 139 nvidia-graphics-drivers_384.130.orig.tar.gz 9cc1567d5349f76efa812afd15972e0373b99d79 174796 nvidia-graphics-drivers_384.130-1~bpo8+1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"255e22fc5d0bee32b97644e4517e00e27270e79fc6cb48fc09c23d0083fd4a3d 8421 nvidia-graphics-drivers_384.130-1~bpo8+1.dsc 5b8104cae58a3a0487a4eae596716ee25c105d1c823cce2ab862b1292ae83754 82225587 nvidia-graphics-drivers_384.130.orig-amd64.tar.gz e5e636c163dc153bd4662ae4ba29d3e1cde0d0b479ff88dd5f03458f7fc411fb 28862083 nvidia-graphics-drivers_384.130.orig-armhf.tar.gz 6d6465c7f52466c33b3c9fcb9a8c3fd65275e67a793418997cc33a78788fb3e9 47504082 nvidia-graphics-drivers_384.130.orig-i386.tar.gz 97dc8c203e7ca5d32535e16e5a84dca7ffa8f5bb401ba0c7f25a4a7ca992c59d 139 nvidia-graphics-drivers_384.130.orig.tar.gz ebae3bb10e46fb4bc8a612a14a940b5d2ad3d5473f418f5452ca78644a681c22 174796 nvidia-graphics-drivers_384.130-1~bpo8+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/non-free/n/nvidia-graphics-drivers"
+	],
+	"Files": [
+		"59df06fc7a0876203ab1903fe96df888 8421 nvidia-graphics-drivers_384.130-1~bpo8+1.dsc bd533cbe768055e509b1c345695cd74a 82225587 nvidia-graphics-drivers_384.130.orig-amd64.tar.gz e7a0e31f9ac7f53c820961fe0d86bd8c 28862083 nvidia-graphics-drivers_384.130.orig-armhf.tar.gz 1fab2293d4f37c89f5597aca9c13a256 47504082 nvidia-graphics-drivers_384.130.orig-i386.tar.gz 185d83f72bf7684d8a16859e9b018924 139 nvidia-graphics-drivers_384.130.orig.tar.gz b3a1c65d07c0cc87327eaff9007e4bae 174796 nvidia-graphics-drivers_384.130-1~bpo8+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.nvidia.com"
+	],
+	"Maintainer": [
+		"Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"nvidia-graphics-drivers"
+	],
+	"Package-List": [
+		"libcuda1 deb non-free/libs optional arch=i386,amd64,armhf,ppc64el libcuda1-i386 deb non-free/libs optional arch=i386 libegl-nvidia0 deb non-free/libs optional arch=i386,amd64,armhf libegl1-glvnd-nvidia deb non-free/libs optional arch=i386,amd64,armhf libegl1-nvidia deb non-free/libs optional arch=i386,amd64,armhf libgl1-glvnd-nvidia-glx deb non-free/libs optional arch=i386,amd64,armhf libgl1-nvidia-glvnd-glx deb non-free/libs optional arch=i386,amd64,armhf libgl1-nvidia-glx deb non-free/libs optional arch=i386,amd64,armhf libgles-nvidia1 deb non-free/libs optional arch=i386,amd64,armhf libgles-nvidia2 deb non-free/libs optional arch=i386,amd64,armhf libgles1-glvnd-nvidia deb non-free/libs optional arch=i386,amd64,armhf libgles1-nvidia deb non-free/oldlibs optional arch=i386,amd64,armhf libgles2-glvnd-nvidia deb non-free/libs optional arch=i386,amd64,armhf libgles2-nvidia deb non-free/oldlibs optional arch=i386,amd64,armhf libglvnd0-nvidia deb non-free/libs optional arch=i386,amd64,armhf libglx-nvidia0 deb non-free/libs optional arch=i386,amd64,armhf libglx0-glvnd-nvidia deb non-free/libs optional arch=i386,amd64,armhf libnvcuvid1 deb non-free/libs optional arch=i386,amd64,armhf libnvidia-cfg1 deb non-free/libs optional arch=i386,amd64,armhf libnvidia-compiler deb non-free/libs optional arch=i386,amd64 libnvidia-egl-wayland1 deb non-free/libs optional arch=i386,amd64,armhf libnvidia-eglcore deb non-free/libs optional arch=i386,amd64,armhf libnvidia-encode1 deb non-free/libs optional arch=i386,amd64,armhf libnvidia-fatbinaryloader deb non-free/libs optional arch=i386,amd64,armhf libnvidia-fbc1 deb non-free/libs optional arch=i386,amd64,armhf libnvidia-glcore deb non-free/libs optional arch=i386,amd64,armhf libnvidia-ifr1 deb non-free/libs optional arch=i386,amd64,armhf libnvidia-ml1 deb non-free/libs optional arch=i386,amd64,armhf,ppc64el libnvidia-ptxjitcompiler1 deb non-free/libs optional arch=i386,amd64,armhf libopengl0-glvnd-nvidia deb non-free/libs optional arch=i386,amd64,armhf nvidia-alternative deb non-free/libs optional arch=i386,amd64,armhf,ppc64el nvidia-cuda-mps deb non-free/utils optional arch=i386,amd64,armhf,ppc64el nvidia-detect deb non-free/x11 optional arch=i386,amd64,armhf nvidia-driver deb non-free/x11 optional arch=i386,amd64,armhf nvidia-driver-bin deb non-free/x11 optional arch=i386,amd64,armhf nvidia-driver-libs deb non-free/libs optional arch=i386,amd64,armhf nvidia-driver-libs-i386 deb non-free/libs optional arch=i386 nvidia-driver-libs-nonglvnd deb non-free/libs optional arch=i386,amd64,armhf nvidia-driver-libs-nonglvnd-i386 deb non-free/libs optional arch=i386 nvidia-egl-common deb non-free/libs optional arch=i386,amd64,armhf nvidia-egl-icd deb non-free/libs optional arch=i386,amd64,armhf nvidia-egl-wayland-common deb non-free/libs optional arch=i386,amd64,armhf nvidia-egl-wayland-icd deb non-free/libs optional arch=i386,amd64,armhf nvidia-kernel-dkms deb non-free/kernel optional arch=i386,amd64,armhf,ppc64el nvidia-kernel-source deb non-free/kernel optional arch=i386,amd64,armhf,ppc64el nvidia-kernel-support deb non-free/kernel optional arch=i386,amd64,armhf,ppc64el nvidia-legacy-check deb non-free/libs optional arch=i386,amd64,armhf nvidia-libopencl1 deb non-free/libs optional arch=i386,amd64,ppc64el nvidia-nonglvnd-vulkan-common deb non-free/libs optional arch=i386,amd64 nvidia-nonglvnd-vulkan-icd deb non-free/libs optional arch=i386,amd64 nvidia-opencl-common deb non-free/libs optional arch=i386,amd64,ppc64el nvidia-opencl-icd deb non-free/libs optional arch=i386,amd64,ppc64el nvidia-smi deb non-free/utils optional arch=i386,amd64,armhf,ppc64el nvidia-vdpau-driver deb non-free/video optional arch=i386,amd64,armhf nvidia-vulkan-common deb non-free/libs optional arch=i386,amd64 nvidia-vulkan-icd deb non-free/libs optional arch=i386,amd64 xserver-xorg-video-nvidia deb non-free/x11 optional arch=i386,amd64,armhf"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"non-free/misc"
+	],
+	"Standards-Version": [
+		"4.1.4"
+	],
+	"Uploaders": [
+		"Andreas Beckmann <anbe@debian.org>, Vincent Cheng <vcheng@debian.org>, Luca Boccassi <bluca@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/viewvc/pkg-nvidia/packages/nvidia-graphics-drivers/"
+	],
+	"Vcs-Svn": [
+		"svn://anonscm.debian.org/pkg-nvidia/packages/nvidia-graphics-drivers/trunk"
+	],
+	"Version": [
+		"384.130-1~bpo8+1"
+	]
 }

@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "i386 amd64"
-  ],
-  "Autobuild": [
-    "yes"
-  ],
-  "Binary": [
-    "nvidia-legacy-304xx-driver, nvidia-legacy-304xx-driver-bin, nvidia-legacy-304xx-driver-libs, nvidia-legacy-304xx-driver-libs-i386, xserver-xorg-video-nvidia-legacy-304xx, libgl1-nvidia-legacy-304xx-glx, libnvidia-legacy-304xx-glcore, libnvidia-legacy-304xx-cfg1, nvidia-legacy-304xx-alternative, nvidia-legacy-304xx-kernel-support, nvidia-legacy-304xx-kernel-dkms, nvidia-legacy-304xx-kernel-source, nvidia-legacy-304xx-vdpau-driver, nvidia-legacy-304xx-smi, libnvidia-legacy-304xx-cuda1, libnvidia-legacy-304xx-cuda1-i386, libnvidia-legacy-304xx-compiler, libnvidia-legacy-304xx-nvcuvid1, libnvidia-legacy-304xx-ml1, nvidia-legacy-304xx-opencl-icd"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 10), dpkg-dev (>= 1.18.8), xz-utils, dkms, libxext6, libxvmc1, quilt"
-  ],
-  "Checksums-Sha256": [
-    "8183d9c8c4e714c3636d6c128ec02dbbd2a0b0f293de5f4fe61e61e88d0595d6 5212 nvidia-graphics-drivers-legacy-304xx_304.137-5~bpo9+1.dsc 90035171a5d59fd36b5162d94f71165acb6668bc06cb0881f1919931a9131cae 67911734 nvidia-graphics-drivers-legacy-304xx_304.137.orig-amd64.tar.gz 40fc44285029e9fc64afbf72f8f0d557077a9626600c13bf0541f354d4369693 40171939 nvidia-graphics-drivers-legacy-304xx_304.137.orig-i386.tar.gz 6f1c3c0f94d08f6bf230ed9a961ffe22778eba5b97c74090204a89bb7d0df1fb 137 nvidia-graphics-drivers-legacy-304xx_304.137.orig.tar.gz d52bdab3c298fcc61271434f6a493a8337e3499301b5043917f354eb42474412 65136 nvidia-graphics-drivers-legacy-304xx_304.137-5~bpo9+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/non-free/n/nvidia-graphics-drivers-legacy-304xx"
-  ],
-  "Files": [
-    "602835f31087747e19d0098d8712fb5f 5212 nvidia-graphics-drivers-legacy-304xx_304.137-5~bpo9+1.dsc e13794b33e19286d31fc54de01c02d07 67911734 nvidia-graphics-drivers-legacy-304xx_304.137.orig-amd64.tar.gz 1058f365fe01e0d4c1a2bd53ec477894 40171939 nvidia-graphics-drivers-legacy-304xx_304.137.orig-i386.tar.gz 0da67d28db1b963545556d5f72063a83 137 nvidia-graphics-drivers-legacy-304xx_304.137.orig.tar.gz 8df4dae5d6842401bb1f1adbc5e6f4d2 65136 nvidia-graphics-drivers-legacy-304xx_304.137-5~bpo9+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.nvidia.com"
-  ],
-  "Maintainer": [
-    "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "nvidia-graphics-drivers-legacy-304xx"
-  ],
-  "Package-List": [
-    "libgl1-nvidia-legacy-304xx-glx deb non-free/libs optional arch=i386,amd64 libnvidia-legacy-304xx-cfg1 deb non-free/libs optional arch=i386,amd64 libnvidia-legacy-304xx-compiler deb non-free/libs optional arch=i386,amd64 libnvidia-legacy-304xx-cuda1 deb non-free/libs optional arch=i386,amd64 libnvidia-legacy-304xx-cuda1-i386 deb non-free/libs optional arch=i386 libnvidia-legacy-304xx-glcore deb non-free/libs optional arch=i386,amd64 libnvidia-legacy-304xx-ml1 deb non-free/libs optional arch=i386,amd64 libnvidia-legacy-304xx-nvcuvid1 deb non-free/libs optional arch=i386,amd64 nvidia-legacy-304xx-alternative deb non-free/libs optional arch=i386,amd64 nvidia-legacy-304xx-driver deb non-free/x11 optional arch=i386,amd64 nvidia-legacy-304xx-driver-bin deb non-free/x11 optional arch=i386,amd64 nvidia-legacy-304xx-driver-libs deb non-free/libs optional arch=i386,amd64 nvidia-legacy-304xx-driver-libs-i386 deb non-free/libs optional arch=i386 nvidia-legacy-304xx-kernel-dkms deb non-free/kernel optional arch=i386,amd64 nvidia-legacy-304xx-kernel-source deb non-free/kernel optional arch=i386,amd64 nvidia-legacy-304xx-kernel-support deb non-free/kernel optional arch=i386,amd64 nvidia-legacy-304xx-opencl-icd deb non-free/libs optional arch=i386,amd64 nvidia-legacy-304xx-smi deb non-free/utils optional arch=i386,amd64 nvidia-legacy-304xx-vdpau-driver deb non-free/video optional arch=i386,amd64 xserver-xorg-video-nvidia-legacy-304xx deb non-free/x11 optional arch=i386,amd64"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "non-free/misc"
-  ],
-  "Standards-Version": [
-    "4.1.3"
-  ],
-  "Uploaders": [
-    "Andreas Beckmann <anbe@debian.org>, Vincent Cheng <vcheng@debian.org>, Luca Boccassi <bluca@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/viewvc/pkg-nvidia/packages/nvidia-graphics-drivers-legacy-304xx/"
-  ],
-  "Vcs-Svn": [
-    "svn://anonscm.debian.org/pkg-nvidia/packages/nvidia-graphics-drivers-legacy-304xx/trunk"
-  ],
-  "Version": [
-    "304.137-5~bpo9+1"
-  ]
+	"Architecture": [
+		"i386 amd64"
+	],
+	"Autobuild": [
+		"yes"
+	],
+	"Binary": [
+		"nvidia-legacy-304xx-driver, nvidia-legacy-304xx-driver-bin, nvidia-legacy-304xx-driver-libs, nvidia-legacy-304xx-driver-libs-i386, xserver-xorg-video-nvidia-legacy-304xx, libgl1-nvidia-legacy-304xx-glx, libnvidia-legacy-304xx-glcore, libnvidia-legacy-304xx-cfg1, nvidia-legacy-304xx-alternative, nvidia-legacy-304xx-kernel-support, nvidia-legacy-304xx-kernel-dkms, nvidia-legacy-304xx-kernel-source, nvidia-legacy-304xx-vdpau-driver, nvidia-legacy-304xx-smi, libnvidia-legacy-304xx-cuda1, libnvidia-legacy-304xx-cuda1-i386, libnvidia-legacy-304xx-compiler, libnvidia-legacy-304xx-nvcuvid1, libnvidia-legacy-304xx-ml1, nvidia-legacy-304xx-opencl-icd"
+	],
+	"Build-Depends": [
+		"debhelper (>= 10), dpkg-dev (>= 1.18.8), xz-utils, dkms, libxext6, libxvmc1, quilt"
+	],
+	"Checksums-Sha256": [
+		"8183d9c8c4e714c3636d6c128ec02dbbd2a0b0f293de5f4fe61e61e88d0595d6 5212 nvidia-graphics-drivers-legacy-304xx_304.137-5~bpo9+1.dsc 90035171a5d59fd36b5162d94f71165acb6668bc06cb0881f1919931a9131cae 67911734 nvidia-graphics-drivers-legacy-304xx_304.137.orig-amd64.tar.gz 40fc44285029e9fc64afbf72f8f0d557077a9626600c13bf0541f354d4369693 40171939 nvidia-graphics-drivers-legacy-304xx_304.137.orig-i386.tar.gz 6f1c3c0f94d08f6bf230ed9a961ffe22778eba5b97c74090204a89bb7d0df1fb 137 nvidia-graphics-drivers-legacy-304xx_304.137.orig.tar.gz d52bdab3c298fcc61271434f6a493a8337e3499301b5043917f354eb42474412 65136 nvidia-graphics-drivers-legacy-304xx_304.137-5~bpo9+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/non-free/n/nvidia-graphics-drivers-legacy-304xx"
+	],
+	"Files": [
+		"602835f31087747e19d0098d8712fb5f 5212 nvidia-graphics-drivers-legacy-304xx_304.137-5~bpo9+1.dsc e13794b33e19286d31fc54de01c02d07 67911734 nvidia-graphics-drivers-legacy-304xx_304.137.orig-amd64.tar.gz 1058f365fe01e0d4c1a2bd53ec477894 40171939 nvidia-graphics-drivers-legacy-304xx_304.137.orig-i386.tar.gz 0da67d28db1b963545556d5f72063a83 137 nvidia-graphics-drivers-legacy-304xx_304.137.orig.tar.gz 8df4dae5d6842401bb1f1adbc5e6f4d2 65136 nvidia-graphics-drivers-legacy-304xx_304.137-5~bpo9+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.nvidia.com"
+	],
+	"Maintainer": [
+		"Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"nvidia-graphics-drivers-legacy-304xx"
+	],
+	"Package-List": [
+		"libgl1-nvidia-legacy-304xx-glx deb non-free/libs optional arch=i386,amd64 libnvidia-legacy-304xx-cfg1 deb non-free/libs optional arch=i386,amd64 libnvidia-legacy-304xx-compiler deb non-free/libs optional arch=i386,amd64 libnvidia-legacy-304xx-cuda1 deb non-free/libs optional arch=i386,amd64 libnvidia-legacy-304xx-cuda1-i386 deb non-free/libs optional arch=i386 libnvidia-legacy-304xx-glcore deb non-free/libs optional arch=i386,amd64 libnvidia-legacy-304xx-ml1 deb non-free/libs optional arch=i386,amd64 libnvidia-legacy-304xx-nvcuvid1 deb non-free/libs optional arch=i386,amd64 nvidia-legacy-304xx-alternative deb non-free/libs optional arch=i386,amd64 nvidia-legacy-304xx-driver deb non-free/x11 optional arch=i386,amd64 nvidia-legacy-304xx-driver-bin deb non-free/x11 optional arch=i386,amd64 nvidia-legacy-304xx-driver-libs deb non-free/libs optional arch=i386,amd64 nvidia-legacy-304xx-driver-libs-i386 deb non-free/libs optional arch=i386 nvidia-legacy-304xx-kernel-dkms deb non-free/kernel optional arch=i386,amd64 nvidia-legacy-304xx-kernel-source deb non-free/kernel optional arch=i386,amd64 nvidia-legacy-304xx-kernel-support deb non-free/kernel optional arch=i386,amd64 nvidia-legacy-304xx-opencl-icd deb non-free/libs optional arch=i386,amd64 nvidia-legacy-304xx-smi deb non-free/utils optional arch=i386,amd64 nvidia-legacy-304xx-vdpau-driver deb non-free/video optional arch=i386,amd64 xserver-xorg-video-nvidia-legacy-304xx deb non-free/x11 optional arch=i386,amd64"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"non-free/misc"
+	],
+	"Standards-Version": [
+		"4.1.3"
+	],
+	"Uploaders": [
+		"Andreas Beckmann <anbe@debian.org>, Vincent Cheng <vcheng@debian.org>, Luca Boccassi <bluca@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/viewvc/pkg-nvidia/packages/nvidia-graphics-drivers-legacy-304xx/"
+	],
+	"Vcs-Svn": [
+		"svn://anonscm.debian.org/pkg-nvidia/packages/nvidia-graphics-drivers-legacy-304xx/trunk"
+	],
+	"Version": [
+		"304.137-5~bpo9+1"
+	]
 }

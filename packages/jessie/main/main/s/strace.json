@@ -1,50 +1,50 @@
 {
-  "Architecture": [
-    "alpha amd64 arm64 armeb armel armhf hppa i386 ia64 m68k mips mipsel or1k powerpc powerpcspe ppc64 ppc64el s390 s390x sh4 sparc sparc64 x32"
-  ],
-  "Binary": [
-    "strace, strace64, strace-udeb"
-  ],
-  "Build-Depends": [
-    "libc6-dev (>= 2.2.2) [!alpha !ia64], libc6.1-dev (>= 2.2.2) [alpha ia64], gcc-multilib [i386 powerpc s390 sparc], debhelper (>= 7.0.0)"
-  ],
-  "Checksums-Sha1": [
-    "c9419ae68464d074223aad74dca13f22d9adc8b2 2331 strace_4.9-2.dsc 5e6c78f0dc75e64814e5f8ef49c66823b7f00ae9 521728 strace_4.9.orig.tar.xz d576cbd4c6301e1b17787a694feee14affb7075f 11072 strace_4.9-2.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "dc21f0281cc055a7e31d3da376f7b1122e85d3c195bb0fa3d8115d1f2395b536 2331 strace_4.9-2.dsc 095bfea5c540b91d297ccac73b21b92fd54a24599fd70395db87ff9eb7fd6f65 521728 strace_4.9.orig.tar.xz ff7630e22de439f892c19c3a1e0e627a961e045bc6b885168a4092132d530a95 11072 strace_4.9-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/s/strace"
-  ],
-  "Files": [
-    "620bbbcb3c5b36e517edd09be749d360 2331 strace_4.9-2.dsc 885eafadb10f6c60464a266d3929a2a4 521728 strace_4.9.orig.tar.xz b61c395e04c82d600f75ddcdacca058a 11072 strace_4.9-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://sourceforge.net/projects/strace/"
-  ],
-  "Maintainer": [
-    "Steve McIntyre <93sam@debian.org>"
-  ],
-  "Package": [
-    "strace"
-  ],
-  "Package-List": [
-    "strace deb utils optional arch=alpha,amd64,arm64,armeb,armel,armhf,hppa,i386,ia64,m68k,mips,mipsel,or1k,powerpc,powerpcspe,ppc64,ppc64el,s390,s390x,sh4,sparc,sparc64,x32 strace-udeb udeb debian-installer extra arch=alpha,amd64,arm64,armeb,armel,armhf,hppa,i386,ia64,m68k,mips,mipsel,or1k,powerpc,powerpcspe,ppc64,ppc64el,s390,sh4,sparc,sparc64,x32 strace64 deb utils extra arch=i386,powerpc,s390,sparc"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "utils"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Version": [
-    "4.9-2"
-  ]
+	"Architecture": [
+		"alpha amd64 arm64 armeb armel armhf hppa i386 ia64 m68k mips mipsel or1k powerpc powerpcspe ppc64 ppc64el s390 s390x sh4 sparc sparc64 x32"
+	],
+	"Binary": [
+		"strace, strace64, strace-udeb"
+	],
+	"Build-Depends": [
+		"libc6-dev (>= 2.2.2) [!alpha !ia64], libc6.1-dev (>= 2.2.2) [alpha ia64], gcc-multilib [i386 powerpc s390 sparc], debhelper (>= 7.0.0)"
+	],
+	"Checksums-Sha1": [
+		"c9419ae68464d074223aad74dca13f22d9adc8b2 2331 strace_4.9-2.dsc 5e6c78f0dc75e64814e5f8ef49c66823b7f00ae9 521728 strace_4.9.orig.tar.xz d576cbd4c6301e1b17787a694feee14affb7075f 11072 strace_4.9-2.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"dc21f0281cc055a7e31d3da376f7b1122e85d3c195bb0fa3d8115d1f2395b536 2331 strace_4.9-2.dsc 095bfea5c540b91d297ccac73b21b92fd54a24599fd70395db87ff9eb7fd6f65 521728 strace_4.9.orig.tar.xz ff7630e22de439f892c19c3a1e0e627a961e045bc6b885168a4092132d530a95 11072 strace_4.9-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/s/strace"
+	],
+	"Files": [
+		"620bbbcb3c5b36e517edd09be749d360 2331 strace_4.9-2.dsc 885eafadb10f6c60464a266d3929a2a4 521728 strace_4.9.orig.tar.xz b61c395e04c82d600f75ddcdacca058a 11072 strace_4.9-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://sourceforge.net/projects/strace/"
+	],
+	"Maintainer": [
+		"Steve McIntyre <93sam@debian.org>"
+	],
+	"Package": [
+		"strace"
+	],
+	"Package-List": [
+		"strace deb utils optional arch=alpha,amd64,arm64,armeb,armel,armhf,hppa,i386,ia64,m68k,mips,mipsel,or1k,powerpc,powerpcspe,ppc64,ppc64el,s390,s390x,sh4,sparc,sparc64,x32 strace-udeb udeb debian-installer extra arch=alpha,amd64,arm64,armeb,armel,armhf,hppa,i386,ia64,m68k,mips,mipsel,or1k,powerpc,powerpcspe,ppc64,ppc64el,s390,sh4,sparc,sparc64,x32 strace64 deb utils extra arch=i386,powerpc,s390,sparc"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"utils"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Version": [
+		"4.9-2"
+	]
 }

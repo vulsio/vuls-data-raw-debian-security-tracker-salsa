@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "sendmail-bin, rmail, sensible-mda, libmilter1.0.1, libmilter1.0.1-dbg, libmilter-dev, sendmail-doc, sendmail, sendmail-base, sendmail-cf"
-  ],
-  "Build-Conflicts": [
-    "bind-dev, fakeroot (<< 0.4.5), libbind-dev"
-  ],
-  "Build-Depends": [
-    "make (>> 3.79.1-14), m4, cdbs, quilt, patchutils, dh-buildinfo, debhelper (>= 9), linux-libc-dev (>= 2.6.21-3) [linux-any], libdb-dev, libldap2-dev, libwrap0-dev, liblockfile-dev, libsasl2-dev, libssl-dev"
-  ],
-  "Build-Depends-Indep": [
-    "groff, bsdmainutils"
-  ],
-  "Checksums-Sha1": [
-    "b8d2825bcae45db53fb5630cf450304d47a0b66b 2633 sendmail_8.14.4-8+deb8u2.dsc 401096475f2e89f68ca5edc1456eb13269f950ad 2072180 sendmail_8.14.4.orig.tar.gz f25c3c8e2805c398a9a0bf49984e85032ad9bc1f 395860 sendmail_8.14.4-8+deb8u2.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "e34ec9c55b23f130999c5fcf81d4827023c64c02f9e5555d5dfeb203f13e7a5f 2633 sendmail_8.14.4-8+deb8u2.dsc 40246cd35e99c40f22f4e88d328ff0084ef925257f2b0708a62ee6588725c7a3 2072180 sendmail_8.14.4.orig.tar.gz 177ffe6a2191ac2c31688a8207115e7f3ff0d537f898c56b943d000429632d30 395860 sendmail_8.14.4-8+deb8u2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/s/sendmail"
-  ],
-  "Files": [
-    "5fc10ba170ba4195f72700c03af7a91f 2633 sendmail_8.14.4-8+deb8u2.dsc 55701f352bb8285e4de14ad6f3d48e35 2072180 sendmail_8.14.4.orig.tar.gz ff47729b84f8313fe421078b8a571aa1 395860 sendmail_8.14.4-8+deb8u2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.sendmail.org"
-  ],
-  "Maintainer": [
-    "Debian QA Group <packages@qa.debian.org>"
-  ],
-  "Package": [
-    "sendmail"
-  ],
-  "Package-List": [
-    "libmilter-dev deb libdevel extra arch=any libmilter1.0.1 deb libs extra arch=any libmilter1.0.1-dbg deb debug extra arch=any rmail deb mail extra arch=any sendmail deb mail extra arch=all sendmail-base deb mail extra arch=all sendmail-bin deb mail extra arch=any sendmail-cf deb mail extra arch=all sendmail-doc deb doc extra arch=all sensible-mda deb mail extra arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "mail"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=collab-maint/sendmail.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/collab-maint/sendmail.git"
-  ],
-  "Version": [
-    "8.14.4-8+deb8u2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"sendmail-bin, rmail, sensible-mda, libmilter1.0.1, libmilter1.0.1-dbg, libmilter-dev, sendmail-doc, sendmail, sendmail-base, sendmail-cf"
+	],
+	"Build-Conflicts": [
+		"bind-dev, fakeroot (<< 0.4.5), libbind-dev"
+	],
+	"Build-Depends": [
+		"make (>> 3.79.1-14), m4, cdbs, quilt, patchutils, dh-buildinfo, debhelper (>= 9), linux-libc-dev (>= 2.6.21-3) [linux-any], libdb-dev, libldap2-dev, libwrap0-dev, liblockfile-dev, libsasl2-dev, libssl-dev"
+	],
+	"Build-Depends-Indep": [
+		"groff, bsdmainutils"
+	],
+	"Checksums-Sha1": [
+		"b8d2825bcae45db53fb5630cf450304d47a0b66b 2633 sendmail_8.14.4-8+deb8u2.dsc 401096475f2e89f68ca5edc1456eb13269f950ad 2072180 sendmail_8.14.4.orig.tar.gz f25c3c8e2805c398a9a0bf49984e85032ad9bc1f 395860 sendmail_8.14.4-8+deb8u2.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"e34ec9c55b23f130999c5fcf81d4827023c64c02f9e5555d5dfeb203f13e7a5f 2633 sendmail_8.14.4-8+deb8u2.dsc 40246cd35e99c40f22f4e88d328ff0084ef925257f2b0708a62ee6588725c7a3 2072180 sendmail_8.14.4.orig.tar.gz 177ffe6a2191ac2c31688a8207115e7f3ff0d537f898c56b943d000429632d30 395860 sendmail_8.14.4-8+deb8u2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/s/sendmail"
+	],
+	"Files": [
+		"5fc10ba170ba4195f72700c03af7a91f 2633 sendmail_8.14.4-8+deb8u2.dsc 55701f352bb8285e4de14ad6f3d48e35 2072180 sendmail_8.14.4.orig.tar.gz ff47729b84f8313fe421078b8a571aa1 395860 sendmail_8.14.4-8+deb8u2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.sendmail.org"
+	],
+	"Maintainer": [
+		"Debian QA Group <packages@qa.debian.org>"
+	],
+	"Package": [
+		"sendmail"
+	],
+	"Package-List": [
+		"libmilter-dev deb libdevel extra arch=any libmilter1.0.1 deb libs extra arch=any libmilter1.0.1-dbg deb debug extra arch=any rmail deb mail extra arch=any sendmail deb mail extra arch=all sendmail-base deb mail extra arch=all sendmail-bin deb mail extra arch=any sendmail-cf deb mail extra arch=all sendmail-doc deb doc extra arch=all sensible-mda deb mail extra arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"mail"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=collab-maint/sendmail.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/collab-maint/sendmail.git"
+	],
+	"Version": [
+		"8.14.4-8+deb8u2"
+	]
 }

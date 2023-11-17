@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "linux-any"
-  ],
-  "Binary": [
-    "lttng-tools, liblttng-ctl0, liblttng-ctl-dev, python3-lttng"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 12), asciidoc, babeltrace <!nocheck>, bash-completion, bison, dh-python, libkmod-dev, liblttng-ust-dev (>= 2.13.0~), liblttng-ust-dev (<< 2.14.0~), libpopt-dev, liburcu-dev (>= 0.11.0~), libxml2-dev (>= 2.7.6~), pkg-config, procps <!nocheck>, python3-all-dev, swig (>= 2.0), xmlto"
-  ],
-  "Checksums-Sha256": [
-    "cb3062b44d54a19a2713039cd61496bb7a8acc900ca4ed75c267fe1d08511975 2695 ltt-control_2.13.11-2.dsc ac5baeef9fa690936b1ca01ecd1742da762c2c08511ff1b4e923938d94d0f979 1912766 ltt-control_2.13.11.orig.tar.bz2 609eb42e904208e205e49d458783d829043a22482addf71363b70511010c533d 833 ltt-control_2.13.11.orig.tar.bz2.asc 05a64b32855872f835d4223e541cb4ef69e7d6fc78802ed51f5a3f87a3dec2c7 21680 ltt-control_2.13.11-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/l/ltt-control"
-  ],
-  "Files": [
-    "b4fe5a351de658d9961356e493ecfdf6 2695 ltt-control_2.13.11-2.dsc 0b28abf04bd761b5394f95b7d55d72f9 1912766 ltt-control_2.13.11.orig.tar.bz2 274a13378fffdbdcc27ee07a7ec8370d 833 ltt-control_2.13.11.orig.tar.bz2.asc 9416731033beb7e7b0049a12f20b8ef0 21680 ltt-control_2.13.11-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://lttng.org/"
-  ],
-  "Maintainer": [
-    "Jon Bernard <jbernard@debian.org>"
-  ],
-  "Package": [
-    "ltt-control"
-  ],
-  "Package-List": [
-    "liblttng-ctl-dev deb libdevel optional arch=linux-any liblttng-ctl0 deb libs optional arch=linux-any lttng-tools deb utils optional arch=linux-any python3-lttng deb python optional arch=linux-any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "libs"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Uploaders": [
-    "Michael Jeanson <mjeanson@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian/ltt-control"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian/ltt-control.git"
-  ],
-  "Version": [
-    "2.13.11-2"
-  ]
+	"Architecture": [
+		"linux-any"
+	],
+	"Binary": [
+		"lttng-tools, liblttng-ctl0, liblttng-ctl-dev, python3-lttng"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 12), asciidoc, babeltrace <!nocheck>, bash-completion, bison, dh-python, libkmod-dev, liblttng-ust-dev (>= 2.13.0~), liblttng-ust-dev (<< 2.14.0~), libpopt-dev, liburcu-dev (>= 0.11.0~), libxml2-dev (>= 2.7.6~), pkg-config, procps <!nocheck>, python3-all-dev, swig (>= 2.0), xmlto"
+	],
+	"Checksums-Sha256": [
+		"cb3062b44d54a19a2713039cd61496bb7a8acc900ca4ed75c267fe1d08511975 2695 ltt-control_2.13.11-2.dsc ac5baeef9fa690936b1ca01ecd1742da762c2c08511ff1b4e923938d94d0f979 1912766 ltt-control_2.13.11.orig.tar.bz2 609eb42e904208e205e49d458783d829043a22482addf71363b70511010c533d 833 ltt-control_2.13.11.orig.tar.bz2.asc 05a64b32855872f835d4223e541cb4ef69e7d6fc78802ed51f5a3f87a3dec2c7 21680 ltt-control_2.13.11-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/l/ltt-control"
+	],
+	"Files": [
+		"b4fe5a351de658d9961356e493ecfdf6 2695 ltt-control_2.13.11-2.dsc 0b28abf04bd761b5394f95b7d55d72f9 1912766 ltt-control_2.13.11.orig.tar.bz2 274a13378fffdbdcc27ee07a7ec8370d 833 ltt-control_2.13.11.orig.tar.bz2.asc 9416731033beb7e7b0049a12f20b8ef0 21680 ltt-control_2.13.11-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://lttng.org/"
+	],
+	"Maintainer": [
+		"Jon Bernard <jbernard@debian.org>"
+	],
+	"Package": [
+		"ltt-control"
+	],
+	"Package-List": [
+		"liblttng-ctl-dev deb libdevel optional arch=linux-any liblttng-ctl0 deb libs optional arch=linux-any lttng-tools deb utils optional arch=linux-any python3-lttng deb python optional arch=linux-any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"libs"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Uploaders": [
+		"Michael Jeanson <mjeanson@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/ltt-control"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/ltt-control.git"
+	],
+	"Version": [
+		"2.13.11-2"
+	]
 }

@@ -1,68 +1,68 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-kombu, python-kombu-doc, python3-kombu"
-  ],
-  "Build-Conflicts": [
-    "python-cjson, python-sphinx"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 11), dh-python, python-all, python-setuptools, python3-all, python3-setuptools, python3-sphinx"
-  ],
-  "Build-Depends-Indep": [
-    "python-amqp (>= 2.1.4) <!nocheck>, python-anyjson (>= 0.3.3) <!nocheck>, python-beanstalkc <!nocheck>, python-boto <!nocheck>, python-case <!nocheck>, python-couchdb <!nocheck>, python-django <!nocheck>, python-funcsigs <!nocheck>, python-mock <!nocheck>, python-msgpack <!nocheck>, python-pika <!nocheck>, python-pymongo (>= 2.6.2) <!nocheck>, python-pytest <!nocheck>, python-redis <!nocheck>, python-simplejson <!nocheck>, python-sqlalchemy <!nocheck>, python-tz <!nocheck>, python-unittest2 <!nocheck>, python-vine <!nocheck>, python-yaml <!nocheck>, python3-amqp (>= 2.1.4) <!nocheck>, python3-anyjson (>= 0.3.3) <!nocheck>, python3-case <!nocheck>, python3-django <!nocheck>, python3-funcsigs <!nocheck>, python3-mock <!nocheck>, python3-msgpack <!nocheck>, python3-pymongo <!nocheck>, python3-pytest <!nocheck>, python3-redis <!nocheck>, python3-simplejson <!nocheck>, python3-sphinx-celery <!nodoc>, python3-sqlalchemy <!nocheck>, python3-tz <!nocheck>, python3-vine <!nocheck>, python3-yaml <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "b0b2627054ea21161756ea4f59693e2de0803b02a8a7e9bd1691f86891755cd4 3045 kombu_4.2.1-3.dsc 86adec6c60f63124e2082ea8481bbe4ebe04fde8ebed32c177c7f0cd2c1c9082 423926 kombu_4.2.1.orig.tar.gz f48be8472c6e044df64dbe1726e05c40f1d3cbdd52ca508dcd2a571d1f5bcaec 12656 kombu_4.2.1-3.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/k/kombu"
-  ],
-  "Files": [
-    "0fde73119116d05c4ce969f1e5a7fbdd 3045 kombu_4.2.1-3.dsc 15e43bdeacef6805a61e2cdee717f748 423926 kombu_4.2.1.orig.tar.gz 9e425ee07c24aa1991ad9d4263f824de 12656 kombu_4.2.1-3.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/celery/kombu/"
-  ],
-  "Maintainer": [
-    "Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "kombu"
-  ],
-  "Package-List": [
-    "python-kombu deb python optional arch=all python-kombu-doc deb doc optional arch=all profile=!nodoc python3-kombu deb python optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "python"
-  ],
-  "Standards-Version": [
-    "4.3.0"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "python-all, python3-all"
-  ],
-  "Uploaders": [
-    "Michael Fladischer <fladi@debian.org>, Brian May <bam@debian.org>, Christopher Hoskin <mans0954@debian.org>, Thomas Goirand <zigo@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/python-team/modules/kombu"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/python-team/modules/kombu.git"
-  ],
-  "Version": [
-    "4.2.1-3"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-kombu, python-kombu-doc, python3-kombu"
+	],
+	"Build-Conflicts": [
+		"python-cjson, python-sphinx"
+	],
+	"Build-Depends": [
+		"debhelper (>= 11), dh-python, python-all, python-setuptools, python3-all, python3-setuptools, python3-sphinx"
+	],
+	"Build-Depends-Indep": [
+		"python-amqp (>= 2.1.4) <!nocheck>, python-anyjson (>= 0.3.3) <!nocheck>, python-beanstalkc <!nocheck>, python-boto <!nocheck>, python-case <!nocheck>, python-couchdb <!nocheck>, python-django <!nocheck>, python-funcsigs <!nocheck>, python-mock <!nocheck>, python-msgpack <!nocheck>, python-pika <!nocheck>, python-pymongo (>= 2.6.2) <!nocheck>, python-pytest <!nocheck>, python-redis <!nocheck>, python-simplejson <!nocheck>, python-sqlalchemy <!nocheck>, python-tz <!nocheck>, python-unittest2 <!nocheck>, python-vine <!nocheck>, python-yaml <!nocheck>, python3-amqp (>= 2.1.4) <!nocheck>, python3-anyjson (>= 0.3.3) <!nocheck>, python3-case <!nocheck>, python3-django <!nocheck>, python3-funcsigs <!nocheck>, python3-mock <!nocheck>, python3-msgpack <!nocheck>, python3-pymongo <!nocheck>, python3-pytest <!nocheck>, python3-redis <!nocheck>, python3-simplejson <!nocheck>, python3-sphinx-celery <!nodoc>, python3-sqlalchemy <!nocheck>, python3-tz <!nocheck>, python3-vine <!nocheck>, python3-yaml <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"b0b2627054ea21161756ea4f59693e2de0803b02a8a7e9bd1691f86891755cd4 3045 kombu_4.2.1-3.dsc 86adec6c60f63124e2082ea8481bbe4ebe04fde8ebed32c177c7f0cd2c1c9082 423926 kombu_4.2.1.orig.tar.gz f48be8472c6e044df64dbe1726e05c40f1d3cbdd52ca508dcd2a571d1f5bcaec 12656 kombu_4.2.1-3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/k/kombu"
+	],
+	"Files": [
+		"0fde73119116d05c4ce969f1e5a7fbdd 3045 kombu_4.2.1-3.dsc 15e43bdeacef6805a61e2cdee717f748 423926 kombu_4.2.1.orig.tar.gz 9e425ee07c24aa1991ad9d4263f824de 12656 kombu_4.2.1-3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/celery/kombu/"
+	],
+	"Maintainer": [
+		"Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"kombu"
+	],
+	"Package-List": [
+		"python-kombu deb python optional arch=all python-kombu-doc deb doc optional arch=all profile=!nodoc python3-kombu deb python optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"python"
+	],
+	"Standards-Version": [
+		"4.3.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"python-all, python3-all"
+	],
+	"Uploaders": [
+		"Michael Fladischer <fladi@debian.org>, Brian May <bam@debian.org>, Christopher Hoskin <mans0954@debian.org>, Thomas Goirand <zigo@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/python-team/modules/kombu"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/python-team/modules/kombu.git"
+	],
+	"Version": [
+		"4.2.1-3"
+	]
 }

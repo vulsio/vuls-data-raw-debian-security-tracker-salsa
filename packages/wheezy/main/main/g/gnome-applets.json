@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "gnome-applets-data, gnome-applets, gnome-applets-dbg"
-  ],
-  "Build-Depends": [
-    "cdbs (>= 0.4.90~), dh-autoreconf, debhelper (>= 8), libgtk-3-dev (>= 3.0), libglib2.0-dev (>= 2.22.0), libgconf2-dev (>= 2.8.0), scrollkeeper (>= 0.1.4) | rarian-compat, libpanel-applet-4-dev (>= 2.91.90), libgtop2-dev (>= 2.11.92), libwnck-3-dev (>= 2.91.0), libnotify-dev (>= 0.7), libdbus-1-dev (>= 1.1.2), libdbus-glib-1-dev (>= 0.74), gnome-icon-theme (>= 2.15.91), libxml2-dev (>= 2.5.0), libgweather-3-dev (>= 2.91.0), libgucharmap-2-90-dev (>= 1:2.23.0), libpolkit-gobject-1-dev (>= 0.92), intltool (>= 0.35.0), libxt-dev, libx11-dev, gnome-settings-daemon-dev, python-dev (>= 2.6.6-3~), python-gobject-2-dev (>= 2.28), python-gi-dev, xsltproc, docbook-xsl, docbook-to-man, docbook-utils, gnome-doc-utils (>= 0.3.2), network-manager-dev (>= 0.7) [linux-any], libgstreamer0.10-dev (>= 0.10.2), libgstreamer-plugins-base0.10-dev (>= 0.10.2), x11proto-kb-dev, libcpufreq-dev, gnome-pkg-tools (>= 0.10), sharutils, libupower-glib-dev (>= 0.9.4)"
-  ],
-  "Checksums-Sha1": [
-    "a838d2546a9be36f67ad29e6d097d912c7e9ae0f 3082 gnome-applets_3.4.1-3.dsc 1a49f5da5d198c4d2e1e96d2f18608b98d7ba770 8000232 gnome-applets_3.4.1.orig.tar.xz 6540bcd21f8119e00d99efc397ab04a2e5f99512 28738 gnome-applets_3.4.1-3.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "6d47fbc8e472883ef9b11729fc631fb0af23fd356e116b528745dbc368f01302 3082 gnome-applets_3.4.1-3.dsc ec5487eb81fb29851b6336de94a329f5623e73830d61022e0e20fe3d038a415e 8000232 gnome-applets_3.4.1.orig.tar.xz 88e148dfd003af1c86068480beaccb3d0dfc4fa2a3ccc0c78c3e45cee75ee5fe 28738 gnome-applets_3.4.1-3.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/g/gnome-applets"
-  ],
-  "Files": [
-    "5892de5399dd2987fc2e7cb255117da3 3082 gnome-applets_3.4.1-3.dsc 82a4946d10257239214cf18edeeb34c1 8000232 gnome-applets_3.4.1.orig.tar.xz ee9733a852a7d9317883a99bd55552b8 28738 gnome-applets_3.4.1-3.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "gnome-applets"
-  ],
-  "Package-List": [
-    "gnome-applets deb gnome optional gnome-applets-data deb gnome optional gnome-applets-dbg deb debug extra"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "gnome"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Josselin Mouette <joss@debian.org>, Michael Biebl <biebl@debian.org>, Sebastian Dröge <slomo@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/gnome-applets"
-  ],
-  "Vcs-Svn": [
-    "svn://anonscm.debian.org/svn/pkg-gnome/desktop/unstable/gnome-applets"
-  ],
-  "Version": [
-    "3.4.1-3"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"gnome-applets-data, gnome-applets, gnome-applets-dbg"
+	],
+	"Build-Depends": [
+		"cdbs (>= 0.4.90~), dh-autoreconf, debhelper (>= 8), libgtk-3-dev (>= 3.0), libglib2.0-dev (>= 2.22.0), libgconf2-dev (>= 2.8.0), scrollkeeper (>= 0.1.4) | rarian-compat, libpanel-applet-4-dev (>= 2.91.90), libgtop2-dev (>= 2.11.92), libwnck-3-dev (>= 2.91.0), libnotify-dev (>= 0.7), libdbus-1-dev (>= 1.1.2), libdbus-glib-1-dev (>= 0.74), gnome-icon-theme (>= 2.15.91), libxml2-dev (>= 2.5.0), libgweather-3-dev (>= 2.91.0), libgucharmap-2-90-dev (>= 1:2.23.0), libpolkit-gobject-1-dev (>= 0.92), intltool (>= 0.35.0), libxt-dev, libx11-dev, gnome-settings-daemon-dev, python-dev (>= 2.6.6-3~), python-gobject-2-dev (>= 2.28), python-gi-dev, xsltproc, docbook-xsl, docbook-to-man, docbook-utils, gnome-doc-utils (>= 0.3.2), network-manager-dev (>= 0.7) [linux-any], libgstreamer0.10-dev (>= 0.10.2), libgstreamer-plugins-base0.10-dev (>= 0.10.2), x11proto-kb-dev, libcpufreq-dev, gnome-pkg-tools (>= 0.10), sharutils, libupower-glib-dev (>= 0.9.4)"
+	],
+	"Checksums-Sha1": [
+		"a838d2546a9be36f67ad29e6d097d912c7e9ae0f 3082 gnome-applets_3.4.1-3.dsc 1a49f5da5d198c4d2e1e96d2f18608b98d7ba770 8000232 gnome-applets_3.4.1.orig.tar.xz 6540bcd21f8119e00d99efc397ab04a2e5f99512 28738 gnome-applets_3.4.1-3.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"6d47fbc8e472883ef9b11729fc631fb0af23fd356e116b528745dbc368f01302 3082 gnome-applets_3.4.1-3.dsc ec5487eb81fb29851b6336de94a329f5623e73830d61022e0e20fe3d038a415e 8000232 gnome-applets_3.4.1.orig.tar.xz 88e148dfd003af1c86068480beaccb3d0dfc4fa2a3ccc0c78c3e45cee75ee5fe 28738 gnome-applets_3.4.1-3.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/g/gnome-applets"
+	],
+	"Files": [
+		"5892de5399dd2987fc2e7cb255117da3 3082 gnome-applets_3.4.1-3.dsc 82a4946d10257239214cf18edeeb34c1 8000232 gnome-applets_3.4.1.orig.tar.xz ee9733a852a7d9317883a99bd55552b8 28738 gnome-applets_3.4.1-3.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"gnome-applets"
+	],
+	"Package-List": [
+		"gnome-applets deb gnome optional gnome-applets-data deb gnome optional gnome-applets-dbg deb debug extra"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"gnome"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Josselin Mouette <joss@debian.org>, Michael Biebl <biebl@debian.org>, Sebastian Dröge <slomo@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/gnome-applets"
+	],
+	"Vcs-Svn": [
+		"svn://anonscm.debian.org/svn/pkg-gnome/desktop/unstable/gnome-applets"
+	],
+	"Version": [
+		"3.4.1-3"
+	]
 }

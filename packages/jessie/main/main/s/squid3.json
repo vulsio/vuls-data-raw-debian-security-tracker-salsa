@@ -1,53 +1,53 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "squid3, squid3-dbg, squid3-common, squidclient, squid-cgi, squid-purge"
-  ],
-  "Build-Depends": [
-    "libldap2-dev, libpam0g-dev, libdb-dev, cdbs, libsasl2-dev, debhelper (>= 5), libcppunit-dev, libkrb5-dev, comerr-dev, libcap2-dev [linux-any], libecap2-dev (<< 1.0.0), libexpat1-dev, libxml2-dev, autotools-dev, libltdl-dev, dpkg-dev (>= 1.16.1~), pkg-config, libnetfilter-conntrack-dev [linux-any], nettle-dev, dh-autoreconf"
-  ],
-  "Checksums-Sha1": [
-    "137587c8ae97e80fc6fa79a72552cd01a7c9d7c9 2501 squid3_3.4.8-6+deb8u5.dsc 4a5fec155d91f3d9eedf16ea474970e293699cc9 3042254 squid3_3.4.8.orig.tar.bz2 e08ada6fc5ee6bb2f81b66226909f96c606e5ffc 41736 squid3_3.4.8-6+deb8u5.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "912451725b69ef760bd78fa1d257d307fdce6ea00dcbc946c7b0c875c6b62b3c 2501 squid3_3.4.8-6+deb8u5.dsc d0534c1cb6ad7de9e2c9f3fc192df92d4c454e3e4c5e00c5086997709153c455 3042254 squid3_3.4.8.orig.tar.bz2 fe530e459717e4079aebf945962e492f7394255f374c6b0af287db076dfc9338 41736 squid3_3.4.8-6+deb8u5.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/s/squid3"
-  ],
-  "Files": [
-    "ebae40e54309fbad44a7c9f5b8913fba 2501 squid3_3.4.8-6+deb8u5.dsc 094bd5f974d13485d51d02e93ec6027b 3042254 squid3_3.4.8.orig.tar.bz2 f3cca72fc077be94ad5e1f94fd4c30c0 41736 squid3_3.4.8-6+deb8u5.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.squid-cache.org"
-  ],
-  "Maintainer": [
-    "Luigi Gangitano <luigi@debian.org>"
-  ],
-  "Package": [
-    "squid3"
-  ],
-  "Package-List": [
-    "squid-cgi deb web optional arch=any squid-purge deb web optional arch=any squid3 deb web optional arch=any squid3-common deb web optional arch=all squid3-dbg deb debug extra arch=any squidclient deb web optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "web"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-squid/pkg-squid3.git/"
-  ],
-  "Version": [
-    "3.4.8-6+deb8u5"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"squid3, squid3-dbg, squid3-common, squidclient, squid-cgi, squid-purge"
+	],
+	"Build-Depends": [
+		"libldap2-dev, libpam0g-dev, libdb-dev, cdbs, libsasl2-dev, debhelper (>= 5), libcppunit-dev, libkrb5-dev, comerr-dev, libcap2-dev [linux-any], libecap2-dev (<< 1.0.0), libexpat1-dev, libxml2-dev, autotools-dev, libltdl-dev, dpkg-dev (>= 1.16.1~), pkg-config, libnetfilter-conntrack-dev [linux-any], nettle-dev, dh-autoreconf"
+	],
+	"Checksums-Sha1": [
+		"137587c8ae97e80fc6fa79a72552cd01a7c9d7c9 2501 squid3_3.4.8-6+deb8u5.dsc 4a5fec155d91f3d9eedf16ea474970e293699cc9 3042254 squid3_3.4.8.orig.tar.bz2 e08ada6fc5ee6bb2f81b66226909f96c606e5ffc 41736 squid3_3.4.8-6+deb8u5.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"912451725b69ef760bd78fa1d257d307fdce6ea00dcbc946c7b0c875c6b62b3c 2501 squid3_3.4.8-6+deb8u5.dsc d0534c1cb6ad7de9e2c9f3fc192df92d4c454e3e4c5e00c5086997709153c455 3042254 squid3_3.4.8.orig.tar.bz2 fe530e459717e4079aebf945962e492f7394255f374c6b0af287db076dfc9338 41736 squid3_3.4.8-6+deb8u5.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/s/squid3"
+	],
+	"Files": [
+		"ebae40e54309fbad44a7c9f5b8913fba 2501 squid3_3.4.8-6+deb8u5.dsc 094bd5f974d13485d51d02e93ec6027b 3042254 squid3_3.4.8.orig.tar.bz2 f3cca72fc077be94ad5e1f94fd4c30c0 41736 squid3_3.4.8-6+deb8u5.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.squid-cache.org"
+	],
+	"Maintainer": [
+		"Luigi Gangitano <luigi@debian.org>"
+	],
+	"Package": [
+		"squid3"
+	],
+	"Package-List": [
+		"squid-cgi deb web optional arch=any squid-purge deb web optional arch=any squid3 deb web optional arch=any squid3-common deb web optional arch=all squid3-dbg deb debug extra arch=any squidclient deb web optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"web"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-squid/pkg-squid3.git/"
+	],
+	"Version": [
+		"3.4.8-6+deb8u5"
+	]
 }

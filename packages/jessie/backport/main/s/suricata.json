@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "suricata, suricata-oinkmaster, suricata-dbg, libhtp-0.5.23-1, libhtp-dev"
-  ],
-  "Build-Conflicts": [
-    "libhtp-dev"
-  ],
-  "Build-Depends": [
-    "autotools-dev, debhelper (>= 9.20151004), dh-autoreconf, dh-systemd, libcap-ng-dev, libgeoip-dev, libhiredis-dev, libjansson-dev, libluajit-5.1-dev [i386 amd64 powerpc mips armel armhf], libhyperscan-dev (>= 4.4.0) [i386 amd64 x32], libmagic-dev, libnet1-dev | libnet-dev, libnetfilter-log-dev, libnetfilter-queue-dev, libnspr4-dev, libnss3-dev, libpcap-dev, libpcre3-dev, libprelude-dev, libyaml-dev, python, zlib1g-dev | libz-dev"
-  ],
-  "Checksums-Sha1": [
-    "5e952815830e11cb2452c7686e770bb188c546c0 2662 suricata_3.2.1-1~bpo8+1.dsc 7dd27250aa5ad962855d531fc0352e26ec5daf16 11754332 suricata_3.2.1.orig.tar.gz 3f9be2d5bad1e1ea6b79fef578015d47103e47b9 19824 suricata_3.2.1-1~bpo8+1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "9e2884753dff59a09aacdeceb9bf2039cdf88515d2520d63ccf7cd9da56f0f40 2662 suricata_3.2.1-1~bpo8+1.dsc 0e0b0cf49016804bb2fb1fc4327341617e76a67902f4e03e0ef6d16c1d7d3994 11754332 suricata_3.2.1.orig.tar.gz 3b33daa86343efde82841694545cf600064119933f1c37b9f4c95f778bc007fd 19824 suricata_3.2.1-1~bpo8+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/s/suricata"
-  ],
-  "Files": [
-    "a0cb14831e0d4b718785fa15227ac67b 2662 suricata_3.2.1-1~bpo8+1.dsc 61b5cbb70591ea8ff4b26a0b00214a54 11754332 suricata_3.2.1.orig.tar.gz 6e5462efcc7e061e10f8bbd0ac2e2fb3 19824 suricata_3.2.1-1~bpo8+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.suricata-ids.org/"
-  ],
-  "Maintainer": [
-    "Pierre Chifflier <pollux@debian.org>"
-  ],
-  "Package": [
-    "suricata"
-  ],
-  "Package-List": [
-    "libhtp-0.5.23-1 deb libs extra arch=any libhtp-dev deb libdevel optional arch=linux-any suricata deb net optional arch=linux-any suricata-dbg deb debug extra arch=any suricata-oinkmaster deb net optional arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Arturo Borrero Gonzalez <arturo@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-suricata/pkg-suricata.git"
-  ],
-  "Vcs-Git": [
-    "https://alioth.debian.org/anonscm/git/pkg-suricata/pkg-suricata.git"
-  ],
-  "Version": [
-    "3.2.1-1~bpo8+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"suricata, suricata-oinkmaster, suricata-dbg, libhtp-0.5.23-1, libhtp-dev"
+	],
+	"Build-Conflicts": [
+		"libhtp-dev"
+	],
+	"Build-Depends": [
+		"autotools-dev, debhelper (>= 9.20151004), dh-autoreconf, dh-systemd, libcap-ng-dev, libgeoip-dev, libhiredis-dev, libjansson-dev, libluajit-5.1-dev [i386 amd64 powerpc mips armel armhf], libhyperscan-dev (>= 4.4.0) [i386 amd64 x32], libmagic-dev, libnet1-dev | libnet-dev, libnetfilter-log-dev, libnetfilter-queue-dev, libnspr4-dev, libnss3-dev, libpcap-dev, libpcre3-dev, libprelude-dev, libyaml-dev, python, zlib1g-dev | libz-dev"
+	],
+	"Checksums-Sha1": [
+		"5e952815830e11cb2452c7686e770bb188c546c0 2662 suricata_3.2.1-1~bpo8+1.dsc 7dd27250aa5ad962855d531fc0352e26ec5daf16 11754332 suricata_3.2.1.orig.tar.gz 3f9be2d5bad1e1ea6b79fef578015d47103e47b9 19824 suricata_3.2.1-1~bpo8+1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"9e2884753dff59a09aacdeceb9bf2039cdf88515d2520d63ccf7cd9da56f0f40 2662 suricata_3.2.1-1~bpo8+1.dsc 0e0b0cf49016804bb2fb1fc4327341617e76a67902f4e03e0ef6d16c1d7d3994 11754332 suricata_3.2.1.orig.tar.gz 3b33daa86343efde82841694545cf600064119933f1c37b9f4c95f778bc007fd 19824 suricata_3.2.1-1~bpo8+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/s/suricata"
+	],
+	"Files": [
+		"a0cb14831e0d4b718785fa15227ac67b 2662 suricata_3.2.1-1~bpo8+1.dsc 61b5cbb70591ea8ff4b26a0b00214a54 11754332 suricata_3.2.1.orig.tar.gz 6e5462efcc7e061e10f8bbd0ac2e2fb3 19824 suricata_3.2.1-1~bpo8+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.suricata-ids.org/"
+	],
+	"Maintainer": [
+		"Pierre Chifflier <pollux@debian.org>"
+	],
+	"Package": [
+		"suricata"
+	],
+	"Package-List": [
+		"libhtp-0.5.23-1 deb libs extra arch=any libhtp-dev deb libdevel optional arch=linux-any suricata deb net optional arch=linux-any suricata-dbg deb debug extra arch=any suricata-oinkmaster deb net optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Arturo Borrero Gonzalez <arturo@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-suricata/pkg-suricata.git"
+	],
+	"Vcs-Git": [
+		"https://alioth.debian.org/anonscm/git/pkg-suricata/pkg-suricata.git"
+	],
+	"Version": [
+		"3.2.1-1~bpo8+1"
+	]
 }

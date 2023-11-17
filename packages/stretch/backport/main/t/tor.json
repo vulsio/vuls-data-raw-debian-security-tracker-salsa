@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "tor, tor-geoipdb"
-  ],
-  "Build-Conflicts": [
-    "libnacl-dev, libseccomp-dev [!amd64 !i386]"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9.20160114), quilt, libssl-dev, zlib1g-dev, libevent-dev (>= 1.1), asciidoc (>= 8.2), docbook-xml, docbook-xsl, xmlto, dh-apparmor, libseccomp-dev [amd64 i386], dh-systemd [linux-any], libsystemd-dev [linux-any], pkg-config [linux-any], libcap-dev [linux-any], dh-autoreconf, liblzma-dev, libzstd-dev"
-  ],
-  "Checksums-Sha256": [
-    "0b803905d9746ffb5355438e38dab78be557bc145f1f746227862ee87a5d04a0 2020 tor_0.3.5.10-1~bpo9+1.dsc 0196be233826e19d1809f05ed01955ad5e8245d3267b9754410230222859f9c4 7204124 tor_0.3.5.10.orig.tar.gz b2e480dba9ed761db08809505215855ab44eac79ea22e7fc519df155b01a0137 50926 tor_0.3.5.10-1~bpo9+1.diff.gz"
-  ],
-  "Directory": [
-    "pool/main/t/tor"
-  ],
-  "Files": [
-    "a0915d6893f2bd7e3a0c4838de2d1f12 2020 tor_0.3.5.10-1~bpo9+1.dsc 9bcabbe1ac63c7353675b2709250f3a6 7204124 tor_0.3.5.10.orig.tar.gz c283e57f65e472a5106d6b0524fbbeeb 50926 tor_0.3.5.10-1~bpo9+1.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Homepage": [
-    "https://www.torproject.org/"
-  ],
-  "Maintainer": [
-    "Peter Palfrader <weasel@debian.org>"
-  ],
-  "Package": [
-    "tor"
-  ],
-  "Package-List": [
-    "tor deb net optional arch=any tor-geoipdb deb net extra arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "ca-certificates, colorized-logs, curl, diffutils, netcat-openbsd, onionshare, torsocks, unzip"
-  ],
-  "Vcs-Browser": [
-    "https://gitweb.torproject.org/debian/tor.git"
-  ],
-  "Vcs-Git": [
-    "https://git.torproject.org/debian/tor.git"
-  ],
-  "Version": [
-    "0.3.5.10-1~bpo9+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"tor, tor-geoipdb"
+	],
+	"Build-Conflicts": [
+		"libnacl-dev, libseccomp-dev [!amd64 !i386]"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9.20160114), quilt, libssl-dev, zlib1g-dev, libevent-dev (>= 1.1), asciidoc (>= 8.2), docbook-xml, docbook-xsl, xmlto, dh-apparmor, libseccomp-dev [amd64 i386], dh-systemd [linux-any], libsystemd-dev [linux-any], pkg-config [linux-any], libcap-dev [linux-any], dh-autoreconf, liblzma-dev, libzstd-dev"
+	],
+	"Checksums-Sha256": [
+		"0b803905d9746ffb5355438e38dab78be557bc145f1f746227862ee87a5d04a0 2020 tor_0.3.5.10-1~bpo9+1.dsc 0196be233826e19d1809f05ed01955ad5e8245d3267b9754410230222859f9c4 7204124 tor_0.3.5.10.orig.tar.gz b2e480dba9ed761db08809505215855ab44eac79ea22e7fc519df155b01a0137 50926 tor_0.3.5.10-1~bpo9+1.diff.gz"
+	],
+	"Directory": [
+		"pool/main/t/tor"
+	],
+	"Files": [
+		"a0915d6893f2bd7e3a0c4838de2d1f12 2020 tor_0.3.5.10-1~bpo9+1.dsc 9bcabbe1ac63c7353675b2709250f3a6 7204124 tor_0.3.5.10.orig.tar.gz c283e57f65e472a5106d6b0524fbbeeb 50926 tor_0.3.5.10-1~bpo9+1.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Homepage": [
+		"https://www.torproject.org/"
+	],
+	"Maintainer": [
+		"Peter Palfrader <weasel@debian.org>"
+	],
+	"Package": [
+		"tor"
+	],
+	"Package-List": [
+		"tor deb net optional arch=any tor-geoipdb deb net extra arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"ca-certificates, colorized-logs, curl, diffutils, netcat-openbsd, onionshare, torsocks, unzip"
+	],
+	"Vcs-Browser": [
+		"https://gitweb.torproject.org/debian/tor.git"
+	],
+	"Vcs-Git": [
+		"https://git.torproject.org/debian/tor.git"
+	],
+	"Version": [
+		"0.3.5.10-1~bpo9+1"
+	]
 }

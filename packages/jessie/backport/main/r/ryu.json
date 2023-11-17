@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-ryu, ryu-bin, python-ryu-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-systemd, dh-python, openstack-pkg-tools, python-all, python-pbr, python-setuptools, python-sphinx, sphinx-common"
-  ],
-  "Build-Depends-Indep": [
-    "python-eventlet, python-formencode, python-lxml, python-mock, python-msgpack, python-netaddr, python-nose, python-oslo.config, python-paramiko, python-routes, python-six, python-webob"
-  ],
-  "Checksums-Sha1": [
-    "e35fe4c4daa88b93a53aa240bb1d6304ef4d6370 2397 ryu_3.30+dfsg1-2~bpo8+1.dsc 949e40d3373796983695d2319a1d53a39ad3a82a 757620 ryu_3.30+dfsg1.orig.tar.xz 1ee453e18ad91afccf334bb0deec6529b037950c 6336 ryu_3.30+dfsg1-2~bpo8+1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "33d388c20afe7264e05af284577277b23a82a0dfdc01c4a1ff87440f19789c69 2397 ryu_3.30+dfsg1-2~bpo8+1.dsc 5c1a4de1aa3f4967f75cbf41edc123f4d49400f58a1835567f654a20faace584 757620 ryu_3.30+dfsg1.orig.tar.xz 21612294994118aef3597813fc16994a036c96071e96b7cb0bab6447a6e0d4dd 6336 ryu_3.30+dfsg1-2~bpo8+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/ryu"
-  ],
-  "Files": [
-    "f3e5893d8766ef568246a691efa8b9c0 2397 ryu_3.30+dfsg1-2~bpo8+1.dsc 75ca2645f1740292ebfe70010a5e914d 757620 ryu_3.30+dfsg1.orig.tar.xz d5e728cf8d147054351f8700e346d27e 6336 ryu_3.30+dfsg1-2~bpo8+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://osrg.github.io/ryu/"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "ryu"
-  ],
-  "Package-List": [
-    "python-ryu deb python optional arch=all python-ryu-doc deb doc optional arch=all ryu-bin deb net optional arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.7"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>, Dariusz Dwornikowski <dariusz.dwornikowski@cs.put.poznan.pl>,"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/gitweb/?p=openstack/ryu.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/openstack/ryu.git"
-  ],
-  "Version": [
-    "3.30+dfsg1-2~bpo8+1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-ryu, ryu-bin, python-ryu-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-systemd, dh-python, openstack-pkg-tools, python-all, python-pbr, python-setuptools, python-sphinx, sphinx-common"
+	],
+	"Build-Depends-Indep": [
+		"python-eventlet, python-formencode, python-lxml, python-mock, python-msgpack, python-netaddr, python-nose, python-oslo.config, python-paramiko, python-routes, python-six, python-webob"
+	],
+	"Checksums-Sha1": [
+		"e35fe4c4daa88b93a53aa240bb1d6304ef4d6370 2397 ryu_3.30+dfsg1-2~bpo8+1.dsc 949e40d3373796983695d2319a1d53a39ad3a82a 757620 ryu_3.30+dfsg1.orig.tar.xz 1ee453e18ad91afccf334bb0deec6529b037950c 6336 ryu_3.30+dfsg1-2~bpo8+1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"33d388c20afe7264e05af284577277b23a82a0dfdc01c4a1ff87440f19789c69 2397 ryu_3.30+dfsg1-2~bpo8+1.dsc 5c1a4de1aa3f4967f75cbf41edc123f4d49400f58a1835567f654a20faace584 757620 ryu_3.30+dfsg1.orig.tar.xz 21612294994118aef3597813fc16994a036c96071e96b7cb0bab6447a6e0d4dd 6336 ryu_3.30+dfsg1-2~bpo8+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/ryu"
+	],
+	"Files": [
+		"f3e5893d8766ef568246a691efa8b9c0 2397 ryu_3.30+dfsg1-2~bpo8+1.dsc 75ca2645f1740292ebfe70010a5e914d 757620 ryu_3.30+dfsg1.orig.tar.xz d5e728cf8d147054351f8700e346d27e 6336 ryu_3.30+dfsg1-2~bpo8+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://osrg.github.io/ryu/"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"ryu"
+	],
+	"Package-List": [
+		"python-ryu deb python optional arch=all python-ryu-doc deb doc optional arch=all ryu-bin deb net optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.7"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>, Dariusz Dwornikowski <dariusz.dwornikowski@cs.put.poznan.pl>,"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/gitweb/?p=openstack/ryu.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/openstack/ryu.git"
+	],
+	"Version": [
+		"3.30+dfsg1-2~bpo8+1"
+	]
 }

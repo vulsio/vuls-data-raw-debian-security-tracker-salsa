@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libassuan0, libassuan-dev, libassuan-mingw-w64-dev"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), libgpg-error-dev (>= 1.33)"
-  ],
-  "Build-Depends-Indep": [
-    "libgpg-error-mingw-w64-dev, mingw-w64"
-  ],
-  "Checksums-Sha256": [
-    "5216dd7bca769143cf39673b018a11b2601fde867fd4b62226088bb9177415b5 1997 libassuan_2.5.6-1.dsc e9fd27218d5394904e4e39788f9b1742711c3e6b41689a31aa3380bd5aa4f426 577012 libassuan_2.5.6.orig.tar.bz2 a1be6f5611de2f563a904c539e0415dd5823d9e1c4c0c1071418e7412174eaea 228 libassuan_2.5.6.orig.tar.bz2.asc 58a3077b2ecda637de25f54320a3ad2087a250f6f8118271ea22968a4e994ca7 14284 libassuan_2.5.6-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/liba/libassuan"
-  ],
-  "Files": [
-    "9d4413891fbcd94e8c91dbc996f973a3 1997 libassuan_2.5.6-1.dsc 9c22e76168675ec996b9d620ffbb7b27 577012 libassuan_2.5.6.orig.tar.bz2 cc0b472a26ba33b6aa12e8ab9a6db6c3 228 libassuan_2.5.6.orig.tar.bz2.asc 12392a7370509639254b05424d568748 14284 libassuan_2.5.6-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.gnupg.org/related_software/libassuan/index.html"
-  ],
-  "Maintainer": [
-    "Debian GnuPG-Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "libassuan"
-  ],
-  "Package-List": [
-    "libassuan-dev deb libdevel optional arch=any libassuan-mingw-w64-dev deb libdevel optional arch=all libassuan0 deb libs optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "libdevel"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential, gcc-mingw-w64-i686, gcc-mingw-w64-x86-64, pkg-config, wine32, wine64"
-  ],
-  "Uploaders": [
-    "Eric Dorland <eric@debian.org>, Daniel Kahn Gillmor <dkg@fifthhorseman.net>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian/libassuan"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian/libassuan.git"
-  ],
-  "Version": [
-    "2.5.6-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libassuan0, libassuan-dev, libassuan-mingw-w64-dev"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), libgpg-error-dev (>= 1.33)"
+	],
+	"Build-Depends-Indep": [
+		"libgpg-error-mingw-w64-dev, mingw-w64"
+	],
+	"Checksums-Sha256": [
+		"5216dd7bca769143cf39673b018a11b2601fde867fd4b62226088bb9177415b5 1997 libassuan_2.5.6-1.dsc e9fd27218d5394904e4e39788f9b1742711c3e6b41689a31aa3380bd5aa4f426 577012 libassuan_2.5.6.orig.tar.bz2 a1be6f5611de2f563a904c539e0415dd5823d9e1c4c0c1071418e7412174eaea 228 libassuan_2.5.6.orig.tar.bz2.asc 58a3077b2ecda637de25f54320a3ad2087a250f6f8118271ea22968a4e994ca7 14284 libassuan_2.5.6-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/liba/libassuan"
+	],
+	"Files": [
+		"9d4413891fbcd94e8c91dbc996f973a3 1997 libassuan_2.5.6-1.dsc 9c22e76168675ec996b9d620ffbb7b27 577012 libassuan_2.5.6.orig.tar.bz2 cc0b472a26ba33b6aa12e8ab9a6db6c3 228 libassuan_2.5.6.orig.tar.bz2.asc 12392a7370509639254b05424d568748 14284 libassuan_2.5.6-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.gnupg.org/related_software/libassuan/index.html"
+	],
+	"Maintainer": [
+		"Debian GnuPG-Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"libassuan"
+	],
+	"Package-List": [
+		"libassuan-dev deb libdevel optional arch=any libassuan-mingw-w64-dev deb libdevel optional arch=all libassuan0 deb libs optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"libdevel"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, gcc-mingw-w64-i686, gcc-mingw-w64-x86-64, pkg-config, wine32, wine64"
+	],
+	"Uploaders": [
+		"Eric Dorland <eric@debian.org>, Daniel Kahn Gillmor <dkg@fifthhorseman.net>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/libassuan"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/libassuan.git"
+	],
+	"Version": [
+		"2.5.6-1"
+	]
 }

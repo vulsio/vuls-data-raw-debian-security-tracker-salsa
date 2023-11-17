@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-os-vif, python-os-vif-doc, python3-os-vif"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 10), dh-python, openstack-pkg-tools, python-all, python-pbr (>= 2.0.0), python-setuptools, python3-all, python3-pbr (>= 2.0.0), python3-setuptools, python3-sphinx (>= 1.6.2)"
-  ],
-  "Build-Depends-Indep": [
-    "python-coverage, python-hacking, python-netaddr, python-oslo.concurrency (>= 3.20.0), python-oslo.config (>= 1:5.1.0), python-oslo.i18n (>= 3.15.3), python-oslo.log (>= 3.30.0), python-oslo.privsep (>= 1.23.0), python-oslo.versionedobjects (>= 1.28.0), python-oslotest (>= 1:1.10.0) <!nocheck>, python-pyroute2 (>= 0.4.21), python-reno, python-six, python-stestr <!nocheck>, python-stevedore (>= 1.20.0), python-testscenarios (>= 0.4) <!nocheck>, python-testtools (>= 2.2.0) <!nocheck>, python3-netaddr, python3-openstackdocstheme (>= 1.18.1), python3-oslo.concurrency (>= 3.20.0), python3-oslo.config (>= 1:5.1.0), python3-oslo.i18n (>= 3.15.3), python3-oslo.log (>= 3.30.0), python3-oslo.privsep (>= 1.23.0), python3-oslo.versionedobjects (>= 1.28.0), python3-oslosphinx (>= 2.5.0), python3-oslotest (>= 1:1.10.0) <!nocheck>, python3-pyroute2 (>= 0.4.21), python3-reno, python3-six, python3-stestr <!nocheck>, python3-stevedore (>= 1.20.0), python3-testscenarios (>= 0.4) <!nocheck>, python3-testtools (>= 2.2.0) <!nocheck>, subunit <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "5c01edcb264318d20475e835286368b7b87923048ffd737f1b87483defa94ca6 3376 python-os-vif_1.11.1-1.dsc 62630b413aba5bac59becbb95cb006e0c3370c931f93891cfdc8c7c6dd8366c0 50684 python-os-vif_1.11.1.orig.tar.xz c91b8a41fe5be6cfb90deb66deaf70311aa1e061e4c12eb9972abffaf5e6efc2 3072 python-os-vif_1.11.1-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/python-os-vif"
-  ],
-  "Files": [
-    "a07a82a13b17bedc892f14de152c690a 3376 python-os-vif_1.11.1-1.dsc 293ab2299b5ab0661b44816063665b58 50684 python-os-vif_1.11.1.orig.tar.xz e2dcf50472d3c10d73509413b566ff91 3072 python-os-vif_1.11.1-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/openstack/os-vif"
-  ],
-  "Maintainer": [
-    "Debian OpenStack <team+openstack@tracker.debian.org>"
-  ],
-  "Package": [
-    "python-os-vif"
-  ],
-  "Package-List": [
-    "python-os-vif deb python optional arch=all python-os-vif-doc deb doc optional arch=all python3-os-vif deb python optional arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.1.3"
-  ],
-  "Uploaders": [
-    "Ivan Udovichenko <iudovichenko@mirantis.com>, Thomas Goirand <zigo@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/openstack-team/libs/python-os-vif"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/openstack-team/libs/python-os-vif.git"
-  ],
-  "Version": [
-    "1.11.1-1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-os-vif, python-os-vif-doc, python3-os-vif"
+	],
+	"Build-Depends": [
+		"debhelper (>= 10), dh-python, openstack-pkg-tools, python-all, python-pbr (>= 2.0.0), python-setuptools, python3-all, python3-pbr (>= 2.0.0), python3-setuptools, python3-sphinx (>= 1.6.2)"
+	],
+	"Build-Depends-Indep": [
+		"python-coverage, python-hacking, python-netaddr, python-oslo.concurrency (>= 3.20.0), python-oslo.config (>= 1:5.1.0), python-oslo.i18n (>= 3.15.3), python-oslo.log (>= 3.30.0), python-oslo.privsep (>= 1.23.0), python-oslo.versionedobjects (>= 1.28.0), python-oslotest (>= 1:1.10.0) <!nocheck>, python-pyroute2 (>= 0.4.21), python-reno, python-six, python-stestr <!nocheck>, python-stevedore (>= 1.20.0), python-testscenarios (>= 0.4) <!nocheck>, python-testtools (>= 2.2.0) <!nocheck>, python3-netaddr, python3-openstackdocstheme (>= 1.18.1), python3-oslo.concurrency (>= 3.20.0), python3-oslo.config (>= 1:5.1.0), python3-oslo.i18n (>= 3.15.3), python3-oslo.log (>= 3.30.0), python3-oslo.privsep (>= 1.23.0), python3-oslo.versionedobjects (>= 1.28.0), python3-oslosphinx (>= 2.5.0), python3-oslotest (>= 1:1.10.0) <!nocheck>, python3-pyroute2 (>= 0.4.21), python3-reno, python3-six, python3-stestr <!nocheck>, python3-stevedore (>= 1.20.0), python3-testscenarios (>= 0.4) <!nocheck>, python3-testtools (>= 2.2.0) <!nocheck>, subunit <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"5c01edcb264318d20475e835286368b7b87923048ffd737f1b87483defa94ca6 3376 python-os-vif_1.11.1-1.dsc 62630b413aba5bac59becbb95cb006e0c3370c931f93891cfdc8c7c6dd8366c0 50684 python-os-vif_1.11.1.orig.tar.xz c91b8a41fe5be6cfb90deb66deaf70311aa1e061e4c12eb9972abffaf5e6efc2 3072 python-os-vif_1.11.1-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-os-vif"
+	],
+	"Files": [
+		"a07a82a13b17bedc892f14de152c690a 3376 python-os-vif_1.11.1-1.dsc 293ab2299b5ab0661b44816063665b58 50684 python-os-vif_1.11.1.orig.tar.xz e2dcf50472d3c10d73509413b566ff91 3072 python-os-vif_1.11.1-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/openstack/os-vif"
+	],
+	"Maintainer": [
+		"Debian OpenStack <team+openstack@tracker.debian.org>"
+	],
+	"Package": [
+		"python-os-vif"
+	],
+	"Package-List": [
+		"python-os-vif deb python optional arch=all python-os-vif-doc deb doc optional arch=all python3-os-vif deb python optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.1.3"
+	],
+	"Uploaders": [
+		"Ivan Udovichenko <iudovichenko@mirantis.com>, Thomas Goirand <zigo@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/openstack-team/libs/python-os-vif"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/openstack-team/libs/python-os-vif.git"
+	],
+	"Version": [
+		"1.11.1-1"
+	]
 }

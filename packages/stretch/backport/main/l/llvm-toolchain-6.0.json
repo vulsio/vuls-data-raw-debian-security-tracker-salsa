@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "clang-6.0, clang-tools-6.0, clang-format-6.0, clang-tidy-6.0, clang-6.0-doc, libclang1-6.0, libclang1-6.0-dbg, libclang-6.0-dev, libclang-common-6.0-dev, libfuzzer-6.0-dev, python-clang-6.0, clang-6.0-examples, libllvm6.0, libllvm6.0-dbg, llvm-6.0, llvm-6.0-runtime, llvm-6.0-dev, llvm-6.0-tools, llvm-6.0-doc, llvm-6.0-examples, lld-6.0, liblld-6.0, liblld-6.0-dev, lldb-6.0, liblldb-6.0, liblldb-6.0-dbg, python-lldb-6.0, liblldb-6.0-dev"
-  ],
-  "Build-Conflicts": [
-    "libllvm-3.8-ocaml-dev, libllvm-3.9-ocaml-dev, ocaml, oprofile"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9.0), flex, bison, dejagnu, tcl, expect, cmake, perl, libtool, chrpath, texinfo, sharutils, libffi-dev (>= 3.0.9), lsb-release, patchutils, diffstat, xz-utils, python-dev, libedit-dev, libncurses5-dev, swig, python-six, python-sphinx, binutils-dev, libjsoncpp-dev, pkg-config, lcov, procps, help2man, zlib1g-dev, g++-multilib [amd64 i386 kfreebsd-amd64 mips mips64 mips64el mipsel powerpc ppc64 s390 s390x sparc sparc64 x32]"
-  ],
-  "Checksums-Sha256": [
-    "460946c3c55631d3e1d02190ba089800bb32c7d9669f2de1a95678f4ec1a9ed0 6856 llvm-toolchain-6.0_6.0-1~bpo9+1.dsc f5c96f38067cf0c8d81395452d0386e4715d83bd5588e49832798f6ed4b2d8fa 808825 llvm-toolchain-6.0_6.0.orig-clang-tools-extra.tar.bz2 d6d155313658edc8f901b1f01e353605de1c6a9a1efe6c87b2c111d23febad43 13228782 llvm-toolchain-6.0_6.0.orig-clang.tar.bz2 7253f34ae3faee95f32ee6b4a674b87911338f49f5e14f24afb2fa693f53b09c 2145520 llvm-toolchain-6.0_6.0.orig-compiler-rt.tar.bz2 cd67e62c2bfc5cef9fad2b0b1044c072956bc0ab1692616d5dd9b4034782ab1e 853733 llvm-toolchain-6.0_6.0.orig-lld.tar.bz2 4519601ff08e43e83dc42dbdd8de134e59e33f78466fd88f1fdfd79798f5bdef 11238461 llvm-toolchain-6.0_6.0.orig-lldb.tar.bz2 a256c73b80c5bc311e8dc9471ded02a48c59583a3302f62f3296d223e108b6c6 3253870 llvm-toolchain-6.0_6.0.orig-polly.tar.bz2 6e3439558692bbfd0bcaf4c4d1290e0c97bd710dab42860e0585303bbf67797a 29853313 llvm-toolchain-6.0_6.0.orig.tar.bz2 2009db4e0be6700aded2a5bad8ac43a4aeaebb92aa7dc57a2306e7eaacf9755e 69496 llvm-toolchain-6.0_6.0-1~bpo9+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/l/llvm-toolchain-6.0"
-  ],
-  "Files": [
-    "e6a6f99c20ba430a8cc467b53e681ef6 6856 llvm-toolchain-6.0_6.0-1~bpo9+1.dsc a4ec9d80b23fa05412792baeaab82a2b 808825 llvm-toolchain-6.0_6.0.orig-clang-tools-extra.tar.bz2 a72896f152212a856fb1af319c075ec5 13228782 llvm-toolchain-6.0_6.0.orig-clang.tar.bz2 263e07cd3286a79c276f959fe29b0d4b 2145520 llvm-toolchain-6.0_6.0.orig-compiler-rt.tar.bz2 14656a8e00d464831689d8ba4d2f46fd 853733 llvm-toolchain-6.0_6.0.orig-lld.tar.bz2 3f3d79027c8a0a65e3bc9a20b18f6a35 11238461 llvm-toolchain-6.0_6.0.orig-lldb.tar.bz2 50616f4493e673da7862d85993b3abf6 3253870 llvm-toolchain-6.0_6.0.orig-polly.tar.bz2 fc84633e60460c4cc5042a94e8d6334e 29853313 llvm-toolchain-6.0_6.0.orig.tar.bz2 b04d59ca7cec4163b6e78f4e3f1cf228 69496 llvm-toolchain-6.0_6.0-1~bpo9+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.llvm.org/"
-  ],
-  "Maintainer": [
-    "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "llvm-toolchain-6.0"
-  ],
-  "Package-List": [
-    "clang-6.0 deb devel optional arch=any clang-6.0-doc deb doc optional arch=all clang-6.0-examples deb doc optional arch=any clang-format-6.0 deb devel optional arch=any clang-tidy-6.0 deb devel optional arch=any clang-tools-6.0 deb devel optional arch=any libclang-6.0-dev deb libdevel optional arch=any libclang-common-6.0-dev deb libdevel optional arch=any libclang1-6.0 deb libs optional arch=any libclang1-6.0-dbg deb debug optional arch=any libfuzzer-6.0-dev deb libdevel optional arch=linux-any liblld-6.0 deb libs optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,alpha,hppa,m68k,powerpcspe,ppc64,sh4,sparc64,x32,mips,mipsel liblld-6.0-dev deb libdevel optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,alpha,hppa,m68k,powerpcspe,ppc64,sh4,sparc64,x32,mips,mipsel liblldb-6.0 deb libs optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,alpha,hppa,m68k,powerpcspe,sh4,x32,mips,mipsel,arm64 liblldb-6.0-dbg deb debug optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,hppa,m68k,powerpcspe,sh4,x32,mips,mipsel,arm64 liblldb-6.0-dev deb libdevel optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,alpha,hppa,m68k,powerpcspe,sh4,x32,mips,mipsel,arm64 libllvm6.0 deb libs optional arch=any libllvm6.0-dbg deb debug optional arch=any lld-6.0 deb devel optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,alpha,hppa,m68k,powerpcspe,ppc64,sh4,sparc64,x32,mips,mipsel lldb-6.0 deb devel optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,alpha,hppa,m68k,powerpcspe,sh4,x32,mips,mipsel,arm64 llvm-6.0 deb devel optional arch=any llvm-6.0-dev deb devel optional arch=any llvm-6.0-doc deb doc optional arch=all llvm-6.0-examples deb doc optional arch=all llvm-6.0-runtime deb devel optional arch=any llvm-6.0-tools deb devel optional arch=any python-clang-6.0 deb python optional arch=any python-lldb-6.0 deb python optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,hppa,m68k,powerpcspe,sh4,x32,mips,mipsel,arm64"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.1.1"
-  ],
-  "Uploaders": [
-    "Sylvestre Ledru <sylvestre@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/pkg-llvm-team/llvm-toolchain/tree/6.0"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/pkg-llvm-team/llvm-toolchain.git -b 6.0"
-  ],
-  "Version": [
-    "1:6.0-1~bpo9+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"clang-6.0, clang-tools-6.0, clang-format-6.0, clang-tidy-6.0, clang-6.0-doc, libclang1-6.0, libclang1-6.0-dbg, libclang-6.0-dev, libclang-common-6.0-dev, libfuzzer-6.0-dev, python-clang-6.0, clang-6.0-examples, libllvm6.0, libllvm6.0-dbg, llvm-6.0, llvm-6.0-runtime, llvm-6.0-dev, llvm-6.0-tools, llvm-6.0-doc, llvm-6.0-examples, lld-6.0, liblld-6.0, liblld-6.0-dev, lldb-6.0, liblldb-6.0, liblldb-6.0-dbg, python-lldb-6.0, liblldb-6.0-dev"
+	],
+	"Build-Conflicts": [
+		"libllvm-3.8-ocaml-dev, libllvm-3.9-ocaml-dev, ocaml, oprofile"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9.0), flex, bison, dejagnu, tcl, expect, cmake, perl, libtool, chrpath, texinfo, sharutils, libffi-dev (>= 3.0.9), lsb-release, patchutils, diffstat, xz-utils, python-dev, libedit-dev, libncurses5-dev, swig, python-six, python-sphinx, binutils-dev, libjsoncpp-dev, pkg-config, lcov, procps, help2man, zlib1g-dev, g++-multilib [amd64 i386 kfreebsd-amd64 mips mips64 mips64el mipsel powerpc ppc64 s390 s390x sparc sparc64 x32]"
+	],
+	"Checksums-Sha256": [
+		"460946c3c55631d3e1d02190ba089800bb32c7d9669f2de1a95678f4ec1a9ed0 6856 llvm-toolchain-6.0_6.0-1~bpo9+1.dsc f5c96f38067cf0c8d81395452d0386e4715d83bd5588e49832798f6ed4b2d8fa 808825 llvm-toolchain-6.0_6.0.orig-clang-tools-extra.tar.bz2 d6d155313658edc8f901b1f01e353605de1c6a9a1efe6c87b2c111d23febad43 13228782 llvm-toolchain-6.0_6.0.orig-clang.tar.bz2 7253f34ae3faee95f32ee6b4a674b87911338f49f5e14f24afb2fa693f53b09c 2145520 llvm-toolchain-6.0_6.0.orig-compiler-rt.tar.bz2 cd67e62c2bfc5cef9fad2b0b1044c072956bc0ab1692616d5dd9b4034782ab1e 853733 llvm-toolchain-6.0_6.0.orig-lld.tar.bz2 4519601ff08e43e83dc42dbdd8de134e59e33f78466fd88f1fdfd79798f5bdef 11238461 llvm-toolchain-6.0_6.0.orig-lldb.tar.bz2 a256c73b80c5bc311e8dc9471ded02a48c59583a3302f62f3296d223e108b6c6 3253870 llvm-toolchain-6.0_6.0.orig-polly.tar.bz2 6e3439558692bbfd0bcaf4c4d1290e0c97bd710dab42860e0585303bbf67797a 29853313 llvm-toolchain-6.0_6.0.orig.tar.bz2 2009db4e0be6700aded2a5bad8ac43a4aeaebb92aa7dc57a2306e7eaacf9755e 69496 llvm-toolchain-6.0_6.0-1~bpo9+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/l/llvm-toolchain-6.0"
+	],
+	"Files": [
+		"e6a6f99c20ba430a8cc467b53e681ef6 6856 llvm-toolchain-6.0_6.0-1~bpo9+1.dsc a4ec9d80b23fa05412792baeaab82a2b 808825 llvm-toolchain-6.0_6.0.orig-clang-tools-extra.tar.bz2 a72896f152212a856fb1af319c075ec5 13228782 llvm-toolchain-6.0_6.0.orig-clang.tar.bz2 263e07cd3286a79c276f959fe29b0d4b 2145520 llvm-toolchain-6.0_6.0.orig-compiler-rt.tar.bz2 14656a8e00d464831689d8ba4d2f46fd 853733 llvm-toolchain-6.0_6.0.orig-lld.tar.bz2 3f3d79027c8a0a65e3bc9a20b18f6a35 11238461 llvm-toolchain-6.0_6.0.orig-lldb.tar.bz2 50616f4493e673da7862d85993b3abf6 3253870 llvm-toolchain-6.0_6.0.orig-polly.tar.bz2 fc84633e60460c4cc5042a94e8d6334e 29853313 llvm-toolchain-6.0_6.0.orig.tar.bz2 b04d59ca7cec4163b6e78f4e3f1cf228 69496 llvm-toolchain-6.0_6.0-1~bpo9+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.llvm.org/"
+	],
+	"Maintainer": [
+		"LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"llvm-toolchain-6.0"
+	],
+	"Package-List": [
+		"clang-6.0 deb devel optional arch=any clang-6.0-doc deb doc optional arch=all clang-6.0-examples deb doc optional arch=any clang-format-6.0 deb devel optional arch=any clang-tidy-6.0 deb devel optional arch=any clang-tools-6.0 deb devel optional arch=any libclang-6.0-dev deb libdevel optional arch=any libclang-common-6.0-dev deb libdevel optional arch=any libclang1-6.0 deb libs optional arch=any libclang1-6.0-dbg deb debug optional arch=any libfuzzer-6.0-dev deb libdevel optional arch=linux-any liblld-6.0 deb libs optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,alpha,hppa,m68k,powerpcspe,ppc64,sh4,sparc64,x32,mips,mipsel liblld-6.0-dev deb libdevel optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,alpha,hppa,m68k,powerpcspe,ppc64,sh4,sparc64,x32,mips,mipsel liblldb-6.0 deb libs optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,alpha,hppa,m68k,powerpcspe,sh4,x32,mips,mipsel,arm64 liblldb-6.0-dbg deb debug optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,hppa,m68k,powerpcspe,sh4,x32,mips,mipsel,arm64 liblldb-6.0-dev deb libdevel optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,alpha,hppa,m68k,powerpcspe,sh4,x32,mips,mipsel,arm64 libllvm6.0 deb libs optional arch=any libllvm6.0-dbg deb debug optional arch=any lld-6.0 deb devel optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,alpha,hppa,m68k,powerpcspe,ppc64,sh4,sparc64,x32,mips,mipsel lldb-6.0 deb devel optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,alpha,hppa,m68k,powerpcspe,sh4,x32,mips,mipsel,arm64 llvm-6.0 deb devel optional arch=any llvm-6.0-dev deb devel optional arch=any llvm-6.0-doc deb doc optional arch=all llvm-6.0-examples deb doc optional arch=all llvm-6.0-runtime deb devel optional arch=any llvm-6.0-tools deb devel optional arch=any python-clang-6.0 deb python optional arch=any python-lldb-6.0 deb python optional arch=amd64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,s390,sparc,hppa,m68k,powerpcspe,sh4,x32,mips,mipsel,arm64"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.1.1"
+	],
+	"Uploaders": [
+		"Sylvestre Ledru <sylvestre@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/pkg-llvm-team/llvm-toolchain/tree/6.0"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/pkg-llvm-team/llvm-toolchain.git -b 6.0"
+	],
+	"Version": [
+		"1:6.0-1~bpo9+1"
+	]
 }

@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "python-dulwich, python-dulwich-dbg, pypy-dulwich, python3-dulwich, python3-dulwich-dbg"
-  ],
-  "Build-Depends": [
-    "python-all-dev (>= 2.6.6-3), python-all-dbg (>= 2.6.6-3), python3-all-dev, python3-all-dbg, debhelper (>= 9), python-unittest2, git (>= 1:1.7.0.4-2) | git-core, python-fastimport (>= 0.9.0~bzr293), python3-fastimport, pypy-dev [!hurd-any !m68k !sh4 !x32], dh-python"
-  ],
-  "Checksums-Sha256": [
-    "8c92fd1c5c9ae459010f9b17fb9b9443f5588c6469bfd5e28afdccffdd480f04 2416 dulwich_0.16.3-1.dsc 9a2a03e131e5dc5efdf61119b6c16558b202528cca220b6b1e7cb0e7fe3e843a 304337 dulwich_0.16.3.orig.tar.gz a364014c2bc2b372f5f232eee4d033435e613eb7cbf054753481b52a7d3fdb2f 539712 dulwich_0.16.3-1.debian.tar.xz"
-  ],
-  "Dgit": [
-    "8466903d5dc78e7bd2b0419135229158fa6516e7 debian archive/debian/0.16.3-1 https://git.dgit.debian.org/dulwich"
-  ],
-  "Directory": [
-    "pool/main/d/dulwich"
-  ],
-  "Files": [
-    "3f01a1c75b060a3436de9fb38b29a329 2416 dulwich_0.16.3-1.dsc 632280ffa88f732ba61ed320f7bb60aa 304337 dulwich_0.16.3.orig.tar.gz 175f96acb1c66ec85e7f4b81a77af7e0 539712 dulwich_0.16.3-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.dulwich.io/"
-  ],
-  "Maintainer": [
-    "Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "dulwich"
-  ],
-  "Package-List": [
-    "pypy-dulwich deb python optional arch=amd64,arm64,armel,armhf,i386,mips,mipsel,mips64el,ppc64el,s390x,alpha,hppa,kfreebsd-any,powerpc,powerpcspe,ppc64,sparc64 python-dulwich deb python optional arch=any python-dulwich-dbg deb debug extra arch=any python3-dulwich deb python optional arch=any python3-dulwich-dbg deb debug extra arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "python"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "git"
-  ],
-  "Uploaders": [
-    "Jelmer Vernooĳ <jelmer@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/python-modules/packages/dulwich.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/python-modules/packages/dulwich.git"
-  ],
-  "Version": [
-    "0.16.3-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"python-dulwich, python-dulwich-dbg, pypy-dulwich, python3-dulwich, python3-dulwich-dbg"
+	],
+	"Build-Depends": [
+		"python-all-dev (>= 2.6.6-3), python-all-dbg (>= 2.6.6-3), python3-all-dev, python3-all-dbg, debhelper (>= 9), python-unittest2, git (>= 1:1.7.0.4-2) | git-core, python-fastimport (>= 0.9.0~bzr293), python3-fastimport, pypy-dev [!hurd-any !m68k !sh4 !x32], dh-python"
+	],
+	"Checksums-Sha256": [
+		"8c92fd1c5c9ae459010f9b17fb9b9443f5588c6469bfd5e28afdccffdd480f04 2416 dulwich_0.16.3-1.dsc 9a2a03e131e5dc5efdf61119b6c16558b202528cca220b6b1e7cb0e7fe3e843a 304337 dulwich_0.16.3.orig.tar.gz a364014c2bc2b372f5f232eee4d033435e613eb7cbf054753481b52a7d3fdb2f 539712 dulwich_0.16.3-1.debian.tar.xz"
+	],
+	"Dgit": [
+		"8466903d5dc78e7bd2b0419135229158fa6516e7 debian archive/debian/0.16.3-1 https://git.dgit.debian.org/dulwich"
+	],
+	"Directory": [
+		"pool/main/d/dulwich"
+	],
+	"Files": [
+		"3f01a1c75b060a3436de9fb38b29a329 2416 dulwich_0.16.3-1.dsc 632280ffa88f732ba61ed320f7bb60aa 304337 dulwich_0.16.3.orig.tar.gz 175f96acb1c66ec85e7f4b81a77af7e0 539712 dulwich_0.16.3-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.dulwich.io/"
+	],
+	"Maintainer": [
+		"Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"dulwich"
+	],
+	"Package-List": [
+		"pypy-dulwich deb python optional arch=amd64,arm64,armel,armhf,i386,mips,mipsel,mips64el,ppc64el,s390x,alpha,hppa,kfreebsd-any,powerpc,powerpcspe,ppc64,sparc64 python-dulwich deb python optional arch=any python-dulwich-dbg deb debug extra arch=any python3-dulwich deb python optional arch=any python3-dulwich-dbg deb debug extra arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"python"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"git"
+	],
+	"Uploaders": [
+		"Jelmer Vernooĳ <jelmer@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/python-modules/packages/dulwich.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/python-modules/packages/dulwich.git"
+	],
+	"Version": [
+		"0.16.3-1"
+	]
 }

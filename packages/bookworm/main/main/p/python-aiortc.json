@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "python3-aiortc, python3-aiortc-doc"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc, libopus-dev, libvpx-dev, python3-aioice (<< 0.9) <!nocheck>, python3-aioice (>= 0.8) <!nocheck>, python3-all-dev, python3-av (<< 11) <!nocheck>, python3-av (>= 9) <!nocheck>, python3-cffi, python3-crc32c <!nocheck>, python3-cryptography <!nocheck>, python3-openssl (>= 23) <!nocheck>, pybuild-plugin-pyproject, python3-pyee (>= 9.0.0) <!nocheck>, python3-pylibsrtp <!nocheck>, python3-pytest <!nocheck>, python3-pytest-asyncio <!nocheck>, python3-pytest-timeout <!nocheck>, python3-setuptools, python3-sphinx <!nodoc>, python3-sphinx-autodoc-typehints <!nodoc>, python3-sphinxcontrib-asyncio <!nodoc>"
-  ],
-  "Checksums-Sha256": [
-    "6951322ceab510e25240e1adad9af0db9819b8fde27d9203bd9ee1a881da5da9 2740 python-aiortc_1.4.0-2.dsc 13376f0ab6dc88f6b07f16d5674bf808403f38247971e657c86ccdc8ed8789aa 1174438 python-aiortc_1.4.0.orig.tar.gz adc43d46b10da3c704d7897f1d76b8e802099debaa6b51a46ec28a7634239253 7280 python-aiortc_1.4.0-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/python-aiortc"
-  ],
-  "Files": [
-    "38a6abf8adf3434e25d93b253bf15a20 2740 python-aiortc_1.4.0-2.dsc 61ee3eeba905a6958e1b2972abab6b0f 1174438 python-aiortc_1.4.0.orig.tar.gz 78b51fe96df540248efbb2e2adbd0e77 7280 python-aiortc_1.4.0-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/aiortc/aiortc"
-  ],
-  "Maintainer": [
-    "Jonas Smedegaard <dr@jones.dk>"
-  ],
-  "Package": [
-    "python-aiortc"
-  ],
-  "Package-List": [
-    "python3-aiortc deb python optional arch=any python3-aiortc-doc deb doc optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest, autopkgtest-pkg-python"
-  ],
-  "Testsuite-Triggers": [
-    "python3-crc32c, python3-pytest, python3-pytest-asyncio, python3-pytest-timeout"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian/python-aiortc"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian/python-aiortc.git"
-  ],
-  "Version": [
-    "1.4.0-2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"python3-aiortc, python3-aiortc-doc"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc, libopus-dev, libvpx-dev, python3-aioice (<< 0.9) <!nocheck>, python3-aioice (>= 0.8) <!nocheck>, python3-all-dev, python3-av (<< 11) <!nocheck>, python3-av (>= 9) <!nocheck>, python3-cffi, python3-crc32c <!nocheck>, python3-cryptography <!nocheck>, python3-openssl (>= 23) <!nocheck>, pybuild-plugin-pyproject, python3-pyee (>= 9.0.0) <!nocheck>, python3-pylibsrtp <!nocheck>, python3-pytest <!nocheck>, python3-pytest-asyncio <!nocheck>, python3-pytest-timeout <!nocheck>, python3-setuptools, python3-sphinx <!nodoc>, python3-sphinx-autodoc-typehints <!nodoc>, python3-sphinxcontrib-asyncio <!nodoc>"
+	],
+	"Checksums-Sha256": [
+		"6951322ceab510e25240e1adad9af0db9819b8fde27d9203bd9ee1a881da5da9 2740 python-aiortc_1.4.0-2.dsc 13376f0ab6dc88f6b07f16d5674bf808403f38247971e657c86ccdc8ed8789aa 1174438 python-aiortc_1.4.0.orig.tar.gz adc43d46b10da3c704d7897f1d76b8e802099debaa6b51a46ec28a7634239253 7280 python-aiortc_1.4.0-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-aiortc"
+	],
+	"Files": [
+		"38a6abf8adf3434e25d93b253bf15a20 2740 python-aiortc_1.4.0-2.dsc 61ee3eeba905a6958e1b2972abab6b0f 1174438 python-aiortc_1.4.0.orig.tar.gz 78b51fe96df540248efbb2e2adbd0e77 7280 python-aiortc_1.4.0-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/aiortc/aiortc"
+	],
+	"Maintainer": [
+		"Jonas Smedegaard <dr@jones.dk>"
+	],
+	"Package": [
+		"python-aiortc"
+	],
+	"Package-List": [
+		"python3-aiortc deb python optional arch=any python3-aiortc-doc deb doc optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest, autopkgtest-pkg-python"
+	],
+	"Testsuite-Triggers": [
+		"python3-crc32c, python3-pytest, python3-pytest-asyncio, python3-pytest-timeout"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/python-aiortc"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/python-aiortc.git"
+	],
+	"Version": [
+		"1.4.0-2"
+	]
 }

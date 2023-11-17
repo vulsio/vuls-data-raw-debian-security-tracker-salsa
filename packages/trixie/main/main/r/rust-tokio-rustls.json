@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-tokio-rustls-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-rustls-0.21+logging-dev <!nocheck>, librust-rustls-0.21+tls12-dev <!nocheck>, librust-rustls-0.21-dev <!nocheck>, librust-tokio-1+default-dev <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "4588da70b3b42c1764114092154547c7e4f279f8d2b5715ff3af1f94727ab25b 2767 rust-tokio-rustls_0.24.1-1.dsc c28327cf380ac148141087fbfb9de9d7bd4e84ab5d2c28fbc911d753de8a7081 33049 rust-tokio-rustls_0.24.1.orig.tar.gz e3840a4ec63bbcf7d9cf56d853e63f03a9a189ef0bc7644a0a3d76a92bcea3b3 3040 rust-tokio-rustls_0.24.1-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-tokio-rustls"
-  ],
-  "Files": [
-    "c78341e0491a92f01f53ffbb2ec2dfec 2767 rust-tokio-rustls_0.24.1-1.dsc ba33dce68cff6856b109a88219627dc3 33049 rust-tokio-rustls_0.24.1.orig.tar.gz 153c524376cd4018a8eedc46a221a339 3040 rust-tokio-rustls_0.24.1-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/rustls/tokio-rustls"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-tokio-rustls"
-  ],
-  "Package-List": [
-    "librust-tokio-rustls-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-argh-0.1+default-dev, librust-futures-util-0.3+default-dev, librust-lazy-static-1+default-dev, librust-rustls-pemfile-1+default-dev, librust-rustls-webpki-0.100+alloc-dev, librust-rustls-webpki-0.100+default-dev, librust-rustls-webpki-0.100+std-dev, librust-tokio-1+default-dev, librust-tokio-1+full-dev, librust-webpki-roots-0.23+default-dev"
-  ],
-  "Uploaders": [
-    "Alexander Kjäll <alexander.kjall@gmail.com>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/tokio-rustls"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/tokio-rustls]"
-  ],
-  "Version": [
-    "0.24.1-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-tokio-rustls-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-rustls-0.21+logging-dev <!nocheck>, librust-rustls-0.21+tls12-dev <!nocheck>, librust-rustls-0.21-dev <!nocheck>, librust-tokio-1+default-dev <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"4588da70b3b42c1764114092154547c7e4f279f8d2b5715ff3af1f94727ab25b 2767 rust-tokio-rustls_0.24.1-1.dsc c28327cf380ac148141087fbfb9de9d7bd4e84ab5d2c28fbc911d753de8a7081 33049 rust-tokio-rustls_0.24.1.orig.tar.gz e3840a4ec63bbcf7d9cf56d853e63f03a9a189ef0bc7644a0a3d76a92bcea3b3 3040 rust-tokio-rustls_0.24.1-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-tokio-rustls"
+	],
+	"Files": [
+		"c78341e0491a92f01f53ffbb2ec2dfec 2767 rust-tokio-rustls_0.24.1-1.dsc ba33dce68cff6856b109a88219627dc3 33049 rust-tokio-rustls_0.24.1.orig.tar.gz 153c524376cd4018a8eedc46a221a339 3040 rust-tokio-rustls_0.24.1-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/rustls/tokio-rustls"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-tokio-rustls"
+	],
+	"Package-List": [
+		"librust-tokio-rustls-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-argh-0.1+default-dev, librust-futures-util-0.3+default-dev, librust-lazy-static-1+default-dev, librust-rustls-pemfile-1+default-dev, librust-rustls-webpki-0.100+alloc-dev, librust-rustls-webpki-0.100+default-dev, librust-rustls-webpki-0.100+std-dev, librust-tokio-1+default-dev, librust-tokio-1+full-dev, librust-webpki-roots-0.23+default-dev"
+	],
+	"Uploaders": [
+		"Alexander Kjäll <alexander.kjall@gmail.com>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/tokio-rustls"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/tokio-rustls]"
+	],
+	"Version": [
+		"0.24.1-1"
+	]
 }

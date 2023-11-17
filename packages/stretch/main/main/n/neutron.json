@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-neutron, neutron-server, neutron-common, neutron-plugin-nec-agent, neutron-l3-agent, neutron-dhcp-agent, neutron-metadata-agent, neutron-metering-agent, neutron-openvswitch-agent, neutron-linuxbridge-agent, neutron-plugin-linuxbridge-agent, neutron-plugin-openvswitch-agent, neutron-sriov-agent, neutron-macvtap-agent"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 10), dh-python, dh-systemd, openstack-pkg-tools (>= 54~), po-debconf, python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx"
-  ],
-  "Build-Depends-Indep": [
-    "alembic (>= 0.8.4), bridge-utils, python-cliff (>= 1.15.0), python-coverage, python-ddt (>= 1.0.1), python-debtcollector (>= 1.2.0), python-designateclient (>= 1.5.0), python-eventlet (>= 0.18.4), python-fixtures (>= 3.0.0), python-flake8, python-gflags, python-greenlet, python-hacking (>= 0.11.0), python-httplib2, python-jinja2 (>= 2.8), python-keystoneauth1 (>= 2.10.0), python-keystonemiddleware (>= 4.0.0), python-mock (>= 1.3), python-netaddr (>= 0.7.13), python-netifaces (>= 0.10.4), python-neutron-lib (>= 0.4.0), python-neutronclient (>= 1:5.1.0), python-novaclient (>= 2:2.30.1), python-openvswitch, python-os-testr (>= 0.7.0), python-oslo.cache (>= 1.5.0), python-oslo.concurrency (>= 3.8.0), python-oslo.config (>= 1:3.14.0), python-oslo.context (>= 2.9.0), python-oslo.db (>= 4.10.0), python-oslo.i18n (>= 2.1.0), python-oslo.log (>= 2.0.0), python-oslo.messaging (>= 5.2.0), python-oslo.middleware (>= 3.0.0), python-oslo.policy (>= 1.9.0), python-oslo.reports (>= 0.6.0), python-oslo.rootwrap (>= 5.0.0), python-oslo.serialization (>= 2.0.0), python-oslo.service (>= 1.10.0), python-oslo.utils (>= 3.16.0), python-oslo.versionedobjects (>= 1.13.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.10.0), python-osprofiler (>= 1.4.0), python-paste, python-pastedeploy, python-pecan (>= 1.0.0), python-pep8, python-pymysql, python-pyudev, python-requests (>= 2.10.0), python-requests-mock (>= 1.0), python-retrying, python-routes, python-ryu (>= 4.4), python-six (>= 1.9.0), python-sqlalchemy (>= 1.0.12), python-stevedore (>= 1.16.0), python-tempest (>= 1:12.1.0), python-testresources, python-testscenarios, python-testtools (>= 1.4.0), python-unittest2, python-webob, python-webtest, subunit, tempest (>= 1:12.1.0), testrepository"
-  ],
-  "Checksums-Sha256": [
-    "333f6105fa1dd3f3377a03225e09af854908b57737ea58b5ce7865d949da0d30 4926 neutron_9.1.1-3+deb9u1.dsc f711b6a6a4cdca37c45f37ea697c2c5579ddb329002982344cdd603c1d2327c4 2046540 neutron_9.1.1.orig.tar.xz 65ee3b59cc1258b95778181717e069fa409539e5ffdc0226d4cd242cb807c89b 44852 neutron_9.1.1-3+deb9u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/n/neutron"
-  ],
-  "Files": [
-    "6ce254bab291005626a540cd98478a37 4926 neutron_9.1.1-3+deb9u1.dsc 9a737bdcfb801e3968c897116d23f952 2046540 neutron_9.1.1.orig.tar.xz df7d8a3bbbc06ff3549f57e23e318ba7 44852 neutron_9.1.1-3+deb9u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://neutron.openstack.org/"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "neutron"
-  ],
-  "Package-List": [
-    "neutron-common deb net optional arch=all neutron-dhcp-agent deb net optional arch=all neutron-l3-agent deb net optional arch=all neutron-linuxbridge-agent deb net optional arch=all neutron-macvtap-agent deb net optional arch=all neutron-metadata-agent deb net optional arch=all neutron-metering-agent deb net optional arch=all neutron-openvswitch-agent deb net optional arch=all neutron-plugin-linuxbridge-agent deb oldlibs optional arch=all neutron-plugin-nec-agent deb net optional arch=all neutron-plugin-openvswitch-agent deb oldlibs optional arch=all neutron-server deb net optional arch=all neutron-sriov-agent deb net optional arch=all python-neutron deb python optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>, Gustavo Panizzo <gfa@zumbi.com.ar>, Ivan Udovichenko <iudovichenko@mirantis.com>,"
-  ],
-  "Vcs-Browser": [
-    "https://git.openstack.org/cgit/openstack/deb-neutron?h=debian%2Fnewton"
-  ],
-  "Vcs-Git": [
-    "https://git.openstack.org/openstack/deb-neutron -b debian/newton"
-  ],
-  "Version": [
-    "2:9.1.1-3+deb9u1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-neutron, neutron-server, neutron-common, neutron-plugin-nec-agent, neutron-l3-agent, neutron-dhcp-agent, neutron-metadata-agent, neutron-metering-agent, neutron-openvswitch-agent, neutron-linuxbridge-agent, neutron-plugin-linuxbridge-agent, neutron-plugin-openvswitch-agent, neutron-sriov-agent, neutron-macvtap-agent"
+	],
+	"Build-Depends": [
+		"debhelper (>= 10), dh-python, dh-systemd, openstack-pkg-tools (>= 54~), po-debconf, python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx"
+	],
+	"Build-Depends-Indep": [
+		"alembic (>= 0.8.4), bridge-utils, python-cliff (>= 1.15.0), python-coverage, python-ddt (>= 1.0.1), python-debtcollector (>= 1.2.0), python-designateclient (>= 1.5.0), python-eventlet (>= 0.18.4), python-fixtures (>= 3.0.0), python-flake8, python-gflags, python-greenlet, python-hacking (>= 0.11.0), python-httplib2, python-jinja2 (>= 2.8), python-keystoneauth1 (>= 2.10.0), python-keystonemiddleware (>= 4.0.0), python-mock (>= 1.3), python-netaddr (>= 0.7.13), python-netifaces (>= 0.10.4), python-neutron-lib (>= 0.4.0), python-neutronclient (>= 1:5.1.0), python-novaclient (>= 2:2.30.1), python-openvswitch, python-os-testr (>= 0.7.0), python-oslo.cache (>= 1.5.0), python-oslo.concurrency (>= 3.8.0), python-oslo.config (>= 1:3.14.0), python-oslo.context (>= 2.9.0), python-oslo.db (>= 4.10.0), python-oslo.i18n (>= 2.1.0), python-oslo.log (>= 2.0.0), python-oslo.messaging (>= 5.2.0), python-oslo.middleware (>= 3.0.0), python-oslo.policy (>= 1.9.0), python-oslo.reports (>= 0.6.0), python-oslo.rootwrap (>= 5.0.0), python-oslo.serialization (>= 2.0.0), python-oslo.service (>= 1.10.0), python-oslo.utils (>= 3.16.0), python-oslo.versionedobjects (>= 1.13.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.10.0), python-osprofiler (>= 1.4.0), python-paste, python-pastedeploy, python-pecan (>= 1.0.0), python-pep8, python-pymysql, python-pyudev, python-requests (>= 2.10.0), python-requests-mock (>= 1.0), python-retrying, python-routes, python-ryu (>= 4.4), python-six (>= 1.9.0), python-sqlalchemy (>= 1.0.12), python-stevedore (>= 1.16.0), python-tempest (>= 1:12.1.0), python-testresources, python-testscenarios, python-testtools (>= 1.4.0), python-unittest2, python-webob, python-webtest, subunit, tempest (>= 1:12.1.0), testrepository"
+	],
+	"Checksums-Sha256": [
+		"333f6105fa1dd3f3377a03225e09af854908b57737ea58b5ce7865d949da0d30 4926 neutron_9.1.1-3+deb9u1.dsc f711b6a6a4cdca37c45f37ea697c2c5579ddb329002982344cdd603c1d2327c4 2046540 neutron_9.1.1.orig.tar.xz 65ee3b59cc1258b95778181717e069fa409539e5ffdc0226d4cd242cb807c89b 44852 neutron_9.1.1-3+deb9u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/n/neutron"
+	],
+	"Files": [
+		"6ce254bab291005626a540cd98478a37 4926 neutron_9.1.1-3+deb9u1.dsc 9a737bdcfb801e3968c897116d23f952 2046540 neutron_9.1.1.orig.tar.xz df7d8a3bbbc06ff3549f57e23e318ba7 44852 neutron_9.1.1-3+deb9u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://neutron.openstack.org/"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"neutron"
+	],
+	"Package-List": [
+		"neutron-common deb net optional arch=all neutron-dhcp-agent deb net optional arch=all neutron-l3-agent deb net optional arch=all neutron-linuxbridge-agent deb net optional arch=all neutron-macvtap-agent deb net optional arch=all neutron-metadata-agent deb net optional arch=all neutron-metering-agent deb net optional arch=all neutron-openvswitch-agent deb net optional arch=all neutron-plugin-linuxbridge-agent deb oldlibs optional arch=all neutron-plugin-nec-agent deb net optional arch=all neutron-plugin-openvswitch-agent deb oldlibs optional arch=all neutron-server deb net optional arch=all neutron-sriov-agent deb net optional arch=all python-neutron deb python optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>, Gustavo Panizzo <gfa@zumbi.com.ar>, Ivan Udovichenko <iudovichenko@mirantis.com>,"
+	],
+	"Vcs-Browser": [
+		"https://git.openstack.org/cgit/openstack/deb-neutron?h=debian%2Fnewton"
+	],
+	"Vcs-Git": [
+		"https://git.openstack.org/openstack/deb-neutron -b debian/newton"
+	],
+	"Version": [
+		"2:9.1.1-3+deb9u1"
+	]
 }

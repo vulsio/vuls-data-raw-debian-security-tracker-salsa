@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "fusioninventory-agent, fusioninventory-agent-task-esx, fusioninventory-agent-task-deploy, fusioninventory-agent-task-network, libfusioninventory-agent-task-esx-perl, libfusioninventory-agent-task-deploy-perl, libfusioninventory-agent-task-network-perl, libfusioninventory-agent-task-netinventory-perl, libfusioninventory-agent-task-snmpquery-perl"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 8), dmidecode [any-i386 any-amd64 ia64], hdparm [linux-any], libclone-perl, libdigest-sha-perl, libfile-copy-recursive-perl, libfile-which-perl, libhttp-cookies-perl, libhttp-server-simple-authen-perl, libhttp-daemon-perl, libhttp-proxy-perl, libio-capture-perl, libipc-run-perl, libjson-perl, libmodule-install-perl, libnet-ip-perl, libnet-snmp-perl, libio-socket-ssl-perl, libparse-edid-perl, libpoe-component-client-ping-perl, libproc-daemon-perl, libproc-pid-file-perl, libtest-compile-perl, libtest-deep-perl, libtest-nowarnings-perl, libtest-exception-perl, libtest-http-server-simple-perl, libtest-mockmodule-perl, libtest-mockobject-perl, libtext-template-perl, libsocket-getaddrinfo-perl, libuniversal-require-perl, liburi-perl, libwww-perl, libxml-treepp-perl (>= 0.26), libyaml-perl, pciutils, perl, quilt, ucf"
-  ],
-  "Checksums-Sha1": [
-    "2c3c70da0f0380b50c8276c8ac85f1696db78197 3647 fusioninventory-agent_2.3.10.1-1.dsc 44d57727cf002accf9ffa479028686948eb7321c 1940851 fusioninventory-agent_2.3.10.1.orig.tar.gz ae9a208ce962e571241df6cece77bc3a3ded4949 9610 fusioninventory-agent_2.3.10.1-1.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "baa5c9eed58c0bb6581004a5d397f8d13256417807dd21f6bb22b11db1943e69 3647 fusioninventory-agent_2.3.10.1-1.dsc 7137af639bc7dd82c059d44b8ff65a518cc9ea5bbc7d97c10d09a09069730584 1940851 fusioninventory-agent_2.3.10.1.orig.tar.gz a3f7b9be8e6bf83e3ec55a2c7f7a20228adc13210018d874a3ec389ce48c6660 9610 fusioninventory-agent_2.3.10.1-1.diff.gz"
-  ],
-  "Directory": [
-    "pool/main/f/fusioninventory-agent"
-  ],
-  "Files": [
-    "188d8bcb6356d216e3eca5a1bf03e3f3 3647 fusioninventory-agent_2.3.10.1-1.dsc 288e2062e34d700e09031f56f5a352e4 1940851 fusioninventory-agent_2.3.10.1.orig.tar.gz 0e76d230e4d9021a1714d526c9e39203 9610 fusioninventory-agent_2.3.10.1-1.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Homepage": [
-    "http://fusioninventory.org/"
-  ],
-  "Maintainer": [
-    "Gonéri Le Bouder <goneri@debian.org>"
-  ],
-  "Package": [
-    "fusioninventory-agent"
-  ],
-  "Package-List": [
-    "fusioninventory-agent deb net extra arch=any fusioninventory-agent-task-deploy deb net extra arch=all fusioninventory-agent-task-esx deb net extra arch=all fusioninventory-agent-task-network deb net extra arch=all libfusioninventory-agent-task-deploy-perl deb oldlibs extra arch=all libfusioninventory-agent-task-esx-perl deb oldlibs extra arch=all libfusioninventory-agent-task-netinventory-perl deb oldlibs extra arch=all libfusioninventory-agent-task-network-perl deb oldlibs extra arch=all libfusioninventory-agent-task-snmpquery-perl deb oldlibs extra arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/viewvc/collab-maint/deb-maint/fusioninventory-agent"
-  ],
-  "Vcs-Svn": [
-    "svn://anonscm.debian.org/collab-maint/deb-maint/fusioninventory-agent"
-  ],
-  "Version": [
-    "1:2.3.10.1-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"fusioninventory-agent, fusioninventory-agent-task-esx, fusioninventory-agent-task-deploy, fusioninventory-agent-task-network, libfusioninventory-agent-task-esx-perl, libfusioninventory-agent-task-deploy-perl, libfusioninventory-agent-task-network-perl, libfusioninventory-agent-task-netinventory-perl, libfusioninventory-agent-task-snmpquery-perl"
+	],
+	"Build-Depends": [
+		"debhelper (>= 8), dmidecode [any-i386 any-amd64 ia64], hdparm [linux-any], libclone-perl, libdigest-sha-perl, libfile-copy-recursive-perl, libfile-which-perl, libhttp-cookies-perl, libhttp-server-simple-authen-perl, libhttp-daemon-perl, libhttp-proxy-perl, libio-capture-perl, libipc-run-perl, libjson-perl, libmodule-install-perl, libnet-ip-perl, libnet-snmp-perl, libio-socket-ssl-perl, libparse-edid-perl, libpoe-component-client-ping-perl, libproc-daemon-perl, libproc-pid-file-perl, libtest-compile-perl, libtest-deep-perl, libtest-nowarnings-perl, libtest-exception-perl, libtest-http-server-simple-perl, libtest-mockmodule-perl, libtest-mockobject-perl, libtext-template-perl, libsocket-getaddrinfo-perl, libuniversal-require-perl, liburi-perl, libwww-perl, libxml-treepp-perl (>= 0.26), libyaml-perl, pciutils, perl, quilt, ucf"
+	],
+	"Checksums-Sha1": [
+		"2c3c70da0f0380b50c8276c8ac85f1696db78197 3647 fusioninventory-agent_2.3.10.1-1.dsc 44d57727cf002accf9ffa479028686948eb7321c 1940851 fusioninventory-agent_2.3.10.1.orig.tar.gz ae9a208ce962e571241df6cece77bc3a3ded4949 9610 fusioninventory-agent_2.3.10.1-1.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"baa5c9eed58c0bb6581004a5d397f8d13256417807dd21f6bb22b11db1943e69 3647 fusioninventory-agent_2.3.10.1-1.dsc 7137af639bc7dd82c059d44b8ff65a518cc9ea5bbc7d97c10d09a09069730584 1940851 fusioninventory-agent_2.3.10.1.orig.tar.gz a3f7b9be8e6bf83e3ec55a2c7f7a20228adc13210018d874a3ec389ce48c6660 9610 fusioninventory-agent_2.3.10.1-1.diff.gz"
+	],
+	"Directory": [
+		"pool/main/f/fusioninventory-agent"
+	],
+	"Files": [
+		"188d8bcb6356d216e3eca5a1bf03e3f3 3647 fusioninventory-agent_2.3.10.1-1.dsc 288e2062e34d700e09031f56f5a352e4 1940851 fusioninventory-agent_2.3.10.1.orig.tar.gz 0e76d230e4d9021a1714d526c9e39203 9610 fusioninventory-agent_2.3.10.1-1.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Homepage": [
+		"http://fusioninventory.org/"
+	],
+	"Maintainer": [
+		"Gonéri Le Bouder <goneri@debian.org>"
+	],
+	"Package": [
+		"fusioninventory-agent"
+	],
+	"Package-List": [
+		"fusioninventory-agent deb net extra arch=any fusioninventory-agent-task-deploy deb net extra arch=all fusioninventory-agent-task-esx deb net extra arch=all fusioninventory-agent-task-network deb net extra arch=all libfusioninventory-agent-task-deploy-perl deb oldlibs extra arch=all libfusioninventory-agent-task-esx-perl deb oldlibs extra arch=all libfusioninventory-agent-task-netinventory-perl deb oldlibs extra arch=all libfusioninventory-agent-task-network-perl deb oldlibs extra arch=all libfusioninventory-agent-task-snmpquery-perl deb oldlibs extra arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/viewvc/collab-maint/deb-maint/fusioninventory-agent"
+	],
+	"Vcs-Svn": [
+		"svn://anonscm.debian.org/collab-maint/deb-maint/fusioninventory-agent"
+	],
+	"Version": [
+		"1:2.3.10.1-1"
+	]
 }

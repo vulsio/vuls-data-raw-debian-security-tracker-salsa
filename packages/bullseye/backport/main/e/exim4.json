@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "exim4-base, exim4-config, exim4-daemon-light, exim4, exim4-daemon-heavy, eximon4, exim4-dev"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), default-libmysqlclient-dev, docbook-xml, docbook-xsl, libdb5.3-dev, libgnutls28-dev (>= 3.5.7), libident-dev, libidn11-dev, libidn2-dev, libldap2-dev, libpam0g-dev, libpcre2-dev, libperl-dev, libpq-dev, libsasl2-dev, libspf2-dev, libsqlite3-dev, libx11-dev, libxaw7-dev, libxext-dev, libxmu-dev, libxt-dev, lynx, po-debconf, xsltproc"
-  ],
-  "Checksums-Sha256": [
-    "ccb61aec035acf0fd46e3f7448cc845e1baef695dd8ae9d28777253359583f62 2925 exim4_4.96-15~bpo11+1.dsc 299a56927b2eb3477daafd3c5bda02bc67e5c4e5898a7aeaf2740875278cf1a3 1879152 exim4_4.96.orig.tar.xz 9d868dbe6ef823dd563371dc0aadbe58475cd6e42ac8998bfb2b922db3f0fdd0 508 exim4_4.96.orig.tar.xz.asc 1197b79ceb7ac013084309cd0432e333a05b23ec79659a5408775cb831c26a6f 488724 exim4_4.96-15~bpo11+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/e/exim4"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.exim.org/"
-  ],
-  "Maintainer": [
-    "Exim4 Maintainers <pkg-exim4-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "exim4"
-  ],
-  "Package-List": [
-    "exim4 deb mail optional arch=all exim4-base deb mail optional arch=any exim4-config deb mail optional arch=all exim4-daemon-heavy deb mail optional arch=any exim4-daemon-light deb mail optional arch=any exim4-dev deb mail optional arch=any eximon4 deb mail optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "libnet-ssleay-perl, swaks"
-  ],
-  "Uploaders": [
-    "Andreas Metzler <ametzler@debian.org>, Marc Haber <mh+debian-packages@zugschlus.de>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/exim-team/exim4"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/exim-team/exim4.git"
-  ],
-  "Version": [
-    "4.96-15~bpo11+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"exim4-base, exim4-config, exim4-daemon-light, exim4, exim4-daemon-heavy, eximon4, exim4-dev"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), default-libmysqlclient-dev, docbook-xml, docbook-xsl, libdb5.3-dev, libgnutls28-dev (>= 3.5.7), libident-dev, libidn11-dev, libidn2-dev, libldap2-dev, libpam0g-dev, libpcre2-dev, libperl-dev, libpq-dev, libsasl2-dev, libspf2-dev, libsqlite3-dev, libx11-dev, libxaw7-dev, libxext-dev, libxmu-dev, libxt-dev, lynx, po-debconf, xsltproc"
+	],
+	"Checksums-Sha256": [
+		"ccb61aec035acf0fd46e3f7448cc845e1baef695dd8ae9d28777253359583f62 2925 exim4_4.96-15~bpo11+1.dsc 299a56927b2eb3477daafd3c5bda02bc67e5c4e5898a7aeaf2740875278cf1a3 1879152 exim4_4.96.orig.tar.xz 9d868dbe6ef823dd563371dc0aadbe58475cd6e42ac8998bfb2b922db3f0fdd0 508 exim4_4.96.orig.tar.xz.asc 1197b79ceb7ac013084309cd0432e333a05b23ec79659a5408775cb831c26a6f 488724 exim4_4.96-15~bpo11+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/e/exim4"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.exim.org/"
+	],
+	"Maintainer": [
+		"Exim4 Maintainers <pkg-exim4-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"exim4"
+	],
+	"Package-List": [
+		"exim4 deb mail optional arch=all exim4-base deb mail optional arch=any exim4-config deb mail optional arch=all exim4-daemon-heavy deb mail optional arch=any exim4-daemon-light deb mail optional arch=any exim4-dev deb mail optional arch=any eximon4 deb mail optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"libnet-ssleay-perl, swaks"
+	],
+	"Uploaders": [
+		"Andreas Metzler <ametzler@debian.org>, Marc Haber <mh+debian-packages@zugschlus.de>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/exim-team/exim4"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/exim-team/exim4.git"
+	],
+	"Version": [
+		"4.96-15~bpo11+1"
+	]
 }

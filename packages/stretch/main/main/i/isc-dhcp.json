@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "isc-dhcp-server, isc-dhcp-server-ldap, isc-dhcp-common, isc-dhcp-dev, isc-dhcp-client, isc-dhcp-client-ddns, isc-dhcp-client-udeb, isc-dhcp-relay"
-  ],
-  "Build-Depends": [
-    "dpkg-dev (>= 1.13.2), debhelper (>= 9.20151220), dh-autoreconf, groff, pkg-config, po-debconf, libssl-dev, libldap2-dev, libbind-export-dev (>= 1:9.10.3.dfsg.P4-2)"
-  ],
-  "Checksums-Sha256": [
-    "45426dfbcf1d0efe22032f8b94e11992071997543c630bde66f403de22f4aa83 2758 isc-dhcp_4.3.5-3+deb9u1.dsc 36fbfbbe4b7d44fa588e34a3339656be9f5ae33748452d243fe5fa5321a115e5 1141640 isc-dhcp_4.3.5.orig.tar.gz 52ebb5fff096ad9a2fa2bf0c148a1b511b85373de70146f0234fed0224613227 88808 isc-dhcp_4.3.5-3+deb9u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/i/isc-dhcp"
-  ],
-  "Files": [
-    "7f26f6068303167de657f3c430bf6186 2758 isc-dhcp_4.3.5-3+deb9u1.dsc 2cc305b76cf4a75ae57822f90a122437 1141640 isc-dhcp_4.3.5.orig.tar.gz 0bc8871c6179c5b91ff3918320cad3a5 88808 isc-dhcp_4.3.5-3+deb9u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.isc.org"
-  ],
-  "Maintainer": [
-    "Debian ISC DHCP maintainers <pkg-dhcp-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "isc-dhcp"
-  ],
-  "Package-List": [
-    "isc-dhcp-client deb net important arch=any isc-dhcp-client-ddns deb net optional arch=any isc-dhcp-client-udeb udeb debian-installer extra arch=any isc-dhcp-common deb net important arch=any isc-dhcp-dev deb devel optional arch=any isc-dhcp-relay deb net optional arch=any isc-dhcp-server deb net optional arch=any isc-dhcp-server-ldap deb net optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Andrew Pollock <apollock@debian.org>, Michael Gilbert <mgilbert@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/gitweb/?p=pkg-dhcp/isc-dhcp.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/pkg-dhcp/isc-dhcp.git"
-  ],
-  "Version": [
-    "4.3.5-3+deb9u1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"isc-dhcp-server, isc-dhcp-server-ldap, isc-dhcp-common, isc-dhcp-dev, isc-dhcp-client, isc-dhcp-client-ddns, isc-dhcp-client-udeb, isc-dhcp-relay"
+	],
+	"Build-Depends": [
+		"dpkg-dev (>= 1.13.2), debhelper (>= 9.20151220), dh-autoreconf, groff, pkg-config, po-debconf, libssl-dev, libldap2-dev, libbind-export-dev (>= 1:9.10.3.dfsg.P4-2)"
+	],
+	"Checksums-Sha256": [
+		"45426dfbcf1d0efe22032f8b94e11992071997543c630bde66f403de22f4aa83 2758 isc-dhcp_4.3.5-3+deb9u1.dsc 36fbfbbe4b7d44fa588e34a3339656be9f5ae33748452d243fe5fa5321a115e5 1141640 isc-dhcp_4.3.5.orig.tar.gz 52ebb5fff096ad9a2fa2bf0c148a1b511b85373de70146f0234fed0224613227 88808 isc-dhcp_4.3.5-3+deb9u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/i/isc-dhcp"
+	],
+	"Files": [
+		"7f26f6068303167de657f3c430bf6186 2758 isc-dhcp_4.3.5-3+deb9u1.dsc 2cc305b76cf4a75ae57822f90a122437 1141640 isc-dhcp_4.3.5.orig.tar.gz 0bc8871c6179c5b91ff3918320cad3a5 88808 isc-dhcp_4.3.5-3+deb9u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.isc.org"
+	],
+	"Maintainer": [
+		"Debian ISC DHCP maintainers <pkg-dhcp-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"isc-dhcp"
+	],
+	"Package-List": [
+		"isc-dhcp-client deb net important arch=any isc-dhcp-client-ddns deb net optional arch=any isc-dhcp-client-udeb udeb debian-installer extra arch=any isc-dhcp-common deb net important arch=any isc-dhcp-dev deb devel optional arch=any isc-dhcp-relay deb net optional arch=any isc-dhcp-server deb net optional arch=any isc-dhcp-server-ldap deb net optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Andrew Pollock <apollock@debian.org>, Michael Gilbert <mgilbert@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/gitweb/?p=pkg-dhcp/isc-dhcp.git;a=summary"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/pkg-dhcp/isc-dhcp.git"
+	],
+	"Version": [
+		"4.3.5-3+deb9u1"
+	]
 }

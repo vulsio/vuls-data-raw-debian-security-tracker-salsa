@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "postfix, postfix-ldap, postfix-lmdb, postfix-cdb, postfix-pcre, postfix-mysql, postfix-pgsql, postfix-sqlite, postfix-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 7), po-debconf (>= 0.5.0), groff-base, patch, lsb-release, libdb-dev (>= 4.6.19), libldap2-dev (>= 2.1), liblmdb-dev, libpcre3-dev, default-libmysqlclient-dev | libmysqlclient-dev, libssl-dev (>= 0.9.7), libsasl2-dev, libpq-dev, libcdb-dev, dpkg-dev (>= 1.16.1~), libsqlite3-dev, html2text, libicu-dev, dh-systemd"
-  ],
-  "Checksums-Sha256": [
-    "eed777a7b0f9eb411eb0665f77d02187b955df054cad92abf60ee345e39ace9c 2946 postfix_3.1.15-0+deb9u1.dsc b38b63b5024b45e0f865e2e2a3dd320a9e7fa917397a534d1c4d055311a60a60 4334501 postfix_3.1.15.orig.tar.gz 4066c1091281081ca59c059ac890f751d32b987358eda613b7ad7bac69015fa7 220 postfix_3.1.15.orig.tar.gz.asc b2d7e73e4b6b2852cbbbb409fe5b9585ec3186e762223ef97dd9209646230a05 203768 postfix_3.1.15-0+deb9u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/postfix"
-  ],
-  "Files": [
-    "99e9eb9ae666c6ba059d6f4127162fa2 2946 postfix_3.1.15-0+deb9u1.dsc b7037079b2ca7e06055a6c1da0ef4f10 4334501 postfix_3.1.15.orig.tar.gz 0b5b00809468f23db004124ab9167d80 220 postfix_3.1.15.orig.tar.gz.asc a86da3e5fbba8ed03bb6b3eb33eec2df 203768 postfix_3.1.15-0+deb9u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.postfix.org"
-  ],
-  "Maintainer": [
-    "LaMont Jones <lamont@debian.org>"
-  ],
-  "Package": [
-    "postfix"
-  ],
-  "Package-List": [
-    "postfix deb mail extra arch=any postfix-cdb deb mail extra arch=any postfix-doc deb doc extra arch=all postfix-ldap deb mail extra arch=any postfix-lmdb deb mail extra arch=any postfix-mysql deb mail extra arch=any postfix-pcre deb mail extra arch=any postfix-pgsql deb mail extra arch=any postfix-sqlite deb mail extra arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "mail"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "lsb-release, procmail, python-pexpect, python2.7, sasl2-bin"
-  ],
-  "Uploaders": [
-    "Scott Kitterman <scott@kitterman.com>"
-  ],
-  "Vcs-Browser": [
-    "https://git.launchpad.net/postfix"
-  ],
-  "Vcs-Git": [
-    "git://git.launchpad.net/postfix"
-  ],
-  "Version": [
-    "3.1.15-0+deb9u1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"postfix, postfix-ldap, postfix-lmdb, postfix-cdb, postfix-pcre, postfix-mysql, postfix-pgsql, postfix-sqlite, postfix-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 7), po-debconf (>= 0.5.0), groff-base, patch, lsb-release, libdb-dev (>= 4.6.19), libldap2-dev (>= 2.1), liblmdb-dev, libpcre3-dev, default-libmysqlclient-dev | libmysqlclient-dev, libssl-dev (>= 0.9.7), libsasl2-dev, libpq-dev, libcdb-dev, dpkg-dev (>= 1.16.1~), libsqlite3-dev, html2text, libicu-dev, dh-systemd"
+	],
+	"Checksums-Sha256": [
+		"eed777a7b0f9eb411eb0665f77d02187b955df054cad92abf60ee345e39ace9c 2946 postfix_3.1.15-0+deb9u1.dsc b38b63b5024b45e0f865e2e2a3dd320a9e7fa917397a534d1c4d055311a60a60 4334501 postfix_3.1.15.orig.tar.gz 4066c1091281081ca59c059ac890f751d32b987358eda613b7ad7bac69015fa7 220 postfix_3.1.15.orig.tar.gz.asc b2d7e73e4b6b2852cbbbb409fe5b9585ec3186e762223ef97dd9209646230a05 203768 postfix_3.1.15-0+deb9u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/postfix"
+	],
+	"Files": [
+		"99e9eb9ae666c6ba059d6f4127162fa2 2946 postfix_3.1.15-0+deb9u1.dsc b7037079b2ca7e06055a6c1da0ef4f10 4334501 postfix_3.1.15.orig.tar.gz 0b5b00809468f23db004124ab9167d80 220 postfix_3.1.15.orig.tar.gz.asc a86da3e5fbba8ed03bb6b3eb33eec2df 203768 postfix_3.1.15-0+deb9u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.postfix.org"
+	],
+	"Maintainer": [
+		"LaMont Jones <lamont@debian.org>"
+	],
+	"Package": [
+		"postfix"
+	],
+	"Package-List": [
+		"postfix deb mail extra arch=any postfix-cdb deb mail extra arch=any postfix-doc deb doc extra arch=all postfix-ldap deb mail extra arch=any postfix-lmdb deb mail extra arch=any postfix-mysql deb mail extra arch=any postfix-pcre deb mail extra arch=any postfix-pgsql deb mail extra arch=any postfix-sqlite deb mail extra arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"mail"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"lsb-release, procmail, python-pexpect, python2.7, sasl2-bin"
+	],
+	"Uploaders": [
+		"Scott Kitterman <scott@kitterman.com>"
+	],
+	"Vcs-Browser": [
+		"https://git.launchpad.net/postfix"
+	],
+	"Vcs-Git": [
+		"git://git.launchpad.net/postfix"
+	],
+	"Version": [
+		"3.1.15-0+deb9u1"
+	]
 }

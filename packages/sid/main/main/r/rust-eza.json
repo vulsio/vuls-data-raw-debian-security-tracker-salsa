@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-eza-dev, eza"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native, rustc:native, libstd-rust-dev, librust-ansiterm-0.12+ansi-colours-dev (>= 0.12.2-~~), librust-ansiterm-0.12+default-dev (>= 0.12.2-~~), librust-chrono-0.4+clock-dev (>= 0.4.31-~~), librust-git2-0.16-dev | librust-git2-0.15-dev | librust-git2-0.14-dev | librust-git2-0.13-dev, librust-glob-0.3+default-dev, librust-libc-0.2+default-dev, librust-locale-0.2+default-dev, librust-log-0.4+default-dev, librust-natord-1+default-dev, librust-num-cpus-1+default-dev (>= 1.16-~~), librust-number-prefix-0.4+default-dev, librust-once-cell-1+default-dev (>= 1.18.0-~~), librust-palette-0.7+std-dev (>= 0.7.3-~~), librust-percent-encoding-2+default-dev (>= 2.3.0-~~), librust-phf-0.11+default-dev (>= 0.11.2-~~), librust-phf-0.11+macros-dev (>= 0.11.2-~~), librust-proc-mounts-0.3+default-dev, librust-scoped-threadpool-0.1+default-dev, librust-terminal-size-0+default-dev, librust-timeago-0.4-dev, librust-unicode-width-0.1+default-dev, librust-uutils-term-grid-0.3+default-dev, librust-uzers-0.11+default-dev, librust-zoneinfo-compiled-0.5+default-dev (>= 0.5.1-~~), pandoc, bash-completion"
-  ],
-  "Checksums-Sha256": [
-    "1fff2c1dca0a94cc02027d780bd1909299e357d42db26074472871f6eb6371b9 3371 rust-eza_0.15.3-1.dsc b897139f8e1b33591b1c2bf508b61e6f8235f2a1dd52f10c4bee5b173a1f0dca 1213170 rust-eza_0.15.3.orig.tar.gz 7528305ffc90e97c1670988a7b3824025a7e9b49d418900b57d387086a2f9b44 5068 rust-eza_0.15.3-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-eza"
-  ],
-  "Files": [
-    "f106d65a7948cf2e765df121280e5f2b 3371 rust-eza_0.15.3-1.dsc 0823d1c8761513bb11d841cdd0f86c03 1213170 rust-eza_0.15.3.orig.tar.gz 3b348e62afcc93a4df4e357da8c33cd2 5068 rust-eza_0.15.3-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/eza-community/eza"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-eza"
-  ],
-  "Package-List": [
-    "eza deb utils optional arch=any librust-eza-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-criterion-0.5+default-dev, librust-criterion-0.5+html-reports-dev, librust-trycmd-0.14+default-dev"
-  ],
-  "Uploaders": [
-    "Ximin Luo <infinity0@debian.org>, Sylvestre Ledru <sylvestre@debian.org>, kpcyrd <git@rxv.cc>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/eza"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/eza]"
-  ],
-  "Version": [
-    "0.15.3-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-eza-dev, eza"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native, rustc:native, libstd-rust-dev, librust-ansiterm-0.12+ansi-colours-dev (>= 0.12.2-~~), librust-ansiterm-0.12+default-dev (>= 0.12.2-~~), librust-chrono-0.4+clock-dev (>= 0.4.31-~~), librust-git2-0.16-dev | librust-git2-0.15-dev | librust-git2-0.14-dev | librust-git2-0.13-dev, librust-glob-0.3+default-dev, librust-libc-0.2+default-dev, librust-locale-0.2+default-dev, librust-log-0.4+default-dev, librust-natord-1+default-dev, librust-num-cpus-1+default-dev (>= 1.16-~~), librust-number-prefix-0.4+default-dev, librust-once-cell-1+default-dev (>= 1.18.0-~~), librust-palette-0.7+std-dev (>= 0.7.3-~~), librust-percent-encoding-2+default-dev (>= 2.3.0-~~), librust-phf-0.11+default-dev (>= 0.11.2-~~), librust-phf-0.11+macros-dev (>= 0.11.2-~~), librust-proc-mounts-0.3+default-dev, librust-scoped-threadpool-0.1+default-dev, librust-terminal-size-0+default-dev, librust-timeago-0.4-dev, librust-unicode-width-0.1+default-dev, librust-uutils-term-grid-0.3+default-dev, librust-uzers-0.11+default-dev, librust-zoneinfo-compiled-0.5+default-dev (>= 0.5.1-~~), pandoc, bash-completion"
+	],
+	"Checksums-Sha256": [
+		"1fff2c1dca0a94cc02027d780bd1909299e357d42db26074472871f6eb6371b9 3371 rust-eza_0.15.3-1.dsc b897139f8e1b33591b1c2bf508b61e6f8235f2a1dd52f10c4bee5b173a1f0dca 1213170 rust-eza_0.15.3.orig.tar.gz 7528305ffc90e97c1670988a7b3824025a7e9b49d418900b57d387086a2f9b44 5068 rust-eza_0.15.3-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-eza"
+	],
+	"Files": [
+		"f106d65a7948cf2e765df121280e5f2b 3371 rust-eza_0.15.3-1.dsc 0823d1c8761513bb11d841cdd0f86c03 1213170 rust-eza_0.15.3.orig.tar.gz 3b348e62afcc93a4df4e357da8c33cd2 5068 rust-eza_0.15.3-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/eza-community/eza"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-eza"
+	],
+	"Package-List": [
+		"eza deb utils optional arch=any librust-eza-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-criterion-0.5+default-dev, librust-criterion-0.5+html-reports-dev, librust-trycmd-0.14+default-dev"
+	],
+	"Uploaders": [
+		"Ximin Luo <infinity0@debian.org>, Sylvestre Ledru <sylvestre@debian.org>, kpcyrd <git@rxv.cc>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/eza"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/eza]"
+	],
+	"Version": [
+		"0.15.3-1"
+	]
 }

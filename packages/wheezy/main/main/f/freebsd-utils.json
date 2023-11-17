@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "kfreebsd-any"
-  ],
-  "Binary": [
-    "freebsd-utils, freebsd-utils-udeb, kldutils, kldutils-udeb, kbdcontrol, kbdcontrol-udeb, vidcontrol, freebsd-net-tools, freebsd-net-tools-udeb, freebsd-nfs-server, freebsd-nfs-common, geom, freebsd-geom, freebsd-ppp, devd, devd-udeb, ktrace, pf, powerd, mkuzip"
-  ],
-  "Build-Conflicts": [
-    "libc0.1-dev-i386"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 7), po-debconf, sharutils, flex | flex-old, freebsd-buildutils (>= 9.0-8~), freebsd-glue (>= 0.0.4~), kfreebsd-kernel-headers (>= 0.70), libc0.1-dev (>= 2.13-26), libbsd-dev (>= 0.3.0), pkg-config, zlib1g-dev, libkvm-dev (>= 8.3~), libmemstat-dev, libnetgraph-dev, libipx-dev, libkiconv-dev, libdevstat-dev, libgeom-dev, libsbuf-dev (>= 8.2-2), libcam-dev (>= 8.2), libedit-dev, libexpat1-dev, libtirpc-dev, libjail-dev, libssl-dev, liblockdev1-dev"
-  ],
-  "Checksums-Sha1": [
-    "5e60b98a12f8b216567bd367db1fba617d6ace3f 3470 freebsd-utils_9.0+ds1-11~deb7u1.dsc e89334c802a9e041d7da3256e7405919c70f7066 1961569 freebsd-utils_9.0+ds1.orig.tar.gz 00fefe67d5144c66d5bbffda4f8da4d5b14dc0f4 141040 freebsd-utils_9.0+ds1-11~deb7u1.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "f2869174b78ff6634b584a5e129e19cf066c142e75f3b8a1f3c3cfc51b636f65 3470 freebsd-utils_9.0+ds1-11~deb7u1.dsc e4551eaada86ab14fe09ee4cbccd88e8d59fbfa064b54d3890eed1819be988e4 1961569 freebsd-utils_9.0+ds1.orig.tar.gz 74b9e15f02fd018bee0983cd0ded2f8f18f2ea62096b7f738cac7d0d2e4d26bf 141040 freebsd-utils_9.0+ds1-11~deb7u1.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/f/freebsd-utils"
-  ],
-  "Files": [
-    "293a6ab54d11d1ddb93d5b244ca3cb36 3470 freebsd-utils_9.0+ds1-11~deb7u1.dsc dce45a030fce85fe2d5f863f6876fc48 1961569 freebsd-utils_9.0+ds1.orig.tar.gz d66599c3cf49f28483683e58b381c4da 141040 freebsd-utils_9.0+ds1-11~deb7u1.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "GNU/kFreeBSD Maintainers <debian-bsd@lists.debian.org>"
-  ],
-  "Package": [
-    "freebsd-utils"
-  ],
-  "Package-List": [
-    "devd deb admin important devd-udeb udeb debian-installer important freebsd-geom deb admin standard freebsd-net-tools deb net important freebsd-net-tools-udeb udeb debian-installer important freebsd-nfs-common deb net standard freebsd-nfs-server deb net optional freebsd-ppp deb net optional freebsd-utils deb utils required freebsd-utils-udeb udeb debian-installer optional geom deb admin standard kbdcontrol deb utils important kbdcontrol-udeb udeb debian-installer important kldutils deb utils important kldutils-udeb udeb debian-installer optional ktrace deb utils optional mkuzip deb misc extra pf deb net important powerd deb admin standard vidcontrol deb utils important"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "utils"
-  ],
-  "Standards-Version": [
-    "3.9.2"
-  ],
-  "Uploaders": [
-    "Aurelien Jarno <aurel32@debian.org>, Guillem Jover <guillem@debian.org>, Robert Millan <rmh@debian.org>, Christoph Egger <christoph@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://svn.debian.org/wsvn/glibc-bsd/trunk/freebsd-utils/"
-  ],
-  "Vcs-Svn": [
-    "svn://svn.debian.org/glibc-bsd/trunk/freebsd-utils/"
-  ],
-  "Version": [
-    "9.0+ds1-11~deb7u1"
-  ]
+	"Architecture": [
+		"kfreebsd-any"
+	],
+	"Binary": [
+		"freebsd-utils, freebsd-utils-udeb, kldutils, kldutils-udeb, kbdcontrol, kbdcontrol-udeb, vidcontrol, freebsd-net-tools, freebsd-net-tools-udeb, freebsd-nfs-server, freebsd-nfs-common, geom, freebsd-geom, freebsd-ppp, devd, devd-udeb, ktrace, pf, powerd, mkuzip"
+	],
+	"Build-Conflicts": [
+		"libc0.1-dev-i386"
+	],
+	"Build-Depends": [
+		"debhelper (>= 7), po-debconf, sharutils, flex | flex-old, freebsd-buildutils (>= 9.0-8~), freebsd-glue (>= 0.0.4~), kfreebsd-kernel-headers (>= 0.70), libc0.1-dev (>= 2.13-26), libbsd-dev (>= 0.3.0), pkg-config, zlib1g-dev, libkvm-dev (>= 8.3~), libmemstat-dev, libnetgraph-dev, libipx-dev, libkiconv-dev, libdevstat-dev, libgeom-dev, libsbuf-dev (>= 8.2-2), libcam-dev (>= 8.2), libedit-dev, libexpat1-dev, libtirpc-dev, libjail-dev, libssl-dev, liblockdev1-dev"
+	],
+	"Checksums-Sha1": [
+		"5e60b98a12f8b216567bd367db1fba617d6ace3f 3470 freebsd-utils_9.0+ds1-11~deb7u1.dsc e89334c802a9e041d7da3256e7405919c70f7066 1961569 freebsd-utils_9.0+ds1.orig.tar.gz 00fefe67d5144c66d5bbffda4f8da4d5b14dc0f4 141040 freebsd-utils_9.0+ds1-11~deb7u1.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"f2869174b78ff6634b584a5e129e19cf066c142e75f3b8a1f3c3cfc51b636f65 3470 freebsd-utils_9.0+ds1-11~deb7u1.dsc e4551eaada86ab14fe09ee4cbccd88e8d59fbfa064b54d3890eed1819be988e4 1961569 freebsd-utils_9.0+ds1.orig.tar.gz 74b9e15f02fd018bee0983cd0ded2f8f18f2ea62096b7f738cac7d0d2e4d26bf 141040 freebsd-utils_9.0+ds1-11~deb7u1.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/f/freebsd-utils"
+	],
+	"Files": [
+		"293a6ab54d11d1ddb93d5b244ca3cb36 3470 freebsd-utils_9.0+ds1-11~deb7u1.dsc dce45a030fce85fe2d5f863f6876fc48 1961569 freebsd-utils_9.0+ds1.orig.tar.gz d66599c3cf49f28483683e58b381c4da 141040 freebsd-utils_9.0+ds1-11~deb7u1.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"GNU/kFreeBSD Maintainers <debian-bsd@lists.debian.org>"
+	],
+	"Package": [
+		"freebsd-utils"
+	],
+	"Package-List": [
+		"devd deb admin important devd-udeb udeb debian-installer important freebsd-geom deb admin standard freebsd-net-tools deb net important freebsd-net-tools-udeb udeb debian-installer important freebsd-nfs-common deb net standard freebsd-nfs-server deb net optional freebsd-ppp deb net optional freebsd-utils deb utils required freebsd-utils-udeb udeb debian-installer optional geom deb admin standard kbdcontrol deb utils important kbdcontrol-udeb udeb debian-installer important kldutils deb utils important kldutils-udeb udeb debian-installer optional ktrace deb utils optional mkuzip deb misc extra pf deb net important powerd deb admin standard vidcontrol deb utils important"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"utils"
+	],
+	"Standards-Version": [
+		"3.9.2"
+	],
+	"Uploaders": [
+		"Aurelien Jarno <aurel32@debian.org>, Guillem Jover <guillem@debian.org>, Robert Millan <rmh@debian.org>, Christoph Egger <christoph@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://svn.debian.org/wsvn/glibc-bsd/trunk/freebsd-utils/"
+	],
+	"Vcs-Svn": [
+		"svn://svn.debian.org/glibc-bsd/trunk/freebsd-utils/"
+	],
+	"Version": [
+		"9.0+ds1-11~deb7u1"
+	]
 }

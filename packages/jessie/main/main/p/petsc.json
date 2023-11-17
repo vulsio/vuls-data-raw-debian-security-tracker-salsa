@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "linux-any hurd-any all"
-  ],
-  "Binary": [
-    "libpetsc3.4.2-dev, petsc-dev, libpetsc3.4.2, libpetsc3.4.2-dbg, petsc3.4.2-doc"
-  ],
-  "Build-Conflicts": [
-    "lam4-dev, libatlas-base-dev, libatlas3-base"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 7.0.50), quilt, python (>= 2.2), gfortran, autotools-dev, libx11-dev, mpi-default-dev (>= 1.0.2), libblas-dev, liblapack-dev, libsuitesparse-dev (>= 1:4.2.1), libspooles-dev (>= 2.2-6), libhypre-dev (>= 2.4.0), libptscotch-dev, libhdf5-mpi-dev (>= 1.8.8), libblacs-mpi-dev, libscalapack-mpi-dev, libmumps-dev, libfftw3-dev, libfftw3-mpi-dev"
-  ],
-  "Checksums-Sha1": [
-    "95f16638516cced39dff97650e79c761a39589ab 2330 petsc_3.4.2.dfsg1-8.1.dsc 89c6f629ed9f763094b3318f098a375b861a27b9 8929008 petsc_3.4.2.dfsg1.orig.tar.xz 0d710d685ec3fc884f8acec4ce562aae79e3e0d1 30708 petsc_3.4.2.dfsg1-8.1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "273a351a75e30e334bd980a3b64ff78769c63fb2cbdc31e396b1af1d6033fae3 2330 petsc_3.4.2.dfsg1-8.1.dsc 735df638a0aa04cf565ebad3a25853626d53f3caff49a1b2f6f3f69ac534a3c3 8929008 petsc_3.4.2.dfsg1.orig.tar.xz 1ed989cc2154fdd6eae868a78341c5d2d30eb3073eea82a6cb0befbd2231a6e4 30708 petsc_3.4.2.dfsg1-8.1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/petsc"
-  ],
-  "Files": [
-    "23cbd01274be52f6c13e6d40d17b9f51 2330 petsc_3.4.2.dfsg1-8.1.dsc 3c4c747846bac6811ce998f4a594dc27 8929008 petsc_3.4.2.dfsg1.orig.tar.xz fad7e7fd3d409be4f34c9e353c77c3b9 30708 petsc_3.4.2.dfsg1-8.1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.mcs.anl.gov/petsc"
-  ],
-  "Maintainer": [
-    "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "petsc"
-  ],
-  "Package-List": [
-    "libpetsc3.4.2 deb libs extra arch=linux-any,hurd-any libpetsc3.4.2-dbg deb debug extra arch=linux-any,hurd-any libpetsc3.4.2-dev deb libdevel extra arch=linux-any,hurd-any petsc-dev deb libdevel extra arch=all petsc3.4.2-doc deb doc extra arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "devel"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Uploaders": [
-    "\"Adam C. Powell, IV\" <hazelsct@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=debian-science/packages/petsc.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/debian-science/packages/petsc.git"
-  ],
-  "Version": [
-    "3.4.2.dfsg1-8.1"
-  ]
+	"Architecture": [
+		"linux-any hurd-any all"
+	],
+	"Binary": [
+		"libpetsc3.4.2-dev, petsc-dev, libpetsc3.4.2, libpetsc3.4.2-dbg, petsc3.4.2-doc"
+	],
+	"Build-Conflicts": [
+		"lam4-dev, libatlas-base-dev, libatlas3-base"
+	],
+	"Build-Depends": [
+		"debhelper (>= 7.0.50), quilt, python (>= 2.2), gfortran, autotools-dev, libx11-dev, mpi-default-dev (>= 1.0.2), libblas-dev, liblapack-dev, libsuitesparse-dev (>= 1:4.2.1), libspooles-dev (>= 2.2-6), libhypre-dev (>= 2.4.0), libptscotch-dev, libhdf5-mpi-dev (>= 1.8.8), libblacs-mpi-dev, libscalapack-mpi-dev, libmumps-dev, libfftw3-dev, libfftw3-mpi-dev"
+	],
+	"Checksums-Sha1": [
+		"95f16638516cced39dff97650e79c761a39589ab 2330 petsc_3.4.2.dfsg1-8.1.dsc 89c6f629ed9f763094b3318f098a375b861a27b9 8929008 petsc_3.4.2.dfsg1.orig.tar.xz 0d710d685ec3fc884f8acec4ce562aae79e3e0d1 30708 petsc_3.4.2.dfsg1-8.1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"273a351a75e30e334bd980a3b64ff78769c63fb2cbdc31e396b1af1d6033fae3 2330 petsc_3.4.2.dfsg1-8.1.dsc 735df638a0aa04cf565ebad3a25853626d53f3caff49a1b2f6f3f69ac534a3c3 8929008 petsc_3.4.2.dfsg1.orig.tar.xz 1ed989cc2154fdd6eae868a78341c5d2d30eb3073eea82a6cb0befbd2231a6e4 30708 petsc_3.4.2.dfsg1-8.1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/petsc"
+	],
+	"Files": [
+		"23cbd01274be52f6c13e6d40d17b9f51 2330 petsc_3.4.2.dfsg1-8.1.dsc 3c4c747846bac6811ce998f4a594dc27 8929008 petsc_3.4.2.dfsg1.orig.tar.xz fad7e7fd3d409be4f34c9e353c77c3b9 30708 petsc_3.4.2.dfsg1-8.1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.mcs.anl.gov/petsc"
+	],
+	"Maintainer": [
+		"Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"petsc"
+	],
+	"Package-List": [
+		"libpetsc3.4.2 deb libs extra arch=linux-any,hurd-any libpetsc3.4.2-dbg deb debug extra arch=linux-any,hurd-any libpetsc3.4.2-dev deb libdevel extra arch=linux-any,hurd-any petsc-dev deb libdevel extra arch=all petsc3.4.2-doc deb doc extra arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"devel"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Uploaders": [
+		"\"Adam C. Powell, IV\" <hazelsct@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=debian-science/packages/petsc.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/debian-science/packages/petsc.git"
+	],
+	"Version": [
+		"3.4.2.dfsg1-8.1"
+	]
 }

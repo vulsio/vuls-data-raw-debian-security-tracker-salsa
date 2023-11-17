@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "grr-server, grr-client-templates-installer"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-python, python-dev, cmake, debhelper (>= 10.1~) | dh-systemd, protobuf-compiler, python-artifacts (>= 20170618-1~), python-binplist, python-crontab, python-django, python-ipaddr, python-m2crypto, python-mock, python-mox, python-mysqldb, python-pexpect, python-protobuf, python-psutil, python-rekall-core, python-requests, python-selenium, python-setuptools, python-tsk, python-urllib3, python-werkzeug, python-yaml, txt2man"
-  ],
-  "Checksums-Sha256": [
-    "75eb5c512853ca5cf03eae38506558c40a43af956d8a4ca8a21fcb3f0af6badf 2204 grr_3.1.0.2+dfsg-3~bpo9+1.dsc 1424a502001a2001282022fb17597e0e041f5e8816af8ab928920761168d7616 6451070 grr_3.1.0.2+dfsg.orig.tar.gz 7a88f98b308576eff220f56b660c6eb6554beb4fcf63d7e684bec326dcca0124 22888 grr_3.1.0.2+dfsg-3~bpo9+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/g/grr"
-  ],
-  "Files": [
-    "4f735c70fffcddfd7ad1e7ae585d5372 2204 grr_3.1.0.2+dfsg-3~bpo9+1.dsc e30a2870c8962c645cb16b41b718d568 6451070 grr_3.1.0.2+dfsg.orig.tar.gz 2e4a97b3dadce11bb76147e3b04d2400 22888 grr_3.1.0.2+dfsg-3~bpo9+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/google/grr"
-  ],
-  "Maintainer": [
-    "Debian Forensics <forensics-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "grr"
-  ],
-  "Package-List": [
-    "grr-client-templates-installer deb utils extra arch=all grr-server deb utils extra arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "unzip"
-  ],
-  "Uploaders": [
-    "Hilko Bengen <bengen@debian.org>, Sascha Steinbiss <satta@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/forensics/grr.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/forensics/grr.git"
-  ],
-  "Version": [
-    "3.1.0.2+dfsg-3~bpo9+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"grr-server, grr-client-templates-installer"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-python, python-dev, cmake, debhelper (>= 10.1~) | dh-systemd, protobuf-compiler, python-artifacts (>= 20170618-1~), python-binplist, python-crontab, python-django, python-ipaddr, python-m2crypto, python-mock, python-mox, python-mysqldb, python-pexpect, python-protobuf, python-psutil, python-rekall-core, python-requests, python-selenium, python-setuptools, python-tsk, python-urllib3, python-werkzeug, python-yaml, txt2man"
+	],
+	"Checksums-Sha256": [
+		"75eb5c512853ca5cf03eae38506558c40a43af956d8a4ca8a21fcb3f0af6badf 2204 grr_3.1.0.2+dfsg-3~bpo9+1.dsc 1424a502001a2001282022fb17597e0e041f5e8816af8ab928920761168d7616 6451070 grr_3.1.0.2+dfsg.orig.tar.gz 7a88f98b308576eff220f56b660c6eb6554beb4fcf63d7e684bec326dcca0124 22888 grr_3.1.0.2+dfsg-3~bpo9+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/grr"
+	],
+	"Files": [
+		"4f735c70fffcddfd7ad1e7ae585d5372 2204 grr_3.1.0.2+dfsg-3~bpo9+1.dsc e30a2870c8962c645cb16b41b718d568 6451070 grr_3.1.0.2+dfsg.orig.tar.gz 2e4a97b3dadce11bb76147e3b04d2400 22888 grr_3.1.0.2+dfsg-3~bpo9+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/google/grr"
+	],
+	"Maintainer": [
+		"Debian Forensics <forensics-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"grr"
+	],
+	"Package-List": [
+		"grr-client-templates-installer deb utils extra arch=all grr-server deb utils extra arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"unzip"
+	],
+	"Uploaders": [
+		"Hilko Bengen <bengen@debian.org>, Sascha Steinbiss <satta@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/forensics/grr.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/forensics/grr.git"
+	],
+	"Version": [
+		"3.1.0.2+dfsg-3~bpo9+1"
+	]
 }

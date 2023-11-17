@@ -1,53 +1,53 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "nfs-ganesha, nfs-ganesha-mount-9p, nfs-ganesha-gluster, nfs-ganesha-ceph, nfs-ganesha-rgw, nfs-ganesha-vfs, nfs-ganesha-rados-grace, nfs-ganesha-nullfs, nfs-ganesha-mem, nfs-ganesha-proxy-v4, nfs-ganesha-gpfs, python3-nfs-ganesha, nfs-ganesha-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 10), bison, flex, cmake, libdbus-1-dev, libnfsidmap-dev, libwbclient-dev, libntirpc-dev (>= 4.0), libkrb5-dev, libblkid-dev, libattr1-dev, libacl1-dev, lttng-tools, liblttng-ust-dev, liblttng-ctl-dev, liburcu-dev, xfslibs-dev, uuid-dev, libcap-dev, libglusterfs-dev (>= 9.0), librados-dev, libcephfs-dev, librgw-dev, dh-python, python3-all-dev, libpython3-all-dev, python3-setuptools, python3-sphinx, python3-pyqt5, pyqt5-dev-tools, pkgconf"
-  ],
-  "Checksums-Sha256": [
-    "1ae1e985d1d8a7c17cb1fea77c5987da7a7621665e0a556fac1120e4217307e2 3191 nfs-ganesha_4.0.12-3~bpo11+1.dsc 3895e56ae7e2f4bc173cca6345d766d9d4163d2c911afd2182020af8e34a4f44 1892757 nfs-ganesha_4.0.12.orig.tar.gz e050a951a0dbc1c4d4e90697fc52c18b52e95f7796aa88ea7dae6f3254d35db8 18484 nfs-ganesha_4.0.12-3~bpo11+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/n/nfs-ganesha"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/nfs-ganesha/nfs-ganesha"
-  ],
-  "Maintainer": [
-    "Philippe Deniel <philippe.deniel@cea.fr>"
-  ],
-  "Package": [
-    "nfs-ganesha"
-  ],
-  "Package-List": [
-    "nfs-ganesha deb net optional arch=any nfs-ganesha-ceph deb libs optional arch=any nfs-ganesha-doc deb doc optional arch=all nfs-ganesha-gluster deb libs optional arch=any nfs-ganesha-gpfs deb libs optional arch=any nfs-ganesha-mem deb libs optional arch=any nfs-ganesha-mount-9p deb net optional arch=all nfs-ganesha-nullfs deb libs optional arch=any nfs-ganesha-proxy-v4 deb libs optional arch=any nfs-ganesha-rados-grace deb net optional arch=any nfs-ganesha-rgw deb libs optional arch=any nfs-ganesha-vfs deb libs optional arch=any python3-nfs-ganesha deb python optional arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.5.1"
-  ],
-  "Uploaders": [
-    "Christoph Martin <martin@uni-mainz.de>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian/nfs-ganesha"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian/nfs-ganesha.git"
-  ],
-  "Version": [
-    "4.0.12-3~bpo11+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"nfs-ganesha, nfs-ganesha-mount-9p, nfs-ganesha-gluster, nfs-ganesha-ceph, nfs-ganesha-rgw, nfs-ganesha-vfs, nfs-ganesha-rados-grace, nfs-ganesha-nullfs, nfs-ganesha-mem, nfs-ganesha-proxy-v4, nfs-ganesha-gpfs, python3-nfs-ganesha, nfs-ganesha-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 10), bison, flex, cmake, libdbus-1-dev, libnfsidmap-dev, libwbclient-dev, libntirpc-dev (>= 4.0), libkrb5-dev, libblkid-dev, libattr1-dev, libacl1-dev, lttng-tools, liblttng-ust-dev, liblttng-ctl-dev, liburcu-dev, xfslibs-dev, uuid-dev, libcap-dev, libglusterfs-dev (>= 9.0), librados-dev, libcephfs-dev, librgw-dev, dh-python, python3-all-dev, libpython3-all-dev, python3-setuptools, python3-sphinx, python3-pyqt5, pyqt5-dev-tools, pkgconf"
+	],
+	"Checksums-Sha256": [
+		"1ae1e985d1d8a7c17cb1fea77c5987da7a7621665e0a556fac1120e4217307e2 3191 nfs-ganesha_4.0.12-3~bpo11+1.dsc 3895e56ae7e2f4bc173cca6345d766d9d4163d2c911afd2182020af8e34a4f44 1892757 nfs-ganesha_4.0.12.orig.tar.gz e050a951a0dbc1c4d4e90697fc52c18b52e95f7796aa88ea7dae6f3254d35db8 18484 nfs-ganesha_4.0.12-3~bpo11+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/n/nfs-ganesha"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/nfs-ganesha/nfs-ganesha"
+	],
+	"Maintainer": [
+		"Philippe Deniel <philippe.deniel@cea.fr>"
+	],
+	"Package": [
+		"nfs-ganesha"
+	],
+	"Package-List": [
+		"nfs-ganesha deb net optional arch=any nfs-ganesha-ceph deb libs optional arch=any nfs-ganesha-doc deb doc optional arch=all nfs-ganesha-gluster deb libs optional arch=any nfs-ganesha-gpfs deb libs optional arch=any nfs-ganesha-mem deb libs optional arch=any nfs-ganesha-mount-9p deb net optional arch=all nfs-ganesha-nullfs deb libs optional arch=any nfs-ganesha-proxy-v4 deb libs optional arch=any nfs-ganesha-rados-grace deb net optional arch=any nfs-ganesha-rgw deb libs optional arch=any nfs-ganesha-vfs deb libs optional arch=any python3-nfs-ganesha deb python optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.1"
+	],
+	"Uploaders": [
+		"Christoph Martin <martin@uni-mainz.de>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/nfs-ganesha"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/nfs-ganesha.git"
+	],
+	"Version": [
+		"4.0.12-3~bpo11+1"
+	]
 }

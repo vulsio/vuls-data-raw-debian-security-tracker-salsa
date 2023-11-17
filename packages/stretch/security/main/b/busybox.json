@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "busybox, busybox-static, busybox-udeb, busybox-syslogd, udhcpc, udhcpd"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), zip, libc-dev-bin (>> 2.19-12~) | libc-dev-bin (<< 2.19)"
-  ],
-  "Checksums-Sha1": [
-    "7c4251c76a00f775e1ad5b38128e4cbf9f648707 2449 busybox_1.22.0-19+deb9u2.dsc 486fb55c3efa71148fe07895fd713ea3a5ae343a 2218120 busybox_1.22.0.orig.tar.bz2 f65eaf01cb1226033b612db7052269ce888e83d6 67140 busybox_1.22.0-19+deb9u2.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "e4d4a52a9a7e69b7e7ace33221c8b3d1d5c1756af868ade97eb2256359e45006 2449 busybox_1.22.0-19+deb9u2.dsc 92f00cd391b7d5fa2215c8450abe2ba15f9d16c226e8855fb21b6c9a5b723a53 2218120 busybox_1.22.0.orig.tar.bz2 6521fb8319accc7fd62d6ce9d55bb803406169d9be997228fa51312a24538537 67140 busybox_1.22.0-19+deb9u2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/b/busybox"
-  ],
-  "Files": [
-    "8ccb9f6af6f480aad4cd3472c6d7079c 2449 busybox_1.22.0-19+deb9u2.dsc ac1881d1cdeb0729b22c663feaf1c663 2218120 busybox_1.22.0.orig.tar.bz2 9502f0e5d947f165f4c562e1a42c8b31 67140 busybox_1.22.0-19+deb9u2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.busybox.net"
-  ],
-  "Maintainer": [
-    "Debian Install System Team <debian-boot@lists.debian.org>"
-  ],
-  "Package": [
-    "busybox"
-  ],
-  "Package-List": [
-    "busybox deb utils optional arch=any busybox-static deb shells extra arch=any busybox-syslogd deb utils optional arch=all busybox-udeb udeb debian-installer extra arch=any udhcpc deb net optional arch=linux-any udhcpd deb net optional arch=linux-any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "utils"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Uploaders": [
-    "Bastian Blank <waldi@debian.org>, Michael Tokarev <mjt@tls.msk.ru>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/d-i/busybox.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/d-i/busybox.git"
-  ],
-  "Version": [
-    "1:1.22.0-19+deb9u2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"busybox, busybox-static, busybox-udeb, busybox-syslogd, udhcpc, udhcpd"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), zip, libc-dev-bin (>> 2.19-12~) | libc-dev-bin (<< 2.19)"
+	],
+	"Checksums-Sha1": [
+		"7c4251c76a00f775e1ad5b38128e4cbf9f648707 2449 busybox_1.22.0-19+deb9u2.dsc 486fb55c3efa71148fe07895fd713ea3a5ae343a 2218120 busybox_1.22.0.orig.tar.bz2 f65eaf01cb1226033b612db7052269ce888e83d6 67140 busybox_1.22.0-19+deb9u2.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"e4d4a52a9a7e69b7e7ace33221c8b3d1d5c1756af868ade97eb2256359e45006 2449 busybox_1.22.0-19+deb9u2.dsc 92f00cd391b7d5fa2215c8450abe2ba15f9d16c226e8855fb21b6c9a5b723a53 2218120 busybox_1.22.0.orig.tar.bz2 6521fb8319accc7fd62d6ce9d55bb803406169d9be997228fa51312a24538537 67140 busybox_1.22.0-19+deb9u2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/b/busybox"
+	],
+	"Files": [
+		"8ccb9f6af6f480aad4cd3472c6d7079c 2449 busybox_1.22.0-19+deb9u2.dsc ac1881d1cdeb0729b22c663feaf1c663 2218120 busybox_1.22.0.orig.tar.bz2 9502f0e5d947f165f4c562e1a42c8b31 67140 busybox_1.22.0-19+deb9u2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.busybox.net"
+	],
+	"Maintainer": [
+		"Debian Install System Team <debian-boot@lists.debian.org>"
+	],
+	"Package": [
+		"busybox"
+	],
+	"Package-List": [
+		"busybox deb utils optional arch=any busybox-static deb shells extra arch=any busybox-syslogd deb utils optional arch=all busybox-udeb udeb debian-installer extra arch=any udhcpc deb net optional arch=linux-any udhcpd deb net optional arch=linux-any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"utils"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Uploaders": [
+		"Bastian Blank <waldi@debian.org>, Michael Tokarev <mjt@tls.msk.ru>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/d-i/busybox.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/d-i/busybox.git"
+	],
+	"Version": [
+		"1:1.22.0-19+deb9u2"
+	]
 }

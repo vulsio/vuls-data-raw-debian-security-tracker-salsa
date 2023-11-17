@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "haskell-stack"
-  ],
-  "Build-Depends": [
-    "cdbs, debhelper (>= 10), haskell-devscripts, ghc (>= 9.4), libghc-aeson-dev (>= 2.0.3.0), libghc-annotated-wl-pprint-dev, libghc-ansi-terminal-dev, libghc-async-dev, libghc-attoparsec-dev, libghc-base64-bytestring-dev, libghc-casa-client-dev, libghc-casa-types-dev, libghc-colour-dev, libghc-conduit-dev, libghc-conduit-extra-dev, libghc-cryptonite-dev, libghc-cryptonite-conduit-dev, libghc-echo-dev, libghc-extra-dev, libghc-file-embed-dev, libghc-filelock-dev, libghc-fsnotify-dev (>= 0.4.1), libghc-generic-deriving-dev, libghc-hackage-security-dev, libghc-hashable-dev, libghc-hi-file-parser-dev, libghc-hpack-dev, libghc-http-client-dev, libghc-http-client-tls-dev, libghc-http-conduit-dev, libghc-http-download-dev, libghc-http-types-dev, libghc-memory-dev, libghc-microlens-dev, libghc-mono-traversable-dev, libghc-mustache-dev, libghc-neat-interpolation-dev, libghc-network-uri-dev, libghc-open-browser-dev, libghc-optparse-applicative-dev (>= 0.17.0.0), libghc-pantry-dev (>= 0.8.1), libghc-path-dev, libghc-path-io-dev, libghc-persistent-dev (>= 2.13.3.5), libghc-persistent-dev (<< 2.15), libghc-persistent-sqlite-dev, libghc-persistent-template-dev, libghc-primitive-dev, libghc-project-template-dev, libghc-random-dev, libghc-retry-dev, libghc-rio-dev (>= 0.1.22.0), libghc-rio-prettyprint-dev (>= 0.1.4.0), libghc-semigroups-dev, libghc-split-dev, libghc-streaming-commons-dev, libghc-tar-dev, libghc-temporary-dev, libghc-text-metrics-dev, libghc-th-reify-many-dev, libghc-tls-dev, libghc-typed-process-dev, libghc-unicode-transforms-dev, libghc-unix-compat-dev, libghc-unliftio-dev, libghc-unordered-containers-dev, libghc-vector-dev, libghc-yaml-dev, libghc-zip-archive-dev, libghc-zlib-dev, libghc-quickcheck2-dev, libghc-hspec-dev, libghc-raw-strings-qq-dev, libghc-smallcheck-dev"
-  ],
-  "Checksums-Sha256": [
-    "d04847245eb75529754ab00777e06ccb843da877e4157aac2de74d2b64a86701 3834 haskell-stack_2.9.3.1-1.dsc 06b78ae536fe3369fa5a87d0ffc4a829c6e6e6d5af804d10bbece150d2c520d6 654723 haskell-stack_2.9.3.1.orig.tar.gz c10400d4e12d1940105fb42e29a3ffcd8a911856355366d03adab240017f69ee 5988 haskell-stack_2.9.3.1-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/h/haskell-stack"
-  ],
-  "Files": [
-    "ecad5aefe67a2e385aacd9df80f2e386 3834 haskell-stack_2.9.3.1-1.dsc 968e73d08c49a7d7dbabb5dc9f58b6d5 654723 haskell-stack_2.9.3.1.orig.tar.gz 8c4659bc105576c11139f9762a1eb9ca 5988 haskell-stack_2.9.3.1-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://haskellstack.org"
-  ],
-  "Maintainer": [
-    "Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "haskell-stack"
-  ],
-  "Package-List": [
-    "haskell-stack deb haskell optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Uploaders": [
-    "Ilias Tsitsimpis <iliastsi@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-stack"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-stack]"
-  ],
-  "Version": [
-    "2.9.3.1-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"haskell-stack"
+	],
+	"Build-Depends": [
+		"cdbs, debhelper (>= 10), haskell-devscripts, ghc (>= 9.4), libghc-aeson-dev (>= 2.0.3.0), libghc-annotated-wl-pprint-dev, libghc-ansi-terminal-dev, libghc-async-dev, libghc-attoparsec-dev, libghc-base64-bytestring-dev, libghc-casa-client-dev, libghc-casa-types-dev, libghc-colour-dev, libghc-conduit-dev, libghc-conduit-extra-dev, libghc-cryptonite-dev, libghc-cryptonite-conduit-dev, libghc-echo-dev, libghc-extra-dev, libghc-file-embed-dev, libghc-filelock-dev, libghc-fsnotify-dev (>= 0.4.1), libghc-generic-deriving-dev, libghc-hackage-security-dev, libghc-hashable-dev, libghc-hi-file-parser-dev, libghc-hpack-dev, libghc-http-client-dev, libghc-http-client-tls-dev, libghc-http-conduit-dev, libghc-http-download-dev, libghc-http-types-dev, libghc-memory-dev, libghc-microlens-dev, libghc-mono-traversable-dev, libghc-mustache-dev, libghc-neat-interpolation-dev, libghc-network-uri-dev, libghc-open-browser-dev, libghc-optparse-applicative-dev (>= 0.17.0.0), libghc-pantry-dev (>= 0.8.1), libghc-path-dev, libghc-path-io-dev, libghc-persistent-dev (>= 2.13.3.5), libghc-persistent-dev (<< 2.15), libghc-persistent-sqlite-dev, libghc-persistent-template-dev, libghc-primitive-dev, libghc-project-template-dev, libghc-random-dev, libghc-retry-dev, libghc-rio-dev (>= 0.1.22.0), libghc-rio-prettyprint-dev (>= 0.1.4.0), libghc-semigroups-dev, libghc-split-dev, libghc-streaming-commons-dev, libghc-tar-dev, libghc-temporary-dev, libghc-text-metrics-dev, libghc-th-reify-many-dev, libghc-tls-dev, libghc-typed-process-dev, libghc-unicode-transforms-dev, libghc-unix-compat-dev, libghc-unliftio-dev, libghc-unordered-containers-dev, libghc-vector-dev, libghc-yaml-dev, libghc-zip-archive-dev, libghc-zlib-dev, libghc-quickcheck2-dev, libghc-hspec-dev, libghc-raw-strings-qq-dev, libghc-smallcheck-dev"
+	],
+	"Checksums-Sha256": [
+		"d04847245eb75529754ab00777e06ccb843da877e4157aac2de74d2b64a86701 3834 haskell-stack_2.9.3.1-1.dsc 06b78ae536fe3369fa5a87d0ffc4a829c6e6e6d5af804d10bbece150d2c520d6 654723 haskell-stack_2.9.3.1.orig.tar.gz c10400d4e12d1940105fb42e29a3ffcd8a911856355366d03adab240017f69ee 5988 haskell-stack_2.9.3.1-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/h/haskell-stack"
+	],
+	"Files": [
+		"ecad5aefe67a2e385aacd9df80f2e386 3834 haskell-stack_2.9.3.1-1.dsc 968e73d08c49a7d7dbabb5dc9f58b6d5 654723 haskell-stack_2.9.3.1.orig.tar.gz 8c4659bc105576c11139f9762a1eb9ca 5988 haskell-stack_2.9.3.1-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://haskellstack.org"
+	],
+	"Maintainer": [
+		"Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"haskell-stack"
+	],
+	"Package-List": [
+		"haskell-stack deb haskell optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Uploaders": [
+		"Ilias Tsitsimpis <iliastsi@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-stack"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-stack]"
+	],
+	"Version": [
+		"2.9.3.1-1"
+	]
 }

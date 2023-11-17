@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-sha1-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cfg-if-1+default-dev <!nocheck>, librust-cpufeatures-0.2+default-dev <!nocheck>, librust-digest-0.10+default-dev (>= 0.10.4-~~) <!nocheck>, librust-digest-0.10+std-dev (>= 0.10.4-~~) <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "240915583fc989047215559f065bfd4efa63a4bb9bd8ae7230899c954ae1cf9e 2412 rust-sha1_0.10.5-1.dsc f04293dc80c3993519f2d7f6f511707ee7094fe0c6d3406feb330cdb3540eba3 12146 rust-sha1_0.10.5.orig.tar.gz 55df245814a069001bf3e8fb7b39df492efd373e817e51590c3755f79e9022a1 3812 rust-sha1_0.10.5-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-sha1"
-  ],
-  "Files": [
-    "b26a296d8e60c61b77fb277b8b4aa2b6 2412 rust-sha1_0.10.5-1.dsc 602d4f1e2fe53f870b70e83c8cee49db 12146 rust-sha1_0.10.5.orig.tar.gz 04ebfc04ca7323571bdac750cbf97690 3812 rust-sha1_0.10.5-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-sha1"
-  ],
-  "Package-List": [
-    "librust-sha1-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-digest-0.10+default-dev, librust-digest-0.10+dev-dev, librust-hex-literal-0.3+default-dev"
-  ],
-  "Uploaders": [
-    "Sylvestre Ledru <sylvestre@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/sha1"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/sha1]"
-  ],
-  "Version": [
-    "0.10.5-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-sha1-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cfg-if-1+default-dev <!nocheck>, librust-cpufeatures-0.2+default-dev <!nocheck>, librust-digest-0.10+default-dev (>= 0.10.4-~~) <!nocheck>, librust-digest-0.10+std-dev (>= 0.10.4-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"240915583fc989047215559f065bfd4efa63a4bb9bd8ae7230899c954ae1cf9e 2412 rust-sha1_0.10.5-1.dsc f04293dc80c3993519f2d7f6f511707ee7094fe0c6d3406feb330cdb3540eba3 12146 rust-sha1_0.10.5.orig.tar.gz 55df245814a069001bf3e8fb7b39df492efd373e817e51590c3755f79e9022a1 3812 rust-sha1_0.10.5-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-sha1"
+	],
+	"Files": [
+		"b26a296d8e60c61b77fb277b8b4aa2b6 2412 rust-sha1_0.10.5-1.dsc 602d4f1e2fe53f870b70e83c8cee49db 12146 rust-sha1_0.10.5.orig.tar.gz 04ebfc04ca7323571bdac750cbf97690 3812 rust-sha1_0.10.5-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-sha1"
+	],
+	"Package-List": [
+		"librust-sha1-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-digest-0.10+default-dev, librust-digest-0.10+dev-dev, librust-hex-literal-0.3+default-dev"
+	],
+	"Uploaders": [
+		"Sylvestre Ledru <sylvestre@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/sha1"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/sha1]"
+	],
+	"Version": [
+		"0.10.5-1"
+	]
 }

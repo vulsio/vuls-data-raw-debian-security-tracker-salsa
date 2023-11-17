@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-os-brick, python3-os-brick, os-brick-common, python-os-brick-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-python, openstack-pkg-tools (>= 52~), python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.8), python3-setuptools"
-  ],
-  "Build-Depends-Indep": [
-    "python-babel (>= 2.3.4), python-castellan (>= 0.4.0), python-coverage, python-ddt (>= 1.0.1), python-eventlet (>= 0.18.2), python-hacking, python-os-testr (>= 0.7.0), python-os-win (>= 0.2.3), python-oslo.concurrency (>= 3.8.0), python-oslo.i18n (>= 2.1.0), python-oslo.log (>= 1.14.0), python-oslo.privsep (>= 1.9.0), python-oslo.serialization (>= 1.10.0), python-oslo.service (>= 1.10.0), python-oslo.utils (>= 3.16.0), python-oslo.vmware (>= 2.11.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.10.0), python-requests (>= 2.10.0), python-retrying, python-six (>= 1.9.0), python-testscenarios, python-testtools (>= 1.4.0), python3-babel (>= 2.3.4), python3-castellan (>= 0.4.0), python3-ddt (>= 1.0.1), python3-eventlet (>= 0.18.2), python3-os-testr (>= 0.7.0), python3-os-win (>= 0.2.3), python3-oslo.concurrency (>= 3.8.0), python3-oslo.i18n (>= 2.1.0), python3-oslo.log (>= 1.14.0), python3-oslo.privsep (>= 1.9.0), python3-oslo.serialization (>= 1.10.0), python3-oslo.service (>= 1.10.0), python3-oslo.utils (>= 3.16.0), python3-oslo.vmware (>= 2.11.0), python3-oslotest (>= 1:1.10.0), python3-requests (>= 2.10.0), python3-retrying, python3-six (>= 1.9.0), python3-testscenarios, python3-testtools (>= 1.4.0), subunit, testrepository"
-  ],
-  "Checksums-Sha256": [
-    "924edf1ac7e64a8d18c70719dcad998ae811a409124cd994ee0703d7ae2c7ea0 3650 python-os-brick_1.6.1-2.dsc b027e0049c52ea37fc2310aced17cb591a882e9bd04295295fff7927824ac44d 101872 python-os-brick_1.6.1.orig.tar.xz af8825ef33e71a6bc75bebaf817b33616d29d98198069003cb572c18f037eead 4244 python-os-brick_1.6.1-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/python-os-brick"
-  ],
-  "Files": [
-    "c78dd96a56a2d1f5ccfb8f7c80e785a1 3650 python-os-brick_1.6.1-2.dsc 8b6851de4fe9fb3f5117068084093597 101872 python-os-brick_1.6.1.orig.tar.xz 49b4bb507d42fd960ac5fdb97f8f38ca 4244 python-os-brick_1.6.1-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/openstack/os-brick"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "python-os-brick"
-  ],
-  "Package-List": [
-    "os-brick-common deb python optional arch=all python-os-brick deb python optional arch=all python-os-brick-doc deb doc optional arch=all python3-os-brick deb python optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "James Page <james.page@ubuntu.com>, Thomas Goirand <zigo@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://git.openstack.org/cgit/openstack/deb-python-os-brick?h=debian%2Fnewton"
-  ],
-  "Vcs-Git": [
-    "https://git.openstack.org/openstack/deb-python-os-brick -b debian/newton"
-  ],
-  "Version": [
-    "1.6.1-2"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-os-brick, python3-os-brick, os-brick-common, python-os-brick-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-python, openstack-pkg-tools (>= 52~), python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.8), python3-setuptools"
+	],
+	"Build-Depends-Indep": [
+		"python-babel (>= 2.3.4), python-castellan (>= 0.4.0), python-coverage, python-ddt (>= 1.0.1), python-eventlet (>= 0.18.2), python-hacking, python-os-testr (>= 0.7.0), python-os-win (>= 0.2.3), python-oslo.concurrency (>= 3.8.0), python-oslo.i18n (>= 2.1.0), python-oslo.log (>= 1.14.0), python-oslo.privsep (>= 1.9.0), python-oslo.serialization (>= 1.10.0), python-oslo.service (>= 1.10.0), python-oslo.utils (>= 3.16.0), python-oslo.vmware (>= 2.11.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.10.0), python-requests (>= 2.10.0), python-retrying, python-six (>= 1.9.0), python-testscenarios, python-testtools (>= 1.4.0), python3-babel (>= 2.3.4), python3-castellan (>= 0.4.0), python3-ddt (>= 1.0.1), python3-eventlet (>= 0.18.2), python3-os-testr (>= 0.7.0), python3-os-win (>= 0.2.3), python3-oslo.concurrency (>= 3.8.0), python3-oslo.i18n (>= 2.1.0), python3-oslo.log (>= 1.14.0), python3-oslo.privsep (>= 1.9.0), python3-oslo.serialization (>= 1.10.0), python3-oslo.service (>= 1.10.0), python3-oslo.utils (>= 3.16.0), python3-oslo.vmware (>= 2.11.0), python3-oslotest (>= 1:1.10.0), python3-requests (>= 2.10.0), python3-retrying, python3-six (>= 1.9.0), python3-testscenarios, python3-testtools (>= 1.4.0), subunit, testrepository"
+	],
+	"Checksums-Sha256": [
+		"924edf1ac7e64a8d18c70719dcad998ae811a409124cd994ee0703d7ae2c7ea0 3650 python-os-brick_1.6.1-2.dsc b027e0049c52ea37fc2310aced17cb591a882e9bd04295295fff7927824ac44d 101872 python-os-brick_1.6.1.orig.tar.xz af8825ef33e71a6bc75bebaf817b33616d29d98198069003cb572c18f037eead 4244 python-os-brick_1.6.1-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-os-brick"
+	],
+	"Files": [
+		"c78dd96a56a2d1f5ccfb8f7c80e785a1 3650 python-os-brick_1.6.1-2.dsc 8b6851de4fe9fb3f5117068084093597 101872 python-os-brick_1.6.1.orig.tar.xz 49b4bb507d42fd960ac5fdb97f8f38ca 4244 python-os-brick_1.6.1-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/openstack/os-brick"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"python-os-brick"
+	],
+	"Package-List": [
+		"os-brick-common deb python optional arch=all python-os-brick deb python optional arch=all python-os-brick-doc deb doc optional arch=all python3-os-brick deb python optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"James Page <james.page@ubuntu.com>, Thomas Goirand <zigo@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://git.openstack.org/cgit/openstack/deb-python-os-brick?h=debian%2Fnewton"
+	],
+	"Vcs-Git": [
+		"https://git.openstack.org/openstack/deb-python-os-brick -b debian/newton"
+	],
+	"Version": [
+		"1.6.1-2"
+	]
 }

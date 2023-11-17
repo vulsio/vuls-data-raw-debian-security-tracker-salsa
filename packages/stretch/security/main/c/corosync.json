@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "corosync, corosync-notifyd, corosync-qdevice, corosync-qnetd, corosync-doc, corosync-dev, libcfg6, libcmap4, libcorosync-common4, libcpg4, libquorum5, libsam4, libtotem-pg5, libvotequorum8, libcfg-dev, libcmap-dev, libcorosync-common-dev, libcpg-dev, libquorum-dev, libsam-dev, libtotem-pg-dev, libvotequorum-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dctrl-tools, dh-autoreconf, dh-exec, dh-systemd, groff, libdbus-1-dev, libnss3-dev, libqb-dev (>= 0.12), librdmacm-dev [linux-any], libsnmp-dev, libstatgrab-dev [linux-any], libsystemd-dev [linux-any], libxml2-dev, pkg-config, zlib1g-dev"
-  ],
-  "Build-Depends-Indep": [
-    "doxygen, graphviz"
-  ],
-  "Checksums-Sha1": [
-    "97e3c0e70b358307985746102a376785090314c1 3595 corosync_2.4.2-3+deb9u1.dsc fdb77f06158d0a5fae931ea99e5d146e96f14914 1152240 corosync_2.4.2.orig.tar.gz 5a4c66fdf10c0ee7ae4998316284d9300c3514ca 43288 corosync_2.4.2-3+deb9u1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "6fc804d8c37e7e56bc01f9b90a1857fe8e0cb1a9abe0b1ada5bcf77ead25c59d 3595 corosync_2.4.2-3+deb9u1.dsc f26e3011309fe4bcce94b1dc20ea8c462f19483a73f3ca62f13b925d011a4ba9 1152240 corosync_2.4.2.orig.tar.gz 63cf0c83a33962304f63af8e14054b624d3b6de52ed214f68002dc4e0397c558 43288 corosync_2.4.2-3+deb9u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/c/corosync"
-  ],
-  "Files": [
-    "23967f0b240cdfbcae9b49768745a70b 3595 corosync_2.4.2-3+deb9u1.dsc 547fa78704da53aa35912be58d31035f 1152240 corosync_2.4.2.orig.tar.gz 67f7242c56ece39e8d03231f11b7a829 43288 corosync_2.4.2-3+deb9u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://corosync.github.io/corosync/"
-  ],
-  "Maintainer": [
-    "Debian HA Maintainers <debian-ha-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "corosync"
-  ],
-  "Package-List": [
-    "corosync deb admin optional arch=any corosync-dev deb oldlibs extra arch=all corosync-doc deb doc optional arch=all corosync-notifyd deb admin optional arch=any corosync-qdevice deb admin optional arch=any corosync-qnetd deb admin optional arch=any libcfg-dev deb libdevel optional arch=any libcfg6 deb libs optional arch=any libcmap-dev deb libdevel optional arch=any libcmap4 deb libs optional arch=any libcorosync-common-dev deb libdevel optional arch=any libcorosync-common4 deb libs optional arch=any libcpg-dev deb libdevel optional arch=any libcpg4 deb libs optional arch=any libquorum-dev deb libdevel optional arch=any libquorum5 deb libs optional arch=any libsam-dev deb libdevel optional arch=any libsam4 deb libs optional arch=any libtotem-pg-dev deb libdevel optional arch=any libtotem-pg5 deb libs optional arch=any libvotequorum-dev deb libdevel optional arch=any libvotequorum8 deb libs optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "admin"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Christoph Berg <myon@debian.org>, Richard B Winters <rik@mmogp.com>, Adrian Vondendriesch <adrian.vondendriesch@credativ.de>, Ferenc Wágner <wferi@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/debian-ha/corosync.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/debian-ha/corosync.git"
-  ],
-  "Version": [
-    "2.4.2-3+deb9u1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"corosync, corosync-notifyd, corosync-qdevice, corosync-qnetd, corosync-doc, corosync-dev, libcfg6, libcmap4, libcorosync-common4, libcpg4, libquorum5, libsam4, libtotem-pg5, libvotequorum8, libcfg-dev, libcmap-dev, libcorosync-common-dev, libcpg-dev, libquorum-dev, libsam-dev, libtotem-pg-dev, libvotequorum-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dctrl-tools, dh-autoreconf, dh-exec, dh-systemd, groff, libdbus-1-dev, libnss3-dev, libqb-dev (>= 0.12), librdmacm-dev [linux-any], libsnmp-dev, libstatgrab-dev [linux-any], libsystemd-dev [linux-any], libxml2-dev, pkg-config, zlib1g-dev"
+	],
+	"Build-Depends-Indep": [
+		"doxygen, graphviz"
+	],
+	"Checksums-Sha1": [
+		"97e3c0e70b358307985746102a376785090314c1 3595 corosync_2.4.2-3+deb9u1.dsc fdb77f06158d0a5fae931ea99e5d146e96f14914 1152240 corosync_2.4.2.orig.tar.gz 5a4c66fdf10c0ee7ae4998316284d9300c3514ca 43288 corosync_2.4.2-3+deb9u1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"6fc804d8c37e7e56bc01f9b90a1857fe8e0cb1a9abe0b1ada5bcf77ead25c59d 3595 corosync_2.4.2-3+deb9u1.dsc f26e3011309fe4bcce94b1dc20ea8c462f19483a73f3ca62f13b925d011a4ba9 1152240 corosync_2.4.2.orig.tar.gz 63cf0c83a33962304f63af8e14054b624d3b6de52ed214f68002dc4e0397c558 43288 corosync_2.4.2-3+deb9u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/c/corosync"
+	],
+	"Files": [
+		"23967f0b240cdfbcae9b49768745a70b 3595 corosync_2.4.2-3+deb9u1.dsc 547fa78704da53aa35912be58d31035f 1152240 corosync_2.4.2.orig.tar.gz 67f7242c56ece39e8d03231f11b7a829 43288 corosync_2.4.2-3+deb9u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://corosync.github.io/corosync/"
+	],
+	"Maintainer": [
+		"Debian HA Maintainers <debian-ha-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"corosync"
+	],
+	"Package-List": [
+		"corosync deb admin optional arch=any corosync-dev deb oldlibs extra arch=all corosync-doc deb doc optional arch=all corosync-notifyd deb admin optional arch=any corosync-qdevice deb admin optional arch=any corosync-qnetd deb admin optional arch=any libcfg-dev deb libdevel optional arch=any libcfg6 deb libs optional arch=any libcmap-dev deb libdevel optional arch=any libcmap4 deb libs optional arch=any libcorosync-common-dev deb libdevel optional arch=any libcorosync-common4 deb libs optional arch=any libcpg-dev deb libdevel optional arch=any libcpg4 deb libs optional arch=any libquorum-dev deb libdevel optional arch=any libquorum5 deb libs optional arch=any libsam-dev deb libdevel optional arch=any libsam4 deb libs optional arch=any libtotem-pg-dev deb libdevel optional arch=any libtotem-pg5 deb libs optional arch=any libvotequorum-dev deb libdevel optional arch=any libvotequorum8 deb libs optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"admin"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Christoph Berg <myon@debian.org>, Richard B Winters <rik@mmogp.com>, Adrian Vondendriesch <adrian.vondendriesch@credativ.de>, Ferenc Wágner <wferi@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/debian-ha/corosync.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/debian-ha/corosync.git"
+	],
+	"Version": [
+		"2.4.2-3+deb9u1"
+	]
 }

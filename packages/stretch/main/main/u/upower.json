@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "upower, upower-doc, libupower-glib3, libupower-glib-dev, gir1.2-upowerglib-1.0"
-  ],
-  "Build-Depends": [
-    "autotools-dev, debhelper (>= 9), dh-exec, gobject-introspection (>= 0.9.12-4~), gtk-doc-tools, intltool (>= 0.40.0), libgirepository1.0-dev (>= 0.10.7-1~), libglib2.0-dev (>= 2.36), libglib2.0-doc, libgudev-1.0-dev (>= 147) [linux-any], libimobiledevice-dev (>= 0.9.7) [linux-any], libkvm-dev [kfreebsd-any], libusb-1.0-0-dev (>= 1.0.0) [linux-any], pkg-config, udev [linux-any], xsltproc"
-  ],
-  "Checksums-Sha256": [
-    "5562399b9fb8bb67948519ab622662e68018e6530d9ec4cd7b8fb4a1ac736be9 2670 upower_0.99.4-4.dsc 9ca325a6ccef505529b268ebbbd9becd0ce65a65f6ac7ee31e2e5b17648037b0 426292 upower_0.99.4.orig.tar.xz 855430604882ea073c6e373dc0a69a9e5764fb43d8d1e08d64a1f4e8e2786dc8 16872 upower_0.99.4-4.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/u/upower"
-  ],
-  "Files": [
-    "8031b4672e6bbee3550baf3d72777667 2670 upower_0.99.4-4.dsc 78800e1ac7f92b24aabdf433e38f75d2 426292 upower_0.99.4.orig.tar.xz c54ea3bad3259ae91b6b01f8ba43062b 16872 upower_0.99.4-4.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://upower.freedesktop.org/"
-  ],
-  "Maintainer": [
-    "Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "upower"
-  ],
-  "Package-List": [
-    "gir1.2-upowerglib-1.0 deb introspection optional arch=any libupower-glib-dev deb libdevel optional arch=any libupower-glib3 deb libs optional arch=any upower deb admin optional arch=any upower-doc deb doc optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "admin"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential, gir1.2-glib-2.0, gir1.2-umockdev-1.0, python3, python3-gi, umockdev"
-  ],
-  "Uploaders": [
-    "Michael Biebl <biebl@debian.org>, Martin Pitt <mpitt@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-utopia/upower.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-utopia/upower.git"
-  ],
-  "Version": [
-    "0.99.4-4"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"upower, upower-doc, libupower-glib3, libupower-glib-dev, gir1.2-upowerglib-1.0"
+	],
+	"Build-Depends": [
+		"autotools-dev, debhelper (>= 9), dh-exec, gobject-introspection (>= 0.9.12-4~), gtk-doc-tools, intltool (>= 0.40.0), libgirepository1.0-dev (>= 0.10.7-1~), libglib2.0-dev (>= 2.36), libglib2.0-doc, libgudev-1.0-dev (>= 147) [linux-any], libimobiledevice-dev (>= 0.9.7) [linux-any], libkvm-dev [kfreebsd-any], libusb-1.0-0-dev (>= 1.0.0) [linux-any], pkg-config, udev [linux-any], xsltproc"
+	],
+	"Checksums-Sha256": [
+		"5562399b9fb8bb67948519ab622662e68018e6530d9ec4cd7b8fb4a1ac736be9 2670 upower_0.99.4-4.dsc 9ca325a6ccef505529b268ebbbd9becd0ce65a65f6ac7ee31e2e5b17648037b0 426292 upower_0.99.4.orig.tar.xz 855430604882ea073c6e373dc0a69a9e5764fb43d8d1e08d64a1f4e8e2786dc8 16872 upower_0.99.4-4.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/u/upower"
+	],
+	"Files": [
+		"8031b4672e6bbee3550baf3d72777667 2670 upower_0.99.4-4.dsc 78800e1ac7f92b24aabdf433e38f75d2 426292 upower_0.99.4.orig.tar.xz c54ea3bad3259ae91b6b01f8ba43062b 16872 upower_0.99.4-4.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://upower.freedesktop.org/"
+	],
+	"Maintainer": [
+		"Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"upower"
+	],
+	"Package-List": [
+		"gir1.2-upowerglib-1.0 deb introspection optional arch=any libupower-glib-dev deb libdevel optional arch=any libupower-glib3 deb libs optional arch=any upower deb admin optional arch=any upower-doc deb doc optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"admin"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, gir1.2-glib-2.0, gir1.2-umockdev-1.0, python3, python3-gi, umockdev"
+	],
+	"Uploaders": [
+		"Michael Biebl <biebl@debian.org>, Martin Pitt <mpitt@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-utopia/upower.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-utopia/upower.git"
+	],
+	"Version": [
+		"0.99.4-4"
+	]
 }

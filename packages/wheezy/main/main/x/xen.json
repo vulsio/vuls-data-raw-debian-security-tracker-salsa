@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "all amd64 i386"
-  ],
-  "Binary": [
-    "xen-docs-4.1, libxen-4.1, libxenstore3.0, libxen-dev, xenstore-utils, libxen-ocaml, libxen-ocaml-dev, xen-utils-common, xen-utils-4.1, xen-hypervisor-4.1-amd64, xen-system-amd64, xen-hypervisor-4.1-i386, xen-system-i386"
-  ],
-  "Build-Depends": [
-    "debhelper (>> 7), dpkg-dev (>= 1.16.0~), lsb-release, python-dev, bcc, gcc-multilib, e2fslibs-dev, iasl, ipxe-qemu, libaio-dev, libgnutls-dev, liblzma-dev, libncurses5-dev, libpci-dev, pkg-config, uuid-dev, zlib1g-dev, ocaml-nox, dh-ocaml, ocaml-findlib"
-  ],
-  "Build-Depends-Indep": [
-    "graphviz, ghostscript, texlive-fonts-recommended, texlive-font-utils, texlive-latex-recommended"
-  ],
-  "Checksums-Sha1": [
-    "d803cb1366c9f3f147ed303d0ad943c50c873ea4 3040 xen_4.1.4-3+deb7u9.dsc 25ce9b87054be42db97939592a2cc7f4c02dfad7 3152298 xen_4.1.4.orig-qemu.tar.gz 925ea343a4cd3c90e409cba5d1e8cc02305445a2 6618565 xen_4.1.4.orig.tar.gz cda27397e69d56ba4d3853a252c16f03dbc3e865 255101 xen_4.1.4-3+deb7u9.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "ab608381d3d0f7a960877a9444ee39127ed6f4b06a43ae6ac0109e595cb497b8 3040 xen_4.1.4-3+deb7u9.dsc dd0901aa63e7c780c4f5daa2b9079827a491e8feb64497b8a01928b9f0d1c7c7 3152298 xen_4.1.4.orig-qemu.tar.gz 19e0b97419cafcd0b51933b3403121b4b83a5f79d293291a0a92746346a019f1 6618565 xen_4.1.4.orig.tar.gz b4caa7de2171095c2100592bd5f79d1d7d6f37c111f1f0d7883a8a08190347f1 255101 xen_4.1.4-3+deb7u9.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/x/xen"
-  ],
-  "Files": [
-    "cc46135d873ead7888e7345bc839e8cf 3040 xen_4.1.4-3+deb7u9.dsc e46da6b762d2b66122d087e3b93388ca 3152298 xen_4.1.4.orig-qemu.tar.gz f6637f921ff755a2ee3b48ff8db3f6b5 6618565 xen_4.1.4.orig.tar.gz b97015f9250547963449030c31647ddd 255101 xen_4.1.4-3+deb7u9.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "xen"
-  ],
-  "Package-List": [
-    "libxen-4.1 deb libs optional libxen-dev deb libdevel optional libxen-ocaml deb ocaml optional libxen-ocaml-dev deb ocaml optional libxenstore3.0 deb libs optional xen-docs-4.1 deb doc optional xen-hypervisor-4.1-amd64 deb kernel optional xen-hypervisor-4.1-i386 deb kernel optional xen-system-amd64 deb kernel optional xen-system-i386 deb kernel optional xen-utils-4.1 deb kernel optional xen-utils-common deb kernel optional xenstore-utils deb admin optional"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Python-Version": [
-    "current"
-  ],
-  "Section": [
-    "kernel"
-  ],
-  "Standards-Version": [
-    "3.9.2"
-  ],
-  "Uploaders": [
-    "Guido Trotter <ultrotter@debian.org>, Bastian Blank <waldi@debian.org>"
-  ],
-  "Version": [
-    "4.1.4-3+deb7u9"
-  ]
+	"Architecture": [
+		"all amd64 i386"
+	],
+	"Binary": [
+		"xen-docs-4.1, libxen-4.1, libxenstore3.0, libxen-dev, xenstore-utils, libxen-ocaml, libxen-ocaml-dev, xen-utils-common, xen-utils-4.1, xen-hypervisor-4.1-amd64, xen-system-amd64, xen-hypervisor-4.1-i386, xen-system-i386"
+	],
+	"Build-Depends": [
+		"debhelper (>> 7), dpkg-dev (>= 1.16.0~), lsb-release, python-dev, bcc, gcc-multilib, e2fslibs-dev, iasl, ipxe-qemu, libaio-dev, libgnutls-dev, liblzma-dev, libncurses5-dev, libpci-dev, pkg-config, uuid-dev, zlib1g-dev, ocaml-nox, dh-ocaml, ocaml-findlib"
+	],
+	"Build-Depends-Indep": [
+		"graphviz, ghostscript, texlive-fonts-recommended, texlive-font-utils, texlive-latex-recommended"
+	],
+	"Checksums-Sha1": [
+		"d803cb1366c9f3f147ed303d0ad943c50c873ea4 3040 xen_4.1.4-3+deb7u9.dsc 25ce9b87054be42db97939592a2cc7f4c02dfad7 3152298 xen_4.1.4.orig-qemu.tar.gz 925ea343a4cd3c90e409cba5d1e8cc02305445a2 6618565 xen_4.1.4.orig.tar.gz cda27397e69d56ba4d3853a252c16f03dbc3e865 255101 xen_4.1.4-3+deb7u9.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"ab608381d3d0f7a960877a9444ee39127ed6f4b06a43ae6ac0109e595cb497b8 3040 xen_4.1.4-3+deb7u9.dsc dd0901aa63e7c780c4f5daa2b9079827a491e8feb64497b8a01928b9f0d1c7c7 3152298 xen_4.1.4.orig-qemu.tar.gz 19e0b97419cafcd0b51933b3403121b4b83a5f79d293291a0a92746346a019f1 6618565 xen_4.1.4.orig.tar.gz b4caa7de2171095c2100592bd5f79d1d7d6f37c111f1f0d7883a8a08190347f1 255101 xen_4.1.4-3+deb7u9.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/x/xen"
+	],
+	"Files": [
+		"cc46135d873ead7888e7345bc839e8cf 3040 xen_4.1.4-3+deb7u9.dsc e46da6b762d2b66122d087e3b93388ca 3152298 xen_4.1.4.orig-qemu.tar.gz f6637f921ff755a2ee3b48ff8db3f6b5 6618565 xen_4.1.4.orig.tar.gz b97015f9250547963449030c31647ddd 255101 xen_4.1.4-3+deb7u9.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"xen"
+	],
+	"Package-List": [
+		"libxen-4.1 deb libs optional libxen-dev deb libdevel optional libxen-ocaml deb ocaml optional libxen-ocaml-dev deb ocaml optional libxenstore3.0 deb libs optional xen-docs-4.1 deb doc optional xen-hypervisor-4.1-amd64 deb kernel optional xen-hypervisor-4.1-i386 deb kernel optional xen-system-amd64 deb kernel optional xen-system-i386 deb kernel optional xen-utils-4.1 deb kernel optional xen-utils-common deb kernel optional xenstore-utils deb admin optional"
+	],
+	"Priority": [
+		"source"
+	],
+	"Python-Version": [
+		"current"
+	],
+	"Section": [
+		"kernel"
+	],
+	"Standards-Version": [
+		"3.9.2"
+	],
+	"Uploaders": [
+		"Guido Trotter <ultrotter@debian.org>, Bastian Blank <waldi@debian.org>"
+	],
+	"Version": [
+		"4.1.4-3+deb7u9"
+	]
 }

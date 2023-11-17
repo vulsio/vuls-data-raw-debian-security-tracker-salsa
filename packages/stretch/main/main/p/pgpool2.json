@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "pgpool2, pgpool2-dbg, libpgpool0, libpgpool-dev, postgresql-9.6-pgpool2"
-  ],
-  "Build-Depends": [
-    "bison, debhelper (>= 9), dh-autoreconf, dh-systemd (>= 1.19), docbook, docbook-dsssl, docbook-xml, docbook-xsl, flex, libmemcached-dev, libpam0g-dev, libpq-dev, libssl1.0-dev | libssl-dev (<< 1.1), libxml2-utils, openjade, opensp, postgresql-server-dev-all (>= 148~), xsltproc"
-  ],
-  "Checksums-Sha256": [
-    "ff400b0c9faa97b637685080fb562e277bc856d1fc817e6521443a3841418304 2699 pgpool2_3.6.1-1.dsc 244f99a70198b5861a63b2fe3e44ac39d2819f6aa6497f62958c6afa2750d94c 2539510 pgpool2_3.6.1.orig.tar.gz 19226b9e1a82c15a0a5db4f6af6bb5ca07f8269b05f52eb57d29629ef3b993fe 12300 pgpool2_3.6.1-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/pgpool2"
-  ],
-  "Files": [
-    "a3a0c3b24c6da7db397ffd0a2f8a8400 2699 pgpool2_3.6.1-1.dsc 3844a22c2307771d8adb76ec738e45d7 2539510 pgpool2_3.6.1.orig.tar.gz 674fcbad667870b828b04a3c49565eba 12300 pgpool2_3.6.1-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.pgpool.net/mediawiki/index.php/Main_Page"
-  ],
-  "Maintainer": [
-    "Debian PostgreSQL Maintainers <pkg-postgresql-public@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "pgpool2"
-  ],
-  "Package-List": [
-    "libpgpool-dev deb libdevel optional arch=any libpgpool0 deb libs optional arch=any pgpool2 deb database optional arch=any pgpool2-dbg deb debug extra arch=any postgresql-9.6-pgpool2 deb database optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "database"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "default-jdk, libpg-java, libpostgresql-jdbc-java, postgresql, postgresql-common, postgresql-server-dev-all"
-  ],
-  "Uploaders": [
-    "Christoph Berg <myon@debian.org>, Marco Nenciarini <mnencia@debian.org>, Adrian Vondendriesch <adrian.vondendriesch@credativ.de>,"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-postgresql/pgpool2.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-postgresql/pgpool2.git"
-  ],
-  "Version": [
-    "3.6.1-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"pgpool2, pgpool2-dbg, libpgpool0, libpgpool-dev, postgresql-9.6-pgpool2"
+	],
+	"Build-Depends": [
+		"bison, debhelper (>= 9), dh-autoreconf, dh-systemd (>= 1.19), docbook, docbook-dsssl, docbook-xml, docbook-xsl, flex, libmemcached-dev, libpam0g-dev, libpq-dev, libssl1.0-dev | libssl-dev (<< 1.1), libxml2-utils, openjade, opensp, postgresql-server-dev-all (>= 148~), xsltproc"
+	],
+	"Checksums-Sha256": [
+		"ff400b0c9faa97b637685080fb562e277bc856d1fc817e6521443a3841418304 2699 pgpool2_3.6.1-1.dsc 244f99a70198b5861a63b2fe3e44ac39d2819f6aa6497f62958c6afa2750d94c 2539510 pgpool2_3.6.1.orig.tar.gz 19226b9e1a82c15a0a5db4f6af6bb5ca07f8269b05f52eb57d29629ef3b993fe 12300 pgpool2_3.6.1-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/pgpool2"
+	],
+	"Files": [
+		"a3a0c3b24c6da7db397ffd0a2f8a8400 2699 pgpool2_3.6.1-1.dsc 3844a22c2307771d8adb76ec738e45d7 2539510 pgpool2_3.6.1.orig.tar.gz 674fcbad667870b828b04a3c49565eba 12300 pgpool2_3.6.1-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.pgpool.net/mediawiki/index.php/Main_Page"
+	],
+	"Maintainer": [
+		"Debian PostgreSQL Maintainers <pkg-postgresql-public@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"pgpool2"
+	],
+	"Package-List": [
+		"libpgpool-dev deb libdevel optional arch=any libpgpool0 deb libs optional arch=any pgpool2 deb database optional arch=any pgpool2-dbg deb debug extra arch=any postgresql-9.6-pgpool2 deb database optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"database"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"default-jdk, libpg-java, libpostgresql-jdbc-java, postgresql, postgresql-common, postgresql-server-dev-all"
+	],
+	"Uploaders": [
+		"Christoph Berg <myon@debian.org>, Marco Nenciarini <mnencia@debian.org>, Adrian Vondendriesch <adrian.vondendriesch@credativ.de>,"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-postgresql/pgpool2.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-postgresql/pgpool2.git"
+	],
+	"Version": [
+		"3.6.1-1"
+	]
 }

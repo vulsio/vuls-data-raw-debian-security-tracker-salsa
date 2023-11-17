@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "monkeysphere, agent-transfer"
-  ],
-  "Build-Depends": [
-    "bash (>= 3.2), cpio, debhelper-compat (= 12), dpkg-dev (>= 1.17.14), gnupg (>= 2.1.11) <!nocheck>, gnupg (<< 2.2.9) <!nocheck>, gnupg-agent <!nocheck>, libassuan-dev, libcrypt-openssl-rsa-perl <!nocheck>, libdigest-sha-perl <!nocheck>, libgcrypt20-dev, lockfile-progs | procmail <!nocheck>, openssh-server <!nocheck>, openssl <!nocheck>, socat <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "2960d91bfe51340b75c194aa901f35051b943aa126f8ea949c0160bfd9af40f6 1988 monkeysphere_0.43-2~bpo9+1.dsc 80e12635ae7ad0c9ab8202eb65074dca67504a5438970f5aad67e172f7c527a2 111784 monkeysphere_0.43.orig.tar.gz 5663ca6c74d834a77054ba47f3e7f85a14f56c673da0382cc2f8674d45634ad9 8676 monkeysphere_0.43-2~bpo9+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/m/monkeysphere"
-  ],
-  "Files": [
-    "fbf1939a6dd65b7180dad6a56ce08b5e 1988 monkeysphere_0.43-2~bpo9+1.dsc a91cff026a5f07b3c35fb0e1da1c1d0a 111784 monkeysphere_0.43.orig.tar.gz fa7d6887d9aeb03764a57b2cba6771a4 8676 monkeysphere_0.43-2~bpo9+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://web.monkeysphere.info/"
-  ],
-  "Maintainer": [
-    "Debian Privacy Tools Maintainers <pkg-privacy-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "monkeysphere"
-  ],
-  "Package-List": [
-    "agent-transfer deb net optional arch=any monkeysphere deb net optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.3.0"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "cpio, openssh-server, openssl, socat"
-  ],
-  "Uploaders": [
-    "Antoine Beaupré <anarcat@debian.org>, Daniel Kahn Gillmor <dkg@fifthhorseman.net>, Jameson Rollins <jrollins@finestructure.net>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/pkg-privacy-team/monkeysphere"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/pkg-privacy-team/monkeysphere.git -b debian/stretch-backports"
-  ],
-  "Version": [
-    "0.43-2~bpo9+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"monkeysphere, agent-transfer"
+	],
+	"Build-Depends": [
+		"bash (>= 3.2), cpio, debhelper-compat (= 12), dpkg-dev (>= 1.17.14), gnupg (>= 2.1.11) <!nocheck>, gnupg (<< 2.2.9) <!nocheck>, gnupg-agent <!nocheck>, libassuan-dev, libcrypt-openssl-rsa-perl <!nocheck>, libdigest-sha-perl <!nocheck>, libgcrypt20-dev, lockfile-progs | procmail <!nocheck>, openssh-server <!nocheck>, openssl <!nocheck>, socat <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"2960d91bfe51340b75c194aa901f35051b943aa126f8ea949c0160bfd9af40f6 1988 monkeysphere_0.43-2~bpo9+1.dsc 80e12635ae7ad0c9ab8202eb65074dca67504a5438970f5aad67e172f7c527a2 111784 monkeysphere_0.43.orig.tar.gz 5663ca6c74d834a77054ba47f3e7f85a14f56c673da0382cc2f8674d45634ad9 8676 monkeysphere_0.43-2~bpo9+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/m/monkeysphere"
+	],
+	"Files": [
+		"fbf1939a6dd65b7180dad6a56ce08b5e 1988 monkeysphere_0.43-2~bpo9+1.dsc a91cff026a5f07b3c35fb0e1da1c1d0a 111784 monkeysphere_0.43.orig.tar.gz fa7d6887d9aeb03764a57b2cba6771a4 8676 monkeysphere_0.43-2~bpo9+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://web.monkeysphere.info/"
+	],
+	"Maintainer": [
+		"Debian Privacy Tools Maintainers <pkg-privacy-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"monkeysphere"
+	],
+	"Package-List": [
+		"agent-transfer deb net optional arch=any monkeysphere deb net optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.3.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"cpio, openssh-server, openssl, socat"
+	],
+	"Uploaders": [
+		"Antoine Beaupré <anarcat@debian.org>, Daniel Kahn Gillmor <dkg@fifthhorseman.net>, Jameson Rollins <jrollins@finestructure.net>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/pkg-privacy-team/monkeysphere"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/pkg-privacy-team/monkeysphere.git -b debian/stretch-backports"
+	],
+	"Version": [
+		"0.43-2~bpo9+1"
+	]
 }

@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "openconnect, libopenconnect-dev, libopenconnect5"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), groff, libgcrypt20-dev, libgnutls28-dev, libkrb5-dev, liblz4-dev, libp11-kit-dev, libpcsclite-dev, libpskc-dev, libproxy-dev, libsocket-wrapper [!hurd-i386] <!nocheck>, libstoken-dev, libtasn1-6-dev, libtss2-dev [!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386], libuid-wrapper [!alpha !hurd-i386 !kfreebsd-amd64 !kfreebsd-i386] <!nocheck>, libxml2-dev, locales-all <!nocheck>, ocserv [!alpha !hurd-i386 !ia64 !kfreebsd-amd64 !kfreebsd-i386 !m68k !sh4 !sparc64] <!nocheck>, openssl <!nocheck>, pkg-config, python3:any, softhsm2 [!hurd-i386] <!nocheck>, xdg-utils, zlib1g-dev"
-  ],
-  "Checksums-Sha256": [
-    "553fbef07371d251cb46ff1751ddc44e3f46ce8d7613c73cf23c3b6bf089b5bf 3020 openconnect_9.01-2~bpo11+1.dsc b3d7faf830e9793299d6a41e81d84cd4a3e2789c148c9e598e4585010090e4c7 2718526 openconnect_9.01.orig.tar.gz 8f0edbdd1d10e67fd4497a4e8090f14dfb5dbb359e2d4d34ae8010d9810f61db 833 openconnect_9.01.orig.tar.gz.asc de159e25ee8a61d40f5e2c9d1544befd6fa13735d6f1229ebb852ef32217240d 16744 openconnect_9.01-2~bpo11+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/o/openconnect"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.infradead.org/openconnect/"
-  ],
-  "Maintainer": [
-    "Mike Miller <mtmiller@debian.org>"
-  ],
-  "Package": [
-    "openconnect"
-  ],
-  "Package-List": [
-    "libopenconnect-dev deb libdevel optional arch=any libopenconnect5 deb libs optional arch=any openconnect deb net optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "libsocket-wrapper, libuid-wrapper, locales-all, ocserv, softhsm2"
-  ],
-  "Uploaders": [
-    "Luca Boccassi <bluca@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian/openconnect"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian/openconnect.git"
-  ],
-  "Version": [
-    "9.01-2~bpo11+1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"openconnect, libopenconnect-dev, libopenconnect5"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), groff, libgcrypt20-dev, libgnutls28-dev, libkrb5-dev, liblz4-dev, libp11-kit-dev, libpcsclite-dev, libpskc-dev, libproxy-dev, libsocket-wrapper [!hurd-i386] <!nocheck>, libstoken-dev, libtasn1-6-dev, libtss2-dev [!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386], libuid-wrapper [!alpha !hurd-i386 !kfreebsd-amd64 !kfreebsd-i386] <!nocheck>, libxml2-dev, locales-all <!nocheck>, ocserv [!alpha !hurd-i386 !ia64 !kfreebsd-amd64 !kfreebsd-i386 !m68k !sh4 !sparc64] <!nocheck>, openssl <!nocheck>, pkg-config, python3:any, softhsm2 [!hurd-i386] <!nocheck>, xdg-utils, zlib1g-dev"
+	],
+	"Checksums-Sha256": [
+		"553fbef07371d251cb46ff1751ddc44e3f46ce8d7613c73cf23c3b6bf089b5bf 3020 openconnect_9.01-2~bpo11+1.dsc b3d7faf830e9793299d6a41e81d84cd4a3e2789c148c9e598e4585010090e4c7 2718526 openconnect_9.01.orig.tar.gz 8f0edbdd1d10e67fd4497a4e8090f14dfb5dbb359e2d4d34ae8010d9810f61db 833 openconnect_9.01.orig.tar.gz.asc de159e25ee8a61d40f5e2c9d1544befd6fa13735d6f1229ebb852ef32217240d 16744 openconnect_9.01-2~bpo11+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/o/openconnect"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.infradead.org/openconnect/"
+	],
+	"Maintainer": [
+		"Mike Miller <mtmiller@debian.org>"
+	],
+	"Package": [
+		"openconnect"
+	],
+	"Package-List": [
+		"libopenconnect-dev deb libdevel optional arch=any libopenconnect5 deb libs optional arch=any openconnect deb net optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"libsocket-wrapper, libuid-wrapper, locales-all, ocserv, softhsm2"
+	],
+	"Uploaders": [
+		"Luca Boccassi <bluca@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/openconnect"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/openconnect.git"
+	],
+	"Version": [
+		"9.01-2~bpo11+1"
+	]
 }

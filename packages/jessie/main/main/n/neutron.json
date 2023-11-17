@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-neutron, neutron-server, neutron-common, neutron-plugin-nec-agent, neutron-l3-agent, neutron-dhcp-agent, neutron-metadata-agent, neutron-metering-agent, neutron-vpn-agent, neutron-lbaas-agent, neutron-plugin-openvswitch-agent, neutron-plugin-linuxbridge-agent, python-quantum, quantum-server, quantum-common, quantum-plugin-cisco, quantum-plugin-nec, quantum-plugin-nec-agent, quantum-plugin-bigswitch, quantum-plugin-hyperv, quantum-plugin-brocade, quantum-plugin-plumgrid, quantum-plugin-metaplugin, quantum-plugin-nicira, quantum-l3-agent, quantum-dhcp-agent, quantum-metadata-agent, quantum-lbaas-agent, quantum-plugin-openvswitch, quantum-plugin-openvswitch-agent, quantum-plugin-linuxbridge, quantum-plugin-linuxbridge-agent"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-systemd, openstack-pkg-tools (>= 22~), po-debconf, python-all (>= 2.6), python-pbr (>= 0.6), python-sphinx"
-  ],
-  "Build-Depends-Indep": [
-    "alembic (>= 0.4.1), bridge-utils, pep8 (>= 1.3.3), python-amqplib, python-anyjson (>= 0.3.3), python-babel (>= 1.3), python-cliff (>= 1.4.5), python-configobj, python-coverage (>= 3.6), python-eventlet (>= 0.13.0), python-fixtures (>= 0.3.14), python-gflags, python-greenlet (>= 0.3.2), python-hacking (>= 0.8.0), python-httplib2 (>= 0.7.5), python-iso8601 (>= 0.1.9), python-jinja2, python-jsonrpclib, python-keystoneclient (>= 1:0.6.0), python-kombu (>= 2.4.8), python-lxml, python-mock (>= 1.0), python-netaddr (>= 0.7.6), python-netifaces, python-neutronclient (>= 2.3.4), python-nose, python-nosexcover, python-novaclient (>= 2:2.17.0), python-oslo.config (>= 1.2.1), python-oslo.rootwrap, python-paste, python-pastedeploy, python-pyudev, python-requests (>= 1.1), python-routes, python-setuptools, python-simplejson, python-six (>= 1.6.0), python-sqlalchemy, python-stevedore (>= 0.14), python-subunit (>= 0.0.18), python-testrepository (>= 0.0.13), python-testtools (>= 0.9.34), python-unittest2, python-webob (>= 1.2.3), python-webtest (>= 2.0.9), subunit, testrepository (>= 0.0.18)"
-  ],
-  "Checksums-Sha1": [
-    "ea4a1865fecf11a64f2c7e6da01679bcf9a02909 5553 neutron_2014.1.3-12.dsc 6ca7bd7de2bfd8c01d5726716d2e97a0193418b8 1252120 neutron_2014.1.3.orig.tar.xz 0f200805be4b84323149499b7da469b27350056f 45992 neutron_2014.1.3-12.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "ae7d3a4e90cda76e8e34b4e741ff6e3971455c83a42ca78355aa1e0c2fbc10bf 5553 neutron_2014.1.3-12.dsc 5e1fad0387bd325eaa87157cf137782a0970fb01ac24211eac3aa0d4ca2e8552 1252120 neutron_2014.1.3.orig.tar.xz 11abd3e39fc9a213f733640052844d4ac5b63403a903c1bef7fe33f10c6ae44e 45992 neutron_2014.1.3-12.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/n/neutron"
-  ],
-  "Files": [
-    "c3290448082582a582798c182a80b3f0 5553 neutron_2014.1.3-12.dsc db808716ba4295e8d2705f20b462dfaa 1252120 neutron_2014.1.3.orig.tar.xz c366f73b94ed92e994759774f3183780 45992 neutron_2014.1.3-12.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://neutron.openstack.org/"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "neutron"
-  ],
-  "Package-List": [
-    "neutron-common deb net optional arch=all neutron-dhcp-agent deb net optional arch=all neutron-l3-agent deb net optional arch=all neutron-lbaas-agent deb net optional arch=all neutron-metadata-agent deb net optional arch=all neutron-metering-agent deb net optional arch=all neutron-plugin-linuxbridge-agent deb net optional arch=all neutron-plugin-nec-agent deb net optional arch=all neutron-plugin-openvswitch-agent deb net optional arch=all neutron-server deb net optional arch=all neutron-vpn-agent deb net optional arch=all python-neutron deb python optional arch=all python-quantum deb oldlibs optional arch=all quantum-common deb oldlibs optional arch=all quantum-dhcp-agent deb oldlibs optional arch=all quantum-l3-agent deb oldlibs optional arch=all quantum-lbaas-agent deb oldlibs optional arch=all quantum-metadata-agent deb oldlibs optional arch=all quantum-plugin-bigswitch deb oldlibs optional arch=all quantum-plugin-brocade deb oldlibs optional arch=all quantum-plugin-cisco deb oldlibs optional arch=all quantum-plugin-hyperv deb oldlibs optional arch=all quantum-plugin-linuxbridge deb oldlibs optional arch=all quantum-plugin-linuxbridge-agent deb oldlibs optional arch=all quantum-plugin-metaplugin deb oldlibs optional arch=all quantum-plugin-nec deb oldlibs optional arch=all quantum-plugin-nec-agent deb oldlibs optional arch=all quantum-plugin-nicira deb oldlibs optional arch=all quantum-plugin-openvswitch deb oldlibs optional arch=all quantum-plugin-openvswitch-agent deb oldlibs optional arch=all quantum-plugin-plumgrid deb oldlibs optional arch=all quantum-server deb oldlibs optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Julien Danjou <acid@debian.org>, Thomas Goirand <zigo@debian.org>, Mehdi Abaakouk <sileht@sileht.net>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=openstack/neutron.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/openstack/neutron.git"
-  ],
-  "Version": [
-    "2014.1.3-12"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-neutron, neutron-server, neutron-common, neutron-plugin-nec-agent, neutron-l3-agent, neutron-dhcp-agent, neutron-metadata-agent, neutron-metering-agent, neutron-vpn-agent, neutron-lbaas-agent, neutron-plugin-openvswitch-agent, neutron-plugin-linuxbridge-agent, python-quantum, quantum-server, quantum-common, quantum-plugin-cisco, quantum-plugin-nec, quantum-plugin-nec-agent, quantum-plugin-bigswitch, quantum-plugin-hyperv, quantum-plugin-brocade, quantum-plugin-plumgrid, quantum-plugin-metaplugin, quantum-plugin-nicira, quantum-l3-agent, quantum-dhcp-agent, quantum-metadata-agent, quantum-lbaas-agent, quantum-plugin-openvswitch, quantum-plugin-openvswitch-agent, quantum-plugin-linuxbridge, quantum-plugin-linuxbridge-agent"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-systemd, openstack-pkg-tools (>= 22~), po-debconf, python-all (>= 2.6), python-pbr (>= 0.6), python-sphinx"
+	],
+	"Build-Depends-Indep": [
+		"alembic (>= 0.4.1), bridge-utils, pep8 (>= 1.3.3), python-amqplib, python-anyjson (>= 0.3.3), python-babel (>= 1.3), python-cliff (>= 1.4.5), python-configobj, python-coverage (>= 3.6), python-eventlet (>= 0.13.0), python-fixtures (>= 0.3.14), python-gflags, python-greenlet (>= 0.3.2), python-hacking (>= 0.8.0), python-httplib2 (>= 0.7.5), python-iso8601 (>= 0.1.9), python-jinja2, python-jsonrpclib, python-keystoneclient (>= 1:0.6.0), python-kombu (>= 2.4.8), python-lxml, python-mock (>= 1.0), python-netaddr (>= 0.7.6), python-netifaces, python-neutronclient (>= 2.3.4), python-nose, python-nosexcover, python-novaclient (>= 2:2.17.0), python-oslo.config (>= 1.2.1), python-oslo.rootwrap, python-paste, python-pastedeploy, python-pyudev, python-requests (>= 1.1), python-routes, python-setuptools, python-simplejson, python-six (>= 1.6.0), python-sqlalchemy, python-stevedore (>= 0.14), python-subunit (>= 0.0.18), python-testrepository (>= 0.0.13), python-testtools (>= 0.9.34), python-unittest2, python-webob (>= 1.2.3), python-webtest (>= 2.0.9), subunit, testrepository (>= 0.0.18)"
+	],
+	"Checksums-Sha1": [
+		"ea4a1865fecf11a64f2c7e6da01679bcf9a02909 5553 neutron_2014.1.3-12.dsc 6ca7bd7de2bfd8c01d5726716d2e97a0193418b8 1252120 neutron_2014.1.3.orig.tar.xz 0f200805be4b84323149499b7da469b27350056f 45992 neutron_2014.1.3-12.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"ae7d3a4e90cda76e8e34b4e741ff6e3971455c83a42ca78355aa1e0c2fbc10bf 5553 neutron_2014.1.3-12.dsc 5e1fad0387bd325eaa87157cf137782a0970fb01ac24211eac3aa0d4ca2e8552 1252120 neutron_2014.1.3.orig.tar.xz 11abd3e39fc9a213f733640052844d4ac5b63403a903c1bef7fe33f10c6ae44e 45992 neutron_2014.1.3-12.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/n/neutron"
+	],
+	"Files": [
+		"c3290448082582a582798c182a80b3f0 5553 neutron_2014.1.3-12.dsc db808716ba4295e8d2705f20b462dfaa 1252120 neutron_2014.1.3.orig.tar.xz c366f73b94ed92e994759774f3183780 45992 neutron_2014.1.3-12.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://neutron.openstack.org/"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"neutron"
+	],
+	"Package-List": [
+		"neutron-common deb net optional arch=all neutron-dhcp-agent deb net optional arch=all neutron-l3-agent deb net optional arch=all neutron-lbaas-agent deb net optional arch=all neutron-metadata-agent deb net optional arch=all neutron-metering-agent deb net optional arch=all neutron-plugin-linuxbridge-agent deb net optional arch=all neutron-plugin-nec-agent deb net optional arch=all neutron-plugin-openvswitch-agent deb net optional arch=all neutron-server deb net optional arch=all neutron-vpn-agent deb net optional arch=all python-neutron deb python optional arch=all python-quantum deb oldlibs optional arch=all quantum-common deb oldlibs optional arch=all quantum-dhcp-agent deb oldlibs optional arch=all quantum-l3-agent deb oldlibs optional arch=all quantum-lbaas-agent deb oldlibs optional arch=all quantum-metadata-agent deb oldlibs optional arch=all quantum-plugin-bigswitch deb oldlibs optional arch=all quantum-plugin-brocade deb oldlibs optional arch=all quantum-plugin-cisco deb oldlibs optional arch=all quantum-plugin-hyperv deb oldlibs optional arch=all quantum-plugin-linuxbridge deb oldlibs optional arch=all quantum-plugin-linuxbridge-agent deb oldlibs optional arch=all quantum-plugin-metaplugin deb oldlibs optional arch=all quantum-plugin-nec deb oldlibs optional arch=all quantum-plugin-nec-agent deb oldlibs optional arch=all quantum-plugin-nicira deb oldlibs optional arch=all quantum-plugin-openvswitch deb oldlibs optional arch=all quantum-plugin-openvswitch-agent deb oldlibs optional arch=all quantum-plugin-plumgrid deb oldlibs optional arch=all quantum-server deb oldlibs optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Julien Danjou <acid@debian.org>, Thomas Goirand <zigo@debian.org>, Mehdi Abaakouk <sileht@sileht.net>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=openstack/neutron.git;a=summary"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/openstack/neutron.git"
+	],
+	"Version": [
+		"2014.1.3-12"
+	]
 }

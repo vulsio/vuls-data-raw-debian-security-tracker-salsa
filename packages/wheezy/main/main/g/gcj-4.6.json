@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "gcj-4.6-base, gcj-4.6-jdk, gcj-4.6-jre-headless, gcj-4.6-jre, libgcj12, gcj-4.6-jre-lib, libgcj12-awt, libgcj12-dev, libgcj12-dbg, gcj-4.6-source, libgcj-doc"
-  ],
-  "Build-Conflicts": [
-    "binutils-gold"
-  ],
-  "Build-Depends": [
-    "dpkg-dev (>= 1.16.0~ubuntu4), debhelper (>= 5.0.62), g++-multilib [amd64 i386 kfreebsd-amd64 mips mipsel powerpc ppc64 s390 s390x sparc], libc6.1-dev (>= 2.13-5) [alpha ia64] | libc0.3-dev (>= 2.13-5) [hurd-i386] | libc0.1-dev (>= 2.13-5) [kfreebsd-i386 kfreebsd-amd64] | libc6-dev (>= 2.13-5), libc6-dev-amd64 [i386], libc6-dev-sparc64 [sparc], libc6-dev-s390 [s390x], libc6-dev-s390x [s390], libc6-dev-i386 [amd64], libc6-dev-powerpc [ppc64], libc6-dev-ppc64 [powerpc], libc0.1-dev-i386 [kfreebsd-amd64], lib32gcc1 [amd64 ppc64 kfreebsd-amd64 s390x], lib64gcc1 [i386 powerpc sparc s390], libc6-dev-mips64 [mips mipsel], libc6-dev-mipsn32 [mips mipsel], m4, libtool, autoconf2.64, automake (>= 1:1.11), automake (<< 1:1.12), libunwind7-dev (>= 0.98.5-6) [ia64], libatomic-ops-dev [ia64], zlib1g-dev, gawk, lzma, xz-utils, patchutils, binutils (>= 2.21.1) | binutils-multiarch (>= 2.21.1), binutils-hppa64 (>= 2.21.1) [hppa], gperf (>= 3.0.1), bison (>= 1:2.3), flex, gettext, texinfo (>= 4.3), locales [!knetbsd-i386 !knetbsd-alpha], procps, sharutils, libc6.1-dbg [alpha ia64] | libc0.3-dbg [hurd-i386] | libc0.1-dbg [kfreebsd-i386 kfreebsd-amd64] | libc6-dbg, libantlr-java, python, libffi-dev, fastjar, libmagic-dev, libecj-java (>= 3.3.0-2), zip, libasound2-dev [!knetbsd-i386 !knetbsd-alpha !hurd-i386 !hurd-alpha !kfreebsd-i386 !kfreebsd-amd64 !knetbsd-i386 !knetbsd-alpha], libxtst-dev, libxt-dev, libgtk2.0-dev (>= 2.4.4-2), libart-2.0-dev, libcairo2-dev, g++-4.6 [armel armhf], gcc-4.6-source (>= 4.6.3), gcc-4.6-source (<< 4.6.4), libcloog-ppl-dev (>= 0.15.9-2~), libmpc-dev, libmpfr-dev (>= 3.0.0-9~), libgmp-dev (>= 2:5.0.1~), libelfg0-dev (>= 0.8.12), dejagnu [!m68k !hurd-i386 !hurd-alpha], realpath (>= 1.9.12), chrpath, lsb-release, make (>= 3.81), quilt"
-  ],
-  "Checksums-Sha1": [
-    "51c181ef99abc9ab22c537d2fa1d7fa1d66b8b66 3515 gcj-4.6_4.6.3-1.dsc 1819361846c90f0403c5365a8ce1f90b75b73697 126 gcj-4.6_4.6.3.orig.tar.gz 2630c3508f3abe05cd2c29dcf43f147ccd4d61d6 813266 gcj-4.6_4.6.3-1.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "a853fe9ea37d34c1259ee449d1085192249c68812695f26c4b8e831fa1f60566 3515 gcj-4.6_4.6.3-1.dsc 1e98fd5db7d1ab13f5869b3b44ec25a1ff5f0fcc983e49906e7b8ec0040898d1 126 gcj-4.6_4.6.3.orig.tar.gz 09cad377e2844274eab95f021ca2c6fb7443db0ece411c5225c452bbb20048df 813266 gcj-4.6_4.6.3-1.diff.gz"
-  ],
-  "Directory": [
-    "pool/main/g/gcj-4.6"
-  ],
-  "Files": [
-    "179369aa7a310dedc43b8563be90b8c7 3515 gcj-4.6_4.6.3-1.dsc 2206940f431ba7e66442ed073349edc0 126 gcj-4.6_4.6.3.orig.tar.gz ca381a98cc5921647ab06f501578704a 813266 gcj-4.6_4.6.3-1.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Homepage": [
-    "http://gcc.gnu.org/"
-  ],
-  "Maintainer": [
-    "Debian GCC Maintainers <debian-gcc@lists.debian.org>"
-  ],
-  "Package": [
-    "gcj-4.6"
-  ],
-  "Package-List": [
-    "gcj-4.6-base deb libs optional gcj-4.6-jdk deb java optional gcj-4.6-jre deb java optional gcj-4.6-jre-headless deb java optional gcj-4.6-jre-lib deb java optional gcj-4.6-source deb java optional libgcj-doc deb doc optional libgcj12 deb libs optional libgcj12-awt deb libs optional libgcj12-dbg deb debug extra libgcj12-dev deb libdevel optional"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "devel"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Matthias Klose <doko@debian.org>, Arthur Loiret <aloiret@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://svn.debian.org/viewsvn/gcccvs/branches/sid/gcc-4.6/"
-  ],
-  "Vcs-Svn": [
-    "svn://svn.debian.org/svn/gcccvs/branches/sid/gcc-4.6"
-  ],
-  "Version": [
-    "4.6.3-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"gcj-4.6-base, gcj-4.6-jdk, gcj-4.6-jre-headless, gcj-4.6-jre, libgcj12, gcj-4.6-jre-lib, libgcj12-awt, libgcj12-dev, libgcj12-dbg, gcj-4.6-source, libgcj-doc"
+	],
+	"Build-Conflicts": [
+		"binutils-gold"
+	],
+	"Build-Depends": [
+		"dpkg-dev (>= 1.16.0~ubuntu4), debhelper (>= 5.0.62), g++-multilib [amd64 i386 kfreebsd-amd64 mips mipsel powerpc ppc64 s390 s390x sparc], libc6.1-dev (>= 2.13-5) [alpha ia64] | libc0.3-dev (>= 2.13-5) [hurd-i386] | libc0.1-dev (>= 2.13-5) [kfreebsd-i386 kfreebsd-amd64] | libc6-dev (>= 2.13-5), libc6-dev-amd64 [i386], libc6-dev-sparc64 [sparc], libc6-dev-s390 [s390x], libc6-dev-s390x [s390], libc6-dev-i386 [amd64], libc6-dev-powerpc [ppc64], libc6-dev-ppc64 [powerpc], libc0.1-dev-i386 [kfreebsd-amd64], lib32gcc1 [amd64 ppc64 kfreebsd-amd64 s390x], lib64gcc1 [i386 powerpc sparc s390], libc6-dev-mips64 [mips mipsel], libc6-dev-mipsn32 [mips mipsel], m4, libtool, autoconf2.64, automake (>= 1:1.11), automake (<< 1:1.12), libunwind7-dev (>= 0.98.5-6) [ia64], libatomic-ops-dev [ia64], zlib1g-dev, gawk, lzma, xz-utils, patchutils, binutils (>= 2.21.1) | binutils-multiarch (>= 2.21.1), binutils-hppa64 (>= 2.21.1) [hppa], gperf (>= 3.0.1), bison (>= 1:2.3), flex, gettext, texinfo (>= 4.3), locales [!knetbsd-i386 !knetbsd-alpha], procps, sharutils, libc6.1-dbg [alpha ia64] | libc0.3-dbg [hurd-i386] | libc0.1-dbg [kfreebsd-i386 kfreebsd-amd64] | libc6-dbg, libantlr-java, python, libffi-dev, fastjar, libmagic-dev, libecj-java (>= 3.3.0-2), zip, libasound2-dev [!knetbsd-i386 !knetbsd-alpha !hurd-i386 !hurd-alpha !kfreebsd-i386 !kfreebsd-amd64 !knetbsd-i386 !knetbsd-alpha], libxtst-dev, libxt-dev, libgtk2.0-dev (>= 2.4.4-2), libart-2.0-dev, libcairo2-dev, g++-4.6 [armel armhf], gcc-4.6-source (>= 4.6.3), gcc-4.6-source (<< 4.6.4), libcloog-ppl-dev (>= 0.15.9-2~), libmpc-dev, libmpfr-dev (>= 3.0.0-9~), libgmp-dev (>= 2:5.0.1~), libelfg0-dev (>= 0.8.12), dejagnu [!m68k !hurd-i386 !hurd-alpha], realpath (>= 1.9.12), chrpath, lsb-release, make (>= 3.81), quilt"
+	],
+	"Checksums-Sha1": [
+		"51c181ef99abc9ab22c537d2fa1d7fa1d66b8b66 3515 gcj-4.6_4.6.3-1.dsc 1819361846c90f0403c5365a8ce1f90b75b73697 126 gcj-4.6_4.6.3.orig.tar.gz 2630c3508f3abe05cd2c29dcf43f147ccd4d61d6 813266 gcj-4.6_4.6.3-1.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"a853fe9ea37d34c1259ee449d1085192249c68812695f26c4b8e831fa1f60566 3515 gcj-4.6_4.6.3-1.dsc 1e98fd5db7d1ab13f5869b3b44ec25a1ff5f0fcc983e49906e7b8ec0040898d1 126 gcj-4.6_4.6.3.orig.tar.gz 09cad377e2844274eab95f021ca2c6fb7443db0ece411c5225c452bbb20048df 813266 gcj-4.6_4.6.3-1.diff.gz"
+	],
+	"Directory": [
+		"pool/main/g/gcj-4.6"
+	],
+	"Files": [
+		"179369aa7a310dedc43b8563be90b8c7 3515 gcj-4.6_4.6.3-1.dsc 2206940f431ba7e66442ed073349edc0 126 gcj-4.6_4.6.3.orig.tar.gz ca381a98cc5921647ab06f501578704a 813266 gcj-4.6_4.6.3-1.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Homepage": [
+		"http://gcc.gnu.org/"
+	],
+	"Maintainer": [
+		"Debian GCC Maintainers <debian-gcc@lists.debian.org>"
+	],
+	"Package": [
+		"gcj-4.6"
+	],
+	"Package-List": [
+		"gcj-4.6-base deb libs optional gcj-4.6-jdk deb java optional gcj-4.6-jre deb java optional gcj-4.6-jre-headless deb java optional gcj-4.6-jre-lib deb java optional gcj-4.6-source deb java optional libgcj-doc deb doc optional libgcj12 deb libs optional libgcj12-awt deb libs optional libgcj12-dbg deb debug extra libgcj12-dev deb libdevel optional"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"devel"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Matthias Klose <doko@debian.org>, Arthur Loiret <aloiret@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://svn.debian.org/viewsvn/gcccvs/branches/sid/gcc-4.6/"
+	],
+	"Vcs-Svn": [
+		"svn://svn.debian.org/svn/gcccvs/branches/sid/gcc-4.6"
+	],
+	"Version": [
+		"4.6.3-1"
+	]
 }

@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "python-dulwich, pypy-dulwich, python3-dulwich"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 11), dh-python, git (>= 1:1.7.0.4-2) [!alpha !ppc64 !sparc64 !x32 !ia64], pypy-dev [alpha amd64 arm64 armel armhf i386 mips powerpc ppc64el s390x], python-all-dbg (>= 2.6.6-3), python-all-dev (>= 2.6.6-3), python-certifi, python-fastimport (>= 0.9.0~bzr293), python-unittest2, python-urllib3, python3-all-dbg, python3-all-dev, python3-certifi, python3-fastimport, python3-urllib3"
-  ],
-  "Checksums-Sha256": [
-    "f82728d6b4f5ae0c1015077828cc7a3610ddfb85b34775b922666b06f5edeafb 2592 dulwich_0.19.9-2~bpo9+1.dsc 5e1e39555f594939a8aff1ca08b3bdf6c7efd4b941c2850760983a0197240974 357081 dulwich_0.19.9.orig.tar.gz 0cd6169296addf9347ed1d2dbf68be8f202d82099e08ac003d0874a7219b0ac9 46532 dulwich_0.19.9-2~bpo9+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/d/dulwich"
-  ],
-  "Files": [
-    "39b345aae3ff02d907aefc0e402a5ee8 2592 dulwich_0.19.9-2~bpo9+1.dsc 4f9f2ad3d6a420ccde9807dceb03ad2c 357081 dulwich_0.19.9.orig.tar.gz e4add2137b412eaeb54bd29fa1e4a20f 46532 dulwich_0.19.9-2~bpo9+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.dulwich.io/"
-  ],
-  "Maintainer": [
-    "Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "dulwich"
-  ],
-  "Package-List": [
-    "pypy-dulwich deb python optional arch=alpha,amd64,arm64,armel,armhf,i386,mips,mipsel,powerpc,ppc64el,s390x python-dulwich deb python optional arch=any python3-dulwich deb python optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.2.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "git"
-  ],
-  "Uploaders": [
-    "Jelmer Vernooĳ <jelmer@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/python-team/modules/dulwich"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/python-team/modules/dulwich.git"
-  ],
-  "Version": [
-    "0.19.9-2~bpo9+1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"python-dulwich, pypy-dulwich, python3-dulwich"
+	],
+	"Build-Depends": [
+		"debhelper (>= 11), dh-python, git (>= 1:1.7.0.4-2) [!alpha !ppc64 !sparc64 !x32 !ia64], pypy-dev [alpha amd64 arm64 armel armhf i386 mips powerpc ppc64el s390x], python-all-dbg (>= 2.6.6-3), python-all-dev (>= 2.6.6-3), python-certifi, python-fastimport (>= 0.9.0~bzr293), python-unittest2, python-urllib3, python3-all-dbg, python3-all-dev, python3-certifi, python3-fastimport, python3-urllib3"
+	],
+	"Checksums-Sha256": [
+		"f82728d6b4f5ae0c1015077828cc7a3610ddfb85b34775b922666b06f5edeafb 2592 dulwich_0.19.9-2~bpo9+1.dsc 5e1e39555f594939a8aff1ca08b3bdf6c7efd4b941c2850760983a0197240974 357081 dulwich_0.19.9.orig.tar.gz 0cd6169296addf9347ed1d2dbf68be8f202d82099e08ac003d0874a7219b0ac9 46532 dulwich_0.19.9-2~bpo9+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/d/dulwich"
+	],
+	"Files": [
+		"39b345aae3ff02d907aefc0e402a5ee8 2592 dulwich_0.19.9-2~bpo9+1.dsc 4f9f2ad3d6a420ccde9807dceb03ad2c 357081 dulwich_0.19.9.orig.tar.gz e4add2137b412eaeb54bd29fa1e4a20f 46532 dulwich_0.19.9-2~bpo9+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.dulwich.io/"
+	],
+	"Maintainer": [
+		"Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"dulwich"
+	],
+	"Package-List": [
+		"pypy-dulwich deb python optional arch=alpha,amd64,arm64,armel,armhf,i386,mips,mipsel,powerpc,ppc64el,s390x python-dulwich deb python optional arch=any python3-dulwich deb python optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.2.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"git"
+	],
+	"Uploaders": [
+		"Jelmer Vernooĳ <jelmer@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/python-team/modules/dulwich"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/python-team/modules/dulwich.git"
+	],
+	"Version": [
+		"0.19.9-2~bpo9+1"
+	]
 }

@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "linux-any"
-  ],
-  "Binary": [
-    "cryptsetup, cryptsetup-bin, libcryptsetup4, libcryptsetup-dev, cryptsetup-udeb, libcryptsetup4-udeb"
-  ],
-  "Build-Depends": [
-    "libgcrypt20-dev (>= 1.6.1), libdevmapper-dev (>= 2:1.02.24-4), libpopt-dev, uuid-dev, libselinux1-dev, libsepol1-dev, libtool (>= 2.2), autoconf, automake (>= 1:1.12), pkg-config, autopoint, gettext, debhelper (>= 9.20120410~), xsltproc, docbook-xml, docbook-xsl (>= 1.74.3+dfsg), dpkg-dev (>= 1.15.1), po-debconf, dh-strip-nondeterminism"
-  ],
-  "Checksums-Sha256": [
-    "7e7bb358041f5e9f84a73c297acf92e90d40c9e2a88cf14278fd7c696c5e40b2 2708 cryptsetup_1.7.3-4.dsc 58921825d268701af151e4de034f508aa8cb4d9f2e1c11847f4f8ae82866043d 1102318 cryptsetup_1.7.3.orig.tar.gz 2820ec19ebbc21ac5703c56382c02abb4511683f733766a2de85b2c80cfc0596 93956 cryptsetup_1.7.3-4.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/c/cryptsetup"
-  ],
-  "Files": [
-    "b269d3ee4fdb408eb873deadbec2dedd 2708 cryptsetup_1.7.3-4.dsc f0458f83d21cdf7952cbddb7a77a5c58 1102318 cryptsetup_1.7.3.orig.tar.gz 572b073b77b7fee7f82b13445b016679 93956 cryptsetup_1.7.3-4.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://gitlab.com/cryptsetup/cryptsetup"
-  ],
-  "Maintainer": [
-    "Debian Cryptsetup Team <pkg-cryptsetup-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "cryptsetup"
-  ],
-  "Package-List": [
-    "cryptsetup deb admin optional arch=linux-any cryptsetup-bin deb admin optional arch=linux-any cryptsetup-udeb udeb debian-installer optional arch=linux-any libcryptsetup-dev deb libdevel optional arch=linux-any libcryptsetup4 deb libs optional arch=linux-any libcryptsetup4-udeb udeb debian-installer optional arch=linux-any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "admin"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Jonas Meurer <mejo@debian.org>, Guilhem Moulin <guilhem@guilhem.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-cryptsetup/cryptsetup.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-cryptsetup/cryptsetup.git"
-  ],
-  "Version": [
-    "2:1.7.3-4"
-  ]
+	"Architecture": [
+		"linux-any"
+	],
+	"Binary": [
+		"cryptsetup, cryptsetup-bin, libcryptsetup4, libcryptsetup-dev, cryptsetup-udeb, libcryptsetup4-udeb"
+	],
+	"Build-Depends": [
+		"libgcrypt20-dev (>= 1.6.1), libdevmapper-dev (>= 2:1.02.24-4), libpopt-dev, uuid-dev, libselinux1-dev, libsepol1-dev, libtool (>= 2.2), autoconf, automake (>= 1:1.12), pkg-config, autopoint, gettext, debhelper (>= 9.20120410~), xsltproc, docbook-xml, docbook-xsl (>= 1.74.3+dfsg), dpkg-dev (>= 1.15.1), po-debconf, dh-strip-nondeterminism"
+	],
+	"Checksums-Sha256": [
+		"7e7bb358041f5e9f84a73c297acf92e90d40c9e2a88cf14278fd7c696c5e40b2 2708 cryptsetup_1.7.3-4.dsc 58921825d268701af151e4de034f508aa8cb4d9f2e1c11847f4f8ae82866043d 1102318 cryptsetup_1.7.3.orig.tar.gz 2820ec19ebbc21ac5703c56382c02abb4511683f733766a2de85b2c80cfc0596 93956 cryptsetup_1.7.3-4.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/c/cryptsetup"
+	],
+	"Files": [
+		"b269d3ee4fdb408eb873deadbec2dedd 2708 cryptsetup_1.7.3-4.dsc f0458f83d21cdf7952cbddb7a77a5c58 1102318 cryptsetup_1.7.3.orig.tar.gz 572b073b77b7fee7f82b13445b016679 93956 cryptsetup_1.7.3-4.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://gitlab.com/cryptsetup/cryptsetup"
+	],
+	"Maintainer": [
+		"Debian Cryptsetup Team <pkg-cryptsetup-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"cryptsetup"
+	],
+	"Package-List": [
+		"cryptsetup deb admin optional arch=linux-any cryptsetup-bin deb admin optional arch=linux-any cryptsetup-udeb udeb debian-installer optional arch=linux-any libcryptsetup-dev deb libdevel optional arch=linux-any libcryptsetup4 deb libs optional arch=linux-any libcryptsetup4-udeb udeb debian-installer optional arch=linux-any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"admin"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Jonas Meurer <mejo@debian.org>, Guilhem Moulin <guilhem@guilhem.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-cryptsetup/cryptsetup.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-cryptsetup/cryptsetup.git"
+	],
+	"Version": [
+		"2:1.7.3-4"
+	]
 }

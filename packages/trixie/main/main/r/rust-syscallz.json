@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-syscallz-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-log-0.4+default-dev <!nocheck>, librust-pkg-config-0.3+default-dev <!nocheck>, librust-seccomp-sys-0.1+default-dev (>= 0.1.3-~~) <!nocheck>, librust-strum-0.24+default-dev <!nocheck>, librust-strum-macros-0.24+default-dev <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "6299b1e7888b1d870df88a82fc61a0bbc0d081b147989570e0036e5849caef9d 2407 rust-syscallz_0.16.2-1.dsc 110ff7f267e583b58489bb0b01fa62ce71c032cd193df3affe9b3b51369aa6ad 26732 rust-syscallz_0.16.2.orig.tar.gz aa69eadafc0a8c876bf83d3a366d3532ec582a637856dfed420e72c2657f559d 2948 rust-syscallz_0.16.2-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-syscallz"
-  ],
-  "Files": [
-    "445cc851b02d7e583a5fe8530522a8af 2407 rust-syscallz_0.16.2-1.dsc 9f32f78d0057885d08d7c0d61dd7f628 26732 rust-syscallz_0.16.2.orig.tar.gz fa0c7146cad3780bff9e040ad925801d 2948 rust-syscallz_0.16.2-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-syscallz"
-  ],
-  "Package-List": [
-    "librust-syscallz-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-libc-0.2+default-dev"
-  ],
-  "Uploaders": [
-    "kpcyrd <git@rxv.cc>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/syscallz"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/syscallz]"
-  ],
-  "Version": [
-    "0.16.2-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-syscallz-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-log-0.4+default-dev <!nocheck>, librust-pkg-config-0.3+default-dev <!nocheck>, librust-seccomp-sys-0.1+default-dev (>= 0.1.3-~~) <!nocheck>, librust-strum-0.24+default-dev <!nocheck>, librust-strum-macros-0.24+default-dev <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"6299b1e7888b1d870df88a82fc61a0bbc0d081b147989570e0036e5849caef9d 2407 rust-syscallz_0.16.2-1.dsc 110ff7f267e583b58489bb0b01fa62ce71c032cd193df3affe9b3b51369aa6ad 26732 rust-syscallz_0.16.2.orig.tar.gz aa69eadafc0a8c876bf83d3a366d3532ec582a637856dfed420e72c2657f559d 2948 rust-syscallz_0.16.2-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-syscallz"
+	],
+	"Files": [
+		"445cc851b02d7e583a5fe8530522a8af 2407 rust-syscallz_0.16.2-1.dsc 9f32f78d0057885d08d7c0d61dd7f628 26732 rust-syscallz_0.16.2.orig.tar.gz fa0c7146cad3780bff9e040ad925801d 2948 rust-syscallz_0.16.2-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-syscallz"
+	],
+	"Package-List": [
+		"librust-syscallz-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-libc-0.2+default-dev"
+	],
+	"Uploaders": [
+		"kpcyrd <git@rxv.cc>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/syscallz"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/syscallz]"
+	],
+	"Version": [
+		"0.16.2-1"
+	]
 }

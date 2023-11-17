@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-zaqar, zaqar-common, zaqar-server"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-python, dh-systemd, openstack-pkg-tools (>= 40~), po-debconf, python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx"
-  ],
-  "Build-Depends-Indep": [
-    "mongodb, python-autobahn (>= 0.10.1), python-babel, python-coverage, python-ddt (>= 1.0.1), python-enum34, python-falcon, python-fixtures (>= 1.3.1), python-futurist (>= 0.11.0), python-hacking (>= 0.10.0), python-iso8601, python-jsonschema, python-keystoneclient (>= 1:1.6.0), python-keystonemiddleware (>= 4.0.0), python-memcache (>= 1.56), python-mock (>= 1.3), python-msgpack, python-openstack-doc-tools (>= 0.23), python-oslo.cache (>= 1.5.0), python-oslo.config (>= 1:3.7.0), python-oslo.context (>= 0.2.0), python-oslo.i18n (>= 2.1.0), python-oslo.log (>= 2.0.0), python-oslo.policy (>= 0.5.0), python-oslo.serialization (>= 2.0.0), python-oslo.utils (>= 3.5.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1.10.0), python-pymongo (>= 3.0.2), python-redis, python-requests (>= 2.8.1), python-six (>= 1.9.0), python-sqlalchemy (>= 1.0.10), python-stevedore (>= 1.5.0), python-tempest-lib (>= 0.14.0), python-testtools (>= 1.4.0), python-trollius, python-webob, python-websocket, subunit, testrepository"
-  ],
-  "Checksums-Sha1": [
-    "f9f647d73457c2efb4257e12d753aae009226525 3186 zaqar_2.0.0-2~bpo8+1.dsc 123f4c2c2e060dbe12fd199eb9ba92d3d79e0ae0 312112 zaqar_2.0.0.orig.tar.xz 67cde84ce769665bc4f1f7122e6c57945ad63e20 20548 zaqar_2.0.0-2~bpo8+1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "b4973b120736601aee1b8c41ec8217c9dff7cf80b59797f8ded19e309b98fd0d 3186 zaqar_2.0.0-2~bpo8+1.dsc 184166b7b102b2436476adadcedfb40c0da6f82e97d27776f6fe8c77d180f35b 312112 zaqar_2.0.0.orig.tar.xz 5410318e406eceff5a89132728c60aa61b9a085d50d3841a176abfbac0bd4720 20548 zaqar_2.0.0-2~bpo8+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/z/zaqar"
-  ],
-  "Files": [
-    "f4346a918ec1024b67c637c5602636ae 3186 zaqar_2.0.0-2~bpo8+1.dsc 74013f0d72344d2d73d5a190dc1e8364 312112 zaqar_2.0.0.orig.tar.xz 76b9ccd9e4fad713d36280dda80c2233 20548 zaqar_2.0.0-2~bpo8+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/openstack/zaqar/"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "zaqar"
-  ],
-  "Package-List": [
-    "python-zaqar deb python extra arch=all zaqar-common deb net extra arch=all zaqar-server deb net extra arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.7"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/gitweb/?p=openstack/zaqar.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/openstack/zaqar.git"
-  ],
-  "Version": [
-    "2.0.0-2~bpo8+1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-zaqar, zaqar-common, zaqar-server"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-python, dh-systemd, openstack-pkg-tools (>= 40~), po-debconf, python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx"
+	],
+	"Build-Depends-Indep": [
+		"mongodb, python-autobahn (>= 0.10.1), python-babel, python-coverage, python-ddt (>= 1.0.1), python-enum34, python-falcon, python-fixtures (>= 1.3.1), python-futurist (>= 0.11.0), python-hacking (>= 0.10.0), python-iso8601, python-jsonschema, python-keystoneclient (>= 1:1.6.0), python-keystonemiddleware (>= 4.0.0), python-memcache (>= 1.56), python-mock (>= 1.3), python-msgpack, python-openstack-doc-tools (>= 0.23), python-oslo.cache (>= 1.5.0), python-oslo.config (>= 1:3.7.0), python-oslo.context (>= 0.2.0), python-oslo.i18n (>= 2.1.0), python-oslo.log (>= 2.0.0), python-oslo.policy (>= 0.5.0), python-oslo.serialization (>= 2.0.0), python-oslo.utils (>= 3.5.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1.10.0), python-pymongo (>= 3.0.2), python-redis, python-requests (>= 2.8.1), python-six (>= 1.9.0), python-sqlalchemy (>= 1.0.10), python-stevedore (>= 1.5.0), python-tempest-lib (>= 0.14.0), python-testtools (>= 1.4.0), python-trollius, python-webob, python-websocket, subunit, testrepository"
+	],
+	"Checksums-Sha1": [
+		"f9f647d73457c2efb4257e12d753aae009226525 3186 zaqar_2.0.0-2~bpo8+1.dsc 123f4c2c2e060dbe12fd199eb9ba92d3d79e0ae0 312112 zaqar_2.0.0.orig.tar.xz 67cde84ce769665bc4f1f7122e6c57945ad63e20 20548 zaqar_2.0.0-2~bpo8+1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"b4973b120736601aee1b8c41ec8217c9dff7cf80b59797f8ded19e309b98fd0d 3186 zaqar_2.0.0-2~bpo8+1.dsc 184166b7b102b2436476adadcedfb40c0da6f82e97d27776f6fe8c77d180f35b 312112 zaqar_2.0.0.orig.tar.xz 5410318e406eceff5a89132728c60aa61b9a085d50d3841a176abfbac0bd4720 20548 zaqar_2.0.0-2~bpo8+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/z/zaqar"
+	],
+	"Files": [
+		"f4346a918ec1024b67c637c5602636ae 3186 zaqar_2.0.0-2~bpo8+1.dsc 74013f0d72344d2d73d5a190dc1e8364 312112 zaqar_2.0.0.orig.tar.xz 76b9ccd9e4fad713d36280dda80c2233 20548 zaqar_2.0.0-2~bpo8+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/openstack/zaqar/"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"zaqar"
+	],
+	"Package-List": [
+		"python-zaqar deb python extra arch=all zaqar-common deb net extra arch=all zaqar-server deb net extra arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.7"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/gitweb/?p=openstack/zaqar.git;a=summary"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/openstack/zaqar.git"
+	],
+	"Version": [
+		"2.0.0-2~bpo8+1"
+	]
 }

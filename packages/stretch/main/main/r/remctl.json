@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "libremctl1, libremctl-dev, remctl-client, remctl-server, libnet-remctl-perl, php-remctl, python-remctl, ruby-remctl"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-autoreconf, dh-php, dpkg-dev (>= 1.14.9), gem2deb (>= 0.4.1~), krb5-config, libevent-dev, libkrb5-dev, libmodule-build-perl, libpcre3-dev, libperl-critic-perl, libsystemd-dev [linux-any], libtest-pod-perl, libtest-minimumversion-perl, libtest-pod-coverage-perl, libtest-strict-perl, libtest-synopsis-perl, perl, php-cli, php-dev, pkg-config, python-all-dev"
-  ],
-  "Checksums-Sha256": [
-    "c0f54d8a4ea949e744091d485bc2cc5b4e022efe5d6a1bef36b76874d31beaf6 2314 remctl_3.13-1+deb9u1.dsc e8f249c5ef54d5cff95ae503278d262615b3e7ebe13dfb368a1576ef36ee9109 576392 remctl_3.13.orig.tar.xz 9e71752675fc4bb2eb1d08805699e315accea91ad753c8185e87c768c1848ed8 27192 remctl_3.13-1+deb9u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/remctl"
-  ],
-  "Files": [
-    "b72f3a0c30c7f4322c4a1915968da409 2314 remctl_3.13-1+deb9u1.dsc f6aaebdb63bbb4d9436bf1d80dda9120 576392 remctl_3.13.orig.tar.xz fe62f3aadc1980b0d0748d6ff926c34f 27192 remctl_3.13-1+deb9u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.eyrie.org/~eagle/software/remctl/"
-  ],
-  "Maintainer": [
-    "Russ Allbery <rra@debian.org>"
-  ],
-  "Package": [
-    "remctl"
-  ],
-  "Package-List": [
-    "libnet-remctl-perl deb perl optional arch=any libremctl-dev deb libdevel extra arch=any libremctl1 deb libs optional arch=any php-remctl deb php optional arch=any python-remctl deb python optional arch=any remctl-client deb net optional arch=any remctl-server deb net optional arch=any ruby-remctl deb ruby optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Python-Version": [
-    ">= 2.6"
-  ],
-  "Ruby-Versions": [
-    "all"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Vcs-Browser": [
-    "https://git.eyrie.org/?p=kerberos/remctl.git"
-  ],
-  "Vcs-Git": [
-    "https://git.eyrie.org/git/kerberos/remctl.git -b debian/master"
-  ],
-  "Version": [
-    "3.13-1+deb9u1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"libremctl1, libremctl-dev, remctl-client, remctl-server, libnet-remctl-perl, php-remctl, python-remctl, ruby-remctl"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-autoreconf, dh-php, dpkg-dev (>= 1.14.9), gem2deb (>= 0.4.1~), krb5-config, libevent-dev, libkrb5-dev, libmodule-build-perl, libpcre3-dev, libperl-critic-perl, libsystemd-dev [linux-any], libtest-pod-perl, libtest-minimumversion-perl, libtest-pod-coverage-perl, libtest-strict-perl, libtest-synopsis-perl, perl, php-cli, php-dev, pkg-config, python-all-dev"
+	],
+	"Checksums-Sha256": [
+		"c0f54d8a4ea949e744091d485bc2cc5b4e022efe5d6a1bef36b76874d31beaf6 2314 remctl_3.13-1+deb9u1.dsc e8f249c5ef54d5cff95ae503278d262615b3e7ebe13dfb368a1576ef36ee9109 576392 remctl_3.13.orig.tar.xz 9e71752675fc4bb2eb1d08805699e315accea91ad753c8185e87c768c1848ed8 27192 remctl_3.13-1+deb9u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/remctl"
+	],
+	"Files": [
+		"b72f3a0c30c7f4322c4a1915968da409 2314 remctl_3.13-1+deb9u1.dsc f6aaebdb63bbb4d9436bf1d80dda9120 576392 remctl_3.13.orig.tar.xz fe62f3aadc1980b0d0748d6ff926c34f 27192 remctl_3.13-1+deb9u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.eyrie.org/~eagle/software/remctl/"
+	],
+	"Maintainer": [
+		"Russ Allbery <rra@debian.org>"
+	],
+	"Package": [
+		"remctl"
+	],
+	"Package-List": [
+		"libnet-remctl-perl deb perl optional arch=any libremctl-dev deb libdevel extra arch=any libremctl1 deb libs optional arch=any php-remctl deb php optional arch=any python-remctl deb python optional arch=any remctl-client deb net optional arch=any remctl-server deb net optional arch=any ruby-remctl deb ruby optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Python-Version": [
+		">= 2.6"
+	],
+	"Ruby-Versions": [
+		"all"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Vcs-Browser": [
+		"https://git.eyrie.org/?p=kerberos/remctl.git"
+	],
+	"Vcs-Git": [
+		"https://git.eyrie.org/git/kerberos/remctl.git -b debian/master"
+	],
+	"Version": [
+		"3.13-1+deb9u1"
+	]
 }

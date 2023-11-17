@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "prometheus"
-  ],
-  "Build-Depends": [
-    "adduser, debhelper (>= 9.0.0), golang-go (>= 2:1.6~), dh-golang (>= 1.17~), golang-github-asaskevich-govalidator-dev, golang-github-aws-aws-sdk-go-dev, golang-github-azure-azure-sdk-for-go-dev, golang-github-azure-go-autorest-dev, golang-github-dgrijalva-jwt-go-dev, golang-github-fsnotify-fsnotify-dev (>= 1.3.0-3), golang-github-golang-snappy-dev (>= 0.0+git20160529), golang-github-julienschmidt-httprouter-dev, golang-github-miekg-dns-dev (>= 0.0~git20161018), golang-github-prometheus-client-golang-dev, golang-github-prometheus-client-model-dev, golang-github-prometheus-common-dev (>= 0+git20161002), golang-github-samuel-go-zookeeper-dev, golang-github-sirupsen-logrus-dev, golang-golang-x-net-dev (>= 1:0.0+git20160518), golang-golang-x-oauth2-google-dev, golang-golang-x-sys-dev, golang-goleveldb-dev, golang-google-api-dev, golang-gopkg-yaml.v2-dev"
-  ],
-  "Checksums-Sha1": [
-    "cee1626c26556b154747a8d50a5c03af8a9c8078 2835 prometheus_1.5.2+ds-2~bpo8+1.dsc f75018c62740b206843ee199de087e14c5c43e67 880075 prometheus_1.5.2+ds.orig.tar.gz 86e548e498340e5957355eb1798ed3bc7842e9c8 23356 prometheus_1.5.2+ds-2~bpo8+1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "bcabec0b5c6f06f53e2911c513c39ce4adef15a17a342b48eaa3af63e83a1b76 2835 prometheus_1.5.2+ds-2~bpo8+1.dsc 71779d443d52d23e2b22524f38eae84bb3d10c16d9bb84824c01a7ca3550d32f 880075 prometheus_1.5.2+ds.orig.tar.gz 6167c2e62aa273edab727b701cfd805a74b521a93d2c17efb9d327c05fa7efa3 23356 prometheus_1.5.2+ds-2~bpo8+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/prometheus"
-  ],
-  "Files": [
-    "ad6aca38fc5e8590c401da37ec5ef78f 2835 prometheus_1.5.2+ds-2~bpo8+1.dsc 5f304918ce2c8735f1dafefc34b1b329 880075 prometheus_1.5.2+ds.orig.tar.gz a9ab5ff23b6608685030fb5ee872490a 23356 prometheus_1.5.2+ds-2~bpo8+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://prometheus.io/"
-  ],
-  "Maintainer": [
-    "Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "prometheus"
-  ],
-  "Package-List": [
-    "prometheus deb net extra arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Martín Ferrari <tincho@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-go/packages/prometheus.git/"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-go/packages/prometheus.git/"
-  ],
-  "Version": [
-    "1.5.2+ds-2~bpo8+1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"prometheus"
+	],
+	"Build-Depends": [
+		"adduser, debhelper (>= 9.0.0), golang-go (>= 2:1.6~), dh-golang (>= 1.17~), golang-github-asaskevich-govalidator-dev, golang-github-aws-aws-sdk-go-dev, golang-github-azure-azure-sdk-for-go-dev, golang-github-azure-go-autorest-dev, golang-github-dgrijalva-jwt-go-dev, golang-github-fsnotify-fsnotify-dev (>= 1.3.0-3), golang-github-golang-snappy-dev (>= 0.0+git20160529), golang-github-julienschmidt-httprouter-dev, golang-github-miekg-dns-dev (>= 0.0~git20161018), golang-github-prometheus-client-golang-dev, golang-github-prometheus-client-model-dev, golang-github-prometheus-common-dev (>= 0+git20161002), golang-github-samuel-go-zookeeper-dev, golang-github-sirupsen-logrus-dev, golang-golang-x-net-dev (>= 1:0.0+git20160518), golang-golang-x-oauth2-google-dev, golang-golang-x-sys-dev, golang-goleveldb-dev, golang-google-api-dev, golang-gopkg-yaml.v2-dev"
+	],
+	"Checksums-Sha1": [
+		"cee1626c26556b154747a8d50a5c03af8a9c8078 2835 prometheus_1.5.2+ds-2~bpo8+1.dsc f75018c62740b206843ee199de087e14c5c43e67 880075 prometheus_1.5.2+ds.orig.tar.gz 86e548e498340e5957355eb1798ed3bc7842e9c8 23356 prometheus_1.5.2+ds-2~bpo8+1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"bcabec0b5c6f06f53e2911c513c39ce4adef15a17a342b48eaa3af63e83a1b76 2835 prometheus_1.5.2+ds-2~bpo8+1.dsc 71779d443d52d23e2b22524f38eae84bb3d10c16d9bb84824c01a7ca3550d32f 880075 prometheus_1.5.2+ds.orig.tar.gz 6167c2e62aa273edab727b701cfd805a74b521a93d2c17efb9d327c05fa7efa3 23356 prometheus_1.5.2+ds-2~bpo8+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/prometheus"
+	],
+	"Files": [
+		"ad6aca38fc5e8590c401da37ec5ef78f 2835 prometheus_1.5.2+ds-2~bpo8+1.dsc 5f304918ce2c8735f1dafefc34b1b329 880075 prometheus_1.5.2+ds.orig.tar.gz a9ab5ff23b6608685030fb5ee872490a 23356 prometheus_1.5.2+ds-2~bpo8+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://prometheus.io/"
+	],
+	"Maintainer": [
+		"Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"prometheus"
+	],
+	"Package-List": [
+		"prometheus deb net extra arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Martín Ferrari <tincho@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-go/packages/prometheus.git/"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-go/packages/prometheus.git/"
+	],
+	"Version": [
+		"1.5.2+ds-2~bpo8+1"
+	]
 }

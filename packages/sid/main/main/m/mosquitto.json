@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "mosquitto, mosquitto-dev, libmosquitto1, libmosquitto-dev, libmosquittopp1, libmosquittopp-dev, mosquitto-clients"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), cmake, libcjson-dev, libdlt-dev, libssl-dev, libsystemd-dev, libwebsockets-dev, libwrap0-dev, pkg-config, uthash-dev, xsltproc, docbook-xsl"
-  ],
-  "Checksums-Sha256": [
-    "7f36118041543c9aa41291f13c46951424a8622a8124cff2d3394c02e7f586ab 2650 mosquitto_2.0.18-1.dsc 25499231664bc5338f9f05eb1815f4d5878f0c6c97e03afb3463a7b139a7e775 2237611 mosquitto_2.0.18.orig.tar.gz dc2d907b8f409cc9d9f0e25305a305496f081bd90a4941c49b61a81611e15793 26592 mosquitto_2.0.18-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/m/mosquitto"
-  ],
-  "Files": [
-    "0e754c183cc967323ff744e4a7eb0217 2650 mosquitto_2.0.18-1.dsc 8802db56938eea97c746ec457071683c 2237611 mosquitto_2.0.18.orig.tar.gz 34b523a07867439f620a5e7fab49cd46 26592 mosquitto_2.0.18-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://mosquitto.org/"
-  ],
-  "Maintainer": [
-    "Debian IoT Maintainers <debian-iot-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "mosquitto"
-  ],
-  "Package-List": [
-    "libmosquitto-dev deb libdevel optional arch=any libmosquitto1 deb libs optional arch=any libmosquittopp-dev deb libdevel optional arch=any libmosquittopp1 deb libs optional arch=any mosquitto deb net optional arch=any mosquitto-clients deb net optional arch=any mosquitto-dev deb devel optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "g++, gcc, libc6-dev, libssl-dev, python3, python3-psutil"
-  ],
-  "Uploaders": [
-    "Philippe Coval <rzr@users.sf.net>, Roger A. Light <roger@atchoo.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian-iot-team/mosquitto/tree/debian/master"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian-iot-team/mosquitto/ -b debian/master"
-  ],
-  "Version": [
-    "2.0.18-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"mosquitto, mosquitto-dev, libmosquitto1, libmosquitto-dev, libmosquittopp1, libmosquittopp-dev, mosquitto-clients"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), cmake, libcjson-dev, libdlt-dev, libssl-dev, libsystemd-dev, libwebsockets-dev, libwrap0-dev, pkg-config, uthash-dev, xsltproc, docbook-xsl"
+	],
+	"Checksums-Sha256": [
+		"7f36118041543c9aa41291f13c46951424a8622a8124cff2d3394c02e7f586ab 2650 mosquitto_2.0.18-1.dsc 25499231664bc5338f9f05eb1815f4d5878f0c6c97e03afb3463a7b139a7e775 2237611 mosquitto_2.0.18.orig.tar.gz dc2d907b8f409cc9d9f0e25305a305496f081bd90a4941c49b61a81611e15793 26592 mosquitto_2.0.18-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/m/mosquitto"
+	],
+	"Files": [
+		"0e754c183cc967323ff744e4a7eb0217 2650 mosquitto_2.0.18-1.dsc 8802db56938eea97c746ec457071683c 2237611 mosquitto_2.0.18.orig.tar.gz 34b523a07867439f620a5e7fab49cd46 26592 mosquitto_2.0.18-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://mosquitto.org/"
+	],
+	"Maintainer": [
+		"Debian IoT Maintainers <debian-iot-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"mosquitto"
+	],
+	"Package-List": [
+		"libmosquitto-dev deb libdevel optional arch=any libmosquitto1 deb libs optional arch=any libmosquittopp-dev deb libdevel optional arch=any libmosquittopp1 deb libs optional arch=any mosquitto deb net optional arch=any mosquitto-clients deb net optional arch=any mosquitto-dev deb devel optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"g++, gcc, libc6-dev, libssl-dev, python3, python3-psutil"
+	],
+	"Uploaders": [
+		"Philippe Coval <rzr@users.sf.net>, Roger A. Light <roger@atchoo.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian-iot-team/mosquitto/tree/debian/master"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian-iot-team/mosquitto/ -b debian/master"
+	],
+	"Version": [
+		"2.0.18-1"
+	]
 }

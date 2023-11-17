@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any-i386 any-powerpc all armel armhf amd64 arm64"
-  ],
-  "Binary": [
-    "wine, wine32, wine64, wine32-preloader, wine64-preloader, wine32-tools, wine64-tools, libwine, libwine-dev, wine-binfmt, fonts-wine"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9.20160702), dh-autoreconf, libxi-dev, libxt-dev, libxmu-dev, libx11-dev, libxext-dev, libxrandr-dev, libxcursor-dev, libxrender-dev, libxkbfile-dev, libxxf86vm-dev, libxxf86dga-dev, libxinerama-dev, libgl1-mesa-dev, libglu1-mesa-dev, libxcomposite-dev, libxml-simple-perl, lzma, flex, bison, quilt, gettext, oss4-dev [kfreebsd-any], sharutils, dctrl-tools, khronos-api, unicode-data (>= 9.0), libpng-dev, libssl-dev, libxml2-dev, libgsm1-dev, libjpeg-dev, libtiff-dev, libpcap-dev, libpulse-dev [!kfreebsd-any], liblcms2-dev, libldap2-dev, libxslt1-dev, unixodbc-dev, libcups2-dev, libopenal-dev, libdbus-1-dev, freeglut3-dev, libmpg123-dev, libasound2-dev, libosmesa6-dev, libgnutls28-dev, libncurses5-dev, libgettextpo-dev, libfreetype6-dev (>= 2.5.1), libfontconfig1-dev, freebsd-glue [kfreebsd-any], ocl-icd-opencl-dev, icoutils, librsvg2-bin, imagemagick, fontforge-nox | fontforge"
-  ],
-  "Checksums-Sha1": [
-    "1a39fd1665cf97a6be2720a3de8efc7d4d37d818 3661 wine_1.8.7-2~bpo8+1.dsc a3118a9cae4c6218ad4f5afad57c737eeeca40d0 22507937 wine_1.8.7.orig.tar.bz2 8286c87765f27a0cb6ebc9a035e8fc1f121ee172 88580 wine_1.8.7-2~bpo8+1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "bfe403778d49790c8642b0412b67c6cdbf274dd014aed81570db760c3c069539 3661 wine_1.8.7-2~bpo8+1.dsc 16463a6001e5c4d8f0e2ef5b442d0e3ce9e7f128b3e40dbff7be4ebe0b58b8b7 22507937 wine_1.8.7.orig.tar.bz2 a41a245c8bfcaaf4844ea4857bd37a14d803cf6ee567ec58d9883de55eef5611 88580 wine_1.8.7-2~bpo8+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/w/wine"
-  ],
-  "Files": [
-    "60ee26bdf9d9000d4c869891992b511b 3661 wine_1.8.7-2~bpo8+1.dsc dfc34d79f8d2e1bbfc6584adb9b2eda1 22507937 wine_1.8.7.orig.tar.bz2 845d55975d369bbfd3145cadc1a24604 88580 wine_1.8.7-2~bpo8+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.winehq.org/"
-  ],
-  "Maintainer": [
-    "Debian Wine Party <pkg-wine-party@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "wine"
-  ],
-  "Package-List": [
-    "fonts-wine deb fonts optional arch=all libwine deb libs optional arch=amd64,any-i386,any-powerpc,armel,armhf,arm64 libwine-dev deb libdevel optional arch=amd64,any-i386,any-powerpc,armel,armhf,arm64 wine deb otherosfs optional arch=all wine-binfmt deb otherosfs optional arch=all wine32 deb otherosfs optional arch=any-i386,any-powerpc,armel,armhf wine32-preloader deb otherosfs optional arch=i386,powerpc,armel,armhf wine32-tools deb libdevel optional arch=any-i386,any-powerpc,armel,armhf wine64 deb otherosfs optional arch=amd64,arm64 wine64-preloader deb otherosfs optional arch=amd64 wine64-tools deb libdevel optional arch=amd64,arm64"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Michael Gilbert <mgilbert@debian.org>, Stephen Kitt <skitt@debian.org>, Jens Reyer <jre.winesim@gmail.com>,"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/git/pkg-wine/wine.git/?h=stretch"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-wine/wine.git -b stretch"
-  ],
-  "Version": [
-    "1.8.7-2~bpo8+1"
-  ]
+	"Architecture": [
+		"any-i386 any-powerpc all armel armhf amd64 arm64"
+	],
+	"Binary": [
+		"wine, wine32, wine64, wine32-preloader, wine64-preloader, wine32-tools, wine64-tools, libwine, libwine-dev, wine-binfmt, fonts-wine"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9.20160702), dh-autoreconf, libxi-dev, libxt-dev, libxmu-dev, libx11-dev, libxext-dev, libxrandr-dev, libxcursor-dev, libxrender-dev, libxkbfile-dev, libxxf86vm-dev, libxxf86dga-dev, libxinerama-dev, libgl1-mesa-dev, libglu1-mesa-dev, libxcomposite-dev, libxml-simple-perl, lzma, flex, bison, quilt, gettext, oss4-dev [kfreebsd-any], sharutils, dctrl-tools, khronos-api, unicode-data (>= 9.0), libpng-dev, libssl-dev, libxml2-dev, libgsm1-dev, libjpeg-dev, libtiff-dev, libpcap-dev, libpulse-dev [!kfreebsd-any], liblcms2-dev, libldap2-dev, libxslt1-dev, unixodbc-dev, libcups2-dev, libopenal-dev, libdbus-1-dev, freeglut3-dev, libmpg123-dev, libasound2-dev, libosmesa6-dev, libgnutls28-dev, libncurses5-dev, libgettextpo-dev, libfreetype6-dev (>= 2.5.1), libfontconfig1-dev, freebsd-glue [kfreebsd-any], ocl-icd-opencl-dev, icoutils, librsvg2-bin, imagemagick, fontforge-nox | fontforge"
+	],
+	"Checksums-Sha1": [
+		"1a39fd1665cf97a6be2720a3de8efc7d4d37d818 3661 wine_1.8.7-2~bpo8+1.dsc a3118a9cae4c6218ad4f5afad57c737eeeca40d0 22507937 wine_1.8.7.orig.tar.bz2 8286c87765f27a0cb6ebc9a035e8fc1f121ee172 88580 wine_1.8.7-2~bpo8+1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"bfe403778d49790c8642b0412b67c6cdbf274dd014aed81570db760c3c069539 3661 wine_1.8.7-2~bpo8+1.dsc 16463a6001e5c4d8f0e2ef5b442d0e3ce9e7f128b3e40dbff7be4ebe0b58b8b7 22507937 wine_1.8.7.orig.tar.bz2 a41a245c8bfcaaf4844ea4857bd37a14d803cf6ee567ec58d9883de55eef5611 88580 wine_1.8.7-2~bpo8+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/w/wine"
+	],
+	"Files": [
+		"60ee26bdf9d9000d4c869891992b511b 3661 wine_1.8.7-2~bpo8+1.dsc dfc34d79f8d2e1bbfc6584adb9b2eda1 22507937 wine_1.8.7.orig.tar.bz2 845d55975d369bbfd3145cadc1a24604 88580 wine_1.8.7-2~bpo8+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.winehq.org/"
+	],
+	"Maintainer": [
+		"Debian Wine Party <pkg-wine-party@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"wine"
+	],
+	"Package-List": [
+		"fonts-wine deb fonts optional arch=all libwine deb libs optional arch=amd64,any-i386,any-powerpc,armel,armhf,arm64 libwine-dev deb libdevel optional arch=amd64,any-i386,any-powerpc,armel,armhf,arm64 wine deb otherosfs optional arch=all wine-binfmt deb otherosfs optional arch=all wine32 deb otherosfs optional arch=any-i386,any-powerpc,armel,armhf wine32-preloader deb otherosfs optional arch=i386,powerpc,armel,armhf wine32-tools deb libdevel optional arch=any-i386,any-powerpc,armel,armhf wine64 deb otherosfs optional arch=amd64,arm64 wine64-preloader deb otherosfs optional arch=amd64 wine64-tools deb libdevel optional arch=amd64,arm64"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Michael Gilbert <mgilbert@debian.org>, Stephen Kitt <skitt@debian.org>, Jens Reyer <jre.winesim@gmail.com>,"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/git/pkg-wine/wine.git/?h=stretch"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-wine/wine.git -b stretch"
+	],
+	"Version": [
+		"1.8.7-2~bpo8+1"
+	]
 }

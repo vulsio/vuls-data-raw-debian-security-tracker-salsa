@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libgrib-api0, libgrib-api-dev, libgrib-api-tools, libgrib-api-doc, python-gribapi, python3-gribapi"
-  ],
-  "Build-Conflicts": [
-    "libeccodes-dev, libgrib-api-dev, libjasper-dev, libopenjpeg-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 10), dh-buildinfo, cmake, libjpeg-dev, libpng-dev, gfortran, flex, bison, quilt, libnetcdf-dev, libboost-dev, libhdf5-dev, libopenjp2-7-dev, curl, swig, python3-all-dev, python3-numpy, python3-six, python-all-dev, python-numpy, python-six, dh-python, chrpath, python-setuptools, python3-setuptools, libaec-dev"
-  ],
-  "Checksums-Sha256": [
-    "3de3417ae73849e6258fd69dadef10e40b8cc243bf0fda677458977ef362c46f 2897 grib-api_1.19.0-1.dsc 1731092c1eeb465d321ae336e1bbf3dd708097e9c3b0597b504ee266e7efd94a 72698868 grib-api_1.19.0.orig-data.tar.xz c234a0a6d551a79ac77eae86b5effaa82c96dfc16ba6a8e7570067d83f1f6326 1920016 grib-api_1.19.0.orig.tar.xz 03254805dca8b93ca79dad766fd67b5fa8cf99826ca110467a0842e2734facea 36960 grib-api_1.19.0-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/g/grib-api"
-  ],
-  "Files": [
-    "2b72b4c52c554c819a1ce9c39e56bb6f 2897 grib-api_1.19.0-1.dsc f197f2334b4b050f6b04a2e012ffc5d6 72698868 grib-api_1.19.0.orig-data.tar.xz c417f0a4d0b44871ec7565d90b81b00a 1920016 grib-api_1.19.0.orig.tar.xz f04b73ddfe7e9f3e61d84184e2860596 36960 grib-api_1.19.0-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://software.ecmwf.int/wiki/display/GRIB/Home"
-  ],
-  "Maintainer": [
-    "Alastair McKinstry <mckinstry@debian.org>"
-  ],
-  "Package": [
-    "grib-api"
-  ],
-  "Package-List": [
-    "libgrib-api-dev deb libdevel optional arch=any libgrib-api-doc deb doc optional arch=all libgrib-api-tools deb utils optional arch=any libgrib-api0 deb libs optional arch=any python-gribapi deb python optional arch=any python3-gribapi deb python optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "libdevel"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Enrico Zini <enrico@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/collab-maint/gribapi.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/collab-maint/gribapi.git"
-  ],
-  "Version": [
-    "1.19.0-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libgrib-api0, libgrib-api-dev, libgrib-api-tools, libgrib-api-doc, python-gribapi, python3-gribapi"
+	],
+	"Build-Conflicts": [
+		"libeccodes-dev, libgrib-api-dev, libjasper-dev, libopenjpeg-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 10), dh-buildinfo, cmake, libjpeg-dev, libpng-dev, gfortran, flex, bison, quilt, libnetcdf-dev, libboost-dev, libhdf5-dev, libopenjp2-7-dev, curl, swig, python3-all-dev, python3-numpy, python3-six, python-all-dev, python-numpy, python-six, dh-python, chrpath, python-setuptools, python3-setuptools, libaec-dev"
+	],
+	"Checksums-Sha256": [
+		"3de3417ae73849e6258fd69dadef10e40b8cc243bf0fda677458977ef362c46f 2897 grib-api_1.19.0-1.dsc 1731092c1eeb465d321ae336e1bbf3dd708097e9c3b0597b504ee266e7efd94a 72698868 grib-api_1.19.0.orig-data.tar.xz c234a0a6d551a79ac77eae86b5effaa82c96dfc16ba6a8e7570067d83f1f6326 1920016 grib-api_1.19.0.orig.tar.xz 03254805dca8b93ca79dad766fd67b5fa8cf99826ca110467a0842e2734facea 36960 grib-api_1.19.0-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/grib-api"
+	],
+	"Files": [
+		"2b72b4c52c554c819a1ce9c39e56bb6f 2897 grib-api_1.19.0-1.dsc f197f2334b4b050f6b04a2e012ffc5d6 72698868 grib-api_1.19.0.orig-data.tar.xz c417f0a4d0b44871ec7565d90b81b00a 1920016 grib-api_1.19.0.orig.tar.xz f04b73ddfe7e9f3e61d84184e2860596 36960 grib-api_1.19.0-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://software.ecmwf.int/wiki/display/GRIB/Home"
+	],
+	"Maintainer": [
+		"Alastair McKinstry <mckinstry@debian.org>"
+	],
+	"Package": [
+		"grib-api"
+	],
+	"Package-List": [
+		"libgrib-api-dev deb libdevel optional arch=any libgrib-api-doc deb doc optional arch=all libgrib-api-tools deb utils optional arch=any libgrib-api0 deb libs optional arch=any python-gribapi deb python optional arch=any python3-gribapi deb python optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"libdevel"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Enrico Zini <enrico@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/collab-maint/gribapi.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/collab-maint/gribapi.git"
+	],
+	"Version": [
+		"1.19.0-1"
+	]
 }

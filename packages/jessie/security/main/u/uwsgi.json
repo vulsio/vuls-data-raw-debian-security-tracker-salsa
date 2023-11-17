@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "uwsgi, uwsgi-dbg, uwsgi-core, uwsgi-emperor, uwsgi-plugins-all, uwsgi-infrastructure-plugins, uwsgi-app-integration-plugins, uwsgi-plugin-alarm-curl, uwsgi-plugin-alarm-xmpp, uwsgi-plugin-curl-cron, uwsgi-plugin-emperor-pg, uwsgi-plugin-rados, uwsgi-plugin-rbthreads, uwsgi-plugin-fiber, uwsgi-plugin-geoip, uwsgi-plugin-graylog2, uwsgi-plugin-greenlet-python, uwsgi-plugin-jvm-openjdk-7, uwsgi-plugin-jwsgi-openjdk-7, uwsgi-plugin-ldap, uwsgi-plugin-lua5.1, uwsgi-plugin-lua5.2, uwsgi-plugin-luajit, uwsgi-plugin-psgi, uwsgi-plugin-python, uwsgi-plugin-python3, uwsgi-plugin-rack-ruby2.1, uwsgi-plugin-router-access, uwsgi-plugin-sqlite3, uwsgi-plugin-v8, uwsgi-plugin-php, uwsgi-plugin-xslt, libapache2-mod-proxy-uwsgi, libapache2-mod-proxy-uwsgi-dbg, libapache2-mod-uwsgi, libapache2-mod-uwsgi-dbg, libapache2-mod-ruwsgi, libapache2-mod-ruwsgi-dbg, python-uwsgidecorators, python3-uwsgidecorators, uwsgi-extra"
-  ],
-  "Build-Depends": [
-    "cdbs, devscripts, python, python3, debhelper, dh-buildinfo, apache2-dev | apache2-threaded-dev, help2man, javahelper, libapr1-dev, libaprutil1-dev, libjansson-dev, libldap2-dev, liblua5.1-0-dev, liblua5.2-dev, libluajit-5.1-dev [amd64 armel armhf i386 kfreebsd-i386 mips mipsel powerpc], libperl-dev, libpq-dev, libcurl4-openssl-dev, libgloox-dev, libpam0g-dev, libsqlite3-dev, libxml2-dev, libyaml-dev, libzmq3-dev [!hurd-any] | libzmq-dev [!kfreebsd-any !hurd-any], libphp5-embed, php5-dev, libonig-dev, libdb-dev, libqdbm-dev, libbz2-dev, libwrap0-dev, libcoro-perl, libgeoip-dev, libv8-dev [amd64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel], libxslt1-dev, libcap-dev [linux-any], libmatheval-dev, libjail-dev [kfreebsd-any], libkvm-dev [kfreebsd-any], librados-dev [amd64 arm64 armel armhf i386 mips mipsel powerpc ppc64el s390x sparc], libssl-dev, pkg-config, python-all-dev, python-greenlet-dev [amd64 arm64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64el s390x sparc], python3-all-dev, openjdk-7-jdk [amd64 arm64 armel armhf i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64el s390x sparc], ruby-all-dev | ruby-dev, ruby, uuid-dev"
-  ],
-  "Checksums-Sha1": [
-    "2202948e8f7896e5807af6e14ba99f14da9440c3 6460 uwsgi_2.0.7-1+deb8u2.dsc 0e9d1f881736674221d60a5dd5dfcbc25051d48b 772385 uwsgi_2.0.7.orig.tar.gz f9e205211a8338198a61d6674401b85f0203f019 43880 uwsgi_2.0.7-1+deb8u2.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "d3778942a02468db6d9222eef43f789dfe32af6b71951afa865c2e0484887555 6460 uwsgi_2.0.7-1+deb8u2.dsc 2938464d0277909854f55951cf7d114e0616efbd8dd0295da7da99e944cbc72a 772385 uwsgi_2.0.7.orig.tar.gz 94bf1a313e42d641e2e4281fd5908618ddffae141a45345a09adba13f4ae327c 43880 uwsgi_2.0.7-1+deb8u2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/u/uwsgi"
-  ],
-  "Files": [
-    "7432368f3243739171098119ae40e733 6460 uwsgi_2.0.7-1+deb8u2.dsc c18da6536f2f47a204814225ba695042 772385 uwsgi_2.0.7.orig.tar.gz 9b94bf2f6a31e9bddf7b55a7d0be7787 43880 uwsgi_2.0.7-1+deb8u2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://projects.unbit.it/uwsgi/"
-  ],
-  "Maintainer": [
-    "Janos Guljas <janos@debian.org>"
-  ],
-  "Package": [
-    "uwsgi"
-  ],
-  "Package-List": [
-    "libapache2-mod-proxy-uwsgi deb web extra arch=any libapache2-mod-proxy-uwsgi-dbg deb debug extra arch=any libapache2-mod-ruwsgi deb httpd extra arch=any libapache2-mod-ruwsgi-dbg deb debug extra arch=any libapache2-mod-uwsgi deb httpd extra arch=any libapache2-mod-uwsgi-dbg deb debug extra arch=any python-uwsgidecorators deb python extra arch=all python3-uwsgidecorators deb python extra arch=all uwsgi deb web optional arch=any uwsgi-app-integration-plugins deb web extra arch=any uwsgi-core deb web optional arch=any uwsgi-dbg deb debug extra arch=any uwsgi-emperor deb web optional arch=any uwsgi-extra deb web extra arch=all uwsgi-infrastructure-plugins deb web extra arch=any uwsgi-plugin-alarm-curl deb web extra arch=any uwsgi-plugin-alarm-xmpp deb web extra arch=any uwsgi-plugin-curl-cron deb web extra arch=any uwsgi-plugin-emperor-pg deb web extra arch=any uwsgi-plugin-fiber deb web extra arch=any uwsgi-plugin-geoip deb web extra arch=any uwsgi-plugin-graylog2 deb web extra arch=any uwsgi-plugin-greenlet-python deb web extra arch=amd64,arm64,armel,armhf,hurd-i386,i386,kfreebsd-amd64,kfreebsd-i386,mips,mipsel,powerpc,ppc64el,s390x,sparc uwsgi-plugin-jvm-openjdk-7 deb web extra arch=amd64,arm64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,mips,mipsel,powerpc,ppc64el,s390x,sparc uwsgi-plugin-jwsgi-openjdk-7 deb web extra arch=amd64,arm64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,mips,mipsel,powerpc,ppc64el,s390x,sparc uwsgi-plugin-ldap deb web extra arch=any uwsgi-plugin-lua5.1 deb web extra arch=any uwsgi-plugin-lua5.2 deb web extra arch=any uwsgi-plugin-luajit deb web extra arch=amd64,armel,armhf,i386,kfreebsd-i386,mips,mipsel,powerpc uwsgi-plugin-php deb web extra arch=any uwsgi-plugin-psgi deb web extra arch=any uwsgi-plugin-python deb web extra arch=any uwsgi-plugin-python3 deb web extra arch=any uwsgi-plugin-rack-ruby2.1 deb web extra arch=any uwsgi-plugin-rados deb web extra arch=amd64,arm64,armel,armhf,i386,mips,mipsel,powerpc,ppc64el,s390x,sparc uwsgi-plugin-rbthreads deb web extra arch=any uwsgi-plugin-router-access deb web extra arch=any uwsgi-plugin-sqlite3 deb web extra arch=any uwsgi-plugin-v8 deb web extra arch=amd64,armel,armhf,hurd-i386,i386,kfreebsd-amd64,kfreebsd-i386,mips,mipsel uwsgi-plugin-xslt deb web extra arch=any uwsgi-plugins-all deb web extra arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "web"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Jonas Smedegaard <dr@jones.dk>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/collab-maint/uwsgi.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/collab-maint/uwsgi.git"
-  ],
-  "Version": [
-    "2.0.7-1+deb8u2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"uwsgi, uwsgi-dbg, uwsgi-core, uwsgi-emperor, uwsgi-plugins-all, uwsgi-infrastructure-plugins, uwsgi-app-integration-plugins, uwsgi-plugin-alarm-curl, uwsgi-plugin-alarm-xmpp, uwsgi-plugin-curl-cron, uwsgi-plugin-emperor-pg, uwsgi-plugin-rados, uwsgi-plugin-rbthreads, uwsgi-plugin-fiber, uwsgi-plugin-geoip, uwsgi-plugin-graylog2, uwsgi-plugin-greenlet-python, uwsgi-plugin-jvm-openjdk-7, uwsgi-plugin-jwsgi-openjdk-7, uwsgi-plugin-ldap, uwsgi-plugin-lua5.1, uwsgi-plugin-lua5.2, uwsgi-plugin-luajit, uwsgi-plugin-psgi, uwsgi-plugin-python, uwsgi-plugin-python3, uwsgi-plugin-rack-ruby2.1, uwsgi-plugin-router-access, uwsgi-plugin-sqlite3, uwsgi-plugin-v8, uwsgi-plugin-php, uwsgi-plugin-xslt, libapache2-mod-proxy-uwsgi, libapache2-mod-proxy-uwsgi-dbg, libapache2-mod-uwsgi, libapache2-mod-uwsgi-dbg, libapache2-mod-ruwsgi, libapache2-mod-ruwsgi-dbg, python-uwsgidecorators, python3-uwsgidecorators, uwsgi-extra"
+	],
+	"Build-Depends": [
+		"cdbs, devscripts, python, python3, debhelper, dh-buildinfo, apache2-dev | apache2-threaded-dev, help2man, javahelper, libapr1-dev, libaprutil1-dev, libjansson-dev, libldap2-dev, liblua5.1-0-dev, liblua5.2-dev, libluajit-5.1-dev [amd64 armel armhf i386 kfreebsd-i386 mips mipsel powerpc], libperl-dev, libpq-dev, libcurl4-openssl-dev, libgloox-dev, libpam0g-dev, libsqlite3-dev, libxml2-dev, libyaml-dev, libzmq3-dev [!hurd-any] | libzmq-dev [!kfreebsd-any !hurd-any], libphp5-embed, php5-dev, libonig-dev, libdb-dev, libqdbm-dev, libbz2-dev, libwrap0-dev, libcoro-perl, libgeoip-dev, libv8-dev [amd64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel], libxslt1-dev, libcap-dev [linux-any], libmatheval-dev, libjail-dev [kfreebsd-any], libkvm-dev [kfreebsd-any], librados-dev [amd64 arm64 armel armhf i386 mips mipsel powerpc ppc64el s390x sparc], libssl-dev, pkg-config, python-all-dev, python-greenlet-dev [amd64 arm64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64el s390x sparc], python3-all-dev, openjdk-7-jdk [amd64 arm64 armel armhf i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64el s390x sparc], ruby-all-dev | ruby-dev, ruby, uuid-dev"
+	],
+	"Checksums-Sha1": [
+		"2202948e8f7896e5807af6e14ba99f14da9440c3 6460 uwsgi_2.0.7-1+deb8u2.dsc 0e9d1f881736674221d60a5dd5dfcbc25051d48b 772385 uwsgi_2.0.7.orig.tar.gz f9e205211a8338198a61d6674401b85f0203f019 43880 uwsgi_2.0.7-1+deb8u2.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"d3778942a02468db6d9222eef43f789dfe32af6b71951afa865c2e0484887555 6460 uwsgi_2.0.7-1+deb8u2.dsc 2938464d0277909854f55951cf7d114e0616efbd8dd0295da7da99e944cbc72a 772385 uwsgi_2.0.7.orig.tar.gz 94bf1a313e42d641e2e4281fd5908618ddffae141a45345a09adba13f4ae327c 43880 uwsgi_2.0.7-1+deb8u2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/u/uwsgi"
+	],
+	"Files": [
+		"7432368f3243739171098119ae40e733 6460 uwsgi_2.0.7-1+deb8u2.dsc c18da6536f2f47a204814225ba695042 772385 uwsgi_2.0.7.orig.tar.gz 9b94bf2f6a31e9bddf7b55a7d0be7787 43880 uwsgi_2.0.7-1+deb8u2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://projects.unbit.it/uwsgi/"
+	],
+	"Maintainer": [
+		"Janos Guljas <janos@debian.org>"
+	],
+	"Package": [
+		"uwsgi"
+	],
+	"Package-List": [
+		"libapache2-mod-proxy-uwsgi deb web extra arch=any libapache2-mod-proxy-uwsgi-dbg deb debug extra arch=any libapache2-mod-ruwsgi deb httpd extra arch=any libapache2-mod-ruwsgi-dbg deb debug extra arch=any libapache2-mod-uwsgi deb httpd extra arch=any libapache2-mod-uwsgi-dbg deb debug extra arch=any python-uwsgidecorators deb python extra arch=all python3-uwsgidecorators deb python extra arch=all uwsgi deb web optional arch=any uwsgi-app-integration-plugins deb web extra arch=any uwsgi-core deb web optional arch=any uwsgi-dbg deb debug extra arch=any uwsgi-emperor deb web optional arch=any uwsgi-extra deb web extra arch=all uwsgi-infrastructure-plugins deb web extra arch=any uwsgi-plugin-alarm-curl deb web extra arch=any uwsgi-plugin-alarm-xmpp deb web extra arch=any uwsgi-plugin-curl-cron deb web extra arch=any uwsgi-plugin-emperor-pg deb web extra arch=any uwsgi-plugin-fiber deb web extra arch=any uwsgi-plugin-geoip deb web extra arch=any uwsgi-plugin-graylog2 deb web extra arch=any uwsgi-plugin-greenlet-python deb web extra arch=amd64,arm64,armel,armhf,hurd-i386,i386,kfreebsd-amd64,kfreebsd-i386,mips,mipsel,powerpc,ppc64el,s390x,sparc uwsgi-plugin-jvm-openjdk-7 deb web extra arch=amd64,arm64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,mips,mipsel,powerpc,ppc64el,s390x,sparc uwsgi-plugin-jwsgi-openjdk-7 deb web extra arch=amd64,arm64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,mips,mipsel,powerpc,ppc64el,s390x,sparc uwsgi-plugin-ldap deb web extra arch=any uwsgi-plugin-lua5.1 deb web extra arch=any uwsgi-plugin-lua5.2 deb web extra arch=any uwsgi-plugin-luajit deb web extra arch=amd64,armel,armhf,i386,kfreebsd-i386,mips,mipsel,powerpc uwsgi-plugin-php deb web extra arch=any uwsgi-plugin-psgi deb web extra arch=any uwsgi-plugin-python deb web extra arch=any uwsgi-plugin-python3 deb web extra arch=any uwsgi-plugin-rack-ruby2.1 deb web extra arch=any uwsgi-plugin-rados deb web extra arch=amd64,arm64,armel,armhf,i386,mips,mipsel,powerpc,ppc64el,s390x,sparc uwsgi-plugin-rbthreads deb web extra arch=any uwsgi-plugin-router-access deb web extra arch=any uwsgi-plugin-sqlite3 deb web extra arch=any uwsgi-plugin-v8 deb web extra arch=amd64,armel,armhf,hurd-i386,i386,kfreebsd-amd64,kfreebsd-i386,mips,mipsel uwsgi-plugin-xslt deb web extra arch=any uwsgi-plugins-all deb web extra arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"web"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Jonas Smedegaard <dr@jones.dk>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/collab-maint/uwsgi.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/collab-maint/uwsgi.git"
+	],
+	"Version": [
+		"2.0.7-1+deb8u2"
+	]
 }

@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libcamitk4, camitk-config, libcamitk-dev, libcamitk4-data, libcamitk4-doc, camitk-imp, camitk-actionstatemachine, libqtpropertybrowser4, libqtpropertybrowser-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 10), cmake, libvtk6-dev, libvtk6-qt-dev, qtbase5-dev, libqt5xmlpatterns5-dev, libqt5opengl5-dev, qttools5-dev-tools, xsdcxx, libinsighttoolkit4-dev, libfftw3-dev, libgdcm2-dev, libvtkgdcm2-dev, xvfb, xauth"
-  ],
-  "Build-Depends-Indep": [
-    "doxygen, graphviz"
-  ],
-  "Checksums-Sha256": [
-    "c8d3d45f8682f2142a9178c499589eb8b4c0c74b6798e7705b0f7c56cf733bfe 2850 camitk_4.0.4-2.dsc 3a464f910d49c7f25d21dec4df10ccfad35d7942d5ec5c7063889e96004a3269 144829032 camitk_4.0.4.orig.tar.gz 5823e6de7a33d0cd623cfc2398f1e729b6190890c2a94f5a68d932f56fa4a762 18760 camitk_4.0.4-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/c/camitk"
-  ],
-  "Files": [
-    "acae57d6d6eebe76efdf801cd1b64ec1 2850 camitk_4.0.4-2.dsc 1e347ce1c689744bd3eed4e211915931 144829032 camitk_4.0.4.orig.tar.gz 517400a01222bc894d404d846c6d99ce 18760 camitk_4.0.4-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://camitk.imag.fr/"
-  ],
-  "Maintainer": [
-    "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "camitk"
-  ],
-  "Package-List": [
-    "camitk-actionstatemachine deb science optional arch=any camitk-config deb science optional arch=any camitk-imp deb science optional arch=any libcamitk-dev deb libdevel optional arch=any libcamitk4 deb science optional arch=any libcamitk4-data deb doc optional arch=all libcamitk4-doc deb doc optional arch=all libqtpropertybrowser-dev deb libdevel optional arch=any libqtpropertybrowser4 deb science optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "science"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dbus, g++, libgl1-mesa-dri"
-  ],
-  "Uploaders": [
-    "Andreas Tille <tille@debian.org>, Emmanuel Promayon <Emmanuel.Promayon@univ-grenoble-alpes.fr>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/debian-med/camitk.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/debian-med/camitk.git"
-  ],
-  "Version": [
-    "4.0.4-2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libcamitk4, camitk-config, libcamitk-dev, libcamitk4-data, libcamitk4-doc, camitk-imp, camitk-actionstatemachine, libqtpropertybrowser4, libqtpropertybrowser-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 10), cmake, libvtk6-dev, libvtk6-qt-dev, qtbase5-dev, libqt5xmlpatterns5-dev, libqt5opengl5-dev, qttools5-dev-tools, xsdcxx, libinsighttoolkit4-dev, libfftw3-dev, libgdcm2-dev, libvtkgdcm2-dev, xvfb, xauth"
+	],
+	"Build-Depends-Indep": [
+		"doxygen, graphviz"
+	],
+	"Checksums-Sha256": [
+		"c8d3d45f8682f2142a9178c499589eb8b4c0c74b6798e7705b0f7c56cf733bfe 2850 camitk_4.0.4-2.dsc 3a464f910d49c7f25d21dec4df10ccfad35d7942d5ec5c7063889e96004a3269 144829032 camitk_4.0.4.orig.tar.gz 5823e6de7a33d0cd623cfc2398f1e729b6190890c2a94f5a68d932f56fa4a762 18760 camitk_4.0.4-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/c/camitk"
+	],
+	"Files": [
+		"acae57d6d6eebe76efdf801cd1b64ec1 2850 camitk_4.0.4-2.dsc 1e347ce1c689744bd3eed4e211915931 144829032 camitk_4.0.4.orig.tar.gz 517400a01222bc894d404d846c6d99ce 18760 camitk_4.0.4-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://camitk.imag.fr/"
+	],
+	"Maintainer": [
+		"Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"camitk"
+	],
+	"Package-List": [
+		"camitk-actionstatemachine deb science optional arch=any camitk-config deb science optional arch=any camitk-imp deb science optional arch=any libcamitk-dev deb libdevel optional arch=any libcamitk4 deb science optional arch=any libcamitk4-data deb doc optional arch=all libcamitk4-doc deb doc optional arch=all libqtpropertybrowser-dev deb libdevel optional arch=any libqtpropertybrowser4 deb science optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"science"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dbus, g++, libgl1-mesa-dri"
+	],
+	"Uploaders": [
+		"Andreas Tille <tille@debian.org>, Emmanuel Promayon <Emmanuel.Promayon@univ-grenoble-alpes.fr>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/debian-med/camitk.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/debian-med/camitk.git"
+	],
+	"Version": [
+		"4.0.4-2"
+	]
 }

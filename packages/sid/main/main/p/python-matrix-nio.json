@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python3-matrix-nio, python3-matrix-nio-doc"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc <!nodoc>, pybuild-plugin-pyproject, python3, python3-aiofiles <!nocheck>, python3-aiohttp <!nocheck>, python3-aiohttp-socks <!nocheck>, python3-aioresponses <!nocheck>, python3-atomicwrites <!nocheck>, python3-cachetools <!nocheck>, python3-fake-factory (>= 0.9.3) <!nocheck>, python3-future <!nocheck>, python3-h11 <!nocheck>, python3-h2 <!nocheck>, python3-hpack <!nocheck>, python3-hyperframe <!nocheck>, python3-hypothesis <!nocheck>, python3-jsonschema <!nocheck>, python3-m2r <!nodoc>, python3-olm (>= 3.1.0) <!nocheck>, python3-peewee <!nocheck>, python3-poetry-core, python3-pycryptodome <!nocheck>, python3-pytest <!nocheck>, python3-pytest-asyncio <!nocheck>, python3-pytest-benchmark <!nocheck>, python3-pytest-cov <!nocheck>, python3-sphinx <!nodoc>, python3-sphinx-rtd-theme <!nodoc>, python3-unpaddedbase64 <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "5147b39542e00b65d81ad55278dc77356e13c21182e6f891656a1b14867c3e36 3416 python-matrix-nio_0.21.2-1.dsc 95aa9f854ce8fcd8fca1471698e49ebf8215609c52a1dec0ad373066f1a1fced 246689 python-matrix-nio_0.21.2.orig.tar.gz 6da00648c7b83281682f2561d70f507615e5ed8e2b675d8ee0abf2a5db910c29 7424 python-matrix-nio_0.21.2-1.debian.tar.xz"
-  ],
-  "Description": [
-    "Python no-IO library for the matrix chat protocol Nio is a multilayered Matrix client library. The underlying base layer doesn't do any IO on its own. On top of the base layer, a no-IO HTTP client implementation exists, as well as a full fledged batteries included asyncio layer using aiohttp. . Matrix is an open standard and lightweight protocol for real-time communication."
-  ],
-  "Directory": [
-    "pool/main/p/python-matrix-nio"
-  ],
-  "Files": [
-    "e0484f8f37e43c6db0add40d75aee3dc 3416 python-matrix-nio_0.21.2-1.dsc 0ea8b976fe8781540e5193c06851845e 246689 python-matrix-nio_0.21.2.orig.tar.gz fdd0ce45191fd80f38572f5edb8c5c99 7424 python-matrix-nio_0.21.2-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/poljar/matrix-nio"
-  ],
-  "Maintainer": [
-    "Matrix Packaging Team <pkg-matrix-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "python-matrix-nio"
-  ],
-  "Package-List": [
-    "python3-matrix-nio deb python optional arch=all python3-matrix-nio-doc deb doc optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest-pkg-pybuild"
-  ],
-  "Uploaders": [
-    "Jochen Sprickerhof <jspricke@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/matrix-team/python-matrix-nio"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/matrix-team/python-matrix-nio.git"
-  ],
-  "Version": [
-    "0.21.2-1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python3-matrix-nio, python3-matrix-nio-doc"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc <!nodoc>, pybuild-plugin-pyproject, python3, python3-aiofiles <!nocheck>, python3-aiohttp <!nocheck>, python3-aiohttp-socks <!nocheck>, python3-aioresponses <!nocheck>, python3-atomicwrites <!nocheck>, python3-cachetools <!nocheck>, python3-fake-factory (>= 0.9.3) <!nocheck>, python3-future <!nocheck>, python3-h11 <!nocheck>, python3-h2 <!nocheck>, python3-hpack <!nocheck>, python3-hyperframe <!nocheck>, python3-hypothesis <!nocheck>, python3-jsonschema <!nocheck>, python3-m2r <!nodoc>, python3-olm (>= 3.1.0) <!nocheck>, python3-peewee <!nocheck>, python3-poetry-core, python3-pycryptodome <!nocheck>, python3-pytest <!nocheck>, python3-pytest-asyncio <!nocheck>, python3-pytest-benchmark <!nocheck>, python3-pytest-cov <!nocheck>, python3-sphinx <!nodoc>, python3-sphinx-rtd-theme <!nodoc>, python3-unpaddedbase64 <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"5147b39542e00b65d81ad55278dc77356e13c21182e6f891656a1b14867c3e36 3416 python-matrix-nio_0.21.2-1.dsc 95aa9f854ce8fcd8fca1471698e49ebf8215609c52a1dec0ad373066f1a1fced 246689 python-matrix-nio_0.21.2.orig.tar.gz 6da00648c7b83281682f2561d70f507615e5ed8e2b675d8ee0abf2a5db910c29 7424 python-matrix-nio_0.21.2-1.debian.tar.xz"
+	],
+	"Description": [
+		"Python no-IO library for the matrix chat protocol Nio is a multilayered Matrix client library. The underlying base layer doesn't do any IO on its own. On top of the base layer, a no-IO HTTP client implementation exists, as well as a full fledged batteries included asyncio layer using aiohttp. . Matrix is an open standard and lightweight protocol for real-time communication."
+	],
+	"Directory": [
+		"pool/main/p/python-matrix-nio"
+	],
+	"Files": [
+		"e0484f8f37e43c6db0add40d75aee3dc 3416 python-matrix-nio_0.21.2-1.dsc 0ea8b976fe8781540e5193c06851845e 246689 python-matrix-nio_0.21.2.orig.tar.gz fdd0ce45191fd80f38572f5edb8c5c99 7424 python-matrix-nio_0.21.2-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/poljar/matrix-nio"
+	],
+	"Maintainer": [
+		"Matrix Packaging Team <pkg-matrix-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"python-matrix-nio"
+	],
+	"Package-List": [
+		"python3-matrix-nio deb python optional arch=all python3-matrix-nio-doc deb doc optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest-pkg-pybuild"
+	],
+	"Uploaders": [
+		"Jochen Sprickerhof <jspricke@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/matrix-team/python-matrix-nio"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/matrix-team/python-matrix-nio.git"
+	],
+	"Version": [
+		"0.21.2-1"
+	]
 }

@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libarccommon3v5, nordugrid-arc-client, nordugrid-arc-hed, nordugrid-arc-gridftpd, nordugrid-arc-datadelivery-service, nordugrid-arc-infosys-ldap, nordugrid-arc-monitor, nordugrid-arc-arcctl, nordugrid-arc-arcctl-service, nordugrid-arc-arex, nordugrid-arc-arex-python-lrms, nordugrid-arc-community-rtes, nordugrid-arc-plugins-needed, libarcglobusutils3, nordugrid-arc-plugins-gridftp, nordugrid-arc-plugins-lcas-lcmaps, nordugrid-arc-plugins-gridftpjob, nordugrid-arc-plugins-xrootd, nordugrid-arc-plugins-gfal, nordugrid-arc-plugins-internal, nordugrid-arc-plugins-arcrest, nordugrid-arc-plugins-python, nordugrid-arc-dev, python3-nordugrid-arc, nordugrid-arc-nordugridmap, nordugrid-arc-test-utils, nordugrid-arc-archery-manage, nordugrid-arc-wn"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, libxml2-dev (>= 2.4.0), libssl-dev, libglibmm-2.4-dev, libltdl-dev, libldap2-dev, uuid-dev, libcppunit-dev, pkg-config, libdb5.3++-dev, libxmlsec1-dev (>= 1.2.4), libglobus-common-dev, libglobus-gssapi-gsi-dev, libglobus-ftp-client-dev, libglobus-ftp-control-dev, libxrootd-client-dev, libgfal2-dev, openssl, swig, libnss3-dev, pylint, libjson-xs-perl, libxml-simple-perl, libdbi-perl, libsqlite3-dev (>= 3.6), libldns-dev, libsystemd-dev [linux-any], libinline-python-perl (>= 0.56-2~), bash-completion, python3-dev"
-  ],
-  "Checksums-Sha256": [
-    "0235014c7d1aa33b2bbebf705344255dac8e4807fc388bd969f76b93b5fa7299 4646 nordugrid-arc_6.18.0-1.dsc 555d0471a3bbc5e2fe411409752125369d2b6edaa0ad8ed5c4dc2917e99814ee 5975448 nordugrid-arc_6.18.0.orig.tar.gz 0a5d48879a6ed73198976fc8e4652ee74d0caf526cd5387b76729be033999d78 22316 nordugrid-arc_6.18.0-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/n/nordugrid-arc"
-  ],
-  "Files": [
-    "6ea0a817e501b41ea201d740170fd59c 4646 nordugrid-arc_6.18.0-1.dsc 7092fec227d716e8b23568e351fd6222 5975448 nordugrid-arc_6.18.0.orig.tar.gz d86fa2e1e46a54730c3ea4da415d65a6 22316 nordugrid-arc_6.18.0-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.nordugrid.org"
-  ],
-  "Maintainer": [
-    "Mattias Ellert <mattias.ellert@physics.uu.se>"
-  ],
-  "Package": [
-    "nordugrid-arc"
-  ],
-  "Package-List": [
-    "libarccommon3v5 deb libs optional arch=any libarcglobusutils3 deb libs optional arch=any nordugrid-arc-arcctl deb net optional arch=all nordugrid-arc-arcctl-service deb net optional arch=all nordugrid-arc-archery-manage deb net optional arch=all nordugrid-arc-arex deb net optional arch=any nordugrid-arc-arex-python-lrms deb net optional arch=any nordugrid-arc-client deb net optional arch=any nordugrid-arc-community-rtes deb net optional arch=all nordugrid-arc-datadelivery-service deb net optional arch=any nordugrid-arc-dev deb libdevel optional arch=any nordugrid-arc-gridftpd deb net optional arch=any nordugrid-arc-hed deb net optional arch=any nordugrid-arc-infosys-ldap deb net optional arch=all nordugrid-arc-monitor deb net optional arch=all nordugrid-arc-nordugridmap deb net optional arch=all nordugrid-arc-plugins-arcrest deb net optional arch=any nordugrid-arc-plugins-gfal deb net optional arch=any nordugrid-arc-plugins-gridftp deb net optional arch=any nordugrid-arc-plugins-gridftpjob deb net optional arch=any nordugrid-arc-plugins-internal deb net optional arch=any nordugrid-arc-plugins-lcas-lcmaps deb net optional arch=any nordugrid-arc-plugins-needed deb net optional arch=any nordugrid-arc-plugins-python deb net optional arch=any nordugrid-arc-plugins-xrootd deb net optional arch=any nordugrid-arc-test-utils deb net optional arch=any nordugrid-arc-wn deb net optional arch=any python3-nordugrid-arc deb python optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Uploaders": [
-    "Anders Waananen <waananen@nbi.dk>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/ellert/nordugrid-arc"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/ellert/nordugrid-arc.git"
-  ],
-  "Version": [
-    "6.18.0-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libarccommon3v5, nordugrid-arc-client, nordugrid-arc-hed, nordugrid-arc-gridftpd, nordugrid-arc-datadelivery-service, nordugrid-arc-infosys-ldap, nordugrid-arc-monitor, nordugrid-arc-arcctl, nordugrid-arc-arcctl-service, nordugrid-arc-arex, nordugrid-arc-arex-python-lrms, nordugrid-arc-community-rtes, nordugrid-arc-plugins-needed, libarcglobusutils3, nordugrid-arc-plugins-gridftp, nordugrid-arc-plugins-lcas-lcmaps, nordugrid-arc-plugins-gridftpjob, nordugrid-arc-plugins-xrootd, nordugrid-arc-plugins-gfal, nordugrid-arc-plugins-internal, nordugrid-arc-plugins-arcrest, nordugrid-arc-plugins-python, nordugrid-arc-dev, python3-nordugrid-arc, nordugrid-arc-nordugridmap, nordugrid-arc-test-utils, nordugrid-arc-archery-manage, nordugrid-arc-wn"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-python, libxml2-dev (>= 2.4.0), libssl-dev, libglibmm-2.4-dev, libltdl-dev, libldap2-dev, uuid-dev, libcppunit-dev, pkg-config, libdb5.3++-dev, libxmlsec1-dev (>= 1.2.4), libglobus-common-dev, libglobus-gssapi-gsi-dev, libglobus-ftp-client-dev, libglobus-ftp-control-dev, libxrootd-client-dev, libgfal2-dev, openssl, swig, libnss3-dev, pylint, libjson-xs-perl, libxml-simple-perl, libdbi-perl, libsqlite3-dev (>= 3.6), libldns-dev, libsystemd-dev [linux-any], libinline-python-perl (>= 0.56-2~), bash-completion, python3-dev"
+	],
+	"Checksums-Sha256": [
+		"0235014c7d1aa33b2bbebf705344255dac8e4807fc388bd969f76b93b5fa7299 4646 nordugrid-arc_6.18.0-1.dsc 555d0471a3bbc5e2fe411409752125369d2b6edaa0ad8ed5c4dc2917e99814ee 5975448 nordugrid-arc_6.18.0.orig.tar.gz 0a5d48879a6ed73198976fc8e4652ee74d0caf526cd5387b76729be033999d78 22316 nordugrid-arc_6.18.0-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/n/nordugrid-arc"
+	],
+	"Files": [
+		"6ea0a817e501b41ea201d740170fd59c 4646 nordugrid-arc_6.18.0-1.dsc 7092fec227d716e8b23568e351fd6222 5975448 nordugrid-arc_6.18.0.orig.tar.gz d86fa2e1e46a54730c3ea4da415d65a6 22316 nordugrid-arc_6.18.0-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.nordugrid.org"
+	],
+	"Maintainer": [
+		"Mattias Ellert <mattias.ellert@physics.uu.se>"
+	],
+	"Package": [
+		"nordugrid-arc"
+	],
+	"Package-List": [
+		"libarccommon3v5 deb libs optional arch=any libarcglobusutils3 deb libs optional arch=any nordugrid-arc-arcctl deb net optional arch=all nordugrid-arc-arcctl-service deb net optional arch=all nordugrid-arc-archery-manage deb net optional arch=all nordugrid-arc-arex deb net optional arch=any nordugrid-arc-arex-python-lrms deb net optional arch=any nordugrid-arc-client deb net optional arch=any nordugrid-arc-community-rtes deb net optional arch=all nordugrid-arc-datadelivery-service deb net optional arch=any nordugrid-arc-dev deb libdevel optional arch=any nordugrid-arc-gridftpd deb net optional arch=any nordugrid-arc-hed deb net optional arch=any nordugrid-arc-infosys-ldap deb net optional arch=all nordugrid-arc-monitor deb net optional arch=all nordugrid-arc-nordugridmap deb net optional arch=all nordugrid-arc-plugins-arcrest deb net optional arch=any nordugrid-arc-plugins-gfal deb net optional arch=any nordugrid-arc-plugins-gridftp deb net optional arch=any nordugrid-arc-plugins-gridftpjob deb net optional arch=any nordugrid-arc-plugins-internal deb net optional arch=any nordugrid-arc-plugins-lcas-lcmaps deb net optional arch=any nordugrid-arc-plugins-needed deb net optional arch=any nordugrid-arc-plugins-python deb net optional arch=any nordugrid-arc-plugins-xrootd deb net optional arch=any nordugrid-arc-test-utils deb net optional arch=any nordugrid-arc-wn deb net optional arch=any python3-nordugrid-arc deb python optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Uploaders": [
+		"Anders Waananen <waananen@nbi.dk>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/ellert/nordugrid-arc"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/ellert/nordugrid-arc.git"
+	],
+	"Version": [
+		"6.18.0-1"
+	]
 }

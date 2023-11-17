@@ -1,53 +1,53 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "conky-std, conky-std-dbg, conky-cli, conky-cli-dbg, conky-all, conky-all-dbg, conky"
-  ],
-  "Build-Depends": [
-    "audacious-dev, automake1.11 | automake (>= 1:1.11), cmake (>= 2.6), debhelper (>= 9), docbook-xml, docbook-xsl, docbook2x, dpkg-dev (>= 1.15.7), gawk, less, libaudclient-dev, libcairo2-dev, libcurl4-gnutls-dev | libcurl4-dev, libdevstat-dev [kfreebsd-any], libglib2.0-dev, libimlib2-dev, libiw-dev [linux-any], libkvm-dev [kfreebsd-any], liblua5.1-0-dev, libncurses5-dev, libpulse-dev, librsvg2-dev, libtolua++5.1-dev, libtool, libx11-dev, libxdamage-dev, libxext-dev, libxft-dev, libxml2-dev, libxmmsclient-dev, libxnvctrl-dev [i386 amd64] | nvidia-settings [i386 amd64], pkg-config (>= 0.19)"
-  ],
-  "Checksums-Sha256": [
-    "01ada4ba1eb793f4d51359f097599fd7909b2f95d8432e4d16761d0597559589 2731 conky_1.10.6-1.dsc 4c80982960b2a72e3e33cef33347c97b9239ed110d9584da4e7f17f28faf60ca 365669 conky_1.10.6.orig.tar.gz cd37789f1da28d859e5f6765ccb74f24f75fcdad7746c80ffaf618181c82622a 17204 conky_1.10.6-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/c/conky"
-  ],
-  "Files": [
-    "b893715715bcb666181cbe5c3e42f39b 2731 conky_1.10.6-1.dsc bcd9e0ff7304e14f07aea53efa73998f 365669 conky_1.10.6.orig.tar.gz 9fe81385857e4aec8d36b44a806757a3 17204 conky_1.10.6-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://conky.sourceforge.net/"
-  ],
-  "Maintainer": [
-    "Vincent Cheng <vcheng@debian.org>"
-  ],
-  "Package": [
-    "conky"
-  ],
-  "Package-List": [
-    "conky deb oldlibs extra arch=all conky-all deb utils optional arch=any conky-all-dbg deb debug extra arch=any conky-cli deb utils optional arch=any conky-cli-dbg deb debug extra arch=any conky-std deb utils optional arch=any conky-std-dbg deb debug extra arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "oldlibs"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/viewvc/collab-maint/deb-maint/conky/trunk"
-  ],
-  "Vcs-Svn": [
-    "svn://anonscm.debian.org/collab-maint/deb-maint/conky/trunk"
-  ],
-  "Version": [
-    "1.10.6-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"conky-std, conky-std-dbg, conky-cli, conky-cli-dbg, conky-all, conky-all-dbg, conky"
+	],
+	"Build-Depends": [
+		"audacious-dev, automake1.11 | automake (>= 1:1.11), cmake (>= 2.6), debhelper (>= 9), docbook-xml, docbook-xsl, docbook2x, dpkg-dev (>= 1.15.7), gawk, less, libaudclient-dev, libcairo2-dev, libcurl4-gnutls-dev | libcurl4-dev, libdevstat-dev [kfreebsd-any], libglib2.0-dev, libimlib2-dev, libiw-dev [linux-any], libkvm-dev [kfreebsd-any], liblua5.1-0-dev, libncurses5-dev, libpulse-dev, librsvg2-dev, libtolua++5.1-dev, libtool, libx11-dev, libxdamage-dev, libxext-dev, libxft-dev, libxml2-dev, libxmmsclient-dev, libxnvctrl-dev [i386 amd64] | nvidia-settings [i386 amd64], pkg-config (>= 0.19)"
+	],
+	"Checksums-Sha256": [
+		"01ada4ba1eb793f4d51359f097599fd7909b2f95d8432e4d16761d0597559589 2731 conky_1.10.6-1.dsc 4c80982960b2a72e3e33cef33347c97b9239ed110d9584da4e7f17f28faf60ca 365669 conky_1.10.6.orig.tar.gz cd37789f1da28d859e5f6765ccb74f24f75fcdad7746c80ffaf618181c82622a 17204 conky_1.10.6-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/c/conky"
+	],
+	"Files": [
+		"b893715715bcb666181cbe5c3e42f39b 2731 conky_1.10.6-1.dsc bcd9e0ff7304e14f07aea53efa73998f 365669 conky_1.10.6.orig.tar.gz 9fe81385857e4aec8d36b44a806757a3 17204 conky_1.10.6-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://conky.sourceforge.net/"
+	],
+	"Maintainer": [
+		"Vincent Cheng <vcheng@debian.org>"
+	],
+	"Package": [
+		"conky"
+	],
+	"Package-List": [
+		"conky deb oldlibs extra arch=all conky-all deb utils optional arch=any conky-all-dbg deb debug extra arch=any conky-cli deb utils optional arch=any conky-cli-dbg deb debug extra arch=any conky-std deb utils optional arch=any conky-std-dbg deb debug extra arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"oldlibs"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/viewvc/collab-maint/deb-maint/conky/trunk"
+	],
+	"Vcs-Svn": [
+		"svn://anonscm.debian.org/collab-maint/deb-maint/conky/trunk"
+	],
+	"Version": [
+		"1.10.6-1"
+	]
 }

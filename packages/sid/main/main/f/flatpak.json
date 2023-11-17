@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "linux-any all"
-  ],
-  "Binary": [
-    "flatpak, flatpak-tests, gir1.2-flatpak-1.0, libflatpak-dev, libflatpak-doc, libflatpak0"
-  ],
-  "Build-Depends": [
-    "attr <!nocheck>, automake (>= 1.14.1), bison, bubblewrap (>= 0.5.0), ca-certificates <!nocheck>, dbus-daemon, debhelper-compat (= 13), desktop-file-utils <!nocheck>, dh-exec (>= 0.23~), docbook-xml <!nodoc>, docbook-xsl <!nodoc>, fuse3 <!nocheck>, gnupg <!nocheck>, gobject-introspection (>= 1.54.1-2~), gtk-doc-tools, gtk-update-icon-cache <!nocheck>, hicolor-icon-theme <!nocheck>, libappstream-dev (>= 0.12.0), libarchive-dev (>= 2.8.0), libattr1-dev, libcap-dev, libcurl4-gnutls-dev | libcurl-dev, libdconf-dev, libdw-dev, libelf-dev, libfuse3-dev (>= 3.1.1), libgdk-pixbuf-2.0-dev, libgirepository1.0-dev, libglib2.0-dev (>= 2.44), libgpgme-dev (>= 1.1.8), libjson-glib-dev, libmalcontent-0-dev (>= 0.4.0), libostree-dev (>= 2020.8), libpolkit-agent-1-dev, libpolkit-gobject-1-dev, libseccomp-dev (>= 2.5.2), libsystemd-dev, libxau-dev, libxml2-dev (>= 2.4), libxml2-utils, libzstd-dev, ostree (>= 2020.8) <!nocheck>, polkitd <!nocheck> | policykit-1 <!nocheck>, procps, python3:any, python3-pyparsing, shared-mime-info <!nocheck>, socat <!nocheck>, xdg-dbus-proxy (>= 0.1.0), xmlto <!nodoc>, xsltproc <!nodoc>"
-  ],
-  "Build-Depends-Indep": [
-    "libglib2.0-doc, libostree-doc"
-  ],
-  "Checksums-Sha256": [
-    "adf1aa1cfa4660f07ce8777fc15a8cdc09c0bd84baf6289bdc17526b0ef4ffe1 3534 flatpak_1.14.4-2.dsc 8a34dbd0b67c434e7598b98ec690953d046f0db26e480aeafb46d72aec716799 1637484 flatpak_1.14.4.orig.tar.xz d0a56eb6870484928695545d04dcf8848c050f5fa11995ec82dc4322c6118e67 35576 flatpak_1.14.4-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/f/flatpak"
-  ],
-  "Files": [
-    "5a6681b3fe7f8bc0c142c2f3be8fc5a9 3534 flatpak_1.14.4-2.dsc de04545ae7d547fdb65db93601591531 1637484 flatpak_1.14.4.orig.tar.xz 2c097c29ce945eeb0b11bc134c3ab770 35576 flatpak_1.14.4-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://flatpak.org/"
-  ],
-  "Maintainer": [
-    "Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "flatpak"
-  ],
-  "Package-List": [
-    "flatpak deb admin optional arch=linux-any flatpak-tests deb misc optional arch=linux-any gir1.2-flatpak-1.0 deb introspection optional arch=linux-any libflatpak-dev deb libdevel optional arch=linux-any libflatpak-doc deb doc optional arch=all profile=!nodoc libflatpak0 deb libs optional arch=linux-any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential, gettext, gnome-desktop-testing, python3"
-  ],
-  "Uploaders": [
-    "Matthias Klumpp <mak@debian.org>, Simon McVittie <smcv@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian/flatpak"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian/flatpak.git"
-  ],
-  "Version": [
-    "1.14.4-2"
-  ]
+	"Architecture": [
+		"linux-any all"
+	],
+	"Binary": [
+		"flatpak, flatpak-tests, gir1.2-flatpak-1.0, libflatpak-dev, libflatpak-doc, libflatpak0"
+	],
+	"Build-Depends": [
+		"attr <!nocheck>, automake (>= 1.14.1), bison, bubblewrap (>= 0.5.0), ca-certificates <!nocheck>, dbus-daemon, debhelper-compat (= 13), desktop-file-utils <!nocheck>, dh-exec (>= 0.23~), docbook-xml <!nodoc>, docbook-xsl <!nodoc>, fuse3 <!nocheck>, gnupg <!nocheck>, gobject-introspection (>= 1.54.1-2~), gtk-doc-tools, gtk-update-icon-cache <!nocheck>, hicolor-icon-theme <!nocheck>, libappstream-dev (>= 0.12.0), libarchive-dev (>= 2.8.0), libattr1-dev, libcap-dev, libcurl4-gnutls-dev | libcurl-dev, libdconf-dev, libdw-dev, libelf-dev, libfuse3-dev (>= 3.1.1), libgdk-pixbuf-2.0-dev, libgirepository1.0-dev, libglib2.0-dev (>= 2.44), libgpgme-dev (>= 1.1.8), libjson-glib-dev, libmalcontent-0-dev (>= 0.4.0), libostree-dev (>= 2020.8), libpolkit-agent-1-dev, libpolkit-gobject-1-dev, libseccomp-dev (>= 2.5.2), libsystemd-dev, libxau-dev, libxml2-dev (>= 2.4), libxml2-utils, libzstd-dev, ostree (>= 2020.8) <!nocheck>, polkitd <!nocheck> | policykit-1 <!nocheck>, procps, python3:any, python3-pyparsing, shared-mime-info <!nocheck>, socat <!nocheck>, xdg-dbus-proxy (>= 0.1.0), xmlto <!nodoc>, xsltproc <!nodoc>"
+	],
+	"Build-Depends-Indep": [
+		"libglib2.0-doc, libostree-doc"
+	],
+	"Checksums-Sha256": [
+		"adf1aa1cfa4660f07ce8777fc15a8cdc09c0bd84baf6289bdc17526b0ef4ffe1 3534 flatpak_1.14.4-2.dsc 8a34dbd0b67c434e7598b98ec690953d046f0db26e480aeafb46d72aec716799 1637484 flatpak_1.14.4.orig.tar.xz d0a56eb6870484928695545d04dcf8848c050f5fa11995ec82dc4322c6118e67 35576 flatpak_1.14.4-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/f/flatpak"
+	],
+	"Files": [
+		"5a6681b3fe7f8bc0c142c2f3be8fc5a9 3534 flatpak_1.14.4-2.dsc de04545ae7d547fdb65db93601591531 1637484 flatpak_1.14.4.orig.tar.xz 2c097c29ce945eeb0b11bc134c3ab770 35576 flatpak_1.14.4-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://flatpak.org/"
+	],
+	"Maintainer": [
+		"Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"flatpak"
+	],
+	"Package-List": [
+		"flatpak deb admin optional arch=linux-any flatpak-tests deb misc optional arch=linux-any gir1.2-flatpak-1.0 deb introspection optional arch=linux-any libflatpak-dev deb libdevel optional arch=linux-any libflatpak-doc deb doc optional arch=all profile=!nodoc libflatpak0 deb libs optional arch=linux-any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, gettext, gnome-desktop-testing, python3"
+	],
+	"Uploaders": [
+		"Matthias Klumpp <mak@debian.org>, Simon McVittie <smcv@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/flatpak"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/flatpak.git"
+	],
+	"Version": [
+		"1.14.4-2"
+	]
 }

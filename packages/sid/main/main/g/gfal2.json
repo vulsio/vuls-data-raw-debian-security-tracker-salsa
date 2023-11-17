@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "gfal2, libgfal2-2, libgfal-transfer2, libgfal2-dev, gfal2-doc, gfal2-plugin-file, gfal2-plugin-dcap, gfal2-plugin-srm, gfal2-plugin-gridftp, gfal2-plugin-http, gfal2-plugin-xrootd, gfal2-plugin-sftp, gfal2-plugin-mock"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), cmake, libattr1-dev [kfreebsd-any], libglib2.0-dev, libjson-c-dev, libldap2-dev, libpugixml-dev, uuid-dev, zlib1g-dev, srm-ifce-dev (>= 1.23.1), dcap-dev, libglobus-gass-copy-dev, davix-dev (>= 0.8.4), libcrypto++-dev (>= 5.6.2), libxrootd-client-dev, libssh2-1-dev, pkg-config, libgtest-dev (>= 1.8.0-7)"
-  ],
-  "Build-Depends-Indep": [
-    "doxygen"
-  ],
-  "Checksums-Sha256": [
-    "2c83c67bac5bb699d8b29294d7ad136d5690745e23c54e2fa0a5ec556ad3779c 2908 gfal2_2.22.0-1.dsc fee594c3650f5862b850717801b0748741a33856b26e8401efe9dd75c8dcecd4 541239 gfal2_2.22.0.orig.tar.gz 1b63df37e79865c3650e133f4db4f3b2b934e685763eebd80143d355b4eb1264 6660 gfal2_2.22.0-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/g/gfal2"
-  ],
-  "Files": [
-    "2730453e70198ef6c7f302394ed7656f 2908 gfal2_2.22.0-1.dsc 6e008ea0aebc9213a5d4db3871f5e71e 541239 gfal2_2.22.0.orig.tar.gz 649528cc87b931e4a3a1378f9a613334 6660 gfal2_2.22.0-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://dmc-docs.web.cern.ch/dmc-docs/gfal2/gfal2.html"
-  ],
-  "Maintainer": [
-    "Mattias Ellert <mattias.ellert@physics.uu.se>"
-  ],
-  "Package": [
-    "gfal2"
-  ],
-  "Package-List": [
-    "gfal2 deb net optional arch=all gfal2-doc deb doc optional arch=all gfal2-plugin-dcap deb net optional arch=any gfal2-plugin-file deb net optional arch=any gfal2-plugin-gridftp deb net optional arch=any gfal2-plugin-http deb net optional arch=any gfal2-plugin-mock deb net optional arch=any gfal2-plugin-sftp deb net optional arch=any gfal2-plugin-srm deb net optional arch=any gfal2-plugin-xrootd deb net optional arch=any libgfal-transfer2 deb libs optional arch=any libgfal2-2 deb libs optional arch=any libgfal2-dev deb libdevel optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/ellert/gfal2"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/ellert/gfal2.git"
-  ],
-  "Version": [
-    "2.22.0-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"gfal2, libgfal2-2, libgfal-transfer2, libgfal2-dev, gfal2-doc, gfal2-plugin-file, gfal2-plugin-dcap, gfal2-plugin-srm, gfal2-plugin-gridftp, gfal2-plugin-http, gfal2-plugin-xrootd, gfal2-plugin-sftp, gfal2-plugin-mock"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), cmake, libattr1-dev [kfreebsd-any], libglib2.0-dev, libjson-c-dev, libldap2-dev, libpugixml-dev, uuid-dev, zlib1g-dev, srm-ifce-dev (>= 1.23.1), dcap-dev, libglobus-gass-copy-dev, davix-dev (>= 0.8.4), libcrypto++-dev (>= 5.6.2), libxrootd-client-dev, libssh2-1-dev, pkg-config, libgtest-dev (>= 1.8.0-7)"
+	],
+	"Build-Depends-Indep": [
+		"doxygen"
+	],
+	"Checksums-Sha256": [
+		"2c83c67bac5bb699d8b29294d7ad136d5690745e23c54e2fa0a5ec556ad3779c 2908 gfal2_2.22.0-1.dsc fee594c3650f5862b850717801b0748741a33856b26e8401efe9dd75c8dcecd4 541239 gfal2_2.22.0.orig.tar.gz 1b63df37e79865c3650e133f4db4f3b2b934e685763eebd80143d355b4eb1264 6660 gfal2_2.22.0-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/gfal2"
+	],
+	"Files": [
+		"2730453e70198ef6c7f302394ed7656f 2908 gfal2_2.22.0-1.dsc 6e008ea0aebc9213a5d4db3871f5e71e 541239 gfal2_2.22.0.orig.tar.gz 649528cc87b931e4a3a1378f9a613334 6660 gfal2_2.22.0-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://dmc-docs.web.cern.ch/dmc-docs/gfal2/gfal2.html"
+	],
+	"Maintainer": [
+		"Mattias Ellert <mattias.ellert@physics.uu.se>"
+	],
+	"Package": [
+		"gfal2"
+	],
+	"Package-List": [
+		"gfal2 deb net optional arch=all gfal2-doc deb doc optional arch=all gfal2-plugin-dcap deb net optional arch=any gfal2-plugin-file deb net optional arch=any gfal2-plugin-gridftp deb net optional arch=any gfal2-plugin-http deb net optional arch=any gfal2-plugin-mock deb net optional arch=any gfal2-plugin-sftp deb net optional arch=any gfal2-plugin-srm deb net optional arch=any gfal2-plugin-xrootd deb net optional arch=any libgfal-transfer2 deb libs optional arch=any libgfal2-2 deb libs optional arch=any libgfal2-dev deb libdevel optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/ellert/gfal2"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/ellert/gfal2.git"
+	],
+	"Version": [
+		"2.22.0-1"
+	]
 }

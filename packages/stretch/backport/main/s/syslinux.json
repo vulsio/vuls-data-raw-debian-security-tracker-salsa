@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "amd64 i386 x32 all"
-  ],
-  "Binary": [
-    "syslinux, syslinux-efi, extlinux, isolinux, pxelinux, syslinux-common, syslinux-utils"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 11), e2fslibs-dev, gcc-multilib [amd64 x32], libc6-dev-i386 [amd64 x32], nasm, python, uuid-dev"
-  ],
-  "Build-Depends-Indep": [
-    "gnu-efi (>= 3.0.8)"
-  ],
-  "Checksums-Sha256": [
-    "2ad1d42912d4362a8754de2429c1b5ea766e4d3b584664c7dec568ba467e8f55 2638 syslinux_6.04~git20190206.bf6db5b4+dfsg1-1~bpo9+2.dsc 46169f43dabb5f6cb33a3f6fb79a61008179326756481845c0a42d429d0c5bee 3164384 syslinux_6.04~git20190206.bf6db5b4+dfsg1.orig.tar.xz 2eb7c9597b6edadee7e7d2ed1db0e03148ba17f2106162e8b1f30360a7c30af5 41716 syslinux_6.04~git20190206.bf6db5b4+dfsg1-1~bpo9+2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/s/syslinux"
-  ],
-  "Files": [
-    "8c84b0d646c44917bd6c6d636f700eb2 2638 syslinux_6.04~git20190206.bf6db5b4+dfsg1-1~bpo9+2.dsc af14c068258814cc96f93ad374f6b18e 3164384 syslinux_6.04~git20190206.bf6db5b4+dfsg1.orig.tar.xz 89c35af77d48f85bfd87ed469c77edb6 41716 syslinux_6.04~git20190206.bf6db5b4+dfsg1-1~bpo9+2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.syslinux.org/"
-  ],
-  "Maintainer": [
-    "Debian CD Group <debian-cd@lists.debian.org>"
-  ],
-  "Package": [
-    "syslinux"
-  ],
-  "Package-List": [
-    "extlinux deb admin optional arch=amd64,i386,x32 isolinux deb admin optional arch=all pxelinux deb admin optional arch=all syslinux deb admin optional arch=amd64,i386,x32 syslinux-common deb admin optional arch=all syslinux-efi deb admin optional arch=all syslinux-utils deb admin optional arch=amd64,i386,x32"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.3.0"
-  ],
-  "Uploaders": [
-    "Lukas Schwaighofer <lukas@schwaighofer.name>, Holger Levsen <holger@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/images-team/syslinux"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/images-team/syslinux.git"
-  ],
-  "Version": [
-    "3:6.04~git20190206.bf6db5b4+dfsg1-1~bpo9+2"
-  ]
+	"Architecture": [
+		"amd64 i386 x32 all"
+	],
+	"Binary": [
+		"syslinux, syslinux-efi, extlinux, isolinux, pxelinux, syslinux-common, syslinux-utils"
+	],
+	"Build-Depends": [
+		"debhelper (>= 11), e2fslibs-dev, gcc-multilib [amd64 x32], libc6-dev-i386 [amd64 x32], nasm, python, uuid-dev"
+	],
+	"Build-Depends-Indep": [
+		"gnu-efi (>= 3.0.8)"
+	],
+	"Checksums-Sha256": [
+		"2ad1d42912d4362a8754de2429c1b5ea766e4d3b584664c7dec568ba467e8f55 2638 syslinux_6.04~git20190206.bf6db5b4+dfsg1-1~bpo9+2.dsc 46169f43dabb5f6cb33a3f6fb79a61008179326756481845c0a42d429d0c5bee 3164384 syslinux_6.04~git20190206.bf6db5b4+dfsg1.orig.tar.xz 2eb7c9597b6edadee7e7d2ed1db0e03148ba17f2106162e8b1f30360a7c30af5 41716 syslinux_6.04~git20190206.bf6db5b4+dfsg1-1~bpo9+2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/s/syslinux"
+	],
+	"Files": [
+		"8c84b0d646c44917bd6c6d636f700eb2 2638 syslinux_6.04~git20190206.bf6db5b4+dfsg1-1~bpo9+2.dsc af14c068258814cc96f93ad374f6b18e 3164384 syslinux_6.04~git20190206.bf6db5b4+dfsg1.orig.tar.xz 89c35af77d48f85bfd87ed469c77edb6 41716 syslinux_6.04~git20190206.bf6db5b4+dfsg1-1~bpo9+2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.syslinux.org/"
+	],
+	"Maintainer": [
+		"Debian CD Group <debian-cd@lists.debian.org>"
+	],
+	"Package": [
+		"syslinux"
+	],
+	"Package-List": [
+		"extlinux deb admin optional arch=amd64,i386,x32 isolinux deb admin optional arch=all pxelinux deb admin optional arch=all syslinux deb admin optional arch=amd64,i386,x32 syslinux-common deb admin optional arch=all syslinux-efi deb admin optional arch=all syslinux-utils deb admin optional arch=amd64,i386,x32"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.3.0"
+	],
+	"Uploaders": [
+		"Lukas Schwaighofer <lukas@schwaighofer.name>, Holger Levsen <holger@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/images-team/syslinux"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/images-team/syslinux.git"
+	],
+	"Version": [
+		"3:6.04~git20190206.bf6db5b4+dfsg1-1~bpo9+2"
+	]
 }

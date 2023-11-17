@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "kamailio, kamailio-dbg, kamailio-geoip-modules, kamailio-sqlite-modules, kamailio-json-modules, kamailio-memcached-modules, kamailio-lua-modules, kamailio-mono-modules, kamailio-python-modules, kamailio-redis-modules, kamailio-mysql-modules, kamailio-postgres-modules, kamailio-cpl-modules, kamailio-radius-modules, kamailio-unixodbc-modules, kamailio-presence-modules, kamailio-perl-modules, kamailio-snmpstats-modules, kamailio-purple-modules, kamailio-xmpp-modules, kamailio-xml-modules, kamailio-carrierroute-modules, kamailio-berkeley-modules, kamailio-berkeley-bin, kamailio-ldap-modules, kamailio-ims-modules, kamailio-utils-modules, kamailio-sctp-modules, kamailio-java-modules, kamailio-tls-modules, kamailio-outbound-modules, kamailio-websocket-modules, kamailio-autheph-modules, kamailio-kazoo-modules, kamailio-cnxcc-modules, kamailio-erlang-modules, kamailio-extra-modules"
-  ],
-  "Build-Depends": [
-    "bison, debhelper (>= 9), default-libmysqlclient-dev, dh-systemd (>= 1.5), docbook-xml, dpkg-dev (>= 1.16.1.1), erlang-dev, flex, gcj-jdk, libconfuse-dev, libcurl4-openssl-dev, libdb-dev (>= 4.6.19), libev-dev, libevent-dev, libexpat1-dev, libgeoip-dev (>= 1.4.5), libhiredis-dev (>= 0.10.0), libjansson-dev, libjson-c-dev, libldap2-dev, liblua5.1-0-dev, libmemcached-dev, libmono-2.0-dev [amd64 armel armhf i386 mipsel kfreebsd-amd64 kfreebsd-i386 ppc64 ppc64el s390x], libncurses5-dev, libpcre3-dev, libperl-dev, libpq-dev, libpurple-dev, librabbitmq-dev, libradcli-dev, libreadline-dev, libsasl2-dev, libsctp-dev [linux-any], libsnmp-dev, libsqlite3-dev, libssl-dev, libunistring-dev, libxml2-dev, openssl, pkg-config, python, python-dev, unixodbc-dev, uuid-dev, xsltproc, zlib1g-dev"
-  ],
-  "Checksums-Sha256": [
-    "90cd1bcd4c78a1552900ce92ecaef257488f30d2088c98000cf1852be5c33d0e 5658 kamailio_4.4.4-2+deb9u3.dsc 1e7db675c3313a2582f9b83a8f1fc1a6361630237645ba2c82ca01962d328a3a 11844818 kamailio_4.4.4.orig.tar.gz 22a45957b1a20f600320a9f7f328cd70439300e2f2d4c4c8d91bfca6defda935 25896 kamailio_4.4.4-2+deb9u3.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/k/kamailio"
-  ],
-  "Files": [
-    "330cb76fe16a642c97593a8b3ef8c616 5658 kamailio_4.4.4-2+deb9u3.dsc 2ec8ea636841512b536aba8d71802df2 11844818 kamailio_4.4.4.orig.tar.gz b05f8d1197882ef5866aae8132acb212 25896 kamailio_4.4.4-2+deb9u3.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.kamailio.org/"
-  ],
-  "Maintainer": [
-    "Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "kamailio"
-  ],
-  "Package-List": [
-    "kamailio deb net optional arch=any kamailio-autheph-modules deb net optional arch=any kamailio-berkeley-bin deb net optional arch=any kamailio-berkeley-modules deb net optional arch=any kamailio-carrierroute-modules deb net optional arch=any kamailio-cnxcc-modules deb net optional arch=any kamailio-cpl-modules deb net optional arch=any kamailio-dbg deb debug extra arch=any kamailio-erlang-modules deb net optional arch=any kamailio-extra-modules deb net optional arch=any kamailio-geoip-modules deb net optional arch=any kamailio-ims-modules deb net optional arch=any kamailio-java-modules deb net optional arch=any kamailio-json-modules deb net optional arch=linux-any kamailio-kazoo-modules deb net optional arch=linux-any kamailio-ldap-modules deb net optional arch=any kamailio-lua-modules deb net optional arch=any kamailio-memcached-modules deb net optional arch=any kamailio-mono-modules deb net optional arch=amd64,armel,i386,mipsel,powerpc,powerpcspe,ppc64,s390x kamailio-mysql-modules deb net optional arch=any kamailio-outbound-modules deb net optional arch=any kamailio-perl-modules deb net optional arch=any kamailio-postgres-modules deb net optional arch=any kamailio-presence-modules deb net optional arch=any kamailio-purple-modules deb net optional arch=any kamailio-python-modules deb net optional arch=any kamailio-radius-modules deb net optional arch=any kamailio-redis-modules deb net optional arch=any kamailio-sctp-modules deb net optional arch=linux-any kamailio-snmpstats-modules deb net optional arch=any kamailio-sqlite-modules deb net optional arch=any kamailio-tls-modules deb net optional arch=any kamailio-unixodbc-modules deb net optional arch=any kamailio-utils-modules deb net optional arch=any kamailio-websocket-modules deb net optional arch=any kamailio-xml-modules deb net optional arch=any kamailio-xmpp-modules deb net optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Victor Seva <vseva@debian.org>, Tzafrir Cohen <tzafrir@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/gitweb/?p=pkg-voip/kamailio.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-voip/kamailio.git"
-  ],
-  "Version": [
-    "4.4.4-2+deb9u3"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"kamailio, kamailio-dbg, kamailio-geoip-modules, kamailio-sqlite-modules, kamailio-json-modules, kamailio-memcached-modules, kamailio-lua-modules, kamailio-mono-modules, kamailio-python-modules, kamailio-redis-modules, kamailio-mysql-modules, kamailio-postgres-modules, kamailio-cpl-modules, kamailio-radius-modules, kamailio-unixodbc-modules, kamailio-presence-modules, kamailio-perl-modules, kamailio-snmpstats-modules, kamailio-purple-modules, kamailio-xmpp-modules, kamailio-xml-modules, kamailio-carrierroute-modules, kamailio-berkeley-modules, kamailio-berkeley-bin, kamailio-ldap-modules, kamailio-ims-modules, kamailio-utils-modules, kamailio-sctp-modules, kamailio-java-modules, kamailio-tls-modules, kamailio-outbound-modules, kamailio-websocket-modules, kamailio-autheph-modules, kamailio-kazoo-modules, kamailio-cnxcc-modules, kamailio-erlang-modules, kamailio-extra-modules"
+	],
+	"Build-Depends": [
+		"bison, debhelper (>= 9), default-libmysqlclient-dev, dh-systemd (>= 1.5), docbook-xml, dpkg-dev (>= 1.16.1.1), erlang-dev, flex, gcj-jdk, libconfuse-dev, libcurl4-openssl-dev, libdb-dev (>= 4.6.19), libev-dev, libevent-dev, libexpat1-dev, libgeoip-dev (>= 1.4.5), libhiredis-dev (>= 0.10.0), libjansson-dev, libjson-c-dev, libldap2-dev, liblua5.1-0-dev, libmemcached-dev, libmono-2.0-dev [amd64 armel armhf i386 mipsel kfreebsd-amd64 kfreebsd-i386 ppc64 ppc64el s390x], libncurses5-dev, libpcre3-dev, libperl-dev, libpq-dev, libpurple-dev, librabbitmq-dev, libradcli-dev, libreadline-dev, libsasl2-dev, libsctp-dev [linux-any], libsnmp-dev, libsqlite3-dev, libssl-dev, libunistring-dev, libxml2-dev, openssl, pkg-config, python, python-dev, unixodbc-dev, uuid-dev, xsltproc, zlib1g-dev"
+	],
+	"Checksums-Sha256": [
+		"90cd1bcd4c78a1552900ce92ecaef257488f30d2088c98000cf1852be5c33d0e 5658 kamailio_4.4.4-2+deb9u3.dsc 1e7db675c3313a2582f9b83a8f1fc1a6361630237645ba2c82ca01962d328a3a 11844818 kamailio_4.4.4.orig.tar.gz 22a45957b1a20f600320a9f7f328cd70439300e2f2d4c4c8d91bfca6defda935 25896 kamailio_4.4.4-2+deb9u3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/k/kamailio"
+	],
+	"Files": [
+		"330cb76fe16a642c97593a8b3ef8c616 5658 kamailio_4.4.4-2+deb9u3.dsc 2ec8ea636841512b536aba8d71802df2 11844818 kamailio_4.4.4.orig.tar.gz b05f8d1197882ef5866aae8132acb212 25896 kamailio_4.4.4-2+deb9u3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.kamailio.org/"
+	],
+	"Maintainer": [
+		"Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"kamailio"
+	],
+	"Package-List": [
+		"kamailio deb net optional arch=any kamailio-autheph-modules deb net optional arch=any kamailio-berkeley-bin deb net optional arch=any kamailio-berkeley-modules deb net optional arch=any kamailio-carrierroute-modules deb net optional arch=any kamailio-cnxcc-modules deb net optional arch=any kamailio-cpl-modules deb net optional arch=any kamailio-dbg deb debug extra arch=any kamailio-erlang-modules deb net optional arch=any kamailio-extra-modules deb net optional arch=any kamailio-geoip-modules deb net optional arch=any kamailio-ims-modules deb net optional arch=any kamailio-java-modules deb net optional arch=any kamailio-json-modules deb net optional arch=linux-any kamailio-kazoo-modules deb net optional arch=linux-any kamailio-ldap-modules deb net optional arch=any kamailio-lua-modules deb net optional arch=any kamailio-memcached-modules deb net optional arch=any kamailio-mono-modules deb net optional arch=amd64,armel,i386,mipsel,powerpc,powerpcspe,ppc64,s390x kamailio-mysql-modules deb net optional arch=any kamailio-outbound-modules deb net optional arch=any kamailio-perl-modules deb net optional arch=any kamailio-postgres-modules deb net optional arch=any kamailio-presence-modules deb net optional arch=any kamailio-purple-modules deb net optional arch=any kamailio-python-modules deb net optional arch=any kamailio-radius-modules deb net optional arch=any kamailio-redis-modules deb net optional arch=any kamailio-sctp-modules deb net optional arch=linux-any kamailio-snmpstats-modules deb net optional arch=any kamailio-sqlite-modules deb net optional arch=any kamailio-tls-modules deb net optional arch=any kamailio-unixodbc-modules deb net optional arch=any kamailio-utils-modules deb net optional arch=any kamailio-websocket-modules deb net optional arch=any kamailio-xml-modules deb net optional arch=any kamailio-xmpp-modules deb net optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Victor Seva <vseva@debian.org>, Tzafrir Cohen <tzafrir@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/gitweb/?p=pkg-voip/kamailio.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-voip/kamailio.git"
+	],
+	"Version": [
+		"4.4.4-2+deb9u3"
+	]
 }

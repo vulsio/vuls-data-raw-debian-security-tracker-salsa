@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "libllvmspirvlib14, libllvmspirvlib-14-dev, llvm-spirv-14"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-pkgkde-symbolshelper, cmake, gcc (>= 4:13), libclang-14-dev, llvm-14-dev, pkgconf, spirv-headers (>= 1.5.5), spirv-tools, clang-14 <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "0e3b8da053c1392ef3c710aee10adf65d8245294ce1199b79d5e74f6c8fe6912 2581 spirv-llvm-translator-14_14.0.0-9.dsc 1afc52bb4e39aeb9b5b69324a201c81bd986364f347b559995eff6fd6f013318 1482704 spirv-llvm-translator-14_14.0.0.orig.tar.gz 4add952d880d5a228abeb855dad288fc4fb1aaddd45fab0ac6f43cb3d5a151ff 13728 spirv-llvm-translator-14_14.0.0-9.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/s/spirv-llvm-translator-14"
-  ],
-  "Files": [
-    "f5ab5b46d7969e5a0918e7981b6c1d51 2581 spirv-llvm-translator-14_14.0.0-9.dsc ae2b5b53e27bfbd700346db2d481c7d8 1482704 spirv-llvm-translator-14_14.0.0.orig.tar.gz e3b7094f60dc4e18dafe1110c7a6b06a 13728 spirv-llvm-translator-14_14.0.0-9.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/KhronosGroup/SPIRV-LLVM-Translator"
-  ],
-  "Maintainer": [
-    "Debian OpenCL team <pkg-opencl-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "spirv-llvm-translator-14"
-  ],
-  "Package-List": [
-    "libllvmspirvlib-14-dev deb libdevel optional arch=any libllvmspirvlib14 deb libs optional arch=any llvm-spirv-14 deb libdevel optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "clang-14, cmake, g++, llvm-14-dev, pkgconf, spirv-headers, spirv-tools"
-  ],
-  "Uploaders": [
-    "Timo Aaltonen <tjaalton@debian.org>, Andreas Beckmann <anbe@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/opencl-team/spirv-llvm-translator"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/opencl-team/spirv-llvm-translator.git -b llvm14/main"
-  ],
-  "Version": [
-    "14.0.0-9"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"libllvmspirvlib14, libllvmspirvlib-14-dev, llvm-spirv-14"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-sequence-pkgkde-symbolshelper, cmake, gcc (>= 4:13), libclang-14-dev, llvm-14-dev, pkgconf, spirv-headers (>= 1.5.5), spirv-tools, clang-14 <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"0e3b8da053c1392ef3c710aee10adf65d8245294ce1199b79d5e74f6c8fe6912 2581 spirv-llvm-translator-14_14.0.0-9.dsc 1afc52bb4e39aeb9b5b69324a201c81bd986364f347b559995eff6fd6f013318 1482704 spirv-llvm-translator-14_14.0.0.orig.tar.gz 4add952d880d5a228abeb855dad288fc4fb1aaddd45fab0ac6f43cb3d5a151ff 13728 spirv-llvm-translator-14_14.0.0-9.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/s/spirv-llvm-translator-14"
+	],
+	"Files": [
+		"f5ab5b46d7969e5a0918e7981b6c1d51 2581 spirv-llvm-translator-14_14.0.0-9.dsc ae2b5b53e27bfbd700346db2d481c7d8 1482704 spirv-llvm-translator-14_14.0.0.orig.tar.gz e3b7094f60dc4e18dafe1110c7a6b06a 13728 spirv-llvm-translator-14_14.0.0-9.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/KhronosGroup/SPIRV-LLVM-Translator"
+	],
+	"Maintainer": [
+		"Debian OpenCL team <pkg-opencl-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"spirv-llvm-translator-14"
+	],
+	"Package-List": [
+		"libllvmspirvlib-14-dev deb libdevel optional arch=any libllvmspirvlib14 deb libs optional arch=any llvm-spirv-14 deb libdevel optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"clang-14, cmake, g++, llvm-14-dev, pkgconf, spirv-headers, spirv-tools"
+	],
+	"Uploaders": [
+		"Timo Aaltonen <tjaalton@debian.org>, Andreas Beckmann <anbe@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/opencl-team/spirv-llvm-translator"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/opencl-team/spirv-llvm-translator.git -b llvm14/main"
+	],
+	"Version": [
+		"14.0.0-9"
+	]
 }

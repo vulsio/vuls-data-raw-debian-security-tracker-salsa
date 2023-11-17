@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "all amd64 arm64 armel armhf i386 mips64el mipsel ppc64el alpha hppa ia64 m68k riscv64 sh4"
-  ],
-  "Binary": [
-    "libvkd3d-doc, libvkd3d-headers, libvkd3d-dev, libvkd3d1, libvkd3d-utils1, libvkd3d-shader1, vkd3d-demos, vkd3d-compiler"
-  ],
-  "Build-Depends": [
-    "dpkg (>= 1.19), debhelper-compat (= 13), pkg-config, spirv-headers, libvulkan-dev (>= 1.1.70), libxcb-util0-dev, libxcb-icccm4-dev, libxcb-keysyms1-dev"
-  ],
-  "Build-Depends-Arch": [
-    "help2man, mingw-w64-tools, gcc-mingw-w64-i686 [i386 amd64], gcc-mingw-w64-x86-64 [i386 amd64]"
-  ],
-  "Build-Depends-Indep": [
-    "doxygen, graphviz, mingw-w64-tools, texlive-latex-extra, texlive-plain-generic, texlive-fonts-recommended"
-  ],
-  "Checksums-Sha256": [
-    "4105bbc7c9b2044f9a4776ed9592c5eb2b53238116910c42f8852a0ce70e9d15 3280 vkd3d_1.2-15~bpo11+1.dsc e688ecfbcf4dd552b44761c2a45f4f944cd0618dc44bc4213c190ce783d641bf 364240 vkd3d_1.2.orig.tar.xz 2e474b576fa2a71185fcc9f0ecceddc26ac0664799960985f79738152e69f30e 11848 vkd3d_1.2-15~bpo11+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/v/vkd3d"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.winehq.org"
-  ],
-  "Maintainer": [
-    "Debian Wine Party <debian-wine@lists.debian.org>"
-  ],
-  "Package": [
-    "vkd3d"
-  ],
-  "Package-List": [
-    "libvkd3d-dev deb libdevel optional arch=amd64,arm64,armel,armhf,i386,mips64el,mipsel,ppc64el,alpha,hppa,ia64,m68k,riscv64,sh4 libvkd3d-doc deb doc optional arch=all libvkd3d-headers deb libdevel optional arch=all libvkd3d-shader1 deb libs optional arch=amd64,arm64,armel,armhf,i386,mips64el,mipsel,ppc64el,alpha,hppa,ia64,m68k,riscv64,sh4 libvkd3d-utils1 deb libs optional arch=amd64,arm64,armel,armhf,i386,mips64el,mipsel,ppc64el,alpha,hppa,ia64,m68k,riscv64,sh4 libvkd3d1 deb libs optional arch=amd64,arm64,armel,armhf,i386,mips64el,mipsel,ppc64el,alpha,hppa,ia64,m68k,riscv64,sh4 vkd3d-compiler deb devel optional arch=amd64,arm64,armel,armhf,i386,mips64el,mipsel,ppc64el,alpha,hppa,ia64,m68k,riscv64,sh4 vkd3d-demos deb devel optional arch=amd64,arm64,armel,armhf,i386,mips64el,mipsel,ppc64el,alpha,hppa,ia64,m68k,riscv64,sh4"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Uploaders": [
-    "Michael Gilbert <mgilbert@debian.org>, Phil Morrell <emorrp1@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/wine-team/vkd3d"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/wine-team/vkd3d.git"
-  ],
-  "Version": [
-    "1.2-15~bpo11+1"
-  ]
+	"Architecture": [
+		"all amd64 arm64 armel armhf i386 mips64el mipsel ppc64el alpha hppa ia64 m68k riscv64 sh4"
+	],
+	"Binary": [
+		"libvkd3d-doc, libvkd3d-headers, libvkd3d-dev, libvkd3d1, libvkd3d-utils1, libvkd3d-shader1, vkd3d-demos, vkd3d-compiler"
+	],
+	"Build-Depends": [
+		"dpkg (>= 1.19), debhelper-compat (= 13), pkg-config, spirv-headers, libvulkan-dev (>= 1.1.70), libxcb-util0-dev, libxcb-icccm4-dev, libxcb-keysyms1-dev"
+	],
+	"Build-Depends-Arch": [
+		"help2man, mingw-w64-tools, gcc-mingw-w64-i686 [i386 amd64], gcc-mingw-w64-x86-64 [i386 amd64]"
+	],
+	"Build-Depends-Indep": [
+		"doxygen, graphviz, mingw-w64-tools, texlive-latex-extra, texlive-plain-generic, texlive-fonts-recommended"
+	],
+	"Checksums-Sha256": [
+		"4105bbc7c9b2044f9a4776ed9592c5eb2b53238116910c42f8852a0ce70e9d15 3280 vkd3d_1.2-15~bpo11+1.dsc e688ecfbcf4dd552b44761c2a45f4f944cd0618dc44bc4213c190ce783d641bf 364240 vkd3d_1.2.orig.tar.xz 2e474b576fa2a71185fcc9f0ecceddc26ac0664799960985f79738152e69f30e 11848 vkd3d_1.2-15~bpo11+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/v/vkd3d"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.winehq.org"
+	],
+	"Maintainer": [
+		"Debian Wine Party <debian-wine@lists.debian.org>"
+	],
+	"Package": [
+		"vkd3d"
+	],
+	"Package-List": [
+		"libvkd3d-dev deb libdevel optional arch=amd64,arm64,armel,armhf,i386,mips64el,mipsel,ppc64el,alpha,hppa,ia64,m68k,riscv64,sh4 libvkd3d-doc deb doc optional arch=all libvkd3d-headers deb libdevel optional arch=all libvkd3d-shader1 deb libs optional arch=amd64,arm64,armel,armhf,i386,mips64el,mipsel,ppc64el,alpha,hppa,ia64,m68k,riscv64,sh4 libvkd3d-utils1 deb libs optional arch=amd64,arm64,armel,armhf,i386,mips64el,mipsel,ppc64el,alpha,hppa,ia64,m68k,riscv64,sh4 libvkd3d1 deb libs optional arch=amd64,arm64,armel,armhf,i386,mips64el,mipsel,ppc64el,alpha,hppa,ia64,m68k,riscv64,sh4 vkd3d-compiler deb devel optional arch=amd64,arm64,armel,armhf,i386,mips64el,mipsel,ppc64el,alpha,hppa,ia64,m68k,riscv64,sh4 vkd3d-demos deb devel optional arch=amd64,arm64,armel,armhf,i386,mips64el,mipsel,ppc64el,alpha,hppa,ia64,m68k,riscv64,sh4"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Uploaders": [
+		"Michael Gilbert <mgilbert@debian.org>, Phil Morrell <emorrp1@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/wine-team/vkd3d"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/wine-team/vkd3d.git"
+	],
+	"Version": [
+		"1.2-15~bpo11+1"
+	]
 }

@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "linux-any"
-  ],
-  "Binary": [
-    "netplan.io, netplan-generator, python3-netplan, libnetplan0, libnetplan-dev"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), pkg-config, bash-completion, libyaml-dev, libglib2.0-dev, uuid-dev, python3, python3-cffi, python3-coverage <!nocheck>, python3-dbus <!nocheck>, python3-pytest <!nocheck>, python3-pytest-cov <!nocheck>, python3-rich <!nocheck>, python3-yaml <!nocheck>, python3-netifaces <!nocheck>, libcmocka-dev, libpython3-dev, libsystemd-dev, systemd, dbus-x11 <!nocheck>, pyflakes3 <!nocheck>, pycodestyle <!nocheck> | pep8 <!nocheck>, pandoc, openvswitch-switch <!nocheck>, meson"
-  ],
-  "Checksums-Sha256": [
-    "c1c547376c40aeaaa95031c99967412c3881f3fb2b6b66e512a5978c51711a96 2906 netplan.io_0.107-5.dsc fcc737d90ec8c3473618ad2c6d42953668d43229ca76fcb758b07ad8a49a7fe0 412138 netplan.io_0.107.orig.tar.gz 37e2d034a98ea0197e504e62a0c8366c3598d692db21711164f8ef9a2d148f64 18576 netplan.io_0.107-5.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/n/netplan.io"
-  ],
-  "Files": [
-    "2ba2748508627c285e7659d4b94037b3 2906 netplan.io_0.107-5.dsc 6771e5f2c924ad2e85d56729c6252512 412138 netplan.io_0.107.orig.tar.gz 7fdba69239192a1c08a369ac94e2b9f8 18576 netplan.io_0.107-5.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://netplan.io/"
-  ],
-  "Maintainer": [
-    "Debian Netplan Maintainers <team+netplan@tracker.debian.org>"
-  ],
-  "Package": [
-    "netplan.io"
-  ],
-  "Package-List": [
-    "libnetplan-dev deb libdevel optional arch=linux-any libnetplan0 deb libs optional arch=linux-any netplan-generator deb net optional arch=linux-any netplan.io deb net optional arch=linux-any python3-netplan deb python optional arch=linux-any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dnsmasq-base, ethtool, gir1.2-nm-1.0, hostapd, iw, libnm0, network-manager, openvswitch-switch, python3-gi, systemd, systemd-resolved, udev, wireguard-tools, wpasupplicant"
-  ],
-  "Uploaders": [
-    "Andrej Shadura <andrewsh@debian.org>, Lukas Märdian <slyon@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian/netplan.io"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian/netplan.io.git"
-  ],
-  "Version": [
-    "0.107-5"
-  ]
+	"Architecture": [
+		"linux-any"
+	],
+	"Binary": [
+		"netplan.io, netplan-generator, python3-netplan, libnetplan0, libnetplan-dev"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), pkg-config, bash-completion, libyaml-dev, libglib2.0-dev, uuid-dev, python3, python3-cffi, python3-coverage <!nocheck>, python3-dbus <!nocheck>, python3-pytest <!nocheck>, python3-pytest-cov <!nocheck>, python3-rich <!nocheck>, python3-yaml <!nocheck>, python3-netifaces <!nocheck>, libcmocka-dev, libpython3-dev, libsystemd-dev, systemd, dbus-x11 <!nocheck>, pyflakes3 <!nocheck>, pycodestyle <!nocheck> | pep8 <!nocheck>, pandoc, openvswitch-switch <!nocheck>, meson"
+	],
+	"Checksums-Sha256": [
+		"c1c547376c40aeaaa95031c99967412c3881f3fb2b6b66e512a5978c51711a96 2906 netplan.io_0.107-5.dsc fcc737d90ec8c3473618ad2c6d42953668d43229ca76fcb758b07ad8a49a7fe0 412138 netplan.io_0.107.orig.tar.gz 37e2d034a98ea0197e504e62a0c8366c3598d692db21711164f8ef9a2d148f64 18576 netplan.io_0.107-5.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/n/netplan.io"
+	],
+	"Files": [
+		"2ba2748508627c285e7659d4b94037b3 2906 netplan.io_0.107-5.dsc 6771e5f2c924ad2e85d56729c6252512 412138 netplan.io_0.107.orig.tar.gz 7fdba69239192a1c08a369ac94e2b9f8 18576 netplan.io_0.107-5.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://netplan.io/"
+	],
+	"Maintainer": [
+		"Debian Netplan Maintainers <team+netplan@tracker.debian.org>"
+	],
+	"Package": [
+		"netplan.io"
+	],
+	"Package-List": [
+		"libnetplan-dev deb libdevel optional arch=linux-any libnetplan0 deb libs optional arch=linux-any netplan-generator deb net optional arch=linux-any netplan.io deb net optional arch=linux-any python3-netplan deb python optional arch=linux-any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dnsmasq-base, ethtool, gir1.2-nm-1.0, hostapd, iw, libnm0, network-manager, openvswitch-switch, python3-gi, systemd, systemd-resolved, udev, wireguard-tools, wpasupplicant"
+	],
+	"Uploaders": [
+		"Andrej Shadura <andrewsh@debian.org>, Lukas Märdian <slyon@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/netplan.io"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/netplan.io.git"
+	],
+	"Version": [
+		"0.107-5"
+	]
 }

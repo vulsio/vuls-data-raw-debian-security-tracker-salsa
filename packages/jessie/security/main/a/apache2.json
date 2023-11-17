@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "apache2, apache2-data, apache2-bin, apache2-mpm-worker, apache2-mpm-prefork, apache2-mpm-event, apache2-mpm-itk, apache2.2-bin, apache2.2-common, libapache2-mod-proxy-html, libapache2-mod-macro, apache2-utils, apache2-suexec, apache2-suexec-pristine, apache2-suexec-custom, apache2-doc, apache2-dev, apache2-dbg"
-  ],
-  "Build-Conflicts": [
-    "autoconf2.13"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9.20131213~), lsb-release, dpkg-dev (>= 1.16.1~), libaprutil1-dev (>= 1.5.0), libapr1-dev (>= 1.5.0), libpcre3-dev, zlib1g-dev, libssl-dev (>= 0.9.8m), perl, liblua5.1-0-dev, libxml2-dev, autotools-dev, gawk | awk"
-  ],
-  "Checksums-Sha1": [
-    "d0bc1aaf7f1bc6eb19f36cff534c8111f2b93867 3432 apache2_2.4.10-10+deb8u16.dsc 00f5c3f8274139bd6160eda2cf514fa9b74549e5 5031834 apache2_2.4.10.orig.tar.bz2 6ba90af44ddec40b51f0d56db2f256a275fd6e06 570212 apache2_2.4.10-10+deb8u16.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "9065182ee32b97d4e27283bdb5cafba2b10556241fe17122f57210da2245249a 3432 apache2_2.4.10-10+deb8u16.dsc 176c4dac1a745f07b7b91e7f4fd48f9c48049fa6f088efe758d61d9738669c6a 5031834 apache2_2.4.10.orig.tar.bz2 85ec5e71e28d2fd20c367c2f40f88c0f235cae61f1767676fc4975965ecb6cd2 570212 apache2_2.4.10-10+deb8u16.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/updates/main/a/apache2"
-  ],
-  "Files": [
-    "fca018a394c621697abae06808c6d283 3432 apache2_2.4.10-10+deb8u16.dsc 44543dff14a4ebc1e9e2d86780507156 5031834 apache2_2.4.10.orig.tar.bz2 9043d4dc108c8f5ff651ecd993f4deda 570212 apache2_2.4.10-10+deb8u16.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://httpd.apache.org/"
-  ],
-  "Maintainer": [
-    "Debian Apache Maintainers <debian-apache@lists.debian.org>"
-  ],
-  "Package": [
-    "apache2"
-  ],
-  "Package-List": [
-    "apache2 deb httpd optional arch=any apache2-bin deb httpd optional arch=any apache2-data deb httpd optional arch=all apache2-dbg deb debug extra arch=any apache2-dev deb httpd optional arch=any apache2-doc deb doc optional arch=all apache2-mpm-event deb oldlibs extra arch=any apache2-mpm-itk deb oldlibs extra arch=any apache2-mpm-prefork deb oldlibs extra arch=any apache2-mpm-worker deb oldlibs extra arch=any apache2-suexec deb oldlibs extra arch=any apache2-suexec-custom deb httpd extra arch=any apache2-suexec-pristine deb httpd optional arch=any apache2-utils deb httpd optional arch=any apache2.2-bin deb oldlibs extra arch=any apache2.2-common deb oldlibs extra arch=any libapache2-mod-macro deb oldlibs extra arch=any libapache2-mod-proxy-html deb oldlibs extra arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "httpd"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Stefan Fritsch <sf@debian.org>, Arno Töll <arno@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-apache/apache2.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-apache/apache2.git"
-  ],
-  "Version": [
-    "2.4.10-10+deb8u16"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"apache2, apache2-data, apache2-bin, apache2-mpm-worker, apache2-mpm-prefork, apache2-mpm-event, apache2-mpm-itk, apache2.2-bin, apache2.2-common, libapache2-mod-proxy-html, libapache2-mod-macro, apache2-utils, apache2-suexec, apache2-suexec-pristine, apache2-suexec-custom, apache2-doc, apache2-dev, apache2-dbg"
+	],
+	"Build-Conflicts": [
+		"autoconf2.13"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9.20131213~), lsb-release, dpkg-dev (>= 1.16.1~), libaprutil1-dev (>= 1.5.0), libapr1-dev (>= 1.5.0), libpcre3-dev, zlib1g-dev, libssl-dev (>= 0.9.8m), perl, liblua5.1-0-dev, libxml2-dev, autotools-dev, gawk | awk"
+	],
+	"Checksums-Sha1": [
+		"d0bc1aaf7f1bc6eb19f36cff534c8111f2b93867 3432 apache2_2.4.10-10+deb8u16.dsc 00f5c3f8274139bd6160eda2cf514fa9b74549e5 5031834 apache2_2.4.10.orig.tar.bz2 6ba90af44ddec40b51f0d56db2f256a275fd6e06 570212 apache2_2.4.10-10+deb8u16.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"9065182ee32b97d4e27283bdb5cafba2b10556241fe17122f57210da2245249a 3432 apache2_2.4.10-10+deb8u16.dsc 176c4dac1a745f07b7b91e7f4fd48f9c48049fa6f088efe758d61d9738669c6a 5031834 apache2_2.4.10.orig.tar.bz2 85ec5e71e28d2fd20c367c2f40f88c0f235cae61f1767676fc4975965ecb6cd2 570212 apache2_2.4.10-10+deb8u16.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/a/apache2"
+	],
+	"Files": [
+		"fca018a394c621697abae06808c6d283 3432 apache2_2.4.10-10+deb8u16.dsc 44543dff14a4ebc1e9e2d86780507156 5031834 apache2_2.4.10.orig.tar.bz2 9043d4dc108c8f5ff651ecd993f4deda 570212 apache2_2.4.10-10+deb8u16.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://httpd.apache.org/"
+	],
+	"Maintainer": [
+		"Debian Apache Maintainers <debian-apache@lists.debian.org>"
+	],
+	"Package": [
+		"apache2"
+	],
+	"Package-List": [
+		"apache2 deb httpd optional arch=any apache2-bin deb httpd optional arch=any apache2-data deb httpd optional arch=all apache2-dbg deb debug extra arch=any apache2-dev deb httpd optional arch=any apache2-doc deb doc optional arch=all apache2-mpm-event deb oldlibs extra arch=any apache2-mpm-itk deb oldlibs extra arch=any apache2-mpm-prefork deb oldlibs extra arch=any apache2-mpm-worker deb oldlibs extra arch=any apache2-suexec deb oldlibs extra arch=any apache2-suexec-custom deb httpd extra arch=any apache2-suexec-pristine deb httpd optional arch=any apache2-utils deb httpd optional arch=any apache2.2-bin deb oldlibs extra arch=any apache2.2-common deb oldlibs extra arch=any libapache2-mod-macro deb oldlibs extra arch=any libapache2-mod-proxy-html deb oldlibs extra arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"httpd"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Stefan Fritsch <sf@debian.org>, Arno Töll <arno@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-apache/apache2.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-apache/apache2.git"
+	],
+	"Version": [
+		"2.4.10-10+deb8u16"
+	]
 }

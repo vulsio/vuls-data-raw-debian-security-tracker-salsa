@@ -1,47 +1,47 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "gfal2, libgfal2-2, libgfal-transfer2, libgfal2-dev, gfal2-doc, gfal2-plugin-file, gfal2-plugin-lfc, gfal2-plugin-rfio, gfal2-plugin-dcap, gfal2-plugin-srm, gfal2-plugin-gridftp, gfal2-plugin-http, gfal2-plugin-mock, gfal2-dbg"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), cmake, doxygen, libglib2.0-dev, libattr1-dev, libldap2-dev, uuid-dev, zlib1g-dev, liblfc-dev, libdpm-dev, srm-ifce-dev (>= 1.23.1), dcap-dev, libglobus-gass-copy-dev, davix-dev (>= 0.4.2), pkg-config, libgtest-dev"
-  ],
-  "Checksums-Sha256": [
-    "b85e25978f3b0b49ac872fa16a0c0fc42a4023dab3db2bb555108f2ee7a7a5e4 2709 gfal2_2.12.3-1.dsc a8dad02bf7d4f3430b43fb76b1f24de885f57420690096e4808628572706792e 473676 gfal2_2.12.3.orig.tar.gz b947fb5324a6b45eaf78c8ec6f51a79c8eb6be3f0009eebf0d8fb03229a42710 6924 gfal2_2.12.3-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/g/gfal2"
-  ],
-  "Files": [
-    "df289485b43bc1db5b418539fef4c442 2709 gfal2_2.12.3-1.dsc 207b57a82ba9007673326daf5d4bf986 473676 gfal2_2.12.3.orig.tar.gz a9a20e81c35c6352f444e05f3f5cd4c6 6924 gfal2_2.12.3-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://dmc.web.cern.ch/projects/gfal-2/home"
-  ],
-  "Maintainer": [
-    "Mattias Ellert <mattias.ellert@physics.uu.se>"
-  ],
-  "Package": [
-    "gfal2"
-  ],
-  "Package-List": [
-    "gfal2 deb net optional arch=all gfal2-dbg deb debug extra arch=any gfal2-doc deb doc optional arch=all gfal2-plugin-dcap deb net optional arch=any gfal2-plugin-file deb net optional arch=any gfal2-plugin-gridftp deb net optional arch=any gfal2-plugin-http deb net optional arch=any gfal2-plugin-lfc deb net optional arch=any gfal2-plugin-mock deb net optional arch=any gfal2-plugin-rfio deb net optional arch=any gfal2-plugin-srm deb net optional arch=any libgfal-transfer2 deb libs optional arch=any libgfal2-2 deb libs optional arch=any libgfal2-dev deb libdevel optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Version": [
-    "2.12.3-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"gfal2, libgfal2-2, libgfal-transfer2, libgfal2-dev, gfal2-doc, gfal2-plugin-file, gfal2-plugin-lfc, gfal2-plugin-rfio, gfal2-plugin-dcap, gfal2-plugin-srm, gfal2-plugin-gridftp, gfal2-plugin-http, gfal2-plugin-mock, gfal2-dbg"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), cmake, doxygen, libglib2.0-dev, libattr1-dev, libldap2-dev, uuid-dev, zlib1g-dev, liblfc-dev, libdpm-dev, srm-ifce-dev (>= 1.23.1), dcap-dev, libglobus-gass-copy-dev, davix-dev (>= 0.4.2), pkg-config, libgtest-dev"
+	],
+	"Checksums-Sha256": [
+		"b85e25978f3b0b49ac872fa16a0c0fc42a4023dab3db2bb555108f2ee7a7a5e4 2709 gfal2_2.12.3-1.dsc a8dad02bf7d4f3430b43fb76b1f24de885f57420690096e4808628572706792e 473676 gfal2_2.12.3.orig.tar.gz b947fb5324a6b45eaf78c8ec6f51a79c8eb6be3f0009eebf0d8fb03229a42710 6924 gfal2_2.12.3-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/gfal2"
+	],
+	"Files": [
+		"df289485b43bc1db5b418539fef4c442 2709 gfal2_2.12.3-1.dsc 207b57a82ba9007673326daf5d4bf986 473676 gfal2_2.12.3.orig.tar.gz a9a20e81c35c6352f444e05f3f5cd4c6 6924 gfal2_2.12.3-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://dmc.web.cern.ch/projects/gfal-2/home"
+	],
+	"Maintainer": [
+		"Mattias Ellert <mattias.ellert@physics.uu.se>"
+	],
+	"Package": [
+		"gfal2"
+	],
+	"Package-List": [
+		"gfal2 deb net optional arch=all gfal2-dbg deb debug extra arch=any gfal2-doc deb doc optional arch=all gfal2-plugin-dcap deb net optional arch=any gfal2-plugin-file deb net optional arch=any gfal2-plugin-gridftp deb net optional arch=any gfal2-plugin-http deb net optional arch=any gfal2-plugin-lfc deb net optional arch=any gfal2-plugin-mock deb net optional arch=any gfal2-plugin-rfio deb net optional arch=any gfal2-plugin-srm deb net optional arch=any libgfal-transfer2 deb libs optional arch=any libgfal2-2 deb libs optional arch=any libgfal2-dev deb libdevel optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Version": [
+		"2.12.3-1"
+	]
 }

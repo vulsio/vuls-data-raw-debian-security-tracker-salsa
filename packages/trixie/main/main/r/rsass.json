@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-rsass-dev, rsass"
-  ],
-  "Build-Depends": [
-    "cmark-gfm <!nodoc>, debhelper-compat (= 13), dh-cargo, help2man <!nodoc>, librust-arc-swap-1+default-dev, librust-clap-4+default-dev, librust-clap-4+derive-dev, librust-clap-4+wrap-help-dev, librust-fastrand-1+default-dev (>= 1.4), librust-lazy-static-1+default-dev, librust-nom-7-dev, librust-num-bigint-0.4+std-dev, librust-num-integer-0.1+default-dev (>= 0.1.42), librust-num-rational-0.4+num-bigint-dev, librust-num-traits-0.2+default-dev, librust-proc-macro2-1+default-dev (>= 1.0.32), librust-quote-1+default-dev (>= 1.0.21), librust-syn-1+default-dev (>= 1.0.106), librust-tracing-0.1+default-dev, librust-tracing-subscriber-0.3+default-dev <!nocheck>, libstring-shellquote-perl"
-  ],
-  "Checksums-Sha256": [
-    "5f6ba84cde21c54439bb39d17ec09cf1e0a54148674d4d093654e4121e3c2799 2644 rsass_0.28.2-3.dsc 157947c914ff99ce08523ae568502d1bc3e4a1b8e97562488dfdeea5c95a222c 599383 rsass_0.28.2.orig.tar.gz 14cb9bd5de9f52b63d89d9916cd031781409d0843acd69a416f43c5f6d07fadc 27280 rsass_0.28.2-3.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rsass"
-  ],
-  "Files": [
-    "247c899640f13d948533514a56dac594 2644 rsass_0.28.2-3.dsc 2c3881560682c8cc08e3f6ed0946b5cc 599383 rsass_0.28.2.orig.tar.gz 3b5e4e4ef30ecbfbdb5b18a4d22db1ea 27280 rsass_0.28.2-3.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/kaj/rsass"
-  ],
-  "Maintainer": [
-    "Jonas Smedegaard <dr@jones.dk>"
-  ],
-  "Package": [
-    "rsass"
-  ],
-  "Package-List": [
-    "librust-rsass-dev deb rust optional arch=any rsass deb web optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-rsass+default-dev, librust-tracing-subscriber-0.3+default-dev"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/sass-team/rsass"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/sass-team/rsass.git"
-  ],
-  "Version": [
-    "0.28.2-3"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-rsass-dev, rsass"
+	],
+	"Build-Depends": [
+		"cmark-gfm <!nodoc>, debhelper-compat (= 13), dh-cargo, help2man <!nodoc>, librust-arc-swap-1+default-dev, librust-clap-4+default-dev, librust-clap-4+derive-dev, librust-clap-4+wrap-help-dev, librust-fastrand-1+default-dev (>= 1.4), librust-lazy-static-1+default-dev, librust-nom-7-dev, librust-num-bigint-0.4+std-dev, librust-num-integer-0.1+default-dev (>= 0.1.42), librust-num-rational-0.4+num-bigint-dev, librust-num-traits-0.2+default-dev, librust-proc-macro2-1+default-dev (>= 1.0.32), librust-quote-1+default-dev (>= 1.0.21), librust-syn-1+default-dev (>= 1.0.106), librust-tracing-0.1+default-dev, librust-tracing-subscriber-0.3+default-dev <!nocheck>, libstring-shellquote-perl"
+	],
+	"Checksums-Sha256": [
+		"5f6ba84cde21c54439bb39d17ec09cf1e0a54148674d4d093654e4121e3c2799 2644 rsass_0.28.2-3.dsc 157947c914ff99ce08523ae568502d1bc3e4a1b8e97562488dfdeea5c95a222c 599383 rsass_0.28.2.orig.tar.gz 14cb9bd5de9f52b63d89d9916cd031781409d0843acd69a416f43c5f6d07fadc 27280 rsass_0.28.2-3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rsass"
+	],
+	"Files": [
+		"247c899640f13d948533514a56dac594 2644 rsass_0.28.2-3.dsc 2c3881560682c8cc08e3f6ed0946b5cc 599383 rsass_0.28.2.orig.tar.gz 3b5e4e4ef30ecbfbdb5b18a4d22db1ea 27280 rsass_0.28.2-3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/kaj/rsass"
+	],
+	"Maintainer": [
+		"Jonas Smedegaard <dr@jones.dk>"
+	],
+	"Package": [
+		"rsass"
+	],
+	"Package-List": [
+		"librust-rsass-dev deb rust optional arch=any rsass deb web optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-rsass+default-dev, librust-tracing-subscriber-0.3+default-dev"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/sass-team/rsass"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/sass-team/rsass.git"
+	],
+	"Version": [
+		"0.28.2-3"
+	]
 }

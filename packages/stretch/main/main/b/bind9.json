@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "bind9, bind9utils, bind9-doc, host, bind9-host, libbind-dev, libbind9-140, libdns162, libirs141, libisc160, liblwres141, libisccc140, libisccfg140, dnsutils, lwresd, libbind-export-dev, libdns-export162, libdns-export162-udeb, libisc-export160, libisc-export160-udeb, libisccfg-export140, libisccc-export140, libisccc-export140-udeb, libisccfg-export140-udeb, libirs-export141, libirs-export141-udeb"
-  ],
-  "Build-Conflicts": [
-    "libdb4.2-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-exec, libkrb5-dev, libssl1.0-dev, libtool, bison, libdb-dev (>> 4.6), libldap2-dev, libxml2-dev, libcap2-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], libgeoip-dev (>= 1.4.6.dfsg-5), dpkg-dev (>= 1.16.1~), python3, dh-systemd, autotools-dev, dh-autoreconf"
-  ],
-  "Checksums-Sha256": [
-    "5c2a4c5d01c8a2c4f7cfa5b0291695812200d7d053e49036ce7f993c2ea1076e 4013 bind9_9.10.3.dfsg.P4-12.3+deb9u6.dsc 895077c868d06eea39c1526624f2278a3b51a3358b5aa50f48a0f1c16a7ab6e6 8641072 bind9_9.10.3.dfsg.P4.orig.tar.gz 7456a8d13c4842839780a9cb3232a0eaa28260a522b43ccf2f9a65519008b97d 99740 bind9_9.10.3.dfsg.P4-12.3+deb9u6.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/b/bind9"
-  ],
-  "Files": [
-    "9cce95ef9f33c94a3ed118ab40b5b329 4013 bind9_9.10.3.dfsg.P4-12.3+deb9u6.dsc 909aa9f0c48b7c2d0d604ea78d9fc607 8641072 bind9_9.10.3.dfsg.P4.orig.tar.gz 6ceb2ea5020a170c0bf4372b6a6bd166 99740 bind9_9.10.3.dfsg.P4-12.3+deb9u6.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian DNS Packaging <pkg-dns-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "bind9"
-  ],
-  "Package-List": [
-    "bind9 deb net optional arch=any bind9-doc deb doc optional arch=all bind9-host deb net standard arch=any bind9utils deb net optional arch=any dnsutils deb net standard arch=any host deb net standard arch=all libbind-dev deb libdevel optional arch=any libbind-export-dev deb libdevel optional arch=any libbind9-140 deb libs standard arch=any libdns-export162 deb libs optional arch=any libdns-export162-udeb udeb debian-installer optional arch=any libdns162 deb libs standard arch=any libirs-export141 deb libs optional arch=any libirs-export141-udeb udeb debian-installer optional arch=any libirs141 deb libs standard arch=any libisc-export160 deb libs optional arch=any libisc-export160-udeb udeb debian-installer optional arch=any libisc160 deb libs standard arch=any libisccc-export140 deb libs optional arch=any libisccc-export140-udeb udeb debian-installer optional arch=any libisccc140 deb libs optional arch=any libisccfg-export140 deb libs optional arch=any libisccfg-export140-udeb udeb debian-installer optional arch=any libisccfg140 deb libs standard arch=any liblwres141 deb libs standard arch=any lwresd deb net optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.7"
-  ],
-  "Uploaders": [
-    "LaMont Jones <lamont@debian.org>, Michael Gilbert <mgilbert@debian.org>, Robie Basak <robie.basak@canonical.com>, Ondřej Surý <ondrej@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/git/pkg-bind/pkg-bind.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/git/pkg-bind/pkg-bind.git"
-  ],
-  "Version": [
-    "1:9.10.3.dfsg.P4-12.3+deb9u6"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"bind9, bind9utils, bind9-doc, host, bind9-host, libbind-dev, libbind9-140, libdns162, libirs141, libisc160, liblwres141, libisccc140, libisccfg140, dnsutils, lwresd, libbind-export-dev, libdns-export162, libdns-export162-udeb, libisc-export160, libisc-export160-udeb, libisccfg-export140, libisccc-export140, libisccc-export140-udeb, libisccfg-export140-udeb, libirs-export141, libirs-export141-udeb"
+	],
+	"Build-Conflicts": [
+		"libdb4.2-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-exec, libkrb5-dev, libssl1.0-dev, libtool, bison, libdb-dev (>> 4.6), libldap2-dev, libxml2-dev, libcap2-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], libgeoip-dev (>= 1.4.6.dfsg-5), dpkg-dev (>= 1.16.1~), python3, dh-systemd, autotools-dev, dh-autoreconf"
+	],
+	"Checksums-Sha256": [
+		"5c2a4c5d01c8a2c4f7cfa5b0291695812200d7d053e49036ce7f993c2ea1076e 4013 bind9_9.10.3.dfsg.P4-12.3+deb9u6.dsc 895077c868d06eea39c1526624f2278a3b51a3358b5aa50f48a0f1c16a7ab6e6 8641072 bind9_9.10.3.dfsg.P4.orig.tar.gz 7456a8d13c4842839780a9cb3232a0eaa28260a522b43ccf2f9a65519008b97d 99740 bind9_9.10.3.dfsg.P4-12.3+deb9u6.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/b/bind9"
+	],
+	"Files": [
+		"9cce95ef9f33c94a3ed118ab40b5b329 4013 bind9_9.10.3.dfsg.P4-12.3+deb9u6.dsc 909aa9f0c48b7c2d0d604ea78d9fc607 8641072 bind9_9.10.3.dfsg.P4.orig.tar.gz 6ceb2ea5020a170c0bf4372b6a6bd166 99740 bind9_9.10.3.dfsg.P4-12.3+deb9u6.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian DNS Packaging <pkg-dns-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"bind9"
+	],
+	"Package-List": [
+		"bind9 deb net optional arch=any bind9-doc deb doc optional arch=all bind9-host deb net standard arch=any bind9utils deb net optional arch=any dnsutils deb net standard arch=any host deb net standard arch=all libbind-dev deb libdevel optional arch=any libbind-export-dev deb libdevel optional arch=any libbind9-140 deb libs standard arch=any libdns-export162 deb libs optional arch=any libdns-export162-udeb udeb debian-installer optional arch=any libdns162 deb libs standard arch=any libirs-export141 deb libs optional arch=any libirs-export141-udeb udeb debian-installer optional arch=any libirs141 deb libs standard arch=any libisc-export160 deb libs optional arch=any libisc-export160-udeb udeb debian-installer optional arch=any libisc160 deb libs standard arch=any libisccc-export140 deb libs optional arch=any libisccc-export140-udeb udeb debian-installer optional arch=any libisccc140 deb libs optional arch=any libisccfg-export140 deb libs optional arch=any libisccfg-export140-udeb udeb debian-installer optional arch=any libisccfg140 deb libs standard arch=any liblwres141 deb libs standard arch=any lwresd deb net optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.7"
+	],
+	"Uploaders": [
+		"LaMont Jones <lamont@debian.org>, Michael Gilbert <mgilbert@debian.org>, Robie Basak <robie.basak@canonical.com>, Ondřej Surý <ondrej@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/git/pkg-bind/pkg-bind.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/git/pkg-bind/pkg-bind.git"
+	],
+	"Version": [
+		"1:9.10.3.dfsg.P4-12.3+deb9u6"
+	]
 }

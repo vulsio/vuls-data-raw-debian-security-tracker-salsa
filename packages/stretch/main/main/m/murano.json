@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-murano, murano-common, murano-api, murano-engine, murano-cfapi, murano-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 10), dh-python, dh-systemd, openstack-pkg-tools (>= 54~), po-debconf, python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx"
-  ],
-  "Build-Depends-Indep": [
-    "alembic (>= 0.8.4), git, python-babel (>= 2.3.4), python-congressclient (>= 1.3.0), python-coverage, python-debtcollector (>= 1.2.0), python-eventlet (>= 0.18.4), python-fixtures (>= 1.3.1), python-hacking, python-heatclient (>= 1.4.0), python-jsonpatch, python-jsonschema, python-keystoneauth1 (>= 2.10.0), python-keystoneclient (>= 1:2.0.0), python-keystonemiddleware (>= 4.0.0), python-kombu (>= 3.0.25), python-migrate (>= 0.9.6), python-mistralclient (>= 2.0.0), python-mock (>= 2.0), python-muranoclient (>= 0.8.2), python-mysqldb, python-netaddr (>= 0.7.13), python-neutronclient (>= 1:5.1.0), python-nose, python-os-testr (>= 0.7.0), python-oslo.concurrency (>= 3.8.0), python-oslo.config (>= 1:3.14.0), python-oslo.context (>= 2.9.0), python-oslo.db (>= 4.10.0), python-oslo.i18n (>= 2.1.0), python-oslo.log (>= 2.0.0), python-oslo.messaging (>= 5.2.0), python-oslo.middleware (>= 3.0.0), python-oslo.policy (>= 1.9.0), python-oslo.serialization (>= 2.0.0), python-oslo.service (>= 1.10.0), python-oslo.utils (>= 3.16.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.10.0), python-paste, python-pastedeploy, python-pep8, python-psutil, python-psycopg2, python-pymysql (>= 0.6.2), python-requests (>= 2.10.0), python-retrying, python-routes, python-semantic-version, python-six (>= 1.9.0), python-sphinxcontrib.httpdomain, python-sqlalchemy (>= 1.0.10), python-stevedore (>= 1.16.0), python-testresources, python-testscenarios, python-testtools (>= 1.4.0), python-unittest2, python-webob, python-yaml, python-yaql (>= 1.1.0), subunit, tempest (>= 1:12.0.0), testrepository, zip"
-  ],
-  "Checksums-Sha256": [
-    "dab7a0a9b7dbac3d27085d118be92bf1ea0e4b75d9eff1060829d2f6525f533f 4031 murano_3.0.0-6.dsc e980162cba8716c10e10df8f4d705e3b5c70a4d9ca958d58754aa8b0669bf7a7 4167392 murano_3.0.0.orig.tar.xz 1716df3a718ff25c6fca7d85ba9d26b8439b44cb75bb929056d3349cd0b81be7 17780 murano_3.0.0-6.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/m/murano"
-  ],
-  "Files": [
-    "9a4e52a1e2bf210a5686f1512049cee2 4031 murano_3.0.0-6.dsc 2b1fba21d4dddc4ce4091fbedd4c5f21 4167392 murano_3.0.0.orig.tar.xz b1b33d44c46509e495f99dacdf853915 17780 murano_3.0.0-6.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/openstack/murano"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "murano"
-  ],
-  "Package-List": [
-    "murano-api deb python extra arch=all murano-cfapi deb net extra arch=all murano-common deb python extra arch=all murano-doc deb doc extra arch=all murano-engine deb python extra arch=all python-murano deb python extra arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>, Ivan Udovichenko <iudovichenko@mirantis.com>, Corey Bryant <corey.bryant@canonical.com>,"
-  ],
-  "Vcs-Browser": [
-    "https://git.openstack.org/cgit/openstack/deb-murano?h=debian%2Fnewton"
-  ],
-  "Vcs-Git": [
-    "https://git.openstack.org/openstack/deb-murano -b debian/newton"
-  ],
-  "Version": [
-    "1:3.0.0-6"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-murano, murano-common, murano-api, murano-engine, murano-cfapi, murano-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 10), dh-python, dh-systemd, openstack-pkg-tools (>= 54~), po-debconf, python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx"
+	],
+	"Build-Depends-Indep": [
+		"alembic (>= 0.8.4), git, python-babel (>= 2.3.4), python-congressclient (>= 1.3.0), python-coverage, python-debtcollector (>= 1.2.0), python-eventlet (>= 0.18.4), python-fixtures (>= 1.3.1), python-hacking, python-heatclient (>= 1.4.0), python-jsonpatch, python-jsonschema, python-keystoneauth1 (>= 2.10.0), python-keystoneclient (>= 1:2.0.0), python-keystonemiddleware (>= 4.0.0), python-kombu (>= 3.0.25), python-migrate (>= 0.9.6), python-mistralclient (>= 2.0.0), python-mock (>= 2.0), python-muranoclient (>= 0.8.2), python-mysqldb, python-netaddr (>= 0.7.13), python-neutronclient (>= 1:5.1.0), python-nose, python-os-testr (>= 0.7.0), python-oslo.concurrency (>= 3.8.0), python-oslo.config (>= 1:3.14.0), python-oslo.context (>= 2.9.0), python-oslo.db (>= 4.10.0), python-oslo.i18n (>= 2.1.0), python-oslo.log (>= 2.0.0), python-oslo.messaging (>= 5.2.0), python-oslo.middleware (>= 3.0.0), python-oslo.policy (>= 1.9.0), python-oslo.serialization (>= 2.0.0), python-oslo.service (>= 1.10.0), python-oslo.utils (>= 3.16.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.10.0), python-paste, python-pastedeploy, python-pep8, python-psutil, python-psycopg2, python-pymysql (>= 0.6.2), python-requests (>= 2.10.0), python-retrying, python-routes, python-semantic-version, python-six (>= 1.9.0), python-sphinxcontrib.httpdomain, python-sqlalchemy (>= 1.0.10), python-stevedore (>= 1.16.0), python-testresources, python-testscenarios, python-testtools (>= 1.4.0), python-unittest2, python-webob, python-yaml, python-yaql (>= 1.1.0), subunit, tempest (>= 1:12.0.0), testrepository, zip"
+	],
+	"Checksums-Sha256": [
+		"dab7a0a9b7dbac3d27085d118be92bf1ea0e4b75d9eff1060829d2f6525f533f 4031 murano_3.0.0-6.dsc e980162cba8716c10e10df8f4d705e3b5c70a4d9ca958d58754aa8b0669bf7a7 4167392 murano_3.0.0.orig.tar.xz 1716df3a718ff25c6fca7d85ba9d26b8439b44cb75bb929056d3349cd0b81be7 17780 murano_3.0.0-6.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/m/murano"
+	],
+	"Files": [
+		"9a4e52a1e2bf210a5686f1512049cee2 4031 murano_3.0.0-6.dsc 2b1fba21d4dddc4ce4091fbedd4c5f21 4167392 murano_3.0.0.orig.tar.xz b1b33d44c46509e495f99dacdf853915 17780 murano_3.0.0-6.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/openstack/murano"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"murano"
+	],
+	"Package-List": [
+		"murano-api deb python extra arch=all murano-cfapi deb net extra arch=all murano-common deb python extra arch=all murano-doc deb doc extra arch=all murano-engine deb python extra arch=all python-murano deb python extra arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>, Ivan Udovichenko <iudovichenko@mirantis.com>, Corey Bryant <corey.bryant@canonical.com>,"
+	],
+	"Vcs-Browser": [
+		"https://git.openstack.org/cgit/openstack/deb-murano?h=debian%2Fnewton"
+	],
+	"Vcs-Git": [
+		"https://git.openstack.org/openstack/deb-murano -b debian/newton"
+	],
+	"Version": [
+		"1:3.0.0-6"
+	]
 }

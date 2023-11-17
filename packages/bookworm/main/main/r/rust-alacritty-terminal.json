@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-alacritty-terminal-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-alacritty-config-0.1+default-dev <!nocheck>, librust-alacritty-config-derive-0.2+default-dev <!nocheck>, librust-base64-0.13+default-dev <!nocheck>, librust-bitflags-1+default-dev <!nocheck>, librust-dirs-4+default-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-log-0.4+default-dev <!nocheck>, librust-mio-0.6+default-dev (>= 0.6.20-~~) <!nocheck>, librust-mio-extras-2+default-dev <!nocheck>, librust-nix-0+default-dev <!nocheck>, librust-parking-lot-0.12+default-dev <!nocheck>, librust-regex-automata-0.1+default-dev (>= 0.1.8-~~) <!nocheck>, librust-serde-1+default-dev <!nocheck>, librust-serde-1+derive-dev <!nocheck>, librust-serde-1+rc-dev <!nocheck>, librust-serde-yaml-0.8+default-dev <!nocheck>, librust-signal-hook-0.3+default-dev (>= 0.3.10-~~) <!nocheck>, librust-signal-hook-mio-0.2+default-dev (>= 0.2.1-~~) <!nocheck>, librust-signal-hook-mio-0.2+support-v0-6-dev (>= 0.2.1-~~) <!nocheck>, librust-unicode-width-0.1+default-dev <!nocheck>, librust-vte-0.10-dev <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "b532463be4d591d4ff514152a6f6bd376aa327dc494fa60d063b2d64b7111f3d 3506 rust-alacritty-terminal_0.17.0-1.dsc 043d0bc52432b59149ca25e45ea617cc4cfd2e34acc00d2f7ea976b9934be477 396339 rust-alacritty-terminal_0.17.0.orig.tar.gz 01aa4ce69f56c6229b5eda43ba52a829f28fdae502d946c0b3d5250fcee63322 3220 rust-alacritty-terminal_0.17.0-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-alacritty-terminal"
-  ],
-  "Files": [
-    "2375a266dc431638de1bf62aa62f8ceb 3506 rust-alacritty-terminal_0.17.0-1.dsc ba9094cb6e494b9f0649f02ca338e747 396339 rust-alacritty-terminal_0.17.0.orig.tar.gz 843823b9b66f0a4e87824cf6d0882cc3 3220 rust-alacritty-terminal_0.17.0-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/alacritty/alacritty"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-alacritty-terminal"
-  ],
-  "Package-List": [
-    "librust-alacritty-terminal-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.5.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-serde-json-1+default-dev"
-  ],
-  "Uploaders": [
-    "Fabio Rafael da Rosa <fdr@fabiodarosa.org>, James McCoy <jamessan@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/alacritty-terminal"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/alacritty-terminal]"
-  ],
-  "Version": [
-    "0.17.0-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-alacritty-terminal-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-alacritty-config-0.1+default-dev <!nocheck>, librust-alacritty-config-derive-0.2+default-dev <!nocheck>, librust-base64-0.13+default-dev <!nocheck>, librust-bitflags-1+default-dev <!nocheck>, librust-dirs-4+default-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-log-0.4+default-dev <!nocheck>, librust-mio-0.6+default-dev (>= 0.6.20-~~) <!nocheck>, librust-mio-extras-2+default-dev <!nocheck>, librust-nix-0+default-dev <!nocheck>, librust-parking-lot-0.12+default-dev <!nocheck>, librust-regex-automata-0.1+default-dev (>= 0.1.8-~~) <!nocheck>, librust-serde-1+default-dev <!nocheck>, librust-serde-1+derive-dev <!nocheck>, librust-serde-1+rc-dev <!nocheck>, librust-serde-yaml-0.8+default-dev <!nocheck>, librust-signal-hook-0.3+default-dev (>= 0.3.10-~~) <!nocheck>, librust-signal-hook-mio-0.2+default-dev (>= 0.2.1-~~) <!nocheck>, librust-signal-hook-mio-0.2+support-v0-6-dev (>= 0.2.1-~~) <!nocheck>, librust-unicode-width-0.1+default-dev <!nocheck>, librust-vte-0.10-dev <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"b532463be4d591d4ff514152a6f6bd376aa327dc494fa60d063b2d64b7111f3d 3506 rust-alacritty-terminal_0.17.0-1.dsc 043d0bc52432b59149ca25e45ea617cc4cfd2e34acc00d2f7ea976b9934be477 396339 rust-alacritty-terminal_0.17.0.orig.tar.gz 01aa4ce69f56c6229b5eda43ba52a829f28fdae502d946c0b3d5250fcee63322 3220 rust-alacritty-terminal_0.17.0-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-alacritty-terminal"
+	],
+	"Files": [
+		"2375a266dc431638de1bf62aa62f8ceb 3506 rust-alacritty-terminal_0.17.0-1.dsc ba9094cb6e494b9f0649f02ca338e747 396339 rust-alacritty-terminal_0.17.0.orig.tar.gz 843823b9b66f0a4e87824cf6d0882cc3 3220 rust-alacritty-terminal_0.17.0-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/alacritty/alacritty"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-alacritty-terminal"
+	],
+	"Package-List": [
+		"librust-alacritty-terminal-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-serde-json-1+default-dev"
+	],
+	"Uploaders": [
+		"Fabio Rafael da Rosa <fdr@fabiodarosa.org>, James McCoy <jamessan@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/alacritty-terminal"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/alacritty-terminal]"
+	],
+	"Version": [
+		"0.17.0-1"
+	]
 }

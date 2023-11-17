@@ -1,50 +1,50 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "gdc-4.3, libphobos-4.3-dev"
-  ],
-  "Build-Conflicts": [
-    "binutils-gold"
-  ],
-  "Build-Depends": [
-    "dpkg-dev (>= 1.14.15), debhelper (>= 5.0.62), gcc-multilib [amd64 i386 mips mipsel powerpc ppc64 s390 sparc kfreebsd-amd64], libc6.1-dev (>= 2.5) [alpha ia64] | libc0.3-dev (>= 2.5) [hurd-i386] | libc0.1-dev (>= 2.5) [kfreebsd-i386 kfreebsd-amd64] | libc6-dev (>= 2.5), libc6-dev-amd64 [i386], libc6-dev-sparc64 [sparc], libc6-dev-s390x [s390], libc6-dev-i386 [amd64], libc6-dev-powerpc [ppc64], libc6-dev-ppc64 [powerpc], libc0.1-dev-i386 [kfreebsd-amd64], lib32gcc1 [amd64 ppc64 kfreebsd-amd64], lib64gcc1 [i386 powerpc sparc s390], libc6-dev-mips64 [mips mipsel], libc6-dev-mipsn32 [mips mipsel], libunwind7-dev (>= 0.98.5-6) [ia64], libatomic-ops-dev [ia64], m4, autoconf (>= 2.50), autoconf2.59, automake1.9, libtool, gawk, dejagnu [!none !hurd-i386], xz-utils, binutils (>= 2.19.1) | binutils-multiarch (>= 2.19.1), binutils-hppa64 (>= 2.19.1) [hppa], gperf (>= 3.0.1), bison (>= 1:2.3), flex, gettext, texinfo (>= 4.3), libmpfr-dev (>= 2.3.0), locales [!hurd-i386 !m68k], procps [!hurd-i386], sharutils, gcc-4.3-source (>= 4.3.5), gcc-4.3-source (<< 4.3.6), realpath (>= 1.9.12), chrpath, lsb-release, make (>= 3.81)"
-  ],
-  "Checksums-Sha1": [
-    "2735b9e7ef7d3b0a6f7b5b7c5828ca140ecbd993 2251 gdc-4.3_1.060-4.3.5-2.dsc cc29e2184275574bc154b7ed67df39d35e8ba2d7 2907510 gdc-4.3_1.060-4.3.5.orig.tar.gz 9118d557a19a3ad3c6b979c043f25a27ee778f43 665632 gdc-4.3_1.060-4.3.5-2.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "2c526abd8bcb933a96e49cce91f38cd9fec0948ef2122622a6536cff1c0bc1c2 2251 gdc-4.3_1.060-4.3.5-2.dsc 818a7157f8aa2d76cc17a2ebc851f3c8102a408f2aa9e08396389485b25bc545 2907510 gdc-4.3_1.060-4.3.5.orig.tar.gz 3517caa3ea59daaf3a2d114715526e1196325223095c16ad19ecdd66f93b289e 665632 gdc-4.3_1.060-4.3.5-2.diff.gz"
-  ],
-  "Directory": [
-    "pool/main/g/gdc-4.3"
-  ],
-  "Files": [
-    "2e4eb270b4945e81b91aea7f292435e6 2251 gdc-4.3_1.060-4.3.5-2.dsc 1555f57ac808208019bd774c34cefc00 2907510 gdc-4.3_1.060-4.3.5.orig.tar.gz c8432c4fac0d91de545aee83d8fd8e2f 665632 gdc-4.3_1.060-4.3.5-2.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Maintainer": [
-    "Debian GCC Maintainers <debian-gcc@lists.debian.org>"
-  ],
-  "Package": [
-    "gdc-4.3"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "devel"
-  ],
-  "Standards-Version": [
-    "3.9.1"
-  ],
-  "Uploaders": [
-    "Iain Buclaw <ibuclaw@ubuntu.com>, Arthur Loiret <aloiret@debian.org>"
-  ],
-  "Version": [
-    "1:1.060-4.3.5-2"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"gdc-4.3, libphobos-4.3-dev"
+	],
+	"Build-Conflicts": [
+		"binutils-gold"
+	],
+	"Build-Depends": [
+		"dpkg-dev (>= 1.14.15), debhelper (>= 5.0.62), gcc-multilib [amd64 i386 mips mipsel powerpc ppc64 s390 sparc kfreebsd-amd64], libc6.1-dev (>= 2.5) [alpha ia64] | libc0.3-dev (>= 2.5) [hurd-i386] | libc0.1-dev (>= 2.5) [kfreebsd-i386 kfreebsd-amd64] | libc6-dev (>= 2.5), libc6-dev-amd64 [i386], libc6-dev-sparc64 [sparc], libc6-dev-s390x [s390], libc6-dev-i386 [amd64], libc6-dev-powerpc [ppc64], libc6-dev-ppc64 [powerpc], libc0.1-dev-i386 [kfreebsd-amd64], lib32gcc1 [amd64 ppc64 kfreebsd-amd64], lib64gcc1 [i386 powerpc sparc s390], libc6-dev-mips64 [mips mipsel], libc6-dev-mipsn32 [mips mipsel], libunwind7-dev (>= 0.98.5-6) [ia64], libatomic-ops-dev [ia64], m4, autoconf (>= 2.50), autoconf2.59, automake1.9, libtool, gawk, dejagnu [!none !hurd-i386], xz-utils, binutils (>= 2.19.1) | binutils-multiarch (>= 2.19.1), binutils-hppa64 (>= 2.19.1) [hppa], gperf (>= 3.0.1), bison (>= 1:2.3), flex, gettext, texinfo (>= 4.3), libmpfr-dev (>= 2.3.0), locales [!hurd-i386 !m68k], procps [!hurd-i386], sharutils, gcc-4.3-source (>= 4.3.5), gcc-4.3-source (<< 4.3.6), realpath (>= 1.9.12), chrpath, lsb-release, make (>= 3.81)"
+	],
+	"Checksums-Sha1": [
+		"2735b9e7ef7d3b0a6f7b5b7c5828ca140ecbd993 2251 gdc-4.3_1.060-4.3.5-2.dsc cc29e2184275574bc154b7ed67df39d35e8ba2d7 2907510 gdc-4.3_1.060-4.3.5.orig.tar.gz 9118d557a19a3ad3c6b979c043f25a27ee778f43 665632 gdc-4.3_1.060-4.3.5-2.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"2c526abd8bcb933a96e49cce91f38cd9fec0948ef2122622a6536cff1c0bc1c2 2251 gdc-4.3_1.060-4.3.5-2.dsc 818a7157f8aa2d76cc17a2ebc851f3c8102a408f2aa9e08396389485b25bc545 2907510 gdc-4.3_1.060-4.3.5.orig.tar.gz 3517caa3ea59daaf3a2d114715526e1196325223095c16ad19ecdd66f93b289e 665632 gdc-4.3_1.060-4.3.5-2.diff.gz"
+	],
+	"Directory": [
+		"pool/main/g/gdc-4.3"
+	],
+	"Files": [
+		"2e4eb270b4945e81b91aea7f292435e6 2251 gdc-4.3_1.060-4.3.5-2.dsc 1555f57ac808208019bd774c34cefc00 2907510 gdc-4.3_1.060-4.3.5.orig.tar.gz c8432c4fac0d91de545aee83d8fd8e2f 665632 gdc-4.3_1.060-4.3.5-2.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Maintainer": [
+		"Debian GCC Maintainers <debian-gcc@lists.debian.org>"
+	],
+	"Package": [
+		"gdc-4.3"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"devel"
+	],
+	"Standards-Version": [
+		"3.9.1"
+	],
+	"Uploaders": [
+		"Iain Buclaw <ibuclaw@ubuntu.com>, Arthur Loiret <aloiret@debian.org>"
+	],
+	"Version": [
+		"1:1.060-4.3.5-2"
+	]
 }

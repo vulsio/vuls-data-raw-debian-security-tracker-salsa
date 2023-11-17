@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "strongswan, libstrongswan, libstrongswan-standard-plugins, libstrongswan-extra-plugins, libcharon-extra-plugins, strongswan-dbg, strongswan-starter, strongswan-libcharon, strongswan-charon, strongswan-ike, strongswan-nm, strongswan-ikev1, strongswan-ikev2, charon-cmd"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dpkg-dev (>= 1.16.2), libtool, libgmp3-dev, libssl-dev (>= 0.9.8), libcurl4-openssl-dev | libcurl3-dev | libcurl2-dev, libldap2-dev, libpam0g-dev, libkrb5-dev, bison, flex, bzip2, po-debconf, libfcgi-dev, clearsilver-dev, libgcrypt20-dev | libgcrypt11-dev, libxml2-dev, libsqlite3-dev, network-manager-dev (>= 0.7) [linux-any], libnm-glib-vpn-dev (>= 0.7) [linux-any], libnm-util-dev (>= 0.7) [linux-any], gperf, libcap-dev [linux-any], dh-autoreconf, pkg-config, systemd [linux-any], dh-systemd (>= 1.5)"
-  ],
-  "Checksums-Sha1": [
-    "499344d6079e01b97f865f769ba96b401aed2ddf 3076 strongswan_5.2.1-6+deb8u6.dsc 3035fc0c38e0698b0d85a94dbc25944abd2a8722 4075576 strongswan_5.2.1.orig.tar.bz2 52e165d96b31e1c29e968bf4f02f4ea8a42de0ff 130512 strongswan_5.2.1-6+deb8u6.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "0d9f9af06ab8a35f89cbbfae81177670f3116c67eb7970f805a4b7e34b2f0ef4 3076 strongswan_5.2.1-6+deb8u6.dsc ea51ab33b5bb39fecaf10668833a9936583b42145948ae9da1ab98f74e939215 4075576 strongswan_5.2.1.orig.tar.bz2 4abeab248b385695ae8861164fd319a0563ec66a0c7771150b4e62c66de2865e 130512 strongswan_5.2.1-6+deb8u6.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/s/strongswan"
-  ],
-  "Files": [
-    "9bd23d9ae407bbd300d58e8861151e6b 3076 strongswan_5.2.1-6+deb8u6.dsc dd3717c0aa59ab4591ca1812941ebb82 4075576 strongswan_5.2.1.orig.tar.bz2 6dc027f2248141fa47734e810140d96d 130512 strongswan_5.2.1-6+deb8u6.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.strongswan.org"
-  ],
-  "Maintainer": [
-    "strongSwan Maintainers <pkg-swan-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "strongswan"
-  ],
-  "Package-List": [
-    "charon-cmd deb net optional arch=any libcharon-extra-plugins deb net optional arch=any libstrongswan deb net optional arch=any libstrongswan-extra-plugins deb net optional arch=any libstrongswan-standard-plugins deb net optional arch=any strongswan deb net optional arch=all strongswan-charon deb net optional arch=any strongswan-dbg deb debug extra arch=any strongswan-ike deb oldlibs extra arch=all strongswan-ikev1 deb oldlibs extra arch=all strongswan-ikev2 deb oldlibs extra arch=all strongswan-libcharon deb net optional arch=any strongswan-nm deb net optional arch=linux-any strongswan-starter deb net optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Rene Mayrhofer <rmayr@debian.org>, Yves-Alexis Perez <corsac@debian.org>, Romain Francoise <rfrancoise@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-swan/strongswan.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-swan/strongswan.git"
-  ],
-  "Version": [
-    "5.2.1-6+deb8u6"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"strongswan, libstrongswan, libstrongswan-standard-plugins, libstrongswan-extra-plugins, libcharon-extra-plugins, strongswan-dbg, strongswan-starter, strongswan-libcharon, strongswan-charon, strongswan-ike, strongswan-nm, strongswan-ikev1, strongswan-ikev2, charon-cmd"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dpkg-dev (>= 1.16.2), libtool, libgmp3-dev, libssl-dev (>= 0.9.8), libcurl4-openssl-dev | libcurl3-dev | libcurl2-dev, libldap2-dev, libpam0g-dev, libkrb5-dev, bison, flex, bzip2, po-debconf, libfcgi-dev, clearsilver-dev, libgcrypt20-dev | libgcrypt11-dev, libxml2-dev, libsqlite3-dev, network-manager-dev (>= 0.7) [linux-any], libnm-glib-vpn-dev (>= 0.7) [linux-any], libnm-util-dev (>= 0.7) [linux-any], gperf, libcap-dev [linux-any], dh-autoreconf, pkg-config, systemd [linux-any], dh-systemd (>= 1.5)"
+	],
+	"Checksums-Sha1": [
+		"499344d6079e01b97f865f769ba96b401aed2ddf 3076 strongswan_5.2.1-6+deb8u6.dsc 3035fc0c38e0698b0d85a94dbc25944abd2a8722 4075576 strongswan_5.2.1.orig.tar.bz2 52e165d96b31e1c29e968bf4f02f4ea8a42de0ff 130512 strongswan_5.2.1-6+deb8u6.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"0d9f9af06ab8a35f89cbbfae81177670f3116c67eb7970f805a4b7e34b2f0ef4 3076 strongswan_5.2.1-6+deb8u6.dsc ea51ab33b5bb39fecaf10668833a9936583b42145948ae9da1ab98f74e939215 4075576 strongswan_5.2.1.orig.tar.bz2 4abeab248b385695ae8861164fd319a0563ec66a0c7771150b4e62c66de2865e 130512 strongswan_5.2.1-6+deb8u6.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/s/strongswan"
+	],
+	"Files": [
+		"9bd23d9ae407bbd300d58e8861151e6b 3076 strongswan_5.2.1-6+deb8u6.dsc dd3717c0aa59ab4591ca1812941ebb82 4075576 strongswan_5.2.1.orig.tar.bz2 6dc027f2248141fa47734e810140d96d 130512 strongswan_5.2.1-6+deb8u6.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.strongswan.org"
+	],
+	"Maintainer": [
+		"strongSwan Maintainers <pkg-swan-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"strongswan"
+	],
+	"Package-List": [
+		"charon-cmd deb net optional arch=any libcharon-extra-plugins deb net optional arch=any libstrongswan deb net optional arch=any libstrongswan-extra-plugins deb net optional arch=any libstrongswan-standard-plugins deb net optional arch=any strongswan deb net optional arch=all strongswan-charon deb net optional arch=any strongswan-dbg deb debug extra arch=any strongswan-ike deb oldlibs extra arch=all strongswan-ikev1 deb oldlibs extra arch=all strongswan-ikev2 deb oldlibs extra arch=all strongswan-libcharon deb net optional arch=any strongswan-nm deb net optional arch=linux-any strongswan-starter deb net optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Rene Mayrhofer <rmayr@debian.org>, Yves-Alexis Perez <corsac@debian.org>, Romain Francoise <rfrancoise@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-swan/strongswan.git;a=summary"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-swan/strongswan.git"
+	],
+	"Version": [
+		"5.2.1-6+deb8u6"
+	]
 }

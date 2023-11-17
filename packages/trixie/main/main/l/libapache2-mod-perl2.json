@@ -1,68 +1,68 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libapache2-mod-perl2, libapache2-mod-perl2-dev, libapache2-mod-perl2-doc"
-  ],
-  "Build-Conflicts": [
-    "apache2-mpm-event"
-  ],
-  "Build-Depends": [
-    "apache2 <!nocheck>, apache2-dev, debhelper-compat (= 13), libbsd-resource-perl <!nocheck>, libcgi-pm-perl <!nocheck>, libdevel-symdump-perl <!nocheck>, libhtml-parser-perl <!nocheck>, libhtml-template-perl, libperl-dev, libreadonly-perl, libwww-perl <!nocheck>, locales-all <!nocheck>, netbase <!nocheck>, perl-xs-dev, perl:native"
-  ],
-  "Build-Depends-Indep": [
-    "rename"
-  ],
-  "Checksums-Sha256": [
-    "b63d3c666f892d2e7ca02825a5e1237585d85c3350dbb24bb95d1fda36027968 3138 libapache2-mod-perl2_2.0.13-1.dsc ade3be31c447b8448869fecdfcace258d6d587b8c6c773c5f22735f70d82d6da 3848487 libapache2-mod-perl2_2.0.13.orig.tar.gz 81b1c61e5373647ec9ce15cb768856a5feeb126e752955b0bc12c4dc29639404 849 libapache2-mod-perl2_2.0.13.orig.tar.gz.asc 707b10804d342d421dbe657b182701a2e00a84fb7e39eb996c68b0ce507c0078 45664 libapache2-mod-perl2_2.0.13-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/liba/libapache2-mod-perl2"
-  ],
-  "Files": [
-    "dc9cb3a532cebae53721ce3144bb3c03 3138 libapache2-mod-perl2_2.0.13-1.dsc b107c587ae16c7a9a59c344c01359253 3848487 libapache2-mod-perl2_2.0.13.orig.tar.gz 47ba65cf3a3df67b35cdb9a7bba6663d 849 libapache2-mod-perl2_2.0.13.orig.tar.gz.asc 04ca4265943803732cba4bc139eeba6b 45664 libapache2-mod-perl2_2.0.13-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://perl.apache.org/"
-  ],
-  "Maintainer": [
-    "Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "libapache2-mod-perl2"
-  ],
-  "Package-List": [
-    "libapache2-mod-perl2 deb httpd optional arch=any libapache2-mod-perl2-dev deb libdevel optional arch=all libapache2-mod-perl2-doc deb doc optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "httpd"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest, autopkgtest-pkg-perl"
-  ],
-  "Testsuite-Triggers": [
-    "@builddeps@"
-  ],
-  "Uploaders": [
-    "Damyan Ivanov <dmn@debian.org>, Niko Tyni <ntyni@debian.org>, gregor herrmann <gregoa@debian.org>, Dominic Hargreaves <dom@earth.li>, Ivan Kohler <ivan-debian@420.am>, Xavier Guimard <yadd@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/perl-team/modules/packages/libapache2-mod-perl2"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/perl-team/modules/packages/libapache2-mod-perl2.git"
-  ],
-  "Version": [
-    "2.0.13-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libapache2-mod-perl2, libapache2-mod-perl2-dev, libapache2-mod-perl2-doc"
+	],
+	"Build-Conflicts": [
+		"apache2-mpm-event"
+	],
+	"Build-Depends": [
+		"apache2 <!nocheck>, apache2-dev, debhelper-compat (= 13), libbsd-resource-perl <!nocheck>, libcgi-pm-perl <!nocheck>, libdevel-symdump-perl <!nocheck>, libhtml-parser-perl <!nocheck>, libhtml-template-perl, libperl-dev, libreadonly-perl, libwww-perl <!nocheck>, locales-all <!nocheck>, netbase <!nocheck>, perl-xs-dev, perl:native"
+	],
+	"Build-Depends-Indep": [
+		"rename"
+	],
+	"Checksums-Sha256": [
+		"b63d3c666f892d2e7ca02825a5e1237585d85c3350dbb24bb95d1fda36027968 3138 libapache2-mod-perl2_2.0.13-1.dsc ade3be31c447b8448869fecdfcace258d6d587b8c6c773c5f22735f70d82d6da 3848487 libapache2-mod-perl2_2.0.13.orig.tar.gz 81b1c61e5373647ec9ce15cb768856a5feeb126e752955b0bc12c4dc29639404 849 libapache2-mod-perl2_2.0.13.orig.tar.gz.asc 707b10804d342d421dbe657b182701a2e00a84fb7e39eb996c68b0ce507c0078 45664 libapache2-mod-perl2_2.0.13-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/liba/libapache2-mod-perl2"
+	],
+	"Files": [
+		"dc9cb3a532cebae53721ce3144bb3c03 3138 libapache2-mod-perl2_2.0.13-1.dsc b107c587ae16c7a9a59c344c01359253 3848487 libapache2-mod-perl2_2.0.13.orig.tar.gz 47ba65cf3a3df67b35cdb9a7bba6663d 849 libapache2-mod-perl2_2.0.13.orig.tar.gz.asc 04ca4265943803732cba4bc139eeba6b 45664 libapache2-mod-perl2_2.0.13-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://perl.apache.org/"
+	],
+	"Maintainer": [
+		"Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"libapache2-mod-perl2"
+	],
+	"Package-List": [
+		"libapache2-mod-perl2 deb httpd optional arch=any libapache2-mod-perl2-dev deb libdevel optional arch=all libapache2-mod-perl2-doc deb doc optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"httpd"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest, autopkgtest-pkg-perl"
+	],
+	"Testsuite-Triggers": [
+		"@builddeps@"
+	],
+	"Uploaders": [
+		"Damyan Ivanov <dmn@debian.org>, Niko Tyni <ntyni@debian.org>, gregor herrmann <gregoa@debian.org>, Dominic Hargreaves <dom@earth.li>, Ivan Kohler <ivan-debian@420.am>, Xavier Guimard <yadd@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/perl-team/modules/packages/libapache2-mod-perl2"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/perl-team/modules/packages/libapache2-mod-perl2.git"
+	],
+	"Version": [
+		"2.0.13-1"
+	]
 }

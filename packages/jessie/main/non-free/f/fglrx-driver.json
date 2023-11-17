@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "i386 amd64"
-  ],
-  "Autobuild": [
-    "yes"
-  ],
-  "Binary": [
-    "fglrx-driver, libfglrx, libfglrx-amdxvba1, libxvbaw-dev, libgl1-fglrx-glx, libgl1-fglrx-glx-i386, fglrx-modules-dkms, fglrx-source, fglrx-control, fglrx-atieventsd, amd-opencl-icd, amd-libopencl1, amd-opencl-dev, amd-clinfo"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), bzip2, libxrandr2, libxext6, libgl1-mesa-glx, libqtgui4, libxcursor1, libxinerama1, xsltproc, docbook-xml, docbook-xsl, chrpath, automake, rpl, dkms (>= 2.1.1.1), po-debconf"
-  ],
-  "Checksums-Sha1": [
-    "a82bd660063ce031c68e60249e9c99ecc5299a9d 3196 fglrx-driver_15.9-4~deb8u2.dsc 5a6ebd16d63536f1d7e2f2e71d0a489fcee84050 120089764 fglrx-driver_15.9.orig.tar.xz 89a6b1ea5153c09f512ef0abe5ff19cc92edbc9e 113664 fglrx-driver_15.9-4~deb8u2.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "b848af77a5620cd09339c578cf9404c8fa14da0de12cd507c89743add3301a55 3196 fglrx-driver_15.9-4~deb8u2.dsc 5a74277acf89d3559f323630d0eb69f9da20c45339ab679cb24d34242f69a0ab 120089764 fglrx-driver_15.9.orig.tar.xz 2180c99648a9b9b22551b4160a75a1a50e040e7920013e42318ea2165940d9d2 113664 fglrx-driver_15.9-4~deb8u2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/non-free/f/fglrx-driver"
-  ],
-  "Files": [
-    "7051081679207bad858101e80e65aef9 3196 fglrx-driver_15.9-4~deb8u2.dsc 429847a427115c81defabf3867039903 120089764 fglrx-driver_15.9.orig.tar.xz 52660f05b3b0c3d309e8d95cf633bc68 113664 fglrx-driver_15.9-4~deb8u2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://support.amd.com/en-us/download/desktop?os=Linux%20x86"
-  ],
-  "Maintainer": [
-    "Fglrx packaging team <pkg-fglrx-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "fglrx-driver"
-  ],
-  "Package-List": [
-    "amd-clinfo deb non-free/x11 extra arch=i386,amd64 amd-libopencl1 deb non-free/x11 extra arch=i386,amd64 amd-opencl-dev deb non-free/x11 extra arch=i386,amd64 amd-opencl-icd deb non-free/x11 extra arch=i386,amd64 fglrx-atieventsd deb non-free/x11 extra arch=i386,amd64 fglrx-control deb non-free/x11 extra arch=i386,amd64 fglrx-driver deb non-free/x11 extra arch=i386,amd64 fglrx-modules-dkms deb non-free/kernel extra arch=i386,amd64 fglrx-source deb non-free/kernel extra arch=i386,amd64 libfglrx deb non-free/libs extra arch=i386,amd64 libfglrx-amdxvba1 deb non-free/libs extra arch=i386,amd64 libgl1-fglrx-glx deb non-free/libs extra arch=i386,amd64 libgl1-fglrx-glx-i386 deb non-free/x11 extra arch=i386 libxvbaw-dev deb non-free/libdevel extra arch=i386,amd64"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "non-free/x11"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Patrick Matthäi <pmatthaei@debian.org>, Andreas Beckmann <anbe@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/viewvc/pkg-fglrx/fglrx-driver/trunk/"
-  ],
-  "Vcs-Svn": [
-    "svn://anonscm.debian.org/pkg-fglrx/fglrx-driver/trunk"
-  ],
-  "Version": [
-    "1:15.9-4~deb8u2"
-  ]
+	"Architecture": [
+		"i386 amd64"
+	],
+	"Autobuild": [
+		"yes"
+	],
+	"Binary": [
+		"fglrx-driver, libfglrx, libfglrx-amdxvba1, libxvbaw-dev, libgl1-fglrx-glx, libgl1-fglrx-glx-i386, fglrx-modules-dkms, fglrx-source, fglrx-control, fglrx-atieventsd, amd-opencl-icd, amd-libopencl1, amd-opencl-dev, amd-clinfo"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), bzip2, libxrandr2, libxext6, libgl1-mesa-glx, libqtgui4, libxcursor1, libxinerama1, xsltproc, docbook-xml, docbook-xsl, chrpath, automake, rpl, dkms (>= 2.1.1.1), po-debconf"
+	],
+	"Checksums-Sha1": [
+		"a82bd660063ce031c68e60249e9c99ecc5299a9d 3196 fglrx-driver_15.9-4~deb8u2.dsc 5a6ebd16d63536f1d7e2f2e71d0a489fcee84050 120089764 fglrx-driver_15.9.orig.tar.xz 89a6b1ea5153c09f512ef0abe5ff19cc92edbc9e 113664 fglrx-driver_15.9-4~deb8u2.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"b848af77a5620cd09339c578cf9404c8fa14da0de12cd507c89743add3301a55 3196 fglrx-driver_15.9-4~deb8u2.dsc 5a74277acf89d3559f323630d0eb69f9da20c45339ab679cb24d34242f69a0ab 120089764 fglrx-driver_15.9.orig.tar.xz 2180c99648a9b9b22551b4160a75a1a50e040e7920013e42318ea2165940d9d2 113664 fglrx-driver_15.9-4~deb8u2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/non-free/f/fglrx-driver"
+	],
+	"Files": [
+		"7051081679207bad858101e80e65aef9 3196 fglrx-driver_15.9-4~deb8u2.dsc 429847a427115c81defabf3867039903 120089764 fglrx-driver_15.9.orig.tar.xz 52660f05b3b0c3d309e8d95cf633bc68 113664 fglrx-driver_15.9-4~deb8u2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://support.amd.com/en-us/download/desktop?os=Linux%20x86"
+	],
+	"Maintainer": [
+		"Fglrx packaging team <pkg-fglrx-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"fglrx-driver"
+	],
+	"Package-List": [
+		"amd-clinfo deb non-free/x11 extra arch=i386,amd64 amd-libopencl1 deb non-free/x11 extra arch=i386,amd64 amd-opencl-dev deb non-free/x11 extra arch=i386,amd64 amd-opencl-icd deb non-free/x11 extra arch=i386,amd64 fglrx-atieventsd deb non-free/x11 extra arch=i386,amd64 fglrx-control deb non-free/x11 extra arch=i386,amd64 fglrx-driver deb non-free/x11 extra arch=i386,amd64 fglrx-modules-dkms deb non-free/kernel extra arch=i386,amd64 fglrx-source deb non-free/kernel extra arch=i386,amd64 libfglrx deb non-free/libs extra arch=i386,amd64 libfglrx-amdxvba1 deb non-free/libs extra arch=i386,amd64 libgl1-fglrx-glx deb non-free/libs extra arch=i386,amd64 libgl1-fglrx-glx-i386 deb non-free/x11 extra arch=i386 libxvbaw-dev deb non-free/libdevel extra arch=i386,amd64"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"non-free/x11"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Patrick Matthäi <pmatthaei@debian.org>, Andreas Beckmann <anbe@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/viewvc/pkg-fglrx/fglrx-driver/trunk/"
+	],
+	"Vcs-Svn": [
+		"svn://anonscm.debian.org/pkg-fglrx/fglrx-driver/trunk"
+	],
+	"Version": [
+		"1:15.9-4~deb8u2"
+	]
 }

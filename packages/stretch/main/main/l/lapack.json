@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "liblapack3, liblapacke, liblapacke-dev, libtmglib3, libtmglib-dev, liblapack-dev, liblapack-pic, liblapack-test, liblapack-doc, liblapack-doc-man, libblas3, libblas-common, libblas-dev, libblas-test, libblas-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 10), gfortran, python, dpkg-dev (>= 1.16.1~)"
-  ],
-  "Build-Depends-Indep": [
-    "doxygen, graphviz"
-  ],
-  "Checksums-Sha256": [
-    "8e6a856bbf932f19456de2bad5b2955ae0ccb36e740d38afe011444be10fac9f 2900 lapack_3.7.0-2.dsc ed967e4307e986474ab02eb810eed1d1adc73f5e1e3bc78fb009f6fe766db3be 7359812 lapack_3.7.0.orig.tar.gz bc423933dd01b179bee02649675f5b87f669945530b291aeb95229f5e8d51035 21100 lapack_3.7.0-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/l/lapack"
-  ],
-  "Files": [
-    "4e55a2d02a24777d7cdbd0232942be70 2900 lapack_3.7.0-2.dsc 697bb8d67c7d336a0f339cc9dd0fa72f 7359812 lapack_3.7.0.orig.tar.gz 6f3885707727006332896fa497c75988 21100 lapack_3.7.0-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.netlib.org/lapack/"
-  ],
-  "Maintainer": [
-    "Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "lapack"
-  ],
-  "Package-List": [
-    "libblas-common deb libs optional arch=any libblas-dev deb libdevel optional arch=any libblas-doc deb oldlibs extra arch=all libblas-test deb devel extra arch=any libblas3 deb libs optional arch=any liblapack-dev deb libdevel optional arch=any liblapack-doc deb doc optional arch=all liblapack-doc-man deb doc optional arch=all liblapack-pic deb libdevel optional arch=any liblapack-test deb devel extra arch=any liblapack3 deb libs optional arch=any liblapacke deb libs optional arch=any liblapacke-dev deb libdevel optional arch=any libtmglib-dev deb libdevel optional arch=any libtmglib3 deb libs optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "libs"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential, gfortran, python"
-  ],
-  "Uploaders": [
-    "Sébastien Villemot <sebastien@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/git/debian-science/packages/lapack.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/debian-science/packages/lapack.git"
-  ],
-  "Version": [
-    "3.7.0-2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"liblapack3, liblapacke, liblapacke-dev, libtmglib3, libtmglib-dev, liblapack-dev, liblapack-pic, liblapack-test, liblapack-doc, liblapack-doc-man, libblas3, libblas-common, libblas-dev, libblas-test, libblas-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 10), gfortran, python, dpkg-dev (>= 1.16.1~)"
+	],
+	"Build-Depends-Indep": [
+		"doxygen, graphviz"
+	],
+	"Checksums-Sha256": [
+		"8e6a856bbf932f19456de2bad5b2955ae0ccb36e740d38afe011444be10fac9f 2900 lapack_3.7.0-2.dsc ed967e4307e986474ab02eb810eed1d1adc73f5e1e3bc78fb009f6fe766db3be 7359812 lapack_3.7.0.orig.tar.gz bc423933dd01b179bee02649675f5b87f669945530b291aeb95229f5e8d51035 21100 lapack_3.7.0-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/l/lapack"
+	],
+	"Files": [
+		"4e55a2d02a24777d7cdbd0232942be70 2900 lapack_3.7.0-2.dsc 697bb8d67c7d336a0f339cc9dd0fa72f 7359812 lapack_3.7.0.orig.tar.gz 6f3885707727006332896fa497c75988 21100 lapack_3.7.0-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.netlib.org/lapack/"
+	],
+	"Maintainer": [
+		"Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"lapack"
+	],
+	"Package-List": [
+		"libblas-common deb libs optional arch=any libblas-dev deb libdevel optional arch=any libblas-doc deb oldlibs extra arch=all libblas-test deb devel extra arch=any libblas3 deb libs optional arch=any liblapack-dev deb libdevel optional arch=any liblapack-doc deb doc optional arch=all liblapack-doc-man deb doc optional arch=all liblapack-pic deb libdevel optional arch=any liblapack-test deb devel extra arch=any liblapack3 deb libs optional arch=any liblapacke deb libs optional arch=any liblapacke-dev deb libdevel optional arch=any libtmglib-dev deb libdevel optional arch=any libtmglib3 deb libs optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"libs"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, gfortran, python"
+	],
+	"Uploaders": [
+		"Sébastien Villemot <sebastien@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/git/debian-science/packages/lapack.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/debian-science/packages/lapack.git"
+	],
+	"Version": [
+		"3.7.0-2"
+	]
 }

@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "kfreebsd-source-8.3, kfreebsd-headers-8.3-1, kfreebsd-image-8.3-1-686-smp, kfreebsd-image-8-686-smp, kfreebsd-headers-8.3-1-686-smp, kfreebsd-headers-8-686-smp, kfreebsd-image-8.3-1-amd64, kfreebsd-image-8-amd64, kfreebsd-headers-8.3-1-amd64, kfreebsd-headers-8-amd64, kernel-image-8.3-1-amd64-di, nic-modules-8.3-1-amd64-di, nic-wireless-modules-8.3-1-amd64-di, nic-shared-modules-8.3-1-amd64-di, serial-modules-8.3-1-amd64-di, ppp-modules-8.3-1-amd64-di, cdrom-modules-8.3-1-amd64-di, scsi-core-modules-8.3-1-amd64-di, scsi-modules-8.3-1-amd64-di, scsi-extra-modules-8.3-1-amd64-di, plip-modules-8.3-1-amd64-di, floppy-modules-8.3-1-amd64-di, loop-modules-8.3-1-amd64-di, ipv6-modules-8.3-1-amd64-di, nls-core-modules-8.3-1-amd64-di, ext2-modules-8.3-1-amd64-di, isofs-modules-8.3-1-amd64-di, ntfs-modules-8.3-1-amd64-di, reiserfs-modules-8.3-1-amd64-di, xfs-modules-8.3-1-amd64-di, fat-modules-8.3-1-amd64-di, zfs-modules-8.3-1-amd64-di, nfs-modules-8.3-1-amd64-di, nullfs-modules-8.3-1-amd64-di, md-modules-8.3-1-amd64-di, parport-modules-8.3-1-amd64-di, sata-modules-8.3-1-amd64-di, acpi-modules-8.3-1-amd64-di, i2c-modules-8.3-1-amd64-di, crypto-modules-8.3-1-amd64-di, crypto-dm-modules-8.3-1-amd64-di, mmc-core-modules-8.3-1-amd64-di, mmc-modules-8.3-1-amd64-di, sound-modules-8.3-1-amd64-di, zlib-modules-8.3-1-amd64-di, kfreebsd-image-8.3-1-486, kfreebsd-image-8-486, kfreebsd-headers-8.3-1-486, kfreebsd-headers-8-486, kfreebsd-image-8.3-1-686, kfreebsd-image-8-686, kfreebsd-headers-8.3-1-686, kfreebsd-headers-8-686, kfreebsd-image-8.3-1-xen, kfreebsd-image-8-xen, kfreebsd-headers-8.3-1-xen, kfreebsd-headers-8-xen, kernel-image-8.3-1-486-di, nic-modules-8.3-1-486-di, nic-wireless-modules-8.3-1-486-di, nic-shared-modules-8.3-1-486-di, serial-modules-8.3-1-486-di, ppp-modules-8.3-1-486-di, cdrom-modules-8.3-1-486-di, scsi-core-modules-8.3-1-486-di, scsi-modules-8.3-1-486-di, scsi-extra-modules-8.3-1-486-di, plip-modules-8.3-1-486-di, floppy-modules-8.3-1-486-di, loop-modules-8.3-1-486-di, ipv6-modules-8.3-1-486-di, nls-core-modules-8.3-1-486-di, ext2-modules-8.3-1-486-di, isofs-modules-8.3-1-486-di, ntfs-modules-8.3-1-486-di, reiserfs-modules-8.3-1-486-di, xfs-modules-8.3-1-486-di, fat-modules-8.3-1-486-di, zfs-modules-8.3-1-486-di, nfs-modules-8.3-1-486-di, nullfs-modules-8.3-1-486-di, md-modules-8.3-1-486-di, parport-modules-8.3-1-486-di, sata-modules-8.3-1-486-di, acpi-modules-8.3-1-486-di, i2c-modules-8.3-1-486-di, crypto-modules-8.3-1-486-di, crypto-dm-modules-8.3-1-486-di, mmc-core-modules-8.3-1-486-di, mmc-modules-8.3-1-486-di, sound-modules-8.3-1-486-di, zlib-modules-8.3-1-486-di, kfreebsd-image-8.3-1-malta, kfreebsd-image-8-malta, kfreebsd-headers-8.3-1-malta, kfreebsd-headers-8-malta"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 5.0.0), bzip2, sharutils, flex-old | flex, freebsd-buildutils (>= 9), gcc-4.6, libdb-dev, libbsd-dev, libsbuf-dev, libsbuf-dev (>= 8.2-2) | kfreebsd-kernel-headers (<< 0.56), kernel-wedge (>= 2.79) [kfreebsd-any]"
-  ],
-  "Checksums-Sha1": [
-    "776a3713defcda77af24707160a76603ea1cf691 9543 kfreebsd-8_8.3-6+deb7u1.dsc ffc5eaacae975642970457e8d281d1ef843583d8 29936520 kfreebsd-8_8.3.orig.tar.gz 8f7dece78d52546da4ce071eb6ecc99412a3d933 141310 kfreebsd-8_8.3-6+deb7u1.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "151da51d0810241d70681f201d27a9ad9075722e5a534523023704263a75f233 9543 kfreebsd-8_8.3-6+deb7u1.dsc aaeb2d1d9d28c8baf9dbd8aafb5e574f345207b7c8ff1fbc032fa4833070181a 29936520 kfreebsd-8_8.3.orig.tar.gz bd4ca1ec62d2c438c28d7713a8436dc61fca6f02a282137a71885e2d38fa634b 141310 kfreebsd-8_8.3-6+deb7u1.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/k/kfreebsd-8"
-  ],
-  "Files": [
-    "474a4c373abe6a277ff3793c1cf147ab 9543 kfreebsd-8_8.3-6+deb7u1.dsc e0b72cf2cba0a3967eb5896e92c4738c 29936520 kfreebsd-8_8.3.orig.tar.gz 12e573835c0b3e2d8a4f7ae0d322eb9a 141310 kfreebsd-8_8.3-6+deb7u1.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "GNU/kFreeBSD Maintainers <debian-bsd@lists.debian.org>"
-  ],
-  "Package": [
-    "kfreebsd-8"
-  ],
-  "Package-List": [
-    "acpi-modules-8.3-1-486-di udeb debian-installer extra acpi-modules-8.3-1-amd64-di udeb debian-installer extra cdrom-modules-8.3-1-486-di udeb debian-installer optional cdrom-modules-8.3-1-amd64-di udeb debian-installer optional crypto-dm-modules-8.3-1-486-di udeb debian-installer extra crypto-dm-modules-8.3-1-amd64-di udeb debian-installer extra crypto-modules-8.3-1-486-di udeb debian-installer extra crypto-modules-8.3-1-amd64-di udeb debian-installer extra ext2-modules-8.3-1-486-di udeb debian-installer standard ext2-modules-8.3-1-amd64-di udeb debian-installer standard fat-modules-8.3-1-486-di udeb debian-installer extra fat-modules-8.3-1-amd64-di udeb debian-installer extra floppy-modules-8.3-1-486-di udeb debian-installer standard floppy-modules-8.3-1-amd64-di udeb debian-installer standard i2c-modules-8.3-1-486-di udeb debian-installer extra i2c-modules-8.3-1-amd64-di udeb debian-installer extra ipv6-modules-8.3-1-486-di udeb debian-installer extra ipv6-modules-8.3-1-amd64-di udeb debian-installer extra isofs-modules-8.3-1-486-di udeb debian-installer standard isofs-modules-8.3-1-amd64-di udeb debian-installer standard kernel-image-8.3-1-486-di udeb debian-installer extra kernel-image-8.3-1-amd64-di udeb debian-installer extra kfreebsd-headers-8-486 deb kernel optional kfreebsd-headers-8-686 deb kernel optional kfreebsd-headers-8-686-smp deb kernel optional kfreebsd-headers-8-amd64 deb kernel optional kfreebsd-headers-8-malta deb kernel optional kfreebsd-headers-8-xen deb kernel optional kfreebsd-headers-8.3-1 deb kernel optional kfreebsd-headers-8.3-1-486 deb kernel optional kfreebsd-headers-8.3-1-686 deb kernel optional kfreebsd-headers-8.3-1-686-smp deb kernel optional kfreebsd-headers-8.3-1-amd64 deb kernel optional kfreebsd-headers-8.3-1-malta deb kernel optional kfreebsd-headers-8.3-1-xen deb kernel optional kfreebsd-image-8-486 deb kernel optional kfreebsd-image-8-686 deb kernel optional kfreebsd-image-8-686-smp deb kernel optional kfreebsd-image-8-amd64 deb kernel optional kfreebsd-image-8-malta deb kernel optional kfreebsd-image-8-xen deb kernel optional kfreebsd-image-8.3-1-486 deb kernel optional kfreebsd-image-8.3-1-686 deb kernel optional kfreebsd-image-8.3-1-686-smp deb kernel optional kfreebsd-image-8.3-1-amd64 deb kernel optional kfreebsd-image-8.3-1-malta deb kernel optional kfreebsd-image-8.3-1-xen deb kernel optional kfreebsd-source-8.3 deb kernel optional loop-modules-8.3-1-486-di udeb debian-installer standard loop-modules-8.3-1-amd64-di udeb debian-installer standard md-modules-8.3-1-486-di udeb debian-installer extra md-modules-8.3-1-amd64-di udeb debian-installer extra mmc-core-modules-8.3-1-486-di udeb debian-installer extra mmc-core-modules-8.3-1-amd64-di udeb debian-installer extra mmc-modules-8.3-1-486-di udeb debian-installer extra mmc-modules-8.3-1-amd64-di udeb debian-installer extra nfs-modules-8.3-1-486-di udeb debian-installer extra nfs-modules-8.3-1-amd64-di udeb debian-installer extra nic-modules-8.3-1-486-di udeb debian-installer standard nic-modules-8.3-1-amd64-di udeb debian-installer standard nic-shared-modules-8.3-1-486-di udeb debian-installer standard nic-shared-modules-8.3-1-amd64-di udeb debian-installer standard nic-wireless-modules-8.3-1-486-di udeb debian-installer standard nic-wireless-modules-8.3-1-amd64-di udeb debian-installer standard nls-core-modules-8.3-1-486-di udeb debian-installer extra nls-core-modules-8.3-1-amd64-di udeb debian-installer extra ntfs-modules-8.3-1-486-di udeb debian-installer extra ntfs-modules-8.3-1-amd64-di udeb debian-installer extra nullfs-modules-8.3-1-486-di udeb debian-installer standard nullfs-modules-8.3-1-amd64-di udeb debian-installer standard parport-modules-8.3-1-486-di udeb debian-installer extra parport-modules-8.3-1-amd64-di udeb debian-installer extra plip-modules-8.3-1-486-di udeb debian-installer optional plip-modules-8.3-1-amd64-di udeb debian-installer optional ppp-modules-8.3-1-486-di udeb debian-installer optional ppp-modules-8.3-1-amd64-di udeb debian-installer optional reiserfs-modules-8.3-1-486-di udeb debian-installer extra reiserfs-modules-8.3-1-amd64-di udeb debian-installer extra sata-modules-8.3-1-486-di udeb debian-installer standard sata-modules-8.3-1-amd64-di udeb debian-installer standard scsi-core-modules-8.3-1-486-di udeb debian-installer standard scsi-core-modules-8.3-1-amd64-di udeb debian-installer standard scsi-extra-modules-8.3-1-486-di udeb debian-installer standard scsi-extra-modules-8.3-1-amd64-di udeb debian-installer standard scsi-modules-8.3-1-486-di udeb debian-installer standard scsi-modules-8.3-1-amd64-di udeb debian-installer standard serial-modules-8.3-1-486-di udeb debian-installer optional serial-modules-8.3-1-amd64-di udeb debian-installer optional sound-modules-8.3-1-486-di udeb debian-installer extra sound-modules-8.3-1-amd64-di udeb debian-installer extra xfs-modules-8.3-1-486-di udeb debian-installer standard xfs-modules-8.3-1-amd64-di udeb debian-installer standard zfs-modules-8.3-1-486-di udeb debian-installer extra zfs-modules-8.3-1-amd64-di udeb debian-installer extra zlib-modules-8.3-1-486-di udeb debian-installer extra zlib-modules-8.3-1-amd64-di udeb debian-installer extra"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "kernel"
-  ],
-  "Standards-Version": [
-    "3.9.2"
-  ],
-  "Uploaders": [
-    "Aurelien Jarno <aurel32@debian.org>, Guillem Jover <guillem@debian.org>, Robert Millan <rmh@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://svn.debian.org/wsvn/glibc-bsd/trunk/kfreebsd-8/"
-  ],
-  "Vcs-Svn": [
-    "svn://svn.debian.org/glibc-bsd/trunk/kfreebsd-8/"
-  ],
-  "Version": [
-    "8.3-6+deb7u1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"kfreebsd-source-8.3, kfreebsd-headers-8.3-1, kfreebsd-image-8.3-1-686-smp, kfreebsd-image-8-686-smp, kfreebsd-headers-8.3-1-686-smp, kfreebsd-headers-8-686-smp, kfreebsd-image-8.3-1-amd64, kfreebsd-image-8-amd64, kfreebsd-headers-8.3-1-amd64, kfreebsd-headers-8-amd64, kernel-image-8.3-1-amd64-di, nic-modules-8.3-1-amd64-di, nic-wireless-modules-8.3-1-amd64-di, nic-shared-modules-8.3-1-amd64-di, serial-modules-8.3-1-amd64-di, ppp-modules-8.3-1-amd64-di, cdrom-modules-8.3-1-amd64-di, scsi-core-modules-8.3-1-amd64-di, scsi-modules-8.3-1-amd64-di, scsi-extra-modules-8.3-1-amd64-di, plip-modules-8.3-1-amd64-di, floppy-modules-8.3-1-amd64-di, loop-modules-8.3-1-amd64-di, ipv6-modules-8.3-1-amd64-di, nls-core-modules-8.3-1-amd64-di, ext2-modules-8.3-1-amd64-di, isofs-modules-8.3-1-amd64-di, ntfs-modules-8.3-1-amd64-di, reiserfs-modules-8.3-1-amd64-di, xfs-modules-8.3-1-amd64-di, fat-modules-8.3-1-amd64-di, zfs-modules-8.3-1-amd64-di, nfs-modules-8.3-1-amd64-di, nullfs-modules-8.3-1-amd64-di, md-modules-8.3-1-amd64-di, parport-modules-8.3-1-amd64-di, sata-modules-8.3-1-amd64-di, acpi-modules-8.3-1-amd64-di, i2c-modules-8.3-1-amd64-di, crypto-modules-8.3-1-amd64-di, crypto-dm-modules-8.3-1-amd64-di, mmc-core-modules-8.3-1-amd64-di, mmc-modules-8.3-1-amd64-di, sound-modules-8.3-1-amd64-di, zlib-modules-8.3-1-amd64-di, kfreebsd-image-8.3-1-486, kfreebsd-image-8-486, kfreebsd-headers-8.3-1-486, kfreebsd-headers-8-486, kfreebsd-image-8.3-1-686, kfreebsd-image-8-686, kfreebsd-headers-8.3-1-686, kfreebsd-headers-8-686, kfreebsd-image-8.3-1-xen, kfreebsd-image-8-xen, kfreebsd-headers-8.3-1-xen, kfreebsd-headers-8-xen, kernel-image-8.3-1-486-di, nic-modules-8.3-1-486-di, nic-wireless-modules-8.3-1-486-di, nic-shared-modules-8.3-1-486-di, serial-modules-8.3-1-486-di, ppp-modules-8.3-1-486-di, cdrom-modules-8.3-1-486-di, scsi-core-modules-8.3-1-486-di, scsi-modules-8.3-1-486-di, scsi-extra-modules-8.3-1-486-di, plip-modules-8.3-1-486-di, floppy-modules-8.3-1-486-di, loop-modules-8.3-1-486-di, ipv6-modules-8.3-1-486-di, nls-core-modules-8.3-1-486-di, ext2-modules-8.3-1-486-di, isofs-modules-8.3-1-486-di, ntfs-modules-8.3-1-486-di, reiserfs-modules-8.3-1-486-di, xfs-modules-8.3-1-486-di, fat-modules-8.3-1-486-di, zfs-modules-8.3-1-486-di, nfs-modules-8.3-1-486-di, nullfs-modules-8.3-1-486-di, md-modules-8.3-1-486-di, parport-modules-8.3-1-486-di, sata-modules-8.3-1-486-di, acpi-modules-8.3-1-486-di, i2c-modules-8.3-1-486-di, crypto-modules-8.3-1-486-di, crypto-dm-modules-8.3-1-486-di, mmc-core-modules-8.3-1-486-di, mmc-modules-8.3-1-486-di, sound-modules-8.3-1-486-di, zlib-modules-8.3-1-486-di, kfreebsd-image-8.3-1-malta, kfreebsd-image-8-malta, kfreebsd-headers-8.3-1-malta, kfreebsd-headers-8-malta"
+	],
+	"Build-Depends": [
+		"debhelper (>= 5.0.0), bzip2, sharutils, flex-old | flex, freebsd-buildutils (>= 9), gcc-4.6, libdb-dev, libbsd-dev, libsbuf-dev, libsbuf-dev (>= 8.2-2) | kfreebsd-kernel-headers (<< 0.56), kernel-wedge (>= 2.79) [kfreebsd-any]"
+	],
+	"Checksums-Sha1": [
+		"776a3713defcda77af24707160a76603ea1cf691 9543 kfreebsd-8_8.3-6+deb7u1.dsc ffc5eaacae975642970457e8d281d1ef843583d8 29936520 kfreebsd-8_8.3.orig.tar.gz 8f7dece78d52546da4ce071eb6ecc99412a3d933 141310 kfreebsd-8_8.3-6+deb7u1.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"151da51d0810241d70681f201d27a9ad9075722e5a534523023704263a75f233 9543 kfreebsd-8_8.3-6+deb7u1.dsc aaeb2d1d9d28c8baf9dbd8aafb5e574f345207b7c8ff1fbc032fa4833070181a 29936520 kfreebsd-8_8.3.orig.tar.gz bd4ca1ec62d2c438c28d7713a8436dc61fca6f02a282137a71885e2d38fa634b 141310 kfreebsd-8_8.3-6+deb7u1.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/k/kfreebsd-8"
+	],
+	"Files": [
+		"474a4c373abe6a277ff3793c1cf147ab 9543 kfreebsd-8_8.3-6+deb7u1.dsc e0b72cf2cba0a3967eb5896e92c4738c 29936520 kfreebsd-8_8.3.orig.tar.gz 12e573835c0b3e2d8a4f7ae0d322eb9a 141310 kfreebsd-8_8.3-6+deb7u1.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"GNU/kFreeBSD Maintainers <debian-bsd@lists.debian.org>"
+	],
+	"Package": [
+		"kfreebsd-8"
+	],
+	"Package-List": [
+		"acpi-modules-8.3-1-486-di udeb debian-installer extra acpi-modules-8.3-1-amd64-di udeb debian-installer extra cdrom-modules-8.3-1-486-di udeb debian-installer optional cdrom-modules-8.3-1-amd64-di udeb debian-installer optional crypto-dm-modules-8.3-1-486-di udeb debian-installer extra crypto-dm-modules-8.3-1-amd64-di udeb debian-installer extra crypto-modules-8.3-1-486-di udeb debian-installer extra crypto-modules-8.3-1-amd64-di udeb debian-installer extra ext2-modules-8.3-1-486-di udeb debian-installer standard ext2-modules-8.3-1-amd64-di udeb debian-installer standard fat-modules-8.3-1-486-di udeb debian-installer extra fat-modules-8.3-1-amd64-di udeb debian-installer extra floppy-modules-8.3-1-486-di udeb debian-installer standard floppy-modules-8.3-1-amd64-di udeb debian-installer standard i2c-modules-8.3-1-486-di udeb debian-installer extra i2c-modules-8.3-1-amd64-di udeb debian-installer extra ipv6-modules-8.3-1-486-di udeb debian-installer extra ipv6-modules-8.3-1-amd64-di udeb debian-installer extra isofs-modules-8.3-1-486-di udeb debian-installer standard isofs-modules-8.3-1-amd64-di udeb debian-installer standard kernel-image-8.3-1-486-di udeb debian-installer extra kernel-image-8.3-1-amd64-di udeb debian-installer extra kfreebsd-headers-8-486 deb kernel optional kfreebsd-headers-8-686 deb kernel optional kfreebsd-headers-8-686-smp deb kernel optional kfreebsd-headers-8-amd64 deb kernel optional kfreebsd-headers-8-malta deb kernel optional kfreebsd-headers-8-xen deb kernel optional kfreebsd-headers-8.3-1 deb kernel optional kfreebsd-headers-8.3-1-486 deb kernel optional kfreebsd-headers-8.3-1-686 deb kernel optional kfreebsd-headers-8.3-1-686-smp deb kernel optional kfreebsd-headers-8.3-1-amd64 deb kernel optional kfreebsd-headers-8.3-1-malta deb kernel optional kfreebsd-headers-8.3-1-xen deb kernel optional kfreebsd-image-8-486 deb kernel optional kfreebsd-image-8-686 deb kernel optional kfreebsd-image-8-686-smp deb kernel optional kfreebsd-image-8-amd64 deb kernel optional kfreebsd-image-8-malta deb kernel optional kfreebsd-image-8-xen deb kernel optional kfreebsd-image-8.3-1-486 deb kernel optional kfreebsd-image-8.3-1-686 deb kernel optional kfreebsd-image-8.3-1-686-smp deb kernel optional kfreebsd-image-8.3-1-amd64 deb kernel optional kfreebsd-image-8.3-1-malta deb kernel optional kfreebsd-image-8.3-1-xen deb kernel optional kfreebsd-source-8.3 deb kernel optional loop-modules-8.3-1-486-di udeb debian-installer standard loop-modules-8.3-1-amd64-di udeb debian-installer standard md-modules-8.3-1-486-di udeb debian-installer extra md-modules-8.3-1-amd64-di udeb debian-installer extra mmc-core-modules-8.3-1-486-di udeb debian-installer extra mmc-core-modules-8.3-1-amd64-di udeb debian-installer extra mmc-modules-8.3-1-486-di udeb debian-installer extra mmc-modules-8.3-1-amd64-di udeb debian-installer extra nfs-modules-8.3-1-486-di udeb debian-installer extra nfs-modules-8.3-1-amd64-di udeb debian-installer extra nic-modules-8.3-1-486-di udeb debian-installer standard nic-modules-8.3-1-amd64-di udeb debian-installer standard nic-shared-modules-8.3-1-486-di udeb debian-installer standard nic-shared-modules-8.3-1-amd64-di udeb debian-installer standard nic-wireless-modules-8.3-1-486-di udeb debian-installer standard nic-wireless-modules-8.3-1-amd64-di udeb debian-installer standard nls-core-modules-8.3-1-486-di udeb debian-installer extra nls-core-modules-8.3-1-amd64-di udeb debian-installer extra ntfs-modules-8.3-1-486-di udeb debian-installer extra ntfs-modules-8.3-1-amd64-di udeb debian-installer extra nullfs-modules-8.3-1-486-di udeb debian-installer standard nullfs-modules-8.3-1-amd64-di udeb debian-installer standard parport-modules-8.3-1-486-di udeb debian-installer extra parport-modules-8.3-1-amd64-di udeb debian-installer extra plip-modules-8.3-1-486-di udeb debian-installer optional plip-modules-8.3-1-amd64-di udeb debian-installer optional ppp-modules-8.3-1-486-di udeb debian-installer optional ppp-modules-8.3-1-amd64-di udeb debian-installer optional reiserfs-modules-8.3-1-486-di udeb debian-installer extra reiserfs-modules-8.3-1-amd64-di udeb debian-installer extra sata-modules-8.3-1-486-di udeb debian-installer standard sata-modules-8.3-1-amd64-di udeb debian-installer standard scsi-core-modules-8.3-1-486-di udeb debian-installer standard scsi-core-modules-8.3-1-amd64-di udeb debian-installer standard scsi-extra-modules-8.3-1-486-di udeb debian-installer standard scsi-extra-modules-8.3-1-amd64-di udeb debian-installer standard scsi-modules-8.3-1-486-di udeb debian-installer standard scsi-modules-8.3-1-amd64-di udeb debian-installer standard serial-modules-8.3-1-486-di udeb debian-installer optional serial-modules-8.3-1-amd64-di udeb debian-installer optional sound-modules-8.3-1-486-di udeb debian-installer extra sound-modules-8.3-1-amd64-di udeb debian-installer extra xfs-modules-8.3-1-486-di udeb debian-installer standard xfs-modules-8.3-1-amd64-di udeb debian-installer standard zfs-modules-8.3-1-486-di udeb debian-installer extra zfs-modules-8.3-1-amd64-di udeb debian-installer extra zlib-modules-8.3-1-486-di udeb debian-installer extra zlib-modules-8.3-1-amd64-di udeb debian-installer extra"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"kernel"
+	],
+	"Standards-Version": [
+		"3.9.2"
+	],
+	"Uploaders": [
+		"Aurelien Jarno <aurel32@debian.org>, Guillem Jover <guillem@debian.org>, Robert Millan <rmh@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://svn.debian.org/wsvn/glibc-bsd/trunk/kfreebsd-8/"
+	],
+	"Vcs-Svn": [
+		"svn://svn.debian.org/glibc-bsd/trunk/kfreebsd-8/"
+	],
+	"Version": [
+		"8.3-6+deb7u1"
+	]
 }

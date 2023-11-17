@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-heat, heat-common, heat-engine, heat-api, heat-api-cfn, heat-api-cloudwatch, heat-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 10), dh-python, dh-systemd, openstack-pkg-tools (>= 54~), po-debconf, python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx"
-  ],
-  "Build-Depends-Indep": [
-    "bandit (>= 0.13.2), git, python-aodhclient (>= 0.5.0), python-babel (>= 2.3.4), python-barbicanclient (>= 4.0.0), python-ceilometerclient (>= 2.5.0), python-cinderclient (>= 1:1.6.0), python-coverage, python-croniter, python-crypto, python-cryptography (>= 1.0), python-debtcollector (>= 1.2.0), python-designateclient (>= 1.5.0), python-eventlet (>= 0.18.4), python-fixtures (>= 3.0.0), python-glanceclient (>= 1:2.3.0), python-greenlet, python-hacking, python-heatclient (>= 1.4.0), python-keystoneauth1 (>= 2.10.0), python-keystoneclient (>= 1:2.0.0), python-keystonemiddleware (>= 4.0.0), python-kombu (>= 3.0.25), python-lxml, python-magnumclient (>= 2.0.0), python-manilaclient (>= 1.10.0), python-migrate (>= 0.9.6), python-mistralclient (>= 2.0.0), python-mock (>= 2.0), python-monascaclient (>= 1.1.0), python-mysqldb, python-netaddr (>= 0.7.13), python-neutronclient (>= 1:5.1.0), python-novaclient (>= 2:2.29.0), python-openstackclient (>= 2.1.0), python-openstackdocstheme (>= 1.5.0), python-os-api-ref, python-os-collect-config, python-oslo.cache (>= 1.5.0), python-oslo.concurrency (>= 3.8.0), python-oslo.config (>= 1:3.14.0), python-oslo.context (>= 2.9.0), python-oslo.db (>= 4.10.0), python-oslo.i18n (>= 2.1.0), python-oslo.log (>= 2.0.0), python-oslo.messaging (>= 5.2.0), python-oslo.middleware (>= 3.0.0), python-oslo.policy (>= 1.9.0), python-oslo.reports (>= 1.0.0), python-oslo.serialization (>= 2.0.0), python-oslo.service (>= 1.10.0), python-oslo.utils (>= 3.16.0), python-oslo.versionedobjects (>= 1.13.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.10.0), python-osprofiler (>= 1.4.0), python-paramiko (>= 2.0), python-pastedeploy, python-psycopg2 (>= 2.5), python-pymysql, python-requests (>= 2.10.0), python-retrying (>= 1.2.3), python-routes, python-saharaclient (>= 0.18.0), python-senlinclient (>= 0.3.0), python-six (>= 1.9.0), python-sqlalchemy (>= 1.0.10), python-stevedore (>= 1.16.), python-swiftclient, python-testresources, python-testscenarios, python-testtools (>= 1.4.0), python-tempest (>= 1:12.1.0), python-troveclient (>= 1:2.2.0), python-tz, python-webob, python-yaml, python-yaql (>= 1.1.0), python-zaqarclient (>= 1.0.0), subunit, tempest (>= 1:12.1.0), testrepository"
-  ],
-  "Checksums-Sha256": [
-    "2e5e6842b8e7b099316255e4103a3e4b5e1509b2382636b15cdf0eb79c4c7e27 4611 heat_7.0.0-4.dsc 0be6c0b526e72ceb5e35de35d6be710f14386091f7e28e1761b6394874bd1418 1363056 heat_7.0.0.orig.tar.xz 5e88bdf9948b0343c90528345216a251610a70eeb673df1780b39f383f43a537 29364 heat_7.0.0-4.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/h/heat"
-  ],
-  "Files": [
-    "b827ae7eddaad2769d0b0cfed30e20b8 4611 heat_7.0.0-4.dsc d9a8831309c8872bd1d33569a33c189c 1363056 heat_7.0.0.orig.tar.xz 529b8753246fd305d14a6e821d9f5914 29364 heat_7.0.0-4.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://wiki.openstack.org/Heat"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "heat"
-  ],
-  "Package-List": [
-    "heat-api deb web optional arch=all heat-api-cfn deb web optional arch=all heat-api-cloudwatch deb web optional arch=all heat-common deb web optional arch=all heat-doc deb doc optional arch=all heat-engine deb web optional arch=all python-heat deb python optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://git.openstack.org/cgit/openstack/deb-heat?h=debian%2Fnewton"
-  ],
-  "Vcs-Git": [
-    "https://git.openstack.org/openstack/deb-heat -b debian/newton"
-  ],
-  "Version": [
-    "1:7.0.0-4"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-heat, heat-common, heat-engine, heat-api, heat-api-cfn, heat-api-cloudwatch, heat-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 10), dh-python, dh-systemd, openstack-pkg-tools (>= 54~), po-debconf, python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx"
+	],
+	"Build-Depends-Indep": [
+		"bandit (>= 0.13.2), git, python-aodhclient (>= 0.5.0), python-babel (>= 2.3.4), python-barbicanclient (>= 4.0.0), python-ceilometerclient (>= 2.5.0), python-cinderclient (>= 1:1.6.0), python-coverage, python-croniter, python-crypto, python-cryptography (>= 1.0), python-debtcollector (>= 1.2.0), python-designateclient (>= 1.5.0), python-eventlet (>= 0.18.4), python-fixtures (>= 3.0.0), python-glanceclient (>= 1:2.3.0), python-greenlet, python-hacking, python-heatclient (>= 1.4.0), python-keystoneauth1 (>= 2.10.0), python-keystoneclient (>= 1:2.0.0), python-keystonemiddleware (>= 4.0.0), python-kombu (>= 3.0.25), python-lxml, python-magnumclient (>= 2.0.0), python-manilaclient (>= 1.10.0), python-migrate (>= 0.9.6), python-mistralclient (>= 2.0.0), python-mock (>= 2.0), python-monascaclient (>= 1.1.0), python-mysqldb, python-netaddr (>= 0.7.13), python-neutronclient (>= 1:5.1.0), python-novaclient (>= 2:2.29.0), python-openstackclient (>= 2.1.0), python-openstackdocstheme (>= 1.5.0), python-os-api-ref, python-os-collect-config, python-oslo.cache (>= 1.5.0), python-oslo.concurrency (>= 3.8.0), python-oslo.config (>= 1:3.14.0), python-oslo.context (>= 2.9.0), python-oslo.db (>= 4.10.0), python-oslo.i18n (>= 2.1.0), python-oslo.log (>= 2.0.0), python-oslo.messaging (>= 5.2.0), python-oslo.middleware (>= 3.0.0), python-oslo.policy (>= 1.9.0), python-oslo.reports (>= 1.0.0), python-oslo.serialization (>= 2.0.0), python-oslo.service (>= 1.10.0), python-oslo.utils (>= 3.16.0), python-oslo.versionedobjects (>= 1.13.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.10.0), python-osprofiler (>= 1.4.0), python-paramiko (>= 2.0), python-pastedeploy, python-psycopg2 (>= 2.5), python-pymysql, python-requests (>= 2.10.0), python-retrying (>= 1.2.3), python-routes, python-saharaclient (>= 0.18.0), python-senlinclient (>= 0.3.0), python-six (>= 1.9.0), python-sqlalchemy (>= 1.0.10), python-stevedore (>= 1.16.), python-swiftclient, python-testresources, python-testscenarios, python-testtools (>= 1.4.0), python-tempest (>= 1:12.1.0), python-troveclient (>= 1:2.2.0), python-tz, python-webob, python-yaml, python-yaql (>= 1.1.0), python-zaqarclient (>= 1.0.0), subunit, tempest (>= 1:12.1.0), testrepository"
+	],
+	"Checksums-Sha256": [
+		"2e5e6842b8e7b099316255e4103a3e4b5e1509b2382636b15cdf0eb79c4c7e27 4611 heat_7.0.0-4.dsc 0be6c0b526e72ceb5e35de35d6be710f14386091f7e28e1761b6394874bd1418 1363056 heat_7.0.0.orig.tar.xz 5e88bdf9948b0343c90528345216a251610a70eeb673df1780b39f383f43a537 29364 heat_7.0.0-4.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/h/heat"
+	],
+	"Files": [
+		"b827ae7eddaad2769d0b0cfed30e20b8 4611 heat_7.0.0-4.dsc d9a8831309c8872bd1d33569a33c189c 1363056 heat_7.0.0.orig.tar.xz 529b8753246fd305d14a6e821d9f5914 29364 heat_7.0.0-4.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://wiki.openstack.org/Heat"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"heat"
+	],
+	"Package-List": [
+		"heat-api deb web optional arch=all heat-api-cfn deb web optional arch=all heat-api-cloudwatch deb web optional arch=all heat-common deb web optional arch=all heat-doc deb doc optional arch=all heat-engine deb web optional arch=all python-heat deb python optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://git.openstack.org/cgit/openstack/deb-heat?h=debian%2Fnewton"
+	],
+	"Vcs-Git": [
+		"https://git.openstack.org/openstack/deb-heat -b debian/newton"
+	],
+	"Version": [
+		"1:7.0.0-4"
+	]
 }

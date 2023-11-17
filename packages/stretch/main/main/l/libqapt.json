@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libqapt3, libqapt-dev, libqapt3-runtime, qapt-utils, qapt-batch, qapt-deb-installer, plasma-runner-installer, kde-thumbnailer-deb, gstreamer-qapt, gstreamer0.10-qapt, qapt-dbg"
-  ],
-  "Build-Depends": [
-    "cmake (>= 2.8.12), debhelper (>= 9), extra-cmake-modules (>= 0.0.14), kio-dev (>= 5.0.0), libapt-pkg-dev (>= 0.8.0), libdebconf-kde-dev (>= 1.0.0), libglib2.0-dev, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libkf5auth-dev (>= 5.0.0), libkf5coreaddons-dev (>= 5.0.0), libkf5i18n-dev (>= 5.0.0), libkf5iconthemes-dev (>= 5.0.0), libkf5runner-dev (>= 5.0.0), libkf5textwidgets-dev (>= 5.0.0), libkf5widgetsaddons-dev (>= 5.0.0), libkf5windowsystem-dev (>= 5.0.0), libpolkit-qt5-1-dev (>= 0.112), libxapian-dev, pkg-config, pkg-kde-tools (>> 0.15.15), plasma-framework-dev, qtbase5-dev (>= 5.2.0), qttools5-dev, qttools5-dev-tools"
-  ],
-  "Checksums-Sha256": [
-    "ce38d1ff34b5c2422ac2bc0dff111385e51dafc4f0b4ad1552c1ccaf5e18b4b6 3352 libqapt_3.0.2-1.dsc e0fa67518601fcde2c45aa613261022f2cfada54d3e1ea3cf0540805ba6663f3 269124 libqapt_3.0.2.orig.tar.xz ecbadc730db9383feda59c02b53d38a104f4d6c1baa001e0f444035e34522baa 15348 libqapt_3.0.2-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/libq/libqapt"
-  ],
-  "Files": [
-    "6163314c1e619aa9cb2f14a1ee880844 3352 libqapt_3.0.2-1.dsc 638a3d8244efe0e8fa99375a5660fd3c 269124 libqapt_3.0.2.orig.tar.xz f0bb1b472ac5ce77526a3c7a0ac86997 15348 libqapt_3.0.2-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://projects.kde.org/projects/extragear/sysadmin/libqapt/"
-  ],
-  "Maintainer": [
-    "Debian/Kubuntu KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "libqapt"
-  ],
-  "Package-List": [
-    "gstreamer-qapt deb kde optional arch=any gstreamer0.10-qapt deb oldlibs optional arch=all kde-thumbnailer-deb deb kde optional arch=any libqapt-dev deb libdevel optional arch=any libqapt3 deb kde optional arch=any libqapt3-runtime deb kde optional arch=any plasma-runner-installer deb kde optional arch=any qapt-batch deb kde optional arch=any qapt-dbg deb debug extra arch=any qapt-deb-installer deb kde optional arch=any qapt-utils deb kde optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Sune Vuorela <sune@debian.org>, Kai Wasserbäch <curan@debian.org>, Floris-Andrei Stoica-Marcu <floris.sm@gmail.com>, Maximiliano Curia <maxy@debian.org>, José Manuel Santamaría Lema <panfaust@gmail.com>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-kde/kde-extras/qapt.git/"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-kde/kde-extras/qapt.git"
-  ],
-  "Version": [
-    "3.0.2-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libqapt3, libqapt-dev, libqapt3-runtime, qapt-utils, qapt-batch, qapt-deb-installer, plasma-runner-installer, kde-thumbnailer-deb, gstreamer-qapt, gstreamer0.10-qapt, qapt-dbg"
+	],
+	"Build-Depends": [
+		"cmake (>= 2.8.12), debhelper (>= 9), extra-cmake-modules (>= 0.0.14), kio-dev (>= 5.0.0), libapt-pkg-dev (>= 0.8.0), libdebconf-kde-dev (>= 1.0.0), libglib2.0-dev, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libkf5auth-dev (>= 5.0.0), libkf5coreaddons-dev (>= 5.0.0), libkf5i18n-dev (>= 5.0.0), libkf5iconthemes-dev (>= 5.0.0), libkf5runner-dev (>= 5.0.0), libkf5textwidgets-dev (>= 5.0.0), libkf5widgetsaddons-dev (>= 5.0.0), libkf5windowsystem-dev (>= 5.0.0), libpolkit-qt5-1-dev (>= 0.112), libxapian-dev, pkg-config, pkg-kde-tools (>> 0.15.15), plasma-framework-dev, qtbase5-dev (>= 5.2.0), qttools5-dev, qttools5-dev-tools"
+	],
+	"Checksums-Sha256": [
+		"ce38d1ff34b5c2422ac2bc0dff111385e51dafc4f0b4ad1552c1ccaf5e18b4b6 3352 libqapt_3.0.2-1.dsc e0fa67518601fcde2c45aa613261022f2cfada54d3e1ea3cf0540805ba6663f3 269124 libqapt_3.0.2.orig.tar.xz ecbadc730db9383feda59c02b53d38a104f4d6c1baa001e0f444035e34522baa 15348 libqapt_3.0.2-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/libq/libqapt"
+	],
+	"Files": [
+		"6163314c1e619aa9cb2f14a1ee880844 3352 libqapt_3.0.2-1.dsc 638a3d8244efe0e8fa99375a5660fd3c 269124 libqapt_3.0.2.orig.tar.xz f0bb1b472ac5ce77526a3c7a0ac86997 15348 libqapt_3.0.2-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://projects.kde.org/projects/extragear/sysadmin/libqapt/"
+	],
+	"Maintainer": [
+		"Debian/Kubuntu KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"libqapt"
+	],
+	"Package-List": [
+		"gstreamer-qapt deb kde optional arch=any gstreamer0.10-qapt deb oldlibs optional arch=all kde-thumbnailer-deb deb kde optional arch=any libqapt-dev deb libdevel optional arch=any libqapt3 deb kde optional arch=any libqapt3-runtime deb kde optional arch=any plasma-runner-installer deb kde optional arch=any qapt-batch deb kde optional arch=any qapt-dbg deb debug extra arch=any qapt-deb-installer deb kde optional arch=any qapt-utils deb kde optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Sune Vuorela <sune@debian.org>, Kai Wasserbäch <curan@debian.org>, Floris-Andrei Stoica-Marcu <floris.sm@gmail.com>, Maximiliano Curia <maxy@debian.org>, José Manuel Santamaría Lema <panfaust@gmail.com>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/pkg-kde/kde-extras/qapt.git/"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/pkg-kde/kde-extras/qapt.git"
+	],
+	"Version": [
+		"3.0.2-1"
+	]
 }

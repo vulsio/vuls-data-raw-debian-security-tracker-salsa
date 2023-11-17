@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libnghttp2-dev, libnghttp2-doc, libnghttp2-14, nghttp2-client, nghttp2-proxy, nghttp2-server, nghttp2"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 13), debhelper-compat (= 13), libc-ares-dev, libcunit1-dev <!nocheck>, libev-dev, libjansson-dev, libjemalloc-dev [!hurd-i386], libssl-dev, libsystemd-dev, libxml2-dev, pkg-config, zlib1g-dev"
-  ],
-  "Build-Depends-Indep": [
-    "python3-sphinx, python3-sphinx-rtd-theme"
-  ],
-  "Checksums-Sha256": [
-    "6230357ee97d470d55f33c1b49b49a00e494721e191f60cedf5f9e82b99f5c4f 2534 nghttp2_1.58.0-1.dsc 7da19947b33a07ddcf97b9791331bfee8a8545e6b394275a9971f43cae9d636b 1061810 nghttp2_1.58.0.orig.tar.gz 967aa46cc926e71b6fccfbce81bb69a2c4793a3be979722d3f53c77d3e61f138 11788 nghttp2_1.58.0-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/n/nghttp2"
-  ],
-  "Files": [
-    "6d49efb1ccec20b5798d241f92682dee 2534 nghttp2_1.58.0-1.dsc d9a526abf0239782a07db039673b036d 1061810 nghttp2_1.58.0.orig.tar.gz 0de4c72932f4d0745b917f075adf049b 11788 nghttp2_1.58.0-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://nghttp2.org/"
-  ],
-  "Maintainer": [
-    "Tomasz Buchert <tomasz@debian.org>"
-  ],
-  "Package": [
-    "nghttp2"
-  ],
-  "Package-List": [
-    "libnghttp2-14 deb libs optional arch=any libnghttp2-dev deb libdevel optional arch=any libnghttp2-doc deb doc optional arch=all nghttp2 deb httpd optional arch=all nghttp2-client deb httpd optional arch=any nghttp2-proxy deb httpd optional arch=any nghttp2-server deb httpd optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "nginx"
-  ],
-  "Uploaders": [
-    "Ondřej Surý <ondrej@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian/nghttp2"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian/nghttp2.git"
-  ],
-  "Version": [
-    "1.58.0-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libnghttp2-dev, libnghttp2-doc, libnghttp2-14, nghttp2-client, nghttp2-proxy, nghttp2-server, nghttp2"
+	],
+	"Build-Depends": [
+		"debhelper (>= 13), debhelper-compat (= 13), libc-ares-dev, libcunit1-dev <!nocheck>, libev-dev, libjansson-dev, libjemalloc-dev [!hurd-i386], libssl-dev, libsystemd-dev, libxml2-dev, pkg-config, zlib1g-dev"
+	],
+	"Build-Depends-Indep": [
+		"python3-sphinx, python3-sphinx-rtd-theme"
+	],
+	"Checksums-Sha256": [
+		"6230357ee97d470d55f33c1b49b49a00e494721e191f60cedf5f9e82b99f5c4f 2534 nghttp2_1.58.0-1.dsc 7da19947b33a07ddcf97b9791331bfee8a8545e6b394275a9971f43cae9d636b 1061810 nghttp2_1.58.0.orig.tar.gz 967aa46cc926e71b6fccfbce81bb69a2c4793a3be979722d3f53c77d3e61f138 11788 nghttp2_1.58.0-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/n/nghttp2"
+	],
+	"Files": [
+		"6d49efb1ccec20b5798d241f92682dee 2534 nghttp2_1.58.0-1.dsc d9a526abf0239782a07db039673b036d 1061810 nghttp2_1.58.0.orig.tar.gz 0de4c72932f4d0745b917f075adf049b 11788 nghttp2_1.58.0-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://nghttp2.org/"
+	],
+	"Maintainer": [
+		"Tomasz Buchert <tomasz@debian.org>"
+	],
+	"Package": [
+		"nghttp2"
+	],
+	"Package-List": [
+		"libnghttp2-14 deb libs optional arch=any libnghttp2-dev deb libdevel optional arch=any libnghttp2-doc deb doc optional arch=all nghttp2 deb httpd optional arch=all nghttp2-client deb httpd optional arch=any nghttp2-proxy deb httpd optional arch=any nghttp2-server deb httpd optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"nginx"
+	],
+	"Uploaders": [
+		"Ondřej Surý <ondrej@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/nghttp2"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/nghttp2.git"
+	],
+	"Version": [
+		"1.58.0-1"
+	]
 }

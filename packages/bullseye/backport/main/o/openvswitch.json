@@ -1,53 +1,53 @@
 {
-  "Architecture": [
-    "linux-any all"
-  ],
-  "Binary": [
-    "openvswitch-common, openvswitch-dbg, openvswitch-dev, openvswitch-ipsec, openvswitch-pki, openvswitch-source, openvswitch-switch, openvswitch-switch-dpdk, openvswitch-testcontroller, openvswitch-vtep, python3-openvswitch"
-  ],
-  "Build-Depends": [
-    "autoconf, automake, bzip2, debhelper-compat (= 12), dh-python, graphviz, libcap-ng-dev, libdpdk-dev (>= 20.11) [amd64 i386 ppc64el arm64], libnuma-dev [amd64 i386 ppc64el arm64], libpcap-dev [amd64 i386 ppc64el arm64], libssl-dev, libtool, libunbound-dev, openssl, openstack-pkg-tools, pkg-config, procps, python3-all-dev, python3-setuptools, python3-six, python3-sortedcontainers, python3-sphinx, python3-zope.interface"
-  ],
-  "Checksums-Sha256": [
-    "b39ecc79b8ff87ce57cc406b46f704e67039e3e027e67e28c740c9567cdde4ef 3246 openvswitch_2.15.0+ds1-8~bpo11+1.dsc 801aeb7e4135f20ebb965df47527ce1118da25ac143a975113f4f0d2c7be62ab 3721240 openvswitch_2.15.0+ds1.orig.tar.xz da29d754296c3729f202181c5a32d5e97a2e8e103733a63bce480d81791ca727 51836 openvswitch_2.15.0+ds1-8~bpo11+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/o/openvswitch"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://openvswitch.org/"
-  ],
-  "Maintainer": [
-    "Debian OpenStack <team+openstack@tracker.debian.org>"
-  ],
-  "Package": [
-    "openvswitch"
-  ],
-  "Package-List": [
-    "openvswitch-common deb net optional arch=linux-any openvswitch-dbg deb debug optional arch=linux-any openvswitch-dev deb net optional arch=linux-any openvswitch-ipsec deb net optional arch=linux-any openvswitch-pki deb net optional arch=all openvswitch-source deb net optional arch=all openvswitch-switch deb net optional arch=linux-any openvswitch-switch-dpdk deb net optional arch=amd64,arm64,i386,ppc64el openvswitch-testcontroller deb net optional arch=linux-any openvswitch-vtep deb net optional arch=linux-any python3-openvswitch deb python optional arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.1.1"
-  ],
-  "Uploaders": [
-    "Simon Horman <horms@debian.org>, Thomas Goirand <zigo@debian.org>, Michal Arbet <michal.arbet@ultimum.io>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/openstack-team/third-party/openvswitch"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/openstack-team/third-party/openvswitch.git"
-  ],
-  "Version": [
-    "2.15.0+ds1-8~bpo11+1"
-  ]
+	"Architecture": [
+		"linux-any all"
+	],
+	"Binary": [
+		"openvswitch-common, openvswitch-dbg, openvswitch-dev, openvswitch-ipsec, openvswitch-pki, openvswitch-source, openvswitch-switch, openvswitch-switch-dpdk, openvswitch-testcontroller, openvswitch-vtep, python3-openvswitch"
+	],
+	"Build-Depends": [
+		"autoconf, automake, bzip2, debhelper-compat (= 12), dh-python, graphviz, libcap-ng-dev, libdpdk-dev (>= 20.11) [amd64 i386 ppc64el arm64], libnuma-dev [amd64 i386 ppc64el arm64], libpcap-dev [amd64 i386 ppc64el arm64], libssl-dev, libtool, libunbound-dev, openssl, openstack-pkg-tools, pkg-config, procps, python3-all-dev, python3-setuptools, python3-six, python3-sortedcontainers, python3-sphinx, python3-zope.interface"
+	],
+	"Checksums-Sha256": [
+		"b39ecc79b8ff87ce57cc406b46f704e67039e3e027e67e28c740c9567cdde4ef 3246 openvswitch_2.15.0+ds1-8~bpo11+1.dsc 801aeb7e4135f20ebb965df47527ce1118da25ac143a975113f4f0d2c7be62ab 3721240 openvswitch_2.15.0+ds1.orig.tar.xz da29d754296c3729f202181c5a32d5e97a2e8e103733a63bce480d81791ca727 51836 openvswitch_2.15.0+ds1-8~bpo11+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/o/openvswitch"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://openvswitch.org/"
+	],
+	"Maintainer": [
+		"Debian OpenStack <team+openstack@tracker.debian.org>"
+	],
+	"Package": [
+		"openvswitch"
+	],
+	"Package-List": [
+		"openvswitch-common deb net optional arch=linux-any openvswitch-dbg deb debug optional arch=linux-any openvswitch-dev deb net optional arch=linux-any openvswitch-ipsec deb net optional arch=linux-any openvswitch-pki deb net optional arch=all openvswitch-source deb net optional arch=all openvswitch-switch deb net optional arch=linux-any openvswitch-switch-dpdk deb net optional arch=amd64,arm64,i386,ppc64el openvswitch-testcontroller deb net optional arch=linux-any openvswitch-vtep deb net optional arch=linux-any python3-openvswitch deb python optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.1.1"
+	],
+	"Uploaders": [
+		"Simon Horman <horms@debian.org>, Thomas Goirand <zigo@debian.org>, Michal Arbet <michal.arbet@ultimum.io>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/openstack-team/third-party/openvswitch"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/openstack-team/third-party/openvswitch.git"
+	],
+	"Version": [
+		"2.15.0+ds1-8~bpo11+1"
+	]
 }

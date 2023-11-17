@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "liblzma5, xz-utils, xzdec, liblzma-dev, liblzma-doc"
-  ],
-  "Build-Conflicts": [
-    "automake1.4"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 8.9.0), dpkg-dev (>= 1.16.2), autoconf (>= 2.64~), automake, libtool (>= 2.2), gettext, autopoint | gettext (<< 0.18-1), autopoint | cvs, freebsd-glue [kfreebsd-any]"
-  ],
-  "Build-Depends-Indep": [
-    "doxygen"
-  ],
-  "Checksums-Sha256": [
-    "13c8d8d0c243af78dc89b6e2cd670c8d8a2522379e1fcd196957c95d988d5961 2550 xz-utils_5.2.2-1.2.dsc f341b1906ebcdde291dd619399ae944600edc9193619dd0c0110a5f05bfcc89e 1016404 xz-utils_5.2.2.orig.tar.xz 2cc0575556e1331b3f468e6e7dca5969ce86efcc315d62672279b4e68b2e449f 543 xz-utils_5.2.2.orig.tar.xz.asc 231c08d5c2c4e5c8ef5d6d58cac91aaeb2e4fcddc35e1ed3c69d730a2375c948 108632 xz-utils_5.2.2-1.2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/x/xz-utils"
-  ],
-  "Files": [
-    "2e889a21c19d5af268f80a6fbb914425 2550 xz-utils_5.2.2-1.2.dsc e26772b69940085c0632589ab1d52e64 1016404 xz-utils_5.2.2.orig.tar.xz 42764222a5f3db5e63dd94ae5d2392f1 543 xz-utils_5.2.2.orig.tar.xz.asc 0862985af8480d65a5d0836feaa4b70e 108632 xz-utils_5.2.2-1.2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://tukaani.org/xz/"
-  ],
-  "Maintainer": [
-    "Jonathan Nieder <jrnieder@gmail.com>"
-  ],
-  "Package": [
-    "xz-utils"
-  ],
-  "Package-List": [
-    "liblzma-dev deb libdevel optional arch=any liblzma-doc deb doc optional arch=all liblzma5 deb libs required arch=any xz-utils deb utils required arch=any xzdec deb utils extra arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "utils"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Mohammed Adnène Trojette <adn+deb@diwi.org>"
-  ],
-  "Vcs-Browser": [
-    "http://git.debian.org/?p=collab-maint/xz.git"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/collab-maint/xz.git"
-  ],
-  "Version": [
-    "5.2.2-1.2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"liblzma5, xz-utils, xzdec, liblzma-dev, liblzma-doc"
+	],
+	"Build-Conflicts": [
+		"automake1.4"
+	],
+	"Build-Depends": [
+		"debhelper (>= 8.9.0), dpkg-dev (>= 1.16.2), autoconf (>= 2.64~), automake, libtool (>= 2.2), gettext, autopoint | gettext (<< 0.18-1), autopoint | cvs, freebsd-glue [kfreebsd-any]"
+	],
+	"Build-Depends-Indep": [
+		"doxygen"
+	],
+	"Checksums-Sha256": [
+		"13c8d8d0c243af78dc89b6e2cd670c8d8a2522379e1fcd196957c95d988d5961 2550 xz-utils_5.2.2-1.2.dsc f341b1906ebcdde291dd619399ae944600edc9193619dd0c0110a5f05bfcc89e 1016404 xz-utils_5.2.2.orig.tar.xz 2cc0575556e1331b3f468e6e7dca5969ce86efcc315d62672279b4e68b2e449f 543 xz-utils_5.2.2.orig.tar.xz.asc 231c08d5c2c4e5c8ef5d6d58cac91aaeb2e4fcddc35e1ed3c69d730a2375c948 108632 xz-utils_5.2.2-1.2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/x/xz-utils"
+	],
+	"Files": [
+		"2e889a21c19d5af268f80a6fbb914425 2550 xz-utils_5.2.2-1.2.dsc e26772b69940085c0632589ab1d52e64 1016404 xz-utils_5.2.2.orig.tar.xz 42764222a5f3db5e63dd94ae5d2392f1 543 xz-utils_5.2.2.orig.tar.xz.asc 0862985af8480d65a5d0836feaa4b70e 108632 xz-utils_5.2.2-1.2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://tukaani.org/xz/"
+	],
+	"Maintainer": [
+		"Jonathan Nieder <jrnieder@gmail.com>"
+	],
+	"Package": [
+		"xz-utils"
+	],
+	"Package-List": [
+		"liblzma-dev deb libdevel optional arch=any liblzma-doc deb doc optional arch=all liblzma5 deb libs required arch=any xz-utils deb utils required arch=any xzdec deb utils extra arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"utils"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Mohammed Adnène Trojette <adn+deb@diwi.org>"
+	],
+	"Vcs-Browser": [
+		"http://git.debian.org/?p=collab-maint/xz.git"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/collab-maint/xz.git"
+	],
+	"Version": [
+		"5.2.2-1.2"
+	]
 }

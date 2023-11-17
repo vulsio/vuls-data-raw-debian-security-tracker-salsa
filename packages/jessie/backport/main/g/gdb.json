@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "gdb, gdb-python2, gdb-minimal, gdb-multiarch, gdbserver, gdb-source, gdb-dbg"
-  ],
-  "Build-Depends": [
-    "cdbs (>= 0.4.90), debhelper (>= 9), lsb-release, bzip2, autoconf, libtool, gettext, bison, dejagnu, flex | flex-old, procps, gobjc, mig [hurd-any], texinfo (>= 4.7-2.2), texlive-base, libexpat1-dev, libncurses5-dev, libreadline-dev, zlib1g-dev, liblzma-dev, libbabeltrace-dev [amd64 armel armhf i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390x], libbabeltrace-ctf-dev [amd64 armel armhf i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390x], python-dev, python3-dev, libkvm-dev [kfreebsd-any], libunwind7-dev [ia64]"
-  ],
-  "Checksums-Sha1": [
-    "2eacb55c8c289a676948f1e33808c2a488fc56b9 2846 gdb_7.11.1-2~bpo8+1.dsc 2ca88b71b907526e10d04a88f62106c4d596089d 19330592 gdb_7.11.1.orig.tar.xz 62bf20b84b74a3b6f997c94b0f204552239d9cc8 52580 gdb_7.11.1-2~bpo8+1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "11b9a2b85477310bcb97034bd7ed063b8360e7334110693cb40454ae48d6d450 2846 gdb_7.11.1-2~bpo8+1.dsc c368fdd458870ed4cd5e7d440f64896418c4dc06d63e80e7d0a6f619929804c0 19330592 gdb_7.11.1.orig.tar.xz 823713027044cc6a5734adb01b9fb7b02230a9df4989c958835a81d574c2199b 52580 gdb_7.11.1-2~bpo8+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/g/gdb"
-  ],
-  "Files": [
-    "f8bc827b2a071f3a73d9c25026641c5f 2846 gdb_7.11.1-2~bpo8+1.dsc 513d231b4121042fab4f60ceb2b52f54 19330592 gdb_7.11.1.orig.tar.xz b8d7fbfcf75e48a32be3eb3a862b43a3 52580 gdb_7.11.1-2~bpo8+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.gnu.org/s/gdb/"
-  ],
-  "Maintainer": [
-    "Héctor Orón Martínez <zumbi@debian.org>"
-  ],
-  "Package": [
-    "gdb"
-  ],
-  "Package-List": [
-    "gdb deb devel optional arch=any gdb-dbg deb debug extra arch=any gdb-minimal deb devel optional arch=any gdb-multiarch deb devel optional arch=any gdb-python2 deb devel optional arch=any gdb-source deb devel optional arch=all gdbserver deb devel optional arch=amd64,armel,armhf,arm64,i386,ia64,m32r,m68k,mips,mipsel,powerpc,powerpcspe,ppc64,ppc64el,s390,s390x,x32"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Luca Bruno <lucab@debian.org>, Samuel Bronson <naesten@gmail.com>, Riku Voipio <riku.voipio@linaro.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-gdb/gdb.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-gdb/gdb.git"
-  ],
-  "Version": [
-    "7.11.1-2~bpo8+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"gdb, gdb-python2, gdb-minimal, gdb-multiarch, gdbserver, gdb-source, gdb-dbg"
+	],
+	"Build-Depends": [
+		"cdbs (>= 0.4.90), debhelper (>= 9), lsb-release, bzip2, autoconf, libtool, gettext, bison, dejagnu, flex | flex-old, procps, gobjc, mig [hurd-any], texinfo (>= 4.7-2.2), texlive-base, libexpat1-dev, libncurses5-dev, libreadline-dev, zlib1g-dev, liblzma-dev, libbabeltrace-dev [amd64 armel armhf i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390x], libbabeltrace-ctf-dev [amd64 armel armhf i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390x], python-dev, python3-dev, libkvm-dev [kfreebsd-any], libunwind7-dev [ia64]"
+	],
+	"Checksums-Sha1": [
+		"2eacb55c8c289a676948f1e33808c2a488fc56b9 2846 gdb_7.11.1-2~bpo8+1.dsc 2ca88b71b907526e10d04a88f62106c4d596089d 19330592 gdb_7.11.1.orig.tar.xz 62bf20b84b74a3b6f997c94b0f204552239d9cc8 52580 gdb_7.11.1-2~bpo8+1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"11b9a2b85477310bcb97034bd7ed063b8360e7334110693cb40454ae48d6d450 2846 gdb_7.11.1-2~bpo8+1.dsc c368fdd458870ed4cd5e7d440f64896418c4dc06d63e80e7d0a6f619929804c0 19330592 gdb_7.11.1.orig.tar.xz 823713027044cc6a5734adb01b9fb7b02230a9df4989c958835a81d574c2199b 52580 gdb_7.11.1-2~bpo8+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/gdb"
+	],
+	"Files": [
+		"f8bc827b2a071f3a73d9c25026641c5f 2846 gdb_7.11.1-2~bpo8+1.dsc 513d231b4121042fab4f60ceb2b52f54 19330592 gdb_7.11.1.orig.tar.xz b8d7fbfcf75e48a32be3eb3a862b43a3 52580 gdb_7.11.1-2~bpo8+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.gnu.org/s/gdb/"
+	],
+	"Maintainer": [
+		"Héctor Orón Martínez <zumbi@debian.org>"
+	],
+	"Package": [
+		"gdb"
+	],
+	"Package-List": [
+		"gdb deb devel optional arch=any gdb-dbg deb debug extra arch=any gdb-minimal deb devel optional arch=any gdb-multiarch deb devel optional arch=any gdb-python2 deb devel optional arch=any gdb-source deb devel optional arch=all gdbserver deb devel optional arch=amd64,armel,armhf,arm64,i386,ia64,m32r,m68k,mips,mipsel,powerpc,powerpcspe,ppc64,ppc64el,s390,s390x,x32"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Luca Bruno <lucab@debian.org>, Samuel Bronson <naesten@gmail.com>, Riku Voipio <riku.voipio@linaro.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-gdb/gdb.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-gdb/gdb.git"
+	],
+	"Version": [
+		"7.11.1-2~bpo8+1"
+	]
 }

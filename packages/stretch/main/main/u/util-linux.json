@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "util-linux, util-linux-locales, mount, bsdutils, fdisk-udeb, libblkid1, libblkid1-udeb, libblkid-dev, libfdisk1, libfdisk1-udeb, libfdisk-dev, libmount1, libmount1-udeb, libmount-dev, libsmartcols1, libsmartcols1-udeb, libsmartcols-dev, libuuid1, uuid-runtime, libuuid1-udeb, uuid-dev, util-linux-udeb, setpriv"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 10), dh-exec (>= 0.13), dpkg-dev (>= 1.17.14), gettext, libcap-ng-dev [linux-any] <!stage1>, libncurses5-dev, libncursesw5-dev, libpam0g-dev <!stage1>, libselinux1-dev (>= 2.6-3~) [linux-any], libsystemd-dev [linux-any] <!stage1>, libtool, libudev-dev [linux-any] <!stage1>, pkg-config, po-debconf, systemd [linux-any] <!stage1>, zlib1g-dev"
-  ],
-  "Checksums-Sha256": [
-    "f84985e3b01d7758bf835484a5861d687ffee07778dadab5adc10a7e312da950 4101 util-linux_2.29.2-1+deb9u1.dsc accea4d678209f97f634f40a93b7e9fcad5915d1f4749f6c47bee6bf110fe8e3 4277668 util-linux_2.29.2.orig.tar.xz 33867c063f828a1937c1dd4797b3cd977a2e7da31eb1227c396f7dbf06dde3a6 74280 util-linux_2.29.2-1+deb9u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/u/util-linux"
-  ],
-  "Files": [
-    "5041092813b91904152dd2bbe25504f8 4101 util-linux_2.29.2-1+deb9u1.dsc 63c40c2068fcbb7e1d5c1d281115d973 4277668 util-linux_2.29.2.orig.tar.xz 7532de196c10edf323d41a8cdd745a8f 74280 util-linux_2.29.2-1+deb9u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian util-linux Maintainers <ah-util-linux@debian.org>"
-  ],
-  "Package": [
-    "util-linux"
-  ],
-  "Package-List": [
-    "bsdutils deb utils required arch=any profile=!stage1 essential=yes fdisk-udeb udeb debian-installer extra arch=hurd-any,linux-any profile=!stage1 libblkid-dev deb libdevel optional arch=any libblkid1 deb libs required arch=any libblkid1-udeb udeb debian-installer optional arch=any libfdisk-dev deb libdevel optional arch=any libfdisk1 deb libs required arch=any libfdisk1-udeb udeb debian-installer optional arch=any libmount-dev deb libdevel optional arch=linux-any libmount1 deb libs required arch=any libmount1-udeb udeb debian-installer optional arch=linux-any libsmartcols-dev deb libdevel optional arch=any libsmartcols1 deb libs required arch=any libsmartcols1-udeb udeb debian-installer optional arch=any libuuid1 deb libs required arch=any libuuid1-udeb udeb debian-installer optional arch=any mount deb admin required arch=linux-any profile=!stage1 essential=yes setpriv deb admin optional arch=linux-any profile=!stage1 util-linux deb utils required arch=any profile=!stage1 essential=yes util-linux-locales deb localization optional arch=all profile=!stage1 util-linux-udeb udeb debian-installer optional arch=any profile=!stage1 uuid-dev deb libdevel optional arch=any uuid-runtime deb utils optional arch=any profile=!stage1"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "utils"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "bash, bc, bsdmainutils, dpkg, grep"
-  ],
-  "Uploaders": [
-    "LaMont Jones <lamont@debian.org>, Andreas Henriksson <andreas@fatal.se>, Adam Conrad <adconrad@0c3.net>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/collab-maint/pkg-util-linux.git/"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/collab-maint/pkg-util-linux.git"
-  ],
-  "Version": [
-    "2.29.2-1+deb9u1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"util-linux, util-linux-locales, mount, bsdutils, fdisk-udeb, libblkid1, libblkid1-udeb, libblkid-dev, libfdisk1, libfdisk1-udeb, libfdisk-dev, libmount1, libmount1-udeb, libmount-dev, libsmartcols1, libsmartcols1-udeb, libsmartcols-dev, libuuid1, uuid-runtime, libuuid1-udeb, uuid-dev, util-linux-udeb, setpriv"
+	],
+	"Build-Depends": [
+		"debhelper (>= 10), dh-exec (>= 0.13), dpkg-dev (>= 1.17.14), gettext, libcap-ng-dev [linux-any] <!stage1>, libncurses5-dev, libncursesw5-dev, libpam0g-dev <!stage1>, libselinux1-dev (>= 2.6-3~) [linux-any], libsystemd-dev [linux-any] <!stage1>, libtool, libudev-dev [linux-any] <!stage1>, pkg-config, po-debconf, systemd [linux-any] <!stage1>, zlib1g-dev"
+	],
+	"Checksums-Sha256": [
+		"f84985e3b01d7758bf835484a5861d687ffee07778dadab5adc10a7e312da950 4101 util-linux_2.29.2-1+deb9u1.dsc accea4d678209f97f634f40a93b7e9fcad5915d1f4749f6c47bee6bf110fe8e3 4277668 util-linux_2.29.2.orig.tar.xz 33867c063f828a1937c1dd4797b3cd977a2e7da31eb1227c396f7dbf06dde3a6 74280 util-linux_2.29.2-1+deb9u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/u/util-linux"
+	],
+	"Files": [
+		"5041092813b91904152dd2bbe25504f8 4101 util-linux_2.29.2-1+deb9u1.dsc 63c40c2068fcbb7e1d5c1d281115d973 4277668 util-linux_2.29.2.orig.tar.xz 7532de196c10edf323d41a8cdd745a8f 74280 util-linux_2.29.2-1+deb9u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian util-linux Maintainers <ah-util-linux@debian.org>"
+	],
+	"Package": [
+		"util-linux"
+	],
+	"Package-List": [
+		"bsdutils deb utils required arch=any profile=!stage1 essential=yes fdisk-udeb udeb debian-installer extra arch=hurd-any,linux-any profile=!stage1 libblkid-dev deb libdevel optional arch=any libblkid1 deb libs required arch=any libblkid1-udeb udeb debian-installer optional arch=any libfdisk-dev deb libdevel optional arch=any libfdisk1 deb libs required arch=any libfdisk1-udeb udeb debian-installer optional arch=any libmount-dev deb libdevel optional arch=linux-any libmount1 deb libs required arch=any libmount1-udeb udeb debian-installer optional arch=linux-any libsmartcols-dev deb libdevel optional arch=any libsmartcols1 deb libs required arch=any libsmartcols1-udeb udeb debian-installer optional arch=any libuuid1 deb libs required arch=any libuuid1-udeb udeb debian-installer optional arch=any mount deb admin required arch=linux-any profile=!stage1 essential=yes setpriv deb admin optional arch=linux-any profile=!stage1 util-linux deb utils required arch=any profile=!stage1 essential=yes util-linux-locales deb localization optional arch=all profile=!stage1 util-linux-udeb udeb debian-installer optional arch=any profile=!stage1 uuid-dev deb libdevel optional arch=any uuid-runtime deb utils optional arch=any profile=!stage1"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"utils"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"bash, bc, bsdmainutils, dpkg, grep"
+	],
+	"Uploaders": [
+		"LaMont Jones <lamont@debian.org>, Andreas Henriksson <andreas@fatal.se>, Adam Conrad <adconrad@0c3.net>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/collab-maint/pkg-util-linux.git/"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/collab-maint/pkg-util-linux.git"
+	],
+	"Version": [
+		"2.29.2-1+deb9u1"
+	]
 }

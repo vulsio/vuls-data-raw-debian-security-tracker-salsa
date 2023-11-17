@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "linux-any"
-  ],
-  "Binary": [
-    "suricata"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, libbpf-dev (>= 1:0.7.0) [amd64 arm64 armel armhf i386 ppc64el s390x ppc64 sparc64 x32], clang [amd64 arm64 armel armhf i386 ppc64el s390x ppc64 sparc64 x32], llvm [amd64 arm64 armel armhf i386 ppc64el s390x ppc64 sparc64 x32], libcap-ng-dev, libelf-dev [amd64 arm64 armel armhf i386 ppc64el s390x ppc64 sparc64 x32], libevent-dev, libgeoip-dev, libhiredis-dev, libjansson-dev, libluajit-5.1-dev [i386 amd64 powerpc mips mipsel armel armhf], libhyperscan-dev (>= 4.4.0) [i386 amd64 x32], rustc (>= 1.61.0), cargo (>= 0.29.0), liblz4-dev, libmagic-dev, libmaxminddb-dev, libnet1-dev | libnet-dev, libnetfilter-log-dev, libnetfilter-queue-dev, libnspr4-dev, libnss3-dev, libpcap-dev, libpcre2-dev, libyaml-dev, python3:any, zlib1g-dev | libz-dev, libhtp-dev (>= 1:0.5.45), procps"
-  ],
-  "Checksums-Sha256": [
-    "347bcde09013b7f40f95b89d1568f8d74181c333328b0ed63713431949ca2036 2817 suricata_7.0.2-1~bpo12+1.dsc f13558253dac79d1e60ea3f035e1c1f1f00da95afa8c1cae15ba3e4c22d33d56 18163680 suricata_7.0.2.orig.tar.xz c1900d833d13329557888961a1bc49c1b4d01458e9473376e58e082d4ca94469 25920 suricata_7.0.2-1~bpo12+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/s/suricata"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://suricata.io"
-  ],
-  "Maintainer": [
-    "Pierre Chifflier <pollux@debian.org>"
-  ],
-  "Package": [
-    "suricata"
-  ],
-  "Package-List": [
-    "suricata deb net optional arch=linux-any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "@builddeps@, geoip-database, procps, systemd"
-  ],
-  "Uploaders": [
-    "Sascha Steinbiss <satta@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/pkg-suricata-team/pkg-suricata"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/pkg-suricata-team/pkg-suricata.git"
-  ],
-  "Version": [
-    "1:7.0.2-1~bpo12+1"
-  ]
+	"Architecture": [
+		"linux-any"
+	],
+	"Binary": [
+		"suricata"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-python, libbpf-dev (>= 1:0.7.0) [amd64 arm64 armel armhf i386 ppc64el s390x ppc64 sparc64 x32], clang [amd64 arm64 armel armhf i386 ppc64el s390x ppc64 sparc64 x32], llvm [amd64 arm64 armel armhf i386 ppc64el s390x ppc64 sparc64 x32], libcap-ng-dev, libelf-dev [amd64 arm64 armel armhf i386 ppc64el s390x ppc64 sparc64 x32], libevent-dev, libgeoip-dev, libhiredis-dev, libjansson-dev, libluajit-5.1-dev [i386 amd64 powerpc mips mipsel armel armhf], libhyperscan-dev (>= 4.4.0) [i386 amd64 x32], rustc (>= 1.61.0), cargo (>= 0.29.0), liblz4-dev, libmagic-dev, libmaxminddb-dev, libnet1-dev | libnet-dev, libnetfilter-log-dev, libnetfilter-queue-dev, libnspr4-dev, libnss3-dev, libpcap-dev, libpcre2-dev, libyaml-dev, python3:any, zlib1g-dev | libz-dev, libhtp-dev (>= 1:0.5.45), procps"
+	],
+	"Checksums-Sha256": [
+		"347bcde09013b7f40f95b89d1568f8d74181c333328b0ed63713431949ca2036 2817 suricata_7.0.2-1~bpo12+1.dsc f13558253dac79d1e60ea3f035e1c1f1f00da95afa8c1cae15ba3e4c22d33d56 18163680 suricata_7.0.2.orig.tar.xz c1900d833d13329557888961a1bc49c1b4d01458e9473376e58e082d4ca94469 25920 suricata_7.0.2-1~bpo12+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/s/suricata"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://suricata.io"
+	],
+	"Maintainer": [
+		"Pierre Chifflier <pollux@debian.org>"
+	],
+	"Package": [
+		"suricata"
+	],
+	"Package-List": [
+		"suricata deb net optional arch=linux-any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"@builddeps@, geoip-database, procps, systemd"
+	],
+	"Uploaders": [
+		"Sascha Steinbiss <satta@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/pkg-suricata-team/pkg-suricata"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/pkg-suricata-team/pkg-suricata.git"
+	],
+	"Version": [
+		"1:7.0.2-1~bpo12+1"
+	]
 }

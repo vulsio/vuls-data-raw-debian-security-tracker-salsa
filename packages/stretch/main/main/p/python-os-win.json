@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-os-win, python3-os-win, python-os-win-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-python, openstack-pkg-tools, python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.8), python3-setuptools"
-  ],
-  "Build-Depends-Indep": [
-    "python-babel (>= 2.3.4), python-coverage, python-ddt (>= 1.0.1), python-eventlet (>= 0.18.2), python-hacking, python-mock (>= 1.3), python-oslo.concurrency (>= 3.8.0), python-oslo.config (>= 1:3.14.0), python-oslo.i18n (>= 3.0.0), python-oslo.log (>= 2.0.0), python-oslo.service (>= 1.10.0), python-oslo.utils (>= 3.16.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.11.0), python3-babel (>= 2.3.4), python3-ddt (>= 1.0.1), python3-eventlet (>= 0.18.2), python3-mock (>= 1.3), python3-oslo.concurrency (>= 3.8.0), python3-oslo.config (>= 1:3.14.0), python3-oslo.i18n (>= 3.0.0), python3-oslo.log (>= 2.0.0), python3-oslo.service (>= 1.10.0), python3-oslo.utils (>= 3.16.0), python3-oslotest (>= 1:1.11.0), python3-subunit, subunit, testrepository"
-  ],
-  "Checksums-Sha256": [
-    "8c8bdb7d05a515c060c4f013ffaaeae8b5048c95c07d7fce0994fe5faadd12e8 3016 python-os-win_1.2.0-2.dsc 6c67d35e5dd06a547f5e4cfe140d27a48210324462138ec0d21552ace3159f51 111656 python-os-win_1.2.0.orig.tar.xz adc4bc85080a8e0bb22d6cabbe20039958df3e2c036a9bdb5dd03a4cc3841aeb 3340 python-os-win_1.2.0-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/python-os-win"
-  ],
-  "Files": [
-    "ac82bbd341ad55836d0c633ff1d63a29 3016 python-os-win_1.2.0-2.dsc 8ca44db56f1099a067d7476f0e53db51 111656 python-os-win_1.2.0.orig.tar.xz 6ed2cccddb5b2fc750730f59973c8acb 3340 python-os-win_1.2.0-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/openstack/os-win"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "python-os-win"
-  ],
-  "Package-List": [
-    "python-os-win deb python optional arch=all python-os-win-doc deb doc optional arch=all python3-os-win deb python optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://git.openstack.org/cgit/openstack/deb-python-os-win?h=debian%2Fnewton"
-  ],
-  "Vcs-Git": [
-    "https://git.openstack.org/openstack/deb-python-os-win -b debian/newton"
-  ],
-  "Version": [
-    "1.2.0-2"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-os-win, python3-os-win, python-os-win-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-python, openstack-pkg-tools, python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.8), python3-setuptools"
+	],
+	"Build-Depends-Indep": [
+		"python-babel (>= 2.3.4), python-coverage, python-ddt (>= 1.0.1), python-eventlet (>= 0.18.2), python-hacking, python-mock (>= 1.3), python-oslo.concurrency (>= 3.8.0), python-oslo.config (>= 1:3.14.0), python-oslo.i18n (>= 3.0.0), python-oslo.log (>= 2.0.0), python-oslo.service (>= 1.10.0), python-oslo.utils (>= 3.16.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.11.0), python3-babel (>= 2.3.4), python3-ddt (>= 1.0.1), python3-eventlet (>= 0.18.2), python3-mock (>= 1.3), python3-oslo.concurrency (>= 3.8.0), python3-oslo.config (>= 1:3.14.0), python3-oslo.i18n (>= 3.0.0), python3-oslo.log (>= 2.0.0), python3-oslo.service (>= 1.10.0), python3-oslo.utils (>= 3.16.0), python3-oslotest (>= 1:1.11.0), python3-subunit, subunit, testrepository"
+	],
+	"Checksums-Sha256": [
+		"8c8bdb7d05a515c060c4f013ffaaeae8b5048c95c07d7fce0994fe5faadd12e8 3016 python-os-win_1.2.0-2.dsc 6c67d35e5dd06a547f5e4cfe140d27a48210324462138ec0d21552ace3159f51 111656 python-os-win_1.2.0.orig.tar.xz adc4bc85080a8e0bb22d6cabbe20039958df3e2c036a9bdb5dd03a4cc3841aeb 3340 python-os-win_1.2.0-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-os-win"
+	],
+	"Files": [
+		"ac82bbd341ad55836d0c633ff1d63a29 3016 python-os-win_1.2.0-2.dsc 8ca44db56f1099a067d7476f0e53db51 111656 python-os-win_1.2.0.orig.tar.xz 6ed2cccddb5b2fc750730f59973c8acb 3340 python-os-win_1.2.0-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/openstack/os-win"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"python-os-win"
+	],
+	"Package-List": [
+		"python-os-win deb python optional arch=all python-os-win-doc deb doc optional arch=all python3-os-win deb python optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://git.openstack.org/cgit/openstack/deb-python-os-win?h=debian%2Fnewton"
+	],
+	"Vcs-Git": [
+		"https://git.openstack.org/openstack/deb-python-os-win -b debian/newton"
+	],
+	"Version": [
+		"1.2.0-2"
+	]
 }

@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "libsamdb0, libsamdb-dev, libsamba-policy0, libsamba-policy-dev, samba4-common-bin, samba4-clients, samba4-testsuite, registry-tools, libparse-pidl-perl, samba4-dev, libgensec0, libgensec-dev, libndr0, libndr-dev, libndr-standard0, libndr-standard-dev, libdcerpc0, libdcerpc-dev, libdcerpc-server0, libdcerpc-server-dev, libregistry0, libregistry-dev, libsamba-hostconfig0, libsamba-hostconfig-dev, libtorture0, libtorture-dev, python-samba, libsamba-util-dev, libsamba-util0, samba-dsdb-modules, libsmbclient-raw0, libsmbclient-raw-dev, libsamba-credentials0, libsamba-credentials-dev"
-  ],
-  "Build-Depends": [
-    "bison, comerr-dev, debhelper (>> 9), docbook-xml, docbook-xsl, flex, heimdal-dev (>= 1.6~), libattr1-dev, libacl1-dev, libblkid-dev, libbsd-dev, libgnutls-dev, libheimntlm0-heimdal (>= 1.6~), libldap2-dev, libldb-dev (>= 1:1.1.6~), libpam0g-dev, libparse-yapp-perl, libpopt-dev, libreadline-dev, libsmbclient-dev, libsubunit-dev, libtalloc-dev (>= 2.0.7~), libtdb-dev (>= 1.2.10~), libtevent-dev (>= 0.9.15~), libwbclient-dev, perl, perl-modules, pkg-config, po-debconf, python-all-dev (>= 2.6.6-3), python-dnspython, python-ldb (>= 1:1.1.6~), python-ldb-dev (>= 1:1.1.6~), python-talloc-dev (>= 2.0.7~), python-tdb (>= 1.2.10~), python-testtools, samba-common (>= 2:3.4.0~pre2), subunit (>= 0.0.6), xsltproc, zlib1g-dev (>= 1:1.2.3)"
-  ],
-  "Checksums-Sha1": [
-    "eaf6f64cbdca6b99095871f044dd703916220ddf 4688 samba4_4.0.0~beta2+dfsg1-3.2+deb7u2.dsc f70a8de07e4fe51d9686b87e721275fa8975d812 20566326 samba4_4.0.0~beta2+dfsg1.orig.tar.gz 57c7770d5155a3b92e71bf67902d55ffa07e9c57 113028 samba4_4.0.0~beta2+dfsg1-3.2+deb7u2.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "1800516c426259706528cfeb2bcc40cbda6422a45ba2f9d4496d25265ad74cd8 4688 samba4_4.0.0~beta2+dfsg1-3.2+deb7u2.dsc 7de9ba351d687208a0fe1ce66945c679f8407b64cb4c6ae95f9b50cac435571b 20566326 samba4_4.0.0~beta2+dfsg1.orig.tar.gz 2a181bf0021ebbe7cd1ecdaceb6e0181f9b00fe6ca9498bce9df6774c298638e 113028 samba4_4.0.0~beta2+dfsg1-3.2+deb7u2.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/s/samba4"
-  ],
-  "Dm-Upload-Allowed": [
-    "yes"
-  ],
-  "Files": [
-    "b9389be921278199392fa4ddc00df1ae 4688 samba4_4.0.0~beta2+dfsg1-3.2+deb7u2.dsc a363b697ebb30ffc77b0aa757fd954dc 20566326 samba4_4.0.0~beta2+dfsg1.orig.tar.gz 7f45cfa98d56c22b6e920d17cf902881 113028 samba4_4.0.0~beta2+dfsg1-3.2+deb7u2.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.samba.org/"
-  ],
-  "Maintainer": [
-    "Samba Debian Maintainers <pkg-samba-maint@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "samba4"
-  ],
-  "Package-List": [
-    "libdcerpc-dev deb libdevel optional libdcerpc-server-dev deb libdevel optional libdcerpc-server0 deb libs optional libdcerpc0 deb net optional libgensec-dev deb libdevel optional libgensec0 deb net optional libndr-dev deb libdevel optional libndr-standard-dev deb libdevel optional libndr-standard0 deb libs optional libndr0 deb libs optional libparse-pidl-perl deb perl optional libregistry-dev deb libdevel optional libregistry0 deb libs optional libsamba-credentials-dev deb libdevel optional libsamba-credentials0 deb net optional libsamba-hostconfig-dev deb libdevel optional libsamba-hostconfig0 deb libs optional libsamba-policy-dev deb libdevel optional libsamba-policy0 deb net optional libsamba-util-dev deb libdevel optional libsamba-util0 deb libs optional libsamdb-dev deb libdevel optional libsamdb0 deb net optional libsmbclient-raw-dev deb libdevel optional libsmbclient-raw0 deb net optional libtorture-dev deb libdevel optional libtorture0 deb libs optional python-samba deb python optional registry-tools deb net optional samba-dsdb-modules deb libs optional samba4-clients deb net optional samba4-common-bin deb net optional samba4-dev deb devel optional samba4-testsuite deb net optional"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Steve Langasek <vorlon@debian.org>, Christian Perrier <bubulle@debian.org>, Noèl Köthe <noel@debian.org>, Steinar H. Gunderson <sesse@debian.org>, Jelmer Vernooij <jelmer@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://bzr.debian.org/lh/pkg-samba/samba4/unstable"
-  ],
-  "Vcs-Bzr": [
-    "http://bzr.debian.org/pkg-samba/samba4/unstable"
-  ],
-  "Version": [
-    "4.0.0~beta2+dfsg1-3.2+deb7u2"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"libsamdb0, libsamdb-dev, libsamba-policy0, libsamba-policy-dev, samba4-common-bin, samba4-clients, samba4-testsuite, registry-tools, libparse-pidl-perl, samba4-dev, libgensec0, libgensec-dev, libndr0, libndr-dev, libndr-standard0, libndr-standard-dev, libdcerpc0, libdcerpc-dev, libdcerpc-server0, libdcerpc-server-dev, libregistry0, libregistry-dev, libsamba-hostconfig0, libsamba-hostconfig-dev, libtorture0, libtorture-dev, python-samba, libsamba-util-dev, libsamba-util0, samba-dsdb-modules, libsmbclient-raw0, libsmbclient-raw-dev, libsamba-credentials0, libsamba-credentials-dev"
+	],
+	"Build-Depends": [
+		"bison, comerr-dev, debhelper (>> 9), docbook-xml, docbook-xsl, flex, heimdal-dev (>= 1.6~), libattr1-dev, libacl1-dev, libblkid-dev, libbsd-dev, libgnutls-dev, libheimntlm0-heimdal (>= 1.6~), libldap2-dev, libldb-dev (>= 1:1.1.6~), libpam0g-dev, libparse-yapp-perl, libpopt-dev, libreadline-dev, libsmbclient-dev, libsubunit-dev, libtalloc-dev (>= 2.0.7~), libtdb-dev (>= 1.2.10~), libtevent-dev (>= 0.9.15~), libwbclient-dev, perl, perl-modules, pkg-config, po-debconf, python-all-dev (>= 2.6.6-3), python-dnspython, python-ldb (>= 1:1.1.6~), python-ldb-dev (>= 1:1.1.6~), python-talloc-dev (>= 2.0.7~), python-tdb (>= 1.2.10~), python-testtools, samba-common (>= 2:3.4.0~pre2), subunit (>= 0.0.6), xsltproc, zlib1g-dev (>= 1:1.2.3)"
+	],
+	"Checksums-Sha1": [
+		"eaf6f64cbdca6b99095871f044dd703916220ddf 4688 samba4_4.0.0~beta2+dfsg1-3.2+deb7u2.dsc f70a8de07e4fe51d9686b87e721275fa8975d812 20566326 samba4_4.0.0~beta2+dfsg1.orig.tar.gz 57c7770d5155a3b92e71bf67902d55ffa07e9c57 113028 samba4_4.0.0~beta2+dfsg1-3.2+deb7u2.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"1800516c426259706528cfeb2bcc40cbda6422a45ba2f9d4496d25265ad74cd8 4688 samba4_4.0.0~beta2+dfsg1-3.2+deb7u2.dsc 7de9ba351d687208a0fe1ce66945c679f8407b64cb4c6ae95f9b50cac435571b 20566326 samba4_4.0.0~beta2+dfsg1.orig.tar.gz 2a181bf0021ebbe7cd1ecdaceb6e0181f9b00fe6ca9498bce9df6774c298638e 113028 samba4_4.0.0~beta2+dfsg1-3.2+deb7u2.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/s/samba4"
+	],
+	"Dm-Upload-Allowed": [
+		"yes"
+	],
+	"Files": [
+		"b9389be921278199392fa4ddc00df1ae 4688 samba4_4.0.0~beta2+dfsg1-3.2+deb7u2.dsc a363b697ebb30ffc77b0aa757fd954dc 20566326 samba4_4.0.0~beta2+dfsg1.orig.tar.gz 7f45cfa98d56c22b6e920d17cf902881 113028 samba4_4.0.0~beta2+dfsg1-3.2+deb7u2.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.samba.org/"
+	],
+	"Maintainer": [
+		"Samba Debian Maintainers <pkg-samba-maint@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"samba4"
+	],
+	"Package-List": [
+		"libdcerpc-dev deb libdevel optional libdcerpc-server-dev deb libdevel optional libdcerpc-server0 deb libs optional libdcerpc0 deb net optional libgensec-dev deb libdevel optional libgensec0 deb net optional libndr-dev deb libdevel optional libndr-standard-dev deb libdevel optional libndr-standard0 deb libs optional libndr0 deb libs optional libparse-pidl-perl deb perl optional libregistry-dev deb libdevel optional libregistry0 deb libs optional libsamba-credentials-dev deb libdevel optional libsamba-credentials0 deb net optional libsamba-hostconfig-dev deb libdevel optional libsamba-hostconfig0 deb libs optional libsamba-policy-dev deb libdevel optional libsamba-policy0 deb net optional libsamba-util-dev deb libdevel optional libsamba-util0 deb libs optional libsamdb-dev deb libdevel optional libsamdb0 deb net optional libsmbclient-raw-dev deb libdevel optional libsmbclient-raw0 deb net optional libtorture-dev deb libdevel optional libtorture0 deb libs optional python-samba deb python optional registry-tools deb net optional samba-dsdb-modules deb libs optional samba4-clients deb net optional samba4-common-bin deb net optional samba4-dev deb devel optional samba4-testsuite deb net optional"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Steve Langasek <vorlon@debian.org>, Christian Perrier <bubulle@debian.org>, Noèl Köthe <noel@debian.org>, Steinar H. Gunderson <sesse@debian.org>, Jelmer Vernooij <jelmer@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://bzr.debian.org/lh/pkg-samba/samba4/unstable"
+	],
+	"Vcs-Bzr": [
+		"http://bzr.debian.org/pkg-samba/samba4/unstable"
+	],
+	"Version": [
+		"4.0.0~beta2+dfsg1-3.2+deb7u2"
+	]
 }

@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "gnome-settings-daemon, gnome-settings-daemon-dev"
-  ],
-  "Build-Depends": [
-    "cdbs, debhelper (>= 8.1.0~), gnome-pkg-tools, dh-autoreconf, autotools-dev, intltool (>= 0.37.1), libdbus-glib-1-dev (>= 0.74), libglib2.0-dev (>= 2.31.0), libgtk-3-dev (>= 3.3.18), libnotify-dev (>= 0.7.3), libxt-dev, libxi-dev, libxtst-dev, libfontconfig1-dev, libxext-dev, libx11-dev, libgnomekbd-dev (>= 2.91.90), libxklavier-dev (>= 5.0), libgstreamer0.10-dev (>= 0.10.1.2), libgstreamer-plugins-base0.10-dev (>= 0.10.1.2), gsettings-desktop-schemas-dev (>= 3.3.0), libgnome-desktop-3-dev (>= 3.3.92), libpulse-dev (>= 0.9.23), libcanberra-gtk3-dev, libcups2-dev, libpolkit-gobject-1-dev, libpackagekit-glib2-dev (>= 0.6.4), libupower-glib-dev (>= 0.9.11), libgudev-1.0-dev [linux-any], libcolord-dev (>= 0.1.12), liblcms2-dev, libnss3-dev, libwacom-dev (>= 0.6) [!hurd-any !kfreebsd-any !s390 !s390x], xserver-xorg-input-wacom [!hurd-any !kfreebsd-any !s390 !s390x]"
-  ],
-  "Checksums-Sha1": [
-    "7da529fa76b8995559ca57483160120ddeb8956d 2616 gnome-settings-daemon_3.4.2+git20121218.7c1322-3+deb7u3.dsc 4e099e4f91fb87b4081de26121f38dbe98b1aacc 1487440 gnome-settings-daemon_3.4.2+git20121218.7c1322.orig.tar.xz 8ae8e2549903b3ce96dab042297a4363d76c61d4 35796 gnome-settings-daemon_3.4.2+git20121218.7c1322-3+deb7u3.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "c8d5fd6fff8e5113412f4d6e4de88fe7274c29b7df00eefb023eabaca44e7a84 2616 gnome-settings-daemon_3.4.2+git20121218.7c1322-3+deb7u3.dsc 61662450a38490023fcf11e6d32364972912d6d78b00d357fe99a5315a758e6d 1487440 gnome-settings-daemon_3.4.2+git20121218.7c1322.orig.tar.xz 4013dc8b0a0c00c4422b11b64bbc944e1904ffffe821850ff306eb1a93bb65b8 35796 gnome-settings-daemon_3.4.2+git20121218.7c1322-3+deb7u3.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/g/gnome-settings-daemon"
-  ],
-  "Files": [
-    "66e48e7a4607801d158e5f9cca9c7a40 2616 gnome-settings-daemon_3.4.2+git20121218.7c1322-3+deb7u3.dsc a0f3b50e90861ab458a1bb1a55e35747 1487440 gnome-settings-daemon_3.4.2+git20121218.7c1322.orig.tar.xz 165ae44227ae62b517b707cce09fd487 35796 gnome-settings-daemon_3.4.2+git20121218.7c1322-3+deb7u3.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "gnome-settings-daemon"
-  ],
-  "Package-List": [
-    "gnome-settings-daemon deb gnome optional gnome-settings-daemon-dev deb libdevel optional"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "gnome"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Emilio Pozuelo Monfort <pochu@debian.org>, Josselin Mouette <joss@debian.org>, Michael Biebl <biebl@debian.org>, Sjoerd Simons <sjoerd@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/gnome-settings-daemon/"
-  ],
-  "Vcs-Svn": [
-    "svn://anonscm.debian.org/svn/pkg-gnome/desktop/unstable/gnome-settings-daemon/"
-  ],
-  "Version": [
-    "3.4.2+git20121218.7c1322-3+deb7u3"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"gnome-settings-daemon, gnome-settings-daemon-dev"
+	],
+	"Build-Depends": [
+		"cdbs, debhelper (>= 8.1.0~), gnome-pkg-tools, dh-autoreconf, autotools-dev, intltool (>= 0.37.1), libdbus-glib-1-dev (>= 0.74), libglib2.0-dev (>= 2.31.0), libgtk-3-dev (>= 3.3.18), libnotify-dev (>= 0.7.3), libxt-dev, libxi-dev, libxtst-dev, libfontconfig1-dev, libxext-dev, libx11-dev, libgnomekbd-dev (>= 2.91.90), libxklavier-dev (>= 5.0), libgstreamer0.10-dev (>= 0.10.1.2), libgstreamer-plugins-base0.10-dev (>= 0.10.1.2), gsettings-desktop-schemas-dev (>= 3.3.0), libgnome-desktop-3-dev (>= 3.3.92), libpulse-dev (>= 0.9.23), libcanberra-gtk3-dev, libcups2-dev, libpolkit-gobject-1-dev, libpackagekit-glib2-dev (>= 0.6.4), libupower-glib-dev (>= 0.9.11), libgudev-1.0-dev [linux-any], libcolord-dev (>= 0.1.12), liblcms2-dev, libnss3-dev, libwacom-dev (>= 0.6) [!hurd-any !kfreebsd-any !s390 !s390x], xserver-xorg-input-wacom [!hurd-any !kfreebsd-any !s390 !s390x]"
+	],
+	"Checksums-Sha1": [
+		"7da529fa76b8995559ca57483160120ddeb8956d 2616 gnome-settings-daemon_3.4.2+git20121218.7c1322-3+deb7u3.dsc 4e099e4f91fb87b4081de26121f38dbe98b1aacc 1487440 gnome-settings-daemon_3.4.2+git20121218.7c1322.orig.tar.xz 8ae8e2549903b3ce96dab042297a4363d76c61d4 35796 gnome-settings-daemon_3.4.2+git20121218.7c1322-3+deb7u3.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"c8d5fd6fff8e5113412f4d6e4de88fe7274c29b7df00eefb023eabaca44e7a84 2616 gnome-settings-daemon_3.4.2+git20121218.7c1322-3+deb7u3.dsc 61662450a38490023fcf11e6d32364972912d6d78b00d357fe99a5315a758e6d 1487440 gnome-settings-daemon_3.4.2+git20121218.7c1322.orig.tar.xz 4013dc8b0a0c00c4422b11b64bbc944e1904ffffe821850ff306eb1a93bb65b8 35796 gnome-settings-daemon_3.4.2+git20121218.7c1322-3+deb7u3.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/g/gnome-settings-daemon"
+	],
+	"Files": [
+		"66e48e7a4607801d158e5f9cca9c7a40 2616 gnome-settings-daemon_3.4.2+git20121218.7c1322-3+deb7u3.dsc a0f3b50e90861ab458a1bb1a55e35747 1487440 gnome-settings-daemon_3.4.2+git20121218.7c1322.orig.tar.xz 165ae44227ae62b517b707cce09fd487 35796 gnome-settings-daemon_3.4.2+git20121218.7c1322-3+deb7u3.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"gnome-settings-daemon"
+	],
+	"Package-List": [
+		"gnome-settings-daemon deb gnome optional gnome-settings-daemon-dev deb libdevel optional"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"gnome"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Emilio Pozuelo Monfort <pochu@debian.org>, Josselin Mouette <joss@debian.org>, Michael Biebl <biebl@debian.org>, Sjoerd Simons <sjoerd@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/gnome-settings-daemon/"
+	],
+	"Vcs-Svn": [
+		"svn://anonscm.debian.org/svn/pkg-gnome/desktop/unstable/gnome-settings-daemon/"
+	],
+	"Version": [
+		"3.4.2+git20121218.7c1322-3+deb7u3"
+	]
 }

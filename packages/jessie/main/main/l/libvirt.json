@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "libvirt-bin, libvirt-clients, libvirt-daemon, libvirt-daemon-system, libvirt0, libvirt0-dbg, libvirt-doc, libvirt-dev, libvirt-sanlock"
-  ],
-  "Build-Conflicts": [
-    "dpkg-dev (= 1.15.3)"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 7), dh-systemd (>= 1.18~), libxml2-dev, libncurses5-dev, libreadline-dev, zlib1g-dev, libgcrypt20-dev, libgnutls28-dev, libavahi-client-dev, libsasl2-dev, libxen-dev (>= 4.3) [i386 amd64], lvm2 [linux-any], open-iscsi [linux-any], libparted0-dev (>= 2.2), parted (>= 2.2), libdevmapper-dev [linux-any], uuid-dev, libudev-dev [linux-any], libpciaccess-dev, kmod [linux-any], policykit-1 (>= 0.105-4~), libcap-ng-dev [linux-any], libnl-3-dev [linux-any], libnl-route-3-dev [linux-any], libyajl-dev, libpcap0.8-dev, libnuma-dev [amd64 i386 ia64 mips mipsel powerpc], radvd [linux-any], libnetcf-dev (>= 1:0.2.3-3~) [linux-any], libsanlock-dev [linux-any], libaudit-dev [linux-any], libselinux1-dev (>= 2.0.82) [linux-any], libapparmor-dev [linux-any], libsystemd-daemon-dev [linux-any], systemtap-sdt-dev [amd64 armel armhf i386 ia64 powerpc s390], python, sheepdog [linux-any], librbd-dev [linux-any], librados-dev [linux-any], libfuse-dev [linux-any], libssh2-1-dev, augeas-tools, dwarves, libxml2-utils, dnsmasq-base, openssh-client, netcat-openbsd, ebtables [linux-any], iptables [linux-any], qemu-utils [linux-any]"
-  ],
-  "Checksums-Sha1": [
-    "987775d3633e17017b0099f8a3bb1f9b8c878d51 3623 libvirt_1.2.9-9+deb8u5.dsc f2de4cda8640b3abb13e6b30dd4882cc7e7b39e3 30154430 libvirt_1.2.9.orig.tar.gz e16d69f634020a8e3c343fcaa44c8e83a8ae452a 62684 libvirt_1.2.9-9+deb8u5.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "1a4a2ae56dd6f0607049f3594d11d3229c8b03f2f65981d1e0b1d20b7b71478e 3623 libvirt_1.2.9-9+deb8u5.dsc 95931a5a52f451b9ab73d6a5ae11a5740e1ba69a66520c2a0cffc6068a7e8fc4 30154430 libvirt_1.2.9.orig.tar.gz 6a99164b43068f8d23bd3a99250623e6b0a52e527ffc7fad2fec62468bc5f4aa 62684 libvirt_1.2.9-9+deb8u5.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/libv/libvirt"
-  ],
-  "Files": [
-    "fdc5a235a6551eea1d80407ae80b6dac 3623 libvirt_1.2.9-9+deb8u5.dsc f017075995062ff1d15577b0b093d02e 30154430 libvirt_1.2.9.orig.tar.gz 146e41243688490a60ca517d914cf18c 62684 libvirt_1.2.9-9+deb8u5.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://libvirt.org"
-  ],
-  "Maintainer": [
-    "Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "libvirt"
-  ],
-  "Package-List": [
-    "libvirt-bin deb oldlibs extra arch=any libvirt-clients deb admin optional arch=any libvirt-daemon deb admin optional arch=any libvirt-daemon-system deb admin optional arch=any libvirt-dev deb libdevel optional arch=any libvirt-doc deb doc optional arch=all libvirt-sanlock deb libs extra arch=linux-any libvirt0 deb libs optional arch=any libvirt0-dbg deb debug extra arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "devel"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Guido Günther <agx@sigxcpu.org>, Laurent Léonard <laurent@open-minds.org>"
-  ],
-  "Vcs-Browser": [
-    "http://git.debian.org/?p=pkg-libvirt/libvirt.git"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/git/pkg-libvirt/libvirt.git"
-  ],
-  "Version": [
-    "1.2.9-9+deb8u5"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libvirt-bin, libvirt-clients, libvirt-daemon, libvirt-daemon-system, libvirt0, libvirt0-dbg, libvirt-doc, libvirt-dev, libvirt-sanlock"
+	],
+	"Build-Conflicts": [
+		"dpkg-dev (= 1.15.3)"
+	],
+	"Build-Depends": [
+		"debhelper (>= 7), dh-systemd (>= 1.18~), libxml2-dev, libncurses5-dev, libreadline-dev, zlib1g-dev, libgcrypt20-dev, libgnutls28-dev, libavahi-client-dev, libsasl2-dev, libxen-dev (>= 4.3) [i386 amd64], lvm2 [linux-any], open-iscsi [linux-any], libparted0-dev (>= 2.2), parted (>= 2.2), libdevmapper-dev [linux-any], uuid-dev, libudev-dev [linux-any], libpciaccess-dev, kmod [linux-any], policykit-1 (>= 0.105-4~), libcap-ng-dev [linux-any], libnl-3-dev [linux-any], libnl-route-3-dev [linux-any], libyajl-dev, libpcap0.8-dev, libnuma-dev [amd64 i386 ia64 mips mipsel powerpc], radvd [linux-any], libnetcf-dev (>= 1:0.2.3-3~) [linux-any], libsanlock-dev [linux-any], libaudit-dev [linux-any], libselinux1-dev (>= 2.0.82) [linux-any], libapparmor-dev [linux-any], libsystemd-daemon-dev [linux-any], systemtap-sdt-dev [amd64 armel armhf i386 ia64 powerpc s390], python, sheepdog [linux-any], librbd-dev [linux-any], librados-dev [linux-any], libfuse-dev [linux-any], libssh2-1-dev, augeas-tools, dwarves, libxml2-utils, dnsmasq-base, openssh-client, netcat-openbsd, ebtables [linux-any], iptables [linux-any], qemu-utils [linux-any]"
+	],
+	"Checksums-Sha1": [
+		"987775d3633e17017b0099f8a3bb1f9b8c878d51 3623 libvirt_1.2.9-9+deb8u5.dsc f2de4cda8640b3abb13e6b30dd4882cc7e7b39e3 30154430 libvirt_1.2.9.orig.tar.gz e16d69f634020a8e3c343fcaa44c8e83a8ae452a 62684 libvirt_1.2.9-9+deb8u5.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"1a4a2ae56dd6f0607049f3594d11d3229c8b03f2f65981d1e0b1d20b7b71478e 3623 libvirt_1.2.9-9+deb8u5.dsc 95931a5a52f451b9ab73d6a5ae11a5740e1ba69a66520c2a0cffc6068a7e8fc4 30154430 libvirt_1.2.9.orig.tar.gz 6a99164b43068f8d23bd3a99250623e6b0a52e527ffc7fad2fec62468bc5f4aa 62684 libvirt_1.2.9-9+deb8u5.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/libv/libvirt"
+	],
+	"Files": [
+		"fdc5a235a6551eea1d80407ae80b6dac 3623 libvirt_1.2.9-9+deb8u5.dsc f017075995062ff1d15577b0b093d02e 30154430 libvirt_1.2.9.orig.tar.gz 146e41243688490a60ca517d914cf18c 62684 libvirt_1.2.9-9+deb8u5.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://libvirt.org"
+	],
+	"Maintainer": [
+		"Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"libvirt"
+	],
+	"Package-List": [
+		"libvirt-bin deb oldlibs extra arch=any libvirt-clients deb admin optional arch=any libvirt-daemon deb admin optional arch=any libvirt-daemon-system deb admin optional arch=any libvirt-dev deb libdevel optional arch=any libvirt-doc deb doc optional arch=all libvirt-sanlock deb libs extra arch=linux-any libvirt0 deb libs optional arch=any libvirt0-dbg deb debug extra arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"devel"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Guido Günther <agx@sigxcpu.org>, Laurent Léonard <laurent@open-minds.org>"
+	],
+	"Vcs-Browser": [
+		"http://git.debian.org/?p=pkg-libvirt/libvirt.git"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/git/pkg-libvirt/libvirt.git"
+	],
+	"Version": [
+		"1.2.9-9+deb8u5"
+	]
 }

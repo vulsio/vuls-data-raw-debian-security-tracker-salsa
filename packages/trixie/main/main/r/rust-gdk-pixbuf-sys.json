@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-gdk-pixbuf-sys-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-gio-sys-0.18+default-dev <!nocheck>, librust-glib-sys-0.18+default-dev <!nocheck>, librust-gobject-sys-0.18+default-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-system-deps-6+default-dev <!nocheck>, libgdk-pixbuf-2.0-dev <!nocheck>, xmlstarlet <!nocheck>, gir-rust-code-generator <!nocheck>, libgirepository1.0-dev <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "c609cc6d321d3b3a52134e36ba1dcb9b8566e0d0e75b9a8860852ede8c104d6d 2640 rust-gdk-pixbuf-sys_0.18.0-2.dsc 3f9839ea644ed9c97a34d129ad56d38a25e6756f99f3a88e15cd39c20629caf7 9674 rust-gdk-pixbuf-sys_0.18.0.orig.tar.gz 5ac316cfeb00eb194232b94fbbb1c41e38db2815681d176c9650b4c82ee540b3 3936 rust-gdk-pixbuf-sys_0.18.0-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-gdk-pixbuf-sys"
-  ],
-  "Files": [
-    "ac2e3c500f7eaaff5bd8d224e48933ca 2640 rust-gdk-pixbuf-sys_0.18.0-2.dsc 269e78642167e275629147152593e81b 9674 rust-gdk-pixbuf-sys_0.18.0.orig.tar.gz d37287c5499e96c657a64f3f6d146d79 3936 rust-gdk-pixbuf-sys_0.18.0-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://gtk-rs.org/"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-gdk-pixbuf-sys"
-  ],
-  "Package-List": [
-    "librust-gdk-pixbuf-sys-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-shell-words-1+default-dev, librust-tempfile-3+default-dev"
-  ],
-  "Uploaders": [
-    "Matthias Geiger <werdahias@riseup.net>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gdk-pixbuf-sys"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/gdk-pixbuf-sys]"
-  ],
-  "Version": [
-    "0.18.0-2"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-gdk-pixbuf-sys-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-gio-sys-0.18+default-dev <!nocheck>, librust-glib-sys-0.18+default-dev <!nocheck>, librust-gobject-sys-0.18+default-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-system-deps-6+default-dev <!nocheck>, libgdk-pixbuf-2.0-dev <!nocheck>, xmlstarlet <!nocheck>, gir-rust-code-generator <!nocheck>, libgirepository1.0-dev <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"c609cc6d321d3b3a52134e36ba1dcb9b8566e0d0e75b9a8860852ede8c104d6d 2640 rust-gdk-pixbuf-sys_0.18.0-2.dsc 3f9839ea644ed9c97a34d129ad56d38a25e6756f99f3a88e15cd39c20629caf7 9674 rust-gdk-pixbuf-sys_0.18.0.orig.tar.gz 5ac316cfeb00eb194232b94fbbb1c41e38db2815681d176c9650b4c82ee540b3 3936 rust-gdk-pixbuf-sys_0.18.0-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-gdk-pixbuf-sys"
+	],
+	"Files": [
+		"ac2e3c500f7eaaff5bd8d224e48933ca 2640 rust-gdk-pixbuf-sys_0.18.0-2.dsc 269e78642167e275629147152593e81b 9674 rust-gdk-pixbuf-sys_0.18.0.orig.tar.gz d37287c5499e96c657a64f3f6d146d79 3936 rust-gdk-pixbuf-sys_0.18.0-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://gtk-rs.org/"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-gdk-pixbuf-sys"
+	],
+	"Package-List": [
+		"librust-gdk-pixbuf-sys-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-shell-words-1+default-dev, librust-tempfile-3+default-dev"
+	],
+	"Uploaders": [
+		"Matthias Geiger <werdahias@riseup.net>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gdk-pixbuf-sys"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/gdk-pixbuf-sys]"
+	],
+	"Version": [
+		"0.18.0-2"
+	]
 }

@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "samba, samba-common-bin, samba-common, samba-tools, smbclient, swat, samba-doc, samba-doc-pdf, libpam-smbpass, libsmbclient, libsmbclient-dev, winbind, libpam-winbind, libnss-winbind, samba-dbg, libwbclient0, libwbclient-dev"
-  ],
-  "Build-Conflicts": [
-    "libfam-dev, python-ldb, python-ldb-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9~), libpam0g-dev, libreadline-dev, libcups2-dev, libacl1-dev [linux-any], libkrb5-dev (>= 1.10+dfsg~), libldap2-dev, po-debconf, libpopt-dev, uuid-dev, libtalloc-dev (>= 2.0.1-1~bpo50+1), libtdb-dev (>= 1.2.6~), libcap-dev [linux-any], libkeyutils-dev [linux-any], libctdb-dev (>= 1.10+git20110412), pkg-config, perl"
-  ],
-  "Checksums-Sha1": [
-    "1502b3605c6b6dfebd7fd4139b3f28f143b0af05 3132 samba_3.6.6-6+deb7u16.dsc 450371e613d867a2d42555998cd3e83a47014123 29464478 samba_3.6.6.orig.tar.bz2 e2fa0b80d1bd5e8a8fd9719ba55c08e44853a270 540733 samba_3.6.6-6+deb7u16.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "641398cecd348956753358ff7cafdf3ce95349847a3ca54741a5a917e0f8c772 3132 samba_3.6.6-6+deb7u16.dsc 1141eb5f173534db8f8d7dd1aa8fed53404d719e4a65c610f3ef62fdcad783e6 29464478 samba_3.6.6.orig.tar.bz2 e066ae1f8d37b8dc25f6bba5d281c43f6c643a5c22314e2d0159322280d2ec39 540733 samba_3.6.6-6+deb7u16.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/updates/main/s/samba"
-  ],
-  "Files": [
-    "40e3f6c9956a3580d2991502810df0a6 3132 samba_3.6.6-6+deb7u16.dsc 46b07ed027657917413f6bfc7234db38 29464478 samba_3.6.6.orig.tar.bz2 9dcf3c7877f498ed49c69344684ac16c 540733 samba_3.6.6-6+deb7u16.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.samba.org"
-  ],
-  "Maintainer": [
-    "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "samba"
-  ],
-  "Package-List": [
-    "libnss-winbind deb net optional libpam-smbpass deb admin extra libpam-winbind deb net optional libsmbclient deb libs optional libsmbclient-dev deb libdevel extra libwbclient-dev deb libdevel optional libwbclient0 deb libs optional samba deb net optional samba-common deb net optional samba-common-bin deb net optional samba-dbg deb debug extra samba-doc deb doc optional samba-doc-pdf deb doc optional samba-tools deb net optional smbclient deb net optional swat deb net optional winbind deb net optional"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Steve Langasek <vorlon@debian.org>, Christian Perrier <bubulle@debian.org>, Noèl Köthe <noel@debian.org>, Jelmer Vernooij <jelmer@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://svn.debian.org/wsvn/pkg-samba/trunk/samba/"
-  ],
-  "Vcs-Svn": [
-    "svn://svn.debian.org/svn/pkg-samba/trunk/samba"
-  ],
-  "Version": [
-    "2:3.6.6-6+deb7u16"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"samba, samba-common-bin, samba-common, samba-tools, smbclient, swat, samba-doc, samba-doc-pdf, libpam-smbpass, libsmbclient, libsmbclient-dev, winbind, libpam-winbind, libnss-winbind, samba-dbg, libwbclient0, libwbclient-dev"
+	],
+	"Build-Conflicts": [
+		"libfam-dev, python-ldb, python-ldb-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9~), libpam0g-dev, libreadline-dev, libcups2-dev, libacl1-dev [linux-any], libkrb5-dev (>= 1.10+dfsg~), libldap2-dev, po-debconf, libpopt-dev, uuid-dev, libtalloc-dev (>= 2.0.1-1~bpo50+1), libtdb-dev (>= 1.2.6~), libcap-dev [linux-any], libkeyutils-dev [linux-any], libctdb-dev (>= 1.10+git20110412), pkg-config, perl"
+	],
+	"Checksums-Sha1": [
+		"1502b3605c6b6dfebd7fd4139b3f28f143b0af05 3132 samba_3.6.6-6+deb7u16.dsc 450371e613d867a2d42555998cd3e83a47014123 29464478 samba_3.6.6.orig.tar.bz2 e2fa0b80d1bd5e8a8fd9719ba55c08e44853a270 540733 samba_3.6.6-6+deb7u16.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"641398cecd348956753358ff7cafdf3ce95349847a3ca54741a5a917e0f8c772 3132 samba_3.6.6-6+deb7u16.dsc 1141eb5f173534db8f8d7dd1aa8fed53404d719e4a65c610f3ef62fdcad783e6 29464478 samba_3.6.6.orig.tar.bz2 e066ae1f8d37b8dc25f6bba5d281c43f6c643a5c22314e2d0159322280d2ec39 540733 samba_3.6.6-6+deb7u16.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/updates/main/s/samba"
+	],
+	"Files": [
+		"40e3f6c9956a3580d2991502810df0a6 3132 samba_3.6.6-6+deb7u16.dsc 46b07ed027657917413f6bfc7234db38 29464478 samba_3.6.6.orig.tar.bz2 9dcf3c7877f498ed49c69344684ac16c 540733 samba_3.6.6-6+deb7u16.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.samba.org"
+	],
+	"Maintainer": [
+		"Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"samba"
+	],
+	"Package-List": [
+		"libnss-winbind deb net optional libpam-smbpass deb admin extra libpam-winbind deb net optional libsmbclient deb libs optional libsmbclient-dev deb libdevel extra libwbclient-dev deb libdevel optional libwbclient0 deb libs optional samba deb net optional samba-common deb net optional samba-common-bin deb net optional samba-dbg deb debug extra samba-doc deb doc optional samba-doc-pdf deb doc optional samba-tools deb net optional smbclient deb net optional swat deb net optional winbind deb net optional"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Steve Langasek <vorlon@debian.org>, Christian Perrier <bubulle@debian.org>, Noèl Köthe <noel@debian.org>, Jelmer Vernooij <jelmer@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://svn.debian.org/wsvn/pkg-samba/trunk/samba/"
+	],
+	"Vcs-Svn": [
+		"svn://svn.debian.org/svn/pkg-samba/trunk/samba"
+	],
+	"Version": [
+		"2:3.6.6-6+deb7u16"
+	]
 }

@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-congress, congress-common, congress-server"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-python, dh-systemd, openstack-pkg-tools (>= 52~), po-debconf, python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx"
-  ],
-  "Build-Depends-Indep": [
-    "alembic (>= 0.8.4), antlr3 (>= 3.5), python-antlr3, python-babel (>= 2.3.4), python-ceilometerclient (>= 2.5.0), python-cinderclient (>= 1:1.6.0), python-coverage, python-dateutil (>= 2.4.2), python-eventlet (>= 0.18.4), python-fixtures (>= 3.0.0), python-glanceclient (>= 1:2.3.0), python-hacking, python-heatclient (>= 1.4.0), python-ironicclient (>= 1.6.0), python-keystoneauth1 (>= 2.10.0), python-keystoneclient (>= 1:2.0.0), python-keystonemiddleware (>= 4.0.0), python-mock (>= 2.0), python-mox3 (>= 0.7.0), python-muranoclient (>= 0.8.3), python-neutronclient (>= 1:5.1.0), python-novaclient (>= 2:2.29.0), python-oslo.concurrency (>= 3.8.0), python-oslo.config (>= 1:3.14.0), python-oslo.context (>= 2.9.0), python-oslo.db (>= 4.10.0), python-oslo.log (>= 1.14.0), python-oslo.messaging (>= 5.2.0), python-oslo.middleware (>= 3.0.0), python-oslo.policy (>= 1.9.0), python-oslo.serialization (>= 1.10.0), python-oslo.service (>= 1.10.0), python-oslo.utils (>= 3.16.0), python-oslo.vmware (>= 2.11.0), python-paste, python-pastedeploy, python-pulp, python-requests-mock (>= 1.0), python-routes, python-six (>= 1.9.0), python-tempest-lib (>= 0.14.0), python-tenacity, python-swiftclient, python-testscenarios, python-testtools (>= 1.4.0), python-webob, subunit, testrepository"
-  ],
-  "Checksums-Sha256": [
-    "af13c7ede69d980b8e1a5762e77a03fdd3dc5447507617e8d5aa3050b05e32de 3515 congress_4.0.0+dfsg1-3.dsc 6710a865673c3de6910a7d3605550d2745f0132933392a196897b64f30080a7f 362712 congress_4.0.0+dfsg1.orig.tar.xz bc4795c77d4a9d1227b82a6a32da2da808ec899a76d9e21d322e98359089f5c2 14068 congress_4.0.0+dfsg1-3.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/c/congress"
-  ],
-  "Files": [
-    "0b0cab9c0c4ec67432e66b8159a0134e 3515 congress_4.0.0+dfsg1-3.dsc 2b6362f34283e84db5d8eea56b2010e6 362712 congress_4.0.0+dfsg1.orig.tar.xz ea3ba72da3125fef302d56c5734de027 14068 congress_4.0.0+dfsg1-3.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://congress.openstack.org/"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "congress"
-  ],
-  "Package-List": [
-    "congress-common deb net extra arch=all congress-server deb net extra arch=all python-congress deb python extra arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/gitweb/?p=openstack/congress.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/openstack/congress.git"
-  ],
-  "Version": [
-    "4.0.0+dfsg1-3"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-congress, congress-common, congress-server"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-python, dh-systemd, openstack-pkg-tools (>= 52~), po-debconf, python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx"
+	],
+	"Build-Depends-Indep": [
+		"alembic (>= 0.8.4), antlr3 (>= 3.5), python-antlr3, python-babel (>= 2.3.4), python-ceilometerclient (>= 2.5.0), python-cinderclient (>= 1:1.6.0), python-coverage, python-dateutil (>= 2.4.2), python-eventlet (>= 0.18.4), python-fixtures (>= 3.0.0), python-glanceclient (>= 1:2.3.0), python-hacking, python-heatclient (>= 1.4.0), python-ironicclient (>= 1.6.0), python-keystoneauth1 (>= 2.10.0), python-keystoneclient (>= 1:2.0.0), python-keystonemiddleware (>= 4.0.0), python-mock (>= 2.0), python-mox3 (>= 0.7.0), python-muranoclient (>= 0.8.3), python-neutronclient (>= 1:5.1.0), python-novaclient (>= 2:2.29.0), python-oslo.concurrency (>= 3.8.0), python-oslo.config (>= 1:3.14.0), python-oslo.context (>= 2.9.0), python-oslo.db (>= 4.10.0), python-oslo.log (>= 1.14.0), python-oslo.messaging (>= 5.2.0), python-oslo.middleware (>= 3.0.0), python-oslo.policy (>= 1.9.0), python-oslo.serialization (>= 1.10.0), python-oslo.service (>= 1.10.0), python-oslo.utils (>= 3.16.0), python-oslo.vmware (>= 2.11.0), python-paste, python-pastedeploy, python-pulp, python-requests-mock (>= 1.0), python-routes, python-six (>= 1.9.0), python-tempest-lib (>= 0.14.0), python-tenacity, python-swiftclient, python-testscenarios, python-testtools (>= 1.4.0), python-webob, subunit, testrepository"
+	],
+	"Checksums-Sha256": [
+		"af13c7ede69d980b8e1a5762e77a03fdd3dc5447507617e8d5aa3050b05e32de 3515 congress_4.0.0+dfsg1-3.dsc 6710a865673c3de6910a7d3605550d2745f0132933392a196897b64f30080a7f 362712 congress_4.0.0+dfsg1.orig.tar.xz bc4795c77d4a9d1227b82a6a32da2da808ec899a76d9e21d322e98359089f5c2 14068 congress_4.0.0+dfsg1-3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/c/congress"
+	],
+	"Files": [
+		"0b0cab9c0c4ec67432e66b8159a0134e 3515 congress_4.0.0+dfsg1-3.dsc 2b6362f34283e84db5d8eea56b2010e6 362712 congress_4.0.0+dfsg1.orig.tar.xz ea3ba72da3125fef302d56c5734de027 14068 congress_4.0.0+dfsg1-3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://congress.openstack.org/"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"congress"
+	],
+	"Package-List": [
+		"congress-common deb net extra arch=all congress-server deb net extra arch=all python-congress deb python extra arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/gitweb/?p=openstack/congress.git;a=summary"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/openstack/congress.git"
+	],
+	"Version": [
+		"4.0.0+dfsg1-3"
+	]
 }

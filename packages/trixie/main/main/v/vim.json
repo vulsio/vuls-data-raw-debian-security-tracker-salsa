@@ -1,68 +1,68 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "vim-common, vim-gui-common, vim-runtime, vim-doc, vim-tiny, vim, vim-gtk3, vim-nox, vim-motif, vim-athena, xxd"
-  ],
-  "Build-Conflicts": [
-    "autoconf2.13"
-  ],
-  "Build-Depends": [
-    "autoconf, cscope <!nocheck>, debhelper-compat (= 13), libacl1-dev, libcanberra-dev, libgpmg1-dev [linux-any], libgtk-3-dev, liblua5.1-dev, libmotif-dev, libperl-dev, libselinux1-dev [linux-any], libsodium-dev, libncurses-dev, libtool-bin <!nocheck>, lua5.1, procps <!nocheck>, python3-dev, ruby [!alpha !ia64] <!pkg.vim.noruby>, ruby-dev [!alpha !ia64] <!pkg.vim.noruby>, tcl-dev"
-  ],
-  "Build-Depends-Indep": [
-    "docbook-utils, docbook-xml, ghostscript, lynx, pdf2svg"
-  ],
-  "Checksums-Sha256": [
-    "1fa84c9bff32ef9ef7dc4a86c6fbbed15b9a4fbfd07425fdd4ba2b219f8363b1 3035 vim_9.0.1894-1.dsc 85d93eda736c968afaf5d3b65f909fa65a087392f4c0a761c5e87f64a7c3f543 11314248 vim_9.0.1894.orig.tar.xz eb4c05aaf17e09360a972823e79962952094f08eac9e74fa0ed35044b0be6a99 186904 vim_9.0.1894-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/v/vim"
-  ],
-  "Files": [
-    "5e47284647ab0b2a3707b35f8a3175c9 3035 vim_9.0.1894-1.dsc 2981fe481cb07bd0d0695fe1f809e735 11314248 vim_9.0.1894.orig.tar.xz 77d4dc75a89adbc9e46c5b5afc05157c 186904 vim_9.0.1894-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://www.vim.org/"
-  ],
-  "Maintainer": [
-    "Debian Vim Maintainers <team+vim@tracker.debian.org>"
-  ],
-  "Package": [
-    "vim"
-  ],
-  "Package-List": [
-    "vim deb editors optional arch=any vim-athena deb oldlibs optional arch=all vim-common deb editors important arch=all vim-doc deb doc optional arch=all vim-gtk3 deb editors optional arch=any vim-gui-common deb editors optional arch=all vim-motif deb editors optional arch=any vim-nox deb editors optional arch=any vim-runtime deb editors optional arch=all vim-tiny deb editors important arch=any xxd deb editors optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "editors"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "cscope, procps, python3"
-  ],
-  "Uploaders": [
-    "James McCoy <jamessan@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/vim-team/vim"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/vim-team/vim.git"
-  ],
-  "Version": [
-    "2:9.0.1894-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"vim-common, vim-gui-common, vim-runtime, vim-doc, vim-tiny, vim, vim-gtk3, vim-nox, vim-motif, vim-athena, xxd"
+	],
+	"Build-Conflicts": [
+		"autoconf2.13"
+	],
+	"Build-Depends": [
+		"autoconf, cscope <!nocheck>, debhelper-compat (= 13), libacl1-dev, libcanberra-dev, libgpmg1-dev [linux-any], libgtk-3-dev, liblua5.1-dev, libmotif-dev, libperl-dev, libselinux1-dev [linux-any], libsodium-dev, libncurses-dev, libtool-bin <!nocheck>, lua5.1, procps <!nocheck>, python3-dev, ruby [!alpha !ia64] <!pkg.vim.noruby>, ruby-dev [!alpha !ia64] <!pkg.vim.noruby>, tcl-dev"
+	],
+	"Build-Depends-Indep": [
+		"docbook-utils, docbook-xml, ghostscript, lynx, pdf2svg"
+	],
+	"Checksums-Sha256": [
+		"1fa84c9bff32ef9ef7dc4a86c6fbbed15b9a4fbfd07425fdd4ba2b219f8363b1 3035 vim_9.0.1894-1.dsc 85d93eda736c968afaf5d3b65f909fa65a087392f4c0a761c5e87f64a7c3f543 11314248 vim_9.0.1894.orig.tar.xz eb4c05aaf17e09360a972823e79962952094f08eac9e74fa0ed35044b0be6a99 186904 vim_9.0.1894-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/v/vim"
+	],
+	"Files": [
+		"5e47284647ab0b2a3707b35f8a3175c9 3035 vim_9.0.1894-1.dsc 2981fe481cb07bd0d0695fe1f809e735 11314248 vim_9.0.1894.orig.tar.xz 77d4dc75a89adbc9e46c5b5afc05157c 186904 vim_9.0.1894-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.vim.org/"
+	],
+	"Maintainer": [
+		"Debian Vim Maintainers <team+vim@tracker.debian.org>"
+	],
+	"Package": [
+		"vim"
+	],
+	"Package-List": [
+		"vim deb editors optional arch=any vim-athena deb oldlibs optional arch=all vim-common deb editors important arch=all vim-doc deb doc optional arch=all vim-gtk3 deb editors optional arch=any vim-gui-common deb editors optional arch=all vim-motif deb editors optional arch=any vim-nox deb editors optional arch=any vim-runtime deb editors optional arch=all vim-tiny deb editors important arch=any xxd deb editors optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"editors"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"cscope, procps, python3"
+	],
+	"Uploaders": [
+		"James McCoy <jamessan@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/vim-team/vim"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/vim-team/vim.git"
+	],
+	"Version": [
+		"2:9.0.1894-1"
+	]
 }

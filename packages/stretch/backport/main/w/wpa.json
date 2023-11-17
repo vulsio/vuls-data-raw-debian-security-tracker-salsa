@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "linux-any kfreebsd-any"
-  ],
-  "Binary": [
-    "hostapd, wpagui, wpasupplicant, wpasupplicant-udeb"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 12), libdbus-1-dev, libssl-dev, qtbase5-dev, libncurses5-dev, libpcsclite-dev, libnl-3-dev (>= 3.4.0~) [linux-any], libnl-genl-3-dev [linux-any], libnl-route-3-dev [linux-any], libpcap-dev [kfreebsd-any], libbsd-dev [kfreebsd-any], libreadline-dev, pkg-config, docbook-to-man, docbook-utils"
-  ],
-  "Checksums-Sha256": [
-    "a4e911fbbb45d7891277dc3807c2375fe07cff1e8589d129a368da8e26c35c2d 2347 wpa_2.7+git20190128+0c1e29f-4~bpo9+2.dsc 4732f6dc4f2402347a37adea7f127ffce88ae3b27afc816b67f5b51199bd139e 2286436 wpa_2.7+git20190128+0c1e29f.orig.tar.xz 2c06816e5341e75ebb4a167f9e0739a9905d1565db9b557187888587eac30b8e 100932 wpa_2.7+git20190128+0c1e29f-4~bpo9+2.debian.tar.xz"
-  ],
-  "Dgit": [
-    "3cc73cbad1071894aa37bb77c1b9ac8835e7bf62 debian archive/debian/2%2.7+git20190128+0c1e29f-4_bpo9+2 https://git.dgit.debian.org/wpa"
-  ],
-  "Directory": [
-    "pool/main/w/wpa"
-  ],
-  "Files": [
-    "63dc3a05fa37f6d95257886fd494e092 2347 wpa_2.7+git20190128+0c1e29f-4~bpo9+2.dsc 64f7dd7528079b006de5a5883ae05abd 2286436 wpa_2.7+git20190128+0c1e29f.orig.tar.xz 68fa6911c95fd80387e25268598251c3 100932 wpa_2.7+git20190128+0c1e29f-4~bpo9+2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://w1.fi/wpa_supplicant/"
-  ],
-  "Maintainer": [
-    "Debian wpasupplicant Maintainers <wpa@packages.debian.org>"
-  ],
-  "Package": [
-    "wpa"
-  ],
-  "Package-List": [
-    "hostapd deb net optional arch=linux-any,kfreebsd-any wpagui deb net optional arch=linux-any,kfreebsd-any wpasupplicant deb net optional arch=linux-any,kfreebsd-any wpasupplicant-udeb udeb debian-installer standard arch=linux-any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.3.0"
-  ],
-  "Uploaders": [
-    "Andrej Shadura <andrewsh@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian/wpa.git"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian/wpa.git"
-  ],
-  "Version": [
-    "2:2.7+git20190128+0c1e29f-4~bpo9+2"
-  ]
+	"Architecture": [
+		"linux-any kfreebsd-any"
+	],
+	"Binary": [
+		"hostapd, wpagui, wpasupplicant, wpasupplicant-udeb"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 12), libdbus-1-dev, libssl-dev, qtbase5-dev, libncurses5-dev, libpcsclite-dev, libnl-3-dev (>= 3.4.0~) [linux-any], libnl-genl-3-dev [linux-any], libnl-route-3-dev [linux-any], libpcap-dev [kfreebsd-any], libbsd-dev [kfreebsd-any], libreadline-dev, pkg-config, docbook-to-man, docbook-utils"
+	],
+	"Checksums-Sha256": [
+		"a4e911fbbb45d7891277dc3807c2375fe07cff1e8589d129a368da8e26c35c2d 2347 wpa_2.7+git20190128+0c1e29f-4~bpo9+2.dsc 4732f6dc4f2402347a37adea7f127ffce88ae3b27afc816b67f5b51199bd139e 2286436 wpa_2.7+git20190128+0c1e29f.orig.tar.xz 2c06816e5341e75ebb4a167f9e0739a9905d1565db9b557187888587eac30b8e 100932 wpa_2.7+git20190128+0c1e29f-4~bpo9+2.debian.tar.xz"
+	],
+	"Dgit": [
+		"3cc73cbad1071894aa37bb77c1b9ac8835e7bf62 debian archive/debian/2%2.7+git20190128+0c1e29f-4_bpo9+2 https://git.dgit.debian.org/wpa"
+	],
+	"Directory": [
+		"pool/main/w/wpa"
+	],
+	"Files": [
+		"63dc3a05fa37f6d95257886fd494e092 2347 wpa_2.7+git20190128+0c1e29f-4~bpo9+2.dsc 64f7dd7528079b006de5a5883ae05abd 2286436 wpa_2.7+git20190128+0c1e29f.orig.tar.xz 68fa6911c95fd80387e25268598251c3 100932 wpa_2.7+git20190128+0c1e29f-4~bpo9+2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://w1.fi/wpa_supplicant/"
+	],
+	"Maintainer": [
+		"Debian wpasupplicant Maintainers <wpa@packages.debian.org>"
+	],
+	"Package": [
+		"wpa"
+	],
+	"Package-List": [
+		"hostapd deb net optional arch=linux-any,kfreebsd-any wpagui deb net optional arch=linux-any,kfreebsd-any wpasupplicant deb net optional arch=linux-any,kfreebsd-any wpasupplicant-udeb udeb debian-installer standard arch=linux-any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.3.0"
+	],
+	"Uploaders": [
+		"Andrej Shadura <andrewsh@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/wpa.git"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/wpa.git"
+	],
+	"Version": [
+		"2:2.7+git20190128+0c1e29f-4~bpo9+2"
+	]
 }

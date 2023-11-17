@@ -1,53 +1,53 @@
 {
-  "Architecture": [
-    "linux-any all"
-  ],
-  "Binary": [
-    "rauc, rauc-service"
-  ],
-  "Build-Depends": [
-    "casync <!nocheck>, dbus <!nocheck>, dbus-x11 <!nocheck>, debhelper-compat (= 13), e2fsprogs <!nocheck>, faketime <!nocheck>, grub-common <!nocheck>, libcurl4-gnutls-dev | libcurl-dev, libdbus-1-dev, libengine-pkcs11-openssl <!nocheck>, libfdisk-dev, libglib2.0-dev (>= 2.56), libjson-glib-dev, libnl-genl-3-dev, libssl-dev | libssl1.0-dev, libtool, opensc <!nocheck>, opensc-pkcs11 <!nocheck>, openssl <!nocheck>, pkgconf, softhsm2 <!nocheck>, squashfs-tools <!nocheck>, systemd, systemd-dev | systemd (<< 254.1-3~)"
-  ],
-  "Checksums-Sha256": [
-    "8e4fe9a80b53a1507ecc71d3d7b9dba41d13f213fe5acc42ff1ef5cb792269d6 2242 rauc_1.10.1-2.dsc aa99164c5f54fd29b5c8456221b51f92c900884af66de3e1b7f15a25b7db98a7 912140 rauc_1.10.1.orig.tar.xz 92d4c6c078d55b5bb2e479d5e9e318b091bb981072bd9120e1121c1c5dcdd3b5 833 rauc_1.10.1.orig.tar.xz.asc f9b7e08d53642d3274881b2b2a8e7ec6b02ceb0d5f223426ac0c714bdae447f6 8300 rauc_1.10.1-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rauc"
-  ],
-  "Files": [
-    "0fc78693d91f344d7f75b6221a525777 2242 rauc_1.10.1-2.dsc 610621cc062d2fba41754335c7faee35 912140 rauc_1.10.1.orig.tar.xz 71aa2ee1edfb825a14367a8d36c32e8e 833 rauc_1.10.1.orig.tar.xz.asc 5b3538fd60caf53c4a19d064b78d64f4 8300 rauc_1.10.1-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/rauc/rauc"
-  ],
-  "Maintainer": [
-    "Uwe Kleine-König <ukleinek@debian.org>"
-  ],
-  "Package": [
-    "rauc"
-  ],
-  "Package-List": [
-    "rauc deb admin optional arch=linux-any rauc-service deb admin optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian/rauc"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian/rauc.git"
-  ],
-  "Version": [
-    "1.10.1-2"
-  ]
+	"Architecture": [
+		"linux-any all"
+	],
+	"Binary": [
+		"rauc, rauc-service"
+	],
+	"Build-Depends": [
+		"casync <!nocheck>, dbus <!nocheck>, dbus-x11 <!nocheck>, debhelper-compat (= 13), e2fsprogs <!nocheck>, faketime <!nocheck>, grub-common <!nocheck>, libcurl4-gnutls-dev | libcurl-dev, libdbus-1-dev, libengine-pkcs11-openssl <!nocheck>, libfdisk-dev, libglib2.0-dev (>= 2.56), libjson-glib-dev, libnl-genl-3-dev, libssl-dev | libssl1.0-dev, libtool, opensc <!nocheck>, opensc-pkcs11 <!nocheck>, openssl <!nocheck>, pkgconf, softhsm2 <!nocheck>, squashfs-tools <!nocheck>, systemd, systemd-dev | systemd (<< 254.1-3~)"
+	],
+	"Checksums-Sha256": [
+		"8e4fe9a80b53a1507ecc71d3d7b9dba41d13f213fe5acc42ff1ef5cb792269d6 2242 rauc_1.10.1-2.dsc aa99164c5f54fd29b5c8456221b51f92c900884af66de3e1b7f15a25b7db98a7 912140 rauc_1.10.1.orig.tar.xz 92d4c6c078d55b5bb2e479d5e9e318b091bb981072bd9120e1121c1c5dcdd3b5 833 rauc_1.10.1.orig.tar.xz.asc f9b7e08d53642d3274881b2b2a8e7ec6b02ceb0d5f223426ac0c714bdae447f6 8300 rauc_1.10.1-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rauc"
+	],
+	"Files": [
+		"0fc78693d91f344d7f75b6221a525777 2242 rauc_1.10.1-2.dsc 610621cc062d2fba41754335c7faee35 912140 rauc_1.10.1.orig.tar.xz 71aa2ee1edfb825a14367a8d36c32e8e 833 rauc_1.10.1.orig.tar.xz.asc 5b3538fd60caf53c4a19d064b78d64f4 8300 rauc_1.10.1-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/rauc/rauc"
+	],
+	"Maintainer": [
+		"Uwe Kleine-König <ukleinek@debian.org>"
+	],
+	"Package": [
+		"rauc"
+	],
+	"Package-List": [
+		"rauc deb admin optional arch=linux-any rauc-service deb admin optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/rauc"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/rauc.git"
+	],
+	"Version": [
+		"1.10.1-2"
+	]
 }

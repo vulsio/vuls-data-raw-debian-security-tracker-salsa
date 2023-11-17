@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "bacula, bacula-common, bacula-common-dbg, bacula-common-sqlite3, bacula-common-sqlite3-dbg, bacula-common-pgsql, bacula-common-pgsql-dbg, bacula-common-mysql, bacula-common-mysql-dbg, bacula-director-common, bacula-director-common-dbg, bacula-director-sqlite3, bacula-director-sqlite3-dbg, bacula-director-mysql, bacula-director-mysql-dbg, bacula-director-pgsql, bacula-director-pgsql-dbg, bacula-client, bacula-fd, bacula-fd-dbg, bacula-server, bacula-sd, bacula-sd-dbg, bacula-sd-sqlite3, bacula-sd-sqlite3-dbg, bacula-sd-mysql, bacula-sd-mysql-dbg, bacula-sd-pgsql, bacula-sd-pgsql-dbg, bacula-console, bacula-console-dbg, bacula-console-qt, bacula-console-qt-dbg, bacula-traymonitor, bacula-traymonitor-dbg"
-  ],
-  "Build-Conflicts": [
-    "python2.4"
-  ],
-  "Build-Depends": [
-    "autotools-dev, autoconf, debhelper (>= 8.0.0), po-debconf, zlib1g-dev, libreadline-dev, libsqlite3-dev, libmysqlclient-dev, libpq-dev (>= 8.4), postgresql-server-dev-all, libwrap0-dev, python-dev, libgtk2.0-dev, libgnome2-dev, libacl1-dev, libkrb5-dev, libgnomeui-dev, libx11-dev, mtx, bc, libxt-dev, libqt4-dev, libssl-dev, libcap-dev [linux-any]"
-  ],
-  "Checksums-Sha1": [
-    "c2cec3ab9cbed85905edfbc09be3ef5c0b93f354 3083 bacula_5.2.6+dfsg-8~bpo60+1.dsc 85df6a32d580f90dafcce2a3def1610f12ceee85 3913884 bacula_5.2.6+dfsg.orig.tar.gz 54a511a1563c6ef65c49e03c12e1749f0ffd5169 87242 bacula_5.2.6+dfsg-8~bpo60+1.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "2e759a6f1c07ed292aefaacffa4f8a25f6f4fc84301b039f37e581d0285d54d3 3083 bacula_5.2.6+dfsg-8~bpo60+1.dsc 8445abe3d1e7ea925ce0fb0b17a2fbeffb7b73a727d8402888ebedd2cd716dc6 3913884 bacula_5.2.6+dfsg.orig.tar.gz fef834a12f26a1b88a0cdbd84f456645a10c88910d81ddb9fcad203d30b4c87b 87242 bacula_5.2.6+dfsg-8~bpo60+1.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/b/bacula"
-  ],
-  "Files": [
-    "71800a64f639b199f57e04b9a674c7bb 3083 bacula_5.2.6+dfsg-8~bpo60+1.dsc 10b91600f2f25d5b687a89b6772036c8 3913884 bacula_5.2.6+dfsg.orig.tar.gz dfa9eb4332f5ba6a7d13409c8495f568 87242 bacula_5.2.6+dfsg-8~bpo60+1.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.bacula.org/"
-  ],
-  "Maintainer": [
-    "Debian Bacula Team <pkg-bacula-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "bacula"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "admin"
-  ],
-  "Standards-Version": [
-    "3.9.2"
-  ],
-  "Uploaders": [
-    "Jan Hauke Rahm <jhr@debian.org>, Luca Capello <luca@pca.it>, Alexander Golovko <alexandro@ankalagon.ru>, Bart Swedrowski <bart@timedout.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-bacula/bacula.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-bacula/bacula.git"
-  ],
-  "Version": [
-    "5.2.6+dfsg-8~bpo60+1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"bacula, bacula-common, bacula-common-dbg, bacula-common-sqlite3, bacula-common-sqlite3-dbg, bacula-common-pgsql, bacula-common-pgsql-dbg, bacula-common-mysql, bacula-common-mysql-dbg, bacula-director-common, bacula-director-common-dbg, bacula-director-sqlite3, bacula-director-sqlite3-dbg, bacula-director-mysql, bacula-director-mysql-dbg, bacula-director-pgsql, bacula-director-pgsql-dbg, bacula-client, bacula-fd, bacula-fd-dbg, bacula-server, bacula-sd, bacula-sd-dbg, bacula-sd-sqlite3, bacula-sd-sqlite3-dbg, bacula-sd-mysql, bacula-sd-mysql-dbg, bacula-sd-pgsql, bacula-sd-pgsql-dbg, bacula-console, bacula-console-dbg, bacula-console-qt, bacula-console-qt-dbg, bacula-traymonitor, bacula-traymonitor-dbg"
+	],
+	"Build-Conflicts": [
+		"python2.4"
+	],
+	"Build-Depends": [
+		"autotools-dev, autoconf, debhelper (>= 8.0.0), po-debconf, zlib1g-dev, libreadline-dev, libsqlite3-dev, libmysqlclient-dev, libpq-dev (>= 8.4), postgresql-server-dev-all, libwrap0-dev, python-dev, libgtk2.0-dev, libgnome2-dev, libacl1-dev, libkrb5-dev, libgnomeui-dev, libx11-dev, mtx, bc, libxt-dev, libqt4-dev, libssl-dev, libcap-dev [linux-any]"
+	],
+	"Checksums-Sha1": [
+		"c2cec3ab9cbed85905edfbc09be3ef5c0b93f354 3083 bacula_5.2.6+dfsg-8~bpo60+1.dsc 85df6a32d580f90dafcce2a3def1610f12ceee85 3913884 bacula_5.2.6+dfsg.orig.tar.gz 54a511a1563c6ef65c49e03c12e1749f0ffd5169 87242 bacula_5.2.6+dfsg-8~bpo60+1.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"2e759a6f1c07ed292aefaacffa4f8a25f6f4fc84301b039f37e581d0285d54d3 3083 bacula_5.2.6+dfsg-8~bpo60+1.dsc 8445abe3d1e7ea925ce0fb0b17a2fbeffb7b73a727d8402888ebedd2cd716dc6 3913884 bacula_5.2.6+dfsg.orig.tar.gz fef834a12f26a1b88a0cdbd84f456645a10c88910d81ddb9fcad203d30b4c87b 87242 bacula_5.2.6+dfsg-8~bpo60+1.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/b/bacula"
+	],
+	"Files": [
+		"71800a64f639b199f57e04b9a674c7bb 3083 bacula_5.2.6+dfsg-8~bpo60+1.dsc 10b91600f2f25d5b687a89b6772036c8 3913884 bacula_5.2.6+dfsg.orig.tar.gz dfa9eb4332f5ba6a7d13409c8495f568 87242 bacula_5.2.6+dfsg-8~bpo60+1.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.bacula.org/"
+	],
+	"Maintainer": [
+		"Debian Bacula Team <pkg-bacula-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"bacula"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"admin"
+	],
+	"Standards-Version": [
+		"3.9.2"
+	],
+	"Uploaders": [
+		"Jan Hauke Rahm <jhr@debian.org>, Luca Capello <luca@pca.it>, Alexander Golovko <alexandro@ankalagon.ru>, Bart Swedrowski <bart@timedout.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-bacula/bacula.git;a=summary"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-bacula/bacula.git"
+	],
+	"Version": [
+		"5.2.6+dfsg-8~bpo60+1"
+	]
 }

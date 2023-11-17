@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "pkg-perl-tools, pkg-perl-autopkgtest"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13)"
-  ],
-  "Build-Depends-Indep": [
-    "git <!nocheck>, libconfig-model-perl <!nocheck>, libdatetime-perl <!nocheck>, libdebian-source-perl (>= 0.119) <!nocheck>, libdpkg-perl <!nocheck>, libfile-slurp-perl <!nocheck>, libgit-repository-perl <!nocheck>, libgitlab-api-v4-perl <!nocheck>, libipc-run-perl <!nocheck>, libjson-xs-perl <!nocheck>, libmime-lite-perl <!nocheck>, libnet-github-perl <!nocheck>, libparallel-forkmanager-perl <!nocheck>, libpath-tiny-perl <!nocheck>, libproc-invokeeditor-perl <!nocheck>, librt-client-rest-perl <!nocheck>, libsoap-lite-perl <!nocheck>, libtest-differences-perl <!nocheck>, libtest-exception-perl <!nocheck>, libtest-mockmodule-perl <!nocheck>, libtest-pod-perl <!nocheck>, libtest-spelling-perl <!nocheck>, libutf8-all-perl <!nocheck>, libwww-mechanize-perl <!nocheck>, libyaml-libyaml-perl <!nocheck>, lintian (>= 2.105.0~) <!nocheck>, perl, python3-minimal <!nocheck>, spell <!nocheck> | aspell <!nocheck> | ispell <!nocheck> | hunspell <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "907a736f1a317e3a0813a97970a2173b0a92ac285dd430ddf6e6143cb765c885 3189 pkg-perl-tools_0.76.dsc 0d12d7159bdce0942d3bdb7e79a1b4bede21f1383737c999f967c2e3f4d3dae9 102200 pkg-perl-tools_0.76.tar.xz"
-  ],
-  "Dgit": [
-    "50fe498c99a23e41ee49698db05c1cd24ff55538 debian archive/debian/0.76 https://git.dgit.debian.org/pkg-perl-tools"
-  ],
-  "Directory": [
-    "pool/main/p/pkg-perl-tools"
-  ],
-  "Files": [
-    "9d6cd99371a1dd3321fe1f94e6b84bad 3189 pkg-perl-tools_0.76.dsc 08be37d914d6bcbcf047ce50fbfe3c5b 102200 pkg-perl-tools_0.76.tar.xz"
-  ],
-  "Format": [
-    "3.0 (native)"
-  ],
-  "Homepage": [
-    "https://wiki.debian.org/Teams/DebianPerlGroup"
-  ],
-  "Maintainer": [
-    "Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "pkg-perl-tools"
-  ],
-  "Package-List": [
-    "pkg-perl-autopkgtest deb devel optional arch=all pkg-perl-tools deb devel optional arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest-pkg-perl"
-  ],
-  "Uploaders": [
-    "Damyan Ivanov <dmn@debian.org>, Axel Beckert <abe@debian.org>, gregor herrmann <gregoa@debian.org>, Salvatore Bonaccorso <carnil@debian.org>, Niko Tyni <ntyni@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/perl-team/modules/packages/pkg-perl-tools"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/perl-team/modules/packages/pkg-perl-tools.git"
-  ],
-  "Version": [
-    "0.76"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"pkg-perl-tools, pkg-perl-autopkgtest"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13)"
+	],
+	"Build-Depends-Indep": [
+		"git <!nocheck>, libconfig-model-perl <!nocheck>, libdatetime-perl <!nocheck>, libdebian-source-perl (>= 0.119) <!nocheck>, libdpkg-perl <!nocheck>, libfile-slurp-perl <!nocheck>, libgit-repository-perl <!nocheck>, libgitlab-api-v4-perl <!nocheck>, libipc-run-perl <!nocheck>, libjson-xs-perl <!nocheck>, libmime-lite-perl <!nocheck>, libnet-github-perl <!nocheck>, libparallel-forkmanager-perl <!nocheck>, libpath-tiny-perl <!nocheck>, libproc-invokeeditor-perl <!nocheck>, librt-client-rest-perl <!nocheck>, libsoap-lite-perl <!nocheck>, libtest-differences-perl <!nocheck>, libtest-exception-perl <!nocheck>, libtest-mockmodule-perl <!nocheck>, libtest-pod-perl <!nocheck>, libtest-spelling-perl <!nocheck>, libutf8-all-perl <!nocheck>, libwww-mechanize-perl <!nocheck>, libyaml-libyaml-perl <!nocheck>, lintian (>= 2.105.0~) <!nocheck>, perl, python3-minimal <!nocheck>, spell <!nocheck> | aspell <!nocheck> | ispell <!nocheck> | hunspell <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"907a736f1a317e3a0813a97970a2173b0a92ac285dd430ddf6e6143cb765c885 3189 pkg-perl-tools_0.76.dsc 0d12d7159bdce0942d3bdb7e79a1b4bede21f1383737c999f967c2e3f4d3dae9 102200 pkg-perl-tools_0.76.tar.xz"
+	],
+	"Dgit": [
+		"50fe498c99a23e41ee49698db05c1cd24ff55538 debian archive/debian/0.76 https://git.dgit.debian.org/pkg-perl-tools"
+	],
+	"Directory": [
+		"pool/main/p/pkg-perl-tools"
+	],
+	"Files": [
+		"9d6cd99371a1dd3321fe1f94e6b84bad 3189 pkg-perl-tools_0.76.dsc 08be37d914d6bcbcf047ce50fbfe3c5b 102200 pkg-perl-tools_0.76.tar.xz"
+	],
+	"Format": [
+		"3.0 (native)"
+	],
+	"Homepage": [
+		"https://wiki.debian.org/Teams/DebianPerlGroup"
+	],
+	"Maintainer": [
+		"Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"pkg-perl-tools"
+	],
+	"Package-List": [
+		"pkg-perl-autopkgtest deb devel optional arch=all pkg-perl-tools deb devel optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest-pkg-perl"
+	],
+	"Uploaders": [
+		"Damyan Ivanov <dmn@debian.org>, Axel Beckert <abe@debian.org>, gregor herrmann <gregoa@debian.org>, Salvatore Bonaccorso <carnil@debian.org>, Niko Tyni <ntyni@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/perl-team/modules/packages/pkg-perl-tools"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/perl-team/modules/packages/pkg-perl-tools.git"
+	],
+	"Version": [
+		"0.76"
+	]
 }

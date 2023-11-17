@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-osc-placement-doc, python3-osc-placement"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 10), dh-python, openstack-pkg-tools (>= 99~), python3-all, python3-setuptools, python3-sphinx"
-  ],
-  "Build-Depends-Indep": [
-    "python3-cliff, python3-coverage, python3-hacking, python3-keystoneauth1 (>= 3.3.0), python3-openstackclient (>= 3.3.0), python3-openstackdocstheme, python3-osc-lib (>= 1.2.0), python3-oslo.utils (>= 3.37.0), python3-oslosphinx, python3-oslotest (>= 1:1.10.0), python3-pbr (>= 2.0.0), python3-reno, python3-simplejson, python3-sphinx-feature-classification, python3-stestr, python3-wsgi-intercept, subunit"
-  ],
-  "Checksums-Sha256": [
-    "d9317983094343965a2bdc53009cb5c219a034d89190c7581d9c560ae18e58b0 2708 python-osc-placement_4.2.0-2.dsc 743153ea056350a78aaa0f1f6eed78e521c7fd6fbe7434f2e76bc09ac18147bb 42868 python-osc-placement_4.2.0.orig.tar.xz 322365c5861b1ebf8a88d1563dd410c868cbfd89c56f6dfe40d5b13270ee10e4 3148 python-osc-placement_4.2.0-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/python-osc-placement"
-  ],
-  "Files": [
-    "837236654a669b053053d9d618907641 2708 python-osc-placement_4.2.0-2.dsc 84c6819b62ffdd123981b42597241b15 42868 python-osc-placement_4.2.0.orig.tar.xz 517c19876227238f624b52761e5fabf9 3148 python-osc-placement_4.2.0-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/openstack/osc-placement"
-  ],
-  "Maintainer": [
-    "Debian OpenStack <team+openstack@tracker.debian.org>"
-  ],
-  "Package": [
-    "python-osc-placement"
-  ],
-  "Package-List": [
-    "python-osc-placement-doc deb doc optional arch=all python3-osc-placement deb python optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.2.0"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "@builddeps@"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/openstack-team/clients/python-osc-placement"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/openstack-team/clients/python-osc-placement.git"
-  ],
-  "Version": [
-    "4.2.0-2"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-osc-placement-doc, python3-osc-placement"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 10), dh-python, openstack-pkg-tools (>= 99~), python3-all, python3-setuptools, python3-sphinx"
+	],
+	"Build-Depends-Indep": [
+		"python3-cliff, python3-coverage, python3-hacking, python3-keystoneauth1 (>= 3.3.0), python3-openstackclient (>= 3.3.0), python3-openstackdocstheme, python3-osc-lib (>= 1.2.0), python3-oslo.utils (>= 3.37.0), python3-oslosphinx, python3-oslotest (>= 1:1.10.0), python3-pbr (>= 2.0.0), python3-reno, python3-simplejson, python3-sphinx-feature-classification, python3-stestr, python3-wsgi-intercept, subunit"
+	],
+	"Checksums-Sha256": [
+		"d9317983094343965a2bdc53009cb5c219a034d89190c7581d9c560ae18e58b0 2708 python-osc-placement_4.2.0-2.dsc 743153ea056350a78aaa0f1f6eed78e521c7fd6fbe7434f2e76bc09ac18147bb 42868 python-osc-placement_4.2.0.orig.tar.xz 322365c5861b1ebf8a88d1563dd410c868cbfd89c56f6dfe40d5b13270ee10e4 3148 python-osc-placement_4.2.0-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-osc-placement"
+	],
+	"Files": [
+		"837236654a669b053053d9d618907641 2708 python-osc-placement_4.2.0-2.dsc 84c6819b62ffdd123981b42597241b15 42868 python-osc-placement_4.2.0.orig.tar.xz 517c19876227238f624b52761e5fabf9 3148 python-osc-placement_4.2.0-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/openstack/osc-placement"
+	],
+	"Maintainer": [
+		"Debian OpenStack <team+openstack@tracker.debian.org>"
+	],
+	"Package": [
+		"python-osc-placement"
+	],
+	"Package-List": [
+		"python-osc-placement-doc deb doc optional arch=all python3-osc-placement deb python optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.2.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"@builddeps@"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/openstack-team/clients/python-osc-placement"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/openstack-team/clients/python-osc-placement.git"
+	],
+	"Version": [
+		"4.2.0-2"
+	]
 }

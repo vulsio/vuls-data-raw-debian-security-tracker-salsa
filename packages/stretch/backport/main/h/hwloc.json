@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "hwloc, hwloc-nox, libhwloc-dev, libhwloc5, libhwloc-plugins, libhwloc-common, libhwloc-doc"
-  ],
-  "Build-Conflicts": [
-    "autoconf2.13"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), libltdl-dev, valgrind [amd64 arm64 armhf i386 mips mipsel powerpc ppc64el s390x mips64el ppc64], libcairo2-dev, libx11-dev, libxml2-dev, libxml2-utils, libncurses5-dev, libnuma-dev [amd64 arm64 i386 ia64 mips mips64 mipsel mips64el powerpc ppc64el sparc], libpciaccess-dev, pkg-config, libibverbs-dev [linux-any], ocl-icd-opencl-dev [!hurd-i386] | opencl-dev, opencl-headers, autoconf (>= 2.63), dh-autoreconf, dpkg-dev (>= 1.16)"
-  ],
-  "Build-Depends-Indep": [
-    "doxygen-latex, transfig"
-  ],
-  "Checksums-Sha256": [
-    "f3337fed308397681322ca808b99e7dc66e26c61f1b654de119c187c0f59d0d8 2755 hwloc_1.11.12-3~bpo9+1.dsc ddfb7b9b4571551165b0fd824a340e58814c8c2b4af64c818579d4bc695a417d 4116387 hwloc_1.11.12.orig.tar.bz2 f8e702e0590e083adfa0f3324024bdf7d3e09e231a826099f84b01ed756caa61 11864 hwloc_1.11.12-3~bpo9+1.debian.tar.bz2"
-  ],
-  "Directory": [
-    "pool/main/h/hwloc"
-  ],
-  "Files": [
-    "b527b692cefff6a8b1d208deb215a36e 2755 hwloc_1.11.12-3~bpo9+1.dsc c2a2e4e23eeb719ed31a755684697cf9 4116387 hwloc_1.11.12.orig.tar.bz2 b413f72be70d82a9f40b5ad68f8185f5 11864 hwloc_1.11.12-3~bpo9+1.debian.tar.bz2"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.open-mpi.org/projects/hwloc/"
-  ],
-  "Maintainer": [
-    "Samuel Thibault <sthibault@debian.org>"
-  ],
-  "Package": [
-    "hwloc"
-  ],
-  "Package-List": [
-    "hwloc deb admin optional arch=any hwloc-nox deb admin optional arch=any libhwloc-common deb libs optional arch=all libhwloc-dev deb libdevel optional arch=any libhwloc-doc deb doc optional arch=all libhwloc-plugins deb libs optional arch=any libhwloc5 deb libs optional arch=any"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.2.0"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "libxml2-utils"
-  ],
-  "Vcs-Browser": [
-    "https://github.com/open-mpi/hwloc-debian"
-  ],
-  "Vcs-Git": [
-    "https://github.com/open-mpi/hwloc-debian.git"
-  ],
-  "Version": [
-    "1.11.12-3~bpo9+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"hwloc, hwloc-nox, libhwloc-dev, libhwloc5, libhwloc-plugins, libhwloc-common, libhwloc-doc"
+	],
+	"Build-Conflicts": [
+		"autoconf2.13"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), libltdl-dev, valgrind [amd64 arm64 armhf i386 mips mipsel powerpc ppc64el s390x mips64el ppc64], libcairo2-dev, libx11-dev, libxml2-dev, libxml2-utils, libncurses5-dev, libnuma-dev [amd64 arm64 i386 ia64 mips mips64 mipsel mips64el powerpc ppc64el sparc], libpciaccess-dev, pkg-config, libibverbs-dev [linux-any], ocl-icd-opencl-dev [!hurd-i386] | opencl-dev, opencl-headers, autoconf (>= 2.63), dh-autoreconf, dpkg-dev (>= 1.16)"
+	],
+	"Build-Depends-Indep": [
+		"doxygen-latex, transfig"
+	],
+	"Checksums-Sha256": [
+		"f3337fed308397681322ca808b99e7dc66e26c61f1b654de119c187c0f59d0d8 2755 hwloc_1.11.12-3~bpo9+1.dsc ddfb7b9b4571551165b0fd824a340e58814c8c2b4af64c818579d4bc695a417d 4116387 hwloc_1.11.12.orig.tar.bz2 f8e702e0590e083adfa0f3324024bdf7d3e09e231a826099f84b01ed756caa61 11864 hwloc_1.11.12-3~bpo9+1.debian.tar.bz2"
+	],
+	"Directory": [
+		"pool/main/h/hwloc"
+	],
+	"Files": [
+		"b527b692cefff6a8b1d208deb215a36e 2755 hwloc_1.11.12-3~bpo9+1.dsc c2a2e4e23eeb719ed31a755684697cf9 4116387 hwloc_1.11.12.orig.tar.bz2 b413f72be70d82a9f40b5ad68f8185f5 11864 hwloc_1.11.12-3~bpo9+1.debian.tar.bz2"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.open-mpi.org/projects/hwloc/"
+	],
+	"Maintainer": [
+		"Samuel Thibault <sthibault@debian.org>"
+	],
+	"Package": [
+		"hwloc"
+	],
+	"Package-List": [
+		"hwloc deb admin optional arch=any hwloc-nox deb admin optional arch=any libhwloc-common deb libs optional arch=all libhwloc-dev deb libdevel optional arch=any libhwloc-doc deb doc optional arch=all libhwloc-plugins deb libs optional arch=any libhwloc5 deb libs optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.2.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"libxml2-utils"
+	],
+	"Vcs-Browser": [
+		"https://github.com/open-mpi/hwloc-debian"
+	],
+	"Vcs-Git": [
+		"https://github.com/open-mpi/hwloc-debian.git"
+	],
+	"Version": [
+		"1.11.12-3~bpo9+1"
+	]
 }

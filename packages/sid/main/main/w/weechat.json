@@ -1,53 +1,53 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "weechat, weechat-curses, weechat-headless, weechat-core, weechat-plugins, weechat-python, weechat-perl, weechat-ruby, weechat-lua, weechat-tcl, weechat-guile, weechat-php, weechat-doc, weechat-dev"
-  ],
-  "Build-Depends": [
-    "asciidoctor (>= 1.5.4), debhelper (>= 13), debhelper-compat (= 13), cmake, pkg-config, libncurses-dev, ruby-dev, libperl-dev, python3-dev, libaspell-dev, liblua5.3-dev, tcl8.6-dev, guile-3.0-dev, php-dev, libphp-embed, libargon2-dev, libsodium-dev, libxml2-dev, libcurl4-gnutls-dev, libgcrypt20-dev, libgnutls28-dev, libzstd-dev, zlib1g-dev"
-  ],
-  "Checksums-Sha256": [
-    "4c279db376dbcb31645be0130460dd4f3f1dea805d8c75f1e82cd615a8f16100 3089 weechat_4.1.1-1.dsc 774238614d8e63e4d3d5a73a6cb640ec76fe06cc982b87a8c923651579277675 2634896 weechat_4.1.1.orig.tar.xz ee8ee2286fc647fd77b352b1f500f67cda072ce2c1383aeb42239f68e32d8fc6 833 weechat_4.1.1.orig.tar.xz.asc 7dcc0c728a4178d55fae238c1f792f70d08df6b78f86ad07584b1fdcf59cc164 17344 weechat_4.1.1-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/w/weechat"
-  ],
-  "Files": [
-    "442917da8da55b98a5c16001760afaf9 3089 weechat_4.1.1-1.dsc 6791a1055ef9183cd7601953dcb239e4 2634896 weechat_4.1.1.orig.tar.xz a1c7dc1262835cbaac5f3db1747ae892 833 weechat_4.1.1.orig.tar.xz.asc c484144a1be48b08ab194d0b1c5d1d12 17344 weechat_4.1.1-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://weechat.org/"
-  ],
-  "Maintainer": [
-    "Emmanuel Bouthenot <kolter@debian.org>"
-  ],
-  "Package": [
-    "weechat"
-  ],
-  "Package-List": [
-    "weechat deb net optional arch=all weechat-core deb net optional arch=any weechat-curses deb net optional arch=any weechat-dev deb devel optional arch=any weechat-doc deb doc optional arch=all weechat-guile deb net optional arch=any weechat-headless deb net optional arch=any weechat-lua deb net optional arch=any weechat-perl deb net optional arch=any weechat-php deb net optional arch=any weechat-plugins deb net optional arch=any weechat-python deb net optional arch=any weechat-ruby deb net optional arch=any weechat-tcl deb net optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/kolter/weechat"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/kolter/weechat.git"
-  ],
-  "Version": [
-    "4.1.1-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"weechat, weechat-curses, weechat-headless, weechat-core, weechat-plugins, weechat-python, weechat-perl, weechat-ruby, weechat-lua, weechat-tcl, weechat-guile, weechat-php, weechat-doc, weechat-dev"
+	],
+	"Build-Depends": [
+		"asciidoctor (>= 1.5.4), debhelper (>= 13), debhelper-compat (= 13), cmake, pkg-config, libncurses-dev, ruby-dev, libperl-dev, python3-dev, libaspell-dev, liblua5.3-dev, tcl8.6-dev, guile-3.0-dev, php-dev, libphp-embed, libargon2-dev, libsodium-dev, libxml2-dev, libcurl4-gnutls-dev, libgcrypt20-dev, libgnutls28-dev, libzstd-dev, zlib1g-dev"
+	],
+	"Checksums-Sha256": [
+		"4c279db376dbcb31645be0130460dd4f3f1dea805d8c75f1e82cd615a8f16100 3089 weechat_4.1.1-1.dsc 774238614d8e63e4d3d5a73a6cb640ec76fe06cc982b87a8c923651579277675 2634896 weechat_4.1.1.orig.tar.xz ee8ee2286fc647fd77b352b1f500f67cda072ce2c1383aeb42239f68e32d8fc6 833 weechat_4.1.1.orig.tar.xz.asc 7dcc0c728a4178d55fae238c1f792f70d08df6b78f86ad07584b1fdcf59cc164 17344 weechat_4.1.1-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/w/weechat"
+	],
+	"Files": [
+		"442917da8da55b98a5c16001760afaf9 3089 weechat_4.1.1-1.dsc 6791a1055ef9183cd7601953dcb239e4 2634896 weechat_4.1.1.orig.tar.xz a1c7dc1262835cbaac5f3db1747ae892 833 weechat_4.1.1.orig.tar.xz.asc c484144a1be48b08ab194d0b1c5d1d12 17344 weechat_4.1.1-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://weechat.org/"
+	],
+	"Maintainer": [
+		"Emmanuel Bouthenot <kolter@debian.org>"
+	],
+	"Package": [
+		"weechat"
+	],
+	"Package-List": [
+		"weechat deb net optional arch=all weechat-core deb net optional arch=any weechat-curses deb net optional arch=any weechat-dev deb devel optional arch=any weechat-doc deb doc optional arch=all weechat-guile deb net optional arch=any weechat-headless deb net optional arch=any weechat-lua deb net optional arch=any weechat-perl deb net optional arch=any weechat-php deb net optional arch=any weechat-plugins deb net optional arch=any weechat-python deb net optional arch=any weechat-ruby deb net optional arch=any weechat-tcl deb net optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/kolter/weechat"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/kolter/weechat.git"
+	],
+	"Version": [
+		"4.1.1-1"
+	]
 }

@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-neutron-lib, python3-neutron-lib, python-neutron-lib-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 10), dh-python, python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.8), python3-setuptools"
-  ],
-  "Build-Depends-Indep": [
-    "python-babel (>= 2.3.4), python-coverage, python-debtcollector (>= 1.2.0), python-fixtures (>= 3.0.0), python-hacking, python-os-testr (>= 0.7.0), python-oslo.config (>= 1:3.14.0), python-oslo.context (>= 2.9.0), python-oslo.db (>= 4.10.0), python-oslo.i18n (>= 2.1.0), python-oslo.log (>= 1.14.0), python-oslo.messaging (>= 5.2.0), python-oslo.policy (>= 1.9.0), python-oslo.service (>= 1.10.0), python-oslo.utils (>= 3.16.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.10.0), python-pep8, python-sqlalchemy (>= 1.0.10), python-testresources (>= 0.2.4), python-testscenarios, python-testtools (>= 1.4.0), python3-babel (>= 2.3.4), python3-debtcollector (>= 1.2.0), python3-fixtures (>= 3.0.0), python3-os-testr (>= 0.7.0), python3-oslo.config (>= 1:3.14.0), python3-oslo.context (>= 2.9.0), python3-oslo.db (>= 4.10.0), python3-oslo.i18n (>= 2.1.0), python3-oslo.log (>= 1.14.0), python3-oslo.messaging (>= 5.2.0), python3-oslo.policy (>= 1.9.0), python3-oslo.service (>= 1.10.0), python3-oslo.utils (>= 3.16.0), python3-oslotest (>= 1:1.10.0), python3-pep8, python3-sqlalchemy (>= 1.0.10), python3-subunit, python3-testresources (>= 0.2.4), python3-testscenarios, python3-testtools (>= 1.4.0), subunit, testrepository"
-  ],
-  "Checksums-Sha256": [
-    "d541418e47f9e92768daf1aac9cf51d817f72b2b217b9d441f94ec64eb09ca73 3610 python-neutron-lib_0.4.0-3.dsc a7158bf4e3c3a777321f0b0925666261ed87d73d9b5e7875e60b0b38d7fc72ba 114052 python-neutron-lib_0.4.0.orig.tar.xz 0ca6725e26396b196f75c7f4a05c7f923bcf1993bdf551c75b199351dad5897c 4412 python-neutron-lib_0.4.0-3.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/python-neutron-lib"
-  ],
-  "Files": [
-    "2e39bd3319417ce5d92035d9dc2c78fc 3610 python-neutron-lib_0.4.0-3.dsc 60fb94219420d8dc612edcd572585fe9 114052 python-neutron-lib_0.4.0.orig.tar.xz 7d12d8e130a52fb70542d86fc7e34786 4412 python-neutron-lib_0.4.0-3.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.openstack.org/"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "python-neutron-lib"
-  ],
-  "Package-List": [
-    "python-neutron-lib deb python optional arch=all python-neutron-lib-doc deb doc optional arch=all python3-neutron-lib deb python optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Thomas Goirand <zigo@debian.org>, Corey Bryant <corey.bryant@canonical.com>,"
-  ],
-  "Vcs-Browser": [
-    "https://git.openstack.org/cgit/openstack/deb-python-neutron-lib?h=debian%2Fnewton"
-  ],
-  "Vcs-Git": [
-    "https://git.openstack.org/openstack/deb-python-neutron-lib -b debian/newton"
-  ],
-  "Version": [
-    "0.4.0-3"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-neutron-lib, python3-neutron-lib, python-neutron-lib-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 10), dh-python, python-all, python-pbr (>= 1.8), python-setuptools, python-sphinx, python3-all, python3-pbr (>= 1.8), python3-setuptools"
+	],
+	"Build-Depends-Indep": [
+		"python-babel (>= 2.3.4), python-coverage, python-debtcollector (>= 1.2.0), python-fixtures (>= 3.0.0), python-hacking, python-os-testr (>= 0.7.0), python-oslo.config (>= 1:3.14.0), python-oslo.context (>= 2.9.0), python-oslo.db (>= 4.10.0), python-oslo.i18n (>= 2.1.0), python-oslo.log (>= 1.14.0), python-oslo.messaging (>= 5.2.0), python-oslo.policy (>= 1.9.0), python-oslo.service (>= 1.10.0), python-oslo.utils (>= 3.16.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.10.0), python-pep8, python-sqlalchemy (>= 1.0.10), python-testresources (>= 0.2.4), python-testscenarios, python-testtools (>= 1.4.0), python3-babel (>= 2.3.4), python3-debtcollector (>= 1.2.0), python3-fixtures (>= 3.0.0), python3-os-testr (>= 0.7.0), python3-oslo.config (>= 1:3.14.0), python3-oslo.context (>= 2.9.0), python3-oslo.db (>= 4.10.0), python3-oslo.i18n (>= 2.1.0), python3-oslo.log (>= 1.14.0), python3-oslo.messaging (>= 5.2.0), python3-oslo.policy (>= 1.9.0), python3-oslo.service (>= 1.10.0), python3-oslo.utils (>= 3.16.0), python3-oslotest (>= 1:1.10.0), python3-pep8, python3-sqlalchemy (>= 1.0.10), python3-subunit, python3-testresources (>= 0.2.4), python3-testscenarios, python3-testtools (>= 1.4.0), subunit, testrepository"
+	],
+	"Checksums-Sha256": [
+		"d541418e47f9e92768daf1aac9cf51d817f72b2b217b9d441f94ec64eb09ca73 3610 python-neutron-lib_0.4.0-3.dsc a7158bf4e3c3a777321f0b0925666261ed87d73d9b5e7875e60b0b38d7fc72ba 114052 python-neutron-lib_0.4.0.orig.tar.xz 0ca6725e26396b196f75c7f4a05c7f923bcf1993bdf551c75b199351dad5897c 4412 python-neutron-lib_0.4.0-3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-neutron-lib"
+	],
+	"Files": [
+		"2e39bd3319417ce5d92035d9dc2c78fc 3610 python-neutron-lib_0.4.0-3.dsc 60fb94219420d8dc612edcd572585fe9 114052 python-neutron-lib_0.4.0.orig.tar.xz 7d12d8e130a52fb70542d86fc7e34786 4412 python-neutron-lib_0.4.0-3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.openstack.org/"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"python-neutron-lib"
+	],
+	"Package-List": [
+		"python-neutron-lib deb python optional arch=all python-neutron-lib-doc deb doc optional arch=all python3-neutron-lib deb python optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>, Corey Bryant <corey.bryant@canonical.com>,"
+	],
+	"Vcs-Browser": [
+		"https://git.openstack.org/cgit/openstack/deb-python-neutron-lib?h=debian%2Fnewton"
+	],
+	"Vcs-Git": [
+		"https://git.openstack.org/openstack/deb-python-neutron-lib -b debian/newton"
+	],
+	"Version": [
+		"0.4.0-3"
+	]
 }

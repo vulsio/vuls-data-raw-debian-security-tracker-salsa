@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "confget, pypy-confget, python-confget, python3-confget"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 12), dh-python, libpcre3-dev"
-  ],
-  "Build-Depends-Indep": [
-    "pypy, pypy-setuptools, pypy-six, python-all, python-ddt, python-pytest, python-six, python-setuptools, python3-all, python3-ddt, python3-pytest, python3-six, python3-setuptools"
-  ],
-  "Checksums-Sha256": [
-    "7f2c5205933bf4802ab0dc4604d65114e1f081e6e8f89d81a1376591d25debe1 2609 confget_2.2.0-4~bpo9+1.dsc 0f6e1629f31ef71a26d506d9fd84ea4374e7d6ff30f07631702b608fe080e4c5 31796 confget_2.2.0.orig.tar.xz d1788eb9d225b6426aa4b484860075bfe84c9be29c68b15dd9dd05e4534d2a75 833 confget_2.2.0.orig.tar.xz.asc 1038ce230a5c95ae54e753e86514da6114991d523bc339ee97336bb8a148f3ce 10024 confget_2.2.0-4~bpo9+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/c/confget"
-  ],
-  "Files": [
-    "b6267e1acf68681b4e00feb7bda53315 2609 confget_2.2.0-4~bpo9+1.dsc 3bfa6728ac2f1a7ce16d01fbdb0dd2cd 31796 confget_2.2.0.orig.tar.xz 9339caaccb64f9f930d123b647787517 833 confget_2.2.0.orig.tar.xz.asc e9d2d7d81168a923a7c4e444817a921c 10024 confget_2.2.0-4~bpo9+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://devel.ringlet.net/textproc/confget/"
-  ],
-  "Maintainer": [
-    "Peter Pentchev <roam@debian.org>"
-  ],
-  "Package": [
-    "confget"
-  ],
-  "Package-List": [
-    "confget deb text optional arch=any pypy-confget deb python optional arch=all python-confget deb python optional arch=all python3-confget deb python optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.3.0"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "adequate, feature-check, groff-base, perl"
-  ],
-  "Vcs-Browser": [
-    "https://gitlab.com/confget/confget/tree/debian/master"
-  ],
-  "Vcs-Git": [
-    "https://gitlab.com/confget/confget.git -b debian/master"
-  ],
-  "Version": [
-    "2.2.0-4~bpo9+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"confget, pypy-confget, python-confget, python3-confget"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 12), dh-python, libpcre3-dev"
+	],
+	"Build-Depends-Indep": [
+		"pypy, pypy-setuptools, pypy-six, python-all, python-ddt, python-pytest, python-six, python-setuptools, python3-all, python3-ddt, python3-pytest, python3-six, python3-setuptools"
+	],
+	"Checksums-Sha256": [
+		"7f2c5205933bf4802ab0dc4604d65114e1f081e6e8f89d81a1376591d25debe1 2609 confget_2.2.0-4~bpo9+1.dsc 0f6e1629f31ef71a26d506d9fd84ea4374e7d6ff30f07631702b608fe080e4c5 31796 confget_2.2.0.orig.tar.xz d1788eb9d225b6426aa4b484860075bfe84c9be29c68b15dd9dd05e4534d2a75 833 confget_2.2.0.orig.tar.xz.asc 1038ce230a5c95ae54e753e86514da6114991d523bc339ee97336bb8a148f3ce 10024 confget_2.2.0-4~bpo9+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/c/confget"
+	],
+	"Files": [
+		"b6267e1acf68681b4e00feb7bda53315 2609 confget_2.2.0-4~bpo9+1.dsc 3bfa6728ac2f1a7ce16d01fbdb0dd2cd 31796 confget_2.2.0.orig.tar.xz 9339caaccb64f9f930d123b647787517 833 confget_2.2.0.orig.tar.xz.asc e9d2d7d81168a923a7c4e444817a921c 10024 confget_2.2.0-4~bpo9+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://devel.ringlet.net/textproc/confget/"
+	],
+	"Maintainer": [
+		"Peter Pentchev <roam@debian.org>"
+	],
+	"Package": [
+		"confget"
+	],
+	"Package-List": [
+		"confget deb text optional arch=any pypy-confget deb python optional arch=all python-confget deb python optional arch=all python3-confget deb python optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.3.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"adequate, feature-check, groff-base, perl"
+	],
+	"Vcs-Browser": [
+		"https://gitlab.com/confget/confget/tree/debian/master"
+	],
+	"Vcs-Git": [
+		"https://gitlab.com/confget/confget.git -b debian/master"
+	],
+	"Version": [
+		"2.2.0-4~bpo9+1"
+	]
 }

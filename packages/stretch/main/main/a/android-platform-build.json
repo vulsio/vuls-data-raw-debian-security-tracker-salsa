@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "amd64 i386 armel armhf arm64 mips mipsel mips64el all"
-  ],
-  "Binary": [
-    "android-platform-build-headers, zipalign, ziptime, signapk, signtos, android-logtags-tools"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 10), android-libandroidfw-dev (>= 1:7.0.0+r33~) [amd64 i386 armel armhf arm64 mips mipsel mips64el], android-liblog-dev (>= 1:7.0.0+r33~) [amd64 i386 armel armhf arm64 mips mipsel mips64el], android-libutils-dev (>= 1:7.0.0+r33~) [amd64 i386 armel armhf arm64 mips mipsel mips64el], default-jdk-headless | default-jdk, javahelper, libbcprov-java, libbcpkix-java, libzopfli-dev (>= 1.0.1-3) [amd64 i386 armel armhf arm64 mips mipsel mips64el], zlib1g-dev [amd64 i386 armel armhf arm64 mips mipsel mips64el], pandoc"
-  ],
-  "Checksums-Sha256": [
-    "687e9b7172310c15ec20a8e655cfb95b23052cb151b7989c303c8c925dddc75c 2894 android-platform-build_7.0.0+r33-1.dsc 623b064ad4f2b23b29f2aa332b28f4fbab72ba0d46cef86377e6d6fb6e22ddd5 379704 android-platform-build_7.0.0+r33.orig.tar.xz 0e5cabaf9df1e9596da1f355157f3a4e952e610e6deaf2586a9d7632fc88182a 8892 android-platform-build_7.0.0+r33-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/a/android-platform-build"
-  ],
-  "Files": [
-    "de1994e9df64935d2543e24c001eeca2 2894 android-platform-build_7.0.0+r33-1.dsc e9cb86a9b244e72d41f80441f622e584 379704 android-platform-build_7.0.0+r33.orig.tar.xz 096ace0c8d6b653120558a87cad34549 8892 android-platform-build_7.0.0+r33-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://android.googlesource.com/platform/build"
-  ],
-  "Maintainer": [
-    "Android Tools Maintainers <android-tools-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "android-platform-build"
-  ],
-  "Package-List": [
-    "android-logtags-tools deb devel optional arch=all android-platform-build-headers deb libdevel optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el signapk deb devel optional arch=all signtos deb devel optional arch=all zipalign deb devel optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el ziptime deb devel optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Kai-Chung Yan <seamlikok@gmail.com>, Hans-Christoph Steiner <hans@eds.org>, Chirayu Desai <chirayudesai1@gmail.com>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/android-tools/android-platform-build.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/android-tools/android-platform-build.git"
-  ],
-  "Version": [
-    "1:7.0.0+r33-1"
-  ]
+	"Architecture": [
+		"amd64 i386 armel armhf arm64 mips mipsel mips64el all"
+	],
+	"Binary": [
+		"android-platform-build-headers, zipalign, ziptime, signapk, signtos, android-logtags-tools"
+	],
+	"Build-Depends": [
+		"debhelper (>= 10), android-libandroidfw-dev (>= 1:7.0.0+r33~) [amd64 i386 armel armhf arm64 mips mipsel mips64el], android-liblog-dev (>= 1:7.0.0+r33~) [amd64 i386 armel armhf arm64 mips mipsel mips64el], android-libutils-dev (>= 1:7.0.0+r33~) [amd64 i386 armel armhf arm64 mips mipsel mips64el], default-jdk-headless | default-jdk, javahelper, libbcprov-java, libbcpkix-java, libzopfli-dev (>= 1.0.1-3) [amd64 i386 armel armhf arm64 mips mipsel mips64el], zlib1g-dev [amd64 i386 armel armhf arm64 mips mipsel mips64el], pandoc"
+	],
+	"Checksums-Sha256": [
+		"687e9b7172310c15ec20a8e655cfb95b23052cb151b7989c303c8c925dddc75c 2894 android-platform-build_7.0.0+r33-1.dsc 623b064ad4f2b23b29f2aa332b28f4fbab72ba0d46cef86377e6d6fb6e22ddd5 379704 android-platform-build_7.0.0+r33.orig.tar.xz 0e5cabaf9df1e9596da1f355157f3a4e952e610e6deaf2586a9d7632fc88182a 8892 android-platform-build_7.0.0+r33-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/a/android-platform-build"
+	],
+	"Files": [
+		"de1994e9df64935d2543e24c001eeca2 2894 android-platform-build_7.0.0+r33-1.dsc e9cb86a9b244e72d41f80441f622e584 379704 android-platform-build_7.0.0+r33.orig.tar.xz 096ace0c8d6b653120558a87cad34549 8892 android-platform-build_7.0.0+r33-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://android.googlesource.com/platform/build"
+	],
+	"Maintainer": [
+		"Android Tools Maintainers <android-tools-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"android-platform-build"
+	],
+	"Package-List": [
+		"android-logtags-tools deb devel optional arch=all android-platform-build-headers deb libdevel optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el signapk deb devel optional arch=all signtos deb devel optional arch=all zipalign deb devel optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el ziptime deb devel optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Kai-Chung Yan <seamlikok@gmail.com>, Hans-Christoph Steiner <hans@eds.org>, Chirayu Desai <chirayudesai1@gmail.com>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/cgit/android-tools/android-platform-build.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/android-tools/android-platform-build.git"
+	],
+	"Version": [
+		"1:7.0.0+r33-1"
+	]
 }

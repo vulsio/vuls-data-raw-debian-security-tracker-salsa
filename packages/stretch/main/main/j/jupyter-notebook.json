@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-notebook, python3-notebook, python-notebook-doc, jupyter-notebook"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 10), dh-python, dpkg-dev (>= 1.17.14), python3-all, python3-setuptools, python3-nose <!nocheck>, python3-requests <!nocheck>, python3-ipython (>= 4) <!nocheck>, python3-jupyter-core <!nocheck>, python3-jupyter-client <!nocheck>, python3-tornado <!nocheck>, python3-nbformat <!nocheck>, python3-nbconvert <!nocheck>, python3-ipykernel <!nocheck>, python3-terminado <!nocheck>, python3-entrypoints <!nocheck>, python3-zmq <!nocheck>, python-all, python-setuptools, python-nose <!nocheck>, python-requests <!nocheck>, python-ipython (>= 4) <!nocheck>, python-jupyter-core <!nocheck>, python-jupyter-client <!nocheck>, python-tornado <!nocheck>, python-nbformat <!nocheck>, python-nbconvert <!nocheck>, python-ipykernel <!nocheck>, python-terminado <!nocheck>, python-entrypoints <!nocheck>, python-zmq <!nocheck>, python3-sphinx <!nodoc>, python3-sphinx-rtd-theme <!nodoc>, libjs-backbone (>= 1.2), libjs-bootstrap (>= 3.3), libjs-bootstrap-tour (>= 0.9), libjs-codemirror, libjs-es6-promise (>= 1.0), fonts-font-awesome (>= 4.2), libjs-jquery, libjs-jquery-ui (>= 1.12), libjs-marked (>= 0.3), libjs-mathjax (>= 2.5), libjs-moment (>= 2.8.4), libjs-requirejs (>= 2.1), libjs-term.js, libjs-text-encoding (>= 0.1), libjs-underscore (>= 1.5), libjs-jquery-typeahead (>= 2.0), nodejs, node-less (>= 1.5), node-source-map, node-requirejs (>= 2.3), node-uglify"
-  ],
-  "Checksums-Sha256": [
-    "55ee3264e368408c66c8a2d3d8c189ebfc819eafb29f3d46577faf451c8e5f67 3615 jupyter-notebook_4.2.3-4.dsc d755f6711581a11fe14da50623b29b9d1476d8947776634234dbf064d8ab5632 4456566 jupyter-notebook_4.2.3.orig.tar.gz 8f0dd3664dbcac1219dec26643d6ac48c3176797d74edc7843275778307f222f 47308 jupyter-notebook_4.2.3-4.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/j/jupyter-notebook"
-  ],
-  "Files": [
-    "ce42ce1da60a155583317f7a7893ec12 3615 jupyter-notebook_4.2.3-4.dsc 5c6b0b1303adacd8972c4db21eda3e98 4456566 jupyter-notebook_4.2.3.orig.tar.gz 15acc874b017e1343fbb9907fc7702cb 47308 jupyter-notebook_4.2.3-4.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/jupyter/notebook"
-  ],
-  "Maintainer": [
-    "Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "jupyter-notebook"
-  ],
-  "Package-List": [
-    "jupyter-notebook deb science optional arch=all python-notebook deb python optional arch=all python-notebook-doc deb doc optional arch=all profile=!nodoc python3-notebook deb python optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "Gordon Ball <gordon@chronitis.net>, Jerome Benoit <calculus@rezozer.net>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/git/python-modules/packages/jupyter-notebook.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/python-modules/packages/jupyter-notebook.git"
-  ],
-  "Version": [
-    "4.2.3-4"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-notebook, python3-notebook, python-notebook-doc, jupyter-notebook"
+	],
+	"Build-Depends": [
+		"debhelper (>= 10), dh-python, dpkg-dev (>= 1.17.14), python3-all, python3-setuptools, python3-nose <!nocheck>, python3-requests <!nocheck>, python3-ipython (>= 4) <!nocheck>, python3-jupyter-core <!nocheck>, python3-jupyter-client <!nocheck>, python3-tornado <!nocheck>, python3-nbformat <!nocheck>, python3-nbconvert <!nocheck>, python3-ipykernel <!nocheck>, python3-terminado <!nocheck>, python3-entrypoints <!nocheck>, python3-zmq <!nocheck>, python-all, python-setuptools, python-nose <!nocheck>, python-requests <!nocheck>, python-ipython (>= 4) <!nocheck>, python-jupyter-core <!nocheck>, python-jupyter-client <!nocheck>, python-tornado <!nocheck>, python-nbformat <!nocheck>, python-nbconvert <!nocheck>, python-ipykernel <!nocheck>, python-terminado <!nocheck>, python-entrypoints <!nocheck>, python-zmq <!nocheck>, python3-sphinx <!nodoc>, python3-sphinx-rtd-theme <!nodoc>, libjs-backbone (>= 1.2), libjs-bootstrap (>= 3.3), libjs-bootstrap-tour (>= 0.9), libjs-codemirror, libjs-es6-promise (>= 1.0), fonts-font-awesome (>= 4.2), libjs-jquery, libjs-jquery-ui (>= 1.12), libjs-marked (>= 0.3), libjs-mathjax (>= 2.5), libjs-moment (>= 2.8.4), libjs-requirejs (>= 2.1), libjs-term.js, libjs-text-encoding (>= 0.1), libjs-underscore (>= 1.5), libjs-jquery-typeahead (>= 2.0), nodejs, node-less (>= 1.5), node-source-map, node-requirejs (>= 2.3), node-uglify"
+	],
+	"Checksums-Sha256": [
+		"55ee3264e368408c66c8a2d3d8c189ebfc819eafb29f3d46577faf451c8e5f67 3615 jupyter-notebook_4.2.3-4.dsc d755f6711581a11fe14da50623b29b9d1476d8947776634234dbf064d8ab5632 4456566 jupyter-notebook_4.2.3.orig.tar.gz 8f0dd3664dbcac1219dec26643d6ac48c3176797d74edc7843275778307f222f 47308 jupyter-notebook_4.2.3-4.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/j/jupyter-notebook"
+	],
+	"Files": [
+		"ce42ce1da60a155583317f7a7893ec12 3615 jupyter-notebook_4.2.3-4.dsc 5c6b0b1303adacd8972c4db21eda3e98 4456566 jupyter-notebook_4.2.3.orig.tar.gz 15acc874b017e1343fbb9907fc7702cb 47308 jupyter-notebook_4.2.3-4.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/jupyter/notebook"
+	],
+	"Maintainer": [
+		"Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"jupyter-notebook"
+	],
+	"Package-List": [
+		"jupyter-notebook deb science optional arch=all python-notebook deb python optional arch=all python-notebook-doc deb doc optional arch=all profile=!nodoc python3-notebook deb python optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"Gordon Ball <gordon@chronitis.net>, Jerome Benoit <calculus@rezozer.net>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/git/python-modules/packages/jupyter-notebook.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/python-modules/packages/jupyter-notebook.git"
+	],
+	"Version": [
+		"4.2.3-4"
+	]
 }

@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "i386 amd64 kfreebsd-amd64 kfreebsd-i386 powerpc armhf armel all"
-  ],
-  "Binary": [
-    "sbcl, sbcl-doc, sbcl-source"
-  ],
-  "Build-Depends": [
-    "dh-lisp, debhelper (>> 7.0.0), sbcl (>> 1:0.9.5.50-9), sbcl-source, texinfo, zlib1g-dev, texlive-extra-utils, texlive, locales, graphviz, ghostscript, texlive-generic-recommended, texlive-font-utils, cm-super-minimal, time, netbase"
-  ],
-  "Checksums-Sha1": [
-    "f0d2ae98e75faf8bb5e8ae26c44c17c0b6c46120 2346 sbcl_1.2.4-2.dsc 640fec0a1ba4614e5fdd335ff3874a436b7bcff5 4486150 sbcl_1.2.4.orig.tar.bz2 423255ed337b90ce54b884bfcbf2511aba51cab6 119028 sbcl_1.2.4-2.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "4308dfa04f94a9500ab313a4e73ea710cb72d2941e72abb39a82375f9f64ecb8 2346 sbcl_1.2.4-2.dsc f910059785ffcfa22eb40548e1355f0da979261fbee017baa9ef2c060d777232 4486150 sbcl_1.2.4.orig.tar.bz2 ac76835b0f756ecc5255a46ecdf134d62061cc47d0d1057a01f0e530d33fcf0b 119028 sbcl_1.2.4-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/s/sbcl"
-  ],
-  "Files": [
-    "786693c308f5b3ba69d73ed315f03837 2346 sbcl_1.2.4-2.dsc a99a854b956442695c76eeeb0e1aa856 4486150 sbcl_1.2.4.orig.tar.bz2 756f3c37d89bdc075d189219af1620fa 119028 sbcl_1.2.4-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.sbcl.org"
-  ],
-  "Maintainer": [
-    "Debian Common Lisp Team <pkg-common-lisp-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "sbcl"
-  ],
-  "Package-List": [
-    "sbcl deb lisp optional arch=i386,amd64,kfreebsd-amd64,kfreebsd-i386,powerpc,armhf,armel sbcl-doc deb doc optional arch=all sbcl-source deb lisp optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "lisp"
-  ],
-  "Standards-Version": [
-    "3.9.2"
-  ],
-  "Uploaders": [
-    "Peter Van Eynde <pvaneynd@debian.org>, Christoph Egger <christoph@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://git.debian.org/?p=pkg-common-lisp/sbcl.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "http://git.debian.org/git/pkg-common-lisp/sbcl.git"
-  ],
-  "Version": [
-    "2:1.2.4-2"
-  ]
+	"Architecture": [
+		"i386 amd64 kfreebsd-amd64 kfreebsd-i386 powerpc armhf armel all"
+	],
+	"Binary": [
+		"sbcl, sbcl-doc, sbcl-source"
+	],
+	"Build-Depends": [
+		"dh-lisp, debhelper (>> 7.0.0), sbcl (>> 1:0.9.5.50-9), sbcl-source, texinfo, zlib1g-dev, texlive-extra-utils, texlive, locales, graphviz, ghostscript, texlive-generic-recommended, texlive-font-utils, cm-super-minimal, time, netbase"
+	],
+	"Checksums-Sha1": [
+		"f0d2ae98e75faf8bb5e8ae26c44c17c0b6c46120 2346 sbcl_1.2.4-2.dsc 640fec0a1ba4614e5fdd335ff3874a436b7bcff5 4486150 sbcl_1.2.4.orig.tar.bz2 423255ed337b90ce54b884bfcbf2511aba51cab6 119028 sbcl_1.2.4-2.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"4308dfa04f94a9500ab313a4e73ea710cb72d2941e72abb39a82375f9f64ecb8 2346 sbcl_1.2.4-2.dsc f910059785ffcfa22eb40548e1355f0da979261fbee017baa9ef2c060d777232 4486150 sbcl_1.2.4.orig.tar.bz2 ac76835b0f756ecc5255a46ecdf134d62061cc47d0d1057a01f0e530d33fcf0b 119028 sbcl_1.2.4-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/s/sbcl"
+	],
+	"Files": [
+		"786693c308f5b3ba69d73ed315f03837 2346 sbcl_1.2.4-2.dsc a99a854b956442695c76eeeb0e1aa856 4486150 sbcl_1.2.4.orig.tar.bz2 756f3c37d89bdc075d189219af1620fa 119028 sbcl_1.2.4-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.sbcl.org"
+	],
+	"Maintainer": [
+		"Debian Common Lisp Team <pkg-common-lisp-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"sbcl"
+	],
+	"Package-List": [
+		"sbcl deb lisp optional arch=i386,amd64,kfreebsd-amd64,kfreebsd-i386,powerpc,armhf,armel sbcl-doc deb doc optional arch=all sbcl-source deb lisp optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"lisp"
+	],
+	"Standards-Version": [
+		"3.9.2"
+	],
+	"Uploaders": [
+		"Peter Van Eynde <pvaneynd@debian.org>, Christoph Egger <christoph@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://git.debian.org/?p=pkg-common-lisp/sbcl.git;a=summary"
+	],
+	"Vcs-Git": [
+		"http://git.debian.org/git/pkg-common-lisp/sbcl.git"
+	],
+	"Version": [
+		"2:1.2.4-2"
+	]
 }

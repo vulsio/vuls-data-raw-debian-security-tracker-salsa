@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-linux-perf-data-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-byteorder-1+default-dev (>= 1.4.3-~~) <!nocheck>, librust-linear-map-1+default-dev (>= 1.2.0-~~) <!nocheck>, librust-linux-perf-event-reader-0.8+default-dev <!nocheck>, librust-memchr-2+default-dev (>= 2.4.1-~~) <!nocheck>, librust-thiserror-1+default-dev (>= 1.0.30-~~) <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "d377540a86933658578b588edb9db4c489c46a2dfceef310ba6b51631aaf135e 2486 rust-linux-perf-data_0.6.0-1.dsc 356ae6965c180cf3261483712d8fb4e9603f50752dcbe0bc151ff0adb5ba042c 24730 rust-linux-perf-data_0.6.0.orig.tar.gz 3244ca43b9ee7e13a4d22593ad48375a0cb0b61c7cf1f10a22b09c8d89f358ed 2656 rust-linux-perf-data_0.6.0-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-linux-perf-data"
-  ],
-  "Files": [
-    "93aff182a926997087efdaacebdc9641 2486 rust-linux-perf-data_0.6.0-1.dsc 715b9ae6d461d4aa54a6fc70a218d92e 24730 rust-linux-perf-data_0.6.0.orig.tar.gz 627cd8c2f45c8243e3341566f93c75a3 2656 rust-linux-perf-data_0.6.0-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-linux-perf-data"
-  ],
-  "Package-List": [
-    "librust-linux-perf-data-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.5.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo"
-  ],
-  "Uploaders": [
-    "Sylvestre Ledru <sylvestre@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/linux-perf-data"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/linux-perf-data]"
-  ],
-  "Version": [
-    "0.6.0-1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-linux-perf-data-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-byteorder-1+default-dev (>= 1.4.3-~~) <!nocheck>, librust-linear-map-1+default-dev (>= 1.2.0-~~) <!nocheck>, librust-linux-perf-event-reader-0.8+default-dev <!nocheck>, librust-memchr-2+default-dev (>= 2.4.1-~~) <!nocheck>, librust-thiserror-1+default-dev (>= 1.0.30-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"d377540a86933658578b588edb9db4c489c46a2dfceef310ba6b51631aaf135e 2486 rust-linux-perf-data_0.6.0-1.dsc 356ae6965c180cf3261483712d8fb4e9603f50752dcbe0bc151ff0adb5ba042c 24730 rust-linux-perf-data_0.6.0.orig.tar.gz 3244ca43b9ee7e13a4d22593ad48375a0cb0b61c7cf1f10a22b09c8d89f358ed 2656 rust-linux-perf-data_0.6.0-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-linux-perf-data"
+	],
+	"Files": [
+		"93aff182a926997087efdaacebdc9641 2486 rust-linux-perf-data_0.6.0-1.dsc 715b9ae6d461d4aa54a6fc70a218d92e 24730 rust-linux-perf-data_0.6.0.orig.tar.gz 627cd8c2f45c8243e3341566f93c75a3 2656 rust-linux-perf-data_0.6.0-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-linux-perf-data"
+	],
+	"Package-List": [
+		"librust-linux-perf-data-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo"
+	],
+	"Uploaders": [
+		"Sylvestre Ledru <sylvestre@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/linux-perf-data"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/linux-perf-data]"
+	],
+	"Version": [
+		"0.6.0-1"
+	]
 }

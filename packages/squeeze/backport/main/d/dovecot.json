@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "dovecot-common, dovecot-core, dovecot-dev, dovecot-imapd, dovecot-pop3d, dovecot-lmtpd, dovecot-managesieved, dovecot-pgsql, dovecot-mysql, dovecot-sqlite, dovecot-ldap, dovecot-gssapi, dovecot-sieve, dovecot-solr, dovecot-dbg"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 7.2.3~), dpkg-dev (>= 1.16.1), pkg-config, libssl-dev, libpam0g-dev, libldap2-dev, libpq-dev, libmysqlclient-dev, libsqlite3-dev, libsasl2-dev, zlib1g-dev, libkrb5-dev, drac-dev (>= 1.12-5), libbz2-dev, libdb-dev, libcurl4-gnutls-dev, libexpat-dev"
-  ],
-  "Checksums-Sha1": [
-    "3997cdbd448f46d8574f5254b3f052ce20eeba6e 2354 dovecot_2.1.7-7~bpo60+1.dsc 68fc6c80b71946d88f492b3182cb73b43b921bbe 3778791 dovecot_2.1.7.orig.tar.gz e28ae40d18a8f5304c4b6a6f75aa004ebca6471e 1142231 dovecot_2.1.7-7~bpo60+1.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "93491098125b2104847a0fe4d387eb442376fd5ea134099ad935ac5684a9d0c5 2354 dovecot_2.1.7-7~bpo60+1.dsc d5b7bc61fff947722aebe12ebb25e92c38ce3e27e14ebc54cfc66f0b346cf452 3778791 dovecot_2.1.7.orig.tar.gz c3b636a6c6de1e2d733de0cd4ed54d0165835fd80834fd881afc52002a003ed9 1142231 dovecot_2.1.7-7~bpo60+1.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/d/dovecot"
-  ],
-  "Files": [
-    "e9e36cb58304b267d426ab0362187e06 2354 dovecot_2.1.7-7~bpo60+1.dsc b52d0faf1b9ec21bc5552691fe0ff1d1 3778791 dovecot_2.1.7.orig.tar.gz b6e048f3ba224d0694f4c2f16521fa83 1142231 dovecot_2.1.7-7~bpo60+1.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://dovecot.org/"
-  ],
-  "Maintainer": [
-    "Dovecot Maintainers <jaldhar-dovecot@debian.org>"
-  ],
-  "Package": [
-    "dovecot"
-  ],
-  "Package-List": [
-    "dovecot-common deb oldlibs extra dovecot-core deb mail optional dovecot-dbg deb debug extra dovecot-dev deb mail optional dovecot-gssapi deb mail optional dovecot-imapd deb mail optional dovecot-ldap deb mail optional dovecot-lmtpd deb mail optional dovecot-managesieved deb mail optional dovecot-mysql deb mail optional dovecot-pgsql deb mail optional dovecot-pop3d deb mail optional dovecot-sieve deb mail optional dovecot-solr deb mail optional dovecot-sqlite deb mail optional"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "mail"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Jaldhar H. Vyas <jaldhar@debian.org>, Fabio Tranchitella <kobold@debian.org>, Joel Johnson <mrjoel@lixil.net>, Marco Nenciarini <mnencia@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://git.debian.org/?p=collab-maint/dovecot.git"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/git/collab-maint/dovecot.git"
-  ],
-  "Version": [
-    "1:2.1.7-7~bpo60+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"dovecot-common, dovecot-core, dovecot-dev, dovecot-imapd, dovecot-pop3d, dovecot-lmtpd, dovecot-managesieved, dovecot-pgsql, dovecot-mysql, dovecot-sqlite, dovecot-ldap, dovecot-gssapi, dovecot-sieve, dovecot-solr, dovecot-dbg"
+	],
+	"Build-Depends": [
+		"debhelper (>= 7.2.3~), dpkg-dev (>= 1.16.1), pkg-config, libssl-dev, libpam0g-dev, libldap2-dev, libpq-dev, libmysqlclient-dev, libsqlite3-dev, libsasl2-dev, zlib1g-dev, libkrb5-dev, drac-dev (>= 1.12-5), libbz2-dev, libdb-dev, libcurl4-gnutls-dev, libexpat-dev"
+	],
+	"Checksums-Sha1": [
+		"3997cdbd448f46d8574f5254b3f052ce20eeba6e 2354 dovecot_2.1.7-7~bpo60+1.dsc 68fc6c80b71946d88f492b3182cb73b43b921bbe 3778791 dovecot_2.1.7.orig.tar.gz e28ae40d18a8f5304c4b6a6f75aa004ebca6471e 1142231 dovecot_2.1.7-7~bpo60+1.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"93491098125b2104847a0fe4d387eb442376fd5ea134099ad935ac5684a9d0c5 2354 dovecot_2.1.7-7~bpo60+1.dsc d5b7bc61fff947722aebe12ebb25e92c38ce3e27e14ebc54cfc66f0b346cf452 3778791 dovecot_2.1.7.orig.tar.gz c3b636a6c6de1e2d733de0cd4ed54d0165835fd80834fd881afc52002a003ed9 1142231 dovecot_2.1.7-7~bpo60+1.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/d/dovecot"
+	],
+	"Files": [
+		"e9e36cb58304b267d426ab0362187e06 2354 dovecot_2.1.7-7~bpo60+1.dsc b52d0faf1b9ec21bc5552691fe0ff1d1 3778791 dovecot_2.1.7.orig.tar.gz b6e048f3ba224d0694f4c2f16521fa83 1142231 dovecot_2.1.7-7~bpo60+1.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://dovecot.org/"
+	],
+	"Maintainer": [
+		"Dovecot Maintainers <jaldhar-dovecot@debian.org>"
+	],
+	"Package": [
+		"dovecot"
+	],
+	"Package-List": [
+		"dovecot-common deb oldlibs extra dovecot-core deb mail optional dovecot-dbg deb debug extra dovecot-dev deb mail optional dovecot-gssapi deb mail optional dovecot-imapd deb mail optional dovecot-ldap deb mail optional dovecot-lmtpd deb mail optional dovecot-managesieved deb mail optional dovecot-mysql deb mail optional dovecot-pgsql deb mail optional dovecot-pop3d deb mail optional dovecot-sieve deb mail optional dovecot-solr deb mail optional dovecot-sqlite deb mail optional"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"mail"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Jaldhar H. Vyas <jaldhar@debian.org>, Fabio Tranchitella <kobold@debian.org>, Joel Johnson <mrjoel@lixil.net>, Marco Nenciarini <mnencia@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://git.debian.org/?p=collab-maint/dovecot.git"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/git/collab-maint/dovecot.git"
+	],
+	"Version": [
+		"1:2.1.7-7~bpo60+1"
+	]
 }

@@ -1,42 +1,42 @@
 {
-  "header": {
-    "line": "CVE-2016-XXXX [sendmail: Privilege escalation from group smmsp to root]",
-    "name": "TEMP-0841257-B7CD60",
-    "description": "[sendmail: Privilege escalation from group smmsp to root]"
-  },
-  "annotations": [
-    {
-      "line": "\t- sendmail 8.15.2-7 (bug #841257)",
-      "type": "package",
-      "package": "sendmail",
-      "kind": "fixed",
-      "version": "8.15.2-7",
-      "flags": [
-        {
-          "bug": 841257
-        }
-      ]
-    },
-    {
-      "line": "\t[jessie] - sendmail 8.14.4-8+deb8u2",
-      "type": "package",
-      "release": "jessie",
-      "package": "sendmail",
-      "kind": "fixed",
-      "version": "8.14.4-8+deb8u2"
-    },
-    {
-      "line": "\t[wheezy] - sendmail <no-dsa> (Minor issue)",
-      "type": "package",
-      "release": "wheezy",
-      "package": "sendmail",
-      "kind": "no-dsa",
-      "description": "Minor issue"
-    },
-    {
-      "line": "\tNOTE: no unprivileged user should be in smmsp group and there is no known vulnerability to gain smmsp group membership",
-      "type": "NOTE",
-      "description": "no unprivileged user should be in smmsp group and there is no known vulnerability to gain smmsp group membership"
-    }
-  ]
+	"header": {
+		"line": "CVE-2016-XXXX [sendmail: Privilege escalation from group smmsp to root]",
+		"name": "TEMP-0841257-B7CD60",
+		"description": "[sendmail: Privilege escalation from group smmsp to root]"
+	},
+	"annotations": [
+		{
+			"line": "\t- sendmail 8.15.2-7 (bug #841257)",
+			"type": "package",
+			"package": "sendmail",
+			"kind": "fixed",
+			"version": "8.15.2-7",
+			"flags": [
+				{
+					"bug": 841257
+				}
+			]
+		},
+		{
+			"line": "\t[jessie] - sendmail 8.14.4-8+deb8u2",
+			"type": "package",
+			"release": "jessie",
+			"package": "sendmail",
+			"kind": "fixed",
+			"version": "8.14.4-8+deb8u2"
+		},
+		{
+			"line": "\t[wheezy] - sendmail <no-dsa> (Minor issue)",
+			"type": "package",
+			"release": "wheezy",
+			"package": "sendmail",
+			"kind": "no-dsa",
+			"description": "Minor issue"
+		},
+		{
+			"line": "\tNOTE: no unprivileged user should be in smmsp group and there is no known vulnerability to gain smmsp group membership",
+			"type": "NOTE",
+			"description": "no unprivileged user should be in smmsp group and there is no known vulnerability to gain smmsp group membership"
+		}
+	]
 }

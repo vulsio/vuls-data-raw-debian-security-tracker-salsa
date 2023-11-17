@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "k3b, k3b-data, k3b-extrathemes, k3b-i18n, libk3b-dev, libk3b8, libk3b-extracodecs"
-  ],
-  "Build-Depends": [
-    "cmake (>= 3.16~), debhelper-compat (= 13), dh-sequence-kf5, extra-cmake-modules (>= 5.96.0~), gettext, libavdevice-dev (>= 7:4.4.0~), libcam-dev [kfreebsd-any], libdvdread-dev, libflac++-dev, libflac-dev, libkf5archive-dev (>= 5.96.0~), libkf5auth-dev (>= 5.96.0~), libkf5cddb-dev (>= 4:23.08.1~), libkf5config-dev (>= 5.96.0~), libkf5coreaddons-dev (>= 5.96.0~), libkf5doctools-dev (>= 5.96.0~), libkf5filemetadata-dev (>= 5.96.0~), libkf5i18n-dev (>= 5.96.0~), libkf5iconthemes-dev (>= 5.96.0~), libkf5jobwidgets-dev (>= 5.96.0~), libkf5kcmutils-dev (>= 5.96.0~), libkf5kio-dev (>= 5.96.0~), libkf5newstuff-dev (>= 5.96.0~), libkf5notifications-dev (>= 5.96.0~), libkf5notifyconfig-dev (>= 5.96.0~), libkf5service-dev (>= 5.96.0~), libkf5solid-dev (>= 5.96.0~), libkf5widgetsaddons-dev (>= 5.96.0~), libkf5xmlgui-dev (>= 5.96.0~), libmad0-dev, libmp3lame-dev, libmpcdec-dev, libqt5webkit5-dev (>= 5.15.2~), libsamplerate0-dev, libsndfile1-dev, libtag1-dev, libvorbis-dev, qtbase5-dev (>= 5.15.2~), qtwebengine5-dev (>= 5.15.2~), shared-mime-info"
-  ],
-  "Checksums-Sha256": [
-    "bb765c9f3ae6b0ba06c9460556f64f9fefc186bf8ba9cb4d31ec09dcbd3ff650 3501 k3b_23.08.2-1.dsc daba1cdfb94e48e9c3176ff76ad652df7f350352ac9badca86e295c183ec3417 10966768 k3b_23.08.2.orig.tar.xz 7e45f288a5930f5e90937f1f516ac99557c3b166fb06709d2bae0d9281927fbf 833 k3b_23.08.2.orig.tar.xz.asc 8724eeda6d73e1bbd02d6977b8d9b047cb1612e30e6da456fd0456ffb7e268d6 38720 k3b_23.08.2-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/k/k3b"
-  ],
-  "Files": [
-    "b72029f945bd06686f6c1399748ffb3b 3501 k3b_23.08.2-1.dsc 95f9424615b9e2517dcb83307dceb3ec 10966768 k3b_23.08.2.orig.tar.xz 85d4891c8d8a674c75021523be5102d7 833 k3b_23.08.2.orig.tar.xz.asc b277150ef1992653cd64b33c36598413 38720 k3b_23.08.2-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://userbase.kde.org/K3b"
-  ],
-  "Maintainer": [
-    "Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>"
-  ],
-  "Package": [
-    "k3b"
-  ],
-  "Package-List": [
-    "k3b deb kde optional arch=any k3b-data deb kde optional arch=all k3b-extrathemes deb kde optional arch=all k3b-i18n deb localization optional arch=all libk3b-dev deb libdevel optional arch=any libk3b-extracodecs deb kde optional arch=any libk3b8 deb libs optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "kde"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Uploaders": [
-    "Aurélien COUDERC <coucouf@debian.org>, Pino Toscano <pino@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/qt-kde-team/kde/k3b"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/qt-kde-team/kde/k3b.git"
-  ],
-  "Version": [
-    "23.08.2-1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"k3b, k3b-data, k3b-extrathemes, k3b-i18n, libk3b-dev, libk3b8, libk3b-extracodecs"
+	],
+	"Build-Depends": [
+		"cmake (>= 3.16~), debhelper-compat (= 13), dh-sequence-kf5, extra-cmake-modules (>= 5.96.0~), gettext, libavdevice-dev (>= 7:4.4.0~), libcam-dev [kfreebsd-any], libdvdread-dev, libflac++-dev, libflac-dev, libkf5archive-dev (>= 5.96.0~), libkf5auth-dev (>= 5.96.0~), libkf5cddb-dev (>= 4:23.08.1~), libkf5config-dev (>= 5.96.0~), libkf5coreaddons-dev (>= 5.96.0~), libkf5doctools-dev (>= 5.96.0~), libkf5filemetadata-dev (>= 5.96.0~), libkf5i18n-dev (>= 5.96.0~), libkf5iconthemes-dev (>= 5.96.0~), libkf5jobwidgets-dev (>= 5.96.0~), libkf5kcmutils-dev (>= 5.96.0~), libkf5kio-dev (>= 5.96.0~), libkf5newstuff-dev (>= 5.96.0~), libkf5notifications-dev (>= 5.96.0~), libkf5notifyconfig-dev (>= 5.96.0~), libkf5service-dev (>= 5.96.0~), libkf5solid-dev (>= 5.96.0~), libkf5widgetsaddons-dev (>= 5.96.0~), libkf5xmlgui-dev (>= 5.96.0~), libmad0-dev, libmp3lame-dev, libmpcdec-dev, libqt5webkit5-dev (>= 5.15.2~), libsamplerate0-dev, libsndfile1-dev, libtag1-dev, libvorbis-dev, qtbase5-dev (>= 5.15.2~), qtwebengine5-dev (>= 5.15.2~), shared-mime-info"
+	],
+	"Checksums-Sha256": [
+		"bb765c9f3ae6b0ba06c9460556f64f9fefc186bf8ba9cb4d31ec09dcbd3ff650 3501 k3b_23.08.2-1.dsc daba1cdfb94e48e9c3176ff76ad652df7f350352ac9badca86e295c183ec3417 10966768 k3b_23.08.2.orig.tar.xz 7e45f288a5930f5e90937f1f516ac99557c3b166fb06709d2bae0d9281927fbf 833 k3b_23.08.2.orig.tar.xz.asc 8724eeda6d73e1bbd02d6977b8d9b047cb1612e30e6da456fd0456ffb7e268d6 38720 k3b_23.08.2-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/k/k3b"
+	],
+	"Files": [
+		"b72029f945bd06686f6c1399748ffb3b 3501 k3b_23.08.2-1.dsc 95f9424615b9e2517dcb83307dceb3ec 10966768 k3b_23.08.2.orig.tar.xz 85d4891c8d8a674c75021523be5102d7 833 k3b_23.08.2.orig.tar.xz.asc b277150ef1992653cd64b33c36598413 38720 k3b_23.08.2-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://userbase.kde.org/K3b"
+	],
+	"Maintainer": [
+		"Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>"
+	],
+	"Package": [
+		"k3b"
+	],
+	"Package-List": [
+		"k3b deb kde optional arch=any k3b-data deb kde optional arch=all k3b-extrathemes deb kde optional arch=all k3b-i18n deb localization optional arch=all libk3b-dev deb libdevel optional arch=any libk3b-extracodecs deb kde optional arch=any libk3b8 deb libs optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"kde"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Uploaders": [
+		"Aurélien COUDERC <coucouf@debian.org>, Pino Toscano <pino@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/qt-kde-team/kde/k3b"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/qt-kde-team/kde/k3b.git"
+	],
+	"Version": [
+		"23.08.2-1"
+	]
 }

@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "globus-gram-job-manager, globus-seg-job-manager, globus-gram-job-manager-dbg, globus-seg-job-manager-dbg"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 5), dh-autoreconf, pkg-config, libglobus-common-dev (>= 15), libglobus-gsi-credential-dev (>= 5), libglobus-gass-cache-dev (>= 8), libglobus-gass-transfer-dev (>= 7), libglobus-gram-protocol-dev (>= 11), libglobus-gssapi-gsi-dev (>= 10), libglobus-gss-assist-dev (>= 8), libglobus-gsi-sysconfig-dev (>= 5), libglobus-callout-dev (>= 3), libglobus-xio-dev (>= 3), libglobus-xio-popen-driver-dev (>= 2), libglobus-rsl-dev (>= 9), libglobus-gram-job-manager-callout-error-dev (>= 2), libglobus-scheduler-event-generator-dev (>= 4), libglobus-usage-dev (>= 3), libssl-dev, libxml2-dev, libglobus-io-dev (>= 9), libglobus-gram-client-dev (>= 3), libglobus-gass-server-ez-dev (>= 2), globus-common-progs (>= 15), globus-gatekeeper (>= 9), globus-gram-client-tools (>= 10), globus-gass-copy-progs (>= 8), globus-gass-cache-program (>= 5), globus-gram-job-manager-scripts (>= 6), globus-proxy-utils (>= 5), globus-gsi-cert-utils-progs, globus-gram-job-manager-fork, openssl"
-  ],
-  "Checksums-Sha1": [
-    "dbc04a9b5dc36a5ec00b8a1eff096c48118cb5a3 3198 globus-gram-job-manager_14.20-2.dsc 2c2505fcc586942405bf689e29d4ef4d4d079051 766699 globus-gram-job-manager_14.20.orig.tar.gz ff8e7ade057bdba330e86a62a44bf41afd588b6e 4328 globus-gram-job-manager_14.20-2.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "8ff0d4670d700c0f474f452ff5cfcc7ec27a2a5742be89fe331e20fbb7cacf53 3198 globus-gram-job-manager_14.20-2.dsc 895fa7319ecbb05284bb9bed808a089546df467ced94f87b7547253330f4fe12 766699 globus-gram-job-manager_14.20.orig.tar.gz 86152ae1d65bb8378438dd483b8bb6317eb72e5b38e24aacc8661d23f2a95416 4328 globus-gram-job-manager_14.20-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/g/globus-gram-job-manager"
-  ],
-  "Files": [
-    "e2d228b07bda527433a0b7532603242c 3198 globus-gram-job-manager_14.20-2.dsc efd08d81759bc18f5ae4ad9aecf4c4f7 766699 globus-gram-job-manager_14.20.orig.tar.gz 63933904a3d11822ead59b02028229bd 4328 globus-gram-job-manager_14.20-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.globus.org/"
-  ],
-  "Maintainer": [
-    "Mattias Ellert <mattias.ellert@fysast.uu.se>"
-  ],
-  "Package": [
-    "globus-gram-job-manager"
-  ],
-  "Package-List": [
-    "globus-gram-job-manager deb net optional arch=any globus-gram-job-manager-dbg deb debug extra arch=any globus-seg-job-manager deb libs optional arch=any globus-seg-job-manager-dbg deb debug extra arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Vcs-Browser": [
-    "http://svn.nordugrid.org/trac/packaging/browser/debian/globus-gram-job-manager"
-  ],
-  "Vcs-Svn": [
-    "http://svn.nordugrid.org/repos/packaging/debian/globus-gram-job-manager"
-  ],
-  "Version": [
-    "14.20-2"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"globus-gram-job-manager, globus-seg-job-manager, globus-gram-job-manager-dbg, globus-seg-job-manager-dbg"
+	],
+	"Build-Depends": [
+		"debhelper (>= 5), dh-autoreconf, pkg-config, libglobus-common-dev (>= 15), libglobus-gsi-credential-dev (>= 5), libglobus-gass-cache-dev (>= 8), libglobus-gass-transfer-dev (>= 7), libglobus-gram-protocol-dev (>= 11), libglobus-gssapi-gsi-dev (>= 10), libglobus-gss-assist-dev (>= 8), libglobus-gsi-sysconfig-dev (>= 5), libglobus-callout-dev (>= 3), libglobus-xio-dev (>= 3), libglobus-xio-popen-driver-dev (>= 2), libglobus-rsl-dev (>= 9), libglobus-gram-job-manager-callout-error-dev (>= 2), libglobus-scheduler-event-generator-dev (>= 4), libglobus-usage-dev (>= 3), libssl-dev, libxml2-dev, libglobus-io-dev (>= 9), libglobus-gram-client-dev (>= 3), libglobus-gass-server-ez-dev (>= 2), globus-common-progs (>= 15), globus-gatekeeper (>= 9), globus-gram-client-tools (>= 10), globus-gass-copy-progs (>= 8), globus-gass-cache-program (>= 5), globus-gram-job-manager-scripts (>= 6), globus-proxy-utils (>= 5), globus-gsi-cert-utils-progs, globus-gram-job-manager-fork, openssl"
+	],
+	"Checksums-Sha1": [
+		"dbc04a9b5dc36a5ec00b8a1eff096c48118cb5a3 3198 globus-gram-job-manager_14.20-2.dsc 2c2505fcc586942405bf689e29d4ef4d4d079051 766699 globus-gram-job-manager_14.20.orig.tar.gz ff8e7ade057bdba330e86a62a44bf41afd588b6e 4328 globus-gram-job-manager_14.20-2.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"8ff0d4670d700c0f474f452ff5cfcc7ec27a2a5742be89fe331e20fbb7cacf53 3198 globus-gram-job-manager_14.20-2.dsc 895fa7319ecbb05284bb9bed808a089546df467ced94f87b7547253330f4fe12 766699 globus-gram-job-manager_14.20.orig.tar.gz 86152ae1d65bb8378438dd483b8bb6317eb72e5b38e24aacc8661d23f2a95416 4328 globus-gram-job-manager_14.20-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/globus-gram-job-manager"
+	],
+	"Files": [
+		"e2d228b07bda527433a0b7532603242c 3198 globus-gram-job-manager_14.20-2.dsc efd08d81759bc18f5ae4ad9aecf4c4f7 766699 globus-gram-job-manager_14.20.orig.tar.gz 63933904a3d11822ead59b02028229bd 4328 globus-gram-job-manager_14.20-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.globus.org/"
+	],
+	"Maintainer": [
+		"Mattias Ellert <mattias.ellert@fysast.uu.se>"
+	],
+	"Package": [
+		"globus-gram-job-manager"
+	],
+	"Package-List": [
+		"globus-gram-job-manager deb net optional arch=any globus-gram-job-manager-dbg deb debug extra arch=any globus-seg-job-manager deb libs optional arch=any globus-seg-job-manager-dbg deb debug extra arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Vcs-Browser": [
+		"http://svn.nordugrid.org/trac/packaging/browser/debian/globus-gram-job-manager"
+	],
+	"Vcs-Svn": [
+		"http://svn.nordugrid.org/repos/packaging/debian/globus-gram-job-manager"
+	],
+	"Version": [
+		"14.20-2"
+	]
 }

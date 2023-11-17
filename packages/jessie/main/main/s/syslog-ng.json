@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "syslog-ng, syslog-ng-dbg, syslog-ng-dev, syslog-ng-core, syslog-ng-mod-json, syslog-ng-mod-mongodb, syslog-ng-mod-sql, syslog-ng-mod-smtp, syslog-ng-mod-amqp, syslog-ng-mod-geoip, syslog-ng-mod-redis, syslog-ng-mod-stomp"
-  ],
-  "Build-Conflicts": [
-    "autoconf2.13"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9~), dh-autoreconf, automake (>= 1:1.11.1), pkg-config, flex, bison, lsb-release, xsltproc, docbook-xsl, libevtlog-dev (>= 0.2.12-5~), libesmtp-dev, libivykis-dev (>= 0.36.1~), libnet1-dev, libglib2.0-dev, libdbi-dev | libdbi0-dev, libssl-dev, libmongo-client-dev (>= 0.1.6~), libjson-c-dev | libjson0-dev, libwrap0-dev, libpcre3-dev, libcap-dev [linux-any], libsystemd-daemon-dev [linux-any], dh-systemd (>= 1.3), libgeoip-dev, libhiredis-dev, python"
-  ],
-  "Checksums-Sha1": [
-    "27324dbcad18bf272639988826e876de8994748e 3222 syslog-ng_3.5.6-2.dsc 24e9ad33454c1a326797f0e923eb71e61bf3ba41 704288 syslog-ng_3.5.6.orig.tar.xz c8904d40c6b6b2c9325c5ace6b713077b9eae7fb 37248 syslog-ng_3.5.6-2.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "c197fd43b2e76a460a16ca6cb575c917c1701039c7bd94e8cf5cd7bcab712087 3222 syslog-ng_3.5.6-2.dsc 63fd880c4bdf0cfdf8e7a6f33573cee7226fe8077ad51ac9b1d19939a784bd14 704288 syslog-ng_3.5.6.orig.tar.xz 414a475c56becf35378c28d6043f2c3599eab77cb76031527b44d4a5805386ad 37248 syslog-ng_3.5.6-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/s/syslog-ng"
-  ],
-  "Files": [
-    "10f97a03888ed48e7ba7eea5b4d51142 3222 syslog-ng_3.5.6-2.dsc 5f49c32fc04b70ae285ec765fc204692 704288 syslog-ng_3.5.6.orig.tar.xz 07510ced78785c1ba9f1e69c2dae0a46 37248 syslog-ng_3.5.6-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.balabit.com/network-security/syslog-ng/opensource-logging-system"
-  ],
-  "Maintainer": [
-    "syslog-ng maintainers <syslog-ng-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "syslog-ng"
-  ],
-  "Package-List": [
-    "syslog-ng deb admin extra arch=all syslog-ng-core deb admin extra arch=any syslog-ng-dbg deb debug extra arch=any syslog-ng-dev deb libdevel extra arch=any syslog-ng-mod-amqp deb admin extra arch=any syslog-ng-mod-geoip deb admin extra arch=any syslog-ng-mod-json deb admin extra arch=any syslog-ng-mod-mongodb deb admin extra arch=any syslog-ng-mod-redis deb admin extra arch=any syslog-ng-mod-smtp deb admin extra arch=any syslog-ng-mod-sql deb admin extra arch=any syslog-ng-mod-stomp deb admin extra arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "admin"
-  ],
-  "Standards-Version": [
-    "3.9.5"
-  ],
-  "Uploaders": [
-    "Gergely Nagy <algernon@madhouse-project.org>, Laszlo Boszormenyi (GCS) <gcs@debian.hu>, SZALAY Attila <sasa@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=syslog-ng/syslog-ng.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/syslog-ng/syslog-ng.git"
-  ],
-  "Version": [
-    "3.5.6-2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"syslog-ng, syslog-ng-dbg, syslog-ng-dev, syslog-ng-core, syslog-ng-mod-json, syslog-ng-mod-mongodb, syslog-ng-mod-sql, syslog-ng-mod-smtp, syslog-ng-mod-amqp, syslog-ng-mod-geoip, syslog-ng-mod-redis, syslog-ng-mod-stomp"
+	],
+	"Build-Conflicts": [
+		"autoconf2.13"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9~), dh-autoreconf, automake (>= 1:1.11.1), pkg-config, flex, bison, lsb-release, xsltproc, docbook-xsl, libevtlog-dev (>= 0.2.12-5~), libesmtp-dev, libivykis-dev (>= 0.36.1~), libnet1-dev, libglib2.0-dev, libdbi-dev | libdbi0-dev, libssl-dev, libmongo-client-dev (>= 0.1.6~), libjson-c-dev | libjson0-dev, libwrap0-dev, libpcre3-dev, libcap-dev [linux-any], libsystemd-daemon-dev [linux-any], dh-systemd (>= 1.3), libgeoip-dev, libhiredis-dev, python"
+	],
+	"Checksums-Sha1": [
+		"27324dbcad18bf272639988826e876de8994748e 3222 syslog-ng_3.5.6-2.dsc 24e9ad33454c1a326797f0e923eb71e61bf3ba41 704288 syslog-ng_3.5.6.orig.tar.xz c8904d40c6b6b2c9325c5ace6b713077b9eae7fb 37248 syslog-ng_3.5.6-2.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"c197fd43b2e76a460a16ca6cb575c917c1701039c7bd94e8cf5cd7bcab712087 3222 syslog-ng_3.5.6-2.dsc 63fd880c4bdf0cfdf8e7a6f33573cee7226fe8077ad51ac9b1d19939a784bd14 704288 syslog-ng_3.5.6.orig.tar.xz 414a475c56becf35378c28d6043f2c3599eab77cb76031527b44d4a5805386ad 37248 syslog-ng_3.5.6-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/s/syslog-ng"
+	],
+	"Files": [
+		"10f97a03888ed48e7ba7eea5b4d51142 3222 syslog-ng_3.5.6-2.dsc 5f49c32fc04b70ae285ec765fc204692 704288 syslog-ng_3.5.6.orig.tar.xz 07510ced78785c1ba9f1e69c2dae0a46 37248 syslog-ng_3.5.6-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.balabit.com/network-security/syslog-ng/opensource-logging-system"
+	],
+	"Maintainer": [
+		"syslog-ng maintainers <syslog-ng-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"syslog-ng"
+	],
+	"Package-List": [
+		"syslog-ng deb admin extra arch=all syslog-ng-core deb admin extra arch=any syslog-ng-dbg deb debug extra arch=any syslog-ng-dev deb libdevel extra arch=any syslog-ng-mod-amqp deb admin extra arch=any syslog-ng-mod-geoip deb admin extra arch=any syslog-ng-mod-json deb admin extra arch=any syslog-ng-mod-mongodb deb admin extra arch=any syslog-ng-mod-redis deb admin extra arch=any syslog-ng-mod-smtp deb admin extra arch=any syslog-ng-mod-sql deb admin extra arch=any syslog-ng-mod-stomp deb admin extra arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"admin"
+	],
+	"Standards-Version": [
+		"3.9.5"
+	],
+	"Uploaders": [
+		"Gergely Nagy <algernon@madhouse-project.org>, Laszlo Boszormenyi (GCS) <gcs@debian.hu>, SZALAY Attila <sasa@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=syslog-ng/syslog-ng.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/syslog-ng/syslog-ng.git"
+	],
+	"Version": [
+		"3.5.6-2"
+	]
 }

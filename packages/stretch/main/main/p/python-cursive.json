@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "python-cursive, python3-cursive, python-cursive-doc"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-python, openstack-pkg-tools (>= 52~), python-all, python-pbr, python-setuptools, python-sphinx, python3-all, python3-pbr, python3-setuptools"
-  ],
-  "Build-Depends-Indep": [
-    "python-castellan (>= 0.4.0), python-coverage (>= 3.6), python-cryptography (>= 1.0), python-hacking, python-lxml (>= 2.3), python-netifaces (>= 0.10.4), python-oslo.i18n (>= 2.1.0), python-oslo.serialization (>= 1.10.0), python-oslo.utils (>= 3.16.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.10.0), python-reno, python-six (>= 1.9.0), python-testscenarios (>= 0.4), python-testtools (>= 1.4.0), python3-castellan (>= 0.4.0), python3-cryptography (>= 1.0), python3-lxml (>= 2.3), python3-netifaces (>= 0.10.4), python3-oslo.i18n (>= 2.1.0), python3-oslo.serialization (>= 1.10.0), python3-oslo.utils (>= 3.16.0), python3-oslotest (>= 1:1.10.0), python3-reno, python3-six (>= 1.9.0), python3-testscenarios (>= 0.4), python3-testtools (>= 1.4.0), subunit (>= 0.0.18), testrepository (>= 0.0.18)"
-  ],
-  "Checksums-Sha256": [
-    "21bbfa43a7fd6cb51f169ac5b4acbd13db68bd53e740606b309f13d8f93fbedb 3129 python-cursive_0.1.1-2.dsc 2c82e5224bea28c2b0c16069384ddf88bfac8714f85401073328e885a25904e2 15980 python-cursive_0.1.1.orig.tar.xz 3cf5b72e52a1f40720f05e9aeccfb6105d9376ccd6e54ddba9b2fad8ea78ed21 2744 python-cursive_0.1.1-2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/p/python-cursive"
-  ],
-  "Files": [
-    "42da45e104492361fdcbe71414f5fe60 3129 python-cursive_0.1.1-2.dsc af112684970c22a536fd43444208e92e 15980 python-cursive_0.1.1.orig.tar.xz 3cd44541c64f137c850c4042a2b7871c 2744 python-cursive_0.1.1-2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/openstack/cursive"
-  ],
-  "Maintainer": [
-    "PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "python-cursive"
-  ],
-  "Package-List": [
-    "python-cursive deb python optional arch=all python-cursive-doc deb doc optional arch=all python3-cursive deb python optional arch=all"
-  ],
-  "Priority": [
-    "extra"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Uploaders": [
-    "James Page <james.page@ubuntu.com>, Thomas Goirand <zigo@debian.org>,"
-  ],
-  "Vcs-Browser": [
-    "https://git.openstack.org/cgit/openstack/deb-python-cursive?h=debian%2Fnewton"
-  ],
-  "Vcs-Git": [
-    "https://git.openstack.org/openstack/deb-python-cursive -b debian/newton"
-  ],
-  "Version": [
-    "0.1.1-2"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-cursive, python3-cursive, python-cursive-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-python, openstack-pkg-tools (>= 52~), python-all, python-pbr, python-setuptools, python-sphinx, python3-all, python3-pbr, python3-setuptools"
+	],
+	"Build-Depends-Indep": [
+		"python-castellan (>= 0.4.0), python-coverage (>= 3.6), python-cryptography (>= 1.0), python-hacking, python-lxml (>= 2.3), python-netifaces (>= 0.10.4), python-oslo.i18n (>= 2.1.0), python-oslo.serialization (>= 1.10.0), python-oslo.utils (>= 3.16.0), python-oslosphinx (>= 2.5.0), python-oslotest (>= 1:1.10.0), python-reno, python-six (>= 1.9.0), python-testscenarios (>= 0.4), python-testtools (>= 1.4.0), python3-castellan (>= 0.4.0), python3-cryptography (>= 1.0), python3-lxml (>= 2.3), python3-netifaces (>= 0.10.4), python3-oslo.i18n (>= 2.1.0), python3-oslo.serialization (>= 1.10.0), python3-oslo.utils (>= 3.16.0), python3-oslotest (>= 1:1.10.0), python3-reno, python3-six (>= 1.9.0), python3-testscenarios (>= 0.4), python3-testtools (>= 1.4.0), subunit (>= 0.0.18), testrepository (>= 0.0.18)"
+	],
+	"Checksums-Sha256": [
+		"21bbfa43a7fd6cb51f169ac5b4acbd13db68bd53e740606b309f13d8f93fbedb 3129 python-cursive_0.1.1-2.dsc 2c82e5224bea28c2b0c16069384ddf88bfac8714f85401073328e885a25904e2 15980 python-cursive_0.1.1.orig.tar.xz 3cf5b72e52a1f40720f05e9aeccfb6105d9376ccd6e54ddba9b2fad8ea78ed21 2744 python-cursive_0.1.1-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-cursive"
+	],
+	"Files": [
+		"42da45e104492361fdcbe71414f5fe60 3129 python-cursive_0.1.1-2.dsc af112684970c22a536fd43444208e92e 15980 python-cursive_0.1.1.orig.tar.xz 3cd44541c64f137c850c4042a2b7871c 2744 python-cursive_0.1.1-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/openstack/cursive"
+	],
+	"Maintainer": [
+		"PKG OpenStack <openstack-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"python-cursive"
+	],
+	"Package-List": [
+		"python-cursive deb python optional arch=all python-cursive-doc deb doc optional arch=all python3-cursive deb python optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Uploaders": [
+		"James Page <james.page@ubuntu.com>, Thomas Goirand <zigo@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://git.openstack.org/cgit/openstack/deb-python-cursive?h=debian%2Fnewton"
+	],
+	"Vcs-Git": [
+		"https://git.openstack.org/openstack/deb-python-cursive -b debian/newton"
+	],
+	"Version": [
+		"0.1.1-2"
+	]
 }

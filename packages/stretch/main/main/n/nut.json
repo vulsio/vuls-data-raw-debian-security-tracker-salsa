@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "nut, nut-server, nut-client, nut-cgi, nut-snmp, nut-ipmi, nut-xml, nut-powerman-pdu, nut-doc, libupsclient4, libupsclient-dev, libnutclient0, libnutclient-dev, python-nut, nut-monitor, libups-nut-perl"
-  ],
-  "Build-Depends": [
-    "autotools-dev, cdbs (>= 0.4.122~), debhelper (>= 9), dh-autoreconf, dh-python, dh-systemd (>= 1.14), libfreeipmi-dev (>= 0.8.5) [!hurd-i386], libgd-dev | libgd2-xpm-dev | libgd2-noxpm-dev, libipmimonitoring-dev (>= 1.1.5-2) [!hurd-i386], libneon27-gnutls-dev | libneon27-dev, libnss3-dev, libpowerman0-dev (>= 2.3.3), libsnmp-dev | libsnmp9-dev, libusb-dev (>= 0.1.8), libwrap0-dev (>= 7.6), python (>= 2.6.6-3~), systemd [linux-any]"
-  ],
-  "Build-Depends-Indep": [
-    "asciidoc (>= 8.6.3), asciidoc-dblatex, dblatex (>= 0.2.5), docbook-xsl, libxml2-utils"
-  ],
-  "Checksums-Sha256": [
-    "a465d601c4816f551b2290d72c7fabf28dcf2c035f747dc570a81f044a689695 2979 nut_2.7.4-5.dsc 980e82918c52d364605c0703a5dcf01f74ad2ef06e3d365949e43b7d406d25a7 2509831 nut_2.7.4.orig.tar.gz 65d50af3b5e9017d7d342ffade330dbbe5a8ea75cf616f6ff42b203856ffc252 53748 nut_2.7.4-5.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/n/nut"
-  ],
-  "Files": [
-    "3530e3b7e8dc303db1cabd9ab13c9de1 2979 nut_2.7.4-5.dsc 3ba53656933d7471f95140b32a5b8d5c 2509831 nut_2.7.4.orig.tar.gz 56de5609cce6e913915ef73d63d0103e 53748 nut_2.7.4-5.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.networkupstools.org/"
-  ],
-  "Maintainer": [
-    "Arnaud Quette <aquette@debian.org>"
-  ],
-  "Package": [
-    "nut"
-  ],
-  "Package-List": [
-    "libnutclient-dev deb libdevel optional arch=any libnutclient0 deb libs optional arch=any libups-nut-perl deb perl optional arch=all libupsclient-dev deb libdevel optional arch=any libupsclient4 deb libs optional arch=any nut deb metapackages optional arch=all nut-cgi deb admin optional arch=any nut-client deb admin optional arch=any nut-doc deb doc optional arch=all nut-ipmi deb admin optional arch=kfreebsd-any,linux-any nut-monitor deb admin optional arch=all nut-powerman-pdu deb admin extra arch=any nut-server deb admin optional arch=any nut-snmp deb admin optional arch=any nut-xml deb admin optional arch=any python-nut deb python optional arch=all"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "metapackages"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "lsb-release, netcat, python-unit"
-  ],
-  "Uploaders": [
-    "Laurent Bigonville <bigon@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/gitweb/?p=collab-maint/nut.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/collab-maint/nut.git"
-  ],
-  "Version": [
-    "2.7.4-5"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"nut, nut-server, nut-client, nut-cgi, nut-snmp, nut-ipmi, nut-xml, nut-powerman-pdu, nut-doc, libupsclient4, libupsclient-dev, libnutclient0, libnutclient-dev, python-nut, nut-monitor, libups-nut-perl"
+	],
+	"Build-Depends": [
+		"autotools-dev, cdbs (>= 0.4.122~), debhelper (>= 9), dh-autoreconf, dh-python, dh-systemd (>= 1.14), libfreeipmi-dev (>= 0.8.5) [!hurd-i386], libgd-dev | libgd2-xpm-dev | libgd2-noxpm-dev, libipmimonitoring-dev (>= 1.1.5-2) [!hurd-i386], libneon27-gnutls-dev | libneon27-dev, libnss3-dev, libpowerman0-dev (>= 2.3.3), libsnmp-dev | libsnmp9-dev, libusb-dev (>= 0.1.8), libwrap0-dev (>= 7.6), python (>= 2.6.6-3~), systemd [linux-any]"
+	],
+	"Build-Depends-Indep": [
+		"asciidoc (>= 8.6.3), asciidoc-dblatex, dblatex (>= 0.2.5), docbook-xsl, libxml2-utils"
+	],
+	"Checksums-Sha256": [
+		"a465d601c4816f551b2290d72c7fabf28dcf2c035f747dc570a81f044a689695 2979 nut_2.7.4-5.dsc 980e82918c52d364605c0703a5dcf01f74ad2ef06e3d365949e43b7d406d25a7 2509831 nut_2.7.4.orig.tar.gz 65d50af3b5e9017d7d342ffade330dbbe5a8ea75cf616f6ff42b203856ffc252 53748 nut_2.7.4-5.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/n/nut"
+	],
+	"Files": [
+		"3530e3b7e8dc303db1cabd9ab13c9de1 2979 nut_2.7.4-5.dsc 3ba53656933d7471f95140b32a5b8d5c 2509831 nut_2.7.4.orig.tar.gz 56de5609cce6e913915ef73d63d0103e 53748 nut_2.7.4-5.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.networkupstools.org/"
+	],
+	"Maintainer": [
+		"Arnaud Quette <aquette@debian.org>"
+	],
+	"Package": [
+		"nut"
+	],
+	"Package-List": [
+		"libnutclient-dev deb libdevel optional arch=any libnutclient0 deb libs optional arch=any libups-nut-perl deb perl optional arch=all libupsclient-dev deb libdevel optional arch=any libupsclient4 deb libs optional arch=any nut deb metapackages optional arch=all nut-cgi deb admin optional arch=any nut-client deb admin optional arch=any nut-doc deb doc optional arch=all nut-ipmi deb admin optional arch=kfreebsd-any,linux-any nut-monitor deb admin optional arch=all nut-powerman-pdu deb admin extra arch=any nut-server deb admin optional arch=any nut-snmp deb admin optional arch=any nut-xml deb admin optional arch=any python-nut deb python optional arch=all"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"metapackages"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"lsb-release, netcat, python-unit"
+	],
+	"Uploaders": [
+		"Laurent Bigonville <bigon@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/gitweb/?p=collab-maint/nut.git;a=summary"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/collab-maint/nut.git"
+	],
+	"Version": [
+		"2.7.4-5"
+	]
 }

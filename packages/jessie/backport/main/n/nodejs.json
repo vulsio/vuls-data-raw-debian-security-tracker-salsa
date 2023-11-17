@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "nodejs-dev, nodejs, nodejs-dbg, nodejs-legacy"
-  ],
-  "Build-Depends": [
-    "cdbs, debhelper (>= 9.20141010), dh-buildinfo, binutils, openssl (>= 1.0.2), pkg-config, bash-completion, curl, procps, zlib1g-dev, libicu-dev, libkvm-dev [kfreebsd-any], gyp (>= 0.1~svn1773), ca-certificates, node-yamlish <!stage1>, node-marked <!stage1>, python, libssl-dev (>= 1.0.2), libuv1-dev"
-  ],
-  "Checksums-Sha1": [
-    "c6ed4da338a88f48b5b2cf2be0a4d8d7258fc268 2485 nodejs_4.8.2~dfsg-1~bpo8+1.dsc 7b6df14b51c217dca19dc71634e68fcab948d4f0 9729304 nodejs_4.8.2~dfsg.orig.tar.gz f9f6d250f37f86cf666b4c676ee3b7617b80438f 349368 nodejs_4.8.2~dfsg-1~bpo8+1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "6352d808e00a595d77188f4f0e9e6c2d75942c626c6a153fafb0c9249e4ae3d2 2485 nodejs_4.8.2~dfsg-1~bpo8+1.dsc 356fc3f17370e73520a044fc3e028259d2c95680c3a3ddf5959407f00275765b 9729304 nodejs_4.8.2~dfsg.orig.tar.gz 62fc89404978807177667875e350f37c4df6394a1cb094dd017f975661d2efd6 349368 nodejs_4.8.2~dfsg-1~bpo8+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/n/nodejs"
-  ],
-  "Files": [
-    "c4fd49d7ab160997084dd6be01906579 2485 nodejs_4.8.2~dfsg-1~bpo8+1.dsc 883baf04546d45e5fa2ff38fc043f638 9729304 nodejs_4.8.2~dfsg.orig.tar.gz 1192f269cc491125090e89d832a401ad 349368 nodejs_4.8.2~dfsg-1~bpo8+1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://nodejs.org/"
-  ],
-  "Maintainer": [
-    "Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "nodejs"
-  ],
-  "Package-List": [
-    "nodejs deb web optional arch=any nodejs-dbg deb debug extra arch=any nodejs-dev deb devel extra arch=any nodejs-legacy deb web extra arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Jérémy Lal <kapouer@melix.org>, Jonas Smedegaard <dr@jones.dk>"
-  ],
-  "Vcs-Browser": [
-    "https://anonscm.debian.org/gitweb/?p=collab-maint/nodejs.git"
-  ],
-  "Vcs-Git": [
-    "https://anonscm.debian.org/git/collab-maint/nodejs.git"
-  ],
-  "Version": [
-    "4.8.2~dfsg-1~bpo8+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"nodejs-dev, nodejs, nodejs-dbg, nodejs-legacy"
+	],
+	"Build-Depends": [
+		"cdbs, debhelper (>= 9.20141010), dh-buildinfo, binutils, openssl (>= 1.0.2), pkg-config, bash-completion, curl, procps, zlib1g-dev, libicu-dev, libkvm-dev [kfreebsd-any], gyp (>= 0.1~svn1773), ca-certificates, node-yamlish <!stage1>, node-marked <!stage1>, python, libssl-dev (>= 1.0.2), libuv1-dev"
+	],
+	"Checksums-Sha1": [
+		"c6ed4da338a88f48b5b2cf2be0a4d8d7258fc268 2485 nodejs_4.8.2~dfsg-1~bpo8+1.dsc 7b6df14b51c217dca19dc71634e68fcab948d4f0 9729304 nodejs_4.8.2~dfsg.orig.tar.gz f9f6d250f37f86cf666b4c676ee3b7617b80438f 349368 nodejs_4.8.2~dfsg-1~bpo8+1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"6352d808e00a595d77188f4f0e9e6c2d75942c626c6a153fafb0c9249e4ae3d2 2485 nodejs_4.8.2~dfsg-1~bpo8+1.dsc 356fc3f17370e73520a044fc3e028259d2c95680c3a3ddf5959407f00275765b 9729304 nodejs_4.8.2~dfsg.orig.tar.gz 62fc89404978807177667875e350f37c4df6394a1cb094dd017f975661d2efd6 349368 nodejs_4.8.2~dfsg-1~bpo8+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/n/nodejs"
+	],
+	"Files": [
+		"c4fd49d7ab160997084dd6be01906579 2485 nodejs_4.8.2~dfsg-1~bpo8+1.dsc 883baf04546d45e5fa2ff38fc043f638 9729304 nodejs_4.8.2~dfsg.orig.tar.gz 1192f269cc491125090e89d832a401ad 349368 nodejs_4.8.2~dfsg-1~bpo8+1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://nodejs.org/"
+	],
+	"Maintainer": [
+		"Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"nodejs"
+	],
+	"Package-List": [
+		"nodejs deb web optional arch=any nodejs-dbg deb debug extra arch=any nodejs-dev deb devel extra arch=any nodejs-legacy deb web extra arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Jérémy Lal <kapouer@melix.org>, Jonas Smedegaard <dr@jones.dk>"
+	],
+	"Vcs-Browser": [
+		"https://anonscm.debian.org/gitweb/?p=collab-maint/nodejs.git"
+	],
+	"Vcs-Git": [
+		"https://anonscm.debian.org/git/collab-maint/nodejs.git"
+	],
+	"Version": [
+		"4.8.2~dfsg-1~bpo8+1"
+	]
 }

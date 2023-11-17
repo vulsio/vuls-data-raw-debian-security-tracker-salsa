@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "silx, python3-silx, python-silx-doc"
-  ],
-  "Build-Depends": [
-    "cython3, debhelper-compat (= 13), dh-python, dh-sequence-numpy3, dh-sequence-python3, help2man, ipython3, pybuild-plugin-pyproject, python3-all-dev, python3-fabio, python3-h5py, python3-hdf5plugin, python3-mako, python3-matplotlib, python3-numpy, python3-opengl, python3-pil, python3-pyopencl, python3-pyqt5, python3-pyqt5.qtopengl, python3-pyqt5.qtsvg, python3-pytest <!nocheck>, python3-qtconsole, python3-scipy, python3-setuptools, xauth, xvfb"
-  ],
-  "Build-Depends-Indep": [
-    "dh-sequence-sphinxdoc <!nodoc>, graphviz <!nodoc>, pandoc <!nodoc>, python3-nbsphinx <!nodoc>, python3-sphinx, python3-sphinxcontrib.programoutput"
-  ],
-  "Checksums-Sha256": [
-    "1cf2bc2593ac40ea1f7535306e36c969072f56471aaeeb30fd236467f76dd8ce 2931 silx_1.1.2+dfsg-2~bpo12+1.dsc dc91f35f1f956b3060063548a489d952b57b92116bfcfd31076c50b05fdf0151 12137444 silx_1.1.2+dfsg.orig.tar.xz 34a067eba56e0c90addfb27624b5cbe06fd8f8d4d45425f583f80289a98392c1 15072 silx_1.1.2+dfsg-2~bpo12+1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/s/silx"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/silx-kit/silx"
-  ],
-  "Maintainer": [
-    "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "silx"
-  ],
-  "Package-List": [
-    "python-silx-doc deb doc optional arch=all python3-silx deb python optional arch=any silx deb science optional arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.0"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "python3-all, python3-pytest, python3-pytest-mock, python3-pytest-xvfb, xauth, xvfb"
-  ],
-  "Uploaders": [
-    "Jerome Kieffer <jerome.kieffer@esrf.fr>, Picca Frédéric-Emmanuel <picca@debian.org>, Alexandre Marie <alexandre.marie@synchrotron-soleil.fr>,"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/science-team/silx"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/science-team/silx.git"
-  ],
-  "Version": [
-    "1.1.2+dfsg-2~bpo12+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"silx, python3-silx, python-silx-doc"
+	],
+	"Build-Depends": [
+		"cython3, debhelper-compat (= 13), dh-python, dh-sequence-numpy3, dh-sequence-python3, help2man, ipython3, pybuild-plugin-pyproject, python3-all-dev, python3-fabio, python3-h5py, python3-hdf5plugin, python3-mako, python3-matplotlib, python3-numpy, python3-opengl, python3-pil, python3-pyopencl, python3-pyqt5, python3-pyqt5.qtopengl, python3-pyqt5.qtsvg, python3-pytest <!nocheck>, python3-qtconsole, python3-scipy, python3-setuptools, xauth, xvfb"
+	],
+	"Build-Depends-Indep": [
+		"dh-sequence-sphinxdoc <!nodoc>, graphviz <!nodoc>, pandoc <!nodoc>, python3-nbsphinx <!nodoc>, python3-sphinx, python3-sphinxcontrib.programoutput"
+	],
+	"Checksums-Sha256": [
+		"1cf2bc2593ac40ea1f7535306e36c969072f56471aaeeb30fd236467f76dd8ce 2931 silx_1.1.2+dfsg-2~bpo12+1.dsc dc91f35f1f956b3060063548a489d952b57b92116bfcfd31076c50b05fdf0151 12137444 silx_1.1.2+dfsg.orig.tar.xz 34a067eba56e0c90addfb27624b5cbe06fd8f8d4d45425f583f80289a98392c1 15072 silx_1.1.2+dfsg-2~bpo12+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/s/silx"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/silx-kit/silx"
+	],
+	"Maintainer": [
+		"Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"silx"
+	],
+	"Package-List": [
+		"python-silx-doc deb doc optional arch=all python3-silx deb python optional arch=any silx deb science optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"python3-all, python3-pytest, python3-pytest-mock, python3-pytest-xvfb, xauth, xvfb"
+	],
+	"Uploaders": [
+		"Jerome Kieffer <jerome.kieffer@esrf.fr>, Picca Frédéric-Emmanuel <picca@debian.org>, Alexandre Marie <alexandre.marie@synchrotron-soleil.fr>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/science-team/silx"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/science-team/silx.git"
+	],
+	"Version": [
+		"1.1.2+dfsg-2~bpo12+1"
+	]
 }

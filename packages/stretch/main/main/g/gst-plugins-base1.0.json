@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "gstreamer1.0-plugins-base-apps, gstreamer1.0-plugins-base-doc, libgstreamer-plugins-base1.0-0, libgstreamer-plugins-base1.0-dev, gstreamer1.0-alsa, gstreamer1.0-plugins-base, gstreamer1.0-plugins-base-dbg, gstreamer1.0-x, gir1.2-gst-plugins-base-1.0"
-  ],
-  "Build-Depends": [
-    "libgstreamer1.0-dev (>= 1.10.0), libasound2-dev (>= 0.9.0) [linux-any], libgudev-1.0-dev (>= 143) [linux-any], autotools-dev, automake (>= 1.14), autoconf (>= 2.69), libtool (>= 2.2.6), dh-autoreconf, autopoint (>= 0.17), cdbs (>= 0.4.93~), debhelper (>= 9), gnome-pkg-tools (>= 0.7), gtk-doc-tools (>= 1.12), pkg-config (>= 0.11.0), libxv-dev (>= 6.8.2.dfsg.1-3), libxt-dev (>= 6.8.2.dfsg.1-3), libvorbis-dev (>= 1.0.0-2), libcdparanoia-dev (>= 3.10.2) [!hurd-i386], liborc-0.4-dev (>= 1:0.4.24), libpango1.0-dev (>= 1.16.0), libtheora-dev (>= 1.1), libglib2.0-dev (>= 2.40), zlib1g-dev (>= 1:1.1.4), libvisual-0.4-dev (>= 0.4.0), dpkg-dev (>= 1.15.1), iso-codes, libgtk-3-dev (>= 3.10), libglib2.0-doc, gstreamer1.0-doc, libgirepository1.0-dev (>= 0.9.12-4~), gobject-introspection (>= 0.9.12-4~), gir1.2-glib-2.0, gir1.2-freedesktop, gir1.2-gstreamer-1.0, libopus-dev (>= 0.9.4)"
-  ],
-  "Checksums-Sha256": [
-    "90b434da8135e2cb4275e0095c383de2e01f1263e79d61708a200142a9876ed9 3809 gst-plugins-base1.0_1.10.4-1+deb9u1.dsc f6d245b6b3d4cb733f81ebb021074c525ece83db0c10e932794b339b8d935eb7 3059368 gst-plugins-base1.0_1.10.4.orig.tar.xz 43951ef55643a21a5ff99e9ff5e3829f70839659769e772de069761f0e7a21a3 41944 gst-plugins-base1.0_1.10.4-1+deb9u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/g/gst-plugins-base1.0"
-  ],
-  "Files": [
-    "c0a6d078503a9a3830d355097c3440fa 3809 gst-plugins-base1.0_1.10.4-1+deb9u1.dsc f6b46f8fac01eb773d556e3efc369e86 3059368 gst-plugins-base1.0_1.10.4.orig.tar.xz 58daee005440e9ea191100d5d2853d9f 41944 gst-plugins-base1.0_1.10.4-1+deb9u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://gstreamer.freedesktop.org/modules/gst-plugins-base.html"
-  ],
-  "Maintainer": [
-    "Maintainers of GStreamer packages <pkg-gstreamer-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "gst-plugins-base1.0"
-  ],
-  "Package-List": [
-    "gir1.2-gst-plugins-base-1.0 deb introspection optional arch=any gstreamer1.0-alsa deb libs optional arch=linux-any gstreamer1.0-plugins-base deb libs optional arch=any gstreamer1.0-plugins-base-apps deb utils optional arch=any gstreamer1.0-plugins-base-dbg deb debug extra arch=any gstreamer1.0-plugins-base-doc deb doc optional arch=all gstreamer1.0-x deb libs optional arch=any libgstreamer-plugins-base1.0-0 deb libs optional arch=any libgstreamer-plugins-base1.0-dev deb libdevel optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "libs"
-  ],
-  "Standards-Version": [
-    "3.9.3"
-  ],
-  "Uploaders": [
-    "Loïc Minier <lool@debian.org>, Sebastien Bacher <seb128@debian.org>, Sebastian Dröge <slomo@debian.org>, Sjoerd Simons <sjoerd@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-gstreamer/gst-plugins-base1.0.git;a=summary"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-gstreamer/gst-plugins-base1.0.git"
-  ],
-  "Version": [
-    "1.10.4-1+deb9u1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"gstreamer1.0-plugins-base-apps, gstreamer1.0-plugins-base-doc, libgstreamer-plugins-base1.0-0, libgstreamer-plugins-base1.0-dev, gstreamer1.0-alsa, gstreamer1.0-plugins-base, gstreamer1.0-plugins-base-dbg, gstreamer1.0-x, gir1.2-gst-plugins-base-1.0"
+	],
+	"Build-Depends": [
+		"libgstreamer1.0-dev (>= 1.10.0), libasound2-dev (>= 0.9.0) [linux-any], libgudev-1.0-dev (>= 143) [linux-any], autotools-dev, automake (>= 1.14), autoconf (>= 2.69), libtool (>= 2.2.6), dh-autoreconf, autopoint (>= 0.17), cdbs (>= 0.4.93~), debhelper (>= 9), gnome-pkg-tools (>= 0.7), gtk-doc-tools (>= 1.12), pkg-config (>= 0.11.0), libxv-dev (>= 6.8.2.dfsg.1-3), libxt-dev (>= 6.8.2.dfsg.1-3), libvorbis-dev (>= 1.0.0-2), libcdparanoia-dev (>= 3.10.2) [!hurd-i386], liborc-0.4-dev (>= 1:0.4.24), libpango1.0-dev (>= 1.16.0), libtheora-dev (>= 1.1), libglib2.0-dev (>= 2.40), zlib1g-dev (>= 1:1.1.4), libvisual-0.4-dev (>= 0.4.0), dpkg-dev (>= 1.15.1), iso-codes, libgtk-3-dev (>= 3.10), libglib2.0-doc, gstreamer1.0-doc, libgirepository1.0-dev (>= 0.9.12-4~), gobject-introspection (>= 0.9.12-4~), gir1.2-glib-2.0, gir1.2-freedesktop, gir1.2-gstreamer-1.0, libopus-dev (>= 0.9.4)"
+	],
+	"Checksums-Sha256": [
+		"90b434da8135e2cb4275e0095c383de2e01f1263e79d61708a200142a9876ed9 3809 gst-plugins-base1.0_1.10.4-1+deb9u1.dsc f6d245b6b3d4cb733f81ebb021074c525ece83db0c10e932794b339b8d935eb7 3059368 gst-plugins-base1.0_1.10.4.orig.tar.xz 43951ef55643a21a5ff99e9ff5e3829f70839659769e772de069761f0e7a21a3 41944 gst-plugins-base1.0_1.10.4-1+deb9u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/gst-plugins-base1.0"
+	],
+	"Files": [
+		"c0a6d078503a9a3830d355097c3440fa 3809 gst-plugins-base1.0_1.10.4-1+deb9u1.dsc f6b46f8fac01eb773d556e3efc369e86 3059368 gst-plugins-base1.0_1.10.4.orig.tar.xz 58daee005440e9ea191100d5d2853d9f 41944 gst-plugins-base1.0_1.10.4-1+deb9u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://gstreamer.freedesktop.org/modules/gst-plugins-base.html"
+	],
+	"Maintainer": [
+		"Maintainers of GStreamer packages <pkg-gstreamer-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"gst-plugins-base1.0"
+	],
+	"Package-List": [
+		"gir1.2-gst-plugins-base-1.0 deb introspection optional arch=any gstreamer1.0-alsa deb libs optional arch=linux-any gstreamer1.0-plugins-base deb libs optional arch=any gstreamer1.0-plugins-base-apps deb utils optional arch=any gstreamer1.0-plugins-base-dbg deb debug extra arch=any gstreamer1.0-plugins-base-doc deb doc optional arch=all gstreamer1.0-x deb libs optional arch=any libgstreamer-plugins-base1.0-0 deb libs optional arch=any libgstreamer-plugins-base1.0-dev deb libdevel optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"libs"
+	],
+	"Standards-Version": [
+		"3.9.3"
+	],
+	"Uploaders": [
+		"Loïc Minier <lool@debian.org>, Sebastien Bacher <seb128@debian.org>, Sebastian Dröge <slomo@debian.org>, Sjoerd Simons <sjoerd@debian.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-gstreamer/gst-plugins-base1.0.git;a=summary"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-gstreamer/gst-plugins-base1.0.git"
+	],
+	"Version": [
+		"1.10.4-1+deb9u1"
+	]
 }

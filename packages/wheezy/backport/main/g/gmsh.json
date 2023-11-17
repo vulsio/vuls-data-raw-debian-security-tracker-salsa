@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "gmsh, libgmsh2, libgmsh-dev, gmsh-doc, python-gmsh, libjava-gmsh2"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), cmake, gfortran, libgl1-mesa-dev, libglu1-mesa-dev, libfltk1.3-dev (>= 1.1.7), libpng-dev, libjpeg-dev, zlib1g-dev, texlive, texinfo, mpi-default-dev, libgmm++-dev [!hurd-i386 !s390x], liboce-modeling-dev, liboce-visualization-dev, liboce-ocaf-dev, oce-draw, libcgns-dev (>= 3.1.3.2), libmed-dev (>= 2.3.6), libmedc-dev (>= 2.3.6), libhdf5-mpi-dev (>= 1.8.8) [alpha amd64 i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc sparc], libblas-dev, liblapack-dev, libgl2ps-dev, freeglut3-dev, python-dev (>= 2.6.6-3~), swig2.0, chrpath, libann-dev, libpetsc3.2-dev [!kfreebsd-amd64 !kfreebsd-i386 !armel !armhf !s390x], libslepc3.2-dev [!kfreebsd-amd64 !kfreebsd-i386 !armel !armhf !s390x], javahelper, default-jdk"
-  ],
-  "Checksums-Sha1": [
-    "b838228c2ae5cb6c256143e240a30b74782a38a1 2987 gmsh_2.7.0.dfsg-1~bpo70+1.dsc 844f478eac3e8588382f35a736a9d9e8108fde28 4717212 gmsh_2.7.0.dfsg.orig.tar.xz 0c8f6c0ae3c15747021315673f9f529215553c52 31392 gmsh_2.7.0.dfsg-1~bpo70+1.debian.tar.gz"
-  ],
-  "Checksums-Sha256": [
-    "62b404371f3307d48d9efd0f9357d130f3b51a1a6508a71b00c3b3ddda50bfe3 2987 gmsh_2.7.0.dfsg-1~bpo70+1.dsc 38381a00759a8a5c04c553643c02a4fa2a0c583a0d423f4eb3aba4c2701e8f19 4717212 gmsh_2.7.0.dfsg.orig.tar.xz 3eb4dc4f904e563a3124de2eaf85ef62358286d7665f4d5713a2cc6b34966769 31392 gmsh_2.7.0.dfsg-1~bpo70+1.debian.tar.gz"
-  ],
-  "Directory": [
-    "pool/main/g/gmsh"
-  ],
-  "Files": [
-    "b997d30e231c8b79842a432696414faf 2987 gmsh_2.7.0.dfsg-1~bpo70+1.dsc e71ee80eed29036d784df49db365b0c8 4717212 gmsh_2.7.0.dfsg.orig.tar.xz 8a4d18e5b4adee1ba4bdd0f9c4f1e3ac 31392 gmsh_2.7.0.dfsg-1~bpo70+1.debian.tar.gz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.geuz.org/gmsh/"
-  ],
-  "Maintainer": [
-    "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "gmsh"
-  ],
-  "Package-List": [
-    "gmsh deb math optional gmsh-doc deb doc optional libgmsh-dev deb libdevel optional libgmsh2 deb libs optional libjava-gmsh2 deb java optional python-gmsh deb python optional"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.4"
-  ],
-  "Uploaders": [
-    "Christophe Prud'homme <prudhomm@debian.org>, Anton Gladky <gladk@debian.org>, Christophe Trophime <christophe.trophime@lncmi.cnrs.fr>"
-  ],
-  "Vcs-Browser": [
-    "http://git.debian.org/?p=debian-science/packages/gmsh.git"
-  ],
-  "Vcs-Git": [
-    "git://git.debian.org/git/debian-science/packages/gmsh.git"
-  ],
-  "Version": [
-    "2.7.0.dfsg-1~bpo70+1"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"gmsh, libgmsh2, libgmsh-dev, gmsh-doc, python-gmsh, libjava-gmsh2"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), cmake, gfortran, libgl1-mesa-dev, libglu1-mesa-dev, libfltk1.3-dev (>= 1.1.7), libpng-dev, libjpeg-dev, zlib1g-dev, texlive, texinfo, mpi-default-dev, libgmm++-dev [!hurd-i386 !s390x], liboce-modeling-dev, liboce-visualization-dev, liboce-ocaf-dev, oce-draw, libcgns-dev (>= 3.1.3.2), libmed-dev (>= 2.3.6), libmedc-dev (>= 2.3.6), libhdf5-mpi-dev (>= 1.8.8) [alpha amd64 i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc sparc], libblas-dev, liblapack-dev, libgl2ps-dev, freeglut3-dev, python-dev (>= 2.6.6-3~), swig2.0, chrpath, libann-dev, libpetsc3.2-dev [!kfreebsd-amd64 !kfreebsd-i386 !armel !armhf !s390x], libslepc3.2-dev [!kfreebsd-amd64 !kfreebsd-i386 !armel !armhf !s390x], javahelper, default-jdk"
+	],
+	"Checksums-Sha1": [
+		"b838228c2ae5cb6c256143e240a30b74782a38a1 2987 gmsh_2.7.0.dfsg-1~bpo70+1.dsc 844f478eac3e8588382f35a736a9d9e8108fde28 4717212 gmsh_2.7.0.dfsg.orig.tar.xz 0c8f6c0ae3c15747021315673f9f529215553c52 31392 gmsh_2.7.0.dfsg-1~bpo70+1.debian.tar.gz"
+	],
+	"Checksums-Sha256": [
+		"62b404371f3307d48d9efd0f9357d130f3b51a1a6508a71b00c3b3ddda50bfe3 2987 gmsh_2.7.0.dfsg-1~bpo70+1.dsc 38381a00759a8a5c04c553643c02a4fa2a0c583a0d423f4eb3aba4c2701e8f19 4717212 gmsh_2.7.0.dfsg.orig.tar.xz 3eb4dc4f904e563a3124de2eaf85ef62358286d7665f4d5713a2cc6b34966769 31392 gmsh_2.7.0.dfsg-1~bpo70+1.debian.tar.gz"
+	],
+	"Directory": [
+		"pool/main/g/gmsh"
+	],
+	"Files": [
+		"b997d30e231c8b79842a432696414faf 2987 gmsh_2.7.0.dfsg-1~bpo70+1.dsc e71ee80eed29036d784df49db365b0c8 4717212 gmsh_2.7.0.dfsg.orig.tar.xz 8a4d18e5b4adee1ba4bdd0f9c4f1e3ac 31392 gmsh_2.7.0.dfsg-1~bpo70+1.debian.tar.gz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.geuz.org/gmsh/"
+	],
+	"Maintainer": [
+		"Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"gmsh"
+	],
+	"Package-List": [
+		"gmsh deb math optional gmsh-doc deb doc optional libgmsh-dev deb libdevel optional libgmsh2 deb libs optional libjava-gmsh2 deb java optional python-gmsh deb python optional"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.4"
+	],
+	"Uploaders": [
+		"Christophe Prud'homme <prudhomm@debian.org>, Anton Gladky <gladk@debian.org>, Christophe Trophime <christophe.trophime@lncmi.cnrs.fr>"
+	],
+	"Vcs-Browser": [
+		"http://git.debian.org/?p=debian-science/packages/gmsh.git"
+	],
+	"Vcs-Git": [
+		"git://git.debian.org/git/debian-science/packages/gmsh.git"
+	],
+	"Version": [
+		"2.7.0.dfsg-1~bpo70+1"
+	]
 }

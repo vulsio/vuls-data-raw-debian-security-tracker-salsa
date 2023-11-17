@@ -1,65 +1,65 @@
 {
-  "Architecture": [
-    "hurd-any amd64 i386 kfreebsd-amd64 kfreebsd-i386 armhf ppc64el"
-  ],
-  "Binary": [
-    "mongodb, mongodb-server, mongodb-clients, mongodb-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 9), dh-systemd (>= 1.5), libboost-date-time-dev, libboost-dev (>> 1.50), libboost-filesystem-dev, libboost-program-options-dev, libboost-thread-dev, libgoogle-perftools-dev [linux-amd64 linux-i386 armhf ppc64el], libpcap-dev, libpcre3-dev, libreadline-dev, libsnappy-dev, libstemmer-dev, libssl-dev, libv8-dev (>= 3.12), python-pymongo, scons"
-  ],
-  "Checksums-Sha1": [
-    "6ed2b5928e8ed601c25fc19b3efee6dc77d9437a 2811 mongodb_2.4.10-5+deb8u1.dsc faf1f41d45934bcb30684cfed95f5d3c698663a0 14166404 mongodb_2.4.10.orig.tar.gz 0105e9282795ed9d780ae5efb6586c9108f0180b 57220 mongodb_2.4.10-5+deb8u1.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "7c5b1ec310c3167e8cb2f29b62ac625dc1f5432d0ecbe42d92d08aa496cf4a92 2811 mongodb_2.4.10-5+deb8u1.dsc 8ac8d0537e5316e842e3713870b76ea3cc18ec1234307e850046449f48a87402 14166404 mongodb_2.4.10.orig.tar.gz 9db03eb4de977a690e679edac9a5c0810c11fd15865b3faa203fea3c6cd12b21 57220 mongodb_2.4.10-5+deb8u1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/m/mongodb"
-  ],
-  "Files": [
-    "f8ee704885bbc85b0ac04d76123c9d43 2811 mongodb_2.4.10-5+deb8u1.dsc c37769ec2a0f0804f1f06790f361cbd5 14166404 mongodb_2.4.10.orig.tar.gz 60bf0e4460a40674ecfd605f2f407381 57220 mongodb_2.4.10-5+deb8u1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.mongodb.org"
-  ],
-  "Maintainer": [
-    "Laszlo Boszormenyi (GCS) <gcs@debian.org>"
-  ],
-  "Package": [
-    "mongodb"
-  ],
-  "Package-List": [
-    "mongodb deb database optional arch=amd64,i386,kfreebsd-amd64,kfreebsd-i386,hurd-any,armhf,ppc64el mongodb-clients deb database optional arch=amd64,i386,kfreebsd-amd64,kfreebsd-i386,hurd-any,armhf,ppc64el mongodb-dev deb libdevel optional arch=amd64,i386,kfreebsd-amd64,kfreebsd-i386,hurd-any,armhf,ppc64el mongodb-server deb database optional arch=amd64,i386,kfreebsd-amd64,kfreebsd-i386,hurd-any,armhf,ppc64el"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "database"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "nmap"
-  ],
-  "Uploaders": [
-    "Jérémy Lal <kapouer@melix.org>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/git/collab-maint/mongodb.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/collab-maint/mongodb.git"
-  ],
-  "Version": [
-    "1:2.4.10-5+deb8u1"
-  ]
+	"Architecture": [
+		"hurd-any amd64 i386 kfreebsd-amd64 kfreebsd-i386 armhf ppc64el"
+	],
+	"Binary": [
+		"mongodb, mongodb-server, mongodb-clients, mongodb-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), dh-systemd (>= 1.5), libboost-date-time-dev, libboost-dev (>> 1.50), libboost-filesystem-dev, libboost-program-options-dev, libboost-thread-dev, libgoogle-perftools-dev [linux-amd64 linux-i386 armhf ppc64el], libpcap-dev, libpcre3-dev, libreadline-dev, libsnappy-dev, libstemmer-dev, libssl-dev, libv8-dev (>= 3.12), python-pymongo, scons"
+	],
+	"Checksums-Sha1": [
+		"6ed2b5928e8ed601c25fc19b3efee6dc77d9437a 2811 mongodb_2.4.10-5+deb8u1.dsc faf1f41d45934bcb30684cfed95f5d3c698663a0 14166404 mongodb_2.4.10.orig.tar.gz 0105e9282795ed9d780ae5efb6586c9108f0180b 57220 mongodb_2.4.10-5+deb8u1.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"7c5b1ec310c3167e8cb2f29b62ac625dc1f5432d0ecbe42d92d08aa496cf4a92 2811 mongodb_2.4.10-5+deb8u1.dsc 8ac8d0537e5316e842e3713870b76ea3cc18ec1234307e850046449f48a87402 14166404 mongodb_2.4.10.orig.tar.gz 9db03eb4de977a690e679edac9a5c0810c11fd15865b3faa203fea3c6cd12b21 57220 mongodb_2.4.10-5+deb8u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/m/mongodb"
+	],
+	"Files": [
+		"f8ee704885bbc85b0ac04d76123c9d43 2811 mongodb_2.4.10-5+deb8u1.dsc c37769ec2a0f0804f1f06790f361cbd5 14166404 mongodb_2.4.10.orig.tar.gz 60bf0e4460a40674ecfd605f2f407381 57220 mongodb_2.4.10-5+deb8u1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.mongodb.org"
+	],
+	"Maintainer": [
+		"Laszlo Boszormenyi (GCS) <gcs@debian.org>"
+	],
+	"Package": [
+		"mongodb"
+	],
+	"Package-List": [
+		"mongodb deb database optional arch=amd64,i386,kfreebsd-amd64,kfreebsd-i386,hurd-any,armhf,ppc64el mongodb-clients deb database optional arch=amd64,i386,kfreebsd-amd64,kfreebsd-i386,hurd-any,armhf,ppc64el mongodb-dev deb libdevel optional arch=amd64,i386,kfreebsd-amd64,kfreebsd-i386,hurd-any,armhf,ppc64el mongodb-server deb database optional arch=amd64,i386,kfreebsd-amd64,kfreebsd-i386,hurd-any,armhf,ppc64el"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"database"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"nmap"
+	],
+	"Uploaders": [
+		"Jérémy Lal <kapouer@melix.org>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/git/collab-maint/mongodb.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/collab-maint/mongodb.git"
+	],
+	"Version": [
+		"1:2.4.10-5+deb8u1"
+	]
 }

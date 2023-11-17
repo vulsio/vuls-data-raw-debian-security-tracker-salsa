@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "all"
-  ],
-  "Binary": [
-    "librust-async-task-dev"
-  ],
-  "Build-Depends": [
-    "debhelper-compat (= 13), dh-cargo (>= 25), librust-async-task-4+default-dev <!nocheck>, librust-atomic-waker-1+default-dev <!nocheck>, librust-easy-parallel-3+default-dev <!nocheck>, librust-flume-0.11-dev <!nocheck>, librust-once-cell-1+default-dev <!nocheck>, librust-portable-atomic-1+default-dev <!nocheck>, librust-smol-1+default-dev <!nocheck>, libstring-shellquote-perl"
-  ],
-  "Checksums-Sha256": [
-    "f9ddcb97434daeeb451f7e00f1abdcc25f452803b4d01eb90a7b7428a372158a 2607 rust-async-task_4.5.0-1.dsc 444cf9c109f50230c7cb7324ed15b22ed84da9a5c4b2dc3b05cec744375dff68 33836 rust-async-task_4.5.0.orig.tar.gz 186909a00391c1bcea5c531f4d608ad232397c3c0bb6098811b465c0491a91bc 15956 rust-async-task_4.5.0-1.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-async-task"
-  ],
-  "Files": [
-    "8a864dee028c3b3150f737eea623a906 2607 rust-async-task_4.5.0-1.dsc aaa5ff8e9c80283afa0b693f858780a6 33836 rust-async-task_4.5.0.orig.tar.gz 0a42e4122b2ca47231cc033b69773a88 15956 rust-async-task_4.5.0-1.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/smol-rs/async-task"
-  ],
-  "Maintainer": [
-    "Jonas Smedegaard <dr@jones.dk>"
-  ],
-  "Package": [
-    "rust-async-task"
-  ],
-  "Package-List": [
-    "librust-async-task-dev deb rust optional arch=all"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-async-task-4+default-dev, librust-async-task-4+portable-atomic-dev, librust-async-task-4+std-dev, librust-async-task-4-dev, librust-atomic-waker-1+default-dev, librust-easy-parallel-3+default-dev, librust-flume-0.11-dev, librust-once-cell-1+default-dev, librust-smol-1+default-dev"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian/rust-async-task"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian/rust-async-task.git"
-  ],
-  "Version": [
-    "4.5.0-1"
-  ]
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"librust-async-task-dev"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-cargo (>= 25), librust-async-task-4+default-dev <!nocheck>, librust-atomic-waker-1+default-dev <!nocheck>, librust-easy-parallel-3+default-dev <!nocheck>, librust-flume-0.11-dev <!nocheck>, librust-once-cell-1+default-dev <!nocheck>, librust-portable-atomic-1+default-dev <!nocheck>, librust-smol-1+default-dev <!nocheck>, libstring-shellquote-perl"
+	],
+	"Checksums-Sha256": [
+		"f9ddcb97434daeeb451f7e00f1abdcc25f452803b4d01eb90a7b7428a372158a 2607 rust-async-task_4.5.0-1.dsc 444cf9c109f50230c7cb7324ed15b22ed84da9a5c4b2dc3b05cec744375dff68 33836 rust-async-task_4.5.0.orig.tar.gz 186909a00391c1bcea5c531f4d608ad232397c3c0bb6098811b465c0491a91bc 15956 rust-async-task_4.5.0-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-async-task"
+	],
+	"Files": [
+		"8a864dee028c3b3150f737eea623a906 2607 rust-async-task_4.5.0-1.dsc aaa5ff8e9c80283afa0b693f858780a6 33836 rust-async-task_4.5.0.orig.tar.gz 0a42e4122b2ca47231cc033b69773a88 15956 rust-async-task_4.5.0-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/smol-rs/async-task"
+	],
+	"Maintainer": [
+		"Jonas Smedegaard <dr@jones.dk>"
+	],
+	"Package": [
+		"rust-async-task"
+	],
+	"Package-List": [
+		"librust-async-task-dev deb rust optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-async-task-4+default-dev, librust-async-task-4+portable-atomic-dev, librust-async-task-4+std-dev, librust-async-task-4-dev, librust-atomic-waker-1+default-dev, librust-easy-parallel-3+default-dev, librust-flume-0.11-dev, librust-once-cell-1+default-dev, librust-smol-1+default-dev"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/rust-async-task"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/rust-async-task.git"
+	],
+	"Version": [
+		"4.5.0-1"
+	]
 }

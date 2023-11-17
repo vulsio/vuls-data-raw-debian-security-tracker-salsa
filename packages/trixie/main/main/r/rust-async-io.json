@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "librust-async-io-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-async-lock-2+default-dev (>= 2.6-~~) <!nocheck>, librust-autocfg-1+default-dev <!nocheck>, librust-cfg-if-1+default-dev <!nocheck>, librust-concurrent-queue-2+default-dev <!nocheck>, librust-futures-lite-1+default-dev (>= 1.11.0-~~) <!nocheck>, librust-log-0.4+default-dev (>= 0.4.11-~~) <!nocheck>, librust-parking-2+default-dev <!nocheck>, librust-polling-2+default-dev <!nocheck>, librust-rustix-0+fs-dev (>= 0.37.1-~~) <!nocheck>, librust-rustix-0+std-dev (>= 0.37.1-~~) <!nocheck>, librust-slab-0.4+default-dev (>= 0.4.2-~~) <!nocheck>, librust-socket2-0.5+all-dev <!nocheck>, librust-socket2-0.5+default-dev <!nocheck>, librust-waker-fn-1+default-dev (>= 1.1.0-~~) <!nocheck>"
-  ],
-  "Checksums-Sha256": [
-    "239b38df16389846d48cd975d441480f2fd5f388995fca16937fd4d6efa62b25 3182 rust-async-io_1.13.0-4.dsc 0fc5b45d93ef0529756f812ca52e44c221b35341892d3dcc34132ac02f3dd2af 37191 rust-async-io_1.13.0.orig.tar.gz 7b1b64fb945fa3d96b5cb5311792e94b407b7e4f0827223e44ba5d52804646a3 3432 rust-async-io_1.13.0-4.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/r/rust-async-io"
-  ],
-  "Files": [
-    "86c711cedaf08a81abd8a1625ad87cd3 3182 rust-async-io_1.13.0-4.dsc 85e67aace07fa2fc176e690c75109365 37191 rust-async-io_1.13.0.orig.tar.gz 99bd99d34bcbc68ba9703ffdbabcca0d 3432 rust-async-io_1.13.0-4.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
-  ],
-  "Package": [
-    "rust-async-io"
-  ],
-  "Package-List": [
-    "librust-async-io-dev deb rust optional arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-async-channel-1+default-dev, librust-async-net-1+default-dev, librust-blocking-1+default-dev, librust-criterion-0.5+cargo-bench-support-dev, librust-getrandom-0.2+default-dev, librust-inotify-0.10-dev, librust-inotify-0.9-dev, librust-signal-hook-0.3+default-dev, librust-tempfile-3+default-dev, librust-timerfd-1+default-dev"
-  ],
-  "Uploaders": [
-    "Henry-Nicolas Tourneur <debian@nilux.be>"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/async-io"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/async-io]"
-  ],
-  "Version": [
-    "1.13.0-4"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-async-io-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-async-lock-2+default-dev (>= 2.6-~~) <!nocheck>, librust-autocfg-1+default-dev <!nocheck>, librust-cfg-if-1+default-dev <!nocheck>, librust-concurrent-queue-2+default-dev <!nocheck>, librust-futures-lite-1+default-dev (>= 1.11.0-~~) <!nocheck>, librust-log-0.4+default-dev (>= 0.4.11-~~) <!nocheck>, librust-parking-2+default-dev <!nocheck>, librust-polling-2+default-dev <!nocheck>, librust-rustix-0+fs-dev (>= 0.37.1-~~) <!nocheck>, librust-rustix-0+std-dev (>= 0.37.1-~~) <!nocheck>, librust-slab-0.4+default-dev (>= 0.4.2-~~) <!nocheck>, librust-socket2-0.5+all-dev <!nocheck>, librust-socket2-0.5+default-dev <!nocheck>, librust-waker-fn-1+default-dev (>= 1.1.0-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"239b38df16389846d48cd975d441480f2fd5f388995fca16937fd4d6efa62b25 3182 rust-async-io_1.13.0-4.dsc 0fc5b45d93ef0529756f812ca52e44c221b35341892d3dcc34132ac02f3dd2af 37191 rust-async-io_1.13.0.orig.tar.gz 7b1b64fb945fa3d96b5cb5311792e94b407b7e4f0827223e44ba5d52804646a3 3432 rust-async-io_1.13.0-4.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-async-io"
+	],
+	"Files": [
+		"86c711cedaf08a81abd8a1625ad87cd3 3182 rust-async-io_1.13.0-4.dsc 85e67aace07fa2fc176e690c75109365 37191 rust-async-io_1.13.0.orig.tar.gz 99bd99d34bcbc68ba9703ffdbabcca0d 3432 rust-async-io_1.13.0-4.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-async-io"
+	],
+	"Package-List": [
+		"librust-async-io-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-async-channel-1+default-dev, librust-async-net-1+default-dev, librust-blocking-1+default-dev, librust-criterion-0.5+cargo-bench-support-dev, librust-getrandom-0.2+default-dev, librust-inotify-0.10-dev, librust-inotify-0.9-dev, librust-signal-hook-0.3+default-dev, librust-tempfile-3+default-dev, librust-timerfd-1+default-dev"
+	],
+	"Uploaders": [
+		"Henry-Nicolas Tourneur <debian@nilux.be>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/async-io"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/async-io]"
+	],
+	"Version": [
+		"1.13.0-4"
+	]
 }

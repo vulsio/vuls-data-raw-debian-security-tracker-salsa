@@ -1,59 +1,59 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "notmuch, libnotmuch4, libnotmuch-dev, python-notmuch, python3-notmuch, ruby-notmuch, notmuch-emacs, elpa-notmuch, notmuch-vim, notmuch-mutt, notmuch-dbg"
-  ],
-  "Build-Conflicts": [
-    "gdb [s390x ia64 armel ppc64el mips mipsel mips64el], gdb-minimal, ruby1.8"
-  ],
-  "Build-Depends": [
-    "dpkg-dev (>= 1.17.14), debhelper (>= 9), pkg-config, libxapian-dev, libgmime-2.6-dev (>= 2.6.7~) | libgmime-2.4-dev, libtalloc-dev, libz-dev, python-all (>= 2.6.6-3~), python3-all (>= 3.1.2-7~), dh-python, dh-elpa (>= 1.3), python-sphinx (>= 1.0), ruby, ruby-dev (>> 1:1.9.3~), emacs24-nox | emacs24 (>= 24~) | emacs24-lucid (>= 24~) | emacs23-nox | emacs23 (>= 23~) | emacs23-lucid (>= 23~), gdb [!s390x !ia64 !armel !ppc64el !mips !mipsel !mips64el !kfreebsd-any], dtach (>= 0.8), gpgsm <!nocheck>, gnupg <!nocheck>, bash-completion (>= 1.9.0~)"
-  ],
-  "Checksums-Sha256": [
-    "01166f2bdb97684bb9836fbbf6ab8c3db50578060b5928cfd8c1c840c1442520 2906 notmuch_0.23.7-3.dsc f11bb10d71945f6c3f16d23117afc70810aa485878e66bb4bf43cc3f08038913 692230 notmuch_0.23.7.orig.tar.gz 5e14a87574549dfb2b8f223a11cd9d834b9d521986342d06ec2cb2289afd1f21 16940 notmuch_0.23.7-3.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/n/notmuch"
-  ],
-  "Files": [
-    "38ae69462399923cfe537448b167e826 2906 notmuch_0.23.7-3.dsc 1ad339b6d0c03548140434c7bcdf0624 692230 notmuch_0.23.7.orig.tar.gz 0650afb0e57c1e255cb242b98f31be43 16940 notmuch_0.23.7-3.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://notmuchmail.org/"
-  ],
-  "Maintainer": [
-    "Carl Worth <cworth@debian.org>"
-  ],
-  "Package": [
-    "notmuch"
-  ],
-  "Package-List": [
-    "elpa-notmuch deb mail optional arch=all libnotmuch-dev deb libdevel optional arch=any libnotmuch4 deb libs optional arch=any notmuch deb mail optional arch=any notmuch-dbg deb debug extra arch=any notmuch-emacs deb mail optional arch=all notmuch-mutt deb mail optional arch=all notmuch-vim deb mail optional arch=all python-notmuch deb python optional arch=all python3-notmuch deb python optional arch=all ruby-notmuch deb ruby optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "mail"
-  ],
-  "Standards-Version": [
-    "3.9.6"
-  ],
-  "Uploaders": [
-    "Jameson Graef Rollins <jrollins@finestructure.net>, David Bremner <bremner@debian.org>"
-  ],
-  "Vcs-Browser": [
-    "https://git.notmuchmail.org/git/notmuch"
-  ],
-  "Vcs-Git": [
-    "git://notmuchmail.org/git/notmuch"
-  ],
-  "Version": [
-    "0.23.7-3"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"notmuch, libnotmuch4, libnotmuch-dev, python-notmuch, python3-notmuch, ruby-notmuch, notmuch-emacs, elpa-notmuch, notmuch-vim, notmuch-mutt, notmuch-dbg"
+	],
+	"Build-Conflicts": [
+		"gdb [s390x ia64 armel ppc64el mips mipsel mips64el], gdb-minimal, ruby1.8"
+	],
+	"Build-Depends": [
+		"dpkg-dev (>= 1.17.14), debhelper (>= 9), pkg-config, libxapian-dev, libgmime-2.6-dev (>= 2.6.7~) | libgmime-2.4-dev, libtalloc-dev, libz-dev, python-all (>= 2.6.6-3~), python3-all (>= 3.1.2-7~), dh-python, dh-elpa (>= 1.3), python-sphinx (>= 1.0), ruby, ruby-dev (>> 1:1.9.3~), emacs24-nox | emacs24 (>= 24~) | emacs24-lucid (>= 24~) | emacs23-nox | emacs23 (>= 23~) | emacs23-lucid (>= 23~), gdb [!s390x !ia64 !armel !ppc64el !mips !mipsel !mips64el !kfreebsd-any], dtach (>= 0.8), gpgsm <!nocheck>, gnupg <!nocheck>, bash-completion (>= 1.9.0~)"
+	],
+	"Checksums-Sha256": [
+		"01166f2bdb97684bb9836fbbf6ab8c3db50578060b5928cfd8c1c840c1442520 2906 notmuch_0.23.7-3.dsc f11bb10d71945f6c3f16d23117afc70810aa485878e66bb4bf43cc3f08038913 692230 notmuch_0.23.7.orig.tar.gz 5e14a87574549dfb2b8f223a11cd9d834b9d521986342d06ec2cb2289afd1f21 16940 notmuch_0.23.7-3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/n/notmuch"
+	],
+	"Files": [
+		"38ae69462399923cfe537448b167e826 2906 notmuch_0.23.7-3.dsc 1ad339b6d0c03548140434c7bcdf0624 692230 notmuch_0.23.7.orig.tar.gz 0650afb0e57c1e255cb242b98f31be43 16940 notmuch_0.23.7-3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://notmuchmail.org/"
+	],
+	"Maintainer": [
+		"Carl Worth <cworth@debian.org>"
+	],
+	"Package": [
+		"notmuch"
+	],
+	"Package-List": [
+		"elpa-notmuch deb mail optional arch=all libnotmuch-dev deb libdevel optional arch=any libnotmuch4 deb libs optional arch=any notmuch deb mail optional arch=any notmuch-dbg deb debug extra arch=any notmuch-emacs deb mail optional arch=all notmuch-mutt deb mail optional arch=all notmuch-vim deb mail optional arch=all python-notmuch deb python optional arch=all python3-notmuch deb python optional arch=all ruby-notmuch deb ruby optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"mail"
+	],
+	"Standards-Version": [
+		"3.9.6"
+	],
+	"Uploaders": [
+		"Jameson Graef Rollins <jrollins@finestructure.net>, David Bremner <bremner@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://git.notmuchmail.org/git/notmuch"
+	],
+	"Vcs-Git": [
+		"git://notmuchmail.org/git/notmuch"
+	],
+	"Version": [
+		"0.23.7-3"
+	]
 }

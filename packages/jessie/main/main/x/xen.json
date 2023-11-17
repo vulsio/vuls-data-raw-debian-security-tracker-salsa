@@ -1,53 +1,53 @@
 {
-  "Architecture": [
-    "amd64 arm64 armhf i386 all"
-  ],
-  "Binary": [
-    "libxen-4.4, libxenstore3.0, libxen-dev, xenstore-utils, xen-utils-common, xen-utils-4.4, xen-hypervisor-4.4-amd64, xen-system-amd64, xen-hypervisor-4.4-arm64, xen-system-arm64, xen-hypervisor-4.4-armhf, xen-system-armhf"
-  ],
-  "Build-Depends": [
-    "autotools-dev, debhelper (>> 9), dpkg-dev (>= 1.16.0~), lsb-release, python-dev, bcc [i386 amd64], gcc-multilib [i386 amd64], e2fslibs-dev, iasl [i386 amd64], seabios (>= 1.7.4-2~) [i386 amd64], libaio-dev, libfdt-dev [armhf arm64], libglib2.0-dev, liblzma-dev, libncurses5-dev, libyajl-dev, libssl-dev, pkg-config, uuid-dev, zlib1g-dev"
-  ],
-  "Checksums-Sha1": [
-    "6ae524fe59544eb5c28f1836ccaf5bd2d3e2baaf 2650 xen_4.4.1-9+deb8u10.dsc 900ed093d14caf511fa1a22f48bbf0499bb2ee11 3778516 xen_4.4.1.orig.tar.xz 9f2a01827687d219da442c38d3f3962752b4a676 136524 xen_4.4.1-9+deb8u10.debian.tar.xz"
-  ],
-  "Checksums-Sha256": [
-    "9fa9d100d978cbea01bb60a0e865642e82fe26c72b08123935e85f512dacdb6c 2650 xen_4.4.1-9+deb8u10.dsc c51b9f10047779d76b9f9900e2f626008d07ffe9a35f6221d703a542e599a8cb 3778516 xen_4.4.1.orig.tar.xz 3db2d4ed05fd93d6916eafd43d227bf5423e103957f9149b10fea059ecbd8380 136524 xen_4.4.1-9+deb8u10.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/x/xen"
-  ],
-  "Files": [
-    "7d0b6315567fd9005c1834117366d67c 2650 xen_4.4.1-9+deb8u10.dsc eb8b9505a28561d4d0a8409f1b43fb0a 3778516 xen_4.4.1.orig.tar.xz 6e417d01a5f53756910e1f3659458674 136524 xen_4.4.1-9+deb8u10.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Maintainer": [
-    "Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "xen"
-  ],
-  "Package-List": [
-    "libxen-4.4 deb libs optional arch=amd64,arm64,armhf,i386 libxen-dev deb libdevel optional arch=amd64,arm64,armhf,i386 libxenstore3.0 deb libs optional arch=amd64,arm64,armhf,i386 xen-hypervisor-4.4-amd64 deb kernel optional arch=amd64,i386 xen-hypervisor-4.4-arm64 deb kernel optional arch=arm64 xen-hypervisor-4.4-armhf deb kernel optional arch=armhf xen-system-amd64 deb kernel optional arch=amd64,i386 xen-system-arm64 deb kernel optional arch=arm64 xen-system-armhf deb kernel optional arch=armhf xen-utils-4.4 deb kernel optional arch=amd64,arm64,armhf,i386 xen-utils-common deb kernel optional arch=all xenstore-utils deb admin optional arch=amd64,arm64,armhf,i386"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Python-Version": [
-    "current"
-  ],
-  "Section": [
-    "kernel"
-  ],
-  "Standards-Version": [
-    "3.9.4"
-  ],
-  "Uploaders": [
-    "Guido Trotter <ultrotter@debian.org>, Bastian Blank <waldi@debian.org>"
-  ],
-  "Version": [
-    "4.4.1-9+deb8u10"
-  ]
+	"Architecture": [
+		"amd64 arm64 armhf i386 all"
+	],
+	"Binary": [
+		"libxen-4.4, libxenstore3.0, libxen-dev, xenstore-utils, xen-utils-common, xen-utils-4.4, xen-hypervisor-4.4-amd64, xen-system-amd64, xen-hypervisor-4.4-arm64, xen-system-arm64, xen-hypervisor-4.4-armhf, xen-system-armhf"
+	],
+	"Build-Depends": [
+		"autotools-dev, debhelper (>> 9), dpkg-dev (>= 1.16.0~), lsb-release, python-dev, bcc [i386 amd64], gcc-multilib [i386 amd64], e2fslibs-dev, iasl [i386 amd64], seabios (>= 1.7.4-2~) [i386 amd64], libaio-dev, libfdt-dev [armhf arm64], libglib2.0-dev, liblzma-dev, libncurses5-dev, libyajl-dev, libssl-dev, pkg-config, uuid-dev, zlib1g-dev"
+	],
+	"Checksums-Sha1": [
+		"6ae524fe59544eb5c28f1836ccaf5bd2d3e2baaf 2650 xen_4.4.1-9+deb8u10.dsc 900ed093d14caf511fa1a22f48bbf0499bb2ee11 3778516 xen_4.4.1.orig.tar.xz 9f2a01827687d219da442c38d3f3962752b4a676 136524 xen_4.4.1-9+deb8u10.debian.tar.xz"
+	],
+	"Checksums-Sha256": [
+		"9fa9d100d978cbea01bb60a0e865642e82fe26c72b08123935e85f512dacdb6c 2650 xen_4.4.1-9+deb8u10.dsc c51b9f10047779d76b9f9900e2f626008d07ffe9a35f6221d703a542e599a8cb 3778516 xen_4.4.1.orig.tar.xz 3db2d4ed05fd93d6916eafd43d227bf5423e103957f9149b10fea059ecbd8380 136524 xen_4.4.1-9+deb8u10.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/x/xen"
+	],
+	"Files": [
+		"7d0b6315567fd9005c1834117366d67c 2650 xen_4.4.1-9+deb8u10.dsc eb8b9505a28561d4d0a8409f1b43fb0a 3778516 xen_4.4.1.orig.tar.xz 6e417d01a5f53756910e1f3659458674 136524 xen_4.4.1-9+deb8u10.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"xen"
+	],
+	"Package-List": [
+		"libxen-4.4 deb libs optional arch=amd64,arm64,armhf,i386 libxen-dev deb libdevel optional arch=amd64,arm64,armhf,i386 libxenstore3.0 deb libs optional arch=amd64,arm64,armhf,i386 xen-hypervisor-4.4-amd64 deb kernel optional arch=amd64,i386 xen-hypervisor-4.4-arm64 deb kernel optional arch=arm64 xen-hypervisor-4.4-armhf deb kernel optional arch=armhf xen-system-amd64 deb kernel optional arch=amd64,i386 xen-system-arm64 deb kernel optional arch=arm64 xen-system-armhf deb kernel optional arch=armhf xen-utils-4.4 deb kernel optional arch=amd64,arm64,armhf,i386 xen-utils-common deb kernel optional arch=all xenstore-utils deb admin optional arch=amd64,arm64,armhf,i386"
+	],
+	"Priority": [
+		"source"
+	],
+	"Python-Version": [
+		"current"
+	],
+	"Section": [
+		"kernel"
+	],
+	"Standards-Version": [
+		"3.9.4"
+	],
+	"Uploaders": [
+		"Guido Trotter <ultrotter@debian.org>, Bastian Blank <waldi@debian.org>"
+	],
+	"Version": [
+		"4.4.1-9+deb8u10"
+	]
 }

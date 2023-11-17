@@ -1,62 +1,62 @@
 {
-  "Architecture": [
-    "any"
-  ],
-  "Binary": [
-    "slapd, slapd-smbk5pwd, ldap-utils, libldap-2.4-2, libldap-2.4-2-dbg, libldap2-dev, slapd-dbg"
-  ],
-  "Build-Conflicts": [
-    "autoconf2.13, bind-dev, libbind-dev, libicu-dev"
-  ],
-  "Build-Depends": [
-    "debhelper (>= 8.9.0~), dpkg-dev (>= 1.16.1), libdb5.1-dev, nettle-dev, libgnutls28-dev, unixodbc-dev, libncurses5-dev, libperl-dev (>= 5.8.0), libsasl2-dev, libslp-dev, libltdl-dev | libltdl3-dev (>= 1.4.3), libwrap0-dev, perl, po-debconf, quilt (>= 0.46-7), groff-base, time, heimdal-multidev, dh-autoreconf"
-  ],
-  "Checksums-Sha1": [
-    "2ed74b833ed2187c6e64735de31d6eb36b3d6f0d 2942 openldap_2.4.31+really2.4.40+dfsg-1+deb8u1~bpo70+1.dsc b80c48f2b7cbf634a3d463b7eb4ca38f081ce2eb 4797667 openldap_2.4.31+really2.4.40+dfsg.orig.tar.gz 61f937907a85ea9e01f14c90bec9fd084175a875 179466 openldap_2.4.31+really2.4.40+dfsg-1+deb8u1~bpo70+1.diff.gz"
-  ],
-  "Checksums-Sha256": [
-    "b38e3da8082014dad0d1ee49bd8f609a015278fbe3f1c9a4d51b49ba2af88bcc 2942 openldap_2.4.31+really2.4.40+dfsg-1+deb8u1~bpo70+1.dsc 86c0326dc3dc5f1a9b3c25f7106b96f3eafcdf5da090b1fc586dec57d56e0e7f 4797667 openldap_2.4.31+really2.4.40+dfsg.orig.tar.gz 43a36e8d35673494837acda12a2902a775f440136bc7f340494cc8f9941afe1d 179466 openldap_2.4.31+really2.4.40+dfsg-1+deb8u1~bpo70+1.diff.gz"
-  ],
-  "Directory": [
-    "pool/main/o/openldap"
-  ],
-  "Files": [
-    "b4bea79e97d981fab4561f7cccf2624c 2942 openldap_2.4.31+really2.4.40+dfsg-1+deb8u1~bpo70+1.dsc 8d84a916e2312aade2a3d7b2308a9a69 4797667 openldap_2.4.31+really2.4.40+dfsg.orig.tar.gz e32c4bbc02504441ef6d397da007a12f 179466 openldap_2.4.31+really2.4.40+dfsg-1+deb8u1~bpo70+1.diff.gz"
-  ],
-  "Format": [
-    "1.0"
-  ],
-  "Homepage": [
-    "http://www.openldap.org/"
-  ],
-  "Maintainer": [
-    "Debian OpenLDAP Maintainers <pkg-openldap-devel@lists.alioth.debian.org>"
-  ],
-  "Package": [
-    "openldap"
-  ],
-  "Package-List": [
-    "ldap-utils deb net optional arch=any libldap-2.4-2 deb libs standard arch=any libldap-2.4-2-dbg deb debug extra arch=any libldap2-dev deb libdevel extra arch=any slapd deb net optional arch=any slapd-dbg deb debug extra arch=any slapd-smbk5pwd deb net extra arch=any"
-  ],
-  "Priority": [
-    "optional"
-  ],
-  "Section": [
-    "misc"
-  ],
-  "Standards-Version": [
-    "3.9.1"
-  ],
-  "Uploaders": [
-    "Roland Bauerschmidt <rb@debian.org>, Steve Langasek <vorlon@debian.org>, Torsten Landschoff <torsten@debian.org>, Matthijs Möhlmann <matthijs@cacholong.nl>, Timo Aaltonen <tjaalton@ubuntu.com>, Ryan Tandy <ryan@nardis.ca>"
-  ],
-  "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-openldap/openldap.git"
-  ],
-  "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-openldap/openldap.git"
-  ],
-  "Version": [
-    "2.4.31+really2.4.40+dfsg-1+deb8u1~bpo70+1"
-  ]
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"slapd, slapd-smbk5pwd, ldap-utils, libldap-2.4-2, libldap-2.4-2-dbg, libldap2-dev, slapd-dbg"
+	],
+	"Build-Conflicts": [
+		"autoconf2.13, bind-dev, libbind-dev, libicu-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 8.9.0~), dpkg-dev (>= 1.16.1), libdb5.1-dev, nettle-dev, libgnutls28-dev, unixodbc-dev, libncurses5-dev, libperl-dev (>= 5.8.0), libsasl2-dev, libslp-dev, libltdl-dev | libltdl3-dev (>= 1.4.3), libwrap0-dev, perl, po-debconf, quilt (>= 0.46-7), groff-base, time, heimdal-multidev, dh-autoreconf"
+	],
+	"Checksums-Sha1": [
+		"2ed74b833ed2187c6e64735de31d6eb36b3d6f0d 2942 openldap_2.4.31+really2.4.40+dfsg-1+deb8u1~bpo70+1.dsc b80c48f2b7cbf634a3d463b7eb4ca38f081ce2eb 4797667 openldap_2.4.31+really2.4.40+dfsg.orig.tar.gz 61f937907a85ea9e01f14c90bec9fd084175a875 179466 openldap_2.4.31+really2.4.40+dfsg-1+deb8u1~bpo70+1.diff.gz"
+	],
+	"Checksums-Sha256": [
+		"b38e3da8082014dad0d1ee49bd8f609a015278fbe3f1c9a4d51b49ba2af88bcc 2942 openldap_2.4.31+really2.4.40+dfsg-1+deb8u1~bpo70+1.dsc 86c0326dc3dc5f1a9b3c25f7106b96f3eafcdf5da090b1fc586dec57d56e0e7f 4797667 openldap_2.4.31+really2.4.40+dfsg.orig.tar.gz 43a36e8d35673494837acda12a2902a775f440136bc7f340494cc8f9941afe1d 179466 openldap_2.4.31+really2.4.40+dfsg-1+deb8u1~bpo70+1.diff.gz"
+	],
+	"Directory": [
+		"pool/main/o/openldap"
+	],
+	"Files": [
+		"b4bea79e97d981fab4561f7cccf2624c 2942 openldap_2.4.31+really2.4.40+dfsg-1+deb8u1~bpo70+1.dsc 8d84a916e2312aade2a3d7b2308a9a69 4797667 openldap_2.4.31+really2.4.40+dfsg.orig.tar.gz e32c4bbc02504441ef6d397da007a12f 179466 openldap_2.4.31+really2.4.40+dfsg-1+deb8u1~bpo70+1.diff.gz"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Homepage": [
+		"http://www.openldap.org/"
+	],
+	"Maintainer": [
+		"Debian OpenLDAP Maintainers <pkg-openldap-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"openldap"
+	],
+	"Package-List": [
+		"ldap-utils deb net optional arch=any libldap-2.4-2 deb libs standard arch=any libldap-2.4-2-dbg deb debug extra arch=any libldap2-dev deb libdevel extra arch=any slapd deb net optional arch=any slapd-dbg deb debug extra arch=any slapd-smbk5pwd deb net extra arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"3.9.1"
+	],
+	"Uploaders": [
+		"Roland Bauerschmidt <rb@debian.org>, Steve Langasek <vorlon@debian.org>, Torsten Landschoff <torsten@debian.org>, Matthijs Möhlmann <matthijs@cacholong.nl>, Timo Aaltonen <tjaalton@ubuntu.com>, Ryan Tandy <ryan@nardis.ca>"
+	],
+	"Vcs-Browser": [
+		"http://anonscm.debian.org/gitweb/?p=pkg-openldap/openldap.git"
+	],
+	"Vcs-Git": [
+		"git://anonscm.debian.org/pkg-openldap/openldap.git"
+	],
+	"Version": [
+		"2.4.31+really2.4.40+dfsg-1+deb8u1~bpo70+1"
+	]
 }

@@ -1,56 +1,56 @@
 {
-  "Architecture": [
-    "any all"
-  ],
-  "Binary": [
-    "quagga, quagga-core, quagga-doc, quagga-bgpd, quagga-isisd, quagga-ospf6d, quagga-ospfd, quagga-pimd, quagga-ripd, quagga-ripngd"
-  ],
-  "Build-Depends": [
-    "autotools-dev, chrpath, debhelper (>= 10.0.0), dh-autoreconf, gawk, ghostscript, groff, imagemagick, libcap-dev, libncurses5-dev, libpam0g-dev | libpam-dev, libpcre3-dev, libreadline-dev, libsnmp-dev, moreutils, pkg-config, po-debconf, texinfo (>= 4.7), texlive-fonts-recommended, texlive-generic-recommended, texlive-latex-base"
-  ],
-  "Checksums-Sha256": [
-    "2e6beea8dfe0224435e3d296f855116b935aebff2aaceea60f8ffa06a75dfd50 2766 quagga_1.1.1-3+deb9u2.dsc cd464dd5575dfcedc6ad590eced904290d9c5fded89984bfa5610657dfb412bc 2173432 quagga_1.1.1.orig.tar.gz 349490915d20f241de49949547abec4b96f7790ce0e6daf39c3cdbd957b20f55 35892 quagga_1.1.1-3+deb9u2.debian.tar.xz"
-  ],
-  "Directory": [
-    "pool/main/q/quagga"
-  ],
-  "Files": [
-    "9cba8d936ace39c105307683bc7ca15a 2766 quagga_1.1.1-3+deb9u2.dsc 1b63d3f9f1a0ba19ada60536c05eaaab 2173432 quagga_1.1.1.orig.tar.gz b2f86aef1939f9c37ca98873b69f495d 35892 quagga_1.1.1-3+deb9u2.debian.tar.xz"
-  ],
-  "Format": [
-    "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.quagga.net/"
-  ],
-  "Maintainer": [
-    "Scott Leggett <scott@sl.id.au>"
-  ],
-  "Package": [
-    "quagga"
-  ],
-  "Package-List": [
-    "quagga deb net optional arch=any quagga-bgpd deb net optional arch=any quagga-core deb net optional arch=any quagga-doc deb doc optional arch=all quagga-isisd deb net optional arch=any quagga-ospf6d deb net optional arch=any quagga-ospfd deb net optional arch=any quagga-pimd deb net optional arch=any quagga-ripd deb net optional arch=any quagga-ripngd deb net optional arch=any"
-  ],
-  "Priority": [
-    "source"
-  ],
-  "Section": [
-    "net"
-  ],
-  "Standards-Version": [
-    "3.9.8"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Vcs-Browser": [
-    "https://gitlab.com/smlx/quagga"
-  ],
-  "Vcs-Git": [
-    "https://gitlab.com/smlx/quagga.git"
-  ],
-  "Version": [
-    "1.1.1-3+deb9u2"
-  ]
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"quagga, quagga-core, quagga-doc, quagga-bgpd, quagga-isisd, quagga-ospf6d, quagga-ospfd, quagga-pimd, quagga-ripd, quagga-ripngd"
+	],
+	"Build-Depends": [
+		"autotools-dev, chrpath, debhelper (>= 10.0.0), dh-autoreconf, gawk, ghostscript, groff, imagemagick, libcap-dev, libncurses5-dev, libpam0g-dev | libpam-dev, libpcre3-dev, libreadline-dev, libsnmp-dev, moreutils, pkg-config, po-debconf, texinfo (>= 4.7), texlive-fonts-recommended, texlive-generic-recommended, texlive-latex-base"
+	],
+	"Checksums-Sha256": [
+		"2e6beea8dfe0224435e3d296f855116b935aebff2aaceea60f8ffa06a75dfd50 2766 quagga_1.1.1-3+deb9u2.dsc cd464dd5575dfcedc6ad590eced904290d9c5fded89984bfa5610657dfb412bc 2173432 quagga_1.1.1.orig.tar.gz 349490915d20f241de49949547abec4b96f7790ce0e6daf39c3cdbd957b20f55 35892 quagga_1.1.1-3+deb9u2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/q/quagga"
+	],
+	"Files": [
+		"9cba8d936ace39c105307683bc7ca15a 2766 quagga_1.1.1-3+deb9u2.dsc 1b63d3f9f1a0ba19ada60536c05eaaab 2173432 quagga_1.1.1.orig.tar.gz b2f86aef1939f9c37ca98873b69f495d 35892 quagga_1.1.1-3+deb9u2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.quagga.net/"
+	],
+	"Maintainer": [
+		"Scott Leggett <scott@sl.id.au>"
+	],
+	"Package": [
+		"quagga"
+	],
+	"Package-List": [
+		"quagga deb net optional arch=any quagga-bgpd deb net optional arch=any quagga-core deb net optional arch=any quagga-doc deb doc optional arch=all quagga-isisd deb net optional arch=any quagga-ospf6d deb net optional arch=any quagga-ospfd deb net optional arch=any quagga-pimd deb net optional arch=any quagga-ripd deb net optional arch=any quagga-ripngd deb net optional arch=any"
+	],
+	"Priority": [
+		"source"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"3.9.8"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Vcs-Browser": [
+		"https://gitlab.com/smlx/quagga"
+	],
+	"Vcs-Git": [
+		"https://gitlab.com/smlx/quagga.git"
+	],
+	"Version": [
+		"1.1.1-3+deb9u2"
+	]
 }
