@@ -1,0 +1,53 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"sysvinit-core, sysvinit-utils, sysv-rc, initscripts, bootlogd"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), libselinux1-dev [linux-any], po-debconf, po4a"
+	],
+	"Checksums-Sha256": [
+		"1732de2f53eb28561390f754e4d17292bed718f534d76a787384a471416b6ed6 2391 sysvinit_3.08-3~bpo12+1.dsc 325e42ae4ae5ae3e4d989e0604aeb5e4eae5f3ee21e401db3c79000718f8c836 513674 sysvinit_3.08.orig.tar.gz 82a97e340cef73cbb0479066d88843a488d3b281f0f5da63985bffe1c4474afa 138000 sysvinit_3.08-3~bpo12+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/s/sysvinit"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/slicer69/sysvinit"
+	],
+	"Maintainer": [
+		"Debian sysvinit maintainers <debian-init-diversity@chiark.greenend.org.uk>"
+	],
+	"Package": [
+		"sysvinit"
+	],
+	"Package-List": [
+		"bootlogd deb admin optional arch=any initscripts deb admin optional arch=all sysv-rc deb admin optional arch=all sysvinit-core deb admin optional arch=any sysvinit-utils deb admin required arch=any essential=yes"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Uploaders": [
+		"Ian Jackson <ijackson@chiark.greenend.org.uk>, Benda Xu <heroxbd@gentoo.org>, Adam Borowski <kilobyte@angband.pl>, Vincenzo (KatolaZ) Nicosia <katolaz@freaknet.org>, Mark Hindley <leepen@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/sysvinit"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/sysvinit.git"
+	],
+	"Version": [
+		"3.08-3~bpo12+1"
+	]
+}
