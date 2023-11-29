@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-bmap-parser-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-async-trait-0.1+default-dev (>= 0.1.58-~~) <!nocheck>, librust-digest-0.10+default-dev (>= 0.10.5-~~) <!nocheck>, librust-flate2-1+default-dev (>= 1.0.20-~~) <!nocheck>, librust-futures-0.3+default-dev (>= 0.3.25-~~) <!nocheck>, librust-quick-xml-0.27+default-dev <!nocheck>, librust-quick-xml-0.27+serialize-dev <!nocheck>, librust-serde-1+default-dev (>= 1.0.147-~~) <!nocheck>, librust-serde-1+derive-dev (>= 1.0.147-~~) <!nocheck>, librust-sha2-0.10+asm-dev (>= 0.10.6-~~) <!nocheck>, librust-sha2-0.10+default-dev (>= 0.10.6-~~) <!nocheck>, librust-strum-0.24+default-dev (>= 0.24.1-~~) <!nocheck>, librust-strum-0.24+derive-dev (>= 0.24.1-~~) <!nocheck>, librust-thiserror-1+default-dev (>= 1.0.24-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"4fd9b32c7e7567612e560e1518a5b6f4f3cdb13865931df3ac7a76787b93bc23 2905 rust-bmap-parser_0.1.0-1.dsc 57de8a2f656fe34cdd24bef631afab588a16cf3705aaa0c950328f9a817a0301 8434 rust-bmap-parser_0.1.0.orig.tar.gz 5a844004a91726dbc22a7599a7ee23710eaf4098a575daf8e3d8aaac86c22752 3716 rust-bmap-parser_0.1.0-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-bmap-parser"
+	],
+	"Files": [
+		"cafff65e76f5ec5f6d1c0e7b83a0454a 2905 rust-bmap-parser_0.1.0-1.dsc feabb092b293f67c216fb2a7375d8619 8434 rust-bmap-parser_0.1.0.orig.tar.gz e1a3b90ae0c3101f3c49ef7c93e3e2ce 3716 rust-bmap-parser_0.1.0-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-bmap-parser"
+	],
+	"Package-List": [
+		"librust-bmap-parser-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo"
+	],
+	"Uploaders": [
+		"Arnaud Ferraris <aferraris@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/bmap-parser"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/bmap-parser]"
+	],
+	"Version": [
+		"0.1.0-1"
+	]
+}
