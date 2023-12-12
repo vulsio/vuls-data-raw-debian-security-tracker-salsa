@@ -6,16 +6,16 @@
 		"librust-sysinfo-dev"
 	],
 	"Build-Depends": [
-		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cfg-if-1+default-dev <!nocheck>, librust-core-foundation-sys-0.8+default-dev <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.112-~~) <!nocheck>, librust-ntapi-0.4+default-dev <!nocheck>, librust-once-cell-1+default-dev <!nocheck>, librust-rayon-1+default-dev (>= 1.5.1-~~) <!nocheck>, librust-winapi-0.3+combaseapi-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+default-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+errhandlingapi-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+fileapi-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+handleapi-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+heapapi-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+ifdef-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+ioapiset-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+iphlpapi-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+lmaccess-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+lmapibuf-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+lmcons-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+memoryapi-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+minwindef-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+netioapi-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+ntlsa-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+objidl-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+oleauto-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+pdh-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+powerbase-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+psapi-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+rpcdce-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+sddl-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+securitybaseapi-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+shellapi-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+std-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+synchapi-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+sysinfoapi-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+wbemcli-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+winbase-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+winerror-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+winioctl-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+winnt-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+winsock2-dev (>= 0.3.9-~~) <!nocheck>"
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native (>= 1.59) <!nocheck>, libstd-rust-dev <!nocheck>, librust-cfg-if-1+default-dev <!nocheck>, librust-core-foundation-sys-0.8+default-dev <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.112-~~) <!nocheck>, librust-ntapi-0.4+default-dev <!nocheck>, librust-once-cell-1+default-dev <!nocheck>, librust-rayon-1+default-dev (>= 1.5.1-~~) <!nocheck>, librust-winapi-0.3+combaseapi-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+default-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+errhandlingapi-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+fileapi-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+handleapi-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+heapapi-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+ifdef-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+ioapiset-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+iphlpapi-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+lmaccess-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+lmapibuf-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+lmcons-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+memoryapi-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+minwindef-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+netioapi-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+ntlsa-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+objidl-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+oleauto-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+pdh-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+powerbase-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+psapi-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+rpcdce-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+sddl-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+securitybaseapi-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+shellapi-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+std-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+synchapi-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+sysinfoapi-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+wbemcli-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+winbase-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+winerror-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+winioctl-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+winnt-dev (>= 0.3.9-~~) <!nocheck>, librust-winapi-0.3+winsock2-dev (>= 0.3.9-~~) <!nocheck>"
 	],
 	"Checksums-Sha256": [
-		"e904fc3f8db67c4bdf02479e7162aadd5caec2ac530c43bdbc786e051d7d4506 4467 rust-sysinfo_0.28.4-2.dsc b4c2f3ca6693feb29a89724516f016488e9aafc7f37264f898593ee4b942f31b 151133 rust-sysinfo_0.28.4.orig.tar.gz c27a446fb4b575736179d1dcc50d735943f972cdc7643b4d714b0082fe2fc656 5236 rust-sysinfo_0.28.4-2.debian.tar.xz"
+		"f8871c83087bd93009132c28dfa22ce33df49508aedf7ca6c6d7b5472aa344bd 4477 rust-sysinfo_0.28.4-3.dsc b4c2f3ca6693feb29a89724516f016488e9aafc7f37264f898593ee4b942f31b 151133 rust-sysinfo_0.28.4.orig.tar.gz 69a6b033f3715489fcc086ee10035c669267295f460c5b87b4078cf28ead694b 5428 rust-sysinfo_0.28.4-3.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/r/rust-sysinfo"
 	],
 	"Files": [
-		"80e5dbd4562709902ad3afb7a74f2679 4467 rust-sysinfo_0.28.4-2.dsc 3d2753cb9cea87678303f2703ff5d711 151133 rust-sysinfo_0.28.4.orig.tar.gz 7d0f623370e241a0037426ea5ad78520 5236 rust-sysinfo_0.28.4-2.debian.tar.xz"
+		"a8b4c55a7dd2d886ddad64e7ede2ca9f 4477 rust-sysinfo_0.28.4-3.dsc 3d2753cb9cea87678303f2703ff5d711 151133 rust-sysinfo_0.28.4.orig.tar.gz cb1fce3372784be9e52236368769b5a9 5428 rust-sysinfo_0.28.4-3.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -36,7 +36,7 @@
 		"misc"
 	],
 	"Standards-Version": [
-		"4.6.1"
+		"4.6.2"
 	],
 	"Testsuite": [
 		"autopkgtest"
@@ -54,6 +54,6 @@
 		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/sysinfo]"
 	],
 	"Version": [
-		"0.28.4-2"
+		"0.28.4-3"
 	]
 }
