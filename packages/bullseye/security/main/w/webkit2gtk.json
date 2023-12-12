@@ -6,13 +6,13 @@
 		"libjavascriptcoregtk-4.0-bin, libwebkit2gtk-4.0-doc, webkit2gtk-driver, libjavascriptcoregtk-4.0-18, libjavascriptcoregtk-4.0-dev, gir1.2-javascriptcoregtk-4.0, libwebkit2gtk-4.0-37, libwebkit2gtk-4.0-dev, gir1.2-webkit2-4.0"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 12), bubblewrap [!alpha !ia64 !m68k !sh4 !sparc64 !hurd-any !kfreebsd-any], xdg-dbus-proxy [!alpha !ia64 !m68k !sh4 !sparc64 !hurd-any !kfreebsd-any], libseccomp-dev [!alpha !ia64 !m68k !sh4 !sparc64 !hurd-any !kfreebsd-any], clang [amd64], cmake (>= 3.16), libglib2.0-dev, libharfbuzz-dev, libcairo2-dev, libfontconfig-dev, libfreetype-dev, libicu-dev, libgcrypt20-dev, libhyphen-dev, liblcms2-dev, libmanette-0.2-dev (>= 0.2.4) [linux-any], libxslt1-dev, libxml2-dev, libsoup2.4-dev, libgtk-3-dev, libsqlite3-dev, libsystemd-dev [linux-any], libgudev-1.0-dev [linux-any], libwoff-dev, libwpebackend-fdo-1.0-dev [linux-any], gperf, bison, flex, ruby:native, unifdef, libavif-dev, libjpeg-dev, libopenjp2-7-dev, libpng-dev, libtasn1-6-dev, libwebp-dev, libxt-dev, libgstreamer1.0-dev, libgstreamer-plugins-base1.0-dev, libgstreamer-plugins-bad1.0-dev, libenchant-2-dev, libsecret-1-dev, gobject-introspection, libgirepository1.0-dev, ninja-build, libegl-dev, libgl-dev, libgles-dev"
+		"debhelper-compat (= 13), bubblewrap [!alpha !sh4 !sparc64 !hurd-any], xdg-dbus-proxy [!alpha !sh4 !sparc64 !hurd-any], libseccomp-dev [!alpha !sh4 !sparc64 !hurd-any], clang [amd64], cmake (>= 3.16), libglib2.0-dev, libharfbuzz-dev, libcairo2-dev, libfontconfig-dev, libfreetype-dev, libicu-dev, libgcrypt20-dev, libhyphen-dev, liblcms2-dev, libmanette-0.2-dev (>= 0.2.4) [linux-any], libxslt1-dev, libxml2-dev, libsoup2.4-dev, libgtk-3-dev, libsqlite3-dev, libsystemd-dev [linux-any], libgudev-1.0-dev [linux-any], libwoff-dev, libwpebackend-fdo-1.0-dev [linux-any], gperf, bison, flex, ruby:native, unifdef, libavif-dev, libjpeg-dev, libopenjp2-7-dev, libpng-dev, libtasn1-6-dev, libwebp-dev, libxt-dev, libgstreamer1.0-dev, libgstreamer-plugins-base1.0-dev, libgstreamer-plugins-bad1.0-dev, libenchant-2-dev, libsecret-1-dev, gobject-introspection, libgirepository1.0-dev, ninja-build, libegl-dev, libgl-dev, libgles-dev"
 	],
 	"Build-Depends-Indep": [
 		"jdupes"
 	],
 	"Checksums-Sha256": [
-		"47942440a6fd0228834590834257e0d8d429628bfc343a5f3b901af33f932ab4 4007 webkit2gtk_2.42.2-1~deb11u1.dsc 5720aa3e8627f1b9f63252187d4df0f8233ae71d697b1796ebfbe5ca750bd118 32020280 webkit2gtk_2.42.2.orig.tar.xz 16cea3c19380dc919043520248f819916a53a53b6991fc90de7be2c2b8dfaa28 195 webkit2gtk_2.42.2.orig.tar.xz.asc f99b6501ae842d9df9361de307f8713ae188d9effe8bb065dc9599dfdbdd5624 87152 webkit2gtk_2.42.2-1~deb11u1.debian.tar.xz"
+		"0512c8f9a1db616eb313279aebda4c5e17265c5b1e7bf349fabfe7cc5a149173 3929 webkit2gtk_2.42.3-1~deb11u1.dsc 0a1a4630045628b3a6fe95da72dc47852cff20d66be1ac6fd0d669c88c13d8e2 32023120 webkit2gtk_2.42.3.orig.tar.xz 350b80ec3e4adccdd0d154916f05b5b1bd793af7432d086f57e52eed03ca71d5 195 webkit2gtk_2.42.3.orig.tar.xz.asc 6ef0d0d0df6118ea70fe8b4cdc6b811348d7de2308b8a7efa8628313aaaa7d1e 85512 webkit2gtk_2.42.3-1~deb11u1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/updates/main/w/webkit2gtk"
@@ -51,6 +51,6 @@
 		"https://salsa.debian.org/webkit-team/webkit.git"
 	],
 	"Version": [
-		"2.42.2-1~deb11u1"
+		"2.42.3-1~deb11u1"
 	]
 }
