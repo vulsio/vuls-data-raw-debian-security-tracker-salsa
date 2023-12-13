@@ -6,16 +6,16 @@
 		"devscripts"
 	],
 	"Build-Depends": [
-		"autodep8 <!nocheck>, bash-completion, black <!nocheck>, debhelper-compat (= 13), dh-sequence-python3, docbook-xsl, dpkg-dev (>= 1.19.1), faketime <!nocheck>, file <!nocheck>, git (>= 1:2.7.0) <!nocheck>, gnupg <!nocheck> | gnupg2 <!nocheck>, help2man, isort <!nocheck>, libdistro-info-perl <!nocheck>, libdpkg-perl <!nocheck>, libfile-desktopentry-perl <!nocheck>, libfile-dirlist-perl <!nocheck>, libfile-homedir-perl <!nocheck>, libfile-touch-perl <!nocheck>, libfile-which-perl <!nocheck>, libgit-wrapper-perl <!nocheck>, libgitlab-api-v4-perl (>= 0.13) <!nocheck>, libipc-run-perl <!nocheck>, libjson-perl <!nocheck>, liblist-compare-perl <!nocheck>, libmoo-perl <!nocheck>, libstring-shellquote-perl <!nocheck>, libtest-output-perl <!nocheck>, libtimedate-perl <!nocheck>, libtry-tiny-perl <!nocheck>, liburi-perl <!nocheck>, libwww-perl <!nocheck>, lsb-release <!nocheck>, mozilla-devscripts <!nocheck>, perl:any, perltidy <!nocheck>, pkg-config, po4a, pylint (>= 2.2.2-2) <!nocheck> | pylint3 <!nocheck>, python3-all:any, python3-apt <!nocheck>, python3-debian <!nocheck>, python3-flake8 <!nocheck>, python3-magic <!nocheck>, python3-pycurl <!nocheck>, python3-pyftpdlib <!nocheck>, python3-requests <!nocheck>, python3-setuptools, python3-unidiff <!nocheck>, python3-xdg <!nocheck>, shunit2 <!nocheck>, subversion [!i386] <!nocheck>, unzip <!nocheck>, wdiff <!nocheck>, xsltproc, xz-utils <!nocheck>, zip <!nocheck>, zstd <!nocheck>"
+		"autodep8 <!nocheck>, bash-completion, black <!nocheck>, debhelper-compat (= 13), dh-sequence-python3, docbook-xsl, dpkg-dev (>= 1.19.1), faketime <!nocheck>, file <!nocheck>, git (>= 1:2.7.0) <!nocheck>, gnupg <!nocheck> | gnupg2 <!nocheck>, help2man, isort <!nocheck>, libdistro-info-perl <!nocheck>, libdpkg-perl <!nocheck>, libfile-desktopentry-perl <!nocheck>, libfile-dirlist-perl <!nocheck>, libfile-homedir-perl <!nocheck>, libfile-touch-perl <!nocheck>, libfile-which-perl <!nocheck>, libgit-wrapper-perl <!nocheck>, libgitlab-api-v4-perl (>= 0.13) <!nocheck>, libipc-run-perl <!nocheck>, libjson-perl <!nocheck>, liblist-compare-perl <!nocheck>, libmoo-perl <!nocheck>, libstring-shellquote-perl <!nocheck>, libtest-output-perl <!nocheck>, libtimedate-perl <!nocheck>, libtry-tiny-perl <!nocheck>, liburi-perl <!nocheck>, libwww-perl <!nocheck>, lsb-release <!nocheck>, perl:any, perltidy <!nocheck>, pkg-config, po4a, pylint (>= 2.2.2-2) <!nocheck> | pylint3 <!nocheck>, python3-all:any, python3-apt <!nocheck>, python3-debian <!nocheck>, python3-flake8 <!nocheck>, python3-magic <!nocheck>, python3-pycurl <!nocheck>, python3-pyftpdlib <!nocheck>, python3-requests <!nocheck>, python3-setuptools, python3-unidiff <!nocheck>, python3-xdg <!nocheck>, shunit2 <!nocheck>, subversion [!i386] <!nocheck>, unzip <!nocheck>, wdiff <!nocheck>, xsltproc, xz-utils <!nocheck>, zip <!nocheck>, zstd <!nocheck>"
 	],
 	"Checksums-Sha256": [
-		"2a0984cc84aad33cc47145ee06c76546f48cf87205b10f8cf2c9824ef6b09b34 3384 devscripts_2.23.6.dsc 358b6072348954eca333120801bf7d7a7eeb1e917224e6f49c0c68dd9f1854b1 991208 devscripts_2.23.6.tar.xz"
+		"e71a311476fbcae481b137a2eca7911c35c0df98f66e8a058849b1531c5104a5 3340 devscripts_2.23.7.dsc 9ce9e5135472d8647e2ffb56655e00391e8e99aa7a4a8ae605cf0e1ffd9f3609 999076 devscripts_2.23.7.tar.xz"
 	],
 	"Directory": [
 		"pool/main/d/devscripts"
 	],
 	"Files": [
-		"8b476dfe46d4907b23bca2af3f348221 3384 devscripts_2.23.6.dsc 6b67898d0e6843ea24338e42621eb60f 991208 devscripts_2.23.6.tar.xz"
+		"7a7f1314bbc96b7f4c8724f7f2fb25ca 3340 devscripts_2.23.7.dsc 317055a6c78376e5ad4fd6cdea901c34 999076 devscripts_2.23.7.tar.xz"
 	],
 	"Format": [
 		"3.0 (native)"
@@ -42,7 +42,7 @@
 		"autopkgtest"
 	],
 	"Testsuite-Triggers": [
-		"apt, build-essential, debhelper, fakeroot, faketime, git, gnupg, libdistro-info-perl, libdpkg-perl, libgitlab-api-v4-perl, libipc-run-perl, libjson-perl, libtest-output-perl, libwww-perl, mozilla-devscripts, perl, python3-debian, python3-pyftpdlib, shunit2, subversion, wdiff, zip, zstd"
+		"apt, build-essential, debhelper, fakeroot, faketime, git, gnupg, libdistro-info-perl, libdpkg-perl, libgitlab-api-v4-perl, libipc-run-perl, libjson-perl, libtest-output-perl, libwww-perl, perl, python3-debian, python3-pyftpdlib, shunit2, subversion, unzip, wdiff, zip, zstd"
 	],
 	"Uploaders": [
 		"Mattia Rizzolo <mattia@debian.org>, Benjamin Drung <bdrung@debian.org>,"
@@ -54,6 +54,6 @@
 		"https://salsa.debian.org/debian/devscripts.git"
 	],
 	"Version": [
-		"2.23.6"
+		"2.23.7"
 	]
 }
