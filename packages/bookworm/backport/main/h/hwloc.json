@@ -9,13 +9,13 @@
 		"autoconf2.13"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 12), dh-exec, libltdl-dev [!gnu-any-any], valgrind-if-available, libcairo2-dev, libx11-dev, libxml2-dev, libxml2-utils <!nocheck>, libncurses-dev, libnuma-dev [linux-any] <!nocheck>, libxnvctrl-dev, libpciaccess-dev, libudev-dev [linux-any], pkg-config, ocl-icd-opencl-dev [!hurd-any] | opencl-dev, opencl-headers, autoconf (>= 2.63), dpkg-dev (>= 1.16)"
+		"debhelper-compat (= 12), dh-exec, libltdl-dev [!gnu-any-any] <!pkg.hwloc.minimum>, valgrind-if-available <!pkg.hwloc.minimum>, libcairo2-dev <!pkg.hwloc.minimum>, libx11-dev <!pkg.hwloc.minimum>, libxml2-dev <!pkg.hwloc.minimum>, libxml2-utils <!nocheck !pkg.hwloc.minimum>, libncurses-dev <!pkg.hwloc.minimum>, libnuma-dev [linux-any] <!nocheck !pkg.hwloc.minimum>, libxnvctrl-dev <!pkg.hwloc.minimum>, libpciaccess-dev <!pkg.hwloc.minimum>, libudev-dev [linux-any] <!pkg.hwloc.minimum>, pkg-config, ocl-icd-opencl-dev [!hurd-any] <!pkg.hwloc.minimum> | opencl-dev <!pkg.hwloc.minimum>, opencl-headers <!pkg.hwloc.minimum>, autoconf (>= 2.63), dpkg-dev (>= 1.16)"
 	],
 	"Build-Depends-Indep": [
-		"doxygen-latex, transfig"
+		"doxygen-latex <!nodoc>, transfig <!nodoc>"
 	],
 	"Checksums-Sha256": [
-		"1f48d1ba83856ffb9e13abd73f23128c0d00f49224f43fd8ab072c941ba5610e 2746 hwloc_2.9.3-1~bpo12+1.dsc 5c4062ce556f6d3451fc177ffb8673a2120f81df6835dea6a21a90fbdfff0dec 6986142 hwloc_2.9.3.orig.tar.bz2 ab16dd355ffa369d62eea4a37372cab11d43aec6aa751fbb8698046c6c741e38 13396 hwloc_2.9.3-1~bpo12+1.debian.tar.xz"
+		"10071b5ff9eeaf37df0db08b5b19782ac2740b9b5680aae0b41bfa707295192b 3101 hwloc_2.10.0-1~bpo12+1.dsc 79d7f0516d2ac462e3718d2df37837a632f52e359657fa0fca6373103a35df13 2633391 hwloc_2.10.0.orig.tar.bz2 2b804d297cff2e698cc8e7ef97d248ffaec08ad2c221b15c47b6e4409c0d963b 13480 hwloc_2.10.0-1~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/h/hwloc"
@@ -33,7 +33,7 @@
 		"hwloc"
 	],
 	"Package-List": [
-		"hwloc deb admin optional arch=any hwloc-nox deb admin optional arch=any libhwloc-common deb libs optional arch=all libhwloc-dev deb libdevel optional arch=any libhwloc-doc deb doc optional arch=all libhwloc-plugins deb libs optional arch=any libhwloc15 deb libs optional arch=any"
+		"hwloc deb admin optional arch=any profile=!pkg.hwloc.minimum hwloc-nox deb admin optional arch=any libhwloc-common deb libs optional arch=all libhwloc-dev deb libdevel optional arch=any libhwloc-doc deb doc optional arch=all profile=!nodoc libhwloc-plugins deb libs optional arch=any profile=!pkg.hwloc.minimum libhwloc15 deb libs optional arch=any"
 	],
 	"Priority": [
 		"optional"
@@ -57,6 +57,6 @@
 		"https://salsa.debian.org/debian/hwloc.git"
 	],
 	"Version": [
-		"2.9.3-1~bpo12+1"
+		"2.10.0-1~bpo12+1"
 	]
 }
