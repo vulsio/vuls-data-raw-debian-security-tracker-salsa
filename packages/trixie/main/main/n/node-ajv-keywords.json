@@ -6,16 +6,16 @@
 		"node-ajv-keywords"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), dh-sequence-nodejs, chai <!nocheck>, mocha <!nocheck>, node-ajv (>= 6.9.1~), node-coveralls <!nocheck>, node-dot, node-glob, node-istanbul <!nocheck>, node-js-beautify <!nocheck>, node-uuid <!nocheck>"
+		"chai <!nocheck>, debhelper-compat (= 13), dh-sequence-nodejs (>= 0.9.82~), jest <!nocheck>, node-ajv (>= 8~), node-ansi-regex <!nocheck>, node-ansi-styles <!nocheck>, node-assertion-error <!nocheck>, node-babel7 <!nocheck>, node-balanced-match <!nocheck>, node-brace-expansion <!nocheck>, node-braces <!nocheck>, node-chai <!nocheck>, node-chalk <!nocheck>, node-check-error <!nocheck>, node-color-convert <!nocheck>, node-color-name <!nocheck>, node-concat-map <!nocheck>, node-deep-eql <!nocheck>, node-emittery <!nocheck>, node-escape-string-regexp <!nocheck>, node-fast-deep-equal (>= 3~), node-fill-range <!nocheck>, node-get-func-name <!nocheck>, node-graceful-fs <!nocheck>, node-has-flag <!nocheck>, node-inflight <!nocheck>, node-inherits <!nocheck>, node-is-number <!nocheck>, node-js-tokens <!nocheck>, node-json-schema-traverse <!nocheck>, node-lodash <!nocheck>, node-lru-cache <!nocheck>, node-micromatch <!nocheck>, node-minimatch <!nocheck>, node-natural-compare <!nocheck>, node-once <!nocheck>, node-path-is-absolute <!nocheck>, node-pathval <!nocheck>, node-picomatch <!nocheck>, node-react-is <!nocheck>, node-require-from-string <!nocheck>, node-semver <!nocheck>, node-slash <!nocheck>, node-source-map <!nocheck>, node-source-map-support <!nocheck>, node-stack-utils <!nocheck>, node-supports-color <!nocheck>, node-to-fast-properties <!nocheck>, node-to-regex-range <!nocheck>, node-ts-jest <!nocheck>, node-type-detect <!nocheck>, node-typescript, node-uri-js, node-uuid <!nocheck>, node-wrappy <!nocheck>, node-yallist <!nocheck>, ts-jest <!nocheck>"
 	],
 	"Checksums-Sha256": [
-		"4d4b58e4343a15695069eea34cde5d2dc97d23719f31fdceee1e0b1339996558 2267 node-ajv-keywords_3.5.2-2.dsc 18a868d66d504430bc705161a320c1f8d2153f8efcfd9d6651fb0ba3e64764c5 29541 node-ajv-keywords_3.5.2.orig.tar.gz 53e8bf6f4241690e1f47ea908d382f1735ee7a3f2adfc7445044ea9c9063df28 8964 node-ajv-keywords_3.5.2-2.debian.tar.xz"
+		"44a491ff913812a09dd136975b4f302468bc9327f798f71c0bb17fbe7fd9bb90 3620 node-ajv-keywords_5.1.0-4.dsc b22f7ea049e4298122eae9b950ba5ef2f3d9d11ed90f4c5a8c5b54d2e22f8586 27494 node-ajv-keywords_5.1.0.orig.tar.gz a063773ccc5fe7bc45bae2f3f1dcd7839c67f3ab16e6b66071f18977eabe85ff 10140 node-ajv-keywords_5.1.0-4.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/n/node-ajv-keywords"
 	],
 	"Files": [
-		"c4b1a2a8a69d853271fcbb66f3eb5c1a 2267 node-ajv-keywords_3.5.2-2.dsc 27cc0768acb0e199fef131ed2b6d63bc 29541 node-ajv-keywords_3.5.2.orig.tar.gz a538a43a587784d6078f1c579783617c 8964 node-ajv-keywords_3.5.2-2.debian.tar.xz"
+		"d8ee32487b7bbced87df938d945c4780 3620 node-ajv-keywords_5.1.0-4.dsc bed1b81ba92c666101c0f4c7e046eda7 27494 node-ajv-keywords_5.1.0.orig.tar.gz d1080b59a9a5a50ef6ad5eca21f25146 10140 node-ajv-keywords_5.1.0-4.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -39,7 +39,7 @@
 		"javascript"
 	],
 	"Standards-Version": [
-		"4.6.0"
+		"4.6.2"
 	],
 	"Testsuite": [
 		"autopkgtest-pkg-nodejs"
@@ -54,6 +54,6 @@
 		"https://salsa.debian.org/js-team/node-ajv-keywords.git"
 	],
 	"Version": [
-		"3.5.2-2"
+		"5.1.0-4"
 	]
 }
