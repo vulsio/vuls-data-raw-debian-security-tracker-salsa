@@ -1,0 +1,50 @@
+{
+	"header": {
+		"line": "CVE-2023-XXXX [SMTP smuggling attack]",
+		"name": "TEMP-1059230-772819",
+		"description": "[SMTP smuggling attack]"
+	},
+	"annotations": [
+		{
+			"line": "\t- postfix <unfixed> (bug #1059230)",
+			"type": "package",
+			"package": "postfix",
+			"kind": "unfixed",
+			"flags": [
+				{
+					"bug": 1059230
+				}
+			]
+		},
+		{
+			"line": "\tNOTE: https://sec-consult.com/blog/detail/smtp-smuggling-spoofing-e-mails-worldwide/",
+			"type": "NOTE",
+			"description": "https://sec-consult.com/blog/detail/smtp-smuggling-spoofing-e-mails-worldwide/"
+		},
+		{
+			"line": "\tNOTE: https://www.openwall.com/lists/oss-security/2023/12/21/6",
+			"type": "NOTE",
+			"description": "https://www.openwall.com/lists/oss-security/2023/12/21/6"
+		},
+		{
+			"line": "\tNOTE: postfix: https://www.postfix.org/smtp-smuggling.html",
+			"type": "NOTE",
+			"description": "postfix: https://www.postfix.org/smtp-smuggling.html"
+		},
+		{
+			"line": "\tNOTE: postfix: https://www.mail-archive.com/postfix-users@postfix.org/msg100901.html",
+			"type": "NOTE",
+			"description": "postfix: https://www.mail-archive.com/postfix-users@postfix.org/msg100901.html"
+		},
+		{
+			"line": "\tNOTE: postfix: Short-term Mitigation: smtpd_forbid_unauth_pipelining = yes",
+			"type": "NOTE",
+			"description": "postfix: Short-term Mitigation: smtpd_forbid_unauth_pipelining = yes"
+		},
+		{
+			"line": "\tTODO: track other major mailserver implementations",
+			"type": "TODO",
+			"description": "track other major mailserver implementations"
+		}
+	]
+}
