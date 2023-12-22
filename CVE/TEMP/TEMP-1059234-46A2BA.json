@@ -1,15 +1,20 @@
 {
 	"header": {
 		"line": "CVE-2023-XXXX [RUSTSEC-2023-0075]",
-		"name": "TEMP-0000000-46A2BA",
+		"name": "TEMP-1059234-46A2BA",
 		"description": "[RUSTSEC-2023-0075]"
 	},
 	"annotations": [
 		{
-			"line": "\t- rust-unsafe-libyaml <unfixed>",
+			"line": "\t- rust-unsafe-libyaml <unfixed> (bug #1059234)",
 			"type": "package",
 			"package": "rust-unsafe-libyaml",
-			"kind": "unfixed"
+			"kind": "unfixed",
+			"flags": [
+				{
+					"bug": 1059234
+				}
+			]
 		},
 		{
 			"line": "\tNOTE: https://rustsec.org/advisories/RUSTSEC-2023-0075.html",
