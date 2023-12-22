@@ -6,15 +6,40 @@
 	},
 	"annotations": [
 		{
-			"line": "\t- cpio <unfixed> (bug #1059163)",
+			"line": "\t- cpio 2.14+dfsg-1 (bug #1059163)",
 			"type": "package",
 			"package": "cpio",
-			"kind": "unfixed",
+			"kind": "fixed",
+			"version": "2.14+dfsg-1",
 			"flags": [
 				{
 					"bug": 1059163
 				}
 			]
+		},
+		{
+			"line": "\t[bookworm] - cpio <no-dsa> (Minor issue)",
+			"type": "package",
+			"release": "bookworm",
+			"package": "cpio",
+			"kind": "no-dsa",
+			"description": "Minor issue"
+		},
+		{
+			"line": "\t[bullseye] - cpio <no-dsa> (Minor issue)",
+			"type": "package",
+			"release": "bullseye",
+			"package": "cpio",
+			"kind": "no-dsa",
+			"description": "Minor issue"
+		},
+		{
+			"line": "\t[buster] - cpio <not-affected> (Partial CVE-2015-1197 patch revert not applied)",
+			"type": "package",
+			"release": "buster",
+			"package": "cpio",
+			"kind": "not-affected",
+			"description": "Partial CVE-2015-1197 patch revert not applied"
 		},
 		{
 			"line": "\tNOTE: https://www.openwall.com/lists/oss-security/2023/12/21/8",
