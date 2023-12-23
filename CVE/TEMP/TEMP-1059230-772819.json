@@ -6,10 +6,11 @@
 	},
 	"annotations": [
 		{
-			"line": "\t- postfix <unfixed> (bug #1059230)",
+			"line": "\t- postfix 3.8.4-1 (bug #1059230)",
 			"type": "package",
 			"package": "postfix",
-			"kind": "unfixed",
+			"kind": "fixed",
+			"version": "3.8.4-1",
 			"flags": [
 				{
 					"bug": 1059230
@@ -40,6 +41,16 @@
 			"line": "\tNOTE: postfix: Short-term Mitigation: smtpd_forbid_unauth_pipelining = yes",
 			"type": "NOTE",
 			"description": "postfix: Short-term Mitigation: smtpd_forbid_unauth_pipelining = yes"
+		},
+		{
+			"line": "\tNOTE: postfix: Long-term fix with new (optional) feature that is disabled by default:",
+			"type": "NOTE",
+			"description": "postfix: Long-term fix with new (optional) feature that is disabled by default:"
+		},
+		{
+			"line": "\tNOTE: New setting: smtpd_forbid_bare_newline = yes",
+			"type": "NOTE",
+			"description": "New setting: smtpd_forbid_bare_newline = yes"
 		},
 		{
 			"line": "\tNOTE: https://www.openwall.com/lists/oss-security/2023/12/22/3",
