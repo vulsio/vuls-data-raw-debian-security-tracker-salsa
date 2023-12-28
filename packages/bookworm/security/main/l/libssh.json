@@ -6,13 +6,13 @@
 		"libssh-4, libssh-gcrypt-4, libssh-dev, libssh-gcrypt-dev, libssh-doc"
 	],
 	"Build-Depends": [
-		"cmake (>= 2.8.5), debhelper-compat (= 12), libcmocka-dev, libgcrypt-dev, libkrb5-dev | heimdal-dev, libssl-dev, libz-dev, openssh-client, openssh-server, pkg-config, python3:any"
+		"cmake (>= 2.8.5), debhelper-compat (= 12), libcmocka-dev <!nocheck>, libgcrypt-dev, libkrb5-dev | heimdal-dev, libssl-dev, zlib1g-dev | libz-dev, openssh-client <!nocheck>, openssh-server <!nocheck>, pkg-config, python3:any <!nocheck>"
 	],
 	"Build-Depends-Indep": [
 		"doxygen <!nodoc>, graphviz <!nodoc>"
 	],
 	"Checksums-Sha256": [
-		"e987b8ab8f35fc3a13b65138cedf4588071b3b70fe4d114d7e91a7c36392dcb8 2476 libssh_0.9.8-0+deb11u1.dsc 9f834b732341d428d67bbe835b7d10ae97ccf25d6f5bd0288fa51ae683f2e7cd 508168 libssh_0.9.8.orig.tar.xz 65638ae253e1e76bc3e1d310a55951d2893da2b9b1af068cb45dfee7e68938af 29908 libssh_0.9.8-0+deb11u1.debian.tar.xz"
+		"82ba2e258448ae1b3287b4ee6f5b5fb02a74b87593635fb0308fadd89d214602 2774 libssh_0.10.6-0+deb12u1.dsc 1861d498f5b6f1741b6abc73e608478491edcf9c9d4b6630eef6e74596de9dc1 561036 libssh_0.10.6.orig.tar.xz 140420406d7796548b0beaf736e73864c32291787cf2bd3983fdbc41741494ae 833 libssh_0.10.6.orig.tar.xz.asc 1631c4e6760611bb8ada21e2de47bd56f19615e828f0a39a42c0d7de56188f27 30372 libssh_0.10.6-0+deb12u1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/updates/main/libs/libssh"
@@ -33,19 +33,19 @@
 		"libssh-4 deb libs optional arch=any libssh-dev deb libdevel optional arch=any libssh-doc deb doc optional arch=all profile=!nodoc libssh-gcrypt-4 deb libs optional arch=any libssh-gcrypt-dev deb libdevel optional arch=any"
 	],
 	"Priority": [
-		"extra"
+		"optional"
 	],
 	"Section": [
 		"libs"
 	],
 	"Standards-Version": [
-		"4.5.0"
+		"4.6.2"
 	],
 	"Testsuite": [
 		"autopkgtest"
 	],
 	"Testsuite-Triggers": [
-		"build-essential, libglib2.0-dev, openssh-client, valgrind"
+		"build-essential, libglib2.0-dev, openssh-client"
 	],
 	"Uploaders": [
 		"Mike Gabriel <sunweaver@debian.org>, Martin Pitt <mpitt@debian.org>"
@@ -57,6 +57,6 @@
 		"https://salsa.debian.org/debian/libssh.git"
 	],
 	"Version": [
-		"0.9.8-0+deb11u1"
+		"0.10.6-0+deb12u1"
 	]
 }
