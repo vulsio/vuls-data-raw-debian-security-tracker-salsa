@@ -12,7 +12,7 @@
 		"debhelper-compat (= 13), autoconf, automake, ca-certificates, dh-exec, groff-base, libbrotli-dev, libgnutls28-dev, libidn2-dev, libkrb5-dev, libldap2-dev, libnghttp2-dev, libpsl-dev, librtmp-dev, libssh-dev, libssh2-1-dev, libssl-dev, libtool, libzstd-dev, locales-all <!nocheck>, openssh-server <!nocheck>, python3:native <!nocheck>, python3-impacket <!nocheck>, gnutls-bin [amd64 arm64 armel armhf i386 mips64el mipsel s390x powerpc ppc64 riscv64] <!nocheck>, quilt, stunnel4 <!nocheck>, zlib1g-dev"
 	],
 	"Checksums-Sha256": [
-		"e63590e774b5e4118bddbed1d50b511545120045dd80a365d5f21fa974e19ecc 3076 curl_8.4.0-2~bpo12+1.dsc 816e41809c043ff285e8c0f06a75a1fa250211bbfb2dc0a037eeef39f1a9e427 4424232 curl_8.4.0.orig.tar.gz 904d8cb18dbc2b3d30087a73042bffe402ca8800e8ab32613aa97e0b225402af 488 curl_8.4.0.orig.tar.gz.asc a71ae1b62d8613b35ccac861bea61577701336b4c05be386adc0da195b7455d1 45372 curl_8.4.0-2~bpo12+1.debian.tar.xz"
+		"d1b6f257e34590fbd876b0b753cbe3a96bd64dc373d965193836994068e4720d 3149 curl_8.5.0-2~bpo12+1.dsc 05fc17ff25b793a437a0906e0484b82172a9f4de02be5ed447e0cab8c3475add 4372979 curl_8.5.0.orig.tar.gz e5c4311a86b03daea93290de17cf0e3b46e468a1d99bd5b9934d91af5409d378 488 curl_8.5.0.orig.tar.gz.asc d1aed2e02cd456141dd47a7efcbcd823bfd195538c9701e233f2f2805bb1abf6 48032 curl_8.5.0-2~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/c/curl"
@@ -24,7 +24,7 @@
 		"https://curl.se/"
 	],
 	"Maintainer": [
-		"Alessandro Ghedini <ghedo@debian.org>"
+		"Debian Curl Maintainers <team+curl@tracker.debian.org>"
 	],
 	"Package": [
 		"curl"
@@ -48,7 +48,7 @@
 		"@builddeps@, gcc, libc-dev, libcurl-dev, libldap-dev, pkgconf, slapd"
 	],
 	"Uploaders": [
-		"Samuel Henrique <samueloph@debian.org>, Sergio Durigan Junior <sergiodj@debian.org>"
+		"Carlos Henrique Lima Melara <charlesmelara@riseup.net>, Samuel Henrique <samueloph@debian.org>, Sergio Durigan Junior <sergiodj@debian.org>"
 	],
 	"Vcs-Browser": [
 		"https://salsa.debian.org/debian/curl"
@@ -57,6 +57,6 @@
 		"https://salsa.debian.org/debian/curl.git"
 	],
 	"Version": [
-		"8.4.0-2~bpo12+1"
+		"8.5.0-2~bpo12+1"
 	]
 }
