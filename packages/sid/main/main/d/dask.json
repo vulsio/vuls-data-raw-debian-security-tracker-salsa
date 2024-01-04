@@ -6,16 +6,16 @@
 		"python3-dask, python-dask-doc"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), dh-python, node-js-yaml <!nodoc>, pybuild-plugin-pyproject, python-asyncssh-doc <!nodoc>, python-pandas-doc <!nodoc>, python3-all, python3-cloudpickle <!nodoc>, python3-dask-sphinx-theme (>= 3.0.5-2) <!nodoc>, python3-fsspec, python3-importlib-metadata <!nodoc>, python3-ipython <!nodoc>, python3-numpydoc <!nodoc>, python3-pandas (>= 1.3) <!nodoc>, python3-partd <!nodoc>, python3-scipy <!nodoc>, python3-setuptools, python3-sphinx <!nodoc>, python3-sphinx-click <!nodoc>, python3-sphinx-copybutton <!nodoc>, python3-sphinx-design <!nodoc>, python3-sphinx-remove-toctrees <!nodoc>, python3-sphinx-tabs <!nodoc>, python3-toolz <!nodoc>, python3-versioneer, sphinx-common, tzdata-legacy"
+		"debhelper-compat (= 13), dh-python, node-js-yaml <!nodoc>, pybuild-plugin-pyproject, python-asyncssh-doc <!nodoc>, python-pandas-doc <!nodoc>, python3-all, python3-cloudpickle <!nodoc>, python3-dask-sphinx-theme (>= 3.0.5-2) <!nodoc>, python3-distributed (>= 2023.12.1) <!nodoc>, python3-fsspec, python3-importlib-metadata <!nodoc>, python3-ipython <!nodoc>, python3-numpydoc <!nodoc>, python3-pandas (>= 1.3) <!nodoc>, python3-partd <!nodoc>, python3-scipy <!nodoc>, python3-setuptools, python3-sphinx <!nodoc>, python3-sphinx-click <!nodoc>, python3-sphinx-copybutton <!nodoc>, python3-sphinx-design <!nodoc>, python3-sphinx-remove-toctrees <!nodoc>, python3-sphinx-tabs <!nodoc>, python3-toolz <!nodoc>, python3-versioneer, sphinx-common, tzdata-legacy"
 	],
 	"Checksums-Sha256": [
-		"4ba6e34418effb35e69ea828071c1d728007aa889d0c56c82bb53c188b15e7bb 3179 dask_2023.12.1+dfsg-1.dsc cbb5a2c6860116b2a08be2de3c01e30f3f47bbed172f53612fa6de94e0d1bd16 8223696 dask_2023.12.1+dfsg.orig.tar.xz b074edc6dda685625d3714a493bee74ed1015c9ffcc6caa5b7e1854e6d2c1b1b 45480 dask_2023.12.1+dfsg-1.debian.tar.xz"
+		"86ed4f082c0e63ff15c7b7e9ece5f9d6d97f347fd0a9bebac2778dd5e0128f21 3224 dask_2023.12.1+dfsg-2.dsc cbb5a2c6860116b2a08be2de3c01e30f3f47bbed172f53612fa6de94e0d1bd16 8223696 dask_2023.12.1+dfsg.orig.tar.xz e17d5ada59ebb4baaf9cf57766ba110bf907bb61658d60a1f63d47b07eeae33a 45504 dask_2023.12.1+dfsg-2.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/d/dask"
 	],
 	"Files": [
-		"121f784f222180d91fc21c9963858c93 3179 dask_2023.12.1+dfsg-1.dsc 7919a4c03b15eb4cb28a20ddb6e75bcb 8223696 dask_2023.12.1+dfsg.orig.tar.xz 9d8da02af70b5d8f856ded67541f9102 45480 dask_2023.12.1+dfsg-1.debian.tar.xz"
+		"a4f756b9f7836b6512b4224c0339256d 3224 dask_2023.12.1+dfsg-2.dsc 7919a4c03b15eb4cb28a20ddb6e75bcb 8223696 dask_2023.12.1+dfsg.orig.tar.xz d86c2709fd49634362cb11f2631c6876 45504 dask_2023.12.1+dfsg-2.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -57,6 +57,6 @@
 		"https://salsa.debian.org/python-team/packages/dask.git"
 	],
 	"Version": [
-		"2023.12.1+dfsg-1"
+		"2023.12.1+dfsg-2"
 	]
 }
