@@ -1,0 +1,62 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-soup3-sys-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native (>= 1.70) <!nocheck>, libstd-rust-dev <!nocheck>, librust-gio-sys-0.18+default-dev <!nocheck>, librust-glib-sys-0.18+default-dev <!nocheck>, librust-gobject-sys-0.18+default-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-system-deps-6+default-dev <!nocheck>, libsoup-3.0-dev, libgirepository1.0-dev, gir-rust-code-generator (>= 0.18), xmlstarlet, rustc (>= 1.70)"
+	],
+	"Checksums-Sha256": [
+		"dd950cbd0658b283f0a8e374624628344a97213b5b1481a942f714083eea4277 2636 rust-soup3-sys_0.5.0-2.dsc 7ebe8950a680a12f24f15ebe1bf70db7af98ad242d9db43596ad3108aab86c27 19781 rust-soup3-sys_0.5.0.orig.tar.gz 424a15adce7526fd87ba3539d4643fbf17166371a3b5a30a340647f431526d09 3940 rust-soup3-sys_0.5.0-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-soup3-sys"
+	],
+	"Files": [
+		"5cabefed7b5f5b52e0b4f73504e41420 2636 rust-soup3-sys_0.5.0-2.dsc abaa1fc46f8dbe6751d3065b1d67b755 19781 rust-soup3-sys_0.5.0.orig.tar.gz 5d9ee5e09fb176525786a803a8e2ae91 3940 rust-soup3-sys_0.5.0-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://gtk-rs.org"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-soup3-sys"
+	],
+	"Package-List": [
+		"librust-soup3-sys-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-shell-words-1+default-dev, librust-tempfile-3+default-dev"
+	],
+	"Uploaders": [
+		"Matthias Geiger <werdahias@riseup.net>, Arnaud Ferraris <aferraris@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/soup3-sys"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/soup3-sys]"
+	],
+	"Version": [
+		"0.5.0-2"
+	]
+}
