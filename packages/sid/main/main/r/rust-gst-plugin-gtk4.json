@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-gst-plugin-gtk4-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native (>= 1.70) <!nocheck>, libstd-rust-dev <!nocheck>, librust-async-channel-1+default-dev (>= 1.9-~~) <!nocheck>, librust-gst-plugin-version-helper-0.8+default-dev <!nocheck>, librust-gstreamer-0.21+default-dev <!nocheck>, librust-gstreamer-0.21+v1-16-dev <!nocheck>, librust-gstreamer-base-0.21+default-dev <!nocheck>, librust-gstreamer-video-0.21+default-dev <!nocheck>, librust-gtk4-0.7+default-dev <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"4ee2c03d1a8ae7a92fe8f3e4b0ddf4a8b7c82692f679069c8f7f7da6dbc141c1 2601 rust-gst-plugin-gtk4_0.11.3-1.dsc 551340110f16646449f27453598c22d7ab6b59960380175be097056dc00b2b7d 31157 rust-gst-plugin-gtk4_0.11.3.orig.tar.gz 5c632f60e31a64a548b0b24fcbe57c788a59714571bab38a5e7777d508b5699a 3072 rust-gst-plugin-gtk4_0.11.3-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-gst-plugin-gtk4"
+	],
+	"Files": [
+		"321d8a906654a232116225f1a58de24f 2601 rust-gst-plugin-gtk4_0.11.3-1.dsc 98c87054df2591974db28deac5f40b23 31157 rust-gst-plugin-gtk4_0.11.3.orig.tar.gz 8871b70033d721d7dff4c67e4b51109c 3072 rust-gst-plugin-gtk4_0.11.3-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-gst-plugin-gtk4"
+	],
+	"Package-List": [
+		"librust-gst-plugin-gtk4-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo"
+	],
+	"Uploaders": [
+		"Matthias Geiger <werdahias@riseup.net>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gst-plugin-gtk4"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/gst-plugin-gtk4]"
+	],
+	"Version": [
+		"0.11.3-1"
+	]
+}
