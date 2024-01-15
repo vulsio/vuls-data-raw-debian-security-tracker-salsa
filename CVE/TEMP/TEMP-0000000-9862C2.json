@@ -1,0 +1,38 @@
+{
+	"header": {
+		"line": "CVE-2024-XXXX [RUSTSEC-2023-0078]",
+		"name": "TEMP-0000000-9862C2",
+		"description": "[RUSTSEC-2023-0078]"
+	},
+	"annotations": [
+		{
+			"line": "\t- rust-tracing <unfixed>",
+			"type": "package",
+			"package": "rust-tracing",
+			"kind": "unfixed"
+		},
+		{
+			"line": "\t[bookworm] - rust-tracing <not-affected> (Vulnerable code not present)",
+			"type": "package",
+			"release": "bookworm",
+			"package": "rust-tracing",
+			"kind": "not-affected",
+			"description": "Vulnerable code not present"
+		},
+		{
+			"line": "\tNOTE: https://rustsec.org/advisories/RUSTSEC-2023-0078.html",
+			"type": "NOTE",
+			"description": "https://rustsec.org/advisories/RUSTSEC-2023-0078.html"
+		},
+		{
+			"line": "\tNOTE: https://github.com/tokio-rs/tracing/pull/2765",
+			"type": "NOTE",
+			"description": "https://github.com/tokio-rs/tracing/pull/2765"
+		},
+		{
+			"line": "\tNOTE: Introduced in https://github.com/tokio-rs/tracing/commit/20a1762b3fd5f1fafead198fd18e469c68683721",
+			"type": "NOTE",
+			"description": "Introduced in https://github.com/tokio-rs/tracing/commit/20a1762b3fd5f1fafead198fd18e469c68683721"
+		}
+	]
+}
