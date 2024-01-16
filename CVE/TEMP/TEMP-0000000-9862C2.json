@@ -6,10 +6,11 @@
 	},
 	"annotations": [
 		{
-			"line": "\t- rust-tracing <unfixed>",
+			"line": "\t- rust-tracing <not-affected> (Vulnerable code never in a Debian released version; bug #1060861)",
 			"type": "package",
 			"package": "rust-tracing",
-			"kind": "unfixed"
+			"kind": "not-affected",
+			"description": "Vulnerable code never in a Debian released version; bug #1060861"
 		},
 		{
 			"line": "\t[bookworm] - rust-tracing <not-affected> (Vulnerable code not present)",
@@ -28,6 +29,11 @@
 			"line": "\tNOTE: https://github.com/tokio-rs/tracing/pull/2765",
 			"type": "NOTE",
 			"description": "https://github.com/tokio-rs/tracing/pull/2765"
+		},
+		{
+			"line": "\tNOTE: Introduced by: https://github.com/tokio-rs/tracing/commit/3a65354837a0f176178e15787fc700dd6fa11a92 (tracing-0.1.38)",
+			"type": "NOTE",
+			"description": "Introduced by: https://github.com/tokio-rs/tracing/commit/3a65354837a0f176178e15787fc700dd6fa11a92 (tracing-0.1.38)"
 		},
 		{
 			"line": "\tNOTE: Fixed by: https://github.com/tokio-rs/tracing/commit/20a1762b3fd5f1fafead198fd18e469c68683721 (tracing-0.1.40)",
