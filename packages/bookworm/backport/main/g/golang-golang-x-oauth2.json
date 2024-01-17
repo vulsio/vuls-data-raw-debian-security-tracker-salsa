@@ -6,16 +6,13 @@
 		"golang-golang-x-oauth2-dev, golang-golang-x-oauth2-google-dev"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), dh-sequence-golang, golang-any (>= 2:1.17~), golang-golang-x-net-dev (>= 1:0.0+git20220624.1bab6f3)"
+		"debhelper-compat (= 13), dh-sequence-golang, golang-any (>= 2:1.18~), golang-github-google-go-cmp-dev (>= 0.5.9)"
 	],
 	"Checksums-Sha256": [
-		"5a5c4bd123de99c3a910e52f3b2aaf992445426be0a86ca32c1b7d0e8de569ed 1851 golang-golang-x-oauth2_0.3.0-1.dsc 8aab634abb9ff0c1560cb8bb9bd01e7413f59d1c8236c695f585d861349de79a 69044 golang-golang-x-oauth2_0.3.0.orig.tar.xz d653c348f8a4da05a62a2a77fc44188769a7e2a52dc636eef6b409a6bce83793 4280 golang-golang-x-oauth2_0.3.0-1.debian.tar.xz"
+		"a7a9f1a76d7f3b063e79967a76c74bc23c2ddefb19761e016ddb481e2e00b096 1854 golang-golang-x-oauth2_0.15.0-1~bpo12+1.dsc 4fa90f99be339725a53c2e850b1e4967e43af21d8fc7f1588ef19c4bd12799f2 74192 golang-golang-x-oauth2_0.15.0.orig.tar.xz 64becb0371b55edd2821a461da8ac55e84c663979d1ffc7ac1a7235d44d67aa6 4540 golang-golang-x-oauth2_0.15.0-1~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/g/golang-golang-x-oauth2"
-	],
-	"Extra-Source-Only": [
-		"yes"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -57,6 +54,6 @@
 		"https://salsa.debian.org/go-team/packages/golang-golang-x-oauth2.git"
 	],
 	"Version": [
-		"0.3.0-1"
+		"0.15.0-1~bpo12+1"
 	]
 }

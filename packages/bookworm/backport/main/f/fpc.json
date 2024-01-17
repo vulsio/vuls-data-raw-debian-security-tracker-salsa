@@ -1,0 +1,62 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"fpc-3.2.2, fpc-source-3.2.2, fp-compiler-3.2.2, fp-ide-3.2.2, fp-utils-3.2.2, fp-docs-3.2.2, fp-units-rtl-3.2.2, fp-units-base-3.2.2, fp-units-fcl-3.2.2, fp-units-fv-3.2.2, fp-units-gtk2-3.2.2, fp-units-db-3.2.2, fp-units-gfx-3.2.2, fp-units-net-3.2.2, fp-units-math-3.2.2, fp-units-misc-3.2.2, fp-units-multimedia-3.2.2, fp-units-i386-3.2.2, fp-units-wasm-3.2.2, fpc, fpc-source, fp-compiler, fp-ide, fp-utils, fp-docs, fp-units-rtl, fp-units-base, fp-units-fcl, fp-units-fv, fp-units-gtk2, fp-units-db, fp-units-gfx, fp-units-net, fp-units-math, fp-units-misc, fp-units-multimedia, fp-units-i386, fp-units-wasm"
+	],
+	"Build-Depends": [
+		"debhelper (>= 10~), dh-exec (>= 0.22), fp-compiler, fp-units-base, fp-units-fcl, fp-utils, ghostscript, help2man, libncurses-dev, mawk | awk, po-debconf, txt2man"
+	],
+	"Build-Depends-Indep": [
+		"hevea, rdfind, symlinks"
+	],
+	"Checksums-Sha256": [
+		"8ee280dc6af86971f8b1c5071c89759e7d40c02d5d595f6dc43d1e887175f7e2 3958 fpc_3.2.2+dfsg-32~bpo12+1.dsc 8534a754b643779919be78b396b386982f924c0c57a0b837609d1124313b123f 33357716 fpc_3.2.2+dfsg.orig.tar.xz f68560b5374b898ed9063ad4694b57f1ae549cdb54ecec7161035d4fa7623271 131652 fpc_3.2.2+dfsg-32~bpo12+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/f/fpc"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.freepascal.org/"
+	],
+	"Maintainer": [
+		"Pascal Packaging Team <pkg-pascal-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"fpc"
+	],
+	"Package-List": [
+		"fp-compiler deb devel optional arch=any fp-compiler-3.2.2 deb devel optional arch=any fp-docs deb doc optional arch=all fp-docs-3.2.2 deb doc optional arch=all fp-ide deb devel optional arch=all fp-ide-3.2.2 deb devel optional arch=any fp-units-base deb devel optional arch=any fp-units-base-3.2.2 deb devel optional arch=any fp-units-db deb devel optional arch=any fp-units-db-3.2.2 deb devel optional arch=any fp-units-fcl deb devel optional arch=any fp-units-fcl-3.2.2 deb devel optional arch=any fp-units-fv deb devel optional arch=any fp-units-fv-3.2.2 deb devel optional arch=any fp-units-gfx deb devel optional arch=any fp-units-gfx-3.2.2 deb devel optional arch=any fp-units-gtk2 deb devel optional arch=any fp-units-gtk2-3.2.2 deb devel optional arch=any fp-units-i386 deb devel optional arch=i386 fp-units-i386-3.2.2 deb devel optional arch=i386 fp-units-math deb devel optional arch=any fp-units-math-3.2.2 deb devel optional arch=any fp-units-misc deb devel optional arch=any fp-units-misc-3.2.2 deb devel optional arch=any fp-units-multimedia deb devel optional arch=any fp-units-multimedia-3.2.2 deb devel optional arch=any fp-units-net deb devel optional arch=any fp-units-net-3.2.2 deb devel optional arch=any fp-units-rtl deb devel optional arch=any fp-units-rtl-3.2.2 deb devel optional arch=any fp-units-wasm deb devel optional arch=any fp-units-wasm-3.2.2 deb devel optional arch=any fp-utils deb devel optional arch=all fp-utils-3.2.2 deb devel optional arch=any fpc deb devel optional arch=all fpc-3.2.2 deb devel optional arch=all fpc-source deb devel optional arch=all fpc-source-3.2.2 deb devel optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"binutils, build-essential, zlib1g-dev"
+	],
+	"Uploaders": [
+		"Abou Al Montacir <abou.almontacir@sfr.fr>, Paul Gevers <elbrus@debian.org>, Peter Michael Green <plugwash@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/pascal-team/fpc"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/pascal-team/fpc"
+	],
+	"Version": [
+		"3.2.2+dfsg-32~bpo12+1"
+	]
+}

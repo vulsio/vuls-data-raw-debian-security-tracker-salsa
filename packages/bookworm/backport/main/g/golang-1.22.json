@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"amd64 arm64 armel armhf i386 loong64 mips mips64el mipsel ppc64 ppc64el riscv64 s390x all"
+	],
+	"Binary": [
+		"golang-1.22-go, golang-1.22-src, golang-1.22-doc, golang-1.22"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), golang-go (>= 2:1.20~), netbase"
+	],
+	"Checksums-Sha256": [
+		"364daa981bbaf61d390c7747572444fa16d7750384e191f6e7b76cf6a35e2569 2946 golang-1.22_1.22~rc1-2~bpo12+1.dsc 9aecbb8ebae41b93ea26ef5b014296fbbe70a07630249c0d8a275df3bd4d26ea 27625151 golang-1.22_1.22~rc1.orig.tar.gz 666af12a188625be9268893443f1a84bc9b188746d7617d208c49027ecb63f6d 833 golang-1.22_1.22~rc1.orig.tar.gz.asc ea26cea0e50d146426a50a3b8226efc3fc09d74a723af3236966f04576cc7bda 37268 golang-1.22_1.22~rc1-2~bpo12+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/golang-1.22"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://go.dev/"
+	],
+	"Maintainer": [
+		"Debian Go Compiler Team <team+go-compiler@tracker.debian.org>"
+	],
+	"Package": [
+		"golang-1.22"
+	],
+	"Package-List": [
+		"golang-1.22 deb golang optional arch=all golang-1.22-doc deb doc optional arch=all golang-1.22-go deb golang optional arch=amd64,arm64,armel,armhf,i386,loong64,mips,mips64el,mipsel,ppc64,ppc64el,riscv64,s390x golang-1.22-src deb golang optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential"
+	],
+	"Uploaders": [
+		"Michael Stapelberg <stapelberg@debian.org>, Paul Tagliamonte <paultag@debian.org>, Tianon Gravi <tianon@debian.org>, Michael Hudson-Doyle <mwhudson@debian.org>, Dr. Tobias Quathamer <toddy@debian.org>, Anthony Fok <foka@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/go-team/compiler/golang/tree/golang-1.22"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/go-team/compiler/golang.git -b golang-1.22"
+	],
+	"Version": [
+		"1.22~rc1-2~bpo12+1"
+	]
+}

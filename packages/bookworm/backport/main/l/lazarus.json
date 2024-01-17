@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"lazarus-3.0, lazarus-src-3.0, lazarus-ide-3.0, lazarus-ide-gtk2-3.0, lazarus-ide-qt5-3.0, lcl-3.0, lcl-utils-3.0, lcl-units-3.0, lcl-nogui-3.0, lcl-gtk2-3.0, lcl-qt5-3.0, lazarus-doc-3.0, lazarus, lazarus-src, lazarus-ide, lazarus-ide-gtk2, lazarus-ide-qt5, lcl, lcl-utils, lcl-units, lcl-nogui, lcl-gtk2, lcl-qt5, lazarus-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 11~), fp-utils (>= 3.2.2), fpc (>= 3.2.2), fpc-source (>= 3.2.2), libgtk2.0-dev, libqt5pas-dev (>= 3.0), po-debconf, rdfind, symlinks"
+	],
+	"Checksums-Sha256": [
+		"fcba71f5292a754ae842a121bfd4738159d9aa756aba2a42ed9ef3bc05d00d52 2890 lazarus_3.0+dfsg1-5~bpo12+1.dsc f112c2de923e25d83d42b595fcb5afed086611338ffcf9d0971bc0ff111b5c21 32565416 lazarus_3.0+dfsg1.orig.tar.xz fa8a030b09b11a88646499a3b37af84114b82a0042a763fa8caffede3adeb9d4 67760 lazarus_3.0+dfsg1-5~bpo12+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/l/lazarus"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.lazarus-ide.org/"
+	],
+	"Maintainer": [
+		"Pascal Packaging Team <pkg-pascal-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"lazarus"
+	],
+	"Package-List": [
+		"lazarus deb devel optional arch=all lazarus-3.0 deb devel optional arch=all lazarus-doc deb doc optional arch=all lazarus-doc-3.0 deb doc optional arch=all lazarus-ide deb devel optional arch=all lazarus-ide-3.0 deb devel optional arch=any lazarus-ide-gtk2 deb devel optional arch=all lazarus-ide-gtk2-3.0 deb devel optional arch=any lazarus-ide-qt5 deb devel optional arch=all lazarus-ide-qt5-3.0 deb devel optional arch=any lazarus-src deb devel optional arch=all lazarus-src-3.0 deb devel optional arch=all lcl deb devel optional arch=any lcl-3.0 deb devel optional arch=any lcl-gtk2 deb devel optional arch=any lcl-gtk2-3.0 deb devel optional arch=any lcl-nogui deb devel optional arch=any lcl-nogui-3.0 deb devel optional arch=any lcl-qt5 deb devel optional arch=any lcl-qt5-3.0 deb devel optional arch=any lcl-units deb devel optional arch=any lcl-units-3.0 deb devel optional arch=any lcl-utils deb devel optional arch=all lcl-utils-3.0 deb devel optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"@builddeps@"
+	],
+	"Uploaders": [
+		"Abou Al Montacir <abou.almontacir@sfr.fr>, Paul Gevers <elbrus@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/pascal-team/lazarus"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/pascal-team/lazarus.git"
+	],
+	"Version": [
+		"3.0+dfsg1-5~bpo12+1"
+	]
+}

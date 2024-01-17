@@ -1,15 +1,15 @@
 {
 	"Architecture": [
-		"any"
+		"any all"
 	],
 	"Binary": [
-		"ausweisapp2"
+		"ausweisapp, ausweisapp2"
 	],
 	"Build-Depends": [
 		"cmake, debhelper-compat (= 12), libhttp-parser-dev, libpcsclite-dev, libqt6opengl6-dev, libqt6shadertools6-dev, libqt6svg6-dev, libqt6websockets6-dev, libssl-dev, libudev-dev, pkg-config, qt6-base-dev, qt6-base-private-dev, qt6-declarative-dev, qt6-scxml-dev, qt6-tools-dev"
 	],
 	"Checksums-Sha256": [
-		"34b33b7614cfa0c830e3de179892996fab8802d3ff961b79eecca90eec69655a 2169 ausweisapp2_1.26.7-2~bpo12+1.dsc 272f0fe11a51791cb55730991b6123dba0a151b67f39d41069b250c46b6a1983 11708844 ausweisapp2_1.26.7.orig.tar.gz b349d18c1ec96287f318c459e2f3ea1c037320820ac5c8a77a3b4bd4d343ddbe 9064 ausweisapp2_1.26.7-2~bpo12+1.debian.tar.xz"
+		"bab9d3edc5c611acdca16248147b04745045fa05051ab8bca461c709677db4b1 2217 ausweisapp2_2.0.1-1~bpo12+1.dsc 3443c39815c632c57cd1ce6bd07d5bf6485258080135ff8b7e6b58cfc568a1c7 9123033 ausweisapp2_2.0.1.orig.tar.gz ed26db416d9d7900dc3b622e8fea072d86f0bdfb56cad1f559cd19df6437d3a6 8228 ausweisapp2_2.0.1-1~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/a/ausweisapp2"
@@ -27,7 +27,7 @@
 		"ausweisapp2"
 	],
 	"Package-List": [
-		"ausweisapp2 deb utils optional arch=any"
+		"ausweisapp deb utils optional arch=any ausweisapp2 deb oldlibs optional arch=all"
 	],
 	"Priority": [
 		"optional"
@@ -45,6 +45,6 @@
 		"https://salsa.debian.org/debian/ausweisapp2.git"
 	],
 	"Version": [
-		"1.26.7-2~bpo12+1"
+		"2.0.1-1~bpo12+1"
 	]
 }
