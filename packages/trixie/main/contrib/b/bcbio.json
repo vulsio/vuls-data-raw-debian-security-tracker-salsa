@@ -1,0 +1,62 @@
+{
+	"Architecture": [
+		"all"
+	],
+	"Autobuild": [
+		"no"
+	],
+	"Binary": [
+		"python3-bcbio, bcbio"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-gffutils, python3-mock, python3-pandas, python3-pybedtools, python3-pysam, python3-pyvcf, python3-toolz, python3-tornado, python3-yaml, python3-scipy, python3-psutil, python3-joblib, atropos <!nocheck>, bcftools <!nocheck>, bedtools <!nocheck>, biobambam2 <!nocheck>, bowtie2 <!nocheck>, bwa <!nocheck>, cnvkit <!nocheck>, fastqc <!nocheck>, freebayes <!nocheck>, gffread <!nocheck>, grabix <!nocheck>, gsort <!nocheck>, hisat2 <!nocheck>, hts-nim-tools <!nocheck>, libfreetype6 <!nocheck>, lumpy-sv <!nocheck>, mosdepth <!nocheck>, multiqc <!nocheck>, perl <!nocheck>, libpicard-java <!nocheck>, libvcflib-tools <!nocheck>, picard-tools <!nocheck>, python3-biopython <!nocheck>, python3-cyvcf2 <!nocheck>, python3-geneimpacts <!nocheck>, python3-logbook <!nocheck>, python3-nose <!nocheck>, python3-requests <!nocheck>, python3-pytest <!nocheck>, python3-pytest-mock <!nocheck>, python3-seqcluster <!nocheck>, pythonpy <!nocheck>, rapmap <!nocheck>, rna-star <!nocheck>, r-base-core <!nocheck>, r-bioc-htsfilter <!nocheck>, r-bioc-degreport <!nocheck>, r-bioc-purecn <!nocheck>, r-bioc-summarizedexperiment <!nocheck>, r-cran-tidyverse <!nocheck>, r-bioc-titancna <!nocheck>, r-bioc-tximport <!nocheck>, r-other-wasabi <!nocheck>, salmon <!nocheck>, samblaster <!nocheck>, samtools <!nocheck>, seqan-apps <!nocheck>, seqtk <!nocheck>, snpeff <!nocheck>, subread <!nocheck>, tabix <!nocheck>, tophat-recondition <!nocheck>, umis <!nocheck>, vcfanno <!nocheck>, vt <!nocheck>, wham-align <!nocheck>, xonsh <!nocheck>, libhts-dev <!nocheck>, python3-sphinx"
+	],
+	"Checksums-Sha256": [
+		"7b09b4ddf228a932626d9ab8fe0bd21164f123bcf47e24b9783d2eb94c32da9d 3651 bcbio_1.2.9-2.dsc c372f24bc9bf2723d339483c1074d34fd6ca4f6cd448250b1160b882b4819d73 17558799 bcbio_1.2.9.orig.tar.gz 48bdbef76285dcb66bf33c8a7e86f13b7c3fa6f4cb75aca6c49684942c2f5785 14960 bcbio_1.2.9-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/contrib/b/bcbio"
+	],
+	"Files": [
+		"5b492d7159f7da391433d3c73b6b1a6a 3651 bcbio_1.2.9-2.dsc f905ba65f95528306afd35e77e3b7257 17558799 bcbio_1.2.9.orig.tar.gz 49a11974b87ddfb9462f7ca466af0fad 14960 bcbio_1.2.9-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/bcbio/bcbio-nextgen"
+	],
+	"Maintainer": [
+		"Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"bcbio"
+	],
+	"Package-List": [
+		"bcbio deb contrib/science optional arch=all python3-bcbio deb contrib/python optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"contrib/misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest-pkg-python"
+	],
+	"Uploaders": [
+		"Steffen Moeller <moeller@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/med-team/bcbio"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/med-team/bcbio.git"
+	],
+	"Version": [
+		"1.2.9-2"
+	]
+}
