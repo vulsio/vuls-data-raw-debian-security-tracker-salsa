@@ -6,10 +6,10 @@
 		"golang-github-mattn-go-xmpp-dev"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), dh-sequence-golang, golang-any, golang-golang-x-crypto-dev"
+		"debhelper-compat (= 13), dh-sequence-golang, golang-any (>= 2:1.21~), golang-golang-x-crypto-dev, golang-golang-x-net-dev"
 	],
 	"Checksums-Sha256": [
-		"832ca3d27e5ba2518746db56b5e80c014cc9fee152d84588e0f19da12fbf2c6f 1830 golang-github-mattn-go-xmpp_0.0~git20231111.31c7eb6-1~bpo12+1.dsc 4508bd796f7e6450fec6183a24f8dac01da17ec0a56527c8e5aa24a11cd7f8b4 17120 golang-github-mattn-go-xmpp_0.0~git20231111.31c7eb6.orig.tar.xz 6f49fb46f0ce5b09b12a1e5f75f66a15b2fef318ed85e99595c61ffb0bfca9eb 2832 golang-github-mattn-go-xmpp_0.0~git20231111.31c7eb6-1~bpo12+1.debian.tar.xz"
+		"1eee5428fdd5026fbb48ca508edbbdf1131ee48e2974b0c5f4e342575dd2bf9d 1844 golang-github-mattn-go-xmpp_0.0~git20240113.f8a2450-1~bpo12+1.dsc 7c04243ad089df0917de6ca75e1f4fa5143e5a8c6392dfb6404b40bbe133dff2 17876 golang-github-mattn-go-xmpp_0.0~git20240113.f8a2450.orig.tar.xz 0acfa6acc6a53be1606966c1100f15fae5919fc4f9769d935ae6e70ffe9dd92f 3088 golang-github-mattn-go-xmpp_0.0~git20240113.f8a2450-1~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/g/golang-github-mattn-go-xmpp"
@@ -18,10 +18,10 @@
 		"3.0 (quilt)"
 	],
 	"Go-Import-Path": [
-		"github.com/mattn/go-xmpp"
+		"github.com/xmppo/go-xmpp"
 	],
 	"Homepage": [
-		"https://github.com/mattn/go-xmpp"
+		"https://github.com/xmppo/go-xmpp"
 	],
 	"Maintainer": [
 		"Debian Go Packaging Team <team+pkg-go@tracker.debian.org>"
@@ -39,7 +39,7 @@
 		"misc"
 	],
 	"Standards-Version": [
-		"4.6.1"
+		"4.6.2"
 	],
 	"Testsuite": [
 		"autopkgtest-pkg-go"
@@ -54,6 +54,6 @@
 		"https://salsa.debian.org/go-team/packages/golang-github-mattn-go-xmpp.git"
 	],
 	"Version": [
-		"0.0~git20231111.31c7eb6-1~bpo12+1"
+		"0.0~git20240113.f8a2450-1~bpo12+1"
 	]
 }
