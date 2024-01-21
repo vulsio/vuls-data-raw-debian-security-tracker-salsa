@@ -6,16 +6,16 @@
 		"python3-maturin"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), dh-sequence-python3, librust-anyhow-dev (>= 1.0.63), librust-base64-dev (>= 0.13.0), librust-bytesize-dev (>= 1.0.1), librust-cargo-config2-dev (>= 0.1.4), librust-cargo-metadata-dev (>= 0.14.2), librust-cargo-options-dev (>= 0.5.2), librust-cbindgen-dev (>= 0.24.2), librust-cc-dev (>= 1.0.72), librust-clap-dev (>= 4.0.0), librust-configparser-dev (>= 3.0.0), librust-console-dev (>= 0.15), librust-dialoguer-dev (>= 0.10.2), librust-dirs-dev (>= 4.0.0), librust-dunce-dev (>= 1.0.2), librust-fat-macho-dev (>= 0.4.6), librust-flate2-dev (>= 1.0.18), librust-fs-err-dev (>= 2.5.0), librust-glob-dev (>= 0.3.0), librust-goblin-dev (>= 0.6), librust-indexmap-dev (>= 1.9.2), librust-ignore-dev (>= 0.4.18), librust-itertools-dev (>= 0.10), librust-lddtree-dev (>= 0.3.2), librust-normpath-dev (>= 0.3), librust-once-cell-dev (>= 1.7.2), librust-platform-info-dev (>= 1.0.0), librust-regex-dev (>= 1.7.0), librust-pep440-rs-dev, librust-pretty-assertions-dev, librust-pyproject-toml-dev (>= 0.3.0), librust-python-pkginfo-dev (>= 0.5.5), librust-rpassword-dev (>= 6.0.0), librust-rustls-dev (>= 0.20), librust-rustc-version-dev (>= 0.4.0), librust-rustversion-dev, librust-semver-dev (>= 1.0.13), librust-serde-dev (>= 1.0.141), librust-serde-json-dev (>= 1.0.80), librust-sha2-dev (>= 0.10.3), librust-tar-dev (>= 0.4.38), librust-target-lexicon-dev (>= 0.12.0), librust-tempfile-dev (>= 3.2.0), librust-textwrap-dev (>= 0.16.0), librust-thiserror-dev (>= 1.0.37), librust-time-dev (>= 0.3), librust-toml-edit-dev (>= 0.14.4), librust-tracing-dev (>= 0.1.36), librust-tracing-subscriber-dev (>= 0.3.15), librust-ureq-dev (>= 2.6.1), librust-zip-dev (>= 0.6.1), python3-all, python3-setuptools (>= 53.0.0), python3-setuptools-rust (>= 1.4.0), python3-toml (<< 0.11), python3-toml (>= 0.10.2), python3-tomli (>= 1.1.0), python3-wheel (>= 0.36.2)"
+		"debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, librust-anyhow-dev (>= 1.0.63), librust-base64-dev (>= 0.13.0), librust-bytesize-dev, librust-cargo-config2-dev, librust-cargo-metadata-dev (>= 0.14.2), librust-cargo-options-dev, librust-cbindgen-dev, librust-cc-dev (>= 1.0.72), librust-clap-dev (>= 4.0.0), librust-configparser-dev, librust-console-dev (>= 0.15), librust-dialoguer-dev, librust-dirs-dev (>= 4.0.0), librust-dunce-dev (>= 1.0.2), librust-expect-test-dev, librust-fat-macho-dev, librust-flate2-dev (>= 1.0.18), librust-fs-err-dev, librust-glob-dev, librust-goblin-dev (>= 0.6), librust-indexmap-dev (>= 1.9.2), librust-ignore-dev (>= 0.4.18), librust-itertools-dev (>= 0.10), librust-lddtree-dev, librust-normpath-dev, librust-once-cell-dev (>= 1.7.2), librust-platform-info-dev (>= 1.0.0), librust-path-slash-dev, librust-regex-dev (>= 1.7.0), librust-pep440-rs-dev, librust-pretty-assertions-dev, librust-pyproject-toml-dev, librust-python-pkginfo-dev, librust-rpassword-dev (>= 6.0.0), librust-rustls-dev, librust-rustc-version-dev (>= 0.4.0), librust-rustversion-dev, librust-semver-dev (>= 1.0.13), librust-serde-dev (>= 1.0.141), librust-serde-json-dev (>= 1.0.80), librust-sha2-dev (>= 0.10.3), librust-tar-dev (>= 0.4.38), librust-target-lexicon-dev (>= 0.12.0), librust-tempfile-dev (>= 3.2.0), librust-textwrap-dev (>= 0.16.0), librust-thiserror-dev (>= 1.0.37), librust-time-dev (>= 0.3), librust-toml-edit-dev, librust-tracing-dev, librust-tracing-subscriber-dev, librust-ureq-dev, librust-zip-dev (>= 0.6.1), python3-all, python3-setuptools (>= 53.0.0), python3-setuptools-rust (>= 1.4.0), python3-toml (<< 0.11), python3-toml (>= 0.10.2), python3-tomli, python3-wheel (>= 0.36.2)"
 	],
 	"Checksums-Sha256": [
-		"93138d1d4b60e91130592612a93ca1baca903d82b963bfc4ba48f305d0860cda 3517 python-maturin_1.1.0-1.dsc 030aa2d0189975d33dfeb2c8977b517fb2a7fbbdd1021439c4ff4b9dafc43b5e 414236 python-maturin_1.1.0.orig.tar.gz 71e4f0c1877f5a7f816c507b776a7904094ac754b3dfcf01f2f462871ea9b172 5152 python-maturin_1.1.0-1.debian.tar.xz"
+		"e766e45884cc76bfe2ec5a5587b3ea56b946c01c083218f50d11664093dbb9ab 3389 python-maturin_1.3.2-1.dsc c0df3e28ae04e716f38337cb10a66f17c0cac274969d7b3a5d1e187ee919f26b 440452 python-maturin_1.3.2.orig.tar.gz 65fdd648fe758cda2c20eaee6e3913ad3c2b0fcd6310d7bc2e42523438d42d40 5252 python-maturin_1.3.2-1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/p/python-maturin"
 	],
 	"Files": [
-		"b850e635036acf422ecf7cb479b7bc9c 3517 python-maturin_1.1.0-1.dsc 67a8f3802407da1bd6abc42c5e000b3a 414236 python-maturin_1.1.0.orig.tar.gz 6f6b04a0f90a1e936d5fe387e1af8f65 5152 python-maturin_1.1.0-1.debian.tar.xz"
+		"b16e924b83a5eacb6c919f5dfbdc4f90 3389 python-maturin_1.3.2-1.dsc f563afd164614d6b9189c1e70e622f94 440452 python-maturin_1.3.2.orig.tar.gz 0025f23b049056f1f9ca37d706930cbf 5252 python-maturin_1.3.2-1.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -39,7 +39,7 @@
 		"misc"
 	],
 	"Standards-Version": [
-		"4.6.0.1"
+		"4.6.2"
 	],
 	"Testsuite": [
 		"autopkgtest-pkg-python"
@@ -48,12 +48,12 @@
 		"Jelmer Vernooĳ <jelmer@debian.org>"
 	],
 	"Vcs-Browser": [
-		"https://salsa.debian.org/python-team/packages/python-maturin"
+		"https://salsa.debian.org/python-team/packages/maturin"
 	],
 	"Vcs-Git": [
-		"https://salsa.debian.org/python-team/packages/python-maturin.git"
+		"https://salsa.debian.org/python-team/packages/maturin.git"
 	],
 	"Version": [
-		"1.1.0-1"
+		"1.3.2-1"
 	]
 }
