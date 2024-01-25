@@ -1,0 +1,56 @@
+{
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"diaspora-installer, diaspora-installer-mysql, diaspora-common"
+	],
+	"Build-Depends": [
+		"debhelper (>= 10), gem2deb, po-debconf"
+	],
+	"Checksums-Sha256": [
+		"cd968ae930a9c80e746bbcb56383491035ff14e3ca1639e6fa74ea58605bc28f 2083 diaspora-installer_0.7.18.2+debian3~bpo12+1.dsc 55a9a222b659714a6d89ee87a04d5c008322c4fa5f215ba379cefa2ec7f4d200 61628 diaspora-installer_0.7.18.2+debian3~bpo12+1.tar.xz"
+	],
+	"Directory": [
+		"pool/main/d/diaspora-installer"
+	],
+	"Format": [
+		"3.0 (native)"
+	],
+	"Homepage": [
+		"https://wiki.debian.org/Diaspora"
+	],
+	"Maintainer": [
+		"Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"diaspora-installer"
+	],
+	"Package-List": [
+		"diaspora-common deb net optional arch=all diaspora-installer deb contrib/net optional arch=all diaspora-installer-mysql deb contrib/ruby optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Pirate Praveen <praveen@debian.org>, Joseph Nuthalapati <njoseph@riseup.net>, Ananthu C V <weepingclown@disroot.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/ruby-team/diaspora-installer"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/ruby-team/diaspora-installer.git"
+	],
+	"Version": [
+		"0.7.18.2+debian3~bpo12+1"
+	]
+}
