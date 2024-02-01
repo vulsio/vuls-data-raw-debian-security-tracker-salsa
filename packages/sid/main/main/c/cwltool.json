@@ -6,16 +6,16 @@
 		"cwltool"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), dh-sequence-python3, procps <!nocheck>, python3, python3-all, pybuild-plugin-pyproject, python3-setuptools, python3-setuptools-scm, python3-coloredlogs <!nocheck> <!nodoc>, python3-rdflib <!nocheck>, python3-rdflib-jsonld <!nocheck>, python3-schema-salad (>= 8.4.20230808163024) <!nocheck> <!nodoc>, python3-shellescape <!nocheck> <!nodoc>, python3-html5lib <!nocheck>, python3-sparqlwrapper <!nocheck>, python3-keepalive <!nocheck>, python3-ruamel.yaml <!nocheck>, python3-pytest (>> 6.2) <!nocheck>, python3-pytest-xdist <!nocheck>, python3-pytest-runner <!nocheck>, python3-pytest-mock <!nocheck>, python3-cwl-utils (>= 0.32) <!nocheck> <!nodoc>, python3-mypy-extensions <!nocheck> <!nodoc>, python3-psutil <!nocheck> <!nodoc>, python3-prov <!nocheck> <!nodoc>, python3-arcp <!nocheck>, python3-pydot <!nocheck> <!nodoc>, python3-argcomplete <!nocheck> <!nodoc>, python3-spython <!nocheck> <!nodoc>, nodejs <!nocheck>, jq <!nocheck>, help2man"
+		"debhelper-compat (= 13), dh-sequence-python3, procps <!nocheck>, python3, python3-all, pybuild-plugin-pyproject, python3-setuptools, python3-setuptools-scm, python3-coloredlogs <!nocheck> <!nodoc>, python3-rdflib (>> 6) <!nocheck>, python3-schema-salad (>= 8.4.20230808163024) <!nocheck> <!nodoc>, python3-shellescape <!nocheck> <!nodoc>, python3-html5lib <!nocheck>, python3-sparqlwrapper <!nocheck>, python3-keepalive <!nocheck>, python3-ruamel.yaml <!nocheck>, python3-pytest (>> 6.2) <!nocheck>, python3-pytest-xdist <!nocheck>, python3-pytest-runner <!nocheck>, python3-pytest-mock <!nocheck>, python3-cwl-utils (>= 0.32) <!nocheck> <!nodoc>, python3-mypy-extensions <!nocheck> <!nodoc>, python3-psutil <!nocheck> <!nodoc>, python3-prov <!nocheck> <!nodoc>, python3-arcp <!nocheck>, python3-pydot <!nocheck> <!nodoc>, python3-argcomplete <!nocheck> <!nodoc>, python3-spython <!nocheck> <!nodoc>, nodejs <!nocheck>, jq <!nocheck>, help2man"
 	],
 	"Checksums-Sha256": [
-		"18e3b7991bffbd30791f9c029ed65472b54f63d259b11454db5a6cda70677d5d 3089 cwltool_3.1.20240112164112-1.dsc d646c9b3baac8b3549ddd82df66073739e2281b160515f4c5faa46476c8a3446 1318037 cwltool_3.1.20240112164112.orig.tar.gz e62c7dd355f34e4f675d9a1c3d2cbd9a5b614b8461df66bff8a15d57f5f53dd2 52000 cwltool_3.1.20240112164112-1.debian.tar.xz"
+		"a9d7b433a6f3f1fe7db90f6c3d056a33f89c5c74b25c09be557b850b7ca0fac8 3062 cwltool_3.1.20240112164112-2.dsc d646c9b3baac8b3549ddd82df66073739e2281b160515f4c5faa46476c8a3446 1318037 cwltool_3.1.20240112164112.orig.tar.gz 9cf8aac030b02d14d3e535e6495e29803174a50bb98d91b9c1cb2f7e4e362ed9 52092 cwltool_3.1.20240112164112-2.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/c/cwltool"
 	],
 	"Files": [
-		"0d52fbbdae8e022909b9e0a01515fef0 3089 cwltool_3.1.20240112164112-1.dsc 031191e83694a1a13fedee607b17a281 1318037 cwltool_3.1.20240112164112.orig.tar.gz bc6c6bd96d1d4c78252e73f783b7f863 52000 cwltool_3.1.20240112164112-1.debian.tar.xz"
+		"93c67d80ee6e4f65a684197f31c8def7 3062 cwltool_3.1.20240112164112-2.dsc 031191e83694a1a13fedee607b17a281 1318037 cwltool_3.1.20240112164112.orig.tar.gz 160e94f7383fbd5e6e9e2729266a1dd9 52092 cwltool_3.1.20240112164112-2.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -57,6 +57,6 @@
 		"https://salsa.debian.org/med-team/cwltool.git"
 	],
 	"Version": [
-		"3.1.20240112164112-1"
+		"3.1.20240112164112-2"
 	]
 }
