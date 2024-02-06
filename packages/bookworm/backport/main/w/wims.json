@@ -1,0 +1,50 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"wims, wims-modules, flydraw"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), texlive-base, po-debconf, libgd-dev, autoconf, automake, shtool, bison, flex, apache2-dev, libwebservice-validator-html-w3c-perl, libwebservice-validator-css-w3c-perl, imagemagick | graphicsmagick-imagemagick-compat"
+	],
+	"Build-Depends-Indep": [
+		"node-js-beautify, terser, php"
+	],
+	"Checksums-Sha256": [
+		"3f65b8586a6646c5a89ed733ab3031dadeb5864cc3eed418556c70fb11413677 2242 wims_4.27a+dfsg1-3~bpo12+1.dsc b2c0d7dbb10ffd509fb53bc9f828a38eee50c455d6247d3350d41cfb83bc1ed7 50675910 wims_4.27a+dfsg1.orig.tar.gz a8757aab6e3a17b808a2b29ea807d03eeca8aa7e4d78f8b50426788a6beeb3cf 44580 wims_4.27a+dfsg1-3~bpo12+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/w/wims"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Georges Khaznadar <georgesk@debian.org>"
+	],
+	"Package": [
+		"wims"
+	],
+	"Package-List": [
+		"flydraw deb graphics optional arch=any wims deb web optional arch=any wims-modules deb web optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.0"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/science-team/wims.git"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/science-team/wims.git"
+	],
+	"Version": [
+		"2:4.27a+dfsg1-3~bpo12+1"
+	]
+}

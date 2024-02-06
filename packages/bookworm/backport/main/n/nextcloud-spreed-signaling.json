@@ -1,15 +1,15 @@
 {
 	"Architecture": [
-		"any"
+		"any all"
 	],
 	"Binary": [
-		"nextcloud-spreed-signaling"
+		"nextcloud-spreed-signaling, nextcloud-spreed-signaling-proxy, nextcloud-spreed-signaling-client, nextcloud-spreed-signaling-common"
 	],
 	"Build-Depends": [
 		"debhelper-compat (= 13), dh-exec, dh-golang, golang-any, golang-easyjson, golang-etcd-server-dev (>= 3.4), golang-github-dlintw-goconf-dev, golang-github-golang-jwt-jwt-dev, golang-github-google-uuid-dev, golang-github-gorilla-mux-dev, golang-github-gorilla-securecookie-dev, golang-github-mailru-easyjson-dev, golang-github-nats-io-go-nats-dev, golang-github-notedit-janus-go-dev, golang-github-oschwald-maxminddb-golang-dev, golang-github-pion-sdp-dev, golang-prometheus-client-dev, golang-websocket-dev, protoc-gen-go-grpc"
 	],
 	"Checksums-Sha256": [
-		"89c89e1ddcd4d631273d45141944dfc2bd12e859316bce110f198e76d410eb87 2771 nextcloud-spreed-signaling_1.2.2-1~bpo12+1.dsc 6379a757dc44655b8248e9d7aec11f9429c9b12072f384ee52bdecfea95dba8a 260711 nextcloud-spreed-signaling_1.2.2.orig.tar.gz 724315fa4caf7413c0591e1c6ca111b95062e0f76262355ba51b4c55c7ba25ad 16380 nextcloud-spreed-signaling_1.2.2-1~bpo12+1.debian.tar.xz"
+		"d09141138fe52f69323ebcb1dc8e2383c0eb6c1139eefd443a8dd32be196f570 3172 nextcloud-spreed-signaling_1.2.2-3~bpo12+1.dsc 6379a757dc44655b8248e9d7aec11f9429c9b12072f384ee52bdecfea95dba8a 260711 nextcloud-spreed-signaling_1.2.2.orig.tar.gz 671166dacd01f284f4ef16ec49a582569441ed56fd7b4a150d7e3b57c9be3a53 17668 nextcloud-spreed-signaling_1.2.2-3~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/n/nextcloud-spreed-signaling"
@@ -30,7 +30,7 @@
 		"nextcloud-spreed-signaling"
 	],
 	"Package-List": [
-		"nextcloud-spreed-signaling deb golang optional arch=any"
+		"nextcloud-spreed-signaling deb golang optional arch=any nextcloud-spreed-signaling-client deb golang optional arch=any nextcloud-spreed-signaling-common deb golang optional arch=all nextcloud-spreed-signaling-proxy deb golang optional arch=any"
 	],
 	"Priority": [
 		"optional"
@@ -45,7 +45,7 @@
 		"autopkgtest-pkg-go"
 	],
 	"Uploaders": [
-		"Dominik George <natureshadow@debian.org>"
+		"Mike Gabriel <sunweaver@debian.org>, Dominik George <natureshadow@debian.org>, Joachim Bauch <bauch@struktur.de>,"
 	],
 	"Vcs-Browser": [
 		"https://salsa.debian.org/go-team/packages/nextcloud-spreed-signaling"
@@ -54,6 +54,6 @@
 		"https://salsa.debian.org/go-team/packages/nextcloud-spreed-signaling.git"
 	],
 	"Version": [
-		"1.2.2-1~bpo12+1"
+		"1.2.2-3~bpo12+1"
 	]
 }

@@ -1,0 +1,53 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"libgensio-dev, libgensio6, python3-gensio, gensio-bin"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-python, swig, python3-dev, pkg-config, libssl-dev, libwrap0-dev, libopenipmi-dev (>= 2.0.27), libpam-dev, libsctp-dev, libavahi-client-dev, libglib2.0-dev, libudev-dev, libasound2-dev, pkg-kde-tools"
+	],
+	"Checksums-Sha256": [
+		"d3feda2272ba710e16540847a189960d6b88b15d236e68c442ac5f8306259f04 2277 gensio_2.8.2-3~bpo12+1.dsc 5cac546afd3106abdfb3eaba6c7b9eae1015fa2e93d994bd9537fff33fa413dc 886620 gensio_2.8.2.orig.tar.gz 964b406399375714b4720094894da7f873f5331d1a34ffaf49837a32785ef221 11688 gensio_2.8.2-3~bpo12+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/gensio"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/cminyard/gensio"
+	],
+	"Maintainer": [
+		"Marc Haber <mh+debian-packages@zugschlus.de>"
+	],
+	"Package": [
+		"gensio"
+	],
+	"Package-List": [
+		"gensio-bin deb libs optional arch=any libgensio-dev deb libdevel optional arch=any libgensio6 deb libs optional arch=any python3-gensio deb python optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Uploaders": [
+		"John Goerzen <jgoerzen@complete.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/gensio"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/gensio.git"
+	],
+	"Version": [
+		"2.8.2-3~bpo12+1"
+	]
+}
