@@ -6,10 +6,10 @@
 		"python3-slixmpp, python3-slixmpp-lib, python-slixmpp-doc"
 	],
 	"Build-Depends": [
-		"cython3, debhelper-compat (= 13), dh-python, gnupg, libidn-dev, python3-aiohttp, python3-all, python3-all-dev, python3-cryptography, python3-docutils, python3-emoji (>= 2.2.0~), python3-setuptools, python3-sphinx, python3-sphinx-autodoc-typehints"
+		"cython3, debhelper-compat (= 13), dh-python, furo, gnupg, libidn-dev, python3-aiohttp, python3-all, python3-all-dev, python3-cryptography, python3-docutils, python3-emoji (>= 2.2.0~), python3-setuptools, python3-sphinx, python3-sphinx-autodoc-typehints"
 	],
 	"Checksums-Sha256": [
-		"e3f6504c83e9a6f0c85010b32aebd4e489781292ebfd0369d49e553a2afcfc03 2397 slixmpp_1.8.4-3~bpo12+1.dsc 07cfc0f1f4c9aa1b56de66be72639d7c059eaa12c5844a7aab25bff6a917d37a 615701 slixmpp_1.8.4.orig.tar.gz f32f03534d4aa25c1a57658d4760d13391a7c4d45ba7fd3142870dfd5aa79617 6992 slixmpp_1.8.4-3~bpo12+1.debian.tar.xz"
+		"ac7b4cfcbcb07c2cf47764b2d66539306a1f5e65fa8bc582c370b4a00e21aec7 2424 slixmpp_1.8.5-1~bpo12+1.dsc e7f5c9275879788b6a9163a85281bde924faf871f508d07a0671a4668fb7d75f 622476 slixmpp_1.8.5.orig.tar.gz e88417845d8693c1687afff396314a978e033255ba18da41ad8cad5fea6d6a36 7236 slixmpp_1.8.5-1~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/s/slixmpp"
@@ -42,7 +42,7 @@
 		"autopkgtest"
 	],
 	"Testsuite-Triggers": [
-		"@builddeps@"
+		"@recommends@, python3-setuptools"
 	],
 	"Uploaders": [
 		"Tanguy Ortolo <tanguy+debian@ortolo.eu>, Martin <debacle@debian.org>"
@@ -54,6 +54,6 @@
 		"https://salsa.debian.org/xmpp-team/slixmpp.git"
 	],
 	"Version": [
-		"1.8.4-3~bpo12+1"
+		"1.8.5-1~bpo12+1"
 	]
 }
