@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-gix-pathspec-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native (>= 1.65) <!nocheck>, libstd-rust-dev <!nocheck>, librust-bitflags-2+default-dev <!nocheck>, librust-bstr-1+std-dev <!nocheck>, librust-gix-attributes-0.20+default-dev <!nocheck>, librust-gix-config-value-0.14+default-dev <!nocheck>, librust-gix-glob-0.14+default-dev <!nocheck>, librust-gix-path-0.10+default-dev <!nocheck>, librust-thiserror-1+default-dev <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"b4db4d31ba7137cfe6ed537f75cdb841832e3f852c92ce3ebaf8b6679d005e38 2591 rust-gix-pathspec_0.6.0-1.dsc 9cbd49750edb26b0a691e5246fc635fa554d344da825cd20fa9ee0da9c1b761f 16196 rust-gix-pathspec_0.6.0.orig.tar.gz bb62ad62b378026a2cc204e8e8e93992a89091ae5f97f80bec43dbf1daeaad6e 2888 rust-gix-pathspec_0.6.0-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-gix-pathspec"
+	],
+	"Files": [
+		"2d686b020ebfc8b01f08c009645226b2 2591 rust-gix-pathspec_0.6.0-1.dsc f7d3408df16663599e28da43acb5adb8 16196 rust-gix-pathspec_0.6.0.orig.tar.gz d90e87617aea0e2cd3809a4015873eef 2888 rust-gix-pathspec_0.6.0-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-gix-pathspec"
+	],
+	"Package-List": [
+		"librust-gix-pathspec-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-once-cell-1+default-dev, librust-serial-test-2+default-dev"
+	],
+	"Uploaders": [
+		"Alexander Kjäll <alexander.kjall@gmail.com>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gix-pathspec"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/gix-pathspec]"
+	],
+	"Version": [
+		"0.6.0-1"
+	]
+}
