@@ -6,16 +6,16 @@
 		"librust-zbus-dev"
 	],
 	"Build-Depends": [
-		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-async-broadcast-0.5+default-dev <!nocheck>, librust-async-executor-1+default-dev (>= 1.5.0-~~) <!nocheck>, librust-async-fs-1+default-dev (>= 1.6.0-~~) <!nocheck>, librust-async-io-1+default-dev (>= 1.13-~~) <!nocheck>, librust-async-lock-2+default-dev (>= 2.8-~~) <!nocheck>, librust-async-recursion-1+default-dev <!nocheck>, librust-async-task-4+default-dev (>= 4.3.0-~~) <!nocheck>, librust-async-trait-0.1+default-dev (>= 0.1.58-~~) <!nocheck>, librust-blocking-1+default-dev (>= 1.3-~~) <!nocheck>, librust-byteorder-1+default-dev (>= 1.4.3-~~) <!nocheck>, librust-derivative-2+default-dev (>= 2.2-~~) <!nocheck>, librust-enumflags2-0.7+default-dev (>= 0.7.7-~~) <!nocheck>, librust-enumflags2-0.7+serde-dev (>= 0.7.7-~~) <!nocheck>, librust-event-listener-2+default-dev (>= 2.5.3-~~) <!nocheck>, librust-futures-core-0.3+default-dev (>= 0.3.25-~~) <!nocheck>, librust-futures-sink-0.3+default-dev (>= 0.3.25-~~) <!nocheck>, librust-futures-util-0.3+io-dev (>= 0.3.25-~~) <!nocheck>, librust-futures-util-0.3+sink-dev (>= 0.3.25-~~) <!nocheck>, librust-futures-util-0.3+std-dev (>= 0.3.25-~~) <!nocheck>, librust-hex-0.4+default-dev (>= 0.4.3-~~) <!nocheck>, librust-nix-0.26+socket-dev <!nocheck>, librust-nix-0.26+uio-dev <!nocheck>, librust-once-cell-1+default-dev (>= 1.18-~~) <!nocheck>, librust-ordered-stream-0.2+default-dev <!nocheck>, librust-rand-0.8+default-dev (>= 0.8.5-~~) <!nocheck>, librust-serde-1+default-dev <!nocheck>, librust-serde-1+derive-dev <!nocheck>, librust-serde-repr-0.1+default-dev (>= 0.1.9-~~) <!nocheck>, librust-sha1-0.10+default-dev (>= 0.10.5-~~) <!nocheck>, librust-sha1-0.10+std-dev (>= 0.10.5-~~) <!nocheck>, librust-static-assertions-1+default-dev (>= 1.1.0-~~) <!nocheck>, librust-tracing-0.1+default-dev (>= 0.1.37-~~) <!nocheck>, librust-xdg-home-1+default-dev <!nocheck>, librust-zbus-macros-3.14.1+default-dev <!nocheck>, librust-zbus-names-2+default-dev (>= 2.6-~~) <!nocheck>, librust-zvariant-3+enumflags2-dev (>= 3.15.0-~~) <!nocheck>"
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native (>= 1.64) <!nocheck>, libstd-rust-dev <!nocheck>, librust-async-broadcast-0.5+default-dev <!nocheck>, librust-async-executor-1+default-dev (>= 1.5.0-~~) <!nocheck>, librust-async-fs-1+default-dev (>= 1.6.0-~~) <!nocheck>, librust-async-io-2+default-dev <!nocheck>, librust-async-lock-2+default-dev (>= 2.8-~~) <!nocheck>, librust-async-recursion-1+default-dev <!nocheck>, librust-async-task-4+default-dev (>= 4.3.0-~~) <!nocheck>, librust-async-trait-0.1+default-dev (>= 0.1.58-~~) <!nocheck>, librust-blocking-1+default-dev (>= 1.3-~~) <!nocheck>, librust-byteorder-1+default-dev (>= 1.4.3-~~) <!nocheck>, librust-derivative-2+default-dev (>= 2.2-~~) <!nocheck>, librust-enumflags2-0.7+default-dev (>= 0.7.7-~~) <!nocheck>, librust-enumflags2-0.7+serde-dev (>= 0.7.7-~~) <!nocheck>, librust-event-listener-2+default-dev (>= 2.5.3-~~) <!nocheck>, librust-futures-core-0.3+default-dev (>= 0.3.25-~~) <!nocheck>, librust-futures-sink-0.3+default-dev (>= 0.3.25-~~) <!nocheck>, librust-futures-util-0.3+io-dev (>= 0.3.25-~~) <!nocheck>, librust-futures-util-0.3+sink-dev (>= 0.3.25-~~) <!nocheck>, librust-futures-util-0.3+std-dev (>= 0.3.25-~~) <!nocheck>, librust-hex-0.4+default-dev (>= 0.4.3-~~) <!nocheck>, librust-nix-0.26+socket-dev <!nocheck>, librust-nix-0.26+uio-dev <!nocheck>, librust-once-cell-1+default-dev (>= 1.18-~~) <!nocheck>, librust-ordered-stream-0.2+default-dev <!nocheck>, librust-rand-0.8+default-dev (>= 0.8.5-~~) <!nocheck>, librust-serde-1+default-dev <!nocheck>, librust-serde-1+derive-dev <!nocheck>, librust-serde-repr-0.1+default-dev (>= 0.1.9-~~) <!nocheck>, librust-sha1-0.10+default-dev (>= 0.10.5-~~) <!nocheck>, librust-sha1-0.10+std-dev (>= 0.10.5-~~) <!nocheck>, librust-static-assertions-1+default-dev (>= 1.1.0-~~) <!nocheck>, librust-tracing-0.1+default-dev (>= 0.1.37-~~) <!nocheck>, librust-xdg-home-1+default-dev <!nocheck>, librust-zbus-macros-3.14.1+default-dev <!nocheck>, librust-zbus-names-2+default-dev (>= 2.6-~~) <!nocheck>, librust-zvariant-3+enumflags2-dev (>= 3.15.0-~~) <!nocheck>"
 	],
 	"Checksums-Sha256": [
-		"c8fd15737661fe5f33bcadcf7c3ec0d465801c80c26ba896848c9ce11c8544c6 4596 rust-zbus_3.14.1-3.dsc 31de390a2d872e4cd04edd71b425e29853f786dc99317ed72d73d6fcf5ebb948 148931 rust-zbus_3.14.1.orig.tar.gz 1a548b1614e338718c119377693efd2e8f19930c3bd14758ef489d1600e650fa 8232 rust-zbus_3.14.1-3.debian.tar.xz"
+		"842772a2f1c5e9627c8d23e4a2d531ce49a6a7837a66eb410721f3e43ded9364 4593 rust-zbus_3.14.1-4.dsc 31de390a2d872e4cd04edd71b425e29853f786dc99317ed72d73d6fcf5ebb948 148931 rust-zbus_3.14.1.orig.tar.gz f5c6f88c12874a1bad500f27a9deb2b1575f96e558625536033dcda1480b636a 8460 rust-zbus_3.14.1-4.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/r/rust-zbus"
 	],
 	"Files": [
-		"22b739a60a30a57e8dfa3fbdf794d046 4596 rust-zbus_3.14.1-3.dsc 7a0e12a2375ab6ed7f8fd583cfc83cae 148931 rust-zbus_3.14.1.orig.tar.gz 589928cc94a25fb1742c86871a9aa6bb 8232 rust-zbus_3.14.1-3.debian.tar.xz"
+		"4449f2040cd2985156d111eb993307eb 4593 rust-zbus_3.14.1-4.dsc 7a0e12a2375ab6ed7f8fd583cfc83cae 148931 rust-zbus_3.14.1.orig.tar.gz 2e30a69e066f4dfe44039dd315d31c68 8460 rust-zbus_3.14.1-4.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -36,7 +36,7 @@
 		"misc"
 	],
 	"Standards-Version": [
-		"4.6.1"
+		"4.6.2"
 	],
 	"Testsuite": [
 		"autopkgtest"
@@ -54,6 +54,6 @@
 		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/zbus]"
 	],
 	"Version": [
-		"3.14.1-3"
+		"3.14.1-4"
 	]
 }
