@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"librust-tonic-build-dev, librust-tonic-dev"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-cargo, librust-async-stream-0.3+default-dev <!nocheck>, librust-async-trait-0.1+default-dev <!nocheck>, librust-axum-0.6-dev <!nocheck>, librust-base64-0.21+default-dev <!nocheck>, librust-bencher-0.1+default-dev <!nocheck>, librust-bytes-1+default-dev <!nocheck>, librust-console-0.15+default-dev <!nocheck>, librust-flate2-1+default-dev <!nocheck>, librust-h2-0.3+default-dev <!nocheck>, librust-http-0.2+default-dev <!nocheck>, librust-http-body-0.4+default-dev <!nocheck>, librust-hyper-0.14+default-dev <!nocheck>, librust-hyper-0.14+full-dev <!nocheck>, librust-hyper-rustls-0.24+default-dev <!nocheck>, librust-hyper-rustls-0.24+http2-dev <!nocheck>, librust-hyper-timeout-0.4+default-dev <!nocheck>, librust-listenfd-1+default-dev <!nocheck>, librust-percent-encoding-2+default-dev <!nocheck>, librust-pico-args-0.5+default-dev <!nocheck>, librust-pico-args-0.5+eq-separator-dev <!nocheck>, librust-pin-project-1+default-dev <!nocheck>, librust-prettyplease-0.2+default-dev <!nocheck>, librust-proc-macro2-1+default-dev <!nocheck>, librust-prost-dev (<< 0.13) <!nocheck>, librust-prost-build-dev (<< 0.13) <!nocheck>, librust-quickcheck-1+default-dev <!nocheck>, librust-quickcheck-macros-1+default-dev <!nocheck>, librust-quote-1+default-dev <!nocheck>, librust-rand-0.8+default-dev <!nocheck>, librust-rustls-0.21+default-dev <!nocheck>, librust-rustls-native-certs-0.6+default-dev <!nocheck>, librust-rustls-pemfile-1+default-dev <!nocheck>, librust-static-assertions-1+default-dev <!nocheck>, librust-strum-0.25+default-dev <!nocheck>, librust-strum-0.25+derive-dev <!nocheck>, librust-syn-2+default-dev <!nocheck>, librust-tokio-1+default-dev <!nocheck>, librust-tokio-rustls-0.24+default-dev <!nocheck>, librust-tokio-stream-0.1+default-dev <!nocheck>, librust-tower-0.4+balance-dev <!nocheck>, librust-tower-0.4+buffer-dev <!nocheck>, librust-tower-0.4+discover-dev <!nocheck>, librust-tower-0.4+full-dev <!nocheck>, librust-tower-0.4+limit-dev <!nocheck>, librust-tower-0.4+load-dev <!nocheck>, librust-tower-0.4+make-dev <!nocheck>, librust-tower-0.4+timeout-dev <!nocheck>, librust-tower-0.4+util-dev <!nocheck>, librust-tower-http-0.4+default-dev <!nocheck>, librust-tower-layer-0.3+default-dev <!nocheck>, librust-tower-service-0.3+default-dev <!nocheck>, librust-tracing-0.1+default-dev <!nocheck>, librust-tracing-subscriber-0.3+default-dev <!nocheck>, librust-tracing-subscriber-0.3+fmt-dev <!nocheck>, librust-tracing-subscriber-0.3+tracing-log-dev <!nocheck>, libstring-shellquote-perl <!nocheck>, protobuf-compiler"
+	],
+	"Checksums-Sha256": [
+		"0ec82124edbda8c610d12bc42e19cb77498ed21d5a669b51fab940aaac278f52 4894 rust-tonic_0.10.2+dfsg-2.dsc 26a7f4b9044f7e92a7764ce65e8c14bcf2e0082423e648a95a775994758d240b 806996 rust-tonic_0.10.2+dfsg.orig.tar.xz 6dbad7049137fd57032cceadfc25b57e70cb22762c37b92f8b8afe3d18c2ea7b 19192 rust-tonic_0.10.2+dfsg-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-tonic"
+	],
+	"Files": [
+		"68191337a8b9445cc29d3627fd2b0640 4894 rust-tonic_0.10.2+dfsg-2.dsc 8d9217837e86522d54a4d319a0768beb 806996 rust-tonic_0.10.2+dfsg.orig.tar.xz f62b6825b2e3006b9392469ae4d91967 19192 rust-tonic_0.10.2+dfsg-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/hyperium/tonic"
+	],
+	"Maintainer": [
+		"Jonas Smedegaard <dr@jones.dk>"
+	],
+	"Package": [
+		"rust-tonic"
+	],
+	"Package-List": [
+		"librust-tonic-build-dev deb rust optional arch=all librust-tonic-dev deb rust optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-bencher-0.1+default-dev, librust-quickcheck-1+default-dev, librust-quickcheck-macros-1+default-dev, librust-rand-0.8+default-dev, librust-static-assertions-1+default-dev, librust-tonic-0.10+default-dev, librust-tonic-0.10+rustls-dev, librust-tonic-0.10+url-dev, librust-tonic-0.10-dev, librust-tower-0.4+full-dev"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/rust-tonic"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/rust-tonic.git"
+	],
+	"Version": [
+		"0.10.2+dfsg-2"
+	]
+}
