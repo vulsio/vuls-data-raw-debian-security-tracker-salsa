@@ -1,0 +1,62 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"pdns-recursor"
+	],
+	"Build-Conflicts": [
+		"libboost-context-dev [mips mipsel]"
+	],
+	"Build-Depends": [
+		"architecture-is-64-bit, debhelper-compat (= 13), libboost-context-dev [amd64 arm64 armel armhf i386 ppc64el], libboost-dev, libboost-program-options-dev, libboost-system-dev, libboost-test-dev, libboost-thread-dev, libcap-dev, libcurl4-openssl-dev, libfstrm-dev, libluajit-5.1-dev (>= 2.1.0~beta3+dfsg-5.3) [amd64 arm64] | libluajit-5.1-dev [amd64] | liblua5.3-dev, libprotobuf-dev, libsnmp-dev, libsodium-dev, libssl-dev, libsystemd-dev, pkg-config, protobuf-compiler, ragel, systemd"
+	],
+	"Checksums-Sha256": [
+		"2805c6a0d0d1dd136a9f3de017665d3662f3cb4547be69c77c06440f3aec2569 2829 pdns-recursor_4.8.6-1.dsc 1ff4087ef12e6fc68fccd22c97215fd7f01038d7ad46715e9ffe7494e9926d95 1533869 pdns-recursor_4.8.6.orig.tar.bz2 fff09f200e11d335eed1fd3147159b336a69b49b19fc37f471eafee7eb348139 488 pdns-recursor_4.8.6.orig.tar.bz2.asc 0bb430a9b8aac0291feb836fd2a985af43c8f384a4b8e2eb58e6e83ba9bc1d7d 23460 pdns-recursor_4.8.6-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/p/pdns-recursor"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.powerdns.com/"
+	],
+	"Maintainer": [
+		"pdns-recursor packagers <pdns-recursor@packages.debian.org>"
+	],
+	"Package": [
+		"pdns-recursor"
+	],
+	"Package-List": [
+		"pdns-recursor deb net optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"4.5.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dnsutils"
+	],
+	"Uploaders": [
+		"Chris Hofstaedtler <zeha@debian.org>, Marc Haber <mh+debian-packages@zugschlus.de>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/dns-team/pdns-recursor"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/dns-team/pdns-recursor.git"
+	],
+	"Version": [
+		"4.8.6-1"
+	]
+}
