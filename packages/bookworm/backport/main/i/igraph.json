@@ -6,13 +6,13 @@
 		"libigraph3, libigraph-dev, libigraph-doc, libigraph-examples"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), cmake (>= 3.18), d-shlibs, bison, flex, libxml2-dev, libplfit-dev, libgmp-dev, libarpack2-dev, libblas-dev, liblapack-dev, libglpk-dev (>= 5.0), libf2c2-dev, liblzma-dev"
+		"debhelper-compat (= 13), cmake, d-shlibs, bison, flex, libxml2-dev, libplfit-dev, libgmp-dev, libarpack2-dev, libblas-dev, liblapack-dev, libglpk-dev, libf2c2-dev, liblzma-dev"
 	],
 	"Build-Depends-Indep": [
-		"python3, xmlto, source-highlight, fop, fonts-font-awesome"
+		"python3, xmlto, source-highlight, fop, fonts-font-awesome, libxml2-utils, docbook2x, texinfo"
 	],
 	"Checksums-Sha256": [
-		"489f8fff7cc3be278c7fde773218c846517bcdd6ec845f7e64b4c16cadba1223 3244 igraph_0.10.8+ds-1~bpo12+1.dsc d8fbb7be022db62ee9c6d5f7affc16ea7cc22ad29d6c59d7c8a02ff75c5a7a22 1425124 igraph_0.10.8+ds.orig.tar.xz 8d184d770dedeb967208e8a193f0ac1158ab75fe4c775f0ddc0bf2129f346035 22528 igraph_0.10.8+ds-1~bpo12+1.debian.tar.xz"
+		"23910636d0cadc1fe9f12e86fda150fa79e0d65602acd316ae1f4554702bfc2f 3267 igraph_0.10.10+ds-1~bpo12+1.dsc d5c02204c62e4433a53cb4a1f493488356903ba55f14f3e8767251aa01957338 1415752 igraph_0.10.10+ds.orig.tar.xz 598dba2a43af9ef0585cc7ced84edae9b4cb660a9f52d6d40383971e57722bea 22860 igraph_0.10.10+ds-1~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/i/igraph"
@@ -57,6 +57,6 @@
 		"https://salsa.debian.org/med-team/igraph.git"
 	],
 	"Version": [
-		"0.10.8+ds-1~bpo12+1"
+		"0.10.10+ds-1~bpo12+1"
 	]
 }
