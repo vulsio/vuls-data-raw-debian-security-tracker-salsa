@@ -6,16 +6,22 @@
 		"libdemeter-perl"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), ifeffit <!nocheck>, libarchive-zip-perl <!nocheck>, libcapture-tiny-perl <!nocheck>, libchemistry-elements-perl, libconfig-ini-perl <!nocheck>, libconst-fast-perl <!nocheck>, libdatetime-perl, libdigest-sha-perl <!nocheck>, libencoding-fixlatin-perl <!nocheck>, libextutils-cbuilder-perl, libfile-copy-recursive-perl <!nocheck>, libfile-countlines-perl <!nocheck>, libfile-slurper-perl <!nocheck>, libfile-touch-perl <!nocheck>, libfile-which-perl <!nocheck>, libgraph-perl <!nocheck>, libgraphics-gnuplotif-perl, libheap-perl <!nocheck>, libifeffit-perl <!nocheck>, libjson-perl, liblist-moreutils-perl <!nocheck>, libmath-combinatorics-perl <!nocheck>, libmath-derivative-perl <!nocheck>, libmath-random-free-perl <!nocheck>, libmath-round-perl <!nocheck>, libmath-spline-perl <!nocheck>, libmodule-build-perl, libmoose-perl <!nocheck>, libmoosex-aliases-perl <!nocheck>, libmoosex-types-laxnum-perl <!nocheck>, libmoosex-types-perl <!nocheck>, libpdl-stats-perl <!nocheck>, libpod-pom-perl <!nocheck>, libpod-projectdocs-perl <!nocheck>, libregexp-assemble-perl, libregexp-common-perl <!nocheck>, librpc-xml-perl <!nocheck>, libspreadsheet-writeexcel-perl <!nocheck>, libstar-parser-perl <!nocheck>, libstatistics-descriptive-perl <!nocheck>, libtext-template-perl <!nocheck>, libtext-unidecode-perl <!nocheck>, libtree-simple-perl <!nocheck>, libwant-perl <!nocheck>, libwx-perl <!nocheck>, libxmlrpc-lite-perl <!nocheck>, libyaml-tiny-perl <!nocheck>, pdl <!nocheck>, perl-xs-dev, perl:native, xauth <!nocheck>, xvfb <!nocheck>"
+		"debhelper-compat (= 13)"
+	],
+	"Build-Depends-Indep": [
+		"ifeffit <!nocheck>, libarchive-zip-perl <!nocheck>, libcapture-tiny-perl <!nocheck>, libchemistry-elements-perl, libchemistry-formula-perl <!nocheck>, libconfig-ini-perl <!nocheck>, libconst-fast-perl <!nocheck>, libdatetime-perl, libdigest-sha-perl <!nocheck>, libencoding-fixlatin-perl <!nocheck>, libextutils-cbuilder-perl, libfile-copy-recursive-perl <!nocheck>, libfile-countlines-perl <!nocheck>, libfile-slurper-perl <!nocheck>, libfile-touch-perl <!nocheck>, libfile-which-perl <!nocheck>, libgraph-perl <!nocheck>, libgraphics-gnuplotif-perl, libheap-perl <!nocheck>, libifeffit-perl <!nocheck>, libjson-perl, liblist-moreutils-perl <!nocheck>, libmath-combinatorics-perl <!nocheck>, libmath-derivative-perl <!nocheck>, libmath-random-free-perl <!nocheck>, libmath-round-perl <!nocheck>, libmath-spline-perl <!nocheck>, libmodule-build-perl, libmoose-perl <!nocheck>, libmoosex-aliases-perl <!nocheck>, libmoosex-types-laxnum-perl <!nocheck>, libmoosex-types-perl <!nocheck>, libpdl-stats-perl <!nocheck>, libpod-pom-perl <!nocheck>, libpod-projectdocs-perl <!nocheck>, libregexp-assemble-perl, libregexp-common-perl <!nocheck>, librpc-xml-perl <!nocheck>, libspreadsheet-writeexcel-perl <!nocheck>, libstar-parser-perl <!nocheck>, libstatistics-descriptive-perl <!nocheck>, libtext-template-perl <!nocheck>, libtext-unidecode-perl <!nocheck>, libtree-simple-perl <!nocheck>, libwant-perl <!nocheck>, libwx-perl <!nocheck>, libxmlrpc-lite-perl <!nocheck>, libyaml-tiny-perl <!nocheck>, pdl <!nocheck>, perl-xs-dev, perl:native, xauth <!nocheck>, xvfb <!nocheck>"
 	],
 	"Checksums-Sha256": [
-		"7473e002990c0650e2408d6d10c7c42160551bb24782e276a96d466101e4532e 3632 libdemeter-perl_0.9.27+ds6-3.dsc e7503e1578b913c1554a946714e9aa2c3cf796850f35824975c5f6b59edeafe1 43028960 libdemeter-perl_0.9.27+ds6.orig.tar.xz 55ba6b1d092569bc1240e92039e1e5e82cdebd2e87d3266b1882e0efbe813d4c 15528 libdemeter-perl_0.9.27+ds6-3.debian.tar.xz"
+		"d333cb7c9ff406bdd7b87cccd14a8f640fe7fba689af59aa54e1492dde72cc28 3946 libdemeter-perl_0.9.27+ds6-4.dsc e7503e1578b913c1554a946714e9aa2c3cf796850f35824975c5f6b59edeafe1 43028960 libdemeter-perl_0.9.27+ds6.orig.tar.xz 0fd48436fac3c992a60a4b7b23fce82fe1c7040eb759d15dcfdc084406ad147e 15576 libdemeter-perl_0.9.27+ds6-4.debian.tar.xz"
+	],
+	"Dgit": [
+		"3cee544e6cda619837c05b60ee2335b7661e1e48 debian archive/debian/0.9.27+ds6-4 https://git.dgit.debian.org/libdemeter-perl"
 	],
 	"Directory": [
 		"pool/contrib/libd/libdemeter-perl"
 	],
 	"Files": [
-		"1b2334c984b8fd958b207df99fd52bec 3632 libdemeter-perl_0.9.27+ds6-3.dsc fce88d1dd04a6381b87cc3e88bc07bdd 43028960 libdemeter-perl_0.9.27+ds6.orig.tar.xz 1cadad6aca4a2b74bbdbb9f3c415fb99 15528 libdemeter-perl_0.9.27+ds6-3.debian.tar.xz"
+		"c1b246c1c5af9657f353cb134c6987fa 3946 libdemeter-perl_0.9.27+ds6-4.dsc fce88d1dd04a6381b87cc3e88bc07bdd 43028960 libdemeter-perl_0.9.27+ds6.orig.tar.xz ec77cfcc122c082168d6dbdee9aedce2 15576 libdemeter-perl_0.9.27+ds6-4.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -54,6 +60,6 @@
 		"https://salsa.debian.org/perl-team/modules/packages/libdemeter-perl.git"
 	],
 	"Version": [
-		"0.9.27+ds6-3"
+		"0.9.27+ds6-4"
 	]
 }
