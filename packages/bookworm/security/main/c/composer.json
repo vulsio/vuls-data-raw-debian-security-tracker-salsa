@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"composer"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-sequence-bash-completion, dh-sequence-phpcomposer, git, help2man, jsonlint, mercurial, php-composer-ca-bundle, php-composer-class-map-generator, php-composer-metadata-minifier, php-composer-pcre (>= 2), php-composer-semver, php-composer-spdx-licenses, php-composer-xdebug-handler (>= 2), php-curl, php-intl, php-json-schema (>= 5.2.11), php-mbstring, php-psr-log, php-react-promise (>= 2.8), php-seld-signal-handler, php-symfony-console (>= 5.4), php-symfony-filesystem (>= 5.4), php-symfony-finder (>= 5.4), php-symfony-process (>= 5.4), php-zip, phpab, phpunit, pkg-php-tools (>= 1.41~)"
+	],
+	"Checksums-Sha256": [
+		"b253627020d663eff991b4d083dddf078da586e5cc66b1f4f0c6f43ff83fb2bb 2391 composer_2.5.5-1+deb12u1.dsc 9d24f477e5a3c1c2ab12c1cf734a0d66d4572740d9edad44e462c5dc60983bce 634104 composer_2.5.5.orig.tar.xz f781e2e4cbcb2545860ab621cb1462c367fd8c3642bcd29345784f8f117aa3c0 18356 composer_2.5.5-1+deb12u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/c/composer"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://getcomposer.org/"
+	],
+	"Maintainer": [
+		"Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"composer"
+	],
+	"Package-List": [
+		"composer deb php optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"git, mercurial, php-curl, php-intl, php-mbstring, php-symfony-console, php-zip, phpab, phpunit, pkg-php-tools, xz-utils"
+	],
+	"Uploaders": [
+		"David Prévot <taffit@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/php-team/pear/composer"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/php-team/pear/composer.git -b debian/bookworm"
+	],
+	"Version": [
+		"2.5.5-1+deb12u1"
+	]
+}
