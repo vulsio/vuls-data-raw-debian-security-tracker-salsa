@@ -1,0 +1,50 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libengine-tpm2-tss-openssl, tpm2-tss-engine-dev, tpm2-tss-engine-tools"
+	],
+	"Build-Depends": [
+		"autoconf-archive, bash-completion, debhelper-compat (= 13), dh-package-notes, libcmocka-dev <!nocheck>, libssl-dev, libtss2-dev, pandoc <!nodoc>, pkgconf"
+	],
+	"Checksums-Sha256": [
+		"04fcacfe311d8b4754130c629f73802cae9e8bc857b965d2d026a592c44624cc 2268 tpm2-tss-engine_1.2.0-2~bpo12+1.dsc 2b1b71aab191cf2a3f4c92a12a9dc7a3d362807693148802ab3335431f904eb2 53340 tpm2-tss-engine_1.2.0.orig.tar.gz 3feb0ba7efdd72bcd4925de641e0d8f67ae83cc28fb83a460397fb29e8d5a10a 4324 tpm2-tss-engine_1.2.0-2~bpo12+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/t/tpm2-tss-engine"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/tpm2-software/tpm2-tss-engine"
+	],
+	"Maintainer": [
+		"Luca Boccassi <bluca@debian.org>"
+	],
+	"Package": [
+		"tpm2-tss-engine"
+	],
+	"Package-List": [
+		"libengine-tpm2-tss-openssl deb libs optional arch=any tpm2-tss-engine-dev deb libdevel optional arch=all tpm2-tss-engine-tools deb utils optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/tpm2-tss-engine"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/tpm2-tss-engine.git"
+	],
+	"Version": [
+		"1.2.0-2~bpo12+1"
+	]
+}

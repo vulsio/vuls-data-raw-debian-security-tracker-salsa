@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"stayrtr, golang-github-bgp-stayrtr-dev"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-golang, dh-sequence-golang, dh-sequence-installsysusers, debhelper (>= 13.9), golang-any, golang-github-google-go-cmp-dev, golang-github-prometheus-client-golang-dev, golang-github-stretchr-testify-dev, golang-golang-x-crypto-dev, golang-logrus-dev"
+	],
+	"Checksums-Sha256": [
+		"5cfd5dfa88480355f94ca3816f73c568ce7a7cff6987f131e38dde0275f90603 1771 stayrtr_0.5.1+20240209-1~bpo12+1.dsc 003437bbf4dc19f0811a7d3fe1f4f5d09c83a5ed010e920715d22790460810d9 1173020 stayrtr_0.5.1+20240209.orig.tar.xz deffa5a8a9a3cc8ca58e03dac1d0845069d3c57d38d12778b9dcddd7833445f9 4228 stayrtr_0.5.1+20240209-1~bpo12+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/s/stayrtr"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Go-Import-Path": [
+		"github.com/bgp/stayrtr"
+	],
+	"Homepage": [
+		"https://github.com/bgp/stayrtr"
+	],
+	"Maintainer": [
+		"Marco d'Itri <md@linux.it>"
+	],
+	"Package": [
+		"stayrtr"
+	],
+	"Package-List": [
+		"golang-github-bgp-stayrtr-dev deb golang optional arch=all stayrtr deb net optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2.0"
+	],
+	"Testsuite": [
+		"autopkgtest-pkg-go"
+	],
+	"Uploaders": [
+		"Debian Go Packaging Team <team+pkg-go@tracker.debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/md/stayrtr"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/md/stayrtr.git"
+	],
+	"Version": [
+		"0.5.1+20240209-1~bpo12+1"
+	]
+}

@@ -1,0 +1,53 @@
+{
+	"Architecture": [
+		"kfreebsd-any linux-any all"
+	],
+	"Binary": [
+		"freeipmi, freeipmi-bmc-watchdog, freeipmi-common, freeipmi-ipmidetect, freeipmi-ipmiseld, freeipmi-tools, libfreeipmi-dev, libfreeipmi17, libipmiconsole-dev, libipmiconsole2, libipmidetect-dev, libipmidetect0, libipmimonitoring-dev, libipmimonitoring6"
+	],
+	"Build-Depends": [
+		"chrpath, debhelper-compat (= 13), dh-exec, libgcrypt20-dev, libsystemd-dev [linux-any], pkg-config, systemd-dev [linux-any], texinfo"
+	],
+	"Checksums-Sha256": [
+		"58b343fc6dcde64709dbdcedef12b23e4cbe6566b89dce7edc4f5458f111f7d5 3442 freeipmi_1.6.13-2~bpo12+1.dsc 196e33706174767a6d7ee2b9c451075cd48ba99f27bb83c4f2c511e0c92c74f5 3464369 freeipmi_1.6.13.orig.tar.gz 39d805a3344bb86befde252ddfb442ef357a46364c740694391f59797ffacf53 195 freeipmi_1.6.13.orig.tar.gz.asc d73ea55495c8f76b46509ed0b2c249ddd5d610a181e5e0540d9a6e2ffe02e3c9 26052 freeipmi_1.6.13-2~bpo12+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/f/freeipmi"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.gnu.org/software/freeipmi/"
+	],
+	"Maintainer": [
+		"Fabio Fantoni <fantonifabio@tiscali.it>"
+	],
+	"Package": [
+		"freeipmi"
+	],
+	"Package-List": [
+		"freeipmi deb admin optional arch=all freeipmi-bmc-watchdog deb admin optional arch=kfreebsd-any,linux-any freeipmi-common deb admin optional arch=all freeipmi-ipmidetect deb admin optional arch=kfreebsd-any,linux-any freeipmi-ipmiseld deb admin optional arch=kfreebsd-any,linux-any freeipmi-tools deb admin optional arch=kfreebsd-any,linux-any libfreeipmi-dev deb libdevel optional arch=kfreebsd-any,linux-any libfreeipmi17 deb libs optional arch=kfreebsd-any,linux-any libipmiconsole-dev deb libdevel optional arch=kfreebsd-any,linux-any libipmiconsole2 deb libs optional arch=kfreebsd-any,linux-any libipmidetect-dev deb libdevel optional arch=kfreebsd-any,linux-any libipmidetect0 deb libs optional arch=kfreebsd-any,linux-any libipmimonitoring-dev deb libdevel optional arch=kfreebsd-any,linux-any libipmimonitoring6 deb libs optional arch=kfreebsd-any,linux-any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Uploaders": [
+		"Bernd Zeimetz <bzed@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/freeipmi"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/freeipmi.git -b debian/bookworm-backports"
+	],
+	"Version": [
+		"1.6.13-2~bpo12+1"
+	]
+}

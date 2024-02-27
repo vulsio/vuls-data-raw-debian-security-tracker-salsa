@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"golang-github-cowsql-go-cowsql-dev, go-cowsql"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), libcowsql-dev, libraft-dev, dh-golang, golang-any, golang-github-ghodss-yaml-dev, golang-github-google-renameio-dev, golang-github-mattn-go-sqlite3-dev, golang-github-peterh-liner-dev, golang-github-pkg-errors-dev, golang-github-rican7-retry-dev, golang-github-spf13-cobra-dev, golang-github-stretchr-testify-dev, golang-golang-x-sys-dev, golang-golang-x-sync-dev"
+	],
+	"Checksums-Sha256": [
+		"04ff36b1a72837af52f277ada7d0fcf2b4d7276fb6c2d9df30b09dd53d9c61b3 2758 golang-github-cowsql-go-cowsql_1.22.0-2~bpo12+1.dsc 38424d38a3fd53a76b704f6ce994c74835cfb35e30a5a90e1bfd32dba901ca0d 106545 golang-github-cowsql-go-cowsql_1.22.0.orig.tar.gz daf9a8bbdab031b6482f33619ea88d11174c52c21b2ab0910ad12f08fb70a3d5 3852 golang-github-cowsql-go-cowsql_1.22.0-2~bpo12+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/golang-github-cowsql-go-cowsql"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Go-Import-Path": [
+		"github.com/cowsql/go-cowsql"
+	],
+	"Homepage": [
+		"https://github.com/cowsql/go-cowsql"
+	],
+	"Maintainer": [
+		"Debian Go Packaging Team <team+pkg-go@tracker.debian.org>"
+	],
+	"Package": [
+		"golang-github-cowsql-go-cowsql"
+	],
+	"Package-List": [
+		"go-cowsql deb golang optional arch=any golang-github-cowsql-go-cowsql-dev deb golang optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest-pkg-go"
+	],
+	"Uploaders": [
+		"Free Ekanayaka <freee@debian.org>, Mathias Gibbens <gibmat@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/go-team/packages/golang-github-cowsql-go-cowsql"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/go-team/packages/golang-github-cowsql-go-cowsql.git"
+	],
+	"Version": [
+		"1.22.0-2~bpo12+1"
+	]
+}

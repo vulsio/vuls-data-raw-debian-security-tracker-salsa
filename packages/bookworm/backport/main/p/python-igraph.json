@@ -1,0 +1,62 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"python3-igraph, python-igraph-doc"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), pkgconf, dh-python, python3-sphinx, libigraph-dev (>= 0.10.10), python3-all-dev, python3-setuptools, python3-numpy, python3-texttable, python3-scipy, python3-pandas, python3-networkx"
+	],
+	"Build-Depends-Indep": [
+		"pydoctor, python3-sphinx-gallery, python3-sphinx-rtd-theme, python3-doc, python-scipy-doc, python-pandas-doc, libjs-jquery-datatables, tex-gyre, texlive-latex-base, texlive-latex-recommended, texlive-fonts-recommended, texlive-latex-extra, cm-super-minimal, latexmk"
+	],
+	"Checksums-Sha256": [
+		"d515916d47dc73fa6dbfd504131a04d09fd08e0bade93da50576df8948d95a31 3453 python-igraph_0.11.4+ds-1~bpo12+1.dsc 0fbd3973db336808e54fb4ab9cd47ffb416a324c40138b6281e41f0fd0f8595c 539364 python-igraph_0.11.4+ds.orig.tar.xz 945b22882b8fc1f12e02247fb0c817a1a640e42c93c63f97cc35e2bcb6fc2df7 7600 python-igraph_0.11.4+ds-1~bpo12+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-igraph"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://igraph.org/python/"
+	],
+	"Maintainer": [
+		"Debian Python Team <team+python@tracker.debian.org>"
+	],
+	"Package": [
+		"python-igraph"
+	],
+	"Package-List": [
+		"python-igraph-doc deb doc optional arch=all python3-igraph deb python optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"python3-graph-tool, python3-networkx, python3-numpy, python3-pandas, python3-scipy"
+	],
+	"Uploaders": [
+		"Jerome Benoit <calculus@rezozer.net>, TANIGUCHI Takaki <takaki@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/python-team/packages/python-igraph"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/python-team/packages/python-igraph.git"
+	],
+	"Version": [
+		"0.11.4+ds-1~bpo12+1"
+	]
+}
