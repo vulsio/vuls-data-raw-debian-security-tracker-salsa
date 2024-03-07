@@ -9,10 +9,10 @@
 		"libnvpair3linux, libpam-zfs, libuutil3linux, libzfslinux-dev, libzfs4linux, libzfsbootenv1linux, libzpool5linux, python3-pyzfs, pyzfs-doc, zfs-dkms, zfs-initramfs, zfs-dracut, zfsutils-linux, zfs-zed, zfs-test"
 	],
 	"Build-Depends": [
-		"abigail-tools (>= 1.8), debhelper-compat (= 12), dh-python, dh-sequence-dkms, libaio-dev, libblkid-dev, libcurl4-openssl-dev, libelf-dev, libpam0g-dev, libssl-dev | libssl1.0-dev, libtool, libudev-dev, lsb-release, po-debconf, python3-all-dev, python3-cffi, python3-setuptools, python3-sphinx, uuid-dev, zlib1g-dev"
+		"abigail-tools (>= 1.8), debhelper-compat (= 13), dh-python, dh-sequence-dkms, libaio-dev, libblkid-dev, libcurl4-openssl-dev, libelf-dev, libpam0g-dev, libssl-dev | libssl1.0-dev, libtool, libudev-dev, lsb-release, po-debconf, python3-all-dev, python3-cffi, python3-setuptools, python3-sphinx, uuid-dev, zlib1g-dev"
 	],
 	"Checksums-Sha256": [
-		"b6dbcd1aa05489e8020100868397560aedafc35758144ecd727f2a8e5d1c6ab2 3238 zfs-linux_2.2.2-4~bpo12+1.dsc 76bc0547d9ba31d4b0142e417aaaf9f969072c3cb3c1a5b10c8738f39ed12fc9 33816541 zfs-linux_2.2.2.orig.tar.gz 9342d99cfd1479b238da908948d8d67b1f5cda0fd15ced52bbd6d7270065a03c 108892 zfs-linux_2.2.2-4~bpo12+1.debian.tar.xz"
+		"91268c10c58b2959ab5ccf194952c03586a6535853db62004ee4159a97d58190 3277 zfs-linux_2.2.3-1~bpo12+1.dsc 30a512f34ec5c841b8b2b32cc9c1a03fd49391b26c9164d3fb30573fb5d81ac3 33854765 zfs-linux_2.2.3.orig.tar.gz 4a90caff156d0426863fea6c533623b8cf1790d80cbb3ee857b4ffe65dd603ef 106852 zfs-linux_2.2.3-1~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/contrib/z/zfs-linux"
@@ -48,7 +48,7 @@
 		"@builddeps@, fakeroot, linux-headers-686, linux-headers-amd64, linux-headers-arm64, linux-headers-armmp, linux-headers-powerpc64le, linux-headers-riscv64, linux-headers-rpi, linux-headers-s390x"
 	],
 	"Uploaders": [
-		"Aron Xu <aron@debian.org>, Carlos Alberto Lopez Perez <clopez@igalia.com>, Mo Zhou <lumin@debian.org>"
+		"Aron Xu <aron@debian.org>, Carlos Alberto Lopez Perez <clopez@igalia.com>, Mo Zhou <lumin@debian.org>, Shengqi Chen <harry-chen@outlook.com>"
 	],
 	"Vcs-Browser": [
 		"https://salsa.debian.org/zfsonlinux-team/zfs"
@@ -57,6 +57,6 @@
 		"https://salsa.debian.org/zfsonlinux-team/zfs.git"
 	],
 	"Version": [
-		"2.2.2-4~bpo12+1"
+		"2.2.3-1~bpo12+1"
 	]
 }
