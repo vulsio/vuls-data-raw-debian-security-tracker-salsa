@@ -9,10 +9,10 @@
 		"debhelper-compat (= 13), dh-exec"
 	],
 	"Build-Depends-Arch": [
-		"dh-sequence-python3, bison, docbook-xml, docbook-xsl, xsltproc, flex, perl:any, po-debconf, libtalloc-dev (>= 2.4.1~), python3-talloc-dev (>= 2.4.1~), libtevent-dev (>= 0.15.0~), libtdb-dev (>= 1.4.9~), python3-tdb (>= 1.4.9~), pkg-config, libacl1-dev, libarchive-dev, libavahi-client-dev, libavahi-common-dev, libblkid-dev, libbsd-dev, libcap-dev [linux-any], libcephfs-dev [amd64 arm64 mips64el ppc64el riscv64 s390x], librados-dev [amd64 arm64 mips64el ppc64el riscv64 s390x], libcmocka-dev (>= 1.1.3), libcups2-dev, libdbus-1-dev, libglusterfs-dev [amd64 arm64 ppc64el ppc64 riscv64 mips64el s390x ia64 sparc64], libgnutls28-dev, libgpgme11-dev, libicu-dev, libjansson-dev, libjson-perl, libkeyutils-dev, libkrb5-dev (>= 1.20.0~) <pkg.samba.mitkrb5>, libldap2-dev, liblmdb-dev, libpam0g-dev, libparse-yapp-perl, libpcap-dev [hurd-i386 kfreebsd-any], libpopt-dev, libreadline-dev, libsystemd-dev [linux-any], libtasn1-6-dev (>= 3.8), libtasn1-bin, liburing-dev [linux-any], xfslibs-dev [linux-any], zlib1g-dev (>= 1:1.2.3), python3-dev:any | python3-dev, libpython3-dev, python3-dnspython, python3-etcd, python3-markdown"
+		"dh-sequence-python3, bison, docbook-xml, docbook-xsl, xsltproc, flex, perl:any, po-debconf, rpcsvc-proto, libtalloc-dev (>= 2.4.1~), python3-talloc-dev (>= 2.4.1~), libtevent-dev (>= 0.15.0~), libtdb-dev (>= 1.4.9~), python3-tdb (>= 1.4.9~), pkgconf, libacl1-dev, libarchive-dev, libavahi-client-dev, libavahi-common-dev, libblkid-dev, libbsd-dev, libcap-dev [linux-any], libcephfs-dev [amd64 arm64 mips64el ppc64el riscv64 s390x], librados-dev [amd64 arm64 mips64el ppc64el riscv64 s390x], libcmocka-dev (>= 1.1.3), libcups2-dev, libdbus-1-dev, libglusterfs-dev [amd64 arm64 ppc64el ppc64 riscv64 mips64el s390x ia64 sparc64], libgnutls28-dev, libgpgme11-dev, libicu-dev, libjansson-dev, libjson-perl, libkeyutils-dev, libkrb5-dev (>= 1.20.0~) <pkg.samba.mitkrb5>, libldap2-dev, liblmdb-dev, libpam0g-dev, libparse-yapp-perl, libpcap-dev [hurd-i386 kfreebsd-any], libpopt-dev, libreadline-dev, libtirpc-dev, libsystemd-dev [linux-any], libtasn1-6-dev (>= 3.8), libtasn1-bin, liburing-dev [linux-any], xfslibs-dev [linux-any], zlib1g-dev (>= 1:1.2.3), python3-dev:any | python3-dev, libpython3-dev, python3-dnspython, python3-etcd, python3-markdown"
 	],
 	"Checksums-Sha256": [
-		"ec424aa607bf3a60bb10fff57be0ff3d953cc3ce0031dc3ed2f186d55827090f 4427 samba_4.19.4+dfsg-3~bpo12+1.dsc 45060386cc619cfef2ae45941ed628dc2f5e3d2348daaaca05557bc16861ef05 25364996 samba_4.19.4+dfsg.orig.tar.xz 53d2cfff1fd0c84d26c58ebabb71f31a3edce3da91dd5bc896e45d4a47dc771c 176456 samba_4.19.4+dfsg-3~bpo12+1.debian.tar.xz"
+		"5eef3fc62a3af12b659abe818541fd0637b6538b06f8c557bf040a07d78c65af 4452 samba_4.19.5+dfsg-4~bpo12+1.dsc 1d87a04a9a7a34d166f8bb6c5541c6f1a40898de164688bc1392c4744a39011f 25384672 samba_4.19.5+dfsg.orig.tar.xz 64513ebe37fd81c0b42e60ce691c4068535c29c2d0dfe262e8d481ff0d219869 176944 samba_4.19.5+dfsg-4~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/s/samba"
@@ -57,6 +57,6 @@
 		"https://salsa.debian.org/samba-team/samba.git"
 	],
 	"Version": [
-		"2:4.19.4+dfsg-3~bpo12+1"
+		"2:4.19.5+dfsg-4~bpo12+1"
 	]
 }
