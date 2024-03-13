@@ -6,16 +6,13 @@
 		"golang-github-dlclark-regexp2-dev"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), dh-golang, golang-any"
+		"debhelper-compat (= 13), dh-sequence-golang, golang-any"
 	],
 	"Checksums-Sha256": [
-		"2fe9c67b4c6724af03663f533b7774910a6362ac22e7f9897f52a8bea61fdf38 2337 golang-github-dlclark-regexp2_1.4.0+ds1-1.dsc 8b30557bd441b44e1a47cd40252fd6c798b02c7d46d4a35495aa93a221fa9e37 81100 golang-github-dlclark-regexp2_1.4.0+ds1.orig.tar.xz ebfa9338fc234347a98ad495e023af41025795e1b92cbed7d07566fdece3c179 4108 golang-github-dlclark-regexp2_1.4.0+ds1-1.debian.tar.xz"
+		"b2846afb05dda702f3bc6497486489d85bf46b740a82e58ccadffdfadd52c23c 2385 golang-github-dlclark-regexp2_1.10.0+ds1-1~bpo12+1.dsc 9d4f923dbd17048688ef88d438b77695cadfbb75365126bfc0906d93498489bd 85736 golang-github-dlclark-regexp2_1.10.0+ds1.orig.tar.xz 98bf8fc7a66d6f637bfa5b64ce97d8e2c18d37f1a90c81ce068156ac040c2f4d 4504 golang-github-dlclark-regexp2_1.10.0+ds1-1~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/g/golang-github-dlclark-regexp2"
-	],
-	"Extra-Source-Only": [
-		"yes"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -42,7 +39,7 @@
 		"misc"
 	],
 	"Standards-Version": [
-		"4.6.0"
+		"4.6.2"
 	],
 	"Testsuite": [
 		"autopkgtest-pkg-go"
@@ -57,6 +54,6 @@
 		"https://salsa.debian.org/go-team/packages/golang-github-dlclark-regexp2.git"
 	],
 	"Version": [
-		"1.4.0+ds1-1"
+		"1.10.0+ds1-1~bpo12+1"
 	]
 }

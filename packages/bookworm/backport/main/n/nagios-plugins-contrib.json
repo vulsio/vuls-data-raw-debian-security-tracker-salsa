@@ -1,0 +1,56 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"monitoring-plugins-contrib, nagios-plugins-contrib"
+	],
+	"Build-Depends": [
+		"debhelper (>= 8.0.0), dh-autoreconf, dh-python, dh-sequence-python3, python3:any, python3-debian:native, quilt (>= 0.46-7), autotools-dev, flex, libmemcached-dev [!hurd-i386], pkg-config"
+	],
+	"Checksums-Sha256": [
+		"37b772ed0b48146f15309fdac1583a19e68c10d5cbaa53dd8618bc7c98979669 2521 nagios-plugins-contrib_45.20231212~bpo12+1.dsc bb3f0a879a3bef389ff42468707840819329fcfe20ddc5948b18eee542491e0e 980356 nagios-plugins-contrib_45.20231212~bpo12+1.tar.xz"
+	],
+	"Directory": [
+		"pool/main/n/nagios-plugins-contrib"
+	],
+	"Format": [
+		"3.0 (native)"
+	],
+	"Maintainer": [
+		"Debian Nagios Maintainer Group <pkg-nagios-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"nagios-plugins-contrib"
+	],
+	"Package-List": [
+		"monitoring-plugins-contrib deb net optional arch=any nagios-plugins-contrib deb oldlibs optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"apache2, bc, bind9-host, ca-certificates, cups, curl, debsecan, file, host, knot-host, libdate-manip-perl, liblocale-gettext-perl, liblwp-useragent-determined-perl, libmonitoring-plugin-perl, libnagios-plugin-perl, libnet-cups-perl, libnet-dns-perl, openssl"
+	],
+	"Uploaders": [
+		"Bernd Zeimetz <bzed@debian.org>, Jan Wagner <waja@cyconet.org>, Stefan Schoerghofer <amd1212@4md.gr>, Petter Reinholdtsen <pere@hungry.com>, Leo Antunes <leo@costela.net>, Peter Palfrader <weasel@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/nagios-team/nagios-plugins-contrib"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/nagios-team/nagios-plugins-contrib.git"
+	],
+	"Version": [
+		"45.20231212~bpo12+1"
+	]
+}

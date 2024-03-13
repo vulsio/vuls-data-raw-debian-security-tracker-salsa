@@ -6,19 +6,13 @@
 		"golang-github-gorilla-mux-dev"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), dh-golang"
-	],
-	"Build-Depends-Indep": [
-		"golang-any"
+		"debhelper-compat (= 13), dh-golang, golang-any"
 	],
 	"Checksums-Sha256": [
-		"96e99e27c4d1b6fc7e3a34f323d8d5750e7445f22b9b82c225a0036dc0a1e2c9 2348 golang-github-gorilla-mux_1.8.0-1.dsc ea2639259d2ce6f402636655e91eb93ba69c139e3cbf80b044ee393ada53757b 45517 golang-github-gorilla-mux_1.8.0.orig.tar.gz 58dc6c7b7044420181cada4cd3c323658d4282a72406a90b62f2aee26810a25d 4560 golang-github-gorilla-mux_1.8.0-1.debian.tar.xz"
+		"4393aaaa91c29acb55aeae4871c1d6fdc822d85414397343630c8ef5524ed0ef 2324 golang-github-gorilla-mux_1.8.1-1~bpo12+1.dsc c2a09e78d1886abb2d291b472eba3ac9185acb35234c1f5616669664ba893d6d 47033 golang-github-gorilla-mux_1.8.1.orig.tar.gz 8a37bc291cd90a71536e95d95aef9973161bde41812f61972567e585628b07f8 4264 golang-github-gorilla-mux_1.8.1-1~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/g/golang-github-gorilla-mux"
-	],
-	"Extra-Source-Only": [
-		"yes"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -45,13 +39,13 @@
 		"misc"
 	],
 	"Standards-Version": [
-		"4.6.0"
+		"4.6.2"
 	],
 	"Testsuite": [
 		"autopkgtest-pkg-go"
 	],
 	"Uploaders": [
-		"Arnaud Rebillout <arnaud.rebillout@collabora.com>, Tianon Gravi <admwiggin@gmail.com>, Tim Potter <tpot@hpe.com>, Anthony Fok <foka@debian.org>,"
+		"Arnaud Rebillout <arnaud.rebillout@collabora.com>, Tim Potter <tpot@hpe.com>, Anthony Fok <foka@debian.org>,"
 	],
 	"Vcs-Browser": [
 		"https://salsa.debian.org/go-team/packages/golang-github-gorilla-mux"
@@ -60,6 +54,6 @@
 		"https://salsa.debian.org/go-team/packages/golang-github-gorilla-mux.git"
 	],
 	"Version": [
-		"1.8.0-1"
+		"1.8.1-1~bpo12+1"
 	]
 }
