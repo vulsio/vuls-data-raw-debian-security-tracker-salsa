@@ -1,0 +1,62 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-rhai-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native (>= 1.66.0) <!nocheck>, libstd-rust-dev <!nocheck>, librust-ahash-0.8+compile-time-rng-dev (>= 0.8.2-~~) <!nocheck>, librust-ahash-0.8+runtime-rng-dev (>= 0.8.2-~~) <!nocheck>, librust-ahash-0.8+std-dev (>= 0.8.2-~~) <!nocheck>, librust-bitflags-2-dev <!nocheck>, librust-instant-0.1+default-dev (>= 0.1.10-~~) <!nocheck>, librust-num-traits-0.2+std-dev <!nocheck>, librust-num-traits-0.2-dev <!nocheck>, librust-once-cell-1+race-dev (>= 1.7.0-~~) <!nocheck>, librust-once-cell-1+std-dev (>= 1.7.0-~~) <!nocheck>, librust-rhai-codegen-2+default-dev <!nocheck>, librust-smallvec-1+const-generics-dev (>= 1.7.0-~~) <!nocheck>, librust-smallvec-1+const-new-dev (>= 1.7.0-~~) <!nocheck>, librust-smallvec-1+union-dev (>= 1.7.0-~~) <!nocheck>, librust-smartstring-1+std-dev <!nocheck>, librust-smartstring-1-dev <!nocheck>, librust-thin-vec-0.2-dev (>= 0.2.13-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"edaf07585a1e71735d8a779e87baebb9f4b629f92e042c32631dd9e33af2adab 3037 rust-rhai_1.17.1-1.dsc f6273372244d04a8a4b0bec080ea1e710403e88c5d9d83f9808b2bfa64f0982a 321759 rust-rhai_1.17.1.orig.tar.gz 7fc33cdfad11252188d9831f2333923041f0566a2bfaeeaa4e57d4c2d152e6ff 4520 rust-rhai_1.17.1-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-rhai"
+	],
+	"Files": [
+		"93b9509a464610f0902832c5566f2858 3037 rust-rhai_1.17.1-1.dsc 687f0dd99613759be4b2d150a1f1a00c 321759 rust-rhai_1.17.1.orig.tar.gz f4942e1b5232b4a5d4c926d921237ab5 4520 rust-rhai_1.17.1-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://rhai.rs"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-rhai"
+	],
+	"Package-List": [
+		"librust-rhai-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-rmp-serde-1+default-dev, librust-serde-json-1+alloc-dev"
+	],
+	"Uploaders": [
+		"Alexander Kjäll <alexander.kjall@gmail.com>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/rhai"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/rhai]"
+	],
+	"Version": [
+		"1.17.1-1"
+	]
+}
