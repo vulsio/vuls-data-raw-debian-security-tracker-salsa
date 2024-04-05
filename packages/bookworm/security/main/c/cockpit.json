@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"cockpit, cockpit-bridge, cockpit-doc, cockpit-networkmanager, cockpit-pcp, cockpit-packagekit, cockpit-storaged, cockpit-system, cockpit-tests, cockpit-ws, cockpit-sosreport"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), gettext (>= 0.19.7), gettext (>= 0.21) | appstream, libssh-dev (>= 0.8.5), zlib1g-dev, libkrb5-dev (>= 1.11), libxslt1-dev, libglib2.0-dev (>= 2.50), libgnutls28-dev (>= 3.4.3) | gnutls-dev, libsystemd-dev (>= 235), libpolkit-agent-1-dev, libpcp3-dev, libjson-glib-dev, libpam0g-dev, libpcp-import1-dev, libpcp-pmda3-dev, systemd, xsltproc, xmlto, docbook-xsl, glib-networking, openssh-client <!nocheck>, python3"
+	],
+	"Checksums-Sha256": [
+		"a27911fcd7b005fab1b35eb893a355756b8beb456759d77072bfd0dc808c8720 3048 cockpit_287.1-0+deb12u1.dsc f456650cdec572f4d0f72ce7790e458d443dcc283181b506d1cd7d0726fea688 12681904 cockpit_287.1.orig.tar.xz 8c6ca04ba07437803e9953e0e1d115c463637c23dd6cf314c41116ac97cb534b 19112 cockpit_287.1-0+deb12u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/c/cockpit"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://cockpit-project.org/"
+	],
+	"Maintainer": [
+		"Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"cockpit"
+	],
+	"Package-List": [
+		"cockpit deb admin optional arch=all cockpit-bridge deb admin optional arch=any cockpit-doc deb doc optional arch=all cockpit-networkmanager deb admin optional arch=all cockpit-packagekit deb admin optional arch=all cockpit-pcp deb admin optional arch=any cockpit-sosreport deb admin optional arch=all cockpit-storaged deb admin optional arch=all cockpit-system deb admin optional arch=all cockpit-tests deb admin optional arch=any cockpit-ws deb admin optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"curl"
+	],
+	"Uploaders": [
+		"Michael Biebl <biebl@debian.org>, Martin Pitt <mpitt@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/utopia-team/cockpit"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/utopia-team/cockpit.git"
+	],
+	"Version": [
+		"287.1-0+deb12u1"
+	]
+}
