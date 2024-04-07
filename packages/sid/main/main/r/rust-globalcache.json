@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-globalcache-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-async-trait-0.1+default-dev (>= 0.1.53-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"ea781e9ec972cbcfa5c54a39e8de4195899530ae611345eb4ee8ea2f8cf0bb69 2331 rust-globalcache_0.2.0-1.dsc 469dba5c15b33d67400508ff1f640e8906fa6c8d5ee80540203eb9029ce475df 3951 rust-globalcache_0.2.0.orig.tar.gz d62308002dac8a6613aa10429d2b22a35983feed278b85a7c1d3db6d57aaf6e7 2728 rust-globalcache_0.2.0-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-globalcache"
+	],
+	"Files": [
+		"1319de034b65c7db52693b54579bd19f 2331 rust-globalcache_0.2.0-1.dsc c895c965934d586c7ae28868a4844077 3951 rust-globalcache_0.2.0.orig.tar.gz d41245d64c03760f836574171c2c2aa4 2728 rust-globalcache_0.2.0-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-globalcache"
+	],
+	"Package-List": [
+		"librust-globalcache-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo"
+	],
+	"Uploaders": [
+		"Fab Stz <fabstz-it@yahoo.fr>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/globalcache"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/globalcache]"
+	],
+	"Version": [
+		"0.2.0-1"
+	]
+}
