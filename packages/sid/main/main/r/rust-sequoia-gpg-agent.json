@@ -1,0 +1,62 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-sequoia-gpg-agent-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native (>= 1.70) <!nocheck>, libstd-rust-dev <!nocheck>, librust-anyhow-1+default-dev <!nocheck>, librust-chrono-0.4+default-dev <!nocheck>, librust-futures-0.3+default-dev <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.152-~~) <!nocheck>, librust-sequoia-cert-store-0.5+default-dev <!nocheck>, librust-sequoia-ipc-0.34+default-dev (>= 0.34.1-~~) <!nocheck>, librust-sequoia-openpgp-1+compression-dev (>= 1.19-~~) <!nocheck>, librust-sequoia-openpgp-1+crypto-nettle-dev (>= 1.19-~~) <!nocheck>, librust-stfu8-0.2+default-dev <!nocheck>, librust-thiserror-1+default-dev (>= 1.0.38-~~) <!nocheck>, librust-tokio-1+default-dev (>= 1.35.0-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"049460973e31c44767f0f796080f09504de21e4b4c5c2374030195755e03dcfa 3027 rust-sequoia-gpg-agent_0.2.0-1.dsc fee27def40426a0b08bd4c9227396284bd1c96ced66ec3cc5f915f94b85f3b09 92506 rust-sequoia-gpg-agent_0.2.0.orig.tar.gz 06a9612cddf0d4fe063b34316f5275dee76a1d1ab2998f2537795745582f8a8c 2676 rust-sequoia-gpg-agent_0.2.0-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-sequoia-gpg-agent"
+	],
+	"Files": [
+		"6af4645e13b9d9afbff8bce2bc900cb6 3027 rust-sequoia-gpg-agent_0.2.0-1.dsc f4c3389e2ab0f7db73141a56bc3ad231 92506 rust-sequoia-gpg-agent_0.2.0.orig.tar.gz 6848ba665d4a20562b75313e9f3ba6cc 2676 rust-sequoia-gpg-agent_0.2.0-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://sequoia-pgp.org/"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-sequoia-gpg-agent"
+	],
+	"Package-List": [
+		"librust-sequoia-gpg-agent-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-lazy-static-1+default-dev, librust-tempfile-3+default-dev, librust-tokio-test-0.4+default-dev"
+	],
+	"Uploaders": [
+		"Alexander Kjäll <alexander.kjall@gmail.com>, Holger Levsen <holger@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/sequoia-gpg-agent"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/sequoia-gpg-agent]"
+	],
+	"Version": [
+		"0.2.0-1"
+	]
+}
