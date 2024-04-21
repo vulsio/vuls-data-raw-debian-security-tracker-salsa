@@ -6,10 +6,10 @@
 		"dbus-broker"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), dh-package-notes, libapparmor-dev (>= 3.0), libaudit-dev (>= 2.7), libcap-ng-dev (>= 0.6), libdbus-1-dev (>= 1.10), libexpat1-dev (>= 2.2), libselinux1-dev (>= 2.5), libsystemd-dev (>= 230), linux-libc-dev (>= 4.14), meson (>= 0.44), pkg-config (>= 0.29), python3-docutils (>= 0.13) <!nodoc>, systemd (>= 230)"
+		"debhelper-compat (= 13), dh-package-notes, libapparmor-dev (>= 3.0), libaudit-dev (>= 2.7), libcap-ng-dev (>= 0.6), libdbus-1-dev (>= 1.10), libexpat1-dev (>= 2.2), libselinux1-dev (>= 2.5), libsystemd-dev (>= 230), linux-libc-dev (>= 4.14), meson (>= 0.44), pkgconf, python3-docutils (>= 0.13) <!nodoc>, systemd-dev"
 	],
 	"Checksums-Sha256": [
-		"658a23fbc98cd7a5510285f972311bd7faf113e5ca7a919437e3498c0cb2b989 2633 dbus-broker_35-1~bpo12+1.dsc d50daa31ff33f48693194596ea2aeb1a925183b59cdc82a550774e5c43982252 263388 dbus-broker_35.orig.tar.xz 00d52c28ce46ad4d53a1c131f3c2755f5494d141405ce234241d50f457418c4f 833 dbus-broker_35.orig.tar.xz.asc 7e5849ec6fb6b39913cddc1c55e17a0955dd5683ed21736217a332f9d60cdac8 11048 dbus-broker_35-1~bpo12+1.debian.tar.xz"
+		"3afc02300a63d8cde739187e087362b8c506e766e278ecdf9508c283be2a7dc8 2615 dbus-broker_36-1~bpo12+1.dsc d333d99bd2688135b6d6961e7ad1360099d186078781c87102230910ea4e162b 266084 dbus-broker_36.orig.tar.xz 1482dec1feed235de1d8339b39730bfb37e68a84287b1dbf0012eb7a2e46adac 833 dbus-broker_36.orig.tar.xz.asc b3bacd10e119edb4e199fc9c14570d2a36f1ae0f5220203ae08aeda847b07ef8 13580 dbus-broker_36-1~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/d/dbus-broker"
@@ -36,7 +36,7 @@
 		"misc"
 	],
 	"Standards-Version": [
-		"4.6.2"
+		"4.7.0"
 	],
 	"Testsuite": [
 		"autopkgtest"
@@ -54,6 +54,6 @@
 		"https://salsa.debian.org/utopia-team/dbus-broker.git"
 	],
 	"Version": [
-		"35-1~bpo12+1"
+		"36-1~bpo12+1"
 	]
 }
