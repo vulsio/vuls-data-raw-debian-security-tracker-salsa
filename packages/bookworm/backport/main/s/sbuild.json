@@ -1,0 +1,62 @@
+{
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"libsbuild-perl, sbuild, sbuild-debian-developer-setup, buildd, sbuild-qemu"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13)"
+	],
+	"Build-Depends-Indep": [
+		"dh-python, dh-sequence-python3, groff-base, libdpkg-perl (>= 1.21.14), libexception-class-perl, libfilesys-df-perl, libmime-lite-perl, libyaml-tiny-perl, python3-all"
+	],
+	"Checksums-Sha256": [
+		"3923ce21b13a35cad7c9545c69aa9403bf9437790c85f02dfa8d0c0446d3ee7b 2624 sbuild_0.85.7~bpo12+1.dsc 3db5d2c821cb6cd558f6225efa0dd842521a7ed0e52b0654cb957da026a74e4f 258904 sbuild_0.85.7~bpo12+1.tar.xz"
+	],
+	"Dgit": [
+		"e49cc65937304926516d51ad43320f4ffa2015a8 debian archive/debian/0.85.7_bpo12+1 https://git.dgit.debian.org/sbuild"
+	],
+	"Directory": [
+		"pool/main/s/sbuild"
+	],
+	"Format": [
+		"3.0 (native)"
+	],
+	"Maintainer": [
+		"sbuild maintainers <sbuild@packages.debian.org>"
+	],
+	"Package": [
+		"sbuild"
+	],
+	"Package-List": [
+		"buildd deb devel optional arch=all libsbuild-perl deb perl optional arch=all sbuild deb devel optional arch=all sbuild-debian-developer-setup deb devel optional arch=all sbuild-qemu deb devel optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"apt, apt-utils, build-essential, debootstrap, devscripts, diffoscope, distro-info, fakeroot, gnupg, lsb-release, mmdebstrap, python3-apt, sqop, sudo, uidmap"
+	],
+	"Uploaders": [
+		"Johannes Schauer Marin Rodrigues <josch@debian.org>, Michael Banck <mbanck@debian.org>, Francesco Paolo Lovergine <frankie@debian.org>, Wookey <wookey@debian.org>, Michael Stapelberg <stapelberg@debian.org>, Christian Kastner <ckk@debian.org>, Jochen Sprickerhof <jspricke@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/sbuild"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/sbuild.git"
+	],
+	"Version": [
+		"0.85.7~bpo12+1"
+	]
+}
