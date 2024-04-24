@@ -6,10 +6,10 @@
 		"swupdate, swupdate-www, libswupdate-dev, libswupdate0.1, swupdate-doc, lua-swupdate"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), dh-lua:native <!nolua>, dh-nodejs | dh-nodejs:any, graphviz <!nodoc>, liblua5.3-dev <!nolua>, libfdisk-dev, latexmk <!nodoc> | latexmk:native <!nodoc>, libconfig-dev, libcurl4-openssl-dev, libarchive-dev, libblkid-dev, libext2fs-dev, libgpiod-dev [linux-any], libjs-bootstrap4, libjs-dropzone:native, libjson-c-dev, librsync-dev, libssl-dev, libsystemd-dev, uuid-dev, zlib1g-dev, libzstd-dev, libp11-kit-dev <pkg.swupdate.p11>, libwolfssl-dev <pkg.swupdate.p11>, libmtd-dev [linux-any], libubi-dev [linux-any], libwebsockets-dev (>= 3.2.0) <!pkg.swupdate.noswuforwarder>, liburiparser-dev, libubootenv-dev [linux-any], libebgenv-dev [any-amd64 any-i386 any-arm64 armhf any-riscv64 any-ia64], libcmocka-dev, node-jquery, pkg-config, gawk, python3-sphinx:native <!nodoc>, texlive-latex-recommended <!nodoc>, texlive-fonts-recommended <!nodoc>, tex-gyre <!nodoc>, texlive-formats-extra <!nodoc> | texlive-formats-extra:native <!nodoc>"
+		"debhelper-compat (= 13), dh-lua:native <!nolua>, dh-nodejs | dh-nodejs:any, dh-sysuser, graphviz <!nodoc>, liblua5.3-dev <!nolua>, libfdisk-dev, latexmk <!nodoc> | latexmk:native <!nodoc>, libconfig-dev, libcurl4-openssl-dev, libarchive-dev, libblkid-dev, libext2fs-dev, libgpiod-dev [linux-any], libjs-bootstrap4, libjs-dropzone:native, libjson-c-dev, librsync-dev, libssl-dev, libsystemd-dev, uuid-dev, zlib1g-dev, libzstd-dev, libp11-kit-dev <pkg.swupdate.p11>, libwolfssl-dev <pkg.swupdate.p11>, libmtd-dev [linux-any], libubi-dev [linux-any], libwebsockets-dev (>= 3.2.0) <!pkg.swupdate.noswuforwarder>, liburiparser-dev, libubootenv-dev [linux-any], libebgenv-dev [any-amd64 any-i386 any-arm64 armhf any-riscv64 any-ia64], libcmocka-dev, node-jquery, pkg-config, gawk, python3-sphinx:native <!nodoc>, texlive-latex-recommended <!nodoc>, texlive-fonts-recommended <!nodoc>, tex-gyre <!nodoc>, texlive-formats-extra <!nodoc> | texlive-formats-extra:native <!nodoc>"
 	],
 	"Checksums-Sha256": [
-		"72156e1e7f8f1125c4ffe0cf6fd815f192e2f9a4b0240c96b96b1252be2bfdc3 3216 swupdate_2022.12+dfsg-4~bpo11+1.dsc 94584c998f171d3c46c1e3d6a35737417a28983282d90b223b30ac3f88daeae8 5418260 swupdate_2022.12+dfsg.orig.tar.xz db3351faf790d7589322390d31336898d7e2131f2702f847a614fa72a818a6be 21500 swupdate_2022.12+dfsg-4~bpo11+1.debian.tar.xz"
+		"9cdcb9a66f4272cfaa3b65e0e8c52df8592f60c65241d0840724be33d5fa0122 3260 swupdate_2022.12+dfsg-4+deb12u1~bpo11+1.dsc 94584c998f171d3c46c1e3d6a35737417a28983282d90b223b30ac3f88daeae8 5418260 swupdate_2022.12+dfsg.orig.tar.xz b2b10a3d0a7f1c57dd5c39690f45c66ba8145c80615f352e32359d17666dc16e 21532 swupdate_2022.12+dfsg-4+deb12u1~bpo11+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/s/swupdate"
@@ -54,6 +54,6 @@
 		"https://salsa.debian.org/debian/swupdate.git"
 	],
 	"Version": [
-		"2022.12+dfsg-4~bpo11+1"
+		"2022.12+dfsg-4+deb12u1~bpo11+1"
 	]
 }
