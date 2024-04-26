@@ -6,16 +6,16 @@
 		"librust-nix-dev"
 	],
 	"Build-Depends": [
-		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-bitflags-1+default-dev (>= 1.1-~~) <!nocheck>, librust-cfg-if-1+default-dev <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.137-~~) <!nocheck>, librust-libc-0.2+extra-traits-dev (>= 0.2.137-~~) <!nocheck>, librust-memoffset-0.6+default-dev (>= 0.6.3-~~) <!nocheck>, librust-pin-utils-0.1+default-dev <!nocheck>, librust-static-assertions-1+default-dev <!nocheck>"
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native (>= 1.56) <!nocheck>, libstd-rust-dev <!nocheck>, librust-bitflags-1+default-dev (>= 1.1-~~) <!nocheck>, librust-cfg-if-1+default-dev <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.137-~~) <!nocheck>, librust-libc-0.2+extra-traits-dev (>= 0.2.137-~~) <!nocheck>, librust-memoffset-0.6+default-dev (>= 0.6.3-~~) <!nocheck>, librust-pin-utils-0.1+default-dev <!nocheck>, librust-static-assertions-1+default-dev <!nocheck>"
 	],
 	"Checksums-Sha256": [
-		"a8d0df854cd91b92682bb7fb5fc3913b13cecd385a4611f8d8a58d293e884fc0 2806 rust-nix_0.26.2-1.dsc bfdda3d196821d6af13126e40375cdf7da646a96114af134d5f417a9a1dc8e1a 277973 rust-nix_0.26.2.orig.tar.gz 8d24f8c910e1e4e0eb88d6cdf53d2b38093a2e0f2961302c3a18ef0017b85bfe 15452 rust-nix_0.26.2-1.debian.tar.xz"
+		"b9c330a225067ad15aecf457dae340cbd083af6aed9f9d5ea14da82e8e9ae380 2816 rust-nix_0.26.2-2.dsc bfdda3d196821d6af13126e40375cdf7da646a96114af134d5f417a9a1dc8e1a 277973 rust-nix_0.26.2.orig.tar.gz 38b4fe87020545683f06e7935542465ab6543743c182ea6d98d90840da93b969 17000 rust-nix_0.26.2-2.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/r/rust-nix"
 	],
 	"Files": [
-		"bae4a2ce0d646929e69dfc0c24041abe 2806 rust-nix_0.26.2-1.dsc 580f8f88379ff0678e8336a781dda55d 277973 rust-nix_0.26.2.orig.tar.gz eb5ae456abc0e7258b8e4d2a7d206ffa 15452 rust-nix_0.26.2-1.debian.tar.xz"
+		"bbecb4b90c1908a0bec0c56c65aa9d73 2816 rust-nix_0.26.2-2.dsc 580f8f88379ff0678e8336a781dda55d 277973 rust-nix_0.26.2.orig.tar.gz d48f57aa2d714111fa057e58673a70c5 17000 rust-nix_0.26.2-2.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -36,13 +36,13 @@
 		"misc"
 	],
 	"Standards-Version": [
-		"4.6.1"
+		"4.6.2"
 	],
 	"Testsuite": [
 		"autopkgtest"
 	],
 	"Testsuite-Triggers": [
-		"dh-cargo, librust-assert-impl-0.1+default-dev, librust-caps-0.5+default-dev, librust-lazy-static-1+default-dev, librust-parking-lot-0.12+default-dev, librust-rand-0.8+default-dev, librust-semver-1+default-dev, librust-sysctl-0.4+default-dev, librust-tempfile-3+default-dev"
+		"dh-cargo, librust-assert-impl-0.1+default-dev, librust-caps-0.5+default-dev, librust-lazy-static-1+default-dev, librust-parking-lot-0.12+default-dev, librust-rand-0.8+default-dev, librust-semver-1+default-dev, librust-sysctl-0.5+default-dev, librust-tempfile-3+default-dev"
 	],
 	"Uploaders": [
 		"Paride Legovini <paride@debian.org>, Wolfgang Silbermayr <wolfgang@silbermayr.at>, kpcyrd <git@rxv.cc>"
@@ -54,6 +54,6 @@
 		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/nix]"
 	],
 	"Version": [
-		"0.26.2-1"
+		"0.26.2-2"
 	]
 }
