@@ -6,13 +6,13 @@
 		"at-spi2-core, at-spi2-common, at-spi2-core-udeb, libatspi2.0-0, libatspi0-udeb, libatspi2.0-dev, gir1.2-atspi-2.0, at-spi2-doc, libatk-adaptor, libatk-adaptor-udeb, libatk-bridge2.0-0, libatk-bridge-2.0-0-udeb, libatk-bridge2.0-dev, libatk1.0-0, libatk1.0-udeb, libatk1.0-dev, libatk1.0-doc, gir1.2-atk-1.0"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), dbus, libdbus-1-dev, dbus-broker [linux-any], libsystemd-dev [linux-any], libglib2.0-dev (>= 2.62), libxml2-dev, libx11-dev, libxtst-dev, meson (>= 0.63.0), pkg-config, libgirepository1.0-dev, gtk-doc-tools, gi-docgen, python3-sphinx, gobject-introspection | dh-sequence-gir, xauth <!nocheck>, xvfb <!nocheck>, at-spi2-core <!nocheck>"
+		"debhelper-compat (= 13), dbus, libdbus-1-dev, dbus-broker [linux-any], libsystemd-dev [linux-any], libglib2.0-dev (>= 2.62), libxml2-dev, libx11-dev, libxtst-dev, meson (>= 0.63.0), pkgconf, libgirepository1.0-dev, gtk-doc-tools, gi-docgen, python3-sphinx, gobject-introspection | dh-sequence-gir, xauth <!nocheck>, xvfb <!nocheck>, at-spi2-core <!nocheck>"
 	],
 	"Build-Depends-Indep": [
 		"docbook-xml <!nodoc>, libglib2.0-doc <!nodoc>, libglib2.0-dev-bin <!nodoc>"
 	],
 	"Checksums-Sha256": [
-		"dd98e39d5f10945eff0e58adcbb3a997f4c0b9c47795489151c0e356b9290be5 3727 at-spi2-core_2.50.0-1~bpo12+1.dsc e9f5a8c8235c9dd963b2171de9120301129c677dde933955e1df618b949c4adc 567664 at-spi2-core_2.50.0.orig.tar.xz e56ae2ad1e7d5619d8fcc964a8b1aeafd4a4ae5848a1db58dafbea4b2aa93cac 19200 at-spi2-core_2.50.0-1~bpo12+1.debian.tar.xz"
+		"1740f0293efe0d788a8a85263bc7385f9268645aee43f8fe52bf5862764fbd0d 3753 at-spi2-core_2.52.0-1~bpo12+1.dsc 0ac3fc8320c8d01fa147c272ba7fa03806389c6b03d3c406d0823e30e35ff5ab 574684 at-spi2-core_2.52.0.orig.tar.xz f792c4e0b66215088650445eacafd1176977753d34f06fbeb76929b297fcc12a 19768 at-spi2-core_2.52.0-1~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/a/at-spi2-core"
@@ -57,6 +57,6 @@
 		"https://salsa.debian.org/a11y-team/at-spi2-core.git"
 	],
 	"Version": [
-		"2.50.0-1~bpo12+1"
+		"2.52.0-1~bpo12+1"
 	]
 }
