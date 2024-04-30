@@ -1,0 +1,62 @@
+{
+	"Architecture": [
+		"amd64 arm64 ppc64el all"
+	],
+	"Binary": [
+		"librocfft0, librocfft-dev, librocfft0-tests, librocfft-doc"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), cmake, hipcc (>= 5.6.1~), libamdhip64-dev (>= 5.6.1~), libamd-comgr-dev (>= 6.0~), libhsa-runtime-dev (>= 5.7.1~), rocm-cmake (>= 5.3.0), python3-dev, libsqlite3-dev, libhiprand-dev, libboost-program-options-dev, libfftw3-dev, libgtest-dev <!nocheck>"
+	],
+	"Build-Depends-Indep": [
+		"dh-sequence-sphinxdoc <!nodoc>, doxygen <!nodoc>, python3-breathe <!nodoc>, python3-sphinx <!nodoc>, python3-sphinx-rtd-theme <!nodoc>, libjs-jquery <!nodoc>, libjs-mathjax <!nodoc>, libjs-sphinxdoc <!nodoc>, libjs-underscore <!nodoc>"
+	],
+	"Checksums-Sha256": [
+		"442b224d7056836c6eb94299222cdbebeb1ea9be918bb763a0e71b1759b56a53 2780 rocfft_5.7.1-1.dsc 202f11f60dc8738e29bbd1b397d419e032794f8bffb7f48f2b31f09cc5f08bc2 1192841 rocfft_5.7.1.orig.tar.gz 85d68bddd93b8b41779379eb3f1c5049af4770eed6b05c679f199862127f6c13 12520 rocfft_5.7.1-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rocfft"
+	],
+	"Files": [
+		"88f1046bee4a473e37a9a98834075914 2780 rocfft_5.7.1-1.dsc 41fe65e3012f797c271b3779262041cb 1192841 rocfft_5.7.1.orig.tar.gz 9c49c9e61e7d311b4dfc6e0df4814ee9 12520 rocfft_5.7.1-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/ROCm/rocfft"
+	],
+	"Maintainer": [
+		"Debian ROCm Team <debian-ai@lists.debian.org>"
+	],
+	"Package": [
+		"rocfft"
+	],
+	"Package-List": [
+		"librocfft-dev deb libdevel optional arch=amd64,arm64,ppc64el librocfft-doc deb doc optional arch=all profile=!nodoc librocfft0 deb libs optional arch=amd64,arm64,ppc64el librocfft0-tests deb libdevel optional arch=amd64,arm64,ppc64el profile=!nocheck"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Maxime Chambonnet <maxzor@maxzor.eu>, Cordell Bloor <cgmb@slerp.xyz>, Christian Kastner <ckk@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rocm-team/rocfft"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rocm-team/rocfft.git"
+	],
+	"Version": [
+		"5.7.1-1"
+	]
+}
