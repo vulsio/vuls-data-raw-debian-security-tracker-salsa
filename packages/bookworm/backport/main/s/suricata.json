@@ -6,10 +6,10 @@
 		"suricata"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), dh-python, libbpf-dev (>= 1:0.7.0) [amd64 arm64 armel armhf i386 ppc64el s390x ppc64 sparc64 x32], clang [amd64 arm64 armel armhf i386 ppc64el s390x ppc64 sparc64 x32], llvm [amd64 arm64 armel armhf i386 ppc64el s390x ppc64 sparc64 x32], libcap-ng-dev, libelf-dev [amd64 arm64 armel armhf i386 ppc64el s390x ppc64 sparc64 x32], libevent-dev, libgeoip-dev, libhiredis-dev, libjansson-dev, libluajit-5.1-dev [i386 amd64 powerpc mips mipsel armel armhf], libhyperscan-dev (>= 4.4.0) [i386 amd64 x32], rustc (>= 1.61.0), cargo (>= 0.29.0), liblz4-dev, libmagic-dev, libmaxminddb-dev, libnet1-dev | libnet-dev, libnetfilter-log-dev, libnetfilter-queue-dev, libnspr4-dev, libnss3-dev, libpcap-dev, libpcre2-dev, libyaml-dev, python3:any, zlib1g-dev | libz-dev, libhtp-dev (>= 1:0.5.46), procps, dpdk-dev [amd64 arm64 riscv64 ppc64el], libnuma-dev [amd64 arm64 riscv64 ppc64el]"
+		"debhelper-compat (= 13), dh-python, libbpf-dev (>= 1:0.7.0) [amd64 arm64 armel armhf i386 ppc64el s390x ppc64 sparc64 x32], clang [amd64 arm64 armel armhf i386 ppc64el s390x ppc64 sparc64 x32], llvm [amd64 arm64 armel armhf i386 ppc64el s390x ppc64 sparc64 x32], libcap-ng-dev, libelf-dev [amd64 arm64 armel armhf i386 ppc64el s390x ppc64 sparc64 x32], libevent-dev, libgeoip-dev, libhiredis-dev, libjansson-dev, libluajit-5.1-dev [i386 amd64 powerpc mips mipsel armel armhf], libhyperscan-dev (>= 4.4.0) [i386 amd64 x32], rustc (>= 1.61.0), cargo (>= 0.29.0), liblz4-dev, libmagic-dev, libmaxminddb-dev, libnet1-dev | libnet-dev, libnetfilter-log-dev, libnetfilter-queue-dev, libnspr4-dev, libnss3-dev, libpcap-dev, libpcre2-dev, libyaml-dev, python3:any, zlib1g-dev | libz-dev, libhtp-dev (>= 1:0.5.48), procps, dpdk-dev [amd64 arm64 riscv64 ppc64el], libnuma-dev [amd64 arm64 riscv64 ppc64el]"
 	],
 	"Checksums-Sha256": [
-		"3dc3b3718dad1c364ea79a4f8962f0cfaf57496b1413e7f47c63deba9e158e03 2900 suricata_7.0.3-1~bpo12+1.dsc 84c8523617ccf8d4605a01137a7513655c448cb19877f8a98bc994b5b2ec9e0e 18266012 suricata_7.0.3.orig.tar.xz 73edc956fd64b007cdd89ed63b5501db3f885a3634ee70a5d3016ce9995b8747 26056 suricata_7.0.3-1~bpo12+1.debian.tar.xz"
+		"e0f5bc056f0d0afdd8686137869322281b8ab5e0cf7821df6de344829559336e 2871 suricata_7.0.5-2~bpo12+1.dsc d08320fc641ac8bea0e0bfb08cae67fa04e8df9450f2b297b82c10bea846ff80 18276836 suricata_7.0.5.orig.tar.xz 09f68fcdc5198f1c7aafa6d1c3dea488a0bc15092e8660294d72c27b6e7151d7 26208 suricata_7.0.5-2~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/s/suricata"
@@ -42,7 +42,7 @@
 		"autopkgtest"
 	],
 	"Testsuite-Triggers": [
-		"@builddeps@, geoip-database, procps, systemd"
+		"procps, systemd"
 	],
 	"Uploaders": [
 		"Sascha Steinbiss <satta@debian.org>"
@@ -54,6 +54,6 @@
 		"https://salsa.debian.org/pkg-suricata-team/pkg-suricata.git"
 	],
 	"Version": [
-		"1:7.0.3-1~bpo12+1"
+		"1:7.0.5-2~bpo12+1"
 	]
 }
