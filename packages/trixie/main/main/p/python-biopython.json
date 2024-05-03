@@ -6,19 +6,16 @@
 		"python3-biopython, python-biopython-doc, python3-biopython-sql"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), dh-sequence-python3, python3-all-dev, python3-numpy, flex, python3-reportlab (>= 4.0.4-1~) <!nocheck>, hevea, texlive-latex-base, texlive-latex-extra, texlive-fonts-recommended, bwa <!nocheck>, clustalo <!nocheck>, clustalw <!nocheck>, dialign <!nocheck>, dssp <!nocheck>, emboss <!nocheck>, fasttree <!nocheck>, mafft <!nocheck>, muscle3 [i386 amd64 x32] <!nocheck>, ncbi-blast+ <!nocheck>, phylip <!nocheck>, phyml [any-amd64 any-i386] <!nocheck>, prank <!nocheck>, probcons <!nocheck>, python3-networkx <!nocheck>, python3-mysqldb <!nocheck>, python3-matplotlib <!nocheck>, python3-mmtf <!nocheck>, python3-pil <!nocheck>, python3-rdflib <!nocheck>, python3-psycopg2 <!nocheck>, python3-pygments <!nocheck>, python3-scipy <!nocheck>, python3-setuptools, raxml [any-amd64 any-i386] <!nocheck>, samtools <!nocheck>, t-coffee <!nocheck>, wise <!nocheck>"
+		"debhelper-compat (= 13), dh-sequence-python3, python3-all-dev, python3-numpy, flex, python3-reportlab (>= 4.0.4-1~) <!nocheck>, hevea, texlive-latex-base, texlive-latex-extra, texlive-fonts-recommended, bwa <!nocheck>, clustalo <!nocheck>, clustalw [any-amd64] <!nocheck>, dialign <!nocheck>, dssp <!nocheck>, emboss [!armel !armhf !i386 !hppa !m68k !powerpc !s390x !sh4] <!nocheck>, fasttree <!nocheck>, mafft <!nocheck>, muscle3 [i386 amd64 x32] <!nocheck>, ncbi-blast+ <!nocheck>, phylip <!nocheck>, phyml [any-amd64] <!nocheck>, prank <!nocheck>, probcons <!nocheck>, python3-networkx <!nocheck>, python3-mysqldb <!nocheck>, python3-matplotlib <!nocheck>, python3-mmtf <!nocheck>, python3-pil <!nocheck>, python3-rdflib <!nocheck>, python3-psycopg2 [any-amd64] <!nocheck>, python3-pygments <!nocheck>, python3-scipy <!nocheck>, python3-setuptools, raxml [any-amd64 any-i386] <!nocheck>, samtools [any-amd64] <!nocheck>, t-coffee <!nocheck>, wise <!nocheck>"
 	],
 	"Checksums-Sha256": [
-		"951f310c8f6dceef6f5fa2ecb7d734e0f0ba41c1719883dbc8063790821e08d9 3347 python-biopython_1.81+dfsg-3.dsc 459868a86c2e47a0cc2f19be1371dd5309474b3106d17093cadebf7abdd03413 11483844 python-biopython_1.81+dfsg.orig.tar.xz 8e7c5fd6cc1083dac06685efc2b3d0348f2f4f7e48de9f937889f1ee2fba5e85 20648 python-biopython_1.81+dfsg-3.debian.tar.xz"
-	],
-	"Dgit": [
-		"fc4a86917f01b1991062e474f3aff0dd4cb5b688 debian archive/debian/1.81+dfsg-3 https://git.dgit.debian.org/python-biopython"
+		"fe7fce536a8239450272e0abde88f1a37b14980bad10cf47b63b94bc6b98ba26 3306 python-biopython_1.83+dfsg1-2.dsc 6f9a162a7546d28bfb96489d875fa1b95a378106f8d5f8011e720c503b00e714 11459180 python-biopython_1.83+dfsg1.orig.tar.xz c59597390196cb950f3a49d334cc50b0c5007fab7da1ca725bd2688fe048b801 22024 python-biopython_1.83+dfsg1-2.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/p/python-biopython"
 	],
 	"Files": [
-		"5a20441ebcc219602c99da0a5957467e 3347 python-biopython_1.81+dfsg-3.dsc 67dfa4cf427956d8dbb5be53c2b62d49 11483844 python-biopython_1.81+dfsg.orig.tar.xz be0f3c2b225c80fe9357602637ddac0a 20648 python-biopython_1.81+dfsg-3.debian.tar.xz"
+		"1c8677c33125ae0a5f524f56ab8615a0 3306 python-biopython_1.83+dfsg1-2.dsc cd6fca4202011340ec72576239633b6d 11459180 python-biopython_1.83+dfsg1.orig.tar.xz a43269a324dc234c47e9c96a6b2a208e 22024 python-biopython_1.83+dfsg1-2.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -60,6 +57,6 @@
 		"https://salsa.debian.org/med-team/python-biopython.git"
 	],
 	"Version": [
-		"1.81+dfsg-3"
+		"1.83+dfsg1-2"
 	]
 }
