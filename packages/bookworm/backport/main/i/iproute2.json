@@ -1,15 +1,15 @@
 {
 	"Architecture": [
-		"linux-any all"
+		"linux-any"
 	],
 	"Binary": [
-		"iproute2, iproute2-doc"
+		"iproute2"
 	],
 	"Build-Depends": [
-		"bison, debhelper-compat (= 13), dh-package-notes, flex, libxtables-dev, libatm1-dev, libbsd-dev, libbpf-dev (>= 1:0.1.0~), libcap-dev, libdb-dev, libelf-dev, libmnl-dev, libselinux1-dev, linux-libc-dev, pkg-config, po-debconf, zlib1g-dev"
+		"bison, debhelper-compat (= 13), dh-package-notes, flex, libxtables-dev, libatm1-dev, libbsd-dev, libbpf-dev (>= 1:0.1.0~), libcap-dev, libdb-dev, libelf-dev, libmnl-dev, libnsl-dev, libselinux1-dev, linux-libc-dev, pkgconf, po-debconf, zlib1g-dev"
 	],
 	"Checksums-Sha256": [
-		"9afb90f89833144aaf191103a0b81ecfad705375328688b6f2f696c8cd243d2b 2278 iproute2_6.7.0-2~bpo12+1.dsc ff942dd9828d7d1f867f61fe72ce433078c31e5d8e4a78e20f02cb5892e8841d 919800 iproute2_6.7.0.orig.tar.xz a3a291784c1019c928b6fca0479f9121b0b5389dcbd22578a9624a975d925d8e 39968 iproute2_6.7.0-2~bpo12+1.debian.tar.xz"
+		"db7d8c0c9ebd61a4bad34f3a2a68a5debf5f4d3212173398ad89c0a688727164 2229 iproute2_6.8.0-1~bpo12+1.dsc 03a6cca3d71a908d1f15f7b495be2b8fe851f941458dc4664900d7f45fcf68ce 913512 iproute2_6.8.0.orig.tar.xz 962c6c448a7be3ba0384bff288becfc7f75cc09e379e700f3f6104b706a8f485 38980 iproute2_6.8.0-1~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/i/iproute2"
@@ -27,7 +27,7 @@
 		"iproute2"
 	],
 	"Package-List": [
-		"iproute2 deb net important arch=linux-any iproute2-doc deb doc optional arch=all"
+		"iproute2 deb net important arch=linux-any"
 	],
 	"Priority": [
 		"optional"
@@ -51,6 +51,6 @@
 		"https://salsa.debian.org/kernel-team/iproute2.git"
 	],
 	"Version": [
-		"6.7.0-2~bpo12+1"
+		"6.8.0-1~bpo12+1"
 	]
 }
