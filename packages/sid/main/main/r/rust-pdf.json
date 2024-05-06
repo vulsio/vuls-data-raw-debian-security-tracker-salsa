@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-pdf-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-aes-0.8+default-dev (>= 0.8.2-~~) <!nocheck>, librust-bitflags-1+default-dev (>= 1.3-~~) <!nocheck>, librust-cbc-0.1+default-dev <!nocheck>, librust-datasize-0.2+default-dev (>= 0.2.13-~~) <!nocheck>, librust-deflate-1+default-dev <!nocheck>, librust-fax-0.2+default-dev <!nocheck>, librust-globalcache-0.2+default-dev <!nocheck>, librust-globalcache-0.2+sync-dev <!nocheck>, librust-inflate-0.4+default-dev (>= 0.4.5-~~) <!nocheck>, librust-istring-0.3+default-dev (>= 0.3.3-~~) <!nocheck>, librust-istring-0.3+size-dev (>= 0.3.3-~~) <!nocheck>, librust-istring-0.3+std-dev (>= 0.3.3-~~) <!nocheck>, librust-itertools-0.10+default-dev <!nocheck>, librust-jpeg-decoder-0.3-dev <!nocheck>, librust-log-0.4+default-dev (>= 0.4.14-~~) <!nocheck>, librust-md5-0.7+default-dev <!nocheck>, librust-once-cell-1+default-dev (>= 1.5.2-~~) <!nocheck>, librust-pdf-derive-0.1+default-dev (>= 0.1.22-~~) <!nocheck>, librust-sha2-0.10+default-dev (>= 0.10.2-~~) <!nocheck>, librust-snafu-0.7+default-dev (>= 0.7.1-~~) <!nocheck>, librust-stringprep-0.1+default-dev (>= 0.1.2-~~) <!nocheck>, librust-weezl-0.1+default-dev (>= 0.1.4-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"fb5e3cdc2c69e4fa15783f11dde309d7bedb2a33da44b4400309da2e7f572721 3225 rust-pdf_0.8.0-1.dsc 2fbf9b11d32e9323b219368cc9a858485f3408901721a28b1b7b1aa18a747d69 81219 rust-pdf_0.8.0.orig.tar.gz 7eebc8a67bb0c3d48583df01f76ce5d6597dcf679a495b15778a05b9087ba37e 5080 rust-pdf_0.8.0-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-pdf"
+	],
+	"Files": [
+		"ea792a0f9fc9c1f925aef10c53207380 3225 rust-pdf_0.8.0-1.dsc 7fc0ad5734d8cbe0c14165d3a4823ca5 81219 rust-pdf_0.8.0.orig.tar.gz 8e0fedb8f2e459b62d90ecb299d10a76 5080 rust-pdf_0.8.0-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-pdf"
+	],
+	"Package-List": [
+		"librust-pdf-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-glob-0.3+default-dev"
+	],
+	"Uploaders": [
+		"Fab Stz <fabstz-it@yahoo.fr>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/pdf"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/pdf]"
+	],
+	"Version": [
+		"0.8.0-1"
+	]
+}
