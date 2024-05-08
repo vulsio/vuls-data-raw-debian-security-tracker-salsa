@@ -6,16 +6,16 @@
 		"librust-trust-dns-proto-dev"
 	],
 	"Build-Depends": [
-		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-async-trait-0.1+default-dev (>= 0.1.43-~~) <!nocheck>, librust-cfg-if-1+default-dev <!nocheck>, librust-data-encoding-2+default-dev (>= 2.2.0-~~) <!nocheck>, librust-enum-as-inner-0.4+default-dev <!nocheck>, librust-futures-channel-0.3+std-dev (>= 0.3.5-~~) <!nocheck>, librust-futures-io-0.3+std-dev (>= 0.3.5-~~) <!nocheck>, librust-futures-util-0.3+std-dev (>= 0.3.5-~~) <!nocheck>, librust-idna-0.4+default-dev <!nocheck> | librust-idna-0.3+default-dev <!nocheck>, librust-ipnet-2+default-dev (>= 2.3.0-~~) <!nocheck>, librust-lazy-static-1+default-dev (>= 1.2.0-~~) <!nocheck>, librust-rand-0.8+default-dev <!nocheck>, librust-smallvec-1+default-dev (>= 1.6-~~) <!nocheck>, librust-thiserror-1+default-dev (>= 1.0.20-~~) <!nocheck>, librust-tinyvec-1+alloc-dev (>= 1.1.1-~~) <!nocheck>, librust-tinyvec-1+default-dev (>= 1.1.1-~~) <!nocheck>, librust-tokio-1+io-util-dev <!nocheck>, librust-tokio-1+net-dev <!nocheck>, librust-tokio-1+rt-dev <!nocheck>, librust-tokio-1+rt-multi-thread-dev <!nocheck>, librust-tokio-1+time-dev <!nocheck>, librust-tracing-0.1+default-dev (>= 0.1.30-~~) <!nocheck>, librust-url-2+default-dev (>= 2.1.0-~~) <!nocheck>, librust-ring-dev"
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-async-trait-0.1+default-dev (>= 0.1.43-~~) <!nocheck>, librust-cfg-if-1+default-dev <!nocheck>, librust-data-encoding-2+default-dev (>= 2.2.0-~~) <!nocheck>, librust-enum-as-inner-0.6+default-dev <!nocheck>, librust-futures-channel-0.3+std-dev (>= 0.3.5-~~) <!nocheck>, librust-futures-io-0.3+std-dev (>= 0.3.5-~~) <!nocheck>, librust-futures-util-0.3+std-dev (>= 0.3.5-~~) <!nocheck>, librust-idna-0.4+default-dev <!nocheck> | librust-idna-0.3+default-dev <!nocheck>, librust-ipnet-2+default-dev (>= 2.3.0-~~) <!nocheck>, librust-lazy-static-1+default-dev (>= 1.2.0-~~) <!nocheck>, librust-rand-0.8+default-dev <!nocheck>, librust-smallvec-1+default-dev (>= 1.6-~~) <!nocheck>, librust-thiserror-1+default-dev (>= 1.0.20-~~) <!nocheck>, librust-tinyvec-1+alloc-dev (>= 1.1.1-~~) <!nocheck>, librust-tinyvec-1+default-dev (>= 1.1.1-~~) <!nocheck>, librust-tokio-1+io-util-dev <!nocheck>, librust-tokio-1+net-dev <!nocheck>, librust-tokio-1+rt-dev <!nocheck>, librust-tokio-1+rt-multi-thread-dev <!nocheck>, librust-tokio-1+time-dev <!nocheck>, librust-tracing-0.1+default-dev (>= 0.1.30-~~) <!nocheck>, librust-url-2+default-dev (>= 2.1.0-~~) <!nocheck>, librust-ring-dev"
 	],
 	"Checksums-Sha256": [
-		"efdec857656210cdf8f1e5f6f97851f51257975ed05ac1ac66f8f5d815870eeb 3915 rust-trust-dns-proto_0.22.0-11.dsc 3161ca662e0287d1731e1f7d0461d488112e0a5a83650b96e36c04da541f8e6c 300052 rust-trust-dns-proto_0.22.0.orig.tar.gz 02dc7624114e6f7b27a6d840fa01c6d6f8d92200156b95b0fa816a935fd2e5f6 11216 rust-trust-dns-proto_0.22.0-11.debian.tar.xz"
+		"afd3b75faae13c129f43157d17d211e5a1cf99522419c5452696f9974fdb2703 3814 rust-trust-dns-proto_0.22.0-12.dsc 3161ca662e0287d1731e1f7d0461d488112e0a5a83650b96e36c04da541f8e6c 300052 rust-trust-dns-proto_0.22.0.orig.tar.gz 467ddbde6b842c88d820f5d897f2880b6ea1fa4dedd2c80db0833d8f57a4c276 11500 rust-trust-dns-proto_0.22.0-12.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/r/rust-trust-dns-proto"
 	],
 	"Files": [
-		"28b224c8ddaedf145f317732aad08b32 3915 rust-trust-dns-proto_0.22.0-11.dsc baa5d44e70c7dc10d757fa8ca594a405 300052 rust-trust-dns-proto_0.22.0.orig.tar.gz 7f5e6b8d5f3d74866db03b8fab08883c 11216 rust-trust-dns-proto_0.22.0-11.debian.tar.xz"
+		"674a9ec4721d4dd1beda0f68128dfb49 3814 rust-trust-dns-proto_0.22.0-12.dsc baa5d44e70c7dc10d757fa8ca594a405 300052 rust-trust-dns-proto_0.22.0.orig.tar.gz 5ed1191bb4c249ca47ec79da7b3eea07 11500 rust-trust-dns-proto_0.22.0-12.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -57,6 +57,6 @@
 		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/trust-dns-proto]"
 	],
 	"Version": [
-		"0.22.0-11"
+		"0.22.0-12"
 	]
 }
