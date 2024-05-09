@@ -1,0 +1,62 @@
+{
+	"Architecture": [
+		"any-amd64 any-i386 arm64 armel armhf mips mips64el mipsel ppc64el alpha hppa m68k powerpc powerpcspe ppc64 sh4 sparc64 all"
+	],
+	"Binary": [
+		"python3-cobra, python-cobra-data"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-sequence-python3, libglpk-dev, python3-dev, python3-setuptools, python3-depinfo, python3-importlib-resources, python3-numpy, python3-optlang (>= 1.7.0-1~), python3-ruamel.yaml, python3-pandas, python3-pip, python3-pipdeptree, python3-requests, python3-swiglpk (>= 5.0.8-1~), python3-tabulate, python3-sbml5, python3-simplejson, cython3, python3-pytest <!nocheck>, python3-pytest-benchmark <!nocheck>, python3-pytest-mock <!nocheck>, python3-jsonschema <!nocheck>, libsbml5-dev <!nocheck>, python3-matplotlib <!nocheck>, python3-appdirs <!nocheck>, python3-diskcache <!nocheck>, python3-httpx <!nocheck>, python3-pydantic <!nocheck>, python3-rich <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"e48932d0a8c0f9e3cd8427fae7577e0e122194ea02194c075b46c0551e1ee524 3121 python-cobra_0.29.0-2.dsc b334b514f0253dfd1f3e1860b687c76005aae55ed98a213166c401b5780fcbc2 3649668 python-cobra_0.29.0.orig.tar.gz df668f6702f022b4e18f19dd75ae71dfcae3085ad92d0622d7b2fb6f8650766a 8884 python-cobra_0.29.0-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-cobra"
+	],
+	"Files": [
+		"8d7ecea61e932e5c38c485668440a630 3121 python-cobra_0.29.0-2.dsc d31eb29abffaa85b8db2a936d21bd42f 3649668 python-cobra_0.29.0.orig.tar.gz ad6a395572324288c993f35f6d3e08b3 8884 python-cobra_0.29.0-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://opencobra.github.io/cobrapy/"
+	],
+	"Maintainer": [
+		"Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"python-cobra"
+	],
+	"Package-List": [
+		"python-cobra-data deb python optional arch=all python3-cobra deb python optional arch=any-amd64,arm64,armel,armhf,any-i386,mips,mips64el,mipsel,ppc64el,alpha,hppa,m68k,powerpc,powerpcspe,ppc64,sh4,sparc64,x32"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.7.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"python3-jsonschema, python3-pytest, python3-pytest-benchmark, python3-pytest-mock, python3-sbml5, python3-scipy, quilt"
+	],
+	"Uploaders": [
+		"Afif Elghraoui <afif@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/med-team/python-cobra"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/med-team/python-cobra.git"
+	],
+	"Version": [
+		"0.29.0-2"
+	]
+}
