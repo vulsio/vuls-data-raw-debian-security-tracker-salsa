@@ -1,0 +1,62 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-gstreamer-audio-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native (>= 1.70) <!nocheck>, libstd-rust-dev <!nocheck>, librust-cfg-if-1+default-dev <!nocheck>, librust-glib-0.19+default-dev <!nocheck>, librust-gstreamer-0.22+default-dev <!nocheck>, librust-gstreamer-audio-sys-0.22+default-dev <!nocheck>, librust-gstreamer-base-0.22+default-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-once-cell-1+default-dev <!nocheck>, librust-smallvec-1+default-dev <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"f71c9d189e261cef7c44bf846f54feff61438fc88e321d998c062d35feec6ed7 2764 rust-gstreamer-audio_0.22.4-2.dsc 73a5de9ced05f9650168a74c7a4afeddbf3e63af595a7d56a700765be3b4869c 72980 rust-gstreamer-audio_0.22.4.orig.tar.gz 2355eb914fe21483527fbe6c620480c6007d37f238c151f66b22cadf10065d06 3440 rust-gstreamer-audio_0.22.4-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-gstreamer-audio"
+	],
+	"Files": [
+		"74d055457b2da93c995f443b8a64df1f 2764 rust-gstreamer-audio_0.22.4-2.dsc 715638f5c6ebeafba6d955fc246d10ad 72980 rust-gstreamer-audio_0.22.4.orig.tar.gz acaf7864be5f4c1139a4af131cc9c67f 3440 rust-gstreamer-audio_0.22.4-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://gstreamer.freedesktop.org"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-gstreamer-audio"
+	],
+	"Package-List": [
+		"librust-gstreamer-audio-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-gir-format-check-0.1+default-dev, librust-itertools-0.10+default-dev, librust-serde-json-1+default-dev"
+	],
+	"Uploaders": [
+		"Matthias Geiger <werdahias@riseup.net>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gstreamer-audio"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/gstreamer-audio]"
+	],
+	"Version": [
+		"0.22.4-2"
+	]
+}

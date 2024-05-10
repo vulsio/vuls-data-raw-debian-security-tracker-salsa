@@ -6,22 +6,22 @@
 		"librust-gdk4-wayland-sys-dev"
 	],
 	"Build-Depends": [
-		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-glib-sys-0.18+default-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-system-deps-6+default-dev <!nocheck>, libgtk-4-dev <!nocheck>, libgirepository1.0-dev <!nocheck>, gir-rust-code-generator <!nocheck>, libgdk-pixbuf-2.0-dev <!nocheck>, libpango1.0-dev <!nocheck>, libharfbuzz-dev <!nocheck>, xmlstarlet <!nocheck>"
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native (>= 1.70) <!nocheck>, libstd-rust-dev <!nocheck>, librust-glib-sys-0.19+default-dev <!nocheck>, librust-glib-sys-0.19+v2-66-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-system-deps-6+default-dev <!nocheck>, libgtk-4-dev <!nocheck>, libgirepository1.0-dev, gir-rust-code-generator (>= 0.19.1), libgdk-pixbuf-2.0-dev, libpango1.0-dev, libharfbuzz-dev, xmlstarlet"
 	],
 	"Checksums-Sha256": [
-		"1ff9f19da62239d9dae32d72c11d32bf44a6193f5c7e3fd7c28c85e749e9fc0d 2642 rust-gdk4-wayland-sys_0.7.2-3.dsc d48159be256ae0212d5a2b9884627197d08082c7168b28775b53a0f9885d5624 3527 rust-gdk4-wayland-sys_0.7.2.orig.tar.gz 30723c73b01461e37416e1187a616d28b224ee18d268dfcb5cee11530796fd74 4052 rust-gdk4-wayland-sys_0.7.2-3.debian.tar.xz"
+		"66fab04a3f8b8d4f5e144403e0cc4cbd5eec013c670e61417fc3f93433916f5a 2678 rust-gdk4-wayland-sys_0.8.2-2.dsc 7a5fd3927c917184b0e8712624eebabdc7f0909b645d468c825f8ec627e61803 3608 rust-gdk4-wayland-sys_0.8.2.orig.tar.gz d628ec49ec24a09d46f03db9d8e16fd1798bec92ac62d42403f5e0e75f4d36e7 4268 rust-gdk4-wayland-sys_0.8.2-2.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/r/rust-gdk4-wayland-sys"
 	],
 	"Files": [
-		"ec7d1a710996bb5d3d15fda7d3fa1e2b 2642 rust-gdk4-wayland-sys_0.7.2-3.dsc b9bb80621ab443778aed0f9e50b1b583 3527 rust-gdk4-wayland-sys_0.7.2.orig.tar.gz f9a354d7447d48b7f497940186a7bfcd 4052 rust-gdk4-wayland-sys_0.7.2-3.debian.tar.xz"
+		"41ec47b652456b97cfb46ddbed2e1ae2 2678 rust-gdk4-wayland-sys_0.8.2-2.dsc 3196e9a9d995353cb97f92ad5b641044 3608 rust-gdk4-wayland-sys_0.8.2.orig.tar.gz 596cedb4333486ce0c64c31c7705834e 4268 rust-gdk4-wayland-sys_0.8.2-2.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
 	],
 	"Homepage": [
-		"https://gtk-rs.org/"
+		"https://gtk-rs.org/gtk4-rs"
 	],
 	"Maintainer": [
 		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
@@ -39,7 +39,7 @@
 		"misc"
 	],
 	"Standards-Version": [
-		"4.6.1"
+		"4.6.2"
 	],
 	"Testsuite": [
 		"autopkgtest"
@@ -57,6 +57,6 @@
 		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/gdk4-wayland-sys]"
 	],
 	"Version": [
-		"0.7.2-3"
+		"0.8.2-2"
 	]
 }
