@@ -6,16 +6,16 @@
 		"nbdkit, nbdkit-plugin-dev, nbdkit-plugin-lua, nbdkit-plugin-perl, nbdkit-plugin-python, nbdkit-plugin-tcl, nbdkit-plugin-libvirt, nbdkit-plugin-guestfs, nbdkit-plugin-ruby"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 12), perl, pkg-config, bash-completion, xorriso, comerr-dev, libcurl4-gnutls-dev | libcurl-dev, libext2fs-dev, libgnutls28-dev (>= 3.3), gnutls-bin, libguestfs-dev (>= 1:1.36.11-3), liblzma-dev, liblua5.3-dev, libperl-dev, python3-dev, ruby, ruby-dev, tcl-dev, libselinux1-dev, libssh-dev, libtorrent-rasterbar-dev (>= 2), libvirt-dev, zlib1g-dev, libzstd-dev, linux-image-amd64 [amd64] <!nocheck>, linux-image-marvell [armel] <!nocheck>, linux-image-armmp [armhf] <!nocheck>, linux-image-arm64 [arm64] <!nocheck>, linux-image-4kc-malta [mips mipsel] <!nocheck> | linux-image-5kc-malta [mips mipsel] <!nocheck>, linux-image-5kc-malta [mips64 mips64el] <!nocheck>, linux-image-686-pae [i386] <!nocheck> | linux-image-586 [i386] <!nocheck> | linux-image-486 [i386] <!nocheck>, linux-image-powerpc64le [ppc64el] <!nocheck>, linux-image-riscv64 [riscv64] <!nocheck>, linux-image-s390x [s390x] <!nocheck>, busybox <!nocheck>, iproute2 <!nocheck>, jq <!nocheck>, socat <!nocheck>, libguestfs-tools [amd64 arm64 armhf i386 ppc64el riscv64 s390x] <!nocheck>, libnbd-dev, libnbd-bin <!nocheck>, python3-libnbd <!nocheck>, expect <!nocheck>, bsdextrautils <!nocheck>, openssh-server <!nocheck>, qemu-utils <!nocheck>"
+		"debhelper-compat (= 12), perl, pkgconf, bash-completion, xorriso, comerr-dev, libcurl4-gnutls-dev | libcurl-dev, libext2fs-dev, libgnutls28-dev (>= 3.3), gnutls-bin, libguestfs-dev (>= 1:1.36.11-3), liblzma-dev, liblua5.3-dev, libperl-dev, python3-dev, ruby, ruby-dev, tcl-dev, libselinux1-dev, libssh-dev, libtorrent-rasterbar-dev (>= 2), libvirt-dev, zlib1g-dev, libzstd-dev, linux-image-amd64 [amd64] <!nocheck>, linux-image-rpi [armel] <!nocheck> | linux-image-marvell [armel] <!nocheck>, linux-image-armmp [armhf] <!nocheck>, linux-image-arm64 [arm64] <!nocheck>, linux-image-4kc-malta [mips mipsel] <!nocheck> | linux-image-5kc-malta [mips mipsel] <!nocheck>, linux-image-5kc-malta [mips64 mips64el] <!nocheck>, linux-image-686-pae [i386] <!nocheck> | linux-image-586 [i386] <!nocheck> | linux-image-486 [i386] <!nocheck>, linux-image-loong64 [loong64] <!nocheck>, linux-image-powerpc64le [ppc64el] <!nocheck>, linux-image-riscv64 [riscv64] <!nocheck>, linux-image-s390x [s390x] <!nocheck>, busybox <!nocheck>, iproute2 <!nocheck>, jq <!nocheck>, socat <!nocheck>, libguestfs-tools [amd64 arm64 armhf i386 loong64 ppc64el riscv64 s390x] <!nocheck>, libnbd-dev, libnbd-bin <!nocheck>, python3-libnbd <!nocheck>, expect <!nocheck>, bsdextrautils <!nocheck>, openssh-server <!nocheck>, qemu-utils <!nocheck>"
 	],
 	"Checksums-Sha256": [
-		"29e9ffbf8a26f501c3e9c6797c8c1e8406635a3ae07bff7de8dc3668152d3f77 3634 nbdkit_1.36.3-1.dsc 4e086a769514e1e4677692403eb17a8a7cdc2a36be65bf7e85976e3780813604 2401712 nbdkit_1.36.3.orig.tar.gz 6ce5acbe4167ee11f3c3abeba67e652db220cbe3d1b5a269900e7967eab10244 11564 nbdkit_1.36.3-1.debian.tar.xz"
+		"699d0db9a04dc0010317bccba0be721c72ac554cd196904b62613c9cd19722cf 3718 nbdkit_1.38.2-2.dsc b5dbf13178c7f0285fc7b0282e6b1b7f300c24180afec317751923e2e9e32d4c 2446629 nbdkit_1.38.2.orig.tar.gz 6ea95ca7b66b632c64864832cbd1ee124ff3f5939b694184f0a7b5c7f05e84c9 11688 nbdkit_1.38.2-2.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/n/nbdkit"
 	],
 	"Files": [
-		"f047145980bf86879f62ea80d43c84ad 3634 nbdkit_1.36.3-1.dsc 152c2f5b349f0e1c07d093c79c2bdfa9 2401712 nbdkit_1.36.3.orig.tar.gz 27064cbe92086df3f90eb9c470ccdaac 11564 nbdkit_1.36.3-1.debian.tar.xz"
+		"13719b1324bac2892a097c1bead72bb6 3718 nbdkit_1.38.2-2.dsc a33a75a0cc358c48ee8e478a8acf2abb 2446629 nbdkit_1.38.2.orig.tar.gz c70eb3a9795ebf13ae1df94aa1f9cc07 11688 nbdkit_1.38.2-2.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -48,6 +48,6 @@
 		"https://salsa.debian.org/debian/nbdkit.git"
 	],
 	"Version": [
-		"1.36.3-1"
+		"1.38.2-2"
 	]
 }
