@@ -1,0 +1,62 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-libshumate-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-gdk-pixbuf-0.19+default-dev <!nocheck>, librust-gdk4-0.8+default-dev <!nocheck>, librust-gio-0.19+default-dev <!nocheck>, librust-glib-0.19+default-dev <!nocheck>, librust-gtk4-0.8+default-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-libshumate-sys-0.5+default-dev <!nocheck>, libshumate-dev, libgirepository1.0-dev, gir-rust-code-generator (>= 0.19.1), xmlstarlet, libgraphene-1.0-dev"
+	],
+	"Checksums-Sha256": [
+		"79b32cc513201b3434f9b8689b206a155254f64fb62675c54eb1d1476bc40609 2651 rust-libshumate_0.5.0-3.dsc bd77c1202aaccef5460f4ca95b3b3c117f85986c942127e4e518c47058a6eaf6 31463 rust-libshumate_0.5.0.orig.tar.gz 15dcc1410426fb73154aceb85e809d624841154831c2cb284ef4bee52b31df46 3980 rust-libshumate_0.5.0-3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-libshumate"
+	],
+	"Files": [
+		"c0de8bfd2921520279592feaa0a3ef0f 2651 rust-libshumate_0.5.0-3.dsc c59faba409a960f06093a4e120f01e7d 31463 rust-libshumate_0.5.0.orig.tar.gz fe6fc10b57c683fba28061b7908a3b45 3980 rust-libshumate_0.5.0-3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://world.pages.gitlab.gnome.org/Rust/libshumate-rs/"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-libshumate"
+	],
+	"Package-List": [
+		"librust-libshumate-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo"
+	],
+	"Uploaders": [
+		"Matthias Geiger <werdahias@riseup.net>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/libshumate"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/libshumate]"
+	],
+	"Version": [
+		"0.5.0-3"
+	]
+}
