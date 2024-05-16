@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"exim4-base, exim4-config, exim4-daemon-light, exim4, exim4-daemon-heavy, eximon4, exim4-dev"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), default-libmysqlclient-dev, docbook-xml, docbook-xsl, libdb5.3-dev, libfile-fcntllock-perl, libgnutls28-dev (>= 3.5.7), libident-dev, libidn-dev, libidn2-dev, libldap2-dev, libnsl-dev, libpam0g-dev, libpcre2-dev, libperl-dev, libpq-dev, libsasl2-dev, libspf2-dev, libsqlite3-dev, libx11-dev, libxaw7-dev, libxext-dev, libxmu-dev, libxt-dev, lynx, po-debconf, xsltproc"
+	],
+	"Checksums-Sha256": [
+		"5401b189e5007fd8806f59ee452415a0392bb49c9ea7f2f27e42d1c970ec81a9 2955 exim4_4.97-8~bpo12+1.dsc 428150e67c494fa14fe5195d81b972c1b23e651ee4f9f2ff1788250266d31e9c 1909536 exim4_4.97.orig.tar.xz 9f2f74d63c897be3c689bbc2e73c67c815f809b2776b03e5baaaae1598d6b946 508 exim4_4.97.orig.tar.xz.asc ee7a2e82c856cea8126716836647fd860a2c41495fea3f8f2917c686aa2a5c67 498260 exim4_4.97-8~bpo12+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/e/exim4"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.exim.org/"
+	],
+	"Maintainer": [
+		"Exim4 Maintainers <pkg-exim4-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"exim4"
+	],
+	"Package-List": [
+		"exim4 deb mail optional arch=all exim4-base deb mail optional arch=any exim4-config deb mail optional arch=all exim4-daemon-heavy deb mail optional arch=any exim4-daemon-light deb mail optional arch=any exim4-dev deb mail optional arch=any eximon4 deb mail optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"libnet-ssleay-perl, swaks"
+	],
+	"Uploaders": [
+		"Andreas Metzler <ametzler@debian.org>, Marc Haber <mh+debian-packages@zugschlus.de>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/exim-team/exim4"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/exim-team/exim4.git"
+	],
+	"Version": [
+		"4.97-8~bpo12+1"
+	]
+}

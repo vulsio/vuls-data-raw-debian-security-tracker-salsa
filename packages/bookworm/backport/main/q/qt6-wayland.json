@@ -1,0 +1,56 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libqt6waylandclient6, libqt6waylandcompositor6, libqt6waylandeglclienthwintegration6, libqt6waylandeglcompositorhwintegration6, libqt6wlshellintegration6, qml6-module-qtwayland-compositor, qml6-module-qtwayland-client-texturesharing, qt6-wayland, qt6-wayland-dev, qt6-wayland-private-dev, qt6-wayland-dev-tools, qt6-wayland-doc, qt6-wayland-doc-html"
+	],
+	"Build-Depends": [
+		"cmake (>= 3.24~), debhelper-compat (= 13), libdrm-dev, libegl1-mesa-dev, libfontconfig-dev, libgl-dev, libqt6opengl6-dev (>= 6.4.2+dfsg~), libssl-dev, libvulkan-dev [linux-any], libwayland-dev (>= 1.8.0), libxcomposite-dev, libxkbcommon-dev (>= 0.2.0), ninja-build, pkg-config, pkg-kde-tools, qt6-base-dev (>= 6.4.2+dfsg~), qt6-base-private-dev (>= 6.4.2+dfsg~), qt6-declarative-dev (>= 6.4.2+dfsg~), qt6-declarative-private-dev (>= 6.4.2+dfsg~), qt6-wayland-dev:native <cross>, xauth <!nocheck>, xvfb <!nocheck>, zlib1g-dev"
+	],
+	"Build-Depends-Indep": [
+		"qt6-base-dev (>= 6.4~) <!nodoc>, qt6-documentation-tools (>= 6.4~) <!nodoc>"
+	],
+	"Checksums-Sha256": [
+		"d8dcfcd0a174c8c044661c334fe5f68a16656a0ccc92b746b6ef085eb5949d56 3654 qt6-wayland_6.4.2-5~bpo12+1.dsc 24cf1a0af751ab1637b4815d5c5f3704483d5fa7bedbd3519e6fc020d8be135f 836720 qt6-wayland_6.4.2.orig.tar.xz 1c0f998c8939f498e49b6e7eb920290b40cb71fb09ceb6cc728b65a7a0003cb5 47332 qt6-wayland_6.4.2-5~bpo12+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/q/qt6-wayland"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.qt.io/developers/"
+	],
+	"Maintainer": [
+		"Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>"
+	],
+	"Package": [
+		"qt6-wayland"
+	],
+	"Package-List": [
+		"libqt6waylandclient6 deb libs optional arch=any libqt6waylandcompositor6 deb libs optional arch=any libqt6waylandeglclienthwintegration6 deb libs optional arch=any libqt6waylandeglcompositorhwintegration6 deb libs optional arch=any libqt6wlshellintegration6 deb libs optional arch=any qml6-module-qtwayland-client-texturesharing deb libs optional arch=any qml6-module-qtwayland-compositor deb libs optional arch=any qt6-wayland deb libs optional arch=any qt6-wayland-dev deb libdevel optional arch=any qt6-wayland-dev-tools deb devel optional arch=any qt6-wayland-doc deb doc optional arch=all qt6-wayland-doc-html deb doc optional arch=all qt6-wayland-private-dev deb libdevel optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Uploaders": [
+		"Patrick Franz <deltaone@debian.org>, Lu YaNing <dluyaning@gmail.com>, Simon Quigley <tsimonq2@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/qt-kde-team/qt6/qt6-wayland"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/qt-kde-team/qt6/qt6-wayland.git"
+	],
+	"Version": [
+		"6.4.2-5~bpo12+1"
+	]
+}

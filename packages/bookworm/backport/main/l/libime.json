@@ -1,0 +1,53 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libime-bin, libime-data, libime-data-language-model, libimecore-dev, libimecore0, libimepinyin-dev, libimepinyin0, libimetable-dev, libimetable0"
+	],
+	"Build-Depends": [
+		"cmake (>= 3.7), debhelper-compat (= 13), extra-cmake-modules, libboost-dev (>= 1.61), libboost-filesystem-dev (>= 1.61), libboost-iostreams-dev (>= 1.61), libdouble-conversion-dev (>= 3.1.5-5~), libfcitx5utils-dev (>= 5.1~), libzstd-dev, pkg-config"
+	],
+	"Checksums-Sha256": [
+		"c6dddb89f25662f966f214dc6ab4f23f07de29391d0ab1d17ee7822f9861c15b 2666 libime_1.1.7-1~bpo12+1.dsc 0b0df62a8c03aab9053461e2b1a0fbb21301546c589ded5311d7d87e2667c0e5 36926196 libime_1.1.7.orig.tar.xz e1f50f4ca17cbb12948ceb7c61d8257f56f80c8dac1f8e6cb372a2355162f429 8368 libime_1.1.7-1~bpo12+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/libi/libime"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/fcitx/libime"
+	],
+	"Maintainer": [
+		"Debian Input Method Team <debian-input-method@lists.debian.org>"
+	],
+	"Package": [
+		"libime"
+	],
+	"Package-List": [
+		"libime-bin deb utils optional arch=any libime-data deb utils optional arch=all libime-data-language-model deb utils optional arch=any libimecore-dev deb libdevel optional arch=any libimecore0 deb libs optional arch=any libimepinyin-dev deb libdevel optional arch=any libimepinyin0 deb libs optional arch=any libimetable-dev deb libdevel optional arch=any libimetable0 deb libs optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Uploaders": [
+		"Boyuan Yang <byang@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/input-method-team/libime"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/input-method-team/libime.git"
+	],
+	"Version": [
+		"1.1.7-1~bpo12+1"
+	]
+}

@@ -1,0 +1,53 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"gnucash, gnucash-common, python3-gnucash"
+	],
+	"Build-Conflicts": [
+		"guile-1.8"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 12), pkg-config, dh-python, cmake, googletest, guile-3.0-dev | guile-2.2-dev | guile-2.0-dev, imagemagick, libaqbanking-dev (>= 5.99.43), libboost-all-dev, libdbi-dev, libdbd-sqlite3, libglib2.0-dev, libsecret-1-dev, libgtk-3-dev, libgwengui-gtk3-dev (>= 5.4.0~), libofx-dev, libwebkit2gtk-4.1-dev (>= 2.34.6~), libxml2-dev, libxml2-utils, libxslt1-dev, python3, python3-dev, swig, texinfo, xsltproc, zlib1g-dev, locales-all"
+	],
+	"Checksums-Sha256": [
+		"36e73f5355dcaf75b34d1debffb1645773be03830b08125eb7808854e5ae1f7a 2407 gnucash_5.6-1~bpo12+1.dsc e1f36176eef1883e160be91c3d71bead4db33af04c437ed0bab6e19144b2e195 10120172 gnucash_5.6.orig.tar.xz 78f500b1603ad319861f7119d95124076e27cd9617651aad71cbeb20d0af39d8 37124 gnucash_5.6-1~bpo12+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/gnucash"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.gnucash.org/"
+	],
+	"Maintainer": [
+		"Dmitry Smirnov <onlyjob@debian.org>"
+	],
+	"Package": [
+		"gnucash"
+	],
+	"Package-List": [
+		"gnucash deb gnome optional arch=any gnucash-common deb gnome optional arch=all python3-gnucash deb python optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/gnucash"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/gnucash.git"
+	],
+	"Version": [
+		"1:5.6-1~bpo12+1"
+	]
+}
