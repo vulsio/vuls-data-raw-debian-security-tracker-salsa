@@ -6,13 +6,13 @@
 		"python3-igraph, python-igraph-doc"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), pkgconf, dh-python, python3-sphinx, libigraph-dev (>= 0.10.10), python3-all-dev, python3-setuptools, python3-numpy, python3-texttable, python3-scipy, python3-pandas, python3-networkx"
+		"debhelper-compat (= 13), pkgconf, dh-sequence-python3, python3-sphinx, libigraph-dev (>= 0.10.10), python3-all-dev, python3-setuptools, python3-numpy, python3-texttable, python3-scipy, python3-pandas, python3-networkx"
 	],
 	"Build-Depends-Indep": [
 		"pydoctor, python3-sphinx-gallery, python3-sphinx-rtd-theme, python3-doc, python-scipy-doc, python-pandas-doc, libjs-jquery-datatables, tex-gyre, texlive-latex-base, texlive-latex-recommended, texlive-fonts-recommended, texlive-latex-extra, cm-super-minimal, latexmk"
 	],
 	"Checksums-Sha256": [
-		"d515916d47dc73fa6dbfd504131a04d09fd08e0bade93da50576df8948d95a31 3453 python-igraph_0.11.4+ds-1~bpo12+1.dsc 0fbd3973db336808e54fb4ab9cd47ffb416a324c40138b6281e41f0fd0f8595c 539364 python-igraph_0.11.4+ds.orig.tar.xz 945b22882b8fc1f12e02247fb0c817a1a640e42c93c63f97cc35e2bcb6fc2df7 7600 python-igraph_0.11.4+ds-1~bpo12+1.debian.tar.xz"
+		"7bcea30e93a9ceee94b5c564b61ac3818531878a95aff35731a2a0412604157d 3476 python-igraph_0.11.5+ds-2~bpo12+1.dsc d87c1f6da4f0ffcfc025459cc962fd324edf94cfafe587fb766fc45043142be0 539680 python-igraph_0.11.5+ds.orig.tar.xz 655c7392a27ca13dbca4659764b8d058f3dc809180f3276ade99092eb11225cd 7688 python-igraph_0.11.5+ds-2~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/p/python-igraph"
@@ -39,13 +39,13 @@
 		"misc"
 	],
 	"Standards-Version": [
-		"4.6.2"
+		"4.7.0"
 	],
 	"Testsuite": [
 		"autopkgtest"
 	],
 	"Testsuite-Triggers": [
-		"python3-graph-tool, python3-networkx, python3-numpy, python3-pandas, python3-scipy"
+		"python3-all, python3-graph-tool, python3-networkx, python3-numpy, python3-pandas, python3-scipy"
 	],
 	"Uploaders": [
 		"Jerome Benoit <calculus@rezozer.net>, TANIGUCHI Takaki <takaki@debian.org>"
@@ -57,6 +57,6 @@
 		"https://salsa.debian.org/python-team/packages/python-igraph.git"
 	],
 	"Version": [
-		"0.11.4+ds-1~bpo12+1"
+		"0.11.5+ds-2~bpo12+1"
 	]
 }
