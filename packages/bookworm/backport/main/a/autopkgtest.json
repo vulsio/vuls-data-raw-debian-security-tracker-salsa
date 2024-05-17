@@ -6,10 +6,13 @@
 		"autopkgtest"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), fakeroot, procps, pycodestyle | pep8, pyflakes3, python3 (>= 3.3), python3-debian, python3-docutils, python3-mock"
+		"debhelper-compat (= 13), fakeroot <!nocheck>, pre-commit <!nocheck>, procps <!nocheck>, pycodestyle | pep8 <!nocheck>, pyflakes3 <!nocheck>, python3 (>= 3.8), python3-debian <!nocheck>, python3-docutils, shellcheck <!nocheck>"
 	],
 	"Checksums-Sha256": [
-		"ff66e5b2c2d1a6435dec29b90fbf06326c9589711d7ea2aa2b1d1fec2bf394a1 1737 autopkgtest_5.32~bpo12+1.dsc dd2c5dda2b9da77065b6b118a7657988d5f0af83fafa20840dedc53c08ebf393 216288 autopkgtest_5.32~bpo12+1.tar.xz"
+		"6e5f01bd325a346ebee13b14bba0a2dabb1266a60d435d0b672bbf51c3f3197b 2254 autopkgtest_5.35~bpo12+1.dsc 0515996a032154bf1b16feca33567e5b4c79aa6f99f6029406da5c7bc6e7177f 223248 autopkgtest_5.35~bpo12+1.tar.xz"
+	],
+	"Dgit": [
+		"a53ef264a06f8aeb8abc6b21c28a4580e81376b2 debian archive/debian/5.35_bpo12+1 https://git.dgit.debian.org/autopkgtest"
 	],
 	"Directory": [
 		"pool/main/a/autopkgtest"
@@ -39,10 +42,10 @@
 		"autopkgtest"
 	],
 	"Testsuite-Triggers": [
-		"adduser, autodep8, build-essential, buildah, ca-certificates, catatonit, debhelper, debootstrap, devscripts, distro-info, dnsmasq, dnsmasq-base, docker.io, dumb-init, fakeroot, golang-github-containernetworking-plugin-dnsname, iptables, libpam-cgfs, lxc, lxc-templates, lxcfs, lxd, mmdebstrap, podman, python3-distro-info, rsync, sbuild, schroot, slirp4netns, tini, uidmap, util-linux"
+		"adduser, autodep8, build-essential, buildah, ca-certificates, catatonit, debhelper, debian-archive-keyring, debootstrap, devscripts, distro-info, dnsmasq, dnsmasq-base, docker.io, dumb-init, fakeroot, golang-github-containernetworking-plugin-dnsname, iptables, libpam-cgfs, lxc, lxc-templates, lxcfs, lxd, lxd-installer, mmdebstrap, podman, python3-distro-info, rsync, sbuild, schroot, slirp4netns, tini, uidmap, util-linux"
 	],
 	"Uploaders": [
-		"Ian Jackson <ijackson@chiark.greenend.org.uk>, Martin Pitt <mpitt@debian.org>, Antonio Terceiro <terceiro@debian.org>, Paul Gevers <elbrus@debian.org>, Simon McVittie <smcv@debian.org>"
+		"Ian Jackson <ijackson@chiark.greenend.org.uk>, Martin Pitt <mpitt@debian.org>, Antonio Terceiro <terceiro@debian.org>, Paul Gevers <elbrus@debian.org>, Simon McVittie <smcv@debian.org>, Paride Legovini <paride@debian.org>"
 	],
 	"Vcs-Browser": [
 		"https://salsa.debian.org/ci-team/autopkgtest"
@@ -51,6 +54,6 @@
 		"https://salsa.debian.org/ci-team/autopkgtest.git"
 	],
 	"Version": [
-		"5.32~bpo12+1"
+		"5.35~bpo12+1"
 	]
 }
