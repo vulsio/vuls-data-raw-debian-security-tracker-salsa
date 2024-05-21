@@ -1,6 +1,6 @@
 {
 	"Architecture": [
-		"amd64 arm64 ppc64el s390x kfreebsd-amd64 ia64 ppc64 riscv64 all"
+		"amd64 arm64 s390x ia64 loong64 ppc64 riscv64 all"
 	],
 	"Binary": [
 		"python3-graph-tool, graph-tool-doc"
@@ -12,7 +12,7 @@
 		"dh-sequence-sphinxdoc, python3-docutils, python3-sphinx, python3-doc, python3-numpydoc, python-scipy-doc, python3-cairo-doc, python-ipython-doc, python-pandas-doc, texlive-latex-base, texlive-latex-recommended, texlive-fonts-recommended, texlive-latex-extra, cm-super-minimal, poppler-utils, latexmk"
 	],
 	"Checksums-Sha256": [
-		"1bc4c07f8a867cb1d179d152a463079f9a0ea1a8d32e8eea6ca3b0eb954d07ca 3770 graph-tool_2.58+ds-1~bpo12+1.dsc 17abcf695f12943252af85cdcf2cae9c8795d8e7e0510cada681f0fa649c80bc 14658688 graph-tool_2.58+ds.orig.tar.xz 069f60bfb4ceaf8d70a10ee6e0d420dcbb2c1c315e9ff579a4c8861f8bdc25ae 361740 graph-tool_2.58+ds-1~bpo12+1.debian.tar.xz"
+		"bf0572a3e23031ea0cccf74c06ef7dec5b61c0f534c2a06c5951c58acb474849 3828 graph-tool_2.65+ds-3~bpo12+1.dsc 636f2c78ae19ae8812fe4446aaddde789583995e16061f9efab30264b7e12b54 14700320 graph-tool_2.65+ds.orig.tar.xz 5770d475228e33706cb99ffed3bae241fcde2ae8aae81f38cf286b440176034c 363952 graph-tool_2.65+ds-3~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/g/graph-tool"
@@ -30,7 +30,7 @@
 		"graph-tool"
 	],
 	"Package-List": [
-		"graph-tool-doc deb doc optional arch=all python3-graph-tool deb python optional arch=amd64,arm64,ppc64el,s390x,kfreebsd-amd64,ia64,ppc64,ppc64el,riscv64"
+		"graph-tool-doc deb doc optional arch=all python3-graph-tool deb python optional arch=amd64,arm64,s390x,ia64,loong64,ppc64,riscv64"
 	],
 	"Priority": [
 		"optional"
@@ -39,13 +39,13 @@
 		"misc"
 	],
 	"Standards-Version": [
-		"4.6.2"
+		"4.7.0"
 	],
 	"Testsuite": [
 		"autopkgtest"
 	],
 	"Testsuite-Triggers": [
-		"gir1.2-gtk-3.0, python3-cairo, python3-gi, python3-matplotlib"
+		"build-essential, gir1.2-gtk-3.0, libboost-dev, libboost-python-dev, libpython3-dev, pkgconf, python3-cairo, python3-cairo-dev, python3-gi, python3-matplotlib"
 	],
 	"Uploaders": [
 		"Jerome Benoit <calculus@rezozer.net>"
@@ -57,6 +57,6 @@
 		"https://salsa.debian.org/python-team/packages/graph-tool.git"
 	],
 	"Version": [
-		"2.58+ds-1~bpo12+1"
+		"2.65+ds-3~bpo12+1"
 	]
 }
