@@ -9,19 +9,19 @@
 		"debhelper-compat (= 13), libmodule-build-tiny-perl, perl"
 	],
 	"Build-Depends-Indep": [
-		"libcpan-meta-check-perl <!nocheck>, libcpan-meta-requirements-perl <!nocheck>, libcpanel-json-xs-perl <!nocheck>, libdata-validate-domain-perl <!nocheck>, libdatetime-format-rfc3339-perl <!nocheck>, libemail-address-xs-perl <!nocheck>, libexperimental-perl (>= 0.031) <!nocheck>, libfeature-compat-try-perl <!nocheck>, libfile-sharedir-perl <!nocheck>, libgetopt-long-descriptive-perl <!nocheck>, libjson-pp-perl <!nocheck>, libmath-bigint-perl <!nocheck>, libmodule-metadata-perl <!nocheck>, libmodule-runtime-perl <!nocheck>, libmojolicious-perl <!nocheck>, libmoo-perl <!nocheck>, libmoox-typetiny-perl <!nocheck>, libnamespace-clean-perl <!nocheck>, libnet-idn-encode-perl <!nocheck>, libpath-tiny-perl <!nocheck>, libref-util-perl <!nocheck>, libref-util-xs-perl <!nocheck>, libsafe-isa-perl <!nocheck>, libscalar-list-utils-perl <!nocheck>, libsereal-decoder-perl <!nocheck>, libsereal-encoder-perl <!nocheck>, libsereal-perl <!nocheck>, libstrictures-perl <!nocheck>, libsub-install-perl <!nocheck>, libtest-deep-perl <!nocheck>, libtest-deep-unorderedpairs-perl <!nocheck>, libtest-fatal-perl <!nocheck>, libtest-file-sharedir-perl <!nocheck>, libtest-json-schema-acceptance-perl (>= 1.021) <!nocheck>, libtest-memory-cycle-perl <!nocheck>, libtest-needs-perl <!nocheck>, libtest-simple-perl <!nocheck>, libtest-warnings-perl <!nocheck>, libtest-without-module-perl (>= 0.21) <!nocheck>, libtest2-suite-perl <!nocheck>, libtime-moment-perl <!nocheck>, libtype-tiny-perl (>= 1.016003) <!nocheck>, libtype-tiny-xs-perl <!nocheck>"
+		"libautovivification-perl <!nocheck>, libcpan-meta-check-perl <!nocheck>, libcpan-meta-requirements-perl <!nocheck>, libcpanel-json-xs-perl <!nocheck>, libdata-validate-domain-perl <!nocheck>, libdatetime-format-rfc3339-perl <!nocheck>, libemail-address-xs-perl <!nocheck>, libexperimental-perl (>= 0.031) <!nocheck>, libfeature-compat-try-perl <!nocheck>, libfile-sharedir-perl <!nocheck>, libgetopt-long-descriptive-perl <!nocheck>, libjson-pp-perl <!nocheck>, libmath-bigint-perl <!nocheck>, libmodule-metadata-perl <!nocheck>, libmodule-runtime-perl <!nocheck>, libmojolicious-perl <!nocheck>, libmoo-perl <!nocheck>, libmoox-typetiny-perl <!nocheck>, libnamespace-clean-perl <!nocheck>, libnet-idn-encode-perl <!nocheck>, libpath-tiny-perl <!nocheck>, libref-util-perl <!nocheck>, libref-util-xs-perl <!nocheck>, libsafe-isa-perl <!nocheck>, libscalar-list-utils-perl <!nocheck>, libsereal-decoder-perl <!nocheck>, libsereal-encoder-perl <!nocheck>, libsereal-perl <!nocheck>, libstrictures-perl <!nocheck>, libsub-install-perl <!nocheck>, libtest-deep-perl <!nocheck>, libtest-deep-unorderedpairs-perl <!nocheck>, libtest-fatal-perl <!nocheck>, libtest-file-sharedir-perl <!nocheck>, libtest-json-schema-acceptance-perl (>= 1.021) <!nocheck>, libtest-memory-cycle-perl <!nocheck>, libtest-needs-perl <!nocheck>, libtest-simple-perl <!nocheck>, libtest-warnings-perl <!nocheck>, libtest-without-module-perl (>= 0.21) <!nocheck>, libtest2-suite-perl <!nocheck>, libtime-moment-perl <!nocheck>, libtype-tiny-perl (>= 1.016003) <!nocheck>, libtype-tiny-xs-perl <!nocheck>"
 	],
 	"Checksums-Sha256": [
-		"0b39f3fb8c483892bf67b9d16b919a6e1a078479587258753c2ded915483756a 4029 libjson-schema-modern-perl_0.583-1.dsc 8d9de470fa50003f1fe080e132835f7de70cd0d6a2bd5f671ac5e51b59bf7281 191696 libjson-schema-modern-perl_0.583.orig.tar.gz c4ac376e911e0cbbad793b9e326d62bd7b8c3aee80a8ba966ed48b54451c5dbb 6908 libjson-schema-modern-perl_0.583-1.debian.tar.xz"
+		"ebc42f04e8508858d7ef070846804bd440bbe9443a02f13810b4e01d118d990a 4066 libjson-schema-modern-perl_0.584-1.dsc 7ad4e044aa4748791b656333ffdccd8438735b597a1fb6abb7e304f60951e352 192341 libjson-schema-modern-perl_0.584.orig.tar.gz 4758bd438f6adf098d3a078cd8474430e98523e8db34e894f50e340bb5db6074 6996 libjson-schema-modern-perl_0.584-1.debian.tar.xz"
 	],
 	"Dgit": [
-		"e708b62f29a734b103f2d0f64c02a98aa1dfa2a5 debian archive/debian/0.583-1 https://git.dgit.debian.org/libjson-schema-modern-perl"
+		"efecdb73ab2fcbe6e007ce66af537bf68ce52950 debian archive/debian/0.584-1 https://git.dgit.debian.org/libjson-schema-modern-perl"
 	],
 	"Directory": [
 		"pool/main/libj/libjson-schema-modern-perl"
 	],
 	"Files": [
-		"976dfb76522a1fb81fc62f2e63f269a5 4029 libjson-schema-modern-perl_0.583-1.dsc ff58b63cdfe8989abb1e3861ba25edf5 191696 libjson-schema-modern-perl_0.583.orig.tar.gz 3b9f18161f3c0608b544164bb22ff637 6908 libjson-schema-modern-perl_0.583-1.debian.tar.xz"
+		"f4fb9aec94a20d28b46861622a788d69 4066 libjson-schema-modern-perl_0.584-1.dsc 4ecd0c86e78c0096c574855e08d9db98 192341 libjson-schema-modern-perl_0.584.orig.tar.gz 256c736c015cabaca3e147dd1e806469 6996 libjson-schema-modern-perl_0.584-1.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -45,7 +45,7 @@
 		"misc"
 	],
 	"Standards-Version": [
-		"4.6.2"
+		"4.7.0"
 	],
 	"Testsuite": [
 		"autopkgtest-pkg-perl"
@@ -60,6 +60,6 @@
 		"https://salsa.debian.org/perl-team/modules/packages/libjson-schema-modern-perl.git"
 	],
 	"Version": [
-		"0.583-1"
+		"0.584-1"
 	]
 }
