@@ -1,0 +1,62 @@
+{
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"ruby-rack"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), gem2deb, rake, ruby-bacon, ruby-concurrent, ruby-dalli, ruby-minitest-global-expectations, ruby-webrick (>= 1.7~), thin"
+	],
+	"Checksums-Sha256": [
+		"137cdca52c7f1dfb0a3468018ddf09d145bc7155467d47e134d8872706f9ad53 2385 ruby-rack_2.2.6.4-1+deb12u1.dsc 3cae965f53c4d556fd3d919729dfb698e86b8b6507045096c635ef4cf998f14b 279212 ruby-rack_2.2.6.4.orig.tar.gz 5f374d8bf401898ac557cb2d3a124c050741472f490642454830b49b37671598 10924 ruby-rack_2.2.6.4-1+deb12u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/r/ruby-rack"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://rack.github.io/"
+	],
+	"Maintainer": [
+		"Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"ruby-rack"
+	],
+	"Package-List": [
+		"ruby-rack deb ruby optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Ruby-Versions": [
+		"all"
+	],
+	"Section": [
+		"ruby"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"curl, gem2deb-test-runner, rake, ruby-bacon, ruby-minitest-global-expectations, ruby-webrick, thin"
+	],
+	"Uploaders": [
+		"Chris Lamb <lamby@debian.org>, Lucas Nussbaum <lucas@debian.org>, Youhei SASAKI <uwabami@gfd-dennou.org>, Paul van Tilburg <paulvt@debian.org>, Utkarsh Gupta <utkarsh@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/ruby-team/ruby-rack"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/ruby-team/ruby-rack.git"
+	],
+	"Version": [
+		"2.2.6.4-1+deb12u1"
+	]
+}
