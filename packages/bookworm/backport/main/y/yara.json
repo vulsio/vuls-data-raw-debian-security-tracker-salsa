@@ -6,10 +6,13 @@
 		"yara, libyara10, libyara-dev, yara-doc"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), python3-sphinx, flex, bison, pkg-config, libjansson-dev, libmagic-dev, libssl-dev"
+		"debhelper-compat (= 13), flex, bison, pkgconf, libjansson-dev, libmagic-dev, libssl-dev, sphinx-common"
+	],
+	"Build-Depends-Indep": [
+		"python3-sphinx"
 	],
 	"Checksums-Sha256": [
-		"d22b5b62e1838fcf818a04b4675a425d22131ff08cd3e3ce97b83edd1c353cdc 2145 yara_4.5.0-1~bpo12+1.dsc f6db34bd102703bf56cc2878ddfb249c3fb2e09c9194d3adb78c3ab79282c827 2206492 yara_4.5.0.orig.tar.gz d1a00e92ed89beaf08c702bc44c32b15d757a4a532e895844010d9882d1cc784 8968 yara_4.5.0-1~bpo12+1.debian.tar.xz"
+		"8553c40feea527e9add4ede5a10256ac2e802589ac8ad8a1a4d6be47666f1116 2177 yara_4.5.1-1~bpo12+1.dsc 011b95f903d8fc22de50aa1e3c1bf4ed598dbde6f9ea45176945cec5520452dc 2207552 yara_4.5.1.orig.tar.gz 6c8cc7760133d0fbc1ba6a2599e5f93f24503959a64ab85d70f968f9a819ba79 9020 yara_4.5.1-1~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/y/yara"
@@ -48,6 +51,6 @@
 		"https://salsa.debian.org/pkg-security-team/yara.git"
 	],
 	"Version": [
-		"4.5.0-1~bpo12+1"
+		"4.5.1-1~bpo12+1"
 	]
 }
