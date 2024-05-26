@@ -1,0 +1,62 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"python3-sunpy"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-sequence-python3, python3-all-dev:native, libpython3-all-dev, python3-asdf <!nocheck>, python3-astropy <!nocheck>, python3-bs4 <!nocheck>, python3-extension-helpers <!nocheck>, python3-drms <!nocheck>, python3-h5netcdf <!nocheck>, python3-hypothesis <!nocheck>, python3-matplotlib <!nocheck>, python3-mpl-animators <!nocheck>, python3-mock <!nocheck>, python3-numpy <!nocheck>, python3-pandas <!nocheck>, python3-opencv <!nocheck>, python3-parfive <!nocheck>, python3-pytest (>= 8) <!nocheck>, python3-pytest-doctestplus <!nocheck>, python3-pytest-mock <!nocheck>, python3-pytest-xdist <!nocheck>, python3-reproject <!nocheck>, python3-requests <!nocheck>, python3-scipy <!nocheck>, python3-setuptools, python3-setuptools-scm:native, python3-skimage <!nocheck>, python3-sqlalchemy <!nocheck>, python3-suds <!nocheck>, python3-tqdm <!nocheck>, python3-zeep <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"9d75511e03961a78bdb970acccbf451dc88181a72023ba564c0638e6917046ed 3327 sunpy_5.1.1-5.dsc 9367ec9af2a397fcd59638b2007208d4eeaf9ed24e3e8dc2596c26b1896c2e1f 3658460 sunpy_5.1.1.orig.tar.gz 91d698d7bdeab5d2d39266691db2132d6aa01e5d808fc147620331277de4177d 15556 sunpy_5.1.1-5.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/s/sunpy"
+	],
+	"Files": [
+		"a193d3627d7e3efb76851d9863036e16 3327 sunpy_5.1.1-5.dsc 8a481b68fcb7ea9769e8d08cacf7c60c 3658460 sunpy_5.1.1.orig.tar.gz c65ac5cd91b494ca07a6200fc915bd1f 15556 sunpy_5.1.1-5.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://sunpy.org/"
+	],
+	"Maintainer": [
+		"Debian Astronomy Team <debian-astro-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"sunpy"
+	],
+	"Package-List": [
+		"python3-sunpy deb python optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"python3-asdf, python3-asdf-astropy, python3-asdf-coordinates-schemas, python3-asdf-transform-schemas, python3-asdf-wcs-schemas, python3-astropy, python3-bs4, python3-drms, python3-h5netcdf, python3-hypothesis, python3-mock, python3-mpl-animators, python3-opencv, python3-pandas, python3-parfive, python3-pytest, python3-pytest-doctestplus, python3-pytest-mock, python3-pytest-xdist, python3-reproject, python3-requests, python3-skimage, python3-sqlalchemy, python3-suds, python3-tk, python3-tqdm, python3-zeep"
+	],
+	"Uploaders": [
+		"Ole Streicher <olebole@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian-astro-team/sunpy"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian-astro-team/sunpy.git"
+	],
+	"Version": [
+		"5.1.1-5"
+	]
+}
