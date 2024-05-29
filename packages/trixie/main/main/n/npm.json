@@ -9,13 +9,13 @@
 		"debhelper-compat (= 13), dh-sequence-nodejs (>= 0.14.5~), bash-completion, help2man <!nodoc>, node-cacache (>= 17) <!nodoc>, node-chownr <!nodoc>, node-cssesc <!nodoc>, node-depd <!nodoc>, node-dezalgo <!nodoc>, node-gyp <!nodoc>, node-http-cache-semantics <!nodoc>, node-ini <!nodoc>, node-ip <!nodoc>, node-marked-man <!nodoc>, node-negotiator <!nodoc>, node-npm-bundled <!nodoc>, node-npm-package-arg (>= 10) <!nodoc>, node-postcss-selector-parser <!nodoc>, node-npmlog <!nodoc>, node-p-map <!nodoc>, node-promise-retry <!nodoc>, node-read-package-json <!nodoc>, node-semver <!nocheck> <!nodoc>, node-tap <!nodoc>, node-tar <!nodoc>, node-yallist <!nodoc>, dh-nodejs"
 	],
 	"Checksums-Sha256": [
-		"531c5e4013c1421d29c2233c25884fc29dbe860087de699766c82e2b06cbca2f 2580 npm_9.2.0~ds1-2.dsc 7eb080cbf0669af5a4f0eebd94f0aa82972d220afb08849fb519b8bbac275bf6 67506972 npm_9.2.0~ds1.orig.tar.xz d4459567538cfc42af2cd1eb1c251c7edf4b49433cdc790afffb761a042a21af 49028 npm_9.2.0~ds1-2.debian.tar.xz"
+		"eb3fa742fd4255c4f416fe72123a2273d719a8003f4042af0b1882acc4bba476 2638 npm_9.2.0~ds1-3.dsc 7eb080cbf0669af5a4f0eebd94f0aa82972d220afb08849fb519b8bbac275bf6 67506972 npm_9.2.0~ds1.orig.tar.xz d729d6783a2a6dd647a7ce671515be7744b3d1a51c05c9f692187a81837f6569 49352 npm_9.2.0~ds1-3.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/n/npm"
 	],
 	"Files": [
-		"0c433af2e05f675236efd97beab95bc0 2580 npm_9.2.0~ds1-2.dsc dd0a128601794b93f4bc66fd90da4ac0 67506972 npm_9.2.0~ds1.orig.tar.xz 01edac41fb7bd73719016357dbbaeb00 49028 npm_9.2.0~ds1-2.debian.tar.xz"
+		"01de024fe8973123be0eabca08b99d5c 2638 npm_9.2.0~ds1-3.dsc dd0a128601794b93f4bc66fd90da4ac0 67506972 npm_9.2.0~ds1.orig.tar.xz 5cdc21f13153d1e21c96ebba572a486b 49352 npm_9.2.0~ds1-3.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -44,6 +44,9 @@
 	"Testsuite": [
 		"autopkgtest, autopkgtest-pkg-nodejs"
 	],
+	"Testsuite-Triggers": [
+		"pkg-js-tools"
+	],
 	"Uploaders": [
 		"Jérémy Lal <kapouer@melix.org>"
 	],
@@ -54,6 +57,6 @@
 		"https://salsa.debian.org/js-team/npm.git"
 	],
 	"Version": [
-		"9.2.0~ds1-2"
+		"9.2.0~ds1-3"
 	]
 }
