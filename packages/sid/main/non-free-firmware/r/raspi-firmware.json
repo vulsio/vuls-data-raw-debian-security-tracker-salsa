@@ -9,16 +9,16 @@
 		"raspi-firmware"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13)"
+		"debhelper-compat (= 13), dh-sequence-movetousr"
 	],
 	"Checksums-Sha256": [
-		"5d69d9d179a2f8349fa84df591e9be4df9917fa62316d761635e7edd7650dea1 1536 raspi-firmware_1.20240424+ds-1.dsc aa0594cb2698f3a7d937d4334b2e04671da4fa17feaecb647d9b7cd4902d3193 4539548 raspi-firmware_1.20240424+ds.orig.tar.xz ce3f10d0df9267dd0dd1c594acba436376e16ccf8aed344ce706257893c5749a 379396 raspi-firmware_1.20240424+ds-1.debian.tar.xz"
+		"a828be67a71d335e17bc3a75845fa19d637ca84bbe2f19573282d11f234afcbe 2207 raspi-firmware_1.20240424+ds-2.dsc aa0594cb2698f3a7d937d4334b2e04671da4fa17feaecb647d9b7cd4902d3193 4539548 raspi-firmware_1.20240424+ds.orig.tar.xz 4f28625db499410b5b16615344b52b93e563fe3ca81722b52ea0dcd2d0dd0707 379460 raspi-firmware_1.20240424+ds-2.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/non-free-firmware/r/raspi-firmware"
 	],
 	"Files": [
-		"be81c126f6e115f1ed369a1c01b10ad4 1536 raspi-firmware_1.20240424+ds-1.dsc 84cd1735bd4fa7b3e2a9d6d495b8c2cd 4539548 raspi-firmware_1.20240424+ds.orig.tar.xz 1704549ca33d7ac2a8bb6c372156581a 379396 raspi-firmware_1.20240424+ds-1.debian.tar.xz"
+		"9eec503bc9d9ce67a98f004ad284bfe3 2207 raspi-firmware_1.20240424+ds-2.dsc 84cd1735bd4fa7b3e2a9d6d495b8c2cd 4539548 raspi-firmware_1.20240424+ds.orig.tar.xz fef25c4f757d4b4034f24f3ecbd9c164 379460 raspi-firmware_1.20240424+ds-2.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -45,7 +45,7 @@
 		"4.6.2"
 	],
 	"Uploaders": [
-		"Michael Stapelberg <stapelberg@debian.org>, Gunnar Wolf <gwolf@debian.org>, Romain Perier <romain.perier@gmail.com>"
+		"Michael Stapelberg <stapelberg@debian.org>, Gunnar Wolf <gwolf@debian.org>, Romain Perier <romain.perier@gmail.com>, Jochen Sprickerhof <jspricke@debian.org>,"
 	],
 	"Vcs-Browser": [
 		"https://salsa.debian.org/debian/raspi-firmware"
@@ -54,6 +54,6 @@
 		"https://salsa.debian.org/debian/raspi-firmware.git"
 	],
 	"Version": [
-		"1.20240424+ds-1"
+		"1.20240424+ds-2"
 	]
 }
