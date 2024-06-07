@@ -6,10 +6,10 @@
 		"binoculars, python3-binoculars, binoculars-doc"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), dh-python, gir1.2-hkl-5.0, python3, python3-gi, python3-h5py, python3-numpy, python3-pyfai, python3-pymca5, python3-setuptools, python3-sphinx, python3-xrayutilities"
+		"debhelper-compat (= 13), dh-python, dh-sequence-python3, dh-sequence-numpy3, dh-sequence-sphinxdoc, pybuild-plugin-pyproject, python3-all, python3-gi, python3-h5py, python3-numpy, python3-pyfai, python3-pymca5, python3-pytest <!nocheck>, python3-setuptools, python3-setuptools-scm, python3-sphinx, python3-xrayutilities"
 	],
 	"Checksums-Sha256": [
-		"24e4d07c9a96702e38bfc463210b22d55ec4a6881841f1f5a65eb31f335d5479 2444 binoculars_0.0.15-1~bpo12+1.dsc b4686ea13d5392c763d8412b331353b2501c8c84c85eae49d8cc0eb697844772 226256 binoculars_0.0.15.orig.tar.gz 93ad4e29082474cd733b3bd0fd7d34f715a7083a2a2b30690c2c868228004ef0 3680 binoculars_0.0.15-1~bpo12+1.debian.tar.xz"
+		"f427ee09543446cc15e4878b753ce5583eee2b6a3de9db6033bd337896affbad 2570 binoculars_0.0.17-1~bpo12+1.dsc ee23080be16c68f1ceade66218dd5c08aa3a8f1d262e256d90bfc7bbe32382a6 95244 binoculars_0.0.17.orig.tar.gz 34769128f6cd1084d2e85f9c91983539b59982ed53b0c2d6d40346aef60908cb 3712 binoculars_0.0.17-1~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/b/binoculars"
@@ -36,7 +36,7 @@
 		"misc"
 	],
 	"Standards-Version": [
-		"4.6.1"
+		"4.6.2"
 	],
 	"Testsuite": [
 		"autopkgtest"
@@ -54,6 +54,6 @@
 		"https://salsa.debian.org/science-team/binoculars.git"
 	],
 	"Version": [
-		"0.0.15-1~bpo12+1"
+		"0.0.17-1~bpo12+1"
 	]
 }
