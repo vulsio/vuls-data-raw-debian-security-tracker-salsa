@@ -9,13 +9,13 @@
 		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-chrono-0.4+default-dev <!nocheck>, librust-ctor-0.1+default-dev <!nocheck>, librust-debversion+default-dev (>= 0.2-~~) <!nocheck>, librust-debversion+python-debian-dev (>= 0.2-~~) <!nocheck>, librust-lazy-regex-2+default-dev <!nocheck>, librust-lazy-static-1+default-dev (>= 1.4.0-~~) <!nocheck>, librust-pyo3+default-dev (>= 0.20-~~) <!nocheck>, librust-pyo3+serde-dev (>= 0.20-~~) <!nocheck>, librust-pyo3-filelike+default-dev (>= 0.1-~~) <!nocheck>, librust-serde-1+default-dev <!nocheck>, librust-serde-1+derive-dev <!nocheck>, librust-tempfile-3+default-dev (>= 3.6.0-~~) <!nocheck>, librust-url-2+default-dev <!nocheck>, librust-url-2+serde-dev <!nocheck>, brz-debian <!nocheck>, python3-breezy <!nocheck>"
 	],
 	"Checksums-Sha256": [
-		"74870237dff6e06400f8e0a7ee3786463bc0fabefb41d2b53f9356f63c8952f0 2618 rust-breezyshim_0.1.86-1.dsc a5f88e6773910fe59cee0a06e4670815d5a6f8336022f3cdd51771b691505b25 42792 rust-breezyshim_0.1.86.orig.tar.gz f63b739bb572aa4fa8e049cebf10af96deb67ce6313b155e406d67e0d22989ff 2688 rust-breezyshim_0.1.86-1.debian.tar.xz"
+		"543cd799bfc2e5bddd39692d90f668ef3cd6f3e7f59f9d5d4aff14c1e318a1be 2584 rust-breezyshim_0.1.92-1.dsc 887d1f2ab8fe13cd15d20a55414bb4d239a30d544b7db2e919256d5b6aa0d516 31953 rust-breezyshim_0.1.92.orig.tar.gz 3351be4a4cd6bfcf6796934b08c732f03ba6127403467d6b6060d9db0a654145 2744 rust-breezyshim_0.1.92-1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/r/rust-breezyshim"
 	],
 	"Files": [
-		"96f8dd5ed92286152c8992d4d2487b30 2618 rust-breezyshim_0.1.86-1.dsc 8577a7e77da7a593d4da7c5e6bba8080 42792 rust-breezyshim_0.1.86.orig.tar.gz 60ccdb1dab30c62d5f242c086eac4662 2688 rust-breezyshim_0.1.86-1.debian.tar.xz"
+		"3bbb2e8520ecd88fe90884441703dbe6 2584 rust-breezyshim_0.1.92-1.dsc 9b6fb452106d9352ea1499232d183e82 31953 rust-breezyshim_0.1.92.orig.tar.gz 6c2a53efa0fc94a498bd29439f806ac7 2744 rust-breezyshim_0.1.92-1.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -45,7 +45,7 @@
 		"autopkgtest"
 	],
 	"Testsuite-Triggers": [
-		"dh-cargo, librust-pyo3+auto-initialize-dev, librust-pyo3+default-dev"
+		"dh-cargo, librust-pyo3+default-dev"
 	],
 	"Uploaders": [
 		"Jelmer Vernooĳ <jelmer@debian.org>"
@@ -57,6 +57,6 @@
 		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/breezyshim]"
 	],
 	"Version": [
-		"0.1.86-1"
+		"0.1.92-1"
 	]
 }
