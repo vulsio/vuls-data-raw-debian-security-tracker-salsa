@@ -6,10 +6,10 @@
 		"dhcpcd-base, dhcpcd, dhcpcd5"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), libssl-dev, libudev-dev [linux-any], pkgconf"
+		"debhelper-compat (= 13), libssl-dev, libudev-dev [linux-any], pkgconf, systemd-timesyncd [linux-any]"
 	],
 	"Checksums-Sha256": [
-		"ccaccf1e23cfe036371e8b444d34d008ef0ae7dced8f4268d4c03c27e5ef2e79 2345 dhcpcd_10.0.8-1~bpo12+1.dsc d8dddf9f971a8d9ff828f33d8fa9f6d9a892a4a1429d230e9efb2be97dd0e313 272116 dhcpcd_10.0.8.orig.tar.xz 9ba6d423f6c24717a85680efd6b9b72b7fdcd9310c845e767bc31bf2fcd3b233 488 dhcpcd_10.0.8.orig.tar.xz.asc 65591d67b8fa5a2ce58e76da7b62b7f1cd8fba33163b0329e4d83e090e17bdfd 16844 dhcpcd_10.0.8-1~bpo12+1.debian.tar.xz"
+		"fed6d1ce6ca4f9a2c38c112027ea4317d96fda227f12f9832da349aeb599a0d6 2376 dhcpcd_10.0.8-2~bpo12+1.dsc d8dddf9f971a8d9ff828f33d8fa9f6d9a892a4a1429d230e9efb2be97dd0e313 272116 dhcpcd_10.0.8.orig.tar.xz 9ba6d423f6c24717a85680efd6b9b72b7fdcd9310c845e767bc31bf2fcd3b233 488 dhcpcd_10.0.8.orig.tar.xz.asc 5140a98dd72911b7838dceec6befb08bcc91517a87b4ff447753e3c341e65e9a 16956 dhcpcd_10.0.8-2~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/d/dhcpcd"
@@ -51,6 +51,6 @@
 		"https://salsa.debian.org/debian/dhcpcd.git"
 	],
 	"Version": [
-		"1:10.0.8-1~bpo12+1"
+		"1:10.0.8-2~bpo12+1"
 	]
 }
