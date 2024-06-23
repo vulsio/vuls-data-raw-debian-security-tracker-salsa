@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-gix-worktree-stream-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native (>= 1.65) <!nocheck>, libstd-rust-dev <!nocheck>, librust-gix-attributes-0.22+default-dev (>= 0.22.2-~~) <!nocheck>, librust-gix-features-0.38+default-dev (>= 0.38.1-~~) <!nocheck>, librust-gix-features-0.38+io-pipe-dev (>= 0.38.1-~~) <!nocheck>, librust-gix-features-0.38+progress-dev (>= 0.38.1-~~) <!nocheck>, librust-gix-filter-0.11+default-dev (>= 0.11.1-~~) <!nocheck>, librust-gix-fs-0.10+default-dev (>= 0.10.2-~~) <!nocheck>, librust-gix-hash-0.14+default-dev (>= 0.14.2-~~) <!nocheck>, librust-gix-object-0.42+default-dev <!nocheck>, librust-gix-path-0.10+default-dev (>= 0.10.7-~~) <!nocheck>, librust-gix-traverse-0.39+default-dev <!nocheck>, librust-parking-lot-0.12+default-dev (>= 0.12.1-~~) <!nocheck>, librust-thiserror-1+default-dev (>= 1.0.26-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"f9ddaecc707b789b95cec777d7efa9c2c11e55fab3722be605c6ea6d6b0d9e5a 3045 rust-gix-worktree-stream_0.12.0-1.dsc 6e73f7f8c1354516339a244f61f0fe3080b4cf25ddcbcfefd2d56661d51e88d4 13363 rust-gix-worktree-stream_0.12.0.orig.tar.gz 598904d2e701198b9ed71aa9e8610bbc916949d37743e65430391adea2081cc3 2704 rust-gix-worktree-stream_0.12.0-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-gix-worktree-stream"
+	],
+	"Files": [
+		"232dbd2760560d226fb76e54af5d5f6f 3045 rust-gix-worktree-stream_0.12.0-1.dsc e934f0e8694f13f2652f7f1944c70258 13363 rust-gix-worktree-stream_0.12.0.orig.tar.gz 6f3eb48bf766962b5338dcfa00099ee2 2704 rust-gix-worktree-stream_0.12.0-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-gix-worktree-stream"
+	],
+	"Package-List": [
+		"librust-gix-worktree-stream-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo"
+	],
+	"Uploaders": [
+		"Fabian Grünbichler <debian@fabian.gruenbichler.email>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gix-worktree-stream"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/gix-worktree-stream]"
+	],
+	"Version": [
+		"0.12.0-1"
+	]
+}
