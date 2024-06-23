@@ -1,0 +1,49 @@
+{
+	"header": {
+		"line": "CVE-2024-XXXX [org-link-expand-abbrev: Do not evaluate arbitrary unsafe Elisp code]",
+		"name": "TEMP-1074137-922989",
+		"description": "[org-link-expand-abbrev: Do not evaluate arbitrary unsafe Elisp code]"
+	},
+	"annotations": [
+		{
+			"line": "\t- emacs <unfixed> (bug #1074137)",
+			"type": "package",
+			"package": "emacs",
+			"kind": "unfixed",
+			"flags": [
+				{
+					"bug": 1074137
+				}
+			]
+		},
+		{
+			"line": "\t- org-mode <unfixed> (bug #1074136)",
+			"type": "package",
+			"package": "org-mode",
+			"kind": "unfixed",
+			"flags": [
+				{
+					"bug": 1074136
+				}
+			]
+		},
+		{
+			"line": "\t[bookworm] - org-mode <ignored> (Produces only a dependency binary package)",
+			"type": "package",
+			"release": "bookworm",
+			"package": "org-mode",
+			"kind": "ignored",
+			"description": "Produces only a dependency binary package"
+		},
+		{
+			"line": "\tNOTE: https://www.openwall.com/lists/oss-security/2024/06/23/1",
+			"type": "NOTE",
+			"description": "https://www.openwall.com/lists/oss-security/2024/06/23/1"
+		},
+		{
+			"line": "\tNOTE: Fixed by: https://git.savannah.gnu.org/cgit/emacs/org-mode.git/commit/?id=f4cc61636947b5c2f0afc67174dd369fe3277aa8 (release_9.7.5)",
+			"type": "NOTE",
+			"description": "Fixed by: https://git.savannah.gnu.org/cgit/emacs/org-mode.git/commit/?id=f4cc61636947b5c2f0afc67174dd369fe3277aa8 (release_9.7.5)"
+		}
+	]
+}
