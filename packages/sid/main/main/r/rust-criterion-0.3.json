@@ -6,16 +6,16 @@
 		"librust-criterion-0.3-dev"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), dh-cargo (>= 25), gnuplot-nox <!nocheck>, librust-approx-0.5+default-dev <!nocheck>, librust-atty-0.2+default-dev <!nocheck>, librust-cast-0.3+default-dev <!nocheck>, librust-clap-2-dev (>= 2.33) <!nocheck>, librust-criterion-plot-0.4+default-dev (>= 0.4.4) <!nocheck>, librust-csv-1+default-dev (>= 1.1) <!nocheck>, librust-futures-0.3+executor-dev <!nocheck>, librust-itertools-0.10+default-dev <!nocheck>, librust-itertools-num-0.1+default-dev <!nocheck>, librust-lazy-static-1+default-dev (>= 1.4) <!nocheck>, librust-num-complex-0.4+std-dev <!nocheck>, librust-num-traits-0.2-dev <!nocheck>, librust-oorandom-11+default-dev (>= 11.1) <!nocheck>, librust-plotters-0.3+area-series-dev <!nocheck>, librust-plotters-0.3+line-series-dev <!nocheck>, librust-plotters-0.3+svg-backend-dev <!nocheck>, librust-quickcheck-1-dev <!nocheck>, librust-rand-0.8+default-dev <!nocheck>, librust-rayon-1+default-dev (>= 1.3) <!nocheck>, librust-regex-1+std-dev (>= 1.3) <!nocheck>, librust-serde-1+default-dev <!nocheck>, librust-serde-cbor-0.11+default-dev <!nocheck>, librust-serde-derive-1+default-dev <!nocheck>, librust-serde-json-1+default-dev <!nocheck>, librust-tempfile-3+default-dev (>= 3.2.0) <!nocheck>, librust-tinytemplate-1+default-dev (>= 1.1) <!nocheck>, librust-walkdir-2+default-dev (>= 2.3) <!nocheck>, libstring-shellquote-perl"
+		"debhelper-compat (= 13), dh-cargo, gnuplot-nox <!nocheck>, librust-approx-0.5+default-dev <!nocheck>, librust-async-std-1+default-dev <!nocheck>, librust-atty-0.2+default-dev <!nocheck>, librust-cast-0.3+default-dev <!nocheck>, librust-clap-2-dev <!nocheck>, librust-criterion-plot-0.4+default-dev <!nocheck>, librust-csv-1+default-dev <!nocheck>, librust-futures-0.3+executor-dev <!nocheck>, librust-itertools-0.10+default-dev <!nocheck>, librust-itertools-num-0.1+default-dev <!nocheck>, librust-lazy-static-1+default-dev <!nocheck>, librust-num-complex-0.4+std-dev <!nocheck>, librust-num-traits-0.2-dev <!nocheck>, librust-oorandom-11+default-dev <!nocheck>, librust-plotters-0.3+area-series-dev <!nocheck>, librust-plotters-0.3+line-series-dev <!nocheck>, librust-plotters-0.3+svg-backend-dev <!nocheck>, librust-quickcheck-1-dev <!nocheck>, librust-rand-0.8+default-dev <!nocheck>, librust-rayon-1+default-dev <!nocheck>, librust-regex-1+std-dev <!nocheck>, librust-serde-1+default-dev <!nocheck>, librust-serde-cbor-0.11+default-dev <!nocheck>, librust-serde-derive-1+default-dev <!nocheck>, librust-serde-json-1+default-dev <!nocheck>, librust-tempfile-3+default-dev <!nocheck>, librust-smol-dev (<< 3) <!nocheck>, librust-tinytemplate-1+default-dev <!nocheck>, librust-tokio-1+rt-dev <!nocheck>, librust-walkdir-2+default-dev <!nocheck>, libstring-shellquote-perl"
 	],
 	"Checksums-Sha256": [
-		"7fb773142429503c860a277f0ac80a576f04e96a3f29d556b0da1537076c5b46 3864 rust-criterion-0.3_0.3.6-8.dsc 1f00edde7c59885d9ad90980a11b9dc33dd4d4d60b036f1f23f520d2a1dde9fb 784505 rust-criterion-0.3_0.3.6.orig.tar.gz 9e20da5750ee26af09002dd9eedcb7782a96d074679b2d60b075c2f1b035c8a7 16036 rust-criterion-0.3_0.3.6-8.debian.tar.xz"
+		"268b537961aaef71066d013878594b65ed33dd13b271ca47105559af6927b1a2 3875 rust-criterion-0.3_0.3.6-9.dsc 1f00edde7c59885d9ad90980a11b9dc33dd4d4d60b036f1f23f520d2a1dde9fb 784505 rust-criterion-0.3_0.3.6.orig.tar.gz 75bbdc5c70a8c425a85eae0d95bcef5297a9c35d8deda49238dc685818b509ab 19104 rust-criterion-0.3_0.3.6-9.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/r/rust-criterion-0.3"
 	],
 	"Files": [
-		"f699a4f999de4c1818306d8050583663 3864 rust-criterion-0.3_0.3.6-8.dsc abd61fc4a33d837c84bfedf9243218d8 784505 rust-criterion-0.3_0.3.6.orig.tar.gz 6f5065082b3aa22b6b7659581fc64ad8 16036 rust-criterion-0.3_0.3.6-8.debian.tar.xz"
+		"6e529bc77c2a8f7e7678fd300e20926e 3875 rust-criterion-0.3_0.3.6-9.dsc abd61fc4a33d837c84bfedf9243218d8 784505 rust-criterion-0.3_0.3.6.orig.tar.gz e0a04396fa3bab147a3033973725e45a 19104 rust-criterion-0.3_0.3.6-9.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -39,7 +39,7 @@
 		"misc"
 	],
 	"Standards-Version": [
-		"4.6.2"
+		"4.7.0"
 	],
 	"Testsuite": [
 		"autopkgtest"
@@ -54,6 +54,6 @@
 		"https://salsa.debian.org/debian/rust-criterion.git"
 	],
 	"Version": [
-		"0.3.6-8"
+		"0.3.6-9"
 	]
 }
