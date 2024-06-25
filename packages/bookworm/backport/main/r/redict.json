@@ -1,0 +1,56 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"redict, redict-sentinel, redict-server, redict-tools"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dpkg-dev (>= 1.17.14), libhiredict-dev, libjemalloc-dev [linux-any], liblua5.1-dev, liblzf-dev, libssl-dev, libsystemd-dev, lua-bitop-dev, lua-cjson-dev, openssl <!nocheck>, pkgconf, procps <!nocheck>, tcl <!nocheck>, tcl-tls <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"d11d76f7fa20edf29e881f37b200b33cc7b54a5e9ba1ae4ff5a21db10cd9d99e 2416 redict_7.3.0+ds-3~bpo12+1.dsc 458914aafaa6a470873c5bed0b94f39af6a6cb089949beb70606f2a97ea5c589 1741840 redict_7.3.0+ds.orig.tar.xz 4982c28c3f8026fbbe04717aed4483010cfc14bead738954a1225a8d12140304 13416 redict_7.3.0+ds-3~bpo12+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/redict"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://redict.io/"
+	],
+	"Maintainer": [
+		"Debian Redict Maintainers <team+redict@tracker.debian.org>"
+	],
+	"Package": [
+		"redict"
+	],
+	"Package-List": [
+		"redict deb database optional arch=all redict-sentinel deb database optional arch=any redict-server deb database optional arch=any redict-tools deb database optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.7.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Maytham Alsudany <maytha8thedev@gmail.com>, Alex Myczko <tar@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/redict-team/redict"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/redict-team/redict.git"
+	],
+	"Version": [
+		"7.3.0+ds-3~bpo12+1"
+	]
+}

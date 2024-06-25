@@ -3,16 +3,16 @@
 		"any all"
 	],
 	"Binary": [
-		"zabbix-agent, zabbix-agent2, zabbix-web-service, zabbix-frontend-php, zabbix-java-gateway, zabbix-proxy-mysql, zabbix-proxy-pgsql, zabbix-proxy-sqlite3, zabbix-server-mysql, zabbix-server-pgsql"
+		"zabbix-agent, zabbix-agent2, zabbix-sender, zabbix-web-service, zabbix-frontend-php, zabbix-java-gateway, zabbix-proxy-mysql, zabbix-proxy-pgsql, zabbix-proxy-sqlite3, zabbix-server-mysql, zabbix-server-pgsql"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 12), automake, dh-linktree, apache2-dev, dh-golang (>= 1.51~), golang-any (>= 2:1.17~), libcurl4-gnutls-dev, libevent-dev, libgnutls28-dev | gnutls-dev, libiksemel-dev, libldap2-dev, libmodbus-dev, default-libmysqlclient-dev, libopenipmi-dev [!hurd-any !arm], libpcre2-dev, libpq-dev, libsnmp-dev, libsqlite3-dev, libssh2-1-dev, libxml2-dev, pkg-config, unixodbc-dev, zlib1g-dev, fonts-dejavu-core, libjs-jquery-ui (>= 1.12.1~), javahelper, libssl-dev, golang-dbus-dev, golang-github-burntsushi-locker-dev, golang-github-eclipse-paho.mqtt.golang-dev, golang-github-goburrow-modbus-dev, golang-github-go-ldap-ldap-dev, golang-github-go-logfmt-logfmt-dev, golang-github-go-sql-driver-mysql-dev, golang-github-mailru-easyjson-dev, golang-github-mattn-go-sqlite3-dev, golang-github-miekg-dns-dev, golang-golang-x-xerrors-dev, golang-gopkg-mgo.v2-dev"
+		"debhelper-compat (= 12), automake, dh-linktree, apache2-dev, dh-golang (>= 1.51~), golang-any (>= 2:1.21~), libcurl4-gnutls-dev, libevent-dev, libgnutls28-dev | gnutls-dev, libiksemel-dev, libldap2-dev, libmodbus-dev, default-libmysqlclient-dev, libopenipmi-dev [!hurd-any !arm], libpcre2-dev, libpq-dev, libsnmp-dev, libsqlite3-dev, libssh2-1-dev, libxml2-dev, pkgconf | pkg-config, unixodbc-dev, zlib1g-dev, fonts-dejavu-core, libjs-jquery-ui (>= 1.12.1~), javahelper, libssl-dev, golang-dbus-dev, golang-github-burntsushi-locker-dev, golang-github-eclipse-paho.mqtt.golang-dev, golang-github-goburrow-modbus-dev, golang-github-go-ldap-ldap-dev, golang-github-go-logfmt-logfmt-dev, golang-github-go-logr-logr-dev, golang-github-go-sql-driver-mysql-dev, golang-github-mailru-easyjson-dev, golang-github-mattn-go-sqlite3-dev, golang-github-miekg-dns-dev, golang-golang-x-xerrors-dev, golang-google-protobuf-dev, golang-gopkg-mgo.v2-dev"
 	],
 	"Build-Depends-Indep": [
 		"default-jdk-headless, libandroid-json-java, liblogback-java, libslf4j-java, junit4, gettext, ruby-sass"
 	],
 	"Checksums-Sha256": [
-		"99d5aa9ca0f69410c3d642d646c591fe8ebaa53bc82ad714ce7eb119ba1a6042 4062 zabbix_6.0.23+dfsg-1~bpo12+1.dsc 7fe2988b7255e9962b2b1794ff452bdd2879fd586265d3af770c11ae92544646 13674588 zabbix_6.0.23+dfsg.orig-templates.tar.xz 643b67c269c97c9412e27a03dec57c58b787b4568e731084b7790733048f4867 688944 zabbix_6.0.23+dfsg.orig-vendor.tar.xz 56ca8a8be9481d3d64f87b5f8b733d80da46e0b56f3b34ad5a22fa1427920104 22564824 zabbix_6.0.23+dfsg.orig.tar.xz f9cbba79b99ebd8449f66e4bb6ba28ea7d0c6b49d51dd09b20be6dbe4ecba60b 229812 zabbix_6.0.23+dfsg-1~bpo12+1.debian.tar.xz"
+		"45dcc670e3e5e8b73db4c8d8d79fb2dab154ff7eaad1419668d058a52e7a579b 4175 zabbix_7.0.0+dfsg-2~bpo12+1.dsc 012ea9aa1f367b4bbac5c3722334012943cf3d86ddb3b8fae260bc88903aa230 14136212 zabbix_7.0.0+dfsg.orig-templates.tar.xz 63e6aefa88efb0ce2881b96270225d105cf7666798ca04a5f1789d6d64d590ec 827132 zabbix_7.0.0+dfsg.orig-vendor.tar.xz 9eea3fca858249ed211e31019be09e2ab85b05bec84bb1d74d49ed980d172e47 24507604 zabbix_7.0.0+dfsg.orig.tar.xz 032f2a4b00dfc853dafaaef72eadeb85ffa2e95a2d95df132b1a012f2646d0eb 142604 zabbix_7.0.0+dfsg-2~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/z/zabbix"
@@ -30,7 +30,7 @@
 		"zabbix"
 	],
 	"Package-List": [
-		"zabbix-agent deb net optional arch=any zabbix-agent2 deb net optional arch=any zabbix-frontend-php deb net optional arch=all zabbix-java-gateway deb net optional arch=all zabbix-proxy-mysql deb net optional arch=any zabbix-proxy-pgsql deb net optional arch=any zabbix-proxy-sqlite3 deb net optional arch=any zabbix-server-mysql deb net optional arch=any zabbix-server-pgsql deb net optional arch=any zabbix-web-service deb net optional arch=any"
+		"zabbix-agent deb net optional arch=any zabbix-agent2 deb net optional arch=any zabbix-frontend-php deb net optional arch=all zabbix-java-gateway deb net optional arch=all zabbix-proxy-mysql deb net optional arch=any zabbix-proxy-pgsql deb net optional arch=any zabbix-proxy-sqlite3 deb net optional arch=any zabbix-sender deb net optional arch=any zabbix-server-mysql deb net optional arch=any zabbix-server-pgsql deb net optional arch=any zabbix-web-service deb net optional arch=any"
 	],
 	"Priority": [
 		"optional"
@@ -51,6 +51,6 @@
 		"https://salsa.debian.org/debian/zabbix.git"
 	],
 	"Version": [
-		"1:6.0.23+dfsg-1~bpo12+1"
+		"1:7.0.0+dfsg-2~bpo12+1"
 	]
 }

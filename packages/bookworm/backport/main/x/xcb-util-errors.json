@@ -1,0 +1,56 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"libxcb-errors-dev, libxcb-errors0"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), pkgconf, python3:any, libxcb1-dev, xcb-proto, xutils-dev"
+	],
+	"Checksums-Sha256": [
+		"71b6d071ff0e571e69f04a1234ed6b751245cbfc4bbff331c9531403feb28158 2794 xcb-util-errors_1.0.1-2~bpo12+1.dsc 5628c87b984259ad927bacd8a42958319c36bdf4b065887803c9d820fb80f357 268052 xcb-util-errors_1.0.1.orig.tar.xz 7497bc763674dcfe31b5bb9084b15a0110595b1b91f49bf217c2aa6c9036191c 801 xcb-util-errors_1.0.1.orig.tar.xz.asc 34da01a521b8224173d7f0eb0c2db6a666c3db48050c51d5c5476d97ddabab6b 3160 xcb-util-errors_1.0.1-2~bpo12+1.debian.tar.xz"
+	],
+	"Description": [
+		"Helper library for printing information about X11 errors xcb-util-errors is a utility library that gives human readable names to error codes and event codes and also to major and minor numbers. . The necessary information is drawn from xcb-proto's protocol descriptions. . This library is especially useful when working with extensions and is mostly useful for debugging."
+	],
+	"Directory": [
+		"pool/main/x/xcb-util-errors"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://gitlab.freedesktop.org/xorg/lib/libxcb-errors"
+	],
+	"Maintainer": [
+		"Debian X Strike Force <debian-x@lists.debian.org>"
+	],
+	"Package": [
+		"xcb-util-errors"
+	],
+	"Package-List": [
+		"libxcb-errors-dev deb libdevel optional arch=any libxcb-errors0 deb libs optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.7.0"
+	],
+	"Uploaders": [
+		"Boyuan Yang <byang@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/xcb-util-errors"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/xcb-util-errors.git"
+	],
+	"Version": [
+		"1.0.1-2~bpo12+1"
+	]
+}

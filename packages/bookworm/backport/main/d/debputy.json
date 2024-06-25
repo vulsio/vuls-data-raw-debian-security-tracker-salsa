@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"dh-debputy"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-sequence-single-binary, hunspell-en-us <!nocheck>, python3-colored <!pkg.debputy.minimal>, python3-colorlog <!pkg.debputy.minimal>, python3-debian, python3-hunspell <!nocheck>, python3-levenshtein <pkg.debputy.ci>, python3-pytest <!nocheck>, python3-pytest-cov <pkg.debputy.test-coverage>, python3-ruyaml | python3-ruamel.yaml, python3:any (>= 3.11~), strip-nondeterminism <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"2a05081acc7e5fba0e49fea57db9aeb3e584050f82f7b49972819c77bb02ccb1 1805 debputy_0.1.36~bpo12+1.dsc 6424f6222843a8945e7ee5fcd84ff919e624de34c3728d8608ffc233899f86f5 426456 debputy_0.1.36~bpo12+1.tar.xz"
+	],
+	"Directory": [
+		"pool/main/d/debputy"
+	],
+	"Format": [
+		"3.0 (native)"
+	],
+	"Homepage": [
+		"https://salsa.debian.org/debian/debputy"
+	],
+	"Maintainer": [
+		"Debputy Maintainers <debputy@packages.debian.org>"
+	],
+	"Package": [
+		"debputy"
+	],
+	"Package-List": [
+		"dh-debputy deb devel optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.7.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"libcap2, python3-all, python3-pytest"
+	],
+	"Uploaders": [
+		"Niels Thykier <niels@thykier.net>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/debputy"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/debputy.git"
+	],
+	"Version": [
+		"0.1.36~bpo12+1"
+	]
+}
