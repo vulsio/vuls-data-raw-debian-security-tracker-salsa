@@ -1,15 +1,20 @@
 {
 	"header": {
 		"line": "CVE-2024-XXXX [RUSTSEC-2024-0344]",
-		"name": "TEMP-0000000-F7BBA7",
+		"name": "TEMP-1074351-F7BBA7",
 		"description": "[RUSTSEC-2024-0344]"
 	},
 	"annotations": [
 		{
-			"line": "\t- rust-curve25519-dalek <unfixed>",
+			"line": "\t- rust-curve25519-dalek <unfixed> (bug #1074351)",
 			"type": "package",
 			"package": "rust-curve25519-dalek",
-			"kind": "unfixed"
+			"kind": "unfixed",
+			"flags": [
+				{
+					"bug": 1074351
+				}
+			]
 		},
 		{
 			"line": "\tNOTE: https://rustsec.org/advisories/RUSTSEC-2024-0344.html",

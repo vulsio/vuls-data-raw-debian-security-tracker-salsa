@@ -1,0 +1,51 @@
+{
+	"header": {
+		"line": "CVE-2024-XXXX [RUSTSEC-2024-0345]",
+		"name": "TEMP-1074352-DEF3AE",
+		"description": "[RUSTSEC-2024-0345]"
+	},
+	"annotations": [
+		{
+			"line": "\t- rust-sequoia-openpgp <unfixed> (bug #1074352)",
+			"type": "package",
+			"package": "rust-sequoia-openpgp",
+			"kind": "unfixed",
+			"flags": [
+				{
+					"bug": 1074352
+				}
+			]
+		},
+		{
+			"line": "\t[bookworm] - rust-sequoia-openpgp <not-affected> (Vulnerable code not present)",
+			"type": "package",
+			"release": "bookworm",
+			"package": "rust-sequoia-openpgp",
+			"kind": "not-affected",
+			"description": "Vulnerable code not present"
+		},
+		{
+			"line": "\t[bullseye] - rust-sequoia-openpgp <not-affected> (Vulnerable code not present)",
+			"type": "package",
+			"release": "bullseye",
+			"package": "rust-sequoia-openpgp",
+			"kind": "not-affected",
+			"description": "Vulnerable code not present"
+		},
+		{
+			"line": "\tNOTE: https://rustsec.org/advisories/RUSTSEC-2024-0345.html",
+			"type": "NOTE",
+			"description": "https://rustsec.org/advisories/RUSTSEC-2024-0345.html"
+		},
+		{
+			"line": "\tNOTE: https://gitlab.com/sequoia-pgp/sequoia/-/issues/1106",
+			"type": "NOTE",
+			"description": "https://gitlab.com/sequoia-pgp/sequoia/-/issues/1106"
+		},
+		{
+			"line": "\tNOTE: Fixed by: https://gitlab.com/sequoia-pgp/sequoia/-/commit/81fa1d8440116712365106bca7bd81b46349d9c0 (openpgp/v1.21.0)",
+			"type": "NOTE",
+			"description": "Fixed by: https://gitlab.com/sequoia-pgp/sequoia/-/commit/81fa1d8440116712365106bca7bd81b46349d9c0 (openpgp/v1.21.0)"
+		}
+	]
+}
