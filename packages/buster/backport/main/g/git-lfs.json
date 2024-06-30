@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"git-lfs, golang-github-git-lfs-git-lfs-dev"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-golang, git (>= 1.8.0), golang-any (>= 2:1.12~), ronn (>= 0.8.0-2~), golang-github-pkg-errors-dev, golang-github-spf13-cobra-dev, golang-github-rubyist-tracerx-dev (>= 0.0~git20170927.0.7879593), golang-github-bgentry-go-netrc-dev, golang-github-olekukonko-ts-dev, golang-github-thomsonreuterseikon-go-ntlm-dev, golang-github-xeipuuv-gojsonschema-dev (>= 0.0~git20170210.0.6b67b3f), golang-github-git-lfs-wildmatch-dev (>= 1.0.4~), golang-github-git-lfs-go-netrc-dev, golang-github-git-lfs-gitobj-dev (>= 2.0.0~), golang-github-mattn-go-isatty-dev, golang-github-ssgelm-cookiejarparser-dev, golang-golang-x-sync-dev, golang-golang-x-sys-dev (>= 0.0~git20201101.da20708-2~), golang-github-dpotapov-go-spnego-dev"
+	],
+	"Checksums-Sha256": [
+		"c7d4e72a1301a3629bfe066cc5a0f9cfc08309b3689c096a3019b2cd9269e016 2819 git-lfs_2.13.1-2~bpo10+1.dsc 05b0d9473e9bc6696e9848d5a3c8188fbb6f64ec81259c006ac9bd0581325675 461208 git-lfs_2.13.1.orig.tar.xz dbcee5a45736aeaac06e6eaa26f13b8c604524011ccdf1b3e28daeee956dbade 4780 git-lfs_2.13.1-2~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/git-lfs"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Go-Import-Path": [
+		"github.com/git-lfs/git-lfs"
+	],
+	"Homepage": [
+		"https://git-lfs.github.com/"
+	],
+	"Maintainer": [
+		"Debian Go Packaging Team <team+pkg-go@tracker.debian.org>"
+	],
+	"Package": [
+		"git-lfs"
+	],
+	"Package-List": [
+		"git-lfs deb vcs optional arch=any golang-github-git-lfs-git-lfs-dev deb vcs optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.1"
+	],
+	"Testsuite": [
+		"autopkgtest-pkg-go"
+	],
+	"Uploaders": [
+		"Stephen Gelman <ssgelm@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/go-team/packages/git-lfs"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/go-team/packages/git-lfs.git"
+	],
+	"Version": [
+		"2.13.1-2~bpo10+1"
+	]
+}

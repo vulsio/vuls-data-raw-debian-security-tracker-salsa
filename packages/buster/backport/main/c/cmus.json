@@ -1,0 +1,53 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"cmus, cmus-plugin-ffmpeg"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 12), bash-completion, libao-dev, libasound2-dev (>= 1.0.11) [linux-any], libavcodec-dev, libavformat-dev (>= 6:10~), libswresample-dev, libcddb2-dev, libcdio-cdda-dev, libcue-dev, libdiscid-dev, libfaad-dev, libflac-dev, libjack-dev, libmad0-dev, libmodplug-dev, libmpcdec-dev, libncursesw5-dev, libopusfile-dev, libpulse-dev (>= 0.9.19), libroar-dev, libsamplerate0-dev, libvorbis-dev, libwavpack-dev, pkg-config"
+	],
+	"Checksums-Sha256": [
+		"b9188de840a965d1714686261954a8dbab1cf0ab7fdabc87240be56165f811b6 3490 cmus_2.8.0-2~bpo10+1.dsc 756ce2c6241b2104dc19097488225de559ac1802a175be0233cfb6fbc02f3bd2 317243 cmus_2.8.0.orig.tar.gz cb0f7d46dcafedbce5d6c000a9227f8bfa6a594d63e6514b4ccd09689cf51da1 9480 cmus_2.8.0-2~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/c/cmus"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://cmus.github.io/"
+	],
+	"Maintainer": [
+		"Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>"
+	],
+	"Package": [
+		"cmus"
+	],
+	"Package-List": [
+		"cmus deb sound optional arch=any cmus-plugin-ffmpeg deb sound optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.4.0"
+	],
+	"Uploaders": [
+		"Ryan Kavanagh <rak@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/multimedia-team/cmus/-/tree/debian/buster-backports"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/multimedia-team/cmus.git -b debian/buster-backports"
+	],
+	"Version": [
+		"2.8.0-2~bpo10+1"
+	]
+}

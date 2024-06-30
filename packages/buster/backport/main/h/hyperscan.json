@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"any-amd64 i386 kfreebsd-i386"
+	],
+	"Binary": [
+		"libhyperscan-dev, libhyperscan5"
+	],
+	"Build-Depends": [
+		"cmake (>= 2.8.11), debhelper-compat (= 12), libboost-dev (>= 1.57), libpcap-dev, pkg-config, po-debconf, python3, ragel (>= 6.9)"
+	],
+	"Checksums-Sha256": [
+		"6a317da84160a1455392f40586c3fe66fa8825d4f1ad3dbbaa3131801444ec8a 2244 hyperscan_5.3.0-1~bpo10+1.dsc a2382887ad2c882714a9b75801b38e2cfa2ce4f7703ed62737326df8c7a42a70 1868874 hyperscan_5.3.0.orig.tar.gz aa4a03ee09917cd8a494f8c8dc79cea912c1ecf2171f44823bdfbe0ac46ae26f 7964 hyperscan_5.3.0-1~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/h/hyperscan"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://01.org/hyperscan"
+	],
+	"Maintainer": [
+		"Robert Haist <rha@debian.org>"
+	],
+	"Package": [
+		"hyperscan"
+	],
+	"Package-List": [
+		"libhyperscan-dev deb libdevel optional arch=any-amd64,i386,kfreebsd-i386 libhyperscan5 deb libs optional arch=any-amd64,i386,kfreebsd-i386"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, pkg-config"
+	],
+	"Uploaders": [
+		"Hilko Bengen <bengen@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/hyperscan"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/hyperscan.git"
+	],
+	"Version": [
+		"5.3.0-1~bpo10+1"
+	]
+}

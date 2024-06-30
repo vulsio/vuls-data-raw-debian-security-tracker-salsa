@@ -1,0 +1,53 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"yara, libyara4, libyara-dev, yara-doc"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12~), python3-sphinx, flex, bison, pkg-config, libjansson-dev, libmagic-dev, libssl-dev"
+	],
+	"Checksums-Sha256": [
+		"a8ec290718f36495d03eb282f04a6d5d54fda2c39519dd9fe0c4a59757df4c41 2160 yara_4.0.2-1~bpo10+1.dsc 05ad88eac9a9f0232432fd14516bdaeda14349d6cf0cac802d76e369abcee001 888137 yara_4.0.2.orig.tar.gz c629cf47cb014dff8dad589ec9d1d4d15bd204971a3ab35132544b7235550024 8192 yara_4.0.2-1~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/y/yara"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://virustotal.github.io/yara/"
+	],
+	"Maintainer": [
+		"Debian Security Tools <team+pkg-security@tracker.debian.org>"
+	],
+	"Package": [
+		"yara"
+	],
+	"Package-List": [
+		"libyara-dev deb libdevel optional arch=any libyara4 deb libs optional arch=any yara deb utils optional arch=any yara-doc deb doc optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.4.0"
+	],
+	"Uploaders": [
+		"Hilko Bengen <bengen@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/pkg-security-team/yara"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/pkg-security-team/yara.git"
+	],
+	"Version": [
+		"4.0.2-1~bpo10+1"
+	]
+}

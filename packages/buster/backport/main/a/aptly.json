@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"aptly, aptly-api"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 12), dh-golang, golang-any, golang-golang-x-tools-dev, bash-completion, golang-github-disposaboy-jsonconfigreader-dev, golang-gopkg-h2non-filetype.v1-dev, golang-github-aleksi-pointer-dev, golang-github-awalterschulze-gographviz-dev, golang-github-mkrautz-goar-dev, golang-github-smira-go-xz-dev, golang-github-smira-go-ftp-protocol-dev, golang-github-smira-flag-dev, golang-github-smira-commander-dev, golang-gopkg-cheggaaa-pb.v1-dev, golang-github-mattn-go-shellwords-dev, golang-github-smira-go-aws-auth-dev, golang-github-wsxiaoys-terminal-dev, golang-github-mxk-go-flowrate-dev, golang-github-pborman-uuid-dev, golang-github-kjk-lzma-dev, golang-github-aws-aws-sdk-go-dev, golang-github-gin-gonic-gin-dev, golang-github-ncw-swift-dev, golang-github-pkg-errors-dev, golang-github-syndtr-goleveldb-dev, golang-github-ugorji-go-codec-dev, golang-golang-x-sys-dev, golang-golang-x-crypto-dev"
+	],
+	"Checksums-Sha256": [
+		"7b1707c9bc0c7b01353765a2bc44cf52bc3443c6d2121c8dee523a78814c5301 2914 aptly_1.4.0+ds1-2~bpo10+1.dsc 37c2b12aba495eec1660c195cd59c1ff36477da4eee88743618b1009a9f11c18 2382832 aptly_1.4.0+ds1.orig.tar.xz 456de09ae3b6714b4dfd873775d0f1e431310085b8da22dbc68ccdc38522ae9d 7936 aptly_1.4.0+ds1-2~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/a/aptly"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Go-Import-Path": [
+		"github.com/aptly-dev/aptly"
+	],
+	"Homepage": [
+		"https://www.aptly.info"
+	],
+	"Maintainer": [
+		"Sebastien Delafond <seb@debian.org>"
+	],
+	"Package": [
+		"aptly"
+	],
+	"Package-List": [
+		"aptly deb utils optional arch=any aptly-api deb utils optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.4.1"
+	],
+	"Testsuite": [
+		"autopkgtest, autopkgtest-pkg-go"
+	],
+	"Uploaders": [
+		"Sascha Steinbiss <satta@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/aptly"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/aptly.git"
+	],
+	"Version": [
+		"1.4.0+ds1-2~bpo10+1"
+	]
+}

@@ -1,0 +1,56 @@
+{
+	"Architecture": [
+		"amd64 arm64 ppc64el"
+	],
+	"Binary": [
+		"nvidia-settings-tesla-460"
+	],
+	"Build-Conflicts": [
+		"libxnvctrl-dev"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), m4, libgl1-mesa-dev | libgl-dev, libgtk-3-dev, libjansson-dev, libvdpau-dev (>= 0.9), libxv-dev, libxxf86vm-dev, pkg-config, xserver-xorg-dev"
+	],
+	"Checksums-Sha256": [
+		"aa82ece56e8cd4b965ba66fd0224cac872f85d0472b3a73054828e75d2289ef5 2461 nvidia-settings-tesla-460_460.91.03-1~bpo10+1.dsc 35d45230a26a405ed4ecb5c6010c64dd810ef25dd636a91598792113831bbc11 1061093 nvidia-settings-tesla-460_460.91.03.orig.tar.bz2 ba1f9db0f27d62ba329845d8ab7251e2c379c5ceb67e3ebbfa6ad0501a8c7a83 22840 nvidia-settings-tesla-460_460.91.03-1~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/contrib/n/nvidia-settings-tesla-460"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://download.nvidia.com/XFree86/nvidia-settings/"
+	],
+	"Maintainer": [
+		"Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"nvidia-settings-tesla-460"
+	],
+	"Package-List": [
+		"nvidia-settings-tesla-460 deb contrib/x11 optional arch=amd64,arm64,ppc64el"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"contrib/misc"
+	],
+	"Standards-Version": [
+		"4.5.1"
+	],
+	"Uploaders": [
+		"Andreas Beckmann <anbe@debian.org>, Luca Boccassi <bluca@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/nvidia-team/nvidia-settings"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/nvidia-team/nvidia-settings.git -b tesla-460/master"
+	],
+	"Version": [
+		"460.91.03-1~bpo10+1"
+	]
+}

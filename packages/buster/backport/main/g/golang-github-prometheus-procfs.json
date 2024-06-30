@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"golang-github-prometheus-procfs-dev, golang-procfs-dev"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-golang (>= 1.17), golang-go (>= 2:1.14~), golang-github-google-go-cmp-dev, golang-golang-x-sync-dev, golang-golang-x-sys-dev"
+	],
+	"Checksums-Sha256": [
+		"953ab38bb8f1eb9648d048893074e0a429d6d04f25034cbd0de7008e45cf3494 2576 golang-github-prometheus-procfs_0.3.0-1~bpo10+1.dsc 58aa1644f930d3c2a16f69225f16d4159ae876a06a5afc5b9fcda21aa7f74589 162257 golang-github-prometheus-procfs_0.3.0.orig.tar.gz 376ace6836f00d51df36243750402beb6fe24106c3f3084f406bcd3cac670040 4484 golang-github-prometheus-procfs_0.3.0-1~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/golang-github-prometheus-procfs"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Go-Import-Path": [
+		"github.com/prometheus/procfs"
+	],
+	"Homepage": [
+		"https://github.com/prometheus/procfs.git"
+	],
+	"Maintainer": [
+		"Debian Go Packaging Team <team+pkg-go@tracker.debian.org>"
+	],
+	"Package": [
+		"golang-github-prometheus-procfs"
+	],
+	"Package-List": [
+		"golang-github-prometheus-procfs-dev deb golang optional arch=all golang-procfs-dev deb oldlibs optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.1"
+	],
+	"Testsuite": [
+		"autopkgtest-pkg-go"
+	],
+	"Uploaders": [
+		"Martina Ferrari <tina@debian.org>, Daniel Swarbrick <daniel.swarbrick@cloud.ionos.com>, Lucas Kanashiro <kanashiro@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/go-team/packages/golang-github-prometheus-procfs"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/go-team/packages/golang-github-prometheus-procfs.git"
+	],
+	"Version": [
+		"0.3.0-1~bpo10+1"
+	]
+}

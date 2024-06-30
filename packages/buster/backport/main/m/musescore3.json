@@ -1,0 +1,50 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"musescore3-common, musescore3"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), mksh, xauth, xvfb, desktop-file-utils, fonts-freefont-ttf, libmp3lame0, musescore-general-soundfont-small | musescore-compatible-soundfont, qml-module-qtquick-controls, qml-module-qtquick-dialogs, qml-module-qtquick-layouts, qml-module-qtquick2, shared-mime-info, xdg-utils, cmake, doxygen, g++ (>= 4:4.8), graphviz, libasound2-dev, libfreetype6-dev (>= 2.5.2), libjack-dev, libmp3lame-dev, libpoppler-qt5-dev, libportmidi-dev [linux-any], libpulse-dev, libqt5opengl5-dev, libqt5svg5-dev, libqt5xmlpatterns5-dev, libsndfile1-dev (>= 1.0.25), lsb-release, portaudio19-dev, qtbase5-dev, qtdeclarative5-dev (>= 5.8), qtscript5-dev, qttools5-dev, qttools5-dev-tools, zlib1g-dev"
+	],
+	"Checksums-Sha256": [
+		"5d34a336d46eaf50becb1c4af22b39abd9305450496c0e02426fdfd4d8df54dc 2807 musescore3_3.2.3+dfsg2-11~bpo10+1.dsc 8fb376a90da4389ac88b2351421f5dc2f9140331c0b609d5f0b4dcc138dac3c1 17967008 musescore3_3.2.3+dfsg2.orig.tar.xz 70096fa3ec518cc92c4e040cce46286c922db36dd46100dae162efad42046bfa 388028 musescore3_3.2.3+dfsg2-11~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/m/musescore3"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://musescore.org/en"
+	],
+	"Maintainer": [
+		"Thorsten Glaser <tg@mirbsd.de>"
+	],
+	"Package": [
+		"musescore3"
+	],
+	"Package-List": [
+		"musescore3 deb sound optional arch=any musescore3-common deb sound optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.1"
+	],
+	"Vcs-Browser": [
+		"https://evolvis.org/plugins/scmgit/cgi-bin/gitweb.cgi?p=alioth/musescore.git;a=shortlog;h=refs/heads/buster-backports"
+	],
+	"Vcs-Git": [
+		"https://evolvis.org/anonscm/git/alioth/musescore.git -b buster-backports"
+	],
+	"Version": [
+		"3.2.3+dfsg2-11~bpo10+1"
+	]
+}

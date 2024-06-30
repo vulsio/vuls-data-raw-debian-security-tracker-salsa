@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python3-metakernel, python-metakernel-doc"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-ipython <!nodoc> <!nocheck>, python3-ipykernel <!nodoc> <!nocheck>, python3-sphinx <!nodoc>, python3-sphinx-bootstrap-theme <!nodoc>, python2-doc <!nodoc>, python3-nbsphinx <!nodoc>, python3-numpydoc <!nodoc>, python3-pypandoc <!nodoc>, python3-recommonmark <!nodoc>, python3-pytest <!nocheck>, python3-pytest-cov <!nocheck>, python3-pexpect <!nocheck>, python3-jedi <!nocheck>, python3-ipyparallel <!nocheck>, python3-requests <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"36f57178a1210cfca108f1a8897adc866b5793264a5e0ffb6aaf0eb0b657e67c 2721 metakernel_0.27.5-1~bpo10+1.dsc 57e17012a673d14778b725df738be4b1e8aa4d7f5c6cbf9061abef7cfac9771c 289100 metakernel_0.27.5.orig.tar.gz 23a05fa4f1b3eca1516d70bf5dbf2370c1e45dfeeb10d654d495f1f602d08f80 5652 metakernel_0.27.5-1~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/m/metakernel"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/Calysto/metakernel"
+	],
+	"Maintainer": [
+		"Debian Python Team <team+python@tracker.debian.org>"
+	],
+	"Package": [
+		"metakernel"
+	],
+	"Package-List": [
+		"python-metakernel-doc deb doc optional arch=all python3-metakernel deb python optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.0"
+	],
+	"Testsuite": [
+		"autopkgtest, autopkgtest-pkg-python"
+	],
+	"Testsuite-Triggers": [
+		"man-db, python3-ipyparallel, python3-jedi, python3-pytest, python3-pytest-cov, python3-requests"
+	],
+	"Uploaders": [
+		"Joseph Nahmias <jello@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/python-team/packages/metakernel"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/python-team/packages/metakernel.git"
+	],
+	"Version": [
+		"0.27.5-1~bpo10+1"
+	]
+}

@@ -1,0 +1,62 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"fabio-viewer, python3-fabio, python3-fabio-dbg, python-fabio-doc"
+	],
+	"Build-Depends": [
+		"cython3, cython3-dbg, debhelper-compat (= 12), dh-python, help2man, libjs-mathjax, pandoc, python3-all-dbg, python3-all-dev, python3-h5py, python3-h5py-dbg, python3-lxml, python3-lxml-dbg, python3-matplotlib, python3-matplotlib-dbg, python3-nbsphinx, python3-numpy, python3-numpy-dbg, python3-pil, python3-pil-dbg, python3-pyqt5, python3-pyqt5-dbg, python3-setuptools, python3-six, python3-sphinx (>= 1.4.9), python3-sphinxcontrib.programoutput, xauth, xvfb"
+	],
+	"Checksums-Sha256": [
+		"e13dc55bb914a22b89fb5f16bbad6d50b347a1aa6d205a753142c08e2b659d77 2970 python-fabio_0.10.0+dfsg-1~bpo10+1.dsc c22a835591cbfe484ac1b622a69c25363c01e2deed7d3a1c614a09ae9ff007b6 713364 python-fabio_0.10.0+dfsg.orig.tar.xz fc14192c3e8f4f08c2bff605c7b7cb4b3335aa22db02d6cc3d9c88febab656d2 8220 python-fabio_0.10.0+dfsg-1~bpo10+1.debian.tar.xz"
+	],
+	"Dgit": [
+		"0e0cabef379256750f808ca9bba50cd6b2ec6f22 debian archive/debian/0.10.0+dfsg-1_bpo10+1 https://git.dgit.debian.org/python-fabio"
+	],
+	"Directory": [
+		"pool/main/p/python-fabio"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/silx-kit/fabio"
+	],
+	"Maintainer": [
+		"Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"python-fabio"
+	],
+	"Package-List": [
+		"fabio-viewer deb science optional arch=all python-fabio-doc deb doc optional arch=all python3-fabio deb python optional arch=any python3-fabio-dbg deb debug optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.4.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"python3-all, python3-all-dbg, python3-setuptools"
+	],
+	"Uploaders": [
+		"Jerome Kieffer <jerome.kieffer@esrf.fr>, Picca Frédéric-Emmanuel <picca@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/science-team/python-fabio"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/science-team/python-fabio.git"
+	],
+	"Version": [
+		"0.10.0+dfsg-1~bpo10+1"
+	]
+}

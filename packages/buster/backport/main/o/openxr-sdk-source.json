@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"libopenxr-utils, libopenxr-loader1, libopenxr-dev, openxr-layer-corevalidation, openxr-layer-apidump"
+	],
+	"Build-Depends": [
+		"cmake, debhelper-compat (= 12), libgl1-mesa-dev, libglvnd-dev, libjsoncpp-dev, libopengl0, libvulkan-dev, libx11-dev, libx11-xcb-dev, libxcb-dri2-0-dev, libxcb-glx0-dev, libxcb-icccm4-dev, libxcb-keysyms1-dev, libxcb-randr0-dev, libxrandr-dev, libxxf86vm-dev, markdown, mesa-common-dev, python3-jinja2"
+	],
+	"Checksums-Sha256": [
+		"fe8a2685e3acadf3b711c68e6a7cc4750698b217230b3bc32bdf05d4808f651b 2811 openxr-sdk-source_1.0.9~dfsg1-1~bpo10+1.dsc 84bcd17312daa09167caa03a197de0e4040202e634cef672d64c0f007315a34f 2139740 openxr-sdk-source_1.0.9~dfsg1.orig.tar.xz 73356a4d27933f65c9c2935ec6388ce7d30bfe9ca3019a1df684bdb23af587c2 15828 openxr-sdk-source_1.0.9~dfsg1-1~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/o/openxr-sdk-source"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/KhronosGroup/OpenXR-SDK-Source"
+	],
+	"Maintainer": [
+		"Ryan Pavlik <ryan@ryanpavlik.com>"
+	],
+	"Package": [
+		"openxr-sdk-source"
+	],
+	"Package-List": [
+		"libopenxr-dev deb libdevel optional arch=any libopenxr-loader1 deb libs optional arch=any libopenxr-utils deb graphics optional arch=any openxr-layer-apidump deb graphics optional arch=any openxr-layer-corevalidation deb graphics optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"@builddeps@, build-essential, libgl1-mesa-dev, libvulkan-dev, libxrandr-dev, libxxf86vm-dev, mesa-common-dev, pkg-config"
+	],
+	"Uploaders": [
+		"Andrew Lee (李健秋) <ajqlee@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/openxr-team/openxr-sdk-source"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/openxr-team/openxr-sdk-source.git"
+	],
+	"Version": [
+		"1.0.9~dfsg1-1~bpo10+1"
+	]
+}

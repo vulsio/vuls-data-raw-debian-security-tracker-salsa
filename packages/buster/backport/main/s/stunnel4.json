@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"stunnel4"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 12), autoconf-archive, libanyevent-perl, libnet-ssleay-perl, libpath-tiny-perl, libssl-dev, libsystemd-dev [linux-any], libunicode-utf8-perl, libwrap0-dev, netcat-traditional, net-tools, openssl, procps"
+	],
+	"Checksums-Sha256": [
+		"ed86489683069a576b8d35ebfeacc3150267bcb9eece307f772d2a508c1cbb60 2502 stunnel4_5.55-2~bpo10+1.dsc 90de69f41c58342549e74c82503555a6426961b29af3ed92f878192727074c62 986873 stunnel4_5.55.orig.tar.gz 729ec67bfabc1f7ddac8b0848779db3b4addcf228ef48d9ab55a0a129e495976 963 stunnel4_5.55.orig.tar.gz.asc b9d3e2ad6432cebcc3d658ed43dec8867e9a64d6dc54ad322eaede8bfef48cd5 46436 stunnel4_5.55-2~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/s/stunnel4"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.stunnel.org/"
+	],
+	"Maintainer": [
+		"Peter Pentchev <roam@debian.org>"
+	],
+	"Package": [
+		"stunnel4"
+	],
+	"Package-List": [
+		"stunnel4 deb net optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.4.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"adequate, libanyevent-perl, libnet-ssleay-perl, libpath-tiny-perl, libunicode-utf8-perl, net-tools, netcat-traditional, perl"
+	],
+	"Uploaders": [
+		"Laszlo Boszormenyi (GCS) <gcs@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/stunnel/"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/stunnel.git"
+	],
+	"Version": [
+		"3:5.55-2~bpo10+1"
+	]
+}

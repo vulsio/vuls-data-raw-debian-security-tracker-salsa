@@ -1,0 +1,65 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"python3-twisted, python3-twisted-bin, python3-twisted-bin-dbg, python-twisted-bin, python-twisted-bin-dbg, python-twisted-core, python-twisted-conch, python-twisted-mail, python-twisted-names, python-twisted-news, python-twisted-runner, python-twisted-runner-dbg, python-twisted-web, python-twisted-words, twisted-doc, python-twisted"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 9), dh-python, patch, python-all-dev, python-all-dbg, python-hamcrest, python-zope.interface-dbg (>= 4.0.2), python-setuptools, python-incremental, python-constantly, python-automat (>= 0.6.0), python-hyperlink, python2-doc, python3-all-dev, python3-all-dbg, python3-hamcrest, python3-zope.interface (>= 4.0.2), python3-setuptools, python3-incremental, python3-constantly, python3-automat (>= 0.6.0), python3-hyperlink, python3-doc"
+	],
+	"Build-Depends-Indep": [
+		"python3-sphinx"
+	],
+	"Checksums-Sha256": [
+		"eea6defc23ffd2b35103e3ace2778cdcd944b6d84829f313264eb935a3117e96 3403 twisted_18.9.0-8~bpo10+1.dsc 294be2c6bf84ae776df2fc98e7af7d6537e1c5e60a46d33c3ce2a197677da395 3088398 twisted_18.9.0.orig.tar.bz2 63985136285d936ecc9327d0ea05b255f429e67e7945584f7f2a0ad1a48e3ea1 41816 twisted_18.9.0-8~bpo10+1.debian.tar.xz"
+	],
+	"Dgit": [
+		"d6b43a51285fb56b74248d2d4a2a2fbe2bf36de3 debian archive/debian/18.9.0-8_bpo10+1 https://git.dgit.debian.org/twisted"
+	],
+	"Directory": [
+		"pool/main/t/twisted"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://twistedmatrix.com/"
+	],
+	"Maintainer": [
+		"Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"twisted"
+	],
+	"Package-List": [
+		"python-twisted deb python optional arch=all python-twisted-bin deb python optional arch=any python-twisted-bin-dbg deb debug optional arch=any python-twisted-conch deb python optional arch=all python-twisted-core deb python optional arch=all python-twisted-mail deb python optional arch=all python-twisted-names deb python optional arch=all python-twisted-news deb python optional arch=all python-twisted-runner deb python optional arch=all python-twisted-runner-dbg deb debug optional arch=all python-twisted-web deb python optional arch=all python-twisted-words deb python optional arch=all python3-twisted deb python optional arch=all python3-twisted-bin deb python optional arch=any python3-twisted-bin-dbg deb debug optional arch=any twisted-doc deb doc optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.4.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"python-hamcrest, python-setuptools, python3-hamcrest, python3-setuptools"
+	],
+	"Uploaders": [
+		"Matthias Klose <doko@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/python-team/modules/twisted"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/python-team/modules/twisted.git"
+	],
+	"Version": [
+		"18.9.0-8~bpo10+1"
+	]
+}

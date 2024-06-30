@@ -1,0 +1,53 @@
+{
+	"Architecture": [
+		"linux-any all"
+	],
+	"Binary": [
+		"libqmi-glib-dev, libqmi-glib-doc, libqmi-glib5, libqmi-utils, libqmi-proxy, gir1.2-qmi-1.0"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 12), autoconf-archive, gobject-introspection, gtk-doc-tools, libmbim-glib-dev (>= 1.18.0), libgirepository1.0-dev, libgudev-1.0-dev (>= 147), libglib2.0-dev (>= 2.36), pkg-config, python3:any"
+	],
+	"Build-Depends-Indep": [
+		"libglib2.0-doc <!nodoc>"
+	],
+	"Checksums-Sha256": [
+		"d5b17344e61800ad5ff186c7603343f507e36c82846ce4228035b779771767bd 2734 libqmi_1.26.10-0.1~bpo10+1.dsc 7c0043f06c875e5cf1de3c0c94ccc7f5b05862bcbcd9e4fb0d5d14277d1dab59 1111688 libqmi_1.26.10.orig.tar.xz 1630070a3306bee2abf3155c545be5b1b8f94557b057b25651ce6cd76c078029 195 libqmi_1.26.10.orig.tar.xz.asc ea9ef220981a01fbf288b8f7431497f101cfb473e33156f083b49f94bf79b39f 27000 libqmi_1.26.10-0.1~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/libq/libqmi"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.freedesktop.org/wiki/Software/libqmi"
+	],
+	"Maintainer": [
+		"Mathieu Trudel-Lapierre <mathieu.tl@gmail.com>"
+	],
+	"Package": [
+		"libqmi"
+	],
+	"Package-List": [
+		"gir1.2-qmi-1.0 deb introspection optional arch=linux-any libqmi-glib-dev deb libdevel optional arch=linux-any libqmi-glib-doc deb doc optional arch=all profile=!nodoc libqmi-glib5 deb libs optional arch=linux-any libqmi-proxy deb net optional arch=linux-any libqmi-utils deb net optional arch=linux-any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.0"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/libqmi"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/libqmi.git"
+	],
+	"Version": [
+		"1.26.10-0.1~bpo10+1"
+	]
+}

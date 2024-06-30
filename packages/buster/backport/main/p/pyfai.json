@@ -1,0 +1,62 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"pyfai, python3-pyfai, python3-pyfai-dbg, python-pyfai-doc"
+	],
+	"Build-Depends": [
+		"cython3, cython3-dbg, debhelper-compat (= 12), dh-python, python3-all-dbg, python3-all-dev, python3-fabio, python3-fabio-dbg, python3-h5py, python3-h5py-dbg, python3-matplotlib, python3-matplotlib-dbg, python3-numexpr, python3-numexpr-dbg, python3-numpy, python3-numpy-dbg, python3-pyopencl, python3-pyopencl-dbg, python3-pyqt5, python3-pyqt5-dbg, python3-scipy, python3-scipy-dbg, python3-setuptools, python3-silx (>= 0.10.1), python3-silx-dbg (>= 0.10.1), python3-sphinx, python3-tk, python3-tk-dbg, xauth, xvfb"
+	],
+	"Build-Depends-Indep": [
+		"help2man, libjs-mathjax, pandoc, python3-nbsphinx, python3-sphinxcontrib.programoutput"
+	],
+	"Checksums-Sha256": [
+		"346432fc6a2db5ec38190c623b20cf312dbbe8da21fc187955743da245e504b6 2962 pyfai_0.19.0+dfsg1-3~bpo10+1.dsc cc70297aef3c73ca64eceaba0cd8a1e9c0e0a87a4531bfc2810cf3aaa756ceab 27099228 pyfai_0.19.0+dfsg1.orig.tar.xz cac5aa2dacbfc721844aa1347961a603a7efd0c832f1aa93635128c5b91c9b1f 17204 pyfai_0.19.0+dfsg1-3~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/pyfai"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/silx-kit/pyFAI"
+	],
+	"Maintainer": [
+		"Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"pyfai"
+	],
+	"Package-List": [
+		"pyfai deb science optional arch=all python-pyfai-doc deb doc optional arch=all python3-pyfai deb python optional arch=any python3-pyfai-dbg deb debug optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.4.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"python3-all, python3-all-dbg, python3-tk, python3-tk-dbg, xauth, xvfb"
+	],
+	"Uploaders": [
+		"Jerome Kieffer <jerome.kieffer@esrf.fr>, Picca Frédéric-Emmanuel <picca@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/science-team/pyfai"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/science-team/pyfai.git"
+	],
+	"Version": [
+		"0.19.0+dfsg1-3~bpo10+1"
+	]
+}

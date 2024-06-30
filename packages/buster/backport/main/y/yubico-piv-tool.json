@@ -1,0 +1,53 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"libykpiv2, libykpiv-dev, yubico-piv-tool, ykcs11"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), cmake, pkg-config, check, gengetopt, help2man, libpcsclite-dev, libssl-dev"
+	],
+	"Checksums-Sha256": [
+		"76bf8d3a1d1d17c3d3d30d73896d2672effe9968a512b315e8b6f350b47efabb 2667 yubico-piv-tool_2.2.0-1~bpo10+1.dsc 74cb2e03c7137c0dd529f35a230b4a598121cb71b10d7e55b91fd0cdefcac457 1321651 yubico-piv-tool_2.2.0.orig.tar.gz ebd012198c09102668d65a2c43ad6561c6b91fd37c1d8c55e739775372bd92d5 833 yubico-piv-tool_2.2.0.orig.tar.gz.asc 83878651c6e5dd13ff802d14332cb9bdde1d765ed60016ce8beb1ee554c5805e 74476 yubico-piv-tool_2.2.0-1~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/y/yubico-piv-tool"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://developers.yubico.com/yubico-piv-tool/"
+	],
+	"Maintainer": [
+		"Debian Authentication Maintainers <pkg-auth-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"yubico-piv-tool"
+	],
+	"Package-List": [
+		"libykpiv-dev deb libdevel optional arch=any libykpiv2 deb libs optional arch=any ykcs11 deb libs optional arch=any yubico-piv-tool deb utils optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.1"
+	],
+	"Uploaders": [
+		"Alessio Di Mauro <alessio@yubico.com>, Dain Nilsson <dain@yubico.com>, Klas Lindfors <klas@yubico.com>, nicoo <nicoo@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/auth-team/yubico-piv-tool"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/auth-team/yubico-piv-tool.git"
+	],
+	"Version": [
+		"2.2.0-1~bpo10+1"
+	]
+}

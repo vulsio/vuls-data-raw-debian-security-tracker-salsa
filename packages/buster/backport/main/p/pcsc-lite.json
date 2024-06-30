@@ -1,0 +1,53 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"pcscd, libpcsclite-dev, libpcsclite1"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), flex, libudev-dev [linux-any], libusb2-dev [kfreebsd-any], pkg-config, dpkg-dev (>= 1.16.1~), libsystemd-dev"
+	],
+	"Checksums-Sha256": [
+		"9bff4224ad2017b13d288b214aa5ed90ef84b53a5f6b5775b07d4f22b96de9bc 2138 pcsc-lite_1.9.1-1~bpo10+1.dsc 73c4789b7876a833a70f493cda21655dfe85689d9b7e29701c243276e55e683a 763525 pcsc-lite_1.9.1.orig.tar.bz2 c238884b5d5b130a875740876b417af9cc3a35789bd3330903e5010a3fc1d21d 19168 pcsc-lite_1.9.1-1~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/pcsc-lite"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://pcsclite.apdu.fr/"
+	],
+	"Maintainer": [
+		"Ludovic Rousseau <rousseau@debian.org>"
+	],
+	"Package": [
+		"pcsc-lite"
+	],
+	"Package-List": [
+		"libpcsclite-dev deb libdevel optional arch=any libpcsclite1 deb libs optional arch=any pcscd deb misc optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.0"
+	],
+	"Uploaders": [
+		"Christoph Martin <martin@uni-mainz.de>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/pcsc-lite"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/pcsc-lite.git"
+	],
+	"Version": [
+		"1.9.1-1~bpo10+1"
+	]
+}

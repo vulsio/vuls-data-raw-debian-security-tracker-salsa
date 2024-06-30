@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"linux-any all"
+	],
+	"Binary": [
+		"libjavascriptcoregtk-4.0-18, libjavascriptcoregtk-4.0-dev, libjavascriptcoregtk-4.0-bin, gir1.2-javascriptcoregtk-4.0, libwebkit2gtk-4.0-37, libwebkit2gtk-4.0-dev, libwebkit2gtk-4.0-doc, gir1.2-webkit2-4.0, libwebkit2gtk-4.0-37-gtk2, webkit2gtk-driver"
+	],
+	"Build-Conflicts": [
+		"gir-repository-dev"
+	],
+	"Build-Depends": [
+		"gawk, bubblewrap (>= 0.3.1) [!alpha !ia64 !m68k !riscv64 !sh4 !sparc64], xdg-dbus-proxy [!alpha !ia64 !m68k !riscv64 !sh4 !sparc64], libseccomp-dev [!alpha !ia64 !m68k !riscv64 !sh4 !sparc64], cmake (>= 3.3), debhelper (>= 11.2~), jdupes, libfile-copy-recursive-perl, libglib2.0-dev (>= 2.36.0), libgtk-3-dev (>= 3.10.0), libpango1.0-dev (>= 1.30.0), libharfbuzz-dev (>= 0.9.18), libcairo2-dev (>= 1.10.2), libfontconfig1-dev (>= 2.8), libfreetype6-dev, libicu-dev, libgcrypt20-dev (>= 1.7.0), libgeoclue-2-dev, libhyphen-dev, libnotify-dev, libxslt1-dev (>= 1.1.7), libxml2-dev (>= 2.8), libsoup2.4-dev (>= 2.42.0), libsqlite3-dev (>= 3.0), libsystemd-dev, libgudev-1.0-dev [linux-any], libupower-glib-dev, libwoff-dev (>= 1.0.2), gperf, bison, flex, ruby:native, libjpeg-dev, libopenjp2-7-dev (>= 2.2.0), libpng-dev, libtasn1-6-dev, libwebp-dev, libxt-dev, libgstreamer1.0-dev (>= 1.13.1), libgstreamer-plugins-base1.0-dev (>= 1.13.1), libenchant-dev, geoclue-2.0, libsecret-1-dev, gobject-introspection (>= 1.32.0), libgirepository1.0-dev (>= 0.9.12-4), mesa-common-dev, ninja-build, libegl1-mesa-dev, libgl1-mesa-dev, libgles2-mesa-dev"
+	],
+	"Build-Depends-Indep": [
+		"gtk-doc-tools, libglib2.0-doc, libgtk-3-doc, libsoup2.4-doc"
+	],
+	"Checksums-Sha256": [
+		"7134c72497409b46c7d5485e35063eafcfde0e1b797df855257189f7d96a0066 4372 webkit2gtk_2.30.1-1~bpo10+1.dsc 17c59dfdadb7377192e9b59bc56c8a029c9fad4f38ed732b652bf33d0bd5d6b1 22304672 webkit2gtk_2.30.1.orig.tar.xz 2cc97384289f5440c52e6302d845ec996c764fd09a0e75e3428658fc603fbb9f 195 webkit2gtk_2.30.1.orig.tar.xz.asc d7be9a94bc28a086be7d29928ed99cf48e95aaf7d9c741e969328cd43936b977 71816 webkit2gtk_2.30.1-1~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/w/webkit2gtk"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://webkitgtk.org/"
+	],
+	"Maintainer": [
+		"Debian WebKit Maintainers <pkg-webkit-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"webkit2gtk"
+	],
+	"Package-List": [
+		"gir1.2-javascriptcoregtk-4.0 deb introspection optional arch=linux-any gir1.2-webkit2-4.0 deb introspection optional arch=linux-any libjavascriptcoregtk-4.0-18 deb libs optional arch=linux-any libjavascriptcoregtk-4.0-bin deb interpreters optional arch=linux-any libjavascriptcoregtk-4.0-dev deb libdevel optional arch=linux-any libwebkit2gtk-4.0-37 deb libs optional arch=linux-any libwebkit2gtk-4.0-37-gtk2 deb oldlibs optional arch=all libwebkit2gtk-4.0-dev deb libdevel optional arch=linux-any libwebkit2gtk-4.0-doc deb doc optional arch=all profile=!nodoc webkit2gtk-driver deb web optional arch=linux-any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.0"
+	],
+	"Uploaders": [
+		"Gustavo Noronha Silva <kov@debian.org>, Emilio Pozuelo Monfort <pochu@debian.org>, Alberto Garcia <berto@igalia.com>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/webkit-team/webkit"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/webkit-team/webkit.git"
+	],
+	"Version": [
+		"2.30.1-1~bpo10+1"
+	]
+}

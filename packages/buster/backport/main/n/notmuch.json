@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"notmuch, libnotmuch5, libnotmuch-dev, python3-notmuch, python3-notmuch2, ruby-notmuch, elpa-notmuch, notmuch-vim, notmuch-mutt"
+	],
+	"Build-Conflicts": [
+		"gdb [ia64 mips mips64el hppa], gdb-minimal, ruby1.8"
+	],
+	"Build-Depends": [
+		"bash-completion (>= 1.9.0~), debhelper-compat (= 13), dh-elpa (>= 2.0.6~), dh-python, desktop-file-utils, doxygen, dpkg-dev (>= 1.17.14), dtach (>= 0.8) <!nocheck>, emacs-nox | emacs-gtk | emacs-lucid | emacs25-nox | emacs25 (>= 25~) | emacs25-lucid (>= 25~) | emacs24-nox | emacs24 (>= 24~) | emacs24-lucid (>= 24~), gdb [!ia64 !mips !mips64el !kfreebsd-any !alpha !hppa] <!nocheck>, gnupg <!nocheck>, gpgsm <!nocheck>, libgmime-3.0-dev (>= 3.0.3~), libpython3-all-dev, libtalloc-dev, libxapian-dev, libz-dev, pkg-config, python3-all (>= 3.1.2-7~), python3-cffi, python3-pytest, python3-pytest-cov, python3-setuptools, python3-sphinx, ruby, ruby-dev (>> 1:1.9.3~), texinfo, xapian-tools <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"e395a1a7ee14829beceec9938f34690a2fa106b0fd5c810fecc8bbefe1dff3be 3277 notmuch_0.31.4-2~bpo10+1.dsc 8661b66567660fd630af10c4647c30327fdd1b34a988cab80d614328a5b74f55 713888 notmuch_0.31.4.orig.tar.xz 10894a013237bcbddeca8bb297c23f66b245627a6da91df1596686dfed5bd58d 20688 notmuch_0.31.4-2~bpo10+1.debian.tar.xz"
+	],
+	"Dgit": [
+		"7a27a0bc4eba86a298ca3c62dc5d6fc9f4ba8fbf debian archive/debian/0.31.4-2_bpo10+1 https://git.dgit.debian.org/notmuch"
+	],
+	"Directory": [
+		"pool/main/n/notmuch"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://notmuchmail.org/"
+	],
+	"Maintainer": [
+		"Carl Worth <cworth@debian.org>"
+	],
+	"Package": [
+		"notmuch"
+	],
+	"Package-List": [
+		"elpa-notmuch deb mail optional arch=all libnotmuch-dev deb libdevel optional arch=any libnotmuch5 deb libs optional arch=any notmuch deb mail optional arch=any notmuch-mutt deb mail optional arch=all notmuch-vim deb mail optional arch=all python3-notmuch deb python optional arch=all python3-notmuch2 deb python optional arch=any ruby-notmuch deb ruby optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.4.1"
+	],
+	"Uploaders": [
+		"Jameson Graef Rollins <jrollins@finestructure.net>, David Bremner <bremner@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://git.notmuchmail.org/git/notmuch"
+	],
+	"Vcs-Git": [
+		"https://git.notmuchmail.org/git/notmuch -b release"
+	],
+	"Version": [
+		"0.31.4-2~bpo10+1"
+	]
+}

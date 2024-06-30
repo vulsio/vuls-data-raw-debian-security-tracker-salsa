@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"libsbuild-perl, sbuild, sbuild-debian-developer-setup, buildd"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 12)"
+	],
+	"Build-Depends-Indep": [
+		"groff-base, libdpkg-perl (>= 1.18.14), libexception-class-perl, libfilesys-df-perl, libmime-lite-perl, libyaml-tiny-perl"
+	],
+	"Checksums-Sha256": [
+		"8062222940e1fcc982d2c256afffb0cc6331d30f79206149f8beb859e7caf89b 2526 sbuild_0.79.1-1~bpo10+1.dsc b14467ba3ad55264c777ae9fb4ce7c4ead7228fd328ee53069456f896eb46436 201328 sbuild_0.79.1.orig.tar.xz f88d78ceea53c5ba033bdb00c68f8d398f71765520d7f63605d25a9a768dfc57 51284 sbuild_0.79.1-1~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/s/sbuild"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"sbuild maintainers <sbuild@packages.debian.org>"
+	],
+	"Package": [
+		"sbuild"
+	],
+	"Package-List": [
+		"buildd deb devel optional arch=all libsbuild-perl deb perl optional arch=all sbuild deb devel optional arch=all sbuild-debian-developer-setup deb devel optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.3.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"apt, apt-utils, debootstrap, distro-info, lsb-release"
+	],
+	"Uploaders": [
+		"Johannes 'josch' Schauer <josch@debian.org>, Michael Banck <mbanck@debian.org>, Francesco Paolo Lovergine <frankie@debian.org>, Wookey <wookey@debian.org>, Michael Stapelberg <stapelberg@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/sbuild/tree/debian/unstable"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/sbuild.git -b debian/unstable"
+	],
+	"Version": [
+		"0.79.1-1~bpo10+1"
+	]
+}

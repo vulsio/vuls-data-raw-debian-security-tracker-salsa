@@ -1,0 +1,53 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"libabsl-dev, libabsl20200225"
+	],
+	"Build-Depends": [
+		"cmake (>= 3.5), debhelper-compat (= 11)"
+	],
+	"Checksums-Sha256": [
+		"5108261dfad796bd9e3ff779d2e1c1f5d5b801e88959cc71925e48b0f139460a 2356 abseil_0~20200225.2-3~bpo10+1.dsc ac05d5604206a40ec8b2f998c9149e3b788275792c4f67094dc34b47fc9ffa50 1679631 abseil_0~20200225.2.orig.tar.gz 95d53855a38ac392bfc1790f3de58f59afa6cda9625be8b0d77916bcbbf1dada 5688 abseil_0~20200225.2-3~bpo10+1.debian.tar.xz"
+	],
+	"Description": [
+		"extensions to the C++ standard library Abseil is an open-source collection of C++ library code designed to augment the C++ standard library. The Abseil library code is collected from Google's C++ codebase and has been extensively tested and used in production. In some cases, Abseil provides pieces missing from the C++ standard; in others, Abseil provides alternatives to the standard for special needs."
+	],
+	"Directory": [
+		"pool/main/a/abseil"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://abseil.io/"
+	],
+	"Maintainer": [
+		"Benjamin Barenblat <bbaren@debian.org>"
+	],
+	"Package": [
+		"abseil"
+	],
+	"Package-List": [
+		"libabsl-dev deb libdevel optional arch=any libabsl20200225 deb libs optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"cmake, g++, libgtest-dev, make"
+	],
+	"Version": [
+		"0~20200225.2-3~bpo10+1"
+	]
+}

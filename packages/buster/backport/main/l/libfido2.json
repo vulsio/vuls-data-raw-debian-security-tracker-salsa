@@ -1,0 +1,53 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libfido2-1, libfido2-dev, libfido2-doc, fido2-tools"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 12), pkg-config, cmake (>= 3.0), mandoc, libcbor-dev, libssl-dev, libudev-dev"
+	],
+	"Checksums-Sha256": [
+		"01dc999eab324d4868a39d83ce2c78655df9bab6cba3e567ad2066f7d1f03d79 2512 libfido2_1.5.0-2~bpo10+1.dsc 5990f923c9390fe1e6a00ba5d1d1f74030e7344b855e971d9fb7223e70ff3122 407259 libfido2_1.5.0.orig.tar.gz 028ca3ea440f59a7903535eb460ca1f3ef7efc550753b9162af2e8e9f501a955 488 libfido2_1.5.0.orig.tar.gz.asc 2d54a31ce2913beac7106b4d71bad911bd683495c7b94fa2ab8ab725d31caa84 73288 libfido2_1.5.0-2~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/libf/libfido2"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://developers.yubico.com/libfido2/"
+	],
+	"Maintainer": [
+		"Debian Authentication Maintainers <pkg-auth-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"libfido2"
+	],
+	"Package-List": [
+		"fido2-tools deb utils optional arch=any libfido2-1 deb libs optional arch=any libfido2-dev deb libdevel optional arch=any libfido2-doc deb doc optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.0"
+	],
+	"Uploaders": [
+		"Colin Watson <cjwatson@debian.org>, nicoo <nicoo@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/auth-team/libfido2"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/auth-team/libfido2.git"
+	],
+	"Version": [
+		"1.5.0-2~bpo10+1"
+	]
+}

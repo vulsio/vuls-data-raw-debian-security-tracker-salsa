@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libkim-api-dev, libkim-api2, libkim-api-doc"
+	],
+	"Build-Depends": [
+		"cmake, debhelper-compat (= 13), dh-fortran-mod, gfortran, xxd"
+	],
+	"Checksums-Sha256": [
+		"078bc38b0cecc5d430e48afede3578dfcf6dd8940d5bd2311019291bfdb40463 2190 kim-api_2.2.1-1~bpo10+1.dsc 155e3829186bf5d6b2e2227cfb31abcf6c1753b262941cfb2c84fc841a2b5879 567847 kim-api_2.2.1.orig.tar.gz e77b415bb377ae9d0933a0870639f29e611cc1bdd5ecdf100c43ee655a3423d1 9376 kim-api_2.2.1-1~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/k/kim-api"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://openkim.org"
+	],
+	"Maintainer": [
+		"Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"kim-api"
+	],
+	"Package-List": [
+		"libkim-api-dev deb libdevel optional arch=any libkim-api-doc deb libs optional arch=all libkim-api2 deb libs optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, cmake, gfortran, openkim-models, xxd"
+	],
+	"Uploaders": [
+		"Anton Gladky <gladk@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/science-team/kim-api"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/science-team/kim-api.git"
+	],
+	"Version": [
+		"2.2.1-1~bpo10+1"
+	]
+}

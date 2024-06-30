@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"phpmyadmin"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), locales-all, minify, php-bz2, php-gd, php-google-recaptcha, php-mariadb-mysql-kbs, php-mbstring, php-mysql, php-phpmyadmin-motranslator, php-phpmyadmin-shapefile, php-phpmyadmin-sql-parser, php-phpseclib, php-symfony-config (>= 3.4), php-symfony-dependency-injection (>= 3.4), php-symfony-expression-language (>= 3.4), php-symfony-yaml (>= 3.4), php-tcpdf, php-twig (>= 2.9), php-twig-i18n-extension, php-zip, phpab, phpunit, pkg-php-tools, po-debconf, python3-sphinx"
+	],
+	"Checksums-Sha256": [
+		"b178350709b3d6bbb23209fc8dc6e97c9ac9f8d59a582c4b72c8c44014f833d1 2679 phpmyadmin_5.0.4+dfsg2-2~bpo10+1.dsc 8c2e4820ab4912b83c5228faa93d1ca16d45e9f69848104bfeedbd7716e85860 10490516 phpmyadmin_5.0.4+dfsg2.orig.tar.xz 9fdee24c44f1092595a49fc28df73a1135409c664b9e2edd059fd617f1c9adb2 423896 phpmyadmin_5.0.4+dfsg2-2~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/phpmyadmin"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.phpmyadmin.net/"
+	],
+	"Maintainer": [
+		"phpMyAdmin Packaging Team <team+phpmyadmin@tracker.debian.org>"
+	],
+	"Package": [
+		"phpmyadmin"
+	],
+	"Package-List": [
+		"phpmyadmin deb web optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"php-bz2, php-gd, php-tcpdf, php-zip, phpab, phpunit"
+	],
+	"Uploaders": [
+		"Felipe Sateler <fsateler@debian.org>, Matthias Blümel <debian@blaimi.de>, William Desportes <williamdes@wdes.fr>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/phpmyadmin-team/phpmyadmin"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/phpmyadmin-team/phpmyadmin.git -b buster-backports"
+	],
+	"Version": [
+		"4:5.0.4+dfsg2-2~bpo10+1"
+	]
+}

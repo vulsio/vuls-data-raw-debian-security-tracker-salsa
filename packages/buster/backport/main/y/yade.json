@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"amd64 arm64 i386 ppc64el s390x all"
+	],
+	"Binary": [
+		"yade, libyade, python3-yade, yade-doc"
+	],
+	"Build-Depends": [
+		"cmake, debhelper-compat (= 13), dh-exec, dh-python, freeglut3-dev, help2man, libboost-all-dev, libbz2-dev, libcgal-dev, libeigen3-dev, libgl1-mesa-dev, libgmp-dev, libgts-dev, libloki-dev, libmetis-dev, libopenblas-dev, libqglviewer-dev-qt5, libsqlite3-dev, libsuitesparse-dev, libvtk6-dev, libxi-dev, libxmu-dev, pyqt5-dev-tools, python3-all-dev, python3-future, python3-ipython, python3-matplotlib, python3-minieigen, python3-mpi4py, python3-numpy, python3-pil, python3-pygraphviz, python3-pyqt5, python3-pyqt5.qtsvg, python3-tk, python3-xlib, zlib1g-dev"
+	],
+	"Build-Depends-Indep": [
+		"dvipng, graphviz, libjs-jquery, lmodern, python3-bibtexparser, python3-sphinx, texlive-fonts-recommended, texlive-plain-generic, texlive-latex-extra, texlive-latex-recommended, texlive-pictures, texlive-xetex, tipa"
+	],
+	"Checksums-Sha256": [
+		"25e3b5f29689bcac3a32c7ae17ecb53303e20f5e25773ad002e3e0e6b8ba1f7a 3240 yade_2020.01a-10~bpo10+1.dsc 93c4af3fce5e786391447e9cb8dec26b76d071d39af05fb637f202a6a96acddb 9086640 yade_2020.01a.orig.tar.bz2 f3928961936a500a600d75b8fa80509b3c58a4cfb7be232bc51d6a059970f78c 833 yade_2020.01a.orig.tar.bz2.asc e4adb848996c12f265007e3401ef5818dfe5e9cc00dde150b007b5022826419a 23300 yade_2020.01a-10~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/y/yade"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://yade-dem.org/doc/"
+	],
+	"Maintainer": [
+		"Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"yade"
+	],
+	"Package-List": [
+		"libyade deb science optional arch=amd64,arm64,i386,ppc64el,s390x python3-yade deb python optional arch=amd64,arm64,i386,ppc64el,s390x yade deb science optional arch=amd64,arm64,i386,ppc64el,s390x yade-doc deb doc optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Anton Gladky <gladk@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/science-team/yade"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/science-team/yade.git"
+	],
+	"Version": [
+		"2020.01a-10~bpo10+1"
+	]
+}

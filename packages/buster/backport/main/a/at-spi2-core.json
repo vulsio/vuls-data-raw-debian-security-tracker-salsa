@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"at-spi2-core, at-spi2-core-udeb, libatspi2.0-0, libatspi0-udeb, libatspi2.0-dev, gir1.2-atspi-2.0, at-spi2-doc"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 12), dbus, libdbus-1-dev, gedit <!nocheck>, libglib2.0-dev, libxkbcommon-x11-dev, libxkbcommon-dev, libxtst-dev, meson (>= 0.46.0), libgirepository1.0-dev, gtk-doc-tools (>= 1.09), gobject-introspection | dh-sequence-gir, xauth <!nocheck>, xvfb <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"d9703ac9bd40e57c100c816a68983b3c9fa6692b3712802a4f3c6b4ccec4f8d2 2762 at-spi2-core_2.38.0-4~bpo10+1.dsc 84e36c3fe66862133f5fe229772b76aa2526e10de5014a3778f2fa46ce550da5 190540 at-spi2-core_2.38.0.orig.tar.xz edd986028d3c5c69d7dddbd1f4c666f1af596cb921094f11c84875e6e54d012b 11636 at-spi2-core_2.38.0-4~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/a/at-spi2-core"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://wiki.gnome.org/Accessibility"
+	],
+	"Maintainer": [
+		"Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"at-spi2-core"
+	],
+	"Package-List": [
+		"at-spi2-core deb misc optional arch=any at-spi2-core-udeb udeb debian-installer optional arch=any at-spi2-doc deb doc optional arch=all gir1.2-atspi-2.0 deb introspection optional arch=any libatspi0-udeb udeb debian-installer optional arch=any libatspi2.0-0 deb libs optional arch=any libatspi2.0-dev deb libdevel optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, dbus, xauth, xvfb"
+	],
+	"Uploaders": [
+		"Samuel Thibault <sthibault@debian.org>, Jordi Mallach <jordi@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/a11y-team/at-spi2-core"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/a11y-team/at-spi2-core.git"
+	],
+	"Version": [
+		"2.38.0-4~bpo10+1"
+	]
+}

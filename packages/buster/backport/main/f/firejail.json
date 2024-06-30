@@ -1,0 +1,56 @@
+{
+	"Architecture": [
+		"linux-any all"
+	],
+	"Binary": [
+		"firejail, firejail-profiles"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-apparmor, gawk, libapparmor-dev, libselinux1-dev, pkg-config"
+	],
+	"Checksums-Sha256": [
+		"f1f05688e832ccc1f76ac61c4a7600930ae0c6853868d80fb2ec74a460749dfa 2531 firejail_0.9.64.4-1~bpo10+1.dsc 2bdaf71fff00d7551b6a4f584f3f7152821b6f9b9d416ee098f4aeaf3a02dff1 431116 firejail_0.9.64.4.orig.tar.xz 9c743e148f128295eb9fdf4176107f099063aed4b3a410f8e4f24ed18791f0d1 488 firejail_0.9.64.4.orig.tar.xz.asc 0efc95a03d6b1f2f05a2b9073ade4b0d9f2e4a9a5c7fdcc602e2321ccaa1515a 14452 firejail_0.9.64.4-1~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/f/firejail"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://firejail.wordpress.com"
+	],
+	"Maintainer": [
+		"Reiner Herrmann <reiner@reiner-h.de>"
+	],
+	"Package": [
+		"firejail"
+	],
+	"Package-List": [
+		"firejail deb utils optional arch=linux-any firejail-profiles deb utils optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"bridge-utils, cpio, csh, evince, expect, file, firefox, iproute2, iptables, iputils-ping, man-db, net-tools, procps, strace, sudo, thunderbird, transmission-gtk, wget, xserver-xephyr, xterm, xvfb, xzdec, zsh"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/reiner/firejail"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/reiner/firejail.git"
+	],
+	"Version": [
+		"0.9.64.4-1~bpo10+1"
+	]
+}

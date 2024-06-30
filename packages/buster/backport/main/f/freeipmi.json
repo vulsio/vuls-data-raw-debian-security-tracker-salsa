@@ -1,0 +1,53 @@
+{
+	"Architecture": [
+		"kfreebsd-any linux-any all"
+	],
+	"Binary": [
+		"freeipmi, freeipmi-bmc-watchdog, freeipmi-common, freeipmi-ipmidetect, freeipmi-ipmiseld, freeipmi-tools, libfreeipmi-dev, libfreeipmi17, libipmiconsole-dev, libipmiconsole2, libipmidetect-dev, libipmidetect0, libipmimonitoring-dev, libipmimonitoring6"
+	],
+	"Build-Depends": [
+		"chrpath, debhelper-compat (= 13), libgcrypt20-dev, libsystemd-dev, pkg-config, systemd, texinfo"
+	],
+	"Checksums-Sha256": [
+		"c9a53de58847c4974156f12edf3aea4c235be82bd845cac9c12ab212627b9b44 3126 freeipmi_1.6.6-4+deb11u1~bpo10+1.dsc 5340cf6b5a014402ae0bb69b6cdc107f8d803eb74010d9bd4fa98ab18f144613 2110576 freeipmi_1.6.6.orig.tar.xz a3362a5d1658ce3cc4e20094bc9d5e88d055137eeab4ddd3a4533488b935fed6 24796 freeipmi_1.6.6-4+deb11u1~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/f/freeipmi"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.gnu.org/software/freeipmi/"
+	],
+	"Maintainer": [
+		"Fabio Fantoni <fantonifabio@tiscali.it>"
+	],
+	"Package": [
+		"freeipmi"
+	],
+	"Package-List": [
+		"freeipmi deb admin optional arch=all freeipmi-bmc-watchdog deb admin optional arch=kfreebsd-any,linux-any freeipmi-common deb admin optional arch=all freeipmi-ipmidetect deb admin optional arch=kfreebsd-any,linux-any freeipmi-ipmiseld deb admin optional arch=kfreebsd-any,linux-any freeipmi-tools deb admin optional arch=kfreebsd-any,linux-any libfreeipmi-dev deb libdevel optional arch=kfreebsd-any,linux-any libfreeipmi17 deb libs optional arch=kfreebsd-any,linux-any libipmiconsole-dev deb libdevel optional arch=kfreebsd-any,linux-any libipmiconsole2 deb libs optional arch=kfreebsd-any,linux-any libipmidetect-dev deb libdevel optional arch=kfreebsd-any,linux-any libipmidetect0 deb libs optional arch=kfreebsd-any,linux-any libipmimonitoring-dev deb libdevel optional arch=kfreebsd-any,linux-any libipmimonitoring6 deb libs optional arch=kfreebsd-any,linux-any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.1"
+	],
+	"Uploaders": [
+		"Bernd Zeimetz <bzed@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/freeipmi"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/freeipmi.git"
+	],
+	"Version": [
+		"1.6.6-4+deb11u1~bpo10+1"
+	]
+}

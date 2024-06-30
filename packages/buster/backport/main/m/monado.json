@@ -1,0 +1,56 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"libopenxr1-monado, monado-cli, monado-gui"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 12), cmake, doxygen, glslang-tools, graphviz, libavcodec-dev, libcjson-dev, libdbus-1-dev [linux-any], libegl1-mesa-dev, libeigen3-dev, libgl1-mesa-dev, libglvnd-dev, libhidapi-dev [!hurd-i386], libopencv-dev, libsdl2-dev, libudev-dev, libusb-1.0-0-dev, libuvc-dev, libv4l-dev, libvulkan-dev, libwayland-dev, libx11-dev, libx11-xcb-dev, libxcb-randr0-dev, libxrandr-dev, libxxf86vm-dev, markdown <!nodoc>, pkg-config"
+	],
+	"Checksums-Sha256": [
+		"3bc95b39006df28902cc39b1dd8e09a885380e74bee19ba86542af78a834cdef 2527 monado_0.3.0-1~bpo10+1.dsc 6a48894f0c669f46b07a93582be6be04613f87dcabe969144acc9998c4ec51dc 1006547 monado_0.3.0.orig.tar.bz2 33b2e9cafa53e14be457911d89b93451bcccaa9aaa88038af210d2eb417452d5 11632 monado_0.3.0-1~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/m/monado"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://monado.freedesktop.org/"
+	],
+	"Maintainer": [
+		"Ryan Pavlik <ryan@ryanpavlik.com>"
+	],
+	"Package": [
+		"monado"
+	],
+	"Package-List": [
+		"libopenxr1-monado deb libs optional arch=any monado-cli deb graphics optional arch=any monado-gui deb graphics optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Uploaders": [
+		"Andrew Lee (李健秋) <ajqlee@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/monado-team/monado/-/tree/debian/buster-backports"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/monado-team/monado.git -b debian/buster-backports"
+	],
+	"Version": [
+		"0.3.0-1~bpo10+1"
+	]
+}

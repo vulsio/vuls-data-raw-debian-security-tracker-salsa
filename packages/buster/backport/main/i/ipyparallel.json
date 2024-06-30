@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python3-ipyparallel, python-ipyparallel-doc"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-ipython-genutils, python3-decorator, python3-zmq, python3-traitlets, python3-ipython, python3-jupyter-client, python3-ipykernel, python3-tornado, python3-dateutil, python3-sphinx <!nodoc>, python3-doc <!nodoc>, python-ipython-doc <!nodoc>, python-distributed-doc <!nodoc>, python-jupyter-client-doc <!nodoc>, python3-pytest <!nocheck>, python3-pytest-cov <!nocheck>, python3-testpath <!nocheck>, python3-mock <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"dc36af1270233ddb43687537c3ad8b26b538f3732b7a2aeb06360d8bf07e979c 2698 ipyparallel_6.3.0-2~bpo10+1.dsc b18f6e10ffbcf6f97cac9ce6edc32365302e8496a5252407b91c61b654882147 2380763 ipyparallel_6.3.0.orig.tar.gz c51963ab23fbe8bc0bc78e47357621bc4591cf95fe73fd0b4b949a13dde450b7 8948 ipyparallel_6.3.0-2~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/i/ipyparallel"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/ipython/ipyparallel"
+	],
+	"Maintainer": [
+		"Debian Python Team <team+python@tracker.debian.org>"
+	],
+	"Package": [
+		"ipyparallel"
+	],
+	"Package-List": [
+		"python-ipyparallel-doc deb doc optional arch=all profile=!nodoc python3-ipyparallel deb python optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.0"
+	],
+	"Testsuite": [
+		"autopkgtest, autopkgtest-pkg-python"
+	],
+	"Testsuite-Triggers": [
+		"python3-mock, python3-pytest, python3-pytest-cov, python3-testpath"
+	],
+	"Uploaders": [
+		"Joseph Nahmias <jello@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/python-team/packages/ipyparallel"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/python-team/packages/ipyparallel.git"
+	],
+	"Version": [
+		"6.3.0-2~bpo10+1"
+	]
+}

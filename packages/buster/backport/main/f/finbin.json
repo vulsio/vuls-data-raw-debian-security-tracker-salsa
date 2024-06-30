@@ -1,0 +1,62 @@
+{
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"libfinbin-java"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 12), default-jdk-headless, maven-debian-helper"
+	],
+	"Build-Depends-Indep": [
+		"junit4"
+	],
+	"Checksums-Sha256": [
+		"0afe2a45486197fedaa96c3b51f711470e0613345b36e3434d18894b549d88cf 2092 finbin_0.6.2-3~bpo10+1.dsc 65621b9ad46ec6db4887eb25e789fae711f37eb30481a52e743a288334d417cd 15213 finbin_0.6.2.orig.tar.gz 164c02c17fa0d1e0b0779191f32fb5865883dc1ca4ec73bb40e0ed1cf0154d88 3320 finbin_0.6.2-3~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/f/finbin"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/riversun/finbin"
+	],
+	"Maintainer": [
+		"Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"finbin"
+	],
+	"Package-List": [
+		"libfinbin-java deb java optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"@builddeps@, debhelper"
+	],
+	"Uploaders": [
+		"Roger Shimizu <rosh@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/java-team/finbin"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/java-team/finbin.git"
+	],
+	"Version": [
+		"0.6.2-3~bpo10+1"
+	]
+}

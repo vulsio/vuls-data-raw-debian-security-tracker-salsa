@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"golang-golang-x-tools, golang-golang-x-tools-dev"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-golang (>= 1.40~), golang-go (>= 2:1.12~), golang-github-yuin-goldmark-dev (>= 1.1.27~), golang-golang-x-mod-dev (>= 0.2.0~), golang-golang-x-net-dev (>= 1:0.0+git20200226.0de0cce~), golang-golang-x-sync-dev (>= 0.0~git20190911.cd5d95a~), golang-golang-x-xerrors-dev (>= 0.0~git20191204.9bdfabe~)"
+	],
+	"Checksums-Sha256": [
+		"dcd10e2986412406c73df386aff2cd1e35928088b6f8e707a177c5cc9098f8cc 2650 golang-golang-x-tools_0.0~git20200410.79a7a31+ds-3~bpo10+1.dsc 0de7af07991477dd02e5f092a47f6760802e4c0d4aa6d407bd0f13ab176a41e7 1528740 golang-golang-x-tools_0.0~git20200410.79a7a31+ds.orig.tar.xz 715c7c924181dc55686caea289fbc2305c26ad145650d97c6858d3c23ab6a8b1 23640 golang-golang-x-tools_0.0~git20200410.79a7a31+ds-3~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/golang-golang-x-tools"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Go-Import-Path": [
+		"golang.org/x/tools"
+	],
+	"Homepage": [
+		"https://golang.org/x/tools"
+	],
+	"Maintainer": [
+		"Debian Go Packaging Team <team+pkg-go@tracker.debian.org>"
+	],
+	"Package": [
+		"golang-golang-x-tools"
+	],
+	"Package-List": [
+		"golang-golang-x-tools deb devel optional arch=any golang-golang-x-tools-dev deb devel optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.0"
+	],
+	"Testsuite": [
+		"autopkgtest-pkg-go"
+	],
+	"Uploaders": [
+		"Martín Ferrari <tincho@debian.org>, Michael Stapelberg <stapelberg@debian.org>, Tianon Gravi <tianon@debian.org>, Tim Potter <tpot@hpe.com>, Anthony Fok <foka@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/go-team/packages/golang-golang-x-tools"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/go-team/packages/golang-golang-x-tools.git"
+	],
+	"Version": [
+		"1:0.0~git20200410.79a7a31+ds-3~bpo10+1"
+	]
+}

@@ -1,0 +1,56 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"blender, blender-data"
+	],
+	"Build-Conflicts": [
+		"nvidia-glx"
+	],
+	"Build-Depends": [
+		"cmake, debhelper-compat (= 12), dh-python, gettext, libalut-dev, libavcodec-dev (>> 6:10), libavdevice-dev, libavformat-dev, libavfilter-dev, libblosc-dev, libboost-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-locale-dev, libboost-regex-dev, libboost-system-dev, libboost-thread-dev, libfftw3-dev, libfontconfig-dev, libgettextpo-dev, libglew-dev, libgsm1-dev, libilmbase-dev (>= 2.2.0), libjack-dev, libjemalloc-dev [!hurd-i386], libjpeg-dev, liblzma-dev, liblzo2-dev, libopenal-dev, libopencolorio-dev [!hurd-i386], libopenexr-dev (>= 2.2.0), libopenimageio-dev (>= 2.0.0), libopenjp2-7-dev, libopenvdb-dev [amd64 i386], libosd-dev, libpng-dev, libsdl-dev, libsndfile-dev, libspnav-dev, libswscale-dev, libtbb-dev, libtiff-dev, libvorbis-dev, libxi-dev, libxrandr-dev, libxxf86vm-dev, libz-dev, opencollada-dev [linux-any], pkg-config, python3-dev, python3-numpy, python3-requests"
+	],
+	"Checksums-Sha256": [
+		"dcf1f5ef6f44a9b7c70043f0ea5cc3caf6eda712b5c7032478e9dda7b898afbd 3062 blender_2.82.a+dfsg-1~bpo10+1.dsc 27e64b444d387172fdb07be6bf5eaafde5b1a4be90731927592be0de82f21be1 40603804 blender_2.82.a+dfsg.orig.tar.xz b600c5604d5d999cffc1fb0ceabfe994fe13a539b2e49925e075dd62c2d6c085 33248 blender_2.82.a+dfsg-1~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/b/blender"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.blender.org/"
+	],
+	"Maintainer": [
+		"Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>"
+	],
+	"Package": [
+		"blender"
+	],
+	"Package-List": [
+		"blender deb graphics optional arch=any blender-data deb graphics optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.0"
+	],
+	"Uploaders": [
+		"Matteo F. Vescovi <mfv@debian.org>, Dominik George <natureshadow@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/multimedia-team/blender"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/multimedia-team/blender.git"
+	],
+	"Version": [
+		"2.82.a+dfsg-1~bpo10+1"
+	]
+}

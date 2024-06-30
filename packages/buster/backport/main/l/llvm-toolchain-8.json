@@ -1,0 +1,62 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"clang-8, clang-tools-8, clang-format-8, clang-tidy-8, clangd-8, clang-8-doc, libclang1-8, libclang-8-dev, libclang-common-8-dev, libfuzzer-8-dev, python-clang-8, clang-8-examples, libllvm8, llvm-8, llvm-8-runtime, llvm-8-dev, llvm-8-tools, libllvm-8-ocaml-dev, llvm-8-doc, llvm-8-examples, lld-8, liblld-8, liblld-8-dev, lldb-8, liblldb-8, python-lldb-8, python3-lldb-8, liblldb-8-dev, libomp-8-dev, libomp5-8, libomp-8-doc, libc++1-8, libc++-8-dev, libc++abi1-8, libc++abi-8-dev"
+	],
+	"Build-Conflicts": [
+		"ocaml, oprofile"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9.0), cmake, chrpath, texinfo, sharutils, libffi-dev (>= 3.0.9), lsb-release, patchutils, diffstat, xz-utils, python3-dev, libedit-dev, libncurses5-dev, swig, python3-six, python3-sphinx (>= 1.3.6), binutils-dev, libjsoncpp-dev, pkg-config, lcov, procps, help2man, zlib1g-dev, g++-multilib [amd64 i386 kfreebsd-amd64 mips mips64 mips64el mipsel powerpc ppc64 s390 s390x sparc sparc64 x32], libjs-mathjax, python3-recommonmark, doxygen, gfortran, ocaml-nox [amd64 arm64 armhf i386 ppc64el s390x], ocaml-findlib [amd64 arm64 armhf i386 ppc64el s390x], libctypes-ocaml-dev [amd64 arm64 armhf i386 ppc64el s390x], dh-exec, dh-ocaml [amd64 arm64 armhf i386 ppc64el s390x], libpfm4-dev"
+	],
+	"Checksums-Sha256": [
+		"c5dd5313d97e2f7e897adbc5723723c76b36074f73e3ab7ce8d4f5e01f4e1e22 8516 llvm-toolchain-8_8.0.1-3~bpo10+1.dsc 74bf84700b8931e1338c9b6f7b133e2eff28723c7c6c208cc6c0434a085a4f80 2121174 llvm-toolchain-8_8.0.1.orig-clang-tools-extra.tar.bz2 c697e5eb6b511f56250c843185b86619b29647a58d259edf5a8692095ccc66d0 14335127 llvm-toolchain-8_8.0.1.orig-clang.tar.bz2 8858b5b309a476dc0a4bf159d8b394616e5660a5274da93d29d3b0231234acbc 2473223 llvm-toolchain-8_8.0.1.orig-compiler-rt.tar.bz2 d8f5b9544572eacf2d17ba1ca6bd1dc20bec0eb202b3ec46c5db44a8cb6eadf5 1879310 llvm-toolchain-8_8.0.1.orig-libcxx.tar.bz2 c6a877520a9e66c5a63e0f73f997f78e04c1fb288ff5427d19be66c04b40eefa 544929 llvm-toolchain-8_8.0.1.orig-libcxxabi.tar.bz2 8caaff5f249b63cc57fca0b833889d63e2b7ce0a142d241ec7cd2bc966255e5d 1083382 llvm-toolchain-8_8.0.1.orig-lld.tar.bz2 ec3b1e1e19caef9377adbeaf24adb696e2dc3d320cd79f00e011ab80cc5e695a 11527801 llvm-toolchain-8_8.0.1.orig-lldb.tar.bz2 9ae63e0e581522a922ce6ea2da30130f686f1da62b75102e83e0d83b2a0433e0 1023879 llvm-toolchain-8_8.0.1.orig-openmp.tar.bz2 eff57565a52e45121e53c9516fc08860676e57e0df507b9168e106bee5b6b397 3957871 llvm-toolchain-8_8.0.1.orig-polly.tar.bz2 1cc0319ff4cfe3771c11822d01601455d9b7fb990bb1758a3b6bb6e06f81dfe9 35998690 llvm-toolchain-8_8.0.1.orig.tar.bz2 5f1b50a5d1f493b7e80a7e11f0b5abd4ee88fe0a6d55c2b4768c007426d772da 112912 llvm-toolchain-8_8.0.1-3~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/l/llvm-toolchain-8"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.llvm.org/"
+	],
+	"Maintainer": [
+		"LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"llvm-toolchain-8"
+	],
+	"Package-List": [
+		"clang-8 deb devel optional arch=any clang-8-doc deb doc optional arch=all clang-8-examples deb doc optional arch=any clang-format-8 deb devel optional arch=any clang-tidy-8 deb devel optional arch=any clang-tools-8 deb devel optional arch=any clangd-8 deb devel optional arch=any libc++-8-dev deb libdevel optional arch=any libc++1-8 deb libs optional arch=any libc++abi-8-dev deb libdevel optional arch=any libc++abi1-8 deb libs optional arch=any libclang-8-dev deb libdevel optional arch=any libclang-common-8-dev deb libdevel optional arch=any libclang1-8 deb libs optional arch=any libfuzzer-8-dev deb libdevel optional arch=linux-any liblld-8 deb libs optional arch=amd64,arm64,armel,armhf,i386,mips,mipsel,mips64el,ppc64el,kfreebsd-amd64,kfreebsd-i386,s390,sparc,alpha,hppa,m68k,powerpcspe,ppc64,sh4,sparc64,x32 liblld-8-dev deb libdevel optional arch=amd64,arm64,armel,armhf,i386,mips,mipsel,mips64el,ppc64el,kfreebsd-amd64,kfreebsd-i386,s390,sparc,alpha,hppa,m68k,powerpcspe,ppc64,sh4,sparc64,x32 liblldb-8 deb libs optional arch=amd64,arm64,armel,armhf,i386,mips,mipsel,mips64el,ppc64el,kfreebsd-amd64,kfreebsd-i386,s390,sparc,hppa,m68k,sh4,x32 liblldb-8-dev deb libdevel optional arch=amd64,arm64,armel,armhf,i386,mips,mipsel,mips64el,ppc64el,kfreebsd-amd64,kfreebsd-i386,s390,sparc,hppa,m68k,sh4,x32 libllvm-8-ocaml-dev deb ocaml optional arch=amd64,arm64,armhf,i386,ppc64el,s390x libllvm8 deb libs optional arch=any libomp-8-dev deb libdevel optional arch=amd64,arm64,armhf,i386,mips64el,ppc64el,ppc64 libomp-8-doc deb doc optional arch=all libomp5-8 deb devel optional arch=amd64,arm64,armhf,i386,mips64el,ppc64el,ppc64 lld-8 deb devel optional arch=amd64,arm64,armel,armhf,i386,mips,mipsel,mips64el,ppc64el,kfreebsd-amd64,kfreebsd-i386,s390,sparc,alpha,hppa,m68k,powerpcspe,ppc64,sh4,sparc64,x32 lldb-8 deb devel optional arch=amd64,arm64,armel,armhf,i386,mips,mipsel,mips64el,ppc64el,kfreebsd-amd64,kfreebsd-i386,s390,sparc,hppa,m68k,sh4,x32 llvm-8 deb devel optional arch=any llvm-8-dev deb devel optional arch=any llvm-8-doc deb doc optional arch=all llvm-8-examples deb doc optional arch=all llvm-8-runtime deb devel optional arch=any llvm-8-tools deb devel optional arch=any python-clang-8 deb python optional arch=any python-lldb-8 deb python optional arch=amd64,arm64,armel,armhf,i386,mips,mipsel,mips64el,ppc64el,kfreebsd-amd64,kfreebsd-i386,s390,sparc,hppa,m68k,sh4,x32 python3-lldb-8 deb python optional arch=amd64,arm64,armel,armhf,i386,mips,mipsel,mips64el,ppc64el,kfreebsd-amd64,kfreebsd-i386,s390,sparc,hppa,m69k,sh4,x32"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.2.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"cmake, dpkg-dev, file, g++"
+	],
+	"Uploaders": [
+		"Sylvestre Ledru <sylvestre@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/pkg-llvm-team/llvm-toolchain/tree/8"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/pkg-llvm-team/llvm-toolchain.git -b 8"
+	],
+	"Version": [
+		"1:8.0.1-3~bpo10+1"
+	]
+}

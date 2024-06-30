@@ -1,0 +1,50 @@
+{
+	"Architecture": [
+		"amd64 i386 armhf arm64 ppc64el"
+	],
+	"Binary": [
+		"nvidia-support, nvidia-installer-cleanup, nvidia-kernel-common"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), po-debconf"
+	],
+	"Checksums-Sha256": [
+		"24240ffa282fc642bf328e29aa7de67f7b0b93f766e2e3e43a87f7248ae27bdd 2059 nvidia-support_20151021+12~bpo10+1.dsc 3d8fc146990c4e791cb090787771c0444cc9c31f3b3a2a809ea6a425001b8af1 34300 nvidia-support_20151021+12~bpo10+1.tar.xz"
+	],
+	"Directory": [
+		"pool/contrib/n/nvidia-support"
+	],
+	"Format": [
+		"3.0 (native)"
+	],
+	"Maintainer": [
+		"Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"nvidia-support"
+	],
+	"Package-List": [
+		"nvidia-installer-cleanup deb contrib/misc optional arch=amd64,i386,armhf,arm64,ppc64el nvidia-kernel-common deb contrib/kernel optional arch=amd64,i386,armhf,arm64,ppc64el nvidia-support deb contrib/misc optional arch=amd64,i386,armhf,arm64,ppc64el"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"contrib/misc"
+	],
+	"Standards-Version": [
+		"4.5.0"
+	],
+	"Uploaders": [
+		"Andreas Beckmann <anbe@debian.org>, Luca Boccassi <bluca@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/nvidia-team/nvidia-support"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/nvidia-team/nvidia-support.git"
+	],
+	"Version": [
+		"20151021+12~bpo10+1"
+	]
+}

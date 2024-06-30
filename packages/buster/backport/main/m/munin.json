@@ -1,0 +1,62 @@
+{
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"munin-node, munin-plugins-core, munin-plugins-extra, munin-plugins-java, munin, munin-common, munin-async, munin-doc"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), libmodule-build-perl, po-debconf"
+	],
+	"Build-Depends-Indep": [
+		"default-jdk, html2text, htmldoc, libfile-slurp-perl, libhtml-template-perl, libio-stringy-perl, liblist-moreutils-perl, liblog-log4perl-perl, libnet-server-perl, libnet-snmp-perl, libnet-ssleay-perl, librrds-perl, libtest-deep-perl, libtest-differences-perl, libtest-exception-perl, libtest-longstring-perl, libtest-mockmodule-perl, libtest-mockobject-perl, perl"
+	],
+	"Checksums-Sha256": [
+		"0645192a5292bac4315ea7024f3432316ad7ebedb287ff0d890ce9c3159c44fd 3170 munin_2.0.67-1~bpo10+1.dsc 6a4312c504a2da6a41982dd71afebbcb30a93ec383e2ec6be87a863a5e7564d3 2252301 munin_2.0.67.orig.tar.gz 614cff16cbe8aaabe7d7ecf8d644a2de973a5bcc993d32b452ad74d18aabab52 833 munin_2.0.67.orig.tar.gz.asc 6fdf9d146fa7f78470863588f6e268efbc67ecb775cc1649b5fb856b73ef8a2b 64676 munin_2.0.67-1~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/m/munin"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://munin-monitoring.org"
+	],
+	"Maintainer": [
+		"Munin Debian Maintainers <team+munin@tracker.debian.org>"
+	],
+	"Package": [
+		"munin"
+	],
+	"Package-List": [
+		"munin deb net optional arch=all munin-async deb net optional arch=all munin-common deb net optional arch=all munin-doc deb doc optional arch=all munin-node deb net optional arch=all munin-plugins-core deb net optional arch=all munin-plugins-extra deb net optional arch=all munin-plugins-java deb net optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"apache2, cron, curl, daemontools, file, libcgi-fast-perl, netcat-openbsd, psmisc, sharness, systemd-sysv, sysvinit-core"
+	],
+	"Uploaders": [
+		"Holger Levsen <holger@debian.org>, Stig Sandbeck Mathisen <ssm@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/munin"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/munin.git -b debian"
+	],
+	"Version": [
+		"2.0.67-1~bpo10+1"
+	]
+}

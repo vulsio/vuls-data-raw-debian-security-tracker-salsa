@@ -1,0 +1,62 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"liblouis-dev, liblouis20, liblouis-data, liblouis-bin, python3-louis"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 12), automake (>= 1:1.14~), pkg-config, texinfo, help2man, dpkg-dev (>= 1.16), quilt, libyaml-dev"
+	],
+	"Build-Depends-Indep": [
+		"dh-python, python3-all"
+	],
+	"Checksums-Sha256": [
+		"afd135d2ee371a87b18ca9b6f1627dee21dd75fcd99cd5717635131f61ca8a6c 2407 liblouis_3.16.0-1~bpo10+1.dsc 88cda9ad95ce7fdd5a28d75b0a8ed7097fb24aa0112ebce110c505fd200080aa 14858914 liblouis_3.16.0.orig.tar.gz 8bb9ff62fdb94342e4c078206f780a1ea55459f163c344253d5b0c774a2c42c5 9652 liblouis_3.16.0-1~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/libl/liblouis"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://liblouis.org/"
+	],
+	"Maintainer": [
+		"Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"liblouis"
+	],
+	"Package-List": [
+		"liblouis-bin deb text optional arch=any liblouis-data deb text optional arch=all liblouis-dev deb libdevel optional arch=any liblouis20 deb libs optional arch=any python3-louis deb python optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"@builddeps@"
+	],
+	"Uploaders": [
+		"Samuel Thibault <sthibault@debian.org>, Cyril Brulebois <kibi@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/a11y-team/liblouis"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/a11y-team/liblouis.git"
+	],
+	"Version": [
+		"3.16.0-1~bpo10+1"
+	]
+}

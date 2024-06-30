@@ -1,0 +1,62 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libatk1.0-0, libatk1.0-udeb, libatk1.0-data, libatk1.0-dev, libatk1.0-doc, gir1.2-atk-1.0"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 12), dh-sequence-gir, dh-sequence-gnome, gtk-doc-tools (>= 1.13), libglib2.0-dev (>= 2.38.0), libgirepository1.0-dev (>= 1.32.0), meson (>= 0.46.0), pkg-config"
+	],
+	"Build-Depends-Indep": [
+		"docbook-xml <!nodoc>, libglib2.0-doc <!nodoc>"
+	],
+	"Checksums-Sha256": [
+		"54fd12698086aac84aab7cc57553ebad83ab732a282961f04bd7bb9a3e0a8bb2 2663 atk1.0_2.36.0-2~bpo10+1.dsc fb76247e369402be23f1f5c65d38a9639c1164d934e40f6a9cf3c9e96b652788 299100 atk1.0_2.36.0.orig.tar.xz 9ffb26d08469f5fe8a1b62c2e5aec1fccb30dd37f7eb31d9b9d4f62892e2d514 11876 atk1.0_2.36.0-2~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/a/atk1.0"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://wiki.gnome.org/Accessibility"
+	],
+	"Maintainer": [
+		"Debian Accessibility Team <pkg-a11y-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"atk1.0"
+	],
+	"Package-List": [
+		"gir1.2-atk-1.0 deb introspection optional arch=any libatk1.0-0 deb libs optional arch=any libatk1.0-data deb misc optional arch=all libatk1.0-dev deb libdevel optional arch=any libatk1.0-doc deb doc optional arch=all profile=!nodoc libatk1.0-udeb udeb debian-installer optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.4.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential"
+	],
+	"Uploaders": [
+		"Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>, Samuel Thibault <sthibault@debian.org>, Jeremy Bicha <jbicha@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/gnome-team/atk"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/gnome-team/atk.git"
+	],
+	"Version": [
+		"2.36.0-2~bpo10+1"
+	]
+}

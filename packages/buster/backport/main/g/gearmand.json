@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libgearman8, libgearman-dev, libgearman-doc, gearman-job-server, gearman-tools, gearman"
+	],
+	"Build-Depends": [
+		"autoconf, automake, chrpath, debhelper-compat (= 10), default-libmysqlclient-dev, gperf, lcov, libboost-program-options-dev, libboost-system-dev, libboost-thread-dev, libcurl4-gnutls-dev, libevent-dev, libhiredis-dev, libltdl-dev, libmemcached-dev, libpq-dev, libsasl2-dev, libsqlite3-dev, libtool, memcached, pkg-config, procps, python3-sphinx, sharness, systemtap-sdt-dev [amd64 armel armhf i386 ia64 powerpc s390], uuid-dev"
+	],
+	"Checksums-Sha256": [
+		"b03685fc0dd5e7396d93ba7f979c2f53f483b95b372aee041af4ac5cf6bc3df0 2775 gearmand_1.1.19.1+ds-2~bpo10+1.dsc 4d323db179cefbb0ca4c4daf8255b169efb9c7db20f526cc9e7f4aab0aa3ccfd 381840 gearmand_1.1.19.1+ds.orig.tar.xz 9fe9af291f383f6c08162e6cba8f31df7e66ceb6205644be46578a5780e187c6 20720 gearmand_1.1.19.1+ds-2~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/gearmand"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://launchpad.net/gearmand"
+	],
+	"Maintainer": [
+		"Alexandre Mestiashvili <mestia@debian.org>"
+	],
+	"Package": [
+		"gearmand"
+	],
+	"Package-List": [
+		"gearman deb misc optional arch=all gearman-job-server deb misc optional arch=any gearman-tools deb misc optional arch=any libgearman-dev deb libdevel optional arch=any libgearman-doc deb doc optional arch=all libgearman8 deb misc optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"perl, procps, sharness"
+	],
+	"Uploaders": [
+		"Clint Byrum <spamaps@debian.org>, Ondřej Surý <ondrej@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/gearmand"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/gearmand.git"
+	],
+	"Version": [
+		"1.1.19.1+ds-2~bpo10+1"
+	]
+}

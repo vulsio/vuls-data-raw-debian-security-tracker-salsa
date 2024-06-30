@@ -1,0 +1,50 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"libpcap-dev, libpcap0.8-dev, libpcap0.8, libpcap0.8-dbg"
+	],
+	"Build-Depends": [
+		"autotools-dev, bison, debhelper (>= 8.9.7), dh-autoreconf, flex, libbluetooth-dev [linux-any], libdbus-1-dev, linux-libc-dev (>= 2.6.27) [i386]"
+	],
+	"Checksums-Sha256": [
+		"509657d1ef3d603dce499daa9b75977f4467fecb597bef27860d82f894005466 2409 libpcap_1.10.0-2~bpo10+1.dsc 8d12b42623eeefee872f123bd0dc85d535b00df4d42e865f993c40f7bfc92b1e 934559 libpcap_1.10.0.orig.tar.gz 5a73d68bce6dea753db196109d71f9a02fa04a95c67231438e799175f6920555 442 libpcap_1.10.0.orig.tar.gz.asc 2722315c4aba47d5ad2fde4f7fe23c932471f1a27ee0a9cdb8a6a28edaa9f48f 19352 libpcap_1.10.0-2~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/libp/libpcap"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.tcpdump.org/"
+	],
+	"Maintainer": [
+		"Romain Francoise <rfrancoise@debian.org>"
+	],
+	"Package": [
+		"libpcap"
+	],
+	"Package-List": [
+		"libpcap-dev deb libdevel optional arch=any libpcap0.8 deb libs optional arch=any libpcap0.8-dbg deb debug optional arch=any libpcap0.8-dev deb libdevel optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.1"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rfrancoise/libpcap"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rfrancoise/libpcap.git"
+	],
+	"Version": [
+		"1.10.0-2~bpo10+1"
+	]
+}

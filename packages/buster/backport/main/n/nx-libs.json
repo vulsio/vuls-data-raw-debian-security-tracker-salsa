@@ -1,0 +1,53 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"nx-x11-common, nx-x11proto-core-dev, libnx-x11-6, libnx-x11-dev, nx-x11proto-xext-dev, nx-x11proto-composite-dev, nx-x11proto-damage-dev, nx-x11proto-xfixes-dev, nx-x11proto-xinerama-dev, nx-x11proto-randr-dev, nx-x11proto-render-dev, nx-x11proto-scrnsaver-dev, nxagent, nxdialog, nxproxy, libxcomp3, libxcomp-dev, libxcompshad3, libxcompshad-dev"
+	],
+	"Build-Depends": [
+		"autoconf, automake, debhelper-compat (= 12), dpkg-dev (>= 1.16.1.1), expat, libjpeg-dev, libpixman-1-dev (>= 0.13.2), libpng-dev, libtool, libxcomposite-dev, libxdamage-dev, libxdmcp-dev, libxext-dev, libxfixes-dev, libxfont-dev (>= 1.4.2), libxkbfile-dev, libxinerama-dev, libxml2-dev, libxpm-dev, libxrandr-dev, libxrender-dev, libxtst-dev, pkg-config, quilt (>= 0.46-7~), x11-xkb-utils, x11proto-core-dev, xutils-dev, zlib1g-dev"
+	],
+	"Checksums-Sha256": [
+		"fb3bed3a2145681d26a3a7c4f3a5780a513d72907f8014a729ca3edccc52f326 3990 nx-libs_3.5.99.22-1~bpo10+1.dsc 5c3d52696c496c13908c77f1591552781e27dd22358d51921faf6ff4b6898754 5285823 nx-libs_3.5.99.22.orig.tar.gz 9481ce1b079df5ae838014cfbd1b1060aa337289925679288a0f168003812e0c 833 nx-libs_3.5.99.22.orig.tar.gz.asc 108775b4de523e9e6f005cfec6cb953024a298eacc17f16b1317f5605e041f50 51328 nx-libs_3.5.99.22-1~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/n/nx-libs"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/ArcticaProject/nx-libs/"
+	],
+	"Maintainer": [
+		"Debian Remote Maintainers <debian-remote@lists.debian.org>"
+	],
+	"Package": [
+		"nx-libs"
+	],
+	"Package-List": [
+		"libnx-x11-6 deb libs optional arch=any libnx-x11-dev deb libdevel optional arch=any libxcomp-dev deb libdevel optional arch=any libxcomp3 deb libs optional arch=any libxcompshad-dev deb libdevel optional arch=any libxcompshad3 deb libs optional arch=any nx-x11-common deb x11 optional arch=all nx-x11proto-composite-dev deb libdevel optional arch=any nx-x11proto-core-dev deb libdevel optional arch=any nx-x11proto-damage-dev deb libdevel optional arch=any nx-x11proto-randr-dev deb libdevel optional arch=any nx-x11proto-render-dev deb libdevel optional arch=any nx-x11proto-scrnsaver-dev deb libdevel optional arch=any nx-x11proto-xext-dev deb libdevel optional arch=any nx-x11proto-xfixes-dev deb libdevel optional arch=any nx-x11proto-xinerama-dev deb libdevel optional arch=any nxagent deb x11 optional arch=any nxdialog deb x11 optional arch=all nxproxy deb x11 optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.3.0"
+	],
+	"Uploaders": [
+		"Mike Gabriel <sunweaver@debian.org>, Mihai Moldovan <ionic@ionic.de>, Debian Remote Maintainers <pkg-remote-team@lists.alioth.debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian-remote-team/nx-libs"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian-remote-team/nx-libs.git"
+	],
+	"Version": [
+		"2:3.5.99.22-1~bpo10+1"
+	]
+}

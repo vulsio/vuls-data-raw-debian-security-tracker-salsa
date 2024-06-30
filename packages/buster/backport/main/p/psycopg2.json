@@ -1,0 +1,65 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"python-psycopg2, python-psycopg2-dbg, python3-psycopg2, python3-psycopg2-dbg, python-psycopg2-doc"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-python, libpq-dev, postgresql, python-all-dbg, python-all-dev, python-egenix-mx-base-dev, python-setuptools, python3-all-dbg, python3-all-dev, python3-setuptools, python3-sphinx (>= 1.0.7+dfsg-1~)"
+	],
+	"Build-Depends-Indep": [
+		"python3-doc"
+	],
+	"Checksums-Sha256": [
+		"5aa7b9439b060e0c849918b22b5ff2437ac6cff734b704df455904d70137962b 2694 psycopg2_2.8.6-2~bpo10+1.dsc fb23f6c71107c37fd667cb4ea363ddeb936b348bbd6449278eb92c189699f543 383797 psycopg2_2.8.6.orig.tar.gz 564854ebd2ba4b34bd6f6329d2de8c50cf281d3dc78a8d2d23394325237f9190 488 psycopg2_2.8.6.orig.tar.gz.asc 9964fe0181558b4bf3763ef3deed4c77b58562ed91fe765ccc60391b0650bbf3 18088 psycopg2_2.8.6-2~bpo10+1.debian.tar.xz"
+	],
+	"Dgit": [
+		"9c6603b7a4c6d427adba8239a0eb93fe3fa4f501 debian archive/debian/2.8.6-2_bpo10+1 https://git.dgit.debian.org/psycopg2"
+	],
+	"Directory": [
+		"pool/main/p/psycopg2"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://initd.org/projects/psycopg"
+	],
+	"Maintainer": [
+		"Debian Python Team <team+python@tracker.debian.org>"
+	],
+	"Package": [
+		"psycopg2"
+	],
+	"Package-List": [
+		"python-psycopg2 deb python optional arch=any python-psycopg2-dbg deb debug optional arch=any python-psycopg2-doc deb doc optional arch=all python3-psycopg2 deb python optional arch=any python3-psycopg2-dbg deb debug optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"postgresql-all, python-all, python-all-dbg, python3-all, python3-all-dbg"
+	],
+	"Uploaders": [
+		"Fabio Tranchitella <kobold@debian.org>, Scott Kitterman <scott@kitterman.com>, Christoph Berg <myon@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/python-team/packages/psycopg2"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/python-team/packages/psycopg2.git"
+	],
+	"Version": [
+		"2.8.6-2~bpo10+1"
+	]
+}

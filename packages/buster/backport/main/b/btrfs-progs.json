@@ -1,0 +1,50 @@
+{
+	"Architecture": [
+		"linux-any"
+	],
+	"Binary": [
+		"btrfs-progs, libbtrfs0, libbtrfs-dev, libbtrfsutil1, libbtrfsutil-dev, python3-btrfsutil, btrfs-progs-udeb"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 12), e2fslibs-dev, pkg-config, libacl1-dev, libblkid-dev, liblzo2-dev, libmount-dev, libzstd-dev, uuid-dev, udev, zlib1g-dev, asciidoctor, xmlto, bash-completion, python3-dev, python3-setuptools, dh-python"
+	],
+	"Checksums-Sha256": [
+		"68178be9473d22613694f00f94402c5f51fb9bc0795401422370f83eba074ca6 2569 btrfs-progs_5.10.1-1~bpo10+1.dsc 1379cc731feae7f473ad9e37c845bbfb873381ef67b340f1a22fbca9a4da0344 2204164 btrfs-progs_5.10.1.orig.tar.xz 05d65c586128a1bd5620b7e7e427070c5fb118d0f3e0f9359a0d963773117cb7 17004 btrfs-progs_5.10.1-1~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/b/btrfs-progs"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://btrfs.wiki.kernel.org/"
+	],
+	"Maintainer": [
+		"Adam Borowski <kilobyte@angband.pl>"
+	],
+	"Package": [
+		"btrfs-progs"
+	],
+	"Package-List": [
+		"btrfs-progs deb admin optional arch=linux-any btrfs-progs-udeb udeb debian-installer optional arch=linux-any libbtrfs-dev deb libdevel optional arch=linux-any libbtrfs0 deb libs optional arch=linux-any libbtrfsutil-dev deb libdevel optional arch=linux-any libbtrfsutil1 deb libs optional arch=linux-any python3-btrfsutil deb python optional arch=linux-any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.1"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/btrfs-progs/tree/debian"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/btrfs-progs.git -b debian"
+	],
+	"Version": [
+		"5.10.1-1~bpo10+1"
+	]
+}

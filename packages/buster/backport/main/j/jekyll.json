@@ -1,0 +1,62 @@
+{
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"jekyll"
+	],
+	"Build-Depends": [
+		"cucumber, debhelper-compat (= 12), gem2deb, rake, ruby-addressable, ruby-classifier-reborn, ruby-colorator, ruby-em-websocket, ruby-httpclient, ruby-i18n, ruby-jekyll-sass-converter, ruby-jekyll-watch, ruby-kramdown, ruby-launchy-shim, ruby-liquid (>= 4.0~), ruby-mercenary, ruby-mime-types, ruby-minitest, ruby-minitest-reporters, ruby-nokogiri, ruby-pathutil, ruby-pygments.rb, ruby-rdiscount, ruby-redcarpet, ruby-rouge, ruby-rspec-mocks, ruby-safe-yaml, ruby-shoulda, ruby-simplecov, ruby-test-unit, ruby-toml (>= 0.1.2-2~), ruby-tomlrb, webpack, xdg-utils"
+	],
+	"Checksums-Sha256": [
+		"858cefe91f52059cb5a1b73983ca9a513410e5ff85f90c9ea55b86000c7ad145 2697 jekyll_3.8.6+dfsg-3~bpo10+1.dsc 21e3a8e7088d4ad18a35200a300af1ce49855f7fdc63c6a6d780368bcf1f4c0c 679212 jekyll_3.8.6+dfsg.orig.tar.xz 5ac82a542ffb47c6cf91035a68267b2b108d8fb394e5e195a7323e5cb9e1ee72 34536 jekyll_3.8.6+dfsg-3~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/j/jekyll"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/jekyll/jekyll"
+	],
+	"Maintainer": [
+		"Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"jekyll"
+	],
+	"Package-List": [
+		"jekyll deb web optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Ruby-Versions": [
+		"all"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.0"
+	],
+	"Testsuite": [
+		"autopkgtest, autopkgtest-pkg-ruby"
+	],
+	"Testsuite-Triggers": [
+		"@builddeps@, ruby-jekyll-coffeescript"
+	],
+	"Uploaders": [
+		"Youhei SASAKI <uwabami@gfd-dennou.org>, Daniel Leidert <dleidert@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/ruby-team/jekyll"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/ruby-team/jekyll.git -b debian/buster-backports"
+	],
+	"Version": [
+		"3.8.6+dfsg-3~bpo10+1"
+	]
+}

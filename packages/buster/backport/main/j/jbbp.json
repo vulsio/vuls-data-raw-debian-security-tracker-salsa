@@ -1,0 +1,62 @@
+{
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"libjbbp-java"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 12), default-jdk-headless, maven-debian-helper"
+	],
+	"Build-Depends-Indep": [
+		"libcommons-codec-java, libcommons-io-java, libcommons-lang3-java, libuber-pom-java"
+	],
+	"Checksums-Sha256": [
+		"4b83f4f142800556128528af237e75b395ac7aff5b31c2468bd184af7e8bf563 2188 jbbp_2.0.2-3~bpo10+1.dsc f7436d88c18c4161696b94e3be9ce2765a79aad812da6f281746921f08ff5a8c 3189828 jbbp_2.0.2.orig.tar.gz aee13eb3ad5f8928c5586ff2242792d2f47d16ce0c101e53d4caa3f6a5190e20 4800 jbbp_2.0.2-3~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/j/jbbp"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/raydac/java-binary-block-parser"
+	],
+	"Maintainer": [
+		"Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"jbbp"
+	],
+	"Package-List": [
+		"libjbbp-java deb java optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"@builddeps@, debhelper"
+	],
+	"Uploaders": [
+		"Roger Shimizu <rosh@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/java-team/jbbp"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/java-team/java-binary-block-parser.git"
+	],
+	"Version": [
+		"2.0.2-3~bpo10+1"
+	]
+}

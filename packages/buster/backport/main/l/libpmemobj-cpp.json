@@ -1,0 +1,56 @@
+{
+	"Architecture": [
+		"amd64 arm64 ppc64el all"
+	],
+	"Binary": [
+		"libpmemobj-cpp-dev, libpmemobj-cpp-doc"
+	],
+	"Build-Depends": [
+		"cmake, debhelper-compat (= 13), doxygen, gdb, graphviz, libncurses5-dev, libpmemobj-dev (>= 1.9~), libsfml-dev, libtbb-dev, libunwind-dev, pkg-config, valgrind"
+	],
+	"Checksums-Sha256": [
+		"00482890db5e26f271b04d1642a65c1e4eb0c24cf47586581069fa43a4a42428 2310 libpmemobj-cpp_1.12-1~bpo10+1.dsc 5a7e082a862affbd87ff174b790be7db77f7d85d4c583acc34011f1104bc54a9 741617 libpmemobj-cpp_1.12.orig.tar.gz 699c773d4bdc659198902cdc6f273a75c7da780d59d4e9da4dfde4261cfbc656 5104 libpmemobj-cpp_1.12-1~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/libp/libpmemobj-cpp"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://pmem.io/pmdk/cpp_obj/"
+	],
+	"Maintainer": [
+		"Adam Borowski <kilobyte@angband.pl>"
+	],
+	"Package": [
+		"libpmemobj-cpp"
+	],
+	"Package-List": [
+		"libpmemobj-cpp-dev deb libdevel optional arch=amd64,arm64,ppc64el libpmemobj-cpp-doc deb doc optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"clang, cmake, fontconfig, g++, libncurses-dev, libsfml-dev, make, pkg-config"
+	],
+	"Vcs-Browser": [
+		"https://github.com/kilobyte/libpmemobj-cpp"
+	],
+	"Vcs-Git": [
+		"https://github.com/kilobyte/libpmemobj-cpp.git -b debian"
+	],
+	"Version": [
+		"1.12-1~bpo10+1"
+	]
+}

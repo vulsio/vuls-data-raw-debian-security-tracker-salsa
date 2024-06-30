@@ -1,0 +1,50 @@
+{
+	"Architecture": [
+		"i386 amd64 armhf arm64 ppc64el"
+	],
+	"Binary": [
+		"update-glx, glx-diversions, glx-alternative-mesa, glx-alternative-nvidia"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13)"
+	],
+	"Checksums-Sha256": [
+		"76b27f6d0bcd9a78d03e1b8c435fdf34cbb6c66ba939f7ddf93a21986c50985b 2112 glx-alternatives_1.2.1~deb11u1~bpo10+1.dsc c15b15ecfa7a620b7d71e1dcaddb6f3409095615be0b4efa25291fab96bf2055 14192 glx-alternatives_1.2.1~deb11u1~bpo10+1.tar.xz"
+	],
+	"Directory": [
+		"pool/contrib/g/glx-alternatives"
+	],
+	"Format": [
+		"3.0 (native)"
+	],
+	"Maintainer": [
+		"Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"glx-alternatives"
+	],
+	"Package-List": [
+		"glx-alternative-mesa deb contrib/libs optional arch=i386,amd64,armhf,arm64,ppc64el glx-alternative-nvidia deb contrib/libs optional arch=i386,amd64,armhf,arm64,ppc64el glx-diversions deb contrib/libs optional arch=i386,amd64,armhf,arm64,ppc64el update-glx deb contrib/x11 optional arch=i386,amd64,armhf,arm64,ppc64el"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"contrib/misc"
+	],
+	"Standards-Version": [
+		"4.6.0"
+	],
+	"Uploaders": [
+		"Andreas Beckmann <anbe@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/nvidia-team/glx-alternatives"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/nvidia-team/glx-alternatives.git"
+	],
+	"Version": [
+		"1.2.1~deb11u1~bpo10+1"
+	]
+}

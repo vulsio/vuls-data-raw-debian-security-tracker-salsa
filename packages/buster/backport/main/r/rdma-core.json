@@ -1,0 +1,50 @@
+{
+	"Architecture": [
+		"linux-any"
+	],
+	"Binary": [
+		"rdma-core, ibacm, ibverbs-providers, ibverbs-utils, libibverbs-dev, libibverbs1, libibumad-dev, libibumad3, librdmacm-dev, librdmacm1, rdmacm-utils, srptools, python3-pyverbs"
+	],
+	"Build-Depends": [
+		"cmake (>= 2.8.11), cython3, debhelper-compat (= 12), dpkg-dev (>= 1.17), libnl-3-dev, libnl-route-3-dev, libsystemd-dev, libudev-dev, ninja-build, pandoc, pkg-config, python3-dev, valgrind [amd64 arm64 armhf i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x]"
+	],
+	"Checksums-Sha256": [
+		"4cd6968215fceff609f16e1a32553ea852c4cad173790d8c51716c985a5abd89 2880 rdma-core_24.0-2~bpo10+1.dsc e56e07de4611efda196b4c05b682ab9f82098f58ff703848fc7993cad18c136a 1219485 rdma-core_24.0.orig.tar.gz 99ffa651cea466d14e6b067b0eb7960c3a5ecc8312f04c47605c4b583821c2e9 19476 rdma-core_24.0-2~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rdma-core"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/linux-rdma/rdma-core"
+	],
+	"Maintainer": [
+		"Benjamin Drung <benjamin.drung@cloud.ionos.com>"
+	],
+	"Package": [
+		"rdma-core"
+	],
+	"Package-List": [
+		"ibacm deb net optional arch=linux-any ibverbs-providers deb net optional arch=linux-any ibverbs-utils deb net optional arch=linux-any libibumad-dev deb libdevel optional arch=linux-any libibumad3 deb libs optional arch=linux-any libibverbs-dev deb libdevel optional arch=linux-any libibverbs1 deb libs optional arch=linux-any librdmacm-dev deb libdevel optional arch=linux-any librdmacm1 deb libs optional arch=linux-any python3-pyverbs deb python optional arch=linux-any rdma-core deb net optional arch=linux-any rdmacm-utils deb net optional arch=linux-any srptools deb net optional arch=linux-any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.4.0"
+	],
+	"Vcs-Browser": [
+		"https://github.com/linux-rdma/rdma-core"
+	],
+	"Vcs-Git": [
+		"https://github.com/linux-rdma/rdma-core.git -b debian/master"
+	],
+	"Version": [
+		"24.0-2~bpo10+1"
+	]
+}

@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"linux-any"
+	],
+	"Binary": [
+		"nftables, libnftables-dev, libnftables1, python3-nftables"
+	],
+	"Build-Depends": [
+		"asciidoc-base, automake, bison, debhelper-compat (= 13), dh-python, docbook-xsl, flex, libgmp-dev, libjansson-dev, libmnl-dev (>= 1.0.4), libnftnl-dev (>= 1.1.7), libreadline-dev, libtool (>= 2.2.6), libxtables-dev (>= 1.6.1), python3-all, python3-setuptools, xsltproc"
+	],
+	"Checksums-Sha256": [
+		"6c685f2c26e4765f7364fa3699c0f07ebbf8072744feeb925303402710c53419 2748 nftables_0.9.6-1~bpo10+1.dsc 68d6fdfe8ab02303e6b1f13968a4022da5b0120110eaee3233d806857937b66e 859481 nftables_0.9.6.orig.tar.bz2 aef58d29fbc200198eae6047da89e4066392f52315846449a094478828e2dfa5 866 nftables_0.9.6.orig.tar.bz2.asc a6948d2a0bd4f6eeb2baafda0a1d9cc2b9b712848ebbb5d6a5d8e10b79767207 19712 nftables_0.9.6-1~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/n/nftables"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.netfilter.org/"
+	],
+	"Maintainer": [
+		"Debian Netfilter Packaging Team <pkg-netfilter-team@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"nftables"
+	],
+	"Package-List": [
+		"libnftables-dev deb libdevel optional arch=linux-any libnftables1 deb libs optional arch=linux-any nftables deb net important arch=linux-any python3-nftables deb python optional arch=linux-any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"kmod, systemd"
+	],
+	"Uploaders": [
+		"Arturo Borrero Gonzalez <arturo@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/pkg-netfilter-team/pkg-nftables"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/pkg-netfilter-team/pkg-nftables.git"
+	],
+	"Version": [
+		"0.9.6-1~bpo10+1"
+	]
+}

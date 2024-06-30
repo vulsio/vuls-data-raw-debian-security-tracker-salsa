@@ -1,0 +1,56 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"stardict, stardict-gtk, stardict-plugin-espeak, stardict-plugin-festival, stardict-plugin-spell, stardict-plugin, stardict-common, stardict-tools"
+	],
+	"Build-Conflicts": [
+		"autoconf2.13, automake1.4"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 12), docbook-xml, gnome-doc-utils, intltool, libenchant-2-dev | libenchant-dev, libespeak-dev, libestools-dev, libgtk2.0-dev, default-libmysqlclient-dev, libpcre3-dev, libsigc++-2.0-dev (>= 2.0.18-2), libtool, libx11-dev, libxml2-dev, libxml-parser-perl, festival-dev, sharutils, x11proto-core-dev, xauth <!nocheck>, xvfb <!nocheck>, zlib1g-dev"
+	],
+	"Checksums-Sha256": [
+		"7317f7bd34fad3b5de80bb08163bb4c42675688b940065e06d172d2a1a737e1f 2811 stardict_3.0.6+dfsg-0.3~bpo10+1.dsc 27d2df28c930ebd6be5a697dc02a660071603d8fdae38cac4c130fff3d4fc110 3342336 stardict_3.0.6+dfsg.orig.tar.xz 8c5daa5d0f090b04d7c1ddc1c5b0909969b8c11309b6a3ec0421598208d03604 22968 stardict_3.0.6+dfsg-0.3~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/s/stardict"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://stardict-4.sourceforge.net/"
+	],
+	"Maintainer": [
+		"Andrew Lee (李健秋) <ajqlee@debian.org>"
+	],
+	"Package": [
+		"stardict"
+	],
+	"Package-List": [
+		"stardict deb utils optional arch=all stardict-common deb utils optional arch=all stardict-gtk deb utils optional arch=any stardict-plugin deb utils optional arch=any stardict-plugin-espeak deb utils optional arch=any stardict-plugin-festival deb utils optional arch=any stardict-plugin-spell deb utils optional arch=any stardict-tools deb utils optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.0"
+	],
+	"Uploaders": [
+		"Anthony Fok <foka@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/stardict"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/stardict.git"
+	],
+	"Version": [
+		"3.0.6+dfsg-0.3~bpo10+1"
+	]
+}

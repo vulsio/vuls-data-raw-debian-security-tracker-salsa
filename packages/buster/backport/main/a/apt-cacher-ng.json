@@ -1,0 +1,50 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"apt-cacher-ng"
+	],
+	"Build-Depends": [
+		"debhelper (>= 9), cmake (>= 2.6.2), libbz2-dev, zlib1g-dev, liblzma-dev, libfuse-dev [!hurd-i386], pkg-config, libwrap0-dev, lsb-base (>> 3.0-6), debhelper (>= 9.20160709) | dh-systemd (>= 1.5), po-debconf, libssl-dev, libsystemd-dev (>= 210) [linux-any] | libsystemd-daemon-dev [linux-any], libpthread-stubs0-dev, libevent-dev"
+	],
+	"Checksums-Sha256": [
+		"31b96354471901f62cc4045677d59aa5d4587ac86d9735f25d191aefa005fcb5 2254 apt-cacher-ng_3.3.1-2~bpo10+1.dsc 5f3e97df0de9c619fe342ceb48f2a7358cdefa5120a19c00ecca66a5199fdec5 321996 apt-cacher-ng_3.3.1.orig.tar.xz add6c19b08a62938ce0c7beed4a1d2ef399548402468707b93e9b877500063f5 49820 apt-cacher-ng_3.3.1-2~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/a/apt-cacher-ng"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.unix-ag.uni-kl.de/~bloch/acng/"
+	],
+	"Maintainer": [
+		"Eduard Bloch <blade@debian.org>"
+	],
+	"Package": [
+		"apt-cacher-ng"
+	],
+	"Package-List": [
+		"apt-cacher-ng deb net optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.1.1"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/blade/apt-cacher-ng/tree/debian/sid"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/blade/apt-cacher-ng.git -b debian/sid_v3.3.x"
+	],
+	"Version": [
+		"3.3.1-2~bpo10+1"
+	]
+}

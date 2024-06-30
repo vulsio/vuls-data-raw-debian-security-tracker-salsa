@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"firewalld, firewall-applet, firewall-config, python3-firewall"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 12), dh-python, docbook-xml, docbook-xsl, libxml2-utils, intltool, kmod, libglib2.0-dev, pkg-config, python3 (>= 3.2), xsltproc"
+	],
+	"Checksums-Sha256": [
+		"32c654aa3f6cb25cbf2d30c8539cebcdb5ab6a773b71aa7ea7350afa163be89a 2430 firewalld_0.8.2-1~bpo10+1.dsc 391a750a2bfb9db1179829a136451daf256660b591d380ce504fd4e896f7d797 1712790 firewalld_0.8.2.orig.tar.gz b74aba9db814a726134b7bcab7befdaf91df3c009c53e56d367f5655f61aa735 9332 firewalld_0.8.2-1~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/f/firewalld"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.firewalld.org/"
+	],
+	"Maintainer": [
+		"Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"firewalld"
+	],
+	"Package-List": [
+		"firewall-applet deb net optional arch=all firewall-config deb net optional arch=all firewalld deb net optional arch=all python3-firewall deb python optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"automake, ebtables, intltool, ipset, iptables, nftables, python3, python3-dbus, python3-gi, python3-nftables, python3-slip-dbus"
+	],
+	"Uploaders": [
+		"Michael Biebl <biebl@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/utopia-team/firewalld"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/utopia-team/firewalld.git"
+	],
+	"Version": [
+		"0.8.2-1~bpo10+1"
+	]
+}

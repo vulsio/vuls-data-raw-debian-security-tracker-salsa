@@ -1,0 +1,53 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"minetest, minetest-server, minetest-data"
+	],
+	"Build-Depends": [
+		"cmake, debhelper-compat (= 12), gettext, libbz2-dev, libcurl4-gnutls-dev, libfreetype6-dev, libglu1-mesa-dev, libgmp-dev, libirrlicht-dev (>= 1.7.0), libjpeg-dev, libjsoncpp-dev, libleveldb-dev, libluajit-5.1-dev [i386 amd64 kfreebsd-i386 armel armhf powerpc powerpcspe mips] | liblua5.1-dev, libogg-dev, libopenal-dev, libpng-dev, libpq-dev, libspatialindex-dev, libsqlite3-dev, libvorbis-dev, libx11-dev, libxxf86vm-dev, postgresql-server-dev-all, zlib1g-dev"
+	],
+	"Checksums-Sha256": [
+		"bf3e5ef0330ef61fea7a19a23e0fa66216214f74c2ae5945525e16779333c7f9 2774 minetest_5.3.0+repack-1~bpo10+1.dsc 67aa51e8ff881d25325af28c367df75214c3081cbafbd7cf66dc2dadf0ee79bf 12544280 minetest_5.3.0+repack.orig.tar.gz 907f3c1b8937394f744f22d2e4e7f1ac71c4e2131fdb4825b24d35468d72eba7 37260 minetest_5.3.0+repack-1~bpo10+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/m/minetest"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.minetest.net/"
+	],
+	"Maintainer": [
+		"Debian Games Team <pkg-games-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"minetest"
+	],
+	"Package-List": [
+		"minetest deb games optional arch=any minetest-data deb games optional arch=all minetest-server deb games optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.0"
+	],
+	"Uploaders": [
+		"Martin Quinson <mquinson@debian.org>, Markus Koschany <apo@debian.org>, Dominik George <natureshadow@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/games-team/minetest"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/games-team/minetest.git"
+	],
+	"Version": [
+		"5.3.0+repack-1~bpo10+1"
+	]
+}

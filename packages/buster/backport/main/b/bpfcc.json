@@ -1,0 +1,53 @@
+{
+	"Architecture": [
+		"amd64 arm64 ppc64el ppc64 s390x armhf all"
+	],
+	"Binary": [
+		"libbpfcc, libbpfcc-dev, python3-bpfcc, bpfcc-tools, bpfcc-introspection, bpfcc-lua"
+	],
+	"Build-Depends": [
+		"arping, bison, clang-format, cmake, debhelper-compat (= 13), dh-python, dpkg-dev (>= 1.16.1~), pkg-kde-tools, ethtool, flex, inetutils-ping | iputils-ping, iperf, libclang-dev, libedit-dev, libelf-dev, libfl-dev, libzip-dev, llvm-dev, libluajit-5.1-dev [amd64 armel armhf i386 mips mipsel powerpc], luajit [amd64 armel armhf i386 mips mipsel powerpc], python3-netaddr, python3-pyroute2, python3-distutils, python3:any | python3-all:any | python3-dev:any | python3-all-dev:any | dh-sequence-python3"
+	],
+	"Checksums-Sha256": [
+		"996b020edfb408049149a6ff83041d3def1f744f8eced28ef97baaf4bb66de73 3026 bpfcc_0.17.0-7~bpo10+2.dsc 0f97295987c745eb07c48f8db992f7df307b5cd45c9a20eb352ee6d08cf7bd36 699136 bpfcc_0.17.0.orig-libbpf.tar.gz 3639bc66f3a595864436fb01d1679e067cbd09ffbdc16aa6b50b436f2c92999b 4166410 bpfcc_0.17.0.orig.tar.gz 201dda1757d17fa3a16e7c0ef40d2053026a10fae804bcc8f0b1a6e39973c7a1 143200 bpfcc_0.17.0-7~bpo10+2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/b/bpfcc"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/iovisor/bcc"
+	],
+	"Maintainer": [
+		"Ritesh Raj Sarraf <rrs@debian.org>"
+	],
+	"Package": [
+		"bpfcc"
+	],
+	"Package-List": [
+		"bpfcc-introspection deb misc optional arch=amd64,arm64,ppc64el,ppc64 bpfcc-lua deb misc optional arch=amd64 bpfcc-tools deb misc optional arch=all libbpfcc deb misc optional arch=amd64,arm64,ppc64el,ppc64,s390x,armhf libbpfcc-dev deb libdevel optional arch=amd64,arm64,ppc64el,ppc64 python3-bpfcc deb python optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.0"
+	],
+	"Uploaders": [
+		"Vasudev Kamath <vasudev@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/bpfcc"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/bpfcc.git"
+	],
+	"Version": [
+		"0.17.0-7~bpo10+2"
+	]
+}
