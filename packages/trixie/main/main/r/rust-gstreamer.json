@@ -6,16 +6,16 @@
 		"librust-gstreamer-dev"
 	],
 	"Build-Depends": [
-		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native (>= 1.70) <!nocheck>, libstd-rust-dev <!nocheck>, librust-cfg-if-1+default-dev <!nocheck>, librust-futures-channel-0.3+default-dev <!nocheck>, librust-futures-core-0.3+default-dev <!nocheck>, librust-futures-util-0.3-dev <!nocheck>, librust-glib-0.19+default-dev <!nocheck>, librust-gstreamer-sys-0.22+default-dev <!nocheck>, librust-itertools-0.10+default-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-muldiv-1+default-dev <!nocheck>, librust-num-integer-0.1-dev <!nocheck>, librust-num-rational-0.4-dev <!nocheck>, librust-once-cell-1+default-dev <!nocheck>, librust-option-operations-0.5+default-dev <!nocheck>, librust-paste-1+default-dev <!nocheck>, librust-pin-project-lite-0.2+default-dev <!nocheck>, librust-smallvec-1+default-dev <!nocheck>, librust-smallvec-1+write-dev <!nocheck>, librust-thiserror-1+default-dev <!nocheck>, libgstreamer1.0-dev <!nocheck>"
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native (>= 1.70) <!nocheck>, libstd-rust-dev <!nocheck>, librust-cfg-if-1+default-dev <!nocheck>, librust-futures-channel-0.3+default-dev <!nocheck>, librust-futures-core-0.3+default-dev <!nocheck>, librust-futures-util-0.3-dev <!nocheck>, librust-glib-0.19+default-dev <!nocheck>, librust-gstreamer-sys-0.22+default-dev <!nocheck>, librust-itertools-0+default-dev (>= 0.10-~~) <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-muldiv-1+default-dev <!nocheck>, librust-num-integer-0.1-dev <!nocheck>, librust-num-rational-0.4-dev <!nocheck>, librust-once-cell-1+default-dev <!nocheck>, librust-option-operations-0.5+default-dev <!nocheck>, librust-paste-1+default-dev <!nocheck>, librust-pin-project-lite-0.2+default-dev <!nocheck>, librust-smallvec-1+default-dev <!nocheck>, librust-smallvec-1+write-dev <!nocheck>, librust-thiserror-1+default-dev <!nocheck>, libgstreamer1.0-dev <!nocheck>"
 	],
 	"Checksums-Sha256": [
-		"d7e58eeeda2a86a5af17c3e819575b60a83a90297ae667a8ad518a158b6d4859 3206 rust-gstreamer_0.22.4-2.dsc fc6f2d7dcde4b42b5297d25e9f51914cacfa148c99ba6ddabebf006fb2b18c20 330198 rust-gstreamer_0.22.4.orig.tar.gz 5e147997c60717206d85c03d932674882ec628a5e6f42c1f02eca8feaa223910 4136 rust-gstreamer_0.22.4-2.debian.tar.xz"
+		"26dcbfa4000d03ebdc1d9dbd3d4a110204dde2ce72bd230cfd72e629570dba8c 3216 rust-gstreamer_0.22.4-3.dsc fc6f2d7dcde4b42b5297d25e9f51914cacfa148c99ba6ddabebf006fb2b18c20 330198 rust-gstreamer_0.22.4.orig.tar.gz 95105ae5448d065aab54b622a0dc94034da2695a7e65622b01ce437ca7048413 4168 rust-gstreamer_0.22.4-3.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/r/rust-gstreamer"
 	],
 	"Files": [
-		"906e0b702de0d4c4823d8c55072ebe33 3206 rust-gstreamer_0.22.4-2.dsc 4bcaae1dc2fe7214233183085b3309a7 330198 rust-gstreamer_0.22.4.orig.tar.gz 4749f36dcd787223db0a3d2d89e0f3ce 4136 rust-gstreamer_0.22.4-2.debian.tar.xz"
+		"de23cddbee1c7484d5a22980bc3ceccd 3216 rust-gstreamer_0.22.4-3.dsc 4bcaae1dc2fe7214233183085b3309a7 330198 rust-gstreamer_0.22.4.orig.tar.gz 01b8581e0740b42645c10b2af33f50da 4168 rust-gstreamer_0.22.4-3.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -57,6 +57,6 @@
 		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/gstreamer]"
 	],
 	"Version": [
-		"0.22.4-2"
+		"0.22.4-3"
 	]
 }
