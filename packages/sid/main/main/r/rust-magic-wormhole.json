@@ -1,0 +1,62 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-magic-wormhole-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native (>= 1.70) <!nocheck>, libstd-rust-dev <!nocheck>, librust-async-io-2+default-dev (>= 2.2.0-~~) <!nocheck>, librust-async-std-1+attributes-dev (>= 1.12.0-~~) <!nocheck>, librust-async-std-1+default-dev (>= 1.12.0-~~) <!nocheck>, librust-async-std-1+unstable-dev (>= 1.12.0-~~) <!nocheck>, librust-async-tar-0.4+default-dev (>= 0.4.2-~~) <!nocheck>, librust-async-trait-0.1+default-dev (>= 0.1.57-~~) <!nocheck>, librust-async-tungstenite-0.23+async-std-runtime-dev <!nocheck>, librust-async-tungstenite-0.23+async-tls-dev <!nocheck>, librust-async-tungstenite-0.23+default-dev <!nocheck>, librust-base64-0.21+default-dev (>= 0.21.5-~~) <!nocheck>, librust-bytecodec-0.4+default-dev (>= 0.4.15-~~) <!nocheck>, librust-crypto-secretbox-0.1+default-dev (>= 0.1.1-~~) <!nocheck>, librust-derive-more-0.99+deref-dev <!nocheck>, librust-derive-more-0.99+display-dev <!nocheck>, librust-derive-more-0.99+from-dev <!nocheck>, librust-futures-0.3+default-dev (>= 0.3.12-~~) <!nocheck>, librust-futures-ringbuf-0.4+default-dev <!nocheck>, librust-hex-0.4+default-dev (>= 0.4.2-~~) <!nocheck>, librust-hex-0.4+serde-dev (>= 0.4.2-~~) <!nocheck>, librust-hkdf-0.12+default-dev (>= 0.12.2-~~) <!nocheck>, librust-if-addrs-0.10+default-dev (>= 0.10.1-~~) <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.101-~~) <!nocheck>, librust-log-0.4+default-dev (>= 0.4.13-~~) <!nocheck>, librust-noise-protocol-0.2+default-dev <!nocheck>, librust-noise-rust-crypto-0.6+default-dev (>= 0.6.2-~~) <!nocheck>, librust-percent-encoding-2+default-dev (>= 2.1.0-~~) <!nocheck>, librust-rand-0.8+default-dev (>= 0.8.3-~~) <!nocheck>, librust-rmp-serde-1+default-dev <!nocheck>, librust-serde-1+default-dev (>= 1.0.120-~~) <!nocheck>, librust-serde-1+rc-dev (>= 1.0.120-~~) <!nocheck>, librust-serde-derive-1+default-dev (>= 1.0.120-~~) <!nocheck>, librust-serde-json-1+default-dev (>= 1.0.61-~~) <!nocheck>, librust-sha1-0.10+default-dev <!nocheck>, librust-sha2-0.10+default-dev <!nocheck>, librust-socket2-0.5+all-dev (>= 0.5.5-~~) <!nocheck>, librust-socket2-0.5+default-dev (>= 0.5.5-~~) <!nocheck>, librust-spake2-0.4+default-dev <!nocheck>, librust-stun-codec-0.3+default-dev (>= 0.3.4-~~) <!nocheck>, librust-thiserror-1+default-dev (>= 1.0.24-~~) <!nocheck>, librust-time-0.3+default-dev (>= 0.3.7-~~) <!nocheck>, librust-time-0.3+formatting-dev (>= 0.3.7-~~) <!nocheck>, librust-url-2+default-dev (>= 2.2.2-~~) <!nocheck>, librust-url-2+serde-dev (>= 2.2.2-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"7f9fe47868ff0a44651fc008954828fc482b26dbfeaea7c09a5584b993e563e5 4127 rust-magic-wormhole_0.6.1-1.dsc 048724e045c57a2b293695838e7acfac7fa50b9be3d0785caa1b1f0422735774 1188232 rust-magic-wormhole_0.6.1.orig.tar.gz ea5e735436db853aabe4c78f87f8e09bc4c8894f448b8be50f6f7998fee83df3 7672 rust-magic-wormhole_0.6.1-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-magic-wormhole"
+	],
+	"Files": [
+		"5c7ee732e9bcd6847eb16e3dcc0d0a23 4127 rust-magic-wormhole_0.6.1-1.dsc 3905f40cfc7916e412e68cf589d92e0a 1188232 rust-magic-wormhole_0.6.1.orig.tar.gz 16a08a1ec058dcd1e1e0cea09beaeb56 7672 rust-magic-wormhole_0.6.1-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://magic-wormhole.io/"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-magic-wormhole"
+	],
+	"Package-List": [
+		"librust-magic-wormhole-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-env-logger-0.10+default-dev, librust-eyre-0.6+default-dev"
+	],
+	"Uploaders": [
+		"Matthias Geiger <werdahias@riseup.net>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/magic-wormhole"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/magic-wormhole]"
+	],
+	"Version": [
+		"0.6.1-1"
+	]
+}
