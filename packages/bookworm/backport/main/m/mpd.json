@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"mpd"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), meson (>= 0.56.0), libsndio-dev, libadplug-dev, libao-dev, libasound2-dev [linux-any], libavahi-client-dev, libavcodec-dev, libavfilter-dev, libavformat-dev, libboost-dev, libbz2-dev, libcdio-paranoia-dev (>= 10.2+0.93+1), libchromaprint-dev, libcurl4-gnutls-dev (>= 7.55), libexpat1-dev, libfaad-dev, libflac-dev, libfluidsynth-dev, libfmt-dev (>= 6.1.2), libgme-dev, libicu-dev, libid3tag0-dev, libiso9660-dev, libjack-jackd2-dev, libmad0-dev, libmikmod-dev, libmms-dev, libmodplug-dev, libmp3lame-dev, libmpcdec-dev, libmpdclient-dev (>= 2.11), libmpg123-dev, libnfs-dev, libogg-dev, libopenal-dev, libopenmpt-dev, libopus-dev, libpcre2-dev, libpipewire-0.3-dev, libpulse-dev, libresid-builder-dev, libsamplerate0-dev, libshine-dev [armel], libshout-dev, libsidplayfp-dev, libsidutils-dev, libsmbclient-dev [!hurd-i386], libsndfile1-dev, libsoxr-dev, libsqlite3-dev, libsystemd-dev [linux-any], libupnp-dev (>= 1.8~), liburing-dev [linux-any], libvorbis-dev [!armel], libvorbisidec-dev (>= 1.2.1+git20180316-3) [armel], libwavpack-dev, libwildmidi-dev, libyajl-dev, libzzip-dev, systemd-dev [linux-any], python3-sphinx, libgtest-dev"
+	],
+	"Checksums-Sha256": [
+		"5209f8568f6dd90ebb678163a6fe6087d3b60bdd89cf9a83a8736649a909d5f0 3408 mpd_0.23.15-1~bpo12+1.dsc 550132239ad1acf82ccf8905b56cc13dc2c81a4489b96fba7731b3049907661a 778384 mpd_0.23.15.orig.tar.xz fd05b377a86a1fc20eb7d0722530b263d66c34df5dc6f850066739f4cccf71fc 833 mpd_0.23.15.orig.tar.xz.asc 7bdfe34dfeba2a357101a108e7afbf2d04d5324b8123114f39beb0b7ffcf4cf2 35200 mpd_0.23.15-1~bpo12+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/m/mpd"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://www.musicpd.org/"
+	],
+	"Maintainer": [
+		"mpd maintainers <pkg-mpd-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"mpd"
+	],
+	"Package-List": [
+		"mpd deb sound optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.7.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"libaudio-mpd-perl, libtest-corpus-audio-mpd-perl, net-tools"
+	],
+	"Uploaders": [
+		"Florian Schlichting <fsfs@debian.org>, Geoffroy Youri Berret <kaliko@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/mpd-team/mpd"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/mpd-team/mpd.git"
+	],
+	"Version": [
+		"0.23.15-1~bpo12+1"
+	]
+}

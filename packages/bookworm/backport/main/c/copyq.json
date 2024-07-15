@@ -1,0 +1,56 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"copyq, copyq-doc, copyq-plugins"
+	],
+	"Build-Depends": [
+		"cmake, debhelper-compat (= 13), extra-cmake-modules"
+	],
+	"Build-Depends-Arch": [
+		"libkf5notifications-dev, libqt5svg5-dev, libqt5waylandclient5-dev, libqt5x11extras5-dev, libwayland-dev, libxfixes-dev, libxtst-dev, qtbase5-private-dev, qtdeclarative5-dev, qttools5-dev, qttools5-dev-tools, qtwayland5, qtwayland5-dev-tools"
+	],
+	"Build-Depends-Indep": [
+		"python3-sphinx, python3-sphinx-rtd-theme, python3:any"
+	],
+	"Checksums-Sha256": [
+		"59a9bc6315c3302e53d2c29c51b9da524647f209d7c4526e22e3a554bf5fa63d 2300 copyq_9.0.0-1~bpo12+1.dsc 6f8cce371cda8edb87e2a8d2f9de27022720b7b8fae51f67ee7d69b73526f432 3411580 copyq_9.0.0.orig.tar.gz e19cfc071191a3777bd5b375fe9a56681989886662a3842b2e158ddd2c122836 8484 copyq_9.0.0-1~bpo12+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/c/copyq"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://hluk.github.io/CopyQ/"
+	],
+	"Maintainer": [
+		"Debian QA Group <packages@qa.debian.org>"
+	],
+	"Package": [
+		"copyq"
+	],
+	"Package-List": [
+		"copyq deb utils optional arch=any copyq-doc deb doc optional arch=all copyq-plugins deb utils optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/copyq"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/copyq.git"
+	],
+	"Version": [
+		"9.0.0-1~bpo12+1"
+	]
+}

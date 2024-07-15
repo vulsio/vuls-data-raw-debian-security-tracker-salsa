@@ -1,0 +1,53 @@
+{
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"tomcat10-common, tomcat10, tomcat10-user, libtomcat10-java, libtomcat10-embed-java, tomcat10-admin, tomcat10-examples, tomcat10-docs"
+	],
+	"Build-Depends": [
+		"ant-optional, bnd (>= 5.0.1), debhelper-compat (= 13), default-jdk, javahelper, junit4 (>= 4.11), libcglib-nodep-java, libeasymock-java (>= 3.0), libeclipse-jdt-core-java (>= 3.26.0), libhamcrest-java (>= 1.3), libjaxrpc-api-java, libobjenesis-java, libtaglibs-standard-impl-java, libtaglibs-standard-spec-java, libtcnative-1 (>= 1.2.35), libwsdl4j-java, lsb-release, maven-repo-helper, tomcat-jakartaee-migration"
+	],
+	"Checksums-Sha256": [
+		"2b970a85010169afa86e495869310a5f025b1d19739813584c679d418423205a 2849 tomcat10_10.1.25-1~bpo12+1.dsc 91aba1f632b85cdfb8192284ef559f3fa2e41a69c66ce33313e1d59472eb5944 4069004 tomcat10_10.1.25.orig.tar.xz 4db8690a32568fafe9f12618eccadffcd0d0ddafa0bc4b77704ca7f8eb0f5e7c 36900 tomcat10_10.1.25-1~bpo12+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/t/tomcat10"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://tomcat.apache.org"
+	],
+	"Maintainer": [
+		"Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"tomcat10"
+	],
+	"Package-List": [
+		"libtomcat10-embed-java deb java optional arch=all libtomcat10-java deb java optional arch=all tomcat10 deb java optional arch=all tomcat10-admin deb java optional arch=all tomcat10-common deb java optional arch=all tomcat10-docs deb doc optional arch=all tomcat10-examples deb java optional arch=all tomcat10-user deb java optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.7.0"
+	],
+	"Uploaders": [
+		"tony mancill <tmancill@debian.org>, Emmanuel Bourg <ebourg@apache.org>, Markus Koschany <apo@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/java-team/tomcat10"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/java-team/tomcat10.git"
+	],
+	"Version": [
+		"10.1.25-1~bpo12+1"
+	]
+}

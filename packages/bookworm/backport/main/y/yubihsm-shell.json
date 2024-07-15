@@ -1,0 +1,56 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"libyubihsm2, libyubihsm-usb2, libyubihsm-http2, libyubihsm-dev, libykhsmauth2, libykhsmauth-dev, yubihsm-pkcs11, yubihsm-shell, yubihsm-wrap, yubihsm-auth"
+	],
+	"Build-Depends": [
+		"chrpath, cmake, debhelper-compat (= 13), gengetopt, help2man, libcurl4-openssl-dev, libedit-dev, libpcsclite-dev, libssl-dev, libusb-1.0-0-dev, pkgconf"
+	],
+	"Checksums-Sha256": [
+		"461bd02f4693feb29e2fa15d3a08f17e4def36a6c2f063a8601b0be3beea1f18 2865 yubihsm-shell_2.5.0-3~bpo12+1.dsc adca1637151e08d1923c287b284d366592ef1ba11d58dc1ffedf85d370dbf5ae 387408 yubihsm-shell_2.5.0.orig.tar.gz af63f1a2914cd93a6a8faf8d5a65ea7e048e3dbeea13f69d4146913942d25677 5104 yubihsm-shell_2.5.0-3~bpo12+1.debian.tar.xz"
+	],
+	"Dgit": [
+		"cd1ab477669aec84ec5b0a5dfba873d6715d4dd1 debian archive/debian/2.5.0-3_bpo12+1 https://git.dgit.debian.org/yubihsm-shell"
+	],
+	"Directory": [
+		"pool/main/y/yubihsm-shell"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://developers.yubico.com/yubihsm-shell/"
+	],
+	"Maintainer": [
+		"Debian Security Tools <team+pkg-security@tracker.debian.org>"
+	],
+	"Package": [
+		"yubihsm-shell"
+	],
+	"Package-List": [
+		"libykhsmauth-dev deb libdevel optional arch=any libykhsmauth2 deb libs optional arch=any libyubihsm-dev deb libdevel optional arch=any libyubihsm-http2 deb libs optional arch=any libyubihsm-usb2 deb libs optional arch=any libyubihsm2 deb libs optional arch=any yubihsm-auth deb utils optional arch=any yubihsm-pkcs11 deb libs optional arch=any yubihsm-shell deb utils optional arch=any yubihsm-wrap deb utils optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.7.0"
+	],
+	"Uploaders": [
+		"Freexian Packaging Team <team+freexian@tracker.debian.org>, Colin Watson <cjwatson@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/pkg-security-team/yubihsm-shell"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/pkg-security-team/yubihsm-shell.git"
+	],
+	"Version": [
+		"2.5.0-3~bpo12+1"
+	]
+}
