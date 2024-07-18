@@ -1,0 +1,50 @@
+{
+	"Architecture": [
+		"linux-any"
+	],
+	"Binary": [
+		"btrfs-progs, libbtrfs0, libbtrfs-dev, libbtrfsutil1, libbtrfsutil-dev, python3-btrfsutil, btrfs-progs-udeb"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), libext2fs-dev, pkg-config, libacl1-dev, libblkid-dev, liblzo2-dev, libreiserfscore-dev, libudev-dev, libzstd-dev, uuid-dev, udev, zlib1g-dev, sphinx, python3-sphinx-rtd-theme, xmlto, bash-completion, python3-dev, python3-setuptools, dh-python"
+	],
+	"Checksums-Sha256": [
+		"6f753e9a2da77579efdb543e5a186918647f3d37b42ee19a22d22cc09be261ef 2563 btrfs-progs_6.6.3-1.2~bpo12+1.dsc f41ce53f6673ff551ee4a3fe7dc9601e5a0dde6b6d09177d1fab62718abc6d9a 2557216 btrfs-progs_6.6.3.orig.tar.xz 10ed78b4b310f03b7b928b0cc7e316250c0b4c59f143a87717ce4043b5eb1fb6 17240 btrfs-progs_6.6.3-1.2~bpo12+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/b/btrfs-progs"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://btrfs.wiki.kernel.org/"
+	],
+	"Maintainer": [
+		"Adam Borowski <kilobyte@angband.pl>"
+	],
+	"Package": [
+		"btrfs-progs"
+	],
+	"Package-List": [
+		"btrfs-progs deb admin optional arch=linux-any btrfs-progs-udeb udeb debian-installer optional arch=linux-any libbtrfs-dev deb libdevel optional arch=linux-any libbtrfs0 deb libs optional arch=linux-any libbtrfsutil-dev deb libdevel optional arch=linux-any libbtrfsutil1 deb libs optional arch=linux-any python3-btrfsutil deb python optional arch=linux-any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Vcs-Browser": [
+		"https://git.sr.ht/~kilobyte/btrfs-progs"
+	],
+	"Vcs-Git": [
+		"https://git.sr.ht/~kilobyte/btrfs-progs -b debian"
+	],
+	"Version": [
+		"6.6.3-1.2~bpo12+1"
+	]
+}
