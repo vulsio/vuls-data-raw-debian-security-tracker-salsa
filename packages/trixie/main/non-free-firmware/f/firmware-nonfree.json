@@ -6,19 +6,19 @@
 		"yes"
 	],
 	"Binary": [
-		"firmware-linux, firmware-linux-nonfree, firmware-qcom-media, firmware-amd-graphics, firmware-atheros, firmware-bnx2, firmware-bnx2x, firmware-brcm80211, firmware-cavium, firmware-intel-sound, firmware-ipw2x00, firmware-ivtv, firmware-iwlwifi, firmware-libertas, firmware-misc-nonfree, firmware-myricom, firmware-netronome, firmware-netxen, firmware-qcom-soc, firmware-qlogic, firmware-realtek, firmware-samsung, firmware-siano, firmware-ti-connectivity"
+		"firmware-linux, firmware-linux-nonfree, firmware-qcom-media, firmware-amd-graphics, firmware-atheros, firmware-bnx2, firmware-bnx2x, firmware-brcm80211, firmware-cavium, firmware-cirrus, firmware-intel-graphics, firmware-intel-misc, firmware-intel-sound, firmware-ipw2x00, firmware-ivtv, firmware-iwlwifi, firmware-libertas, firmware-marvell-prestera, firmware-mediatek, firmware-misc-nonfree, firmware-myricom, firmware-netronome, firmware-netxen, firmware-nvidia-graphics, firmware-qcom-soc, firmware-qlogic, firmware-realtek, firmware-samsung, firmware-siano, firmware-ti-connectivity"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13)"
+		"debhelper-compat (= 13), rdfind"
 	],
 	"Checksums-Sha256": [
-		"7db4b761607baff573021bf3f4770740a7c2a27fa1edca8d0ba5c740fc4ca32c 4276 firmware-nonfree_20230625-2.dsc f3989c5ca339ac039842a0ba4804615f82672acdd42e12ee6d0bf0b7f54088eb 238122692 firmware-nonfree_20230625.orig.tar.xz a5610f96c445efb4625e4583794da8e963bac5568e753df4cb512539e15ad605 831212 firmware-nonfree_20230625-2.debian.tar.xz"
+		"6a3ea424930e89d4138fa748f827399d34778a7864a0d6a40d5f0cae5bc49e94 4681 firmware-nonfree_20240610-1.dsc 3a96513f050338ed8063fa0ff21467896b5429ed75881d5873963d4851be3592 233519316 firmware-nonfree_20240610.orig.tar.xz cb3e13ecace3cbc2563cd762127af8922e775a578d7c92321aad95434198da74 829424 firmware-nonfree_20240610-1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/non-free-firmware/f/firmware-nonfree"
 	],
 	"Files": [
-		"e4a44494c3b91650ac43e97a95b465fe 4276 firmware-nonfree_20230625-2.dsc f116d41a8b936ea6d860c093f9e7bee4 238122692 firmware-nonfree_20230625.orig.tar.xz 5066b5836e076837dd47498da2252535 831212 firmware-nonfree_20230625-2.debian.tar.xz"
+		"9d7e2ca7dc3ac647d31173770f91010e 4681 firmware-nonfree_20240610-1.dsc bcc5aea902218ceacbf799a232d80db1 233519316 firmware-nonfree_20240610.orig.tar.xz fff4b5b50dd0a404e65285f5670c0fba 829424 firmware-nonfree_20240610-1.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -30,7 +30,7 @@
 		"firmware-nonfree"
 	],
 	"Package-List": [
-		"firmware-amd-graphics deb non-free-firmware/kernel optional arch=all firmware-atheros deb non-free-firmware/kernel optional arch=all firmware-bnx2 deb non-free-firmware/kernel optional arch=all firmware-bnx2x deb non-free-firmware/kernel optional arch=all firmware-brcm80211 deb non-free-firmware/kernel optional arch=all firmware-cavium deb non-free-firmware/kernel optional arch=all firmware-intel-sound deb non-free-firmware/kernel optional arch=all firmware-ipw2x00 deb non-free-firmware/kernel optional arch=all firmware-ivtv deb non-free-firmware/kernel optional arch=all firmware-iwlwifi deb non-free-firmware/kernel optional arch=all firmware-libertas deb non-free-firmware/kernel optional arch=all firmware-linux deb non-free-firmware/metapackages optional arch=all firmware-linux-nonfree deb non-free-firmware/metapackages optional arch=all firmware-misc-nonfree deb non-free-firmware/kernel optional arch=all firmware-myricom deb non-free-firmware/kernel optional arch=all firmware-netronome deb non-free-firmware/kernel optional arch=all firmware-netxen deb non-free-firmware/kernel optional arch=all firmware-qcom-media deb non-free-firmware/oldlibs optional arch=all firmware-qcom-soc deb non-free-firmware/kernel optional arch=all firmware-qlogic deb non-free-firmware/kernel optional arch=all firmware-realtek deb non-free-firmware/kernel optional arch=all firmware-samsung deb non-free-firmware/kernel optional arch=all firmware-siano deb non-free-firmware/kernel optional arch=all firmware-ti-connectivity deb non-free-firmware/kernel optional arch=all"
+		"firmware-amd-graphics deb non-free-firmware/kernel optional arch=all firmware-atheros deb non-free-firmware/kernel optional arch=all firmware-bnx2 deb non-free-firmware/kernel optional arch=all firmware-bnx2x deb non-free-firmware/kernel optional arch=all firmware-brcm80211 deb non-free-firmware/kernel optional arch=all firmware-cavium deb non-free-firmware/kernel optional arch=all firmware-cirrus deb non-free-firmware/kernel optional arch=all firmware-intel-graphics deb non-free-firmware/kernel optional arch=all firmware-intel-misc deb non-free-firmware/kernel optional arch=all firmware-intel-sound deb non-free-firmware/kernel optional arch=all firmware-ipw2x00 deb non-free-firmware/kernel optional arch=all firmware-ivtv deb non-free-firmware/kernel optional arch=all firmware-iwlwifi deb non-free-firmware/kernel optional arch=all firmware-libertas deb non-free-firmware/kernel optional arch=all firmware-linux deb non-free-firmware/metapackages optional arch=all firmware-linux-nonfree deb non-free-firmware/metapackages optional arch=all firmware-marvell-prestera deb non-free-firmware/kernel optional arch=all firmware-mediatek deb non-free-firmware/kernel optional arch=all firmware-misc-nonfree deb non-free-firmware/kernel optional arch=all firmware-myricom deb non-free-firmware/kernel optional arch=all firmware-netronome deb non-free-firmware/kernel optional arch=all firmware-netxen deb non-free-firmware/kernel optional arch=all firmware-nvidia-graphics deb non-free-firmware/kernel optional arch=all firmware-qcom-media deb non-free-firmware/oldlibs optional arch=all firmware-qcom-soc deb non-free-firmware/kernel optional arch=all firmware-qlogic deb non-free-firmware/kernel optional arch=all firmware-realtek deb non-free-firmware/kernel optional arch=all firmware-samsung deb non-free-firmware/kernel optional arch=all firmware-siano deb non-free-firmware/kernel optional arch=all firmware-ti-connectivity deb non-free-firmware/kernel optional arch=all"
 	],
 	"Priority": [
 		"optional"
@@ -39,7 +39,7 @@
 		"non-free-firmware/misc"
 	],
 	"Standards-Version": [
-		"4.0.1"
+		"4.3.0"
 	],
 	"Uploaders": [
 		"Bastian Blank <waldi@debian.org>, Steve Langasek <vorlon@debian.org>, maximilian attems <maks@debian.org>, Ben Hutchings <benh@debian.org>, Salvatore Bonaccorso <carnil@debian.org>"
@@ -51,6 +51,6 @@
 		"https://salsa.debian.org/kernel-team/firmware-nonfree.git"
 	],
 	"Version": [
-		"20230625-2"
+		"20240610-1"
 	]
 }

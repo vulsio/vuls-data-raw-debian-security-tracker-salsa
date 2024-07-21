@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-gix-ref-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native (>= 1.65) <!nocheck>, libstd-rust-dev <!nocheck>, librust-gix-actor-0.31+default-dev <!nocheck>, librust-gix-date-0.8+default-dev (>= 0.8.5-~~) <!nocheck>, librust-gix-features-0.38+default-dev (>= 0.38.1-~~) <!nocheck>, librust-gix-features-0.38+walkdir-dev (>= 0.38.1-~~) <!nocheck>, librust-gix-fs-0.10+default-dev (>= 0.10.1-~~) <!nocheck>, librust-gix-hash-0.14+default-dev (>= 0.14.2-~~) <!nocheck>, librust-gix-lock-13+default-dev <!nocheck>, librust-gix-object-0.42+default-dev <!nocheck>, librust-gix-path-0.10+default-dev (>= 0.10.7-~~) <!nocheck>, librust-gix-tempfile-13-dev <!nocheck>, librust-gix-utils-0.1+default-dev (>= 0.1.11-~~) <!nocheck>, librust-gix-validate-0.8+default-dev (>= 0.8.4-~~) <!nocheck>, librust-memmap2-0.9+default-dev <!nocheck>, librust-thiserror-1+default-dev (>= 1.0.34-~~) <!nocheck>, librust-winnow-0.6+default-dev <!nocheck>, librust-winnow-0.6+simd-dev <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"699b1de6e1bbff5f2184473a4b2333c8aafcaab0b37d6fdc2090ce68321819a6 3028 rust-gix-ref_0.43.0-2.dsc fd4aba68b925101cb45d6df328979af0681364579db889098a0de75b36c77b65 55990 rust-gix-ref_0.43.0.orig.tar.gz f00754b80f1590fc31ba61ebdc6d72de1c348cf7e7cea3cc21fce2a814e87706 3104 rust-gix-ref_0.43.0-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-gix-ref"
+	],
+	"Files": [
+		"7697ae283ed72c7927ef59cf6d80e912 3028 rust-gix-ref_0.43.0-2.dsc 356b4a97654b1166cc19d2e01c50f285 55990 rust-gix-ref_0.43.0.orig.tar.gz c82d016f66738947d845e3197731b024 3104 rust-gix-ref_0.43.0-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-gix-ref"
+	],
+	"Package-List": [
+		"librust-gix-ref-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo"
+	],
+	"Uploaders": [
+		"Federico Ceratto <federico@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gix-ref"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/gix-ref]"
+	],
+	"Version": [
+		"0.43.0-2"
+	]
+}
