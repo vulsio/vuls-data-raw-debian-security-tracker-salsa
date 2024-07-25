@@ -1,0 +1,56 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libaqbanking-dev, aqbanking-tools, libaqbanking-data, libaqbanking44"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), pkgconf, libgwenhywfar-core-dev (>= 5.11.2), gwenhywfar-tools, libxmlsec1-dev, zlib1g-dev, doxygen, bzip2, libgmp-dev, asciidoctor"
+	],
+	"Checksums-Sha256": [
+		"aa98acdb434c407df4ae24c6a7f5791d26f2bc728774f8ccd84eee3c1ba7ebc4 2638 libaqbanking_6.5.11beta-1~bpo12+1.dsc 5d0551abdacb2b887b92d79d178df600eb152997678605a9d775217315b07693 2735024 libaqbanking_6.5.11beta.orig.tar.gz b7a92f576d1092255a065af0db95f1a9b5dea58586dfa654109637559d6def68 488 libaqbanking_6.5.11beta.orig.tar.gz.asc 8f0c5012c130235f68614856dbc3487d9dd306912625dc2639d436b58822388b 28880 libaqbanking_6.5.11beta-1~bpo12+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/liba/libaqbanking"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.aquamaniac.de/aqbanking/"
+	],
+	"Maintainer": [
+		"Micha Lenk <micha@debian.org>"
+	],
+	"Package": [
+		"libaqbanking"
+	],
+	"Package-List": [
+		"aqbanking-tools deb utils optional arch=any libaqbanking-data deb libs optional arch=all libaqbanking-dev deb libdevel optional arch=any libaqbanking44 deb libs optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.7.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, pkg-config"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/aqbanking-team/pkg-libaqbanking"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/aqbanking-team/pkg-libaqbanking.git"
+	],
+	"Version": [
+		"6.5.11beta-1~bpo12+1"
+	]
+}
