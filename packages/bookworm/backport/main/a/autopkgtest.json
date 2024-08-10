@@ -6,13 +6,13 @@
 		"autopkgtest"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), fakeroot <!nocheck>, pre-commit <!nocheck>, procps <!nocheck>, pycodestyle | pep8 <!nocheck>, pyflakes3 <!nocheck>, python3 (>= 3.8), python3-debian <!nocheck>, python3-docutils, shellcheck <!nocheck>"
+		"debhelper-compat (= 13), fakeroot <!nocheck>, procps <!nocheck>, pycodestyle | pep8 <!nocheck>, pyflakes3 <!nocheck>, python3 (>= 3.8), python3-debian <!nocheck>, python3-docutils"
 	],
 	"Checksums-Sha256": [
-		"6e5f01bd325a346ebee13b14bba0a2dabb1266a60d435d0b672bbf51c3f3197b 2254 autopkgtest_5.35~bpo12+1.dsc 0515996a032154bf1b16feca33567e5b4c79aa6f99f6029406da5c7bc6e7177f 223248 autopkgtest_5.35~bpo12+1.tar.xz"
+		"affbae7b03bf39b5e453afdfa4c0b3983a6194ade38a9cb2b5d3b1f5120d99eb 2219 autopkgtest_5.38~bpo12+1.dsc 34ef31214ee155abe010b97b335a44f961064d99107550b951c6f815f306fa10 226952 autopkgtest_5.38~bpo12+1.tar.xz"
 	],
 	"Dgit": [
-		"a53ef264a06f8aeb8abc6b21c28a4580e81376b2 debian archive/debian/5.35_bpo12+1 https://git.dgit.debian.org/autopkgtest"
+		"a4e51912ea24cdf1950795bb19a6dcd4a30d030c debian archive/debian/5.38_bpo12+1 https://git.dgit.debian.org/autopkgtest"
 	],
 	"Directory": [
 		"pool/main/a/autopkgtest"
@@ -42,10 +42,10 @@
 		"autopkgtest"
 	],
 	"Testsuite-Triggers": [
-		"adduser, autodep8, build-essential, buildah, ca-certificates, catatonit, debhelper, debian-archive-keyring, debootstrap, devscripts, distro-info, dnsmasq, dnsmasq-base, docker.io, dumb-init, fakeroot, golang-github-containernetworking-plugin-dnsname, iptables, libpam-cgfs, lxc, lxc-templates, lxcfs, lxd, lxd-installer, mmdebstrap, podman, python3-distro-info, rsync, sbuild, schroot, slirp4netns, tini, uidmap, util-linux"
+		"adduser, autodep8, build-essential, buildah, ca-certificates, catatonit, debhelper, debian-archive-keyring, debootstrap, devscripts, distro-info, dnsmasq, dnsmasq-base, docker.io, dumb-init, fakeroot, golang-github-containernetworking-plugin-dnsname, iproute2, iptables, libpam-cgfs, lxc, lxc-templates, lxcfs, lxd, lxd-installer, mmdebstrap, podman, python3-distro-info, rsync, sbuild, schroot, slirp4netns, tini, uidmap, util-linux"
 	],
 	"Uploaders": [
-		"Ian Jackson <ijackson@chiark.greenend.org.uk>, Martin Pitt <mpitt@debian.org>, Antonio Terceiro <terceiro@debian.org>, Paul Gevers <elbrus@debian.org>, Simon McVittie <smcv@debian.org>, Paride Legovini <paride@debian.org>"
+		"Ian Jackson <ijackson@chiark.greenend.org.uk>, Martin Pitt <mpitt@debian.org>, Antonio Terceiro <terceiro@debian.org>, Paul Gevers <elbrus@debian.org>, Simon McVittie <smcv@debian.org>, Paride Legovini <paride@debian.org>,"
 	],
 	"Vcs-Browser": [
 		"https://salsa.debian.org/ci-team/autopkgtest"
@@ -54,6 +54,6 @@
 		"https://salsa.debian.org/ci-team/autopkgtest.git"
 	],
 	"Version": [
-		"5.35~bpo12+1"
+		"5.38~bpo12+1"
 	]
 }
