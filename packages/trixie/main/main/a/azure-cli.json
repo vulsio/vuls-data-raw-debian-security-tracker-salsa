@@ -1,0 +1,62 @@
+{
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"azure-cli, python3-azure-cli, python3-azure-cli-core, python3-azure-cli-telemetry, python3-azure-cli-testsdk"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-python, dh-sequence-python3, pylint <!nocheck>, python3-all, python3-argcomplete, python3-antlr4 <!nocheck>, python3-azure (>= 20240806+git-1~), python3-azure-datalake-store (>= 0.0.49-1~) <!nocheck>, python3-azure-functions-devops-build <!nocheck>, python3-azure-multiapi-storage (>= 1.0.0~) <!nocheck>, python3-bcrypt (>= 3.2.0~) <!nocheck>, python3-colorama <!nocheck>, python3-configargparse <!nocheck>, python3-cryptography (>= 3.3.0~) <!nocheck>, python3-decorator <!nocheck>, python3-distro <!nocheck>, python3-fabric, python3-flake8 <!nocheck>, python3-github <!nocheck>, python3-humanfriendly <!nocheck>, python3-javaproperties <!nocheck>, python3-jinja2 (>= 3.0.0~) <!nocheck>, python3-jmespath <!nocheck>, python3-jsondiff <!nocheck>, python3-jwt (>= 2.1.0~) <!nocheck>, python3-knack (>= 0.10.0~) <!nocheck>, python3-markupsafe (>= 2.0.0~) <!nocheck>, python3-msal (>= 1.20.0~) <!nocheck>, python3-msal-extensions (>= 1.0.0~) <!nocheck>, python3-msrest (>= 0.6.18-1~) <!nocheck>, python3-nacl <!nocheck>, python3-oauthlib <!nocheck>, python3-openssl <!nocheck>, python3-packaging <!nocheck>, python3-paramiko <!nocheck>, python3-pkginfo, python3-psutil <!nocheck>, python3-pytest <!nocheck>, python3-requests <!nocheck>, python3-scp <!nocheck>, python3-setuptools, python3-semver <!nocheck>, python3-sshtunnel <!nocheck>, python3-tabulate <!nocheck>, python3-tz <!nocheck>, python3-vcr <!nocheck>, python3-websocket <!nocheck>, python3-xmltodict <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"71fd9c4f030d9152d569029f237e8f3afda5ba1ae0b4736d54ce7075db942966 3845 azure-cli_2.63.0-1.dsc 0644c10189233fbced35ddb59200f194c0e2194c142c931aab0a5effe6a9011f 131517424 azure-cli_2.63.0.orig.tar.gz 79bc5bf289c351901a613e696ecb172f26d2de2d9a9a46ab2a0d07e028d3e541 9476 azure-cli_2.63.0-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/a/azure-cli"
+	],
+	"Files": [
+		"d3c67b59e095c913cab3550501eeb6ce 3845 azure-cli_2.63.0-1.dsc 49945685fd0830364411d4503a9a7e23 131517424 azure-cli_2.63.0.orig.tar.gz 8c607f2157cd8371cd53ce9d88d485da 9476 azure-cli_2.63.0-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/Azure/azure-cli"
+	],
+	"Maintainer": [
+		"Debian Python Team <team+python@tracker.debian.org>"
+	],
+	"Package": [
+		"azure-cli"
+	],
+	"Package-List": [
+		"azure-cli deb python optional arch=all python3-azure-cli deb python optional arch=all python3-azure-cli-core deb python optional arch=all python3-azure-cli-telemetry deb python optional arch=all python3-azure-cli-testsdk deb python optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.7.0"
+	],
+	"Testsuite": [
+		"autopkgtest, autopkgtest-pkg-python"
+	],
+	"Testsuite-Triggers": [
+		"@builddeps@, python3-all"
+	],
+	"Uploaders": [
+		"Luca Boccassi <bluca@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/python-team/packages/azure-cli"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/python-team/packages/azure-cli.git"
+	],
+	"Version": [
+		"2.63.0-1"
+	]
+}
