@@ -6,13 +6,13 @@
 		"flatpak, flatpak-tests, gir1.2-flatpak-1.0, libflatpak-dev, libflatpak-doc, libflatpak0"
 	],
 	"Build-Depends": [
-		"attr <!nocheck>, automake (>= 1.14.1), bison, bubblewrap (>= 0.5.0), ca-certificates <!nocheck>, dbus-daemon, debhelper-compat (= 13), desktop-file-utils <!nocheck>, dh-exec (>= 0.23~), docbook-xml <!nodoc>, docbook-xsl <!nodoc>, fuse3 <!nocheck>, gnupg <!nocheck>, gobject-introspection (>= 1.54.1-2~), gtk-doc-tools, gtk-update-icon-cache <!nocheck>, hicolor-icon-theme <!nocheck>, libappstream-dev (>= 0.12.0), libarchive-dev (>= 2.8.0), libattr1-dev, libcap-dev, libcurl4-gnutls-dev | libcurl-dev, libdconf-dev, libdw-dev, libelf-dev, libfuse3-dev (>= 3.1.1), libgdk-pixbuf-2.0-dev, libgirepository1.0-dev, libglib2.0-dev (>= 2.44), libgpgme-dev (>= 1.1.8), libjson-glib-dev, libmalcontent-0-dev (>= 0.4.0), libostree-dev (>= 2020.8), libpolkit-agent-1-dev, libpolkit-gobject-1-dev, libseccomp-dev (>= 2.5.2), libsystemd-dev, libxau-dev, libxml2-dev (>= 2.4), libxml2-utils, libzstd-dev, ostree (>= 2020.8) <!nocheck>, polkitd <!nocheck> | policykit-1 <!nocheck>, procps, python3:any, python3-pyparsing, shared-mime-info <!nocheck>, socat <!nocheck>, xdg-dbus-proxy (>= 0.1.0), xmlto <!nodoc>, xsltproc <!nodoc>"
+		"attr <!nocheck>, automake (>= 1.14.1), bison, bubblewrap (>= 0.8.0-2+deb12u1~), bubblewrap (<< 0.8.1~) | bubblewrap (>= 0.10.0~), ca-certificates <!nocheck>, dbus-daemon, debhelper-compat (= 13), desktop-file-utils <!nocheck>, dh-exec (>= 0.23~), docbook-xml <!nodoc>, docbook-xsl <!nodoc>, fuse3 <!nocheck>, gnupg <!nocheck>, gobject-introspection (>= 1.54.1-2~), gtk-doc-tools, gtk-update-icon-cache <!nocheck>, hicolor-icon-theme <!nocheck>, libappstream-dev (>= 0.12.0), libarchive-dev (>= 2.8.0), libattr1-dev, libcap-dev, libcurl4-gnutls-dev | libcurl-dev, libdconf-dev, libdw-dev, libelf-dev, libfuse3-dev (>= 3.1.1), libgdk-pixbuf-2.0-dev, libgirepository1.0-dev, libglib2.0-dev (>= 2.44), libgpgme-dev (>= 1.1.8), libjson-glib-dev, libmalcontent-0-dev (>= 0.4.0), libostree-dev (>= 2020.8), libpolkit-agent-1-dev, libpolkit-gobject-1-dev, libseccomp-dev (>= 2.5.2), libsystemd-dev, libxau-dev, libxml2-dev (>= 2.4), libxml2-utils, libzstd-dev, ostree (>= 2020.8) <!nocheck>, polkitd <!nocheck> | policykit-1 <!nocheck>, procps, python3:any, python3-pyparsing, shared-mime-info <!nocheck>, socat <!nocheck>, xdg-dbus-proxy (>= 0.1.0), xmlto <!nodoc>, xsltproc <!nodoc>"
 	],
 	"Build-Depends-Indep": [
 		"libglib2.0-doc, libostree-doc"
 	],
 	"Checksums-Sha256": [
-		"4d24771540c47fc79172311e1df3e6afa9e1878ea5d0be675d2052bf8d82c2bb 3566 flatpak_1.14.4-1+deb12u1.dsc 8a34dbd0b67c434e7598b98ec690953d046f0db26e480aeafb46d72aec716799 1637484 flatpak_1.14.4.orig.tar.xz 000ff7ff87d6ff8b66498dea87e0afa618a85bf0860137ebade46427e6f137f5 35992 flatpak_1.14.4-1+deb12u1.debian.tar.xz"
+		"09062fc52e7f89249a20a48d0e3267bd281182f7eea990744d371e342d2d4eaf 3884 flatpak_1.14.10-1~deb12u1.dsc 6bbdc7908127350ad85a4a47d70292ca2f4c46e977b32b1fd231c2a719d821cd 1647100 flatpak_1.14.10.orig.tar.xz 86f596ae816c77b6ee2789df177cc194d0a86d5ebd127d2a5c5cf99a627641ca 833 flatpak_1.14.10.orig.tar.xz.asc 873ae87d367557190e159c6f281ce82acc512f38743ca284e8785f89293add11 36600 flatpak_1.14.10-1~deb12u1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/updates/main/f/flatpak"
@@ -57,6 +57,6 @@
 		"https://salsa.debian.org/debian/flatpak.git"
 	],
 	"Version": [
-		"1.14.4-1+deb12u1"
+		"1.14.10-1~deb12u1"
 	]
 }
