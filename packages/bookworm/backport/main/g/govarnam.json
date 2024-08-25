@@ -1,0 +1,62 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"libgovarnam1, libgovarnam-dev"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-golang, fakeroot, golang-any (>= 1.16.0), golang-github-mattn-go-sqlite3-dev, pkg-config"
+	],
+	"Checksums-Sha256": [
+		"a2b4150405626912e9b2a9da91f5a6ef6ae4083a4f20183d85f71d79937580a3 2266 govarnam_1.9.0-2~bpo12+1.dsc f258c199c3236f82ae977bf390f393b11f64adea6311f061dd26613ed99fd253 58135 govarnam_1.9.0.orig.tar.gz 2fd4d5ed086f5d218f192dcdbbc55219bb5eb5675fb5b586c281207c9c82f669 23060 govarnam_1.9.0-2~bpo12+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/g/govarnam"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Go-Import-Path": [
+		"github.com/varnamproject/govarnam"
+	],
+	"Homepage": [
+		"https://github.com/varnamproject/govarnam"
+	],
+	"Maintainer": [
+		"DebianOnMobile Maintainers <debian-on-mobile-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"govarnam"
+	],
+	"Package-List": [
+		"libgovarnam-dev deb libdevel optional arch=any libgovarnam1 deb libs optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, pkg-config"
+	],
+	"Uploaders": [
+		"Guido Günther <agx@sigxcpu.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/DebianOnMobile-team/govarnam"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/DebianOnMobile-team/govarnam.git"
+	],
+	"Version": [
+		"1.9.0-2~bpo12+1"
+	]
+}
