@@ -3,13 +3,13 @@
 		"all"
 	],
 	"Binary": [
-		"python3-streamlink, streamlink"
+		"python3-streamlink, python3-streamlink-doc, streamlink"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc, python3, pybuild-plugin-pyproject, python3-setuptools, python3-wheel, python3-certifi, python3-exceptiongroup, python3-isodate, python3-lxml, python3-pycountry, python3-pycryptodome, python3-socks, python3-requests, python3-trio, python3-trio-websocket, python3-typing-extensions, python3-urllib3, python3-websocket, python3-freezegun, python3-pytest, python3-pytest-asyncio, python3-pytest-trio, python3-requests-mock"
+		"debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc, python3, pybuild-plugin-pyproject, python3-setuptools, python3-wheel, python3-certifi, python3-exceptiongroup, python3-isodate, python3-lxml, python3-pycountry, python3-pycryptodome, python3-socks, python3-requests, python3-trio, python3-trio-websocket, python3-typing-extensions, python3-urllib3, python3-websocket, python3-docutils, python3-myst-parser, python3-sphinx, furo, python3-sphinx-design, jdupes, python3-freezegun, python3-pytest, python3-pytest-asyncio, python3-pytest-trio, python3-requests-mock"
 	],
 	"Checksums-Sha256": [
-		"e5f49ce721ad71f253c8f55b97084a7f9ed40cce66847e425e4ddfb2d38cb4ea 2861 streamlink_6.8.3-1~bpo12+1.dsc e3f51a567c08703092f91d0497a3fc2aefe327efcd725d03e66f3dcd11ed9b68 753510 streamlink_6.8.3.orig.tar.gz eb1e01441bbf952e7dc4488666e972120020df6bdaed27cd0425a7a0340af14a 228 streamlink_6.8.3.orig.tar.gz.asc 7493ffd0de37a61f3b0fd6a251cecf0819ef7055e3d18e468f2bc08d81ad6f32 19268 streamlink_6.8.3-1~bpo12+1.debian.tar.xz"
+		"3be7dd27270eda552e971819b84b27e8a4ee23619a96eaf0b06d82d3be27a1ac 3043 streamlink_6.9.0-1~bpo12+1.dsc 2ca9b0b17b80bc9d09a8422c390cb38d819af5566493960bf210d8fee221c17f 758696 streamlink_6.9.0.orig.tar.gz 163b7f1eab5c6423011d679f885c5162ab013322e090cef635523870706583f2 228 streamlink_6.9.0.orig.tar.gz.asc f8ed649d828990a5e4727b29b8d3860c3d0edbcc91b9ab9565b527dff7418194 21220 streamlink_6.9.0-1~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/s/streamlink"
@@ -27,7 +27,7 @@
 		"streamlink"
 	],
 	"Package-List": [
-		"python3-streamlink deb python optional arch=all streamlink deb video optional arch=all"
+		"python3-streamlink deb python optional arch=all python3-streamlink-doc deb doc optional arch=all streamlink deb video optional arch=all"
 	],
 	"Priority": [
 		"optional"
@@ -42,7 +42,7 @@
 		"autopkgtest"
 	],
 	"Testsuite-Triggers": [
-		"bsdmainutils, man-db, openssl, python3-freezegun, python3-pytest, python3-pytest-asyncio, python3-pytest-trio, python3-requests-mock, python3-setuptools"
+		"bash, bsdmainutils, doc-base, man-db, openssl, python3-freezegun, python3-pytest, python3-pytest-asyncio, python3-pytest-trio, python3-requests-mock, python3-setuptools"
 	],
 	"Vcs-Browser": [
 		"https://salsa.debian.org/amurzeau/streamlink"
@@ -51,6 +51,6 @@
 		"https://salsa.debian.org/amurzeau/streamlink.git"
 	],
 	"Version": [
-		"6.8.3-1~bpo12+1"
+		"6.9.0-1~bpo12+1"
 	]
 }
