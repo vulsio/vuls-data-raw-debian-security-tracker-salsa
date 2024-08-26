@@ -6,19 +6,19 @@
 		"libgtk-3-0t64, libgtk-3-0-udeb, libgtk-3-common, libgtk-3-bin, libgtk-3-dev, libgtk-3-doc, gtk-3-examples, gir1.2-gtk-3.0, gtk-update-icon-cache, libgail-3-0t64, libgail-3-dev, libgail-3-doc"
 	],
 	"Build-Depends": [
-		"adwaita-icon-theme (>= 45.0-4~) <!nocheck>, at-spi2-core <!nocheck>, dbus-daemon <!nocheck>, debhelper-compat (= 13), dh-sequence-gir, docbook-xml <!nodoc>, docbook-xsl <!nodoc>, dpkg-dev (>= 1.22.5), fonts-cantarell <!nocheck>, fonts-dejavu-core <!nocheck>, gir1.2-atk-1.0-dev <pkg.gobject-introspection.todo>, gir1.2-cairo-1.0-dev | libgirepository1.0-dev, gir1.2-gdkpixbuf-2.0-dev, gir1.2-gio-2.0-dev | libgirepository1.0-dev, gir1.2-pango-1.0-dev, gir1.2-xlib-2.0-dev | libgirepository1.0-dev, gnome-pkg-tools (>= 0.11), gobject-introspection (>= 1.78.1-9~) | libgirepository1.0-dev (>= 1.41.3), gobject-introspection (>= 1.78.1-9~) <cross>, gsettings-desktop-schemas <!nocheck>, libatk-bridge2.0-dev (>= 2.15.1), libatk1.0-dev (>= 2.35.1), libcairo2-dev (>= 1.14.0), libcloudproviders-dev (>= 0.3.2), libcolord-dev (>= 0.1.9), libcups2-dev (>= 1.7), libegl1-mesa-dev [linux-any], libepoxy-dev (>= 1.4), libfontconfig-dev, libfreetype-dev (>= 2.7.1), libfribidi-dev (>= 0.19.7), libgdk-pixbuf-2.0-dev (>= 2.40.0), libglib2.0-dev (>= 2.57.2), libharfbuzz-dev (>= 2.2.0), libjson-glib-dev:native, libpango1.0-dev (>= 1.44.0), librsvg2-common [amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x powerpc ppc64 riscv64 sparc64] <!nocheck>, libwayland-dev (>= 1.14.91) [linux-any], libx11-dev, libxcomposite-dev, libxcursor-dev, libxdamage-dev, libxext-dev, libxfixes-dev, libxi-dev, libxinerama-dev, libxkbcommon-dev (>= 0.2.0), libxkbfile-dev, libxml2-utils, libxrandr-dev (>= 2:1.5.0), meson (>= 0.60.0), ninja-build, pkgconf, pkgconf:native, sassc, wayland-protocols (>= 1.17) [linux-any], xauth <!nocheck>, xsltproc <!nodoc>, xvfb <!nocheck>"
+		"adwaita-icon-theme (>= 45.0-4~) <!nocheck>, at-spi2-core <!nocheck>, dbus-daemon <!nocheck>, debhelper-compat (= 13), dh-sequence-gir, docbook-xml <!nodoc>, docbook-xsl <!nodoc>, dpkg-dev (>= 1.22.5), fonts-cantarell <!nocheck>, fonts-dejavu-core <!nocheck>, gir1.2-atk-1.0-dev <pkg.gobject-introspection.todo>, gir1.2-cairo-1.0-dev | libgirepository1.0-dev, gir1.2-gdkpixbuf-2.0-dev, gir1.2-gio-2.0-dev | libgirepository1.0-dev, gir1.2-pango-1.0-dev, gir1.2-xlib-2.0-dev | libgirepository1.0-dev, gnome-pkg-tools (>= 0.11), gobject-introspection (>= 1.78.1-9~) | libgirepository1.0-dev (>= 1.41.3), gobject-introspection (>= 1.78.1-9~) <cross>, gsettings-desktop-schemas <!nocheck>, libatk-bridge2.0-dev (>= 2.15.1), libatk1.0-dev (>= 2.35.1), libcairo2-dev (>= 1.14.0), libcloudproviders-dev (>= 0.3.2), libcolord-dev (>= 0.1.9), libcups2-dev (>= 1.7), libegl1-mesa-dev [linux-any], libepoxy-dev (>= 1.4), libfontconfig-dev, libfreetype-dev (>= 2.7.1), libfribidi-dev (>= 0.19.7), libgdk-pixbuf-2.0-dev (>= 2.40.0), libglib2.0-dev (>= 2.57.2), libharfbuzz-dev (>= 2.2.0), libjson-glib-dev:native, libpango1.0-dev (>= 1.44.0), librsvg2-common [amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x powerpc ppc64 riscv64 sparc64] <!nocheck>, libsysprof-capture-4-dev (>= 3.40.1) [amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x hppa loong64 powerpc ppc64 sh4], libwayland-dev (>= 1.14.91) [linux-any], libx11-dev, libxcomposite-dev, libxcursor-dev, libxdamage-dev, libxext-dev, libxfixes-dev, libxi-dev, libxinerama-dev, libxkbcommon-dev (>= 0.2.0), libxkbfile-dev, libxml2-utils, libxrandr-dev (>= 2:1.5.0), meson (>= 0.60.0), ninja-build, pkgconf, pkgconf:native, sassc, wayland-protocols (>= 1.17) [linux-any], xauth <!nocheck>, xsltproc <!nodoc>, xvfb <!nocheck>"
 	],
 	"Build-Depends-Indep": [
 		"gtk-doc-tools (>= 1.20) <!nodoc>, libatk1.0-doc <!nodoc>, libcairo2-doc <!nodoc>, libglib2.0-doc <!nodoc>, libpango1.0-doc <!nodoc>"
 	],
 	"Checksums-Sha256": [
-		"6b889092b321e6070aea2b655dcc6484da7c0a9254c03f838b277b797798557e 4699 gtk+3.0_3.24.43-1.dsc 7e04f0648515034b806b74ae5d774d87cffb1a2a96c468cb5be476d51bf2f3c7 13227856 gtk+3.0_3.24.43.orig.tar.xz 5137926197c7d3d9dc4b446414ff10c4af645f1d706584f4f30f14531117c348 3460444 gtk+3.0_3.24.43-1.debian.tar.xz"
+		"bbd793abbaf48010d3e02f05ac3ef39181a39654dd3cadfb96b86478c7d0fc68 4830 gtk+3.0_3.24.43-3.dsc 7e04f0648515034b806b74ae5d774d87cffb1a2a96c468cb5be476d51bf2f3c7 13227856 gtk+3.0_3.24.43.orig.tar.xz bf0a01779a6a4e49f0e31eb8c5a7b93ebddea720880b2d71bd380374701cf531 3464264 gtk+3.0_3.24.43-3.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/g/gtk+3.0"
 	],
 	"Files": [
-		"d805baceae7fe0aa6dfbe9850370c7e5 4699 gtk+3.0_3.24.43-1.dsc 226e372664a7fae749a50a04983ecd8d 13227856 gtk+3.0_3.24.43.orig.tar.xz 191fbdb780b0007d50f66f93ed595313 3460444 gtk+3.0_3.24.43-1.debian.tar.xz"
+		"c66c5d515ee94808b58d9d4c65a506ef 4830 gtk+3.0_3.24.43-3.dsc 226e372664a7fae749a50a04983ecd8d 13227856 gtk+3.0_3.24.43.orig.tar.xz b4006edb9b51e7f1485e58c1c3915fa9 3464264 gtk+3.0_3.24.43-3.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -42,7 +42,7 @@
 		"libs"
 	],
 	"Standards-Version": [
-		"4.6.2"
+		"4.7.0"
 	],
 	"Testsuite": [
 		"autopkgtest"
@@ -60,6 +60,6 @@
 		"https://salsa.debian.org/gnome-team/gtk3.git"
 	],
 	"Version": [
-		"3.24.43-1"
+		"3.24.43-3"
 	]
 }
