@@ -1,0 +1,65 @@
+{
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python3-rokuecp"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-poetry-core"
+	],
+	"Build-Depends-Indep": [
+		"python3-aiohttp <!nocheck>, python3-aresponses <!nocheck>, python3-awesomeversion <!nocheck>, python3-backoff <!nocheck>, python3-freezegun <!nocheck>, python3-pytest <!nocheck>, python3-pytest-asyncio <!nocheck>, python3-pytest-cov <!nocheck>, python3-pytest-freezer <!nocheck>, python3-xmltodict <!nocheck>, python3-yarl <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"6427f238d698381b4f9ec64919aa85c58cbb7669308fc47631e37a1254e87232 2563 python-rokuecp_0.19.4-1.dsc 6211f3d61a0e17dfb38ac305d8ff599cb4fcbf399bb2388f57ddbb06b2afcbe7 85242 python-rokuecp_0.19.4.orig.tar.gz e8dc1be021a3e2063b44013d257247cf0273525f6b9cf0f8592ee328ea2a2b90 2460 python-rokuecp_0.19.4-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-rokuecp"
+	],
+	"Files": [
+		"9c9c376f355c32bc4a1e063ba509dfcf 2563 python-rokuecp_0.19.4-1.dsc 9fa366eecbdaca27f924ef67093d754e 85242 python-rokuecp_0.19.4.orig.tar.gz 7b82679a3674565985b9f949c6e56e29 2460 python-rokuecp_0.19.4-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/ctalkington/python-rokuecp"
+	],
+	"Maintainer": [
+		"Home Assistant Team <team+homeassistant@tracker.debian.org>"
+	],
+	"Package": [
+		"python-rokuecp"
+	],
+	"Package-List": [
+		"python3-rokuecp deb python optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.7.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"python3-all, python3-aresponses, python3-pytest, python3-pytest-asyncio"
+	],
+	"Uploaders": [
+		"Edward Betts <edward@4angle.com>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/homeassistant-team/deps/python-rokuecp"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/homeassistant-team/deps/python-rokuecp.git"
+	],
+	"Version": [
+		"0.19.4-1"
+	]
+}
