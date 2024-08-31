@@ -6,10 +6,13 @@
 		"debhelper, libdebhelper-perl"
 	],
 	"Build-Depends": [
-		"dpkg-dev (>= 1.18.0~), libtest-pod-perl <pkg.debhelper.ci>, man-db <pkg.debhelper.ci>, perl:any, po4a"
+		"dpkg-dev (>= 1.18.0~), libtest-pod-perl <pkg.debhelper.ci>, man-db <pkg.debhelper.ci>, perl:any, po4a <!pkg.debhelper.nonls>"
 	],
 	"Checksums-Sha256": [
-		"b1776534fe7c773797deca0170c12b1b0cfa73cfc3f373055fe95ad8f530b2e9 1800 debhelper_13.11.8~bpo12+1.dsc 6051ffb942710000af0c2c1137456025b315287a6d60aa43aa9edb4d563d2238 587580 debhelper_13.11.8~bpo12+1.tar.xz"
+		"19301bc408fa7091c04f17e53ae8d59ebf8361c88a36dc92b9e1006471b9faa5 1616 debhelper_13.19~bpo12+1.dsc 5d6e5d82847578ef31015b1506c2f2a849a65a8b85f7eb41e659ceb916e5fd2c 615696 debhelper_13.19~bpo12+1.tar.xz"
+	],
+	"Dgit": [
+		"7e1e8cf39ce44b868aa219181c4c3dc91dfde088 debian archive/debian/13.19_bpo12+1 https://git.dgit.debian.org/debhelper"
 	],
 	"Directory": [
 		"pool/main/d/debhelper"
@@ -33,7 +36,7 @@
 		"misc"
 	],
 	"Standards-Version": [
-		"4.6.1"
+		"4.7.0"
 	],
 	"Testsuite": [
 		"autopkgtest-pkg-perl"
@@ -48,6 +51,6 @@
 		"https://salsa.debian.org/debian/debhelper.git"
 	],
 	"Version": [
-		"13.11.8~bpo12+1"
+		"13.19~bpo12+1"
 	]
 }
