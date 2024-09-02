@@ -6,16 +6,13 @@
 		"golang-github-google-btree-dev"
 	],
 	"Build-Depends": [
-		"debhelper (>= 12~), dh-golang, golang-any"
+		"debhelper-compat (= 12), dh-golang, golang-any"
 	],
 	"Checksums-Sha256": [
-		"04fe9d8a8d8b82227707c99d20995ae61e5cf0af88d87e77170411a2760834e3 2271 golang-github-google-btree_1.0.0-1.dsc 2cb9bcfd14a4da77eebb2cc3a5c93f806177f57ca2aa553f1e19d55b0c0c2197 14364 golang-github-google-btree_1.0.0.orig.tar.xz cb84a87171b636511e80312d558f9b4e55bf01252fb3f3263991e42e67bbcfd0 2932 golang-github-google-btree_1.0.0-1.debian.tar.xz"
+		"8338081f4900f0ca8c62e9b908f734518cfb913131359c900dae282d631219d7 2346 golang-github-google-btree_1.0.1-1~bpo12+1.dsc 240723cff7c3c28e8444d45e500e65b2c25df519273260f248786e1a7367a654 15381 golang-github-google-btree_1.0.1.orig.tar.gz 670ab38a3e69e163d8695386d665ad29b0bbc2130873dc9e184dac9d9cc43ca9 2828 golang-github-google-btree_1.0.1-1~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/g/golang-github-google-btree"
-	],
-	"Extra-Source-Only": [
-		"yes"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -48,7 +45,7 @@
 		"autopkgtest-pkg-go"
 	],
 	"Uploaders": [
-		"Dmitry Smirnov <onlyjob@debian.org>, Tim Potter <tpot@hpe.com>, Anthony Fok <foka@debian.org>"
+		"Dmitry Smirnov <onlyjob@debian.org>, Tim Potter <tpot@hpe.com>, Anthony Fok <foka@debian.org>, John Goerzen <jgoerzen@complete.org>"
 	],
 	"Vcs-Browser": [
 		"https://salsa.debian.org/go-team/packages/golang-github-google-btree"
@@ -57,6 +54,6 @@
 		"https://salsa.debian.org/go-team/packages/golang-github-google-btree.git"
 	],
 	"Version": [
-		"1.0.0-1"
+		"1.0.1-1~bpo12+1"
 	]
 }
