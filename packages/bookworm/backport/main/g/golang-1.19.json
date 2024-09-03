@@ -9,10 +9,13 @@
 		"debhelper-compat (= 13), golang-any (>= 2:1.4~) | golang-go (>= 2:1.4~) | gccgo (>= 4:5~), netbase"
 	],
 	"Checksums-Sha256": [
-		"53186ddc620fd32743966ca94454406a0b153043a8134350210f087a8f2870e8 2962 golang-1.19_1.19.13-1~bpo12+1.dsc ccf36b53fb0024a017353c3ddb22c1f00bc7a8073c6aac79042da24ee34434d3 26578128 golang-1.19_1.19.13.orig.tar.gz b6d349519ff1838bc4129d20bc554214b384ebe4d60bbf43049741815f83c51a 819 golang-1.19_1.19.13.orig.tar.gz.asc f30c0982bdd83a4fb624743bfeeac225e192838c6abd6535911d9d71af1799a9 43368 golang-1.19_1.19.13-1~bpo12+1.debian.tar.xz"
+		"864501dc44db5c233858f187fb73d27310ef68744daad21e15de1574472cd096 2231 golang-1.19_1.19.8-2.dsc 1d7a67929dccafeaf8a29e55985bc2b789e0499cb1a17100039f084e3238da2f 26553006 golang-1.19_1.19.8.orig.tar.gz 994d285325bb2694633673a00d46aa67784b32920d36f6a5256e6d543221e25c 819 golang-1.19_1.19.8.orig.tar.gz.asc e96eb06d51b99484bf53114eceb42ad04a7d1288426e8723459566fa0aa66e38 41952 golang-1.19_1.19.8-2.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/g/golang-1.19"
+	],
+	"Extra-Source-Only": [
+		"yes"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -38,12 +41,6 @@
 	"Standards-Version": [
 		"4.6.1"
 	],
-	"Testsuite": [
-		"autopkgtest"
-	],
-	"Testsuite-Triggers": [
-		"build-essential"
-	],
 	"Uploaders": [
 		"Michael Stapelberg <stapelberg@debian.org>, Paul Tagliamonte <paultag@debian.org>, Tianon Gravi <tianon@debian.org>, Michael Hudson-Doyle <mwhudson@debian.org>, Dr. Tobias Quathamer <toddy@debian.org>, Anthony Fok <foka@debian.org>"
 	],
@@ -54,6 +51,6 @@
 		"https://salsa.debian.org/go-team/compiler/golang.git -b golang-1.19"
 	],
 	"Version": [
-		"1.19.13-1~bpo12+1"
+		"1.19.8-2"
 	]
 }
