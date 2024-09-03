@@ -6,10 +6,10 @@
 		"opencpn, opencpn-data"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), cmake, googletest, libarchive-dev, libbz2-dev, libcurl4-gnutls-dev | libcurl4-openssl-dev, libcxx-serial-dev, libdrm-dev, libelf-dev, libexif-dev, libgdk-pixbuf-2.0-dev, libglew-dev, libgtk-3-dev, libjs-highlight.js, libjs-mathjax, liblz4-dev, liblzma-dev, libpango1.0-dev, libsqlite3-dev, libssl-dev, libtinyxml-dev, libudev-dev, libunarr-dev, libusb-1.0-0-dev, libwxsvg-dev (>= 2:1.5.21), libwxgtk3.2-dev | libwxgtk3.0-gtk3-dev, libwxgtk-webview3.2-dev | libwxgtk-webview3.0-gtk3-dev, lsb-release, portaudio19-dev, rapidjson-dev"
+		"debhelper-compat (= 13), cmake, dbus-daemon, googletest, libarchive-dev, libbz2-dev, libcurl4-openssl-dev, libcxx-serial-dev, libdrm-dev, libelf-dev, libexif-dev, libgdk-pixbuf-2.0-dev, libglew-dev, libgtk-3-dev, libjs-highlight.js, libjs-mathjax, liblz4-dev, liblzma-dev, libpango1.0-dev, libshp-dev, libsqlite3-dev, libssl-dev, libtinyxml-dev, libudev-dev, libunarr-dev, libusb-1.0-0-dev, libwxsvg-dev (>= 2:1.5.21), libwxgtk3.2-dev, libwxgtk-webview3.2-dev, lsb-release, portaudio19-dev, rapidjson-dev"
 	],
 	"Checksums-Sha256": [
-		"14892b02de5954c01fed03acfa2dcc96870b809584005391029233f065138981 2316 opencpn_5.8.4+dfsg-1~bpo12+1.dsc 0366de2522c7f0c2e4dbdf84969e4d5b4d9b98dd928f57cb70067dd044a2d4ab 20959716 opencpn_5.8.4+dfsg.orig.tar.xz bd83a0657b486772f61d9426c9422077142dcb23c0dc5cc939cd085a311c964a 15736 opencpn_5.8.4+dfsg-1~bpo12+1.debian.tar.xz"
+		"724cc1b2c25787d42ae5d3ea78b51c0b619373275b32eeda757826294a1c4242 2291 opencpn_5.10.0+dfsg-5~bpo12+1.dsc 8e659740d14846a18dae64f76a23d55765b2905e587d97eb9fa78f25fd8bcd2b 34570208 opencpn_5.10.0+dfsg.orig.tar.xz 588849489d40e096067befddd3c726c6ddd09f86cd64de8df8ba21f982bb9607 34320 opencpn_5.10.0+dfsg-5~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/o/opencpn"
@@ -36,15 +36,15 @@
 		"misc"
 	],
 	"Standards-Version": [
-		"4.6.2"
+		"4.7.0"
 	],
 	"Vcs-Browser": [
-		"https://gitlab.com/leamas/opencpn"
+		"https://github.com/opencpn/opencpn"
 	],
 	"Vcs-Git": [
-		"https://gitlab.com/leamas/opencpn.git -b debian/sid"
+		"https://github.com/opencpn/opencpn.git -b debian/bookworm-backports"
 	],
 	"Version": [
-		"5.8.4+dfsg-1~bpo12+1"
+		"1:5.10.0+dfsg-5~bpo12+1"
 	]
 }
