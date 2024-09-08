@@ -6,16 +6,13 @@
 		"golang-github-willf-bloom-dev"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), dh-golang, golang-any, golang-github-bits-and-blooms-bitset-dev"
+		"debhelper-compat (= 13), dh-golang, golang-any, golang-github-bits-and-blooms-bitset-dev (>= 1.13.0)"
 	],
 	"Checksums-Sha256": [
-		"1e634a596ea0cfafe08c099b8f1c51cb9337166a96d2f0b528120597b90fda3d 2432 golang-github-willf-bloom_3.3.1-1.dsc 908be2341b2d53bce5296cb7a9180e9e2c0b1ee7d777f53a1e115438da638d6a 15572 golang-github-willf-bloom_3.3.1.orig.tar.gz b12b10b48a06ba5175708e5b08fc854494c21d7f1c8e32bef4c8e4dc088736a0 3600 golang-github-willf-bloom_3.3.1-1.debian.tar.xz"
+		"4dff0a70417c74835c1da290d47dbccc1a9c105ce24f219cbbd49d0f037ec1e6 2355 golang-github-willf-bloom_3.7.0-1~bpo12+1.dsc c25337107192aed424b9209237c9d3c3dd8f85d57a10d63b89934993e131006a 16194 golang-github-willf-bloom_3.7.0.orig.tar.gz 59276c912706a9784d7a72550ff161ee0741f76488627d6b63d1a271dbd93b11 3760 golang-github-willf-bloom_3.7.0-1~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/g/golang-github-willf-bloom"
-	],
-	"Extra-Source-Only": [
-		"yes"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -42,13 +39,13 @@
 		"misc"
 	],
 	"Standards-Version": [
-		"4.6.0"
+		"4.6.2"
 	],
 	"Testsuite": [
 		"autopkgtest-pkg-go"
 	],
 	"Uploaders": [
-		"Thorsten Alteholz <debian@alteholz.de>"
+		"Thorsten Alteholz <debian@alteholz.de>, John Goerzen <jgoerzen@complete.org>"
 	],
 	"Vcs-Browser": [
 		"https://salsa.debian.org/go-team/packages/golang-github-willf-bloom"
@@ -57,6 +54,6 @@
 		"https://salsa.debian.org/go-team/packages/golang-github-willf-bloom.git"
 	],
 	"Version": [
-		"3.3.1-1"
+		"3.7.0-1~bpo12+1"
 	]
 }

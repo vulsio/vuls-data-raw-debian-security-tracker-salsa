@@ -1,0 +1,62 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-pgp-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native (>= 1.74) <!nocheck>, libstd-rust-dev <!nocheck>, librust-aes-0.8+default-dev <!nocheck>, librust-aes-gcm-0.10+default-dev (>= 0.10.3-~~) <!nocheck>, librust-argon2-0.5+default-dev <!nocheck>, librust-base64-0.21+default-dev (>= 0.21.7-~~) <!nocheck>, librust-bitfield-0.14+default-dev <!nocheck>, librust-block-padding-0.3+default-dev (>= 0.3.2-~~) <!nocheck>, librust-blowfish-0.9+default-dev <!nocheck>, librust-bstr-1+std-dev (>= 1.4.0-~~) <!nocheck>, librust-buffer-redux-1-dev <!nocheck>, librust-byteorder-1+default-dev (>= 1.4-~~) <!nocheck>, librust-camellia-0.1+default-dev <!nocheck>, librust-cast5-0.11+default-dev <!nocheck>, librust-cfb-mode-0.8+default-dev (>= 0.8.1-~~) <!nocheck>, librust-chrono-0.4+clock-dev (>= 0.4.23-~~) <!nocheck>, librust-chrono-0.4+std-dev (>= 0.4.23-~~) <!nocheck>, librust-cipher-0.4+default-dev <!nocheck>, librust-const-oid-0.9+default-dev <!nocheck>, librust-crc24-0.1+default-dev <!nocheck>, librust-curve25519-dalek-4+alloc-dev (>= 4.1.2-~~) <!nocheck>, librust-curve25519-dalek-4+precomputed-tables-dev (>= 4.1.2-~~) <!nocheck>, librust-curve25519-dalek-4+zeroize-dev (>= 4.1.2-~~) <!nocheck>, librust-derive-builder-0.20+default-dev <!nocheck>, librust-des-0.8+default-dev <!nocheck>, librust-digest-0.10+default-dev <!nocheck>, librust-dsa-0.6+default-dev (>= 0.6.3-~~) <!nocheck>, librust-eax-0.5+default-dev <!nocheck>, librust-ecdsa-0.16+default-dev <!nocheck>, librust-ed25519-dalek-2+fast-dev <!nocheck>, librust-ed25519-dalek-2+std-dev <!nocheck>, librust-ed25519-dalek-2+zeroize-dev <!nocheck>, librust-elliptic-curve-0.13+default-dev <!nocheck>, librust-flate2-1+rust-backend-dev <!nocheck>, librust-generic-array-0.14+default-dev <!nocheck>, librust-hex-0.4+default-dev <!nocheck>, librust-hkdf-0.12+default-dev (>= 0.12.4-~~) <!nocheck>, librust-idea-0.5+default-dev <!nocheck>, librust-iter-read-1+default-dev <!nocheck>, librust-k256-0.13+default-dev <!nocheck>, librust-k256-0.13+ecdsa-dev <!nocheck>, librust-log-0.4+default-dev (>= 0.4.6-~~) <!nocheck>, librust-md-5-0.10+default-dev (>= 0.10.5-~~) <!nocheck>, librust-md-5-0.10+oid-dev (>= 0.10.5-~~) <!nocheck>, librust-nom-7+default-dev <!nocheck>, librust-num-bigint-dig-0.8+default-dev (>= 0.8.1-~~) <!nocheck>, librust-num-bigint-dig-0.8+i128-dev (>= 0.8.1-~~) <!nocheck>, librust-num-bigint-dig-0.8+prime-dev (>= 0.8.1-~~) <!nocheck>, librust-num-bigint-dig-0.8+rand-dev (>= 0.8.1-~~) <!nocheck>, librust-num-bigint-dig-0.8+u64-digit-dev (>= 0.8.1-~~) <!nocheck>, librust-num-bigint-dig-0.8+zeroize-dev (>= 0.8.1-~~) <!nocheck>, librust-num-enum-0.5+default-dev (>= 0.5.7-~~) <!nocheck>, librust-num-traits-0.2+default-dev (>= 0.2.6-~~) <!nocheck>, librust-ocb3-0.1+default-dev <!nocheck>, librust-p256-0.13+default-dev <!nocheck>, librust-p256-0.13+ecdh-dev <!nocheck>, librust-p256-0.13+ecdsa-dev <!nocheck>, librust-p384-0.13+default-dev <!nocheck>, librust-p384-0.13+ecdsa-dev <!nocheck>, librust-p521-0.13+default-dev <!nocheck>, librust-p521-0.13+ecdh-dev <!nocheck>, librust-p521-0.13+ecdsa-dev <!nocheck>, librust-rand-0.8+default-dev <!nocheck>, librust-ripemd-0.1+default-dev (>= 0.1.3-~~) <!nocheck>, librust-ripemd-0.1+oid-dev (>= 0.1.3-~~) <!nocheck>, librust-rsa-0.9+default-dev <!nocheck>, librust-sha1-0.10+default-dev (>= 0.10.5-~~) <!nocheck>, librust-sha1-0.10+oid-dev (>= 0.10.5-~~) <!nocheck>, librust-sha1-checked-0.10+default-dev <!nocheck>, librust-sha2-0.10+default-dev (>= 0.10.6-~~) <!nocheck>, librust-sha2-0.10+oid-dev (>= 0.10.6-~~) <!nocheck>, librust-sha3-0.10+default-dev (>= 0.10.5-~~) <!nocheck>, librust-sha3-0.10+oid-dev (>= 0.10.5-~~) <!nocheck>, librust-signature-2+default-dev <!nocheck>, librust-smallvec-1+default-dev (>= 1.8.0-~~) <!nocheck>, librust-thiserror-1+default-dev (>= 1.0.30-~~) <!nocheck>, librust-twofish-0.7+default-dev <!nocheck>, librust-x25519-dalek-2+alloc-dev (>= 2.0.1-~~) <!nocheck>, librust-x25519-dalek-2+precomputed-tables-dev (>= 2.0.1-~~) <!nocheck>, librust-x25519-dalek-2+static-secrets-dev (>= 2.0.1-~~) <!nocheck>, librust-x25519-dalek-2+zeroize-dev (>= 2.0.1-~~) <!nocheck>, librust-zeroize-1+default-dev (>= 1.5-~~) <!nocheck>, librust-zeroize-1+zeroize-derive-dev (>= 1.5-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"3009b951684bd99674d5c3ffc7d7ca98d713036fa84fff2170b1f4f22ce8e17f 6182 rust-pgp_0.13.2-1.dsc 4a6c842436d5fa2b59eac1e9b3d142b50bfff99c1744c816b1f4c2ac55a20754 1557705 rust-pgp_0.13.2.orig.tar.gz b8bcf1648ada89e6644106121335aaa57d8d9a9856ad890cdfb823d602a3b32b 6652 rust-pgp_0.13.2-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-pgp"
+	],
+	"Files": [
+		"2ad12e74d93553d86d9d357266ebb111 6182 rust-pgp_0.13.2-1.dsc f9deb0e9981eefa83288f51295d85703 1557705 rust-pgp_0.13.2.orig.tar.gz a30272036740feeb1de513b8ba105a32 6652 rust-pgp_0.13.2-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/rpgp/rpgp"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-pgp"
+	],
+	"Package-List": [
+		"librust-pgp-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-criterion-0.5+default-dev, librust-criterion-0.5+html-reports-dev, librust-glob-0.3+default-dev, librust-hex-literal-0.4+default-dev, librust-pretty-assertions-1+default-dev, librust-pretty-env-logger-0.5+default-dev, librust-rand-chacha-0.3+default-dev, librust-rand-xorshift-0.3+default-dev, librust-regex-1+default-dev, librust-serde-1+default-dev, librust-serde-1+derive-dev, librust-serde-json-1+default-dev"
+	],
+	"Uploaders": [
+		"Daniel Kahn Gillmor <dkg@fifthhorseman.net>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/pgp"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/pgp]"
+	],
+	"Version": [
+		"0.13.2-1"
+	]
+}
