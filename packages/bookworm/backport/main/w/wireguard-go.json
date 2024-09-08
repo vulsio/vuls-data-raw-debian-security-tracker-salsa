@@ -6,10 +6,10 @@
 		"wireguard-go, golang-golang.zx2c4-wireguard-dev"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), dh-golang, golang-go (>= 2:1.19~0), golang-golang-x-crypto-dev, golang-golang-x-net-dev, golang-golang-x-sys-dev"
+		"debhelper-compat (= 13), dh-golang, golang-go (>= 2:1.20~0), golang-golang-x-crypto-dev (>= 0.13.0), golang-golang-x-net-dev (>= 0.15.0), golang-golang-x-sys-dev (>= 0.12.0), golang-golang-x-time-dev, golang-gvisor-gvisor-dev (>= 0.0~20230927), golang-github-google-btree-dev (>= 1.0.1)"
 	],
 	"Checksums-Sha256": [
-		"1f05343ba3d9e22cfbdd4a078fca4ac12fc286b3da312c1f9b10ad8e365bb369 2334 wireguard-go_0.0.20230223-1~bpo12+1.dsc ed3694e808d96720e79e17ae396f89f7c2024da07f3449ff0af8fbc6dbfa7f6a 77552 wireguard-go_0.0.20230223.orig.tar.xz 83ce1b2fed123a9015cfef3c5ff36fe70be85d48e01fa48dbc8ed9ba165e716d 3260 wireguard-go_0.0.20230223-1~bpo12+1.debian.tar.xz"
+		"eecd31e71aae0261699c2fb4bec66fe9dd9ebc894cac564cac780dbd14f8a1e0 2486 wireguard-go_0.0.20231211-1~bpo12+1.dsc b60cc17bfe55869628a83a377a1f5637667af7b2f3158f35bdd1f3d7fbeff794 114725 wireguard-go_0.0.20231211.orig.tar.gz 0b109e15df4489c6e005b53de6e48e6bec03e51000466067f161294cb48534a5 3332 wireguard-go_0.0.20231211-1~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/w/wireguard-go"
@@ -54,6 +54,6 @@
 		"https://salsa.debian.org/go-team/packages/wireguard-go.git"
 	],
 	"Version": [
-		"0.0.20230223-1~bpo12+1"
+		"0.0.20231211-1~bpo12+1"
 	]
 }

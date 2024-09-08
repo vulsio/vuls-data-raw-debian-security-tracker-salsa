@@ -6,10 +6,10 @@
 		"runsc, golang-gvisor-gvisor-dev"
 	],
 	"Build-Depends": [
-		"clang, debhelper-compat (= 13), dh-sequence-golang, golang-any, golang-github-bits-and-blooms-bitset-dev, golang-github-cenkalti-backoff-dev, golang-github-cilium-ebpf-dev, golang-github-coreos-go-systemd-dev, golang-github-godbus-dbus-dev, golang-github-gofrs-flock-dev, golang-github-google-btree-dev, golang-github-google-subcommands-dev, golang-github-kr-pty-dev, golang-github-mohae-deepcopy-dev, golang-github-opencontainers-runtime-spec-dev, golang-github-vishvananda-netlink-dev, golang-gocapability-dev, golang-golang-x-exp-dev, golang-golang-x-mod-dev, golang-golang-x-sync-dev, golang-golang-x-sys-dev (>= 0.20.0), golang-golang-x-time-dev, golang-google-protobuf-dev, libbpf-dev, libc6-dev-i386 [amd64], linux-libc-dev, python3"
+		"clang, debhelper-compat (= 13), dh-sequence-golang, golang-any (>= 2:1.22~0), golang-github-bits-and-blooms-bitset-dev, golang-github-cenkalti-backoff-dev, golang-github-cilium-ebpf-dev, golang-github-coreos-go-systemd-dev, golang-github-godbus-dbus-dev, golang-github-gofrs-flock-dev, golang-github-google-btree-dev, golang-github-google-subcommands-dev, golang-github-kr-pty-dev, golang-github-mohae-deepcopy-dev, golang-github-opencontainers-runtime-spec-dev, golang-github-vishvananda-netlink-dev, golang-gocapability-dev, golang-golang-x-exp-dev, golang-golang-x-mod-dev, golang-golang-x-sync-dev, golang-golang-x-sys-dev (>= 0.20.0), golang-golang-x-time-dev, golang-google-protobuf-dev, libbpf-dev, libc6-dev-i386 [amd64], linux-libc-dev, python3"
 	],
 	"Checksums-Sha256": [
-		"bd97c47b89a4cf986e6b4a23e9bed353cd7c70b5bd6e491100437d4d9ee7f648 3104 golang-gvisor-gvisor_0.0~20240729.0-4~bpo12+1.dsc 8677fe60daa0519bb77139c58fec6c9e4ea1ee12f9f673007c6c0e3545ef69d2 3264488 golang-gvisor-gvisor_0.0~20240729.0.orig.tar.gz dd19ed0a5a73dfe6cd90719abac47f9ac0eaaa025c089bb799efd564b578dc8d 8744 golang-gvisor-gvisor_0.0~20240729.0-4~bpo12+1.debian.tar.xz"
+		"00da5df2d57c2cab65561fde3a11d0ad883011755c6bf051c3ef34bfdc72832c 3118 golang-gvisor-gvisor_0.0~20240729.0-4~bpo12+2.dsc 8677fe60daa0519bb77139c58fec6c9e4ea1ee12f9f673007c6c0e3545ef69d2 3264488 golang-gvisor-gvisor_0.0~20240729.0.orig.tar.gz 8145be0743ed9c494491ecdba6b6f5ef223b091f6efae67b068c5f348a49b57e 8776 golang-gvisor-gvisor_0.0~20240729.0-4~bpo12+2.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/g/golang-gvisor-gvisor"
@@ -57,6 +57,6 @@
 		"https://salsa.debian.org/go-team/packages/golang-gvisor-gvisor.git"
 	],
 	"Version": [
-		"0.0~20240729.0-4~bpo12+1"
+		"0.0~20240729.0-4~bpo12+2"
 	]
 }
