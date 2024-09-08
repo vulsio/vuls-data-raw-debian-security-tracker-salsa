@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-openssh-sftp-client-lowlevel-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-awaitable-0.4+default-dev <!nocheck>, librust-bytes-1+default-dev (>= 1.2.1-~~) <!nocheck>, librust-concurrent-arena-0.1+default-dev (>= 0.1.7-~~) <!nocheck>, librust-derive-destructure2-0.1+default-dev <!nocheck>, librust-openssh-sftp-error-0.5+default-dev <!nocheck>, librust-openssh-sftp-protocol-0.24+bytes-dev <!nocheck>, librust-openssh-sftp-protocol-0.24+default-dev <!nocheck>, librust-pin-project-1+default-dev (>= 1.0.10-~~) <!nocheck>, librust-tokio-1+default-dev (>= 1.11.0-~~) <!nocheck>, librust-tokio-1+io-util-dev (>= 1.11.0-~~) <!nocheck>, librust-tokio-1+sync-dev (>= 1.11.0-~~) <!nocheck>, librust-tokio-io-utility-0.7+default-dev (>= 0.7.1-~~) <!nocheck>, librust-tokio-io-utility-0.7+read-exact-to-bytes-dev (>= 0.7.1-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"7b23b077123cb7e8457e31f1a9db3a4654bc8316ed5b72ef53df262dd2c8c072 2612 rust-openssh-sftp-client-lowlevel_0.7.0-1.dsc 12a5728cca10461b3842f715fb3d8acd7ef11e2635a0aff0eb5eceab2e1f1e4a 18404 rust-openssh-sftp-client-lowlevel_0.7.0.orig.tar.gz cc87e9bef2a75fcd0fa04bc20afef2858a5c93fc8c4979390ea459379d401003 2752 rust-openssh-sftp-client-lowlevel_0.7.0-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-openssh-sftp-client-lowlevel"
+	],
+	"Files": [
+		"aaacaef4fd2ed53ffe125371d6ec0b93 2612 rust-openssh-sftp-client-lowlevel_0.7.0-1.dsc 6e1dce4f0aa035c3ab195d6918814322 18404 rust-openssh-sftp-client-lowlevel_0.7.0.orig.tar.gz d40cf4f44a10d5a8d2188fd78e1ba3fe 2752 rust-openssh-sftp-client-lowlevel_0.7.0-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-openssh-sftp-client-lowlevel"
+	],
+	"Package-List": [
+		"librust-openssh-sftp-client-lowlevel-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-tempfile-3+default-dev, librust-tokio-1+default-dev, librust-tokio-1+macros-dev, librust-tokio-1+rt-dev"
+	],
+	"Uploaders": [
+		"Sebastian Ramacher <sramacher@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/openssh-sftp-client-lowlevel"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/openssh-sftp-client-lowlevel]"
+	],
+	"Version": [
+		"0.7.0-1"
+	]
+}

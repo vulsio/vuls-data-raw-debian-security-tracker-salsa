@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-openssh-sftp-client-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native (>= 1.64) <!nocheck>, libstd-rust-dev <!nocheck>, librust-bytes-1+default-dev (>= 1.2.1-~~) <!nocheck>, librust-derive-destructure2-0.1+default-dev <!nocheck>, librust-futures-core-0.3+default-dev (>= 0.3.28-~~) <!nocheck>, librust-once-cell-1+default-dev (>= 1.9.0-~~) <!nocheck>, librust-openssh-sftp-client-lowlevel-0.7+default-dev <!nocheck>, librust-openssh-sftp-error-0.5+default-dev <!nocheck>, librust-pin-project-1+default-dev (>= 1.0.10-~~) <!nocheck>, librust-scopeguard-1+default-dev (>= 1.1.0-~~) <!nocheck>, librust-tokio-1+default-dev (>= 1.11.0-~~) <!nocheck>, librust-tokio-1+macros-dev (>= 1.11.0-~~) <!nocheck>, librust-tokio-1+rt-dev (>= 1.11.0-~~) <!nocheck>, librust-tokio-1+sync-dev (>= 1.11.0-~~) <!nocheck>, librust-tokio-1+time-dev (>= 1.11.0-~~) <!nocheck>, librust-tokio-io-utility-0.7+default-dev (>= 0.7.4-~~) <!nocheck>, librust-tokio-util-0.7+default-dev (>= 0.7.8-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"f6c3ebdfdd009ec0e337a64fde8cbf62d79f5d52b5548f0f414287e25792197c 2780 rust-openssh-sftp-client_0.15.0-1.dsc 048be8afec5f72161c77f940db18a27acd99e26b532433e480361615830d03ae 50080 rust-openssh-sftp-client_0.15.0.orig.tar.gz 307c01076d5e251206c07918f47f89d9fd8d379897d37f0816f45b2f06701048 2932 rust-openssh-sftp-client_0.15.0-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-openssh-sftp-client"
+	],
+	"Files": [
+		"768c1a0fb87661566868c0ec6aff9838 2780 rust-openssh-sftp-client_0.15.0-1.dsc ab4e6cbf3a2b5da5c67d2d597f9e131e 50080 rust-openssh-sftp-client_0.15.0.orig.tar.gz 3c7638771150ab825887cbadf147ef71 2932 rust-openssh-sftp-client_0.15.0-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-openssh-sftp-client"
+	],
+	"Package-List": [
+		"librust-openssh-sftp-client-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-futures-util-0.3+default-dev, librust-openssh-0.11+default-dev, librust-openssh-0.11+native-mux-dev, librust-pretty-assertions-1+default-dev, librust-tempfile-3+default-dev, librust-tokio-1+default-dev, librust-tokio-1+macros-dev, librust-tokio-1+rt-dev"
+	],
+	"Uploaders": [
+		"Sebastian Ramacher <sramacher@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/openssh-sftp-client"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/openssh-sftp-client]"
+	],
+	"Version": [
+		"0.15.0-1"
+	]
+}

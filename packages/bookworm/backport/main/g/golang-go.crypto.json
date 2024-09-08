@@ -6,16 +6,13 @@
 		"golang-golang-x-crypto-dev"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), dh-sequence-golang, golang-any (>= 2:1.17~), golang-golang-x-net-dev (>= 1:0.0+git20211112.69e39ba), golang-golang-x-sys-dev (>= 0.0~git20210615.665e8c7), golang-golang-x-term-dev (>= 0.0~git20201126.7de9c90), openssh-server"
+		"debhelper-compat (= 13), dh-sequence-golang, golang-any (>= 2:1.20~), golang-golang-x-sys-dev (>= 0.22.0), golang-golang-x-term-dev (>= 0.22.0), golang-golang-x-text-dev (>= 0.16.0), openssh-server"
 	],
 	"Checksums-Sha256": [
-		"367fc4f0fdf62e24f47018b5f8074b18f44f97ab6e3c2e7d84e583c95b189dd9 1813 golang-go.crypto_0.4.0-1.dsc 88713ddf7b0d2b842f6cfb5da0d8327834e2f302093096498d561a536103b362 1442064 golang-go.crypto_0.4.0.orig.tar.xz 42813b14a783f24bbf020e9f475d3c99409f814acfeea0d03629153d778738d7 6692 golang-go.crypto_0.4.0-1.debian.tar.xz"
+		"3971678355f3aedcce72092a724f536160a939505bf35080611d795671a5cb24 2384 golang-go.crypto_0.25.0-1~bpo12+1.dsc b5dbc39a0b28b52e196da9a4531e81442687a9089573b99cfa9ac4a940cf3486 1587144 golang-go.crypto_0.25.0.orig.tar.xz 150c63acccdbab18f10d1b03d37dd3b8f0c39211cc9ca23ee1c4b07536af5680 92528 golang-go.crypto_0.25.0-1~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/g/golang-go.crypto"
-	],
-	"Extra-Source-Only": [
-		"yes"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -42,7 +39,7 @@
 		"misc"
 	],
 	"Standards-Version": [
-		"4.6.2"
+		"4.7.0"
 	],
 	"Testsuite": [
 		"autopkgtest-pkg-go"
@@ -57,6 +54,6 @@
 		"https://salsa.debian.org/go-team/packages/golang-go.crypto.git"
 	],
 	"Version": [
-		"1:0.4.0-1"
+		"1:0.25.0-1~bpo12+1"
 	]
 }
