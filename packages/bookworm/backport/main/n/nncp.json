@@ -6,10 +6,10 @@
 		"nncp"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), pandoc, texinfo, plantuml, po-debconf, dh-golang, golang-1.21-go, golang-1.21-src, golang-github-davecgh-go-xdr-dev, golang-github-dustin-go-humanize-dev, golang-github-fsnotify-fsnotify-dev, golang-github-flynn-noise-dev, golang-github-gorhill-cronexpr-dev, golang-github-hjson-hjson-go-dev (>= 4.3.1-2), golang-github-klauspost-compress-dev, golang-go.cypherpunks-balloon-dev, golang-go.cypherpunks-recfile-dev, golang-golang-x-crypto-dev, golang-golang-x-net-dev, golang-golang-x-sys-dev, golang-golang-x-term-dev, golang-lukechampine-blake3-dev, golang-github-google-btree-dev, golang-github-gologme-log-dev, golang-github-yggdrasil-network-yggdrasil-go-dev (>= 0.5.4), golang-golang-x-time-dev, golang-gvisor-gvisor-dev (>= 0.0~20230807.0~)"
+		"debhelper-compat (= 13), pandoc, texinfo, plantuml, default-jre, po-debconf, dh-golang, golang-go (>= 2:1.22~0), golang-github-davecgh-go-xdr-dev (>= 0.0~git20161123), golang-github-dustin-go-humanize-dev (>= 1.0.1), golang-github-fsnotify-fsnotify-dev (>= 1.7.0), golang-github-flynn-noise-dev (>= 1.1.0), golang-github-gorhill-cronexpr-dev (>= 1.0.0+git20180427), golang-github-hjson-hjson-go-dev (>= 4.4.0), golang-github-klauspost-compress-dev (>= 1.17.9), golang-go.cypherpunks-balloon-dev (>= 1.1.1), golang-go.cypherpunks-recfile-dev (>= 2.0.0), golang-golang-x-crypto-dev (>= 0.25.0), golang-golang-x-net-dev (>= 0.27.0), golang-golang-x-sys-dev (>= 0.22.0), golang-golang-x-term-dev (>= 0.22.0), golang-lukechampine-blake3-dev (>= 1.3.0), golang-github-google-btree-dev, golang-github-gologme-log-dev (>= 1.3.0), golang-github-yggdrasil-network-yggdrasil-go-dev (>= 0.5.8), golang-golang-x-time-dev, golang-gvisor-gvisor-dev (>= 0.0~20240723.0~)"
 	],
 	"Checksums-Sha256": [
-		"dce214fbb2d08d7a0e14172d656a9e82ac10373a1db55284e03a1ab577d7f82e 2717 nncp_8.10.0-6~bpo12+1.dsc 2c14444fb3fa4c7334044d5ac1ab19e439e36c5d7647fa4d0cc3c66a6c36d51d 174312 nncp_8.10.0.orig.tar.xz 62914e1c6ebbee7d940bff7f74ea6410cb2e10302b89f17ba122e36792e4369f 9724 nncp_8.10.0-6~bpo12+1.debian.tar.xz"
+		"228a7483018c40b7d2b54c69781f9d348217b57ad1024545d8a6fca935d5f0bb 2904 nncp_8.11.0-2~bpo12+1.dsc 12b06a386994a908e4e4c36282e48972b849f39edb5d1f44550ab8bef89c7584 175004 nncp_8.11.0.orig.tar.xz f25a6423e61cf045ded6803cb9745f5192824f51c738b087c0debad56007cd0f 10144 nncp_8.11.0-2~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/n/nncp"
@@ -18,7 +18,7 @@
 		"3.0 (quilt)"
 	],
 	"Go-Import-Path": [
-		"go.cypherpunks.ru/nncp/v7"
+		"go.cypherpunks.su/nncp/v8"
 	],
 	"Homepage": [
 		"http://www.nncpgo.org/"
@@ -54,6 +54,6 @@
 		"https://salsa.debian.org/go-team/packages/nncp.git"
 	],
 	"Version": [
-		"8.10.0-6~bpo12+1"
+		"8.11.0-2~bpo12+1"
 	]
 }
