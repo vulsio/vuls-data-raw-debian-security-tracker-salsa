@@ -9,7 +9,7 @@
 		"debhelper-compat (= 13), libssl-dev, libudev-dev [linux-any], pkgconf, systemd-timesyncd [linux-any]"
 	],
 	"Checksums-Sha256": [
-		"fed6d1ce6ca4f9a2c38c112027ea4317d96fda227f12f9832da349aeb599a0d6 2376 dhcpcd_10.0.8-2~bpo12+1.dsc d8dddf9f971a8d9ff828f33d8fa9f6d9a892a4a1429d230e9efb2be97dd0e313 272116 dhcpcd_10.0.8.orig.tar.xz 9ba6d423f6c24717a85680efd6b9b72b7fdcd9310c845e767bc31bf2fcd3b233 488 dhcpcd_10.0.8.orig.tar.xz.asc 5140a98dd72911b7838dceec6befb08bcc91517a87b4ff447753e3c341e65e9a 16956 dhcpcd_10.0.8-2~bpo12+1.debian.tar.xz"
+		"43dcd9786d9f2e8272259cc1e2bd559155443dbc907b639c6eca3d4448ec3b8f 2407 dhcpcd_10.0.10-1~bpo12+1.dsc d582012992efddd2442bb1213c518a37d90febbcf8b11f8e76448c710dacad27 272732 dhcpcd_10.0.10.orig.tar.xz ec767526aabd5fad8dff82afd909b7d9600116660a22aed5c5a7b4db3f19b32d 488 dhcpcd_10.0.10.orig.tar.xz.asc 20f0f5414d39b9dc67e00c3ce0767a8c26c9d6053f472f003ff005d7fa73a728 17348 dhcpcd_10.0.10-1~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/d/dhcpcd"
@@ -42,7 +42,7 @@
 		"autopkgtest"
 	],
 	"Testsuite-Triggers": [
-		"dnsmasq, ethtool, iproute2, systemd-timesyncd"
+		"adequate, debhelper, dnsmasq, ethtool, iproute2, systemd-timesyncd"
 	],
 	"Vcs-Browser": [
 		"https://salsa.debian.org/debian/dhcpcd"
@@ -51,6 +51,6 @@
 		"https://salsa.debian.org/debian/dhcpcd.git"
 	],
 	"Version": [
-		"1:10.0.8-2~bpo12+1"
+		"1:10.0.10-1~bpo12+1"
 	]
 }
