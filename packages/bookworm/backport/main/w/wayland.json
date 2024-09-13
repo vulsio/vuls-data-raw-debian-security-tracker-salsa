@@ -1,0 +1,56 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"libwayland-client0, libwayland-egl1, libwayland-server0, libwayland-cursor0, libwayland-dev, libwayland-egl-backend-dev, libwayland-doc, libwayland-bin"
+	],
+	"Build-Depends": [
+		"debhelper (>= 10), quilt, pkg-config, libexpat1-dev, libffi-dev, libxml2-dev, libwayland-bin <cross>, meson"
+	],
+	"Build-Depends-Indep": [
+		"doxygen, graphviz, xmlto, xsltproc, docbook-xsl"
+	],
+	"Checksums-Sha256": [
+		"be21c208d9147d6fb72aa81543beb53ff1912b5ab635e70987622a031468e6cf 2645 wayland_1.23.0-1~bpo12+1.dsc 5caf8a1c4150f06b418dc54695b10b0e2eeab917149c62d3a18a064826050662 380054 wayland_1.23.0.orig.tar.gz 41e3c42b94d473d2623423dcc4f284e7c05eb81554a5d71cd5c07610b22f1f01 16369 wayland_1.23.0-1~bpo12+1.diff.gz"
+	],
+	"Directory": [
+		"pool/main/w/wayland"
+	],
+	"Format": [
+		"1.0"
+	],
+	"Homepage": [
+		"https://wayland.freedesktop.org/"
+	],
+	"Maintainer": [
+		"Debian X Strike Force <debian-x@lists.debian.org>"
+	],
+	"Package": [
+		"wayland"
+	],
+	"Package-List": [
+		"libwayland-bin deb libdevel optional arch=any libwayland-client0 deb libs optional arch=any libwayland-cursor0 deb libs optional arch=any libwayland-dev deb libdevel optional arch=any libwayland-doc deb doc optional arch=all libwayland-egl-backend-dev deb libdevel optional arch=any libwayland-egl1 deb libs optional arch=any libwayland-server0 deb libs optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Uploaders": [
+		"Emilio Pozuelo Monfort <pochu@debian.org>, Héctor Orón Martínez <zumbi@debian.org>, Marius Gripsgard <mariogrip@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/xorg-team/wayland/wayland"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/xorg-team/wayland/wayland.git"
+	],
+	"Version": [
+		"1.23.0-1~bpo12+1"
+	]
+}

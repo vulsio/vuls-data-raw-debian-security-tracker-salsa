@@ -6,22 +6,19 @@
 		"golang-go.cypherpunks-recfile-dev"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), dh-golang, golang-any"
+		"debhelper-compat (= 13), dh-golang, golang-any (>= 2:1.21~0)"
 	],
 	"Checksums-Sha256": [
-		"b1be909b1839af296c2ff267d992a95aa934290d50bdc776d1d6f0a82665f45e 2268 golang-go.cypherpunks-recfile_0.4.3-2.dsc 07b4aea7398db22f560a4a8413e517d1927f08833ba405582c5615a3ae3361c4 13292 golang-go.cypherpunks-recfile_0.4.3.orig.tar.xz 6cf1f4e127b70fe18bbdd74ce25a8120f38cd1c94710c007185a81ea94e348e1 1988 golang-go.cypherpunks-recfile_0.4.3-2.debian.tar.xz"
+		"ff4c3f6b5549bdf96222e71ed247d961665a0239d6aaa6480e44da100df526ae 2317 golang-go.cypherpunks-recfile_2.0.0-1~bpo12+2.dsc 7231deb78fd9aef3d589a16161e1a4c7b6f2099092784a5fba95ee65519f8af2 14756 golang-go.cypherpunks-recfile_2.0.0.orig.tar.xz bf662fac6d23785ceedf6bbda41e1f831d25a895db98ffad7d205b291772acb9 1796 golang-go.cypherpunks-recfile_2.0.0-1~bpo12+2.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/g/golang-go.cypherpunks-recfile"
-	],
-	"Extra-Source-Only": [
-		"yes"
 	],
 	"Format": [
 		"3.0 (quilt)"
 	],
 	"Go-Import-Path": [
-		"go.cypherpunks.ru/recfile"
+		"go.cypherpunks.su/recfile/v2"
 	],
 	"Homepage": [
 		"http://www.git.cypherpunks.ru/?p=gorecfile.git;a=summary"
@@ -57,6 +54,6 @@
 		"https://salsa.debian.org/go-team/packages/golang-go.cypherpunks-recfile.git"
 	],
 	"Version": [
-		"0.4.3-2"
+		"2.0.0-1~bpo12+2"
 	]
 }

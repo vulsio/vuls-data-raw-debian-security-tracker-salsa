@@ -6,16 +6,13 @@
 		"golang-github-dustin-go-humanize-dev"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), dh-golang, golang-any"
+		"debhelper-compat (= 13), dh-golang, golang-any (>= 2:1.16~)"
 	],
 	"Checksums-Sha256": [
-		"74e48e2a7500104273f76fed6aa13ba4e99137ce9e8c6b0fe888012066140b85 2342 golang-github-dustin-go-humanize_1.0.0-3.dsc e4540bd50ac855143b4f2e509313079c50cf5d8774f09cc10dbca5ae9803d8ba 17260 golang-github-dustin-go-humanize_1.0.0.orig.tar.gz 6a47f9f053a4c807161865380a6813c0668565526db489324a58c5cecb249cec 2700 golang-github-dustin-go-humanize_1.0.0-3.debian.tar.xz"
+		"aac13efe6fe61706a452f5ecd41ba076e24562eca1c84426ec992a75d89001b4 2388 golang-github-dustin-go-humanize_1.0.1-1~bpo12+1.dsc ac3a0d8d0eef07c75d12eddce775a8e8306dfb9783a45312597c34ff643793d8 17692 golang-github-dustin-go-humanize_1.0.1.orig.tar.gz 636885db8c32b83176ba4f83ebbdc06f1fa4a62ac9f5b6aae17daef8ea0ab5da 3000 golang-github-dustin-go-humanize_1.0.1-1~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/g/golang-github-dustin-go-humanize"
-	],
-	"Extra-Source-Only": [
-		"yes"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -33,7 +30,7 @@
 		"golang-github-dustin-go-humanize"
 	],
 	"Package-List": [
-		"golang-github-dustin-go-humanize-dev deb devel optional arch=all"
+		"golang-github-dustin-go-humanize-dev deb golang optional arch=all"
 	],
 	"Priority": [
 		"optional"
@@ -42,7 +39,7 @@
 		"misc"
 	],
 	"Standards-Version": [
-		"4.5.1"
+		"4.6.2"
 	],
 	"Testsuite": [
 		"autopkgtest-pkg-go"
@@ -57,6 +54,6 @@
 		"https://salsa.debian.org/go-team/packages/golang-github-dustin-go-humanize.git"
 	],
 	"Version": [
-		"1.0.0-3"
+		"1.0.1-1~bpo12+1"
 	]
 }
