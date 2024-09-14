@@ -1,0 +1,56 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"git, git-man, git-doc, git-cvs, git-svn, git-mediawiki, git-email, git-daemon-run, git-daemon-sysvinit, git-gui, gitk, gitweb, git-all"
+	],
+	"Build-Depends": [
+		"libz-dev, gettext, libpcre2-dev | libpcre3-dev, libcurl4-gnutls-dev, libexpat1-dev, subversion, libsvn-perl, libyaml-perl, tcl, python3, libhttp-date-perl | libtime-parsedate-perl, libcgi-pm-perl, liberror-perl, libmailtools-perl, cvs, cvsps, libdbd-sqlite3-perl, unzip, libio-pty-perl, debhelper-compat (= 10), dh-exec (>= 0.7), dh-apache2, dpkg-dev (>= 1.16.2~)"
+	],
+	"Build-Depends-Indep": [
+		"asciidoc (>= 8.6.10), xmlto, docbook-xsl"
+	],
+	"Checksums-Sha256": [
+		"eccfcf6b7dba258ec5e50c503e33f4f21e76b2a2540af36d69cab37e4ce04494 2857 git_2.39.5-0+deb12u1.dsc c58da92c378df4a986ca33266897a7397e86c22ee266a284d8c2432c39066b59 7171400 git_2.39.5.orig.tar.xz 5cd79b5a89b930936aa1cb5ab2ec53525a978c28ffd4017b47310ddc7660938a 742400 git_2.39.5-0+deb12u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/g/git"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://git-scm.com/"
+	],
+	"Maintainer": [
+		"Jonathan Nieder <jrnieder@gmail.com>"
+	],
+	"Package": [
+		"git"
+	],
+	"Package-List": [
+		"git deb vcs optional arch=any git-all deb vcs optional arch=all git-cvs deb vcs optional arch=all git-daemon-run deb vcs optional arch=all git-daemon-sysvinit deb vcs optional arch=all git-doc deb doc optional arch=all git-email deb vcs optional arch=all git-gui deb vcs optional arch=all git-man deb doc optional arch=all git-mediawiki deb vcs optional arch=all git-svn deb vcs optional arch=all gitk deb vcs optional arch=all gitweb deb vcs optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"vcs"
+	],
+	"Standards-Version": [
+		"4.3.0.1"
+	],
+	"Uploaders": [
+		"Anders Kaseorg <andersk@mit.edu>"
+	],
+	"Vcs-Browser": [
+		"https://repo.or.cz/w/git/debian.git/"
+	],
+	"Vcs-Git": [
+		"https://repo.or.cz/r/git/debian.git/"
+	],
+	"Version": [
+		"1:2.39.5-0+deb12u1"
+	]
+}

@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-rpgpie-sop-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-chrono-0.4+default-dev <!nocheck>, librust-hex-0.4+default-dev <!nocheck>, librust-pgp-0.13+default-dev <!nocheck>, librust-rand-0.8+default-dev <!nocheck>, librust-rand-core-0.6+default-dev <!nocheck>, librust-rpgpie-0.1+default-dev (>= 0.1.2-~~) <!nocheck>, librust-sop-0.7+default-dev (>= 0.7.1-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"91283944711a6617989dbc14904c21312f8a40712010a8bf71e611452b5eaa95 1957 rust-rpgpie-sop_0.3.7-1.dsc 9b6c908fd36c61fe6c84ef1d2c570db4f49ce9dbc91cce3d6e1887fcd52ec171 8919 rust-rpgpie-sop_0.3.7.orig.tar.gz ab1ceda014b8b9c989850ba1bf5ccafbcc882820d63339b4e08ce2201fb194c1 2712 rust-rpgpie-sop_0.3.7-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-rpgpie-sop"
+	],
+	"Files": [
+		"addbaed80f46abf7c6d7a44cbe43b11c 1957 rust-rpgpie-sop_0.3.7-1.dsc 229a92205cd0271a866a276356892717 8919 rust-rpgpie-sop_0.3.7.orig.tar.gz f10039e23c5d67743f89237ac135f737 2712 rust-rpgpie-sop_0.3.7-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-rpgpie-sop"
+	],
+	"Package-List": [
+		"librust-rpgpie-sop-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo"
+	],
+	"Uploaders": [
+		"Daniel Kahn Gillmor <dkg@fifthhorseman.net>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/rpgpie-sop"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/rpgpie-sop]"
+	],
+	"Version": [
+		"0.3.7-1"
+	]
+}
