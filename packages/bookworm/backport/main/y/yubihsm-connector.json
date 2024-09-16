@@ -9,10 +9,10 @@
 		"debhelper-compat (= 13), dh-sequence-golang, golang-any, golang-github-google-gousb-dev, golang-github-google-uuid-dev, golang-github-kardianos-service-dev, golang-github-sirupsen-logrus-dev, golang-github-spf13-cobra-dev, golang-github-spf13-viper-dev, golang-gopkg-yaml.v3-dev, libusb-1.0-0-dev"
 	],
 	"Checksums-Sha256": [
-		"91968801385a3d9106b6fd7d03fd5fef915f8acd4346f6a01a6073ccd80b4c22 2575 yubihsm-connector_3.0.4-2~bpo12+1.dsc 5bc8d7e6cdedb8ed3872ca73a8458a41d190f5f4188e60458178c6802247c705 38522 yubihsm-connector_3.0.4.orig.tar.gz 801d3a80389cc00c3181126cd6b723e1344cc6447fd1f4d69b5e1fc47ce109b0 2928 yubihsm-connector_3.0.4-2~bpo12+1.debian.tar.xz"
+		"5f89debe0dcdebe57b2a2d576386f561e07eeff24e98d010304cbef3c0c2f67e 2606 yubihsm-connector_3.0.5-1~bpo12+1.dsc 614c9421b79ae51be46fa6c0b1363250c3e5a2b47a87c9f0357ab26754671a63 37944 yubihsm-connector_3.0.5.orig.tar.gz b2b64d2e9acb831b1f74e154ab638a7bee43882ab099e91f16e95ca07406964e 3368 yubihsm-connector_3.0.5-1~bpo12+1.debian.tar.xz"
 	],
 	"Dgit": [
-		"3e55ebe1dd99a15938400fd5ffbbb38c91219ebe debian archive/debian/3.0.4-2_bpo12+1 https://git.dgit.debian.org/yubihsm-connector"
+		"7303d8bd5ddaa3bf4dca5b0dd76bb6b9cc65775a debian archive/debian/3.0.5-1_bpo12+1 https://git.dgit.debian.org/yubihsm-connector"
 	],
 	"Directory": [
 		"pool/main/y/yubihsm-connector"
@@ -44,8 +44,11 @@
 	"Standards-Version": [
 		"4.7.0"
 	],
+	"Testsuite": [
+		"autopkgtest-pkg-go"
+	],
 	"Uploaders": [
-		"Freexian Packaging Team <team+freexian@tracker.debian.org>, Colin Watson <cjwatson@debian.org>"
+		"Freexian Packaging Team <team+freexian@tracker.debian.org>, Colin Watson <cjwatson@debian.org>,"
 	],
 	"Vcs-Browser": [
 		"https://salsa.debian.org/pkg-security-team/yubihsm-connector"
@@ -54,6 +57,6 @@
 		"https://salsa.debian.org/pkg-security-team/yubihsm-connector.git"
 	],
 	"Version": [
-		"3.0.4-2~bpo12+1"
+		"3.0.5-1~bpo12+1"
 	]
 }

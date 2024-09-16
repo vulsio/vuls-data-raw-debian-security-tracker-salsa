@@ -6,16 +6,16 @@
 		"python3-flask-appbuilder, python-flask-appbuilder-doc"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), dh-sequence-python3, python3-setuptools, python3-all, postgresql <!nocheck>, python3-nose <!nocheck>, python3-apispec <!nocheck>, python3-authlib <!nocheck>, python3-colorama <!nocheck>, python3-click <!nocheck>, python3-dateutil <!nocheck>, python3-email-validator <!nocheck>, python3-flask (>= 2) <!nocheck>, python3-flask-babel <!nocheck>, python3-flask-login <!nocheck>, python3-flask-openid <!nocheck>, python3-flask-sqlalchemy (>= 2.4) <!nocheck>, python3-flaskext.wtf <!nocheck>, python3-python-flask-jwt-extended (>= 4) <!nocheck>, python3-freezegun <!nocheck>, python3-jmespath <!nocheck>, python3-jsonschema <!nocheck>, python3-jwt <!nocheck>, python3-ldap <!nocheck>, python3-marshmallow <!nocheck>, python3-marshmallow-enum <!nocheck>, python3-marshmallow-sqlalchemy (>= 0.22) <!nocheck>, python3-mockldap <!nocheck>, python3-parameterized <!nocheck>, python3-prison <!nocheck>, python3-psycopg2 <!nocheck>, python3-sqlalchemy <!nocheck>, python3-sqlalchemy-utils <!nocheck>, python3-wtforms <!nocheck>, python3-yaml <!nocheck>, python3-sphinx <!nodoc>, python3-sphinx-rtd-theme <!nodoc>, python3-sphinxcontrib.blockdiag <!nodoc>"
+		"debhelper-compat (= 13), dh-sequence-python3, python3-setuptools, python3-all, postgresql <!nocheck>, python3-nose2 <!nocheck>, python3-apispec <!nocheck>, python3-authlib <!nocheck>, python3-colorama <!nocheck>, python3-click <!nocheck>, python3-dateutil <!nocheck>, python3-email-validator <!nocheck>, python3-flask (>= 2) <!nocheck>, python3-flask-babel <!nocheck>, python3-flask-login <!nocheck>, python3-flask-openid <!nocheck>, python3-flask-sqlalchemy (>= 2.4) <!nocheck>, python3-flaskext.wtf <!nocheck>, python3-python-flask-jwt-extended (>= 4) <!nocheck>, python3-flask-talisman <!nocheck>, python3-freezegun <!nocheck>, python3-hiro <!nocheck>, python3-jmespath <!nocheck>, python3-jsonschema <!nocheck>, python3-jwt <!nocheck>, python3-ldap <!nocheck>, python3-marshmallow <!nocheck>, python3-marshmallow-sqlalchemy (>= 0.22) <!nocheck>, python3-mockldap <!nocheck>, python3-parameterized <!nocheck>, python3-prison <!nocheck>, python3-psycopg2 <!nocheck>, python3-sqlalchemy <!nocheck>, python3-sqlalchemy-utils <!nocheck>, python3-wtforms <!nocheck>, python3-yaml <!nocheck>, python3-sphinx <!nodoc>, python3-sphinx-rtd-theme <!nodoc>, python3-sphinxcontrib.blockdiag <!nodoc>"
 	],
 	"Checksums-Sha256": [
-		"cc818ff551556c2d7b6707206f62c5a90e2097ea27dde494dd93f1ef7fe6a473 3552 flask-appbuilder_4.1.4+ds-3.dsc c985ddb40efa4432f4e3ad37d653b729d2c3b993dc5e7bc0b9d3c3189ce7ecf2 3801012 flask-appbuilder_4.1.4+ds.orig.tar.xz bde97a10f5cbaf1c0c43fbf8cb8a05a92b527aea00e91232661bacc8878b4f83 7216 flask-appbuilder_4.1.4+ds-3.debian.tar.xz"
+		"352f823c66744f6d851c1ac4809d05aa8c3fa67ee800d130f49598c1fa2baaac 3602 flask-appbuilder_4.4.1+ds-1.dsc 920b8a0cef3795f27fed44065f170f31bcc75d489c874d91c9120933998beac3 4776920 flask-appbuilder_4.4.1+ds.orig.tar.xz b21e57b52620a5f2ff447d4bd592f96aa9722096bed4c7c7aa6d45f303ad2023 6812 flask-appbuilder_4.4.1+ds-1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/f/flask-appbuilder"
 	],
 	"Files": [
-		"3797471bc66bede47e46a6a2d423d753 3552 flask-appbuilder_4.1.4+ds-3.dsc 57a4748818e1c0b8b879a7c48f0e53eb 3801012 flask-appbuilder_4.1.4+ds.orig.tar.xz 1d38b8c40d10c12d6ba2a3835d79555a 7216 flask-appbuilder_4.1.4+ds-3.debian.tar.xz"
+		"d608204b1dc871d4f33dd45ec2fc9a9e 3602 flask-appbuilder_4.4.1+ds-1.dsc 483b090a4f997ac27f6b0eb23c8e7d5b 4776920 flask-appbuilder_4.4.1+ds.orig.tar.xz 810b04159fb6c029f95f24c25b5fd9f4 6812 flask-appbuilder_4.4.1+ds-1.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -45,7 +45,7 @@
 		"autopkgtest, autopkgtest-pkg-python"
 	],
 	"Testsuite-Triggers": [
-		"postgresql, python3-all, python3-authlib, python3-flask-openid, python3-freezegun, python3-jmespath, python3-ldap, python3-mockldap, python3-nose, python3-parameterized, python3-psycopg2, python3-requests"
+		"postgresql, python3-all, python3-authlib, python3-flask-openid, python3-freezegun, python3-jmespath, python3-ldap, python3-mockldap, python3-nose2, python3-parameterized, python3-psycopg2, python3-requests"
 	],
 	"Uploaders": [
 		"Joseph Nahmias <jello@debian.org>,"
@@ -57,6 +57,6 @@
 		"https://salsa.debian.org/python-team/packages/flask-appbuilder.git"
 	],
 	"Version": [
-		"4.1.4+ds-3"
+		"4.4.1+ds-1"
 	]
 }
