@@ -1,15 +1,20 @@
 {
 	"header": {
 		"line": "CVE-2024-XXXX [RUSTSEC-2023-0086]",
-		"name": "TEMP-0000000-F368BB",
+		"name": "TEMP-1082053-F368BB",
 		"description": "[RUSTSEC-2023-0086]"
 	},
 	"annotations": [
 		{
-			"line": "\t- rust-lexical-core <unfixed>",
+			"line": "\t- rust-lexical-core <unfixed> (bug #1082053)",
 			"type": "package",
 			"package": "rust-lexical-core",
-			"kind": "unfixed"
+			"kind": "unfixed",
+			"flags": [
+				{
+					"bug": 1082053
+				}
+			]
 		},
 		{
 			"line": "\tNOTE: https://rustsec.org/advisories/RUSTSEC-2023-0086.html",
