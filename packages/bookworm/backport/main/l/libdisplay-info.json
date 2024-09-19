@@ -3,13 +3,13 @@
 		"any"
 	],
 	"Binary": [
-		"libdisplay-info1, libdisplay-info-dev, libdisplay-info-bin"
+		"libdisplay-info2, libdisplay-info-dev, libdisplay-info-bin"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), hwdata, meson, pkgconf"
+		"debhelper-compat (= 13), edid-decode <!nocheck>, hwdata, meson, pkgconf"
 	],
 	"Checksums-Sha256": [
-		"22bc537ea21abb729ff3717138f83abdb3cd1c5771bdd01729b58f0fe3355c0e 2125 libdisplay-info_0.1.1-2~bpo12+1.dsc a5aeef57817916286526292ec816a5338c4d3c0094ce91e584fc82b57070a44f 99518 libdisplay-info_0.1.1.orig.tar.gz 149212a075ade792fb08ce295f2b2a67b49f8c5ece1fd1b16c47835d9e7e3505 8740 libdisplay-info_0.1.1-2~bpo12+1.debian.tar.xz"
+		"9e71dec44527973e5177982388c7cda956490591d567a9e6194cc4ff6967c465 2207 libdisplay-info_0.2.0-2~bpo12+1.dsc f6cf2ddbba3753ae38de5113d1fcb8fab977dfaf5fb07b38cd68d8482765e208 97213 libdisplay-info_0.2.0.orig.tar.bz2 4b7136268ee0555883ea61921672cb476c96c9c0bc46a23dca97e801c25cf265 9444 libdisplay-info_0.2.0-2~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/libd/libdisplay-info"
@@ -27,7 +27,7 @@
 		"libdisplay-info"
 	],
 	"Package-List": [
-		"libdisplay-info-bin deb video optional arch=any libdisplay-info-dev deb libdevel optional arch=any libdisplay-info1 deb libs optional arch=any"
+		"libdisplay-info-bin deb video optional arch=any libdisplay-info-dev deb libdevel optional arch=any libdisplay-info2 deb libs optional arch=any"
 	],
 	"Priority": [
 		"optional"
@@ -36,7 +36,13 @@
 		"misc"
 	],
 	"Standards-Version": [
-		"4.6.2"
+		"4.7.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"@builddeps@"
 	],
 	"Vcs-Browser": [
 		"https://salsa.debian.org/debian/libdisplay-info"
@@ -45,6 +51,6 @@
 		"https://salsa.debian.org/debian/libdisplay-info.git"
 	],
 	"Version": [
-		"0.1.1-2~bpo12+1"
+		"0.2.0-2~bpo12+1"
 	]
 }
