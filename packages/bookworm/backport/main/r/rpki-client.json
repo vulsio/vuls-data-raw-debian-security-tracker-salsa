@@ -6,10 +6,10 @@
 		"rpki-client"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), debhelper (>= 13.9), dh-sequence-installsysusers, autoconf, automake, libtool, pkgconf, libexpat1-dev, libssl-dev, libtls-dev, zlib1g-dev"
+		"debhelper-compat (= 13), debhelper (>= 13.9), dh-sequence-installsysusers, architecture-is-64-bit, autoconf, automake, libtool, pkgconf, libexpat1-dev, libssl-dev, libtls-dev, zlib1g-dev"
 	],
 	"Checksums-Sha256": [
-		"d6e5c396cf855eca18f106aca68f3a9fbba2608ac9fba1820aac59f68a4ffd30 1630 rpki-client_9.1-1~bpo12+1.dsc 0e8248d079401df6f18b41de13694452a147dff252db6b9a76bdc3cdc5ca2b0b 564296 rpki-client_9.1.orig.tar.gz 05d7374357affc7af7beb545e02f55300eff8113cf88616b0c088125c53643eb 833 rpki-client_9.1.orig.tar.gz.asc 4f95febb5aa54a816bc9749b385fb97c7c4ab132ea077d3befe00261b58e1f31 6944 rpki-client_9.1-1~bpo12+1.debian.tar.xz"
+		"bf4bc560612ef4f122012ebbe263cf1489383136b8aca304822cbef69509afc8 1656 rpki-client_9.2-1~bpo12+1.dsc e8e073c271250adf4f665d1c9a98eee1ae589e8e3bbedb2c106a3bd94dee96cc 565124 rpki-client_9.2.orig.tar.gz ade33d421dfc414c8dfca57ff98328d5f1fef4232bc776f5566cdf09b142ab60 833 rpki-client_9.2.orig.tar.gz.asc f662c555669792ff94b27a3ce5e1c50d32c26fbe1938897e7e75b52eefafbca3 7104 rpki-client_9.2-1~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/r/rpki-client"
@@ -36,7 +36,7 @@
 		"misc"
 	],
 	"Standards-Version": [
-		"4.6.2"
+		"4.7.0.0"
 	],
 	"Vcs-Browser": [
 		"https://salsa.debian.org/md/rpki-client"
@@ -45,6 +45,6 @@
 		"https://salsa.debian.org/md/rpki-client.git"
 	],
 	"Version": [
-		"9.1-1~bpo12+1"
+		"9.2-1~bpo12+1"
 	]
 }
