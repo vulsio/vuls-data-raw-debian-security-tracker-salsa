@@ -6,16 +6,16 @@
 		"librust-sqlx-macros-core-dev"
 	],
 	"Build-Depends": [
-		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-dotenvy-0.15-dev <!nocheck>, librust-either-1+default-dev (>= 1.6.1-~~) <!nocheck>, librust-heck-0.4+default-dev <!nocheck>, librust-heck-0.4+unicode-dev <!nocheck>, librust-hex-0.4+default-dev (>= 0.4.3-~~) <!nocheck>, librust-once-cell-1+default-dev (>= 1.9.0-~~) <!nocheck>, librust-proc-macro2-1-dev (>= 1.0.36-~~) <!nocheck>, librust-quote-1-dev (>= 1.0.14-~~) <!nocheck>, librust-serde-1+default-dev (>= 1.0.132-~~) <!nocheck>, librust-serde-1+derive-dev (>= 1.0.132-~~) <!nocheck>, librust-serde-json-1+default-dev (>= 1.0.73-~~) <!nocheck>, librust-sha2-0.10+default-dev <!nocheck>, librust-sqlx-core-0.7.3+default-dev <!nocheck>, librust-sqlx-core-0.7.3+offline-dev <!nocheck>, librust-syn-1+clone-impls-dev (>= 1.0.84-~~) <!nocheck>, librust-syn-1+derive-dev (>= 1.0.84-~~) <!nocheck>, librust-syn-1+full-dev (>= 1.0.84-~~) <!nocheck>, librust-syn-1+parsing-dev (>= 1.0.84-~~) <!nocheck>, librust-syn-1+printing-dev (>= 1.0.84-~~) <!nocheck>, librust-tempfile-3+default-dev (>= 3.3.0-~~) <!nocheck>, librust-url-2-dev (>= 2.2.2-~~) <!nocheck>"
+		"debhelper-compat (= 13), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-dotenvy-0.15-dev <!nocheck>, librust-either-1+default-dev (>= 1.6.1-~~) <!nocheck>, librust-heck+default-dev (>= 0.4-~~) <!nocheck>, librust-hex-0.4+default-dev (>= 0.4.3-~~) <!nocheck>, librust-once-cell-1+default-dev (>= 1.9.0-~~) <!nocheck>, librust-proc-macro2-1-dev (>= 1.0.79-~~) <!nocheck>, librust-quote-1-dev (>= 1.0.26-~~) <!nocheck>, librust-serde-1+default-dev (>= 1.0.132-~~) <!nocheck>, librust-serde-1+derive-dev (>= 1.0.132-~~) <!nocheck>, librust-serde-json-1+default-dev (>= 1.0.73-~~) <!nocheck>, librust-sha2-0.10+default-dev <!nocheck>, librust-sqlx-core-0.8.2+default-dev <!nocheck>, librust-sqlx-core-0.8.2+offline-dev <!nocheck>, librust-syn-2+clone-impls-dev (>= 2.0.52-~~) <!nocheck>, librust-syn-2+derive-dev (>= 2.0.52-~~) <!nocheck>, librust-syn-2+full-dev (>= 2.0.52-~~) <!nocheck>, librust-syn-2+parsing-dev (>= 2.0.52-~~) <!nocheck>, librust-syn-2+printing-dev (>= 2.0.52-~~) <!nocheck>, librust-tempfile-3+default-dev (>= 3.10.1-~~) <!nocheck>, librust-url-2-dev (>= 2.2.2-~~) <!nocheck>"
 	],
 	"Checksums-Sha256": [
-		"12fdc4632048fe1c0c4cf4826e13fa9b0cb71e0f80764a1412897d80df937522 3294 rust-sqlx-macros-core_0.7.3-2.dsc d0bd4519486723648186a08785143599760f7cc81c52334a55d6a83ea1e20841 26777 rust-sqlx-macros-core_0.7.3.orig.tar.gz 0d4144b7adbbad6a1d20a49e5e23c62f35325800d927b08995b3c16cc35d522b 5236 rust-sqlx-macros-core_0.7.3-2.debian.tar.xz"
+		"ccc8b7e465cc1689c81e8b3cde26a35bd3cfa1978c91c26a71ded34080b60a85 2901 rust-sqlx-macros-core_0.8.2-1.dsc 1804e8a7c7865599c9c79be146dc8a9fd8cc86935fa641d3ea58e5f0688abaa5 29729 rust-sqlx-macros-core_0.8.2.orig.tar.gz e8e6fc64e49a79ceca16e81d3a528af9cfdf1466df91457689a3b94832bdb30e 4508 rust-sqlx-macros-core_0.8.2-1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/r/rust-sqlx-macros-core"
 	],
 	"Files": [
-		"a2fc9388d6a09fcdca89e0f12027de60 3294 rust-sqlx-macros-core_0.7.3-2.dsc 42cee6c9008b6a1fa49f9d137ad1a471 26777 rust-sqlx-macros-core_0.7.3.orig.tar.gz 4b0420668a385077b59d390fd41ae0e8 5236 rust-sqlx-macros-core_0.7.3-2.debian.tar.xz"
+		"61990a1fd2e6b907850d65c97d66085e 2901 rust-sqlx-macros-core_0.8.2-1.dsc cd3f24d172e951b617210fdc294e0d5a 29729 rust-sqlx-macros-core_0.8.2.orig.tar.gz cb6cc4d44243b5cd1f03196759794b4f 4508 rust-sqlx-macros-core_0.8.2-1.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -36,13 +36,13 @@
 		"misc"
 	],
 	"Standards-Version": [
-		"4.6.2"
+		"4.7.0"
 	],
 	"Testsuite": [
 		"autopkgtest"
 	],
 	"Testsuite-Triggers": [
-		"dh-cargo"
+		"dh-cargo, rustc"
 	],
 	"Uploaders": [
 		"Jelmer Vernooĳ <jelmer@debian.org>"
@@ -54,6 +54,6 @@
 		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/sqlx-macros-core]"
 	],
 	"Version": [
-		"0.7.3-2"
+		"0.8.2-1"
 	]
 }

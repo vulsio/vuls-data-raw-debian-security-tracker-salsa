@@ -6,16 +6,16 @@
 		"librust-sqlx-postgres-dev"
 	],
 	"Build-Depends": [
-		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-atoi-2+default-dev <!nocheck>, librust-base64-0.21+std-dev <!nocheck>, librust-bitflags-2-dev <!nocheck>, librust-byteorder-1+std-dev (>= 1.4.3-~~) <!nocheck>, librust-crc-3+default-dev <!nocheck>, librust-dotenvy-0.15-dev <!nocheck>, librust-etcetera-0.8+default-dev <!nocheck>, librust-futures-channel-0.3+alloc-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-channel-0.3+sink-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-channel-0.3+std-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-core-0.3-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-io-0.3+default-dev (>= 0.3.24-~~) <!nocheck>, librust-futures-util-0.3+alloc-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-util-0.3+io-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-util-0.3+sink-dev (>= 0.3.19-~~) <!nocheck>, librust-hex-0.4+default-dev (>= 0.4.3-~~) <!nocheck>, librust-hkdf-0.12+default-dev <!nocheck>, librust-hmac-0.12-dev <!nocheck>, librust-home-0.5+default-dev (>= 0.5.5-~~) <!nocheck>, librust-itoa-1+default-dev (>= 1.0.1-~~) <!nocheck>, librust-log-0.4+default-dev (>= 0.4.17-~~) <!nocheck>, librust-md-5-0.10-dev <!nocheck>, librust-memchr-2-dev (>= 2.4.1-~~) <!nocheck>, librust-once-cell-1+default-dev (>= 1.9.0-~~) <!nocheck>, librust-rand-0.8+std-dev (>= 0.8.4-~~) <!nocheck>, librust-rand-0.8+std-rng-dev (>= 0.8.4-~~) <!nocheck>, librust-serde-1+default-dev (>= 1.0.144-~~) <!nocheck>, librust-serde-1+derive-dev (>= 1.0.144-~~) <!nocheck>, librust-serde-json-1+default-dev (>= 1.0.85-~~) <!nocheck>, librust-serde-json-1+raw-value-dev (>= 1.0.85-~~) <!nocheck>, librust-sha1-0.10-dev (>= 0.10.1-~~) <!nocheck>, librust-sha2-0.10-dev <!nocheck>, librust-smallvec-1+default-dev (>= 1.7.0-~~) <!nocheck>, librust-sqlx-core-0.7.3+default-dev <!nocheck>, librust-sqlx-core-0.7.3+json-dev <!nocheck>, librust-stringprep-0.1+default-dev (>= 0.1.2-~~) <!nocheck>, librust-thiserror-1+default-dev (>= 1.0.35-~~) <!nocheck>, librust-tracing-0.1+default-dev (>= 0.1.37-~~) <!nocheck>, librust-tracing-0.1+log-dev (>= 0.1.37-~~) <!nocheck>, librust-whoami-dev (>= 0.8-~~) <!nocheck>"
+		"debhelper-compat (= 13), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-atoi-2+default-dev <!nocheck>, librust-base64-0.21+std-dev <!nocheck>, librust-bitflags-2-dev <!nocheck>, librust-byteorder-1+std-dev (>= 1.4.3-~~) <!nocheck>, librust-crc-3+default-dev <!nocheck>, librust-dotenvy-0.15-dev <!nocheck>, librust-etcetera-0.8+default-dev <!nocheck>, librust-futures-channel-0.3+alloc-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-channel-0.3+sink-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-channel-0.3+std-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-core-0.3-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-io-0.3+default-dev (>= 0.3.24-~~) <!nocheck>, librust-futures-util-0.3+alloc-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-util-0.3+io-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-util-0.3+sink-dev (>= 0.3.19-~~) <!nocheck>, librust-hex-0.4+default-dev (>= 0.4.3-~~) <!nocheck>, librust-hkdf-0.12+default-dev <!nocheck>, librust-hmac-0.12+reset-dev <!nocheck>, librust-home-0.5+default-dev (>= 0.5.5-~~) <!nocheck>, librust-itoa-1+default-dev (>= 1.0.1-~~) <!nocheck>, librust-log-0.4+default-dev (>= 0.4.18-~~) <!nocheck>, librust-md-5-0.10-dev <!nocheck>, librust-memchr-2-dev (>= 2.4.1-~~) <!nocheck>, librust-once-cell-1+default-dev (>= 1.9.0-~~) <!nocheck>, librust-rand-0.8+std-dev (>= 0.8.4-~~) <!nocheck>, librust-rand-0.8+std-rng-dev (>= 0.8.4-~~) <!nocheck>, librust-serde-1+default-dev (>= 1.0.144-~~) <!nocheck>, librust-serde-1+derive-dev (>= 1.0.144-~~) <!nocheck>, librust-serde-json-1+default-dev (>= 1.0.85-~~) <!nocheck>, librust-serde-json-1+raw-value-dev (>= 1.0.85-~~) <!nocheck>, librust-sha2-0.10-dev <!nocheck>, librust-smallvec-1+default-dev (>= 1.7.0-~~) <!nocheck>, librust-smallvec-1+serde-dev (>= 1.7.0-~~) <!nocheck>, librust-sqlx-core-0.8.2+default-dev <!nocheck>, librust-sqlx-core-0.8.2+json-dev <!nocheck>, librust-stringprep-0.1+default-dev (>= 0.1.2-~~) <!nocheck>, librust-thiserror-1+default-dev (>= 1.0.35-~~) <!nocheck>, librust-tracing-0.1+default-dev (>= 0.1.37-~~) <!nocheck>, librust-tracing-0.1+log-dev (>= 0.1.37-~~) <!nocheck>, librust-whoami-dev (>= 0.8-~~) <!nocheck>"
 	],
 	"Checksums-Sha256": [
-		"7778da533764f170818382e7fc567de2fe4cf1a26f097b83b9c44b0067469949 4263 rust-sqlx-postgres_0.7.3-1.dsc d6ac0ac3b7ccd10cc96c7ab29791a7dd236bd94021f31eec7ba3d46a74aa1c24 105083 rust-sqlx-postgres_0.7.3.orig.tar.gz f389862b6d08e3618f2c11f78de33f903400adf90dda54ab375ec57a35c0ba4c 4108 rust-sqlx-postgres_0.7.3-1.debian.tar.xz"
+		"991c939f1f9da8730713b6fd04ef918ed2fbc7267ed84e6c0de0a152de517b71 3978 rust-sqlx-postgres_0.8.2-1.dsc 6fa91a732d854c5d7726349bb4bb879bb9478993ceb764247660aee25f67c2f8 129806 rust-sqlx-postgres_0.8.2.orig.tar.gz a502e43d82d604ae64ff6d5ecde3cfdcf3ceef1265d1efd451809531f194ccc2 4196 rust-sqlx-postgres_0.8.2-1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/r/rust-sqlx-postgres"
 	],
 	"Files": [
-		"ac46c5a122f24462b56d2b74037e6696 4263 rust-sqlx-postgres_0.7.3-1.dsc d02bb7c51caae3d22ac0ce3666f7ca6b 105083 rust-sqlx-postgres_0.7.3.orig.tar.gz 1f36fb950af3fae3c08c1e3fbe4208e9 4108 rust-sqlx-postgres_0.7.3-1.debian.tar.xz"
+		"b0df30d08c46ad35397c0b82acc46b47 3978 rust-sqlx-postgres_0.8.2-1.dsc 0fbd03f97201613e04635d492a88118d 129806 rust-sqlx-postgres_0.8.2.orig.tar.gz 0e81f75914058237820386857f7d5bd6 4196 rust-sqlx-postgres_0.8.2-1.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -36,13 +36,13 @@
 		"misc"
 	],
 	"Standards-Version": [
-		"4.6.2"
+		"4.7.0"
 	],
 	"Testsuite": [
 		"autopkgtest"
 	],
 	"Testsuite-Triggers": [
-		"dh-cargo"
+		"dh-cargo, librust-sqlx-0.8.2+derive-dev, librust-sqlx-0.8.2+postgres-dev, rustc"
 	],
 	"Uploaders": [
 		"Jelmer Vernooĳ <jelmer@debian.org>"
@@ -54,6 +54,6 @@
 		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/sqlx-postgres]"
 	],
 	"Version": [
-		"0.7.3-1"
+		"0.8.2-1"
 	]
 }
