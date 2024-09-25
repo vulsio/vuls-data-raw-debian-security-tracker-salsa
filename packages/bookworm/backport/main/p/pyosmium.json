@@ -3,13 +3,13 @@
 		"any all"
 	],
 	"Binary": [
-		"pyosmium, python3-pyosmium, pyosmium-doc"
+		"pyosmium, python3-pyosmium"
 	],
 	"Build-Depends": [
-		"cmake (>= 3.0), debhelper-compat (= 13), dh-python, dh-sequence-python3, dh-sequence-sphinxdoc, libboost-dev, libbz2-dev, libexpat1-dev, libosmium2-dev (>= 2.19.0), pybind11-dev, pybuild-plugin-pyproject, python3-all-dev, python3-packaging, python3-pytest <!nocheck>, python3-pytest-httpserver <!nocheck>, python3-requests, python3-setuptools, python3-shapely <!nocheck>, python3-sphinx, python3-sphinxcontrib.autoprogram, python3-werkzeug <!nocheck>"
+		"cmake (>= 3.0), debhelper-compat (= 13), dh-python, dh-sequence-python3, libboost-dev, libbz2-dev, libexpat1-dev, libosmium2-dev (>= 2.19.0), pybind11-dev, pybuild-plugin-pyproject, python3-all-dev, python3-argparse-manpage, python3-pytest <!nocheck>, python3-pytest-httpserver <!nocheck>, python3-requests, python3-setuptools, python3-shapely <!nocheck>, python3-werkzeug <!nocheck>"
 	],
 	"Checksums-Sha256": [
-		"a32a28688edb963f63868dd0ba417c83bf2422c2c20551f65fc6f06b6ddb095f 2553 pyosmium_3.7.0-1~bpo12+1.dsc b23bdfc58befef4d0c9f6d3712e30640d9c8de3239415f47057df1bc7261036e 1613241 pyosmium_3.7.0.orig.tar.gz 350dff6d68d54bf9a872de0823a6f4305b5d0df73a7482724fcd00096e6e746c 6452 pyosmium_3.7.0-1~bpo12+1.debian.tar.xz"
+		"0bcbdff783b0dd7ddecc72c371f6f9ae4ef3fbc78e05262c82174750cb646cde 2432 pyosmium_4.0.0-1~bpo12+1.dsc 9da557df899e41c2b33879a773d5e48ab2fdd0c9faefcebdfb0b6f3c4506c24a 4509365 pyosmium_4.0.0.orig.tar.gz ce0032a90986fdfebea8bde1184892f9bc010b90be1d35fd2bbe41104f17530a 6356 pyosmium_4.0.0-1~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/p/pyosmium"
@@ -27,7 +27,7 @@
 		"pyosmium"
 	],
 	"Package-List": [
-		"pyosmium deb utils optional arch=all pyosmium-doc deb doc optional arch=all python3-pyosmium deb python optional arch=any"
+		"pyosmium deb utils optional arch=all python3-pyosmium deb python optional arch=any"
 	],
 	"Priority": [
 		"optional"
@@ -36,7 +36,7 @@
 		"misc"
 	],
 	"Standards-Version": [
-		"4.6.2"
+		"4.7.0"
 	],
 	"Testsuite": [
 		"autopkgtest-pkg-pybuild"
@@ -51,6 +51,6 @@
 		"https://salsa.debian.org/debian-gis-team/pyosmium.git -b bookworm-backports"
 	],
 	"Version": [
-		"3.7.0-1~bpo12+1"
+		"4.0.0-1~bpo12+1"
 	]
 }
