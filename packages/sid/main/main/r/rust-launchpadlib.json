@@ -6,16 +6,16 @@
 		"librust-launchpadlib-dev"
 	],
 	"Build-Depends": [
-		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-chrono-0.4+default-dev (>= 0.4.37-~~) <!nocheck>, librust-chrono-0.4+serde-dev (>= 0.4.37-~~) <!nocheck>, librust-clap-4.4+default-dev <!nocheck> | librust-clap-4.3+default-dev <!nocheck> | librust-clap-4.2+default-dev <!nocheck> | librust-clap-4.1+default-dev <!nocheck> | librust-clap-4.0+default-dev <!nocheck>, librust-clap-4.4+derive-dev <!nocheck> | librust-clap-4.3+derive-dev <!nocheck> | librust-clap-4.2+derive-dev <!nocheck> | librust-clap-4.1+derive-dev <!nocheck> | librust-clap-4.0+derive-dev <!nocheck>, librust-debversion-0.3+default-dev <!nocheck>, librust-debversion-0.3+serde-dev <!nocheck>, librust-form-urlencoded-1+default-dev (>= 1.2.1-~~) <!nocheck>, librust-lazy-static-1+default-dev (>= 1.4.0-~~) <!nocheck>, librust-log-0.4+default-dev <!nocheck>, librust-mime-0.3+default-dev (>= 0.3.17-~~) <!nocheck>, librust-percent-encoding-2+default-dev (>= 2.3.1-~~) <!nocheck>, librust-rand-0.8+default-dev (>= 0.8.5-~~) <!nocheck>, librust-reqwest-0.11+blocking-dev <!nocheck>, librust-reqwest-0.11+default-dev <!nocheck>, librust-reqwest-0.11+json-dev <!nocheck>, librust-reqwest-0.11+multipart-dev <!nocheck>, librust-serde-1+default-dev (>= 1.0.189-~~) <!nocheck>, librust-serde-1+derive-dev (>= 1.0.189-~~) <!nocheck>, librust-serde-json-1+default-dev (>= 1.0.107-~~) <!nocheck>, librust-url-2+default-dev (>= 2.4.1-~~) <!nocheck>, librust-url-2+serde-dev (>= 2.4.1-~~) <!nocheck>, librust-wadl-0.3+codegen-dev <!nocheck>, librust-wadl-0.3-dev <!nocheck>"
+		"debhelper-compat (= 13), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-chrono-0.4+default-dev (>= 0.4.37-~~) <!nocheck>, librust-chrono-0.4+serde-dev (>= 0.4.37-~~) <!nocheck>, librust-clap-4+default-dev <!nocheck>, librust-clap-4+derive-dev <!nocheck>, librust-debversion-0.4+default-dev <!nocheck>, librust-debversion-0.4+serde-dev <!nocheck>, librust-form-urlencoded-1+default-dev (>= 1.2.1-~~) <!nocheck>, librust-lazy-static-1+default-dev (>= 1.4.0-~~) <!nocheck>, librust-log-0.4+default-dev <!nocheck>, librust-mime-0.3+default-dev (>= 0.3.17-~~) <!nocheck>, librust-percent-encoding-2+default-dev (>= 2.3.1-~~) <!nocheck>, librust-rand-0.8+default-dev (>= 0.8.5-~~) <!nocheck>, librust-reqwest-0.11+blocking-dev <!nocheck>, librust-reqwest-0.11+default-dev <!nocheck>, librust-reqwest-0.11+json-dev <!nocheck>, librust-reqwest-0.11+multipart-dev <!nocheck>, librust-serde-1+default-dev (>= 1.0.189-~~) <!nocheck>, librust-serde-1+derive-dev (>= 1.0.189-~~) <!nocheck>, librust-serde-json-1+default-dev (>= 1.0.107-~~) <!nocheck>, librust-url-2+default-dev (>= 2.4.1-~~) <!nocheck>, librust-url-2+serde-dev (>= 2.4.1-~~) <!nocheck>, librust-wadl-0.3+codegen-dev <!nocheck>, librust-wadl-0.3-dev <!nocheck>"
 	],
 	"Checksums-Sha256": [
-		"06a6a136393d57ba23fa3cd7b23307035b64abcff53c46ca54a8b54daaf7d696 3334 rust-launchpadlib_0.2.0-1.dsc 0e7bb5c4d373241e9d6a9351e5ce56ef4994bafe3600f702c51d20eea00ee182 467624 rust-launchpadlib_0.2.0.orig.tar.gz b0c318856ea059ed73d441239276abf83ff7398342a64e5fd34be66be73d1ce2 2800 rust-launchpadlib_0.2.0-1.debian.tar.xz"
+		"7807c789a4105d878d1f077e07aeaadf361ef17af365ef61db3c324e5393da16 3011 rust-launchpadlib_0.2.0-2.dsc 0e7bb5c4d373241e9d6a9351e5ce56ef4994bafe3600f702c51d20eea00ee182 467624 rust-launchpadlib_0.2.0.orig.tar.gz bf540ea39288d3b33b9cefe7d1d873cb420e76999c84b1844e36ca2f68a1f892 2996 rust-launchpadlib_0.2.0-2.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/r/rust-launchpadlib"
 	],
 	"Files": [
-		"839321248cd7d4682536b79a3897a0b9 3334 rust-launchpadlib_0.2.0-1.dsc dbc8f38e58718b07d861094a7798491e 467624 rust-launchpadlib_0.2.0.orig.tar.gz 16426fc9f4531ae0c288380d859109bf 2800 rust-launchpadlib_0.2.0-1.debian.tar.xz"
+		"88dd34688695d1a982f56ec596e45198 3011 rust-launchpadlib_0.2.0-2.dsc dbc8f38e58718b07d861094a7798491e 467624 rust-launchpadlib_0.2.0.orig.tar.gz eb172af07d7bf7ca34d93d3fb0098330 2996 rust-launchpadlib_0.2.0-2.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -36,13 +36,13 @@
 		"misc"
 	],
 	"Standards-Version": [
-		"4.6.2"
+		"4.7.0"
 	],
 	"Testsuite": [
 		"autopkgtest"
 	],
 	"Testsuite-Triggers": [
-		"dh-cargo, librust-maplit-1+default-dev"
+		"dh-cargo, librust-maplit-1+default-dev, rustc"
 	],
 	"Uploaders": [
 		"Jelmer Vernooĳ <jelmer@debian.org>"
@@ -54,6 +54,6 @@
 		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/launchpadlib]"
 	],
 	"Version": [
-		"0.2.0-1"
+		"0.2.0-2"
 	]
 }
