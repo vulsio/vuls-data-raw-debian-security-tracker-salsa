@@ -1,0 +1,56 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-devicemapper-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native (>= 1.71.1) <!nocheck>, libstd-rust-dev <!nocheck>, librust-bitflags-2+default-dev (>= 2.3.3-~~) <!nocheck>, librust-devicemapper-sys-0.3+default-dev <!nocheck>, librust-env-logger-0+default-dev <!nocheck>, librust-log-0.4+default-dev (>= 0.4.14-~~) <!nocheck>, librust-nix-0+default-dev <!nocheck>, librust-nix-0+fs-dev <!nocheck>, librust-nix-0+ioctl-dev <!nocheck>, librust-nix-0+mount-dev <!nocheck>, librust-once-cell-1+default-dev (>= 1.19.0-~~) <!nocheck>, librust-rand-0.8+default-dev <!nocheck>, librust-retry-2-dev <!nocheck>, librust-semver-1+default-dev <!nocheck>, librust-serde-1+default-dev (>= 1.0.60-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"616bfb3e61f33e97353ba7178a3f7efc77532ddc352dc9d4619e7b95d6f5e8dc 2296 rust-devicemapper_0.34.4-1.dsc cfc1218171f91b60cfeb178048f076a79930acf1fe7c295e9304bd871da1bd35 68457 rust-devicemapper_0.34.4.orig.tar.gz 0ffc3e8d8324260427c5c93d50fa59fb2797fb48060741d0f796a011756f76ac 2264 rust-devicemapper_0.34.4-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-devicemapper"
+	],
+	"Files": [
+		"4e614882c7324faad4361be54748ba4e 2296 rust-devicemapper_0.34.4-1.dsc ee2d291a6189d4d6ba54cf4b89646509 68457 rust-devicemapper_0.34.4.orig.tar.gz ae1bab08b2015171f875e37020b1dbb4 2264 rust-devicemapper_0.34.4-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-devicemapper"
+	],
+	"Package-List": [
+		"librust-devicemapper-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-assert-matches-1+default-dev, librust-libmount-0.1+default-dev, librust-loopdev-3-0.5+default-dev, librust-tempfile-3+default-dev, librust-uuid-1+default-dev, librust-uuid-1+v4-dev"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/devicemapper"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/devicemapper]"
+	],
+	"Version": [
+		"0.34.4-1"
+	]
+}
