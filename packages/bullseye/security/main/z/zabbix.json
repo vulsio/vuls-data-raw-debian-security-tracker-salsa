@@ -1,0 +1,56 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"zabbix-agent, zabbix-frontend-php, zabbix-java-gateway, zabbix-proxy-mysql, zabbix-proxy-pgsql, zabbix-proxy-sqlite3, zabbix-server-mysql, zabbix-server-pgsql"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 12), automake, dh-linktree, apache2-dev, libcurl4-gnutls-dev, libevent-dev, libgnutls28-dev | gnutls-dev, libiksemel-dev, libldap2-dev, default-libmysqlclient-dev, libopenipmi-dev [!hurd-any !arm], libpcre3-dev, libpq-dev, libsnmp-dev, libsqlite3-dev, libssh2-1-dev, libxml2-dev, pkg-config, unixodbc-dev, zlib1g-dev, fonts-dejavu-core, libjs-prototype, libjs-jquery-ui (>= 1.10.1), javahelper"
+	],
+	"Build-Depends-Indep": [
+		"default-jdk-headless, libandroid-json-java, liblogback-java, libslf4j-java, junit4, gettext, ruby-sass"
+	],
+	"Checksums-Sha256": [
+		"cd7ed0b34d2b967196e231a19fb7f21ae991b704d620534a1f605816c3b987af 3211 zabbix_5.0.44+dfsg-1+deb11u1.dsc d86702cee875dfccd4bbd8923dd0acef58678f2d8ef406f4c0c07b12eddbf858 11122040 zabbix_5.0.44+dfsg.orig-templates.tar.xz 1e54bc6e0fac46eae79fa4236fa980c721dd75e86f45869bb71d551b480d1b05 12136496 zabbix_5.0.44+dfsg.orig.tar.xz 251ccff45aa6af5c0664b416892385185ba1db5a3f3204b7b9e50da69e69dc0c 207312 zabbix_5.0.44+dfsg-1+deb11u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/z/zabbix"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://zabbix.com"
+	],
+	"Maintainer": [
+		"Dmitry Smirnov <onlyjob@debian.org>"
+	],
+	"Package": [
+		"zabbix"
+	],
+	"Package-List": [
+		"zabbix-agent deb net optional arch=any zabbix-frontend-php deb net optional arch=all zabbix-java-gateway deb net optional arch=all zabbix-proxy-mysql deb net optional arch=any zabbix-proxy-pgsql deb net optional arch=any zabbix-proxy-sqlite3 deb net optional arch=any zabbix-server-mysql deb net optional arch=any zabbix-server-pgsql deb net optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"4.5.0"
+	],
+	"Uploaders": [
+		"Christoph Haas <haas@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/zabbix"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/zabbix.git"
+	],
+	"Version": [
+		"1:5.0.44+dfsg-1+deb11u1"
+	]
+}
