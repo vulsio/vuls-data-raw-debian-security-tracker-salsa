@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"linux-any"
+	],
+	"Binary": [
+		"flatpak-builder, flatpak-builder-tests"
+	],
+	"Build-Depends": [
+		"appstream (>= 0.15.0), appstream-compose (>= 0.15.0), attr <!nocheck>, ca-certificates <!nocheck>, debhelper-compat (= 13), debugedit (>= 1:5.0), desktop-file-utils <!nocheck>, dh-exec, docbook-xml <!nodoc>, docbook-xsl <!nodoc>, flatpak (>= 1.12.4), fuse3 <!nocheck>, git <!nocheck>, gtk-update-icon-cache <!nocheck>, hicolor-icon-theme <!nocheck>, libarchive-dev, libattr1-dev, libcap-dev, libcurl4-gnutls-dev, libdw-dev, libelf-dev, libflatpak-dev (>= 1.12.4), libglib2.0-dev (>= 2.66), libjson-glib-dev, libostree-dev, libxml2-dev, libxml2-utils <!nocheck>, libyaml-dev, meson (>= 0.56.2), ostree <!nocheck>, procps, python3, shared-mime-info <!nocheck>, xmlto <!nodoc>, xsltproc <!nodoc>"
+	],
+	"Checksums-Sha256": [
+		"cba46b7a1a7680f004b1cc26fd976c18a66bc06f80f521d2b560e463eec6bb6e 2861 flatpak-builder_1.4.4-1~bpo12+1.dsc dc27159394baaa2cb523f52f874472ff50d161983233264ca2a22e850741ec7a 530300 flatpak-builder_1.4.4.orig.tar.xz 3b7fc39326fa2352c91e85ee5164df47de83d460dfea90f695f26c1ded7c3834 8512 flatpak-builder_1.4.4-1~bpo12+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/f/flatpak-builder"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://flatpak.org/"
+	],
+	"Maintainer": [
+		"Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"flatpak-builder"
+	],
+	"Package-List": [
+		"flatpak-builder deb devel optional arch=linux-any flatpak-builder-tests deb misc optional arch=linux-any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"gnome-desktop-testing"
+	],
+	"Uploaders": [
+		"Matthias Klumpp <mak@debian.org>, Simon McVittie <smcv@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/flatpak-builder"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/flatpak-builder.git"
+	],
+	"Version": [
+		"1.4.4-1~bpo12+1"
+	]
+}
