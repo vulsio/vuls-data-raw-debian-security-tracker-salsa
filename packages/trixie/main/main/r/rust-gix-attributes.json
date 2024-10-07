@@ -6,16 +6,16 @@
 		"librust-gix-attributes-dev"
 	],
 	"Build-Depends": [
-		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native (>= 1.65) <!nocheck>, libstd-rust-dev <!nocheck>, librust-bstr-1+std-dev (>= 1.3.0-~~) <!nocheck>, librust-bstr-1+unicode-dev (>= 1.3.0-~~) <!nocheck>, librust-gix-glob-0.16+default-dev (>= 0.16.2-~~) <!nocheck>, librust-gix-path-0.10+default-dev (>= 0.10.7-~~) <!nocheck>, librust-gix-quote-0.4+default-dev (>= 0.4.12-~~) <!nocheck>, librust-gix-trace-0.1+default-dev (>= 0.1.8-~~) <!nocheck>, librust-kstring-2+default-dev <!nocheck>, librust-smallvec-1+default-dev (>= 1.10.0-~~) <!nocheck>, librust-thiserror-1+default-dev (>= 1.0.26-~~) <!nocheck>, librust-unicode-bom-2+default-dev (>= 2.0.2-~~) <!nocheck>"
+		"debhelper-compat (= 13), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native (>= 1.65) <!nocheck>, libstd-rust-dev <!nocheck>, librust-bstr-1+std-dev (>= 1.3.0-~~) <!nocheck>, librust-bstr-1+unicode-dev (>= 1.3.0-~~) <!nocheck>, librust-gix-glob-0.16+default-dev (>= 0.16.5-~~) <!nocheck>, librust-gix-path-0.10+default-dev (>= 0.10.10-~~) <!nocheck>, librust-gix-quote-0.4+default-dev (>= 0.4.12-~~) <!nocheck>, librust-gix-trace-0.1+default-dev (>= 0.1.8-~~) <!nocheck>, librust-kstring-2+default-dev <!nocheck>, librust-smallvec-1+default-dev (>= 1.10.0-~~) <!nocheck>, librust-thiserror-1+default-dev (>= 1.0.26-~~) <!nocheck>, librust-unicode-bom-2+default-dev (>= 2.0.2-~~) <!nocheck>"
 	],
 	"Checksums-Sha256": [
-		"e3743c6b6475d02358d725fca7801500edad67c9b0bc1d2565bc84636bf7cf82 2800 rust-gix-attributes_0.22.2-1.dsc eefb48f42eac136a4a0023f49a54ec31be1c7a9589ed762c45dcb9b953f7ecc8 19043 rust-gix-attributes_0.22.2.orig.tar.gz dc292b58c37987fbe586854a991ebb5d1aae99dbb1fb1d9dbb005e7b38ed122d 2892 rust-gix-attributes_0.22.2-1.debian.tar.xz"
+		"2866e381d23c74549824d9f53dd705ee4dc9961906eb391803b8d6e3856662f5 2830 rust-gix-attributes_0.22.5-1.dsc ebccbf25aa4a973dd352564a9000af69edca90623e8a16dad9cbc03713131311 19163 rust-gix-attributes_0.22.5.orig.tar.gz 2b8e3ed05258f3eb2f09a7cf34212178bf69b8e0ebb751f8c89a76200ff40fb0 2940 rust-gix-attributes_0.22.5-1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/r/rust-gix-attributes"
 	],
 	"Files": [
-		"87ea96756a69b35ca7935d2d8af67240 2800 rust-gix-attributes_0.22.2-1.dsc f37c2af51761ee99148accc64a789dbc 19043 rust-gix-attributes_0.22.2.orig.tar.gz a293d2eac64c0a9795cb40330f223925 2892 rust-gix-attributes_0.22.2-1.debian.tar.xz"
+		"87bb61dc23a746a943c475035470d1df 2830 rust-gix-attributes_0.22.5-1.dsc 49ea26cef36fccd5e48654d71990a510 19163 rust-gix-attributes_0.22.5.orig.tar.gz 9f67afea0cfc41b7c0289b03ed701ba1 2940 rust-gix-attributes_0.22.5-1.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -36,13 +36,13 @@
 		"misc"
 	],
 	"Standards-Version": [
-		"4.6.2"
+		"4.7.0"
 	],
 	"Testsuite": [
 		"autopkgtest"
 	],
 	"Testsuite-Triggers": [
-		"dh-cargo"
+		"dh-cargo, rustc"
 	],
 	"Uploaders": [
 		"Alexander Kjäll <alexander.kjall@gmail.com>"
@@ -54,6 +54,6 @@
 		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/gix-attributes]"
 	],
 	"Version": [
-		"0.22.2-1"
+		"0.22.5-1"
 	]
 }
