@@ -6,16 +6,13 @@
 		"golang-starlark-dev"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 12), dh-golang, golang-any, golang-github-chzyer-readline-dev, golang-golang-x-sys-dev"
+		"debhelper-compat (= 13), dh-golang, golang-any, golang-github-chzyer-readline-dev, golang-github-google-go-cmp-dev, golang-golang-x-sys-dev, golang-google-protobuf-dev, tzdata"
 	],
 	"Checksums-Sha256": [
-		"846f5d52b8db9da00b26fd2e7231a1cfc42339bcd76e7e02fa6bf92250e18dfd 2308 golang-starlark_0.0~git20210122.f935de8-2.dsc 21151517bf6f812b99c27059990633caee72ac3886940648f6e13d559b3a9ce2 204776 golang-starlark_0.0~git20210122.f935de8.orig.tar.xz 54dd79594337df1c5ff31433f6b1797a0f9280b627198a0ea98bf2f7032c44f4 15600 golang-starlark_0.0~git20210122.f935de8-2.debian.tar.xz"
+		"d65de173dc2206bb7f87a3339b9ce240a027a746424ba2bfee20eb27b5056fcf 2433 golang-starlark_0.0~git20240725.42030a7-1~bpo12+1.dsc 7a5b705d228995322bde7ea9efa9590131766e6e3b94a96172cae46f0bb2e9f9 224640 golang-starlark_0.0~git20240725.42030a7.orig.tar.xz dc3bd562df6cc2471d4e3e214afda202af9c878669de9d98117016604c5f02c3 3860 golang-starlark_0.0~git20240725.42030a7-1~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/g/golang-starlark"
-	],
-	"Extra-Source-Only": [
-		"yes"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -33,7 +30,7 @@
 		"golang-starlark"
 	],
 	"Package-List": [
-		"golang-starlark-dev deb devel optional arch=all"
+		"golang-starlark-dev deb golang optional arch=all"
 	],
 	"Priority": [
 		"optional"
@@ -42,13 +39,13 @@
 		"misc"
 	],
 	"Standards-Version": [
-		"4.5.0"
+		"4.6.2"
 	],
 	"Testsuite": [
 		"autopkgtest-pkg-go"
 	],
 	"Uploaders": [
-		"Emanuel Krivoy <ekrivoy@gmail.com>, Roger Shimizu <rosh@debian.org>"
+		"Emanuel Krivoy <ekrivoy@gmail.com>, Roger Shimizu <rosh@debian.org>,"
 	],
 	"Vcs-Browser": [
 		"https://salsa.debian.org/go-team/packages/golang-starlark"
@@ -57,6 +54,6 @@
 		"https://salsa.debian.org/go-team/packages/golang-starlark.git"
 	],
 	"Version": [
-		"0.0~git20210122.f935de8-2"
+		"0.0~git20240725.42030a7-1~bpo12+1"
 	]
 }
