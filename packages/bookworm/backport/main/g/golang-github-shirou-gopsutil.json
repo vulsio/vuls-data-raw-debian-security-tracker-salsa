@@ -6,10 +6,10 @@
 		"golang-github-shirou-gopsutil-dev"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), dh-golang, golang-any (>= 2:1.16~1~), golang-github-stretchr-testify-dev, golang-github-tklauser-go-sysconf-dev, golang-golang-x-sys-dev (>= 0.0~git20180510~), lsof, procps"
+		"debhelper-compat (= 13), dh-sequence-golang, golang-any (>= 2:1.16~1~), golang-github-stretchr-testify-dev, golang-github-tklauser-go-sysconf-dev, golang-golang-x-sys-dev (>= 0.0~git20180510~), python3 <!nocheck>, python3-psutil <!nocheck>, lsof <!nocheck>, procps <!nocheck>"
 	],
 	"Checksums-Sha256": [
-		"316dcbc59a8e4f4083900fceea9a0b7ac3df9a8c46b06218c55b817d88815d17 2608 golang-github-shirou-gopsutil_3.24.1-1~bpo12+1.dsc 3bc9d9a0bc298ff58022c1c61fa668e76b22db23ffffe357e755905ae274df7c 181113 golang-github-shirou-gopsutil_3.24.1.orig.tar.gz 4a9a4ba1f3b8cd8e928cbc1a6a844e50cf14d6fe7673deabcfabe5d8e38bd1ec 5372 golang-github-shirou-gopsutil_3.24.1-1~bpo12+1.debian.tar.xz"
+		"d4ca785c5f534a516193cac86e1a2860f5bebb2999522db05852ca495a46340a 2724 golang-github-shirou-gopsutil_4.24.9-2~bpo12+1.dsc 01189a54d242a015619d0eb96bcb16511ba8ea4fa0579ce8547a807229688c38 186323 golang-github-shirou-gopsutil_4.24.9.orig.tar.gz 66db1c4825c3c28b50c8324398dce0b12778489a9753eca258726f49507946ea 6804 golang-github-shirou-gopsutil_4.24.9-2~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/g/golang-github-shirou-gopsutil"
@@ -39,13 +39,13 @@
 		"misc"
 	],
 	"Standards-Version": [
-		"4.6.2"
+		"4.7.0"
 	],
 	"Testsuite": [
 		"autopkgtest-pkg-go"
 	],
 	"Uploaders": [
-		"Martín Ferrari <tincho@debian.org>, Nobuhiro Iwamatsu <iwamatsu@debian.org>, Tim Potter <tpot@hpe.com>, Dmitry Smirnov <onlyjob@debian.org>, Aloïs Micard <creekorful@debian.org>"
+		"Martín Ferrari <tincho@debian.org>, Nobuhiro Iwamatsu <iwamatsu@debian.org>, Tim Potter <tpot@hpe.com>, Dmitry Smirnov <onlyjob@debian.org>, Aloïs Micard <creekorful@debian.org>, Guillem Jover <gjover@sipwise.com>,"
 	],
 	"Vcs-Browser": [
 		"https://salsa.debian.org/go-team/packages/golang-github-shirou-gopsutil"
@@ -54,6 +54,6 @@
 		"https://salsa.debian.org/go-team/packages/golang-github-shirou-gopsutil.git"
 	],
 	"Version": [
-		"3.24.1-1~bpo12+1"
+		"4.24.9-2~bpo12+1"
 	]
 }
