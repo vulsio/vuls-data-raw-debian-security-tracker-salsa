@@ -1,0 +1,62 @@
+{
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python3-ipyparallel, python-ipyparallel-doc"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-sequence-python3, pandoc <!nodoc>, pybuild-plugin-pyproject, python-ipython-doc <!nodoc>, python-jupyter-client-doc <!nodoc>, python-pymongo-doc <!nodoc>, python3-all, python3-autodoc-traits <!nodoc>, python3-dateutil, python3-decorator, python3-doc <!nodoc>, python3-entrypoints, python3-hatchling, python3-ipykernel, python3-ipython, python3-jupyter-client, python3-matplotlib <!nodoc>, python3-myst-nb <!nodoc>, python3-myst-parser <!nodoc>, python3-nbsphinx <!nodoc>, python3-psutil, python3-pydata-sphinx-theme <!nodoc>, python3-pytest <!nocheck>, python3-pytest-asyncio <!nocheck>, python3-pytest-tornado <!nocheck>, python3-sphinx <!nodoc>, python3-sphinx-copybutton <!nodoc>, python3-sphinxext-rediraffe <!nodoc>, python3-testpath <!nocheck>, python3-tornado, python3-tqdm, python3-traitlets, python3-zmq"
+	],
+	"Checksums-Sha256": [
+		"2a6c948ed735dc4d06f59ea0295573187c294bace790a467ff56ed47afbcebda 3073 ipyparallel_8.8.0-3.dsc 0f608ce256b739c5e9dcde45ae4d1ca55b6806dc2cb6f286190b3bdc07d2f398 6792438 ipyparallel_8.8.0.orig.tar.gz da3afbdab2b8ce9686f146652359f4bfd504a3424c3d1da5d04c28d84eaf08d5 11060 ipyparallel_8.8.0-3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/i/ipyparallel"
+	],
+	"Files": [
+		"2f04bf694b3fdfcd2f21a94dc127ae32 3073 ipyparallel_8.8.0-3.dsc 9493297971cf5daec167a7b405ba3c70 6792438 ipyparallel_8.8.0.orig.tar.gz 54901e3ff1e4ccb064980435e7c7feb0 11060 ipyparallel_8.8.0-3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/ipython/ipyparallel"
+	],
+	"Maintainer": [
+		"Debian Python Team <team+python@tracker.debian.org>"
+	],
+	"Package": [
+		"ipyparallel"
+	],
+	"Package-List": [
+		"python-ipyparallel-doc deb doc optional arch=all profile=!nodoc python3-ipyparallel deb python optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.7.0"
+	],
+	"Testsuite": [
+		"autopkgtest, autopkgtest-pkg-python"
+	],
+	"Testsuite-Triggers": [
+		"python3-pytest, python3-pytest-asyncio, python3-pytest-cov, python3-pytest-tornado, python3-testpath"
+	],
+	"Uploaders": [
+		"Joseph Nahmias <jello@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/python-team/packages/ipyparallel"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/python-team/packages/ipyparallel.git"
+	],
+	"Version": [
+		"8.8.0-3"
+	]
+}
