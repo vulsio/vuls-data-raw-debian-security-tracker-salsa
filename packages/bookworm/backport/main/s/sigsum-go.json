@@ -6,10 +6,10 @@
 		"sigsum-go, golang-sigsum-sigsum-go-dev"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), dh-golang, golang-any, golang-github-dchest-safefile-dev, golang-github-golang-mock-dev, golang-github-pborman-getopt-dev, golang-golang-x-net-dev, help2man <!nodoc>"
+		"debhelper-compat (= 13), dh-golang, golang-any (>> 2:1.22~), golang-github-dchest-safefile-dev, golang-github-golang-mock-dev, golang-github-pborman-getopt-dev, golang-golang-x-net-dev, help2man <!nodoc>"
 	],
 	"Checksums-Sha256": [
-		"7286e333f1be79cf68c14ef8ce000a17b092515d9b844236b72db3f36d68516a 1695 sigsum-go_0.7.2-1~bpo12+1.dsc d12202094148de5c97771ab1397c3fef3c108fe78f8435dd2cb2da8824fdbebc 89437 sigsum-go_0.7.2.orig.tar.gz 68adbaef3a6710e58a5e64f46f1047cce6b51955b2c03e39ad3bcc34b899d9a8 3368 sigsum-go_0.7.2-1~bpo12+1.debian.tar.xz"
+		"c78b327007604aa49bddf0e8db7569e6d32e1abee5ce99f1c360849fcedd1fa5 1708 sigsum-go_0.9.1-1~bpo12+1.dsc 219f70f3b520b42c18d64a81f5e52a57d404b2f4f4c34285440cff0ea4bed820 84936 sigsum-go_0.9.1.orig.tar.xz 595ed06a40ad45dc4dde06649e75fd16b4a80d7685d83747d641d0fc7b6c89cd 3720 sigsum-go_0.9.1-1~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/s/sigsum-go"
@@ -39,7 +39,7 @@
 		"misc"
 	],
 	"Standards-Version": [
-		"4.6.2"
+		"4.7.0"
 	],
 	"Testsuite": [
 		"autopkgtest-pkg-go"
@@ -54,6 +54,6 @@
 		"https://salsa.debian.org/go-team/packages/sigsum-go.git"
 	],
 	"Version": [
-		"0.7.2-1~bpo12+1"
+		"0.9.1-1~bpo12+1"
 	]
 }
