@@ -6,13 +6,13 @@
 		"python3-debusine, python3-debusine-server, python3-debusine-signing, debusine-server, debusine-client, debusine-worker, debusine-signing, debusine-doc"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc <!nodoc>, graphviz <!nodoc>, libjs-jquery-isonscreen <!nodoc>, libjs-jquery-tablesorter <!nodoc>, libjs-jquery-throttle-debounce <!nodoc>, openssl <!nocheck>, postgresql <!nocheck>, pybuild-plugin-pyproject, python3 <!nocheck>, python3-aiohttp <!nodoc>, python3-celery <!nodoc>, python3-channels-redis <!nodoc>, python3-coverage <!nocheck>, python3-daphne <!nodoc>, python3-dateutil <!nocheck>, python3-debian <!nodoc>, python3-django (>= 2:3.2) <!nodoc>, python3-django-celery-results <!nodoc>, python3-django-channels <!nodoc>, python3-djangorestframework <!nodoc>, python3-doc <!nocheck>, python3-email-validator <!nodoc>, python3-fasteners <!nodoc>, python3-hatchling, python3-jsonpath-rw <!nodoc>, python3-jwcrypto <!nocheck>, python3-lxml <!nocheck>, python3-nacl <!nocheck>, python3-psutil <!nocheck>, python3-psycopg2 <!nodoc>, python3-pydantic <!nodoc>, python3-pygments <!nodoc>, python3-requests <!nocheck>, python3-requests-oauthlib <!nocheck>, python3-requests-toolbelt <!nodoc>, python3-responses <!nocheck>, python3-sphinx <!nodoc>, python3-sphinx-copybutton <!nodoc>, python3-sphinx-rtd-theme <!nodoc>, python3-tabulate <!nocheck>, python3-tenacity <!nodoc>, python3-yaml <!nodoc>, redis-server <!nocheck>, sbsigntool [amd64 arm64 armhf i386 riscv64] <!nocheck>"
+		"debhelper-compat (= 13), devscripts, dh-sequence-python3, dh-sequence-sphinxdoc <!nodoc>, graphviz <!nodoc>, libjs-jquery-isonscreen <!nodoc>, libjs-jquery-tablesorter <!nodoc>, libjs-jquery-throttle-debounce <!nodoc>, openssl <!nocheck>, postgresql <!nocheck>, pybuild-plugin-pyproject, python3 <!nocheck>, python3-aiohttp <!nodoc>, python3-celery <!nodoc>, python3-channels-redis <!nodoc>, python3-coverage <!nocheck>, python3-cryptography <!nocheck>, python3-daphne <!nodoc>, python3-dateutil <!nocheck>, python3-debian <!nodoc>, python3-django (>= 2:3.2) <!nodoc>, python3-django-celery-results <!nodoc>, python3-django-channels <!nodoc>, python3-djangorestframework <!nodoc>, python3-doc <!nocheck>, python3-email-validator <!nodoc>, python3-fabric <!nocheck>, python3-fasteners <!nodoc>, python3-hatchling, python3-jsonpath-rw <!nodoc>, python3-jwcrypto <!nocheck>, python3-lxml <!nocheck>, python3-nacl <!nocheck>, python3-paramiko <!nocheck>, python3-psutil <!nocheck>, python3-psycopg2 <!nodoc>, python3-pydantic <!nodoc>, python3-pyftpdlib <!nocheck>, python3-pygments <!nodoc>, python3-requests <!nocheck>, python3-requests-oauthlib <!nocheck>, python3-requests-toolbelt <!nodoc>, python3-responses <!nocheck>, python3-sphinx <!nodoc>, python3-sphinx-copybutton <!nodoc>, python3-sphinx-rtd-theme <!nodoc>, python3-tabulate <!nocheck>, python3-tenacity <!nodoc>, python3-yaml <!nodoc>, redis-server <!nocheck>, sbsigntool [amd64 arm64 armhf i386 riscv64] <!nocheck>"
 	],
 	"Checksums-Sha256": [
-		"6593a2aa5454064d953ac414f11ed1828eb45d3ef90d0bf44b6eea574cbbf453 3906 debusine_0.5.0~bpo12+1.dsc 932e2f8db5cd51c13409a202e9b2f3eea1158cbdf25f3bc1311008d278f4bfa8 906480 debusine_0.5.0~bpo12+1.tar.xz"
+		"4e363e46df95e993af16e4e9bede31a5db29b4d8993c150b4b834fec7d4d24dc 4086 debusine_0.6.0~bpo12+1.dsc 60e3a57e83921717e5b1f94a196f874fa13358288eab7892738699ebc7be423b 965364 debusine_0.6.0~bpo12+1.tar.xz"
 	],
 	"Dgit": [
-		"335bac956698a8b68fdb3eb36e4faca572a85d33 debian archive/debian/0.5.0_bpo12+1 https://git.dgit.debian.org/debusine"
+		"5a4d4529fe992b5ee28addd7eb9b81e0b2bd8326 debian archive/debian/0.6.0_bpo12+1 https://git.dgit.debian.org/debusine"
 	],
 	"Directory": [
 		"pool/main/d/debusine"
@@ -45,7 +45,7 @@
 		"autopkgtest"
 	],
 	"Testsuite-Triggers": [
-		"autopkgtest, ca-certificates, dbconfig-no-thanks, debootstrap, debos, dosfstools, fdisk, linux-image-generic, mmdebstrap, nginx, parted, postgresql, python3-cryptography, python3-lxml, qemu-utils, redis-server, sbsigntool, sbuild, schroot, ssl-cert, sudo, uidmap, xz-utils"
+		"autopkgtest, ca-certificates, dbconfig-no-thanks, debootstrap, debos, devscripts, dosfstools, fdisk, linux-image-generic, mmdebstrap, nginx, parted, postgresql, python3-cryptography, python3-lxml, python3-paramiko, python3-pyftpdlib, qemu-utils, redis-server, sbsigntool, sbuild, schroot, ssl-cert, sudo, uidmap, xz-utils"
 	],
 	"Uploaders": [
 		"Colin Watson <cjwatson@debian.org>"
@@ -57,6 +57,6 @@
 		"https://salsa.debian.org/freexian-team/debusine.git"
 	],
 	"Version": [
-		"0.5.0~bpo12+1"
+		"0.6.0~bpo12+1"
 	]
 }
