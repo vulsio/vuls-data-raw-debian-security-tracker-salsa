@@ -6,19 +6,19 @@
 		"openjdk-11-jdk-headless, openjdk-11-jre-headless, openjdk-11-jdk, openjdk-11-jre, openjdk-11-demo, openjdk-11-source, openjdk-11-doc, openjdk-11-dbg, openjdk-11-jre-zero"
 	],
 	"Build-Depends": [
-		"debhelper (>= 11), m4, lsb-release, zip, unzip, sharutils, gawk, cpio, procps, wdiff, pkgconf, fastjar (>= 2:0.96-0ubuntu2), time, strip-nondeterminism, debugedit (>= 4.16), jtreg7 (>= 7.3.1+1~) <!nocheck>, libtestng7-java <!nocheck>, xvfb <!nocheck>, xauth <!nocheck>, xfonts-base <!nocheck>, libgl1-mesa-dri [!x32] <!nocheck>, xfwm4 <!nocheck>, x11-xkb-utils <!nocheck>, dbus-x11 <!nocheck>, libasmtools-java <!nocheck>, googletest <!nocheck>, google-mock <!nocheck>, autoconf, automake, ant, ant-optional, g++-14 <!cross>, openjdk-11-jdk-headless:native | openjdk-10-jdk-headless:native, libxtst-dev, libxi-dev, libxt-dev, libxaw7-dev, libxrender-dev, libcups2-dev, libasound2-dev, liblcms2-dev, libxinerama-dev, libkrb5-dev, xsltproc, libpcsclite-dev, libxrandr-dev, libelf-dev, libfontconfig-dev, libfreetype-dev, libharfbuzz-dev, libffi-dev, zlib1g-dev:native, zlib1g-dev, libattr1-dev, libpng-dev, libjpeg-dev, libgif-dev, systemtap-sdt-dev [!sh4], libnss3-dev (>= 2:3.17.1), openjdk-11-jdk-headless <cross>"
+		"debhelper (>= 11), m4, lsb-release, zip, unzip, sharutils, gawk, cpio, procps, wdiff, pkgconf, fastjar (>= 2:0.96-0ubuntu2), time, strip-nondeterminism, debugedit (>= 4.16), jtreg7 (>= 7.3.1+1~) <!nocheck>, libtestng7-java <!nocheck>, xvfb <!nocheck>, xauth <!nocheck>, xfonts-base <!nocheck>, libgl1-mesa-dri [!x32] <!nocheck>, xfwm4 <!nocheck>, x11-xkb-utils <!nocheck>, dbus-x11 <!nocheck>, libasmtools-java <!nocheck>, googletest <!nocheck>, google-mock <!nocheck>, autoconf, automake, ant, ant-optional, g++-14 <!cross>, openjdk-11-jdk-headless:native | openjdk-10-jdk-headless:native, libxtst-dev, libxi-dev, libxt-dev, libxaw7-dev, libxrender-dev, libcups2-dev, libasound2-dev, liblcms2-dev, libxinerama-dev, libkrb5-dev, xsltproc, libpcsclite-dev, libxrandr-dev, libelf-dev, libfontconfig-dev, libfreetype-dev, libharfbuzz-dev, libffi-dev, zlib1g-dev:native, zlib1g-dev, libattr1-dev, libpng-dev, libjpeg-dev, libgif-dev, systemtap-sdt-dev [!ppc64 !ppc64el !sh4 !s390x], libnss3-dev (>= 2:3.17.1), openjdk-11-jdk-headless <cross>"
 	],
 	"Build-Depends-Indep": [
 		"graphviz, pandoc"
 	],
 	"Checksums-Sha256": [
-		"dd6164d70479e1d5780cd022110c8c105ee95412da4010802bb568d3c1203f1d 4649 openjdk-11_11.0.25~5ea-1.dsc 90ccbf882f74572ef004d072fd6b155021dba36d63bf5f5959ca14c4f689fd9c 69285436 openjdk-11_11.0.25~5ea.orig.tar.xz 3d3e5672f597df305ce24396a87a15815b7150a7ddf0bfe28e4a74d79266e4ed 168108 openjdk-11_11.0.25~5ea-1.debian.tar.xz"
+		"9c5766718aecb7c5e12a3c91d0eaae0561776818183e666c226bb34f22dbd33a 4658 openjdk-11_11.0.25+9-1.dsc 8c67eb837c197757284042ebf8dae5dd638b535afd2baf72ff46fedf42e7fdd3 69745420 openjdk-11_11.0.25+9.orig.tar.xz 62fc7aeda8d642bc9b3f69422e01e23f0173c111650dbcb14c66ca87572b4a43 168332 openjdk-11_11.0.25+9-1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/o/openjdk-11"
 	],
 	"Files": [
-		"932cd53cda135690f53e4c0545251c42 4649 openjdk-11_11.0.25~5ea-1.dsc b2737c5bbc1503345372494fdd193a76 69285436 openjdk-11_11.0.25~5ea.orig.tar.xz 7b0265cb0e782e338107a90e98716287 168108 openjdk-11_11.0.25~5ea-1.debian.tar.xz"
+		"6b4d354c20f75635e457767750b987ba 4658 openjdk-11_11.0.25+9-1.dsc 6f0bfa944beefd776e124f1566e5b919 69745420 openjdk-11_11.0.25+9.orig.tar.xz 427cca6fbf5b816f6b6a684872368dde 168332 openjdk-11_11.0.25+9-1.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -57,6 +57,6 @@
 		"https://salsa.debian.org/openjdk-team/openjdk.git -b openjdk-11"
 	],
 	"Version": [
-		"11.0.25~5ea-1"
+		"11.0.25+9-1"
 	]
 }
