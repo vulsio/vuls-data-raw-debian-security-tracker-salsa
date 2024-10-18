@@ -6,10 +6,10 @@
 		"xmpp-dns"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), dh-sequence-golang, golang-any, golang-debian-mdosch-xmppsrv-dev (>= 0.2.5), golang-github-pborman-getopt-dev, ronn"
+		"debhelper-compat (= 13), dh-sequence-golang, golang-any, golang-debian-mdosch-xmppsrv-dev (>= 0.3.2~), golang-github-pborman-getopt-dev, golang-golang-x-net-dev, ronn"
 	],
 	"Checksums-Sha256": [
-		"37a1050fd09625b89c18255ede95c9dc3ec0f202c94318c57763be9df2334cb6 2170 xmpp-dns_0.3.11-1~bpo12+1.dsc 3088d70050892600547cff1616b56b1d7fee544605f675384905ed63dd053b72 15351 xmpp-dns_0.3.11.orig.tar.gz 02b33584420269955f071602b0182d57f175d74523969dd046a36a062455427d 2796 xmpp-dns_0.3.11-1~bpo12+1.debian.tar.xz"
+		"917c4f3b2b01e5f4d37a06c3e7f385cd296f93bfd76fc6e1cd95a21211ecea3d 2189 xmpp-dns_0.4.3-1~bpo12+1.dsc edcb0309cf21303d268ba695cbd603801470ee2bb9e72b15d78e1c8fe0e9b626 21213 xmpp-dns_0.4.3.orig.tar.gz 23116db0218f9aa04bbab87d35776d5d107a9e9c7a1c68ff3978c03753d173df 3248 xmpp-dns_0.4.3-1~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/x/xmpp-dns"
@@ -39,7 +39,7 @@
 		"misc"
 	],
 	"Standards-Version": [
-		"4.6.2"
+		"4.7.0"
 	],
 	"Testsuite": [
 		"autopkgtest-pkg-go"
@@ -54,6 +54,6 @@
 		"https://salsa.debian.org/go-team/packages/xmpp-dns.git"
 	],
 	"Version": [
-		"0.3.11-1~bpo12+1"
+		"0.4.3-1~bpo12+1"
 	]
 }
