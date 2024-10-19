@@ -6,16 +6,16 @@
 		"librust-sequoia-cert-store-dev"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native (>= 1.70) <!nocheck>, libstd-rust-dev <!nocheck>, librust-anyhow-1+default-dev (>= 1.0.18-~~) <!nocheck>, librust-crossbeam-0.8+default-dev (>= 0.8.1-~~) <!nocheck>, librust-dirs-5+default-dev <!nocheck>, librust-gethostname-0.4+default-dev <!nocheck>, librust-num-cpus-1+default-dev <!nocheck>, librust-openpgp-cert-d-0.3+default-dev (>= 0.3.2-~~) <!nocheck>, librust-rayon-1+default-dev <!nocheck>, librust-rusqlite-0.29+blob-dev <!nocheck>, librust-rusqlite-0.29+collation-dev <!nocheck>, librust-rusqlite-0.29+default-dev <!nocheck>, librust-rusqlite-0.29+trace-dev <!nocheck>, librust-sequoia-net-0.28-dev <!nocheck>, librust-sequoia-openpgp-1-dev (>= 1.21.1-~~) <!nocheck>, librust-smallvec-1+default-dev (>= 1.1-~~) <!nocheck>, librust-thiserror-1+default-dev (>= 1.0.2-~~) <!nocheck>, librust-tokio-1+default-dev (>= 1.13-~~) <!nocheck>, librust-tokio-1+rt-dev (>= 1.13-~~) <!nocheck>, librust-url-2+default-dev (>= 2.5-~~) <!nocheck>"
+		"debhelper-compat (= 13), dh-sequence-cargo, cargo:native <!nocheck>, rustc:native (>= 1.70) <!nocheck>, libstd-rust-dev <!nocheck>, librust-anyhow-1+default-dev (>= 1.0.18-~~) <!nocheck>, librust-crossbeam-0.8+default-dev (>= 0.8.1-~~) <!nocheck>, librust-dirs-5+default-dev <!nocheck>, librust-gethostname-0.4+default-dev <!nocheck>, librust-num-cpus-1+default-dev <!nocheck>, librust-openpgp-cert-d-0.3+default-dev (>= 0.3.2-~~) <!nocheck>, librust-rayon-1+default-dev <!nocheck>, librust-rusqlite-0.29+blob-dev <!nocheck>, librust-rusqlite-0.29+collation-dev <!nocheck>, librust-rusqlite-0.29+default-dev <!nocheck>, librust-rusqlite-0.29+trace-dev <!nocheck>, librust-sequoia-net-0.28-dev <!nocheck>, librust-sequoia-openpgp-1-dev (>= 1.21.1-~~) <!nocheck>, librust-smallvec-1+default-dev (>= 1.1-~~) <!nocheck>, librust-thiserror-1+default-dev (>= 1.0.2-~~) <!nocheck>, librust-tokio-1+default-dev (>= 1.13-~~) <!nocheck>, librust-tokio-1+rt-dev (>= 1.13-~~) <!nocheck>, librust-url-2+default-dev (>= 2.5-~~) <!nocheck>"
 	],
 	"Checksums-Sha256": [
-		"05cd791fcf5b9f23a92374530d005b205af32da4138b9083fccc3f60a0791658 3532 rust-sequoia-cert-store_0.6.1-1.dsc 4fc2658c4f8ef23e2edc1a7fdc140cd855f393c87eeb69f6ac32430027fcc391 253084 rust-sequoia-cert-store_0.6.1.orig.tar.gz 09aca1328c5054f459820c0470d1ebcb0416c97e01252be8c56e913f189a19fe 3124 rust-sequoia-cert-store_0.6.1-1.debian.tar.xz"
+		"7ee6486742135553690fd0be8fb61ebfff157d2f46eb611c69b571fc1381df0b 3533 rust-sequoia-cert-store_0.6.1-2.dsc 4fc2658c4f8ef23e2edc1a7fdc140cd855f393c87eeb69f6ac32430027fcc391 253084 rust-sequoia-cert-store_0.6.1.orig.tar.gz 0c508d49f355521b2c6396344616a713951449b6f0002f5948f87c53f8eeb110 3284 rust-sequoia-cert-store_0.6.1-2.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/r/rust-sequoia-cert-store"
 	],
 	"Files": [
-		"194ba081a796e38bb72634cb59a225fb 3532 rust-sequoia-cert-store_0.6.1-1.dsc 22e2572240f17ad3789cae6a06c70917 253084 rust-sequoia-cert-store_0.6.1.orig.tar.gz bbc18e4c86ca8096f97fd301eb1a5c72 3124 rust-sequoia-cert-store_0.6.1-1.debian.tar.xz"
+		"9e3e9f479f14b2c7167e14c5c06d8eb9 3533 rust-sequoia-cert-store_0.6.1-2.dsc 22e2572240f17ad3789cae6a06c70917 253084 rust-sequoia-cert-store_0.6.1.orig.tar.gz 026482019779bd4c0ac37caa7a5154a7 3284 rust-sequoia-cert-store_0.6.1-2.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -57,6 +57,6 @@
 		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/sequoia-cert-store]"
 	],
 	"Version": [
-		"0.6.1-1"
+		"0.6.1-2"
 	]
 }
