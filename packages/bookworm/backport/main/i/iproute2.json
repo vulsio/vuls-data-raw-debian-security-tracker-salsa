@@ -9,7 +9,7 @@
 		"bison, debhelper-compat (= 13), dh-package-notes, flex, libxtables-dev, libatm1-dev, libbsd-dev, libbpf-dev (>= 1:0.1.0~), libcap-dev, libdb-dev, libelf-dev, libmnl-dev, libnsl-dev, libselinux1-dev, linux-libc-dev, pkgconf, po-debconf, zlib1g-dev"
 	],
 	"Checksums-Sha256": [
-		"edf2d4fc6e94d70a479d9aadee0a6c9b83c17427db056f780964a10aab30cbf2 2229 iproute2_6.9.0-1~bpo12+1.dsc 2f643d09ea11a4a2a043c92e2b469b5f73228cbf241ae806760296ed0ec413d0 918144 iproute2_6.9.0.orig.tar.xz d003035d25e7df66d52403c89f2c2fd434ddaba4a5b379bc2118d4f1254fd135 39056 iproute2_6.9.0-1~bpo12+1.debian.tar.xz"
+		"78984d37ccb9bfed8c96e6c9d84dc45d03e2ab15a2b551323314305c183f9ab7 2319 iproute2_6.11.0-1~bpo12+1.dsc 1f795398a04aeaacd06a8f6ace2cfd913c33fa5953ca99daae83bb5c534611c3 923736 iproute2_6.11.0.orig.tar.xz b4120a2f40e564bb5ba522dc88dddd00bd7e61ce366e4da89bae89a93e977bb5 39188 iproute2_6.11.0-1~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/i/iproute2"
@@ -41,6 +41,9 @@
 	"Testsuite": [
 		"autopkgtest"
 	],
+	"Testsuite-Triggers": [
+		"@builddeps@, build-essential, dpkg-dev, kmod, locales-all, sudo"
+	],
 	"Uploaders": [
 		"Luca Boccassi <bluca@debian.org>"
 	],
@@ -51,6 +54,6 @@
 		"https://salsa.debian.org/kernel-team/iproute2.git"
 	],
 	"Version": [
-		"6.9.0-1~bpo12+1"
+		"6.11.0-1~bpo12+1"
 	]
 }
