@@ -6,10 +6,10 @@
 		"mosquitto, mosquitto-dev, libmosquitto1, libmosquitto-dev, libmosquittopp1, libmosquittopp-dev, mosquitto-clients"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), cmake, libcjson-dev, libdlt-dev, libssl-dev, libsystemd-dev, libwebsockets-dev, libwrap0-dev, pkg-config, uthash-dev, xsltproc, docbook-xsl"
+		"debhelper-compat (= 13), cmake, libcjson-dev, libdlt-dev, libssl-dev, libsystemd-dev, libwebsockets-dev, libwrap0-dev, pkgconf, uthash-dev, xsltproc, docbook-xsl"
 	],
 	"Checksums-Sha256": [
-		"4d3fecca2403d121ab7203498a5918684eea76867be65f7b64dffa8b5fedc3be 2682 mosquitto_2.0.18-1~bpo12+1.dsc 25499231664bc5338f9f05eb1815f4d5878f0c6c97e03afb3463a7b139a7e775 2237611 mosquitto_2.0.18.orig.tar.gz 4c077742b1ec0723a388a12f1952e1ca7e701dfb9042a5c66922a9fe5211893f 26704 mosquitto_2.0.18-1~bpo12+1.debian.tar.xz"
+		"07c235c34d7c2c817fa2923232bfd552c691bdc7f3b946595bcd1863a2833cda 2720 mosquitto_2.0.20-1~bpo12+1.dsc 851fb4b5bf5e2ddc4c341efcfe24c877fcb3a4356c79838103a44751c5731f6a 2241263 mosquitto_2.0.20.orig.tar.gz d20cc43e8fdccea96d0dadba4ba9984e742bb57db1ba3839d6229ff3209c1940 25684 mosquitto_2.0.20-1~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/m/mosquitto"
@@ -45,7 +45,7 @@
 		"g++, gcc, libc6-dev, libssl-dev, python3, python3-psutil"
 	],
 	"Uploaders": [
-		"Philippe Coval <rzr@users.sf.net>, Roger A. Light <roger@atchoo.org>"
+		"Philippe Coval <rzr@users.sf.net>, Roger A. Light <roger@atchoo.org>, Joachim Zobel <jz-2017@heute-morgen.de>"
 	],
 	"Vcs-Browser": [
 		"https://salsa.debian.org/debian-iot-team/mosquitto/tree/debian/master"
@@ -54,6 +54,6 @@
 		"https://salsa.debian.org/debian-iot-team/mosquitto/ -b debian/master"
 	],
 	"Version": [
-		"2.0.18-1~bpo12+1"
+		"2.0.20-1~bpo12+1"
 	]
 }
