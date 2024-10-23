@@ -1,18 +1,18 @@
 {
 	"Architecture": [
-		"any all"
+		"linux-any all"
 	],
 	"Binary": [
 		"libjavascriptcoregtk-4.0-bin, libwebkit2gtk-4.0-doc, webkit2gtk-driver, libjavascriptcoregtk-4.0-18, libjavascriptcoregtk-4.0-dev, gir1.2-javascriptcoregtk-4.0, libwebkit2gtk-4.0-37, libwebkit2gtk-4.0-dev, gir1.2-webkit2-4.0, libjavascriptcoregtk-4.1-0, libjavascriptcoregtk-4.1-dev, gir1.2-javascriptcoregtk-4.1, libwebkit2gtk-4.1-0, libwebkit2gtk-4.1-dev, gir1.2-webkit2-4.1, libjavascriptcoregtk-6.0-1, libjavascriptcoregtk-6.0-dev, gir1.2-javascriptcoregtk-6.0, libwebkitgtk-6.0-4, libwebkitgtk-6.0-dev, gir1.2-webkit-6.0"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 12), ccache [!i386 !m68k], bubblewrap [!alpha !ia64 !m68k !sh4 !sparc64 !hurd-any !kfreebsd-any], xdg-dbus-proxy [!alpha !ia64 !m68k !sh4 !sparc64 !hurd-any !kfreebsd-any], libseccomp-dev [!alpha !ia64 !m68k !sh4 !sparc64 !hurd-any !kfreebsd-any], cmake (>= 3.16), libglib2.0-dev, libharfbuzz-dev, libcairo2-dev, libfontconfig-dev, libfreetype-dev, libicu-dev, libgcrypt20-dev, libhyphen-dev, libjxl-dev, liblcms2-dev, libmanette-0.2-dev (>= 0.2.4) [linux-any], libxslt1-dev, libxml2-dev, libsoup2.4-dev, libsoup-3.0-dev, libgtk-3-dev, libgtk-4-dev, libsqlite3-dev, libsystemd-dev [linux-any], libgudev-1.0-dev [linux-any], libwoff-dev, libwpebackend-fdo-1.0-dev [linux-any], gperf, bison, flex, ruby:native, unifdef, libavif-dev, libjpeg-dev, libopenjp2-7-dev, libpng-dev, libtasn1-6-dev, libwebp-dev, libxt-dev, libgstreamer1.0-dev, libgstreamer-plugins-base1.0-dev, libgstreamer-plugins-bad1.0-dev (>= 1.20.0), libenchant-2-dev, libsecret-1-dev, gobject-introspection, libgirepository1.0-dev, ninja-build, libegl-dev, libgl-dev, libgles-dev"
+		"debhelper-compat (= 13), ccache, bubblewrap [amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x hppa ppc64 x32], xdg-dbus-proxy [amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x hppa ppc64 x32], libseccomp-dev [amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x hppa ppc64 x32], cmake (>= 3.20), libglib2.0-dev, libharfbuzz-dev, libcairo2-dev, libdrm-dev, libfontconfig-dev, libfreetype-dev, libicu-dev, libgcrypt20-dev, libhyphen-dev, liblcms2-dev, libmanette-0.2-dev (>= 0.2.4), libxslt1-dev, libxml2-dev, libsoup2.4-dev, libsoup-3.0-dev, libgtk-3-dev, libgtk-4-dev, libsqlite3-dev, libsystemd-dev, libgudev-1.0-dev, libwoff-dev, gperf, bison, flex, ruby:native, unifdef, libavif-dev, libjpeg-dev, libopenjp2-7-dev, libpng-dev, libtasn1-6-dev, libwebp-dev, libxt-dev, libgstreamer1.0-dev, libgstreamer-plugins-base1.0-dev, libgstreamer-plugins-bad1.0-dev (>= 1.20.0), libenchant-2-dev, libsecret-1-dev, gobject-introspection, libgirepository1.0-dev, ninja-build, libegl-dev, libgl-dev, libgles-dev"
 	],
 	"Build-Depends-Indep": [
-		"gi-docgen, libglib2.0-doc, libgtk-3-doc, libsoup2.4-doc, jdupes"
+		"gi-docgen, libglib2.0-doc, libgtk-3-doc, libsoup-3.0-doc, jdupes"
 	],
 	"Checksums-Sha256": [
-		"8d24afd191954172b31582b4993e1da3fdedf54caf7f634ddc0ad3647c994437 5104 webkit2gtk_2.42.1-1~bpo12+1.dsc 6f41fac9989d3ee51c08c48de1d439cdeddecbc757e34b6180987d99b16d2499 38011772 webkit2gtk_2.42.1.orig.tar.xz 0a7bbb95536648b7b109cc52bd8c3c631d0369c89cdd678245df7dfed10747dc 195 webkit2gtk_2.42.1.orig.tar.xz.asc 8c08a1b26c0eee3f61d1f377a0bd19b48f612f3d9111a4c5aadc48723bf942aa 86968 webkit2gtk_2.42.1-1~bpo12+1.debian.tar.xz"
+		"73798cbfd9a17398286ed943cffe7219b9370032df2ce41b3ac1ec1f2e1dd272 5196 webkit2gtk_2.46.1-2~bpo12+1.dsc 2a14faac359aff941d0bc4443eb5537e3702bcaf316b0a129e0e65f3ff8eaac0 42776840 webkit2gtk_2.46.1.orig.tar.xz 80eaedc5ea303cb89bb402950573c679a7f2fd8d795f5d58125863c9897001ba 833 webkit2gtk_2.46.1.orig.tar.xz.asc fdf7bebf2a76ef479399eab95534dba441cf07d9bc5ca93c6241aeb6582b486a 90896 webkit2gtk_2.46.1-2~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/w/webkit2gtk"
@@ -30,7 +30,7 @@
 		"webkit2gtk"
 	],
 	"Package-List": [
-		"gir1.2-javascriptcoregtk-4.0 deb introspection optional arch=any gir1.2-javascriptcoregtk-4.1 deb introspection optional arch=any gir1.2-javascriptcoregtk-6.0 deb introspection optional arch=any gir1.2-webkit-6.0 deb introspection optional arch=any gir1.2-webkit2-4.0 deb introspection optional arch=any gir1.2-webkit2-4.1 deb introspection optional arch=any libjavascriptcoregtk-4.0-18 deb libs optional arch=any libjavascriptcoregtk-4.0-bin deb interpreters optional arch=any libjavascriptcoregtk-4.0-dev deb libdevel optional arch=any libjavascriptcoregtk-4.1-0 deb libs optional arch=any libjavascriptcoregtk-4.1-dev deb libdevel optional arch=any libjavascriptcoregtk-6.0-1 deb libs optional arch=any libjavascriptcoregtk-6.0-dev deb libdevel optional arch=any libwebkit2gtk-4.0-37 deb libs optional arch=any libwebkit2gtk-4.0-dev deb libdevel optional arch=any libwebkit2gtk-4.0-doc deb doc optional arch=all profile=!nodoc libwebkit2gtk-4.1-0 deb libs optional arch=any libwebkit2gtk-4.1-dev deb libdevel optional arch=any libwebkitgtk-6.0-4 deb libs optional arch=any libwebkitgtk-6.0-dev deb libdevel optional arch=any webkit2gtk-driver deb web optional arch=any"
+		"gir1.2-javascriptcoregtk-4.0 deb introspection optional arch=linux-any gir1.2-javascriptcoregtk-4.1 deb introspection optional arch=linux-any gir1.2-javascriptcoregtk-6.0 deb introspection optional arch=linux-any gir1.2-webkit-6.0 deb introspection optional arch=linux-any gir1.2-webkit2-4.0 deb introspection optional arch=linux-any gir1.2-webkit2-4.1 deb introspection optional arch=linux-any libjavascriptcoregtk-4.0-18 deb libs optional arch=linux-any libjavascriptcoregtk-4.0-bin deb interpreters optional arch=linux-any libjavascriptcoregtk-4.0-dev deb libdevel optional arch=linux-any libjavascriptcoregtk-4.1-0 deb libs optional arch=linux-any libjavascriptcoregtk-4.1-dev deb libdevel optional arch=linux-any libjavascriptcoregtk-6.0-1 deb libs optional arch=linux-any libjavascriptcoregtk-6.0-dev deb libdevel optional arch=linux-any libwebkit2gtk-4.0-37 deb libs optional arch=linux-any libwebkit2gtk-4.0-dev deb libdevel optional arch=linux-any libwebkit2gtk-4.0-doc deb doc optional arch=all profile=!nodoc libwebkit2gtk-4.1-0 deb libs optional arch=linux-any libwebkit2gtk-4.1-dev deb libdevel optional arch=linux-any libwebkitgtk-6.0-4 deb libs optional arch=linux-any libwebkitgtk-6.0-dev deb libdevel optional arch=linux-any webkit2gtk-driver deb web optional arch=linux-any"
 	],
 	"Priority": [
 		"optional"
@@ -39,7 +39,7 @@
 		"misc"
 	],
 	"Standards-Version": [
-		"4.6.2"
+		"4.7.0"
 	],
 	"Uploaders": [
 		"Gustavo Noronha Silva <kov@debian.org>, Emilio Pozuelo Monfort <pochu@debian.org>, Alberto Garcia <berto@igalia.com>"
@@ -51,6 +51,6 @@
 		"https://salsa.debian.org/webkit-team/webkit.git"
 	],
 	"Version": [
-		"2.42.1-1~bpo12+1"
+		"2.46.1-2~bpo12+1"
 	]
 }
