@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-rustybuzz-dev"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-sequence-cargo, cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-bitflags-2+default-dev (>= 2.4.1-~~) <!nocheck>, librust-bytemuck-1+default-dev (>= 1.5-~~) <!nocheck>, librust-bytemuck-1+extern-crate-alloc-dev (>= 1.5-~~) <!nocheck>, librust-core-maths-0.1+default-dev <!nocheck>, librust-log-0.4+default-dev (>= 0.4.22-~~) <!nocheck>, librust-smallvec-1+default-dev (>= 1.6-~~) <!nocheck>, librust-ttf-parser-0.24+apple-layout-dev (>= 0.24.1-~~) <!nocheck>, librust-ttf-parser-0.24+glyph-names-dev (>= 0.24.1-~~) <!nocheck>, librust-ttf-parser-0.24+no-std-float-dev (>= 0.24.1-~~) <!nocheck>, librust-ttf-parser-0.24+opentype-layout-dev (>= 0.24.1-~~) <!nocheck>, librust-ttf-parser-0.24+std-dev (>= 0.24.1-~~) <!nocheck>, librust-ttf-parser-0.24+variable-fonts-dev (>= 0.24.1-~~) <!nocheck>, librust-unicode-bidi-mirroring-0.4+default-dev <!nocheck>, librust-unicode-ccc-0.4+default-dev <!nocheck>, librust-unicode-properties-0.1+general-category-dev <!nocheck>, librust-unicode-script-0.5+default-dev (>= 0.5.2-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"2109f0b7d427a8f98d8ddf5e3b9e15145b3c2f72982a34171ba582c6e6a57e1c 3273 rust-rustybuzz_0.18.0-1.dsc 465613d4316adb56052bc6904269710cef6f952e347319597fd902536a397379 241456 rust-rustybuzz_0.18.0.orig.tar.gz 345a263a39b1c79dd106d53b939153f44bb6b616c9998c4fce70e46a72ca01ad 3572 rust-rustybuzz_0.18.0-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-rustybuzz"
+	],
+	"Files": [
+		"a735815a0620bfd55c41b93e30c81c08 3273 rust-rustybuzz_0.18.0-1.dsc e5c23ef9b78ca049f2a406f95eb24309 241456 rust-rustybuzz_0.18.0.orig.tar.gz c9bcad8cf70287baa3b61ddef255e870 3572 rust-rustybuzz_0.18.0-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-rustybuzz"
+	],
+	"Package-List": [
+		"librust-rustybuzz-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.7.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-libc-0.2+default-dev, librust-pico-args-0.5+default-dev, librust-pico-args-0.5+eq-separator-dev, rustc"
+	],
+	"Uploaders": [
+		"NoisyCoil <noisycoil@tutanota.com>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/rustybuzz"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/rustybuzz]"
+	],
+	"Version": [
+		"0.18.0-1"
+	]
+}
