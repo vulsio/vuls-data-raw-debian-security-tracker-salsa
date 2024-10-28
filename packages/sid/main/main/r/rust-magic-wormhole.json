@@ -6,16 +6,16 @@
 		"librust-magic-wormhole-dev"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native (>= 1.75) <!nocheck>, libstd-rust-dev <!nocheck>, librust-async-io-2+default-dev (>= 2.2.0-~~) <!nocheck>, librust-async-std-1+attributes-dev (>= 1.12.0-~~) <!nocheck>, librust-async-std-1+default-dev (>= 1.12.0-~~) <!nocheck>, librust-async-std-1+unstable-dev (>= 1.12.0-~~) <!nocheck>, librust-async-trait-0.1+default-dev (>= 0.1.57-~~) <!nocheck>, librust-async-tungstenite-0.23+async-std-runtime-dev <!nocheck>, librust-async-tungstenite-0.23+default-dev <!nocheck>, librust-base64-0.22+default-dev <!nocheck>, librust-bytecodec-0.4+default-dev (>= 0.4.15-~~) <!nocheck>, librust-crypto-secretbox-0.1+default-dev (>= 0.1.1-~~) <!nocheck>, librust-derive-more-0.99+deref-dev <!nocheck>, librust-derive-more-0.99+display-dev <!nocheck>, librust-derive-more-0.99+from-dev <!nocheck>, librust-futures-0.3+default-dev (>= 0.3.12-~~) <!nocheck>, librust-hex-0.4+default-dev (>= 0.4.2-~~) <!nocheck>, librust-hex-0.4+serde-dev (>= 0.4.2-~~) <!nocheck>, librust-hkdf-0.12+default-dev (>= 0.12.2-~~) <!nocheck>, librust-if-addrs-0.10+default-dev <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.101-~~) <!nocheck>, librust-log-0.4+default-dev (>= 0.4.13-~~) <!nocheck>, librust-noise-protocol-0.2+default-dev <!nocheck>, librust-noise-rust-crypto-0.6+default-dev <!nocheck>, librust-percent-encoding-2+default-dev (>= 2.1.0-~~) <!nocheck>, librust-rand-0.8+default-dev <!nocheck>, librust-rmp-serde-1+default-dev <!nocheck>, librust-serde-1+default-dev (>= 1.0.120-~~) <!nocheck>, librust-serde-1+rc-dev (>= 1.0.120-~~) <!nocheck>, librust-serde-derive-1+default-dev (>= 1.0.120-~~) <!nocheck>, librust-serde-json-1+default-dev (>= 1.0.61-~~) <!nocheck>, librust-sha1-0.10+default-dev <!nocheck>, librust-sha2-0.10+default-dev <!nocheck>, librust-socket2-0.5+all-dev <!nocheck>, librust-socket2-0.5+default-dev <!nocheck>, librust-spake2-0.4+default-dev <!nocheck>, librust-stun-codec-0.3+default-dev <!nocheck>, librust-tar-0.4+default-dev (>= 0.4.33-~~) <!nocheck>, librust-thiserror-1+default-dev (>= 1.0.24-~~) <!nocheck>, librust-time-0.3+default-dev (>= 0.3.7-~~) <!nocheck>, librust-time-0.3+formatting-dev (>= 0.3.7-~~) <!nocheck>, librust-url-2+default-dev (>= 2.2.2-~~) <!nocheck>, librust-url-2+serde-dev (>= 2.2.2-~~) <!nocheck>"
+		"debhelper-compat (= 13), dh-sequence-cargo, cargo:native <!nocheck>, rustc:native (>= 1.81) <!nocheck>, libstd-rust-dev <!nocheck>, librust-async-io-2+default-dev (>= 2.2.0-~~) <!nocheck>, librust-async-std-1+attributes-dev (>= 1.12.0-~~) <!nocheck>, librust-async-std-1+default-dev (>= 1.12.0-~~) <!nocheck>, librust-async-std-1+unstable-dev (>= 1.12.0-~~) <!nocheck>, librust-async-trait-0.1+default-dev (>= 0.1.57-~~) <!nocheck>, librust-async-tungstenite-0.23+async-std-runtime-dev <!nocheck>, librust-async-tungstenite-0.23+default-dev <!nocheck>, librust-base64-0.22+default-dev <!nocheck>, librust-bytecodec-0.4+default-dev (>= 0.4.15-~~) <!nocheck>, librust-crypto-secretbox-0.1+default-dev (>= 0.1.1-~~) <!nocheck>, librust-derive-more-1+deref-dev <!nocheck>, librust-derive-more-1+display-dev <!nocheck>, librust-derive-more-1+from-dev <!nocheck>, librust-futures-0.3+default-dev (>= 0.3.12-~~) <!nocheck>, librust-hex-0.4+default-dev (>= 0.4.2-~~) <!nocheck>, librust-hex-0.4+serde-dev (>= 0.4.2-~~) <!nocheck>, librust-hkdf-0.12+default-dev (>= 0.12.2-~~) <!nocheck>, librust-if-addrs-0.10+default-dev <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.101-~~) <!nocheck>, librust-noise-protocol-0.2+default-dev <!nocheck>, librust-noise-rust-crypto-0.6+default-dev <!nocheck>, librust-percent-encoding-2+default-dev (>= 2.1.0-~~) <!nocheck>, librust-rand-0.8+default-dev (>= 0.8.3-~~) <!nocheck>, librust-rmp-serde-1+default-dev <!nocheck>, librust-serde-1+default-dev (>= 1.0.120-~~) <!nocheck>, librust-serde-1+rc-dev (>= 1.0.120-~~) <!nocheck>, librust-serde-derive-1+default-dev (>= 1.0.120-~~) <!nocheck>, librust-serde-json-1+default-dev (>= 1.0.61-~~) <!nocheck>, librust-sha1-0.10+default-dev <!nocheck>, librust-sha2-0.10+default-dev <!nocheck>, librust-socket2-0.5+all-dev <!nocheck>, librust-socket2-0.5+default-dev <!nocheck>, librust-spake2-0.4+default-dev <!nocheck>, librust-stun-codec-0.3+default-dev <!nocheck>, librust-tar-0.4+default-dev (>= 0.4.33-~~) <!nocheck>, librust-thiserror-1+default-dev (>= 1.0.24-~~) <!nocheck>, librust-time-0.3+default-dev (>= 0.3.7-~~) <!nocheck>, librust-time-0.3+formatting-dev (>= 0.3.7-~~) <!nocheck>, librust-tracing-0.1+default-dev <!nocheck>, librust-tracing-0.1+log-always-dev <!nocheck>, librust-tracing-0.1+log-dev <!nocheck>, librust-url-2+default-dev (>= 2.2.2-~~) <!nocheck>, librust-url-2+serde-dev (>= 2.2.2-~~) <!nocheck>"
 	],
 	"Checksums-Sha256": [
-		"466f3d31116e0e87697262d66aaf399564f981567836a8c9e0648f8856cdb2f2 3898 rust-magic-wormhole_0.7.0-2.dsc 73ee3ff3edcc1b79a98d2deff64246c77953aeb6e2723ec62163bac27eb1f44d 1207123 rust-magic-wormhole_0.7.0.orig.tar.gz 0c10a9e615c23d2e1dca70eadb3b6eda16783dbd21e72e06fc394f14fd941a97 8620 rust-magic-wormhole_0.7.0-2.debian.tar.xz"
+		"4b2f63ef1c0cd02330c19cc5899847931eab443dae0e628321eae93fe25e5523 3977 rust-magic-wormhole_0.7.3-2.dsc d84f21ff7c99b33c3e194143a598041fb6964c6861c2b53a16743884a657a31d 1213018 rust-magic-wormhole_0.7.3.orig.tar.gz 687620ee9467868dca71201e89acc317da4f3734d5c63a643e2bcbf27cacb0d4 9024 rust-magic-wormhole_0.7.3-2.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/r/rust-magic-wormhole"
 	],
 	"Files": [
-		"ed0c35263aa3de5e65424b18586d266b 3898 rust-magic-wormhole_0.7.0-2.dsc cac51c11f1b933753fe90f19b40a70c8 1207123 rust-magic-wormhole_0.7.0.orig.tar.gz 20afb8d27308d41f7d9cae69affa3e10 8620 rust-magic-wormhole_0.7.0-2.debian.tar.xz"
+		"dffcc9bf88b6e42ee24b6ae194e88a7a 3977 rust-magic-wormhole_0.7.3-2.dsc 564b1a469c56f451ab32eb092d4b6ed5 1213018 rust-magic-wormhole_0.7.3.orig.tar.gz 2d562fc869874df89d04b3d4a72ff67e 9024 rust-magic-wormhole_0.7.3-2.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -45,7 +45,7 @@
 		"autopkgtest"
 	],
 	"Testsuite-Triggers": [
-		"dh-cargo, librust-env-logger-0.10+default-dev, librust-eyre-0.6+default-dev, rustc"
+		"dh-cargo, librust-eyre-0.6+default-dev, librust-test-log-0.2+default-dev, rustc"
 	],
 	"Uploaders": [
 		"Matthias Geiger <werdahias@debian.org>"
@@ -57,6 +57,6 @@
 		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/magic-wormhole]"
 	],
 	"Version": [
-		"0.7.0-2"
+		"0.7.3-2"
 	]
 }
