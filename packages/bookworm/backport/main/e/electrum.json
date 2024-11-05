@@ -6,10 +6,10 @@
 		"electrum, python3-electrum"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), devscripts, dh-sequence-python3, libsecp256k1-dev, protobuf-compiler, pyqt5-dev-tools, python3, python3-aiohttp, python3-aiohttp-socks (>= 0.8.4), python3-aiorpcx, python3-attr, python3-bitstring, python3-cbor2, python3-certifi, python3-cryptography, python3-dnspython, python3-jsonpatch, python3-pbkdf2, python3-protobuf (>= 3.20), python3-pyaes, python3-pycryptodome, python3-pyqt5.qtmultimedia, python3-pyqt6, python3-pyqt6.qtmultimedia, python3-pyqt6.qtquick, python3-qrcode, python3-serial, python3-setuptools"
+		"debhelper-compat (= 13), devscripts, dh-sequence-python3, libsecp256k1-dev, protobuf-compiler, pyqt5-dev-tools, python3, python3-aiohttp, python3-aiohttp-socks (>= 0.8.4), python3-aiorpcx, python3-attr, python3-bitstring, python3-cbor2, python3-certifi, python3-cryptography, python3-dnspython, python3-jsonpatch, python3-pbkdf2, python3-protobuf (>= 3.20), python3-pyaes, python3-pycryptodome, python3-pyqt5.qtmultimedia, python3-pyqt6, python3-pyqt6.qtmultimedia, python3-pyqt6.qtquick, python3-qrcode, python3-serial, python3-setuptools, python3-pytest <!nocheck>"
 	],
 	"Checksums-Sha256": [
-		"be77f8cc8db0e4281abf795c6adc3d40276499d48e0b3d953347639aa97ffce5 2552 electrum_4.5.5+dfsg-4~bpo12+1.dsc 71454afc3b12551893adc6013085eac7d2c39e09801812a44bb9b17c2edc8a40 3920432 electrum_4.5.5+dfsg.orig.tar.xz 4a3b6714b81ccbc35f218619206bf4fa275c2d7f04b47a5237160b7aa660cace 26200 electrum_4.5.5+dfsg-4~bpo12+1.debian.tar.xz"
+		"d64d914ef8147ca3dee664fe75518ce2dca4c988af9d96bec0f5223fc1b9824c 2600 electrum_4.5.8+ds-1~bpo12+1.dsc 504a0a089f746c4f29200312d4cd5a9af08a5df4bcf445295c28b0469d8243e4 4286328 electrum_4.5.8+ds.orig.tar.xz 30a24adf411b3c59667cd6249d768adba3d564399c9a49f06c145339fbc667ed 26156 electrum_4.5.8+ds-1~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/e/electrum"
@@ -38,6 +38,9 @@
 	"Standards-Version": [
 		"4.7.0"
 	],
+	"Testsuite": [
+		"autopkgtest-pkg-pybuild"
+	],
 	"Uploaders": [
 		"Soren Stoutner <soren@debian.org>"
 	],
@@ -48,6 +51,6 @@
 		"https://salsa.debian.org/cryptocoin-team/electrum.git"
 	],
 	"Version": [
-		"4.5.5+dfsg-4~bpo12+1"
+		"4.5.8+ds-1~bpo12+1"
 	]
 }
