@@ -9,13 +9,13 @@
 		"debhelper-compat (= 13), debhelper (>= 13.11.6), dh-exec, dh-package-notes, dh-sequence-dlopenlibdeps <!stage1>, dh-sequence-installnss, dh-sequence-installsysusers, pkgconf, xsltproc <!nodoc>, docbook-xsl <!nodoc>, docbook-xml <!nodoc>, meson (>= 0.60.0), rsync | meson (>= 1.3.0~), clang:native [amd64 arm64 ppc64el riscv64 s390x] <!pkg.systemd.nobpf !stage1>, linux-bpf-dev [amd64 arm64 ppc64el riscv64 s390x] <!pkg.systemd.nobpf !stage1> | linux-headers-generic [amd64 arm64 ppc64el riscv64 s390x] <!pkg.systemd.nobpf !stage1>, libbpf-dev [amd64 arm64 ppc64el riscv64 s390x] <!pkg.systemd.nobpf !stage1>, bpftool:native [amd64 arm64 ppc64el riscv64 s390x] <!pkg.systemd.nobpf !stage1 !pkg.systemd.upstream>, linux-tools-generic <pkg.systemd.upstream> | bpftool <pkg.systemd.upstream>, gettext, gperf, libcap-dev, libcrypt-dev, libpam0g-dev, libapparmor-dev (>= 2.13) <!stage1>, libidn2-dev <!stage1>, libiptc-dev <!stage1>, libaudit-dev <!stage1>, libdbus-1-dev (>= 1.3.2) <!nocheck> <!noinsttest>, libcryptsetup-dev (>= 2:2.4) <!stage1>, libselinux1-dev (>= 2.1.9), libacl1-dev, liblzma-dev, liblz4-dev (>= 1.3.0), lz4 <!nocheck>, libbz2-dev <!stage1>, zlib1g-dev <!stage1> | libz-dev <!stage1>, libcurl4-openssl-dev <!stage1>, libmicrohttpd-dev <!stage1>, libpcre2-dev <!stage1>, libgcrypt20-dev, libkmod-dev (>= 15), libblkid-dev (>= 2.24), libmount-dev (>= 2.30), libfdisk-dev (>= 2.33), libseccomp-dev (>= 2.3.1) [amd64 arm64 armel armhf i386 mips mipsel mips64 mips64el x32 powerpc ppc64 ppc64el riscv64 s390x], libdw-dev (>= 0.158) <!stage1>, libpolkit-gobject-1-dev <!stage1>, libzstd-dev (>= 1.4.0), libtss2-dev <!stage1>, libfido2-dev <!stage1>, libp11-kit-dev <!stage1>, libssl-dev <!stage1>, libqrencode-dev <!stage1>, libxen-dev [amd64 arm64 armhf] <!stage1>, libpwquality-dev <!stage1>, libarchive-dev <!stage1>, linux-base <!nocheck>, acl <!nocheck>, python3:native, python3-jinja2:native, python3-lxml:native, python3-pefile:native <!stage1 !nocheck> <!stage1 !noinsttest>, python3-pyelftools [amd64 i386 arm64 armhf riscv64] <!stage1>, jq [amd64 arm64] <!stage1 !pkg.systemd.upstream>, python3-pyparsing <!nocheck>, python3-evdev:native <!nocheck>, tzdata-legacy <!nocheck> | tzdata (<< 2024a-1) <!nocheck>, libcap2-bin <!nocheck>, iproute2 <!nocheck>, zstd <!nocheck>, gawk <!nocheck>, fdisk <!nocheck>"
 	],
 	"Checksums-Sha256": [
-		"7b5107c297812d87b5afb5653deb6cfed8062afa3e58aab0261fba54dac6d729 8247 systemd_256.7-3.dsc 896d76ff65c88f5fd9e42f90d152b0579049158a163431dd77cdc57748b1d7b0 15672532 systemd_256.7.orig.tar.gz 7393db1479161a5e84e497f0d30ec8584e40cde3a87c89035587afac88234acf 175728 systemd_256.7-3.debian.tar.xz"
+		"2d5896ed52e01fc941c92ab9f06d1fc87dc9483aa5a20c3ec11d6e5c89f44ddc 8261 systemd_257~rc1-1.dsc eda7234d166fabe4c642dea316340b352ba9dddb6ea11f9f1ec953c76fabbfcc 16177341 systemd_257~rc1.orig.tar.gz 533d3699cf7c5b77a467e54bbdda38616f18c8118208e8109fd28b7b84ceb856 174800 systemd_257~rc1-1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/s/systemd"
 	],
 	"Files": [
-		"f13996f637580e17eba8dbabe940d17a 8247 systemd_256.7-3.dsc beb9964a5b1d3d213ecd69fc4dc05560 15672532 systemd_256.7.orig.tar.gz bf90d39d85e8805faa819838ccd2636a 175728 systemd_256.7-3.debian.tar.xz"
+		"10a6b53d2aae183f2503078985eb45db 8261 systemd_257~rc1-1.dsc f5f52eafc93dc6da9dfe1bb2a4b3f2cd 16177341 systemd_257~rc1.orig.tar.gz e190966f6ecd9b3186c5c212907410fa 174800 systemd_257~rc1-1.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -57,6 +57,6 @@
 		"https://salsa.debian.org/systemd-team/systemd.git"
 	],
 	"Version": [
-		"256.7-3"
+		"257~rc1-1"
 	]
 }
