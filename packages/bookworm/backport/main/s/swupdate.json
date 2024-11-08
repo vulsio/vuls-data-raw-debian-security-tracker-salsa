@@ -6,10 +6,16 @@
 		"swupdate, swupdate-www, libswupdate-dev, libswupdate0.1, swupdate-doc, lua-swupdate"
 	],
 	"Build-Depends": [
-		"debhelper (>= 13.3), debhelper-compat (= 13), dh-sequence-lua:native <!nolua>, dh-nodejs | dh-nodejs:any, graphviz <!nodoc>, liblua5.4-dev <!nolua>, libfdisk-dev, latexmk <!nodoc> | latexmk:native <!nodoc>, libconfig-dev, libcurl4-gnutls-dev, libarchive-dev, libblkid-dev, libudev-dev, libbtrfsutil-dev, libext2fs-dev, libgpiod-dev [linux-any], libjs-bootstrap4, libjs-dropzone:native, libjson-c-dev, librsync-dev, libsystemd-dev, uuid-dev, zlib1g-dev, libzstd-dev, libzck-dev (>= 1.3) <!pkg.swupdate.bpo>, libp11-kit-dev <pkg.swupdate.p11>, libwolfssl-dev (>= 5), libmtd-dev [linux-any], libubi-dev [linux-any], libwebsockets-dev (>= 3.2.0) <!pkg.swupdate.noswuforwarder>, liburiparser-dev, libubootenv-dev (>= 0.3.5) [linux-any], libebgenv-dev [any-amd64 any-i386 any-arm64 armhf any-riscv64 any-ia64], libcmocka-dev, node-jquery, pkg-config, gawk, sassc <!pkg.swupdate.bpo>, python3-sphinx:native <!nodoc>, texlive-latex-recommended <!nodoc>, texlive-fonts-recommended <!nodoc>, tex-gyre <!nodoc>, texlive-formats-extra <!nodoc> | texlive-formats-extra:native <!nodoc>"
+		"debhelper (>= 13.3), debhelper-compat (= 13), dh-sequence-lua:native <!nolua>, python3-sphinx:native <!nodoc>"
+	],
+	"Build-Depends-Arch": [
+		"liblua5.4-dev <!nolua>, libfdisk-dev, libconfig-dev, libcurl4-gnutls-dev, libarchive-dev, libblkid-dev, libudev-dev [linux-any], libbtrfsutil-dev [linux-any], libext2fs-dev, libgpiod-dev [linux-any], libjson-c-dev, librsync-dev, libsystemd-dev, uuid-dev, zlib1g-dev, libzstd-dev, libzck-dev (>= 1.3), libp11-kit-dev <pkg.swupdate.p11>, libwolfssl-dev (>= 5), libmtd-dev [linux-any], libubi-dev [linux-any], libwebsockets-dev (>= 3.2.0) <!pkg.swupdate.noswuforwarder>, liburiparser-dev, libubootenv-dev (>= 0.3.5) [linux-any], libebgenv-dev [any-amd64 any-i386 any-arm64 armhf any-loong64 any-riscv64 any-ia64], libcmocka-dev, pkgconf, gawk"
+	],
+	"Build-Depends-Indep": [
+		"dh-nodejs, graphviz <!nodoc>, latexmk <!nodoc>, libjs-dropzone, node-bootstrap, node-jquery, sassc, texlive-latex-recommended <!nodoc>, texlive-fonts-recommended <!nodoc>, texlive-formats-extra <!nodoc>, tex-gyre <!nodoc>"
 	],
 	"Checksums-Sha256": [
-		"57a2d4e5788ebbd5f5b8266c7891aefc714dab80b9ba5dfa23238a6cea1f0b40 3345 swupdate_2023.12.1+dfsg-2~bpo12+1.dsc 8daea16b99748c0808b90875bf4dc98a003e73c4a72e0f6545f659f212451213 5461824 swupdate_2023.12.1+dfsg.orig.tar.xz 94ffc14b9afbed28d14ec1047a318dfc32c0a624acef608d31d5022474aeceb3 22308 swupdate_2023.12.1+dfsg-2~bpo12+1.debian.tar.xz"
+		"2c9c0deb04468f1b9496bab277a6f40f346363300ae4c76087ff74bf09e26e4c 3286 swupdate_2024.05.2+dfsg-2~bpo12+1.dsc ee21095b34ca4ed457511552e2842c8b5629a8d9d97452c59dfe1849c5e07e2d 5469716 swupdate_2024.05.2+dfsg.orig.tar.xz 547696b2408de2fb92763cde983a972892218d10f39ca786c64424c402f33261 22992 swupdate_2024.05.2+dfsg-2~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/s/swupdate"
@@ -54,6 +60,6 @@
 		"https://salsa.debian.org/debian/swupdate.git"
 	],
 	"Version": [
-		"2023.12.1+dfsg-2~bpo12+1"
+		"2024.05.2+dfsg-2~bpo12+1"
 	]
 }
