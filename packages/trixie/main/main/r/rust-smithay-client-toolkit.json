@@ -6,16 +6,16 @@
 		"librust-smithay-client-toolkit-dev"
 	],
 	"Build-Depends": [
-		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-bitflags-2+default-dev (>= 2.4-~~) <!nocheck>, librust-bytemuck-1+default-dev (>= 1.13.0-~~) <!nocheck>, librust-calloop-0.12+default-dev (>= 0.12.1-~~) <!nocheck>, librust-calloop-wayland-source-0.2+default-dev <!nocheck>, librust-cursor-icon-1+default-dev (>= 1.1.0-~~) <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.148-~~) <!nocheck>, librust-log-0.4+default-dev <!nocheck>, librust-memmap2-0.9+default-dev <!nocheck>, librust-pkg-config-0.3+default-dev <!nocheck>, librust-rustix-0.38+default-dev (>= 0.38.15-~~) <!nocheck>, librust-rustix-0.38+fs-dev (>= 0.38.15-~~) <!nocheck>, librust-rustix-0.38+pipe-dev (>= 0.38.15-~~) <!nocheck>, librust-rustix-0.38+shm-dev (>= 0.38.15-~~) <!nocheck>, librust-thiserror-1+default-dev (>= 1.0.30-~~) <!nocheck>, librust-wayland-backend-0.3+default-dev <!nocheck>, librust-wayland-client-0.31+default-dev (>= 0.31.1-~~) <!nocheck>, librust-wayland-csd-frame-0.3+default-dev <!nocheck>, librust-wayland-cursor-0.31+default-dev <!nocheck>, librust-wayland-protocols-0.31+client-dev <!nocheck>, librust-wayland-protocols-0.31+default-dev <!nocheck>, librust-wayland-protocols-0.31+staging-dev <!nocheck>, librust-wayland-protocols-0.31+unstable-dev <!nocheck>, librust-wayland-protocols-wlr-0.2+client-dev <!nocheck>, librust-wayland-protocols-wlr-0.2+default-dev <!nocheck>, librust-wayland-scanner-0.31+default-dev <!nocheck>, librust-xkbcommon-0.7+default-dev <!nocheck>, librust-xkbcommon-0.7+wayland-dev <!nocheck>, librust-xkeysym-0.2+bytemuck-dev <!nocheck>, librust-xkeysym-0.2+default-dev <!nocheck>, libxkbcommon-dev <!nocheck>"
+		"debhelper-compat (= 13), dh-sequence-cargo, cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-bitflags-2+default-dev (>= 2.4-~~) <!nocheck>, librust-bytemuck-1+default-dev (>= 1.13.0-~~) <!nocheck>, librust-calloop-0.12+default-dev (>= 0.12.1-~~) <!nocheck>, librust-calloop-wayland-source-0.2+default-dev <!nocheck>, librust-cursor-icon-1+default-dev (>= 1.1.0-~~) <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.148-~~) <!nocheck>, librust-log-0.4+default-dev <!nocheck>, librust-memmap2-0.9+default-dev <!nocheck>, librust-pkg-config-0.3+default-dev <!nocheck>, librust-rustix-0.38+default-dev (>= 0.38.15-~~) <!nocheck>, librust-rustix-0.38+fs-dev (>= 0.38.15-~~) <!nocheck>, librust-rustix-0.38+pipe-dev (>= 0.38.15-~~) <!nocheck>, librust-rustix-0.38+shm-dev (>= 0.38.15-~~) <!nocheck>, librust-thiserror-1+default-dev (>= 1.0.30-~~) <!nocheck>, librust-wayland-backend-0.3+default-dev <!nocheck>, librust-wayland-client-0.31+default-dev (>= 0.31.1-~~) <!nocheck>, librust-wayland-csd-frame-0.3+default-dev <!nocheck>, librust-wayland-cursor-0.31+default-dev <!nocheck>, librust-wayland-protocols-0.31+client-dev <!nocheck>, librust-wayland-protocols-0.31+default-dev <!nocheck>, librust-wayland-protocols-0.31+staging-dev <!nocheck>, librust-wayland-protocols-0.31+unstable-dev <!nocheck>, librust-wayland-protocols-wlr-0.2+client-dev <!nocheck>, librust-wayland-protocols-wlr-0.2+default-dev <!nocheck>, librust-wayland-scanner-0.31+default-dev <!nocheck>, librust-xkbcommon-0.8+default-dev <!nocheck>, librust-xkbcommon-0.8+wayland-dev <!nocheck>, librust-xkeysym-0.2+bytemuck-dev <!nocheck>, librust-xkeysym-0.2+default-dev <!nocheck>, libxkbcommon-dev <!nocheck>"
 	],
 	"Checksums-Sha256": [
-		"3850583b93707aa06b471d5cbe97c5761ddd0c60280b01ae41201d4b58569a11 4176 rust-smithay-client-toolkit_0.18.1-1.dsc 922fd3eeab3bd820d76537ce8f582b1cf951eceb5475c28500c7457d9d17f53a 129920 rust-smithay-client-toolkit_0.18.1.orig.tar.gz 2bf2f9b5739470547c531338ba20df9917906fadf44e7d5303d2a8c43f30a735 3852 rust-smithay-client-toolkit_0.18.1-1.debian.tar.xz"
+		"ff82b9a561fbf75882122998692270424f2996647b59686788e99e7ecb939d02 4089 rust-smithay-client-toolkit_0.18.1-2.dsc 922fd3eeab3bd820d76537ce8f582b1cf951eceb5475c28500c7457d9d17f53a 129920 rust-smithay-client-toolkit_0.18.1.orig.tar.gz 3925f7464f38b3f29e823a08ce8d387dc96417e5fbb29797807c9e098524554e 3988 rust-smithay-client-toolkit_0.18.1-2.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/r/rust-smithay-client-toolkit"
 	],
 	"Files": [
-		"46c9eb490d3baef7cc01cd0b49a6f6e3 4176 rust-smithay-client-toolkit_0.18.1-1.dsc 1c636a4973414fa9b34d51157583717f 129920 rust-smithay-client-toolkit_0.18.1.orig.tar.gz a4197b75a1cc260fb223ce3838086319 3852 rust-smithay-client-toolkit_0.18.1-1.debian.tar.xz"
+		"5b4ead63ec2ad0d855f9713ad1653c57 4089 rust-smithay-client-toolkit_0.18.1-2.dsc 1c636a4973414fa9b34d51157583717f 129920 rust-smithay-client-toolkit_0.18.1.orig.tar.gz fdb04bc421979d73a195efa874bdb582 3988 rust-smithay-client-toolkit_0.18.1-2.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -36,13 +36,13 @@
 		"misc"
 	],
 	"Standards-Version": [
-		"4.6.2"
+		"4.7.0"
 	],
 	"Testsuite": [
 		"autopkgtest"
 	],
 	"Testsuite-Triggers": [
-		"dh-cargo, librust-bytemuck-1+default-dev, librust-env-logger-0.10+default-dev, librust-font-kit-0.11+default-dev, librust-image-0.24+default-dev, librust-raw-window-handle-0.5+default-dev"
+		"dh-cargo, librust-bytemuck-1+default-dev, librust-env-logger-0.10+default-dev, librust-font-kit-0.11+default-dev, librust-image-0.24+default-dev, librust-raw-window-handle-0.5+default-dev, rustc"
 	],
 	"Uploaders": [
 		"James McCoy <jamessan@debian.org>"
@@ -54,6 +54,6 @@
 		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/smithay-client-toolkit]"
 	],
 	"Version": [
-		"0.18.1-1"
+		"0.18.1-2"
 	]
 }
