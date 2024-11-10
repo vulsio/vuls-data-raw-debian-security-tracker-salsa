@@ -1,15 +1,15 @@
 {
 	"Architecture": [
-		"any-i386 any-amd64 alpha arm64 armel armhf ia64 loong64 mips64el ppc64el riscv64 sh4 all"
+		"any all"
 	],
 	"Binary": [
 		"openrct2, openrct2-data"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), cmake, pkgconf, duktape-dev, libcurl4-openssl-dev, libflac-dev, libfontconfig-dev, libgzstream-dev, libicu-dev, libsdl2-dev, libsdl2-ttf-dev, libspeexdsp-dev, libssl-dev, libvorbis-dev, libzip-dev, nlohmann-json3-dev"
+		"debhelper-compat (= 13), architecture-is-little-endian, cmake, pkgconf, duktape-dev, libcurl4-openssl-dev, libflac-dev, libfontconfig-dev, libgzstream-dev, libicu-dev, libsdl2-dev, libsdl2-ttf-dev, libspeexdsp-dev, libssl-dev, libvorbis-dev, libzip-dev, nlohmann-json3-dev"
 	],
 	"Checksums-Sha256": [
-		"9167dd8e45e3739dad316be32e9fed896497e8fcf20ac7fa897d98a17cb7192a 2366 openrct2_0.4.15+ds-1~bpo12+1.dsc 4da1dda01b73c141a50468dd2e5e335cd40dec3bbac430211257a1298de690d4 17086120 openrct2_0.4.15+ds.orig.tar.xz d2e2a182d95523f7e4169d5bf14b933feda9b5100286a1e0f7136a831a9e895c 13016 openrct2_0.4.15+ds-1~bpo12+1.debian.tar.xz"
+		"02572780ec0ec1d5a4741255754b02897c91e9c42e509ff6d967f6cad557c64d 2231 openrct2_0.4.16+ds-1~bpo12+1.dsc 73d115747d5238663ce10babc164efce7f44415b859b01162fc5e4df7a0e74f8 17357772 openrct2_0.4.16+ds.orig.tar.xz ce3025cafbdf7a485de79b11c1ceede8aacb4192fd91624151258b3277633cc9 12868 openrct2_0.4.16+ds-1~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/contrib/o/openrct2"
@@ -27,7 +27,7 @@
 		"openrct2"
 	],
 	"Package-List": [
-		"openrct2 deb contrib/games optional arch=any-i386,any-amd64,alpha,arm64,armel,armhf,ia64,loong64,mips64el,ppc64el,riscv64,sh4,x32 openrct2-data deb contrib/games optional arch=all"
+		"openrct2 deb contrib/games optional arch=any openrct2-data deb contrib/games optional arch=all"
 	],
 	"Priority": [
 		"optional"
@@ -45,6 +45,6 @@
 		"https://salsa.debian.org/gibmat/openrct2.git"
 	],
 	"Version": [
-		"0.4.15+ds-1~bpo12+1"
+		"0.4.16+ds-1~bpo12+1"
 	]
 }
