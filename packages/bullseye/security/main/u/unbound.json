@@ -9,7 +9,7 @@
 		"autoconf, bison, debhelper (>= 10~), dh-apparmor <!pkg.unbound.libonly>, dh-python <!pkg.unbound.libonly>, dpkg-dev (>= 1.16.1~), flex, libbsd-dev (>= 0.8.1~) [!linux-any], libevent-dev, libexpat1-dev, libprotobuf-c-dev <!pkg.unbound.libonly>, libssl-dev <!pkg.unbound.libonly>, libsystemd-dev <!pkg.unbound.libonly>, libtool, nettle-dev, pkg-config, protobuf-c-compiler <!pkg.unbound.libonly>, python3-dev:any <!pkg.unbound.libonly>, libpython3-dev <!pkg.unbound.libonly>, swig <!pkg.unbound.libonly>"
 	],
 	"Checksums-Sha256": [
-		"26d7d1e3478053c196aeefa0b1470ec33a1e77a2ffe374bec7e2f585b2164901 2796 unbound_1.13.1-1+deb11u3.dsc 8504d97b8fc5bd897345c95d116e0ee0ddf8c8ff99590ab2b4bd13278c9f50b8 5976957 unbound_1.13.1.orig.tar.gz d19c27a80a176b5eb3396a83fc47e02a33536b23a5f73b5c50651ad47e13fda9 45516 unbound_1.13.1-1+deb11u3.debian.tar.xz"
+		"9c3f338914a6d4a6d96ad86c3c5e9e9ef7d573fa633b38b90a127d8e175052f5 2878 unbound_1.13.1-1+deb11u4.dsc 8504d97b8fc5bd897345c95d116e0ee0ddf8c8ff99590ab2b4bd13278c9f50b8 5976957 unbound_1.13.1.orig.tar.gz 33078338d9bfe196d4667a0fee7e78002975a987563b832585f5800aabff7cb7 49156 unbound_1.13.1-1+deb11u4.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/updates/main/u/unbound"
@@ -38,6 +38,12 @@
 	"Standards-Version": [
 		"4.5.0"
 	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"@builddeps@, bind9-dnsutils, ldnsutils"
+	],
 	"Uploaders": [
 		"Robert Edmonds <edmonds@debian.org>,"
 	],
@@ -48,6 +54,6 @@
 		"https://salsa.debian.org/dns-team/unbound.git"
 	],
 	"Version": [
-		"1.13.1-1+deb11u3"
+		"1.13.1-1+deb11u4"
 	]
 }

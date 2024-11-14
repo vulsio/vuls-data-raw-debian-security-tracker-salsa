@@ -6,10 +6,10 @@
 		"golang-1.22-go, golang-1.22-src, golang-1.22-doc, golang-1.22"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), golang-go (>= 2:1.20~), netbase"
+		"debhelper-compat (= 13), golang-1.22-go | golang-1.21-go | golang-1.20-go, netbase"
 	],
 	"Checksums-Sha256": [
-		"715767d545c3a66c7d6df67ce8fd36a79eb79081d30aa8a19661d49b13d504b6 2515 golang-1.22_1.22.7-1~bpo12+1.dsc 66432d87d85e0cfac3edffe637d5930fc4ddf5793313fe11e4a0f333023c879f 27562038 golang-1.22_1.22.7.orig.tar.gz 9c7979cac2ea56fe6426bf42e84cda62b4419b6edafd6a59e64005d401981f7a 833 golang-1.22_1.22.7.orig.tar.gz.asc 4e79809102ce295a8cae85ac2a852c885db5331d414b2194624df92af394bc15 41404 golang-1.22_1.22.7-1~bpo12+1.debian.tar.xz"
+		"c7723c394e5232fc16ba9b12c8613a57376040abd2c72f71179dfcdc3b5362cf 2541 golang-1.22_1.22.9-2~bpo12+1.dsc e81a362f51aee2125722b018e46714e6a055a1954283414c0f937e737013db22 27565135 golang-1.22_1.22.9.orig.tar.gz f67b02f03a4b54c25398e43bb78365184ba91e231a7eab44dc9d40ce40a90dc0 833 golang-1.22_1.22.9.orig.tar.gz.asc e6afd8b9cf42cc4845428fc7ceb17d9ac03a7bbb4c2317d7728c07cc9489188d 41552 golang-1.22_1.22.9-2~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/g/golang-1.22"
@@ -54,6 +54,6 @@
 		"https://salsa.debian.org/go-team/compiler/golang.git -b golang-1.22"
 	],
 	"Version": [
-		"1.22.7-1~bpo12+1"
+		"1.22.9-2~bpo12+1"
 	]
 }
