@@ -3,13 +3,13 @@
 		"any all"
 	],
 	"Binary": [
-		"lazarus-3.0, lazarus-src-3.0, lazarus-ide-3.0, lazarus-ide-gtk2-3.0, lazarus-ide-qt5-3.0, lcl-3.0, lcl-utils-3.0, lcl-units-3.0, lcl-nogui-3.0, lcl-gtk2-3.0, lcl-qt5-3.0, lazarus-doc-3.0, lazarus, lazarus-src, lazarus-ide, lazarus-ide-gtk2, lazarus-ide-qt5, lcl, lcl-utils, lcl-units, lcl-nogui, lcl-gtk2, lcl-qt5, lazarus-doc"
+		"lazarus-3.6, lazarus-src-3.6, lazarus-ide-3.6, lazarus-ide-gtk2-3.6, lazarus-ide-qt5-3.6, lcl-3.6, lcl-utils-3.6, lcl-units-3.6, lcl-nogui-3.6, lcl-gtk2-3.6, lcl-qt5-3.6, lazarus-doc-3.6, lazarus, lazarus-src, lazarus-ide, lazarus-ide-gtk2, lazarus-ide-qt5, lcl, lcl-utils, lcl-units, lcl-nogui, lcl-gtk2, lcl-qt5, lazarus-doc"
 	],
 	"Build-Depends": [
-		"debhelper (>= 11~), fp-utils (>= 3.2.2), fpc (>= 3.2.2), fpc-source (>= 3.2.2), libgtk2.0-dev, libqt5pas-dev (>= 3.0), po-debconf, rdfind, symlinks"
+		"debhelper-compat (= 13), fp-utils (>= 3.2.2), fpc (>= 3.2.2), fpc-source (>= 3.2.2), libgtk2.0-dev, libqt5pas-dev (>= 3.0), po-debconf, rdfind, symlinks"
 	],
 	"Checksums-Sha256": [
-		"03789a80773184cc2c03d3482c016909b7f9954ede45dcbe82d6fa20aa2e1ee7 2890 lazarus_3.0+dfsg1-8~bpo12+1.dsc f112c2de923e25d83d42b595fcb5afed086611338ffcf9d0971bc0ff111b5c21 32565416 lazarus_3.0+dfsg1.orig.tar.xz 9d3023565382bc002678b9e2954d1c0f7711e2d2547b2cf8352b5480360fa93a 70824 lazarus_3.0+dfsg1-8~bpo12+1.debian.tar.xz"
+		"fe502f419af131d4e8c07a9ff7429077026b3b6159ce39f02e396e8fbc442f94 2937 lazarus_3.6+dfsg1-4~bpo12+1.dsc 5e7fda740ea55dbbc13ad0846219dce7260749faceb43bae48ca876b70137726 32963808 lazarus_3.6+dfsg1.orig.tar.xz ea6ab198df6fe80533fd657dc48adb8372e94db3f4c514b841d20a0bfd8a9832 70464 lazarus_3.6+dfsg1-4~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/l/lazarus"
@@ -27,7 +27,7 @@
 		"lazarus"
 	],
 	"Package-List": [
-		"lazarus deb devel optional arch=all lazarus-3.0 deb devel optional arch=all lazarus-doc deb doc optional arch=all lazarus-doc-3.0 deb doc optional arch=all lazarus-ide deb devel optional arch=all lazarus-ide-3.0 deb devel optional arch=any lazarus-ide-gtk2 deb devel optional arch=all lazarus-ide-gtk2-3.0 deb devel optional arch=any lazarus-ide-qt5 deb devel optional arch=all lazarus-ide-qt5-3.0 deb devel optional arch=any lazarus-src deb devel optional arch=all lazarus-src-3.0 deb devel optional arch=all lcl deb devel optional arch=any lcl-3.0 deb devel optional arch=any lcl-gtk2 deb devel optional arch=any lcl-gtk2-3.0 deb devel optional arch=any lcl-nogui deb devel optional arch=any lcl-nogui-3.0 deb devel optional arch=any lcl-qt5 deb devel optional arch=any lcl-qt5-3.0 deb devel optional arch=any lcl-units deb devel optional arch=any lcl-units-3.0 deb devel optional arch=any lcl-utils deb devel optional arch=all lcl-utils-3.0 deb devel optional arch=any"
+		"lazarus deb devel optional arch=all lazarus-3.6 deb devel optional arch=all lazarus-doc deb doc optional arch=all lazarus-doc-3.6 deb doc optional arch=all lazarus-ide deb devel optional arch=all lazarus-ide-3.6 deb devel optional arch=any lazarus-ide-gtk2 deb devel optional arch=all lazarus-ide-gtk2-3.6 deb devel optional arch=any lazarus-ide-qt5 deb devel optional arch=all lazarus-ide-qt5-3.6 deb devel optional arch=any lazarus-src deb devel optional arch=all lazarus-src-3.6 deb devel optional arch=all lcl deb devel optional arch=any lcl-3.6 deb devel optional arch=any lcl-gtk2 deb devel optional arch=any lcl-gtk2-3.6 deb devel optional arch=any lcl-nogui deb devel optional arch=any lcl-nogui-3.6 deb devel optional arch=any lcl-qt5 deb devel optional arch=any lcl-qt5-3.6 deb devel optional arch=any lcl-units deb devel optional arch=any lcl-units-3.6 deb devel optional arch=any lcl-utils deb devel optional arch=all lcl-utils-3.6 deb devel optional arch=any"
 	],
 	"Priority": [
 		"optional"
@@ -36,7 +36,7 @@
 		"misc"
 	],
 	"Standards-Version": [
-		"4.6.2"
+		"4.7.0"
 	],
 	"Testsuite": [
 		"autopkgtest"
@@ -45,7 +45,7 @@
 		"@builddeps@"
 	],
 	"Uploaders": [
-		"Abou Al Montacir <abou.almontacir@sfr.fr>, Paul Gevers <elbrus@debian.org>"
+		"Abou Al Montacir <abou.almontacir@sfr.fr>, Paul Gevers <elbrus@debian.org>, Peter Blackman <peter@pblackman.plus.com>"
 	],
 	"Vcs-Browser": [
 		"https://salsa.debian.org/pascal-team/lazarus"
@@ -54,6 +54,6 @@
 		"https://salsa.debian.org/pascal-team/lazarus.git"
 	],
 	"Version": [
-		"3.0+dfsg1-8~bpo12+1"
+		"3.6+dfsg1-4~bpo12+1"
 	]
 }
