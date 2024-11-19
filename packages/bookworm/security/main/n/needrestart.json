@@ -9,7 +9,7 @@
 		"debhelper-compat (= 13), po-debconf, libmodule-find-perl"
 	],
 	"Checksums-Sha256": [
-		"50eea0535a190653ffa906ba03da7ddc54861ebcbf77c371c7970c941a3139be 1954 needrestart_3.5-4+deb11u4.dsc e9453efde9a0ebaefa5cb3af241382203d14abcc7091bee1249b60039348597e 67824 needrestart_3.5.orig.tar.gz b9cad5f5937d694840b539dd92ce33fd81e5326368d4c851ed8b83d34b143bfb 15012 needrestart_3.5-4+deb11u4.debian.tar.xz"
+		"5b85ae08bc76cb1fc06f4b58690f4b92c1350d2b2ce634bbe69b32572b8af224 2006 needrestart_3.6-4+deb12u2.dsc 3dced40d6116287b163da018d57014b0b7cee04794a95f8602126e2c296ed1a7 71159 needrestart_3.6.orig.tar.gz 3f2668474f5e20f596ff4e78ae328fb09fb2d3a6d9264d9a00d14308a7162046 15612 needrestart_3.6-4+deb12u2.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/updates/main/n/needrestart"
@@ -30,15 +30,21 @@
 		"needrestart deb admin optional arch=all"
 	],
 	"Priority": [
-		"extra"
+		"optional"
 	],
 	"Section": [
 		"misc"
 	],
 	"Standards-Version": [
-		"4.5.1"
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dpkg-dev"
 	],
 	"Version": [
-		"3.5-4+deb11u4"
+		"3.6-4+deb12u2"
 	]
 }
