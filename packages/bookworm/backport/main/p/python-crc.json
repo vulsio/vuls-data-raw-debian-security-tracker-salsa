@@ -1,0 +1,62 @@
+{
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python3-crc"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 11), dh-python, openstack-pkg-tools, pybuild-plugin-pyproject, python3-all, python3-poetry-core, python3-setuptools"
+	],
+	"Build-Depends-Indep": [
+		"python3-invoke, python3-pytest"
+	],
+	"Checksums-Sha256": [
+		"e2a264cc826ab736208af147d5ac78a890530cca8eb1333a6710cd604e91a75b 2297 python-crc_7.1.0-1~bpo12+1.dsc 5e7cb15b5e1c48454ceebc7aa8b80b065251cb205148fc09fc9a13a8d02ecc20 66592 python-crc_7.1.0.orig.tar.gz 6ba21b9d097251d2fe273a6d08cb4bd72282b0433f1577aad29c0bc5c30933ec 2292 python-crc_7.1.0-1~bpo12+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-crc"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://nicoretti.github.io/crc/"
+	],
+	"Maintainer": [
+		"Home Assistant Team <team+homeassistant@tracker.debian.org>"
+	],
+	"Package": [
+		"python-crc"
+	],
+	"Package-List": [
+		"python3-crc deb python optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"@builddeps@, pybuild-plugin-autopkgtest"
+	],
+	"Uploaders": [
+		"Thomas Goirand <zigo@debian.org>, Christopher Obbard <obbardc@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/homeassistant-team/deps/python-crc"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/homeassistant-team/deps/python-crc.git"
+	],
+	"Version": [
+		"7.1.0-1~bpo12+1"
+	]
+}
