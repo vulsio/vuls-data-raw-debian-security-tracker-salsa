@@ -1,0 +1,50 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"moosefs-common, moosefs-master, moosefs-metalogger, moosefs-chunkserver, moosefs-client, moosefs-cli, moosefs-cgi, moosefs-cgiserv, moosefs-netdump, libmfsio-dev, libmfsio1"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-python, python3, libfuse3-dev, libpcap0.8-dev, pkgconf | pkg-config, zlib1g-dev"
+	],
+	"Checksums-Sha256": [
+		"222eff9c5ed13d99328b9381aa289a9a3ba8ece05226958306b395bfd55fb4d5 2543 moosefs_4.56.6-1~bpo12+1.dsc 7b5427fd850edb615cb141fa35f9f8f291984e44102cc9eea171eab9ec0c807e 1044648 moosefs_4.56.6.orig.tar.xz 7713968f5da66050a56aa0251ade71bd639eec9972fe3b32e96c00715fe13b39 11888 moosefs_4.56.6-1~bpo12+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/m/moosefs"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://moosefs.org/"
+	],
+	"Maintainer": [
+		"Dmitry Smirnov <onlyjob@debian.org>"
+	],
+	"Package": [
+		"moosefs"
+	],
+	"Package-List": [
+		"libmfsio-dev deb libdevel optional arch=any libmfsio1 deb libs optional arch=any moosefs-cgi deb admin optional arch=all moosefs-cgiserv deb admin optional arch=all moosefs-chunkserver deb admin optional arch=any moosefs-cli deb admin optional arch=all moosefs-client deb admin optional arch=any moosefs-common deb admin optional arch=all moosefs-master deb admin optional arch=any moosefs-metalogger deb admin optional arch=any moosefs-netdump deb admin optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/moosefs"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/moosefs.git"
+	],
+	"Version": [
+		"4.56.6-1~bpo12+1"
+	]
+}
