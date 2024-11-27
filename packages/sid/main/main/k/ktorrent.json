@@ -6,22 +6,22 @@
 		"ktorrent, ktorrent-data"
 	],
 	"Build-Depends": [
-		"cmake (>= 3.16~), debhelper-compat (= 13), extra-cmake-modules (>= 5.91~), gettext, libboost-dev (>= 1.71.0~), libgeoip-dev, libkf5archive-dev (>= 5.91~), libkf5completion-dev (>= 5.91~), libkf5config-dev (>= 5.91~), libkf5configwidgets-dev (>= 5.91~), libkf5coreaddons-dev (>= 5.91~), libkf5crash-dev (>= 5.91~), libkf5dbusaddons-dev (>= 5.91~), libkf5dnssd-dev (>= 5.91~), libkf5doctools-dev (>= 5.91~), libkf5i18n-dev (>= 5.91~), libkf5iconthemes-dev (>= 5.91~), libkf5itemviews-dev (>= 5.91~), libkf5kcmutils-dev (>= 5.91~), libkf5kio-dev (>= 5.91~), libkf5notifications-dev (>= 5.91~), libkf5notifyconfig-dev (>= 5.91~), libkf5parts-dev (>= 5.91~), libkf5plotting-dev (>= 5.91~), libkf5solid-dev (>= 5.91~), libkf5syndication-dev (>= 1:5.91~), libkf5textwidgets-dev (>= 5.91~), libkf5widgetsaddons-dev (>= 5.91~), libkf5windowsystem-dev (>= 5.91~), libkf5xmlgui-dev (>= 5.91~), libktorrent-dev (>= 20.11.70~), libphonon4qt5-dev, libphonon4qt5experimental-dev, libtag1-dev, pkg-config, pkg-kde-tools (>= 0.15.16), qtbase5-dev (>= 5.15.2~), qtwebengine5-dev (>= 5.15.2~) [amd64 arm64 armhf i386]"
+		"cmake (>= 3.16~), debhelper-compat (= 13), dh-sequence-kf6, dh-sequence-pkgkde-symbolshelper, extra-cmake-modules (>= 5.240.0~), gettext, libboost-dev (>= 1.71.0~), libkf6completion-dev (>= 5.240.0~), libkf6config-dev (>= 5.240.0~), libkf6configwidgets-dev (>= 5.240.0~), libkf6coreaddons-dev (>= 5.240.0~), libkf6crash-dev (>= 5.240.0~), libkf6dbusaddons-dev (>= 5.240.0~), libkf6dnssd-dev (>= 5.240.0~), libkf6doctools-dev (>= 5.240.0~), libkf6globalaccel-dev (>= 5.240.0~), libkf6i18n-dev (>= 5.240.0~), libkf6iconthemes-dev (>= 5.240.0~), libkf6itemviews-dev (>= 5.240.0~), libkf6kcmutils-dev (>= 5.240.0~), libkf6kio-dev (>= 5.240.0~), libkf6notifications-dev (>= 5.240.0~), libkf6notifyconfig-dev (>= 5.240.0~), libkf6parts-dev (>= 5.240.0~), libkf6plotting-dev (>= 5.240.0~), libkf6solid-dev (>= 5.240.0~), libkf6statusnotifieritem-dev (>= 5.240.0~), libkf6syndication-dev (>= 5.240.0~), libkf6textwidgets-dev (>= 5.240.0~), libkf6widgetsaddons-dev (>= 5.240.0~), libkf6windowsystem-dev (>= 5.240.0~), libkf6xmlgui-dev (>= 5.240.0~), libktorrent-dev (>= 24.04.70~), libmaxminddb-dev, libphonon4qt6-dev, libphonon4qt6experimental-dev, libtag1-dev, pkgconf, qt6-5compat-dev (>= 6.5.0~), qt6-base-dev (>= 6.5.0~), qt6-webengine-dev (>= 6.5.0~) [amd64 arm64 armhf i386], xauth <!nocheck>, xvfb <!nocheck>"
 	],
 	"Checksums-Sha256": [
-		"73b14a09cd6ab3ec1349235ebd5c437e3e125a8d62bea9e64eda58f8fb88be81 3339 ktorrent_22.12.3-2.dsc 85ae133afa93750a75f7255b74d4364aa833325fc61ed4e49cdcf31f08e0f71e 2144172 ktorrent_22.12.3.orig.tar.xz 40b4214da55cb9d1cc12eabb20f75f63f266292495785b6ca6908b19482257d9 833 ktorrent_22.12.3.orig.tar.xz.asc 499272a69aa65c35313a417bf97c46a5a33693c5cd34c24adfa85c808dfd3c43 24864 ktorrent_22.12.3-2.debian.tar.xz"
+		"5bc5d7882aed796963bba992c016a66d3a0c2bb33ca86fbd9f8c15fd329d9574 3625 ktorrent_24.08.1-2.dsc 694f7c241175faf9125517ceb369273cdab8c91e81c4feab7a3ec3e1a7e4be61 2186628 ktorrent_24.08.1.orig.tar.xz c64450a7b4d39f4bfae9aa0ea6eb90fab118ccac6c53be7d7ba315766db9988b 833 ktorrent_24.08.1.orig.tar.xz.asc 58b185e455346217735dcaaf231f4c42bfcdc9cb511440527fbb704a2559e544 24960 ktorrent_24.08.1-2.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/k/ktorrent"
 	],
 	"Files": [
-		"5bbefc7ddc578a08e151100f47233b90 3339 ktorrent_22.12.3-2.dsc ecf507002927123a266c1916381cb5cb 2144172 ktorrent_22.12.3.orig.tar.xz 7b5fd414ebe396f8cd690c417fc7fdaf 833 ktorrent_22.12.3.orig.tar.xz.asc 12050a814afb76fa75079f79cf9393f9 24864 ktorrent_22.12.3-2.debian.tar.xz"
+		"479509d3fb8d58c40214a8c9e90cf359 3625 ktorrent_24.08.1-2.dsc 304f780d2a687b7175f8f7539b13ed55 2186628 ktorrent_24.08.1.orig.tar.xz 4354450b515453e2f5947c9d1fa59faf 833 ktorrent_24.08.1.orig.tar.xz.asc 0f99bfa98172357c3c18377add2e92e2 24960 ktorrent_24.08.1-2.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
 	],
 	"Homepage": [
-		"https://www.kde.org/applications/internet/ktorrent/"
+		"https://apps.kde.org/ktorrent"
 	],
 	"Maintainer": [
 		"Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>"
@@ -39,7 +39,7 @@
 		"net"
 	],
 	"Standards-Version": [
-		"4.6.2"
+		"4.7.0"
 	],
 	"Uploaders": [
 		"Aurélien COUDERC <coucouf@debian.org>,"
@@ -51,6 +51,6 @@
 		"https://salsa.debian.org/qt-kde-team/kde/ktorrent.git"
 	],
 	"Version": [
-		"22.12.3-2"
+		"24.08.1-2"
 	]
 }
