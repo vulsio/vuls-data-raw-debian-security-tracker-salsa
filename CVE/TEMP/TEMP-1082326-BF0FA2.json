@@ -1,0 +1,31 @@
+{
+	"header": {
+		"line": "CVE-2024-XXXX [Supplemental group inheritance grants unintended access to GID 0 due to lack of supplemental groups from mod_sql]",
+		"name": "TEMP-1082326-BF0FA2",
+		"description": "[Supplemental group inheritance grants unintended access to GID 0 due to lack of supplemental groups from mod_sql]"
+	},
+	"annotations": [
+		{
+			"line": "\t- proftpd-dfsg 1.3.8.b+dfsg-4 (bug #1082326)",
+			"type": "package",
+			"package": "proftpd-dfsg",
+			"kind": "fixed",
+			"version": "1.3.8.b+dfsg-4",
+			"flags": [
+				{
+					"bug": 1082326
+				}
+			]
+		},
+		{
+			"line": "\tNOTE: https://github.com/proftpd/proftpd/issues/1830",
+			"type": "NOTE",
+			"description": "https://github.com/proftpd/proftpd/issues/1830"
+		},
+		{
+			"line": "\tNOTE: Pending confirmation for CVE assignment (likely to get CVE-2024-48651)",
+			"type": "NOTE",
+			"description": "Pending confirmation for CVE assignment (likely to get CVE-2024-48651)"
+		}
+	]
+}
