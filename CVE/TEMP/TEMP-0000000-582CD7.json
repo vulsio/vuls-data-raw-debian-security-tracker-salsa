@@ -1,0 +1,31 @@
+{
+	"header": {
+		"line": "CVE-2024-XXXX [ruzstd uninit and out-of-bounds memory reads]",
+		"name": "TEMP-0000000-582CD7",
+		"description": "[ruzstd uninit and out-of-bounds memory reads]"
+	},
+	"annotations": [
+		{
+			"line": "\t- rust-ruzstd <not-affected> (Only affects 0.7.x)",
+			"type": "package",
+			"package": "rust-ruzstd",
+			"kind": "not-affected",
+			"description": "Only affects 0.7.x"
+		},
+		{
+			"line": "\tNOTE: https://rustsec.org/advisories/RUSTSEC-2024-0400.html",
+			"type": "NOTE",
+			"description": "https://rustsec.org/advisories/RUSTSEC-2024-0400.html"
+		},
+		{
+			"line": "\tNOTE: https://github.com/KillingSpark/zstd-rs/issues/75",
+			"type": "NOTE",
+			"description": "https://github.com/KillingSpark/zstd-rs/issues/75"
+		},
+		{
+			"line": "\tNOTE: https://github.com/KillingSpark/zstd-rs/pull/76",
+			"type": "NOTE",
+			"description": "https://github.com/KillingSpark/zstd-rs/pull/76"
+		}
+	]
+}
