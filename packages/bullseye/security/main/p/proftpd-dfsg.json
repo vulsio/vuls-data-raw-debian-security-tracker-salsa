@@ -1,0 +1,53 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"proftpd-core, proftpd-dev, proftpd-doc, proftpd-mod-mysql, proftpd-mod-pgsql, proftpd-mod-ldap, proftpd-mod-odbc, proftpd-mod-sqlite, proftpd-mod-geoip, proftpd-mod-snmp, proftpd-mod-crypto, proftpd-mod-wrap, proftpd-basic"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-exec, libacl1-dev, libcap-dev [linux-any], libldap2-dev, default-libmysqlclient-dev, libncurses5-dev, libpam-dev, libpcre3-dev, libpq-dev, libsqlite3-dev, libssl-dev, libwrap0-dev, unixodbc-dev, zlib1g-dev, libgeoip-dev, libmemcached-dev (>= 0.41), libhiredis-dev, libsodium-dev, libmd-dev"
+	],
+	"Checksums-Sha256": [
+		"64fb92f5cf58b32d6e601450fb61ca75572c16f39f6faa9b87e34694ac0878c1 3148 proftpd-dfsg_1.3.7a+dfsg-12+deb11u3.dsc 572ad47ba7a5b6f39bb3ef293b6361c01daa0d25ed463dace15a7d5a9649c15f 20276614 proftpd-dfsg_1.3.7a+dfsg.orig.tar.gz 3a9c7b9a6e224e7a0f375bc4db713aca383befac0a158a3a585d0bb0cff030e2 93512 proftpd-dfsg_1.3.7a+dfsg-12+deb11u3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/p/proftpd-dfsg"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://www.proftpd.org/"
+	],
+	"Maintainer": [
+		"ProFTPD Maintainance Team <pkg-proftpd-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"proftpd-dfsg"
+	],
+	"Package-List": [
+		"proftpd-basic deb oldlibs optional arch=all proftpd-core deb net optional arch=any proftpd-dev deb net optional arch=any proftpd-doc deb doc optional arch=all proftpd-mod-crypto deb net optional arch=any proftpd-mod-geoip deb net optional arch=any proftpd-mod-ldap deb net optional arch=any proftpd-mod-mysql deb net optional arch=any proftpd-mod-odbc deb net optional arch=any proftpd-mod-pgsql deb net optional arch=any proftpd-mod-snmp deb net optional arch=any proftpd-mod-sqlite deb net optional arch=any proftpd-mod-wrap deb net optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"net"
+	],
+	"Standards-Version": [
+		"4.5.1"
+	],
+	"Uploaders": [
+		"Francesco Paolo Lovergine <frankie@debian.org>, Hilmar Preusse <hille42@web.de>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian-proftpd-team/proftpd"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian-proftpd-team/proftpd.git"
+	],
+	"Version": [
+		"1.3.7a+dfsg-12+deb11u3"
+	]
+}
