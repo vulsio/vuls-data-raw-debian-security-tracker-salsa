@@ -6,16 +6,16 @@
 		"python3-fastapi"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), pybuild-plugin-pyproject, python3-aiofiles <!nocheck>, python3-aiosqlite <!nocheck>, python3-all, python3-databases <!nocheck>, python3-dirty-equals <!nocheck>, python3-email-validator <!nocheck>, python3-flask <!nocheck>, python3-httpx (>= 0.23.1) <!nocheck>, python3-inline-snapshot <!nocheck>, python3-multipart <!nocheck>, python3-pdm-backend, python3-peewee <!nocheck>, python3-pydantic (>= 1.8.2) <!nocheck>, python3-pydantic-settings <!nocheck>, python3-pytest <!nocheck>, python3-requests <!nocheck>, python3-starlette (>= 0.25.0) <!nocheck>, python3-trio <!nocheck>, python3-typing-extensions (>= 4.7.1) <!nocheck>, python3-ujson <!nocheck>, python3-yaml <!nocheck>"
+		"debhelper-compat (= 13), pybuild-plugin-pyproject, python3-aiofiles <!nocheck>, python3-aiosqlite <!nocheck>, python3-all, python3-databases <!nocheck>, python3-dirty-equals <!nocheck>, python3-email-validator <!nocheck>, python3-flask <!nocheck>, python3-httpx (>= 0.23.1) <!nocheck>, python3-inline-snapshot <!nocheck>, python3-multipart (>= 0.0.13) | python3-python-multipart <!nocheck>, python3-multipart (<< 0.1) | python3-python-multipart <!nocheck>, python3-pdm-backend, python3-peewee <!nocheck>, python3-pydantic (>= 1.8.2) <!nocheck>, python3-pydantic-settings <!nocheck>, python3-pytest <!nocheck>, python3-requests <!nocheck>, python3-starlette (>= 0.25.0) <!nocheck>, python3-trio <!nocheck>, python3-typing-extensions (>= 4.7.1) <!nocheck>, python3-ujson <!nocheck>, python3-yaml <!nocheck>"
 	],
 	"Checksums-Sha256": [
-		"4794785a9b1a8de1b2e13d1656abd68abdcd1a0c8dece0aa39c8ec7cfb55e05e 2555 fastapi_0.115.5-1.dsc 053a62b31fd8c83028c28da9a8c98714a7b8e953ffb707c19def37c8d3e82ac6 11077980 fastapi_0.115.5.orig.tar.xz d93974b66446aab30745c5de7feae3286159f2821b8dbd8dd6d0882f3d21e984 5332 fastapi_0.115.5-1.debian.tar.xz"
+		"c18f5ca059f5f88ef24fdf7f58835a99cc4e86fe0eb40f5459167b33a7b6d3a4 2660 fastapi_0.115.5-2.dsc 053a62b31fd8c83028c28da9a8c98714a7b8e953ffb707c19def37c8d3e82ac6 11077980 fastapi_0.115.5.orig.tar.xz 4e1afcc4204fd3006440e00e3abd628f8dcafc0598fd71abe65632068b15f5cb 5444 fastapi_0.115.5-2.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/f/fastapi"
 	],
 	"Files": [
-		"fb82f36000674cd95ee65728f6aaa751 2555 fastapi_0.115.5-1.dsc 3309fd6bf34c99cbcab0c84499ee3fd4 11077980 fastapi_0.115.5.orig.tar.xz ea050a4d14d22006046165979e59ce08 5332 fastapi_0.115.5-1.debian.tar.xz"
+		"3809574d73a0d8cef1663c013ff5011c 2660 fastapi_0.115.5-2.dsc 3309fd6bf34c99cbcab0c84499ee3fd4 11077980 fastapi_0.115.5.orig.tar.xz 8acc5975fa216b962e75c7acb614007f 5444 fastapi_0.115.5-2.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -51,6 +51,6 @@
 		"https://salsa.debian.org/morph/fastapi.git"
 	],
 	"Version": [
-		"0.115.5-1"
+		"0.115.5-2"
 	]
 }

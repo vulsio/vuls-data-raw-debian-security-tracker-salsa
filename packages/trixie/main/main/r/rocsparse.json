@@ -9,16 +9,16 @@
 		"debhelper-compat (= 13), cmake, gfortran, hipcc (>= 5.6.1~), libamd-comgr-dev (>= 6.0~), libhsa-runtime-dev (>= 5.7.1~), rocm-cmake (>= 5.3.0), librocprim-dev (>= 5.5.1~), python3, python3-yaml, libgtest-dev <!nocheck>"
 	],
 	"Build-Depends-Indep": [
-		"dh-sequence-sphinxdoc <!nodoc>, doxygen <!nodoc>, python3-breathe <!nodoc>, python3-sphinx <!nodoc>, python3-sphinx-rtd-theme <!nodoc>, python3-sphinx-design <!nodoc>, python3-sphinx-copybutton <!nodoc>, python3-sphinx-book-theme <!nodoc>, libjs-jquery <!nodoc>, libjs-mathjax <!nodoc>, libjs-sphinxdoc <!nodoc>, libjs-underscore <!nodoc>, python3-myst-nb <!nodoc>"
+		"dh-sequence-sphinxdoc <!nodoc>, doxygen <!nodoc>, python3-breathe <!nodoc>, python3-sphinx <!nodoc>, python3-sphinx-rtd-theme <!nodoc>, python3-sphinx-design <!nodoc>, python3-sphinx-copybutton <!nodoc>, libjs-jquery <!nodoc>, libjs-mathjax <!nodoc>, libjs-sphinxdoc <!nodoc>, libjs-underscore <!nodoc>, python3-myst-nb <!nodoc>"
 	],
 	"Checksums-Sha256": [
-		"9f6b9ebd9c59c2b8f17ea9edb7980428dce003099688202ddbb302cc8734ffe3 3071 rocsparse_5.7.1-5.dsc 4c09b182b371124675d4057246021b5ed45e2833fdbf265b37a9b06b668baf0a 1167162 rocsparse_5.7.1.orig.tar.gz ae047245e9c2de0604c53a5cd67a4a229823ebad26dc7f4fd65aa7e929261b89 10280 rocsparse_5.7.1-5.debian.tar.xz"
+		"903b92464a22751eb8fccf209ff9b98ebbf797621c17f1ed4607aff6e69901a4 3066 rocsparse_5.7.1-6.dsc 4c09b182b371124675d4057246021b5ed45e2833fdbf265b37a9b06b668baf0a 1167162 rocsparse_5.7.1.orig.tar.gz ed6151e45ad1fe729d268c35dacdbd5ad208bc1e17db8198a75aff77e1d0981b 10676 rocsparse_5.7.1-6.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/r/rocsparse"
 	],
 	"Files": [
-		"12c508f738614c5eb23e9b03ba9992b0 3071 rocsparse_5.7.1-5.dsc 0da0005ef66b57ad3c2b0585aabf378b 1167162 rocsparse_5.7.1.orig.tar.gz f588297704fb8f9535c0d96388829389 10280 rocsparse_5.7.1-5.debian.tar.xz"
+		"50ba691de6ee04a646782973dad3462a 3066 rocsparse_5.7.1-6.dsc 0da0005ef66b57ad3c2b0585aabf378b 1167162 rocsparse_5.7.1.orig.tar.gz 111f7d6e4a83550c65485fd19b2cda3c 10676 rocsparse_5.7.1-6.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -48,7 +48,7 @@
 		"autopkgtest"
 	],
 	"Uploaders": [
-		"Maxime Chambonnet <maxzor@maxzor.eu>, Cordell Bloor <cgmb@slerp.xyz>, Étienne Mollier <emollier@debian.org>, Christian Kastner <ckk@debian.org>, Xuanteng Huang <xuanteng.huang@outlook.com>,"
+		"Maxime Chambonnet <maxzor@maxzor.eu>, Cordell Bloor <cgmb@slerp.xyz>, Étienne Mollier <emollier@debian.org>, Christian Kastner <ckk@debian.org>, Xuanteng Huang <xuanteng.huang@outlook.com>, Kari Pahula <kaol@debian.org>,"
 	],
 	"Vcs-Browser": [
 		"https://salsa.debian.org/rocm-team/rocsparse"
@@ -57,6 +57,6 @@
 		"https://salsa.debian.org/rocm-team/rocsparse.git"
 	],
 	"Version": [
-		"5.7.1-5"
+		"5.7.1-6"
 	]
 }
