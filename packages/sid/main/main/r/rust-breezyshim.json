@@ -6,16 +6,16 @@
 		"librust-breezyshim-dev"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), dh-sequence-cargo, cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-chrono-0.4+default-dev <!nocheck>, librust-ctor+default-dev (>= 0.1-~~) <!nocheck>, librust-lazy-regex+default-dev (>= 2-~~) <!nocheck>, librust-lazy-static-1+default-dev (>= 1.4.0-~~) <!nocheck>, librust-log-0.4+default-dev <!nocheck>, librust-patchkit-0.1+default-dev <!nocheck>, librust-percent-encoding-2+default-dev (>= 2.3.1-~~) <!nocheck>, librust-pyo3+chrono-dev (>= 0.22-~~) <!nocheck>, librust-pyo3+default-dev (>= 0.22-~~) <!nocheck>, librust-pyo3+py-clone-dev (>= 0.22-~~) <!nocheck>, librust-pyo3+serde-dev (>= 0.22-~~) <!nocheck>, librust-pyo3-filelike+default-dev (>= 0.1-~~) <!nocheck>, librust-serde-1+default-dev <!nocheck>, librust-serde-1+derive-dev <!nocheck>, librust-tempfile-3+default-dev (>= 3.6.0-~~) <!nocheck>, librust-url-2+default-dev <!nocheck>, librust-url-2+serde-dev <!nocheck>, python3-breezy <!nocheck>"
+		"debhelper-compat (= 13), dh-sequence-cargo, cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-chrono-0.4+default-dev <!nocheck>, librust-ctor+default-dev (>= 0.1-~~) <!nocheck>, librust-lazy-regex+default-dev (>= 2-~~) <!nocheck>, librust-lazy-static-1+default-dev (>= 1.4.0-~~) <!nocheck>, librust-log-0.4+default-dev <!nocheck>, librust-patchkit-0.2+default-dev <!nocheck>, librust-percent-encoding-2+default-dev (>= 2.3.1-~~) <!nocheck>, librust-pyo3-0.22+chrono-dev <!nocheck>, librust-pyo3-0.22+default-dev <!nocheck>, librust-pyo3-0.22+serde-dev <!nocheck>, librust-pyo3-filelike+default-dev (>= 0.1-~~) <!nocheck>, librust-serde-1+default-dev <!nocheck>, librust-serde-1+derive-dev <!nocheck>, librust-tempfile-3+default-dev (>= 3.6.0-~~) <!nocheck>, librust-url-2+default-dev <!nocheck>, librust-url-2+serde-dev <!nocheck>, python3-breezy <!nocheck>"
 	],
 	"Checksums-Sha256": [
-		"01ca6d84d33ba35d741438d583db5ca3a742ae041b8865aa2194a5f2a3c19c2c 2839 rust-breezyshim_0.1.213-1.dsc 6a0b670c2a2a927aeef6c6b96fdff0368992b462946f6922848b232a50891dd1 59395 rust-breezyshim_0.1.213.orig.tar.gz 604316d0ebb00b743111e9d96d848dac9253bc1ce66e68ff64ff12a4d34ff8fe 2932 rust-breezyshim_0.1.213-1.debian.tar.xz"
+		"5b880c5705e7bddb265162bb94259927444399507c6f15f8ef04f9b80b08e8c6 3121 rust-breezyshim_0.1.227-1.dsc ffe63ba40f1cf5aed5af3577f45cc5692e69f9bbf7b12950a87dd2469b9c3183 60941 rust-breezyshim_0.1.227.orig.tar.gz e6092635fdcdfbc178bd0258d6ad054a39ae63365fde3118a46e1eaa57b018a8 2944 rust-breezyshim_0.1.227-1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/r/rust-breezyshim"
 	],
 	"Files": [
-		"046dfa6a7845bf3ab512d7141eb0aa05 2839 rust-breezyshim_0.1.213-1.dsc 3cdc4c7544cf4c7bae17bb0d8b72c174 59395 rust-breezyshim_0.1.213.orig.tar.gz 06c7c24dac40a799ae26ec1d89e0729e 2932 rust-breezyshim_0.1.213-1.debian.tar.xz"
+		"d1ad5080687bd0e0d595ad0108dcd604 3121 rust-breezyshim_0.1.227-1.dsc 8d3908839fdf66defdded7401346b2cb 60941 rust-breezyshim_0.1.227.orig.tar.gz d3c2a1b817b5f56b1f28ff31622168f2 2944 rust-breezyshim_0.1.227-1.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -45,7 +45,7 @@
 		"autopkgtest"
 	],
 	"Testsuite-Triggers": [
-		"dh-cargo, librust-maplit-1+default-dev, librust-pyo3+chrono-dev, librust-pyo3+default-dev, librust-pyo3+py-clone-dev, librust-serial-test-dev, rustc"
+		"dh-cargo, librust-maplit-1+default-dev, librust-pyo3-0.22+chrono-dev, librust-pyo3-0.22+default-dev, librust-serial-test-dev, rustc"
 	],
 	"Uploaders": [
 		"Jelmer Vernooĳ <jelmer@debian.org>"
@@ -57,6 +57,6 @@
 		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/breezyshim]"
 	],
 	"Version": [
-		"0.1.213-1"
+		"0.1.227-1"
 	]
 }

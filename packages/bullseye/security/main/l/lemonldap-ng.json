@@ -1,0 +1,62 @@
+{
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"lemonldap-ng, lemonldap-ng-doc, lemonldap-ng-fastcgi-server, lemonldap-ng-uwsgi-app, lemonldap-ng-handler, liblemonldap-ng-handler-perl, liblemonldap-ng-common-perl, liblemonldap-ng-manager-perl, liblemonldap-ng-portal-perl"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), po-debconf"
+	],
+	"Build-Depends-Indep": [
+		"gpg <!nocheck>, gsfonts <!nocheck>, libapache-session-perl <!nocheck>, libauthen-oath-perl <!nocheck>, libauth-yubikey-webclient-perl <!nocheck>, libauthen-u2f-tester-perl <!nocheck>, libcache-cache-perl <!nocheck>, libclone-perl <!nocheck>, libconfig-inifiles-perl <!nocheck>, libconvert-base32-perl <!nocheck>, libconvert-pem-perl <!nocheck>, libcrypt-openssl-rsa-perl <!nocheck>, libcrypt-openssl-x509-perl <!nocheck>, libcrypt-urandom-perl <!nocheck>, libcrypt-rijndael-perl <!nocheck>, libcrypt-u2f-server-perl <!nocheck>, libdatetime-format-rfc3339-perl <!nocheck>, libdbd-sqlite3-perl <!nocheck>, libdbi-perl <!nocheck>, libdigest-hmac-perl <!nocheck>, libemail-sender-perl <!nocheck>, libgd-securityimage-perl <!nocheck>, libglib-perl <!nocheck>, libgssapi-perl <!nocheck>, libhtml-template-perl <!nocheck>, libimage-magick-perl <!nocheck>, libio-string-perl <!nocheck>, libipc-run-perl <!nocheck>, libjson-perl <!nocheck>, libjson-xs-perl <!nocheck>, liblasso-perl <!nocheck>, liblwp-protocol-psgi-perl, libmime-tools-perl <!nocheck>, libmouse-perl <!nocheck>, libnet-cidr-lite-perl <!nocheck>, libnet-ldap-perl <!nocheck>, libnet-openid-consumer-perl <!nocheck>, libnet-openid-server-perl <!nocheck>, libplack-perl <!nocheck>, libregexp-assemble-perl <!nocheck>, libregexp-common-perl <!nocheck>, libsoap-lite-perl <!nocheck>, libstring-random-perl <!nocheck>, libtest-mockobject-perl <!nocheck>, libtest-output-perl <!nocheck>, libtest-pod-perl <!nocheck>, libtext-unidecode-perl <!nocheck>, libtime-fake-perl <!nocheck>, libunicode-string-perl <!nocheck>, liburi-perl <!nocheck>, libhttp-message-perl <!nocheck>, libwww-perl <!nocheck>, libxml-libxml-perl <!nocheck>, libxml-libxslt-perl <!nocheck>, libxml-simple-perl <!nocheck>, libtest-leaktrace-perl <!nocheck>, python3-sphinx, python3-sphinx-bootstrap-theme, uglifyjs, yui-compressor, perl"
+	],
+	"Checksums-Sha256": [
+		"db0f075f1ef41eca3db15110b19ad11357e987cd6338f906b705fd71623f9710 4799 lemonldap-ng_2.0.11+ds-4+deb11u6.dsc 26b6b3330c78efdbaa4240175506eed5ac5f510349433ac280fbb730e8e7006d 8302736 lemonldap-ng_2.0.11+ds.orig.tar.xz c438f3230b483e00bf5f9dd39b4498bf7d5b54db80f8c847f9ab046743b43f0b 64216 lemonldap-ng_2.0.11+ds-4+deb11u6.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/l/lemonldap-ng"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://lemonldap-ng.org/"
+	],
+	"Maintainer": [
+		"Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"lemonldap-ng"
+	],
+	"Package-List": [
+		"lemonldap-ng deb perl optional arch=all lemonldap-ng-doc deb doc optional arch=all lemonldap-ng-fastcgi-server deb web optional arch=all lemonldap-ng-handler deb perl optional arch=all lemonldap-ng-uwsgi-app deb web optional arch=all liblemonldap-ng-common-perl deb perl optional arch=all liblemonldap-ng-handler-perl deb perl optional arch=all liblemonldap-ng-manager-perl deb perl optional arch=all liblemonldap-ng-portal-perl deb perl optional arch=all"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"perl"
+	],
+	"Standards-Version": [
+		"4.5.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"@builddeps@, libauthen-pam-perl, libauthen-radius-perl, libdatetime-format-rfc3339-perl, libio-socket-timeout-perl, liblog-log4perl-perl, libmouse-perl, libweb-id-perl, libyaml-perl, pkg-perl-autopkgtest"
+	],
+	"Uploaders": [
+		"Yadd <yadd@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/perl-team/modules/packages/lemonldap-ng"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/perl-team/modules/packages/lemonldap-ng.git"
+	],
+	"Version": [
+		"2.0.11+ds-4+deb11u6"
+	]
+}

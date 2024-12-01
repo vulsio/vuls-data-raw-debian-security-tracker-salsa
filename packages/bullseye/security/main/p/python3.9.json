@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"python3.9, python3.9-venv, libpython3.9-stdlib, python3.9-minimal, libpython3.9-minimal, libpython3.9, python3.9-examples, python3.9-dev, libpython3.9-dev, libpython3.9-testsuite, idle-python3.9, python3.9-doc, python3.9-dbg, libpython3.9-dbg, python3.9-full"
+	],
+	"Build-Conflicts": [
+		"git"
+	],
+	"Build-Depends": [
+		"debhelper (>= 11), dpkg-dev (>= 1.17.11), quilt, autoconf, lsb-release, sharutils, libreadline-dev, libncursesw5-dev (>= 5.3), zlib1g-dev, libbz2-dev, liblzma-dev, libgdbm-dev, libdb-dev, tk-dev, blt-dev (>= 2.4z), libssl-dev, libexpat1-dev, libmpdec-dev (>= 2.5.1~), libbluetooth-dev [linux-any] <!pkg.python3.9.nobluetooth>, locales-all, libsqlite3-dev, libffi-dev (>= 3.0.5) [!or1k !avr32], libgpm2 [linux-any], media-types | mime-support, netbase, bzip2, time, python3:any, python3.9:any <cross>, net-tools, xvfb <!nocheck>, xauth <!nocheck>, systemtap-sdt-dev"
+	],
+	"Build-Depends-Indep": [
+		"python3-sphinx, python3-docs-theme, texinfo"
+	],
+	"Checksums-Sha256": [
+		"f744cc73539a897a7f885e1046addf27b66fc0f9d188dec74cfeb21dbeed5f5b 3500 python3.9_3.9.2-1+deb11u1.dsc 3c2034c54f811448f516668dce09d24008a0716c3a794dd8639b5388cbde247d 18889164 python3.9_3.9.2.orig.tar.xz dddec96735163c498a50bf1fbbdf9d5ca0ba36c93d2366396a5dc78352afdf36 266200 python3.9_3.9.2-1+deb11u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/p/python3.9"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Matthias Klose <doko@debian.org>"
+	],
+	"Package": [
+		"python3.9"
+	],
+	"Package-List": [
+		"idle-python3.9 deb python optional arch=all libpython3.9 deb libs optional arch=any libpython3.9-dbg deb debug optional arch=any libpython3.9-dev deb libdevel optional arch=any libpython3.9-minimal deb python optional arch=any libpython3.9-stdlib deb python optional arch=any libpython3.9-testsuite deb libdevel optional arch=all python3.9 deb python optional arch=any python3.9-dbg deb debug optional arch=any python3.9-dev deb python optional arch=any python3.9-doc deb doc optional arch=all python3.9-examples deb python optional arch=all python3.9-full deb python optional arch=any python3.9-minimal deb python optional arch=any python3.9-venv deb python optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"build-essential, python3-setuptools, shunit2, virtualenv"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/cpython-team/python3/tree/python3.9"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/cpython-team/python3.git -b python3.9"
+	],
+	"Version": [
+		"3.9.2-1+deb11u1"
+	]
+}
