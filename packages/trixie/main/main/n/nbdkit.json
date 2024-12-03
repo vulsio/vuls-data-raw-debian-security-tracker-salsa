@@ -1,0 +1,53 @@
+{
+	"Architecture": [
+		"linux-any"
+	],
+	"Binary": [
+		"nbdkit, nbdkit-plugin-dev, nbdkit-plugin-lua, nbdkit-plugin-perl, nbdkit-plugin-python, nbdkit-plugin-tcl, nbdkit-plugin-libvirt, nbdkit-plugin-guestfs"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 12), perl, pkgconf, bash-completion, xorriso, comerr-dev, libcurl4-gnutls-dev | libcurl-dev, libext2fs-dev, libgnutls28-dev (>= 3.3), gnutls-bin, libguestfs-dev (>= 1:1.36.11-3), liblzma-dev, liblua5.3-dev, libperl-dev, python3-dev, tcl-dev, libselinux1-dev, libssh-dev, libtorrent-rasterbar-dev (>= 2), libvirt-dev, zlib1g-dev, libzstd-dev, linux-image-amd64 [amd64] <!nocheck>, linux-image-rpi [armel] <!nocheck> | linux-image-marvell [armel] <!nocheck>, linux-image-arm64 [arm64] <!nocheck>, linux-image-4kc-malta [mips mipsel] <!nocheck> | linux-image-5kc-malta [mips mipsel] <!nocheck>, linux-image-5kc-malta [mips64 mips64el] <!nocheck>, linux-image-loong64 [loong64] <!nocheck>, linux-image-powerpc64le [ppc64el] <!nocheck>, linux-image-riscv64 [riscv64] <!nocheck>, linux-image-s390x [s390x] <!nocheck>, busybox <!nocheck>, iproute2 <!nocheck>, jq <!nocheck>, socat <!nocheck>, libguestfs-tools [amd64 arm64 loong64 ppc64el riscv64 s390x] <!nocheck>, libnbd-dev, libnbd-bin <!nocheck>, python3-libnbd <!nocheck>, expect <!nocheck>, bsdextrautils <!nocheck>, openssh-server <!nocheck>, qemu-utils <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"b31da57508013d823f52877a6776cb6a78b087f39c8a75355a407b2be5bcbfcd 3464 nbdkit_1.40.4-5.dsc 846a1cdf817b780bc78dd407c5caae349869c292f908b7efd830592959a9729c 2497622 nbdkit_1.40.4.orig.tar.gz 72b68362dd7448e749b5b68caccaa493832401c6d54e737cc12aedfc5cd478de 12112 nbdkit_1.40.4-5.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/n/nbdkit"
+	],
+	"Files": [
+		"1f8f63b11751b394b9e01068033d95cf 3464 nbdkit_1.40.4-5.dsc 71da8b43582b7eb61c5f7680bb3ccd52 2497622 nbdkit_1.40.4.orig.tar.gz 41f30f841794e15a4e4d9703c08e524a 12112 nbdkit_1.40.4-5.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://gitlab.com/nbdkit/nbdkit"
+	],
+	"Maintainer": [
+		"Hilko Bengen <bengen@debian.org>"
+	],
+	"Package": [
+		"nbdkit"
+	],
+	"Package-List": [
+		"nbdkit deb admin optional arch=linux-any nbdkit-plugin-dev deb libdevel optional arch=linux-any nbdkit-plugin-guestfs deb admin optional arch=linux-any nbdkit-plugin-libvirt deb admin optional arch=linux-any nbdkit-plugin-lua deb admin optional arch=linux-any nbdkit-plugin-perl deb admin optional arch=linux-any nbdkit-plugin-python deb admin optional arch=linux-any nbdkit-plugin-tcl deb admin optional arch=linux-any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.0"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/nbdkit"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/nbdkit.git"
+	],
+	"Version": [
+		"1.40.4-5"
+	]
+}

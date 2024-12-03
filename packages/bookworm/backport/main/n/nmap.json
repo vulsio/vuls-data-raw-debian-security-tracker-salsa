@@ -3,16 +3,16 @@
 		"any all"
 	],
 	"Binary": [
-		"nmap, nmap-common, ndiff, ncat"
+		"nmap, nmap-common, zenmap, ndiff, ncat"
 	],
 	"Build-Depends": [
-		"bison, debhelper-compat (= 13), dh-python, flex, liblinear-dev, liblua5.4-dev, libpcap0.8-dev, libpcre2-dev, libssh2-1-dev, libssl-dev, zlib1g-dev, lua-lpeg-dev, python3"
+		"bison, debhelper-compat (= 13), dh-python, flex, liblinear-dev, liblua5.4-dev, libpcap0.8-dev, libpcre2-dev, libssh2-1-dev, libssl-dev, lua-lpeg-dev, python3, python3-gi, gir1.2-gtk-3.0, gir1.2-pango-1.0, gir1.2-glib-2.0, gir1.2-gdkpixbuf-2.0"
 	],
 	"Build-Depends-Indep": [
 		"default-jdk-headless, gcc-mingw-w64-i686"
 	],
 	"Checksums-Sha256": [
-		"7d941c62a19aaf4542d7f3c784de5ca74436f65e1c04d25ee1b31140f05776d8 2454 nmap_7.94+git20230807.3be01efb1+dfsg-1~bpo12+1.dsc b8a889c736aa1a8c31ee996eeeeab46345e6bd40eb27af8ca355d380d8f0fbe3 7975424 nmap_7.94+git20230807.3be01efb1+dfsg.orig.tar.xz addb9477dd9096a3799f85143e7bc51069d829d98627db87b2bf5eaa5c1b81b2 22148 nmap_7.94+git20230807.3be01efb1+dfsg-1~bpo12+1.debian.tar.xz"
+		"c7e0205c4f59f23ebe0cf9cb11c85fb175de875ffe31d163f60ec23a53c5a10f 2569 nmap_7.94+git20230807.3be01efb1+dfsg-4~bpo12+1.dsc b8a889c736aa1a8c31ee996eeeeab46345e6bd40eb27af8ca355d380d8f0fbe3 7975424 nmap_7.94+git20230807.3be01efb1+dfsg.orig.tar.xz ca5dfb0b48834b6617312bd757e9453a28cc65127f998949ea9446748f5ef92a 23968 nmap_7.94+git20230807.3be01efb1+dfsg-4~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/n/nmap"
@@ -30,7 +30,7 @@
 		"nmap"
 	],
 	"Package-List": [
-		"ncat deb net optional arch=any ndiff deb net optional arch=all nmap deb net optional arch=any nmap-common deb net optional arch=all"
+		"ncat deb net optional arch=any ndiff deb net optional arch=all nmap deb net optional arch=any nmap-common deb net optional arch=all zenmap deb net optional arch=all"
 	],
 	"Priority": [
 		"optional"
@@ -51,6 +51,6 @@
 		"https://salsa.debian.org/pkg-security-team/nmap.git"
 	],
 	"Version": [
-		"7.94+git20230807.3be01efb1+dfsg-1~bpo12+1"
+		"7.94+git20230807.3be01efb1+dfsg-4~bpo12+1"
 	]
 }
