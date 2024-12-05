@@ -1,0 +1,62 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-cargo-test-support-dev"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-sequence-cargo, cargo:native <!nocheck>, rustc:native (>= 1.79) <!nocheck>, libstd-rust-dev <!nocheck>, librust-anstream-0.6+default-dev (>= 0.6.13-~~) <!nocheck>, librust-anstyle-1+default-dev (>= 1.0.6-~~) <!nocheck>, librust-anyhow-1+default-dev (>= 1.0.82-~~) <!nocheck>, librust-cargo-test-macro-0.3+default-dev <!nocheck>, librust-cargo-util-0.2+default-dev (>= 0.2.14-~~) <!nocheck>, librust-crates-io-0.40+default-dev (>= 0.40.4-~~) <!nocheck>, librust-filetime-0.2+default-dev (>= 0.2.23-~~) <!nocheck>, librust-flate2-1+zlib-dev (>= 1.0.30-~~) <!nocheck>, librust-git2-0.19+default-dev <!nocheck>, librust-glob-0.3+default-dev (>= 0.3.1-~~) <!nocheck>, librust-itertools-0.13+default-dev <!nocheck>, librust-pasetors-0.6+default-dev (>= 0.6.8-~~) <!nocheck>, librust-pasetors-0.6+paserk-dev (>= 0.6.8-~~) <!nocheck>, librust-pasetors-0.6+serde-dev (>= 0.6.8-~~) <!nocheck>, librust-pasetors-0.6+std-dev (>= 0.6.8-~~) <!nocheck>, librust-pasetors-0.6+v3-dev (>= 0.6.8-~~) <!nocheck>, librust-regex-1+default-dev (>= 1.10.4-~~) <!nocheck>, librust-serde-1+default-dev (>= 1.0.199-~~) <!nocheck>, librust-serde-1+derive-dev (>= 1.0.199-~~) <!nocheck>, librust-serde-json-1+default-dev (>= 1.0.116-~~) <!nocheck>, librust-snapbox-0.6+default-dev (>= 0.6.9-~~) <!nocheck>, librust-snapbox-0.6+diff-dev (>= 0.6.9-~~) <!nocheck>, librust-snapbox-0.6+dir-dev (>= 0.6.9-~~) <!nocheck>, librust-snapbox-0.6+json-dev (>= 0.6.9-~~) <!nocheck>, librust-snapbox-0.6+regex-dev (>= 0.6.9-~~) <!nocheck>, librust-snapbox-0.6+term-svg-dev (>= 0.6.9-~~) <!nocheck>, librust-tar-0.4-dev (>= 0.4.40-~~) <!nocheck>, librust-time-0.3+default-dev (>= 0.3.36-~~) <!nocheck>, librust-time-0.3+formatting-dev (>= 0.3.36-~~) <!nocheck>, librust-time-0.3+parsing-dev (>= 0.3.36-~~) <!nocheck>, librust-time-0.3+serde-dev (>= 0.3.36-~~) <!nocheck>, librust-toml-0.8+default-dev (>= 0.8.14-~~) <!nocheck>, librust-url-2+default-dev (>= 2.5.0-~~) <!nocheck>, librust-walkdir-2+default-dev (>= 2.5.0-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"8edd7a94d1a78a9ab26839451355bb66d4385047811915ad0208b5d8cfa547e8 4247 rust-cargo-test-support_0.3.0-1.dsc a816b64664799fb248c06ca28b989ee22ef6d9f83c0495e28954a56d4e9a27ba 55219 rust-cargo-test-support_0.3.0.orig.tar.gz 836f89512f5399bc31c591b2e17c42d8395ccedfa21836989b6120614208fd8c 3196 rust-cargo-test-support_0.3.0-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-cargo-test-support"
+	],
+	"Files": [
+		"92ca175b2b11f19059cfb804e64126d2 4247 rust-cargo-test-support_0.3.0-1.dsc 1244a8c1e17a3cd7093806bb0aad1fb2 55219 rust-cargo-test-support_0.3.0.orig.tar.gz 7f305d6eb165b564e29818fd42244dbc 3196 rust-cargo-test-support_0.3.0-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/rust-lang/cargo"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-cargo-test-support"
+	],
+	"Package-List": [
+		"librust-cargo-test-support-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.7.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, rustc"
+	],
+	"Uploaders": [
+		"Fabian Grünbichler <debian@fabian.gruenbichler.email>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/cargo-test-support"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/cargo-test-support]"
+	],
+	"Version": [
+		"0.3.0-1"
+	]
+}
