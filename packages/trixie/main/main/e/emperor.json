@@ -1,0 +1,62 @@
+{
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python3-emperor, python3-emperor-doc"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-setuptools, python3-sphinx, python3-sphinx-bootstrap-theme, python3-numpydoc, python3-numpy <!nocheck>, python3-pandas <!nocheck>, python3-skbio (>= 0.5.8-2exp1~) <!nocheck>, python3-click <!nocheck>, node-jsdoc2 <!nocheck>, python3-notebook <!nocheck>, python3-pytest <!nocheck>, libjs-qunit <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"74624df79f276bb80c2dfee2a0188a07a0f521e0c5998f574c42cf92729b4837 2367 emperor_1.0.3+ds-9.1.dsc 32d2b77b7f3c6aa425a5fe6e77e2441c5bf319fd71c971269f82ce7d8e4f529e 17953296 emperor_1.0.3+ds.orig.tar.xz 2056aeb04bac4f719b130a45e334435b19e311f0f1fef09916e959e36b9a7f60 9144 emperor_1.0.3+ds-9.1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/e/emperor"
+	],
+	"Files": [
+		"44d11631b2ba69999fabe1037ee1ee04 2367 emperor_1.0.3+ds-9.1.dsc faf7d5aab389b40b013ddd781003dff8 17953296 emperor_1.0.3+ds.orig.tar.xz 8ffd93611ed91be16260dd896d9c7cdf 9144 emperor_1.0.3+ds-9.1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://biocore.github.io/emperor/"
+	],
+	"Maintainer": [
+		"Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"emperor"
+	],
+	"Package-List": [
+		"python3-emperor deb python optional arch=all python3-emperor-doc deb doc optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"python3-all, python3-click, python3-notebook, python3-pytest"
+	],
+	"Uploaders": [
+		"Liubov Chuprikova <chuprikovalv@gmail.com>, Steffen Moeller <moeller@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/med-team/emperor"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/med-team/emperor.git"
+	],
+	"Version": [
+		"1.0.3+ds-9.1"
+	]
+}
