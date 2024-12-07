@@ -1,0 +1,62 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"fp-units-castle-game-engine, castle-game-engine-doc, castle-game-engine-src"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-sequence-debputy (>= 0.1.14~), fonts-dejavu, fp-compiler, fp-units-base, fp-units-db, fp-units-fcl, fp-units-gfx, fp-units-gtk2, fp-units-misc, fp-units-multimedia, fp-units-net, fp-utils (>= 2.6.2), help2man, imagemagick-6.q16, libatk1.0-dev, libcairo2-dev, libfreetype6-dev, libgdk-pixbuf-2.0-dev, libgl1, libgtk2.0-dev, libpango1.0-dev"
+	],
+	"Build-Depends-Indep": [
+		"fonts-dejavu, pasdoc (>= 0.16.0~)"
+	],
+	"Checksums-Sha256": [
+		"4860abf5ae130db0bb6f907703b25bec4507ab6b1aab647ca5086b41fdf7f34a 2250 castle-game-engine_7.0~alpha.3+dfsg1-2~bpo12+1.dsc e1696dd8b9e098c9bab6a19e70a8a3305ae9f35a9d2d5b9d1c88712a3a17592e 532802756 castle-game-engine_7.0~alpha.3+dfsg1.orig.tar.xz d88b4c204b193b0fd3bc0698e0efe65f51ef97518b7d599cbb623aa02c76acfc 28968 castle-game-engine_7.0~alpha.3+dfsg1-2~bpo12+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/c/castle-game-engine"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://castle-engine.sourceforge.io/engine.php"
+	],
+	"Maintainer": [
+		"Pascal Packaging Team <pkg-pascal-devel@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"castle-game-engine"
+	],
+	"Package-List": [
+		"castle-game-engine-doc deb doc optional arch=all castle-game-engine-src deb doc optional arch=all fp-units-castle-game-engine deb misc optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.5.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"@builddeps@"
+	],
+	"Uploaders": [
+		"Abou Al Montacir <abou.almontacir@sfr.fr>, Paul Gevers <elbrus@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/pascal-team/castle-game-engine"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/pascal-team/castle-game-engine.git"
+	],
+	"Version": [
+		"7.0~alpha.3+dfsg1-2~bpo12+1"
+	]
+}
