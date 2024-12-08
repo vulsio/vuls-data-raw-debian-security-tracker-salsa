@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"fdroidserver"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-sequence-bash-completion, dh-sequence-python3, python3-ruamel.yaml <!nocheck>, python3, python3-asn1crypto <!nocheck>, python3-babel, python3-defusedxml <!nocheck>, python3-git <!nocheck>, python3-paramiko <!nocheck>, python3-pil <!nocheck>, python3-qrcode <!nocheck>, python3-requests <!nocheck>, python3-setuptools, python3-yaml <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"4c696b3b1846cc0fc1cdbeb2153b7c055ef35c0f2ec0f9619f15a6a8749683ee 2338 fdroidserver_2.3.1-1~bpo12+1.dsc b0473bd62976e51a13d58a2e626627773cdcf3df67e747c7f1572afc6c71c89d 5360191 fdroidserver_2.3.1.orig.tar.gz 527268301b8053dde292af01ee0b52aade9215cd63a8a7771fdc7288386b64b5 488 fdroidserver_2.3.1.orig.tar.gz.asc 65773ae7dfbeb54f7958ec1cff86d7561136c9f59f5504e2a73468899f3c99de 22180 fdroidserver_2.3.1-1~bpo12+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/f/fdroidserver"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://f-droid.org"
+	],
+	"Maintainer": [
+		"Hans-Christoph Steiner <hans@eds.org>"
+	],
+	"Package": [
+		"fdroidserver"
+	],
+	"Package-List": [
+		"fdroidserver deb devel optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.2"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dexdump, git, python3-libcloud, python3-setuptools"
+	],
+	"Uploaders": [
+		"Debian Python Team <team+python@tracker.debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/python-team/packages/fdroidserver"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/python-team/packages/fdroidserver.git"
+	],
+	"Version": [
+		"2.3.1-1~bpo12+1"
+	]
+}
