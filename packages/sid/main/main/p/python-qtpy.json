@@ -3,19 +3,19 @@
 		"all"
 	],
 	"Binary": [
-		"python3-qtpy"
+		"python3-qtpy, python3-qtpy-pyqt5, python3-qtpy-pyqt6, python3-qtpy-pyside6"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), dh-python, fonts-urw-base35 <!nocheck>, libqt5sql5-sqlite <!nocheck>, pybuild-plugin-pyproject, python3-all, python3-packaging, python3-pyqt5 <!nocheck>, python3-pyqt5.qsci <!nocheck>, python3-pyqt5.qtchart <!nocheck>, python3-pyqt5.qtmultimedia <!nocheck>, python3-pyqt5.qtopengl <!nocheck>, python3-pyqt5.qtpositioning <!nocheck>, python3-pyqt5.qtquick <!nocheck>, python3-pyqt5.qtremoteobjects <!nocheck>, python3-pyqt5.qtsensors <!nocheck>, python3-pyqt5.qtserialport <!nocheck>, python3-pyqt5.qtsql <!nocheck>, python3-pyqt5.qtsvg <!nocheck>, python3-pyqt5.qttexttospeech <!nocheck>, python3-pyqt5.qtwebchannel <!nocheck>, python3-pyqt5.qtwebengine [amd64 arm64 armhf i386 mips64el mipsel], python3-pyqt5.qtwebkit <!nocheck>, python3-pyqt5.qtwebsockets <!nocheck>, python3-pyqt5.qtxmlpatterns <!nocheck>, python3-pytest <!nocheck>, python3-pytest-cov <!nocheck>, python3-pytest-xvfb (>= 3.0.0) <!nocheck>, python3-pytestqt <!nocheck>, python3-setuptools"
+		"debhelper-compat (= 13), dh-python, fonts-urw-base35 <!nocheck>, libqt5sql5-sqlite <!nocheck>, libqt6sql6-sqlite <!nocheck>, pybuild-plugin-pyproject, pyqt6-dev-tools, pyside6-tools, python3-all, python3-debian, python3-packaging, python3-pyqt5 <!nocheck>, python3-pyqt5.qsci <!nocheck>, python3-pyqt5.qtbluetooth <!nocheck>, python3-pyqt5.qtchart <!nocheck>, python3-pyqt5.qtmultimedia <!nocheck>, python3-pyqt5.qtopengl <!nocheck>, python3-pyqt5.qtpositioning <!nocheck>, python3-pyqt5.qtquick <!nocheck>, python3-pyqt5.qtremoteobjects <!nocheck>, python3-pyqt5.qtsensors <!nocheck>, python3-pyqt5.qtserialport <!nocheck>, python3-pyqt5.qtsql <!nocheck>, python3-pyqt5.qtsvg <!nocheck>, python3-pyqt5.qttexttospeech <!nocheck>, python3-pyqt5.qtwebchannel <!nocheck>, python3-pyqt5.qtwebengine [amd64 arm64 armhf i386 mips64el mipsel] <!nocheck>, python3-pyqt5.qtwebkit <!nocheck>, python3-pyqt5.qtwebsockets <!nocheck>, python3-pyqt5.qtx11extras <!nocheck>, python3-pyqt5.qtxmlpatterns <!nocheck>, python3-pyqt6 <!nocheck>, python3-pyqt6.qtbluetooth <!nocheck>, python3-pyqt6.qtcharts <!nocheck>, python3-pyqt6.qtdesigner <!nocheck>, python3-pyqt6.qthelp <!nocheck>, python3-pyqt6.qtmultimedia <!nocheck>, python3-pyqt6.qtpdf <!nocheck>, python3-pyqt6.qtpositioning <!nocheck>, python3-pyqt6.qtquick <!nocheck>, python3-pyqt6.qtquick3d <!nocheck>, python3-pyqt6.qtremoteobjects <!nocheck>, python3-pyqt6.qtsensors <!nocheck>, python3-pyqt6.qtserialport <!nocheck>, python3-pyqt6.qtsvg <!nocheck>, python3-pyqt6.qttexttospeech <!nocheck>, python3-pyqt6.qtwebchannel <!nocheck>, python3-pyqt6.qtwebengine [amd64 arm64 armhf i386 mips64el mipsel] <!nocheck>, python3-pyqt6.qtwebsockets <!nocheck>, python3-pyqt6.sip <!nocheck>, python3-pyside6.qt3danimation <!nocheck>, python3-pyside6.qt3dextras <!nocheck>, python3-pyside6.qt3dinput <!nocheck>, python3-pyside6.qt3dlogic <!nocheck>, python3-pyside6.qtbluetooth <!nocheck>, python3-pyside6.qtcharts <!nocheck>, python3-pyside6.qtconcurrent <!nocheck>, python3-pyside6.qtdatavisualization <!nocheck>, python3-pyside6.qtdbus <!nocheck>, python3-pyside6.qtdesigner <!nocheck>, python3-pyside6.qthelp <!nocheck>, python3-pyside6.qtmultimedia <!nocheck>, python3-pyside6.qtmultimediawidgets <!nocheck>, python3-pyside6.qtnetworkauth <!nocheck>, python3-pyside6.qtopengl <!nocheck>, python3-pyside6.qtopenglwidgets <!nocheck>, python3-pyside6.qtpdf <!nocheck>, python3-pyside6.qtpdfwidgets <!nocheck>, python3-pyside6.qtpositioning <!nocheck>, python3-pyside6.qtquick <!nocheck>, python3-pyside6.qtquick3d <!nocheck>, python3-pyside6.qtquickcontrols2 <!nocheck>, python3-pyside6.qtquickwidgets <!nocheck>, python3-pyside6.qtremoteobjects <!nocheck>, python3-pyside6.qtscxml <!nocheck>, python3-pyside6.qtsensors <!nocheck>, python3-pyside6.qtserialport <!nocheck>, python3-pyside6.qtsql <!nocheck>, python3-pyside6.qtstatemachine <!nocheck>, python3-pyside6.qtsvg <!nocheck>, python3-pyside6.qtsvgwidgets <!nocheck>, python3-pyside6.qttest <!nocheck>, python3-pyside6.qttexttospeech <!nocheck>, python3-pyside6.qtuitools <!nocheck>, python3-pyside6.qtwebchannel <!nocheck>, python3-pyside6.qtwebenginecore [amd64 arm64 armhf i386 mips64el mipsel] <!nocheck>, python3-pyside6.qtwebenginequick [amd64 arm64 armhf i386 mips64el mipsel] <!nocheck>, python3-pyside6.qtwebenginewidgets [amd64 arm64 armhf i386 mips64el mipsel] <!nocheck>, python3-pyside6.qtwebsockets <!nocheck>, python3-pytest <!nocheck>, python3-pytest-cov <!nocheck>, python3-pytest-xvfb (>= 3.0.0) <!nocheck>, python3-pytestqt <!nocheck>, python3-qtpy <!nocheck>, python3-setuptools"
 	],
 	"Checksums-Sha256": [
-		"d435dfa7676616856f3c090f0c83e0604e914695c22b1e7e4e7b83b3abaea345 3587 python-qtpy_2.4.1-2.dsc a5a15ffd519550a1361bdc56ffc07fda56a6af7292f17c7b395d4083af632987 65492 python-qtpy_2.4.1.orig.tar.gz 77e65a890bfb8063d6a5b363daba7cd309acd74c24eaf22723beba52ac97277c 7072 python-qtpy_2.4.1-2.debian.tar.xz"
+		"156b842e67d99065be2695fe17d12d737ab064e5f7965c6dff291f9886ff50d0 6104 python-qtpy_2.4.1-3.dsc a5a15ffd519550a1361bdc56ffc07fda56a6af7292f17c7b395d4083af632987 65492 python-qtpy_2.4.1.orig.tar.gz 15deeae85dfdf8380b49c6bae7aafc8e1223a71fcc5483e92ba44777886086ae 10748 python-qtpy_2.4.1-3.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/p/python-qtpy"
 	],
 	"Files": [
-		"0fb441d73a357adc0a5606b23141573a 3587 python-qtpy_2.4.1-2.dsc 9a4ed88d2b16b3e660265881430c4779 65492 python-qtpy_2.4.1.orig.tar.gz 81e1354eb988c2167477414b1d7f90b3 7072 python-qtpy_2.4.1-2.debian.tar.xz"
+		"ba43e4e3b0d54f99ae09fa875228aab5 6104 python-qtpy_2.4.1-3.dsc 9a4ed88d2b16b3e660265881430c4779 65492 python-qtpy_2.4.1.orig.tar.gz e2b41e55ae34cc100e6d18144fb46e70 10748 python-qtpy_2.4.1-3.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -30,7 +30,7 @@
 		"python-qtpy"
 	],
 	"Package-List": [
-		"python3-qtpy deb python optional arch=all"
+		"python3-qtpy deb python optional arch=all python3-qtpy-pyqt5 deb python optional arch=all python3-qtpy-pyqt6 deb python optional arch=all python3-qtpy-pyside6 deb python optional arch=all"
 	],
 	"Priority": [
 		"optional"
@@ -39,16 +39,16 @@
 		"misc"
 	],
 	"Standards-Version": [
-		"4.6.2"
+		"4.7.0"
 	],
 	"Testsuite": [
 		"autopkgtest"
 	],
 	"Testsuite-Triggers": [
-		"fonts-urw-base35, libqt5sql5-sqlite, python3-all, python3-pyqt5, python3-pyqt5.qsci, python3-pyqt5.qtchart, python3-pyqt5.qtmultimedia, python3-pyqt5.qtopengl, python3-pyqt5.qtpositioning, python3-pyqt5.qtquick, python3-pyqt5.qtremoteobjects, python3-pyqt5.qtsensors, python3-pyqt5.qtserialport, python3-pyqt5.qtsql, python3-pyqt5.qtsvg, python3-pyqt5.qttexttospeech, python3-pyqt5.qtwebchannel, python3-pyqt5.qtwebengine, python3-pyqt5.qtwebkit, python3-pyqt5.qtwebsockets, python3-pyqt5.qtxmlpatterns, python3-pyqt5.sip, python3-pytest, python3-pytestqt, xauth, xvfb"
+		"@builddeps@, fonts-urw-base35, libqt5sql5-sqlite, libqt6sql6-sqlite, python3-all, python3-pyqt5.qtwebengine, python3-pyqt6.qtwebengine, python3-pyside6.qtwebenginecore, python3-pyside6.qtwebenginequick, python3-pyside6.qtwebenginewidgets, python3-pytest, python3-pytest-cov, python3-pytest-xvfb, python3-pytestqt"
 	],
 	"Uploaders": [
-		"Ghislain Antony Vaillant <ghisvail@gmail.com>, Julian Gilbey <jdg@debian.org>"
+		"Julian Gilbey <jdg@debian.org>,"
 	],
 	"Vcs-Browser": [
 		"https://salsa.debian.org/python-team/packages/python-qtpy"
@@ -57,6 +57,6 @@
 		"https://salsa.debian.org/python-team/packages/python-qtpy.git"
 	],
 	"Version": [
-		"2.4.1-2"
+		"2.4.1-3"
 	]
 }
