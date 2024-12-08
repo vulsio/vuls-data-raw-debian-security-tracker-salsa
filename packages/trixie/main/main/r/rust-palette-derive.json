@@ -6,16 +6,16 @@
 		"librust-palette-derive-dev"
 	],
 	"Build-Depends": [
-		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native (>= 1.60.0) <!nocheck>, libstd-rust-dev <!nocheck>, librust-proc-macro2-1+default-dev <!nocheck>, librust-quote-1+default-dev <!nocheck>, librust-syn-2+clone-impls-dev (>= 2.0.13-~~) <!nocheck>, librust-syn-2+derive-dev (>= 2.0.13-~~) <!nocheck>, librust-syn-2+extra-traits-dev (>= 2.0.13-~~) <!nocheck>, librust-syn-2+parsing-dev (>= 2.0.13-~~) <!nocheck>, librust-syn-2+printing-dev (>= 2.0.13-~~) <!nocheck>, librust-syn-2+proc-macro-dev (>= 2.0.13-~~) <!nocheck>"
+		"debhelper-compat (= 13), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native (>= 1.60.0) <!nocheck>, libstd-rust-dev <!nocheck>, librust-by-address-1+default-dev (>= 1.2.1-~~) <!nocheck>, librust-proc-macro2-1+default-dev <!nocheck>, librust-quote-1+default-dev <!nocheck>, librust-syn-2+clone-impls-dev (>= 2.0.13-~~) <!nocheck>, librust-syn-2+derive-dev (>= 2.0.13-~~) <!nocheck>, librust-syn-2+extra-traits-dev (>= 2.0.13-~~) <!nocheck>, librust-syn-2+parsing-dev (>= 2.0.13-~~) <!nocheck>, librust-syn-2+printing-dev (>= 2.0.13-~~) <!nocheck>, librust-syn-2+proc-macro-dev (>= 2.0.13-~~) <!nocheck>"
 	],
 	"Checksums-Sha256": [
-		"a21b55d9b8d605886b625b5764fa804128f2e87544d57f59e689d1b0a0746a2e 2612 rust-palette-derive_0.7.5-1.dsc e8890702dbec0bad9116041ae586f84805b13eecd1d8b1df27c29998a9969d6d 14285 rust-palette-derive_0.7.5.orig.tar.gz b41035a0986b9b3238cf6400475869c77f25881cfd5a328af4b65d7d0935cf35 2740 rust-palette-derive_0.7.5-1.debian.tar.xz"
+		"77b5dcf22fac7c043f396e7153558b15e91de0c30d4c8b7b29d6f91cdf24550f 2648 rust-palette-derive_0.7.6-1.dsc f5030daf005bface118c096f510ffb781fc28f9ab6a32ab224d8631be6851d30 17073 rust-palette-derive_0.7.6.orig.tar.gz bc96be727cd6876a9acbaa3cb06e4c4e4462e5f177bdf3fd57b8781727c5185f 2764 rust-palette-derive_0.7.6-1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/r/rust-palette-derive"
 	],
 	"Files": [
-		"867e809b5565d3bfa680a13a4f7f8d02 2612 rust-palette-derive_0.7.5-1.dsc 49d566624ed9474f38d0a5d261d87797 14285 rust-palette-derive_0.7.5.orig.tar.gz 96dcf05f5e8c5e0460fa6227145b0c01 2740 rust-palette-derive_0.7.5-1.debian.tar.xz"
+		"cf7fb20299591fa52fd3363cea0a300e 2648 rust-palette-derive_0.7.6-1.dsc 8a05bf2c012cd70c77f2ebaafe010373 17073 rust-palette-derive_0.7.6.orig.tar.gz 84d76b18621c094eeb2420b49dffb331 2764 rust-palette-derive_0.7.6-1.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -36,13 +36,10 @@
 		"misc"
 	],
 	"Standards-Version": [
-		"4.6.2"
+		"4.7.0"
 	],
 	"Testsuite": [
 		"autopkgtest"
-	],
-	"Testsuite-Triggers": [
-		"dh-cargo"
 	],
 	"Uploaders": [
 		"Sylvestre Ledru <sylvestre@debian.org>"
@@ -54,6 +51,6 @@
 		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/palette-derive]"
 	],
 	"Version": [
-		"0.7.5-1"
+		"0.7.6-1"
 	]
 }
