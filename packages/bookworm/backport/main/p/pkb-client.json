@@ -6,10 +6,10 @@
 		"pkb-client"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), dh-python, dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-setuptools"
+		"debhelper-compat (= 13), dh-python, dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-dnspython, python3-requests, python3-setuptools"
 	],
 	"Checksums-Sha256": [
-		"da442896e933d274320d7515a4a05fe6b6f2c8edc8e6942f2d420a8ca1a14b5d 1983 pkb-client_1.2-1~bpo12+1.dsc 463fcf5fa6cbc5f04dd80ebb137547443c1747ef7f233cd6fffd51367ca276d7 18079 pkb-client_1.2.orig.tar.gz d64b4603790210e0b46400e0633a5b8cdef1a8eef0d3d8c677741f033ac2c392 1784 pkb-client_1.2-1~bpo12+1.debian.tar.xz"
+		"5ef983290518902d52ce7e657264026ecc03dad587fa7da5d4fded463b5f9ecd 2034 pkb-client_2.0.0-1~bpo12+1.dsc 14ef5e82ecc3ae566045ed1659918c8fde46f7766fec1b4de08d9f38e5390c6b 26222 pkb-client_2.0.0.orig.tar.gz 406de81eaebfabe3865b06e4d3bf17829de40f30a6a6b12a489f2af2dcda123d 1868 pkb-client_2.0.0-1~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/p/pkb-client"
@@ -36,7 +36,7 @@
 		"misc"
 	],
 	"Standards-Version": [
-		"4.6.2"
+		"4.7.0"
 	],
 	"Vcs-Browser": [
 		"https://git.unit193.net/cgit/users/unit193/pkb-client.git"
@@ -45,6 +45,6 @@
 		"https://git.unit193.net/cgit/users/unit193/pkb-client.git"
 	],
 	"Version": [
-		"1.2-1~bpo12+1"
+		"2.0.0-1~bpo12+1"
 	]
 }
