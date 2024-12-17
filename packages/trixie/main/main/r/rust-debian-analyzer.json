@@ -1,0 +1,62 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-debian-analyzer-dev"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-sequence-cargo, cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-breezyshim+debian-dev (>= 0.1.205-~~) <!nocheck>, librust-breezyshim+default-dev (>= 0.1.205-~~) <!nocheck>, librust-breezyshim+dirty-tracker-dev (>= 0.1.205-~~) <!nocheck>, librust-chrono+default-dev (>= 0.4-~~) <!nocheck>, librust-chrono+serde-dev (>= 0.4-~~) <!nocheck>, librust-configparser-3+default-dev <!nocheck>, librust-deb822-lossless-0.2+default-dev <!nocheck>, librust-debian-changelog-0.2+default-dev <!nocheck>, librust-debian-control+default-dev (>= 0.1.37-~~) <!nocheck>, librust-debian-copyright+default-dev (>= 0.1.26-~~) <!nocheck>, librust-debversion+default-dev (>= 0.3.0-~~) <!nocheck>, librust-debversion+python-debian-dev (>= 0.3.0-~~) <!nocheck>, librust-debversion+serde-dev (>= 0.3.0-~~) <!nocheck>, librust-dep3-0.1+default-dev <!nocheck>, librust-difflib-0.4+default-dev <!nocheck>, librust-distro-info+default-dev (>= 0.4.0-~~) <!nocheck>, librust-filetime-0.2+default-dev <!nocheck>, librust-hex-0.4+default-dev (>= 0.4.3-~~) <!nocheck>, librust-lazy-regex-dev (>= 2-~~) <!nocheck>, librust-lazy-static-1+default-dev <!nocheck>, librust-log-0.4+default-dev <!nocheck>, librust-makefile-lossless-0.1+default-dev <!nocheck>, librust-maplit-1+default-dev (>= 1.0.2-~~) <!nocheck>, librust-merge3-0.2+default-dev <!nocheck>, librust-patchkit-0.2+default-dev (>= 0.2.1-~~) <!nocheck>, librust-pyo3-0+chrono-dev (>= 0.22-~~) <!nocheck>, librust-pyo3-0+default-dev (>= 0.22-~~) <!nocheck>, librust-pyo3-0+serde-dev (>= 0.22-~~) <!nocheck>, librust-quote-1+default-dev (>= 1.0.37-~~) <!nocheck>, librust-reqwest+blocking-dev (>= 0.11-~~) <!nocheck>, librust-reqwest+default-dev (>= 0.11-~~) <!nocheck>, librust-reqwest+json-dev (>= 0.11-~~) <!nocheck>, librust-semver-1+default-dev <!nocheck>, librust-serde-1+default-dev <!nocheck>, librust-serde-1+derive-dev <!nocheck>, librust-serde-json-1+default-dev <!nocheck>, librust-sha1-0.10+default-dev (>= 0.10.6-~~) <!nocheck>, librust-tempfile-3+default-dev <!nocheck>, librust-toml-edit+default-dev (>= 0.22-~~) <!nocheck>, librust-url-2+default-dev <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"eac5d370800f809a4e5d2f57a8de891480158400a9246ee98f381c3e973af054 4387 rust-debian-analyzer_0.158.25-2.dsc 020b3e231f70e3dc28582501d5454eb8074c5c80ee998fecce123bfd44f90253 92105 rust-debian-analyzer_0.158.25.orig.tar.gz c0cb15fd5ccce17b09ba6b0bff50c8ded2191ab175215fdfa43dca8facb0d862 3328 rust-debian-analyzer_0.158.25-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-debian-analyzer"
+	],
+	"Files": [
+		"fbd938763087c250fb1b58cb56e65de4 4387 rust-debian-analyzer_0.158.25-2.dsc 451c3505cbd3448a93052db126ecaa2b 92105 rust-debian-analyzer_0.158.25.orig.tar.gz b5ef20f2c16b1bf7249c026ebde06990 3328 rust-debian-analyzer_0.158.25-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://salsa.debian.org/jelmer/lintian-brush"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-debian-analyzer"
+	],
+	"Package-List": [
+		"librust-debian-analyzer-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.7.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-serial-test+default-dev, rustc"
+	],
+	"Uploaders": [
+		"Jelmer Vernooĳ <jelmer@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/debian-analyzer"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/debian-analyzer]"
+	],
+	"Version": [
+		"0.158.25-2"
+	]
+}
