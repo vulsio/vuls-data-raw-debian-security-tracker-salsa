@@ -1,0 +1,59 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-synstructure-0.12-dev"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-sequence-cargo, cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-proc-macro2-1+proc-macro-dev <!nocheck>, librust-proc-macro2-1-dev <!nocheck>, librust-quote-1+proc-macro-dev <!nocheck>, librust-quote-1-dev <!nocheck>, librust-syn-1+clone-impls-dev <!nocheck>, librust-syn-1+derive-dev <!nocheck>, librust-syn-1+extra-traits-dev <!nocheck>, librust-syn-1+parsing-dev <!nocheck>, librust-syn-1+printing-dev <!nocheck>, librust-syn-1+proc-macro-dev <!nocheck>, librust-syn-1+visit-dev <!nocheck>, librust-unicode-xid-0.2+default-dev <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"2bba7d5f1b912ea1d97494687e0cc775c6725f6741e83194a74b86dd6388f23e 2212 rust-synstructure-0.12_0.12.6-1.dsc f36bdaa60a83aca3921b5259d5400cbf5e90fc51931376a9bd4a0eb79aa7210f 18429 rust-synstructure-0.12_0.12.6.orig.tar.gz ddde0febb4a2996100f90b45b265f8ada1e6208e2e4e4787a7144340c1f5919a 2752 rust-synstructure-0.12_0.12.6-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-synstructure-0.12"
+	],
+	"Files": [
+		"9d8fb412f5f17fd785d5815886648f83 2212 rust-synstructure-0.12_0.12.6-1.dsc 8f6b6cc71be0473b79c65abfea592c07 18429 rust-synstructure-0.12_0.12.6.orig.tar.gz 2c7b71b3cfc55f028fefd5fae3f0e402 2752 rust-synstructure-0.12_0.12.6-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-synstructure-0.12"
+	],
+	"Package-List": [
+		"librust-synstructure-0.12-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.7.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-synstructure-test-traits-0.1+default-dev, rustc"
+	],
+	"Uploaders": [
+		"Alexander Kjäll <alexander.kjall@gmail.com>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/synstructure-0.12"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/synstructure-0.12]"
+	],
+	"Version": [
+		"0.12.6-1"
+	]
+}
