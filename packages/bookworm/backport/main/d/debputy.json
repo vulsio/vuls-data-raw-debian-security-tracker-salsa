@@ -6,13 +6,13 @@
 		"dh-debputy"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), dh-sequence-single-binary, hunspell-en-us <!nocheck>, python3-colored <!pkg.debputy.minimal>, python3-colorlog <!pkg.debputy.minimal>, python3-debian, python3-hunspell <!nocheck>, python3-levenshtein <pkg.debputy.ci>, python3-pytest <!nocheck>, python3-pytest-cov <pkg.debputy.test-coverage>, python3-ruyaml | python3-ruamel.yaml, python3:any (>= 3.11~), strip-nondeterminism <!nocheck>"
+		"debhelper-compat (= 13), dh-sequence-single-binary, hunspell-en-us <!nocheck>, python3-colored <!pkg.debputy.minimal>, python3-colorlog <!pkg.debputy.minimal>, python3-debian, python3-hunspell <!nocheck>, python3-levenshtein <pkg.debputy.ci>, python3-polib <pkg.debputy.test-coverage pkg.debputy.developer-dependencies>, python3-pytest <!nocheck>, python3-pytest-cov <pkg.debputy.test-coverage>, python3-ruyaml | python3-ruamel.yaml, python3:any (>= 3.11~), strip-nondeterminism <!nocheck>"
 	],
 	"Checksums-Sha256": [
-		"5ff15d486fd7159e90120f19867097e1a168ed4adde2f3ecd8c123edbabc37d3 1924 debputy_0.1.48~bpo12+1.dsc df022fc22da344e896bf75e4d5079534aa97b59855c5ca3ce5b8df18cc6fcc2e 473904 debputy_0.1.48~bpo12+1.tar.xz"
+		"19068f97ecda42bc92f16e43c9bf569a86eb04fde725ed466821af3ca7840ac6 2037 debputy_0.1.57~bpo12+1.dsc 404046995b8403ccaf5edfda2561f485503570a46bc690d1689d081a3a3ad030 661068 debputy_0.1.57~bpo12+1.tar.xz"
 	],
 	"Dgit": [
-		"a60439a20d047a78a305d7e7d709078c50e7e8da debian archive/debian/0.1.48_bpo12+1 https://git.dgit.debian.org/debputy"
+		"1156f9696bdb81e9df22fd7e3f1c663a28dadd1b debian archive/debian/0.1.57_bpo12+1 https://git.dgit.debian.org/debputy"
 	],
 	"Directory": [
 		"pool/main/d/debputy"
@@ -45,7 +45,7 @@
 		"autopkgtest"
 	],
 	"Testsuite-Triggers": [
-		"libcap2, python3-all, python3-pytest"
+		"libcap2, python3-all, python3-lsprotocol, python3-pygls, python3-pytest"
 	],
 	"Uploaders": [
 		"Niels Thykier <niels@thykier.net>,"
@@ -57,6 +57,6 @@
 		"https://salsa.debian.org/debian/debputy.git"
 	],
 	"Version": [
-		"0.1.48~bpo12+1"
+		"0.1.57~bpo12+1"
 	]
 }
