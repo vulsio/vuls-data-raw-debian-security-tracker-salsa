@@ -1,0 +1,56 @@
+{
+	"Architecture": [
+		"all amd64 arm64 armhf i386"
+	],
+	"Binary": [
+		"messagelib-data, messagelib-dev, libkpim6messagecomposer6, libkpim6messagecore6, libkpim6messagelist6, libkpim6messageviewer6, libkpim6mimetreeparser6, libkpim6templateparser6, libkpim6webengineviewer6"
+	],
+	"Build-Depends": [
+		"cmake (>= 3.16~), debhelper-compat (= 13), dh-sequence-kf6, extra-cmake-modules (>= 6.6.0~), git, libakonadi-dev (>= 4:24.12.0~), libakonadicontact-dev (>= 4:24.12.0~), libakonadimime-dev (>= 4:24.12.0~), libakonadisearch-dev (>= 4:24.12.0~), libgpgme-dev (>= 1.21.0~), libgpgmepp-dev (>= 1.23.2~), libgrantleetheme-dev (>= 24.12.0~), libgravatar-dev (>= 4:24.12.0~), libkdepim-dev (>= 4:24.12.0~), libkf6archive-dev (>= 6.6.0~), libkf6calendarcore-dev (>= 6.6.0~), libkf6codecs-dev (>= 6.6.0~), libkf6colorscheme-dev (>= 6.6.0~), libkf6completion-dev (>= 6.6.0~), libkf6config-dev (>= 6.6.0~), libkf6contacts-dev (>= 6.6.0~), libkf6coreaddons-dev (>= 6.6.0~), libkf6guiaddons-dev (>= 6.6.0~), libkf6i18n-dev (>= 6.6.0~), libkf6iconthemes-dev (>= 6.6.0~), libkf6itemviews-dev (>= 6.6.0~), libkf6jobwidgets-dev (>= 6.6.0~), libkf6kio-dev (>= 6.6.0~), libkf6newstuff-dev (>= 6.6.0~), libkf6notifications-dev (>= 6.6.0~), libkf6service-dev (>= 6.6.0~), libkf6sonnet-dev (>= 6.6.0~), libkf6syntaxhighlighting-dev (>= 6.6.0~), libkf6texttemplate-dev (>= 6.3.0~), libkf6textwidgets-dev (>= 6.6.0~), libkf6widgetsaddons-dev (>= 6.6.0~), libkf6xmlgui-dev (>= 6.6.0~), libkidentitymanagement-dev (>= 24.12.0~), libkleo-dev (>= 4:24.12.0~), libkmailtransport-dev (>= 24.12.0~), libkmbox-dev (>= 24.12.0~), libkmime-dev (>= 24.12.0~), libkpimtextedit-dev (>= 24.12.0~), libktextaddons-dev (>= 1.5.4~), libpimcommon-dev (>= 4:24.12.0~), libqca-qt6-dev (>= 2.3.7~), libqgpgmeqt6-dev (>= 1.23.2~), libssl-dev (>= 3.0.0~), qt6-base-dev (>= 6.7.0~), qt6-webengine-dev (>= 6.7.0~), xauth, xvfb"
+	],
+	"Checksums-Sha256": [
+		"1a0b4c00a3785e17849033f980ba4fbae3a52740664e75b6006d4cb4dc0297ff 4581 messagelib_24.12.0-2.dsc 9eff795b5e12d30ba33171442de3a3bd66772039f19214e55384e9596fc82ff6 7418952 messagelib_24.12.0.orig.tar.xz 1158c482c988a976e77627a14032d430f411608b9747ce37e058d1de3187aee1 833 messagelib_24.12.0.orig.tar.xz.asc 6022d7557d4b55f6b416ea595dacae6c77c960fb1f2dfedb9f7d8bbd3cc2b7a8 22708 messagelib_24.12.0-2.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/m/messagelib"
+	],
+	"Files": [
+		"fc3e5286559104c6a17e94b50af4a235 4581 messagelib_24.12.0-2.dsc 1c777efcd993fce73efefa105110efb5 7418952 messagelib_24.12.0.orig.tar.xz 03055e4e5ca0a47633a78f0078641628 833 messagelib_24.12.0.orig.tar.xz.asc 0c71190e8a8d021bd8edd277b87db62c 22708 messagelib_24.12.0-2.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://invent.kde.org/pim/messagelib"
+	],
+	"Maintainer": [
+		"Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>"
+	],
+	"Package": [
+		"messagelib"
+	],
+	"Package-List": [
+		"libkpim6messagecomposer6 deb libs optional arch=amd64,arm64,armhf,i386 libkpim6messagecore6 deb libs optional arch=amd64,arm64,armhf,i386 libkpim6messagelist6 deb libs optional arch=amd64,arm64,armhf,i386 libkpim6messageviewer6 deb libs optional arch=amd64,arm64,armhf,i386 libkpim6mimetreeparser6 deb libs optional arch=amd64,arm64,armhf,i386 libkpim6templateparser6 deb libs optional arch=amd64,arm64,armhf,i386 libkpim6webengineviewer6 deb libs optional arch=amd64,arm64,armhf,i386 messagelib-data deb libs optional arch=all messagelib-dev deb libdevel optional arch=amd64,arm64,armhf,i386"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.7.0"
+	],
+	"Uploaders": [
+		"Sandro Knauß <hefee@debian.org>, Patrick Franz <deltaone@debian.org>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/qt-kde-team/kde/messagelib"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/qt-kde-team/kde/messagelib.git"
+	],
+	"Version": [
+		"4:24.12.0-2"
+	]
+}

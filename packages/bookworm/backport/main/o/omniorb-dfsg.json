@@ -6,10 +6,10 @@
 		"omniorb, omniorb-idl, omniorb-nameserver, omniorb-doc, libcos4-3, libcos4-dev, libomniorb4-3, libomniorb4-dev, libomnithread4, libomnithread4-dev, omniidl"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), dh-python, libssl-dev, pkg-config, python3-dev, hevea, libzstd-dev"
+		"debhelper-compat (= 13), dh-python, libssl-dev, pkgconf, python3-dev, hevea, libzstd-dev"
 	],
 	"Checksums-Sha256": [
-		"4bdcd53b47df6c12b4adc85fcb12480bf0e8da663b3c065cb30dbb0db6b5dc7a 2039 omniorb-dfsg_4.3.1+ds1-1~bpo12+1.dsc db284241f15c18a8d579d7ff443411cbf81efd8b1d15442c30ab84dfb3e17836 2153548 omniorb-dfsg_4.3.1+ds1.orig.tar.xz c5e0a7ce658e2cb6fcf6a68af33cd39465730de14122c1c509e750f8f2eeae97 15576 omniorb-dfsg_4.3.1+ds1-1~bpo12+1.debian.tar.xz"
+		"a163491e4f67469b64879490500b16eb986542216722b34182a9ac5a0ee21bbe 2042 omniorb-dfsg_4.3.2+ds1-2~bpo12+1.dsc 7373360586b081007da63a63ffc3347dc27c9cca648a412ef108e774b013b29f 2163892 omniorb-dfsg_4.3.2+ds1.orig.tar.xz 9ddda65996a5dcafc649a8998d699622aa2edd2351409e682b232abcb2f0aeda 16168 omniorb-dfsg_4.3.2+ds1-2~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/o/omniorb-dfsg"
@@ -38,8 +38,8 @@
 	"Standards-Version": [
 		"4.6.2"
 	],
-	"Uploaders": [
-		"Sebastien Delafond <seb@debian.org>,"
+	"Testsuite": [
+		"autopkgtest"
 	],
 	"Vcs-Browser": [
 		"https://salsa.debian.org/debian/omniorb-dfsg"
@@ -48,6 +48,6 @@
 		"https://salsa.debian.org/debian/omniorb-dfsg.git"
 	],
 	"Version": [
-		"4.3.1+ds1-1~bpo12+1"
+		"4.3.2+ds1-2~bpo12+1"
 	]
 }
