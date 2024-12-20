@@ -3,13 +3,13 @@
 		"any all"
 	],
 	"Binary": [
-		"cockpit, cockpit-bridge, cockpit-doc, cockpit-networkmanager, cockpit-packagekit, cockpit-storaged, cockpit-system, cockpit-tests, cockpit-ws, cockpit-sosreport"
+		"cockpit, cockpit-bridge, cockpit-doc, cockpit-networkmanager, cockpit-packagekit, cockpit-storaged, cockpit-system, cockpit-ws, cockpit-sosreport"
 	],
 	"Build-Depends": [
 		"debhelper-compat (= 13), dh-python, gettext (>= 0.21), zlib1g-dev, libkrb5-dev (>= 1.11), libxslt1-dev, libglib2.0-dev (>= 2.50), libgnutls28-dev (>= 3.4.3) | gnutls-dev, libsystemd-dev (>= 235), libpolkit-agent-1-dev, libjson-glib-dev, libpam0g-dev, pkgconf, systemd-dev | systemd (<< 253-2~), xsltproc, xmlto, docbook-xsl, glib-networking, python3, python3-pip, python3-setuptools, python3-wheel, openssh-client <!nocheck>, procps <!nocheck>, python3-pytest-asyncio <!nocheck>, python3-pytest-timeout <!nocheck>"
 	],
 	"Checksums-Sha256": [
-		"03e2f6651ec0a3cb21576dd2af9ec45ba1f7ae9e3546fe59314fb01c2a315c66 3065 cockpit_329-1~bpo12+1.dsc bb5bd1b19187f63ae4cee1c30ae6011a56c1bcbf32fa3f239f6d84badb08fbc0 14386320 cockpit_329.orig.tar.xz 3379ffc0dfe012a7e7407d8ee5e76826f50da74fbe1dfeb628fd59041e2e1354 21780 cockpit_329-1~bpo12+1.debian.tar.xz"
+		"b6daabb980f8a211bd17a09fbb85c1cf4035f19be7bc184f42b3a939270c583e 3007 cockpit_331-1~bpo12+1.dsc 5dc8d8a019e9034e2ef1c4e6d2e22d82f0e8245616d8487a277f4c07d517974e 14396512 cockpit_331.orig.tar.xz 49752bcf2fdb296353e2910313cf64cb119e632ad1889313d40722e138aa7a31 22012 cockpit_331-1~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/c/cockpit"
@@ -27,7 +27,7 @@
 		"cockpit"
 	],
 	"Package-List": [
-		"cockpit deb admin optional arch=all cockpit-bridge deb admin optional arch=any cockpit-doc deb doc optional arch=all cockpit-networkmanager deb admin optional arch=all cockpit-packagekit deb admin optional arch=all cockpit-sosreport deb admin optional arch=all cockpit-storaged deb admin optional arch=all cockpit-system deb admin optional arch=all cockpit-tests deb admin optional arch=any cockpit-ws deb admin optional arch=any"
+		"cockpit deb admin optional arch=all cockpit-bridge deb admin optional arch=any cockpit-doc deb doc optional arch=all cockpit-networkmanager deb admin optional arch=all cockpit-packagekit deb admin optional arch=all cockpit-sosreport deb admin optional arch=all cockpit-storaged deb admin optional arch=all cockpit-system deb admin optional arch=all cockpit-ws deb admin optional arch=any"
 	],
 	"Priority": [
 		"optional"
@@ -54,6 +54,6 @@
 		"https://salsa.debian.org/utopia-team/cockpit.git"
 	],
 	"Version": [
-		"329-1~bpo12+1"
+		"331-1~bpo12+1"
 	]
 }
