@@ -1,0 +1,53 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"valkey-server, valkey-sentinel, valkey-tools"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), libhiredis-dev, libjemalloc-dev [linux-any], liblua5.1-dev, liblzf-dev, libssl-dev, libsystemd-dev, lua-bitop-dev, lua-cjson-dev, openssl <!nocheck>, pkgconf, procps <!nocheck>, tcl <!nocheck>, tcl-tls <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"74c640a0d2dac8fec980b82e624b9c2cbf763ac5a6c303b933f57adfe0bdd69f 2246 valkey_8.0.1+dfsg1-1~bpo12+1.dsc 67f3e4c4925172f448b442b2378079cecad9264a529220f381b09ae7474e9039 2595640 valkey_8.0.1+dfsg1.orig.tar.xz 85f24d0a6fef9775c064c8d01b01a3fd8d7593225d2058e5b3ee15c4f8fe8409 15540 valkey_8.0.1+dfsg1-1~bpo12+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/v/valkey"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://valkey.io"
+	],
+	"Maintainer": [
+		"Lucas Kanashiro <kanashiro@debian.org>"
+	],
+	"Package": [
+		"valkey"
+	],
+	"Package-List": [
+		"valkey-sentinel deb database optional arch=any valkey-server deb database optional arch=any valkey-tools deb database optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.7.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/debian/valkey"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/debian/valkey.git"
+	],
+	"Version": [
+		"8.0.1+dfsg1-1~bpo12+1"
+	]
+}
