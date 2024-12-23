@@ -1,0 +1,47 @@
+{
+	"header": {
+		"line": "CVE-2024-XXXX [RUSTSEC-2024-0429]",
+		"name": "TEMP-0000000-235E9E",
+		"description": "[RUSTSEC-2024-0429]"
+	},
+	"annotations": [
+		{
+			"line": "\t- rust-glib 0.20.1-2",
+			"type": "package",
+			"package": "rust-glib",
+			"kind": "fixed",
+			"version": "0.20.1-2"
+		},
+		{
+			"line": "\t[bookworm] - rust-glib <not-affected> (Only affects >= 0.15)",
+			"type": "package",
+			"release": "bookworm",
+			"package": "rust-glib",
+			"kind": "not-affected",
+			"description": "Only affects >= 0.15"
+		},
+		{
+			"line": "\t[bullseye] - rust-glib <not-affected> (Only affects >= 0.15)",
+			"type": "package",
+			"release": "bullseye",
+			"package": "rust-glib",
+			"kind": "not-affected",
+			"description": "Only affects >= 0.15"
+		},
+		{
+			"line": "\tNOTE: https://rustsec.org/advisories/RUSTSEC-2024-0429.html",
+			"type": "NOTE",
+			"description": "https://rustsec.org/advisories/RUSTSEC-2024-0429.html"
+		},
+		{
+			"line": "\tNOTE: https://github.com/gtk-rs/gtk-rs-core/pull/1343",
+			"type": "NOTE",
+			"description": "https://github.com/gtk-rs/gtk-rs-core/pull/1343"
+		},
+		{
+			"line": "\tNOTE: https://github.com/gtk-rs/gtk-rs-core/commit/b5a4071e439bef2b5eea76c3aa25e5ae84839e34",
+			"type": "NOTE",
+			"description": "https://github.com/gtk-rs/gtk-rs-core/commit/b5a4071e439bef2b5eea76c3aa25e5ae84839e34"
+		}
+	]
+}
