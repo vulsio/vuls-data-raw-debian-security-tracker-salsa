@@ -1,15 +1,20 @@
 {
 	"header": {
 		"line": "CVE-2024-XXXX [RUSTSEC-2024-0428]",
-		"name": "TEMP-0000000-3774D9",
+		"name": "TEMP-1091632-3774D9",
 		"description": "[RUSTSEC-2024-0428]"
 	},
 	"annotations": [
 		{
-			"line": "\t- rust-kvm-ioctls <unfixed>",
+			"line": "\t- rust-kvm-ioctls <unfixed> (bug #1091632)",
 			"type": "package",
 			"package": "rust-kvm-ioctls",
-			"kind": "unfixed"
+			"kind": "unfixed",
+			"flags": [
+				{
+					"bug": 1091632
+				}
+			]
 		},
 		{
 			"line": "\tNOTE: https://rustsec.org/advisories/RUSTSEC-2024-0428.html",
