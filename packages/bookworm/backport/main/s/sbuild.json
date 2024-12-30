@@ -12,10 +12,10 @@
 		"dh-python, dh-sequence-python3, groff-base, libdpkg-perl (>= 1.21.14), libexception-class-perl, libfilesys-df-perl, libmime-lite-perl, libyaml-tiny-perl, python3-all"
 	],
 	"Checksums-Sha256": [
-		"144822a86d888126bede8cf7209e08df70856017929dfd7e6c969afeace24bf3 2601 sbuild_0.86.3~bpo12+2.dsc fe77113628242dcacde288e117d7de242b4eaaf19df0fe674ffc679993c2ad72 243992 sbuild_0.86.3~bpo12+2.tar.xz"
+		"bea7cccb71e2763bc529510057c9a98997b7b5e9783c178be88ddbbef4bd3193 2683 sbuild_0.88.1~bpo12+1.dsc 337110adbb0c81c0a97eaa758128e94757b1c3065757cd72dc06613d7ce24123 254572 sbuild_0.88.1~bpo12+1.tar.xz"
 	],
 	"Dgit": [
-		"1973935d1168e95ebcc1eb58546c2085bd93d274 debian archive/debian/0.86.3_bpo12+2 https://git.dgit.debian.org/sbuild"
+		"5db0809cb7bff4ded6c93f77a9b795af4401e0e2 debian archive/debian/0.88.1_bpo12+1 https://git.dgit.debian.org/sbuild"
 	],
 	"Directory": [
 		"pool/main/s/sbuild"
@@ -45,7 +45,7 @@
 		"autopkgtest"
 	],
 	"Testsuite-Triggers": [
-		"apt, apt-utils, build-essential, debootstrap, devscripts, diffoscope, distro-info, fakeroot, gnupg, lsb-release, mmdebstrap, python3-apt, sqop, sudo, uidmap, wget"
+		"apt, apt-utils, binutils, build-essential, debootstrap, devscripts, diffoscope, distro-info, fakeroot, gcc-for-host, gnupg, libc6-dev, libcrypt-dev, libgcc-s1, linux-libc-dev, lsb-release, make, mmdebstrap, python3-apt, sqop, sudo, uidmap, wget"
 	],
 	"Uploaders": [
 		"Johannes Schauer Marin Rodrigues <josch@debian.org>, Michael Banck <mbanck@debian.org>, Francesco Paolo Lovergine <frankie@debian.org>, Wookey <wookey@debian.org>, Michael Stapelberg <stapelberg@debian.org>, Christian Kastner <ckk@debian.org>, Jochen Sprickerhof <jspricke@debian.org>,"
@@ -57,6 +57,6 @@
 		"https://salsa.debian.org/debian/sbuild.git"
 	],
 	"Version": [
-		"0.86.3~bpo12+2"
+		"0.88.1~bpo12+1"
 	]
 }
