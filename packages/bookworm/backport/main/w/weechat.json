@@ -1,0 +1,50 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"weechat, weechat-curses, weechat-headless, weechat-core, weechat-plugins, weechat-python, weechat-perl, weechat-ruby, weechat-lua, weechat-tcl, weechat-guile, weechat-php, weechat-doc, weechat-dev"
+	],
+	"Build-Depends": [
+		"asciidoctor (>= 1.5.4), debhelper (>= 13), debhelper-compat (= 13), cmake, pkgconf, libncurses-dev, ruby-dev, libperl-dev, python3-dev, libaspell-dev, liblua5.3-dev, tcl8.6-dev, guile-3.0-dev, php-dev, libphp-embed, libargon2-dev, libsodium-dev, libxml2-dev, libcurl4-gnutls-dev, libgcrypt20-dev, libgnutls28-dev, libzstd-dev, zlib1g-dev, libcjson-dev"
+	],
+	"Checksums-Sha256": [
+		"72a0d9f3da0f740ed5d0c75d05b560b7179d4f034c338e426c2b67450e5a56fe 3132 weechat_4.4.3-1~bpo12+1.dsc 295612f8dc24af28c918257d3014eb53342a5d077d5e3d9a3eadf303bd8febfa 2730188 weechat_4.4.3.orig.tar.xz 33e164ef2c84dbfb1b00c879290b8f85ac03b02f749d6ef41e0554972e2d3b10 833 weechat_4.4.3.orig.tar.xz.asc 8df77f03477b061c53248269f90aa5bf67026f511cb821d6a7e7f0e73b8c67f4 17956 weechat_4.4.3-1~bpo12+1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/w/weechat"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://weechat.org/"
+	],
+	"Maintainer": [
+		"Emmanuel Bouthenot <kolter@debian.org>"
+	],
+	"Package": [
+		"weechat"
+	],
+	"Package-List": [
+		"weechat deb net optional arch=all weechat-core deb net optional arch=any weechat-curses deb net optional arch=any weechat-dev deb devel optional arch=any weechat-doc deb doc optional arch=all weechat-guile deb net optional arch=any weechat-headless deb net optional arch=any weechat-lua deb net optional arch=any weechat-perl deb net optional arch=any weechat-php deb net optional arch=any weechat-plugins deb net optional arch=any weechat-python deb net optional arch=any weechat-ruby deb net optional arch=any weechat-tcl deb net optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.7.0"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/kolter/weechat"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/kolter/weechat.git"
+	],
+	"Version": [
+		"4.4.3-1~bpo12+1"
+	]
+}
