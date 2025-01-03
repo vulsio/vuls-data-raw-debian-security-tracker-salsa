@@ -6,10 +6,13 @@
 		"libwireplumber-0.5-0, libwireplumber-0.5-dev, wireplumber, wireplumber-doc, gir1.2-wp-0.5"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), doxygen <!nodoc>, gobject-introspection, libgirepository1.0-dev, libglib2.0-dev (>= 2.68), liblua5.4-dev, libpipewire-0.3-dev (>= 1.0.2), libspa-0.2-dev, libsystemd-dev, meson (>= 0.59.0), pkgconf, systemd-dev, dbus <!nocheck>, pipewire (>= 1.0.2) <!nocheck>, python3-breathe <!nodoc>, python3-lxml <!nodoc>, python3-sphinx <!nodoc>, python3-sphinx-rtd-theme <!nodoc>"
+		"debhelper-compat (= 13), dh-exec, dh-sequence-gir, doxygen <!nodoc>, gobject-introspection <!nogir>, libgirepository1.0-dev <!nogir>, libglib2.0-dev (>= 2.68), liblua5.4-dev, libpipewire-0.3-dev (>= 1.0.2), libspa-0.2-dev, libsystemd-dev, meson (>= 0.59.0), pkgconf, systemd-dev, dbus <!nocheck>, pipewire (>= 1.0.2) <!nocheck>, python3-lxml:native <!nogir>"
+	],
+	"Build-Depends-Indep": [
+		"python3-breathe <!nodoc>, python3-sphinx <!nodoc>, python3-sphinx-rtd-theme <!nodoc>"
 	],
 	"Checksums-Sha256": [
-		"80e11056950749d3869011276d96e7f99c7b470c37c9b5c59506ba95741e7393 2800 wireplumber_0.5.6-1~bpo12+1.dsc 4029445a454ad6b230021a81be0f9959c3afb3317ebc755d59b34d26f15ae855 415566 wireplumber_0.5.6.orig.tar.bz2 def719eaf7113a8d9344227dd49971c90cfc4b7861ecfd75659fc08c453c7273 11040 wireplumber_0.5.6-1~bpo12+1.debian.tar.xz"
+		"56a00320a15cdb88791af357092eef13838e9313eaddabe4f2b2e93994d9cc5c 2886 wireplumber_0.5.7-1~bpo12+1.dsc 7782ba07ad028e77e8a1c4b8d5e702a63468cfad6ddaa3a1e683daa8989450ab 416878 wireplumber_0.5.7.orig.tar.bz2 d2ff2ae615a0aff22261835751643e7e09a75717f1e3be840cc879343b9fc08d 11344 wireplumber_0.5.7-1~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/w/wireplumber"
@@ -27,7 +30,7 @@
 		"wireplumber"
 	],
 	"Package-List": [
-		"gir1.2-wp-0.5 deb introspection optional arch=linux-any libwireplumber-0.5-0 deb libs optional arch=linux-any libwireplumber-0.5-dev deb libdevel optional arch=linux-any wireplumber deb video optional arch=linux-any wireplumber-doc deb doc optional arch=all profile=!nodoc"
+		"gir1.2-wp-0.5 deb introspection optional arch=linux-any profile=!nogir libwireplumber-0.5-0 deb libs optional arch=linux-any libwireplumber-0.5-dev deb libdevel optional arch=linux-any wireplumber deb video optional arch=linux-any wireplumber-doc deb doc optional arch=all profile=!nodoc"
 	],
 	"Priority": [
 		"optional"
@@ -54,6 +57,6 @@
 		"https://salsa.debian.org/utopia-team/wireplumber.git"
 	],
 	"Version": [
-		"0.5.6-1~bpo12+1"
+		"0.5.7-1~bpo12+1"
 	]
 }
