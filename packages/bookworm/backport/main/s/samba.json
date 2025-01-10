@@ -3,16 +3,16 @@
 		"any all"
 	],
 	"Binary": [
-		"samba, samba-libs, samba-common, samba-common-bin, samba-ad-dc, samba-ad-provision, smbclient, samba-testsuite, registry-tools, samba-dev, python3-samba, samba-dsdb-modules, samba-vfs-modules, samba-vfs-ceph, samba-vfs-glusterfs, libsmbclient, libsmbclient-dev, winbind, libpam-winbind, libnss-winbind, libwbclient0, libwbclient-dev, ctdb, libldb2, ldb-tools, libldb-dev, python3-ldb"
+		"samba, samba-libs, samba-common, samba-common-bin, samba-ad-dc, samba-ad-provision, smbclient, samba-testsuite, registry-tools, samba-dev, python3-samba, samba-dsdb-modules, samba-vfs-modules, samba-vfs-ceph, samba-vfs-glusterfs, libsmbclient, libsmbclient-dev, winbind, libpam-winbind, libnss-winbind, libwbclient0, libwbclient-dev, ctdb, libldb2, ldb-tools, libldb-dev, python3-ldb, libtalloc2, libtalloc-dev, python3-talloc, libtevent0, libtevent-dev, libtdb1, tdb-tools, libtdb-dev, python3-tdb"
 	],
 	"Build-Depends": [
 		"debhelper-compat (= 13), dh-exec"
 	],
 	"Build-Depends-Arch": [
-		"dh-sequence-python3, python3-setuptools, dpkg-dev (<< 1.22.5), bison, docbook-xml, docbook-xsl, xsltproc, flex, perl:any, po-debconf, gcc-mingw-w64-i686-win32, gcc-mingw-w64-x86-64-win32, libtalloc-dev (>= 2.4.2~), python3-talloc-dev (>= 2.4.2~), libtevent-dev (>= 0.16.1~), libtdb-dev (>= 1.4.12~), python3-tdb (>= 1.4.12~), pkgconf, libacl1-dev, libarchive-dev, libavahi-client-dev, libavahi-common-dev, libblkid-dev, libbsd-dev, libcap-dev [linux-any], libcephfs-dev [amd64 arm64 mips64el ppc64el riscv64 s390x], librados-dev [amd64 arm64 mips64el ppc64el riscv64 s390x], libcmocka-dev, libcups2-dev, libdbus-1-dev, libglusterfs-dev [amd64 arm64 loong64 mips64el ppc64 ppc64el riscv64 s390x sparc64], libgnutls28-dev, libgpgme11-dev, libicu-dev, libjansson-dev, libkeyutils-dev [linux-any], libkrb5-dev (>= 1.21.0~) <pkg.samba.mitkrb5>, libldap2-dev, liblmdb-dev, libpam0g-dev, libparse-yapp-perl, libpcap-dev [hurd-any], libpopt-dev, libreadline-dev, libtirpc-dev, libsystemd-dev [linux-any], libtasn1-6-dev, libtasn1-bin, liburing-dev [linux-any], xfslibs-dev [linux-any], zlib1g-dev, python3-dev:any | python3-dev, libpython3-dev, python3-dnspython, python3-etcd, python3-markdown"
+		"dh-sequence-python3, python3-setuptools, dpkg-dev (<< 1.22.5), bison, docbook-xml, docbook-xsl, xsltproc, flex, perl:any, gcc-mingw-w64-i686-win32, gcc-mingw-w64-x86-64-win32, pkgconf, libacl1-dev, libarchive-dev, libavahi-client-dev, libavahi-common-dev, libblkid-dev, libbsd-dev, libcap-dev [linux-any], libcephfs-dev [amd64 arm64 mips64el ppc64el riscv64 s390x], librados-dev [amd64 arm64 mips64el ppc64el riscv64 s390x], libcmocka-dev, libcups2-dev, libdbus-1-dev, libglusterfs-dev [amd64 arm64 loong64 mips64el ppc64 ppc64el riscv64 s390x sparc64], libgnutls28-dev, libgpgme11-dev, libicu-dev, libjansson-dev, libkeyutils-dev [linux-any], libkrb5-dev (>= 1.21.0~) <pkg.samba.mitkrb5>, libldap2-dev, liblmdb-dev, libpam0g-dev, libparse-yapp-perl, libpcap-dev [hurd-any], libpopt-dev, libreadline-dev, libtirpc-dev, libsystemd-dev [linux-any], libtasn1-6-dev, libtasn1-bin, liburing-dev [linux-any], xfslibs-dev [linux-any], zlib1g-dev, python3-dev:any | python3-dev, libpython3-dev, python3-dnspython, python3-etcd, python3-markdown"
 	],
 	"Checksums-Sha256": [
-		"d575809449d9b8c8702d6d804095b8c646dc8358849dea0ccd554eaa7670ce04 4929 samba_4.21.2+dfsg-3~bpo12+1.dsc 4d6e0a6f3cdc4d32cf94c6fed76cc190699e3c0af74d9a782034b8718a1e4af9 26190772 samba_4.21.2+dfsg.orig.tar.xz 4c1ee123411955d62d234ceb137180729b63b1771b2bdb8eb536eb1784256cd0 178768 samba_4.21.2+dfsg-3~bpo12+1.debian.tar.xz"
+		"188cd5f38b5b435ef5bbd12b12276d3af7b1ee792b1f97658110696235501981 5269 samba_4.21.3+dfsg-1~bpo12+1.dsc 0298f233a588e10c662d3c815ab95a446e1eb0bb70293d58f2e44ff0675aa4f7 26194440 samba_4.21.3+dfsg.orig.tar.xz 534cbe199fe2fd99991ba1adb30d383b28e9f3a7e6992ebabee0e71d46b6f706 187856 samba_4.21.3+dfsg-1~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/s/samba"
@@ -30,7 +30,7 @@
 		"samba"
 	],
 	"Package-List": [
-		"ctdb deb net optional arch=any ldb-tools deb utils optional arch=any libldb-dev deb libdevel optional arch=any libldb2 deb libs optional arch=any libnss-winbind deb admin optional arch=any libpam-winbind deb admin optional arch=any libsmbclient deb libs optional arch=any libsmbclient-dev deb libdevel optional arch=any libwbclient-dev deb libdevel optional arch=any libwbclient0 deb libs optional arch=any python3-ldb deb python optional arch=any python3-samba deb python optional arch=any registry-tools deb net optional arch=any samba deb net optional arch=any samba-ad-dc deb net optional arch=any samba-ad-provision deb net optional arch=all samba-common deb net optional arch=all samba-common-bin deb net optional arch=any samba-dev deb devel optional arch=any samba-dsdb-modules deb libs optional arch=any samba-libs deb libs optional arch=any samba-testsuite deb net optional arch=any samba-vfs-ceph deb net optional arch=amd64,arm64,mips64el,ppc64el,riscv64,s390x samba-vfs-glusterfs deb net optional arch=amd64,arm64,loong64,mips64el,ppc64,ppc64el,riscv64,s390x,sparc64 samba-vfs-modules deb oldlibs optional arch=any smbclient deb net optional arch=any winbind deb net optional arch=any"
+		"ctdb deb net optional arch=any ldb-tools deb utils optional arch=any libldb-dev deb libdevel optional arch=any libldb2 deb libs optional arch=any libnss-winbind deb admin optional arch=any libpam-winbind deb admin optional arch=any libsmbclient deb libs optional arch=any libsmbclient-dev deb libdevel optional arch=any libtalloc-dev deb libdevel optional arch=any libtalloc2 deb libs optional arch=any libtdb-dev deb libdevel optional arch=any libtdb1 deb libs optional arch=any libtevent-dev deb libdevel optional arch=any libtevent0 deb libs optional arch=any libwbclient-dev deb libdevel optional arch=any libwbclient0 deb libs optional arch=any python3-ldb deb python optional arch=any python3-samba deb python optional arch=any python3-talloc deb python optional arch=any python3-tdb deb python optional arch=any registry-tools deb net optional arch=any samba deb net optional arch=any samba-ad-dc deb net optional arch=any samba-ad-provision deb net optional arch=all samba-common deb net optional arch=all samba-common-bin deb net optional arch=any samba-dev deb devel optional arch=any samba-dsdb-modules deb libs optional arch=any samba-libs deb libs optional arch=any samba-testsuite deb net optional arch=any samba-vfs-ceph deb net optional arch=amd64,arm64,mips64el,ppc64el,riscv64,s390x samba-vfs-glusterfs deb net optional arch=amd64,arm64,loong64,mips64el,ppc64,ppc64el,riscv64,s390x,sparc64 samba-vfs-modules deb oldlibs optional arch=any smbclient deb net optional arch=any tdb-tools deb utils optional arch=any winbind deb net optional arch=any"
 	],
 	"Priority": [
 		"optional"
@@ -57,6 +57,6 @@
 		"https://salsa.debian.org/samba-team/samba.git"
 	],
 	"Version": [
-		"2:4.21.2+dfsg-3~bpo12+1"
+		"2:4.21.3+dfsg-1~bpo12+1"
 	]
 }
