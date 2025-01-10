@@ -1,0 +1,62 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-transmission-gobject-dev"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-sequence-cargo, cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-async-channel-2+default-dev (>= 2.3-~~) <!nocheck>, librust-gio-0.20+default-dev <!nocheck>, librust-glib-0.20+default-dev <!nocheck>, librust-indexmap-2+default-dev (>= 2.2-~~) <!nocheck>, librust-log-0.4+default-dev <!nocheck>, librust-num-enum-0.5+default-dev <!nocheck>, librust-once-cell-1+default-dev (>= 1.19-~~) <!nocheck>, librust-transmission-client-0.1+default-dev (>= 0.1.5-~~) <!nocheck>, librust-url-2+default-dev (>= 2.5-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"c416f1e8540a606abed194f76f8898b0c8a693c68db6f8e5e77b56087e196796 2217 rust-transmission-gobject_0.1.6-1.dsc 9451607e09aabcd53f5d390dc6604b3a966cc14046b8a48ae708abbc385e0be1 14754 rust-transmission-gobject_0.1.6.orig.tar.gz 3526eb7ca573c92f77ebccf4ad2a1ad13380cdf99dcce953538fd48328d47ce8 2900 rust-transmission-gobject_0.1.6-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-transmission-gobject"
+	],
+	"Files": [
+		"0af58121b1edacabe7b46cc3439b45b4 2217 rust-transmission-gobject_0.1.6-1.dsc 183b468dce80e9824a1fb5c220c1a735 14754 rust-transmission-gobject_0.1.6.orig.tar.gz 9737af8c583326a28f6be8318f0591e3 2900 rust-transmission-gobject_0.1.6-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://gitlab.gnome.org/haecker-felix/transmission-gobject"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-transmission-gobject"
+	],
+	"Package-List": [
+		"librust-transmission-gobject-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.7.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, rustc"
+	],
+	"Uploaders": [
+		"Matthias Geiger <werdahias@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/transmission-gobject"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/transmission-gobject]"
+	],
+	"Version": [
+		"0.1.6-1"
+	]
+}
