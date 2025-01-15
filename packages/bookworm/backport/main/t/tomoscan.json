@@ -6,10 +6,10 @@
 		"python3-tomoscan"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), dh-python, python3-all, python3-dicttoxml, python3-h5py (>= 3.0), python3-lxml, python3-packaging, python3-pkg-resources, python3-setuptools, python3-silx, python3-pytest, python3-pyunitsystem, python3-nxtomo"
+		"debhelper-compat (= 13), dh-python, dh-sequence-python3, python3-all, python3-dicttoxml <!nocheck>, python3-h5py (>= 3.0) <!nocheck>, python3-lxml <!nocheck>, python3-nxtomo <!nocheck>, python3-packaging, python3-pkg-resources, python3-pytest <!nocheck>, python3-pyunitsystem <!nocheck>, python3-setuptools, python3-silx <!nocheck>"
 	],
 	"Checksums-Sha256": [
-		"05c26b441530d1cfb2ec3eace4e0813cbff8b76e27bef8a19e40afe6fad4bb99 2313 tomoscan_2.0.5-2~bpo12+1.dsc a071caab382be7a44e0168eca09d1f855dd57a855b040d41c2b8521e23a218c8 121786 tomoscan_2.0.5.orig.tar.gz 0486bdfe2861edd326e320f1df3555e8d766450f659816875a949ab5b69e7ce6 2944 tomoscan_2.0.5-2~bpo12+1.debian.tar.xz"
+		"d73291327be14f56721e1b150760de760d1ffe3d603487a95bb6c13084e3cb3a 2447 tomoscan_2.2.0~dev0-2~bpo12+1.dsc 5865a05a21466b44cc8a1452978af1ff7ecf063e496f14139f53c49184c9897b 131590 tomoscan_2.2.0~dev0.orig.tar.gz c237f38fa96d80f4008ff1bd67f723c6240f83a1f6d1489e720bcc64584b1260 2964 tomoscan_2.2.0~dev0-2~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/t/tomoscan"
@@ -42,7 +42,7 @@
 		"autopkgtest-pkg-pybuild"
 	],
 	"Uploaders": [
-		"Debian Python Team <team+python@tracker.debian.org>, Roland Mas <lolando@debian.org>"
+		"Debian Python Team <team+python@tracker.debian.org>, Roland Mas <lolando@debian.org>,"
 	],
 	"Vcs-Browser": [
 		"https://salsa.debian.org/python-team/packages/tomoscan"
@@ -51,6 +51,6 @@
 		"https://salsa.debian.org/python-team/packages/tomoscan.git"
 	],
 	"Version": [
-		"2.0.5-2~bpo12+1"
+		"2.2.0~dev0-2~bpo12+1"
 	]
 }
