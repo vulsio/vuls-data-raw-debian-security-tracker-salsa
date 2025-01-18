@@ -6,10 +6,10 @@
 		"freerdp3-x11, libfreerdp3-3, libfreerdp-client3-3, libfreerdp-server3-3, libwinpr3-3, libwinpr-tools3-3, libwinpr3-dev, freerdp3-dev, winpr3-utils, libfreerdp-shadow3-3, libfreerdp-shadow-subsystem3-3, freerdp3-shadow-x11, freerdp3-wayland, freerdp3-sdl, libfreerdp-server-proxy3-3, freerdp3-proxy-modules, freerdp3-proxy"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), cmake, docbook-xsl, architecture-is-64-bit [!i386], libasound2-dev, libavcodec-dev, libavutil-dev, libcairo2-dev, libcjson-dev, libcups2-dev, libfuse3-dev, libgsm1-dev, libicu-dev, libjpeg-dev, libkrb5-dev, libopus-dev, libpam0g-dev, libpcsclite-dev, libpkcs11-helper1-dev, libpng-dev, libpulse-dev, libsdl2-dev, libsdl2-image-dev, libsdl2-ttf-dev, libssl-dev, libswresample-dev, libswscale-dev, libsystemd-dev [linux-any], libudev-dev [linux-any], libusb-1.0-0-dev [linux-any], liburiparser-dev, libwayland-dev [linux-any], libwebp-dev, libx11-dev, libxcursor-dev, libxdamage-dev, libxext-dev, libxfixes-dev, libxinerama-dev, libxi-dev, libxkbcommon-dev, libxkbfile-dev, libxrandr-dev, libxrender-dev, libxtst-dev, libxv-dev, pkgconf, uuid-dev, xmlto, xsltproc"
+		"debhelper-compat (= 13), cmake, docbook-xsl, dpkg-dev (<< 1.22.5~), architecture-is-64-bit [!i386], libasound2-dev, libavcodec-dev, libavutil-dev, libcairo2-dev, libcjson-dev, libcups2-dev, libfuse3-dev, libgsm1-dev, libicu-dev, libjpeg-dev, libkrb5-dev, libopus-dev, libpam0g-dev, libpcsclite-dev, libpkcs11-helper1-dev, libpng-dev, libpulse-dev, libsdl2-dev, libsdl2-image-dev, libsdl2-ttf-dev, libssl-dev, libswresample-dev, libswscale-dev, libsystemd-dev [linux-any], libudev-dev [linux-any], libusb-1.0-0-dev [linux-any], liburiparser-dev, libwayland-dev [linux-any], libwebp-dev, libx11-dev, libxcursor-dev, libxdamage-dev, libxext-dev, libxfixes-dev, libxinerama-dev, libxi-dev, libxkbcommon-dev, libxkbfile-dev, libxrandr-dev, libxrender-dev, libxtst-dev, libxv-dev, pkgconf, uuid-dev, xmlto, xsltproc"
 	],
 	"Checksums-Sha256": [
-		"8977b5b634772d73de33f1e598c9b22c19b7a2d075f1ef266e239e98f3655bf4 3637 freerdp3_3.5.1+dfsg1-5~bpo12+1.dsc e4e4c9ac2c464b07873781acc57ad6efcf469c93a1bf11da1204d9dd89cc0e14 3688232 freerdp3_3.5.1+dfsg1.orig.tar.xz 727beaba35301b809d01d623b43ffbd96a0cff0e8cde84c000550e769737e55b 46624 freerdp3_3.5.1+dfsg1-5~bpo12+1.debian.tar.xz"
+		"a329a4fef450c80003a4d70ec445bfd92bcf99ded7987368fb65ae50f245737c 3985 freerdp3_3.10.3+dfsg-1~bpo12+1.dsc 8c29ec78b0f2d0ecf7abfb4bfb60727f3c0c1005ef076ea0da717a8f3e269045 4405412 freerdp3_3.10.3+dfsg.orig.tar.xz fa527755ea8a4deaa10785a1986cd5486cd02f7021e7b1b7eca29bfe1a2f41f2 47644 freerdp3_3.10.3+dfsg-1~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/f/freerdp3"
@@ -54,6 +54,6 @@
 		"https://salsa.debian.org/debian-remote-team/freerdp3.git"
 	],
 	"Version": [
-		"3.5.1+dfsg1-5~bpo12+1"
+		"3.10.3+dfsg-1~bpo12+1"
 	]
 }
