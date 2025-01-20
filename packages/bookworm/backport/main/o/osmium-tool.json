@@ -6,10 +6,10 @@
 		"osmium-tool"
 	],
 	"Build-Depends": [
-		"architecture-is-little-endian, debhelper-compat (= 13), cmake, libboost-dev, libboost-program-options-dev, libbz2-dev, libexpat1-dev, libosmium2-dev (>= 2.17.0), pandoc, zlib1g-dev"
+		"architecture-is-little-endian, debhelper-compat (= 13), cmake, libboost-dev, libboost-program-options-dev, libbz2-dev, libexpat1-dev, libosmium2-dev (>= 2.20.0), nlohmann-json3-dev, pandoc, zlib1g-dev"
 	],
 	"Checksums-Sha256": [
-		"53560cc1e01a6dec43ea27e319499eaa1d09c8a7f531fe14d446f385f5500cd5 2165 osmium-tool_1.16.0-1~bpo12+1.dsc f98454d9f901be42e0b6751aef40106d734887ee35190c224b174c2f27ef1c0f 491176 osmium-tool_1.16.0.orig.tar.gz 4e5730da750dd9bf0e511f2e00ece813c8afd99bafd86e52f8531d3160a360b6 6620 osmium-tool_1.16.0-1~bpo12+1.debian.tar.xz"
+		"8918b1ffa1781a29ea01e752f79522c2024119c1ced083189af2c833859639b2 2185 osmium-tool_1.17.0-1~bpo12+1.dsc a7c8e5ee108258a3867c21e80d8bf50ee5b7784c56a12523750d882814e3d6df 376830 osmium-tool_1.17.0.orig.tar.gz 08f6cf1bbe74aa064ade2b00b63ed07fae3513a991c0b77e373bcf5a1ad53066 5968 osmium-tool_1.17.0-1~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/o/osmium-tool"
@@ -36,7 +36,7 @@
 		"misc"
 	],
 	"Standards-Version": [
-		"4.6.2"
+		"4.7.0"
 	],
 	"Uploaders": [
 		"Bas Couwenberg <sebastic@debian.org>"
@@ -48,6 +48,6 @@
 		"https://salsa.debian.org/debian-gis-team/osmium-tool.git -b bookworm-backports"
 	],
 	"Version": [
-		"1.16.0-1~bpo12+1"
+		"1.17.0-1~bpo12+1"
 	]
 }
