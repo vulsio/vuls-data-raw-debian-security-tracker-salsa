@@ -6,16 +6,16 @@
 		"librust-trust-dns-proto-dev"
 	],
 	"Build-Depends": [
-		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-async-trait-0.1+default-dev (>= 0.1.43-~~) <!nocheck>, librust-cfg-if-1+default-dev <!nocheck>, librust-data-encoding-2+default-dev (>= 2.2.0-~~) <!nocheck>, librust-enum-as-inner-0.6+default-dev <!nocheck>, librust-futures-channel-0.3+std-dev (>= 0.3.5-~~) <!nocheck>, librust-futures-io-0.3+std-dev (>= 0.3.5-~~) <!nocheck>, librust-futures-util-0.3+std-dev (>= 0.3.5-~~) <!nocheck>, librust-idna-0.4+default-dev <!nocheck> | librust-idna-0.3+default-dev <!nocheck>, librust-ipnet-2+default-dev (>= 2.3.0-~~) <!nocheck>, librust-lazy-static-1+default-dev (>= 1.2.0-~~) <!nocheck>, librust-rand-0.8+default-dev <!nocheck>, librust-smallvec-1+default-dev (>= 1.6-~~) <!nocheck>, librust-thiserror-1+default-dev (>= 1.0.20-~~) <!nocheck>, librust-tinyvec-1+alloc-dev (>= 1.1.1-~~) <!nocheck>, librust-tinyvec-1+default-dev (>= 1.1.1-~~) <!nocheck>, librust-tokio-1+io-util-dev <!nocheck>, librust-tokio-1+net-dev <!nocheck>, librust-tokio-1+rt-dev <!nocheck>, librust-tokio-1+rt-multi-thread-dev <!nocheck>, librust-tokio-1+time-dev <!nocheck>, librust-tracing-0.1+default-dev (>= 0.1.30-~~) <!nocheck>, librust-url-2+default-dev (>= 2.1.0-~~) <!nocheck>, librust-ring-dev"
+		"debhelper-compat (= 13), dh-sequence-cargo, cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-async-trait-0.1+default-dev (>= 0.1.43-~~) <!nocheck>, librust-cfg-if-1+default-dev <!nocheck>, librust-data-encoding-2+default-dev (>= 2.2.0-~~) <!nocheck>, librust-enum-as-inner-0.6+default-dev <!nocheck>, librust-futures-channel-0.3+std-dev (>= 0.3.5-~~) <!nocheck>, librust-futures-io-0.3+std-dev (>= 0.3.5-~~) <!nocheck>, librust-futures-util-0.3+std-dev (>= 0.3.5-~~) <!nocheck>, librust-idna-0.4+default-dev <!nocheck> | librust-idna-0.3+default-dev <!nocheck>, librust-ipnet-2+default-dev (>= 2.3.0-~~) <!nocheck>, librust-lazy-static-1+default-dev (>= 1.2.0-~~) <!nocheck>, librust-rand-0.8+default-dev <!nocheck>, librust-smallvec-1+default-dev (>= 1.6-~~) <!nocheck>, librust-thiserror-1+default-dev (>= 1.0.20-~~) <!nocheck>, librust-tinyvec-1+alloc-dev (>= 1.1.1-~~) <!nocheck>, librust-tinyvec-1+default-dev (>= 1.1.1-~~) <!nocheck>, librust-tokio-1+io-util-dev <!nocheck>, librust-tokio-1+net-dev <!nocheck>, librust-tokio-1+rt-dev <!nocheck>, librust-tokio-1+rt-multi-thread-dev <!nocheck>, librust-tokio-1+time-dev <!nocheck>, librust-tracing-0.1+default-dev (>= 0.1.30-~~) <!nocheck>, librust-url-2+default-dev (>= 2.1.0-~~) <!nocheck>, librust-ring-dev"
 	],
 	"Checksums-Sha256": [
-		"fc4ee267d0d13ecfcdc4ffa777c57604c7f87ac0015e069564fc7a0dda93245b 3814 rust-trust-dns-proto_0.22.0-13.dsc 3161ca662e0287d1731e1f7d0461d488112e0a5a83650b96e36c04da541f8e6c 300052 rust-trust-dns-proto_0.22.0.orig.tar.gz f3d8e60f942c7d977cc541742b63d3db82f954bccda4d9267dbb19ca2fb8091d 11780 rust-trust-dns-proto_0.22.0-13.debian.tar.xz"
+		"1671ad3e8d1043d58e00aaf25cd3753ce5e86eef1d3ff2814090d8e412c20aa4 3821 rust-trust-dns-proto_0.22.0-14.dsc 3161ca662e0287d1731e1f7d0461d488112e0a5a83650b96e36c04da541f8e6c 300052 rust-trust-dns-proto_0.22.0.orig.tar.gz 174176b3359f94ddb3d0e4c34e0f5f6f82202eb73468e9c2ee2ced8822076042 12740 rust-trust-dns-proto_0.22.0-14.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/r/rust-trust-dns-proto"
 	],
 	"Files": [
-		"496f912bc2e59ffe9c3d22de58dfdef6 3814 rust-trust-dns-proto_0.22.0-13.dsc baa5d44e70c7dc10d757fa8ca594a405 300052 rust-trust-dns-proto_0.22.0.orig.tar.gz 41a67a25d0b1eeea9417289b36b3baf1 11780 rust-trust-dns-proto_0.22.0-13.debian.tar.xz"
+		"1a291dc811717a9e05e3f41d625c45b8 3821 rust-trust-dns-proto_0.22.0-14.dsc baa5d44e70c7dc10d757fa8ca594a405 300052 rust-trust-dns-proto_0.22.0.orig.tar.gz b526531fc65e0dc33864c2ddafca4ce4 12740 rust-trust-dns-proto_0.22.0-14.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -39,7 +39,7 @@
 		"misc"
 	],
 	"Standards-Version": [
-		"4.6.2"
+		"4.7.0"
 	],
 	"Testsuite": [
 		"autopkgtest"
@@ -57,6 +57,6 @@
 		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/trust-dns-proto]"
 	],
 	"Version": [
-		"0.22.0-13"
+		"0.22.0-14"
 	]
 }
