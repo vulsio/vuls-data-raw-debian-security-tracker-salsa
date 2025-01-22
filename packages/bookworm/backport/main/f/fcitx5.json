@@ -6,10 +6,13 @@
 		"fcitx5, fcitx5-data, fcitx5-frontend-all, fcitx5-modules, fcitx5-modules-dev, libfcitx5config-dev, libfcitx5config6, libfcitx5core-dev, libfcitx5core7, libfcitx5utils-dev, libfcitx5utils2"
 	],
 	"Build-Depends": [
-		"appstream, cmake (>= 3.6.0), dbus-daemon <!nocheck>, debhelper-compat (= 13), extra-cmake-modules, gettext, iso-codes, libbrotli-dev, libcairo2-dev, libdbus-1-dev [!linux-any], libegl1-mesa-dev, libenchant-2-dev, libevent-dev [!linux-any], libexpat1-dev, libfmt-dev, libgdk-pixbuf-2.0-dev, libjson-c-dev, libkvm-dev [kfreebsd-any], libpango1.0-dev, libsystemd-dev [linux-any], libuv1-dev [!linux-any], libwayland-bin [linux-any], libwayland-dev [linux-any], libwayland-egl-backend-dev [linux-any], libxcb-ewmh-dev, libxcb-icccm4-dev, libxcb-imdkit-dev (>= 1.0.5~), libxcb-randr0-dev, libxcb-shape0-dev, libxcb-xfixes0-dev, libxcb-xinerama0-dev, libxcb-xkb-dev, libxcb1-dev, libxkbcommon-x11-dev, libxkbfile-dev, pkg-config, unicode-cldr-core, uuid-dev, wayland-protocols [linux-any]"
+		"appstream, cmake (>= 3.6.0), dbus-daemon <!nocheck>, debhelper-compat (= 13), dh-exec, extra-cmake-modules, gettext, iso-codes, libbrotli-dev, libcairo2-dev, libdbus-1-dev [!linux-any], libegl1-mesa-dev, libenchant-2-dev, libevent-dev [!linux-any], libexpat1-dev, libfmt-dev, libgdk-pixbuf-2.0-dev, libjson-c-dev, libkvm-dev [kfreebsd-any], libpango1.0-dev, libsystemd-dev [linux-any], libuv1-dev [!linux-any], libwayland-bin [linux-any], libwayland-dev [linux-any], libwayland-egl-backend-dev [linux-any], libxcb-ewmh-dev, libxcb-icccm4-dev, libxcb-imdkit-dev (>= 1.0.5~), libxcb-randr0-dev, libxcb-shape0-dev, libxcb-xfixes0-dev, libxcb-xinerama0-dev, libxcb-xkb-dev, libxcb1-dev, libxkbcommon-x11-dev, libxkbfile-dev, pkgconf, unicode-cldr-core, uuid-dev, wayland-protocols [linux-any]"
 	],
 	"Checksums-Sha256": [
-		"c87fca1462bb33095d0ab6043aa85442ca7a5344b0607d0c751f2b89fa07eafc 3359 fcitx5_5.1.10-1~bpo12+1.dsc f908e97cf2cc7b20f8ac8de63ab110fa1a797e3d3550852e4a497a0311e1041d 7533692 fcitx5_5.1.10.orig.tar.xz d0a2991509826b8d8bddbce48653a9d7792f18fa9255d6fe685a873be89c47a6 14220 fcitx5_5.1.10-1~bpo12+1.debian.tar.xz"
+		"9a8fa9d8274a90246ecc95b5b512abb3d68b7b1e1a8070d3affe8a3e3e0fc437 3965 fcitx5_5.1.11-2~bpo12+1.dsc 2564a12c9368b368ae32b5214f62cc8a261c96453f3ee07ebdff2a331b7511d1 7537364 fcitx5_5.1.11.orig.tar.xz 071dfaaf66679ef90561e07cb1b38704d93ae6ae05f9097929865ba5e627701a 14052 fcitx5_5.1.11-2~bpo12+1.debian.tar.xz"
+	],
+	"Description": [
+		"Fcitx Input Method Framework v5 Fcitx5 is the next generation of fcitx input method framework. It provides pleasant and modern input experience with intuitive graphical configuration tools. The framework is highly extensible with support for GTK+ and Qt toolkits, D-Bus interfaces, a large variety of desktop environments and a developer-friendly API. . Some of its new features include support of both Wayland and Xorg and the ability to mimic IBus Input Method Framework in order to provide better compatibility across different Linux distributions and desktop environments."
 	],
 	"Directory": [
 		"pool/main/f/fcitx5"
@@ -36,7 +39,7 @@
 		"misc"
 	],
 	"Standards-Version": [
-		"4.6.2"
+		"4.7.0"
 	],
 	"Uploaders": [
 		"Boyuan Yang <byang@debian.org>,"
@@ -48,6 +51,6 @@
 		"https://salsa.debian.org/input-method-team/fcitx5.git"
 	],
 	"Version": [
-		"5.1.10-1~bpo12+1"
+		"5.1.11-2~bpo12+1"
 	]
 }
