@@ -6,16 +6,16 @@
 		"cwltool, cwltool-doc"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc, procps <!nocheck>, python3, python3-all, pybuild-plugin-pyproject, python3-setuptools, python3-setuptools-scm, python3-sphinx <!nodoc>, python3-sphinx-autoapi <!nodoc>, python3-sphinx-autodoc-typehints <!nodoc>, python3-sphinx-rtd-theme <!nodoc>, python3-sphinxcontrib.autoprogram <!nodoc>, python3-coloredlogs <!nocheck> <!nodoc>, python3-rdflib (>> 6) <!nocheck>, python3-schema-salad (>= 8.4.20230808163024) <!nocheck> <!nodoc>, python3-html5lib <!nocheck>, python3-sparqlwrapper <!nocheck>, python3-keepalive <!nocheck>, python3-ruamel.yaml <!nocheck>, python3-pytest (>> 6.2) <!nocheck>, python3-pytest-xdist <!nocheck>, python3-pytest-runner <!nocheck>, python3-pytest-mock <!nocheck>, python3-cwl-utils (>= 0.32) <!nocheck> <!nodoc>, python3-mypy-extensions <!nocheck> <!nodoc>, python3-psutil <!nocheck> <!nodoc>, python3-prov <!nocheck> <!nodoc>, python3-arcp <!nocheck>, python3-pydot <!nocheck> <!nodoc>, python3-argcomplete <!nocheck> <!nodoc>, python3-spython <!nocheck> <!nodoc>, nodejs <!nocheck>, jq <!nocheck>, help2man"
+		"debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc <!nodoc>, procps <!nocheck>, python3, python3-all, pybuild-plugin-pyproject, python3-setuptools, python3-setuptools-scm, python3-sphinx <!nodoc>, python3-sphinx-autoapi <!nodoc>, python3-sphinx-autodoc-typehints <!nodoc>, python3-sphinx-rtd-theme <!nodoc>, python3-sphinxcontrib.autoprogram <!nodoc>, python3-doc <!nodoc>, python-rdflib-doc <!nodoc>, python3-coloredlogs <!nocheck> <!nodoc>, python3-rdflib (>> 6) <!nocheck>, python3-schema-salad (>= 8.4.20230808163024) <!nocheck> <!nodoc>, python3-html5lib <!nocheck>, python3-sparqlwrapper <!nocheck>, python3-keepalive <!nocheck>, python3-ruamel.yaml <!nocheck>, python3-pytest (>> 6.2) <!nocheck>, python3-pytest-xdist <!nocheck>, python3-pytest-runner <!nocheck>, python3-pytest-mock <!nocheck>, python3-cwl-utils (>= 0.32) <!nocheck> <!nodoc>, python3-mypy-extensions <!nocheck> <!nodoc>, python3-psutil <!nocheck> <!nodoc>, python3-prov <!nocheck> <!nodoc>, python3-arcp <!nocheck>, python3-pydot <!nocheck> <!nodoc>, python3-argcomplete <!nocheck> <!nodoc>, python3-spython <!nocheck> <!nodoc>, python3-rich-argparse <!nocheck> <!nodoc>, nodejs <!nocheck>, jq <!nocheck>, help2man"
 	],
 	"Checksums-Sha256": [
-		"ac59920a0321283286dca582ba380f2e291fd2ce81f5ece9bc61ecaa29a02459 3311 cwltool_3.1.20241112140730-1.dsc 84f597429d964b54aaa0de427dcc24c94dd45aacae87311b3bdebe3258c4c900 1420320 cwltool_3.1.20241112140730.orig.tar.gz ba1fd0b361291ae1868c4fd4571cd0997669b28117e525d6ef8301cc97b1e6df 53112 cwltool_3.1.20241112140730-1.debian.tar.xz"
+		"239cdf4120c155958dd8cdefea24798a266ad9ecf7668f132823031ea3e15686 3385 cwltool_3.1.20250110105449-1.dsc 91d3a5946a2afd3e8c4d7e38a53690ad06e3dd88c1d1e1afa368caa41ec3038f 1426062 cwltool_3.1.20250110105449.orig.tar.gz 516515c7d9e1ab33b05c7a04703dca1bc038d1836c879bfa86bda5e37d882c44 53692 cwltool_3.1.20250110105449-1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/c/cwltool"
 	],
 	"Files": [
-		"0ec9e423ed114dbefc6182e3363fd8c2 3311 cwltool_3.1.20241112140730-1.dsc c73b9742c311b9f29010651abe1e3c9a 1420320 cwltool_3.1.20241112140730.orig.tar.gz b5c63a0839d5951d020ad0de7723b821 53112 cwltool_3.1.20241112140730-1.debian.tar.xz"
+		"5c3787e02830db65b17f23421f4bdb84 3385 cwltool_3.1.20250110105449-1.dsc e6305cabc276f29f1886aed967a047c2 1426062 cwltool_3.1.20250110105449.orig.tar.gz 030db313d69b3b0b8762c72279cd5d06 53692 cwltool_3.1.20250110105449-1.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -30,7 +30,7 @@
 		"cwltool"
 	],
 	"Package-List": [
-		"cwltool deb science optional arch=all cwltool-doc deb science optional arch=all"
+		"cwltool deb science optional arch=all cwltool-doc deb doc optional arch=all"
 	],
 	"Priority": [
 		"optional"
@@ -57,6 +57,6 @@
 		"https://salsa.debian.org/med-team/cwltool.git"
 	],
 	"Version": [
-		"3.1.20241112140730-1"
+		"3.1.20250110105449-1"
 	]
 }
