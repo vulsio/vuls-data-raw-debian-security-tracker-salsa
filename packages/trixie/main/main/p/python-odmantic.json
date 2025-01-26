@@ -1,0 +1,65 @@
+{
+	"Architecture": [
+		"all"
+	],
+	"Binary": [
+		"python-odmantic-doc, python3-odmantic"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-sequence-python3, flit, pybuild-plugin-pyproject, python3-all"
+	],
+	"Build-Depends-Indep": [
+		"mkdocs <!nodoc>, mkdocs-macros-plugin <!nodoc>, mkdocs-material <!nodoc>, mkdocstrings-python-handlers <!nodoc>, pydocstyle <!nodoc>, python3-bson <!nocheck>, python3-fastapi <!nocheck>, python3-httpx <!nocheck>, python3-inline-snapshot <!nocheck>, python3-motor <!nocheck>, python3-pydantic <!nocheck>, python3-pymongo <!nocheck>, python3-pytest <!nocheck>, python3-pytest-asyncio <!nocheck>, python3-pytest-benchmark <!nocheck>, python3-pytest-codspeed <!nocheck>, python3-pytest-xdist <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"af9781886caf6572f0c720e253949856880056cd34e5b349fba8a07a66199152 3059 python-odmantic_1.0.2-3.dsc a3f5739838f7e4aa610aa92520677af308b3f9ff22997505246f717421d79a7e 129998 python-odmantic_1.0.2.orig.tar.gz 8911dca9cf7ebbfa7c5df100dc859a6f5df91ad0b365faf1ef0e4a3ffb4665c7 10248 python-odmantic_1.0.2-3.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/p/python-odmantic"
+	],
+	"Files": [
+		"cfad3425f3282e9b267adc29f3aaa095 3059 python-odmantic_1.0.2-3.dsc 5ca00550553e922628adf62477562276 129998 python-odmantic_1.0.2.orig.tar.gz 365b44ea00449dbba388606f334a5372 10248 python-odmantic_1.0.2-3.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/art049/odmantic"
+	],
+	"Maintainer": [
+		"Debian Python Team <team+python@tracker.debian.org>"
+	],
+	"Package": [
+		"python-odmantic"
+	],
+	"Package-List": [
+		"python-odmantic-doc deb doc optional arch=all python3-odmantic deb python optional arch=all"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.7.0"
+	],
+	"Testsuite": [
+		"autopkgtest, autopkgtest-pkg-python"
+	],
+	"Testsuite-Triggers": [
+		"python3-all, python3-bson, python3-fastapi, python3-httpx, python3-inline-snapshot, python3-motor, python3-pydantic, python3-pymongo, python3-pytest, python3-pytest-asyncio, python3-pytest-benchmark, python3-pytest-codspeed, python3-pytest-xdist"
+	],
+	"Uploaders": [
+		"Carsten Schoenert <c.schoenert@t-online.de>, Kathara Sasikumar <katharasasikumar007@gmail.com>,"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/python-team/packages/python-odmantic"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/python-team/packages/python-odmantic.git"
+	],
+	"Version": [
+		"1.0.2-3"
+	]
+}
