@@ -3,25 +3,28 @@
 		"any all"
 	],
 	"Binary": [
-		"python3-numpy, python-numpy-doc"
+		"python3-numpy, python-numpy-doc, python3-numpy-dev"
 	],
 	"Build-Depends": [
-		"cython3:native (>= 3.0), debhelper-compat (= 13), dh-python, dh-sequence-python3, gfortran [amd64 arm64 ppc64el] <!nocheck>, libblas-dev [!arm !m68k], liblapack-dev [!arm !m68k], libpython3-all-dev, mypy <!nocheck>, ninja-build, pybuild-plugin-pyproject, python3-all-dev:any, python3-charset-normalizer <!nocheck>, python3-hypothesis <!nocheck>, python3-mesonpy:native, python3-pyproject-metadata:native, python3-pytest <!nocheck>, python3-pytest-xdist <!nocheck>, python3-scipy <!nocheck>, python3-setuptools <!nocheck>, python3-typing-extensions (>= 4.2.0) <!nocheck>, python3-tz <!nocheck>, tzdata-legacy <!nocheck>"
+		"debhelper-compat (= 13), dh-sequence-python3, cython3:native (>= 3.0), gfortran [amd64 arm64 ppc64el] <!nocheck>, libblas-dev [!arm !m68k], liblapack-dev [!arm !m68k], libpython3-all-dev, mypy <!nocheck>, ninja-build, pkgconf <!nocheck>, pybuild-plugin-pyproject, python3-all-dev:any, python3-charset-normalizer <!nocheck>, python3-hypothesis <!nocheck>, python3-mesonpy:native, python3-pyproject-metadata:native, python3-pytest <!nocheck>, python3-pytest-xdist <!nocheck>, python3-setuptools <!nocheck>, python3-typing-extensions (>= 4.2.0) <!nocheck>, python3-tz <!nocheck>, tzdata-legacy <!nocheck>"
 	],
 	"Build-Depends-Indep": [
-		"dh-sequence-sphinxdoc <!nodoc>, doxygen <!nodoc>, python-imageio-doc <!nodoc>, python-pandas-doc <!nodoc>, python-pytest-doc <!nodoc>, python-scipy-doc <!nodoc>, python-skimage-doc <!nodoc>, python3-breathe <!nodoc>, python3-doc <!nodoc>, python3-ipython <!nodoc>, python3-matplotlib <!nodoc>, python3-numpydoc <!nodoc>, python3-pickleshare <!nodoc>, python3-pydata-sphinx-theme <!nodoc>, python3-sphinx <!nodoc>, python3-sphinx-design <!nodoc>"
+		"dh-sequence-sphinxdoc <!nodoc>, doxygen <!nodoc>, python-imageio-doc <!nodoc>, python-pandas-doc <!nodoc>, python-pytest-doc <!nodoc>, python-scipy-doc <!nodoc>, python-skimage-doc <!nodoc>, python3-breathe <!nodoc>, python3-doc <!nodoc>, python3-ipython <!nodoc>, python3-numpydoc <!nodoc>, python3-pickleshare <!nodoc>, python3-pydata-sphinx-theme <!nodoc>, python3-sphinx <!nodoc>, python3-sphinx-copybutton <!nodoc>, python3-sphinx-design <!nodoc>"
 	],
 	"Checksums-Sha256": [
-		"ab47ca92a0b2798b90658c2ac4d5dc600293616c66093c410fafb3c2b64da8e4 3451 numpy_1.26.4+ds-13.dsc 6d7439af1de399433eb44fce065d22000b0480e6d153f013697d58387defb6af 11269580 numpy_1.26.4+ds.orig.tar.xz 9b7a990320d9db9f006a464e2964490ff1ea55ebb63ea639ddf941e1744be81a 156528 numpy_1.26.4+ds-13.debian.tar.xz"
+		"6cf7f014f0e81f479263e023dd74e0a31512c3e81323a891a933765363227b69 3614 numpy_2.2.2+ds-2.dsc a1f0c2befa8313fa3507c4ac95764285c81699b1fb51be89915df006fa88b709 15169368 numpy_2.2.2+ds.orig.tar.xz 24a9766dbe663dda435ee6650c5858430757670d96afa159a28c69c0c4642fa8 157852 numpy_2.2.2+ds-2.debian.tar.xz"
 	],
 	"Description": [
-		"Fast array facility to the Python language NumPy contains a powerful N-dimensional array object, sophisticated (broadcasting) functions, tools for integrating C/C++ and Fortran code, and useful linear algebra, Fourier transform, and random number capabilities."
+		"Python library for numerical computations NumPy contains a powerful N-dimensional array object, sophisticated (broadcasting) functions, tools for integrating C/C++ and Fortran code, and useful linear algebra, Fourier transform, and random number capabilities."
+	],
+	"Dgit": [
+		"ad663edf1e5969e8696217aa52964ff99b6a99ea debian archive/debian/1%2.2.2+ds-2 https://git.dgit.debian.org/numpy"
 	],
 	"Directory": [
 		"pool/main/n/numpy"
 	],
 	"Files": [
-		"5634a34cf65d42940faa57df7f0d612b 3451 numpy_1.26.4+ds-13.dsc 9fc752fe1de9869a6bbd93234dd9a093 11269580 numpy_1.26.4+ds.orig.tar.xz d0d0ba14d38b19629852ffd7314a638e 156528 numpy_1.26.4+ds-13.debian.tar.xz"
+		"a5543848510e67e12f56dfce209435c9 3614 numpy_2.2.2+ds-2.dsc 84380413bec890e4f3e2a9ac0baf203b 15169368 numpy_2.2.2+ds.orig.tar.xz 3ee7eee26520dfaf06dc3d1e54aac36d 157852 numpy_2.2.2+ds-2.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -30,13 +33,13 @@
 		"http://www.numpy.org/"
 	],
 	"Maintainer": [
-		"Debian Python Team <team+python@tracker.debian.org>,"
+		"Debian Python Team <team+python@tracker.debian.org>"
 	],
 	"Package": [
 		"numpy"
 	],
 	"Package-List": [
-		"python-numpy-doc deb doc optional arch=all profile=!nodoc python3-numpy deb python optional arch=any"
+		"python-numpy-doc deb doc optional arch=all profile=!nodoc python3-numpy deb python optional arch=any python3-numpy-dev deb python optional arch=any"
 	],
 	"Priority": [
 		"extra"
@@ -60,6 +63,6 @@
 		"https://salsa.debian.org/python-team/packages/numpy.git"
 	],
 	"Version": [
-		"1:1.26.4+ds-13"
+		"1:2.2.2+ds-2"
 	]
 }

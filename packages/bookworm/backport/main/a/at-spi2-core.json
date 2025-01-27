@@ -6,13 +6,13 @@
 		"at-spi2-core, at-spi2-common, at-spi2-core-udeb, libatspi2.0-0, libatspi0-udeb, libatspi2.0-dev, gir1.2-atspi-2.0, at-spi2-doc, libatk-adaptor, libatk-adaptor-udeb, libatk-bridge2.0-0, libatk-bridge-2.0-0-udeb, libatk-bridge2.0-dev, libatk1.0-0, libatk1.0-udeb, libatk1.0-dev, libatk1.0-doc, gir1.2-atk-1.0"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), dbus, libdbus-1-dev, dbus-broker [linux-any], libsystemd-dev [linux-any], libglib2.0-dev (>= 2.62), libxml2-dev, libx11-dev, libxtst-dev, meson (>= 0.63.0), pkgconf, libgirepository1.0-dev, gtk-doc-tools, gi-docgen, python3-sphinx, gobject-introspection | dh-sequence-gir, xauth <!nocheck>, xvfb <!nocheck>, at-spi2-core <!nocheck>"
+		"debhelper-compat (= 13), dbus, libdbus-1-dev, dbus-broker [linux-any], libsystemd-dev [linux-any], libglib2.0-dev (>= 2.62), libxml2-dev, libx11-dev, libxtst-dev, meson (>= 0.63.0), pkgconf, libgirepository1.0-dev, gobject-introspection | dh-sequence-gir, xauth <!nocheck>, xvfb <!nocheck>, at-spi2-core <!nocheck>"
 	],
 	"Build-Depends-Indep": [
-		"docbook-xml <!nodoc>, libglib2.0-doc <!nodoc>, libglib2.0-dev-bin <!nodoc>"
+		"docbook-xml <!nodoc>, gi-docgen, gtk-doc-tools, libglib2.0-doc <!nodoc>, libglib2.0-dev-bin <!nodoc>, python3-sphinx"
 	],
 	"Checksums-Sha256": [
-		"4c2a456cc9cefc774889c2d57354e24a8b58ede012f9bb44015eb0c0cfd288c3 3724 at-spi2-core_2.54.0-1~bpo12+1.dsc d7eee7e75beddcc272cedc2b60535600f3aae6e481589ebc667afc437c0a6079 575368 at-spi2-core_2.54.0.orig.tar.xz 180c4f2bc9b31a44c251e6ed294a40fa6aa212811cee8e9366258b1373dadb41 20036 at-spi2-core_2.54.0-1~bpo12+1.debian.tar.xz"
+		"aec344bbd550c82a0a603cc9abf952ab342bfa685ebba6d676857fd2aa6a0e65 3738 at-spi2-core_2.55.0.1-1~bpo12+1.dsc 7f39b3f6d8d578516ae9469b21e5aceaa7a32c34bd3a04848c7457653ab58280 576672 at-spi2-core_2.55.0.1.orig.tar.xz a5546b962fe4171c387ae414179504a7a3f113d60a21c09fa16b240f882d967e 20160 at-spi2-core_2.55.0.1-1~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/a/at-spi2-core"
@@ -57,6 +57,6 @@
 		"https://salsa.debian.org/a11y-team/at-spi2-core.git"
 	],
 	"Version": [
-		"2.54.0-1~bpo12+1"
+		"2.55.0.1-1~bpo12+1"
 	]
 }
