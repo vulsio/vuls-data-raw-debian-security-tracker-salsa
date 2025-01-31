@@ -6,19 +6,22 @@
 		"librust-sqlx-macros-core-dev"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-dotenvy-0.15-dev <!nocheck>, librust-either-1+default-dev (>= 1.6.1-~~) <!nocheck>, librust-heck+default-dev (>= 0.4-~~) <!nocheck>, librust-hex-0.4+default-dev (>= 0.4.3-~~) <!nocheck>, librust-once-cell-1+default-dev (>= 1.9.0-~~) <!nocheck>, librust-proc-macro2-1-dev (>= 1.0.79-~~) <!nocheck>, librust-quote-1-dev (>= 1.0.26-~~) <!nocheck>, librust-serde-1+default-dev (>= 1.0.132-~~) <!nocheck>, librust-serde-1+derive-dev (>= 1.0.132-~~) <!nocheck>, librust-serde-json-1+default-dev (>= 1.0.73-~~) <!nocheck>, librust-sha2-0.10+default-dev <!nocheck>, librust-sqlx-core-0.8.2+default-dev <!nocheck>, librust-sqlx-core-0.8.2+offline-dev <!nocheck>, librust-syn-2+clone-impls-dev (>= 2.0.52-~~) <!nocheck>, librust-syn-2+derive-dev (>= 2.0.52-~~) <!nocheck>, librust-syn-2+full-dev (>= 2.0.52-~~) <!nocheck>, librust-syn-2+parsing-dev (>= 2.0.52-~~) <!nocheck>, librust-syn-2+printing-dev (>= 2.0.52-~~) <!nocheck>, librust-tempfile-3+default-dev (>= 3.10.1-~~) <!nocheck>, librust-url-2-dev (>= 2.2.2-~~) <!nocheck>"
+		"debhelper-compat (= 13), dh-sequence-cargo, cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-dotenvy-0.15-dev <!nocheck>, librust-either-1+default-dev (>= 1.6.1-~~) <!nocheck>, librust-heck+default-dev (>= 0.4-~~) <!nocheck>, librust-hex-0.4+default-dev (>= 0.4.3-~~) <!nocheck>, librust-once-cell-1+default-dev (>= 1.9.0-~~) <!nocheck>, librust-proc-macro2-1-dev (>= 1.0.79-~~) <!nocheck>, librust-quote-1-dev (>= 1.0.26-~~) <!nocheck>, librust-serde-1+default-dev (>= 1.0.132-~~) <!nocheck>, librust-serde-1+derive-dev (>= 1.0.132-~~) <!nocheck>, librust-serde-json-1+default-dev (>= 1.0.73-~~) <!nocheck>, librust-sha2-0.10+default-dev <!nocheck>, librust-sqlx-core-0.8.3+default-dev <!nocheck>, librust-sqlx-core-0.8.3+offline-dev <!nocheck>, librust-syn-2+clone-impls-dev (>= 2.0.52-~~) <!nocheck>, librust-syn-2+derive-dev (>= 2.0.52-~~) <!nocheck>, librust-syn-2+full-dev (>= 2.0.52-~~) <!nocheck>, librust-syn-2+parsing-dev (>= 2.0.52-~~) <!nocheck>, librust-syn-2+printing-dev (>= 2.0.52-~~) <!nocheck>, librust-tempfile-3+default-dev (>= 3.10.1-~~) <!nocheck>, librust-url-2+default-dev (>= 2.2.2-~~) <!nocheck>"
 	],
 	"Checksums-Sha256": [
-		"ccc8b7e465cc1689c81e8b3cde26a35bd3cfa1978c91c26a71ded34080b60a85 2901 rust-sqlx-macros-core_0.8.2-1.dsc 1804e8a7c7865599c9c79be146dc8a9fd8cc86935fa641d3ea58e5f0688abaa5 29729 rust-sqlx-macros-core_0.8.2.orig.tar.gz e8e6fc64e49a79ceca16e81d3a528af9cfdf1466df91457689a3b94832bdb30e 4508 rust-sqlx-macros-core_0.8.2-1.debian.tar.xz"
+		"40d47134d9023bddd28c0cd2f13edfb7e2e467a3d91d3715bdfa242c75ff1199 3330 rust-sqlx-macros-core_0.8.3-1.dsc 4e9f90acc5ab146a99bf5061a7eb4976b573f560bc898ef3bf8435448dd5e7ad 29908 rust-sqlx-macros-core_0.8.3.orig.tar.gz 99f4fb23dbd025c4d09f6d04b93e4a950f0e54afa6a85bf837f548dc17578390 4556 rust-sqlx-macros-core_0.8.3-1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/r/rust-sqlx-macros-core"
 	],
 	"Files": [
-		"61990a1fd2e6b907850d65c97d66085e 2901 rust-sqlx-macros-core_0.8.2-1.dsc cd3f24d172e951b617210fdc294e0d5a 29729 rust-sqlx-macros-core_0.8.2.orig.tar.gz cb6cc4d44243b5cd1f03196759794b4f 4508 rust-sqlx-macros-core_0.8.2-1.debian.tar.xz"
+		"a0017a9af49b58149367ca268217a81b 3330 rust-sqlx-macros-core_0.8.3-1.dsc bc09d768201feadd7e8570162aa7325b 29908 rust-sqlx-macros-core_0.8.3.orig.tar.gz 4f110ba806f9fa9cbf7e8059a70a7699 4556 rust-sqlx-macros-core_0.8.3-1.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/launchbadge/sqlx"
 	],
 	"Maintainer": [
 		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
@@ -54,6 +57,6 @@
 		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/sqlx-macros-core]"
 	],
 	"Version": [
-		"0.8.2-1"
+		"0.8.3-1"
 	]
 }

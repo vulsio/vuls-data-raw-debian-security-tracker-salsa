@@ -6,19 +6,22 @@
 		"librust-sqlx-postgres-dev"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-atoi-2+default-dev <!nocheck>, librust-base64-0+std-dev (>= 0.21.7-~~) <!nocheck>, librust-bitflags-2-dev <!nocheck>, librust-byteorder-1+std-dev (>= 1.4.3-~~) <!nocheck>, librust-crc-3+default-dev <!nocheck>, librust-dotenvy-0.15-dev <!nocheck>, librust-etcetera-0.8+default-dev <!nocheck>, librust-futures-channel-0.3+alloc-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-channel-0.3+sink-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-channel-0.3+std-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-core-0.3-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-io-0.3+default-dev (>= 0.3.24-~~) <!nocheck>, librust-futures-util-0.3+alloc-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-util-0.3+io-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-util-0.3+sink-dev (>= 0.3.19-~~) <!nocheck>, librust-hex-0.4+default-dev (>= 0.4.3-~~) <!nocheck>, librust-hkdf-0.12+default-dev <!nocheck>, librust-hmac-0.12+reset-dev <!nocheck>, librust-home-0.5+default-dev (>= 0.5.5-~~) <!nocheck>, librust-itoa-1+default-dev (>= 1.0.1-~~) <!nocheck>, librust-log-0.4+default-dev (>= 0.4.18-~~) <!nocheck>, librust-md-5-0.10-dev <!nocheck>, librust-memchr-2-dev (>= 2.4.1-~~) <!nocheck>, librust-once-cell-1+default-dev (>= 1.9.0-~~) <!nocheck>, librust-rand-0.8+std-dev (>= 0.8.4-~~) <!nocheck>, librust-rand-0.8+std-rng-dev (>= 0.8.4-~~) <!nocheck>, librust-serde-1+default-dev (>= 1.0.144-~~) <!nocheck>, librust-serde-1+derive-dev (>= 1.0.144-~~) <!nocheck>, librust-serde-json-1+default-dev (>= 1.0.85-~~) <!nocheck>, librust-serde-json-1+raw-value-dev (>= 1.0.85-~~) <!nocheck>, librust-sha2-0.10-dev <!nocheck>, librust-smallvec-1+default-dev (>= 1.7.0-~~) <!nocheck>, librust-smallvec-1+serde-dev (>= 1.7.0-~~) <!nocheck>, librust-sqlx-core-0.8.2+default-dev <!nocheck>, librust-sqlx-core-0.8.2+json-dev <!nocheck>, librust-stringprep-0.1+default-dev (>= 0.1.2-~~) <!nocheck>, librust-thiserror-1+default-dev (>= 1.0.35-~~) <!nocheck>, librust-tracing-0.1+default-dev (>= 0.1.37-~~) <!nocheck>, librust-tracing-0.1+log-dev (>= 0.1.37-~~) <!nocheck>, librust-whoami-dev (>= 0.8-~~) <!nocheck>"
+		"debhelper-compat (= 13), dh-sequence-cargo, cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-atoi-2+default-dev <!nocheck>, librust-base64-0+std-dev (>= 0.21.7-~~) <!nocheck>, librust-bitflags-2-dev <!nocheck>, librust-byteorder-1+std-dev (>= 1.4.3-~~) <!nocheck>, librust-crc-3+default-dev <!nocheck>, librust-dotenvy-0.15-dev <!nocheck>, librust-etcetera-0.8+default-dev <!nocheck>, librust-futures-channel-0.3+alloc-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-channel-0.3+sink-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-channel-0.3+std-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-core-0.3-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-util-0.3+alloc-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-util-0.3+io-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-util-0.3+sink-dev (>= 0.3.19-~~) <!nocheck>, librust-hex-0.4+default-dev (>= 0.4.3-~~) <!nocheck>, librust-hkdf-0.12+default-dev <!nocheck>, librust-hmac-0.12+reset-dev <!nocheck>, librust-home-0.5+default-dev (>= 0.5.5-~~) <!nocheck>, librust-itoa-1+default-dev (>= 1.0.1-~~) <!nocheck>, librust-log-0.4+default-dev (>= 0.4.18-~~) <!nocheck>, librust-md-5-0.10-dev <!nocheck>, librust-memchr-2-dev (>= 2.4.1-~~) <!nocheck>, librust-once-cell-1+default-dev (>= 1.9.0-~~) <!nocheck>, librust-rand-0.8+std-dev (>= 0.8.4-~~) <!nocheck>, librust-rand-0.8+std-rng-dev (>= 0.8.4-~~) <!nocheck>, librust-serde-1+default-dev (>= 1.0.144-~~) <!nocheck>, librust-serde-1+derive-dev (>= 1.0.144-~~) <!nocheck>, librust-serde-json-1+default-dev (>= 1.0.85-~~) <!nocheck>, librust-serde-json-1+raw-value-dev (>= 1.0.85-~~) <!nocheck>, librust-sha2-0.10-dev <!nocheck>, librust-smallvec-1+default-dev (>= 1.7.0-~~) <!nocheck>, librust-smallvec-1+serde-dev (>= 1.7.0-~~) <!nocheck>, librust-sqlx-core-0.8.3+default-dev <!nocheck>, librust-sqlx-core-0.8.3+json-dev <!nocheck>, librust-stringprep-0.1+default-dev (>= 0.1.2-~~) <!nocheck>, librust-thiserror-2+default-dev <!nocheck>, librust-tracing-0.1+default-dev (>= 0.1.37-~~) <!nocheck>, librust-tracing-0.1+log-dev (>= 0.1.37-~~) <!nocheck>, librust-whoami-dev (>= 0.8-~~) <!nocheck>"
 	],
 	"Checksums-Sha256": [
-		"8d19b7a643e21664a6cd06044d3b931e5522b934e2663c96781b657e7c246eb2 4364 rust-sqlx-postgres_0.8.2-3.dsc 6fa91a732d854c5d7726349bb4bb879bb9478993ceb764247660aee25f67c2f8 129806 rust-sqlx-postgres_0.8.2.orig.tar.gz 7e627d7ae3f1cb051abd786155b182eb8ec2bdbf0a4c7afe32c316f6b858fc4a 4304 rust-sqlx-postgres_0.8.2-3.debian.tar.xz"
+		"f09a63257e7aaddb01ea97ba17d7f6a1e81072e58d776d320d5768487dcd14b2 4334 rust-sqlx-postgres_0.8.3-1.dsc c5b98a57f363ed6764d5b3a12bfedf62f07aa16e1856a7ddc2a0bb190a959613 132700 rust-sqlx-postgres_0.8.3.orig.tar.gz e2a4e47ea8545ba43aa100b14208497b6439b64de4eca6efddebc0490b406f07 4416 rust-sqlx-postgres_0.8.3-1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/r/rust-sqlx-postgres"
 	],
 	"Files": [
-		"ce29f7ae2c728b461e0564e55f200de9 4364 rust-sqlx-postgres_0.8.2-3.dsc 0fbd03f97201613e04635d492a88118d 129806 rust-sqlx-postgres_0.8.2.orig.tar.gz 3caaa7bd66664be72ad4d0153ad35a73 4304 rust-sqlx-postgres_0.8.2-3.debian.tar.xz"
+		"60660de6b07df5b2cfe6d8aa2c1157d7 4334 rust-sqlx-postgres_0.8.3-1.dsc 724c10fe71c6a1e2cfe094b3ee8aff98 132700 rust-sqlx-postgres_0.8.3.orig.tar.gz 11b7cb2672f34aad62e048c8c03bf026 4416 rust-sqlx-postgres_0.8.3-1.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/launchbadge/sqlx"
 	],
 	"Maintainer": [
 		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
@@ -42,7 +45,7 @@
 		"autopkgtest"
 	],
 	"Testsuite-Triggers": [
-		"dh-cargo, librust-sqlx-0.8.2+derive-dev, librust-sqlx-0.8.2+postgres-dev, rustc"
+		"dh-cargo, librust-sqlx-0.8.3+derive-dev, librust-sqlx-0.8.3+postgres-dev, rustc"
 	],
 	"Uploaders": [
 		"Jelmer Vernooĳ <jelmer@debian.org>"
@@ -54,6 +57,6 @@
 		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/sqlx-postgres]"
 	],
 	"Version": [
-		"0.8.2-3"
+		"0.8.3-1"
 	]
 }

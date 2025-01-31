@@ -6,19 +6,22 @@
 		"librust-sqlx-sqlite-dev"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-atoi-2+default-dev <!nocheck>, librust-flume-0.11+async-dev <!nocheck>, librust-futures-channel-0.3+alloc-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-channel-0.3+sink-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-channel-0.3+std-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-core-0.3-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-executor-0.3+default-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-intrusive-0.5+default-dev <!nocheck>, librust-futures-util-0.3+alloc-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-util-0.3+sink-dev (>= 0.3.19-~~) <!nocheck>, librust-libsqlite3-sys+pkg-config-dev (>= 0.26-~~) <!nocheck>, librust-libsqlite3-sys+unlock-notify-dev (>= 0.26-~~) <!nocheck>, librust-libsqlite3-sys+vcpkg-dev (>= 0.26-~~) <!nocheck>, librust-log-0.4+default-dev (>= 0.4.18-~~) <!nocheck>, librust-percent-encoding-2+default-dev (>= 2.1.0-~~) <!nocheck>, librust-serde-urlencoded-0.7+default-dev <!nocheck>, librust-sqlx-core-0.8.2+default-dev <!nocheck>, librust-tracing-0.1+default-dev (>= 0.1.37-~~) <!nocheck>, librust-tracing-0.1+log-dev (>= 0.1.37-~~) <!nocheck>, librust-url-2-dev (>= 2.2.2-~~) <!nocheck>"
+		"debhelper-compat (= 13), dh-sequence-cargo, cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-atoi-2+default-dev <!nocheck>, librust-flume-0.11+async-dev <!nocheck>, librust-futures-channel-0.3+alloc-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-channel-0.3+sink-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-channel-0.3+std-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-core-0.3-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-executor-0.3+default-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-intrusive-0.5+default-dev <!nocheck>, librust-futures-util-0.3+alloc-dev (>= 0.3.19-~~) <!nocheck>, librust-futures-util-0.3+sink-dev (>= 0.3.19-~~) <!nocheck>, librust-libsqlite3-sys+pkg-config-dev (>= 0.26-~~) <!nocheck>, librust-libsqlite3-sys+unlock-notify-dev (>= 0.26-~~) <!nocheck>, librust-libsqlite3-sys+vcpkg-dev (>= 0.26-~~) <!nocheck>, librust-log-0.4+default-dev (>= 0.4.18-~~) <!nocheck>, librust-percent-encoding-2+default-dev (>= 2.1.0-~~) <!nocheck>, librust-serde-urlencoded-0.7+default-dev <!nocheck>, librust-sqlx-core-0.8.3+default-dev <!nocheck>, librust-tracing-0.1+default-dev (>= 0.1.37-~~) <!nocheck>, librust-tracing-0.1+log-dev (>= 0.1.37-~~) <!nocheck>, librust-url-2+default-dev (>= 2.2.2-~~) <!nocheck>"
 	],
 	"Checksums-Sha256": [
-		"d0684c2ca68ee0e0106071e59a29ab9dc2933ef6d2c27bd18ea55fbb02aa3c8f 3088 rust-sqlx-sqlite_0.8.2-1.dsc d5b2cf34a45953bfd3daaf3db0f7a7878ab9b7a6b91b422d24a7a9e4c857b680 74021 rust-sqlx-sqlite_0.8.2.orig.tar.gz fd5870bcea714084d7d10a795f9da1491d18805a9016f64bdf48ca76ab6c5e76 4704 rust-sqlx-sqlite_0.8.2-1.debian.tar.xz"
+		"5b4c120937e8ce65cf46688311672e421ca270c5f1dab8634c025871b9c0bccc 3517 rust-sqlx-sqlite_0.8.3-1.dsc f85ca71d3a5b24e64e1d08dd8fe36c6c95c339a896cc33068148906784620540 76100 rust-sqlx-sqlite_0.8.3.orig.tar.gz 324201e975f53b1aa2ccf0cacf41a4589568d3e2648e0095aa0b67e9d98759bb 4852 rust-sqlx-sqlite_0.8.3-1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/r/rust-sqlx-sqlite"
 	],
 	"Files": [
-		"f95ad916f77168a10b3b4a6a0a1cbaf0 3088 rust-sqlx-sqlite_0.8.2-1.dsc 298067b6e381ab334372b3865dea92a3 74021 rust-sqlx-sqlite_0.8.2.orig.tar.gz 55a2955608f3519a125a06b18741b678 4704 rust-sqlx-sqlite_0.8.2-1.debian.tar.xz"
+		"c25dcb6100a4a4fad7bdc538ab10d487 3517 rust-sqlx-sqlite_0.8.3-1.dsc 1a27f3cf471088c78102315bb99458a2 76100 rust-sqlx-sqlite_0.8.3.orig.tar.gz 98c9c443d913115345e47e500882313f 4852 rust-sqlx-sqlite_0.8.3-1.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/launchbadge/sqlx"
 	],
 	"Maintainer": [
 		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
@@ -42,7 +45,7 @@
 		"autopkgtest"
 	],
 	"Testsuite-Triggers": [
-		"dh-cargo, librust-sqlx-0.8.2+macros-dev, librust-sqlx-0.8.2+runtime-tokio-dev, librust-sqlx-0.8.2+sqlite-dev, librust-sqlx-0.8.2+tls-none-dev, rustc"
+		"dh-cargo, librust-sqlx-0.8.3+macros-dev, librust-sqlx-0.8.3+runtime-tokio-dev, librust-sqlx-0.8.3+sqlite-dev, librust-sqlx-0.8.3+tls-none-dev, rustc"
 	],
 	"Uploaders": [
 		"Jelmer Vernooĳ <jelmer@debian.org>"
@@ -54,6 +57,6 @@
 		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/sqlx-sqlite]"
 	],
 	"Version": [
-		"0.8.2-1"
+		"0.8.3-1"
 	]
 }
