@@ -1,0 +1,56 @@
+{
+	"Architecture": [
+		"any all"
+	],
+	"Binary": [
+		"dcmtk, libdcmtk15, libdcmtk-dev, dcmtk-doc"
+	],
+	"Build-Depends": [
+		"cmake, debhelper-compat (= 13), help2man, libcharls-dev, libpng-dev, libsndfile1-dev, libssl-dev, libtiff-dev, libwrap0-dev, libxml2-dev, gettext, zlib1g-dev"
+	],
+	"Build-Depends-Indep": [
+		"doxygen, graphviz"
+	],
+	"Checksums-Sha256": [
+		"37063de4d0b77c679aa2af1bff359e7183cbcf4e9e5b31b97fa9b946792b022c 2241 dcmtk_3.6.5-1+deb11u1.dsc a05178665f21896dbb0974106dba1ad144975414abd760b4cf8f5cc979f9beb9 6483626 dcmtk_3.6.5.orig.tar.gz 152e9dd79bc6578ac27e37dbec2b0561699591c85341be38788c028770ec610e 47732 dcmtk_3.6.5-1+deb11u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/d/dcmtk"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"http://dicom.offis.de/dcmtk"
+	],
+	"Maintainer": [
+		"Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>"
+	],
+	"Package": [
+		"dcmtk"
+	],
+	"Package-List": [
+		"dcmtk deb science optional arch=any dcmtk-doc deb doc optional arch=all libdcmtk-dev deb libdevel optional arch=any libdcmtk15 deb libs optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"science"
+	],
+	"Standards-Version": [
+		"4.5.0"
+	],
+	"Uploaders": [
+		"Gert Wollny <gewo@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/med-team/dcmtk"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/med-team/dcmtk.git"
+	],
+	"Version": [
+		"3.6.5-1+deb11u1"
+	]
+}
