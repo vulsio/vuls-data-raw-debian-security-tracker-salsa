@@ -9,7 +9,7 @@
 		"dbus-daemon <!nocheck>, debhelper-compat (= 13), dh-sequence-python3, libsystemd-dev, pkgconf, python3-all, python3-all-dev, python3-setuptools, python3-sphinx <!nodoc>, python3-sphinx-rtd-theme <!nodoc>"
 	],
 	"Checksums-Sha256": [
-		"00076bee3c2d21c3378f8d5979f2a70579e2a6b58f55703f166096cb131edc4f 2295 python-sdbus_0.12.0-1~bpo12+1.dsc 03fb845c64e5b779c90d685338bbe2613bac48f2ebcb6526fee91b5e985f0c24 114249 python-sdbus_0.12.0.orig.tar.gz ea3467a25df435c18c554738fbc7b5693cacd4e2b76a57b6a192b27c1a4ab819 2524 python-sdbus_0.12.0-1~bpo12+1.debian.tar.xz"
+		"6eb6ca9e6df6079cd8d927cf0c321b8f3252de14087b90f7727285854444b4ad 2310 python-sdbus_0.13.0-1~bpo12+1.dsc fcf358d121af9da4cb20f100240c5ae8f0a3e6793c404c9af90256f5c0c3ecba 119878 python-sdbus_0.13.0.orig.tar.gz 113468b0b973f35e66f804773e4d3417da4ea2c332afff1119884265b7a0c498 2600 python-sdbus_0.13.0-1~bpo12+1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/p/python-sdbus"
@@ -42,7 +42,7 @@
 		"autopkgtest"
 	],
 	"Testsuite-Triggers": [
-		"dbus-daemon, python3-all"
+		"dbus-daemon, python3-all, python3-jinja2"
 	],
 	"Uploaders": [
 		"Luca Boccassi <bluca@debian.org>,"
@@ -54,6 +54,6 @@
 		"https://salsa.debian.org/python-team/packages/python-sdbus.git"
 	],
 	"Version": [
-		"0.12.0-1~bpo12+1"
+		"0.13.0-1~bpo12+1"
 	]
 }
