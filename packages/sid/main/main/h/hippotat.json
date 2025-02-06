@@ -9,16 +9,16 @@
 		"debhelper (>= 12), python3-sphinx, python3-recommonmark, python3-sphinx-markdown-tables, moreutils, libssl-dev (>= 1.1), pkg-config, cargo <!upstream-cargo>, rustc <!upstream-cargo>, librust-backtrace-dev (>= 0.3.74~) <!upstream-cargo>, librust-base64-dev (>= 0.21~) <!upstream-cargo>, librust-cfg-if-dev (>= 1~) <!upstream-cargo>, librust-clap+derive-dev (>= 4~) <!upstream-cargo>, librust-easy-ext-dev (>= 1~) <!upstream-cargo>, librust-educe-dev (>= 0.4.1~) <!upstream-cargo>, librust-either-dev (>= 1.5.1~) <!upstream-cargo>, librust-env-logger+default-dev (>= 0.9~) <!upstream-cargo>, librust-eyre-dev (>= 0.6~) <!upstream-cargo>, librust-fehler-dev (>= 1~) <!upstream-cargo>, librust-futures-dev (>= 0.3~) <!upstream-cargo>, librust-heck-dev (>= 0.4~) <!upstream-cargo>, librust-http-body-dev (>= 1.0.1~) <!upstream-cargo>, librust-http-body-util-dev (>= 0.1.2~) <!upstream-cargo>, librust-hyper-dev (>= 1~) <!upstream-cargo>, librust-hyper-util-dev (>= 0.1.10~) <!upstream-cargo>, librust-indenter-dev (>= 0.3~) <!upstream-cargo>, librust-ipnet-dev (>= 2.3~) <!upstream-cargo>, librust-itertools-dev (>= 0.10.1~) <!upstream-cargo>, librust-lazy-regex-dev (>= 2.4~) <!upstream-cargo>, librust-lazy-static-dev (>= 1.4~) <!upstream-cargo>, librust-libc-dev (>= 0.2~) <!upstream-cargo>, librust-log-dev (>= 0.4.14~) <!upstream-cargo>, librust-memchr-dev (>= 2~) <!upstream-cargo>, librust-mime-dev (>= 0.3.4~) <!upstream-cargo>, librust-nix-dev (>= 0.25~) <!upstream-cargo>, librust-parking-lot-dev (>= 0.11~) <!upstream-cargo>, librust-pin-project-lite-dev (>= 0.2~) <!upstream-cargo>, librust-proc-macro2-dev (>= 1~) <!upstream-cargo>, librust-quote-dev (>= 1~) <!upstream-cargo>, librust-regex-dev (>= 1.5~) <!upstream-cargo>, librust-reqwest-dev (>= 0.12.8~) <!upstream-cargo>, librust-semver-dev (>= 1.0.14~) <!upstream-cargo>, librust-serde-dev (>= 1.0.106~) <!upstream-cargo>, librust-serde-json-dev (>= 1.0.41~) <!upstream-cargo>, librust-sha2-dev (>= 0.10~) <!upstream-cargo>, librust-subtle-dev (>= 2~) <!upstream-cargo>, librust-syn-dev (>= 1~) <!upstream-cargo>, librust-syslog-dev (>= 6~) <!upstream-cargo>, librust-thiserror-dev (>= 1.0.2~) <!upstream-cargo>, librust-tokio-dev (>= 1.43~) <!upstream-cargo>, librust-void-dev (>= 1~) <!upstream-cargo>"
 	],
 	"Checksums-Sha256": [
-		"dd32a8fad024141b0af5ef1330dbc7b392cf6406a70fb191bff3cd9a84ce422c 3890 hippotat_1.2.0.dsc 136a9c68f34e8ef37b605efd1c9f3f4ebb1c7845d7c962098d9ea4fcb86c3281 119930 hippotat_1.2.0.tar.gz"
+		"6cc813cc9043a78fa6e4adf970b36c149e00c8aa4df64370322ceb88f65e4c72 3904 hippotat_1.2.1.dsc e0f312c596266bc22a85a76de8266ccdb8db622630c475cbc375468b380baf0f 120775 hippotat_1.2.1.tar.gz"
 	],
 	"Dgit": [
-		"2172b34bed2393ff7e52d2c188d10cc1a3b9acd3 debian archive/debian/1.2.0 https://git.dgit.debian.org/hippotat"
+		"d1185d20459fefe158dfe9aca827d8ff8f5eedb2 debian archive/debian/1.2.1 https://git.dgit.debian.org/hippotat"
 	],
 	"Directory": [
 		"pool/main/h/hippotat"
 	],
 	"Files": [
-		"2c44c3e1e55f3656fe77f1cbb2ce917d 3890 hippotat_1.2.0.dsc a0631c8180e51663c7f7e5bb66ff9535 119930 hippotat_1.2.0.tar.gz"
+		"b777394ab93a71700546adf6767d6e5b 3904 hippotat_1.2.1.dsc 7ec747865f2af5b1db58f29f2beff414 120775 hippotat_1.2.1.tar.gz"
 	],
 	"Format": [
 		"1.0"
@@ -48,12 +48,12 @@
 		"autopkgtest"
 	],
 	"Testsuite-Triggers": [
-		"authbind, bash, curl, iproute2, iptables, iputils-ping, libnetaddr-ip-perl, net-tools, netcat-openbsd, orphan-sysvinit-scripts, psmisc, rsyslog, userv-utils, util-linux"
+		"authbind, bash, curl, iproute2, iptables, iputils-ping, libnetaddr-ip-perl, net-tools, netcat-openbsd, orphan-sysvinit-scripts, psmisc, rsyslog, systemd-sysv, userv-utils, util-linux"
 	],
 	"Vcs-Git": [
 		"https://salsa.debian.org/iwj/hippotat"
 	],
 	"Version": [
-		"1.2.0"
+		"1.2.1"
 	]
 }
