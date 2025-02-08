@@ -6,22 +6,19 @@
 		"libgtk-4-1, libgtk-4-1-udeb, libgtk-4-common, libgtk-4-bin, libgtk-4-dev, libgtk-4-doc, libgtk-4-media-gstreamer, gtk-4-examples, gtk-4-tests, gir1.2-gtk-4.0, gtk-update-icon-cache"
 	],
 	"Build-Depends": [
-		"adwaita-icon-theme <!nocheck>, at-spi2-core <!nocheck>, dbus-daemon <!nocheck>, debhelper-compat (= 13), dh-exec, dh-sequence-gir, dh-sequence-gnome, fonts-cantarell <!nocheck>, fonts-noto-core <!nocheck>, gir1.2-cairo-1.0-dev, gir1.2-gio-2.0-dev, gir1.2-gdkpixbuf-2.0-dev, gir1.2-graphene-1.0-dev, gir1.2-pango-1.0-dev, gir1.2-pangocairo-1.0-dev, gir1.2-xlib-2.0-dev, glslc, gobject-introspection (>= 1.76.0), gobject-introspection (>= 1.78.1-9~) <cross>, gsettings-desktop-schemas <!nocheck>, iso-codes <!nocheck>, libcairo2-dev (>= 1.18.0), libcolord-dev <!pkg.gtk4.nocolord>, libcloudproviders-dev (>= 0.3.1), libcpdb-dev (>= 2.0~b5), libcpdb-frontend-dev (>= 2.0~b5), libcups2-dev, libegl1-mesa-dev [linux-any], libepoxy-dev, libfontconfig-dev, libfribidi-dev, libgdk-pixbuf-2.0-dev, libglib2.0-dev (>= 2.76.0), libgraphene-1.0-dev, libgstreamer1.0-dev, libgstreamer-plugins-base1.0-dev, libharfbuzz-dev, libjpeg-dev, libjson-glib-dev:native, libpango1.0-dev (>= 1.52.0), libpng-dev, libpolkit-gobject-1-dev [linux-any], librsvg2-common [amd64 arm64 armel armhf i386 loong64 mips64el ppc64el s390x powerpc ppc64 riscv64 sparc64 x32] <!nocheck>, librsvg2-dev (>= 2.52.0) [amd64 arm64 armel armhf i386 loong64 mips64el ppc64el s390x powerpc ppc64 riscv64 sparc64 x32], libsysprof-capture-4-dev (>= 3.40.1) [amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x hppa loong64 powerpc ppc64 sh4], libtiff-dev, libvulkan-dev [linux-any], libwayland-dev (>= 1.21.0) [linux-any], libx11-dev, libxcomposite-dev, libxcursor-dev, libxdamage-dev, libxext-dev, libxfixes-dev, libxi-dev, libxinerama-dev, libxkbcommon-dev, libxkbfile-dev, libxml2-utils, libxrandr-dev, locales <!nocheck> | locales-all <!nocheck>, meson (>= 0.63), pkgconf, pkgconf:native, python3-docutils <!nodoc>, python3-gi (>= 3.40) <!nocheck>, sassc, wayland-protocols (>= 1.36) [linux-any], weston [linux-any] <!nocheck>, xauth <!nocheck>, xvfb <!nocheck>"
+		"adwaita-icon-theme <!nocheck>, at-spi2-core <!nocheck>, dbus-daemon <!nocheck>, debhelper-compat (= 13), dh-exec, dh-sequence-gir, dh-sequence-gnome, fonts-cantarell <!nocheck>, fonts-noto-core <!nocheck>, gir1.2-cairo-1.0-dev, gir1.2-gio-2.0-dev, gir1.2-gdkpixbuf-2.0-dev, gir1.2-graphene-1.0-dev, gir1.2-pango-1.0-dev, gir1.2-pangocairo-1.0-dev, gir1.2-xlib-2.0-dev, glslc, gobject-introspection (>= 1.76.0), gobject-introspection (>= 1.78.1-9~) <cross>, gsettings-desktop-schemas <!nocheck>, iso-codes <!nocheck>, libcairo2-dev (>= 1.18.0), libcolord-dev <!pkg.gtk4.nocolord>, libcloudproviders-dev (>= 0.3.1), libcpdb-dev (>= 2.0~b5), libcpdb-frontend-dev (>= 2.0~b5), libcups2-dev, libegl1-mesa-dev [linux-any], libepoxy-dev, libfontconfig-dev, libfribidi-dev, libgdk-pixbuf-2.0-dev, libglib2.0-dev (>= 2.76.0), libgraphene-1.0-dev, libgstreamer1.0-dev, libgstreamer-plugins-base1.0-dev, libharfbuzz-dev, libjpeg-dev, libjson-glib-dev:native, libpango1.0-dev (>= 1.52.0), libpng-dev (>= 1.6.46-2~), libpolkit-gobject-1-dev [linux-any], librsvg2-common [amd64 arm64 armel armhf i386 loong64 mips64el ppc64el s390x powerpc ppc64 riscv64 sparc64 x32] <!nocheck>, librsvg2-dev (>= 2.52.0) [amd64 arm64 armel armhf i386 loong64 mips64el ppc64el s390x powerpc ppc64 riscv64 sparc64 x32], libsysprof-capture-4-dev (>= 3.40.1) [amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x hppa loong64 powerpc ppc64 sh4], libtiff-dev, libvulkan-dev [linux-any], libwayland-dev (>= 1.21.0) [linux-any], libx11-dev, libxcomposite-dev, libxcursor-dev, libxdamage-dev, libxext-dev, libxfixes-dev, libxi-dev, libxinerama-dev, libxkbcommon-dev, libxkbfile-dev, libxml2-utils, libxrandr-dev, locales <!nocheck> | locales-all <!nocheck>, meson (>= 0.63), pkgconf, pkgconf:native, python3-docutils <!nodoc>, python3-gi (>= 3.40) <!nocheck>, sassc, wayland-protocols (>= 1.36) [linux-any], weston [linux-any] <!nocheck>, xauth <!nocheck>, xvfb <!nocheck>"
 	],
 	"Build-Depends-Indep": [
 		"gi-docgen <!nodoc>, libcairo2-doc <!nodoc>, libglib2.0-doc <!nodoc>, libpango1.0-doc <!nodoc>"
 	],
 	"Checksums-Sha256": [
-		"da6154e0f7f1b72e7afae23ae7ab693f9b1fcfe07ea71d3f29f83693525b3ea7 5017 gtk4_4.16.12+ds-1.dsc 520ae2fb553bae44bbc599d174028cf6bdbcee64ba6813bad86af11d5102e719 14754896 gtk4_4.16.12+ds.orig.tar.xz 21f93207809ed7eda1e65a169294307a04169eaddb4c89681a742ffc8b5b7db4 3833216 gtk4_4.16.12+ds-1.debian.tar.xz"
-	],
-	"Dgit": [
-		"0333814b91c644d57f0b0c537d3f6883567ec61b debian archive/debian/4.16.12+ds-1 https://git.dgit.debian.org/gtk4"
+		"a2bb106ad1f2a5a6f88f40177036758a4c919bb8b95b99a47d25326ed6d62dbe 4917 gtk4_4.16.12+ds-3.dsc 520ae2fb553bae44bbc599d174028cf6bdbcee64ba6813bad86af11d5102e719 14754896 gtk4_4.16.12+ds.orig.tar.xz 93cc8a2d6eaaea6b91588859686d180823fc8ab45a07fc09bb33aa78ff109665 3834560 gtk4_4.16.12+ds-3.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/g/gtk4"
 	],
 	"Files": [
-		"0a611a9be9e751653ae52544f94a0407 5017 gtk4_4.16.12+ds-1.dsc 60b147cad1c62285c0653edc831600ab 14754896 gtk4_4.16.12+ds.orig.tar.xz c6579a12731889da1c63f41d22aee497 3833216 gtk4_4.16.12+ds-1.debian.tar.xz"
+		"7b3afb84110ae86a398b85896e53dda9 4917 gtk4_4.16.12+ds-3.dsc 60b147cad1c62285c0653edc831600ab 14754896 gtk4_4.16.12+ds.orig.tar.xz 4e5184039ad6a8c70edc563a7dbc3b97 3834560 gtk4_4.16.12+ds-3.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -63,6 +60,6 @@
 		"https://salsa.debian.org/gnome-team/gtk4.git"
 	],
 	"Version": [
-		"4.16.12+ds-1"
+		"4.16.12+ds-3"
 	]
 }

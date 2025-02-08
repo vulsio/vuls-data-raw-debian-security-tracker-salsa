@@ -6,22 +6,22 @@
 		"sqitch"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), libmodule-build-perl, perl, dh-strip-nondeterminism"
+		"debhelper-compat (= 13), dh-strip-nondeterminism, libmodule-build-perl, perl"
 	],
 	"Build-Depends-Indep": [
 		"libalgorithm-backoff-perl <!nocheck>, libcapture-tiny-perl <!nocheck>, libclass-xsaccessor-perl <!nocheck>, libclone-perl <!nocheck>, libconfig-gitlike-perl <!nocheck>, libdatetime-perl <!nocheck>, libdatetime-timezone-perl <!nocheck>, libdbd-sqlite3-perl <!nocheck>, libdbi-perl <!nocheck>, libdevel-stacktrace-perl <!nocheck>, libencode-locale-perl <!nocheck>, libhash-merge-perl <!nocheck>, libintl-perl <!nocheck>, libio-pager-perl <!nocheck>, libipc-run3-perl <!nocheck>, libipc-system-simple-perl <!nocheck>, liblist-moreutils-perl <!nocheck>, libmodule-runtime-perl <!nocheck>, libmoo-perl <!nocheck>, libnamespace-autoclean-perl <!nocheck>, libpath-class-perl <!nocheck>, libperlio-utf8-strict-perl <!nocheck>, libpod-parser-perl <!nocheck>, libstring-formatter-perl <!nocheck>, libstring-shellquote-perl <!nocheck>, libsub-exporter-perl <!nocheck>, libtemplate-perl <!nocheck>, libtemplate-tiny-perl <!nocheck>, libtest-deep-perl <!nocheck>, libtest-dir-perl <!nocheck>, libtest-exception-perl <!nocheck>, libtest-exit-perl <!nocheck>, libtest-file-contents-perl <!nocheck>, libtest-file-perl <!nocheck>, libtest-mockmodule-perl <!nocheck>, libtest-mockobject-perl <!nocheck>, libtest-nowarnings-perl <!nocheck>, libtest-warn-perl <!nocheck>, libthrowable-perl <!nocheck>, libtry-tiny-perl <!nocheck>, libtype-tiny-perl <!nocheck>, libtype-tiny-xs-perl <!nocheck>, liburi-db-perl (>= 0.20) <!nocheck>, liburi-perl <!nocheck>, sqlite3 <!nocheck>, tzdata <!nocheck>"
 	],
 	"Checksums-Sha256": [
-		"166e70b4e7df111ce1b7e99bccbd9449973d14b7d350331b316d7721b4ab09a3 3728 sqitch_1.4.1-2.dsc caf31cc8f772e3a4c9d4b3ff3a8f684a6eb5b1b3c261f4ddc0f90a88c36007c6 640950 sqitch_1.4.1.orig.tar.gz 5b8fbb1d015c8671e32d397e7773db43fa70d9f57c8faeb49b9b21c96d3f1e91 6196 sqitch_1.4.1-2.debian.tar.xz"
+		"30cbfc14326c00552b8272ced32c4d6a3b99a1c47fb72fb91fb39ea8be01817c 3728 sqitch_1.5.0-1.dsc a158871693edf1e9ffe3ad03e798b56500737b801c0a288c63f811ef9a140184 645973 sqitch_1.5.0.orig.tar.gz 3a0941e5eb798d2a5da71e9f0f395595dfcb46921489338365b40e919fb520d0 6200 sqitch_1.5.0-1.debian.tar.xz"
 	],
 	"Dgit": [
-		"a5b06691008abcb60b226e193d893e1e0fe9ae07 debian archive/debian/1.4.1-2 https://git.dgit.debian.org/sqitch"
+		"51bacb8cb753c8117ce1fd75ce2a10fdfccda7a6 debian archive/debian/1.5.0-1 https://git.dgit.debian.org/sqitch"
 	],
 	"Directory": [
 		"pool/main/s/sqitch"
 	],
 	"Files": [
-		"ae18c5f9a5a09298561c4f0d5da71415 3728 sqitch_1.4.1-2.dsc 8a3258da8e43c5dfccaddeb71a5b485e 640950 sqitch_1.4.1.orig.tar.gz 1b92c033393c3ad49e3ff9791e7fa53d 6196 sqitch_1.4.1-2.debian.tar.xz"
+		"05c468459be682a25f0b9631783b421e 3728 sqitch_1.5.0-1.dsc a386c8f171a5e9c7d35bd58cdae4209c 645973 sqitch_1.5.0.orig.tar.gz d3d47f36bf33209de09e2e020e1a85b8 6200 sqitch_1.5.0-1.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -60,6 +60,6 @@
 		"https://salsa.debian.org/perl-team/modules/packages/sqitch.git"
 	],
 	"Version": [
-		"1.4.1-2"
+		"1.5.0-1"
 	]
 }
