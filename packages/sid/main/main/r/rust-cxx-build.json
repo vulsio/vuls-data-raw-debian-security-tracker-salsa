@@ -6,16 +6,16 @@
 		"librust-cxx-build-dev"
 	],
 	"Build-Depends": [
-		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cc-1+default-dev (>= 1.0.49-~~) <!nocheck>, librust-codespan-reporting-0.11+default-dev (>= 0.11.1-~~) <!nocheck>, librust-once-cell-1+default-dev (>= 1.9-~~) <!nocheck>, librust-proc-macro2-1+span-locations-dev (>= 1.0.39-~~) <!nocheck>, librust-quote-1-dev <!nocheck>, librust-scratch-1+default-dev <!nocheck>, librust-syn-1+clone-impls-dev (>= 1.0.95-~~) <!nocheck>, librust-syn-1+full-dev (>= 1.0.95-~~) <!nocheck>, librust-syn-1+parsing-dev (>= 1.0.95-~~) <!nocheck>, librust-syn-1+printing-dev (>= 1.0.95-~~) <!nocheck>"
+		"debhelper-compat (= 13), dh-sequence-cargo, cargo:native <!nocheck>, rustc:native (>= 1.70) <!nocheck>, libstd-rust-dev <!nocheck>, librust-cc-1+default-dev (>= 1.0.83-~~) <!nocheck>, librust-codespan-reporting-0.11+default-dev (>= 0.11.1-~~) <!nocheck>, librust-proc-macro2-1+span-locations-dev (>= 1.0.74-~~) <!nocheck>, librust-quote-1-dev (>= 1.0.35-~~) <!nocheck>, librust-scratch-1+default-dev (>= 1.0.5-~~) <!nocheck>, librust-syn-2+clone-impls-dev (>= 2.0.46-~~) <!nocheck>, librust-syn-2+full-dev (>= 2.0.46-~~) <!nocheck>, librust-syn-2+parsing-dev (>= 2.0.46-~~) <!nocheck>, librust-syn-2+printing-dev (>= 2.0.46-~~) <!nocheck>"
 	],
 	"Checksums-Sha256": [
-		"78016c1f3427ced7dae1126cb0ad680722e68e69ca6839091bc28086ea505e8f 2853 rust-cxx-build_1.0.87-1.dsc f464457d494b5ed6905c63b0c4704842aba319084a0a3561cdc1359536b53200 84429 rust-cxx-build_1.0.87.orig.tar.gz f779b325a9968cc11fa39bd5ed2e7ff6a0aa859111be23cd902b2d5f56ae7f8e 2932 rust-cxx-build_1.0.87-1.debian.tar.xz"
+		"f22ff3359cef4bc74b95d17a046bce1c2c6d071d38e19b0c66a72841e18d2748 2841 rust-cxx-build_1.0.130-1.dsc 45dc1c88d0fdac57518a9b1f6c4f4fb2aca8f3c30c0d03d7d8518b47ca0bcea6 86654 rust-cxx-build_1.0.130.orig.tar.gz c6782b0d162e6d3bd3fb9f52c4db1953df83698b8a87e3595802b0354216b217 3308 rust-cxx-build_1.0.130-1.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/r/rust-cxx-build"
 	],
 	"Files": [
-		"44bb37c464b63e745808916d84a0e743 2853 rust-cxx-build_1.0.87-1.dsc 49d88c740acf08c56db81125bf33abc4 84429 rust-cxx-build_1.0.87.orig.tar.gz 3d84b81216b5766a297d0db96ef8bc5c 2932 rust-cxx-build_1.0.87-1.debian.tar.xz"
+		"dca9d4e2cdf08648737ce38390328fde 2841 rust-cxx-build_1.0.130-1.dsc 17d7924ce0629858a15ca96bb79e37de 86654 rust-cxx-build_1.0.130.orig.tar.gz 441d05861848a822e284846cbfac5687 3308 rust-cxx-build_1.0.130-1.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -39,13 +39,13 @@
 		"misc"
 	],
 	"Standards-Version": [
-		"4.6.1"
+		"4.7.0"
 	],
 	"Testsuite": [
 		"autopkgtest"
 	],
 	"Testsuite-Triggers": [
-		"dh-cargo, g++, librust-cxx-1+default-dev, librust-cxx-gen-0.7+default-dev, librust-pkg-config-0.3+default-dev"
+		"dh-cargo, g++, librust-cxx-1+default-dev, librust-cxx-gen-0.7+default-dev, librust-pkg-config-0.3+default-dev, rustc"
 	],
 	"Uploaders": [
 		"Matthias Geiger <matthias.geiger1024@tutanota.de>"
@@ -57,6 +57,6 @@
 		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/cxx-build]"
 	],
 	"Version": [
-		"1.0.87-1"
+		"1.0.130-1"
 	]
 }
