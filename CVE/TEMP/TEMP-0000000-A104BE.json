@@ -1,0 +1,41 @@
+{
+	"header": {
+		"line": "CVE-2024-XXXX [Incomplete fix for CVE-2024-54146]",
+		"name": "TEMP-0000000-A104BE",
+		"description": "[Incomplete fix for CVE-2024-54146]"
+	},
+	"annotations": [
+		{
+			"line": "\t- cacti <unfixed>",
+			"type": "package",
+			"package": "cacti",
+			"kind": "unfixed"
+		},
+		{
+			"line": "\t[bookworm] - cacti <not-affected> (Vulnerable code introduced later)",
+			"type": "package",
+			"release": "bookworm",
+			"package": "cacti",
+			"kind": "not-affected",
+			"description": "Vulnerable code introduced later"
+		},
+		{
+			"line": "\t[bullseye] - cacti <not-affected> (Vulnerable code introduced later)",
+			"type": "package",
+			"release": "bullseye",
+			"package": "cacti",
+			"kind": "not-affected",
+			"description": "Vulnerable code introduced later"
+		},
+		{
+			"line": "\tNOTE: Proposed fix: https://github.com/Cacti/cacti/pull/6096",
+			"type": "NOTE",
+			"description": "Proposed fix: https://github.com/Cacti/cacti/pull/6096"
+		},
+		{
+			"line": "\tNOTE: Fixed by: https://github.com/Cacti/cacti/commit/7fa60c03ad4a69c701ac6b77c85a8927df7acd51",
+			"type": "NOTE",
+			"description": "Fixed by: https://github.com/Cacti/cacti/commit/7fa60c03ad4a69c701ac6b77c85a8927df7acd51"
+		}
+	]
+}
