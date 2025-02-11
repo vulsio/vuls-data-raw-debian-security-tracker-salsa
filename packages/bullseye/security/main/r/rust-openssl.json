@@ -1,0 +1,56 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-openssl-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-bitflags-1+default-dev <!nocheck>, librust-cfg-if-0.1+default-dev <!nocheck>, librust-foreign-types-0.3+default-dev (>= 0.3.1-~~) <!nocheck>, librust-lazy-static-1+default-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-openssl-sys-0.9+default-dev (>= 0.9.55-~~) <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"070312e85b5de1ae63e25690f0489207ec660c6b769d442e310fc08d487ed491 1907 rust-openssl_0.10.29-1+deb11u1.dsc cee6d85f4cb4c4f59a6a85d5b68a233d280c82e29e822913b9c8b129fbf20bdd 189956 rust-openssl_0.10.29.orig.tar.gz 3dd73847a47e50c76a9e851398e48a0219969d276e3d047a01c66f97abd3e798 3304 rust-openssl_0.10.29-1+deb11u1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/updates/main/r/rust-openssl"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-openssl"
+	],
+	"Package-List": [
+		"librust-openssl-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"extra"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.4.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-hex-0.3+default-dev, librust-tempdir-0.3+default-dev"
+	],
+	"Uploaders": [
+		"Ximin Luo <infinity0@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/openssl"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/openssl]"
+	],
+	"Version": [
+		"0.10.29-1+deb11u1"
+	]
+}
