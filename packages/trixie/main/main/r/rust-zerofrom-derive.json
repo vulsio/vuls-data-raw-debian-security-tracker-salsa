@@ -1,0 +1,62 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-zerofrom-derive-dev"
+	],
+	"Build-Depends": [
+		"debhelper-compat (= 13), dh-sequence-cargo, cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-proc-macro2-1+default-dev (>= 1.0.61-~~) <!nocheck>, librust-quote-1+default-dev (>= 1.0.28-~~) <!nocheck>, librust-syn-2+default-dev (>= 2.0.21-~~) <!nocheck>, librust-syn-2+fold-dev (>= 2.0.21-~~) <!nocheck>, librust-synstructure-0.13+default-dev <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"eff93448e6a7a51473605db37c4d68e7f1a03e302f0d213653f3d1003c8ab339 2528 rust-zerofrom-derive_0.1.5-1.dsc 595eed982f7d355beb85837f651fa22e90b3c044842dc7f2c2842c086f295808 8285 rust-zerofrom-derive_0.1.5.orig.tar.gz 08ead9e8bb14aead564de0a7da66409c75e850467fbd7dfa3309747881601119 4200 rust-zerofrom-derive_0.1.5-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-zerofrom-derive"
+	],
+	"Files": [
+		"627faeaf1cf518886a25712a2988c2e7 2528 rust-zerofrom-derive_0.1.5-1.dsc 2d5e0f96ff0520560a8ab7706ec9f56a 8285 rust-zerofrom-derive_0.1.5.orig.tar.gz 111e5d94392aa18ae288ed554fa3d38c 4200 rust-zerofrom-derive_0.1.5-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://github.com/unicode-org/icu4x"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-zerofrom-derive"
+	],
+	"Package-List": [
+		"librust-zerofrom-derive-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.7.0"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, rustc"
+	],
+	"Uploaders": [
+		"Alexander Kjäll <alexander.kjall@gmail.com>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/zerofrom-derive"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/zerofrom-derive]"
+	],
+	"Version": [
+		"0.1.5-1"
+	]
+}
