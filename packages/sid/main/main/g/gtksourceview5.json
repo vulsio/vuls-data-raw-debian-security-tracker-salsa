@@ -6,19 +6,19 @@
 		"libgtksourceview-5-0, libgtksourceview-5-common, libgtksourceview-5-dev, libgtksourceview-5-doc, gir1.2-gtksource-5, libgtksourceview-5-tests"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, meson (>= 0.60.0), gi-docgen <!nodoc>, libgtk-4-dev (>= 4.10), libatk1.0-dev (>= 1.32), libfribidi-dev, libxml2-dev (>= 2.6), libxml2-utils, libglib2.0-dev (>= 2.73), libgirepository1.0-dev (>= 1.70), libsysprof-capture-4-dev, valac, xauth <!nocheck>, xvfb <!nocheck>"
+		"debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, gi-docgen <!nodoc>, gir1.2-gtk-4.0-dev, libatk1.0-dev (>= 1.32), libfribidi-dev, libgirepository1.0-dev (>= 1.70), libglib2.0-dev (>= 2.73), libgtk-4-dev (>= 4.17), libsysprof-capture-4-dev, libxml2-dev (>= 2.6), libxml2-utils, meson (>= 0.60.0), valac, xauth <!nocheck>, xvfb <!nocheck>"
 	],
 	"Build-Depends-Indep": [
-		"libglib2.0-doc <!nodoc>, libgtk-3-doc <!nodoc>, libgdk-pixbuf2.0-doc <!nodoc>, libpango1.0-doc <!nodoc>"
+		"libgdk-pixbuf2.0-doc <!nodoc>, libglib2.0-doc <!nodoc>, libgtk-3-doc <!nodoc>, libpango1.0-doc <!nodoc>"
 	],
 	"Checksums-Sha256": [
-		"656a43a95fa35fabada65140c5ddd1a654c073fd6587adc6fe61a900d7a206ec 3019 gtksourceview5_5.15.0-1.dsc 2ef21e55799253b8bdf216d5329e8025eeb1a3f1e3e2be44711ff032aaf17738 1262792 gtksourceview5_5.15.0.orig.tar.xz a6cbf9363395166ca5fe3202cd302af9fc026393cc583e5d5deabfbacda6f96a 22120 gtksourceview5_5.15.0-1.debian.tar.xz"
+		"988e857de7fc16370f61ba3b45de558036d24e7905f1889afe1400523ba0d6c8 3008 gtksourceview5_5.15.0-3.dsc 2ef21e55799253b8bdf216d5329e8025eeb1a3f1e3e2be44711ff032aaf17738 1262792 gtksourceview5_5.15.0.orig.tar.xz 75b3e636abfbc65d6229c0042f0872b48d49ca500fbf9cc3fac1a9ee4516ba2c 19996 gtksourceview5_5.15.0-3.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/g/gtksourceview5"
 	],
 	"Files": [
-		"7b6f8c17f0ff3909295d4f5a410eeb96 3019 gtksourceview5_5.15.0-1.dsc b4b007fc60eccf54cbe4961b290857d2 1262792 gtksourceview5_5.15.0.orig.tar.xz c4cd90b87fb3d9afd9545803ab3032e4 22120 gtksourceview5_5.15.0-1.debian.tar.xz"
+		"4837b4450daf1e523460d2355f493cc3 3008 gtksourceview5_5.15.0-3.dsc b4b007fc60eccf54cbe4961b290857d2 1262792 gtksourceview5_5.15.0.orig.tar.xz 178334a3c2b2fda87c3c8216d38256ea 19996 gtksourceview5_5.15.0-3.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -51,7 +51,7 @@
 		"gnome-desktop-testing, xauth, xvfb"
 	],
 	"Uploaders": [
-		"Jeremy Bícha <jbicha@ubuntu.com>, Sebastien Bacher <seb128@debian.org>, Tim Lunn <tim@feathertop.org>"
+		"Jeremy Bícha <jbicha@ubuntu.com>, Sebastien Bacher <seb128@debian.org>"
 	],
 	"Vcs-Browser": [
 		"https://salsa.debian.org/gnome-team/gtksourceview5"
@@ -60,6 +60,6 @@
 		"https://salsa.debian.org/gnome-team/gtksourceview5.git"
 	],
 	"Version": [
-		"5.15.0-1"
+		"5.15.0-3"
 	]
 }
