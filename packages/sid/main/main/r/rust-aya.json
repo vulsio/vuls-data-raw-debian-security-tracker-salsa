@@ -1,0 +1,62 @@
+{
+	"Architecture": [
+		"any"
+	],
+	"Binary": [
+		"librust-aya-dev"
+	],
+	"Build-Depends": [
+		"debhelper (>= 12), dh-cargo (>= 25), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-assert-matches-1-dev (>= 1.5.0-~~) <!nocheck>, librust-aya-obj-0.2+default-dev (>= 0.2.1-~~) <!nocheck>, librust-aya-obj-0.2+std-dev (>= 0.2.1-~~) <!nocheck>, librust-bitflags-2-dev (>= 2.2.1-~~) <!nocheck>, librust-bytes-1-dev <!nocheck>, librust-libc-0.2-dev (>= 0.2.105-~~) <!nocheck>, librust-log-0.4-dev <!nocheck>, librust-object-0.36+elf-dev <!nocheck>, librust-object-0.36+read-core-dev <!nocheck>, librust-object-0.36+std-dev <!nocheck>, librust-object-0.36+write-dev <!nocheck>, librust-once-cell-1-dev (>= 1.20.1-~~) <!nocheck>, librust-thiserror-1-dev <!nocheck>"
+	],
+	"Checksums-Sha256": [
+		"16e3a892b9f60710767eadef3b58f182db92932f77973ba983195b6f00a63196 2730 rust-aya_0.13.1-1.dsc d18bc4e506fbb85ab7392ed993a7db4d1a452c71b75a246af4a80ab8c9d2dd50 196855 rust-aya_0.13.1.orig.tar.gz ff9e80be7257912fa91de471999c21ac40fdac15be6b47df643753d23198d97b 2884 rust-aya_0.13.1-1.debian.tar.xz"
+	],
+	"Directory": [
+		"pool/main/r/rust-aya"
+	],
+	"Files": [
+		"008a632a3ad75ca15d6ad51485865ead 2730 rust-aya_0.13.1-1.dsc a799c649dfe7bb36047d72b640b49d8f 196855 rust-aya_0.13.1.orig.tar.gz ec0c8c19dba222b3c89ec6a557196a09 2884 rust-aya_0.13.1-1.debian.tar.xz"
+	],
+	"Format": [
+		"3.0 (quilt)"
+	],
+	"Homepage": [
+		"https://aya-rs.dev"
+	],
+	"Maintainer": [
+		"Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>"
+	],
+	"Package": [
+		"rust-aya"
+	],
+	"Package-List": [
+		"librust-aya-dev deb rust optional arch=any"
+	],
+	"Priority": [
+		"optional"
+	],
+	"Section": [
+		"misc"
+	],
+	"Standards-Version": [
+		"4.6.1"
+	],
+	"Testsuite": [
+		"autopkgtest"
+	],
+	"Testsuite-Triggers": [
+		"dh-cargo, librust-tempfile-3-dev"
+	],
+	"Uploaders": [
+		"Noah Meyerhans <noahm@debian.org>"
+	],
+	"Vcs-Browser": [
+		"https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/aya"
+	],
+	"Vcs-Git": [
+		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/aya]"
+	],
+	"Version": [
+		"0.13.1-1"
+	]
+}
