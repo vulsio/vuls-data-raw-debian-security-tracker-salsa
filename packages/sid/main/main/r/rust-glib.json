@@ -6,16 +6,16 @@
 		"librust-glib-dev"
 	],
 	"Build-Depends": [
-		"debhelper-compat (= 13), dh-sequence-cargo, cargo:native <!nocheck>, rustc:native (>= 1.70) <!nocheck>, libstd-rust-dev <!nocheck>, librust-bitflags-2+default-dev (>= 2.4-~~) <!nocheck>, librust-futures-channel-0.3+default-dev <!nocheck>, librust-futures-core-0.3-dev <!nocheck>, librust-futures-executor-0.3+default-dev <!nocheck>, librust-futures-task-0.3-dev <!nocheck>, librust-futures-util-0.3+default-dev <!nocheck>, librust-gio-sys-0.20+default-dev (>= 0.20.6-~~) <!nocheck>, librust-glib-macros-0.20+default-dev (>= 0.20.3-~~) <!nocheck>, librust-glib-sys-0.20+default-dev (>= 0.20.6-~~) <!nocheck>, librust-gobject-sys-0.20+default-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-memchr-2+default-dev (>= 2.7-~~) <!nocheck>, librust-smallvec-1+const-generics-dev (>= 1.13-~~) <!nocheck>, librust-smallvec-1+const-new-dev (>= 1.13-~~) <!nocheck>, librust-smallvec-1+default-dev (>= 1.13-~~) <!nocheck>, librust-smallvec-1+union-dev (>= 1.13-~~) <!nocheck>, libglib2.0-dev (>= 2.80) <!nocheck>, gir-rust-code-generator (>= 0.20), libgirepository1.0-dev, xmlstarlet"
+		"debhelper-compat (= 13), dh-sequence-cargo, cargo:native <!nocheck>, rustc:native (>= 1.70) <!nocheck>, libstd-rust-dev <!nocheck>, librust-bitflags-2+default-dev (>= 2.6-~~) <!nocheck>, librust-futures-channel-0.3+default-dev <!nocheck>, librust-futures-core-0.3-dev <!nocheck>, librust-futures-executor-0.3+default-dev <!nocheck>, librust-futures-task-0.3-dev <!nocheck>, librust-futures-util-0.3+default-dev <!nocheck>, librust-gio-sys-0.20+default-dev (>= 0.20.6-~~) <!nocheck>, librust-glib-macros-0.20+default-dev (>= 0.20.3-~~) <!nocheck>, librust-glib-sys-0.20+default-dev (>= 0.20.6-~~) <!nocheck>, librust-gobject-sys-0.20+default-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-memchr-2+default-dev (>= 2.7.4-~~) <!nocheck>, librust-smallvec-1+const-generics-dev (>= 1.13-~~) <!nocheck>, librust-smallvec-1+const-new-dev (>= 1.13-~~) <!nocheck>, librust-smallvec-1+default-dev (>= 1.13-~~) <!nocheck>, librust-smallvec-1+union-dev (>= 1.13-~~) <!nocheck>, libglib2.0-dev (>= 2.80) <!nocheck>, gir-rust-code-generator (>= 0.20), libgirepository1.0-dev, xmlstarlet"
 	],
 	"Checksums-Sha256": [
-		"4283a16b0f186ec2ac542470d0c945619659a814b8f5e9df8ed927d48c25f4cc 2633 rust-glib_0.20.7-1.dsc f969edf089188d821a30cde713b6f9eb08b20c63fc2e584aba2892a7984a8cc0 285650 rust-glib_0.20.7.orig.tar.gz a415061c3231ce59ec46171c649bea88f8e2e58075ff62b34e8deb84d0fcbfd0 5896 rust-glib_0.20.7-1.debian.tar.xz"
+		"a806eb458e3e891a6fc3cf9d1bd664c99cb4246acc32e963d13f1dbf434a4c9f 3240 rust-glib_0.20.7-2.dsc f969edf089188d821a30cde713b6f9eb08b20c63fc2e584aba2892a7984a8cc0 285650 rust-glib_0.20.7.orig.tar.gz 4db19cbbd82530caf1611f6657d6159d376109e5bca9a9eb11dd422e3502095b 5816 rust-glib_0.20.7-2.debian.tar.xz"
 	],
 	"Directory": [
 		"pool/main/r/rust-glib"
 	],
 	"Files": [
-		"5cf2475db1ee1f34b0541d6a15569d3d 2633 rust-glib_0.20.7-1.dsc 578cfeb499d831e0371e8fe1cd975e93 285650 rust-glib_0.20.7.orig.tar.gz dffb52daf79143c4233e0350707f8c3d 5896 rust-glib_0.20.7-1.debian.tar.xz"
+		"b8ad50985e2bcc9c755dc5ed5ea4269c 3240 rust-glib_0.20.7-2.dsc 578cfeb499d831e0371e8fe1cd975e93 285650 rust-glib_0.20.7.orig.tar.gz 814a09f0133877b0f89fbe57a0b306a2 5816 rust-glib_0.20.7-2.debian.tar.xz"
 	],
 	"Format": [
 		"3.0 (quilt)"
@@ -57,6 +57,6 @@
 		"https://salsa.debian.org/rust-team/debcargo-conf.git [src/glib]"
 	],
 	"Version": [
-		"0.20.7-1"
+		"0.20.7-2"
 	]
 }
